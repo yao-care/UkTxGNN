@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB12554-14038_12820_12953_12132_12673_12821_12822_12823_12951_12952_12954",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:01:08.655123+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB12554",
+      "display": "Mebeverine HCl_Tab 135mg"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "http://purl.obolibrary.org/obo/mondo.owl",
+          "code": "14038_12820_12953_12132_12673_12821_12822_12823_12951_12952_12954",
+          "display": "colorectal cancer, susceptibility to"
+        }
+      ],
+      "text": "colorectal cancer, susceptibility to"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN-KG"
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

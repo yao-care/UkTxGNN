@@ -1,0 +1,76 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "uktxgnn-fhir-server",
+  "url": "https://uktxgnn.yao.care/fhir/metadata",
+  "version": "1.0.0",
+  "name": "UkTxGNNFHIRServer",
+  "title": "UkTxGNN FHIR Server",
+  "status": "active",
+  "experimental": true,
+  "date": "2026-03-03",
+  "publisher": "UkTxGNN",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://uktxgnn.yao.care"
+        }
+      ]
+    }
+  ],
+  "description": "UkTxGNN drug repurposing prediction data exposed as FHIR resources. Contains drug repurposing predictions.",
+  "kind": "instance",
+  "software": {
+    "name": "UkTxGNN Static FHIR API",
+    "version": "1.0.0"
+  },
+  "implementation": {
+    "description": "Static FHIR resources served from GitHub Pages",
+    "url": "https://uktxgnn.yao.care/fhir"
+  },
+  "fhirVersion": "4.0.1",
+  "format": [
+    "application/fhir+json"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "documentation": "Static FHIR API - read-only access to drug repurposing predictions",
+      "resource": [
+        {
+          "type": "MedicationKnowledge",
+          "profile": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "token",
+              "documentation": "Drug identifier (slug)"
+            }
+          ]
+        },
+        {
+          "type": "ClinicalUseDefinition",
+          "profile": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "subject",
+              "type": "reference",
+              "documentation": "Reference to MedicationKnowledge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# UkTxGNN Jekyll Configuration
+title: UkTxGNN - UK Drug Repurposing Predictions
+description: Drug repurposing predictions for the United Kingdom using TxGNN knowledge graph
+url: "https://uktxgnn.yao.care"
+baseurl: ""
+
+# Language and locale
+lang: en-GB
+country_code: GB
+country_name: United Kingdom
+regulatory_agency: "Medicines and Healthcare products Regulatory Agency (MHRA)"
+regulatory_agency_url: "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  drugs:
+    output: true
+    permalink: /drugs/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "drugs"
+    values:
+      layout: "drug"
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uktxgnn.yao.care/sitemap.xml

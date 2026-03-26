@@ -1,0 +1,36 @@
+# UkTxGNN Field Configuration
+# MHRA (Medicines and Healthcare products Regulatory Agency) data mapping
+
+country_code: GB
+language: en
+regulatory_agency: MHRA
+regulatory_agency_full: Medicines and Healthcare products Regulatory Agency
+data_source: https://products.mhra.gov.uk/
+
+# MHRA PARD field mapping
+field_mapping:
+  license_id: "Product Licence Number"
+  brand_name_local: "Product Name"
+  brand_name_en: "Product Name"
+  ingredients: "Active Substance"
+  indication: "Therapeutic Indications"
+  dosage_form: "Pharmaceutical Form"
+  route: "Route of Administration"
+  status: "Marketing Authorisation Status"
+
+# Withdrawn/cancelled status keywords
+withdrawn_statuses:
+  - "Revoked"
+  - "Withdrawn"
+  - "Suspended"
+  - "Not renewed"
+
+# File format
+has_indication: true
+data_format: csv
+encoding: utf-8
+
+notes: |
+  MHRA PARD (Pharmaceutical and Regulatory Database) contains UK-licensed medicines.
+  Post-Brexit, UK has separate approvals from EMA.
+  Data can be obtained via MHRA Products search or FOI request.
