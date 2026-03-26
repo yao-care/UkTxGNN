@@ -1,0 +1,3854 @@
+{
+  "generated": "2026-03-26",
+  "drug_count": 37,
+  "indication_count": 271,
+  "drugs": [
+    {
+      "slug": "cefpodoxime",
+      "name": "Cefpodoxime",
+      "keywords": {
+        "en": [
+          "cefpodoxime"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/cefpodoxime/"
+    },
+    {
+      "slug": "pristinamycin",
+      "name": "Pristinamycin",
+      "keywords": {
+        "en": [
+          "pristinamycin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/pristinamycin/"
+    },
+    {
+      "slug": "camphor",
+      "name": "Camphor",
+      "keywords": {
+        "en": [
+          "camphor"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/camphor/"
+    },
+    {
+      "slug": "lacosamide",
+      "name": "Lacosamide",
+      "keywords": {
+        "en": [
+          "lacosamide"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/lacosamide/"
+    },
+    {
+      "slug": "clobazam",
+      "name": "Clobazam",
+      "keywords": {
+        "en": [
+          "clobazam"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/clobazam/"
+    },
+    {
+      "slug": "tyrosine",
+      "name": "Tyrosine",
+      "keywords": {
+        "en": [
+          "tyrosine"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/tyrosine/"
+    },
+    {
+      "slug": "sulfapyridine",
+      "name": "Sulfapyridine",
+      "keywords": {
+        "en": [
+          "sulfapyridine"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/sulfapyridine/"
+    },
+    {
+      "slug": "hypromellose",
+      "name": "Hypromellose",
+      "keywords": {
+        "en": [
+          "hypromellose"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/hypromellose/"
+    },
+    {
+      "slug": "treosulfan",
+      "name": "Treosulfan",
+      "keywords": {
+        "en": [
+          "treosulfan"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/treosulfan/"
+    },
+    {
+      "slug": "apixaban",
+      "name": "Apixaban",
+      "keywords": {
+        "en": [
+          "apixaban"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/apixaban/"
+    },
+    {
+      "slug": "cholesterol",
+      "name": "Cholesterol",
+      "keywords": {
+        "en": [
+          "cholesterol"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/cholesterol/"
+    },
+    {
+      "slug": "alitretinoin",
+      "name": "Alitretinoin",
+      "keywords": {
+        "en": [
+          "alitretinoin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/alitretinoin/"
+    },
+    {
+      "slug": "penciclovir",
+      "name": "Penciclovir",
+      "keywords": {
+        "en": [
+          "penciclovir"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/penciclovir/"
+    },
+    {
+      "slug": "alprostadil",
+      "name": "Alprostadil",
+      "keywords": {
+        "en": [
+          "alprostadil"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/alprostadil/"
+    },
+    {
+      "slug": "taurolidine",
+      "name": "Taurolidine",
+      "keywords": {
+        "en": [
+          "taurolidine"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/taurolidine/"
+    },
+    {
+      "slug": "crotamiton",
+      "name": "Crotamiton",
+      "keywords": {
+        "en": [
+          "crotamiton"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/crotamiton/"
+    },
+    {
+      "slug": "nicorandil",
+      "name": "Nicorandil",
+      "keywords": {
+        "en": [
+          "nicorandil"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/nicorandil/"
+    },
+    {
+      "slug": "amorolfine",
+      "name": "Amorolfine",
+      "keywords": {
+        "en": [
+          "amorolfine"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/amorolfine/"
+    },
+    {
+      "slug": "phenothrin",
+      "name": "Phenothrin",
+      "keywords": {
+        "en": [
+          "phenothrin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/phenothrin/"
+    },
+    {
+      "slug": "urofollitropin",
+      "name": "Urofollitropin",
+      "keywords": {
+        "en": [
+          "urofollitropin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/urofollitropin/"
+    },
+    {
+      "slug": "lactic_acid",
+      "name": "Lactic acid",
+      "keywords": {
+        "en": [
+          "lactic acid"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/lactic_acid/"
+    },
+    {
+      "slug": "nefopam",
+      "name": "Nefopam",
+      "keywords": {
+        "en": [
+          "nefopam"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/nefopam/"
+    },
+    {
+      "slug": "menotropins",
+      "name": "Menotropins",
+      "keywords": {
+        "en": [
+          "menotropins"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/menotropins/"
+    },
+    {
+      "slug": "prucalopride",
+      "name": "Prucalopride",
+      "keywords": {
+        "en": [
+          "prucalopride"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/prucalopride/"
+    },
+    {
+      "slug": "fidaxomicin",
+      "name": "Fidaxomicin",
+      "keywords": {
+        "en": [
+          "fidaxomicin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/fidaxomicin/"
+    },
+    {
+      "slug": "gamolenic_acid",
+      "name": "Gamolenic acid",
+      "keywords": {
+        "en": [
+          "gamolenic acid"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/gamolenic_acid/"
+    },
+    {
+      "slug": "tolvaptan",
+      "name": "Tolvaptan",
+      "keywords": {
+        "en": [
+          "tolvaptan"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/tolvaptan/"
+    },
+    {
+      "slug": "terlipressin",
+      "name": "Terlipressin",
+      "keywords": {
+        "en": [
+          "terlipressin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/terlipressin/"
+    },
+    {
+      "slug": "prasugrel",
+      "name": "Prasugrel",
+      "keywords": {
+        "en": [
+          "prasugrel"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/prasugrel/"
+    },
+    {
+      "slug": "dornase_alfa",
+      "name": "Dornase alfa",
+      "keywords": {
+        "en": [
+          "dornase alfa"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/dornase_alfa/"
+    },
+    {
+      "slug": "acetarsol",
+      "name": "Acetarsol",
+      "keywords": {
+        "en": [
+          "acetarsol"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/acetarsol/"
+    },
+    {
+      "slug": "mupirocin",
+      "name": "Mupirocin",
+      "keywords": {
+        "en": [
+          "mupirocin"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/mupirocin/"
+    },
+    {
+      "slug": "formaldehyde",
+      "name": "Formaldehyde",
+      "keywords": {
+        "en": [
+          "formaldehyde"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/formaldehyde/"
+    },
+    {
+      "slug": "peppermint_oil",
+      "name": "Peppermint oil",
+      "keywords": {
+        "en": [
+          "peppermint oil"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/peppermint_oil/"
+    },
+    {
+      "slug": "maraviroc",
+      "name": "Maraviroc",
+      "keywords": {
+        "en": [
+          "maraviroc"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/maraviroc/"
+    },
+    {
+      "slug": "methionine",
+      "name": "Methionine",
+      "keywords": {
+        "en": [
+          "methionine"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/methionine/"
+    },
+    {
+      "slug": "tocofersolan",
+      "name": "Tocofersolan",
+      "keywords": {
+        "en": [
+          "tocofersolan"
+        ],
+        "zh": []
+      },
+      "url": "/drugs/tocofersolan/"
+    }
+  ],
+  "indications": [
+    {
+      "name": "coronary artery disease",
+      "keywords": {
+        "en": [
+          "coronary artery disease"
+        ],
+        "zh": [
+          "heart disease",
+          "CAD",
+          "coronary heart disease",
+          "angina"
+        ]
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "heart disease",
+      "keywords": {
+        "en": [
+          "coronary artery disease"
+        ],
+        "zh": [
+          "heart disease"
+        ]
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "CAD",
+      "keywords": {
+        "en": [
+          "coronary artery disease"
+        ],
+        "zh": [
+          "CAD"
+        ]
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "coronary heart disease",
+      "keywords": {
+        "en": [
+          "coronary artery disease"
+        ],
+        "zh": [
+          "coronary heart disease"
+        ]
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "angina",
+      "keywords": {
+        "en": [
+          "coronary artery disease"
+        ],
+        "zh": [
+          "angina"
+        ]
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "rheumatoid arthritis",
+      "keywords": {
+        "en": [
+          "rheumatoid arthritis"
+        ],
+        "zh": [
+          "RA",
+          "rheumatism",
+          "joint inflammation"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "apixaban",
+        "gamolenic_acid",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "RA",
+      "keywords": {
+        "en": [
+          "rheumatoid arthritis"
+        ],
+        "zh": [
+          "RA"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "apixaban",
+        "gamolenic_acid",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "rheumatism",
+      "keywords": {
+        "en": [
+          "rheumatoid arthritis"
+        ],
+        "zh": [
+          "rheumatism"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "apixaban",
+        "gamolenic_acid",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "joint inflammation",
+      "keywords": {
+        "en": [
+          "rheumatoid arthritis"
+        ],
+        "zh": [
+          "joint inflammation"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "apixaban",
+        "gamolenic_acid",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "osteoarthritis",
+      "keywords": {
+        "en": [
+          "osteoarthritis"
+        ],
+        "zh": [
+          "OA",
+          "degenerative joint disease",
+          "arthritis"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "OA",
+      "keywords": {
+        "en": [
+          "osteoarthritis"
+        ],
+        "zh": [
+          "OA"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "degenerative joint disease",
+      "keywords": {
+        "en": [
+          "osteoarthritis"
+        ],
+        "zh": [
+          "degenerative joint disease"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "arthritis",
+      "keywords": {
+        "en": [
+          "osteoarthritis"
+        ],
+        "zh": [
+          "arthritis"
+        ]
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "anxiety disorder",
+      "keywords": {
+        "en": [
+          "anxiety disorder"
+        ],
+        "zh": [
+          "anxiety",
+          "generalised anxiety",
+          "GAD"
+        ]
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "anxiety",
+      "keywords": {
+        "en": [
+          "anxiety disorder"
+        ],
+        "zh": [
+          "anxiety"
+        ]
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "generalised anxiety",
+      "keywords": {
+        "en": [
+          "anxiety disorder"
+        ],
+        "zh": [
+          "generalised anxiety"
+        ]
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "GAD",
+      "keywords": {
+        "en": [
+          "anxiety disorder"
+        ],
+        "zh": [
+          "GAD"
+        ]
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "hyperthyroidism",
+      "keywords": {
+        "en": [
+          "hyperthyroidism"
+        ],
+        "zh": [
+          "overactive thyroid",
+          "Graves' disease"
+        ]
+      },
+      "related_drugs": [
+        "tyrosine",
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "overactive thyroid",
+      "keywords": {
+        "en": [
+          "hyperthyroidism"
+        ],
+        "zh": [
+          "overactive thyroid"
+        ]
+      },
+      "related_drugs": [
+        "tyrosine",
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "Graves' disease",
+      "keywords": {
+        "en": [
+          "hyperthyroidism"
+        ],
+        "zh": [
+          "Graves' disease"
+        ]
+      },
+      "related_drugs": [
+        "tyrosine",
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "psoriasis",
+      "keywords": {
+        "en": [
+          "psoriasis"
+        ],
+        "zh": [
+          "plaque psoriasis",
+          "skin condition"
+        ]
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "plaque psoriasis",
+      "keywords": {
+        "en": [
+          "psoriasis"
+        ],
+        "zh": [
+          "plaque psoriasis"
+        ]
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "skin condition",
+      "keywords": {
+        "en": [
+          "psoriasis"
+        ],
+        "zh": [
+          "skin condition"
+        ]
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "osteoarthritis susceptibility",
+      "keywords": {
+        "en": [
+          "osteoarthritis susceptibility"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "hemoglobinopathy",
+      "keywords": {
+        "en": [
+          "hemoglobinopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime"
+      ]
+    },
+    {
+      "name": "brachyolmia",
+      "keywords": {
+        "en": [
+          "brachyolmia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
+      "keywords": {
+        "en": [
+          "colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "apixaban",
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "acromesomelic dysplasia, Hunter-Thompson type",
+      "keywords": {
+        "en": [
+          "acromesomelic dysplasia, Hunter-Thompson type"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "brachyolmia-amelogenesis imperfecta syndrome",
+      "keywords": {
+        "en": [
+          "brachyolmia-amelogenesis imperfecta syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime",
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "myosclerosis",
+      "keywords": {
+        "en": [
+          "myosclerosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime"
+      ]
+    },
+    {
+      "name": "pseudoachondroplasia",
+      "keywords": {
+        "en": [
+          "pseudoachondroplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cefpodoxime"
+      ]
+    },
+    {
+      "name": "disease of retroperitoneum",
+      "keywords": {
+        "en": [
+          "disease of retroperitoneum"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "lumbar spinal stenosis",
+      "keywords": {
+        "en": [
+          "lumbar spinal stenosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "amorolfine",
+        "nefopam"
+      ]
+    },
+    {
+      "name": "celiac trunk compression syndrome",
+      "keywords": {
+        "en": [
+          "celiac trunk compression syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "abdominal ectopic pregnancy",
+      "keywords": {
+        "en": [
+          "abdominal ectopic pregnancy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "abdominal cystic lymphangioma",
+      "keywords": {
+        "en": [
+          "abdominal cystic lymphangioma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "disease of uterine broad ligament",
+      "keywords": {
+        "en": [
+          "disease of uterine broad ligament"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "lymph node palisaded myofibroblastoma",
+      "keywords": {
+        "en": [
+          "lymph node palisaded myofibroblastoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "sacrum chordoma",
+      "keywords": {
+        "en": [
+          "sacrum chordoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "urethral disease",
+      "keywords": {
+        "en": [
+          "urethral disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin",
+        "crotamiton",
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "pudendal neuralgia",
+      "keywords": {
+        "en": [
+          "pudendal neuralgia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "pristinamycin"
+      ]
+    },
+    {
+      "name": "migraine disorder",
+      "keywords": {
+        "en": [
+          "migraine disorder"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "lacosamide",
+        "apixaban",
+        "urofollitropin",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "migraine with brainstem aura",
+      "keywords": {
+        "en": [
+          "migraine with brainstem aura"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "lacosamide",
+        "apixaban",
+        "urofollitropin",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "erectile dysfunction (disease)",
+      "keywords": {
+        "en": [
+          "erectile dysfunction (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor"
+      ]
+    },
+    {
+      "name": "pulmonary hypertension",
+      "keywords": {
+        "en": [
+          "pulmonary hypertension"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "apixaban",
+        "terlipressin",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "migraine with or without aura, susceptibility to",
+      "keywords": {
+        "en": [
+          "migraine with or without aura, susceptibility to"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "apixaban",
+        "urofollitropin",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "kyphoscoliotic heart disease",
+      "keywords": {
+        "en": [
+          "kyphoscoliotic heart disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "apixaban",
+        "terlipressin",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "ulerythema ophryogenesis",
+      "keywords": {
+        "en": [
+          "ulerythema ophryogenesis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor"
+      ]
+    },
+    {
+      "name": "Raynaud disease",
+      "keywords": {
+        "en": [
+          "Raynaud disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "urofollitropin",
+        "menotropins"
+      ]
+    },
+    {
+      "name": "atrophoderma vermiculata",
+      "keywords": {
+        "en": [
+          "atrophoderma vermiculata"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor"
+      ]
+    },
+    {
+      "name": "Tourette syndrome",
+      "keywords": {
+        "en": [
+          "Tourette syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "camphor",
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "manic bipolar affective disorder",
+      "keywords": {
+        "en": [
+          "manic bipolar affective disorder"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "trichotillomania",
+      "keywords": {
+        "en": [
+          "trichotillomania"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "nephrogenic syndrome of inappropriate antidiuresis",
+      "keywords": {
+        "en": [
+          "nephrogenic syndrome of inappropriate antidiuresis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "insomnia (disease)",
+      "keywords": {
+        "en": [
+          "insomnia (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide",
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "myofascial pain syndrome",
+      "keywords": {
+        "en": [
+          "myofascial pain syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "obsessive-compulsive disorder",
+      "keywords": {
+        "en": [
+          "obsessive-compulsive disorder"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "papillary conjunctivitis",
+      "keywords": {
+        "en": [
+          "papillary conjunctivitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lacosamide"
+      ]
+    },
+    {
+      "name": "febrile infection-related epilepsy syndrome",
+      "keywords": {
+        "en": [
+          "febrile infection-related epilepsy syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "perioral myoclonia with absences",
+      "keywords": {
+        "en": [
+          "perioral myoclonia with absences"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "cryptogenic late-onset epileptic spasms",
+      "keywords": {
+        "en": [
+          "cryptogenic late-onset epileptic spasms"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "atypical childhood epilepsy with centrotemporal spikes",
+      "keywords": {
+        "en": [
+          "atypical childhood epilepsy with centrotemporal spikes"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "photosensitive occipital lobe epilepsy",
+      "keywords": {
+        "en": [
+          "photosensitive occipital lobe epilepsy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "childhood onset epileptic encephalopathy",
+      "keywords": {
+        "en": [
+          "childhood onset epileptic encephalopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "benign occipital epilepsy",
+      "keywords": {
+        "en": [
+          "benign occipital epilepsy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation",
+      "keywords": {
+        "en": [
+          "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "restless legs syndrome",
+      "keywords": {
+        "en": [
+          "restless legs syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam",
+        "urofollitropin"
+      ]
+    },
+    {
+      "name": "polymicrogyria with optic nerve hypoplasia",
+      "keywords": {
+        "en": [
+          "polymicrogyria with optic nerve hypoplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "clobazam"
+      ]
+    },
+    {
+      "name": "cauda equina syndrome",
+      "keywords": {
+        "en": [
+          "cauda equina syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine",
+        "urofollitropin",
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "obsolete neurogenic bladder (disease)",
+      "keywords": {
+        "en": [
+          "obsolete neurogenic bladder (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine",
+        "urofollitropin"
+      ]
+    },
+    {
+      "name": "angle-closure glaucoma",
+      "keywords": {
+        "en": [
+          "angle-closure glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "postural orthostatic tachycardia syndrome",
+      "keywords": {
+        "en": [
+          "postural orthostatic tachycardia syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine",
+        "urofollitropin",
+        "menotropins"
+      ]
+    },
+    {
+      "name": "hyperthyroxinemia",
+      "keywords": {
+        "en": [
+          "hyperthyroxinemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
+      "keywords": {
+        "en": [
+          "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "aqueous misdirection",
+      "keywords": {
+        "en": [
+          "aqueous misdirection"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "traumatic glaucoma",
+      "keywords": {
+        "en": [
+          "traumatic glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "neovascular glaucoma",
+      "keywords": {
+        "en": [
+          "neovascular glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tyrosine"
+      ]
+    },
+    {
+      "name": "heparin-induced thrombocytopenia (disease)",
+      "keywords": {
+        "en": [
+          "heparin-induced thrombocytopenia (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "hereditary angioedema",
+      "keywords": {
+        "en": [
+          "hereditary angioedema"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "hereditary angioedema with C1Inh deficiency",
+      "keywords": {
+        "en": [
+          "hereditary angioedema with C1Inh deficiency"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "acquired aplastic anemia",
+      "keywords": {
+        "en": [
+          "acquired aplastic anemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "C1 inhibitor deficiency",
+      "keywords": {
+        "en": [
+          "C1 inhibitor deficiency"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "autoimmune hemolytic anemia",
+      "keywords": {
+        "en": [
+          "autoimmune hemolytic anemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "serpinopathy with toxic serpin polymerization",
+      "keywords": {
+        "en": [
+          "serpinopathy with toxic serpin polymerization"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "disorder of GPI anchor biosynthesis",
+      "keywords": {
+        "en": [
+          "disorder of GPI anchor biosynthesis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "hemoglobinuria",
+      "keywords": {
+        "en": [
+          "hemoglobinuria"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "venous insufficiency (disease)",
+      "keywords": {
+        "en": [
+          "venous insufficiency (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "sulfapyridine"
+      ]
+    },
+    {
+      "name": "hepatic veno-occlusive disease-immunodeficiency syndrome",
+      "keywords": {
+        "en": [
+          "hepatic veno-occlusive disease-immunodeficiency syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "pancytopenia due to IKZF1 mutations",
+      "keywords": {
+        "en": [
+          "pancytopenia due to IKZF1 mutations"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "hepatic veno-occlusive disease",
+      "keywords": {
+        "en": [
+          "hepatic veno-occlusive disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "combined immunodeficiency due to CRAC channel dysfunction",
+      "keywords": {
+        "en": [
+          "combined immunodeficiency due to CRAC channel dysfunction"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "absent thumb-short stature-immunodeficiency syndrome",
+      "keywords": {
+        "en": [
+          "absent thumb-short stature-immunodeficiency syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "facial dysmorphism-immunodeficiency-livedo-short stature syndrome",
+      "keywords": {
+        "en": [
+          "facial dysmorphism-immunodeficiency-livedo-short stature syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "immuno-osseous dysplasia",
+      "keywords": {
+        "en": [
+          "immuno-osseous dysplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis",
+      "keywords": {
+        "en": [
+          "autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "human herpesvirus 8-related tumor",
+      "keywords": {
+        "en": [
+          "human herpesvirus 8-related tumor"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "hypromellose"
+      ]
+    },
+    {
+      "name": "diabetic cataract",
+      "keywords": {
+        "en": [
+          "diabetic cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "nuclear senile cataract",
+      "keywords": {
+        "en": [
+          "nuclear senile cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "cortical cataract",
+      "keywords": {
+        "en": [
+          "cortical cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "tetanic cataract",
+      "keywords": {
+        "en": [
+          "tetanic cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "craniostenosis cataract",
+      "keywords": {
+        "en": [
+          "craniostenosis cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "immature cataract",
+      "keywords": {
+        "en": [
+          "immature cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "mature cataract",
+      "keywords": {
+        "en": [
+          "mature cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "diabetes mellitus type 2 associated cataract",
+      "keywords": {
+        "en": [
+          "diabetes mellitus type 2 associated cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam",
+        "methionine"
+      ]
+    },
+    {
+      "name": "diabetic retinopathy",
+      "keywords": {
+        "en": [
+          "diabetic retinopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine"
+      ]
+    },
+    {
+      "name": "senile cataract",
+      "keywords": {
+        "en": [
+          "senile cataract"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "treosulfan",
+        "taurolidine",
+        "nefopam"
+      ]
+    },
+    {
+      "name": "leprosy",
+      "keywords": {
+        "en": [
+          "leprosy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "apixaban",
+        "prasugrel",
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "Prinzmetal angina",
+      "keywords": {
+        "en": [
+          "Prinzmetal angina"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "apixaban"
+      ]
+    },
+    {
+      "name": "brachydactyly-syndactyly syndrome",
+      "keywords": {
+        "en": [
+          "brachydactyly-syndactyly syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "apixaban",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "homozygous familial hypercholesterolemia",
+      "keywords": {
+        "en": [
+          "homozygous familial hypercholesterolemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "prucalopride",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "multiple endocrine neoplasia",
+      "keywords": {
+        "en": [
+          "multiple endocrine neoplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "HIV infectious disease",
+      "keywords": {
+        "en": [
+          "HIV infectious disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "primary release disorder of platelets",
+      "keywords": {
+        "en": [
+          "primary release disorder of platelets"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol"
+      ]
+    },
+    {
+      "name": "HER2 positive breast carcinoma",
+      "keywords": {
+        "en": [
+          "HER2 positive breast carcinoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "infectious bovine rhinotracheitis",
+      "keywords": {
+        "en": [
+          "infectious bovine rhinotracheitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "malignant catarrh",
+      "keywords": {
+        "en": [
+          "malignant catarrh"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "cytomegalovirus infection",
+      "keywords": {
+        "en": [
+          "cytomegalovirus infection"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol",
+        "maraviroc",
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "feline acquired immunodeficiency syndrome",
+      "keywords": {
+        "en": [
+          "feline acquired immunodeficiency syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol"
+      ]
+    },
+    {
+      "name": "simian immunodeficiency virus infection",
+      "keywords": {
+        "en": [
+          "simian immunodeficiency virus infection"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "cholesterol"
+      ]
+    },
+    {
+      "name": "amenorrhea (disease)",
+      "keywords": {
+        "en": [
+          "amenorrhea (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin",
+        "lactic_acid",
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "acne (disease)",
+      "keywords": {
+        "en": [
+          "acne (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin",
+        "maraviroc",
+        "methionine",
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "atypical coarctation of aorta",
+      "keywords": {
+        "en": [
+          "atypical coarctation of aorta"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin",
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "pregnancy associated osteoporosis",
+      "keywords": {
+        "en": [
+          "pregnancy associated osteoporosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "aortic malformation",
+      "keywords": {
+        "en": [
+          "aortic malformation"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin",
+        "alprostadil",
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "postmenopausal osteoporosis",
+      "keywords": {
+        "en": [
+          "postmenopausal osteoporosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "autosomal dominant neovascular inflammatory vitreoretinopathy",
+      "keywords": {
+        "en": [
+          "autosomal dominant neovascular inflammatory vitreoretinopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "breast fibrocystic disease",
+      "keywords": {
+        "en": [
+          "breast fibrocystic disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "benign mammary dysplasia",
+      "keywords": {
+        "en": [
+          "benign mammary dysplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "Worth syndrome",
+      "keywords": {
+        "en": [
+          "Worth syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alitretinoin"
+      ]
+    },
+    {
+      "name": "fascioliasis",
+      "keywords": {
+        "en": [
+          "fascioliasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "cysticercosis",
+      "keywords": {
+        "en": [
+          "cysticercosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "coenurosis",
+      "keywords": {
+        "en": [
+          "coenurosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "intestinal helminthiasis",
+      "keywords": {
+        "en": [
+          "intestinal helminthiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "malignant pleural mesothelioma",
+      "keywords": {
+        "en": [
+          "malignant pleural mesothelioma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "endomyometritis",
+      "keywords": {
+        "en": [
+          "endomyometritis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "malignant epithelioid mesothelioma",
+      "keywords": {
+        "en": [
+          "malignant epithelioid mesothelioma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "sarcomatoid mesothelioma",
+      "keywords": {
+        "en": [
+          "sarcomatoid mesothelioma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "synovium cancer",
+      "keywords": {
+        "en": [
+          "synovium cancer"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "malignant visceral pleura tumor",
+      "keywords": {
+        "en": [
+          "malignant visceral pleura tumor"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "penciclovir"
+      ]
+    },
+    {
+      "name": "congenital tricuspid stenosis",
+      "keywords": {
+        "en": [
+          "congenital tricuspid stenosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "congenital valvular dysplasia",
+      "keywords": {
+        "en": [
+          "congenital valvular dysplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "straddling or overriding tricuspid valve",
+      "keywords": {
+        "en": [
+          "straddling or overriding tricuspid valve"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "tricuspid valve agenesis",
+      "keywords": {
+        "en": [
+          "tricuspid valve agenesis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "tricuspid valve prolapse (disease)",
+      "keywords": {
+        "en": [
+          "tricuspid valve prolapse (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "anomaly of the tricuspid subvalvular apparatus",
+      "keywords": {
+        "en": [
+          "anomaly of the tricuspid subvalvular apparatus"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy",
+      "keywords": {
+        "en": [
+          "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil",
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "heart septal defect",
+      "keywords": {
+        "en": [
+          "heart septal defect"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "endemic goiter",
+      "keywords": {
+        "en": [
+          "endemic goiter"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "alprostadil"
+      ]
+    },
+    {
+      "name": "trombiculiasis",
+      "keywords": {
+        "en": [
+          "trombiculiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "crotamiton"
+      ]
+    },
+    {
+      "name": "hordeolum",
+      "keywords": {
+        "en": [
+          "hordeolum"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "crotamiton",
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "benign prostatic hyperplasia (disease)",
+      "keywords": {
+        "en": [
+          "benign prostatic hyperplasia (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "alopecia",
+      "keywords": {
+        "en": [
+          "alopecia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "hypotrichosis simplex of the scalp",
+      "keywords": {
+        "en": [
+          "hypotrichosis simplex of the scalp"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "congenital hypotrichosis milia",
+      "keywords": {
+        "en": [
+          "congenital hypotrichosis milia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "diffuse alopecia areata",
+      "keywords": {
+        "en": [
+          "diffuse alopecia areata"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "nicorandil"
+      ]
+    },
+    {
+      "name": "drug-induced osteoporosis",
+      "keywords": {
+        "en": [
+          "drug-induced osteoporosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "amorolfine"
+      ]
+    },
+    {
+      "name": "aleutian mink disease",
+      "keywords": {
+        "en": [
+          "aleutian mink disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "feline panleukopenia",
+      "keywords": {
+        "en": [
+          "feline panleukopenia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "variola minor infection",
+      "keywords": {
+        "en": [
+          "variola minor infection"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "benign neoplasm of tongue",
+      "keywords": {
+        "en": [
+          "benign neoplasm of tongue"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "epiglottis neoplasm",
+      "keywords": {
+        "en": [
+          "epiglottis neoplasm"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "benign neoplasm of hypopharynx",
+      "keywords": {
+        "en": [
+          "benign neoplasm of hypopharynx"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "nasal cavity inverting papilloma",
+      "keywords": {
+        "en": [
+          "nasal cavity inverting papilloma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "trochlear nerve neoplasm",
+      "keywords": {
+        "en": [
+          "trochlear nerve neoplasm"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "spinal accessory nerve neoplasm",
+      "keywords": {
+        "en": [
+          "spinal accessory nerve neoplasm"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "facial nerve neoplasm",
+      "keywords": {
+        "en": [
+          "facial nerve neoplasm"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "phenothrin"
+      ]
+    },
+    {
+      "name": "His bundle tachycardia",
+      "keywords": {
+        "en": [
+          "His bundle tachycardia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "urofollitropin",
+        "menotropins"
+      ]
+    },
+    {
+      "name": "multifocal atrial tachycardia (disease)",
+      "keywords": {
+        "en": [
+          "multifocal atrial tachycardia (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "urofollitropin"
+      ]
+    },
+    {
+      "name": "non-syndromic esophageal malformation",
+      "keywords": {
+        "en": [
+          "non-syndromic esophageal malformation"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lactic_acid",
+        "menotropins"
+      ]
+    },
+    {
+      "name": "dry eye syndrome",
+      "keywords": {
+        "en": [
+          "dry eye syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "esophageal disease",
+      "keywords": {
+        "en": [
+          "esophageal disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lactic_acid",
+        "menotropins"
+      ]
+    },
+    {
+      "name": "excretory apparatus of the lacrimal system anomaly",
+      "keywords": {
+        "en": [
+          "excretory apparatus of the lacrimal system anomaly"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "eye disease",
+      "keywords": {
+        "en": [
+          "eye disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "lactic_acid"
+      ]
+    },
+    {
+      "name": "peptic esophagitis",
+      "keywords": {
+        "en": [
+          "peptic esophagitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "menotropins"
+      ]
+    },
+    {
+      "name": "esophageal ulcer",
+      "keywords": {
+        "en": [
+          "esophageal ulcer"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "menotropins"
+      ]
+    },
+    {
+      "name": "sinoatrial block",
+      "keywords": {
+        "en": [
+          "sinoatrial block"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "menotropins"
+      ]
+    },
+    {
+      "name": "progressive familial heart block",
+      "keywords": {
+        "en": [
+          "progressive familial heart block"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "menotropins"
+      ]
+    },
+    {
+      "name": "sinoatrial node disease",
+      "keywords": {
+        "en": [
+          "sinoatrial node disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "menotropins"
+      ]
+    },
+    {
+      "name": "hypoalphalipoproteinemia",
+      "keywords": {
+        "en": [
+          "hypoalphalipoproteinemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride",
+        "prasugrel"
+      ]
+    },
+    {
+      "name": "duodenal ulcer (disease)",
+      "keywords": {
+        "en": [
+          "duodenal ulcer (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "oral candidiasis",
+      "keywords": {
+        "en": [
+          "oral candidiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "obsolete familial combined hyperlipidemia",
+      "keywords": {
+        "en": [
+          "obsolete familial combined hyperlipidemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "amyloidosis (disease)",
+      "keywords": {
+        "en": [
+          "amyloidosis (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "strongyloidiasis",
+      "keywords": {
+        "en": [
+          "strongyloidiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "primary amyloidosis",
+      "keywords": {
+        "en": [
+          "primary amyloidosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "acquired amyloid peripheral neuropathy",
+      "keywords": {
+        "en": [
+          "acquired amyloid peripheral neuropathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "prucalopride"
+      ]
+    },
+    {
+      "name": "staphylococcal scalded skin syndrome",
+      "keywords": {
+        "en": [
+          "staphylococcal scalded skin syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin",
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "bullous impetigo",
+      "keywords": {
+        "en": [
+          "bullous impetigo"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "inhalational botulism",
+      "keywords": {
+        "en": [
+          "inhalational botulism"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "impetigo",
+      "keywords": {
+        "en": [
+          "impetigo"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "toxin-mediated infectious botulism",
+      "keywords": {
+        "en": [
+          "toxin-mediated infectious botulism"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "vulvovaginal candidiasis",
+      "keywords": {
+        "en": [
+          "vulvovaginal candidiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "staphylococcus aureus pneumonia",
+      "keywords": {
+        "en": [
+          "staphylococcus aureus pneumonia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "punctate epithelial keratoconjunctivitis",
+      "keywords": {
+        "en": [
+          "punctate epithelial keratoconjunctivitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin",
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "parasitic skin disease",
+      "keywords": {
+        "en": [
+          "parasitic skin disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "fidaxomicin"
+      ]
+    },
+    {
+      "name": "sleep disorder, initiating and maintaining sleep",
+      "keywords": {
+        "en": [
+          "sleep disorder, initiating and maintaining sleep"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "agoraphobia",
+      "keywords": {
+        "en": [
+          "agoraphobia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "alcohol withdrawal delirium",
+      "keywords": {
+        "en": [
+          "alcohol withdrawal delirium"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "benign paroxysmal torticollis of infancy",
+      "keywords": {
+        "en": [
+          "benign paroxysmal torticollis of infancy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "acute encephalopathy with biphasic seizures and late reduced diffusion",
+      "keywords": {
+        "en": [
+          "acute encephalopathy with biphasic seizures and late reduced diffusion"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "gamolenic_acid"
+      ]
+    },
+    {
+      "name": "polycystic kidney disease 3 with or without polycystic liver disease",
+      "keywords": {
+        "en": [
+          "polycystic kidney disease 3 with or without polycystic liver disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "renal-hepatic-pancreatic dysplasia",
+      "keywords": {
+        "en": [
+          "renal-hepatic-pancreatic dysplasia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "karyomegalic interstitial nephritis",
+      "keywords": {
+        "en": [
+          "karyomegalic interstitial nephritis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "thoracic malformation",
+      "keywords": {
+        "en": [
+          "thoracic malformation"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "Joubert syndrome with renal defect",
+      "keywords": {
+        "en": [
+          "Joubert syndrome with renal defect"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "adult familial nephronophthisis-spastic quadriparesia syndrome",
+      "keywords": {
+        "en": [
+          "adult familial nephronophthisis-spastic quadriparesia syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "Ambras type hypertrichosis universalis congenita",
+      "keywords": {
+        "en": [
+          "Ambras type hypertrichosis universalis congenita"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "hypertrichosis (disease)",
+      "keywords": {
+        "en": [
+          "hypertrichosis (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "malformation syndrome with odontal and/or periodontal component",
+      "keywords": {
+        "en": [
+          "malformation syndrome with odontal and/or periodontal component"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "syndrome with a Dandy-Walker malformation as major feature",
+      "keywords": {
+        "en": [
+          "syndrome with a Dandy-Walker malformation as major feature"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tolvaptan"
+      ]
+    },
+    {
+      "name": "open-angle glaucoma",
+      "keywords": {
+        "en": [
+          "open-angle glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "primary hereditary glaucoma",
+      "keywords": {
+        "en": [
+          "primary hereditary glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "esotropia",
+      "keywords": {
+        "en": [
+          "esotropia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "glaucoma 1, open angle",
+      "keywords": {
+        "en": [
+          "glaucoma 1, open angle"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "headache disorder",
+      "keywords": {
+        "en": [
+          "headache disorder"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "glaucoma",
+      "keywords": {
+        "en": [
+          "glaucoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "trigeminal autonomic cephalalgia",
+      "keywords": {
+        "en": [
+          "trigeminal autonomic cephalalgia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "terlipressin"
+      ]
+    },
+    {
+      "name": "Fryns Smeets Thiry syndrome",
+      "keywords": {
+        "en": [
+          "Fryns Smeets Thiry syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "Fryns Fabry Remans syndrome",
+      "keywords": {
+        "en": [
+          "Fryns Fabry Remans syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "congenital nervous system disorder",
+      "keywords": {
+        "en": [
+          "congenital nervous system disorder"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "Flinders island spotted fever",
+      "keywords": {
+        "en": [
+          "Flinders island spotted fever"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "frontonasal dysplasia phocomelic upper limbs",
+      "keywords": {
+        "en": [
+          "frontonasal dysplasia phocomelic upper limbs"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "frontonasal dysplasia Klippel feil syndrome",
+      "keywords": {
+        "en": [
+          "frontonasal dysplasia Klippel feil syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "frontonasal malformation cloacal exstrophy",
+      "keywords": {
+        "en": [
+          "frontonasal malformation cloacal exstrophy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "central nervous system origin vertigo",
+      "keywords": {
+        "en": [
+          "central nervous system origin vertigo"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "sensory peripheral neuropathy",
+      "keywords": {
+        "en": [
+          "sensory peripheral neuropathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "galactorrhoea-hyperprolactinaemia",
+      "keywords": {
+        "en": [
+          "galactorrhoea-hyperprolactinaemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "dornase_alfa"
+      ]
+    },
+    {
+      "name": "leishmaniasis, diffuse cutaneous",
+      "keywords": {
+        "en": [
+          "leishmaniasis, diffuse cutaneous"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol",
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "mucocutaneous leishmaniasis",
+      "keywords": {
+        "en": [
+          "mucocutaneous leishmaniasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol",
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "X-linked lymphoproliferative syndrome",
+      "keywords": {
+        "en": [
+          "X-linked lymphoproliferative syndrome"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol",
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "type 2 diabetes nephropathy",
+      "keywords": {
+        "en": [
+          "type 2 diabetes nephropathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "streptococcal pneumonia",
+      "keywords": {
+        "en": [
+          "streptococcal pneumonia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol",
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "squamous cell lung carcinoma",
+      "keywords": {
+        "en": [
+          "squamous cell lung carcinoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "Legionnaires' disease",
+      "keywords": {
+        "en": [
+          "Legionnaires' disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "rete ovarii cystadenoma",
+      "keywords": {
+        "en": [
+          "rete ovarii cystadenoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "ovarian benign neoplasm",
+      "keywords": {
+        "en": [
+          "ovarian benign neoplasm"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "ovarian papillary cystadenoma",
+      "keywords": {
+        "en": [
+          "ovarian papillary cystadenoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "acetarsol"
+      ]
+    },
+    {
+      "name": "pleural empyema (disease)",
+      "keywords": {
+        "en": [
+          "pleural empyema (disease)"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "neurotrophic keratopathy",
+      "keywords": {
+        "en": [
+          "neurotrophic keratopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "cutaneous candidiasis",
+      "keywords": {
+        "en": [
+          "cutaneous candidiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "vaginal discharge",
+      "keywords": {
+        "en": [
+          "vaginal discharge"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "exposure keratitis",
+      "keywords": {
+        "en": [
+          "exposure keratitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "leukoplakia of vagina",
+      "keywords": {
+        "en": [
+          "leukoplakia of vagina"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "non-human animal disease",
+      "keywords": {
+        "en": [
+          "non-human animal disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "bacterial vaginosis",
+      "keywords": {
+        "en": [
+          "bacterial vaginosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "mupirocin"
+      ]
+    },
+    {
+      "name": "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency",
+      "keywords": {
+        "en": [
+          "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "pyelonephritis",
+      "keywords": {
+        "en": [
+          "pyelonephritis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "trigonitis",
+      "keywords": {
+        "en": [
+          "trigonitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "hemophagocytic syndrome associated with an infection",
+      "keywords": {
+        "en": [
+          "hemophagocytic syndrome associated with an infection"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "acquired hemophagocytic lymphohistiocytosis associated with malignant disease",
+      "keywords": {
+        "en": [
+          "acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "Plasmodium falciparum malaria",
+      "keywords": {
+        "en": [
+          "Plasmodium falciparum malaria"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "formaldehyde"
+      ]
+    },
+    {
+      "name": "pneumocystosis",
+      "keywords": {
+        "en": [
+          "pneumocystosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "myocardial ischemia",
+      "keywords": {
+        "en": [
+          "myocardial ischemia"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "echinococcus granulosus infectious disease",
+      "keywords": {
+        "en": [
+          "echinococcus granulosus infectious disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "polyp of vocal cord",
+      "keywords": {
+        "en": [
+          "polyp of vocal cord"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "uterine polyp",
+      "keywords": {
+        "en": [
+          "uterine polyp"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "polyp of middle ear",
+      "keywords": {
+        "en": [
+          "polyp of middle ear"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "cardiovascular disease",
+      "keywords": {
+        "en": [
+          "cardiovascular disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "polyp of frontal sinus",
+      "keywords": {
+        "en": [
+          "polyp of frontal sinus"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "peppermint_oil"
+      ]
+    },
+    {
+      "name": "primary cutaneous T-cell lymphoma",
+      "keywords": {
+        "en": [
+          "primary cutaneous T-cell lymphoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "pediatric systemic lupus erythematosus",
+      "keywords": {
+        "en": [
+          "pediatric systemic lupus erythematosus"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "primary cutaneous T-cell non-Hodgkin lymphoma",
+      "keywords": {
+        "en": [
+          "primary cutaneous T-cell non-Hodgkin lymphoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "primary cutaneous B-cell lymphoma",
+      "keywords": {
+        "en": [
+          "primary cutaneous B-cell lymphoma"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "candidiasis",
+      "keywords": {
+        "en": [
+          "candidiasis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "complement component 4a deficiency",
+      "keywords": {
+        "en": [
+          "complement component 4a deficiency"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "maraviroc"
+      ]
+    },
+    {
+      "name": "severe nonproliferative diabetic retinopathy",
+      "keywords": {
+        "en": [
+          "severe nonproliferative diabetic retinopathy"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "methionine"
+      ]
+    },
+    {
+      "name": "conjunctivitis",
+      "keywords": {
+        "en": [
+          "conjunctivitis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "antithrombin deficiency type 2",
+      "keywords": {
+        "en": [
+          "antithrombin deficiency type 2"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "factor 5 excess with spontaneous thrombosis",
+      "keywords": {
+        "en": [
+          "factor 5 excess with spontaneous thrombosis"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "roseolovirus infectious disease",
+      "keywords": {
+        "en": [
+          "roseolovirus infectious disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tocofersolan"
+      ]
+    },
+    {
+      "name": "peripheral arterial disease",
+      "keywords": {
+        "en": [
+          "peripheral arterial disease"
+        ],
+        "zh": []
+      },
+      "related_drugs": [
+        "tocofersolan"
+      ]
+    }
+  ]
+}
