@@ -25,3 +25,23 @@ jobs:
         run: |
           echo "Fetching UK health news..."
           python scripts/fetchers/uk_news.py || echo "News fetch skipped"
+
+      - name: Process news
+        run: |
+          if [ -f scripts/process_news.py ]; then
+            python scripts/process_news.py
+          fi
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+          git add data/news/*.json docs/_news/ docs/data/news-index.json 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "No news updates"
+          else
+            git commit -m "Update health news $(date +%Y-%m-%d-%H%M)"
+            git push
+          fi
