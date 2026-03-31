@@ -1,55 +1,31 @@
 # UkTxGNN - United Kingdom Drug Repurposing Predictions
 
-Drug repurposing predictions for the United Kingdom using TxGNN knowledge graph.
+[![Website](https://img.shields.io/badge/Website-uktxgnn.yao.care-blue)](https://uktxgnn.yao.care)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-
-UkTxGNN uses graph neural networks to identify potential new therapeutic uses for existing drugs registered with the UK Medicines and Healthcare products Regulatory Agency (MHRA).
-
-## Data Sources
-
-- **Drug Data**: MHRA PARD (Pharmaceutical and Regulatory Database)
-- **Knowledge Graph**: TxGNN biomedical knowledge graph
-- **Clinical Trials**: ClinicalTrials.gov, EU Clinical Trials Register, ISRCTN
-- **Literature**: PubMed, Google Scholar
-
-## Installation
-
-```bash
-# Install dependencies
-uv sync
-
-# Prepare TxGNN data
-uv run python scripts/prepare_external_data.py
-
-# Run KG predictions (requires MHRA data)
-uv run python scripts/run_kg_prediction.py
-```
-
-## Data Acquisition
-
-MHRA drug data must be obtained from:
-- MHRA Products Database: https://products.mhra.gov.uk/
-- PARD Data: Contact MHRA for bulk access
-
-## API Access
-
-### FHIR R4 API
-
-- **Base URL**: `https://uktxgnn.yao.care/fhir`
-- **Capability Statement**: [/fhir/metadata](/fhir/metadata.json)
+Drug repurposing predictions for the United Kingdom using the TxGNN model.
 
 ## Disclaimer
 
-**Research Use Only**: Predictions are for research purposes only and do not constitute medical advice. All drug repurposing candidates require clinical validation.
+- The results of this project are for research purposes only and do not constitute medical advice.
+- Drug repurposing candidates require clinical validation before application.
 
-This is not an MHRA-approved tool.
+## Project Overview
 
-## License
+| Item | Count |
+|------|-------|
+| **Drug Reports** | 701 |
+| **Total Predictions** | 11,961,740 |
 
-MIT License
+## Prediction Methods
 
-## Contact
+### Knowledge Graph Method
+Direct querying of drug-disease relationships in the TxGNN knowledge graph, identifying potential repurposing candidates based on existing connections in the biomedical network.
 
-- Website: [yao.care](https://yao.care)
-- GitHub: [yao-care/UkTxGNN](https://github.com/yao-care/UkTxGNN)
+### Deep Learning Method
+Uses the TxGNN pre-trained neural network model to compute prediction scores, evaluating the likelihood of new therapeutic indications for approved drugs.
+
+## Links
+
+- Website: https://uktxgnn.yao.care
+- TxGNN Paper: https://doi.org/10.1038/s41591-023-02233-x
