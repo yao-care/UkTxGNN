@@ -12,7 +12,7 @@ regulatory_agency: "Medicines and Healthcare products Regulatory Agency (MHRA)"
 regulatory_agency_url: "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
 
 # Theme settings
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
