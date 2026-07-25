@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB12278-migraine-with-brainstem-aura",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:00:29.600770+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB12278",
+      "display": "Omeprazole_Cap E/C 10mg"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "migraine-with-brainstem-aura",
+          "display": "migraine with brainstem aura"
+        }
+      ],
+      "text": "migraine with brainstem aura"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}

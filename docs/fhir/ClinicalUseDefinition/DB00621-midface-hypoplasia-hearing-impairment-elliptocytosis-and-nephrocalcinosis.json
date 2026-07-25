@@ -1,0 +1,39 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "DB00621-midface-hypoplasia-hearing-impairment-elliptocytosis-and-nephrocalcinosis",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"
+    ],
+    "lastUpdated": "2026-03-09T14:00:29.600770+00:00"
+  },
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/DB00621",
+      "display": "Omeprazole_Cap E/C 10mg"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "coding": [
+        {
+          "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
+          "code": "midface-hypoplasia-hearing-impairment-elliptocytosis-and-nephrocalcinosis",
+          "display": "midface hypoplasia, hearing impairment, elliptocytosis, and nephrocalcinosis"
+        }
+      ],
+      "text": "midface hypoplasia, hearing impairment, elliptocytosis, and nephrocalcinosis"
+    }
+  },
+  "extension": [
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/prediction-source",
+      "valueString": "TxGNN KG + DL"
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
+      "valueBoolean": true
+    }
+  ]
+}
