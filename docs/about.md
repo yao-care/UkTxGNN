@@ -113,7 +113,7 @@ rare diseases."
 
 | Item | Value |
 |------|-------|
-| Drug reports | 880 |
+| Drug reports | {{ site.drugs.size }} |
 | Regulatory authority | MHRA |
 | Deployed sites | 30 countries / regions |
 
