@@ -2,7 +2,7 @@
 layout: default
 title: Mizolastine
 parent: 僅模型預測 (L5)
-nav_order: 190
+nav_order: 391
 evidence_level: L5
 indication_count: 10
 ---
