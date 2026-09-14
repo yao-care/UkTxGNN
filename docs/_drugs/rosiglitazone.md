@@ -2,7 +2,7 @@
 layout: default
 title: Rosiglitazone
 parent: 僅模型預測 (L5)
-nav_order: 446
+nav_order: 475
 evidence_level: L5
 indication_count: 0
 ---

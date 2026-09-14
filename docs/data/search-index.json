@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-10",
-  "drug_count": 1146,
-  "indication_count": 3951,
+  "generated": "2026-09-14",
+  "drug_count": 1175,
+  "indication_count": 3954,
   "drugs": [
     {
       "name": "Abacavir",
@@ -121521,6 +121521,254 @@
       "indications": []
     },
     {
+      "name": "Orphenadrine",
+      "slug": "orphenadrine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxandrolone",
+      "slug": "oxandrolone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Pituitary hormone deficiency from vascular origin | 99.23% | Weak — Oxandrolone does not act on the hypothalamic–pituitary axis; possibly a false-positive graph association",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hypogonadotropic hypogonadism–frontoparietal alopecia syndrome | 99.21% | Theoretical — weak androgen-receptor activation plausible for growth promotion in this rare genetic syndrome, but no direct evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Non-acquired combined pituitary hormone deficiencies (without extra-pituitary malformation) | 99.08% | Most mechanistically plausible of the four — Oxandrolone has precedent as a growth-hormone adjunct in short-stature/growth-failure children, but unverified for this specific indication",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Oxazepam",
+      "slug": "oxazepam",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxcarbazepine",
+      "slug": "oxcarbazepine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxitriptan",
+      "slug": "oxitriptan",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxybutynin",
+      "slug": "oxybutynin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxygen",
+      "slug": "oxygen",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxymetholone",
+      "slug": "oxymetholone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Oxytetracycline",
+      "slug": "oxytetracycline",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Paliperidone",
+      "slug": "paliperidone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Palivizumab",
+      "slug": "palivizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Pantoprazole",
+      "slug": "pantoprazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Paraldehyde",
+      "slug": "paraldehyde",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Parathyroid Hormone",
+      "slug": "parathyroid_hormone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Paroxetine",
+      "slug": "paroxetine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Pazopanib",
+      "slug": "pazopanib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Pegvisomant",
+      "slug": "pegvisomant",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Penciclovir",
+      "slug": "penciclovir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Peppermint Oil",
+      "slug": "peppermint_oil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Perampanel",
+      "slug": "perampanel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Permethrin",
+      "slug": "permethrin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Perphenazine",
+      "slug": "perphenazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenindione",
+      "slug": "phenindione",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenol",
+      "slug": "phenol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenothrin",
+      "slug": "phenothrin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenoxymethylpenicillin",
+      "slug": "phenoxymethylpenicillin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenylalanine",
+      "slug": "phenylalanine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenylbutazone",
+      "slug": "phenylbutazone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Phenytoin",
+      "slug": "phenytoin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "Riluzole",
       "slug": "riluzole",
       "brands": [],
@@ -126508,6 +126756,17 @@
       ]
     },
     {
+      "name": "Hypogonadotropic hypogonadism–frontoparietal alopecia syndrome | 99.21% | Theoretical — weak androgen-receptor activation plausible for growth promotion in this rare genetic syndrome, but no direct evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Oxandrolone",
+          "slug": "oxandrolone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hypotrichosis simplex of the scalp | 97.52% | Hold | Monogenic follicular defect; no plausible mechanistic link",
       "drug_count": 1,
       "drugs": [
@@ -129182,6 +129441,17 @@
       ]
     },
     {
+      "name": "Non-acquired combined pituitary hormone deficiencies (without extra-pituitary malformation) | 99.08% | Most mechanistically plausible of the four — Oxandrolone has precedent as a growth-hormone adjunct in short-stature/growth-failure children, but unverified for this specific indication",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Oxandrolone",
+          "slug": "oxandrolone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Norum disease | KG + DL",
       "drug_count": 2,
       "drugs": [
@@ -129966,6 +130236,17 @@
         {
           "drug": "Agomelatine",
           "slug": "db06594",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pituitary hormone deficiency from vascular origin | 99.23% | Weak — Oxandrolone does not act on the hypothalamic–pituitary axis; possibly a false-positive graph association",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Oxandrolone",
+          "slug": "oxandrolone",
           "score": 99.0
         }
       ]

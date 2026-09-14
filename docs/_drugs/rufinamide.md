@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: 僅模型預測 (L5)
-nav_order: 448
+nav_order: 477
 evidence_level: L5
 indication_count: 10
 ---
