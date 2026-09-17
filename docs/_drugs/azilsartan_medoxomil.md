@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azilsartan Medoxomil
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Azilsartan Medoxomil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -53,7 +53,7 @@ This report documents the current data status and outlines the remediation steps
 | Number of Marketing Authorisations | 0 per evidence pack |
 | Recommended Decision | **Hold** |
 
-> **⚠️ Data Note:** The evidence pack field `market_status` shows "未上市" (not marketed), which appears to reflect Taiwan regulatory data rather than UK/MHRA data. Azilsartan medoxomil is in fact authorised in the United Kingdom under the brand name **Edarbi** (PL 50622/0001 and related). This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate. The regulatory section below reflects this gap explicitly.
+> **⚠️ Data Note:** The evidence pack field `market_status` shows "Not marketed" (not marketed), which appears to reflect Taiwan regulatory data rather than UK/MHRA data. Azilsartan medoxomil is in fact authorised in the United Kingdom under the brand name **Edarbi** (PL 50622/0001 and related). This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate. The regulatory section below reflects this gap explicitly.
 
 ---
 
@@ -100,7 +100,7 @@ The evidence pack for azilsartan medoxomil (DB08822) is incomplete in two blocki
 - **[Blocking — DG001]** Retrieve the MHRA SmPC for Edarbi; extract approved indication text, warnings, and contraindications
 - **[Blocking]** Investigate why `predicted_indications` is empty — confirm whether the TxGNN KG/DL pipeline ran successfully for DB08822, and re-run if not
 - **[High — DG002]** Query DrugBank API for azilsartan medoxomil MOA, pharmacodynamics, and toxicity data
-- **[High]** Re-populate `taiwan_regulatory` (or UK-equivalent field) with MHRA licence data — the current "未上市" value appears to reflect Taiwan status rather than UK status
+- **[High]** Re-populate `taiwan_regulatory` (or UK-equivalent field) with MHRA licence data — the current "Not marketed" value appears to reflect Taiwan status rather than UK status
 - **[Medium]** Once predictions are available, re-generate this report using the full evidence pack to obtain clinical trial and literature evidence tables
 - **[Medium]** Clarify candidate ID prefix (`TW-`) — if this record was migrated from the Taiwan pipeline, ensure the UK-specific data fields are correctly mapped before clinical review
 

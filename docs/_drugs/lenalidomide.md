@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lenalidomide
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 339
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -101,7 +101,7 @@ This is directly supported by the literature base: PMID 39881283 demonstrates th
 
 ## UK Market Information
 
-No marketing authorisations are recorded in this evidence pack for the UK (`total_licenses: 0`, `market_status: 未上市/Not marketed`). This does not necessarily reflect Lenalidomide's true global licensing status (it is marketed elsewhere as Revlimid® for multiple myeloma and del(5q) MDS) — it reflects a gap in this dataset that should be independently verified against the MHRA product database and BNF before any decision is finalised.
+No marketing authorisations are recorded in this evidence pack for the UK (`total_licenses: 0`, `market_status: Not marketed/Not marketed`). This does not necessarily reflect Lenalidomide's true global licensing status (it is marketed elsewhere as Revlimid® for multiple myeloma and del(5q) MDS) — it reflects a gap in this dataset that should be independently verified against the MHRA product database and BNF before any decision is finalised.
 
 ---
 

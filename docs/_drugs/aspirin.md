@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aspirin
-parent: 僅模型預測 (L5)
+parent: Model Prediction Only (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Aspirin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ UK regulatory records returned zero marketing authorisations, which is inconsist
 | Predicted New Indication | None — `predicted_indications` list is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; cannot be assessed |
-| UK Market Status | Not recorded (data shows "未上市" — likely a retrieval error) |
+| UK Market Status | Not recorded (data shows "Not marketed" — likely a retrieval error) |
 | Number of Marketing Authorisations | 0 (likely a retrieval error — Aspirin holds multiple MHRA licences) |
 | Recommended Decision | **Hold** |
 
