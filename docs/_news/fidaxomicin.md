@@ -3,7 +3,7 @@ layout: default
 title: "Fidaxomicin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Fidaxomicin. Original indication: . 0 predicted indications."
+description: "Health news related to Fidaxomicin. Original indication: . 10 predicted indications."
 permalink: /news/fidaxomicin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/fidaxomicin/
 ---
 
 <p class="key-answer" data-question="What news is there about Fidaxomicin?">
-<strong>Fidaxomicin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Fidaxomicin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Fidaxomicin with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>staphylococcal scalded skin syndrome (99.7%)</li>
+<li>bullous impetigo (99.7%)</li>
+<li>inhalational botulism (99.7%)</li>
+<li>impetigo (99.7%)</li>
+<li>toxin-mediated infectious botulism (99.7%)</li>
+<li>vulvovaginal candidiasis (99.7%)</li>
+<li>hordeolum (99.6%)</li>
+<li>staphylococcus aureus pneumonia (99.2%)</li>
+<li>punctate epithelial keratoconjunctivitis (99.0%)</li>
+<li>parasitic skin disease (98.6%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/fidaxomicin/' | relative_url }}">View full drug report →</a></p>
 </div>

@@ -3,7 +3,7 @@ layout: default
 title: "Crotamiton News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Crotamiton. Original indication: . 0 predicted indications."
+description: "Health news related to Crotamiton. Original indication: . 10 predicted indications."
 permalink: /news/crotamiton/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/crotamiton/
 ---
 
 <p class="key-answer" data-question="What news is there about Crotamiton?">
-<strong>Crotamiton</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Crotamiton</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Crotamiton with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>trombiculiasis (96.2%)</li>
+<li>lymph node palisaded myofibroblastoma (95.7%)</li>
+<li>abdominal cystic lymphangioma (95.7%)</li>
+<li>abdominal ectopic pregnancy (95.7%)</li>
+<li>celiac trunk compression syndrome (95.7%)</li>
+<li>disease of uterine broad ligament (95.6%)</li>
+<li>disease of retroperitoneum (95.6%)</li>
+<li>sacrum chordoma (95.6%)</li>
+<li>urethral disease (95.5%)</li>
+<li>hordeolum (95.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/crotamiton/' | relative_url }}">View full drug report →</a></p>
 </div>

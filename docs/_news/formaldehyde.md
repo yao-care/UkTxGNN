@@ -3,7 +3,7 @@ layout: default
 title: "Formaldehyde News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Formaldehyde. Original indication: . 0 predicted indications."
+description: "Health news related to Formaldehyde. Original indication: . 10 predicted indications."
 permalink: /news/formaldehyde/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/formaldehyde/
 ---
 
 <p class="key-answer" data-question="What news is there about Formaldehyde?">
-<strong>Formaldehyde</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Formaldehyde</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Formaldehyde with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>leishmaniasis, diffuse cutaneous (99.9%)</li>
+<li>cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency (99.9%)</li>
+<li>mucocutaneous leishmaniasis (99.8%)</li>
+<li>pyelonephritis (99.7%)</li>
+<li>streptococcal pneumonia (99.7%)</li>
+<li>X-linked lymphoproliferative syndrome (99.5%)</li>
+<li>trigonitis (99.5%)</li>
+<li>hemophagocytic syndrome associated with an infection (99.2%)</li>
+<li>acquired hemophagocytic lymphohistiocytosis associated with malignant disease (99.2%)</li>
+<li>Plasmodium falciparum malaria (99.1%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/formaldehyde/' | relative_url }}">View full drug report →</a></p>
 </div>

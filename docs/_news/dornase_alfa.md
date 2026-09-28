@@ -3,7 +3,7 @@ layout: default
 title: "Dornase alfa News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Dornase alfa. Original indication: . 0 predicted indications."
+description: "Health news related to Dornase alfa. Original indication: . 10 predicted indications."
 permalink: /news/dornase_alfa/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/dornase_alfa/
 ---
 
 <p class="key-answer" data-question="What news is there about Dornase alfa?">
-<strong>Dornase alfa</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Dornase alfa</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Dornase alfa with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Fryns Smeets Thiry syndrome (50.0%)</li>
+<li>Fryns Fabry Remans syndrome (50.0%)</li>
+<li>congenital nervous system disorder (50.0%)</li>
+<li>Flinders island spotted fever (50.0%)</li>
+<li>frontonasal dysplasia phocomelic upper limbs (50.0%)</li>
+<li>frontonasal dysplasia Klippel feil syndrome (50.0%)</li>
+<li>frontonasal malformation cloacal exstrophy (50.0%)</li>
+<li>central nervous system origin vertigo (50.0%)</li>
+<li>sensory peripheral neuropathy (50.0%)</li>
+<li>galactorrhoea-hyperprolactinaemia (50.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/dornase_alfa/' | relative_url }}">View full drug report →</a></p>
 </div>

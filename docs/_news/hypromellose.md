@@ -3,7 +3,7 @@ layout: default
 title: "Hypromellose News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Hypromellose. Original indication: . 0 predicted indications."
+description: "Health news related to Hypromellose. Original indication: . 10 predicted indications."
 permalink: /news/hypromellose/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/hypromellose/
 ---
 
 <p class="key-answer" data-question="What news is there about Hypromellose?">
-<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Hypromellose</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Hypromellose with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>hepatic veno-occlusive disease-immunodeficiency syndrome (98.3%)</li>
+<li>pancytopenia due to IKZF1 mutations (98.2%)</li>
+<li>hepatic veno-occlusive disease (98.1%)</li>
+<li>combined immunodeficiency due to CRAC channel dysfunction (98.0%)</li>
+<li>absent thumb-short stature-immunodeficiency syndrome (97.9%)</li>
+<li>facial dysmorphism-immunodeficiency-livedo-short stature syndrome (97.9%)</li>
+<li>immuno-osseous dysplasia (97.9%)</li>
+<li>psoriasis (97.9%)</li>
+<li>autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis (97.8%)</li>
+<li>human herpesvirus 8-related tumor (97.8%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/hypromellose/' | relative_url }}">View full drug report →</a></p>
 </div>

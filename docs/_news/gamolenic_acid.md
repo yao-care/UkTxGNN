@@ -3,7 +3,7 @@ layout: default
 title: "Gamolenic acid News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Gamolenic acid. Original indication: . 0 predicted indications."
+description: "Health news related to Gamolenic acid. Original indication: . 10 predicted indications."
 permalink: /news/gamolenic_acid/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/gamolenic_acid/
 ---
 
 <p class="key-answer" data-question="What news is there about Gamolenic acid?">
-<strong>Gamolenic acid</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Gamolenic acid</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Gamolenic acid with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>insomnia (disease) (99.9%)</li>
+<li>anxiety (98.9%)</li>
+<li>sleep disorder, initiating and maintaining sleep (98.9%)</li>
+<li>rheumatoid arthritis (97.6%)</li>
+<li>agoraphobia (97.3%)</li>
+<li>anxiety disorder (97.1%)</li>
+<li>alcohol withdrawal delirium (97.1%)</li>
+<li>colobomatous microphthalmia-rhizomelic dysplasia syndrome (97.0%)</li>
+<li>benign paroxysmal torticollis of infancy (96.9%)</li>
+<li>acute encephalopathy with biphasic seizures and late reduced diffusion (96.9%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/gamolenic_acid/' | relative_url }}">View full drug report →</a></p>
 </div>

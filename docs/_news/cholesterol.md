@@ -3,7 +3,7 @@ layout: default
 title: "Cholesterol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cholesterol. Original indication: . 0 predicted indications."
+description: "Health news related to Cholesterol. Original indication: . 10 predicted indications."
 permalink: /news/cholesterol/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/cholesterol/
 ---
 
 <p class="key-answer" data-question="What news is there about Cholesterol?">
-<strong>Cholesterol</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Cholesterol</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,6 +25,18 @@ This page combines the AI-predicted indications for Cholesterol with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>homozygous familial hypercholesterolemia (98.8%)</li>
+<li>multiple endocrine neoplasia (98.7%)</li>
+<li>HIV infectious disease (98.5%)</li>
+<li>primary release disorder of platelets (98.3%)</li>
+<li>HER2 positive breast carcinoma (98.3%)</li>
+<li>infectious bovine rhinotracheitis (98.2%)</li>
+<li>malignant catarrh (98.2%)</li>
+<li>cytomegalovirus infection (98.0%)</li>
+<li>feline acquired immunodeficiency syndrome (98.0%)</li>
+<li>simian immunodeficiency virus infection (98.0%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/cholesterol/' | relative_url }}">View full drug report →</a></p>
 </div>

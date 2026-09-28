@@ -3,7 +3,7 @@ layout: default
 title: "Urofollitropin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Urofollitropin. Original indication: . 0 predicted indications."
+description: "Health news related to Urofollitropin. Original indication: . 10 predicted indications."
 permalink: /news/urofollitropin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/urofollitropin/
 ---
 
 <p class="key-answer" data-question="What news is there about Urofollitropin?">
-<strong>Urofollitropin</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Urofollitropin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Urofollitropin with the late
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>migraine disorder (99.8%)</li>
+<li>migraine with brainstem aura (99.8%)</li>
+<li>cauda equina syndrome (99.8%)</li>
+<li>His bundle tachycardia (99.7%)</li>
+<li>restless legs syndrome (99.7%)</li>
+<li>obsolete neurogenic bladder (disease) (99.6%)</li>
+<li>multifocal atrial tachycardia (disease) (99.5%)</li>
+<li>postural orthostatic tachycardia syndrome (99.5%)</li>
+<li>migraine with or without aura, susceptibility to (99.5%)</li>
+<li>Raynaud disease (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/urofollitropin/' | relative_url }}">View full drug report →</a></p>
 </div>

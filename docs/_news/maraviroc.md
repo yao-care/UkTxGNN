@@ -3,7 +3,7 @@ layout: default
 title: "Maraviroc News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Maraviroc. Original indication: . 0 predicted indications."
+description: "Health news related to Maraviroc. Original indication: . 10 predicted indications."
 permalink: /news/maraviroc/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/maraviroc/
 ---
 
 <p class="key-answer" data-question="What news is there about Maraviroc?">
-<strong>Maraviroc</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Maraviroc</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Maraviroc with the latest he
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>multiple endocrine neoplasia (99.8%)</li>
+<li>acne (disease) (99.8%)</li>
+<li>primary cutaneous T-cell lymphoma (99.7%)</li>
+<li>pediatric systemic lupus erythematosus (99.7%)</li>
+<li>primary cutaneous T-cell non-Hodgkin lymphoma (99.5%)</li>
+<li>primary cutaneous B-cell lymphoma (99.4%)</li>
+<li>candidiasis (99.3%)</li>
+<li>complement component 4a deficiency (99.2%)</li>
+<li>cytomegalovirus infection (99.2%)</li>
+<li>HER2 positive breast carcinoma (99.2%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/maraviroc/' | relative_url }}">View full drug report →</a></p>
 </div>

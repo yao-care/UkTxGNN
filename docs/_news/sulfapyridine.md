@@ -3,7 +3,7 @@ layout: default
 title: "Sulfapyridine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Sulfapyridine. Original indication: . 0 predicted indications."
+description: "Health news related to Sulfapyridine. Original indication: . 10 predicted indications."
 permalink: /news/sulfapyridine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/sulfapyridine/
 ---
 
 <p class="key-answer" data-question="What news is there about Sulfapyridine?">
-<strong>Sulfapyridine</strong> currently has <strong>0 news articles</strong>, with 0 predicted indications.
+<strong>Sulfapyridine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -24,6 +24,18 @@ This page combines the AI-predicted indications for Sulfapyridine with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>heparin-induced thrombocytopenia (disease) (99.9%)</li>
+<li>hereditary angioedema (99.8%)</li>
+<li>hereditary angioedema with C1Inh deficiency (99.8%)</li>
+<li>acquired aplastic anemia (99.8%)</li>
+<li>C1 inhibitor deficiency (99.8%)</li>
+<li>autoimmune hemolytic anemia (99.8%)</li>
+<li>serpinopathy with toxic serpin polymerization (99.8%)</li>
+<li>disorder of GPI anchor biosynthesis (99.7%)</li>
+<li>hemoglobinuria (99.7%)</li>
+<li>venous insufficiency (disease) (99.5%)</li>
+</ul></li>
 </ul>
 <p><a href="{{ '/drugs/sulfapyridine/' | relative_url }}">View full drug report →</a></p>
 </div>
