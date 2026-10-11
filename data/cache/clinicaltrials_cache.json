@@ -1,0 +1,1428 @@
+{
+  "last_check": "2026-10-11T17:41:36.638277",
+  "seen_trials": {
+    "Acetazolamide": [
+      "NCT05470283",
+      "NCT07101250"
+    ],
+    "Acetic Acid": [
+      "NCT05711667"
+    ],
+    "Acetylsalicylic Acid": [
+      "NCT05775965",
+      "NCT04160546",
+      "NCT07213778"
+    ],
+    "Adalimumab": [
+      "NCT06996652"
+    ],
+    "Albendazole": [
+      "NCT07159373"
+    ],
+    "Alfentanil": [
+      "NCT07581665"
+    ],
+    "Alfentanil Hcl": [
+      "NCT07581665"
+    ],
+    "Amitriptyline Hcl": [
+      "NCT07296770"
+    ],
+    "Ammonia": [
+      "NCT03648905"
+    ],
+    "Amoxicillin": [
+      "NCT07857252",
+      "NCT07860112",
+      "NCT07857863"
+    ],
+    "Ampicillin": [
+      "NCT07851857",
+      "NCT07610486"
+    ],
+    "Anakinra": [
+      "NCT03925194"
+    ],
+    "Anastrozole": [
+      "NCT07391774",
+      "NCT05512364",
+      "NCT07174336",
+      "NCT03179904",
+      "NCT04569747",
+      "NCT06072781",
+      "NCT05161195",
+      "NCT07604272"
+    ],
+    "Apixaban": [
+      "NCT07015905",
+      "NCT07869615",
+      "NCT07840365",
+      "NCT07626411",
+      "NCT07175428"
+    ],
+    "Aprepitant": [
+      "NCT07845825"
+    ],
+    "Aripiprazole": [
+      "NCT04903353",
+      "NCT07858565"
+    ],
+    "Ascorbic Acid": [
+      "NCT07866274",
+      "NCT07566091"
+    ],
+    "Aspirin": [
+      "NCT05775965",
+      "NCT02810704",
+      "NCT03244020",
+      "NCT06108947",
+      "NCT07840365",
+      "NCT07795398",
+      "NCT05047172",
+      "NCT06588595",
+      "NCT05633810"
+    ],
+    "Atorvastatin": [
+      "NCT06789432",
+      "NCT05028829",
+      "NCT06559072"
+    ],
+    "Azithromycin": [
+      "NCT07849491",
+      "NCT05847322"
+    ],
+    "Baclofen": [
+      "NCT07296770"
+    ],
+    "Bicalutamide": [
+      "NCT03678025"
+    ],
+    "Budesonide": [
+      "NCT06473779",
+      "NCT05976802"
+    ],
+    "Buprenorphine": [
+      "NCT07176351",
+      "NCT07296770",
+      "NCT07420283"
+    ],
+    "Bupropion": [
+      "NCT04604509"
+    ],
+    "Bupropion Hcl": [
+      "NCT04604509"
+    ],
+    "Busulfan": [
+      "NCT02250937",
+      "NCT05564390",
+      "NCT05463133",
+      "NCT07524530",
+      "NCT03910452",
+      "NCT07775313",
+      "NCT04859946",
+      "NCT01861106",
+      "NCT01306019"
+    ],
+    "Caffeine": [
+      "NCT07868302",
+      "NCT05761756",
+      "NCT07860242",
+      "NCT07823140",
+      "NCT07852299"
+    ],
+    "Capecitabine": [
+      "NCT06966700",
+      "NCT07847229",
+      "NCT07060807",
+      "NCT06312176",
+      "NCT07847710",
+      "NCT07413939",
+      "NCT07859410",
+      "NCT04339036",
+      "NCT03424005",
+      "NCT07869628",
+      "NCT04615013",
+      "NCT06469944",
+      "NCT06568692",
+      "NCT03161522",
+      "NCT04929028",
+      "NCT06393374"
+    ],
+    "Capsaicin": [
+      "NCT06807164",
+      "NCT06023706"
+    ],
+    "Carbidopa": [
+      "NCT05036473"
+    ],
+    "Cefadroxil": [
+      "NCT04723940"
+    ],
+    "Celecoxib": [
+      "NCT07858188",
+      "NCT07296770",
+      "NCT07820891",
+      "NCT06379425"
+    ],
+    "Cetirizine": [
+      "NCT07236372"
+    ],
+    "Cetirizine Hcl": [
+      "NCT07236372"
+    ],
+    "Cholesterol": [
+      "NCT06915025",
+      "NCT00001721"
+    ],
+    "Cilostazol": [
+      "NCT03109288"
+    ],
+    "Clarithromycin": [
+      "NCT07104318"
+    ],
+    "Clindamycin": [
+      "NCT06841003",
+      "NCT04723940"
+    ],
+    "Clofazimine": [
+      "NCT00018044"
+    ],
+    "Clonidine": [
+      "NCT07296770",
+      "NCT07846657"
+    ],
+    "Clopidogrel": [
+      "NCT07025148",
+      "NCT05047172",
+      "NCT06588595"
+    ],
+    "Colchicine": [
+      "NCT04774159",
+      "NCT07856719",
+      "NCT07232069",
+      "NCT05633810"
+    ],
+    "Cyclophosphamide": [
+      "NCT06966700",
+      "NCT02229084",
+      "NCT06885697",
+      "NCT02013336",
+      "NCT06959537",
+      "NCT06904066",
+      "NCT07223021",
+      "NCT07572136",
+      "NCT03709680",
+      "NCT01430390",
+      "NCT01955460",
+      "NCT05463133",
+      "NCT06890884",
+      "NCT07087002",
+      "NCT07524530",
+      "NCT06058377",
+      "NCT07101432",
+      "NCT00092222",
+      "NCT07297667",
+      "NCT05470283",
+      "NCT03467386",
+      "NCT04978584",
+      "NCT06317662",
+      "NCT05675410",
+      "NCT06056102",
+      "NCT07411599",
+      "NCT04542824",
+      "NCT06799195",
+      "NCT07672483",
+      "NCT06066359",
+      "NCT06172296",
+      "NCT03910452",
+      "NCT06188676",
+      "NCT06598371",
+      "NCT02306161",
+      "NCT01424982",
+      "NCT07479797",
+      "NCT07321912",
+      "NCT01174121"
+    ],
+    "Cycloserine": [
+      "NCT07868627"
+    ],
+    "Cyclosporine": [
+      "NCT07124078",
+      "NCT07862114",
+      "NCT07739914",
+      "NCT07861204"
+    ],
+    "Cyproheptadine": [
+      "NCT06175273"
+    ],
+    "D-Glucose": [
+      "NCT05675410",
+      "NCT07605416"
+    ],
+    "Dabigatran Etexilate": [
+      "NCT07820891"
+    ],
+    "Daptomycin": [
+      "NCT03138733"
+    ],
+    "Dasatinib": [
+      "NCT06124157",
+      "NCT05993949"
+    ],
+    "Etanercept": [
+      "NCT06596772"
+    ],
+    "Glucagon": [
+      "NCT07816744",
+      "NCT07212868"
+    ],
+    "Somatropin": [
+      "NCT05308927"
+    ],
+    "Infliximab": [
+      "NCT07657312",
+      "NCT07683975",
+      "NCT07576452"
+    ],
+    "Trastuzumab": [
+      "NCT02003209",
+      "NCT07865611",
+      "NCT07060807",
+      "NCT07857226",
+      "NCT07413939",
+      "NCT03529110",
+      "NCT05795101",
+      "NCT06686394",
+      "NCT05765851",
+      "NCT03424005",
+      "NCT03179904",
+      "NCT04569747",
+      "NCT06840886",
+      "NCT07086768",
+      "NCT05417594",
+      "NCT04802759",
+      "NCT01785420"
+    ],
+    "Rituximab": [
+      "NCT05091424",
+      "NCT06890884",
+      "NCT04712097",
+      "NCT07124078",
+      "NCT04840602",
+      "NCT06541665",
+      "NCT07226843",
+      "NCT00092222",
+      "NCT04978584",
+      "NCT07861204",
+      "NCT07691606",
+      "NCT07573436",
+      "NCT04542824",
+      "NCT06188676",
+      "NCT04404088",
+      "NCT01424982",
+      "NCT05139017",
+      "NCT06337318",
+      "NCT02972840",
+      "NCT07517185",
+      "NCT06084936",
+      "NCT03609593",
+      "NCT05947851",
+      "NCT06091254",
+      "NCT04663347",
+      "NCT06091865",
+      "NCT05533775",
+      "NCT07662928",
+      "NCT07634471",
+      "NCT06149286",
+      "NCT04623541",
+      "NCT04224493"
+    ],
+    "Filgrastim": [
+      "NCT00092222",
+      "NCT03467386",
+      "NCT07192770",
+      "NCT06188676",
+      "NCT04898894",
+      "NCT07775313",
+      "NCT00801489",
+      "NCT04628767",
+      "NCT03007147",
+      "NCT07585136",
+      "NCT04959175",
+      "NCT07012044"
+    ],
+    "Oxytocin": [
+      "NCT05760807",
+      "NCT07867054",
+      "NCT07636421"
+    ],
+    "Phenylalanine": [
+      "NCT07582172",
+      "NCT05564390",
+      "NCT07605416",
+      "NCT06172296",
+      "NCT07624513",
+      "NCT07802366",
+      "NCT07728032"
+    ],
+    "L-Glutamine": [
+      "NCT07864571"
+    ],
+    "Methionine": [
+      "NCT02824419"
+    ],
+    "L-Tyrosine": [
+      "NCT03796884"
+    ],
+    "Tryptophan": [
+      "NCT03678025",
+      "NCT05556473"
+    ],
+    "Thiamine Hcl": [
+      "NCT07868679"
+    ],
+    "Folic Acid": [
+      "NCT07695883"
+    ],
+    "Valsartan": [
+      "NCT04153136"
+    ],
+    "Nicotine": [
+      "NCT06822049",
+      "NCT04591743",
+      "NCT04199117",
+      "NCT06474299",
+      "NCT00575718",
+      "NCT06234722",
+      "NCT07604246",
+      "NCT04604509"
+    ],
+    "Tramadol Hcl": [
+      "NCT07721571"
+    ],
+    "Erythromycin": [
+      "NCT05579366"
+    ],
+    "Sildenafil": [
+      "NCT07676617"
+    ],
+    "Pantoprazole": [
+      "NCT07800897"
+    ],
+    "Moxifloxacin": [
+      "NCT05926466"
+    ],
+    "Pregabalin": [
+      "NCT07818577",
+      "NCT06150898",
+      "NCT07296770",
+      "NCT07549490",
+      "NCT07866443"
+    ],
+    "Ziprasidone Hcl": [
+      "NCT00254202"
+    ],
+    "Phenytoin": [
+      "NCT07590102"
+    ],
+    "Doxycycline": [
+      "NCT07865156",
+      "NCT06738407",
+      "NCT04723940",
+      "NCT07688096"
+    ],
+    "Venlafaxine": [
+      "NCT07296770"
+    ],
+    "Etonogestrel": [
+      "NCT07201402"
+    ],
+    "Ropivacaine Hcl": [
+      "NCT06123117",
+      "NCT07853482",
+      "NCT06519955",
+      "NCT07509866",
+      "NCT07866443"
+    ],
+    "Tenofovir Disoproxil": [
+      "NCT07673965"
+    ],
+    "Tranexamic Acid": [
+      "NCT07853885",
+      "NCT06356948",
+      "NCT07460518",
+      "NCT06414031",
+      "NCT07686705",
+      "NCT07869537"
+    ],
+    "Gefitinib": [
+      "NCT02411448"
+    ],
+    "Hydromorphone Hcl": [
+      "NCT07296770",
+      "NCT07840183"
+    ],
+    "Ethambutol Hcl": [
+      "NCT06192160"
+    ],
+    "Metformin Hcl": [
+      "NCT05708053",
+      "NCT06896981",
+      "NCT07589075",
+      "NCT05680805",
+      "NCT06445946",
+      "NCT03424005",
+      "NCT04625946",
+      "NCT07867236",
+      "NCT04341571",
+      "NCT02275845",
+      "NCT07226453",
+      "NCT01905046",
+      "NCT03558867",
+      "NCT05292573"
+    ],
+    "Methadone Hcl": [
+      "NCT07857655",
+      "NCT07296770",
+      "NCT06626503"
+    ],
+    "Olanzapine": [
+      "NCT04833023",
+      "NCT06175273"
+    ],
+    "Omeprazole": [
+      "NCT06562907",
+      "NCT07862114",
+      "NCT06150898",
+      "NCT07823140"
+    ],
+    "Pyrazinamide": [
+      "NCT06192160"
+    ],
+    "Minoxidil": [
+      "NCT07862374"
+    ],
+    "Tioguanine": [
+      "NCT06317662",
+      "NCT06124157",
+      "NCT03007147"
+    ],
+    "Timolol": [
+      "NCT06941467"
+    ],
+    "Digoxin": [
+      "NCT03810417"
+    ],
+    "Progesterone": [
+      "NCT07865949"
+    ],
+    "Sorafenib": [
+      "NCT03132454",
+      "NCT03298451",
+      "NCT07787429",
+      "NCT01187199"
+    ],
+    "Methylphenidate Hcl": [
+      "NCT03525873",
+      "NCT05761756",
+      "NCT03772834",
+      "NCT07710014"
+    ],
+    "Methocarbamol": [
+      "NCT07296770"
+    ],
+    "Trifluridine": [
+      "NCT06343116",
+      "NCT07861360",
+      "NCT05130060",
+      "NCT07549412",
+      "NCT05919264",
+      "NCT07525206",
+      "NCT06887218"
+    ],
+    "Cyproheptadine Hcl": [
+      "NCT06175273"
+    ],
+    "Loratadine": [
+      "NCT07192770"
+    ],
+    "Prazosin Hcl": [
+      "NCT07862712"
+    ],
+    "Montelukast": [
+      "NCT07409714"
+    ],
+    "Duloxetine Hcl": [
+      "NCT07296770"
+    ],
+    "Lenalidomide": [
+      "NCT04430894",
+      "NCT06649812",
+      "NCT04052880",
+      "NCT04712097",
+      "NCT05243797",
+      "NCT04978584",
+      "NCT07605416",
+      "NCT04542824",
+      "NCT04404088",
+      "NCT01863550",
+      "NCT06084936",
+      "NCT02886065",
+      "NCT05583617",
+      "NCT02420860",
+      "NCT03070327",
+      "NCT07665450",
+      "NCT04663347",
+      "NCT06149286",
+      "NCT04623541",
+      "NCT04224493"
+    ],
+    "Nabilone": [
+      "NCT01517100"
+    ],
+    "Zidovudine": [
+      "NCT00092222"
+    ],
+    "Oxycodone Hcl": [
+      "NCT07750639",
+      "NCT07296770"
+    ],
+    "Flutamide": [
+      "NCT03678025"
+    ],
+    "Haloperidol": [
+      "NCT07858565"
+    ],
+    "Vancomycin Hcl": [
+      "NCT07341282",
+      "NCT07858916",
+      "NCT07490054",
+      "NCT03595553",
+      "NCT07866157",
+      "NCT06647277"
+    ],
+    "Nortriptyline": [
+      "NCT07296770"
+    ],
+    "Fluorouracil": [
+      "NCT07678593",
+      "NCT01954992",
+      "NCT07794059",
+      "NCT05564377",
+      "NCT06770582",
+      "NCT07490301",
+      "NCT07793942",
+      "NCT06997497",
+      "NCT07415031",
+      "NCT06532344",
+      "NCT04847063",
+      "NCT06540261",
+      "NCT07705919",
+      "NCT07228832",
+      "NCT07861347",
+      "NCT06269978",
+      "NCT06428409",
+      "NCT05919264",
+      "NCT04615013",
+      "NCT07775287",
+      "NCT05067283",
+      "NCT06840886",
+      "NCT06057038",
+      "NCT06469944",
+      "NCT07290985",
+      "NCT03161522",
+      "NCT04929028"
+    ],
+    "Methotrexate": [
+      "NCT07432815",
+      "NCT07124078",
+      "NCT06541665",
+      "NCT06317662",
+      "NCT06649136",
+      "NCT02422641",
+      "NCT04898894",
+      "NCT06960577",
+      "NCT01424982",
+      "NCT07321912",
+      "NCT06124157",
+      "NCT06315309",
+      "NCT04628767",
+      "NCT03007147",
+      "NCT00501826",
+      "NCT06998628",
+      "NCT07864688"
+    ],
+    "Propranolol Hcl": [
+      "NCT05797662",
+      "NCT07849283"
+    ],
+    "Clonidine Hcl": [
+      "NCT07296770",
+      "NCT07846657"
+    ],
+    "Voriconazole": [
+      "NCT07215273"
+    ],
+    "Linezolid": [
+      "NCT06192160"
+    ],
+    "Testosterone": [
+      "NCT06130449",
+      "NCT07556458",
+      "NCT07028255",
+      "NCT05318755"
+    ],
+    "Efavirenz": [
+      "NCT07823140"
+    ],
+    "Prednisone": [
+      "NCT06136624",
+      "NCT06649812",
+      "NCT07861074",
+      "NCT06468709",
+      "NCT06890884",
+      "NCT05039619",
+      "NCT07867938",
+      "NCT00092222",
+      "NCT03678025",
+      "NCT04978584",
+      "NCT06317662",
+      "NCT05675410",
+      "NCT06925737",
+      "NCT06676579",
+      "NCT04542824",
+      "NCT07830108",
+      "NCT06585774",
+      "NCT01424982",
+      "NCT06136650",
+      "NCT07683975",
+      "NCT06124157",
+      "NCT06353386",
+      "NCT03419234",
+      "NCT03821792",
+      "NCT00501826",
+      "NCT06091254",
+      "NCT04663347",
+      "NCT06478017",
+      "NCT06091865",
+      "NCT07662928",
+      "NCT07634471",
+      "NCT02784210",
+      "NCT04623541"
+    ],
+    "Simvastatin": [
+      "NCT07779642"
+    ],
+    "Mebendazole": [
+      "NCT06736691"
+    ],
+    "Verapamil Hcl": [
+      "NCT07866989"
+    ],
+    "Galantamine": [
+      "NCT01508494"
+    ],
+    "Midazolam": [
+      "NCT07859007",
+      "NCT07867340",
+      "NCT07823140",
+      "NCT06480500",
+      "NCT07800897",
+      "NCT07656792",
+      "NCT05046184",
+      "NCT07820891",
+      "NCT07340190",
+      "NCT07862621",
+      "NCT07765498"
+    ],
+    "Mycophenolate Mofetil": [
+      "NCT05039619",
+      "NCT07524530",
+      "NCT07124078",
+      "NCT06799195",
+      "NCT01861106",
+      "NCT06478017",
+      "NCT04959175",
+      "NCT07548983"
+    ],
+    "Furosemide": [
+      "NCT05470283",
+      "NCT07861685",
+      "NCT06898515"
+    ],
+    "Tizanidine Hcl": [
+      "NCT07296770",
+      "NCT06666673"
+    ],
+    "Naltrexone Hcl": [
+      "NCT06426303",
+      "NCT07285473",
+      "NCT07862400"
+    ],
+    "Lamivudine": [
+      "NCT07673965"
+    ],
+    "Paroxetine Hcl": [
+      "NCT07070232"
+    ],
+    "Imiquimod": [
+      "NCT03872947"
+    ],
+    "Risperidone": [
+      "NCT04903353"
+    ],
+    "Esomeprazole": [
+      "NCT07399054"
+    ],
+    "Meropenem": [
+      "NCT07813767",
+      "NCT06828848"
+    ],
+    "Etoposide": [
+      "NCT06132113",
+      "NCT02106988",
+      "NCT07227597",
+      "NCT00092222",
+      "NCT05675410",
+      "NCT06172296",
+      "NCT05058651",
+      "NCT06188676",
+      "NCT02306161",
+      "NCT07321912",
+      "NCT03007147",
+      "NCT04663347",
+      "NCT05533775",
+      "NCT06406465",
+      "NCT07662928",
+      "NCT06820957"
+    ],
+    "Oxcarbazepine": [
+      "NCT02219373"
+    ],
+    "Estradiol": [
+      "NCT07868536",
+      "NCT07340190"
+    ],
+    "Naproxen": [
+      "NCT07192770",
+      "NCT07750639",
+      "NCT07296770",
+      "NCT07549490"
+    ],
+    "Pentoxifylline": [
+      "NCT07626788",
+      "NCT06998628"
+    ],
+    "Fentanyl": [
+      "NCT07684365",
+      "NCT07610408",
+      "NCT07857655",
+      "NCT07864155",
+      "NCT07840183",
+      "NCT07092046"
+    ],
+    "Meloxicam": [
+      "NCT07296770"
+    ],
+    "Loperamide Hcl": [
+      "NCT06424522"
+    ],
+    "Temozolomide": [
+      "NCT03709680",
+      "NCT07549321",
+      "NCT06721689",
+      "NCT06541262",
+      "NCT07859059",
+      "NCT07492680",
+      "NCT00978458",
+      "NCT06172296",
+      "NCT03581292",
+      "NCT04339036",
+      "NCT07439172",
+      "NCT05432804",
+      "NCT07195591",
+      "NCT07326566",
+      "NCT05413304",
+      "NCT05902169",
+      "NCT05417594",
+      "NCT03535350"
+    ],
+    "Terbinafine Hcl": [
+      "NCT07869706"
+    ],
+    "Prednisolone": [
+      "NCT06890884",
+      "NCT06317662",
+      "NCT05675410",
+      "NCT06925737",
+      "NCT06676579",
+      "NCT07830108",
+      "NCT06188676",
+      "NCT06585774",
+      "NCT06124157",
+      "NCT07172659",
+      "NCT03007147",
+      "NCT06091254",
+      "NCT06091865",
+      "NCT07634471",
+      "NCT05191706"
+    ],
+    "Tacrolimus": [
+      "NCT07582172",
+      "NCT07524530",
+      "NCT07124078",
+      "NCT07739914",
+      "NCT03467386",
+      "NCT07532330",
+      "NCT06315309",
+      "NCT04859946",
+      "NCT01861106",
+      "NCT06478017",
+      "NCT07548983"
+    ],
+    "Sirolimus": [
+      "NCT05425056",
+      "NCT07582172",
+      "NCT05463133",
+      "NCT07735533",
+      "NCT07124078",
+      "NCT00092222",
+      "NCT06799195",
+      "NCT03910452",
+      "NCT07728175",
+      "NCT06876142",
+      "NCT07858539",
+      "NCT07542314",
+      "NCT04959175",
+      "NCT07566091",
+      "NCT06528301",
+      "NCT02979873"
+    ],
+    "Emtricitabine": [
+      "NCT07859904"
+    ],
+    "Ondansetron Hcl": [
+      "NCT07868861",
+      "NCT07858149"
+    ],
+    "Paricalcitol": [
+      "NCT07856914"
+    ],
+    "Repaglinide": [
+      "NCT07340190"
+    ],
+    "Metronidazole": [
+      "NCT06569368",
+      "NCT07869095"
+    ],
+    "Famotidine": [
+      "NCT07857941",
+      "NCT06801626"
+    ],
+    "Misoprostol": [
+      "NCT07506512"
+    ],
+    "Fulvestrant": [
+      "NCT06757634",
+      "NCT07857226",
+      "NCT07405801",
+      "NCT05564377",
+      "NCT06997029",
+      "NCT06982521",
+      "NCT07867262",
+      "NCT06979596",
+      "NCT07368998",
+      "NCT07174336",
+      "NCT03424005",
+      "NCT06784193",
+      "NCT07861932",
+      "NCT03179904",
+      "NCT07604571",
+      "NCT03633331",
+      "NCT05169567",
+      "NCT07288359",
+      "NCT05161195",
+      "NCT07347600",
+      "NCT04567420",
+      "NCT07604272"
+    ],
+    "Isoniazid": [
+      "NCT06192160"
+    ],
+    "Ezetimibe": [
+      "NCT06789432",
+      "NCT06767345"
+    ],
+    "Isotretinoin": [
+      "NCT06172296"
+    ],
+    "Exemestane": [
+      "NCT07391774",
+      "NCT05512364",
+      "NCT06979596",
+      "NCT07174336",
+      "NCT03179904",
+      "NCT04569747",
+      "NCT05827081"
+    ],
+    "Gabapentin": [
+      "NCT07859839",
+      "NCT07644065",
+      "NCT07750639",
+      "NCT07296770",
+      "NCT07840183",
+      "NCT02219373",
+      "NCT06379425"
+    ],
+    "Salbutamol": [
+      "NCT06473779",
+      "NCT06261957"
+    ],
+    "Letrozole": [
+      "NCT06790693",
+      "NCT06143631",
+      "NCT06757634",
+      "NCT07391774",
+      "NCT05512364",
+      "NCT07589075",
+      "NCT07867262",
+      "NCT06979596",
+      "NCT07866430",
+      "NCT07174336",
+      "NCT03424005",
+      "NCT07401381",
+      "NCT03179904",
+      "NCT04569747",
+      "NCT07604571",
+      "NCT06072781",
+      "NCT03633331",
+      "NCT07288359",
+      "NCT05161195",
+      "NCT01068249",
+      "NCT05827081"
+    ],
+    "Ketoprofen": [
+      "NCT07853482"
+    ],
+    "Topotecan": [
+      "NCT03709680",
+      "NCT05153239",
+      "NCT06172296",
+      "NCT07213804",
+      "NCT07214779",
+      "NCT07321912",
+      "NCT06840886",
+      "NCT07604766",
+      "NCT07145333",
+      "NCT05874401"
+    ],
+    "Probenecid": [
+      "NCT07318870",
+      "NCT07840612"
+    ],
+    "Mercaptopurine": [
+      "NCT06317662",
+      "NCT06124157",
+      "NCT03007147",
+      "NCT00501826",
+      "NCT06639958"
+    ],
+    "Thalidomide": [
+      "NCT07172659"
+    ],
+    "Melphalan": [
+      "NCT07582172",
+      "NCT05564390",
+      "NCT07605416",
+      "NCT06172296",
+      "NCT07624513"
+    ],
+    "Memantine Hcl": [
+      "NCT07531940",
+      "NCT07867210"
+    ],
+    "Rifampicin": [
+      "NCT06192160"
+    ],
+    "Ibuprofen": [
+      "NCT07610408",
+      "NCT07858188",
+      "NCT07859631",
+      "NCT07644065",
+      "NCT07296770",
+      "NCT05983354",
+      "NCT05750264"
+    ],
+    "Melatonin": [
+      "NCT07863232",
+      "NCT05439876",
+      "NCT07865988",
+      "NCT07869030",
+      "NCT07349459"
+    ],
+    "Diphenhydramine Hcl": [
+      "NCT05039619",
+      "NCT07570173",
+      "NCT07709000"
+    ],
+    "Primaquine": [
+      "NCT04704999"
+    ],
+    "Nifedipine": [
+      "NCT07865949"
+    ],
+    "Pioglitazone Hcl": [
+      "NCT03109288"
+    ],
+    "Terazosin Hcl": [
+      "NCT07288450",
+      "NCT07464028"
+    ],
+    "Itraconazole": [
+      "NCT05563766",
+      "NCT07070232",
+      "NCT07590102",
+      "NCT06400472",
+      "NCT07800897",
+      "NCT05579366"
+    ],
+    "Escitalopram": [
+      "NCT07432815"
+    ],
+    "Clindamycin Hcl": [
+      "NCT06841003",
+      "NCT04723940"
+    ],
+    "Levetiracetam": [
+      "NCT05824728",
+      "NCT06403150"
+    ],
+    "Ketamine": [
+      "NCT07838831",
+      "NCT07296770",
+      "NCT06062628",
+      "NCT07868913",
+      "NCT06480500",
+      "NCT03065335",
+      "NCT05046184",
+      "NCT06788249"
+    ],
+    "Quetiapine": [
+      "NCT07858565"
+    ],
+    "Enoxaparin": [
+      "NCT07015905",
+      "NCT03244020",
+      "NCT07710482",
+      "NCT07869615",
+      "NCT03532139"
+    ],
+    "Metoclopramide Hcl": [
+      "NCT05983354"
+    ],
+    "Levodopa": [
+      "NCT05036473"
+    ],
+    "Sitagliptin": [
+      "NCT01567540",
+      "NCT02363335",
+      "NCT02650427"
+    ],
+    "Sunitinib": [
+      "NCT05477576",
+      "NCT05773274",
+      "NCT07218926"
+    ],
+    "Ursodeoxycholic Acid": [
+      "NCT07852780",
+      "NCT07867366"
+    ],
+    "Everolimus": [
+      "NCT05477576",
+      "NCT07124078",
+      "NCT07739914",
+      "NCT05773274",
+      "NCT01068249",
+      "NCT07566091",
+      "NCT04802759",
+      "NCT07865130"
+    ],
+    "Deferasirox": [
+      "NCT07863791"
+    ],
+    "Valganciclovir Hcl": [
+      "NCT00092222"
+    ],
+    "Roflumilast": [
+      "NCT02363335",
+      "NCT07077902"
+    ],
+    "Prasterone": [
+      "NCT07854873"
+    ],
+    "Glucose": [
+      "NCT07392476",
+      "NCT05643144",
+      "NCT05675410",
+      "NCT07032844",
+      "NCT07605416",
+      "NCT07633171"
+    ],
+    "Nicotinamide": [
+      "NCT07144527",
+      "NCT07861243",
+      "NCT04562831"
+    ],
+    "Phenol": [
+      "NCT07369921"
+    ],
+    "Urea": [
+      "NCT07756671"
+    ],
+    "Estriol": [
+      "NCT07854873"
+    ],
+    "Flunarizine Hcl": [
+      "NCT07445464"
+    ],
+    "Nilotinib": [
+      "NCT05564377"
+    ],
+    "Vildagliptin": [
+      "NCT02849899"
+    ],
+    "Iodine": [
+      "NCT07857564",
+      "NCT05828810",
+      "NCT05084378"
+    ],
+    "Prasugrel": [
+      "NCT07629635",
+      "NCT07025148",
+      "NCT06588595"
+    ],
+    "Eltrombopag": [
+      "NCT07421167",
+      "NCT06630221",
+      "NCT04485416"
+    ],
+    "Rivaroxaban": [
+      "NCT07083609",
+      "NCT05775965",
+      "NCT02810704",
+      "NCT07869615",
+      "NCT05047172"
+    ],
+    "Levocetirizine": [
+      "NCT07857941"
+    ],
+    "Teriparatide": [
+      "NCT06558188",
+      "NCT06303284"
+    ],
+    "Prucalopride": [
+      "NCT07848477"
+    ],
+    "Pazopanib": [
+      "NCT01841736"
+    ],
+    "Denosumab": [
+      "NCT04067726",
+      "NCT04711109"
+    ],
+    "Degarelix": [
+      "NCT07335796",
+      "NCT03678025"
+    ],
+    "Lanreotide": [
+      "NCT05477576"
+    ],
+    "Povidone-Iodine": [
+      "NCT05084378"
+    ],
+    "Ticagrelor": [
+      "NCT05047172",
+      "NCT06588595"
+    ],
+    "Hexetidine": [
+      "NCT07868549"
+    ],
+    "Ivabradine": [
+      "NCT07717710"
+    ],
+    "Oxygen": [
+      "NCT06659887",
+      "NCT07702539",
+      "NCT07859982",
+      "NCT07516236",
+      "NCT06242548",
+      "NCT07157696",
+      "NCT07366541",
+      "NCT07368699",
+      "NCT07859358",
+      "NCT06373289",
+      "NCT06128720",
+      "NCT07841223",
+      "NCT04307615",
+      "NCT07861880"
+    ],
+    "Saline": [
+      "NCT04633889",
+      "NCT06634420",
+      "NCT07865871",
+      "NCT07853885",
+      "NCT07703514",
+      "NCT06888921",
+      "NCT05752279",
+      "NCT06651788"
+    ],
+    "Dexketoprofen": [
+      "NCT07859631"
+    ],
+    "Ubidecarenone": [
+      "NCT07668284"
+    ],
+    "Macrogol": [
+      "NCT05216328"
+    ],
+    "Hyaluronidase": [
+      "NCT07388524",
+      "NCT06398457",
+      "NCT07161414",
+      "NCT06948084",
+      "NCT07605416",
+      "NCT06337318",
+      "NCT07062354",
+      "NCT04802759",
+      "NCT05300451"
+    ],
+    "Diphenhydramine": [
+      "NCT05039619",
+      "NCT07570173",
+      "NCT07709000"
+    ],
+    "Duloxetine": [
+      "NCT07296770"
+    ],
+    "Ethambutol": [
+      "NCT06192160"
+    ],
+    "Flunarizine": [
+      "NCT07445464"
+    ],
+    "Granisetron": [
+      "NCT07861737"
+    ],
+    "Hydromorphone": [
+      "NCT07296770",
+      "NCT07840183"
+    ],
+    "Labetalol": [
+      "NCT07865455"
+    ],
+    "Loperamide": [
+      "NCT06424522"
+    ],
+    "Memantine": [
+      "NCT07531940",
+      "NCT07867210"
+    ],
+    "Metformin": [
+      "NCT05708053",
+      "NCT06896981",
+      "NCT07589075",
+      "NCT05680805",
+      "NCT06445946",
+      "NCT03424005",
+      "NCT04625946",
+      "NCT07867236",
+      "NCT04341571",
+      "NCT02275845",
+      "NCT07226453",
+      "NCT01905046",
+      "NCT03558867",
+      "NCT05292573"
+    ],
+    "Methadone": [
+      "NCT07857655",
+      "NCT07296770",
+      "NCT06626503"
+    ],
+    "Methylphenidate": [
+      "NCT03525873",
+      "NCT05761756",
+      "NCT03772834",
+      "NCT07710014"
+    ],
+    "Metoclopramide": [
+      "NCT05983354"
+    ],
+    "Paroxetine": [
+      "NCT07070232"
+    ],
+    "Pioglitazone": [
+      "NCT03109288"
+    ],
+    "Polyethylene Glycol": [
+      "NCT06124157",
+      "NCT03007147",
+      "NCT00501826"
+    ],
+    "Propranolol": [
+      "NCT05797662",
+      "NCT07849283"
+    ],
+    "Ropivacaine": [
+      "NCT06123117",
+      "NCT07853482",
+      "NCT06519955",
+      "NCT07509866",
+      "NCT07866443"
+    ],
+    "Scopolamine": [
+      "NCT05594017"
+    ],
+    "Sodium Chloride": [
+      "NCT05752279"
+    ],
+    "Terazosin": [
+      "NCT07288450",
+      "NCT07464028"
+    ],
+    "Thiamine": [
+      "NCT07868679"
+    ],
+    "Tizanidine": [
+      "NCT07296770",
+      "NCT06666673"
+    ],
+    "Tramadol": [
+      "NCT07610408",
+      "NCT07721571",
+      "NCT07840183"
+    ],
+    "Tyrosine": [
+      "NCT04783415",
+      "NCT04189757",
+      "NCT04978584",
+      "NCT07532330",
+      "NCT05388006",
+      "NCT04404088",
+      "NCT03796884"
+    ],
+    "Vancomycin": [
+      "NCT07341282",
+      "NCT07858916",
+      "NCT07490054",
+      "NCT03595553",
+      "NCT07866157",
+      "NCT06647277"
+    ],
+    "Verapamil": [
+      "NCT07866989"
+    ],
+    "Ziprasidone": [
+      "NCT00254202"
+    ]
+  }
+}
