@@ -29,8 +29,6 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing-report skill from CLAUDE.md context to structure this UK evaluation report from the Evidence Pack.
-
 # Posaconazole: From Invasive Fungal Infections to Pneumocystosis
 
 ## One-Sentence Summary

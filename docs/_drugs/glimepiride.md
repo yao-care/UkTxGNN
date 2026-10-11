@@ -29,8 +29,6 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-Using the evidence pack as given — no skill precisely covers ad-hoc report drafting from a supplied JSON template, so proceeding directly.
-
 # Glimepiride: From Type 2 Diabetes to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
