@@ -3,7 +3,9 @@
 
 country_code: GB
 language: en
-regulatory_agency: MHRA
+# 本站藥品清單實際是 NHS BNF 處方資料（data/raw/drug_names.csv，BNF 編碼），不是 MHRA 藥證（PL 編號）；
+# 報告引用時如實標示來源（2026-10-12 盤點 J 項）
+regulatory_agency: "NHS BNF (England)"
 regulatory_agency_full: Medicines and Healthcare products Regulatory Agency
 data_source: https://products.mhra.gov.uk/
 
