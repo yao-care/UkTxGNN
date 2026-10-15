@@ -29,84 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Acarbose: From Type 2 Diabetes to Focal Stiff Limb Syndrome
+# Acarbose: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Acarbose is a well-established alpha-glucosidase inhibitor used internationally for the management of type 2 diabetes mellitus, though it does not currently hold an MHRA marketing authorisation in the United Kingdom.
-The TxGNN model predicts it may have potential in **Focal Stiff Limb Syndrome**, a rare anti-GAD65-mediated autoimmune neurological condition.
-At present, **no clinical trials** and **no published literature** directly support this repurposing direction — the evidence base is entirely model-driven.
-
----
+Acarbose is an alpha-glucosidase inhibitor, originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 2 diabetes mellitus (alpha-glucosidase inhibitor; no UK MHRA authorisation on record) |
-| Predicted New Indication | Focal Stiff Limb Syndrome |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus |
+| Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L5 |
-| UK Market Status | Not authorised |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Acarbose is an alpha-glucosidase inhibitor that competitively inhibits intestinal brush-border enzymes responsible for carbohydrate digestion, delaying glucose absorption from the gut and blunting postprandial blood glucose peaks. Its proven clinical utility lies in reducing postprandial hyperglycaemia in type 2 diabetes, either as monotherapy or in combination.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Acarbose is known to be an alpha-glucosidase inhibitor that acts locally in the gut to delay carbohydrate absorption and so reduce post-meal rises in blood glucose. Its efficacy in type 2 diabetes mellitus is established.
 
-Focal stiff limb syndrome is a rare autoimmune neurological disorder driven by anti-GAD65 antibodies. GAD65 (glutamic acid decarboxylase 65) is expressed both in GABAergic interneurones of the central nervous system and in pancreatic beta cells. The speculative mechanistic bridge proposes that Acarbose, by attenuating glucose-driven beta cell stimulation, may indirectly reduce GAD65 antigen exposure, potentially dampening the autoimmune cascade. This is an entirely theoretical pathway at the level of molecular conjecture, with no experimental validation in neural tissue, no in vivo model data, and no clinical precedent.
+Focal stiff limb syndrome belongs to the stiff-person spectrum, a neuro-immunological group of disorders linked to GABAergic and glycinergic dysfunction. No credible mechanistic link to acarbose has been identified. The high score most likely reflects associations within the knowledge graph, for example shared diabetes-related autoimmunity, rather than a biological rationale.
 
-The TxGNN model's high confidence score most likely reflects a graph topology artefact — shared knowledge nodes connecting "diabetes," "autoimmunity," and "neurological disease" — rather than a biologically validated repurposing signal. Clinicians should treat high TxGNN scores for rare neurological autoimmune conditions with caution when direct mechanistic and empirical evidence is absent.
+The same pattern applies to the other top predictions, such as classic stiff person syndrome, which often co-occurs with diabetes. At most, acarbose might help manage coexisting post-meal hyperglycaemia, which is not a disease-modifying indication.
 
----
-
-## Clinical Trials
+## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for focal stiff limb syndrome.
 
 ## UK Market Information
 
-Acarbose does not currently hold any MHRA marketing authorisation and is not recorded as a marketed product in the United Kingdom in this Evidence Pack.
+The data compiled for this report show one marketed single-ingredient authorisation for acarbose 50 mg tablets. Authorisation number, dosage form, manufacturer and approved indication text were not available, so no table is shown. Please check the MHRA register and the BNF (antidiabetic drugs section) for full details.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|--------------|-------------|---------------------|
-| — | — | — | No UK authorisations on record |
+## Cytotoxicity
 
----
+Not applicable. Acarbose is not an antineoplastic drug.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (these come from model-derived associations, not from product label text): kidney disease, pyoureter, liver disease, gallbladder disease, cirrhosis of liver, inflammatory bowel disease, hypoglycaemia, and injury.
+- **Drug Interactions**: The interaction search returned 100 interactions in total. Examples of those listed:
+  - Moderate: acetazolamide, salbutamol, aloe vera leaf, alpelisib, amprenavir, aripiprazole, asenapine, atazanavir, bedaquiline, bendroflumethiazide, betamethasone, asparaginase (both forms), benzphetamine, benzthiazide.
+  - Minor: albiglutide, alclometasone (topical), lipoic acid, amcinonide, anisindione.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests entirely on a knowledge graph model score with no supporting clinical trials, published literature, or validated mechanistic evidence linking Acarbose to focal stiff limb syndrome or any related anti-GAD65 autoimmune neurological condition. The biological plausibility is highly speculative, and the drug lacks UK marketing authorisation in any indication.
+The prediction has no supporting trials or publications, and no plausible mechanism links an intestinal alpha-glucosidase inhibitor to focal stiff limb syndrome. The high score most likely reflects graph-based association with diabetes.
 
-**To proceed beyond Hold, the following would be needed:**
-
-- Preclinical evidence (in vitro or animal model) demonstrating any modulating effect of Acarbose on GAD65 autoantibody production or GABAergic neuronal protection
-- Pharmacological MOA data from DrugBank or primary literature to evaluate whether any known off-target activity is relevant to autoimmune neuroinflammation
-- MHRA marketing authorisation data (or equivalent SmPC) to establish baseline safety profile and contraindications in the UK
-- A defined patient hypothesis: e.g., whether any benefit would be restricted to patients with concurrent type 2 diabetes and focal stiff limb syndrome
-- Consultation with a neurologist specialising in autoimmune movement disorders to assess clinical plausibility prior to any research investment
-
-> **Note:** This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.
+**To proceed, the following is needed:**
+- Detailed mechanism of action data for acarbose
+- A mechanistic rationale connecting acarbose to GABAergic or glycinergic neuro-immunological pathways
+- Preclinical or case-based evidence in stiff-person spectrum disorders
+- Full UK authorisation details and label-based warnings and contraindications from the SmPC and BNF
+- Review of the other predicted indications; none has direct evidence. The one with literature, pancreatic agenesis, is supported only by general diabetes papers, and acarbose would not replace insulin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

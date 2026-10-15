@@ -2,7 +2,7 @@
 layout: default
 title: Auranofin
 parent: Model Prediction Only (L5)
-nav_order: 79
+nav_order: 82
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,70 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Auranofin is an oral gold compound classically used in the treatment of rheumatoid arthritis, known for its immunomodulatory and thioredoxin reductase (TrxR)-inhibiting properties.
-The TxGNN model predicts it may be effective for **Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome**, an extremely rare congenital developmental disorder affecting the eyes and skeleton.
-There is currently **no supporting clinical trial or published literature evidence** for this indication, placing this prediction at the lowest evidence tier (L5).
-
----
+Auranofin is an oral gold(I) compound, originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental disorder,
+but **no clinical trials** and **no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid arthritis (based on established drug profile; no UK marketing authorisation on record) |
-| Predicted New Indication | Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome |
+|------|------|
+| Original Indication | Rheumatoid arthritis |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 99.56% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Auranofin is an orally bioavailable organogold compound whose primary mechanism centres on the inhibition of thioredoxin reductase (TrxR), a selenocysteine-containing enzyme critical to cellular redox homeostasis. By disrupting the thioredoxin system, Auranofin promotes an accumulation of reactive oxygen species (ROS), shifts the intracellular redox balance, and triggers apoptotic pathways. It also suppresses NF-κB signalling and modulates downstream inflammatory cascades, which accounts for its established disease-modifying efficacy in rheumatoid arthritis. There is growing research interest in repurposing Auranofin for oncology and infectious disease indications on the basis of these same redox-disrupting properties. Detailed mechanism of action data was not available in the current evidence pack; the above is drawn from published pharmacological literature.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, auranofin is a gold(I) compound that is known to inhibit thioredoxin reductase and modulate redox signalling and inflammation. Its efficacy in rheumatoid arthritis relates to these anti-inflammatory and immunomodulatory effects.
 
-Colobomatous microphthalmia-rhizomelic dysplasia syndrome is an exceptionally rare condition caused by embryonic-stage genetic mutations — likely involving developmental signalling pathways such as BMP, WNT, or Hedgehog — that result in fixed structural malformations: ocular coloboma/microphthalmia and rhizomelic (proximal limb) shortening. These are irreversible structural defects established during organogenesis, not inflammatory, redox-driven, or immune-mediated processes susceptible to pharmacological modulation in postnatal life.
+No mechanistic link to the pathogenesis of this rare developmental syndrome can be established from the available data. The high TxGNN score (99.56%) is a knowledge-graph prediction only. It is not backed by any clinical trial or published study, so it should be regarded as a hypothesis rather than a finding.
 
-The mechanistic overlap between Auranofin's TrxR-inhibitory and immunomodulatory pharmacology and this syndrome's pathophysiology is therefore extremely tenuous. The TxGNN knowledge graph model may have identified an indirect network connection via shared immune or oxidative stress nodes within the biological graph — for instance, through NF-κB as a tangential link to BMP downstream signalling — but this is a graph topological association rather than a direct biological rationale. No mechanistic basis currently supports the hypothesis that TrxR inhibition could alter or ameliorate the structural consequences of these developmental mutations.
-
----
+A second prediction, brachydactyly-syndactyly syndrome (score 99.24%), is in the same position: a rare congenital limb malformation with no documented pathway linking it to auranofin's activity and no supporting studies.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001030A0AAAAAA | Auranofin Tab 3mg | Tablet | Not stated in the data compiled for this report |
+
+The single authorisation is a valid single-ingredient product. The licence number above is as recorded in the source data and does not follow the standard MHRA "PL" format, so it should be verified against the MHRA register before any reliance is placed on it.
+
+## Cytotoxicity
+
+Auranofin is not an antineoplastic drug, and this section is not applicable.
 
 ## Safety Considerations
 
-Safety data for Auranofin (key warnings, contraindications, and drug interactions) was not retrievable within the current evidence pack. As Auranofin holds no UK marketing authorisation, no MHRA-approved Summary of Product Characteristics (SmPC) is available domestically. Please consult the BNF, available international SmPCs (e.g., US label for Ridaura®), and primary pharmacological literature for safety profiling. Any suspected adverse reactions observed in clinical or research settings should be reported via the **MHRA Yellow Card Scheme** at [https://yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).
+- **Contraindications suggested by the knowledge graph (not label text):** The TxGNN knowledge graph links auranofin with contraindications in several groups. These need to be confirmed against the SmPC.
+  - Haematological: haematologic disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia
+  - Renal and hepatic: kidney disease, liver disease, hepatitis, gallbladder disease
+  - Skin: exanthem, exfoliative dermatitis, urticaria, angioedema, atopic eczema, dermatitis
+  - Gastrointestinal: colitis, necrotizing enterocolitis
+  - Respiratory: pulmonary fibrosis, postinflammatory pulmonary fibrosis
+  - Metabolic and cardiovascular: diabetes mellitus, diabetic ketoacidosis, hypertension, hypertensive disorder
+  - Autoimmune and other: systemic lupus erythematosus (including paediatric), Sjögren syndrome, dry eye syndrome, pyoureter
+- **Drug Interactions:** 86 interactions were identified. The main ones in the data are:
+  - **Major:** deferiprone, proguanil, chloroquine
+  - **Moderate:** metronidazole, rosuvastatin, simvastatin, tinidazole, benznidazole, disulfiram
+  - **Severity not graded:** warfarin, prednisone, prednisolone, calcitriol, folic acid, misoprostol, clarithromycin, and the proton pump inhibitors and ranitidine
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score of 99.56%, this score reflects network-based topological proximity rather than biological plausibility. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a congenital structural condition with no mechanistic correspondence to Auranofin's pharmacology, and there is a complete absence of supporting clinical, preclinical, or mechanistic evidence for this repurposing direction.
+The prediction rests on a model score alone (Evidence Level L5), with no clinical trials, no literature and no plausible mechanistic link to a rare developmental syndrome. The safety profile also indicates substantial haematological, renal, hepatic and dermatological cautions.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic evidence**: Identification of a credible biological pathway linking TrxR inhibition or NF-κB modulation to the pathophysiology of this specific syndrome (e.g., relevant in vitro cellular or genetic models)
-- **Preclinical data**: In vitro and/or in vivo studies in relevant disease models demonstrating measurable pharmacological effect
-- **Regulatory clarification**: Confirmation of Auranofin's approved status across relevant jurisdictions (US, EU) and retrieval of the full SmPC for safety baseline assessment
-- **Safety profiling**: Complete characterisation of key warnings, contraindications, and clinically significant drug interactions before any further development steps are undertaken
-- **MOA documentation**: Retrieval of Auranofin's full mechanism of action profile from DrugBank (DB00995) to support any future mechanistic plausibility analysis
-
-> ⚠️ **Research Disclaimer**: This report is produced for research purposes only and does not constitute medical advice. All drug repurposing candidates identified by TxGNN require clinical validation before any therapeutic application. This content should not be used to inform prescribing decisions.
+- Mechanism of action data for auranofin, and a biological rationale linking it to the pathogenesis of the predicted syndrome
+- Preclinical or mechanistic studies (for example in disease models) to move beyond L5
+- Label-based warnings and contraindications from the SmPC and BNF, to replace the knowledge-graph-derived list
+- Verification of the UK authorisation record, including licence number, dosage form and approved indication
+- Assessment of route and formulation suitability for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Didanosine
-parent: Model Prediction Only (L5)
-nav_order: 209
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 221
+evidence_level: L4
 indication_count: 3
 ---
 
 # Didanosine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Didanosine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Didanosine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Didanosine (ddI) is a nucleoside reverse transcriptase inhibitor (NRTI) whose established clinical role is HIV‑1 antiretroviral therapy. The TxGNN model's top-ranked prediction — **Simian Immunodeficiency Virus (SIV) infection** — is not a human disease but a primate model used in HIV/AIDS research, so despite a **99.33%** prediction score, this is not an actionable human repurposing candidate; the supporting evidence base consists entirely of **12 preclinical/animal publications and 0 clinical trials**.
-
----
+Didanosine is an antiretroviral medicine originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, but this is an animal-model disease rather than a human one, and there are **no clinical trials** and only **7 publications** (mostly preclinical) behind the prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV‑1 infection (antiretroviral therapy) — general pharmacological knowledge; not captured in the licence data supplied |
-| Predicted New Indication | Simian immunodeficiency virus infection (an animal-model disease, not a human clinical indication) |
+| Original Indication | HIV infection and AIDS (from the knowledge graph; no approved indication text is available for the UK product) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.33% |
-| Evidence Level | L4 (preclinical/animal studies only) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for didanosine were not available in this evidence pack (flagged as a High-severity data gap). From general pharmacology, didanosine is a purine nucleoside analogue that, after intracellular phosphorylation to ddATP, inhibits HIV reverse transcriptase and causes chain termination — the basis of its efficacy in HIV‑1 infection.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, didanosine is a nucleoside reverse transcriptase inhibitor (NRTI). After conversion inside cells to its active triphosphate form, it terminates viral DNA chain elongation. Its efficacy in HIV infection is established.
 
-The mechanistic rationale behind this TxGNN prediction is that SIV and HIV are both lentiviruses with closely homologous reverse transcriptase enzymes, so an NRTI active against HIV would be expected to also inhibit SIV replication in vitro and in animal models. This is pharmacologically plausible and is in fact supported by direct evidence: PMID 9282812 and 9923010 both describe didanosine reducing SIV viral load in macaques.
+Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV and uses a homologous reverse transcriptase, so activity is mechanistically plausible. A pigtail macaque study reported that didanosine rescued animals from a lethal SIV challenge, and in vitro work has examined the susceptibility of HIV-2, SIV and SHIV to antiretrovirals.
 
-However, SIV infection is a **veterinary/laboratory research model**, not a disease that occurs — or is treated — in humans. TxGNN's high score reflects "mechanistic similarity between related viral targets," not a genuine unmet human clinical need. The same limitation applies to the model's second-ranked prediction, feline acquired immunodeficiency syndrome (feline AIDS, also L4, Hold), which is likewise a veterinary indication. The third-ranked prediction (a rare neurodevelopmental disorder) has **zero supporting trials or literature** (L5) and is essentially an unvalidated graph-network association; didanosine's known mitochondrial/neurological toxicity would argue against, rather than for, this direction. None of the three top predictions currently represents a credible human repurposing opportunity.
+However, SIV infection is an animal model of HIV, not a human disease. Its main value is as a translational proxy for HIV, which is already an established indication. The high TxGNN score most likely reflects this close similarity to the existing indication and should not be read as independent repurposing evidence.
 
----
+The other two predictions were also reviewed and do not support repurposing:
+- **Feline acquired immunodeficiency syndrome (rank 2):** the two papers describe an FIV animal model and mainly report didanosine-induced sensory neuropathy and mitochondrial impairment. This is a toxicity signal, not efficacy (evidence level L4, Hold).
+- **Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (rank 3):** no trials, no literature and no plausible mechanistic link. It is a computational hypothesis only (evidence level L5, Hold).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-*(Evidence for the top-ranked prediction, simian immunodeficiency virus infection — all preclinical/animal or in vitro studies; no human trials or case series exist for this "indication.")*
+All publications below are preclinical. Only the first two directly address didanosine or its activity against SIV.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9282812](https://pubmed.ncbi.nlm.nih.gov/9282812/) | 1997 | Animal study | AIDS Res Hum Retroviruses | Didanosine, but not high-dose hydroxyurea, rescued pigtail macaques from a lethal dose of SIV(smmpbj14) |
-| [9923010](https://pubmed.ncbi.nlm.nih.gov/9923010/) | 1998 | Animal study | Research in Virology | Pre-treatment with ddI reduced acute SIVmac251 viral load and altered cytokine profiles in cynomolgus macaques |
-| [22013040](https://pubmed.ncbi.nlm.nih.gov/22013040/) | 2012 | Animal study / adverse event report | Journal of Virology | Fatal pancreatitis occurred in SIV-infected macaques treated with ddI plus stavudine after immune-checkpoint blockade — a safety signal |
-| [15182307](https://pubmed.ncbi.nlm.nih.gov/15182307/) | 2004 | Animal study | European Journal of Neuroscience | Related dideoxynucleoside analogue lowered brain viral burden and IDO expression in SIV-infected rhesus monkeys |
-| [8870848](https://pubmed.ncbi.nlm.nih.gov/8870848/) | 1996 | Animal study | AIDS Res Hum Retroviruses | Cytokine mRNA expression profiled in tissues during acute SIVmac251 infection of macaques |
-| [14965468](https://pubmed.ncbi.nlm.nih.gov/14965468/) | 2004 | Animal study | DNA and Cell Biology | T-cell receptor excision circles evaluated as a surrogate marker in SHIV/SIV macaque models |
-| [11090360](https://pubmed.ncbi.nlm.nih.gov/11090360/) | 2000 | Animal study (randomised, non-human primate) | Science | Structured treatment interruption with HAART controlled SIV viral rebound in acutely infected macaques |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro study | Antiviral Therapy | Susceptibility of HIV‑2, SIV and SHIV strains to approved anti-HIV‑1 compounds evaluated |
-| [8554904](https://pubmed.ncbi.nlm.nih.gov/8554904/) | 1995 | Model description | AIDS Res Hum Retroviruses | Human thymic organ culture developed as an in vitro model for studying HIV/SIV pathogenesis |
-| [11435599](https://pubmed.ncbi.nlm.nih.gov/11435599/) | 2001 | In vitro study | Journal of Virology | Efficacy of dideoxynucleosides (including didanosine's class) against human foamy virus assessed |
-
----
+| [9282812](https://pubmed.ncbi.nlm.nih.gov/9282812/) | 1997 | Animal study (macaque) | AIDS Res Hum Retroviruses | Didanosine, but not high-dose hydroxyurea, rescued pigtail macaques from a lethal SIV challenge |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro study | Antivir Ther | Compared the activity of 16 approved antiretrovirals and AMD3100 against HIV-2, SIV and SHIV strains |
+| [11435599](https://pubmed.ncbi.nlm.nih.gov/11435599/) | 2001 | In vitro study | J Virol | Dideoxynucleoside susceptibility of human foamy virus; only zidovudine was as effective as against HIV-1 |
+| [14965468](https://pubmed.ncbi.nlm.nih.gov/14965468/) | 2004 | Animal model study | DNA Cell Biol | T-cell receptor excision circles as a surrogate marker in SHIV and SIV macaque models (not didanosine-specific) |
+| [15668538](https://pubmed.ncbi.nlm.nih.gov/15668538/) | 2005 | In vitro study | AIDS | Hydroxyurea has a cytostatic but not immunosuppressive effect on T lymphocytes |
+| [8870848](https://pubmed.ncbi.nlm.nih.gov/8870848/) | 1996 | Animal model study | AIDS Res Hum Retroviruses | Cytokine mRNA expression in tissues during acute SIVmac251 infection in macaques |
+| [9145853](https://pubmed.ncbi.nlm.nih.gov/9145853/) | 1997 | In vitro study | Antimicrob Agents Chemother | Antiviral properties of the protease inhibitor palinavir (not didanosine-specific) |
 
 ## UK Market Information
 
-No UK marketing authorisation was identified for didanosine in the data reviewed. The product is recorded as **not currently marketed** in the UK (0 authorisations on file).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010N0AAAIAI | Didanosine gastro-resistant capsules 400 mg | Capsule (gastro-resistant) | Not stated in the data compiled for this report |
 
----
+The identifier shown is a BNF-style code (BNF chapter 5, infections: antiviral, HIV) rather than a standard MHRA "PL" number. Please verify the current MHRA authorisation status and indication wording directly.
+
+## Cytotoxicity
+
+Didanosine is an antiviral NRTI, not an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-Structured safety data (key warnings, contraindications, drug interactions) were not available for this evidence pack (Blocking data gap — TFDA/MHRA SmPC warnings and contraindications could not be retrieved).
+- **Contraindication signals from the knowledge graph (not label text):** the TxGNN knowledge graph links didanosine to a range of conditions, including kidney disease and impaired renal function, liver disease, peripheral neuropathy, diabetes mellitus and diabetic ketoacidosis, hypertriglyceridemia, coronary artery disease, hypercalcemia, nephrolithiasis and acute urate nephropathy. These come from graph edges and must be checked against the SmPC.
+- **Neurotoxicity signal:** the FIV animal model study (PMID 17616550) reported didanosine-induced sensory neuropathy with mitochondrial and neurotrophic impairment. This is relevant to any neurological indication.
+- **Drug interactions (DDInter, 100 interactions recorded; examples from the list reviewed):**
+  - Moderate: acetylsalicylic acid, metronidazole, levofloxacin, naltrexone, nitisinone, orlistat, rosuvastatin, simvastatin, tinidazole
+  - Minor: ranitidine, doxycycline, minocycline, tetracycline
+  - Unknown severity: levocarnitine, amphotericin B, pantoprazole, glimepiride, morphine, metformin
 
-Two preclinical safety signals emerged from the literature search and are worth noting for risk assessment, though they are not formal SmPC data:
-- **Fatal pancreatitis**: reported in SIV-infected macaques treated with didanosine plus stavudine following immune-checkpoint blockade (PMID 22013040) — pancreatitis is a recognised class effect of didanosine in humans.
-- **Sensory neuropathy**: didanosine induced sensory neuropathy with impaired mitochondrial and neurotrophic gene expression in a feline immunodeficiency virus model (PMID 17616550) — consistent with the known human risk of antiretroviral toxic neuropathy with this drug.
-
-Please refer to the SmPC and BNF for complete safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All three TxGNN-predicted indications fail to clear the bar for further evaluation: the top two (SIV infection, feline AIDS) are animal/veterinary diseases rather than human indications, and the third has no supporting evidence at all (L5). No human clinical trials exist for any of them, and a blocking data gap (missing SmPC warnings/contraindications) prevents even a basic safety review.
+The predicted indication is an animal-model disease with only preclinical evidence (L4), no clinical trials, and a score that largely reflects similarity to the existing HIV indication. It offers no clear new human therapeutic use, and the neurotoxicity signal adds a safety concern.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent SmPC warnings and contraindications for didanosine (Blocking gap, DG001)
-- A confirmed mechanism-of-action record from DrugBank (High-priority gap, DG002)
-- Re-examination of the TxGNN candidate list for genuine human-disease predictions further down the ranking, since the top three are not clinically actionable
-- If a credible human indication is identified, a fresh evidence pack with clinical trial and literature searches specific to that indication
+- A clear human clinical rationale, as SIV and FIV are not human diseases
+- Mechanism of action data and the approved indication text for the UK product
+- Label-based warnings and contraindications from the SmPC and BNF to replace knowledge-graph signals
+- A review of whether the model's other predictions suggest any human indication beyond HIV, given the current lack of supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Primaquine
 parent: Model Prediction Only (L5)
-nav_order: 480
+nav_order: 518
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,39 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-Using the evidence pack as given (Primaquine, DB01087), here is the report.
-
----
-
-# Primaquine: From Antimalarial Therapy to Myiasis
+# Primaquine: From Plasmodium vivax Malaria to Myiasis
 
 ## One-Sentence Summary
 
-> Primaquine is an 8-aminoquinoline with an established, decades-long history as an antimalarial/antiprotozoal agent (used for radical cure of *P. vivax*/*P. ovale* and as a gametocytocide against *P. falciparum*), though formal original-indication licence data is not recorded in this evidence pack. The TxGNN model's top-ranked prediction is **Myiasis**, with a prediction score of **99.76%**, but **no clinical trials and no literature** currently support this specific prediction.
+Primaquine is an 8-aminoquinoline antimalarial, originally used to treat **Plasmodium vivax malaria**.
+The TxGNN model predicts it may be effective for **myiasis** (fly-larvae infestation) with a very high score. However, there are **no clinical trials and no publications** supporting this prediction, and no plausible mechanism is evident, so it is a model-only signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not formally recorded in this evidence pack (no MHRA licence data available); narrative evidence in the pack points to established antimalarial/antiprotozoal use |
+|------|------|
+| Original Indication | Plasmodium vivax malaria |
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for primaquine is not available in this evidence pack (data gap). However, the rationale text accompanying this prediction indicates that primaquine's known pharmacology is an antimalarial/antiprotozoal oxidative mechanism — active against protozoal parasites such as *Plasmodium* species and, per other candidates in this pack, *Toxoplasma gondii* and *Pneumocystis jirovecii*.
+Currently, detailed mechanism of action data is not available. Based on known information, primaquine is an antiprotozoal 8-aminoquinoline. Its efficacy in P. vivax malaria is established, where it acts against liver-stage hypnozoites and mature gametocytes.
 
-Myiasis, by contrast, is a parasitic skin/wound infestation caused by dipteran (fly) larvae — an entirely different phylum of organism to the protozoa primaquine is known to act against. There is no plausible biological link between primaquine's oxidative antiprotozoal mechanism and larvicidal activity against fly larvae. The evidence pack's own assessment concludes this prediction most likely reflects a knowledge-graph embedding artefact rather than a genuine pharmacological relationship, and the same conclusion is drawn for the closely related candidates *wound myiasis*, *creeping myiasis*, *furuncular myiasis*, and *nocardiosis* — all scoring similarly highly (>99%) with zero supporting trials or literature.
+On review, the mechanistic case for myiasis is weak. Myiasis is an infestation by dipteran fly larvae, which are insects, not protozoa. Primaquine has no known larvicidal activity. Standard management is larval removal and wound care, with ivermectin-type agents used in some presentations.
 
-**Note on other candidates in this pack:** This evidence pack evaluated eight indications for primaquine in total. Two lower-ranked candidates are worth flagging for transparency: *malaria* (rank 7) is supported by dozens of completed Phase 2–4 trials and extensive literature — consistent with primaquine's known real-world antimalarial use — and *pneumocystosis* (rank 8) has decades-old trial evidence for clindamycin-primaquine combination therapy. Neither has yet been scored for evidence level/decision stage in this pack. *Toxoplasmosis* (rank 5) reaches evidence level L4 based on review-level literature only, with no dedicated trials. None of these change the assessment of myiasis itself, which remains the top-ranked but least biologically plausible prediction.
+The high score most likely reflects proximity to other antiparasitic indications in the knowledge graph, not a pharmacological link. The same pattern applies to the closely related predictions (wound myiasis, creeping myiasis and furuncular myiasis), which also lack clinical or literature support.
 
 ---
 
@@ -79,13 +76,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
-No UK marketing authorisation is currently recorded for primaquine in this evidence pack. Market status is listed as **Not marketed**, with **0** licences on file.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0504010K0AAAAAA | Primaquine Tab 7.5 mg | Tablet (from product name) | Not stated in the available record |
+
+This single authorisation is a valid single-ingredient product. The identifier is not in the standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register. The BNF lists primaquine among the antimalarials. Myiasis is not an authorised use.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and risk conditions (from drug-disease knowledge-graph links, not label text):** neutropenia, agranulocytosis, G6PD deficiency, haemolytic anaemia, methaemoglobinaemia due to methaemoglobin reductase deficiency, glycogen storage disease, cystinuria, galactosaemia and pyruvate dehydrogenase E3 deficiency.
+- **Drug interactions:** 100 interactions were recorded. The 20 reviewed include:
+  - **Major:** dolasetron.
+  - **Moderate:** clarithromycin, levofloxacin, ondansetron, granisetron, palonosetron, famotidine, alosetron, loperamide, and several laxatives and bowel-preparation agents (e.g. bisacodyl, lactulose, macrogols).
+  - **Minor:** metronidazole.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,13 +101,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (myiasis) has evidence level L5 — a model prediction with no supporting clinical trials or literature — and no plausible mechanistic link to primaquine's known antiprotozoal pharmacology. It should not proceed further as currently framed.
+The prediction rests on a model score alone, with no trials, no publications and no plausible antilarval mechanism. Primaquine also carries meaningful haemolytic risk, which is not justified without any supporting benefit.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC warnings and contraindications data (currently blocking — flagged as DG001)
-- Confirmed mechanism of action data from DrugBank (flagged as DG002, High severity)
-- Formal documentation of primaquine's original licensed indication(s), currently absent from this pack
-- If research resources are to be allocated to primaquine repurposing at all, the lower-ranked but evidence-supported candidates in this pack (e.g. toxoplasmosis, L4) warrant consideration ahead of myiasis
+- Any in vitro or in vivo evidence of activity against dipteran larvae
+- Detailed mechanism of action data
+- Confirmation of the marketing authorisation details, including the approved indication and dosage form
+
+**Other predictions for this drug (for context):** Malaria and pneumocystosis were assessed as L1 with "Proceed with Guardrails". Malaria is essentially primaquine's existing use, not true repurposing. Pneumocystosis is supported by clindamycin–primaquine as a second-line regimen. Both require G6PD testing before use. Toxoplasmosis is a research question (L4) with only incidental literature support. These would be better candidates for a dedicated evaluation than myiasis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

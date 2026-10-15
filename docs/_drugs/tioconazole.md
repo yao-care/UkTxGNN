@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tioconazole
-parent: High Evidence (L1-L2)
-nav_order: 577
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 619
+evidence_level: L3
 indication_count: 10
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tioconazole: From Superficial Fungal Infections to Vulvovaginitis
+# Tioconazole: From Vulvovaginal Candidiasis to Vulvovaginitis
 
 ## One-Sentence Summary
 
-Tioconazole is an imidazole-class topical antifungal, historically used to treat superficial fungal infections such as vaginal candidiasis and dermatophytosis. The TxGNN model predicts it may also be effective for **Vulvovaginitis**, with **2 clinical trials** and **20 publications** currently supporting this direction, although none of the registered trials test tioconazole itself directly.
+Tioconazole is a topical imidazole antifungal, originally used to treat vulvovaginal candidiasis.
+The TxGNN model predicts it may be effective for **vulvovaginitis**, with **no registered clinical trials** but **20 publications** (mostly 1980s studies) in the data compiled for this report. Because vulvovaginitis largely overlaps with the existing candidal indication, this is closer to an on-label use than true repurposing.
 
 ---
 
@@ -41,34 +42,27 @@ Tioconazole is an imidazole-class topical antifungal, historically used to treat
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial fungal infections (vaginal candidiasis, dermatophytosis) — per literature evidence (PMID 3510114); no formal UK licence text is available |
+| Original Indication | Vulvovaginal candidiasis |
 | Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 99.23% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information from the associated literature, tioconazole is an imidazole-class antifungal agent with broad-spectrum activity against dermatophytes and yeasts, and some activity against Gram-positive bacteria and trichomonads (PMID 3510114). Its efficacy in superficial mycoses, including vaginal candidiasis, has been well documented in numerous open-label and randomised comparative studies from the 1980s onward.
+Detailed mechanism of action data is not available in the DrugBank record compiled for this report. From pharmacology data, tioconazole is known to inhibit fungal lanosterol 14-alpha-demethylase (CYP51/ERG11), the enzyme that converts lanosterol to ergosterol. Without ergosterol, the fungal cell wall cannot be maintained and the organism cannot survive. Tioconazole also inhibits the human enzyme CYP8B1, which is involved in bile acid biosynthesis.
 
-Vulvovaginitis is a symptom complex most commonly caused by *Candida* species (candidal vulvovaginitis), bacterial vaginosis, or *Trichomonas vaginalis* infection. Since tioconazole's established antifungal spectrum directly targets *Candida*, and candidal infection is the leading cause of vulvovaginitis, the TxGNN prediction aligns closely with the drug's known pharmacology rather than representing an unrelated repositioning.
-
-This mechanistic overlap is further reinforced by historical clinical evidence: several randomised, double-blind, and open comparative trials directly compared tioconazole with other azoles (clotrimazole, econazole, miconazole) and with oral ketoconazole in vaginal candidiasis, consistently reporting comparable cure rates. This body of evidence, while predating modern trial registries, provides a reasonable basis for treating vulvovaginitis as a mechanistically and clinically coherent extension of tioconazole's original use.
+Vulvovaginal candidiasis is a form of vulvovaginitis, so the predicted indication is largely the same clinical entity as the original one. The prediction is therefore plausible, but it adds little new therapeutic scope. It does not extend to non-fungal causes of vulvovaginitis, such as atrophic or viral causes, where an antifungal mechanism would not apply.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03839875](https://clinicaltrials.gov/study/NCT03839875) | Phase 4 | Completed | 116 | Open-label, single-arm study of Gynomax® XL ovule in trichomonal vaginitis, bacterial vaginosis, candidal vulvovaginitis and mixed vaginal infections; drug identity relative to tioconazole not confirmed |
-| [NCT06056947](https://clinicaltrials.gov/study/NCT06056947) | Phase 3 | Completed | 577 | Randomised, three-arm study comparing new fenticonazole + tinidazole + lidocaine formulations against Gynomax® XL ovule for bacterial vaginosis, candidal vulvovaginitis, trichomonal vaginitis and mixed infections; not a tioconazole-specific trial |
-
-**Note:** Neither registered trial evaluates tioconazole directly; both provide indirect, disease-level supporting context rather than drug-specific confirmatory evidence.
+Currently no related clinical trials registered.
 
 ---
 
@@ -76,44 +70,55 @@ This mechanistic overlap is further reinforced by historical clinical evidence: 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | RCT | Antimicrobial Agents and Chemotherapy | Single-dose 6.5% tioconazole ointment achieved cure rates comparable to 3-day clotrimazole (84% vs 85%) in vulvovaginal candidiasis |
-| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | RCT | Gynäkologische Rundschau | Double-blind comparison of tioconazole vs placebo in vaginal candidiasis, with assessment of systemic absorption |
-| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | RCT | The Journal of International Medical Research | Single-dose topical tioconazole 6% vaginal ointment vs 5-day oral ketoconazole; both eradicated infection, topical arm had faster symptom relief |
-| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Review | Drugs | Comprehensive review confirming broad-spectrum antifungal activity and established efficacy of topical tioconazole in vaginal candidiasis |
-| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Review of Anti-infective Therapy | Reviews non-invasive azole treatment options for vulvovaginal candidiasis, confirming continued clinical relevance of topical azoles |
-| [10470518](https://pubmed.ncbi.nlm.nih.gov/10470518/) | 1999 | Review | Comprehensive Therapy | Reviews epidemiology, diagnosis and therapy of vulvovaginitis in otherwise healthy women |
-| [34550113](https://pubmed.ncbi.nlm.nih.gov/34550113/) | 2021 | Review | The Medical Letter on Drugs and Therapeutics | Drug evaluation bulletin on ibrexafungerp for vulvovaginal candidiasis, contextualising topical azole alternatives |
-| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Cohort/Open-label | Gynäkologische Rundschau | Open comparison of tioconazole vs econazole over 3-day treatment showing comparable efficacy and tolerability |
-| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Case series | Gynäkologische Rundschau | Open comparison of tioconazole cream vs econazole ovules in 3-day treatment of vaginal candidiasis |
-| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Case series | The Journal of International Medical Research | Open non-comparative study of 2% tioconazole vaginal cream in *Trichomonas vaginalis* and mixed vaginal infections; 95% cure rate at follow-up |
+| [3524439](https://pubmed.ncbi.nlm.nih.gov/3524439/) | 1986 | RCT | Antimicrob Agents Chemother | 80 patients: single-dose 6.5% tioconazole ointment vs 3-day clotrimazole tablets; 84% vs 85% remained asymptomatic at 4 weeks |
+| [6347833](https://pubmed.ncbi.nlm.nih.gov/6347833/) | 1983 | Double-blind placebo-controlled trial | Gynakol Rundsch | Tioconazole vs placebo in vaginal candidiasis, including assessment of systemic absorption |
+| [3510114](https://pubmed.ncbi.nlm.nih.gov/3510114/) | 1986 | Review | Drugs | Broad in vitro activity against dermatophytes and yeasts; trials show efficacy and safety of topical tioconazole in superficial mycoses and vaginal candidiasis |
+| [40464716](https://pubmed.ncbi.nlm.nih.gov/40464716/) | 2025 | Review | Expert Rev Anti Infect Ther | Overview of non-invasive azole options for vulvovaginal candidiasis, including recurrent disease |
+| [6094282](https://pubmed.ncbi.nlm.nih.gov/6094282/) | 1984 | Open randomised study | J Int Med Res | 40 patients: single-dose topical 6% tioconazole vs 5 days of oral ketoconazole; both effective, with faster symptom response on topical therapy |
+| [6347834](https://pubmed.ncbi.nlm.nih.gov/6347834/) | 1983 | Open-label comparative trial | Gynakol Rundsch | Tioconazole vs econazole, 3-day treatment of vaginal candidiasis |
+| [6873744](https://pubmed.ncbi.nlm.nih.gov/6873744/) | 1983 | Open-label comparative trial | Gynakol Rundsch | Tioconazole cream vs econazole ovules, 3-day treatment |
+| [3984688](https://pubmed.ncbi.nlm.nih.gov/3984688/) | 1985 | Clinical study | Acta Obstet Gynecol Scand | 2% vaginal cream for 3 days gave 88.5% mycological cure in symptomatic women |
+| [3216880](https://pubmed.ncbi.nlm.nih.gov/3216880/) | 1988 | Clinical study | Mycoses | Tioconazole in vaginal candidosis |
+| [3485546](https://pubmed.ncbi.nlm.nih.gov/3485546/) | 1986 | Open, non-comparative study | J Int Med Res | 2% cream in 20 patients with Trichomonas or mixed vaginal infections; 95% cured at first follow-up |
 
 ---
 
 ## UK Market Information
 
-Tioconazole currently holds no active marketing authorisation in the UK (market status: **Not marketed**; 0 registered licences in this Evidence Pack). No MHRA product listing or BNF entry is available for cross-reference. Historically, tioconazole has been marketed in other jurisdictions (e.g. as vaginal ointment/cream and nail lacquer formulations for candidal vulvovaginitis and onychomycosis), but no equivalent UK-authorised product is on record here.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1310020T0AAAAAA | Tioconazole Medic Nail Lacquer 283 mg/ml | Not stated | Not stated |
+
+Only one authorisation is recorded, and it is for a nail lacquer rather than a vaginal product. The dosage form and approved indication are not available in the data compiled for this report. Please check the current MHRA record and the BNF for the formulations and indications licensed in the UK.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: Two interaction records were found. Omeprazole is listed with an unclassified severity level. Pharmacology data also show that tioconazole inhibits the human enzyme CYP8B1 (bile acid biosynthesis), but no clinical significance has been established.
+
+For other safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple historical randomised and open comparative studies support tioconazole's efficacy against candidal vaginal infection, which is mechanistically and clinically consistent with vulvovaginitis. However, neither registered clinical trial tests tioconazole directly, the drug has no current UK marketing authorisation, and this Evidence Pack lacks MOA and safety labelling data, so guardrails are required before any advancement.
+The evidence is L3: there are older randomised and comparative studies in vaginal candidiasis, but no registered trials. Vulvovaginitis is effectively the same condition as the original indication, so this is not a distinct repurposing opportunity. Safety and label data are also incomplete.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC safety labelling (key warnings, contraindications, drug interactions) — currently a Blocking data gap
-- Confirmed mechanism of action data via DrugBank — currently a High-severity data gap
-- Confirmation of tioconazole's identity/route within the two registered trials, since both currently test other or combination formulations
-- Assessment of UK market re-entry feasibility given "Not marketed" status and zero active licences
-- Route compatibility data (available vs required administration routes for vulvovaginitis treatment)
+- Confirmation of the UK-licensed vaginal formulations and their approved indications
+- Warnings and contraindications from the current SmPC and BNF
+- Mechanism of action data from DrugBank
+- Clarification of which vulvovaginitis subtypes (for example candidal versus non-infectious) are being targeted, since the evidence supports only the candidal form
+- Modern, registered trial data if a genuinely new use is pursued
+
+**Other predictions in the data, for context:**
+- **Trichomonal vulvovaginitis** and **fungal infectious disease** (mainly onychomycosis with laser-assisted topical tioconazole): limited supporting studies, worth further research questions.
+- **Tinea nigra**: mechanistically plausible from class effect, but no tioconazole-specific evidence.
+- **Atrophic vaginitis, vulvar ulceration, vulvar neoplasm, anogenital HPV and mycotic corneal ulcer**: model prediction only, with no plausible mechanism or evidence; not recommended for follow-up.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

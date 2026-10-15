@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Candesartan Cilexetil
-parent: Moderate Evidence (L3-L4)
-nav_order: 122
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 126
+evidence_level: L5
 indication_count: 5
 ---
 
 # Candesartan Cilexetil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,81 +33,88 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Candesartan cilexetil is an angiotensin II receptor blocker (ARB) of the sartan class, established as a standard treatment for systemic hypertension and heart failure. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, with a model confidence score of **99.68%**; however, **no clinical trials or published literature** specifically supporting this repurposed indication were identified, and an important mechanistic safety paradox must be resolved before progression.
-
----
+Candesartan cilexetil is an angiotensin II receptor blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but currently there are **no clinical trials** and **no directly relevant publications** supporting this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (no MHRA marketing authorisations recorded in current dataset) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder); the approved indication text is not available in the data compiled for this report |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.68% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, candesartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is well established.
 
-Detailed mechanism of action data is not available within this Evidence Pack. Based on established pharmacology, candesartan cilexetil is a prodrug that is hydrolysed to candesartan — a highly selective, competitive antagonist of the AT₁ angiotensin II receptor. By blocking AT₁ receptors, candesartan interrupts the renin-angiotensin system (RAS), reducing vasoconstriction, aldosterone secretion, and sympathetic nervous system activation. Its notable lipophilicity is thought to confer superior tissue penetration compared with other ARBs, potentially achieving more complete local RAS blockade in target organs such as the kidney and vasculature.
+Renovascular hypertension is driven largely by activation of the renin-angiotensin system, so blocking the AT1 receptor is mechanistically plausible. The high TxGNN score probably reflects the close similarity of this condition to the approved hypertension indication in the knowledge graph, rather than independent evidence.
 
-Renovascular hypertension arises from renal artery stenosis causing excessive renin release and downstream RAS hyperactivation — precisely the pathway that ARBs are designed to interrupt. The malignant form is characterised by severely elevated blood pressure with acute end-organ damage (hypertensive encephalopathy, papilloedema, acute kidney injury), where aggressive RAS suppression is conceptually appealing. The TxGNN model's high score therefore reflects a plausible mechanistic logic: if RAS hyperactivation drives the hypertensive crisis, then AT₁ blockade should attenuate it.
+There is an important safety caveat. Drugs that block the renin-angiotensin system can precipitate acute renal failure in patients with bilateral renal artery stenosis, or stenosis affecting a solitary kidney. This is exactly the population in which renovascular hypertension occurs, so the benefit-risk balance needs careful evaluation before any further development.
 
-However, a critical safety paradox must be acknowledged. Bilateral renal artery stenosis — or stenosis affecting a solitary functioning kidney — is a recognised relative contraindication to ACE inhibitors and ARBs in all major guidelines. In this anatomical context, these agents can precipitate acute kidney injury by abolishing the compensatory efferent arteriolar constriction that maintains glomerular filtration pressure. Patients with malignant renovascular hypertension already have compromised renal perfusion; the use of candesartan without prior exclusion of bilateral stenosis carries a substantial risk of precipitating acute renal failure. Renal vascular anatomy must be characterised before any therapeutic trial in this population.
+**Other predictions in the data (all L5, all Hold):**
 
----
+| Rank | Predicted Indication | Score | Comment |
+|------|------|------|------|
+| 2 | Malignant hypertensive renal disease | 99.68% | Renoprotective role of ARBs in other kidney diseases is an inference only; no direct evidence |
+| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.67% | Heterogeneous category; systemic hypotension is a concern |
+| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.67% | Plausible but unproven link; the two retrieved papers do not directly support it |
+| 5 | Braddock syndrome | 99.56% | No mechanistic link identified; likely a knowledge-graph artefact |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was found for the lead prediction (malignant renovascular hypertension). The only publications retrieved relate to the rank 4 prediction, and both are tangential:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31396238](https://pubmed.ncbi.nlm.nih.gov/31396238/) | 2019 | Preclinical (mouse) | Frontiers in Immunology | Candesartan cilexetil improved neurological outcomes in a mouse model of neonatal hypoxia-induced seizures through anti-inflammatory effects; not a pulmonary hypertension study |
+| [21423692](https://pubmed.ncbi.nlm.nih.gov/21423692/) | 2011 | Preclinical (rat) | Evid Based Complement Alternat Med | Hachimijiogan (a herbal formulation, not candesartan) was compared with an angiotensin II receptor blocker in a remnant kidney model; not relevant to pulmonary hypertension |
 
 ## UK Market Information
 
-No marketing authorisations for candesartan cilexetil are recorded in the UK dataset within this Evidence Pack. Healthcare professionals should consult the [MHRA Product Licences database](https://products.mhra.gov.uk/) and the [BNF](https://bnf.nice.org.uk/) directly for current licensing and prescribing information.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205052C0AAABAB | Candesartan Cilexetil Tab 4mg | Tablet (not specified in the data) | Not available in the data compiled for this report |
 
-> **Note for clinicians:** Candesartan cilexetil is a well-established ARB used in UK clinical practice. The absence of MHRA licence records in this dataset reflects a data gap in the current Evidence Pack rather than an absence of authorised products. Please verify current authorisation status via official MHRA channels.
-
----
+The authorisation identifier shown is as recorded in the data and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. Candesartan sits within the BNF cardiovascular chapter (angiotensin-II receptor antagonists); NICE-appraised indications should be checked directly.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the [Yellow Card Scheme](https://yellowcard.mhra.gov.uk/).
+**Contraindications and conditions of concern (from the TxGNN knowledge graph, not from product label text):**
 
-> **Important class-level alert:** As an ARB, candesartan carries a well-established contraindication in the context of bilateral renal artery stenosis or stenosis of the artery supplying a single functioning kidney. This is directly relevant to the predicted indication of malignant renovascular hypertension. Renal function and serum electrolytes (particularly potassium and creatinine) must be monitored closely if use is contemplated. Use in pregnancy is contraindicated. Concomitant use with other agents affecting the RAS (ACE inhibitors, aliskiren) increases the risk of hyperkalaemia, hypotension, and renal impairment.
+The knowledge graph links candesartan to the following conditions as contraindications or cautions. These should be confirmed against the SmPC:
 
----
+- **Renal and vascular:** anuria, impaired renal function, renal artery obstruction, hypotensive disorder
+- **Metabolic and electrolyte:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, phosphorus metabolism disease, hyperparathyroidism, osteitis fibrosa, nephrocalcinosis, hyperuricaemia, gout
+- **Hepatic and biliary:** liver disease, hepatic coma, hepatic encephalopathy, gallbladder disease, pancreatitis, neonatal jaundice
+- **Autoimmune:** systemic lupus erythematosus (including paediatric)
+
+Some of these entries appear to reflect warnings for combination products (for example, those containing a thiazide diuretic) rather than candesartan alone, so they should be interpreted with caution.
+
+Please refer to the SmPC and BNF for authoritative warnings and drug interaction information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the mechanistic rationale for ARB therapy in RAS-driven hypertension is pharmacologically coherent, the specific context of *malignant* renovascular hypertension introduces a safety-first paradox: bilateral renal artery stenosis — the most common structural substrate — constitutes a class contraindication to ARBs, and no direct clinical trial or literature evidence supporting candesartan in this precise indication has been identified.
+The prediction rests on model output alone (L5). There are no trials and no directly relevant literature. The target population, renovascular disease, carries a recognised risk of acute renal failure with renin-angiotensin system blockade.
 
 **To proceed, the following is needed:**
-
-- **Renal vascular imaging** to exclude bilateral renal artery stenosis (duplex Doppler ultrasound, CT or MR angiography) prior to any consideration of ARB therapy — this is the single most critical pre-requisite
-- **Mechanism of action data** retrieved from DrugBank (DB00796) or published pharmacology literature to complete the mechanistic link analysis
-- **Safety profile** including full MHRA SmPC warnings, contraindications, and drug interaction data (DDI query returned no results in this dataset)
-- **MHRA licence verification** to confirm current UK marketing authorisation status and approved indications
-- **Targeted literature search** using candesartan-specific MeSH terms combined with renovascular hypertension terminology, rather than the prodrug name alone, to ensure complete evidence capture
-- **Pilot observational data** or case series in patients with *unilateral* renal artery stenosis and malignant hypertension before any prospective trial design is considered
-
----
-
-*This report is generated for research purposes only and does not constitute clinical or prescribing advice. Drug repurposing candidates require prospective clinical validation before therapeutic application. All prescribing decisions should be made in accordance with the current BNF, SmPC, and relevant NICE guidance.*
+- Product label data (indication, warnings and contraindications) for the UK authorisation, including a verified MHRA licence number and dosage form
+- Mechanism of action data confirmed from a source such as DrugBank
+- A systematic literature review on ARBs in renovascular hypertension and malignant hypertension, including renal safety in renal artery stenosis
+- A safety plan covering renal function and potassium monitoring, and exclusion of bilateral renal artery stenosis
+- Review of whether the remaining predictions (pulmonary hypertension, Braddock syndrome) merit any further work, given the lack of mechanistic support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

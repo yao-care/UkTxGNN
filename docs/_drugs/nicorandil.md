@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nicorandil
-parent: Model Prediction Only (L5)
-nav_order: 412
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 443
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nicorandil is a potassium-channel activator and nitric oxide donor conventionally used in the management of angina pectoris. The TxGNN model predicts it may also be effective for **Benign Prostatic Hyperplasia (BPH)**, but this direction is currently supported only by **0 clinical trials** and **3 mechanistic/preclinical publications**, with no human interventional data.
-
----
+Nicorandil is a potassium channel opener with a nitrate-like effect, used to treat chronic stable angina pectoris.
+The TxGNN model predicts it may be effective for **benign prostatic hyperplasia (BPH)**, but there are currently **no registered clinical trials** and only **3 publications** (one animal study and two reviews) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Angina pectoris (based on known pharmacological classification as a KATP-channel opener/NO donor — not verified against UK licensing data in this evidence pack) |
-| Predicted New Indication | Benign Prostatic Hyperplasia |
+| Original Indication | Not recorded in the UK licence data compiled for this report (the pharmacology source describes chronic stable angina pectoris) |
+| Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (preclinical/mechanistic studies only) |
-| UK Market Status | Not marketed (per this evidence pack) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, sourced mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the mechanistic rationale accompanying the top prediction, nicorandil acts as a KATP-channel opener and nitric oxide donor with vasodilator properties — the same pharmacology underlying its established anti-anginal effect on coronary blood flow.
+Detailed mechanism of action data is not available in the data compiled for this report. From the pharmacology information provided, nicorandil opens ATP-sensitive potassium channels (it is listed against Kir6.1 and Kir6.2) and has a nitrate-like nitric oxide donor effect. Together these produce vasodilation.
 
-The proposed link to BPH rests on the "vascular ischaemia hypothesis" of lower urinary tract symptoms (LUTS), which suggests that chronic impairment of prostatic blood flow contributes to stromal hyperplasia. Under this hypothesis, a drug that dilates prostatic vasculature could theoretically improve local perfusion and reduce hyperplastic stimulus, mirroring how nicorandil improves myocardial perfusion in angina.
+The published literature proposes that reduced blood flow to the prostate (prostatic ischaemia) contributes to BPH and its lower urinary tract symptoms (LUTS). Clinical data have linked BPH with atherosclerotic disease such as hypertension. If so, a vasodilator that improves prostatic blood supply could plausibly help. In a study of spontaneously hypertensive rats, nicorandil treatment was examined in relation to prostatic blood flow and prostatic hyperplasia. A 2015 review discusses nicorandil as a vasodilator for LUTS. Relaxation of bladder and prostate smooth muscle may also contribute.
 
-However, this remains a theoretical extrapolation. The supporting literature consists of two narrative reviews discussing the vascular hypothesis of BPH/LUTS and one preclinical study in a spontaneously hypertensive rat model, with no human trials evaluating nicorandil for BPH. The biological plausibility is reasonable but unproven in patients.
-
----
+This mechanism is biologically plausible, but it remains a hypothesis. No controlled human efficacy data were identified.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Review | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Discusses prostatic blood flow as a therapeutic target in BPH/BPE, citing clinical associations between BPH/BPE and atherosclerotic disease |
-| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Review | Nihon Yakurigaku Zasshi (Folia Pharmacologica Japonica) | Frames LUTS as a vascular dysfunction and discusses nicorandil's vasodilator effect as a potential mechanism (abstract not available) |
-| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Preclinical (animal, SHR model) | Scientific Reports | In spontaneously hypertensive rats, nicorandil treatment was used to investigate the link between prostatic blood flow and prostatic hyperplasia development |
-
----
+| [31735753](https://pubmed.ncbi.nlm.nih.gov/31735753/) | 2019 | Review | Nihon Yakurigaku Zasshi | Reviews evidence that impaired prostatic blood supply may drive BPH and LUTS, and that BPH is associated with atherosclerotic disease |
+| [24448152](https://pubmed.ncbi.nlm.nih.gov/24448152/) | 2014 | Preclinical (animal model) | Scientific Reports | In spontaneously hypertensive rats, prostatic ischaemia was linked to ventral prostatic hyperplasia; the study examined six weeks of nicorandil treatment and its effect on prostatic blood flow |
+| [26165338](https://pubmed.ncbi.nlm.nih.gov/26165338/) | 2015 | Review | Nihon Yakurigaku Zasshi | Discusses LUTS as a vascular dysfunction and the potential role of nicorandil as a vasodilator (no abstract available) |
 
 ## UK Market Information
 
-Nicorandil is recorded as **not marketed** in the UK in this evidence pack, with **0 marketing authorisations** currently identified. No product-level licensing detail is available to summarise here.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206030N0AAAAAA (BNF-style code) | Nicorandil 10 mg tablets | Tablet (form not specified in the data) | Not specified in the data compiled; pharmacology sources describe chronic stable angina pectoris |
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-> Note: No drug interaction (DDI) data, warnings, or contraindications were retrievable in this evidence pack (query returned no results). This is flagged as a **Blocking** data gap (DG001), meaning an initial safety assessment (Stage S1) cannot currently be completed.
-
----
+The only interaction-type data available are pharmacological target records (Kir6.1 and Kir6.2 potassium channels). These describe the mechanism, not drug-drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The BPH prediction is supported only by mechanistic reasoning and one preclinical animal study, with no clinical trials in humans and no UK marketing authorisation on record. A confirmed safety data gap also blocks a preliminary safety assessment, so the candidate cannot yet advance beyond a research hypothesis.
+The BPH prediction has a high model score and a plausible vascular mechanism, but the evidence is limited to one animal study and two reviews. There are no registered trials and no human efficacy data, and the safety data for this report are incomplete.
 
 **To proceed, the following is needed:**
-- SmPC/product warnings and contraindications data (DG001, Blocking) — required before any safety screening can proceed
-- Verified mechanism-of-action documentation (DG002, High) to substantiate the vascular-ischaemia rationale
-- Confirmed original indication and UK licensing status for nicorandil (not present in this evidence pack)
-- Human proof-of-concept or pilot clinical data specifically evaluating nicorandil in BPH/LUTS before any further prioritisation
+- Complete UK safety information (warnings, contraindications, interactions) from the SmPC and BNF
+- Detailed mechanism of action data
+- Confirmed approved indication and dosage form for the UK authorisation
+- Human pilot or observational data on nicorandil in BPH or LUTS, including prostatic blood flow and symptom outcomes
+- Assessment of safety in older men with BPH, who are often on alpha-blockers or antihypertensives that may add to blood pressure lowering
+
+**Other predicted indications (all Hold, L5, prediction only, no trials or literature):** alopecia, hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, osteoarthritis susceptibility, osteoarthritis, acromesomelic dysplasia (Hunter-Thompson type), brachyolmia, and brachyolmia-amelogenesis imperfecta syndrome.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

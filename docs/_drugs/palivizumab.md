@@ -2,7 +2,7 @@
 layout: default
 title: Palivizumab
 parent: Model Prediction Only (L5)
-nav_order: 442
+nav_order: 475
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# Palivizumab: From Respiratory Syncytial Virus Infection to Benign Neoplasm of Tongue
 
 ## One-Sentence Summary
 
-Palivizumab is a monoclonal antibody that neutralises the RSV F protein, and its known clinical role is prevention of respiratory syncytial virus (RSV) infection rather than any confirmed licensed indication in this data pack.
-The TxGNN model predicts a very high association score for **Benign Neoplasm of Tongue**, but **no clinical trials or literature currently support this direction**, and the evidence pack's own mechanistic rationale explicitly states there is no biologically plausible link.
-This pattern repeats across all ten top-ranked predictions for this drug, suggesting a model artefact rather than a genuine repurposing signal.
+Palivizumab is a monoclonal antibody originally used to prevent respiratory syncytial virus (RSV) infection.
+The TxGNN model predicts it may be effective for **benign neoplasm of tongue**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in this data pack (no MHRA/UK licence on file); known pharmacological target is RSV F protein neutralisation |
-| Predicted New Indication | Benign Neoplasm of Tongue |
+| Original Indication | Respiratory syncytial virus infection (the approved indication text for the UK authorisation is not available) |
+| Predicted New Indication | Benign neoplasm of tongue |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not confirmed in this pack (`original_moa` is flagged as a data gap), but the evidence pack's own repurposing rationale describes palivizumab as an anti-RSV F protein monoclonal antibody whose only known activity is neutralisation of respiratory syncytial virus — it has no established anti-tumour or cell-proliferation-modulating mechanism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Palivizumab is known to be a humanised monoclonal antibody directed against the F protein of RSV, and its role in RSV infection is well established. It neutralises the virus rather than acting on human tissue.
 
-There is no plausible biological relationship between RSV neutralisation and benign tongue neoplasms. The rationale field for this candidate states directly that the high TxGNN score likely reflects a prediction artefact: palivizumab is not marketed and therefore has sparse connectivity (low node degree) within the underlying knowledge graph, which can inflate similarity-based scores for unrelated diseases.
+Benign tongue neoplasms are not driven by RSV, and palivizumab has no known antitumour activity. No plausible mechanistic link has been identified. The high TxGNN score is a model output only. It most likely reflects proximity in the knowledge graph to respiratory or upper airway disease nodes rather than a true biological relationship.
 
-This same explanation — no mechanistic link, likely KG sparsity artefact — is repeated identically across all ten top-ranked predicted indications for this drug (epiglottis neoplasm, cervical neuroblastoma, testicular tumour, and others), none of which have any oncological rationale connecting back to an antiviral antibody. This consistency across unrelated disease categories reinforces that the signal is not biologically meaningful.
+The other top-ranked predictions show the same pattern. They are epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of hypopharynx, benign neoplasm of floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of jugular foramen, mesenchymoma and thyroglossal duct cyst. All have scores of about 99.9%, none has any trial or literature support, and none has a mechanistic rationale. This suggests a systematic pattern in the model rather than a drug-specific signal.
 
 ## Clinical Trial Evidence
 
@@ -67,26 +67,29 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Palivizumab currently has no UK marketing authorisations recorded in this data pack (0 licences; market status: not marketed). No product-level licence, dosage form, or approved indication text is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503050A0AAAAAA | Palivizumab Inj 100mg Vl + Dil | Not specified | Not specified |
+
+This entry appears to be a classification-style code rather than a standard MHRA PL number, so the MHRA authorisation details should be verified against the SmPC and the BNF.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
-*Note: Product-specific warnings and contraindications are currently a blocking data gap (DG001) and must be obtained before any safety evaluation can proceed.*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there are zero supporting clinical trials or literature, no plausible mechanistic link between RSV neutralisation and any of the ten predicted (mostly oncological) indications, and the drug is not currently marketed in the UK. The evidence pack itself attributes the signal to likely knowledge-graph sparsity rather than genuine pharmacological relevance.
+The prediction is supported only by the TxGNN model score (Evidence Level L5). There are no clinical trials, no publications and no plausible mechanistic link between RSV F-protein neutralisation and benign tongue neoplasm.
 
 **To proceed, the following is needed:**
-- Confirmed TFDA/MHRA product warnings and contraindications (blocking data gap DG001)
-- Verified original indication(s) and mechanism of action (data gap DG002)
-- Independent literature or preclinical rationale connecting RSV-neutralising antibody activity to any oncological pathway, before this candidate is reconsidered
-- If no such rationale emerges, this candidate should be deprioritised in favour of higher-evidence signals
+- A credible biological rationale linking RSV F-protein targeting to the predicted condition
+- Any preclinical or clinical evidence supporting the new indication
+- Mechanism of action data
+- Verified MHRA authorisation details, including the PL number, dosage form and approved indication
+- Label-based warnings and contraindications from the SmPC and BNF
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

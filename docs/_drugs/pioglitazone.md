@@ -2,7 +2,7 @@
 layout: default
 title: Pioglitazone
 parent: Model Prediction Only (L5)
-nav_order: 464
+nav_order: 499
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,74 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Pioglitazone: From Type 2 Diabetes to Opsismodysplasia
+# Pioglitazone: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Pioglitazone is a thiazolidinedione (TZD) insulin sensitiser; the supporting literature in this evidence pack consistently discusses its use in **type 2 diabetes mellitus**, though a formal UK licensed indication is not present in this dataset. The TxGNN model's top-ranked prediction is **Opsismodysplasia**, a rare monogenic skeletal dysplasia, but this signal is currently supported by **zero clinical trials and zero publications**, and the model's own mechanistic annotation states there is no known biological link — this prediction should be treated as low-confidence, possible knowledge-graph noise rather than a genuine repurposing lead.
-
----
+Pioglitazone is an insulin-sensitising agent (a PPAR-gamma agonist) originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia,
+but there are currently **no clinical trials** and **no publications** supporting this prediction. The score is a graph-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (inferred from supporting literature titles/abstracts; no formal UK licence indication text available in this evidence pack) |
+| Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Pioglitazone is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the supporting literature that is present, Pioglitazone belongs to the thiazolidinedione class and acts as a **PPAR-γ agonist**, improving insulin sensitivity and pancreatic beta-cell function in type 2 diabetes.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pioglitazone is a thiazolidinedione (PPAR-gamma agonist) whose efficacy in type 2 diabetes is well established. It improves insulin sensitivity and may support beta-cell function.
 
-For the top-ranked prediction, **Opsismodysplasia**, TxGNN's own evidence annotation is explicit that no known mechanistic relationship exists: the condition is a skeletal dysplasia caused by **INPPL1** gene mutations, with no established connection to the PPAR-γ signalling pathway. The high TxGNN score in this case is most plausibly explained by graph-embedding noise (disease-node proximity in the knowledge graph) rather than genuine pharmacological plausibility.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a negative regulator of PI3K/insulin signalling. The only conceivable link is a shared insulin-signalling pathway. No direct connection between PPAR-gamma agonism and the disease mechanism has been established, so the high score should be treated as a graph-based association rather than a validated mechanistic rationale.
 
-It is worth noting that several lower-ranked candidates in this evidence pack (e.g. drug-induced localized lipodystrophy, centrifugal lipodystrophy, idiopathic localized lipodystrophy — ranks 5–8) have a more biologically coherent rationale, since PPAR-γ is a key regulator of adipocyte differentiation and TZDs are known to alter fat distribution. However, none of these candidates currently have any supporting clinical trial or literature evidence either, and TZDs are paradoxically also *associated with* lipodystrophy-type adverse effects, which weakens rather than strengthens the case. One candidate (pancreatic agenesis, rank 9) has literature evidence, but all identified publications concern insulin-resistance management in type 2 diabetes — a pathophysiologically different, insulin-*deficient* condition where an insulin-sensitising agent would be expected to have limited benefit.
+For context, other top-ranked predictions are also unsupported by trial or literature data:
 
----
+- **Stiff person syndrome (classic and focal variants):** a speculative immunomodulatory link via PPAR-gamma.
+- **Thiamine-responsive dysfunction syndrome:** likely driven by the shared diabetes phenotype.
+- **Localised lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic):** theoretical plausibility through adipocyte differentiation, but the conditions are localised.
+- **Pancreatic agenesis:** pioglitazone needs functioning beta-cells and endogenous insulin, so it would not address the underlying deficit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for opsismodysplasia.
 
 ## UK Market Information
 
-Pioglitazone currently has **0 recorded marketing authorisations** in this evidence pack, and UK market status is **Not marketed**. TFDA/MHRA product licence and Summary of Product Characteristics (SmPC) data have not yet been retrieved (flagged as a Blocking data gap, DG001) — this must be resolved before any safety (S1) evaluation can proceed.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0601023B0AAAAAA | Pioglitazone HCl Tab 15mg | Tablet | Not stated in the data compiled for this report |
 
----
+Only one single-ingredient authorisation is recorded. The identifier is not in standard MHRA "PL" format, and the approved indication text is not available. Please verify against the MHRA register and the BNF (Section 6.1.2, thiazolidinediones).
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (knowledge-graph associations, not label text):** kidney disease, liver disease, gallbladder disease, congestive heart failure, adrenocortical insufficiency/Addison disease, infectious disease, thymus gland disease, and several pituitary and growth hormone deficiency or hypogonadotropic hypogonadism conditions (including hypopituitarism, Sheehan syndrome and Kallmann syndrome). Congestive heart failure is the most clinically familiar of these for pioglitazone. These associations should be confirmed against the SmPC.
+- **Drug Interactions:** 100 interactions were recorded. Most examples shown are Moderate, for example:
+  - Hydrochlorothiazide
+  - Hydrocortisone
+  - Salbutamol
+  - Formoterol
+  - Epinephrine
+  - Pseudoephedrine
+  - Phenylephrine
+  - Acetazolamide
+  - Abiraterone
+  - Alpelisib
+  - Ethanol
 
----
+  Minor examples include nifedipine, ethinylestradiol and topical corticosteroids.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Opsismodysplasia) has no supporting clinical trial or literature evidence, and its own mechanistic rationale confirms no known biological link to Pioglitazone's PPAR-γ mechanism — most likely reflecting knowledge-graph noise. In addition, foundational data required for baseline evaluation (confirmed original indication, MOA, UK licensing, safety information) is currently missing from this evidence pack.
+The prediction rests on model output alone (Evidence Level L5), with no trials or publications for opsismodysplasia and no established mechanistic link to the underlying INPPL1/SHIP2 defect. Across the other top-ranked predictions, none has supporting clinical evidence.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product licence and SmPC data (Blocking gap, DG001) — required before any safety (S1) evaluation
-- Confirmed mechanism of action via DrugBank API (High-severity gap, DG002)
-- Confirmed formal original indication and licensed indication text
-- If exploring the lipodystrophy-related candidates (ranks 5–8) as an alternative direction: dedicated preclinical/mechanistic studies on PPAR-γ agonism in fat-redistribution disorders, given TZDs' known paradoxical association with lipodystrophy as an adverse effect
+- Mechanism of action data (DrugBank) and a plausible mechanistic rationale linking PPAR-gamma agonism to SHIP2/INPPL1 biology
+- Preclinical evidence (for example, disease models or patient-derived cells)
+- Verified MHRA marketing authorisation details, including the approved indication, and SmPC warnings and contraindications
+- A safety assessment for a rare, likely paediatric population, given the heart failure, fracture and fluid retention concerns that apply to this drug class
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

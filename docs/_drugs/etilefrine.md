@@ -2,7 +2,7 @@
 layout: default
 title: Etilefrine
 parent: Model Prediction Only (L5)
-nav_order: 248
+nav_order: 264
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etilefrine: From Unrecorded Original Indication to Alopecia (Predicted)
+# Etilefrine: From Hypotension to Alopecia (Top Prediction), with Headache Disorder as the Only Indication Showing Any Evidence
 
 ## One-Sentence Summary
 
-> Etilefrine (DrugBank DB08985) has no recorded original indication or mechanism-of-action data in this evidence pack.
-> The TxGNN model's top prediction across a batch of 10 candidates is **Alopecia**, with a score of **97.61%**,
-> but this is supported by **zero clinical trials and zero publications**, and the pack's own rationale flags the mechanism as running in the *opposite* direction to established hair-growth therapy.
+Etilefrine is an alpha/beta-adrenergic agonist (sympathomimetic) marketed in the UK as a 5 mg tablet. The TxGNN model predicts it may be effective for **alopecia** (score 97.6%), but there are **no clinical trials** and **no publications** supporting this prediction. The only indication with any literature is **headache disorder**, which has a single 1985 study whose full results could not be verified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no licences or indication text on file |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 97.61% |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| UK Market Status | Not marketed (per pack: 0 marketing authorisations on file) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). No original indication is recorded either, so the usual comparison between original and predicted indication cannot be made from the pack's data.
+Currently, detailed mechanism of action data is not available. Etilefrine is known to be an alpha/beta-adrenergic agonist (sympathomimetic) that acts on vascular smooth muscle. A mechanistic link to hair growth has not been established.
 
-What the pack does provide is the model's own repurposing rationale, and it argues **against** biological plausibility rather than for it: established hair-loss therapy (e.g. minoxidil) works by vasodilation and potassium-channel opening to increase follicular blood flow, whereas Etilefrine is a sympathomimetic agent that acts as a vaso**constrictor**. The rationale explicitly describes this as a mechanistic mismatch, with no known physiological pathway supporting benefit in alopecia, and no trial or literature evidence to counter that concern.
+For alopecia, the pharmacology does not obviously support a benefit. Alpha-1 agonism could in theory reduce scalp perfusion through vasoconstriction. The high TxGNN score is a computational prediction, probably driven by network similarity to other hair-disorder terms rather than by biological evidence.
 
-This pattern repeats across the other nine candidates in this batch (see table below) — several show the same kind of directional mismatch (e.g. the drug would be expected to worsen benign prostatic hyperplasia and is contraindicated in phaeochromocytoma/paraganglioma), reinforcing that this batch's high TxGNN scores likely reflect knowledge-graph node proximity (shared adrenergic-receptor pathway) rather than genuine therapeutic potential.
+The other top-ranked predictions show the same pattern:
+
+- **Other hair disorders** (hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata): no plausible pathway links adrenergic agonism to genetic hair-loss mechanisms or to the autoimmune process in alopecia areata.
+- **Benign prostatic hyperplasia:** BPH treatment relies on alpha-1 antagonists. An agonist would be expected to worsen outflow symptoms and could precipitate urinary retention. This is a safety concern, not a repurposing opportunity.
+- **Phaeochromocytoma and sympathetic paraganglioma:** these tumours secrete catecholamines. A sympathomimetic risks hypertensive crisis and arrhythmia, so etilefrine would be contraindicated.
+- **Osteoarthritis and trigeminal autonomic cephalalgia:** no direct mechanistic link or clinical evidence.
+- **Headache disorder:** vascular tone modulation is relevant to migraine, giving a plausible but speculative link (see below).
 
 ## Clinical Trial Evidence
 
@@ -63,47 +67,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was available for the top-ranked prediction (alopecia). The only publication in the data relates to the rank 7 prediction, headache disorder:
 
-## Other Predicted Indications Reviewed in This Batch
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2864937](https://pubmed.ncbi.nlm.nih.gov/2864937/) | 1985 | Double-blind trial (inferred from title) | Arzneimittel-Forschung | 3-month trial in 24 hypotensive patients with migraine comparing etilefrine pivalate 20 mg, dihydroergotamine 5 mg and placebo. The abstract reports fewer migraine attacks with both active treatments than with placebo, with reduced attack duration, intensity and analgesic use. Only a truncated abstract was available, so design details and effect sizes cannot be verified. |
 
-For transparency, the other nine candidates generated alongside the top prediction are summarised below. All carry evidence level L5 (no trials, no literature).
-
-| Rank | Predicted Indication | TxGNN Score | Recommendation | Note |
-|---|---|---|---|---|
-| 2 | Hypotrichosis simplex of the scalp | 97.52% | Hold | Monogenic follicular defect; no plausible mechanistic link |
-| 3 | Congenital hypotrichosis milia | 97.41% | Hold | Ectodermal developmental disorder; no plausible link |
-| 4 | Diffuse alopecia areata | 97.07% | Hold | Autoimmune pathology; no plausible link |
-| 5 | Benign prostatic hyperplasia | 96.65% | Hold | α1-agonist would worsen, not treat, BPH — directional mismatch |
-| 6 | Osteoarthritis | 96.11% | Hold | No known pathway link |
-| 7 | Headache disorder | 95.54% | Research Question | Plausible only for hypotension-related headache subtype; too non-specific |
-| 8 | Phaeochromocytoma | 95.27% | Hold | Adrenergic agonism is contraindicated in catecholamine-secreting tumours |
-| 9 | Sympathetic paraganglioma | 95.08% | Hold | Same contraindication concern as phaeochromocytoma |
-| 10 | Trigeminal autonomic cephalalgia | 94.89% | Research Question | Vasoconstrictive mechanism has some precedent (cf. triptans), but no supporting data |
+Note that the study used etilefrine pivalate in a small, hypotensive population, so it does not directly transfer to other headache types or to the UK tablet formulation.
 
 ## UK Market Information
 
-No marketing authorisations are recorded for Etilefrine in this evidence pack (market status: not marketed; total licences: 0). No product name, dosage form, or approved indication text is available to extract.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0207010G0AAAAAA | Etilefrine HCl 5 mg tablets | Tablet | Not available in the data compiled for this report |
+
+The listed identifier follows a BNF-style code rather than a standard PL number, and the approved indication text was not available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Based on the pharmacology of the drug class and the rationale for the predictions:
 
-*(Note: the pack flags product-label warnings/contraindications as a Blocking data gap — see Conclusion.)*
+- **Cardiovascular:** sympathomimetics can cause hypertensive crisis and arrhythmia, particularly in catecholamine-secreting tumours (phaeochromocytoma, paraganglioma).
+- **Urinary:** an adrenergic agonist may worsen outflow obstruction and precipitate urinary retention in men with benign prostatic hyperplasia.
+- **Headache:** systemic adrenergic agonists can themselves cause headache, so the benefit-risk balance in headache disorders is uncertain.
+
+No drug interaction records were found in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 across the entire batch — a model prediction alone, with no clinical trials or literature identified in 31 logged source queries. For the top candidate (alopecia), the pack's own mechanistic rationale argues the drug's vasoconstrictive action runs counter to the vasodilatory mechanism of established hair-loss therapy, undermining rather than supporting the prediction.
-- A Blocking-severity data gap (product label warnings/contraindications) means this candidate cannot even enter initial safety screening (S1) yet.
+The alopecia prediction rests on a model score alone (L5), with no trials or publications, and the pharmacology (potential scalp vasoconstriction) does not support a benefit. Several other top predictions (BPH, phaeochromocytoma, paraganglioma) point to safety concerns rather than opportunities. The only signal is a small, unverified 1985 migraine study, which at most justifies a research question rather than development.
 
 **To proceed, the following is needed:**
-- Product label warnings and contraindications (Blocking gap, DG001) — required before any safety screening can begin
-- Confirmed mechanism of action (High-severity gap, DG002)
-- Any preclinical or pharmacological data specifically linking adrenergic agonism to hair follicle biology, to test the mechanistic mismatch flagged above
-- Given the batch-wide pattern (no evidence, several directional mismatches), consider deprioritising this drug for repurposing screening pending stronger signal from an updated TxGNN run or new literature
+- Mechanism of action data for etilefrine, and a plausible biological rationale for any new indication
+- The approved indication text and SmPC warnings and contraindications for the UK product
+- For headache disorder: retrieval and critical appraisal of the full 1985 paper, followed by a search for more recent controlled studies
+- For alopecia: preclinical evidence (for example, hair follicle models) before any clinical consideration
+- A route and formulation assessment, since a topical or systemic approach has not been evaluated
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

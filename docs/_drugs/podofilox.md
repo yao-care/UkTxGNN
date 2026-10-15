@@ -2,7 +2,7 @@
 layout: default
 title: Podofilox
 parent: Model Prediction Only (L5)
-nav_order: 469
+nav_order: 505
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Podofilox: From Genital Warts to Vulvovaginal Candidiasis
+# Podofilox: From Anogenital Warts to Vulvovaginal Candidiasis
 
 ## One-Sentence Summary
 
-Podofilox (podophyllotoxin) is an antimitotic topical agent whose established clinical use — confirmed by the literature within this evidence pack — is the treatment of anogenital (genital) warts. The TxGNN model's top-ranked prediction for this drug is **Vulvovaginal Candidiasis**, but this is supported by only **1 non-specific publication** and **no clinical trials**, and the model's own mechanistic review flags the prediction as biologically implausible.
-
----
+Podofilox (podophyllotoxin) is a topical antimitotic originally used for anogenital human papillomavirus infection (genital warts) and common warts.
+The TxGNN model's top-ranked prediction is **vulvovaginal candidiasis**, but this is supported by **no clinical trials** and only **1 general review**, and a credible mechanistic link is lacking.
+The only well-supported prediction in the list is human papillomavirus infection, which is the drug's existing indication rather than a new one.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in `taiwan_regulatory.licenses` (drug not marketed); literature within this evidence pack documents established use for anogenital/genital warts (e.g. PMID 8192173, 9449907) |
-| Predicted New Indication | Vulvovaginal Candidiasis |
+| Original Indication | Anogenital human papillomavirus infection; common wart |
+| Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 99.47% |
-| Evidence Level | L5 (model prediction only, no supportive studies) |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for podofilox is not available in this evidence pack (MOA: Data Gap). Based on the literature captured here, podofilox is a podophyllotoxin derivative with an antimitotic, cytotoxic mechanism, used topically to destroy wart tissue caused by human papillomavirus (HPV) infection — its proven original use is anogenital warts, not an antifungal or anti-infective indication.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, podofilox is a purified form of podophyllotoxin. It binds tubulin, inhibits microtubule assembly and arrests mitosis, which causes necrosis of wart tissue. This is a lesion-directed effect rather than a true antiviral effect, so it does not eradicate the virus and recurrence is common.
 
-Vulvovaginal candidiasis, by contrast, is a fungal infection requiring antifungal activity (e.g. azole or polyene agents) to clear *Candida* organisms. The evidence pack's own mechanistic review is explicit on this point: **podofilox has no antifungal activity and no established mechanistic relationship to candidiasis treatment.** The single supporting reference (PMID 10537386) is a 1999 general review of sexually transmitted infection treatment guidelines that discusses vaginal discharge and genital warts as separate topics — it does not specifically link podofilox to candidiasis therapy.
+The prediction for vulvovaginal candidiasis is **not mechanistically convincing**. Candidiasis is a fungal infection, and antimitotic activity has no known antifungal action. The single retrieved paper is a 1999 general review of sexually transmitted disease treatment that covers both vaginal infections and genital warts. It most likely mentions podofilox only in the context of warts. The high score probably reflects co-occurrence of these conditions in the STD literature rather than a real therapeutic link.
 
-Taken together, this appears to be a high-confidence TxGNN embedding-space association (both diseases occur in the genital tract, and podofilox is heavily associated with genital pathology in the knowledge graph) rather than a mechanistically grounded repurposing signal. This pattern — high similarity score, absent direct mechanistic support — is consistent with the L5/Hold classification.
+Other predicted indications (photosensitivity disease, herpes zoster, benign neoplasms of the tongue and hypopharynx, cystic neoplasm, mesenchymoma, nasal inverting papilloma, testicular tumour) also have no clinical trials or literature. Several involve sites unsuitable for topical podofilox. Etoposide, a podophyllotoxin derivative, is used in testicular cancer, but it is a different compound with a different mechanism (topoisomerase II inhibition) and does not support podofilox.
 
----
+The prediction that matches the evidence is **human papillomavirus infection** (score 99.20%). This is already the labelled use, so it confirms the original indication rather than representing repurposing.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for vulvovaginal candidiasis or for any of the other predicted indications in the data compiled for this report.
 
 ## Literature Evidence
 
+**Vulvovaginal candidiasis (top prediction)**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10537386](https://pubmed.ncbi.nlm.nih.gov/10537386/) | 1999 | Review | American Family Physician | General CDC-guideline review of STD/vaginal infection treatment; does not specifically address podofilox for vulvovaginal candidiasis |
+| [10537386](https://pubmed.ncbi.nlm.nih.gov/10537386/) | 1999 | Review | American Family Physician | General review of CDC 1998 STD treatment guidance covering vaginal infections and genital warts. Does not appear to support podofilox use in candidiasis. |
 
----
+**Human papillomavirus infection (existing indication, for context)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2186623](https://pubmed.ncbi.nlm.nih.gov/2186623/) | 1990 | RCT | American Journal of Medicine | Double-blind trial of self-applied 0.5% podofilox solution versus vehicle for penile warts. |
+| [2014088](https://pubmed.ncbi.nlm.nih.gov/2014088/) | 1991 | RCT | Obstetrics and Gynecology | Double-blind, placebo-controlled trial of 0.5% podofilox in 72 women with external genital warts. |
+| [2564912](https://pubmed.ncbi.nlm.nih.gov/2564912/) | 1989 | Double-blind trial | Lancet | 25 of 56 podofilox-treated patients became wart-free versus none of 53 on placebo. Warts cleared by 73.6% versus 8.3%. |
+| [9449907](https://pubmed.ncbi.nlm.nih.gov/9449907/) | 1998 | Clinical study | Archives of Dermatology | Safety and efficacy of 0.5% podofilox gel in anogenital warts. |
+| [8192173](https://pubmed.ncbi.nlm.nih.gov/8192173/) | 1994 | Clinical study | American Journal of Medicine | 0.5% podofilox solution for treatment and suppression of anogenital warts. |
+| [39964927](https://pubmed.ncbi.nlm.nih.gov/39964927/) | 2025 | Review | American Family Physician | Rapid evidence review of genital warts. |
+| [25251091](https://pubmed.ncbi.nlm.nih.gov/25251091/) | 2014 | Review | American Family Physician | Management of external genital warts, including patient-applied treatments. |
+| [11737696](https://pubmed.ncbi.nlm.nih.gov/11737696/) | 2001 | Retrospective analysis | Pediatric Dermatology | 15 of 17 children treated with podofilox gel improved or cleared. |
+| [8245513](https://pubmed.ncbi.nlm.nih.gov/8245513/) | 1993 | Animal study | Journal of Investigative Dermatology | Podofilox-induced papilloma regression in rabbits may be independent of host immunity. |
+| [2216198](https://pubmed.ncbi.nlm.nih.gov/2216198/) | 1990 | Clinical study | Obstetrics and Gynecology | Topical 0.5% podofilox for condylomata acuminata in 37 women. |
 
 ## UK Market Information
 
-Podofilox is currently not marketed in the UK, and no marketing authorisations are recorded in this evidence pack (0 licenses).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1307000K0AAABAB | Podophyllotoxin cream 0.15% | Not specified | Not specified in the data compiled |
 
----
+Dosage form and approved indication text are not available in the data compiled for this report. Please confirm the licence details against the MHRA record and the BNF.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
----
+Practical guardrails from the existing wart indication: use only on external anogenital or common warts, limit the treated area and dose, avoid use in pregnancy, and monitor for local irritation. Topical use on mucosal sites raises concern about systemic absorption and toxicity.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN similarity score (99.47%), the evidence base for this prediction is minimal (L5) and the model's own mechanistic rationale explicitly contradicts biological plausibility — podofilox is an antimitotic cytotoxic agent with no antifungal activity, and its sole supporting reference does not address this indication. This candidate should not proceed without substantial new evidence.
+The top predicted new indication, vulvovaginal candidiasis, has no clinical trials, no plausible antifungal mechanism, and appears to be an artefact of co-occurrence in STD literature. The other new predictions are also computational only (evidence level L5). The one well-evidenced prediction, HPV infection and genital warts, is the existing licensed use and would be Proceed with Guardrails as a confirmation of the original indication, not as repurposing.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or SmPC
-- MHRA/SmPC warnings, contraindications and DDI data (currently all Data Gap)
-- Preclinical or in vitro evidence of any antifungal or anti-*Candida* activity, given none currently exists
-- Note: the co-occurring predicted indication "Human Papilloma Virus Infection" (rank 3 in this evidence pack) is far better supported by existing literature and clinical trial data and may warrant separate, prioritised evaluation instead of this candidate
+- Any in vitro or clinical evidence of antifungal activity, which is currently absent
+- Mechanism of action data to be confirmed from DrugBank
+- Full licence details (dosage form, approved indication) for the UK authorisation
+- Safety data from the SmPC, including warnings and contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

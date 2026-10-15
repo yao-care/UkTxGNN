@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: Model Prediction Only (L5)
-nav_order: 320
+nav_order: 345
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,77 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Isotretinoin: From Severe Acne to Malignant Renovascular Hypertension
+# Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Isotretinoin is a retinoic acid derivative used clinically for severe acne. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but currently **no clinical trials** and **no publications** support this direction — the prediction rests solely on a knowledge-graph inference score.
-
----
+According to the knowledge graph used for this report, isotretinoin is linked to hypertensive disorders as its original indication, although it is marketed in the UK as a topical gel (0.05%) product.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension** (and also malignant hypertensive renal disease), but **no clinical trials and no publications** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe acne (noted in evidence pack narrative; not confirmed by UK licensing data, as the drug has no UK marketing authorisation on record) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; no approved indication text is available in the licence data) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.01% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, isotretinoin is believed to act via RAR/RXR nuclear receptors, regulating cell differentiation and apoptosis; it is used clinically for severe acne.
+Currently, detailed mechanism of action data is not available. The original indications recorded in the knowledge graph (hypertensive disorder, hypertension) are unusual for isotretinoin, which is a retinoid known mainly for treating severe acne. This suggests the drug-indication links in the graph may be erroneous or mismatched, so the prediction should be treated with caution.
 
-There is no established mechanistic connection between isotretinoin's retinoic-acid-receptor-mediated action (keratinocyte/sebaceous gland regulation) and the pathophysiology of malignant renovascular hypertension (renin-angiotensin system overactivation, renal vascular fibrosis). A small number of animal studies suggest retinoids may modulate renal fibrosis pathways, but this link has not been demonstrated clinically.
+The only mechanistic link that can be proposed is speculative: in preclinical settings, retinoids have been reported to influence renin-angiotensin signalling, renal vascular remodelling and renin expression. This is not supported by the data compiled for this report.
 
-This prediction is derived purely from the TxGNN knowledge-graph inference score (0.99) with no supporting clinical trials, literature, or mechanistic validation. The mechanistic link should be regarded as speculative and of very low evidentiary strength.
-
----
+The second predicted indication, malignant hypertensive renal disease, has an identical score (99.01%). This suggests both predictions come from the same hypertension-related region of the graph rather than from independent signals. Isotretinoin's known adverse effects (teratogenicity, dyslipidaemia) also argue against an antihypertensive role without strong evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
-Isotretinoin is not currently marketed in the UK for any indication, and no marketing authorisations are on record for this candidate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1306010M0AAAAAA | Isotretinoin Gel 0.05% | Gel | Not stated in the available data |
 
----
+Note: this licence identifier is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register before any further use.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications suggested by the knowledge graph** (these are graph relationships, not label text):
 
-Note: isotretinoin is well known to carry significant safety warnings (including teratogenicity) in other jurisdictions; TFDA/MHRA-specific warning and contraindication data were not available for this evidence pack and should be obtained before any further evaluation.
+- Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder
+- Hepatic, renal and pancreatic: liver disease, kidney disease, pyoureter, pancreatitis, gallbladder disease
+- Angioedema (several forms, including hereditary angioedema)
+- Inflammatory bowel disease
+- Osteoporosis (including postmenopausal osteoporosis)
+- Systemic lupus erythematosus (including paediatric)
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hyperuricaemia
+- Haematological: neutropenia, agranulocytosis
+- **Hypotensive disorder**
 
----
+**Drug Interactions:** 98 interactions were recorded. The main ones are:
+
+- **Major:** doxycycline, minocycline, tetracycline, vitamin A
+- **Moderate:** corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), warfarin, dicoumarol, naltrexone, nitisinone, fostamatinib, ivacaftor, lumacaftor, ethanol, abametapir (topical)
+
+For label-based warnings and contraindications, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature evidence (Evidence Level L5), the mechanistic link is speculative and derived solely from a model inference score, and the drug currently has no UK marketing authorisation. There is insufficient basis to proceed.
+The prediction rests on a graph score alone (Evidence Level L5), with no trials or publications. The recorded original indications look inconsistent with isotretinoin's actual use, and the safety profile is concerning for a severely compromised cardiovascular and renal population.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data for isotretinoin
-- UK/MHRA safety data — key warnings, contraindications, and drug interactions (currently a Blocking data gap)
-- Any preclinical or clinical evidence specifically linking retinoid therapy to renovascular hypertension or hypertensive renal disease
-- Basic UK regulatory status confirmation, given the drug is not currently marketed
-- Route compatibility and dosing-form assessment, given isotretinoin's known teratogenicity and lipid-metabolism risks in a renally compromised population
+- Verification of the knowledge-graph indication links for isotretinoin, which may be erroneous
+- Mechanism of action data (e.g. from DrugBank)
+- Label-based warnings and contraindications from the SmPC and BNF, and confirmation of the licence details with the MHRA
+- Preclinical or clinical evidence that retinoids affect renovascular or malignant hypertension
+- A risk assessment covering teratogenicity, lipid effects, renal effects and the interaction burden
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

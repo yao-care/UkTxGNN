@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Piroxicam
-parent: High Evidence (L1-L2)
-nav_order: 467
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 503
+evidence_level: L5
 indication_count: 10
 ---
 
 # Piroxicam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,41 +29,36 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill invocation — this is a direct content-generation task fully specified by the prompt template; proceeding to produce the report.
-
-Note before the report: the raw TxGNN top-8 hits for piroxicam (colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, etc.) are ultra-rare genetic/structural syndromes with **zero evidence** and the evidence pack itself scores them "L5/Hold" with explicit "no biological plausibility" rationale — these look like embedding-similarity artefacts, not real signal. The only candidate in this pack with actual clinical evidence is **rank 10, Juvenile Idiopathic Arthritis (L2/Proceed with Guardrails)**, so the report below is built around that candidate rather than the literal `predicted_indications[0]` entry.
-
----
-
-# Piroxicam: From Adult Inflammatory Arthritis to Juvenile Idiopathic Arthritis
+# Piroxicam: From Rheumatoid Arthritis and Osteoarthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Piroxicam is a long-established oxicam-class NSAID conventionally used for adult inflammatory and degenerative joint disease (osteoarthritis, rheumatoid arthritis, ankylosing spondylitis). Among the TxGNN candidates reviewed for this drug, the only one supported by real clinical evidence is **Juvenile Idiopathic Arthritis (JIA)**, backed by **2 historic paediatric RCTs and 2 contemporary systematic reviews/network meta-analyses** — though piroxicam itself is not currently marketed in the UK and carries well-known class-level safety restrictions.
+Piroxicam is a non-steroidal anti-inflammatory drug (NSAID), originally used for inflammatory and degenerative joint conditions such as rheumatoid arthritis and osteoarthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental skeletal and ocular malformation syndrome, but there are **no clinical trials and no publications** supporting this prediction. It is a computational signal only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not specified in the supplied regulatory data; piroxicam is a well-characterised oxicam-class NSAID historically used for osteoarthritis, rheumatoid arthritis and ankylosing spondylitis |
-| Predicted New Indication | Juvenile Idiopathic Arthritis (JIA) |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L2 |
-| UK Market Status | Not currently marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Rheumatoid arthritis, osteoarthritis (from the knowledge graph, as no indication text is recorded for the UK authorisation) |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 99.996% |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on established pharmacology cited in the evidence pack's own rationale, piroxicam is a non-selective COX-1/COX-2 inhibitor that suppresses prostaglandin synthesis, producing anti-inflammatory and analgesic effects — a mechanism that maps directly onto the synovial inflammation seen in inflammatory arthritides.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Piroxicam is generally understood to be a non-selective cyclo-oxygenase (COX) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative arthritis is established.
 
-JIA and piroxicam's established adult indications (rheumatoid and osteoarthritis) share the same core pathology — synovial inflammation and joint pain — so extending an NSAID from adult to paediatric inflammatory joint disease is mechanistically coherent. This is not really a "novel" repurposing signal so much as a re-affirmation of a use that was already studied in the 1980s: two head-to-head paediatric RCTs against naproxen were conducted at the time, and the drug remains listed alongside other NSAIDs in more recent (2021, 2024) systematic reviews and network meta-analyses of JIA pharmacotherapy.
+This prediction does not appear mechanistically sound. The predicted condition is a rare developmental malformation syndrome, and an NSAID has no plausible way to correct its underlying genetic cause. The high TxGNN score (ranked 130th among all predictions for this drug) reflects patterns in the knowledge graph rather than a biological or clinical rationale. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
-The other eight TxGNN hits ranked above JIA in this pack (rare skeletal dysplasias, WHIM syndrome, etc.) were reviewed and found to have no biological plausibility and no supporting evidence — the evidence pack itself scores them L5/Hold. They are excluded from further discussion here as likely embedding-similarity artefacts rather than genuine repurposing signals.
+The same applies to most of the other top-ranked predictions for piroxicam, which are mainly congenital skeletal dysplasias and limb malformations. Only the lower-ranked prediction of **juvenile idiopathic arthritis (JIA)** has a clear mechanistic fit and supporting literature (see the conclusion).
 
 ---
 
@@ -75,48 +70,63 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [2957205](https://pubmed.ncbi.nlm.nih.gov/2957205/) | 1987 | RCT | Eur J Rheumatol Inflamm | 26 children with juvenile rheumatoid arthritis randomised to piroxicam or naproxen; significant reduction in painful and swollen joint counts |
-| [3510686](https://pubmed.ncbi.nlm.nih.gov/3510686/) | 1986 | RCT | Br J Rheumatol | 8-week double-blind, double-dummy crossover in 47 children with juvenile chronic arthritis; piroxicam vs naproxen showed no significant efficacy difference |
-| [38680254](https://pubmed.ncbi.nlm.nih.gov/38680254/) | 2024 | Systematic Review / Network Meta-analysis | World J Clin Cases | Network meta-analysis of NSAIDs (including piroxicam) for JIA; optimal agent not yet established |
-| [33632948](https://pubmed.ncbi.nlm.nih.gov/33632948/) | 2021 | Systematic Review / Meta-analysis | Indian Pediatr | Compared efficacy and safety of 9 NSAIDs, including piroxicam, in JIA |
-| [1782984](https://pubmed.ncbi.nlm.nih.gov/1782984/) | 1991 | Pharmacokinetic Study | Eur J Clin Pharmacol | Steady-state PK in 10 children with rheumatic disease on piroxicam 0.4 mg/kg once daily; mean half-life ~32.6 h |
-| [9890680](https://pubmed.ncbi.nlm.nih.gov/9890680/) | 1998 | Review (Safety) | Clin Rheumatol | Long-term toxicity review in a paediatric rheumatology cohort with 155 NSAID exposures |
-| [7797387](https://pubmed.ncbi.nlm.nih.gov/7797387/) | 1994 | Cohort | Int Ophthalmol | 56% frequency of chronic iridocyclitis in ANA-positive pauciarticular JCA — relevant to ocular monitoring in this population |
-| [2185374](https://pubmed.ncbi.nlm.nih.gov/2185374/) | 1990 | Review | Kinderarztliche Praxis | Discusses piroxicam and sulfasalazine as then-newer agents in juvenile chronic arthritis drug therapy |
-| [15456329](https://pubmed.ncbi.nlm.nih.gov/15456329/) | 2004 | Review | Drugs | Nabumetone review for OA/RA; provides NSAID-class comparator context |
-| [3539573](https://pubmed.ncbi.nlm.nih.gov/3539573/) | 1986 | Review | Drugs | Pirprofen review listing piroxicam among comparator NSAIDs for rheumatic disease |
+Currently no related literature available.
 
 ---
 
 ## UK Market Information
 
-Piroxicam is **not currently marketed in the UK** — no marketing authorisations were identified in the data source (0 licenses).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1003020R0AAAAAA (as recorded; not in standard PL format) | Piroxicam Gel 0.5% | Gel (from product name) | Not stated in the data compiled for this report |
+
+The record shows one valid single-ingredient authorisation and no cancelled authorisations. The authorisation number, dosage form and indication text should be verified against the MHRA register and the current SmPC. The BNF classification should also be checked.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication-related conditions (knowledge graph, not label text):** The TxGNN knowledge graph links piroxicam to the following conditions as contraindications. These are not taken from the product label and must be confirmed against the SmPC and BNF.
+  - Cardiovascular: hypertension, congestive heart failure, myocardial infarction, coronary thrombosis, stroke and cerebrovascular disorders, cerebral infarction, thrombotic disease, heart disease
+  - Gastrointestinal: active peptic ulcer disease
+  - Hepatic and renal: kidney disease, liver disease, acute liver failure, hepatitis, drug-induced liver injury, gallbladder disease
+  - Haematological: blood coagulation disease, anaemia (including macrocytic), haemoglobinopathy
+  - Other: substance abuse or dependence, vision disorder, blindness
+- **Drug Interactions:** The interaction screen returned 100 interactions in total, and 20 are listed in the data compiled. The main ones are:
+  - **Moderate:**
+    - Acetylsalicylic acid
+    - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+    - Antidiabetic agents (metformin, glimepiride, chlorpropamide)
+    - Aminosalicylates (mesalazine, balsalazide)
+    - Aprepitant
+    - Potassium citrate and potassium bicarbonate
+    - Bowel preparations (picosulfuric acid, polyethylene glycol with electrolytes)
+  - **Minor:** H2 antagonists (famotidine, ranitidine, cimetidine) and linaclotide.
 
-**Note (independent of this data pack):** Piroxicam is a well-documented special case in EU/UK regulatory history — since 2007 its use has been restricted EU-wide to second-line, short-term treatment due to gastrointestinal, cardiovascular and severe cutaneous adverse reaction (SJS/TEN) risks. This is directly relevant to any paediatric extension and should be factored into risk assessment even though no drug-specific warning data was returned by this evidence pack.
+Please refer to the SmPC and BNF for authoritative warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The JIA candidate is supported by genuine paediatric RCT and systematic review evidence (L2), unlike the other TxGNN hits reviewed for this drug. However, the drug-level safety labelling data gap (DG001, Blocking) means this candidate cannot yet clear an initial safety screen, and piroxicam holds no current UK marketing authorisation.
+The prediction rests on a knowledge-graph score alone (L5), with no trials, no literature and no credible mechanistic link to a rare genetic developmental syndrome. Safety screening also cannot be completed, because label-based warnings and contraindications were not available.
+
+**Other predictions:** Among the other predictions for piroxicam, **juvenile idiopathic arthritis** is the only one with supporting evidence (L3, "Research Question"). It has a strong mechanistic fit and includes:
+- A 1986 multicentre double-blind crossover study of piroxicam versus naproxen in juvenile chronic arthritis (47 children).
+- A 1987 randomised comparison of piroxicam and naproxen in juvenile rheumatoid arthritis (26 patients).
+- A 1991 paediatric pharmacokinetic study.
+- Two recent NSAID class-level network meta-analyses (2021 and 2024).
+
+The paediatric studies are older and small, and the meta-analyses do not show piroxicam-specific findings. No registered trials were identified. This indication would be the more sensible focus for any further evaluation.
 
 **To proceed, the following is needed:**
-- Current UK/EU SmPC or equivalent safety labelling data (DG001)
-- Confirmed mechanism of action and paediatric PK/PD data (DG002)
-- Clarification of piroxicam's current UK/EU regulatory and restricted-use status before pursuing paediatric development
-- A formal risk assessment weighing piroxicam's known GI/CV/skin toxicity profile against benefit in a paediatric population
-- No further action needed on the other 8 TxGNN-ranked candidates for this drug — reviewed and excluded as biologically implausible with no supporting evidence
+- Mechanism of action data from DrugBank, to allow mechanistic-link analysis.
+- The current SmPC and BNF warnings and contraindications, to complete the safety screen.
+- Confirmation of the authorisation details (number, formulation, approved indication) on the MHRA register. The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing.
+- For JIA, a piroxicam-specific review of the paediatric data and the NICE and BNF position before any further work.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

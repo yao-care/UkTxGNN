@@ -2,7 +2,7 @@
 layout: default
 title: Polyethylene Glycol
 parent: Model Prediction Only (L5)
-nav_order: 470
+nav_order: 506
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Polyethylene glycol: From an Unrecorded Original Indication to Congenital Ichthyosiform Erythroderma
+# Polyethylene Glycol: From Constipation to Congenital Ichthyosiform Erythroderma
 
 ## One-Sentence Summary
 
-The evidence pack does not record what Polyethylene glycol (DB09287) was originally licensed to treat, and no mechanism of action data is currently available. The TxGNN model predicts a possible link to **Congenital Ichthyosiform Erythroderma**, but this is supported by **no clinical trials and no published literature** — the prediction stands on the model score alone.
-
----
+Polyethylene glycol (macrogol) is originally used to treat constipation and as a lubricant for dry eye conditions.
+The TxGNN model predicts it may be effective for **congenital ichthyosiform erythroderma**,
+but there are currently **no registered clinical trials and no publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack |
-| Predicted New Indication | Congenital Ichthyosiform Erythroderma |
+| Original Indication | Constipation; dry eye syndrome (xerophthalmia) (from the knowledge graph, as no licence indication text is available) |
+| Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 99.03% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this drug is not currently available, and no original indication is recorded in the evidence pack, so no data-based link can be drawn between an original use and the predicted new indication.
+Currently, detailed mechanism of action data is not available. Based on known information, polyethylene glycol is a hydrophilic, osmotically active polymer. Its use as an osmotic laxative in constipation and as a lubricant in dry eye preparations is established, and mechanistically it may be applicable to conditions involving impaired hydration.
 
-Based on general pharmacological background (not derived from the evidence pack itself), polyethylene glycol is widely used as an excipient in topical formulations, where it can contribute to skin barrier hydration. This offers a plausible, general rationale for why a model might associate it with an ichthyosis-type skin condition, but this is a property of the molecule's physicochemical class rather than evidence specific to this predicted indication. It should not be treated as mechanistic support.
+Congenital ichthyosiform erythroderma is a genetic keratinisation disorder characterised by impaired skin barrier function, hyperkeratosis and increased transepidermal water loss. A hydrating or barrier-supporting effect from topical PEG-containing vehicles could therefore be conceptually relevant. This is a hypothesis only. Such products would be expected to act as vehicles or adjuncts rather than disease-modifying agents.
 
-The TxGNN score of 99.03% (rank 7,943) reflects model confidence only. In the absence of any mechanistic, trial, or literature evidence, this score cannot be interpreted as clinical or biological validation.
-
----
+Oral PEG (the laxative use) has no evident mechanistic relevance to this skin disorder. The link is speculative and rests on the high model score alone.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No MHRA marketing authorisations are recorded for this product. Market status is listed as **not marketed**, with 0 active licences in the evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0106040M0AAAAAA (BNF-style product code, not a PL number) | Macrogol Co Oral Powder Sachets (sugar free) | Oral powder (sachet) | Not stated in the data compiled |
 
----
+The BNF classification code (0106040M0) places this product among osmotic laxatives (BNF section 1.6.4). No topical or dermatological product is listed.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications recorded in the knowledge graph** (drug-disease associations, not label text; they relate mainly to oral macrogol laxative products and should be checked against the SmPC):
 
----
+- **Gastrointestinal:** ileus, paralytic ileus, intestinal obstruction, toxic megacolon, pyloric stenosis, familial visceral myopathy, appendicitis
+- **Renal and metabolic:** kidney disease, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, potassium deficiency, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis
+- **Cardiovascular:** hypertension, congestive heart failure, cardiovascular and heart disease
+- **Endocrine:** hyperthyroidism, Graves' disease, thyrotoxicosis
+- **Eye:** angle-closure glaucoma, eye infections, conjunctivitis
+- **Other:** epilepsy, pyoureter
+
+No drug interaction data were found. Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support, no confirmed mechanism of action, and no recorded original indication — evidence level is L5, the lowest tier. A blocking data gap (missing product warnings/contraindications) also prevents any preliminary safety assessment.
+The prediction is supported only by a model score, with no clinical trials or publications (evidence level L5). The proposed mechanism is speculative, and the one UK product identified is an oral laxative with no apparent link to the proposed skin indication.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (DrugBank query)
-- Product warnings and contraindications (regulatory label/SmPC)
-- At least preclinical or mechanistic literature specific to congenital ichthyosiform erythroderma
-- Clarification of original licensed indication(s), if any exist
-- UK marketing authorisation status confirmation, if the drug is to be considered for repurposing in this market
+- Mechanism of action data for polyethylene glycol
+- Evidence from preclinical or clinical studies of PEG-containing topical preparations in ichthyosis
+- Clarification of the intended route and formulation (topical versus oral), and confirmation of any relevant UK topical products
+- Full UK licence details (PL numbers, dosage forms, approved indications) and SmPC warnings and contraindications
+- A safety review, as the data compiled for this report contain no label-based warnings
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

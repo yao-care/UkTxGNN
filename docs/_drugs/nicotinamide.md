@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nicotinamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 413
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 444
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nicotinamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,14 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Nicotinamide: From Vitamin B3 Deficiency (Pellagra) to Werner Syndrome
+# Nicotinamide: From Acne to Elevated Plasma Zinc
 
 ## One-Sentence Summary
 
-Nicotinamide is the amide form of vitamin B3, classically used to prevent and treat niacin deficiency (pellagra) and as an NAD+/NADP+ precursor in general nutrition. The TxGNN model predicts a potential application in **Werner Syndrome**, a rare premature-ageing disorder linked to cellular NAD+ depletion, with mechanistic and preclinical literature and one relevant RCT of a closely related NAD+-precursor compound currently supporting this direction — but no clinical trials of nicotinamide itself in this indication.
+Nicotinamide (vitamin B3) is used for acne and for niacin-deficiency conditions such as pellagra.
+The TxGNN model predicts it may be effective for **elevated plasma zinc** with a high score, but there are **0 registered clinical trials** and only **2 loosely related publications**, neither of which tests nicotinamide against zinc levels. The prediction rests on model output alone.
+
+> Note: the data compiled for this report show that the more credible repurposing signal among the model's top ten predictions is **Werner syndrome** (a randomised trial of the related compound nicotinamide riboside). It is described under "Why is This Prediction Reasonable?" and in the conclusion.
 
 ---
 
@@ -41,29 +44,35 @@ Nicotinamide is the amide form of vitamin B3, classically used to prevent and tr
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the MHRA licence data provided (no current UK marketing authorisation on file); classically indicated for prevention/treatment of niacin (vitamin B3) deficiency (pellagra) |
-| Predicted New Indication | Werner Syndrome |
-| TxGNN Prediction Score | 88.61% |
-| Evidence Level | L3 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Acne, pellagra, beriberi (from the knowledge graph; no approved indication text is available for the UK product) |
+| Predicted New Indication | Zinc, elevated plasma |
+| TxGNN Prediction Score | 97.83% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for nicotinamide is not available in this evidence pack. Based on well-established pharmacology, nicotinamide is the amide form of vitamin B3 (niacin) and a direct metabolic precursor of nicotinamide adenine dinucleotide (NAD+) and NADP+ — essential cofactors for cellular redox reactions, DNA repair, and mitochondrial energy metabolism. Its role in preventing and treating niacin deficiency is long established, and mechanistically this NAD+-precursor function may extend to conditions characterised by pathological NAD+ depletion.
+Detailed mechanism of action data are not available in the data compiled for this report. Nicotinamide is the amide form of vitamin B3 and a precursor of NAD+, a cofactor central to cellular redox balance and energy metabolism. Its efficacy in deficiency states (pellagra) and in acne, where anti-inflammatory activity is thought to contribute, is established.
 
-Werner Syndrome is caused by loss-of-function mutations in the WRN helicase gene, and the literature consistently shows this leads to impaired mitophagy, mitochondrial NAD+ depletion, and oxidative stress, driving the premature-ageing phenotype. This gives a biologically coherent rationale for NAD+ repletion strategies in Werner Syndrome, independent of nicotinamide's original use.
+For **elevated plasma zinc**, no biological rationale links nicotinamide to zinc handling. The two retrieved papers cover COVID-19 metabolic and thrombotic risk factors and antioxidant enzymes in hypertensive rat kidney. Neither tests nicotinamide's effect on zinc levels. Any connection would be indirect, through general redox or metabolic pathways, and is speculative. The high model score should therefore be read with caution.
 
-An important caveat: the strongest clinical evidence identified (a double-blind, randomised, placebo-controlled crossover trial showing benefit in Werner Syndrome patients) used **nicotinamide riboside (NR)**, a different NAD+-precursor molecule, not nicotinamide itself. The two compounds share a common downstream mechanism (NAD+ repletion) but are pharmacologically distinct, so this trial should be regarded as supportive but indirect evidence for nicotinamide.
+**Other predictions of note (for context):**
+
+- **Werner syndrome** (score 88.6%, evidence level L2): Werner syndrome is a rare progeroid disorder in which NAD+ depletion and impaired mitophagy are reported. Preclinical studies show NAD+ augmentation restores mitophagy and limits accelerated-ageing features. A 2025 double-blind, randomised crossover placebo-controlled trial tested **nicotinamide riboside**, a related NAD+ precursor, not nicotinamide itself. The trial is not registered in the data provided, so phase and size are unconfirmed, and a small sample is likely given the rarity of the disease. This is the strongest mechanistic and clinical signal among the predictions.
+- **Mitochondrial oxidative phosphorylation disorders** (score 84.7%, L4): plausible through NAD+ biosynthesis, but supported only by indirect reviews and mechanistic papers.
+- **Pyogenic arthritis-pyoderma gangrenosum-acne (PAPA) syndrome** and **demodicidosis of sebaceous gland**: probably driven by overlap with acne; no supporting evidence.
+- **Dyspepsia**: the retrieved literature is off-target, and gastrointestinal upset is a known adverse effect of high-dose niacin-related compounds, so the direction of effect may be opposite.
+- Isolated congenital adermatoglyphia, Beare-Stevenson cutis gyrata syndrome, inherited cutis laxa and syndromic oculocutaneous albinism: prediction only, with no trials or literature.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for nicotinamide specifically in Werner Syndrome.
+Currently no related clinical trials registered for elevated plasma zinc.
 
 ---
 
@@ -71,27 +80,42 @@ Currently no related clinical trials registered for nicotinamide specifically in
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40459998](https://pubmed.ncbi.nlm.nih.gov/40459998/) | 2025 | RCT (nicotinamide riboside, non-identical analogue) | Aging Cell | Double-blind, randomised, placebo-controlled crossover trial showing NAD+ supplementation benefits patients with Werner Syndrome; supports NAD+ repletion as a therapeutic strategy, though tested compound was nicotinamide riboside, not nicotinamide |
-| [31754102](https://pubmed.ncbi.nlm.nih.gov/31754102/) | 2019 | Preclinical/Mechanistic | Nature Communications | NAD+ augmentation restores mitophagy and limits accelerated ageing in Werner Syndrome patient samples and disease models |
-| [40179319](https://pubmed.ncbi.nlm.nih.gov/40179319/) | 2025 | Basic/Mechanistic | Aging | Demonstrates decreased mitochondrial NAD+ in WRN-deficient cells, linked to dysfunctional cell proliferation |
-| [38184705](https://pubmed.ncbi.nlm.nih.gov/38184705/) | 2024 | Basic/Mechanistic | Cell & Bioscience | WRN loss accelerates abnormal adipocyte metabolism, a further metabolic consequence of NAD+/WRN pathway disruption |
-| [24757718](https://pubmed.ncbi.nlm.nih.gov/24757718/) | 2014 | Basic/Mechanistic | Aging Cell | Werner protein downregulation induces a metabolic shift compromising redox homeostasis, reinforcing the NAD+/redox link |
-| [34201700](https://pubmed.ncbi.nlm.nih.gov/34201700/) | 2021 | Review | International Journal of Molecular Sciences | Reviews DNA damage-induced neurodegeneration in accelerated ageing syndromes including Werner Syndrome |
-| [33353663](https://pubmed.ncbi.nlm.nih.gov/33353663/) | 2021 | Review | Journal of Investigative Dermatology | Reviews skin abnormalities in disorders with DNA repair defects, premature ageing and mitochondrial dysfunction, including Werner Syndrome |
+| [32938758](https://pubmed.ncbi.nlm.nih.gov/32938758/) | 2020 | Review | Open Heart | Discusses hyperinsulinaemia, magnesium, vitamin D and thrombosis in COVID-19; does not examine nicotinamide and zinc levels |
+| [15361776](https://pubmed.ncbi.nlm.nih.gov/15361776/) | 2004 | Preclinical (animal) | Journal of Hypertension | Antioxidant enzymes in the kidneys of spontaneously hypertensive rats on an antioxidant-rich diet; not relevant to plasma zinc |
 
 ---
 
 ## UK Market Information
 
-Nicotinamide currently holds no MHRA marketing authorisation on file in this evidence pack (market status: **Not Marketed**, 0 licences recorded). No licensed product or approved-indication data is therefore available to summarise in this report.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1306010N0AAAAAA | Nicotinamide Gel 4% | Topical gel (per product name) | Not stated in the data compiled for this report |
+
+The identifier shown is a BNF-style product code rather than a standard MHRA "PL" number, and no manufacturer or indication text was available. Please check the MHRA product listing and the BNF before relying on this entry.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Knowledge-graph contraindication signals** (derived from drug-disease links in the knowledge graph, not from label text, so they should be checked against the SmPC and BNF):
 
-*Note: this evidence pack flags the absence of MHRA warning/contraindication data as a blocking gap — this data must be obtained before any formal safety evaluation can proceed (see Conclusion below).*
+- Kidney, liver and gallbladder disease
+- Peptic ulcer disease
+- Diabetes mellitus and diabetic ketoacidosis
+- Gout
+- Blood coagulation disease and haemophilia
+- Acute coronary syndrome and hypotensive disorder
+- Thyroid disease (including goitre and Hashimoto thyroiditis)
+- Iron-metabolism disorders (hereditary haemochromatosis, haemosiderosis) and Wilson disease
+- Sickle cell anaemia, rhabdomyolysis, primary hyperoxaluria, dermatitis herpetiformis, bronchitis and others
+
+**Drug interactions:** 64 interactions were identified. The ones listed below are from the first 20 returned, and all are rated Moderate except carbamazepine (Minor):
+
+- Antidiabetic agents: metformin, pioglitazone, chlorpropamide, acarbose, and the DPP-4 inhibitors, SGLT2 inhibitors and GLP-1 agonists alogliptin, linagliptin, canagliflozin, dapagliflozin, empagliflozin, albiglutide and dulaglutide
+- Antineoplastics: methotrexate, clofarabine, brentuximab vedotin, and asparaginase products
+- Others: efavirenz, cannabidiol, carbamazepine (Minor)
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -100,13 +124,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-There is a biologically plausible mechanism (NAD+ depletion in Werner Syndrome, correctable in principle by NAD+ precursors) and a supportive RCT — but that trial used nicotinamide riboside, not nicotinamide itself, so direct clinical evidence for this specific molecule is lacking. Combined with the absence of any UK marketing authorisation and a blocking gap in safety/label data, this candidate is not ready to advance past initial review.
+The predicted indication of elevated plasma zinc has no trials, no relevant literature and no plausible mechanism, so it rests on model output alone (L5). The Werner syndrome prediction is worth exploring separately as a research question, but its trial used nicotinamide riboside rather than nicotinamide.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC safety data — key warnings and contraindications (currently missing, blocking)
-- Full mechanism of action documentation for nicotinamide (currently missing)
-- A direct clinical trial or at minimum pharmacokinetic bridging data comparing nicotinamide to nicotinamide riboside in Werner Syndrome
-- Assessment of a UK regulatory/import pathway, given the drug currently has no marketing authorisation on file
+- Mechanism of action data for nicotinamide, and any evidence linking it to zinc metabolism
+- SmPC warnings and contraindications for the UK product, and confirmation of its MHRA authorisation number, dosage form and indication
+- For Werner syndrome: full review of the 2025 nicotinamide riboside RCT, a check on whether nicotinamide itself has been tested, and a comparison of the safety and pharmacology of the two NAD+ precursors
+- A review of the knowledge-graph contraindication signals against the label before any new-use proposal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

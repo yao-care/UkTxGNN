@@ -2,15 +2,15 @@
 layout: default
 title: Naratriptan
 parent: Moderate Evidence (L3-L4)
-nav_order: 404
-evidence_level: L3
+nav_order: 435
+evidence_level: L4
 indication_count: 3
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,92 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Naratriptan: From Acute Migraine Treatment to Migraine with Brainstem Aura
+# Naratriptan: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-> Naratriptan is a triptan-class agent internationally used for the acute treatment of migraine attacks, though the local marketing authorisation and formal original-indication text are not available in this evidence pack (Naratriptan is not currently marketed under `taiwan_regulatory`). The TxGNN model's top prediction is **Migraine with Brainstem Aura**, but the supporting literature and pharmacological rationale indicate this is more likely a **known safety signal** (triptans are relatively/absolutely contraindicated in this migraine subtype) than a genuine new therapeutic opportunity, with only **0 clinical trials** and **20 publications**, none of which specifically study naratriptan in brainstem-aura migraine.
-
----
+Naratriptan is a triptan (5-HT1B/1D receptor agonist) originally used to treat migraine.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+but there are currently **no registered clinical trials** and only **indirect literature** (20 publications on migraine and naratriptan generally, none specific to this subtype).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (no local marketing authorisation on record); internationally, naratriptan is indicated for acute treatment of migraine attacks with or without aura |
-| Predicted New Indication | Migraine with Brainstem Aura |
+| Original Indication | Migraine disorder (migraine with or without aura) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap for this drug. Based on known pharmacology, naratriptan is a selective **5-HT1B/1D receptor agonist**, exerting its acute anti-migraine effect through cranial vasoconstriction and inhibition of trigeminovascular nociceptive transmission — a well-established mechanism shared across the triptan class.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, naratriptan is a selective 5-HT1B/1D receptor agonist. It is thought to act by constricting cranial blood vessels and inhibiting release of pain-related neuropeptides (such as CGRP) from trigeminal nerve endings.
 
-However, the relationship between the original indication (migraine) and the predicted indication (migraine **with brainstem aura**, formerly termed basilar-type migraine) is not a straightforward disease-expansion story. Because triptans act via vasoconstriction, and migraine with brainstem aura is theoretically associated with vertebrobasilar circulation involvement, current clinical guidance (including AHS/AAN evidence assessments) lists this subtype as a **relative or absolute contraindication** for triptan use rather than an approved or plausible extension of use. In other words, the high TxGNN score here most likely reflects a strong knowledge-graph association driven by shared "migraine" terminology and receptor biology, rather than evidence of therapeutic benefit.
+Migraine with brainstem aura is a subtype of migraine, so it shares the underlying pathophysiology (trigeminovascular activation, CGRP release, cranial vasodilation). This makes a mechanistic link plausible.
 
-Consequently, this prediction should be interpreted primarily as a **pharmacovigilance/safety signal worth verifying against the SmPC contraindications**, not as a novel repurposing opportunity to pursue for efficacy development.
-
----
+However, the high TxGNN score largely reflects the parent-disease relationship with migraine and is not independent evidence for this subtype. Triptans are also traditionally used with caution, or avoided, in brainstem aura (formerly basilar-type migraine) because of a theoretical risk of vasoconstriction in the posterior circulation. This needs to be resolved before any recommendation is made.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-None of the identified publications specifically studied naratriptan in migraine with brainstem aura; the list below reflects the closest available evidence on naratriptan and migraine-with-aura populations, provided for context.
+None of the publications below studies brainstem aura directly. They concern naratriptan or triptans in migraine generally, and are the closest available evidence.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10972634](https://pubmed.ncbi.nlm.nih.gov/10972634/) | 2000 | RCT | Clinical Therapeutics | Randomised double-blind crossover comparing naratriptan vs sumatriptan for headache recurrence in recurrence-prone migraine patients |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline/Evidence Assessment | Headache | AHS updated evidence assessment of pharmacological therapies for acute migraine, including triptans |
-| [11264684](https://pubmed.ncbi.nlm.nih.gov/11264684/) | 2001 | RCT | Headache | Randomised, double-blind, placebo-controlled study of naratriptan 1mg/2.5mg BID as short-term prophylaxis of menstrually associated migraine |
-| [10961768](https://pubmed.ncbi.nlm.nih.gov/10961768/) | 2000 | RCT (small) | Cephalalgia | Naratriptan administered during migraine prodrome for prevention of headache onset |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohort/Comparative | Neurology | Compared acute treatment outcomes (sumatriptan) in migraine with aura vs without aura — relevant context for aura-subtype triptan response |
-| [15926020](https://pubmed.ncbi.nlm.nih.gov/15926020/) | 2005 | Pilot study | Neurological Sciences | Open, non-comparative pilot study of naratriptan for short-term prophylaxis of pure menstrual migraine |
-| [17578540](https://pubmed.ncbi.nlm.nih.gov/17578540/) | 2007 | Open-label study | Headache | Long-term tolerability of naratriptan for short-term prevention of menstrually related migraine |
-| [27910087](https://pubmed.ncbi.nlm.nih.gov/27910087/) | 2017 | Review | Headache | Review of treatment options for menstrual migraine, including naratriptan |
-| [16268666](https://pubmed.ncbi.nlm.nih.gov/16268666/) | 2005 | Review | CNS Drugs | Review of triptan use, including naratriptan, in management of menstrual migraine |
-| [14511276](https://pubmed.ncbi.nlm.nih.gov/14511276/) | 2003 | Case series/Review | Headache | Managing intractable migraine with naratriptan |
-
----
+| [10972634](https://pubmed.ncbi.nlm.nih.gov/10972634/) | 2000 | RCT | Clinical Therapeutics | Randomised, double-blind crossover comparison of naratriptan and sumatriptan for headache recurrence in recurrence-prone migraine patients |
+| [10961768](https://pubmed.ncbi.nlm.nih.gov/10961768/) | 2000 | RCT | Cephalalgia | Naratriptan given during the prodrome to assess prevention of migraine headache |
+| [11264684](https://pubmed.ncbi.nlm.nih.gov/11264684/) | 2001 | Randomised, placebo-controlled study | Headache | Naratriptan 1 mg and 2.5 mg twice daily versus placebo as short-term prophylaxis of menstrually associated migraine |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society updated evidence assessment of acute migraine pharmacotherapies |
+| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohort | Neurology | Sumatriptan was less effective in migraine with aura than without aura |
+| [15926020](https://pubmed.ncbi.nlm.nih.gov/15926020/) | 2005 | Open-label pilot study | Neurological Sciences | Naratriptan for short-term prophylaxis of pure menstrual migraine |
+| [14511276](https://pubmed.ncbi.nlm.nih.gov/14511276/) | 2003 | Review | Headache | Managing intractable migraine with naratriptan |
+| [23877022](https://pubmed.ncbi.nlm.nih.gov/23877022/) | 2014 | Case report | Brain & Development | Naratriptan improved intractable migraine-like headaches in a patient with Sturge-Weber syndrome despite prior cerebral infarction |
+| [21028917](https://pubmed.ncbi.nlm.nih.gov/21028917/) | 2010 | Review | Paediatric Drugs | Use of triptans for paediatric migraine |
+| [22337860](https://pubmed.ncbi.nlm.nih.gov/22337860/) | 2013 | Review | Cephalalgia | Treatment during the premonitory phase of migraine as a management strategy |
 
 ## UK Market Information
 
-No marketing authorisations are recorded for naratriptan in this evidence pack; the drug is currently **not marketed** in this jurisdiction (0 licenses on file). Local SmPC/BNF entries should be checked directly for current UK marketed status (e.g. Naramig®) if this is being evaluated for clinical use.
+Marketing authorisation details recorded for this product are incomplete (no UK licence number, dosage form or approved indication text is available in the data compiled for this report). Only the following product entry is available:
 
----
+| Product Name | Strength | Status |
+|---------|------|------|
+| Naratriptan hydrochloride tablets | 2.5 mg | Valid (single-ingredient product) |
+
+Please check the MHRA product database and the BNF for licence numbers and current approved indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease-level contraindication signals (from the TxGNN knowledge graph, not product label text)**: These include hypertension, coronary artery disease, myocardial infarction, myocardial ischaemia, Prinzmetal angina, stroke and cerebrovascular disorders, transient ischaemic attack, peripheral vascular disease, vertebrobasilar insufficiency, liver failure, diabetes and diabetic ketoacidosis, obesity, haemoglobinopathy, and **familial or sporadic hemiplegic migraine**. The last item and vertebrobasilar insufficiency are particularly relevant to a brainstem aura indication.
+- **Drug Interactions**: 39 interactions were recorded. Major-level interactions include:
+  - Lorcaserin, fenfluramine, dexfenfluramine and sibutramine
+  - 5-HT3 antagonists: ondansetron, granisetron, dolasetron and palonosetron
+  - Methylene blue
 
-**Important note beyond the formal safety fields:** the repurposing rationale for this prediction itself flags that triptans, including naratriptan, are conventionally listed as contraindicated or requiring caution in migraine with brainstem (basilar-type) aura due to theoretical vasospasm risk in the vertebrobasilar territory. This should be explicitly checked against the current SmPC contraindications section before any clinical consideration.
+  These are mainly serotonergic combinations, so serotonin syndrome is a concern. Moderate-level interactions include morphine (including liposomal morphine). Several others (e.g. omeprazole, clarithromycin, bupropion) are of unknown severity.
 
----
+Please refer to the SmPC and BNF for the full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This TxGNN prediction most plausibly reflects a pharmacological/safety association rather than a genuine efficacy-based repurposing opportunity — migraine with brainstem aura is conventionally treated as a caution/contraindication for triptans, not a target indication, and no clinical trials or disease-specific literature support use in this population. The two lower-ranked candidates (atrophoderma vermiculata, ulerythema ophryogenesis, both L5) have no mechanistic plausibility or evidence and are not viable leads.
+The prediction rests on model output and class pharmacology alone, with no trials and no subtype-specific literature. A recognised safety concern (posterior circulation vasoconstriction in brainstem aura) also remains unresolved.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent SmPC and labelled warnings/contraindications (currently a **Blocking** data gap, DG001)
-- Formal mechanism of action documentation from DrugBank (High-priority data gap, DG002)
-- Confirmation from the current SmPC on whether migraine with brainstem aura is a listed contraindication
-- If pursued despite the above, a targeted literature/pharmacovigilance review specific to triptan use in brainstem-aura migraine populations before any further development
+- A full safety review of triptan use in brainstem aura and hemiplegic migraine, including the SmPC contraindications and the BNF
+- Mechanism of action data for naratriptan
+- Subtype-specific clinical or observational evidence in patients with brainstem aura
+- Complete UK marketing authorisation details (licence number, dosage form, approved indication) from the MHRA
+- Clarification of how much of the TxGNN score reflects the parent-disease (migraine) relationship rather than independent subtype evidence
+
+*Other predicted indications (atrophoderma vermiculata and ulerythema ophryogenesis) have no identifiable mechanistic link, no trials and no literature, and are not recommended for further evaluation at this stage (Hold).*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

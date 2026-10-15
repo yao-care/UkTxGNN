@@ -2,7 +2,7 @@
 layout: default
 title: Digitoxin
 parent: Model Prediction Only (L5)
-nav_order: 212
+nav_order: 225
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Digitoxin: From Cardiac Glycoside Therapy to Prinzmetal Angina
+# Digitoxin: From Cardiac Indications to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Digitoxin is a digitalis-class cardiac glycoside; the evidence pack does not record its original indication text, but its embedded pharmacological notes describe it as a Na⁺/K⁺-ATPase inhibitor and positive inotrope (the class historically used in heart failure and rhythm control). The TxGNN model's top-ranked prediction for this drug is **Prinzmetal angina** (score 97.86%), but **no clinical trials and no publications** currently support this specific link — it is a model-score-only candidate, and the evidence pack's own mechanistic review flags a plausible safety conflict rather than a supporting rationale.
+Digitoxin is a cardiac glycoside marketed in the UK as a 100 microgram tablet. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (flagged as a blocking data gap — MOA and indication data pending DrugBank/regulatory verification) |
+| Original Indication | Not stated in the available licence data |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 97.86% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for digitoxin is not yet available in this evidence pack (logged as a High-severity data gap). Based on the information that is present, digitoxin is a cardiac glycoside that inhibits Na⁺/K⁺-ATPase, producing a positive inotropic effect — the pharmacological basis for its traditional use in heart failure and certain arrhythmias.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, digitoxin is a cardiac glycoside that inhibits Na+/K+-ATPase, raising intracellular calcium.
 
-For the top-ranked candidate, Prinzmetal angina, the link is weak. Prinzmetal (vasospastic) angina is caused by coronary artery smooth-muscle spasm, not by impaired myocardial contractility, so there is no obvious mechanistic bridge from Na⁺/K⁺-ATPase inhibition to relief of coronary vasospasm. The evidence pack's own rationale goes further and notes a potential *conflict*: cardiac glycosides can provoke arrhythmias, which runs counter to the treatment goals for this indication. In short, this candidate is a pure TxGNN score output without mechanistic, preclinical, or clinical corroboration.
-
-It is worth noting that other candidates within the same evidence pack — rheumatoid arthritis, thrombotic disease, and hyperthyroidism — carry more (though still preliminary, L4) literature support, including pharmacokinetic interaction data and studies of related cardiac glycosides (e.g. periplogenin). These are not the subject of this report but may warrant separate evaluation.
+This mechanism does not obviously support use in Prinzmetal (vasospastic) angina. Higher intracellular calcium would be expected to increase vascular smooth muscle tone, which could be counterproductive in a condition driven by coronary vasospasm. The high TxGNN score is a graph-based prediction, and the mechanistic rationale is unclear and possibly contradictory. This prediction should be treated with considerable caution.
 
 ## Clinical Trial Evidence
 
@@ -61,28 +59,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Prinzmetal angina.
+
+For context, the other nine predictions were also reviewed. Only rheumatoid arthritis, thrombotic disease and hyperthyroidism had any retrieved literature, and none of it showed therapeutic benefit. It consisted of pharmacokinetic and interaction studies, case reports of toxicity, preclinical work and very old uncontrolled reports of topical digitoxin for venous disease. All ten predictions are currently rated Hold.
 
 ## UK Market Information
 
-Digitoxin currently holds no UK marketing authorisations (0 licenses on record); market status is recorded as **not marketed**. No product-level dosage form or licence data is available for inclusion.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0201010D0AAAAAA | Digitoxin Tab 100mcg | Not stated | Not stated |
+
+This identifier appears to be a BNF-style product code (BNF chapter 2.1.1, cardiac glycosides) rather than a standard PL number. Licence-level details such as indication and dosage form are not available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions**: The interaction screen returned 87 interacting drugs. Examples include:
+- **Major**: dolasetron
+- **Moderate**: acarbose, doxycycline, tetracycline, clarithromycin, epinephrine, aprepitant, amphotericin B, calcium salts and vitamin D analogues (cholecalciferol, calcifediol, calcitriol), and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone)
+- **Minor**: cimetidine, picosulfuric acid
+
+Digitoxin has a narrow therapeutic index. The retrieved literature also shows that thyroid status, hypokalaemia, hypomagnesaemia and hepatic or renal dysfunction can alter glycoside handling and toxicity.
+
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on the TxGNN model score (L5, S0), with zero clinical trials or publications specific to Prinzmetal angina, and the available mechanistic reasoning points toward a potential safety conflict (arrhythmogenic risk) rather than therapeutic rationale.
+The prediction has no supporting trials or literature, and the known mechanism may work against benefit in vasospastic angina. The narrow therapeutic index adds further concern.
 
 **To proceed, the following is needed:**
-- Resolution of the blocking data gap: TFDA/MHRA SmPC warnings and contraindications (DG001)
-- Confirmed mechanism-of-action and original indication data from DrugBank (DG002)
-- Preclinical or mechanistic evidence specifically linking digitoxin (not related glycosides alone) to coronary vasospasm before any further evaluation stage is considered
-- If pursuing repurposing further, consider prioritising the better-evidenced candidates in this pack (rheumatoid arthritis, hyperthyroidism) over Prinzmetal angina
+- Mechanism of action data, and a clear mechanistic case for vasospastic angina
+- Licensed indication, dosage form and product information for the UK authorisation
+- Warnings and contraindications from the SmPC and BNF
+- Preclinical or early clinical evidence of benefit, with a safety and monitoring plan that accounts for the narrow therapeutic index
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

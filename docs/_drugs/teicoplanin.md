@@ -2,7 +2,7 @@
 layout: default
 title: Teicoplanin
 parent: Moderate Evidence (L3-L4)
-nav_order: 556
+nav_order: 597
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,85 +29,82 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Teicoplanin: From Serious Gram-Positive Infections to Bacterial Arthritis
+# Teicoplanin: From Staphylococcal Infection to Bacterial Arthritis
 
 ## One-Sentence Summary
 
-Teicoplanin is a glycopeptide antibiotic established for the treatment of serious Gram-positive bacterial infections, including bone and joint infections, endocarditis and bacteraemia. The TxGNN model predicts it may also be effective for **Bacterial Arthritis** (septic/pyogenic arthritis), a prediction currently supported by **20 publications** but no dedicated clinical trials. Because septic arthritis is already a recognised subset of Gram-positive bone and joint infection, this finding largely confirms an existing therapeutic role rather than revealing a genuinely novel indication.
-
----
+Teicoplanin is a glycopeptide antibiotic, originally used to treat staphylococcal infection.
+The TxGNN model predicts it may be effective for **bacterial arthritis**,
+with **no registered clinical trials** but **20 publications** (including community-based clinical studies and case series) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No UK marketing-authorisation text available; established use is for serious Gram-positive bacterial infections (bone/joint infections, endocarditis, bacteraemia) |
-| Predicted New Indication | Bacterial Arthritis (septic/pyogenic arthritis) |
+| Original Indication | Staphylococcal infection |
+| Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 94.25% |
 | Evidence Level | L3 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for teicoplanin is not available from DrugBank in this Evidence Pack. Based on the supporting literature, teicoplanin is a glycopeptide antibiotic that inhibits cell-wall synthesis in Gram-positive bacteria, including methicillin-resistant *Staphylococcus aureus* (MRSA). This mechanism underlies its long-established use in serious Gram-positive infections such as bone and joint infections, endocarditis and bacteraemia.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, teicoplanin is a glycopeptide antibiotic that inhibits cell wall synthesis in Gram-positive bacteria, including methicillin-resistant staphylococci. Its efficacy in staphylococcal infection is established.
 
-Bacterial arthritis (septic/pyogenic arthritis) is typically caused by Gram-positive organisms, most commonly *S. aureus*, and is clinically classified alongside osteomyelitis as a bone and joint infection. Multiple cohort studies and case series in the evidence pack (e.g., Weinberg 1993; LeFrock 1992; Peeters 2016; Bibler 1987) directly document teicoplanin use in septic/pyogenic arthritis with reported clinical cure. The TxGNN prediction therefore reflects an indication that already sits within teicoplanin's recognised spectrum of use, rather than a mechanistically novel repurposing signal.
+Staphylococci, including methicillin-resistant strains, are common causes of bacterial joint and bone infections. Bacterial arthritis is therefore largely an extension of the existing use to a specific infection site rather than a fundamentally new therapeutic area.
 
-This is reinforced by dosing literature specifically addressing septic arthritis: Grüneberg (1997) notes that septic arthritis is one of only three clinical situations warranting a higher maintenance dose (12 mg/kg/day) versus the standard regimen, indicating that clinicians have long treated this specific presentation with teicoplanin using tailored dosing.
-
----
+Pharmacokinetic work suggests that standard doses may be subtherapeutic in bone and joint infections, so dose optimisation and therapeutic drug monitoring are important considerations.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Cohort (community-based trial) | Southern Medical Journal | Once-daily teicoplanin (~10.1 mg/kg) treated 66 patients with Gram-positive osteomyelitis and septic arthritis; all 60 recovered isolates were teicoplanin-sensitive |
-| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Review | Journal of Chemotherapy | Reviews teicoplanin dosing for endocarditis, bacteraemia and bone/joint infections; notes advantages over vancomycin (longer half-life, lower nephrotoxicity) |
-| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Cohort | BMC Infectious Diseases | Teicoplanin-based therapy (including subcutaneous route) evaluated for tolerance and efficacy in *S. aureus* bone and joint infection |
-| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Cohort (multicentre cooperative study) | European Journal of Surgery Supplement | US multicentre study of once-daily IV/IM teicoplanin in 90 evaluable patients with Gram-positive bone/joint infections (acute and chronic osteomyelitis) |
-| [2952062](https://pubmed.ncbi.nlm.nih.gov/2952062/) | 1987 | Case series | Antimicrobial Agents and Chemotherapy | 19 patients with serious Gram-positive infections, including pyogenic arthritis, treated with teicoplanin; 8/13 evaluable infections clinically cured |
-| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Retrospective cohort | Medicina (Buenos Aires) | Retrospective review of 89 episodes of MRSA bone/joint infection, including 10 cases of septic arthritis, treated with teicoplanin plus surgery |
-| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Cohort/PK study | The Journal of Infection | Investigated whether standard teicoplanin doses achieve target trough levels (≥20 mg/L) in musculoskeletal infection patients |
-| [2140111](https://pubmed.ncbi.nlm.nih.gov/2140111/) | 1990 | Case series | Journal of Antimicrobial Chemotherapy | 33 patients with prosthetic infection, osteomyelitis, soft-tissue infection and septic arthritis treated with teicoplanin |
-| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Review | Drugs | Identifies teicoplanin/vancomycin as most reliable agents for serious Gram-positive infection; specifies higher maintenance dose (12 mg/kg/day) for septic arthritis |
-| [28900682](https://pubmed.ncbi.nlm.nih.gov/28900682/) | 2017 | Review | Current Topics in Microbiology and Immunology | Broad review of *S. aureus* treatment across skin, bone, bloodstream and respiratory infections, including glycopeptide therapy |
-
----
+| [8351549](https://pubmed.ncbi.nlm.nih.gov/8351549/) | 1993 | Clinical trial (community-based, non-randomised) | Southern Medical Journal | Once-daily teicoplanin (average 10.1 mg/kg after loading) in 66 enrolled patients with osteomyelitis and septic arthritis; all 60 Gram-positive isolates were sensitive to teicoplanin |
+| [12481488](https://pubmed.ncbi.nlm.nih.gov/12481488/) | 2002 | Clinical series | Medicina | Retrospective review of 89 episodes of MRSA-type bone and joint infection (including 10 septic arthritis); evaluated efficacy of teicoplanin, outpatient therapy and cost savings |
+| [17825421](https://pubmed.ncbi.nlm.nih.gov/17825421/) | 2007 | Pharmacokinetic study | Journal of Infection | Examined how dose and patient characteristics affect trough levels in musculoskeletal infection; raises the question of whether standard doses are subtherapeutic (target trough ≥20 mg/L) |
+| [1381644](https://pubmed.ncbi.nlm.nih.gov/1381644/) | 1992 | Clinical study | European Journal of Surgery Supplement | US cooperative study of once-daily IV/IM teicoplanin in Gram-positive bone and joint infections; 90 of 98 patients evaluable for efficacy |
+| [27809799](https://pubmed.ncbi.nlm.nih.gov/27809799/) | 2016 | Clinical study | BMC Infectious Diseases | Tolerance, efficacy and subcutaneous administration of teicoplanin in *S. aureus* bone and joint infection |
+| [11131961](https://pubmed.ncbi.nlm.nih.gov/11131961/) | 2000 | Review | Journal of Chemotherapy | Teicoplanin in serious infection, including bone and joint; advantages over vancomycin include longer half-life and lower nephrotoxicity |
+| [9474479](https://pubmed.ncbi.nlm.nih.gov/9474479/) | 1997 | Review | Drugs | Anti-Gram-positive agents; notes a higher maintenance dose (12 mg/kg/day) for septic arthritis |
+| [28900682](https://pubmed.ncbi.nlm.nih.gov/28900682/) | 2017 | Review | Current Topics in Microbiology and Immunology | Overview of *S. aureus* treatment and the development of resistance |
+| [7843174](https://pubmed.ncbi.nlm.nih.gov/7843174/) | 1994 | Review | Eur J Clin Microbiol Infect Dis | Use of teicoplanin in community and outpatient parenteral therapy |
+| [31524589](https://pubmed.ncbi.nlm.nih.gov/31524589/) | 2019 | Experimental study | Acta Chir Orthop Traumatol Cech | Effects of intra-articular vancomycin and teicoplanin on joint cartilage and utility in MRSA septic arthritis |
 
 ## UK Market Information
 
-Teicoplanin currently holds **no UK marketing authorisation** on file in this Evidence Pack and is **not marketed in the UK** (0 licences recorded). No product name, dosage form or licensed indication text is available for citation. Any UK use would need to be confirmed against the current MHRA product register and Summary of Product Characteristics (SmPC), and considered against BNF classification for parenteral glycopeptide antibacterials.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501070T0AAABAB (BNF-style product code; PL number not available) | Teicoplanin injection 200 mg vial + diluent | Injection (powder and solvent) | Not available in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+No warnings, contraindications or drug interaction data were available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
----
+Literature in the data suggests that standard doses may be subtherapeutic in bone and joint infection, and that allergic cross-reactivity with vancomycin has been reported (PMID 8459893). These should be considered when planning use.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Decades of cohort studies and case series consistently support teicoplanin's efficacy in Gram-positive bone, joint and septic arthritis infections (Evidence Level L3), but no randomised controlled trial specifically targets bacterial arthritis as a standalone indication, and the drug currently has no UK marketing authorisation.
+The mechanism fits staphylococcal bone and joint infection, and several clinical studies and case series support use in bacterial arthritis. However, the evidence is mostly older, non-randomised and lower tier, with no registered trials.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action (MOA) data from DrugBank or the manufacturer's SmPC
-- SmPC warnings, contraindications and drug-interaction data (currently unavailable — flagged as blocking in the source data)
-- Verification of current UK marketing/import status if clinical use is being considered
-- A formal comparison against existing glycopeptide dosing guidance for septic arthritis (e.g., the 12 mg/kg/day regimen noted in the literature) before any local protocol adoption
+- Review of current UK guidance (e.g. NICE, local antimicrobial guidelines) on where teicoplanin sits relative to vancomycin and other options
+- Dose optimisation and therapeutic drug monitoring plan (trough target and loading regimen)
+- Full safety data from the SmPC (warnings, contraindications, interactions), including renal and hearing monitoring
+- Confirmation of the approved indication wording and PL number for the UK product
+- Detailed mechanism of action data
+
+---
+
+*Other predicted indications (visceral leishmaniasis, celiac trunk compression syndrome, abdominal cystic lymphangioma, abdominal ectopic pregnancy, and others) have no supporting trial or literature evidence and no plausible mechanism, and are rated Hold. Disease of the peritoneum (L3) has supporting evidence limited to Gram-positive peritoneal dialysis-associated peritonitis; it could be considered separately.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

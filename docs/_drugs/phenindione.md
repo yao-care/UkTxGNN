@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenindione
-parent: Model Prediction Only (L5)
-nav_order: 454
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 489
+evidence_level: L3
 indication_count: 1
 ---
 
 # Phenindione
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Phenindione: From Vitamin K Antagonist Anticoagulation to Thrombotic Disease
+# Phenindione: From Anticoagulation (Indication Not Recorded) to Thrombotic Disease
 
 ## One-Sentence Summary
 
-Phenindione is an indandione-class vitamin K antagonist (VKA); however, this evidence pack contains no recorded original indication, mechanism-of-action text, or UK marketing authorisation for the drug. TxGNN predicts efficacy for **Thrombotic Disease**, but this is not a genuinely novel repurposing signal — thrombotic disease is the prototype indication for the VKA drug class itself — and it is supported by only **1 indirect clinical trial** and **20 publications**, most of which are older case reports and reviews rather than direct trial evidence for phenindione.
+Phenindione is an indandione-class oral anticoagulant (a vitamin K antagonist), but no original indication is recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **thrombotic disease**, which is effectively the drug's established use rather than a genuinely new indication.
+There are **no registered clinical trials** and **20 publications**, most of them historical (1950s to 1990s) and of low evidential strength.
 
 ---
 
@@ -41,62 +43,67 @@ Phenindione is an indandione-class vitamin K antagonist (VKA); however, this evi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no marketing authorisation or original indication text on file for this drug |
-| Predicted New Indication | Thrombotic Disease |
+| Original Indication | Not recorded in the UK licence data |
+| Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 99.29% |
-| Evidence Level | L3 (observational/review-level evidence) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for Phenindione is not available in structured form. However, the evidence pack's own repurposing rationale indicates that Phenindione belongs to the indandione class of vitamin K antagonists (VKA), acting by inhibiting hepatic synthesis of clotting factors II, VII, IX and X — the same mechanism shared by warfarin, acenocoumarol and fluindione.
+Phenindione is an oral anticoagulant of the indandione class. It inhibits vitamin K epoxide reductase (VKORC1), which reduces the production of active vitamin K-dependent clotting factors II, VII, IX and X. This mechanism directly targets thrombus formation, which fits the very high TxGNN score.
 
-This means the predicted indication, thrombotic disease, is pharmacologically self-evident rather than a novel discovery: it is the class-defining indication for any VKA. The TxGNN model has essentially identified the drug's own established pharmacological category rather than surfacing a new therapeutic hypothesis. This significantly limits the value of the prediction for repurposing purposes.
+The prediction should be read with caution. Thrombotic disease is essentially the drug's established use, not a novel repurposing target. The high score therefore mostly reflects the model recovering known pharmacology. The gap is in the record: no original indication is listed, and the data compiled for this report contain no detailed mechanism entry.
 
-A further important caveat: Phenindione is not currently marketed in the UK (0 licences on file), and historical literature in this evidence pack (e.g. PMID 13162792, "Severe drug sensitivity reaction to phenindione", 1954) points to known hypersensitivity concerns associated with this specific agent — consistent with why indandione-class VKAs (including phenindione) were withdrawn from most markets in favour of coumarin derivatives such as warfarin. Any evaluation of this drug should first establish why it is not marketed in the UK before considering any indication-level decision.
+The pharmacology database entry also notes that phenindione was discontinued in some settings because of a higher incidence of severe adverse effects than warfarin, and that individual national agencies may have granted marketing authorisation.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05646394](https://clinicaltrials.gov/study/NCT05646394) | N/A | Recruiting | 150 | Observational registry of antithrombotic regimens (VKA ± aspirin, or dual antiplatelet therapy) in antiphospholipid syndrome patients with a recent arterial thrombotic event. Not a direct interventional trial of phenindione; relevance graded C (indirect, disease-area background only). |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+The publications are mostly historical case reports, clinical evaluations and general reviews. No randomised controlled trial specific to phenindione was identified. The table lists the most relevant items.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [13307153](https://pubmed.ncbi.nlm.nih.gov/13307153/) | 1956 | Historical report | J Med Assoc Georgia | Early clinical evaluation naming phenindione ("phenylindanedione") as an effective oral anticoagulant (title only; abstract not available). |
-| [13162792](https://pubmed.ncbi.nlm.nih.gov/13162792/) | 1954 | Case report | JAMA | Documents a severe drug sensitivity reaction to phenindione itself — an early signal underlying the drug's later withdrawal from most markets (title only; abstract not available). |
-| [41177211](https://pubmed.ncbi.nlm.nih.gov/41177211/) | 2025 | Systematic review | Contraception | Updated systematic review of contraceptive safety in women on anticoagulant (VKA) therapy, addressing bleeding and recurrent thrombosis risk. |
-| [24889788](https://pubmed.ncbi.nlm.nih.gov/24889788/) | 2014 | Cohort (case-control) | J Mal Vasc | Identifies risk factors for thrombotic or bleeding events in patients treated with vitamin K antagonists. |
-| [21531328](https://pubmed.ncbi.nlm.nih.gov/21531328/) | 2011 | Review | Adv Chronic Kidney Dis | Reviews nephrotoxic syndromes including drug-induced thrombotic microangiopathy, relevant to VKA-class renal safety. |
-| [17176918](https://pubmed.ncbi.nlm.nih.gov/17176918/) | 2006 | Case report | Clin Nephrol | Acute immuno-allergic interstitial nephritis caused by fluindione, another indandione-class VKA structurally related to phenindione. |
-| [8037888](https://pubmed.ncbi.nlm.nih.gov/8037888/) | 1994 | Review | Drug Safety | Reviews clinically significant drug interactions with oral anticoagulants, including coumarin and indandione derivatives. |
-| [12503504](https://pubmed.ncbi.nlm.nih.gov/12503504/) | 2002 | Case series | Arch Pediatr | Use of acenocoumarol and fluindione in 150 paediatric patients following cardiac surgery. |
-| [14714343](https://pubmed.ncbi.nlm.nih.gov/14714343/) | 2003 | Cohort | Ann Cardiol Angeiol | Evaluates an education programme for patients undergoing oral anticoagulation therapy. |
-| [4338821](https://pubmed.ncbi.nlm.nih.gov/4338821/) | 1972 | Case report | Ann Surg | Femoral neuropathy associated with anticoagulant therapy (title only; abstract not available). |
+| [8037888](https://pubmed.ncbi.nlm.nih.gov/8037888/) | 1994 | Review | Drug Safety | Clinically significant drug interactions with oral anticoagulants, including indandione derivatives |
+| [41177211](https://pubmed.ncbi.nlm.nih.gov/41177211/) | 2026 | Systematic review | Contraception | Safety of contraception in women on anticoagulants (indirect, not specific to phenindione) |
+| [407865](https://pubmed.ncbi.nlm.nih.gov/407865/) | 1977 | Case series | Arch Mal Coeur Vaiss | 100 patients over 75 on long-term anticoagulation, with phenindione doses reduced with age |
+| [11907960](https://pubmed.ncbi.nlm.nih.gov/11907960/) | 2001 | Case report | Ann Dermatol Venereol | Hypersensitivity to fluindione, a related indandione; notes severe immuno-allergic complications reported with phenindione (hepatitis, renal failure, bone marrow failure) |
+| [13162792](https://pubmed.ncbi.nlm.nih.gov/13162792/) | 1954 | Case report | JAMA | Severe hypersensitivity reaction to phenindione |
+| [13572936](https://pubmed.ncbi.nlm.nih.gov/13572936/) | 1958 | Clinical evaluation | BMJ | Clinical evaluation of phenindione (Miradon) |
+| [13307153](https://pubmed.ncbi.nlm.nih.gov/13307153/) | 1956 | Review/commentary | J Med Assoc Ga | Early commentary describing phenylindanedione as a useful anticoagulant |
+| [2517317](https://pubmed.ncbi.nlm.nih.gov/2517317/) | 1989 | Case report | Nephrologie | Lupus anticoagulant with recurrent venous thrombosis in a patient on phenindione for 11 years |
+| [7843480](https://pubmed.ncbi.nlm.nih.gov/7843480/) | 1994 | Review | Int J Gynaecol Obstet | Low molecular weight heparin thromboprophylaxis in pregnancy (not specific to phenindione) |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisations are currently held for Phenindione in the UK (0 licences on file; market status: Not marketed). No product name, dosage form, or approved indication text is available in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0208020N0AAACAC (BNF-style code) | Phenindione tablets 50 mg | Tablet | Not recorded in the data compiled |
+
+The data show one valid single-ingredient product. The dosage form field, manufacturer and indication text are empty, so these should be confirmed against the MHRA register and BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Mechanism-related risk**: As a vitamin K antagonist, phenindione carries a bleeding risk. Published reports also describe skin necrosis with coumarin-type anticoagulants.
+- **Hypersensitivity**: Case reports describe severe immuno-allergic reactions with phenindione, including acute hepatitis, acute renal failure and bone marrow failure.
+- **Drug interactions**: The only interaction recorded is pharmacological, with its target, vitamin K epoxide reductase complex subunit 1 (VKORC1). No specific drug-drug interactions are listed. Oral anticoagulants as a class interact with many drugs (see PMID 8037888).
 
-*Note: no structured warnings, contraindications, or drug–drug interaction data were returned for this drug. However, literature in this evidence pack (PMID 13162792) flags a historical hypersensitivity reaction specifically to phenindione, and a related indandione-class VKA (fluindione) has documented cases of immuno-allergic interstitial nephritis (PMID 17176918). These signals should be confirmed against an official SmPC before any clinical use is considered.*
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -105,14 +112,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The blocking data gap on regulatory warnings/contraindications (DG001) prevents even an initial safety screen (S1), and mechanism-of-action data is unconfirmed (DG002). More fundamentally, the predicted indication overlaps with the drug's own established VKA class use rather than representing a novel repurposing hypothesis, evidence level is only L3, and the drug is not currently marketed in the UK.
+The prediction restates phenindione's established use as an anticoagulant rather than identifying a new indication. The supporting evidence is historical, low-level and largely case-based, with no registered trials. Required licence and safety information is also missing, and safety screening cannot proceed without it.
 
 **To proceed, the following is needed:**
-- Official SmPC/MHRA label data — warnings, contraindications, and dosing (resolves DG001)
-- Confirmed mechanism of action via DrugBank (resolves DG002)
-- Clarification of why Phenindione is not marketed in the UK, including any historical withdrawal or safety rationale
-- A re-assessment of whether "thrombotic disease" constitutes a genuine repurposing signal, given it duplicates the drug's own pharmacological class indication
-- Additional direct clinical trial evidence for phenindione specifically, rather than class-level VKA literature
+- The licensed indication and dosage form from the MHRA register or SmPC, to establish the original indication
+- Package insert warnings and contraindications from the BNF or SmPC
+- Mechanism of action data from DrugBank
+- A comparison with current anticoagulants (for example warfarin and direct oral anticoagulants) and with NICE guidance, to establish whether phenindione has any role today
+- A clear statement of whether the question is a true repurposing target or a record-completion exercise
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

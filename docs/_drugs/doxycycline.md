@@ -2,7 +2,7 @@
 layout: default
 title: Doxycycline
 parent: Moderate Evidence (L3-L4)
-nav_order: 225
+nav_order: 241
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,27 +33,27 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Doxycycline is a broad-spectrum tetracycline-class antibiotic; a specific licensed indication text is not present in this evidence pack, though its established use is in bacterial and rickettsial infections. The TxGNN model predicts possible efficacy for **Punctate Epithelial Keratoconjunctivitis**, but this direction is currently supported by only **1 publication** and **no registered clinical trials**, making the evidence base very preliminary.
+Doxycycline is a tetracycline antibiotic, originally used for bronchitis, acne, bacterial pneumonia, anthrax, gonorrhoea and other bacterial infections.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but the supporting evidence is very thin: **no clinical trials** and **1 publication** (a 1992 case report).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (Doxycycline is a tetracycline-class antibiotic; no licensed indication text was returned for this record) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
-| TxGNN Prediction Score | 99.94% (model rank 1056) |
+| Original Indication | Bronchitis, acne, bacterial pneumonia, anthrax, gonorrhoea and other bacterial infections (taken from the knowledge-graph indication list; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 99.94% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Doxycycline is part of the tetracycline antibiotic class, its efficacy in bacterial and rickettsial infections has been proven, and mechanistically it may be applicable to punctate epithelial keratoconjunctivitis.
+Currently, detailed mechanism of action data is not available. Based on known information, doxycycline is a tetracycline-class antibiotic with proven efficacy against a range of bacterial infections, including *Chlamydia trachomatis*, and mechanistically may be applicable to ocular surface disease.
 
-Doxycycline's anti-inflammatory and anti-matrix-metalloproteinase (anti-MMP) properties are already established in routine ocular surface therapy (e.g. dry eye disease and rosacea-associated blepharitis), which provides a plausible theoretical basis for extending its use to post-infectious corneal epithelial disease.
-
-However, the sole supporting publication is a case description of persistent punctate epithelial keratitis following chlamydial follicular conjunctivitis, treated historically with oral tetracycline/doxycycline for the antecedent conjunctivitis rather than as a direct interventional treatment for the keratitis itself. The evidence is therefore indirect — it documents a disease sequence, not a therapeutic effect of doxycycline on this specific corneal condition.
+The only publication identified describes two patients with chlamydial follicular conjunctivitis who were treated with oral tetracycline or doxycycline. Their follicles resolved, but they then developed recurrent punctate epithelial keratitis. This indicates a link to a chlamydial infection that doxycycline treats, rather than a direct benefit of the drug on the keratitis. Tetracyclines are also known to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects, which could plausibly help ocular surface inflammation, but this is a hypothesis and has not been tested here. The evidence is indirect and does not constitute a distinct repurposing signal.
 
 ## Clinical Trial Evidence
 
@@ -63,24 +63,49 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case Report/Observational | Cornea | Describes two cases of chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline, in which recurrent bilateral punctate epithelial keratitis subsequently developed despite resolution of the follicular conjunctivitis; not a treatment-efficacy study of doxycycline for the keratitis itself |
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report | Cornea | Two cases of chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline. Follicles resolved, but recurrent bilateral punctate epithelial keratitis followed. |
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| BNF code 0501030Z0AAAAAA (no PL number available) | Doxycycline 40 mg modified-release capsules | Capsule (modified-release) | Not available in the data compiled for this report |
+
+Only one valid single-ingredient authorisation is recorded. The BNF code (section 5.1.3, tetracyclines) places the product among the tetracycline antibacterials. Manufacturer and approved indication details were not available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication signals (knowledge-graph, not label text)**: *Clostridium difficile* colitis, perinatal necrotising enterocolitis, and oesophageal dyskinesia.
+- **Drug Interactions**: 100 interactions were recorded; examples of those flagged as **Major** include:
+  - Isotretinoin
+  - Acitretin
+  - Aminolevulinic acid
+
+  Moderate interactions include aluminium hydroxide, aminophylline, amoxicillin, ampicillin and bedaquiline. Minor interactions include acetazolamide and amiloride.
+- **Ocular/otic use**: an in vitro study found tetracyclines less cytotoxic to tympanic membrane fibroblasts than quinolones, so this is a consideration for any topical use, though it is not specific to the ocular indication.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only available evidence is a single case report describing disease progression rather than an interventional trial of doxycycline treating punctate epithelial keratoconjunctivitis. With no clinical trials, no MOA data, and no UK marketing authorisation on record for this candidate, the evidence base (L4) is insufficient to justify further investment at this time.
+The prediction score is high, but the only supporting evidence is a single 1992 case report in which doxycycline treated the underlying chlamydial infection. There are no trials, and the UK-authorised product (a 40 mg modified-release capsule) is not designed for ocular indications.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Doxycycline (flagged as a High-severity data gap)
-- UK/MHRA SmPC warnings, contraindications and interaction data (flagged as a Blocking data gap — required before any S1 safety screening)
-- At least one prospective or interventional study assessing doxycycline specifically for post-infectious punctate epithelial keratoconjunctivitis
-- Confirmation of current UK marketing authorisation status, since none is on record for this drug
+- Mechanism of action data to assess whether anti-inflammatory or MMP-inhibiting effects are relevant to punctate epithelial keratoconjunctivitis
+- Identification of controlled clinical studies (human) in non-infectious punctate keratitis
+- The approved indication text and SmPC warnings and contraindications for the UK-authorised product
+- Assessment of route and formulation suitability for ocular use
+
+### Other Predicted Indications Reviewed (for context)
+
+Other predictions were also reviewed. They are not the focus of this report.
+- **Post-bacterial disorder** and **post-infectious syndrome** (evidence level L1 by trial count): the trials mainly concern doxycycline post-exposure prophylaxis for sexually transmitted infections. This is infection prevention, not treatment of a post-infectious condition, and the disease mapping is loose. Antimicrobial resistance is a concern.
+- **Chronic gingivitis** (L2): there are studies of local and subantimicrobial-dose doxycycline as an adjunct to scaling and root planing, but mostly in periodontitis rather than gingivitis alone, and no trials were registered. This is the most clinically developed of the other candidates.
+- **Otitis externa, post-infectious vasculitis, infective urethral stricture, exposure keratitis, Chagas cardiomyopathy**: evidence is weak, off-target or negative, so these are on hold.
+- **Infection-related haemolytic uraemic syndrome**: model prediction only, with a plausible safety concern, since antibiotics are generally avoided in Shiga toxin-producing *E. coli* infection.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

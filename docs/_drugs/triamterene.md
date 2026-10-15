@@ -2,7 +2,7 @@
 layout: default
 title: Triamterene
 parent: Model Prediction Only (L5)
-nav_order: 597
+nav_order: 639
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Triamterene: From Potassium-Sparing Diuretic Use to Malignant Renovascular Hypertension
+# Triamterene: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Triamterene is a potassium-sparing diuretic that works by blocking the epithelial sodium channel (ENaC) to reduce sodium reabsorption; it currently holds no UK marketing authorisation. The TxGNN model's top-ranked prediction links it to **Malignant Renovascular Hypertension**, but this is a **model-only prediction (L5)** with no supporting clinical trials or literature, and the underlying mechanistic rationale itself flags a significant safety concern — potassium-sparing diuretics may be relatively contraindicated in this condition due to hyperkalaemia risk in the presence of renal impairment.
+Triamterene is a potassium-sparing diuretic, originally used for hypertension and congestive heart failure.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **no clinical trials** and **no relevant publications** supporting this prediction. It rests on model output alone.
 
 ---
 
@@ -41,23 +42,27 @@ Triamterene is a potassium-sparing diuretic that works by blocking the epithelia
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified — no UK marketing authorisation on record; pharmacologically, Triamterene is a potassium-sparing diuretic used for oedema/hypertension management |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertension and congestive heart failure (the UK licence record contains no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the formal drug record (flagged as a High-severity data gap). However, the evidence pack's mechanistic rationale describes Triamterene as a **potassium-sparing diuretic** that blocks ENaC in the distal nephron, reducing sodium reabsorption and producing a mild antihypertensive effect. On this basis, there is a theoretical, class-level link to hypertensive conditions generally.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron. This promotes sodium loss and reduces fluid volume, which lowers blood pressure. It is already used for hypertension and congestive heart failure.
 
-However, the specific pathophysiology of malignant renovascular hypertension is driven by renal artery stenosis and marked activation of the renin-angiotensin-aldosterone system (RAAS), typically accompanied by declining renal function. In this setting, a potassium-sparing diuretic carries an elevated risk of hyperkalaemia and may be **relatively contraindicated** rather than beneficial. The evidence pack itself explicitly characterises this mechanistic link as "weak, with the direction of effect in question." This should be read as a caution rather than a supportive rationale.
+The link to malignant renovascular hypertension is weak. This condition is driven mainly by activation of the renin-angiotensin system and renal artery stenosis. A diuretic alone is unlikely to be adequate, and volume depletion could worsen renal perfusion. The high TxGNN score probably reflects similarity to the approved hypertension indication rather than independent evidence.
 
-No clinical trials, literature, or real-world evidence for this specific drug-indication pairing were found, so the prediction currently rests entirely on the TxGNN knowledge-graph score.
+Other predictions for this drug follow the same pattern:
+- **Malignant hypertensive renal disease** (99.89%): the score appears inherited from the parent hypertension indication. Hyperkalaemia risk in renal impairment makes triamterene a poor fit.
+- **Pulmonary hypertension** (two forms, 99.88%): diuretics can relieve right-heart congestion, but there is no known action on pulmonary vascular remodelling.
+- **Braddock syndrome** (99.84%): no mechanistic rationale is identifiable.
+- **Chronic pulmonary heart disease** (99.75%): the most plausible of the group, as diuretics are used for volume overload in right-sided heart failure and triamterene is already used in congestive heart failure. The evidence remains indirect.
 
 ---
 
@@ -69,35 +74,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found for the lead prediction (malignant renovascular hypertension). The table below lists publications retrieved for the related predictions, and none of them directly supports the lead indication.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2924690](https://pubmed.ncbi.nlm.nih.gov/2924690/) | 1989 | Randomised crossover study (16 patients; classified as review) | Dtsch Med Wochenschr | Hydrochlorothiazide plus triamterene compared with a digitalis glycoside in chronic heart failure. Relevant to heart failure in general, not pulmonary heart disease specifically. |
+| [1916562](https://pubmed.ncbi.nlm.nih.gov/1916562/) | 1991 | Clinical study | Fortschr Med | Fixed verapamil/triamterene/hydrochlorothiazide combination in 12 patients with chronic heart failure lowered blood pressure and heart rate over four weeks. Combination therapy, so triamterene's own effect cannot be isolated. |
+| [2766837](https://pubmed.ncbi.nlm.nih.gov/2766837/) | 1989 | Case report | Chest | Low-pressure pulmonary oedema after a triamterene-hydrochlorothiazide tablet, thought to be due to the hydrochlorothiazide component. This is a safety signal, not efficacy evidence. |
+| [5639361](https://pubmed.ncbi.nlm.nih.gov/5639361/) | 1968 | Preclinical (animal physiology) | J Physiol | Study of electrical potential across rat colon mucosa. Unrelated to the predicted indication. |
 
 ---
 
 ## UK Market Information
 
-Triamterene has no UK marketing authorisation on record in this evidence pack (market status: **Not Marketed**; total licences: **0**). No product-level dosage form or approved indication text is currently available to summarise here.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0202030W0AAAAAA | Triamterene capsule 50 mg | Capsule | Not stated in the data compiled for this report |
+
+Please check the product's SmPC and the BNF classification for the licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge-graph associations, not label text):** the TxGNN knowledge graph links triamterene to contraindications in the following groups. These should be verified against the SmPC.
+- **Renal:** kidney disease, anuria, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
+- **Hepatic:** liver failure, liver disease, hepatic coma, hepatic encephalopathy
+- **Metabolic and endocrine:** diabetes mellitus (type 1 and type 2), diabetic ketoacidosis, gout, hyperuricaemia, hyperparathyroidism, hypercalcaemia, acidosis, lactic acidosis
+- **Other:** pancreatitis, gallbladder disease, systemic lupus erythematosus, folic acid deficiency anaemia, neonatal jaundice
 
-> **Note:** The evidence pack flags TFDA/MHRA-equivalent labelling warnings and contraindications as a **Blocking** data gap (DG001), meaning formal safety screening (S1 stage) cannot proceed until this is resolved. In addition, the mechanistic rationale for the top prediction raises a specific concern about hyperkalaemia risk when potassium-sparing diuretics are used in patients with renovascular disease and reduced renal function — this should be treated as a safety signal requiring clinical review, not merely a data gap.
+**Drug Interactions:** 100 interactions were recorded. Those retrieved include:
+- **Major:** potassium citrate (risk of hyperkalaemia)
+- **Moderate:** metformin, canagliflozin, dapagliflozin, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, bupropion, morphine, dronabinol, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes
+- **Minor:** famotidine, ranitidine, cimetidine, doxycycline, minocycline
 
----
-
-## Other Predicted Indications from This Evidence Pack
-
-This evidence pack scored six candidate indications for Triamterene. For completeness, the other five are summarised below; none currently reach a level of evidence sufficient to support progression beyond a research question.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
-|------|----------------------|-------------|-----------------|-----------------|------|
-| 2 | Malignant hypertensive renal disease | 99.89% | L5 | Hold | Same hyperkalaemia concern as rank 1; no supporting evidence |
-| 3 | Pulmonary hypertension (unclear multifactorial mechanism, WHO Group 5) | 99.88% | L5 | Hold | No mechanistic or evidentiary support |
-| 4 | Pulmonary hypertension due to lung disease and/or hypoxia (WHO Group 3) | 99.88% | L4 | Research Question | Literature is largely hypoxia/oncology basic-science, not diuretic- or Triamterene-specific; diuretics are a guideline-supported class-effect adjunct for right heart volume overload |
-| 5 | Braddock (CHOPS) syndrome | 99.84% | L5 | Hold | No known pathophysiological link; assessed as likely knowledge-graph noise |
-| 6 | Chronic pulmonary heart disease (cor pulmonale) | 99.75% | L4 | Research Question | Literature supports diuretics generally (including triamterene-containing combinations) for volume management in chronic heart failure; not indication-specific trial evidence |
+Hyperkalaemia and renal function monitoring would be essential in any further assessment. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -106,14 +117,13 @@ This evidence pack scored six candidate indications for Triamterene. For complet
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (malignant renovascular hypertension) has no supporting clinical trials or literature (L5, model-score only), and its own mechanistic rationale raises a plausible safety contraindication (hyperkalaemia risk) rather than supporting evidence. Combined with a Blocking data gap on formal drug warnings/contraindications, this candidate does not meet the threshold to proceed.
+The prediction rests on model output alone, with no trials or supporting literature (Evidence Level L5). A diuretic is unlikely to be adequate for a renin-driven condition, and hyperkalaemia and renal risks make triamterene a poor fit for malignant renovascular hypertension. Chronic pulmonary heart disease (L4) is the only related prediction with a plausible indirect link, and it is better framed as a research question.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent product labelling (warnings, contraindications) to resolve the Blocking data gap (DG001)
-- Confirmed mechanism of action from DrugBank or equivalent primary source (DG002)
-- Original licensed indication and regulatory history for Triamterene, to properly frame the "original vs new indication" comparison
-- Clinical or pharmacological assessment of hyperkalaemia risk specifically in renovascular/renal-impaired hypertensive populations before any further consideration of ranks 1–2
-- If pursuing the more plausible volume-management candidates (ranks 4 and 6), Triamterene-specific (rather than class-level) clinical evidence in pulmonary hypertension/cor pulmonale populations
+- Mechanism of action data and a clearer pharmacological rationale for the predicted condition
+- Retrieval of SmPC warnings and contraindications to complete the safety review
+- Controlled clinical evidence in the target population
+- A hyperkalaemia and renal function monitoring plan for any further assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Galantamine
 parent: Model Prediction Only (L5)
-nav_order: 288
+nav_order: 310
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,60 +33,83 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Galantamine is a cholinesterase inhibitor originally used to treat mild-to-moderate Alzheimer's disease dementia. The TxGNN model predicts it may be effective for **Psychogenic Movement Disorders**, but this specific direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph prediction with no corroborating evidence.
+Galantamine is a cholinesterase inhibitor originally used to treat Alzheimer's disease.
+The TxGNN model predicts it may be effective for **psychogenic movement disorders**, but **no clinical trials and no publications** currently support this specific prediction, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (mild-to-moderate dementia) |
-| Predicted New Indication | Psychogenic Movement Disorders |
+| Original Indication | Alzheimer's disease (the UK licence record holds no indication text, so this comes from the knowledge-graph indication list) |
+| Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is currently not available in this evidence pack (marked as a data gap). Based on known pharmacology, galantamine is an acetylcholinesterase inhibitor that also acts as an allosteric potentiator of nicotinic acetylcholine receptors; its efficacy in Alzheimer's disease dementia is well established, and this cholinergic-enhancing action is the presumed basis for the TxGNN model surfacing it against other indications.
+Galantamine is known as an acetylcholinesterase inhibitor and an allosteric modulator of nicotinic acetylcholine receptors. By raising cholinergic signalling in the brain, it may alter the balance between cholinergic and dopaminergic activity in circuits that control movement. Detailed mechanism-of-action data were not available for this report, so this description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications.
 
-However, for this specific predicted indication — psychogenic movement disorders — there is no known cholinergic mechanistic pathway linking galantamine's pharmacology to the condition. The rationale supplied alongside this prediction states explicitly that this is a TxGNN knowledge-graph output only, without any supporting clinical or preclinical evidence. The prediction score is high, but score alone does not establish biological plausibility.
+The link to psychogenic movement disorders is speculative. These conditions are functional in nature, and no data compiled for this report connect cholinergic modulation to their pathophysiology or treatment. The high TxGNN score reflects network-based similarity in the knowledge graph, not demonstrated clinical benefit. Treat the prediction as a hypothesis only.
 
-Notably, the wider batch of TxGNN predictions generated for galantamine does include candidates with a clearer cholinergic-movement rationale (e.g. extrapyramidal/movement disease and tardive dyskinesia — see note below), which have actual trial and literature support. Psychogenic movement disorders, by contrast, sits at the purely speculative end of this drug's prediction set.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## UK Market Information
 
-No UK marketing authorisation is currently recorded for galantamine in this dataset (market status: not marketed; 0 licences held). No product-level licence information is therefore available to tabulate.
+| Marketing Authorisation Number | Product Name |
+|---------|------|
+| 0411000F0AAABAB | Galantamine tablets 8 mg |
+
+The record for this product holds no dosage form, manufacturer or approved indication text. The number is not in the MHRA "PL" format, so the authorisation should be verified against the MHRA register and the BNF entry before any further work.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (these are graph associations, not label text): familial long QT syndrome, atrioventricular block, liver failure and liver disease, kidney disease, epilepsy, asthma (including intrinsic and allergic forms), chronic obstructive pulmonary disease, peptic ulcer disease, duodenal ulcer, gallbladder disease, bladder neck obstruction and pyoureter.
+- **Drug interactions:** 100 interactions were recorded, and the 20 reviewed here included one major and 19 moderate.
+  - **Major:** bupropion.
+  - **Moderate, anticholinergic agents (pharmacodynamic opposition expected):** atropine, hyoscyamine, glycopyrronium, dicyclomine, clidinium and trospium.
+  - **Moderate, others:** the H2 antagonists famotidine, ranitidine and cimetidine, as well as clarithromycin, metronidazole, loperamide, dolasetron, palonosetron, eliglustat, lorcaserin, picosulfuric acid, polyethylene glycol with electrolytes, and sodium sulfate.
+- **Movement-disorder signal:** a 2025 systematic review (PMID 40224553) examined movement disorders associated with cholinesterase inhibitors in Alzheimer's dementia. This suggests galantamine could worsen or induce some movement disorders rather than treat them.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by a TxGNN knowledge-graph score, with no clinical trials, no literature, and no established mechanistic link between cholinergic modulation and psychogenic movement disorders. A blocking data gap (missing MHRA/SmPC warnings and contraindications) also prevents this candidate from entering initial safety screening.
+The prediction has a high model score but no trials, no publications and no established mechanistic link. Related literature raises the possibility that cholinesterase inhibitors may aggravate movement disorders.
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC/PIL data to establish warnings and contraindications (currently blocking)
-- Detailed mechanism of action data from DrugBank
-- Preclinical or mechanistic studies specifically linking cholinergic modulation to psychogenic movement disorders
-- Re-evaluation against alternative predicted indications from the same batch with stronger evidentiary support (see note below)
+- Any clinical or preclinical evidence linking cholinergic modulation to psychogenic movement disorders.
+- Confirmed mechanism-of-action data and a verified MHRA authorisation record, including SmPC warnings and contraindications.
+- A safety assessment covering cardiac conduction, the interactions above and the possible worsening of movement disorders.
 
----
-
-**Note on other TxGNN predictions for galantamine:** This evidence pack contains nine ranked predictions for galantamine. Two others carry materially more evidence than the top-ranked candidate reported above and may warrant separate evaluation: *extrapyramidal and movement disease* (L3, decision stage S1, "Research Question" — supported by two completed Phase 2/4 RCTs and a 2025 systematic review, though evidence is mixed, with some data suggesting AChEIs can induce rather than treat movement disorders) and *lingual-facial-buccal dyskinesia* (L3, S1, "Research Question" — supported by a Phase 3-equivalent RCT, two Cochrane reviews, and a pharmacovigilance study, again with conflicting directionality). Both are more scientifically substantive than the rank-1 prediction covered in this report and are better candidates for further review.
+**Note on other predictions from the same analysis:**
+- Among the other predicted indications, the best-supported is **lingual-facial-buccal dyskinesia** (tardive dyskinesia). It has a randomised, placebo-controlled crossover trial of galantamine in tardive dyskinesia (PMID 17388711) and several Cochrane reviews and meta-analyses of cholinergic drugs (for example PMIDs 29553158 and 15610922). Their findings for galantamine specifically are not established from the data compiled here. It is better treated as a research question for a separate evaluation than as support for the psychogenic movement disorders prediction.
+- The remaining predictions have no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

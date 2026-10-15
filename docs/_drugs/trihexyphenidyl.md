@@ -2,7 +2,7 @@
 layout: default
 title: Trihexyphenidyl
 parent: Model Prediction Only (L5)
-nav_order: 600
+nav_order: 642
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trihexyphenidyl: From Unspecified Original Indication to Attention-Deficit/Hyperactivity Disorder
+# Trihexyphenidyl: From Parkinson Disease to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Trihexyphenidyl is a well-established anticholinergic agent; however, its original indication and mechanism of action are not recorded in the available data for this evaluation. The TxGNN model predicts potential efficacy for **Attention-Deficit/Hyperactivity Disorder (ADHD)**, but this direction is currently supported by only **1 tangentially related publication** and **no registered clinical trials**.
+Trihexyphenidyl is a central anticholinergic (muscarinic antagonist) originally used to treat Parkinson disease and related parkinsonian and dystonic movement disorders.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are **no registered clinical trials** and only **1 loosely related publication** (a cohort study on tics with dystonia, not ADHD treatment), so this is a computational prediction only.
 
 ---
 
@@ -41,23 +42,23 @@ Trihexyphenidyl is a well-established anticholinergic agent; however, its origin
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified — no data available in the current regulatory record |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
+| Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (knowledge-graph indications) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for trihexyphenidyl in this evaluation. Based on general pharmacological classification, trihexyphenidyl is an anticholinergic agent that acts primarily on the extrapyramidal system, modulating the acetylcholine–dopamine balance to relieve dystonia and tremor. This mechanism is fundamentally different from the core pathophysiology proposed for ADHD, which centres on prefrontal dopaminergic and noradrenergic underactivity.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, trihexyphenidyl is a centrally acting muscarinic (M1-preferring) antagonist. It is thought to restore the balance between cholinergic and dopaminergic signalling in the striatum, which underlies its benefit in parkinsonism and dystonia.
 
-The single literature reference supporting this prediction (PMID 21506147) is a case series describing tic disorder associated with dystonia — it does not evaluate trihexyphenidyl's efficacy in ADHD, nor does it discuss ADHD at all. The topical overlap (movement disorder terminology) is therefore likely to reflect proximity in the knowledge graph embedding rather than a genuine treatment signal.
+ADHD is associated with dysregulation of both dopaminergic and cholinergic signalling, so a mechanistic link is conceivable. However, this rationale is speculative. The only retrieved paper describes tics associated with dystonia, a related movement phenotype, and does not test trihexyphenidyl in ADHD.
 
-Given the absence of both a confirmed mechanistic rationale and direct clinical evidence, this prediction should currently be regarded as hypothesis-generating only, not as a basis for clinical or regulatory action.
+There is also a plausible counter-argument: anticholinergic drugs can cause memory impairment and confusion, which may worsen attention in people with ADHD. The high TxGNN score reflects a pattern in the knowledge graph, not clinical proof.
 
 ---
 
@@ -71,13 +72,35 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21506147](https://pubmed.ncbi.nlm.nih.gov/21506147/) | 2011 | Case Series | Movement Disorders | Describes a clinical syndrome of primary tic disorder associated with dystonia; does not evaluate trihexyphenidyl or ADHD directly |
+| [21506147](https://pubmed.ncbi.nlm.nih.gov/21506147/) | 2011 | Cohort | Movement Disorders | Clinical series describing patients with primary tic disorder and persistent dystonia; it characterises the syndrome and does not evaluate ADHD treatment |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409020C0AAADAD | Trihexyphenidyl HCl Tablets 2 mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
+
+The marketing authorisation number above is as recorded in the compiled data and does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Please consult the BNF (antimuscarinic drugs used in parkinsonism) and the current SmPC for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications flagged in the knowledge graph** (derived from drug-disease relationships, not from product label text, and to be confirmed against the SmPC):
+- **Eye:** open-angle glaucoma, angle-closure (closed-angle) glaucoma
+- **Gastrointestinal:** paralytic ileus, achalasia and megaesophagus, hiatus hernia, ulcerative colitis and inflammatory bowel disease, *Clostridium difficile* colitis, necrotizing enterocolitis, gastric ulcer
+- **Genitourinary:** benign prostatic hyperplasia, kidney disease
+- **Cardiovascular and respiratory:** hypertension, hypotension, coronary artery disease, heart conduction disease, sudden cardiac arrest, chronic obstructive pulmonary disease
+- **Neuromuscular:** myasthenia gravis and other neuromuscular junction disease
+- **Other:** liver disease, gallbladder disease
+
+**Drug interactions:** 100 interactions were identified. The two **Major** interactions in the data reviewed are with **potassium chloride** and **potassium citrate** (relevant to gastrointestinal injury with reduced gut motility). Many **Moderate** interactions involve other anticholinergic or gut-slowing agents, including hyoscyamine, atropine, glycopyrronium, dicyclomine, scopolamine, trospium, propantheline, loperamide, morphine, and metoclopramide. Additive anticholinergic effects are the main concern.
+
+**Relevant to the predicted indication:** anticholinergic cognitive effects (memory impairment, confusion) may worsen attention.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -86,14 +109,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (ADHD) is not supported by any direct clinical trial or literature evidence, and the single cited publication is only topically adjacent (tic/dystonia case series), not a treatment study. Mechanism of action data is also unavailable, preventing assessment of biological plausibility. The drug currently has no UK marketing authorisation.
+The prediction rests on a knowledge-graph score alone. There are no clinical trials and no direct literature for ADHD, and the anticholinergic cognitive effects could be counterproductive in this population.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for trihexyphenidyl
-- Confirmed original indication and regulatory history
-- Product label warnings and contraindications (currently a **Blocking**-severity data gap; needed before any safety pre-screening can proceed)
-- Direct clinical or preclinical evidence specifically evaluating trihexyphenidyl in ADHD
-- As a lower-priority research lead: rank 5 (PLA2G6-associated neurodegeneration, score 99.58%, evidence level L4, decision stage S1 — "Research Question") shows a more coherent mechanistic rationale, as dystonia-parkinsonism is a recognised phenotype in this disease group and anticholinergics are used symptomatically in related NBIA disorders. This candidate may warrant closer follow-up despite the lack of drug-specific efficacy data.
+- Retrieval of the full MHRA SmPC and BNF safety data (warnings and contraindications), as the label-based safety data are currently missing
+- Detailed mechanism of action data
+- Preclinical or clinical evidence that muscarinic antagonism improves ADHD symptoms without worsening cognition
+- Verification of the UK marketing authorisation details (number, dosage form, licensed indication)
+- Note: among the other predictions, **PLA2G6-associated neurodegeneration** (L4, "Research Question") has the most plausible symptomatic link, given its overlap with parkinsonism and dystonia. It is supported only by a single case report, so any benefit would be symptomatic rather than disease-modifying.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Telithromycin
 parent: Model Prediction Only (L5)
-nav_order: 558
+nav_order: 599
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Telithromycin: From Unspecified Original Indication to Hyperamylasemia
+# Telithromycin: From Streptococcal Infection to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Telithromycin is a ketolide-class antibacterial; this evidence pack does not record its licensed original indication, and the drug currently holds no UK marketing authorisation. TxGNN's top-ranked prediction links it to **Hyperamylasemia**, but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review found no plausible biological link — this is a model-only signal, not a clinical lead.
-
----
+Telithromycin is a ketolide antibiotic, originally used to treat streptococcal infection and respiratory tract infections such as streptococcal, Mycoplasma pneumoniae and chlamydial pneumonia.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (no UK licence on file) |
+| Original Indication | Streptococcal infection; streptococcal pneumonia; Mycoplasma pneumoniae pneumonia; pneumonia caused by chlamydia |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for telithromycin is not available in this evidence pack (Data Gap DG002, High severity). Telithromycin is generally documented as a ketolide-class antibacterial, structurally related to macrolides, acting by inhibiting bacterial protein synthesis via the 50S ribosomal subunit. No original indication is recorded in this dataset, and the drug has no UK marketing authorisation, so its established therapeutic use cannot be confirmed from the data provided.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Telithromycin is a ketolide antibiotic, a macrolide-related class that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit. Its efficacy in respiratory tract infections is established.
 
-Importantly, the evidence pack's own mechanistic assessment for hyperamylasemia is explicit that **no known mechanistic link exists**: hyperamylasemia is typically associated with pancreatic or salivary gland pathology, which has no plausible connection to an antibacterial's mode of action. The evidence pack itself characterises this as a high-scoring TxGNN association without biological plausibility — consistent with a knowledge-graph artefact rather than a genuine pharmacological signal.
+The link to the predicted indication is weak. Hyperamylasemia is a laboratory finding (raised serum amylase) that may reflect pancreatic or salivary gland pathology. It is not an infection, and an antibacterial has no clear way to treat it. No mechanistic link has been identified, and the very high score (99.90%) is most likely an artefact of the knowledge graph rather than evidence of real efficacy.
 
-By comparison, a lower-ranked prediction in this pack (rank 6, "septicemic plague") at least carries a loose theoretical rationale — ketolide antibacterial activity against gram-negative organisms such as *Yersinia pestis* — supported by one review-level publication (on the related ketolide cethromycin, not telithromycin itself). Even this stronger candidate remains L4/S1 ("Research Question") and is not sufficient to justify progression on its own.
-
----
+Other high-scoring predictions for this drug (for example polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility and monoclonal gammopathy) are also not supported by any mechanism or evidence. The only prediction with a plausible antibacterial rationale is septicemic plague, but the sole supporting publication is a review of a different ketolide (cethromycin), which is indirect evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
-*Note: literature evidence exists elsewhere in this evidence pack for a lower-ranked candidate (rank 6, "septicemic plague" — one review article, PMID 23463743, on the related ketolide cethromycin), but none is attached to the top-ranked prediction (hyperamylasemia) reported here.*
-
----
+Currently no related literature available for hyperamylasemia.
 
 ## UK Market Information
 
-Telithromycin currently holds **no marketing authorisation in the United Kingdom** (0 licences on record). No UK product information (brand name, dosage form, or approved indication text) is available in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501050T0AAAAAA (BNF-style code, not a PL number) | Telithromycin tablets 400 mg | Tablet | Not available |
 
----
+The data compiled for this report show one valid single-ingredient authorisation. Dosage form and approved indication text were not recorded, so please check the current MHRA record and the BNF before relying on this entry.
 
 ## Safety Considerations
 
-Formal SmPC-sourced warnings, contraindications, and drug interaction data are not available in this evidence pack (Data Gap DG001, **Blocking severity** — this alone precludes a formal S1 safety evaluation).
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+- Cardiac: long QT syndrome (including familial), torsades de pointes
+- Hepatic and biliary: liver disease, gallbladder disease, drug-induced liver injury
+- Neuromuscular: myasthenia gravis (including adult-onset), neuromuscular junction disease
+- Gastrointestinal and metabolic: diarrhoeal disease, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, potassium deficiency
 
-However, the evidence pack's own mechanistic rationale narratives (attached to other candidate indications in this pack, not to the top-ranked hyperamylasemia prediction) flag several known safety signals for telithromycin that should inform any future assessment:
+**Drug interactions:** 100 interactions were recorded. Examples of those graded **Major** include:
+- Loperamide
+- Triamcinolone
+- Budesonide
+- Dolasetron
+- Eliglustat
 
-- **Hepatotoxicity**: noted as a reason telithromycin's use has been severely restricted in other markets.
-- **Neuromuscular risk**: a boxed warning for exacerbation of myasthenia gravis is referenced.
-- **Visual disturbances**: diplopia and accommodation difficulties are noted as known adverse effects.
+Many others are graded Moderate, including famotidine, rabeprazole, hydrocortisone, dexamethasone, betamethasone, alosetron, aprepitant, clarithromycin, bisacodyl and saxagliptin.
 
-These are flagged in the evidence pack as reasons for caution, not as supporting evidence for any new indication. Full SmPC/BNF data should be obtained before further evaluation, and any suspected adverse reactions should be reported via the Yellow Card Scheme.
-
----
+Known safety concerns for this drug (hepatotoxicity, exacerbation of myasthenia gravis, visual disturbances, QT prolongation) are a particular worry for any new use. Please also refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (hyperamylasemia) is evidence level L5 — a model prediction with no supporting clinical trials or literature — and the evidence pack's own review found no biological plausibility for the association. Telithromycin is not marketed in the UK, and critical drug-level safety data (SmPC warnings and contraindications) remain a Blocking data gap, which alone prevents progression to a formal safety evaluation (S1).
+The prediction for hyperamylasemia has no clinical trials, no publications and no plausible mechanism, and the drug carries significant cardiac, hepatic and neuromuscular safety concerns. The prediction should not be pursued on the current evidence.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain the SmPC/product label warnings and contraindications for telithromycin from an authoritative source (e.g. MHRA/EMA), given its known hepatotoxicity-related restrictions in other markets.
-- Resolve High-severity data gap DG002: obtain confirmed mechanism of action data via DrugBank.
-- Confirm telithromycin's licensed original indication(s) from an authoritative regulatory source, since none is recorded in this evidence pack.
-- If any candidate is pursued further, reconsider the lower-ranked but mechanistically closer candidate (rank 6, "septicemic plague", L4/S1 "Research Question") rather than the top-ranked but mechanistically implausible hyperamylasemia signal.
-- Given telithromycin's known hepatotoxicity and myasthenia gravis boxed-warning history, any future development would require a full risk-benefit and pharmacovigilance review before proceeding.
+- Mechanism of action data and a credible biological link between telithromycin and raised amylase
+- Any preclinical or clinical evidence specific to telithromycin in the predicted condition
+- Label-level warnings and contraindications from the SmPC and BNF
+- Confirmation of the UK authorisation details (PL number, dosage form, approved indication)
+- A benefit-risk assessment given the QT, hepatic and myasthenia gravis concerns and the large number of interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Riluzole
 parent: Model Prediction Only (L5)
-nav_order: 505
+nav_order: 543
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
+# Riluzole: From Amyotrophic Lateral Sclerosis to Bilateral Parasagittal Parieto-occipital Polymicrogyria
 
 ## One-Sentence Summary
 
-Riluzole is a glutamate antagonist established as the principal pharmacological treatment for amyotrophic lateral sclerosis (ALS), where it modestly prolongs survival by reducing excitotoxic motor neuron death.
-The TxGNN model predicts it may have utility in **Bilateral Parasagittal Parieto-Occipital Polymicrogyria (BPPP)**, a rare structural cortical malformation disorder characterised by epilepsy and cognitive impairment.
-Currently, **0 clinical trials** and **0 publications** directly support this specific repurposing direction, and the recommendation is **Hold**.
-
----
+Riluzole is a glutamate-modulating drug originally used to treat amyotrophic lateral sclerosis (ALS).
+The TxGNN model predicts it may be effective for **bilateral parasagittal parieto-occipital polymicrogyria**, but **no clinical trials and no publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Amyotrophic Lateral Sclerosis (ALS) |
-| Predicted New Indication | Bilateral Parasagittal Parieto-Occipital Polymicrogyria |
+|------|------|
+| Original Indication | Amyotrophic lateral sclerosis |
+| Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (no MHRA licence recorded in current data pack — see note under UK Market Information) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Riluzole's mechanism of action centres on inhibition of pre-synaptic glutamate release via voltage-gated sodium channel blockade, coupled with reduction of NMDA/AMPA receptor-mediated excitatory neurotransmission. This anti-excitotoxic profile forms the basis for its established efficacy in ALS, where glutamate excitotoxicity is a central pathophysiological driver of progressive motor neuron death — a relationship confirmed by the landmark 1994 Phase 3 RCT (Bensimon et al., *NEJM*).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Riluzole is widely understood to reduce glutamate-mediated excitotoxicity, and it is the established disease-modifying treatment for ALS, where it modestly prolongs survival.
 
-Bilateral parasagittal parieto-occipital polymicrogyria is a rare neuronal migration disorder in which abnormal cortical folding creates a structurally malformed parieto-occipital cortex. The primary clinical manifestations are epilepsy and cognitive impairment. A narrow theoretical rationale exists for the TxGNN prediction: cortical hyperexcitability — partly mediated by dysregulated glutamatergic signalling — is recognised as a contributor to the epileptic phenotype associated with cortical malformations. In this limited sense, riluzole's anti-glutamatergic action could theoretically modulate seizure burden.
+Polymicrogyria is a malformation of cortical development. Riluzole's glutamate-modulating activity could plausibly relate to the cortical hyperexcitability seen in such malformations, but this is speculative. No mechanistic link is supported by the data compiled, and the very high TxGNN score is the only basis for the prediction.
 
-Nonetheless, BPPP represents an irreversible structural lesion; no pharmacological agent can reverse the underlying malformation. Riluzole has no established or exploratory role in cortical dysplasia or neuronal migration disorders, and there is no preclinical evidence in relevant animal or cell models. The high TxGNN prediction score most likely reflects a **knowledge graph artefact** — shared network pathways relating to cortical excitability — rather than genuine clinical repurposing feasibility. This prediction should be treated as a computational hypothesis only, with no actionable near-term clinical pathway.
-
----
+For context, other predictions for riluzole that sit closer to its approved use include motor neuron disorders (for example Mills syndrome, monomelic amyotrophy, late-adult-onset lower motor neuron syndrome, and ALS subtypes such as ALS type 22). These are biologically more plausible than the top-ranked prediction, but they also have no trial or literature support for the specific condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the predicted indication of polymicrogyria.
 
----
+The publications retrieved in this analysis relate to a different prediction (an ALS susceptibility entity, which largely duplicates riluzole's existing indication) and are therefore not evidence for this one. They are mainly reviews and mechanistic or association studies of ALS, with no direct treatment evidence for the predicted condition.
 
 ## UK Market Information
 
-The current data pack records riluzole as having **no MHRA marketing authorisations** in the United Kingdom (market status: not marketed; total licences: 0). This is highly likely to represent a **data gap** in the evidence pipeline rather than a true regulatory absence.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409030R0AAAAAA | Riluzole Tablets 50 mg | Not stated | Not stated |
 
-Riluzole (Rilutek® 50 mg film-coated tablets; Teglutik® 5 mg/ml oral suspension) is understood to hold current MHRA product licences for the treatment of ALS in the United Kingdom. NICE technology appraisal **TA20** (2001) recommended riluzole as a treatment option for ALS, and it appears in the BNF under **nervous system — motor neurone disease**. Clinicians should verify current authorisation status directly via the MHRA Product Licence register and retrieve the SmPC before any prescribing or commissioning decision.
-
----
+The licence number shown is not in the usual MHRA "PL" format, and the dosage form and approved indication text were not available in the data compiled. Please verify the authorisation details against the MHRA register, the SmPC and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and conditions of concern (from knowledge-graph drug-disease links, not label text):** neutropenia, agranulocytosis, substance abuse/dependence, hyperbilirubinemia, hereditary hyperbilirubinemia, Gilbert syndrome, interstitial lung disease, and drug-induced liver injury.
 
----
+**Drug Interactions:** 44 interactions were identified. The main ones listed include:
+- **Moderate:** obeticholic acid, naltrexone, deferasirox, osilodrostat, anagrelide, asparaginase (*Escherichia coli*), brentuximab vedotin, clofarabine, methotrexate, epirubicin
+- **Minor:** omeprazole, caffeine, theophylline, aminophylline
+- **Severity not classified:** metformin, simvastatin, ranitidine, cyanocobalamin, salbutamol, ibuprofen
+
+Literature retrieved for this report notes that around half of ALS patients taking oral riluzole 50 mg have ALT above the upper limit of normal, with about 8% above 3× ULN and 2% above 5× ULN, so liver function monitoring is relevant.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Bilateral parasagittal parieto-occipital polymicrogyria is a structural, irreversible cortical malformation with no pharmacologically modifiable underlying pathology. There is no clinical, observational, or preclinical evidence to support riluzole use in this condition, and the L5 evidence classification (model prediction only) precludes any further advancement through the repurposing pipeline without foundational supporting data.
+The prediction has a very high model score but no clinical trials, no supporting literature, no established mechanistic link and no mechanism of action data. It is classed as L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Confirm current MHRA product licence status for riluzole and retrieve the UK SmPC and BNF entry
-- Retrieve formal mechanism of action data from DrugBank (currently not obtained — data gap DG002)
-- Commission or identify preclinical evidence (in vitro cortical hyperexcitability models or relevant animal models of cortical dysplasia) examining riluzole's effect on malformation-associated epilepsy
-- Obtain independent expert neurological review (epilepsy and neurogenetics) to assess whether a structured research question is scientifically warranted before any further resource is committed
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application. Healthcare professionals should refer to the SmPC, BNF, and relevant NICE guidance before making prescribing decisions.*
+- Detailed mechanism of action data for riluzole
+- A literature and trial search specific to polymicrogyria and cortical malformation-related hyperexcitability
+- Preclinical or mechanistic studies supporting a role in cortical malformations
+- Verified UK authorisation details (PL number, dosage form, approved indication) and a full SmPC/BNF safety review
+- Consideration of the more biologically plausible motor neuron disorder predictions as alternative lines of enquiry
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

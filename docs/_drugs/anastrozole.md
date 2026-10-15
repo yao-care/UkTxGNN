@@ -2,7 +2,7 @@
 layout: default
 title: Anastrozole
 parent: High Evidence (L1-L2)
-nav_order: 64
+nav_order: 66
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,99 +29,104 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Anastrozole: From Aromatase Inhibitor to Female Breast Carcinoma
+# Anastrozole: From Hormone Receptor-Positive Breast Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Anastrozole is a third-generation non-steroidal aromatase inhibitor that suppresses oestrogen synthesis by selectively inhibiting CYP19A1, and is established globally as adjuvant endocrine therapy for hormone receptor-positive breast cancer in postmenopausal women.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma**, with **50 registered clinical trials** and **20 publications** currently identified to support this direction.
-This prediction constitutes a high-confidence model validation, as anastrozole's therapeutic role in ER+ breast cancer represents one of the most comprehensively evidenced drug–disease relationships in contemporary oncology.
+Anastrozole is a non-steroidal aromatase inhibitor that lowers oestrogen levels in postmenopausal women. The TxGNN model predicts it may be effective for **female breast carcinoma**, with **30 clinical trials** and **20 publications** compiled for this report. Breast cancer is, however, the established use of anastrozole, so this result recovers a known indication rather than identifying a new one.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not listed in this evidence pack (established globally for adjuvant treatment of hormone receptor-positive breast cancer) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Original Indication | Not recorded in the data compiled for this report |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L1 |
-| UK Market Status | Not listed in this data pack |
-| Number of Marketing Authorisations | 0 (in this data pack) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Anastrozole is a potent and selective inhibitor of CYP19A1 (aromatase), the enzyme responsible for the final step of oestrogen biosynthesis — the conversion of androgens (androstenedione, testosterone) to oestradiol in peripheral tissues, including adipose tissue, muscle, and the tumour microenvironment. In postmenopausal women, this peripheral aromatisation pathway is the dominant source of circulating oestrogen; by blocking it, anastrozole reduces plasma oestradiol concentrations by more than 80%, effectively depriving hormone receptor-positive tumour cells of their primary growth stimulus.
+Anastrozole is a non-steroidal aromatase inhibitor. It blocks the conversion of androgens to oestrogens, which lowers circulating oestrogen in postmenopausal women. Many breast cancers depend on oestrogen to grow, so reducing oestrogen directly targets the disease driver in hormone receptor-positive breast cancer. Detailed mechanism of action data was not available in the data compiled for this report; the description above reflects the drug's well-established pharmacology.
 
-At the cellular level, oestrogen signalling through ERα promotes G1 cell cycle progression via upregulation of cyclin D1 and suppression of p21 and p27. Eliminating this oestrogenic drive inhibits cell cycle entry and promotes apoptosis in ER+ breast cancer cells. The mechanism is direct, the biological rationale is well-established, and the causal chain from enzyme target to clinical outcome is among the most thoroughly validated in oncology — confirmed by decades of preclinical and clinical research.
+The original indication field was empty, so the high TxGNN score reflects the model recovering a known, marketed use. The prediction is mechanistically sound, but it should not be read as a new repurposing opportunity.
 
-The TxGNN prediction for female breast carcinoma is therefore best understood as a model validation result of the highest quality. The knowledge graph has correctly identified one of the most well-characterised drug–disease relationships in modern medicine. The landmark ATAC trial (9,358 patients) demonstrated that anastrozole significantly outperformed tamoxifen as 5-year adjuvant therapy in ER+ postmenopausal breast cancer, and IBIS-II further confirmed its role in chemoprevention in high-risk women. The model's 99.68% prediction score reflects the completeness and biological coherence of this relationship within the TxGNN knowledge graph.
+Other predicted indications (for example neuroblastoma, rhabdomyosarcoma, monocytic leukaemia and myeloid leukaemia) have no clinical trials, no supportive literature and no recognised mechanistic link. They were assessed as Hold, and this report does not evaluate them further.
 
 ---
 
 ## Clinical Trial Evidence
 
+The table lists the most relevant trials (graded A or B for relevance, plus selected large completed Phase 3 studies).
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT00849030](https://clinicaltrials.gov/study/NCT00849030) | Phase 3 | Completed | 9,358 | ATAC trial: anastrozole vs tamoxifen vs combination as 5-year adjuvant therapy in postmenopausal breast cancer; anastrozole demonstrated superior disease-free survival and fewer serious side effects than tamoxifen |
-| [NCT00066573](https://clinicaltrials.gov/study/NCT00066573) | Phase 3 | Completed | 7,576 | Largest head-to-head AI trial (exemestane vs anastrozole) in ER+ primary breast cancer; serves as the benchmark reference for anastrozole efficacy in ER+ disease and is widely cited in clinical guidelines |
-| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Phase 3 | Completed | 4,172 | Letrozole vs anastrozole as 5-year adjuvant therapy in HR+/node-positive postmenopausal breast cancer; direct comparison of the two most widely used non-steroidal AIs |
-| [NCT00556374](https://clinicaltrials.gov/study/NCT00556374) | Phase 3 | Completed | 3,420 | Denosumab vs placebo in non-metastatic breast cancer patients receiving aromatase inhibitor therapy; addresses the key safety concern of AI-associated bone mineral density loss |
-| [NCT00072462](https://clinicaltrials.gov/study/NCT00072462) | Phase 3 | Completed | 2,980 | IBIS-II DCIS: adjuvant anastrozole vs tamoxifen in postmenopausal women following surgery for hormone receptor-positive ductal carcinoma in situ |
-| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Completed | 1,914 | Treatment duration optimisation: 3 vs 6 years of anastrozole following 2–3 years of tamoxifen in postmenopausal ER+ breast cancer; directly informs adjuvant sequencing decisions |
-| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | Completed | 298 | Exemestane vs anastrozole as initial hormonal therapy in postmenopausal advanced/recurrent breast cancer; time to tumour progression as primary endpoint — non-inferiority design |
-| [NCT00256698](https://clinicaltrials.gov/study/NCT00256698) | Phase 3 | Completed | 514 | FACT trial: anastrozole monotherapy vs anastrozole + fulvestrant (maximal oestrogen blockade) in HR+ first-relapse breast cancer; evaluates combination endocrine strategy |
-| [NCT06311383](https://clinicaltrials.gov/study/NCT06311383) | Observational | Completed | 2,610 | Real-world effectiveness of ribociclib + aromatase inhibitor (including anastrozole) vs endocrine monotherapy vs chemotherapy as first-line treatment in HR+/HER2− metastatic breast cancer (Germany); strengthens external validity of RCT data |
-| [NCT01151215](https://clinicaltrials.gov/study/NCT01151215) | Phase 2 | Terminated | 482 | AZD8931 + anastrozole vs anastrozole alone in HR+ endocrine-naïve locally advanced or metastatic breast cancer (MINT study); despite early termination, the 482 patients enrolled provide safety reference data for anastrozole in this setting |
+|---------|------|------|------|---------|
+| [NCT00784680](https://clinicaltrials.gov/study/NCT00784680) | Phase 3 | Completed | 308 | Randomised, double-blind comparison of anastrozole, tamoxifen or both as adjuvant therapy; quality of life was the endpoint |
+| [NCT00327769](https://clinicaltrials.gov/study/NCT00327769) | Phase 3 | Completed | 234 | Fulvestrant 250 mg vs anastrozole 1 mg as second-line therapy in postmenopausal advanced ER-positive breast cancer |
+| [NCT00143390](https://clinicaltrials.gov/study/NCT00143390) | Phase 3 | Completed | 298 | Exemestane vs anastrozole as initial hormonal therapy in advanced or recurrent breast cancer (non-inferiority in time to progression) |
+| [NCT00301457](https://clinicaltrials.gov/study/NCT00301457) | Phase 3 | Completed | 1914 | 6 vs 3 years of adjuvant anastrozole after 2–3 years of tamoxifen |
+| [NCT00300508](https://clinicaltrials.gov/study/NCT00300508) | Phase 3 | Completed | 856 | 3 further years of anastrozole vs no treatment after 5 years of adjuvant hormone therapy |
+| [NCT03425838](https://clinicaltrials.gov/study/NCT03425838) | Phase 3 | Active, not recruiting | 1050 | SONIA study: aromatase inhibitor plus CDK4/6 inhibitor first line vs second line in advanced HR-positive breast cancer |
+| [NCT02246621](https://clinicaltrials.gov/study/NCT02246621) | Phase 3 | Active, not recruiting | 493 | Non-steroidal aromatase inhibitor (anastrozole or letrozole) plus abemaciclib or placebo in HR-positive, HER2-negative advanced breast cancer |
+| [NCT00256217](https://clinicaltrials.gov/study/NCT00256217) | Phase 2 | Completed | 42 | Anastrozole chemoprevention in DCIS and early invasive breast cancer; small study with surrogate endpoints |
+| [NCT04272801](https://clinicaltrials.gov/study/NCT04272801) | Phase 2 | Active, not recruiting | 84 | Pre-operative endocrine therapy in older women to inform radiotherapy decisions |
+| [NCT00728949](https://clinicaltrials.gov/study/NCT00728949) | Phase 2 | Completed | 93 | IMC-A12 (cixutumumab) alone or with antioestrogens after progression on antioestrogen therapy; anastrozole is a partner drug, so evidence is indirect |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | Phase 3 RCT (ATAC landmark trial) | *Lancet* | After 5-year adjuvant therapy, anastrozole significantly prolonged disease-free survival vs tamoxifen (HR 0.87; p=0.01) with fewer distant recurrences and thromboembolic events in ER+ postmenopausal breast cancer — the defining trial establishing anastrozole as standard of care |
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | Phase 3 RCT (chemoprevention) | *Lancet* | IBIS-II long-term follow-up: anastrozole reduced breast cancer incidence by 49% vs placebo over 10 years in high-risk postmenopausal women; the prevention effect persisted well beyond the 5-year treatment period |
-| [26686313](https://pubmed.ncbi.nlm.nih.gov/26686313/) | 2016 | Phase 3 RCT | *Lancet* | IBIS-II DCIS: anastrozole superior to tamoxifen for preventing locoregional and contralateral breast cancer in postmenopausal women with HR+ DCIS (HR 0.49; 95% CI 0.35–0.69) |
-| [28415634](https://pubmed.ncbi.nlm.nih.gov/28415634/) | 2017 | Meta-analysis of RCTs | *Oncotarget* | Systematic meta-analysis confirming anastrozole is superior to tamoxifen in disease-free and distant metastasis-free survival, with lower rates of thromboembolic events and endometrial cancer across multiple trials |
-| [30499075](https://pubmed.ncbi.nlm.nih.gov/30499075/) | 2020 | Meta-analysis | *Pathology Oncology Research* | Meta-analysis of 7 RCTs: endocrine therapy including anastrozole significantly reduces ipsilateral and contralateral breast cancer recurrence after breast-conserving surgery and radiotherapy for DCIS |
-| [34048027](https://pubmed.ncbi.nlm.nih.gov/34048027/) | 2021 | Pharmacogenomics (Phase 3 sub-study) | *Clinical Pharmacology and Therapeutics* | SNP–treatment interaction analysis from MA.27 trial (n=4,465): identifies CSMD1 locus as a genetic factor differentiating anastrozole from exemestane efficacy; supports personalised AI selection |
-| [32701512](https://pubmed.ncbi.nlm.nih.gov/32701512/) | 2020 | Pharmacogenomics / GWAS | *JCI Insight* | Genome-wide association study in MA.27 trial identifies CSMD1 SNP associated with breast cancer-free interval; reveals an additional mechanism of anastrozole action beyond aromatase inhibition, relevant to resistance research |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Review | *Expert Opinion on Drug Safety* | Comprehensive safety and efficacy review of anastrozole; summarises multiple adjuvant RCTs demonstrating superiority over tamoxifen with favourable tolerability profile |
-| [19445563](https://pubmed.ncbi.nlm.nih.gov/19445563/) | 2009 | Review | *Expert Opinion on Pharmacotherapy* | Comparative review of all three third-generation AIs (anastrozole, letrozole, exemestane) in early breast cancer; consistent superiority over tamoxifen demonstrated across all four major adjuvant trial design strategies |
-| [16439860](https://pubmed.ncbi.nlm.nih.gov/16439860/) | 2006 | Review | *Oncology* | Review of anastrozole across the full breast cancer continuum (advanced, early, prevention); documents survival benefit and tolerability advantages from multiple large randomised studies |
+|------|-----|------|------|---------|
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | RCT | Lancet | ATAC trial (9,366 women): anastrozole for 5 years significantly prolonged disease-free survival compared with tamoxifen |
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | RCT | Lancet | IBIS-II long-term results: anastrozole vs placebo for breast cancer prevention in high-risk women |
+| [27908454](https://pubmed.ncbi.nlm.nih.gov/27908454/) | 2016 | RCT | Lancet | FALCON: fulvestrant 500 mg vs anastrozole 1 mg in HR-positive advanced breast cancer with no prior endocrine therapy |
+| [24636210](https://pubmed.ncbi.nlm.nih.gov/24636210/) | 2014 | RCT (companion analysis) | Lancet Oncol | MA.27B: effects of exemestane vs anastrozole on bone mineral density |
+| [42384406](https://pubmed.ncbi.nlm.nih.gov/42384406/) | 2026 | RCT (secondary analysis) | JAMA Surg | NSABP B-35: lumpectomy margins and local recurrence in DCIS treated with adjuvant anastrozole or tamoxifen |
+| [41632158](https://pubmed.ncbi.nlm.nih.gov/41632158/) | 2025 | Cohort | JAMA Netw Open | Comparative outcomes of anastrozole, letrozole and exemestane in postmenopausal breast cancer |
+| [31615937](https://pubmed.ncbi.nlm.nih.gov/31615937/) | 2020 | Phase 2 clinical study | Clin Cancer Res | neoMONARCH: abemaciclib plus anastrozole in the neoadjuvant setting in HR-positive, HER2-negative breast cancer |
+| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Review | Expert Opin Drug Saf | Drug profile of anastrozole as adjuvant therapy; greater efficacy than tamoxifen in several adjuvant trials |
+| [28614542](https://pubmed.ncbi.nlm.nih.gov/28614542/) | 2017 | Review | Rev Assoc Med Bras | Literature review of anastrozole in breast cancer chemoprevention and treatment |
+| [17033446](https://pubmed.ncbi.nlm.nih.gov/17033446/) | 2006 | Case report | Eur J Gastroenterol Hepatol | First reported case of anastrozole-induced hepatotoxicity |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation data for Anastrozole was available in this evidence pack (0 licences recorded; market status listed as "not marketed" in the regulatory data field).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0803041B0AAAAAA | Anastrozole 1 mg tablets | Tablet (1 mg) | Not recorded in the data compiled for this report |
 
-Anastrozole (brand name Arimidex, AstraZeneca) is in practice an established medicine in the United Kingdom, holding MHRA marketing authorisations for the adjuvant treatment of hormone receptor-positive early invasive breast cancer and first-line treatment of advanced breast cancer in postmenopausal women. It is listed in the British National Formulary (BNF) as an aromatase inhibitor and has been evaluated by NICE (Technology Appraisal TA112). The absence of licensing records in this evidence pack represents a data population gap and should not be read as indicating a lack of UK regulatory approval. Reviewers should consult the current MHRA-approved SmPC and BNF directly to confirm licensed indications and prescribing conditions before any clinical decision is made.
+The data compiled for this report contain one valid single-ingredient authorisation. The dosage form and approved indication fields were blank, and the identifier shown is not in standard PL number format, so it should be verified against the MHRA register.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted endocrine therapy — non-steroidal aromatase inhibitor; **not** a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (aromatase inhibitors do not cause bone marrow suppression; routine haematological monitoring is not required for this reason) |
-| Emetogenicity Classification | Minimal (oral tablet formulation; very low emetogenic risk) |
-| Monitoring Items | Bone mineral density (DEXA scan at baseline and at regular intervals during treatment); liver function tests; serum lipids; musculoskeletal symptoms (arthralgia, myalgia — common class effect requiring clinical review) |
-| Handling Protection | Standard pharmaceutical precautions apply; specialist cytotoxic handling and preparation protocols are not required for this drug class |
+|------|------|
+| Cytotoxicity Classification | Endocrine therapy (non-steroidal aromatase inhibitor); not a conventional cytotoxic |
+| Myelosuppression Risk | Low; please refer to the SmPC warnings and precautions |
+| Emetogenicity Classification | Low; please refer to the SmPC warnings and precautions |
+| Monitoring Items | Please refer to the SmPC warnings and precautions. Bone mineral density and liver function are relevant given the data below |
+| Handling Protection | Please refer to the SmPC warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (knowledge graph signal, not label text):** the TxGNN knowledge graph links anastrozole to myocardial ischaemia and coronary artery disease. Cardiovascular risk should be assessed before use.
+- **Bone health:** a completed study (NCT00421447) and the MA.27B analysis (PMID 24636210) address bone density and muscle changes with aromatase inhibitors.
+- **Liver:** a published case report describes anastrozole-induced hepatotoxicity (PMID 17033446).
+- **Drug interactions:** 100 potential interactions were identified, but severity grading was unavailable. Examples include bupropion, pantoprazole, omeprazole, glimepiride, metformin, morphine, simvastatin, prednisolone and acetylsalicylic acid.
 
-Known class effects of aromatase inhibitors — including musculoskeletal symptoms (arthralgia, myalgia), accelerated bone mineral density loss (increased long-term fracture risk), and lipid profile changes — should be reviewed in the current MHRA-approved SmPC before any prescribing decision.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -130,15 +135,15 @@ Known class effects of aromatase inhibitors — including musculoskeletal sympto
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN prediction for female breast carcinoma is supported by Level 1 evidence of exceptional strength: multiple completed Phase 3 RCTs including the landmark ATAC trial (9,358 patients), long-term chemoprevention data from IBIS-II (10-year follow-up), and a body of meta-analyses — collectively establishing anastrozole as a standard-of-care aromatase inhibitor in hormone receptor-positive breast cancer. The drug's mechanism of CYP19A1 inhibition directly addresses the oestrogen-driven growth of ER+ tumour cells, and the evidence chain from molecular target to clinical outcome is one of the most complete in oncology.
+Multiple completed Phase 3 randomised trials, including ATAC and FALCON, support anastrozole in hormone receptor-positive breast cancer, giving evidence level L1. However, this is an established indication rather than true repurposing, and the label-based safety data and the UK indication text are missing.
 
 **To proceed, the following is needed:**
-
-- Population of UK MHRA marketing authorisation records within this evidence pack (anastrozole is expected to hold current MHRA licences for breast cancer indications; their absence here reflects a data gap rather than a true regulatory void)
-- Full SmPC safety data including current warnings, contraindications, and drug–drug interactions (particularly interactions with CYP enzyme inducers/inhibitors and oestrogen-containing products)
-- Completion of mechanism of action (MOA) data integration from DrugBank
-- Bone health monitoring protocol established at prescribing initiation: DEXA scan at baseline and annually during treatment given well-documented AI-associated bone mineral density loss
-- Review of current NICE guidance (TA112 and any subsequent appraisals) and applicable MHRA communications to confirm up-to-date licensed indications and any relevant safety communications before clinical use
+- Confirmation of the MHRA-approved indication, dosage form and PL number for the authorisation
+- SmPC and BNF warnings and contraindications, so label-based safety screening can be completed
+- Detailed mechanism of action data
+- Severity grading of the drug interactions identified
+- A cardiovascular and bone health monitoring plan, given the knowledge graph signal and the bone density data
+- If the aim is genuine repurposing, re-run the analysis with the original indications populated, since the other predicted indications (rank 2 onwards) have no supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

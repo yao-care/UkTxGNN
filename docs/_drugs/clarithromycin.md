@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: Model Prediction Only (L5)
-nav_order: 168
+nav_order: 176
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-Using the evidence pack provided, here is the evaluation report.
-
----
-
-# Clarithromycin: From Bacterial Infection to Polyclonal Hyperviscosity Syndrome
+# Clarithromycin: From Respiratory and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibacterial; the specific original indication text was not captured in this evidence pack, and detailed mechanism-of-action data is also missing. The TxGNN model predicts a possible link to **Polyclonal Hyperviscosity Syndrome**, but **no clinical trials and no literature** currently support this specific pairing — this is a model-only signal that requires substantial further validation before any clinical consideration.
+Clarithromycin is a macrolide antibiotic, originally used for bacterial infections such as pneumonia, otitis media, sinusitis and streptococcal or staphylococcal infections.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are currently **no clinical trials** and **no publications** supporting this direction. The prediction rests on the computational score alone.
 
 ---
 
@@ -45,23 +42,32 @@ Clarithromycin is a macrolide antibacterial; the specific original indication te
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack — original indication text was not captured (Clarithromycin is a macrolide antibacterial; confirm exact licensed wording via SmPC) |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
+| Original Indication | Bacterial infections, including infectious otitis media, bacterial pneumonia, maxillary sinusitis, and streptococcal and staphylococcal infections (the MHRA licence record compiled for this report contains no indication text, so these come from the knowledge-graph indication data) |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (no current MHRA marketing authorisation on record) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Clarithromycin is not available in this evidence pack. Based on general pharmacological knowledge, Clarithromycin is a macrolide-class antibacterial with established antibacterial and immunomodulatory activity (including suppression of pro-inflammatory cytokines); however, no confirmed molecular pathway links it to Polyclonal Hyperviscosity Syndrome in the data reviewed.
+Detailed mechanism of action data is not available for this report. Clarithromycin is a macrolide antibiotic whose efficacy in respiratory and other bacterial infections is established. Macrolides are also known to have immunomodulatory and anti-inflammatory properties, such as effects on cytokine production and on B-cell and plasma-cell activity.
 
-Polyclonal Hyperviscosity Syndrome results from excessive polyclonal immunoglobulin production causing increased blood viscosity, and is typically seen in autoimmune disease, chronic infection, or HIV-related conditions. Clarithromycin's antibacterial and anti-inflammatory mechanisms have no direct known relationship to the plasma-cell/B-cell immunoglobulin overproduction that underlies this condition.
+Polyclonal hyperviscosity syndrome arises from raised levels of immunoglobulins. In theory, an immunomodulatory effect on antibody-producing cells could be relevant. However, this link is **speculative**. No retrieved data support a direct mechanistic connection, and the high score is a network-based computational prediction only.
 
-Any plausible effect would most likely be **indirect** — for example, by controlling an underlying chronic infection that is itself driving polyclonal immunoglobulin production — rather than a direct pharmacological effect on the disease process. The evidence pack itself characterises this link as speculative and lacking specific molecular mechanistic support. This should be regarded as a low-confidence, hypothesis-generating signal only.
+Other predictions for this drug are also weak:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Hyperamylasemia | 99.35% | L5 | A single case report of a *M. abscessus* lung infection with macroamylasemia; clarithromycin was likely used for the infection, not the enzyme abnormality |
+| Congenital analbuminemia | 99.21% | L5 | A genetic defect in albumin synthesis; no plausible mechanism |
+| Punctate epithelial keratoconjunctivitis | 99.11% | L4 | Plausible indirect link via the anti-inflammatory effects of macrolides in meibomian gland disease; no clarithromycin-specific evidence |
+| Blood group incompatibility | 99.07% | L5 | No mechanistic link; interaction concerns with transplant immunosuppressants |
+
+Of these, punctate epithelial keratoconjunctivitis has the most biologically coherent rationale and may merit a closer look as a research question.
 
 ---
 
@@ -73,21 +79,50 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
+
+For the lower-ranked predictions, two publications were retrieved:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38472959](https://pubmed.ncbi.nlm.nih.gov/38472959/) | 2024 | Retrospective observational study | Diagnostics (Basel) | Features and treatment outcomes of keratoepitheliopathy in meibomitis-related keratoconjunctivitis (27 eyes, 18 patients); relevant to punctate epithelial keratoconjunctivitis, but clarithromycin-specific efficacy is not confirmed |
+| [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/) | 2004 | Case report | Nihon Kokyuki Gakkai Zasshi | *M. abscessus* lung infection complicated by primary macroamylasemia; relevant to hyperamylasemia only incidentally |
 
 ---
 
 ## UK Market Information
 
-Clarithromycin currently holds **no MHRA marketing authorisation** in this dataset (market status: Not marketed; 0 licences on record). No product-level UK licensing details (PL numbers, product names, dosage forms) are available to report.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501050B0AAAAAA | Clarithromycin Tab 250 mg | Tablet | Not available in the compiled data |
+
+This is a single-ingredient product with valid status. The identifier above is in a BNF-style code format rather than a standard PL number, so it should be verified against the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and cautions from knowledge-graph data** (these come from drug-disease relationships, not product label text, and should be checked against the SmPC):
 
-*Note: key warnings, contraindications and drug-interaction data were not available in this evidence pack. Retrieval of product warning/contraindication data (via SmPC) is flagged as a **Blocking** data gap (DG001) that must be resolved before any formal safety pre-assessment can proceed.*
+- **Cardiac:** long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic polymorphic and incessant infant forms)
+- **Hepatic and biliary:** liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease
+- **Metabolic:** porphyria (inherited porphyria and porphyrin metabolism disease)
+- **Renal:** kidney disease, pyoureter
+- **Neuromuscular:** myasthenia gravis (including adult-onset), neuromuscular junction disease
+- **Gastrointestinal:** *Clostridium difficile* colitis, perinatal necrotising enterocolitis
+- **Bone:** osteoporosis, postmenopausal osteoporosis, bone fracture
+- **Infectious:** infectious mononucleosis, chronic Epstein-Barr virus infection syndrome
+
+**Drug Interactions:** The interaction query returned 100 interactions in total. Examples of those rated **Major** include:
+- Abemaciclib
+- Fentanyl
+- Acalabrutinib
+
+Examples rated **Moderate** include paclitaxel, tramadol, famotidine, formoterol, nifedipine, adenosine, trastuzumab emtansine, flunisolide, afatinib, ethinylestradiol, hydrocortisone, abametapir (topical), abiraterone and acarbose. Minor interactions include dolutegravir, zidovudine and loratadine.
+
+Clarithromycin is a strong CYP3A4 and P-gp inhibitor, which is the likely basis for many of these interactions.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,23 +131,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication (Polyclonal Hyperviscosity Syndrome) is supported only by the TxGNN model score (Evidence Level L5) — there are no clinical trials or literature connecting Clarithromycin to this condition, and the proposed mechanistic link is explicitly characterised as speculative.
-- A **Blocking** data gap (missing product warnings/contraindications, DG001) currently prevents this candidate from entering a formal safety pre-assessment (S1), and mechanism-of-action data (DG002) is also missing, limiting confidence in the mechanistic rationale.
-- Clarithromycin is not currently marketed in the UK per the data reviewed, removing the option of near-term off-label use under an existing authorisation.
+The prediction for polyclonal hyperviscosity syndrome rests on a computational score alone (L5), with no trials, no literature and no supported mechanistic link. The other top-ranked predictions are similarly unsupported, and the extensive interaction and cardiac contraindication profile raises the bar for any new use.
 
 **To proceed, the following is needed:**
-- SmPC-derived warnings and contraindications for Clarithromycin (resolves Blocking gap DG001)
-- Confirmed mechanism-of-action data from DrugBank (resolves High-priority gap DG002)
-- Independent preclinical or clinical evidence directly linking Clarithromycin to the pathophysiology of Polyclonal Hyperviscosity Syndrome
-- Confirmation of the original licensed indication text and current UK marketing-authorisation status
-
----
-
-### Supplementary Note: Other Candidates in This Evidence Pack
-
-This evidence pack contains four additional TxGNN-predicted indications for Clarithromycin, ranked 2–5. Most (Hyperamylasemia, Congenital Analbuminemia, Blood Group Incompatibility) are similarly Evidence Level L4–L5 with weak or incidental supporting data and a "Hold" recommendation.
-
-One candidate stands out: **Punctate Epithelial Keratoconjunctivitis** (rank 4, TxGNN score 99.11%) reached decision stage **S1 ("Research Question")** rather than S0/Hold. Its rationale notes that macrolide-class antibacterials (e.g., azithromycin, doxycycline) already have precedent for treating meibomitis-related keratoconjunctivitis via anti-inflammatory effects on the meibomian glands, and one supporting publication (PMID 38472959) discusses meibomitis-related keratoconjunctivitis treatment outcomes — though it is not yet confirmed whether that study used Clarithromycin specifically or a related macrolide (a class-effect distinction that needs full-text verification). This candidate may warrant separate, closer follow-up ahead of the primary candidate discussed above.
+- Mechanism of action data, to allow proper mechanistic analysis
+- Product label information (indications, warnings, contraindications) for the UK authorisation, as the current record is incomplete
+- A targeted literature search on macrolide immunomodulation in hypergammaglobulinaemic states
+- Consideration of punctate epithelial keratoconjunctivitis as a separate research question, supported by clarithromycin-specific ocular data
+- Preclinical or early-phase evidence before any clinical development is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

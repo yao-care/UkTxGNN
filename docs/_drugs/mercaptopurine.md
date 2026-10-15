@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: High Evidence (L1-L2)
-nav_order: 365
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 394
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,128 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Using the report already-specified template directly (no additional coding/debugging skill applies here — this is a content-generation task matching the system prompt's own detailed spec).
-
-# Mercaptopurine: From Acute Lymphoblastic Leukaemia (established use) to Myeloid Leukemia
+# Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
 
 ## One-Sentence Summary
 
-Mercaptopurine is a thiopurine antimetabolite long established as a backbone maintenance agent for acute lymphoblastic leukaemia (ALL); this dataset does not hold a formal UK-licensed indication record for it.
-The TxGNN model predicts it may be effective for **Myeloid Leukemia (AML/APL)**,
-with **28 clinical trials** and **20 publications** currently associated with this direction, several of which already use mercaptopurine directly within AML/APL maintenance regimens.
+Mercaptopurine is a purine antimetabolite, originally used to treat acute lymphoblastic leukaemia (ALL) and acute promyelocytic leukaemia.
+The TxGNN model predicts it may be effective for **myeloid leukaemia**,
+with **15 clinical trials** and **20 publications** currently linked to this direction. However, mercaptopurine is almost always given within multi-agent regimens in these studies, so its individual contribution cannot be separated out.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded as a licensed UK indication in this dataset; internationally recognised standard use is maintenance therapy for acute lymphoblastic leukaemia (ALL) |
-| Predicted New Indication | Myeloid Leukemia |
+| Original Indication | Acute lymphoblastic leukaemia (from the knowledge graph; no approved indication text is available for the UK licence) |
+| Predicted New Indication | Myeloid leukaemia |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed (no licence on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (see note below) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
+
+*Note on evidence level:* several Phase 3 trials in acute promyelocytic leukaemia (APL) and acute myeloid leukaemia (AML) include mercaptopurine only as part of a combination regimen. They do not test it on its own. Under the grading rules this supports L2 at most, and the decision below is deliberately cautious.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, mercaptopurine is a purine antimetabolite (thiopurine class) that is incorporated into DNA as thioguanine nucleotides, disrupting purine synthesis and halting proliferation of rapidly dividing haematopoietic cells. Its efficacy as a maintenance-phase agent in acute lymphoblastic leukaemia is well proven.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, mercaptopurine is a purine antimetabolite. It is converted into thioguanine nucleotides (TGNs), which are incorporated into DNA and inhibit de novo purine synthesis. This acts on rapidly dividing blast cells.
 
-Myeloid and lymphoid leukaemias share the same underlying vulnerability — malignant clones with high proliferative turnover that are sensitive to antimetabolite interference with nucleotide synthesis. Notably, this is not a purely theoretical extrapolation: several completed Phase 3 trials in the evidence pack (e.g. NCT00003934, NCT00599937, NCT00866918, NCT02688140, NCT00482833) already incorporate mercaptopurine directly into ATRA-based maintenance regimens for acute promyelocytic leukaemia (APL), a recognised subtype of AML. This existing, evidence-based practice substantially strengthens the mechanistic plausibility of the TxGNN prediction for myeloid leukaemia more broadly.
+Acute lymphoblastic leukaemia and myeloid leukaemia are both acute leukaemias driven by proliferating blasts, so a shared antimetabolite mechanism is plausible. Acute promyelocytic leukaemia, a subtype of AML, is also listed among the drug's original indications in the knowledge graph. Published myeloid-disease experience includes oral mercaptopurine/methotrexate maintenance in transplant-ineligible AML, ALL-like consolidation in childhood AML, and APL maintenance regimens.
+
+The main limitation is that nearly all of this evidence is regimen-level. The independent benefit of mercaptopurine in myeloid leukaemia has not been established.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Completed | 420 | Tretinoin + chemotherapy ± arsenic trioxide as consolidation, then maintenance with intermittent tretinoin ± mercaptopurine/methotrexate, in untreated APL |
-| [NCT00599937](https://clinicaltrials.gov/study/NCT00599937) | Phase 3 | Completed | 576 | Assessed optimal timing of chemotherapy with/after ATRA and role of maintenance therapy in APL |
-| [NCT00866918](https://clinicaltrials.gov/study/NCT00866918) | Phase 3 | Completed | 106 | Risk-adapted therapy with arsenic trioxide during consolidation for newly diagnosed childhood APL |
-| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Phase 3 | Completed | 135 | ATO + ATRA + idarubicin vs standard AIDA regimen in high-risk APL |
-| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Phase 3 | Completed | 276 | ATO + ATRA vs standard ATRA/anthracycline (AIDA) in non-high-risk APL |
-| [NCT00962767](https://clinicaltrials.gov/study/NCT00962767) | Phase 3 | Completed | 168 | Two-dose gemtuzumab ozogamicin vs 2-year ATRA + chemotherapy maintenance in intermediate/high-risk APL |
-| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Completed | 105 | S0521: maintenance vs observation in previously untreated low/intermediate-risk APL |
-| [NCT00700544](https://clinicaltrials.gov/study/NCT00700544) | Phase 3 | Completed | 330 | Addition of androgen therapy during post-remission maintenance in elderly AML (GOELAMS SA-2002) |
-| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Phase 3 | Completed | 238 | Comparison of two multi-agent chemotherapy regimens with different cytarabine dosing in newly diagnosed AML/MDS |
-| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Recruiting | 48 | Hydroxyurea + valproic acid, or 6-mercaptopurine + valproic acid, in AML/HR-MDS patients unfit for standard induction |
+| [NCT02521493](https://clinicaltrials.gov/study/NCT02521493) | Phase 3 | Active, not recruiting | 280 | Risk-stratified chemotherapy for AML in Down syndrome; mercaptopurine's contribution not isolated |
+| [NCT00003934](https://clinicaltrials.gov/study/NCT00003934) | Phase 3 | Completed | 420 | Tretinoin plus chemotherapy, with or without arsenic trioxide, then maintenance with tretinoin versus tretinoin plus mercaptopurine and methotrexate in untreated APL |
+| [NCT00492856](https://clinicaltrials.gov/study/NCT00492856) | Phase 3 | Completed | 105 | SWOG S0521: maintenance versus observation in low/intermediate-risk APL |
+| [NCT00002701](https://clinicaltrials.gov/study/NCT00002701) | Phase 3 | Unknown | 750 | ATRA plus idarubicin, with randomised maintenance in APL according to minimal residual disease |
+| [NCT00136084](https://clinicaltrials.gov/study/NCT00136084) | Phase 3 | Completed | 238 | Two multi-agent regimens with different cytarabine doses in newly diagnosed AML or myelodysplasia |
+| [NCT06199557](https://clinicaltrials.gov/study/NCT06199557) | Phase 1/2 | Recruiting | 48 | Hydroxyurea or 6-mercaptopurine, each with valproic acid, in AML or high-risk MDS patients unfit for standard therapy |
+| [NCT05506332](https://clinicaltrials.gov/study/NCT05506332) | Phase 1 | Recruiting | 10 | ApoAML: venetoclax plus 6-mercaptopurine in relapsed/refractory AML |
+| [NCT02688140](https://clinicaltrials.gov/study/NCT02688140) | Phase 3 | Completed | 133 | Arsenic trioxide plus ATRA and idarubicin versus AIDA in high-risk APL; indirect relevance |
+| [NCT00866918](https://clinicaltrials.gov/study/NCT00866918) | Phase 3 | Completed | 106 | Risk-adapted treatment of childhood APL with arsenic trioxide during consolidation |
+| [NCT00482833](https://clinicaltrials.gov/study/NCT00482833) | Phase 3 | Completed | 276 | Arsenic trioxide plus ATRA versus AIDA in non-high-risk APL |
+
+Most of these trials test other agents or regimen variables. Only NCT06199557 and NCT05506332 use mercaptopurine as a defined study drug in myeloid disease, and both are small early-phase studies.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Clinical study | J Korean Med Sci | Oral maintenance chemotherapy with daily 6-MP and weekly methotrexate improved leukaemia-free survival in transplant-ineligible AML |
-| [10497848](https://pubmed.ncbi.nlm.nih.gov/10497848/) | 1999 | RCT | Int J Hematol | JALSG-AML92: randomised trial found no benefit from adding etoposide to daunorubicin/cytarabine/6-MP induction in adult AML |
-| [8174198](https://pubmed.ncbi.nlm.nih.gov/8174198/) | 1994 | RCT | Cancer Chemother Pharmacol | Nationwide randomised comparison of daunorubicin vs aclarubicin combined with BHAC, 6-MP and prednisolone in untreated AML |
-| [8558199](https://pubmed.ncbi.nlm.nih.gov/8558199/) | 1996 | RCT | J Clin Oncol | Japan Leukemia Study Group randomised trials of BHAC vs cytarabine (± ubenimex) in induction/consolidation/maintenance AML |
-| [9095207](https://pubmed.ncbi.nlm.nih.gov/9095207/) | 1997 | Pilot study | Cancer Invest | High-dose continuous IV 6-MP plus intermediate-dose cytarabine explored as first-remission consolidation in childhood AML |
-| [1793832](https://pubmed.ncbi.nlm.nih.gov/1793832/) | 1991 | Cohort study | Int J Hematol | Intensive individualised induction with BHAC, daunorubicin and 6-MP achieved 71% CR in adult AML |
-| [1657335](https://pubmed.ncbi.nlm.nih.gov/1657335/) | 1991 | Cohort study | Chin Med J (Free China) | Cytarabine, daunorubicin and 6-MP induction/consolidation in 34 adult AML patients |
-| [24492035](https://pubmed.ncbi.nlm.nih.gov/24492035/) | 2014 | Review | Rinsho Ketsueki | Overview of current therapy for AML and APL (Japanese) |
-| [4518586](https://pubmed.ncbi.nlm.nih.gov/4518586/) | 1973 | Cohort study | Cancer | Cytarabine in combination with 6-MP for adult AML |
-| [265178](https://pubmed.ncbi.nlm.nih.gov/265178/) | 1977 | Case series | Blood | Sequential subcutaneous cytarabine and oral mercaptopurine showed haematologic response in juvenile chronic myeloid leukaemia |
+| [26425037](https://pubmed.ncbi.nlm.nih.gov/26425037/) | 2015 | Cohort | J Korean Med Sci | Oral 6-MP plus methotrexate maintenance for 2 years in transplant-ineligible AML |
+| [38828002](https://pubmed.ncbi.nlm.nih.gov/38828002/) | 2024 | Cohort | Ther Adv Hematol | Intensive chemotherapy with dual induction and ALL-like consolidation in childhood AML (China) |
+| [27275453](https://pubmed.ncbi.nlm.nih.gov/27275453/) | 2016 | Pilot study | South Asian J Cancer | Metronomic oral 6-MP in elderly AML |
+| [32459546](https://pubmed.ncbi.nlm.nih.gov/32459546/) | 2020 | Retrospective | Pediatr Hematol Oncol | Sequential cytarabine and 6-MP in juvenile myelomonocytic leukaemia |
+| [22715121](https://pubmed.ncbi.nlm.nih.gov/22715121/) | 2012 | Phase 2 trial | Blood | ATRA, idarubicin and arsenic trioxide as initial APL therapy (APML4) |
+| [12057059](https://pubmed.ncbi.nlm.nih.gov/12057059/) | 2000 | Review | Curr Treat Options Oncol | APL treatment overview |
+| [2676034](https://pubmed.ncbi.nlm.nih.gov/2676034/) | 1989 | Review | Blood Rev | Purine metabolism as a target for leukaemia chemotherapy |
+| [3513537](https://pubmed.ncbi.nlm.nih.gov/3513537/) | 1986 | Clinical study | Am J Clin Oncol | Hydroxyurea with 6-MP in chronic granulocytic leukaemia |
+| [28152123](https://pubmed.ncbi.nlm.nih.gov/28152123/) | 2017 | Cohort | JAMA Oncol | Therapy-related myeloid neoplasms after treatment of autoimmune disease (a safety signal) |
+| [34442422](https://pubmed.ncbi.nlm.nih.gov/34442422/) | 2021 | Review | J Pers Med | NUDT15 polymorphisms and thiopurine toxicity |
+
+No randomised trial in this set isolates the efficacy of mercaptopurine in myeloid leukaemia. The available myeloid-specific publications are small cohorts or pilot studies.
+
+---
 
 ## UK Market Information
 
-No UK marketing authorisation is currently on record for mercaptopurine in this dataset (`total_licenses = 0`). Any clinical use in AML/myeloid leukaemia would currently require access via an alternative licensed product, import, or off-label prescribing under specialist supervision, subject to MHRA and local Trust governance.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0801030L0AAAAAA | Mercaptopurine 50 mg tablets | Tablet | Not available in the data compiled for this report |
+
+The data compiled for this report contain one valid single-ingredient authorisation. The identifier shown follows a BNF-style code format rather than a standard MHRA PL number, so please verify the details against the MHRA database and the current SmPC. The record contains no indication text, dosage form or manufacturer, so NICE-appraised indications could not be cross-checked.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (thiopurine/purine antimetabolite) |
-| Myelosuppression Risk | High — dose-limiting toxicity; markedly increased in patients with TPMT or NUDT15 genetic variants, per literature evidence in this evidence pack |
+| Cytotoxicity Classification | Conventional cytotoxic (purine antimetabolite, thiopurine) |
+| Myelosuppression Risk | High. Neutropenia, thrombocytopenia and leukopenia are recognised toxicities; risk is increased in patients with TPMT or NUDT15 variants |
 | Emetogenicity Classification | Low |
-| Monitoring Items | Full blood count (with differential), liver function tests, renal function; consider TPMT/NUDT15 genotype or phenotype testing before/during therapy |
-| Handling Protection | Cytotoxic drug handling precautions apply per local Trust policy, even though oral administration is typical |
+| Monitoring Items | FBC with differential, liver function (including bilirubin), renal function; TPMT/NUDT15 genotyping or phenotyping before starting |
+| Handling Protection | Follow local cytotoxic drug handling procedures. Please refer to the SmPC for details |
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Key Warnings and Contraindications (label text):** Not available in the data compiled for this report. Please refer to the SmPC and BNF.
+- **Conditions flagged in the knowledge graph (not label text):** kidney disease, liver disease, pancreatitis, gallbladder disease, cholestasis (including benign recurrent and familial intrahepatic forms), hyperbilirubinaemia (including Gilbert syndrome), thrombocytopenia, neutropenia, leukopenia, agranulocytosis, anaemia (including macrocytic), pyoureter, and hepatosplenic T-cell lymphoma.
+- **Drug Interactions:** The interaction search returned 100 records. Those with a stated severity of **Moderate** include mesalazine, balsalazide, olsalazine, sulfasalazine and naltrexone. Levofloxacin is **Minor**. Other listed agents (for example prednisone, hydrocortisone, metformin, omeprazole, pantoprazole, lansoprazole, doxycycline, vancomycin, morphine, simvastatin, amphotericin B, calcitriol, rosiglitazone and potassium chloride) have no graded severity. Separately, the literature notes that allopurinol and febuxostat inhibit xanthine oxidase and substantially affect mercaptopurine exposure.
 
-*Supplementary note from literature evidence (not formal safety labelling data):* multiple studies in this evidence pack indicate substantial interindividual variability in mercaptopurine-related myelosuppression and hepatotoxicity linked to TPMT and NUDT15 polymorphisms — this is a recognised prescribing consideration but should be confirmed against the current SmPC.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Evidence level L1 is supported by numerous completed Phase 3 RCTs, several of which already use mercaptopurine directly within AML/APL maintenance regimens, giving strong mechanistic and clinical plausibility. However, a Blocking data gap (MHRA/SmPC warnings and contraindications not available) prevents completion of the initial safety review (S1), so this cannot yet be treated as a cleared repurposing candidate.
+The strongest myeloid evidence comes from multi-agent regimens in which mercaptopurine's own contribution cannot be separated, and the only trials testing it directly are small, early-phase studies. Modern AML and APL standards of care are built around other agents. The label safety data are also missing, and mercaptopurine carries a significant myelosuppression burden. The prediction is a reasonable research question but does not yet justify progression.
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC/PIL data (key warnings, contraindications) to close the Blocking data gap (DG001)
-- Confirmed mechanism of action detail from DrugBank (DG002)
-- Clarification of the original UK-licensed indication and dosage form(s), since no licences are currently on record
-- A pharmacogenomic (TPMT/NUDT15) testing protocol as part of any myeloid leukaemia treatment pathway
-- Route-of-administration compatibility check against required routes for myeloid leukaemia treatment settings
+- Results from the ongoing mercaptopurine-containing early-phase trials (NCT06199557, NCT05506332), or a randomised comparison isolating mercaptopurine's effect in AML or APL maintenance
+- SmPC and BNF warnings and contraindications for the UK-authorised product, plus the licensed indication text for the UK authorisation
+- Confirmation of detailed mechanism of action data
+- A monitoring plan covering TPMT/NUDT15 testing, FBC and liver function, and management of interactions (especially allopurinol and febuxostat)
+
+---
+
+*Other predicted indications:* the data also cover acute lymphoblastic leukaemia and precursor lymphoblastic lymphoma/leukaemia (both L1, Proceed with Guardrails). These are the drug's existing use, not new repurposing findings. The remaining predictions are Hold: small cell lung carcinoma has a 1985 Phase 2 study plus preclinical data, Hodgkin's lymphoma has only non-Hodgkin and ALL trials matched by name, and the other predictions have little or no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

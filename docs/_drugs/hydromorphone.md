@@ -2,7 +2,7 @@
 layout: default
 title: Hydromorphone
 parent: Moderate Evidence (L3-L4)
-nav_order: 303
+nav_order: 325
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Hydromorphone: From Severe Pain Management to Pharyngitis
+# Hydromorphone: From Common Cold to Pharyngitis
 
 ## One-Sentence Summary
 
-Hydromorphone is a potent opioid analgesic (μ-opioid receptor agonist) used for management of moderate-to-severe pain. The TxGNN model predicts it may be effective for **Pharyngitis**, but the 6 clinical trials returned by the evidence search largely involve different drugs (palifermin, methadone) rather than hydromorphone itself, and no supporting literature was identified.
+Hydromorphone is a strong opioid analgesic (mu-opioid agonist). The knowledge graph lists its original indications as common cold and nasopharyngitis.
+The TxGNN model predicts it may be useful for **pharyngitis**, but the **3 linked clinical trials** study post-tonsillectomy pain rather than pharyngitis, and **no publications** were found for this prediction. Evidence is therefore very limited.
 
 ---
 
@@ -41,23 +42,21 @@ Hydromorphone is a potent opioid analgesic (μ-opioid receptor agonist) used for
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (opioid analgesic class use inferred from mechanism notes only) |
+| Original Indication | Common cold; nasopharyngitis (from the knowledge graph; no approved indication text is available for the UK product) |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for hydromorphone is not available in this evidence pack. Based on information within the evidence itself, hydromorphone is a strong μ-opioid receptor agonist providing systemic analgesia; it has no established anti-infective or anti-inflammatory activity.
+Currently, detailed mechanism of action data is not available. Based on known information, hydromorphone is a mu-opioid receptor agonist that acts centrally to relieve pain and suppress cough. Its original indications in the knowledge graph (common cold, nasopharyngitis) are upper respiratory conditions, and pharyngitis is closely related to both.
 
-Pharyngitis is predominantly a viral or bacterial infective/inflammatory condition of the throat. There is no pharmacological pathway by which a systemic opioid analgesic would treat the underlying disease process, only its symptom (pain).
-
-Critically, of the 6 clinical trials returned by the search for this drug–disease pair, only 2 actually involve hydromorphone, and none study hydromorphone as a treatment for pharyngitis — they concern post-tonsillectomy pain control or unrelated conditions (GVHD-associated oral mucositis, foot/ankle surgery anaesthesia). The remaining trials involve palifermin or methadone, not hydromorphone. This pattern suggests the prediction and its associated trial evidence likely arose from a knowledge-graph entity mapping artefact (anatomical overlap with "pharynx"/"throat" terms) rather than a genuine pharmacological signal.
+The link is probably symptomatic only. Hydromorphone has no antimicrobial or anti-inflammatory action against the cause of pharyngitis. The three linked trials involve pain after tonsillectomy, which is surgical pain and not pharyngitis as a disease. The high TxGNN score most likely reflects the closeness of pharyngitis to the cold and nasopharyngitis indications in the network, and not trial data on pharyngitis itself.
 
 ---
 
@@ -65,30 +64,56 @@ Critically, of the 6 clinical trials returned by the search for this drug–dise
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00189488](https://clinicaltrials.gov/study/NCT00189488) | Phase 2 | Completed | 155 | Palifermin (not hydromorphone) vs placebo for acute GVHD/oral mucositis — drug mismatch, not directly relevant |
-| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | Methadone vs fentanyl/hydromorphone for pain after paediatric tonsillectomy — pain control study, not a pharyngitis treatment trial |
-| [NCT00109031](https://clinicaltrials.gov/study/NCT00109031) | Phase 3 | Completed | 47 | Palifermin dosing schedule for oral mucositis prevention — drug mismatch, not directly relevant |
-| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | RCT of hydromorphone vs fentanyl for pain control after tonsillectomy/adenotonsillectomy in children — involves the target drug but addresses post-surgical pain, not pharyngitis as a disease |
-| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | Single-dose intraoperative methadone vs fentanyl/hydromorphone for paediatric tonsillectomy pain — drug and indication mismatch |
-| [NCT02996591](https://clinicaltrials.gov/study/NCT02996591) | Phase 4 | Completed | 36 | Spinal vs general anaesthesia with nerve blocks for foot and ankle surgery — unrelated to pharyngitis or hydromorphone's proposed use |
+| [NCT04230681](https://clinicaltrials.gov/study/NCT04230681) | Early Phase 1 | Completed | 189 | Hydromorphone vs fentanyl for pain after tonsillectomy or adenotonsillectomy in children. The condition is surgical pain, not pharyngitis. |
+| [NCT05244226](https://clinicaltrials.gov/study/NCT05244226) | Phase 2 | Completed | 66 | Short-acting opioids (fentanyl/hydromorphone) vs methadone for paediatric post-tonsillectomy pain. Hydromorphone is not the studied intervention. |
+| [NCT06576830](https://clinicaltrials.gov/study/NCT06576830) | Phase 4 | Recruiting | 440 | Single-dose intraoperative methadone vs short-acting opioids (fentanyl/hydromorphone) in paediatric tonsillectomy. Little relevance to hydromorphone for pharyngitis. |
 
----
-
-## Literature Evidence
-
-Currently no related literature available.
+All three trials were graded as having low relevance (grade C) to this prediction.
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisation is currently recorded for Hydromorphone in this evidence pack (market status: Not marketed; 0 licences on file).
+One valid single-ingredient marketing authorisation is recorded for hydromorphone. The data compiled for this report contain no dosage form or approved indication text for it.
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 040702050AAADAD | Hydromorphone HCl capsule 2.6 mg | Capsule | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge graph drug-disease edges, not label text):** the knowledge graph links hydromorphone with the following conditions, which warrant caution or avoidance:
+- Hepatic and renal: liver failure, liver disease, kidney disease
+- Respiratory and cardiovascular: respiratory failure, hypotensive disorder, sudden cardiac arrest, heart conduction disease
+- Neurological: epilepsy
+- Endocrine: hypothyroidism (including myxedema and congenital hypothyroidism), and adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia)
+- Gastrointestinal: inflammatory bowel disease, ulcerative colitis, constipation, gallbladder disease
+- Genitourinary: benign prostatic hyperplasia, pyoureter
+- Other: substance-related disorder and drug dependence, butyrylcholinesterase deficiency
+
+**Drug Interactions:** 100 interactions were identified. The major-level interactions in the listed results are:
+- Alvimopan
+- Bupropion
+- Morphine
+- Naltrexone
+
+Moderate-level interactions include anticholinergics (hyoscyamine, atropine, glycopyrronium, dicyclomine, trospium), loperamide, eluxadoline, naloxone, cimetidine, cannabinoids (dronabinol, nabilone), 5-HT3 antagonists (dolasetron, palonosetron) and bowel-preparation agents.
+
+For full safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
+
+## Other Predicted Indications (for context)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Allergic urticaria | 99.81% | L5 | No evidence. Opioids can release histamine and cause urticaria, so worsening is more likely than benefit. |
+| Nasal cavity disease | 99.80% | L5 | No evidence and no defined mechanism. |
+| Acute laryngopharyngitis | 99.75% | L5 | No evidence. Central antitussive effect may ease cough but does not treat the underlying condition. |
+| Headache disorder | 99.65% | L3 | The only prediction with a completed trial (NCT02389829, Phase 4, n=127) and published studies. Hydromorphone was less effective than prochlorperazine plus diphenhydramine, and guidelines advise against routine opioid use for acute migraine. This is a real but unfavourable use, not a recommended repurposing. |
+| Trigeminal autonomic cephalalgia | 99.58% | L5 | No evidence. Opioids are not recommended for cluster headache, and established therapies exist. |
 
 ---
 
@@ -97,14 +122,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for using hydromorphone in pharyngitis is not plausible (systemic opioid analgesic vs. an infective/inflammatory throat condition), and the clinical trial evidence returned is largely a mismatch — most trials involve different drugs (palifermin, methadone) or unrelated surgical pain indications rather than hydromorphone treating pharyngitis directly. No supporting literature exists. This pattern is consistent with a knowledge-graph mapping artefact rather than a genuine repurposing signal.
+The pharyngitis prediction rests on a high model score alone. The linked trials address post-tonsillectomy pain, not pharyngitis, and no literature supports it. Hydromorphone also carries significant risks (respiratory depression, dependence, many interactions), which are hard to justify for a usually self-limiting condition with safer symptomatic options.
 
 **To proceed, the following is needed:**
-- MHRA-approved product labelling / SmPC data (DG001, blocking) — required before any safety assessment can proceed
-- Confirmed mechanism of action data from DrugBank (DG002, high priority)
-- A revised, disease-specific literature and trial search to rule out the entity-mapping artefact before further evaluation
-
-**Note:** This evidence pack also contains a considerably stronger repurposing signal elsewhere in the ranked list — hydromorphone for **headache disorder** (rank 5, TxGNN score 99.65%, Evidence Level L2, decision stage S2, "Research Question"), supported by a completed Phase 4 RCT directly comparing hydromorphone to prochlorperazine + diphenhydramine for acute migraine (NCT02389829) and 17 literature records including a 2026 American Headache Society guideline update. Reviewers may wish to prioritise that candidate over pharyngitis for further evaluation, noting that current migraine guidelines position opioids only as a last-resort option due to medication-overuse headache and dependence risk.
+- Trials or literature that directly assess hydromorphone in pharyngitis (not post-surgical pain)
+- Mechanism of action data and a clear rationale beyond symptomatic analgesia
+- Approved indication text, dosage form and SmPC warnings and contraindications for the UK product
+- A benefit-risk assessment against established first-line options for sore throat
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

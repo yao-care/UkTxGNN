@@ -2,7 +2,7 @@
 layout: default
 title: Tropicamide
 parent: Model Prediction Only (L5)
-nav_order: 603
+nav_order: 645
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,32 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tropicamide: From Ophthalmic Mydriasis/Cycloplegia to Cauda Equina Syndrome
+# Tropicamide: From Cycloplegia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Tropicamide is a short-acting antimuscarinic agent used topically in ophthalmology to dilate the pupil and induce cycloplegia for eye examinations.
-The TxGNN model predicts it may be relevant to **Cauda Equina Syndrome**, but currently **no clinical trials and no published literature** support this direction, and the model's own rationale flags the mechanistic link as implausible.
+Tropicamide is a short-acting topical antimuscarinic originally used to produce cycloplegia and pupil dilation for eye examination.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are currently **no registered clinical trials and no publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ophthalmic mydriasis and cycloplegia (topical eye drop use; not confirmed via UK regulatory licensing data, as no licences are currently on file) |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Cycloplegia (the licence record compiled for this report contains no approved indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+Two other predictions were also generated: obsolete neurogenic bladder (99.13%) and irritable bowel syndrome (99.12%). Neither has clinical trial or literature support.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate (blocking data gap, DG002). Based on general pharmacological knowledge, tropicamide is a short-acting M3/M4 muscarinic receptor antagonist administered exclusively as a topical ophthalmic solution; systemic absorption following ocular instillation is minimal.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology records list activity at the M2, M3, M4 and M5 receptors. It is used as a short-acting mydriatic for examining the lens, vitreous humour and retina.
 
-Cauda equina syndrome is a surgical emergency caused by mechanical compression of the nerve roots below the spinal cord conus (e.g. disc herniation, tumour, trauma), requiring urgent decompressive surgery. Its pathology is mechanical, not related to cholinergic signalling. The evidence pack's own mechanistic assessment explicitly states that there is no plausible pharmacological connection between an antimuscarinic eye drop and this condition, and suggests the TxGNN score likely reflects knowledge-graph co-occurrence noise rather than a genuine biological relationship.
+Cauda equina syndrome is caused by compression of the lumbosacral nerve roots and produces bladder, bowel and sensory dysfunction. In theory, anticholinergic action could reduce detrusor overactivity. However, the primary treatment is urgent surgical decompression, and no drug is expected to treat the underlying disease. The high TxGNN score is a graph-based prediction and is probably driven by the shared neurogenic bladder phenotype.
 
-For context, two lower-ranked candidates in this evidence pack (neurogenic bladder and irritable bowel syndrome) do have a class-level rationale — other antimuscarinics (oxybutynin, dicyclomine) are used systemically for these conditions — but tropicamide's ultra-short half-life and topical-only formulation make systemic extrapolation to any of the three predicted indications mechanistically weak, and none is supported by trial or literature evidence.
+The mechanistic case is also weakened by the formulation. Topical ophthalmic tropicamide gives minimal systemic exposure, so it is unlikely to reach the effect on bladder or bowel that systemic antimuscarinics achieve.
+
+For the two other predictions, a class-level rationale exists (antimuscarinics such as oxybutynin and tolterodine for neurogenic detrusor overactivity, and dicyclomine and hyoscyamine for IBS cramping). Established antimuscarinics already cover these needs. The neurogenic bladder term is also flagged as obsolete in the ontology and should be mapped to current terminology (for example, neurogenic detrusor overactivity) before further work.
 
 ## Clinical Trial Evidence
 
@@ -66,26 +70,37 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Tropicamide is not currently marketed in the UK under this evaluation, and no marketing authorisations are on file.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1105000S0AAABAB | Tropicamide Eye Drops 1% | Eye drops | Not stated in the available record |
+
+The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease-level cautions (from the knowledge graph, not label text):** The TxGNN knowledge graph links tropicamide with contraindication edges for the following conditions:
+  - Eye: open-angle glaucoma, angle-closure (closed-angle) glaucoma, ocular hypertension
+  - Cardiovascular: hypertension and hypertensive disorder, myocardial ischaemia, coronary artery disease, heart conduction disease, sudden cardiac arrest
+  - Endocrine and metabolic: hyperthyroidism, Graves disease, thyrotoxicosis, diabetes mellitus, diabetic ketoacidosis
 
-Note: label warnings and contraindication data for this candidate are currently unavailable (blocking data gap, DG001), which prevents completion of the initial safety assessment stage.
+  These should be confirmed against the SmPC.
+- **Drug Interactions:** 10 interactions were identified in the DDInter database, all with unclassified severity: atropine, potassium chloride, vancomycin, simvastatin, prednisolone, famotidine, warfarin, lidocaine, fluconazole and brimonidine. The anticholinergic adverse effects expected with systemic exposure (constipation, dry mouth, blurred vision) would be a concern if the drug were repurposed.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score, there is no clinical trial or literature evidence, and the model's own mechanistic rationale indicates the drug-disease link is biologically implausible given tropicamide's topical-only formulation and minimal systemic exposure. A blocking data gap in product warning/contraindication data also prevents progression to safety pre-assessment.
+The predictions rest solely on TxGNN scores (Evidence Level L5), with no trials or publications. Topical ophthalmic tropicamide has negligible systemic exposure, and existing antimuscarinics already address the plausible bladder and bowel targets.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA label warnings and contraindications (currently blocking, DG001)
-- Detailed mechanism of action data (DG002)
-- Any preclinical or pharmacokinetic data supporting systemic exposure relevant to non-ophthalmic use
-- Independent confirmation of mechanistic plausibility before further evidence collection is warranted, given the two lower-ranked candidates (neurogenic bladder, irritable bowel syndrome) in this pack show the same lack of supporting evidence
+- Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)
+- Confirmation of the licence record, including dosage form and approved indication text
+- Mapping of the obsolete neurogenic bladder term to current terminology
+- Evidence of a feasible systemic or alternative route of administration
+- A literature and trial search targeted at antimuscarinics in neurogenic bladder, IBS and cauda equina syndrome, to establish whether tropicamide adds anything over existing agents
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

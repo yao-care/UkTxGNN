@@ -2,7 +2,7 @@
 layout: default
 title: Methocarbamol
 parent: Model Prediction Only (L5)
-nav_order: 371
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methocarbamol: From Skeletal Muscle Spasm to Cauda Equina Syndrome
+# Methocarbamol: From Muscle Spasm (Original Indication Not Recorded) to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-> Methocarbamol is a centrally-acting skeletal muscle relaxant; however, this evidence pack does not contain formal original-indication or mechanism-of-action data for the drug.
-> The TxGNN model predicts a possible link to **Cauda Equina Syndrome**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the score as likely unreliable.
+Methocarbamol is a centrally acting skeletal muscle relaxant, and the data compiled for this report do not record its original licensed indication.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+This is a model prediction only and should be treated as a hypothesis, not as evidence of benefit.
 
 ---
 
@@ -42,36 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (flagged as a Blocking/High-severity data gap — see DG001/DG002) |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Not recorded in the data compiled for this report (general class use: relief of muscle spasm) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for methocarbamol is not available in this evidence pack (DG002, High severity). This is a significant gap: without MOA data, it is not possible to construct a credible pharmacological link between methocarbamol and cauda equina syndrome, which is a neurosurgical emergency typically requiring urgent decompressive surgery rather than pharmacotherapy.
+Currently, detailed mechanism of action data is not available. Based on known information, methocarbamol is a centrally acting skeletal muscle relaxant. A plausible link would therefore be symptomatic relief of muscle spasm or pain associated with the condition.
 
-The TxGNN model itself flags this prediction as low-confidence despite the numerically high score (0.9998). The model's evidence layer notes that scores in this range fall within a "saturation band" seen across many unrelated disease predictions for this drug, which reduces their discriminative value. No clinical trials, ICTRP records, or PubMed literature were retrieved that directly connect methocarbamol to cauda equina syndrome.
+The prediction is only partly plausible. Cauda equina syndrome is a surgical emergency caused by compression of the nerve roots, and its management is urgent decompression. A muscle relaxant would not address the underlying pathology. The very high TxGNN score (0.9998) most likely reflects proximity in the knowledge graph rather than demonstrated pharmacology, so the mechanism cannot be verified from the available data.
 
-Taken together, there is currently no mechanistic, preclinical, or clinical rationale to support this prediction. The same pattern — high TxGNN score, but no corroborating mechanistic or evidentiary support — is seen across all ten of the top predicted indications for this drug in this evidence pack (see table below), which suggests the ranking may reflect model artefact rather than genuine biological signal for methocarbamol specifically.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Note |
-|------|----------------------|-------------|-----------------|------|
-| 1 | Cauda equina syndrome | 99.98% | L5 | No mechanistic link identified |
-| 2 | Irritable bowel syndrome | 99.98% | L5 | No mechanistic link identified |
-| 3 | Panuveitis | 99.96% | L5 | No mechanistic link identified |
-| 4 | Anaphylaxis | 99.96% | L5 | Only tangential literature (arthropod bite review) |
-| 5 | Iris disease | 99.94% | L5 | No mechanistic link identified |
-| 6 | Uveitis | 99.93% | L5 | No mechanistic link identified |
-| 7 | Ventricular tachycardia | 99.93% | L5 | Literature is an unrelated case (canine lamotrigine toxicity) |
-| 8 | Food-dependent exercise-induced anaphylaxis | 99.93% | L5 | No mechanistic link identified |
-| 9 | Conjunctivitis | 99.93% | L5 | No mechanistic link identified |
-| 10 | Obsolete bundle branch block | 99.93% | L5 | Target disease term is itself flagged as obsolete ontology |
+Other predictions in the same list (for example uveitis, panuveitis, iris disease, conjunctivitis, ventricular tachycardia and anaphylaxis) also have no supporting trials and no identifiable mechanistic rationale. This pattern suggests the model signal may be an artefact of the graph neighbourhood.
 
 ---
 
@@ -85,21 +73,28 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for cauda equina syndrome.
 
-*(Note: for completeness, one tangentially relevant reference was retrieved under the rank 4 prediction — anaphylaxis, not the primary rank 1 prediction reported here — a 1998 review on arthropod bite management ([PMID 20086833](https://pubmed.ncbi.nlm.nih.gov/20086833/)) which mentions methocarbamol as one of several agents used for widow spider bite systemic reactions. This does not constitute direct evidence for the rank 1 predicted indication.)*
-
 ---
 
 ## UK Market Information
 
-Methocarbamol has no marketing authorisations recorded in this evidence pack (market status: **not marketed**; 0 licenses on file). No product, dosage form, or approved-indication data is available to cross-reference against the predicted indication.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1002020S0AAABAB | Methocarbamol Tab 750mg | Tablet | Not recorded |
+
+The registry lists one valid single-ingredient authorisation. Indication text and dosage form details are not available in the data compiled for this report. Please check the current MHRA product information and the BNF (skeletal muscle relaxants) for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (derived from drug-disease links in the model's knowledge graph, not from product label text, so they should be verified against the SmPC): epilepsy, kidney disease, liver disease, gallbladder disease, thrombocytopenia, thrombocytopenic purpura, anaemia (including macrocytic anaemia), peptic ulcer disease (including active disease), gastritis, gout, substance abuse/dependence, haemophilia, von Willebrand disease, congenital prothrombin deficiency, vitamin K deficiency haemorrhagic disease, nasal cavity polyp, Reye syndrome, Alzheimer disease, Pick disease and cerebellar degeneration.
+- **Drug Interactions**: 100 interactions were identified in total. The main ones listed are:
+  - **Major**: morphine (including liposomal morphine), likely additive central nervous system and respiratory depression.
+  - **Moderate**: dronabinol, nabilone, metoclopramide, opium, sibutramine.
+  - Several other interactions are of unknown severity (for example metformin, omeprazole, pantoprazole, prednisone, doxycycline and glimepiride).
+- **Hypersensitivity**: A 2026 review of side-effect profiles of centrally acting muscle relaxants notes that hypersensitivity reactions are a recognised concern in this drug class.
 
-*(No key warnings, contraindications, or drug interaction data were available in this evidence pack — all fields are flagged as data gaps, including a Blocking-severity gap for TFDA label warnings/contraindications, DG001.)*
+Warning and contraindication text from the product information was not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -108,13 +103,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-This prediction rests solely on a TxGNN model score with no supporting mechanism-of-action data, no clinical trial evidence, and no relevant literature. The model's own evidence annotation flags the score as falling in a low-confidence saturation range, and this pattern repeats across all ten top-ranked predicted indications for this drug — indicating the signal is not yet distinguishable from noise for methocarbamol specifically.
+The prediction rests on a model score alone, with no clinical trials or supportive publications. Cauda equina syndrome requires urgent surgical management, and a muscle relaxant has no plausible disease-modifying role.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain methocarbamol SmPC/label warnings and contraindications before any safety pre-screening (S1) can begin
-- Resolve DG002 (High): obtain confirmed mechanism-of-action data to assess mechanistic plausibility against cauda equina syndrome
-- Targeted literature/trial search specifically for methocarbamol AND cauda equina syndrome (or related neurogenic/compressive myelopathy conditions), since none was returned by the automated collectors
-- Independent review of whether the TxGNN score saturation pattern reflects a genuine signal or a modelling artefact before committing further evaluation resources to this candidate
+- Mechanism of action data for methocarbamol
+- The licensed indication and product information (SmPC) for the UK authorisation
+- Any clinical or observational evidence in cauda equina syndrome, or a clearly defined symptomatic role (such as adjunctive spasm or pain relief)
+- A review of safety data, including the CNS depressant interactions and the knowledge-graph contraindications
+- Consideration of other predicted indications, none of which currently has supporting evidence either
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

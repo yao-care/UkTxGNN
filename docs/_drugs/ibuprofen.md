@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Model Prediction Only (L5)
-nav_order: 309
+nav_order: 331
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,76 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Ibuprofen: From Established NSAID Use to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Ibuprofen: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Ibuprofen is a widely used non-steroidal anti-inflammatory drug (NSAID); no UK regulatory record of its licensed indication was returned in this evidence pack. The TxGNN model predicts a possible link to **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare skeletal dysplasia, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review flags it as a likely false positive.
-
----
+Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID), originally used for inflammatory and degenerative joint conditions, headache and patent ductus arteriosus.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, but there are currently **no clinical trials and no publications** supporting this prediction. It rests on a computational score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK licence records were returned in this evidence pack |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy, headache disorder, patent ductus arteriosus (from the knowledge graph; the UK authorisation record has no indication text) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for this ibuprofen record is not available (DrugBank MOA field returned a data gap). The evidence pack's own mechanistic annotation does note that ibuprofen's established pharmacology is COX-1/COX-2 inhibition, underpinning its analgesic and anti-inflammatory effects.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ibuprofen is a non-selective cyclooxygenase (COX) inhibitor with analgesic and anti-inflammatory effects, and its efficacy in arthritis is well established.
 
-Acromesomelic Dysplasia, Hunter-Thompson Type is a rare, genetically determined skeletal dysplasia associated with disrupted BMP/GDF5 signalling. There is no established biological pathway connecting COX enzyme inhibition to this developmental bone disorder.
+Hunter-Thompson type acromesomelic dysplasia is a rare genetic skeletal disorder linked to variants in *GDF5* (CDMP1) and impaired cartilage formation. COX inhibition would not be expected to correct this developmental defect. The high score (0.997) most likely reflects the closeness of skeletal and joint terms in the knowledge graph to the approved arthritis indications, rather than a defined biological pathway. At most, ibuprofen might offer symptomatic pain relief, which is not disease modification.
 
-The rationale text accompanying this prediction explicitly states that the high TxGNN score likely reflects embedding clustering among skeletal-disease nodes in the knowledge graph, rather than a genuine pharmacological signal, and characterises it as a high-risk false positive. All six other top-ranked candidates for this drug (brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, brachyolmia, brachydactyly-syndactyly syndrome, pseudoachondroplasia, colobomatous microphthalmia-rhizomelic dysplasia syndrome) follow the same pattern: rare skeletal/developmental syndromes with no plausible mechanistic link, no clinical trials, and no literature support.
+Other top-ranked predictions show the same pattern:
 
----
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | No mechanistic link; genetic skeletal and enamel disorder |
+| 3 | Myosclerosis | 99.68% | Possible symptomatic relief only; no evidence on fibrosis |
+| 4 | Brachyolmia | 99.67% | No mechanistic link; genetic skeletal dysplasia |
+| 5 | Brachydactyly-syndactyly syndrome | 99.66% | No mechanistic link; congenital malformation |
+| 6 | Pseudoachondroplasia | 99.66% | Speculative symptomatic joint pain relief only (COMP variants; secondary osteoarthritis) |
+| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | No mechanistic link; developmental syndrome |
+
+All seven predictions have no registered trials and no literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No UK marketing authorisations were found for this drug in the evidence pack (total_licenses = 0). Ibuprofen is widely available as a generic OTC and prescription NSAID in the UK market generally, but no product-specific licence data was returned in this dataset — please verify current authorisation status via the MHRA product database or BNF before any further action.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010J0AAACAC | Ibuprofen oral suspension 100 mg/5 ml | Oral suspension | Not stated in the data compiled |
 
----
+Ibuprofen is classed in the BNF as a non-steroidal anti-inflammatory drug. The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register. The wider UK ibuprofen product range, including NICE-appraised uses, was not captured in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and cautions flagged by the knowledge graph** (these come from drug-disease links in the knowledge graph, not from product label text, and must be checked against the SmPC):
 
-*Note: The evidence pack flags TFDA-equivalent warnings/contraindications as a blocking data gap — this must be resolved before any safety-stage (S1) review can proceed.*
+- **Cardiovascular and cerebrovascular:** hypertension, hypotension, stroke, cerebrovascular disorder, cerebral infarction, myocardial infarction
+- **Gastrointestinal:** peptic ulcer disease, inflammatory bowel disease, gallbladder disease
+- **Renal and hepatic:** kidney disease, liver disease, liver failure
+- **Haematological:** thrombocytopenia, blood coagulation disease
+- **Respiratory and neurological:** chronic obstructive pulmonary disease, epilepsy
+- **Endocrine and metabolic:** diabetes mellitus, diabetic ketoacidosis, hypothyroidism, potassium deficiency
+- **Other:** systemic lupus erythematosus, benign prostatic hyperplasia, substance abuse/dependence
 
----
+**Drug interactions** (100 interactions were found; the first 20 returned are summarised here):
+
+- **Major:** acetylsalicylic acid
+- **Moderate:** corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone), sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide), exenatide, aprepitant, balsalazide, fenfluramine, dexfenfluramine, kanamycin, levofloxacin
+- **Minor:** famotidine, ranitidine, cimetidine
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support (Evidence Level L5), and the prediction pipeline's own mechanistic analysis identifies it as a probable knowledge-graph artefact rather than a genuine pharmacological signal. All seven top-ranked predicted indications for this drug share the same pattern — rare skeletal/developmental syndromes with no biological plausibility relative to ibuprofen's COX-inhibitory mechanism.
+The prediction is supported only by a model score. There are no trials or publications, and no plausible mechanism by which COX inhibition would modify these genetic developmental disorders. Long-term NSAID use also carries gastrointestinal, renal and cardiovascular risks.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and marketing authorisation status (currently absent from this evidence pack)
-- Verified mechanism of action data from DrugBank or an equivalent pharmacology reference
-- Resolution of the blocking safety data gap (warnings/contraindications) before any S1 safety review
-- Independent biological plausibility assessment (preclinical or mechanistic literature) before this candidate is reconsidered beyond S0
+- Mechanism of action data and a biological rationale linking COX inhibition to the target disease
+- Preclinical or clinical evidence in the predicted indication
+- Verified UK product details (dosage form, approved indication, authorisation number) and SmPC safety data
+- A benefit-risk assessment for long-term NSAID use in the affected paediatric and adult populations, if symptomatic pain relief is the only goal
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

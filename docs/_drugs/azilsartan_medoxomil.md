@@ -2,7 +2,7 @@
 layout: default
 title: Azilsartan Medoxomil
 parent: Model Prediction Only (L5)
-nav_order: 85
+nav_order: 88
 evidence_level: L5
 indication_count: 0
 ---

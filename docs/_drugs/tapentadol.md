@@ -2,7 +2,7 @@
 layout: default
 title: Tapentadol
 parent: Model Prediction Only (L5)
-nav_order: 553
+nav_order: 593
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,85 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tapentadol: From Moderate-to-Severe Pain to Migraine Disorder
+# Tapentadol: From Pain Management to Migraine Disorder
 
 ## One-Sentence Summary
 
-> Tapentadol is a centrally-acting opioid analgesic with a mu-opioid agonist and noradrenaline reuptake inhibition (NRI) component, used to treat moderate-to-severe pain. The TxGNN model predicts a possible effect in **Migraine Disorder**, but this direction is currently supported only by indirect literature (**0 clinical trials**, **2 general migraine-treatment reviews that do not evaluate tapentadol directly**) and is contradicted by major headache-medicine guidance advising against opioid use in migraine.
-
----
+Tapentadol is an opioid analgesic that is currently marketed in the UK, although the data compiled for this report do not include an approved indication text.
+The TxGNN model predicts it may be effective for **migraine disorder**, but this is a model prediction only, with **no clinical trials** and **no directly relevant publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Moderate-to-severe pain (opioid analgesic) — not explicitly recorded as a discrete field in the Evidence Pack; detailed original indication/MOA data are flagged as gaps (DG002) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Not available in the compiled data |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for tapentadol is not available in this Evidence Pack (data gap DG002). Based on the information that is available, tapentadol acts as a mu-opioid receptor agonist combined with a noradrenaline reuptake inhibition (NRI) component. This dual mechanism is used clinically to manage moderate-to-severe pain, and the NRI element is pharmacologically related to descending pain-modulation pathways — a system also implicated in migraine pathophysiology (similar to how SNRIs are sometimes used off-label in migraine prevention).
+Currently, detailed mechanism of action data is not available from the compiled data. Based on general pharmacological knowledge, tapentadol combines mu-opioid receptor agonism with noradrenaline reuptake inhibition. In theory, this dual action could modulate central pain pathways that are also relevant to migraine.
 
-On this basis, the TxGNN model has identified a theoretical mechanistic overlap between tapentadol's pain-modulating pathway and migraine, which likely explains the high prediction score (99.67%).
+The TxGNN score is very high (0.997), but it reflects a knowledge-graph prediction only. The mechanistic link is speculative. Opioids are generally discouraged for migraine because of the risk of medication-overuse headache, chronification and dependence.
 
-However, this mechanistic plausibility is substantially offset by a significant negative signal already captured in the Evidence Pack: major headache-medicine guidelines (AHS/AAN) explicitly recommend **against** using opioid analgesics, including tapentadol, in migraine treatment. This is due to the well-established risk of medication-overuse headache (MOH) and the absence of evidence that opioids outperform existing migraine-specific therapies (triptans, NSAIDs, CGRP-targeted agents). This guideline-level caution is an important counterweight to the model's high score and is the primary reason evidence strength remains low despite the strong prediction signal.
-
----
+Two related predictions were also returned: migraine with brainstem aura (score 99.57%) and migraine with or without aura, susceptibility to (score 99.08%). The first probably reflects propagation from the parent migraine node. The second describes genetic susceptibility rather than a treatable clinical condition, so it is of limited practical use.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for tapentadol in migraine disorder.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+No publications directly test tapentadol in migraine. Two indirect publications were retrieved for the related prediction "migraine with or without aura, susceptibility to":
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27096578](https://pubmed.ncbi.nlm.nih.gov/27096578/) | 2016 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Reviews dipyrone (metamizole), not tapentadol, for postoperative/migraine pain; included for general analgesic-in-migraine context only |
-| [27096438](https://pubmed.ncbi.nlm.nih.gov/27096438/) | 2016 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Reviews sumatriptan plus naproxen for acute migraine; establishes triptan/NSAID combinations as effective standard-of-care, not tapentadol |
+| [29760569](https://pubmed.ncbi.nlm.nih.gov/29760569/) | 2018 | Cohort | Drug, Healthcare and Patient Safety | Opioids are not recommended for routine migraine treatment because the risks of medication-overuse headache and dependence outweigh the benefits. Examines concomitant opioid use with triptans or serotonergic antidepressants, following a safety warning about serotonin syndrome. |
+| [33689517](https://pubmed.ncbi.nlm.nih.gov/33689517/) | 2021 | Review | Expert Opinion on Pharmacotherapy | Reviews NSAIDs and paracetamol as non-opioid alternatives to opioids for acute pain, amid concerns about opioid overdose. |
 
-**Note:** Neither publication evaluates tapentadol directly. They are included because they were the top-ranked literature matches in the Evidence Pack, and are presented here for transparency; they should be regarded as background context rather than direct supporting evidence.
-
----
+Neither paper provides efficacy evidence for tapentadol in migraine. The 2018 study raises a safety signal rather than support for efficacy.
 
 ## UK Market Information
 
-Tapentadol currently has **no UK marketing authorisation** on record in this Evidence Pack (0 licenses, market status: Not marketed). No product-specific authorisation table can be produced at this time.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407020AGAAAAAA | Tapentadol HCl tablets 50 mg | Not specified | Not specified |
 
----
+The number shown is a BNF-style product code rather than a standard PL number. Please check the MHRA record and the BNF (opioid analgesics section) for the authorised indications and formulations.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions**
 
-**Note:** Key warnings, contraindications, and drug–drug interaction data for tapentadol were not available in this Evidence Pack (flagged as a Blocking data gap, DG001). This gap must be resolved before any formal safety pre-assessment (S1) can proceed.
+The interaction check returned 100 interacting drugs in total. Examples of those flagged as **Major**:
+- Bupropion
+- Morphine
+- Lorcaserin
+- Diethylpropion
+- Phentermine
+- Dolasetron
+- Palonosetron
 
----
+Examples flagged as **Moderate** include epinephrine, atropine, hyoscyamine, glycopyrronium, dicyclomine, trospium, naloxone, nabilone, dronabinol and eluxadoline.
+
+**Migraine-specific consideration:** The literature highlights a risk of serotonin syndrome when opioids are used with triptans or serotonergic antidepressants (SSRIs/SNRIs). Tapentadol's noradrenaline reuptake inhibition makes this relevant to any migraine use.
+
+Please also refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trials or drug-specific literature support the use of tapentadol in migraine; the evidence base is model-prediction-only (L5).
-- The mechanistic rationale is directly contradicted by established headache-medicine guidance (AHS/AAN) against opioid use in migraine due to medication-overuse headache risk.
-- Tapentadol has no UK marketing authorisation, and a Blocking safety data gap (product warnings/contraindications) prevents entry into formal safety evaluation.
+The high TxGNN score is not backed by any clinical trials or directly relevant literature (Evidence Level L5). Opioids are generally discouraged in migraine because of medication-overuse headache and dependence, and there is a potential serotonin-syndrome interaction with commonly used migraine treatments.
 
 **To proceed, the following is needed:**
-- Product labelling / SmPC data (warnings and contraindications) to resolve the Blocking gap (DG001)
-- Detailed mechanism-of-action documentation from DrugBank or equivalent source (DG002)
-- Direct clinical or pharmacoepidemiological evidence evaluating tapentadol specifically in migraine populations
-- Drug–drug interaction data, currently returned as "not found"
-
-**Additional note:** Two lower-ranked predictions for tapentadol (migraine with brainstem aura; migraine susceptibility) were also generated by TxGNN but carry even weaker evidentiary support — one has zero associated literature or trials, and the other is linked to a genetic-susceptibility phenotype rather than an active disease state suitable for pharmacological intervention. Neither changes the overall Hold recommendation.
+- Mechanism of action data (for example from DrugBank) to assess the link to migraine pathophysiology
+- The approved indications and formulations from the SmPC or MHRA record
+- Warnings and contraindications from the SmPC and BNF, so that safety screening can proceed
+- Preclinical or clinical studies of tapentadol in migraine, including assessment of medication-overuse headache risk
+- Comparison against existing guideline-recommended migraine treatments, such as NICE-recommended options, to establish whether a role exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

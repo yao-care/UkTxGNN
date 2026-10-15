@@ -2,7 +2,7 @@
 layout: default
 title: Simvastatin
 parent: High Evidence (L1-L2)
-nav_order: 531
+nav_order: 569
 evidence_level: L1
 indication_count: 8
 ---
@@ -29,89 +29,125 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-Using the report as specified—flagging upfront that the evidence pack itself notes this "new indication" (familial hypercholesterolaemia) is not a genuine repurposing candidate but an already-established statin indication, and that several data gaps (UK licensing, MOA, SmPC safety data) are blocking.
-
----
-
-# Simvastatin: From Hypercholesterolaemia to Familial Hypercholesterolemia
+# Simvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Simvastatin is an HMG-CoA reductase inhibitor originally used to treat hypercholesterolaemia and mixed dyslipidaemia.
-The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia**,
-with **18 clinical trials** and **17 publications** currently supporting this direction — although, as detailed below, this is not a true repurposing signal but confirmation of an already-established statin indication.
+Simvastatin is an HMG-CoA reductase inhibitor (statin) originally used for lipid disorders and the prevention of atherosclerotic vascular disease, including stroke.
+The TxGNN model predicts it may be effective for **familial hypercholesterolaemia**, with **8 clinical trials** and **20 publications** compiled for this direction.
+Familial hypercholesterolaemia overlaps with simvastatin's existing indications, so this is largely a confirmation of current use rather than true repurposing, and most trials test simvastatin in combination with other agents.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercholesterolaemia / mixed dyslipidaemia (established statin-class indication; not captured in the current UK licensing data supplied — see gap below) |
-| Predicted New Indication | Familial Hypercholesterolemia |
+| Original Indication | Hypertriglyceridaemia, stroke and cerebrovascular disorders, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia, homozygous familial hypercholesterolaemia (the UK authorisation record has no indication text) |
+| Predicted New Indication | Familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
-| UK Market Status | Not Marketed (per evidence pack — see note under UK Market Information) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (`original_moa` is a recorded data gap, DG002). However, the repurposing rationale supplied alongside the top prediction is itself informative: **Simvastatin is an HMG-CoA reductase inhibitor that directly blocks the hepatic cholesterol biosynthesis pathway.** In patients with familial hypercholesterolaemia (FH), a defect in the LDL receptor causes LDL-C accumulation; statins upregulate hepatic LDL receptor expression, which is a well-established pharmacological mechanism rather than a speculative TxGNN association.
+Simvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis. Lower intracellular cholesterol upregulates LDL receptors, which increases clearance of LDL cholesterol (LDL-C) from the blood. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the well-established pharmacology of the statin class.
 
-Importantly, the evidence pack's own annotation for this candidate states this explicitly: *"此為 statin class 之標準適應症，非典型老藥新用案例"* — this is a standard indication for the statin class, not a typical repurposing case. In other words, the high TxGNN score here reflects that statins (including simvastatin) are already guideline-recommended first-line therapy for FH, rather than uncovering a genuinely novel therapeutic use. This should temper how the "Proceed with Guardrails" decision is interpreted — the guardrails relate to confirming licensing/safety documentation, not to establishing efficacy, which is already well demonstrated.
+In familial hypercholesterolaemia, LDL-C is persistently raised, mostly through LDL receptor pathway defects, and patients develop premature coronary artery disease. Because statins act on this same pathway, and residual LDL receptor function in heterozygous patients allows the response, the prediction is mechanistically coherent. Homozygous familial hypercholesterolaemia is already among simvastatin's listed original indications.
+
+An important caveat: several Phase 3 trials test ezetimibe or alirocumab added to simvastatin, so the evidence for simvastatin alone is partly confounded by combination therapy.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | Completed | 486 | Placebo-controlled RCT of alirocumab added to existing lipid-modifying therapy (incl. statins) in heterozygous FH not adequately controlled |
-| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE trial: ezetimibe + high-dose simvastatin vs simvastatin alone on carotid atherosclerosis progression in heterozygous FH |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Alirocumab efficacy/safety on LDL-C in children/adolescents with homozygous FH, on top of background treatment (incl. statins) |
-| [NCT00145574](https://clinicaltrials.gov/study/NCT00145574) | Phase 4 | Completed | 194 | Colesevelam added to stable-dose statin (incl. simvastatin) in paediatric heterozygous FH |
-| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe + simvastatin vs simvastatin alone in adolescents with heterozygous FH |
-| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Renal effects of rosuvastatin vs simvastatin in Fredrickson Type IIa/IIb dyslipidaemia, including heterozygous FH |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term safety/tolerability of ezetimibe added to atorvastatin or simvastatin in homozygous FH |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Placebo-controlled RCT of alirocumab in heterozygous FH inadequately controlled on lipid-modifying therapy |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | Alirocumab as add-on to stable statin therapy vs placebo in heterozygous FH / high CV risk hypercholesterolaemia |
-| [NCT01954394](https://clinicaltrials.gov/study/NCT01954394) | Phase 3 | Completed | 986 | Long-term open-label extension assessing safety/efficacy of alirocumab in heterozygous FH |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) (ENHANCE) | Phase 3 | Completed | 720 | Ezetimibe plus high-dose simvastatin vs simvastatin alone on carotid atherosclerosis progression in heterozygous FH (simvastatin-alone comparator arm) |
+| [NCT00129402](https://clinicaltrials.gov/study/NCT00129402) | Phase 3 | Completed | 248 | Ezetimibe with simvastatin vs simvastatin alone in adolescents (10–17 years) with heterozygous FH |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10 mg added to atorvastatin or simvastatin in homozygous FH |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | 24-month open-label safety and tolerability extension of ezetimibe added to atorvastatin or simvastatin in homozygous FH |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Alirocumab vs placebo in heterozygous FH on lipid-modifying therapy (simvastatin likely background only) |
+| [NCT00654446](https://clinicaltrials.gov/study/NCT00654446) | Phase 3 | Completed | 442 | Open-label comparison of renal effects of rosuvastatin and simvastatin in Fredrickson type IIa/IIb dyslipidaemia, including heterozygous FH |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Completed | 153 | Alirocumab vs placebo in children and adolescents with heterozygous FH on statin therapy (simvastatin role not confirmed) |
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label alirocumab in children and adolescents with homozygous FH (simvastatin at most background) |
+| [NCT01890967](https://clinicaltrials.gov/study/NCT01890967) | Phase 2 | Completed | 527 | Dose-ranging study of LY3015014 in primary hypercholesterolaemia with background statins (simvastatin not the test drug) |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | RCT | N Engl J Med | ENHANCE: simvastatin with or without ezetimibe in FH — landmark trial on atherosclerosis progression |
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Review (Cochrane) | Cochrane Database Syst Rev | Systematic review of statins (incl. simvastatin) for children with FH |
-| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opin Drug Saf | Benefits and risks assessment of simvastatin specifically in FH |
-| [41824552](https://pubmed.ncbi.nlm.nih.gov/41824552/) | 2026 | Guideline | Circulation | 2026 ACC/AHA dyslipidaemia management guideline (retires 2018 cholesterol guideline) |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Observational | J Am Coll Cardiol | Statins in FH: association with reduced CAD events and all-cause mortality |
-| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Saf | Benefits and risks of simvastatin specifically in FH patients |
+|------|-----|------|---------|---------|
+| [18376000](https://pubmed.ncbi.nlm.nih.gov/18376000/) | 2008 | Trial report (ENHANCE) | N Engl J Med | Simvastatin with or without ezetimibe in FH, assessing effects on atherosclerosis progression |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Statins for children with familial hypercholesterolaemia |
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Updated review of statins in children with FH |
+| [12908847](https://pubmed.ncbi.nlm.nih.gov/12908847/) | 2003 | Review | Drug Saf | Benefits and risks of simvastatin in FH; long-term safety and tolerability |
+| [15794711](https://pubmed.ncbi.nlm.nih.gov/15794711/) | 2005 | Review | Expert Opin Drug Saf | Benefit–risk assessment of simvastatin in FH |
+| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | Randomised double-blind trial | Circulation | Ezetimibe with atorvastatin or simvastatin in 50 patients with homozygous FH |
 | [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative study | Nutr Metab Cardiovasc Dis | Atorvastatin vs simvastatin for LDL-C goal attainment in heterozygous FH |
-| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Observational | J Clin Med | Cellular immunity parameters in children with FH treated with simvastatin |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Observational | Pharmacogenomics J | Combined FH/statin pharmacogenomic genetic testing implementation study |
-| [30270066](https://pubmed.ncbi.nlm.nih.gov/30270066/) | 2018 | Observational | Atherosclerosis | Real-world FH treatment patterns and LDL-C goal attainment (Slovakia) |
+| [2679083](https://pubmed.ncbi.nlm.nih.gov/2679083/) | 1989 | Clinical study | Am J Med | Simvastatin 20 mg lowered LDL-C by 38% at 8 weeks, and 42% at 40 mg, in FH |
+| [35629051](https://pubmed.ncbi.nlm.nih.gov/35629051/) | 2022 | Cross-sectional study | J Clin Med | Cellular immunity in children with FH treated with simvastatin 10 mg |
+| [41824590](https://pubmed.ncbi.nlm.nih.gov/41824590/) | 2026 | Guideline | J Am Coll Cardiol | 2026 ACC/AHA multisociety dyslipidaemia guideline, replacing the 2018 cholesterol guideline |
+
+---
 
 ## UK Market Information
 
-No marketing authorisation records were returned in this evidence pack (0 licenses, market status recorded as "Not Marketed"). This is notable, since simvastatin is a widely used generic statin in UK clinical practice under multiple manufacturers — this likely reflects a gap in the underlying regulatory dataset rather than genuine absence from the UK market. **This should be verified directly against the MHRA products database / current BNF listing before any decision is finalised.**
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0212000Y0AAAAAA | Simvastatin Tab 10 mg | Not stated | Not stated |
+
+Only one single-ingredient authorisation is recorded in the data compiled for this report. The dosage form and indication text are missing, and the identifier is not in the usual MHRA PL format, so it should be checked against the MHRA register. Please also consult the BNF (lipid-regulating drugs) and relevant NICE guidance for current UK use in familial hypercholesterolaemia.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from disease associations in the knowledge graph, not label text):** liver disease, pancreatitis, gallbladder disease, myopathy and other muscle diseases, rhabdomyolysis, thrombocytopenia, blood coagulation disorders, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, gout, peptic ulcer disease, hypotensive disorder, substance abuse/dependence, and several cardiac conditions (acute coronary syndrome, coronary artery disease, myocardial infarction). Several of these, such as coronary artery disease, are likely to be graph artefacts rather than true contraindications, so they should be verified against the SmPC.
 
-*Note: the safety dataset in this evidence pack returned no warnings, contraindications, or drug interactions (all fields recorded as data gaps, DG001 — Blocking). This is a critical omission for a statin, given the well-known class risks of myopathy/rhabdomyolysis and CYP3A4-mediated interactions (e.g. with protease inhibitors, as surfaced incidentally in this pack's HIV-related literature search). This gap must be closed before clinical use.*
+**Drug Interactions:** The data list 100 interactions. Those classed as Major include:
+- Amiodarone
+- Amlodipine
+- Fenofibrate
+
+Moderate interactions include nifedipine, paclitaxel, omeprazole, zidovudine, ethanol, apalutamide and aprepitant. Simvastatin is a CYP3A4 substrate, so exposure rises markedly with CYP3A4 inhibitors such as HIV protease inhibitors and cobicistat, increasing the risk of myopathy and rhabdomyolysis.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence level L1 is supported by multiple completed Phase 3 RCTs (notably ENHANCE, NCT00552097/PMID 18376000) directly evaluating simvastatin in FH populations. However, this is not a novel repurposing signal — it confirms an already-established statin-class indication — and two data gaps are currently blocking or high-severity: missing SmPC warnings/contraindications (DG001, Blocking) and missing MOA documentation (DG002, High).
+Multiple completed Phase 3 trials in familial hypercholesterolaemia include simvastatin, and its mechanism is well established, supporting evidence level L1. However, most trials test combinations, and the indication overlaps with existing use, so this confirms current practice rather than demonstrating new efficacy.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent SmPC warnings and contraindications (DG001 — blocking; required before any S1 safety assessment)
-- Confirmed drug-drug interaction data, particularly CYP3A4-mediated interactions (myopathy/rhabdomyolysis risk)
-- Verification of actual current UK marketing authorisation status via MHRA (the "0 licenses / not marketed" result is inconsistent with simvastatin's known widespread UK generic availability and should be re-checked)
-- Formal mechanism of action documentation (DG002)
-- Clarification of whether "familial hypercholesterolemia" should be scored/tracked as a genuine repurposing candidate, given it is already a guideline-recommended statin indication rather than a new therapeutic use
+- Complete MHRA authorisation details (dosage form, indication text and a verified PL number)
+- SmPC warnings and contraindications to replace the graph-derived list
+- Evidence isolating simvastatin monotherapy from combination effects
+- A drug-interaction management plan, particularly for CYP3A4 inhibitors and fibrates
+- Detailed mechanism-of-action data from DrugBank
+
+---
+
+### Other Predicted Indications (for reference)
+
+| Predicted Indication | Score | Evidence Level | Recommendation | Comment |
+|------|------|------|------|------|
+| Autosomal dominant hypercholesterolaemia | 99.36% | L1 | Proceed with Guardrails | Overlaps with familial hypercholesterolaemia; same Phase 3 trials |
+| HIV infectious disease | 99.22% | L3 | Research Question | Evidence concerns drug interactions and HIV-associated dyslipidaemia, not antiviral effect; one pilot study found no anti-HIV activity |
+| Brain stem infarction | 99.41% | L4 | Hold | Only a tangential preclinical paper; no trials |
+| CETP deficiency | 99.39% | L5 | Hold | Model prediction only |
+| Hypercholesterolaemia due to CYP7A1 deficiency | 99.27% | L5 | Hold | Model prediction only; reported poor statin response |
+| ABri amyloidosis | 99.13% | L5 | Hold | Model prediction only |
+| Neurodevelopmental disorder with ataxic gait and absent speech | 99.10% | L5 | Hold | Model prediction only |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

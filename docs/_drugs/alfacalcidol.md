@@ -2,7 +2,7 @@
 layout: default
 title: Alfacalcidol
 parent: Model Prediction Only (L5)
-nav_order: 30
+nav_order: 31
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,55 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Alfacalcidol: From Hypoparathyroidism to Familial Isolated Hypoparathyroidism Due to Impaired PTH Secretion
+# Alfacalcidol: From Hyperparathyroidism to Familial Isolated Hypoparathyroidism Due to Impaired PTH Secretion
 
 ## One-Sentence Summary
 
-Alfacalcidol is a synthetic active vitamin D analogue used in the management of calcium and bone metabolism disorders, including hypoparathyroidism, where it bypasses renal 1α-hydroxylation to directly provide the physiologically active form of vitamin D without requiring intact parathyroid hormone (PTH) signalling.
-The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion** — a rare, genetically defined subtype of hypoparathyroidism characterised by deficient PTH production — with a prediction score of **99.61%**.
-Currently, **no clinical trials** and **no publications** specifically addressing this precise genetic subtype in the context of alfacalcidol therapy have been identified, placing this prediction in the category of a mechanistically well-grounded but clinically unvalidated research question.
+Alfacalcidol is an active vitamin D analogue, originally used for conditions such as hyperparathyroidism, hypoparathyroidism, osteitis fibrosa and renal osteodystrophy.
+The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**, with a score of 99.6%, but **no clinical trials and no publications** specific to this condition were found.
+The prediction is therefore supported by model output and mechanistic reasoning only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypoparathyroidism and related calcium/bone metabolism disorders (established clinical use; no MHRA licence data available in this dataset) |
+|------|------|
+| Original Indication | Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism, renal osteodystrophy (from the TxGNN knowledge graph; no approved indication text is available for the UK product) |
 | Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
 | TxGNN Prediction Score | 99.61% |
-| Evidence Level | L4 — mechanistic basis only; no direct clinical studies identified |
-| UK Market Status | Not Marketed (no MHRA authorisations recorded in this dataset) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Alfacalcidol (1α-hydroxycholecalciferol) is a prodrug that undergoes rapid hepatic 25-hydroxylation to form calcitriol (1,25-dihydroxyvitamin D₃), the biologically active form of vitamin D. Crucially, unlike nutritional cholecalciferol, alfacalcidol bypasses the renal 1α-hydroxylation step — the rate-limiting conversion step that is ordinarily upregulated by PTH. This pharmacological property renders alfacalcidol functionally independent of intact parathyroid gland activity, making it inherently well-suited to any condition in which PTH production or secretion is impaired.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, alfacalcidol is a 1-alpha-hydroxylated vitamin D prodrug. It is converted in the liver to calcitriol, the active form of vitamin D, and so bypasses the renal 1-alpha-hydroxylase step.
 
-In familial isolated hypoparathyroidism due to impaired PTH secretion, a genetic defect (variants in genes such as *GCM2*, *SOX3*, or related loci) directly reduces or abolishes PTH production from the parathyroid glands. The resultant PTH deficiency leads to decreased renal 1α-hydroxylase (CYP27B1) activity, diminished calcitriol synthesis, persistent hypocalcaemia, hyperphosphataemia, and disordered skeletal mineralisation. Since alfacalcidol does not require PTH-mediated renal activation to exert its downstream effects on intestinal calcium and phosphate absorption, it can directly substitute for the absent vitamin D activation that the deficient PTH can no longer drive. The mechanistic fit is therefore highly direct and biologically coherent.
+This makes it mechanistically plausible in hypoparathyroidism. Low parathyroid hormone (PTH) reduces renal activation of vitamin D, and an already-activated analogue can compensate for this.
 
-General hypoparathyroidism — including both post-surgical and idiopathic forms — is already a well-recognised clinical indication for alfacalcidol in international practice. The TxGNN model's prediction essentially constitutes an extension of this established therapeutic principle to the specific genetic subtype defined by impaired PTH secretion. While the mechanistic reasoning is compelling, no dedicated clinical trials or publications have been identified for this precise disease entity; the evidence remains an extrapolation from broader hypoparathyroidism treatment experience and from alfacalcidol's established pharmacodynamic profile.
+Hypoparathyroidism is already among alfacalcidol's recognised uses. The familial isolated subtype is likely covered by that existing use, so this is probably **not a true repurposing**. The high score is a computational prediction only.
+
+### Other Predictions Considered
+
+Three further predictions were generated, all at low evidence levels:
+
+- **Renal tubular acidosis (score 99.27%, evidence level L4):** The only candidate with relevant published material. Five case reports describe osteomalacia secondary to renal tubular acidosis, including Sjögren's syndrome-associated cases, improving with treatment that included alfacalcidol (for example PMIDs 22740247 and 11518137). Alkali and other agents were given at the same time, so the effect of alfacalcidol alone cannot be separated. The target is the bone complication rather than the tubular defect. It is best framed as a research question.
+- **Dahlberg-Borer-Newcomer syndrome (score 99.60%, L5):** The retrieved papers are mostly off-target (Fanconi-Bickel syndrome, FGF23-related hypophosphataemia, general vitamin D reviews, and others). None studies alfacalcidol in this syndrome.
+- **Craniofacial conodysplasia (99.55%) and acromesomelic dysplasia, Campailla-Martinelli type (99.53%):** No mechanistic link or supporting evidence. These probably reflect network proximity to other bone disorders.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the lead predicted indication.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available specifically for this indication.
+Currently no related literature available for the lead predicted indication.
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0906040B0AAAAAA | Alfacalcidol capsules 250 ng | Capsule | Not available in the compiled data |
+
+This identifier follows the BNF/NHS product-code format rather than the PL number format, so it should be checked against the MHRA register. BNF chemical code 0906040B0 places alfacalcidol in BNF section 9.6.4, vitamin D.
 
 ---
 
 ## Safety Considerations
-
-Detailed safety data, including key warnings, contraindications, and drug–drug interactions, are not available in the current dataset.
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -88,23 +104,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Although the mechanistic link between alfacalcidol and familial isolated hypoparathyroidism due to impaired PTH secretion is strong, biologically coherent, and directly derived from the drug's established mode of action, no clinical trials or disease-specific publications have been identified for this rare genetic subtype. In the absence of any direct clinical evidence, this candidate cannot progress beyond a mechanistically reasoned research question at this time.
+The lead prediction rests on a model score alone, with no trials or literature. It is probably already covered by the existing hypoparathyroidism use, so it adds little as a repurposing opportunity. Of the alternatives, only renal tubular acidosis has any supporting material, and that consists of uncontrolled case reports.
 
 **To proceed, the following is needed:**
-
-- Genetic confirmation and patient identification: case series or registry data in patients with molecularly confirmed familial isolated hypoparathyroidism due to impaired PTH secretion (e.g., *GCM2*, *SOX3* variant carriers)
-- Clinical outcome data: observational or retrospective data documenting serum calcium normalisation, bone density, and quality-of-life outcomes with alfacalcidol in this specific subtype
-- Long-term safety monitoring plan: a structured protocol addressing hypercalcaemia, hypercalciuria, nephrocalcinosis, and renal function impairment — known risks with active vitamin D analogues in hypoparathyroid patients receiving supplemental calcium
-- Mechanism of action (MOA) data: retrieval from DrugBank (DB01436) to formally document the pharmacological rationale and strengthen the evidence dossier
-- UK regulatory review: verification of current MHRA authorisation status and approved indications via the MHRA Product Licence database and the BNF (vitamin D and analogues section), particularly given the absence of licence data in this dataset
-
----
-
-> **Note on alternative candidates with stronger evidence:** Amongst the five predicted indications evaluated in this pack, **renal tubular acidosis** (rank 5, TxGNN score 99.27%) carries substantially stronger clinical evidence (Evidence Level L3), supported by multiple published case reports and a case series documenting alfacalcidol's benefit in osteomalacia secondary to Fanconi syndrome and Sjögren's syndrome-associated distal renal tubular acidosis. That candidate carries a **"Proceed with Guardrails"** recommendation and may warrant prioritisation for clinical translation ahead of the rank 1 prediction.
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require prospective clinical validation before therapeutic application. For clinical decision-making, refer to the current BNF, MHRA guidance, and relevant NICE technology appraisals.*
+- Confirmation from the current SmPC that familial isolated hypoparathyroidism falls within the licensed hypoparathyroidism indication
+- The approved indication text, dosage form and safety information (warnings, contraindications) for the UK product, taken from the SmPC and BNF
+- Mechanism of action data for the drug record
+- For renal tubular acidosis, a structured review of the case reports and, if warranted, a prospective study to isolate the effect of alfacalcidol on osteomalacia from that of alkali therapy
+- Monitoring plans for serum calcium and phosphate, since hypercalcaemia is a recognised risk with active vitamin D analogues
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

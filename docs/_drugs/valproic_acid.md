@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valproic Acid
-parent: High Evidence (L1-L2)
-nav_order: 608
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 650
+evidence_level: L5
 indication_count: 10
 ---
 
 # Valproic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Valproic Acid: From Epilepsy to Visual (Photosensitive) Epilepsy
+# Valproic Acid: From Epilepsy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Valproic acid is a long-established broad-spectrum antiepileptic, historically used for generalised and focal epilepsy (and also for bipolar disorder and migraine prophylaxis). Among the candidates identified by TxGNN in this Evidence Pack, **Visual Epilepsy** (photosensitive/light-induced reflex epilepsy) is the best-supported new indication, with **4 clinical trials** and **20 publications** currently informing this direction, although none of the trials targets visual epilepsy as its primary endpoint.
-
-> **Note on selection**: TxGNN's raw top-ranked candidate for this drug, *trigeminal nerve neoplasm*, was reviewed and excluded — the evidence pack itself flags it as a likely model artefact (no clinical trials, a single unrelated case-series on Sturge-Weber syndrome, and no plausible mechanistic link to tumour biology). Visual epilepsy was the strongest of the remaining candidates and is used here as the primary focus of this report.
+Valproic acid is an established antiseizure medicine, originally used for epilepsy and manic episodes of bipolar disorder.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but there are **no registered clinical trials** and only **1 publication** (a 1997 case series on Sturge-Weber syndrome), which does not support this prediction.
+The more plausible predicted uses are epilepsy-related (for example trigeminal neuralgia and startle epilepsy), and these are discussed below.
 
 ---
 
@@ -43,77 +43,116 @@ Valproic acid is a long-established broad-spectrum antiepileptic, historically u
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalised and focal seizures); also used for bipolar disorder (mania) and migraine prophylaxis. Formal UK indication wording is not available in this dataset (data gap). |
-| Predicted New Indication | Visual Epilepsy (photosensitive/light-induced reflex epilepsy) |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed (per current dataset — see note below)* |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (from the TxGNN knowledge graph, as no approved indication text is available in the UK data) |
+| Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
-\*Valproic acid is a decades-old, widely used antiepileptic internationally (e.g. UK brand Epilim). A "not marketed / 0 licences" result in this dataset most likely reflects incomplete regulatory data capture rather than genuine absence from the UK market, and should be verified directly against the MHRA product database and BNF before any commercial decision is made.
+For context, the other leading predictions are:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 2 | Visual epilepsy | 99.88% | L4 | Research question |
+| 3 | Trigeminal neuralgia | 99.83% | L4 | Research question |
+| 4 | Orgasm-induced seizures | 99.81% | L5 | Hold |
+| 5 | Eating seizures | 99.81% | L4 | Hold |
+| 6 | Thinking seizures | 99.81% | L5 | Hold |
+| 7 | Audiogenic seizures | 99.81% | L4 | Hold |
+| 8 | Startle epilepsy | 99.81% | L4 | Research question |
+| 9 | Micturition-induced seizures | 99.81% | L5 | Hold |
+| 10 | Reading seizures | 99.79% | L4 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action documentation was not available in this Evidence Pack (data gap). Based on the mechanistic rationale accompanying the prediction, valproic acid acts through a broad combination of pathways: voltage-gated sodium channel blockade, T-type calcium channel inhibition, and enhancement of GABAergic (inhibitory) neurotransmission relative to glutamatergic (excitatory) signalling. This multi-target profile is what underlies its long-standing role as a first-line agent for idiopathic generalised epilepsies, including juvenile myoclonic epilepsy (JME) — a syndrome in which photosensitivity/visual triggers are common.
+Currently, detailed mechanism of action data compiled for this report is not available. Based on the literature reviewed, valproic acid is a broad-spectrum antiseizure drug. Its reported actions include enhancing GABAergic inhibition, blocking sodium channels and T-type calcium channels, and inhibiting histone deacetylase (HDAC).
 
-Visual (photosensitive) epilepsy sits within this same idiopathic generalised epilepsy spectrum rather than being a mechanistically distinct disease. Reflex seizures provoked by flickering light or visual patterns share the same underlying cortical hyperexcitability and thalamocortical circuit abnormalities that valproic acid is already known to suppress in generalised epilepsy. This makes the TxGNN prediction biologically coherent, even though no trial in this pack has enrolled patients specifically selected for visual/photosensitive triggers — the supporting evidence is largely extrapolated from valproic acid's established efficacy across the broader reflex/generalised epilepsy spectrum (e.g. neuroprotection and seizure prevention after brain injury, and management of progressive myoclonic epilepsies that frequently exhibit photosensitivity).
+For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no credible mechanistic link. The only retrieved paper is a case series on Sturge-Weber syndrome, where valproic acid is probably used just for seizure control. The high model score is not backed by clinical or mechanistic evidence, and it should be treated as a likely artefact.
 
-By contrast, the raw top-ranked TxGNN candidate — trigeminal nerve neoplasm — has no such mechanistic bridge: valproic acid's established actions (GABAergic/sodium-channel/HDAC-related effects) relate to neuronal excitability and epigenetic regulation, not tumour growth control in this specific context, and the single associated publication does not concern oncology at all. This candidate was therefore treated as noise rather than a genuine repurposing signal.
+The epilepsy-related predictions are more reasonable, but most are extensions of the existing epilepsy indication rather than true repurposing:
+
+- **Visual, reading and other reflex epilepsies:** valproate is a standard treatment in idiopathic generalised epilepsies, which include photosensitive and reflex forms. No study directly tests it in these specific seizure types.
+- **Trigeminal neuralgia:** sodium channel blockade and GABAergic inhibition could reduce paroxysmal neuropathic pain. Reviews mention valproate as a second-line option, with carbamazepine as first-line. Much of the retrieved literature concerns carbamazepine instead.
+- **Startle epilepsy:** one small clinical study examined valproate and the auditory startle reflex, and a case report describes a response in hyperekplexia (a distinct glycinergic disorder), so the link is indirect.
+- **Audiogenic seizures:** evidence is entirely from animal models.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07226141](https://clinicaltrials.gov/study/NCT07226141) | Phase 1/2 | Not yet recruiting | 28 | Evaluates valproate as adjunct therapy for residual amblyopia (visual pathway plasticity) in children aged 8–17; not a seizure trial but tests VPA's effect on visual system plasticity. |
-| [NCT02027987](https://clinicaltrials.gov/study/NCT02027987) | Phase 1 | Unknown | 160 | Neuroprotection and epilepsy-prevention study of VPA after severe traumatic brain injury; supports VPA's broad-spectrum antiseizure and neuroprotective role. |
-| [NCT00639119](https://clinicaltrials.gov/study/NCT00639119) | Phase 2 | Unknown | 16 | Trial of ropinirole (not VPA) in Unverricht-Lundborg progressive myoclonic epilepsy, a condition strongly associated with light-sensitive seizures; VPA is noted as a mainstay comparator treatment. |
-| [NCT00021866](https://clinicaltrials.gov/study/NCT00021866) | N/A | Completed | 331 | NEAD study: examines neurodevelopmental effects of antiepileptic drugs (including VPA) taken during pregnancy; not a treatment-efficacy trial for visual epilepsy. |
+Currently no related clinical trials registered for any of the ten predicted indications.
 
 ---
 
 ## Literature Evidence
 
+Evidence for the top-ranked prediction (trigeminal nerve neoplasm):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30592252](https://pubmed.ncbi.nlm.nih.gov/30592252/) | 2019 | Review | Current Neuropharmacology | Comprehensive review of VPA's molecular mechanisms (GABAergic/glutamatergic modulation, ion channel effects) underpinning its antiepileptic and anti-reflex-seizure activity. |
-| [30734897](https://pubmed.ncbi.nlm.nih.gov/30734897/) | 2019 | Guideline/Review | Paediatric Drugs | Practical guide to childhood absence epilepsy; confirms VPA as an effective option within the idiopathic generalised epilepsy spectrum that includes photosensitive phenotypes. |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Review | New England Journal of Medicine | Overview of initial seizure management in adults, situating VPA among first-line broad-spectrum agents. |
-| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | Review | Future Oncology | Discusses antiseizure (and possible antineoplastic) effects of VPA in glioma-related epilepsy, illustrating its broad-spectrum seizure control across aetiologies. |
-| [34663708](https://pubmed.ncbi.nlm.nih.gov/34663708/) | 2021 | Cohort study | Neurosciences (Riyadh) | Evaluates efficacy and safety of VPA in children under 2 years with epilepsy, supporting its broad applicability across seizure types. |
-| [37037506](https://pubmed.ncbi.nlm.nih.gov/37037506/) | 2023 | Review | Brain and Nerve | Review of current clinical practice guidelines for epilepsy treatment, including VPA's role as a standard antiseizure medication (ASM). |
-| [24798217](https://pubmed.ncbi.nlm.nih.gov/24798217/) | 2014 | Review | Expert Opinion on Pharmacotherapy | Reviews pharmacotherapy for generalised tonic-clonic seizures, a seizure type commonly triggered by photosensitivity, with VPA as a mainstay treatment. |
-| [26715390](https://pubmed.ncbi.nlm.nih.gov/26715390/) | 2016 | Pharmacokinetic study | CNS Drugs | Evaluates pharmacokinetics and clinical utility of continuous-infusion VPA in acute seizure management. |
-| [27855134](https://pubmed.ncbi.nlm.nih.gov/27855134/) | 2016 | Pharmacogenetic study | Therapeutic Drug Monitoring | Examines genetic factors affecting VPA plasma levels and treatment response in children with epilepsy. |
-| [16302877](https://pubmed.ncbi.nlm.nih.gov/16302877/) | 2005 | Review | Epilepsia | Reviews photosensitivity in idiopathic generalised epilepsies — the disease category most directly relevant to visual/photosensitive epilepsy — describing seizure types and treatment context. |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales espanoles de pediatria | Review of 14 Sturge-Weber syndrome cases; not relevant to tumour treatment |
+
+Selected evidence for the more plausible predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [20200383](https://pubmed.ncbi.nlm.nih.gov/20200383/) | 2010 | RCT | N Engl J Med | Ethosuximide, valproic acid and lamotrigine compared in childhood absence epilepsy (indirect, supports existing epilepsy use) |
+| [30592252](https://pubmed.ncbi.nlm.nih.gov/30592252/) | 2019 | Review | Curr Neuropharmacol | Molecular mechanisms and clinical evidence for valproic acid in epilepsy |
+| [1774173](https://pubmed.ncbi.nlm.nih.gov/1774173/) | 1991 | Review | Headache | Medical management of trigeminal neuralgia; valproic acid listed among anticonvulsants reported to be efficacious |
+| [15246950](https://pubmed.ncbi.nlm.nih.gov/15246950/) | 2004 | Review | Epileptic Disord | Antiepileptic drugs for non-epileptic indications; evidence mostly from case series and small trials |
+| [11129121](https://pubmed.ncbi.nlm.nih.gov/11129121/) | 2000 | Review | Drugs | Anticonvulsants for neuropathic pain: mechanisms and place in therapy |
+| [29262725](https://pubmed.ncbi.nlm.nih.gov/29262725/) | 2018 | Clinical study | Clin EEG Neurosci | Examined whether valproate suppresses the auditory startle reflex in epilepsy |
+| [2496695](https://pubmed.ncbi.nlm.nih.gov/2496695/) | 1989 | Case report | Pediatr Neurol | Hyperekplexia with complete resolution on valproic acid (indirect) |
+| [33551767](https://pubmed.ncbi.nlm.nih.gov/33551767/) | 2020 | Preclinical | Front Behav Neurosci | Cannabidiol and valproate in an audiogenic seizure hamster model |
+| [39786974](https://pubmed.ncbi.nlm.nih.gov/39786974/) | 2025 | Cohort/Review | Future Oncol | Levetiracetam and valproic acid in glioma: antiseizure and possible antineoplastic effects (indirect) |
+| [16302877](https://pubmed.ncbi.nlm.nih.gov/16302877/) | 2005 | Review | Epilepsia | Photosensitivity in idiopathic generalised epilepsies (indirect) |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0402030Q0AAABAB | Valproic Acid Tab G/R 500mg | Not specified | Not specified in the data compiled |
+
+The data compiled for this report lists one valid single-ingredient authorisation (a modified-release 500 mg tablet). The identifier appears to be a BNF-style code (chapter 4, central nervous system) rather than a standard MHRA PL number, and no approved indication text is available. Please check the current SmPC and BNF for licensed indications and NICE guidance.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications suggested by the knowledge graph** (these are model-derived associations, not label text): anxiety disorder, neurotic disorder, dysthymic disorder, carbamoyl phosphate synthetase I deficiency, inherited porphyria and other porphyrias, kidney disease, pyoureter, hyperargininemia, haematological disease, pancreatitis, citrullinemia, cognitive disorder, liver disease, gallbladder disease and thrombocytopenia.
 
-*(Note: This Evidence Pack flags safety data as a Blocking data gap — key warnings, contraindications, and drug–drug interaction data specific to this dataset could not be retrieved. Given valproic acid carries well-documented, clinically significant risks — including teratogenicity/pregnancy prevention programme requirements, hepatotoxicity, and hyperammonaemia — full SmPC review is essential before any clinical use is considered.)*
+**Drug interactions:** 100 interactions were identified; the first 20 returned include:
+
+- **Major:** glycerol phenylbutyrate
+- **Moderate:** bupropion, morphine (including liposomal), acetylsalicylic acid, clarithromycin, difenoxin, diphenoxylate, activated charcoal, dronabinol, metoclopramide, nabilone
+- **Minor:** cimetidine, magnesium oxide, aluminium hydroxide, calcium carbonate, esomeprazole, magaldrate, magnesium carbonate, magnesium hydroxide
+
+The retrieved literature also notes interactions with carbapenem antibiotics, which can lower valproate levels. Valproate in females of reproductive age carries well-recognised teratogenic risk, so current MHRA pregnancy prevention requirements apply.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Visual (photosensitive) epilepsy sits within the same idiopathic generalised epilepsy spectrum in which valproic acid is already a first-line, decades-proven treatment; the mechanistic rationale is strong even though no trial has directly enrolled patients selected specifically for visual/photosensitive seizure triggers. The evidence base is indirect (extrapolated from broader epilepsy and reflex-epilepsy literature) rather than disease-specific, which supports cautious progression rather than unconditional endorsement. The originally top-ranked TxGNN candidate (trigeminal nerve neoplasm) was excluded as low-confidence noise, and is not the basis for this recommendation.
+The top-ranked prediction, trigeminal nerve neoplasm, has no supporting trials, no mechanistic link and only one irrelevant case series (L5). The epilepsy-related predictions are plausible but largely extend the existing indication, with only indirect, preclinical or case-level evidence (L4). Of these, trigeminal neuralgia, visual epilepsy and startle epilepsy are the most reasonable research questions.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent product labelling data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal mechanism-of-action documentation from DrugBank or equivalent source (DG002)
-- Verification of current UK marketing authorisation status directly via MHRA/BNF, as the "not marketed / 0 licences" result in this dataset appears inconsistent with valproic acid's known long-standing UK availability
-- Results from NCT07226141 (Phase 1/2, not yet recruiting) once available, as it is the only trial directly probing VPA's effect on a visual-system endpoint
-- A dedicated pilot study or case series specifically enrolling patients with visual/photosensitive-triggered seizures, to close the gap between the broad generalised-epilepsy evidence base and this specific reflex phenotype
+- Review the model's top-ranked prediction (trigeminal nerve neoplasm) and confirm it is a spurious result
+- Detailed mechanism of action data
+- Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA record and SmPC
+- Label-based warnings and contraindications from the SmPC and BNF (the current safety data are knowledge-graph derived)
+- For trigeminal neuralgia: a valproate-specific controlled comparison against carbamazepine
+- A risk-benefit assessment covering teratogenicity and hepatotoxicity before any new use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

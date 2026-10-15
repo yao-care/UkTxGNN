@@ -2,7 +2,7 @@
 layout: default
 title: Idebenone
 parent: Model Prediction Only (L5)
-nav_order: 310
+nav_order: 332
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,59 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Idebenone: From No UK-Licensed Indication to Hepatic Porphyria
+# Idebenone: From Leber Hereditary Optic Neuropathy to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-> No original indication or UK marketing authorisation is on record for Idebenone in this evidence pack; the drug is currently **not marketed** in the UK.
-> The TxGNN model's top prediction is **Hepatic Porphyria** (score 99.92%),
-> but this is a **model-only signal with zero supporting clinical trials or literature**, and the evidence pack itself flags the mechanistic link as weak.
-
----
+Idebenone was originally used for Leber hereditary optic neuropathy, a mitochondrial disease of the optic nerve.
+The TxGNN model predicts it may be effective for **hepatic porphyria**,
+but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on a computational model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available – no UK marketing authorisation or indication data on record |
-| Predicted New Indication | Hepatic Porphyria |
+| Original Indication | Leber hereditary optic neuropathy (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data (`original_moa`) is not populated for Idebenone in this evidence pack. However, the model's own mechanistic rationale notes that Idebenone is a synthetic analogue of coenzyme Q10 (CoQ10), acting on the mitochondrial electron transport chain and exhibiting antioxidant properties.
+Detailed mechanism of action data is not currently available for this drug. Idebenone is a short-chain benzoquinone that supports mitochondrial electron transport and has antioxidant activity. Its established use in Leber hereditary optic neuropathy, a mitochondrial disorder, is the basis for its original indication.
 
-No original indication data is available, so a direct comparison between Idebenone's established use and hepatic porphyria cannot be made. Importantly, the evidence pack's own assessment of this prediction is explicitly cautious: hepatic porphyria's pathology centres on a deficiency in haem synthesis enzymes leading to accumulation of porphyrin precursors, a pathway with no established direct link to mitochondrial oxidative phosphorylation or antioxidant mechanisms. The mechanistic connection is therefore described as weak, and this prediction is presented as arising purely from TxGNN's topological (network-similarity) reasoning rather than from any known biological pathway overlap.
+A link to hepatic porphyria is conceivable if oxidative stress or mitochondrial dysfunction contributes to liver injury in that condition. However, this is speculative. Without confirmed mechanism data and with no supporting studies, the mechanistic rationale cannot be verified.
 
-Nine further candidate indications are listed in the underlying dataset (e.g. idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, immune-mediated necrotizing myopathy), all scored at similarly high TxGNN confidence but all rated L5/Hold with no supporting trials or literature. Several of these (e.g. necrotizing myopathy, antisynthetase syndrome) have a somewhat more plausible mitochondrial/oxidative-stress rationale than the top-ranked hepatic porphyria prediction, but none currently have any empirical evidence base.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+The model also ranks several other conditions highly, all with the same lack of supporting evidence: idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, hepatoportal sclerosis, early-onset familial noncirrhotic portal hypertension, primitive portal vein thrombosis, immune-mediated necrotizing myopathy, osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome, antisynthetase syndrome and focal myositis. Of these, the myopathy-related conditions have some indirect plausibility, because idebenone has been studied in muscle disorders such as Duchenne muscular dystrophy. That evidence is not part of the data compiled for this report, and the autoimmune nature of these conditions keeps the link speculative.
 
 ## UK Market Information
 
-No UK marketing authorisations are on record for Idebenone as of the data cutoff (2026-09-03). The drug's market status is recorded as **not marketed** in the UK, with zero licences held.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0411000H0AAABAB | Idebenone Cap 150mg | Capsule (150 mg strength per product name) | Not stated in the data compiled for this report |
 
----
+The data lists one valid single-ingredient authorisation. The identifier is not in the standard MHRA "PL" format, so it should be checked against the MHRA register before any reliance is placed on it. Dosage form, manufacturer and approved indication text are not recorded in the data compiled for this report.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
-*Note: this evidence pack has a Blocking data gap on prescribing warnings/contraindications, meaning no formal safety pre-screening (S1) has been completed for Idebenone.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a high TxGNN topological score but is supported by zero clinical trials, zero literature, and no UK marketing history. The evidence pack itself rates the mechanistic plausibility for hepatic porphyria as weak, and a Blocking data gap on safety labelling (warnings/contraindications) means the candidate cannot yet enter formal safety pre-screening.
+The prediction is supported only by a model score (99.92%), with no registered clinical trials, no publications and no verified mechanism of action. This corresponds to evidence level L5, which is not enough to justify further investment at this stage.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-sourced warnings and contraindications for Idebenone (resolves Blocking gap DG001)
-- Confirmed mechanism of action data from DrugBank or equivalent source (resolves DG002)
-- Preclinical or observational evidence linking Idebenone to haem/porphyrin metabolism specifically
-- Reassessment of route of administration and dosing feasibility, since no UK licensed formulation currently exists
-- Consideration of whether other candidates in this batch (e.g. immune-mediated necrotizing myopathy, antisynthetase syndrome) merit prioritisation given their comparatively stronger mitochondrial rationale, pending the same evidence-generation steps
+- Mechanism of action data for idebenone, to allow a proper mechanistic-link analysis
+- A literature and trial search specific to idebenone in hepatic porphyria, and in the other predicted conditions
+- Safety information (warnings, contraindications and interactions) from the SmPC and BNF, which is currently missing and blocks safety screening
+- Verification of the UK marketing authorisation details, including the licensed indication, dosage form and MHRA authorisation number
+- Assessment of route and formulation compatibility with the proposed new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

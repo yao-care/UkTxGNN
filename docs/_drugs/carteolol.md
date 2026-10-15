@@ -2,7 +2,7 @@
 layout: default
 title: Carteolol
 parent: Model Prediction Only (L5)
-nav_order: 131
+nav_order: 135
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,65 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Carteolol: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+# Carteolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Carteolol is a non-selective β1/β2-adrenergic receptor antagonist (β-blocker), established in ophthalmology for reducing intraocular pressure (IOP) in open-angle glaucoma and ocular hypertension, and used systemically for hypertension and cardiac arrhythmias.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-however there are currently **no registered clinical trials** and **no supporting publications** for this specific indication — the prediction rests on pharmacological plausibility and mechanistic inference alone.
+Carteolol is a non-selective beta-blocker with intrinsic sympathomimetic activity, originally used for hypertension, open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+but at present there are **no clinical trials and no publications** supporting this specific prediction; it rests on model output alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Open-angle glaucoma / ocular hypertension (established pharmacological use; no UK marketing authorisation on record) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Original Indication | Hypertension, open-angle glaucoma and ocular hypertension (from the knowledge graph; no approved indication text is available in the UK licence data) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (mechanistic reasoning; no clinical studies identified) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Carteolol is a non-selective β1/β2-adrenergic receptor antagonist. Its ocular mechanism is well understood: by blocking β2 receptors in the ciliary body, it suppresses aqueous humour production, thereby lowering intraocular pressure (IOP). This mechanism is a cornerstone of medical management for open-angle glaucoma and ocular hypertension, and is shared by other β-blockers such as timolol and betaxolol.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, carteolol is a non-selective beta-adrenergic blocker with intrinsic sympathomimetic activity. In the eye it lowers intraocular pressure (IOP) by reducing aqueous humour production. Its efficacy in open-angle glaucoma and ocular hypertension is established.
 
-The TxGNN model's prediction is therefore mechanistically plausible in a narrow sense: primary hereditary glaucoma (also referred to as primary congenital or juvenile open-angle glaucoma) is characterised by chronically elevated IOP, and IOP reduction remains the principal therapeutic target regardless of aetiology. In that respect, carteolol's pharmacological effect — reducing aqueous humour production — is directly relevant to the elevated-IOP component of the disease, and forms the basis of this prediction.
+Raised IOP is the main modifiable risk factor across glaucoma subtypes, so there is a plausible mechanistic basis for use in primary hereditary glaucoma (for example, MYOC- or CYP1B1-related forms). The very high TxGNN score is likely driven by the close proximity of this condition to the approved glaucoma indications in the knowledge graph, and it should not be read as evidence of clinical benefit.
 
-However, the mechanistic link is indirect and symptomatic rather than disease-modifying. Primary hereditary glaucoma is fundamentally a structural and genetic disorder: the underlying pathology is trabeculodysgenesis (maldevelopment of the trabecular meshwork and anterior chamber angle), driven by mutations in genes such as *MYOC*, *CYP1B1*, and *LTBP2*. IOP elevation is a secondary consequence of impaired aqueous outflow through a structurally abnormal drainage system. Carteolol reduces IOP by suppressing aqueous production, but cannot correct the structural defect or modify the disease at the genetic level. The mechanistic connection should therefore be characterised as **adjunctive / symptomatic** rather than curative or disease-modifying.
+There is an important caveat. Some hereditary glaucomas, such as primary congenital glaucoma, are caused by developmental anomalies of the anterior chamber angle and are usually managed surgically. In those cases, medical IOP lowering would be an adjunct at best.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Carteolol in primary hereditary glaucoma.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Carteolol in primary hereditary glaucoma.
+Currently no related literature available.
 
 ---
 
 ## UK Market Information
 
-Carteolol currently holds **no MHRA marketing authorisation** in the United Kingdom. No licensed products are on record with the UK medicines register. This means there is no approved Summary of Product Characteristics (SmPC) for a UK-licensed carteolol product, and no BNF listing under a current UK authorisation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1106000K0AAABAB | Carteolol HCl Eye Drops 2% | Eye drops (per product name) | Not available in the data compiled |
 
-> **Note for clinicians:** Carteolol ophthalmic preparations are licensed and used in other jurisdictions (including Japan and France). Any use in the UK would require assessment under unlicensed/off-label frameworks, including compliance with NHS England guidance on the prescribing of unlicensed medicines.
+The licence number above is reproduced as recorded and does not follow the usual UK "PL XXXXX/XXXX" format, so it should be checked against the MHRA register. Manufacturer, dosage form and indication text are also missing from the record. NICE appraisal and BNF classification details were not available.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC (from a reference jurisdiction, e.g., the European Public Assessment Report or equivalent) and the BNF for safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
+- **Contraindications suggested by the knowledge graph** (derived from graph relationships, not from label text, so they need verification against the SmPC): bronchitis, asthma (including intrinsic and allergic asthma), pulmonary emphysema, diabetes mellitus, diabetic ketoacidosis, myasthenia gravis (including adult-onset) and other neuromuscular junction disease, atrioventricular block, congestive heart failure, heart failure, and anaphylaxis.
+- **Drug Interactions** (100 interactions recorded; the first 20 are shown in the data compiled):
+  - **Major**: epinephrine, dolasetron.
+  - **Moderate**: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, methscopolamine, hyoscyamine, atropine, dicyclomine, bupropion, cimetidine, canagliflozin, dapagliflozin, chlorpropamide, calcium phosphate, calcium acetate.
+  - **Minor**: acetylsalicylic acid, magnesium oxide.
 
-> As a β-blocker, carteolol carries class-level considerations relevant to ophthalmic use, including potential systemic absorption and effects in patients with asthma, chronic obstructive pulmonary disease, bradycardia, heart block, or uncontrolled heart failure. Clinicians should consult the relevant SmPC before any clinical use.
+Product-specific warnings and contraindications from the label are not available. Please refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,19 +102,15 @@ Please refer to the SmPC (from a reference jurisdiction, e.g., the European Publ
 **Decision: Hold**
 
 **Rationale:**
-Carteolol's mechanism of lowering IOP is pharmacologically relevant to primary hereditary glaucoma, but the evidence base is entirely absent — no clinical trials or publications have been identified for this specific indication. Furthermore, carteolol has no UK marketing authorisation, limiting any near-term clinical pathway. The connection is mechanistically adjunctive (symptom control) rather than disease-modifying, which further tempers the strength of this repurposing signal.
+The prediction is supported only by the model score (L5), with no trials or publications for primary hereditary glaucoma. Label-level safety information is missing, and some hereditary glaucomas are mainly treated surgically, which limits the likely benefit of an IOP-lowering drug.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action data (DrugBank full record):** Retrieve the complete DrugBank MOA entry for DB00521 to confirm receptor binding profile, pharmacokinetics, and known ocular penetration.
-- **Comparative effectiveness data:** A targeted literature search to assess whether any ophthalmic β-blocker (class evidence) has been studied specifically in primary hereditary glaucoma or congenital glaucoma — this would establish whether the class effect is transferable.
-- **UK regulatory pathway assessment:** Since no UK MA exists, clarify whether the clinical context would require a Specials licence, a clinical trial authorisation (CTA), or a named-patient basis — and whether a marketing authorisation application (MAA) via the MHRA would be warranted.
-- **Safety profile review:** Obtain the TFDA/EMA SmPC or equivalent to populate key warnings and contraindications; this is currently a blocking data gap (DG001).
-- **Genetic subtype stratification:** Determine whether IOP-lowering therapy (β-blocker class) offers meaningful benefit in *CYP1B1*- or *MYOC*-mutation carriers specifically, as paediatric congenital glaucoma is primarily surgical — understanding the patient population is critical before committing to any trial design.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Any repurposing candidate requires clinical validation before therapeutic application. All content is subject to the YMYL disclaimer applicable to drug repurposing research.*
+- Mechanism of action data, to support the mechanistic-link analysis
+- Label-level warnings and contraindications from the SmPC and BNF, which are currently a blocking gap for safety screening
+- A literature and trial search specific to carteolol in hereditary or primary congenital glaucoma subtypes
+- Clarification of the UK licence record (dosage form, manufacturer, approved indication, licence number format)
+- Assessment of route compatibility (topical ophthalmic use) and of how far the prediction differs from the existing open-angle glaucoma indication
+- Clinical input on which hereditary glaucoma subtypes could realistically benefit from medical IOP lowering
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

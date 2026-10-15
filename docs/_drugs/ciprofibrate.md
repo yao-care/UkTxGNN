@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ciprofibrate
-parent: High Evidence (L1-L2)
-nav_order: 165
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 172
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ciprofibrate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,91 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using this as a direct content-generation task against the given template — no codebase skill matches "write a repurposing report from a supplied evidence pack," so I'll produce the report following the v5 prompt's structure exactly, drawing only on data present in the JSON (no fabricated licences/history).
-
-A few data-handling notes before the report:
-- `taiwan_regulatory.licenses` is empty and `original_moa` is a data gap, so there is no "original indication" text to extract — I've stated this plainly rather than inventing one.
-- Ciprofibrate's own predicted indications evidence pack flags that rank‑1 ("hyperlipoproteinemia") is the *classic* fibrate indication, not a novel hypothesis — I've kept that caveat visible rather than glossing over it.
-- Safety fields are all data gaps → used the mandated fallback sentence.
-- Not an antineoplastic drug → Cytotoxicity section omitted entirely.
-- `DG001` (Blocking: missing label warnings/contraindications) is carried into Conclusion & Next Steps since it materially limits how far this candidate can proceed.
-
----
-
-# Ciprofibrate: From Unlicensed Fibrate to Hyperlipoproteinemia
+# Ciprofibrate: From Hypertriglyceridaemia to Hyperlipoproteinaemia
 
 ## One-Sentence Summary
 
-Ciprofibrate is a fibrate-class lipid-lowering agent with no current UK marketing authorisation on file in this evidence pack. The TxGNN model's top-ranked prediction is **Hyperlipoproteinemia** — which, on review of the supporting literature, corresponds to the drug's long-established classical use rather than a genuinely novel repurposing hypothesis — supported by **0 registered clinical trials** and **20 publications**, including several historical randomised controlled trials.
-
----
+Ciprofibrate is a fibrate originally used to treat hypertriglyceridaemia and familial combined hyperlipidaemia.
+The TxGNN model predicts it may be effective for **hyperlipoproteinaemia**, a closely related lipid disorder,
+with **no registered clinical trials** but **20 publications** (mostly older clinical studies using lipid and biomarker endpoints) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no UK marketing authorisation on file); pharmacologically a fibrate historically used for hyperlipidaemia/hyperlipoproteinaemia |
-| Predicted New Indication | Hyperlipoproteinemia |
+| Original Indication | Hypertriglyceridaemia; familial combined hyperlipidaemia |
+| Predicted New Indication | Hyperlipoproteinaemia |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
----
+*Note: The data compiled for this report did not include approved indication text for the authorisation, so the original indication above is taken from the knowledge-graph indication records.*
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available for Ciprofibrate in this evidence pack. However, the collected literature and the model's own rationale consistently describe it as a **PPAR-α (peroxisome proliferator-activated receptor alpha) agonist**. Activation of PPAR-α upregulates lipoprotein lipase (LPL) and apolipoprotein A-I/A-II expression, which together lower VLDL and triglyceride levels and produce a modest rise in HDL cholesterol.
+Ciprofibrate is a fibrate that activates PPAR-alpha (peroxisome proliferator-activated receptor alpha), a nuclear receptor that regulates lipid metabolism. Activation reduces hepatic VLDL production and increases lipoprotein lipase activity, lowering triglycerides and raising HDL cholesterol. Detailed mechanism-of-action data were not available beyond this target information.
 
-Importantly, this mechanism maps directly onto the pathophysiology of hyperlipoproteinaemia (Fredrickson types IIa, IIb and IV) — elevated LDL, VLDL and/or triglycerides with reduced HDL. This is precisely the disorder that fibrates as a drug class, including ciprofibrate, were originally developed and extensively studied to treat.
+Hyperlipoproteinaemia is a broad, overlapping category that includes the conditions ciprofibrate is already used for (hypertriglyceridaemia and combined hyperlipidaemia). The prediction is therefore effectively an on-label or near-label indication rather than true repurposing. The same PPAR-alpha mechanism applies, and published studies describe benefit in type IIa, IIb and IV hyperlipoproteinaemia.
 
-For that reason, this should **not be read as a novel repurposing signal**: the predicted indication is essentially the drug's classical, well-characterised use rather than a new therapeutic hypothesis. The clinical value of this evidence pack lies less in "discovering" a new indication and more in confirming that TxGNN correctly recovers a well-known drug–disease relationship — useful as a sanity check on the model, but not something that would independently justify a repurposing programme. Several lower-ranked candidates in this pack (e.g. CETP deficiency, HTGL deficiency, CYP7A1 deficiency, familial hypercholesterolaemia) extend the same PPAR-α/lipid-lowering mechanism into related but less-established territory, and are correspondingly rated L5/Hold pending further evidence; two candidates (prostate fibroma, prostate/brain cancer susceptibility) are flagged in the source data itself as probable knowledge-graph noise with no biological or literature support.
-
----
+Other predicted indications in the data are much weaker. Hyperlipidaemia and familial hyperlipidaemia are also supported by clinical studies (L3), whereas several others (for example homozygous familial hypercholesterolaemia, prostatic fibroma and prostate/brain cancer susceptibility) have no supporting evidence and should be regarded as computational artefacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for hyperlipoproteinaemia.
 
----
+For the broader prediction of hyperlipidaemia, one trial was identified, but it has limited direct relevance:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01480687](https://clinicaltrials.gov/study/NCT01480687) | Phase 4 | Unknown | 52 | Compares ciprofibrate with omega-3 fatty acid supplementation on vascular structure and function in hypertensive patients with hypertriglyceridaemia (2011–2012) |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9015467](https://pubmed.ncbi.nlm.nih.gov/9015467/) | 1996 | RCT | Postgraduate Medical Journal | Multicentre, open, parallel-group trial (n=174) comparing ciprofibrate 100 mg/day with sustained-release bezafibrate 400 mg/day in type II hyperlipidaemia; both agents were effective and well tolerated. |
-| [8831920](https://pubmed.ncbi.nlm.nih.gov/8831920/) | 1996 | Cohort/open-label | Atherosclerosis | Pooled efficacy/safety data from roughly 3,000 patients on ciprofibrate 100 mg/day across type IIa, IIb and IV hyperlipoproteinaemia; consistent reductions in total cholesterol, triglycerides, apoB and LDL-C. |
-| [3994783](https://pubmed.ncbi.nlm.nih.gov/3994783/) | 1985 | RCT (double-blind, comparative) | Atherosclerosis | 3-month double-blind comparison of ciprofibrate 100 mg/day vs fenofibrate 300 mg/day; both reduced TC, LDL-C and VLDL-C and increased HDL-C and apoA. |
-| [12915663](https://pubmed.ncbi.nlm.nih.gov/12915663/) | 2003 | Clinical mechanistic study | Journal of Clinical Endocrinology and Metabolism | Ciprofibrate 100 mg/day in patients with type IIb hyperlipidaemia reduced atherogenic VLDL subclasses and enhanced HDL-mediated cholesterol efflux. |
-| [17414592](https://pubmed.ncbi.nlm.nih.gov/17414592/) | 2007 | Clinical study | American Journal of Therapeutics | Ciprofibrate reduced non-HDL cholesterol and triglycerides while raising HDL-C in patients with Fredrickson type IV dyslipidaemia. |
-| [6753860](https://pubmed.ncbi.nlm.nih.gov/6753860/) | 1982 | RCT (double-blind, placebo-controlled) | Atherosclerosis | Randomised, placebo-controlled 12-week trial of ciprofibrate 50/100 mg/day in type II hypercholesterolaemia; dose-dependent lipid lowering, well tolerated. |
-| [2289217](https://pubmed.ncbi.nlm.nih.gov/2289217/) | 1990 | Multicentre trial | Clinical Therapeutics | Italian multicentre study of 127 diet-resistant patients with type IIa/IIb hyperlipidaemia on ciprofibrate 100 mg/day for 12 weeks; significant reductions in TC, LDL-C, VLDL-C, TG and apoB, with increases in HDL-C and apoA-I. |
-| [11048518](https://pubmed.ncbi.nlm.nih.gov/11048518/) | 2000 | Multicentre cohort | Vnitřní Lékařství | 633 patients across 23 Czech centres treated with ciprofibrate (Lipanor) 100 mg/day for 3 months; cholesterol fell 13%, triglycerides fell over 41%, HDL-C rose 15%. |
-| [6951582](https://pubmed.ncbi.nlm.nih.gov/6951582/) | 1982 | Dose-response study | Atherosclerosis | Dose-response study (50/100/200 mg/day) in 50 patients with type IIA/IIB/IV hyperlipoproteinaemia; 200 mg/day gave the greatest lipid-lowering effect, normalising LDL-C in types IIA/IIB. |
-| [9364979](https://pubmed.ncbi.nlm.nih.gov/9364979/) | 1997 | Comparative study | Thrombosis and Haemostasis | Compared effects of gemfibrozil and ciprofibrate on t-PA, PAI-1 and fibrinogen in hyperlipidaemic patients, exploring haemostatic effects beyond lipid lowering. |
-
----
+| [8831920](https://pubmed.ncbi.nlm.nih.gov/8831920/) | 1996 | Clinical efficacy/safety | Atherosclerosis | Ciprofibrate 100 mg/day effective in type IIa, IIb and IV hyperlipoproteinaemia; lowers total cholesterol, triglycerides, apo B and LDL-C |
+| [9015467](https://pubmed.ncbi.nlm.nih.gov/9015467/) | 1996 | Comparative trial | Postgrad Med J | Ciprofibrate vs sustained-release bezafibrate in 174 patients with type II hyperlipidaemia over 8 weeks |
+| [6753860](https://pubmed.ncbi.nlm.nih.gov/6753860/) | 1982 | Double-blind RCT | Atherosclerosis | Placebo-controlled trial in type II hypercholesterolaemia (n=20); lipids fell on active drug and it was well tolerated |
+| [3994783](https://pubmed.ncbi.nlm.nih.gov/3994783/) | 1985 | Double-blind comparative | Atherosclerosis | Ciprofibrate 100 mg vs fenofibrate 300 mg: both reduced total and LDL cholesterol and raised HDL |
+| [2289217](https://pubmed.ncbi.nlm.nih.gov/2289217/) | 1990 | Multicentre study | Clin Ther | Italian study of 127 patients with type II and IV hyperlipidaemia; significant lipid improvements over 12 weeks |
+| [12915663](https://pubmed.ncbi.nlm.nih.gov/12915663/) | 2003 | Mechanistic clinical study | J Clin Endocrinol Metab | In type IIb patients, reduced VLDL subclasses and stimulated HDL-mediated cholesterol efflux |
+| [17414592](https://pubmed.ncbi.nlm.nih.gov/17414592/) | 2007 | Clinical study | Am J Ther | In type IV dyslipidaemia, lowered non-HDL cholesterol and triglycerides and raised HDL cholesterol |
+| [6951582](https://pubmed.ncbi.nlm.nih.gov/6951582/) | 1982 | Dose-response study | Atherosclerosis | 50, 100 and 200 mg/day in 50 patients; greatest effect at 200 mg/day |
+| [3318453](https://pubmed.ncbi.nlm.nih.gov/3318453/) | 1987 | Review | Am J Med | Reviews fibric acid derivatives (bezafibrate, ciprofibrate, fenofibrate) and their effects on lipids and lipoproteins |
+| [9364979](https://pubmed.ncbi.nlm.nih.gov/9364979/) | 1997 | Comparative study | Thromb Haemost | Effects of gemfibrozil and ciprofibrate on t-PA, PAI-1 and fibrinogen in hyperlipidaemic patients |
 
 ## UK Market Information
 
-Ciprofibrate is not currently marketed in the UK — this evidence pack records no active MHRA marketing authorisations (0 licences on file). Any repurposing pathway would therefore need to proceed via a new marketing authorisation application or an equivalent regulatory route, not a variation to an existing licence.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 021200010AAAAAA | Ciprofibrate Tab 100mg | Not specified | Not specified |
 
----
+The compiled data list one valid single-ingredient authorisation. The authorisation number is shown as supplied and does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Approved indication and dosage form details were not available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** The only interaction record in the data is pharmacological rather than drug–drug: ciprofibrate's target is PPAR-alpha. No specific interacting medicines were listed.
+- **Combination with statins:** The literature on familial combined hyperlipidaemia highlights myopathy and rhabdomyolysis risk with statin–fibrate combinations; monitoring is required.
+- **Other points from the literature:** One review notes that fibrates may increase gallstone risk by increasing biliary cholesterol secretion (clofibrate), and another reports homocysteine elevation with some fibrates. Rodent studies link peroxisome proliferators to hepatocarcinogenesis.
 
-*Note: This evidence pack flags the absence of label warnings/contraindications and drug-drug interaction data as a blocking gap for formal safety evaluation — see Conclusion and Next Steps below.*
-
----
+Please refer to the SmPC and BNF for full warnings, contraindications and interactions. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic link between ciprofibrate's PPAR-α-mediated lipid-lowering activity and hyperlipoproteinaemia is strong and well supported by decades of published RCTs and cohort studies — but this reflects the drug's classical, long-established use rather than a novel repurposing opportunity, and no registered clinical trials currently exist for this specific indication in this dataset.
+Hyperlipoproteinaemia substantially overlaps with ciprofibrate's established uses, and a body of clinical studies, including double-blind comparative trials, supports lipid-lowering efficacy. However, the evidence is largely old, based on surrogate endpoints, and lacks registered trials or cardiovascular outcome data, and safety label data were not available.
 
 **To proceed, the following is needed:**
-- Structured mechanism-of-action data (currently a data gap; sourced provisionally from literature/rationale text only)
-- SmPC/label warnings and contraindications (flagged as a **blocking** gap in this evidence pack — required before any formal safety (S1) evaluation can proceed)
-- Formal drug-drug interaction (DDI) data (current query returned no results)
-- Clarification of regulatory strategy given zero existing UK marketing authorisations
-- A reassessment of whether this candidate merits further repurposing investment, given that the top-ranked prediction largely reproduces ciprofibrate's known pharmacological class use rather than identifying a new therapeutic avenue
+- Review of the current UK SmPC and BNF entry to confirm approved indications, contraindications and warnings
+- Verification of the marketing authorisation number, dosage form and approved indication on the MHRA register
+- Detailed mechanism-of-action data
+- Positioning against current standard of care (statins and other therapies), since fibrates are not first-line for LDL lowering
+- A monitoring plan for statin–fibrate combinations (muscle symptoms, creatine kinase, liver and renal function)
+- Cardiovascular outcome data, if a claim beyond lipid lowering is intended
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

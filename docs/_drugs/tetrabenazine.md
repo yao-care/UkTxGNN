@@ -2,7 +2,7 @@
 layout: default
 title: Tetrabenazine
 parent: Model Prediction Only (L5)
-nav_order: 567
+nav_order: 609
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tetrabenazine: From Huntington's Disease Chorea to Polycystic Kidney Disease 3 (with or without Polycystic Liver Disease)
+# Tetrabenazine: From Huntington Disease to Polycystic Kidney Disease 3 (With or Without Polycystic Liver Disease)
 
 ## One-Sentence Summary
 
-Tetrabenazine is a VMAT2 (vesicular monoamine transporter 2) inhibitor internationally used to reduce chorea associated with Huntington's disease. The TxGNN model predicts a possible association with **Polycystic Kidney Disease 3, with or without Polycystic Liver Disease**, but this candidate is currently supported by **0 clinical trials** and **20 background publications that describe the disease itself rather than Tetrabenazine-specific evidence**, placing it at the lowest evidence tier (L5).
-
----
+Tetrabenazine is a VMAT2 inhibitor originally used for hyperkinetic movement disorders such as Huntington disease.
+The TxGNN model predicts it may be effective for **polycystic kidney disease 3 with or without polycystic liver disease**,
+but there are currently **no clinical trials and no publications** supporting this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this Evidence Pack (`original_indications` is empty); internationally used for Huntington's disease-associated chorea, as referenced within the supporting trial evidence for this candidate |
-| Predicted New Indication | Polycystic Kidney Disease 3, with or without Polycystic Liver Disease |
+| Original Indication | Huntington disease (the UK authorisation record holds no indication text; this is taken from the knowledge-graph indication list, which also includes Huntington disease-like syndromes and McLeod neuroacanthocytosis syndrome) |
+| Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data is not available in this Evidence Pack (`original_moa: [Data Gap]`). However, the accompanying rationale for this candidate notes that Tetrabenazine is a known VMAT2 inhibitor, which depletes presynaptic monoamine neurotransmitters (dopamine, serotonin, noradrenaline). This pharmacology underlies its established use in hyperkinetic movement disorders such as Huntington's disease-associated chorea.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, tetrabenazine is a reversible VMAT2 inhibitor that depletes presynaptic monoamines, which is how it reduces involuntary movements in Huntington disease.
 
-Polycystic kidney disease and polycystic liver disease, in contrast, are driven by an entirely different pathophysiological pathway — mutations in genes such as *PKD1*, *PKD2*, and *PKHD1* leading to primary cilia dysfunction and progressive cyst formation in the kidney and liver. There is no established pharmacological or molecular link between central monoamine depletion and renal/hepatic cystogenesis.
+Polycystic kidney/liver disease type 3 is driven by defects in the cystic-protein and ER-processing pathway (for example GANAB/PRKCSH). This has no evident connection to monoamine transport. **No mechanistic link is supported by the available data.** The high TxGNN score (0.999) should be treated as a computational signal that has not been validated.
 
-Consistent with this, the Evidence Pack's own mechanistic assessment for this candidate explicitly finds no plausible pathway connecting VMAT2 inhibition to ciliopathy-driven cyst formation. All 20 supporting literature items describe the natural history, genetics, diagnosis, or clinical management of polycystic kidney/liver disease itself — none mention Tetrabenazine or VMAT2 pathways. This pattern is consistent with disease-keyword co-occurrence noise in the underlying knowledge graph rather than a genuine drug-repurposing signal, and the same weak-evidence pattern (L4–L5, "Hold") recurs across the other nine predicted indications for this candidate in the wider evidence set.
-
----
+Other top-ranked predictions show the same pattern. Renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, acute intermittent porphyria and several congenital developmental or metabolic disorders all lack a plausible link to VMAT2 inhibition. The only even loosely related prediction is Joubert syndrome with renal defect, because of its neurological movement features, but its renal and ciliary pathology is not targeted by tetrabenazine.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38958301](https://pubmed.ncbi.nlm.nih.gov/38958301/) | 2024 | Guideline | Am J Gastroenterol | ACG clinical guideline on focal liver lesions, including management of polycystic liver disease |
-| [35728731](https://pubmed.ncbi.nlm.nih.gov/35728731/) | 2022 | Guideline | J Hepatol | EASL clinical practice guidelines on the management of cystic liver diseases |
-| [30819518](https://pubmed.ncbi.nlm.nih.gov/30819518/) | 2019 | Review | Lancet | Comprehensive review of ADPKD pathophysiology, genetics, and extrarenal manifestations |
-| [35487607](https://pubmed.ncbi.nlm.nih.gov/35487607/) | 2022 | Review | Clin Liver Dis | Review of the ADPKD/polycystic liver disease clinical course; notes tolvaptan (not Tetrabenazine) as an approved treatment |
-| [29038287](https://pubmed.ncbi.nlm.nih.gov/29038287/) | 2018 | Review | J Am Soc Nephrol | Genetic complexity and gene overlap between ADPKD and autosomal dominant polycystic liver disease |
-| [38097330](https://pubmed.ncbi.nlm.nih.gov/38097330/) | 2023 | Review | Adv Kidney Dis Health | Genetic spectrum of *PKD1*/*PKD2* mutations and resulting phenotypes |
-| [34724412](https://pubmed.ncbi.nlm.nih.gov/34724412/) | 2022 | Review | Annu Rev Pathol | Mechanistic understanding and treatment advances in polycystic liver disease |
-| [36200122](https://pubmed.ncbi.nlm.nih.gov/36200122/) | 2022 | Review | Hepat Med | Overview of pathophysiology, diagnosis, and treatment of polycystic liver disease |
-| [28375157](https://pubmed.ncbi.nlm.nih.gov/28375157/) | 2017 | Basic Science | J Clin Invest | Whole-exome sequencing identifies effectors of polycystin-1 function in isolated polycystic liver disease |
-| [37266470](https://pubmed.ncbi.nlm.nih.gov/37266470/) | 2023 | Case Report | Maedica | Case report of ADPKD/adult polycystic liver disease associated with advanced gastric cancer |
+Currently no related literature available for the lead prediction.
 
-**Note:** None of the above literature mentions Tetrabenazine, VMAT2, or any pharmacological intervention relevant to this drug. All items describe the natural history, genetics, or clinical management of polycystic kidney/liver disease itself.
-
----
+For context, the only publication retrieved across the top ten predictions (PMID [11293103](https://pubmed.ncbi.nlm.nih.gov/11293103/), 2001, case report, *Revista de Neurologia*) concerns spasmodic torticollis associated with a vertebral haemangioma. It was retrieved for the lower-ranked prediction "thoracic malformation" and does not show that tetrabenazine treats any predicted condition.
 
 ## UK Market Information
 
-Tetrabenazine currently holds no marketing authorisation on record in this Evidence Pack (market status: Not Marketed; 0 licenses).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409030C0AAAAAA (as recorded; not a standard MHRA PL number) | Tetrabenazine Tablets 25 mg | Tablet (not stated in the record) | Not stated in the record |
 
----
+One valid single-ingredient authorisation is recorded. The record contains no manufacturer, dosage form or indication text, so the licence details should be verified against the MHRA register, the SmPC and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+The following comes from knowledge-graph contraindication links (not label text) and drug interaction screening.
 
----
+- **Contraindication-related conditions (knowledge graph):**
+  - Movement and neurological: Parkinson disease, parkinsonian disorder, multiple system atrophy, tardive dyskinesia, drug-induced akathisia.
+  - Cardiovascular: long QT syndrome (including familial), torsades de pointes, orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorder.
+  - Psychiatric: anxiety disorder, neurotic disorder, dysthymic disorder.
+  - Hepatobiliary: liver disease, gallbladder disease.
+  - Endocrine: hyperprolactinaemia (including familial, acquired and prolactin-producing pituitary tumour).
+- **Drug interactions:** 100 interactions were identified. Those listed as **Major** include:
+  - Bupropion
+  - Dolasetron
+  - Metoclopramide
+
+  Many **Moderate** interactions were also listed, including clarithromycin, levofloxacin, morphine, famotidine, loperamide, palonosetron, dronabinol, nabilone and eliglustat. Several of these are QT-prolonging or CNS-active agents.
+- Acute intermittent porphyria, a predicted indication, would require a dedicated porphyria safety review before any consideration.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- This candidate sits at evidence level L5 (model prediction only), with zero drug-specific clinical trials and literature limited entirely to disease background rather than Tetrabenazine-specific data. The Evidence Pack's own mechanistic assessment finds no plausible pathway linking VMAT2 inhibition to renal/hepatic cystogenesis, and this lack of support is consistent across the broader set of predicted indications for this drug.
+The prediction rests on a model score alone (L5), with no trials, no supporting literature and no plausible mechanistic link between VMAT2 inhibition and polycystic kidney/liver disease. The safety profile also includes QT-related and hepatic cautions that would need careful handling in a renal or hepatic population.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-sourced key warnings and contraindications (currently a Blocking data gap, DG001)
-- Confirmed mechanism-of-action data via DrugBank (currently a High-severity data gap, DG002)
-- Drug-specific preclinical or mechanistic studies linking the VMAT2 pathway to ciliopathy/cystogenesis, should this hypothesis be pursued further
-- Clarification of Tetrabenazine's current UK licensing/marketing status
+- Mechanism of action data and a documented biological rationale linking monoamine depletion to cyst formation.
+- Preclinical evidence (for example cell or animal models of the GANAB/PRKCSH pathway).
+- Complete UK licence details (dosage form, indication, manufacturer) and SmPC warnings and contraindications.
+- A safety assessment covering hepatic impairment, QT prolongation and the major drug interactions.
+- Review of whether any of the other top-ranked predictions has a stronger rationale, since none currently has supporting clinical evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

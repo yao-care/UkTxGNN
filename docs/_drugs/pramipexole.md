@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pramipexole
-parent: Moderate Evidence (L3-L4)
-nav_order: 472
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 509
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pramipexole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using the provided Evidence Pack (predicted_indications[0] = ADHD, per Quick Overview extraction rule) as the primary subject of this report.
-
-# Pramipexole: From Parkinson's Disease to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# Pramipexole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Pramipexole is a non-ergoline dopamine D2/D3 receptor agonist, established through published literature for the treatment of Parkinson's disease and restless legs syndrome. The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**, but this direction is currently supported by only **1 tangentially related clinical trial** and **9 largely indirect publications**, none of which are ADHD-specific randomised controlled trials.
+Pramipexole is a dopamine agonist originally used for Parkinson disease and restless legs syndrome.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but the data compiled for this report contain **no clinical trials** and **no ADHD-specific publications** to support this direction, so it remains a computational prediction with indirect, hypothesis-level support.
 
 ---
 
@@ -43,31 +42,31 @@ Pramipexole is a non-ergoline dopamine D2/D3 receptor agonist, established throu
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in UK marketing authorisation data (drug currently unmarketed); literature within this pack indicates Parkinson's disease / restless legs syndrome |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Restless legs syndrome; Parkinson disease (taken from the knowledge graph, as no approved indication text was available for the UK product) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L4 (mechanistic and adjacent-condition evidence only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, the formal mechanism-of-action record for pramipexole is flagged as a data gap in this Evidence Pack. However, the literature contained within the pack allows partial inference: pramipexole is consistently described as a non-ergoline dopamine agonist with selectivity for D2/D3 receptors, an agent whose efficacy is best established in Parkinson's disease and restless legs syndrome (PMID [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/), PMID [11829733](https://pubmed.ncbi.nlm.nih.gov/11829733/)).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, pramipexole is a non-ergoline dopamine agonist that preferentially acts on D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects its ability to restore dopaminergic signalling.
 
-The rationale for extending this drug to ADHD rests on the dopamine hypothesis of ADHD, which proposes prefrontal cortical dopamine insufficiency as a core feature of the disorder. In principle, a dopamine agonist could theoretically address this deficit. However, the standard pharmacological approach to ADHD (stimulants such as methylphenidate and amphetamines) works by increasing synaptic dopamine and noradrenaline concentrations through reuptake inhibition and release, which is mechanistically distinct from pramipexole's direct D2/D3 receptor agonism.
+Dopaminergic dysregulation is implicated in ADHD. Variants of the dopamine D4 receptor gene have been linked to ADHD, and the retrieved literature discusses this (PMID 34182128). The link to pramipexole is therefore plausible, but indirect.
 
-Mechanistic plausibility alone does not amount to clinical evidence. The single clinical trial captured for this prediction (NCT00558766) studied motor cortex reward signalling in Parkinson's disease, not ADHD, and was only graded "C" (weak relevance) by the underlying evidence review. Similarly, most of the associated literature discusses pramipexole in the context of restless legs syndrome, Tourette's syndrome, or incidental comorbid ADHD (e.g. case reports where ADHD was a pre-existing diagnosis in a patient being treated for something else), rather than direct interventional evidence for ADHD itself. Overall, the mechanistic link is biologically plausible but not yet clinically demonstrated.
+No retrieved paper tests pramipexole as a treatment for ADHD. The nearest evidence is:
+- A randomised placebo-controlled trial of pramipexole in Tourette's syndrome, a related neurodevelopmental condition with overlapping dopaminergic biology.
+- A single case report of a patient with comorbid ADHD who improved on atomoxetine plus pramipexole. That report concerned chronic pain and oral dysesthesia, not ADHD itself.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00558766](https://clinicaltrials.gov/study/NCT00558766) | N/A | Completed | 35 | Studied motor cortex reward signalling in Parkinson's disease patients using TMS; not an ADHD trial. Relevance graded "C" — shares dopaminergic background only, no direct ADHD outcome data. |
+Currently no related clinical trials registered for ADHD.
 
 ---
 
@@ -75,27 +74,39 @@ Mechanistic plausibility alone does not amount to clinical evidence. The single 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT | Movement Disorders | Multicentre placebo-controlled RCT of pramipexole for Tourette's syndrome, testing the dopamine-hypersensitivity hypothesis — a related but distinct tic disorder, not ADHD. |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | Review of restless legs syndrome (RLS), a sensorimotor disorder responsive to dopamine agonists; background context only. |
-| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | Reviews pramipexole's "new use" in RLS via D3-selective agonism; establishes drug's known repurposing pattern but not for ADHD. |
-| [15540638](https://pubmed.ncbi.nlm.nih.gov/15540638/) | 2004 | Cohort | Developmental Medicine & Child Neurology | Studied periodic leg movements in children with sleep disorders, noting response to dopamine agonist pramipexole; ADHD comorbidity discussed but not treated as the primary outcome. |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Cohort | Clinical Neuropharmacology | 11-week trial comparing piribedil, pramipexole and ropinirole on vigilance/cognition in Parkinson's disease with excessive daytime sleepiness; no ADHD population. |
-| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case Report | Frontiers in Pain Research | Case of remission of chronic pain comorbid with ADHD using atomoxetine plus pramipexole combination; single-patient observation. |
-| [38649244](https://pubmed.ncbi.nlm.nih.gov/38649244/) | 2024 | Case Report | BMJ Case Reports | Case of hypokalaemia in a patient with pre-existing ADHD who was, among other medicines, taking pramipexole; incidental mention only. |
-| [24079375](https://pubmed.ncbi.nlm.nih.gov/24079375/) | 2013 | Animal Study | Journal of Motor Behavior | Proposes spontaneously hypertensive rats as a model linking RLS, periodic leg movements and ADHD; preclinical, hypothesis-generating. |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Basic Science | Pharmacological Research | Explores α2A-adrenoceptor/dopamine D4 receptor heteromerisation relevant to ADHD pathophysiology; does not test pramipexole directly. |
+| [22407510](https://pubmed.ncbi.nlm.nih.gov/22407510/) | 2012 | RCT (adjacent condition) | Movement Disorders | Multicentre placebo-controlled trial of pramipexole in Tourette's syndrome. This is not ADHD, but it is a related neurodevelopmental condition with overlapping dopaminergic biology. |
+| [37342213](https://pubmed.ncbi.nlm.nih.gov/37342213/) | 2023 | Case report | Frontiers in Pain Research | Remission of chronic low back pain and oral dysesthesia in a patient with comorbid ADHD treated with atomoxetine and pramipexole. ADHD treatment itself was not tested. |
+| [19412489](https://pubmed.ncbi.nlm.nih.gov/19412489/) | 2006 | Review | Neuropsychiatric Disease and Treatment | Pramipexole in restless legs syndrome. Supports the dopaminergic mechanism of the original indication, not ADHD. |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue Neurologique | Review of restless legs syndrome. Only tangentially related to ADHD. |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical/mechanistic | Pharmacological Research | Heteromerisation of α2A adrenoceptors with D4 receptor variants, relevant to ADHD and impulse-control disorders. Provides mechanistic context only. |
+| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Clinical study | Clinical Neuropharmacology | Piribedil compared with pramipexole and ropinirole on vigilance in Parkinson disease. A different drug and condition, so only tangentially related. |
 
 ---
 
 ## UK Market Information
 
-Pramipexole is **not currently marketed in the UK** under this Evidence Pack's regulatory data — 0 marketing authorisations are recorded, and no licence entries are available to summarise. Prescribers should verify current UK licensing status directly via the MHRA product register before considering any use.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409010W0AAACAC | Pramipexole tablets 88 mcg | Tablet | Not specified in the data compiled for this report |
+
+The identifier above is as listed in the data and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. Please also consult the BNF and relevant NICE guidance for the licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications flagged in the knowledge graph** (these come from drug-disease relationship data, not from product label text):
+- Neurological and autonomic: multiple system atrophy, orthostatic hypotension, postural orthostatic tachycardia syndrome, drug-induced dyskinesia, central nervous system disease
+- Psychiatric: psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder
+- Sleep-related: obstructive sleep apnoea, sleep apnoea syndrome, congenital central hypoventilation syndrome, narcolepsy, narcolepsy-cataplexy syndrome
+- Other: kidney disease, melanoma, pyoureter, Balo concentric sclerosis, X-linked adrenoleukodystrophy, Haddad syndrome
+
+**Drug interactions** (100 recorded in total; the main ones by severity):
+- **Moderate:** morphine (including liposomal), opium, cimetidine, metoclopramide, dronabinol, nabilone
+- **Minor:** ranitidine (including ranitidine bismuth citrate)
+- Many other recorded interactions have an unclassified severity.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -104,15 +115,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis linking pramipexole's D2/D3 agonism to ADHD's dopamine-deficiency model is biologically plausible, but no clinical trial in this Evidence Pack directly tests pramipexole for ADHD — the sole trial concerns Parkinson's disease, and the literature is dominated by case reports and cohort studies with incidental ADHD mentions rather than interventional ADHD evidence. This corresponds to Evidence Level L4 (mechanism/preclinical only), consistent with a Hold recommendation.
+The high model score is not backed by any ADHD-specific trial or publication. The only supporting evidence is a plausible dopaminergic link, one unrelated case report and one RCT in a different condition. The knowledge graph also flags several neuropsychiatric contraindications that would need careful consideration in this population.
 
 **To proceed, the following is needed:**
-- A confirmed mechanism-of-action record from DrugBank/SmPC to replace the current data gap
-- A dedicated, ADHD-specific interventional trial (ideally RCT) rather than reliance on Parkinson's disease or Tourette's syndrome data
-- UK marketing authorisation and TFDA/MHRA safety labelling data, currently entirely absent
-- Full contraindication, warning, and drug-interaction data (all flagged as data gaps in this pack) before any S1 safety screening can be completed
+- Controlled clinical data of pramipexole in ADHD, or at least a well-designed pilot study
+- Detailed mechanism of action data to strengthen the mechanistic link
+- A review of label-based warnings and contraindications from the SmPC, plus a safety plan for neuropsychiatric risks
+- Verification of the UK marketing authorisation details, including the licensed indication and dosage form
 
-**Note for reviewers:** within the same Evidence Pack, a lower-ranked candidate indication for pramipexole — **schizophrenia** (rank 9, TxGNN score 99.52%) — carries substantially stronger evidence (Evidence Level L2, decision stage S2, "Proceed with Guardrails"), including a completed Phase 4 RCT, a Phase 3 add-on trial, and a positive 16-week double-blind placebo-controlled RCT (PMID 35921506) plus a systematic review/meta-analysis (PMID 31688399). Reviewers evaluating this Evidence Pack as a whole may wish to prioritise the schizophrenia signal over the headline ADHD prediction discussed above.
+**Note on other predictions:** Among the other predicted indications, **schizophrenia** (rank 9) has markedly stronger support. It has a Phase 3 add-on trial (NCT01320982, status unknown, no results supplied) and a published randomised placebo-controlled add-on trial (PMID 35921506, 200 patients). This is worth assessing separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

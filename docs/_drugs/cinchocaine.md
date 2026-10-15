@@ -2,7 +2,7 @@
 layout: default
 title: Cinchocaine
 parent: Model Prediction Only (L5)
-nav_order: 162
+nav_order: 169
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,86 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Cinchocaine: From Local Anaesthesia to Bronchitis
+# Cinchocaine: From Dermatitis to Bronchitis
 
 ## One-Sentence Summary
 
-Cinchocaine (also known as dibucaine) is a potent amide-type local anaesthetic primarily used for topical and spinal anaesthesia.
-The TxGNN model predicts it may be effective for **Bronchitis**,
-however there are currently **no clinical trials** and **no publications** supporting this direction.
+Cinchocaine (dibucaine) is an amide-type local anaesthetic, originally used for dermatitis-related symptom relief.
+The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials** and **no publications** currently support this direction. This is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (topical and spinal) |
+| Original Indication | Dermatitis (from the knowledge graph; no approved indication text is available for the UK product) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 (Model prediction only) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacology, cinchocaine is a potent local anaesthetic belonging to the amide class. It acts primarily by blocking voltage-gated sodium channels, thereby inhibiting nerve impulse conduction. It has historically been used for surface anaesthesia, spinal anaesthesia, and in topical preparations for haemorrhoidal and anorectal conditions.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, cinchocaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels. Its topical use for local pain and itch is the likely basis for its dermatological association.
 
-The mechanistic link between cinchocaine and bronchitis is considered very weak. While there is limited evidence that inhaled local anaesthetics (notably lidocaine) can suppress the cough reflex via airway nerve blockade, cinchocaine has a significantly higher systemic toxicity profile than lidocaine, making such an application impractical. Sodium channel blockade does not address the underlying pathology of bronchitis, which involves airway infection, inflammation, and mucus hypersecretion.
+For bronchitis, an airway anaesthetic effect could plausibly dampen cough reflex or airway irritation. However, there is no evidence that it acts on the underlying infectious or inflammatory process. The high TxGNN score is a network-based computational prediction and is not supported by any trial or publication.
 
-Furthermore, cinchocaine lacks anti-inflammatory, anti-infective, or mucolytic properties that would be relevant to bronchitis treatment. The high TxGNN prediction score (99.77%) likely reflects structural or network-level associations in the knowledge graph rather than a genuine therapeutic mechanism. Without any supporting clinical or preclinical evidence, this prediction should be interpreted with considerable caution.
+**Other predicted indications (all L5, all Hold)**
+
+All were predicted with scores above 99.6%, with no clinical trials or literature:
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Acrodermatitis chronica atrophicans | 99.76% | Late Lyme disease skin manifestation, treated with antibiotics; at most symptomatic relief |
+| 3 | Neonatal dermatomyositis | 99.72% | Immune-mediated; neonatal systemic absorption is a safety concern |
+| 4 | Secondary childhood interstitial lung disease with connective tissue disease | 99.72% | No plausible mechanism; paediatric safety bar is high |
+| 5 | Acne keloid | 99.67% | Topical symptom relief is conceivable; no evidence on inflammation or scarring |
+| 6 | Hydroa vacciniforme, familial | 99.66% | No photoprotective or disease-modifying mechanism |
+| 7 | Amyopathic dermatomyositis | 99.65% | Would not address immune pathology |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-*Searches were conducted on ClinicalTrials.gov and the WHO ICTRP on 26 March 2026 for cinchocaine in combination with all seven predicted indications. No results were returned.*
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-*PubMed searches were conducted on 26 March 2026 for cinchocaine paired with each predicted indication. No relevant publications were identified.*
-
 ## UK Market Information
 
-Cinchocaine currently holds no MHRA marketing authorisations in the United Kingdom. No licensed products were identified in the evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0107010G0AAAAAA | Cinchocaine HCl ointment 1.1% | Ointment | Not stated in the data compiled for this report |
 
-## Additional Predicted Indications
-
-The TxGNN model generated six further predictions beyond bronchitis. All share the same evidence profile (L5, no clinical or literature support) and a **Hold** recommendation:
-
-| Rank | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
-|------|---------------------|-------------|--------------------------|
-| 2 | Acrodermatitis chronica atrophicans | 99.76% | None — requires antibiotic treatment for *Borrelia burgdorferi* infection |
-| 3 | Neonatal dermatomyositis | 99.72% | None — autoimmune inflammatory myopathy; sodium channel blockade has no immunomodulatory effect |
-| 4 | Secondary interstitial lung disease in childhood (connective tissue disease-associated) | 99.72% | None — requires antifibrotic or immunosuppressive therapy |
-| 5 | Acne keloid | 99.67% | Very weak — local anaesthetics may assist procedurally but have no intrinsic anti-scarring activity |
-| 6 | Hydroa vacciniforme, familial | 99.66% | None — rare photosensitivity disorder linked to EBV; requires photoprotection and immunotherapy |
-| 7 | Amyopathic dermatomyositis | 99.65% | None — autoimmune skin disease requiring hydroxychloroquine or immunosuppressants |
+Note: the identifier shown is a BNF-style classification code (BNF section 1.7, anorectal preparations), not a PL marketing authorisation number. The product is a topical ointment.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (these come from drug–disease network links, not from SmPC text): epilepsy, kidney disease, liver disease, gallbladder disease, pyoureter, sudden cardiac arrest, heart conduction disease, cardiovascular disease, heart disease, respiratory failure, myasthenia gravis (including adult-onset), neuromuscular junction disease, and butyrylcholinesterase deficiency.
+- **Drug interactions**: no interactions were found in the data compiled for this report.
 
-*Note: Key warnings, contraindications, and drug interaction data were not available in the evidence pack. Prescribers should consult the BNF monograph for cinchocaine and relevant product SmPCs before considering any off-label use.*
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All seven predicted indications are supported solely by computational modelling (TxGNN), with no clinical trials, no published literature, and no mechanistic plausibility to substantiate repurposing. Cinchocaine is a potent local anaesthetic with a narrow therapeutic index and significant systemic toxicity, and it currently holds no MHRA marketing authorisation in the UK. The absence of any corroborating evidence, combined with weak-to-absent mechanistic links across all predictions, does not justify progression at this time.
+The prediction rests only on a TxGNN score, with no clinical trials or publications (evidence level L5). The proposed mechanism for bronchitis is weak, and the route of administration is unresolved: the only UK product is a topical ointment, which is not suited to airway use.
 
-**To proceed, the following would be needed:**
-- Detailed mechanism of action data and pharmacokinetic profiling relevant to the predicted indications
-- Preclinical studies demonstrating activity of cinchocaine (or sodium channel blockade more broadly) in bronchitis or inflammatory airway models
-- Identification of a viable route of administration with an acceptable safety margin
-- UK regulatory pathway assessment, given the absence of a current marketing authorisation
-- Safety data including SmPC warnings, contraindications, and drug–drug interactions
-
----
-
-*This report was generated on 5 April 2026 based on evidence collected up to 5 April 2026. Results are for research purposes only and do not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+**To proceed, the following is needed:**
+- Mechanism of action data (for example from DrugBank)
+- SmPC warnings and contraindications for the UK product, to complete safety screening
+- Confirmation of the approved indication and licence details for the UK product
+- A route-compatibility assessment (topical ointment versus the route required for bronchitis)
+- Preclinical or clinical evidence, starting with a literature search, before any further evaluation
+- If any indication is pursued, the more biologically plausible option is topical symptom relief in a dermatological condition such as acne keloid. Paediatric uses (neonatal dermatomyositis, childhood interstitial lung disease) would need a particularly high safety bar.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

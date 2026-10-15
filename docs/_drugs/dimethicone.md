@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dimethicone
-parent: Moderate Evidence (L3-L4)
-nav_order: 216
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 231
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dimethicone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From Antiflatulent Use to Insomnia
+# Dimethicone: From an Antifoaming Agent to Insomnia (Predicted)
 
 ## One-Sentence Summary
 
-Dimethicone (simethicone) is an inert silicone-based antifoaming agent, traditionally used to relieve gastrointestinal bloating and, in surgical ophthalmic formulations, as a vitreous tamponade. The TxGNN model predicts it may be effective for **Insomnia**, but this is currently supported by only **1 loosely related clinical trial** and **no published literature**, and the model's own mechanistic rationale finds no plausible biological link.
+Dimethicone (simeticone) is a non-absorbed silicone polymer used as an antifoaming agent. The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but **no clinical trials and no publications** currently support this direction, so this is a model prediction only.
 
 ---
 
@@ -41,31 +41,31 @@ Dimethicone (simethicone) is an inert silicone-based antifoaming agent, traditio
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no marketing authorisation on record in this evidence pack. (Dimethicone is generally known as an antiflatulent/antifoaming agent and, separately, as a surgical intraocular tamponade material.) |
+| Original Indication | Not stated in the data compiled for this report (the UK product is a simeticone 40 mg/ml oral suspension, sugar-free) |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 94.35% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+Other predictions in the top 10 are mostly cataract subtypes (mature, immature, craniostenosis-associated, type 2 diabetes-associated, tetanic, cortical, nuclear senile and senile cataract; scores 92.4–92.7%) and severe nonproliferative diabetic retinopathy (92.2%). All are L5 with no supporting studies and a recommendation of Hold.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, dimethicone is a chemically and biologically inert silicone polymer that is not absorbed systemically, does not cross the blood–brain barrier, and has no recognised central nervous system activity. It has no established interaction with the neurotransmitter pathways implicated in sleep regulation (GABA, melatonin, histamine).
+Detailed mechanism of action data is not available. Dimethicone is a non-absorbed silicone polymer that acts physically as an antifoaming agent (and, in other formulations, as a topical emollient or protectant). It has no known central nervous system activity and no known interaction with sleep-regulating pathways.
 
-The single clinical trial associated with this prediction (NCT04872946) evaluated an oral/topical skin-health regimen and was not designed to assess sleep outcomes; its apparent link to insomnia is most likely a coincidental co-occurrence (the product studied may have contained unrelated sleep-supporting ingredients alongside dimethicone), rather than evidence of therapeutic effect. The model's own repurposing rationale explicitly states there is no known mechanistic pathway connecting dimethicone to insomnia.
+No mechanistic link to insomnia has been identified. The high TxGNN score (0.94) appears to be a knowledge-graph association rather than a pharmacologically grounded hypothesis, and it is not backed by clinical or literature evidence. The relationship between the original use and the new indication has not been assessed.
 
-It is also worth noting that several of the model's other top-ranked predictions for this drug (various cataract subtypes) appear to reflect a reversed causal relationship — silicone oil tamponade is a well-documented *cause* of cataract as a surgical complication, not a treatment for it. This raises broader concern that the underlying knowledge-graph edges for dimethicone may have been learned in the wrong causal direction, which further weakens confidence in the insomnia signal as well.
+The ocular predictions follow a similar pattern. Silicone oils are used as intraocular tamponade in vitreoretinal surgery, and silicone appears in intraocular lens materials. These are surgical or device roles, not treatment of cataract or diabetic retinopathy. There is no evidence that dimethicone reverses or prevents lens opacity or acts on retinal microvascular pathways.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | Phase NA | Completed | 74 | Evaluated an oral and topical regimen for skin health (redness, sensitivity, reactivity). Not designed to assess insomnia or sleep outcomes; relevance to this indication graded C (coincidental co-occurrence, not evidence of efficacy). |
+Currently no related clinical trials registered.
 
 ---
 
@@ -77,7 +77,11 @@ Currently no related literature available.
 
 ## UK Market Information
 
-This product currently holds no UK marketing authorisations (market status: **Not marketed**; 0 licences on record).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0101010R0AAABAB (BNF code) | Simeticone suspension 40 mg/ml, sugar-free | Oral suspension | Not stated in the compiled data |
+
+This is a single-ingredient product with valid status. The identifier shown is a BNF-style product code rather than a PL number. The BNF code places it in chapter 1 (gastrointestinal system), consistent with antifoaming use.
 
 ---
 
@@ -92,13 +96,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- There is no plausible mechanistic basis for dimethicone in insomnia, the only associated clinical trial is unrelated in design and purpose, and no supporting literature exists. Combined with signs that the underlying knowledge-graph relationships for this drug may be learned in a reversed causal direction (as seen with the cataract predictions), the evidence does not support progression at this time.
+The prediction rests only on a knowledge-graph score. There are no trials or publications, no plausible mechanism for a non-absorbed silicone polymer in insomnia, and the safety and mechanism data are incomplete.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for dimethicone (currently a blocking-adjacent High-severity data gap)
-- UK/MHRA SmPC warnings, contraindications and interaction data (currently a Blocking data gap, DG001)
-- Insomnia-specific preclinical or clinical evidence directly evaluating dimethicone (or its formulations) against sleep outcomes
-- Independent verification of the knowledge-graph edge direction for this drug given the apparent cause/treatment confusion seen elsewhere in its prediction set
+- A plausible pharmacological rationale for CNS or sleep effects, given that the drug is non-absorbed
+- Mechanism of action data
+- Labelled indication, warnings and contraindications from the SmPC and BNF
+- Any preclinical or clinical signal for insomnia before further evaluation
+- Confirmation of the PL number, dosage form and manufacturer for the UK authorisation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

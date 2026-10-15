@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Model Prediction Only (L5)
-nav_order: 67
+nav_order: 69
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Chemotherapy-Induced Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: From Chemotherapy-Related Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Aprepitant is a selective neurokinin-1 (NK1) receptor antagonist established for the prevention of chemotherapy-induced nausea and vomiting (CINV) and post-operative nausea and vomiting (PONV).
-The TxGNN model predicts it may have potential activity against **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, with **no clinical trials** and **no published literature** currently supporting this direction.
-Evidence is presently limited to computational model prediction alone, and the mechanistic rationale for this specific indication is considered weak.
-
----
+Aprepitant is a substance P/NK1 receptor antagonist. The data compiled for this report do not list an approved indication for the UK licence, so the original use is inferred from the drug class (antiemetic).
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 relevant publications** supporting this prediction, so it rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prevention of chemotherapy-induced nausea and vomiting (CINV) and post-operative nausea and vomiting (PONV) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Not stated in the licence data compiled for this report (aprepitant is an NK1 antagonist antiemetic) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| UK Market Status | No records found in this dataset (possible retrieval error — verify against MHRA register) |
-| Number of Marketing Authorisations | 0 (data not retrieved) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism of action data is not recorded in this Evidence Pack. Based on the prediction rationale and well-established pharmacology, Aprepitant acts as a selective, high-affinity antagonist at the NK1 (neurokinin-1) receptor. It blocks substance P (SP) binding at NK1 receptors in the central nervous system — principally the nucleus tractus solitarius and area postrema — thereby suppressing both the acute and delayed phases of chemotherapy-induced emesis. This mechanism differs fundamentally from the dopamine D2 blockade employed by older antiemetics and represents a neurochemically distinct approach to antiemesis.
+Detailed mechanism of action data are not available in the data compiled for this report. Aprepitant is known as a substance P/NK1 receptor antagonist. NK1 signalling has been loosely linked to vasopressin regulation and renal water handling, which is the only basis for the prediction.
 
-Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) is a rare, X-linked genetic disorder caused by constitutively activating mutations in the *AVPR2* gene, which encodes the renal vasopressin V2 receptor. Constitutive V2 receptor signalling drives persistent Aquaporin-2 (AQP-2) expression and water reabsorption in the renal collecting duct, producing dilutional hyponatraemia despite low or undetectable plasma arginine vasopressin (AVP) levels.
+Nephrogenic SIAD, however, is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2). These act downstream of vasopressin release, so blocking NK1 is not expected to correct the primary defect. The very high TxGNN score is a computational output, not evidence of efficacy. The prediction should be regarded as weak biologically.
 
-The proposed mechanistic link rests on the possibility that substance P / NK1 signalling may indirectly modulate AQP-2 expression or downstream cyclic AMP (cAMP) regulation. However, no direct molecular evidence currently supports this connection. NSIAD is a genetically determined disease in which the primary defect — constitutive AVPR2 receptor activation — lies outside the pharmacological reach of NK1 antagonism. The biological plausibility for Aprepitant's efficacy in NSIAD is considered weak, and the high TxGNN prediction score most likely reflects indirect network linkages within the knowledge graph rather than a genuine therapeutic relationship.
-
----
+Other top-ranked predictions (for example hypertrichosis, pulmonary hypertension, leprosy and subarachnoid haemorrhage) are likewise unsupported by trial or literature data. Only subarachnoid haemorrhage and pulmonary hypertension have a plausible, preclinical-level hypothesis (NK1 signalling in blood-brain barrier disruption and pulmonary vascular tone, respectively).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Aprepitant in nephrogenic syndrome of inappropriate antidiuresis on ClinicalTrials.gov or the WHO ICTRP.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Aprepitant in nephrogenic syndrome of inappropriate antidiuresis.
-
----
+Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
-No marketing authorisation records for Aprepitant were returned by this dataset's retrieval process. This appears inconsistent with known MHRA product licensing: Aprepitant is marketed in the United Kingdom as **Emend** (MSD) for the prevention of CINV associated with highly and moderately emetogenic chemotherapy regimens, and has been evaluated by NICE (Technology Appraisal TA213, 2012). The fixed-dose combination netupitant/palonosetron (Akynzeo) represents a related NK1/5-HT₃ combination product also authorised in the UK.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0406000ADAAABAB (BNF code; not a PL number) | Aprepitant capsules 125 mg | Capsule | Not stated in the data compiled |
 
-Prescribers should verify the current marketing authorisation status, approved indications, and licensed dosage forms via the [MHRA Products register](https://products.mhra.gov.uk/) and the BNF (Chapter 4.6: Drugs used in nausea and labyrinth disorders).
-
----
+The BNF chemical code above is the only identifier available. Dosage form detail, manufacturer and approved indication text are not recorded.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme at [yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).
+- **Knowledge-graph contraindication signal**: liver failure (from drug-disease contraindication edges in the TxGNN knowledge graph, not from label text; check against the SmPC).
+- **Drug Interactions**: 100 interactions were identified. Examples from the interactions reviewed:
+  - **Major**: fentanyl, alfentanil, acalabrutinib
+  - **Moderate**: paclitaxel, abemaciclib, nifedipine, ibuprofen, lidocaine, dihydrocodeine, rabeprazole, levonorgestrel, hydrocortisone, albendazole, fluvoxamine, fosamprenavir, fosphenytoin, fostamatinib, gefitinib, abametapir (topical)
+  - **Minor**: dolutegravir
 
----
+Label warnings and contraindications were not available. Please refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or preclinical evidence supporting Aprepitant for nephrogenic syndrome of inappropriate antidiuresis, and the mechanistic connection between NK1 receptor antagonism and constitutive V2 receptor activation is speculative. As an essentially genetic condition, NSIAD is unlikely to be amenable to NK1-targeted therapy without compelling mechanistic or empirical data to justify further investigation.
+The prediction rests on a computational score only. There are no trials or relevant publications, and the known biology of nephrogenic SIAD (a downstream V2 receptor defect) argues against NK1 antagonism being effective.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro or animal models of NSIAD) demonstrating a functional role for SP/NK1 signalling in AVPR2-mediated AQP-2 upregulation or renal water handling
-- Direct molecular evidence linking substance P to downstream cAMP regulation in renal collecting duct epithelial cells
-- Formal mechanism of action data retrieved from DrugBank (data gap DG002)
-- Complete UK SmPC safety data including MHRA-approved warnings and contraindications (data gap DG001)
-- Correction of UK market status — MHRA product licence records for Aprepitant should be retrieved and validated for this dataset
-
----
-
-> **Analyst note — alternative indication of interest:** Of the ten predicted indications in this Evidence Pack, the strongest mechanistic rationale belongs to **subarachnoid haemorrhage (rank 9, score 99.85%)**. Substance P is released in large quantities into the cerebrospinal fluid following SAH, and NK1 receptor-mediated neurogenic inflammation, blood-brain barrier disruption, and delayed cerebral ischaemia (DCI) provide a more plausible biological framework than any other prediction in this set. Aprepitant's favourable lipophilicity and potential CNS penetration are further enabling properties. A targeted literature search and pilot study review for this indication is recommended as the higher-priority research question from this prediction batch.
+- Mechanism of action data and a credible mechanistic case that addresses the AVPR2 gain-of-function defect
+- Preclinical or case-level evidence of aprepitant effect on urine concentration or water handling
+- Label warnings and contraindications from the SmPC and BNF, plus confirmation of the licensed indication
+- If any alternative prediction is pursued, subarachnoid haemorrhage and pulmonary hypertension have the more plausible preclinical rationale, though neither has supporting clinical evidence yet
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

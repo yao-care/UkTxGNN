@@ -2,7 +2,7 @@
 layout: default
 title: Topiramate
 parent: Model Prediction Only (L5)
-nav_order: 587
+nav_order: 629
 evidence_level: L5
 indication_count: 9
 ---
@@ -33,59 +33,85 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Topiramate is a broad-spectrum antiepileptic drug (AED), with literature evidence in this pack confirming established use in epilepsy and migraine prophylaxis, though no structured original-indication or marketing authorisation data was captured for this Evidence Pack.
-The TxGNN model's top-ranked prediction is **Trigeminal Nerve Neoplasm**, but this candidate is currently supported by **0 clinical trials** and **0 publications**.
-The evidence pack's own mechanistic assessment flags this prediction as a likely false positive arising from knowledge-graph node proximity rather than genuine pharmacological plausibility.
+Topiramate is an antiseizure medicine, originally used for generalised tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but **no clinical trials and no publications** currently support this prediction.
+The data compiled for this report suggest the prediction is likely a knowledge-graph artefact, and the more plausible predictions are reflex seizure types within the epilepsy spectrum.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (no marketing authorisation record); literature evidence indicates established use in epilepsy and migraine prophylaxis |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
+| Original Indication | Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record holds no indication text) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (per this Evidence Pack) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available for topiramate as a structured field in this Evidence Pack (data gap DG002). However, the literature evidence collected under other predicted indications in this pack consistently describes topiramate as a broad-spectrum antiepileptic drug acting through sodium-channel blockade, GABA-A receptor potentiation, and AMPA/kainate glutamate receptor antagonism — a neuromodulatory profile used to reduce neuronal excitability in epilepsy and migraine.
+Detailed mechanism of action data is not available in the compiled data. From the literature, topiramate is known to act through several mechanisms: blockade of voltage-dependent sodium channels, enhancement of GABA-A mediated inhibition, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition.
 
-There is no established pharmacological or clinical relationship between this neuromodulatory mechanism and tumour growth inhibition in trigeminal nerve neoplasms. Unlike other predicted indications in this pack (e.g. reflex epilepsy subtypes), which share a plausible mechanistic link to topiramate's anticonvulsant activity, a trigeminal nerve neoplasm has no known biological pathway connecting it to sodium-channel or GABAergic modulation.
+These actions explain its effect in epilepsy, but they have no established relevance to tumour biology. The link between epilepsy and trigeminal nerve neoplasm is therefore weak. The very high TxGNN score (99.70%) is probably driven by associations in the knowledge graph with neurological or neuropathic terms, not by a demonstrated biological rationale.
 
-Critically, the evidence pack's own repurposing rationale for this candidate explicitly states that the prediction is likely a **false positive caused by knowledge-graph node proximity**, not a genuine biological signal. This is corroborated by the complete absence of clinical trials or literature evidence, and the model assigns this candidate the lowest evidence level (L5) and decision stage (S0), with a "Hold" recommendation already embedded in the source scoring.
+The other predictions in the same list are more coherent with topiramate's known profile. Reflex seizure types (visual epilepsy, audiogenic seizures, thinking seizures, startle epilepsy, orgasm-induced seizures, eating seizures, micturition-induced seizures and reading seizures) all sit within the epilepsy spectrum. Their evidence is indirect, extrapolated from the approved epilepsy indications.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for trigeminal nerve neoplasm.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for trigeminal nerve neoplasm.
+
+For context, the next-ranked prediction, **audiogenic seizures**, has preclinical support only. Examples: topiramate reduced audiogenic seizures in DBA/2 mice ([10666508](https://pubmed.ncbi.nlm.nih.gov/10666508/), 2000) and was tested in two genetic rat epilepsy models ([12581224](https://pubmed.ncbi.nlm.nih.gov/12581224/), 2003).
+
+---
 
 ## UK Market Information
 
-No UK marketing authorisation entries were identified in this Evidence Pack for topiramate; market status is recorded as "not marketed" with 0 licences on record. This should be independently verified against the MHRA public register and BNF, as this gap may reflect incomplete data capture rather than genuine absence of UK authorisation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 040801050AAAAAA | Topiramate Tab 50mg | Not recorded | Not recorded |
+
+The compiled record holds one valid single-ingredient authorisation. The identifier appears to be a local product code, not a standard MHRA PL number, and should be verified against the MHRA database.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindication-related associations (from the knowledge graph, not label text):** anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, liver disease, gallbladder disease, diarrhoeal disease, ocular hypertension, nephrolithiasis, acute urate nephropathy, metabolic acidosis and acidosis disorder, pyoureter, amnestic disorder and retrograde amnesia.
+
+**Drug Interactions (100 recorded; main examples):**
+- **Major:** metformin, and anticholinergic agents (atropine, hyoscyamine, scopolamine, glycopyrronium, clidinium, dicyclomine, mepenzolate, methscopolamine, propantheline, trospium)
+- **Moderate:** pioglitazone, glyburide, morphine, dronabinol, nabilone, phentermine, metoclopramide, phenylbutyric acid, glycerol phenylbutyrate
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (trigeminal nerve neoplasm) has no supporting clinical trials or literature (evidence level L5, decision stage S0), and the pack's own mechanistic analysis identifies it as a probable false positive driven by knowledge-graph node proximity rather than plausible biology.
+The prediction for trigeminal nerve neoplasm rests on a model score alone (L5), with no trials, no literature and no plausible mechanistic link. The same applies to all other listed predictions: those with literature are L4 at best, and that evidence is indirect or preclinical.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for topiramate (data gap DG002)
-- MHRA/SmPC warnings and contraindications (data gap DG001)
-- Independent target/pathway validation of the knowledge-graph signal before any further evaluation of this specific candidate
-- Confirmation of current UK marketing authorisation status, as the "not marketed / 0 licences" record in this pack should be verified against the MHRA register
-- Consideration of alternative TxGNN-predicted indications in the same evidence pack with materially stronger support — notably **visual epilepsy** (rank 2, evidence level L2, decision stage S2, "Research Question"), backed by a completed Phase 3 RCT (n=750) and multiple Cochrane systematic reviews within the idiopathic generalised epilepsy spectrum — which may represent a more credible repurposing lead than the top-ranked candidate evaluated here
+- A mechanistic rationale linking topiramate to the predicted tumour indication, or a shift of focus to the reflex epilepsy predictions, where plausibility is higher
+- Targeted literature review and, if warranted, preclinical or early clinical studies for the chosen indication
+- Mechanism of action data and SmPC warnings and contraindications for the UK product
+- Verified MHRA authorisation details (PL number, dosage form, approved indications)
+- A safety plan covering renal, hepatic, acid-base and cognitive risks, and the interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

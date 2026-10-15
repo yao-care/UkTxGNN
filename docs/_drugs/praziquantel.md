@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Praziquantel
-parent: Model Prediction Only (L5)
-nav_order: 475
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 513
+evidence_level: L3
 indication_count: 10
 ---
 
 # Praziquantel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Praziquantel: From Parasitic Worm Infections to Uterine Corpus Epithelioid Leiomyosarcoma
+# Praziquantel: From Schistosomiasis to Plasmodium falciparum Malaria
 
 ## One-Sentence Summary
 
-> Praziquantel is an anthelmintic, internationally used to treat trematode and cestode infections (e.g. schistosomiasis, tapeworm infections).
-> The TxGNN model's top-ranked prediction is **Uterine Corpus Epithelioid Leiomyosarcoma**,
-> but this is currently supported by **no clinical trials and no literature** — the evidence pack itself flags it as a likely knowledge-graph artefact with no known pharmacological plausibility.
+Praziquantel is an anthelmintic originally used to treat schistosomiasis and other parasitic worm infections (opisthorchiasis, enterobiasis, trichinosis).
+The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria** (the highest-ranked prediction with any supporting evidence), with **2 registered clinical trials** and **20 publications** currently linked to this direction. Most of this material concerns malaria and schistosomiasis co-infection rather than direct antimalarial treatment.
 
 ---
 
@@ -43,69 +42,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally available (no UK licence on record); internationally indicated for trematode/cestode (fluke/tapeworm) infections |
-| Predicted New Indication | Uterine Corpus Epithelioid Leiomyosarcoma |
-| TxGNN Prediction Score | 97.28% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Schistosomiasis, opisthorchiasis, enterobiasis, trichinosis (UK licence indication text is not available in the data compiled for this report) |
+| Predicted New Indication | Plasmodium falciparum malaria |
+| TxGNN Prediction Score | 97.22% |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question only) |
+
+**Note on prediction selection:** The top-ranked TxGNN prediction is uterine corpus epithelioid leiomyosarcoma (score 97.28%). It has no trials, no literature and no mechanistic link (L5, Hold). This report therefore focuses on P. falciparum malaria, the highest-ranked prediction with an actual evidence base. Other predictions (several sarcomas, gnathostomiasis, fascioliasis) are summarised at the end.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a blocking data gap). Based on the information available in this evidence pack, Praziquantel's known pharmacological action is on the tegument (body wall) of flatworms (trematodes and cestodes), increasing calcium ion permeability to cause paralysis and death of the parasite. This mechanism has no established relationship to mammalian smooth-muscle tumour biology.
+Detailed mechanism of action data are not available in the data compiled for this report. Praziquantel is generally understood to act on schistosome calcium channels (TRPM_PZQ) and to disrupt the worm's tegument, but this has not been linked to any activity against *Plasmodium*.
 
-The evidence pack's own repurposing rationale for this candidate is explicit that **no plausible mechanistic link exists**: leiomyosarcoma pathogenesis is driven by pathways such as MED12, TP53 and RB1 dysregulation, which have no known overlap with the calcium-channel-mediated action of Praziquantel on parasite tegument. This candidate is assessed as arising from an indirect knowledge-graph connection rather than genuine pharmacological signal.
+Schistosomiasis and malaria are often co-endemic in sub-Saharan Africa, affect similar populations, and are controlled through overlapping mass drug administration programmes. Much of the literature therefore studies the two diseases together. These studies are largely epidemiological (for example how schistosome infection alters malaria susceptibility, immune responses and anaemia) and do not show that praziquantel kills malaria parasites.
 
-Consequently, this prediction does not currently have a credible biological rationale, and should not be interpreted as supporting a genuine repurposing opportunity without independent mechanistic or experimental validation.
+Two items hint at a possible direct effect. A small 1998 case series (PMID 10531774) reported cures in 8 of 10 patients with malaria given praziquantel. A 2026 double-blind, placebo-controlled randomised trial (PMID 41159886) examined praziquantel in asymptomatic *P. falciparum* infection in Gabonese adults. The abstract available to us does not give the results, so its findings could not be verified. Neither can be taken as established evidence of efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02769013](https://clinicaltrials.gov/study/NCT02769013) | N/A | Completed | 380 | Effect of neglected tropical diseases on *P. falciparum* transmission in a co-endemic area. Does not test praziquantel as an antimalarial. |
+| [NCT00347113](https://clinicaltrials.gov/study/NCT00347113) | N/A | Completed | 620 | Effect of schistosome and soil-transmitted helminth infections, and of anthelmintic treatment, on malaria, anaemia and antibody responses in children in Mwanza, Tanzania. Addresses co-infection, not a direct antimalarial effect. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41159886](https://pubmed.ncbi.nlm.nih.gov/41159886/) | 2026 | Randomised controlled trial (double-blind, placebo-controlled) | J Infect Dis | Efficacy of praziquantel against *P. falciparum* in asymptomatic Gabonese adults. Results not verified from the available abstract. |
+| [37957702](https://pubmed.ncbi.nlm.nih.gov/37957702/) | 2023 | RCT | Malar J | Feasibility and safety of combining schistosomiasis/helminth mass drug administration with seasonal malaria chemoprevention in Senegalese children. |
+| [25887977](https://pubmed.ncbi.nlm.nih.gov/25887977/) | 2015 | RCT (open label) | BMC Infect Dis | Impact of anthelmintic treatment on malaria infection and anaemia in Tanzanian school and preschool children. |
+| [10531774](https://pubmed.ncbi.nlm.nih.gov/10531774/) | 1998 | Small case series | J Pak Med Assoc | Praziquantel 30 mg/kg/day in 10 malaria patients; 8 reported cured, 2 with severe disease did not respond. Small and uncontrolled. |
+| [38265982](https://pubmed.ncbi.nlm.nih.gov/38265982/) | 2024 | Scoping review | PLoS Negl Trop Dis | Efforts to integrate malaria and schistosomiasis control programmes. |
+| [25210876](https://pubmed.ncbi.nlm.nih.gov/25210876/) | 2014 | Cohort | PLoS Negl Trop Dis | *S. haematobium* co-infection associated with protection from febrile malaria in Mali. |
+| [37808169](https://pubmed.ncbi.nlm.nih.gov/37808169/) | 2023 | Cohort/cross-sectional | J Parasitol Res | Malaria, urogenital schistosomiasis and anaemia in pregnant Ghanaian women. |
+| [17568947](https://pubmed.ncbi.nlm.nih.gov/17568947/) | 2007 | Immunological study | Mem Inst Oswaldo Cruz | Anti-malaria antibody responses in children exposed to both *P. falciparum* and *S. haematobium*. |
+| [37446846](https://pubmed.ncbi.nlm.nih.gov/37446846/) | 2023 | Preclinical (chemistry) | Molecules | Design of praziquantel analogues and hybrids as potential antimalarial and antischistosomal agents. |
+| [21696629](https://pubmed.ncbi.nlm.nih.gov/21696629/) | 2011 | Intervention study | BMC Int Health Hum Rights | School-based deworming plus prompt malaria treatment in Zimbabwe. |
 
 ---
 
 ## UK Market Information
 
-Praziquantel currently holds **no UK marketing authorisation** (MHRA) and is not marketed in the UK (0 licences on record). No product-specific dosage form or licensed indication text is available in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0505050P0AAAAAA | Praziquantel tablets 600 mg | Tablet | Not available in the data compiled |
+
+One single-ingredient product is recorded as valid. The listed number is a product classification code rather than a standard MHRA "PL" number, so please verify the authorisation details with the MHRA and the BNF before relying on them.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph (not label text):** epilepsy, liver disease, gallbladder disease, heart disease and cardiovascular disease. These come from graph-derived drug-disease links and must be checked against the SmPC.
+- **Drug Interactions:** 83 interactions were identified. Examples include:
+  - **Major:** apalutamide, phenobarbital, carbamazepine (enzyme inducers that may lower praziquantel exposure)
+  - **Moderate:** dexamethasone, bosentan, armodafinil, amobarbital, butalbital, bexarotene, brigatinib, deferasirox, fostamatinib, troglitazone
+  - **Minor:** cimetidine, albendazole
 
-**Note:** A blocking data gap exists — UK-specific SmPC warnings and contraindications for Praziquantel have not yet been retrieved, which prevents this candidate from formally entering safety pre-assessment (S1).
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-The top-ranked prediction has no clinical trial or literature support (L5, model prediction only), and the evidence pack itself identifies no plausible pharmacological mechanism linking Praziquantel's antiparasitic action to leiomyosarcoma. A blocking data gap in SmPC warnings/contraindications also prevents formal safety pre-assessment.
+Praziquantel has no established mechanism against *Plasmodium*. The registered trials address co-infection rather than treatment, and the evidence for a direct antimalarial effect rests on one small uncontrolled series from 1998 and one 2026 randomised trial whose results we could not verify. Existing antimalarials remain the standard of care.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA SmPC labelling data (warnings, contraindications) — currently blocking
-- Formal DrugBank mechanism-of-action confirmation
-- Independent mechanistic or preclinical evidence linking Praziquantel to leiomyosarcoma before further evaluation
+- Retrieval and appraisal of the full results of the 2026 Gabonese RCT (PMID 41159886)
+- Laboratory (in vitro) data confirming any direct activity of praziquantel against *P. falciparum*
+- Mechanism of action data
+- UK licence indication text and SmPC warnings and contraindications
 
----
+**Other predictions (not recommended for further work at present):**
 
-### Other Candidates Screened (for transparency)
-
-This evidence pack evaluated 10 predicted indications for Praziquantel; all but one were assessed as **Hold** due to absent evidence and/or implausible mechanism (including *Plasmodium falciparum* malaria, retroperitoneal sarcoma, and other sarcoma subtypes — several explicitly noted as likely confounded or spurious signals). The only candidate reaching decision-stage S1 was **gnathomiasis** (rank 7, TxGNN score 96.47%, evidence level L4), supported by one case report of Praziquantel-associated worm expulsion — flagged for further research, not clinical use, given uncertainty over whether the effect reflects therapeutic efficacy or a worm evasion response.
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Uterine corpus epithelioid leiomyosarcoma, retroperitoneal sarcoma, uterine corpus myxoid leiomyosarcoma, anus leiomyosarcoma, small intestinal sarcoma, leiomyosarcoma, dermatofibrosarcoma protuberans | 95.7–97.3% | L5 | Graph-based prediction only; no trials, no literature, no mechanistic link. Hold. |
+| Gnathostomiasis | 96.5% | L4 | Only a case report of a worm emerging after praziquantel; albendazole and ivermectin are better supported. Hold. |
+| Fascioliasis | 96.3% | L4 | Small older studies and case reports suggest praziquantel is often ineffective; triclabendazole is the established treatment. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

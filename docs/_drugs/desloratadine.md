@@ -2,15 +2,15 @@
 layout: default
 title: Desloratadine
 parent: High Evidence (L1-L2)
-nav_order: 203
-evidence_level: L1
+nav_order: 215
+evidence_level: L2
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,91 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Desloratadine: From Allergic Rhinitis/Chronic Urticaria to Cold Urticaria
+# Desloratadine: From Allergic Rhinitis to Cold Urticaria
 
 ## One-Sentence Summary
 
-> Desloratadine is a second-generation H1-antihistamine established for allergic rhinitis and chronic urticaria.
-> The TxGNN model predicts it may be effective for **Cold Urticaria** (acquired cold urticaria, ACU),
-> with **3 clinical trials** and **7 publications** currently supporting this direction.
-
----
+Desloratadine is a second-generation antihistamine, originally used for allergic rhinitis and urticaria.
+The TxGNN model predicts it may be effective for **cold urticaria**,
+with **2 clinical trials** and **6 publications** (3 of them randomised controlled trials) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis / chronic urticaria (established antihistamine class use; no UK marketing authorisation record found in this evidence pack) |
-| Predicted New Indication | Cold Urticaria |
+| Original Indication | Allergic rhinitis (indication text is not available in the UK authorisation record; taken from the knowledge graph) |
+| Predicted New Indication | Cold urticaria |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L2 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action documentation for desloratadine is not available in this evidence pack. Based on known pharmacology, desloratadine is a highly selective peripheral H1-receptor antagonist within the second-generation antihistamine class, and its efficacy in allergic rhinitis and chronic urticaria is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, desloratadine is a selective peripheral H1 receptor antagonist (inverse agonist). Its efficacy in allergic rhinitis and in idiopathic and allergic urticaria is established.
 
-The wheal-and-flare response seen in cold urticaria is driven by mast cell degranulation and histamine release, which activates H1 receptors on cutaneous sensory nerves. Because desloratadine directly blocks this same H1 pathway, its established mechanism maps closely onto the pathophysiology of cold urticaria, which is itself a physical subtype of urticaria.
+Cold urticaria is a mast cell-driven physical urticaria. Histamine released through H1 receptors produces the wheals and itching, so desloratadine acts directly on the principal mediator pathway. This is the same pathway that underlies its existing urticaria use.
 
-This mechanistic overlap is reinforced by clinical guidance: antihistamines are already recommended as first-line therapy for cold-induced urticaria under EAACI/GA²LEN guidelines, which supports the biological plausibility of the TxGNN prediction rather than requiring an entirely novel mechanistic rationale.
-
----
+Increasing the dose above the standard 5 mg (to 10 mg and 20 mg) is the guideline-endorsed approach for cold urticaria that does not respond to standard dosing. The trial data below show a dose-dependent improvement in cold provocation thresholds. Note that this up-dosing is outside the standard licensed dose.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Multi-centre, double-blind, dose-escalating study comparing desloratadine 5 mg/10 mg/20 mg to identify the dose sufficient to inhibit cold urticaria symptoms |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Randomised, double-blind, placebo-controlled crossover study comparing 5 mg vs 20 mg desloratadine on experimentally induced cold urticaria lesions; higher dosing was more effective than standard dose or placebo |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Completed | 150 | Evaluated the inhibitory effect of five antihistamines (desloratadine among them) on urticaria symptoms in a tropical Latin American population |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Multi-centre, double-blind, dose-escalating comparison of desloratadine 5 mg, 10 mg and 20 mg in acquired cold urticaria, aiming to find the dose sufficient to inhibit symptoms |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Exploratory, randomised, double-blind, placebo-controlled crossover study comparing 5 mg vs 20 mg on experimentally induced lesions (thermography, volumetry, photography) |
 
----
+Both studies are small and no Phase 3 pivotal trial is available.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomised, placebo-controlled crossover trial showing high-dose desloratadine reduced wheal volume and improved cold provocation thresholds versus standard dose |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomised controlled trial establishing critical temperature threshold measurement to assess H1-antihistamine dose escalation response in cold urticaria |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | 5 mg desloratadine for 4 days significantly inhibited ice-cube-induced wheal responses in 12 patients with cold urticaria |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Review of chronic urticaria aetiology, management, and current/future treatment options |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | Review of ebastine (another second-generation antihistamine) in allergic rhinitis and chronic idiopathic urticaria, providing class-level context |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case Report | Qatar Med J | Case report of cold-induced urticaria following black ant bite anaphylaxis |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case Report | J Allergy Clin Immunol Pract | Description of food-dependent cold urticaria as a novel physical urticaria variant |
-
----
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomised, placebo-controlled crossover study: high-dose desloratadine reduced wheal volume and improved cold provocation thresholds compared with standard dose |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomised trial of H1-antihistamine dose escalation using critical temperature threshold measurement in cold urticaria |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatolog Treat | Desloratadine 5 mg for 4 days tested with ice-cube provocation in 12 patients with cold urticaria |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Review of aetiology, management and treatment options in chronic urticaria |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | Review of ebastine (another antihistamine) in allergic rhinitis and chronic idiopathic urticaria; indirect relevance |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case report | Qatar Med J | Cold-induced urticaria following black ant bite anaphylaxis; background only |
 
 ## UK Market Information
 
-No UK marketing authorisation records were identified for desloratadine in this evidence pack. Market status is recorded as **Not Marketed**, with 0 licences on file. Prescribers should verify current MHRA product licensing directly via the MHRA products register and BNF before considering any prescribing pathway.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0304010ABAAAAAA | Desloratadine 5 mg tablets | Tablet | Not available |
 
----
+The identifier above is a BNF-style product code rather than a standard PL number. The BNF section (0304, antihistamines) is consistent with the drug class. Dosage form and approved indication text are not recorded in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links desloratadine with the following conditions. These should be verified against the SmPC before use:
+- Cardiovascular: hypertension, coronary artery disease, atherosclerosis
+- Renal and hepatic: kidney disease, liver disease, gallbladder disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperthyroidism (Graves disease, thyrotoxicosis)
+- Other: benign prostatic hyperplasia, angle-closure glaucoma
 
----
+**Drug Interactions:** The interaction screen returned 100 potential interactions, but none has a graded severity. Examples include cimetidine, omeprazole, pantoprazole, lansoprazole, metformin, morphine, simvastatin, doxycycline, epinephrine and prednisone. Their clinical significance has not been established from the data available.
+
+For full safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Three completed Phase 4 RCTs and multiple supporting publications (including two dedicated dose-response RCTs) directly evaluate desloratadine in cold urticaria, and the mechanistic rationale is well supported by established antihistamine pharmacology. However, no UK marketing authorisation or MHRA-approved SmPC safety data are currently available for this drug.
+Two completed Phase 4 trials and three RCTs support dose-dependent efficacy of desloratadine in acquired cold urticaria, with a plausible H1-mediated mechanism. The studies are small, there is no Phase 3 evidence, and the effective doses exceed the standard 5 mg, so this is a modest level of evidence (L2).
+
+Other predictions (nasal cavity disease, acute laryngopharyngitis, recalcitrant atopic dermatitis, atopic IgE responsiveness, rosacea conjunctivitis) have little or no supporting evidence and should be held.
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC (warnings, contraindications, drug interactions) — currently a blocking data gap
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source
-- Confirmation of current UK licensing/import pathway, since no marketing authorisation is on record
-- A formal off-label prescribing risk assessment given the absence of a UK licence for this indication
+- SmPC warnings and contraindications to complete the safety review, as label-based safety data are not available
+- Verification of the knowledge-graph contraindication signals against the SmPC
+- A safety assessment of doses of 10–20 mg, including cardiac and sedation considerations and any off-label prescribing governance
+- Confirmation of the dosage form, authorised indications and PL number for the UK product
+- Mechanism of action data from DrugBank
+- Larger confirmatory trials, ideally Phase 3, in cold urticaria
+- Review of the NICE and British Association of Dermatologists guidance on urticaria management
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

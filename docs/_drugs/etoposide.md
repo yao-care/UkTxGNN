@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etoposide
-parent: Moderate Evidence (L3-L4)
-nav_order: 251
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 267
+evidence_level: L5
 indication_count: 10
 ---
 
 # Etoposide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,14 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etoposide: From Small Cell Lung Cancer to Well-Differentiated Fetal Adenocarcinoma of the Lung
+# Etoposide: From Small Cell Lung Carcinoma to Ewing Sarcoma
 
 ## One-Sentence Summary
 
-Etoposide is a topoisomerase II inhibitor established as chemotherapy for small cell lung cancer, germ cell tumours and lymphomas. The TxGNN model predicts it may also be effective for **well-differentiated fetal adenocarcinoma of the lung** (the low-grade epithelial component of pulmonary blastoma), but this is currently supported by **0 clinical trials** and only **1 case-report publication**, so the evidence base is very thin.
-
-*(Note: this evidence pack — candidate ID `TW-DB00773-multi` — contains 10 TxGNN-predicted indications for Etoposide. This report follows the standard format for the top-ranked prediction; a summary of the other 9 candidates is provided in a supplementary table before the conclusion.)*
+Etoposide is a topoisomerase II inhibitor, originally used for small cell lung carcinoma and testicular germ cell tumours.
+The TxGNN model predicts it may be effective for **Ewing sarcoma**, the highest-ranked prediction with substantial supporting evidence,
+with **34 registered clinical trials** and **20 publications** currently supporting this direction.
+This is closer to an established, guideline-supported use than a novel repurposing.
 
 ---
 
@@ -43,93 +44,128 @@ Etoposide is a topoisomerase II inhibitor established as chemotherapy for small 
 
 | Item | Content |
 |------|------|
-| Original Indication | Small cell lung cancer, germ cell tumours and lymphomas (per literature evidence, PMID 1984834; no UK marketing authorisation record available in this pack) |
-| Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
-| TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed (per data available in this evidence pack) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Research Question |
+| Original Indication | Small cell lung carcinoma and testicular germ cell tumours (the MHRA indication text is not available in the data compiled for this report; the original indications are taken from the TxGNN knowledge graph) |
+| Predicted New Indication | Ewing sarcoma (top-ranked prediction: well-differentiated fetal adenocarcinoma of the lung; Ewing sarcoma is the best-supported) |
+| TxGNN Prediction Score | 99.84% for Ewing sarcoma (99.94% for the rank 1 prediction, well-differentiated fetal adenocarcinoma of the lung) |
+| Evidence Level | L1 (Ewing sarcoma) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails |
+
+**Other predictions in brief:**
+
+| Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|
+| Well-differentiated fetal adenocarcinoma of the lung | 99.94% | L4 | Hold |
+| Primary pulmonary lymphoma | 99.94% | L4 | Hold |
+| Pulmonary blastoma | 99.94% | L4 | Research question |
+| **Ewing sarcoma** | **99.85%** | **L1** | **Proceed with Guardrails** |
+| Rhabdomyosarcoma | 99.79% | L1 | Proceed with Guardrails |
+| Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.80% | L4 | Research question |
+| Parameningeal embryonal rhabdomyosarcoma | 99.76% | L4 | Research question |
+| Embryonal / extrahepatic bile duct rhabdomyosarcoma; prostate embryonal rhabdomyosarcoma | 99.74–99.76% | L4–L5 | Hold |
+
+The detailed evidence below focuses on Ewing sarcoma, the best-supported prediction. Rhabdomyosarcoma is also well supported and is summarised briefly.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed, structured mechanism-of-action data for Etoposide was flagged as a data gap in this evidence pack. Based on information available across the supporting literature and trial records, Etoposide is a **topoisomerase II inhibitor** (epipodophyllotoxin class): it stabilises the DNA–topoisomerase II cleavage complex, producing double-strand DNA breaks and triggering apoptosis in rapidly dividing cells. This mechanism underlies its long-standing use in small cell lung cancer, germ cell tumours and a wide range of lymphomas and sarcomas, as reflected throughout the trial and publication evidence in this pack (e.g. PMID 1984834, PMID 8070034).
+Etoposide is a topoisomerase II inhibitor. It causes DNA double-strand breaks and so kills rapidly dividing tumour cells. Detailed mechanism of action data is not available in the data compiled for this report, but this is the well-recognised pharmacology of the drug.
 
-Well-differentiated fetal adenocarcinoma of the lung is the low-grade, low-mitotic-index epithelial component of **classic biphasic pulmonary blastoma** — a very rare primary lung malignancy that also contains a primitive mesenchymal (sarcomatous) component. Because it is a lung tumour sharing anatomical origin with small cell lung cancer, and because pulmonary blastoma as a whole is a highly proliferative, mixed-histology tumour, there is a plausible mechanistic rationale for cytotoxic, DNA-damaging agents such as Etoposide to have activity here.
+Etoposide is already used in small cell lung carcinoma and germ cell tumours, which are chemosensitive cancers. Ewing sarcoma is also highly chemosensitive. Laboratory work in the literature notes that Ewing sarcoma cells are particularly sensitive to genotoxic agents such as etoposide, because the EWS-FLI1 fusion causes R-loops and impairs BRCA1-mediated DNA repair.
 
-However, the supporting evidence is indirect: the single literature record identified (PMID 33107372) describes a case of *classic biphasic* pulmonary blastoma (the combined epithelial/mesenchymal tumour) treated with nedaplatin plus paclitaxel — not Etoposide specifically, and not the isolated well-differentiated fetal adenocarcinoma subtype. No trial or publication in this pack directly evaluates Etoposide in this specific histological subtype.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
+Ifosfamide plus etoposide is a standard backbone of Ewing sarcoma chemotherapy. Randomised phase 3 trials (including a New England Journal of Medicine study of adding ifosfamide and etoposide to standard therapy) and a consensus guideline support this use. The same combination is active in rhabdomyosarcoma, although etoposide's individual contribution to multi-drug regimens is hard to isolate.
 
 ---
 
-## Literature Evidence
+## Clinical Trial Evidence (Ewing Sarcoma)
+
+Of 34 registered trials, the most relevant are listed below (all combination regimens, so etoposide's isolated contribution cannot be separated).
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00020566](https://clinicaltrials.gov/study/NCT00020566) | Phase 3 | Unknown | 1200 | EURO-E.W.I.N.G.99: randomised comparison of chemotherapy regimens with or without radiotherapy, surgery or stem cell support in Ewing sarcoma |
+| [NCT00006734](https://clinicaltrials.gov/study/NCT00006734) | Phase 3 | Completed | 587 | Interval-compressed chemotherapy intensification in Ewing sarcoma and related tumours |
+| [NCT01231906](https://clinicaltrials.gov/study/NCT01231906) | Phase 3 | Completed | 642 | Adding vincristine-topotecan-cyclophosphamide to standard 5-drug chemotherapy (including etoposide) in non-metastatic Ewing sarcoma |
+| [NCT02063022](https://clinicaltrials.gov/study/NCT02063022) | Phase 3 | Completed | 278 | Dose intensification versus standard treatment in non-metastatic Ewing sarcoma |
+| [NCT02306161](https://clinicaltrials.gov/study/NCT02306161) | Phase 3 | Active, not recruiting | 312 | Ganitumab added to multi-agent chemotherapy (including etoposide) in metastatic Ewing sarcoma |
+| [NCT00002516](https://clinicaltrials.gov/study/NCT00002516) | Phase 3 | Unknown | Not stated | EICESS 92: randomised comparison of combination chemotherapy regimens plus surgery and radiotherapy |
+| [NCT00002466](https://clinicaltrials.gov/study/NCT00002466) | Phase 2 | Completed | Not stated | Combination chemotherapy including etoposide and ifosfamide, followed by resection and radiotherapy, in peripheral PNET/Ewing sarcoma |
+| [NCT02727387](https://clinicaltrials.gov/study/NCT02727387) | Phase 2 | Completed | 155 | High-dose chemotherapy, radiotherapy and consolidation in metastatic Ewing sarcoma |
+| [NCT00002643](https://clinicaltrials.gov/study/NCT00002643) | Phase 2 | Completed | 130 | Intensive therapy with growth factor support in metastatic Ewing sarcoma/PNET |
+| [NCT00014313](https://clinicaltrials.gov/study/NCT00014313) | Phase 2 | Terminated | 3 | Weekly cisplatin with oral etoposide in metastatic Ewing sarcoma/PNET; terminated with very few patients |
+
+---
+
+## Literature Evidence (Ewing Sarcoma)
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/) | 2020 | Case Report | The Journal of International Medical Research | Case of classic biphasic pulmonary blastoma (which includes well-differentiated fetal adenocarcinoma as its epithelial component) treated with adjuvant chemotherapy after surgical resection; illustrates the chemosensitivity of this tumour family but does not test Etoposide directly. |
+| [12594313](https://pubmed.ncbi.nlm.nih.gov/12594313/) | 2003 | RCT | N Engl J Med | Adding ifosfamide and etoposide to standard chemotherapy in newly diagnosed Ewing sarcoma/PNET of bone |
+| [36522207](https://pubmed.ncbi.nlm.nih.gov/36522207/) | 2022 | RCT (phase 3) | Lancet | EE2012: comparison of two chemotherapy strategies (European versus US standard) in newly diagnosed Ewing sarcoma |
+| [23091096](https://pubmed.ncbi.nlm.nih.gov/23091096/) | 2012 | RCT | J Clin Oncol | Interval-compressed chemotherapy (alternating VDC and ifosfamide-etoposide) in localised Ewing sarcoma |
+| [36669140](https://pubmed.ncbi.nlm.nih.gov/36669140/) | 2023 | RCT (phase 3) | J Clin Oncol | Ganitumab with interval-compressed chemotherapy in metastatic Ewing sarcoma |
+| [31952545](https://pubmed.ncbi.nlm.nih.gov/31952545/) | 2020 | RCT protocol | Trials | Euro Ewing 2012 protocol |
+| [37403815](https://pubmed.ncbi.nlm.nih.gov/37403815/) | 2023 | Consensus guideline | Cancer | National Ewing Sarcoma Tumor Board consensus recommendations |
+| [26304893](https://pubmed.ncbi.nlm.nih.gov/26304893/) | 2015 | Review | J Clin Oncol | Current management and collaborative approaches in Ewing sarcoma |
+| [20152770](https://pubmed.ncbi.nlm.nih.gov/20152770/) | 2010 | Review | Lancet Oncol | Overview of Ewing sarcoma treatment and outcomes |
+| [39713774](https://pubmed.ncbi.nlm.nih.gov/39713774/) | 2024 | Retrospective study | Sarcoma | Oral etoposide in 33 adolescent and adult patients with relapsed or refractory Ewing sarcoma |
+| [29513652](https://pubmed.ncbi.nlm.nih.gov/29513652/) | 2018 | Laboratory study | Nature | EWS-FLI1 causes R-loops and blocks BRCA1 repair, explaining sensitivity to etoposide |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0801040D0AAAAAA (BNF-style code; a PL number is not available) | Etoposide capsules 50 mg | Capsule | Not available in the data compiled for this report |
+
+Only one valid single-ingredient authorisation is recorded, and no cancelled authorisations. Please check the current SmPC for the licensed indications, and note that Ewing sarcoma use may be off-label for this oral formulation.
 
 ---
 
 ## Cytotoxicity
 
-Etoposide is a conventional cytotoxic chemotherapy agent (topoisomerase II inhibitor, epipodophyllotoxin class), as evidenced throughout the trial and literature records in this pack (e.g. its role as the "E" in EPOCH, ICE, VDC/IE and BEACOPP regimens).
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor / epipodophyllotoxin class) |
-| Myelosuppression Risk | High — multiple Etoposide-containing regimens in this evidence pack required G-CSF/filgrastim prophylaxis and thrombopoietin-agonist supportive care for febrile neutropenia and thrombocytopenia (e.g. PMID 34962714; NCT01459653) |
-| Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
-| Monitoring Items | Full blood count with differential (given the neutropenia/thrombocytopenia signal in the supporting evidence), plus renal and hepatic function as standard for cytotoxic chemotherapy |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor, epipodophyllotoxin) |
+| Myelosuppression Risk | High (leukopenia, neutropenia and thrombocytopenia are listed among the knowledge-graph contraindications/cautions) |
+| Emetogenicity Classification | Low to moderate (oral); please refer to the SmPC |
+| Monitoring Items | FBC with differential, liver and renal function |
+| Handling Protection | Must follow local cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Product-label warnings and contraindications were not available in the data compiled for this report. The following comes from knowledge-graph drug-disease links and interaction records, not from label text.
 
----
+- **Conditions flagged in the knowledge graph (caution or contraindication):** thrombocytopenia, neutropenia, agranulocytosis, leukopenia, anaemia (including macrocytic anaemia), interstitial lung disease, pulmonary fibrosis, impaired renal function, acidosis/metabolic acidosis, and drug-induced liver injury.
+- **Drug interactions (100 recorded; examples):**
+  - *Moderate:* aprepitant, rolapitant, metronidazole, tinidazole, eliglustat, rosuvastatin, simvastatin.
+  - *Minor:* levofloxacin.
+  - *Level unknown:* cimetidine, pantoprazole, doxycycline, amphotericin B, morphine, among others.
+- **Additional guardrails from the predictions:** secondary leukaemia risk, and paediatric dose management in Ewing sarcoma and rhabdomyosarcoma.
 
-## Other Predicted Indications in This Evidence Pack
-
-This evidence pack scored Etoposide against 10 candidate indications. The table below summarises the other 9 for context, since several have materially stronger evidence than the top-ranked prediction above.
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Recommendation |
-|------|---------|------|------|------|------|
-| 2 | Primary pulmonary lymphoma | 99.94% | L2 | S2 | Proceed with Guardrails |
-| 3 | Pulmonary blastoma | 99.94% | L4 | S1 | Research Question |
-| 4 | Ewing sarcoma | 99.85% | L1 | S3 | Proceed with Guardrails |
-| 5 | Botryoid-type embryonal rhabdomyosarcoma of the vagina | 99.80% | L4 | S0 | Hold |
-| 6 | Rhabdomyosarcoma (disease) | 99.79% | L1 | S3 | Proceed with Guardrails |
-| 7 | Embryonal extrahepatic bile duct rhabdomyosarcoma | 99.76% | L5 | S0 | Hold |
-| 8 | Parameningeal embryonal rhabdomyosarcoma | 99.76% | L4 | S1 | Research Question |
-| 9 | Extrahepatic bile duct rhabdomyosarcoma | 99.75% | L5 | S0 | Hold |
-| 10 | Prostate embryonal rhabdomyosarcoma | 99.74% | L4 | S1 | Research Question |
-
-Note: for rank 4 (Ewing sarcoma) and rank 6 (rhabdomyosarcoma), the evidence pack's own rationale indicates these reflect **confirmation of existing standard-of-care use** (Etoposide/Ifosfamide within VDC/IE and related regimens) rather than novel repurposing — the L1 evidence level and multiple Phase 3 RCTs (e.g. PMID 12594313, PMID 36522207, PMID 11846301) support long-established practice rather than a new indication.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Proceed with Guardrails** (Ewing sarcoma and rhabdomyosarcoma). **Hold** for the other predictions.
 
 **Rationale:**
-- The top-ranked TxGNN prediction (well-differentiated fetal adenocarcinoma of the lung) has a very high model score but only L4 evidence — a single indirect case report, with no trials and no subtype-specific data — so it does not yet support a repurposing decision.
-- Two other candidates in this pack (Ewing sarcoma, rhabdomyosarcoma) have L1 evidence, but represent extension/confirmation of Etoposide's established chemotherapy role rather than new repurposing opportunities.
+- Multiple randomised phase 3 trials and a consensus guideline support ifosfamide-etoposide-based chemotherapy in Ewing sarcoma, giving L1 evidence. This is an established combination-regimen use more than a new discovery, and etoposide's individual contribution cannot be separated from the regimen.
+- Rhabdomyosarcoma has similar L1 support. The lung-related predictions (fetal adenocarcinoma, pulmonary lymphoma, pulmonary blastoma) and the site-specific rhabdomyosarcoma subtypes rest on case reports or indirect evidence only, or on no studies at all, and should be treated as research questions.
 
 **To proceed, the following is needed:**
-- UK product labelling/SmPC data (currently blocking — DG001: no warnings, contraindications or DDI data available for safety screening)
-- Confirmed mechanism-of-action documentation from DrugBank or equivalent source (DG002)
-- A prospective case series or trial specifically evaluating Etoposide-containing regimens in pulmonary blastoma/well-differentiated fetal adenocarcinoma
-- Confirmation of current UK marketing authorisation status, since this pack records 0 licences on file
+- The full MHRA SmPC (indications, warnings, contraindications), as the product label data was missing
+- Mechanism of action data from DrugBank to support the mechanistic analysis
+- Confirmation of the licensed route and formulation versus the route used in Ewing sarcoma regimens (the UK record lists oral capsules only, while the trial regimens commonly use intravenous etoposide)
+- A myelosuppression monitoring plan and a dosing/DDI management plan, including paediatric and young adult populations
+- Review by a specialist sarcoma multidisciplinary team against current NICE and national guidance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

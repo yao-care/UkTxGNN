@@ -29,38 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aceclofenac: From Musculoskeletal Pain and Inflammation to Brachyolmia-Amelogenesis Imperfecta Syndrome
-
----
+# Aceclofenac: From Rheumatoid Arthritis and Osteoarthritis to Brachyolmia-Amelogenesis Imperfecta Syndrome
 
 ## One-Sentence Summary
 
-Aceclofenac is a non-steroidal anti-inflammatory drug (NSAID) approved internationally for the management of pain and inflammation in conditions such as rheumatoid arthritis, osteoarthritis, and ankylosing spondylitis, though it does not currently hold a marketing authorisation in the United Kingdom.
-The TxGNN model predicts it may be effective for **Brachyolmia-Amelogenesis Imperfecta Syndrome**, however there are **no clinical trials** and **no publications** currently supporting this direction, and the prediction carries a high risk of being a false positive driven by knowledge graph topology rather than genuine therapeutic applicability.
+Aceclofenac is an oral non-steroidal anti-inflammatory drug (NSAID), originally used for painful inflammatory joint conditions such as rheumatoid arthritis, osteoarthritis and ankylosing spondylitis.
+The TxGNN model predicts it may be effective for **brachyolmia-amelogenesis imperfecta syndrome**, but this is a model prediction only, with **no clinical trials** and **no publications** supporting it.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation; approved internationally for rheumatoid arthritis, osteoarthritis, and ankylosing spondylitis |
-| Predicted New Indication | Brachyolmia-Amelogenesis Imperfecta Syndrome |
+|------|------|
+| Original Indication | Rheumatoid arthritis, ankylosing spondylitis, osteoarthritis, frozen shoulder (the MHRA licence record has no indication text, so these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Brachyolmia-amelogenesis imperfecta syndrome |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Aceclofenac in this Evidence Pack. Based on established pharmacological knowledge, Aceclofenac is a phenylacetic acid-derived NSAID that exerts its effects primarily through inhibition of cyclooxygenase (COX-1 and COX-2) enzymes, reducing prostaglandin E2 synthesis and thereby producing analgesic and anti-inflammatory effects. It also downregulates pro-inflammatory cytokines including IL-1β and TNF-α, which underpins its efficacy in inflammatory joint disease such as rheumatoid arthritis and ankylosing spondylitis.
+Currently, detailed mechanism of action data is not available. Based on known information, aceclofenac is an NSAID of the phenylacetic acid class, and its efficacy in painful inflammatory joint disease is established. Its effects are generally attributed to inhibiting prostaglandin-mediated inflammation and pain.
 
-Brachyolmia-amelogenesis imperfecta syndrome is an extremely rare congenital disorder characterised by two co-occurring features: skeletal dysplasia causing short-trunk dwarfism (due to vertebral abnormalities, i.e. brachyolmia) and defective tooth enamel formation (amelogenesis imperfecta). The condition is driven by mutations in genes such as *TRPV4* or *SLC26A2*, which cause structural abnormalities in bone and cartilage through developmental, non-inflammatory pathways unrelated to prostaglandin signalling.
-
-There is no established mechanistic link between COX inhibition and the genetic pathogenesis of this syndrome. The TxGNN model's high prediction score (99.89%) most likely reflects shared skeletal and cartilage tissue co-occurrence features within the knowledge graph rather than a genuine therapeutic relationship — a pattern recognised as a common source of false positives in graph-based prediction models. Aceclofenac might theoretically provide non-specific symptomatic pain relief in patients with skeletal dysplasia, but this is a class effect of all NSAIDs and does not constitute a meaningful repurposing opportunity for disease modification.
+Brachyolmia-amelogenesis imperfecta syndrome is a rare inherited disorder affecting the skeleton (particularly the spine) and tooth enamel. An NSAID could at most offer symptomatic pain relief. It would not be expected to modify the underlying genetic disease. The very high TxGNN score therefore reflects a pattern in the knowledge graph rather than a demonstrated or mechanistically supported benefit.
 
 ---
 
@@ -78,9 +74,11 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Aceclofenac does not currently hold a marketing authorisation in the United Kingdom and is not listed in the British National Formulary (BNF). There are no MHRA-approved products for this drug, and it has no history of NICE technology appraisal in this indication or any other.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 100101080AAAAAA | Aceclofenac Tab 100mg | Tablet (inferred from product name) | Not stated in the data compiled for this report |
 
-For reference, Aceclofenac has received regulatory approval in several other jurisdictions — including Spain (originally via a European mutual recognition procedure), South Korea, and India — where it is indicated for musculoskeletal inflammatory conditions including rheumatoid arthritis, osteoarthritis, and ankylosing spondylitis. Any future UK application would require a full MHRA submission and would not benefit from a grandfathered authorisation.
+The data compiled for this report contain one valid single-ingredient authorisation. The identifier is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register. Details of NICE appraisals and the BNF classification were not available.
 
 ---
 
@@ -95,13 +93,17 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.89%), brachyolmia-amelogenesis imperfecta syndrome is a purely genetic skeletal developmental disorder with no inflammatory aetiology. The COX-inhibition mechanism of Aceclofenac has no plausible connection to *TRPV4* or *SLC26A2* gene dysfunction, and there is a complete absence of supporting clinical trial or published literature evidence. This prediction is assessed as a high-probability false positive.
+The prediction rests on the model score alone. No trials or publications exist for this condition, no mechanistic link is supported, and the condition is a heritable skeletal and dental disorder that an NSAID would not be expected to modify.
 
 **To proceed, the following is needed:**
-- Formal mechanistic review by a rare disease specialist or clinical geneticist to confirm or definitively exclude any theoretical link between prostaglandin/COX pathways and *TRPV4*/*SLC26A2* function
-- Retrieval of the full Aceclofenac SmPC (from a jurisdiction where it is authorised, e.g. Spain or South Korea) to complete the safety and MOA profile
-- Review of MHRA authorisation requirements and feasibility prior to any UK development pathway
-- Separate evaluation of the rank 8 predicted indication — **Inflammatory Spondylopathy (L3 evidence, "Proceed with Guardrails")** — which represents a substantially more clinically plausible repurposing direction for Aceclofenac, supported by 3 disease-relevant clinical trials and a recognised NSAID mechanism in ankylosing spondylitis
+- Mechanism of action data for aceclofenac
+- Mechanistic or preclinical evidence linking COX inhibition to this condition
+- Full SmPC safety data (warnings, contraindications, interactions) to allow safety screening
+- Confirmation of the licence details (indication, dosage form, MHRA licence number)
+
+---
+
+*Other predictions of note:* the highest-ranked prediction with any literature is **inflammatory spondylopathy** (score 99.63%, evidence level L4). That evidence comes mainly from reviews and two 1996 ankylosing spondylitis comparator trials (PMIDs 8823693 and 8823692). It largely overlaps with the existing indication rather than representing true repurposing, and it may be a more useful research question than the lead prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cilazapril
-parent: Model Prediction Only (L5)
-nav_order: 158
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 165
+evidence_level: L4
 indication_count: 4
 ---
 
 # Cilazapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,144 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Cilazapril: From Hypertension to Pulmonary Hypertension with Unclear Multifactorial Mechanism
+# Cilazapril: From Hypertension to Pulmonary Hypertension (Owing to Lung Disease and/or Hypoxia)
 
 ## One-Sentence Summary
 
-Cilazapril is an angiotensin-converting enzyme (ACE) inhibitor originally used for the treatment of hypertension and heart failure. The TxGNN model predicts it may be effective for **Pulmonary Hypertension with Unclear Multifactorial Mechanism** (WHO Group 5), with **0 clinical trials** and **0 directly relevant publications** currently supporting this specific direction. Three additional predicted indications are also evaluated in this report.
-
----
+Cilazapril is an angiotensin-converting enzyme (ACE) inhibitor, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but the supporting evidence is limited to **4 preclinical publications** (animal and in vitro studies) and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, heart failure (ACE inhibitor class) |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder); the approved indication text is not available in the data compiled for this report |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia (the highest-ranked prediction with any supporting literature) |
 | TxGNN Prediction Score | 99.20% |
-| Evidence Level | L5 — Model prediction only, no clinical studies |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (treat as a research question) |
 
----
+**Other predictions** from the model, all with model-prediction-only evidence (L5) and no trials or literature:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Decision |
+|------|------|------|------|
+| Pulmonary hypertension with unclear multifactorial mechanism | 99.20% | L5 | Hold |
+| Malignant hypertensive renal disease | 99.12% | L5 | Hold |
+| Malignant renovascular hypertension | 99.12% | L5 | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Cilazapril is an ACE inhibitor that blocks the conversion of angiotensin I to angiotensin II. By inhibiting ACE, the drug reduces vasoconstriction, aldosterone secretion, and sodium retention, thereby lowering blood pressure. ACE inhibition also increases bradykinin levels, which promotes nitric oxide (NO) and prostacyclin release, contributing to vasodilation.
+Detailed mechanism of action data for cilazapril is not available in the data compiled for this report. Based on known pharmacology, cilazapril is a long-acting ACE inhibitor. It reduces the formation of angiotensin II, a potent vasoconstrictor, and so lowers blood pressure in hypertension.
 
-ACE is abundantly expressed in pulmonary vascular endothelium, and angiotensin II is involved in pulmonary vascular remodelling. In theory, ACE inhibition could attenuate pulmonary vascular remodelling and promote pulmonary vasodilation through the bradykinin–NO–prostacyclin pathway. This provides a plausible mechanistic basis for the TxGNN prediction.
+The link to the new indication is the local renin-angiotensin system in the lung. A preclinical study from 1997 examined the role of pulmonary arterial ACE in the development of hypoxic pulmonary hypertension. If ACE activity in the pulmonary arteries contributes to hypoxia-induced vasoconstriction and vascular remodelling (thickening of the artery wall), an ACE inhibitor could plausibly counter both.
 
-However, it is important to note that clinical experience with ACE inhibitors in pulmonary arterial hypertension (PAH) has been disappointing. Current guidelines recommend PDE5 inhibitors, endothelin receptor antagonists, and prostacyclin analogues rather than ACE inhibitors. WHO Group 5 pulmonary hypertension (multifactorial/unclear mechanisms) is particularly data-poor, with virtually no ACE inhibitor-specific evidence. The mechanistic rationale is moderate at best, and translational barriers are significant.
-
----
+Caution is needed. All supporting studies are in rats or cultured cells, and ACE inhibitors have not become a standard treatment for pulmonary hypertension due to lung disease or hypoxia. This suggests that translation to humans is uncertain. The TxGNN score is a computational prediction and does not on its own demonstrate efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Cilazapril in pulmonary hypertension with unclear multifactorial mechanism.
-
-Searches were conducted on ClinicalTrials.gov and the WHO ICTRP on 26 March 2026, returning zero results.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no directly relevant literature available for Cilazapril in pulmonary hypertension with unclear multifactorial mechanism.
-
-A PubMed search on 26 March 2026 returned zero results for this specific drug–disease combination.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1708054](https://pubmed.ncbi.nlm.nih.gov/1708054/) | 1991 | Preclinical (rat) | J Cardiovasc Pharmacol | Tested whether cilazapril could prevent thickening of the pulmonary artery wall in rats exposed to chronic hypoxia (8% oxygen for 4 weeks) |
+| [7712584](https://pubmed.ncbi.nlm.nih.gov/7712584/) | 1994 | Preclinical (rat) | Zhonghua Jie He He Hu Xi Za Zhi | Cilazapril protected against the rise in mean pulmonary arterial pressure and fall in PaO2 in rats with chronic hypoxic pulmonary hypertension, possibly by limiting TNF- and oxygen free radical-related lung injury |
+| [10072805](https://pubmed.ncbi.nlm.nih.gov/10072805/) | 1997 | Preclinical (animal, mechanistic) | Zhonghua Jie He He Hu Xi Za Zhi | Investigated the role of the local pulmonary arterial renin-angiotensin system, and ACE in particular, in hypoxic pulmonary hypertension |
+| [1378120](https://pubmed.ncbi.nlm.nih.gov/1378120/) | 1992 | In vitro | J Cardiovasc Pharmacol | Cilazapril and captopril accelerated recovery from hypoxia in cultured myocardial cell aggregates; this is indirect evidence, as it concerns heart cells rather than the pulmonary circulation |
 
 ## UK Market Information
 
-Cilazapril does not currently hold any active MHRA marketing authorisations in the United Kingdom. The drug is not marketed in the UK. Healthcare professionals considering this compound would need to access it through unlicensed medicine pathways or specials manufacturing, subject to appropriate governance and clinical oversight.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205051E0AAACAC | Cilazapril tablets 1 mg | Tablet (form not specified in the data) | Not available in the data compiled for this report |
 
----
+One valid single-ingredient authorisation is recorded. The identifier above is a product code and not a standard PL number, so please verify the licence details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Class-related concerns for ACE inhibitors (from the repurposing assessment):** ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or stenosis in a solitary kidney. This is particularly relevant to the renovascular hypertension prediction.
+- **Drug Interactions:** The only interaction record is the pharmacological target, angiotensin-converting enzyme (human ACE, gene *ACE*). No drug-drug interactions with graded severity were identified.
 
-> **Note:** Key warnings, contraindications, and drug–drug interaction data were not available in the evidence pack. As an ACE inhibitor, prescribers should be aware of class-level safety concerns including hyperkalaemia, renal impairment, angioedema, first-dose hypotension, and teratogenicity. ACE inhibitors are contraindicated in pregnancy.
-
----
-
-## Additional Predicted Indications
-
-### Indication 2: Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
-
-| Item | Content |
-|------|---------|
-| TxGNN Prediction Score | 99.20% |
-| Evidence Level | L5 |
-| Recommendation | **Hold** |
-
-**Mechanistic rationale:** WHO Group 3 pulmonary hypertension is caused by lung disease and/or hypoxia. Hypoxic pulmonary vasoconstriction involves local renin–angiotensin system (RAS) activation. Animal models have shown that ACE inhibitors can partially attenuate hypoxic pulmonary vascular remodelling. However, systemic RAS inhibition may cause systemic hypotension rather than selective pulmonary vasodilation, creating substantial translational difficulties.
-
-**Literature:** 20 publications were retrieved, but all relate to general hypoxia biology (reviews and basic science) rather than to Cilazapril or ACE inhibitors in pulmonary hypertension. No directly relevant evidence was identified. Representative examples:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | General review of hypoxia and neurodegeneration; no ACE inhibitor data |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metab Brain Dis | Review of cognitive impairment from hypoxia; not relevant to pulmonary vascular disease |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | J Cell Biochem | General review of hypoxia-mediated biological control |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin N Am | Review of hypoxaemia mechanisms; basic physiology |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biol | Hypoxia in multiple sclerosis; not relevant |
-
-> **Assessment:** None of the 20 retrieved publications provide evidence for Cilazapril use in WHO Group 3 pulmonary hypertension. The literature appears to have been retrieved on the keyword "hypoxia" alone and lacks drug-specific relevance.
-
----
-
-### Indication 3: Malignant Hypertensive Renal Disease
-
-| Item | Content |
-|------|---------|
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L4 |
-| Recommendation | **Research Question** |
-
-**Mechanistic rationale:** Strong mechanistic link. The core pathology of malignant hypertensive renal disease involves severe RAS over-activation leading to angiotensin II-driven glomerular hypertension, endothelial injury, and fibrinoid necrosis. ACE inhibitors directly block this pathway. Substantial evidence from landmark trials (REIN, AASK) confirms the renoprotective benefit of ACE inhibitors (enalapril, ramipril) in hypertensive nephropathy. Cilazapril, as a member of the same class, has a sound mechanistic rationale.
-
-**Caution:** In the acute phase of malignant hypertension, ACE inhibitors must be used with caution as they may precipitate acute kidney injury, particularly when renal perfusion pressure is dependent on angiotensin II.
-
-**Clinical trials:** Currently no related clinical trials registered.
-**Literature:** Currently no related literature available.
-
----
-
-### Indication 4: Malignant Renovascular Hypertension
-
-| Item | Content |
-|------|---------|
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L4 |
-| Recommendation | **Hold** |
-
-> ⚠️ **Safety Alert:** There is a mechanistic contradiction for this indication. Renovascular hypertension is caused by renal artery stenosis. The affected kidney depends on angiotensin II to maintain glomerular filtration rate (GFR). ACE inhibitors block this compensatory mechanism and **may cause acute renal failure** — this is an established contraindication, particularly in bilateral renal artery stenosis or a solitary kidney. Even in unilateral stenosis, combining malignant hypertension with renovascular disease makes ACE inhibitor use extremely high-risk.
-
-**Clinical trials:** Currently no related clinical trials registered.
-**Literature:** Currently no related literature available.
-
----
+Specific warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question)**
 
 **Rationale:**
-The TxGNN model prediction scores are high (99.12–99.20%) across all four indications, but clinical evidence is essentially absent. No clinical trials have been registered, and no directly relevant literature supports the use of Cilazapril specifically in any of the predicted indications. Cilazapril is not currently marketed in the UK, adding a significant access barrier. Additionally, the fourth predicted indication (malignant renovascular hypertension) carries a clear safety contraindication that warrants particular caution. Only the third indication (malignant hypertensive renal disease) demonstrates a strong mechanistic rationale consistent with established ACE inhibitor class evidence, and could merit further investigation.
+The only evidence for pulmonary hypertension owing to lung disease and/or hypoxia is four preclinical studies from 1991 to 1997, with no human trials. A high TxGNN score (99.20%) and a plausible ACE-related mechanism are not enough to justify clinical development, especially as ACE inhibitors are not standard therapy in this setting. The other three predictions rest on model output alone.
 
 **To proceed, the following is needed:**
-- Obtain detailed mechanism of action data from DrugBank
-- Obtain SmPC safety data (key warnings, contraindications) for ACE inhibitor class-level review
-- Conduct a targeted literature search for ACE inhibitors (class-level, not Cilazapril-specific) in WHO Group 5 and Group 3 pulmonary hypertension
-- Evaluate whether existing ACE inhibitor trial data in hypertensive nephropathy (REIN, AASK) can be extrapolated to Cilazapril for malignant hypertensive renal disease
-- Assess UK access pathways for Cilazapril (unlicensed medicine, specials) or consider whether other marketed ACE inhibitors with equivalent profiles may serve as alternatives
-- Confirm that malignant renovascular hypertension is flagged as a contraindication, not a repurposing target
-
----
-
-*This report was generated on 5 April 2026. Data cutoff: 5 April 2026. This analysis is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. Report suspected adverse reactions via the [Yellow Card Scheme](https://yellowcard.mhra.gov.uk/).*
+- Detailed mechanism of action data for cilazapril
+- Human clinical data (for example, a small exploratory study) in hypoxic or lung-disease-associated pulmonary hypertension
+- Review of the SmPC and BNF for warnings and contraindications, including renal risk and blood pressure effects in patients with pulmonary hypertension
+- Approved indication text and dosage form for the UK authorisation, confirmed against the MHRA register
+- A safety evaluation before any further study of renovascular or malignant hypertension indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

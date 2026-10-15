@@ -2,7 +2,7 @@
 layout: default
 title: Penciclovir
 parent: Model Prediction Only (L5)
-nav_order: 449
+nav_order: 482
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Penciclovir: From Herpes Simplex/Varicella-Zoster Virus Infection to Fascioliasis
+# Penciclovir: From Herpes Labialis to Fascioliasis
 
 ## One-Sentence Summary
 
-Penciclovir is a guanosine analogue whose antiviral activity depends on phosphorylation by viral (HSV/VZV) thymidine kinase, and it is conventionally used against herpes simplex and varicella-zoster virus infections.
-The TxGNN model predicts it may be effective for **Fascioliasis** (liver fluke infection), but this is currently supported by **0 clinical trials** and **0 publications**, and the drug's own repurposing rationale flags the mechanism as biologically implausible.
-
----
+Penciclovir is a topical antiviral originally used to treat herpes labialis (cold sores).
+The TxGNN model predicts it may be effective for **fascioliasis**, but there are currently **no clinical trials** and **no publications** supporting this prediction, and no plausible biological mechanism has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Herpes simplex virus (HSV) / varicella-zoster virus (VZV) infection (inferred from mechanism of action data in the evidence pack; no formal indication text supplied) |
+| Original Indication | Herpes labialis |
 | Predicted New Indication | Fascioliasis |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism of action (MOA) data for Penciclovir is not available in this evidence pack. Based on the mechanistic description accompanying the prediction, Penciclovir is a guanosine nucleoside analogue that requires phosphorylation by virus-specific thymidine kinase (HSV/VZV) before it can inhibit viral DNA polymerase and halt viral replication. This mechanism is entirely dependent on a viral enzyme system that herpesviruses possess but that is absent in helminth/trematode parasites.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, penciclovir is a guanosine nucleoside analogue. After phosphorylation by viral thymidine kinase, it inhibits herpesvirus DNA polymerase. This explains its efficacy in herpes labialis.
 
-Fascioliasis is caused by the liver fluke *Fasciola hepatica*, a trematode with a metabolic and enzymatic profile that has no known overlap with viral thymidine kinase-dependent nucleoside activation. The evidence pack's own repurposing rationale explicitly states that there is "no reasonable mechanistic support" for antiparasitic activity, and suggests the high TxGNN score more likely reflects indirect or noisy connections within the knowledge graph rather than a genuine biological relationship.
+Fascioliasis is a liver fluke (trematode) infection. Flukes have no viral thymidine kinase and no herpesvirus-like DNA polymerase, so there is no plausible mechanistic link to penciclovir. The high TxGNN score is a graph-based prediction and likely reflects network proximity between parasitic diseases in the knowledge graph rather than real biology. It should not be read as evidence of efficacy.
 
-Given the absence of any supporting mechanism, clinical trial, or published literature, this prediction should be treated as a hypothesis-generating signal only, not as a basis for further pharmacological reasoning at this stage.
+The other top-ranked predictions show the same pattern:
 
----
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Cysticercosis | 98.99% | No credible mechanism (cestode lacks viral TK) |
+| 3 | Coenurosis | 98.75% | No known antiparasitic target |
+| 4 | Intestinal helminthiasis | 98.70% | No anthelmintic activity |
+| 5 | Malignant pleural mesothelioma | 98.51% | Only a speculative viral TK suicide-gene concept (explored with ganciclovir, not penciclovir) |
+| 6 | Endomyometritis | 98.45% | No antibacterial activity |
+| 7 | Malignant epithelioid mesothelioma | 98.40% | Same speculative link as above |
+| 8 | Sarcomatoid mesothelioma | 98.26% | No intrinsic antitumour mechanism |
+| 9 | Synovium cancer | 98.09% | No identified mechanism |
+| 10 | Malignant visceral pleura tumour | 98.03% | Same speculative link as mesothelioma |
+
+None of these predictions has supporting trials or publications.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
-Penciclovir is recorded as **not marketed** in this evidence pack, with **0 marketing authorisations** on file. No licence records are currently available for this compound.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1310030L0AAAAAA | Penciclovir cream 1% | Cream | Not stated in the data compiled |
 
----
+Penciclovir is marketed in the UK as a single-ingredient topical product. The data compiled for this report contain only one authorisation, and its record is incomplete (no dosage form, manufacturer or indication text). Please verify the authorisation details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score, there are zero clinical trials, zero publications, no marketing authorisation in the UK, and the accompanying mechanistic rationale explicitly states there is no biological plausibility linking Penciclovir's viral thymidine kinase-dependent mechanism to fascioliasis. This is a Stage S0, Evidence Level L5 candidate with no independent corroboration.
+The prediction rests on a model score alone (L5). There is no clinical, preclinical or literature support, and no plausible mechanism links a herpesvirus-specific, thymidine-kinase-dependent nucleoside analogue to a parasitic fluke infection. Established anthelmintic treatments act through unrelated targets.
 
 **To proceed, the following is needed:**
-- Verified MOA data from DrugBank (currently a blocking/high-severity data gap)
-- TFDA/MHRA label warnings, contraindications and drug interaction data (currently a blocking data gap for safety triage)
-- Independent preclinical or mechanistic evidence exploring any activity against *Fasciola hepatica* or related trematodes
-- Confirmation of current UK/international marketing status for Penciclovir formulations
-- Re-evaluation once any clinical trial or peer-reviewed literature becomes available for this drug-disease pair
+- Any in vitro or in vivo evidence of anti-*Fasciola* activity, together with a proposed mechanism
+- Detailed mechanism of action data for penciclovir
+- Confirmation of authorisation details (dosage form, indication, manufacturer) from the MHRA register
+- Review of the SmPC for safety information, as no warnings or contraindications were available
+- Assessment of route compatibility: penciclovir is a topical cream, whereas fascioliasis requires systemic exposure
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

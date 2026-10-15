@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulpiride
-parent: Model Prediction Only (L5)
-nav_order: 547
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 586
+evidence_level: L4
 indication_count: 9
 ---
 
 # Sulpiride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Sulpiride: From Antipsychotic Use to Retinal Dystrophy with or without Extraocular Anomalies
+# Sulpiride: From Schizophrenia to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-Sulpiride is a benzamide-class selective D2/D3 dopamine receptor antagonist, historically used as an antipsychotic; no formal original-indication or UK licensing data are recorded in this evidence pack. The TxGNN model predicts a possible link to **retinal dystrophy with or without extraocular anomalies**, a rare congenital/genetic eye disorder, but this is currently supported by **0 clinical trials** and **15 tangentially related publications**, none of which study Sulpiride directly. The evidence base is model-prediction only, with no biologically plausible mechanistic link identified.
-
----
+Sulpiride is a selective dopamine D2/D3 receptor antagonist, originally used to treat schizophrenia.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
+but the only supporting evidence is **2 preclinical publications** in rat models and **no registered clinical trials**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack (no marketing authorisation or indication text on file). Known drug class: benzamide-class D2/D3 receptor antagonist, typically used as an antipsychotic |
+| Original Indication | Schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Sulpiride is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, Sulpiride is understood to be a selective D2/D3 dopamine receptor antagonist of the benzamide chemical class, conventionally used to manage psychotic disorders through central dopaminergic blockade.
+Sulpiride selectively blocks the D2 and D3 dopamine receptors and has low affinity for the D4 receptor. It also binds several carbonic anhydrase isoforms (CA1, CA7 and CA12) in pharmacology data, though the significance of this is unclear. Its antipsychotic effect is attributed to D2 blockade.
 
-Retinal dystrophy with or without extraocular anomalies is a congenital/genetic condition involving structural developmental abnormalities of the retina and, in some cases, the extraocular muscles — it is not a disorder driven by dopaminergic signalling. There is no established pharmacological or embryological pathway connecting D2/D3 receptor antagonism to the correction of inherited structural eye malformations.
+Dopamine is an important signalling molecule in the retina, and D2-like receptors modulate the activity of retinal neurons. In animal models of retinitis pigmentosa, the retinal dopaminergic system appears to be dysfunctional. In the P23H rat model, D2 antagonists including sulpiride appeared to improve the visual responses of retinal ganglion cells. This gives a plausible but indirect link to retinal signalling.
 
-On the evidence available, the biological plausibility of this prediction is low. The condition arises from developmental or genetic defects rather than a pharmacologically reversible pathological process, and no mechanistic rationale currently supports Sulpiride as an intervention. This assessment is consistent across the other TxGNN-ranked candidates for this drug (ranks 2–9 in the evidence pack), which include severe congenital brain and neuromuscular structural disorders (e.g. hydranencephaly, polymicrogyria with cerebellar hypoplasia, Charcot-Marie-Tooth disease type 1G) — none of which have any supporting clinical trial or literature evidence, suggesting the high TxGNN scores in this cluster may reflect graph-level prediction noise rather than genuine pharmacological signal.
+This link has limits. The studies measured electrical light responses in animal retinas. They did not show any effect on disease progression, retinal cell survival or vision in people with inherited retinal dystrophy. The relationship between schizophrenia and retinal dystrophy is purely pharmacological (a shared receptor target), not a shared disease process. Detailed mechanism of action data were not available in the data compiled for this report.
 
----
+Eight other lower-ranked predictions (hydranencephaly, polymicrogyria, Charcot-Marie-Tooth disease type 1G, several myopia subtypes, a glycosylation disorder and atypical glycine encephalopathy) have only model scores of about 99.9% and no trials or literature. Most have no identifiable mechanistic rationale. They were not evaluated further here.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
-
-**Note:** None of the publications identified specifically investigate Sulpiride in relation to this condition; they describe the clinical phenotype of extraocular/congenital eye anomalies in general terms and are included here as background disease-context literature only.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections and cellulitis staging; no drug relevance |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Diagnostic approach to diplopia from ocular/neurologic/muscular causes |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis with levator muscle dystrophy and fibrosis |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and associated anterior segment dysgenesis |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome vitreoretinal degeneration with extraocular manifestations |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging classification of congenital/developmental pediatric ocular pathologies |
-| [19064847](https://pubmed.ncbi.nlm.nih.gov/19064847/) | 2008 | Review | Archives of Ophthalmology | Case series on orbital arteriovenous malformations |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case Report | American Journal of Ophthalmology | Unilateral cryptophthalmia with absent extraocular muscles and optic nerve |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | Journal of Neuro-Ophthalmology | Congenital trochlear-oculomotor synkinesis, a cranial dysinnervation disorder |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case Report | Optometry and Vision Science | Congenital fibrosis of extraocular muscles with variable synergistic divergence |
+| [27788033](https://pubmed.ncbi.nlm.nih.gov/27788033/) | 2016 | Preclinical (rat electrophysiology) | J Ocul Pharmacol Ther | In the P23H rat model of retinitis pigmentosa, sulpiride and eticlopride appeared to improve retinal ganglion cell light responses. The study tested whether the antipsychotics haloperidol and clozapine, which also block D2 receptors, have similar effects. |
+| [26717015](https://pubmed.ncbi.nlm.nih.gov/26717015/) | 2015 | Preclinical (rat electrophysiology) | PLoS One | Examined the effects of D2-like receptor antagonists on light responses of retinal ganglion cells in wild-type and P23H rat retinas, in a model where the retinal dopaminergic system appears dysfunctional. |
 
----
+Both publications are animal studies. No human studies were identified.
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0402010U0AAAHAH | Sulpiride Tablets 200mg | Tablet | Not stated in the data compiled |
+
+The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather than a standard MHRA product licence (PL) number, so the licence details should be checked against the MHRA register. The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction data compiled for this report list pharmacological targets rather than interacting drugs: D2 and D3 dopamine receptors (primary targets) and carbonic anhydrase 1, 7 and 12. No drug-drug interaction severity levels were available.
 
-*(Note: key warnings, contraindications, and drug interaction data are marked as a Blocking data gap in this evidence pack and have not yet been retrieved from a UK-approved product label.)*
-
----
+For warnings, contraindications and interaction details, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is very high, but no clinical trials and no drug-specific literature support a link between Sulpiride and this rare congenital retinal/extraocular disorder; the available publications describe disease phenotype only, not Sulpiride treatment.
-- The condition is structural/developmental in origin, and no mechanistic pathway connects D2/D3 receptor antagonism to correcting inherited eye malformations — biological plausibility is low. This same pattern (high score, zero supporting evidence, no mechanistic basis) recurs across the other TxGNN-ranked candidates for this drug (ranks 2–9), reinforcing that this prediction cluster is not yet actionable.
+The prediction score is very high, but support is limited to two animal electrophysiology studies with an indirect mechanistic link. There are no clinical trials or human data, and no evidence of benefit on disease progression or vision.
 
 **To proceed, the following is needed:**
-- Sulpiride's original mechanism of action and approved indication data (currently a High-severity data gap)
-- Product label warnings, contraindications, and drug interaction data (currently a Blocking data gap for safety triage)
-- Any preclinical or mechanistic studies specifically linking dopaminergic modulation to retinal/extraocular structural development, if such studies exist
-- Re-evaluation once UK marketing authorisation status and dosage form availability are confirmed
+- Confirmation of whether sulpiride has any effect on retinal structure or function beyond acute light responses in animal models
+- Replication in additional models, including relevant genetic forms of retinal dystrophy
+- Detailed mechanism of action data and clarification of the role of D2 antagonism in retinal degeneration
+- Review of the SmPC for safety, including a risk-benefit assessment for long-term use in a non-psychiatric population
+- Verification of the UK licence details (licence number, dosage form and approved indication)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

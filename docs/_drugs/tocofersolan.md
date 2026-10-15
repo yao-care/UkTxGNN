@@ -2,7 +2,7 @@
 layout: default
 title: Tocofersolan
 parent: Model Prediction Only (L5)
-nav_order: 582
+nav_order: 624
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tocofersolan: From Undetermined Original Indication to Amenorrhea (Disease)
+# Tocofersolan: From Vitamin E Supplementation to Amenorrhoea
 
 ## One-Sentence Summary
 
-The original indication and mechanism of action for Tocofersolan (DrugBank ID DB11635) are not recorded in the available evidence pack, though the drug's own repurposing rationale identifies it as a vitamin E precursor (TPGS, D-alpha-tocopheryl polyethylene glycol succinate). The TxGNN model predicts a possible association with **Amenorrhea (disease)**, but this pairing is currently supported by **zero clinical trials** and **zero publications**, making it a pure computational prediction (TxGNN score 99.31%) with no biological rationale offered by the model itself.
+Tocofersolan is a water-soluble form of vitamin E (alpha-tocopherol) that is marketed in the UK as an oral solution.
+The TxGNN model predicts it may be effective for **amenorrhoea**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the computational model alone.
 
 ---
 
@@ -41,23 +43,23 @@ The original indication and mechanism of action for Tocofersolan (DrugBank ID DB
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (data gap in evidence pack) |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not stated in the data compiled for this report |
+| Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Tocofersolan is not available in this evidence pack (flagged as a High-severity data gap, DG002). The only mechanistic context provided comes from the model's own rationale text, which identifies Tocofersolan as a vitamin E precursor (TPGS). No original indication is recorded at all (DG001, Blocking severity, also missing UK/TFDA labelling data), so it is not possible to assess pharmacological continuity between an established use and the predicted indication.
+Currently, detailed mechanism of action data is not available. Based on known information, tocofersolan is a water-soluble derivative of vitamin E with antioxidant activity. Its approved indication was not recorded in the data compiled for this report, so the relationship between the original and predicted indications cannot be assessed.
 
-For the top-ranked prediction, Amenorrhea (disease), the evidence pack's own rationale is explicit that **no known mechanistic link exists** between Tocofersolan and this condition, and that the pairing is a purely statistical output of the TxGNN knowledge graph rather than a hypothesis grounded in pharmacology.
+A link to amenorrhoea is speculative. Vitamin E has been loosely discussed in relation to reproductive hormone balance and oxidative stress, but no mechanism has been established for this drug. The high TxGNN score is a computational output only and is not supported by any trial or literature evidence.
 
-A further caution: two of the ten ranked predictions in this evidence pack (rank 3, "malignant catarrh", and rank 4, "infectious bovine rhinotracheitis") are veterinary/bovine diseases with no relevance to human therapeutics. Their presence suggests a possible entity-mapping error in the underlying disease vocabulary, and this should lower confidence in the overall prediction set for this drug pending vocabulary review.
+Other top-ranked predictions are similarly weak. Several (malignant catarrh, infectious bovine rhinotracheitis) are veterinary diseases with no human relevance and probably reflect knowledge-graph artefacts. Others, such as acne, conjunctivitis and peripheral arterial disease, have only a plausible indirect antioxidant or anti-inflammatory rationale, with no evidence for tocofersolan.
 
 ---
 
@@ -75,13 +77,21 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Tocofersolan currently has no marketing authorisation on record for the UK (market status: not marketed, 0 authorisations). No product, dosage form or approved indication data is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0906050U0AAAAAA (BNF code) | Tocofersolan oral solution 250 mg/5 mL, sugar-free | Oral solution | Not stated in the compiled data |
+
+The BNF classification code (chapter 9, nutrition and blood) suggests a vitamin product. The recorded identifier is a BNF/NHS product code rather than a standard PL number, and the approved indication text, manufacturer and NICE appraisal information were not available.
 
 ---
 
 ## Safety Considerations
 
+No warnings, contraindications or drug interaction data were available in the data compiled for this report.
+
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+For the predicted indications, one point is worth noting from the mechanistic review: vitamin E has mild antiplatelet effects, so bleeding risk would need consideration in any thrombosis-related use.
 
 ---
 
@@ -90,14 +100,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-This candidate is at the earliest possible evaluation stage (S0/L5): no original indication, MOA, or UK labelling data are on file, no clinical trials or literature support the top prediction, and the drug has no UK marketing authorisation. The presence of veterinary-disease entities elsewhere in the prediction list also raises data-quality concerns about the underlying knowledge graph mapping for this drug.
+The prediction is supported only by the TxGNN model score, with no clinical trials, no literature and no established mechanism. The drug is a marketed vitamin E formulation, but its approved indication and safety data are missing, so no meaningful repurposing assessment can be made.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain TFDA/SmPC labelling (warnings, contraindications) before any safety screening (S1) can begin
-- Resolve High-severity data gap DG002: confirm mechanism of action via DrugBank API to support or refute mechanistic plausibility
-- Original indication history for Tocofersolan, to establish a baseline for assessing repurposing rationale
-- Independent literature/clinical trial search specifically for Tocofersolan and amenorrhea, since none were captured by current collectors
-- Verification of the disease vocabulary mapping used by TxGNN for this drug, given the presence of non-human (veterinary) disease entities in the ranked output
+- The approved indication and SmPC safety information (warnings, contraindications, interactions) for the UK product
+- Mechanism of action data for tocofersolan
+- A systematic literature and trial registry search for vitamin E in amenorrhoea
+- Clinical review of whether amenorrhoea is a credible target, or whether a more plausible candidate from the prediction list (for example acne) should be prioritised
+- Confirmation of route and formulation suitability for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

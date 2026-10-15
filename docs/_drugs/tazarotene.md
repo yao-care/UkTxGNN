@@ -2,7 +2,7 @@
 layout: default
 title: Tazarotene
 parent: Model Prediction Only (L5)
-nav_order: 555
+nav_order: 595
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tazarotene: From No UK Marketing Authorisation to Seborrheic Dermatitis
+# Tazarotene: From Psoriasis to Seborrhoeic Dermatitis
 
 ## One-Sentence Summary
 
-Tazarotene is a retinoid compound; however, this Evidence Pack contains no record of an approved original indication or UK marketing authorisation for this product. The TxGNN model predicts it may be effective for **Seborrheic Dermatitis**, but this direction is currently supported by only **1 clinical trial** (assessed as low relevance) and **no dedicated literature**.
+Tazarotene is a topical retinoid, originally used to treat psoriasis, parapsoriasis and acne.
+The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ---
 
@@ -41,49 +42,57 @@ Tazarotene is a retinoid compound; however, this Evidence Pack contains no recor
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK marketing authorisation or approved indication text is on record for this product |
-| Predicted New Indication | Seborrheic Dermatitis |
+| Original Indication | Psoriasis, parapsoriasis, acne (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Seborrhoeic dermatitis |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack, and no approved UK indication or licensed product record exists for Tazarotene. Based on the information available, Tazarotene belongs to the retinoid class of compounds.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, tazarotene is a topical retinoid prodrug that is converted to tazarotenic acid. This binds selectively to retinoic acid receptors beta and gamma (RARβ and RARγ), normalising keratinocyte differentiation and reducing hyperproliferation and inflammation.
 
-According to the repurposing rationale supplied with this prediction, Tazarotene, as a retinoid, may theoretically modulate keratinocyte differentiation, inhibit excessive epidermal proliferation, and exert anti-inflammatory effects — properties that could offer indirect benefit for the abnormal keratinisation and inflammatory changes seen in seborrheic dermatitis. However, the primary pathology of seborrheic dermatitis is driven by *Malassezia* yeast overgrowth and sebaceous gland dysfunction, which are not typical targets of retinoid therapy. Topical retinoids are also known to be irritant and could plausibly worsen the skin barrier disruption characteristic of this condition.
-
-Overall, the mechanistic link is weak and the direction of effect is uncertain, which is consistent with the low evidence level assigned to this prediction.
+These effects are relevant to psoriasis and acne, and could plausibly help with the scaling and inflammatory component of seborrhoeic dermatitis. However, that condition is also driven by *Malassezia* yeast colonisation and the skin's inflammatory response to it, which retinoid activity does not directly address. The very high TxGNN score is a computational prediction only, so the mechanistic link is inferred rather than demonstrated. Topical retinoid irritation (redness, peeling) could also aggravate a condition that commonly affects sensitive facial skin.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06281782](https://clinicaltrials.gov/study/NCT06281782) | Not Applicable | Unknown | 40 | Randomised trial comparing platelet-rich plasma plus topical retinoids versus topical retinoids alone in **acne vulgaris**; assessed as low relevance (grade C) — the study population and indication do not match seborrheic dermatitis, and the trial was included only because it involves a topical retinoid |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for seborrhoeic dermatitis.
+
+*Other predicted indications (for context):*
+- **Seborrhoeic keratosis** (TxGNN score 99.51%, evidence level L4): a 2023 systematic review of topical treatments for seborrhoeic keratoses ([PMID 36215682](https://pubmed.ncbi.nlm.nih.gov/36215682/)) and a 2004 comparative study of cryosurgery versus topical calcipotriene, tazarotene and imiquimod ([PMID 15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/)) provide indirect evidence. Only titles and short abstracts were available, so the tazarotene-specific results need confirming from the full texts. This is best treated as a research question.
+- **Vulvar inverted follicular keratosis** (TxGNN score 99.38%, evidence level L5): no trials or literature. A retinoid effect is speculative, and local irritation on thin genital skin is a particular concern.
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisations are currently on record for Tazarotene; the product is not marketed in the United Kingdom.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1305020T0AAAAAA | Tazarotene Aq Gel 0.05% | Gel (aqueous) | Not stated in the available data |
+
+The authorisation is recorded as a single-ingredient product with valid status. Manufacturer and approved indication text are not available in the data compiled for this report, so the UK licensed indications should be checked against the current SmPC and BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindications** (not label text): photoparoxysmal response, photosensitivity disease and sunburn.
+- **Drug interactions:** 25 potential interactions were identified, none with an assigned severity level. Those listed include doxycycline, minocycline, adapalene, tretinoin, omeprazole, cetirizine, montelukast, fluticasone, salbutamol, citalopram, levothyroxine, rofecoxib, hydroxyzine, diclofenac, etodolac, duloxetine, clobetasol, tacrolimus, cyclobenzaprine and doxepin. Concurrent use with other retinoids (adapalene, tretinoin) and photosensitising agents (such as tetracyclines) warrants particular attention.
+- **Other considerations:** tazarotene is contraindicated in pregnancy, and local irritation is common, which matters especially on the face and genital skin.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -92,13 +101,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the seborrheic dermatitis prediction is currently limited to model output (TxGNN score only), a single clinical trial judged of low relevance to the target indication, and no supporting literature. The proposed mechanistic link is also biologically weak, as the primary drivers of seborrheic dermatitis are not typical retinoid targets.
+The prediction for seborrhoeic dermatitis is supported only by a model score, with no trials or publications, and the mechanism does not address the fungal component of the disease. Possible skin irritation is an added concern.
 
 **To proceed, the following is needed:**
-- UK product labelling/SmPC data, including warnings, contraindications, and prescribing information (currently a blocking data gap)
-- Detailed mechanism of action (MOA) data from DrugBank or equivalent source (currently a high-severity data gap)
-- Confirmation of UK marketing authorisation status, or evidence of an equivalent licensed product, before further evaluation
-- Dedicated clinical trials or literature specifically evaluating Tazarotene in seborrheic dermatitis, rather than adjacent acne-vulgaris studies
+- Mechanism of action data and a fuller review of retinoid effects in seborrhoeic dermatitis
+- A systematic literature search for tazarotene in seborrhoeic dermatitis, and any registered trials
+- Review of the full texts of PMID 36215682 and PMID 15090020 to see whether seborrhoeic keratosis is a stronger candidate
+- The current SmPC for the UK product (indications, contraindications, warnings), as this information was not available
+- A tolerability and safety plan for sensitive facial skin, and for women of childbearing potential
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

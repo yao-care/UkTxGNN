@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propranolol
-parent: High Evidence (L1-L2)
-nav_order: 487
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 525
+evidence_level: L5
 indication_count: 6
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,88 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-Using the report template above (no additional skill needed — this is a defined content-generation task with an explicit spec already provided).
-
-**Note on indication selection:** Among the 6 TxGNN candidates, the top-ranked ones by raw score (distal myopathy, congenital myopathy, chondroma) have **zero evidence** and the rationale text itself states they lack biological plausibility (Hold, L5). The only candidate with real clinical evidence is **cardiomyopathy** (rank 6, L2, "Proceed with Guardrails") — driven by decades of hypertrophic obstructive cardiomyopathy (HOCM) trials. This report focuses on that candidate as the clinically meaningful one; the others are noted briefly for completeness.
-
----
-
-# Propranolol: From Cardiovascular Indications to Cardiomyopathy (Hypertrophic Obstructive Subtype)
+# Propranolol: From Hypertension and Cardiovascular Disorders to Distal Myopathy, Tateyama Type
 
 ## One-Sentence Summary
 
-> Propranolol is a non-selective beta-blocker with long-established cardiovascular uses (hypertension, angina, arrhythmias).
-> The TxGNN model predicts it may be effective for **Cardiomyopathy** — most specifically hypertrophic obstructive cardiomyopathy (HOCM) —
-> with **3 clinical trials** and **20 publications** currently supporting this direction, including historical double-blind RCTs.
->
-> Note: TxGNN's highest-scoring candidates for this drug (distal myopathy Tateyama type, congenital myopathy with thin filament excess, chondroma) returned **no supporting evidence** and are explicitly flagged in the model rationale as lacking biological plausibility. They remain at "Hold" and are not discussed further.
+Propranolol is a non-selective beta-blocker, originally used for hypertension, arrhythmias, hypertrophic cardiomyopathy and infantile haemangioma-type vascular conditions.
+The TxGNN model predicts it may be effective for **distal myopathy, Tateyama type**, a rare muscle disease.
+This prediction is currently supported by **0 clinical trials** and **0 publications**, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in source registry (data gap); propranolol is internationally established for hypertension, angina pectoris and cardiac arrhythmias |
-| Predicted New Indication | Cardiomyopathy (evidence base concentrated in hypertrophic obstructive cardiomyopathy) |
-| TxGNN Prediction Score | 99.12% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed (per this dataset — see caveat under UK Market Information) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Hypertension, atrial fibrillation, hypertrophic cardiomyopathy, haemangioma and related vascular conditions (the UK licence record lists no indication text, so these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Distal myopathy, Tateyama type |
+| TxGNN Prediction Score | 99.40% |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was flagged as a data gap in the structured dataset (DG002). However, the evidence base itself is explicit: propranolol is a **non-selective beta-adrenergic receptor blocker** (β1 and β2), reducing heart rate, myocardial contractility and cardiac output. In hypertrophic obstructive cardiomyopathy, this negative inotropic/chronotropic action lowers left ventricular outflow tract (LVOT) pressure gradient — the central pathophysiological problem in HOCM.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Propranolol is a non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions such as hypertension, arrhythmia and hypertrophic cardiomyopathy is well established. Mechanistically, it reduces heart rate, myocardial contractility and oxygen demand.
 
-This is not a novel mechanistic leap: propranolol's classical cardiovascular indications (hypertension, angina, arrhythmia) already exploit the same beta-blockade pathway. The extension to HOCM is a **within-class, within-mechanism** application rather than a repurposing into an unrelated therapeutic area, and it is supported by clinical use dating back to the 1970s–1990s (double-blind RCTs, haemodynamic catheterisation studies, and combination therapy trials with nifedipine/disopyramide).
+No plausible link between beta-adrenergic blockade and this rare distal myopathy can be established from the available data. The high score (99.40%) is a computational output from the knowledge graph. It may reflect network proximity between propranolol and muscle-related disease nodes. It is not evidence of a pharmacological rationale. This prediction should be treated as a hypothesis only.
 
-The evidence is weaker and more mixed for related but distinct entities — dilated cardiomyopathy (haemodynamic deterioration risk noted in some cohorts) and cirrhotic cardiomyopathy (conflicting effects on QTc vs renal/circulatory function) — so the "Proceed with Guardrails" recommendation should be understood as applying most confidently to the HOCM subtype, not cardiomyopathy as a whole.
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05427474](https://clinicaltrials.gov/study/NCT05427474) | Phase 3 | Unknown | 90 | Propranolol + gabapentin for paroxysmal sympathetic hyperactivity in traumatic brain injury (ICU); indirect relevance — not cardiomyopathy itself |
-| [NCT05019027](https://clinicaltrials.gov/study/NCT05019027) | Phase 4 | Enrolling by invitation | 20 | N-of-1 deprescribing trial of beta-blockers in transthyretin cardiac amyloidosis; safety/usage data rather than efficacy proof |
-| [NCT04767061](https://clinicaltrials.gov/study/NCT04767061) | Phase 4 | Completed | 9 | N-of-1 deprescribing trial of beta-blockers in HFpEF; physical function outcomes |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [4586631](https://pubmed.ncbi.nlm.nih.gov/4586631/) | 1973 | RCT | British Heart Journal | Double-blind trial of propranolol vs practolol in hypertrophic cardiomyopathy |
-| [3673167](https://pubmed.ncbi.nlm.nih.gov/3673167/) | 1987 | RCT/Combination study | Zeitschrift für Kardiologie | Nifedipine + propranolol combination in HCM over 6–24 months |
-| [7200796](https://pubmed.ncbi.nlm.nih.gov/7200796/) | 1982 | Cohort/Haemodynamic | British Heart Journal | Haemodynamic effects of nifedipine and propranolol in HOCM |
-| [1611637](https://pubmed.ncbi.nlm.nih.gov/1611637/) | 1992 | Cohort/Exercise study | Cardiology | Effect of propranolol and disopyramide on LV function at rest and exercise in HCM |
-| [7191199](https://pubmed.ncbi.nlm.nih.gov/7191199/) | 1980 | Cohort/Observational | Am J Cardiology | Propranolol and arrhythmia in hypertrophic cardiomyopathy |
-| [7192151](https://pubmed.ncbi.nlm.nih.gov/7192151/) | 1980 | Cohort/Haemodynamic | British Heart Journal | Propranolol effects on myocardial oxygen consumption and haemodynamics in HOCM |
-| [6686544](https://pubmed.ncbi.nlm.nih.gov/6686544/) | 1983 | Cohort/Haemodynamic | European Heart Journal | Diastolic stiffness: propranolol vs verapamil in HCM |
-| [2920304](https://pubmed.ncbi.nlm.nih.gov/2920304/) | 1989 | Cohort/Echocardiographic | Canadian J Cardiology | Disopyramide + propranolol combination in HCM |
-| [3189143](https://pubmed.ncbi.nlm.nih.gov/3189143/) | 1988 | Cohort/Haemodynamic | American Heart Journal | Acute haemodynamic effects of pindolol vs propranolol in dilated cardiomyopathy |
-| [8989641](https://pubmed.ncbi.nlm.nih.gov/8989641/) | 1996 | Cohort/Haemodynamic | J Cardiac Failure | Predictors of intolerance and long-term propranolol effects in dilated cardiomyopathy |
+Currently no related literature available.
+
+---
 
 ## UK Market Information
 
-No marketing authorisation records are present in this dataset (`total_licenses = 0`, `licenses = []`). This is a **known data gap** rather than confirmation of non-availability — propranolol is a long-established generic beta-blocker, and current UK licensing status (including brand/generic products and their approved indications) should be verified directly against the MHRA product database and current BNF entry before any decision is finalised.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0204000R0AAAAAA | Propranolol HCl Cap 80mg M/R | Modified-release capsule (taken from the product name) | Not stated in the data compiled |
+
+The identifier above is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA register and the BNF before any reliance is placed on it. The licence record does not state a manufacturer or approved indication.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Label-derived warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for these. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*(Key warnings, contraindications and drug interaction data were all flagged as data gaps in this evidence pack — DG001, Blocking severity — and could not be summarised here.)*
+- **Disease contraindications flagged in the knowledge graph** (derived from graph relationships, not from label text; they require confirmation against the SmPC): bronchitis, kidney disease, liver disease, pancreatitis, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, gout, myasthenia gravis, systemic lupus erythematosus, anxiety and neurotic disorders, and several muscle disorders (myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis). Also flagged were hepatic coma and encephalopathy, anuria, hyperparathyroidism, hypercalcaemia, nephrocalcinosis, potassium deficiency and neonatal jaundice.
+  - The muscle-related flags are relevant here. The knowledge graph links propranolol to myopathy as a contraindication, which sits uneasily with a prediction of benefit in a myopathy.
+- **Drug interactions** (DDInter, 100 interactions recorded; examples below):
+  - **Major:** epinephrine.
+  - **Moderate:** hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone, atropine, hyoscyamine, methscopolamine, bupropion, morphine, lorcaserin, canagliflozin, chlorpropamide, cimetidine, calcium acetate, calcium phosphate.
+  - **Minor:** ascorbic acid, acetylsalicylic acid, magnesium oxide.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The HOCM-specific evidence base is genuine and decades-deep (multiple RCTs and haemodynamic studies), giving L2 evidence strength and a clear, already-exploited mechanistic pathway. However, the safety data gap (DG001, Blocking) and absent MOA documentation (DG002) mean this cannot yet clear a full safety review, and the evidence is markedly weaker for cardiomyopathy subtypes outside HOCM (dilated, cirrhotic).
+The prediction has no supporting trials or publications and no identifiable mechanistic link. The knowledge graph also lists myopathy as a contraindication-type association for propranolol. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- SmPC/BNF-sourced warnings, contraindications and DDI data (resolves DG001, currently Blocking)
-- Formal MOA documentation from DrugBank or equivalent (resolves DG002)
-- Confirmation of current UK marketing authorisation status and licensed indications for propranolol
-- Scoping restricted specifically to HOCM rather than cardiomyopathy broadly, given the mixed/negative signals for dilated and cirrhotic subtypes
-- No further action on the three TxGNN-flagged candidates with no evidence (distal myopathy Tateyama type, congenital myopathy with thin filaments, chondroma) — these remain correctly at "Hold"
+- Evidence of a biological mechanism connecting beta-adrenergic signalling to the pathology of distal myopathy, Tateyama type.
+- Systematic literature and registry searches (including ISRCTN and the EU Clinical Trials Register) for any relevant preclinical or clinical data.
+- Clarification of the knowledge-graph myopathy contraindication against SmPC and BNF content.
+- Verification of the UK licence record, including the product's authorisation number and approved indication.
+- Complete mechanism of action and label safety data.
+
+**Other predicted indications:** Cirrhotic cardiomyopathy and the broader category of cardiomyopathy have some supporting literature (Evidence Levels L4 and L3). For cardiomyopathy, much of the evidence overlaps with the existing hypertrophic cardiomyopathy use. For cirrhotic cardiomyopathy, some publications raise safety concerns about beta-blockers in advanced cirrhosis. If the programme is to continue, these are more evidence-supported candidates for further review than the one assessed here.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

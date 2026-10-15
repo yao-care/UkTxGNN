@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nortriptyline
-parent: Model Prediction Only (L5)
-nav_order: 423
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 456
+evidence_level: L2
 indication_count: 2
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Nortriptyline: From Depression to Attention Deficit-Hyperactivity Disorder (ADHD)
+# Nortriptyline: From Anxiety Disorder to Attention Deficit Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Nortriptyline is a tricyclic antidepressant (TCA), historically used to treat depression. The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**, with **no registered clinical trials** but **20 supporting publications**, including a Cochrane systematic review and several controlled studies, currently identified.
-
----
+Nortriptyline is a tricyclic antidepressant, originally used for anxiety disorder, neurotic disorder and dysthymic disorder.
+The TxGNN model predicts it may be effective for **attention deficit hyperactivity disorder (ADHD)**,
+with **no registered clinical trials** but **15 publications** (including a Cochrane review and a randomised controlled trial) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Depression (established indication for tricyclic antidepressants; not present in the current evidence pack) |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
+|------|------|
+| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the TxGNN knowledge graph; no approved indication text is available for the UK product) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L3 (systematic review and controlled studies; no registered clinical trials) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
-
----
+| Evidence Level | L2 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general pharmacological knowledge, nortriptyline is a secondary-amine tricyclic antidepressant that predominantly inhibits noradrenaline reuptake (with weaker serotonergic activity), and its efficacy in depression is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of the drug class, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker inhibition of serotonin reuptake. A PET study in patients with depression (PMID 24345533) examined its occupancy of the norepinephrine transporter.
 
-ADHD is understood to involve dysregulation of noradrenergic and dopaminergic signalling in the prefrontal cortex. Because nortriptyline's principal pharmacological action is noradrenaline reuptake inhibition, a mechanistic rationale exists for activity in ADHD, and this is consistent with why TCAs (particularly desipramine and nortriptyline, the more noradrenergic agents) have historically been used as second-line, non-stimulant options for ADHD when stimulants are contraindicated or poorly tolerated — for example in patients with comorbid tic disorders.
+Noradrenergic dysfunction in prefrontal circuits is implicated in ADHD. This is the same pathway targeted by approved nonstimulant ADHD medicines such as atomoxetine. Reviews also describe secondary-amine tricyclics such as nortriptyline and desipramine as established alternative treatments for ADHD, although their narrow therapeutic index and potential cardiovascular toxicity have limited their use.
 
-This mechanistic plausibility is supported by decades of published clinical experience (see Literature Evidence below), although this body of evidence predates modern trial registries and current regulatory standards, and no contemporary registered clinical trials were identified.
-
----
+The link between the original mood and anxiety indications and ADHD is therefore the shared noradrenergic mechanism, and mood and anxiety disorders commonly co-occur with ADHD. The second predicted entry, ADHD inattentive type, is a subtype of the same condition. It has no specific supporting data, so its evidence is indirect only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|------|---------|
-| [22700161](https://pubmed.ncbi.nlm.nih.gov/22700161/) | 2012 | RCT | Pediatric Nephrology | Randomised double-blind controlled trial of nortriptyline for enuresis in children with ADHD |
-| [11052409](https://pubmed.ncbi.nlm.nih.gov/11052409/) | 2000 | Controlled Study | J Child Adolesc Psychopharmacol | Controlled study of efficacy and tolerability of nortriptyline in paediatric ADHD |
-| [25238582](https://pubmed.ncbi.nlm.nih.gov/25238582/) | 2014 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Review of tricyclic antidepressants, including nortriptyline, for ADHD in children/adolescents |
-| [7807071](https://pubmed.ncbi.nlm.nih.gov/7807071/) | 1995 | Systematic Assessment | J Nerv Ment Dis | Systematic assessment of TCAs, including nortriptyline, in adult ADHD |
-| [15064003](https://pubmed.ncbi.nlm.nih.gov/15064003/) | 2004 | Review | Psychiatr Clin North Am | Review of non-stimulant treatments for adult ADHD; notes narrow therapeutic index/cardiovascular toxicity limiting TCA use |
-| [22303520](https://pubmed.ncbi.nlm.nih.gov/22303520/) | 2012 | Guideline/Review | Ann Clin Psychiatry | CANMAT task force recommendations for managing mood disorders with comorbid ADHD |
-| [15794722](https://pubmed.ncbi.nlm.nih.gov/15794722/) | 2005 | Review | Expert Opin Drug Saf | Safety review of non-stimulant ADHD agents, including TCAs |
-| [12270803](https://pubmed.ncbi.nlm.nih.gov/12270803/) | 2002 | Review | Adolesc Med | Overview of ADHD pharmacotherapy including tricyclic antidepressants |
-| [9629412](https://pubmed.ncbi.nlm.nih.gov/9629412/) | 1997 | Review | Arq Neuropsiquiatr | Review of drug use in ADHD, including stimulants and antidepressants |
-| [8428873](https://pubmed.ncbi.nlm.nih.gov/8428873/) | 1993 | Case Series | J Am Acad Child Adolesc Psychiatry | Nortriptyline in children with ADHD and comorbid tic disorder/Tourette's syndrome |
+|------|-----|------|------|---------|
+| [11052409](https://pubmed.ncbi.nlm.nih.gov/11052409/) | 2000 | RCT | J Child Adolesc Psychopharmacol | Controlled study of the efficacy and tolerability of nortriptyline in children and adolescents with ADHD |
+| [22700161](https://pubmed.ncbi.nlm.nih.gov/22700161/) | 2012 | RCT | Pediatr Nephrol | Randomised double-blind trial of nortriptyline for enuresis in children with ADHD |
+| [25238582](https://pubmed.ncbi.nlm.nih.gov/25238582/) | 2014 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Review of tricyclic antidepressants as second-line treatment for ADHD in children and adolescents |
+| [15064003](https://pubmed.ncbi.nlm.nih.gov/15064003/) | 2004 | Review | Psychiatr Clin North Am | Nonstimulant treatments for adult ADHD; nortriptyline and desipramine noted as noradrenergic options, limited by cardiovascular toxicity |
+| [12270803](https://pubmed.ncbi.nlm.nih.gov/12270803/) | 2002 | Review | Adolesc Med | Overview of ADHD medicines in adolescents, including nortriptyline among the tricyclics |
+| [22303520](https://pubmed.ncbi.nlm.nih.gov/22303520/) | 2012 | Guideline | Ann Clin Psychiatry | CANMAT recommendations for mood disorders with comorbid ADHD |
+| [8428873](https://pubmed.ncbi.nlm.nih.gov/8428873/) | 1993 | Open-label/cohort | J Am Acad Child Adolesc Psychiatry | Nortriptyline in children with ADHD and tic disorder or Tourette's syndrome |
+| [8444763](https://pubmed.ncbi.nlm.nih.gov/8444763/) | 1993 | Chart review | J Am Acad Child Adolesc Psychiatry | Chart review of 58 children and adolescents with ADHD treated with nortriptyline |
+| [8444754](https://pubmed.ncbi.nlm.nih.gov/8444754/) | 1993 | Retrospective study | J Am Acad Child Adolesc Psychiatry | Serum levels and ECG effects of nortriptyline in children and adolescents |
+| [4075308](https://pubmed.ncbi.nlm.nih.gov/4075308/) | 1985 | Clinical study | Clin Neuropharmacol | Early report of nortriptyline in attention deficit disorder |
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0403010V0AAADAD | Nortriptyline Tab 10 mg | Not specified | Not specified |
+
+The authorisation identifier above is as recorded in the compiled data, and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Dosage form and approved indication text are not available. Please check the BNF classification and any NICE guidance directly.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications flagged in the knowledge graph (not taken from label text):**
+- Cardiac: long QT syndrome (including familial), torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction and coronary thrombosis
+- Cerebrovascular: stroke, cerebral infarction and related disorders
+- Neurological and psychiatric: epilepsy, manic bipolar affective disorder, substance abuse/dependence
+- Eye and urological: open-angle glaucoma, glaucoma, benign prostatic hyperplasia
+- Endocrine: hyperthyroidism, Graves disease, thyrotoxicosis
+- Organ failure: liver failure, kidney failure, uremia
+- Haematological: hemoglobinopathy
 
----
+**Drug Interactions:** 100 interactions were identified in total. The first 20 returned are listed here and do not represent the full set.
+- **Major:** epinephrine, bupropion, lorcaserin, potassium citrate, dolasetron
+- **Moderate:** famotidine, cimetidine, clarithromycin, morphine, loperamide, chlorpropamide, dronabinol, eliglustat, diethylpropion, and anticholinergic agents (hyoscyamine, atropine, glycopyrronium, dicyclomine)
+- Bowel preparation products (picosulfuric acid, polyethylene glycol with electrolytes) are also listed as moderate.
+
+**Paediatric cardiovascular note:** The literature highlights the narrow therapeutic index and potential cardiovascular toxicity of tricyclics, and includes an ECG and serum-level study in children. Cardiac monitoring would be important in any ADHD use.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Nortriptyline is not currently marketed in the UK (0 marketing authorisations), and critical safety data (SmPC warnings, contraindications) and mechanism-of-action confirmation are both missing from the evidence pack. Although published literature — including a Cochrane review — supports a mechanistic rationale for use in ADHD, no registered clinical trials exist to substantiate this indication under current evidence standards.
+The evidence is graded L2 on the strength of a controlled study of nortriptyline in paediatric ADHD (a small RCT from 2000) and a Cochrane review of tricyclics, backed by a plausible noradrenergic mechanism. However, there are no registered trials. The cardiovascular safety concerns are significant, and the safety data from product labelling are incomplete. The ADHD inattentive-type prediction (L5) should be held pending direct evidence.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC warnings, contraindications, and drug interaction data
-- Confirmed mechanism of action (DrugBank or equivalent source)
-- Assessment of UK route to market (no current UK authorisation)
-- Identification of any contemporary, registered clinical trials in ADHD to support the TxGNN prediction
-- Paediatric cardiovascular safety data specific to ADHD populations, given known TCA cardiotoxicity concerns noted in the literature
+- Confirmation of the UK marketing authorisation (PL number, dosage form and approved indications) from the MHRA register
+- SmPC warnings and contraindications, since the product labelling safety data are missing
+- Detailed mechanism of action data
+- Appraisal of the RCT and Cochrane review for sample size, outcomes and risk of bias, and comparison with licensed ADHD treatments (e.g. atomoxetine, guanfacine)
+- A cardiac monitoring plan (ECG, and serum levels where appropriate) and a review of the major interactions before any use in ADHD
+- Confirmation of the target population (children, adolescents or adults), and recognition that use in ADHD would be off-label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

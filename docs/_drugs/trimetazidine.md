@@ -2,7 +2,7 @@
 layout: default
 title: Trimetazidine
 parent: Model Prediction Only (L5)
-nav_order: 601
+nav_order: 643
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,94 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trimetazidine: From Angina Pectoris to Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies
+# Trimetazidine: From Angina Pectoris to Endolymphatic Hydrops (Ménière's Disease)
 
 ## One-Sentence Summary
 
-Trimetazidine is a metabolic modulator historically used as an anti-anginal agent for stable angina pectoris. The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this prediction is currently supported by **no clinical trials and no publications** — it rests purely on mechanistic reasoning.
+Trimetazidine is a metabolic modulator marketed in the UK as a 20 mg tablet. The TxGNN model predicts it may be effective for **endolymphatic hydrops** (the pathology underlying Ménière's disease), supported by **no registered clinical trials** and **5 publications**, of which **2 are small double-blind comparisons against betahistine from 1990**.
+
+*Note: the data compiled for this report did not include an approved indication text. The original indication of angina pectoris is taken from general knowledge of trimetazidine's use, not from the licence data.*
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (no UK licence text available); internationally, trimetazidine has historically been used as a metabolic anti-anginal agent for stable angina pectoris |
-| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
-| TxGNN Prediction Score | 98.83% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Not stated in the licence data (trimetazidine is generally used for angina pectoris) |
+| Predicted New Indication | Endolymphatic hydrops (Ménière's disease) |
+| TxGNN Prediction Score | 98.57% |
+| Evidence Level | L2 (cautious interpretation; see below) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+*The top-ranked TxGNN prediction is mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies (98.83%), but it has no supporting studies (L5). Endolymphatic hydrops is the highest-ranked prediction with clinical literature, so it is the focus of this report.*
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacological information, trimetazidine is a fatty acid oxidation (pFOX) inhibitor that shifts cellular energy metabolism away from fatty acid β-oxidation towards glucose oxidation, a more oxygen-efficient pathway. Its efficacy in angina pectoris — where myocardial oxygen supply is limited — is well documented internationally.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, trimetazidine inhibits 3-ketoacyl-CoA thiolase. This shifts cellular energy metabolism from fatty acid oxidation towards glucose oxidation, which is thought to protect cells during ischaemia.
 
-The rationale linking this mechanism to mitochondrial oxidative phosphorylation (OXPHOS) disorders is that, by promoting glucose oxidation, trimetazidine could theoretically offer an alternative energy-generating route for cells with defective OXPHOS capacity caused by nuclear DNA anomalies. However, this is explicitly flagged in the Evidence Pack as a **purely mechanistic inference**, without any supporting clinical or preclinical data. Diseases in this category are also highly heterogeneous in aetiology, meaning a single metabolic mechanism is unlikely to apply uniformly across the group. This prediction should therefore be treated with considerable caution.
+Ménière's disease causes recurrent vertigo, hearing loss, tinnitus and ear fullness. The proposed link is that trimetazidine protects inner-ear cellular energy metabolism and reduces ischaemia-related damage. This is plausible but unproven.
+
+Two 1990 double-blind studies compared trimetazidine (60 mg/day) with betahistine in vestibular vertigo and Ménière's disease, which suggests some clinical activity. The studies are small and old. Their full text was not verified, and the available abstracts do not show the outcomes. Three related subtypes (active cochleovestibular, cochlear and vestibular Ménière's disease) share the same rationale, but no subtype-specific evidence is available.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2240994](https://pubmed.ncbi.nlm.nih.gov/2240994/) | 1990 | RCT (double-blind) | Ann Otolaryngol Chir Cervicofac | Trimetazidine 60 mg/day vs betahistine 24 mg/day over 3 months in peripheral vertigo. 40 patients enrolled, 20 with Ménière's disease. Outcomes not available in the abstract provided. |
+| [2240995](https://pubmed.ncbi.nlm.nih.gov/2240995/) | 1990 | RCT (double-blind) | Ann Otolaryngol Chir Cervicofac | Trimetazidine 60 mg/day vs betahistine 36 mg/day over 2 months in Ménière's disease. 45 patients enrolled. Outcomes not available in the abstract provided. |
+| [10367069](https://pubmed.ncbi.nlm.nih.gov/10367069/) | 1999 | Review | Ann Otolaryngol Chir Cervicofac | Synopsis of clinical trials of trimetazidine 20 mg in vertigo. No abstract available. |
+| [19454061](https://pubmed.ncbi.nlm.nih.gov/19454061/) | 2007 | Review | BMJ Clin Evid | General review of Ménière's disease. Describes symptoms and a fluctuating course; not specific to trimetazidine. |
+| [26208913](https://pubmed.ncbi.nlm.nih.gov/26208913/) | 2016 | Basic research | Eur Arch Otorhinolaryngol | Histamine receptor expression in the human endolymphatic sac, providing the rationale for betahistine. Not specific to trimetazidine. |
+
+A further 2015 study (PMID [26563011](https://pubmed.ncbi.nlm.nih.gov/26563011/), *B-ENT*) examined trimetazidine, betahistine and ginkgo biloba for residual dizziness after repositioning manoeuvres for benign paroxysmal positional vertigo. It is relevant to a different predicted condition (benign recurrent vertigo) and is only indirect evidence here.
+
+---
 
 ## UK Market Information
 
-Trimetazidine currently holds no marketing authorisation in the United Kingdom (total licences: **0**); its market status is recorded as **Not Marketed**. No licence-level product, dosage form, or approved-indication data are available in this Evidence Pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206020B0AAAAAA (BNF code) | Trimetazidine HCl tablets 20 mg | Tablet | Not stated in the data compiled |
+
+Only one authorisation was identified. The number shown is a BNF classification code rather than an MHRA PL number, and the BNF chapter code (0206, other antianginal drugs) is consistent with an antianginal use. Vertigo and Ménière's disease are not listed as approved indications in the data compiled.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*(Note: Key warnings, contraindications and drug–drug interaction data for trimetazidine are currently unavailable in this Evidence Pack — obtaining the SmPC/label warnings is flagged as a Blocking data gap, DG001.)*
+No drug interactions were found in the data queried, and no knowledge-graph contraindications were recorded. This should not be read as evidence that none exist.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (mitochondrial OXPHOS disorder due to nuclear DNA anomalies) has no clinical trial or literature evidence — it is evidence level L5, a computational prediction only. Combined with the high aetiological heterogeneity of this disease group and the lack of any confirmed mechanism of action, there is insufficient basis to advance this specific indication.
+The only direct clinical evidence is two small, old (1990) double-blind comparisons with betahistine, with no outcome data available in the abstracts, and no registered trials. The L2 grade is generous given the uncertain study quality, and the prediction remains a research question rather than an actionable repurposing candidate. Safety and licence data are also incomplete.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data via DrugBank (DG002)
-- UK SmPC-level warnings and contraindications, required before any safety pre-screening can begin (DG001, Blocking)
-- Preclinical or mechanistic studies specifically testing trimetazidine in nuclear-DNA-related OXPHOS disorders
-- Separate evaluation of the endolymphatic hydrops / Ménière's disease signal (rank 2 in this Evidence Pack), which — unlike the top-ranked prediction — is supported by six identified publications, including historical double-blind comparative trials of trimetazidine versus betahistine in vertigo/Ménière's disease; this may represent a more evidence-ready repurposing candidate than the current top prediction
+- Full-text review of the two 1990 trials (outcomes, dropout, statistical analysis, comparator dosing)
+- A systematic search for newer controlled trials of trimetazidine in Ménière's disease, and a check against current NICE and ENT guidance
+- Mechanism of action data confirmed from DrugBank
+- SmPC warnings and contraindications, including known movement-disorder and renal-impairment cautions, reviewed for the target population
+- The approved indication text and MHRA PL number for the UK product
+- If evidence supports it, a prospective randomised trial against current standard care
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

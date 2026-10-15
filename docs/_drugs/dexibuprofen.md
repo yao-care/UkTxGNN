@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dexibuprofen
-parent: High Evidence (L1-L2)
-nav_order: 205
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 217
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dexibuprofen
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,88 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dexibuprofen: From Musculoskeletal Pain and Inflammation to Ankylosing Spondylitis
-
-> **Note on candidate selection:** TxGNN generated 10 predicted indications for dexibuprofen. Nine of these (ranked #1–#8 and #10 by raw model score) are rated **L5 (model prediction only)**, and the accompanying rationale for each explicitly describes them as mechanistically implausible or likely model noise (e.g. rare skeletal dysplasia syndromes with no inflammatory pathology). Only **Ankylosing Spondylitis** (rank #9) is supported by actual literature and reaches a meaningful decision stage (S2, L2 evidence). This report therefore focuses on Ankylosing Spondylitis as the only clinically actionable candidate in this evidence pack.
+# Dexibuprofen: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Dexibuprofen is the active S(+)-enantiomer of ibuprofen, a non-selective COX-1/COX-2 inhibitor used for musculoskeletal pain and inflammation. The TxGNN model predicts it may be effective for **Ankylosing Spondylitis**, a direction supported by **3 publications**, though this largely reflects an established NSAID class effect rather than a novel repurposing mechanism, and no dedicated clinical trials for this pairing are currently registered.
-
----
+Dexibuprofen (the S-enantiomer of ibuprofen) is an NSAID originally used for arthritic and inflammatory conditions such as rheumatoid arthritis and osteoarthritis.
+The TxGNN model's top-ranked prediction is **brachydactyly-syndactyly syndrome**, but there are **no clinical trials and no publications** supporting it.
+The only prediction with any supporting literature in the data compiled for this report is **ankylosing spondylitis**, and that literature is general rather than disease-specific.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the regulatory data pack; published literature on dexibuprofen describes use in musculoskeletal pain and inflammatory/degenerative conditions (e.g. rheumatoid arthritis, gonarthrosis, lumbar spine syndrome) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.70% |
-| Evidence Level | L2 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy and related conditions (the UK authorisation record contains no indication text) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome (top-ranked) |
+| TxGNN Prediction Score | 99.87% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed drug-level mechanism-of-action data is flagged as a data gap in this pack. However, the literature evidence retrieved for this specific pairing (PMID 9013382) identifies dexibuprofen as the active S(+)-enantiomer of ibuprofen, acting as a non-selective COX-1/COX-2 inhibitor — the standard NSAID mechanism.
+Detailed mechanism of action data is not currently available. Based on known pharmacology, dexibuprofen is a cyclooxygenase (COX) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative joint disease is established.
 
-Ankylosing spondylitis and the other conditions in dexibuprofen's established evidence base (rheumatoid arthritis, gonarthrosis, lumbar vertebral column syndrome, activated coxarthrosis) share a common inflammatory/degenerative joint pathology. NSAIDs, including dexibuprofen, are already first-line symptomatic therapy across this disease group.
+For the top-ranked prediction, there is **no credible mechanistic link**. Brachydactyly-syndactyly syndromes are congenital limb malformations of developmental genetic origin, which an NSAID would not be expected to modify. The high score is a computational output only, with no trials or literature behind it.
 
-Mechanistically, this prediction is therefore best understood as an extension of an existing NSAID class effect rather than a novel repurposing hypothesis — the pharmacology is well precedented, but no trial has been run to confirm dexibuprofen specifically (as opposed to ibuprofen generally, or other NSAIDs) in a dedicated ankylosing spondylitis population.
+The same applies to most of the other top-ten predictions, which are rare genetic or developmental conditions:
 
----
+| Predicted Condition | Score | Assessment |
+|------|------|------|
+| Brachydactyly-syndactyly syndrome | 99.87% | No credible mechanism |
+| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.85% | No plausible mechanism |
+| Acromesomelic dysplasia, Hunter-Thompson type | 99.84% | Caused by GDF5 loss of function; no COX link |
+| Brachyolmia-amelogenesis imperfecta syndrome | 99.83% | No credible mechanism |
+| Myosclerosis | 99.82% | At most hypothetical symptomatic relief |
+| Brachyolmia | 99.80% | No COX link to genetic cause |
+| Pseudoachondroplasia | 99.74% | Possible symptomatic relief of secondary joint pain only; no disease-modifying rationale |
+| Spondyloarthropathy, susceptibility to | 99.73% | Overlaps an existing original indication; not a new opportunity |
+| Ankylosing spondylitis | 99.70% | Biologically plausible (see below) |
+| WHIM syndrome | 99.68% | CXCR4 gain-of-function; no COX link |
+
+**Ankylosing spondylitis** is the one biologically plausible candidate. NSAIDs are first-line symptomatic therapy, and dexibuprofen is already used in related arthritic conditions, so this would be largely an extension within the labelled class. No dexibuprofen-specific trials in ankylosing spondylitis were identified.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predictions.
 
 ## Literature Evidence
 
+No literature is available for the top-ranked prediction. The only supporting publications relate to ankylosing spondylitis (rank 9) and are general reviews rather than disease-specific studies:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9013382](https://pubmed.ncbi.nlm.nih.gov/9013382/) | 1996 | RCT | Journal of Clinical Pharmacology | Reevaluation of double-blind, randomised studies of dexibuprofen (Seractil) across several conditions including lumbar vertebral column syndrome, rheumatoid arthritis, ankle joint distortion, gonarthrosis, ankylosing spondylitis and activated coxarthrosis; efficacy and safety compared using standardised univariate/multivariate analysis |
-| [11771569](https://pubmed.ncbi.nlm.nih.gov/11771569/) | 2001 | Review | Clinical Rheumatology | Overview of 8 GCP clinical trials (1,463 patients), including double-blind studies against placebo, racemic ibuprofen and diclofenac; covers dose-finding, pharmacokinetics, tolerability and compliance, plus a meta-analysis of five trials |
-| [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | Review | Critical Reviews in Therapeutic Drug Carrier Systems | General review of NSAID drug-delivery (microencapsulation) across arthritis types including osteoarthritis, rheumatoid arthritis, septic arthritis, juvenile idiopathic arthritis and ankylosing spondylitis; not specific to dexibuprofen efficacy data |
-
----
+| [11771569](https://pubmed.ncbi.nlm.nih.gov/11771569/) | 2001 | Review | Clinical Rheumatology | Overview of dexibuprofen clinical data: eight GCP trials (1,463 patients), including double-blind comparisons with placebo, racemic ibuprofen and diclofenac, plus a tolerability meta-analysis |
+| [9013382](https://pubmed.ncbi.nlm.nih.gov/9013382/) | 1996 | Review | Journal of Clinical Pharmacology | Reevaluation of double-blind randomised studies of dexibuprofen in inflammatory and degenerative diseases, including rheumatoid arthritis, gonarthrosis and ankylosing spondylitis |
+| [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | Review | Critical Reviews in Therapeutic Drug Carrier Systems | Microencapsulation as a drug-delivery approach for NSAIDs in arthritis, including ankylosing spondylitis |
 
 ## UK Market Information
 
-Dexibuprofen currently has no UK marketing authorisation on record in this data pack (market status: Not Marketed; 0 licences). No product-level UK licensing information is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010AMAAAAAA | Dexibuprofen Tab 300mg | Not recorded | Not recorded |
 
----
+The data compiled for this report show one valid single-ingredient authorisation. Its dosage form and indication details are incomplete, and the number does not follow the usual MHRA PL format, so it should be verified against the MHRA register and the BNF.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*(Note: key warnings, contraindications and drug-drug interaction data for dexibuprofen were not available in this evidence pack — this is flagged as a Blocking data gap, see below.)*
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Ankylosing spondylitis is the only TxGNN-predicted indication for dexibuprofen with any supporting literature, and it aligns with a well-established NSAID class effect in spondyloarthropathy management. However, the supporting studies are decades old (1996–2010), none are specific dedicated trials for this exact indication, no clinical trials are currently registered, and the drug has no current UK marketing authorisation.
+The top-ranked prediction, brachydactyly-syndactyly syndrome, has no trials, no literature and no credible mechanism, so it is effectively a model artefact. Of the ten predictions reviewed, only ankylosing spondylitis is biologically plausible (L4, flagged as a research question), and even there the evidence is general review literature.
 
 **To proceed, the following is needed:**
-- Product label warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety assessment can proceed)
-- Formal DrugBank/SmPC mechanism-of-action record (currently a **High**-severity data gap)
-- A UK-specific regulatory pathway assessment, given the drug is not currently marketed in the UK
-- Consideration of whether a dedicated trial in ankylosing spondylitis (rather than reliance on general NSAID class evidence) is warranted before clinical adoption
+- Verified SmPC and BNF safety data (warnings, contraindications and interactions), which are currently missing and block safety screening
+- Mechanism of action data, for example from DrugBank
+- Complete UK authorisation details (dosage form, approved indications, manufacturer)
+- For ankylosing spondylitis: a focused literature search and, if warranted, comparison with established NSAIDs, since it is an extension of existing NSAID use rather than a distinct repurposing opportunity
+- No further investment in the rare genetic and developmental predictions unless new mechanistic evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

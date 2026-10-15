@@ -2,7 +2,7 @@
 layout: default
 title: Ampicillin
 parent: Moderate Evidence (L3-L4)
-nav_order: 59
+nav_order: 61
 evidence_level: L4
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ampicillin is a broad-spectrum aminopenicillin antibiotic, widely used in clinical practice for a range of bacterial infections across the respiratory, urinary, and gastrointestinal tracts.
-The TxGNN model predicts it may be effective for **laryngitis**, with **1 post-marketing surveillance study** retrieved in this evidence pack — though no direct literature specifically linking ampicillin to laryngitis was identified.
-The prediction is mechanistically plausible given ampicillin's established activity against the bacterial pathogens most commonly implicated in upper respiratory tract infections.
+Ampicillin is a penicillin-class antibiotic, originally used for infections such as urinary tract infection, bacterial pneumonia, bacterial meningitis and otitis media.
+The TxGNN model predicts it may be effective for **laryngitis** (its top-ranked prediction), but there are **no registered clinical trials** and the **20 publications** retrieved are mostly case reports, reviews and retrospective series.
+The evidence is weak, so this report recommends holding.
 
 ---
 
@@ -43,53 +43,87 @@ The prediction is mechanistically plausible given ampicillin's established activ
 
 | Item | Content |
 |------|------|
-| Original Indication | Broad-spectrum bacterial infections (aminopenicillin antibiotic class) |
+| Original Indication | Bacterial infections (urinary tract infection, otitis media, bacterial pneumonia, meningitis and others, per the knowledge graph; no approved indication text is available for the UK product) |
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed (no MHRA licences retrieved in this dataset) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Ampicillin exerts its bactericidal effect by binding irreversibly to penicillin-binding proteins (PBPs), inhibiting the final transpeptidation step of peptidoglycan synthesis in the bacterial cell wall. This leads to cell lysis and death. Its spectrum of activity covers a broad range of organisms including *Streptococcus pyogenes*, *Streptococcus pneumoniae*, non-beta-lactamase-producing strains of *Haemophilus influenzae*, enterococci, and *Listeria monocytogenes* — many of which are causative agents in upper respiratory tract infections.
+Detailed mechanism of action data is not available in the data compiled for this report. Ampicillin is a beta-lactam antibiotic, and the class is known to inhibit bacterial cell wall synthesis. Its efficacy in bacterial respiratory and ear, nose and throat infections is established, so it is mechanistically plausible for bacterial laryngeal infections such as epiglottitis and laryngeal or deep neck abscess.
 
-Bacterial laryngitis, though less common than viral laryngitis, can be caused by *Streptococcus pyogenes*, *Staphylococcus aureus*, and *Haemophilus influenzae* — organisms within ampicillin's documented spectrum of activity. Ampicillin is already established as a first-line or alternative agent for closely related upper respiratory conditions, including pharyngitis, tonsillitis, otitis media, and acute bronchitis. The TxGNN prediction therefore reflects the known pharmacological profile of the aminopenicillin class rather than a genuinely novel hypothesis.
+There are important limits to this reasoning:
 
-It is important to recognise that the majority of laryngitis cases in clinical practice are of viral aetiology, for which antibiotics are inappropriate. The mechanistic relevance of this prediction is therefore confined to confirmed or strongly suspected bacterial laryngitis. In that clinical context, an aminopenicillin such as ampicillin or its oral analogue amoxicillin would be a reasonable empirical treatment choice, and the high prediction score is consistent with this established clinical pattern.
+- Most laryngitis is viral, so an antibiotic would not be expected to help in the general indication.
+- Epiglottitis is largely caused by *Haemophilus influenzae*, and ampicillin is no longer reliable for it because of beta-lactamase production.
+- The model score is likely driven by graph associations with respiratory infections rather than direct evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | N/A | Completed | 363 | Post-marketing surveillance of CLAVAMOX® (amoxicillin/clavulanate) in Japanese paediatric patients covering multiple upper respiratory and skin indications, including laryngitis; designed to collect real-world safety and efficacy data under routine clinical conditions |
-
-> **Important caveat:** This trial evaluates amoxicillin/clavulanate (a related but distinct aminopenicillin combination), not ampicillin directly. Laryngitis is one of several included indications, and the study is a surveillance study rather than a controlled trial. It provides indirect, supportive — not confirmatory — evidence.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no literature directly evaluating ampicillin for laryngitis is available in this evidence pack.
+The 10 most relevant publications are listed below. None is a randomised controlled trial.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesth Intensive Care | Review of 161 children with acute epiglottitis; 45 complications and 5 deaths; airway management is the priority |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report/Review | Ann Otol Rhinol Laryngol | Spontaneous laryngeal abscess is rare in the antibiotic era; new case in uncontrolled diabetes plus literature review |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngol Head Neck Surg | Perioperative antibiotic choice in laryngectomy and its link to surgical site infection and complications |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Review | West J Med | Nine adults with acute epiglottitis; intubation needed in 4; initial misdiagnosis in 6 |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Retrospective series | Clin Otolaryngol Allied Sci | Nineteen adult epiglottitis cases; bacteriology and therapeutic principles |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Review | Rev Infect Dis | Sulbactam/ampicillin for paediatric epiglottitis, prompted by ampicillin-resistant Hib strains |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Retrospective series | Monatsschr Kinderheilkd | 27 children with epiglottitis; ampicillin-resistant *H. influenzae* type b emerged from 1983, changing treatment |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Retrospective series | Anesth Analg | 23 children with epiglottitis treated with ampicillin or chloramphenicol; duration of intubation and fever |
+| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Cohort | Eur Arch Otorhinolaryngol | Pathogens and antibiotic strategy in neck abscesses with and without diabetes |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Guideline appraisal | CoDAS | Quality assessment of clinical guidelines for laryngitis and pharyngitis (AGREE II) |
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisations for ampicillin were retrieved in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501013E0AAAAAA (BNF code) | Ampicillin capsules 250 mg | Capsule | Not stated in the data compiled for this report |
 
-> **Note for clinicians:** This may reflect a data collection gap rather than a true absence of UK licences. Ampicillin and its derivatives are included in the British National Formulary (BNF) under Section 5.1.1 (Penicillins). Clinicians should consult the MHRA product database directly for current authorised ampicillin products in the United Kingdom.
+Ampicillin falls under BNF chapter 5 (infections), penicillins section. Please check the current SmPC for the licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Contraindication data from the knowledge graph (not label text) link ampicillin with the following conditions, which warrant caution or review against the SmPC:
+
+- Kidney disease and impaired renal function
+- Acute urate nephropathy
+- Haematologic disease
+- Peptic ulcer disease
+- *Clostridium difficile* colitis
+- Perinatal necrotizing enterocolitis
+- Infectious mononucleosis and chronic Epstein-Barr virus infection syndrome
+- Pyoureter
+
+**Drug interactions:** 61 interactions were recorded. Those graded moderate include:
+
+- Tetracyclines (doxycycline, minocycline, tetracycline)
+- Kanamycin
+- Balsalazide
+- Picosulfuric acid
+- Lansoprazole and dexlansoprazole
+
+Clarithromycin is graded minor. Several others (for example omeprazole, pantoprazole, morphine, vancomycin and prednisolone) have no assigned severity.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -98,16 +132,21 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.97%) for ampicillin in laryngitis — a finding that is mechanistically coherent given the drug's well-established activity against common upper respiratory bacterial pathogens — the current evidence pack does not contain direct clinical trials or literature specifically evaluating ampicillin for laryngitis, and no MHRA marketing authorisations were retrieved for this drug.
+The prediction is supported only by case reports, reviews and retrospective series, with no registered trials. Most laryngitis is viral, and ampicillin is no longer dependable for epiglottitis because of *H. influenzae* resistance, so there is no repurposing signal worth pursuing.
+
+For context, the other predictions also do not support progression:
+
+- **Gonococcal urethritis (L3):** Several 1970s-80s comparative trials exist, but resistance has since removed ampicillin from guidelines, so it is clinically superseded.
+- **Ureaplasma urethritis:** Ureaplasma has no cell wall, so the prediction conflicts with known biology.
+- **Paranasal sinus neoplasm:** There is no pharmacological rationale and no literature.
+- **Chronic rhinosinusitis, chronic ethmoidal sinusitis, gingivitis, conjunctivitis and pericoronitis (all L4):** The literature is mostly microbiology and susceptibility surveys, with no controlled efficacy data.
+- **Bacterial arthritis (L4):** It is plausible but largely covered by existing antibacterial indications, so it is a research question rather than a true repurposing signal.
 
 **To proceed, the following is needed:**
-
-- Verification of current MHRA product licences for ampicillin in the UK (the absence in this dataset is likely a data collection artefact)
-- A systematic review or targeted literature search specifically examining aminopenicillins (ampicillin, amoxicillin) in confirmed bacterial laryngitis
-- Full SmPC data including contraindications, key warnings, and drug interactions
-- Mechanism of action data sourced from DrugBank (DrugBank ID: DB00415)
-- Assessment of contemporary UK antimicrobial resistance data for the relevant respiratory pathogens (*S. pyogenes*, *H. influenzae*) to confirm the continued clinical utility of ampicillin in this setting
-- Clarification of the clinical indication scope: whether the repurposing target is acute bacterial laryngitis specifically, or a broader category of upper respiratory tract infections in which ampicillin already has recognised use
+- Mechanism of action data and the licensed indication text for the UK product
+- Package insert warnings and contraindications from the SmPC and BNF, as a safety screen cannot be completed without them
+- Current UK resistance data for the relevant pathogens (particularly *H. influenzae*)
+- Controlled clinical evidence for a defined bacterial subset (for example bacterial laryngeal abscess), if the laryngitis direction is to be pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rotigotine
-parent: Model Prediction Only (L5)
-nav_order: 519
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 557
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rotigotine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rotigotine: From Parkinson's Disease to Attention Deficit-Hyperactivity Disorder
+# Rotigotine: From Parkinson's Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Rotigotine is a non-ergoline dopamine agonist delivered via transdermal patch, established for the treatment of Parkinson's Disease and Restless Legs Syndrome.
-The TxGNN model predicts it may be effective for **Attention Deficit-Hyperactivity Disorder (ADHD)**, with a prediction score of **99.997%**,
-but **no clinical trials** and **no supporting publications** have been identified — this prediction currently rests entirely on model inference.
-
----
+Rotigotine is a non-ergoline dopamine agonist, delivered as a transdermal patch and originally used for Parkinson's disease and restless legs syndrome.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**,
+but there are currently **no registered clinical trials** and only **3 publications**, none of which directly tests rotigotine in ADHD.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's Disease; Restless Legs Syndrome |
-| Predicted New Indication | Attention Deficit-Hyperactivity Disorder (ADHD) |
+|------|------|
+| Original Indication | Parkinson's disease and restless legs syndrome (the UK authorisation record holds no indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.997% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed (per available data — see note below) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack (data gap DG002). Based on established pharmacology, Rotigotine is a broad-spectrum dopamine receptor agonist with activity across D1–D5 subtypes, with particular affinity for D3 and D2 receptors. Delivered via a once-daily transdermal patch, it provides continuous dopaminergic stimulation — a pharmacokinetic profile designed to avoid the peaks and troughs of oral therapy. Its proven efficacy in Parkinson's Disease and Restless Legs Syndrome reflects its core mechanism: compensating for reduced dopaminergic tone in nigrostriatal and mesolimbic pathways.
+Rotigotine is a non-ergoline dopamine agonist. It acts on dopamine D1 to D5 receptors, with the highest affinity at D3, D2 and D1. It also has some activity at 5-HT1A receptors and alpha2B adrenoceptors.
 
-ADHD is associated with reduced dopaminergic (and noradrenergic) signalling in the prefrontal cortex, particularly via D1 receptors — the so-called "prefrontal D1 receptor hypothesis." On this theoretical basis, Rotigotine's D1/D2 agonist activity could augment prefrontal dopamine tone, which represents the mechanistic premise behind the TxGNN prediction. The model's high score likely reflects strong network proximity in the knowledge graph between dopamine receptor nodes and ADHD disease nodes.
+ADHD is linked to dysregulation of dopamine and noradrenaline signalling. One study (2021) describes heteromerisation between alpha2A adrenoceptors and variants of the dopamine D4 receptor, which have been associated with ADHD. This offers a plausible biological link, but it is preclinical and does not test rotigotine.
 
-However, there are critical caveats that weaken this hypothesis clinically. Standard ADHD pharmacotherapy (methylphenidate, lisdexamfetamine) acts via dopamine and noradrenaline reuptake inhibition, producing transient, activity-dependent increases at the synapse. Rotigotine's continuous, direct receptor agonism — particularly at D2/D3 — may over-activate striatal circuits, potentially worsening hyperactivity or inducing stereotyped behaviours. Furthermore, dopamine agonist class effects (impulse control disorders, compulsive behaviours) documented in existing Parkinson's use are of particular concern in a patient population where impulsivity is already a core feature. The prediction is mechanistically plausible in outline but diverges materially from established pharmacological strategy, and no clinical evidence currently supports it.
-
----
+The retrieved literature is mostly about restless legs syndrome in adults and children, which is an existing indication rather than evidence of ADHD efficacy. Restless legs syndrome and ADHD are known to co-occur in children, but this is only indirect support. There is no ADHD-specific clinical data for rotigotine.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | Overview of restless legs syndrome (affecting 2-3% of people in Western countries). It concerns an approved indication, not ADHD. |
+| [21476956](https://pubmed.ncbi.nlm.nih.gov/21476956/) | 2011 | Review | Current pharmaceutical design | Review of pharmacological options for restless legs syndrome in children. It supports only an indirect link through co-occurrence with ADHD. |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical/Mechanistic | Pharmacological research | Alpha2A adrenoceptor and dopamine D4 receptor variants form heteromers with differing pharmacology. The authors discuss implications for ADHD and impulse-control disorders. |
 
 ## UK Market Information
 
-No MHRA marketing authorisations are recorded in the data available for this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409010Z0AAABAB | Rotigotine transdermal patch 4 mg/24 hrs | Transdermal patch | Not recorded in the data compiled for this report |
 
-> **Verification required**: This finding should be confirmed against the MHRA product licence register directly. Rotigotine (Neupro® transdermal patch, UCB Pharma) is understood to hold regulatory approval for Parkinson's Disease and Restless Legs Syndrome within the European and UK regulatory framework; the absence of records here is likely a data sourcing gap rather than a true reflection of UK market status. Healthcare professionals should consult the current **BNF** (Section 4.9.1 — Dopaminergic drugs used in Parkinson's disease) and the **MHRA medicines search** at [products.mhra.gov.uk](https://products.mhra.gov.uk) for authoritative and up-to-date authorisation information.
-
----
+The record corresponds to BNF section 4.9.1 (drugs used in Parkinsonism). The number shown is a classification-style code rather than a standard PL number.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged in the knowledge graph (not label text):** hypertensive disorder, hypertension, multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension and drug-induced dyskinesia.
+- **Drug Interactions:** 51 interactions were identified, and the 20 listed are all of moderate severity. Main ones include:
+  - Opioids and related agents: morphine (including liposomal), codeine, opium, difenoxin, diphenoxylate
+  - Cannabinoids: dronabinol, nabilone
+  - Sedating antihistamines: promethazine, chlorpheniramine, cetirizine, brompheniramine, carbinoxamine, clemastine, azelastine (nasal)
+  - Others: metoclopramide, dextromethorphan, sibutramine, ethanol, ioflupane I-123
+- Dopamine agonists can worsen psychosis, and hallucinations are a listed adverse effect of rotigotine. This matters for any use in a psychiatric or neurodevelopmental population.
 
-> **Class-level alert**: As a dopamine agonist, Rotigotine carries a well-characterised class risk of **impulse control disorders** (pathological gambling, hypersexuality, binge eating, compulsive spending). This risk is of heightened concern when considering use in ADHD, where impulsivity is a core symptom. Full safety data from MHRA-approved SmPC (data gap DG001) must be reviewed before any further assessment proceeds.
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.997%), the evidence base is entirely absent — no registered clinical trials, no observational studies, and no published literature specifically addressing Rotigotine in ADHD — placing this squarely at evidence Level L5 (model prediction only). The mechanistic rationale contains an inherent pharmacological contradiction: the same D2/D3 agonism that underpins Rotigotine's established efficacy could plausibly worsen impulsivity and hyperactivity in an ADHD population. Until preclinical data resolve this question, proceeding to clinical investigation would be premature.
+The prediction score is very high, but it rests on model output and indirect mechanistic reasoning only. No trial or study has tested rotigotine in ADHD, so the evidence level is L4.
 
 **To proceed, the following is needed:**
+- Preclinical or early-phase clinical data on rotigotine in ADHD
+- Full SmPC warnings and contraindications, which are missing from the data compiled for this report
+- Review of safety in children and adolescents, including impulse-control and psychiatric adverse effects
+- The MHRA approved indication text and a standard PL number for the UK authorisation
+- Confirmation that the transdermal route is suitable for ADHD
 
-- **Verify UK market status**: Confirm MHRA authorisation status directly via the MHRA product licence register and retrieve the current SmPC (resolves data gap DG001)
-- **Retrieve full MOA data**: Query DrugBank API for receptor binding profiles and pharmacodynamic data (resolves data gap DG002)
-- **Preclinical evidence**: Identify or commission animal model studies examining dopamine D1–D3 agonism in validated ADHD models (e.g., spontaneously hypertensive rat model)
-- **Safety review for target population**: Formally assess the impulse control disorder risk profile in the context of ADHD and evaluate whether the transdermal continuous-delivery route is compatible with ADHD treatment in children and adolescents
-- **Mechanistic disambiguation**: Conduct a systematic review of prodopaminergic agents in ADHD (note: a related systematic review exists for schizophrenia negative symptoms — PMID [31688399](https://pubmed.ncbi.nlm.nih.gov/31688399/) — which may provide indirect mechanistic context)
-- **Regulatory landscape review**: Assess whether any off-label use or compassionate use data exists for dopamine agonists in ADHD within NICE-appraised treatment pathways
+### Note on other predicted indications
 
----
-
-> *This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application. All predictions should be interpreted in conjunction with a qualified healthcare professional.*
+Schizophrenia (score 99.996%, L4) is also on hold. Rotigotine is a dopamine agonist, whereas antipsychotics block D2 receptors, and dopamine agonists may worsen psychosis. Only class-level meta-analytic evidence on negative symptoms exists. The other eight predictions (L5) have no trial or literature support and no plausible mechanistic link.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

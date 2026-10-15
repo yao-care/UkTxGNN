@@ -2,15 +2,15 @@
 layout: default
 title: Alteplase
 parent: Moderate Evidence (L3-L4)
-nav_order: 41
-evidence_level: L3
+nav_order: 43
+evidence_level: L4
 indication_count: 9
 ---
 
 # Alteplase
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **9** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,108 @@ Evidence Level: **L3** | Predicted Indications: **9**
 
 </div>
 
-# Alteplase: From Acute Thromboembolic Disorders to Posterolateral Myocardial Infarction
+# Alteplase: From Myocardial Infarction to Posterolateral Myocardial Infarction
 
 ## One-Sentence Summary
 
-Alteplase is a recombinant tissue-type plasminogen activator (rt-PA) — a well-established thrombolytic agent with recognised clinical use in acute ischaemic stroke, pulmonary embolism, and ST-elevation myocardial infarction (STEMI); however, no UK marketing authorisation data was captured in this Evidence Pack, likely reflecting a data collection gap rather than genuine non-availability.
-The TxGNN model predicts it may be effective for **Posterolateral Myocardial Infarction**, a specific anatomical subtype of acute MI arising from occlusion of the right coronary artery or left circumflex branch,
-with **0 clinical trials** and **3 publications** currently identified for this specific indication.
+Alteplase is a recombinant tissue plasminogen activator (a clot-dissolving drug), originally used for conditions such as myocardial infarction, pulmonary embolism and stroke.
+The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**, but this is an anatomical subtype of an already approved indication rather than a true repurposing signal, and **no clinical trials or publications** were retrieved for this subtype.
+The most evidence-supported candidate among the predictions is **thrombophilia** (1 ongoing Phase 2 trial and 20 mostly case-level publications).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation data captured in this Evidence Pack (likely data collection gap; established clinical uses include acute ischaemic stroke, PE, and STEMI) |
-| Predicted New Indication | Posterolateral Myocardial Infarction |
+|------|------|
+| Original Indication | Pulmonary embolism, ischaemic stroke, myocardial infarction, coronary thrombosis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Posterolateral myocardial infarction |
 | TxGNN Prediction Score | 99.79% |
-| Evidence Level | L3 |
-| UK Market Status | Not recorded in this Evidence Pack |
-| Number of Marketing Authorisations | 0 (per data available; please verify via MHRA register) |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+**Other predicted indications reviewed**
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 1 | Posterolateral myocardial infarction | 99.79% | L4 | Hold |
+| 2 | Posteroinferior myocardial infarction | 99.79% | L4 | Hold |
+| 3 | Septal myocardial infarction | 99.77% | L4 | Hold |
+| 4 | Heparin cofactor 2 deficiency | 99.72% | L5 | Hold |
+| 5 | Congenital coronary artery anomaly | 99.64% | L5 | Hold |
+| 6 | Factor 5 excess with spontaneous thrombosis | 99.56% | L5 | Hold |
+| 7 | Antithrombin deficiency type 2 | 99.56% | L5 | Hold |
+| 8 | Thrombophilia | 99.43% | L3 | Research question |
+| 9 | Coronary stenosis | 99.14% | L3 | Research question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Alteplase is a fibrin-specific recombinant tissue plasminogen activator. It binds selectively to fibrin within a thrombus and converts entrapped plasminogen to plasmin, initiating localised clot dissolution with limited systemic proteolytic activity. This mechanism underpins its well-established role in treating occlusive thromboembolic events across multiple vascular territories, including acute ischaemic stroke, massive pulmonary embolism, and STEMI.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, alteplase is a tissue plasminogen activator that converts plasminogen to plasmin, which breaks down fibrin in blood clots. Its efficacy in acute myocardial infarction is established.
 
-Posterolateral myocardial infarction results from occlusion of the right coronary artery (RCA) or left circumflex artery (LCx), generating a coronary thrombus as the primary pathological event — precisely the target substrate for alteplase. The distinguishing feature of posterolateral MI relative to other STEMI subtypes is primarily electrographic (ST elevation in posterior leads V7–V9 rather than standard precordial leads), rather than any fundamental difference in underlying coagulation biology or thrombus composition. Accordingly, the drug–disease mechanistic match is essentially identical to that for anterior or inferior STEMI, where alteplase's benefit is already established. A 1998 diagnostic study (PMID 9502627) further highlights that identifying posterior ST-segment elevation is specifically important for informing thrombolysis decisions in this subgroup.
+Posterolateral and posteroinferior myocardial infarction are anatomical subtypes of myocardial infarction. The same clot-lysing mechanism applies directly, so the high TxGNN scores largely reflect the parent indication already covered. These are not new repurposing opportunities.
 
-The TxGNN prediction is therefore mechanistically coherent: the model correctly identifies that alteplase's fibrinolytic mechanism is applicable wherever a fresh fibrin-rich coronary thrombus is present, regardless of the anatomical territory of infarction. The key outstanding scientific question is not whether thrombolysis works in posterolateral MI in principle, but whether outcomes data in this specific anatomical subgroup (which is historically under-represented in landmark thrombolysis trials owing to diagnostic challenges) are equivalent to those in better-studied STEMI populations. Current evidence — three small case reports and one diagnostic study — is insufficient to draw subgroup-specific conclusions.
+The more interesting directions are conditions where acute thrombosis arises on a background of an underlying disorder. In **thrombophilia** and inherited clotting-inhibitor deficiencies (antithrombin, heparin cofactor 2), alteplase could treat the acute thrombus but would not correct the underlying deficiency. In **coronary stenosis**, alteplase can lyse the superimposed thrombus in acute coronary syndromes, but the retrieved studies address acute coronary syndromes rather than stenosis itself. For **congenital coronary artery anomaly**, the problem is structural, so thrombolysis would only be relevant to secondary thrombosis or infarction.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically registered for Alteplase in posterolateral myocardial infarction.
+Evidence is shown for the highest-ranked prediction with trial data (thrombophilia). No trials were registered for posterolateral myocardial infarction (the top-ranked prediction) or for the other predicted indications.
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05540834](https://clinicaltrials.gov/study/NCT05540834) | Phase 2 | Recruiting | 70 | Safety, dose-finding and efficacy study of viscoelastic-test-guided tPA in critically ill patients with pro-thrombotic acute respiratory failure (including COVID and non-COVID). Aims to personalise tPA treatment using bedside coagulation testing. No results available. Estimated completion December 2026. |
 
 ---
 
 ## Literature Evidence
 
+For the top-ranked prediction (posterolateral myocardial infarction) no literature was retrieved. The table below shows a selection from the other predictions, which are mostly indirect or case-level.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [9502627](https://pubmed.ncbi.nlm.nih.gov/9502627/) | 1998 | Diagnostic Study | J Am Coll Cardiol | ST elevation in posterior leads (V7–V9) during acute inferior MI identifies patients with concomitant posterior infarction; study examined whether these patients derive greater benefit from thrombolysis, providing the primary rationale for applying thrombolytics to posterolateral MI |
-| [8480981](https://pubmed.ncbi.nlm.nih.gov/8480981/) | 1993 | Case Report | Ann Cardiol Angéiol | Cerebral embolism with rapidly resolving course occurred during late fibrinolysis with tPA in a patient with posterolateral MI; reviews fibrinolytic effects on left intraventricular thrombi during acute MI and highlights systemic embolism risk — a key safety signal for this subtype |
-| [21351226](https://pubmed.ncbi.nlm.nih.gov/21351226/) | 2011 | Case Report | Catheter Cardiovasc Interv | Primary PCI of unprotected left main coronary artery in a 37-year-old with posterolateral acute MI and borderline haemodynamic compromise; intracoronary reteplase (a tPA variant) facilitated mini-crush stenting, illustrating use of thrombolytics as an adjunct in high-risk posterolateral MI when anatomy precludes direct PCI |
+|------|-----|------|------|---------|
+| [8299637](https://pubmed.ncbi.nlm.nih.gov/8299637/) | 1993 | RCT | Eur Heart J | Double-blind trial of alteplase vs placebo in 80 patients with chest pain at rest and ST depression (coronary stenosis context) |
+| [1782951](https://pubmed.ncbi.nlm.nih.gov/1782951/) | 1991 | RCT | Eur Heart J | Randomised placebo-controlled trial of alteplase in 36 patients with refractory unstable angina before angioplasty |
+| [8721695](https://pubmed.ncbi.nlm.nih.gov/8721695/) | 1996 | Cohort | Cathet Cardiovasc Diagn | Lesion-directed alteplase with intracoronary heparin in 45 patients with unstable angina and coronary thrombus undergoing angioplasty |
+| [8763515](https://pubmed.ncbi.nlm.nih.gov/8763515/) | 1996 | Cohort | Rev Port Cardiol | Effects of late thrombolysis with alteplase on left ventricular function after myocardial infarction (septal MI context) |
+| [22094974](https://pubmed.ncbi.nlm.nih.gov/22094974/) | 2012 | Cohort | J Thromb Thrombolysis | Pilot study of early PCI after half-dose alteplase in Chinese STEMI patients |
+| [2118432](https://pubmed.ncbi.nlm.nih.gov/2118432/) | 1990 | Review | Circulation | Review of thrombolytic treatment in acute myocardial infarction |
+| [41876387](https://pubmed.ncbi.nlm.nih.gov/41876387/) | 2026 | Case report | Catheter Cardiovasc Interv | Systemic thrombolytic resistance in antithrombin III deficiency, rescued by catheter-directed thrombolysis |
+| [26588446](https://pubmed.ncbi.nlm.nih.gov/26588446/) | 2016 | Case report | Blood Coagul Fibrinolysis | Pulmonary embolism in inherited antithrombin deficiency with anabolic steroid use, treated with catheter-directed therapy |
+| [36163059](https://pubmed.ncbi.nlm.nih.gov/36163059/) | 2022 | Case report | J Natl Med Assoc | Systemic thrombolysis for central retinal artery occlusion in sickle cell disease |
+| [19260122](https://pubmed.ncbi.nlm.nih.gov/19260122/) | 2009 | Case report | Am J Hematol | Argatroban and catheter-directed alteplase for limb- and graft-threatening thromboses in a patient with a history of HIT |
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation records were captured for Alteplase in this Evidence Pack (market status field: not recorded; total licences: 0). This is highly likely to represent a data collection gap in the regulatory pipeline rather than genuine absence from the UK market.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0210020V0AAABAB | Alteplase injection 20 mg vial with diluent | Not specified | Not specified in the data compiled for this report |
 
-> **Important note for clinicians**: Alteplase (brand name Actilyse®, Boehringer Ingelheim) is understood to hold MHRA marketing authorisation for established thromboembolic indications and is listed in the BNF under fibrinolytic drugs (BNF section: Blood clots > Fibrinolytic drugs). Clinicians should verify current indications, authorised dosing regimens, and any NICE appraisals directly via the [MHRA public register](https://products.mhra.gov.uk/) and the current BNF edition before any clinical application.
+The data compiled for this report list one valid single-ingredient authorisation. Dosage form and approved indication details were not available, so the MHRA SmPC and BNF should be consulted for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the current Alteplase SmPC and BNF monograph for full safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (yellowcard.mhra.gov.uk).
+**Drug Interactions**
 
-Key areas to review in the SmPC before any clinical use include:
-- Haemorrhagic risk (intracranial, gastrointestinal, and puncture-site bleeding)
-- Contraindications in patients with recent surgery, active bleeding, or uncontrolled hypertension
-- Reperfusion arrhythmia monitoring requirements post-thrombolysis
-- Interaction with anticoagulants and antiplatelet agents
+The interaction screen returned 100 interacting drugs; the first 20 are reviewed here. Alteplase interactions are mainly additive bleeding risk with antithrombotic and antiplatelet agents.
+
+- **Major:** abciximab, acalabrutinib, apixaban, anisindione, fondaparinux, deferasirox, ibritumomab tiuxetan, tositumomab (including I-131)
+- **Moderate:** acetylsalicylic acid, ibuprofen, ketorolac (including ophthalmic), aminocaproic acid, aprotinin, fosinopril, fluvoxamine, fenfluramine, dexfenfluramine, sibutramine
+
+**Additional considerations from the evidence**
+
+- Bleeding risk in thrombophilia and other prothrombotic populations needs careful assessment.
+- One case report describes systemic thrombolytic resistance in antithrombin III deficiency.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -104,15 +139,15 @@ Key areas to review in the SmPC before any clinical use include:
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for alteplase in posterolateral myocardial infarction is pharmacologically sound — the target pathology (coronary fibrin thrombus) and drug mechanism (selective fibrinolysis) are identical to established STEMI indications — however, available evidence for this specific anatomical subtype comprises only three case reports and one diagnostic study, with no clinical trial data. Until subgroup-specific outcome data become available, a formal recommendation beyond the general STEMI framework cannot be made.
+The top-ranked predictions (posterolateral, posteroinferior and septal myocardial infarction) are subtypes of an indication alteplase already covers, so they offer no genuine repurposing opportunity. The remaining candidates are supported only by prediction or by case-level evidence, apart from one ongoing Phase 2 trial in thrombophilia-related acute respiratory failure. Thrombophilia and coronary stenosis are the two directions worth further research (L3, research question stage).
 
 **To proceed, the following is needed:**
-
-- **Regulatory verification**: Confirm current MHRA marketing authorisation status, approved indications, and SmPC for Alteplase (Actilyse®) via the MHRA public product register
-- **Subgroup evidence review**: Commission or identify a systematic review or meta-analysis of thrombolytic outcomes stratified by MI anatomical territory (anterior vs. inferior vs. posterior/posterolateral), using data from landmark trials (GUSTO, TAMI, ISIS-3)
-- **Guideline alignment**: Determine whether current ESC or NICE guidance on STEMI management already addresses posterolateral MI as a covered subtype under the general thrombolysis recommendation, which may render a separate "repurposing" pathway unnecessary
-- **Safety profile documentation**: Retrieve full SmPC contraindications, warnings, and drug interaction data to complete the safety assessment (currently flagged as a blocking data gap in this Evidence Pack)
-- **Mechanism of action data**: Query DrugBank API for DB00009 to formally populate the MOA field and support mechanistic link analysis in future iterations of this report
+- Approved indication text, dosage form and SmPC details for the UK authorisation
+- Mechanism of action data
+- Warnings and contraindications from the SmPC and BNF
+- Results from NCT05540834, and confirmation of its target population
+- Prospective or controlled studies of alteplase in thrombophilia-associated thrombosis, with a bleeding-risk assessment
+- Confirmation of whether the myocardial infarction subtypes should be treated as covered by the existing indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

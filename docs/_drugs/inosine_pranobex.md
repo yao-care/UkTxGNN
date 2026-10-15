@@ -2,7 +2,7 @@
 layout: default
 title: Inosine Pranobex
 parent: Model Prediction Only (L5)
-nav_order: 315
+nav_order: 338
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inosine Pranobex: From Viral Infections/Immune Deficiency to Osteoarthritis
+# Inosine Pranobex: From an Immunomodulatory Agent to Osteoarthritis (Prediction Only)
 
 ## One-Sentence Summary
 
-Inosine pranobex is an immunomodulatory/antiviral agent historically used in viral infections and immune deficiency states. The TxGNN model predicts it may be effective for **Osteoarthritis**, but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on the algorithm's score alone.
+Inosine pranobex is an immunomodulatory medicine marketed in the UK, but the data compiled for this report do not include an approved indication text for it.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
+The strongest signal among the top-ranked predictions is for **rheumatoid arthritis**, supported by **one 1990 randomised placebo-controlled trial** and one general review, which is discussed below as a research question.
 
 ---
 
@@ -41,41 +43,55 @@ Inosine pranobex is an immunomodulatory/antiviral agent historically used in vir
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented in this evidence pack; historically used for viral infections and immune deficiency states |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.09% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the information available in this pack, Inosine pranobex acts as an immunomodulator/antiviral agent, thought to work primarily by enhancing T-cell function and antiviral activity — a profile associated with viral infection and immunodeficiency management, not joint disease.
+Detailed mechanism of action data are not available. Inosine pranobex is generally described as an immunomodulator (enhancing T-lymphocyte function and modulating cytokines). Any link to osteoarthritis is speculative, for example through modulation of low-grade inflammation. No mechanistic data were supplied to test this idea.
 
-Osteoarthritis (OA) is pathologically characterised by cartilage degeneration and localised, largely non-immune-driven inflammation. There is no established or literature-supported mechanistic link between immune enhancement/antiviral activity and cartilage repair or OA progression. The evidence pack itself notes that this ranking arises purely from the TxGNN algorithm's prediction score, with no supporting clinical or preclinical data.
+The original indication could not be determined from the data, so the relationship between the original and predicted indications cannot be assessed. The osteoarthritis prediction has a high graph score (0.981) but no trials or publications behind it.
 
-**Note for context:** within the same prediction batch, a lower-ranked candidate — rheumatoid arthritis (rank 3, score 97.74%) — is supported by one placebo-controlled RCT and multiple open-label/cohort studies (evidence level L2). However, the mechanistic direction there is also contested, since RA typically requires immunosuppression rather than immune stimulation. This is flagged as a separate, better-evidenced candidate that may warrant its own evaluation, but it is not the subject of this report.
+**Other predictions in the top ten**
+
+- **Rheumatoid arthritis (score 97.74%, evidence level L4):** This is the most plausible candidate. An immunomodulator is mechanistically relevant to an immune-mediated disease. One randomised, double-blind, placebo-controlled trial exists (see below), but its outcome was not available in the data. It is treated as a research question.
+- **Osteoarthritis susceptibility (97.79%):** This is a genetic susceptibility phenotype, not a treatable condition, and likely overlaps with the osteoarthritis prediction.
+- **Gout (97.12%):** Inosine is a purine metabolite and may be metabolised to uric acid. The likely direction of effect is harmful (hyperuricaemia), not therapeutic. This should be viewed as a safety concern rather than an opportunity.
+- **Hepatic porphyria, pseudoachondroplasia, and the hepatic-vascular entities (early-onset familial noncirrhotic portal hypertension, hepatoportal sclerosis, idiopathic copper-associated cirrhosis, hepatopulmonary syndrome):** There is no mechanistic or clinical support. Several share an identical score (0.970), suggesting a clustered graph artefact rather than independent signals.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for osteoarthritis.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+No publications are available for osteoarthritis. The publications below relate to the rheumatoid arthritis prediction.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1693065](https://pubmed.ncbi.nlm.nih.gov/1693065/) | 1990 | RCT | Annals of the Rheumatic Diseases | Randomised, double-blind, placebo-controlled trial of inosine pranobex (3 g/day) as a possible second-line drug in rheumatoid arthritis: 24 patients on the drug and 26 on placebo for up to 24 weeks. Outcomes assessed included morning stiffness, articular index, grip strength, pain, ESR, CRP, IgG, IgM and serum urate. The results were not available in the data. |
+| [1715732](https://pubmed.ncbi.nlm.nih.gov/1715732/) | 1991 | Review | Current Opinion in Rheumatology | General review of novel immunotherapies potentially applicable to rheumatoid arthritis. It is not specific to inosine pranobex. |
 
 ---
 
 ## UK Market Information
 
-Inosine pranobex currently holds **no marketing authorisation** in this jurisdiction (Market status: Not Marketed; Total licenses: 0). No product, dosage form, or approved indication data is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503021D0AAAAAA (BNF-style product code, not a PL number) | Inosine Pranobex Tab 500mg | Tablet (strength 500 mg) | Not available |
+
+One valid single-ingredient authorisation is recorded. Manufacturer, dosage form detail and indication text were not available in the data compiled for this report.
 
 ---
 
@@ -83,7 +99,7 @@ Inosine pranobex currently holds **no marketing authorisation** in this jurisdic
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Note:** Regulatory warning/contraindication data (TFDA product labelling) is currently unavailable and is flagged as a **Blocking** data gap — this must be resolved before any safety evaluation (S1 stage) can proceed for this drug.
+One point deserves attention: inosine is a purine metabolite and may be metabolised to uric acid. Serum urate and gout history would be relevant considerations in any new use, but this is an inference from the biochemistry and not from label data.
 
 ---
 
@@ -92,14 +108,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there is no clinical trial or published literature evidence, and no plausible mechanistic link between the drug's known immunomodulatory/antiviral activity and osteoarthritis pathology. This is an L5, model-prediction-only candidate with no clinical validation.
+The osteoarthritis prediction rests on a model score alone (L5), with no trials, no publications and no supporting mechanism. The rheumatoid arthritis signal is more interesting (L4), but the single 1990 trial cannot be graded without its full text and results.
 
 **To proceed, the following is needed:**
-- Regulatory warning/contraindication data (TFDA product labelling) — Blocking gap
-- Detailed mechanism of action (MOA) data — High-priority gap
-- Preclinical or mechanistic studies establishing a plausible link between immune modulation and OA pathophysiology
-- Any pilot clinical or observational data in OA populations
-- If interest continues in this drug's repurposing potential, consider separately evaluating rheumatoid arthritis (rank 3), which has substantially stronger existing evidence (L2, 1 RCT)
+- Full text of the 1990 rheumatoid arthritis RCT (PMID 1693065) to establish its power, outcomes and direction of effect. A well-powered positive result could support upgrading that indication to L2/L1.
+- Mechanism of action data (for example from DrugBank) and a plausible rationale for osteoarthritis.
+- The approved indication, dosage form and manufacturer from the SmPC and BNF, to establish the original indication.
+- Warnings, contraindications and interaction data from the SmPC and BNF. Safety data are currently missing, so safety screening cannot proceed.
+- An assessment of the hyperuricaemia and gout risk linked to inosine metabolism.
+- A check of route and formulation compatibility with any proposed new indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

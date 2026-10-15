@@ -2,7 +2,7 @@
 layout: default
 title: Sulindac
 parent: Model Prediction Only (L5)
-nav_order: 546
+nav_order: 585
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulindac: From NSAID Therapy to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Sulindac: From Musculoskeletal Inflammatory Conditions to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Sulindac is a non-steroidal anti-inflammatory drug (NSAID); however, detailed original indication and mechanism-of-action data were not available in this Evidence Pack. The TxGNN model's top-ranked prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, a rare genetic skeletal dysplasia, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale text flags the mechanistic link as biologically implausible.
-
----
+Sulindac is a non-steroidal anti-inflammatory drug (NSAID) used for inflammatory joint and musculoskeletal conditions such as rheumatoid arthritis, osteoarthritis and ankylosing spondylitis.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare skeletal dysplasia, but there are currently **no clinical trials and no publications** supporting this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Sulindac is not currently marketed in the UK and no approved indication text was provided in the source data |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, bursitis, tendinitis, gout and related conditions (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available for Sulindac in this pack. Based on known pharmacology, Sulindac is a cyclooxygenase (COX)-inhibiting NSAID, traditionally used for pain and inflammation associated with musculoskeletal conditions such as osteoarthritis and rheumatoid arthritis.
+Currently, detailed mechanism of action data is not available. Based on known information, sulindac is an NSAID that inhibits cyclo-oxygenase (COX) enzymes. Its efficacy in inflammatory musculoskeletal conditions is established, and it may reduce pain and inflammation in joint-related disease.
 
-The top-ranked predicted indication, Acromesomelic Dysplasia (Hunter-Thompson type), is a rare skeletal dysplasia caused by mutations in the *GDF5*/*CDMP1* gene affecting the bone morphogenetic protein (BMP) pathway. There is no known interaction between COX inhibition and BMP signalling, and the pack's own mechanistic-link narrative explicitly states this association is likely a statistical co-occurrence artefact of the knowledge-graph embedding, rather than a biologically grounded hypothesis. The same caveat applies to predictions ranked 2–8 (brachyolmia-related syndromes, myosclerosis, pseudoachondroplasia, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, WHIM syndrome) — all are rare developmental or genetic disorders with no plausible link to NSAID pharmacology.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by mutations in the CDMP1/GDF5 gene, which disrupts BMP signalling in cartilage and bone development. Sulindac has no established link to this pathway. The high prediction score most likely reflects proximity between musculoskeletal disease terms in the knowledge graph rather than a disease-modifying mechanism. Any benefit would be speculative, for example symptomatic relief of secondary joint pain or inflammation.
 
-Two lower-ranked candidates merit note for context, though they were not the top-ranked prediction and are therefore not the primary focus of this report: **rheumatoid vasculitis** (rank 9, L4) has a plausible but weak indirect link via Sulindac's anti-inflammatory use in rheumatoid arthritis, and **hypermobility of coccyx** (rank 10, L4, decision stage S1, "Research Question") has the most coherent mechanistic rationale — NSAID-mediated prostaglandin suppression is a recognised approach to coccydynia pain management — though it still lacks any direct clinical or literature support.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Other top-ranked predictions (for example brachyolmia, pseudoachondroplasia, myosclerosis and rheumatoid vasculitis) are likewise unsupported by trials or publications. Rheumatoid vasculitis is the most biologically plausible of these because sulindac is already used in rheumatoid arthritis. However, that condition is usually treated with immunosuppressants, so NSAIDs alone are unlikely to be adequate.
 
 ## UK Market Information
 
-Sulindac currently holds no marketing authorisation in the United Kingdom. The Evidence Pack records a UK market status of "not marketed" with zero total licences on file as of the data cutoff (17 September 2026).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010S0AAAAAA | Sulindac tablets 100 mg | Tablet (as indicated by product name) | Not available |
 
----
+The authorisation identifier does not follow the usual PL format, so it should be checked against the MHRA register before use. Please also refer to the BNF (musculoskeletal and joint diseases, NSAIDs) for current licensed indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and cautions flagged by the knowledge graph** (these are model-derived associations, not label text, and should be verified against the SmPC):
+- Cardiovascular: hypertension, congestive heart failure, myocardial infarction, coronary thrombosis, cardiovascular and heart disease
+- Gastrointestinal: peptic ulcer disease (including active disease)
+- Renal and urinary: kidney disease, nephrolithiasis, acute urate nephropathy
+- Hepatic and biliary: liver disease, gallbladder disease
+- Haematological: blood coagulation disease, anaemia, haemoglobinopathy
+- Autoimmune and other: systemic lupus erythematosus (including paediatric), connective tissue disease, substance abuse/dependence
 
-**Note:** UK-specific product warnings and contraindications for Sulindac could not be retrieved for this Evidence Pack and are flagged as a **Blocking** data gap (DG001), which prevents this candidate from progressing to an initial safety assessment (Stage S1) regardless of the strength of the efficacy prediction.
+**Drug Interactions:** The data compiled for this report list 100 interacting drugs (20 shown in detail). Interactions graded Moderate include:
+- Aspirin (acetylsalicylic acid)
+- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+- Metformin and sulfonylureas (glimepiride, chlorpropamide)
+- Mesalazine and balsalazide
+- Potassium citrate and potassium bicarbonate
+- Bowel preparations (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes)
 
----
+Interactions graded Minor include famotidine, ranitidine, cimetidine and linaclotide.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (Acromesomelic Dysplasia, Hunter-Thompson Type) has no supporting clinical trials or literature, and the mechanistic rationale itself acknowledges a lack of biological plausibility. Combined with a blocking data gap on UK product safety information, this candidate cannot proceed past the earliest screening stage.
+The prediction rests on a computational score alone. There are no registered trials or publications, and no plausible mechanism links COX inhibition to the GDF5/BMP signalling defect underlying this condition. The NSAID safety profile (cardiovascular, gastrointestinal and renal risks) also argues against use without a clear expected benefit.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-sourced warnings, contraindications, and drug interaction data for Sulindac (currently blocking)
-- Confirmed mechanism-of-action documentation from DrugBank or an equivalent source
-- If pursued further, re-evaluation should prioritise the lower-ranked but mechanistically more coherent candidates — hypermobility of coccyx (coccydynia) and rheumatoid vasculitis — over the top-ranked rare skeletal dysplasia prediction
-- Should any candidate advance, dedicated searches for relevant clinical trials and literature, as none are currently on record
+- Mechanism of action data and a documented mechanistic link between sulindac and the GDF5/BMP pathway
+- Preclinical evidence (for example cell or animal models of GDF5-related dysplasia)
+- A literature and trial registry search, including ISRCTN and EU CTR, to confirm that no relevant studies exist
+- Verified SmPC warnings and contraindications and approved indication text for the UK authorisation
+- A risk-benefit assessment for the target population, including paediatric use
+- Consideration of other top-ranked predictions, such as rheumatoid vasculitis, where a clearer clinical rationale exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

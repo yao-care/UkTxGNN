@@ -2,7 +2,7 @@
 layout: default
 title: Gefitinib
 parent: Model Prediction Only (L5)
-nav_order: 291
+nav_order: 313
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,105 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gefitinib: From EGFR Mutation-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
+# Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
 
 ## One-Sentence Summary
 
-Gefitinib (Iressa®) is an EGFR/HER1 tyrosine-kinase inhibitor internationally established for EGFR mutation-positive non-small cell lung cancer (NSCLC). The TxGNN model's top-ranked prediction in this batch is **Gingival Fibromatosis**, but this candidate is supported by **0 clinical trials** and **0 publications** — it is a computational signal only, with no corroborating evidence and no known mechanistic link.
-
----
+Gefitinib is an EGFR tyrosine kinase inhibitor originally used to treat non-small cell lung cancer (NSCLC).
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack's regulatory dataset (no UK/local marketing authorisation on file); gefitinib is globally established as an EGFR-TKI for EGFR mutation-positive NSCLC, as referenced repeatedly within the accompanying literature evidence |
-| Predicted New Indication | Gingival Fibromatosis |
+| Original Indication | Non-small cell lung carcinoma (the UK licence record contains no indication text; this comes from the knowledge graph) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-The formal mechanism-of-action field for gefitinib was flagged in this evidence pack as a data gap (DG002, High severity). However, context embedded throughout the accompanying literature evidence consistently identifies gefitinib as a first-generation EGFR (HER1) tyrosine-kinase inhibitor, blocking EGFR autophosphorylation to inhibit downstream proliferative and angiogenic signalling in EGFR-driven tumours — the basis for its established use in NSCLC.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase. Its efficacy in EGFR-mutated NSCLC is established.
 
-Gingival fibromatosis, by contrast, is a benign fibrous overgrowth of gingival tissue with no established pathological connection to the EGFR signalling pathway. Notably, EGFR-TKIs are more commonly associated with *causing* mucocutaneous and oral toxicities (e.g. mucositis, paronychia) than with treating fibrous overgrowth — if anything, the known toxicity profile points away from, not towards, this indication.
-
-The evidence pack's own analysis is explicit on this point: *"No clinical trial or literature evidence exists; gingival fibromatosis has no known direct pathological association with the EGFR pathway — this is a pure TxGNN prediction score."* This ranking should therefore be interpreted as an artefact of the model's learned embedding space (e.g. shared graph neighbours with head-and-neck-related nodes) rather than a biologically grounded hypothesis.
-
----
+A possible link to gingival fibromatosis is EGFR and growth-factor signalling in fibroblast proliferation. This is speculative: no study in the compiled data tests it, and the model's similarity assessment to the original indication is still pending. The high score (99.89%) is a computational prediction and should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Gefitinib holds **0 marketing authorisations** on record in this dataset, and market status is recorded as **"Not marketed."** No licence numbers, product names, or approved-indication text are available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0801050AWAAAAAA | Gefitinib tablets 250 mg | Tablet | Not specified in the compiled data |
 
----
+The identifier above is a BNF-style product code rather than a standard PL number. The compiled data contain no dosage form or indication text for this record, and no NICE-appraised indication details. Please check the current SmPC and the BNF.
 
 ## Cytotoxicity
 
-Gefitinib is an antineoplastic agent (EGFR/HER1 tyrosine-kinase inhibitor used in NSCLC), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (EGFR/HER1 tyrosine-kinase inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — myelosuppression is not a predominant toxicity of EGFR-TKIs; literature accompanying this pack instead highlights dermatological reactions (acneiform rash), interstitial lung disease, and QT-interval prolongation as more characteristic signals |
-| Emetogenicity Classification | Low (oral small-molecule targeted agent) |
-| Monitoring Items | Liver function tests, ECG/QTc, respiratory symptoms (interstitial lung disease), skin toxicity, renal function |
-| Handling Protection | Not a classical cytotoxic; nonetheless, many institutions apply hazardous-drug handling precautions to oral EGFR-TKIs during dispensing (e.g. under NIOSH hazardous drug lists where locally adopted) — confirm against local policy |
-
----
+| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the SmPC warnings and precautions |
+| Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
+| Monitoring Items | Please refer to the SmPC; liver function and respiratory symptoms are relevant given the contraindication signals below |
+| Handling Protection | Please refer to local policy and the SmPC |
 
 ## Safety Considerations
 
-Formal safety fields (key warnings, contraindications, drug interactions) are all unavailable in this evidence pack (DG001, Blocking severity — TFDA/SmPC label data not yet retrieved).
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: liver disease, gallbladder disease, interstitial lung disease, pulmonary fibrosis, and postinflammatory pulmonary fibrosis.
+- **Drug Interactions**: 100 interactions were identified; the 20 listed in the compiled data are mostly moderate.
+  - Acid-suppressing agents: famotidine, ranitidine, nizatidine, cimetidine, and the proton pump inhibitors omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole and rabeprazole.
+  - Other moderate-level interactions: clarithromycin, aprepitant, dexamethasone, naltrexone, miconazole, clotrimazole and troglitazone.
+  - Interaction level unknown: calcitriol and glimepiride.
 
-**Signals noted in the accompanying literature (not SmPC-sourced, for awareness only):** QT-interval prolongation (PMID 34474028), interstitial lung disease (PMID 20949670, PMID 20942679), and cutaneous toxicity (PMID 18931563) have been reported with gefitinib in its established oncology use.
-
-Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
-
-## Other Candidate Signals in This Batch
-
-This evidence pack scored 10 predicted indications for gefitinib. Most are unsupported (L5/Hold); three reached L4/"Research Question" status because they represent anatomical subtypes of NSCLC — gefitinib's own established tumour class — rather than genuinely novel biology:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision Stage | Note |
-|------|---------|-------------|-----------------|-----------------|------|
-| 5 | Lung hilum carcinoma | 99.86% | L4 | S1 (Research Question) | Anatomical NSCLC subtype; 1 case report only |
-| 8 | Lung germ cell tumour | 99.84% | L4 | S1 (Research Question) | Sole matching trial was head-and-neck/NSCLC, not germ cell tumour |
-| 9 | Pulmonary sulcus (Pancoast) neoplasm | 99.84% | L4 | S1 (Research Question) | NSCLC anatomical subtype; no subtype-specific trial |
-| 1, 2, 4, 6, 7, 10 | Gingival fibromatosis, lung fibroma, lung hamartoma, lung benign neoplasm, rare genetic syndrome, junctional epidermolysis bullosa | 99.84–99.89% | L4–L5 | S0 (Hold) | No credible mechanistic link; evidence is absent or mismatched (keyword co-occurrence noise) |
-
----
+The licence-based warnings and contraindications were not available for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked candidate (Gingival Fibromatosis) has no clinical trial or literature support and no plausible mechanistic rationale — it does not meet the threshold to progress past S0.
-- A Blocking-severity data gap (missing TFDA/SmPC safety data) independently prevents any safety pre-screening (S1) regardless of efficacy evidence.
+The prediction has no supporting trials or publications (evidence level L5), and the mechanistic link to gingival fibromatosis is speculative. The knowledge graph also flags several respiratory and hepatic contraindications, so there is no basis to progress this candidate.
 
 **To proceed, the following is needed:**
-- Retrieval of the product label/SmPC (warnings, contraindications, DDI) to close DG001
-- Formal DrugBank MOA confirmation to close DG002
-- If pursuing the more mechanistically coherent NSCLC-subtype signals (ranks 5, 8, 9) instead, subtype-specific trial data or case-series evidence, since current literature is either single case reports or drawn from unrelated patient populations
+- Mechanism of action data and a worked-through rationale linking EGFR inhibition to gingival fibromatosis
+- Preclinical or early clinical studies in this condition
+- Licence-level warnings and contraindications from the SmPC, with the approved indication text and dosage form for the UK authorisation
+- A route and formulation assessment (route compatibility is pending)
+- A benefit–risk review, given the interstitial lung disease and liver-related signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

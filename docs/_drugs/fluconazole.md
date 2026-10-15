@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Model Prediction Only (L5)
-nav_order: 273
+nav_order: 291
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluconazole: From Antifungal Therapy to Punctate Epithelial Keratoconjunctivitis
+# Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-> Fluconazole is a triazole antifungal agent; detailed data on its originally licensed indication were not provided in this evidence pack.
-> The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-> but currently **no clinical trials** and **no published literature** support this specific direction — the prediction rests on the model score alone.
+Fluconazole is an azole antifungal, originally used to treat candidiasis (oral, oesophageal, vulvovaginal, invasive) and cryptococcal meningitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** were found for this indication, so the prediction is computational only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the source data (Fluconazole is a triazole antifungal; specific licensed indication text was not supplied in this pack) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, oesophageal candidiasis, cryptococcal meningitis, candidaemia, disseminated candidiasis |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this candidate (flagged as a High-severity data gap in the evidence pack). Based on known pharmacology, fluconazole inhibits fungal CYP51 (lanosterol 14α-demethylase), blocking ergosterol synthesis in the fungal cell membrane — an antifungal mechanism.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Fluconazole is an azole antifungal, a class that inhibits fungal CYP51 (lanosterol 14-alpha-demethylase) and so blocks ergosterol synthesis. Its efficacy in candidiasis and cryptococcal infection is established.
 
-Punctate epithelial keratoconjunctivitis, however, is most commonly caused by viral pathogens (e.g. adenovirus), not fungal organisms. A theoretical mechanistic link to fluconazole would only apply in the rare setting of fungal keratitis, and even that link is not substantiated by any trial or literature evidence in this pack.
+The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is usually viral (often adenoviral) or immune-mediated, so an antifungal has no clear target in its pathology. The high TxGNN score therefore appears to be a computational association and should not be read as evidence of benefit.
 
-As a result, this prediction should be regarded as a raw TxGNN model score without corroborating clinical or mechanistic support. It does not currently meet the bar for further pharmacological rationale beyond the model output itself.
+Other predictions in the data set for this drug (ranks 2-10) also have little support. The most plausible are Plasmodium falciparum malaria (in vitro data only, evidence level L4) and pneumocystosis (biologically plausible as a fungal organism, but no direct fluconazole data). The remainder have no plausible mechanism.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
 ## UK Market Information
 
-No UK marketing authorisation is currently on record for Fluconazole in this data set (market status: Not Marketed; 0 authorisations).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0502010B0AAAAAA | Fluconazole Capsules 50 mg | Capsule | Indication text not available |
+
+The identifier shown is a BNF-style product code (BNF section 5.2.1, azole antifungals) rather than a PL number. One valid single-ingredient authorisation is recorded.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
+- **Drug Interactions**: 100 interactions were identified. Notable examples:
+  - **Major**: chlorpropamide.
+  - **Moderate**: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), proton pump inhibitors (omeprazole, rabeprazole, dexlansoprazole), famotidine, loperamide, aprepitant, saxagliptin, bisacodyl, picosulfuric acid, polyethylene glycol with electrolytes.
+  - **Minor**: amphotericin B, clarithromycin.
+- A published cohort also reports that fluconazole raises tacrolimus trough levels (CYP3A4 inhibition), so dose adjustment is needed.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trial or literature evidence supports fluconazole use in punctate epithelial keratoconjunctivitis, and the underlying mechanistic rationale is weak (the condition is predominantly viral, not fungal, in aetiology). The prediction score alone (L5, model-only) is insufficient to justify further development at this time.
+The prediction rests on a model score alone (L5), with no trials or literature, and there is no credible mechanistic link between an antifungal and a mostly viral or immune-mediated eye condition.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for fluconazole (currently a blocking/high-severity data gap)
-- UK product label warnings and contraindications (SmPC), currently unavailable — this is a blocking gap for any safety assessment
-- Confirmation of UK marketing authorisation status, or an alternative licensed product route, given fluconazole is currently unmarketed in this data set
-- Note: other candidates in this evidence pack — notably **pneumocystosis** (Evidence Level L3, decision stage S1, 7 clinical trials and 20 publications identified) — show materially stronger supporting evidence and may warrant a separate, dedicated evaluation report.
+- Mechanism of action data and a plausible mechanistic rationale for the ocular indication
+- Label warnings and contraindications from the SmPC and BNF
+- Preclinical or clinical evidence in punctate epithelial keratoconjunctivitis, and an assessment of route of administration (ocular versus systemic) and ocular safety
+- If the programme is to continue, consider prioritising other predictions, such as Plasmodium falciparum malaria (confirmatory in vitro work) or pneumocystosis (comparison against standard care)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

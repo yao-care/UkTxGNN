@@ -2,7 +2,7 @@
 layout: default
 title: Yohimbine
 parent: Model Prediction Only (L5)
-nav_order: 614
+nav_order: 657
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,98 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Yohimbine: From No Documented Original Indication to Migraine Disorder
+# Yohimbine: From an Unspecified Original Indication to Migraine Disorder
 
 ## One-Sentence Summary
 
-The evidence pack for yohimbine contains no original approved indication and no mechanism-of-action data, and the drug currently holds no UK marketing authorisation.
-The TxGNN model predicts possible efficacy for **Migraine Disorder**, but this is currently supported by **0 clinical trials** and **20 publications**, none of which test yohimbine directly in migraine, and several of the drug's other top-ranked candidate indications show a pharmacologically contradictory rationale.
+Yohimbine is a selective alpha-2 adrenoceptor antagonist marketed in the UK as a 5 mg tablet, although the data compiled for this report do not record an approved indication.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **7 publications**, almost all preclinical or indirect.
+The evidence is weak, and the pharmacology points in an unfavourable direction, because migraine-related alpha-2 research mainly involves agonists such as clonidine.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack (no original indication or product data available) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Not recorded in the available data |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 (preclinical and mechanistic studies only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for yohimbine is not available in this evidence pack (Data Gap DG002), and no original approved indication is recorded. What can be drawn from the supporting literature itself is that yohimbine is repeatedly described as "a classical α2-adrenoceptor antagonist" (e.g. PMID 23707349), i.e. it blocks presynaptic alpha-2 adrenergic receptors and increases noradrenaline release, rather than acting as an agonist.
+Detailed mechanism-of-action data are not available in the compiled data. From pharmacology records, yohimbine is a selective alpha-2 adrenoceptor antagonist with moderate affinity for alpha-1 adrenoceptors. It also binds several serotonin receptor subtypes (5-HT1A, 1B, 1D, 1E, 1F, 2B, 5A and 7). Many of these serotonin receptors are relevant to existing migraine treatments.
 
-This is important because most of the evidence linking yohimbine to migraine is indirect: it consists of older studies on reserpine (a serotonin/catecholamine-depleting agent, not yohimbine) in migraine prophylaxis, and animal studies on how noradrenergic agonists **and** antagonists influence cortical spreading depression, the mechanism thought to underlie migraine aura. None of the identified publications administer yohimbine to migraine patients or in a migraine model, so the mechanistic link is theoretical rather than demonstrated.
+Preclinical work links noradrenergic and alpha-2 signalling to cortical spreading depression (the biological basis of migraine aura), trigeminovascular nociception and meningeal artery tone. This makes the pathway plausibly relevant.
 
-More broadly, across the ten TxGNN-ranked candidate indications provided for this drug, the rationale texts flag a recurring contradiction: conditions such as ADHD, open-angle glaucoma and the common cold are treated (or theoretically improved) with alpha-2 **agonists** (guanfacine, clonidine, brimonidine, oxymetazoline-type mechanisms), whereas yohimbine acts in the opposite direction as an alpha-2 **antagonist**. This raises the possibility that the model's high similarity scores reflect shared receptor-pathway nodes in the knowledge graph rather than a correct therapeutic direction, and in some cases (e.g. glaucoma) suggests a theoretical risk rather than a benefit. All ten candidates, including migraine, are scored at evidence level L5 (one at L4) and decision stage S0, with no candidate currently supported by a completed, disease-specific clinical trial of yohimbine.
+However, the direction of effect is a concern. Alpha-2 agonists such as clonidine are the agents studied in migraine, and an antagonist such as yohimbine could act in the opposite direction. The literature is largely animal or in vitro work, and no clinical study has tested yohimbine in migraine. The link is therefore indirect.
+
+Other predictions in the model's top ten (migraine with brainstem aura, headache disorder, migraine susceptibility) largely reuse the same migraine literature and add no independent support. Several others (ADHD, transient ischaemic attack, glaucoma) have mechanistic evidence suggesting yohimbine could worsen rather than improve the condition.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [5634006](https://pubmed.ncbi.nlm.nih.gov/5634006/) | 1967 | Review/Mechanistic | Trans Am Neurol Assoc | Early review proposing a role for serotonin in migraine pathophysiology; does not involve yohimbine. |
-| [15829916](https://pubmed.ncbi.nlm.nih.gov/15829916/) | 2005 | Preclinical (animal) | J Cereb Blood Flow Metab | Noradrenergic agonists and antagonists altered cortical spreading depression in rats, a proposed mechanism underlying migraine aura; yohimbine was not directly tested. |
-| [29856967](https://pubmed.ncbi.nlm.nih.gov/29856967/) | 2018 | Preclinical (animal) | Exp Neurol | Stress-induced cortical excitability shown to be mediated via α2-adrenergic and glucocorticoid receptors in a mouse model of cortical spreading depression. |
-| [39842732](https://pubmed.ncbi.nlm.nih.gov/39842732/) | 2025 | Preclinical (animal) | Free Radic Biol Med | Reserpine-induced fibromyalgia mouse model implicates Schwann cell TRPA1/NOX1 signalling in periorbital allodynia relevant to migraine–fibromyalgia comorbidity; yohimbine not tested. |
-| [468534](https://pubmed.ncbi.nlm.nih.gov/468534/) | 1979 | Historical/observational | Headache | Reports on reserpine, headache and prolactin release in migraine patients (abstract not available). |
-| [1270244](https://pubmed.ncbi.nlm.nih.gov/1270244/) | 1976 | Historical/observational | Headache | Explores the relationship between tyramine, blood serotonin and migraine (abstract not available). |
-| [171561](https://pubmed.ncbi.nlm.nih.gov/171561/) | 1975 | Review | MMW Munch Med Wochenschr | Discusses humoral mediators (serotonin, histamine, plasmakinin, tyramine) in migraine pathogenesis and treatment. |
-| [5297855](https://pubmed.ncbi.nlm.nih.gov/5297855/) | 1967 | Historical/observational | Arch Neurol | Measures plasma serotonin changes in migraine and stress states (abstract not available). |
-| [15778266](https://pubmed.ncbi.nlm.nih.gov/15778266/) | 2005 | Preclinical (animal) | J Pharmacol Exp Ther | Examines dopaminergic mechanisms in a trigeminovascular nociception animal model relevant to migraine phases. |
-| [934534](https://pubmed.ncbi.nlm.nih.gov/934534/) | 1976 | Historical/observational | Minerva Med | Describes open-label and subsequent double-blind use of reserpine (not yohimbine) for migraine prophylaxis in 300 patients. |
+| [15829916](https://pubmed.ncbi.nlm.nih.gov/15829916/) | 2005 | Preclinical (rat) | J Cereb Blood Flow Metab | Both adrenergic agonists and antagonists influenced cortical spreading depression migration, suggesting a possible role in migraine prophylaxis |
+| [29856967](https://pubmed.ncbi.nlm.nih.gov/29856967/) | 2018 | Preclinical (animal) | Exp Neurol | Stress modulated cortical excitability via alpha-2 adrenergic and glucocorticoid receptors, as assessed by spreading depression |
+| [15778266](https://pubmed.ncbi.nlm.nih.gov/15778266/) | 2005 | Preclinical (animal) | J Pharmacol Exp Ther | Role of dopamine in a model of trigeminovascular nociception |
+| [17103145](https://pubmed.ncbi.nlm.nih.gov/17103145/) | 2006 | Preclinical (isolated tissue) | Naunyn Schmiedebergs Arch Pharmacol | Effects of current and prospective antimigraine drugs on porcine meningeal artery |
+| [23707349](https://pubmed.ncbi.nlm.nih.gov/23707349/) | 2013 | Preclinical (rat) | Eur J Pharmacol | Ergotamine's pressor responses (used in acute migraine) were blocked by yohimbine, identifying the alpha-adrenoceptor subtypes involved |
+| [2985264](https://pubmed.ncbi.nlm.nih.gov/2985264/) | 1985 | Small observational study (children) | Cephalalgia | Platelet alpha-adrenoceptor binding measured with radiolabelled yohimbine; binding affinity differed between migrainous children and controls |
+| [2905875](https://pubmed.ncbi.nlm.nih.gov/2905875/) | 1988 | Review | Ann Clin Res | Overview of therapeutic applications of drugs acting on alpha-adrenoceptors, mainly alpha-2 agonists |
+
+---
 
 ## UK Market Information
 
-No UK marketing authorisation is recorded for yohimbine in the evidence pack (0 licenses, market status: Not Marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0704050Y0AAAMAM (BNF-style product code) | Yohimbine HCl Tab 5 mg | Tablet (not recorded in data) | Not recorded in data |
+
+Only one single-ingredient product is listed, and it is recorded as valid. The compiled data do not give the manufacturer, dosage form or approved indication.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged in the knowledge graph:** The TxGNN knowledge graph (drug–disease contraindication links, not label text) lists anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, pyoureter, liver disease, gallbladder disease, hypotensive disorder, heart disease and cardiovascular disease.
+- **Drug interactions (20 records):**
+  - **Major:** iobenguane (I-131).
+  - **Moderate:** lorcaserin, troglitazone, doxepin (oral and topical) and procarbazine.
+  - **Minor:** morphine (including liposomal).
+  - Receptor-binding records (serotonin, alpha-2 adrenoceptors) are also on file and are not interactions in the clinical sense.
+- **Context from the pharmacology records:** One source states that yohimbine is no longer recommended as a treatment for erectile dysfunction.
 
-Note: the evidence pack flags a **Blocking** data gap (DG001 — missing product labelling warnings/contraindications), which by itself prevents this candidate from entering an initial safety assessment (S1) regardless of the strength of the efficacy evidence.
+Warning and contraindication text from the product information was not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten TxGNN-ranked candidate indications for yohimbine, including migraine disorder, remain at evidence level L5 (one at L4) and decision stage S0, with no clinical trial directly testing yohimbine in the proposed indication. The mechanistic rationale for several top candidates (ADHD, open-angle glaucoma, common cold) is directly contradicted by known pharmacology of alpha-2 agonists used in those conditions, and a Blocking data gap in product safety labelling prevents any safety pre-assessment.
+There are no clinical trials, and the literature is almost entirely animal, in vitro or indirect. Alpha-2 agonists, not antagonists, are the agents associated with migraine research, so the direction of effect is questionable. The very high prediction score appears to reflect model proximity rather than independent evidence. The knowledge graph also flags cardiovascular, hepatic, renal and anxiety-related conditions, which are relevant to a migraine population.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for yohimbine from DrugBank (Data Gap DG002)
-- Product labelling (SmPC-equivalent) warnings, contraindications and DDI data (Blocking Data Gap DG001) before an S1 safety assessment can begin
-- Direct pharmacological or clinical evidence testing yohimbine specifically (not reserpine, clonidine, or other alpha-2 agents) in migraine or other candidate indications
-- Resolution of the mechanistic contradiction identified for the ADHD, common cold and open-angle glaucoma candidates before further evaluation of those directions
-- Confirmation of current global marketing/licensing status, given zero UK marketing authorisations on record
+- Product information (SmPC) warnings, contraindications and the approved indication for the UK-listed tablet
+- Detailed mechanism-of-action data, specifically whether alpha-2 antagonism could plausibly help rather than aggravate migraine
+- Preclinical studies testing yohimbine itself in migraine models (for example spreading depression and trigeminovascular models)
+- A cardiovascular and psychiatric safety assessment for the target population before any clinical study is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

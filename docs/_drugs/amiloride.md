@@ -2,7 +2,7 @@
 layout: default
 title: Amiloride
 parent: Model Prediction Only (L5)
-nav_order: 47
+nav_order: 49
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,37 +29,41 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Amiloride: From Hypertension and Oedema to Malignant Hypertensive Renal Disease
+# Amiloride: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Amiloride is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron, used clinically to manage hypertension and oedema — most commonly in combination with loop or thiazide diuretics.
-The TxGNN model predicts it may have therapeutic activity in **Malignant Hypertensive Renal Disease**, with a prediction score of **99.82%**.
-However, there are currently **no registered clinical trials** and **no relevant publications** directly supporting this specific indication, placing the evidence at **Level L5** — model prediction only.
+Amiloride is a potassium-sparing diuretic, originally used for hypertension and congestive heart failure.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **no clinical trials** and **no directly relevant publications** supporting this prediction.
+Of the other predicted indications reviewed, only pulmonary hypertension due to lung disease or hypoxia and chronic pulmonary heart disease have any supporting literature, and it is indirect.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension and oedema (potassium-sparing diuretic; not currently licensed as a standalone product in the UK) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Hypertension and congestive heart failure (the marketing authorisation record compiled for this report contains no indication text) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 — model prediction only; no clinical studies identified |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, amiloride is a pyrazine-derived potassium-sparing diuretic that selectively blocks ENaC in the collecting duct of the distal nephron. This reduces tubular sodium reabsorption and, consequently, circulating blood volume — producing antihypertensive and natriuretic effects whilst preserving serum potassium. In clinical practice, amiloride is most often used in combination with furosemide or hydrochlorothiazide to mitigate hypokalaemia in patients managed for hypertension, chronic oedema, and heart failure.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amiloride blocks the epithelial sodium channel (ENaC) in the distal nephron. This reduces sodium reabsorption and conserves potassium, which lowers blood pressure and fluid retention. Its efficacy in hypertension and heart failure is well established.
 
-Malignant hypertensive renal disease is a hypertensive emergency defined by severe, rapidly escalating blood pressure causing acute renal injury, frequently accompanied by hypertensive retinopathy, microangiopathic haemolytic anaemia, and encephalopathy. The TxGNN model likely generates a high prediction score by drawing on the network proximity between amiloride's ENaC-blocking properties and hypertension-related renal pathology nodes within the knowledge graph. Whilst there is a broad biological link — ENaC inhibition does reduce blood pressure and decrease renal tubular sodium load — this mechanistic pathway is generic rather than specific to malignant hypertensive nephropathy.
+Hypertensive renal disease is closely related to the original indication, so a high model score is understandable. However, the prediction most likely reflects amiloride's existing use in hypertension rather than a genuinely new therapeutic signal. Malignant hypertension is a hypertensive emergency and is not managed with potassium-sparing diuretics. Hyperkalaemia risk is also a significant concern when renal function is impaired.
 
-Critically, the clinical plausibility for amiloride as primary therapy in this emergency setting is weak. Malignant hypertension requires rapid, controlled blood pressure reduction using intravenous agents such as labetalol, hydralazine, or sodium nitroprusside. An oral potassium-sparing diuretic acting over hours is poorly positioned for this acute context. The high TxGNN score is likely a function of broad ENaC–hypertension network association rather than a targeted mechanistic prediction, and must be interpreted with caution.
+Other predictions were also reviewed:
+- **Malignant renovascular hypertension (99.82%):** ENaC inhibition is relevant to mineralocorticoid-driven hypertension. However, the only linked paper is a general 2003 review on investigating mineralocorticoid hypertension, not a study of amiloride.
+- **Pulmonary hypertension due to lung disease or hypoxia (99.81%):** Preclinical work suggests hypoxia downregulates alveolar ENaC, and ASIC1a channels (also targeted by amiloride) contribute to hypoxic pulmonary hypertension. No study shows amiloride treats this condition in patients. This is the only alternative with a research-question rationale (L4).
+- **Chronic pulmonary heart disease (99.68%):** Heart failure studies exist, but they address congestive heart failure, an existing indication, not cor pulmonale specifically. Evidence is indirect (L4).
+- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome:** No trials, no literature, and no clear mechanistic link. The scores are likely knowledge-graph artefacts.
 
 ---
 
@@ -71,13 +75,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly supports the lead prediction (malignant hypertensive renal disease). The most relevant publications found for related predicted indications are listed below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2888942](https://pubmed.ncbi.nlm.nih.gov/2888942/) | 1987 | RCT (crossover) | Lancet | Captopril alone compared with furosemide plus amiloride in 14 patients with mild heart failure. Ten remained stable on captopril alone; four deteriorated, all with prior pulmonary oedema. |
+| [1888694](https://pubmed.ncbi.nlm.nih.gov/1888694/) | 1991 | Clinical study (double-blind, placebo-controlled crossover) | Cardiovasc Drugs Ther | Amiloride improved haemodynamics in 11 men with chronic heart failure on digoxin and diuretics. Relevant to heart failure, not cor pulmonale. |
+| [25398716](https://pubmed.ncbi.nlm.nih.gov/25398716/) | 2015 | Review | Exp Physiol | Smooth muscle ASIC1 contributes to hypoxic pulmonary hypertension, providing a preclinical rationale. |
+| [9376126](https://pubmed.ncbi.nlm.nih.gov/9376126/) | 1997 | Preclinical | Am J Respir Cell Mol Biol | Hypoxia reduced amiloride-sensitive sodium channel activity in rat alveolar epithelial cells. |
+| [15219007](https://pubmed.ncbi.nlm.nih.gov/15219007/) | 2004 | Cohort/physiological study | Eur Respir J | High altitude impaired nasal sodium transport in subjects prone to high-altitude pulmonary oedema (indirect human physiology). |
+| [16222038](https://pubmed.ncbi.nlm.nih.gov/16222038/) | 2005 | Review | Proc Am Thorac Soc | Reviews effects of hypoxia on alveolar epithelial function. |
+| [12929904](https://pubmed.ncbi.nlm.nih.gov/12929904/) | 2003 | Review | J Hypertens Suppl | General discussion of investigating mineralocorticoid hypertension; not an amiloride study. |
+| [8615380](https://pubmed.ncbi.nlm.nih.gov/8615380/) | 1996 | Case report | Am J Med Sci | Severe hyperkalaemia (K⁺ 9.3 mEq/L) in a 96-year-old woman with heart failure on trimethoprim-sulfamethoxazole. Highlights a key safety concern. |
+
+Many other retrieved papers (ovarian cancer pH, choroid plexus transport, hepatic ischaemia-reperfusion, neonatal brain injury, patch-clamp assay development) were off-topic and are not listed.
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0202030C0AAACAC | Amiloride HCl Tab 5mg | Tablet (5 mg) | Not available in the data compiled for this report |
+
+One valid single-ingredient authorisation is recorded. Please check the current SmPC and BNF (potassium-sparing diuretics) for the licensed indications and dosing.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Hyperkalaemia:** This is the key concern. A case report describes severe hyperkalaemia in an elderly patient with heart failure given trimethoprim-sulfamethoxazole. Risk is higher in renal impairment, which is directly relevant to the predicted renal indications.
+- **Conditions linked to contraindications in the knowledge graph:** These come from the TxGNN knowledge graph, not from label text, so confirm them against the SmPC.
+  - Renal and urinary: kidney disease, anuria, diabetic nephropathy, pyoureter
+  - Liver and biliary: liver disease, gallbladder disease, hepatic coma, hepatic encephalopathy, neonatal jaundice
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency disease, hyperuricaemia, gout, acidosis, acquired lactic acidosis
+  - Other: pancreatitis, systemic lupus erythematosus (including paediatric), hyperparathyroidism, osteitis fibrosa
+- **Drug interactions (100 recorded, mostly Moderate or Minor):**
+  - Moderate: metformin, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), exenatide, corticosteroids (hydrocortisone, betamethasone, budesonide, dexamethasone), bupropion, dronabinol, and laxatives (bisacodyl, castor oil, glycerin, lactitol, lactulose)
+  - Minor: doxycycline, amoxicillin, cimetidine
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -86,22 +123,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.82%), there is no clinical trial or published literature evidence for amiloride in malignant hypertensive renal disease (Level L5), and the mechanistic rationale does not support its use in this acute hypertensive emergency — a context requiring intravenous antihypertensive therapy rather than an oral potassium-sparing diuretic.
+The prediction score is very high, but the evidence is model-only (L5) for the lead indication, with no trials and no relevant literature. The signal likely reflects the existing hypertension indication, and malignant hypertension is not appropriately treated with a potassium-sparing diuretic, particularly given the hyperkalaemia risk in renal impairment. Pulmonary hypertension due to lung disease or hypoxia and chronic pulmonary heart disease (both L4) may be worth exploring as research questions only.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action (MOA) data from DrugBank or current SmPC, confirming ENaC-specific pharmacodynamic profile
-- UK safety data from MHRA (key warnings and contraindications), particularly regarding hyperkalaemia risk and renal impairment thresholds
-- Preclinical evidence specifically linking ENaC inhibition to pathophysiological mechanisms in malignant hypertensive nephropathy (e.g., tubular injury models, Na⁺ overload in endothelial damage)
-- Pharmacokinetic data confirming adequate bioavailability and dose–response in the context of acute renal injury, where oral absorption may be unreliable
-- Expert nephrology opinion on whether adjunctive potassium-sparing diuresis could have a defined supportive role within a broader intravenous treatment protocol
-
----
-
-> **Note on alternative predictions in this Evidence Pack:** Of the six TxGNN predictions evaluated, **chronic pulmonary heart disease (cor pulmonale)** (Rank 6; Evidence Level L3; Recommendation: Research Question) presents the most clinically coherent case for further investigation. Two controlled studies — a pilot crossover RCT (PMID [1888694](https://pubmed.ncbi.nlm.nih.gov/1888694/), 1991) demonstrating haemodynamic improvement with amiloride in chronic congestive heart failure on digoxin, and a double-blind randomised crossover trial (PMID [2888942](https://pubmed.ncbi.nlm.nih.gov/2888942/), 1987) comparing frusemide–amiloride combination against captopril in mild heart failure — provide direct pharmacological support. The use of amiloride as a potassium-sparing diuretic in managing fluid overload and right heart strain in cor pulmonale aligns directly with its established clinical role, and this indication merits a dedicated, more detailed evaluation report.
-
----
-
-*This report is for research and informational purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application. Suspected adverse reactions should be reported via the MHRA Yellow Card Scheme at [yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).*
+- Mechanism of action data confirmed from DrugBank
+- Approved indication text and dosage form from the MHRA/SmPC record, plus warnings and contraindications from the SmPC and BNF
+- Clinical studies of amiloride in the predicted conditions, particularly hypoxic pulmonary hypertension and cor pulmonale
+- A renal and potassium monitoring plan, with review of the knowledge-graph contraindications (kidney disease, diabetes, liver disease) against label text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

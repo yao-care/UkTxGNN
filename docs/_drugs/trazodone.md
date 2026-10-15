@@ -2,7 +2,7 @@
 layout: default
 title: Trazodone
 parent: High Evidence (L1-L2)
-nav_order: 594
+nav_order: 636
 evidence_level: L2
 indication_count: 10
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Trazodone is a serotonin antagonist and reuptake inhibitor (SARI) established as an antidepressant for the treatment of depression. The TxGNN model predicts it may be effective for **Obsessive-Compulsive Disorder (OCD)**, with **no currently registered clinical trials** but **20 published studies**, including one double-blind, placebo-controlled trial, supporting this direction.
+Trazodone is an antidepressant, originally used for depressive disorders and anxiety disorders.
+The TxGNN model predicts it may be effective for **obsessive-compulsive disorder (OCD)**,
+but the supporting evidence is **small and dated**: no registered clinical trials and **20 publications**, only one of which is a placebo-controlled RCT.
 
 ---
 
@@ -41,29 +43,29 @@ Trazodone is a serotonin antagonist and reuptake inhibitor (SARI) established as
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression (based on established antidepressant classification; no formal licensing/indication text available in this dataset) |
-| Predicted New Indication | Obsessive-Compulsive Disorder (OCD) |
+| Original Indication | Not stated in the UK authorisation data; knowledge-graph indications are unipolar depression, endogenous depression, major depressive disorder and anxiety disorder |
+| Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L2 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails (research question only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this dataset. Based on known pharmacology, trazodone is a serotonin antagonist and reuptake inhibitor (SARI), combining 5-HT2A/2C receptor antagonism with weak serotonin reuptake inhibition. Its efficacy as an antidepressant has been established, and mechanistically it may be applicable to OCD.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, trazodone acts on serotonergic pathways: it antagonises 5-HT2A/2C receptors and weakly inhibits serotonin reuptake. Its active metabolite, m-CPP, is also serotonergic.
 
-OCD is understood to involve dysregulation of the serotonin (5-HT) system, and the disorder is preferentially responsive to potent serotonin reuptake inhibitors such as clomipramine, fluoxetine, fluvoxamine and paroxetine. Trazodone's serotonergic modulation therefore has a theoretical, partially overlapping link with these established OCD treatments. However, trazodone's dominant pharmacological action is 5-HT2A receptor antagonism rather than potent serotonin transporter (SERT) inhibition, which is the mechanism most strongly associated with efficacy in OCD — meaning the mechanistic fit is plausible but not fully aligned with the current standard of care.
+Serotonergic modulation is the established basis of OCD drug treatment. Trazodone is already used in depression and anxiety, so a serotonergic effect on obsessive-compulsive symptoms is plausible. However, trazodone's serotonin reuptake inhibition is weak compared with agents established in OCD, and the clinical evidence is small and mostly from the 1980s and 1990s.
 
-This partial mechanistic overlap is reflected in the evidence base: a small double-blind, placebo-controlled trial and several open-label/cohort studies (including one using PET imaging to correlate symptom response with caudate glucose metabolism) suggest a possible, modest benefit, particularly in patients who have failed clomipramine. The evidence is nonetheless dated (predominantly 1984–1996) and has not been corroborated by modern, adequately powered randomised trials.
+The remaining top predictions (schizotypal, schizoid, paranoid and histrionic personality disorders, benign paroxysmal torticollis of infancy, Ohdo syndrome) have no meaningful supporting evidence and are not pursued here. Agoraphobia, phobic disorder and dysthymic disorder have limited older evidence (see the Conclusion).
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
@@ -71,44 +73,53 @@ Currently no related clinical trials registered
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT (double-blind, placebo-controlled) | Journal of Clinical Psychopharmacology | Controlled trial investigating trazodone's anti-obsessional efficacy in OCD, given its serotonin reuptake-inhibiting properties. |
-| [8993077](https://pubmed.ncbi.nlm.nih.gov/8993077/) | 1996 | Review | Psychopharmacology Bulletin | Reviews mono- and polypharmacotherapy of OCD; notes that only potent serotonin reuptake inhibitors were FDA-approved for OCD at the time. |
-| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgraduate Medicine | Comprehensive review of trazodone's mechanism, formulation and use in psychiatric/medical conditions, including non-FDA-approved use in OCD. |
-| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | Cohort/Open-label | Clinical Neuropharmacology | Trazodone administered to 9 clomipramine-resistant OCD patients; mild but significant improvement overall, with 3 clear responders. |
-| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | Cohort (PET/glucose metabolism study) | Psychopathology | Trazodone response in OCD correlated with changes in caudate nucleus glucose metabolism on PET imaging. |
-| [8434675](https://pubmed.ncbi.nlm.nih.gov/8434675/) | 1993 | Case series | American Journal of Psychiatry | Reports trazodone treatment outcomes in OCD and comorbid trichotillomania. |
-| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Current Pharmaceutical Design | Discusses off-label trazodone use, including OCD, alongside insomnia, GAD, panic disorder and PTSD, weighing evidence, benefits and risks. |
-| [4009160](https://pubmed.ncbi.nlm.nih.gov/4009160/) | 1985 | Case report | Journal of Nervous and Mental Disease | Two patients with OCD and comorbid depression, refractory to other antidepressants, showed rapid improvement on trazodone. |
-| [8331098](https://pubmed.ncbi.nlm.nih.gov/8331098/) | 1993 | Review | Journal of Clinical Psychiatry | Reviews biological/augmentation strategies for treatment-resistant OCD, mainly combining SRIs with adjunct agents. |
-| [8134850](https://pubmed.ncbi.nlm.nih.gov/8134850/) | 1994 | Review | Southern Medical Journal | Reviews pharmacologic management of OCD in the context of serotonin/dopamine dysregulation hypotheses. |
+| [1629380](https://pubmed.ncbi.nlm.nih.gov/1629380/) | 1992 | RCT (double-blind, placebo-controlled) | J Clin Psychopharmacol | Controlled study of trazodone in OCD, designed to test its anti-obsessive efficacy; the results excerpt was not available in the data compiled |
+| [2119885](https://pubmed.ncbi.nlm.nih.gov/2119885/) | 1990 | Case series / open-label | Clin Neuropharmacol | Nine clomipramine-resistant OCD patients: mild improvement overall; three responded well, with symptoms returning on withdrawal and improving on re-administration |
+| [3571943](https://pubmed.ncbi.nlm.nih.gov/3571943/) | 1986 | Open pilot study | Int Clin Psychopharmacol | Trazodone plus tryptophan in 11 patients: benefit marginal and the combination poorly tolerated by several |
+| [3501130](https://pubmed.ncbi.nlm.nih.gov/3501130/) | 1987 | Open-label / correlational | Psychopathology | Treatment response correlated with changes in caudate glucose metabolism on PET |
+| [26088119](https://pubmed.ncbi.nlm.nih.gov/26088119/) | 2015 | Review | Curr Pharm Des | Off-label trazodone use, including OCD, with evidence, benefits and risks |
+| [27744763](https://pubmed.ncbi.nlm.nih.gov/27744763/) | 2017 | Review | Postgrad Med | Trazodone in psychiatric and medical conditions, covering mechanism, dosing and adverse effects |
+| [8993077](https://pubmed.ncbi.nlm.nih.gov/8993077/) | 1996 | Review | Psychopharmacol Bull | Mono- and polypharmacotherapy of OCD; serotonin reuptake inhibitors are the principal responsive class |
+| [4009160](https://pubmed.ncbi.nlm.nih.gov/4009160/) | 1985 | Case report | J Nerv Ment Dis | Two patients with OCD and depression, resistant to other antidepressants, improved on trazodone |
+| [8434675](https://pubmed.ncbi.nlm.nih.gov/8434675/) | 1993 | Case report / small series | Am J Psychiatry | Trazodone in OCD and trichotillomania |
+| [6703152](https://pubmed.ncbi.nlm.nih.gov/6703152/) | 1984 | Case report | Am J Psychiatry | Early report of trazodone in OCD |
+
+Most of the other retrieved papers are further case reports, reviews or pharmacology papers. The abstract for the controlled study (PMID 1629380) was truncated in the data compiled, so its outcome should be checked in the full paper.
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation is recorded for trazodone in this dataset (market status: Not Marketed, 0 licences). Regulatory and licensing details should be verified directly against the current MHRA and BNF records before further evaluation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0403010X0AAAAAA | Trazodone HCl capsule 50 mg | Capsule (as named in the product description) | Not available in the data compiled |
+
+The data compiled for this report list only one authorisation, and the number shown is not in the standard MHRA "PL" format, so it should be checked against the MHRA register. The BNF classifies trazodone among antidepressant drugs. NICE-appraised indication details were not available.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and risk conditions (from the drug–disease knowledge graph, not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, long QT syndrome (including familial), torsades de pointes, potassium deficiency, benign prostatic hyperplasia, blood coagulation disease, heart disease and cardiovascular disease, priapism, and inappropriate ADH secretion (including the nephrogenic form).
+- **Drug interactions:** 100 interactions were identified; the 20 reviewed include these **Major** interactions: bupropion, lorcaserin, dolasetron, palonosetron, cisapride, dexfenfluramine and fenfluramine. Many involve serotonergic or QT-prolonging combinations. **Moderate** interactions include famotidine, loperamide, aprepitant, morphine, clarithromycin, dronabinol, eliglustat, and several laxatives and bowel-preparation agents.
+
+Label-based warnings were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails (as a research question, not a clinical recommendation)**
 
 **Rationale:**
-A single small double-blind, placebo-controlled trial plus several dated open-label, cohort and case-report studies suggest a plausible but modest benefit of trazodone in OCD, largely in clomipramine-resistant patients. However, there are no registered clinical trials, no confirmed UK marketing authorisation, and critical safety data (SmPC warnings, contraindications, drug interactions) are currently unavailable — the latter being a blocking gap for any initial safety assessment.
+- The TxGNN score is very high and the serotonergic mechanism is plausible, and one double-blind placebo-controlled RCT exists. However, the RCT is more than 30 years old and its result is not confirmed here, the other studies are small open-label reports and case reports, and the data cover only the rank 1 prediction. OCD treatment relies on established serotonin reuptake inhibitors, so trazodone is at most a candidate for treatment-resistant cases or for use as an adjunct. The other predicted indications are weaker: agoraphobia, phobic disorder and dysthymic disorder have only older, small studies, and the personality disorders, benign paroxysmal torticollis of infancy and Ohdo syndrome have none, so they are on Hold.
 
 **To proceed, the following is needed:**
-- MHRA/UK SmPC warnings and contraindications (currently a blocking data gap)
-- Detailed mechanism of action (MOA) data from DrugBank or equivalent source
-- Confirmation of current UK licensing/marketing status and the formally approved original indication text
-- Updated systematic review or a modern, adequately powered RCT evaluating trazodone specifically in OCD
-- Completed drug-drug interaction (DDI) profile
+- Review of the full text and results of the 1992 placebo-controlled RCT (PMID 1629380)
+- A modern, adequately powered randomised trial in OCD, including treatment-resistant patients and adjunctive use
+- Mechanism of action data (MOA) from DrugBank
+- UK label information (indications, warnings, contraindications) from the SmPC and BNF, plus verification of the authorisation record
+- A cardiac and interaction risk assessment (QT prolongation, serotonergic combinations) before any use in the new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

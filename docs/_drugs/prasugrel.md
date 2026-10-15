@@ -2,15 +2,15 @@
 layout: default
 title: Prasugrel
 parent: Moderate Evidence (L3-L4)
-nav_order: 474
-evidence_level: L4
+nav_order: 512
+evidence_level: L3
 indication_count: 10
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Prasugrel: From Antiplatelet Therapy to Pulmonary Hypertension
+# Prasugrel: From Acute Coronary Syndrome to Migraine Disorder
 
 ## One-Sentence Summary
 
-> Prasugrel is a P2Y12 platelet receptor antagonist, internationally used as an antiplatelet agent in the setting of acute coronary syndrome and percutaneous coronary intervention.
-> The TxGNN model predicts it may be effective for **Pulmonary Hypertension**,
-> but this direction is currently supported only by **2 clinical trials** and **2 publications**, none of which directly evaluate prasugrel in pulmonary hypertension.
+Prasugrel is a P2Y12 platelet inhibitor, originally used for acute coronary syndrome.
+The TxGNN model predicts it may be effective for **migraine disorder** (the highest-ranked indication with any supporting evidence), with **2 clinical trials** (neither testing prasugrel directly) and **2 relevant publications** currently supporting this direction.
 
 ---
 
@@ -43,23 +42,23 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this dataset (internationally known as an antiplatelet agent for acute coronary syndrome/PCI — see note below) |
-| Predicted New Indication | Pulmonary Hypertension |
+| Original Indication | Acute coronary syndrome |
+| Predicted New Indication | Migraine disorder (the top-ranked prediction, pulmonary hypertension, has no direct supporting evidence, so migraine is evaluated here) |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed (per current dataset) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question only) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on widely established pharmacological knowledge, Prasugrel is a thienopyridine-class, irreversible P2Y12 receptor antagonist that inhibits ADP-mediated platelet activation and aggregation; its efficacy in acute coronary syndrome and post-PCI stent thrombosis prevention is well established internationally.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prasugrel is a thienopyridine antiplatelet drug that acts by P2Y12 receptor antagonism. Its efficacy in acute coronary syndrome is established, and mechanistically it may be applicable to migraine in a specific subgroup.
 
-The predicted link to pulmonary hypertension is mechanistically indirect. Pulmonary hypertension — particularly chronic thromboembolic pulmonary hypertension (CTEPH) — involves thrombotic occlusion of the pulmonary vasculature, and antiplatelet inhibition of platelet activation could theoretically contribute to reducing thrombus burden in this specific subtype. However, first-line pharmacological management of thromboembolic pulmonary hypertension is anticoagulation, not antiplatelet therapy, so the mechanistic rationale remains largely theoretical rather than directly supported by disease-specific pathophysiology.
+Some people with migraine have a patent foramen ovale (PFO), a small opening in the heart wall. One proposed explanation is that small paradoxical emboli, or platelet-derived vasoactive substances such as serotonin, may trigger aura or headache. Blocking platelet activation with a P2Y12 inhibitor could therefore reduce migraine in these patients.
 
-Consistent with this, none of the identified clinical trials or literature evaluate prasugrel specifically in pulmonary hypertension populations; the supporting evidence instead relates to adjacent but distinct clinical contexts (atrial fibrillation anticoagulation, cancer-associated thrombosis). The prediction should therefore be regarded as hypothesis-generating rather than evidence-supported at this stage.
+The supporting data are indirect. They consist of a retrospective review of thienopyridine therapy (clopidogrel and prasugrel) in migraineurs with PFO, and an open-label pilot study of ticagrelor, a related but different P2Y12 inhibitor. The high TxGNN score is a model prediction and does not by itself demonstrate efficacy.
 
 ---
 
@@ -67,8 +66,8 @@ Consistent with this, none of the identified clinical trials or literature evalu
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03993119](https://clinicaltrials.gov/study/NCT03993119) | N/A | Completed | 500 | Observational, cross-sectional study describing NOAC management in elderly patients with non-valvular atrial fibrillation in Spain; does not evaluate prasugrel or pulmonary hypertension (relevance grade C). |
-| [NCT04846556](https://clinicaltrials.gov/study/NCT04846556) | N/A | Completed | 300 | Retrospective study on eligibility of cancer-associated thrombosis patients for the CARAVAGGIO anticoagulation trial; does not evaluate prasugrel or pulmonary hypertension (relevance grade C). |
+| [NCT07629635](https://clinicaltrials.gov/study/NCT07629635) | Phase 3 | Recruiting | 32 | PFO-directed therapy for migraine cessation. The summary mentions prasugrel as a platelet-inhibiting option, but it is unclear whether prasugrel is the tested agent. Indirect support only. |
+| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | N/A (device) | Terminated | 7 | GORE CARDIOFORM septal occluder versus sham for migraine relief. Terminated early with 7 participants. Does not evaluate prasugrel. |
 
 ---
 
@@ -76,37 +75,56 @@ Consistent with this, none of the identified clinical trials or literature evalu
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21241206](https://pubmed.ncbi.nlm.nih.gov/21241206/) | 2011 | Cohort | Current Medical Research and Opinion | Evaluated factors associated with clopidogrel use/adherence after PCI in acute coronary syndrome; prasugrel mentioned only as a guideline comparator, not studied in pulmonary hypertension. |
-| [34713782](https://pubmed.ncbi.nlm.nih.gov/34713782/) | 2021 | Cohort | Kardiologiia | ACTIV SARS-CoV-2 registry analysis of background chronic disease therapy on COVID-19 mortality; not specific to prasugrel or pulmonary hypertension. |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Retrospective review | Neurology | Off-label thienopyridine use (including prasugrel) in migraineurs with PFO; clinical experience suggested symptom reduction in some patients. |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Open-label pilot | Neurology | Ticagrelor (a non-thienopyridine P2Y12 inhibitor) for refractory migraine with PFO. Conducted after thienopyridines were observed to reduce migraine in some PFO patients. |
+| [42722054](https://pubmed.ncbi.nlm.nih.gov/42722054/) | 2026 | Preclinical | European Journal of Pharmacology | Prasugrel showed neuroprotective, anti-seizure effects in a mouse kindling model. Only indirectly relevant to migraine. |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation records are available in this dataset (market status: Not marketed; total licences: 0). No product name, dosage form, or approved indication data can be reported at this time.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0209000Y0AAABAB | Prasugrel Tab 10mg | Not stated | Not stated |
+
+The data compiled for this report show one valid single-ingredient authorisation. The dosage form, manufacturer and indication text were not available, so please check the current MHRA record, SmPC and BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from the TxGNN knowledge graph, not label text):** the graph links prasugrel with the following conditions, which should be checked against the SmPC:
+- Liver failure
+- Hypotensive disorder
+- Blood coagulation disease
+- Stroke and cerebrovascular disorders, including cerebral infarction, transient ischaemic attack and vertebrobasilar insufficiency
+- Intracranial haemorrhage
+- Thrombocytopenic purpura
+- Injury
 
-*Note: Key warnings, contraindications, and drug interaction data are flagged as a blocking data gap (DG001) in this evidence pack and could not be retrieved from the regulatory source at the time of this report.*
+**Drug Interactions:** 100 interactions were recorded. Main ones:
+- **Major:** deferasirox, ibritumomab tiuxetan
+- **Moderate:** acetylsalicylic acid (aspirin), morphine, opium, fenfluramine, dexfenfluramine, sibutramine
+- **Minor:** several proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole, dexlansoprazole), H2 blockers (famotidine, ranitidine, cimetidine, nizatidine) and bupropion
+
+**Bleeding risk:** In a chronic, non-life-threatening condition such as migraine, the bleeding risk of prasugrel is a significant consideration, particularly given the stroke and intracranial haemorrhage signals above.
+
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-The mechanistic link between prasugrel and pulmonary hypertension is theoretical, and the available clinical trials and literature (relevance grade C) do not directly evaluate prasugrel in this indication. Combined with a blocking safety data gap and the absence of UK marketing authorisation records, the evidence base is insufficient to progress beyond hypothesis stage (S1).
+The evidence for migraine is limited to a small retrospective review, a pilot study of a different P2Y12 inhibitor, and trials that do not clearly test prasugrel. Prasugrel carries a notable bleeding risk, which is hard to justify in a non-life-threatening condition without stronger evidence. Other predicted indications (for example pulmonary hypertension, rheumatoid arthritis, leprosy) have only model predictions with no direct supporting evidence.
 
 **To proceed, the following is needed:**
-- SmPC-level warnings, contraindications, and drug interaction data (resolve DG001)
-- Confirmed mechanism of action documentation specific to prasugrel (resolve DG002)
-- Clinical trials or observational studies directly evaluating prasugrel (or thienopyridine-class agents) in pulmonary hypertension, particularly CTEPH populations
-- Clarification of current UK marketing authorisation status for prasugrel
+- Confirmation of whether prasugrel is the intervention in NCT07629635
+- A randomised, controlled trial of prasugrel in migraine with PFO, with a defined bleeding-risk assessment and monitoring plan
+- Mechanism of action data and full MHRA authorisation details (dosage form, indication, SmPC warnings)
+- A benefit-risk comparison against established migraine treatments and alternative antiplatelets
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

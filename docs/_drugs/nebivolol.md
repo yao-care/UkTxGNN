@@ -2,7 +2,7 @@
 layout: default
 title: Nebivolol
 parent: Model Prediction Only (L5)
-nav_order: 405
+nav_order: 436
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,76 +33,77 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-> Nebivolol is a highly selective β1-blocker with additional nitric oxide (NO)-mediated vasodilatory properties, originally used to treat hypertension.
-> The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
-> but this direction is currently supported by **no registered clinical trials** and **no published literature** — the prediction rests on mechanistic extrapolation alone.
-
----
+Nebivolol is a beta-blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but there are currently **no clinical trials** and **no directly relevant publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (inferred from repurposing rationale; no formal indication text available) |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 (mechanism/preclinical reasoning only; no clinical or trial evidence) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for nebivolol is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on the repurposing rationale supplied alongside the prediction, nebivolol is described as a highly selective β1-adrenergic receptor antagonist that additionally promotes vasodilation via endothelial nitric oxide release — distinguishing it pharmacologically from older, non-selective beta-blockers.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nebivolol is a highly selective beta-1 blocker that also promotes nitric oxide-mediated vasodilation. Its efficacy in hypertension is established, and it may mechanistically lower blood pressure in hypertensive renal disease.
 
-The predicted indication, malignant hypertensive renal disease, is mechanistically continuous with nebivolol's established use in hypertension: both involve blood pressure control as the central therapeutic goal, and the disease represents a severe renal manifestation of poorly controlled hypertension rather than a distinct pathological target. However, malignant hypertension is a hypertensive emergency typically managed acutely with intravenous agents (e.g. labetalol, nicardipine); oral agents such as nebivolol would, at most, play a role in subsequent maintenance therapy rather than acute management. This means the prediction reflects a disease-subtype extension within the same pharmacological pathway, rather than a genuinely novel mechanism of action being repurposed.
+The high TxGNN score (99.42%) most likely reflects the close relationship between this condition and nebivolol's existing hypertension indication, rather than independent clinical evidence. Malignant hypertension with renal involvement is an acute emergency that is usually managed with intravenous agents, so oral nebivolol has no established role.
 
-No clinical trials or published literature currently support this specific application, and the evidence pack does not provide comparator data (e.g. against ACE inhibitors, which have stronger evidence in hypertensive renal disease). The prediction should therefore be regarded as a research hypothesis requiring dedicated investigation rather than an actionable clinical signal.
-
----
+Other predictions with the same evidence level (L5, no trials or literature) include:
+- **Malignant renovascular hypertension** (score 99.42%): beta-1 blockade reduces renin release, which is theoretically relevant.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.39%): beta-blockers are generally used cautiously in pulmonary arterial hypertension because of concerns about right ventricular function.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.39%): the 12 publications retrieved are mostly preclinical organ-protection studies and do not assess pulmonary hypertension outcomes. The eNOS/Hif1α signalling findings offer only a weak mechanistic hint.
+- **Braddock syndrome** (score 99.14%): no clear mechanistic rationale can be derived from the available data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for the top predicted indication (malignant hypertensive renal disease).
 
 ## UK Market Information
 
-Nebivolol currently holds no marketing authorisation captured in this evidence pack, and market status is recorded as **not marketed**. No product licences, dosage forms, or approved indication text are available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0204000ABAAABAB | Nebivolol Tablets 2.5 mg | Tablet | Not stated in the data compiled |
 
----
+The data compiled for this report list one valid single-ingredient authorisation. Please check the current MHRA record, the SmPC and the BNF for the full licensed indications and the product's formal authorisation number.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication-related conditions (knowledge graph, not label text)**: liver failure, liver disease, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, peripheral vascular disease (including intermittent claudication and peripheral arterial disease), hypoglycaemia, atrioventricular block, bronchial disease, sick sinus syndrome (including familial form).
+- **Drug Interactions**: 100 interactions were identified, of which the 20 reviewed are mostly moderate. Examples:
+  - Epinephrine
+  - Bupropion
+  - Morphine
+  - Canagliflozin, dapagliflozin and chlorpropamide
+  - Systemic corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+  - Anticholinergics (atropine, hyoscyamine, glycopyrronium, dicyclomine)
+  - Minor interactions include acetylsalicylic acid and magnesium oxide.
 
-*Note: Key warnings, contraindications, and drug–drug interaction data for nebivolol were not available in this evidence pack (flagged as a Blocking-severity data gap, DG001). This gap must be resolved before any safety-related decision can be made.*
-
----
+Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by mechanistic reasoning (L4, S1 "Research Question" stage) with no clinical trials or literature specific to nebivolol in this indication, and a Blocking-severity safety data gap (missing warnings/contraindications) currently prevents even an initial safety screen. The drug is also not marketed in the UK, so there is no existing regulatory foothold to build on.
+The prediction is supported by model output only (L5). There are no clinical trials or relevant publications, and malignant hypertensive renal disease is an acute emergency normally treated with intravenous agents. The same applies to the other four predicted indications.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA SmPC warnings and contraindications to unblock safety screening (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- Dedicated literature/trial search specific to nebivolol in malignant hypertensive renal disease (current PubMed results for a related candidate were dominated by generic "hypoxia biology" papers unrelated to this drug, and should not be treated as supporting evidence)
-- Comparative evidence against standard-of-care agents (e.g. ACE inhibitors, IV antihypertensives) for this specific renal indication
-
-*Other candidates in this evidence pack (malignant renovascular hypertension, PH due to lung disease/hypoxia, PH with unclear mechanism, Braddock syndrome) were reviewed and are assessed as weaker or non-credible signals — largely mechanism-only extrapolations or likely knowledge-graph noise — and are not recommended for further action at this time.*
+- Mechanism of action data for nebivolol
+- Label-based warnings and contraindications from the SmPC and BNF, to allow safety screening
+- Clinical or observational evidence in malignant hypertensive renal disease or renovascular hypertension
+- Assessment of whether an oral beta-blocker has any plausible role in the acute setting
+- Confirmation of the licensed indication and authorisation details from the MHRA record
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

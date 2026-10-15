@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Model Prediction Only (L5)
-nav_order: 431
+nav_order: 464
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,71 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Orlistat is a pancreatic/gastric lipase inhibitor originally used for weight management in obesity, reducing dietary fat absorption. The TxGNN model predicts it may be relevant to **Hypervitaminosis**, but this is currently supported by **0 clinical trials** and **0 publications** — it is a model prediction only, with no direct clinical or mechanistic verification available in this evidence pack.
-
----
+Orlistat is a lipase inhibitor originally used to treat obesity, including monogenic obesity.
+The TxGNN model predicts it may be useful for **hypervitaminosis**,
+but there are currently **no registered clinical trials** and **no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity (weight management) — referenced only in the mechanistic rationale; no structured original-indication or UK licence data is currently available |
+| Original Indication | Obesity disorder; monogenic obesity (the UK authorisation record holds no indication text) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, structured mechanism-of-action data for Orlistat is not available in this evidence pack (data gap, High severity). However, the model's own rationale identifies Orlistat as a **pancreatic/gastric lipase inhibitor**, which blocks intestinal hydrolysis and absorption of dietary fat, thereby lowering calorie intake — the pharmacological basis of its established use in obesity/weight management.
+Detailed mechanism of action data is not included in the data compiled for this report. From general pharmacology, orlistat inhibits gastric and pancreatic lipases and reduces dietary fat absorption by about 30%.
 
-This same mechanism also reduces intestinal absorption of the fat-soluble vitamins (A, D, E, K), and it is well recognised clinically that Orlistat can cause fat-soluble vitamin **deficiency** as a side effect — the opposite direction to hypervitaminosis (vitamin **excess**, e.g. vitamin A toxicity). The predicted link to hypervitaminosis therefore relies on an inferential, reverse-direction hypothesis (using Orlistat's absorption-blocking property to lower excess fat-soluble vitamin levels), rather than on any direct clinical precedent captured in the evidence pack.
+Fat-soluble vitamins (A, D, E and K) are absorbed together with dietary fat. Orlistat is known to lower their absorption, and this is a recognised adverse effect in obesity treatment. The model's prediction may reflect this: in theory, reducing fat-soluble vitamin uptake could help in hypervitaminosis A or D.
 
-Given that the formal original-indication list and MOA fields are both empty/data-gapped, and the drug is not currently marketed in this jurisdiction, there is insufficient structured evidence in this pack to independently verify the mechanistic plausibility of this prediction beyond the model's own reasoning text.
-
----
+This reasoning has important limits:
+- The high TxGNN score is a computational prediction only and has not been tested clinically.
+- The proposed benefit is the reverse of a known drug-related harm, and its safety and efficacy in this setting are unproven.
+- Hypervitaminosis is usually managed by stopping the vitamin source, so the unmet need for a drug is unclear.
+- Orlistat could cause deficiency of other fat-soluble vitamins and steatorrhoea.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Orlistat currently holds no marketing authorisation on record in this dataset (0 licences; market status: Not marketed). No UK product, formulation, or licensed-indication data is therefore available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0405010P0AAAAAA (BNF-style product code; no PL number recorded) | Orlistat capsules 120 mg | Capsule (inferred from the product name) | Not recorded |
 
----
+BNF chapter 4.5 (obesity) is the usual classification for orlistat, and the record above corresponds to this code. The compiled data hold no indication text or NICE appraisal information for this product.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (these come from model graph edges, not from product label text): liver failure, primary hyperoxaluria, anorexia nervosa, bulimia nervosa, vitamin deficiency disorder, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, and drug-induced liver injury. The vitamin deficiency disorder signal is particularly relevant to the proposed use.
+- **Drug Interactions**: 100 interactions are recorded. Examples among those listed:
+  - Moderate: abacavir, lamivudine, emtricitabine, atazanavir, acarbose, albiglutide, alogliptin, canagliflozin, metformin, chlorpropamide, amiodarone, cannabidiol, asparaginase products, brentuximab vedotin, calaspargase pegol, clofarabine.
+  - Minor: cholecalciferol, calcifediol, calcitriol.
 
----
+Warnings and contraindications from the product label were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by TxGNN's model score (L5), with no clinical trials, no published literature, and no confirmed mechanism-of-action or safety data. The proposed mechanistic link to hypervitaminosis is directionally counterintuitive relative to Orlistat's well-known fat-soluble vitamin **deficiency** risk, and the drug is not currently marketed in this jurisdiction.
+The prediction has a high model score but no clinical or published support (evidence level L5). Its mechanistic basis is the inverse of a known adverse effect, and the clinical need is unclear because hypervitaminosis is normally managed by removing the vitamin source.
 
 **To proceed, the following is needed:**
-- SmPC/product labelling warnings and contraindications (currently a Blocking data gap — required before any S1 safety assessment)
-- Confirmed mechanism-of-action data from DrugBank or an equivalent authoritative source (High-severity data gap)
-- Independent literature or case evidence specifically addressing Orlistat's effect on hypervitaminosis (vitamin excess), not just its known deficiency-inducing effect
-- Clarification of Orlistat's formal original indication(s) via structured regulatory data, since the current record is empty
-- Reassessment of UK market/licensing status should marketing plans change
+- Product label (SmPC) warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data
+- Authorisation details (PL number, dosage form, approved indication) for the UK record
+- A literature review and trial search for orlistat in hypervitaminosis, including any case reports
+- A clinical rationale showing an unmet need beyond stopping the vitamin source, plus a safety assessment of fat-soluble vitamin depletion and interaction risks
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

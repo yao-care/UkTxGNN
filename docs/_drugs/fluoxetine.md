@@ -2,7 +2,7 @@
 layout: default
 title: Fluoxetine
 parent: Moderate Evidence (L3-L4)
-nav_order: 278
+nav_order: 297
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fluoxetine: From Depression to Schizoid Personality Disorder
+# Fluoxetine: From Major Depressive Disorder to Schizoid Personality Disorder
 
 ## One-Sentence Summary
 
-Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) widely known for the treatment of depression and related mood/anxiety disorders. The TxGNN model predicts it may be effective for **Schizoid Personality Disorder**, but this direction is currently supported only by **3 tangential publications** and **no registered clinical trials**, none of which directly studied the disorder as a primary treatment target.
+Fluoxetine is a selective serotonin reuptake inhibitor (SSRI), originally used for depression, anxiety-related conditions, obsessive-compulsive disorder and bulimia nervosa.
+The TxGNN model predicts it may be useful for **schizoid personality disorder**, but there are **no registered clinical trials** and only **2 loosely related publications** (one review, one depression cohort study), so the evidence is very weak.
 
 ---
 
@@ -41,23 +42,23 @@ Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) widely known for t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (no marketing licences or indication text on file — see UK Market Information below) |
-| Predicted New Indication | Schizoid Personality Disorder |
+| Original Indication | Depression and related mood disorders, anxiety disorder, obsessive-compulsive disorder, bulimia nervosa (no approved indication text is held for the UK authorisation) |
+| Predicted New Indication | Schizoid personality disorder |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack (Data Gap DG002). Based on general pharmacological knowledge, fluoxetine belongs to the SSRI class, acting by inhibiting neuronal reuptake of serotonin (5-HT) to increase synaptic serotonergic tone. Its efficacy in depressive and anxiety-spectrum conditions is well established in clinical practice, though the Evidence Pack itself contains no formal original-indication record or UK marketing authorisation for this compound.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Fluoxetine is an SSRI, and its efficacy in depression, anxiety and obsessive-compulsive disorder is established. Mechanistically, it may be applicable to schizoid personality disorder only indirectly.
 
-The predicted link to schizoid personality disorder is mechanistically weak. The rationale supplied with this candidate notes explicitly that there is no direct pharmacological argument connecting SSRIs to the core features of schizoid personality disorder (affective flatness, social withdrawal, reduced capacity for interpersonal attachment). SSRIs are only known to relieve **comorbid** depressive or anxiety symptoms that may co-occur with the disorder, rather than the disorder's core psychopathology itself.
+Serotonergic modulation might ease some features that accompany cluster A personality disorders, such as affective flattening, social withdrawal and comorbid depressive or anxiety symptoms. However, no direct evidence shows that fluoxetine improves the core features of schizoid personality disorder.
 
-Consistent with this, none of the three supporting publications studied fluoxetine (or SSRIs generally) as a primary treatment for schizoid personality disorder — they address personality traits in body dysmorphic disorder, a general review of pharmacotherapy in cluster A personality disorders, and predictors of depression outcome. The association identified by TxGNN should therefore be regarded as an indirect, network-level signal rather than a mechanistically grounded hypothesis.
+The model score is high, but it reflects a knowledge-graph association, not clinical proof. The one identified review of drug treatment in cluster A personality disorders is general in scope and does not establish a benefit for fluoxetine in this condition.
 
 ---
 
@@ -71,23 +72,30 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews pharmacological treatment options for cluster A personality disorders (paranoid, schizoid, schizotypal), noting patients tend to be isolative and that evidence for any specific drug class, including SSRIs, is limited. |
-| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | The American Journal of Psychiatry | Six-month outcome study of depressed patients under treatment, examining predictors of illness course; personality pathology was assessed but was not the primary treatment target. |
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohort | Comprehensive Psychiatry | Assessed personality traits and disorders (including schizoid traits) in patients with body dysmorphic disorder; some subjects had received fluvoxamine, not fluoxetine, for the primary disorder. |
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews drug treatment in cluster A personality disorders (paranoid, schizoid, schizotypal), which are marked by isolation and avoidance of relationships. |
+| [16390895](https://pubmed.ncbi.nlm.nih.gov/16390895/) | 2006 | Cohort | American Journal of Psychiatry | Course of illness and predictors of outcome over 6 months of depression treatment. Indirect relevance only, as it does not study schizoid personality disorder. |
 
 ---
 
 ## UK Market Information
 
-Fluoxetine is recorded as **not marketed** in this Evidence Pack, with **0** marketing authorisations on file. No product name, dosage form, or approved indication text is available to report.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0403030E0AAAAAA (as recorded; BNF-style code, not a PL number) | Fluoxetine HCl capsules 20 mg | Capsule | Not specified in the data compiled |
+
+One valid single-ingredient authorisation is recorded and none have been cancelled. The data do not include the PL number, manufacturer or indication wording, so check the current SmPC, the BNF antidepressant section and any relevant NICE guidance before drawing conclusions.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and cautions from the knowledge graph** (derived from drug-disease links, not label text): epilepsy, bipolar disorder, liver disease and liver failure, cirrhosis, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, neutropenia, agranulocytosis, blood coagulation disorders, stroke and cerebrovascular disorders, myocardial infarction, orthostatic hypotension, benign prostatic hyperplasia, and hyperlipidaemia. These should be confirmed against the SmPC.
+- **Drug interactions**: 100 interactions were recorded, of which 20 are listed in the data compiled.
+  - **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and cisapride.
+  - **Moderate** (examples): acetylsalicylic acid, clarithromycin, morphine, famotidine, loperamide and chlorpropamide.
+- **Signal from the literature**: a case report in a schizotypal patient (a related condition) described transient psychosis with polydipsia on fluoxetine. This is a very limited signal, but it is worth noting in a population prone to psychotic-spectrum symptoms.
 
-*(Note: key warnings, contraindications, and drug interaction data were flagged as a Blocking data gap (DG001 — TFDA/MHRA product label warnings and contraindications) and could not be retrieved for this evaluation.)*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,13 +104,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Evidence Level L4 reflects mechanism/preclinical-tier support at best — there are no clinical trials and only three publications, none of which studied fluoxetine as a treatment for schizoid personality disorder specifically. The repurposing rationale itself concludes the mechanistic link is indirect, relying only on relief of comorbid mood/anxiety symptoms rather than the disorder's core features.
+The prediction rests on a model score and a general mechanistic argument. No trials exist and the literature does not address the core features of schizoid personality disorder. Related cluster A and borderline conditions show only small, mostly open-label signals.
 
 **To proceed, the following is needed:**
-- Fluoxetine's mechanism of action data (DG002) to properly assess mechanistic plausibility
-- MHRA/SmPC-sourced warnings and contraindications (DG001, currently Blocking) before any safety evaluation can begin
-- Primary studies or trials assessing SSRI treatment specifically in schizoid personality disorder populations, rather than in comorbid or unrelated conditions
-- Confirmation of UK marketing status, given the Evidence Pack currently shows no licences for this product
+- Controlled clinical evidence of fluoxetine in schizoid personality disorder, or at least in cluster A personality disorders
+- Clear definition of the target outcome (core schizoid features versus comorbid depression or anxiety)
+- Detailed mechanism of action data
+- Authorisation details (PL number, indication wording) and the full SmPC safety information
+- A safety plan for patients with psychotic-spectrum symptoms and for those taking interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

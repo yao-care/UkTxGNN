@@ -2,7 +2,7 @@
 layout: default
 title: Terazosin
 parent: Model Prediction Only (L5)
-nav_order: 564
+nav_order: 606
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,8 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Terazosin is an alpha-1 adrenergic receptor antagonist classically used for conditions such as hypertension and benign prostatic hyperplasia (BPH); detailed original-indication and mechanism-of-action documentation for this evidence pack is currently a data gap.
-> The TxGNN model's top-ranked prediction is **Hypotrichosis Simplex of the Scalp**, but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a knowledge-graph score with no mechanistic or clinical corroboration.
+Terazosin is an alpha-1 adrenergic blocker, originally used to treat hypertension and benign prostatic hyperplasia.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, but there are **no clinical trials and no publications** supporting this top-ranked prediction. It is a graph-based prediction only.
+Among the other predicted indications, **Raynaud disease** and **migraine** have the most (though still limited and dated) supporting literature.
 
 ---
 
@@ -42,49 +43,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (drug-level MOA/indication data flagged as gaps — see DG001, DG002). Terazosin's well-established classical use as an alpha-1 blocker is hypertension and BPH. |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+| Original Indication | Hypertension; benign prostatic hyperplasia (from the knowledge graph, as no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the drug-level record of this evidence pack (data gap DG002). However, the repurposing rationale attached to every candidate indication consistently describes terazosin as an **alpha-1 adrenergic receptor antagonist**, acting mainly through vasodilation and relaxation of vascular/prostatic smooth muscle — consistent with its classical clinical role in hypertension and BPH.
+Currently, detailed mechanism of action data is not available. Based on known information, terazosin is a selective alpha-1 adrenergic antagonist. Its efficacy in hypertension and benign prostatic hyperplasia is established, and it acts by relaxing vascular and prostatic smooth muscle.
 
-For the top-ranked prediction, hypotrichosis simplex of the scalp, the evidence pack's own mechanistic assessment states there is **no known mechanistic link** between this condition and alpha-1 blockade: hypotrichosis simplex of the scalp is an autosomal hereditary disorder of hair follicle development, whereas terazosin's pharmacology operates on vascular and smooth-muscle tone. The rationale explicitly notes this is "a high-scoring TxGNN knowledge-graph prediction, without mechanistic support."
+For the top-ranked prediction, the only plausible link is that alpha-1 blockade causes vasodilation, which may change scalp microcirculation around hair follicles. However, hypotrichosis simplex is a genetic disorder of hair follicle development, so a vascular mechanism is unlikely to be disease-modifying. The high score is therefore best read as a graph-proximity signal rather than a mechanistic one.
 
-For context, the same evidence pack contains other candidate indications for terazosin with considerably stronger — though still limited — mechanistic and literature support, notably **Raynaud disease** (alpha-1 blockade directly addresses the peripheral vasospasm that is the core pathology) and **migraine prophylaxis** (explored clinically since the 1990s via modulation of intracranial vascular tone). These are not the top-ranked candidate by TxGNN score, but they carry stronger rationale and should be considered if this repurposing programme is prioritised by mechanistic plausibility rather than score alone.
+The other hair-related predictions (congenital hypotrichosis milia, diffuse alopecia areata, Ambras-type hypertrichosis) have the same weakness: they are genetic or autoimmune conditions with no established link to alpha-1 antagonism. Predictions with a more credible rationale are Raynaud disease (excess alpha-adrenergic vasoconstriction in digital vessels) and migraine (vascular tone and sympathetic activity). These are summarised below.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+There is no literature for the top-ranked prediction (hypotrichosis simplex of the scalp). The publications below relate to lower-ranked predictions and are shown for context.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [9273472](https://pubmed.ncbi.nlm.nih.gov/9273472/) | 1997 | Clinical study (design unverified) | Minerva Cardioangiol | Raynaud disease: terazosin reduced the number, intensity and duration of vasospastic attacks in idiopathic and secondary Raynaud's phenomenon, with improved thermographic and ultrasonographic findings |
+| [7911406](https://pubmed.ncbi.nlm.nih.gov/7911406/) | 1994 | Clinical study (design unverified) | Clin Ter | Migraine: open trial in 46 patients with migraine without aura, comparing terazosin, buflomedil and both for prophylaxis |
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review | Headache | Migraine: 10 patients given terazosin or doxazosin; most had fewer or milder migraines, but 5 stopped because of side effects |
+| [34779371](https://pubmed.ncbi.nlm.nih.gov/34779371/) | 2022 | Review | Curr Cardiol Rev | Alopecia: general review of extracardiac effects of cardiovascular drugs; indirect only, and terazosin has no demonstrated hair-growth effect |
 
 ---
 
 ## UK Market Information
 
-Terazosin does not currently hold a marketing authorisation in the UK, and no licence records are present in this evidence pack (0 licences on record).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205040V0AAABAB | Terazosin HCl Tab 2mg | Not stated | Not stated |
+
+One single-ingredient authorisation is recorded as valid. Indication text and dosage form are not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and risk conditions (from the knowledge graph, not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, priapism, and intraoperative floppy iris syndrome.
+- **Drug Interactions:** 100 interactions were identified. The main moderate-level ones include:
+  - corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - opioids (morphine, liposomal morphine, opium)
+  - cannabinoids (dronabinol, nabilone)
+  - bupropion
 
-*Note: Drug-level safety documentation (key warnings, contraindications) and formal DDI data were not retrievable at the time of this evidence pack and are flagged as a blocking data gap (DG001) requiring resolution before any safety-relevant decision can be made.*
+  Several others (calcitriol, pantoprazole, glimepiride) are of unknown severity.
+- For Raynaud disease in particular, hypotension and orthostasis remain concerns.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -93,13 +114,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (hypotrichosis simplex of the scalp) has no supporting clinical trials, no supporting literature, and no plausible mechanistic link according to the evidence pack's own assessment — this places it at Evidence Level L5 (model prediction only), which does not support advancement.
+The top-ranked prediction is supported only by a graph-based score, with no trials or publications and a weak mechanistic rationale for a genetic hair-follicle disorder. The hair-related predictions as a group lack plausibility. The more credible directions are Raynaud disease and migraine, but their evidence is small, dated and of unverified design, so they are better treated as research questions.
 
 **To proceed, the following is needed:**
-- Resolution of blocking data gap DG001 (UK/MHRA-equivalent product labelling: warnings, contraindications, DDI)
-- Resolution of high-severity data gap DG002 (confirmed mechanism of action from an authoritative source such as DrugBank)
-- Documentation of terazosin's approved original indication(s) for this evidence pack
-- If pursuing repurposing further, consider re-scoping toward the higher-rationale candidates in this same batch (Raynaud disease, evidence level L3; migraine prophylaxis, evidence level L3) rather than the top TxGNN-score candidate, given their stronger mechanistic and historical clinical support
+- Mechanism of action data and UK label warnings and contraindications (currently missing, and they block formal safety screening)
+- Approved indication text and dosage form for the UK authorisation
+- For Raynaud disease or migraine: appraisal of the original studies' design and size, followed by a controlled trial with blood pressure and orthostasis monitoring
+- For hair disorders: preclinical or mechanistic evidence before any clinical work
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Chenodeoxycholic Acid
 parent: Moderate Evidence (L3-L4)
-nav_order: 148
+nav_order: 153
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,80 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Chenodeoxycholic Acid: From Cerebrotendinous Xanthomatosis to Homozygous Familial Hypercholesterolaemia
+# Chenodeoxycholic Acid: From Gallstones (Cholelithiasis) to Homozygous Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Chenodeoxycholic acid (CDCA) is a primary bile acid used in the treatment of cerebrotendinous xanthomatosis (CTX), a rare inherited disorder of bile acid synthesis. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolaemia (HoFH)**, with **0 clinical trials** and **1 publication** currently supporting this direction — evidence is confined to a single narrative review of a related lipid disorder, and the mechanistic link to HoFH remains indirect.
-
----
+Chenodeoxycholic acid (CDCA) is a bile acid originally used to treat gallstones (cholelithiasis).
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia (HoFH)**,
+but there are currently **no registered clinical trials** and only **1 indirect publication** (a review of a related bile acid disorder) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Cerebrotendinous xanthomatosis (CTX) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolaemia (HoFH) |
+|------|------|
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones) |
+| Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L4 |
-| UK Market Status | Not currently marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, CDCA is a primary bile acid that suppresses bile acid synthesis through negative feedback (including FXR signalling) and has an established role in gallstone dissolution. It is also used in cerebrotendinous xanthomatosis (CTX), a bile acid synthesis disorder with disturbed cholesterol and cholestanol metabolism.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established biochemistry, CDCA is a primary bile acid and a weak agonist of the Farnesoid X receptor (FXR). FXR activation upregulates the biliary cholesterol efflux transporters ABCG5 and ABCG8, theoretically increasing cholesterol secretion into bile and reducing systemic cholesterol burden. This represents an indirect but biologically coherent connection to disorders of cholesterol metabolism.
+The only supporting publication is a review of CTX, not of HoFH. A plausible indirect link exists through cholesterol and bile acid homeostasis, and the high TxGNN score probably reflects the network proximity of CTX and HoFH as lipid metabolism disorders.
 
-The knowledge graph model's prediction likely derives from an ontological pathway linking CTX to lipid metabolism, and from there to HoFH. This is plausible at the disease taxonomy level: CTX (the established indication for CDCA) presents with a hypercholesterolaemia phenotype driven by defective bile acid synthesis via CYP27A1 mutations, accumulating cholestanol in tissues. Both CTX and HoFH involve dysfunctional cholesterol handling, providing an apparent biological neighbourhood in the graph.
+However, HoFH is caused by LDL receptor dysfunction, and suppressing bile acid synthesis is not a validated way to lower LDL-C in this condition. CDCA can raise LDL-C in some patients. The mechanistic case is therefore weak, and the prediction rests largely on model output.
 
-However, the mechanistic disconnect is significant and must be clearly stated. The defining pathology of HoFH is loss-of-function mutation in the LDL receptor (LDLR), resulting in severely impaired clearance of LDL-cholesterol from the circulation. CDCA does not act on the LDLR pathway. Its bile acid–FXR mechanism addresses cholesterol excretion at the level of the biliary canaliculus, not receptor-mediated hepatic LDL uptake. The TxGNN prediction most likely reflects shared metabolic ontology rather than direct pharmacological relevance, and should be interpreted with caution.
-
----
+Other predicted indications (brain small vessel disease 1, an autosomal dominant familial haematuria syndrome, obsolete familial combined hyperlipidaemia, and obsolete hyperuricaemia) have no clinical trials or literature and no identifiable mechanistic rationale. All are also rated Hold.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Chenodeoxycholic acid in homozygous familial hypercholesterolaemia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Narrative Review | *Orphanet Journal of Rare Diseases* | Comprehensive review of CTX pathogenesis (CYP27A1 mutation, cholestanol accumulation, hypercholesterolaemia phenotype) and CDCA's established role as the standard treatment. Not a direct study of CDCA in HoFH; relevance is mechanistic and contextual only. |
-
----
+|------|-----|------|------|---------|
+| [25424010](https://pubmed.ncbi.nlm.nih.gov/25424010/) | 2014 | Review | Orphanet J Rare Dis | Comprehensive review of cerebrotendinous xanthomatosis (CYP27A1 mutation, reduced bile acid synthesis, cholestanol accumulation). It concerns CTX, not HoFH, so it is only indirect evidence. |
 
 ## UK Market Information
 
-No marketing authorisations for Chenodeoxycholic acid are currently recorded in this dataset for the United Kingdom, and the drug does not hold an active MHRA licence according to the data available at the time of this report.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0109010G0AAABAB | Chenodeoxycholic Acid Capsules 250 mg | Not specified | Not specified in the data compiled for this report |
 
-> **Note for clinicians:** Healthcare professionals should independently verify current MHRA and NICE guidance. CDCA formulations used in the management of CTX (e.g., as an orphan medicinal product) may be available in the UK through named-patient supply, Specials, or hospital exemption arrangements, and the authorisation landscape for orphan drugs can change. Please consult the MHRA product database and BNF/BNFc for the most up-to-date licensing position.
-
----
+The identifier shown is a BNF-style product code (BNF chapter 1, gastrointestinal system, biliary and pancreatic disorders), not a standard MHRA PL number. It should be checked against the MHRA register.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme at [https://yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).
+- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, diarrhoeal disease, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, sclerosing cholangitis, primary biliary cholangitis, Reynolds syndrome.
+- **Drug Interactions**: 56 interactions were identified, all of those listed being of Moderate severity. Main examples:
+  - Bile acid sequestrants (cholestyramine, colestipol, colesevelam) and aluminium hydroxide, which may reduce absorption
+  - Oestrogens (ethinylestradiol, estradiol, conjugated oestrogens)
+  - Lipid-lowering agents (fenofibrate, gemfibrozil, clofibrate, ezetimibe)
+  - Asparaginase products (including calaspargase pegol), brentuximab vedotin, clofarabine, cannabidiol, bedaquiline and anisindione
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The core pathology of HoFH — loss of LDLR function — is mechanistically distinct from CDCA's bile acid–FXR pathway, and there are no clinical trials or direct efficacy studies in this indication. The single supporting publication is a narrative review of CTX, a related but distinct disease; it does not provide direct evidence for CDCA in HoFH. At L4 evidence with no clinical data specific to HoFH, this candidate does not yet meet the threshold for further development without additional mechanistic justification.
+The prediction is supported only by an indirect review of a different disease (CTX), with no clinical trials. The proposed mechanism is not validated for HoFH, and CDCA may raise LDL-C. Evidence is insufficient to proceed.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action clarification:** Formal review of DrugBank and primary pharmacology literature to confirm whether CDCA has any direct or indirect action on LDLR expression, LDL-C clearance, or PCSK9 regulation
-- **MHRA SmPC and BNF review:** Confirm current UK licensing status, approved indications, and full safety profile (warnings, contraindications, drug interactions)
-- **Preclinical evidence:** In vitro studies in LDLR-deficient cell lines or HoFH animal models to assess whether CDCA produces any measurable LDL-lowering effect through an LDLR-independent mechanism
-- **Expert lipidology opinion:** Specialist input on the biological plausibility of a bile acid–based approach in HoFH, particularly given the availability of established LDL-lowering therapies (LDL apheresis, lomitapide, evinacumab, PCSK9 inhibitors)
-- **Systematic literature search:** Broader PubMed search covering CDCA + familial hypercholesterolaemia, bile acids + LDLR, and FXR agonists + LDL to identify any overlooked mechanistic or clinical evidence
+- Mechanism of action data for CDCA, and a clear mechanistic rationale for lowering LDL-C in HoFH
+- Preclinical or clinical data on CDCA's effects on LDL-C in HoFH, including the risk of LDL-C elevation
+- Label-based warnings and contraindications (SmPC/BNF) to replace the knowledge-graph associations, as well as the approved indication text and dosage form for the UK authorisation
+- Verification of the MHRA authorisation number
+- A review of the safety implications of the contraindicated liver and biliary conditions and the interaction profile before any new-use study
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

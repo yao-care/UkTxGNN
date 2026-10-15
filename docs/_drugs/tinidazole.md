@@ -2,7 +2,7 @@
 layout: default
 title: Tinidazole
 parent: Model Prediction Only (L5)
-nav_order: 576
+nav_order: 618
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tinidazole: From Protozoal and Anaerobic Infections to Postmenopausal Atrophic Vaginitis
+# Tinidazole: From Giardiasis and Vaginal Infections to Postmenopausal Atrophic Vaginitis
 
 ## One-Sentence Summary
 
-Tinidazole is a nitroimidazole antimicrobial internationally used for protozoal and anaerobic bacterial infections (e.g. trichomoniasis, giardiasis, amoebiasis); it currently holds no marketing authorisation in the UK dataset reviewed here. The TxGNN model predicts a possible role in **postmenopausal atrophic vaginitis**, but this specific link is currently supported by **zero clinical trials** and **zero publications**, and the underlying rationale itself flags the connection as biologically implausible.
+Tinidazole is a 5-nitroimidazole antimicrobial, originally used for giardiasis, bacterial vaginosis, trichomoniasis and amoebiasis.
+The TxGNN model predicts it may be effective for **postmenopausal atrophic vaginitis**, but **no clinical trials and no publications** currently support this specific prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Evidence Pack; internationally recognised for protozoal infections (trichomoniasis, giardiasis, amoebiasis) and anaerobic bacterial infections |
-| Predicted New Indication | Postmenopausal Atrophic Vaginitis |
+| Original Indication | Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK licence record contains no indication text) |
+| Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Tinidazole is not available. Based on general pharmacological knowledge, Tinidazole belongs to the 5-nitroimidazole class, which acts by disrupting DNA synthesis in anaerobic bacteria and protozoa (a mechanism analogous to metronidazole). Its established efficacy is in infections such as trichomoniasis, giardiasis and amoebiasis, and it is not known to have any hormonal or anti-inflammatory activity.
+Detailed mechanism of action data is not available. Based on known information, tinidazole is a 5-nitroimidazole antimicrobial with established activity against protozoa and anaerobic bacteria, and its efficacy in vaginal infections such as bacterial vaginosis and trichomoniasis is recognised.
 
-Postmenopausal atrophic vaginitis, by contrast, is caused by oestrogen deficiency leading to vaginal mucosal thinning — it is a non-infectious, hormone-driven condition. There is no known pharmacological pathway by which an antiprotozoal/antianaerobic agent would address this pathology.
+The prediction most likely reflects overlap with these approved vaginitis indications in the knowledge graph. Atrophic vaginitis, however, is caused by oestrogen deficiency after the menopause, not by infection. An antimicrobial mechanism therefore has no clear rationale here, and the high score should be read as a likely knowledge-graph artefact rather than a biologically grounded signal.
 
-The Evidence Pack's own repurposing rationale for this candidate explicitly notes that the predicted link most likely reflects a shared anatomical node ("vagina") within the knowledge graph rather than a genuine mechanistic relationship, and states there is "no direct connection" and "a lack of biological plausibility." This should be treated as a low-confidence, graph-proximity artefact rather than a genuine repurposing signal.
+Other predictions in the same list (for example vulvar ulceration, vulvar neoplasm and benign breast conditions) also lack a credible mechanism or supporting evidence. A plausible link exists only for ulceration of an infectious or anaerobe-associated origin.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for postmenopausal atrophic vaginitis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for postmenopausal atrophic vaginitis.
+
+Some literature was retrieved for the fifth-ranked prediction (AIDS). It concerns tinidazole's approved antiprotozoal uses (for example trichomoniasis and amoebiasis) in people with or at risk of HIV. It does not show that tinidazole treats HIV or AIDS, and it is not evidence for the predicted indication above.
+
+---
 
 ## UK Market Information
 
-No marketing authorisation is currently on record for Tinidazole in the UK regulatory data reviewed for this Evidence Pack (0 licences; market status: not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501110G0AAABAB | Tinidazole tablets 500 mg | Tablet (not specified in the record) | Not specified in the record |
+
+The record lists one valid single-ingredient authorisation. Dosage form, manufacturer and indication text are missing, so the MHRA and BNF entries should be checked directly.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (not label text): epilepsy, neutropenia, agranulocytosis, peripheral nervous system disease and peripheral neuropathy.
+- **Drug interactions**: 100 interactions were identified, and the entries reviewed were all rated Moderate. Examples include ethanol, paclitaxel, capecitabine, amiodarone, ethinylestradiol, estradiol, atorvastatin, bortezomib, levodopa and several barbiturates (amobarbital, butalbital). Many of these involve cytotoxic or oncology agents.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a numerically high TxGNN similarity score, this candidate has no supporting clinical trial or literature evidence, and the documented mechanistic rationale itself identifies the prediction as a likely knowledge-graph co-location artefact rather than a genuine pharmacological signal. Combined with the absence of any UK marketing authorisation for Tinidazole, this indication does not warrant further investment at this time.
+The prediction rests on model output alone (L5). There are no trials or publications, and the biology of oestrogen-deficiency vaginitis does not fit an antimicrobial. There is no case for repurposing tinidazole in this setting.
 
 **To proceed, the following is needed:**
-- Confirmation of Tinidazole's mechanism of action (MOA) from DrugBank or SmPC sources
-- A targeted literature/trial search specific to "tinidazole AND atrophic vaginitis" to rule out any signal missed by automated evidence collection
-- UK safety data (key warnings, contraindications, DDIs) from the MHRA-approved SmPC, as none is currently available
-- A regulatory pathway assessment, given Tinidazole currently has zero marketing authorisations in the UK
-
-**Additional observation (for prioritisation, not part of this candidate's evaluation):** Among the ten TxGNN-ranked indications in this Evidence Pack, rank 5 ("AIDS") has materially stronger support — one registered clinical trial (NCT03412071) and 17 literature records, largely relating to Tinidazole's established role in treating opportunistic protozoal co-infections (e.g. amoebiasis, trichomoniasis) in HIV/AIDS patients (evidence level L3, decision stage S1). If the team wishes to pursue a more evidence-backed repurposing direction for this drug, that candidate would be a more productive starting point for a separate evaluation.
+- A plausible mechanistic hypothesis, for example whether a secondary infection or dysbiosis is involved in atrophic vaginitis
+- Clinical or preclinical evidence in postmenopausal atrophic vaginitis, with comparison against established treatments such as vaginal oestrogen
+- Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK authorisation
+- A review of the neuropathy, neutropenia and epilepsy signals and of the alcohol interaction
+- Route compatibility assessment (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

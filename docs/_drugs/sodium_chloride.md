@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Chloride
 parent: Model Prediction Only (L5)
-nav_order: 533
+nav_order: 571
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Chloride: From Established Clinical Use to Breast Fibrocystic Disease
+# Sodium Chloride: From an Unspecified Original Indication to Breast Fibrocystic Disease
 
 ## One-Sentence Summary
 
-> Sodium chloride is a widely used isotonic agent, but this evidence pack contains no documented original indication or marketing authorisation data for it in this jurisdiction.
-> The TxGNN model predicts it may be effective for **Breast Fibrocystic Disease**,
-> but this is supported by only **1 clinical trial** (a diagnostic imaging study, not a treatment trial) and **7 publications** (mostly basic-science biochemistry of cyst fluid).
-> Evidence quality is very low and does not currently support this signal.
-
----
+Sodium chloride is a basic electrolyte, available in the UK as a 0.9% saline nebuliser solution. The data compiled for this report do not state an original approved indication.
+The TxGNN model predicts it may be effective for **breast fibrocystic disease**, but there are **no clinical trials** and **no supporting publications** for this indication, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no licences or indication text on file) |
-| Predicted New Indication | Breast Fibrocystic Disease |
+| Original Indication | Not stated in the available data |
+| Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 96.79% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for sodium chloride in this evidence pack, and no original indication is recorded either, so a direct mechanistic bridge between an established use and the predicted indication cannot be constructed from the data provided.
+Currently, detailed mechanism of action data is not available. Sodium chloride is a basic electrolyte, and no established mechanism links it to fibrocystic breast disease. The high TxGNN score is a graph-based prediction only and is most likely explained by network proximity to other benign breast conditions.
 
-The evidence pack's own rationale for this prediction is explicit that no mechanistic link exists: sodium chloride is an isotonic plasma component, and there is no evidence that it has a therapeutic effect on fibrocystic breast disease. The single associated clinical trial (NCT02887937) is a diagnostic contrast-enhanced ultrasound study evaluating whether biopsy is needed for cystic breast masses — it does not test sodium chloride as a treatment. The literature is dominated by basic-science biochemical analyses of breast cyst fluid composition (sodium/potassium/chloride ratios, protein content) rather than interventional treatment studies.
-
-Taken together, this is a model-generated signal (high TxGNN similarity score) without corroborating mechanistic, preclinical, or clinical treatment evidence. It should be treated as hypothesis-generating only.
-
----
+The same pattern applies to the other top-ranked predictions. The highest-ranked ones fall into two groups: benign breast conditions (fibrocystic disease, apocrine adenosis, blunt duct adenosis, benign mammary dysplasia, fat necrosis) and vulvar or vaginal conditions (vulvovaginitis, vulvitis, atrophic vaginitis, vulvar ulceration, vulvar neoplasm). For the vulvar and vaginal group, saline is used in practice only for general hygiene, irrigation or cleansing. That is supportive care and not a disease-specific treatment. This report therefore treats the predictions with caution.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02887937](https://clinicaltrials.gov/study/NCT02887937) | N/A | Completed | 135 | Evaluated contrast-enhanced ultrasound to assess whether cystic breast masses need biopsy. This is a diagnostic imaging study — it did not test sodium chloride as a treatment (relevance grade: C). |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [2015669](https://pubmed.ncbi.nlm.nih.gov/2015669/) | 1991 | Basic Science | Clinical Chemistry | Protein GCDFP-70 in breast cyst fluid identified as albumin; used to classify cyst types (not a treatment study) |
-| [2140797](https://pubmed.ncbi.nlm.nih.gov/2140797/) | 1990 | Basic Science | Eur J Surg Oncol | Breast cyst fluids classified by Na⁺/K⁺ ratio, chloride, glucose, pH and hormone content |
-| [9375824](https://pubmed.ncbi.nlm.nih.gov/9375824/) | 1997 | Basic Science | Nephron | Compared amino acid/electrolyte osmotic contributions in kidney cyst fluid vs breast cyst fluid |
-| [10797312](https://pubmed.ncbi.nlm.nih.gov/10797312/) | 2000 | Basic Science | Journal of Cellular Physiology | Intracellular pH regulation compared in non-malignant vs malignant breast cell lines |
-| [3369685](https://pubmed.ncbi.nlm.nih.gov/3369685/) | 1988 | Basic Science | Analytical Biochemistry | Collagen fractionation technique using alkaline potassium chloride in breast tissue samples |
-| [3232934](https://pubmed.ncbi.nlm.nih.gov/3232934/) | 1988 | Case Series | Annals of Plastic Surgery | Nine-year experience with saline-inflatable prostheses for breast reconstruction (device use, not disease treatment) |
-| [23073330](https://pubmed.ncbi.nlm.nih.gov/23073330/) | 2012 | Case Report | American Journal of Surgical Pathology | Rare NK/T-cell lymphoma reported in association with a saline breast implant |
+Currently no related literature available for breast fibrocystic disease.
 
----
+For completeness, the one publication linked to the second-ranked prediction (vulvovaginitis) is a 2021 case report (PMID [33860751](https://pubmed.ncbi.nlm.nih.gov/33860751/)) in the *International Journal of Clinical Pharmacology and Therapeutics*. It describes an adverse reaction to a terconazole vaginal suppository and does not show any therapeutic benefit of sodium chloride.
 
 ## UK Market Information
 
-No UK marketing authorisation records are available in this evidence pack. Market status is recorded as **Not marketed**, with 0 licences on file.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1202020L0BCAAAD | Saline Steri-Neb Neb Soln 0.9%/2.5ml Ud | Nebuliser solution | Not stated in the available data |
 
----
+The identifier above is as recorded in the data compiled for this report and is not in the standard PL number format. It appears to be a BNF-style classification code, so please verify it against the MHRA register.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (both rated Moderate):
+- Tolvaptan
+- Lithium carbonate
 
-*(Note: this evidence pack flags MHRA/SmPC warnings and contraindications for sodium chloride as an outstanding, blocking data gap — see Conclusion below.)*
-
----
+For other safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (breast fibrocystic disease) has no supporting mechanistic rationale, no treatment-focused clinical trials, and only basic-science literature on cyst fluid biochemistry. Combined with the absence of original indication, MOA, and UK regulatory/safety data, the evidence base is insufficient to justify progression at this time. (The other nine predicted indications in this evidence pack show similarly weak or absent evidence, mostly also scored Hold/L5.)
+The prediction rests only on the TxGNN model score. There are no clinical trials and no supporting literature, and no plausible mechanism links sodium chloride to fibrocystic breast disease. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC data: key warnings, contraindications and drug interactions (currently a blocking gap)
-- Confirmed mechanism of action data (e.g. via DrugBank)
-- Documented original/established indication(s) for sodium chloride in this jurisdiction
-- At least one interventional (not diagnostic or biochemical) study directly testing sodium chloride in breast fibrocystic disease before any further evaluation stage is considered
+- Mechanism of action data and a documented rationale linking sodium chloride to the predicted indication
+- The approved indication and dosage form for the UK product, checked against the MHRA record
+- Warnings and contraindications from the SmPC and BNF, as these are needed before any safety screening
+- Evidence from clinical studies in the predicted indication, including route-of-administration compatibility
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

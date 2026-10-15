@@ -2,7 +2,7 @@
 layout: default
 title: Efavirenz
 parent: Moderate Evidence (L3-L4)
-nav_order: 229
+nav_order: 245
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,79 +29,86 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Efavirenz: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Efavirenz: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) established for human HIV-1 infection. The TxGNN model's top-ranked prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)** — a veterinary, not human, condition — supported by **2 clinical trials** and **1 publication**, but neither trial actually studies efavirenz or FIV, and the supporting literature is graded as low relevance (Grade C). This candidate should be read as a low-confidence model artefact rather than a credible repurposing opportunity.
-
----
+Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI), originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary indication,
+but there are **no registered clinical trials** and only **1 in vitro/structural publication** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (antiretroviral therapy) — established from literature context in this pack; not confirmed via a structured regulatory field, as no UK/local licences are recorded |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome (a veterinary indication, not a human disease) |
+| Original Indication | HIV infectious disease; AIDS (the UK authorisation record contains no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, efavirenz is an NNRTI that binds directly to the HIV-1 reverse transcriptase enzyme, blocking viral replication; this is well documented across the literature entries returned for this drug (e.g. its use in the ATRIPLA combination and in RT-SHIV primate models), even though the structured `original_moa` field is empty here.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, efavirenz is an HIV-1 NNRTI. Its efficacy in HIV infection is established, and it works by binding directly to the viral reverse transcriptase enzyme.
 
-The TxGNN model's rank-1 prediction — Feline Acquired Immunodeficiency Syndrome — is mechanistically weak. FIV is caused by a lentivirus related to, but structurally distinct from, HIV-1. The single supporting publication (PMID 38031646) is a biochemical/structural comparison study concluding that NNRTIs developed against HIV-1 reverse transcriptase generally show **reduced cross-species activity** against FIV reverse transcriptase, precisely because the two enzymes are not sufficiently homologous. The two "supporting" clinical trials do not strengthen the case: both investigate dolutegravir (an integrase inhibitor, not efavirenz) in human HIV-1 populations, and were graded "C" for relevance due to drug and species mismatch.
+Feline immunodeficiency virus (FIV) is a related lentivirus that causes an AIDS-like syndrome in cats. This relationship is the likely reason for the very high TxGNN score. However, FIV reverse transcriptase differs structurally from HIV-1 reverse transcriptase, and NNRTIs are generally expected to have weak or no activity against it. The single available study (2023) compared NNRTIs, including efavirenz, against feline and human immunodeficiency viruses at the biochemical and structural level. Only its title and introductory text were available, so it is not possible to confirm whether efavirenz was active against FIV.
 
-**A note on the other candidates in this pack:** the rank-2 prediction, Simian Immunodeficiency Virus infection, has a considerably more direct mechanistic basis — efavirenz has been used experimentally in RT-SHIV macaque models where the SIV reverse transcriptase is replaced with the actual HIV-1 enzyme, so the drug's known pharmacology applies directly. It carries more literature (16 records) and a higher evidence level (L3, decision stage S1) than the rank-1 candidate, though it remains a non-human research model rather than a human clinical indication. The rank-3 candidate (a rare neurodevelopmental disorder) has no supporting trials or literature at all (L5, Hold) and no plausible mechanistic link. Taken together, none of the three top predictions currently support a human clinical repurposing pathway.
+The score reflects similarity to the known HIV indication and is not independent clinical support. This is also a veterinary indication, so it falls outside the scope of human drug repurposing.
 
----
+For completeness, the data also include two other predictions:
+- **Simian immunodeficiency virus infection** (score 99.80%, L4, Hold). Wild-type SIV is intrinsically resistant to NNRTIs. The animal studies use RT-SHIV, a chimeric virus carrying HIV-1 reverse transcriptase, in macaques. They show efavirenz-containing regimens suppress viral load in this model, which reflects the HIV-1 target rather than a distinct SIV indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.77%, L5, Hold). There is no clinical trial or literature support and no established mechanistic link.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Phase 2 | Completed | 208 | Dose-selection study for dolutegravir (GSK1349572) in ART-naïve human HIV-1 patients; does not involve efavirenz or FIV (relevance graded C) |
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Phase 3 | Completed | 844 | Compared dolutegravir plus abacavir/lamivudine against Atripla (which contains efavirenz) in human HIV-1 patients; efavirenz appears only as part of the comparator arm, not as the studied drug for this indication (relevance graded C) |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Cohort (biochemical/structural comparison) | Journal of Veterinary Science | Compared NNRTIs (nevirapine, efavirenz, rilpivirine) against feline and human immunodeficiency virus reverse transcriptase; found no effective treatment yet established for FIV and indicates limited cross-species NNRTI activity |
-
----
+| [38031646](https://pubmed.ncbi.nlm.nih.gov/38031646/) | 2023 | Biochemical/structural in vitro study | Journal of Veterinary Science | Compared nevirapine, efavirenz and rilpivirine against feline and human immunodeficiency virus reverse transcriptase to assess the potential of NNRTIs for treating FIV infection. No effective treatment currently exists for infected cats. Efavirenz-specific results could not be confirmed from the available text. |
 
 ## UK Market Information
 
-No UK marketing authorisations are currently recorded for this candidate (0 licences on file; market status: not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| BNF code 0503010D0AAADAD | Efavirenz tablets 600 mg | Tablet (as named in the record) | Not stated in the available record |
 
----
+The record is a single-ingredient product with valid status. The BNF classification code (section 5.3.1, HIV infection) corresponds to antiviral treatment of HIV. A formal MHRA marketing authorisation (PL) number was not provided.
+
+## Cytotoxicity
+
+Efavirenz is not an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from the knowledge graph, not label text):** The TxGNN knowledge graph links efavirenz with the following conditions. These should be checked against the SmPC:
+  - Liver: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, chronic hepatitis B and C virus infection
+  - Neurological and psychiatric: epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, delusional disorder, paranoid schizophrenia
+  - Renal and metabolic: kidney disease, Fanconi renotubular syndrome, lactic acidosis, hypertriglyceridemia, hypophosphatemia, osteomalacia, rickets, obesity disorders
+  - Other: gallbladder disease, pyoureter
+- **Drug Interactions:** 100 interactions were recorded. Those listed below are examples from the first 20 entries retrieved (sample, not a complete list).
+  - **Major:** dolasetron
+  - **Moderate:** acarbose, famotidine, rabeprazole, bupropion, aprepitant, clarithromycin, loperamide, pioglitazone, saxagliptin, minocycline, dronabinol, and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone)
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (FIV) is a veterinary indication with a mechanistically weak basis — the one supporting publication itself concludes that HIV-1-targeted NNRTIs have limited cross-species activity against FIV reverse transcriptase, and neither cited clinical trial actually studies efavirenz or FIV. There is no human clinical evidence pathway here, and the drug has no active UK marketing authorisation on file.
+The evidence is limited to a single in vitro/structural study with no clinical trials, and efavirenz is not expected to inhibit FIV reverse transcriptase effectively. The very high TxGNN score reflects similarity to the existing HIV indication rather than independent support. The proposed indication is also veterinary, outside the scope of human drug repurposing.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent label warnings and contraindications (currently a blocking data gap)
-- A confirmed mechanism-of-action record from DrugBank (currently a high-severity data gap)
-- If a human indication is to be pursued, re-evaluation should focus on the rank-2 candidate (SIV infection / RT-SHIV models), which has a more direct pharmacological rationale, though it would still require translation from a non-human primate research model to any human clinical hypothesis
-- Independent confirmation of efavirenz's original human indication and licensing status, since the structured regulatory fields in this pack are empty
+- Full text of the 2023 biochemical study to confirm efavirenz-specific activity against FIV reverse transcriptase
+- In vivo data in cats, if a veterinary pathway is being considered (this would be a separate regulatory route from human medicines)
+- Mechanism of action data (for example, from DrugBank)
+- Authorised indication text and the MHRA marketing authorisation number for the UK product
+- Full SmPC warnings and contraindications to complete the safety review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

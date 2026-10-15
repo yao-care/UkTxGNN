@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: High Evidence (L1-L2)
-nav_order: 617
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 660
+evidence_level: L5
 indication_count: 6
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Zidovudine: From HIV/AIDS Treatment to Prevention of Mother-to-Child HIV Transmission
+# Zidovudine: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Zidovudine (AZT, DrugBank DB00495) was the first antiretroviral drug ever approved, originally used to treat established HIV infection/AIDS in adults. The TxGNN model, together with decades of clinical research, supports its use for **prevention of mother-to-child (perinatal) HIV transmission**, with **9 clinical trials** and **10 publications** in this evidence pack directly supporting this direction. This candidate carries the strongest evidence level (L1) among six TxGNN predictions generated for this drug.
+Zidovudine is a nucleoside reverse transcriptase inhibitor originally used to treat HIV infection and AIDS in people.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary condition caused by feline retroviruses.
+There are **no registered clinical trials** and **19 publications** for this prediction, all animal or veterinary studies. There is no human evidence for this indication.
 
 ---
 
@@ -41,54 +43,29 @@ Zidovudine (AZT, DrugBank DB00495) was the first antiretroviral drug ever approv
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS (established antiretroviral therapy) |
-| Predicted New Indication | Congenital HIV infection — prevention of mother-to-child (perinatal) transmission |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed *(per current dataset — see UK Market Information)* |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | HIV infection; AIDS (the marketing authorisation record holds no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L4 (preclinical and veterinary studies only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) that directly and competitively inhibits HIV reverse transcriptase, blocking viral replication. This is a well-established, clinically validated mechanism — zidovudine was, historically, the very first antiretroviral agent approved for AIDS. The evidence pack's own mechanistic rationale further notes that, by inhibiting reverse transcriptase, zidovudine blocks maternal viral replication and crosses the placenta and breast milk, thereby reducing mother-to-child vertical transmission of HIV.
+Detailed mechanism of action data are not available in the data compiled for this report. Zidovudine is, however, a nucleoside reverse transcriptase inhibitor (NRTI). It is a prodrug that is phosphorylated inside cells and blocks the viral enzyme that copies retroviral RNA into DNA. Its efficacy in HIV infection and AIDS is established.
 
-The original indication — treatment of established HIV infection/AIDS in adults — and the predicted new indication — prevention of mother-to-child transmission — share the same core antiviral mechanism applied in a different clinical context. Rather than suppressing replication in an already-infected adult, zidovudine is used prophylactically in HIV-positive pregnant women and their newborns to interrupt transmission during pregnancy, labour, and breastfeeding.
+Feline immunodeficiency virus (FIV) is a lentivirus closely related to HIV, and its reverse transcriptase is similar. FIV infection in cats is widely used as an animal model of HIV. Zidovudine has therefore been tested in infected cats for decades, and the prediction fits the drug's known pharmacology.
 
-This extension is not speculative: it was formally established by the landmark ACTG 076 trial, which showed that a zidovudine regimen in pregnant women and their infants reduced perinatal HIV transmission by approximately two-thirds, and it went on to become the international standard-of-care prevention strategy (reflected in the 1994 US Public Health Service Task Force recommendations in this pack's literature evidence). Because reverse-transcriptase inhibition is not tissue- or population-specific, the mechanism validated in adult AIDS treatment is directly applicable across the maternal–fetal interface.
-
----
-
-## Other TxGNN Predictions Considered
-
-This candidate pack (`TW-DB00495-multi`) contains six TxGNN-predicted indications for zidovudine. For transparency, all are summarised below; only the indication above was selected as the primary, actionable candidate for this report.
-
-| Rank | Predicted Disease | TxGNN Score | Evidence Level | Recommendation | Note |
-|------|-------------------|-------------|-----------------|-----------------|------|
-| 1 | Feline acquired immunodeficiency syndrome | 99.96% | Not yet assessed | — | Veterinary disease model (cats); not a valid human indication despite the highest raw model score |
-| 2 | Simian immunodeficiency virus infection | 99.96% | L4 | Hold | Non-human primate model for HIV; supports pre-clinical mechanistic validity only |
-| 3 | Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 99.96% | L5 | Research Question | Speculative interferonopathy hypothesis (NRTI blocking retrotransposon reverse transcription); no clinical or trial evidence |
-| 4 | Obsolete familial combined hyperlipidaemia | 99.62% | L5 | Hold | Deprecated disease term; direction contradicts zidovudine's known dyslipidaemia/lipodystrophy toxicity — likely knowledge-graph noise |
-| 5 | AIDS related complex | 99.19% | L1 | Proceed with Guardrails | Essentially restates zidovudine's original licensed indication rather than a genuinely new use |
-| 6 | Congenital human immunodeficiency virus | 99.19% | L1 | Proceed with Guardrails | **Selected as the primary candidate in this report** |
+The prediction is not a new human use. It describes veterinary use in cats, and in the literature zidovudine in cats is mostly a research tool. Zidovudine is also known to cause blood toxicity in cats, which limits its practical value.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00386230](https://clinicaltrials.gov/study/NCT00386230) | Phase 3 | Completed | 1,554 | Short zidovudine regimen non-inferior to longer ACTG-076-like regimen for perinatal HIV prevention in Thailand |
-| [NCT00000751](https://clinicaltrials.gov/study/NCT00000751) | Phase 3 | Completed | 1,600 | HIVIG vs immune globulin combined with intrapartum/neonatal zidovudine for prevention of maternal–fetal HIV transmission |
-| [NCT00164736](https://clinicaltrials.gov/study/NCT00164736) | Phase 3 | Completed | 2,369 | Nutritional supplementation and antiretroviral interventions to prevent HIV transmission during breastfeeding |
-| [NCT01061151](https://clinicaltrials.gov/study/NCT01061151) | Phase 3 | Completed | 3,747 | PROMISE study — optimal antepartum, intrapartum, and postpartum antiretroviral strategies for prevention of mother-to-child transmission |
-| [NCT01511237](https://clinicaltrials.gov/study/NCT01511237) | Phase 3 | Completed | 379 | PHPT-5 — perinatal antiretroviral intensification to prevent mother-to-child transmission in Thai women with limited prior HAART |
-| [NCT00102960](https://clinicaltrials.gov/study/NCT00102960) | Phase 3 | Completed | 377 | Comparison of antiretroviral treatment strategies for infants infected with HIV at birth in a resource-poor setting |
-| [NCT03642704](https://clinicaltrials.gov/study/NCT03642704) | Phase 4 | Completed | 56 | Early diagnosis plus preventive antiretroviral treatment from birth for HIV-exposed newborns (Guinea) |
-| [NCT00197587](https://clinicaltrials.gov/study/NCT00197587) | N/A | Completed | 1,200 | Mashi study — prevention of milk-borne HIV-1C transmission in Botswana |
-| [NCT00001007](https://clinicaltrials.gov/study/NCT00001007) | Phase 1 | Completed | 18 | Safety and pharmacokinetics of intravenous and oral zidovudine in infants with perinatal HIV exposure |
+Currently no related clinical trials registered.
 
 ---
 
@@ -96,46 +73,53 @@ This candidate pack (`TW-DB00495-multi`) contains six TxGNN-predicted indication
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7913986](https://pubmed.ncbi.nlm.nih.gov/7913986/) | 1994 | Guideline | MMWR Recomm Rep | US Public Health Service Task Force recommendations for zidovudine to reduce perinatal HIV transmission, based on ACTG 076 (~two-thirds risk reduction) |
-| [33541012](https://pubmed.ncbi.nlm.nih.gov/33541012/) | 2021 | Systematic Review / Meta-analysis | Epidemiol Health | Assessed congenital anomaly risk in infants of HIV-positive mothers exposed to antiretroviral therapy |
-| [8879761](https://pubmed.ncbi.nlm.nih.gov/8879761/) | 1996 | Review | Clin Infect Dis | Progress report on prevention of perinatal HIV transmission two years after completion of ACTG 076 |
-| [28537936](https://pubmed.ncbi.nlm.nih.gov/28537936/) | 2017 | Cohort | AIDS | Zidovudine use in pregnancy — inconsistent evidence for increased overall, cardiac, and male genital malformations |
-| [12197800](https://pubmed.ncbi.nlm.nih.gov/12197800/) | 2002 | Cohort | Arch Pediatr Adolesc Med | Determinants of mother-to-infant HIV-1 transmission before and after introduction of zidovudine prophylaxis |
-| [26687320](https://pubmed.ncbi.nlm.nih.gov/26687320/) | 2016 | Registry Cohort | Eur J Obstet Gynecol Reprod Biol | Antiretroviral Pregnancy Registry data on prenatal zidovudine exposure and ventricular septal/congenital heart defect risk |
-| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/Non-case Study | Eur J Clin Pharmacol | European congenital anomaly registry analysis of antiretroviral drug exposure in pregnancy |
-| [9240849](https://pubmed.ncbi.nlm.nih.gov/9240849/) | 1997 | Cohort | Acta Paediatr Suppl | Timing of perinatal HIV infection and its interaction with the design of preventive/therapeutic interventions |
-| [8419601](https://pubmed.ncbi.nlm.nih.gov/8419601/) | 1993 | Clinical Study (Phase 1) | J Pediatr | Safety, tolerability, and pharmacokinetics of zidovudine in infants born to HIV-infected mothers |
-| [2126136](https://pubmed.ncbi.nlm.nih.gov/2126136/) | 1990 | Case Report | Pediatr Infect Dis J | Zidovudine treatment of an infant with congenital HIV infection |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Animal study | Arch Virol | In experimentally infected cats, zidovudine did not prevent infection but lowered plasma virus titres at 2 weeks. |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Animal study | J Acquir Immune Defic Syndr | Prophylactic zidovudine prevented early viraemia and lymphocyte decline but not primary infection. |
+| [7749786](https://pubmed.ncbi.nlm.nih.gov/7749786/) | 1995 | Animal study | J Acquir Immune Defic Syndr Hum Retrovirol | Early zidovudine prevented plasma antigenaemia and kept CD4 counts higher, but did not alter the spread of infection. |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinary clinical study | Viruses | Compared zidovudine alone and with interferon-α, lamivudine or valproic acid over one year in naturally infected cats, using viral load and CD4+/CD8+ ratios. |
+| [7495172](https://pubmed.ncbi.nlm.nih.gov/7495172/) | 1995 | Veterinary clinical study | Zentralbl Veterinarmed A | Long-term oral zidovudine (5 mg/kg three times daily) in sick FIV-positive cats was compared with symptomatic therapy. |
+| [1363008](https://pubmed.ncbi.nlm.nih.gov/1363008/) | 1992 | Veterinary clinical study | Vet Immunol Immunopathol | Assessed efficacy and side effects of zidovudine and PMEA in naturally infected, symptomatic FIV and FeLV cats. |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Veterinary follow-up | J Feline Med Surg | Followed cats on antiretroviral therapy, starting with zidovudine, for 5–6 years. |
+| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal study | Vet Immunol Immunopathol | In zidovudine-treated SCID-feline mice given FIV, provirus burden fell and humoral immune function improved. |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study | Antimicrob Agents Chemother | Interferon-α alone or with zidovudine was tested against zidovudine alone in presymptomatic FeLV-induced immunodeficiency. |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Animal toxicity study | Fundam Appl Toxicol | Evaluated zidovudine toxicity in FeLV-infected cats at 0–60 mg/kg/day. |
 
 ---
 
 ## UK Market Information
 
-According to the regulatory dataset used for this evaluation, zidovudine is currently recorded as **Not marketed** in the UK, with no active marketing authorisations identified (0 licences on file). This should be treated as a data gap rather than a confirmed regulatory status — the MHRA product database should be checked directly to confirm current UK licensing (e.g. under brand names such as Retrovir or generic zidovudine products) before this candidate progresses further.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010Y0AAABAB (a BNF-style product code, not a PL number) | Zidovudine Cap 250mg | Capsule (from product name) | Not recorded in the data compiled for this report |
+
+This is the only authorisation in the data compiled for this report. It is a single-ingredient product with valid status. The code suggests the BNF antiretroviral (HIV infection) section, which fits zidovudine's original use. The data do not record a licensed indication, manufacturer or NICE appraisal, so confirm these against the SmPC.
 
 ---
 
 ## Safety Considerations
 
-Formal UK-specific warnings, contraindications, and drug interaction data were not available in this evidence pack (flagged as a **blocking data gap, DG001**). Please refer to the SmPC and BNF for authoritative safety information, and report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication associations (knowledge-graph data, not label text):** liver failure, liver disease, kidney disease, pancreatitis, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), myopathy and other muscle diseases, myositis, dermatomyositis, lactic acidosis, fatty liver disease, hypertriglyceridaemia and gallbladder disease. Haematological and muscle toxicity are the main concerns. Check the SmPC for the formal contraindications.
+- **Drug interactions:** The interaction database lists 100 interacting drugs, and the data compiled for this report show 20. Most are moderate: amphotericin B products, corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), statins (rosuvastatin, simvastatin), naltrexone and orlistat. Cimetidine and clarithromycin are minor. The level for pantoprazole, omeprazole, morphine and metformin is unknown.
+- **Animal toxicity:** Zidovudine caused blood toxicity in FeLV-infected cats in the toxicity study above (PMID 2163339).
 
-For context, the literature gathered for this candidate consistently documents dose-dependent **haematological toxicity** (anaemia, granulocytopenia/neutropenia) as zidovudine's principal tolerability issue (e.g. Groopman 1990, PMID 2201071; Hewitt et al. 1993, PMID 8460920), and several studies have examined congenital malformation risk with in-utero exposure (e.g. Rough et al. 2017, PMID 28537936; Vannappagari et al. 2016, PMID 26687320) without establishing a consistent teratogenic signal.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions in people via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- The L1 evidence base — multiple completed Phase 3 RCTs including the landmark ACTG 076-derived and successor regimens (PHPT-5, PROMISE, Mashi) — firmly supports zidovudine's efficacy in preventing mother-to-child HIV transmission. However, a blocking data gap (missing MHRA-approved SmPC warnings/contraindications, DG001) and an unresolved discrepancy in current UK marketing-authorisation status prevent full safety sign-off at this stage.
+The prediction is mechanistically plausible, but the evidence is animal and veterinary only, with no registered trials. Cats are not a human indication, and zidovudine's blood toxicity in cats is a concern. The prediction does not support a UK human repurposing programme.
 
 **To proceed, the following is needed:**
-- Obtain and review the current MHRA SmPC for zidovudine (warnings, contraindications, pregnancy/lactation guidance) to close DG001
-- Verify actual current UK marketing-authorisation status against the MHRA product register (dataset currently shows 0 licences)
-- Populate a formal DrugBank-sourced mechanism-of-action record to close DG002
-- Cross-check proposed use against current BHIVA pregnancy guidelines for zidovudine-containing perinatal HIV prevention regimens
-- Treat the four lower-tier predictions in this pack (feline/simian immunodeficiency virus models, the ataxic-gait neurodevelopmental disorder hypothesis, and the "obsolete" hyperlipidaemia association) as non-actionable research signals only, not for progression
+- Mechanism of action data to confirm the mechanistic link
+- A clear decision on the intended setting. This is a veterinary or research-model use rather than a human indication, so any development would fall under veterinary regulation
+- Controlled veterinary efficacy and safety data, including dose and haematological toxicity monitoring
+- Approved indication text and SmPC safety information for the UK authorisation, because the licence record is incomplete
+
+Other predicted indications for zidovudine include AIDS-related complex and congenital HIV. These fall within its existing HIV use and are not true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

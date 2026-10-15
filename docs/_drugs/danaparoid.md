@@ -2,7 +2,7 @@
 layout: default
 title: Danaparoid
 parent: Model Prediction Only (L5)
-nav_order: 191
+nav_order: 203
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Danaparoid: From Anticoagulation (HIT) to Glanzmann Thrombasthenia
+# Danaparoid: From Anticoagulation to Glanzmann Thrombasthenia (Computational Prediction Only)
 
 ## One-Sentence Summary
 
-Danaparoid is a heparinoid anticoagulant conventionally used to manage heparin-induced thrombocytopenia (HIT), where its mechanism is Factor Xa/IIa inhibition to reduce clot formation. The TxGNN model's top prediction is **Glanzmann Thrombasthenia**, a congenital bleeding disorder — but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the drug's mechanism runs in the opposite direction to what the disease requires.
+Danaparoid is a heparinoid anticoagulant (a mixture of heparan sulfate, dermatan sulfate and chondroitin sulfate) with one marketing authorisation record in the data compiled for this report.
+The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, but **no clinical trials and no publications** support this, and the biological rationale points in the opposite direction (anticoagulation would be expected to worsen bleeding).
 
 ---
 
@@ -41,23 +42,31 @@ Danaparoid is a heparinoid anticoagulant conventionally used to manage heparin-i
 
 | Item | Content |
 |------|------|
-| Original Indication | Heparin-induced thrombocytopenia (HIT) / anticoagulation, based on known clinical use — no MHRA-approved indication text is present in this dataset |
-| Predicted New Indication | Glanzmann Thrombasthenia |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from official sources for this candidate (marked as a data gap). However, from known pharmacology, Danaparoid is a heparinoid that acts primarily via antithrombin-mediated inhibition of Factor Xa (with minor Factor IIa activity), reducing the blood's clotting capacity. It is clinically used for anticoagulation in patients with HIT.
+Detailed mechanism of action data is not available in the compiled data. From general pharmacology, danaparoid acts mainly through antithrombin-mediated inhibition of factor Xa, which reduces thrombin generation. It is used as an alternative anticoagulant in heparin-induced thrombocytopenia (HIT), an immune-mediated, prothrombotic condition.
 
-Glanzmann Thrombasthenia is a congenital bleeding disorder caused by a defect in the platelet GPIIb/IIIa receptor, which impairs platelet aggregation. Patients with this condition already have **reduced**, not excessive, clotting capacity. Administering an anticoagulant such as Danaparoid would not correct the underlying receptor defect and could plausibly **worsen bleeding risk** rather than treat the disease.
+Glanzmann thrombasthenia is a bleeding disorder caused by deficiency or dysfunction of platelet integrin αIIb/β3. Anticoagulation does not correct this defect and would plausibly increase bleeding risk. The high TxGNN score (0.9988) is most likely a network artefact arising from shared coagulation and platelet pathway nodes rather than a true therapeutic signal.
 
-This mismatch suggests the high TxGNN score most likely reflects a directional artefact in the knowledge graph — the model appears to be picking up "drug–platelet pathway" node proximity without distinguishing between a *pro-coagulant deficiency* (which needs pro-haemostatic treatment) and an *anticoagulant therapy* (which treats excessive clotting). The same pattern applies to the other five predicted indications in this evidence pack (primary platelet release disorder, pseudo-von Willebrand disease, collagen receptor defect bleeding diathesis, constitutional thrombocytopenia, and Scott syndrome) — all are congenital bleeding/platelet disorders where an anticoagulant is mechanistically contraindicated rather than therapeutic.
+The other five predictions follow the same pattern. All are platelet or bleeding disorders where an anticoagulant would act in the wrong direction:
+
+| Predicted Indication | TxGNN Score | Concern |
+|------|------|------|
+| Primary release disorder of platelets | 99.88% | Granule secretion/signalling defect; anticoagulation could aggravate bleeding |
+| Pseudo-von Willebrand disease | 99.83% | GPIbα gain-of-function; no known danaparoid action on the GPIbα–VWF axis |
+| Bleeding diathesis due to a collagen receptor defect | 99.30% | Impaired collagen response; no modulation of receptor signalling |
+| Haemorrhagic disorder due to constitutional thrombocytopenia | 99.30% | Inherited low platelet number/function; HIT use does not translate |
+| Scott syndrome | 99.28% | Already reduced thrombin generation; danaparoid would reduce it further |
 
 ---
 
@@ -75,15 +84,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Danaparoid is currently **not marketed** under this evidence pack's regulatory dataset, and no marketing authorisation record is available (0 licences on file). No product/dosage form information can be provided.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1314000H0AAAAAA | Heparinoid Crm 0.3% | Not stated | Not stated |
+
+Dosage form, manufacturer and approved indication are not recorded for this authorisation. The record appears to be a topical heparinoid cream, which is not the same as the injectable danaparoid used as an anticoagulant. The licence number format also does not follow the usual MHRA "PL" pattern, so the record should be verified against the MHRA register and the BNF before any conclusions are drawn.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** 100 interactions were identified in total. The sample reviewed included the following **Major** interactions, mostly with other agents that increase bleeding risk:
+  - Acetylsalicylic acid (aspirin)
+  - Ibuprofen
+  - Ketorolac
+  - Abciximab
+  - Alteplase
+  - Acalabrutinib
+  - Trastuzumab emtansine
+  - Deferasirox
+  - Ibritumomab tiuxetan
+  - Tositumomab (I-131)
+- **Moderate** interactions included celecoxib, topical diclofenac, aliskiren, amiloride, sugammadex, fenfluramine, sibutramine, and iodide I-123/I-131.
 
-*(Note: this evidence pack flags TFDA-equivalent labelled warnings/contraindications as a **Blocking** data gap (DG001) and mechanism-of-action detail as a **High** severity data gap (DG002) — neither is available for independent verification at this time.)*
+Because the predicted indications are all bleeding disorders, concurrent use with antiplatelet agents or NSAIDs would be of particular concern. Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -92,13 +116,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only — no clinical trials or literature identified for any of the 6 candidate indications), and the drug's known mechanism (anticoagulation) is directionally opposed to the therapeutic need in Glanzmann Thrombasthenia and the other candidate diseases (all bleeding/platelet-function disorders). There is a plausible risk of harm rather than benefit if pursued clinically.
+The predictions rest on model output alone (evidence level L5), with no trials or publications. The mechanism is contrary to the proposed indications, because an anticoagulant would be expected to increase bleeding in platelet-function disorders. This is a safety concern, not just an evidence gap.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking data gap (DG001): official labelled warnings/contraindications for Danaparoid
-- Resolution of the High-severity data gap (DG002): confirmed mechanism of action detail, to formally assess mechanistic plausibility
-- A mechanistic review of why TxGNN is scoring anticoagulants highly against congenital bleeding disorders, to determine whether this reflects a systematic direction-of-effect issue in the knowledge graph
-- Independent pharmacological or expert clinical review before this candidate is considered for any further evaluation stage
+- Confirmation of the UK licence record, including product, dosage form and approved indication
+- Mechanism of action data and SmPC/BNF safety information (warnings and contraindications)
+- A biological justification for any benefit in platelet disorders, ideally from preclinical or mechanistic studies
+- Review of whether other predicted indications with a more plausible link exist; the six candidates here are not recommended for further development
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

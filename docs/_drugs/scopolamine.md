@@ -2,7 +2,7 @@
 layout: default
 title: Scopolamine
 parent: Model Prediction Only (L5)
-nav_order: 525
+nav_order: 563
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,71 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Scopolamine: From Motion Sickness to Cauda Equina Syndrome
+# Scopolamine (Hyoscine): From Motion Sickness and Antimuscarinic Indications to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Scopolamine (hyoscine) is a naturally occurring antimuscarinic alkaloid with established clinical use in motion sickness prevention, pre-operative sedation, and nausea management.
-The TxGNN model predicts potential utility in **Cauda Equina Syndrome**, with a prediction score of 99.99%; however, there are currently **no registered clinical trials and no published literature** to support this repurposing direction.
-
----
+Scopolamine (hyoscine) is a non-selective muscarinic antagonist, originally used for motion sickness, peptic ulcer disease, irritable bowel syndrome and ophthalmic conditions such as cycloplegia and uveitis.
+The TxGNN model predicts it may be effective for **cauda equina syndrome** (the top-ranked of six predictions), but there are currently **no clinical trials and no publications** supporting this direction; the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No MHRA marketing authorisation records identified in this dataset |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Motion sickness, peptic ulcer disease, irritable bowel syndrome, allergic and vasomotor rhinitis, uveitis, cycloplegia and others (listed in the knowledge graph; the UK authorisation record has no indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not identified in dataset |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
----
+Other predictions in the same list, all at evidence level L5 with a Hold recommendation:
+
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 2 | Neurogenic bladder (term flagged obsolete in the ontology) | 99.98% |
+| 3 | Papillary conjunctivitis | 99.98% |
+| 4 | Atopic conjunctivitis | 99.80% |
+| 5 | Rosacea conjunctivitis | 99.40% |
+| 6 | Vernal conjunctivitis | 99.08% |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available for this assessment. Based on established pharmacology, Scopolamine is a competitive antagonist at muscarinic acetylcholine receptors — principally M1 and M3 subtypes — belonging to the belladonna alkaloid class. Its well-recognised clinical applications include prevention of motion sickness (transdermal patch), reduction of pre-operative secretions, and management of postoperative nausea and vomiting.
+Detailed mechanism of action data is not available for this drug. Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its efficacy in motion sickness and in smooth-muscle and secretory conditions is established, and mechanistically it may modulate autonomic function of the bladder and bowel.
 
-Cauda Equina Syndrome (CES) is a neurosurgical emergency arising from compression of the lumbosacral nerve roots within the spinal canal, for which urgent surgical decompression remains the definitive intervention. The TxGNN model's high prediction score most plausibly reflects an **indirect knowledge graph pathway**: CES frequently produces secondary neurogenic bladder dysfunction, and antimuscarinic agents — the pharmacological class to which scopolamine belongs — are used to suppress involuntary detrusor contractions, a common sequela of CES. The model appears to have identified a class-level association via the neurogenic bladder node rather than any direct mechanistic link to CES itself.
+For cauda equina syndrome, the link is theoretical only. The condition is a structural, compressive neurological emergency treated surgically. An antimuscarinic could at most address secondary symptoms such as detrusor overactivity, not the underlying disease. The high TxGNN score is therefore a network-based model prediction with no supporting trial or literature data.
 
-This connection concerns symptomatic management of a secondary complication, not disease modification of CES. More bladder-selective antimuscarinics — oxybutynin, tolterodine, and solifenacin — are already established first-line agents for neurogenic detrusor overactivity, offering superior receptor selectivity and a more favourable systemic side-effect profile compared to scopolamine. The biological plausibility for scopolamine as a targeted treatment directed at cauda equina syndrome is therefore considered **low**.
-
----
+Among the other predictions, **neurogenic bladder** has the most biologically plausible rationale: muscarinic antagonism reduces detrusor overactivity, the established mechanism of agents such as oxybutynin and tolterodine. However, scopolamine penetrates the central nervous system (sedation, confusion, cognitive effects), making it less suitable than peripherally selective agents. The conjunctivitis predictions (papillary, atopic, rosacea, vernal) have weak rationales. These conditions are driven by mechanical irritation, allergic/Th2 inflammation or meibomian gland dysfunction, not cholinergic signalling, and antimuscarinics may worsen dry eye. A cycloplegic effect might at most relieve ciliary spasm or photophobia symptomatically in vernal disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0406000A0AAADAD (as recorded in the compiled data; not a standard PL number) | Hyoscine skin patch 1 mg/72 hrs | Transdermal patch | Not recorded in the compiled data |
+
+Only one authorisation, a single-ingredient product, is recorded. Dosage form and indication text are not captured in the compiled record; please verify against the current MHRA record, SmPC and BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications / cautions flagged in the knowledge graph** (drug–disease edges, not label text; verify against the SmPC):
+- Cardiovascular and respiratory: hypertension, chronic obstructive pulmonary disease
+- Neurological and psychiatric: epilepsy, anxiety and neurotic disorders, dysthymic disorder, psychotic and schizophreniform disorders, schizoaffective disorder, mental disorder
+- Hepatic and renal: liver failure, liver disease, hepatic coma, kidney disease, pyoureter
+- Gastrointestinal and pancreatic: gastric ulcer, pancreatitis, gallbladder disease
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, porphyria (including inherited porphyria)
+- Haematological: thrombocytopenia, neutropenia, agranulocytosis
+- Ophthalmic and urological: open-angle glaucoma, benign prostatic hyperplasia
 
----
+**Drug Interactions:** 100 interactions were identified; most of those shown are Moderate, a few Minor. Main examples:
+- Other anticholinergic or antimuscarinic agents (additive effects): aclidinium, hyoscyamine, amitriptyline, amantadine, acetylcholine
+- Sedating antihistamines: chlorpheniramine, acrivastine, phenyltoloxamine
+- CNS depressants (additive sedation): opioids (fentanyl, alfentanil, codeine, dihydrocodeine, tramadol), ethanol
+- Others: botulinum toxin type A, phenylephrine, acebutolol, loperamide
+- Minor: acetaminophen, hydrochlorothiazide
+
+Label warnings and contraindications were not available in the compiled data. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trial or published literature evidence supports scopolamine for cauda equina syndrome, and the mechanistic rationale is indirect — the TxGNN prediction most likely reflects a knowledge graph association routed through neurogenic bladder rather than a direct therapeutic target in CES; established and more selective agents already address the implicated complication.
+All six predictions are supported only by the TxGNN model, with no clinical trials or publications. Mechanistic plausibility is weak for cauda equina syndrome and the conjunctivitis conditions, and modest for neurogenic bladder, where better-suited peripheral antimuscarinics already exist.
 
 **To proceed, the following is needed:**
-
-- Retrieve mechanism of action data from the DrugBank API to enable formal mechanistic plausibility assessment (data gap DG002, currently High severity)
-- Conduct a full MHRA product licence search to reconcile the dataset status: Scopoderm TTS (transdermal patch) and Kwells (oral tablets) are known UK-marketed scopolamine products; the current dataset records zero MHRA authorisations, which is likely a search gap rather than true market absence
-- Review published literature on anticholinergic use specifically in CES-associated neurogenic detrusor overactivity to determine whether any clinical signal exists for this drug in this context
-- Evaluate whether a bladder-selective antimuscarinic (rather than scopolamine) would constitute a more appropriate and differentiated repurposing candidate for neurogenic bladder as a CES complication
-- Assess clinical meaningfulness and competitive landscape versus current standard of care before committing to further evidence generation
+- Mechanism of action data (for example from DrugBank)
+- Label warnings and contraindications from the SmPC and BNF, which are required before any safety screening
+- A systematic literature and trial registry search, prioritising neurogenic bladder, to see whether any evidence exists
+- Complete MHRA authorisation details (dosage form, indication, PL number) and clarification of whether any non-patch formulation would suit the target route
+- For neurogenic bladder, a comparison against peripherally selective antimuscarinics, with attention to central nervous system adverse effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

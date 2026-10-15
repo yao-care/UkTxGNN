@@ -2,7 +2,7 @@
 layout: default
 title: Moxonidine
 parent: Model Prediction Only (L5)
-nav_order: 396
+nav_order: 426
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,70 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Moxonidine is a centrally acting antihypertensive (imidazoline I1-receptor agonist), understood from the evidence pack's own contextual notes to be indicated for essential hypertension, though this is not confirmed by a formal licence record. The TxGNN model's top-ranked prediction proposes possible relevance to **Hypotrichosis Simplex of the Scalp**, but this signal is currently supported by **no clinical trials** and **no literature**, and the evidence pack's own mechanistic review concludes there is no known biological link between the drug and this rare hair-follicle disorder.
-
----
+Moxonidine is a centrally acting antihypertensive, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
+but **no clinical trials and no relevant publications** currently support this direction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (essential hypertension) — inferred from supporting rationale text in the evidence pack; not confirmed by a formal licence record (see Data Gaps DG001/DG002) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+| Original Indication | Hypertension (the UK authorisation record has no approved indication text; hypertension is taken from the knowledge-graph indication data) |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for moxonidine is not available in this evidence pack (flagged as Data Gap DG002, High severity). Based on the contextual information provided across the evidence pack's own rationale entries, moxonidine is known to act as a centrally acting sympatholytic agent — an imidazoline I1-receptor agonist that reduces central sympathetic outflow and systemic vascular resistance — and is described elsewhere in this same dataset as an approved treatment for essential hypertension.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, moxonidine is an imidazoline I1 / alpha-2 adrenergic agonist that lowers sympathetic outflow, and it is used to lower blood pressure. Pharmacology records also list it as binding the alpha-2A, alpha-2B and alpha-2C adrenoceptors.
 
-For this specific predicted indication, however, the evidence pack's own repurposing rationale is explicit that **no plausible mechanistic connection exists**: hypotrichosis simplex of the scalp is a rare hereditary hair-follicle developmental disorder, and its pathophysiology has no known relationship to central sympathetic inhibition or blood-pressure regulation. No supporting clinical trials or literature were identified for this drug–disease pairing.
+The link between this mechanism and scalp hair loss is **speculative**. One could imagine a role for vascular or neurogenic modulation of the hair follicle, but nothing in the supplied data supports it. The high TxGNN score reflects proximity in a knowledge graph and should not be read as evidence of benefit.
 
-Taken together, this indicates the prediction is most likely a knowledge-graph embedding artefact (a statistical similarity signal) rather than a biologically grounded hypothesis. It is presented here because it is the model's highest-scoring candidate, but the score alone should not be read as evidence of efficacy.
+The other top-ranked predictions are also unsupported by clinical data:
 
----
+- **Other hair disorders** (congenital hypotrichosis milia, diffuse alopecia areata, alopecia): no trials. Alopecia areata is an immune-mediated condition with no established link to sympatholytic action.
+- **Hypertension-related conditions** (malignant hypertensive renal disease, malignant renovascular hypertension): these are mechanistically closer to the original indication, but they are hypertensive emergencies usually managed with rapid-acting parenteral agents. They are classed as research questions only.
+- **Pulmonary hypertension and other rare conditions** (pulmonary hypertension variants, Braddock syndrome, primary hereditary glaucoma): no supporting evidence. The scores for the pulmonary hypertension entries likely reflect the shared "hypertension" term. Glaucoma has a class-level rationale only, since other alpha-2 agonists lower intraocular pressure.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no relevant literature is available for hypotrichosis simplex of the scalp.
 
----
+For the related prediction "alopecia", one publication was retrieved: [40007390](https://pubmed.ncbi.nlm.nih.gov/40007390/) (2024, case report, Georgian Medical News), describing Graham-Little-Piccardi-Lasseur syndrome, a variant of lichen planopilaris. It does not appear to involve moxonidine and is likely a spurious retrieval, so it is not evidence of efficacy.
 
 ## UK Market Information
 
-Moxonidine currently holds no marketing authorisation in the UK (0 licences on record; market status: **not marketed**). No product, dosage form, or licensed indication details are available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205020M0AAAAAA | Moxonidine tablets 200 microgram | Not recorded | Not recorded |
 
----
+The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. The record contains no dosage form, manufacturer or approved indication text.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
----
+The only interaction data compiled are pharmacological target records (alpha-2A, alpha-2B and alpha-2C adrenoceptors). They are not drug-drug interactions, and no clinical interaction information is available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate sits at evidence level L5 (model prediction only) with no supporting clinical trials, no literature, and — per the evidence pack's own mechanistic assessment — no known biological rationale linking moxonidine to hypotrichosis simplex of the scalp. There is no basis to progress this specific pairing beyond the prediction stage.
+The prediction rests only on a model score, with no clinical trials or relevant publications, and the proposed mechanistic link to scalp hair biology is speculative. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for moxonidine from DrugBank/SmPC (currently Data Gap DG002)
-- Formal TFDA/MHRA labelling data, including warnings and contraindications (currently Data Gap DG001, Blocking)
-- Independent dermatological/genetic mechanistic assessment before any further investment in this specific indication
-- Note for prioritisation: other candidates in this batch — e.g. *malignant hypertensive renal disease* / *malignant renovascular hypertension* (L4, extension of the existing hypertension indication) and *primary hereditary glaucoma* (L4, class-effect rationale via imidazoline/α2-agonist pharmacology) — carry substantially stronger mechanistic plausibility and may warrant evaluation ahead of this top-ranked but mechanistically unsupported signal
+- Mechanism of action data (for example from DrugBank) and a credible hypothesis linking alpha-2 / I1-imidazoline signalling to hair follicle biology
+- Preclinical studies (for example follicle culture or animal models) to test the hypothesis
+- A systematic literature search to identify any moxonidine-specific hair or scalp data
+- The SmPC and BNF warnings and contraindications, which are currently missing, before any safety screening
+- Review of whether a systemic antihypertensive is appropriate for a non-life-threatening cosmetic or dermatological condition, including the route of administration (for example topical delivery)
+- If a hypertension-related prediction is of interest, a separate assessment of its clinical positioning against standard emergency treatments
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

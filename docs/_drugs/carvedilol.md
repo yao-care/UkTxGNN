@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Carvedilol
-parent: Moderate Evidence (L3-L4)
-nav_order: 133
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 137
+evidence_level: L5
 indication_count: 5
 ---
 
 # Carvedilol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Carvedilol: From Hypertension and Heart Failure to Malignant Renovascular Hypertension
+# Carvedilol: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Carvedilol is a non-selective beta- and alpha-1 adrenergic receptor antagonist, established in the management of hypertension, chronic heart failure, and angina pectoris.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension** (TxGNN score: 99.55%).
-However, **no dedicated clinical trials or direct literature** currently support this specific repurposing direction, placing the prediction at an early mechanistic hypothesis stage.
-
----
+Carvedilol is a beta-blocker with alpha-1 blocking activity, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but **no clinical trials and no publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension; chronic heart failure; angina pectoris |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (the approved indication text for the UK licence is not available) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.55% |
-| Evidence Level | L4 |
-| UK Market Status | No authorisation records in current dataset (verify via MHRA) |
-| Number of Marketing Authorisations | 0 (in current dataset) |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on established pharmacological knowledge, Carvedilol is a combined non-selective beta-adrenergic (β1 and β2) and alpha-1 adrenergic receptor antagonist, with additional antioxidant properties (reactive oxygen species scavenging). This dual receptor blockade distinguishes it from conventional beta-blockers and provides the mechanistic basis for the TxGNN prediction.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, carvedilol is a non-selective beta-blocker with additional alpha-1 blocking activity, and its efficacy in hypertension is established.
 
-In malignant renovascular hypertension, stenosis of a renal artery activates the juxtaglomerular apparatus and drives marked renin hypersecretion, resulting in an overactivated renin-angiotensin-aldosterone system (RAAS) and a severe, rapidly progressive hypertensive crisis with target organ damage. Carvedilol's alpha-1 blockade theoretically reduces renal afferent arteriolar resistance and systemic vascular resistance, whilst its beta-1 blockade suppresses juxtaglomerular renin release, thereby attenuating the underlying RAAS overactivation. Additionally, its antioxidant properties may reduce hypertension-induced renal oxidative stress injury. Notably, the second-ranked prediction — malignant hypertensive renal disease — carries an identical TxGNN score (99.55%), suggesting the model treats these two closely related conditions as overlapping nodes within the knowledge graph; both share the same mechanistic rationale.
+Malignant renovascular hypertension is a severe form of hypertension driven largely by activation of the renin-angiotensin system. Beta-blockade reduces renin release, which offers a plausible mechanism. Alpha-1 blockade adds vasodilation.
 
-It is important to note that malignant renovascular hypertension is a medical emergency, and current standard of care relies on intravenous antihypertensive agents (e.g., sodium nitroprusside, labetalol, nicardipine). No dedicated studies have examined the role of oral alpha/beta-blockers such as Carvedilol in this acute context. The TxGNN prediction therefore reflects mechanistic plausibility rather than demonstrated clinical benefit, and represents a hypothesis requiring dedicated investigation before any clinical translation.
+However, this is an extension of the existing hypertension indication rather than a truly novel repurposing. The high score is a computational prediction only. Malignant hypertension is usually managed acutely with intravenous agents, and oral carvedilol is not a standard choice in that setting.
 
----
+Other predictions in the data (for example malignant hypertensive renal disease, scoring 99.55%) follow the same pattern: high scores with no supporting clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
-> A search of ClinicalTrials.gov and the ICTRP for Carvedilol in malignant renovascular hypertension returned zero results (query date: 26 March 2026).
-
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for malignant renovascular hypertension.
 
-> A PubMed search combining Carvedilol with malignant renovascular hypertension returned zero results (query date: 26 March 2026). Twenty publications were retrieved for the related query "Carvedilol + pulmonary hypertension owing to lung disease/hypoxia" (the fourth-ranked predicted indication), but these addressed general hypoxia biology and were not directly relevant to the top predicted indication. No publications with confirmed relevance to the Carvedilol–malignant renovascular hypertension pair were identified.
-
----
+For context, the nearby prediction of pulmonary hypertension owing to lung disease and/or hypoxia (score 99.54%) has only indirect, mostly preclinical literature, such as [26291659](https://pubmed.ncbi.nlm.nih.gov/26291659/) (2015, rat study of carvedilol reversing hypertension induced by chronic intermittent hypoxia). It does not support the lead prediction.
 
 ## UK Market Information
 
-No MHRA marketing authorisation records for Carvedilol are present in the current Evidence Pack dataset (total licences recorded: 0).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 020400080AAABAB | Carvedilol Tablet 12.5 mg | Not stated | Not stated |
 
-> **Important:** Carvedilol is a well-established cardiovascular medicine in UK clinical practice (e.g., Eucardic®; multiple generic formulations hold MHRA authorisation). The absence of records in this dataset is likely a data collection gap rather than a true reflection of market status. Clinicians should verify authorised indications, the current SmPC, and prescribing information via the [MHRA product information portal](https://products.mhra.gov.uk/) and the BNF before any clinical use.
-
----
+The licence number is not in the standard MHRA PL format, and no dosage form or indication text was available. Please verify the authorisation against MHRA records and the BNF before relying on it.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from knowledge-graph drug-disease links, not label text):** liver failure; asthma (including intrinsic and allergic asthma); bronchitis; pulmonary emphysema and other bronchial disease; diabetes mellitus and diabetic ketoacidosis; hypotensive disorder; peripheral vascular disease (including intermittent claudication and peripheral arterial disease); atrioventricular block; sick sinus syndrome (including the familial form); Prinzmetal angina; anaphylaxis; intraoperative floppy iris syndrome.
+- **Drug Interactions:** 100 interactions were identified. Those shown include:
+  - **Major:** epinephrine.
+  - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), anticholinergics (atropine, hyoscyamine), bupropion, morphine, lorcaserin, canagliflozin, acetohexamide, and calcium salts (phosphate, acetate, carbonate, citrate).
+  - **Minor:** acetylsalicylic acid, aluminium hydroxide, attapulgite.
+- **Other considerations:** non-selective beta-blockade raises respiratory concerns in lung disease. Beta-blockers have also raised concerns in pulmonary hypertension because of possible right ventricular depression.
 
----
+Label-based warnings were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no direct clinical trial or literature evidence supporting Carvedilol specifically for malignant renovascular hypertension; the TxGNN prediction (99.55%) is driven by mechanistic plausibility via dual alpha-1/beta adrenergic blockade and RAAS suppression, but the acute, life-threatening nature of this condition — combined with the established intravenous standard of care — means an oral repurposing strategy cannot be advanced without dedicated prospective evidence.
+The prediction score is high, but there are no trials or publications for malignant renovascular hypertension, and it largely restates the existing hypertension indication. Oral carvedilol is not a standard option for this acute, severe condition.
 
 **To proceed, the following is needed:**
-- Formal MOA documentation retrieved from DrugBank or primary pharmacological literature to support the mechanistic rationale
-- Preclinical or translational studies examining Carvedilol in renovascular hypertension models (e.g., two-kidney, one-clip rat model)
-- Exploration of a potential chronic maintenance or secondary-prevention role (post-acute stabilisation phase), where oral agents may be more clinically feasible than in the acute emergency setting
-- Full safety assessment via the current MHRA SmPC: contraindications, key warnings, and drug–drug interactions
-- Confirmation of UK marketing authorisation status and currently approved indications via the MHRA portal to resolve the dataset gap
-- Evidence Pack refresh to populate MHRA licence records and SmPC-derived safety data before progression to formal repurposing evaluation
+- Mechanism of action data (for example from DrugBank)
+- SmPC and BNF warnings and contraindications, as safety screening cannot proceed without them
+- Confirmation of the UK marketing authorisation details (number, dosage form, approved indication)
+- A targeted literature search for beta-blockers in malignant or renovascular hypertension, and any relevant trial registrations (including ISRCTN and EU CTR)
+- Clarification of how this differs from the existing hypertension indication, and the clinical role of an oral agent in a setting usually managed with intravenous therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

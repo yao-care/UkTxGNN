@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tolfenamic Acid
-parent: High Evidence (L1-L2)
-nav_order: 584
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 626
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,76 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tolfenamic Acid: From General Pain and Inflammation to Headache Disorder (Migraine)
+# Tolfenamic Acid: From Migraine to Headache Disorder
 
 ## One-Sentence Summary
 
-No UK marketing authorisation or documented original indication is on record for tolfenamic acid in this evidence pack, though literature within the pack identifies it as a fenamate-class NSAID used for pain and inflammation. The TxGNN model predicts it may be effective for **Headache Disorder (Migraine)**, with **20 publications** — including several historical double-blind randomised controlled trials — currently supporting this direction, though no clinical trials are registered in modern trial databases.
+Tolfenamic acid is a fenamate NSAID (non-steroidal anti-inflammatory drug) that is already used in the UK for acute migraine.
+The TxGNN model predicts it may be effective for **headache disorder**, with **no registered clinical trials** but **20 publications** (mostly migraine studies from 1979 to 2004) supporting this direction.
+This prediction largely overlaps with the existing migraine use, so it is not a true repurposing finding.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available — no UK marketing authorisation on record. Literature within this pack describes tolfenamic acid as an anthranilic acid (fenamate) NSAID used for pain and inflammation. |
-| Predicted New Indication | Headache Disorder (Migraine) |
+|------|------|
+| Original Indication | Acute migraine (the licence record compiled for this report has no indication text; the migraine indication comes from pharmacology reference data) |
+| Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L1 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L1 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for tolfenamic acid is not currently available from DrugBank in this evidence pack. Based on information contained in the supporting literature, tolfenamic acid is a fenamate-class NSAID (anthranilic acid derivative) that inhibits both cyclooxygenase (prostaglandin synthesis) and lipoxygenase (leukotriene synthesis) pathways. This dual inhibition distinguishes it from purely COX-selective NSAIDs and has been proposed as the basis for its efficacy in migraine.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, tolfenamic acid is a potent inhibitor of prostaglandin biosynthesis through cyclooxygenase inhibition, and it has also been reported to affect leukotriene pathways. Prostaglandins sensitise nociceptors and are involved in vasodilatation, oedema and platelet aggregation, all of which are thought to contribute to migraine attacks. The pharmacology data also list AKR1C3 as a human target.
 
-Prostaglandins and leukotrienes are implicated in the pathophysiology of migraine through nociceptor sensitisation, hyperalgesia, vasodilation, and platelet-mediated serotonin release — mechanisms directly discussed in the earliest reviews within the literature evidence (e.g. Hansen 1994; Vapaatalo 1994). This provides a mechanistically coherent rationale for TxGNN's prediction linking an NSAID with anti-prostaglandin/anti-leukotriene activity to headache disorder, independent of the drug's original (undocumented) indication.
-
-Notably, tolfenamic acid already has a long-standing, well-documented history of clinical use specifically in migraine (predominantly in Scandinavian countries from the late 1970s through the 1990s), which strengthens confidence in the TxGNN prediction beyond a purely computational association.
+The predicted "headache disorder" is a broad category that includes migraine, where tolfenamic acid is already used. The randomised studies cited below support its use in both acute attacks and prophylaxis. Its relevance to other headache types, such as trigeminal autonomic cephalalgias, is not supported by direct evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (no entries found in ClinicalTrials.gov or ICTRP-linked registries for this indication).
+Currently no related clinical trials registered. Most of the studies pre-date trial registry requirements, so the published literature below is the main source of evidence.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------------|
-| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | RCT (double-blind, parallel-group) | Medicina (Kaunas) | Tolfenamic acid 300 mg vs pizotifen 1.5 mg in 192 patients with 4–8 monthly migraine attacks; prospective randomised comparison for prophylaxis. |
-| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | RCT (double-blind, randomised, parallel-group) | Headache | Tolfenamic acid vs oral sumatriptan in 141 patients (289 attacks); 77% of tolfenamic-acid-treated attacks reduced from severe/moderate to mild/no headache. |
-| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | RCT (double-blind, cross-over) | Acta Neurologica Scandinavica | Tolfenamic acid 300 mg/day vs propranolol 120 mg/day in 76 migraine patients over 12 weeks; both significantly reduced attack frequency/duration. |
-| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | RCT (double-blind, cross-over) | Lancet | Tolfenamic acid vs ergotamine, aspirin, and placebo across 160 attacks in 20 women; equally effective to ergotamine but with fewer side effects (less nausea). |
-| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT (double-blind, cross-over) | Acta Neurologica Scandinavica | Tolfenamic acid vs propranolol vs placebo in 31 patients for migraine prophylaxis; both active drugs significantly reduced attack number and duration vs placebo. |
-| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | RCT (double-blind, cross-over) | Acta Neurologica Scandinavica | Tolfenamic acid vs placebo in 31 patients for migraine prophylaxis; tolfenamic acid preferred by patients, with reduced attack number, duration, severity, and vomiting. |
-| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT (double-blind, cross-over) | Acta Neurologica Scandinavica | Tolfenamic acid (200/400 mg) vs paracetamol (500/1000 mg) in acute migraine, across at least 4 attacks per treatment arm per patient. |
-| [10234467](https://pubmed.ncbi.nlm.nih.gov/10234467/) | 1999 | Retrospective study | Cephalalgia | Tolfenamic acid added to sumatriptan reduced migraine recurrence in 50 patients who had frequent recurrence with sumatriptan alone. |
-| [7816790](https://pubmed.ncbi.nlm.nih.gov/7816790/) | 1994 | Review | Pharmacology & Toxicology | Overview of the proposed role of prostaglandins in migraine and tolfenamic acid's use in acute and prophylactic treatment. |
-| [8749241](https://pubmed.ncbi.nlm.nih.gov/8749241/) | 1995 | Review | Cephalalgia | Review of analgesics and NSAIDs, including tolfenamic acid, in the treatment of acute migraine attacks. |
+|------|-----|------|------|---------|
+| [2375249](https://pubmed.ncbi.nlm.nih.gov/2375249/) | 1990 | RCT | Acta Neurol Scand | Double-blind crossover comparison of tolfenamic acid (200 mg and 400 mg) with paracetamol in common migraine |
+| [3727918](https://pubmed.ncbi.nlm.nih.gov/3727918/) | 1986 | RCT | Acta Neurol Scand | Prophylaxis: tolfenamic acid and propranolol both significantly reduced attacks versus placebo |
+| [6394143](https://pubmed.ncbi.nlm.nih.gov/6394143/) | 1984 | RCT | Cephalalgia | Tolfenamic acid with caffeine or metoclopramide in migraine attacks |
+| [9563211](https://pubmed.ncbi.nlm.nih.gov/9563211/) | 1998 | Randomised controlled trial | Headache | Rapid-release tolfenamic acid had a comparable effect to oral sumatriptan in acute migraine (141 patients) |
+| [12474702](https://pubmed.ncbi.nlm.nih.gov/12474702/) | 2002 | Randomised controlled trial | Medicina (Kaunas) | Prophylaxis: tolfenamic acid 300 mg versus pizotifen in 192 patients |
+| [7976233](https://pubmed.ncbi.nlm.nih.gov/7976233/) | 1994 | Randomised crossover trial | Acta Neurol Scand | Tolfenamic acid versus propranolol for prophylaxis in 76 patients; both drugs were effective |
+| [89390](https://pubmed.ncbi.nlm.nih.gov/89390/) | 1979 | Randomised crossover trial | Lancet | As effective as ergotamine during migraine attacks, with less nausea |
+| [7051739](https://pubmed.ncbi.nlm.nih.gov/7051739/) | 1982 | Randomised crossover trial | Acta Neurol Scand | Prophylaxis: significantly better than placebo for attack number, duration and severity |
+| [7816790](https://pubmed.ncbi.nlm.nih.gov/7816790/) | 1994 | Review | Pharmacol Toxicol | Review of tolfenamic acid in acute and prophylactic treatment of migraine |
+| [10234467](https://pubmed.ncbi.nlm.nih.gov/10234467/) | 1999 | Retrospective study | Cephalalgia | Adding tolfenamic acid to sumatriptan reduced migraine recurrence |
 
 ---
 
 ## UK Market Information
 
-Tolfenamic acid does not currently hold a UK marketing authorisation (0 licences on record in this evidence pack) and is not listed in the current BNF. It is not classified as "Not Marketed" for regulatory/commercial reasons documented here — no licensing history, product name, or dosage form data are available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407041U0AAABAB (BNF code) | Tolfenamic Acid tablets 200 mg | Tablet | Not stated in the data compiled; reference data describe UK approval for acute migraine |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction query completed with one pharmacology entry, which lists AKR1C3 as a human target of tolfenamic acid. No clinically graded drug-drug interactions were identified in the data compiled.
+- Tolfenamic acid can delay absorption during a migraine attack. In one small study, rectal metoclopramide did not change this.
+- Tolfenamic acid carries the usual NSAID class cautions, such as gastrointestinal, cardiovascular and renal risks. One rheumatoid arthritis study reported serious side-effects including leukopenia.
 
-> Note: This evidence pack flags the absence of UK/TFDA-equivalent product warnings, contraindications, and drug–drug interaction data as a **Blocking** data gap (DG001), meaning a formal safety pre-assessment (S1) cannot currently be completed for this candidate.
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -103,14 +107,20 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Tolfenamic acid has a substantial historical evidence base for migraine, including at least six double-blind randomised controlled trials (some with over 100 participants) comparing it against active comparators such as sumatriptan, propranolol, ergotamine, and paracetamol, supporting an evidence level of L1. However, this evidence predates modern clinical trial registries, and critical safety and regulatory data (UK/TFDA labelling, mechanism of action, marketing status) remain unavailable, warranting guardrails before any further development decision.
+Several randomised, double-blind studies support tolfenamic acid for acute and prophylactic migraine treatment, and the drug is already marketed in the UK. However, the evidence is old, unregistered and based on abstracts, and the prediction mostly restates an existing use rather than a new one.
 
 **To proceed, the following is needed:**
-- UK/MHRA-equivalent product safety data: key warnings, contraindications, and drug–drug interactions (currently a Blocking gap)
-- Confirmed mechanism of action data from DrugBank or equivalent pharmacological source
-- Clarification of current global marketing/licensing status, since the drug holds no UK authorisation
-- A contemporary systematic review or updated RCT to validate historical 1979–2002 findings against current migraine treatment standards
-- Registration or identification of trials in modern registries (ClinicalTrials.gov, ISRCTN, EU CTR) to support formal trial-based evidence grading
+- Full-text review of the key randomised studies to confirm the findings
+- The licensed indication wording and the SmPC warnings and contraindications for the UK product
+- Mechanism of action data
+- Clarification of which non-migraine headache types (if any) are of interest, since no direct evidence exists for trigeminal autonomic cephalalgias
+
+---
+
+## Other Predicted Indications (Brief Note)
+
+- **Rheumatoid arthritis** (score 99.70%): The literature includes randomised double-blind comparisons against phenylbutazone, aspirin and ibuprofen, showing symptomatic benefit rather than disease modification. This is an established NSAID-type use rather than a novel finding (Proceed with Guardrails).
+- **Tendinitis, trigeminal autonomic cephalalgia, myositis fibrosa, idiopathic granulomatous myositis, fibromyalgia, exostosis, inclusion body myositis and osteoarthritis susceptibility**: Model prediction only, with no trials or literature in the data compiled (Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Tiaprofenic Acid
 parent: Model Prediction Only (L5)
-nav_order: 573
+nav_order: 615
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tiaprofenic Acid: From NSAID Therapy to Brachydactyly-Syndactyly Syndrome
+# Tiaprofenic Acid: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Tiaprofenic acid is a propionic acid-class NSAID (COX-1/2 inhibitor); its detailed original indication and mechanism-of-action data are not available in this Evidence Pack. The TxGNN model's top-ranked prediction is **Brachydactyly-Syndactyly Syndrome**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own rationale explicitly states there is no known mechanistic link between NSAID/COX inhibition and this congenital skeletal disorder.
+Tiaprofenic acid is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis and osteoarthritis.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (data gap); drug is classified as a propionic acid-class NSAID (COX-1/2 inhibitor) |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
-| TxGNN Prediction Score | 99.99% (rank 289 among all candidates) |
+| Original Indication | Rheumatoid arthritis, osteoarthritis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for tiaprofenic acid is not currently available in this Evidence Pack (flagged as a High-severity data gap). Based on the information that is present, tiaprofenic acid belongs to the propionic acid class of NSAIDs, working through COX-1/COX-2 inhibition to reduce prostaglandin synthesis — a mechanism typically applied to pain and inflammatory musculoskeletal conditions.
+Detailed mechanism of action data is not available for this report. Based on known information, tiaprofenic acid is an NSAID of the propionic acid class and acts as a cyclooxygenase (COX) inhibitor. Its efficacy in rheumatoid arthritis and osteoarthritis rests on this anti-inflammatory and analgesic action.
 
-Brachydactyly-syndactyly syndrome, however, is a congenital limb-development disorder driven by genetic developmental defects, not by inflammatory or prostaglandin-mediated pathology. The Evidence Pack's own repurposing rationale is explicit on this point: it states there is **no known association** between COX inhibition/prostaglandin pathways and this syndrome's underlying biology, and attributes the high TxGNN score to an embedding-level similarity signal rather than a genuine mechanistic connection. On this basis, the top-ranked prediction should be treated as a model artefact rather than a credible repurposing hypothesis.
+Brachydactyly-syndactyly syndrome is a genetic limb malformation with a developmental rather than inflammatory cause. COX inhibition is not expected to correct the underlying defect, so no mechanistic link has been established. The very high TxGNN score is a computational prediction only. It may reflect proximity between skeletal or joint-related disease terms in the knowledge graph rather than true biological relevance.
 
-Of the ten candidates in this Evidence Pack, the most mechanistically defensible is ranked 6th — **spondyloarthropathy, susceptibility to** (evidence level L4, decision stage S1, recommendation "Research Question"). NSAIDs, including propionic acid derivatives, are an established first-line symptomatic class-effect treatment for spondyloarthropathies such as ankylosing spondylitis. However, this candidate is flagged as "susceptibility to" the disease rather than the disease itself, and no tiaprofenic acid-specific trial or literature evidence exists — the support is class-level inference only, not drug-specific evidence.
+Other top-ranked predictions show the same pattern. Most are rare genetic skeletal or developmental conditions (for example colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachyolmia and acromesomelic dysplasia, Hunter-Thompson type) or coagulation disorders (factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency), with no plausible mechanistic link. The most biologically plausible candidate is spondyloarthropathy (susceptibility), because NSAIDs are first-line symptomatic therapy in that group of diseases. However, this entry is a susceptibility-type disease term, and no trial or literature evidence was found for tiaprofenic acid in it. Other NSAIDs are already established in this setting.
 
 ## Clinical Trial Evidence
 
@@ -65,27 +66,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Tiaprofenic acid currently holds **no UK marketing authorisations** (0 licenses recorded) and is classified as **not marketed** in this dataset. No product, dosage form, or approved indication information is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010T0AAACAC | Tiaprofenic Acid Tablets 300 mg | Tablet | Not available in the data compiled for this report |
+
+Only one valid single-ingredient authorisation was identified. The dosage form and indication text were not recorded in the data compiled for this report, and the dosage form shown is inferred from the product name. Please verify the authorisation details against the MHRA and BNF records.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+No label-based warnings, contraindications or drug interaction data were available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-Note: this Evidence Pack marks TFDA/MHRA-equivalent label warnings and contraindications as a **Blocking** data gap, meaning a preliminary safety assessment (S1) cannot currently be completed for this candidate.
+As general context from the candidate assessment, tiaprofenic acid has known safety concerns, including cystitis and photosensitivity. As with other NSAIDs, bleeding and cardiovascular risks should be considered, particularly in the coagulation-related predicted indications. These points should be confirmed against the SmPC.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (brachydactyly-syndactyly syndrome) is supported only by an L5 model score with no clinical trials, no literature, and an explicit statement in the model's own rationale that no plausible mechanistic link exists.
-- Core safety data (label warnings, contraindications) are marked as a Blocking gap, and mechanism-of-action data is a High-severity gap — together these prevent even an initial (S1) safety review.
-- The drug is not currently marketed in the UK (0 marketing authorisations), removing any regulatory or real-world usage signal that could support repurposing.
+The prediction is supported only by a model score, with no clinical trials or publications. There is also no plausible mechanistic link between COX inhibition and the genetic developmental cause of brachydactyly-syndactyly syndrome. The same applies to most of the other top-ranked predictions.
 
 **To proceed, the following is needed:**
-- Original indication and mechanism-of-action data for tiaprofenic acid (from DrugBank/SmPC)
-- MHRA/SmPC label warnings and contraindications (currently a blocking gap)
-- If pursuing a repurposing hypothesis at all, prioritise the mechanistically plausible spondyloarthropathy-susceptibility candidate (rank 6) over the top-ranked but mechanistically unsupported prediction, and seek drug-specific (not class-level) clinical or literature evidence before advancing past S1
+- Mechanism of action data, to allow a proper mechanistic-link analysis
+- Label-based safety information (warnings, contraindications, interactions) from the SmPC and BNF, as the safety screening cannot proceed without it
+- Confirmation of the approved indication and dosage form for the UK authorisation
+- A targeted literature search if spondyloarthropathy is pursued as a more plausible alternative, weighed against the safety profile of tiaprofenic acid and the established alternatives
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

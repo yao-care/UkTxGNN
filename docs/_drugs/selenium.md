@@ -2,7 +2,7 @@
 layout: default
 title: Selenium
 parent: Moderate Evidence (L3-L4)
-nav_order: 528
+nav_order: 566
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,88 +29,75 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Selenium: From Nutritional Supplementation to Sclerosing Cholangitis
+# Selenium: From an Unspecified Original Indication to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Selenium is an essential trace element recognised for its role in antioxidant enzyme systems, and is used clinically as a nutritional supplement rather than for a formally approved therapeutic indication.
-The TxGNN model predicts it may have therapeutic potential in **Sclerosing Cholangitis**,
-with **no registered clinical trials** and **5 observational or review publications** currently supporting this direction.
-The overall evidence base remains preclinical and hypothesis-generating.
-
----
+Selenium is an essential trace element, marketed in the UK as an injectable product, but no approved indication text is available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **no registered clinical trials** and only **5 publications**, none of which tests selenium as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Nutritional supplementation (essential trace element; no formal approved therapeutic indication on record) |
-| Predicted New Indication | Sclerosing Cholangitis |
+|------|------|
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.04% |
 | Evidence Level | L4 |
-| UK Market Status | Not authorised in the UK |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Selenium is an essential trace element that is biologically incorporated as selenocysteine into key antioxidant enzymes, including glutathione peroxidase (GPx) and thioredoxin reductase. These enzymes are central to the cellular defence against oxidative damage, and selenium has been investigated in a range of inflammatory and fibrotic conditions for its potential to attenuate oxidative stress pathways.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, selenium is a cofactor of glutathione peroxidases and other selenoproteins, which support antioxidant defence. In principle, this could reduce oxidative stress and inflammatory injury to bile duct cells and hepatocytes, which are thought to contribute to cholestatic liver disease.
 
-Primary sclerosing cholangitis (PSC) is a chronic, progressive cholestatic liver disease characterised by biliary inflammation and fibrosis, driven in part by oxidative stress, TGF-β-mediated fibrogenesis, and dysregulation of the gut–biliary axis. Published observational data (PMID 9053974) have documented abnormal hepatic selenium retention in PSC patients, suggesting that selenium metabolism may be perturbed in this disease. Whether this reflects a causative factor or a secondary consequence of impaired biliary function remains unresolved.
+The original indication could not be determined from the data compiled, so the link between the original and new indication cannot be assessed directly. The high TxGNN score (99.04%) is a computational prediction only.
 
-The TxGNN model's high prediction score (99.04%) most likely reflects a knowledge graph pathway linking GPx → oxidative stress → biliary fibrosis. Whilst mechanistically plausible, this remains a computational inference. No interventional studies have examined whether selenium supplementation can meaningfully reduce biliary inflammation or slow fibrosis progression in PSC. This prediction should therefore be regarded as hypothesis-generating rather than practice-informing at this stage.
-
----
+The retrieved literature offers only indirect links: measurement of hepatic copper and selenium retention in primary sclerosing cholangitis (PSC), dietary micronutrient intake in PSC patients, and hepatic proteome changes in mouse models of fibrosis and sclerosing cholangitis. None shows that selenium supplementation improves PSC outcomes. The findings may reflect altered trace-element handling in cholestasis rather than a therapeutic target.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Selenium in sclerosing cholangitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Cross-sectional / Observational | Scandinavian Journal of Gastroenterology | Trace element metabolism studied in 32 PSC patients; hepatic copper and selenium retention identified, suggesting abnormal selenium metabolism in PSC |
-| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | Dietary Survey / Cross-sectional | Liver International | Evaluated dietary intake in PSC patients vs Nordic Nutrition Recommendations 2023; poor fat-soluble vitamin intake and suboptimal overall dietary quality documented |
-| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Clinical Study / Nutrition | JPEN: Journal of Parenteral and Enteral Nutrition | Case report of parenteral nutrition management in overlapping PSC and ulcerative colitis; discusses oxidative stress and antioxidant deficiency as contributors to cholestatic disease pathogenesis |
-| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | Animal Model / Proteomics | Proteomics | Hepatic proteome changes characterised in murine models of toxic-induced fibrogenesis and sclerosing cholangitis; mechanistic basis of hepatic protein expression changes discussed |
-| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | Review / Chemoprevention | European Journal of Cancer Prevention | Review of chemopreventive agents in colorectal cancer, including selenium; indirect relevance to PSC-associated colorectal cancer risk only |
-
----
+|------|-----|------|------|---------|
+| [9053974](https://pubmed.ncbi.nlm.nih.gov/9053974/) | 1995 | Observational | Scand J Gastroenterol | Trace element metabolism studied in 32 PSC patients, with measurement of hepatic copper and selenium retention. Not an intervention study. |
+| [39601354](https://pubmed.ncbi.nlm.nih.gov/39601354/) | 2025 | Cross-sectional | Liver Int | Dietary intake of people with PSC compared with Nordic nutrition recommendations; poor fat-soluble vitamin intake and dietary quality. Not selenium-specific. |
+| [29148959](https://pubmed.ncbi.nlm.nih.gov/29148959/) | 2017 | Clinical observational (case report) | JPEN J Parenter Enteral Nutr | Parenteral nutrition with GGT monitoring and a lipid emulsion in a patient with PSC and ulcerative colitis. Not selenium-specific. |
+| [17109383](https://pubmed.ncbi.nlm.nih.gov/17109383/) | 2006 | Preclinical | Proteomics | Hepatic proteome changes in mouse models of toxic fibrogenesis and sclerosing cholangitis. Mechanistic background only. |
+| [18941372](https://pubmed.ncbi.nlm.nih.gov/18941372/) | 2008 | Review | Eur J Cancer Prev | Review of colorectal cancer chemoprevention agents. Only tangentially related to PSC. |
 
 ## UK Market Information
 
-Selenium (DrugBank ID: DB11135) currently holds no MHRA marketing authorisation. There are no licensed medicinal products on the UK market for this compound as a standalone therapeutic agent.
-
-> **Note:** Selenium-containing formulations are available as unlicensed dietary supplements and may appear as a micronutrient component within licensed parenteral nutrition solutions. However, no product holds a UK marketing authorisation for selenium as a named therapeutic indication.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0905050A0AAACAC (BNF code as listed) | Selenium injection 50 micrograms/ml, 2 ml ampoule | Injection (ampoule) | Not available |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (6 interactions identified, 1 major):
 
-> **Additional note for prescribers:** Selenium has a narrow therapeutic window. Chronic intake above approximately 400 µg/day may result in selenosis (hair loss, nail brittleness, gastrointestinal disturbance, peripheral neuropathy). Any interventional use outside of nutritional support should be subject to formal dose-finding evaluation and toxicity monitoring.
+- **Major:** Dimercaprol
+- **Moderate:** Levofloxacin, triethylenetetramine, deferiprone, tolevamer, eltrombopag
 
----
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction is mechanistically plausible given selenium's antioxidant properties and documented perturbation of selenium metabolism in PSC, but the evidence base is entirely observational and preclinical (L4), with no registered interventional trials and no MHRA marketing authorisation for any therapeutic indication.
+The prediction score is high, but it rests on a computational model alone. The available literature is observational, descriptive or preclinical, and there are no clinical trials testing selenium in sclerosing cholangitis. The original indication, mechanism of action and label safety information are also missing.
 
 **To proceed, the following is needed:**
-- Systematic review or meta-analysis of selenium status and supplementation outcomes in PSC and related cholestatic liver diseases
-- Proof-of-concept interventional study (e.g., pilot RCT assessing selenium supplementation in PSC patients with confirmed selenium deficiency)
-- Detailed mechanism of action data (MOA) confirming GPx-mediated antifibrotic activity specifically within biliary epithelium
-- Safety and dose-ranging data at therapeutic (as opposed to nutritional supplementation) dosing levels, given selenium's narrow therapeutic index
-- Early regulatory dialogue with MHRA to establish a viable development pathway for an unlicensed indication
+- Approved indication, dosage form and label warnings and contraindications for the UK product (from the SmPC and BNF)
+- Detailed mechanism of action data
+- Preclinical or clinical evidence that selenium supplementation affects PSC disease activity or outcomes
+- Assessment of selenium status in PSC patients, and of safe dosing in cholestatic liver disease
+- A safety review of the major interaction with dimercaprol and the moderate interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

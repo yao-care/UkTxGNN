@@ -2,7 +2,7 @@
 layout: default
 title: Tolnaftate
 parent: Model Prediction Only (L5)
-nav_order: 585
+nav_order: 627
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolnaftate: From Superficial Fungal Infections to Ectothrix Infectious Disease
+# Tolnaftate: From Dermatophyte Skin Infections to Superficial Mycosis
 
 ## One-Sentence Summary
 
-Tolnaftate is a topical antifungal classically used to treat superficial fungal (dermatophyte) skin infections. The TxGNN model predicts it may also be effective for **ectothrix infectious disease** (dermatophyte infection of the hair shaft), with a prediction score of 98.59%, but **no clinical trials or published literature** currently support this specific indication — the link is mechanistic only.
+Tolnaftate is a topical antifungal originally used for tinea infections such as athlete's foot (tinea pedis), ringworm of the body (tinea corporis) and pityriasis versicolor.
+The TxGNN model's top-ranked prediction with meaningful supporting evidence is **Superficial Mycosis**, supported by **15 publications** (including 2 randomised controlled trials) but **no registered clinical trials**. This is largely a confirmation of existing use rather than a true new indication.
 
 ---
 
@@ -41,23 +42,26 @@ Tolnaftate is a topical antifungal classically used to treat superficial fungal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial fungal (dermatophyte) skin infections — noted in the evidence annotations as tolnaftate's classic, clinically established use; formal UK licence indication text is not currently on file |
-| Predicted New Indication | Ectothrix Infectious Disease |
-| TxGNN Prediction Score | 98.59% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, pityriasis versicolor, dermatophytosis of the groin and perianal area, tinea manuum, tinea barbae, dermatophytosis of the scalp or beard |
+| Predicted New Indication | Superficial mycosis (the highest-scoring predictions, ectothrix infectious disease and Majocchi granuloma, have no supporting evidence) |
+| TxGNN Prediction Score | 98.48% (superficial mycosis); 98.59% for the top-ranked prediction, ectothrix infectious disease |
+| Evidence Level | L1 (superficial mycosis; based on controlled studies in the literature, as no Phase 3 trial record was supplied) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails (superficial mycosis only); Hold for all other predictions |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-A formal mechanism-of-action record is not currently available for tolnaftate (flagged as a data gap in the source record). However, the evidence pack's own mechanistic annotations indicate that tolnaftate acts by inhibiting fungal squalene epoxidase, thereby blocking ergosterol biosynthesis in dermatophyte cell membranes — the accepted mode of action for this drug class.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tolnaftate is a thiocarbamate antifungal that inhibits squalene epoxidase in dermatophytes, blocking ergosterol synthesis in the fungal cell membrane.
 
-Ectothrix infection is a pattern of hair-shaft invasion by dermatophyte fungi (typically seen in tinea capitis or tinea barbae), where fungal spores form a sheath around the outside of the hair shaft. This is mechanistically within the same fungal family that tolnaftate's established indication (superficial dermatophytosis) already targets, which is why the model assigns it a very high score.
+Superficial mycosis overlaps heavily with tolnaftate's existing indications. Tinea pedis, corporis, cruris and versicolor are all superficial fungal infections, so the squalene epoxidase mechanism directly supports use. The prediction is therefore reasonable, but it largely restates the current labelled use.
 
-That said, the evidence annotation for this specific prediction explicitly states there is "no direct clinical or literature evidence" supporting efficacy in ectothrix infection specifically. A further consideration is that topical agents such as tolnaftate typically have limited penetration into the hair follicle and shaft, which may limit efficacy against infections with a hair-invasion component even where the causative organism is susceptible in vitro. The prediction should therefore be treated as a plausible extrapolation from class mechanism rather than a validated indication.
+Other predictions are less convincing:
+- **Hair and deep dermatophyte infections** (ectothrix, endothrix, Majocchi granuloma, tinea profunda): the organisms are within tolnaftate's spectrum, but topical tolnaftate penetrates the hair shaft, follicle and dermis poorly. These infections generally need systemic therapy.
+- **Cutaneous candidiasis**: tolnaftate's activity against *Candida* is weak or absent. Azoles or polyenes are normally used.
+- **Ophthalmic herpes zoster, infectious mononucleosis and orbital cellulitis**: these are viral or bacterial conditions, and tolnaftate has no known antiviral or antibacterial mechanism. The high scores are not mechanistically supported.
 
 ---
 
@@ -69,13 +73,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Evidence for **superficial mycosis** (most relevant publications):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1090684](https://pubmed.ncbi.nlm.nih.gov/1090684/) | 1975 | RCT | J Invest Dermatol | Placebo- and active-controlled comparison of griseofulvin and tolnaftate in topical therapy of superficial dermatophytoses |
+| [4619464](https://pubmed.ncbi.nlm.nih.gov/4619464/) | 1974 | RCT | Postgrad Med J | Double-blind comparison of clotrimazole and tolnaftate in superficial dermatophytoses |
+| [10398626](https://pubmed.ncbi.nlm.nih.gov/10398626/) | 1999 | Systematic review | BMJ | Efficacy and cost effectiveness of topical treatments for fungal infections of the skin and nails of the feet |
+| [1379146](https://pubmed.ncbi.nlm.nih.gov/1379146/) | 1992 | Review | Drugs | Diagnosis and treatment recommendations for superficial fungal skin infections |
+| [778288](https://pubmed.ncbi.nlm.nih.gov/778288/) | 1976 | Review | J Invest Dermatol | Tolnaftate described as a major advance for dermatophytosis, though tinea capitis, onychomycosis and chronic tinea pedis remained difficult |
+| [5844107](https://pubmed.ncbi.nlm.nih.gov/5844107/) | 1965 | Clinical study | Am J Dis Child | Tolnaftate in superficial fungus infections |
+| [14288003](https://pubmed.ncbi.nlm.nih.gov/14288003/) | 1964 | Clinical study | Antimicrob Agents Chemother | Effect of tolnaftate in superficial fungus infections |
+| [14288002](https://pubmed.ncbi.nlm.nih.gov/14288002/) | 1964 | Clinical study | Antimicrob Agents Chemother | Effect of tolnaftate on superficial mycotic infections |
+
+Evidence for other predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1096122](https://pubmed.ncbi.nlm.nih.gov/1096122/) | 1975 | Double-blind trial | Practitioner | Clotrimazole cream was as effective as tolnaftate cream for dermatophytoses and as nystatin cream for candidoses (cutaneous candidiasis; tolnaftate was not tested against *Candida*) |
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomised comparative study | J Int Med Res | Two topical corticosteroid-antimicrobial creams (one containing tolnaftate) compared in 154 patients, including 67 with cutaneous candidiasis; the study does not isolate tolnaftate's contribution |
+| [32653607](https://pubmed.ncbi.nlm.nih.gov/32653607/) | 2020 | In vitro | Bioorg Chem | Tolnaftate inhibits ergosterol production and reduces cell viability in *Leishmania* (preclinical only) |
+| [37415917](https://pubmed.ncbi.nlm.nih.gov/37415917/) | 2023 | Review | Drugs Context | Updated review of tinea pedis |
 
 ---
 
 ## UK Market Information
 
-Tolnaftate is currently **not marketed** in the UK, and no marketing authorisations are on file for this evidence pack. Formal UK licence and SmPC indication data are not yet available and are flagged as a blocking data gap (see Conclusion below).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1310020Y0AAAJAJ | Tolnaftate 1% (150 ml spray) | Not specified | Not specified |
+
+Only one authorisation is recorded, and its dosage form and approved indication text are not available in the data compiled for this report. Please check the current MHRA listing and the BNF for full product details.
 
 ---
 
@@ -87,18 +115,20 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (superficial mycosis only). **Hold** for all other predicted indications.
 
 **Rationale:**
-- The TxGNN score is high (98.59%), but this is driven by mechanistic plausibility alone — there are zero clinical trials and zero published studies specifically addressing tolnaftate in ectothrix infectious disease.
-- The source evidence pack itself flags a data gap for both UK regulatory safety information (warnings/contraindications) and detailed mechanism-of-action data, both of which are prerequisites for any formal safety evaluation.
-- For context, other candidates in the same evidence pack carry more supporting data (e.g. cutaneous candidiasis has literature but a mechanism-mismatch concern, since tolnaftate is not well established against *Candida*; the broader "skin disease caused by infection" category has systematic-review-level literature but is too heterogeneous to act on directly). None of these change the assessment for ectothrix infectious disease specifically.
+- Superficial mycosis is supported by controlled studies and a systematic review, but this is essentially confirmation of existing labelled use. All other predictions, including the highest-scoring ones, rest on model output alone or on indirect evidence, and several are mechanistically implausible.
+
+**Guardrails:**
+- Restrict use to dermatophyte infections of the skin. Efficacy is weaker for *Candida*, and topical use is inadequate for hair, nail and deep infections.
 
 **To proceed, the following is needed:**
-- Resolution of the blocking data gap: UK/TFDA product labelling (warnings, contraindications) — required before any safety pre-screening (S1) can begin
-- Resolution of the high-severity data gap: documented mechanism of action from DrugBank or equivalent source
-- Targeted clinical or in vitro evidence on tolnaftate's efficacy and follicular penetration specifically against ectothrix-pattern dermatophyte infection
-- Confirmation of UK marketing status, since the drug currently has no active licence on file
+- Full SmPC and BNF safety data (warnings, contraindications and interactions), which are not available in the data compiled for this report
+- Detailed mechanism of action data
+- Confirmation of dosage form and approved indication text for the UK authorisation
+- Modern, registered trials if any formal extension beyond current labelled use is considered
+- For the *Leishmania* signal, further preclinical work before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

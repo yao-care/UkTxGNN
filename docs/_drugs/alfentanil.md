@@ -2,7 +2,7 @@
 layout: default
 title: Alfentanil
 parent: Model Prediction Only (L5)
-nav_order: 31
+nav_order: 32
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,78 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Alfentanil: From Opioid Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Alfentanil: From Anaesthesia and Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Alfentanil is a potent, short-acting μ-opioid receptor agonist widely used as an intraoperative analgesic and anaesthetic adjunct. The TxGNN model assigns it a high prediction score (99.51%) for potential use in **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, yet detailed mechanistic analysis reveals a critical logical gap in the proposed pathway. There are **no supporting clinical trials** and **no supporting publications** for this indication, placing this candidate at the lowest evidence tier (L5).
-
----
+Alfentanil is a short-acting mu-opioid receptor agonist used for anaesthesia and analgesia.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but there are currently **no clinical trials** and **no publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No authorisation data available in current dataset |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Not stated in the licence data compiled for this report (general use: anaesthesia and analgesia) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, alfentanil is a potent μ-opioid receptor (OPRM1) agonist with rapid onset and short duration of action, used clinically for intraoperative analgesia, conscious sedation, and as an anaesthetic supplement. Its well-characterised central nervous system activity forms the starting point for the proposed mechanistic chain.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, alfentanil is a short-acting mu-opioid receptor agonist. Its efficacy in anaesthesia and analgesia is established, but this does not obviously carry over to NSIAD.
 
-The TxGNN model's reasoning appears to follow a four-step pathway: alfentanil's μ-opioid agonism → modulation of hypothalamic arginine vasopressin (AVP/ADH) release (supported by animal studies and limited observational human data, whereby opioids may suppress AVP secretion) → the known pathophysiology of NSIAD, caused by gain-of-function mutations in the AVPR2 (V2 vasopressin receptor) gene, leading to constitutive receptor activation, elevated cAMP, AQP2 membrane insertion, inappropriate water retention, and hyponatraemia.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). These cause water retention and low blood sodium (hyponatraemia) independent of vasopressin. Opioids can influence vasopressin release in the brain: kappa-opioid agonists tend to suppress it, whereas mu-opioids are often associated with antidiuresis.
 
-However, there is a **critical mechanistic gap**: NSIAD is fundamentally caused by constitutive activation of the AVPR2 receptor, which is entirely independent of circulating AVP concentrations. Because the mutant receptor is "always on" regardless of ligand, any suppression of AVP secretion by alfentanil would be therapeutically irrelevant — it would be akin to turning off a tap that is no longer connected to the pipe. The high TxGNN score (0.9951) most likely reflects topological proximity in the knowledge graph between the opioid signalling axis, ADH pathways, and renal water metabolism nodes, rather than a genuine pharmacological relationship. This is a classic example of a **high-score, low-plausibility** outcome in graph-based prediction algorithms.
-
-**Mechanistic plausibility: 1 out of 5 — extremely low**
-
----
+The biological plausibility is weak. NSIAD is a receptor-level disorder in the kidney, so central modulation of vasopressin would not be expected to correct constitutive V2 receptor activity. Opioid-induced antidiuresis could even worsen hyponatraemia. The high score is most likely a knowledge-graph artefact and should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No MHRA marketing authorisations for alfentanil are recorded in the current dataset. Clinicians should independently verify the current licensing status via the MHRA Product Licence Register and the BNF, as alfentanil preparations (e.g., Rapifen®, Janssen) may hold authorisations not captured in this evidence pack version.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1501043A0AAADAD | Alfentanil HCl Inj 5mg/ml 1ml Amp | Injection (ampoule) | Not stated in the data available |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease-related cautions (knowledge graph):** The TxGNN knowledge graph links alfentanil to contraindication relationships with kidney disease, pyoureter, liver disease, gallbladder disease, hypotensive disorder, pseudotumor cerebri and intracranial hypertension. These come from graph relationships, not from product label text. Renal involvement is particularly relevant given the proposed kidney-related indication.
+- **Drug Interactions:** The interaction screen returned 100 interacting drugs; the main ones listed are below.
+  - **Major:** aprepitant, bupropion, clarithromycin, clotrimazole, dexfenfluramine, dolasetron, fenfluramine, granisetron, lorcaserin
+  - **Moderate:** atropine, cimetidine, clidinium, dexamethasone, dicyclomine, dronabinol, eluxadoline, glycerol phenylbutyrate, glycopyrronium, hyoscyamine, mazindol
 
----
+Label warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The core pathological mechanism of NSIAD — constitutive AVPR2 receptor activation independent of AVP levels — renders opioid-mediated suppression of AVP secretion mechanistically irrelevant. With no supporting clinical trials, no published literature, and a mechanistic plausibility score of 1/5, there is currently no evidence base to justify further development of this candidate.
+The prediction rests only on a high model score (L5). There are no trials or publications, and the mechanism argues against benefit: NSIAD is driven by a renal V2 receptor defect, and mu-opioid antidiuresis could worsen hyponatraemia.
 
-**To proceed, the following would be needed:**
-
-- Formal MOA documentation from DrugBank or primary literature to confirm or refute any direct effect of alfentanil (or its metabolites) on AVPR2 or downstream cAMP/AQP2 signalling
-- A revised mechanistic hypothesis that directly addresses constitutive AVPR2 activation — for example, evidence of alfentanil acting as a partial inverse agonist at AVPR2 or modulating downstream second-messenger pathways independently of AVP binding
-- Preclinical data (in vitro cell models expressing gain-of-function AVPR2 mutations, or appropriate animal models) directly testing alfentanil in NSIAD-relevant systems
-- MHRA SmPC review and a structured safety assessment before any exploratory study is considered
-- Independent expert review by a clinical pharmacologist with expertise in renal water and sodium disorders
+**To proceed, the following is needed:**
+- Mechanism of action data and a clear mechanistic rationale linking mu-opioid agonism to V2 receptor-mediated antidiuresis
+- Preclinical evidence (for example, AVPR2 gain-of-function models) showing any benefit
+- Label-based warnings and contraindications from the SmPC and BNF, including renal safety review
+- Licensed indication text and dosage form for the UK authorisation
+- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

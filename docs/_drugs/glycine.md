@@ -2,7 +2,7 @@
 layout: default
 title: Glycine
 parent: Model Prediction Only (L5)
-nav_order: 295
+nav_order: 317
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,84 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Glycine: A Predicted Candidate for Nasal Cavity Disease
+# Glycine: From Rhinitis and Upper Respiratory Tract Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Glycine (DrugBank DB00145) is a naturally occurring amino acid and inhibitory neurotransmitter; no original indication is recorded in this evidence pack, and the drug does not currently hold a UK marketing authorisation. The TxGNN model predicts a possible signal for **Nasal Cavity Disease**, but this is currently supported only by **1 clinical trial** and **2 publications**, none of which actually studied glycine for this indication.
-
----
+Glycine is an amino acid that the knowledge graph links to upper-airway conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a model prediction only: the single registered trial is not a therapeutic study of glycine, and the two publications are not clinically relevant.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for glycine is not available in this evidence pack. Based on general pharmacological knowledge referenced in the model's rationale, glycine acts as an inhibitory neurotransmitter, and its receptor (GlyR) is also expressed on mucosal epithelium and immune cells — theoretically giving it anti-inflammatory and mucosal-barrier-protective potential.
+Currently, detailed mechanism of action data is not available. Based on known information, glycine's listed uses are already nasal and upper-airway conditions, so the predicted indication is close to its existing uses. A specific pharmacological link, such as a glycine receptor-mediated anti-inflammatory or cytoprotective effect, cannot be substantiated from the data compiled for this report.
 
-However, this mechanistic link is purely inferential. None of the clinical trials or literature retrieved for this candidate actually investigated glycine's use in nasal cavity disease; the connection rests on receptor biology reasoning alone, with no direct supporting evidence identified to date.
+The high TxGNN score (0.998) reflects proximity within the knowledge graph. Because "nasal cavity disease" is a broad category that includes rhinitis, the prediction is largely an extension of existing associations rather than a new repurposing signal.
 
-Because no original indication or approved use is recorded for glycine in this pack, the usual comparison between an established indication and the predicted new one cannot be made here.
-
----
+A second prediction, **acute laryngopharyngitis** (score 99.84%), was also generated. It has no trials or publications, and is anatomically close to pharyngitis and nasopharyngitis, which likely explains the graph-based prediction.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT and PET/MRI imaging study of the radiopharmaceutical ¹⁸F-FPPRGD2 as an angiogenesis biomarker in glioblastoma, gynaecological cancers and renal cell carcinoma. Glycine is **not** the study intervention and the trial does not address nasal cavity disease — likely surfaced by keyword co-occurrence rather than genuine relevance. |
-
----
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET/CT or PET/MRI imaging study of a new radiopharmaceutical (18F-FPPRGD2) in patients with glioblastoma, gynaecological cancers and renal cell carcinoma. It is a diagnostic imaging study and does not test glycine for nasal cavity disease; the match appears incidental. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic/Histochemistry (animal) | Veterinary Pathology | Lectin histochemistry of bovine nasal mucosa in normal vs. herpesvirus-infected cattle; does not evaluate glycine. |
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Basic/Materials science | Chemical & Pharmaceutical Bulletin | Investigates oligoarginine-conjugated polymers as a nasal mucosal vaccine adjuvant; does not evaluate glycine. |
-
-Both publications are tier-3, mechanistically tangential, and neither directly studies glycine in the context of nasal cavity disease.
-
----
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. This is animal tissue research on glycoconjugates and does not assess glycine as a treatment. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Basic research | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer conjugates as a mucosal adjuvant for nasal vaccination in mice. This concerns vaccine delivery materials, not glycine therapy. |
 
 ## UK Market Information
 
-Glycine currently has no recorded UK marketing authorisations in this dataset (market status: Not Marketed; total licences: 0).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 091101000AADADA | Glycine liquid, 750 mg/5 ml | Liquid | Not available |
 
----
+This is the only authorisation identified, and it is a single-ingredient product with valid status. Approved indication text and dosage form details were not available in the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindication signals from the knowledge graph** (drug-disease associations, not taken from product label text; they should be verified against the SmPC):
 
-*(No key warnings, contraindications, or drug interaction data were retrievable for this candidate; the underlying label/warning data is flagged as a blocking data gap — see Next Steps.)*
+- Kidney disease, including chronic kidney disease, chronic renal failure and end-stage renal failure
+- Kidney stone and calcium-related conditions: nephrolithiasis, nephrocalcinosis, hypercalcaemia, hyperparathyroidism, sarcoidosis
+- Phosphate and bone-related conditions: hyperphosphataemia, phosphorus metabolism disease, osteitis fibrosa, lytic metastatic bone lesions, humoral hypercalcaemia of malignancy
+- Cardiovascular conditions: heart disease, cardiovascular disease, arteriosclerosis obliterans, ventricular fibrillation, digitalis poisoning
+- Metabolic conditions: phenylketonuria and other disorders of phenylalanine metabolism, hypervitaminosis, acute urate nephropathy
+- Other: constipation disorder, pyoureter
 
----
+No drug interaction records were found.
+
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but the supporting evidence base is effectively absent — the single clinical trial does not use glycine as an intervention, and both literature items are tangential animal/materials-science studies unrelated to glycine in nasal cavity disease. This corresponds to Evidence Level L5 (model prediction only, no substantive supporting studies).
+The prediction rests only on a graph-based score. The one registered trial is an unrelated imaging study, the two publications are basic research without clinical relevance, and no mechanism of action data are available. The predicted indication also largely overlaps with existing associated uses, so it offers little new repurposing signal.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product label warnings and contraindications (currently a blocking data gap — required before any safety pre-screen)
-- Confirmed mechanism of action data from DrugBank or equivalent source
-- Preclinical or clinical studies directly evaluating glycine in nasal cavity disease (current evidence is indirect/keyword-matched only)
-- Clarification of glycine's original approved indication(s), if any, to support a mechanistic rationale for repurposing
-- Confirmation of UK regulatory/marketing status before any further development consideration
+- Mechanism of action data for glycine in nasal and upper-airway tissue
+- Product label warnings and contraindications for the UK authorisation, including approved indication text and dosage form
+- Clinical studies (preferably randomised controlled trials) of glycine in nasal cavity disease or acute laryngopharyngitis
+- Clarification of the specific disease scope behind "nasal cavity disease", given how broad the term is
+- A review of the knowledge-graph contraindication signals, particularly renal and cardiovascular conditions, against the SmPC
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

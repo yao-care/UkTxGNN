@@ -2,7 +2,7 @@
 layout: default
 title: Digoxin
 parent: Model Prediction Only (L5)
-nav_order: 213
+nav_order: 226
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,66 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Digoxin: From Heart Failure & Atrial Fibrillation to Prinzmetal Angina
+# Digoxin: From Atrial Fibrillation to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Digoxin is a cardiac glycoside historically used to treat heart failure and atrial fibrillation/flutter. The TxGNN model predicts it may also be effective for **Prinzmetal angina** (variant angina), though this direction is currently supported only by **2 background publications** and **no registered clinical trials**. The drug is not currently authorised for sale in the UK.
+Digoxin is a cardiac glycoside originally used for atrial fibrillation and digitalis poisoning.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**,
+but there are currently **no registered clinical trials** and only **1 publication** (a general review that does not directly address this question), so the prediction rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Heart failure and atrial fibrillation/flutter (rate control) — established clinical use; not captured in the evidence pack's licence data |
+| Original Indication | Atrial fibrillation; digitalis poisoning (from the knowledge graph, as the UK authorisation record has no indication text) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, digoxin belongs to the cardiac glycoside class (Na⁺/K⁺-ATPase inhibitors), and its efficacy in heart failure and atrial fibrillation has long been established through clinical use.
+Detailed mechanism of action data is not available in the data compiled for this report. Digoxin is a cardiac glycoside that is generally understood to inhibit Na+/K+-ATPase, which raises intracellular calcium. This underlies its use in controlling ventricular rate in atrial fibrillation.
 
-Prinzmetal (variant) angina is caused by transient coronary artery vasospasm rather than fixed atherosclerotic obstruction, and its management centres on vasodilators and autonomic/vascular tone modulation. Digoxin's known effects on cardiac autonomic tone and myocardial excitability offer a plausible, though unconfirmed, mechanistic rationale for the TxGNN link — but no digoxin-specific mechanistic or pharmacodynamic study for this indication currently exists in the evidence pack.
+The link to Prinzmetal (vasospastic) angina is weak. Raising intracellular calcium could, in theory, promote vasospasm rather than relieve it. Vasospastic angina is conventionally treated with calcium channel blockers and nitrates, which act in the opposite direction. The high TxGNN score appears to reflect graph-based associations between cardiovascular drugs and diseases rather than a credible pharmacological rationale.
 
-The two retrieved publications discuss circadian chronopharmacology of antihypertensive/anti-anginal therapy and the pathophysiology of angina decubitus, but neither directly investigates digoxin as a treatment for Prinzmetal angina. This means the prediction should be regarded as hypothesis-generating rather than evidence-supported at this stage.
+Other predictions in the list (duodenal obstruction, duodenal ulcer, duodenogastric reflux, susceptibility to ischaemic stroke, hypoalphalipoproteinaemia) also have no supporting trials or mechanistic rationale.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta physiologica et pharmacologica Bulgarica | Discusses circadian rhythms and chronopharmacology relevant to antihypertensive/anti-anginal treatment timing; does not study digoxin directly |
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Observational | Chinese medical sciences journal | Hemodynamic monitoring in 30 patients with angina decubitus, re-evaluating underlying mechanism and treatment approach; no digoxin-specific data |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | General review of chronopharmacology and circadian rhythms in antihypertensive treatment. It does not provide direct evidence for digoxin in Prinzmetal angina. |
+
+---
 
 ## UK Market Information
 
-Digoxin currently holds **no marketing authorisation in the UK** according to the evidence pack (market status: not marketed; 0 licences on record). No MHRA product or SmPC data is available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0201010F0AAADAD | Digoxin Tab 62.5mcg | Not specified | Not specified |
+
+The record shows one valid single-ingredient product. The authorisation number is as it appears in the compiled data and does not follow the standard PL format, so it should be checked against the MHRA register.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (these are graph associations, not label text, and should be verified against the SmPC):
+  - Cardiac: myocardial infarction, coronary thrombosis, Wolff-Parkinson-White syndrome, sick sinus syndrome, ventricular fibrillation, hypertrophic cardiomyopathy, atrioventricular block, myocarditis, constrictive pericarditis, restrictive cardiomyopathy, cor pulmonale
+  - Metabolic and renal: kidney disease, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hypothyroidism and myxoedema
+  - Other: haemoglobinopathy, pyoureter
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. The first 20 listed are mostly Moderate, with some Minor:
+  - Moderate: acarbose, rabeprazole, doxycycline, tetracycline, epinephrine, hydrocortisone, dexamethasone, betamethasone, triamcinolone, cholecalciferol, calcium phosphate, metformin, amphotericin B (including the lipid complex), bupropion, acetylsalicylic acid
+  - Minor: albiglutide, hyoscyamine, atropine, glycopyrronium
 
-*(Note: this evidence pack flags TFDA-equivalent warnings/contraindications as a **Blocking** data gap — see Conclusion below.)*
+Digoxin has a narrow therapeutic index. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, no digoxin-specific mechanistic literature, no UK marketing authorisation, and no safety/warning data available for this drug–indication pairing. The prediction rests solely on the TxGNN model score with indirect background literature, which is insufficient to support progression.
+The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials, the single retrieved publication is not relevant to the proposed indication, and the proposed mechanism (increased intracellular calcium) may even be counterproductive in vasospastic angina.
 
 **To proceed, the following is needed:**
-- Regulatory label warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action data (currently a High-severity data gap)
-- Preclinical or mechanistic studies directly linking digoxin to coronary vasospasm/Prinzmetal angina
-- Any clinical trial or case-series evidence specific to this drug–indication pair
-- Confirmation of UK regulatory pathway, given the drug is not currently marketed
+- A plausible mechanistic rationale, supported by preclinical or mechanistic studies
+- Retrieval of the mechanism of action data
+- Review of the UK SmPC and BNF safety information (warnings and contraindications are currently missing)
+- Confirmation of the UK authorisation details (dosage form, approved indication, authorisation number format)
+- Targeted literature review of digoxin in coronary vasospasm, including any reports of harm
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tetracycline
-parent: High Evidence (L1-L2)
-nav_order: 568
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 610
+evidence_level: L5
 indication_count: 4
 ---
 
 # Tetracycline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Tetracycline is a broad-spectrum bacteriostatic antibiotic historically used to treat bacterial infections, including those caused by atypical pathogens such as *Chlamydia*. The TxGNN model predicts it may also be effective, via a non-antibiotic anti-inflammatory mechanism, for **Chronic Rhinosinusitis (with Nasal Polyps)**, with **4 clinical trials** and **20 publications** currently supporting this direction — most of the direct clinical evidence, however, comes from doxycycline, a related tetracycline-class drug, rather than tetracycline itself.
+Tetracycline is a broad-spectrum antibiotic, originally used for infections such as urinary tract infection, bronchitis, acne, gonorrhoea and conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis** (top-ranked prediction), although the best-supported of the four predicted indications is **chronic rhinosinusitis**.
+Across the predictions there are **no registered clinical trials** for tetracycline itself, and the supporting literature is indirect (mostly case reports, microbiology studies and class-level reviews).
 
 ---
 
@@ -41,93 +43,109 @@ Tetracycline is a broad-spectrum bacteriostatic antibiotic historically used to 
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (broad-spectrum antibacterial; specific TFDA/MHRA-approved indication text not available in this Evidence Pack) |
-| Predicted New Indication | Chronic Rhinosinusitis (with Nasal Polyps) |
-| TxGNN Prediction Score | 99.15% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not stated in the UK authorisation data. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax, gonorrhoea, pharyngitis, conjunctivitis, pneumonia and others |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1) |
+| TxGNN Prediction Score | 99.58% |
+| Evidence Level | L4 (literature is indirect; no tetracycline-specific trials) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
-### Other TxGNN-Predicted Indications (Lower Evidence)
-
-This Evidence Pack is a multi-indication candidate. Three additional indications were flagged by TxGNN but carry substantially weaker evidence and are **not** recommended for further action at this time:
+Other predictions evaluated:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|---|---|---|---|
+|------|------|------|------|
+| Punctate epithelial keratoconjunctivitis | 99.58% | L4 | Hold |
 | Chronic ethmoidal sinusitis | 99.15% | L4 | Hold |
-| Punctate epithelial keratoconjunctivitis | 99.58% | L5 | Hold |
+| Chronic rhinosinusitis | 99.15% | L4 | Research question |
 | Paranasal sinus neoplasm | 99.10% | L5 | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data specific to tetracycline is not available in this Evidence Pack (flagged as a High-severity data gap). Based on known pharmacology, tetracycline is a broad-spectrum bacteriostatic antibiotic that inhibits bacterial 30S ribosomal protein synthesis and has activity against atypical organisms such as *Chlamydia*. Beyond its antibacterial action, tetracycline-class drugs also possess well-characterised non-antibiotic, anti-inflammatory properties: inhibition of matrix metalloproteinases (particularly MMP-9), reduction of pro-inflammatory cytokine production, and suppression of neutrophil/eosinophil activity.
+Detailed mechanism of action data is not currently available. Based on known information, tetracycline is a broad-spectrum antibiotic with proven efficacy in several infections, including conjunctivitis, and it may be mechanistically applicable to the predicted eye and sinus conditions.
 
-This secondary mechanism is the pharmacological basis for using tetracycline-class antibiotics — most commonly doxycycline — as adjunctive therapy in chronic rhinosinusitis with nasal polyps (CRSwNP). In CRSwNP, elevated MMP-9 and eosinophilic inflammation drive poor wound healing and high polyp recurrence after surgery; sub-antimicrobial-dose tetracyclines are hypothesised to dampen this inflammatory cascade independently of their antibacterial effect.
+**Punctate epithelial keratoconjunctivitis.** Tetracycline is active against *Chlamydia trachomatis*, a recognised cause of follicular conjunctivitis that can be followed by superficial punctate keratitis. Tetracyclines also have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting properties that may help ocular surface inflammation. The link is indirect, however: the only paper is a 1992 case report of keratitis persisting *after* chlamydial conjunctivitis had resolved, and it does not test tetracycline as a treatment for the keratitis.
 
-Importantly, the great majority of the clinical trial and literature evidence summarised below investigates **doxycycline**, not tetracycline itself. The extrapolation to tetracycline should therefore be treated as a class-effect inference rather than drug-specific evidence. Tetracycline and doxycycline differ in dosing regimens and in some safety characteristics (e.g. photosensitivity, hepatotoxicity risk, tooth discolouration), so this difference needs to be explicitly considered before any repurposing decision.
+**Chronic rhinosinusitis (CRS) and chronic ethmoidal sinusitis.** Tetracycline-class drugs cover common sinus pathogens and have immunomodulatory effects relevant to mucosal inflammation. The CRS evidence concerns doxycycline and omadacycline rather than tetracycline itself, so it supports the class only. For ethmoidal sinusitis, the sole paper is a 2006 susceptibility study with no clinical outcomes.
+
+**Paranasal sinus neoplasm.** No trials or literature were found. The prediction likely reflects network proximity to sinus diseases rather than a true anti-tumour mechanism, and it is not credible without independent evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05157412](https://clinicaltrials.gov/study/NCT05157412) | Phase 3 | Completed | 60 | Evaluated doxycycline as an adjunct to systemic steroids in chronic rhinosinusitis with nasal polyps; the highest-quality completed trial identified for this indication. |
-| [NCT01825408](https://clinicaltrials.gov/study/NCT01825408) | Phase 4 | Completed | 40 | Randomised comparison of 3 vs 6 weeks of antibiotic therapy as part of maximal medical therapy for chronic rhinosinusitis. |
-| [NCT01198912](https://clinicaltrials.gov/study/NCT01198912) | Phase 2 | Completed | 33 | Double-blind, placebo-controlled trial of long-term low-dose oral doxycycline on wound healing quality after endoscopic sinus surgery. |
-| [NCT02569437](https://clinicaltrials.gov/study/NCT02569437) | Phase 2 | Terminated | 49 | Assessed doxycycline combined with oral steroids to reduce symptoms and avoid surgery in moderate-to-severe CRSwNP; trial was terminated early, limiting reliability. |
+Currently no related clinical trials registered for any of the predicted indications.
 
 ---
 
 ## Literature Evidence
 
+Publications are shown for the most-supported predictions.
+
+**Chronic rhinosinusitis**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36740870](https://pubmed.ncbi.nlm.nih.gov/36740870/) | 2023 | RCT | American Journal of Rhinology & Allergy | Randomised controlled trial showing doxycycline improved quality of life and anosmia in CRSwNP. |
-| [32692788](https://pubmed.ncbi.nlm.nih.gov/32692788/) | 2020 | RCT (double-blind, placebo-controlled) | Rhinology | Clinical outcomes of antibiotic and other medical therapies in CRS were independent of microbiome shifts. |
-| [27113482](https://pubmed.ncbi.nlm.nih.gov/27113482/) | 2016 | Systematic Review (Cochrane) | Cochrane Database of Systematic Reviews | Cochrane review of systemic and topical antibiotics as a medical management option for chronic rhinosinusitis. |
-| [35919933](https://pubmed.ncbi.nlm.nih.gov/35919933/) | 2023 | Meta-analysis/Systematic Review | Journal of Laryngology & Otology | Systematic review and meta-analysis evaluating the role of doxycycline in chronic rhinosinusitis management. |
-| [38512383](https://pubmed.ncbi.nlm.nih.gov/38512383/) | 2024 | Systematic Review/Meta-analysis | European Archives of Oto-Rhino-Laryngology | Compared doxycycline with conventional treatment in refractory CRSwNP. |
-| [39937440](https://pubmed.ncbi.nlm.nih.gov/39937440/) | 2025 | Review | Current Opinion in Allergy and Clinical Immunology | Reviews the mechanisms and appropriate patient selection for doxycycline therapy in CRS, including its role alongside newer biologics. |
-| [32278453](https://pubmed.ncbi.nlm.nih.gov/32278453/) | 2020 | Review | Immunology and Allergy Clinics of North America | Describes the immunomodulatory (MMP-inhibiting) role of doxycycline as an adjunct antibiotic in recalcitrant CRS. |
-| [31126631](https://pubmed.ncbi.nlm.nih.gov/31126631/) | 2019 | Clinical study | American Journal of Otolaryngology | Examined addition of doxycycline to standard anti-inflammatory regimen for CRSwNP outcomes. |
-| [28434014](https://pubmed.ncbi.nlm.nih.gov/28434014/) | 2017 | Prospective open-label study | Rhinology | Long-term low-dose oral doxycycline in difficult-to-treat CRSwNP; assessed sustained clinical outcomes. |
-| [41186256](https://pubmed.ncbi.nlm.nih.gov/41186256/) | 2026 | Clinical study | International Forum of Allergy & Rhinology | Investigated wound-healing mechanisms after endoscopic sinus surgery and improvement with doxycycline therapy in eosinophilic CRS. |
+| [35919933](https://pubmed.ncbi.nlm.nih.gov/35919933/) | 2023 | Systematic review/meta-analysis | J Laryngol Otol | Evaluates the role of doxycycline in CRS (doxycycline, not tetracycline) |
+| [27113482](https://pubmed.ncbi.nlm.nih.gov/27113482/) | 2016 | Cochrane systematic review | Cochrane Database Syst Rev | Systemic and topical antibiotics in CRS; evidence limited and of low certainty |
+| [32278453](https://pubmed.ncbi.nlm.nih.gov/32278453/) | 2020 | Review | Immunol Allergy Clin North Am | Macrolides and doxycycline as adjuncts in recalcitrant CRS through immunomodulatory effects, including MMP inhibition |
+| [42382267](https://pubmed.ncbi.nlm.nih.gov/42382267/) | 2026 | Case series | IDCases | Omadacycline used in CRS and recurrent acute rhinosinusitis |
+| [31490466](https://pubmed.ncbi.nlm.nih.gov/31490466/) | 2019 | Retrospective cohort | Rhinology | Antibiotic prescribing in CRS in England and Wales primary care |
+| [18646442](https://pubmed.ncbi.nlm.nih.gov/18646442/) | 2008 | Resistance trend study | Ann Otol Rhinol Laryngol | Trends in antimicrobial resistance in CRS |
+| [34898473](https://pubmed.ncbi.nlm.nih.gov/34898473/) | 2022 | Microbiological study | Acta Microbiol Immunol Hung | Multidrug-resistant coagulase-negative staphylococci isolated from CRS (Poland) |
+
+**Punctate epithelial keratoconjunctivitis**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1424659](https://pubmed.ncbi.nlm.nih.gov/1424659/) | 1992 | Case report | Cornea | Two cases of punctate epithelial keratitis after chlamydial follicular conjunctivitis treated with oral tetracycline or doxycycline |
+
+**Chronic ethmoidal sinusitis**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16763410](https://pubmed.ncbi.nlm.nih.gov/16763410/) | 2006 | In vitro susceptibility study | Kulak Burun Bogaz Ihtis Derg | Antibiotic sensitivities of streptococci from maxillary and ethmoid sinuses; no clinical outcomes |
 
 ---
 
 ## UK Market Information
 
-Tetracycline currently holds **no UK marketing authorisation** in this Evidence Pack (`market_status: Not marketed`, `total_licenses: 0`). No product licences, brand names, or approved indication text are available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| BNF code 0501030V0AAAFAF | Tetracycline tablets 250 mg | Tablet | Not stated in the data compiled for this report |
 
-For context, tetracyclines as a class are listed in the BNF under *Antibacterials > Tetracyclines*; however, this does not constitute an active UK licence for tetracycline itself and should be independently verified against the current BNF and MHRA product database before any regulatory action.
+The BNF classification is section 5.1.3 (tetracyclines). The data compiled for this report did not include a PL number or indication text; please verify against the MHRA product listing and the SmPC.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and conditions of concern** (from knowledge graph associations, not label text, so confirm against the SmPC): liver failure and liver disease, kidney disease, kidney failure, uraemia and glomerulonephritis, epilepsy, diabetes and diabetic ketoacidosis, neutropenia and agranulocytosis, blood coagulation disorders, *Clostridium difficile* colitis, G6PD deficiency, peripheral neuropathy, respiratory failure, atrioventricular block and atrial fibrillation, gout, and others.
 
-No structured warnings, contraindications, or drug–drug interaction data were available in this Evidence Pack (flagged as a **Blocking** data gap: TFDA label warnings/contraindications). This gap currently prevents completion of an initial safety assessment (S1) for this candidate.
+**Drug Interactions** (100 interactions recorded; examples shown):
+- **Major:** isotretinoin, acitretin, aminolevulinic acid
+- **Moderate:** ethinylestradiol, amoxicillin, ampicillin, aminophylline, atovaquone, aluminium hydroxide, bismuth subcitrate potassium, sodium citrate, atracurium
+- **Minor:** acetazolamide, hydrochlorothiazide, amiloride
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple completed Phase 2–4 trials, a Cochrane systematic review, and further systematic reviews/meta-analyses support an anti-inflammatory adjunct role for tetracycline-class antibiotics in chronic rhinosinusitis with nasal polyps. However, nearly all direct clinical evidence concerns doxycycline rather than tetracycline itself, and tetracycline currently holds no UK marketing authorisation, so any progression must be conditional on closing the safety and drug-specificity gaps below. The three other TxGNN-flagged indications (punctate epithelial keratoconjunctivitis, chronic ethmoidal sinusitis, paranasal sinus neoplasm) remain on **Hold** due to insufficient or non-supportive evidence.
+All four predictions rest on indirect evidence (L4 or L5) and no tetracycline-specific trials exist. Chronic rhinosinusitis has the strongest class-level support, via doxycycline, and is worth pursuing as a research question, but the Cochrane review rates antibiotic evidence in CRS as low certainty and resistance and stewardship concerns apply. The sinus neoplasm prediction is not credible on current data.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA-equivalent SmPC warnings and contraindications (currently a Blocking data gap; required before initial safety assessment, S1)
-- Confirmed mechanism-of-action data specific to tetracycline, to validate the class-effect extrapolation from doxycycline trial evidence
-- Assessment of whether tetracycline-specific (rather than doxycycline-only) trial data exist, or whether a dedicated tetracycline trial would be required
-- A UK regulatory pathway assessment, given tetracycline's current unlicensed/not-marketed status
-- A safety monitoring plan addressing known tetracycline-class risks (photosensitivity, hepatotoxicity, tooth discolouration) if repurposing is pursued
+- Tetracycline-specific clinical evidence, for example a trial or comparative analysis against doxycycline in CRS
+- Mechanism of action data
+- Authorisation details (PL number, indication text, dosage form) and SmPC-based warnings and contraindications
+- For the ocular indication, studies evaluating tetracycline as a treatment, not only a description of post-infection keratitis
+- A stewardship and antimicrobial resistance assessment for long-term or repeated use in chronic conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

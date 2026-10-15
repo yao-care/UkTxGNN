@@ -2,7 +2,7 @@
 layout: default
 title: Lactic Acid
 parent: Model Prediction Only (L5)
-nav_order: 331
+nav_order: 357
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,109 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no specific skill — this is a direct report-generation task following the given template exactly.
-
-# Lactic Acid: From No Recorded Indication to Atypical Coarctation of Aorta
+# Lactic Acid: From an Unspecified Original Indication to Atypical Coarctation of Aorta
 
 ## One-Sentence Summary
 
-Lactic acid (DrugBank DB04398) is an endogenous metabolic intermediate with no recorded therapeutic indication and no UK marketing authorisation in this evidence pack.
-The TxGNN model predicts it may be effective for **Atypical Coarctation of Aorta**, but this ranks among the model's highest-confidence predictions with **zero clinical trials** and **zero publications** supporting it — the model itself flags this as a likely false positive.
+Lactic acid is an endogenous metabolite marketed in the UK, but the data compiled for this report contain no approved indication text for it.
+The TxGNN model predicts it may be effective for **atypical coarctation of aorta** with a very high score, yet there are **0 clinical trials** and **0 publications** for this prediction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | None on record — lactic acid is an endogenous metabolite, not an approved medicinal product in this dataset |
-| Predicted New Indication | Atypical Coarctation of Aorta |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for lactic acid. Based on the information provided, lactic acid is an endogenous glycolysis product rather than a drug developed against a specific indication — there is no recorded original indication to compare against, and no UK marketing authorisation exists.
+Currently, detailed mechanism of action data is not available. Lactic acid is an endogenous metabolite (the end product of glycolysis), and no approved indication text was available for it, so the link between an original and a new indication cannot be established.
 
-The TxGNN model assigned a very high score (0.9959) to "atypical coarctation of aorta," but this is unsupported by any clinical trial or literature evidence. The evidence pack's own annotation explicitly raises concern that this is a **high-connectivity artefact**: as a ubiquitous endogenous metabolite, lactic acid is linked to an unusually large number of nodes in the knowledge graph, which can inflate TxGNN scores without reflecting a genuine pharmacological relationship. There is no plausible mechanistic pathway connecting exogenous lactic acid administration to correction of a structural congenital aortic malformation.
+No mechanistic link was identified for this prediction. The TxGNN score is high (0.996), but there are no trials and no literature. Atypical coarctation of aorta is a structural vascular malformation, which is managed surgically or by intervention. There is no known role for a metabolite such as lactic acid in treating it. The prediction should be regarded as a knowledge-graph artefact until proven otherwise.
 
-For context, nine other candidates were reviewed in this evidence pack (ranks 2–10). Two reached a somewhat firmer evidence tier (L4) — "aortic malformation" and "eye disease" — but in both cases the literature concerned lactate's *endogenous* pathological role (e.g., promoting choroidal neovascularisation, myopia progression via histone lactylation, tumour immune evasion) rather than any therapeutic benefit of administering lactic acid. No candidate in the pack — including the top-ranked one — has trial or literature evidence of lactic acid being tested as a treatment. Overall, this candidate set does not support a repurposing hypothesis at this time.
+Other top-ranked predictions show the same pattern:
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Summary |
+|------|------|------|------|
+| 2 | Aortic malformation | 99.35% | 14 papers, none testing lactic acid as a therapy |
+| 3 | Non-syndromic oesophageal malformation | 99.23% | No evidence |
+| 4 | Amenorrhoea | 99.16% | 1 baboon vaginal microbiota study |
+| 5 | Dry eye syndrome | 99.13% | Biomarker, probiotic and supplement studies; none tests lactic acid |
+| 6 | Oesophageal disease | 98.94% | Literature suggests lactate may promote tumour progression |
+| 9 | Eye disease | 98.68% | One study suggests lactic acid promotes choroidal neovascularisation |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+For the top-ranked prediction (atypical coarctation of aorta), currently no related literature available.
+
+For the second-ranked prediction (aortic malformation), 14 papers were retrieved, but none evaluates lactic acid as a treatment:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3367436](https://pubmed.ncbi.nlm.nih.gov/3367436/) | 1988 | Preclinical | J Vasc Surg | Aortic wall metabolism in rabbits with coarctation and atherosclerosis |
+| [23791497](https://pubmed.ncbi.nlm.nih.gov/23791497/) | 2013 | RCT | J Cardiothorac Vasc Anesth | Ultrafiltration strategy in paediatric cardiac surgery; not lactic acid therapy |
+| [25157439](https://pubmed.ncbi.nlm.nih.gov/25157439/) | 2015 | Preclinical | Catheter Cardiovasc Interv | Poly-L-lactic acid biodegradable stent in rabbit aorta (device material) |
+| [32382764](https://pubmed.ncbi.nlm.nih.gov/32382764/) | 2020 | Case report | Pediatr Cardiol | Absorbable poly-L-lactic acid microplate for bronchomalacia in congenital heart disease |
+| [14128102](https://pubmed.ncbi.nlm.nih.gov/14128102/) | 1963 | Not classified | Minerva Pediatr | Blood lactic acid behaviour in children with congenital heart disease |
+
+The remaining papers cover perioperative biomarkers and surgical cohorts, with lactic acid appearing only incidentally.
+
+---
 
 ## UK Market Information
 
-Lactic acid holds **no UK marketing authorisation** on record in this evidence pack (0 licenses; market status: Not marketed). There is no product information to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 190600000AAATAT | Lactic Acid_Liq | Not stated | Not stated |
+
+Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form and approved indication were not available in the data compiled for this report, so this identifier should be verified against the MHRA register, as it does not follow the usual PL number format.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: 17 interactions were identified. Those of moderate severity are:
+  - Tetracycline-class antibiotics (doxycycline, tetracycline, minocycline, demeclocycline, oxytetracycline)
+  - Salicylates (acetylsalicylic acid, sodium salicylate)
+  - Sympathomimetics (ephedrine, nasal ephedrine, pseudoephedrine)
+- Minor interactions involve sulfonylureas (chlorpropamide, tolazamide, glipizide, glyburide, acetohexamide, tolbutamide) and methotrexate.
 
-> Note: TFDA/MHRA-equivalent labelling data (warnings, contraindications) is currently a **Blocking** data gap for this candidate, meaning no formal safety evaluation (S1 stage) can proceed until this is sourced.
+Literature in the data also suggests lactate may have harmful roles in some settings: it is linked to immunosuppression and progression in oesophageal squamous cell carcinoma, and to choroidal neovascularisation in the eye.
+
+For warnings and contraindications, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical trial or literature support, and the model's own annotation identifies it as a probable false positive driven by lactic acid's high connectivity as a common metabolite in the knowledge graph, not a genuine mechanistic signal. With no mechanism of action data, no original indication, and no UK marketing authorisation, there is no basis to advance this candidate.
+All ten predicted indications are supported only by the TxGNN knowledge-graph score (evidence level L5), with no clinical trials. For the top predictions, the available literature either has no connection to lactic acid therapy or points to potential harm (oncology and ocular neovascularisation). Lactic acid has no plausible therapeutic role in structural malformations.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for lactic acid (DG002) to assess any plausible biological rationale
-- Regulatory labelling/warnings data (DG001 — currently blocking) before any safety-stage review
-- Independent, non-KG-based validation to rule out the suspected high-connectivity artefact before further work
-- If pursued at all, the "eye disease" (rank 9) and "aortic malformation" (rank 2) candidates warrant closer scrutiny only as research questions into lactate biology, not as therapeutic repurposing candidates — the current evidence points to lactate as a pathological driver rather than a treatment
+- Approved indication, dosage form and route details for the UK authorisation, verified with the MHRA
+- Mechanism of action data
+- Warnings and contraindications from the SmPC and BNF (a blocking gap for safety screening)
+- A credible mechanistic hypothesis and preclinical evidence for any chosen indication before further investment
+- Consideration of whether lower-ranked predictions with more biologically plausible links merit review instead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

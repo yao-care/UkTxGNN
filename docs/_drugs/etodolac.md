@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etodolac
-parent: High Evidence (L1-L2)
-nav_order: 249
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 265
+evidence_level: L5
 indication_count: 10
 ---
 
 # Etodolac
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,89 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Etodolac: From Rheumatic Pain and Arthritis to Ankylosing Spondylitis
-
-> **Note on indication selection:** TxGNN's single highest-scoring prediction (acromesomelic dysplasia, Hunter-Thompson type, rank 1) has zero supporting evidence and is explicitly flagged in the underlying rationale as likely graph-embedding noise, with a "Hold" recommendation. This report instead focuses on **Ankylosing Spondylitis** — the only predicted indication in this evidence pack backed by actual clinical-trial and literature evidence (Evidence Level L2, "Proceed with Guardrails").
+# Etodolac: From Rheumatoid Arthritis to Ankylosing Spondylitis
 
 ## One-Sentence Summary
 
-Etodolac is a non-steroidal anti-inflammatory drug (NSAID) with a long history of use in rheumatic pain and inflammatory joint conditions. The TxGNN model predicts it may be effective for **Ankylosing Spondylitis**, and published literature going back to the late 1980s/1990s already documents etodolac's use in this condition, though there is currently **no dedicated etodolac-specific randomised controlled trial** and **no active UK marketing authorisation** on record.
-
----
+Etodolac is a COX-2-preferential non-steroidal anti-inflammatory drug (NSAID), originally used for rheumatoid arthritis, osteoarthritis and related joint conditions.
+The TxGNN model's highest-ranked prediction is a rare skeletal dysplasia with no supporting evidence; the most clinically meaningful candidate is **ankylosing spondylitis**, which has **no registered clinical trials** and **8 publications** (indirect evidence, mainly reviews and surveillance reports).
 
 ## Quick Overview
 
+The first-ranked prediction (acromesomelic dysplasia, Hunter-Thompson type) has no supporting evidence and no plausible mechanism, so this report focuses on ankylosing spondylitis (ranked 6th), the best-supported candidate.
+
 | Item | Content |
 |------|------|
-| Original Indication | Not available from UK regulatory data (drug not currently marketed in the UK). Published literature indicates historical use in rheumatoid arthritis, osteoarthritis and general pain states. |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (UK licence text not available) |
+| Predicted New Indication | Ankylosing spondylitis (rank 6); rank 1 prediction was acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 99.93% (ankylosing spondylitis); 99.97% (rank 1) |
+| Evidence Level | L4 (ankylosing spondylitis); L5 for rank 1 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (rank 1 prediction); Research Question for ankylosing spondylitis |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this evidence pack. Based on the literature evidence gathered, etodolac is an NSAID whose "primary anti-inflammatory mechanism of action is through a selective effect on cyclo-oxygenase-2 (COX-2)" (Bellamy, 1997, PMID 17694363), distinguishing it somewhat from purely non-selective older NSAIDs.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on the published literature, etodolac is an NSAID whose main anti-inflammatory action is a selective effect on cyclo-oxygenase-2 (COX-2), reducing prostaglandin-mediated inflammation and pain.
 
-NSAIDs are a first-line, guideline-recommended (ASAS/EULAR) symptomatic treatment for axial inflammation and pain in Ankylosing Spondylitis. Etodolac's efficacy in rheumatic disease more broadly — rheumatoid arthritis, osteoarthritis and, notably, ankylosing spondylitis itself — was already documented in comparative and open-label studies from the late 1980s and 1990s (e.g. Balfour & Buckley, 1991, PMID 1717225; Bacon, 1990, PMID 2146130), where it performed comparably to naproxen and piroxicam.
+For ankylosing spondylitis, NSAIDs are guideline-recommended first-line symptomatic therapy, and prostaglandin suppression plausibly explains relief of inflammatory back pain and stiffness. Etodolac is already used in related rheumatic conditions (rheumatoid arthritis, osteoarthritis, spondyloarthropathy), so this is largely an extension within the drug's existing class and use rather than a novel repurposing. Note that NSAIDs relieve symptoms; they are not shown to modify the disease.
 
-In other words, this is less a *novel* mechanistic hypothesis and more a *class-effect* prediction: etodolac's anti-inflammatory/analgesic action is mechanistically aligned with AS's treatment paradigm, and this has historical clinical support — it is simply absent from current UK licensing data because the product is not presently marketed in the UK.
-
----
+The other top-ranked predictions should be treated with caution:
+- **Rare skeletal and connective tissue disorders** (acromesomelic dysplasia Hunter-Thompson type, brachyolmia, brachyolmia-amelogenesis imperfecta syndrome, pseudoachondroplasia, myosclerosis): these are genetic conditions with no known link to COX inhibition. The high scores probably reflect proximity in the knowledge graph to arthropathy terms rather than biology. At most, etodolac might ease secondary pain.
+- **Spondyloarthropathy, susceptibility to**: overlaps with an existing indication and is effectively a relabelling, not repurposing.
+- **Rheumatoid vasculitis**: requires immunosuppression; NSAIDs do not treat vasculitis, and renal and cardiovascular risks may be unfavourable.
+- **Hypermobility of coccyx**: NSAIDs are sometimes used for coccydynia, which gives a plausible symptomatic rationale, but there is no direct evidence.
+- **Inflammatory spondylopathy**: overlaps with ankylosing spondylitis and relies on the same literature, so it is not independent evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05164198](https://clinicaltrials.gov/study/NCT05164198) | Phase 4 | Unknown | 448 | Evaluates standard-dose vs reduced-dose TNF inhibitor in AS patients with stable disease. **Does not test etodolac directly** — relevance is population-level only (AS patients), graded C (weak) in the underlying evidence assessment. |
-
-No etodolac-specific interventional trial in Ankylosing Spondylitis was identified.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+None of these is an etodolac-specific controlled trial in ankylosing spondylitis, so the evidence is indirect. The same set supports inflammatory spondylopathy.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2146130](https://pubmed.ncbi.nlm.nih.gov/2146130/) | 1990 | Review | European Journal of Rheumatology and Inflammation | Randomised, double-blind trials show etodolac (200–300 mg b.i.d.) comparable to naproxen and piroxicam in RA, OA and AS. |
-| [1717225](https://pubmed.ncbi.nlm.nih.gov/1717225/) | 1991 | Review | Drugs | Etodolac effective in RA, OA and AS, and in postoperative/gout/traumatic pain; adverse-effect profile similar to other NSAIDs. |
-| [17694363](https://pubmed.ncbi.nlm.nih.gov/17694363/) | 1997 | Review | Inflammopharmacology | Clinical review confirming COX-2-selective mechanism; widely used in RA, AS, gout and OA. |
-| [2525800](https://pubmed.ncbi.nlm.nih.gov/2525800/) | 1989 | Cohort | La Revue de Médecine Interne | Open trial in 4,947 patients (RA/AS/OA of lower limbs) assessing efficacy, safety and therapeutic benefit. |
-| [2150569](https://pubmed.ncbi.nlm.nih.gov/2150569/) | 1990 | Cohort | Rheumatology International | Large-scale French open-label safety study, 4,947 patients (RA/AS/OA), plus 51,355-patient postmarketing safety cohort. |
-| [2150568](https://pubmed.ncbi.nlm.nih.gov/2150568/) | 1990 | Cohort | Rheumatology International | Postmarketing surveillance across Italy, Switzerland, UK and France (8,334 patients, OA/RA, one cohort including AS). |
-| [21140116](https://pubmed.ncbi.nlm.nih.gov/21140116/) | 2010 | Cohort | Singapore Medical Journal | Pamidronate trial in NSAID-refractory/intolerant AS — contextual evidence on NSAID's role as first-line therapy, not etodolac-specific. |
-| [20829199](https://pubmed.ncbi.nlm.nih.gov/20829199/) | 2011 | Review | Annals of the Rheumatic Diseases | ASAS recommendations for standardising NSAID-intake reporting in axial spondyloarthritis trials. |
-| [22071858](https://pubmed.ncbi.nlm.nih.gov/22071858/) | 2011 | Review (Cochrane) | Cochrane Database of Systematic Reviews | Reviews NSAID safety (incl. etodolac class) alongside methotrexate in inflammatory arthritis, including AS. |
-| [24449987](https://pubmed.ncbi.nlm.nih.gov/24449987/) | 2013 | Review | The Israel Medical Association Journal | Discusses diagnostic boundaries of axial spondyloarthritis; contextual, not etodolac-specific. |
-
----
+| [1717225](https://pubmed.ncbi.nlm.nih.gov/1717225/) | 1991 | Review | Drugs | Etodolac is effective in rheumatoid arthritis, osteoarthritis and ankylosing spondylitis, and appears at least as effective as other NSAIDs |
+| [2146130](https://pubmed.ncbi.nlm.nih.gov/2146130/) | 1990 | Review | Eur J Rheumatol Inflamm | Overview of randomised, double-blind studies comparing etodolac with standard NSAIDs or placebo in rheumatoid arthritis, osteoarthritis and ankylosing spondylitis |
+| [17694363](https://pubmed.ncbi.nlm.nih.gov/17694363/) | 1997 | Review | Inflammopharmacology | Clinical review of etodolac as an analgesic; acts via selective COX-2 effect; used in inflammatory arthritides including ankylosing spondylitis |
+| [22071858](https://pubmed.ncbi.nlm.nih.gov/22071858/) | 2011 | Review (Cochrane) | Cochrane Database Syst Rev | Safety of NSAIDs alongside methotrexate in inflammatory arthritis, including ankylosing spondylitis |
+| [2525800](https://pubmed.ncbi.nlm.nih.gov/2525800/) | 1989 | Observational (open-label) | Rev Med Interne | Open trial of 4,947 patients (rheumatoid arthritis, ankylosing spondylitis, osteoarthritis) assessing efficacy and tolerability |
+| [2150569](https://pubmed.ncbi.nlm.nih.gov/2150569/) | 1990 | Open-label safety trial | Rheumatol Int | Two large French open-label studies confirming efficacy and safety of etodolac |
+| [2150568](https://pubmed.ncbi.nlm.nih.gov/2150568/) | 1990 | Postmarketing surveillance | Rheumatol Int | Surveillance in 8,334 patients (Italy, Switzerland, UK, France) showing a favourable safety profile |
+| [20829199](https://pubmed.ncbi.nlm.nih.gov/20829199/) | 2011 | Guideline/Recommendation | Ann Rheum Dis | ASAS recommendations for collecting and reporting NSAID intake in axial spondyloarthritis studies (methodological, not efficacy data) |
 
 ## UK Market Information
 
-Etodolac currently has **no active UK marketing authorisation** on record (0 licenses; market status: not marketed). Any repurposing pathway would need to address this before clinical use — this is a first-order gap that must be resolved ahead of, or alongside, the indication-repurposing question.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010E0AAADAD | Etodolac tablets 600 mg modified-release | Modified-release tablet | Not available in the data compiled |
 
----
+Only one valid single-ingredient authorisation was identified. Please check the current MHRA record, the SmPC and the BNF for licensed indications and dosing.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph** (drug-disease associations, not label text): hypertension, kidney disease, liver disease, gallbladder disease, active peptic ulcer disease, blood coagulation disease, myocardial infarction, coronary thrombosis, other cardiovascular and heart disease, and haemoglobinopathy. These are consistent with the known class risks of NSAIDs (gastrointestinal, cardiovascular and renal) and must be checked against the SmPC.
+- **Drug Interactions** (100 interactions identified; selected examples):
+  - Moderate: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, glimepiride, repaglinide, chlorpropamide, mesalazine, balsalazide, potassium citrate, potassium bicarbonate, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
+  - Minor: famotidine, ranitidine, cimetidine, linaclotide
 
-*(No structured warnings, contraindications, or drug interaction data were retrievable in this evidence pack — this is flagged as a Blocking data gap, see Conclusion below.)*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for the top-ranked rare skeletal and connective tissue predictions). Ankylosing spondylitis is a **Research Question**.
 
 **Rationale:**
-The mechanistic and historical-literature case for etodolac in Ankylosing Spondylitis is reasonably solid — decades-old comparative and cohort data (thousands of patients) support NSAID-class efficacy — but no etodolac-specific RCT exists, the supporting literature predates modern AS trial standards (pre-ASAS era), and the drug has no current UK marketing authorisation.
+The highest-scoring predictions are rare genetic disorders with no trials, no literature and no biological rationale, so the scores likely reflect knowledge-graph artefacts. Ankylosing spondylitis is clinically plausible, but it falls within established NSAID use and rests only on indirect evidence, with no etodolac-specific controlled trial.
 
 **To proceed, the following is needed:**
-- UK SmPC/PIL retrieval for warnings and contraindications — flagged as a **Blocking** data gap (DG001) that must be resolved before any S1 safety screen
-- Confirmed mechanism-of-action detail from DrugBank (DG002, High severity)
-- Clarification of the regulatory pathway, since the product is not currently marketed in the UK (this is a marketing-authorisation question, not solely a repurposing/off-label question)
-- Contemporary comparative or guideline-referenced data on etodolac in AS, given existing evidence is >30 years old
+- Licensed indication text and dosage form for the UK authorisation (SmPC/MHRA)
+- Mechanism of action data confirmed from DrugBank
+- Warnings and contraindications from the SmPC and BNF
+- For ankylosing spondylitis: a comparison with NICE-recommended NSAID options and, if warranted, a controlled study
+- A gastrointestinal, cardiovascular and renal risk assessment for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

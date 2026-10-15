@@ -2,7 +2,7 @@
 layout: default
 title: Sulfinpyrazone
 parent: Model Prediction Only (L5)
-nav_order: 545
+nav_order: 584
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfinpyrazone: From Gout to Renal Hypouricemia
+# Sulfinpyrazone: From Hyperuricaemia to Renal Hypouricaemia
 
 ## One-Sentence Summary
 
-> Sulfinpyrazone is a uricosuric agent historically used in the management of gout and hyperuricemia, though no formal original-indication or UK licensing data is recorded in this evidence pack.
-> The TxGNN model's top-ranked prediction is **Renal Hypouricemia**, but the evidence pack's own mechanistic rationale flags this as a likely opposite-direction, low-plausibility signal.
-> No clinical trials or literature currently support this specific prediction, and the recommended decision is **Hold**.
-
----
+Sulfinpyrazone is a uricosuric agent, originally used to treat hyperuricaemia.
+The TxGNN model predicts it may be effective for **renal hypouricaemia**, but **no clinical trials and no publications** support this prediction, and the mechanistic direction appears to be contraindicated.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no licences on file). Based on internal rationale notes, Sulfinpyrazone is historically a uricosuric agent used in gout treatment |
-| Predicted New Indication | Renal Hypouricemia |
+| Original Indication | Hyperuricaemia (obsolete disease term in the knowledge graph; no approved indication text available for the UK licence) |
+| Predicted New Indication | Renal hypouricaemia |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available for Sulfinpyrazone in this evidence pack. However, the pack's own rationale notes describe Sulfinpyrazone as a uricosuric agent that inhibits renal tubular reabsorption of uric acid — a mechanism that **promotes** uric acid excretion and lowers serum urate.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfinpyrazone is a uricosuric agent that inhibits URAT1-mediated renal urate reabsorption and lowers serum urate. It also has a weak antiplatelet effect.
 
-The top-ranked predicted indication, Renal Hypouricemia, is a condition of pathologically *low* urate caused by *excessive* renal urate excretion. This is pharmacologically the opposite direction to Sulfinpyrazone's known uricosuric effect: giving a drug that further promotes urate excretion to a patient who already excretes too much urate has no plausible therapeutic rationale. The evidence pack's own annotation for this prediction explicitly flags it as a likely artefact of TxGNN's disease-embedding similarity rather than a genuine mechanistic signal, and no clinical trials or literature exist to support it.
+On closer inspection, the prediction is **not mechanistically reasonable**. Renal hypouricaemia is caused by loss-of-function of URAT1 (SLC22A12) or GLUT9, which already produces excessive urate excretion and low serum urate. A uricosuric drug would be expected to **worsen** this phenotype rather than treat it. The very high TxGNN score is therefore most likely an artefact of associations in the knowledge graph, and the predicted direction should be regarded as contraindicated.
 
-By contrast, other candidates further down the ranked list in this pack show more plausible mechanistic direction — notably rank 3, Lesch-Nyhan syndrome (complete HGPRT deficiency causing severe hyperuricemia and gouty arthritis/nephropathy), where a uricosuric mechanism is directionally consistent with disease pathophysiology and is supported by a single review-level PubMed citation (evidence level L4). This candidate is not the subject of the current report title but is noted here for transparency, as it appears to be mechanistically better supported within the same evidence pack.
-
----
+The other highly ranked predictions show the same pattern:
+- **HPRT partial deficiency and Lesch-Nyhan syndrome:** the link is only symptomatic (lowering urate). Increased renal urate load raises the risk of urate nephropathy and stones, and xanthine oxidase inhibitors such as allopurinol are standard of care. Sulfinpyrazone would not address the neurological features of Lesch-Nyhan syndrome.
+- **Glutaminase deficiency encephalopathy, ENT malformation, phenylalanine metabolism disorders, vestibular conditions, nasal acilia and juvenile nasopharyngeal angiofibroma:** no plausible mechanism was identified, and these predictions appear to reflect network proximity only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No MHRA marketing authorisations are recorded for Sulfinpyrazone in this evidence pack (total licences: 0; market status: Not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001040P0AAAAAA | Sulfinpyrazone Tablets 100 mg | Tablet (form not specified in the data) | Not specified in the data compiled |
 
----
+One single-ingredient authorisation is recorded as valid. The identifier shown is not in standard MHRA PL format, so the number and indication should be verified against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (not taken from label text; to be confirmed against the SmPC): kidney disease, pyoureter, haematological disease, inflammatory bowel disease and urolithiasis.
+- **Drug Interactions:** 100 interactions were identified. Examples include:
+  - **Major:** deferasirox.
+  - **Moderate:** aspirin (acetylsalicylic acid); sulfonylureas and related antidiabetic agents (chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide, repaglinide); saxagliptin and linagliptin; aprepitant and rolapitant; cobicistat; eliglustat; naloxegol; nitisinone; fenfluramine; sibutramine.
+  - **Minor:** nateglinide.
+- The urolithiasis and kidney disease signals are particularly relevant, because increased urinary urate excretion is the expected effect of the drug.
 
----
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Renal Hypouricemia) is directionally inconsistent with Sulfinpyrazone's known uricosuric mechanism, is unsupported by any clinical trial or literature evidence (Evidence Level L5, decision stage S0), and the evidence pack itself flags it as a probable false-positive prediction rather than a genuine repurposing signal.
+The prediction rests on model score alone (L5), with no trials or publications. The expected pharmacology (increased urate excretion) runs opposite to the disease biology of renal hypouricaemia, so the high score is likely a graph artefact. None of the other top-ranked predictions has a plausible mechanism or supporting evidence.
 
 **To proceed, the following is needed:**
-- Product label warnings and contraindications from the relevant regulatory source (flagged as a **Blocking** data gap — required before any safety pre-assessment can proceed)
-- Confirmed mechanism of action (MOA) data (flagged as a **High**-severity data gap)
-- UK marketing authorisation and licensing status verification
-- If pursuing repurposing further, re-evaluation should focus on the mechanistically consistent candidate identified within this pack (Lesch-Nyhan syndrome, rank 3, L4), including a targeted literature search rather than the current top-ranked, mechanistically inconsistent prediction
+- A mechanistic rationale showing a plausible benefit rather than harm. Without one, this indication should not be pursued.
+- Mechanism of action data and label-based warnings and contraindications from the SmPC and BNF.
+- Verification of the UK licence details (authorisation number, dosage form and approved indication).
+- A review of lower-ranked predictions, or of other candidate drugs, for indications with a credible mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dihydrotachysterol
 parent: Model Prediction Only (L5)
-nav_order: 214
+nav_order: 228
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dihydrotachysterol: From Vitamin D Analogue Therapy to Obsolete Vitamin D Deficiency
+# Dihydrotachysterol: From Hypoparathyroidism and Rickets to Renal Osteodystrophy
 
 ## One-Sentence Summary
 
-Dihydrotachysterol is a synthetic vitamin D2 analogue; structured records of its original licensed indication and mechanism of action are not available in this evidence pack. The TxGNN model's top-ranked prediction for this drug is **Obsolete Vitamin D Deficiency**, a disease term itself flagged as deprecated, with **no clinical trials and no literature** currently supporting this specific prediction.
+Dihydrotachysterol is a vitamin D analogue originally used for hypoparathyroidism, rickets, osteomalacia and other disorders of calcium and phosphate metabolism.
+The TxGNN model's top-ranked prediction is **obsolete vitamin D deficiency**, but this is an obsolete disease term with no supporting studies. The best-supported prediction is **renal osteodystrophy**, with **no registered clinical trials** and **20 publications**, including one prospective double-blind study in children.
+
+This report focuses on renal osteodystrophy because it has the strongest evidence. Other predictions are summarised briefly below.
 
 ---
 
@@ -41,23 +44,30 @@ Dihydrotachysterol is a synthetic vitamin D2 analogue; structured records of its
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack — no UK marketing authorisation exists for Dihydrotachysterol (see "Why is This Prediction Reasonable" below) |
-| Predicted New Indication | Obsolete Vitamin D Deficiency |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Hypercalcaemia disease, nephrocalcinosis, phosphorus metabolism disease, hypophosphataemia, rickets, osteomalacia, hypoparathyroidism (from the knowledge graph; no approved indication text is available for the UK product) |
+| Predicted New Indication | Renal osteodystrophy (rank 7 of 10 predictions; the top-ranked prediction, "obsolete vitamin D deficiency", has no supporting evidence) |
+| TxGNN Prediction Score | 99.95% (renal osteodystrophy); 99.999% for the top-ranked prediction |
+| Evidence Level | L3 (observational and comparative studies; one double-blind study, but no registered trials) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (overall); renal osteodystrophy is a Research Question |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the current dataset (flagged as a High-severity data gap, DG002, requiring DrugBank API lookup). However, literature contained elsewhere in this same evidence pack (e.g. PMID 3320562) independently describes Dihydrotachysterol2 as "a synthetic analogue of vitamin D2" that has been "used extensively in the treatment of renal osteodystrophy and hypoparathyroidism," and does not require renal 1α-hydroxylation to become active — unlike native vitamin D.
+Detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, dihydrotachysterol is a vitamin D analogue. It is hydroxylated in the liver to 25-hydroxydihydrotachysterol, which acts on the vitamin D receptor without needing the renal 1-alpha-hydroxylation step.
 
-Given this, the TxGNN prediction of "Obsolete Vitamin D Deficiency" as the top-ranked candidate is mechanistically almost tautological: it reflects the drug's core pharmacological action as a vitamin D replacement agent, rather than a genuinely novel repurposing signal. The disease term itself is marked as obsolete in the underlying vocabulary (a deprecated classification, likely superseded by more specific ICD/SNOMED terms), which limits its practical use for indication-level decision-making.
+In chronic kidney disease, the kidney can no longer activate vitamin D properly. This leads to low calcium, secondary hyperparathyroidism and bone disease (renal osteodystrophy). Because dihydrotachysterol bypasses the failing renal step, using it in this setting is mechanistically plausible. It also overlaps with its established uses in rickets, osteomalacia and hypoparathyroidism.
 
-Critically, no clinical trials or literature in this evidence pack directly support this specific candidate — searches against ClinicalTrials.gov, ICTRP and PubMed for "Dihydrotachysterol" + "obsolete vitamin D deficiency" all returned zero results (query log IDs 2–4). The prediction should therefore be treated as an artefact of strong mechanistic proximity rather than an independently evidenced new indication, and is not suitable for progression without further data.
+An important caveat: the literature suggests calcitriol and newer vitamin D analogues have largely replaced dihydrotachysterol for this purpose.
+
+**Other predictions (all with no clinical trials):**
+- **Hereditary hypophosphataemic rickets** (L4): historical reports only; overlaps with existing indications.
+- **Vitamin D-dependent rickets** (L4): mechanistically relevant, but only one indirect case report.
+- **Impaired renal function** (L3): the literature concerns bone and mineral disorders in renal failure, not benefit for renal function itself.
+- **Familial isolated hypoparathyroidism**: a subtype of an existing indication, so not a new repurposing signal.
+- **Obsolete vitamin D deficiency, non-renal secondary hyperparathyroidism, Dahlberg-Borer-Newcomer syndrome, acromesomelic dysplasia (Campailla-Martinelli type), craniofacial conodysplasia**: prediction only (L5). The last two have no clear mechanistic link.
 
 ---
 
@@ -69,36 +79,60 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Selected publications for renal osteodystrophy:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8151464](https://pubmed.ncbi.nlm.nih.gov/8151464/) | 1994 | RCT (double-blind) | J Pediatr | Calcitriol versus dihydrotachysterol in children with chronic renal insufficiency and growth failure |
+| [6548870](https://pubmed.ncbi.nlm.nih.gov/6548870/) | 1984 | Comparative clinical study | Am J Dis Child | Calcitriol versus dihydrotachysterol in 24 patients; accelerated rise in serum creatinine in 3 of 12 patients in each group |
+| [3878249](https://pubmed.ncbi.nlm.nih.gov/3878249/) | 1985 | Clinical study | Clin Nephrol | Dihydrotachysterol plus 24,25-dihydroxyvitamin D3 in 10 children on haemodialysis; higher dihydrotachysterol doses were needed to maintain calcium |
+| [6493156](https://pubmed.ncbi.nlm.nih.gov/6493156/) | 1984 | Cohort | Miner Electrolyte Metab | 16 patients with advanced renal failure treated with dihydrotachysterol; effect on renal function studied |
+| [907948](https://pubmed.ncbi.nlm.nih.gov/907948/) | 1977 | Clinical study | Can Med Assoc J | Dihydrotachysterol in haemodialysis patients with bone disease; alkaline phosphatase fell, bone pain resolved and pseudofractures healed |
+| [7363513](https://pubmed.ncbi.nlm.nih.gov/7363513/) | 1980 | Case series | Clin Nephrol | Two non-dialysed patients with severe uraemic bone disease improved on dihydrotachysterol |
+| [6397042](https://pubmed.ncbi.nlm.nih.gov/6397042/) | 1984 | Review | Adv Intern Med | Overview of renal osteodystrophy and the role of active vitamin D forms |
+| [9189258](https://pubmed.ncbi.nlm.nih.gov/9189258/) | 1997 | Review | Am J Nephrol | History of vitamin D treatment of renal osteodystrophy |
+| [6895767](https://pubmed.ncbi.nlm.nih.gov/6895767/) | 1982 | Review | JAMA | Vitamin D metabolites and analogues, including dihydrotachysterol, in renal osteodystrophy and hypoparathyroidism |
+| [73742](https://pubmed.ncbi.nlm.nih.gov/73742/) | 1976 | Case series | Lancet | Dihydrotachysterol in dialysis patients with hypophosphataemia and osteomalacia |
+
+Safety-relevant reports include hypercalcaemia and renal failure after long-term use ([13636824](https://pubmed.ncbi.nlm.nih.gov/13636824/), 1959) and intoxication cases ([20507648](https://pubmed.ncbi.nlm.nih.gov/20507648/), 2010; [6516495](https://pubmed.ncbi.nlm.nih.gov/6516495/), 1984).
 
 ---
 
 ## UK Market Information
 
-Dihydrotachysterol is not currently marketed in the UK. No MHRA marketing authorisations are on record for this product (0 licences), and no dosage forms or approved indication text are available for reference.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0906040K0AAAAAA | Dihydrotachysterol oily solution 250 micrograms/1 ml | Oral solution (as named; dosage form not recorded) | Not recorded |
+
+This is one valid single-ingredient product. The identifier shown is a product code, not a standard PL number, so it should be checked against MHRA records. The BNF classification is not available from the compiled data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and disease associations (from the knowledge graph, not label text):** kidney disease, pyoureter, sarcoidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, nephrolithiasis (including SLC26A1-related susceptibility), acute urate nephropathy, hyperphosphataemia, hypervitaminosis and arteriosclerosis obliterans. Several of these overlap with the target population (kidney disease), so they need careful clinical interpretation.
+- **Drug interactions:** 50 interactions were identified; the main ones are below.
+  - **Major:** cholecalciferol, calcifediol, calcitriol, doxercalciferol, burosumab (additive vitamin D effects; hypercalcaemia risk).
+  - **Moderate:** thiazide diuretics (hydrochlorothiazide, chlorothiazide, chlortalidone), barbiturates (amobarbital, butalbital), carbamazepine, rifabutin, bile acid sequestrants (cholestyramine, colesevelam, colestipol), digoxin, magnesium oxide, sevelamer, topical calcipotriol and calcitriol.
+- **Literature safety signals:** hypercalcaemia, intoxication with prolonged hypercalcaemia (long half-life), and possible effects on renal function in chronic renal failure.
 
-*Note: TFDA/MHRA labelling warnings and contraindications for this drug are recorded as a Blocking data gap (DG001) and have not yet been retrieved.*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (renal osteodystrophy and the hypophosphataemic and vitamin D-dependent rickets predictions may be considered as Research Questions)
 
 **Rationale:**
-The top-ranked TxGNN prediction ("Obsolete Vitamin D Deficiency") has no supporting clinical trial or literature evidence, uses a deprecated disease term, and largely restates the drug's known pharmacological class rather than identifying a novel indication. Combined with the absence of MOA data, UK licensing data, and safety/contraindication data, there is insufficient basis to advance this specific candidate.
+- No clinical trials are registered, and the literature is mostly small, dated studies. The one double-blind study compares dihydrotachysterol with calcitriol rather than showing new benefit. Calcitriol and newer analogues have largely replaced dihydrotachysterol, and hypercalcaemia and renal safety concerns are well documented. Several top-ranked predictions are prediction only, obsolete or restate existing indications.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank (DG002, High severity)
-- TFDA/MHRA SmPC warnings and contraindications (DG001, Blocking severity)
-- Resolution of the obsolete disease-term mapping to a current, actionable diagnostic classification
-- Consideration of re-scoping the primary candidate: this same evidence pack contains a substantially better-evidenced prediction — **renal osteodystrophy** (rank 7, Evidence Level L2, decision stage S2, recommendation "Proceed with Guardrails," supported by 20 literature citations including one RCT, PMID 8151464) — which may warrant its own dedicated evaluation report
+- UK label information (SmPC warnings, contraindications and approved indications), which is currently missing and blocks safety screening
+- Mechanism of action data (for example from DrugBank)
+- Review of the full text of the 1994 double-blind study and the renal function studies for efficacy and safety outcomes
+- Comparison against current UK practice for CKD mineral and bone disorder (calcitriol, alfacalcidol and newer agents)
+- A hypercalcaemia and renal function monitoring plan, plus review of the interactions with other vitamin D products and thiazides
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

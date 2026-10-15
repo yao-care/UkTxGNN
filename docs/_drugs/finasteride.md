@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Finasteride
-parent: Model Prediction Only (L5)
-nav_order: 271
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 289
+evidence_level: L4
 indication_count: 6
 ---
 
 # Finasteride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,60 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Finasteride: From Androgen-Dependent Conditions to Ambras Type Hypertrichosis Universalis Congenita
+# Finasteride: From Benign Prostatic Hyperplasia to Hypertrichosis
 
 ## One-Sentence Summary
 
-Finasteride is a 5α-reductase inhibitor generally used for androgen-dependent conditions such as benign prostatic hyperplasia and androgenetic alopecia (the evidence pack itself does not record a specific original indication or MOA). The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags it as lacking a plausible mechanistic basis.
+Finasteride is a 5-alpha reductase inhibitor originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **hypertrichosis**, but there are currently **no registered clinical trials** and only **4 indirect publications** (reviews and a technique paper) supporting this direction.
+The evidence is weak, and the mechanistic fit is questionable.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack (`original_indications` empty; commonly known indications include BPH and androgenetic alopecia) |
-| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Benign prostatic hyperplasia (per the knowledge graph; no approved indication text is available in the UK licence data) |
+| Predicted New Indication | Hypertrichosis (rank 2 of 6 predictions; see note below) |
+| TxGNN Prediction Score | 99.99% (rank 281 overall) |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+**Note on selection of the indication:** The top-ranked prediction was Ambras type hypertrichosis universalis congenita (score 99.99%, rank 239). It has no trials or literature (L5) and no plausible mechanistic rationale, as it is a congenital condition linked to TRPS1 regulation rather than androgen-driven disease. Hypertrichosis (rank 2) is the highest-ranked prediction with any supporting literature, so it is the focus of this report. All six predictions are summarised at the end of the report.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on general pharmacological knowledge, finasteride inhibits 5α-reductase, reducing conversion of testosterone to dihydrotestosterone (DHT), and is used clinically where androgen-dependent tissue growth is the target (e.g. prostate enlargement, male pattern hair loss).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Finasteride is generally known as a 5-alpha reductase type II (and III) inhibitor. It blocks conversion of testosterone to dihydrotestosterone (DHT). This is the basis of its use in BPH and, more widely, in male pattern hair loss.
 
-Ambras type hypertrichosis universalis congenita, however, is a congenital condition linked to chromosomal rearrangement near 8q22, causing diffuse lanugo-type hair overgrowth that is **not androgen-dependent**. The evidence pack's own rationale states there is "no reasonable connection" between this disease mechanism and finasteride's DHT-suppression pathway, with zero supporting trials or literature. This prediction should be treated as a likely knowledge-graph embedding artefact rather than a biologically grounded hypothesis.
+The link to hypertrichosis is **weak**. DHT lowering is plausibly relevant to androgen-dependent hair growth, such as hirsutism. Hypertrichosis is, by definition, excess hair growth in non-androgen-dependent areas. It is usually iatrogenic (for example minoxidil, ciclosporin, diazoxide), metabolic or paraneoplastic. A DHT-lowering drug would not be expected to address these causes. Hirsutism evidence should not be extrapolated to hypertrichosis without caution.
 
-For context, the model's next-ranked candidate, "hypertrichosis (disease)" (rank 2, L4), has some supporting literature, but the mechanistic direction is actually opposite to finasteride's known clinical effect (finasteride reduces androgen-dependent hair growth rather than promoting generalised hypertrichosis). Lower-ranked candidates (Dandy-Walker-associated syndrome, isolated hair shaft abnormality, familial trichomegaly, and a periodontal malformation syndrome) are similarly unsupported by trial or literature evidence and were assessed by the pipeline as likely noise. None of the six predicted indications in this pack currently reach a level of evidence suitable to progress beyond hypothesis-generation.
+The high TxGNN score reflects a graph-based computational prediction only. It is not evidence of clinical efficacy.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12223963](https://pubmed.ncbi.nlm.nih.gov/12223963/) | 2002 | Review | Ann Dermatol Venereol | Hirsutism and hypertrichosis in adults. Hypertrichosis affects non-androgen-dependent areas and does not need hormone monitoring, unlike hirsutism. Causes are mostly iatrogenic, metabolic, nutritional or paraneoplastic |
+| [10330884](https://pubmed.ncbi.nlm.nih.gov/10330884/) | 1999 | Review | Ther Umsch | Review of treatments for androgenetic alopecia and hirsutism; emotional impact of hair disorders highlighted |
+| [12942187](https://pubmed.ncbi.nlm.nih.gov/12942187/) | 2003 | Review | Hautarzt | Finasteride is noted for male pattern hair loss; laser-assisted hair removal is noted for hypertrichosis and hirsutism |
+| [12444520](https://pubmed.ncbi.nlm.nih.gov/12444520/) | 2002 | Methods/Instrument | Hautarzt | TrichoScan, a digital tool for hair analysis; not a treatment study |
+
+Based on titles and abstracts, none of these publications appears to report finasteride efficacy in hypertrichosis. They give only indirect context. The full texts would need to be checked. The publications are in German or French.
+
+---
 
 ## UK Market Information
 
-Finasteride currently has no recorded UK marketing authorisations in this evidence pack (market status: Not Marketed; 0 licences on file). No product-level authorisation data is available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0604020C0AAAAAA | Finasteride tablets 5 mg | Tablet (inferred from product name) | Not available in the data compiled |
+
+Note that the identifier shown (0604020C0AAAAAA) looks like a BNF-style classification code rather than an MHRA product licence (PL) number. The licence record should be verified against the MHRA register. The BNF chapter 6 (endocrine) and chapter 7 (genito-urinary) classifications should be consulted for the formal positioning of 5-alpha reductase inhibitors.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (knowledge graph, not label text):** Liver disease and gallbladder disease are flagged in the TxGNN knowledge graph. These should be confirmed against the SmPC.
+- **Pregnancy:** Finasteride is contraindicated in pregnancy because of the risk of abnormal external genitalia in male fetuses. Women who are or may be pregnant should not handle crushed or broken tablets.
+- **Drug Interactions:** The interaction screen returned 100 potential interactions, but all listed have an "Unknown" severity level. Examples include calcitriol, doxycycline, clotrimazole, famotidine, acetylsalicylic acid, bupropion, omeprazole, metformin, morphine and glimepiride. The severity and clinical significance of these need to be verified in the BNF interactions appendix.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Ambras type hypertrichosis universalis congenita) has zero clinical trials, zero literature, and no plausible mechanistic link to finasteride's known pharmacology — this is an L5, model-only signal. None of the other five predicted indications in this pack reach a stronger evidence tier either.
+The TxGNN score is very high, but the prediction rests on the model alone. There are no clinical trials, and the retrieved literature does not report finasteride use in hypertrichosis. Hypertrichosis is not androgen-driven, so the mechanistic basis is weak.
+
+**Summary of all predictions:**
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 1 | Ambras type hypertrichosis universalis congenita | 99.99% | L5 | No data; congenital, not DHT-driven |
+| 2 | Hypertrichosis | 99.99% | L4 | Indirect literature only; weak mechanism |
+| 3 | Malformation syndrome with odontal/periodontal component | 99.99% | L5 | No mechanistic link identified |
+| 4 | Syndrome with Dandy-Walker malformation as major feature | 99.99% | L5 | No rationale; pregnancy contraindication |
+| 5 | Isolated genetic hair shaft abnormality | 99.99% | L5 | Structural, not DHT-mediated |
+| 6 | Familial isolated trichomegaly | 99.15% | L5 | Loose conceptual link; unsupported |
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for finasteride (currently a data gap)
-- MHRA/SmPC warnings and contraindications data to support an initial safety screen (currently blocking, per data gap DG001)
-- A biologically plausible mechanistic hypothesis linking finasteride to any of the predicted indications before further investment in evidence collection
-- If pursuing the hypertrichosis-adjacent signal (rank 2) instead, targeted trial/literature search specifically evaluating finasteride's effect on non-androgen-dependent hair growth
+- Full-text review of the retrieved publications, and a wider literature search for finasteride in hypertrichosis and hirsutism
+- Mechanism of action data from DrugBank to support mechanistic analysis
+- SmPC warnings and contraindications (the data compiled for this report is missing these), which blocks safety screening
+- Verification of the MHRA licence record, dosage form and approved indication
+- Severity grading for the listed drug interactions
+- A clear biological rationale for androgen-independent hair overgrowth before any clinical study is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

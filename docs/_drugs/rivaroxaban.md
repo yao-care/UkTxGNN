@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivaroxaban
-parent: Model Prediction Only (L5)
-nav_order: 510
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 548
+evidence_level: L4
 indication_count: 10
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rivaroxaban: From Anticoagulation to Rheumatoid Arthritis
+# Rivaroxaban: From Venous Thromboembolism Prophylaxis and Treatment to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Rivaroxaban is a direct oral anticoagulant (DOAC) and selective Factor Xa inhibitor, established in clinical practice for prevention and treatment of venous thromboembolism and stroke prevention in non-valvular atrial fibrillation.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **no clinical trials** and **3 publications** currently identified — none of which directly investigate rivaroxaban as a treatment for RA.
-Overall, the evidence base for this predicted repurposing is at the earliest possible stage, and significant data gaps remain in this Evidence Pack.
-
----
+Rivaroxaban is an oral direct Factor Xa inhibitor (anticoagulant). The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this rests on the model score alone: **no clinical trials** and only **4 publications**, none of which tests rivaroxaban as a treatment for the condition, were found.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available in this Evidence Pack (UK MHRA licensing data not retrieved — see note below) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Not stated in the licence data compiled for this report (the product is a 20 mg tablet, an anticoagulant) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 |
-| UK Market Status | Not available in this Evidence Pack (data gap) |
-| Number of Marketing Authorisations | 0 (data gap — see note below) |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
-> **Important data gap**: This Evidence Pack contains no MHRA marketing authorisation records for rivaroxaban. In practice, rivaroxaban is widely marketed in the United Kingdom as **Xarelto®** (Bayer/Janssen-Cilag) under multiple MHRA licences across cardiovascular and thromboembolic indications. The pipeline data source requires correction before any formal regulatory assessment can proceed.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, rivaroxaban is a highly selective, direct inhibitor of coagulation Factor Xa — the convergence point of the intrinsic and extrinsic coagulation pathways. By occupying the active site of Factor Xa, it prevents the conversion of prothrombin to thrombin, thereby interrupting downstream fibrin clot formation without requiring antithrombin as a cofactor, unlike heparins.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Rivaroxaban is known to be a direct Factor Xa inhibitor used for anticoagulation, and this is the basis for the discussion below.
 
-The theoretical mechanistic link to rheumatoid arthritis runs as follows: suppression of Factor Xa reduces thrombin generation, which in turn limits the activation of protease-activated receptors PAR-1 and PAR-2 expressed on synovial fibroblasts and infiltrating immune cells. Experimental work has demonstrated that PAR activation in the synovium promotes the release of pro-inflammatory cytokines — in particular IL-6 and TNF-α — which are central mediators of the pannus formation and cartilage destruction characteristic of RA. By blunting this coagulation-driven inflammatory amplification loop, rivaroxaban could theoretically attenuate synovitis.
+The link to rheumatoid arthritis (RA) is indirect. RA involves chronic inflammation with a prothrombotic state, and thrombin generation is altered in autoimmune disease (PMID 34175144). This could support a role in thromboprophylaxis for RA patients. It does not support disease-modifying activity. The very high TxGNN score is not backed by any clinical trial of rivaroxaban in RA.
 
-This connection must be clearly contextualised: it is a molecular-level hypothesis that has not been validated in preclinical RA models or human subjects. The TxGNN prediction score of 0.9957 most likely reflects connections between the Factor Xa → PAR → inflammation pathway nodes within the knowledge graph, rather than any direct clinical evidence. None of the three publications retrieved in the literature search investigate rivaroxaban for RA; they address VTE management, thrombin generation assays in autoimmune disease generally, and DOAC adherence in atrial fibrillation. This repurposing hypothesis requires basic science validation before any clinical development consideration.
-
----
+Other predicted indications (gout, HIV infectious disease, sclerosing cholangitis, systemic mastocytosis and several rare syndromes) have even weaker support. Their evidence is either absent or concerns anticoagulation in patients who already have the condition, or drug interactions, rather than treatment of the condition itself.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials investigating rivaroxaban for rheumatoid arthritis have been registered on ClinicalTrials.gov or the WHO ICTRP.
-
----
+Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Laboratory/Methodology Study | La Revue de médecine interne | Thrombin generation assay evaluated as a tool for assessing hypercoagulability in autoimmune diseases, including antiphospholipid syndrome — provides indirect contextual support for the coagulation–inflammation interface, but does not study rivaroxaban in RA |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Comprehensive review of lower extremity venous thromboembolism diagnosis and management — general anticoagulation background only; no relevance to RA |
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Retrospective Cohort | PLoS ONE | Real-world adherence comparison of rivaroxaban versus apixaban in non-valvular atrial fibrillation — no relevance to RA |
-
-> **Caveat**: None of the three publications directly support a role for rivaroxaban in treating rheumatoid arthritis. Their retrieval reflects keyword overlap in the database query rather than substantive evidentiary support for this repurposing hypothesis.
-
----
+|------|-----|------|------|---------|
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Review of lower extremity venous thromboembolism; DVT incidence is 88 to 112 per 100,000 person-years and rises with age. Not specific to RA. |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de medecine interne | Thrombin generation assay can assess hypercoagulability in autoimmune disease. Supports a thrombotic-risk rationale only. |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PloS one | Adherence to rivaroxaban versus apixaban in non-valvular atrial fibrillation. Not relevant to RA treatment. |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Case report | Cureus | Embolic events despite anticoagulation in an 88-year-old woman with chronic kidney disease taking steroids for RA. Anecdotal. |
 
 ## UK Market Information
 
-No MHRA marketing authorisation records are available in this Evidence Pack for rivaroxaban. This constitutes a data gap that must be resolved before regulatory review can proceed.
-
-For reference, rivaroxaban (Xarelto®) is established in the UK market across several licensed indications. Clinicians should consult the current MHRA product database, the approved Summary of Product Characteristics (SmPC), and the British National Formulary (BNF — Section 2.8.2, Oral anticoagulants) for authoritative prescribing information.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0208020Y0AAACAC (BNF-style product code, not a PL number) | Rivaroxaban Tab 20mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
 
 ## Safety Considerations
 
-No structured safety data (key warnings, contraindications, or drug-drug interaction records) is available in this Evidence Pack.
+- **Conditions flagged in the knowledge graph (not label text):** liver failure, kidney disease, pyoureter, liver disease, gallbladder disease and blood coagulation disease. These come from drug-disease contraindication links in the TxGNN knowledge graph and must be checked against the SmPC.
+- **Drug Interactions:** 100 interactions were identified in total, and 20 are listed in the data compiled for this report. Major interactions include:
+  - Acetylsalicylic acid
+  - Cobicistat
+  - Deferasirox
+  - Ibritumomab tiuxetan
+  - Tositumomab (I-131)
 
-Please refer to the current **SmPC** and **BNF** for full safety information on rivaroxaban. Report suspected adverse reactions via the **[Yellow Card Scheme](https://yellowcard.mhra.gov.uk/)**.
+  Moderate interactions include aprepitant, dexamethasone, cimetidine, clarithromycin, eliglustat, miconazole, clotrimazole, dexfenfluramine, fenfluramine, rolapitant, sibutramine, troglitazone, iodide I-131, iodide I-123 and sugammadex.
+- RA patients commonly take NSAIDs, aspirin and corticosteroids. The interactions with aspirin and dexamethasone are therefore directly relevant to this population, particularly for bleeding risk.
 
-Additionally, clinicians should be aware that TxGNN also predicts a potential role for rivaroxaban in HIV infectious disease (ranked 3rd, score 99.17%). The existing literature in that prediction cluster highlights a clinically significant drug-drug interaction: the HIV pharmacokinetic boosters **ritonavir** and **cobicistat** are potent inhibitors of both CYP3A4 and P-glycoprotein, and have been shown to increase rivaroxaban AUC by approximately 2–3 fold, substantially elevating bleeding risk. This interaction is documented in completed clinical trial NCT00786422 (EINSTEIN CYP cohort, Phase 2) and multiple case reports. Any future evaluation of rivaroxaban in inflammatory or immune-mediated indications must account for potential co-prescribing scenarios in immunocompromised patients.
-
----
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence base for rivaroxaban in rheumatoid arthritis is at Level 5 — model prediction only, with no supporting clinical trials and no directly relevant publications. The proposed mechanistic link via PAR-mediated synovial inflammation is scientifically interesting but entirely unvalidated. In addition, this Evidence Pack contains critical data gaps (MOA, UK regulatory data, and safety information) that preclude any meaningful safety or regulatory assessment at this stage.
+The prediction rests on the model score alone. No trials exist, and the available literature supports at most a thromboprophylaxis rationale rather than any effect on RA itself. The licence data are also incomplete, and RA patients often take drugs that interact with rivaroxaban.
 
 **To proceed, the following is needed:**
-
-- **Resolve the UK regulatory data gap**: Retrieve MHRA marketing authorisation records and the current SmPC for rivaroxaban via the MHRA product database
-- **Retrieve full safety information**: Download and parse the SmPC to populate key warnings, contraindications, and DDI data before any safety screen can be completed
-- **Preclinical validation**: Commission or identify in vitro studies and animal model data examining Factor Xa inhibition in synovial fibroblast inflammation or established RA models (e.g., collagen-induced arthritis) — this is a prerequisite before forming a clinical hypothesis
-- **Mechanistic review**: Formal evaluation of the PAR-1/PAR-2 coagulation–inflammation axis in RA pathogenesis, conducted by a rheumatologist and clinical pharmacologist in collaboration
-- **Expert consultation**: Input from a rheumatology specialist to assess whether the coagulation–inflammation hypothesis is scientifically plausible enough to justify any further investment in this repurposing programme
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require rigorous clinical validation before any therapeutic application. All content should be interpreted in conjunction with current MHRA guidance, the approved SmPC, and BNF recommendations.*
+- Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications
+- Mechanism of action data
+- Preclinical or clinical evidence that Factor Xa inhibition affects RA disease activity, or a clearly defined thromboprophylaxis question in RA
+- A bleeding and drug-interaction risk assessment for RA patients taking NSAIDs, aspirin or corticosteroids
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

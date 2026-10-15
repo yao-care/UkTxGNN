@@ -2,7 +2,7 @@
 layout: default
 title: Cyclopentolate
 parent: Model Prediction Only (L5)
-nav_order: 183
+nav_order: 194
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,31 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Cyclopentolate: From Ophthalmic Mydriasis to Cauda Equina Syndrome
+# Cyclopentolate: From Cycloplegia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cyclopentolate is a short-acting anticholinergic (antimuscarinic) agent used topically in ophthalmology to produce mydriasis and cycloplegia. The TxGNN model predicts a possible link to **Cauda Equina Syndrome**, but this is supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic assessment finds no plausible pharmacological pathway between the two conditions.
+Cyclopentolate is an antimuscarinic eye drop, originally used to produce cycloplegia (temporary paralysis of the eye's focusing muscle).
+The TxGNN model predicts it may be effective for **cauda equina syndrome**,
+but there are currently **no clinical trials** and **no publications** supporting this direction, so it rests on computational prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ophthalmic mydriasis/cycloplegia (not formally recorded in this evidence pack; the drug is not currently UK-marketed) |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Cycloplegia |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for cyclopentolate has not been confirmed in this evidence pack (flagged as a High-severity data gap requiring DrugBank API verification). Based on known pharmacology, cyclopentolate is a short-acting antimuscarinic used exclusively as a topical ophthalmic agent to induce pupil dilation and paralysis of accommodation ahead of eye examinations or procedures.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cyclopentolate is a muscarinic antagonist (anticholinergic). Its use in cycloplegia is established, and mechanistically the same class effect could be relevant to conditions involving muscarinic-driven smooth muscle activity.
 
-Cauda equina syndrome, by contrast, is a surgical emergency caused by compression of the lumbosacral nerve roots, requiring urgent decompressive surgery. There is no established pharmacological mechanism by which a topical antimuscarinic eye drop would treat or modify the course of this condition.
+Cauda equina syndrome causes bladder, bowel and sexual dysfunction through nerve compression. An antimuscarinic could theoretically ease secondary detrusor overactivity symptoms. It would not treat the underlying compression, which needs surgical decompression. The high TxGNN score is a computational prediction only.
 
-The model's own rationale is explicit on this point: the high TxGNN score most likely reflects graph-level co-occurrence or proximity between nodes in the knowledge graph, rather than a genuine causal or mechanistic relationship. No clinical trials or literature evidence exist to support this candidate, and no route-of-administration or dosing pathway has been established for systemic or off-label use in this context.
+There are also practical concerns. Cyclopentolate is formulated only as an ophthalmic solution, so systemic exposure would be uncharacterised. Systemic anticholinergic effects, including CNS effects and urinary retention, would be a particular risk in this condition.
+
+Two other predictions were also generated, both with L5 evidence and a Hold recommendation:
+- **Neurogenic bladder (obsolete ontology term)**, score 99.40%. Antimuscarinics such as oxybutynin and tolterodine are established for neurogenic detrusor overactivity, so a class-level rationale exists. However, cyclopentolate has no clinical data here, and better-characterised, bladder-selective options are available. The term should be mapped to current terminology (neurogenic detrusor overactivity) before further work.
+- **Irritable bowel syndrome**, score 99.27%. Anticholinergic antispasmodics such as dicyclomine and hyoscyamine are used for IBS symptoms. There is no evidence for cyclopentolate specifically, no oral or systemic formulation, and established alternatives already exist.
 
 ## Clinical Trial Evidence
 
@@ -65,26 +71,38 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Cyclopentolate does not currently hold any UK marketing authorisation recorded in this evidence pack (0 licenses on file; market status: not marketed). No product, dosage form, or approved-indication data is therefore available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1105000E0AAABAB | Cyclopentolate HCl Eye Drops 0.5% | Eye drops | Not stated in the data compiled |
+
+The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register. The product is a topical ophthalmic preparation.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+The compiled data holds no label-based warnings, contraindications or interaction records for this drug. The following comes from knowledge-graph drug-disease contraindication links, not from label text, and should be confirmed against the SmPC:
 
-*(Note: UK product labelling/warnings and contraindication data for cyclopentolate were not available in this evidence pack — this is flagged as a Blocking data gap that must be resolved before any safety evaluation can proceed.)*
+- **Contraindication links in the knowledge graph:**
+  - Eye: angle-closure (closed-angle) glaucoma
+  - Cardiovascular: hypertension, heart disease, coronary artery disease, sudden cardiac arrest, heart conduction disease, arteriosclerosis and atherosclerosis
+  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperthyroidism, Graves disease, thyrotoxicosis
+  - Other: benign prostatic hyperplasia, brain injury, brain disease, Down syndrome
+
+For full safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted association between cyclopentolate and cauda equina syndrome lacks any supporting clinical trial or literature evidence, and the repurposing rationale itself concludes there is no credible pharmacological mechanism linking a topical ophthalmic antimuscarinic to a surgical nerve-compression emergency. The high TxGNN score appears to reflect knowledge-graph proximity rather than causal relevance, and no UK regulatory or safety data are currently available to support further evaluation.
+All three predicted indications rest on model prediction only (L5), with no trials or publications. The ophthalmic-only formulation and the anticholinergic risks in a neurological and urological setting, together with established alternatives, give little incentive to pursue repurposing now.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (DG002)
-- UK/SmPC warnings, contraindications, and drug interaction data (DG001 — currently blocking any safety evaluation)
-- Independent pharmacological or preclinical rationale specifically connecting cyclopentolate to neurological/nerve-root pathology, if this candidate is to be pursued further
-- As an alternative research direction, the model's second- and third-ranked predictions (neurogenic bladder and irritable bowel syndrome) carry somewhat stronger class-level rationale, as antimuscarinics are an established drug class for both conditions — though these too remain at evidence level L5 with no supporting trials or literature, and are appropriately flagged as open research questions rather than actionable candidates at this stage.
+- Confirmed mechanism of action data (for example from DrugBank)
+- SmPC-based warnings and contraindications, as the current safety data are incomplete
+- Evidence of adequate systemic or target-organ exposure, and a suitable non-ophthalmic formulation
+- Preclinical or clinical evidence in the target condition
+- Reconciliation of the obsolete neurogenic bladder term with current terminology
+- Verification of the marketing authorisation record, including approved indication and dosage form
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

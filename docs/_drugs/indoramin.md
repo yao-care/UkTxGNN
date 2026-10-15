@@ -2,7 +2,7 @@
 layout: default
 title: Indoramin
 parent: Moderate Evidence (L3-L4)
-nav_order: 314
+nav_order: 337
 evidence_level: L3
 indication_count: 10
 ---
@@ -33,79 +33,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Indoramin is a selective α1-adrenergic receptor antagonist historically used to treat hypertension (and, in the UK, licensed for benign prostatic hyperplasia/enlargement under the brand name Doralese, now discontinued). The TxGNN model predicts it may be effective for **Benign Prostatic Hyperplasia**, with **0 clinical trials** and **8 publications** currently supporting this direction — all class-level (α1-blocker) reviews and cohort studies rather than indoramin-specific trials.
-
----
+Indoramin is an alpha-1 adrenoceptor antagonist, historically used to treat hypertension.
+The TxGNN model predicts it may be effective for **benign prostatic hyperplasia (BPH)**,
+with **no registered clinical trials** and **8 publications** (mostly reviews and observational studies on the alpha-blocker class) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no active licence on file); literature indicates historical use as an antihypertensive and, in the UK, for BPH/BPE |
-| Predicted New Indication | Benign Prostatic Hyperplasia |
+| Original Indication | Not stated in the UK authorisation data compiled for this report (the published literature describes use in hypertension) |
+| Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L3 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data is currently unavailable (data gap). However, the literature included in this evidence pack consistently and independently describes indoramin as a selective postsynaptic **α1-adrenergic receptor antagonist**, originally developed for hypertension. Notably, one of the retrieved reviews (PMID 11829730) explicitly lists "indoramin (Doralese)" alongside prazosin, doxazosin and terazosin as α1-blockers used in the treatment of benign prostatic enlargement — indicating indoramin held a UK licence for BPH under this brand name in the past.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that indoramin binds the alpha-1A, alpha-1B and alpha-1D adrenoceptors. It is a postsynaptic alpha-1 antagonist whose blood pressure lowering effect comes from relaxation of peripheral arterioles.
 
-The mechanistic link to BPH is well established at the class level: α1A-receptor blockade relaxes smooth muscle in the prostate and bladder neck, reducing the dynamic component of bladder outlet obstruction. This is the same mechanism underlying currently licensed BPH agents (tamsulosin, terazosin, doxazosin, alfuzosin), making indoramin's predicted repositioning to BPH pharmacologically coherent rather than a spurious knowledge-graph signal.
+The same receptors are present in prostatic stromal smooth muscle and the bladder neck. Blocking them reduces the dynamic component of urinary outflow obstruction, which is the established mechanism of alpha-blockers in BPH. The pharmacology record also lists indoramin's clinical use as management of urinary outflow obstruction due to BPH.
 
-That said, the supporting literature for this specific indication (9 papers, tier 2–3) consists entirely of general BPH/α-blocker reviews and cohort studies — none report indoramin-specific randomised trial data in a BPH population. The evidence therefore supports plausibility by drug class rather than confirmed drug-specific efficacy, and indoramin currently has no active UK marketing authorisation (0 licences on file), which is a material constraint on repurposing feasibility.
-
----
+This is therefore a known class effect rather than a novel repurposing idea. The high TxGNN score is consistent with this, but the supporting evidence is indirect: no indoramin-specific trial is included, and the literature mainly covers alpha-blockers as a class.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15082205](https://pubmed.ncbi.nlm.nih.gov/15082205/) | 2004 | RCT | European urology | Compared 5-alpha reductase inhibition vs α-blockade for preventing acute urinary retention and BPH-related surgery in real-world practice |
-| [9143856](https://pubmed.ncbi.nlm.nih.gov/9143856/) | 1997 | Review | Drugs & aging | Practical treatment guidelines for symptomatic BPH, covering surgical and medical (α-blocker) options |
-| [8918007](https://pubmed.ncbi.nlm.nih.gov/8918007/) | 1996 | Review | East African medical journal | Overview of medical management of BPH, noting α-adrenergic antagonists as a major treatment advance |
-| [8880886](https://pubmed.ncbi.nlm.nih.gov/8880886/) | 1996 | Review | Pharmacological research | Overview of α1-adrenoceptor antagonists in the pharmacological management of BPH |
-| [11829730](https://pubmed.ncbi.nlm.nih.gov/11829730/) | 2002 | Review | Expert opinion on pharmacotherapy | Reviews α1-adrenoceptor antagonists (including indoramin/Doralese) in lower urinary tract disease |
-| [11111208](https://pubmed.ncbi.nlm.nih.gov/11111208/) | 2000 | Cohort | European urology | UK GPRD-based study on real-life progression and management of LUTS/BPH, 1992–1998 |
-| [14641795](https://pubmed.ncbi.nlm.nih.gov/14641795/) | 2003 | Cohort | Journal of internal medicine | Association between α-blocker use and risk of hip/femur fractures |
-| [11275742](https://pubmed.ncbi.nlm.nih.gov/11275742/) | 2001 | Cohort | European urology | Triumph project: UK general practice database analysis of LUTS/BPH management and treatment effectiveness |
-
----
+| [11111208](https://pubmed.ncbi.nlm.nih.gov/11111208/) | 2000 | Cohort | European Urology | UK general practice database analysis of how LUTS/BPH management changed from 1992 to 1998, and the effectiveness of medical therapy |
+| [14641795](https://pubmed.ncbi.nlm.nih.gov/14641795/) | 2003 | Cohort | Journal of Internal Medicine | Association between alpha-blocker use and risk of hip/femur fracture (a safety signal for the class) |
+| [9143856](https://pubmed.ncbi.nlm.nih.gov/9143856/) | 1997 | Review | Drugs & Aging | Practical treatment guidelines for symptomatic BPH, including alternatives to surgery |
+| [8880886](https://pubmed.ncbi.nlm.nih.gov/8880886/) | 1996 | Review | Pharmacological Research | Overview of alpha-adrenoceptor antagonists in the pharmacological management of BPH |
+| [11829730](https://pubmed.ncbi.nlm.nih.gov/11829730/) | 2002 | Review | Expert Opinion on Pharmacotherapy | Alpha-blockers (including indoramin) reduce the dynamic component of bladder outlet obstruction in lower urinary tract disease |
+| [8918007](https://pubmed.ncbi.nlm.nih.gov/8918007/) | 1996 | Review | East African Medical Journal | Medical management of BPH; alpha-adrenergic antagonists described as a major breakthrough |
+| [11275742](https://pubmed.ncbi.nlm.nih.gov/11275742/) | 2001 | Review | European Urology | Role of general practice databases in documenting LUTS management and initial treatment effectiveness |
+| [15082205](https://pubmed.ncbi.nlm.nih.gov/15082205/) | 2004 | Review | European Urology | Compares medical therapies for BPH in preventing acute urinary retention and surgery; 5-alpha reductase inhibition reported as superior to alpha blockade |
 
 ## UK Market Information
 
-No active UK marketing authorisation is currently on file (total licences: 0; market status: Not marketed). Literature within this evidence pack indicates indoramin was historically marketed in the UK as **Baratol** (hypertension) and **Doralese** (benign prostatic hyperplasia/enlargement); both appear to have been discontinued. Confirmation of current MHRA licence status and discontinuation history is needed before further evaluation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0704010M0AAAAAA | Indoramin Tab 20mg | Tablet (20 mg) | Not specified in the data compiled for this report |
 
----
+Note: the identifier shown is a classification code rather than a standard PL number, and the authorisation record contains no approved indication text. Please verify against the MHRA register, the BNF and the current SmPC.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions / Pharmacology:** Indoramin acts on the alpha-1A, alpha-1B and alpha-1D adrenoceptors. No drug-drug interaction entries were returned, so additive hypotensive effects with other antihypertensives and vasodilators should be checked against the BNF.
 
----
+**Other signals from the literature:**
+- A study in patients with heart failure reported possible adverse effects on haemodynamics and exercise capacity.
+- A cohort study reported an association between alpha-blocker use and hip/femur fracture risk.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for indoramin in BPH is sound (established α1-blocker class effect, and indoramin previously held a UK BPH licence as Doralese), but the current evidentiary base is class-level only — no indoramin-specific clinical trials for BPH are registered, and the drug has no active UK marketing authorisation.
+The BPH prediction is mechanistically credible because it reflects an established alpha-blocker class effect. However, there are no registered trials, the literature is indirect (reviews and observational data), and the UK authorisation data lacks an approved indication and safety text.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (currently a data gap)
-- MHRA/SmPC safety data — key warnings, contraindications, drug interactions (currently all data gaps)
-- Clarification of historical Doralese licence withdrawal reason, and any barriers to reintroduction
-- Indoramin-specific efficacy/safety data in a BPH population, or a formal bridging argument from class-effect evidence
+- The SmPC and approved indication text for the UK authorisation, to confirm whether BPH is already a licensed use
+- Indoramin-specific clinical data in BPH or LUTS, including comparison with currently recommended alpha-blockers
+- Warnings and contraindications from the SmPC and BNF
+- A cardiovascular safety review, including heart failure and postural hypotension in older men
+- Mechanism of action data from DrugBank
+
+**Other predictions (all Hold or Research Question, not recommended for pursuit):** The model's other top predictions, including vascular disease, pulmonary hypertension, hypertrichosis and thoracic outlet syndromes, have either only indirect evidence or no supporting evidence. Vascular disease largely reflects the drug's existing antihypertensive use, and for pulmonary hypertension the heart failure data add a cautionary signal.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

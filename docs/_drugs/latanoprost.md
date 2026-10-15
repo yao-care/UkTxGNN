@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Latanoprost
-parent: High Evidence (L1-L2)
-nav_order: 337
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 363
+evidence_level: L5
 indication_count: 10
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,70 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Latanoprost: From Glaucoma (Ophthalmic) to Primary Hereditary Glaucoma
+# Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Latanoprost is a prostaglandin analogue eye drop, though its original UK-licensed indication details are not present in this Evidence Pack.
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**,
-with **1 clinical trial** and **0 publications** currently supporting this direction.
-
----
+Latanoprost is a prostaglandin F2-alpha analogue, originally used to treat open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+but **no clinical trials and no publications** were found in the data compiled for this report to support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in Evidence Pack (no licences on record) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+| Original Indication | Open-angle glaucoma; ocular hypertension (from the TxGNN knowledge graph, as the licence record contains no indication text) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is marked as a data gap in the source pack. Based on the mechanistic notes accompanying this prediction, Latanoprost is a PGF2α prostaglandin analogue that activates the FP receptor, increasing uveoscleral outflow of aqueous humour and thereby lowering intraocular pressure (IOP). This is the well-established, standard mechanism of the prostaglandin analogue class in open-angle glaucoma and ocular hypertension.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, latanoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure (IOP) mainly by increasing uveoscleral outflow. Its efficacy in open-angle glaucoma and ocular hypertension is established, and mechanistically it may be applicable to other glaucomas where raised IOP is the treatable driver.
 
-Primary hereditary glaucoma shares elevated IOP as a common underlying pathology, regardless of its genetic aetiology. Since the drug's core pharmacological action directly targets IOP reduction via aqueous humour dynamics, extending its use to hereditary forms of glaucoma is not a novel mechanistic hypothesis but a direct, biologically plausible extension of its established action — supported by a completed Phase 2 paediatric glaucoma trial using latanoprost.
+Primary hereditary glaucoma, including congenital and juvenile forms, is also characterised by elevated IOP, which gives the prediction biological plausibility. However, these forms often involve developmental defects of the trabecular meshwork or drainage angle and are frequently managed surgically. The high TxGNN score probably reflects proximity to the approved glaucoma indication in the knowledge graph rather than new repurposing evidence. Latanoprost might be considered as adjunctive therapy in some cases, but the data compiled for this report provide no support for this.
 
----
+Other predicted indications were also reviewed. Hypotrichosis simplex of the scalp and congenital hypotrichosis milia have a plausible rationale, since prostaglandin analogues prolong the hair anagen phase and eyelash growth is a recognised latanoprost effect. Both remain unverified, with no trial or literature evidence. The vascular predictions (visceral calciphylaxis, thoracic outlet syndromes, angiodysplasia of the stomach, blue toe syndrome, lymphangiectasis) have no clear mechanistic link and are unlikely to be reachable with topical ocular dosing, which gives minimal systemic exposure.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Compared latanoprost vs dorzolamide for ocular hypotensive effect and safety in paediatric primary glaucoma refractory to surgery |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-This drug currently has no UK marketing authorisations on record in this Evidence Pack (market status: not marketed, 0 licences).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1106000L0AAAAAA | Latanoprost Eye Drops 50 micrograms/ml | Eye drops | Not stated in the compiled data |
 
----
+Only one valid single-ingredient authorisation is recorded. The authorisation number appears not to follow the standard MHRA "PL" format, so it should be checked against the MHRA register. Please refer to the BNF (ophthalmic preparations, glaucoma) and relevant NICE guidance for the current licensed indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph** (graph-derived associations, not label text): uveitis, iris disease, ciliary body disease, panuveitis, macular retinal oedema, cystoid macular oedema, iritis, and conjunctivitis (including acute contagious conjunctivitis). These are consistent with the known caution about inflammatory eye conditions and macular oedema with prostaglandin analogues, but should be confirmed against the SmPC.
+- **Drug Interactions**: 100 potential interactions were recorded, but all those listed have an unclassified severity level (for example calcitriol, glimepiride, doxycycline, atropine, metformin, morphine, prednisone and simvastatin). No clinically graded interaction information is available, so their significance cannot be judged from this data.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 RCT directly supports the ocular hypotensive effect of latanoprost in a closely related paediatric glaucoma population, and the mechanistic link to IOP-lowering in hereditary glaucoma is direct rather than speculative — but a single trial with modest enrolment (n=37) is not yet sufficient for unconditional proceeding.
+The prediction rests on model output alone (L5). There are no trials or publications for primary hereditary glaucoma, and these conditions are often treated surgically. The score probably reflects similarity to the existing glaucoma indication.
 
 **To proceed, the following is needed:**
-- MHRA-approved product information/SmPC confirming original licensed indication, warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action data from DrugBank or SmPC
-- Additional trials or real-world evidence specifically in adult and paediatric hereditary glaucoma populations
-- UK marketing authorisation status confirmation, given current record shows the drug as not marketed
+- Review of the SmPC and BNF safety information (label warnings and contraindications are missing from the compiled data)
+- Mechanism of action data
+- A systematic literature search for latanoprost in paediatric, congenital and juvenile glaucoma
+- Verification of the licence record (indication text, dosage form, manufacturer, authorisation number) against the MHRA register
+- If hair-growth indications are of interest, a separate assessment drawing on prostaglandin analogue evidence in hypotrichosis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

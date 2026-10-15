@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cefixime
-parent: High Evidence (L1-L2)
-nav_order: 137
-evidence_level: L1
+parent: Moderate Evidence (L3-L4)
+nav_order: 141
+evidence_level: L3
 indication_count: 10
 ---
 
 # Cefixime
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,102 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Cefixime: From Bacterial Infections to Gonococcal Urethritis
+# Cefixime: From Urinary Tract and Respiratory Infections to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Cefixime is a third-generation oral cephalosporin antibiotic used to treat a range of bacterial infections, including urinary and respiratory tract infections.
-The TxGNN model predicts it may be effective for **Gonococcal Urethritis** — urethral infection caused by *Neisseria gonorrhoeae* —
-with **2 registered clinical trials** and **20 publications** currently supporting this direction.
+Cefixime is an oral third-generation cephalosporin antibiotic, originally used for urinary tract infections, respiratory tract infections, otitis media, pharyngitis and gonorrhoea.
+The TxGNN model predicts it may be effective for **gonococcal urethritis**, with **no registered clinical trials** and **19 publications** retrieved, only a few of which directly assess cefixime.
+This is largely an anatomical extension of an existing gonorrhoea indication rather than a true repurposing, and rising antimicrobial resistance limits its current role.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation data available in this dataset |
-| Predicted New Indication | Gonococcal Urethritis |
+|------|------|
+| Original Indication | Urinary tract infection, bronchitis, tonsillitis, otitis media, pharyngitis, gonorrhoea (UK licence indication text not available) |
+| Predicted New Indication | Gonococcal urethritis |
 | TxGNN Prediction Score | 98.98% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed (no MHRA licence on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Cefixime is a third-generation oral cephalosporin that exerts its antibacterial effect by binding to penicillin-binding proteins (PBPs) in the bacterial cell wall, thereby inhibiting cell wall synthesis and ultimately causing bacterial lysis. Of particular relevance here is its exceptionally high affinity for PBP3 in *Neisseria gonorrhoeae*, the causative pathogen of gonococcal urethritis — a direct mechanistic basis for the TxGNN model's prediction.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cefixime is a third-generation oral cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. Its efficacy in gonorrhoea and gonococcal cervicitis is already established.
 
-Historically, this mechanism translated clearly into clinical practice: both WHO and CDC gonorrhoea treatment guidelines recommended cefixime 400 mg as a single oral dose for first-line management of uncomplicated gonococcal urethritis, and direct RCT evidence (PMID 2183719, PMID 1534422) confirmed microbiological eradication rates of 96–97% in male urethritis. A dose-optimisation study (PMID 12673405) further demonstrated that maintaining drug concentrations above four times the MIC for at least 10 hours was a key determinant of eradication, supporting the pharmacodynamic rationale.
+Gonococcal urethritis is caused by the same organism, *Neisseria gonorrhoeae*, so the prediction is biologically plausible. Published studies, including a randomised trial in which a single 800 mg dose cured 96 of 97 men with uncomplicated gonococcal urethritis, support clinical activity.
 
-The clinical landscape has, however, shifted significantly. Rising cefixime MICs (≥0.25 μg/mL) and documented treatment failures across Europe, North America, and Asia — including a landmark JAMA cohort study from Toronto (PMID 23299608) — have led current guidelines, including those of BASHH and UKHSA, to recommend intramuscular ceftriaxone as the preferred first-line agent, with oral cefixime retained only where parenteral therapy is not feasible. Any clinical application of this prediction must therefore be conditional on current local resistance surveillance data.
+The main limitation is resistance. Surveillance reports describe declining susceptibility of *N. gonorrhoeae* to oral cephalosporins, which limits cefixime's use as a recommended first-line agent.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT03840811](https://clinicaltrials.gov/study/NCT03840811) | Phase 1 | Completed | 27 | Experimental urethral infection model in healthy adult males using isogenic *N. gonorrhoeae* mutants; designed to characterise gonococcal virulence determinants. Provides mechanistic insights into urethral infection biology but does not assess cefixime efficacy directly. |
-| [NCT05294588](https://clinicaltrials.gov/study/NCT05294588) | Phase 2 | Completed | 65 | Double-blind RCT evaluating cross-protection from the 4C-MenB (Bexsero) meningococcal B vaccine against experimental *N. gonorrhoeae* urethral infection. An immunological study; not a cefixime treatment trial. |
-
-> **Note**: Neither registered trial directly evaluates cefixime as a treatment. The primary clinical evidence base for this indication resides in the published literature — including the landmark RCT by Megran et al. (PMID 2183719, 1990) and the dose-optimisation trial by Deguchi et al. (PMID 12673405, 2003) — which together underpin the L1 evidence classification.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Cefixime-specific or directly relevant publications are listed below (up to 10 shown, prioritising clinical studies, then reviews and surveillance reports).
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [1534422](https://pubmed.ncbi.nlm.nih.gov/1534422/) | 1992 | RCT | Sexually Transmitted Diseases | Cefixime 400 mg or 800 mg single oral dose vs ceftriaxone 250 mg IM in 155 evaluable patients; bacteriological eradication in 97% of cefixime-treated cases, comparable to ceftriaxone. Core efficacy evidence. |
-| [12673405](https://pubmed.ncbi.nlm.nih.gov/12673405/) | 2003 | Clinical Trial | J Infect Chemother | Double-dosing strategy (200 mg × 2 at 6-hour intervals) for gonococcal urethritis; demonstrates that maintaining serum concentrations >4× MIC for ≥10 hours optimises eradication, providing pharmacodynamic rationale for dosing regimens. |
-| [23299608](https://pubmed.ncbi.nlm.nih.gov/23299608/) | 2013 | Cohort Study | JAMA | Documents cefixime treatment failures in Toronto associated with rising MICs; critical safety signal that shifted international guidelines away from cefixime as first-line therapy. |
-| [17106672](https://pubmed.ncbi.nlm.nih.gov/17106672/) | 2006 | Review | Der Urologe | Comprehensive review of gonorrhoea; notes cefixime single-dose as a standard treatment option in Central Europe, covering transmission, clinical presentation, and management. |
-| [20353145](https://pubmed.ncbi.nlm.nih.gov/20353145/) | 2010 | Clinical Review | American Family Physician | Diagnosis and treatment of urethritis in men; discusses cefixime as a CDC-recommended agent for gonococcal urethritis and outlines diagnostic criteria. |
-| [36505551](https://pubmed.ncbi.nlm.nih.gov/36505551/) | 2022 | Observational Study | J Family Med Prim Care | Cross-sectional study characterising *N. gonorrhoeae* and *C. trachomatis* in men with urethritis; includes antimicrobial susceptibility profiling of gonococcal isolates. |
-| [25410409](https://pubmed.ncbi.nlm.nih.gov/25410409/) | 2015 | Review | Current Drug Targets | Longitudinal analysis of *N. gonorrhoeae* susceptibility to cefixime from the 1980s to 2010s; documents the progressive decline in susceptibility rates and emerging resistance mechanisms. |
-| [20643433](https://pubmed.ncbi.nlm.nih.gov/20643433/) | 2010 | Review | J Urology | Reviews the emergence and global spread of drug-resistant *N. gonorrhoeae*, with specific focus on cefixime and fluoroquinolone resistance. |
-| [34475363](https://pubmed.ncbi.nlm.nih.gov/34475363/) | 2021 | Surveillance Study | Sexually Transmitted Diseases | US GISP/SURRG data on gonococcal antimicrobial susceptibility by anatomical site among men who have sex with men, 2018–2019; relevant to broader resistance monitoring. |
-| [39034819](https://pubmed.ncbi.nlm.nih.gov/39034819/) | 2024 | Cross-sectional Study | Annals of Laboratory Medicine | Prevalence and molecular characterisation of pharyngeal gonorrhoea in Korean men with urethritis; includes antimicrobial susceptibility data for contemporary isolates. |
+|------|-----|------|------|---------|
+| [12673405](https://pubmed.ncbi.nlm.nih.gov/12673405/) | 2003 | Clinical study | J Infect Chemother | Double-dosing of cefixime 200 mg at a 6-hour interval for uncomplicated gonococcal urethritis |
+| [20643433](https://pubmed.ncbi.nlm.nih.gov/20643433/) | 2010 | Review | J Urol | Emergence and spread of drug-resistant *N. gonorrhoeae*, including resistance to cefixime and azithromycin |
+| [25410409](https://pubmed.ncbi.nlm.nih.gov/25410409/) | 2015 | Review | Curr Drug Targets | Historical trends in gonococcal susceptibility to cefixime and cefpodoxime, falling then partially recovering |
+| [41138812](https://pubmed.ncbi.nlm.nih.gov/41138812/) | 2025 | Surveillance | J Infect Chemother | Fourth Japanese nationwide susceptibility surveillance in male urethritis; resistance to oral third-generation cephalosporins reported |
+| [40922809](https://pubmed.ncbi.nlm.nih.gov/40922809/) | 2025 | Surveillance | Lancet Reg Health West Pac | WHO sentinel-country data on gonococcal antimicrobial resistance, threatening single-dose treatment |
+| [17106672](https://pubmed.ncbi.nlm.nih.gov/17106672/) | 2006 | Review | Urologe A | Overview of gonorrhoea clinical features and treatment |
+| [19177762](https://pubmed.ncbi.nlm.nih.gov/19177762/) | 2009 | Review | Nihon Rinsho | Review of *N. gonorrhoeae* infections and increasing resistant isolates |
+| [20353145](https://pubmed.ncbi.nlm.nih.gov/20353145/) | 2010 | Review | Am Fam Physician | Diagnosis and treatment of urethritis in men |
+| [36505551](https://pubmed.ncbi.nlm.nih.gov/36505551/) | 2022 | Observational | J Family Med Prim Care | Gonococcal and chlamydial urethritis, with susceptibility testing of isolates |
+| [39140433](https://pubmed.ncbi.nlm.nih.gov/39140433/) | 2024 | Observational | Int J STD AIDS | Gonococcal isolates in Kenya resistant to extended-spectrum cephalosporins and macrolides |
+
+Note that the remaining retrieved papers are mostly resistance surveillance or concern other antibiotics (grepafloxacin, ciprofloxacin); they do not provide cefixime efficacy data.
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisations for cefixime are recorded in this dataset.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501021C0AAAAAA | Cefixime tablets 200 mg | Tablet | Indication text not available |
 
-> **Note for UK prescribers**: Cefixime is referenced in the BNF (section 5.1.2 — Cephalosporins) and has historically appeared in BASHH and UKHSA gonorrhoea treatment guidelines as an oral alternative agent. The absence of licensing records in this dataset may reflect incomplete regulatory data capture rather than the drug's true market status. Prescribers should verify current availability via the MHRA Product Licence Register and consult up-to-date BASHH gonorrhoea management guidelines before clinical use.
+One single-ingredient authorisation is recorded as valid. The data compiled for this report did not include the PL number, dosage form details or NICE/BNF indication wording, so these should be confirmed against the MHRA register and the BNF.
 
 ---
 
 ## Safety Considerations
 
-Formal SmPC data — including key warnings, contraindications, and drug–drug interactions — were not available in this evidence pack.
+- **Contraindications (from knowledge-graph associations, not label text)**: *Clostridium difficile* colitis, perinatal necrotising enterocolitis, impaired renal function.
+- **Drug Interactions** (14 recorded, mostly moderate severity):
+  - Aminoglycosides: kanamycin, neomycin, streptomycin, amikacin (including liposomal), gentamicin
+  - Anticoagulants: warfarin, dicoumarol
+  - Others: picosulfuric acid, chloramphenicol, ethinylestradiol, mycophenolic acid, pemetrexed; omeprazole (severity unknown)
+- **Reported adverse reaction**: a published case report describes cefixime-induced Stevens-Johnson syndrome.
 
-> Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme at [yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).
-
-**Safety signal from literature**: One case report (PMID 35860067) documents cefixime-induced Stevens-Johnson Syndrome — a rare but potentially life-threatening mucocutaneous hypersensitivity reaction. This aligns with the known class risk for beta-lactam antibiotics and warrants standard allergy screening prior to prescribing.
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple RCTs and international clinical guidelines have established cefixime's efficacy against *N. gonorrhoeae*, supporting its role as an oral alternative for uncomplicated gonococcal urethritis; however, well-documented antimicrobial resistance — including verified treatment failures — means its use must be strictly contingent on local susceptibility data and current BASHH/UKHSA guideline alignment.
+Gonococcal urethritis is an on-label anatomical extension of cefixime's existing gonorrhoea indication, so it offers little genuine repurposing value. Evidence is limited to older clinical studies, reviews and surveillance data (L3), and rising resistance in *N. gonorrhoeae* undermines its use as a recommended agent.
 
 **To proceed, the following is needed:**
-
-- **Local resistance surveillance data**: Obtain current *N. gonorrhoeae* cefixime MIC distribution for the target population; do not use empirically if the local cefixime resistance rate exceeds acceptable thresholds
-- **Guideline alignment check**: Confirm that the intended use pathway is consistent with current BASHH gonorrhoea management guidelines and any UKHSA/NICE position statements
-- **UK regulatory status clarification**: Verify MHRA authorisation status; if use would be off-label, document the clinical rationale and obtain appropriate governance approval
-- **Full safety review**: Obtain the SmPC to assess contraindications, warnings, and drug interactions — particularly relevant for patients on anticoagulants or with renal impairment, where cephalosporin dosing adjustments may be required
-- **Formal MOA documentation**: Retrieve DrugBank pharmacodynamic data to complete the mechanistic dossier and confirm PBP-binding profile
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application in patient care.*
+- Current UK susceptibility data (e.g. UKHSA surveillance) for *N. gonorrhoeae* against cefixime
+- Comparison with current UK guideline-recommended gonorrhoea treatment
+- UK SmPC indication wording and full safety information, including warnings and contraindications
+- Mechanism of action data to complete the mechanistic assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

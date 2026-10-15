@@ -2,7 +2,7 @@
 layout: default
 title: Flunisolide
 parent: Moderate Evidence (L3-L4)
-nav_order: 275
+nav_order: 294
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Flunisolide: From Asthma/Allergic Rhinitis to Atopic Eczema
+# Flunisolide: From Asthma and Rhinitis to Atopic Eczema
 
 ## One-Sentence Summary
 
-Flunisolide is a synthetic glucocorticoid traditionally used as an inhaled therapy for asthma and as a nasal spray for allergic rhinitis. The TxGNN model predicts it may also be effective for **Atopic Eczema**, but this direction is currently supported by only **0 clinical trials** and **1 observational publication**, so the evidence base is thin.
+Flunisolide is a synthetic corticosteroid, originally used for asthma and allergic or vasomotor rhinitis.
+The TxGNN model predicts it may be effective for **atopic eczema**, but there are **no registered clinical trials** and only **1 indirect publication** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma / allergic rhinitis (inhaled and intranasal corticosteroid) — no formal UK marketing-authorisation text is available in this evidence pack |
-| Predicted New Indication | Atopic Eczema |
+| Original Indication | Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the UK licence record contains no indication text) |
+| Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for flunisolide is not available in this evidence pack. Based on known pharmacology, flunisolide belongs to the glucocorticoid (corticosteroid) class, and its efficacy in asthma (via inhalation) and allergic rhinitis (via nasal spray) is well established; mechanistically this class may be applicable to atopic eczema.
+Detailed mechanism of action data is not currently available. Flunisolide is a synthetic corticosteroid, and as a class, corticosteroids act through the glucocorticoid receptor to produce anti-inflammatory and immunosuppressive effects.
 
-Atopic eczema and flunisolide's established indications share an underlying Th2-driven inflammatory pathway, and topical corticosteroids are already first-line treatment for atopic eczema — so the pharmacological logic behind the TxGNN prediction is coherent. However, flunisolide itself is formulated for inhaled and intranasal delivery, not for cutaneous application, so there is currently no evidence that the existing formulations could deliver a therapeutic effect at the skin.
+Asthma, allergic rhinitis and atopic eczema are all allergic (atopic) inflammatory conditions that often occur together. Topical corticosteroids are already standard therapy for atopic eczema, so a corticosteroid being predicted for this condition is biologically plausible.
 
-Consistent with this, the evidence pack's own rationale notes: "Flunisolide is a glucocorticoid whose pharmacological class aligns with the anti-inflammatory mechanism of topical steroids used in atopic dermatitis (suppressing Th2 cytokines, reducing inflammatory cell infiltration), but flunisolide itself is formulated for inhalation/nasal use and lacks direct treatment data in a topical formulation."
+However, the high TxGNN score mainly reflects a class-level similarity. The only retrieved paper is an observational study of exhaled breath condensate in children with asthma and atopic dermatitis. It did not test flunisolide as a treatment for eczema. Flunisolide is also available as an intranasal or inhaled product, so a suitable formulation and route for skin disease would need to be considered.
 
 ## Clinical Trial Evidence
 
@@ -63,28 +64,35 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18926054](https://pubmed.ncbi.nlm.nih.gov/18926054/) | 2008 | Cohort | Allergy and Asthma Proceedings | Assessed exhaled breath condensate pH and Th1/Th2/Treg cytokines in children with asthma and atopic dermatitis, evaluating whether a short course of inhaled corticosteroid treatment altered these markers — this is an exploratory biomarker study, not a treatment trial of flunisolide for eczema itself. |
+| [18926054](https://pubmed.ncbi.nlm.nih.gov/18926054/) | 2008 | Cohort | Allergy and Asthma Proceedings | Measured cytokines and pH in exhaled breath condensate in children with asthma and atopic dermatitis, and looked at the effect of a short course of inhaled corticosteroid. It was a biomarker study and did not assess flunisolide for eczema. |
 
 ## UK Market Information
 
-Flunisolide currently holds no marketing authorisation in the UK (0 licenses on record); market status is **Not marketed**. No product name, dosage form, or approved-indication text is available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1202010L0AAAAAA | Flunisolide nasal spray 25 mcg/0.1 ml, 24 ml | Not specified | Not specified |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph (not label text):** liver disease, gallbladder disease, measles, herpes simplex virus keratitis, adrenocortical insufficiency, Addison disease, varicella zoster infection, fungal infectious disease, dermatophytosis, glaucoma, parasitic infection, infectious disease, lower respiratory tract disease, paranasal sinus disease, nasal cavity disease and upper respiratory tract disease. These should be verified against the SmPC.
+- **Drug Interactions:** 100 potential interactions were identified. The ones graded Moderate are **clarithromycin**, **cobicistat** and **inhaled rapid-acting human insulin**. The most clinically relevant are likely the CYP3A4 inhibitors (clarithromycin and cobicistat), which may increase systemic corticosteroid exposure. Other listed drugs have no severity grade, including prednisone, dexamethasone, morphine, omeprazole, simvastatin, glyburide, glipizide, rosiglitazone and acetylsalicylic acid.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a single observational cytokine-biomarker study rather than any interventional evidence for atopic eczema, and flunisolide's only established formulations (inhaled/intranasal) do not match the topical route typically required for eczema treatment. Combined with the absence of UK marketing authorisation and missing product-label safety data, the evidence is insufficient to move beyond an initial research question.
+The prediction is supported only by class-level plausibility and one indirect observational study, with no trials of flunisolide in atopic eczema. Established topical corticosteroids already exist for this condition, so there is little reason to proceed without direct evidence.
 
 **To proceed, the following is needed:**
-- Product label/SmPC warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism-of-action data from DrugBank or another primary source
-- A route-compatibility assessment — i.e. whether a topical/dermal formulation of flunisolide is feasible, since existing formulations are inhaled/intranasal
-- Dedicated preclinical or clinical evidence testing flunisolide specifically in atopic eczema, rather than inference from asthma/rhinitis biomarker studies
+- Mechanism of action data for flunisolide
+- Direct clinical or preclinical evidence of flunisolide in atopic eczema
+- Assessment of a suitable formulation and route, as the licensed product is a nasal spray
+- Comparison with existing topical corticosteroids
+- Licence details (dosage form, indication text) and SmPC safety information for the UK product
+- Review of the other predictions with some supporting evidence, such as bronchitis (a dated 1981 clinical study of uncertain design), as possible alternative research questions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Pegvisomant
 parent: Model Prediction Only (L5)
-nav_order: 448
+nav_order: 481
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegvisomant: From Unspecified Original Indication to Borderline Ovarian Serous Tumour
+# Pegvisomant: From Acromegaly to Borderline Ovarian Serous Tumour
 
 ## One-Sentence Summary
 
-Pegvisomant's original approved indication is not recorded in this evidence pack, and the drug does not currently hold a UK marketing authorisation. Based on its known pharmacology as a growth hormone (GH) receptor antagonist, the TxGNN model predicts a possible signal for **Borderline Ovarian Serous Tumour**, but this is currently supported only by a model prediction score, with **no clinical trials** and **no published literature** identified.
-
----
+Pegvisomant was originally used to treat acromegaly (a condition of excess growth hormone, also linked to hyperpituitarism).
+The TxGNN model predicts it may be effective for **borderline ovarian serous tumour**, but there are currently **no clinical trials and no publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK licence or approved-indication text in this evidence pack |
-| Predicted New Indication | Borderline Ovarian Serous Tumour |
+| Original Indication | Acromegaly; hyperpituitarism (from the knowledge graph, as no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Borderline ovarian serous tumour |
 | TxGNN Prediction Score | 98.63% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
----
+Other top-ranked predictions all share the same L5 evidence level and a Hold recommendation: rete ovarii cystadenoma (98.60%), ovarian papillary cystadenoma (98.60%), pyelonephritis (98.57%), malignant ovarian Brenner tumour (98.56%), aleukaemic mast cell leukaemia (98.56%), ovarian mucinous cystadenofibroma (98.54%), ovarian benign neoplasm (98.54%), mucinous ovarian cystadenoma (98.53%) and ovarian surface papilloma (98.51%).
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action data was not available for structured extraction in this evidence pack. However, the model's own rationale text indicates that pegvisomant acts as a GH receptor antagonist, which reduces circulating IGF-1. The GH/IGF-1 axis has a theoretical link to proliferation in some ovarian tumour cell types, which is the basis offered for this prediction — but the evidence pack explicitly characterises this link as speculative, with no in vitro, preclinical, or clinical data to support it.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Pegvisomant is, however, generally known as a growth hormone (GH) receptor antagonist that lowers circulating IGF-1. Its efficacy in acromegaly rests on reducing the effects of excess GH.
 
-Notably, 7 of the top 10 predicted indications for this drug are ovarian tumour subtypes (borderline serous tumour, rete ovarii cystadenoma, papillary cystadenoma, malignant Brenner tumour, mucinous cystadenofibroma, benign neoplasm, mucinous cystadenoma, surface papilloma) clustered within a very narrow score range (98.5–98.6%). The evidence pack itself flags this as a probable **knowledge-graph clustering artefact** — i.e. the model may be scoring the "ovarian tumour" node category as a whole rather than validating each specific pharmacological relationship. The remaining two predictions in this set (pyelonephritis, an infectious disease, and aleukaemic mast cell leukaemia, which is driven by KIT mutations) have no plausible mechanistic connection to GH receptor antagonism at all, further suggesting these are false-positive or noise predictions rather than genuine repurposing signals.
+The GH/IGF-1 axis has been implicated in the proliferation of some epithelial ovarian tumours. This gives a plausible but unverified link between the original indication and the predicted one. The high score appears to reflect a shared neighbourhood with other ovarian neoplasm terms in the knowledge graph rather than direct evidence.
 
-Given the absence of any independent supporting evidence and the model's own caveats about clustering effects, this prediction should be treated as hypothesis-generating only, not as a validated pharmacological signal.
-
----
+Several of the other predictions are weaker still. Benign ovarian lesions are usually managed surgically, so the need for drug therapy is unclear. For pyelonephritis (a bacterial kidney infection treated with antimicrobials) and mast cell leukaemia (typically KIT-driven), no clear mechanistic rationale is apparent, and these may be knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0605010Z0AAACAC | Pegvisomant Inj 20mg Vl + Dil | Injection (vial with diluent) | Not available in the compiled data |
+
+This identifier follows the BNF-style code format (BNF chapter 6, endocrine system) rather than a standard MHRA PL number, so the MHRA authorisation details should be verified. No NICE-appraised indication data were available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions**: 74 potential interactions were identified. The ones listed here are all of moderate severity. The main groups are:
+- **Antidiabetic agents** (the largest group): acarbose, metformin, pioglitazone, glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide, human insulin, insulin aspart. Newer agents also appear: albiglutide, dulaglutide, exenatide, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin. Pegvisomant may alter glucose control, so closer glucose monitoring and dose review may be needed when co-prescribed.
+- **Other**: morphine, pegvaliase.
 
-*Note: Detailed warnings, contraindications, and interaction data for this drug were not obtainable in this evidence pack (flagged as a Blocking-severity data gap), so no clinical safety assessment can be made at this time.*
-
----
+For all other safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction rests solely on a TxGNN model score (L5), with no clinical trials, no literature, and no marketing authorisation or safety data available. The evidence pack itself identifies the surrounding ovarian tumour predictions as a likely category-clustering artefact rather than independently validated signals, and two of the ten top predictions have no plausible mechanistic basis at all — together these substantially weaken confidence in any individual candidate, including the top-ranked indication.
+The prediction rests only on a high model score (98.63%) with a speculative GH/IGF-1 rationale. There are no clinical trials or publications for borderline ovarian serous tumour or any of the other nine predictions.
 
 **To proceed, the following is needed:**
-- UK product label / SmPC data (warnings, contraindications) — currently a Blocking-severity gap
-- Confirmed mechanism-of-action documentation and the drug's original approved indication(s)
-- Preclinical or in vitro evidence directly linking GH/IGF-1 axis inhibition to ovarian tumour biology, ideally specific to the borderline serous subtype rather than the ovarian tumour category as a whole
-- An investigation into why multiple unrelated ovarian tumour subtypes score similarly, to rule out a knowledge-graph node-clustering artefact before any further evaluation
-- Clarification of UK marketing status, since this drug currently has zero UK marketing authorisations on record
+- Mechanism of action data for pegvisomant to support the mechanistic-link analysis
+- Warnings and contraindications from the SmPC and BNF, which are needed before safety screening can proceed
+- Approved indication text and dosage form details for the UK authorisation
+- Preclinical or literature evidence linking GH receptor antagonism to ovarian epithelial tumour growth
+- Assessment of the clinical need for drug therapy, since benign ovarian lesions are usually treated surgically
+- Evaluation of route compatibility and similarity to the original indication, both currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

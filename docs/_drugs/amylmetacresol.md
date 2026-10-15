@@ -2,7 +2,7 @@
 layout: default
 title: Amylmetacresol
 parent: Model Prediction Only (L5)
-nav_order: 60
+nav_order: 62
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Oropharyngeal Antiseptic to Cauda Equina Syndrome
+# Amylmetacresol: From Throat Infection Relief to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol (AMC) is a phenolic antiseptic agent used as an active ingredient in over-the-counter throat lozenge products for the relief of sore throats and minor oropharyngeal infections.
-The TxGNN model predicts it may have potential utility in **Cauda Equina Syndrome**, with **no clinical trials** and **no published literature** currently supporting this direction.
-This prediction is based entirely on computational modelling and carries a very high risk of being a false positive; the biological plausibility is assessed as very low.
-
----
+Amylmetacresol is a topical antiseptic, used in throat lozenges. The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **no clinical trials and no publications** supporting this prediction. It is a model output only, with no plausible pharmacological rationale evident.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical antiseptic for oropharyngeal infections (sore throat) |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (the licence record contains no indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on established pharmacological knowledge, Amylmetacresol is a phenolic antiseptic that exerts broad-spectrum antimicrobial activity primarily by disrupting bacterial cell membrane integrity. It is applied topically to the oropharyngeal mucosa, with negligible systemic absorption, and its clinical role is confined entirely to surface-level antisepsis.
+Currently, detailed mechanism of action data is not available. Amylmetacresol is a topical antiseptic used in throat lozenges, usually for the relief of sore throat. Its use in the oropharynx involves minimal systemic exposure.
 
-Cauda equina syndrome is a serious neurological emergency resulting from acute or subacute compression of the lumbosacral nerve roots within the spinal canal — most commonly caused by large disc herniation, spinal stenosis, or neoplastic infiltration. Its pathophysiology involves mechanical nerve compression, vascular ischaemia, and secondary neuroinflammation, none of which have any established connection to the pharmacological activity of a topical oropharyngeal antiseptic.
+Cauda equina syndrome is a compressive neurological emergency that is treated surgically. No mechanistic link to an antiseptic lozenge has been established, and no plausible pharmacological rationale is evident. The high score (99.99%) reflects a model prediction only, not clinical or literature support.
 
-The TxGNN prediction most likely arises from indirect associations between neuroinflammatory pathway nodes and antimicrobial agents within the knowledge graph, rather than any direct mechanistic relationship. The biological rationale for this prediction is implausible under current understanding, and the risk of this representing a **computational false positive is assessed as very high**. No credible biological pathway connecting AMC to cauda equina syndrome pathology has been identified.
-
----
+The other top-ranked predictions are similarly unsupported. They include obsolete neurogenic bladder, irritable bowel syndrome and a cluster of ocular conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer and benign ciliary body neoplasm). The ocular cluster in particular looks like a model artefact from correlated disease terms rather than independent signals. The only weak, speculative rationale is for infectious anterior uveitis: amylmetacresol shows in vitro antibacterial and antiviral activity in the oropharyngeal setting, but it is not formulated or validated for intraocular use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1203030A0AAADAD | Amylmetacresol Lozenge 600 mcg (sugar-free) | Lozenge | Not available |
+
+The record lists one valid single-ingredient authorisation. Dosage form and indication details were not available in the data compiled for this report, so the lozenge form is inferred from the product name.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
----
+No drug interaction records were found for this drug in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical, preclinical, or mechanistic evidence supporting AMC as a therapeutic candidate for cauda equina syndrome; the fundamental mismatch between a topical oropharyngeal antiseptic with negligible systemic absorption and a compressive spinal neurological emergency makes this prediction biologically implausible at present.
+The prediction is supported only by the TxGNN model score. There are no trials, no publications, no mechanistic data and no plausible pharmacological link between a throat antiseptic and cauda equina syndrome. The other top-ranked predictions are similarly unsupported.
 
 **To proceed, the following is needed:**
-- A credible preclinical hypothesis or in vitro data demonstrating any neuroprotective, anti-inflammatory, or mechanically relevant activity for AMC
-- Detailed mechanism of action data retrieved from DrugBank or peer-reviewed sources (currently a high-severity data gap)
-- Full safety profile review via SmPC, including data on systemic absorption and CNS penetration
-- Verification of MHRA marketing authorisation status for AMC-containing combination products (e.g., throat lozenge combinations) currently available in the UK
-- Independent expert neurological opinion on whether any plausible biological rationale could be constructed before committing further research resource
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All predictions should be interpreted in the context of established clinical evidence and guidelines.
+- Mechanism of action data (for example from DrugBank)
+- Confirmed original indication and licence details (dosage form, indication text) from the MHRA/BNF records
+- Warnings, contraindications and interaction data from the SmPC and BNF
+- Preclinical or mechanistic evidence showing a credible biological rationale for the predicted indication
+- Assessment of route compatibility, since a lozenge acts locally in the oropharynx and the predicted conditions are neurological, gastrointestinal or ocular
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

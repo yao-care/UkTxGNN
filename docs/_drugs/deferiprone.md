@@ -2,7 +2,7 @@
 layout: default
 title: Deferiprone
 parent: Moderate Evidence (L3-L4)
-nav_order: 199
+nav_order: 211
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-# Deferiprone: From Transfusional Iron Overload (Thalassemia) to Hepatic Porphyria
+# Deferiprone: From Transfusional Iron Overload in Haemoglobinopathies to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Deferiprone is an oral iron chelator whose established clinical role is managing transfusional iron overload in β-thalassemia. The TxGNN model predicts it may also be effective for **Hepatic Porphyria**, but this direction is currently supported only by **0 clinical trials** and **2 indirect publications** (an animal model and a case report in a different porphyria subtype).
+Deferiprone is an oral iron chelator, originally used for iron overload in beta-thalassaemia and related haemoglobinopathies.
+The TxGNN model predicts it may be effective for **hepatic porphyria**, but there are **no registered clinical trials** and only **2 preclinical publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Transfusional iron overload in β-thalassemia (established clinical use; not confirmed by a formal MOA record in this evidence pack) |
+| Original Indication | Haemosiderosis and beta-thalassaemia-related haemoglobinopathies (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap in this evidence pack). Based on known information, deferiprone is an oral, bidentate iron chelator that forms 3:1 (chelator:Fe³⁺) complexes; its core clinical use is reducing iron overload in transfusion-dependent β-thalassemia, an indication corroborated within this evidence pack itself (see the rank-8 candidate below).
+Detailed mechanism of action data is not available in the data compiled for this report. Deferiprone is known to be an oral iron chelator. Its efficacy in transfusional iron overload in haemoglobinopathies is established, and mechanistically it may be applicable to iron-dependent porphyrias.
 
-The link to hepatic porphyria rests on a shared mechanistic hypothesis: iron catalyses the oxidation of porphyrin precursors, a key toxic step in porphyria pathophysiology. Iron chelation has shown benefit in related but distinct models — a murine model of porphyria cutanea tarda (hepatic iron reduction reducing uroporphyrin accumulation) and a human case series of congenital erythropoietic porphyria (an erythropoietic, not hepatic, porphyria) showing reduced haemolysis and photosensitivity with iron chelation.
+In porphyria cutanea tarda-type uroporphyria, excess hepatic iron is thought to inhibit uroporphyrinogen decarboxylase. Removing iron could therefore reduce porphyrin accumulation. A mouse model of uroporphyria compared deferiprone with iron-deficient diets, and a 2020 mouse study in congenital erythropoietic porphyria found that iron chelation improved haemolytic anaemia and skin photosensitivity.
 
-Neither publication studies hepatic porphyria directly, so the mechanistic rationale is plausible but extrapolated across disease subtypes and species. This is reflected in the L4 evidence level (mechanism/preclinical only) and the "Research Question" decision stage assigned by the scoring model.
+Two caveats apply. All the supporting evidence is preclinical. The 2020 study also covers an erythropoietic subtype rather than hepatic porphyria itself, so the link to hepatic porphyria is indirect.
 
 ## Clinical Trial Evidence
 
@@ -63,31 +64,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Case Report/Case Series | Blood | Iron chelation reduced haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria (an erythropoietic, not hepatic, porphyria) |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal Study | Hepatology (Baltimore, Md.) | In an Hfe⁻/⁻ murine model of porphyria cutanea tarda, oral iron chelation with deferiprone (L1) reduced hepatic uroporphyrin accumulation, comparably to iron-deficient diets |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical (mouse model) | Blood | Iron chelation rescued haemolytic anaemia and skin photosensitivity in congenital erythropoietic porphyria |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical (mouse model) | Hepatology | Compared deferiprone with iron-deficient diets for hepatic iron depletion and uroporphyrin accumulation in a porphyria cutanea tarda model |
 
 ## UK Market Information
 
-Deferiprone is currently not marketed in the UK, and no marketing authorisations are on record in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0901030I0AAAAAA | Deferiprone Tab 500mg | Tablet (per product name) | Not stated in the data compiled for this report |
+
+The identifier above is not in the usual PL format, and the manufacturer is not recorded. Please confirm the details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+The data compiled for this report list drug interactions only. Moderate-level interactions were identified with polyvalent cation-containing products, which may reduce the absorption of deferiprone through chelation:
 
-*Note: TFDA/MHRA-equivalent warning and contraindication data for this product is currently a blocking data gap (see Next Steps below) and must be resolved before any safety assessment can proceed.*
+- **Calcium salts**: calcium phosphate, acetate, carbonate, citrate, glubionate, gluconate and lactate
+- **Magnesium salts**: magnesium oxide, carbonate, chloride, citrate, gluconate, hydroxide and sulfate
+- **Aluminium- and clay-based antacids and adsorbents**: aluminium hydroxide, magaldrate, attapulgite and kaolin
+- **Other**: iron and sucralfate
+
+The interaction list contains 100 entries in total, and only the first 20 are summarised here. For warnings and contraindications, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The hepatic porphyria hypothesis is supported only by mechanistic extrapolation from an animal model and a case series in a different (erythropoietic) porphyria subtype — no direct evidence exists in the hepatic porphyria population, and no clinical trials are registered. Combined with a blocking gap in formal safety/warning data, the evidence does not yet support progression beyond a research question.
+The hepatic porphyria prediction has a plausible iron-related mechanism, but the evidence comes only from animal studies, one of them in a different porphyria subtype. There are no human trials, and the UK safety and indication data are incomplete.
 
 **To proceed, the following is needed:**
-- Official UK/MHRA SmPC warnings, contraindications and DDI data (currently a blocking data gap)
-- Verified mechanism of action documentation from DrugBank
-- Direct preclinical or clinical evidence in a hepatic porphyria population (current literature is in erythropoietic porphyria and a PCT mouse model only)
-- Clarification of deferiprone's UK regulatory status for its established indication (transfusional iron overload) as groundwork before considering repurposing
+- Mechanism of action data for deferiprone
+- Warnings and contraindications from the SmPC and BNF
+- Confirmation of the UK authorisation details (indication, dosage form, manufacturer)
+- Human evidence in hepatic porphyria, such as case series or a pilot trial, ideally in iron-overloaded porphyria cutanea tarda
+- A safety plan for the known haematological risks of deferiprone, including neutropenia and agranulocytosis, in this new population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Anakinra
-parent: Model Prediction Only (L5)
-nav_order: 63
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 65
+evidence_level: L3
 indication_count: 10
 ---
 
 # Anakinra
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Anakinra: From Rheumatoid Arthritis to Extracutaneous Mastocytoma
+# Anakinra: From Rheumatoid Arthritis to Familial Mediterranean Fever
 
 ## One-Sentence Summary
 
-Anakinra (Kineret) is a recombinant interleukin-1 receptor antagonist (IL-1Ra), established in clinical practice for rheumatoid arthritis and autoinflammatory conditions including Familial Mediterranean Fever and neonatal-onset multisystem inflammatory disease (NOMID).
-The TxGNN model ranks **Extracutaneous Mastocytoma** as its top novel indication with a prediction score of 99.93%; however, this prediction is supported by **no clinical trials and no published literature**, placing it at evidence level L5.
-Across the full top-10 predictions, the strongest clinically supported candidate is **Autosomal Recessive Familial Mediterranean Fever** (rank 3, L2 evidence, 20 publications), which carries substantially more actionable evidence and a direct mechanistic rationale.
-
----
+Anakinra is an interleukin-1 (IL-1) receptor antagonist, originally used for rheumatoid arthritis and cryopyrin-associated periodic syndromes (CAPS, including CINCA syndrome).
+The TxGNN model predicts it may be effective for **autosomal recessive familial Mediterranean fever (FMF)**,
+with **no registered clinical trials** but **19 publications** (mostly reviews, case reports and case series) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis; autoinflammatory conditions (no UK licence records retrieved — see note below) |
-| Predicted New Indication | Extracutaneous Mastocytoma |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
-| UK Market Status | No marketing authorisation on record |
-| Number of Marketing Authorisations | 0 (on record) |
-| Recommended Decision | Hold |
+| Original Indication | Rheumatoid arthritis; cryopyrin-associated periodic syndrome; CINCA syndrome (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Autosomal recessive familial Mediterranean fever |
+| TxGNN Prediction Score | 99.89% |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question; see the conclusion) |
 
-> **Note on UK market data:** This evidence pack retrieved zero marketing authorisations for Anakinra in the UK. This almost certainly reflects a data collection gap rather than genuine absence of approval, as Kineret (anakinra) holds MHRA authorisation for rheumatoid arthritis and NOMID/CINCA. Clinicians should verify directly via the [MHRA product licence register](https://products.mhra.gov.uk/). A separate search against MHRA Public Assessment Reports is also recommended.
-
----
+*Note: FMF is the highest-ranked prediction with supporting literature. Higher-scoring predictions (extracutaneous mastocytoma, hepatic infarction) have no supporting evidence and are not taken forward.*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on established clinical knowledge, anakinra is a recombinant, non-glycosylated form of the human IL-1 receptor antagonist (IL-1Ra) that competitively inhibits both IL-1α and IL-1β from binding to the interleukin-1 type I receptor (IL-1R1). By blocking this receptor, anakinra suppresses downstream NF-κB activation and the pro-inflammatory cytokine cascades that drive fever, joint destruction, serositis, and systemic autoinflammation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, anakinra is a recombinant IL-1 receptor antagonist. It blocks IL-1 signalling, and its efficacy in IL-1-driven conditions such as rheumatoid arthritis and CAPS is established. It may be mechanistically applicable to FMF.
 
-Extracutaneous mastocytoma is a rare, benign mast cell proliferation occurring at extra-cutaneous sites, for which surgical excision remains the primary treatment. Mast cells do produce IL-1β and express IL-1 receptors, creating a theoretical topological connection within the TxGNN knowledge graph. However, the dominant pathological driver of mastocytoma — and of systemic mastocytosis more broadly — is an activating KIT mutation (D816V), which is entirely independent of the IL-1 signalling axis. There is currently no preclinical or clinical evidence that IL-1 blockade influences mast cell neoplasm growth or disease course. The high TxGNN prediction score most likely reflects an indirect graph-topology association between mast cells and IL-1, rather than a validated mechanistic pathway.
+FMF is caused by mutations in the *MEFV* gene, which encodes pyrin. These mutations lead to inflammasome activation and excess IL-1β release. Because CAPS and FMF are both autoinflammatory diseases driven by IL-1, blocking this pathway is biologically coherent. The most plausible role is in patients whose disease is resistant to, or who cannot tolerate, colchicine, the standard treatment.
 
-It is important for context that several other indications within the top-10 predictions carry considerably stronger mechanistic and clinical support. **Autosomal Recessive Familial Mediterranean Fever** (rank 3, L2) is driven by MEFV gene mutations that cause pyrin inflammasome over-activation and excessive IL-1β secretion — precisely the pathway that anakinra blocks. The AIRTRIP Phase 3 RCT (NCT02059291) has demonstrated efficacy in colchicine-resistant FMF, although this trial was not captured in the current data pull (a known database coverage gap). **Pyogenic Autoinflammatory Syndrome** (PAPA/PASH/PAPASH spectrum, rank 9, L3) similarly involves PSTPIP1-driven IL-1β overproduction, and a scoping review and multiple case series directly report anakinra efficacy in this population. These two indications represent considerably more clinically actionable repurposing opportunities than the top-ranked prediction.
-
----
+The supporting evidence is mostly case-level. It does not yet show efficacy in controlled studies.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+The data compiled for this report include 19 publications. The most relevant are listed below. Priority was given to studies with direct IL-1 inhibitor data in FMF. No randomised controlled trials were identified. Study types are taken from the classification in the compiled data.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [21277619](https://pubmed.ncbi.nlm.nih.gov/21277619/) | 2011 | Case series / Review | Semin Arthritis Rheum | Evaluates IL-1-targeting drugs in FMF, based on the rationale that pyrin is implicated in IL-1 maturation and secretion |
+| [34550430](https://pubmed.ncbi.nlm.nih.gov/34550430/) | 2022 | Cohort | Rheumatol Int | Real-life experience: canakinumab (another IL-1 blocker) effective in FMF resistant or intolerant to colchicine and/or anakinra |
+| [23322405](https://pubmed.ncbi.nlm.nih.gov/23322405/) | 2013 | Review | Clin Rev Allergy Immunol | Reviews IL-1β biological treatment of FMF |
+| [26572612](https://pubmed.ncbi.nlm.nih.gov/26572612/) | 2016 | Review | Curr Med Chem | Reviews colchicine, biologic agents and other treatments for FMF |
+| [19033248](https://pubmed.ncbi.nlm.nih.gov/19033248/) | 2009 | Case report | Nephrol Dial Transplant | Anakinra used successfully in FMF, with outcome after renal transplantation |
+| [20386914](https://pubmed.ncbi.nlm.nih.gov/20386914/) | 2012 | Case report | Rheumatol Int | Anakinra effective in a patient with colchicine-resistant FMF and secondary amyloidosis |
+| [21931121](https://pubmed.ncbi.nlm.nih.gov/21931121/) | 2012 | Case report | Nephrol Dial Transplant | IL-1 inhibitor treatment showed marked benefit in FMF complicated by amyloidosis and renal failure |
+| [23928237](https://pubmed.ncbi.nlm.nih.gov/23928237/) | 2013 | Case report | Joint Bone Spine | Myositis in a patient with FMF and spondyloarthritis successfully treated with anakinra |
+| [28585601](https://pubmed.ncbi.nlm.nih.gov/28585601/) | 2017 | Case series | J Pak Med Assoc | Anakinra and canakinumab successful in four colchicine-resistant patients |
+| [32655029](https://pubmed.ncbi.nlm.nih.gov/32655029/) | 2020 | Case report | Iran J Kidney Dis | Late acute cellular rejection after anakinra in a kidney transplant patient with FMF; a possible safety signal of uncertain significance |
 
 ## UK Market Information
 
-No marketing authorisation records for Anakinra were retrieved in this data pull. This is likely a data gap rather than a genuine absence of UK approval. Healthcare professionals should consult the following authoritative sources directly:
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001030R0AAAAAA | Anakinra injection 150 mg/ml, 0.67 ml pre-filled syringe | Not specified | Not specified in the data compiled for this report |
 
-- **MHRA Product Licence Register:** [https://products.mhra.gov.uk/](https://products.mhra.gov.uk/)
-- **BNF classification:** Musculoskeletal diseases → Cytokine modulators (section 10.1.3)
-- **NICE Technology Appraisal TA195:** Anakinra for the treatment of rheumatoid arthritis (2009, guidance not recommended as routine use in RA; relevant for off-label NOMID/autoinflammatory indications)
-- **Kineret SmPC:** Available via the electronic medicines compendium (emc) at [https://www.medicines.org.uk/emc](https://www.medicines.org.uk/emc)
-
-Based on publicly available information, Kineret is MHRA-authorised for: (1) rheumatoid arthritis in adults, in combination with methotrexate, in patients with inadequate response to DMARDs alone; and (2) neonatal-onset multisystem inflammatory disease (NOMID/CINCA). These records should be verified and retrieved to complete the evidence pack.
-
----
+One valid single-ingredient authorisation is recorded. Please check the current MHRA record, the BNF classification and any NICE appraisals for the authorised indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme ([https://yellowcard.mhra.gov.uk/](https://yellowcard.mhra.gov.uk/)).
+**Drug Interactions** (100 interactions recorded; selected examples)
 
----
+- **Major:** deferiprone.
+- **Moderate:**
+  - Corticosteroids: hydrocortisone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone, triamcinolone.
+  - Other medicines: simvastatin; the anticoagulants apixaban, rivaroxaban and dicoumarol; and the radiopharmaceuticals ibritumomab tiuxetan, iobenguane (I-131) and tositumomab.
+- **Minor:** zinc salts (acetate, gluconate, sulfate).
+
+Warnings and contraindications from the product information were not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question)**
 
 **Rationale:**
-The TxGNN model's top prediction for anakinra — extracutaneous mastocytoma — is grounded solely in knowledge graph topology, with no clinical trials, no supporting literature, and no established IL-1 mechanistic rationale specific to this rare benign mast cell tumour. This prediction cannot be meaningfully actioned at the current evidence level.
+The mechanism is coherent and the literature includes case reports and case series of anakinra in colchicine-resistant FMF. However, there are no registered clinical trials, no randomised evidence, and the UK authorisation record has no indication text. The evidence is therefore graded L3 and is not sufficient for a Go decision.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro or in vivo) demonstrating a functional, non-redundant role for IL-1 signalling in extracutaneous mastocytoma pathogenesis
-- MOA data retrieval from DrugBank (data gap DG002) to enable a structured mechanistic plausibility assessment
-- Correction of the UK marketing authorisation data gap — verify Kineret's full MHRA licence status and retrieve approved indication text for the evidence pack
-- MHRA warnings and contraindications (data gap DG001) must be retrieved before any safety screening stage can be completed
-- **Priority recommendation:** Redirect investigative effort towards better-supported predictions — in particular, **Autosomal Recessive FMF** (rank 3, L2, *Proceed with Guardrails*) and **Pyogenic Autoinflammatory Syndrome** (rank 9, L3, *Proceed with Guardrails*) — both of which have strong mechanistic justification and existing clinical evidence; the FMF indication would benefit from retrieval of the AIRTRIP Phase 3 trial (NCT02059291) not captured in this data pull
+- Mechanism of action data confirmed from a primary source
+- SmPC warnings and contraindications, and the authorised indications for the UK product
+- Systematic appraisal of the anakinra-specific FMF literature, as several of the listed papers are reviews or concern canakinumab
+- Review of existing guidance and any NICE appraisal for IL-1 inhibitors in colchicine-resistant FMF
+- A controlled study, or a registry-based analysis, in colchicine-resistant or colchicine-intolerant patients
+- A safety monitoring plan, including attention to infection risk and concomitant corticosteroid use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

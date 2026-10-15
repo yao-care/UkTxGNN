@@ -2,7 +2,7 @@
 layout: default
 title: Nadolol
 parent: Model Prediction Only (L5)
-nav_order: 401
+nav_order: 431
 evidence_level: L5
 indication_count: 5
 ---
@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Nadolol is a non-selective β-adrenoceptor antagonist whose established clinical use is in essential hypertension (confirmed regulatory indication text is not available in this evidence pack). The TxGNN model predicts a possible role in **Malignant Hypertensive Renal Disease**, but this prediction is currently supported by **no clinical trials** and **no published literature**, and by only a general mechanistic argument.
+Nadolol is a non-selective beta-blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **no clinical trials** and **no publications** specific to this condition, so the prediction rests on model output alone.
 
 ---
 
@@ -41,23 +42,28 @@ Nadolol is a non-selective β-adrenoceptor antagonist whose established clinical
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in regulatory data (no licences on file); rationale text indicates historical use in essential hypertension |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.59% |
-| Evidence Level | L5 (model prediction only, no clinical/literature evidence) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap). Based on the repurposing rationale supplied, Nadolol is a **non-selective β-adrenoceptor antagonist**; its blood-pressure-lowering effect (reduced cardiac output, suppression of renin release) is well established in essential hypertension.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and beta-blockade reduces renin release and blood pressure, which may be relevant to hypertensive renal disease.
 
-Malignant hypertensive renal disease is a severe hypertensive emergency with renal involvement. The mechanistic argument for extending Nadolol to this indication is that a drug which lowers blood pressure and suppresses renin release could, in principle, contribute to blood pressure control in this setting. However, this is a **general mechanism-of-action extrapolation by TxGNN**, not evidence specific to this disease subtype. Malignant hypertension is typically managed with rapid-acting intravenous antihypertensives, and non-selective β-blockade is not a first-line approach.
+The predicted indication is closely related to the original one. The high score (99.59%) is probably driven by the proximity of this disease to hypertension in the knowledge graph, rather than by an independent repurposing signal. In practice, malignant hypertension is a hypertensive emergency usually managed with intravenous agents, so oral nadolol is unlikely to be first-line.
 
-It is also important to note that several other diseases predicted for this drug (ranked #3 and #4 in this evidence pack — pulmonary hypertension phenotypes) carry a **theoretical safety concern rather than an evidence gap**: non-selective β-blockade can reduce cardiac output and block β2 receptors, which may worsen right heart function or bronchoconstriction in patients with pulmonary hypertension or hypoxic lung disease. This suggests the underlying TxGNN signal may reflect proximity within cardiovascular-regulation network nodes rather than genuine therapeutic suitability, reinforcing the need for caution before further evaluation.
+Other predictions in the same list were assessed in the same way:
+
+- **Malignant renovascular hypertension** (score 99.59%, L5): beta-blockade lowers renin secretion, which is relevant where the renin-angiotensin system is activated. It is likely an ontology-proximity effect, with no trial or literature evidence. Caution is needed in bilateral renal artery stenosis.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.53%, L5): no trials or literature. Beta-blockers have historically been avoided in pulmonary arterial hypertension because of concerns about cardiac output and right ventricular function.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.53%, L4): 12 publications were returned, but all are preclinical or indirect (see Literature Evidence). Beta-blockade may worsen outcomes in patients with COPD.
+- **Braddock syndrome** (score 99.43%, L5): no plausible mechanistic rationale is evident, and the signal is probably a network-connectivity artefact.
 
 ---
 
@@ -69,33 +75,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction (malignant hypertensive renal disease). For the fourth-ranked prediction, pulmonary hypertension owing to lung disease and/or hypoxia, the following publications were returned. None is a nadolol-specific clinical study in patients.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6488695](https://pubmed.ncbi.nlm.nih.gov/6488695/) | 1984 | Animal study | Clin Physiol Biochem | Chronic propranolol lowered pulmonary artery pressure in conscious dogs; nadolol, a structurally dissimilar beta-blocker, produced a similar decrease in total pulmonary resistance |
+| [2566504](https://pubmed.ncbi.nlm.nih.gov/2566504/) | 1989 | Preclinical/Review | Eur J Pharmacol | Beta-blockers of various profiles showed cardioprotective effects in a guinea pig heart model of anoxia |
+| [8729060](https://pubmed.ncbi.nlm.nih.gov/8729060/) | 1996 | Preclinical | J Mol Cell Cardiol | Catecholamine-mediated chloride currents and early action potential shortening in hypoxic rabbit hearts; nadolol used as a tool |
+| [25350545](https://pubmed.ncbi.nlm.nih.gov/25350545/) | 2014 | Animal study | PLoS One | β2-adrenergic receptor-dependent attenuation of hypoxic pulmonary vasoconstriction in intermittent hypoxic rats |
+| [24795691](https://pubmed.ncbi.nlm.nih.gov/24795691/) | 2014 | Preclinical | Front Neurol | β1-blockers lowered norepinephrine release in normotensive and hypertensive rats |
+| [39252618](https://pubmed.ncbi.nlm.nih.gov/39252618/) | 2025 | Preclinical | CNS Neurol Disord Drug Targets | Nadolol attenuated brain cell ferroptosis in ischaemic stroke rats via the HOIL-1/IRP2 pathway |
+
+The remaining records (PMIDs 8935706, 1913717, 31527180, 1670627, 11076740, 10684471) are animal or isolated-tissue studies of hypoxia, ischaemia and catecholamines in the heart, with little relevance to this indication.
 
 ---
 
 ## UK Market Information
 
-Nadolol currently holds **no UK marketing authorisations** in this dataset (total licences: 0; market status: Not marketed). No product-specific licence or approved indication text is available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0204000M0AAABAB | Nadolol Tab 80mg | Tablet (not specified in the data) | Not specified in the data |
 
----
-
-## Other Predicted Indications (Lower Priority, Same Evidence Pack)
-
-| Rank | Disease | TxGNN Score | Evidence | Key Concern |
-|------|---------|-------------|----------|--------------|
-| 2 | Malignant renovascular hypertension | 99.59% | None | Standard treatment is revascularisation or ACEI/ARB; non-selective β-blockade is not a standard pathway |
-| 3 | Pulmonary hypertension (unclear/multifactorial) | 99.53% | None | Possible **safety signal**: risk of worsening right heart function |
-| 4 | Pulmonary hypertension due to lung disease/hypoxia | 99.53% | None | Possible **safety signal**: β2 blockade may worsen bronchoconstriction/hypoxic response |
-| 5 | Braddock (CHOPS) syndrome | 99.43% | None | No known mechanistic link; likely a TxGNN false positive |
+The data compiled for this report list one valid single-ingredient authorisation. The identifier shown is not in the usual MHRA PL format, so the authorisation details should be verified against the MHRA register and the BNF (beta-blocker section).
 
 ---
 
 ## Safety Considerations
 
-- **Key mechanistic safety signal**: For the pulmonary hypertension–related predictions (ranks 3–4), non-selective β-blockade carries a theoretical risk of worsening right heart function and bronchoconstriction; these should be treated as potential contraindications rather than repurposing opportunities pending further review.
-- No TFDA/SmPC-sourced warnings, contraindications, or drug interaction data are currently available for Nadolol in this evidence pack (flagged as a **Blocking** data gap — DG001).
+**Contraindication signals from the knowledge graph** (not label text; to be confirmed against the SmPC):
+- Cardiorespiratory: atrioventricular block, pulmonary emphysema, bronchial disease
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, hyperparathyroidism, gout, hyperuricaemia, phosphorus metabolism disease
+- Renal and hepatic: kidney disease, anuria, liver disease, hepatic coma and encephalopathy, pancreatitis, gallbladder disease, nephrocalcinosis
+- Neuromuscular: myasthenia gravis, neuromuscular junction disease
+- Other: systemic lupus erythematosus, anxiety and neurotic disorders, dysthymic disorder, neonatal jaundice
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (100 interactions recorded; selected examples):
+- **Major:** epinephrine
+- **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), anticholinergics (atropine, hyoscyamine, methscopolamine), bupropion, morphine, cimetidine, SGLT2 inhibitors (canagliflozin, dapagliflozin), chlorpropamide, calcium salts
+- **Minor:** acetylsalicylic acid, clarithromycin, magnesium oxide
+
+Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -104,13 +123,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction (malignant hypertensive renal disease) has no supporting clinical trials or literature (Evidence Level L5), and a Blocking-severity safety data gap (missing TFDA warnings/contraindications) prevents even an initial safety assessment. Several lower-ranked predictions for this drug carry plausible mechanistic safety concerns rather than mere evidence gaps.
+The prediction is an extension of nadolol's existing hypertension indication, with a high model score but no clinical trials or publications for malignant hypertensive renal disease. Oral nadolol is unlikely to be suitable for a hypertensive emergency, and the other predicted indications show no supportive evidence or raise safety concerns.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/SmPC warnings and contraindications for Nadolol
-- Resolve DG002: confirm mechanism of action via DrugBank API
-- Identify at least preclinical or observational evidence specific to malignant hypertensive renal disease before advancing beyond S0
-- Explicit safety review of β-blockade risk in any pulmonary hypertension–related candidate before further consideration
+- Mechanism of action data and SmPC-based warnings and contraindications
+- Clinical evidence specific to hypertensive renal disease or renovascular hypertension
+- Clarification of the UK authorisation details (PL number, dosage form, approved indication)
+- Review of the safety signals (renal disease, bronchial disease, atrioventricular block, diabetes) for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

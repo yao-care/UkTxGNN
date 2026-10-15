@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nefopam
-parent: High Evidence (L1-L2)
-nav_order: 407
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 438
+evidence_level: L5
 indication_count: 10
 ---
 
 # Nefopam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Nefopam: From Postoperative Pain Management to Lumbar Spinal Stenosis
+# Nefopam: From Analgesia to Lumbar Spinal Stenosis (Perioperative Pain)
 
 ## One-Sentence Summary
 
-Nefopam is a centrally-acting, non-opioid analgesic that inhibits monoamine (5-HT/NE/DA) reuptake and is established for postoperative pain control. The TxGNN model predicts it may be effective for **Lumbar Spinal Stenosis** (specifically post-surgical dysesthesia and residual pain), with **1 randomised controlled trial** and **2 supporting publications** currently identified.
-
-> **Note on other predictions**: The evidence pack also lists nine higher-ranked candidates (all cataract-related diagnoses, e.g. mature cataract, senile cataract, diabetic cataract). These carry marginally higher TxGNN scores but have **zero supporting clinical trials or literature** and remain in "pending" evaluation status. Given the absence of any corroborating evidence and no obvious mechanistic rationale for an analgesic drug in cataract pathology, this report focuses on **Lumbar Spinal Stenosis (rank 10)**, which is the only candidate with completed scoring, an evidence level assignment, and human-study support.
+Nefopam is a centrally acting non-opioid analgesic marketed in the UK as a 30 mg tablet.
+The TxGNN model's top-ranked predictions are cataract-related conditions (mature cataract and others), none of which has any supporting evidence. The only prediction with published literature is **lumbar spinal stenosis**, with **0 registered clinical trials** and **4 publications** (mostly perioperative pain studies).
 
 ---
 
@@ -43,69 +42,77 @@ Nefopam is a centrally-acting, non-opioid analgesic that inhibits monoamine (5-H
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally listed in the regulatory dataset (drug not marketed in the UK); per the model's rationale narrative, Nefopam is known for postoperative pain management |
-| Predicted New Indication | Lumbar Spinal Stenosis (postoperative dysesthesia/pain adjunct) |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not stated in the data compiled for this report (nefopam is a non-opioid analgesic) |
+| Predicted New Indication | Mature cataract (top-ranked prediction, no supporting evidence). The only prediction with literature is lumbar spinal stenosis (rank 10), discussed below |
+| TxGNN Prediction Score | 99.98% (mature cataract); 99.97% (lumbar spinal stenosis) |
+| Evidence Level | L5 for mature cataract and the other cataract predictions; L4 for lumbar spinal stenosis |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (cataract predictions); lumbar spinal stenosis is a research question only |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Nefopam is not available in this Evidence Pack (flagged as a **High-severity data gap**, DG002). Based on the information present, Nefopam is a centrally-acting non-opioid analgesic that inhibits monoamine (serotonin, noradrenaline and dopamine) reuptake, and it is already used clinically for postoperative pain management and as an adjunct in neuropathic pain.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, nefopam is a centrally acting non-opioid analgesic. It inhibits serotonin, noradrenaline and dopamine reuptake and modulates voltage-gated sodium and calcium channels.
 
-Patients undergoing surgery for lumbar spinal stenosis frequently experience postoperative dysesthesia and residual radicular pain. The proposed mechanistic link — central analgesic and anti-dysesthesia activity via monoamine modulation — is biologically plausible for this population, and this is not a prediction based on the TxGNN score alone: a double-blind RCT has already tested Nefopam specifically in this patient group and found a benefit on postoperative pain, dysesthesia and satisfaction.
+**Cataract predictions (ranks 1-9).** No mechanistic link has been established. Nothing in nefopam's pharmacology is known to affect lens opacification, whether age-related, diabetic, syndromic or tetanic. The uniformly high scores across the cataract group (99.97-99.98%) most likely reflect a shared disease-class signal in the knowledge graph rather than a pharmacological rationale. These should be regarded as model artefacts.
 
-However, the same evidence base flags an important safety signal: a case report describes status epilepticus attributed to Nefopam in a patient undergoing lumbar spinal stenosis surgery. This means the mechanistic rationale is credible, but any progression of this candidate must explicitly account for seizure risk, particularly in patients with a seizure history or concurrent use of other pro-convulsant agents.
+**Lumbar spinal stenosis (rank 10).** The link here is indirect but plausible. Monoamine reuptake inhibition and ion channel modulation may help neuropathic-type pain, dysesthesia and postoperative pain in patients undergoing spine surgery. However, the evidence concerns symptom control around surgery, not modification of the underlying disease.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (no entries in `clinical_trials` or `ictrp_trials` for this indication; supporting evidence is limited to the peer-reviewed literature below).
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+All publications below relate to lumbar spinal stenosis. No literature was available for any cataract prediction.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38068520](https://pubmed.ncbi.nlm.nih.gov/38068520/) | 2023 | RCT | Journal of Clinical Medicine | Double-blind RCT (n=73) of nefopam 20 mg vs. saline in lumbar spinal stenosis surgery patients; assessed effect on dysesthesia, postoperative pain and patient satisfaction |
-| [31166320](https://pubmed.ncbi.nlm.nih.gov/31166320/) | 2019 | RCT | Zhurnal Voprosy Neirokhirurgii imeni N. N. Burdenko | Evaluated various multimodal perioperative analgesia regimens (including nefopam) in spinal stenosis surgery and their effect on failed back surgery syndrome rates |
-| [25535527](https://pubmed.ncbi.nlm.nih.gov/25535527/) | 2014 | Case Report | Journal of Korean Neurosurgical Society | Reports status epilepticus in a 71-year-old man following nefopam administration for postoperative analgesia after lumbar spinal stenosis surgery — important seizure-risk safety signal |
+| [38068520](https://pubmed.ncbi.nlm.nih.gov/38068520/) | 2023 | Randomised, double-blind study | Journal of Clinical Medicine | 73 patients with lumbar spinal stenosis undergoing spine surgery received nefopam 20 mg or saline before surgery; outcomes were dysesthesia, postoperative pain and satisfaction (results not shown in the available abstract) |
+| [41937571](https://pubmed.ncbi.nlm.nih.gov/41937571/) | 2026 | Randomised, double-blind, placebo-controlled trial | Asian Spine Journal | Evaluated the opioid-sparing effect of continuous postoperative intravenous nefopam in multilevel degenerative lumbar spinal fusion (results not shown in the available abstract) |
+| [31166320](https://pubmed.ncbi.nlm.nih.gov/31166320/) | 2019 | Clinical study | Zhurnal Voprosy Neirokhirurgii imeni N. N. Burdenko | Compared multimodal perioperative analgesia regimens in spinal stenosis surgery and their effect on failed back surgery syndrome (design not confirmed) |
+| [25535527](https://pubmed.ncbi.nlm.nih.gov/25535527/) | 2014 | Case report | Journal of Korean Neurosurgical Society | Status epilepticus in a 71-year-old man after nefopam given around lumbar spinal stenosis surgery; a seizure-risk safety signal |
 
 ---
 
 ## UK Market Information
 
-Nefopam currently holds **no MHRA marketing authorisations** and is recorded as **not marketed** in the UK (0 licenses on file). No BNF classification entry is available for this product in the current dataset.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407010P0AAABAB (BNF product code, not a PL number) | Nefopam HCl Tab 30mg | Tablet | Not stated in the data compiled |
+
+BNF classification code 0407010 corresponds to the non-opioid analgesics section. Only one valid single-ingredient authorisation is recorded.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Seizure risk:** The literature includes a case report of status epilepticus associated with nefopam ([PMID 25535527](https://pubmed.ncbi.nlm.nih.gov/25535527/)). Published neurological adverse reactions include confusion, hallucinations, delirium and convulsions, and other reported effects are anticholinergic and cardiovascular.
 
-> Note: while formal `safety.key_warnings` and `safety.contraindications` data are not yet available in this dataset (flagged as a **Blocking data gap**, DG001), the literature review above independently surfaced a seizure/status epilepticus signal associated with Nefopam that should be treated as a priority item for any future safety assessment, particularly given the elderly, post-neurosurgical target population.
+Please refer to the SmPC and BNF for full warnings, contraindications and drug interaction information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold** (for all cataract predictions); lumbar spinal stenosis is a research question only.
 
 **Rationale:**
-One RCT and two supporting publications provide L2-level evidence for a mechanistically plausible use of Nefopam in lumbar spinal stenosis postoperative pain and dysesthesia. However, the drug is not currently marketed in the UK, mechanism-of-action data is missing, and a credible seizure-risk signal exists in the same patient population — together these warrant guardrails rather than unrestricted progression.
+- The nine cataract predictions have no trials, no literature and no plausible mechanism, so they rest on model score alone (L5).
+- For lumbar spinal stenosis, the evidence supports perioperative analgesia rather than treatment of the disease itself. Study designs have not been fully verified, so it remains L4 and is not graded as RCT-level evidence. The seizure signal also calls for caution.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain formal UK/MHRA SmPC warnings, contraindications and prescribing information
-- Resolve DG002 (High): confirm detailed mechanism of action from DrugBank or equivalent source
-- Formal seizure-risk assessment and exclusion criteria (seizure history, concurrent pro-convulsant medication) before any clinical use in this indication
-- Route-of-administration and dosage-form compatibility assessment (currently "pending" in the source data)
-- Clarification of UK regulatory pathway, given the drug currently holds no marketing authorisation in this market
+- Mechanism of action data confirmed from DrugBank
+- SmPC warnings and contraindications (currently a blocking gap for safety screening)
+- Full-text review of the two randomised studies (PMIDs 38068520 and 41937571) to confirm designs, endpoints and results
+- Clarification of whether perioperative analgesia in spinal stenosis surgery falls within nefopam's existing analgesic use, which would make it a use-extension question rather than true repurposing
+- A seizure-risk assessment for patients undergoing spine surgery
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

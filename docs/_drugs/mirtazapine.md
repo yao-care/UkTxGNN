@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Model Prediction Only (L5)
-nav_order: 389
+nav_order: 419
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,85 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-Using the Evidence Pack provided, here is the drug repurposing evaluation report.
-
----
-
-# Mirtazapine: From Depression to Ohdo Syndrome and Variants
+# Mirtazapine: From Major Depressive Disorder to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Mirtazapine is a noradrenergic and specific serotonergic antidepressant (NaSSA), originally established for the treatment of major depressive disorder.
-The TxGNN model predicts a possible association with **Ohdo syndrome and variants**, a rare congenital developmental disorder, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale is assessed as weak.
-
-*(Note: The Evidence Pack does not contain a populated `original_indications` field or licence-derived indication text for Mirtazapine. The original indication above is stated from established pharmacological knowledge of this molecule for reader orientation, not extracted from the pack — see Data Gaps below.)*
-
----
+Mirtazapine is an antidepressant, originally used for depressive disorders and anxiety disorder.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression (Major Depressive Disorder) — not present in Evidence Pack; see Data Gaps |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK authorisation record has no indication text) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack (flagged as Data Gap DG002, High severity). Based on known pharmacology, mirtazapine acts via central α2‑adrenergic antagonism together with 5‑HT2 and 5‑HT3 receptor antagonism and H1 antihistaminergic activity, and its efficacy in depression is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Mirtazapine is generally known as a noradrenergic and specific serotonergic antidepressant, acting through alpha-2 adrenergic, 5-HT2/5-HT3 and H1 receptor antagonism. Its efficacy in depression is established, but that does not extend to the predicted condition.
 
-Ohdo syndrome and its variants (including blepharophimosis–intellectual disability syndrome, Ohdo type) are rare congenital disorders caused by mutations in chromatin-modifying and transcriptional-regulation genes such as *KAT6A*, *KAT6B*, *MED12*, *SETD1B*, and *AFF4*. These are structural/developmental gene defects, not neurotransmitter receptor disorders, and there is no established causal or symptomatic-treatment pathway linking mirtazapine's pharmacology to this disease mechanism.
+Ohdo syndrome (including the KAT6B-related variants) is a rare genetic disorder of chromatin regulation, with intellectual disability and craniofacial features. No plausible pharmacological pathway links monoaminergic modulation to this underlying epigenetic defect. The high TxGNN score most likely reflects network proximity or shared phenotype nodes in the knowledge graph rather than true biology, so the prediction should be treated with caution.
 
-The repurposing rationale accompanying this prediction explicitly assesses the signal as a **likely false positive**: the high TxGNN score most plausibly reflects co-occurrence in the knowledge graph between "intellectual disability / behavioural phenotype" nodes and psychiatric drugs generally, rather than a genuine mechanistic relationship. This is a symptom-level statistical association, not a pharmacological one, and should be treated with corresponding caution.
-
----
+Two other predictions were also generated:
+- **Blepharophimosis - intellectual disability syndrome, Ohdo type** (score 99.11%): a subtype of the same spectrum, likely redundant with the prediction above and driven by the same graph artefact. At most, mirtazapine could offer symptomatic help for comorbid mood or sleep problems, which is not a disease-modifying rationale.
+- **Benign paroxysmal torticollis of infancy** (score 99.11%): a weak, speculative link exists, as the condition is related to CACNA1A variants and is considered a migraine equivalent, and serotonergic agents are sometimes used in migraine prophylaxis. There is no direct evidence for mirtazapine, and its use in infants is a concern because it is not approved for paediatric use and carries a warning about suicidality in young patients.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No marketing authorisation records are present in the Evidence Pack for Mirtazapine (market status: **Not marketed**; 0 licences on file). This appears inconsistent with mirtazapine's known long-standing UK availability, and should be treated as a data gap requiring verification against the MHRA product database and BNF rather than as a confirmed absence from the UK market.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0403040X0AAAAAA | Mirtazapine Tab 30mg | Not recorded | Not recorded |
 
----
+This is the only authorisation record in the compiled data. The identifier does not follow the usual MHRA PL number format, so it should be checked against the MHRA register. Please refer to the BNF (antidepressant drugs) and the current SmPC for licensed indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged in the knowledge graph as contraindications or cautions** (from knowledge-graph relationships, not from product label text): epilepsy, manic bipolar affective disorder, liver disease, impaired renal function, neutropenia, agranulocytosis, serotonin syndrome, drug-induced akathisia, orthostatic hypotension and other hypotensive disorders, multiple system atrophy, postural orthostatic tachycardia syndrome, myocardial infarction and coronary thrombosis, stroke and other cerebrovascular disorders, cerebral infarction, hypertriglyceridemia, obesity disorders, gallbladder disease and haemoglobinopathy.
+- **Drug Interactions**: 100 interactions were recorded; the most clinically important are those classed as **Major**:
+  - Bupropion
+  - Lorcaserin
+  - Dolasetron
+  - Palonosetron
 
-*(All safety fields in the Evidence Pack — key warnings, contraindications, and drug interactions — are recorded as Data Gaps; no interaction search returned results.)*
+  Moderate interactions include famotidine, loperamide, aprepitant, morphine, dexamethasone, cimetidine, clarithromycin, levofloxacin, dronabinol, nabilone, eliglustat and obeticholic acid, among others.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only, no supporting clinical trials or literature), and the repurposing rationale itself flags the mechanistic link as most likely a knowledge-graph artefact rather than a genuine pharmacological relationship. Combined with a Blocking-severity data gap on TFDA/MHRA label warnings and contraindications (DG001), this candidate does not currently meet the threshold to proceed.
-- The two related "Ohdo syndrome" candidates (ranks 1–2, scores 99.42% and 99.11%) and the third candidate, benign paroxysmal torticollis of infancy (rank 3, score 99.11%), are all L5/Hold. The torticollis candidate has a marginally more plausible mechanistic rationale (serotonergic overlap with migraine-spectrum pathophysiology) but still lacks any trial or literature support, and carries additional safety concern given the paediatric/infant population and lack of paediatric safety data.
+The prediction is supported only by the TxGNN model score. There are no clinical trials or publications, and no plausible mechanistic link between mirtazapine's receptor pharmacology and the underlying chromatin-regulation defect in Ohdo syndrome.
 
 **To proceed, the following is needed:**
-- Resolution of DG001 (Blocking): TFDA/MHRA SmPC warnings and contraindications, required before any S1 safety screening can begin.
-- Resolution of DG002 (High): confirmed mechanism-of-action data from DrugBank to properly assess mechanistic plausibility.
-- Verification of actual UK marketing/licensing status, given the discrepancy between the Evidence Pack (0 licences, not marketed) and mirtazapine's known clinical use in the UK.
-- Independent pharmacological/genetics expert review of whether any plausible biological link exists between mirtazapine's receptor pharmacology and chromatin-modifier-driven developmental syndromes, before further investment in this candidate.
-- If pursuing the benign paroxysmal torticollis of infancy candidate instead, dedicated paediatric safety data would be required given the lack of approved paediatric use.
+- Mechanism of action data to allow a proper mechanistic analysis
+- Label-based warnings and contraindications from the SmPC and BNF
+- Confirmed MHRA marketing authorisation details (PL number, dosage form, approved indication)
+- Any preclinical or clinical evidence in Ohdo syndrome, or in the related migraine-equivalent condition if that prediction is pursued
+- A paediatric safety assessment, given the likely patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

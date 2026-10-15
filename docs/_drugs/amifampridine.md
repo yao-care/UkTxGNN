@@ -2,7 +2,7 @@
 layout: default
 title: Amifampridine
 parent: Model Prediction Only (L5)
-nav_order: 45
+nav_order: 47
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,87 +31,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 # Amifampridine: From Lambert-Eaton Myasthenic Syndrome to Glaucoma
 
----
-
 ## One-Sentence Summary
 
-Amifampridine (3,4-diaminopyridine) is a voltage-gated potassium channel (VGKC) blocker with established use in Lambert-Eaton Myasthenic Syndrome (LEMS), a rare paraneoplastic neuromuscular disorder in which presynaptic acetylcholine release is impaired by autoantibodies.
-The TxGNN model predicts it may have utility in **Glaucoma**, with a prediction confidence of **99.71%**; however, this is currently supported by **no clinical trials** and **no published literature** specific to this indication.
-The evidence base rests entirely on model prediction alone, and the proposed mechanistic link is considered highly indirect — independent preclinical validation is required before this direction can be taken further.
-
----
+Amifampridine was originally used to treat Lambert-Eaton myasthenic syndrome (LEMS).
+The TxGNN model predicts it may be effective for **glaucoma**, but there are currently **no registered clinical trials and no publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Lambert-Eaton Myasthenic Syndrome (LEMS) — not recorded in UK MHRA dataset; based on established pharmacological use |
+|------|------|
+| Original Indication | Lambert-Eaton myasthenic syndrome |
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L5 |
-| UK Market Status | Not currently marketed |
-| Number of UK Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this dataset. Based on established pharmacological knowledge, Amifampridine acts by blocking presynaptic voltage-gated potassium channels (VGKCs). This prolongs the presynaptic action potential duration, increases calcium influx at the neuromuscular junction, and ultimately enhances acetylcholine (ACh) release into the synaptic cleft. This mechanism underlies its proven efficacy in LEMS, where autoantibodies directed against P/Q-type voltage-gated calcium channels (VGCCs) reduce ACh vesicle exocytosis, resulting in proximal muscle weakness, depressed tendon reflexes, and autonomic dysfunction.
+Amifampridine (3,4-diaminopyridine) is a voltage-gated potassium channel blocker. By prolonging presynaptic depolarisation, it enhances acetylcholine release at the neuromuscular junction, which is why it helps people with LEMS. The data compiled for this report do not include a formal mechanism-of-action entry, so this description draws on general pharmacological knowledge.
 
-For glaucoma, VGKCs are known to be expressed in the trabecular meshwork and ciliary body epithelium — tissues that govern intraocular pressure (IOP) through aqueous humour secretion and outflow. In principle, modulation of potassium channel activity at these sites could theoretically influence IOP dynamics. However, the mechanistic link is highly indirect: Amifampridine's established pharmacological action operates specifically at presynaptic motor nerve terminals in the peripheral neuromuscular junction, not at the intraocular smooth muscle or epithelial secretory cells relevant to glaucoma pathophysiology.
+Currently, there is no established link between this mechanism and the regulation of intraocular pressure or neuroprotection of retinal ganglion cells. The high TxGNN score is a graph-based prediction only. It should be read as a hypothesis-generating signal, not as evidence of benefit. Of the top ten predictions, the more mechanistically coherent ones are actually paraneoplastic polyneuropathy and paraneoplastic cerebellar degeneration, which sit close to LEMS in the paraneoplastic spectrum. These are flagged as research questions, but they also have no retrieved clinical evidence.
 
-Critically, there is no preclinical evidence — no animal model or in vitro study — to support Amifampridine's relevance to glaucoma. The high TxGNN score most likely reflects knowledge graph topological adjacency, where ion channel biology and neurological disease nodes are proximate within the graph, rather than true biological plausibility. This prediction should be treated as a hypothesis-generating signal only.
+## Other Predicted Indications (Top 10)
 
----
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 1 | Glaucoma | 99.71% | L5 | Hold; no mechanistic link |
+| 2 | Acute intermittent porphyria | 99.32% | L5 | Hold; seizure-risk concern |
+| 3 | Oesophageal varices without bleeding | 98.77% | L5 | Hold; likely graph artefact |
+| 4 | Oesophageal varices with bleeding | 98.77% | L5 | Hold; no supporting data |
+| 5 | Porphyria | 98.51% | L5 | Hold; seizure-risk concern |
+| 6 | Primary immunodeficiency due to p14 deficiency | 98.39% | L5 | Hold; no recognised pathway link |
+| 7 | Paraneoplastic limbic encephalitis | 98.31% | L5 | Hold; seizure-threshold concern |
+| 8 | Paraneoplastic polyneuropathy | 98.26% | L5 | Research question |
+| 9 | Varicose disease | 98.08% | L5 | Hold; likely graph artefact |
+| 10 | Paraneoplastic cerebellar degeneration | 97.99% | L5 | Research question |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Amifampridine currently holds no MHRA marketing authorisations in the United Kingdom, and no licensed products are recorded in this dataset.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 100201000AAADAD | Amifampridine Tab 10mg | Not specified | Not specified |
 
-> **Note for prescribers:** In the European Union, amifampridine phosphate (Firdapse®) holds a centralised EMA marketing authorisation for the symptomatic treatment of LEMS in adults. UK clinicians should verify the current MHRA status independently via the MHRA product database. Access for the LEMS indication may be possible through unlicensed routes (e.g., specials manufacturer licence or named-patient supply) where appropriate. There is no UK-approved indication for any ophthalmic or glaucoma use.
-
----
+The compiled data list one valid single-ingredient authorisation. The dosage form, manufacturer and approved indication text were not available, and the authorisation number is not in the usual MHRA PL format. Please verify details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-All safety data — including key warnings, contraindications, and drug interaction information — was not available from the sources queried at the time of this report.
+- **Drug Interactions**: The interaction screen identified 68 interacting drugs. The 20 entries shown include one rated Major and the rest Moderate.
+  - **Major**: bupropion.
+  - **Moderate (examples)**: corticosteroids (hydrocortisone, betamethasone, dexamethasone, prednisolone, prednisone); sympathomimetics and appetite suppressants (ephedrine, phentermine, fenfluramine, dexfenfluramine, diethylpropion, mazindol, sibutramine); levofloxacin; metoclopramide; opioids (morphine, opium); dronabinol; and polyethylene glycol with electrolytes.
+- **Seizure threshold**: Amifampridine lowers the seizure threshold. This is a particular concern for the porphyria and paraneoplastic limbic encephalitis predictions, where seizures can occur. Several of the interacting drugs above (such as bupropion and levofloxacin) also lower the seizure threshold.
 
-> Please refer to available international prescribing information (e.g., the EMA-approved Firdapse SmPC) and the BNF for safety guidance. Suspected adverse reactions should be reported via the **MHRA Yellow Card Scheme** at [yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk). Given the absence of a UK marketing authorisation, prescribers should seek specialist advice before initiating treatment.
-
----
+Label-based warnings and contraindications were not available in the compiled data. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial, published literature, or preclinical evidence linking Amifampridine to glaucoma. The high TxGNN prediction score appears to reflect knowledge graph topology rather than validated biological plausibility, and the proposed mechanistic pathway (VGKC blockade → aqueous humour dynamics → IOP reduction) is highly speculative and unsubstantiated.
+The glaucoma prediction is supported only by a model score, with no trials, no publications and no plausible mechanistic link to intraocular pressure or retinal neuroprotection. Seizure-threshold lowering adds a safety concern in several of the other predicted conditions.
 
-**To proceed, the following would be needed:**
-
-- **Mechanistic gap analysis:** Obtain full MOA data from DrugBank (DB11640) to enable rigorous assessment of whether VGKC blockade has any plausible downstream effect on intraocular structures
-- **Preclinical feasibility study:** In vitro investigation of VGKC subtype expression and pharmacological sensitivity in trabecular meshwork and ciliary body epithelial cells
-- **Animal model data:** IOP measurement in a glaucoma rodent model following systemic or topical Amifampridine administration
-- **Ocular formulation assessment:** Evaluate whether topical ocular delivery is pharmacokinetically feasible, given that systemic VGKC blockade could carry significant cardiovascular and neurological risks
-- **Safety data retrieval:** Obtain full contraindication, warning, and DDI profile from the EMA SmPC or MHRA records before any human study design is considered
-- **Regulatory context:** Clarify current UK MHRA licensing status and whether Firdapse holds or is eligible for a UK Orphan Medicinal Product designation
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application. Data cut-off: 4 April 2026.*
+**To proceed, the following is needed:**
+- Targeted literature review for the predicted indication, and for paraneoplastic polyneuropathy and paraneoplastic cerebellar degeneration, which are the more plausible research questions
+- Mechanism-of-action data and a defined mechanistic hypothesis linking potassium channel blockade to glaucoma
+- Label warnings and contraindications from the SmPC and BNF, to allow a proper safety screen
+- Preclinical evidence (for example, ocular models) before any clinical development
+- Confirmation of the UK authorisation details (dosage form, indication, PL number) from the MHRA register
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

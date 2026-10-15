@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Griseofulvin
-parent: Moderate Evidence (L3-L4)
-nav_order: 298
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 320
+evidence_level: L5
 indication_count: 5
 ---
 
 # Griseofulvin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,64 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Griseofulvin: From Fungal Infections to Myiasis
+# Griseofulvin: From Tinea Infections to Myiasis
 
 ## One-Sentence Summary
 
-Griseofulvin is an oral antifungal used for dermatophyte (ringworm-type) infections of the skin, hair and nails, acting by disrupting the mitotic spindle microtubules of fungal cells. The TxGNN model predicts a possible link to **myiasis** (fly larva infestation of tissue), but this is currently supported by **no clinical trials** and only **1 tangentially related publication** (a 1970 veterinary review). There is no established pharmacological mechanism connecting an antifungal drug to a parasitic insect infestation, so this prediction should be treated as exploratory only.
+Griseofulvin is an oral antifungal originally used to treat dermatophyte (tinea) infections of the skin, scalp, nails and groin.
+The TxGNN model predicts it may be effective for **myiasis**, but there are currently **no registered clinical trials and no publications** supporting this direction.
+The prediction rests on model output alone and has no clear mechanistic rationale.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (no licence data); drug class description indicates use as an oral antifungal for dermatophyte infections |
+| Original Indication | Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK licence is not available) |
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Griseofulvin's mechanism of action is not formally documented in this evidence pack (flagged as a data gap), but the model's own rationale text describes it as an oral antifungal that interferes with fungal mitotic spindle microtubule function — the well-known mechanism by which griseofulvin inhibits dermatophyte fungal growth. This mechanism has no established biological connection to myiasis, which is caused by dipteran (fly) larvae infesting living tissue, not by fungi.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Griseofulvin is a systemic antifungal whose efficacy in dermatophyte infections is established. It is generally understood to disrupt microtubule function and mitosis in fungal cells.
 
-The repurposing rationale supplied with this prediction is explicit that the link is speculative: it notes only an unproven hypothesis that griseofulvin, which accumulates in keratin, might have some larvicidal or repellent effect once deposited in skin/hair keratin — but this has no pharmacological mechanism support and is described in the evidence pack itself as "an indirect inference" rather than an established pathway. The model also ranked four closely related conditions (wound myiasis, creeping myiasis, furuncular myiasis) and echinococcosis at similarly high scores with essentially the same caveat, which is more consistent with the model detecting a loose semantic/knowledge-graph association than a genuine pharmacological signal.
+Myiasis is an infestation of tissue by fly larvae. It is usually managed by larval removal, occlusion, wound debridement and care, or antiparasitic drugs such as ivermectin. No established pharmacological rationale supports griseofulvin activity against fly larvae. The high TxGNN score appears to reflect network proximity to anti-infective or anti-parasitic agents rather than biology specific to myiasis.
 
-Given this, the prediction should be read as a hypothesis-generating signal only, not as evidence of therapeutic plausibility.
+The other highly ranked predictions are closely related and share the same weakness:
+
+- **Wound myiasis, creeping myiasis and furuncular myiasis** have identical scores (99.34%). This suggests the prediction is propagated through the disease hierarchy rather than reflecting subtype-specific biology.
+- **Echinococcus granulosus infection** (score 99.32%) has a weak, speculative conceptual parallel. Griseofulvin binds tubulin, and benzimidazoles (albendazole, mebendazole), the standard medical therapy for cystic echinococcosis, also act on parasite tubulin. There is no evidence that griseofulvin has scolicidal or anti-cyst activity.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Review | The Veterinary record | Veterinary review of parasitic skin diseases in dogs and cats; no abstract available in this evidence pack, and relevance to griseofulvin use in human myiasis has not been assessed (marked "pending") |
+Currently no related literature available.
+
+---
 
 ## UK Market Information
 
-No marketing authorisation data is available in this evidence pack — Griseofulvin is recorded as **Not Marketed**, with 0 licences on file. No product, dosage form or approved indication text could be extracted.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0502050B0AAACAC | Griseofulvin Tab 500 mg | Tablet (strength given in the product name) | Not available in the data compiled |
+
+This is the only authorisation identified (single-ingredient product, valid). The identifier above is a drug-code-style reference, not a standard MHRA "PL" number. Please verify the licence details and indication wording against the MHRA register and the BNF.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge-graph drug–disease contraindication links, not label text):**
+- Liver failure
+- Porphyria (including inherited porphyria and porphyrin metabolism disease)
+- Systemic lupus erythematosus (including paediatric SLE)
+- Substance abuse/dependence
+- Neutropenia and related disorders, including agranulocytosis, cyclic haematopoiesis, severe congenital neutropenia (and its genetic subtypes), Kostmann syndrome, adult idiopathic neutropenia, constitutional neutropenia and Rowell syndrome
 
-*Note: this evidence pack flags a **Blocking** data gap on missing warnings/contraindications data, which by itself prevents progression to a formal safety evaluation (S1) for this candidate.*
+**Drug Interactions:** The data compiled for this report list 100 interactions. The first 20 are shown below, all graded Moderate except where stated.
+- **Anticoagulants and antiplatelets:** warfarin, dicoumarol, apixaban, rivaroxaban, ticagrelor (all Moderate); acetylsalicylic acid (Minor)
+- **Antidiabetic agents:** saxagliptin, linagliptin, repaglinide (Moderate); liraglutide (Minor)
+- **Antiemetics and related agents:** aprepitant, rolapitant, naloxegol (Moderate)
+- **Antimalarials and antiparasitics:** artemether, mefloquine, praziquantel (Moderate)
+- **Others:** eliglustat, nitisinone, macimorelin, fostamatinib (Moderate)
+
+Warfarin and other anticoagulant combinations warrant particular attention. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no plausible mechanistic link between griseofulvin's antifungal action and myiasis, no clinical trial evidence, and only a single, non-specific veterinary review as literature support. A blocking data gap on safety/label warnings also prevents this candidate from progressing past initial screening (decision stage S0).
+The prediction is supported by model score only (Evidence Level L5), with no clinical trials or publications. There is no credible mechanistic link between griseofulvin and fly-larval infestation, and established effective treatments exist. The near-identical scores across the myiasis subtypes suggest a hierarchy artefact rather than a real signal.
 
 **To proceed, the following is needed:**
-- Griseofulvin MHRA/SmPC warnings, contraindications and DDI data (currently a Blocking gap)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity gap)
-- Targeted literature search specifically on griseofulvin and myiasis/keratin-larvicidal effects in humans, rather than relying on an unrelated veterinary review
-- Any preclinical (in vitro/in vivo) data testing griseofulvin's activity against dipteran larvae, to establish whether the keratin-accumulation hypothesis has any real pharmacological basis before further evaluation
+- Mechanism of action data for griseofulvin
+- In vitro or preclinical evidence of larvicidal activity (and, for the echinococcosis prediction, protoscolex viability assays)
+- Confirmation of the UK licence details (MHRA licence number, dosage form, approved indication) and the full SmPC warnings and contraindications
+- A comparison against standard myiasis management (larval removal, ivermectin) to establish any unmet need
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

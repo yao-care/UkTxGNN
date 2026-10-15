@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylphenidate
-parent: High Evidence (L1-L2)
-nav_order: 374
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 404
+evidence_level: L5
 indication_count: 4
 ---
 
 # Methylphenidate
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-# Methylphenidate: From ADHD to Specific Developmental Disorder
-
-> **Note on candidate selection:** This evidence pack contains four TxGNN-predicted indications for methylphenidate. The single highest-scoring prediction (*faciodigitogenital syndrome*, 99.998%) currently has **no** supporting clinical trial or literature evidence and its scoring/rationale fields remain unprocessed ("pending"). *Chondromyxoid fibroma* (rank 2) has been formally assessed and returned a **Hold** with no plausible mechanistic link. This report therefore focuses on the candidate with the strongest completed evidence review — **specific developmental disorder** (rank 3, evidence level L2) — as the most clinically meaningful basis for evaluation.
+# Methylphenidate: From Attention Deficit Hyperactivity Disorder to Faciodigitogenital Syndrome
 
 ## One-Sentence Summary
 
-> Methylphenidate is a dopamine/noradrenaline reuptake inhibitor whose established clinical use (evident throughout the trial and literature context in this evidence pack) is Attention-Deficit/Hyperactivity Disorder (ADHD).
-> The TxGNN model predicts it may also be effective for **Specific Developmental Disorder**,
-> with **1 completed Phase 2 RCT directly on point** and **15 supporting/contextual trials** currently identified, though no dedicated literature (PubMed) evidence has yet been retrieved.
+Methylphenidate is a central nervous system stimulant, originally used for attention deficit hyperactivity disorder (ADHD) and narcolepsy.
+The TxGNN model predicts it may be effective for **faciodigitogenital syndrome** (Aarskog-Scott syndrome), but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a purely computational signal.
 
 ---
 
@@ -45,76 +42,95 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the UK regulatory data within this evidence pack (drug not currently marketed in the UK); established international use is ADHD, referenced throughout the supporting trial evidence |
-| Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.99% (score 0.9998779) |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK licence record) |
+| Predicted New Indication | Faciodigitogenital syndrome |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed original mechanism-of-action data is flagged as a data gap (DG002) in this evidence pack. However, the repurposing rationale supplied alongside the prediction confirms that methylphenidate acts as a **dopamine/noradrenaline reuptake inhibitor**, enhancing prefrontal cortical executive function and attentional regulation — the same mechanism underlying its established use in ADHD.
+Detailed mechanism of action data is not available in the data compiled for this report. Methylphenidate is, however, widely known as a dopamine and norepinephrine reuptake inhibitor, and its efficacy in ADHD is well established.
 
-"Specific developmental disorder" is a broad diagnostic category that includes conditions such as childhood apraxia of speech and other neurodevelopmental/motor-coordination disorders. These conditions frequently overlap with executive-function and neuromotor-coordination deficits, which is the biological rationale for extending methylphenidate beyond ADHD. Several trials in the evidence base (e.g. in 22q11.2 deletion syndrome and autism spectrum disorder) further support a mechanistic bridge between dopaminergic modulation and neurodevelopmental symptom domains.
+Faciodigitogenital syndrome is an X-linked developmental disorder in which ADHD-like behavioural features can occur. A symptomatic rationale is therefore conceivable: methylphenidate could treat the attention and hyperactivity symptoms, not the underlying genetic condition. No evidence in the compiled data supports this, and no mechanistic link has been established. The very high TxGNN score should be treated as a hypothesis only.
 
-Importantly, specific developmental disorder is a distinct diagnostic entity from ADHD, and the current evidence — while including one directly relevant completed RCT — remains preliminary. The mechanistic plausibility is reasonable, but confirmatory, adequately powered trials specific to this diagnostic category are still needed.
+**Other predictions considered (all lower-ranked):**
+- **Chondromyxoid fibroma** (score 99.991%): no plausible mechanistic link. This is a benign cartilage-derived bone tumour, and the score is likely a knowledge-graph artefact. No trials or literature (L5, Hold).
+- **Specific developmental disorder** (score 99.988%): indirect ADHD-focused literature that largely overlaps with the existing indication (L4, Research Question).
+- **Dysthymic disorder** (score 99.109%): indirect evidence from ADHD with comorbid depressive symptoms; no trial of methylphenidate in dysthymia (L4, Research Question).
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05185583](https://clinicaltrials.gov/study/NCT05185583) | Phase 2 | Completed | 18 | Double-blind, randomised, placebo-controlled crossover trial testing methylphenidate for speech intelligibility in children with childhood apraxia of speech (a specific developmental disorder subtype). **Directly relevant, Grade A.** |
-| [NCT04647500](https://clinicaltrials.gov/study/NCT04647500) | N/A | Completed | 45 | Methylphenidate's modulation of the dopaminergic system on memory and executive processes in individuals with 22q11.2 deletion syndrome. Grade B. |
-| [NCT02167048](https://clinicaltrials.gov/study/NCT02167048) | Phase 1/2 | Active, not recruiting | 52 | Double-blind crossover comparing low- vs normal-dose psychostimulants on executive function in children with ADHD (combined/inattentive type). Grade B. |
-| [NCT05974241](https://clinicaltrials.gov/study/NCT05974241) | Phase 4 | Completed | 36 | Crossover trial of methylphenidate vs aripiprazole for irritability in children with ADHD and emotion dysregulation. Grade B. |
-| [NCT01470261](https://clinicaltrials.gov/study/NCT01470261) | N/A | Completed | 1398 | ADDUCE project: large observational study of methylphenidate's chronic effects on growth, neurological, psychiatric and cardiovascular systems. Grade B. |
-| [NCT07024303](https://clinicaltrials.gov/study/NCT07024303) | Early Phase 1 | Not yet recruiting | 20 | Comparing medication and behavioural treatment for challenging behaviour in children/adolescents with autism. Grade B. |
-| [NCT01363544](https://clinicaltrials.gov/study/NCT01363544) | Phase 2/3 | Completed | 112 | Exercise and neurofeedback intervention combined with pharmacological treatment (methylphenidate) for ADHD, described as a developmental disorder. |
-| [NCT05916339](https://clinicaltrials.gov/study/NCT05916339) | Phase 4 | Recruiting | 500 | Pragmatic SMART-design trial comparing methylphenidate and amphetamine for ADHD in children/youth with autism spectrum disorder. |
-| [NCT00310986](https://clinicaltrials.gov/study/NCT00310986) | N/A | Unknown | 22 | RCT of breathing meditation combined with methylphenidate for children with ADHD. |
-| [NCT01554046](https://clinicaltrials.gov/study/NCT01554046) | N/A | Completed | 40 | Familial response to methylphenidate (Ritalin IR) in ADHD — symptom improvement and side-effects. |
+Currently no related clinical trials registered for faciodigitogenital syndrome.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature (PubMed) has been retrieved for this specific indication.
+Currently no related literature available for faciodigitogenital syndrome.
+
+For context, the literature retrieved for the related predictions (specific developmental disorder and dysthymic disorder) is indirect. The most relevant items are listed below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24045603](https://pubmed.ncbi.nlm.nih.gov/24045603/) | 2013 | Cohort | Clin Neuropharmacol | Effect of methylphenidate on ADHD and mood symptoms in young people with comorbid subsyndromal depression |
+| [40527386](https://pubmed.ncbi.nlm.nih.gov/40527386/) | 2025 | Cohort | Prog Neuropsychopharmacol Biol Psychiatry | Longitudinal MRI study of cumulative methylphenidate exposure, brain structure and symptom improvement in youth with ADHD |
+| [41128391](https://pubmed.ncbi.nlm.nih.gov/41128391/) | 2026 | Cohort | Psychiatry Clin Neurosci | Extended-release methylphenidate and dopamine/norepinephrine transporter binding in adults with ADHD (PET study) |
+| [19627998](https://pubmed.ncbi.nlm.nih.gov/19627998/) | 2009 | Review | Neuropharmacology | Neurobiology of ADHD |
+| [22923783](https://pubmed.ncbi.nlm.nih.gov/22923783/) | 2015 | Review | J Atten Disord | Overview of methylphenidate efficacy, safety and dosing in adult and juvenile brains |
+| [14609500](https://pubmed.ncbi.nlm.nih.gov/14609500/) | 2003 | Observational | Curr Psychiatry Rep | Effects of antidepressants, amphetamine and methylphenidate on negative interpersonal perception in depression/dysphoria |
+
+None of these studies addresses faciodigitogenital syndrome.
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisation is currently held for methylphenidate under this evidence pack (`market_status`: Not marketed; `total_licenses`: 0). Methylphenidate is, however, a long-established stimulant class medicine internationally (BNF: CNS stimulants and drugs used for ADHD); UK-specific licence data should be verified directly against the MHRA product database before any regulatory decision is made.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0404000M0AAAAAA | Methylphenidate HCl Tab 10mg | Not specified | Not specified |
+
+The record is a single-ingredient, valid authorisation. Dosage form and approved indication text are not available in the data compiled for this report. Please check the current MHRA record, SmPC and BNF for authoritative details.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications flagged in the knowledge graph** (derived from drug-disease relationships, not from label text), including:
+- **Cardiovascular and cerebrovascular:** hypertension, coronary artery disease, myocardial infarction, stroke and cerebral infarction, sudden cardiac arrest, heart conduction disease
+- **Psychiatric:** bipolar disorder, psychotic disorders including schizoaffective disorder, substance abuse/dependence, anorexia nervosa
+- **Neurological:** epilepsy
+- **Haematological:** thrombocytopenia, leukopenia, anaemia, haemoglobinopathy
+- **Other:** glaucoma, hyperthyroidism (Graves disease, thyrotoxicosis)
 
-*Note: this evidence pack flags two outstanding data gaps relevant to safety review — MHRA/SmPC warnings and contraindications (blocking, DG001) and detailed mechanism-of-action data (high priority, DG002). Neither is yet available and should be resolved before any safety-sensitive decision.*
+**Drug Interactions** (100 interactions recorded; main ones shown):
+- **Major:** bupropion
+- **Moderate:** isometheptene, ephedrine, epinephrine, and bowel preparations (polyethylene glycol with electrolytes, sodium picosulfate, sodium sulfate)
+- Several others are recorded with an unclassified severity (for example metformin, morphine, omeprazole, pantoprazole, simvastatin, prednisone).
+
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One completed, directly relevant Phase 2 RCT (n=18) shows methylphenidate has been formally tested in a specific developmental disorder subtype (childhood apraxia of speech), supported by a plausible dopaminergic mechanism and a body of contextual trials in overlapping neurodevelopmental populations. However, the evidence base is still limited to a single small trial and heterogeneous, indirectly related studies, so this should be treated as a research-stage signal rather than a ready-to-implement indication.
+The prediction for faciodigitogenital syndrome rests on a very high TxGNN score alone, with no clinical trials, no literature and no established mechanistic link. The knowledge-graph contraindication profile also includes several common conditions, which warrants caution.
 
 **To proceed, the following is needed:**
-- Larger, adequately powered confirmatory RCTs specifically defining and testing "specific developmental disorder" as the primary endpoint
-- Resolution of blocking data gap DG001 (MHRA/SmPC warnings and contraindications)
-- Resolution of high-priority data gap DG002 (detailed mechanism-of-action data)
-- Confirmation of UK marketing authorisation and licence status, as none is currently on record
-- Re-evaluation of the top TxGNN-scored candidate (faciodigitogenital syndrome) once clinical trial and literature evidence become available, and continued monitoring of dysthymic disorder (L4, currently literature-only, mechanistically plausible via psychostimulant antidepressant augmentation)
+- Mechanism of action data for methylphenidate, to support any mechanistic-link analysis
+- Published or registered evidence (case series, trials) of methylphenidate for behavioural symptoms in faciodigitogenital syndrome
+- Verified label-based warnings and contraindications from the SmPC and BNF, as these are currently missing
+- Confirmation of the licensed indications and dosage forms for the UK authorisation
+- Independent validation of the TxGNN signal, ideally by clinical review of whether the proposal is a genuine repurposing opportunity or simply symptomatic ADHD treatment within an existing licensed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

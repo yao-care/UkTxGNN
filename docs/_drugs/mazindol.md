@@ -2,7 +2,7 @@
 layout: default
 title: Mazindol
 parent: Model Prediction Only (L5)
-nav_order: 356
+nav_order: 384
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Mazindol: Original Indication Not Recorded — Predicted New Indication of Hypervitaminosis (Low Confidence)
+# Mazindol: From Obesity to Hypervitaminosis
 
 ## One-Sentence Summary
 
-> The available evidence pack does not record Mazindol's original licensed indication or mechanism of action.
-> The TxGNN model's top-ranked prediction is **Hypervitaminosis**, but this candidate has **0 clinical trials** and **0 publications** supporting it,
-> and the model's own mechanistic rationale explicitly flags the association as likely **knowledge graph noise** rather than a genuine pharmacological link.
+Mazindol is a sympathomimetic appetite suppressant, originally used to treat obesity, including monogenic obesity.
+The TxGNN model predicts it may be effective for **hypervitaminosis**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ---
 
@@ -43,23 +42,28 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available data |
+| Original Indication | Obesity disorder; monogenic obesity (the UK licence record contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Mazindol is not currently available in this evidence pack (flagged as a blocking data gap), which prevents a full assessment of pharmacological plausibility.
+Currently, detailed mechanism of action data is not available in the compiled record. From general pharmacology, mazindol is a sympathomimetic appetite suppressant that inhibits catecholamine (norepinephrine and dopamine) reuptake. Its efficacy in obesity rests on reduced appetite.
 
-More importantly, the model-generated rationale for this specific prediction states there is **no identifiable pharmacological link** between Mazindol's sympathomimetic/appetite-suppressant activity and the metabolic mechanisms underlying hypervitaminosis. The rationale concludes this is most likely a **spurious association arising from node-embedding similarity** in the knowledge graph, rather than a genuine repurposing hypothesis.
+No plausible mechanistic link to hypervitaminosis could be identified. Vitamin excess and its clearance are unrelated to catecholamine reuptake inhibition. The very high TxGNN score is therefore best read as a knowledge-graph artefact rather than a biologically grounded signal.
 
-The same pattern holds across nearly all of the top-ranked predictions in this pack: proximal 16p11.2 microdeletion syndrome, obsolete hypertelorism, frontorhiny, pentosuria, and lethal polymalformative syndrome (Boissel type) are all structural, congenital, or benign conditions with no plausible pharmacological mechanism connecting them to Mazindol, and each is explicitly annotated by the model as likely graph noise. One candidate — postural orthostatic tachycardia syndrome (rank 5) — has not yet completed rationale review and remains pending; it may warrant separate evaluation once assessed.
+Other predictions in the same list include:
+- **Proximal 16p11.2 microdeletion syndrome** (score 99.997%): this has a weak, indirect rationale, because the deletion is associated with severe early-onset obesity. The drug would not address the neurodevelopmental features of the syndrome.
+- **Postural orthostatic tachycardia syndrome** (score 99.60%): norepinephrine reuptake inhibition has some biological plausibility. However, the same sympathomimetic action could worsen tachycardia and raise blood pressure, so the safety direction is uncertain.
+- **Obsolete hypertelorism, frontorhiny, pentosuria and lethal polymalformative syndrome (Boissel type)**: no plausible mechanism, likely graph artefacts.
+
+None of these has supporting trials or literature.
 
 ---
 
@@ -77,15 +81,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Mazindol currently holds no marketing authorisations and is not marketed. No licence records are available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0405020N0AAABAB (BNF-style product code; no PL number in the compiled data) | Mazindol Tab 1mg | Tablet | Not stated in the compiled data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction screen returned 100 entries (the 20 shown in the data compiled for this report include the following).
+  - **Major**: tramadol, bupropion, methylene blue, lorcaserin.
+  - **Moderate** (examples): sympathomimetics and bronchodilators (phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol, arformoterol, isometheptene); opioids (fentanyl, alfentanil); antidiabetic agents (acarbose, alogliptin, pioglitazone, albiglutide); amitriptyline; amifampridine; and ethanol.
+- **Class-related caution**: Because mazindol is a sympathomimetic, additive cardiovascular effects (raised heart rate and blood pressure) should be considered. This is a pharmacological expectation, not data from the compiled record.
 
-*Note: Mechanism of action and MHRA-equivalent warning/contraindication data are recorded as a blocking data gap (DG001, DG002) and could not be assessed for this report.*
+Warnings and contraindications from the product label were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,13 +103,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction is unsupported by any clinical trial or literature evidence, sits at evidence level L5, and is explicitly flagged by the model's own mechanistic rationale as a likely knowledge-graph artefact rather than a genuine repurposing signal. A blocking data gap in safety/labelling information also prevents any S1 safety screening.
+The prediction for hypervitaminosis is supported only by a model score, with no trials, no literature and no plausible mechanism. The evidence level is L5, and the drug's sympathomimetic profile and major interactions argue for caution.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for Mazindol (DrugBank query, per DG002)
-- SmPC-equivalent warnings, contraindications and DDI data (per DG001, blocking)
-- Independent literature/mechanistic review of the pending candidate (postural orthostatic tachycardia syndrome, rank 5) before any further action
-- Re-evaluation of the knowledge graph edges driving ranks 1–4, 6–7, given the consistent "likely noise" annotation across candidates
+- Mechanism of action data to allow a proper mechanistic-link analysis
+- Label warnings and contraindications (SmPC/BNF) to complete safety screening
+- Confirmation of the UK authorisation details (PL number, dosage form, approved indication)
+- Any preclinical or clinical evidence linking mazindol to vitamin excess or clearance
+- If a repurposing direction is wanted, consider re-prioritising candidates with a more plausible rationale (for example, the obesity-related 16p11.2 microdeletion syndrome or postural orthostatic tachycardia syndrome), each requiring its own evidence review and cardiovascular safety assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

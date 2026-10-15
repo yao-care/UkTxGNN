@@ -2,7 +2,7 @@
 layout: default
 title: Trimethoprim
 parent: Model Prediction Only (L5)
-nav_order: 602
+nav_order: 644
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Trimethoprim: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: From Urinary Tract Infection to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Trimethoprim is a dihydrofolate reductase (DHFR) inhibitor, traditionally used as an antibacterial agent for infections such as urinary tract infections. The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**, but currently **no clinical trials** and **no published literature** directly support this specific prediction — the model's top-ranked candidate for this drug is not yet backed by clinical evidence.
+Trimethoprim is an antibacterial originally used for urinary tract infections and several other bacterial infections, including eye infections such as conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so the evidence is model-based only.
 
 ---
 
@@ -41,23 +43,23 @@ Trimethoprim is a dihydrofolate reductase (DHFR) inhibitor, traditionally used a
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g. urinary tract infection) — specific regulatory indication text not available in this evidence pack |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Original Indication | Urinary tract infection (the UK licence record has no indication text, so this comes from the drug's recorded indications, which also include infectious otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis/blepharoconjunctivitis) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.57% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, trimethoprim is a folate-pathway antibacterial that inhibits bacterial dihydrofolate reductase (DHFR), blocking synthesis of tetrahydrofolate and thereby bacterial DNA/protein synthesis. Its efficacy against common ocular surface pathogens (e.g. *Haemophilus influenzae*, *Staphylococcus aureus*, *Streptococcus pneumoniae*) is well established in combination ophthalmic products such as trimethoprim–polymyxin B (Polytrim).
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trimethoprim is a bacterial dihydrofolate reductase inhibitor. Its efficacy in bacterial infections, including ocular surface infections (often as a topical combination with polymyxin B), is established.
 
-Punctate epithelial keratoconjunctivitis and bacterial conjunctivitis share overlapping infectious ocular-surface pathophysiology, which is the mechanistic basis for this prediction. However, the evidence pack's own rationale notes that this specific prediction is a broad generalisation by the TxGNN model across the "ocular surface infection" disease category, rather than a finding drawn from direct clinical data — no trials or publications specific to punctate epithelial keratoconjunctivitis were identified.
+The high score most likely reflects network proximity to its known eye indications (conjunctivitis, acute contagious conjunctivitis, blepharoconjunctivitis) rather than independent evidence. Punctate epithelial keratoconjunctivitis is frequently viral or immune-mediated, for example adenoviral disease or Thygeson's superficial punctate keratitis. An antibacterial agent would not be expected to treat the underlying cause. The mechanistic link is therefore weak. It may apply only where a bacterial component or secondary infection is present, and that has not been verified.
 
-Notably, a closely related candidate indication in the same evidence pack — **conjunctivitis** — is supported by a Phase 4 head-to-head RCT (trimethoprim–polymyxin B vs moxifloxacin) and multiple further publications, with an evidence level of L2 and a "Proceed with Guardrails" recommendation. This adjacent, better-evidenced indication lends indirect plausibility to the antibacterial mechanism being applicable to ocular surface infections generally, even though it does not constitute direct support for punctate epithelial keratoconjunctivitis specifically.
+The model also lists conjunctivitis as a prediction. That condition is already an original indication for trimethoprim, so it is not true repurposing.
 
 ---
 
@@ -69,13 +71,31 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
+
+The literature found for the broader condition of conjunctivitis (for example, trials of trimethoprim-polymyxin B eye drops in bacterial conjunctivitis) relates to the existing indication, not to this prediction.
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501080W0AAADAD (product code as recorded; not a PL number) | Trimethoprim 100 mg tablets | Tablet | Not stated in the available record |
+
+Only one single-ingredient authorisation is recorded, and it is valid. It is an oral tablet, so no topical ophthalmic route is documented. Route compatibility with the predicted eye indication has not been assessed. Check the BNF and current MHRA/NICE sources for authorised indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and conditions of concern (from the knowledge graph, not label text):** inherited porphyria and other porphyrias, kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia, folic acid deficiency anaemia, and pyoureter.
+- **Drug interactions:** 100 interactions were recorded, and the first 20 are summarised here.
+  - *Major:* potassium citrate, potassium bicarbonate, potassium chloride and potassium gluconate. The usual concern with potassium-containing products is additive hyperkalaemia.
+  - *Moderate:* metformin, pioglitazone, rosiglitazone, repaglinide, balsalazide, picosulfuric acid and sapropterin.
+  - *Unspecified severity:* pantoprazole, omeprazole, doxycycline, clotrimazole, morphine, sucralfate, vancomycin, lactulose and simvastatin.
+
+Label warnings are not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -84,14 +104,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-This prediction is currently supported by a TxGNN model score alone (Evidence Level L5), with no clinical trials or literature specific to punctate epithelial keratoconjunctivitis. The drug is also not currently marketed in the UK, and key safety/regulatory data (warnings, contraindications, MOA) are missing, which blocks initial safety screening.
+The TxGNN score is very high, but there are no trials or publications for this indication. The predicted condition is often viral or immune-mediated, so an antibacterial is unlikely to address its cause. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- MHRA/SmPC label data — key warnings, contraindications and drug interactions
-- Confirmed mechanism of action (MOA) documentation from DrugBank or equivalent source
-- Targeted literature/trial search specific to punctate epithelial keratoconjunctivitis (rather than the broader conjunctivitis category)
-- Consideration of whether the better-evidenced adjacent indication (bacterial conjunctivitis, L2, Proceed with Guardrails) should be prioritised ahead of this candidate
-- UK market and licensing status confirmation, given the current evidence pack shows the drug as not marketed
+- Mechanism of action data and a clear rationale for a role in non-bacterial or immune-mediated keratoconjunctivitis
+- A literature search specific to punctate epithelial keratoconjunctivitis and trimethoprim, including any bacterial-aetiology subgroups
+- An assessment of route compatibility, since the only recorded UK product is an oral tablet
+- Label-based warnings and contraindications from the SmPC and BNF
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

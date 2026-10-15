@@ -2,7 +2,7 @@
 layout: default
 title: Ascorbic Acid
 parent: Model Prediction Only (L5)
-nav_order: 70
+nav_order: 73
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ascorbic Acid: From Vitamin C Deficiency to Non-Syndromic Esophageal Malformation
+# Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-Syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-Ascorbic acid (Vitamin C) is an essential water-soluble micronutrient, established for the prevention and treatment of scurvy (Vitamin C deficiency) and widely used as a nutritional supplement and adjunctive therapy across many clinical settings.
-The TxGNN model predicts it may be effective for **Non-Syndromic Esophageal Malformation**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-The evidence base for this specific predicted indication is absent, and the mechanistic rationale is considered extremely weak.
+Ascorbic acid (vitamin C) is an essential nutrient, used to treat and prevent ascorbic acid deficiency and scurvy.
+The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but there are currently **no clinical trials** and **no publications** supporting this prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation records found in current database; known primary use is prevention and treatment of Vitamin C deficiency (Scurvy) |
-| Predicted New Indication | Non-Syndromic Esophageal Malformation |
+|------|------|
+| Original Indication | Ascorbic acid deficiency; scurvy (taken from knowledge-graph indication data, as no approved indication text is recorded for the UK authorisation) |
+| Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 |
-| UK Market Status | No UK marketing authorisations found in current database |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the system. Based on well-established pharmacological knowledge, Ascorbic acid (Vitamin C) is a potent antioxidant and a cofactor for prolyl hydroxylase and lysyl hydroxylase enzymes — both essential for the post-translational hydroxylation of collagen precursors. This role in collagen biosynthesis underpins its established therapeutic use in scurvy, a disease of defective connective tissue.
+Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential water-soluble vitamin. Its efficacy in scurvy and ascorbic acid deficiency is well established, because it replaces a missing nutrient. Mechanistically, a link to a new indication is not evident.
 
-The theoretical link to non-syndromic esophageal malformation arises from this collagen synthesis pathway: normal embryonic oesophageal structural development requires adequate extracellular matrix formation, and collagen is central to oesophageal wall integrity. Severe Vitamin C deficiency during a critical developmental window could, in principle, impair this process. The TxGNN knowledge graph likely captures this broad Ascorbic acid → collagen → connective tissue → structural development relationship.
-
-However, the mechanistic link is extremely weak and the clinical plausibility very low. Non-syndromic esophageal malformation is a congenital structural anomaly arising from aberrant embryogenesis — it is not a nutritional deficiency disorder, and there is no clinical or basic research evidence to support Ascorbic acid as a preventive or therapeutic agent for this condition. This prediction should be regarded as a knowledge graph artefact rather than a genuine drug repurposing signal.
+Non-syndromic esophageal malformation is a congenital structural defect of the oesophagus. An antioxidant and cofactor vitamin is not plausibly able to correct a developmental anatomical abnormality. The high TxGNN score most likely reflects network-level associations in the knowledge graph rather than a biological rationale. No studies were identified to support or explain the link, so the prediction should be treated as a hypothesis only.
 
 ---
 
@@ -77,15 +74,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-No UK marketing authorisation records were identified for Ascorbic acid in the current regulatory data feed.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0906031C0AAAGAG | Ascorbic Acid Tab 100 mg | Tablet | Not stated in the data compiled for this report |
 
-> **Note for clinicians:** Ascorbic acid is in practice widely available on the UK market — as over-the-counter nutritional supplements, as a component of licensed parenteral nutrition preparations, and in various licensed oral formulations. The absence of records here reflects a gap in the current regulatory database rather than true non-availability. Clinicians should consult the [MHRA Product Licence Register](https://www.gov.uk/check-if-a-product-is-licensed) and the [BNF](https://bnf.nice.org.uk/) for current authorised products and indications.
+Only one authorisation is recorded (single-ingredient, valid). The identifier above is shown as recorded and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register before any use. Please also check BNF and NICE guidance for the current licensed indications of ascorbic acid products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication signals from the knowledge graph** (derived from drug-disease relationship data, not from product label text, so they need confirmation against the SmPC): hypertension, epilepsy, kidney disease, liver disease, gallbladder disease, peptic ulcer disease, rheumatoid arthritis, systemic lupus erythematosus (including paediatric), multiple sclerosis, allergic and vasomotor rhinitis, sarcoidosis, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, osteitis fibrosa, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, potassium deficiency, blood coagulation disease, sickle cell anaemia, hereditary persistence of fetal haemoglobin, primary hyperoxaluria, hereditary haemochromatosis, sunburn and pyoureter.
+- **Drug Interactions**: 25 interactions were identified in total, and 20 are detailed in the data compiled for this report.
+  - Moderate: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminium hydroxide, bortezomib, deferoxamine.
+  - Minor: paclitaxel, cisplatin, doxorubicin (including liposomal), pseudoephedrine, ephedrine (including nasal), ethinylestradiol, flecainide, fluphenazine, indinavir, mexiletine.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,18 +98,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Although TxGNN assigns a high prediction score (99.96%), non-syndromic esophageal malformation is a congenital structural anomaly with no clinical or preclinical evidence supporting Ascorbic acid as a relevant intervention; the mechanistic link is indirect and speculative, and evidence is classified L5 (model prediction only, no supporting studies). Further resource investment is not justified at this stage.
+The prediction rests on a model score alone. There are no trials or publications, and there is no credible mechanism linking a nutritional vitamin to a congenital structural malformation of the oesophagus. This indication is not suitable for further development in its current form.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro embryonic models or animal developmental studies) establishing whether Ascorbic acid deficiency or supplementation meaningfully affects oesophageal structural development
-- Identification of a specific, mechanistically credible molecular pathway linking Ascorbic acid to the known pathogenesis of non-syndromic esophageal malformation
-- Detailed mechanism of action data for Ascorbic acid sourced from DrugBank API (currently a data gap)
-- Verification of UK regulatory status via the MHRA product licence register and BNF to confirm currently authorised indications and formulations
-- Safety data retrieval from the MHRA and SmPC to enable formal S1 safety assessment before any clinical feasibility work
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+- A plausible mechanistic or developmental-biology rationale, together with any preclinical evidence.
+- Detailed mechanism of action data for ascorbic acid.
+- Clarification of the UK authorisation record (identifier, dosage form and approved indication text).
+- Review of the lower-ranked predictions for the same drug. "Injury" (supported by several Phase 2 to 4 trials) and "esophageal disease" (supported by mostly preclinical and epidemiological literature, including an animal study that reported enhanced oesophageal carcinogenesis with ascorbic acid in a reflux model) have more supporting data and may be better candidates for evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Phylloquinone
 parent: Model Prediction Only (L5)
-nav_order: 461
+nav_order: 496
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,66 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task with a fully specified template already in the prompt, so I'll produce the report directly from the evidence pack.
-
-# Phylloquinone: From Undocumented Original Indication to Renal Tubular Acidosis
+# Phylloquinone: From Osteoporosis to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-> The evidence pack contains no confirmed original indication or mechanism-of-action data for Phylloquinone (Vitamin K1, DrugBank ID DB01022).
-> The TxGNN model predicts it may be effective for **Renal Tubular Acidosis**,
-> but this is supported by **0 clinical trials** and **0 publications** — the prediction rests on model score alone, and the model's own rationale notes no known biological link.
+Phylloquinone (vitamin K1, also called phytomenadione) was originally used for bone and calcium-related conditions such as osteoporosis, and for congenital prothrombin deficiency.
+The TxGNN model predicts it may be effective for **renal tubular acidosis**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in the evidence pack |
-| Predicted New Indication | Renal Tubular Acidosis |
+| Original Indication | Osteoporosis, postmenopausal osteoporosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, congenital prothrombin deficiency (knowledge-graph indications; no approved indication text is available for the UK product) |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Phylloquinone, and no original indication is recorded in the evidence pack. This absence of baseline pharmacological and clinical context makes it difficult to independently assess whether the predicted association is mechanistically plausible.
+Detailed mechanism of action data is not currently available. Based on known information, phylloquinone is vitamin K1, a cofactor for gamma-carboxylation of vitamin K-dependent proteins, including bone and calcium-regulating proteins such as osteocalcin and matrix Gla protein.
 
-The evidence pack's own repurposing rationale for this candidate is explicit on this point: renal tubular acidosis is primarily driven by defects in renal tubular acid–base transport proteins (e.g. SLC4A1, ATP6V0A4/B1), whereas Phylloquinone's known biology (γ-glutamyl carboxylase cofactor, acting on clotting factors and osteocalcin) has no established overlap with this pathway. The rationale text states this prediction "purely reflects a TxGNN graph embedding score, with no biological theory in support."
+Renal tubular acidosis can involve bone demineralisation and nephrocalcinosis. These overlap with phylloquinone's listed indications of nephrocalcinosis, hypercalcaemia and osteoporosis. That overlap is the plausible, but unverified, link behind the prediction.
 
-The same pattern holds across all nine predicted indications in this evidence pack (renal tubular acidosis, hypophosphataemic rickets, Pendred syndrome, non-syndromic deafness, NAD(P)HX dehydratase deficiency, leukocyte adhesion deficiency, hypermanganesaemia with dystonia, Fraser syndrome, and Temtamy preaxial brachydactyly syndrome) — each rationale explicitly notes the absence of a credible mechanistic link. This candidate set should be regarded as exploratory model output only.
+There is no direct evidence that vitamin K affects the underlying acid-base or tubular transport defect. The prediction should be treated as a hypothesis, not a supported finding.
 
-## Clinical Trial Evidence
+### Other Predicted Indications (for context)
 
-Currently no related clinical trials registered
+All other predictions in the data compiled for this report are also evidence level L5 with a Hold recommendation, and none has trials or literature.
 
-## Literature Evidence
+| Predicted Indication | TxGNN Score | Mechanistic Plausibility |
+|------|------|------|
+| Hypophosphataemic rickets | 99.67% | Indirect link via phosphorus and bone metabolism; the core FGF23-mediated defect is not known to be affected by vitamin K |
+| Pendred syndrome | 99.56% | No clear mechanistic link |
+| Autosomal recessive nonsyndromic deafness | 99.51% | No identified mechanistic link |
+| NAD(P)HX dehydratase deficiency | 99.48% | Speculative; redox chemistry only |
+| Leukocyte adhesion deficiency | 99.47% | Unsupported by mechanism |
+| Hypermanganesaemia with dystonia | 99.38% | No link to manganese handling; at most supportive care for coagulation abnormalities |
+| Fraser syndrome | 99.22% | Unsupported; possible signal from warfarin embryopathy overlap |
+| Temtamy preaxial brachydactyly syndrome | 99.08% | Unsupported |
 
-Currently no related literature available
+---
 
 ## UK Market Information
 
-No marketing authorisations are recorded in the evidence pack. Phylloquinone is not currently marketed in the UK under this evaluation (0 licences on record).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0906060Q0AAAEAE (BNF-style product code, not a PL number) | Phytomenadione capsules 1 mg | Capsule | Not available |
+
+Only one valid single-ingredient authorisation is recorded. Please refer to the SmPC and BNF for the approved indications and dosing.
+
+---
 
 ## Safety Considerations
 
-A Blocking data gap (TFDA product-label warnings/contraindications not yet retrieved) currently prevents completion of the S1 safety pre-screen for this candidate. No drug interaction data are on record.
+**Contraindications flagged in the knowledge graph.** These come from drug-disease association edges in the TxGNN knowledge graph, not from product label text, so they should be verified against the SmPC. Conditions listed include:
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- Renal and calcium/phosphate disorders: kidney disease, nephrolithiasis, nephrocalcinosis, hypercalcaemia, hyperphosphataemia, hyperparathyroidism, osteitis fibrosa, acute urate nephropathy, pyoureter, phosphorus metabolism disorders
+- Metabolic and other conditions: diabetes mellitus, diabetic ketoacidosis, sarcoidosis, hypervitaminosis, constipation, arteriosclerosis obliterans, familial isolated vitamin E deficiency
+- Cancers: breast, prostate, cervical and endometrial cancers, and lytic metastatic bone lesions
+
+Several of these (kidney disease, nephrocalcinosis, hypercalcaemia) are relevant to the predicted renal indication and would need careful review.
+
+**Drug Interactions.** The database query returned 100 interactions. Among those listed, only two were graded and both were Minor: **mineral oil** and **orlistat**, which may reduce absorption of fat-soluble vitamins. The remainder, including proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), sucralfate, metronidazole, prednisone, hydrocortisone, simvastatin and acetylsalicylic acid, have no severity grading.
+
+Please refer to the SmPC and BNF for warnings and full interaction information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All predicted indications are L5 (model-score-only, no clinical trials or literature), and the top-ranked candidate's own mechanistic rationale explicitly states there is no known biological link between Phylloquinone's pharmacology and renal tubular acidosis. A Blocking data gap also prevents completion of the mandatory safety pre-screen.
+The prediction rests on a model score alone (evidence level L5), with no clinical trials or literature, an unverified mechanistic link, and several knowledge-graph contraindications that overlap with renal disease.
 
 **To proceed, the following is needed:**
-- TFDA product-label warnings and contraindications (Blocking gap DG001)
-- Confirmed mechanism of action via DrugBank (High-priority gap DG002)
-- Documentation of Phylloquinone's original approved indication(s)
-- Independent clinical or literature evidence for renal tubular acidosis (or any other candidate indication) before progressing beyond S0
+- Mechanism of action data for phylloquinone
+- A systematic literature search on vitamin K in renal tubular acidosis, and on bone and nephrocalcinosis outcomes
+- SmPC warnings, contraindications and approved indication text for the UK product
+- Verification of the knowledge-graph contraindications against label information
+- Preclinical or exploratory clinical data supporting an effect on bone or calcium handling in renal tubular acidosis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Dapsone
 parent: High Evidence (L1-L2)
-nav_order: 194
+nav_order: 206
 evidence_level: L1
 indication_count: 1
 ---
@@ -29,98 +29,102 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 </div>
 
-Using the drug-repurposing evaluation report template to structure this Dapsone → Pneumocystosis evidence pack.
-
-# Dapsone: From Leprosy to Pneumocystosis
+# Dapsone: From Dermatitis Herpetiformis to Pneumocystosis
 
 ## One-Sentence Summary
 
-Dapsone is a sulfone antimicrobial classically used for leprosy (Hansen's disease) and dermatitis herpetiformis, with decades of established off-label use in Pneumocystis pneumonia prophylaxis. The TxGNN model predicts it may be effective for **Pneumocystosis** (Pneumocystis jirovecii pneumonia, PCP), with **14 clinical trials** and **19 publications** currently supporting this direction — including three completed Phase 3 RCTs.
-
----
+Dapsone is a sulfone antimicrobial, originally used for dermatitis herpetiformis, leprosy and acne.
+The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocystis jirovecii* infection), with **10 clinical trials** and **20 publications** currently supporting this direction, including four completed Phase 3 trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Leprosy (Hansen's disease); dermatitis herpetiformis *(per literature evidence — no formal UK/Taiwan licence text available in this evidence pack)* |
-| Predicted New Indication | Pneumocystosis (Pneumocystis jirovecii pneumonia) |
+| Original Indication | Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no indication text) |
+| Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L1 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-A formal DrugBank mechanism-of-action record for dapsone is not yet available in this evidence pack (data gap DG002). However, the mechanistic basis for its activity against Pneumocystis jirovecii is well characterised in the literature and is not merely a network-inference artefact. Dapsone is a sulfone, structurally related to the sulfonamides. It inhibits dihydropteroate synthetase (DHPS) in *Pneumocystis jirovecii*, blocking folate biosynthesis — the same pathway targeted by trimethoprim-sulfamethoxazole (TMP-SMX), the current first-line agent for PCP prophylaxis and treatment. This is a direct antimicrobial mechanism against the pathogen itself, rather than a host-immune-modulating effect, which gives the prediction stronger mechanistic grounding than a typical model-only signal.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, dapsone inhibits dihydropteroate synthase in the folate synthesis pathway, the same target as sulfonamides such as sulfamethoxazole. A published review (PMID 9675476) describes the same mechanism and reports strong anti-*Pneumocystis* activity in laboratory studies, animal studies and clinical trials.
 
-The link between dapsone's original indication (leprosy, caused by *Mycobacterium leprae*) and the predicted new indication (pneumocystosis, caused by the fungal pathogen *Pneumocystis jirovecii*) is not through a shared original disease category, but through dapsone's core antifolate/antimicrobial pharmacology, which has broad activity across structurally unrelated pathogens sensitive to DHPS inhibition. In practice, this repurposing is not novel or purely theoretical — dapsone (with or without pyrimethamine or trimethoprim) has been used clinically as a second-line PCP prophylaxis and treatment option for HIV-infected and other immunocompromised patients intolerant of TMP-SMX for over three decades, and is referenced in international guidelines (e.g., ECIL-5, PMID 27550992).
-
----
+Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (dermatitis herpetiformis, acne). *Pneumocystis jirovecii* depends on folate synthesis, so an antimicrobial that blocks this pathway is a plausible treatment or prophylactic agent. The very high TxGNN score is consistent with this. In practice, dapsone is already used for prophylaxis in patients who cannot take trimethoprim-sulfamethoxazole (co-trimoxazole).
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00000991](https://clinicaltrials.gov/study/NCT00000991) | Phase 3 | Completed | 600 | Compared three anti-Pneumocystis regimens (including dapsone) plus zidovudine for primary PCP prevention in advanced HIV infection. |
-| [NCT00000640](https://clinicaltrials.gov/study/NCT00000640) | Phase 3 | Completed | 290 | Dapsone/trimethoprim vs clindamycin/primaquine vs standard SMX/TMP for mild-to-moderate PCP treatment in AIDS. |
-| [NCT00000802](https://clinicaltrials.gov/study/NCT00000802) | Phase 3 | Completed | 700 | Daily dapsone vs daily atovaquone for PCP prophylaxis in HIV patients intolerant of TMP/sulfonamides. |
-| [NCT02550080](https://clinicaltrials.gov/study/NCT02550080) | Phase 4 | Unknown | 3130 | Prospective HLA-B*1301 genetic screening to reduce incidence of dapsone hypersensitivity syndrome across multiple dapsone indications including PCP. |
-| [NCT00002283](https://clinicaltrials.gov/study/NCT00002283) | N/A | Completed | N/A | Dapsone vs TMP-SMX for first-episode PCP in AIDS patients. |
-| [NCT00002043](https://clinicaltrials.gov/study/NCT00002043) | N/A | Completed | N/A | Dapsone 100mg vs 50mg as primary PCP prophylaxis in AIDS-related complex. |
-| [NCT00001028](https://clinicaltrials.gov/study/NCT00001028) | Phase 3 | Completed | 400 | Monthly aerosolised pentamidine vs thrice-weekly dapsone for PCP prophylaxis in patients intolerant of TMP/sulfonamides. |
-| [NCT00000739](https://clinicaltrials.gov/study/NCT00000739) | Phase 1 | Completed | 96 | Daily vs weekly oral dapsone dosing regimens for PCP prophylaxis in paediatric HIV infection; pharmacokinetics assessed. |
-| [NCT05077150](https://clinicaltrials.gov/study/NCT05077150) | N/A | Completed | 168 | Case-control study of PCP risk factors post-allogeneic HSCT; notes elevated PCP incidence (7.2%) on low-dose dapsone prophylaxis. |
-| [NCT00002120](https://clinicaltrials.gov/study/NCT00002120) | Phase 1 | Completed | 20 | Trimetrexate/leucovorin plus dapsone vs TMP/SMX for moderately severe PCP; safety and pharmacokinetics. |
-
----
+| [NCT00000802](https://clinicaltrials.gov/study/NCT00000802) | Phase 3 | Completed | 700 | Daily dapsone vs daily atovaquone for PCP prophylaxis in HIV patients intolerant of trimethoprim and/or sulfonamides |
+| [NCT00000991](https://clinicaltrials.gov/study/NCT00000991) | Phase 3 | Completed | 600 | Three anti-Pneumocystis regimens plus zidovudine for primary prevention in advanced HIV; dapsone among the agents |
+| [NCT00001028](https://clinicaltrials.gov/study/NCT00001028) | Phase 3 | Completed | 400 | Monthly aerosolised pentamidine vs thrice-weekly dapsone for prophylaxis in patients intolerant of trimethoprim and/or sulfonamides |
+| [NCT00000640](https://clinicaltrials.gov/study/NCT00000640) | Phase 3 | Completed | 290 | Dapsone/trimethoprim and clindamycin/primaquine vs trimethoprim-sulfamethoxazole for mild-to-moderate PCP in AIDS |
+| [NCT00000739](https://clinicaltrials.gov/study/NCT00000739) | Phase 1 | Completed | 96 | Daily vs weekly dapsone for PCP prophylaxis in HIV-infected children; toxicity and pharmacokinetics |
+| [NCT00002120](https://clinicaltrials.gov/study/NCT00002120) | Phase 1 | Completed | 20 | Trimetrexate with leucovorin plus dapsone vs trimethoprim-sulfamethoxazole for moderately severe PCP; safety and pharmacokinetics |
+| [NCT00002283](https://clinicaltrials.gov/study/NCT00002283) | NA | Completed | Not reported | Dapsone plus trimethoprim vs trimethoprim-sulfamethoxazole for first-episode PCP in AIDS; effectiveness and adverse effects |
+| [NCT00002043](https://clinicaltrials.gov/study/NCT00002043) | NA | Completed | Not reported | Dapsone 100 mg vs 50 mg for primary PCP prophylaxis; informs dosing |
+| [NCT02550080](https://clinicaltrials.gov/study/NCT02550080) | Phase 4 | Unknown | 3130 | HLA-B*1301 screening to prevent dapsone hypersensitivity syndrome; relevance to PCP is indirect |
+| [NCT00636935](https://clinicaltrials.gov/study/NCT00636935) | Phase 4 | Withdrawn | 0 | Corticosteroids in mild PCP; not a dapsone efficacy study and yielded no data |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8018144](https://pubmed.ncbi.nlm.nih.gov/8018144/) | 1993 | RCT | The American Journal of Medicine | Randomised trial of dapsone vs aerosolised pentamidine for prophylaxis of PCP and toxoplasmic encephalitis in HIV infection. |
-| [8605054](https://pubmed.ncbi.nlm.nih.gov/8605054/) | 1995 | RCT | AIDS | Compared aerosolised pentamidine, cotrimoxazole, and dapsone-pyrimethamine for primary PCP/toxoplasmic encephalitis prophylaxis. |
-| [7979291](https://pubmed.ncbi.nlm.nih.gov/7979291/) | 1994 | PK/safety study | Antimicrobial Agents and Chemotherapy | Established maximum tolerated weekly dapsone dose (200mg) for PCP prevention. |
-| [39732393](https://pubmed.ncbi.nlm.nih.gov/39732393/) | 2025 | Network meta-analysis | Clinical Microbiology and Infection | Compared efficacy/safety of PCP treatment regimens (including dapsone-based) in people living with HIV. |
-| [38583518](https://pubmed.ncbi.nlm.nih.gov/38583518/) | 2024 | Network meta-analysis | Clinical Microbiology and Infection | Compared TMP-SMX, dapsone-based regimens, aerosolised pentamidine and atovaquone for PCP prophylaxis in PWH. |
-| [27550992](https://pubmed.ncbi.nlm.nih.gov/27550992/) | 2016 | Guideline | Journal of Antimicrobial Chemotherapy | ECIL-5 evidence-based guideline for PCP prophylaxis in haematological malignancy/HSCT recipients; dapsone listed as an alternative regimen. |
-| [9675476](https://pubmed.ncbi.nlm.nih.gov/9675476/) | 1998 | Review | Clinical Infectious Diseases | Comprehensive review of dapsone's anti-Pneumocystis activity, pharmacokinetics and clinical use for prevention/treatment of PCP. |
-| [33870843](https://pubmed.ncbi.nlm.nih.gov/33870843/) | 2021 | Review | Expert Opinion on Pharmacotherapy | Review of Pneumocystis jirovecii prevention and treatment options, including dapsone-based regimens. |
-| [18971152](https://pubmed.ncbi.nlm.nih.gov/18971152/) | 2008 | Review | Journal of the Formosan Medical Association | Overview of Pneumocystis pneumonia pathophysiology and treatment, including dapsone-containing regimens. |
-| [9606476](https://pubmed.ncbi.nlm.nih.gov/9606476/) | 1998 | Case report (safety) | The Annals of Pharmacotherapy | Reports methemoglobinemia in a patient receiving dapsone for PCP prophylaxis. |
-
----
+| [38583518](https://pubmed.ncbi.nlm.nih.gov/38583518/) | 2024 | Systematic review / network meta-analysis | Clin Microbiol Infect | Compares PCP prophylaxis regimens in people living with HIV, including dapsone-based regimens, co-trimoxazole, aerosolised pentamidine and atovaquone |
+| [39732393](https://pubmed.ncbi.nlm.nih.gov/39732393/) | 2025 | Systematic review / network meta-analysis | Clin Microbiol Infect | Compares treatment regimens for PCP in people living with HIV; co-trimoxazole remains the primary treatment |
+| [27550992](https://pubmed.ncbi.nlm.nih.gov/27550992/) | 2016 | Guideline | J Antimicrob Chemother | ECIL guidelines for PCP prophylaxis in haematological malignancy and stem cell transplant; co-trimoxazole is the drug of choice |
+| [9675476](https://pubmed.ncbi.nlm.nih.gov/9675476/) | 1998 | Review | Clin Infect Dis | Dapsone has strong anti-*Pneumocystis* activity via dihydropteroate synthetase inhibition, with supporting clinical trial data |
+| [33870843](https://pubmed.ncbi.nlm.nih.gov/33870843/) | 2021 | Review | Expert Opin Pharmacother | Review of *P. jirovecii* with a focus on prevention and treatment |
+| [11155588](https://pubmed.ncbi.nlm.nih.gov/11155588/) | 2001 | Review | Dermatol Clin | Dapsone is the main drug for leprosy and dermatitis herpetiformis, and is useful for PCP prophylaxis in HIV |
+| [21246536](https://pubmed.ncbi.nlm.nih.gov/21246536/) | 2011 | Observational study | Cancer | Dose-related risk factors for dapsone-associated methaemoglobinaemia in paediatric oncology patients receiving PCP prophylaxis |
+| [33280223](https://pubmed.ncbi.nlm.nih.gov/33280223/) | 2021 | Retrospective chart review | Pediatr Transplant | Burden of methaemoglobinaemia with dapsone PCP prophylaxis in paediatric kidney transplant recipients |
+| [9606476](https://pubmed.ncbi.nlm.nih.gov/9606476/) | 1998 | Case report | Ann Pharmacother | Methaemoglobinaemia in a patient on dapsone for PCP prophylaxis |
+| [32714715](https://pubmed.ncbi.nlm.nih.gov/32714715/) | 2020 | Case report | Cureus | Hypoxia caused by dapsone-induced methaemoglobinaemia |
 
 ## UK Market Information
 
-No UK marketing authorisation is currently on record for dapsone in this evidence pack (0 licences; market status: Not Marketed). Historically, dapsone has been supplied in the UK primarily as an unlicensed ("specials") medicine for dermatological indications (e.g., dermatitis herpetiformis) rather than under a standard MHRA product licence — this would need to be confirmed against the current MHRA/BNF record before any procurement decision, as it falls under data gap DG001 (SmPC/labelling not yet retrieved).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501100H0AAAFAF | Dapsone 50 mg tablets | Tablet | Indication text not available in the compiled record |
 
----
+This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MHRA register for the authorisation details.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and conditions of concern (from the knowledge graph, not label text):** G6PD deficiency, liver disease, gallbladder disease, anaemia (including macrocytic anaemia), methaemoglobinaemia due to methaemoglobin reductase deficiency, glycogen storage disease, cystinuria, galactosaemia and pyruvate dehydrogenase E3 deficiency.
+- **Key risks from the literature:** Dose-related haemolysis and methaemoglobinaemia are well documented, including in HIV, transplant and paediatric patients (PMIDs 9606476, 32714715, 8757424, 9346728). Hepatic complications (PMID 31631707) and acute pancreatitis (PMID 14519046) have also been reported. Screening for G6PD deficiency before use is advised.
+- **Hypersensitivity:** Dapsone hypersensitivity syndrome is a recognised risk. An HLA-B*1301 screening trial (NCT02550080) has been registered.
+- **Drug interactions:** 100 interactions were recorded. The moderate-level ones include:
+  - metronidazole and tinidazole
+  - aprepitant
+  - nateglinide
+  - nitisinone
+  - rosuvastatin and simvastatin
+  - picosulfuric acid
+  - activated charcoal
+  - troglitazone
 
-*(Note: no key warnings, contraindications, or drug interaction data were returned for dapsone in this evidence pack — this is flagged as data gap DG001, classified Blocking, since it prevents a formal S1 safety pre-assessment. Case reports in the literature evidence above independently document methemoglobinemia, hypoxia, and photosensitivity associated with dapsone therapy and should inform any monitoring plan.)*
+  Further interactions of unknown severity include pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, rosiglitazone, morphine, sucralfate, calcitriol and vancomycin.
 
----
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clinical evidence is strong — three completed Phase 3 RCTs (NCT00000991, NCT00000640, NCT00000802) and an international guideline (ECIL-5) support dapsone's efficacy for PCP prophylaxis/treatment, and the DHPS-inhibition mechanism is well established rather than purely predictive. However, two data gaps block full sign-off: no formal UK/TFDA safety labelling (DG001, Blocking) and no confirmed DrugBank MOA record (DG002, High), and the drug currently holds no UK marketing authorisation.
+Four completed Phase 3 trials (NCT00000802, NCT00000991, NCT00001028, NCT00000640) and systematic reviews support dapsone-containing regimens for PCP prophylaxis and treatment. Co-trimoxazole remains first choice, so dapsone is best positioned as an alternative for patients intolerant of it. Haemolysis and methaemoglobinaemia require active risk management.
 
 **To proceed, the following is needed:**
-- Retrieve the SmPC/PIL or equivalent labelling data to close the Blocking safety gap (DG001) before any S1 safety assessment
-- Confirm formal DrugBank/mechanism-of-action record (DG002)
-- Determine UK market access pathway given zero current marketing authorisations (e.g., unlicensed import/specials manufacturing)
-- Define a monitoring protocol addressing known sulfone-class risks (methemoglobinemia, haemolysis in G6PD deficiency, hypersensitivity syndrome — cf. NCT02550080 HLA-B*1301 screening) relative to the existing TMP-SMX standard of care
+- Confirmation of the UK licensed indications and current SmPC. The record has no indication text, so it is unclear whether PCP is within the licence.
+- Mechanism of action data from a primary source (currently a data gap).
+- A G6PD screening and methaemoglobin monitoring plan.
+- A review of the interaction list, particularly agents that may add to haemolytic or methaemoglobin-forming risk.
+- Comparison with current UK guidelines for patients intolerant of co-trimoxazole.
+- Clarification of the NCT00000991 and NCT00000640 results for dapsone-specific outcomes, as these trials involve combination regimens.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

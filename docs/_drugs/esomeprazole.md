@@ -2,7 +2,7 @@
 layout: default
 title: Esomeprazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 241
+nav_order: 257
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Esomeprazole: From Undocumented Original Indication to Duodenogastric Reflux
+# Esomeprazole: From Acid-Related Upper GI Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-This evidence pack does not record esomeprazole's original approved indication (data gap), though supporting literature identifies it as a proton pump inhibitor (PPI) used for acid-related disorders. The TxGNN model predicts possible effectiveness for **Duodenogastric Reflux (DGR)**, with a prediction score of 99.53%, but this direction is currently supported by only **1 general review article** and **no registered clinical trials**.
+Esomeprazole is a proton pump inhibitor, originally used for acid-related conditions such as peptic ulcer disease and gastro-oesophageal reflux disease (GORD).
+The TxGNN model predicts it may be effective for **duodenogastric reflux** (bile reflux into the stomach), but there are currently **no registered clinical trials** and only **1 general review article** supporting this specific prediction.
 
 ---
 
@@ -41,29 +42,29 @@ This evidence pack does not record esomeprazole's original approved indication (
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no original indication or marketing-authorisation data recorded) |
-| Predicted New Indication | Duodenogastric Reflux |
+| Original Indication | Peptic ulcer disease, GORD, oesophagitis, Zollinger-Ellison syndrome (the UK licence record has no indication text, so these come from the knowledge-graph indication list) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for esomeprazole's original indication is not available in this evidence pack. Based on the supporting literature that is available (PMID 18679668), esomeprazole belongs to the proton pump inhibitor (PPI) class, which acts by suppressing gastric acid secretion and is typically used first-line for peptic ulcer disease, *Helicobacter pylori* infection, gastro-oesophageal reflux disease, NSAID-induced gastrointestinal lesions, and Zollinger-Ellison syndrome.
+Esomeprazole suppresses gastric acid by irreversibly blocking the H+/K+-ATPase (proton pump) in gastric parietal cells. Detailed mechanism of action data were not available in the compiled data. The mechanism above is the established class action of proton pump inhibitors.
 
-Duodenogastric reflux (DGR), however, is primarily driven by reflux of bile and pancreatic secretions into the stomach rather than by excess gastric acid alone. Esomeprazole's pharmacology only suppresses acid secretion; it has no direct pharmacological action on the bile or alkaline component of reflux. In clinical practice, PPIs are often used empirically in DGR when acid-reflux symptoms coexist, but there is no direct evidence that PPIs address the underlying bile-reflux mechanism of DGR itself.
+In duodenogastric reflux, bile and pancreatic secretions flow back into the stomach. Acid suppression may ease symptoms where acid-related mucosal injury coexists. It does not treat the underlying cause, which is usually pyloric or motility dysfunction. The mechanistic link is therefore plausible but indirect.
 
-Taken together, the mechanistic link between esomeprazole and DGR is **indirect and only partially substantiated** — plausible for symptomatic overlap, but not for the core pathophysiology of the condition.
+The very high TxGNN score most likely reflects closeness in the knowledge graph to approved acid-related indications such as GORD and peptic ulcer. It is not disease-specific evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for duodenogastric reflux.
 
 ---
 
@@ -71,13 +72,29 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General review of PPI clinical use and pharmacokinetics; establishes PPIs as first-choice therapy for peptic ulcer, *H. pylori* infection, GORD, NSAID-related GI lesions and Zollinger-Ellison syndrome. Does not specifically address duodenogastric reflux. |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on proton pump inhibitors, which are first-choice drugs for peptic ulcer, H. pylori infection, GORD, NSAID-related GI lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux directly. |
+
+---
+
+## UK Market Information
+
+| Reference Code | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0103050E0AAAAAA | Esomeprazole gastro-resistant (E/C) tablets 20 mg | Tablet | Not specified in the compiled record |
+
+The compiled data list one valid single-ingredient authorisation. The reference code is not in the usual PL number format, and the indication text was not captured. Please check the current SmPC and BNF (section 1.3.5, proton pump inhibitors) for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (from drug–disease links, not label text): liver failure, osteoporosis, postmenopausal osteoporosis, bone fracture and chronic atrophic gastritis. These need verifying against the SmPC.
+- **Drug Interactions**: The interaction screen found 100 potential interactions, and the first 20 returned are summarised here.
+  - **Major**: acalabrutinib, atazanavir.
+  - **Moderate** (examples): hydrochlorothiazide, amphotericin B, amikacin, amphetamine, fenofibrate, apalutamide, armodafinil, atorvastatin, bendamustine, bosutinib, bumetanide.
+  - **Minor** (examples): acetylsalicylic acid, axitinib, bortezomib, brivaracetam, cyanocobalamin.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -86,14 +103,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and only a single general PPI review supporting use in duodenogastric reflux, and the proposed mechanism (acid suppression) does not directly address the bile/alkaline reflux component that characterises DGR. Evidence is insufficient to progress beyond model prediction at this stage.
+The prediction rests on model proximity to approved acid-related indications. There are no trials and no disease-specific literature. Esomeprazole would at best relieve coexisting acid-related symptoms and would not treat bile reflux itself.
 
 **To proceed, the following is needed:**
-- Original indication and UK marketing-authorisation data for esomeprazole (currently undocumented)
-- Detailed mechanism-of-action data (MOA)
-- SmPC-level warnings and contraindications (currently a data gap)
-- Dedicated clinical studies evaluating esomeprazole specifically in duodenogastric reflux, ideally with bile-reflux-specific endpoints
-- DDI data specific to the DGR patient population
+- Clinical studies, or at least observational data, of PPIs in duodenogastric (bile) reflux
+- Clear definition of the target outcome (symptom relief versus mucosal protection)
+- Mechanism of action data and verified SmPC safety information
+- Confirmation of the licensed indications for the UK authorisation
+
+**Note:** A related prediction in the same analysis, **duodenal ulcer** (TxGNN score 99.40%), has far stronger support. It has several completed Phase 3 RCTs and supportive H. pylori trials, giving an evidence level of L1 and a "Proceed with Guardrails" recommendation. It is closely related to esomeprazole's existing peptic ulcer indication, so it is largely an established use rather than true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

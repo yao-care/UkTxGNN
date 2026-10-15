@@ -2,7 +2,7 @@
 layout: default
 title: Sunitinib
 parent: High Evidence (L1-L2)
-nav_order: 549
+nav_order: 589
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sunitinib: From Renal Cell Carcinoma / GIST to Liposarcoma
+# Sunitinib: From Renal Cell Carcinoma to Liposarcoma
 
 ## One-Sentence Summary
 
-Sunitinib is a multi-targeted tyrosine kinase inhibitor with established use in renal cell carcinoma (RCC) and gastrointestinal stromal tumour (GIST).
-The TxGNN model predicts it may also be effective for **Liposarcoma**,
-with **3 clinical trials** and **9 publications** currently supporting this direction.
+Sunitinib is an oral multitargeted tyrosine kinase inhibitor, originally used for renal cell carcinoma and gastrointestinal stromal tumour (GIST).
+The TxGNN model predicts it may be effective for **liposarcoma**, with **2 Phase 2 clinical trials** and **9 publications** currently supporting this direction.
+The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appears limited.
 
 ---
 
@@ -43,23 +43,23 @@ with **3 clinical trials** and **9 publications** currently supporting this dire
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and gastrointestinal stromal tumour (GIST) — inferred from evidence-pack trial context; no structured licence text was provided (see Data Gap note below) |
+| Original Indication | Nonpapillary renal cell carcinoma, renal cell adenocarcinoma, clear cell renal carcinoma, gastrointestinal stromal tumour (the UK authorisation record lists no indication text) |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L2 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question; see Conclusion) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data from DrugBank is not currently available for Sunitinib in this Evidence Pack. Based on the mechanistic information that is available, Sunitinib is a multi-targeted tyrosine kinase inhibitor (TKI) that blocks VEGFR1-3, PDGFRα/β, KIT, FLT3 and RET signalling — a mechanism confirmed by the wide range of RCC and GIST trials referenced throughout this pack.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sunitinib is a multitargeted receptor tyrosine kinase inhibitor acting on VEGFR, PDGFR and KIT. These pathways drive angiogenesis and tumour growth, and its efficacy in renal cell carcinoma and imatinib-resistant GIST has been established.
 
-Sunitinib's established efficacy in RCC relies on anti-angiogenic activity via VEGFR blockade. Liposarcoma — particularly the myxoid/round cell subtype — is characterised by high angiogenic activity and PDGFR pathway activation, which overlaps directly with Sunitinib's inhibitory spectrum. This shared vascular and growth-factor signalling biology is the pharmacological basis for extending Sunitinib from renal and gastrointestinal tumours into selected soft-tissue sarcomas, including liposarcoma.
+Soft tissue sarcomas, including liposarcoma, also depend in part on angiogenesis and growth-factor receptor signalling. This gives a plausible mechanistic basis for testing sunitinib in liposarcoma.
 
-This mechanistic plausibility is reinforced by real clinical experience: liposarcoma is one of the histological subtypes explicitly evaluated in two completed Phase 2 non-GIST sarcoma trials referenced below, and by a dedicated case report describing durable clinical benefit in metastatic liposarcoma.
+However, the available Phase 2 data suggest that activity in liposarcoma subtypes is modest. The prediction is therefore best viewed as a hypothesis worth testing, not as proof of benefit.
 
 ---
 
@@ -67,9 +67,8 @@ This mechanistic plausibility is reinforced by real clinical experience: liposar
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Multicentre continuous-dosing study of sunitinib in non-GIST sarcomas (including liposarcoma); evaluated tumour growth inhibition and anti-angiogenic effect |
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label study of sunitinib malate in unresectable/metastatic soft tissue sarcoma, covering leiomyosarcoma, liposarcoma, fibrosarcoma and MFH |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 basket study of regorafenib (not sunitinib) in selected sarcoma subtypes; included as mechanistic-class reference only (Grade C relevance) |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Phase 2 | Completed | 53 | Continuous-dose sunitinib in metastatic, locally advanced or recurrent non-GIST sarcomas; includes liposarcoma, but subtype-specific results are not given in the data compiled |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Phase 2 | Completed | 48 | Open-label single-site study in metastatic or unresectable soft tissue sarcoma (leiomyosarcoma, liposarcoma, fibrosarcoma, MFH); the liposarcoma subset is not clear |
 
 ---
 
@@ -77,56 +76,63 @@ This mechanistic plausibility is reinforced by real clinical experience: liposar
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase 2 trial | International Journal of Cancer | Phase II study of sunitinib malate in relapsed/refractory soft tissue sarcoma, focused on leiomyosarcoma, liposarcoma and malignant fibrous histiocytoma |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Trial Protocol | BMC Cancer | REGOSARC trial protocol: angiogenesis-targeted therapy (regorafenib, mechanistic class comparator to sunitinib) in advanced soft tissue sarcoma |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Genetic, epigenetic and transcriptome alterations in liposarcoma relevant to target therapy selection |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Review of Anticancer Therapy | Emerging systemic therapies for adult soft tissue sarcoma, including targeted agents |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Annals of Oncology | Histology-driven medical treatment of soft tissue sarcomas, noting trabectedin/sunitinib-class activity by subtype |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case Report | Anticancer Research | Long-lasting clinical benefit of sunitinib malate in a heavily pre-treated metastatic liposarcoma patient |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Not yet classified | American Journal of Surgical Pathology | Clinicopathologic analysis of a distinctive myxoid inflammatory myofibroblastic sarcoma subtype |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Not yet classified | Magyar Onkologia | Histological subtype-based medical treatment approach for soft tissue sarcomas |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Not yet classified | Oncotarget | Next-generation sequencing of extraskeletal myxoid chondrosarcoma, including sunitinib response evaluation |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Phase 2 trial | Int J Cancer | Single-institution study of sunitinib in relapsed or refractory soft tissue sarcoma, focusing on leiomyosarcoma, liposarcoma and malignant fibrous histiocytoma |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Review | Expert Rev Anticancer Ther | Emerging therapies for adult soft tissue sarcoma |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Review | Magy Onkol | Histology-driven medical treatment of soft tissue sarcomas |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Review | Ann Oncol | Histology-driven therapy in soft tissue sarcoma; trabectedin is highlighted for liposarcoma |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Review | Cancers | Genetic, epigenetic and transcriptome alterations in liposarcoma for target selection |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Case report | Anticancer Res | Long-lasting clinical benefit of sunitinib in one heavily pre-treated metastatic liposarcoma patient |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation for Sunitinib is currently held in the United Kingdom according to this Evidence Pack (market status: **Not Marketed**, 0 authorisations on record). No product, dosage form or licensed indication data is therefore available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0801050AMAAAAAA | Sunitinib Cap 12.5mg | Not stated | Not stated |
+
+Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number. Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current SmPC and BNF.
 
 ---
 
 ## Cytotoxicity
 
-**This section is included because Sunitinib is an established antineoplastic agent (multi-targeted tyrosine kinase inhibitor used in oncology indications such as RCC and GIST).**
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-targeted tyrosine kinase inhibitor with anti-angiogenic activity) |
+| Cytotoxicity Classification | Targeted therapy (multitargeted tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the SmPC warnings and precautions |
 | Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
-| Monitoring Items | Please refer to the SmPC warnings and precautions |
-| Handling Protection | Please refer to the SmPC warnings and precautions |
+| Monitoring Items | FBC, liver function, thyroid function, cardiac function and blood pressure, in line with the SmPC |
+| Handling Protection | Please refer to the SmPC and local oncology pharmacy policy |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge graph disease-contraindication links, not label text):**
+long QT syndrome and torsades de pointes, liver failure, liver disease and drug-induced liver injury, heart failure, thrombocytopenia, anaemia, thyroid disorders (hypothyroidism and hyperthyroidism), adrenocortical insufficiency, epilepsy, pancreatitis, gallbladder disease, hyperbilirubinaemia (including Gilbert syndrome), potassium deficiency, and posterior leukoencephalopathy syndrome. These should be verified against the SmPC.
+
+**Drug Interactions** (100 interactions recorded; examples):
+- **Major:** dolasetron (QT-related concern)
+- **Moderate:** clarithromycin, dexamethasone, loperamide, famotidine, palonosetron, chlorpropamide, glimepiride, multiple insulins, and several bowel-preparation laxatives (bisacodyl, picosulfuric acid, sodium sulfate, macrogol/electrolyte preparations)
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The lead predicted indication (liposarcoma) is supported by an evidence level of L2 — including two completed Phase 2 trials that explicitly enrolled liposarcoma patients and a dedicated Phase 2 study plus case report describing clinical benefit — giving a mechanistically coherent and partially clinically demonstrated repurposing signal. However, this Evidence Pack has an unresolved **Blocking** data gap (TFDA/MHRA product warnings and contraindications, DG001) that prevents a full S1 safety review, alongside a **High**-severity gap in mechanism-of-action data (DG002).
+Two completed Phase 2 studies and one published Phase 2 report give some clinical signal in soft tissue sarcoma. However, liposarcoma-specific results are unclear, activity appears modest, and there is no Phase 3 evidence. This is a research question, not a case for adoption.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain the UK/MHRA-approved product information (SmPC) to complete safety screening before any clinical evaluation proceeds
-- Resolve DG002: obtain confirmed DrugBank/SmPC mechanism-of-action data to strengthen the mechanistic rationale
-- Formal drug interaction (DDI) data, as the current query returned no results
-- Confirm route of administration compatibility between the original (oral, RCC/GIST) and proposed liposarcoma use, currently marked "pending" in this pack
+- Liposarcoma-specific response and survival data extracted from NCT00474994, NCT00400569 and PMID 21154746
+- Comparison against established liposarcoma options such as trabectedin and doxorubicin-based regimens
+- Mechanism of action data and UK SmPC safety information (the data compiled for this report are incomplete)
+- Review of cardiac, hepatic and QT-related risks against the contraindications listed above
+- Confirmation of the UK authorisation details, including formulation and approved indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

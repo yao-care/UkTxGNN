@@ -2,7 +2,7 @@
 layout: default
 title: Piracetam
 parent: Model Prediction Only (L5)
-nav_order: 465
+nav_order: 501
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piracetam: From No UK-Licensed Indication to Osteoarthritis (Predicted)
+# Piracetam: From Myoclonus to Osteoarthritis
 
 ## One-Sentence Summary
 
-> Piracetam (DrugBank DB09210) currently holds **no UK marketing authorisation**, and no original indication data is available in this evidence pack.
-> The TxGNN model predicts it may be effective for **Osteoarthritis**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the knowledge-graph score alone.
+Piracetam is a racetam nootropic that is marketed in the UK and is used for myoclonus, alongside other anti-myoclonic therapies.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** were found in the data compiled for this report to support this direction.
+The prediction rests on the model alone.
 
 ---
 
@@ -43,23 +43,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK marketing authorisation on record |
+| Original Indication | Myoclonus, in combination with other anti-myoclonic therapies (the authorisation record contains no indication text; this is taken from the pharmacology data) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.45% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Piracetam in this evidence pack. Without MOA information, and with no UK-licensed indication on record to compare against, it is not possible to construct a pharmacologically grounded rationale for extending Piracetam's use to osteoarthritis. The osteoarthritis prediction (rank 1, score 98.45%) is derived purely from the TxGNN knowledge-graph model and is not corroborated by any clinical trial or published literature.
+Currently, detailed mechanism of action data is not available. Piracetam is a racetam nootropic. Its proposed effects include changes in membrane fluidity, modulation of AMPA-type glutamate receptors, and effects on microcirculation and platelet function. The pharmacology data list GluA1, GluA2, GluA3 and GluA4 (the AMPA receptor subunits) as targets.
 
-It is worth noting that lower-ranked candidates in this evidence pack — rheumatoid arthritis (rank 3) and hepatic porphyria (rank 5) — do have some indirect supporting literature. However, this literature concerns **Levetiracetam**, a different racetam-class anticonvulsant, not Piracetam itself, and is limited to preclinical/animal studies and case reports. This is class-level indirect evidence at best and should not be interpreted as direct support for Piracetam in any of the predicted indications, including osteoarthritis.
+**This prediction is not mechanistically supported.** None of these proposed actions has a demonstrated link to cartilage degeneration or joint inflammation. The high score is most likely a product of proximity within the knowledge graph rather than a real therapeutic signal. Without mechanism data, the relationship between the original and new indication cannot be assessed.
 
-Given the absence of MOA data, the absence of a known original indication, and the complete lack of disease-specific evidence for osteoarthritis, mechanistic plausibility cannot currently be assessed.
+The other top-ranked predictions show the same pattern. They are mostly joint, skeletal or connective-tissue conditions, and none has trial or literature support:
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Osteoarthritis susceptibility | 98.26% | A genetic susceptibility phenotype, not a treatable condition |
+| 3 | Rheumatoid arthritis | 98.02% | Piracetam's haemorheological and antiplatelet effects are not linked to autoimmune synovial inflammation |
+| 4 | Pseudoachondroplasia | 97.63% | Rare skeletal dysplasia (COMP mutations); no known link |
+| 5 | Hepatic porphyria | 97.55% | No rationale; would also need a porphyrinogenicity safety review |
+| 6 | Gout | 97.54% | No evidence of an effect on urate metabolism |
+| 7 | Brachyolmia | 97.45% | Rare skeletal dysplasia; no pharmacological link |
+| 8 | Acromesomelic dysplasia, Hunter-Thompson type | 97.31% | CDMP1/GDF5 pathway; no known effect |
+| 9 | Myosclerosis | 97.19% | Rare myopathy; no evidence |
+| 10 | Hepatopulmonary syndrome | 97.18% | Microcirculatory effects not established as relevant |
 
 ---
 
@@ -77,15 +89,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Piracetam is **not currently marketed in the UK** and has no marketing authorisations on record in this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409030P0AAAAAA (BNF code) | Piracetam oral solution 333.3 mg/1 ml | Oral solution | Not recorded in the compiled data; pharmacology data describe UK use for myoclonus alongside other anti-myoclonic therapies |
+
+Only one authorisation record is available. The number shown is a BNF-style product code rather than a standard PL number, so the MHRA record should be checked directly. Piracetam is not approved by the US FDA but is authorised in several other European, Asian and South American countries.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction query completed with 4 entries. All are pharmacological target associations (AMPA receptor subunits GluA1, GluA2, GluA3 and GluA4, encoded by *GRIA1–4*), not clinical drug–drug interactions. No graded interaction levels were reported.
 
-Note: since Piracetam holds no UK marketing authorisation, no UK SmPC currently exists. Key warnings, contraindications and drug–drug interaction data are all recorded as data gaps in this evidence pack, and the missing label/warning data (DG001) is flagged as a **Blocking** gap that prevents any safety pre-assessment.
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,14 +110,14 @@ Note: since Piracetam holds no UK marketing authorisation, no UK SmPC currently 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (osteoarthritis) has no supporting clinical trials or literature and relies solely on a TxGNN model score (L5 evidence). Combined with the absence of mechanism of action data, the absence of a UK marketing authorisation, and a Blocking data gap on safety warnings/contraindications, there is currently insufficient basis to advance this candidate beyond an exploratory stage.
+The prediction is supported only by a graph-based model score. No trials or publications exist, no plausible mechanistic link to osteoarthritis has been identified, and the safety data (warnings and contraindications) are incomplete.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Piracetam (DrugBank query, per DG002)
-- Regulatory label data — warnings and contraindications, e.g. via TFDA or an equivalent regulator with a marketed product (per DG001, currently Blocking)
-- Disease-specific clinical or preclinical evidence directly involving Piracetam (not the Levetiracetam class) for osteoarthritis
-- If pursuing the rheumatoid arthritis or hepatic porphyria leads instead, a targeted literature review to determine whether the Levetiracetam-class mechanism (JAK2/STAT3, TLR4/MAPK modulation; renal vs. hepatic clearance profile) genuinely extends to Piracetam
-- Confirmation of UK/EU regulatory status and any historical licensing history for Piracetam
+- Mechanism of action data, to allow a proper assessment of any link to joint or cartilage pathology
+- Systematic literature and trial searches on piracetam in osteoarthritis, including preclinical studies
+- Warnings and contraindications from the current SmPC and BNF, which is a blocking gap for safety screening
+- Verification of the MHRA authorisation record, including the approved indication text, dosage forms and the correct PL number
+- Assessment of whether the available oral formulation suits the intended use in osteoarthritis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

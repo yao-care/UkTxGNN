@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nisoldipine
-parent: Model Prediction Only (L5)
-nav_order: 416
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 447
+evidence_level: L4
 indication_count: 5
 ---
 
 # Nisoldipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L4** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,84 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Nisoldipine is a dihydropyridine calcium channel blocker conventionally used to treat hypertension.
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia**,
-but the current evidence base consists only of general hypoxia-pathophysiology literature rather than studies specific to nisoldipine or this indication, and **no clinical trials** have been identified.
-
----
+Nisoldipine is a dihydropyridine calcium channel blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but there are currently **no registered clinical trials** and only **preclinical publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no licence text available). Nisoldipine is pharmacologically classified as a dihydropyridine calcium channel blocker, a class conventionally indicated for hypertension — requires formal confirmation |
-| Predicted New Indication | Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia |
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a data gap). Based on established pharmacological classification, nisoldipine is a second-generation dihydropyridine calcium channel blocker (CCB), acting via inhibition of L-type calcium channels in vascular smooth muscle to produce vasodilation. This class effect is not restricted to the systemic circulation — dihydropyridine and non-dihydropyridine CCBs (e.g. nifedipine, amlodipine) have historically been trialled, and used off-label in selected vasoreactive patients, for pulmonary arterial hypertension. This provides a plausible pharmacological rationale for why a knowledge-graph model might link nisoldipine to a pulmonary hypertension phenotype.
+Nisoldipine is an L-type calcium channel blocker of the dihydropyridine class. It relaxes vascular smooth muscle by reducing calcium entry into cells, which lowers blood pressure in hypertension. Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects the known pharmacology of the drug class.
 
-However, the literature returned for this prediction does **not** directly test nisoldipine, CCBs as a class, or pulmonary hypertension treatment. It largely comprises general reviews on hypoxia pathophysiology across unrelated organ systems (brain ageing, cancer biology, multiple sclerosis, headache). The mechanistic overlap is therefore indirect — the shared concept is "hypoxia" rather than a demonstrated drug–disease relationship — and should be treated as a hypothesis-generating signal only, not as supportive evidence in itself.
+Hypoxic pulmonary vasoconstriction depends partly on calcium influx through L-type channels and on calcium release from intracellular stores in pulmonary artery smooth muscle. A calcium channel blocker could therefore plausibly reduce pulmonary vascular tone. Animal studies point in this direction. In anaesthetised dogs, nisoldipine reduced pulmonary vascular resistance in experimental pulmonary hypertension (1985). In rats, calcium antagonists including nisoldipine were tested against the hypoxia-induced rise in right ventricular pressure (1989).
 
----
+There is an important caution. Dihydropyridine calcium channel blockers may blunt the protective hypoxic vasoconstriction in poorly ventilated lung regions and could worsen ventilation-perfusion mismatch in patients with chronic lung disease. The high TxGNN score is a computational prediction only and does not establish clinical benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+All retrieved publications are preclinical (animal or cell-based). None is a clinical study in patients. The most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Describes the four basic mechanisms of hypoxaemia (low ambient O₂, hypoventilation, V/Q mismatch, right-to-left shunt) — general respiratory physiology, not drug-specific |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | Overview of cellular hypoxia-sensing and its role in vascular disease, inflammation and cancer |
-| [24557798](https://pubmed.ncbi.nlm.nih.gov/24557798/) | 2014 | Review | Journal of Applied Physiology | Narrative update on hypoxia physiology research; no pulmonary hypertension or CCB content |
-| [27423661](https://pubmed.ncbi.nlm.nih.gov/27423661/) | 2016 | Review | Cell and Tissue Research | Role of hypoxia/HIF-1 signalling in tissue repair and fibrosis |
-| [31961750](https://pubmed.ncbi.nlm.nih.gov/31961750/) | 2020 | Review | Annual Review of Immunology | Hypoxia's role in innate immune and inflammatory responses |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Clinical evidence and molecular mechanisms of hypoxia-induced cognitive impairment |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | Hypoxia's dual role in neurodegeneration versus neuroprotection with brain ageing |
-| [40347693](https://pubmed.ncbi.nlm.nih.gov/40347693/) | 2025 | Review | Redox Biology | Interplay between hypoxia and multiple sclerosis pathology |
-| [40815459](https://pubmed.ncbi.nlm.nih.gov/40815459/) | 2025 | Review | Revista Medica del IMSS | Hypobaric (altitude) hypoxia and physiological adaptation |
-| [27146279](https://pubmed.ncbi.nlm.nih.gov/27146279/) | 2017 | Review | Cephalalgia | Possible role of hypoxia in migraine and cluster headache |
+| [3872360](https://pubmed.ncbi.nlm.nih.gov/3872360/) | 1985 | Animal study | J Pharmacol Exp Ther | Compared the pulmonary vasodilator effects of nisoldipine, bepridil and nifedipine in dogs with experimental pulmonary hypertension |
+| [2476607](https://pubmed.ncbi.nlm.nih.gov/2476607/) | 1989 | Animal study | J Cardiovasc Pharmacol | Four calcium antagonists, including nisoldipine, were tested against the hypoxia-induced rise in rat right ventricular pressure |
+| [9298524](https://pubmed.ncbi.nlm.nih.gov/9298524/) | 1997 | Preclinical mechanism | Br J Pharmacol | Intracellular calcium release plays a prominent role in hypoxic vasoconstriction of canine pulmonary artery |
+| [1566816](https://pubmed.ncbi.nlm.nih.gov/1566816/) | 1992 | Preclinical mechanism | Am J Physiol | Potassium channel inhibition directly contributes to hypoxic pulmonary vasoconstriction |
+| [15613369](https://pubmed.ncbi.nlm.nih.gov/15613369/) | 2005 | Preclinical mechanism | J Physiol | Hypoxia mobilises sarcoplasmic reticulum calcium stores and activates capacitative calcium entry in canine pulmonary arterial smooth muscle cells |
+| [15528240](https://pubmed.ncbi.nlm.nih.gov/15528240/) | 2005 | Preclinical mechanism | J Physiol | Nisoldipine-sensitive L-type channels carry part of the calcium current in rabbit carotid body chemoreceptor cells |
+| [10980033](https://pubmed.ncbi.nlm.nih.gov/10980033/) | 2000 | Preclinical mechanism | J Neurophysiol | Hypoxia augments L-type calcium current in rabbit carotid body glomus cells |
 
-**Note:** none of the above studies evaluate nisoldipine, calcium channel blockers, or pulmonary hypertension treatment directly. They establish that hypoxia is a broadly studied pathophysiological driver across specialties but do not constitute direct supportive evidence for this repurposing candidate.
-
----
+Several other retrieved papers concern carotid body physiology or cardiac electrophysiology and are only indirectly relevant.
 
 ## UK Market Information
 
-Nisoldipine currently holds **no UK marketing authorisation** (market status: Not Marketed; 0 licences on record). No product, dosage form, or approved indication data is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206020W0AAABAB (BNF-style product code; no PL number available) | Nisoldipine 20 mg modified-release tablets | Modified-release tablet | Not stated in the data compiled for this report |
 
----
+The data compiled for this report show one valid single-ingredient authorisation. The BNF classification code (0206020W0) places the product among the calcium channel blockers in the cardiovascular chapter.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged in the knowledge graph (not label text):** liver failure, hypotensive disorder, coronary artery disease, coronary atherosclerosis, arteriosclerosis disorder and atherosclerosis. These are computational flags and should be checked against the SmPC.
+- **Drug Interactions:** 100 interactions were recorded. Examples:
+  - **Major:** dolasetron
+  - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), bupropion, aprepitant, morphine, acetylsalicylic acid, cimetidine, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), magnesium sulfate, calcium salts, dronabinol, nabilone
+  - **Minor:** omeprazole
+- **Population-specific concern:** in patients with lung disease or hypoxia, dihydropyridine calcium channel blockers may worsen ventilation-perfusion mismatch.
 
-*(Key warnings, contraindications and drug–drug interaction data for nisoldipine were not available in this evidence pack and are flagged as a blocking data gap — see Conclusion.)*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but supporting evidence is weak and indirect: there are no clinical trials, and the retrieved literature addresses hypoxia biology in general rather than nisoldipine or pulmonary hypertension specifically. Combined with the drug's absence from the UK market and missing core safety data, this candidate does not meet the threshold to proceed.
+The prediction is biologically plausible, but support is limited to animal and cell studies, with no clinical trials. Calcium channel blockers are established in pulmonary hypertension only for the small group of vasoreactive patients. There is also a safety concern in lung disease and hypoxia.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-sourced warnings, contraindications and DDI data (currently a blocking data gap)
-- Confirmed mechanism of action via DrugBank (currently a data gap)
-- Direct preclinical or clinical evidence linking nisoldipine (or the dihydropyridine CCB class) to pulmonary hypertension outcomes, rather than general hypoxia-pathophysiology literature
-- Clarification of nisoldipine's licensing pathway/status before any UK market entry can be considered
+- Clinical data in patients with pulmonary hypertension due to lung disease, starting with a small haemodynamic or pilot study
+- Detailed mechanism of action data
+- Assessment of the effect on gas exchange and ventilation-perfusion matching
+- Full SmPC review for warnings and contraindications, including approved indication text
+- Review of the interaction profile, particularly with CYP3A4-related drugs and other antihypertensives
+
+**Other predicted indications (all Hold, evidence level L5):** pulmonary hypertension with unclear multifactorial mechanism, malignant hypertensive renal disease, malignant renovascular hypertension and Braddock syndrome. The two malignant hypertension conditions overlap closely with the original indication. For Braddock syndrome, no mechanistic rationale is evident.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

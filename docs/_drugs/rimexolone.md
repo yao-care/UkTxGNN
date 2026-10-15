@@ -2,7 +2,7 @@
 layout: default
 title: Rimexolone
 parent: Model Prediction Only (L5)
-nav_order: 506
+nav_order: 544
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,73 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Rimexolone: From Ocular Inflammation to Seborrheic Dermatitis
+# Rimexolone: From Uveitis to Seborrheic Dermatitis
 
 ## One-Sentence Summary
 
-Rimexolone (Vexol) is a synthetic corticosteroid ophthalmic suspension primarily indicated for anterior uveitis and postoperative ocular inflammation.
-The TxGNN model predicts it may be effective for **Seborrheic Dermatitis**, with **no clinical trials** and **no published literature** currently identified to support this repurposing direction.
-Evidence is currently limited to computational model prediction only.
-
----
+Rimexolone is a synthetic corticosteroid originally used as an eye drop for uveitis and related inflammatory eye conditions.
+The TxGNN model predicts it may be effective for **seborrheic dermatitis**,
+but there are currently **no clinical trials** and **no publications** supporting this direction, so the prediction rests on corticosteroid class pharmacology alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Anterior uveitis; postoperative ocular inflammation |
-| Predicted New Indication | Seborrheic Dermatitis |
+|------|------|
+| Original Indication | Uveitis, iris disease, ciliary body disease, panuveitis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known pharmacological information, Rimexolone is a synthetic glucocorticoid formulated as a 1% ophthalmic suspension. Its anti-inflammatory activity is mediated through glucocorticoid receptor binding, which suppresses the NF-κB signalling pathway and reduces pro-inflammatory cytokines including IL-1, TNF-α, and IL-6. This mechanism underpins its established efficacy in anterior uveitis and postoperative ocular inflammation.
+Detailed mechanism of action data are not available for this drug. Based on known information, rimexolone is a synthetic glucocorticoid (glucocorticoid receptor agonist) with anti-inflammatory and immunosuppressive properties. Its use in uveitis and other ocular inflammation is established, and mechanistically it may be applicable to inflammatory skin conditions.
 
-Seborrheic dermatitis is a chronic, relapsing inflammatory skin condition characterised by erythematous plaques and greasy scaling in sebum-rich areas. Its pathogenesis involves an abnormal cutaneous immune response to *Malassezia* yeast species, driven by Th17 and Th1 cytokine-mediated inflammation. In principle, the glucocorticoid class does have a role in seborrheic dermatitis — short courses of topical corticosteroids are used adjunctively to reduce acute inflammation. This theoretical overlap explains the high TxGNN score; however, this score most likely reflects a **glucocorticoid class effect** rather than Rimexolone-specific evidence.
+Topical corticosteroids are an established treatment class for seborrheic dermatitis. This makes the high prediction score biologically plausible, through shared glucocorticoid effects such as reduced release of inflammatory mediators and reduced leukocyte infiltration. A second prediction, general **dermatitis** (score 99.34%), follows the same logic.
 
-There are, however, significant practical barriers. Rimexolone exists solely as an ophthalmic formulation; no dermatological preparation has been developed, and its skin penetration, percutaneous absorption, and systemic exposure profile under topical dermatological use are unknown. Furthermore, seborrheic dermatitis requires concurrent antifungal therapy targeting *Malassezia* — an activity Rimexolone does not possess. First-line options such as ketoconazole 2% shampoo/cream and low-potency topical corticosteroids (e.g., hydrocortisone 1%) are already well-established and widely available, leaving no clear clinical differentiation advantage for Rimexolone in this indication.
-
----
+This is a class-effect inference, not drug-specific evidence. Rimexolone is formulated only as an ophthalmic preparation, so skin penetration, dermal safety and appropriate dosing have not been characterised. Any dermatological use would need new formulation and safety work.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1104010V0AAAAAA | Rimexolone eye drops 10 mg/ml | Eye drops | Not stated in the data compiled for this report |
+
+Note: the licence number shown is as recorded in the compiled data and is not in the standard UK "PL XXXXX/XXXX" format; please verify it against the MHRA register. Only one valid single-ingredient authorisation is recorded.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from knowledge-graph drug-disease links, not label text):** herpes simplex virus keratitis, fungal infection of the eye, viral eye infection, ocular tuberculosis. These relate to the ophthalmic use of corticosteroids and would not necessarily transfer to dermatological use.
 
----
+No drug interaction data were found.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.50%), this reflects a broad glucocorticoid class effect; there is no Rimexolone-specific clinical or preclinical evidence supporting use in seborrheic dermatitis, no dermatological formulation exists, and the drug holds no marketing authorisation in the UK.
+The prediction is plausible for the corticosteroid class, but there is no drug-specific clinical or published evidence (Evidence Level L5). The only available formulation is ophthalmic, and established topical corticosteroids already exist for seborrheic dermatitis and dermatitis.
 
 **To proceed, the following is needed:**
-
-- **Formulation development**: A topical dermatological formulation (cream or lotion) would need to be developed, with pharmacokinetic data on skin penetration, percutaneous absorption rate, and hypothalamic–pituitary–adrenal (HPA) axis suppression risk
-- **Mechanism of action data**: Full MOA data from DrugBank to confirm the corticosteroid activity profile and identify any differentiated properties versus existing topical steroids
-- **Safety data**: SmPC warnings, contraindications, and drug interaction profile; currently all are flagged as data gaps
-- **Preclinical evidence**: Skin safety studies including sensitisation, tolerability, and systemic absorption under dermatological application conditions
-- **Clinical differentiation rationale**: A robust argument for why Rimexolone would offer advantages over established first-line treatments (ketoconazole, hydrocortisone) before any proof-of-concept study is designed
-- **Proof-of-concept clinical study**: At minimum one Phase 1/2 study in seborrheic dermatitis patients before further progression can be considered
+- Mechanism of action data for rimexolone
+- Warnings and contraindications from the SmPC and BNF, which are currently missing and block safety screening
+- Preclinical data on skin penetration and dermal safety, and a suitable topical formulation and dose
+- Assessment of route compatibility between the current ophthalmic product and a dermatological route
+- Comparative rationale against existing topical corticosteroids and other approved treatments
+- Early-phase clinical evidence in seborrheic dermatitis or dermatitis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

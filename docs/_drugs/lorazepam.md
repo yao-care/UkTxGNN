@@ -2,7 +2,7 @@
 layout: default
 title: Lorazepam
 parent: Model Prediction Only (L5)
-nav_order: 352
+nav_order: 380
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lorazepam: From [Indication Data Unavailable] to Trigeminal Nerve Neoplasm
+# Lorazepam: From Anxiety and Seizure Disorders to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-> Detailed original-indication data for lorazepam is not available in this evidence pack; internationally, lorazepam is a well-established benzodiazepine used for anxiety, insomnia and status epilepticus. The TxGNN model's top-ranked prediction is **Trigeminal Nerve Neoplasm**, but this candidate currently has **no supporting clinical trials or literature**, and the model itself flags this association as likely graph noise rather than a biologically plausible signal.
+Lorazepam is a benzodiazepine originally used for anxiety disorders and seizure conditions, including status epilepticus.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but **no clinical trials and no publications** support it, so it rests on model prediction alone.
+Among the other predictions, **insomnia** and several **reflex seizure types** have indirect literature support only.
 
 ---
 
@@ -41,51 +43,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (data gap); lorazepam is internationally used for anxiety, insomnia and seizure control |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
+| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome and related epilepsies (the UK licence record contains no indication text; these indications come from the TxGNN knowledge graph) |
+| Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L5 |
-| UK Market Status | Not currently marketed (no MHRA licence on record) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, lorazepam is a benzodiazepine that acts as a positive allosteric modulator of the GABA-A receptor, enhancing chloride ion influx to produce sedative, anxiolytic and anticonvulsant effects. Its established uses internationally include anxiety disorders, short-term insomnia, and acute seizure/status epilepticus management.
+Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is a benzodiazepine that enhances GABA-A receptor-mediated inhibition, giving it anxiolytic, sedative and anticonvulsant effects.
 
-There is no known mechanistic relationship between GABA-A receptor modulation and trigeminal nerve neoplasm biology (tumour proliferation, angiogenesis or oncogenic signalling pathways). The evidence pack's own rationale for this candidate explicitly states that the high TxGNN score is likely attributable to knowledge-graph connectivity noise rather than genuine biological plausibility, and no clinical trials or literature support this indication.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanistic link has been identified. Lorazepam has no known antineoplastic activity. The very high score is a graph-based signal only. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a cranial nerve tumour, which is supportive care rather than a repurposing indication.
 
-**Note for reviewers:** Lower-ranked candidates in this evidence pack — particularly **insomnia (rank 2, evidence level L3)** — show a far stronger and more coherent evidence base, including 21 registered clinical trials and a well-established pharmacological class rationale. If a repurposing signal is to be pursued from this dataset, insomnia is the substantially stronger candidate and is discussed further in the Conclusion below.
+The other predictions are more biologically coherent:
+
+- **Insomnia:** GABA-A enhancement produces sedative-hypnotic effects, and lorazepam is already used for sleep disturbance and agitation. The retrieved literature is mostly indirect (insomnia drug reviews, agitation in bipolar disorder, alcohol withdrawal). Small older studies compare lorazepam with flurazepam and test different lorazepam dosing schedules in chronic insomnia. Tolerance, dependence, next-day sedation, and fall and cognitive risks (especially in older people) limit long-term use.
+- **Reflex seizure types** (reading, micturition-induced, audiogenic, startle, eating, thinking and orgasm-induced seizures) and **acute encephalopathy with biphasic seizures and late reduced diffusion:** these extend lorazepam's established antiseizure use. The literature concerns general seizure management rather than these specific conditions, so this is extrapolation, not disease-specific evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predictions.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for trigeminal nerve neoplasm. The most relevant publications found for the other predictions are below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [22335736](https://pubmed.ncbi.nlm.nih.gov/22335736/) | 2012 | RCT | N Engl J Med | Intramuscular versus intravenous benzodiazepine therapy for prehospital status epilepticus (general seizure evidence) |
+| [17414241](https://pubmed.ncbi.nlm.nih.gov/17414241/) | 2007 | RCT | J Clin Psychopharmacol | IM aripiprazole versus IM lorazepam 2 mg versus placebo for acute agitation in bipolar I disorder (lorazepam used as comparator) |
+| [35194860](https://pubmed.ncbi.nlm.nih.gov/35194860/) | 2022 | Systematic review/meta-analysis | Addiction | Network meta-analysis of pharmacotherapies for alcohol withdrawal |
+| [38358613](https://pubmed.ncbi.nlm.nih.gov/38358613/) | 2024 | Review | CNS Drugs | Benzodiazepines are the mainstay of acute treatment of seizure clusters |
+| [35971024](https://pubmed.ncbi.nlm.nih.gov/35971024/) | 2022 | Review | CNS Drugs | Routes of delivery, pharmacokinetics, efficacy and tolerability of benzodiazepines in seizures and status epilepticus |
+| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Review | Med Lett Drugs Ther | Overview of drugs for chronic insomnia |
+| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | Double-blind crossover study | J Clin Pharmacol | Lorazepam 2 mg performed better than flurazepam 30 mg on most sleep parameters in eight chronic insomniacs |
+| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Clinical study | Int Clin Psychopharmacol | Lorazepam 0.5 mg three times daily versus 1.5 mg at night in primary insomnia |
+| [11593256](https://pubmed.ncbi.nlm.nih.gov/11593256/) | 2001 | Case series | Neurol India | Five cases of photosensitive epilepsy treated with adjuvant lorazepam |
+| [6127668](https://pubmed.ncbi.nlm.nih.gov/6127668/) | 1981 | Preclinical | Pol J Pharmacol Pharm | Lorazepam depressed audiogenic seizures in rodents |
 
 ---
 
 ## UK Market Information
 
-Lorazepam is not currently marketed under this evidence pack's regulatory dataset — no MHRA marketing authorisation numbers were found (`total_licenses: 0`). No product listings are available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0401020P0AAABAB (BNF-style product code; not a PL number) | Lorazepam tablets 1 mg | Tablet (inferred from product name) | Not stated in the data compiled for this report |
+
+Only one authorisation is recorded. The record contains no manufacturer, dosage form field or approved indication text. NICE appraisal information is not available in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindication-related conditions (from the knowledge graph, not label text):**
+The TxGNN knowledge graph links lorazepam to the following conditions as contraindications or cautions. These should be checked against the SmPC.
 
-**Outstanding data gaps identified:**
-- **TFDA-equivalent labelling (warnings/contraindications)** — Blocking severity; prevents S1 safety pre-assessment. Recommended remediation: obtain and parse the official SmPC/labelling document.
-- **Mechanism of action (MOA) detail** — High severity; affects mechanistic-relevance analysis. Recommended remediation: query DrugBank directly for structured MOA data.
+- Hepatic: liver failure, liver disease, hepatic encephalopathy, hepatic coma, gallbladder disease
+- Respiratory and sleep: respiratory failure, obstructive sleep apnoea syndrome, sleep apnoea syndrome, congenital central hypoventilation syndrome
+- Renal: kidney disease, pyoureter
+- Eye: open-angle and angle-closure glaucoma
+- Metabolic: inherited porphyria, porphyria and porphyrin metabolism disease
+- Psychiatric: substance-related disorder and substance abuse/dependence, neurotic disorder, dysthymic disorder (the graph also lists anxiety disorder, an approved use, so this edge should be interpreted cautiously)
+
+**Drug Interactions:** 100 interactions were identified in the DDInter database; 20 are listed in the data compiled for this report.
+
+- **Major:** morphine, including liposomal morphine (additive CNS and respiratory depression)
+- **Moderate:** bupropion, dronabinol, nabilone, teduglutide, metoclopramide, opium, sibutramine
+- **Minor:** antacids and related agents (aluminium hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide)
+- **Unknown severity:** calcitriol, phentermine, pantoprazole, mesalazine, acarbose
+
+**Other considerations from the literature:**
+- Withdrawal-related hyperexcitability and dependence (rodent studies)
+- Propylene glycol toxicity with intravenous lorazepam
+- Sedation, falls and cognitive risk in older people
+
+Label-based warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,12 +134,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (trigeminal nerve neoplasm) has no supporting clinical trial or literature evidence, no plausible mechanistic link, and the evidence pack itself characterises the signal as likely model noise (Evidence Level L5, decision stage S0). Combined with blocking data gaps in safety labelling and MOA, this candidate does not meet the threshold to proceed.
+The top-ranked prediction, trigeminal nerve neoplasm, has no trials, no literature and no plausible mechanism, so the high TxGNN score is not credible as a repurposing signal. The more plausible directions (insomnia and reflex seizures) have only indirect evidence and are classed as research questions at evidence level L4, not as candidates ready for development.
 
 **To proceed, the following is needed:**
-- Official product labelling (warnings, contraindications) to close DG001 before any S1 safety pre-assessment
-- Structured MOA data from DrugBank to close DG002
-- If pursuing this dataset further, redirect evaluation toward **insomnia (rank 2)**, which has 21 registered trials, an L3 evidence level, and a coherent class-effect mechanistic rationale — a substantially more actionable candidate than the current top-ranked prediction
+- Label-based warnings and contraindications from the SmPC and BNF, which are currently missing and block safety screening
+- Mechanism of action data, from DrugBank or the SmPC
+- The UK licensed indications and dosage form for the recorded authorisation
+- For insomnia: lorazepam-specific randomised evidence, and positioning against approved hypnotics, with attention to dependence and tolerance
+- For reflex seizure types: disease-specific case series or registry data
+- A decision on whether to deprioritise trigeminal nerve neoplasm entirely
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

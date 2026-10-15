@@ -2,15 +2,15 @@
 layout: default
 title: Nitrazepam
 parent: Moderate Evidence (L3-L4)
-nav_order: 419
-evidence_level: L3
+nav_order: 450
+evidence_level: L4
 indication_count: 3
 ---
 
 # Nitrazepam
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Nitrazepam: From Benzodiazepine Sedative-Hypnotic to Insomnia (Difficulty Initiating and Maintaining Sleep)
+# Nitrazepam: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Nitrazepam is a benzodiazepine; the Evidence Pack does not record a specific original indication or detailed mechanism of action (both flagged as data gaps). The TxGNN model's top prediction is **Insomnia (sleep disorder, initiating and maintaining sleep)** — notably, this is consistent with nitrazepam's long-established clinical use as a hypnotic rather than a genuinely novel repurposing target. Evidence currently consists of **20 published articles** (including two historical double-blind comparative studies) and **no registered clinical trials**.
-
----
+Nitrazepam is a benzodiazepine hypnotic, originally used to treat insomnia and early myoclonic encephalopathy.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, but this is essentially the same as its existing insomnia use, so it is not a true repurposing finding.
+The data compiled for this report include **no registered clinical trials** and **20 publications**, mostly reviews and comparative hypnotic studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in Evidence Pack (no licences on file; historically nitrazepam is a benzodiazepine hypnotic) |
-| Predicted New Indication | Insomnia (sleep disorder, initiating and maintaining sleep) |
+| Original Indication | Insomnia; early myoclonic encephalopathy (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed (per Evidence Pack) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on general pharmacological knowledge, nitrazepam belongs to the benzodiazepine class, acting as a positive allosteric modulator at GABA-A receptors to produce sedative, hypnotic, anxiolytic, anticonvulsant and muscle-relaxant effects. This class-level pharmacology is directly consistent with a hypnotic role in insomnia.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the general pharmacology of the benzodiazepine class, nitrazepam enhances GABA-A receptor signalling, producing sedative-hypnotic effects. This is consistent with treating difficulty in falling and staying asleep.
 
-The Evidence Pack records no original indication for nitrazepam, which limits a formal comparison between "original" and "new" use. However, it is worth flagging explicitly: the top-ranked predicted indication (insomnia) overlaps with nitrazepam's well-documented historical use as a hypnotic (e.g. PMID 4892037, 1969, describing it as "a safe hypnotic" compared with butobarbitone). This suggests the model may be reaffirming an established indication rather than identifying a novel repurposing opportunity — a distinction that should be clarified before this candidate is treated as "new."
+The predicted indication largely overlaps with nitrazepam's established use in insomnia. The high TxGNN score most likely reflects this known relationship rather than a new therapeutic opportunity. Two other predictions were also generated, but both rest on the model alone with no trials or literature:
 
-Two lower-ranked predictions (acute encephalopathy with biphasic seizures, and Wernicke-Korsakoff syndrome) were also generated but carry weak or absent supporting evidence; the latter was scored by the pipeline as L5/Hold, with the rationale noting no direct mechanistic link between nitrazepam's GABA-A activity and the thiamine-deficiency pathology underlying Wernicke-Korsakoff syndrome.
-
----
+- **Acute encephalopathy with biphasic seizures and late reduced diffusion** (score 99.59%): benzodiazepines are used for acute seizure control, but there is no evidence that nitrazepam alters the course of this delayed excitotoxic condition. The link to early myoclonic encephalopathy may have contributed to the prediction.
+- **Wernicke-Korsakoff syndrome** (score 99.31%): benzodiazepines help manage coexisting alcohol withdrawal, but the standard treatment is thiamine replacement. Benzodiazepines may worsen sedation and cognitive impairment in these patients.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (neither `clinical_trials` nor `ictrp_trials` returned results for this indication).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Of the 20 publications retrieved, the most relevant are listed below. Where the study design was not classified, it is described from the title and abstract.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | RCT (double-blind) | British Medical Journal | Nitrazepam 5mg as effective as butobarbitone as a hypnotic; safe even in acute overdose up to 80 tablets |
-| [6135296](https://pubmed.ncbi.nlm.nih.gov/6135296/) | 1983 | RCT (double-blind cross-over) | Acta Psychiatrica Scandinavica | Nitrazepam 5mg vs triazolam 0.25mg in 26 geriatric inpatients; similar sleep quantity/quality, no significant psychomotor differences |
-| [14960254](https://pubmed.ncbi.nlm.nih.gov/14960254/) | 2004 | RCT/HTA | Health Technology Assessment | CBT package vs continued hypnotic use in long-term hypnotic users in general practice |
-| [19450355](https://pubmed.ncbi.nlm.nih.gov/19450355/) | 2007 | Review | BMJ Clinical Evidence | Up to 40% of adults have insomnia; prevalence increases with age; risk factors include stress and hyperarousal |
-| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Review | Clinical Pharmacokinetics | Clinical pharmacokinetic review of nitrazepam |
-| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Case report | British Journal of Psychiatry | Reported case of nitrazepam (Mogadon) dependence |
-| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Reviews residual "hangover" effects of hypnotics, including daytime sleepiness and psychomotor impairment |
-| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem efficacy noted as comparable to benzodiazepines including nitrazepam in treatment of insomnia |
-| [39231170](https://pubmed.ncbi.nlm.nih.gov/39231170/) | 2024 | Observational | PLoS One | Consumption patterns and factors associated with inappropriate benzodiazepine prescribing in primary care |
-| [10612270](https://pubmed.ncbi.nlm.nih.gov/10612270/) | 1999 | Review | Drug Safety | 15-year risk/benefit review of zopiclone, contextualised against benzodiazepine hypnotics |
-
----
+| [1743245](https://pubmed.ncbi.nlm.nih.gov/1743245/) | 1991 | Double-blind crossover trial | Eur J Clin Pharmacol | In 28 insomnia patients, nitrazepam 5 mg and oxazepam 25 mg were both effective in inducing sleep and improving sleep quality versus placebo; no adverse effects were found |
+| [4892037](https://pubmed.ncbi.nlm.nih.gov/4892037/) | 1969 | Clinical study | Br Med J | Nitrazepam was as effective as butobarbitone as a hypnotic in a double-blind trial; acute overdose in 27 patients caused only drowsiness |
+| [15252823](https://pubmed.ncbi.nlm.nih.gov/15252823/) | 2004 | Systematic review and meta-analysis | Hum Psychopharmacol | Compared Z-drugs with UK-licensed benzodiazepines, including nitrazepam, for short-term insomnia |
+| [18226959](https://pubmed.ncbi.nlm.nih.gov/18226959/) | 2008 | Cohort | Sleep Med | Examined road traffic accident risk linked to prescriptions of zopiclone, zolpidem, flunitrazepam and nitrazepam |
+| [10804040](https://pubmed.ncbi.nlm.nih.gov/10804040/) | 2000 | Review | Drugs | Zolpidem's hypnotic efficacy is generally comparable to benzodiazepines including nitrazepam |
+| [15089115](https://pubmed.ncbi.nlm.nih.gov/15089115/) | 2004 | Review | CNS Drugs | Residual "hangover" effects of hypnotics, such as daytime sleepiness and psychomotor impairment, and their accident risk |
+| [3281819](https://pubmed.ncbi.nlm.nih.gov/3281819/) | 1988 | Review | Drugs | Brotizolam improved sleep similarly to nitrazepam 2.5 and 5 mg in clinical trials |
+| [14960254](https://pubmed.ncbi.nlm.nih.gov/14960254/) | 2004 | Trial (health technology assessment) | Health Technol Assess | Evaluated CBT for insomnia in long-term hypnotic users in general practice |
+| [7037262](https://pubmed.ncbi.nlm.nih.gov/7037262/) | 1981 | Pharmacokinetic review | Clin Pharmacokinet | Clinical pharmacokinetics of nitrazepam |
+| [1125532](https://pubmed.ncbi.nlm.nih.gov/1125532/) | 1975 | Report | Br J Psychiatry | Nitrazepam (Mogadon) dependence |
 
 ## UK Market Information
 
-No UK marketing authorisation is currently recorded in this Evidence Pack (0 licences on file, market status "not marketed"). This should be independently verified against the MHRA product database and BNF, as it may reflect a data gap in the source dataset rather than the true regulatory position.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0401010R0AAACAC | Nitrazepam Tablets 5 mg | Tablet | Not stated in the data compiled |
 
----
+The identifier shown is a BNF-style product code (BNF section 4.1.1, hypnotics) and not a PL marketing authorisation number. Please check the SmPC for the licensed indications.
 
 ## Safety Considerations
 
-A **blocking data gap (DG001)** exists: SmPC/label warnings and contraindications for nitrazepam were not available at the time of this Evidence Pack (data cutoff 2026-09-10), and this must be resolved before any safety (S1) assessment can proceed. No drug-drug interaction data was found (`query_status: not_found`).
+- **Drug Interactions**: 55 potential interactions were identified, but none has a severity grade in the data compiled. Examples include morphine, metoclopramide, dexamethasone, bupropion, metronidazole and omeprazole. Combining nitrazepam with other CNS depressants such as opioids is a recognised concern for additive sedation and respiratory depression, so these should be checked against the BNF.
+- **Other Considerations from the Literature**: Published reports describe residual daytime impairment, road traffic accident risk, and dependence with benzodiazepine hypnotics.
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-A blocking data gap (missing label warnings/contraindications, DG001) prevents completion of the S1 safety review, regardless of the strength of the efficacy signal. In addition, no registered clinical trials support the insomnia indication, and the predicted "new" indication appears to substantially overlap with nitrazepam's already-established hypnotic use, raising the question of whether this represents genuine repurposing.
+The top prediction duplicates nitrazepam's existing insomnia use, so it is not a repurposing opportunity. The other two predictions have no trials or literature and rest on the model alone, and the Wernicke-Korsakoff prediction carries a potential safety concern.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain SmPC/label warnings and contraindications (e.g. from MHRA)
-- Resolve DG002: confirm mechanism of action and, ideally, the drug's originally licensed indication(s)
-- Formal classification of the 20 literature items (study type/tier) to confirm the L3 evidence level
-- Confirmation of current UK marketing authorisation status for nitrazepam
-- Clarification on whether "insomnia" should be treated as a novel repurposing candidate or as recognition of existing use
+- Mechanism of action data to support mechanistic analysis
+- Full SmPC warnings and contraindications for the UK product, and confirmation of the licensed indication and authorisation number
+- Clarification of whether any genuinely new indication is of interest, since the highest-scoring prediction is already an established use
+- Preclinical or clinical evidence for the lower-ranked predictions before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

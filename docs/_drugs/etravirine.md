@@ -2,7 +2,7 @@
 layout: default
 title: Etravirine
 parent: Moderate Evidence (L3-L4)
-nav_order: 253
+nav_order: 269
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,31 +29,35 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etravirine: From HIV-1 Infection to Simian Immunodeficiency Virus (SIV) Infection
+# Etravirine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used for treatment-experienced HIV-1 infection. The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection** — a primate-only pathogen with no human clinical role — supported by **0 clinical trials** and **1 preclinical publication**, so despite a near-maximal model score this specific top-ranked signal should be read as a knowledge-graph artefact rather than an actionable human indication.
+Etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, but this prediction is supported by **no clinical trials** and only **1 preclinical publication**, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (NNRTI antiretroviral therapy in treatment-experienced adults, per trial records in the evidence pack) |
+| Original Indication | HIV infection / AIDS (the licence record held no indication text; this comes from the knowledge graph) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L4 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Etravirine is not available in this evidence pack. Based on the information present, Etravirine is an NNRTI-class antiretroviral whose efficacy against treatment-experienced HIV-1 infection is well established; mechanistically, NNRTIs act by binding the viral reverse transcriptase enzyme, so in principle any lentivirus with a structurally similar reverse transcriptase could be susceptible.
+Currently, detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI active against HIV-1, and its efficacy in HIV infection is established. Mechanistically, it could in principle be applicable to a related lentivirus such as SIV.
 
-SIV is the model's rationale here: it is a primate lentivirus that is structurally homologous to HIV-1's reverse transcriptase, so an NNRTI could theoretically show cross-activity. However, SIV is an **animal model virus used in laboratory and primate research — it does not infect humans**, so there is no realistic clinical pathway from this prediction to a human therapeutic indication. The single supporting reference is an in vitro/preclinical nanoparticle drug-delivery study that is not even specific to SIV. This combination (extremely high score, essentially no supporting evidence, non-human disease target) is a hallmark of embedding-space noise rather than a genuine repurposing opportunity.
+The link is weak, however. SIV, like HIV-2, is generally intrinsically resistant to NNRTIs. The single publication retrieved concerns nanoparticle-based antiretroviral combinations against HIV, not SIV directly. The high score probably reflects the closeness of SIV to HIV in the knowledge graph rather than biological evidence. SIV infection is also a model-organism or veterinary disease, so it has no direct human clinical relevance as a repurposing target.
 
-It is worth noting that this same evidence pack contains a materially stronger, human-relevant signal further down the ranked list: **AIDS related complex** (rank 4, evidence level L2, 1 completed Phase-related trial plus 2 literature references, recommendation "Proceed with Guardrails"). That candidate sits squarely within Etravirine's known HIV-1 disease spectrum and may warrant separate evaluation, but it falls outside the scope of the rank-1 candidate discussed in this report.
+**Other predictions reviewed.** None of the other top-ranked predictions offers a stronger case:
+- **Congenital HIV** (score 99.79%, L3): a small observational report of two pregnant women treated with etravirine, darunavir and raltegravir. This is an extension of the existing HIV indication to a specific population, and is the only prediction worth following up as a research question, focused on pregnancy safety and pharmacokinetics.
+- **AIDS related complex** (99.79%): a historical term that falls within the existing HIV indication, so it is not a true repurposing opportunity.
+- **Feline AIDS, neurodevelopmental disorder, prostate fibroma, Brenner tumour, benign reproductive neoplasm, benign prostate phyllodes tumour and obsolete familial combined hyperlipidaemia**: no supporting studies and no plausible mechanism. These are most likely graph artefacts.
 
 ## Clinical Trial Evidence
 
@@ -63,27 +67,41 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | In vitro/Preclinical | Molecular pharmaceutics | Nanoparticle-based antiretroviral drug combinations for synergistic inhibition of cell-free and cell-cell HIV transmission; not SIV-specific and not a clinical study. |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preclinical / in vitro | Molecular Pharmaceutics | Nanoparticle-based antiretroviral drug combinations studied for synergistic inhibition of cell-free and cell-to-cell HIV transmission. It concerns HIV, not SIV. |
 
 ## UK Market Information
 
-No marketing authorisations are recorded in the evidence pack for this product. UK market status: **Not Marketed** (0 licences on file).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010AFAAAAAA (BNF-style code; no PL number in the data) | Etravirine 100 mg tablets | Tablet | Not stated in the available data |
+
+BNF chapter 5.3.1 (HIV infection, non-nucleoside reverse transcriptase inhibitors) is consistent with the code above. No NICE-appraised indication data were available.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (from graph relationships, not label text): chronic hepatitis C virus infection, hepatitis C virus infection, chronic hepatitis B virus infection, peripheral nervous system disease and peripheral neuropathy. These should be checked against the SmPC.
+- **Drug Interactions**: 100 interactions were recorded. The 20 reviewed include one minor and 19 moderate interactions. The main ones are:
+  - Acid-suppressing drugs: omeprazole, rabeprazole, ranitidine and cimetidine
+  - Corticosteroids: dexamethasone, betamethasone, hydrocortisone and triamcinolone
+  - Antidiabetic drugs: pioglitazone, glimepiride, chlorpropamide, saxagliptin and linagliptin
+  - Others: clarithromycin, metronidazole, aprepitant, dronabinol, eliglustat, naldemedine and naloxegol
+
+  The full list should be checked in the BNF interactions appendix and the SmPC.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN score for this candidate is very high (99.98%), the predicted indication — SIV infection — is a non-human disease with no clinical development pathway, and it is supported only by a single, non-specific preclinical publication with no clinical trial evidence. This does not meet the threshold to advance.
+The predicted SIV indication has no clinical trials and a single preclinical paper that does not address SIV. SIV is also naturally resistant to NNRTIs and is not a human disease, so there is no meaningful human repurposing opportunity.
 
 **To proceed, the following is needed:**
-- DrugBank-sourced mechanism of action data for Etravirine (currently missing, flagged as High severity in the evidence pack)
-- MHRA/SmPC warnings, contraindications and drug interaction data (currently missing, flagged as Blocking — required before any safety pre-screen)
-- If repurposing evaluation continues for this drug, redirect focus to the higher-evidence, human-relevant candidate identified in the same batch (AIDS related complex, evidence level L2), rather than the SIV signal reviewed here
+- Mechanism of action data (currently unavailable)
+- SmPC warnings and contraindications, which are needed before any safety screening can proceed
+- The approved indication text and PL number for the UK licence
+- For the congenital HIV direction: a structured review of pregnancy safety and pharmacokinetic data for etravirine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

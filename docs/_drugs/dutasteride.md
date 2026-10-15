@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Model Prediction Only (L5)
-nav_order: 228
+nav_order: 244
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,60 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dutasteride: From Unspecified Original Indication to Ambras Type Hypertrichosis Universalis Congenita
+# Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-The original licensed indication for dutasteride is not recorded in the current data pack, though the evidence pack's own mechanistic notes describe it as a type I/II 5α-reductase inhibitor that lowers dihydrotestosterone (DHT), a mechanism with established relevance to androgen-dependent conditions. The TxGNN model's top-ranked prediction is **Ambras type hypertrichosis universalis congenita**, but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the prediction as mechanistically implausible — the drug's known effect (reduced hair growth) runs in the opposite direction to the predicted indication (excessive hair growth).
+Dutasteride is a 5-alpha-reductase inhibitor, originally used to treat benign prostatic hyperplasia.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **no clinical trials and no publications** supporting this prediction. It is a graph-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in source data (see Data Gap DG002) |
+| Original Indication | Benign prostatic hyperplasia (from the knowledge graph; no approved indication text is available in the UK licence data) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.9979% |
+| TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (per data pack) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for dutasteride is marked as a data gap in this pack (DG002, High severity). However, the rationale fields attached to other predicted indications in this same evidence pack describe dutasteride as an inhibitor of type I and type II 5α-reductase, which reduces conversion of testosterone to DHT — a mechanism with well-established relevance to androgen-driven conditions such as androgenetic alopecia.
+Dutasteride inhibits type 1 and type 2 5-alpha-reductase, the enzymes that convert testosterone to dihydrotestosterone (DHT). Lowering DHT shrinks the prostate in benign prostatic hyperplasia. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
 
-Ambras type hypertrichosis universalis congenita is a rare congenital disorder associated with chromosome 8 rearrangements, causing diffuse excessive hair growth. It is not an androgen-mediated condition, and its pathophysiology has no known connection to the 5α-reductase/DHT pathway.
+The link to the predicted indication is weak. Ambras syndrome is a congenital disorder associated with genomic rearrangements affecting regulation of the *TRPS1* gene. It is not primarily driven by DHT, so 5-alpha-reductase inhibition has no clear reason to help. The very high TxGNN score reflects proximity in the knowledge graph, not demonstrated biology.
 
-Critically, the evidence pack's own repurposing rationale for this candidate states that the predicted direction is **opposite** to dutasteride's known pharmacology: dutasteride suppresses hair growth via DHT reduction, whereas hypertrichosis is a disorder of excessive hair growth. The rationale explicitly concludes there is "no mechanistic plausibility" and "no evidence," suggesting this ranking likely reflects a knowledge-graph proximity artefact (e.g. shared "hair-related" nodes) rather than a genuine pharmacological signal.
+Other predictions in the top ten (hypertrichosis, hair shaft abnormalities, hypotrichosis simplex of the scalp, diffuse alopecia areata and others) are also hair-related or unrelated disorders. Most have no trials or literature and a weak or speculative mechanistic rationale. For example, hypertrichosis is by definition androgen-independent. The only literature retrieved for any of them is a 2026 narrative review of androgenetic alopecia in women, linked to diffuse alopecia areata. It gives indirect context only and does not show efficacy in alopecia areata, which is autoimmune rather than DHT-driven.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered. ClinicalTrials.gov, ICTRP, and PubMed queries for "Dutasteride" + "Ambras type hypertrichosis universalis congenita" (dated 2026-03-26) all returned zero results (query_log IDs 2–4).
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction (Ambras type hypertrichosis universalis congenita).
 
 ## UK Market Information
 
-No marketing authorisations are recorded in this data pack (market status: not marketed; 0 licences on file). This may reflect incomplete data collection rather than confirmed regulatory status — TFDA/MHRA product labelling data collection for this drug is listed as a Blocking data gap (DG001). Prescribers should verify current UK authorisation status directly against the MHRA products database and BNF before relying on this report.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0604020B0AAAAAA (BNF-style code; no PL number in the data) | Dutasteride capsules 500 microgram | Capsule (as named in the product description) | Not stated in the data |
+
+Only one single-ingredient authorisation is recorded, and it is valid. Please confirm the full authorisation details and licensed indications in the MHRA records and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged in the knowledge graph (not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism and intraoperative floppy iris syndrome. These should be checked against the SmPC.
+- **Drug Interactions:** 100 interactions were found in total. Those rated moderate are aprepitant, cimetidine, clarithromycin, clotrimazole and miconazole. Others, rated unknown, include pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, rosiglitazone, simvastatin, morphine, doxycycline, prednisone, hydrocortisone, triamcinolone, calcitriol, mesalazine and lactulose.
+- **Developmental concern:** 5-alpha-reductase inhibitors affect androgen-dependent development, which raises concerns in any use in developmental or congenital conditions.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials or published literature support dutasteride's use in Ambras type hypertrichosis universalis congenita, and the predicted mechanism directly contradicts the drug's established pharmacology (DHT suppression reduces hair growth, whereas this condition is defined by excessive hair growth). The evidence pack's own assessment treats this as a likely knowledge-graph false positive rather than a credible repurposing signal.
+The prediction rests on knowledge-graph proximity alone, with no trials or literature. The mechanistic rationale is weak, because Ambras syndrome is a genetic disorder that is not primarily DHT-driven. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking data gap (DG001): TFDA/MHRA SmPC warnings and contraindications
-- Resolution of the High-severity data gap (DG002): confirmed mechanism of action documentation
-- Confirmation of dutasteride's original indication(s) and current UK marketing authorisation status
-- If pursuing repurposing research on this drug, consider redirecting attention to candidates with plausible mechanistic grounding — e.g. rank 8, diffuse alopecia areata, currently at evidence level L4 / decision stage S1 ("Research Question") — rather than this rank 1 candidate
+- Mechanistic or preclinical evidence that 5-alpha-reductase inhibition or DHT reduction is relevant to *TRPS1*-related hair overgrowth
+- Complete mechanism of action data
+- Safety data from the SmPC and BNF (warnings and contraindications are currently missing), including the developmental concerns noted above
+- Confirmation of the licensed indication and authorisation details from MHRA records
+- If any hair-related indication is pursued, prioritise androgen-driven conditions where the mechanism is plausible, and review the predictions with literature support first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

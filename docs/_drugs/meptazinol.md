@@ -2,7 +2,7 @@
 layout: default
 title: Meptazinol
 parent: Model Prediction Only (L5)
-nav_order: 364
+nav_order: 393
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,107 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Meptazinol: From Analgesia to Insomnia
+# Meptazinol: From Opioid Analgesia to Insomnia
 
 ## One-Sentence Summary
 
-Meptazinol is a partial mu-opioid receptor agonist analgesic, originally used for moderate to severe pain (e.g. postoperative, obstetric).
-The TxGNN model predicts it may be effective for **Insomnia**, but currently **no clinical trials or published literature** support this specific indication — the prediction score alone drives this ranking.
+Meptazinol is a partial mu-opioid agonist with cholinergic activity, marketed in the UK as a tablet; the data compiled for this report do not record a specific approved indication.
+The TxGNN model predicts it may be effective for **insomnia**, but there are **no clinical trials** and **no publications** supporting this direction.
+The evidence rests on the model prediction alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Insomnia (disease) |
+| Original Indication | Not recorded in the available authorisation data |
+| Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Not marketed — no licences on file |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
-*Note: No original approved-indication text is available in the regulatory data provided (licences list is empty). Class-level pharmacology (opioid analgesic) is used for context below.*
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Meptazinol. Based on known pharmacological classification, it is a partial mu-opioid receptor agonist analgesic, historically used for moderate to severe pain including postoperative and premedication settings. Opioids are well known to produce central nervous system sedation, which is the presumed (but unverified) basis for the TxGNN model linking Meptazinol to insomnia.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, meptazinol is a partial mu-opioid agonist with additional cholinergic activity. It is used as an analgesic, although its approved indication is not recorded in the authorisation data available here.
 
-However, this mechanistic rationale is inferred purely from drug-class characteristics rather than from any direct study of Meptazinol in sleep disorders. Of the ten TxGNN-predicted indications in this evidence pack, only one — **anxiety** (ranked 5th, score 96.0%) — has any supporting literature at all, consisting of three older studies (1982–1986) describing sedative and premedication effects. The top-ranked prediction, insomnia, has no clinical trial or literature evidence whatsoever, meaning the mechanistic plausibility described above remains speculative and should not be treated as validated.
+A mechanistic rationale for insomnia is weak. Sedation is a side effect of opioids, not a therapeutic rationale, and opioids can disrupt sleep architecture. The high TxGNN score (99.63%) should therefore be treated as a hypothesis-generating signal only.
 
-Given the absence of a confirmed original indication, missing MOA data, and no safety/warning information, this candidate sits at an early, largely theoretical stage of evaluation.
+Other predicted indications were also reviewed. All have the same lack of trial evidence:
+
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Neurocirculatory asthenia | 97.12% | L5 | Overlaps with anxiety-spectrum conditions; no direct link to meptazinol |
+| Irritable bowel syndrome | 96.36% | L5 | Opioid receptors modulate gut motility and visceral pain, but mu-opioid agonism may worsen constipation and abdominal symptoms |
+| Anxiety disorder | 96.18% | L5 | No specific trials or literature |
+| Anxiety | 96.02% | L4 | Two 1982–1983 perioperative publications (indirect evidence) |
+| Sleep disorder, initiating and maintaining sleep | 95.91% | L5 | Essentially the same concept as insomnia |
+| Agoraphobia | 95.70% | L5 | No documented rationale |
+| Dysthymic disorder | 95.51% | L5 | Opioid involvement in mood is theoretical and untested for meptazinol |
+| Benign paroxysmal torticollis of infancy | 95.28% | L5 | Rare paediatric condition; opioid use in infants raises significant safety concerns |
+| Enterocolitis | 95.22% | L5 | Opioids may reduce motility and could be harmful in infectious or inflammatory enterocolitis |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for insomnia or for any of the other predicted indications.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for insomnia.
+
+The only publications identified relate to the lower-ranked prediction of **anxiety**. They are indirect evidence only, and their titles alone were available, so study design and outcomes could not be verified:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7117680](https://pubmed.ncbi.nlm.nih.gov/7117680/) | 1982 | Randomised, double-blind trial (101 surgical patients) | J Int Med Res | Meptazinol-hyoscine was compared with an Omnopon-hyoscine premedication. Both reduced blood pressure and respiratory rate to a similar extent and produced similar sedation, which the authors interpreted as satisfactory alleviation of anxiety. |
+| [6135885](https://pubmed.ncbi.nlm.nih.gov/6135885/) | 1983 | Clinical study (unclassified) | Lancet | Meptazinol-midazolam combination for postoperative analgesia and sedation. Effects may be confounded by midazolam, a benzodiazepine. |
+
+These perioperative studies do not demonstrate treatment of anxiety as a chronic condition, nor of insomnia.
+
+---
 
 ## UK Market Information
 
-No marketing authorisations are on file for Meptazinol; the drug is not currently marketed in the UK.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407020L0AAABAB | Meptazinol HCl Tab 200mg | Tablet (200 mg) | Not recorded |
+
+One valid single-ingredient authorisation is recorded. The record does not include manufacturer, dosage form detail or indication text. The identifier shown does not follow the usual PL number format, so it should be verified against MHRA and BNF sources.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Safety data (warnings, contraindications, drug interactions) could not be retrieved for this drug. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+Points to consider from general opioid pharmacology, which are not drawn from label data:
+- Opioids can disrupt sleep architecture and cause respiratory depression, which is a particular concern for any hypnotic use.
+- Mu-opioid agonism may worsen constipation and abdominal symptoms, which is relevant to the irritable bowel syndrome and enterocolitis predictions.
+- Opioid use in infants carries significant safety concerns, which is relevant to the paediatric torticollis prediction.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (insomnia) has no clinical trial or literature support (Evidence Level L5), and critical drug-level data — mechanism of action and product labelling warnings/contraindications — are both flagged as data gaps, one of which (labelling) is a **blocking** gap that prevents any initial safety assessment (S1). The drug is also not currently marketed in the UK, with no licence records available.
+The insomnia prediction rests on the model score alone (Evidence Level L5). There are no trials or publications, and the pharmacology argues against benefit, because opioids can impair sleep quality. The only literature relates to perioperative anxiety and is indirect.
 
 **To proceed, the following is needed:**
-- Product labelling/SmPC warnings and contraindications (currently blocking gap, DG001)
-- Confirmed mechanism of action data (DG002)
-- Confirmed original approved indication(s) for regulatory context
-- Any preclinical or mechanistic literature specifically linking Meptazinol to sleep disorders
-- If pursuing further research, the anxiety indication (L4, three historical studies) is the only candidate among the ten with any evidentiary basis and may warrant a scoping review before insomnia is prioritised
+- Confirmation of the approved indication and SmPC from MHRA and BNF sources
+- Mechanism of action data and a plausible biological rationale linking meptazinol to sleep regulation
+- Safety information (warnings, contraindications, interactions), including respiratory depression and dependence risk
+- Preclinical or early-phase clinical evidence in insomnia, ideally with polysomnography outcomes
+- Review of the full text of the 1982–1983 perioperative studies, if anxiety or sedation is to be pursued further
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

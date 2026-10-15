@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mesalazine
-parent: Moderate Evidence (L3-L4)
-nav_order: 367
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 396
+evidence_level: L5
 indication_count: 7
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Mesalazine: From Ulcerative Colitis to Rheumatoid Arthritis
+# Mesalazine: From Ulcerative Colitis to Congenital Hypotrichosis with Juvenile Macular Dystrophy
 
 ## One-Sentence Summary
 
-Mesalazine (5-ASA) is an anti-inflammatory agent whose established use, referenced throughout this evidence pack, is inflammatory bowel disease (ulcerative colitis). TxGNN's highest-scoring predictions (e.g. congenital hypotrichosis, seborrheic keratosis) have no supporting evidence and are flagged **Hold**; among predictions with actual evidence, **rheumatoid arthritis** currently has the most developed evidence base — **6 clinical trials** (mostly on the parent compound sulfasalazine, several terminated or off-target) — while **osteoarthritis** is supported only by preclinical/mechanistic literature.
+Mesalazine (5-aminosalicylic acid) is an anti-inflammatory drug originally used to treat ulcerative colitis and other inflammatory bowel conditions.
+The TxGNN model predicts it may be effective for **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** currently support this prediction. The score is a graph-based prediction only.
 
 ---
 
@@ -41,60 +42,63 @@ Mesalazine (5-ASA) is an anti-inflammatory agent whose established use, referenc
 
 | Item | Content |
 |------|------|
-| Original Indication | Not separately listed in the regulatory dataset; mesalazine's established use (referenced repeatedly in this pack) is ulcerative colitis / inflammatory bowel disease |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed (per this evidence pack) |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the licence record held no indication text) |
+| Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
+| TxGNN Prediction Score | 99.65% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for mesalazine is not available (data gap DG002). Based on what is known, mesalazine is the active metabolite of sulfasalazine, an anti-inflammatory agent used in inflammatory bowel disease. Sulfasalazine itself is an established conventional DMARD for rheumatoid arthritis, acting through inhibition of NF-κB signalling and suppression of prostaglandin and leukotriene synthesis — the same pathways implicated in mesalazine's gut-directed anti-inflammatory action. This shared pharmacology is the biological basis for TxGNN linking mesalazine to RA.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mesalazine is an aminosalicylate with anti-inflammatory activity (COX/LOX inhibition, PPAR-gamma activation and NF-kB modulation). Its efficacy in ulcerative colitis is well established.
 
-However, an important caveat runs through the evidence: most of the RA-related trials in this pack actually studied **sulfasalazine (the parent drug)**, not mesalazine (the active metabolite) itself, and several are mislabelled or off-target (e.g. ulcerative colitis or AML studies incorrectly mapped to RA). Only one trial (NCT02930343) directly compares sulfasalazine-based combination DMARD therapy in RA, and it was terminated. This means the RA signal should be read as "class-level plausibility via the parent drug," not as direct mesalazine efficacy evidence.
+The predicted indication is an ultra-rare genetic disorder caused by CDH3 (cadherin-3) mutations, affecting hair follicle and retinal development. It is a structural defect, not an inflammatory disease. We could identify no plausible mechanistic link between mesalazine's anti-inflammatory action and this condition.
 
-A related, independently-scored prediction — osteoarthritis (not the primary focus of this report, evidence level L4) — offers additional mechanistic support: a 2024 *Nature Communications* study reports that 5-ASA suppresses osteoarthritis via the OSCAR–PPARγ axis, reinforcing the general idea that 5-ASA's anti-inflammatory activity may extend beyond the gut to joint disease. This strengthens the plausibility of the broader "5-ASA in joint inflammation" hypothesis, even though it does not directly evidence RA.
+The high score (0.996) should be read as a statistical artefact of the knowledge graph, not as evidence of benefit. For context, the other top-ranked predictions are also weakly supported:
+
+- **Osteoarthritis (rank 2):** only a computational target-identification paper, with no clinical data. Oral mesalazine acts mostly locally in the colon, with low systemic exposure.
+- **Rheumatoid arthritis (rank 3):** indirect evidence from sulfasalazine, which releases mesalazine. Its antirheumatic effect is generally attributed to the sulfapyridine moiety or the intact parent compound, not mesalazine. Mesalazine alone has not been shown to work in rheumatoid arthritis.
+- **Seborrheic keratosis, osteoarthritis susceptibility, vulvar inverted follicular keratosis and pseudoachondroplasia (ranks 4-7):** no trials, no literature and no plausible mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02930343](https://clinicaltrials.gov/study/NCT02930343) | Phase 3 | Terminated | 136 | Sulfasalazine vs leflunomide-based combination DMARD therapy in RA patients failing methotrexate monotherapy — most directly relevant trial, but terminated before completion |
-| [NCT00637780](https://clinicaltrials.gov/study/NCT00637780) | Phase 4 | Terminated | 2 | Pharmacokinetics of sulfasalazine delayed-release tablets in children with juvenile idiopathic arthritis (PK only, not an efficacy trial; terminated with only 2 subjects) |
-| [NCT05580861](https://clinicaltrials.gov/study/NCT05580861) | Phase 1/2 | Recruiting | 64 | Sulfasalazine combined with standard induction therapy in acute myeloid leukaemia (xCT-inhibition mechanism; unrelated to RA indication) |
-| [NCT03591770](https://clinicaltrials.gov/study/NCT03591770) | Phase 4 | Terminated | 15 | Shingrix vaccine immunogenicity in ulcerative colitis patients on tofacitinib — mislabelled match, not RA-relevant |
-| [NCT00514982](https://clinicaltrials.gov/study/NCT00514982) | Phase 2 | Withdrawn | 0 | Observational study of IBD-type therapy in Hermansky-Pudlak syndrome-associated colitis — withdrawn, not RA-relevant |
-| [NCT06201793](https://clinicaltrials.gov/study/NCT06201793) | Phase 2 | Completed | 46 | Minocycline efficacy/safety in ulcerative colitis patients treated with mesalamine — a UC study, not RA-relevant |
-
-**Note:** Only NCT02930343 is a genuine RA efficacy trial, and it was terminated. The remaining trials are either off-target (UC, AML) or non-efficacy (PK) studies that appear to have been matched on drug name rather than indication.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature specifically evaluating mesalazine (or sulfasalazine) in rheumatoid arthritis was identified in this evidence pack.
-
-*(For context: a separate TxGNN prediction for osteoarthritis is supported by 3 mechanistic/preclinical publications, including a 2024 Nature Communications paper on the OSCAR–PPARγ axis — see "Why is This Prediction Reasonable" above.)*
+Currently no related literature available for the predicted indication.
 
 ---
 
 ## UK Market Information
 
-No marketing authorisations are recorded in this evidence pack (0 licences); market status is listed as **Not marketed**.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0105010B0AAAIAI (BNF section 1.5.1 code) | Mesalazine 500 mg modified-release tablets | Modified-release tablet | Not recorded in the data compiled |
+
+Mesalazine sits in BNF chapter 1.5 (aminosalicylates for inflammatory bowel disease). The identifier above appears to be a BNF-style product code rather than a standard MHRA PL number, so the PL number should be confirmed against the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and warnings from the labelling:** not available in the data compiled for this report. Please refer to the SmPC and BNF.
+- **Conditions linked to mesalazine by the knowledge graph (not label text):** kidney disease, pyoureter, liver disease, gallbladder disease, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), pyloric stenosis, lipoid nephrosis and interstitial nephritis. These indicate a need for caution, especially around renal, hepatic and haematological monitoring, and should be verified against the SmPC.
+- **Drug interactions (100 recorded; examples):**
+  - **Major:** cidofovir; human botulinum neurotoxin A/B immune globulin.
+  - **Moderate:** NSAIDs (ketorolac, ibuprofen, celecoxib, bromfenac); nephrotoxic agents (acyclovir, amphotericin B and its lipid formulations, amikacin, bacitracin, capreomycin, cisplatin); azathioprine; sulfonylureas (acetohexamide, chlorpropamide); anisindione.
+  - Many of these relate to additive nephrotoxicity or myelosuppression.
+- **Pharmacovigilance literature on 5-ASA:** case reports describe 5-ASA-induced colitis and DRESS syndrome with acute renal failure.
 
-*(Note: key warnings, contraindications and drug-drug interaction data are recorded as a blocking data gap in this evidence pack — see Conclusion below.)*
+Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -103,14 +107,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- A blocking data gap exists (missing product label warnings/contraindications), which prevents any initial safety assessment (S1) regardless of indication.
-- Even the best-evidenced candidate, rheumatoid arthritis (L3, decision stage S2, "Research Question"), rests mainly on trials of the parent compound sulfasalazine rather than mesalazine itself, and the single directly relevant Phase 3 trial was terminated. The other four top-ranked TxGNN predictions (congenital hypotrichosis, seborrheic keratosis, OA susceptibility, vulvar inverted follicular keratosis, pseudoachondroplasia) have no supporting evidence and no plausible mechanistic link.
+The prediction rests only on a graph-based score. There are no trials or publications, and no plausible mechanism links mesalazine to a CDH3-related genetic disorder of hair and retina. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Product label / SmPC data (warnings, contraindications, DDI) to clear the blocking safety data gap
-- Mechanism of action data for mesalazine specifically (distinct from sulfasalazine)
-- Direct mesalazine (not sulfasalazine) clinical trial data in rheumatoid arthritis or osteoarthritis
-- Clarification of whether the high-scoring but evidence-free predictions (hypotrichosis, keratosis conditions, pseudoachondroplasia) reflect genuine embedding signal or model artefact, before further resource is committed to this candidate
+- A credible mechanistic hypothesis, supported by preclinical data (for example, cell or animal models of CDH3 deficiency)
+- Mechanism of action data for mesalazine
+- Complete SmPC warnings and contraindications, and confirmation of the MHRA licence details and approved indication
+- Clinical or case-level evidence in the target population, given that the condition is ultra-rare
+- If repurposing is pursued, prioritise predictions with clinical rationale, such as inflammatory joint disease, over this lower-plausibility candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

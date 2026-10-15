@@ -2,7 +2,7 @@
 layout: default
 title: Castor Oil
 parent: Model Prediction Only (L5)
-nav_order: 134
+nav_order: 138
 evidence_level: L5
 indication_count: 0
 ---

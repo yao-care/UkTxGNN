@@ -2,7 +2,7 @@
 layout: default
 title: Dabigatran Etexilate
 parent: Model Prediction Only (L5)
-nav_order: 189
+nav_order: 201
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Dabigatran Etexilate: From Thromboembolic Disease Prevention to Sclerosing Cholangitis
+# Dabigatran etexilate: From Anticoagulation to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Dabigatran etexilate is the oral prodrug of dabigatran, a direct thrombin (Factor IIa) inhibitor used to prevent and treat thromboembolic disease; detailed original-indication data was not present in this evidence pack, so this characterisation draws on general drug-class knowledge rather than the source data. The TxGNN model predicts it may be effective for **Sclerosing Cholangitis**, but this is currently supported by **0 clinical trials** and only **1 tangentially related publication**, with no direct evidence linking the drug's mechanism to this disease.
+Dabigatran etexilate is an oral direct thrombin inhibitor (anticoagulant) with a marketed UK product.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**,
+but the data compiled for this report contain **no relevant clinical trials** and **only 1 publication, which does not address efficacy**. The signal is a computational prediction only.
 
 ---
 
@@ -41,29 +43,29 @@ Dabigatran etexilate is the oral prodrug of dabigatran, a direct thrombin (Facto
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the available data (general drug-class knowledge: prevention/treatment of thromboembolic disease) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the UK licence data compiled for this report (the product is a direct thrombin inhibitor anticoagulant) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (per source data — total authorisations on record: 0) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on general knowledge, dabigatran etexilate is a prodrug that is converted to dabigatran, a direct, reversible inhibitor of thrombin (Factor IIa), used to reduce thrombus formation in conditions such as stroke prevention in atrial fibrillation and venous thromboembolism.
+Detailed mechanism of action data are not available in the data compiled for this report. Dabigatran is, however, a well-known direct thrombin inhibitor, and its established use is in anticoagulation.
 
-Sclerosing cholangitis is a chronic, immune-mediated/inflammatory fibrosing disease of the bile ducts. There is no established pathophysiological link between thrombin inhibition and biliary fibrosis or cholestatic inflammation, and the evidence pack's own repurposing rationale explicitly states that no known mechanistic connection exists between the two.
+A theoretical link to sclerosing cholangitis exists through thrombin signalling (PAR-1) in the activation of hepatic stellate cells and in liver fibrosis, which could be relevant to cholestatic fibrosis. This remains a hypothesis. No clinical or preclinical evidence in the data supports it.
 
-The single literature record retrieved (PMID 36906733) does not support the prediction directly: it is a pharmacokinetic drug-drug interaction methodology paper for cilofexor (an FXR agonist being developed for sclerosing cholangitis), in which dabigatran is mentioned only as a probe substrate for CYP450/transporter interaction testing — not as a treatment being evaluated for this disease. On the evidence currently available, this prediction should be regarded as a model-driven signal only, without mechanistic or clinical corroboration.
+The one publication retrieved (PMID 36906733) is about the drug-drug interaction profile of cilofexor, a different compound, and does not assess dabigatran. The high TxGNN score should therefore be treated as a hypothesis-generating signal only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for sclerosing cholangitis.
 
 ---
 
@@ -71,19 +73,26 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | Review (PK/DDI methodology) | Clinical Pharmacokinetics | Evaluates drug-drug interaction potential of cilofexor (an FXR agonist in development for sclerosing cholangitis/NASH); dabigatran is referenced only as a probe substrate for CYP450/transporter interaction testing, not as a treatment for the disease itself |
+| [36906733](https://pubmed.ncbi.nlm.nih.gov/36906733/) | 2023 | In vitro/DDI pharmacology study | Clinical Pharmacokinetics | Evaluates cytochrome P450 and transporter-mediated drug interaction potential of cilofexor, an FXR agonist in development for NASH and primary sclerosing cholangitis. It does not study dabigatran or its efficacy. |
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation records for dabigatran etexilate were identified in the data source used for this evaluation (0 authorisations on record). This should be independently verified against the current MHRA product register and the electronic Medicines Compendium (eMC), as this status may reflect a data-source limitation rather than confirmed non-marketing.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0208020X0AAAAAA | Dabigatran Etexilate Cap 75mg | Not recorded | Not recorded |
+
+The licence record is a single, valid, single-ingredient product. The identifier appears to be a BNF-style product code (BNF chapter 2, section 8: oral anticoagulants) rather than a standard PL number. Approved indication text and dosage form were not available.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged in the knowledge graph** (drug-disease contraindication links, not label text): blood coagulation disease, anaemia, macrocytic anaemia, intracerebral haemorrhage. These should be verified against the SmPC.
+- **Bleeding risk**: As an anticoagulant, dabigatran would be expected to increase bleeding risk. This is a particular concern in conditions with a bleeding tendency.
+
+Please refer to the SmPC and BNF for full warnings, contraindications and interactions. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -92,13 +101,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- No clinical trials and no directly relevant literature support dabigatran etexilate for sclerosing cholangitis; the single retrieved publication does not evaluate the drug for this indication. The evidence pack's own mechanistic assessment finds no known biological link between thrombin inhibition and biliary fibrosis, so the high TxGNN score is not currently corroborated by independent evidence.
+The prediction rests on a model score alone (evidence level L5). There are no relevant trials, and the only publication is unrelated to dabigatran efficacy. The mechanistic rationale is theoretical.
 
 **To proceed, the following is needed:**
-- Confirmation of UK marketing authorisation status directly from the MHRA/eMC register
-- Original indication and MOA data for dabigatran etexilate (currently flagged as data gaps in this evidence pack)
-- Preclinical or mechanistic studies specifically testing a rationale for thrombin inhibition in cholangitis/biliary fibrosis before further evaluation is warranted
-- SmPC-derived warnings, contraindications and drug interaction data for a formal safety assessment (S1 stage)
+- Preclinical evidence (for example, thrombin/PAR-1 inhibition in cholestatic liver fibrosis models)
+- Retrieval of the SmPC and BNF safety information, including contraindications and interactions
+- Confirmation of the licensed indications and dosage form for the UK product
+- A review of safety in hepatobiliary disease, given bleeding risk and the knowledge-graph contraindication signals
+- A detailed mechanism of action summary to support the mechanistic-link analysis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

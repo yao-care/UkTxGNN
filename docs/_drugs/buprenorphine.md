@@ -2,7 +2,7 @@
 layout: default
 title: Buprenorphine
 parent: Moderate Evidence (L3-L4)
-nav_order: 111
+nav_order: 115
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,87 +29,84 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Buprenorphine: From Opioid Dependence and Pain Management to Acute Intermittent Porphyria
+# Buprenorphine: From Opioid Dependence to Acute Intermittent Porphyria
 
 ## One-Sentence Summary
 
-Buprenorphine is a partial μ-opioid receptor agonist and κ-opioid receptor antagonist, widely used in clinical practice for opioid use disorder and moderate-to-severe pain management.
-The TxGNN model predicts it may be effective for **Acute Intermittent Porphyria (AIP)**,
-with **no registered clinical trials** and only **1 published case report** currently available to support this direction.
-
----
+Buprenorphine is a partial opioid agonist, originally used to treat opioid dependence.
+The TxGNN model predicts it may be effective for **acute intermittent porphyria**,
+but there are **no registered clinical trials** and only **1 publication** (a 1993 case report on anaesthetic management, which does not show therapeutic benefit).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Opioid dependence; moderate-to-severe pain management |
-| Predicted New Indication | Acute Intermittent Porphyria |
+|------|------|
+| Original Indication | Opioid dependence (approved indication text not available in the licence record; taken from the drug's known indications: opioid dependence, substance abuse/dependence, morphine dependence) |
+| Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L4 |
-| UK Market Status | Not recorded in this dataset |
-| Number of Marketing Authorisations | 0 (per dataset) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available within this dataset. Based on established pharmacological knowledge, buprenorphine is a high-affinity partial agonist at the μ-opioid receptor (MOR), an antagonist at the κ-opioid receptor (KOR), and an antagonist at the ORL1/nociceptin receptor. Its unusually slow receptor dissociation kinetics and ceiling effect on respiratory depression distinguish it from full opioid agonists, underpinning its clinical utility in both opioid use disorder treatment and analgesia.
+Currently, detailed mechanism of action data is not available. Based on known information, buprenorphine is a partial mu-opioid receptor agonist (and kappa antagonist) whose efficacy in opioid dependence is established.
 
-Acute Intermittent Porphyria is a rare autosomal dominant metabolic disorder caused by a deficiency of hydroxymethylbilane synthase (HMBS), leading to the accumulation of neurotoxic porphyrin precursors — aminolaevulinic acid (ALA) and porphobilinogen (PBG) — during acute attacks. Clinical manifestations include severe abdominal pain, autonomic dysfunction, peripheral neuropathy, and neuropsychiatric disturbance, all of which involve pain pathways where opioid receptors are physiologically active. The severe pain of AIP attacks frequently requires opioid analgesia.
-
-The biological rationale for buprenorphine in AIP rests primarily on its **low porphyrogenicity** relative to many other analgesic and anaesthetic agents. Many commonly used drugs — including barbiturates, some anticonvulsants, and certain opioids — are known to precipitate AIP attacks by inducing hepatic cytochrome P450 enzymes and upregulating haem synthesis. Buprenorphine, being considered low-risk for porphyria induction, becomes a pragmatic pain management choice in this population. This constitutes a **supportive symptomatic use** rather than a mechanistic repurposing targeting the underlying metabolic defect. There is currently no proposed mechanism by which buprenorphine would correct the enzymatic deficiency or reduce porphyrin precursor accumulation.
-
----
+There is no established mechanistic link between buprenorphine and the pathophysiology of acute intermittent porphyria, which is a heme biosynthesis disorder caused by porbilinogen deaminase (PBGD) deficiency. Opioids are sometimes used to control the severe pain of acute porphyria attacks, which may explain the association in the knowledge graph. However, that is symptom relief, not disease modification. The high TxGNN score is a network-based prediction without clinical support, and it should be read with caution.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case Report | Masui – The Japanese Journal of Anesthesiology | A 40-year-old woman with suspected AIP underwent modified radical hysterectomy. Buprenorphine was selected for perioperative analgesia on the basis of its comparatively low risk of precipitating a porphyric attack, providing a safety description rather than therapeutic evidence for AIP itself. |
-
----
+|------|-----|------|------|---------|
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Case report | Masui (Japanese Journal of Anesthesiology) | Anaesthetic management of a woman with suspected acute intermittent porphyria undergoing gynaecological cancer surgery. It concerns safe perioperative drug use, not therapeutic benefit. |
 
 ## UK Market Information
 
-This dataset records no MHRA marketing authorisations for buprenorphine. **This is likely a data gap**: buprenorphine-containing products (e.g. Subutex, Suboxone, Buvidal, Norspan) are known to hold MHRA authorisations in the United Kingdom. Clinicians should verify current authorisation status via the MHRA Product Information database and consult the British National Formulary (BNF Section 4.10.3 – Opioid dependence; and BNF Section 4.7 – Analgesics) for prescribing guidance.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407020B0AAABAB | Buprenorphine sublingual tablets 200 microgram (sugar-free) | Sublingual tablet | Not available in the data compiled for this report |
 
----
+Note: the identifier shown is a product code in the compiled data, not a standard MHRA "PL" number. Please verify it against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged in the knowledge graph as contraindications or cautions** (not label text, so check against the SmPC): respiratory failure, chronic obstructive pulmonary disease, liver disease (including chronic hepatitis B and C), long QT syndrome and torsades de pointes, orthostatic hypotension, adrenocortical insufficiency (Addison disease), hypothyroidism and myxoedema, paralytic ileus and intestinal obstruction, benign prostatic hyperplasia, urethral stricture, gallbladder disease, raised intracranial pressure (pseudotumour cerebri), and drug dependence or substance-related disorders.
+- **Drug interactions** (100 recorded; examples below):
+  - **Major:** morphine, alvimopan, bupropion, cisapride, dolasetron
+  - **Moderate:** famotidine, cimetidine, loperamide, hyoscyamine, atropine, glycopyrronium, dexamethasone, aprepitant, clarithromycin, clotrimazole, bisacodyl
+- **Porphyria-specific note:** the safety of buprenorphine in porphyria is not well established, so any use would need caution.
 
-> **Note for AIP context**: In patients with AIP, particular caution is required when selecting any drug, as numerous commonly used agents — including certain analgesics, anaesthetics, anticonvulsants, and hormonal preparations — are known to precipitate acute attacks. Buprenorphine is generally regarded as lower risk in this regard, but prescribers should verify current guidance from the European Porphyria Network (EPNET) drug database before initiating any new medicine in a confirmed AIP patient.
-
----
+Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only available evidence is a 1993 Japanese case report describing perioperative anaesthetic management in a patient with suspected AIP. This demonstrates the *safety* of buprenorphine use in the context of AIP rather than any therapeutic efficacy targeting the disease itself. No clinical trials exist, and the mechanistic link to AIP pathophysiology remains entirely uncharacterised.
+The prediction rests on a network score alone. There are no clinical trials, the only publication is a case report on perioperative safety, and no plausible disease-modifying mechanism has been identified.
 
 **To proceed, the following is needed:**
+- Mechanism of action data and a credible biological link to heme biosynthesis or porphyria attack pathophysiology
+- Preclinical or clinical evidence of benefit beyond analgesia
+- Porphyria-specific safety review (including porphyrinogenic potential)
+- Complete MHRA licence details (approved indications, SmPC warnings and contraindications)
 
-- **Clarify the repurposing hypothesis**: distinguish between (a) optimising opioid choice for symptomatic pain control during AIP attacks — where evidence exists for opioids broadly — and (b) a novel disease-modifying hypothesis, which currently has no mechanistic basis
-- **Retrieve mechanism of action data** from DrugBank (DB00921) and published literature to determine whether any aspect of buprenorphine's receptor pharmacology could plausibly interact with haem biosynthesis or AIP pathophysiology
-- **Conduct a systematic literature review** of opioid use in AIP, comparing porphyrogenicity risk profiles across available agents, to contextualise buprenorphine's position
-- **Verify UK marketing authorisation status** via the MHRA database to confirm currently approved indications and formulations available in the UK
-- **Consult EPNET drug classification** to confirm buprenorphine's current porphyria safety classification before any clinical recommendation is made
-- If a disease-modifying hypothesis is identified, **preclinical validation** (e.g. HMBS-deficient mouse models or ALA/PBG biomarker studies) would be required before any clinical evaluation is considered
+### Other predicted indications (for reference)
 
----
+All were assessed as **Hold**:
 
-*This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All content should be reviewed by a qualified clinician before informing patient care decisions.*
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| Lingual-facial-buccal dyskinesia | 99.32% | L4 | The literature does not test buprenorphine for dyskinesia. Some papers describe opioid-induced myoclonus or hyperexcitability as adverse effects. |
+| Chronic tic disorder | 99.13% | L5 | Prediction only, with no trials or literature. |
+| Continuous spikes and waves during sleep | 99.05% | L5 | Prediction only. Opioids can lower seizure threshold in some settings, a potential safety concern. |
+| Benign shuddering attacks | 99.03% | L5 | Prediction only. The condition is benign and self-limiting, so an opioid would have an unfavourable risk-benefit balance. |
+| Extrapyramidal and movement disease | 99.03% | L5 | Prediction only. A broad category, and the score appears driven by shared graph neighbours. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

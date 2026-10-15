@@ -2,7 +2,7 @@
 layout: default
 title: Tolcapone
 parent: Model Prediction Only (L5)
-nav_order: 583
+nav_order: 625
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,79 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolcapone: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Tolcapone: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-> Tolcapone is a COMT (catechol-O-methyltransferase) inhibitor originally used as an adjunct to levodopa therapy in Parkinson's disease.
-> The TxGNN model's top-ranked prediction is **Rasmussen Subacute Encephalitis**, but this is currently supported by **no clinical trials** and **no published literature**, and the model's own rationale flags it as biologically implausible.
-
----
+Tolcapone is a catechol-O-methyltransferase (COMT) inhibitor, originally used to treat Parkinson disease.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but there are currently **no clinical trials and no publications** supporting this direction, so it rests on a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (adjunct to levodopa) |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
+| Original Indication | Parkinson disease (the licence record held no approved indication text, so this is taken from the drug's known indications) |
+| Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for tolcapone is not available as a formal record in this Evidence Pack. However, based on the model's own repurposing rationale, tolcapone is understood to be a peripheral/central COMT inhibitor acting on the dopamine metabolism pathway, and it has historically been used as an adjunct to levodopa in Parkinson's disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tolcapone is a COMT inhibitor that prolongs the availability of levodopa and dopamine in the brain. Its efficacy in Parkinson disease is established, and this is a symptomatic dopaminergic effect.
 
-For the top-ranked candidate, **Rasmussen Subacute Encephalitis**, the mechanistic rationale provided by the model itself is weak: Rasmussen encephalitis is a T-cell-mediated autoimmune inflammatory encephalopathy with no known relationship to catecholamine metabolism. The model's high confidence score is most likely driven by co-occurrence of neurological nodes within the knowledge graph rather than genuine biological plausibility, and this is explicitly acknowledged in the supplied rationale.
+Rasmussen encephalitis is a rare, immune-mediated, unilateral inflammatory disease of the brain, typically causing refractory seizures and progressive neurological decline. No plausible mechanistic link between COMT inhibition and this condition can be established from the data supplied. The high TxGNN score (99.93%) is a graph-based association and may reflect shared neurological network connections in the knowledge graph rather than true biology.
 
-Notably, among the ten candidates in this Evidence Pack, the **lowest-scoring** candidate (rank 10, "paralysis agitans, juvenile, of Hunt" — an historical term for juvenile-onset Parkinson's disease) shows the **strongest mechanistic coherence** with tolcapone's established pharmacology, since COMT inhibition would be expected to prolong levodopa/dopamine availability in this population. This illustrates that TxGNN ranking by score alone should not be taken as a proxy for clinical plausibility, and any further evaluation should prioritise mechanistically coherent candidates over the highest raw score.
-
----
+The predictions ranked 2 to 10 follow a similar pattern. Most have no supporting studies (for example myelitis, transaldolase deficiency, fructose-1,6-bisphosphatase deficiency and several rare neurodevelopmental syndromes). Two are worth noting:
+- **Lewy body dementia** (score 99.64%, evidence level L4) shares dopaminergic dysfunction and alpha-synuclein pathology with Parkinson disease. The only supporting item is one 2024 preclinical iPSC organoid study, so this remains a research question.
+- **Paralysis agitans, juvenile, of Hunt** (score 99.52%) is a historical term for juvenile parkinsonism. It is likely a relabelling of an existing indication rather than a true repurposing candidate.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Rasmussen subacute encephalitis.
 
----
+For the related prediction of Lewy body dementia, one preclinical publication was identified: [39259788](https://pubmed.ncbi.nlm.nih.gov/39259788/) (2024, *Science Advances*), which modelled Lewy body disease using SNCA-triplication iPSC-derived cortical organoids and screened for therapeutic compounds. It is indirect, preclinical evidence only.
 
 ## UK Market Information
 
-No UK marketing authorisations are currently held for tolcapone in this dataset. Market status is recorded as **Not marketed**, with **0** total licences on file.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0409010S0AAAAAA | Tolcapone tablets 100 mg | Tablet | Not stated in the data compiled |
 
----
+The data compiled for this report show one valid single-ingredient authorisation. The identifier shown does not follow the usual MHRA "PL" format, so check it against the MHRA database. Please confirm the current licensed indication and BNF classification in the SmPC and BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications from the knowledge graph** (these are graph associations, not label text): liver disease, gallbladder disease, melanoma, hypotensive disorder, rhabdomyolysis, nodular fasciitis, tardive dyskinesia and lingual-facial-buccal dyskinesia.
+- **Drug Interactions**: 65 interactions were identified in total. Examples of those listed:
+  - **Major**: methylene blue.
+  - **Moderate**: epinephrine (including ophthalmic and topical forms), morphine (including liposomal), opium, codeine, dronabinol, nabilone, naltrexone, metoclopramide, promethazine, chlorpheniramine, cetirizine, dextromethorphan and ethanol.
+  - **Minor**: warfarin and dicoumarol.
+  - **Unknown severity**: omeprazole.
+- **Known concerns**: tolcapone carries a recognised risk of hepatotoxicity, which would require liver monitoring and is particularly relevant to the metabolic-liver diseases among the predictions. This is general knowledge, as label warning text was not available in the data compiled.
 
-**Note from model rationale:** Several of the model's repurposing rationales (for candidates ranked 6 and 10) independently reference tolcapone's known hepatotoxicity risk, historically associated with a boxed warning in other jurisdictions. This has not been formally verified in this Evidence Pack (see data gap DG001 below) but should be treated as a material safety signal pending confirmation from the SmPC.
-
----
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- All ten predicted indications are rated **L5** (model prediction only, no supporting clinical trials or literature), and the recommendation field in the Evidence Pack itself marks every candidate as "Hold."
-- A **Blocking** data gap (DG001: missing MHRA/SmPC warnings and contraindications) prevents this drug from entering the safety initial screening stage (S1) for any indication.
-- The top-ranked candidate (Rasmussen encephalitis) has a mechanistic rationale explicitly flagged as low-plausibility by the model itself, and no UK marketing authorisation currently exists for tolcapone.
+The prediction for Rasmussen subacute encephalitis rests on a model score alone, with no clinical trials, no publications and no plausible mechanistic link to COMT inhibition. Combined with tolcapone's hepatotoxicity risk, the balance does not currently support progressing this indication.
 
 **To proceed, the following is needed:**
-- Formal MHRA/SmPC label data — key warnings, contraindications, and confirmed mechanism of action (currently marked as data gaps DG001 and DG002)
-- Clinical or literature evidence for at least one candidate to move beyond L5
-- If pursued, prioritise the mechanistically coherent candidate (juvenile-onset Parkinsonism, rank 10) over the highest-scoring but biologically weaker candidate (Rasmussen encephalitis, rank 1)
-- Confirmation of tolcapone's hepatotoxicity profile before any consideration of use in vulnerable populations (e.g. Lewy body dementia, rank 6)
+- Detailed mechanism of action data, and evidence of a biological link between COMT inhibition and the immune-mediated pathology of Rasmussen encephalitis
+- Preclinical or clinical studies in the predicted indication
+- Verified UK licensing details, including the approved indication text, dosage form and PL number
+- Label warnings and contraindications from the SmPC and BNF
+- A liver safety monitoring plan
+- If a repurposing direction is pursued, consider Lewy body dementia as a better-founded research question, supported by preclinical work and a shared dopaminergic rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

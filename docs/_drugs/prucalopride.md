@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prucalopride
-parent: Moderate Evidence (L3-L4)
-nav_order: 490
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 528
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prucalopride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Gut-Motility Agent to Amyloidosis-Related Intestinal Dysmotility
+# Prucalopride: From Constipation Disorder to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-Prucalopride is described in this evidence pack as a highly selective 5-HT4 receptor agonist that promotes colonic motility; formal UK regulatory data on its original licensed indication is not available in this dataset. Of the ten TxGNN-predicted indications reviewed, the highest-scoring candidate (hypoalphalipoproteinemia, 99.8%) is flagged in its own rationale as a likely false-positive embedding artefact with no biological plausibility. The most credible signal instead points to **amyloidosis-related intestinal dysmotility**, supported by **0 clinical trials** and **2 publications**, corresponding to Evidence Level L4 (mechanism/diagnostic-context evidence only, not therapeutic evidence).
-
----
+Prucalopride is a selective 5-HT4 receptor agonist (a prokinetic) originally used to treat constipation.
+The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia**, but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no MHRA licence data available); pack text consistently describes Prucalopride as a colonic-motility-promoting 5-HT4 agonist |
-| Predicted New Indication | Amyloidosis-related intestinal dysmotility (TxGNN term: "amyloidosis (disease)") |
-| TxGNN Prediction Score | 99.62% (rank 4214) |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (framed by the source data as a "Research Question" — worth monitoring, not yet actionable) |
-
----
+| Original Indication | Constipation disorder |
+| Predicted New Indication | Hypoalphalipoproteinemia |
+| TxGNN Prediction Score | 99.82% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Prucalopride is not formally recorded as a discrete field in this evidence pack (`original_moa` is a data gap). However, the rationale accompanying every predicted indication consistently describes Prucalopride as a **highly selective 5-HT4 receptor agonist** acting on intestinal smooth muscle and the enteric nervous system to **promote colonic peristalsis** — consistent with the known prokinetic drug class used for chronic gastrointestinal motility disorders.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, prucalopride is a selective 5-HT4 receptor agonist that enhances gastrointestinal motility, and its efficacy in constipation is established.
 
-Amyloid deposition can infiltrate the enteric nervous system and intestinal smooth muscle, producing secondary motility disorders such as chronic intestinal pseudo-obstruction (CIPO). A prokinetic 5-HT4 agonist is therefore mechanistically plausible for symptomatic management of this type of secondary dysmotility. The two supporting publications, however, address the **diagnostic** difficulty of recognising amyloidosis-related GI motility disorders (frequently misdiagnosed as functional GI disease) rather than any **therapeutic** use of prucalopride — so this remains a mechanistic hypothesis, not a validated treatment signal. The same rationale applies, with slightly weaker support, to primary (AL) amyloidosis (rank 9), which is a subtype of the same disease process.
+For hypoalphalipoproteinemia (low HDL cholesterol), no credible mechanistic link could be identified. HDL metabolism and lipoprotein regulation are not known to involve 5-HT4 signalling in the gut. The high TxGNN score appears to be a knowledge-graph prediction artefact rather than a pharmacologically grounded signal.
 
-By contrast, the single highest TxGNN-scoring prediction in this pack, hypoalphalipoproteinemia (99.8%), is explicitly assessed in the source rationale as having **no known mechanistic link** to 5-HT4 agonism or lipoprotein/HDL metabolism, and is most likely a false-positive artefact of the knowledge-graph embedding space. The remaining candidates (homozygous familial hypercholesterolaemia, duodenal ulcer, oral candidiasis, obsolete familial combined hyperlipidaemia, strongyloidiasis, HIV infection, acquired amyloid peripheral neuropathy) similarly lack mechanistic plausibility or any supporting literature/trial evidence, and are all scored L5/Hold.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|---|---|---|---|---|
-| 1 | Hypoalphalipoproteinemia | 99.82% | L5 | Hold (likely noise) |
-| 2 | Homozygous familial hypercholesterolemia | 99.67% | L5 | Hold |
-| 3 | Duodenal ulcer | 99.65% | L5 | Hold |
-| 4 | Oral candidiasis | 99.64% | L5 | Hold |
-| 5 | Obsolete familial combined hyperlipidemia | 99.62% | L5 | Hold |
-| **6** | **Amyloidosis (disease)** | **99.62%** | **L4** | **Research Question** |
-| 7 | Strongyloidiasis | 99.60% | L5 | Hold |
-| 8 | HIV infectious disease | 99.60% | L5 | Hold |
-| 9 | Primary amyloidosis | 99.56% | L4 | Research Question |
-| 10 | Acquired amyloid peripheral neuropathy | 99.55% | L5 | Hold |
-
----
+Other top-ranked predictions show the same pattern. Homozygous familial hypercholesterolaemia, oral candidiasis, strongyloidiasis and HIV infection have no plausible mechanism and no supporting studies. The only predictions with even an indirect rationale are the amyloidosis-related ones (amyloidosis, primary amyloidosis), where a prokinetic could in theory relieve gut dysmotility symptoms. That would be symptom management, not treatment of the underlying disease. Duodenal ulcer has only a weak, speculative link, as prucalopride does not reduce acid secretion or address *H. pylori*.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for hypoalphalipoproteinemia.
 
 ## Literature Evidence
 
+Currently no related literature available for hypoalphalipoproteinemia.
+
+For context, the only publications retrieved across the top-ranked predictions concern amyloidosis-related gut dysmotility. Neither tested prucalopride:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Review | Turkish Journal of Gastroenterology | Specific GI motility disorders (gastroparesis, chronic intestinal pseudo-obstruction, colonic inertia) are commonly under-recognised and misdiagnosed as functional GI disease by community physicians in Asia — diagnostic-context evidence only, no treatment data on prucalopride |
-| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case Report | Cureus | Case of amyloidosis presenting as chronic intestinal pseudo-obstruction in a 61-year-old man, diagnosed after multiple negative work-ups and laparotomies — illustrates the disease mechanism but does not evaluate prucalopride therapy |
-
----
+| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort | Turk J Gastroenterol | Specific GI motility disorders (gastroparesis, chronic intestinal pseudo-obstruction, colonic inertia) are often misdiagnosed as functional GI disorders in the early stage |
+| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case report | Cureus | Amyloidosis presenting as chronic intestinal pseudo-obstruction in a 61-year-old man after multiple non-diagnostic laparotomies |
 
 ## UK Market Information
 
-Prucalopride is recorded as **not marketed** in the UK within this evidence pack, with **0 marketing authorisations** on file. No product name, formulation, or approved indication text is available to report at this time (MHRA SmPC verification is listed as a blocking data gap — see Conclusion).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0106070A0AAABAB (BNF-style product code, not a PL number) | Prucalopride tablets 2 mg | Tablet | Not stated in the data compiled for this report |
 
----
+One valid single-ingredient product is recorded. Dosage form and approved indication text were not available, so please confirm details against the current SmPC.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from the knowledge graph, not label text):** ulcerative colitis, inflammatory bowel disease, intestinal perforation.
+- **Drug Interactions:** 98 interactions are recorded. Examples include:
+  - **Moderate:** aclidinium, atropine, benzatropine, biperiden, clidinium, glycopyrronium, hyoscyamine (anticholinergics, which may oppose the prokinetic effect), and the hormonal agents levonorgestrel, norethisterone and ethinylestradiol.
+  - **Minor:** nifedipine, diltiazem, amiodarone, captopril, carvedilol, spironolactone, afatinib, alpelisib, cobicistat and conivaptan.
 
----
+Please also refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-None of the ten TxGNN-predicted indications reach clinical evidence levels (L1–L3). The highest-scoring prediction (hypoalphalipoproteinemia) is assessed by the underlying rationale itself as a likely false-positive signal with no biological plausibility. The only mechanistically coherent candidate — amyloidosis-related intestinal dysmotility — is supported solely by diagnostic-context literature (a review and a case report), with no clinical trials and no direct evidence of prucalopride's therapeutic effect in this population.
+The prediction for hypoalphalipoproteinemia is supported only by a model score. There are no trials or publications, and no plausible link between 5-HT4 agonism and HDL metabolism. None of the other top-ranked predictions has direct evidence either.
 
 **To proceed, the following is needed:**
-- MHRA SmPC warnings, precautions and contraindications (blocking data gap, DG001)
-- Formal DrugBank-sourced mechanism-of-action record (DG002)
-- Targeted literature/trial search specifically for prucalopride use in amyloidosis-associated CIPO or gastroparesis
-- Confirmation of UK marketing/licensing status, given the "not marketed" flag in this pack
-- Re-assessment of the eight L5/Hold candidates only if new knowledge-graph signal, mechanistic rationale, or literature emerges
+- A credible mechanistic hypothesis linking 5-HT4 agonism to lipoprotein metabolism, or a decision to deprioritise this prediction
+- Mechanism of action data (MOA) for prucalopride from DrugBank
+- Label-based warnings and contraindications from the SmPC and BNF, as the safety screen cannot proceed without them
+- Authorisation details (PL number, dosage form, approved indication) for the UK product
+- If a different direction is of interest, a focused review of prokinetic use for amyloid-related GI dysmotility, which is the only indirectly plausible signal, as symptom management rather than a new disease indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

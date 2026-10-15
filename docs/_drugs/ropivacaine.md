@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ropivacaine
-parent: High Evidence (L1-L2)
-nav_order: 516
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 554
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ropivacaine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,136 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ropivacaine: From Regional Anaesthesia to Migraine Disorder
+# Ropivacaine: From Local Anaesthesia to Myofascial Pain Syndrome
 
 ## One-Sentence Summary
 
-Ropivacaine is a long-acting amide local anaesthetic used in clinical practice for regional anaesthesia and interventional pain management procedures.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, with **4 clinical trials** and **6 publications** currently supporting this direction.
-Evidence is at Level L2, anchored by a completed Phase 4 double-blind RCT and a paediatric emergency department trial involving 150 participants.
+Ropivacaine is a long-acting amide local anaesthetic, marketed in the UK as an injectable product.
+The TxGNN model predicts it may be useful for **myofascial pain syndrome** (the highest-evidence prediction among the candidates; the top-scoring prediction was migraine disorder), with **1 completed clinical trial** and **6 publications** currently supporting this direction.
+The evidence is limited to small and mixed-design studies, so this remains an early-stage repurposing question rather than an established use.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Regional anaesthesia and pain management (no MHRA marketing authorisation on record) |
-| Predicted New Indication | Migraine Disorder |
-| TxGNN Prediction Score | 99.65% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+|------|------|
+| Original Indication | Not stated in the data compiled for this report (ropivacaine is a local anaesthetic) |
+| Predicted New Indication | Myofascial pain syndrome (highest-scoring candidate overall: migraine disorder, 99.65%) |
+| TxGNN Prediction Score | 98.99% (myofascial pain syndrome); 99.65% (migraine disorder) |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+**Note on selection:** Migraine disorder ranks first by TxGNN score, but its evidence is weaker (one very small trial of 10 participants and observational studies; recommendation: Research Question). Myofascial pain syndrome has the strongest direct evidence and is therefore the focus of this report. Other candidates are summarised briefly at the end.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Ropivacaine is a long-acting amide local anaesthetic whose principal mechanism is voltage-gated sodium channel (Nav channel) blockade, inhibiting the initiation and propagation of nerve action potentials. Although detailed mechanism of action data was not available in the current Evidence Pack, Nav-channel blockade is Ropivacaine's well-established pharmacological basis and underpins every plausible route through which it could influence migraine.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels, which stops nociceptive (pain) signals from travelling along nerve fibres.
 
-The application to migraine is mechanistically coherent. Migraine pathophysiology involves activation of the trigeminovascular system, peripheral sensitisation of nociceptors around meningeal blood vessels, and amplification of pain signals through autonomic relay stations — most notably the sphenopalatine ganglion (SPG). Ropivacaine delivered via SPG block, trigger point injection, or stellate ganglion block can interrupt these pain transmission circuits directly. The SPG in particular plays a pivotal role in propagating both the pain and the autonomic features (lacrimation, nasal congestion) characteristic of migraine attacks, making it a recognised interventional target.
+Myofascial pain syndrome is characterised by painful trigger points in muscle, tendon or ligament. Injecting a local anaesthetic into these points can interrupt the pain-spasm cycle. Ropivacaine is already used in trigger point injection and in fascial plane or muscle block techniques, so the proposed use is mechanistically coherent and builds on existing clinical practice. The route is local infiltration, so this is a new use of an existing injectable rather than a systemic therapy.
 
-Early clinical data are encouraging. A completed Phase 4 double-blind RCT (NCT03666663) directly evaluated SPG blocks with local anaesthetics for migraine prevention, and a completed unphased trial (NCT00680823, n=150) studied intramuscular Ropivacaine for paediatric headache in an emergency department setting. Multiple observational studies provide further biological plausibility, with one 2007 prospective cohort study specifically evaluating Ropivacaine trigger point injections for prophylactic migraine management over 12 weeks. The convergence of mechanism, interventional precedent, and early-phase data makes the TxGNN prediction scientifically credible.
+For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, stellate ganglion or pericranial trigger points, which may interrupt trigeminal and nociceptive signalling. The evidence relates to regional nerve block procedures, not systemic use.
 
 ---
 
 ## Clinical Trial Evidence
 
+**Myofascial pain syndrome**
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00680823](https://clinicaltrials.gov/study/NCT00680823) | N/A | Completed | 150 | Largest completed trial for this drug–indication pair: evaluated lower paracervical intramuscular Ropivacaine injection as a treatment for headache in a paediatric emergency department |
-| [NCT03666663](https://clinicaltrials.gov/study/NCT03666663) | Phase 4 | Completed | 10 | Double-blind RCT of SPG block using local anaesthetics vs placebo for migraine prevention in adults; directly relevant but substantially limited by very small sample size |
-| [NCT05301387](https://clinicaltrials.gov/study/NCT05301387) | N/A | Completed | 38 | Assessed long-term effects of SPG block on post-dural puncture headache; mechanistically related (SPG pathway) but target population is PDPH rather than primary migraine |
-| [NCT06470581](https://clinicaltrials.gov/study/NCT06470581) | N/A | Not yet recruiting | 78 | Prospective RCT comparing botulinum toxin A vs local anaesthetic for thoracic sympathetic ganglion block in upper-limb CRPS; Ropivacaine likely serves as comparator only — not yet commenced |
+| [NCT07866443](https://clinicaltrials.gov/study/NCT07866443) | Phase 4 | Completed | 74 | Randomised comparison of ropivacaine trigger point injection alone versus combined with oral pregabalin in chronic neck and upper back myofascial pain. Pain, trigger point count, neuropathic symptoms and quality of life assessed at baseline, 1 and 3 months. The combination design limits attribution to ropivacaine. |
+
+**Migraine disorder (highest TxGNN score)**
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03666663](https://clinicaltrials.gov/study/NCT03666663) | Phase 4 | Completed | 10 | Randomised, double-blind, placebo-controlled sphenopalatine ganglion block with nasal anaesthetics for migraine prevention. Too small to be conclusive; ropivacaine's specific role is not confirmed. |
+| [NCT00680823](https://clinicaltrials.gov/study/NCT00680823) | Not applicable | Completed | 150 | Paraspinal intramuscular ropivacaine injection for paediatric headache in an emergency department. The endpoint is headache rather than strictly migraine. |
 
 ---
 
 ## Literature Evidence
 
+**Myofascial pain syndrome**
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [35331152](https://pubmed.ncbi.nlm.nih.gov/35331152/) | 2022 | Observational Study | BMC Anesthesiology | Ultrasound-guided stellate ganglion block observed to effectively relieve migraine pain and improve quality of life; supports ganglion-blockade approach in migraine |
-| [30043973](https://pubmed.ncbi.nlm.nih.gov/30043973/) | 2019 | Observational Study | Headache | Regional anaesthetic SPG block reduced self-reported pain in status migrainosus (migraine >72 hours); reinforces SPG as a strategic therapeutic target |
-| [17244105](https://pubmed.ncbi.nlm.nih.gov/17244105/) | 2007 | Prospective Cohort | Pain Medicine | Ropivacaine trigger point injections over 12 weeks evaluated for prophylactic management of severe migraine; sole study directly assessing Ropivacaine for migraine prevention |
-| [24284858](https://pubmed.ncbi.nlm.nih.gov/24284858/) | 2013 | Case Series / Technique Report | Pain Physician | Described a revised transnasal topical SPG block technique for headache and facial pain; supports SPG as accessible interventional target with favourable risk profile |
-| [17058040](https://pubmed.ncbi.nlm.nih.gov/17058040/) | 2006 | Case Report | J Headache Pain | Migraine headache reported as rare complication after cervicothoracic block; provides indirect mechanistic insight into local anaesthetic–trigeminal pain circuit interactions |
-| [19145569](https://pubmed.ncbi.nlm.nih.gov/19145569/) | 2009 | Case Report | Revista de Neurologia | Horner's syndrome following epidural analgesia; limited direct relevance to migraine treatment — included for completeness |
+|------|-----|------|------|---------|
+| [17805438](https://pubmed.ncbi.nlm.nih.gov/17805438/) | 2007 | RCT | Methods Find Exp Clin Pharmacol | Compared 0.25% levobupivacaine and 0.25% ropivacaine for trigger point injection (68 patients) on injection pain, efficacy and duration of remission. |
+| [11097670](https://pubmed.ncbi.nlm.nih.gov/11097670/) | 2000 | RCT | Reg Anesth Pain Med | Compared pain on intramuscular injection of bupivacaine and ropivacaine, with and without dexamethasone, for myofascial pain disorders. |
+| [42200064](https://pubmed.ncbi.nlm.nih.gov/42200064/) | 2026 | Comparative study (labelled RCT; title states prospective cohort) | Front Med | Compared interfascial plane injection with trigger point injection for upper trapezius myofascial pain in young women. |
+| [40728586](https://pubmed.ncbi.nlm.nih.gov/40728586/) | 2025 | Case report | JA Clin Rep | Three cases of ultrasound-guided serratus posterior superior muscle block with 0.25% ropivacaine for cervicoscapular myofascial pain. |
+
+**Migraine disorder**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17244105](https://pubmed.ncbi.nlm.nih.gov/17244105/) | 2007 | Cohort | Pain Med | Ropivacaine trigger point inactivation for prophylaxis of severe migraine over 12 weeks. |
+| [35331152](https://pubmed.ncbi.nlm.nih.gov/35331152/) | 2022 | Cohort | BMC Anesthesiol | Ultrasound-guided stellate ganglion block to relieve migraine pain and improve quality of life. |
+| [24284858](https://pubmed.ncbi.nlm.nih.gov/24284858/) | 2013 | Case series | Pain Physician | Revised transnasal sphenopalatine ganglion block for headache and facial pain. |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1502010R0AAABAB | Ropivacaine HCl Inj 7.5 mg/ml 10 ml Amp | Injection (ampoule) | Not stated in the data compiled |
+
+Only one valid single-ingredient authorisation is recorded. Dosage form detail and approved indication text are not available, so please check the current MHRA record, the SmPC and the BNF for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Knowledge-graph contraindication signals** (from drug-disease relationships in the TxGNN knowledge graph, not from label text): chronic obstructive pulmonary disease, respiratory failure, asthma, kidney disease, liver disease, cardiovascular and heart disease, cor pulmonale, myasthenia gravis and other neuromuscular junction disease, butyrylcholinesterase deficiency, inflammatory bowel disease, paralytic ileus, intestinal obstruction, biliary tract disease, obstructive jaundice, benign prostatic hyperplasia, urethral stricture, intracranial hypertension, and substance-related disorders. These should be verified against the SmPC, as they may not reflect actual labelled contraindications.
+
+**Drug Interactions:** 64 interactions were identified; examples from the first 20 include:
+- **Moderate:** obeticholic acid, liposomal morphine, deferasirox, fostamatinib
+- **Minor:** aprepitant, cimetidine, clarithromycin, miconazole, clotrimazole, caffeine, cobicistat, hyaluronidase, ticagrelor
+- **Unknown severity:** omeprazole, atropine, triamcinolone, simvastatin, epinephrine, iohexol, heparin
+
+**Other considerations from the evidence:**
+- Local anaesthetics may be myotoxic, which is relevant to repeated intramuscular injection.
+- In vitro studies report cytotoxicity of ropivacaine to tenocytes and tenofibroblasts, a concern for peritendinous use (relevant to the tendinitis prediction).
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
+
+## Other Predicted Indications (Brief)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|
+| Migraine disorder | 99.65% | L3 | Research Question |
+| Migraine with brainstem aura | 99.55% | L5 | Hold |
+| Nephrogenic syndrome of inappropriate antidiuresis | 99.41% | L5 | Hold (no plausible mechanism; likely model artefact) |
+| Dysthymic disorder | 99.15% | L5 | Hold |
+| Fibromyalgia | 98.99% | L4 | Research Question (only indirect myofascial pain trial) |
+| Tendinitis | 98.96% | L4 | Hold (symptomatic analgesia only; cytotoxicity concern) |
+| Idiopathic granulomatous myositis | 98.88% | L5 | Hold |
+| Myositis fibrosa | 98.88% | L5 | Hold |
+| Bronchitis | 98.83% | L4 | Hold (trials concern post-cardiac-surgery pain, not bronchitis) |
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Proceed with Guardrails** (myofascial pain syndrome)
 
 **Rationale:**
-A completed Phase 4 RCT and the largest available paediatric headache trial (n=150) — together with a coherent Nav-channel / trigeminovascular mechanistic rationale and multiple supporting observational studies — provide an L2 evidence base sufficient to justify further development, provided appropriate safeguards are in place to address current data gaps.
+Ropivacaine has a coherent mechanism and existing clinical use in trigger point injection, supported by a completed Phase 4 trial and several randomised comparisons. However, the evidence consists of combination and comparative designs with no demonstrated superiority over other local anaesthetics, so it reaches only L3 and does not meet the threshold for L1 or L2.
 
 **To proceed, the following is needed:**
-
-- **Mechanism of action data**: Retrieve full pharmacological profile from DrugBank to formalise the Nav-channel / trigeminovascular mechanistic narrative
-- **Safety review**: Obtain full SmPC (MHRA/EMA) to complete warnings, contraindications, and drug interaction profiling prior to any clinical development
-- **Larger confirmatory RCT**: A well-powered trial (target n ≥ 100) in adult primary migraine using SPG block with Ropivacaine; the existing Phase 4 trial (n=10) is underpowered to support regulatory claims
-- **Dose and route standardisation**: Define the optimal administration route (transnasal, infrazygomatic, or catheter-based SPG block) and dose range for the migraine indication
-- **UK regulatory pathway**: Consult MHRA regarding the route to a new indication given Ropivacaine currently holds no UK marketing authorisation; a Marketing Authorisation Application (MAA) or an off-label use framework would need to be identified
-- **Paediatric data review**: The NCT00680823 paediatric dataset (n=150) should be formally analysed and published to strengthen the evidence base
+- A adequately powered randomised trial of ropivacaine versus placebo or an active comparator (without a confounding co-treatment) in myofascial pain syndrome
+- Mechanism of action data and current SmPC warnings and contraindications, which are missing from the data compiled for this report
+- Confirmation of the licensed indications and dosage forms for the UK authorisation
+- A safety plan covering myotoxicity, cardiovascular and neurological toxicity monitoring, and the knowledge-graph contraindication signals
+- For migraine: larger controlled trials of nerve block procedures with ropivacaine specified as the agent
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

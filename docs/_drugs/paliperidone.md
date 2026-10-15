@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Paliperidone
-parent: High Evidence (L1-L2)
-nav_order: 441
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 474
+evidence_level: L5
 indication_count: 10
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,85 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack's own repurposing rationale to select the reportable candidate: TxGNN's top 9 ranked predictions (retinal dystrophy, X-linked myopia, hydranencephaly, CDG, CMT1G, etc.) are explicitly flagged in the evidence pack as biologically implausible KG-embedding noise with no clinical or literature support and a "Hold" recommendation. The only candidate with mechanistic coherence, real trial data, and a "Proceed with Guardrails" call is rank 10 (treatment-refractory schizophrenia). The report below is built on that candidate.
-
----
-
-# Paliperidone: From Schizophrenia to Treatment-Refractory Schizophrenia
+# Paliperidone: From Schizophrenia to Retinal Dystrophy (Top Model Prediction)
 
 ## One-Sentence Summary
 
-> Paliperidone is an established atypical antipsychotic (D2/5-HT2A receptor antagonist, the active metabolite of risperidone) used for schizophrenia-spectrum disorders.
-> The TxGNN model's top nine ranked predictions (e.g. retinal dystrophy, X-linked myopia, hydranencephaly) were reviewed and excluded as biologically implausible model noise with no supporting evidence.
-> The most credible signal identified is **Treatment-Refractory Schizophrenia**, supported by **4 clinical trials** and **2 publications**, though robust head-to-head evidence specific to the refractory population remains limited.
-
----
+Paliperidone is an atypical antipsychotic, originally used to treat schizophrenia and related psychotic disorders.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **no clinical trials and no publications** supporting it. The only prediction with any related studies is **treatment-refractory schizophrenia** (3 Phase 4 trials, 2 reviews), and even that evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (per drug-class mechanistic data in evidence pack; structured original-indication field is a data gap) |
-| Predicted New Indication | Treatment-Refractory Schizophrenia |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; no approved indication text is available for the UK licence) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); treatment-refractory schizophrenia (rank 10) is the only prediction with related studies |
+| TxGNN Prediction Score | 99.92% (retinal dystrophy); 99.80% (treatment-refractory schizophrenia) |
+| Evidence Level | L5 (retinal dystrophy); L4 (treatment-refractory schizophrenia) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for paliperidone is currently a data gap in this evidence pack (DG002, High severity). However, evidence embedded in the trial/literature rationale confirms paliperidone is the active metabolite of risperidone, acting as a D2/5-HT2A receptor antagonist — a core member of the atypical antipsychotic class already used to treat schizophrenia.
+Detailed mechanism of action data is not available in the data compiled for this report. Paliperidone is generally known as a dopamine D2 and serotonin 5-HT2A receptor antagonist, and its efficacy in schizophrenia is established.
 
-Treatment-refractory schizophrenia is not a distinct disease but a clinically defined subgroup of schizophrenia that has failed to respond adequately to standard antipsychotic therapy. Because paliperidone already belongs to the therapeutic class used for schizophrenia broadly, extension of its use into the refractory subgroup is a plausible, low-novelty repurposing hypothesis rather than a cross-mechanism prediction.
+**Retinal dystrophy (rank 1):** No mechanistic link is supported. The high score (0.999) is a model output only, and no trials or literature were found. The same applies to the other highly ranked predictions, which include X-linked and syndromic myopia, hydranencephaly, a congenital disorder of glycosylation, perisylvian polymicrogyria, Charcot-Marie-Tooth disease type 1G and atypical glycine encephalopathy. Most are monogenic or structural conditions in which an antipsychotic is unlikely to alter the underlying disease. A speculative dopaminergic role in eye growth has been suggested for myopia, but nothing here supports it for paliperidone.
 
-That said, current clinical guidelines position clozapine as the only agent with a specific, guideline-endorsed indication for treatment-refractory schizophrenia, including a reduction in suicidal behaviour risk. Paliperidone's specific role in this refractory population is therefore not yet well established and requires stronger head-to-head comparative evidence before it can be considered an equivalent option.
-
----
+**Treatment-refractory schizophrenia (rank 10):** This is a close extension of the approved indication, so the receptor-antagonism rationale is plausible. However, clozapine is the established standard in this subpopulation, and the data provided do not show that paliperidone is effective in it.
 
 ## Clinical Trial Evidence
 
+No trials are registered for the rank 1 prediction (retinal dystrophy). The trials below are linked to treatment-refractory schizophrenia (rank 10) and show paliperidone only as a possible comparator or background treatment.
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01860781](https://clinicaltrials.gov/study/NCT01860781) | Phase 4 | Completed | 30 | Prospective naturalistic case series evaluating effectiveness of paliperidone palmitate across three schizophrenia patient subgroups |
-| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Phase 4 | Unknown | 244 | Open-label RCT comparing aripiprazole vs paliperidone/risperidone using multi-omics data in first-episode psychosis; paliperidone is one comparator arm |
-| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Phase 4 | Terminated | 5 | Compared clozapine vs non-clozapine antipsychotics (may include paliperidone) on inflammatory markers in treatment-resistant schizophrenia; terminated with minimal enrolment |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Evaluates pharmacotherapy combined with recovery-oriented programmes for treatment-resistant schizophrenia and bipolar disorder; drug-specific relevance to paliperidone unconfirmed |
-
----
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Active, not recruiting | 84 | Pharmacotherapy plus recovery-oriented programmes in treatment-resistant schizophrenia and bipolar disorder; the focus is psychosocial, not paliperidone efficacy |
+| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Phase 4 | Unknown | 244 | Open-label randomised comparison of aripiprazole vs paliperidone/risperidone using multi-omics data in first-episode psychosis; no results available |
+| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Phase 4 | Terminated | 5 | Exploratory immune and inflammatory response, clozapine vs non-clozapine antipsychotics; sample too small for conclusions |
 
 ## Literature Evidence
 
+No literature was found for the rank 1 prediction. The reviews below relate to treatment-refractory schizophrenia (rank 10) and are general in scope.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Españolas de Psiquiatría | Reviews current psychopharmacological evidence for schizoaffective disorder; notes absence of disorder-specific treatment guidelines, reliance on antipsychotics generally |
-| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Review | Current Opinion in Psychiatry | Reviews evidence-informed psychopharmacology for early-onset schizophrenia spectrum disorders in adolescents, including dosing and switching considerations |
-
----
+| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Esp Psiquiatr | Psychopharmacology of schizoaffective disorder; treatment relies mainly on antipsychotics, with little condition-specific evidence |
+| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Review | Curr Opin Psychiatry | Efficacy and tolerability of psychosocial and drug treatments in early-onset schizophrenia spectrum disorders, including dosing, switching and adverse effect monitoring |
 
 ## UK Market Information
 
-Paliperidone currently holds **no UK marketing authorisation** in this evidence pack (market status: Not marketed; 0 licences on record). No product-level licensing table is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0402010AEAAABAB | Paliperidone 6 mg modified-release tablets | Modified-release tablet | Not available in the data compiled |
 
----
+The listed identifier follows a BNF-style code (BNF chapter 4.2.1, antipsychotic drugs) rather than a standard PL number. One valid single-ingredient authorisation is recorded.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and cautions suggested by the knowledge graph** (not label text; check against the SmPC):
+  - Cardiovascular: long QT syndrome (including familial), torsades de pointes, orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorders, myocardial infarction, coronary thrombosis
+  - Neurological: epilepsy, basal ganglia disease, multiple system atrophy, focal hand dystonia, blepharospasm
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hyperlipidaemia (including familial), obesity (including monogenic), potassium deficiency
+  - Haematological and other: neutropenia, agranulocytosis, haemoglobinopathy, impaired renal function, Crohn's disease and inflammatory bowel disease, female breast carcinoma
+- **Drug interactions:** 100 interactions were recorded; the main ones listed are below.
+  - **Major:** bupropion, morphine
+  - **Moderate (examples):** antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide), anticholinergic agents (atropine, hyoscyamine, glycopyrronium), epinephrine, hydrocortisone, famotidine, loperamide, bisacodyl, lorcaserin, amphotericin B
 
-*(Note: Key warnings, contraindications and drug-interaction data are recorded as blocking data gaps (DG001) in this evidence pack and could not be evaluated for this report.)*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Paliperidone's class-level mechanism supports plausible use across the schizophrenia spectrum, and one completed Phase 4 study (NCT01860781) shows real-world effectiveness data; however, evidence specific to the *treatment-refractory* subgroup is limited to small, terminated, or status-unknown trials, and clozapine remains the guideline-preferred option for this population.
+The top-ranked predictions (including retinal dystrophy) rest on model scores alone, with no trials, no literature and no plausible mechanistic link. Treatment-refractory schizophrenia is biologically sensible but is supported only by indirect Phase 4 trials and general reviews, and clozapine remains the standard of care.
 
 **To proceed, the following is needed:**
-- Resolution of the blocking safety data gap (DG001): TFDA/MHRA labelling, warnings and contraindications
-- Detailed mechanism-of-action documentation from DrugBank (DG002)
-- Confirmation of UK marketing authorisation pathway, since paliperidone is currently not marketed in this dataset
-- Head-to-head RCT evidence comparing paliperidone against clozapine specifically in the treatment-refractory schizophrenia population
-- Follow-up on NCT06060886 and NCT07047651 completion to clarify paliperidone-specific outcomes
+- Mechanism of action data for paliperidone, to allow a proper mechanistic analysis
+- The approved indication text and SmPC warnings and contraindications for the UK product
+- Direct clinical evidence of paliperidone in treatment-refractory schizophrenia, for example trial results where paliperidone is the studied intervention
+- For the other predictions, a credible biological rationale and preclinical evidence before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

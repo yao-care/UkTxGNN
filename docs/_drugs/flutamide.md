@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Flutamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 282
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 301
+evidence_level: L5
 indication_count: 10
 ---
 
 # Flutamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Flutamide: From Prostate Cancer (Antiandrogen Therapy) to Prostate Cancer/Brain Cancer Susceptibility
+# Flutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
 
 ## One-Sentence Summary
 
-Flutamide is a first-generation nonsteroidal antiandrogen, clinically established as a component of combined androgen blockade for hormone-dependent prostate cancer. The TxGNN model additionally predicts a link to a composite label, **"prostate cancer/brain cancer susceptibility"**, but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — the score is high, but the direct evidence base is empty.
+Flutamide is a non-steroidal antiandrogen, originally used to treat prostate cancer.
+The TxGNN model predicts it may be relevant to **prostate cancer/brain cancer susceptibility**, but **no clinical trials and no publications** were found for this specific prediction, so it rests on model output alone.
 
 ---
 
@@ -41,61 +42,71 @@ Flutamide is a first-generation nonsteroidal antiandrogen, clinically establishe
 
 | Item | Content |
 |------|------|
-| Original Indication | Prostate cancer (advanced/hormone-dependent), as part of combined androgen blockade — not recorded in UK regulatory licence data, as flutamide is not currently marketed in the UK |
+| Original Indication | Prostate cancer |
 | Predicted New Indication | Prostate cancer/brain cancer susceptibility |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data for flutamide is not available in this evidence pack. However, literature retrieved elsewhere in the pack (e.g. PMID 8252497, "Mechanism of action and pure antiandrogenic properties of flutamide") confirms it acts as a competitive androgen receptor (AR) antagonist, blocking testosterone/dihydrotestosterone signalling at the target tissue.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Flutamide is known as a non-steroidal androgen receptor antagonist, and its efficacy in prostate cancer is established. Mechanistically, it could be applicable to androgen-dependent disease.
 
-The predicted new indication is a composite TxGNN disease label combining two distinct concepts. The "prostate cancer" component is mechanistically coherent with flutamide's known AR-antagonist action — but the model's own rationale notes that this specific knowledge-graph node has no attached trials or literature of its own. The "brain cancer susceptibility" component has no known AR-signalling-driven mechanism, and the rationale explicitly flags it as an unresolved comorbidity/susceptibility edge in the knowledge graph requiring manual semantic review before this label can be treated as a genuine clinical hypothesis.
+The high score most likely reflects the prostate cancer component of this susceptibility entity, which is the drug's existing indication. No data were found linking flutamide to the brain cancer component or to the susceptibility concept. The prediction therefore shows no added value beyond the current use.
 
-It is worth noting that flutamide's use in classic (androgen-dependent) prostate cancer itself is not a novel repurposing signal — TxGNN separately scores "male reproductive organ cancer" (rank 6) with L1 evidence (50 clinical trials, 20 publications), reflecting flutamide's already-established, decades-long clinical use in that setting rather than a new hypothesis. The rank-1 composite label reviewed here is a distinct, much weaker signal that should not be conflated with that established use.
+Other predicted conditions show a similar pattern:
+- **Male reproductive organ cancer**: this category is dominated by prostate cancer. It includes a Phase 2 trial of flutamide as chemoprevention in prostatic intraepithelial neoplasia (NCT00006214), but the evidence mainly supports the existing indication.
+- **Benign reproductive system neoplasm**: a small, older study of flutamide in benign prostatic hyperplasia exists (PMID 1722793, 1991), but it is not RCT-level evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered for this predicted indication.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for this predicted indication.
 
 ---
 
 ## UK Market Information
 
-Flutamide currently holds no UK marketing authorisation (0 licences on file; market status: not marketed). No product-level dosage form or approved-indication data is available for this evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0803042H0AAAAAA | Flutamide Tablets 250 mg | Tablet | Indication text not recorded in the compiled data |
+
+The compiled data list one valid single-ingredient authorisation. The dosage form is inferred from the product name, and the identifier is not in the usual PL format. Please verify the authorisation details against the MHRA register, the SmPC and the BNF.
 
 ---
 
 ## Cytotoxicity
 
-Flutamide is used clinically as a hormonal antineoplastic agent (androgen receptor antagonist) in prostate cancer, so this section is included, though it is a hormonal therapy rather than conventional cytotoxic chemotherapy.
+Flutamide is used in prostate cancer, but it is a hormonal antiandrogen, not a conventional cytotoxic agent.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hormonal antineoplastic (androgen receptor antagonist) — not a conventional cytotoxic chemotherapeutic |
+| Cytotoxicity Classification | Hormonal therapy (non-steroidal antiandrogen), not conventional cytotoxic chemotherapy |
 | Myelosuppression Risk | Please refer to the SmPC warnings and precautions |
 | Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
-| Monitoring Items | Liver function tests — literature in this evidence pack (PMID 16540588) reports that flutamide metabolites have been associated with severe hepatic dysfunction in some patients; renal function and FBC as per standard oncology monitoring |
-| Handling Protection | No cytotoxic-handling requirement identified in this evidence pack (oral hormonal agent, not a parenteral cytotoxic); please refer to the SmPC |
+| Monitoring Items | Liver function (hepatotoxicity is a recognised concern); please refer to the SmPC for the full monitoring schedule |
+| Handling Protection | Please refer to the SmPC warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Hepatotoxicity**: the compiled data flag hepatotoxicity as a concern with flutamide. This is important when weighing any extension of use.
+- **Disease-level contraindications from a knowledge graph** (these are not label text and must be checked against the SmPC): liver failure, liver disease, gallbladder disease, methaemoglobinaemia, sulfhaemoglobinaemia, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), G6PD deficiency, glycogen storage disease, cystinuria, galactosaemia, and pyruvate dehydrogenase E3 deficiency.
+- **Drug Interactions**: 100 interactions are recorded. Those classed as **Major** include dolasetron and cisapride. Many are **Moderate**, including clarithromycin, levofloxacin, ondansetron, palonosetron, famotidine, naltrexone, obeticholic acid, loperamide, and several laxatives and bowel-preparation agents (bisacodyl, picosulfuric acid, lactulose, lactitol, polyethylene glycol, sodium sulfate, castor oil, glycerin). Metronidazole is classed as **Minor**.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -104,13 +115,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The composite predicted indication carries a high TxGNN score but zero directly attached clinical trials or literature, and the model's own rationale flags the "brain cancer susceptibility" component as an unverified knowledge-graph artefact requiring manual review. Combined with the drug's unlicensed status in the UK, this is insufficient to progress beyond a research question.
+The prediction is supported only by the model score (Evidence Level L5). It largely overlaps with flutamide's existing prostate cancer indication and has no trials or publications of its own. Hepatotoxicity and the large number of recorded drug interactions add caution.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-equivalent label data on warnings, contraindications and interactions (currently blocking — no safety data available for S1 assessment)
-- Confirmed mechanism-of-action documentation from DrugBank
-- Manual clinical/semantic review of the "brain cancer susceptibility" component of the disease label
-- Dedicated preclinical or clinical evidence specifically addressing AR signalling in a CNS/brain tumour context, rather than relying on prostate cancer data by extrapolation
+- A clear definition of what "prostate cancer/brain cancer susceptibility" means as a treatment target, and evidence for the brain cancer component
+- Detailed mechanism of action data
+- Verification of the SmPC warnings and contraindications, including the authorisation details
+- If a genuinely new use is sought, a review of the more promising signals, such as chemoprevention in prostatic intraepithelial neoplasia (NCT00006214) and benign prostatic disease, against the available alternatives
+- A hepatic safety monitoring plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

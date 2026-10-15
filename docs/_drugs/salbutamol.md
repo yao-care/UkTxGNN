@@ -2,7 +2,7 @@
 layout: default
 title: Salbutamol
 parent: Model Prediction Only (L5)
-nav_order: 521
+nav_order: 559
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salbutamol: From Bronchial Asthma to Papillary Conjunctivitis
+# Salbutamol: From Asthma to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salbutamol (albuterol) is a selective short-acting β2-adrenoceptor agonist, widely established as a first-line bronchodilator for the relief of bronchospasm in asthma and reversible obstructive airways disease. The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, with **no registered clinical trials** and **no supporting publications** currently available for this indication. The prediction rests entirely on AI graph-based pattern recognition and carries an Evidence Level of L5.
+Salbutamol is a short-acting beta-2 agonist bronchodilator, originally used to treat asthma and other bronchial disease.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bronchial asthma; relief of reversible airways obstruction (bronchodilator) |
-| Predicted New Indication | Papillary Conjunctivitis |
-| TxGNN Prediction Score | 99.9964% |
+|------|------|
+| Original Indication | Asthma; bronchial disease |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
-| UK Market Status | No marketing authorisation data found in this dataset (likely data gap — see note below) |
-| Number of Marketing Authorisations | 0 (data gap) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
-> **Data Note:** Salbutamol (e.g., Ventolin®, Salamol®) is a well-established medicine in the United Kingdom with multiple MHRA-authorised products. The absence of licence data in this evidence pack represents a system data gap rather than a true absence of UK authorisation. Please consult the MHRA Product Licence Register and BNF Section 3.1.1 (Adrenoceptor Agonists) for confirmed prescribing information.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed pharmacological mechanism of action data was not populated in this evidence pack. Based on information contained within the evidence pack's clinical rationale sections, Salbutamol is a selective β2-adrenoceptor agonist. Its canonical mechanism involves β2-AR activation → adenylyl cyclase stimulation → intracellular cAMP elevation → protein kinase A (PKA) activation → inhibition of myosin light-chain kinase (MLCK) phosphorylation → airway smooth muscle relaxation and bronchodilation. This is the established mechanistic basis for its use in asthma and obstructive lung disease.
+Currently, detailed mechanism of action data is not available. Based on known information, salbutamol is a beta-2 adrenergic agonist whose efficacy in asthma and bronchial disease is well established, and mechanistically it may be applicable to papillary conjunctivitis.
 
-In the context of papillary conjunctivitis, a theoretical link could be drawn through β2-adrenoceptor-mediated mast cell stabilisation: β2 agonists may suppress localised conjunctival mast cell degranulation, thereby reducing the release of histamine and other inflammatory mediators that drive papillary formation. Papillary conjunctivitis — in particular giant papillary conjunctivitis (GPC) — is typically triggered by mechanical irritation (e.g., contact lens wear) or allergen exposure, and characterised by upper tarsal papillae, mucous discharge, and pruritus.
-
-However, the mechanistic case for Salbutamol in this condition is not established. The primary pathology of GPC involves mechanical friction and IgE/mast cell-mediated inflammation of the tarsal conjunctiva — a setting for which β2 agonism has no validated pharmacological role, and for which no clinical or preclinical data exist. The TxGNN score of 99.9964% reflects the model's graph-level pattern recognition; without corroborating evidence, it holds no independent clinical significance.
+A possible link is that beta-2 agonism could reduce mast cell mediator release or ocular vascular congestion. This is speculative and has not been tested for this condition. No similarity analysis between asthma and papillary conjunctivitis has been completed, and the ocular route of administration has not been assessed. Salbutamol is currently marketed in the UK as an inhaled product, not an ocular one.
 
 ---
 
@@ -77,17 +74,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
-No MHRA marketing authorisation records were returned for Salbutamol in this dataset. This is a data gap. Salbutamol holds multiple UK product licences across inhaler (pressurised metered-dose inhaler, dry powder inhaler), nebuliser solution, oral tablet, oral solution, and intravenous formulations. Authorised indications include acute and chronic bronchospasm in asthma, COPD, and exercise-induced bronchospasm.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0301011R0AAAFAF (as listed; appears to be a BNF-style code rather than a PL number) | Salbutamol powder for inhalation 95 mcg (200 doses) | Inhalation powder | — |
 
-For comprehensive and up-to-date authorisation details, please refer to:
-- **MHRA Products database**: https://products.mhra.gov.uk/
-- **BNF** (Section 3.1.1 — Short-acting beta2 agonists): https://bnf.nice.org.uk/
+The listing shows one valid single-ingredient product and no cancelled authorisations. Approved indication text was not available for this entry. The code prefix (0301011R) corresponds to the BNF bronchodilator (selective beta-2 agonist) section, and this should be confirmed against the current BNF and the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
+- **Contraindications and cautions from the drug-disease knowledge graph** (not taken from product label text; verify against the SmPC): hypertension, long QT syndrome (including familial), epilepsy, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, metabolic acidosis, benign prostatic hyperplasia and bladder neck obstruction, ocular hypertension, angle-closure glaucoma, hyperthyroidism and thyrotoxicosis (including Graves disease), sudden cardiac arrest, heart conduction disease, myocardial ischaemia and coronary artery disease.
+  - The glaucoma and ocular hypertension signals are particularly relevant to any ocular use.
+- **Drug Interactions**: 100 interactions are recorded, and the 20 reviewed include:
+  - **Moderate**: acarbose, isometheptene, famotidine, epinephrine, albiglutide, acetohexamide, alogliptin, bisacodyl, canagliflozin, castor oil, chlorpropamide, cisapride, clarithromycin, dapagliflozin, diethylpropion. Several are antidiabetic agents, which fits the known effect of salbutamol on blood glucose.
+  - **Minor**: hydrocortisone, beclomethasone dipropionate, betamethasone, budesonide, dexamethasone.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,14 +99,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-There is a complete absence of clinical and preclinical evidence for Salbutamol in papillary conjunctivitis, and the proposed mechanistic link between β2-adrenoceptor agonism and the tarsal conjunctival inflammatory pathology of this condition remains speculative and unvalidated. An L5 AI prediction alone is insufficient to justify progression.
+The prediction score is very high, but there are no clinical trials or publications for papillary conjunctivitis and the mechanistic link is untested. The knowledge graph also flags glaucoma and ocular hypertension as contraindications, which is a concern for any ocular use.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro conjunctival cell models and/or animal models) to confirm β2-adrenoceptor expression and functional mast cell stabilisation activity in tarsal conjunctival tissue
-- Formal mechanism of action (MOA) review via DrugBank API to characterise Salbutamol's anti-inflammatory receptor profile beyond bronchodilation
-- Ocular safety assessment: review of published data and SmPC for any existing ocular adverse effects or contraindications relevant to a conjunctival route of administration
-- Regulatory feasibility consultation with the MHRA regarding development of a novel ophthalmic indication for an established systemic/inhaled medicine
-- Comparison with established mast cell stabilisers (e.g., sodium cromoglicate, nedocromil) and antihistamine eye drops already approved for allergic conjunctivitis, to define a differentiation hypothesis
+- Preclinical or early clinical evidence of salbutamol in papillary conjunctivitis. Preclinical work on beta-2 agonists in allergic conjunctivitis exists and could be a starting point.
+- Mechanism of action data to support the proposed mast cell or vascular pathway.
+- An assessment of route and formulation, since only an inhaled product is currently listed.
+- Verified warnings and contraindications from the SmPC.
+- Prioritisation of other predicted indications for salbutamol (for example bronchitis and anaphylaxis), which have more trial and literature evidence than this one.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

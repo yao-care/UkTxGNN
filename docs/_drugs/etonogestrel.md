@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etonogestrel
-parent: Moderate Evidence (L3-L4)
-nav_order: 250
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 266
+evidence_level: L5
 indication_count: 5
 ---
 
 # Etonogestrel
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,11 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Etonogestrel: From Contraception to Amenorrhea
+# Etonogestrel: From Contraception to Amenorrhoea
 
 ## One-Sentence Summary
 
-Etonogestrel is a progestogen-only hormone used in long-acting contraceptive implants; no UK marketing authorisation is currently recorded for it in this evidence pack.
-The TxGNN model predicts a possible association with **Amenorrhea**, but this is supported by only **1 clinical trial** of low direct relevance and **2 publications**, with a significant caveat that the signal may reflect a known side effect rather than a therapeutic benefit.
+Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant. The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **no registered clinical trials** and **no relevant publications** supporting this prediction. The only linked paper concerns a different drug in COVID-19, so this is a model prediction only.
 
 ---
 
@@ -42,31 +41,29 @@ The TxGNN model predicts a possible association with **Amenorrhea**, but this is
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (progestogen-only implant) — no formal UK licensed indication text is available in this evidence pack |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not stated in the data compiled for this report (implant product, 68 mg) |
+| Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack. Based on what is known, etonogestrel is a single progestogen that suppresses the hypothalamic-pituitary-gonadal axis (inhibiting the LH surge, thickening cervical mucus, and inhibiting ovulation) to achieve its contraceptive effect.
+Detailed mechanism of action data is not available in the data compiled for this report. Etonogestrel is a progestin. Progestins generally suppress the hypothalamic-pituitary-ovarian axis and cause endometrial atrophy.
 
-Importantly, amenorrhea is a well-recognised **side effect** of etonogestrel implants — roughly 20–30% of users experience amenorrhea after a year of use — rather than an indication the drug is used to treat. The evidence pack's own repurposing rationale flags this directly: the high TxGNN score is likely learned from drug-adverse-effect association data (etonogestrel *causing* amenorrhea) rather than from evidence of etonogestrel *treating* amenorrhea. This distinction is critical and should be treated as a strong caveat on the prediction, not a confirmation of therapeutic value.
+This prediction is probably not a genuine therapeutic signal. Amenorrhoea is a well-known effect of the etonogestrel implant, which alters bleeding patterns. The model has likely picked up an existing pharmacological action, not a treatment use. Using a drug that induces amenorrhoea to treat amenorrhoea is mechanistically contradictory.
 
-The four lower-ranked candidates in this pack (breast fibrocystic disease, blunt duct adenosis, apocrine adenosis, benign mammary dysplasia) show near-identical scores (0.992–0.996) with zero supporting trials or literature, suggesting a clustered graph-similarity artefact around benign breast/hormonal conditions rather than five independent signals.
+Other predicted indications are benign breast conditions: fibrocystic breast disease (score 99.61%), blunt duct adenosis of the breast and apocrine adenosis of the breast (both 99.29%, identical scores that suggest a shared graph-neighbourhood artefact), and benign mammary dysplasia (99.21%). The rationale is hypothetical progestogenic counter-regulation of oestrogen-driven breast tissue proliferation. None has supporting trials or publications.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Phase 3 | Completed | 498 | Evaluated contraceptive efficacy and safety of the etonogestrel implant used beyond the approved 3-year duration, up to 5 years. **Not designed to test treatment of amenorrhea**; relevance graded C (indirect safety-database source only) |
+Currently no related clinical trials registered.
 
 ---
 
@@ -74,20 +71,28 @@ The four lower-ranked candidates in this pack (breast fibrocystic disease, blunt
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | RCT | Contraception | Compared Implanon (etonogestrel) vs Norplant contraceptive implants for efficacy, tolerability and bleeding patterns; no pregnancies over ~340/329 woman-years. Relates to bleeding pattern effects, not amenorrhea treatment |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT (protocol) | Trials | Study protocol for BIO101 in COVID-19 pneumonia — **unrelated to etonogestrel or amenorrhea**; likely a search/retrieval artefact in this evidence pack |
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | RCT protocol (unrelated) | Trials | Study protocol for BIO101 in preventing respiratory deterioration in COVID-19 pneumonia. Not relevant to etonogestrel or amenorrhoea. |
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisation is currently recorded for Etonogestrel in this evidence pack (0 licences, market status "not marketed"). This should be verified directly against the MHRA product database and BNF before further evaluation, as it materially affects feasibility of any repurposing pathway.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0703022P0AAAAAA (BNF code) | Etonogestrel implant 68 mg | Implant | Not available |
+
+The BNF classification code (section 7.3.2, progestogen-only contraceptives) is shown in place of a PL number.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (drug-disease links in the TxGNN knowledge graph, not label text): hypertension, epilepsy, anxiety and neurotic disorders, porphyria, kidney disease, liver disease, gallbladder disease, systemic lupus erythematosus, asthma, diabetes mellitus and diabetic ketoacidosis, hypertriglyceridaemia and hyperlipidaemia, female breast carcinoma, thrombophlebitis, migraine, coronary artery disease and obesity. These must be checked against the SmPC.
+- **Drug Interactions** (100 recorded; mostly moderate severity). Examples include:
+  - Antidiabetic agents: acarbose, metformin, alogliptin, saxagliptin, canagliflozin, dapagliflozin, empagliflozin, glimepiride, chlorpropamide, semaglutide, dulaglutide, albiglutide and various insulins.
+  - Others: aprepitant, clarithromycin and linaclotide.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,14 +101,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is low (L4), the single available trial and literature do not directly test etonogestrel for amenorrhea treatment, and the mechanistic rationale suggests the TxGNN signal likely reflects a known adverse effect (drug-induced amenorrhea) rather than a therapeutic association. Combined with the absence of a UK marketing authorisation and complete absence of safety/label data, this candidate does not currently support progression.
+The prediction rests on model output alone (L5). Amenorrhoea is an expected effect of etonogestrel, not a plausible treatment target. The same applies to the benign breast conditions, which have no supporting trials or literature.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data confirming whether any pharmacological basis exists for *treating* amenorrhea (as opposed to causing it)
-- Confirmation of UK regulatory/marketing status directly from the MHRA (this evidence pack shows none on record)
-- SmPC-level warnings, contraindications and interaction data (currently a blocking data gap)
-- Dedicated clinical evidence specifically evaluating etonogestrel as a treatment for amenorrhea, distinct from its known role as a contraceptive side effect
-- Clarification of whether the TxGNN model can distinguish causal (adverse-effect) from therapeutic drug-disease relationships, given the pattern seen here and across the four related lower-ranked breast-condition candidates
+- Approved indication and SmPC details for the UK implant product
+- Mechanism of action data
+- Published or registered clinical evidence for any predicted indication, particularly benign breast conditions
+- Clarification of whether the amenorrhoea prediction reflects therapeutic use or an adverse effect
+- Review of the knowledge-graph contraindications against the SmPC, and of the antidiabetic interactions, before any new use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Model Prediction Only (L5)
-nav_order: 267
+nav_order: 285
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,37 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-Using no additional skill — this is a direct report-generation task with a fully specified template, not something requiring brainstorming, debugging, or a domain skill.
-
-I'm using **predicted_indications[0]** (rank 1, "nephrogenic syndrome of inappropriate antidiuresis", the highest-scoring TxGNN prediction) as the primary subject per the template's field-extraction rules. Its `scoring` block was left as `"pending"` in the pack, so I derived Evidence Level myself from the actual evidence counts (0 trials, 0 literature → L5) and set the recommendation to Hold consistent with that level and with rank 2's own Hold outcome under identical evidence conditions.
-
----
-
-# Fentanyl: From Severe Pain Management to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyl: From Opioid Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Fentanyl is a well-established potent opioid analgesic, most familiar in the UK for severe and breakthrough pain management and anaesthesia. The TxGNN model predicts a possible link to **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests on the model score alone. (A second candidate indication, Tourette syndrome, was also flagged with a similarly high score and was independently assessed as Hold due to lack of mechanistic plausibility.)
+Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **no clinical trials and no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (data gap); Fentanyl is internationally established for severe/breakthrough pain management and anaesthesia |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this candidate is currently a data gap. Based on what is known, Fentanyl is a high-potency synthetic μ-opioid receptor agonist; its efficacy in severe pain control and anaesthesia is well established, but this pharmacology has no documented mechanistic connection to NSIAD.
+Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is generally known as a mu-opioid receptor agonist, but the approved indication for the listed product is not recorded here.
 
-NSIAD is a rare, typically hereditary condition caused by gain-of-function mutations in the vasopressin V2 receptor, which produces receptor activation and water retention independent of circulating antidiuretic hormone (ADH) levels. Opioids such as fentanyl are generally known to *suppress* ADH release rather than act on the V2 receptor itself, so there is no obvious pharmacological pathway linking fentanyl to a receptor-level, ADH-independent disorder like NSIAD.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which cause water retention even when vasopressin is undetectable. Opioids can influence vasopressin release centrally, and SIADH-like effects have been reported with opioids. However, this would not correct a receptor-level, vasopressin-independent defect.
 
-The `repurposing_rationale` for this candidate was left as `"pending"` in the evidence pack, meaning no mechanistic linkage or similarity-to-original-indication analysis has actually been produced yet. This prediction should therefore be read as a raw knowledge-graph association rather than a mechanistically supported hypothesis.
+**No established mechanistic link was identified.** The high score probably reflects network proximity in the knowledge graph (for example, to water-balance or vasopressin-related pathways) rather than a therapeutic rationale. Fentanyl may in fact worsen water retention or hyponatraemia, which is a safety concern rather than a benefit.
+
+A second prediction, **Tourette syndrome** (score 99.05%), was also generated. Its rationale is weak and speculative. The endogenous opioid system modulates striatal dopamine, but there is no clinical evidence for fentanyl in tic suppression. Its abuse liability, respiratory depression, tolerance and dependence make it unsuitable for a chronic neurodevelopmental condition. It is also evidence level L5 with a recommendation of Hold.
 
 ## Clinical Trial Evidence
 
@@ -71,27 +68,40 @@ Currently no related literature available.
 
 ## UK Market Information
 
-No UK marketing authorisation records are currently available for Fentanyl in this evidence pack (market status: Not marketed; 0 licences on record).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407020A0AAAEAE | Fentanyl Transdermal Patch 25mcg/hr | Transdermal patch | Not available in the data compiled |
+
+The product code above is the BNF-style identifier recorded for this product. It is not a PL number. Only one authorisation (single-ingredient, valid) is recorded.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (drug-disease contraindication links from the TxGNN knowledge graph, not from label text). Those most relevant to this report include:
+  - Respiratory and airway: chronic obstructive pulmonary disease, asthma (intrinsic and allergic)
+  - Cardiovascular: hypertension, hypotensive disorder, orthostatic hypotension, long QT syndrome, torsades de pointes
+  - Hepatic, renal and gastrointestinal: liver failure, liver disease, kidney disease, pancreatitis, gallbladder disease, inflammatory bowel disease
+  - Neurological and psychiatric: multiple system atrophy, basal ganglia disease, anxiety disorder, substance abuse/dependence
+  - Other: benign prostatic hyperplasia, potassium deficiency disease
+- **Drug interactions**: 100 interactions were identified (DDInter). Examples:
+  - *Major*: alvimopan, aprepitant, bupropion, clarithromycin, clotrimazole, dexamethasone, dolasetron, fenfluramine, granisetron, lorcaserin
+  - *Moderate*: atropine, cimetidine, clidinium, dicyclomine, dronabinol, eluxadoline, glycopyrronium, hyoscyamine
+- **Concern specific to the predicted indication**: fentanyl may worsen water retention or hyponatraemia.
 
-*Note: the label warnings/contraindications field for this drug is flagged as a **Blocking** data gap in the evidence pack (unable to complete initial safety screening), and the drug interaction check returned no result (`not_found`). Given Fentanyl's known high-risk profile (opioid dependence, respiratory depression, extensive CYP3A4-mediated interactions), this gap should be closed before any further evaluation.*
+Label-based warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (L5 evidence, no trials or literature), the mechanistic rationale is explicitly unfilled/pending, and a **Blocking**-severity data gap in label warnings and contraindications means this candidate cannot even complete initial safety screening (S1). Combined with Fentanyl's inherently high-risk safety profile as a potent opioid, there is no basis to proceed at this time.
+The prediction is supported only by the TxGNN model score (L5), with no clinical trials or publications. The proposed mechanism is not plausible for a receptor-level defect, and fentanyl's safety profile (including possible worsening of hyponatraemia) argues against pursuing this indication.
 
 **To proceed, the following is needed:**
-- MHRA/manufacturer SmPC warnings and contraindications (currently Blocking gap)
-- Mechanism-of-action data confirming or refuting a plausible pathway to NSIAD
-- A completed mechanistic rationale and similarity-to-original-indication analysis (currently marked "pending")
-- Any preclinical, case-report, or observational evidence, however limited, to move beyond pure model prediction
-- Drug interaction data (current query returned no result)
+- Original approved indication and SmPC-based warnings and contraindications for the UK product
+- Mechanism of action data
+- Evidence of a plausible mechanistic link to AVPR2-mediated water retention (preclinical or mechanistic studies)
+- Safety assessment of effects on sodium and water balance
+- Review of the Tourette syndrome prediction only if supporting clinical evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

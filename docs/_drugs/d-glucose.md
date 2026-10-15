@@ -2,7 +2,7 @@
 layout: default
 title: D-Glucose
 parent: Model Prediction Only (L5)
-nav_order: 188
+nav_order: 200
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no specific skill — this is a direct document-generation task per the already-specified template rules, not a coding/debugging/brainstorming task that maps to an available skill.
-
-# D-glucose: From No Recorded Original Indication to Non-syndromic Esophageal Malformation
+# D-glucose: From an Unspecified Original Indication to Non-syndromic Esophageal Malformation
 
 ## One-Sentence Summary
 
-D-glucose has no original indication recorded in the available evidence pack, and it is not currently marketed in the UK under this dataset. The TxGNN model's top prediction is that it may be relevant to **Non-syndromic Esophageal Malformation**, but this is a knowledge-graph similarity score only — **0 clinical trials** and **0 publications** currently support this specific drug–disease pairing, and the predicted condition is a congenital structural defect with no identified pharmacological mechanism for glucose to act on.
+D-glucose is a basic metabolic sugar, and the data compiled for this report do not record an approved indication for the UK product listed.
+The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+This is a model-only prediction with no supporting evidence, so the recommendation is **Hold**.
 
 ---
 
@@ -43,47 +43,58 @@ D-glucose has no original indication recorded in the available evidence pack, an
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no original indication or mechanism of action is recorded in this evidence pack |
-| Predicted New Indication | Non-syndromic Esophageal Malformation |
+| Original Indication | Not available in the data compiled for this report (the single UK authorisation has no indication text) |
+| Predicted New Indication | Non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 84.11% |
-| Evidence Level | L5 (model prediction only, no clinical or literature evidence) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for D-glucose is not available in this evidence pack, and no original indication is on record to compare against. Unlike typical repurposing candidates, this limits any assessment of mechanistic continuity between an established use and the newly predicted one.
+Currently, detailed mechanism of action data is not available. D-glucose is a basic metabolic substrate, used in the form of oral glucose gel (for example, a 40% gel) in clinical practice. Its original indication could not be confirmed from the data compiled for this report.
 
-More importantly, the predicted indication itself — non-syndromic esophageal malformation — is a congenital structural anomaly of the oesophagus, not a metabolic or biochemical disorder. There is no known pharmacological pathway by which glucose administration would correct a structural developmental defect. The evidence pack's own rationale for this candidate states plainly that there is no clinical trial or literature evidence, and no pharmacological mechanism supporting a D-glucose intervention here.
+No plausible mechanistic link can be identified between D-glucose and the developmental pathology of esophageal malformation. The prediction score is relatively high (84.11%), but the model's rank for this prediction is low (83,553), and no trial or publication supports it. The score should therefore be read as a computational signal only, not as evidence of benefit.
 
-Taken together, this ranks as a pure knowledge-graph embedding similarity score (TxGNN rank 83,553), with no biological plausibility identified to date. For context, other candidates lower in this same prediction set — for example, biotin metabolic disease (rank 5, evidence level L3) — have a clearer, mechanistically grounded rationale (glucose as supportive therapy during acute metabolic decompensation in biotin-dependent carboxylase disorders) and considerably more supporting literature and trial data. Sponsors reviewing this evidence pack may wish to prioritise those candidates over the top-ranked but mechanistically unsupported prediction discussed here.
+Other predicted indications were also reviewed. None has supporting clinical evidence:
+
+- **Primary hereditary glaucoma and open-angle glaucoma:** the literature describes metabolic changes in glaucoma as disease biomarkers, not a therapeutic role for D-glucose.
+- **Esophageal disease:** the evidence concerns diagnostic PET imaging with the glucose analogue 18F-FDG, which is not therapeutic use. The registered trials (a 68Ga-FAPI-46 imaging study, a pralatrexate plus docetaxel chemotherapy study, and a cardiac PET study) do not involve D-glucose.
+- **Vitamin deficiency disorder and dermatitis:** the literature concerns vitamin D effects on glucose handling, or glucose analogues that inhibit glycolysis. These point in the opposite direction to glucose supplementation.
+- **Other predictions** (biotin metabolic disease, neonatal dermatomyositis, acrodermatitis chronica atrophicans, familial hydroa vacciniforme): no relevant evidence or plausible mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for non-syndromic esophageal malformation.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for non-syndromic esophageal malformation.
 
 ---
 
 ## UK Market Information
 
-D-glucose has no marketing authorisations recorded in this evidence pack (0 licences) and its UK market status is "Not marketed." No product, dosage form, or authorised indication data is currently available for this substance under this dataset.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0601040I0AAADAD | Glucose Gel 40% | Not specified | Not specified |
+
+The listed code appears to be a BNF-style product code rather than a standard PL number. Please verify the authorisation details against the MHRA register and the BNF (section 6.1.4, treatment of hypoglycaemia).
 
 ---
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+No drug interaction records were found in the data compiled for this report.
 
 ---
 
@@ -92,13 +103,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication (non-syndromic esophageal malformation) has zero supporting clinical trials or literature, no identifiable pharmacological mechanism, and represents a congenital structural condition unlikely to be responsive to a metabolic substrate. Evidence level is L5 — model prediction only.
+The prediction rests on a model score alone. There are no clinical trials or publications for non-syndromic esophageal malformation, no plausible mechanism, and key safety and indication data are missing. None of the other nine predicted indications has therapeutic evidence for D-glucose either.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for D-glucose (currently a High-severity data gap)
-- SmPC-equivalent warnings/contraindications data (currently a Blocking data gap preventing any safety pre-assessment)
-- A biological plausibility review specifically addressing whether any glucose-related pathway is relevant to oesophageal structural development
-- If further repurposing work continues on this drug, consideration of re-prioritising toward candidates with stronger existing evidence in this same pack, notably biotin metabolic disease (L3, multiple trials and literature identified)
+- Verified original indication and full product details (indication text, dosage form, manufacturer) from the MHRA register and BNF
+- Mechanism of action data for D-glucose
+- Warnings and contraindications from the SmPC
+- A credible biological rationale and any preclinical or clinical evidence for the predicted indication before further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

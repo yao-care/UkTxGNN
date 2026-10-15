@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Model Prediction Only (L5)
-nav_order: 616
+nav_order: 659
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,74 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Zanamivir is a neuraminidase inhibitor developed for the treatment of influenza, acting on the influenza virus surface neuraminidase enzyme. The TxGNN model's top-ranked prediction suggests possible efficacy in **Pyelonephritis**, but this candidate currently has **no supporting clinical trials** and **no supporting literature**, and the internal mechanistic review flags the prediction as a likely false positive arising from knowledge-graph embedding co-occurrence rather than genuine biological plausibility.
-
----
+Zanamivir is a neuraminidase inhibitor, originally used to treat influenza.
+The TxGNN model predicts it may be effective for **pyelonephritis**, but this is a model prediction only, with **no clinical trials** and **no publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (inferred from the drug's documented neuraminidase-inhibitor mechanism; not formally recorded in the available UK regulatory dataset for this candidate) |
+| Original Indication | Influenza (approved indication text is not available in the UK licence record) |
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Zanamivir is not formally recorded in this Evidence Pack (flagged as a data gap). However, the rationale annotations accompanying every one of the ten TxGNN predictions in this pack consistently and independently describe Zanamivir as a neuraminidase inhibitor that acts specifically on the influenza virus's surface neuraminidase enzyme — consistent with its established clinical use as an anti-influenza agent.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Zanamivir is known to be a viral neuraminidase inhibitor, and its efficacy in influenza is established.
 
-Pyelonephritis, by contrast, is predominantly a bacterial ascending urinary tract infection. There is no known pathogenic mechanism involving viral neuraminidase in this condition, and no structural or pathway overlap between the influenza neuraminidase target and the bacterial processes underlying pyelonephritis. The internal mechanistic assessment concludes that this pairing lacks a plausible biological link and most likely reflects a knowledge-graph embedding artefact (co-occurrence-driven false positive) rather than a genuine repurposing signal.
+Pyelonephritis is typically a bacterial infection of the kidney. No plausible mechanistic link to viral neuraminidase inhibition has been identified, and the high TxGNN score appears to be a graph-based prediction without supporting clinical or literature evidence. On current information, the prediction is not mechanistically credible.
 
-This assessment is reinforced by the complete absence of supporting clinical trials or literature for this specific drug–disease pair, and by the fact that the same pattern (high TxGNN score paired with an explicitly implausible mechanistic rationale) recurs across all ten ranked predictions in this Evidence Pack — including dengue susceptibility, aspergillosis susceptibility, Legionnaires' disease susceptibility, and Schistosoma mansoni infection susceptibility, none of which share any plausible mechanistic pathway with a neuraminidase inhibitor.
-
----
+Other top-ranked predictions (for example disorders of tyrosine and phenylalanine metabolism, dengue susceptibility, aspergillosis susceptibility, Legionnaires' disease susceptibility, HIV susceptibility and schistosomiasis susceptibility) show the same pattern. None has a supporting clinical trial, and the few publications retrieved concern influenza antiviral resistance and are unrelated to those conditions.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for pyelonephritis.
 
 ## UK Market Information
 
-Zanamivir currently has no marketing authorisations on record in this dataset (market status: **Not marketed**; total licences: **0**). No authorised UK product information is available for cross-reference against the predicted indication.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| BNF code 0503040A0AAAAAA | Zanamivir powder for inhalation 5 mg disk with device | Inhalation powder | Not available in the compiled data |
 
----
+The BNF classification for this product is within the antiviral chapter (influenza, section 5.3.4).
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication-related disease associations (knowledge graph, not label text):** epilepsy, chronic obstructive pulmonary disease, severe early-onset COPD, bronchial disease and delirium. These come from graph associations and should be verified against the SmPC. Inhaled zanamivir carries a recognised risk of bronchospasm in people with airways disease.
+- **Drug Interactions (8 recorded):**
+  - Insulin human (inhalation, rapid acting): Moderate
+  - Clarithromycin, loratadine, montelukast, ketotifen, fexofenadine, ibuprofen and diclofenac: severity level not classified
 
-**Note:** This Evidence Pack flags TFDA-equivalent label warnings/contraindications as a **Blocking** data gap — safety data for this candidate has not yet been retrieved and must be obtained before any further evaluation (see Next Steps).
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (Pyelonephritis) has an L5 evidence level (model prediction only), zero supporting clinical trials, zero supporting literature, and an internal mechanistic review that explicitly identifies it as a probable false positive.
-- All ten ranked predictions in this Evidence Pack show the same pattern — high TxGNN scores with mechanistically implausible rationales — indicating the overall candidate signal for this drug is weak at this stage.
-- Zanamivir is not currently marketed in the relevant jurisdiction (0 marketing authorisations), and formal mechanism-of-action and safety-label data are both missing.
+The prediction rests on model output alone (L5), with no registered trials or relevant publications. Pyelonephritis is a bacterial infection, and there is no plausible mechanistic link to a viral neuraminidase inhibitor.
 
 **To proceed, the following is needed:**
-- Retrieval of official label warnings/contraindications (currently a Blocking data gap; source: regulatory label PDF, e.g. TFDA/MHRA equivalent)
-- Formal mechanism-of-action data from DrugBank or an equivalent source
-- Independent confirmation of a plausible biological mechanism linking neuraminidase inhibition to pyelonephritis before any further evidence collection is warranted
-- If no such mechanism can be established, this candidate should be deprioritised in favour of higher-ranked candidates with actual clinical or literature support
+- Mechanism of action data and a credible mechanistic rationale for the new indication
+- Preclinical or clinical evidence for activity in the predicted condition
+- Approved indication text and dosage form details from the UK licence record
+- SmPC warnings and contraindications for a formal safety review
+- Assessment of route compatibility (inhaled powder versus the route likely needed for a kidney infection)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

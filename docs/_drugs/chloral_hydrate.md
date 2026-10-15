@@ -2,7 +2,7 @@
 layout: default
 title: Chloral Hydrate
 parent: Model Prediction Only (L5)
-nav_order: 149
+nav_order: 154
 evidence_level: L5
 indication_count: 0
 ---

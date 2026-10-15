@@ -2,7 +2,7 @@
 layout: default
 title: Capreomycin
 parent: Model Prediction Only (L5)
-nav_order: 124
+nav_order: 128
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capreomycin: From Tuberculosis to Gout
+# Capreomycin: From Pulmonary Tuberculosis to Gout
 
 ## One-Sentence Summary
 
-Capreomycin is a second-line antimycobacterial antibiotic with an established role in the treatment of multidrug-resistant tuberculosis (MDR-TB).
-The TxGNN model predicts it may be effective for **Gout**, ranking it first across 10 predicted indications with a prediction score of 99.91%.
-However, **no clinical trials** and **no published literature** currently support this repurposing direction, placing this prediction at the lowest evidence level (L5).
+Capreomycin is an injectable antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **gout**, but this rests on the model score alone, with **0 clinical trials** and **0 publications** supporting the prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Multidrug-resistant tuberculosis (MDR-TB) — second-line agent |
+|------|------|
+| Original Indication | Pulmonary tuberculosis (the licence record has no approved indication text, so this is taken from the TxGNN knowledge graph) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Capreomycin is a cyclic polypeptide antibiotic that inhibits bacterial protein synthesis by binding to the prokaryotic 70S ribosomal subunit (interacting with both 30S and 50S subunits to inhibit translocation). It is active almost exclusively against *Mycobacterium* species and is reserved as a second-line injectable agent for drug-resistant tuberculosis.
+Currently, detailed mechanism of action data is not available. Based on known information, capreomycin is a cyclic peptide antibiotic used against mycobacteria, and its efficacy in pulmonary tuberculosis is established. It is generally understood to act on bacterial protein synthesis.
 
-Gout is a metabolic disorder characterised by hyperuricaemia, monosodium urate crystal deposition in joints and soft tissues, and recurrent episodes of acute inflammatory arthritis. This pathophysiological process — rooted in purine metabolism dysregulation and uric acid handling — is entirely distinct from mycobacterial infection. There is no established mechanistic link between ribosomal protein synthesis inhibition and uric acid metabolism or neutrophil-driven crystal-induced inflammation. The repurposing rationale notes that Capreomycin's known nephrotoxicity could theoretically impair renal uric acid excretion, but this represents an adverse-effect pathway rather than a therapeutic mechanism, and would be expected to *worsen* hyperuricaemia rather than ameliorate it.
+No convincing mechanistic link to gout has been identified. Gout is driven by urate crystal-induced inflammation, which has no obvious connection to an antimycobacterial agent. The high TxGNN score (99.91%) reflects a model-based association only and is not supported by any trial or publication.
 
-Established, well-tolerated therapies for gout (allopurinol, febuxostat for urate-lowering; colchicine and NSAIDs for acute flares) already address the key unmet needs, substantially reducing the motivation for repurposing. The high TxGNN score (99.91%) most likely reflects structural connectivity within the knowledge graph — for example, shared disease-node neighbourhoods with other inflammatory or musculoskeletal conditions — rather than genuine mechanistic plausibility.
+Other predicted indications show the same pattern. Rheumatoid arthritis (99.85%), osteoarthritis (99.74%), sclerosing cholangitis (99.65%) and meningococcal infection (99.57%) all have no trials or literature behind them. Meningococcal infection is the only one with an antibacterial rationale. However, capreomycin has no data showing activity against *Neisseria meningitidis*, its CNS penetration is poor, and effective established alternatives exist. Several other top predictions are rare congenital skeletal or developmental conditions, for which no pharmacological rationale is apparent.
 
 ---
 
@@ -77,15 +76,24 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Capreomycin holds **no MHRA marketing authorisations** and is **not currently marketed** in the United Kingdom. It does not appear in the BNF as an active licensed product for UK prescribing. Any future repurposing effort would require a de novo regulatory pathway — either a full Marketing Authorisation Application (MAA) submitted to the MHRA, or consideration under the Innovative Licensing and Access Pathway (ILAP) — in addition to clinical evidence generation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501090C0AAAAAA | Capreomycin Inj 1g Vl | Injection (vial) | Not stated in the compiled data |
+
+The identifier above is a drug-code style reference, not a standard MHRA "PL" number. The authorisation details should be verified against the MHRA records and the BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged in the knowledge graph** (not label text): kidney disease, pyoureter, liver disease, gallbladder disease, potassium deficiency, hearing loss disorder, and X-linked mixed deafness with perilymphatic gusher. These are consistent with the known risks of nephrotoxicity, ototoxicity and electrolyte disturbance, which is particularly relevant to a gout population where renal urate handling matters.
+- **Drug Interactions**: 58 interactions were identified. Two are rated **Major**:
+  - **Kanamycin**
+  - **Neomycin**
 
-> **Note for clinical reviewers:** Although formal safety data was not available in this Evidence Pack, Capreomycin's established toxicity profile from its TB indication includes **nephrotoxicity** (tubular damage, electrolyte wasting) and **ototoxicity** (vestibular and cochlear). These risks are particularly pertinent when evaluating any chronic-use indication such as gout, and must be formally characterised before any further development is considered.
+  Most others are rated Moderate, including amphotericin B (including lipid, cholesteryl sulfate and liposomal formulations), corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, beclomethasone), proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, rabeprazole, dexlansoprazole), aminosalicylates (mesalazine, balsalazide, olsalazine) and exenatide.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,19 +102,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score to gout (99.91%), there is no clinical trial evidence, no supporting literature, and no plausible mechanistic pathway linking Capreomycin's mode of action to the pathophysiology of gout. The known toxicity profile — including nephrotoxicity — is particularly unfavourable for a condition in which long-term treatment is often required and renal function is already a key determinant of uric acid clearance. All ten predicted indications in this pack are L5 / Hold, indicating a systemic absence of translational evidence for this candidate.
+The prediction is based on the model score alone (Evidence Level L5), with no trials, no literature and no plausible mechanistic link between an antimycobacterial injectable and gout. Its nephrotoxicity, ototoxicity, electrolyte effects and parenteral-only administration are also unfavourable for a chronic condition.
 
-**To proceed, the following would be needed:**
-
-- Detailed mechanism of action data (MOA) to identify any indirect pathway between protein synthesis inhibition and uric acid metabolism or inflammatory signalling
-- Preclinical (in vitro or in vivo) data demonstrating any measurable effect on serum uric acid levels, xanthine oxidase activity, or NLRP3 inflammasome activation
-- A compelling clinical unmet need justification, given the availability of multiple safe and effective standard-of-care therapies for gout
-- Complete safety data (SmPC, key warnings, contraindications, DDI profile) to enable a full risk–benefit assessment
-- A regulatory strategy to address the complete absence of MHRA marketing authorisation in the United Kingdom
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application to patient care. This report was produced using the TxGNN drug repurposing prediction platform (Evidence Pack v4, data cut-off: 5 April 2026).*
+**To proceed, the following is needed:**
+- Mechanism of action data and any evidence linking capreomycin to urate or inflammatory pathways
+- Preclinical or mechanistic studies supporting activity in gout
+- Verified MHRA authorisation details, including the approved indication and dosage form
+- SmPC warnings and contraindications to complete the safety assessment
+- A risk-benefit assessment against established gout treatments, given the renal and auditory toxicity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

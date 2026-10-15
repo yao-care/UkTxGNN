@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Flurbiprofen
-parent: High Evidence (L1-L2)
-nav_order: 281
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 300
+evidence_level: L5
 indication_count: 10
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,80 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-Flurbiprofen 的十個 TxGNN 候選中，rank 1（acromesomelic dysplasia）分數最高但 evidence pack 自身的 rationale 已標註為知識圖譜嵌入偏差、無臨床意義；只有 rank 8（ankylosing spondylitis）有實質文獻證據（L1、20篇文獻、S3、Proceed with Guardrails）。依報告角色設定的專業判斷，以 rank 8 作為本報告主軸，並在文中說明排除 rank 1 的理由。
-
-# Flurbiprofen: From NSAID Analgesic Use to Ankylosing Spondylitis
+# Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Flurbiprofen is a propionic-acid derivative NSAID; it is not currently marketed in the UK. Among ten TxGNN-predicted indications reviewed, only **Ankylosing Spondylitis** is supported by genuine clinical evidence — **20 publications**, including seven randomised controlled trials from the 1970s–1980s. The remaining nine top-ranked predictions (mostly rare congenital skeletal dysplasias) are flagged in the evidence pack itself as knowledge-graph embedding artefacts with no plausible inflammatory mechanism and no supporting literature.
-
----
+Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID), originally used for rheumatic conditions such as rheumatoid arthritis and osteoarthritis.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder.
+There are currently **no clinical trials** and **no publications** supporting this prediction, so it is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No UK marketing authorisation data available (drug not currently marketed in the UK) |
-| Predicted New Indication | Ankylosing Spondylitis |
-| TxGNN Prediction Score | 99.97% (model rank 750) |
-| Evidence Level | L1 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from knowledge-graph indication data; no indication text is recorded for the UK authorisation) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (Data Gap DG002). Based on known pharmacology, flurbiprofen is a propionic-acid derivative, non-steroidal anti-inflammatory drug (NSAID) that inhibits cyclo-oxygenase (COX-1/COX-2), reducing prostaglandin synthesis and producing analgesic, anti-inflammatory and antipyretic effects — the standard NSAID class mechanism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Flurbiprofen is an NSAID of the phenylalkanoic acid class. As a class, NSAIDs inhibit cyclo-oxygenase (COX) enzymes and reduce prostaglandin-mediated inflammation and pain. This is the basis of its use in inflammatory and degenerative joint disease.
 
-Ankylosing spondylitis (AS) is a chronic inflammatory spondyloarthropathy in which NSAIDs are first-line, guideline-standard symptomatic therapy. The mechanistic link here is not a novel repurposing hypothesis: it is a well-established NSAID class effect, and the cited literature (dating from 1974–1986) shows flurbiprofen was directly and repeatedly studied head-to-head against indomethacin, phenylbutazone and naproxen specifically in AS populations.
+The predicted condition is different in nature. Acromesomelic dysplasia, Hunter-Thompson type, is a congenital skeletal dysplasia affecting limb development. It has no recognised inflammatory driver that COX inhibition would be expected to modify. The high score most likely reflects proximity in the knowledge graph, such as shared skeletal or joint-related genes or phenotypes, rather than a pharmacological link.
 
-Note on the model's top-ranked candidate: TxGNN's single highest-scoring prediction (acromesomelic dysplasia, Hunter-Thompson type, score 99.99%) and several other top-10 candidates are structural/genetic skeletal or connective-tissue disorders with no inflammatory pathology relevant to NSAID action. The evidence pack's own rationale identifies these as likely artefacts of node proximity within a "skeletal system" cluster in the knowledge graph, without clinical meaning — no trials or literature exist for any of them. Ankylosing spondylitis, ranked 8th by score but the only candidate reaching evidence stage S3, is therefore the clinically meaningful signal in this set.
-
----
+At most, a purely symptomatic role (for example, joint pain relief) can be imagined. No data support even this, and there is no plausible disease-modifying mechanism.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | RCT (double-blind, parallel) | Current Medical Research and Opinion | Flurbiprofen 150–200mg/day vs indomethacin 75–100mg/day, 26 AS patients, 6 weeks; both equally effective for pain and joint tenderness |
-| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | RCT (double-blind crossover) | British Medical Journal | Flurbiprofen 150mg/day vs phenylbutazone 300mg/day, 35 AS patients, 4 weeks; flurbiprofen well tolerated, efficacy approaching phenylbutazone |
-| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | RCT (double-blind crossover) | The New Zealand Medical Journal | Flurbiprofen 200mg/day vs naproxen 750mg/day, 30 AS patients, 4 weeks; both effective, no significant difference; more side effects with flurbiprofen |
-| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | RCT (double-blind, randomised) | The American Journal of Medicine | Flurbiprofen 200mg/day vs indomethacin, 57 AS patients, 26 weeks; effective pain control, some patients controlled on 100mg BID |
-| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | RCT (double-blind, parallel) | Southern Medical Journal | Flurbiprofen vs indomethacin, 26 AS patients, 6 weeks; equally effective for pain and tenderness relief |
-| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | RCT (double-blind, randomised) | The American Journal of Medicine | Flurbiprofen 200mg/day vs phenylbutazone 300mg/day, 90 AS patients, 26 weeks; equally effective |
-| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | RCT (double-blind, parallel) | European Journal of Clinical Pharmacology | Flurbiprofen vs phenylbutazone, 27 AS patients, 6 weeks; equally effective, phenylbutazone non-significantly favoured |
-| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Cohort/Safety | The American Journal of Medicine | Pooled renal/hepatic safety data from 9 Phase III trials, 1,677 patients (AS, OA, RA); no clinically significant abnormalities |
-| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | Review of flurbiprofen pharmacology and use in rheumatic disease incl. AS; efficacy comparable to aspirin/indomethacin with fewer side effects |
-| [3514311](https://pubmed.ncbi.nlm.nih.gov/3514311/) | 1986 | Open-label, multicentre | The Journal of International Medical Research | 336 AS/psoriatic arthropathy patients (of 1,396 total), 12-month UK study; significant pain improvement from week 2 onward |
+Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010I0AAACAC (as recorded; not in standard MHRA PL format, so verify against the MHRA register) | Flurbiprofen Tab 100 mg | Tablet (inferred from product name) | Not stated in the data compiled |
+
+The data show one valid single-ingredient authorisation. Indication text, manufacturer and dosage-form fields are not populated, and no NICE-appraised indication information was available. Check the BNF and the current SmPC for the licensed indications.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (knowledge-graph-derived, not label text)**: The knowledge graph links flurbiprofen with contraindications in these conditions:
+  - Cardiovascular: hypertension, myocardial infarction, coronary thrombosis, heart disease, cardiovascular disease
+  - Gastrointestinal and hepatic: peptic ulcer disease (including active), liver disease, gallbladder disease
+  - Renal: kidney disease, pyoureter
+  - Haematological: blood coagulation disease, haemoglobinopathy
+  - Other: substance abuse/dependence
 
----
+  These reflect the usual NSAID class cautions and must be confirmed against the SmPC.
+- **Drug Interactions**: The interaction query returned 100 interacting drugs; the 20 reviewed here are mostly moderate-level.
+  - Moderate interactions include acetylsalicylic acid, the corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, the sulfonylureas (glimepiride, chlorpropamide), mesalazine, balsalazide, aprepitant, and several bowel preparations and potassium salts.
+  - Minor interactions include famotidine, cimetidine and linaclotide.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Seven double-blind RCTs plus pooled safety data consistently support flurbiprofen's efficacy in ankylosing spondylitis, comparable to indomethacin, phenylbutazone and naproxen — this is an established NSAID class-effect indication rather than a novel mechanistic hypothesis. However, flurbiprofen currently holds no UK marketing authorisation, and the supporting evidence predates 1990 with no modern comparator (e.g. COX-2 selective agents, biologics) or placebo-controlled data.
+The prediction has no supporting trials or publications, and no plausible mechanistic link. The condition is a congenital skeletal dysplasia with no inflammatory target for flurbiprofen, so the high score likely reflects knowledge-graph proximity.
 
 **To proceed, the following is needed:**
-- SmPC/BNF-equivalent warnings, contraindications and DDI data (currently a Blocking data gap — DG001)
-- Confirmed mechanism of action documentation (High-priority data gap — DG002)
-- A UK licensing or import pathway assessment, since the product is not currently marketed
-- Contemporary comparative evidence against current standard-of-care AS therapy (modern NSAIDs, biologics)
+- Mechanism of action data, and any biological rationale linking COX inhibition to this condition
+- Preclinical or clinical evidence in this disorder (none currently exists)
+- Full safety data from the SmPC and BNF, given the cardiovascular, gastrointestinal, renal and hepatic cautions above
+- Complete UK authorisation details (indication text, dosage form, valid licence number)
+
+**Note on other predictions:** Among the other predicted indications for flurbiprofen, only **ankylosing spondylitis** (rank 8) has supporting literature. This includes several randomised, double-blind comparisons with indomethacin, phenylbutazone and naproxen from the 1970s and 1980s (for example [PMID 4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) and [PMID 3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/)). It sits at evidence level L3 and is better viewed as an extension within the NSAID class than as novel repurposing. It would be the more productive direction to evaluate, and its evidence should not be transferred to the indication reported here.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

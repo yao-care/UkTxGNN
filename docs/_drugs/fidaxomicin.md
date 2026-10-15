@@ -2,7 +2,7 @@
 layout: default
 title: Fidaxomicin
 parent: Model Prediction Only (L5)
-nav_order: 269
+nav_order: 287
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fidaxomicin: From Clostridium difficile Infection to Staphylococcal Scalded Skin Syndrome
+# Fidaxomicin: From Clostridium difficile Colitis to Staphylococcal Scalded Skin Syndrome
 
 ## One-Sentence Summary
 
-> Fidaxomicin is a narrow-spectrum, gut-targeted antibiotic developed for **Clostridioides difficile infection (CDI)**, based on the mechanistic context available in this evidence pack (no UK marketing authorisation is currently on record).
-> The TxGNN model predicts it may be effective for **Staphylococcal Scalded Skin Syndrome (SSSS)**,
-> but **no clinical trials and no supporting literature** currently exist for this specific indication, and the evidence pack itself flags the mechanistic link as weak, likely knowledge-graph noise.
-
----
+Fidaxomicin is a narrow-spectrum antibacterial, originally used to treat *Clostridium difficile* colitis.
+The TxGNN model predicts it may be effective for **staphylococcal scalded skin syndrome**,
+but there are currently **no clinical trials** and **no relevant publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in UK licensing data (no MHRA marketing authorisation on record); evidence-pack rationale indicates fidaxomicin's established target is *Clostridioides difficile* infection |
-| Predicted New Indication | Staphylococcal Scalded Skin Syndrome |
+| Original Indication | *Clostridium difficile* colitis (the licence record compiled for this report contains no approved indication text; this is taken from the drug's known indications in the knowledge graph) |
+| Predicted New Indication | Staphylococcal scalded skin syndrome |
 | TxGNN Prediction Score | 99.71% |
-| Evidence Level | L5 (model prediction only; no trials or literature) |
-| UK Market Status | Not marketed (no licence currently held) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for fidaxomicin is not available in this evidence pack. Based on the contextual information present, fidaxomicin is a narrow-spectrum macrolide-class antibiotic with very low systemic absorption — it remains largely confined to the gastrointestinal tract, which is why it is used against *C. difficile* there rather than as a systemically distributed antibacterial.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, fidaxomicin is a narrow-spectrum macrocyclic antibacterial that inhibits bacterial RNA polymerase. Its efficacy in *C. difficile* colitis is established, and it may show in vitro activity against some Gram-positive organisms, including *Staphylococcus aureus*.
 
-SSSS, by contrast, is a **systemic, toxin-mediated skin disease** caused by exfoliative toxins produced by *Staphylococcus aureus*, requiring a drug that reaches therapeutic concentrations in the skin/bloodstream, together with confirmed anti-staphylococcal killing activity. The evidence pack's own mechanistic analysis for this candidate states that fidaxomicin's minimal systemic absorption and its unestablished efficacy against *S. aureus* make this pairing pharmacologically implausible, and assesses it as likely **knowledge-graph noise** rather than a genuine biological signal.
+That in vitro activity is the only link to the predicted indication, and it is a weak one. Staphylococcal scalded skin syndrome is a toxin-mediated skin disease caused by *S. aureus*. Fidaxomicin has minimal systemic absorption, so it is unlikely to reach effective concentrations in skin or blood. The high TxGNN score probably reflects similarity between anti-infective agents and infections rather than a demonstrated pharmacological rationale.
 
-Taken together, the mechanistic rationale for this prediction is weak: there is no shared target pathway between fidaxomicin's known site of action (colonic lumen, anaerobic Gram-positive/​*C. difficile*-directed activity) and the systemic anti-staphylococcal exposure that SSSS treatment would require.
-
----
+Other top-ranked predictions (bullous impetigo, impetigo, inhalational botulism, toxin-mediated infectious botulism, vulvovaginal candidiasis, hordeolum, *S. aureus* pneumonia, punctate epithelial keratoconjunctivitis and parasitic skin disease) also have scores of 0.986 to 0.997. None has trial or supporting literature evidence, and several lack any plausible mechanism (for example, an antibacterial for a fungal infection, a parasitic disease, or a preformed neurotoxin). The only conceivable link for toxin-mediated infectious botulism is gut-localised activity against *Clostridium* species, which is indirect reasoning only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the predicted indication of staphylococcal scalded skin syndrome.
 
----
+For completeness, one publication was retrieved for the lower-ranked prediction of *S. aureus* pneumonia: [31634096](https://pubmed.ncbi.nlm.nih.gov/31634096/) (2019, Review, *Journal of Hospital Medicine*), a general hospital medicine literature update noting that vancomycin or fidaxomicin are first-line treatments for *C. difficile* infection. It is not specific to *S. aureus* disease and is not supporting evidence.
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501070ACAAAAAA (BNF-style code, not a PL number) | Fidaxomicin 200 mg tablets | Tablet | Not stated in the data compiled for this report |
+
+The BNF code suggests a position in BNF chapter 5 (infections), but the data compiled for this report do not include the product's dosage form field, manufacturer or approved indication text.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions**
 
-*Note: this evidence pack flags UK product-label warnings/contraindications as a **Blocking** data gap (DG001) — safety cannot be formally assessed until this is resolved.*
+The interaction screen returned 79 interacting drugs in total; the first 20 are summarised here.
 
----
+- **Major:** *Vibrio cholerae* CVD 103-HgR strain live antigen (live vaccine).
+- **Moderate:** alpelisib, apalutamide, binimetinib, picosulfuric acid.
+- **Minor:** nifedipine, amiodarone, brigatinib, cabozantinib, capmatinib, diltiazem, spironolactone, clarithromycin, verapamil, cyclosporine, daclatasvir, dronedarone, erythromycin, elagolix, ivacaftor.
+
+Please refer to the SmPC and BNF for warnings and contraindications, which are not available in the data compiled for this report. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support (L5), and the evidence pack's own mechanistic assessment concludes the drug–disease link is pharmacologically weak and likely a knowledge-graph artefact rather than a genuine repurposing signal. No further action is warranted on this indication without new supporting data.
+The prediction is supported only by the TxGNN score, with no trials or relevant publications. Fidaxomicin's minimal systemic absorption makes efficacy in a toxin-mediated systemic skin disease implausible, and established treatments already exist.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product-label warnings and contraindications (Blocking gap, DG001) — required before any S1 safety screening can occur
-- Confirmed mechanism of action data (High-priority gap, DG002)
-- In vitro or in vivo evidence of fidaxomicin activity against *S. aureus* exfoliative-toxin-producing strains
-- Pharmacokinetic data demonstrating systemic/dermal exposure sufficient for SSSS treatment
-- If pursuing repurposing further, evaluate the higher-evidence candidate in this pack instead — *Staphylococcus aureus* pneumonia (rank 8, L4) — which has at least one supporting literature reference, though still only a narrative review, not primary data
+- Mechanism of action data and a clear pharmacological rationale for staphylococcal scalded skin syndrome
+- Preclinical data on activity against toxin-producing *S. aureus* strains and on skin or tissue exposure
+- Confirmation of whether a topical or systemic formulation could achieve effective concentrations
+- Warnings and contraindications from the SmPC and BNF, so that safety screening can be completed
+- Approved indication text and product details for the UK authorisation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

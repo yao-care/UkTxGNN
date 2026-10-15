@@ -2,7 +2,7 @@
 layout: default
 title: Albendazole
 parent: High Evidence (L1-L2)
-nav_order: 28
+nav_order: 29
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,103 +29,102 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Albendazole: From Intestinal Helminthiasis to Alveolar Echinococcosis
+# Albendazole: From Cystic Echinococcosis to Alveolar Echinococcosis
 
 ## One-Sentence Summary
 
-Albendazole is a broad-spectrum benzimidazole antiparasitic agent, long established globally as the WHO first-line treatment for intestinal helminthiasis and other helminthic infections.
-The TxGNN model predicts it may be effective for **alveolar echinococcosis** — a progressive, potentially fatal hepatic parasitosis caused by *Echinococcus multilocularis* — with **5 clinical trials** and **20 publications** currently supporting this direction.
-Notably, this prediction aligns precisely with established international guidelines: Albendazole already occupies the standard-of-care role worldwide, and the principal remaining step for UK practice is obtaining formal MHRA marketing authorisation.
-
----
+Albendazole is a benzimidazole anthelmintic, originally used to treat cystic echinococcosis and cysticercosis.
+The TxGNN model predicts it may be effective for **alveolar echinococcosis**,
+with **3 clinical trials** and **20 publications** currently supporting this direction. The drug is already guideline-recommended for this disease, so this is closer to an established use than a novel repurposing.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Intestinal helminthiasis (broad-spectrum antiparasitic; no current UK licence) |
+|------|------|
+| Original Indication | Cystic echinococcosis, cysticercosis (from the knowledge graph; the UK authorisation record contains no indication text) |
 | Predicted New Indication | Alveolar echinococcosis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L2 |
-| UK Market Status | Not currently marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Albendazole belongs to the benzimidazole class of anthelmintics. It acts by binding irreversibly to β-tubulin subunits within parasitic larvae and adult worms, blocking microtubule polymerisation and disrupting cytoskeletal integrity. This simultaneously inhibits glucose uptake across the tegument, rapidly depleting intracellular glycogen stores and causing parasitic immobilisation and, in susceptible species, death. Critically, the β-tubulin target in *Echinococcus multilocularis* metacestodes is pharmacologically homologous to that found in intestinal nematodes, providing a well-grounded mechanistic rationale for efficacy in alveolar echinococcosis (AE).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, albendazole is a benzimidazole that binds parasite beta-tubulin, inhibiting microtubule polymerisation and glucose uptake.
 
-Alveolar echinococcosis is caused by the larval metacestode stage of *E. multilocularis*, which infiltrates hepatic tissue in a pseudotumoral pattern and, without treatment, carries a near-100% case-fatality rate within 10–15 years of infection. Albendazole exerts a parasitostatic rather than parasiticidal effect in this setting — it halts or slows larval growth rather than eradicating established lesions — necessitating long-term, often lifelong, treatment in inoperable or partially resected cases. Despite this limitation, the drug is firmly embedded in clinical guidelines. The 2010 WHO/ERCE International Expert Consensus (PMID 19931502) designated Albendazole as the standard pharmacological treatment for AE, a position consistently reaffirmed through 2025 in multiple international systematic reviews and clinical management guidelines.
+Alveolar echinococcosis is caused by *Echinococcus multilocularis*, which is closely related to *E. granulosus*, the cause of cystic echinococcosis (the original indication). Because both are larval cestode infections, the same tubulin-based mechanism is expected to apply.
 
-In practical terms, this assessment is less a conventional drug repurposing exercise and more a formal UK evidence review for a globally recognised indication that currently lacks MHRA marketing authorisation. The TxGNN prediction score of 99.97% reflects the strong mechanistic and empirical overlap between Albendazole's established antiparasitic activity and AE pathobiology. The completed Phase 2 RCT (NCT07182305, n=194) provides the highest-grade direct clinical evidence currently available.
-
----
+Albendazole is already the guideline-recommended benzimidazole for alveolar echinococcosis. It is used as long-term parasitostatic therapy and as an adjunct to surgery. Reviews note that it is not parasiticidal in vivo in this disease, so it often needs to be continued for a long time.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
-|-------------|-------|--------|-----------|-------------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Completed | 194 | Prospective RCT of Albendazole in early-stage AE in Kyrgyzstan (completed July 2023); highest-grade direct trial evidence for this indication; confirms Albendazole as effective parasitostatic treatment for small hepatic *E. multilocularis* lesions identified by ultrasound surveillance |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | NA | Completed | 50 | EchinoVISTA prospective observational study (completed August 2021); characterised biological and imaging markers of parasite viability in hepatic AE patients receiving Albendazole; establishes a monitoring framework to support timely treatment-withdrawal decisions |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | NA | Unknown | 24 | RCT evaluating adjuvant Albendazole versus placebo after pulmonary hydatid cyst resection; primary endpoint is 6-month recurrence rate; applicable to the broader *Echinococcus* surgical adjuvant setting, though study status is unconfirmed |
-| [NCT05824442](https://clinicaltrials.gov/study/NCT05824442) | NA | Recruiting | 43 | Multiplex quantitative PCR diagnostic accuracy study for AE and CE; Albendazole noted as standard treatment context; no direct efficacy endpoint — provides diagnostic infrastructure relevant to future treatment trials |
-| [NCT07176598](https://clinicaltrials.gov/study/NCT07176598) | N/A | Completed | 1 | Case report of misdiagnosed intramuscular hydatid cyst in the deltoid; Albendazole used post-operatively; incidental context only, no statistical contribution to efficacy evidence |
-
----
+|---------|------|------|------|---------|
+| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Phase 2 | Completed | 194 | Albendazole treatment in early-stage alveolar echinococcosis found by ultrasound screening in Kyrgyzstan; directly tests the drug in the target disease |
+| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | Not applicable | Completed | 50 | Parasite viability and follow-up markers in albendazole-treated hepatic alveolar echinococcosis; informs decisions on stopping treatment |
+| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | Not applicable | Unknown | 24 | Randomised trial of adjuvant albendazole after pulmonary hydatid cyst resection; cystic disease, so only indirectly relevant |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Expert Consensus (WHO/ERCE) | *Acta Tropica* | International consensus on diagnosis and treatment of AE and CE; designates Albendazole as first-line medical therapy; covers dosing regimen, cyclical vs continuous use, and monitoring requirements |
-| [39311470](https://pubmed.ncbi.nlm.nih.gov/39311470/) | 2024 | Review | *Parasite (Paris)* | Comprehensive update on benzimidazole chemotherapy for AE; addresses parasitostatic limitations, benzimidazole-induced hepatotoxicity risk, and identification of candidate next-generation antiparasitic drugs |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Comprehensive Review | *Clin Microbiol Rev* | 21st-century advances in echinococcosis covering molecular epidemiology, improved diagnostics, and treatment outcomes with Albendazole; western China identified as highest-endemicity region |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Comparative Treatment Review | *Parasite (Paris)* | Evaluates Albendazole and mebendazole in AE and CE; reviews whole-organism drug screening for novel candidates; confirms no approved replacements currently identified |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Research Progress Review | *Chin J Schistosomiasis Control* | Chinese review specific to Albendazole use in AE; covers clinical efficacy data, pharmacokinetic limitations (low aqueous solubility, variable oral bioavailability), and novel formulation strategies under investigation |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Clinical Management Review | *World J Gastroenterol* | Current management of hepatic echinococcosis; confirms surgery plus Albendazole as the cornerstone of treatment; addresses indefinite medical management for inoperable cases |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Clinical Review | *Tidsskr Nor Laegeforen* | Norwegian clinical review of AE as a rare imported disease; management = hepatic resection combined with prolonged Albendazole; of direct relevance to UK practice where AE is similarly seen in travellers and immigrants |
-| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Clinical Review | *Semin Liver Dis* | Hepatic AE: pseudotumoral presentation, European resurgence, and management guidance; Albendazole lifelong maintenance treatment is standard practice for inoperable or incompletely resected disease |
-| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Novel Treatment Options Review | *Acta Tropica* | Confirms no approved non-surgical alternative to Albendazole or mebendazole exists; reviews experimental options; underscores Albendazole's uncontested position as the only recommended antiparasitic for AE |
-| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Pharmacological Study | *Antimicrob Agents Chemother* | In vivo study of Albendazole formulations in a hepatic AE rat model; crystal dispersion system (ABZ-CSD) showed substantially improved bioavailability and therapeutic outcomes compared to standard formulation; relevant to future UK formulation selection |
-
----
+|------|-----|------|------|---------|
+| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Review | Acta Trop | Expert consensus on diagnosis, treatment and follow-up of cystic and alveolar echinococcosis |
+| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Review | Clin Microbiol Rev | Advances in the 21st century in echinococcosis diagnosis and treatment |
+| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Review | Tidsskr Nor Laegeforen | Treatment is often surgery combined with prolonged antiparasitic therapy |
+| [34161992](https://pubmed.ncbi.nlm.nih.gov/34161992/) | 2021 | Review | Semin Liver Dis | Hepatic alveolar echinococcosis: clinical features and management |
+| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Review | World J Gastroenterol | Surgery is the cornerstone of liver echinococcosis management |
+| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Review | Acta Trop | No non-surgical option yet replaces albendazole or mebendazole |
+| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Observational study | J Antimicrob Chemother | Open-label comparison of albendazole and mebendazole in 35 patients followed for an average of 39 months |
+| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Review | Parasitology | Albendazole is not parasiticidal and can cause severe adverse effects; repurposing of pyronaridine explored |
+| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Preclinical | Antimicrob Agents Chemother | Solubilised albendazole formulations tested in a rat model of hepatic alveolar echinococcosis |
+| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Review | Chin J Schisto Control | Albendazole may delay progression in patients who cannot have surgery |
 
 ## UK Market Information
 
-Albendazole currently holds **no MHRA marketing authorisation** in the United Kingdom. There are no licensed products available through the standard NHS dispensing pathway (MHRA total licences: 0).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0505030A0AAABAB (BNF-style product code, not a PL number) | Albendazole chewable tablets 400 mg | Chewable tablet | Not recorded in the data compiled for this report |
 
-In current UK clinical practice, patients requiring Albendazole for AE are managed through one of the following routes:
-
-- **Specials** — manufactured or imported unlicensed medicine under MHRA exemption (Section 10, Human Medicines Regulations 2012)
-- **Named Patient Basis** — via a licensed manufacturer or importer
-- **NHS England Highly Specialised Services** — for rare imported parasitic diseases, typically managed through specialist tropical medicine or hepatology centres (e.g., Hospital for Tropical Diseases, London; Liverpool School of Tropical Medicine)
-
-Clinicians should consult the **BNF section on anthelmintics** and refer to UKTIS/TOXBASE for toxicity information when prescribing on an unlicensed basis. Informed consent documentation and adherence to MHRA guidance on unlicensed medicines are required.
-
----
+The record lists one valid single-ingredient product. Dosage form and indication text are not available, so please check the current SmPC and BNF.
 
 ## Safety Considerations
 
-Formal UK SmPC safety data is not available for Albendazole (no current MHRA marketing authorisation). Please refer to the WHO/ERCE 2010 consensus guidelines, the BNF, and published pharmacological literature for safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
+- **Contraindications and risk conditions (from the knowledge graph, not label text):** liver disease, gallbladder disease, neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), pancytopenia, and aplastic anaemia (including idiopathic).
+- **Drug interactions:** 96 interactions were identified. Examples rated **Moderate** include aprepitant, cobicistat, deferasirox, radioiodine (I-123 and I-131), fostamatinib, alemtuzumab, amprenavir, anagrelide, apalutamide, bendamustine, bexarotene, binimetinib, boceprevir and bosentan. Examples rated **Minor** include cimetidine, dexamethasone, lidocaine and armodafinil.
+- **Other:** Literature notes that albendazole can cause severe adverse effects during prolonged use. Given the haematological and liver risks above, regular blood count and liver function monitoring is advisable.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Albendazole is internationally recognised as the sole pharmacological standard of care for alveolar echinococcosis, endorsed by the 2010 WHO/ERCE Expert Consensus and supported by a completed Phase 2 RCT (NCT07182305, n=194, completed July 2023). The primary barrier to formal UK use is the absence of MHRA marketing authorisation, not a lack of clinical evidence.
+One completed Phase 2 trial in early-stage alveolar echinococcosis, together with guideline-level support in reviews, supports albendazole in this disease. However, the evidence is not Phase 3, albendazole is parasitostatic rather than curative here, and long-term use carries haematological and hepatic risks.
 
 **To proceed, the following is needed:**
-- Determine the most appropriate UK licensing pathway: MHRA marketing authorisation application (e.g., well-established use bibliographic application under Directive 2001/83/EC Article 10a) or continuation under a Specials route for individual patients in the interim
-- Retrieve full safety data (SmPC, drug interaction profile, contraindication list) from DrugBank and WHO sources to complete the pharmacovigilance review — this remains a formal data gap in the current pack
-- Establish a UK-specific clinical monitoring protocol: full blood count (FBC with differential), liver function tests (LFTs), and renal function at baseline and at regular intervals throughout treatment, particularly for long-term AE management
-- Define the target UK patient population: predominantly travellers, immigrants, or residents from endemic regions (Central Asia, Central Europe, western China, Switzerland); design referral pathway through specialist hepatology or tropical medicine centres
-- Develop contraception and pregnancy guidance for women of childbearing potential, given the known teratogenicity of benzimidazole compounds
-- Consult NICE regarding whether a highly specialised technologies appraisal or NHS England commissioning guidance document is required, given AE's rare disease classification in the UK
+- Published results from NCT07182305 and the final analysis of NCT02876146
+- Current SmPC text, including the licensed indications and dosing for the UK product
+- A monitoring plan for long-term use (full blood count, liver function)
+- Interaction review of concomitant medicines, especially enzyme inducers and inhibitors
+- Mechanism of action data to complete the evidence summary
+
+---
+
+### Other Predicted Indications (for reference)
+
+| Predicted Indication | Score | Evidence Level | Decision | Comment |
+|------|------|------|------|------|
+| Coenurosis | 99.83% | L1 (by analogy) | Proceed with Guardrails | Phase 3 data are in neurocysticercosis, not coenurosis itself; coenurosis is supported only by case reports |
+| Cestode infectious disease | 99.74% | L1 | Proceed with Guardrails | Umbrella term covering existing uses |
+| Intestinal helminthiasis | 98.08% | L1 | Proceed with Guardrails | Established use against soil-transmitted helminths, with a placebo-controlled study in 870 patients |
+| Dermatofibrosarcoma protuberans | 98.82% | L5 | Hold | No clinical or literature evidence |
+| Lung benign neoplasm | 98.34% | L4 | Hold | Only preclinical cancer data; the echinococcal lung cyst literature is not neoplastic |
+| Lung hilum carcinoma | 98.33% | L5 | Hold | Prediction only |
+| Inclusion body myopathy with Paget disease and/or frontotemporal dementia | 98.29% | L5 | Hold | No plausible mechanistic link |
+| Fibroma of lung | 98.26% | L5 | Hold | No supporting evidence |
+| Hamartoma of lung | 98.26% | L5 | Hold | Only an unrelated dirofilariasis case report |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

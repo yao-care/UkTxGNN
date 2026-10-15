@@ -2,7 +2,7 @@
 layout: default
 title: Certolizumab Pegol
 parent: Moderate Evidence (L3-L4)
-nav_order: 143
+nav_order: 148
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,72 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-# Certolizumab Pegol: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Certolizumab pegol: From Crohn's Disease and Rheumatoid Arthritis to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Certolizumab pegol (Cimzia®) is a PEGylated anti-TNF-α biological agent with established efficacy across rheumatoid arthritis, axial spondyloarthritis, psoriatic arthritis, and Crohn's disease.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis** — a rare and severe extra-articular complication of rheumatoid arthritis — with a prediction confidence of **99.78%**.
-However, current supporting evidence consists of only **3 peripherally related clinical trials** and **no directly relevant published literature**, placing this prediction at an early mechanistic hypothesis stage (L4).
+Certolizumab pegol is a PEGylated TNF-alpha inhibitor, originally used for Crohn's disease, rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis.
+The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but there are **no registered clinical trials** and only **7 publications**, mostly case reports (several describing vasculitis as an adverse reaction to the drug).
+Evidence for this top-ranked prediction is therefore weak, and the recommendation is to hold.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Rheumatoid arthritis, axial spondyloarthritis, psoriatic arthritis, Crohn's disease (based on published evidence; UK regulatory data not retrieved — see below) |
-| Predicted New Indication | Rheumatoid Vasculitis |
+|------|------|
+| Original Indication | Crohn's disease, inflammatory bowel disease, rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis (the MHRA licence text was not available in the data compiled for this report) |
+| Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L4 |
-| UK Market Status | No marketing authorisation recorded in system (data gap likely — see UK Market Information) |
-| Number of Marketing Authorisations | 0 recorded |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on published information, certolizumab pegol is a PEGylated Fab' fragment of a recombinant humanised monoclonal antibody that selectively neutralises both soluble and membrane-bound TNF-α. Three structurally distinctive features carry particular clinical relevance: it lacks an Fc region (which prevents complement-dependent cytotoxicity and antibody-dependent cellular toxicity); its PEGylated architecture enhances penetration into chronically inflamed tissues; and it demonstrates negligible placental transfer (neonatal plasma levels <3 µg/mL), establishing it as the preferred TNF inhibitor for women of childbearing potential among the approved agents in this class.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, certolizumab pegol is a PEGylated, Fc-free antigen-binding fragment of a humanised anti-TNF-alpha antibody. Its efficacy in rheumatoid arthritis has been established, and mechanistically it may be applicable to rheumatoid vasculitis.
 
-Rheumatoid vasculitis (RV) develops in fewer than 1% of patients with long-standing, seropositive rheumatoid arthritis. Its core pathology involves immune complex deposition in small-to-medium vessel walls, complement activation, and local TNF-α–driven inflammation leading to vascular occlusion and ischaemic tissue injury. Since TNF-α is the shared upstream driver of both RA-related joint destruction and RV-associated vascular injury, the mechanistic rationale for applying an anti-TNF agent to RV is theoretically coherent and internally consistent with the drug's known mode of action.
-
-The TxGNN model's high-confidence prediction reflects this biological plausibility: RV is a direct complication of RA, the primary disease for which certolizumab pegol is approved, and the knowledge graph is likely identifying the overlap of inflammatory nodes between these two phenotypes. Anti-TNF agents as a class have been used off-label in severe, refractory RV — generally in combination with corticosteroids and cyclophosphamide — based on case reports and expert consensus rather than controlled trial evidence. The principal limitation is the complete absence of prospectively designed, RV-specific clinical trials for any anti-TNF agent, which reflects both the rarity of the condition and the practical difficulties of enrolment at adequate scale.
+Rheumatoid vasculitis is a serious extra-articular complication of rheumatoid arthritis, so TNF-alpha blockade is biologically plausible. However, the literature points in two directions. Only one report (PMID 34786446) describes a possible benefit, in leg ulcers due to rheumatoid vasculitis. Several others describe vasculitis arising as a paradoxical adverse reaction to certolizumab or other anti-TNF agents, including leukocytoclastic vasculitis, urticarial vasculitis, glomerulonephritis and medium-vessel vasculitis. This signal is a safety concern and weakens the case for the prediction.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | Observational | Completed | 184 | Non-interventional study of tocilizumab (not certolizumab pegol) in RA patients with inadequate DMARD or biologic response; no rheumatoid vasculitis sub-group; observational design with no active comparator — results cannot be extrapolated to RV |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | Observational | Unknown | 750,000 | Large pharmacovigilance study assessing risk of incident immune-mediated inflammatory diseases (IMIDs) in patients on biologics or immunosuppressants; evaluates safety signal rather than RV therapeutic efficacy; status uncertain |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing elective shoulder arthroplasty; compares discontinuation durations prior to surgery; no relevance to rheumatoid vasculitis treatment outcomes |
-
-> **Note:** None of the identified trials was designed to evaluate certolizumab pegol specifically in rheumatoid vasculitis; all three received a Grade C relevance rating. No ISRCTN or EU Clinical Trials Register (EU CTR) entries were identified for this indication.
+Currently no related clinical trials registered for rheumatoid vasculitis.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature directly evaluating certolizumab pegol in rheumatoid vasculitis is available. The PubMed search returned 0 results for this drug–disease combination.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34786446](https://pubmed.ncbi.nlm.nih.gov/34786446/) | 2021 | Case report | JAAD Case Reports | Certolizumab pegol treatment for leg ulcers due to rheumatoid vasculitis; the only report suggesting possible benefit |
+| [36597972](https://pubmed.ncbi.nlm.nih.gov/36597972/) | 2022 | Multicentre cohort | RMD Open | Long-term follow-up of 80 patients with uveitis due to immune-mediated inflammatory diseases (uveitis, not vasculitis, so indirect) |
+| [36418084](https://pubmed.ncbi.nlm.nih.gov/36418084/) | 2022 | Review | RMD Open | Comparison of infection frequency across immune-modulatory drugs using SmPC data |
+| [28405087](https://pubmed.ncbi.nlm.nih.gov/28405087/) | 2017 | Case report (adverse reaction) | Proc (Bayl Univ Med Cent) | Leukocytoclastic vasculitis drug reaction to certolizumab pegol |
+| [31990069](https://pubmed.ncbi.nlm.nih.gov/31990069/) | 2020 | Case report (adverse reaction) | J Clin Pharm Ther | Hypocomplementaemic urticarial vasculitis during certolizumab treatment for rheumatoid arthritis |
+| [32687015](https://pubmed.ncbi.nlm.nih.gov/32687015/) | 2021 | Case report (adverse reaction) | Mod Rheumatol Case Rep | Rapidly progressive glomerulonephritis after starting certolizumab pegol |
+| [41158918](https://pubmed.ncbi.nlm.nih.gov/41158918/) | 2025 | Case report (adverse reaction) | Cureus | Anti-TNF-related medium-vessel vasculitis in a patient switched to certolizumab pegol |
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation records for certolizumab pegol were retrieved by this system (0 licences recorded; market status recorded as not marketed). This is very likely a **data gap within the current system** — Cimzia® (certolizumab pegol; UCB Pharma S.A.) is understood to hold MHRA marketing authorisation for multiple inflammatory indications in the United Kingdom, with entries in the BNF under immune system / biological medicines / anti-TNF agents.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001030Y0AAAAAA | Certolizumab Pegol Inj 200mg/1ml Pfs | Not stated | Not stated |
 
-Clinicians should verify the current authorisation status and all approved indications via:
-- [MHRA Products Licence Database](https://products.mhra.gov.uk/)
-- [Electronic Medicines Compendium (eMC) — Cimzia® SmPC](https://www.medicines.org.uk/emc/)
-- British National Formulary (BNF) — Biologicals / Tumour necrosis factor alpha inhibitors
+The data compiled for this report list one valid single-ingredient authorisation. The dosage form, manufacturer and approved indication text are not available, so please check the current SmPC, MHRA records, NICE appraisals and the BNF for licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (100 interactions recorded; the main ones are listed below):
+- **Major:** corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, budesonide, triamcinolone including ophthalmic), deferiprone, and radiopharmaceuticals (ibritumomab tiuxetan, iobenguane I-131, tositumomab I-131)
+- **Moderate:** metronidazole, tinidazole, pegvaliase, rosuvastatin, simvastatin
+- **Minor:** zinc salts (acetate, gluconate, sulfate)
+
+**Class-related concern specific to this prediction:** the published case reports describe vasculitis, urticarial vasculitis and glomerulonephritis arising during anti-TNF therapy, including certolizumab pegol. Using the drug to treat vasculitis therefore carries a risk of paradoxical worsening.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -103,16 +109,18 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for certolizumab pegol in rheumatoid vasculitis is theoretically sound — RV shares the TNF-α–driven inflammatory driver of RA — but the direct evidence base currently stands at Level 4 (mechanistic plausibility only). No clinical trials have been specifically designed for this indication, no published literature directly evaluates it, and the extreme rarity of RV (<1% of RA patients) makes prospective enrolment logistically demanding. This prediction represents a research hypothesis that requires further investigative work before any clinical development or commissioning decision can be made.
+The TxGNN score is very high (99.78%) and TNF-alpha blockade is plausible in a complication of rheumatoid arthritis. However, the evidence is limited to case reports, there are no registered trials, and several reports describe vasculitis as an adverse reaction to the drug, which is a safety concern.
 
 **To proceed, the following is needed:**
-- Systematic review of published case reports and case series evaluating anti-TNF agents as a class in rheumatoid vasculitis, to establish whether class-level evidence is sufficient to justify a further step
-- Retrospective analysis of the BSRBR-RA (British Society for Rheumatology Biologics Register for Rheumatoid Arthritis) to identify RV events and clinical outcomes in patients treated with certolizumab pegol
-- Formal retrieval and review of the Cimzia® MHRA-approved SmPC to document existing labelled warnings, contraindications, and any off-label use guidance relevant to vasculitic presentations
-- DrugBank API query (DB08904) to formally document the TNF-α inhibition mechanism of action and support the mechanistic justification section
-- Expert opinion from British Society for Rheumatology (BSR) / British Health Professionals in Rheumatology (BHPR) on current clinical practice for anti-TNF use in immunosuppressant-refractory rheumatoid vasculitis
+- Controlled or prospective studies of certolizumab pegol in rheumatoid vasculitis
+- A careful review of the paradoxical anti-TNF vasculitis signal, including pharmacovigilance data
+- Detailed mechanism of action data
+- UK-specific licence details (dosage form, approved indications) and SmPC warnings and contraindications
 
-> **Note on other TxGNN predictions:** The same Evidence Pack identifies **Inflammatory Spondylopathy** (rank 3, L1 evidence, 99.73% confidence) and **Vertebral Disease** (rank 6, L1 evidence, 99.26% confidence) as high-confidence predictions supported by multiple completed Phase 3 RCTs and systematic reviews. These indications — encompassing axial spondyloarthritis and ankylosing spondylitis — may warrant separate evaluation reports with a "Proceed with Guardrails" recommendation, given the substantially more mature evidence base available.
+**Other predictions worth noting (lower-ranked in the model, but with stronger evidence):**
+- **Inflammatory spondylopathy (rank 3, L1, Proceed with Guardrails):** supported by several completed Phase 3 placebo-controlled trials (for example NCT01087762, NCT02505542, NCT02552212 in axial spondyloarthritis). This largely overlaps with existing approved indications, so it is closer to an on-label use than true repurposing.
+- **Polyarticular juvenile rheumatoid arthritis (rank 5, L3, Research Question):** supported by one completed open-label Phase 3 paediatric study (NCT01550003, 193 participants) with long-term follow-up (PMID 42439289). It is uncontrolled, so paediatric dosing and long-term safety need confirmation.
+- **Hypermobility of coccyx, Kummell disease and vertebral disease (L4–L5, Hold):** no plausible TNF-related mechanism, or only indirect evidence from spondyloarthritis literature.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

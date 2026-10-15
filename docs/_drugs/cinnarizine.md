@@ -2,7 +2,7 @@
 layout: default
 title: Cinnarizine
 parent: Model Prediction Only (L5)
-nav_order: 164
+nav_order: 171
 evidence_level: L5
 indication_count: 0
 ---

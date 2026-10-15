@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenoxicam
-parent: High Evidence (L1-L2)
-nav_order: 563
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 605
+evidence_level: L5
 indication_count: 10
 ---
 
 # Tenoxicam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,43 +29,50 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Tenoxicam: From Established NSAID Use to Rheumatoid Arthritis
+# Tenoxicam: From Arthritic Joint Disease to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Tenoxicam is an oxicam-class non-steroidal anti-inflammatory drug (NSAID); no original indication or UK marketing history is recorded in this Evidence Pack, and the drug is not currently marketed in the UK. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, a prediction supported by **1 clinical trial** and **20 publications**, though the underlying literature shows this is a long-established use of tenoxicam rather than a genuinely novel repurposing signal.
+Tenoxicam is an oxicam-class non-steroidal anti-inflammatory drug (NSAID), originally used for arthritic joint disease and arthropathy.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with **no registered clinical trials** but **20 publications** (including randomised comparative trials) supporting this direction. Because rheumatoid arthritis is closely related to the original indications, this is closer to an on-label or near-label use than a true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not documented in this Evidence Pack (no UK marketing authorisation on file); the literature confirms tenoxicam is an oxicam-class NSAID historically used for rheumatic and musculoskeletal pain conditions |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Arthritic joint disease; arthropathy (the licence record contains no approved indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L1 (based on the data compiled for this report; see note below) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+*Note on evidence level:* No registered trials are listed for this indication. The L1 rating comes from the published randomised, double-blind comparative studies in rheumatoid arthritis. Most of these are older studies and the abstracts supplied are truncated, so this rating should be verified against the full publications.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the DrugBank field (`original_moa` = Data Gap). However, the supporting literature and rationale data indicate that tenoxicam belongs to the oxicam class of NSAIDs (the same class as piroxicam) and acts as a non-selective COX-1/COX-2 inhibitor, reducing prostaglandin synthesis and thereby producing anti-inflammatory and analgesic effects — the standard pharmacological basis for NSAID use in inflammatory joint disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, tenoxicam is an oxicam NSAID that inhibits cyclooxygenase (COX-1 and COX-2). This reduces prostaglandin-mediated inflammation, pain and swelling in joints.
 
-Rheumatoid arthritis is, in fact, one of the oxicam class's core historical indications rather than a newly hypothesised use. Multiple randomised controlled trials from the 1980s–1990s (e.g. head-to-head comparisons with piroxicam, aceclofenac and naproxen) demonstrate consistent efficacy of tenoxicam in RA symptom control, comparable to other established NSAIDs. This means the TxGNN prediction in this case largely **confirms a well-documented existing use** rather than identifying a genuinely novel therapeutic hypothesis — a distinction that should be considered when interpreting the "repurposing" framing of this candidate.
+Rheumatoid arthritis is an inflammatory joint disease, closely related to the original indications of arthritic joint disease and arthropathy. The same anti-inflammatory and analgesic effect is expected to give symptomatic relief. Reviews report that tenoxicam 20 mg once daily was at least as effective as piroxicam 20 mg in rheumatoid arthritis, osteoarthritis and ankylosing spondylitis.
 
-Mechanistically, the applicability is straightforward: RA is characterised by synovial inflammation driven by prostaglandin-mediated pathways, which is directly addressed by COX inhibition. This is corroborated by pharmacokinetic data showing tenoxicam distributes into synovial fluid in RA patients, supporting local anti-inflammatory activity at the site of disease.
+NSAIDs provide symptom relief only. There is no evidence in the data compiled that tenoxicam modifies the course of the disease.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for rheumatoid arthritis.
+
+For reference, one trial was found for a lower-ranked prediction, headache disorder (acute migraine):
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05508451](https://clinicaltrials.gov/study/NCT05508451) | N/A | Completed | 80 | Compared tenoxicam alone, paracetamol alone, and a tenoxicam-paracetamol combination for postoperative pain control after double-jaw orthognathic surgery (not RA-specific, but confirms tenoxicam's analgesic/anti-inflammatory profile). |
+| [NCT06786650](https://clinicaltrials.gov/study/NCT06786650) | Phase 4 | Active, not recruiting | 100 | Compares intravenous tenoxicam with intravenous ibuprofen for headache relief in acute migraine; no results reported yet |
 
 ---
 
@@ -73,30 +80,36 @@ Mechanistically, the applicability is straightforward: RA is characterised by sy
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | RCT | The Journal of Rheumatology | RCT (n=102) comparing tenoxicam 20 mg OD vs piroxicam 20 mg OD in RA; no significant difference in efficacy or adverse events. |
-| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clinical Rheumatology | Multicentre double-blind RCT (n=292) comparing aceclofenac vs tenoxicam in RA; both showed comparable, sustained clinical improvement over 3 months. |
-| [3915889](https://pubmed.ncbi.nlm.nih.gov/3915889/) | 1985 | Cohort/Trial | European Journal of Rheumatology and Inflammation | Open multicentre study of rectal tenoxicam suppositories (20 mg/day) in 79 patients with RA or arthrosis over 6 weeks; efficacy demonstrated. |
-| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Cohort/Trial | European Journal of Rheumatology and Inflammation | Double-blind parallel trials comparing tenoxicam with piroxicam in osteoarthrosis, RA and ankylosing spondylitis; tenoxicam at least as effective. |
-| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Cohort/Trial | Journal of International Medical Research | Large general-practice study (n=2,963) of oral tenoxicam 20 mg/day for 12 weeks in osteoarthritis and RA; symptom reduction, many continued treatment beyond 52 weeks. |
-| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Review confirming tenoxicam is an effective analgesic/anti-inflammatory for RA, osteoarthritis and ankylosing spondylitis, with efficacy at least equivalent to other NSAIDs. |
-| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Review | Clinical Pharmacokinetics | Pharmacokinetic review: tenoxicam is completely absorbed orally, ~99% protein bound, with no evidence of enterohepatic recycling. |
-| [3262939](https://pubmed.ncbi.nlm.nih.gov/3262939/) | 1988 | PK Study | Therapeutic Drug Monitoring | Studied plasma/synovial fluid distribution of a single 40 mg tenoxicam dose in RA/OA patients; characterised factors determining synovial fluid/plasma ratio. |
-| [8187453](https://pubmed.ncbi.nlm.nih.gov/8187453/) | 1994 | Mechanistic/Basic | Clinical Rheumatology | Investigated tenoxicam's effect on neutrophil chemotaxis in RA patients vs healthy controls; no significant difference found. |
-| [41419140](https://pubmed.ncbi.nlm.nih.gov/41419140/) | 2026 | Formulation Study | European Journal of Pharmaceutical Sciences | Developed a topical nanosponge gel co-delivering baricitinib and tenoxicam for RA; high drug-loading efficiency (67.0% BAR, 82.1% TNX) with amorphised drug state. |
+| [8894360](https://pubmed.ncbi.nlm.nih.gov/8894360/) | 1996 | RCT | Clin Rheumatol | Double-blind, 3-month trial in 292 rheumatoid arthritis patients comparing aceclofenac and tenoxicam; both groups improved clinically |
+| [1593574](https://pubmed.ncbi.nlm.nih.gov/1593574/) | 1992 | Comparative trial | J Rheumatol | Tenoxicam 20 mg vs piroxicam 20 mg in 102 rheumatoid arthritis patients; no difference in efficacy, similar adverse event rates |
+| [2695152](https://pubmed.ncbi.nlm.nih.gov/2695152/) | 1989 | Double-blind RCT | Br J Clin Pract | 1,328 patients with osteoarthritis or rheumatoid arthritis; tenoxicam vs piroxicam, both improved pain and stiffness |
+| [3915885](https://pubmed.ncbi.nlm.nih.gov/3915885/) | 1985 | Clinical study | Eur J Rheumatol Inflamm | Double-blind trials; tenoxicam 20 mg at least as effective as piroxicam in osteoarthrosis, rheumatoid arthritis and ankylosing spondylitis |
+| [2292331](https://pubmed.ncbi.nlm.nih.gov/2292331/) | 1990 | Multicentre study | J Int Med Res | 2,963 general practice patients with osteoarthritis or rheumatoid arthritis treated with 20 mg/day for 12 weeks or longer |
+| [1711963](https://pubmed.ncbi.nlm.nih.gov/1711963/) | 1991 | Review | Drugs | Tenoxicam is an effective analgesic and anti-inflammatory agent in rheumatoid arthritis and other rheumatic conditions, and was at least as well tolerated as piroxicam |
+| [3315620](https://pubmed.ncbi.nlm.nih.gov/3315620/) | 1987 | Review | Drugs | Pharmacology and efficacy review; 20 mg daily comparable to piroxicam 20 mg daily |
+| [3329109](https://pubmed.ncbi.nlm.nih.gov/3329109/) | 1987 | Review | Eur J Rheumatol Inflamm | Overview of 133 clinical studies; efficacy shown in double-blind comparisons, optimal dose 20 mg |
+| [8137596](https://pubmed.ncbi.nlm.nih.gov/8137596/) | 1994 | Pharmacokinetic review | Clin Pharmacokinet | Completely absorbed orally, about 99% protein bound |
+| [1778090](https://pubmed.ncbi.nlm.nih.gov/1778090/) | 1991 | Open study | Curr Med Res Opin | 736 African outpatients with rheumatic disorders given 20 mg daily; efficacy and tolerability assessed |
+
+Most of this evidence dates from the 1980s and 1990s.
 
 ---
 
 ## UK Market Information
 
-Tenoxicam does not currently hold a UK marketing authorisation. `taiwan_regulatory` (used here as the regulatory data field) records **0 licences** and a market status of **Not Marketed**, so no product-level authorisation table can be provided. Any UK deployment of tenoxicam for RA would require a new marketing authorisation pathway (e.g. via MHRA), as no existing licensed product is available to reference against BNF classification.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 100101040AAAAAA | Tenoxicam Tab 20 mg | Not stated | Not stated in the data compiled |
+
+One authorisation (single-ingredient, valid) is recorded. The format of this number does not match a standard MHRA "PL" number, so please verify it against the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-No structured safety data (key warnings, contraindications, or drug interactions) is currently available in the Evidence Pack — please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Supplementary pharmacovigilance note:** A case report identified elsewhere in this Evidence Pack ([PMID 9303679](https://pubmed.ncbi.nlm.nih.gov/9303679/), *Atención Primaria*, 1997) describes alopecia as a possible adverse effect of tenoxicam. This is unrelated to the RA indication under evaluation but should be noted for future pharmacovigilance monitoring.
+One signal appeared in the literature: a published case report (PMID 9303679, 1997) describes alopecia as a possible adverse effect of tenoxicam. As with other NSAIDs, standard class precautions apply (gastrointestinal, cardiovascular and renal risks). Check these against the SmPC.
 
 ---
 
@@ -105,13 +118,18 @@ No structured safety data (key warnings, contraindications, or drug interactions
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- Tenoxicam has decades of RCT-level clinical evidence supporting efficacy in RA, but this largely confirms an already-established NSAID indication rather than representing a novel repurposing hypothesis, and two data gaps are flagged as blocking/high-severity in the Evidence Pack: mechanism of action detail (DG002) and, critically, TFDA/product label warnings and contraindications (DG001, marked **Blocking**), which currently prevents a formal S1 safety pre-assessment.
+Rheumatoid arthritis is closely related to the drug's original indications. Several randomised and comparative studies support symptomatic efficacy equivalent to piroxicam. However, the evidence is old, there are no registered trials, and the safety and licensing data are incomplete.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain full SmPC/product label warnings and contraindications before any safety assessment can proceed
-- Resolve DG002: confirm mechanism of action via DrugBank or equivalent pharmacological reference
-- Clarify UK regulatory pathway, given 0 current marketing authorisations
-- Reassess whether this candidate should be reclassified as "confirmatory of existing use" rather than a novel repurposing opportunity, given the strength of pre-existing RA evidence
+- Confirm the current UK licensed indications, dosage form and SmPC for the authorisation
+- Retrieve full safety data (warnings, contraindications, interactions) from the SmPC and BNF
+- Confirm mechanism of action data from DrugBank
+- Review how tenoxicam compares with current NICE-recommended management of rheumatoid arthritis, since NSAIDs give symptom relief only
+
+**Other predicted indications (for context):**
+- **Headache disorder:** worth further research. One Phase 4 trial (NCT06786650) is ongoing; the mechanism is plausible, but there is no tenoxicam-specific literature. Evidence level L4.
+- **Alopecia:** Hold. The only evidence is an adverse-effect case report, which argues against benefit.
+- **Osteoarthritis susceptibility, trigeminal autonomic cephalalgia, diffuse alopecia areata, brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia syndrome, hypotrichosis simplex of the scalp and congenital hypotrichosis milia:** Hold. These are model predictions only (L5), with no trials, literature or mechanistic support. Symptomatic osteoarthritis would be a separate, better-supported indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: Model Prediction Only (L5)
-nav_order: 520
+nav_order: 558
 evidence_level: L5
 indication_count: 10
 ---
@@ -31,84 +31,90 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 # Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
 
----
-
 ## One-Sentence Summary
 
-Rufinamide is a structurally novel triazole-derivative antiseizure medication (Inovelon®), approved by both the EMA and US FDA for adjunctive treatment of seizures associated with Lennox-Gastaut Syndrome (LGS) in children and adults.
-The TxGNN model predicts it may be effective for **Febrile Infection-Related Epilepsy Syndrome (FIRES)**, a devastating, neuroinflammation-driven form of super-refractory status epilepticus.
-Currently, **no registered clinical trials** and **no direct publications** specifically addressing this indication have been identified; the high TxGNN prediction score of **99.57%** most likely reflects the close topological proximity between FIRES and LGS in the underlying biomedical knowledge graph rather than independent clinical validation.
+Rufinamide is an antiseizure medication, originally used as add-on treatment for seizures in Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
+but **no clinical trials and no publications** were found for this specific prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Adjunctive treatment of seizures associated with Lennox-Gastaut Syndrome (LGS) |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome (FIRES) |
+|------|------|
+| Original Indication | Lennox-Gastaut syndrome |
+| Predicted New Indication | Febrile infection-related epilepsy syndrome |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 (mechanistic plausibility; anecdotal case-level evidence not captured in current dataset) |
-| UK Market Status | No marketing authorisation on record |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Rufinamide (1-[2,6-difluorobenzyl]-1H-1,2,3-triazole-4-carboxamide) is a pharmacologically unique compound whose principal mechanism of action is the prolongation of the inactive state of voltage-gated sodium channels. By limiting the frequency of sodium-dependent neuronal action potentials, it produces a broad membrane-stabilising anticonvulsant effect that is mechanistically unrelated to any other antiseizure medication currently available. This mechanism has been validated in three randomised placebo-controlled trials demonstrating significant reduction in total seizures and drop attacks in LGS — a severe, childhood-onset developmental and epileptic encephalopathy characterised by multiple refractory seizure types, abnormal slow spike-and-wave electroencephalographic features, and profound cognitive impairment.
+Detailed mechanism of action data are not available in the data compiled for this report. Published reviews describe rufinamide as a triazole derivative thought to prolong the inactive state of voltage-gated sodium channels, which limits repetitive neuronal firing. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epileptic encephalopathy, is established.
 
-FIRES is an ultra-rare catastrophic epilepsy condition defined by a febrile illness prodrome followed by abrupt onset of super-refractory status epilepticus (SRSE), frequently lasting weeks to months, with severe neuroinflammation as its central pathological driver. While FIRES and LGS are pathophysiologically distinct entities, they share a constellation of clinically salient features: extreme seizure burden, profound multi-drug treatment refractoriness, childhood onset, and long-term neurodevelopmental sequelae. In the biomedical knowledge graph underpinning TxGNN, this phenotypic and clinical overlap likely positions FIRES and LGS as closely connected nodes — a relationship that plausibly explains the exceptionally high prediction score of 0.9957.
+FIRES is also a severe, drug-resistant epilepsy. It follows a febrile illness and causes frequent, prolonged seizures. A drug that suppresses seizure activity in refractory epileptic encephalopathies could plausibly help control FIRES seizures. This is the main basis for the prediction.
 
-From a pharmacological standpoint, sustained sodium channel hyperactivation contributes to the perpetuation of ictal discharge during SRSE. Rufinamide's mechanism of action could theoretically attenuate this activity by reducing neuronal excitability during the acute FIRES phase. Sporadic clinical reports of Rufinamide being incorporated into polytherapy regimens for paediatric SRSE and FIRES do exist in the broader literature, although none are captured in the current evidence dataset. The mechanistic rationale is therefore plausible, but must be interpreted with appropriate caution in the absence of any controlled evidence; FIRES management also necessitates concurrent anti-inflammatory strategies such as the ketogenic diet, corticosteroids, and intravenous immunoglobulin.
+There are two important limits. First, FIRES is driven largely by neuroinflammation, which rufinamide does not address. At best it would offer symptomatic seizure control. Second, the link rests on the model score alone, with no direct clinical data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Rufinamide in febrile infection-related epilepsy syndrome.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature directly addressing Rufinamide in febrile infection-related epilepsy syndrome is available in the current dataset.
+Currently no related literature available.
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation for Rufinamide is recorded in this Evidence Pack. Clinicians should verify the current UK licensing position via the MHRA product licence database and the electronic Medicines Compendium (eMC) before considering prescribing.
+| Reference Code | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0408010AFAAABAB (BNF-style code; PL number not provided) | Rufinamide 200 mg tablets | Tablet | Not stated in the data compiled; BNF chapter 4.8.1 (antiepileptic drugs) |
 
-> **Important note for clinicians:** Rufinamide is marketed as **Inovelon®** and holds a valid EMA marketing authorisation (EU/1/07/393) for adjunctive treatment of seizures associated with Lennox-Gastaut Syndrome in patients aged ≥1 year. Following the UK's departure from the EU, the MHRA separately maintains Great Britain product licences; clinicians should confirm current GB and Northern Ireland licensing status directly with the MHRA. Any use outside the licensed indication constitutes off-label prescribing and requires appropriate governance approval and informed patient/carer consent, in accordance with NICE guidance and GMC Good Practice standards.
+Only one authorisation (single-ingredient, valid) was identified. The licensed indication text, manufacturer and MHRA PL number were not available and should be checked against the current SmPC. The licensed UK indication is adjunctive treatment of seizures in Lennox-Gastaut syndrome. FIRES is not a licensed indication.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the Summary of Product Characteristics (SmPC) and the British National Formulary (BNF) for full prescribing and safety information. Report suspected adverse reactions via the **Yellow Card Scheme** at [https://yellowcard.mhra.gov.uk](https://yellowcard.mhra.gov.uk).
+- **Contraindication signals from the knowledge graph** (these come from drug-disease links in the model's knowledge graph, not from product label text): liver failure, liver disease, gallbladder disease, leukopenia, anxiety disorder, neurotic disorder and dysthymic disorder. Hepatic and haematological status, and psychiatric history, would need careful review in any repurposing study.
+- **Drug interactions**: 100 interactions were identified, all at the level of Moderate among those listed. Examples include:
+  - corticosteroids (hydrocortisone, prednisone, betamethasone, triamcinolone)
+  - opioids and related agents (morphine, diphenoxylate, difenoxin)
+  - bupropion, pioglitazone, metoclopramide and ondansetron
+  - cannabinoids (dronabinol, nabilone)
+  - vitamin D analogues (cholecalciferol, calcifediol, calcitriol)
+
+  Corticosteroid interactions are especially relevant because immunotherapy is commonly used in FIRES.
+
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.57%) for Rufinamide in FIRES, but no clinical trials or targeted published evidence exist for this specific indication at the data cut-off date (April 2026), placing this at Evidence Level L4. The prediction appears principally driven by knowledge graph topology shared with LGS rather than direct clinical validation, and no controlled evidence currently supports a clinical development decision.
+The prediction score is very high, but there are no trials or publications for FIRES, and the evidence level is L5 (model prediction only). Rufinamide does not target the immune-mediated pathology of FIRES.
 
 **To proceed, the following is needed:**
+- Case series, registry data or early-phase studies of rufinamide in FIRES
+- Confirmed mechanism of action data
+- Review of the licensed UK indication, dosing and safety against the current SmPC
+- A safety plan covering hepatic and haematological monitoring, and interactions with corticosteroids and other antiseizure drugs
 
-- **Systematic case-level review:** Identify and collate published case reports and case series describing Rufinamide use in FIRES and paediatric SRSE — anecdotal clinical use exists but is not captured in this dataset
-- **Registry and observational data:** Collaborate with international FIRES/SRSE registries (e.g., pSERG — paediatric Status Epilepticus Research Group; the EpiCARE European Reference Network) to quantify the frequency and outcomes of Rufinamide use in FIRES patients
-- **Mechanistic research:** Investigate whether sodium channel dysfunction contributes to sustained ictal activity in neuroinflammation models of FIRES, and whether Rufinamide modulates neuronal excitability under inflammatory conditions
-- **UK prescribing governance:** Confirm current MHRA GB licensing status and, if proceeding with off-label use, establish an appropriate institutional off-label prescribing framework and patient registry
-- **Full safety dossier:** Obtain complete SmPC safety data including contraindications, pharmacokinetic interactions, and monitoring requirements relevant to critically ill paediatric patients receiving polytherapy in an intensive care setting
-
----
-
-> *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates identified by TxGNN require prospective clinical validation before any clinical application. Healthcare professionals should consult the SmPC, BNF, and relevant NICE guidance before making prescribing decisions.*
+**Note on other predictions:** The other candidates in the list also lack trials, and several raise concerns. Perioral myoclonia with absences and atypical childhood epilepsy with centrotemporal spikes carry a risk that sodium channel blockers worsen seizures. Trigeminal nerve neoplasm and renal-hepatic-pancreatic dysplasia look like model artefacts. "Childhood onset epileptic encephalopathy" has the most literature, but this largely reflects the already-licensed Lennox-Gastaut indication. The literature does not directly support extension to other encephalopathies. Small uncontrolled studies in non-LGS encephalopathies (PMIDs 20666837 and 32334364) could be reviewed as a more evidence-based lead than FIRES.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

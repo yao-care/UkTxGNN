@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Model Prediction Only (L5)
-nav_order: 355
+nav_order: 383
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Maraviroc: From HIV-1 Infection to Multiple Endocrine Neoplasia
+# Maraviroc: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-> Maraviroc is a CCR5 antagonist originally used to treat HIV-1 infection (CCR5-tropic strains) by blocking viral entry into host cells.
-> The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia**, with a very high prediction score,
-> but this candidate currently has **no supporting clinical trials and no supporting literature** — the underlying evidence pack itself flags this as a likely false-positive knowledge-graph artefact rather than a genuine pharmacological signal.
+Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet; the data compiled for this report do not include its approved indication text.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are **no clinical trials** and **no publications** supporting this prediction.
+This is a model-only prediction and should be treated as hypothesis-generating.
 
 ---
 
@@ -43,23 +43,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (CCR5-tropic strains) — based on established pharmacology; not captured in this evidence pack's licensing data because Maraviroc has no UK marketing authorisation on record |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Maraviroc is flagged as a data gap in this evidence pack (DG002). Based on established pharmacological knowledge, Maraviroc is a small-molecule CCR5 antagonist: it binds CCR5, a chemokine co-receptor on host CD4+ T-cells, blocking the entry of CCR5-tropic HIV-1 into the cell. This mechanism is unrelated to cell proliferation, tumour suppressor genes, or endocrine signalling pathways.
+Maraviroc is a CCR5 antagonist. Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects general knowledge of the drug class rather than a supplied source.
 
-Multiple Endocrine Neoplasia (MEN) is a hereditary endocrine tumour syndrome driven by germline mutations in *MEN1* or *RET*, causing tumours across the pituitary, parathyroid, pancreas and/or thyroid. There is no established biological link between CCR5 chemokine signalling and *MEN1*/*RET*-driven tumourigenesis.
+No established link exists between CCR5 blockade and the pathogenesis of multiple endocrine neoplasia (MEN). MEN is driven by alterations in genes such as MEN1, RET and CDKN1B. The high TxGNN score comes from knowledge-graph patterns alone and is not backed by any trial or publication. At present the prediction is not mechanistically supported.
 
-The repurposing rationale supplied with this candidate explicitly states that the high TxGNN score likely reflects an indirect node connection within the knowledge graph rather than a true mechanistic relationship — a recognised pattern of false positives in graph-based prediction models. With zero clinical trials and zero literature records supporting this pairing, the evidence level is L5 (model prediction only), and the appropriate decision at this stage is to **hold**, not to pursue this candidate further without independent mechanistic justification.
+### Other predictions reviewed
+
+Other predicted indications with higher evidence levels are listed below for context. None has maraviroc-specific clinical data.
+
+| Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|------|------|------|------|
+| HER2 positive breast carcinoma | 99.22% | L4 | Preclinical work shows autocrine CCL5 contributes to trastuzumab resistance through ERK activation, which gives mechanistic support for CCR5 blockade. This is the most biologically supported of the predictions, and it is classed as a research question. |
+| Cytomegalovirus infection | 99.23% | L4 | CMV encodes a chemokine receptor homologue (US28), so there is some plausibility. The linked paper is an observational study of immune markers in HIV, which gives only indirect context. |
+| Primary cutaneous T-cell lymphoma | 99.72% | L5 | Chemokine receptors are expressed on skin-homing T cells. The only linked paper is a review on ACKR1, not on maraviroc. |
+| Other predictions (acne, paediatric SLE, cutaneous B-cell lymphoma, candidiasis, complement C4A deficiency) | 99.24–99.76% | L5 | Prediction only, with no supporting maraviroc data. |
 
 ---
 
@@ -71,21 +80,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for multiple endocrine neoplasia.
 
 ---
 
 ## UK Market Information
 
-Maraviroc currently holds **no marketing authorisation in the UK** (0 licences on record in this evidence pack). No dosage form, product name, or approved indication data is available for this jurisdiction.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010ADAAAAAA (BNF code) | Maraviroc tablets 150 mg | Tablet | Not available in the data compiled |
+
+This is one valid single-ingredient product. The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications from the knowledge graph.** These are drug–disease contraindication edges from the TxGNN knowledge graph (PrimeKG), not label text, and they should be verified against the SmPC. The conditions listed include:
+- Liver and biliary disease: liver disease, drug-induced liver injury, gallbladder disease, chronic hepatitis B virus infection, hepatitis C virus infection
+- Kidney disease: kidney disease, chronic kidney disease, chronic renal failure syndrome, end-stage renal failure
+- Cardiovascular disease: coronary artery disease, myocardial infarction, myocardial ischaemia, coronary thrombosis
+- Orthostatic conditions: orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy
+- Other: hemoglobinopathy, pyoureter, infectious disease
 
-*(Note: TFDA/MHRA-equivalent warnings and contraindications data are recorded as a Blocking data gap (DG001) in this evidence pack and have not yet been reviewed.)*
+**Drug interactions.** The interaction query returned 93 interactions. Examples from the first 20 records reviewed:
+- **Major:** clarithromycin
+- **Moderate:** aprepitant, dexamethasone, cimetidine, eliglustat, naltrexone, mannitol, clotrimazole, miconazole, papaverine, rolapitant, troglitazone, cobicistat, deferasirox, diazoxide, phentolamine, promethazine, amyl nitrite, epoprostenol, fostamatinib
+
+Label warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,16 +116,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Despite a high raw TxGNN score, the mechanistic rationale supplied alongside this prediction indicates no known biological connection between CCR5 antagonism and MEN pathogenesis, and there is no supporting clinical trial or literature evidence (L5, decision stage S0). This profile is consistent with a knowledge-graph false positive rather than a genuine repurposing signal, so this candidate should not proceed past the current hold stage.
+The prediction for multiple endocrine neoplasia rests on a graph-based score alone, with no trials, no literature and no plausible mechanistic link. Label-level safety data and the approved indication are also missing.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data for Maraviroc (currently a High-severity data gap, DG002)
-- UK/MHRA regulatory and SmPC data, including warnings and contraindications (currently a Blocking data gap, DG001)
-- A dedicated preclinical or mechanistic study directly testing CCR5 involvement in *MEN1*/*RET*-driven endocrine tumourigenesis, if this hypothesis is to be pursued at all
-- Ongoing monitoring of the knowledge graph/model outputs, as this pattern suggests the underlying node connectivity for this drug–disease pair warrants review
-
-**Note on other candidates in this evidence pack:**
-Although ranked lower by TxGNN score, two other predictions in this dataset show comparatively stronger mechanistic coherence and have already progressed to decision stage S1 ("Research Question"): HER2-positive breast carcinoma (rank 10), where a cited preclinical study (PMID 32404410) shows autocrine CCL5 signalling through its receptor CCR5 drives trastuzumab resistance via ERK activation — a plausible target for Maraviroc; and cutaneous T-cell lymphoma (ranks 3 and 5), where CCR5/CCL5 signalling has a theoretical role in malignant T-cell skin homing. Both remain at the preclinical/mechanistic evidence level (L4) and require further validation, but they represent a more defensible starting point for further evaluation than the top-ranked MEN prediction.
+- The approved indication text, full SmPC warnings and contraindications for the UK product
+- Mechanism of action data to support any mechanistic analysis
+- Preclinical evidence linking CCR5 blockade to MEN biology
+- Consideration of HER2-positive breast carcinoma as a better-supported research question, starting with preclinical validation of CCL5/CCR5 inhibition in trastuzumab resistance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Nabumetone
 parent: Model Prediction Only (L5)
-nav_order: 400
+nav_order: 430
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nabumetone: From NSAID Pain Management to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Nabumetone: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Nabumetone is a non-steroidal anti-inflammatory drug (NSAID), with its class-level use in osteoarthritis (OA) and rheumatoid arthritis (RA) pain and inflammation management referenced within the evidence pack's own rationale texts (no formal original indication record was available in this dataset). The TxGNN model's top prediction is **Acromesomelic Dysplasia, Hunter-Thompson Type**, but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic assessment concludes there is no plausible pharmacological link.
-
----
+Nabumetone is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and related joint disease.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type** (a rare genetic skeletal disorder), but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded; NSAID class use in OA/RA pain and inflammation referenced in rationale evidence only |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
-| TxGNN Prediction Score | 99.99% (rank 277 of all candidates) |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (the licence record held no indication text; these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (original_moa: Data Gap). Based on known information, Nabumetone belongs to the NSAID class, with COX inhibition as its presumed pharmacological mechanism, referenced through its rationale linkage to OA/RA pain management in lower-ranked candidates within this evidence pack.
+Detailed mechanism of action data is not currently available for this drug. Nabumetone is understood to be a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain. Its use in rheumatoid arthritis and osteoarthritis is established.
 
-For the top-ranked candidate, however, the evidence pack's own mechanistic assessment explicitly states there is **no reasonable biological link**: Acromesomelic Dysplasia, Hunter-Thompson Type is caused by *NPR2* gene mutations, resulting in a growth-plate cartilage regulatory disorder. This is a non-inflammatory, structural skeletal dysplasia — it has no established relationship to the anti-inflammatory/analgesic mechanism of NSAIDs such as nabumetone.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function mutations in *CDMP1/GDF5*. Nabumetone has no known interaction with the GDF5/BMP signalling pathway. The high score most likely reflects the disease's proximity to musculoskeletal and arthropathy terms in the knowledge graph rather than a causal mechanism. At most, an NSAID might give symptomatic pain relief, not modify the disease.
 
-This is a clear example of the TxGNN model producing a statistically high similarity score without corresponding biological plausibility, a known limitation of pure network-embedding-based repurposing scores when disconnected from mechanistic or clinical validation.
+Of the ten predictions reviewed, the most biologically coherent are indirect and symptomatic:
+- **Spondyloarthropathy, susceptibility to** (score 99.94%, L4): NSAIDs are first-line therapy for spondyloarthritis, but the evidence is class-level, not specific to nabumetone, and "susceptibility" denotes a genetic risk entity rather than an active disease.
+- **Rheumatoid nodulosis** (score 99.93%, L4): a variant of rheumatoid disease, so symptom control is plausible, but NSAIDs do not alter nodule formation.
+- **Pseudoachondroplasia** (score 99.98%, L5): early-onset osteoarthritis could be eased symptomatically, with no evidence of disease modification.
 
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+The remaining predictions (brachyolmia-amelogenesis imperfecta syndrome, myosclerosis, colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachyolmia, brachydactyly-syndactyly syndrome, WHIM syndrome) have no plausible mechanistic link to COX inhibition.
 
 ## UK Market Information
 
-Nabumetone is currently **not marketed** in the UK according to the source dataset, with no marketing authorisations recorded (total_licenses: 0). No product-level information is available for this candidate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010X0AAAAAA | Nabumetone Tab 500mg | Tablet (inferred from the product name) | Not available in the data compiled for this report |
 
----
+Only one valid single-ingredient authorisation is recorded. The identifier does not follow the usual MHRA "PL XXXXX/XXXX" format, so the entry should be checked against the MHRA product database before being relied on.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph** (drug-disease links, not label text): hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease (including active), substance abuse/dependence, blood coagulation disease, myocardial infarction, coronary thrombosis, haemoglobinopathy, cardiovascular disease and heart disease. These are consistent with known NSAID class concerns (gastrointestinal, cardiovascular, renal and bleeding risks) and must be confirmed against the SmPC.
+- **Drug interactions** (100 recorded; most relevant shown):
+  - Moderate: acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, sulfonylureas (glimepiride, chlorpropamide), mesalazine, balsalazide, potassium citrate, potassium bicarbonate, vancomycin, and bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes, sodium sulfate).
+  - Minor: ranitidine, cimetidine, linaclotide.
+- **Pregnancy and development:** NSAIDs are generally avoided in pregnancy, which complicates any rationale for developmental syndromes.
+- **Additional risk:** in WHIM syndrome, NSAID-related platelet and gastrointestinal effects would add risk without a mechanistic benefit.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Acromesomelic Dysplasia, Hunter-Thompson Type) has no supporting clinical trials or literature (L5, Decision Stage S0), and the evidence pack's own mechanistic rationale explicitly rejects a plausible pharmacological connection between NSAID activity and this non-inflammatory genetic skeletal disorder.
+The top-ranked prediction is supported only by a model score, with no clinical trials, no literature and no plausible mechanistic link to nabumetone. The high score most likely reflects graph proximity rather than biology, and the drug carries recognised NSAID safety risks.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product labelling — warnings, contraindications (currently Blocking data gap, DG001)
-- Confirmed mechanism of action (MOA) data from DrugBank or SmPC (High priority data gap, DG002)
-- If repurposing is still of interest for this drug, consider redirecting evaluation toward the **more mechanistically plausible lower-ranked candidates** in this evidence pack, which reached S1/Research Question status rather than Hold:
-  - **Pseudoachondroplasia** (rank 7, L4) — NSAID commonly used for symptomatic joint pain in this population
-  - **Spondyloarthropathy, susceptibility to** (rank 8, L4) — NSAIDs are a first-line class treatment for spondyloarthropathies
-  - **Rheumatoid Nodulosis** (rank 10, L4) — an RA-spectrum condition where NSAID use is already established for the broader disease category
+- Mechanism of action data for nabumetone
+- Label warnings and contraindications from the SmPC and BNF, and the approved indication text and dosage form for the UK authorisation
+- For the two L4 candidates (spondyloarthropathy, rheumatoid nodulosis), a search for nabumetone-specific trials and literature, which may justify treating them as research questions
+- For pseudoachondroplasia, consideration of a research question on symptomatic NSAID use for secondary arthropathy pain
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

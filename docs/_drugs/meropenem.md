@@ -2,15 +2,15 @@
 layout: default
 title: Meropenem
 parent: Moderate Evidence (L3-L4)
-nav_order: 366
-evidence_level: L3
+nav_order: 395
+evidence_level: L4
 indication_count: 10
 ---
 
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Meropenem: From Broad-Spectrum Antibacterial Therapy to Bacterial Arthritis
+# Meropenem: From Serious Bacterial Infections (including Pseudomonas aeruginosa Infection, Peritonitis and Bacterial Meningitis) to Bacterial Arthritis
 
 ## One-Sentence Summary
 
-Meropenem is a carbapenem-class broad-spectrum antibacterial agent; detailed original licensed indication data is not available in this evidence pack. The TxGNN model predicts it may be effective for **Bacterial Arthritis**, with **1 clinical trial** (indirect relevance only) and **20 publications** — mostly case reports and observational studies — currently supporting this direction.
+Meropenem is a broad-spectrum carbapenem antibiotic, originally used for serious bacterial infections such as *Pseudomonas aeruginosa* infection, peritonitis and bacterial meningitis.
+The TxGNN model predicts it may be effective for **bacterial arthritis**, but there are **no registered clinical trials** and the **20 publications** retrieved are mostly case reports, retrospective cohorts, reviews and laboratory studies.
 
 ---
 
@@ -41,54 +42,69 @@ Meropenem is a carbapenem-class broad-spectrum antibacterial agent; detailed ori
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (see Data Gaps below) |
-| Predicted New Indication | Bacterial Arthritis |
+| Original Indication | Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded on the UK authorisation) |
+| Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, meropenem belongs to the carbapenem class of broad-spectrum beta-lactam antibiotics; its efficacy in serious bacterial infections is well established in general clinical use, and mechanistically it may be applicable to bacterial (septic) arthritis.
+Meropenem is a carbapenem that kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis. Detailed mechanism of action data are not otherwise available. It covers many Gram-negative bacilli (including ESBL producers), many Gram-positive organisms and anaerobes.
 
-Meropenem has activity against the common Gram-positive and Gram-negative aerobic organisms — and some anaerobes — that cause septic arthritis, and is frequently used empirically or as an alternative agent when multidrug-resistant (MDR) pathogens are suspected. However, no dedicated prospective clinical trial has been conducted specifically for this indication; the supporting literature consists largely of case reports, retrospective cohorts, and in-vitro/orthopaedic-device studies rather than interventional trials designed to test efficacy in bacterial arthritis directly.
+Bacterial arthritis (septic arthritis) is a joint infection caused by the same kinds of organisms meropenem already treats in its established indications. These include Gram-negative bacilli and *Burkholderia pseudomallei*, the cause of melioidosis, which can involve bone and joints. The link is therefore biologically plausible, and the prediction probably reflects this antibacterial overlap.
+
+The literature is only indirect support, though. Most reports are single cases or small retrospective series in which meropenem was one of the agents used. Examples are an ESBL-producing *Klebsiella pneumoniae* septic arthritis case treated with meropenem plus amikacin and joint washout, and a melioidosis series in which all isolates were meropenem-susceptible. These do not show that meropenem is better than, or even as good as, standard joint-infection regimens. For most joint infections, narrower agents are preferred under antimicrobial stewardship principles.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01371656](https://clinicaltrials.gov/study/NCT01371656) | Phase 3 | Completed | 624 | Evaluated levofloxacin (not meropenem) to prevent bacteraemia in children with acute leukaemia/HSCT; relevance graded **C** — not a meropenem-specific or arthritis-specific trial, included here for completeness only |
-
-No clinical trial directly evaluates meropenem for bacterial arthritis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+No randomised trials were found. The most relevant of the 20 publications retrieved are below, with the many off-target results omitted.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38139869](https://pubmed.ncbi.nlm.nih.gov/38139869/) | 2023 | Case Report | Pharmaceuticals (Basel) | Native hip septic arthritis due to *Bacillus pumilus* and *Paenibacillus barengoltzii* managed successfully with long-term antibiotic therapy |
-| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Case Series | Indian J Med Microbiol | Retrospective review of 22 musculoskeletal melioidosis cases; septic arthritis and osteomyelitis isolates were susceptible to meropenem |
-| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohort Study | Le Infezioni in Medicina | Retrospective cohort characterising osteoarticular melioidosis, a rare focal bone/joint presentation |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Observational | Clinical Laboratory | Analysis of pathogen distribution and antimicrobial resistance in bone and joint infections among young children |
-| [38134096](https://pubmed.ncbi.nlm.nih.gov/38134096/) | 2023 | Case Report | Medicine | *Campylobacter fetus*-induced psoas abscess in a patient with gouty arthritis |
-| [37713001](https://pubmed.ncbi.nlm.nih.gov/37713001/) | 2024 | Observational | Eur J Orthop Surg Traumatol | Antibiogram development for empiric antibiotic prescribing in non-spinal orthopaedic infections |
-| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | In Vitro Study | J Bone Joint Surg Am | Thermal stability and elution kinetics of meropenem (among others) in PMMA bone cement for orthopaedic infection |
-| [38808002](https://pubmed.ncbi.nlm.nih.gov/38808002/) | 2024 | Case Report | Frontiers in Public Health | *Streptococcus suis* meningitis case; noted pathogen can also cause arthritis |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Review of off-label vs. formal recommendations for antibiotics (including carbapenems) against MDR Gram-positive and Gram-negative bacteria |
-| [40119266](https://pubmed.ncbi.nlm.nih.gov/40119266/) | 2025 | Case Report | BMC Infect Dis | Septic shock caused by drug-resistant *Edwardsiella tarda*, with literature review |
+| [17433752](https://pubmed.ncbi.nlm.nih.gov/17433752/) | 2007 | Case report | Joint Bone Spine | Two immunocompromised adults with ESBL-producing *K. pneumoniae* septic arthritis, treated successfully with meropenem and amikacin plus early arthroscopic washout |
+| [35146367](https://pubmed.ncbi.nlm.nih.gov/35146367/) | 2021 | Cohort | Le Infezioni in Medicina | Retrospective cohort characterising osteoarticular melioidosis, a rare focal presentation |
+| [39489417](https://pubmed.ncbi.nlm.nih.gov/39489417/) | 2024 | Retrospective review | Indian J Med Microbiol | 22 musculoskeletal melioidosis cases (9 septic arthritis); all isolates were meropenem-susceptible |
+| [39380073](https://pubmed.ncbi.nlm.nih.gov/39380073/) | 2024 | Case report | J Med Case Rep | Disseminated melioidosis with septic arthritis, initially misdiagnosed and difficult to treat with routine antibiotics |
+| [39288382](https://pubmed.ncbi.nlm.nih.gov/39288382/) | 2024 | Case report and systematic review | J Infect Dev Ctries | Leptospirosis-melioidosis coinfection with osteomyelitis, plus a literature review |
+| [38375100](https://pubmed.ncbi.nlm.nih.gov/38375100/) | 2024 | Case report | Infect Drug Resist | *Streptococcus suis* meningitis complicated by arthritis |
+| [36678359](https://pubmed.ncbi.nlm.nih.gov/36678359/) | 2022 | Review | Pathogens | Antibiotics versus phage therapy for melioidosis |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label use versus formal recommendations of antibiotics for multidrug-resistant bacterial infections |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohort | Clin Lab | Pathogen distribution and resistance in bone and joint infections in children under four |
+| [33857030](https://pubmed.ncbi.nlm.nih.gov/33857030/) | 2021 | In vitro study | J Bone Joint Surg Am | Thermal stability and elution of meropenem and other antibiotics from bone cement |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501022A0AAAAAA | Meropenem injection 500 mg vial (dry powder) | Powder for injection (vial) | Not recorded in the data compiled for this report |
+
+This is the only authorisation listed. The identifier is not in the usual PL format, so please check the authorisation details against the MHRA register, the SmPC and the BNF before relying on them.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and cautions (knowledge-graph associations, not label text):** epilepsy, kidney disease, thrombocytopenia, *Clostridium difficile* colitis, pyoureter and perinatal necrotizing enterocolitis. Please verify these against the SmPC.
+- **Drug Interactions:** 14 interactions were recorded.
+  - **Major:** bupropion, iohexol and iopamidol.
+  - **Moderate:** picosulfuric acid, polyethylene glycol (3350 with electrolytes), nitisinone, sodium sulfate, lindane, ethinylestradiol, alpelisib, encorafenib, mycophenolic acid, pemetrexed and teriflunomide.
+
+Please refer to the SmPC and BNF for full safety information, including renal dose adjustment and seizure risk. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -97,13 +113,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Evidence specific to bacterial arthritis is limited to case reports, small retrospective series, and in-vitro/device studies (Evidence Level L3); no clinical trial has directly tested meropenem for this indication. Critically, mechanism-of-action data and UK/local product label safety and contraindication information are both flagged as data gaps — one of which (label warnings/contraindications) is a **Blocking** gap that prevents even an initial safety screen (S1).
+The prediction score is very high and the antibacterial rationale is plausible. However, there are no registered trials, no randomised evidence, and the literature is mostly case reports and retrospective series. Meropenem would be reserved for resistant or ESBL-producing organisms, such as in the case reports above, rather than used routinely, and standard joint-infection regimens remain preferred.
 
 **To proceed, the following is needed:**
-- Product label safety data — warnings and contraindications (Blocking gap, DG001)
-- Detailed mechanism of action data to support mechanistic-relevance analysis (DG002)
-- Prospective clinical evidence specifically evaluating meropenem in septic/bacterial arthritis
-- Confirmation of UK marketing authorisation and licensing status, as this evidence pack currently shows no UK licences on record
+- Comparative clinical data (prospective studies or trials) of meropenem in culture-confirmed bacterial arthritis, ideally in resistant Gram-negative or melioidosis infection
+- Confirmation of the UK authorisation details (identifier, dosage form and approved indications) from the SmPC and MHRA register
+- Label-based warnings and contraindications from the SmPC and BNF, including seizure risk and renal dosing
+- A stewardship plan defining when meropenem is appropriate for joint infection, for example after microbiological confirmation of a resistant organism
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

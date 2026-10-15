@@ -2,7 +2,7 @@
 layout: default
 title: Nimodipine
 parent: Model Prediction Only (L5)
-nav_order: 415
+nav_order: 446
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,82 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Nimodipine: From Subarachnoid Haemorrhage-Associated Cerebral Vasospasm to Homozygous Familial Hypercholesterolaemia
+# Nimodipine: From Subarachnoid Haemorrhage to Homozygous Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Nimodipine is a dihydropyridine calcium channel blocker originally used to prevent cerebral vasospasm following aneurysmal subarachnoid haemorrhage. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolaemia**, but currently **no clinical trials** and **no published literature** support this direction, and the underlying mechanistic rationale is assessed as weak even within the evidence pack itself.
-
----
+Nimodipine is a calcium channel blocker originally used to treat subarachnoid haemorrhage, including aneurysmal subarachnoid haemorrhage.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia**, but there are currently **no clinical trials** and **no publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Prevention of cerebral vasospasm following aneurysmal subarachnoid haemorrhage (drawn from the evidence pack's mechanistic notes; no UK licence data is available to confirm this) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolaemia |
+| Original Indication | Subarachnoid haemorrhage (aneurysmal) |
+| Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.29% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for nimodipine is not available (flagged as a data gap at source). Based on known clinical use, nimodipine is a dihydropyridine-class calcium channel blocker that acts on L-type calcium channels in vascular smooth muscle, with established efficacy in preventing cerebral vasospasm after subarachnoid haemorrhage.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nimodipine is a dihydropyridine L-type calcium channel blocker with selectivity for the cerebral vasculature. Its efficacy in subarachnoid haemorrhage is linked to its effects on cerebral vessels.
 
-Homozygous familial hypercholesterolaemia (HoFH) is caused by loss-of-function mutations in the LDL receptor (LDLR), leading to impaired clearance of LDL cholesterol. This pathway has no established direct or indirect connection to calcium channel signalling. The evidence pack's own mechanistic assessment explicitly concludes that biological plausibility for this link is weak — the prediction appears to derive solely from similarity in the TxGNN knowledge-graph embedding space, rather than from any validated pharmacological relationship.
+The link to the predicted new indication is weak. Homozygous familial hypercholesterolaemia is caused by loss-of-function variants in genes such as *LDLR* (or *APOB*, *PCSK9*, *LDLRAP1*), which impair LDL clearance. Calcium channel blockade does not address this defect. Any association would be speculative, for example through possible vascular or atherosclerosis-related effects. The high TxGNN score (99.29%) is a computational prediction only and is not backed by any trial or literature evidence.
 
-Given the absence of original MOA data, the lack of any supporting trials or literature, and the model's own acknowledgement of poor mechanistic grounding, this prediction should be treated as exploratory only.
-
----
+A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 99.05%), is also at the same early stage. It has no mechanistic support and no trials or literature, and its very small patient population would make generating evidence difficult.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Nimodipine currently holds no marketing authorisation in the United Kingdom for the products captured in this evidence pack (0 licences registered). No MHRA licence data or approved indication text is available to reference at this time.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206020M0AAABAB | Nimodipine tablet 30 mg | Tablet (not specified in the data) | Not specified in the data |
 
----
+The data compiled for this report lists one valid single-ingredient authorisation. The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from the knowledge graph, not label text)**: The TxGNN knowledge graph links nimodipine to liver disease, gallbladder disease and hypotensive disorders. These should be checked against the SmPC.
+- **Drug Interactions**: 100 interactions were identified. The sample reviewed included:
+  - **Major**: clarithromycin, dolasetron
+  - **Moderate**: bupropion, aprepitant, morphine, acetylsalicylic acid (aspirin), cimetidine, miconazole, magnesium sulfate, canagliflozin, dapagliflozin, empagliflozin, kanamycin, neomycin, dronabinol, nabilone, and calcium salts (phosphate, acetate, carbonate, chloride)
 
-*(Note: key warnings, contraindications, and drug interaction data for this candidate are currently unavailable — this is flagged as a Blocking data gap and must be resolved before any safety evaluation can proceed.)*
-
----
-
-## Additional Predicted Indication (Lower Confidence)
-
-A second, lower-ranked prediction was also generated: **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)** (TxGNN score 99.05%, rank 7812, Evidence Level L5, no supporting trials or literature). NSIAD results from gain-of-function mutations in the V2 vasopressin receptor (AVPR2), acting via the Gs–cAMP–PKA pathway. While theoretical crosstalk between calcium signalling and cAMP pathways exists, no preclinical or clinical evidence supports nimodipine's efficacy here either. This candidate carries the same "Hold" recommendation for the same reasons as the primary prediction.
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Both predictions are model-derived only (L5), with no clinical trials, no published literature, and an explicitly weak mechanistic rationale. Nimodipine is also not currently marketed in the UK, and critical safety data (SmPC warnings, contraindications, DDIs) are missing — a Blocking gap that alone prevents progression to safety evaluation.
+The prediction rests on a model score alone (evidence level L5). There are no trials or publications, and no plausible mechanistic link between L-type calcium channel blockade and the genetic LDL-clearance defect in homozygous familial hypercholesterolaemia.
 
 **To proceed, the following is needed:**
-- Confirmed original mechanism of action (MOA) data for nimodipine
-- SmPC-derived warnings, contraindications, and drug interaction data (currently a Blocking data gap)
-- Any preclinical or in vitro evidence specifically linking calcium channel blockade to LDLR function (HoFH) or AVPR2 signalling (NSIAD)
-- Reassessment once independent trial or literature evidence emerges for either indication
+- Mechanism of action data and a credible hypothesis linking nimodipine to LDL metabolism
+- Preclinical or mechanistic studies supporting the link
+- A systematic literature and trial registry search (including ISRCTN and EU CTR)
+- Full UK licence details (PL number, dosage form, approved indication) and SmPC warnings and contraindications
+- Review of the established treatments for this condition to judge any realistic added value
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

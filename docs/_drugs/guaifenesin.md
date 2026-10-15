@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Guaifenesin
-parent: High Evidence (L1-L2)
-nav_order: 299
-evidence_level: L2
+parent: Model Prediction Only (L5)
+nav_order: 321
+evidence_level: L5
 indication_count: 10
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Guaifenesin: From Expectorant Use to Nasal Cavity Disease
+# Guaifenesin: From Upper Respiratory Tract Symptoms to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Guaifenesin is a mucolytic/expectorant that reduces the viscosity of respiratory secretions, though this evidence pack contains no formal approved indication text or active UK marketing authorisation for the drug. The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **1 clinical trial** and **2 publications** currently supporting this direction.
+Guaifenesin is an expectorant that thins and loosens airway mucus, originally used for conditions such as the common cold, rhinitis and pharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **1 publication** (a 2002 review on respiratory allergies in voice users) that touches on this direction. The evidence is weak.
 
 ---
 
@@ -41,31 +42,29 @@ Guaifenesin is a mucolytic/expectorant that reduces the viscosity of respiratory
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no UK licences on file); the repurposing rationale describes guaifenesin only as an expectorant/mucolytic |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (knowledge-graph indications; no approved indication text is available for the UK licence) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 (model prediction with no actual studies of guaifenesin for this indication; the single review only mentions guaifenesin within a decongestant combination) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for guaifenesin in this evidence pack. Based on the repurposing rationale that is available, guaifenesin is an expectorant that lowers airway mucus viscosity and promotes serous secretion, thereby facilitating clearance of retained mucus. This mechanism is not aimed directly at nasal pathology but is theoretically extendable to conditions characterised by mucus retention.
+Detailed mechanism of action data is not available. Based on general pharmacology, guaifenesin is an expectorant that thins and loosens airway mucus. Its efficacy as a symptomatic treatment in common cold and upper respiratory conditions is established, and mechanistically it may be applicable to disease of the nasal cavity.
 
-Nasal Cavity Disease covers conditions such as chronic rhinitis, where excess or thickened mucus contributes to symptom burden. Since guaifenesin's established pharmacological action is mucus thinning and clearance in the respiratory tract more broadly, a mechanistic rationale for benefit in nasal mucus retention is plausible, even though the drug's original, formally approved indication is not recorded in this dataset.
+The predicted indication overlaps with the drug's existing indications of rhinitis, nasopharyngitis and the common cold, all of which affect the upper airway. This anatomical and symptomatic closeness is the most likely reason for the high TxGNN score.
 
-This rationale is supported by a completed paediatric pilot trial (see below), which directly tested oral guaifenesin in chronic rhinitis, lending early clinical, not merely theoretical, support to the prediction.
+There are important limits. The only supporting article, a 2002 review on hidden respiratory allergies in voice users, discusses treatment strategies and mentions decongestants with guaifenesin as possibly useful. It does not test guaifenesin as a treatment for nasal cavity disease. "Nasal cavity disease" is also a broad category, so a specific condition would need to be defined before any evaluation.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day randomised, placebo-controlled, parallel-group, masked pilot trial of oral guaifenesin in paediatric chronic rhinitis (ages 7–18), assessing nasal symptom relief via the SN-5 survey, nasal airway volume, and biophysical properties of nasal secretion |
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,20 +72,30 @@ This rationale is supported by a completed paediatric pilot trial (see below), w
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review | American Journal of Rhinology | Case series/review of sinusitis management in adult cystic fibrosis (n=22), discussing medical and surgical approaches including mucoactive therapy |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Review of treatment strategies for hidden respiratory allergies in voice users; notes decongestant/guaifenesin combinations as a therapeutic option over antihistamines |
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for allergic voice patients. Antihistamines are generally avoided, decongestants with guaifenesin may be useful, and steroids are helpful in perennial allergic symptoms. Guaifenesin was not tested on its own. |
 
 ---
 
 ## UK Market Information
 
-No active UK marketing authorisation is recorded for guaifenesin in this evidence pack (0 licences on file; market status: Not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0309020G0AAABAB (BNF-style product code; no PL number available) | Guaifenesin oral solution 100 mg/5 ml | Oral solution | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+The data compiled for this report contain no label-based warnings, contraindications or interaction data for guaifenesin. The knowledge graph does list a large number of disease associations flagged as contraindications. These come from graph edges rather than product label text, so they should not be treated as confirmed label contraindications. They include:
+
+- **Cardiovascular and metabolic:** hypertension, hypothyroidism, adrenocortical insufficiency (Addison disease)
+- **Hepatic and renal:** liver failure, liver disease, cirrhosis, kidney disease
+- **Respiratory:** chronic obstructive pulmonary disease
+- **Gastrointestinal:** gastric ulcer, peptic ulcer disease, inflammatory bowel disease, pancreatitis, gallbladder disease
+- **Neuropsychiatric:** epilepsy, insomnia, anxiety disorder, psychotic disorder
+- **Other:** porphyria, thrombocytopenia
+
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -95,13 +104,20 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- Evidence is limited to a single small, completed Phase 2 paediatric pilot trial (n=30) and two indirectly related reviews; there is no UK marketing authorisation on file for guaifenesin, and the underlying safety label data (warnings, contraindications) required for an initial safety assessment is a blocking data gap in this pack.
+The TxGNN score is very high, but no clinical trials exist, and the one supporting article is a 2002 review that does not test guaifenesin for nasal cavity disease. Mechanism-of-action data and label safety data are also missing, so the prediction cannot yet be advanced.
+
+**Other predictions of note:**
+- **Tracheal disease** (score 98.83%, evidence level L3) has the strongest supporting data: a 2012 in vitro study comparing guaifenesin, N-acetylcysteine and ambroxol on MUC5AC and mucociliary transport in human airway cells, plus a 2018 case report. It is better supported than nasal cavity disease and is worth considering as a research question.
+- **Acute laryngopharyngitis** (99.98%) is plausible because it is close to the existing pharyngitis indication, but it has no supporting evidence.
+- **Faucial diphtheria** (99.54%) lacks a plausible mechanism, because it needs antitoxin and antibiotics, and the score likely reflects network proximity only.
+- Predictions for cervical disc degenerative disorder, papillary conjunctivitis, trigeminal autonomic cephalalgia, anorectal stricture, anal polyp and punctate epithelial keratoconjunctivitis have no evidence and no plausible mechanism, and are likely graph artefacts.
 
 **To proceed, the following is needed:**
-- UK SmPC/label data — key warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism of action (MOA) documentation
-- Confirmation of any existing or planned UK licensing pathway for guaifenesin
-- A larger, adequately powered replication trial in chronic rhinitis/nasal cavity disease beyond the existing n=30 pilot
+- Mechanism of action data for guaifenesin
+- Label warnings, contraindications and interaction data from the SmPC and BNF
+- A defined target condition within "nasal cavity disease", followed by a systematic literature search
+- Controlled clinical studies of guaifenesin alone, as opposed to in combination products
+- Approved indication text and dosage form details for the UK licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

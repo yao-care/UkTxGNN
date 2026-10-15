@@ -2,7 +2,7 @@
 layout: default
 title: Ethosuximide
 parent: Model Prediction Only (L5)
-nav_order: 247
+nav_order: 263
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ethosuximide: From Absence Seizures to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Ethosuximide: From Absence Epilepsy to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Ethosuximide is an anticonvulsant established for the treatment of absence seizures in epilepsy, acting via inhibition of thalamic T-type (Ca_v3) calcium channels.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-but this prediction is currently supported by **no clinical trials** and **no published literature**.
+Ethosuximide is an anti-epileptic medicine originally used to treat absence epilepsy.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but currently there are **no clinical trials** and **no publications** supporting this direction; the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Absence seizures (epilepsy) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+| Original Indication | Absence epilepsy |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Ethosuximide's established mechanism of action is inhibition of T-type (Ca_v3) calcium channels in thalamic neurons, which reduces the abnormal neuronal firing underlying absence seizures. This is a well-characterised, neurone-specific electrophysiological effect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally understood to block T-type calcium channels in thalamic neurons, which underlies its efficacy in absence epilepsy. This is background knowledge and not drawn from the compiled data.
 
-NSIAD, in contrast, is caused by a gain-of-function mutation in the AVPR2 (vasopressin V2) receptor, which drives ADH-independent, constitutive activation of cAMP signalling and excessive water reabsorption in the renal collecting duct. This is a G-protein-coupled receptor/second-messenger pathway entirely distinct from voltage-gated neuronal calcium channels.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*) or, in some cases, *GNAS*. These produce constitutive receptor activity and water retention despite low vasopressin levels. A link between T-type calcium channel blockade and this process has not been established. Any connection, for example through renal calcium signalling or aquaporin-2 regulation, is speculative.
 
-No known or indirect mechanistic link connects these two pathways, and no biological rationale currently supports repurposing ethosuximide for NSIAD. The high TxGNN score (99.91%) should therefore be interpreted as a knowledge-graph association rather than a pharmacologically validated hypothesis — it is not corroborated by any trial or literature evidence at this time.
+The very high TxGNN score (99.91%, model rank 1420) is a model-based prediction only. It may reflect proximity within the knowledge graph rather than a true therapeutic relationship, and should not be treated as clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -67,24 +67,38 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Ethosuximide currently holds no marketing authorisation on record and has a "not marketed" status; no UK product entries are available for this candidate indication.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0408010I0AAABAB (BNF-style product code; PL number not available) | Ethosuximide oral solution 250mg/5ml | Oral solution | Not stated in the compiled data |
+
+The BNF classification code (0408010) corresponds to the anti-epileptic drug section (BNF chapter 4.8.1).
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged in the knowledge graph as contraindication-related** (derived from drug-disease graph edges, not from product label text; these should be checked against the SmPC): anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, pyoureter, haematological disease, liver disease, gallbladder disease, systemic lupus erythematosus (including paediatric), neutropenia, agranulocytosis, acute intermittent porphyria.
+- **Drug Interactions**: 92 interactions were recorded. All 20 listed in the data are of moderate severity, including:
+  - Central nervous system depressants and opioids: morphine (including liposomal), opium, ethanol, promethazine, chlorpheniramine
+  - Cannabinoids: dronabinol, nabilone
+  - Antiemetics: aprepitant, metoclopramide
+  - Antimalarials: chloroquine, mefloquine, hydroxychloroquine
+  - Folate-related agents: folic acid, leucovorin, levoleucovorin
+  - Others: sibutramine, cobicistat, deferasirox, fostamatinib
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or literature evidence for this indication, and no established mechanistic link between ethosuximide's known pharmacology and NSIAD pathophysiology. The evidence level (L5) reflects a model prediction only.
+The prediction is supported only by a model score (Evidence Level L5). There are no clinical trials or publications, and no plausible mechanism linking ethosuximide to NSIAD has been established. The drug's knowledge-graph contraindications (kidney disease, blood disorders) also warrant caution in a renal-related condition.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for ethosuximide (currently a data gap)
-- UK/MHRA product labelling, warnings and contraindications (currently a data gap)
-- Preclinical or mechanistic studies exploring any plausible link between T-type calcium channel modulation and AVPR2/cAMP signalling
-- At minimum, case reports or observational data before any further evaluation stage is considered
+- Mechanism of action data (MOA) and a testable hypothesis linking T-type calcium channel blockade to V2 receptor or aquaporin-2 signalling
+- Preclinical studies (for example, cell models carrying *AVPR2* gain-of-function variants)
+- Warnings and contraindications from the SmPC and BNF, to complete safety screening
+- Approved indication text and PL number for the UK authorisation
+- Assessment of route and formulation compatibility for the new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

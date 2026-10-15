@@ -2,7 +2,7 @@
 layout: default
 title: Capsaicin
 parent: Model Prediction Only (L5)
-nav_order: 125
+nav_order: 129
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capsaicin: From Neuropathic Pain to Otitis Externa
-
----
+# Capsaicin: From Neuralgia to Otitis Externa
 
 ## One-Sentence Summary
 
-Capsaicin is a naturally occurring TRPV1 (Transient Receptor Potential Vanilloid 1) receptor agonist, widely used internationally as a topical analgesic for neuropathic pain, though no UK marketing authorisation is recorded in this Evidence Pack.
-The TxGNN model assigns its highest prediction score of **98.76%** to **Otitis Externa** as a candidate repurposing indication; however, **no supporting clinical trials or published literature** have been identified for this specific application, placing it at the lowest evidence level (L5) and warranting a **Hold** recommendation.
-
----
+Capsaicin is a TRPV1 agonist, originally used to treat neuralgia and postherpetic neuralgia.
+The TxGNN model predicts it may be effective for **otitis externa**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation on record; internationally recognised for topical neuropathic pain management |
-| Predicted New Indication | Otitis Externa |
+|------|------|
+| Original Indication | Neuralgia; postherpetic neuralgia |
+| Predicted New Indication | Otitis externa |
 | TxGNN Prediction Score | 98.76% |
-| Evidence Level | L5 (model prediction only — no clinical studies identified) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, capsaicin is the principal pungent component of *Capsicum* peppers and a potent, selective agonist at the TRPV1 (Transient Receptor Potential Vanilloid 1) receptor. On initial exposure, TRPV1 activation causes intense sensory neuronal depolarisation and the release of neuropeptides including Substance P and CGRP. With sustained or repeated exposure, this progresses to receptor desensitisation and Substance P depletion, ultimately attenuating nociceptive signalling in the treated tissue. This desensitisation mechanism underlies capsaicin's established clinical role in chronic neuropathic pain.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, capsaicin is a TRPV1 agonist. Topical use is thought to desensitise nociceptive nerve fibres and reduce the pain messenger substance P, which underlies its use in neuralgia.
 
-The theoretical rationale for the otitis externa prediction is that TRPV1 receptors are expressed on sensory neurones innervating the external ear canal. In principle, local capsaicin-mediated desensitisation could attenuate otalgia. This is the mechanistic pathway the TxGNN knowledge graph is most likely following.
+In theory, the same desensitisation could relieve pain from an inflamed ear canal, which is the only plausible link between neuralgia and otitis externa. However, no supporting mechanistic or clinical evidence was found. Capsaicin is a strong irritant, and applying it to inflamed or broken skin or inside the ear canal is a real safety concern. The prediction should therefore be regarded as a hypothesis only.
 
-However, clinical plausibility is very limited. Otitis externa is primarily an infectious and inflammatory condition — most commonly caused by *Pseudomonas aeruginosa*, *Staphylococcus aureus*, or fungal organisms — and requires antimicrobial therapy directed at the underlying pathogen. Capsaicin has no known direct antibacterial, antifungal, or disease-modifying anti-inflammatory activity relevant to this pathology. Applying a potent chemical irritant to acutely inflamed, potentially macerated ear canal skin also raises serious tolerability and safety concerns. This prediction is most likely driven by broad TRPV1 expression annotation in the knowledge graph rather than a genuine therapeutic mechanistic link. It is worth noting that among all ten predictions in this pack, **post-infectious syndrome** (rank 5, score 98.66%) carries substantially stronger mechanistic support — gut TRPV1 sensitisation in post-infectious IBS is directly corroborated by published clinical and translational literature (PMID [33023902](https://pubmed.ncbi.nlm.nih.gov/33023902/), [29051514](https://pubmed.ncbi.nlm.nih.gov/29051514/)) — and represents the more scientifically credible repurposing candidate in this dataset.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for otitis externa.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for otitis externa.
-
----
+The same model also ranked several other conditions highly (for example post-infectious syndrome, papillary conjunctivitis and tinea corporis). None has trial evidence. The only one with indirect literature is post-infectious syndrome (TRPV1 sensitisation in post-infectious irritable bowel syndrome), which is graded L4 and is a research question rather than a candidate for use.
 
 ## UK Market Information
 
-No MHRA marketing authorisations for capsaicin are recorded in this Evidence Pack (0 licences on file; market status: not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1003020AAAAAAAA | Capsaicin cream 0.075% | Not stated | Not stated |
 
-Clinicians should independently verify current UK licensing status via the [MHRA Product Licence Database](https://products.mhra.gov.uk/) and the British National Formulary (BNF), as capsaicin-containing preparations (such as high-concentration cutaneous patches for peripheral neuropathic pain) may hold authorisations not captured in this dataset. Any suspected adverse reactions to capsaicin products should be reported via the **Yellow Card Scheme**.
-
----
+The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph (not label text):** the TxGNN knowledge graph links capsaicin to a number of conditions, including hypertension, liver failure and liver disease, kidney disease, epilepsy, diabetes mellitus and diabetic ketoacidosis, blood coagulation disorders, haemophilia, stroke and cerebrovascular disorders, myocardial infarction and other heart disease, anaemia, respiratory failure, gastritis, and gastro-oesophageal reflux disease. These are model-derived associations and should be verified against the SmPC.
+- **Pharmacological targets:** capsaicin acts on TRPV1 (human). Activity at Kv1.1, Kv1.2, Kv1.7 and Kv3.1 (mouse and rat) and CFTR (human) has also been recorded. These are target interactions, not clinical drug-drug interactions, and none has an established clinical significance in the data compiled.
+- **Site-specific concerns:** capsaicin is a potent irritant. Application to the ear canal, broken or inflamed skin, or the eyes is a particular concern for the predicted indication.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN model score (98.76%), the proposed use of capsaicin in otitis externa is entirely unsupported by clinical trial or published literature evidence (L5), and the mechanistic basis for treating an infectious ear condition with a TRPV1-desensitising agent is extremely weak — capsaicin addresses nociception, not the underlying antimicrobial or inflammatory aetiology of otitis externa.
+The prediction for otitis externa is supported by model score only (L5), with no clinical trials or literature, a speculative mechanism, and a clear local irritancy concern at the proposed site.
 
 **To proceed, the following is needed:**
-
-- Retrieve full capsaicin MOA data from DrugBank to formally document TRPV1 pharmacology in the evidence pack
-- Obtain and review the UK SmPC (or MHRA equivalent) to establish the complete safety profile, including any contraindications relevant to otic or mucosal use
-- Commission or identify preclinical (in vitro / in vivo) studies demonstrating analgesic benefit in external ear canal models; without at least L4 evidence, the hypothesis cannot be scientifically justified for progression
-- Conduct a feasibility assessment for otic capsaicin formulation development, including tolerability modelling for inflamed mucosa (route compatibility currently pending)
-- **Strongly consider redirecting the primary repurposing focus to post-infectious syndrome (rank 5)**, which has an L4 evidence base (3 clinical trials, 4 publications including mechanistic TRPV1 data) and a mechanistic rationale rated as the highest-fidelity among all ten predictions in this dataset
-
-> ⚠️ *This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+- Detailed mechanism of action data (for example from DrugBank)
+- Verification of the UK authorisation details (product form, indication, MHRA number) and of SmPC and BNF warnings and contraindications
+- Preclinical or early clinical data showing that capsaicin is tolerable and effective for ear canal pain, including local tolerability
+- Assessment of suitable formulations and routes, as none has been established for the ear
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

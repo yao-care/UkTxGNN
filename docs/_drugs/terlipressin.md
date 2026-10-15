@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Terlipressin
-parent: Model Prediction Only (L5)
-nav_order: 566
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 608
+evidence_level: L3
 indication_count: 10
 ---
 
 # Terlipressin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,58 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terlipressin: From No UK-Licensed Indication to Open-Angle Glaucoma
+# Terlipressin: From Portal Hypertension Complications to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Terlipressin is not currently marketed in the UK, and this Evidence Pack does not record an established original indication or mechanism of action (both flagged as data gaps). The TxGNN model predicts potential efficacy in **Open-Angle Glaucoma**, but this is a pure model-derived hypothesis with **no supporting clinical trials or literature**, and the underlying pharmacology is more consistent with raising intraocular pressure than lowering it.
+Terlipressin is a vasopressin analogue (V1 receptor agonist) listed in the BNF and marketed in the UK as an injection. The data compiled for this report do not state its original licensed indication.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, supported by **no registered clinical trials** and **20 publications**, which are mostly small physiological studies, case reports and off-topic papers.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK marketing authorisation and no original indication recorded in this Evidence Pack |
-| Predicted New Indication | Open-Angle Glaucoma |
-| TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Not stated in the data compiled for this report (the UK authorisation record has no indication text) |
+| Predicted New Indication | Pulmonary hypertension |
+| TxGNN Prediction Score | 99.56% |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question only) |
+
+**Note on the top-ranked predictions:** The highest-scoring predictions were open-angle glaucoma (99.78%) and primary hereditary glaucoma (99.77%). Both have no trials or literature and no plausible mechanism, so they are not pursued here. Pulmonary hypertension is the highest-ranked prediction with any supporting literature, so it is the focus of this report. The other predictions (kyphoscoliotic heart disease, esotropia, headache disorder, hyperthyroidism, trigeminal autonomic cephalalgia and the remaining glaucoma entries) are model outputs only and are all rated Hold at evidence level L5.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Terlipressin in this Evidence Pack (flagged as a High-severity data gap, DG002). What is known is that Terlipressin is a synthetic analogue of vasopressin and acts as a selective agonist at the V1 vasopressin receptor, producing splanchnic and systemic vasoconstriction — a property historically exploited in conditions such as variceal bleeding and hepatorenal syndrome, though this Evidence Pack does not itself document a confirmed original indication.
+Detailed mechanism of action data is not available in the data compiled for this report. Terlipressin is known to be a vasopressin V1 receptor agonist and a splanchnic vasoconstrictor. It is widely used in cirrhosis-related complications such as variceal bleeding and hepatorenal syndrome.
 
-For the predicted indication of open-angle glaucoma, the repurposing rationale supplied with this candidate is explicitly cautionary rather than supportive: V1 receptor agonism could theoretically influence intraocular pressure via vascular effects, but there is no known mechanism by which Terlipressin would *lower* intraocular pressure. If anything, V1 agonist activity is more plausibly associated with *raising* intraocular pressure, which runs counter to the therapeutic direction required in glaucoma management. No clinical or literature evidence has been identified to support this indication, and this candidate should be interpreted as a statistical knowledge-graph association rather than a mechanistically grounded hypothesis.
+The link to pulmonary hypertension is plausible but limited. Small haemodynamic studies in cirrhosis with portopulmonary or pulmonary hypertension (PMID 22893473 and 21733953, both 2012) report that terlipressin lowered pulmonary vascular resistance and pulmonary pressures, while systemic pressure rose. This suggests terlipressin acts differently on the pulmonary and systemic circulations. Case reports describe rescue use in neonates with persistent pulmonary hypertension and refractory shock.
+
+This evidence is small, physiological and confined to specific populations. Many of the retrieved papers concern portal hypertension, which is a different disease despite the shared keyword. Safety is also a concern: terlipressin carries a risk of ischaemic and respiratory adverse events and can lower cardiac output (PMID 31841026).
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Of the 20 retrieved publications, the most relevant to pulmonary hypertension are shown below. Papers on portal hypertension, hepatorenal syndrome or other unrelated topics are excluded.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [22893473](https://pubmed.ncbi.nlm.nih.gov/22893473/) | 2012 | Cohort (7 patients) | Hepatobiliary & Pancreatic Diseases International | First 2 mg dose in cirrhotic patients with pulmonary hypertension and variceal bleeding or hepatorenal syndrome decreased pulmonary vascular resistance |
+| [21733953](https://pubmed.ncbi.nlm.nih.gov/21733953/) | 2012 | Cohort | Angiology | Echo study showing differential effects on pulmonary and systemic haemodynamics in cirrhosis with pulmonary hypertension |
+| [18280605](https://pubmed.ncbi.nlm.nih.gov/18280605/) | 2008 | Case report | Journal of Hepatology | Significant reduction in pulmonary arterial pressure after 1 week of terlipressin in portopulmonary hypertension |
+| [15259082](https://pubmed.ncbi.nlm.nih.gov/15259082/) | 2004 | Echocardiographic study | World Journal of Gastroenterology | Effect of terlipressin on systolic pulmonary artery pressure in cirrhosis |
+| [30971593](https://pubmed.ncbi.nlm.nih.gov/30971593/) | 2019 | Clinical study | Annals of Cardiac Anaesthesia | Terlipressin versus norepinephrine to counter milrinone-induced hypotension in cardiac surgery patients with pulmonary hypertension |
+| [32999121](https://pubmed.ncbi.nlm.nih.gov/32999121/) | 2020 | Case report | Indian Pediatrics | Rescue treatment in persistent pulmonary hypertension and refractory shock in a preterm infant |
+| [21292065](https://pubmed.ncbi.nlm.nih.gov/21292065/) | 2011 | Case report | Journal of Pediatric Surgery | Rescue therapy for refractory pulmonary hypertension in a neonate with congenital diaphragmatic hernia |
+| [19624374](https://pubmed.ncbi.nlm.nih.gov/19624374/) | 2009 | Case series/report | Paediatric Anaesthesia | Role of terlipressin in severe pulmonary hypertension in congenital diaphragmatic hernia |
+| [23128058](https://pubmed.ncbi.nlm.nih.gov/23128058/) | 2012 | Case report | Journal of Perinatology | Echocardiographic assessment of terlipressin effects on pulmonary artery pressure in a septic cooled infant |
+| [34179513](https://pubmed.ncbi.nlm.nih.gov/34179513/) | 2021 | Systematic review protocol | BMJ Paediatrics Open | Planned review of vasopressin and terlipressin in preterm neonates, including pulmonary hypertension |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0605020T0AAAAAA (BNF code) | Terlipressin injection 1 mg vial with diluent | Injection (powder and diluent) | Not stated in the data compiled for this report |
+
+Only one entry is available. It carries a BNF classification code rather than a standard PL number, and the indication text is blank.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*Note: Detailed warning and contraindication data for Terlipressin could not be retrieved for this Evidence Pack (flagged as a Blocking-severity data gap, DG001), and this itself prevents progression into the S1 safety pre-screening stage for any predicted indication of this drug.*
+The literature compiled for this report raises the following points:
+- Terlipressin can lower cardiac output (PMID 31841026).
+- Ischaemic and respiratory adverse events, including respiratory failure, are recognised risks. This is particularly relevant in a respiratory or pulmonary vascular disease population.
+
+No drug interaction data were found.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-This candidate has an Evidence Level of L5 — a TxGNN model prediction with zero supporting clinical trials or literature — and the accompanying mechanistic rationale actively argues against biological plausibility (V1 agonism is more likely to raise, not lower, intraocular pressure). There is no basis to advance this indication beyond hypothesis generation.
+The pulmonary hypertension signal is biologically plausible, but it rests on small haemodynamic studies, case reports and neonatal rescue use, with no registered trials. The safety profile (respiratory and ischaemic events, reduced cardiac output) is a significant concern. The other nine predictions have no supporting evidence and should not be pursued.
 
 **To proceed, the following is needed:**
-- Terlipressin's original approved indication(s) and confirmed mechanism of action (currently unavailable in this Evidence Pack)
-- MHRA/manufacturer SmPC data on warnings, contraindications, and drug interactions (currently a Blocking data gap)
-- Preclinical or pharmacodynamic data specifically examining Terlipressin's effect on intraocular pressure, to resolve the directional conflict noted above
-- Any real-world, case-report, or registry evidence in glaucoma populations, none of which currently exists
-
-**Note for reviewers:** Among the 10 candidates in this Evidence Pack, rank 3 ("pulmonary hypertension" in the setting of cirrhosis/portopulmonary hypertension) has materially stronger support — 4 clinical trials and ~20 literature records, with several directly reporting reductions in pulmonary vascular resistance after Terlipressin administration (Evidence Level L4, decision stage S1, "Research Question"). If the objective is to identify the most viable repurposing direction for Terlipressin rather than strictly the top-ranked TxGNN score, that candidate warrants a separate, dedicated evaluation.
+- Mechanism of action data and the licensed indication from the SmPC
+- Complete safety data (warnings, contraindications, interactions) from the SmPC and BNF
+- A systematic review of terlipressin in pulmonary hypertension, separated by subgroup (portopulmonary, neonatal, perioperative)
+- A controlled haemodynamic study with defined safety endpoints (cardiac output, respiratory events, ischaemia) before any clinical trial
+- Confirmation of route and formulation suitability for the proposed setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

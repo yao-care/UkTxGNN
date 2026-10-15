@@ -2,7 +2,7 @@
 layout: default
 title: Celiprolol
 parent: Model Prediction Only (L5)
-nav_order: 141
+nav_order: 146
 evidence_level: L5
 indication_count: 0
 ---

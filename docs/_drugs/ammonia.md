@@ -2,7 +2,7 @@
 layout: default
 title: Ammonia
 parent: Model Prediction Only (L5)
-nav_order: 55
+nav_order: 57
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,82 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Ammonia: From No Established Indication to Acrodermatitis Chronica Atrophicans
+# Ammonia: From Dermatological Conditions (Psoriasis, Acne, Seborrhoeic Dermatitis) to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Ammonia (NH₃) is a simple inorganic compound with no currently approved therapeutic indication registered in the UK; its historical uses in medicine have been largely superseded by safer alternatives.
-The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans (ACA)**, a late-stage cutaneous manifestation of Lyme borreliosis, with a prediction score of **99.70%**.
-However, this prediction is supported by **no clinical trials** and **no published literature**, placing it at the lowest evidence tier (**L5**); the mechanistic rationale is highly indirect and speculative.
-
----
+Ammonia is listed in the knowledge graph for several skin conditions, including psoriasis, acne and seborrhoeic dermatitis.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**,
+but there are **no clinical trials** and **no publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No established approved indication |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
+|------|------|
+| Original Indication | Psoriasis, parapsoriasis, acne, seborrhoeic dermatitis, pityriasis simplex, seborrhoeic keratosis, keratinisation disorders (knowledge graph annotations; no approved indication text is available in the UK licence record) |
+| Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for Ammonia in a therapeutic context. Ammonia is a naturally occurring inorganic compound (NH₃) that exists endogenously in human physiology as a by-product of amino acid catabolism. In historical medical practice, dilute ammonia solutions were occasionally used as topical counter-irritants and in aromatic spirits of ammonia for vasovagal episodes, though these applications are now largely obsolete.
+Currently, detailed mechanism of action data is not available for ammonia, so the high score cannot be traced to a biological rationale.
 
-Acrodermatitis Chronica Atrophicans (ACA) is caused by persistent infection with *Borrelia burgdorferi sensu lato*, typically presenting as a chronic, progressive atrophic skin condition on the distal extremities. The standard of care is prolonged antibiotic therapy (e.g., oral doxycycline or amoxicillin). The TxGNN knowledge graph model may have generated this prediction based on spatial proximity between dermatological nodes in the graph, rather than a biologically meaningful mechanistic link. The theoretical basis suggested — that ammonia's alkaline pH (~11) could alter the skin microenvironment and inhibit bacterial colonisation — is highly indirect and lacks any clinical or preclinical validation.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of *Borrelia* infection (Lyme disease) and is treated with antibiotics. There is no known role for ammonia in this condition. The prediction most likely reflects network proximity to the original dermatological indications in the knowledge graph rather than a true pharmacological effect.
 
-Critically, ammonia's well-documented systemic toxicities (hepatic encephalopathy risk, respiratory mucosal irritation, direct tissue caustic injury) present a significant safety barrier for any therapeutic application, particularly for a chronic skin condition for which safe, effective antibiotic options already exist. This prediction is most likely an artefact of the knowledge graph topology and should not be interpreted as a biologically plausible repurposing opportunity at this stage.
+Other top-ranked predictions show the same pattern, with scores between 99.56% and 99.64% and no supporting studies:
 
----
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Neonatal dermatomyositis | 99.64% | L5 | No mechanistic link; use in neonates would raise serious safety concerns |
+| 3 | Acne keloid | 99.63% | L5 | Only an indirect link through the acne annotation, with no defined mechanism |
+| 4 | Secondary interstitial lung disease of childhood associated with a connective tissue disease | 99.61% | L5 | Ammonia is a respiratory irritant, so pulmonary exposure is more likely harmful than therapeutic |
+| 5 | Amyopathic dermatomyositis | 99.60% | L5 | Likely driven by shared dermatological neighbours in the graph |
+| 6 | Hydroa vacciniforme, familial | 99.56% | L5 | No known pathway to the disease |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Ammonia holds no MHRA marketing authorisations in the United Kingdom. It is not listed as an active medicinal ingredient in the British National Formulary (BNF) for any currently approved therapeutic indication. Historically, preparations such as Aromatic Ammonia Spirit have been withdrawn or discontinued.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 190400000AAUIUI | Ammonia Soln Strong 3.5% | Not stated | Not stated |
 
----
+This single authorisation is a valid single-ingredient product. Dosage form and approved indication details are not available in the data compiled for this report, so please check the MHRA records, the SmPC and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme (https://yellowcard.mhra.gov.uk/).
+**Knowledge graph contraindication associations** (taken from graph relationships, not from product label text):
+- Anogenital human papillomavirus infection
+- Common wart
+- Diabetes mellitus
+- Diabetic ketoacidosis
+- Dermatitis
+- Peripheral vascular disease, including intermittent claudication and peripheral arterial disease
 
-> **Note for clinicians**: Ammonia is a recognised industrial and environmental hazard. Inhalation causes severe respiratory tract irritation, chemical pneumonitis, bronchospasm, and pulmonary oedema. Direct skin or mucosal contact with concentrated solutions causes caustic chemical burns. Systemic ammonia toxicity is associated with hepatic encephalopathy. These known toxicological properties are particularly relevant given that one of the model's top-ranked predicted indications (childhood interstitial lung disease, rank 4) involves a respiratory target organ that ammonia is known to damage acutely — a clear counter-indication signal.
+**Additional considerations from the evaluation:**
+- Ammonia is a known respiratory irritant and toxicant. Inhalation or pulmonary exposure is a particular concern.
+- Use in neonates and children would need careful safety review.
 
----
+No drug interaction data were found. For the full safety profile, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All six predicted indications are rated L5 (model prediction only), with zero supporting clinical trials or published literature across any indication; furthermore, ammonia's well-established toxicological profile (caustic tissue injury, respiratory toxicity, hepatic encephalopathy) presents fundamental safety barriers that are not reconcilable with the predicted therapeutic applications in their current form.
+The prediction is supported only by a model score (99.70%), with no clinical trials, no publications and no plausible mechanism. Acrodermatitis chronica atrophicans has an established antibiotic treatment, and ammonia has known toxicity concerns.
 
-**To proceed, the following would be needed:**
-
-- Formal mechanistic hypothesis validation: a plausible, peer-reviewed mechanistic pathway linking ammonia to ACA pathophysiology (e.g., *Borrelia* inhibition at concentrations achievable without tissue toxicity) would need to be established before any further evaluation.
-- Preclinical safety and efficacy data: *in vitro* and *in vivo* studies demonstrating antimicrobial activity against *B. burgdorferi* at sub-toxic concentrations.
-- Formulation feasibility assessment: any viable therapeutic application would need a specialised delivery system (e.g., buffered topical preparation) to mitigate caustic risk; a pharmaceutical formulation programme would be required.
-- Regulatory and ethics review: given the known hazard profile of ammonia, any first-in-human proposal would require exceptional scientific justification and would face a high regulatory bar from the MHRA.
-- Resolution of all data gaps: MHRA SmPC-equivalent safety data, full MOA characterisation, and drug–drug interaction profiling are all currently absent and would be required for any S1 safety pre-assessment.
-
-> ⚠️ **Research use only.** This report is generated for research purposes and does not constitute medical advice. Drug repurposing candidates require full clinical validation before any therapeutic application. This report should not be used to guide clinical decision-making.
+**To proceed, the following is needed:**
+- Mechanism of action data for ammonia (for example from DrugBank)
+- Label warnings and contraindications from the SmPC and BNF
+- Dosage form and approved indication details for the UK-authorised product
+- Preclinical or mechanistic evidence linking ammonia to the predicted condition
+- A safety assessment covering systemic and respiratory toxicity, and use in children and neonates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

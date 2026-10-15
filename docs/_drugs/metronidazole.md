@@ -2,7 +2,7 @@
 layout: default
 title: Metronidazole
 parent: Model Prediction Only (L5)
-nav_order: 379
+nav_order: 409
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,115 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metronidazole: From Anaerobic Bacterial and Protozoal Infections to Pneumocystosis
+# Metronidazole: From Anaerobic and Protozoal Infections to Pneumocystosis
 
 ## One-Sentence Summary
 
-> Metronidazole is a nitroimidazole antimicrobial established for anaerobic bacterial and protozoal infections (e.g. trichomoniasis, amoebiasis, giardiasis, bacterial vaginosis, anaerobic sepsis).
-> The TxGNN model predicts it may be effective for **Pneumocystosis (Pneumocystis jirovecii pneumonia)**,
-> but the underlying evidence — **24 clinical trials** and **9 publications** — does not actually support this: none evaluate metronidazole against Pneumocystis, and the drug's mechanism does not cover this pathogen. This is best read as a low-confidence, likely spurious signal.
+Metronidazole is a nitroimidazole antimicrobial, originally used for anaerobic bacterial infections, giardiasis, bacterial vaginosis and rosacea.
+The TxGNN model predicts it may be effective for **pneumocystosis**, but there are **no registered clinical trials** and only **10 publications** (reviews and case reports that mention metronidazole incidentally), so the prediction is **not supported by the available evidence**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (no MHRA licence data returned). Metronidazole is internationally established for anaerobic bacterial and protozoal infections (trichomoniasis, amoebiasis, giardiasis, bacterial vaginosis). |
+| Original Indication | Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis, rosacea, bacterial vaginosis, intracranial abscess (the UK authorisation record contains no indication text; these are drawn from the knowledge-graph indication list) |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed (per this evidence pack) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack (MOA recorded as a data gap). Based on general pharmacology, metronidazole is a nitroimidazole that is selectively activated by the nitroreductase enzymes of anaerobic bacteria and certain protozoa, generating cytotoxic free radicals; this restricts its activity to anaerobes and protozoa such as *Entamoeba histolytica*, *Giardia*, and *Trichomonas vaginalis*.
+Detailed mechanism of action data is not available in the data compiled for this report. Metronidazole is a nitroimidazole that is generally understood to be activated in anaerobic bacteria and protozoa, which is the basis of its established uses.
 
-*Pneumocystis jirovecii*, the organism causing pneumocystosis, is a fungus-like pathogen with a fundamentally different biology — it is neither an anaerobic bacterium nor a protozoan in the sense relevant to metronidazole's activation pathway. Standard treatment for pneumocystosis is co-trimoxazole (trimethoprim-sulfamethoxazole), not metronidazole. The literature returned by this search largely reflects **comorbidity, not treatment efficacy**: several case reports describe HIV/AIDS patients who received metronidazole for a separate anaerobic or amoebic infection and were separately found to have Pneumocystis pneumonia. This pattern is consistent with the model having learned a co-occurrence association (both conditions cluster in immunocompromised/AIDS patients) rather than a genuine pharmacological relationship. The evidence pack's own mechanistic assessment reaches the same conclusion: this is most likely a false-positive prediction driven by data noise rather than a biologically plausible repurposing candidate.
+The relationship between the original and predicted indications is weak. *Pneumocystis* is a fungus and, as far as the compiled assessment indicates, lacks the nitroreductase activation pathway on which metronidazole depends. The high TxGNN score therefore does not appear to be supported by a plausible mechanism. The retrieved literature consists of general antiparasitic reviews and HIV opportunistic infection papers that mention metronidazole only incidentally. The standard treatment for *Pneumocystis* pneumonia cited in these papers is trimethoprim-sulfamethoxazole, not metronidazole.
+
+---
 
 ## Clinical Trial Evidence
 
-The search returned 24 registered trials linked to this drug–disease pair. On review, none investigate metronidazole for pneumocystosis — they are unrelated primary care, health-services, or care-delivery studies picked up through data-linkage noise. A representative sample:
+Currently no related clinical trials registered.
 
-| Trial Number | Phase | Status | Enrolment | Relevance Assessment |
-|---------|------|------|------|---------|
-| [NCT02571673](https://clinicaltrials.gov/study/NCT02571673) | N/A | Completed | 65 | Grade C — head and neck cancer survivorship care tool; unrelated to drug or disease |
-| [NCT01909076](https://clinicaltrials.gov/study/NCT01909076) | N/A | Completed | 53 | Grade C — opioid risk reduction in primary care; unrelated |
-| [NCT03466866](https://clinicaltrials.gov/study/NCT03466866) | Phase 3 | Completed | 156 | Grade C — diabetes emergency-visit education programme; unrelated |
-| [NCT05892666](https://clinicaltrials.gov/study/NCT05892666) | N/A | Recruiting | 4000 | Grade C — comparison of ambulatory care settings; unrelated |
-
-No further trials are listed, as the remainder carry the same "not relevant" pattern. **No clinical trial evaluating metronidazole for pneumocystosis exists in this evidence pack.**
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Review | Am Fam Physician | Lists metronidazole for amoebic colitis and trichomoniasis; Pneumocystis pneumonia is separately attributed to trimethoprim-sulfamethoxazole, not metronidazole |
-| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Review | Clin Pharmacokinet | Reviews antiprotozoal pharmacokinetics and dosing rationale; no data on Pneumocystis |
-| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Review | Top Antivir Med | Overview of HIV-related opportunistic infections including PCP; does not discuss metronidazole as therapy |
-| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Review | Clin Pharm | Reviews treatment of AIDS-related infections, listing PCP and amoebic disease as separate entities with separate drug regimens |
-| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Review | Mayo Clin Proc | General review of antiparasitic agents; does not address Pneumocystis specifically |
-| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Case Report | Am Rev Respir Dis | Patient later diagnosed with PCP had previously received metronidazole for an unrelated diarrhoeal illness — coincidental comorbidity, not evidence of PCP treatment |
-| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Case Report | Kansenshogaku Zasshi | AIDS patient treated with metronidazole for amoebic dysentery/liver abscess later separately developed PCP — again comorbidity, not a treatment link |
-| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Case Report | J Formos Med Assoc | AIDS patient with amoebic colitis (metronidazole-treated) and separate CMV colitis; PCP not part of the clinical picture |
-| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Review | Rev Infect Dis | General critique of antimicrobial prophylaxis trials; not specific to metronidazole or Pneumocystis |
+| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Review | Mayo Clin Proc | General review of antiparasitic agents; no evidence of metronidazole activity against *Pneumocystis* |
+| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Review | Am Fam Physician | Lists metronidazole for amoebiasis and trichomoniasis; trimethoprim-sulfamethoxazole is the drug of choice for pneumocystis pneumonia |
+| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Review | Clin Pharmacokinet | Pharmacokinetic basis of antiprotozoal therapy; no *Pneumocystis* efficacy data for metronidazole |
+| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Review | Clin Pharm | Treatment of infectious complications of AIDS; *Pneumocystis* pneumonia discussed as the most common complication |
+| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Review | Top Antivir Med | HIV-related opportunistic infections; no evidence for metronidazole in pneumocystosis |
+| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Review | Rev Infect Dis | Critique of antimicrobial prophylaxis trials; not specific to pneumocystosis |
+| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Case report | Am Rev Respir Dis | *Pneumocystis* and CMV pneumonia in a patient previously given metronidazole and tetracycline for diarrhoea; metronidazole was not a treatment for the pneumonia |
+| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Case report | Kansenshogaku Zasshi | Two AIDS patients; metronidazole used for amoebic dysentery, not for pneumocystosis |
+| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Case report | J Formos Med Assoc | Colon perforation in an AIDS patient with amoebic colitis and CMV; unrelated to pneumocystosis |
+| [42178576](https://pubmed.ncbi.nlm.nih.gov/42178576/) | 2026 | Case report | J Med Case Rep | Cerebellar abscess in sarcoidosis; unrelated to pneumocystosis |
 
-**No publication demonstrates or even directly investigates metronidazole efficacy against Pneumocystis jirovecii.**
+---
 
 ## UK Market Information
 
-No marketing authorisation records were returned in this evidence pack (0 licences; market status recorded as "not marketed"). This is inconsistent with metronidazole's status as a long-established, widely prescribed generic antimicrobial in UK clinical practice — the gap most likely reflects incomplete data capture in this evidence pack rather than genuine absence from the market. Please verify current licence status directly via the MHRA product register or BNF before making any regulatory assumptions.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501110C0AAAGAG | Metronidazole suppository 500 mg | Suppository (inferred from product name) | Not recorded in the data compiled for this report |
+
+Only one single-ingredient authorisation record is available, and it is currently valid. The identifier does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register before being relied on. Indication text and NICE or BNF classification details are not available here.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindication signals from the knowledge graph** (these are drug-disease associations, not label text): liver failure and liver disease, epilepsy and brain disease, kidney disease, haematological disease (including neutropenia, agranulocytosis and leukopenia), blood coagulation disease, peripheral neuropathy and peripheral nervous system disease, optic nerve and visual pathway disease, non-infectious meningitis, diabetes mellitus and diabetic ketoacidosis, congestive heart failure, gallbladder disease, gout, dermatitis, substance abuse/dependence and pyoureter.
+
+**Drug Interactions** (100 interactions recorded; selected examples):
+- **Major:** Ethanol (avoid alcohol during and after treatment)
+- **Moderate:** Paclitaxel, adalimumab, trastuzumab emtansine, ethinylestradiol, estradiol, butalbital, amobarbital, amiodarone, celecoxib, loperamide
+- **Minor:** Abiraterone, tramadol, famotidine, salbutamol, alfuzosin, amisulpride, amitriptyline, anagrelide, propofol
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
+
+## Other Predicted Indications Reviewed
+
+For context, the other top-ranked predictions have similarly limited support:
+
+| Rank | Predicted Indication | Evidence Level | Assessment |
+|---|---|---|---|
+| 2 | Punctate epithelial keratoconjunctivitis | L5 | Prediction only; no data |
+| 3 | Ulcerative proctosigmoiditis | L4 | Biologically plausible (gut microbiota) but only general IBD reviews |
+| 4 | Nocardiosis | L5 | No established activity; first-line is trimethoprim-sulfamethoxazole |
+| 5 | Postmenopausal atrophic vaginitis | L5 | Oestrogen-deficiency condition; retrieved paper does not test metronidazole |
+| 6 | Cryptococcal meningitis | L5 | Fungal; no antifungal mechanism |
+| 7 | Papillary conjunctivitis | L5 | Prediction only; no data |
+| 8 | Myiasis | L4 | Adjunct in wound care only; ivermectin is effective treatment |
+| 9 | Cap polyposis | L4 | Case reports and one hypothesis paper; no controlled data |
+| 10 | Ulceration of vulva | L4 | Indirect evidence (vulvar Crohn's, cutaneous amoebiasis) |
+
+Cap polyposis and vulvar ulceration have the most substantive, though still low-grade, supporting literature and may merit a closer look as research questions.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN score (99.99%), no clinical trial or publication provides direct or even indirect evidence that metronidazole treats pneumocystosis, and the drug's known mechanism (anaerobic/protozoal nitroreductase activation) does not extend to *Pneumocystis jirovecii*. The supporting literature reflects comorbidity in immunocompromised patients rather than a pharmacological effect — this is a high-confidence-score but low-plausibility prediction.
+The top-ranked prediction, pneumocystosis, has no clinical trials, no plausible mechanism and no literature showing efficacy, so it rests on the model score alone (L5). Established therapy for this condition is trimethoprim-sulfamethoxazole.
 
 **To proceed, the following is needed:**
-- Independent in vitro/in vivo evidence of metronidazole activity against *Pneumocystis jirovecii*, if such a hypothesis is to be pursued at all
-- Formal MOA documentation from DrugBank/SmPC
-- Confirmed UK marketing authorisation and safety/DDI data
-- Reassessment of whether the TxGNN signal reflects a genuine biological relationship or a knowledge-graph artefact from shared comorbidity edges (HIV/AIDS-associated infections)
-
-**Note on other candidates in this evidence pack:** among the 10 predictions reviewed, rank 9 (**cap polyposis**, L4, decision stage S2, "Research Question") has the most direct supporting evidence — a mechanistic case series specifically asking whether metronidazole works via anti-inflammatory rather than antibacterial action — and may warrant closer follow-up ahead of pneumocystosis. Rank 3 (ulcerative proctosigmoiditis) and rank 10 (vulvar ulceration, via cutaneous amoebiasis) also carry plausible mechanistic links, albeit with thinner evidence, and are flagged as "Research Question" rather than "Hold."
+- Mechanism of action data to test whether any plausible link to *Pneumocystis* exists
+- Preclinical or in vitro evidence of activity against *Pneumocystis*
+- Complete UK licence details (indication text, dosage form, verified authorisation number) and SmPC warnings and contraindications
+- If the programme is to be redirected, a structured review of cap polyposis and vulvar ulceration, where the existing literature is more relevant
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pirenzepine
-parent: High Evidence (L1-L2)
-nav_order: 466
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 502
+evidence_level: L3
 indication_count: 2
 ---
 
 # Pirenzepine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **2** 
+Evidence Level: **L3** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,77 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Pirenzepine has historically been used (marketed in continental Europe as "Gastrozepin") for peptic ulcer and gastroduodenal disease, though it currently holds no UK marketing authorisation. The TxGNN model predicts it may be effective for **Gastroduodenitis**, with **0 clinical trials** and **19 publications** currently supporting this direction — largely historical pharmacology and small trials from the 1980s–90s rather than modern registered studies.
-
----
+Pirenzepine is a selective muscarinic M1 receptor antagonist, originally used to treat peptic ulcer disease.
+The TxGNN model predicts it may be effective for **gastroduodenitis**, with **no registered clinical trials** but **20 publications** (mostly older clinical and mechanistic studies) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in this evidence pack (drug-level data gap); historical literature consistently describes use in peptic ulcer / gastroduodenal ulcer disease |
+| Original Indication | Peptic ulcer disease |
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-A formal mechanism-of-action record is not available in this evidence pack (drug-level data gap, DG002). However, the model's own repurposing rationale and the supporting literature converge on a consistent picture: pirenzepine is a selective M1 muscarinic receptor antagonist that reduces gastric acid and pepsin secretion, stimulates duodenal bicarbonate and gastric prostaglandin E2 release, and promotes mucosal healing — a pharmacological profile documented as early as the 1980s under the brand name Gastrozepin.
+Pirenzepine is a selective muscarinic M1 receptor antagonist. It reduces gastric acid secretion and is already marketed for peptic ulcer disease. Its pharmacology data also show binding to the other muscarinic receptor subtypes (M2 to M5), though with M1 selectivity being its main characteristic. Formal mechanism-of-action data were not available in the data compiled for this report; the description here is drawn from the published literature.
 
-Notably, this "new" prediction largely reaffirms the drug's own historical use rather than pointing to a genuinely novel indication. Multiple included publications explicitly describe pirenzepine's use in "gastroduodenal ulcer" and "erosive gastroduodenitis" (e.g. PMID 6783555, PMID 15074203), suggesting the compound fell out of routine practice — likely superseded by PPIs and H2-antagonists — rather than having failed on efficacy grounds.
+Gastroduodenitis and peptic ulcer disease share much of the same underlying biology, namely acid and cholinergic drive on the gastroduodenal mucosa. Animal work shows that pirenzepine protects against chemically induced gastroduodenal ulcers (PMID 2636820). A volunteer study found that M1 inhibition increases bicarbonate secretion and prostaglandin E2 release (PMID 7737558).
 
-Mechanistically, the antisecretory plus mucosal-protective (cytoprotective) dual action is directly relevant to gastroduodenitis, where reducing acid/pepsin exposure while supporting bicarbonate and prostaglandin-mediated mucosal defence would be expected to aid healing of inflamed gastroduodenal mucosa.
-
----
+This prediction is arguably an extension of the original indication rather than true repurposing, which would explain the very high model score. Modern comparators such as proton pump inhibitors have also largely superseded pirenzepine in practice.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+The table lists the most relevant publications, prioritising controlled trials over reviews and mechanistic work. Several older reports are missing abstracts or have unconfirmed designs, and this is noted where relevant.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6221398](https://pubmed.ncbi.nlm.nih.gov/6221398/) | 1982 | RCT (multicentre) | Scand J Gastroenterol Suppl | Multicentre trial demonstrating efficacy and safety of pirenzepine in peptic ulcer and non-ulcerous gastroduodenal disease |
-| [2694330](https://pubmed.ncbi.nlm.nih.gov/2694330/) | 1989 | RCT (double-blind, multicentre) | Scand J Gastroenterol Suppl | In 104 patients with non-ulcer dyspepsia, pirenzepine improved endoscopic/clinical findings, though mucosal inflammation and *H. pylori* colonisation were unchanged |
-| [8165833](https://pubmed.ncbi.nlm.nih.gov/8165833/) | 1994 | RCT (comparative therapy) | Z Gastroenterol | Retrospective comparison of high-dose omeprazole vs famotidine + pirenzepine + antacid for acute upper GI haemorrhage, including erosive gastroduodenitis |
-| [3855517](https://pubmed.ncbi.nlm.nih.gov/3855517/) | 1985 | Review | N Z Med J | Review of pirenzepine's clinical role in gastroduodenal ulcer management |
-| [3297938](https://pubmed.ncbi.nlm.nih.gov/3297938/) | 1987 | Cohort/Observational | Gut | Endoscopic study linking acid-secreting mucosal area to erosive gastritis severity; demonstrated a healing effect of pirenzepine |
-| [1783354](https://pubmed.ncbi.nlm.nih.gov/1783354/) | 1991 | Cohort/Combination trial | Fukuoka Igaku Zasshi | Pirenzepine (M1 antagonist) combined with famotidine (H2 antagonist) significantly reduced tetragastrin-stimulated gastric acid secretion versus either agent alone |
-| [3544186](https://pubmed.ncbi.nlm.nih.gov/3544186/) | 1986 | Comparative physiology study | Scand J Gastroenterol | In duodenal ulcer patients, IV pirenzepine produced antisecretory/motor effects comparable to atropine on gastroduodenal manometry |
-| [15074203](https://pubmed.ncbi.nlm.nih.gov/15074203/) | 2003 | Review | Klin Khir | Reassessment of pirenzepine's pharmacology, highlighting cytoprotective effects and utility in chronic pancreatitis and stress-ulcer prophylaxis |
-| [2636820](https://pubmed.ncbi.nlm.nih.gov/2636820/) | 1989 | Animal study | Arch Int Pharmacodyn Ther | In rats, pirenzepine reduced cysteamine-induced gastric/duodenal ulceration and improved mesenteric blood flow, outperforming atropine |
-| [6783555](https://pubmed.ncbi.nlm.nih.gov/6783555/) | 1981 | Mechanistic study | Int J Clin Pharmacol Ther Toxicol | Showed pirenzepine inhibits gastric mucosal carbonic anhydrase, proposing an additional mechanism to antimuscarinic acid suppression in gastroduodenal ulcer therapy |
-
----
+| [396654](https://pubmed.ncbi.nlm.nih.gov/396654/) | 1979 | Double-blind controlled trial | Scand J Gastroenterol Suppl | Pirenzepine compared with placebo in endoscopically confirmed gastroduodenitis or duodenal ulcer, and with carbenoxolone in gastric ulcer, over 30 days (97 of 112 outpatients completed) |
+| [6221398](https://pubmed.ncbi.nlm.nih.gov/6221398/) | 1982 | Multicentre controlled clinical trial | Scand J Gastroenterol Suppl | Efficacy and safety of pirenzepine in peptic ulcer and non-ulcerous gastroduodenal disease (abstract unavailable; design not confirmed from title) |
+| [2695862](https://pubmed.ncbi.nlm.nih.gov/2695862/) | 1989 | Randomised double-blind placebo-controlled trial | Minerva Dietol Gastroenterol | Pirenzepine 100 mg/day for 12 weeks in 60 patients to prevent gastroduodenal lesions during cytostatic therapy |
+| [2694330](https://pubmed.ncbi.nlm.nih.gov/2694330/) | 1989 | Double-blind multicentre trial | Scand J Gastroenterol Suppl | In non-ulcer dyspepsia, endoscopic and clinical findings improved with pirenzepine, but mucosal inflammation and campylobacter colonisation did not change |
+| [3297938](https://pubmed.ncbi.nlm.nih.gov/3297938/) | 1987 | Clinical study | Gut | Examined erosive gastritis in relation to acid-secreting area and the healing effect of pirenzepine |
+| [3544186](https://pubmed.ncbi.nlm.nih.gov/3544186/) | 1986 | Randomised clinical physiology study | Scand J Gastroenterol | Compared pirenzepine with atropine on gastroduodenal motor patterns in 20 duodenal ulcer patients |
+| [8165833](https://pubmed.ncbi.nlm.nih.gov/8165833/) | 1994 | Retrospective comparison | Z Gastroenterol | High-dose omeprazole compared with famotidine, pirenzepine and antacid in acute upper GI haemorrhage |
+| [3841775](https://pubmed.ncbi.nlm.nih.gov/3841775/) | 1985 | Comparative clinical study | Drugs Exp Clin Res | Pirenzepine compared with ranitidine for gastroprotection during chemotherapy in 20 patients |
+| [7737558](https://pubmed.ncbi.nlm.nih.gov/7737558/) | 1995 | Mechanistic (human volunteers) | Gut | M1 inhibition with pirenzepine affected bicarbonate secretion and prostaglandin E2 release |
+| [2636820](https://pubmed.ncbi.nlm.nih.gov/2636820/) | 1989 | Preclinical (rat) | Arch Int Pharmacodyn Ther | Pirenzepine reduced cysteamine-induced gastroduodenal ulceration |
 
 ## UK Market Information
 
-Pirenzepine currently holds **no UK marketing authorisation** (0 licences on record; market status: Not marketed). Historical formulations (marketed as Gastrozepin in continental Europe, e.g. Germany, Italy) are referenced throughout the literature but are not available in the UK market. No BNF entry currently exists for this drug.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0103020P0AAAAAA | Pirenzepine Tablets 50 mg | Tablet | Not stated in the data compiled |
 
----
+The listed code appears to be a BNF-style product code (BNF section 1.3, antisecretory drugs and mucosal protectants) rather than a standard MHRA PL number. Dosage form and approved indication text were not recorded, so the licence details should be checked against the MHRA product information.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** No drug-drug interaction entries were identified. The interaction query returned only pharmacology target data, showing pirenzepine binding to muscarinic M1 to M5 receptors and the TAS2R9 bitter taste receptor. As an antimuscarinic, additive anticholinergic effects with other anticholinergic agents should be considered; please verify in the BNF.
 
-*Note: Formal safety data (warnings, contraindications, drug interactions) are recorded as an unresolved, blocking data gap (DG001) — MHRA/SmPC-level labelling information has not yet been sourced and must be obtained before any safety assessment can be completed.*
-
----
-
-## Additional Predicted Indication (Lower Priority)
-
-For reference, TxGNN also ranked **Irritable Bowel Syndrome** (score 99.54%, Evidence Level L3, Decision Stage S1) as a candidate. However, the only identified human RCT (PMID 2559903, double-blind crossover) reported a **non-effect** of pirenzepine in dietary-resistant IBS. Remaining evidence is limited to unrelated animal/mechanistic studies. **Recommendation: Hold** — this indication is not supported for further pursuit at this time.
-
----
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (Gastroduodenitis indication only)
+**Decision: Hold**
 
 **Rationale:**
-Historical evidence (1980s–90s RCTs and mechanistic studies) consistently supports pirenzepine's antisecretory and mucosal-protective effect in gastroduodenal disease, giving reasonable L2-level evidence. However, this is essentially a reaffirmation of a historical, now-lapsed use rather than a novel indication, and critical safety/regulatory data remain unresolved.
+The supporting evidence is limited to older (1979 to 1995) clinical and mechanistic studies, with no registered trials. The indication largely overlaps with the existing peptic ulcer use, and proton pump inhibitors are now standard care. Pirenzepine also has no clear evidence of benefit in the second predicted indication, irritable bowel syndrome (a negative study, PMID 2559903), so the high model score should not be taken as clinical support.
 
 **To proceed, the following is needed:**
-- Formal SmPC-level safety data — warnings, contraindications, DDI (blocking gap DG001)
-- Formal DrugBank-sourced mechanism-of-action documentation (gap DG002)
-- Clarification of why UK/EU marketing authorisation was never obtained or was withdrawn
-- Assessment against current standard-of-care comparators (PPIs, H2-antagonists), since nearly all evidence pre-dates modern *H. pylori* era management
-- No further action recommended on the irritable bowel syndrome candidate given negative RCT evidence
+- SmPC and BNF warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data
+- Full text review of the older controlled trials (several abstracts are missing) to confirm design and outcomes
+- Head-to-head or contemporary comparative evidence against proton pump inhibitors
+- Confirmation of the approved indication wording and dosage form for the UK authorisation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

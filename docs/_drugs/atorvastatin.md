@@ -2,7 +2,7 @@
 layout: default
 title: Atorvastatin
 parent: High Evidence (L1-L2)
-nav_order: 77
+nav_order: 80
 evidence_level: L1
 indication_count: 6
 ---
@@ -29,39 +29,37 @@ Evidence Level: **L1** | Predicted Indications: **6**
 
 </div>
 
-# Atorvastatin: From Hypercholesterolaemia to Familial Hypercholesterolaemia
-
----
+# Atorvastatin: From Hypertriglyceridaemia and Atherosclerosis to Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Atorvastatin is a widely used HMG-CoA reductase inhibitor (statin), primarily indicated for the management of hypercholesterolaemia and prevention of cardiovascular events.
-The TxGNN model predicts it may be effective for **Familial Hypercholesterolaemia (FH)**, with **35 clinical trials** and **19 publications** currently supporting this direction.
-This prediction carries a high-confidence score of **99.42%** and aligns with established clinical practice globally, effectively validating the model's predictive performance for this drug–disease pairing.
+Atorvastatin is a statin (HMG-CoA reductase inhibitor) originally used for lipid disorders and the prevention of atherosclerotic and cerebrovascular disease.
+The TxGNN model predicts it may be effective for **familial hypercholesterolaemia**, with **14 clinical trials** and **20 publications** currently supporting this direction.
+Homozygous familial hypercholesterolaemia is already among its listed original indications, so this is closer to an on-label use than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypercholesterolaemia and cardiovascular risk reduction *(UK MHRA licensing data not retrieved in this evidence pack — see note in UK Market Information section)* |
-| Predicted New Indication | Familial Hypercholesterolaemia |
+|------|------|
+| Original Indication | Hypertriglyceridaemia, stroke and cerebrovascular disorders, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia, homozygous familial hypercholesterolaemia (no approved indication text is recorded in the UK authorisation data) |
+| Predicted New Indication | Familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L1 |
-| UK Market Status | Not retrieved *(data gap; Atorvastatin is known to be commercially available in the UK)* |
-| Number of Marketing Authorisations | 0 *(data collection gap — does not reflect actual MHRA authorisation status)* |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not returned in this evidence pack. However, based on well-established pharmacological knowledge, Atorvastatin competitively inhibits **HMG-CoA reductase** — the rate-limiting enzyme in hepatic cholesterol biosynthesis. By reducing intracellular cholesterol in hepatocytes, the drug triggers compensatory upregulation of **LDL receptors (LDLR)** on the hepatocyte surface, substantially increasing the clearance of circulating LDL-C. Atorvastatin also reduces the hepatic production of apolipoprotein B-containing lipoproteins and has a prolonged plasma half-life (~20–30 hours) relative to earlier statins, enabling sustained 24-hour HMG-CoA reductase inhibition.
+Atorvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis. This upregulates hepatic LDL receptor expression and increases clearance of LDL cholesterol (LDL-C). Detailed mechanism-of-action data were not available in the data compiled for this report; the description here is based on the known pharmacology of statins.
 
-Familial Hypercholesterolaemia is a hereditary condition characterised by loss-of-function mutations in the **LDLR**, **APOB**, or **PCSK9** genes, resulting in severely impaired LDL-C clearance and markedly elevated LDL-C levels from birth. The compensatory upregulation of LDL receptors induced by atorvastatin directly addresses — albeit partially — the core pathophysiological deficit. In **heterozygous FH (heFH)**, where at least one functional LDLR allele is preserved, atorvastatin typically achieves 40–50% LDL-C reductions. In **homozygous FH (HoFH)**, residual receptor activity is near-absent and combination therapy (ezetimibe, PCSK9 inhibitors, or LDL apheresis) is generally required alongside a statin.
+Familial hypercholesterolaemia (FH) is an inherited condition in which LDL receptor function is impaired, so lowering LDL-C is the central treatment goal. Atorvastatin is already used for related lipid disorders, and homozygous FH appears among its original indications. The prediction is therefore mechanistically coherent.
 
-The biological plausibility is strongly reinforced by the clinical evidence base: multiple completed Phase 3 trials, long-term paediatric studies, and major clinical guidelines — including **NICE CG71 (Familial Hypercholesterolaemia)** and the **AACE/ACE Dyslipidaemia Guidelines** — consistently position high-intensity statins, including atorvastatin, as the cornerstone of FH management. The TxGNN prediction score of 99.42% reflects this near-universal mechanistic and clinical concordance.
+One caveat applies. In patients with defective LDL receptors, the response to a statin is attenuated, which is why add-on therapy (ezetimibe, bempedoic acid, PCSK9 inhibitors) is commonly used. Several of the trials below test atorvastatin as background therapy rather than atorvastatin itself.
 
 ---
 
@@ -69,16 +67,18 @@ The biological plausibility is strongly reinforced by the clinical evidence base
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Completed | 272 | Three-year open-label study of atorvastatin in children and adolescents (from age 6) with heFH; characterised sustained LDL-C reduction, growth, BMI, and Tanner Stage development |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Completed | 800 | Large double-blind RCT comparing torcetrapib/atorvastatin vs maximally tolerated atorvastatin alone in heFH; carotid intima-media thickness assessed over 24 months; torcetrapib arm terminated due to safety findings |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Completed | 400 | Six-month double-blind RCT of torcetrapib/atorvastatin vs atorvastatin monotherapy in heFH; provides direct comparator data for atorvastatin LDL-C lowering efficacy in FH |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | Completed | 30 | Forced-titration open-label study of torcetrapib/atorvastatin in HoFH; evaluated efficacy and safety in the most severe FH phenotype |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | Long-term (24-month) open-label extension assessing safety and tolerability of ezetimibe co-administered with atorvastatin or simvastatin in HoFH |
-| [NCT03867318](https://clinicaltrials.gov/study/NCT03867318) | Phase 3 | Completed | 621 | Double-blind efficacy and safety study of ezetimibe 10 mg added to atorvastatin 10 mg in heFH or CHD/multiple cardiovascular risk factors with inadequately controlled primary hypercholesterolaemia |
-| [NCT03882996](https://clinicaltrials.gov/study/NCT03882996) | Phase 3 | Completed | 432 | Twelve-month open-label long-term safety of ezetimibe co-administered with atorvastatin 10–80 mg daily in heFH or CHD/multiple cardiovascular risk factors |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Completed | 39 | Eight-week study evaluating the pharmacokinetics, pharmacodynamics, safety and tolerability of atorvastatin specifically in children and adolescents with heFH |
-| [NCT02460159](https://clinicaltrials.gov/study/NCT02460159) | Phase 3 | Completed | 135 | Long-term safety of ezetimibe/atorvastatin fixed-dose combination (10/10 mg and 10/20 mg) in Japanese patients with hypercholesterolaemia not controlled on statin monotherapy |
-| [NCT01730040](https://clinicaltrials.gov/study/NCT01730040) | Phase 3 | Completed | 355 | Double-blind study comparing alirocumab vs ezetimibe added to atorvastatin, vs atorvastatin dose increase, vs switch to rosuvastatin, in high cardiovascular-risk patients including heFH not controlled on atorvastatin |
+| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Completed | 800 | Carotid ultrasound study of torcetrapib/atorvastatin vs maximally tolerated atorvastatin in heterozygous FH (programme terminated for safety findings) |
+| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Completed | 400 | Torcetrapib/atorvastatin vs atorvastatin alone in heterozygous FH over 6 months (torcetrapib programme terminated for safety) |
+| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Completed | 272 | Three-year open-label study of atorvastatin in children and adolescents with heterozygous FH, assessing growth, development and cholesterol reduction |
+| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Phase 3 | Completed | 249 | Alirocumab vs placebo in heterozygous FH inadequately controlled on lipid-modifying therapy |
+| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Phase 3 | Completed | 153 | Alirocumab vs placebo in children and adolescents with heterozygous FH on stable statin therapy |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe added to atorvastatin or simvastatin in homozygous FH (atorvastatin as background therapy) |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | 24-month open-label safety extension of ezetimibe plus atorvastatin or simvastatin in homozygous FH |
+| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Completed | 39 | Pharmacokinetics, pharmacodynamics and safety of atorvastatin over 8 weeks in children and adolescents with heterozygous FH |
+| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | Completed | 30 | Open-label forced-titration study of torcetrapib/atorvastatin in homozygous FH |
+| [NCT01279590](https://clinicaltrials.gov/study/NCT01279590) | Phase 2 | Completed | 282 | Statin-associated myalgia incidence with PPD10558 vs atorvastatin in statin-intolerant patients with primary hypercholesterolaemia |
+
+Most of these trials are combination or add-on studies, so atorvastatin-specific efficacy evidence is mainly indirect. NCT00827606 is the most direct atorvastatin study listed.
 
 ---
 
@@ -86,35 +86,62 @@ The biological plausibility is strongly reinforced by the clinical evidence base
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Clinical Practice Guideline | *Endocrine Practice* | AACE/ACE dyslipidaemia guidelines; positions high-intensity statins, including atorvastatin, as first-line therapy in FH with defined LDL-C targets |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort/Outcomes Study | *JACC* | Statin therapy in heFH substantially reduces coronary artery disease event rates and all-cause mortality; quantifies absolute risk reduction in a defined FH population |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Narrative Review | *Curr Atheroscler Rep* | Review of emerging pharmacological therapies for HoFH; contextualises the role of statins (including atorvastatin) as a foundation alongside PCSK9 inhibitors and novel agents |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Clinical Study | *J Clin Lipidol* | Three-year real-world study of atorvastatin in children/adolescents aged 6–17 years with heFH; demonstrates sustained LDL-C lowering and no adverse effects on growth or development |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative Trial | *Nutr Metab Cardiovasc Dis* | Head-to-head comparison of atorvastatin vs simvastatin in heFH; atorvastatin achieved NCEP LDL-C goals in a higher proportion of patients with additional favourable effects on fibrinogen |
-| [22957727](https://pubmed.ncbi.nlm.nih.gov/22957727/) | 2013 | Interventional Study | *Echocardiography* | Atorvastatin therapy improves myocardial and peripheral blood flow reserve in FH subjects without overt coronary atherosclerosis, demonstrating early vascular pleiotropic benefits |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Clinical Review | *Ann Pharmacother* | Comprehensive review of atorvastatin pharmacology, efficacy, and safety in primary hypercholesterolaemia and mixed dyslipidaemias; foundational reference for dosing principles |
-| [26988948](https://pubmed.ncbi.nlm.nih.gov/26988948/) | 2016 | Review | *JACC* | Review of monitoring and care strategies for FH patients; emphasises intensive statin therapy as an essential component of long-term cardiovascular risk management |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Genetic Epidemiology Study | *Pharmacogenomics J* | Next-generation sequencing strategy combining FH gene panels with pharmacogenomic regions relevant to statin prescription; supports genotype-guided atorvastatin selection and dose optimisation |
-| [10582478](https://pubmed.ncbi.nlm.nih.gov/10582478/) | 1999 | Drug Review | *Rev Med Bruxelles* | Overview of atorvastatin mechanism (HMG-CoA reductase inhibition), prolonged half-life of active metabolites, and biological efficacy in cholesterol reduction, including LDL-C, TG, and Apo B reductions |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | RCT | Nutr Metab Cardiovasc Dis | Atorvastatin vs simvastatin in heterozygous FH, comparing attainment of LDL-C goals and effects on fibrinogen |
+| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | Systematic review | Cochrane Database Syst Rev | Dose-related lipid-lowering efficacy of atorvastatin |
+| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Clinical study | J Clin Lipidol | Three-year efficacy and safety of atorvastatin in children and adolescents with heterozygous FH |
+| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort | J Am Coll Cardiol | Statin therapy in FH and its association with coronary artery disease events and all-cause mortality |
+| [9301631](https://pubmed.ncbi.nlm.nih.gov/9301631/) | 1997 | Clinical study | Arterioscler Thromb Vasc Biol | Open-label study in proven FH; atorvastatin 80 mg given at night or as 40 mg twice daily was effective and well tolerated |
+| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | Clinical study | Med Sci Monit | Atorvastatin reduced microalbuminuria in heterozygous FH with normal glucose tolerance |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guidelines for dyslipidaemia management and cardiovascular prevention |
+| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Review | Semin Vasc Med | Diagnostic, clinical and therapeutic aspects of FH in children |
+| [30270066](https://pubmed.ncbi.nlm.nih.gov/30270066/) | 2018 | Retrospective study | Atherosclerosis | FH treatment patterns in Slovakia; many patients under-treated or not reaching LDL-C goals |
+| [40254247](https://pubmed.ncbi.nlm.nih.gov/40254247/) | 2025 | Preclinical | Toxicology | Statin-induced myotoxicity in iPSC-derived muscle cells from FH patients, comparing lipophilic and hydrophilic statins |
 
 ---
 
 ## UK Market Information
 
-> ⚠️ **Data Collection Gap:** This evidence pack recorded **0 marketing authorisations** and a market status of "not marketed" for Atorvastatin in the UK. This is inconsistent with the well-established commercial presence of Atorvastatin in the UK under the brand name **Lipitor** (Pfizer) and numerous MHRA-approved generic formulations. This appears to be a failure in the data collection pipeline for this run and should be remediated by querying the MHRA Product Licence database directly.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0212000B0AAAAAA | Atorvastatin Tab 10mg | Not recorded | Not recorded |
 
-For current, authoritative UK prescribing information, refer to:
-- **BNF Chapter 2.12** — Lipid-regulating drugs (Atorvastatin monograph)
-- **MHRA Product Licence search** for Atorvastatin calcium tablets
-- **NICE CG71** — Identification and management of Familial Hypercholesterolaemia
-- **NICE TA385** — Alirocumab for treating primary hypercholesterolaemia and mixed dyslipidaemia (contextualises statin background therapy)
-- **SmPC** for Lipitor and relevant generic products
+The data compiled for this report show one valid single-ingredient authorisation. The identifier is not in the standard MHRA PL format, and dosage form, manufacturer and indication text are not recorded. Please verify the authorisation details against the MHRA register, the SmPC and the BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
+**Contraindications and conditions of concern (from knowledge-graph drug-disease links, not label text):**
+- Liver failure and liver disease
+- Kidney disease
+- Gallbladder disease
+- Hypothyroidism, myxoedema and congenital hypothyroidism
+- Myopathy, muscular disease and skeletal muscle disease, including familial periodic paralysis
+- Rhabdomyolysis
+- Hypotensive disorder
+- Substance abuse or dependence
+- Injury
+
+**Drug Interactions:** The interaction check returned 100 interactions; the first 20 returned are summarised here.
+- **Major:** clarithromycin (a CYP3A4 inhibitor that raises atorvastatin exposure and myopathy risk).
+- **Moderate:** aprepitant, omeprazole, esomeprazole, lansoprazole, pantoprazole, cimetidine, clotrimazole, miconazole, dexamethasone, eliglustat, eluxadoline, metronidazole, naltrexone, pectin, rosuvastatin, simvastatin. Combining atorvastatin with other statins offers no benefit and adds risk.
+- **Minor:** aluminium hydroxide, magnesium hydroxide, liraglutide.
+
+In HIV-related use, protease inhibitors and boosters cause significant CYP3A4 interactions that require dose limits and monitoring.
+
+Label warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
+
+## Other Predicted Indications (Summary)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
+|------|------|------|------|------|------|
+| 2 | HIV infectious disease | 99.31% | L2 | Research Question | Small trials of immunomodulation and lipid management; no evidence of a direct antiviral effect |
+| 3 | Brain stem infarction | 99.31% | L4 | Hold | General ischaemic stroke use is established; no brain-stem-specific evidence, and the only registered trial tests stem cell therapy |
+| 4 | Cholesterol-ester transfer protein deficiency | 99.25% | L5 | Hold | No trials; the literature concerns CETP inhibitors, not atorvastatin |
+| 5 | Hypercholesterolaemia due to cholesterol 7alpha-hydroxylase deficiency | 99.20% | L5 | Hold | Preclinical literature only |
+| 6 | Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter | 99.13% | L5 | Hold | No mechanistic link, trials or literature; likely a network artefact |
 
 ---
 
@@ -123,16 +150,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for atorvastatin in familial hypercholesterolaemia is exceptionally robust (Evidence Level L1), comprising multiple completed Phase 3 randomised trials in both heterozygous and homozygous FH — including paediatric populations — as well as endorsement in major international clinical guidelines including NICE CG71. The TxGNN prediction (99.42%) effectively validates the model's performance by confirming an established clinical indication rather than proposing a novel one. The principal guardrails relate to ensuring appropriate patient stratification (heFH vs HoFH), managing combination therapy decisions, and resolving the UK licensing data gap.
+Several completed Phase 3 trials and randomised and observational studies support lipid-lowering in familial hypercholesterolaemia, and homozygous FH is already an original indication, so this is effectively on-label or near-label use. Because much of the trial evidence is add-on or indirect, and label safety data were unavailable, guardrails are appropriate.
 
 **To proceed, the following is needed:**
-
-- **Resolve the UK licensing data gap:** Re-run the MHRA product licence data collection pipeline to accurately capture all current marketing authorisations for atorvastatin in the UK
-- **Retrieve formal MOA data:** Query the DrugBank API for DB01076 to populate the mechanism of action field (flagged as High severity data gap in this evidence pack)
-- **Obtain full UK safety profile:** Retrieve MHRA SmPC warnings, contraindications, and drug interactions — particularly for CYP3A4 interactions (e.g., ciclosporin, clarithromycin, strong CYP3A4 inhibitors) relevant to FH patients on complex regimens
-- **HoFH-specific pathway:** For homozygous FH patients, document eligibility criteria for LDL apheresis (NICE CG71) and PCSK9 inhibitor access (NICE TA393/TA394) as atorvastatin monotherapy is insufficient in this subgroup
-- **Paediatric dosing review:** Confirm MHRA-approved age indications and dose ranges for children with FH, with reference to the atorvastatin SmPC and NICE CG71 paediatric recommendations
-- **Pharmacogenomic consideration:** Review CYP3A4 and SLCO1B1 genotyping opportunities for FH patients at high risk of statin-associated myopathy, as highlighted in the pharmacogenomics literature
+- Confirmation of the UK authorisation details (PL number, formulation, approved indications) from the MHRA register and SmPC
+- Label warnings and contraindications from the SmPC and BNF, as this data was missing
+- Detailed mechanism-of-action data
+- Review of NICE guidance on FH, including add-on therapy for patients not reaching LDL-C targets
+- A monitoring plan covering liver function, muscle symptoms and CYP3A4 interactions, and specific advice for paediatric patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

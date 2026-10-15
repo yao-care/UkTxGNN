@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bicalutamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 100
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 104
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bicalutamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,129 +29,99 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bicalutamide: From Prostate Cancer to Hypertrichosis
-
----
+# Bicalutamide: From Prostate Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Bicalutamide is a non-steroidal anti-androgen and competitive antagonist of the androgen receptor (AR), established in oncology practice as an androgen deprivation therapy for prostate cancer.
-The TxGNN model predicts it may have therapeutic utility in **Hypertrichosis**, with **no registered clinical trials** and **1 expert commentary** currently available to support this direction.
+Bicalutamide is a non-steroidal androgen receptor antagonist, marketed in the UK as a 50 mg tablet.
+The TxGNN model predicts it may be effective for **female breast carcinoma** (specifically androgen receptor-positive, mainly triple-negative disease), supported by **1 clinical trial** and **20 publications**, mostly preclinical or review articles.
 
-> **Note to reader:** Hypertrichosis represents the highest TxGNN-ranked prediction in this evidence pack. However, the strongest clinical evidence across all ten predictions belongs to **Female Breast Carcinoma** (Rank 9; 1 Phase 2 trial, 20 publications; Evidence Level L2 — summarised in the Conclusion section). Clinicians may wish to prioritise a separate repurposing evaluation for that indication.
-
----
+The original indication is not recorded in the data compiled for this report, so this summary is based on the drug's known class.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prostate cancer (established pharmacological use; no MHRA authorisation identified in current dataset — direct verification recommended) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.69% |
-| Evidence Level | L4 |
-| UK Market Status | Not captured in current dataset (probable data gap — see UK Market Information) |
-| Number of Marketing Authorisations | 0 identified (MHRA database verification required) |
-| Recommended Decision | Hold |
+|------|------|
+| Original Indication | Not recorded in the compiled data (bicalutamide is an androgen receptor antagonist used in prostate cancer) |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 99.11% |
+| Evidence Level | L2 (as scored in the compiled data; see note below) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
----
+**Note on evidence level:** the compiled data assigns L2, but the only trial is a single-arm Phase 2 combination study that is still active, and no completed randomised trial is listed. By the stated rules this is closer to L3-L4, so L2 should be treated cautiously.
+
+The top-ranked prediction by TxGNN score is hypertrichosis (99.69%), but evidence for it is limited to a single comment letter (L4). Female breast carcinoma is the best-supported candidate, so this report focuses on it.
 
 ## Why is This Prediction Reasonable?
 
-Bicalutamide competitively blocks androgen binding to the androgen receptor (AR), preventing downstream transcriptional activation in AR-expressing tissues. Although formal mechanism of action data were not captured by the DrugBank pipeline in this evidence pack, bicalutamide's pharmacology is well characterised from its use in prostate cancer: it attenuates androgen-driven cellular proliferation without reducing circulating androgen levels.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, bicalutamide blocks the androgen receptor (AR), and its efficacy in an androgen-driven cancer is established. Mechanistically, it may be applicable to breast cancers that express AR.
 
-Hypertrichosis — pathological excess hair growth beyond what is normal for a patient's age, sex, or ethnic background — can in certain forms be driven or amplified by androgenic stimulation of hair follicles. In principle, AR blockade may reduce androgen-dependent follicular over-activation. The specific clinical context captured in the available literature concerns **minoxidil-induced hypertrichosis**: an unwanted side effect arising in women treated with minoxidil for female pattern hair loss (androgenetic alopecia). Here, bicalutamide's AR antagonism may partially counteract minoxidil's non-selective stimulation of hair follicles across body sites, offering a mechanistically coherent but off-label management strategy.
+AR is expressed in a substantial proportion of breast cancers, including about 30% of triple-negative tumours (the luminal androgen receptor, or LAR, subtype) and apocrine carcinoma. These tumours have few targeted options. Preclinical work shows bicalutamide reduces proliferation and invasion in AR-positive triple-negative breast cancer cell lines. It also shows combination effects with curcumin, with ERK inhibition (via ferroptosis involving FOXC2) and with chemotherapy in inflammatory mammary cancer models.
 
-It is important to note that this represents an **off-target application**. The rationale applies only to androgen-sensitive forms of hypertrichosis and does not extend to congenital or genetic subtypes (such as Ambras syndrome or isolated hair shaft disorders), where the pathology is unrelated to androgen excess or AR activity.
-
----
+The evidence is not uniformly positive. A phase II study of bicalutamide plus an aromatase inhibitor in ER-positive/AR-positive advanced breast cancer showed no synergy (6-month clinical benefit rate 16.7%, objective response rate 0%) and was terminated. Benefit therefore appears to depend on tumour subtype and on selecting patients by biomarker.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03650894](https://clinicaltrials.gov/study/NCT03650894) | Phase 2 | Active, not recruiting | 30 | Nivolumab plus bicalutamide and ipilimumab in metastatic HER2-negative breast cancer. Single-arm study of safety and efficacy; the combination design cannot isolate bicalutamide's contribution. Estimated completion December 2026. |
 
----
+For other predicted indications, two trials were linked to multiple endocrine neoplasia (NCT03878524 and NCT02615223), but neither is specific to that condition and neither provides relevant evidence.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Letter / Expert Comment | Journal of the American Academy of Dermatology | Expert commentary responding to a retrospective review of 35 patients; discusses the potential of bicalutamide to improve minoxidil-induced hypertrichosis in women treated for female pattern hair loss |
+The compiled data contains no randomised controlled trials for this indication. The most relevant publications are listed below.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31434793](https://pubmed.ncbi.nlm.nih.gov/31434793/) | 2020 | Phase II single-arm study | The Oncologist | Bicalutamide plus aromatase inhibitor in ER+/AR+ advanced breast cancer showed no synergy (clinical benefit rate 16.7%, objective response rate 0% at 6 months); study terminated |
+| [40853613](https://pubmed.ncbi.nlm.nih.gov/40853613/) | 2025 | Review | Current Medical Science | Anti-androgen therapy for TNBC, including bicalutamide and combinations with chemotherapy and immunotherapy |
+| [29940524](https://pubmed.ncbi.nlm.nih.gov/29940524/) | 2018 | Review | Cancer Treatment Reviews | AR as a potential target in luminal androgen receptor TNBC |
+| [32145961](https://pubmed.ncbi.nlm.nih.gov/32145961/) | 2020 | Review | Bulletin du Cancer | AR-positive TNBC (about 30% of TNBC); biology and therapy |
+| [35027319](https://pubmed.ncbi.nlm.nih.gov/35027319/) | 2022 | Review | Clinical Breast Cancer | Apocrine carcinoma is ER-negative and AR-positive, with frequent PIK3CA/PTEN/AKT mutations |
+| [40974527](https://pubmed.ncbi.nlm.nih.gov/40974527/) | 2026 | Preclinical | Science China Life Sciences | Bicalutamide synergises with the ERK inhibitor GDC-0994, triggering ferroptosis via FOXC2 in TNBC |
+| [32332626](https://pubmed.ncbi.nlm.nih.gov/32332626/) | 2020 | Preclinical | Medicine | Bicalutamide inhibits proliferation and invasion of MDA-MB-231 TNBC cells |
+| [31917699](https://pubmed.ncbi.nlm.nih.gov/31917699/) | 2020 | Preclinical | Anti-Cancer Drugs | Bicalutamide plus curcumin had a strong effect in AR-positive TNBC |
+| [39063165](https://pubmed.ncbi.nlm.nih.gov/39063165/) | 2024 | Preclinical (in vitro and in vivo) | Int J Mol Sci | Bicalutamide enhanced doxorubicin and docetaxel in human and canine inflammatory mammary cancer lines |
+| [24740738](https://pubmed.ncbi.nlm.nih.gov/24740738/) | 2014 | Review | J Mol Endocrinol | Reappraisal of the role of AR in breast cancer |
 
 ## UK Market Information
 
-No MHRA marketing authorisations for bicalutamide have been identified in the current dataset. This is almost certainly a **data pipeline gap** rather than a genuine absence of UK authorisation — bicalutamide (brand name **Casodex**, AstraZeneca) is a well-established androgen deprivation agent with longstanding international approval for prostate cancer, including historic MHRA authorisation.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0803042A0AAAAAA | Bicalutamide Tab 50mg | Not recorded | Not recorded |
 
-Clinicians should verify current authorisation status directly via:
-- [MHRA Products database](https://products.mhra.gov.uk/)
-- [BNF — Bicalutamide (NICE/BNF)](https://bnf.nice.org.uk/drugs/bicalutamide/)
-
----
+One authorisation (single-ingredient, valid) is recorded. The identifier shown is not in the standard UK PL format, and the dosage form and approved indication are blank in the compiled data. Please verify against the MHRA register, the SmPC and the BNF. NICE appraisal information was not included in the compiled data.
 
 ## Cytotoxicity
 
-Bicalutamide is an antineoplastic agent (androgen deprivation therapy for prostate cancer) and meets the threshold for inclusion of this section.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted hormonal therapy — Non-steroidal anti-androgen (Androgen Receptor Antagonist); **not** a conventional cytotoxic chemotherapy agent |
-| Myelosuppression Risk | Low — bicalutamide is not associated with clinically significant myelosuppression |
-| Emetogenicity Classification | Minimal |
-| Monitoring Items | Liver function tests (LFTs) at baseline and at regular intervals; full blood count (FBC) to detect anaemia; blood glucose in patients with diabetes |
-| Handling Protection | Standard oral tablet precautions apply; cytotoxic handling regulations (e.g., dedicated preparation facilities, PPE) are not routinely required for this agent |
-
----
+Bicalutamide is an endocrine (anti-androgen) therapy for cancer, not a conventional cytotoxic agent. Please refer to the SmPC warnings and precautions for monitoring and handling requirements.
 
 ## Safety Considerations
 
-Formal safety data (MHRA SmPC warnings, contraindications, and drug interaction records) were not captured in this evidence pack. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
+- **Disease associations from the knowledge graph** (these are model-derived contraindication links, not label text): liver disease, drug-induced liver injury, gallbladder disease, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, anaemia (including macrocytic anaemia) and interstitial lung disease.
+- **Drug interactions:** 100 interactions were identified, and the first 20 are summarised here.
+  - **Major:** cisapride and dolasetron.
+  - **Moderate:** famotidine, loperamide, aprepitant, bisacodyl, budesonide (including nasal), castor oil, clarithromycin, eliglustat, glycerin, granisetron, lactitol, lactulose, levofloxacin, magnesium citrate, magnesium hydroxide and mineral oil.
+  - **Minor:** metronidazole.
 
----
-
-## Notable Additional Prediction — Female Breast Carcinoma (Rank 9)
-
-Although outside the primary scope of this report, the following prediction carries substantially stronger clinical evidence and merits attention:
-
-| Indication | TxGNN Score | Evidence Level | Clinical Trials | Publications | Decision |
-|-----------|-------------|---------------|----------------|-------------|---------|
-| Female Breast Carcinoma | 99.11% | L2 | 1 (Phase 2) | 20 | Proceed with Guardrails |
-
-**Mechanistic basis:** AR is widely expressed in breast cancer — approximately 70–90% of ER-positive tumours and 40–70% of the **Luminal Androgen Receptor (LAR) subtype of triple-negative breast cancer (TNBC)**. Bicalutamide inhibits AR-driven tumour cell proliferation, suppresses AR-mediated β-catenin transcriptional activity, may trigger ferroptosis in AR-positive TNBC cells (in combination with ERK inhibitors), and has been shown preclinically to enhance standard chemotherapy sensitivity.
-
-**Clinical evidence highlights:**
-
-| Trial / Publication | Details |
-|--------------------|---------|
-| [NCT03650894](https://clinicaltrials.gov/study/NCT03650894) — Phase 2 | Nivolumab + Bicalutamide + Ipilimumab in metastatic HER2-negative breast cancer; n=30; Active, not recruiting (data pending) |
-| [PMID 24888812](https://pubmed.ncbi.nlm.nih.gov/24888812/) | Case report: complete response in metastatic AR-positive breast cancer treated with bicalutamide |
-| [PMID 40853613](https://pubmed.ncbi.nlm.nih.gov/40853613/) | 2025 systematic review: anti-androgen therapy (bicalutamide, enzalutamide, enobosarm) as precision therapy for AR-positive TNBC |
-| [PMID 32332626](https://pubmed.ncbi.nlm.nih.gov/32332626/) | Preclinical: bicalutamide inhibits proliferation and invasion of MDA-MB-231 TNBC cells |
-
-A dedicated repurposing evaluation report for **Female Breast Carcinoma** is strongly recommended.
-
----
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** *(for Hypertrichosis)*
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The evidence base for bicalutamide in hypertrichosis comprises a single expert commentary (tier 3, no primary patient-level data), with no registered clinical trials. Although the AR-antagonist mechanism is biologically coherent for androgen-sensitive hypertrichosis (particularly minoxidil-induced hypertrichosis), the data are insufficient to support clinical repurposing at this stage.
+AR is a plausible target in AR-positive, mainly triple-negative breast cancer, with consistent preclinical and review support and one active Phase 2 combination trial. However, there is no randomised evidence, the one clinical combination study in ER-positive disease was negative, and the compiled data lacks label-based safety information. This should remain investigational.
 
 **To proceed, the following is needed:**
-
-- **MHRA authorisation verification:** Confirm UK licensing status via the MHRA Products database; populate the regulatory data fields in a future version of this evidence pack
-- **Formal MOA data retrieval:** Query the DrugBank API to resolve the mechanism of action data gap (DG002)
-- **Safety data retrieval:** Obtain and parse the MHRA SmPC to resolve the warnings/contraindications data gap (DG001), particularly relevant for use in non-oncology populations
-- **Primary literature search:** Conduct a targeted PubMed search (`bicalutamide AND hypertrichosis`) and review any clinical case series or prospective observational data
-- **Safety assessment for non-oncology use:** Evaluate risk–benefit profile in women of childbearing potential, given the teratogenic potential of anti-androgens
-- **Separate repurposing report for Female Breast Carcinoma:** This is the highest-evidence prediction in the evidence pack (L2; 1 Phase 2 trial; 20 publications) and warrants a full standalone evaluation with a "Proceed with Guardrails" recommendation
-
----
-
-*This report is generated for research purposes only. Findings are based on computational prediction and do not constitute a clinical recommendation. All repurposing candidates require prospective clinical validation before application. Suspected adverse reactions should be reported via the Yellow Card Scheme.*
+- Restriction to AR-positive disease (mainly triple-negative/LAR) with defined biomarker selection criteria
+- Results from NCT03650894 and randomised data that isolate bicalutamide's contribution
+- Mechanism of action data and the full SmPC and BNF safety information, which were missing from the compiled data
+- Confirmation of the UK authorisation details (dosage form and approved indication)
+- A hepatic and glycaemic monitoring plan, given the knowledge-graph disease associations and the interaction burden
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

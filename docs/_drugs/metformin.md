@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Model Prediction Only (L5)
-nav_order: 368
+nav_order: 397
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,76 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Metformin: From Undocumented Indication to Classic Stiff Person Syndrome
+# Metformin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
 
 ## One-Sentence Summary
 
-This evidence pack does not include documented original indications or mechanism of action data for Metformin, and the drug is currently **not marketed in the UK** according to this dataset. The TxGNN model's top prediction is **Classic Stiff Person Syndrome**, but this signal is supported by **0 clinical trials** and **0 publications** — it is a purely computational (knowledge-graph) association with no corroborating clinical or mechanistic evidence.
-
----
+Metformin is an established oral glucose-lowering medicine, originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**,
+but there are currently **no registered clinical trials** and **no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack |
-| Predicted New Indication | Classic Stiff Person Syndrome |
+| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text is available in the UK licence record) |
+| Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Metformin in this evidence pack, so a full pharmacological rationale cannot be constructed here.
+Currently, detailed mechanism of action data is not available. Based on known information, metformin is a biguanide whose efficacy in type 2 diabetes is well established, and the mechanistic link to stiff person syndrome cannot be verified from the data compiled for this report.
 
-Based on the model's own rationale, the association is weak: Classic Stiff Person Syndrome is an autoimmune neurological condition mediated by anti-GAD65 antibodies causing GABAergic transmission dysfunction. This has no established biological connection to Metformin's commonly cited mechanisms (AMPK activation, mitochondrial complex I inhibition). The high TxGNN score (99.45%) reflects graph co-occurrence patterns within the knowledge graph rather than a validated pharmacological pathway, and the model's rank (5,380th overall) also indicates this is a low-confidence tail prediction rather than a strong signal.
+A speculative link is that metformin activates AMPK and has immunomodulatory effects, which might bear on an autoimmune, anti-GAD-associated disorder such as stiff person syndrome. A more likely explanation for the high score is shared autoimmunity: type 2 diabetes and related diabetes types frequently co-occur with stiff person syndrome through anti-GAD65 antibodies. This co-occurrence probably drives the graph association rather than any therapeutic effect.
 
-It is also worth noting that the other four candidates in this evidence pack show similarly weak or even concerning patterns — one candidate (thiamine-responsive dysfunction syndrome) is a mitochondrial/metabolic disorder where Metformin's complex I inhibition could theoretically worsen lactic acidosis risk, suggesting a potential contraindication direction rather than therapeutic benefit. None of the five predictions has any supporting clinical trial or literature evidence.
+The second-ranked prediction, focal stiff limb syndrome, has an identical score (99.45%). This suggests it is inherited from the closely related disease node rather than from independent evidence.
 
----
+**Other predicted indications (all L5, Hold, no trials or literature):**
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|------|------|------|------|
+| 2 | Focal stiff limb syndrome | 99.45% | Score identical to rank 1; likely inherited from a related disease. No plausible direct mechanism. |
+| 3 | Opsismodysplasia | 99.40% | Caused by INPPL1 (SHIP2) loss of function, affecting PI3K/AKT signalling. Only a loose pathway-level link to metformin's AMPK/mTOR effects. |
+| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Diabetes is a feature of the condition, which probably explains the association. Metformin would treat glycaemia at most; treatment is thiamine supplementation. |
+| 5 | Drug-induced localised lipodystrophy | 99.06% | Metformin improves insulin sensitivity in systemic lipodystrophy, but this localised form is mainly a cosmetic or injection-site issue. |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-No UK marketing authorisations are recorded for Metformin in this dataset (market status: **not marketed**, 0 licenses on file).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0601022B0AAABAB | Metformin HCl Tablets 500 mg | Tablet (inferred from product name; not stated in the record) | Not stated in the licence record |
 
----
+The record is a single valid, single-ingredient product. The identifier is not in the standard MHRA "PL" format and may be a BNF-style product code, so it should be checked against the MHRA register. NICE-appraised indications could not be cross-referenced from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge graph drug-disease edges, not label text):**
+The knowledge graph links metformin to the following conditions as contraindications. The list below is grouped and summarised.
+- **Hepatic and renal:** liver failure, liver disease, kidney disease
+- **Cardiac:** congestive heart failure
+- **Pancreatic, biliary and urinary:** pancreatitis, gallbladder disease, pyoureter
+- **Endocrine:** adrenocortical insufficiency, thymus gland disease, and a large group of pituitary-related conditions (hypopituitarism, pituitary deficiency, growth hormone deficiency, hypogonadotropic hypogonadism, Kallmann syndrome, Sheehan syndrome)
 
-> **Note:** This evidence pack flags a **blocking data gap** (DG001) — MHRA/manufacturer label warnings and contraindications are not yet available for this candidate, which prevents a full S1 safety review.
+These come from a model knowledge graph rather than product labelling and must be verified against the SmPC.
 
----
+**Drug Interactions:**
+The interaction query returned 100 records; 20 are available for this report, of which two are rated Major:
+- **Major:** acetazolamide, ethanol
+- **Moderate (examples):** dolutegravir, abemaciclib, phenylephrine, ranitidine, formoterol, pseudoephedrine, ketorolac, nifedipine, epinephrine, ibuprofen, ethinylestradiol, hydrocortisone, salbutamol, hydrochlorothiazide, acetohexamide
+- **Minor (examples):** acarbose, topical hydrocortisone, topical alclometasone
+
+Label-based warnings and contraindications were not available, so please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is evidence level L5 (model prediction only) with no clinical trials or literature support, and the proposed mechanistic link is not biologically well-founded. A blocking data gap (missing regulatory safety label data) also prevents progression to a formal safety assessment at this stage.
+The prediction rests solely on a graph-based score. There are no clinical trials or publications for any of the five predicted indications, and the apparent link to stiff person syndrome is most plausibly explained by co-occurring autoimmune diabetes rather than a therapeutic effect.
 
 **To proceed, the following is needed:**
-- MHRA-equivalent SmPC/label data — warnings and contraindications (blocking gap, DG001)
-- Confirmed mechanism of action data (DrugBank query, DG002)
-- Documented original indication(s) and current global regulatory status for Metformin
-- Preclinical or case-level evidence establishing a plausible biological link to stiff person syndrome spectrum disorders before further evaluation is warranted
+- Mechanism of action data (for example from DrugBank) to allow a mechanistic assessment
+- Label-based warnings and contraindications from the SmPC and BNF, as the safety screen cannot proceed without them
+- A systematic literature and trial search for metformin in stiff person syndrome and related stiff-limb disorders
+- Preclinical or mechanistic evidence for an effect on anti-GAD-mediated autoimmunity
+- Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA licence number
+- Route-of-administration compatibility and similarity-to-original-indication assessments, which are still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

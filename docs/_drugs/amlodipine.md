@@ -2,7 +2,7 @@
 layout: default
 title: Amlodipine
 parent: Model Prediction Only (L5)
-nav_order: 54
+nav_order: 56
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,64 +33,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amlodipine is a long-acting dihydropyridine calcium channel blocker, clinically established for hypertension and stable angina pectoris.
-The TxGNN model predicts it may be effective for **Brain Stem Infarction** (rank 1, score 99.94%),
-however **no registered clinical trials** and **no publications** currently support this specific indication directly.
-Notably, a closely related cerebrovascular candidate — intracerebral haemorrhage (rank 10) — carries substantially stronger evidence, including a completed Phase 3 trial (n = 1,671), and may represent a more immediately actionable repurposing opportunity within the same evidence pack.
+Amlodipine is a calcium channel blocker, originally used for hypertension, stroke-related and cerebrovascular disorders, and Prinzmetal angina.
+The TxGNN model predicts it may be effective for **brain stem infarction**, but **no clinical trials and no publications** specific to this condition were found, so the prediction rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension; stable angina pectoris (MHRA licensing data not retrieved in this evidence pack — based on established pharmacology) |
-| Predicted New Indication | Brain Stem Infarction |
+|------|------|
+| Original Indication | Hypertension (licence indication text was not available; taken from the knowledge-graph indication list, which also includes stroke, cerebrovascular disorder, cerebral infarction and Prinzmetal angina) |
+| Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| UK Market Status | Not available in evidence pack (data gap — see UK Market Information section) |
-| Number of Marketing Authorisations | Not available in evidence pack (data gap) |
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not retrieved in this evidence pack. Based on established pharmacology, Amlodipine is a long-acting L-type calcium channel blocker (CCB) of the dihydropyridine class. Its antihypertensive efficacy is well proven across decades of clinical use, and mechanistically it may be relevant to brain stem infarction through two theoretically plausible pathways.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Amlodipine belongs to the calcium channel blocker class and is established for lowering blood pressure. Its blood pressure-lowering effect is the most plausible link to cerebrovascular protection.
 
-Hypertension is the principal modifiable risk factor for small-vessel cerebrovascular disease, including perforating artery disease of the brainstem. By reducing systemic vascular resistance through peripheral vasodilation, Amlodipine could theoretically lower the incidence or severity of hypertensive small-vessel injury leading to brainstem lacunar infarction. Furthermore, L-type calcium channel blockade has been demonstrated in multiple preclinical ischaemia models to attenuate post-ischaemic intracellular calcium overload — a key trigger of calcium-mediated neuronal apoptosis — suggesting a neuroprotective mechanism that extends beyond blood pressure lowering alone.
-
-It should be emphasised, however, that the TxGNN high prediction score for brain stem infarction most likely reflects Amlodipine's broad cerebrovascular protection associations within the knowledge graph (shared with hypertension, stroke, and related vascular phenotypes), rather than any independent clinical signal specific to this diagnosis. No clinical trials or publications directly investigating Amlodipine in brain stem infarction were identified in the evidence search.
+Brain stem infarction is a sub-type of ischaemic stroke, and amlodipine is already associated with stroke, cerebral infarction and cerebrovascular disorder in the original indication list. The prediction is therefore likely to be a **sub-type of an existing indication** rather than true repurposing. Plausible links are blood pressure control and cerebrovascular protection, but no study specific to brain stem infarction supports this.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for brain stem infarction.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for brain stem infarction.
+Currently no related literature available.
 
 ---
 
 ## UK Market Information
 
-MHRA marketing authorisation data was not retrieved in this evidence pack (0 licences recorded). This appears to represent a data collection gap, as Amlodipine is a well-established antihypertensive agent with multiple authorised products in the United Kingdom. Clinicians should consult:
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206020A0AAAAAA (as recorded; this resembles a BNF-style product code rather than a PL number) | Amlodipine Tab 5mg | Tablet | Not stated in the data compiled |
 
-- The **MHRA Product Licence Register** for current authorised indications and licence holders
-- The **British National Formulary (BNF), Chapter 2.6** (Nitrates, calcium-channel blockers, and other antianginal drugs) for prescribing information
-- The relevant **Summary of Product Characteristics (SmPC)** for dosing, contraindications, and warnings
-
-Remediation of this data gap is required before a complete regulatory assessment can be performed.
+The status is valid and the product is a single-ingredient formulation. Please check the current MHRA record and the BNF (cardiovascular system, calcium-channel blockers) for the licensed indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph (not label text):** The TxGNN knowledge graph links amlodipine to several conditions for caution or avoidance. These are not drawn from the product label and need verification against the SmPC. They include:
+  - Hepatic and renal: liver failure, liver disease, kidney disease
+  - Gastrointestinal: pancreatitis, gallbladder disease
+  - Endocrine and metabolic: hypothyroidism, myxedema, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, potassium deficiency disease
+  - Immune and allergic: angioedema (including hereditary and RAAS-blocker-induced forms), systemic lupus erythematosus
+  - Neuromuscular and haematological: myopathy, familial periodic paralysis, neutropenia, agranulocytosis
+  - Cardiovascular: hypotensive disorder
+- **Drug Interactions:** The interaction screen returned 100 records. The ones shown are all graded Moderate, including:
+  - Corticosteroids (hydrocortisone, betamethasone, budesonide, dexamethasone)
+  - Aprepitant
+  - Acetylsalicylic acid
+  - Bupropion
+  - Clarithromycin
+  - Clotrimazole
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin)
+  - Calcium salts (acetate, carbonate, chloride, citrate, gluconate, lactate and others)
+
+Please refer to the SmPC and BNF for full warnings. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -99,16 +110,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns brain stem infarction its highest prediction score in this evidence pack (99.94%), yet this signal is entirely unsupported by clinical trial data or published literature. The high rank most plausibly reflects indirect knowledge-graph associations with Amlodipine's well-established cerebrovascular risk-reduction properties, rather than a drug–disease relationship specific to brain stem infarction.
+The model score is very high, but there are no trials or publications for brain stem infarction. Amlodipine is already associated with stroke and cerebral infarction, so this is probably an extension of an existing indication rather than a new use.
 
 **To proceed, the following is needed:**
+- Clinical or observational evidence specific to brain stem or posterior circulation infarction
+- Mechanism of action data to support the mechanistic-link analysis
+- Product label warnings and contraindications from the SmPC and BNF, which are needed before any safety screening
+- The licensed indication text and dosage form for the UK authorisation
 
-- **Regulatory data retrieval**: Obtain MHRA marketing authorisation details, SmPC, and approved UK indications for Amlodipine via the MHRA PL register; this is currently a blocking data gap
-- **Mechanism of action data**: Query DrugBank API (DB00381) to populate MOA fields and support mechanistic rationale for any indication
-- **Safety profile review**: Retrieve contraindications and key warnings from the SmPC, particularly regarding hypotension risk in the acute stroke setting
-- **Brainstem-specific preclinical evidence**: Commission a targeted literature search (MEDLINE, EMBASE) for Amlodipine or CCBs in brainstem ischaemia animal models before any clinical feasibility discussion
-- **Prioritisation review**: Consider escalating the evaluation of **intracerebral haemorrhage (rank 10, L2, "Proceed with Guardrails")**, which is supported by a completed Phase 3 RCT (TRIDENT, n = 1,671) and an actively recruiting trial (NCT07458880), and may represent the most actionable cerebrovascular repurposing candidate in this evidence pack
-- **Blood pressure target safety assessment**: Any neuroprotection study in acute brainstem infarction must account for the haemodynamic risks of CCB-induced hypotension in the acute ischaemic period
+**Note on other predictions in the data:** Intracerebral haemorrhage, a separate prediction, has stronger support. It rests on the completed Phase 3 TRIDENT trial (NCT02699645, n=1,671), which tested a single-pill combination of three low-dose antihypertensives that includes amlodipine, with results published in 2026 (PMID 42019018). That evidence supports the combination strategy for secondary prevention, not amlodipine alone, and may merit its own evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

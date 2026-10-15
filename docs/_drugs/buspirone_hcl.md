@@ -2,7 +2,7 @@
 layout: default
 title: Buspirone Hcl
 parent: Model Prediction Only (L5)
-nav_order: 115
+nav_order: 119
 evidence_level: L5
 indication_count: 0
 ---

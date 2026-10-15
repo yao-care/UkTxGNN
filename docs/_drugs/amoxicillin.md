@@ -2,7 +2,7 @@
 layout: default
 title: Amoxicillin
 parent: Model Prediction Only (L5)
-nav_order: 58
+nav_order: 60
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,79 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Amoxicillin: From Bacterial Infections to Hyperamylasemia
+# Amoxicillin: From Bacterial Infections to Hyperamylasaemia
 
 ## One-Sentence Summary
 
-Amoxicillin is a broad-spectrum penicillin antibiotic widely prescribed for bacterial infections including respiratory tract, urinary tract, and skin infections.
-The TxGNN model predicts it may be effective for **Hyperamylasemia**, with **no clinical trials** and **no published literature** currently supporting this specific indication.
-This prediction warrants particular caution, as Amoxicillin is itself a recognised cause of drug-induced pancreatitis and elevated serum amylase — raising a significant reverse causality concern.
-
----
+Amoxicillin is a beta-lactam antibiotic originally used for common bacterial infections such as urinary tract infection, otitis media, pharyngitis and bacterial pneumonia.
+The TxGNN model predicts it may be effective for **hyperamylasaemia**, but there are **no clinical trials** and **no publications** supporting this prediction, and no plausible mechanism has been identified.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (broad-spectrum penicillin antibiotic; no MHRA licence data retrieved) |
-| Predicted New Indication | Hyperamylasemia |
+|------|------|
+| Original Indication | Urinary tract infection, infectious otitis media, streptococcal infection, bacterial pneumonia, staphylococcal infection, pharyngitis and others (the licence record in the data compiled for this report has no indication text) |
+| Predicted New Indication | Hyperamylasaemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| UK Market Status | No MHRA authorisation data retrieved |
-| Number of Marketing Authorisations | 0 (data not retrieved) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Amoxicillin is a broad-spectrum aminopenicillin that exerts its bactericidal activity by irreversibly binding to penicillin-binding proteins (PBPs), thereby disrupting peptidoglycan cross-linking in the bacterial cell wall. This leads to osmotic instability and cell lysis. It is active against a wide range of Gram-positive and selected Gram-negative organisms and is used clinically across respiratory, urinary, gastrointestinal, and skin infections.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Amoxicillin is known to be a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections is well established.
 
-Hyperamylasemia — defined as an elevation of serum amylase above the normal reference range — is most commonly a laboratory finding secondary to acute pancreatitis, parotitis, or pancreatic duct obstruction. There is no established pharmacological mechanism by which a β-lactam antibiotic would directly suppress or regulate serum amylase concentrations. The mechanistic bridge between Amoxicillin's antibacterial action and serum enzyme modulation is not biologically credible on current evidence.
+Hyperamylasaemia, however, is a laboratory finding (raised serum amylase) rather than a bacterial disease, and it has no established antibacterial target. The review of the data found no mechanistic link between amoxicillin and this condition. The high TxGNN score (99.63%) is a graph-based prediction only and is not backed by any trial or publication, so it should be treated with caution.
 
-Critically, there is a **significant reverse causality concern**: Amoxicillin has itself been documented to cause drug-induced pancreatitis, which is associated with elevated serum amylase as an adverse effect. This raises a plausible explanation for the TxGNN prediction — the model may have identified a clinical co-occurrence pattern (the drug appearing alongside the laboratory finding) rather than a genuine therapeutic signal. This prediction is best regarded as a potential knowledge graph artefact unless independent biological validation can be provided.
-
----
+Other high-scoring predictions (polyclonal hyperviscosity syndrome, congenital analbuminaemia, premalignant haematological disease and others) show the same pattern: no mechanistic rationale and no supporting data. The only prediction with a biologically plausible antibacterial rationale is **septicaemic plague** (a *Yersinia pestis* infection). It is scored lower (99.13%) and is classed as a research question. Standard plague therapy relies on aminoglycosides, fluoroquinolones or tetracyclines, and beta-lactams are generally not preferred.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Amoxicillin in hyperamylasemia.
-
----
+Currently no related clinical trials registered for hyperamylasaemia.
 
 ## Literature Evidence
 
-Currently no related literature available for Amoxicillin in hyperamylasemia.
-
----
+Currently no related literature available for hyperamylasaemia.
 
 ## UK Market Information
 
-No MHRA marketing authorisation records were retrieved for Amoxicillin in this Evidence Pack, with market status recorded as not marketed and zero licences returned. This appears to be a data retrieval gap: Amoxicillin is a well-established licensed medicine in the United Kingdom, marketed under numerous brand names (including Amoxil) and classified in BNF Chapter 5.1 (Antibacterial drugs — Penicillins). Clinicians should consult the current BNF and the relevant Summary of Product Characteristics (SmPC) for full prescribing information pending correction of the MHRA data feed.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501013B0AAAAAA | Amoxicillin capsules 250 mg | Capsule | Not stated in the compiled data |
 
----
+The identifier above is a product code from the compiled data rather than a standard MHRA PL number. Please verify the authorisation details against the MHRA record, the BNF (section 5.1.1.3, penicillins with broader spectrum) and the relevant SmPC.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications flagged in the knowledge graph** (these are drug-disease associations from the TxGNN knowledge graph, not label text, and must be checked against the SmPC):
+- Hepatic: liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic cholestasis), gallbladder disease
+- Renal: kidney disease, pyoureter
+- Cardiac rhythm: long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic polymorphic and incessant infant forms)
+- Metabolic: porphyria (inherited porphyria, porphyrin metabolism disease)
+- Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotising enterocolitis
+- Neuromuscular: myasthenia gravis (including adult-onset), neuromuscular junction disease
+- Bone: osteoporosis, postmenopausal osteoporosis, bone fracture
+- Infectious: infectious mononucleosis, chronic Epstein-Barr virus infection syndrome
 
----
+**Drug Interactions** (100 interactions recorded; examples of those listed):
+- **Major**: methotrexate; live cholera vaccine (*Vibrio cholerae* CVD 103-HgR)
+- **Moderate**: tetracyclines (doxycycline, minocycline, demeclocycline), oestrogens (ethinylestradiol, estradiol), coumarin-type anticoagulants (anisindione, dicoumarol), mycophenolate mofetil, entecavir, balsalazide, and live probiotic preparations
+- **Minor**: allopurinol, amiloride, macrolides (azithromycin, clarithromycin, erythromycin)
+
+Package-insert warnings and contraindications were not available in the compiled data. Please refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is currently no clinical or preclinical evidence supporting the use of Amoxicillin as a treatment for hyperamylasemia, and the biological plausibility of the prediction is fundamentally undermined by Amoxicillin's own known association with drug-induced pancreatitis — a condition in which hyperamylasemia is itself a cardinal feature.
+There is no clinical or published evidence, no plausible mechanism, and only a graph-based score for amoxicillin in hyperamylasaemia (Evidence Level L5). The prediction is not actionable at present.
 
 **To proceed, the following is needed:**
-- Independent biological investigation of the mechanistic basis for this TxGNN prediction, including assessment of whether the knowledge graph co-occurrence reflects an adverse drug reaction signal rather than a therapeutic one
-- Pharmacovigilance review of Amoxicillin-associated pancreatitis cases via the Yellow Card database and published adverse event reports
-- Retrieval and reconciliation of full MHRA marketing authorisation data to correct the current data gap
-- Full SmPC review, including warnings and precautions relating to gastrointestinal and pancreatic adverse effects
-- Consultation with a clinical pharmacologist before this hypothesis is considered for any further development
-
-> **Disclaimer:** This report is for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.
+- A credible mechanistic hypothesis linking amoxicillin to hyperamylasaemia, and the missing mechanism of action data
+- Any clinical or preclinical evidence supporting the prediction
+- Package-insert safety data (warnings and contraindications) and the approved indication text for the UK authorisation
+- If the team wishes to pursue a more plausible direction, a separate evaluation of septicaemic plague as a research question, noting that current standard therapy does not favour beta-lactams
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

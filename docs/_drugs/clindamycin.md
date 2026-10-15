@@ -2,7 +2,7 @@
 layout: default
 title: Clindamycin
 parent: Model Prediction Only (L5)
-nav_order: 169
+nav_order: 177
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack for **Clindamycin (DB01190) → Punctate epithelial keratoconjunctivitis** (rank 1 predicted indication), here is the evaluation report.
-
----
-
 # Clindamycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Clindamycin is a lincosamide antibiotic conventionally used against anaerobic and Gram-positive bacterial infections; detailed original-indication and mechanism-of-action data were not available in this evidence pack. The TxGNN model predicts a very high association with **punctate epithelial keratoconjunctivitis** (score 99.97%), but this is currently supported by **0 clinical trials** and **0 publications**, and the accompanying mechanistic review flags the prediction as likely a knowledge-graph proximity artefact rather than a genuine pharmacological signal.
-
----
+Clindamycin is an antibacterial originally used for bacterial infections such as staphylococcal and streptococcal infections, anaerobic infections, bacterial vaginosis and acne.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (data gap); Clindamycin is generically indicated for anaerobic and Gram-positive bacterial infections |
+| Original Indication | Bacterial infections (streptococcal, staphylococcal and anaerobic infections), bacterial vaginosis, acne, aspiration pneumonia (from the knowledge graph; no approved indication text is available in the UK licence data) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Clindamycin is not available in this evidence pack (flagged as a High-severity data gap). Based on well-established pharmacology, Clindamycin is a lincosamide antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit, and it is effective against anaerobic and Gram-positive organisms. No original-indication text was supplied here, so a direct like-for-like comparison with the predicted indication cannot be made from the pack alone.
+Detailed mechanism of action data is not available in the data compiled for this report. Clindamycin is a lincosamide antibacterial that is generally understood to inhibit bacterial protein synthesis by binding to the 50S ribosomal subunit. It is mainly active against Gram-positive and anaerobic bacteria.
 
-Punctate epithelial keratoconjunctivitis is, however, predominantly a **viral** (notably adenoviral), **dry-eye**, or **toxic/reactive** corneal epithelial condition rather than a primary bacterial infection. Clindamycin's antibacterial mechanism has no established direct mode of action against these underlying processes. The evidence pack's own mechanistic analysis explicitly notes that the very high TxGNN score most likely reflects the proximity of "ophthalmic disease" nodes within the knowledge graph, rather than a true pharmacological relationship — and no clinical trial or literature evidence was found to counter this concern.
+The link between the original and predicted indications is weak. Punctate epithelial keratoconjunctivitis is often viral or non-infectious, so a plausible antibacterial mechanism has not been established. The high score is therefore best treated as a model-generated hypothesis rather than a mechanistically supported finding.
 
-On this basis, the mechanistic rationale for this specific prediction is weak, and it should be treated as a hypothesis-generating signal only, not as evidence of therapeutic plausibility.
-
----
+Other predictions in the list show similar problems. For example, visual snow syndrome (neurological), epidemic keratoconjunctivitis (adenoviral) and ophthalmia nodosa (inflammatory reaction to caterpillar hairs) have no obvious antibacterial rationale. Exposure keratitis has some indirect plausibility, since Gram-positive organisms such as *Staphylococcus aureus* can cause secondary bacterial keratitis. However, the retrieved papers cover bacterial keratitis in general and do not show that clindamycin works.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction (punctate epithelial keratoconjunctivitis).
 
----
+For context, the second-ranked prediction (exposure keratitis) has limited, indirect literature. None of it assesses clindamycin efficacy in that condition:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24244625](https://pubmed.ncbi.nlm.nih.gov/24244625/) | 2013 | Retrospective cohort | PLoS One | Hospital case review of *S. aureus* keratitis, comparing MRSA and MSSA isolates |
+| [22880135](https://pubmed.ncbi.nlm.nih.gov/22880135/) | 2012 | Retrospective cohort | PLoS One | Prevalence, clinical features and antibiotic susceptibility of ocular MRSA vs MSSA infections |
+| [11581057](https://pubmed.ncbi.nlm.nih.gov/11581057/) | 2001 | Case report | Ophthalmology | Contact lens-related *Bacillus cereus* keratitis linked to a contaminated lens case |
+| [42763505](https://pubmed.ncbi.nlm.nih.gov/42763505/) | 2026 | Case report | IDCases | Foveal ocular toxoplasmosis diagnosed by intraocular fluid sequencing (a different pathogen) |
 
 ## UK Market Information
 
-Clindamycin currently holds **no marketing authorisation** recorded in this evidence pack, and market status is listed as **not marketed**. No product, dosage form, or approved-indication data are available for tabulation. Should marketing status change or licence data become available, this section should be repopulated from the MHRA product register and cross-checked against the BNF entry for Clindamycin.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501060D0AAABAB | Clindamycin HCl capsules 150 mg | Capsule | Not stated in the data compiled for this report |
 
----
+The number shown appears to be a BNF-style product code rather than an MHRA "PL" number, so the MHRA licence details should be confirmed directly.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication and disease-association signals (knowledge graph, not label text):** liver failure, inflammatory bowel disease (including Crohn's disease, Crohn's colitis and ulcerative colitis), *Clostridium difficile* colitis, diarrhoeal disease, perinatal necrotising enterocolitis, atopic eczema and other dermatitis (including exfoliative dermatitis), sunburn, and vulvovaginal candidiasis.
+- **Drug Interactions:** 100 interactions were identified. Those graded Moderate were balsalazide, clarithromycin, picosulfuric acid, attapulgite and kaolin. Other listed interactions had no assigned severity, including amphotericin B, acetylsalicylic acid, amoxicillin, bupropion, pantoprazole, glimepiride, doxycycline, clotrimazole, morphine, metformin, omeprazole, sucralfate, rosiglitazone, lansoprazole and vancomycin.
+- **Safety signal for consideration:** Clindamycin is a recognised risk factor for *C. difficile* infection. This is a harm signal, not a therapeutic one.
 
-*(Note: key warnings, contraindications, and drug–drug interaction data were all recorded as data gaps in this evidence pack — including a Blocking-severity gap on TFDA/MHRA label warnings and contraindications — so no drug-specific safety details can be reported at this time.)*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but this is unsupported by any clinical trial or literature evidence (Evidence Level L5 — model prediction only), and the mechanistic review itself concludes that the predicted disease's pathology (largely viral/non-infectious) is not addressed by Clindamycin's antibacterial mechanism. Combined with the Blocking-severity data gap on safety labelling and the drug's current non-marketed status in the UK, there is insufficient basis to advance this candidate.
+The prediction rests on a model score alone (L5), with no trials or literature. The proposed mechanism is also doubtful, since the condition is often viral or non-infectious. The data compiled for this report also lack mechanism of action and label safety data.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and full mechanism-of-action data for Clindamycin (currently missing)
-- MHRA/SmPC warnings, contraindications, and interaction data (Blocking data gap — required before any safety assessment)
-- Targeted literature/trial search specifically on ocular or anti-infective use of Clindamycin in keratoconjunctivitis to test whether the TxGNN signal reflects a genuine secondary-infection use case
-- Independent mechanistic review to rule out knowledge-graph node-proximity bias, given the reviewer's own concern that this result may be an artefact
-- Re-evaluation of the other nine ranked candidates in this pack, several of which (e.g. exposure keratitis, rank 2) show marginally stronger — though still indirect — literature support and may warrant priority over this top-ranked candidate
+- Mechanism of action data and SmPC/BNF warnings and contraindications
+- Confirmation of the MHRA licence number, dosage form and approved indications
+- Evidence of an infectious, clindamycin-sensitive component in punctate epithelial keratoconjunctivitis, or direct preclinical or clinical data
+- Assessment of whether an ocular (topical) route is feasible, since only an oral capsule is listed
+- If a ophthalmic infection hypothesis is pursued, consider exposure keratitis (secondary Gram-positive infection) as a more biologically plausible target than the top-ranked prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

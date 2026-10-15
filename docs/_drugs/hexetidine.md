@@ -2,7 +2,7 @@
 layout: default
 title: Hexetidine
 parent: Model Prediction Only (L5)
-nav_order: 301
+nav_order: 323
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hexetidine: From Topical Oral Antisepsis to Interventricular Septum Aneurysm
+# Hexetidine: From Oral Antiseptic Use to Interventricular Septum Aneurysm
 
 ## One-Sentence Summary
 
-Hexetidine is a topical antimicrobial agent (referenced in the evidence base as an oral anti-plaque/antiseptic agent); this evidence pack contains no formal record of a licensed original indication or mechanism of action. The TxGNN model's top-ranked prediction links it to **Interventricular Septum Aneurysm**, but this is supported by **zero clinical trials and zero publications**, and the evidence pack's own mechanistic review flags it as a likely false-positive signal from the model's embedding space rather than a biologically plausible connection.
-
----
+Hexetidine is a topical antiseptic mouthwash agent with antimicrobial and antifungal activity.
+The TxGNN model predicts it may be effective for **interventricular septum aneurysm**,
+but there are **no clinical trials** and **no relevant publications** supporting this prediction. It is a purely computational signal and is not supported by any plausible mechanism.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack (no licences, no formal indication text; known non-formal use as a topical oral antibacterial/anti-plaque agent per literature context) |
-| Predicted New Indication | Interventricular Septum Aneurysm |
+| Original Indication | Not stated in the available authorisation data (the product is a 0.1% sugar-free mouthwash) |
+| Predicted New Indication | Interventricular septum aneurysm |
 | TxGNN Prediction Score | 99.16% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Hexetidine is not available in this evidence pack. Based on the limited information present, Hexetidine appears to function as a topical antimicrobial/antiseptic agent (its use as an anti-plaque agent is referenced in the wider literature search below), with no identified cardiac structural or myocardial pharmacological target.
+Currently, detailed mechanism of action data is not available. Based on known information, hexetidine is a topical antiseptic used in the mouth, with antimicrobial and antifungal activity and negligible systemic exposure.
 
-The evidence pack's own repurposing rationale for this top-ranked candidate is explicit and cautionary: it states that Hexetidine has "no cardiac structural/myocardial target or systemic pharmacological action, and no explicable mechanism linking it to interventricular septum aneurysm," concluding this is judged to be **a false positive arising from proximity in the model's embedding space** rather than a genuine signal.
+An interventricular septum aneurysm is a structural cardiac abnormality. No known pathway through which a topical oral antiseptic could modify this condition has been identified, so the prediction does not appear mechanistically reasonable. The high TxGNN score reflects graph-based association only.
 
-This pattern holds across the full top-10 ranked list: nine of the ten candidates (congenital cardiac defects, craniofacial malformation syndromes, chromosomal deletions) carry rationale text explicitly stating "no mechanistic relevance" to a topical antimicrobial. The tenth candidate (a rare glycosylation disorder) returned two literature hits, but both concern Hexetidine's established use as an oral anti-plaque agent and a decontamination agent in leukaemia patients — unrelated to the disease label itself, and the evidence pack itself classifies this as a "label/topic mismatch" rather than direct supporting evidence. **No candidate in this batch reaches beyond L4/L5 evidence.**
-
----
+The other top-ranked predictions are similarly unsupported. They include pulmonary valve disease, orofacial clefting syndrome, Laubry-Pezzi syndrome, Pierre Robin syndrome (syndromic and chromosomal forms), chromosomal deletion disorders and Jeune syndrome. All are structural, developmental or genetic conditions with no plausible link to a topical antiseptic. The only literature found for any of them is a general review of anti-plaque agents (PMID 12974527), which was linked to a glycosylation disorder (disorder of fucoglycan synthesis) and has no bearing on it.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked indication (Interventricular Septum Aneurysm). (Note: two indirect, non-supportive publications were found for a lower-ranked, unrelated candidate — see rationale above.)
+Currently no related literature available for the predicted indication.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1203040G0AAAAAA | Hexetidine mouthwash 0.1% (sugar-free) | Mouthwash | Not stated in the available data |
+
+The identifier above is as recorded in the data compiled for this report and is not in the standard PL number format. Please verify it against the MHRA register.
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
----
+No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Every candidate indication in this batch — including the top-ranked prediction — carries only L4/L5 evidence, no clinical trial support, and the evidence pack's own mechanistic review explicitly flags the top prediction as a probable false positive from model embedding-space proximity rather than genuine pharmacological plausibility. There is no basis to advance this candidate.
+The prediction rests only on a graph-model score. There are no trials or relevant publications, and no plausible mechanism links a topical oral antiseptic to a structural cardiac defect. Systemic exposure is also negligible.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product labelling (warnings, contraindications) — currently missing and blocking any safety pre-screening (S1)
-- Confirmed mechanism of action data from DrugBank or an equivalent source
-- Independent pharmacological or in-vitro plausibility check before treating any of these TxGNN predictions as a genuine repurposing lead, given the explicit false-positive assessment already recorded
+- A credible mechanistic hypothesis that explains how a topical antiseptic could affect the condition
+- Mechanism of action data for hexetidine
+- Warnings and contraindications from the SmPC, which are currently missing
+- The approved indication text and dosage form for the UK authorisation
+- Any preclinical or clinical evidence for the predicted indication, and an assessment of whether the route of administration could ever be compatible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

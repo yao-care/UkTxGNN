@@ -2,7 +2,7 @@
 layout: default
 title: Carbocisteine
 parent: Model Prediction Only (L5)
-nav_order: 130
+nav_order: 134
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,71 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Carbocisteine: From Respiratory Mucolysis to Gout
+# Carbocisteine: From an Unspecified Original Indication to Gout
 
 ## One-Sentence Summary
 
-Carbocisteine is a mucolytic agent used to reduce sputum viscosity and aid mucus clearance in respiratory conditions such as chronic bronchitis and COPD. The TxGNN model predicts it may have potential utility in **Gout**, achieving a high prediction score of **99.67%**. However, this prediction is currently supported by **no clinical trials** and **no published literature**, placing it at model-only evidence level (L5).
-
----
+Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule. The data compiled for this report do not state its approved indication.
+The TxGNN model predicts it may be effective for **gout**, but there are currently **no clinical trials** and **no publications** supporting this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Mucolytic agent for respiratory conditions (no MHRA licence on record) |
+|------|------|
+| Original Indication | Not stated in the available authorisation data (the product is classed as a mucolytic) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, Carbocisteine is a mucolytic (sulphydryl-containing) agent whose primary mechanism involves modification of disulphide bonds in mucin glycoproteins, thereby reducing sputum viscosity and improving mucus clearance in the airways. It also possesses antioxidant properties and mild anti-inflammatory activity through inhibition of the NF-κB signalling pathway.
+Currently, detailed mechanism of action data is not available. Carbocisteine is a mucolytic, and it is generally thought to act as a thiol-based agent with antioxidant and anti-inflammatory properties. Its original indication is not recorded in the data compiled for this report, so the relationship between the original and predicted indications cannot be assessed directly.
 
-The proposed mechanistic link to gout is indirect and largely theoretical. Gout is driven by monosodium urate crystal deposition, which triggers acute inflammation via activation of the NLRP3 inflammasome. Carbocisteine's thiol (–SH) group could theoretically interfere with NLRP3 inflammasome activation — a central pathway in acute gouty inflammation — however, no direct experimental evidence currently supports this hypothesis. Its antioxidant properties might also indirectly reduce oxidative-stress-mediated uric acid production through indirect modulation of xanthine oxidase activity, but again without direct mechanistic data.
+A plausible but unproven hypothesis is that these antioxidant and anti-inflammatory effects could modulate oxidative stress and inflammation relevant to gouty inflammation, for example neutrophil activity and NLRP3-related signalling. **No evidence in the compiled data supports this.** There is also no established link to urate-lowering mechanisms such as xanthine oxidase inhibition or URAT1 inhibition.
 
-The high TxGNN knowledge graph score (0.9967) is most likely driven by shared network topology features — such as common nodes related to chronic inflammation and metabolic dysregulation — rather than direct mechanistic similarity between carbocisteine's mucolytic action and gout pathophysiology. The overall mechanistic rationale remains weak, and clinical validation is entirely absent at this stage.
-
----
+The high TxGNN score (99.67%) is therefore a computational signal that needs verification, not evidence of efficacy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0307000J0AAAAAA | Carbocisteine Capsules 375 mg | Capsule | Not stated in the available data |
+
+The identifier above appears to be a BNF-style product code, not a standard PL marketing authorisation number. It should be verified against the MHRA register. The BNF chemical code (03.07) places carbocisteine among the mucolytics in the respiratory system chapter.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph (PrimeKG) links carbocisteine with a contraindication for **active peptic ulcer disease**. This comes from the graph, not from label text, and should be checked against the SmPC.
 
----
+No drug interaction records were found in the data compiled for this report.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns Carbocisteine a high prediction score for gout (99.67%), this is unsupported by any clinical trials, published literature, or established mechanistic evidence; the predicted link remains speculative and entirely unvalidated.
+The only support for this prediction is a model score. There are no clinical trials or publications, the mechanism of action is missing, and the approved indication and label safety data could not be obtained. The evidence level is L5.
 
 **To proceed, the following is needed:**
-
-- Preclinical studies examining the effect of carbocisteine (or analogous thiol compounds) on NLRP3 inflammasome activity in urate crystal-induced inflammation models
-- Full mechanism of action data from DrugBank to confirm antioxidant and anti-inflammatory molecular targets
-- A structured literature review to identify any *in vitro* or animal studies linking carbocisteine to uric acid metabolism or gout-related pathways
-- Clarification of UK regulatory status via MHRA and the BNF — carbocisteine may be available in the UK under a product not captured in the current dataset
-- SmPC-level safety and contraindication data before any clinical evaluation or prescribing consideration can proceed
-- Upgrading from L5 to at least L4 (preclinical evidence) before this candidate can be considered for further investment
+- The approved indication, dosage form and manufacturer from the MHRA authorisation and SmPC, and verification of the product identifier
+- Label warnings and contraindications, including confirmation of the peptic ulcer signal, to allow safety screening
+- Mechanism of action data to test whether antioxidant or anti-inflammatory effects are relevant to gout
+- A systematic search for preclinical or clinical studies of carbocisteine in gout or crystal-induced inflammation
+- A comparison with established gout treatments (urate-lowering therapy, anti-inflammatory therapy) to define any plausible role
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

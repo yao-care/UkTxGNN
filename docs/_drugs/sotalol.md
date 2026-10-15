@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sotalol
-parent: Model Prediction Only (L5)
-nav_order: 536
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 575
+evidence_level: L4
 indication_count: 7
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-Using no external skill here — this is a direct content-generation task fully specified by the provided report template; I'll produce the report against the given Evidence Pack.
-
-# Sotalol: From Antiarrhythmic Therapy to Sick Sinus Syndrome 2, Autosomal Dominant (Signal Flagged as Likely False Positive)
+# Sotalol: From Atrial Fibrillation to Stroke Disorder
 
 ## One-Sentence Summary
 
-Sotalol is an antiarrhythmic (beta-blocking, potassium-channel-blocking) agent used internationally for atrial fibrillation and ventricular arrhythmias; no UK marketing authorisation is on file for this drug in this dataset. The TxGNN model's top-ranked prediction — **Sick Sinus Syndrome 2, Autosomal Dominant** — is **not supported by any clinical trial or literature evidence** and is mechanistically implausible as a treatment target: Sotalol's sinus-node-suppressing action would be expected to *worsen*, not treat, this condition. Across all seven candidates in this multi-indication screen, none currently meet the bar for a "Go" decision.
+Sotalol is a class III antiarrhythmic with beta-blocking activity, originally used to treat atrial fibrillation.
+The TxGNN model's most clinically plausible prediction is **stroke disorder** (an indirect link via atrial fibrillation rhythm control). It is supported by **1 clinical trial** and **20 publications**, none of which examines stroke as a primary endpoint.
+
+*Note: The highest-scoring prediction by TxGNN score is sick sinus syndrome 2 (autosomal dominant), at 99.76%. It has no supporting trials or literature, and sotalol's pharmacology raises a safety concern in that condition. This report therefore focuses on stroke disorder, the prediction with the most evidence.*
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally licensed in the UK (no marketing authorisation on file); evidence in this pack indicates international use as an antiarrhythmic for atrial fibrillation and ventricular arrhythmias |
-| Predicted New Indication (top-ranked) | Sick Sinus Syndrome 2, Autosomal Dominant |
-| TxGNN Prediction Score | 99.76% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Atrial fibrillation |
+| Predicted New Indication | Stroke disorder (highest TxGNN score overall: sick sinus syndrome 2, autosomal dominant) |
+| TxGNN Prediction Score | 99.44% (stroke disorder); 99.76% (sick sinus syndrome 2) |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question only) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available for this record (`original_moa: [Data Gap]`). However, evidence embedded in this pack's literature abstracts indicates Sotalol is a non-selective beta-adrenergic blocker with Class III antiarrhythmic activity (IKr/potassium-channel blockade), consistent with its established international use for rhythm control in atrial fibrillation and management of ventricular arrhythmias, including in adults with congenital heart disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sotalol is a class III antiarrhythmic with beta-blocking activity. It prolongs cardiac repolarisation and slows sinus rate and atrioventricular conduction. Its efficacy in maintaining sinus rhythm in atrial fibrillation is established.
 
-For the top-ranked prediction, the relationship between Sotalol's known pharmacology and Sick Sinus Syndrome runs in the **wrong direction**. Beta-blockade and IKr-mediated repolarisation prolongation both suppress sinoatrial node automaticity and conduction; in a patient with sick sinus syndrome, this would be expected to aggravate bradycardia or precipitate sinus arrest rather than treat the condition. Sick sinus syndrome is typically listed as a caution or contraindication for beta-blockers and Class III antiarrhythmics in product literature, not an indication.
+Sotalol does not treat stroke directly. The link is indirect: atrial fibrillation increases the risk of thromboembolic stroke, so maintaining sinus rhythm could in principle reduce that risk. However, the retrieved literature concerns AF management and its complications rather than stroke outcomes. Anticoagulation remains the main stroke-prevention strategy in AF.
 
-This suggests the very high TxGNN score reflects a **structural artefact of the knowledge graph** — Sotalol shares graph neighbours (sinus node, cardiac conduction pathway) with sick sinus syndrome because of a *safety* relationship, which the model appears to have encoded as a *therapeutic* one. No clinical trials or publications support treating sick sinus syndrome with Sotalol, and none should be sought on this basis; this is a signal for safety review, not repurposing.
+The other predictions are weaker. Sick sinus syndrome 2 involves sinus node dysfunction and bradycardia, so further slowing of the sinus node is a safety concern rather than a rationale. Wildervanck syndrome, sarcoglycanopathy and macrocephaly with dysmorphic facies and psychomotor retardation have no plausible mechanistic link and no supporting studies. "Obsolete susceptibility to ischemic stroke" is an obsolete ontology term that overlaps with the stroke prediction and should be assessed together with it. For manic bipolar affective disorder, the retrieved papers describe an interaction risk (additive QT prolongation with antipsychotics), not a therapeutic benefit.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00007605](https://clinicaltrials.gov/study/NCT00007605) | Phase 3 | Completed | 706 | CSP #399: amiodarone and sotalol compared for maintaining sinus rhythm in atrial fibrillation. Stroke was not the stated primary endpoint, so the trial supports the AF rhythm-control context rather than stroke prevention directly. |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37485722](https://pubmed.ncbi.nlm.nih.gov/37485722/) | 2023 | Cohort | Circ Arrhythm Electrophysiol | Retrospective comparison of dronedarone and sotalol in antiarrhythmic drug-naive veterans with AF; sotalol requires initial QT and proarrhythmia monitoring. |
+| [1281807](https://pubmed.ncbi.nlm.nih.gov/1281807/) | 1992 | Clinical study | Int J Cardiol | Sotalol suppressed complex ventricular arrhythmias in about 50-60% of treatment attempts. |
+| [38011245](https://pubmed.ncbi.nlm.nih.gov/38011245/) | 2023 | Review | Circulation | Contemporary AF management in hypertrophic cardiomyopathy, including thromboembolic stroke risk. |
+| [25430048](https://pubmed.ncbi.nlm.nih.gov/25430048/) | 2014 | Review | BMJ Clin Evid | Acute-onset AF increases stroke and heart failure risk; many patients need rate or rhythm control. |
+| [21718559](https://pubmed.ncbi.nlm.nih.gov/21718559/) | 2011 | Review | BMJ Clin Evid | Acute AF resolves spontaneously within 24-48 hours in over 50% of people. |
+| [39077579](https://pubmed.ncbi.nlm.nih.gov/39077579/) | 2023 | Review | Rev Cardiovasc Med | Managing AF in pregnancy, weighing maternal and fetal risks of antiarrhythmic and anticoagulant drugs. |
+| [9358515](https://pubmed.ncbi.nlm.nih.gov/9358515/) | 1997 | Review | Pacing Clin Electrophysiol | AF complications: warfarin reduces embolism and stroke risk, and is generally more effective than aspirin. |
+| [37676022](https://pubmed.ncbi.nlm.nih.gov/37676022/) | 2024 | Review | J Cardiovasc Electrophysiol | Role of antiarrhythmic drugs in PVC-induced cardiomyopathy. |
+| [29954667](https://pubmed.ncbi.nlm.nih.gov/29954667/) | 2019 | Observational | Int J Cardiol | Efficacy and adverse effects of sotalol in adults with congenital heart disease, including proarrhythmic risk. |
+| [28496906](https://pubmed.ncbi.nlm.nih.gov/28496906/) | 2013 | Cohort | J Atr Fibrillation | Real-world risk of cardiovascular events, including stroke, with dronedarone versus amiodarone and other antiarrhythmics. |
 
-## Other Predicted Indications Screened
+For manic bipolar affective disorder, two papers address drug interactions rather than benefit: [39179332](https://pubmed.ncbi.nlm.nih.gov/39179332/) (preclinical; beta-blockade augmented the torsadogenic action of risperidone) and [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) (review of adverse interactions between antipsychotics and cardiovascular drugs).
 
-This evidence pack scored seven candidate indications for Sotalol. For completeness and to avoid over-weighting the (likely erroneous) top score, all are summarised below.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation | Note |
-|------|----------------------|-------------|-----------------|-----------------|------|
-| 1 | Sick sinus syndrome 2, autosomal dominant | 99.76% | L5 | Hold | Mechanistically a contraindication signal, not a treatment signal — see above |
-| 2 | Wildervanck syndrome | 99.65% | L5 | Hold | Congenital skeletal/otic syndrome; no mechanistic link to cardiac electrophysiology; likely graph noise |
-| 3 | Sarcoglycanopathy (limb-girdle muscular dystrophy) | 99.64% | L5 | Research Question | Plausible only indirectly, via management of associated cardiomyopathy/arrhythmia (as with Duchenne/Becker MD); no trials or literature yet identified |
-| 4 | Stroke disorder | 99.44% | L3 | Research Question | Best-evidenced candidate, but represents an extension of the *existing* AF-rhythm-control indication rather than a novel mechanism; identified trials mostly test ablation or other antiarrhythmics, not Sotalol specifically against stroke outcomes ([NCT00007605](https://clinicaltrials.gov/study/NCT00007605), [NCT00911508](https://clinicaltrials.gov/study/NCT00911508)) |
-| 5 | Manic bipolar affective disorder | 99.43% | L4 | Hold | Literature concerns a QT-prolongation drug–drug interaction risk with antipsychotics (e.g., risperidone) and a bradycardia case report during lithium co-therapy — these are safety signals, not efficacy evidence for mania |
-| 6 | Macrocephaly, dysmorphic facies, and psychomotor retardation | 99.42% | L5 | Hold | Congenital neurodevelopmental syndrome; no mechanistic plausibility; no evidence |
-| 7 | Obsolete susceptibility to ischaemic stroke | 99.23% | L5 | Hold | Duplicate/obsolete ontology term overlapping with #4; should be merged rather than pursued independently |
+---
 
 ## UK Market Information
 
-Sotalol currently holds **no marketing authorisation on file** in this dataset (`total_licenses: 0`, market status: Not marketed). No product entries, dosage forms, or licensed indications are available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0204000T0AAABAB | Sotalol HCl Tab 40mg | Tablet | Not stated in the data compiled |
+
+The compiled data lists one valid single-ingredient authorisation. The authorisation number appears in a non-standard format, and the dosage form, manufacturer and approved indication were not recorded. Please verify against the MHRA register and the BNF.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications suggested by the knowledge graph** (not label text; verify against the SmPC): long QT syndrome (including familial), torsades de pointes, asthma and other bronchial disease, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, hypotension, impaired renal function, atrioventricular block, sick sinus syndrome (including familial), and anaphylaxis.
+- **Drug interactions:** 100 interactions were identified. Those classed as **Major** include epinephrine, clarithromycin, picosulfuric acid and polyethylene glycol 3350 with electrolytes. Many others are Moderate, for example famotidine, loperamide, bupropion, morphine, atropine, cimetidine, canagliflozin, dapagliflozin and chlorpropamide.
+- **Proarrhythmic risk:** the retrieved literature highlights torsades de pointes risk, the need for QT monitoring and renal dose adjustment, and additive QT prolongation when co-prescribed with antipsychotics.
 
-> Note: This dataset flags UK-specific SmPC warnings/contraindications as a **blocking data gap** (DG001) — this must be resolved before any safety assessment (S1) can proceed for this drug, regardless of which candidate indication is pursued.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question only)**
 
 **Rationale:**
-The top-ranked prediction (sick sinus syndrome) is not a genuine repurposing opportunity — it is best read as a mechanistic contraindication signal misclassified by the knowledge graph, with zero supporting trials or literature. Across the full set of seven predictions, none currently meet the evidence bar for "Go"; the most credible candidate (stroke-risk reduction) is an incremental extension of Sotalol's existing antiarrhythmic use rather than a novel indication, and is only supported at L3 (indirect trial/literature evidence, no Sotalol-specific stroke-outcome trial).
+The stroke prediction rests on an indirect link through AF rhythm control, and no study examines stroke as an endpoint. Anticoagulation remains the standard stroke-prevention approach. The highest-scoring prediction, sick sinus syndrome 2, has no evidence and raises a safety concern. The remaining predictions have no mechanistic or clinical support. Sotalol also carries substantial proarrhythmic and interaction risks.
 
 **To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain UK/EU SmPC warnings and contraindications for Sotalol before any safety screening can begin
-- Resolve DG002: confirm original mechanism of action and licensed indication(s) via DrugBank or an equivalent authoritative source
-- Confirm current UK marketing/licensing status, since this record shows zero authorisations
-- If pursuing the stroke-risk-reduction angle (rank 4): identify or commission a trial with Sotalol as the specific intervention and stroke/thromboembolism as a primary or secondary endpoint
-- If pursuing the sarcoglycanopathy angle (rank 3): seek preclinical or observational data on antiarrhythmic management of cardiomyopathy in this specific muscular dystrophy population
-- No further action recommended on ranks 1, 2, 5, 6, or 7 without new evidence, given absent or contraindicated mechanistic rationale
+- Mechanism of action data
+- Label-based warnings and contraindications from the SmPC and BNF (currently unavailable, which blocks safety screening)
+- Complete licence details (dosage form, approved indication, authorisation number verification)
+- Evidence from trials or cohort studies with stroke or thromboembolism as a defined endpoint, compared against anticoagulation-based strategies
+- A safety plan covering QT monitoring, renal dosing and co-medication review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

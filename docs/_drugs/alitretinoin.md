@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alitretinoin
-parent: Moderate Evidence (L3-L4)
-nav_order: 36
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 37
+evidence_level: L5
 indication_count: 10
 ---
 
 # Alitretinoin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,111 +29,103 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Alitretinoin: From Chronic Hand Eczema to Acne
+# Alitretinoin: From Severe Chronic Hand Eczema to Acne
 
 ## One-Sentence Summary
 
-Alitretinoin (9-cis-retinoic acid) is an oral retinoid with established approval in several jurisdictions (including via the EMA) for severe chronic hand eczema refractory to potent topical corticosteroids.
-The TxGNN model predicts it may be effective for **Acne**, supported by **1 registered trial** and **5 publications** — including a direct clinical comparison demonstrating equivalent sebosuppressive activity to isotretinoin (PMID 8884148).
-Note: TxGNN's highest-ranked prediction (amenorrhea, 99.99%) has been assessed as a confounded adverse-effect signal with no therapeutic rationale and is classified **Hold**; acne (99.92%) is the most clinically actionable candidate and is the focus of this report.
+Alitretinoin (9-cis-retinoic acid) is a retinoid that acts on retinoid receptors and is used for severe chronic hand eczema that has not responded to potent topical corticosteroids.
+The TxGNN model predicts it may be effective for **acne**, but there are currently **no clinical trials** and only **2 general review articles** supporting this direction, so the evidence is limited to model prediction and biological plausibility.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Severe chronic hand eczema (known EMA-approved indication; no MHRA licence on record in this Evidence Pack) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.92% (TxGNN rank 2; selected as primary candidate over rank 1 due to mechanistic support and available evidence) |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed (0 MHRA authorisations on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the UK authorisation data compiled for this report. Reference pharmacology data describes use in severe chronic hand eczema refractory to potent topical corticosteroids |
+| Predicted New Indication | Acne (see note below on prediction ranking) |
+| TxGNN Prediction Score | 99.92% (acne); the top-ranked prediction, amenorrhoea, scored 99.99% |
+| Evidence Level | L4 (acne); L5 for the top-ranked prediction |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
+
+**Note on prediction selection:** The top-ranked TxGNN prediction is amenorrhoea (99.99%), but it has no supporting trials or literature, and any link is more plausibly an adverse effect of retinoids than a therapeutic one. This report therefore focuses on rank 2, acne, the only prediction with any supporting literature and a plausible mechanism. Other predictions are summarised below.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. From published sources, Alitretinoin is the 9-cis isomer of retinoic acid and is a pan-retinoid receptor agonist, activating both retinoic acid receptors (RAR-α/β/γ) and retinoid X receptors (RXR-α/β/γ). Through these nuclear receptors it suppresses sebaceous gland proliferation, normalises keratinocyte differentiation, and attenuates AP-1-driven inflammation — all recognised as central mechanisms in the pathogenesis of acne vulgaris.
+Alitretinoin is a pan-retinoid receptor agonist. It binds all three retinoic acid receptors (RAR-α, -β, -γ) and all three retinoid X receptors (RXR-α, -β, -γ). Detailed mechanism of action data are not otherwise available in the data compiled for this report.
 
-The repurposing rationale is particularly compelling because isotretinoin (13-cis-retinoic acid), a structural analogue, is already the established gold-standard oral therapy for severe acne. Alitretinoin shares this class-effect mechanism and additionally carries stronger RXR-binding activity. Critically, a direct clinical comparison by Ott et al. (1996; PMID 8884148) demonstrated that 9-cis-RA is as active as 13-cis-RA in inhibiting cultured human sebocyte proliferation and reducing hamster sebaceous gland size — the accepted surrogate endpoints for anti-acne activity.
+Retinoids are an established treatment class in acne. Isotretinoin, a close isomer, works through RAR-mediated normalisation of keratinocyte differentiation, reduced sebocyte activity and anti-inflammatory effects. Alitretinoin shares this receptor pharmacology (with additional RXR activity), which gives biological plausibility. However, the literature supplied consists of general retinoid dermatology reviews, not alitretinoin-specific acne data. Both its original indication and acne are dermatological conditions, but the link remains theoretical without direct clinical evidence.
 
-**Note on TxGNN's top-ranked prediction:** Amenorrhea ranked first by TxGNN score (99.99%). However, retinoids cause menstrual irregularities and amenorrhoea as adverse effects, not as therapeutic targets. This prediction is biologically confounded, has no clinical evidence, and has been designated Hold at decision stage S0. Acne — ranked second by TxGNN score but supported by mechanistic evidence and a direct comparative study — is the actionable focus of this report.
+**Other TxGNN predictions (all lacking clinical evidence):**
+
+| Predicted Indication | Score | Assessment |
+|------|------|------|
+| Amenorrhoea | 99.99% | No clear mechanistic link; more likely an adverse-effect relationship |
+| Atypical coarctation of aorta | 99.88% | Developmental/teratogenic relationship only; not treatable with a retinoid |
+| Pregnancy-associated osteoporosis | 99.83% | Retinoids are contraindicated in pregnancy; no supported mechanism |
+| Aortic malformation | 99.79% | Teratogenic rather than therapeutic relationship |
+| Postmenopausal osteoporosis | 99.79% | Retinoid excess is associated with reduced bone density; direction of effect potentially unfavourable |
+| Autosomal dominant neovascular inflammatory vitreoretinopathy | 99.74% | No mechanism linking alitretinoin to this rare genetic eye disease |
+| Breast fibrocystic disease / benign mammary dysplasia | 99.73% | Weak plausibility only; effectively the same entity (redundant predictions) |
+| Worth syndrome | 99.70% | No known mechanistic connection |
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | N/A | Unknown | 300 | Observational study investigating whether **isotretinoin** (13-cis-RA, not alitretinoin) increases COVID-19 infection risk via nasal mucosal dryness; does not assess alitretinoin efficacy for acne |
-
-> **Interpretive note:** The single identified trial involves isotretinoin — a related but distinct molecule — and addresses an adverse-event safety question rather than therapeutic efficacy. No registered trials of oral alitretinoin specifically for acne were identified in ClinicalTrials.gov or ICTRP.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [8884148](https://pubmed.ncbi.nlm.nih.gov/8884148/) | 1996 | Clinical Comparative Study | *Dermatology* | Direct head-to-head: 9-cis-RA (alitretinoin) equally active to 13-cis-RA (isotretinoin) in inhibiting human sebocyte proliferation and reducing sebaceous gland size — strongest direct evidence for the repurposing hypothesis |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | *Clinics in Dermatology* | Comprehensive review of vitamin A and retinoids in dermatology; confirms alitretinoin among oral retinoids used as therapeutic agents, with RAR/RXR pan-agonist profile described |
-| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Expert Review | *Skin Pharmacology and Applied Skin Physiology* | Retinoids' pleiotropic dermatological effects via RAR/RXR nuclear receptors; supports mechanistic basis for sebaceous gland targeting and keratinocyte normalisation |
-| [8884149](https://pubmed.ncbi.nlm.nih.gov/8884149/) | 1996 | Clinical Study | *Dermatology* | Oral all-trans-retinoic acid reduces sebum excretion rate in young male subjects; supports class-effect sebosuppression shared by systemic retinoids |
-| [10521699](https://pubmed.ncbi.nlm.nih.gov/10521699/) | 1999 | Mechanistic Review | *Biochimica et Biophysica Acta* | Retinoid receptor binding and metabolism; provides the mechanistic framework for retinoid activity in epithelial differentiation and sebaceous tissue regulation |
+|------|-----|------|------|---------|
+| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clinics in Dermatology | Overview of vitamin A and retinoids in dermatology; lists alitretinoin among oral therapeutic retinoids alongside isotretinoin, acitretin and bexarotene |
+| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Review | Skin Pharmacology and Applied Skin Physiology | Discusses retinoid nuclear receptor biology and which dermatological indications may benefit from retinoids in future |
+
+Neither review provides alitretinoin-specific acne data.
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisations for Alitretinoin are recorded in this Evidence Pack (market status: not marketed in the UK at time of data snapshot). For reference, Alitretinoin 10 mg and 30 mg capsules (Toctino®, Stiefel/GSK) received European Medicines Agency (EMA) approval in 2008 for severe chronic hand eczema refractory to potent topical corticosteroids; prescribers should verify current MHRA authorisation status, NICE guidance, and BNF listing independently, as the UK regulatory position following the end of the EMA mutual recognition period may differ from this snapshot.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1305010AFAAABAB | Alitretinoin capsule 30 mg | Capsule | Not stated in the data compiled |
 
----
-
-## Cytotoxicity
-
-Alitretinoin (DB00523) is classified as an antineoplastic agent in DrugBank, owing to its approval as a topical gel (Panretin®) for AIDS-related Kaposi's sarcoma cutaneous lesions. The following applies to systemic/oral use; cytotoxic precautions are not required at dermatological doses.
-
-| Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted retinoid (RAR/RXR pan-agonist); not a conventional cytotoxic agent. Antineoplastic classification derives from Kaposi's sarcoma topical use |
-| Myelosuppression Risk | Low — oral retinoids at dermatological doses are not myelosuppressive |
-| Emetogenicity Classification | Low to minimal at dermatological dosing levels |
-| Monitoring Items | FBC, LFTs, fasting lipid profile (triglycerides and total cholesterol), renal function, and mandatory pregnancy tests for females of childbearing potential |
-| Handling Protection | Standard pharmaceutical handling is sufficient at dermatological doses; pregnant or potentially pregnant staff should avoid direct handling given the teratogenic class-effect |
+One valid single-ingredient authorisation is recorded. Dosage form and approved indication text were not available, so they should be confirmed against the current SmPC and BNF.
 
 ---
 
 ## Safety Considerations
 
-No specific safety data (SmPC warnings, contraindications, or drug interaction records) is available in this Evidence Pack.
+- **Knowledge-graph contraindication signals:** The TxGNN knowledge graph (not label text) links alitretinoin to contraindication with mycosis fungoides and variants, primary cutaneous T-cell lymphoma, folliculotropic mycosis fungoides, localised pagetoid reticulosis and granulomatous slack skin disease.
+- **Teratogenicity:** Retinoids as a class are teratogenic and unsuitable in pregnancy; this is relevant to any new indication in people of childbearing potential.
+- **Pharmacological targets:** Alitretinoin interacts with RAR-α/β/γ and RXR-α/β/γ, and the data also list vitamin K epoxide reductase complex subunit 1 (VKORC1). The VKORC1 entry may warrant attention with coumarin anticoagulants, but no interaction severity levels were provided.
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
-> **Critical known safety concern (from published literature):** Alitretinoin is a potent teratogen. All oral retinoid prescribing in the UK requires compliance with the mandatory Retinoid Pregnancy Prevention Programme (PPP), including effective contraception, monthly pregnancy testing, and a 30-day contraception-confirmed dispensing limit. This requirement is non-negotiable for any repurposing trial or off-label use in females of childbearing potential and must be addressed before any clinical development proceeds.
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Alitretinoin shares the proven sebosuppressive mechanism of isotretinoin, and a direct clinical comparison study demonstrates equivalent activity against sebocyte proliferation — the key surrogate for anti-acne efficacy. However, no completed RCT of oral alitretinoin specifically for acne has been identified, and critical safety data (including the mandatory Pregnancy Prevention Programme requirements) must be formally documented before any clinical application proceeds.
+The acne prediction rests on class-level biological plausibility, with no trials and only general review literature. Established retinoids (such as isotretinoin) already exist for acne, so the added value of alitretinoin is unclear. The highest-scoring prediction (amenorrhoea) has no supporting evidence and is more likely an adverse effect.
 
 **To proceed, the following is needed:**
-
-- Confirm current MHRA authorisation and BNF listing for Alitretinoin (Toctino) — UK regulatory position following EMA transition requires independent verification
-- Retrieve full SmPC to document contraindications, teratogenicity programme requirements, and drug interactions (Data Gap DG001 — currently Blocking)
-- Obtain DrugBank MOA data (Data Gap DG002) to formally document RAR/RXR receptor-binding profile for inclusion in any regulatory submission
-- Design a Phase 2 RCT comparing oral alitretinoin vs isotretinoin for moderate-to-severe acne to establish non-inferiority or superiority with UK patient data
-- Assess NICE Technology Appraisal coverage of oral retinoids for acne (e.g., TA 77) and determine whether existing appraisals cover off-label alitretinoin use
-- Develop a Pregnancy Prevention Programme compliance plan aligned with MHRA guidance for any trial or off-label prescribing programme
-
----
-
-*This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application. All prescribing decisions should reference the current SmPC, BNF, and applicable NICE guidance.*
+- Alitretinoin-specific preclinical or clinical data in acne
+- Confirmed UK approved indication and dosage form from the SmPC
+- Full warnings and contraindications from the SmPC and BNF (currently missing)
+- Detailed mechanism of action data
+- A pregnancy prevention and risk-management plan, given retinoid teratogenicity
+- Comparison against existing acne retinoids to justify repurposing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

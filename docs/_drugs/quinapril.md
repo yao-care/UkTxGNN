@@ -2,7 +2,7 @@
 layout: default
 title: Quinapril
 parent: Model Prediction Only (L5)
-nav_order: 493
+nav_order: 531
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,64 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-Using the report structure specified in the prompt to produce the following evaluation.
-
----
-
 # Quinapril: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Quinapril is an ACE inhibitor conventionally associated with hypertension management, although this Evidence Pack contains no confirmed record of its original licensed indication. The TxGNN model predicts a possible link to **Malignant Renovascular Hypertension**, but this pairing is supported by **no clinical trials** and **no published literature**, and the model's own mechanistic rationale flags a plausible safety concern rather than a genuine therapeutic signal.
+Quinapril is an angiotensin-converting enzyme (ACE) inhibitor originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but there are currently **no clinical trials** and **no publications** directly supporting this prediction. It is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in source data; Quinapril is pharmacologically known as an ACE inhibitor, a class typically indicated for hypertension |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed in the UK |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Quinapril in this Evidence Pack. Based on known drug-class information (as noted within the model's own rationale), Quinapril is an ACE inhibitor, working by suppressing the renin-angiotensin-aldosterone system (RAAS) to lower blood pressure. This class-level mechanism is the sole basis for the predicted association with renovascular hypertension.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, quinapril is an ACE inhibitor. It lowers angiotensin II and therefore blood pressure. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
 
-However, the relationship between the original use (presumed hypertension) and the predicted indication is mechanistically double-edged. Malignant renovascular hypertension frequently occurs in the context of bilateral renal artery stenosis, a setting in which ACE inhibitors are well recognised to carry a **relative contraindication** rather than a therapeutic benefit, due to the risk of precipitating acute renal failure when RAAS-dependent glomerular perfusion is withdrawn. The Evidence Pack's own repurposing rationale makes this point explicitly.
+Renovascular hypertension is strongly driven by the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is plausible. However, the high TxGNN score probably reflects similarity to the approved hypertension indication rather than new evidence.
 
-In short, this prediction appears to be a TxGNN score-driven pairing based on pharmacological class similarity, rather than a validated repurposing opportunity. The same caveat applies across the other candidate indications in this pack (malignant hypertensive renal disease, two subtypes of pulmonary hypertension, and Braddock syndrome) — all are scored L5 with no supporting trials, and the literature identified for the pulmonary hypertension candidates relates to general hypoxia biology rather than to Quinapril or pulmonary vascular disease specifically. All five candidates carry a model-generated "Hold" recommendation.
+There is also a notable safety concern. ACE inhibitors carry a known risk of acute renal function decline in bilateral renal artery stenosis or in a solitary kidney, which is exactly the population in which renovascular hypertension occurs.
+
+### Other Predicted Indications (for context)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 2 | Malignant hypertensive renal disease | 99.86% | L5 | Hold |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.85% | L4 | Research Question |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.85% | L5 | Hold |
+| 5 | Braddock syndrome | 99.79% | L5 | Hold |
+
+- **Malignant hypertensive renal disease:** RAAS blockade is mechanistically relevant, because reduced intraglomerular pressure and antiproteinuric effects are known class benefits. No quinapril-specific evidence was available, and renal safety (hyperkalaemia, creatinine rise) would need assessment.
+- **Pulmonary hypertension due to lung disease/hypoxia:** Animal studies suggest quinapril reduces hypoxic pulmonary hypertension and vascular remodelling (see Literature Evidence). There is no human evidence, and systemic vasodilation could worsen ventilation-perfusion matching.
+- **Pulmonary hypertension, unclear multifactorial mechanism:** Any rationale is extrapolated from RAAS involvement in pulmonary vascular remodelling. The group is heterogeneous and no direct evidence is available.
+- **Braddock syndrome:** No clear mechanistic link could be established. The high score is likely a knowledge-graph artefact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for malignant renovascular hypertension or the other predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction. The only publications identified relate to the third-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), and both are preclinical:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [8873672](https://pubmed.ncbi.nlm.nih.gov/8873672/) | 1996 | Preclinical (animal study) | Circulation | Inhibiting tissue ACE with quinapril reduced hypoxic pulmonary hypertension and pulmonary vascular remodelling |
+| [8720418](https://pubmed.ncbi.nlm.nih.gov/8720418/) | 1996 | Preclinical (animal study) | J Cardiovasc Pharmacol | In rats after myocardial infarction, quinapril preserved left ventricular function and energy metabolism (indirect relevance) |
 
 ## UK Market Information
 
-Quinapril currently holds no marketing authorisations in the UK — the market status on record is "Not marketed" with 0 licences. No product name, dosage form, or approved indication text is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205051Q0AAACAC | Quinapril HCl Tablets 20 mg | Tablet | Not stated in the data compiled for this report |
+
+Note: this identifier is formatted like a BNF code rather than an MHRA PL number, so the MHRA licence details should be verified.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and conditions of concern (from the knowledge graph, not label text):** kidney disease, anuria, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), pancreatitis, liver disease, hepatic encephalopathy/coma, gallbladder disease, systemic lupus erythematosus and connective tissue disease, diabetes mellitus and diabetic ketoacidosis, potassium deficiency, hyperuricaemia and gout, neutropenia and agranulocytosis, hypotension, hyperparathyroidism and bone disease, and neonatal jaundice.
+- **Drug Interactions:** 100 interactions were identified. The one rated Major is **potassium citrate** (risk of hyperkalaemia). Moderate interactions include metformin, aspirin, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), SGLT2 inhibitors (canagliflozin, dapagliflozin), tetracyclines (doxycycline, tetracycline), morphine, bupropion, atropine, chlorpropamide, and several bowel preparations and laxatives.
+- **Renal safety:** ACE inhibitors may cause acute renal function decline in bilateral renal artery stenosis or a solitary kidney. This is directly relevant to the top two predicted indications.
+
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication (and all four other TxGNN-ranked candidates) is supported by no clinical trials and no relevant literature, placing all at Evidence Level L5 (model prediction only). Compounding this, the mechanistic rationale itself suggests renovascular hypertension with bilateral renal artery stenosis is more plausibly a **safety risk setting** for ACE inhibitors than a genuine new indication, and Quinapril has no current UK marketing authorisation to build on.
+The prediction is computational only (L5), with no clinical trials or literature. The high score likely reflects similarity to the existing hypertension indication. The renal safety risk of ACE inhibitors in renovascular disease adds further caution.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action and original licensed indication(s) for Quinapril from an authoritative source (e.g. DrugBank, SmPC)
-- UK/MHRA licensing status confirmation, including whether any historical authorisation existed
-- SmPC-derived warnings and contraindications, particularly regarding renal artery stenosis and renal function monitoring
-- Disease-specific preclinical or clinical evidence directly addressing Quinapril's use in renovascular hypertension before any further evaluation stage is considered
+- Mechanism of action data (for example from DrugBank)
+- SmPC and BNF warnings and contraindications, which are currently missing and block safety screening
+- Verification of the UK licence details (MHRA PL number, dosage form, approved indication)
+- Clinical evidence for quinapril, or the ACE inhibitor class, in renovascular hypertension, including renal safety data in bilateral renal artery stenosis
+- For pulmonary hypertension, human studies beyond the preclinical findings, which would need to be assessed as a separate research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Benzydamine Hcl
 parent: Model Prediction Only (L5)
-nav_order: 95
+nav_order: 99
 evidence_level: L5
 indication_count: 0
 ---

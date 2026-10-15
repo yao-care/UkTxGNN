@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Agomelatine
-parent: High Evidence (L1-L2)
-nav_order: 27
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 28
+evidence_level: L5
 indication_count: 10
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,102 +29,101 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Agomelatine: From Major Depressive Disorder to Melancholia
+# Agomelatine: From Depression and Anxiety Disorder to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-Agomelatine (Valdoxan) is a novel melatoninergic antidepressant — MT1/MT2 receptor agonist and 5-HT2C receptor antagonist — currently authorised in the European Union for major depressive disorder in adults, but holding no MHRA marketing authorisation in the United Kingdom.
-The TxGNN model's highest-evidence actionable prediction identifies **Melancholia** as a prime candidate for agomelatine's repurposing potential, supported by **0 registered clinical trials** and **20 publications** — the latter including multiple Tier 1 systematic reviews and network meta-analyses encompassing over 116,000 patients.
+Agomelatine is an antidepressant originally used for unipolar depression, major depressive disorder and anxiety disorder.
+The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of infancy**, but there are currently **0 clinical trials** and **0 publications** supporting this specific indication.
+The prediction is a computational output only. Of the ten predictions generated, the depression-related ones (melancholia, neurotic depression, dysthymic disorder) have the most indirect support, and they largely overlap with existing indications.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Major Depressive Disorder (EU-authorised; no current UK marketing authorisation) |
-| Predicted New Indication | Melancholia |
-| TxGNN Prediction Score | 99.88% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Agomelatine has a pharmacological mechanism unique among antidepressants. As a melatonin MT1 and MT2 receptor agonist, it acts on the suprachiasmatic nucleus — the brain's master circadian clock — to re-synchronise disrupted sleep–wake cycles and HPA axis rhythmicity. As a 5-HT2C receptor antagonist, it disinhibits dopaminergic and noradrenergic neurotransmission in the prefrontal cortex and hippocampus, restoring hedonic capacity and ameliorating psychomotor slowing.
+Detailed mechanism of action data for the original indication is not available in the data compiled for this report. From the literature provided, agomelatine is a melatonin analogue that acts as an agonist at MT1 and MT2 melatonergic receptors and as an antagonist at 5-HT2C receptors. It is metabolised mainly via CYP1A2. Pharmacology data also list activity at 5-HT2A and 5-HT2B receptors.
 
-Melancholia (ICD-10: F32.2 with somatic syndrome; DSM-5: MDD with melancholic features) is the endogenous depressive subtype characterised by profound anhedonia, psychomotor retardation, early-morning awakening, diurnal mood variation, and marked HPA axis hyperactivation. These are precisely the features most tightly linked to circadian rhythm disruption and melatoninergic dysregulation — meaning agomelatine's MT1/MT2 agonism targets melancholia's core pathophysiology more specifically than any conventional serotonergic antidepressant. The 5-HT2C antagonism simultaneously addresses the anhedonia and reward-processing deficits that are hallmarks of this subtype.
+For benign paroxysmal torticollis of infancy, **no mechanistic link is established**. It is a paediatric episodic disorder in the migraine spectrum, and nothing in the data connects melatonergic or 5-HT2C activity to it. The high score should be treated as a computational hypothesis, not as evidence of efficacy.
 
-The 2018 Lancet network meta-analysis by Cipriani et al. (522 RCTs, N = 116,477) and a 2023 maintenance-phase meta-analysis by Kishi et al. both include agomelatine and patients with melancholic features assessed on HAM-D and MADRS scales. A 2024 agomelatine-specific meta-analysis by Gędek et al. and a 2025 Lancet physiological safety review further confirm its efficacy and tolerability profile, providing a robust Level 1 evidence base. Multiple reviews directly identify agomelatine as a leading anti-anhedonic pharmacological agent.
+Other predictions fall into three groups:
+
+- **Overlap with existing indications (indirect support):** Melancholia, neurotic depression and dysthymic disorder are closely related to approved depression indications, so these are closer to on-label use than true repurposing. Agoraphobia is plausibly related through the anxiety indication, but no agoraphobia-specific data were provided.
+- **Non-specific support:** "Neurotic disorder" is an outdated umbrella term, supported only by a general narrative article on antidepressants.
+- **No plausible link:** Ohdo syndrome and variants, ligneous conjunctivitis, the Ohdo-type blepharophimosis syndrome and Keppen-Lubinsky syndrome are rare genetic conditions with no apparent mechanistic connection and no supporting evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically registered for Agomelatine in Melancholia.
-
-> Agomelatine's clinical development programme enrolled patients with melancholic and somatic features within broader MDD populations. No standalone melancholia-specific trial registrations were identified via ClinicalTrials.gov or WHO ICTRP searches. This represents a gap warranting prospective investigation.
+Currently no related clinical trials registered for benign paroxysmal torticollis of infancy. No trials were identified for any of the other nine predicted indications either.
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for benign paroxysmal torticollis of infancy.
+
+The literature found for other predictions is indirect and not specific to the top-ranked indication. Selected items for the closest depression-related predictions are shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network Meta-Analysis (522 RCTs, N=116,477) | *Lancet* | Agomelatine ranked among the most efficacious and best-tolerated of 21 antidepressants for acute MDD; populations include melancholic subgroups assessed by MADRS/HAM-D |
-| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Systematic Review / Network Meta-Analysis | *Molecular Psychiatry* | Agomelatine confirmed superior tolerability and sustained efficacy in MDD maintenance phase; double-blind RCTs with enrichment design |
-| [39684343](https://pubmed.ncbi.nlm.nih.gov/39684343/) | 2024 | Systematic Review + Meta-Analysis | *Int J Mol Sciences* | Agomelatine efficacious and safe in depressed patients with diabetes; neutral metabolic and weight profile; includes patients with somatic/melancholic presentations |
-| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematic Review (RCT synthesis) | *Lancet* | Agomelatine associated with the most favourable cardiometabolic physiological profile among all antidepressants examined |
-| [37424409](https://pubmed.ncbi.nlm.nih.gov/37424409/) | 2023 | Review | *Clin Psychopharmacol Neurosci* | Anhedonia (hallmark melancholia feature) reviewed as transdiagnostic dimension; agomelatine cited as agent with direct anti-anhedonic evidence |
-| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | Narrative Review | *PCN Reports* | Agomelatine, vortioxetine, and ketamine highlighted as most promising agents for anhedonia; directly relevant to melancholic subtype |
-| [34419186](https://pubmed.ncbi.nlm.nih.gov/34419186/) | 2021 | Review | *Lancet Psychiatry* | Circadian sleep–wake disruption identified as a causal pathway in depressive disorders; melatoninergic interventions highlighted as mechanistically targeted approach |
-| [30611836](https://pubmed.ncbi.nlm.nih.gov/30611836/) | 2019 | Systematic Review | *Prog Neuropsychopharmacol Biol Psychiatry* | Pharmacological interventions targeting anhedonia in MDD; agomelatine among agents with evidence across longitudinal studies |
-| [24328686](https://pubmed.ncbi.nlm.nih.gov/24328686/) | 2014 | Review | *Expert Opin Pharmacother* | Detailed review of agomelatine mechanism; MT1/MT2 agonism reverses circadian disruption; promotes dendritic neurogenesis; favourable tolerability vs SSRIs/SNRIs |
-| [32568567](https://pubmed.ncbi.nlm.nih.gov/32568567/) | 2020 | Review | *Expert Opin Drug Discov* | Preclinical discovery and development; first antidepressant with a mechanism extending beyond monoaminergic neurotransmission; supports novel use in circadian-mediated depressive subtypes |
+|------|-----|------|------|---------|
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Meta-analysis | Lancet | Network meta-analysis comparing the efficacy and acceptability of 21 antidepressants for acute major depressive disorder (relevant to melancholia and neurotic depression) |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Meta-analysis | Molecular Psychiatry | Network meta-analysis of antidepressants in the maintenance phase of major depressive disorder |
+| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis | J Clin Psychiatry | Meta-analysis of placebo-controlled RCTs of antidepressants in dysthymia; class-level evidence, not agomelatine-specific (relevant to dysthymic disorder) |
+| [41135546](https://pubmed.ncbi.nlm.nih.gov/41135546/) | 2025 | Systematic review | Lancet | Compares antidepressants on cardiometabolic and other physiological effects |
+| [24033095](https://pubmed.ncbi.nlm.nih.gov/24033095/) | 2013 | Review | Expert Opin Drug Saf | Agomelatine described as an effective antidepressant with relatively mild side effects |
+| [19927226](https://pubmed.ncbi.nlm.nih.gov/19927226/) | 2009 | Review | Drugs Today | Describes MT1/MT2 agonism and 5-HT2C antagonism; short-term trials confirmed antidepressant effect at 25-50 mg/day |
+| [40129874](https://pubmed.ncbi.nlm.nih.gov/40129874/) | 2025 | Review | PCN Reports | Narrative review noting agomelatine among drugs with promising anti-anhedonic effects |
+| [39072578](https://pubmed.ncbi.nlm.nih.gov/39072578/) | 2024 | Review | Zh Nevrol Psikhiatr Im S S Korsakova | Narrative article on antidepressant choice in depression and neurotic disorder; not disease-specific efficacy evidence |
 
 ---
 
 ## UK Market Information
 
-Agomelatine does not currently hold an MHRA marketing authorisation in the United Kingdom. No UK product licences exist; the product table is therefore not applicable.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0403040Z0AAAAAA (BNF-style code; no PL number provided) | Agomelatine tablets 25 mg | Tablet | Not stated in the data compiled |
 
-Agomelatine is marketed in the European Union under the brand names **Valdoxan** and **Thymanax** (both Servier Laboratories) for treatment of major depressive episodes in adults. Following the UK's exit from the EU, EMA authorisations ceased to be valid in Great Britain; a separate MHRA application is required for UK marketing.
-
-For UK clinical access, prescribers may consider:
-- **Unlicensed medicine** (named patient basis, under Regulation 167 of the Human Medicines Regulations 2012), with appropriate documentation of clinical need
-- **MHRA marketing authorisation application** for wider UK population access
+One valid single-ingredient authorisation is recorded. Manufacturer, dosage form detail and approved indication text were not available. In the BNF, agomelatine falls under the antidepressant drugs section (chapter 4, section 3.4 range), as suggested by the product code prefix.
 
 ---
 
 ## Safety Considerations
 
-No UK SmPC is available. Based on the EMA-approved European SmPC (Valdoxan) and published literature, the following points are of particular relevance to UK prescribers:
+- **Drug interactions / pharmacology:** The interaction data returned receptor-level pharmacology only, with no drug-drug interactions listed. Agomelatine binds MT1, MT2, 5-HT2A, 5-HT2B and 5-HT2C receptors. The literature notes it is metabolised mainly via CYP1A2, so potent CYP1A2 inhibitors are a relevant consideration; check the SmPC.
+- **Tolerability literature:** A critical review of newer-generation antidepressants (PMID 27508501) covers agomelatine safety and tolerability.
 
-- **Hepatotoxicity**: Agomelatine can cause dose-dependent liver transaminase elevations (ALT/AST), occasionally exceeding 3× ULN. Liver function tests are **mandatory** before treatment initiation and at weeks 3, 6, 12, and 24, and whenever clinically indicated thereafter. Agomelatine must not be initiated if baseline ALT or AST exceeds 3× ULN. Treatment should be discontinued if levels rise above 3× ULN during therapy.
-- **Contraindications**: Hepatic impairment (Child-Pugh class A or B); concomitant use of potent CYP1A2 inhibitors (notably **fluvoxamine** and **ciprofloxacin**), which substantially increase agomelatine plasma exposure.
-- **Drug interactions**: Agomelatine is primarily metabolised via CYP1A2. Tobacco smoking induces CYP1A2 and can reduce agomelatine plasma levels by approximately 3-fold, potentially undermining efficacy. Clinicians should reassess dose and treatment response in patients who smoke or who change their smoking status.
-
-Please report all suspected adverse reactions via the **MHRA Yellow Card Scheme**: [https://yellowcard.mhra.gov.uk/](https://yellowcard.mhra.gov.uk/)
+Please refer to the SmPC and BNF for full warnings and contraindications, including hepatic monitoring requirements. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Agomelatine's dual MT1/MT2 + 5-HT2C mechanism is directly aligned with the core pathophysiology of melancholia — circadian rhythm disruption, HPA axis hyperactivation, anhedonia, and psychomotor retardation — and this is supported by a Level 1 evidence base drawn from multiple systematic reviews and network meta-analyses covering over 116,000 patients. The principal constraint to UK clinical use is not insufficient efficacy evidence but the absence of an MHRA marketing authorisation, combined with a mandatory hepatic monitoring requirement that demands structured clinical governance.
+The top-ranked prediction rests on a computational score alone, with no trials, no literature and no plausible mechanistic link. Depression-related predictions have some indirect support but largely duplicate existing indications.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway**: Determine appropriate route to UK access — MHRA marketing authorisation application or named patient/unlicensed medicine access with appropriate governance documentation
-- **Hepatic monitoring protocol**: Establish a UK clinical governance framework for mandatory LFT monitoring (baseline, weeks 3, 6, 12, 24) aligned with MHRA/NHS standards
-- **CYP1A2 interaction management**: Develop prescriber guidance on fluvoxamine/ciprofloxacin contraindication and smoking-related dose considerations, especially relevant in mental health populations with high rates of tobacco use
-- **Melancholia-specific evidence**: Commission formal subgroup analysis of melancholic features within existing agomelatine RCT datasets to establish indication-specific evidence
-- **NICE engagement**: Initiate dialogue with NICE for a potential technology appraisal, particularly in the context of treatment-resistant melancholic depression or patients with metabolic comorbidities where agomelatine's neutral cardiometabolic profile offers clinical advantage
+- Confirmation of the mechanism of action and a rationale connecting it to benign paroxysmal torticollis of infancy
+- Disease-specific preclinical or clinical evidence for any chosen target indication
+- Safety assessment for a paediatric population, as the predicted condition occurs in infancy
+- The approved indication text and PL number for the UK authorisation, and the full SmPC warnings and contraindications
+- If a lower-risk avenue is preferred, a focused review of agomelatine-specific evidence in dysthymic disorder or agoraphobia, which sit closest to the existing indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

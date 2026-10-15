@@ -2,7 +2,7 @@
 layout: default
 title: Camphor
 parent: Moderate Evidence (L3-L4)
-nav_order: 121
+nav_order: 125
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,95 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Camphor: From Unlicensed Use to Migraine Disorder
+# Camphor: From an Unspecified Original Indication to Migraine Disorder
 
 ## One-Sentence Summary
 
-Camphor is a naturally occurring bicyclic monoterpenoid with a long history of topical application as a counterirritant; it currently holds no marketing authorisation in the United Kingdom and has no formally approved therapeutic indication.
-The TxGNN model predicts a potential role in **Migraine Disorder**, achieving a prediction score of **99.85%** (rank 2,125 amongst all evaluated drug–disease pairs).
-Supporting clinical evidence is sparse: **no dedicated clinical trials** have been registered, and the **5 available publications** relate primarily to case reports of headache *exacerbation* rather than therapeutic benefit.
-
----
+Camphor is a long-established topical counterirritant, but the data compiled for this report do not record a specific approved indication for it in the UK.
+The TxGNN model predicts it may be useful for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case reports and a case series, with no efficacy data) behind this prediction.
+The evidence is currently at the model-prediction and preclinical level, so this should be treated as a research question rather than a basis for clinical use.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No formally approved indication (not licensed in the UK) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not available in the data compiled for this report (the single authorisation record has no indication text) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Camphor is a known agonist of TRPV1 (transient receptor potential vanilloid 1) and TRPA1 ion channels, both of which are expressed on trigeminal sensory neurons and have well-established roles in nociceptive signalling. TRPV1 activation influences the release of calcitonin gene-related peptide (CGRP) — the central mediator in migraine pathophysiology and the molecular target of recently approved anti-CGRP monoclonal antibodies (such as erenumab and fremanezumab). In this context, the TxGNN prediction carries a degree of biological plausibility: a drug capable of modulating the TRPV1–CGRP axis could, in theory, influence migraine pain processing.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, camphor modulates transient receptor potential (TRP) channels (TRPV1, TRPA1 and TRPM8) and acts as a topical counterirritant. These channels are involved in sensory and pain signalling, which makes a link with trigeminovascular pain pathways in migraine plausible in principle.
 
-Camphor also has a counterirritant mechanism of action, whereby stimulation of peripheral nociceptors may paradoxically dampen the perception of deeper or more diffuse pain signals — a principle exploited in various topical analgesic preparations. Traditional medicine systems across multiple cultures have used camphor-containing preparations topically for headache relief, lending further historical plausibility to this prediction direction.
+A 2026 preclinical animal study (PMID 42849823) reported that natural (+)-camphor reduced reserpine-induced migraine with local cerebral vasospasm, apparently via the p38β MAPK/ATF2 pathway. This is the strongest piece of supporting evidence, but it is animal data only.
 
-However, a critical concern must be highlighted: the two most directly relevant publications in the available evidence base document camphor-containing essential oil products **triggering** cluster headache in susceptible patients, rather than alleviating it. This adverse signal inverts the expected therapeutic direction and substantially complicates the risk–benefit assessment. No formal preclinical or clinical studies have evaluated camphor's effect on migraine outcomes in a controlled setting, and the mechanistic evidence, whilst biologically interesting, remains highly speculative.
+The remaining literature is indirect. Two reports describe cluster headache linked to essential-oil toothpastes containing camphor and eucalyptus, which, if anything, suggest camphor-containing products may provoke headache. Other hits concern camphor content in feverfew oil or are unrelated to camphor. No human trial shows benefit in migraine.
 
----
+Other predicted indications (migraine subtypes, erectile dysfunction, pulmonary hypertension, Raynaud disease, Tourette syndrome and several rare conditions) have no credible supporting evidence. The pulmonary hypertension literature hits are a name collision with the CAMPHOR questionnaire (Cambridge Pulmonary Hypertension Outcome Review) and have nothing to do with the drug.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials evaluating camphor in migraine disorder have been registered on ClinicalTrials.gov or the ICTRP.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [36404301](https://pubmed.ncbi.nlm.nih.gov/36404301/) | 2022 | Phase 3 RCT | The Journal of Headache and Pain | ⚠️ False positive: Phase 3 study of **erenumab** (anti-CGRP monoclonal antibody) for chronic migraine prevention in Asian patients — not a camphor study; retrieved due to keyword overlap |
-| [35856604](https://pubmed.ncbi.nlm.nih.gov/35856604/) | 2022 | Case Series | Headache | Five patients developed cluster headache following use of toothpastes containing pro-convulsant essential oils including camphor — documents an **adverse effect** rather than therapeutic benefit |
-| [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/) | 2021 | Case Report | BMJ Case Reports | Two cases of cluster headache temporally related to use of camphor- and eucalyptus-containing toothpastes — further **adverse effect signal** directly implicating camphor |
-| [27058833](https://pubmed.ncbi.nlm.nih.gov/27058833/) | 2016 | Historical Review | Zeitschrift für Kinder- und Jugendpsychiatrie und Psychotherapie | Broad historical review of neuropsychopharmacological treatments used in children and adolescents in the 1940s–50s; only tangential relevance to camphor or migraine |
-| [593588](https://pubmed.ncbi.nlm.nih.gov/593588/) | 1977 | Historical Report | Minerva Medica | Historical Italian-language report on the therapy of essential hemicrania; no abstract available; clinical context and methodology cannot be assessed |
-
----
+|------|-----|------|------|---------|
+| [42849823](https://pubmed.ncbi.nlm.nih.gov/42849823/) | 2026 | Preclinical animal study | J Ethnopharmacol | Natural (+)-camphor alleviated reserpine-induced migraine with cerebral vasospasm in an animal model, via the p38β MAPK/ATF2 pathway |
+| [35856604](https://pubmed.ncbi.nlm.nih.gov/35856604/) | 2022 | Case series | Headache | Five cases of cluster headache linked to toothpastes containing pro-convulsant essential oils |
+| [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/) | 2021 | Case report | BMJ Case Rep | Two cases of cluster headache temporally related to toothpastes containing camphor and eucalyptus oils |
+| [27324458](https://pubmed.ncbi.nlm.nih.gov/27324458/) | 2016 | Analytical chemistry | Biomed Chromatogr | Method for measuring camphor in feverfew essential oil (indirect relevance only) |
+| [27058833](https://pubmed.ncbi.nlm.nih.gov/27058833/) | 2016 | Review | Z Kinder Jugendpsychiatr Psychother | Historical review of paediatric neuropsychopharmacology in the 1940s–50s (not direct evidence for migraine) |
 
 ## UK Market Information
 
-Camphor holds no MHRA marketing authorisation and is not currently available as a licensed medicinal product in its own right in the United Kingdom. It may appear as an excipient or active ingredient in some unlicensed traditional or herbal preparations, but no Product Licences (PLs) are on record. There are no authorisations to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 190400000AAIKIK | Camphor (S) BP 1988 | Not specified | Not specified |
 
-Clinicians considering any clinical use should note that camphor would need to be assessed under UK medicines legislation (Human Medicines Regulations 2012) prior to any formal therapeutic evaluation.
-
----
+The single authorisation is recorded as a valid single-ingredient product. Dosage form and indication details were not available in the data compiled for this report, so please check the current MHRA record, the BNF and any relevant NICE guidance.
 
 ## Safety Considerations
 
-Detailed safety data for camphor are not available in the current Evidence Pack.
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-> **Important adverse effect signal from the literature**: Two peer-reviewed publications (PMIDs [35856604](https://pubmed.ncbi.nlm.nih.gov/35856604/) and [34373243](https://pubmed.ncbi.nlm.nih.gov/34373243/)) document cluster headache triggered by topical camphor-containing essential oil products. Healthcare professionals should be aware that camphor may **provoke rather than relieve** headache disorders in susceptible individuals — this directly conflicts with the proposed therapeutic direction and represents a key safety concern.
->
-> Additionally, camphor is a known CNS stimulant at higher doses and has a well-established seizure risk (it is classified as pro-convulsant), which is particularly relevant given its overlap with a predominantly neurological patient population.
-
-Please refer to the relevant Summary of Product Characteristics (SmPC) and the BNF for any formulation-specific safety information. Suspected adverse reactions should be reported via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
-
----
+Points from the compiled data that warrant caution:
+- Case reports link camphor-containing essential-oil products with cluster headache, and essential oils with pro-convulsant properties are known to cause seizures and may worsen migraine.
+- Camphor has recognised neurotoxicity (seizure risk in overdose), which argues for caution in any neurological indication.
+- An oral acute toxicity study in rats (PMID 27955803) raised tissue oxidative stress and toxicity concerns.
+- No drug interaction data were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score and theoretical mechanistic plausibility through the TRPV1–CGRP pathway, camphor currently has no UK marketing authorisation, no registered clinical trials in migraine, and the available clinical literature predominantly documents a **headache-triggering** rather than analgesic effect. The evidence base is insufficient — and potentially cautionary — to support clinical development without substantial prior research.
+The TxGNN score is high (99.85%), but the evidence is limited to a single animal study and indirect case reports, some of which suggest camphor may provoke headache rather than treat it. There are no human trials, and neurotoxicity is a recognised concern.
 
 **To proceed, the following is needed:**
-
-- **Preclinical programme**: Controlled studies evaluating camphor's dose-dependent effects on trigeminal nociception, CGRP release, and cortical spreading depression in validated migraine models
-- **Safety signal resolution**: Formal investigation into whether camphor at sub-counterirritant doses relieves or exacerbates headache, distinguishing acute provocation effects from potential preventive mechanisms
-- **Mechanistic characterisation**: Full elucidation of the pharmacological mechanism of action (MOA), dose–response relationship, and any therapeutic window between analgesic and pro-convulsant doses
-- **Route of administration assessment**: Determination of whether a topical, intranasal, or other route could deliver therapeutic concentrations without systemic CNS effects
-- **Regulatory pathway scoping**: Engagement with the MHRA regarding camphor's regulatory status in the UK before any human studies are initiated
-- **Systematic review**: A formal critical appraisal of traditional medicine claims for camphor in headache, to establish whether historical use reflects genuine efficacy or confounding factors
-
-> *This report is intended for research purposes only and does not constitute medical advice. All drug repurposing candidates require formal clinical validation before therapeutic application. Results generated by the TxGNN model should be interpreted with appropriate caution.*
+- Mechanism of action data (for example, from DrugBank) to support the TRP-channel hypothesis
+- Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications for the UK product, as these are currently missing
+- Further preclinical replication of the migraine findings, including a dose-safety assessment
+- A clear route and formulation rationale before any early-phase human study is considered
+- A formal safety review covering seizure risk and potential headache provocation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

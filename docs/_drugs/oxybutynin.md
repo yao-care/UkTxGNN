@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Model Prediction Only (L5)
-nav_order: 437
+nav_order: 470
 evidence_level: L5
 indication_count: 3
 ---
@@ -33,74 +33,87 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-> Oxybutynin is an antimuscarinic (M3 receptor antagonist) drug that acts on smooth muscle spasm and bladder detrusor muscle, generally used for bladder-related conditions such as overactive bladder.
-> The TxGNN model predicts it may be effective for **Restless Legs Syndrome**,
-> but currently **no clinical trials** and **no supporting literature** exist for this prediction, and the model's own mechanistic rationale finds no plausible biological link.
-
----
+Oxybutynin is an antimuscarinic drug originally used to treat overactive bladder and related neurogenic bladder conditions.
+The TxGNN model predicts it may be effective for **restless legs syndrome**, but there are currently **no clinical trials** and **no publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in this evidence pack (data gap); Oxybutynin's known pharmacology is antimuscarinic action on bladder smooth muscle/detrusor overactivity |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Overactive bladder (the approved indication text for the UK authorisations is not available in the data compiled for this report; this is taken from the drug's knowledge-graph indications) |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, structured mechanism of action (MOA) data is not available in this evidence pack — this is flagged as a High-severity data gap (DG002). However, the evidence pack's own repurposing rationale describes Oxybutynin as an antimuscarinic drug (M3 receptor antagonist) that acts on smooth muscle spasm and bladder detrusor muscle, consistent with its established general use in bladder-related conditions.
+Detailed mechanism of action data is not available. Oxybutynin is a muscarinic antagonist with a direct musculotropic antispasmodic effect on smooth muscle. This is how it reduces involuntary bladder contractions in overactive bladder.
 
-Restless Legs Syndrome (RLS) has a well-characterised pathophysiology centred on dopaminergic system dysregulation and abnormal brain iron metabolism. These pathways have no known overlap with muscarinic receptor antagonism or bladder smooth muscle activity. The evidence pack's own mechanistic assessment for this prediction states explicitly that there is **no reasonable mechanistic support** linking Oxybutynin's pharmacology to RLS pathology.
+The link to restless legs syndrome is weak. The condition is mainly associated with dopaminergic dysfunction and brain iron deficiency, and anticholinergic drugs are not normally used for it. They may even worsen symptoms through sedation or other central effects. The very high TxGNN score reflects a pattern in the knowledge graph rather than a demonstrated pharmacological rationale, and the data compiled for this report do not support a plausible mechanistic link.
 
-The TxGNN score of 99.74% therefore reflects similarity within the knowledge graph embedding space only, not any clinical, preclinical, or mechanistic corroboration. This is a clear case where a high model confidence score should be interpreted with caution rather than taken as evidence of efficacy.
-
----
+Two other predictions were also generated, both with no clinical trials. They are lower priority for this report:
+- **Gastroduodenitis** (score 99.62%, L5): anticholinergic activity could in theory reduce GI motility and secretion, but no data support efficacy, and anticholinergic effects may worsen reflux and dyspepsia.
+- **Peptic ulcer disease** (score 99.31%, L4): anticholinergics were historically used to reduce gastric secretion and motility, so the mechanism is plausible. However, the evidence is indirect and dated, and modern acid suppression (PPIs, *H. pylori* eradication) has replaced these drugs.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for restless legs syndrome.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for restless legs syndrome.
 
----
+For context, the following publications relate to the lower-ranked prediction of peptic ulcer disease:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2360335](https://pubmed.ncbi.nlm.nih.gov/2360335/) | 1990 | Case report (adverse event) | DICP: The Annals of Pharmacotherapy | Reported oxybutynin-induced reflux esophagitis, probably from reduced lower oesophageal sphincter tone; a safety signal for upper GI harm |
+| [4380481](https://pubmed.ncbi.nlm.nih.gov/4380481/) | 1965 | Pharmacology / mechanism review | Archives Internationales de Pharmacodynamie et de Thérapie | Describes oxybutynin as a musculotropic antispasmodic with moderate anticholinergic action |
+| [14173506](https://pubmed.ncbi.nlm.nih.gov/14173506/) | 1964 | Clinical evaluation (older, likely uncontrolled) | Current Therapeutic Research | Clinical evaluation of oxybutynin chloride in gastrointestinal disease |
 
 ## UK Market Information
 
-According to this evidence pack, Oxybutynin currently holds **no UK marketing authorisation** (0 licences on record; market status: not marketed). No product-level data (marketing authorisation number, product name, dosage form, approved indication) is available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0704020J0AAAUAU | Oxybutynin transdermal patch 3.9 mg/24 hrs | Transdermal patch | Not available in the compiled data |
+| 0704020J0AAAAAA | Oxybutynin HCl tablet 2.5 mg | Tablet | Not available in the compiled data |
 
----
+Both authorisations are valid single-ingredient products. The identifiers listed appear to be BNF-style product codes (BNF section 7.4.2, drugs for urinary frequency, enuresis and incontinence) rather than MHRA PL numbers, so they should be checked against the MHRA register.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (from knowledge-graph associations, not label text):** The data link oxybutynin to the following conditions. These should be verified against the SmPC.
+  - Urinary and genitourinary: bladder neck obstruction, benign prostatic hyperplasia, pyoureter
+  - Gastrointestinal: paralytic ileus, intestinal obstruction, toxic megacolon, ulcerative colitis, inflammatory bowel disease, hiatus hernia, gastro-oesophageal reflux disease, oesophagitis, familial visceral myopathy
+  - Ocular: angle-closure glaucoma
+  - Neuromuscular: myasthenia gravis and other neuromuscular junction disease
+  - Cardiovascular: hypertension, coronary artery disease, sudden cardiac arrest, heart conduction disease
+  - Endocrine: hyperthyroidism, Graves disease, thyrotoxicosis
+  - Hepatic and renal: liver disease, kidney disease, gallbladder disease
+- **Drug Interactions:** The interaction screen returned 100 interactions in total; the 20 listed in the compiled data are mostly moderate.
+  - **Major:** potassium citrate and potassium chloride
+  - **Moderate (additive anticholinergic effects):** hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline
+  - **Moderate (other):** loperamide, morphine, opium, eluxadoline, metoclopramide, aprepitant, pramlintide
+- **Safety signal relevant to GI predictions:** A published case report links oxybutynin to reflux oesophagitis.
 
-*(Note: MHRA/SmPC-equivalent warnings and contraindications for this drug are recorded as a Blocking data gap in this evidence pack — DG001 — meaning a formal safety review (S1) cannot yet be completed.)*
-
----
+Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on TxGNN embedding similarity (Evidence Level L5), with no clinical trials or literature support, and the evidence pack's own mechanistic analysis finds no plausible biological link between Oxybutynin's antimuscarinic action and RLS's dopaminergic/iron-metabolism pathology. The drug also currently has no UK marketing authorisation on record, and both MOA and SmPC safety data are outstanding data gaps.
+The prediction for restless legs syndrome rests only on a graph-based model score. There are no trials or publications, and the pharmacology argues against benefit, since anticholinergic effects may worsen symptoms. The gastrointestinal predictions are also unsupported by modern evidence and carry a safety signal.
 
 **To proceed, the following is needed:**
-- SmPC warnings and contraindications (Blocking data gap, DG001)
-- Confirmed mechanism of action documentation (High-severity data gap, DG002)
-- Independent mechanistic or preclinical evidence connecting antimuscarinic activity to RLS pathophysiology
-- Confirmation of current/planned UK marketing authorisation status for Oxybutynin
+- A documented mechanistic rationale linking muscarinic antagonism to restless legs syndrome
+- Preclinical or early clinical data in restless legs syndrome
+- Detailed mechanism of action data
+- Approved indication text and SmPC safety information for the UK authorisations
+- A review of the contraindication associations against the SmPC, particularly given the interaction burden with other anticholinergics
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyclizine
-parent: Moderate Evidence (L3-L4)
-nav_order: 182
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 193
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cyclizine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,100 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyclizine: From Antiemetic/Antihistamine Use to Allergic Urticaria
+# Cyclizine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Cyclizine is a first-generation piperazine-class H1-antihistamine, classically associated with antiemetic and anti-vertigo use (its formal original-indication record is not available in this evidence pack). The TxGNN model predicts it may be effective for **Allergic Urticaria**, but this direction is currently supported by only **0 clinical trials** and **1 publication**, and that single publication does not directly study cyclizine.
-
----
+Cyclizine is a first-generation H1-antihistamine, originally used for allergic rhinitis, conjunctivitis, common cold symptoms and motion sickness.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — no UK marketing authorisation licences recorded for this drug; classically developed as an H1-antihistamine antiemetic (nausea, vomiting, vertigo/motion sickness) |
-| Predicted New Indication | Allergic Urticaria |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, conjunctivitis (atopic, papillary, vernal), nasopharyngitis, motion sickness (knowledge-graph-derived; no approved indication text is available in the UK licence record) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DG002, High severity). Based on known information, Cyclizine belongs to the piperazine class of first-generation H1-receptor antagonists, a pharmacological group whose efficacy in antiemetic/antihistamine use is well established, and which may mechanistically extend to allergic conditions.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cyclizine is a first-generation H1-antihistamine, and its efficacy in allergic rhinitis and allergic conjunctivitis is the basis of its established allergic indications.
 
-Allergic urticaria is a classical H1-mediated hypersensitivity reaction, and antihistamines are the standard pharmacological class used for such conditions, so a class-level mechanistic link to cyclizine is biologically plausible. However, the one literature record retrieved for this pairing (PMID 8573923) is a mechanistic study of *solar* urticaria action spectra and does not evaluate cyclizine treatment or efficacy directly — it supports disease-mechanism context rather than drug-specific evidence.
+Urticaria is a histamine-mediated condition, so H1 receptor blockade is biologically plausible. Allergic urticaria is closely related to the existing allergic indications (rhinitis, conjunctivitis), which likely explains the high model score.
 
-Given the absence of any clinical trial or drug-specific efficacy literature, this prediction should currently be treated as a class-level pharmacological hypothesis rather than an evidence-backed repurposing candidate.
+However, H1-antihistamines are already standard therapy for urticaria, and second-generation, non-sedating agents are generally preferred. No cyclizine-specific evidence was available, so the prediction is plausible but unsupported by clinical data. It is also not a clearly novel mechanism; it largely extends an existing one.
 
----
+### Other Predicted Indications (Overview)
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Nasal cavity disease | 99.96% | L5 | Broad term; overlaps with existing rhinitis indications |
+| 3 | Acute laryngopharyngitis | 99.95% | L5 | Related to existing pharyngitis and common cold indications; symptomatic benefit only |
+| 4 | Cold urticaria | 99.84% | L5 | H1 blockade plausible; second-generation agents preferred |
+| 5 | Rosacea conjunctivitis | 99.75% | L5 | Weak antihistamine link |
+| 6 | Headache disorder | 99.49% | L4 | Only indirect literature (see below) |
+| 7 | Trigeminal autonomic cephalalgia | 99.43% | L5 | No clear mechanistic rationale |
+| 8 | Rhinitis | 99.35% | L5 | Already covered by the existing label |
+| 9 | Recalcitrant atopic dermatitis | 99.28% | L5 | May relieve itch and sleep disturbance only |
+| 10 | IgE responsiveness, atopic | 98.83% | L5 | General association; H1 blockade does not modify IgE responsiveness |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No literature was retrieved for allergic urticaria. For the sixth-ranked prediction (headache disorder), two papers were retrieved, but they are only indirectly relevant:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8573923](https://pubmed.ncbi.nlm.nih.gov/8573923/) | 1995 | Mechanistic/physiological study (non-interventional) | Dermatology (Basel, Switzerland) | Characterises action/inhibition/augmentation spectra in solar urticaria; does not evaluate cyclizine treatment directly, provides disease-mechanism context only |
-
----
+| [3926322](https://pubmed.ncbi.nlm.nih.gov/3926322/) | 1985 | RCT | Cephalalgia | Randomised parallel trial (114 patients) comparing naproxen sodium with an ergotamine/caffeine/cyclizine combination for acute migraine; cyclizine was only a component of the comparator, so cyclizine alone was not evaluated |
+| [20420788](https://pubmed.ncbi.nlm.nih.gov/20420788/) | 2010 | Cohort | Int J Clin Pharmacol Ther | Pharmacy database analysis of migraine prescribing patterns and costs, focused on triptans; does not evaluate cyclizine |
 
 ## UK Market Information
 
-No UK marketing authorisations are currently on record for this drug (market status: Not marketed; total licences: 0).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0406000F0AAACAC | Cyclizine HCl tablets 50 mg | Tablet (as indicated by product name) | Not available in the licence record |
 
----
+The listed identifier follows a BNF-style code format rather than a standard MHRA "PL" number, so it should be verified against the MHRA register. BNF classification and NICE appraisal information should be checked directly.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and conditions flagged by the knowledge graph (not label text):** the TxGNN knowledge graph links cyclizine to caution or contraindication in conditions including:
+- Cardiovascular: hypertension, coronary artery disease, myocardial infarction, atherosclerosis, hypotensive disorder
+- Neurological and ocular: epilepsy, ocular hypertension
+- Hepatic, renal and gastrointestinal: liver disease, kidney disease, pancreatitis, gallbladder disease, peptic ulcer disease, inflammatory bowel disease, *Clostridium difficile* colitis, necrotizing enterocolitis
+- Endocrine and metabolic: diabetes mellitus, diabetic ketoacidosis, hypothyroidism, adrenocortical insufficiency (Addison disease)
+- Other: benign prostatic hyperplasia, pyoureter, hemoglobinopathy
 
-*(Note: TFDA/MHRA-equivalent warnings and contraindications data are recorded as a Blocking data gap — DG001 — and drug interaction search returned no results, so no drug-specific safety details can be listed here.)*
+These come from knowledge-graph edges, not product labelling, and should be confirmed against the SmPC.
 
----
+**Drug Interactions:** 100 interactions were recorded; the main ones in the data reviewed are:
+- **Major:** potassium chloride, potassium citrate
+- **Moderate (additive anticholinergic effects):** atropine, hyoscyamine, glycopyrronium, dicyclomine, trospium, scopolamine, propantheline, methscopolamine, mepenzolate
+- **Moderate (other):** morphine, opium, loperamide, eluxadoline, metoclopramide, prucalopride, dronabinol, nabilone
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests on class-level pharmacological plausibility (H1-antagonism) rather than drug-specific evidence — evidence level is L4 with zero clinical trials and only one indirectly relevant, non-interventional publication. In addition, a Blocking-severity data gap (DG001: missing warnings/contraindications) currently prevents this candidate from entering the S1 safety pre-assessment stage at all.
+The predicted indication is supported only by the TxGNN model score (L5), with no trials or cyclizine-specific literature. Established, better-tolerated second-generation antihistamines already serve urticaria, and many top predictions merely overlap with existing allergic indications rather than representing true repurposing.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain SmPC/label warnings and contraindications (source: TFDA/MHRA equivalent) to unblock S1 safety pre-assessment
-- Resolve DG002: obtain confirmed mechanism of action data from DrugBank
-- Identify drug-specific evidence (case series, observational data, or trials) evaluating cyclizine — not just antihistamines as a class — in urticaria
-- Optionally evaluate the secondary candidate "headache disorder" (rank 6, also L4/S1), which has more literature (5 papers) tied to the historical ergotamine–caffeine–cyclizine combination product (Migril), though this too lacks cyclizine-specific efficacy trials
+- Cyclizine-specific clinical or observational evidence in urticaria (or a comparison against non-sedating antihistamines)
+- Official SmPC warnings and contraindications (currently unavailable, and this blocks safety screening)
+- Mechanism of action data
+- Approved indication text and verified MHRA authorisation details for the UK product
+- Assessment of the safety burden of a sedating, anticholinergic agent in chronic urticaria use, including the knowledge-graph-flagged conditions above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

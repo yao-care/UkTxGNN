@@ -2,15 +2,15 @@
 layout: default
 title: Hydroquinone
 parent: Moderate Evidence (L3-L4)
-nav_order: 304
-evidence_level: L3
+nav_order: 326
+evidence_level: L4
 indication_count: 10
 ---
 
 # Hydroquinone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroquinone: From Hyperpigmentation Disorders to Seborrheic Keratosis
+# Hydroquinone: From Pigmentary Disorders to Seborrheic Keratosis
 
 ## One-Sentence Summary
 
-Hydroquinone is a topical agent whose established pharmacology is as a tyrosinase inhibitor used for hyperpigmentation-related skin disorders (melasma, post-inflammatory pigmentation). The TxGNN model predicts it may be effective for **Seborrheic Keratosis**, but this direction is currently supported only by **0 clinical trials** and **2 indirect publications**, with no data testing hydroquinone against seborrheic keratosis itself.
+Hydroquinone is a topical depigmenting agent that inhibits tyrosinase, and a 4% cream is marketed in the UK for skin lightening.
+The TxGNN model predicts it may be effective for **seborrheic keratosis**, but this is based on **no clinical trials** and **1 observational publication** that supports the idea only indirectly.
+This is a model-driven hypothesis with weak supporting evidence.
 
 ---
 
@@ -41,29 +43,29 @@ Hydroquinone is a topical agent whose established pharmacology is as a tyrosinas
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperpigmentation disorders (topical depigmenting agent) — inferred from the evidence pack's mechanistic rationale; the formal original indication/MOA record is a documented data gap |
-| Predicted New Indication | Seborrheic Keratosis |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L3 |
-| UK Market Status | Not Marketed (no UK marketing authorisations on record) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (formal MOA field is a recorded data gap, DG002). Based on the mechanistic rationale accompanying this prediction, hydroquinone is understood pharmacologically as a **tyrosinase inhibitor**, reducing melanin synthesis and thereby lightening hyperpigmented skin lesions.
+Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, hydroquinone inhibits tyrosinase and reduces melanin synthesis. This could plausibly lighten the pigmentation of seborrheic keratosis lesions.
 
-Seborrheic keratosis is fundamentally a benign epidermal proliferation, not primarily a disorder of melanin metabolism — so the mechanistic overlap with hydroquinone's known action is indirect rather than direct. The connection is strongest for **dermatosis papulosa nigra (DPN)**, a seborrheic-keratosis variant common in darker-skinned populations that presents with prominent pigmentation. In that context, hydroquinone's depigmenting effect could plausibly improve the pigmentary component of the lesion, but it would not address the underlying epidermal hyperplasia that defines seborrheic keratosis.
+Any benefit would be cosmetic only. Hydroquinone would not treat the underlying epidermal proliferation. The only supporting publication is a prospective observational study of combination treatment for facial pigmentary disorders in Asian patients, which is indirect evidence.
 
-Overall, the biological rationale supports a role for hydroquinone in managing pigmentary features that co-occur with seborrheic keratosis/DPN, rather than a mechanism-based treatment of the keratotic lesion itself. This distinction should be weighed carefully before advancing the candidate.
+Other predictions in the list (for example vulvar squamous neoplasm, seborrheic dermatitis and acrodermatitis chronica atrophicans) have no plausible mechanistic link and are likely artefacts of the knowledge graph.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for seborrheic keratosis.
 
 ---
 
@@ -71,22 +73,30 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Cohort (prospective observational) | J Plast Reconstr Aesthet Surg | Combination treatment algorithm for facial pigmentary disorders in Asian patients; addresses coexisting pigmentary conditions rather than seborrheic keratosis specifically |
-| [17373158](https://pubmed.ncbi.nlm.nih.gov/17373158/) | 2007 | Review | J Drugs Dermatol | Review of treatment options for dermatosis papulosa nigra, a pigmented seborrheic-keratosis variant; histology described as not significantly different from seborrheic keratosis |
+| [33046430](https://pubmed.ncbi.nlm.nih.gov/33046430/) | 2021 | Cohort (prospective observational) | Journal of Plastic, Reconstructive & Aesthetic Surgery | Combination treatment algorithm for facial pigmentary disorders in Asian patients. Most patients had multiple disorders. Indirect evidence for seborrheic keratosis. |
 
 ---
 
 ## UK Market Information
 
-Currently no UK marketing authorisations registered for this indication.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1315000G0AAAIAI | Hydroquinone Cream 4% | Cream (per product name) | Not available |
+
+---
+
+## Cytotoxicity
+
+This section does not apply: hydroquinone is not classified as an antineoplastic drug.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Potential contraindications from the knowledge graph** (drug-disease links in the TxGNN knowledge graph, not label text): sunburn, adrenocortical insufficiency, Addison disease, skin atrophy, telangiectasis, capillary disease, hereditary haemorrhagic telangiectasia, peripheral vascular disease, intermittent claudication, peripheral arterial disease, atopic eczema and dermatitis.
+- **Other safety considerations from the supporting literature:** exogenous ochronosis is a recognised adverse effect of hydroquinone-containing skin-lightening creams, and it can confound the diagnosis of pigmentary disorders.
 
-*Note: Detailed warnings, contraindications and interaction data for hydroquinone were not available in this evidence pack (DG001, Blocking severity) — this gap must be closed before any safety assessment can proceed.*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -95,13 +105,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials or ICTRP-registered trials test hydroquinone in seborrheic keratosis, and the two available publications address related but distinct pigmentary conditions rather than the predicted indication itself. Combined with the absence of any UK marketing authorisation and a blocking gap in safety/label data, the evidence does not yet support progression beyond a research question.
+The prediction rests on a high model score and a single indirect observational study, with no trials. Any benefit would be cosmetic rather than disease-modifying.
 
 **To proceed, the following is needed:**
-- TFDA/UK SmPC warnings and contraindications data (currently blocking, DG001)
-- Confirmed mechanism of action documentation (DG002)
-- Targeted literature or trial search specifically on hydroquinone in seborrheic keratosis or dermatosis papulosa nigra
-- Clarification of UK regulatory pathway, given the drug currently holds no UK marketing authorisation
+- Mechanism of action data
+- Product label information (approved indication, warnings and contraindications) for the UK-marketed product
+- Controlled studies of hydroquinone in seborrheic keratosis
+- A review of the knowledge-graph contraindication signals against the label
+- Consideration of lichen planus pigmentosus as a more plausible alternative. It is the only prediction advanced to a research question, but a case report of hydroquinone non-response is a negative signal and there is no controlled evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

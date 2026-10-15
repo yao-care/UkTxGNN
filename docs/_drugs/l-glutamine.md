@@ -1,16 +1,16 @@
 ---
 layout: default
 title: L-Glutamine
-parent: Model Prediction Only (L5)
-nav_order: 327
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 353
+evidence_level: L4
 indication_count: 10
 ---
 
 # L-Glutamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,49 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the `Skill` tool wasn't needed here — this is a direct drug-repurposing report generation task matching the user's explicit formatting instructions, so I'll follow those directly.
-
-# L-Glutamine: From Nutritional Supplementation to Drug-Induced Osteoporosis
+# L-Glutamine: From Short Bowel Syndrome to Dermatitis
 
 ## One-Sentence Summary
 
-L-Glutamine is a non-essential amino acid conventionally used as a nutritional and immune-supportive agent; a specific original approved indication is not documented in this evidence pack. The TxGNN model predicts potential effectiveness for **Drug-Induced Osteoporosis** with a score of **99.98%**, but this is currently supported by **zero clinical trials and zero publications** — the pipeline's own mechanistic review flags this as a probable false positive rather than a genuine biological signal.
+L-Glutamine is an amino acid supplement, originally associated with short bowel syndrome.
+The TxGNN model predicts it may be effective for **dermatitis** (the highest-ranked prediction with any supporting data), with **1 registered clinical trial** (withdrawn, no participants enrolled) and **11 publications** (mostly preclinical or indirect) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (`original_indications` and `original_moa` are both unavailable) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Short bowel syndrome (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Dermatitis (see note below) |
+| TxGNN Prediction Score | 99.85% |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (treat as a research question) |
+
+**Note on prediction selection:** The top-ranked prediction by TxGNN score was drug-induced osteoporosis (99.98%), followed by haemorrhagic disease of the newborn (99.96%). Neither has any trials or publications, so both remain at L5 with a Hold recommendation. This report focuses on dermatitis (rank 3), the highest-ranked prediction with any supporting data. The other seven predictions (ranks 4-10) also have no supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for L-Glutamine in this evidence pack. Based on general pharmacological knowledge, L-glutamine's known actions relate to intestinal mucosal repair, immune modulation, and serving as a precursor for glutathione synthesis — none of which have an established link to osteoclast activity or bone remodelling pathways.
+Detailed mechanism-of-action data for L-glutamine are not available in the data compiled for this report. L-Glutamine is the most abundant amino acid in plasma and is used clinically as a nutritional and gut-supportive supplement. Its link to short bowel syndrome relates to intestinal and nutritional support.
 
-The evidence pack's own repurposing rationale is explicit on this point: *"No known mechanism: L-Glutamine acts mainly on mucosal repair, immune modulation and glutathione precursor synthesis, with no known connection to bone metabolism or osteoclast regulation pathways. The high TxGNN score may reflect knowledge-graph embedding similarity rather than a genuine biological mechanism."*
+For dermatitis, the supporting rationale comes mainly from preclinical work:
 
-This is an important caveat: a high prediction score alone (99.98%) does not indicate biological plausibility. It most likely reflects structural similarity within the knowledge graph embedding space rather than a testable pharmacological hypothesis, and should not be treated as supportive evidence on its own.
+- Glutamine suppressed DNFB-induced allergic contact dermatitis in mice, apparently by deactivating p38 MAPK through induction of MAPK phosphatase-1 (PMID 23076500).
+- It induced MAPK phosphatase-1 via a Ca2+/ERK pathway (PMID 28955885).
+- It attenuated itch in animal models via GRK2 induction (PMID 29530536).
+
+Indirect clinical signals also exist in chemotherapy- or radiotherapy-induced mucositis and dermatitis, and in hand-foot skin reactions. However, these involve glutamine-containing supplements or elemental diets, and they do not establish efficacy in dermatitis as a disease. The link between short bowel syndrome and dermatitis is therefore weak. The prediction rests on a plausible anti-inflammatory mechanism rather than on clinical proof.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04019769](https://clinicaltrials.gov/study/NCT04019769) | Early Phase 1 | Withdrawn | 0 | Glutamine supplementation in people aged 5-65 with atopic dermatitis and other immune dysregulation. Withdrawn before enrolment, so no efficacy or safety data exist. |
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [28588793](https://pubmed.ncbi.nlm.nih.gov/28588793/) | 2017 | RCT (double-blind; indirect) | Mol Clin Oncol | 50 head and neck cancer patients given oral glutamine (10 g three times daily) or placebo to reduce radio/chemotherapy-induced mucositis and dermatitis. |
+| [32699632](https://pubmed.ncbi.nlm.nih.gov/32699632/) | 2020 | Clinical study (indirect) | Mol Clin Oncol | Glutamine-rich elemental diet (Elental®) examined for chemotherapy-induced dermatitis and raw wound areas. |
+| [30587616](https://pubmed.ncbi.nlm.nih.gov/30587616/) | 2019 | Clinical study (indirect) | In Vivo | HMB/L-arginine/L-glutamine supplement assessed for preventing sorafenib-associated hand-foot skin reaction in hepatocellular carcinoma. |
+| [24394143](https://pubmed.ncbi.nlm.nih.gov/24394143/) | 2013 | Clinical study (indirect) | Gan To Kagaku Ryoho | Abound™ (HMB, L-glutamine, L-arginine) evaluated for capecitabine-induced hand-foot syndrome. |
+| [17984413](https://pubmed.ncbi.nlm.nih.gov/17984413/) | 2007 | Clinical study (indirect) | Arch Pediatr Adolesc Med | Glutamine-enriched enteral nutrition in very low-birth-weight infants; effect on allergic and infectious disease incidence in the first year. |
+| [22727501](https://pubmed.ncbi.nlm.nih.gov/22727501/) | 2012 | Preclinical | J Dermatol Sci | Glutamine suppressed DNFB-induced allergic contact dermatitis and itching in an animal model. |
+| [23076500](https://pubmed.ncbi.nlm.nih.gov/23076500/) | 2013 | Preclinical | J Invest Dermatol | Topical glutamine suppressed contact dermatitis in mice via p38 MAPK deactivation through MKP-1 induction. |
+| [29530536](https://pubmed.ncbi.nlm.nih.gov/29530536/) | 2018 | Preclinical | J Invest Dermatol | L-Glutamine attenuated itch through rapid, ERK-dependent GRK2 induction. |
+| [28955885](https://pubmed.ncbi.nlm.nih.gov/28955885/) | 2016 | Preclinical (mechanistic) | Biochem Biophys Rep | Glutamine up-regulated MKP-1 through the Ca2+/ERK cascade, supporting its anti-inflammatory activity. |
+
+Two further retrieved papers (a broiler chicken study and a tear fluid amino acid analysis) are not relevant to human dermatitis and are not listed.
 
 ## UK Market Information
 
-No UK marketing authorisations are recorded for L-Glutamine in this evidence pack (`total_licenses = 0`). Market status is recorded as **Not marketed**. No product-level data (formulation, licence numbers, approved indication text) is currently available for review.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 090401000AABKBK | L-Glutamine powder sachet 5 g | Powder (sachet) | Not available |
+
+Only one single-ingredient authorisation (valid status) was identified. The record carries a non-MHRA-style number, and no dosage form text, manufacturer or indication text was supplied, so the UK regulatory details should be verified against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, drug interactions) is currently available for L-Glutamine in this evidence pack. Notably, this is flagged in the underlying data as a **Blocking** gap (DG001 — MHRA/SmPC-equivalent warnings and contraindications), meaning even a preliminary safety screen (S1) cannot be completed until this is resolved.
+No usable warning, contraindication or interaction data were compiled for this report. No drug-interaction records were found, and no knowledge-graph contraindicated diseases were listed.
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -80,14 +103,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (drug-induced osteoporosis) has no supporting clinical trials or literature (L5) and the pipeline's own mechanistic analysis identifies it as a likely embedding-similarity artefact rather than a biologically grounded hypothesis. Combined with a blocking gap in safety data, there is currently no basis to progress this candidate.
+The TxGNN scores are high, but the only dermatitis trial was withdrawn with no participants, and the supporting literature is preclinical or indirect (mostly supplement combinations in cancer-therapy skin toxicity). Evidence is L4 at best for dermatitis, and L5 for all other predictions. This is best treated as a research question rather than a candidate for clinical use.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain MHRA/SmPC-equivalent warnings and contraindications for L-Glutamine
-- Resolve DG002: obtain a confirmed mechanism of action (e.g. via DrugBank API)
-- Obtain baseline data on L-Glutamine's original/current approved indication(s), which is currently missing entirely from this evidence pack
-
-**Separate note for consideration:** among the ten candidates in this evidence pack, rank 3 (**dermatitis**) has a materially stronger evidence base than the top-ranked candidate — three RCTs (PMID 30753262, 28588793, 30587616) and a Phase NA completed trial (NCT03015077, n=59), reaching evidence level L2 with a "Research Question" recommendation. However, the evidence there is concentrated specifically in radiotherapy/chemotherapy-induced oral mucositis and dermatitis, not dermatitis broadly, and would need to be evaluated as its own narrower candidate rather than under the general "dermatitis" label.
+- Mechanism-of-action data for L-glutamine
+- Safety information (warnings, contraindications and interactions) from the SmPC and BNF
+- Verified UK authorisation details, including dosage form and approved indication
+- Controlled clinical studies of glutamine in a defined dermatitis population (for example, atopic or contact dermatitis), with the route of administration clarified (oral versus topical)
+- Evidence clarifying whether the dermatitis signal is specific to glutamine rather than to the combination supplements studied
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

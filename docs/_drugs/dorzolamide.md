@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dorzolamide
-parent: Moderate Evidence (L3-L4)
-nav_order: 223
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 239
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +33,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dorzolamide is a topical carbonic anhydrase inhibitor used to lower intraocular pressure in open-angle glaucoma and ocular hypertension. The TxGNN model predicts it may also be effective for **primary hereditary glaucoma**, with a prediction score of **99.99%**, but this specific indication currently has **no directly matching clinical trials or published literature** — the case rests entirely on mechanistic extrapolation from the drug's well-established use in open-angle glaucoma.
-
----
+Dorzolamide is a topical carbonic anhydrase inhibitor, originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be useful in **primary hereditary glaucoma**, but **no clinical trials and no publications** specific to this condition were found in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Glaucoma / ocular hypertension (topical carbonic anhydrase inhibitor) — no formal indication text available in this evidence pack |
+| Original Indication | Open-angle glaucoma; ocular hypertension (from the knowledge graph, as the authorisation record gives no indication text) |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (flagged internally as "Research Question") |
-
----
+| Evidence Level | L5 (model prediction only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (flagged as a data gap). Based on known pharmacology, Dorzolamide is a topical carbonic anhydrase II (CA-II) inhibitor applied to the ciliary body epithelium, where it reduces aqueous humour production and thereby lowers intraocular pressure — this is its well-established, long-standing mechanism in glaucoma management.
+Dorzolamide inhibits carbonic anhydrase (mainly isoform II) in the ciliary body. This reduces aqueous humour secretion and lowers intraocular pressure (IOP). Detailed mechanism-of-action data were not available in the compiled data. The pharmacology records do list carbonic anhydrase isoforms 1, 7, 12 and 14 as human targets.
 
-Primary hereditary glaucoma (largely early-onset open-angle or congenital genetic subtypes) shares the same underlying pathophysiology as typical open-angle glaucoma: impaired aqueous humour outflow leading to elevated intraocular pressure. On that basis, Dorzolamide's IOP-lowering mechanism is plausibly transferable.
+Primary hereditary glaucoma, such as congenital or juvenile forms, also involves raised IOP. A drug that reduces aqueous production therefore has a plausible mechanistic basis. The high score most likely reflects the model's similarity to the approved open-angle glaucoma indication, not independent evidence in hereditary disease.
 
-However, this specific ontology term has **no direct trial or literature support** — the evidence is inferred indirectly through the large body of evidence for standard open-angle glaucoma (see ranks 6–7 in the underlying dataset, both graded L1/S3/Proceed with Guardrails), rather than any study conducted in a hereditary or congenital glaucoma population. Notably, safety and dosing in paediatric/infant populations — who make up a meaningful share of hereditary/congenital glaucoma cases — remain unvalidated for this indication.
+One adjacent finding is a completed Phase 2 study (NCT01527682, n=37) of latanoprost and dorzolamide in paediatric glaucoma refractory to surgery. It is not specific to primary hereditary glaucoma, and the data compiled for this report do not include its results.
 
----
+Several other predictions in the same output have higher evidence levels (for example "glaucoma 1, open angle" and "open angle glaucoma", both L1). These are confirmations of the existing licensed use, not repurposing findings. They are not tabulated here.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for primary hereditary glaucoma.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for primary hereditary glaucoma.
 
 ## UK Market Information
 
-Dorzolamide currently holds no marketing authorisation in the UK evidence pack on record (0 licences; market status: not marketed). No product-level licence details are available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1106000P0AAAAAA | Dorzolamide Eye Drops 2% | Eye drops (from product name) | Not stated in the record |
 
----
+The authorisation number does not follow the usual MHRA "PL" format. Please verify it against the MHRA register. Only one authorisation was identified, and it is a single-ingredient product.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindication signals (knowledge graph, not label text):** The knowledge graph links dorzolamide to the following conditions as possible contraindications. This most likely reflects class effects, including those of the beta-blocker timolol in fixed-dose combination products. It should be checked against the SmPC.
+  - Diabetes mellitus, diabetic ketoacidosis and hypoglycaemia
+  - Myasthenia gravis and neuromuscular junction disease
+  - Hyperthyroidism, Graves' disease and thyrotoxicosis
+  - Atrioventricular block
+  - Pulmonary emphysema and bronchial disease
+  - Anaphylaxis
+- **Drug Interactions:** The interaction query completed, but it returned only pharmacological target records (carbonic anhydrase 1, 7, 12 and 14), not interacting drugs. No clinical interaction data are available from this source.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (primary hereditary glaucoma) has no direct clinical trial or literature evidence — support is purely mechanistic, extrapolated from a related but pathologically distinct condition (typical open-angle glaucoma). This does not meet the threshold to proceed even under guardrails.
+The prediction has a plausible mechanism but no supporting trials or publications specific to primary hereditary glaucoma. It is a computational result at evidence level L5.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA product labelling — warnings, precautions and contraindications (currently a blocking data gap; required before any safety pre-assessment)
-- Confirmed mechanism of action data from DrugBank or equivalent source
-- Dedicated clinical evidence in a hereditary/congenital glaucoma population, including paediatric safety data
-- Confirmation of UK marketing authorisation status, given the current pack shows the drug as not marketed
+- A targeted search for studies of carbonic anhydrase inhibitors in congenital and juvenile glaucoma, including the results of NCT01527682
+- Paediatric safety and dosing data, as the licensed use is in adults with open-angle glaucoma and ocular hypertension
+- SmPC warnings and contraindications, which were not available for this report
+- Verification of the UK authorisation record, including dosage form and approved indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

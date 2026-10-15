@@ -2,15 +2,15 @@
 layout: default
 title: Eucalyptus Oil
 parent: Moderate Evidence (L3-L4)
-nav_order: 254
-evidence_level: L3
+nav_order: 270
+evidence_level: L4
 indication_count: 10
 ---
 
 # Eucalyptus Oil
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Eucalyptus Oil: From Traditional Topical Remedy to Osteoarthritis
+# Eucalyptus Oil: From an Unspecified Original Indication to Osteoarthritis
 
 ## One-Sentence Summary
 
-Eucalyptus oil has a long history of traditional topical and inhalation use for minor musculoskeletal and respiratory complaints, but it holds no UK marketing authorisation and no formal original indication is on file. The TxGNN model predicts potential effectiveness for **Osteoarthritis**, supported by **1 clinical trial** and **3 publications** — though the trial tested a multi-ingredient herbal blend rather than eucalyptus oil alone, making the evidence indirect.
+Eucalyptus oil is a plant-derived product with one UK marketing authorisation, but no approved indication text was available in the data compiled for this report.
+The TxGNN model predicts it may be useful for **osteoarthritis** (top-ranked prediction), but **no clinical trials** and only **2 publications** support this direction, and neither tests eucalyptus oil as a treatment for osteoarthritis.
+The evidence is currently computational only, so the recommendation is to hold.
 
 ---
 
@@ -41,47 +43,67 @@ Eucalyptus oil has a long history of traditional topical and inhalation use for 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no UK marketing authorisation or formally recorded indication (traditional topical/aromatherapy use only) |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.48% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, eucalyptus oil is a volatile essential oil traditionally applied topically or by inhalation for its counter-irritant and mild anti-inflammatory properties; it does not currently hold a UK marketing authorisation as a licensed medicine.
+Detailed mechanism of action data is not available for this drug. Eucalyptus oil's main component, 1,8-cineole (eucalyptol), has reported anti-inflammatory and analgesic properties. This is plausibly relevant to joint inflammation, which is the basis for the prediction.
 
-Mechanistically, the plausibility rests largely on 1,8-cineole (eucalyptol), the principal constituent of eucalyptus oil. Preclinical and *in silico* work identified in the related rheumatoid arthritis prediction (PMID 38649658) shows eucalyptol reduces pro-inflammatory mediators (IL-17, NF-κB, COX-2, 5-LOX) in an adjuvant-induced arthritis model, offering a biological rationale that could extend to osteoarthritic joint inflammation.
+The two retrieved papers for osteoarthritis are about topical formulation science: a celecoxib emulgel that uses a natural oil as a vehicle, and a review of nanoemulgels for topical delivery. Neither tests eucalyptus oil as a therapeutic agent for osteoarthritis. The high TxGNN score is a computational prediction only.
 
-However, the key caveat is that the pivotal osteoarthritis trial (NCT01684371) tested "Elmore Oil" — a combination product of eucalyptus oil, tea tree oil, olive oil and vanilla — not eucalyptus oil as a single agent. The evidence pack itself grades this trial's relevance as "C" (indirect), and the remaining literature consists mainly of unrelated drug-delivery/formulation studies that merely use eucalyptus oil as an excipient rather than as the active therapeutic agent being tested.
+**Other predicted indications.** The model also ranks several other conditions highly:
+
+- **Rheumatoid arthritis (98.28%)**. This has the most supporting material.
+  - An animal and in silico study of 1,8-cineole reported anti-arthritic effects through inflammatory pathways (IL-17, IL-10, NF-κB, 5-LOX, COX-2).
+  - One clinical study examined eucalyptus inhalation for pain and quality of life in rheumatoid arthritis. This is the only direct human evidence. It addresses symptom relief, not disease modification, and its design could not be verified.
+  - The remaining papers are drug-delivery studies in which eucalyptus oil is only a formulation component.
+- **Gout (97.78%)**. A general anti-inflammatory rationale is conceivable, but there is no supporting evidence.
+- **Osteoarthritis susceptibility, pseudoachondroplasia, primitive portal vein thrombosis, early-onset familial noncirrhotic portal hypertension, idiopathic copper-associated cirrhosis and hepatoportal sclerosis**. These are prediction only, with no identified mechanistic link. Several likely reflect proximity to the osteoarthritis node in the knowledge graph.
+- **Hepatic porphyria (97.85%)**. There is no therapeutic rationale. Terpenoid components of essential oils can induce hepatic cytochrome P450 enzymes, which is a theoretical safety concern in porphyria rather than a benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01684371](https://clinicaltrials.gov/study/NCT01684371) | N/A | Completed | 60 | Double-blind, placebo-controlled crossover trial of Elmore Oil (a herbal blend containing eucalyptus oil, tea tree oil, olive oil and vanilla) applied topically for osteoarthritis pain and stiffness. Note: tests a multi-component product, not eucalyptus oil alone. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+Publications relevant to the top-ranked prediction (osteoarthritis):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15778570](https://pubmed.ncbi.nlm.nih.gov/15778570/) | 2005 | Observational/Interventional | Taehan Kanho Hakhoe chi | Aromatherapy (including eucalyptus) evaluated for effects on pain, depression and life satisfaction in arthritis patients. |
-| [37111672](https://pubmed.ncbi.nlm.nih.gov/37111672/) | 2023 | Review | Pharmaceutics | Overview of nanoemulgel drug-delivery systems for topical anti-inflammatory therapy; eucalyptus oil discussed as a formulation excipient rather than active agent. |
-| [38409718](https://pubmed.ncbi.nlm.nih.gov/38409718/) | 2024 | Formulation study | Anti-inflammatory & Anti-allergy Agents in Medicinal Chemistry | Development of a celecoxib emulgel using natural oil as an excipient for osteoarthritis and rheumatoid arthritis pain relief; celecoxib, not eucalyptus oil, is the active drug studied. |
+| [38409718](https://pubmed.ncbi.nlm.nih.gov/38409718/) | 2024 | Formulation study (preclinical) | Anti-inflammatory & Anti-allergy Agents in Medicinal Chemistry | Celecoxib emulgel developed using a natural oil; eucalyptus oil is not tested as a treatment for osteoarthritis |
+| [37111672](https://pubmed.ncbi.nlm.nih.gov/37111672/) | 2023 | Review | Pharmaceutics | Overview of nanoemulgels for improving topical delivery of anti-inflammatory drugs |
+
+Closest related evidence (rheumatoid arthritis, the second-ranked prediction):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36060153](https://pubmed.ncbi.nlm.nih.gov/36060153/) | 2022 | Clinical study (design to be verified) | Contemporary Clinical Trials Communications | Effect of eucalyptus inhalation on pain and quality of life in rheumatoid arthritis patients |
+| [38649658](https://pubmed.ncbi.nlm.nih.gov/38649658/) | 2024 | Preclinical (in vivo and in silico) | Inflammopharmacology | Eucalyptol (1,8-cineole) showed anti-arthritic potential in a rat arthritis model, with effects on IL-17, IL-10, NF-κB, 5-LOX and COX-2 |
+| [37726536](https://pubmed.ncbi.nlm.nih.gov/37726536/) | 2023 | Formulation study (preclinical) | AAPS PharmSciTech | Continentalic acid transfersomal gel for rheumatoid arthritis; eucalyptus oil used as a permeation enhancer |
+| [32207921](https://pubmed.ncbi.nlm.nih.gov/32207921/) | 2020 | Formulation study (preclinical) | ACS Nano | Transdermal methotrexate nanomicelle hydrogel for rheumatoid arthritis |
+| [37815044](https://pubmed.ncbi.nlm.nih.gov/37815044/) | 2024 | Formulation study (preclinical) | Macromolecular Bioscience | Tofacitinib-loaded nanoparticles for localised delivery in arthritic joints |
+| [39492133](https://pubmed.ncbi.nlm.nih.gov/39492133/) | 2025 | Formulation study (preclinical) | Biomaterials Advances | Infliximab-loaded transdermal hydrogel for rheumatoid arthritis |
 
 ---
 
 ## UK Market Information
 
-Eucalyptus oil is not currently marketed in the UK under a formal MHRA marketing authorisation — no licences are on file (0 of 0). It is only encountered as an ingredient in traditional topical rubs, inhalant preparations or aromatherapy products, which fall outside licensed medicine status.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 190605000AAAVAV | Eucalyptus Oil (liquid) | Not specified | Not specified |
 
 ---
 
@@ -89,7 +111,7 @@ Eucalyptus oil is not currently marketed in the UK under a formal MHRA marketing
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Additional signal from the evidence pack:** a lower-ranked TxGNN prediction (hepatic porphyria, rank 4) is explicitly flagged by the evidence analysis as a *safety concern rather than a treatment opportunity* — terpene-containing essential oils such as eucalyptus oil are traditionally considered a possible porphyria trigger. This should be treated as a caution point for any future evaluation, not pursued as an indication.
+No drug interaction records were found in the data compiled for this report. One theoretical concern is that terpenoid components of essential oils may induce hepatic cytochrome P450 enzymes, which could matter in hepatic porphyria.
 
 ---
 
@@ -98,13 +120,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-A blocking data gap exists — no MHRA/SmPC warnings, contraindications or DDI data are available, so a basic safety review cannot be completed. The single supporting clinical trial tested a multi-ingredient herbal product rather than eucalyptus oil alone (graded "C"/indirect relevance by the evidence pack), and no dedicated RCT of eucalyptus oil monotherapy in osteoarthritis exists. Combined with L3 evidence and the drug's unlicensed status in the UK, this does not yet support progression.
+The predictions are driven by the model alone. No registered trials exist, and the available literature is mostly about formulation science rather than eucalyptus oil as a therapy. The only direct human study concerns symptom relief (pain and quality of life) in rheumatoid arthritis, not osteoarthritis.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC-equivalent safety data (warnings, contraindications, drug interactions) for eucalyptus oil
-- Documented mechanism of action specific to eucalyptus oil (not just its constituent eucalyptol)
-- A dedicated randomised controlled trial of eucalyptus oil monotherapy (topical) in osteoarthritis, distinct from combination herbal products
-- Clarification of the porphyria safety signal before any further repurposing work proceeds
+- Confirmation of the approved indication, dosage form and route for the existing UK authorisation
+- Safety data (warnings, contraindications and interactions) from the SmPC and BNF
+- Mechanism of action data
+- Verification of the design and results of the eucalyptus inhalation study in rheumatoid arthritis
+- Clinical or well-designed preclinical studies testing eucalyptus oil or 1,8-cineole directly in osteoarthritis
+- Assessment of route and formulation compatibility (for example topical versus inhaled) for any joint-related use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

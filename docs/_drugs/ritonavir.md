@@ -2,15 +2,15 @@
 layout: default
 title: Ritonavir
 parent: Moderate Evidence (L3-L4)
-nav_order: 508
-evidence_level: L3
+nav_order: 546
+evidence_level: L4
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,99 +29,88 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-# Ritonavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
-
----
+# Ritonavir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Ritonavir is a competitive HIV-1 aspartate protease inhibitor, originally developed and used for the treatment of HIV-1 infection in humans, typically as a pharmacokinetic booster within combination antiretroviral regimens. The TxGNN model predicts it may have antiviral activity against **Simian Immunodeficiency Virus (SIV) Infection**, with **0 clinical trials** and **12 publications** — predominantly in vitro susceptibility assays and non-human primate (NHP) studies — currently supporting this direction. This prediction carries strong mechanistic plausibility rooted in cross-lentiviral protease homology, but remains at the preclinical evidence stage with no direct human clinical applicability.
-
----
+Ritonavir is an HIV protease inhibitor, originally used to treat HIV infection/AIDS and hepatitis C virus infection (as a pharmacokinetic booster).
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**,
+but there are **no registered clinical trials** and the **10 publications** identified are almost entirely animal or in vitro studies. SIV is a non-human primate disease, so this is not a genuine human repurposing opportunity.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection (antiretroviral therapy / pharmacokinetic boosting) |
-| Predicted New Indication | Simian immunodeficiency virus (SIV) infection |
+|------|------|
+| Original Indication | HIV infectious disease / AIDS; chronic hepatitis C virus infection (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed (no MHRA authorisation on record in this dataset) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the regulatory record for this evidence pack. Based on well-established pharmacological knowledge, Ritonavir is a competitive inhibitor of the HIV-1 viral aspartate protease (Ki ~1 nM), blocking the proteolytic cleavage of the Gag-Pol polyprotein precursor and preventing the maturation of infectious virions. It is also a potent inhibitor of CYP3A4 and P-glycoprotein, a property that underpins its widespread use as a pharmacokinetic booster in combination antiretroviral therapy.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ritonavir is an HIV-1 protease inhibitor and a strong CYP3A4 inhibitor, widely used at low doses to boost the exposure of other antiretrovirals.
 
-The mechanistic basis for activity against SIV rests on the structural conservation of the aspartate protease across primate lentiviruses. The SIV protease shares approximately 48–57% amino acid sequence identity with HIV-1 protease, with the catalytic Asp25 residue preserved at the active site — the very residue that Ritonavir engages during competitive inhibition. This degree of homology provides a direct structural rationale for cross-reactivity. Multiple in vitro studies have confirmed that Ritonavir inhibits SIVmac239 replication, with an EC₅₀ of approximately 13 nM, which is broadly comparable to its anti-HIV-1 potency (EC₅₀ ~25 nM). Non-human primate studies further demonstrate that HAART regimens containing Ritonavir can achieve rapid and sustained viral suppression in SIV-infected macaques across a wide range of viral loads.
+SIV is a close lentiviral relative of HIV, and its protease is structurally and functionally similar to HIV-1 protease. In vitro work supports this: ritonavir inhibited SIVmac239 with a 50% effective concentration of about 13 nM, compared with about 25 nM for HIV-1 (PMID 12709355).
 
-It is important to contextualise this prediction for clinical practice: SIV infection is a disease of non-human primates, most relevant as an animal model for HIV/AIDS research rather than a human clinical indication. The translational value of this finding lies primarily in its implications for primate virology research, NHP model design, and understanding cross-lentiviral antiviral pharmacology — not in representing a conventional repurposing candidate for human patients. The predicted IC₅₀ advantage for SIV over some other lentiviruses (e.g., FIV, where the homology is far lower at ~23%) reinforces the specificity and plausibility of this particular TxGNN prediction.
+However, the high TxGNN score most likely reflects the similarity of SIV to the already established HIV indication. SIV infection is a research model in non-human primates, not a human clinical condition. This should be regarded as supporting preclinical modelling rather than a true repurposing opportunity.
 
----
+The other two predictions are weaker. Feline acquired immunodeficiency syndrome (score 99.92%, L5) is a veterinary disease with no supporting literature or trials. A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.92%, L5) has no identifiable mechanistic link to ritonavir and is likely a knowledge-graph artefact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro susceptibility assay | Antimicrobial Agents and Chemotherapy | Ritonavir inhibits SIVmac239 with EC₅₀ of 13 nM in a focal infectivity assay, compared to 25 nM for HIV-1; indinavir and saquinavir also active, confirming cross-reactivity of protease inhibitors across primate lentiviruses |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Comparative in vitro study | Antiviral Therapy | Systematic evaluation of 16 approved antiretrovirals (including Ritonavir) against HIV-2, SIVmac251, SIVb670, and SHIV strains; Ritonavir demonstrated antiviral activity across multiple lentiviral isolates, with implications for treatment and post-exposure prophylaxis |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal study (NHP, in vivo) | Journal of Virology | Quadruple antiretroviral therapy including Ritonavir induced rapid viral decay in SIVmac251-infected cynomolgus macaques during a 7-day subcutaneous course; viral dynamics modelling demonstrated comparable biphasic decay kinetics to HIV-1 in humans |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Chimeric virus model | Microbes and Infection | Construction of a novel SHIV (SHIV-pr) bearing an HIV-1-derived protease gene; viral replication completely blocked by a protease inhibitor in vitro; animal inoculation confirmed replication competence, validating chimeric models for in vivo efficacy testing of protease inhibitors including Ritonavir |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Animal study (NHP, in vivo) | mBio | Contemporary ART regimens (including Ritonavir-boosted combinations) suppressed systemic viremia in both human and macaque lentivirus models, but failed to clear brain reservoirs; lentiviral RNA and integrated DNA detected in cerebral cortex regardless of ART duration, highlighting CNS penetration as a key limitation |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal study (NHP, in vivo) | PLoS ONE | Intensive cART (including Ritonavir) achieved viral suppression in SIV-infected Chinese rhesus macaques; adjunctive HDAC inhibitor (SAHA) did not significantly reduce the viral reservoir despite latency reversal, providing evidence for Ritonavir's role in suppressive backbone therapy |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal study (NHP, in vivo) | PLoS Pathogens | Highly intensified multidrug ART (including Ritonavir) induced long-term viral suppression in SIVmac251-infected macaques across a 10,000-fold range of baseline viraemia (10³–10⁷ RNA copies/mL); significant restriction of the viral reservoir was observed, establishing a reliable simian AIDS suppression model |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal study (NHP, in vivo) | Journal of Virological Methods | Oral HAART (AZT + 3TC + Lopinavir/Ritonavir) administered for 28 days in SHIV(89.6P)-infected rhesus macaques; viral load reduction and CD8 T-cell subset modulation demonstrated, confirming oral route bioavailability and antiviral efficacy in NHP |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | In vitro biochemistry | Journal of Virology | Demonstrated intravirion processing of HIV-1 Vif by viral protease both in vivo and in vitro; Ritonavir used as a tool compound to confirm protease dependence of Vif cleavage, providing mechanistic insight into protease substrate breadth |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro antiviral screen | Antiviral Chemistry & Chemotherapy | Fluoroquinolone derivative K-12 active against multiple lentiviral strains including SIV and Ritonavir-resistant HIV-1; Ritonavir-resistant strains used as reference controls, confirming Ritonavir's distinct mechanism and resistance profile relative to transcription inhibitors |
+|------|-----|------|------|---------|
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro | Antimicrob Agents Chemother | SIVmac239 inhibited by ritonavir (EC50 about 13 nM), comparable to HIV-1 (about 25 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Susceptibility of HIV-2, SIV and SHIV to 16 approved anti-HIV-1 drugs, relevant to treatment and post-exposure prophylaxis |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal (macaque) | J Virol Methods | Oral HAART including lopinavir/ritonavir given to SHIV-infected rhesus macaques; effect on the CD8 subset assessed |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal (macaque) | PLoS Pathog | Highly intensified multidrug ART produced long-term viral suppression and limited the viral reservoir in a simian AIDS model |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal (macaque) | PLoS One | Suppressive combination ART plus the HDAC inhibitor SAHA in SIV-infected Chinese rhesus macaques, studying viral reservoirs |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal (macaque) | J Virol | Rapid viral decay in SIV-infected macaques given quadruple antiretroviral therapy |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Animal (macaque) | mBio | Lentiviral infection persisted in the brain despite effective ART |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Animal model development | Microbes Infect | Novel SHIV carrying an HIV-1 protease gene, developed as a tool for testing protease inhibitors in vivo |
 
----
+Several of these studies concern antiretroviral regimens generally rather than ritonavir specifically. No human clinical studies in SIV were identified, as expected for a non-human disease.
 
 ## UK Market Information
 
-No MHRA marketing authorisations are currently recorded for Ritonavir in this evidence pack dataset (total licences: 0).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010U0AAACAC (BNF-style product code, not a PL number) | Ritonavir tablets 100 mg | Tablet | Not stated in the data compiled |
 
-> **Important note for UK healthcare professionals**: This dataset entry likely reflects a data gap rather than the true UK regulatory status. Ritonavir (Norvir®, AbbVie) holds established MHRA authorisation as a pharmacokinetic booster in HIV treatment regimens and is referenced in BNF Section 5.3.1 (Antivirals: HIV infection). It is also a component of nirmatrelvir/ritonavir (Paxlovid®), authorised for COVID-19 treatment. Clinicians should verify current authorisation status via the MHRA Product Licence Register and the current BNF edition. No licence currently exists for any veterinary or SIV-related indication.
-
----
+One single-ingredient authorisation is recorded as valid. Within the BNF, ritonavir sits in the HIV protease inhibitor group (chapter 5, infections).
 
 ## Safety Considerations
 
-Detailed safety data (key warnings, contraindications, and drug–drug interactions) are not available in this evidence pack. All safety fields are recorded as data gaps.
+The knowledge graph links ritonavir to contraindication or caution signals in the following conditions (these are graph-derived and are not label text):
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Cardiac:** long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, atrioventricular block, cardiomyopathy (including hypertrophic), myocardial ischaemia, coronary artery disease
+- **Hepatic and biliary:** liver disease, cirrhosis, gallbladder disease, hyperbilirubinaemia, Gilbert syndrome, chronic hepatitis B virus infection
+- **Metabolic:** diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, hypertriglyceridaemia, familial combined hyperlipidaemia, potassium deficiency, gout/hyperuricaemia
+- **Other:** pancreatitis, haemophilia
 
-> **Critical prescriber alert**: Ritonavir is a potent inhibitor of CYP3A4 and P-glycoprotein and is associated with an exceptionally high number of clinically significant drug–drug interactions, including life-threatening interactions with certain sedatives, antiarrhythmics, lipid-lowering agents, and immunosuppressants. The absence of DDI data in this evidence pack constitutes a **blocking data gap** for any clinical safety assessment. Full DDI screening is mandatory before any consideration of use.
+**Drug interactions:** 100 interactions were found. Examples of those graded **Major** include loperamide, triamcinolone and budesonide. Moderate interactions include acarbose, metformin, hydrocortisone, dexamethasone, bupropion, aprepitant, clarithromycin and metronidazole. Ritonavir's strong CYP3A4 inhibition underlies many of these, particularly with corticosteroids.
 
----
+Label warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Whilst the mechanistic and in vitro evidence supporting Ritonavir activity against SIV is scientifically credible — grounded in conserved aspartate protease homology and confirmed by quantitative susceptibility assays and NHP treatment models — SIV infection is a non-human primate disease with no direct human clinical application. This prediction is of value to primate research, HIV/AIDS animal model design, and lentiviral pharmacology, rather than representing a conventional repurposing candidate for NHS clinical implementation. Additionally, all safety data (warnings, contraindications, DDI) are absent from this evidence pack, precluding a complete S1 safety assessment.
+SIV infection is a non-human primate research model, not a human indication, and the supporting evidence is limited to in vitro and animal studies (L4) with no clinical trials. The high TxGNN score reflects similarity to the existing HIV indication rather than a new therapeutic opportunity.
 
 **To proceed, the following is needed:**
-
-- **Clarification of clinical intent**: Confirm whether this is being evaluated as a veterinary intervention (e.g., for SIV-infected captive primates), an NHP research tool compound, or as indirect evidence supporting HIV-1 drug class activity
-- **MOA data**: Retrieve full mechanism of action from DrugBank API (DB00503) to complete pharmacological documentation
-- **Safety pack**: Obtain SmPC warnings, contraindications, and full DDI profile — Ritonavir's CYP3A4 and P-gp inhibition profile is clinically critical
-- **MHRA licence verification**: Confirm actual UK regulatory status via the MHRA Product Licence Register; resolve the discrepancy between the dataset (0 licences) and known authorised products (Norvir, Paxlovid)
-- **Quantitative potency comparison**: Document Ritonavir IC₅₀/EC₅₀ values side-by-side for HIV-1, SIVmac, SHIV, and FIV to formally quantify the cross-species potency gradient and define a clinically meaningful activity threshold
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All repurposing candidates require clinical validation before application. This document should be read alongside the current SmPC, BNF, and relevant NICE guidance.*
+- Confirmation of whether any human or veterinary clinical use is intended; otherwise, deprioritise this prediction
+- Mechanism of action data (DrugBank) and the approved indication text from the SmPC
+- SmPC and BNF warnings and contraindications (a blocking gap for safety screening)
+- A review of the two other predictions (feline AIDS and the neurodevelopmental disorder), which currently have no supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

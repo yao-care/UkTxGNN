@@ -2,7 +2,7 @@
 layout: default
 title: Phenoxymethylpenicillin
 parent: Model Prediction Only (L5)
-nav_order: 457
+nav_order: 492
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Phenoxymethylpenicillin: From Unspecified Indication to Epiglottitis
+# Phenoxymethylpenicillin: From Streptococcal and Respiratory Tract Infections to Epiglottitis
 
 ## One-Sentence Summary
 
-Phenoxymethylpenicillin (Penicillin V) is a narrow-spectrum oral β-lactam antibiotic; its originally licensed indication is not recorded in this evidence pack. The TxGNN model predicts potential efficacy in **Epiglottitis**, but this direction is currently supported by **no clinical trials and no published literature** — it is a pure computational prediction with no corroborating evidence.
+Phenoxymethylpenicillin (penicillin V) is an oral, narrow-spectrum beta-lactam antibiotic, originally used for streptococcal infections, pharyngitis, otitis media and related respiratory and skin infections.
+The TxGNN model predicts it may be effective for **epiglottitis**, but there are currently **no clinical trials** and **no publications** supporting this direction, so the prediction rests on the model score alone.
 
 ---
 
@@ -41,23 +42,26 @@ Phenoxymethylpenicillin (Penicillin V) is a narrow-spectrum oral β-lactam antib
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in this evidence pack |
+| Original Indication | Streptococcal infection, pharyngitis, infectious otitis media, respiratory tract infections, erysipelas, scarlet fever (the UK licence record contains no indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-A structured mechanism-of-action (MOA) record is not available for phenoxymethylpenicillin in this evidence pack (flagged as data gap DG002, High severity). Drawing on the repurposing rationale accompanying the prediction, Penicillin V is described as a narrow-spectrum oral β-lactam antibiotic that inhibits cell-wall synthesis in susceptible bacteria, such as streptococci.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, phenoxymethylpenicillin is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis. Its efficacy in streptococcal and upper respiratory tract infections is established, and mechanistically it may be applicable to bacterial infections of the supraglottic region.
 
-Epiglottitis was historically caused predominantly by *Haemophilus influenzae* type b; since the introduction of Hib vaccination, streptococcal species now account for a larger proportion of cases. On this basis, an antibacterial such as Penicillin V has a theoretical rationale for activity against some causative organisms.
+Epiglottitis is a bacterial infection of the supraglottis. Historically it was caused mainly by *Haemophilus influenzae* type b, and also by *Streptococcus pneumoniae*, group A streptococci and *Staphylococcus aureus*. For the streptococcal and other penicillin-susceptible pathogens, there is a plausible antibacterial rationale. The high TxGNN score is probably driven by the drug's antibacterial class and its existing respiratory and streptococcal indications.
 
-However, epiglottitis is an airway emergency for which standard care is intravenous broad-spectrum antibiotics combined with urgent airway management. Oral Penicillin V's bioavailability and narrow antibacterial spectrum are unlikely to be adequate for this clinical scenario. Critically, this prediction is derived purely from the TxGNN knowledge-graph model — there are currently no clinical trials, case reports, or published literature specific to epiglottitis to support it.
+There are important limitations:
+- Phenoxymethylpenicillin is oral and narrow-spectrum, and it is not active against beta-lactamase-producing *H. influenzae*.
+- Epiglottitis is an airway emergency. It is usually managed with airway protection and intravenous broad-spectrum antibiotics such as third-generation cephalosporins, so oral penicillin V is not a suitable primary therapy.
+- The 99.90% score is a computational prediction only and is not clinical evidence.
 
 ---
 
@@ -69,35 +73,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for epiglottitis.
 
----
-
-## Supplementary Evidence: Rank 2 Predicted Indication — Laryngitis
-
-The evidence pack also contains a second, closely related prediction (rank 2, score 99.85%) for **laryngitis**, an anatomically adjacent upper-airway condition. Unlike epiglottitis, this prediction is backed by substantial literature (Evidence Level L1) — but the evidence **argues against**, rather than for, antibacterial efficacy, and is presented here as important context.
+*For context, the second-ranked prediction, laryngitis (TxGNN score 99.85%, evidence level L4), has one related publication. It is indirect evidence only and is not about phenoxymethylpenicillin as a treatment:*
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3918495](https://pubmed.ncbi.nlm.nih.gov/3918495/) | 1985 | RCT (double-blind) | Ann Otol Rhinol Laryngol | 100 adults with acute laryngitis: Penicillin V produced no greater resolution of vocal symptoms than placebo — direct evidence of inefficacy |
-| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | RCT | Acta Otolaryngol Suppl | Notes that "phenoxymethylpenicillin had no effect on the clinical course" in prior studies; erythromycin trial vs placebo in 106 patients |
-| [26002823](https://pubmed.ncbi.nlm.nih.gov/26002823/) | 2015 | Systematic Review (Cochrane) | Cochrane Database Syst Rev | Updated review (earlier versions 2005, 2007, 2013 reached the same conclusion): insufficient evidence to support routine antibiotic use in acute laryngitis in adults |
-
-**Interpretation:** Rather than supporting repurposing, this evidence shows that antibiotics — specifically including Penicillin V — have been directly tested in acute laryngitis and found ineffective, across a controlled RCT and four successive Cochrane systematic review updates. This weakens, rather than strengthens, the plausibility of extending Penicillin V into related upper-respiratory-tract indications such as epiglottitis.
+| [1632252](https://pubmed.ncbi.nlm.nih.gov/1632252/) | 1992 | Clinical study (design to be verified) | Acta Oto-Laryngologica. Supplementum | In 106 adults with acute laryngitis, erythromycin reduced nasopharyngeal *B. catarrhalis* isolation compared with placebo. The abstract notes that phenoxymethylpenicillin had no effect on the clinical course in earlier work. |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation records for phenoxymethylpenicillin were found in this evidence pack. UK market status is recorded as **Not marketed** (0 licences).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501011P0AAADAD (BNF-style product code; no PL number in the data) | Phenoxymethylpenicillin oral solution 125 mg/5 ml | Oral solution | Not recorded in the data compiled for this report |
+
+The BNF classifies the product under section 5.1 (antibacterial drugs, penicillins). Epiglottitis is not a listed indication in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications suggested by the knowledge graph** (these come from graph edges, not label text, and should be checked against the SmPC):
+- Kidney disease
+- Pyoureter
+- *Clostridium difficile* colitis
+- Perinatal necrotizing enterocolitis
+- Infectious mononucleosis
+- Chronic Epstein-Barr virus infection syndrome
 
-Note: this evidence pack flags TFDA/MHRA label warnings and contraindications as a **Blocking** data gap (DG001) — this must be resolved before any safety pre-assessment (S1) can proceed.
+**Drug Interactions:** 32 interactions were identified, and the main ones are:
+- **Moderate:** doxycycline, minocycline, tetracycline, neomycin, warfarin, dicoumarol, balsalazide, picosulfuric acid, iodide I-123, iodide I-131
+- **Minor:** clarithromycin
+- **Unknown severity:** omeprazole, lansoprazole, simvastatin, prednisolone, dexamethasone, aspirin, clopidogrel, heparin, ibuprofen
+
+Warnings and contraindications from the product label are not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -106,16 +117,14 @@ Note: this evidence pack flags TFDA/MHRA label warnings and contraindications as
 **Decision: Hold**
 
 **Rationale:**
-- The epiglottitis prediction is a pure TxGNN model association (Evidence Level L5) with zero supporting clinical trials or literature, and MOA data is missing (DG002).
-- Critically, label-level safety data (warnings, contraindications) required for initial safety screening is entirely absent (DG001, Blocking) — this alone prevents progression regardless of efficacy evidence.
-- The closely related indication laryngitis (rank 2) has robust L1 evidence (RCTs + repeated Cochrane reviews) directly demonstrating that antibiotics, including Penicillin V, provide no clinical benefit — which undermines rather than supports the plausibility of repurposing into adjacent airway indications.
+The prediction has no supporting trials or literature (L5). Phenoxymethylpenicillin is also clinically unsuitable as primary therapy for epiglottitis, because it is oral, has a narrow spectrum, and does not cover beta-lactamase-producing *H. influenzae*. In an airway emergency, standard intravenous treatment should not be delayed.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC label data: warnings, contraindications, and drug interactions (resolves DG001, blocking)
-- Structured MOA data via DrugBank API (resolves DG002)
-- Epiglottitis-specific preclinical or clinical evidence (currently none exists)
-- A reassessment of biological plausibility in light of the negative RCT evidence for the pharmacologically related laryngitis indication
-- Given "Not marketed" UK status, clarification of the regulatory pathway required before any further development could be considered
+- Label warnings and contraindications from the SmPC and BNF, because safety screening cannot proceed without them
+- Mechanism of action data (for example from DrugBank)
+- Microbiological and epidemiological evidence of penicillin-susceptible epiglottitis, and a defined role for an oral step-down or prophylactic use
+- Any published clinical evidence for penicillin V in epiglottitis
+- A decision on whether the laryngitis prediction is worth pursuing, noting that its only retrieved publication does not support penicillin V
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

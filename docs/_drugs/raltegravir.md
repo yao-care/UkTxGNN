@@ -2,7 +2,7 @@
 layout: default
 title: Raltegravir
 parent: Model Prediction Only (L5)
-nav_order: 495
+nav_order: 533
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,81 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Raltegravir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Raltegravir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Raltegravir is a well-established HIV-1 integrase strand transfer inhibitor (INSTI); the evidence pack itself does not confirm its original licensed indication or mechanism of action.
-> The TxGNN model's top prediction is **Feline Acquired Immunodeficiency Syndrome (FIV)** with a score of **99.78%**, but the underlying evidence — two Phase 3 clinical trials in human HIV-1 patients — has been explicitly flagged by the source analysis as an unrelated, text-matching false positive, not genuine cross-species evidence.
-> No literature or trials support this prediction directly; the recommendation is **Hold**.
-
----
+Raltegravir is an HIV-1 integrase strand transfer inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but **no clinical trials** and **no publications** currently support this specific prediction.
+The closely related indication, simian immunodeficiency virus (SIV) infection, has **16 preclinical publications** (10 shown below), which are animal and laboratory studies rather than human treatment data.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not provided in evidence pack (`original_indications` field empty; Raltegravir is generically known as an HIV-1 integrase inhibitor, but this was not captured in the pack) |
-| Predicted New Indication | Feline Acquired Immunodeficiency Syndrome |
+| Original Indication | HIV infectious disease; AIDS |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a Blocking-severity data gap for TFDA/MHRA warnings and a High-severity gap for MOA). Based on generally established pharmacological knowledge, Raltegravir belongs to the integrase strand transfer inhibitor (INSTI) class, used in combination antiretroviral therapy for HIV-1 infection.
+Detailed mechanism of action data is not available in the data compiled for this report. Raltegravir is, however, a well-known HIV-1 integrase strand transfer inhibitor. It blocks the viral enzyme that inserts viral DNA into the host cell genome, a late step in the viral life cycle.
 
-The TxGNN model's top-ranked prediction — Feline Acquired Immunodeficiency Syndrome (FIV) — has a superficial mechanistic rationale: FIV is a lentivirus, as is HIV, and both depend on an integrase enzyme to insert viral DNA into the host genome. However, the two clinical trials attached as "supporting evidence" (NCT01231516, NCT01227824) are in fact head-to-head Phase 3 trials comparing Raltegravir with Dolutegravir in **human** HIV-1-infected adults, not FIV-infected cats. Both trials were graded **C (low relevance)** in the source analysis, with the explicit conclusion that this is a knowledge-graph embedding artefact caused by textual similarity between "immunodeficiency syndrome" terms, rather than real cross-species evidence. No feline-specific trial, veterinary literature, or pharmacokinetic data for cats is present anywhere in the evidence pack.
+Feline immunodeficiency virus (FIV) is a lentivirus, like HIV, and has an integrase enzyme structurally related to that of HIV-1. Activity is therefore biologically plausible. However, the very high TxGNN score probably reflects the drug's known anti-retroviral class and its similarity to the original HIV/AIDS indication, rather than independent evidence for FIV. This is also a veterinary indication, so human regulatory and clinical pathways do not apply directly.
 
-Two lower-ranked predictions from the same run are worth noting for context, though outside the scope of this report's primary indication: **Simian Immunodeficiency Virus (SIV) infection** (rank 2, L3, "Research Question" stage) is genuinely supported by multiple non-human primate studies — but this reflects Raltegravir's established role as a research tool in SIV/macaque models of HIV, not a new human therapeutic indication. **A rare neurodevelopmental disorder** (rank 3, L5) has no supporting trials or literature at all and rests purely on a speculative interferonopathy hypothesis. None of the three top predictions constitute an actionable new human indication at this time.
-
----
+For context, the second-ranked prediction, SIV infection, has supportive preclinical work in macaques showing that SIV is sensitive to integrase inhibitors. This is mainly useful as a research model for HIV rather than as a new human indication. The third-ranked prediction, a rare neurodevelopmental disorder, has no evident mechanistic rationale, because raltegravir targets a viral enzyme with no recognised relevant human counterpart.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01231516](https://clinicaltrials.gov/study/NCT01231516) | Phase 3 | Completed | 724 | Dolutegravir vs Raltegravir in antiretroviral-experienced, integrase-inhibitor-naïve **human** HIV-1 adults — not related to feline disease; graded C relevance (false-positive text match) |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Phase 3 | Completed | 828 | Dolutegravir vs Raltegravir in antiretroviral-naïve **human** HIV-1 adults — not related to feline disease; graded C relevance (false-positive text match) |
-
-**Note:** Neither trial provides genuine support for the predicted indication (FIV). They are included here only because they were linked by the TxGNN evidence pipeline; both are confirmed unrelated to feline disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications are available for feline acquired immunodeficiency syndrome. The table below shows the most relevant literature for the related SIV prediction. All items are preclinical, and none shows clinical efficacy in a treatment population.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [20233398](https://pubmed.ncbi.nlm.nih.gov/20233398/) | 2010 | Preclinical (SIV) | Retrovirology | Two NRTIs plus raltegravir used as a new antiretroviral regimen in SIVmac251-infected macaques, as a basis for treating simian AIDS and modelling viral persistence |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical (SIV) | PLoS Pathogens | Highly intensified multidrug ART in SIV-infected macaques; long-term viral suppression and restriction of the viral reservoir |
+| [24622515](https://pubmed.ncbi.nlm.nih.gov/24622515/) | 2014 | Preclinical (SHIV) | Science Translational Medicine | Topical integrase inhibitors protected macaques after vaginal SHIV exposure |
+| [29643246](https://pubmed.ncbi.nlm.nih.gov/29643246/) | 2018 | Preclinical (SIV) | Journal of Virology | Dynamics of 2-LTR circles in SIV-infected macaques treated with an integrase inhibitor, with and without CD8+ cells |
+| [29466356](https://pubmed.ncbi.nlm.nih.gov/29466356/) | 2018 | Preclinical (SIV) | PLoS One | Resistance mutations emerged in macaques on non-suppressive ART including raltegravir intensification |
+| [26378179](https://pubmed.ncbi.nlm.nih.gov/26378179/) | 2015 | Preclinical (SIV) | Journal of Virology | Resistance profiles of integrase inhibitors in SIVmac239 |
+| [24920794](https://pubmed.ncbi.nlm.nih.gov/24920794/) | 2014 | Preclinical (SIV) | Journal of Virology | HIV-1 integrase resistance mutations introduced into SIVmac239 changed susceptibility to integrase inhibitors |
+| [25583721](https://pubmed.ncbi.nlm.nih.gov/25583721/) | 2015 | Preclinical (SIV/HIV) | Antimicrobial Agents and Chemotherapy | Simian-tropic HIV proposed as a model for integrase inhibitor resistance |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclinical (SIV) | mBio | Lentiviral infection persists in the brain despite effective ART |
+| [32166319](https://pubmed.ncbi.nlm.nih.gov/32166319/) | 2020 | Preclinical (safety) | Clinical Infectious Diseases | Dolutegravir and raltegravir had proadipogenic and profibrotic effects and induced insulin resistance in human/simian adipose tissue (a safety finding, not efficacy) |
 
 ## UK Market Information
 
-No marketing authorisations are recorded in the evidence pack (`total_licenses: 0`, `licenses: []`; market status: Not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0503010AEAAAAAA (BNF code; no PL number in the data compiled) | Raltegravir tablets 400 mg | Tablet | Indication text not available in the data compiled |
 
----
+One valid single-ingredient authorisation is recorded, with no combination or cancelled products. Raltegravir falls under BNF section 5.3.1 (HIV infection, antiretrovirals); this chapter reference is inferred from the recorded BNF code.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindication-related disease associations** (from the knowledge graph, not label text): myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, rhabdomyolysis, and nodular fasciitis. Muscle-related conditions should be considered carefully.
 
----
+**Drug Interactions** (36 interactions recorded; the main ones are shown):
+- **Major:** zinc sulfate, zinc acetate, aluminium hydroxide, calcium carbonate. Polyvalent cations can reduce raltegravir absorption, so dosing separation and monitoring are important.
+- **Moderate:** magnesium oxide, magnesium sulfate, magnesium chloride, orlistat.
+- **Minor:** acid-suppressing drugs (famotidine, ranitidine, cimetidine, nizatidine, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), plus pioglitazone and dexamethasone.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Feline Acquired Immunodeficiency Syndrome) is not a viable human repurposing candidate — it is a companion-animal disease, and the source analysis has already identified the supporting trials as a text-matching false positive with no genuine mechanistic or clinical linkage. No literature or veterinary evidence exists to support this direction. The next-best prediction (SIV infection) is a non-human primate research model application rather than a new human indication, and the third (a rare neurodevelopmental disorder) has zero supporting evidence.
+The prediction rests on model output alone, with no trials or publications for feline acquired immunodeficiency syndrome. It is a veterinary indication outside the human regulatory pathway. The related SIV literature is entirely preclinical and mainly supports the use of SIV models in HIV research.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA SmPC warnings and contraindications (currently a Blocking data gap)
-- Confirmed mechanism of action and original licensed indication for Raltegravir (currently a High-severity data gap)
-- Re-run of the TxGNN prediction pipeline with species/organism filtering to exclude non-human disease terms from the human drug repurposing candidate list
-- If SIV-related research applications are of interest, a separate evaluation scoped explicitly as a non-human primate research tool, not a clinical repurposing candidate
+- Direct evidence for raltegravir against FIV (in vitro activity and animal studies), and a clear decision on whether a veterinary pathway is of interest
+- Detailed mechanism of action data
+- Label-based warnings and contraindications from the SmPC, as the current safety data are limited
+- UK authorisation details (PL number, indication text and dosage form)
+- If pursuing the SIV direction, a clear statement that its value is as a research model rather than a new human indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

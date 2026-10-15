@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methysergide
-parent: Model Prediction Only (L5)
-nav_order: 375
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 405
+evidence_level: L3
 indication_count: 7
 ---
 
 # Methysergide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L3** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,90 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Methysergide: From Unrecorded Original Indication to Migraine Disorder
+# Methysergide: From Migraine Prophylaxis to Migraine Disorder (Historical Use, Not a True Repurposing)
 
 ## One-Sentence Summary
 
-> Methysergide's originally licensed indication is not recorded in this evidence pack, though the literature confirms it is a semisynthetic ergot alkaloid used since the 1960s for **migraine prophylaxis**. The TxGNN model predicts efficacy for **Migraine Disorder** with a **99.95%** score, supported by **1 clinical trial** and **20 publications** — however, this most likely represents re-identification of a well-established historical use rather than a genuine new repurposing signal, since the drug's `original_indications` field was empty when the model ran.
-
----
+Methysergide is a semisynthetic ergot-derived serotonin receptor antagonist, historically used to prevent migraine.
+The TxGNN model predicts it may be effective for **migraine disorder**, which is largely a re-confirmation of its historical use rather than a new indication.
+There are **no registered clinical trials**, and the evidence consists of **19 publications**, mostly narrative reviews, alongside serious, well-documented fibrosis safety concerns.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack (source data gap); literature indicates historical use as a migraine prophylactic agent since the 1960s |
+| Original Indication | Not available in the UK authorisation data (historically migraine prophylaxis) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L1 (as scored in evidence pack — see caveat under "Why is this prediction reasonable?") |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-The structured mechanism-of-action field for methysergide is not populated in this evidence pack. Based on the pharmacological information available, methysergide is a semisynthetic ergot alkaloid (a methylated derivative of methylergometrine, itself derived from lysergic acid) that acts as an antagonist at 5‑HT2A/5‑HT2B/5‑HT2C serotonin receptors, with partial agonist activity at 5‑HT1 receptors. This blocks serotonin-mediated cranial vasodilation and neurogenic inflammation — the classical mechanism underpinning migraine prophylaxis.
+Detailed mechanism of action data is not available in the compiled data. Based on the published literature, methysergide is a 5-HT2A/2B/2C receptor antagonist with partial 5-HT1 agonist activity. Serotonin is implicated in migraine pathophysiology, and 5-HT2 antagonists such as methysergide, pizotifen and cyproheptadine have been recognised as clinically effective in migraine prophylaxis.
 
-Importantly, "migraine disorder" is very likely **not a novel repurposing candidate** for this drug. Methysergide (marketed historically as Sansert/Deseril) was one of the original migraine-prophylactic agents used clinically from the 1960s onward. It appears here as a high-scoring TxGNN prediction because the `original_indications` field in the source data was empty — the model is essentially rediscovering the drug's own established use rather than identifying a genuinely new therapeutic direction. This should be treated as a data-quality artefact requiring confirmation before it is presented as a "repurposing" opportunity.
+The predicted indication is therefore not a new use. Methysergide was introduced decades ago for migraine prevention, and a 1963 clinical series reported excellent or good results in about 51% of 87 patients. The TxGNN prediction is consistent with this history, but it adds no new therapeutic information.
 
-The same 5‑HT2B agonist activity that gives methysergide its therapeutic effect on cranial vessels is also responsible for its well-documented fibrotic toxicity (retroperitoneal fibrosis, pleuropulmonary fibrosis, and restrictive cardiac valvulopathy caused by fibroblast stimulation), which led to its withdrawal from many markets and the requirement for mandatory "drug holidays" during long-term use. The same serotonergic pathway is also implicated — in the opposite, harmful direction — in the pathogenesis of pulmonary arterial hypertension, underscoring a narrow therapeutic window for this pharmacological class.
-
----
+Other predictions in the list are weaker. Migraine with brainstem aura and migraine susceptibility are subtypes or labels overlapping with migraine, so the same evidence applies only indirectly. Atrophoderma vermiculata, ulerythema ophryogenesis and kyphoscoliotic heart disease have no supporting studies or mechanistic rationale. Pulmonary hypertension has only preclinical, animal-based serotonin work, and methysergide is itself linked to pleuropulmonary and cardiac valvular fibrosis, so the safety profile argues against this use.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00460616](https://clinicaltrials.gov/study/NCT00460616) | N/A | Completed | 50 | Observational study of cardiac valvular abnormalities/regurgitation in patients on chronic dopamine agonist therapy (cabergoline). Not a methysergide efficacy trial — included here as an analogous class safety signal, since ergot-derived 5‑HT2B agonists (methysergide, pergolide, cabergoline) share a mechanism-based risk of fibrotic valvulopathy. |
-
-No trials directly evaluating methysergide's efficacy in migraine were captured in this evidence pack; historical efficacy trials (e.g. 1960s open-label studies) predate structured clinical trial registries.
-
----
+Currently no related clinical trials are registered.
 
 ## Literature Evidence
 
+The most relevant publications for migraine disorder are listed below. All are reviews or historical reports; no modern RCTs were identified.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27449673](https://pubmed.ncbi.nlm.nih.gov/27449673/) | 2017 | Survey/Review | Cephalalgia | International Headache Society survey: 71.3% of respondents had prescribed methysergide for migraine/cluster headache; 79.8% would prescribe it again if reintroduced, despite EMA safety review. |
-| [9793694](https://pubmed.ncbi.nlm.nih.gov/9793694/) | 1998 | Review | Cephalalgia | Comprehensive review confirming methysergide's efficacy as a 5‑HT2 antagonist/5‑HT1 agonist in migraine prophylaxis, particularly in high-frequency resistant cases; outlines contraindications. |
-| [22444161](https://pubmed.ncbi.nlm.nih.gov/22444161/) | 2012 | Review | Headache | Basic science review comparing methysergide, ergotamine, dihydroergotamine and sumatriptan as 5‑HT1B/1D/1F agonists relevant to migraine treatment. |
-| [6398056](https://pubmed.ncbi.nlm.nih.gov/6398056/) | 1984 | Review | Aust NZ J Med | Review of serotonin antagonists including methysergide across migraine and other serotonin-mediated conditions. |
-| [18644039](https://pubmed.ncbi.nlm.nih.gov/18644039/) | 2008 | Historical Review | Cephalalgia | History of methysergide's development from lysergic acid and its introduction as an anti-serotonin migraine therapy. |
-| [4885283](https://pubmed.ncbi.nlm.nih.gov/4885283/) | 1968 | Review | Proc Aust Assoc Neurol | Early clinical appraisal of methysergide in migraine. |
-| [2045831](https://pubmed.ncbi.nlm.nih.gov/2045831/) | 1991 | Review | J Neurol | Reviews 5‑HT2 receptor antagonists (methysergide, pizotifen, cyproheptadine) in migraine prophylaxis. |
-| [25217187](https://pubmed.ncbi.nlm.nih.gov/25217187/) | 2014 | Review | Eur J Clin Pharmacol | Reviews lactation risk of common anti-migraine drugs, including methysergide. |
-| [9829155](https://pubmed.ncbi.nlm.nih.gov/9829155/) | 1998 | Review | Drugs | Practical guide to migraine management and prevention, situating methysergide among prophylactic options. |
-| [31889312](https://pubmed.ncbi.nlm.nih.gov/31889312/) | 2020 | Review | Headache | Modern perspective on the migraine treatment pipeline (CGRP antibodies, neurostimulation), contextualising older agents such as methysergide. |
-
----
+| [9793694](https://pubmed.ncbi.nlm.nih.gov/9793694/) | 1998 | Review | Cephalalgia | Methysergide is a 5-HT2 antagonist and 5-HT1 agonist; open and controlled studies support efficacy in migraine prophylaxis, possibly more so in resistant, high-frequency cases |
+| [22444161](https://pubmed.ncbi.nlm.nih.gov/22444161/) | 2012 | Review | Headache | Compares receptor profiles of dihydroergotamine, ergotamine, methysergide and sumatriptan; differences explain their side effects and limits on use |
+| [18644039](https://pubmed.ncbi.nlm.nih.gov/18644039/) | 2008 | Review | Cephalalgia | History of methysergide's development from serotonin research to migraine prophylaxis |
+| [14084702](https://pubmed.ncbi.nlm.nih.gov/14084702/) | 1963 | Historical clinical trial | Can Med Assoc J | 87 patients with frequent migraine; 50.6% had excellent or good results, with loss of effect in a few on long-term use |
+| [2045831](https://pubmed.ncbi.nlm.nih.gov/2045831/) | 1991 | Review | J Neurol | 5-HT2 antagonists including methysergide are effective in prophylaxis, although ketanserin appears ineffective |
+| [19683643](https://pubmed.ncbi.nlm.nih.gov/19683643/) | 2009 | Review | Lancet | Valvular heart disease was first linked to drugs through methysergide and ergotamine used for migraine prophylaxis |
+| [15962998](https://pubmed.ncbi.nlm.nih.gov/15962998/) | 2005 | Review | CNS Drugs | Ergot alkaloids, including methysergide, should be avoided in pregnancy |
+| [25217187](https://pubmed.ncbi.nlm.nih.gov/25217187/) | 2014 | Review | Eur J Clin Pharmacol | Reviews lactation risk of anti-migraine drugs |
+| [36147034](https://pubmed.ncbi.nlm.nih.gov/36147034/) | 2022 | Review | Front Pain Res | Notes methysergide was removed from use long ago because of safety concerns |
+| [1156159](https://pubmed.ncbi.nlm.nih.gov/1156159/) | 1975 | Case series | Arch Surg | Severe limb ischaemia in four patients taking methysergide or ergot for headache; most improved after stopping |
 
 ## UK Market Information
 
-No MHRA marketing authorisations are currently on record for methysergide (0 licenses). The product (formerly marketed as Deseril®/Sansert®) is understood to have been withdrawn from the UK market historically, consistent with the fibrotic and cardiac valvulopathy safety concerns described above. This should be verified against the current MHRA products register before any regulatory conclusions are drawn.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0407042L0AAAAAA | Methysergide Tab 1mg | Not specified | Not specified |
 
----
+Only one authorisation is recorded, and the data compiled for this report contain no dosage form or approved indication text. The record should be checked against the current MHRA register and the BNF before any conclusion about availability is drawn.
 
 ## Safety Considerations
 
-**Known Safety Signals (from literature and mechanistic evidence in this pack):**
-- Long-term use is associated with **retroperitoneal, pleuropulmonary and cardiac valvular fibrosis**, mediated by 5‑HT2B receptor agonism on fibroblasts — historically the principal reason for market withdrawal and for mandatory periodic "drug holidays" during treatment.
-- The same serotonergic mechanism has been separately linked in the literature to the pathogenesis of **pulmonary arterial hypertension**, suggesting this should be treated as a caution/contraindication direction rather than a therapeutic opportunity for that condition.
-- Ergotism (peripheral vasospasm/ischaemia) has been reported with methysergide and related ergot alkaloids.
+- **Key Warnings**: The literature documents retroperitoneal, pleuropulmonary and cardiac valvular fibrosis, which led to restricted use and withdrawal in many markets. Ergot-related arterial spasm and limb ischaemia have also been reported. Ergot alkaloids, including methysergide, should be avoided in pregnancy.
+- **Drug Interactions**: 98 interactions were identified. Major interactions include:
+  - Isometheptene
+  - Epinephrine (including topical)
+  - Ephedrine (including nasal)
+  - Lorcaserin
+  - Clarithromycin
 
-No structured MHRA/SmPC-derived warnings, contraindications, or drug interaction data were available in this evidence pack. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+  Moderate interactions include doxycycline, tetracycline, minocycline, cimetidine, aprepitant, dexamethasone, fenfluramine, dexfenfluramine, sibutramine and the azole antifungals miconazole and clotrimazole.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Migraine efficacy is well supported qualitatively across decades of literature, but the "new indication" signal most likely reflects rediscovery of methysergide's own historical licensed use rather than genuine repurposing, and the drug carries serious, mechanism-linked fibrotic and cardiac toxicity that historically led to market withdrawal.
+The migraine prediction restates a historical use, supported only by reviews and old clinical series, with no registered trials. Fibrosis risk (retroperitoneal, pleuropulmonary, cardiac valvular) is serious, and many safer, better-evidenced prophylactic options exist. The remaining predicted indications have no or only indirect preclinical support.
 
 **To proceed, the following is needed:**
-- Confirmation of the drug's actual original licensed indication(s) (currently unrecorded) to determine whether this is a true repurposing case or a data-artefact re-identification
-- TFDA/MHRA product label (SmPC) for formal warnings, contraindications and monitoring requirements (currently blocking — DG001)
-- Confirmed DrugBank mechanism-of-action data (currently high-severity gap — DG002)
-- A structured cardiac/fibrosis monitoring and "drug holiday" protocol before any clinical use is considered, given the class-level valvulopathy risk
+- Confirmation of the current UK authorisation status, dosage form and approved indication
+- Mechanism of action data from a curated source
+- Full warnings and contraindications from the SmPC and BNF
+- A comparative benefit-risk assessment against current migraine prophylaxis options
+- If any use were pursued, a monitoring plan for fibrosis (clinical review, imaging and echocardiography) and defined treatment-free intervals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

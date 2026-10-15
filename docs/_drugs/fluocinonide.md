@@ -2,7 +2,7 @@
 layout: default
 title: Fluocinonide
 parent: Model Prediction Only (L5)
-nav_order: 276
+nav_order: 295
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Fluocinonide: From Corticosteroid‑Responsive Dermatoses to Alopecia Mucinosa
+# Fluocinonide: From Dermatitis and Inflammatory Skin Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Fluocinonide is a high-potency topical corticosteroid, established for inflammatory and pruritic corticosteroid-responsive dermatoses. The TxGNN model predicts it may be effective for **Alopecia Mucinosa**, but this is currently supported by **0 clinical trials** and **0 publications** — the signal comes from the prediction score alone.
-
-*Note: the evidence pack contains no `original_indications` or licence data for this drug, so the original-indication description above draws on established pharmacological knowledge of the fluocinonide class rather than the supplied dataset.*
+Fluocinonide is a high-potency topical corticosteroid, originally used for inflammatory skin conditions such as eczema, dermatitis, and discoid lupus erythematosus.
+The TxGNN model predicts it may be effective for hair-loss disorders; the highest-ranked prediction with any supporting evidence is **alopecia areata**, with **1 indirectly related clinical trial** and **1 publication** (a case report).
+Direct evidence for fluocinonide in the predicted indication is very limited.
 
 ---
 
@@ -43,43 +43,68 @@ Fluocinonide is a high-potency topical corticosteroid, established for inflammat
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (fluocinonide is generally used for corticosteroid-responsive inflammatory/pruritic dermatoses) |
-| Predicted New Indication | Alopecia Mucinosa |
-| TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK authorisation record contains no indication text) |
+| Predicted New Indication | Alopecia mucinosa (top-ranked); alopecia areata (top-ranked prediction with any supporting evidence) |
+| TxGNN Prediction Score | 99.61% (alopecia mucinosa); 99.59% (alopecia areata) |
+| Evidence Level | L5 for alopecia mucinosa (model prediction only); L4 for alopecia areata (indirect evidence only) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (alopecia mucinosa); Hold, framed as a research question (alopecia areata) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack. Based on known information, fluocinonide is part of the topical corticosteroid (glucocorticoid receptor agonist) class, and its efficacy in corticosteroid-responsive inflammatory dermatoses has been proven; mechanistically, this class may be applicable to other inflammatory skin conditions.
+Detailed mechanism of action data is not available. Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory and immunosuppressive actions. Its efficacy in inflammatory dermatoses is established, and mechanistically it may be applicable to inflammatory hair-follicle disorders.
 
-Alopecia mucinosa (follicular mucinosis) is pathologically characterised by perifollicular lymphocytic infiltration and associated inflammation. In theory, the anti-inflammatory and immunomodulatory action of a potent corticosteroid such as fluocinonide could dampen this infiltrate, which is the mechanistic rationale offered for this prediction.
+The predicted indications fall mainly into the alopecia group, and their plausibility varies considerably:
 
-However, no clinical trial or published literature in this evidence pack directly links fluocinonide to alopecia mucinosa — the association rests entirely on the TxGNN model's prediction score, without independent corroboration.
-
-**Note for reviewers:** among the other candidates in this evidence pack, *alopecia areata* (rank 3, score 99.59%) has a more developed evidence base — one related clinical trial and one related publication — and a higher evidence level (L4 vs L5) and decision stage (S1 vs S0) than the top-ranked candidate above. It may warrant separate, closer evaluation.
+- **Alopecia areata** is an autoimmune, T-cell-mediated attack on hair follicles. Topical and intralesional corticosteroids are an established treatment class, so local immunosuppression is biologically coherent. The retrieved evidence does not, however, test fluocinonide directly.
+- **Alopecia mucinosa (follicular mucinosis)** is an inflammatory follicular disorder. A mechanistic rationale exists and topical corticosteroids are used empirically, but no trials or publications were found.
+- **Folliculitis decalvans** is a neutrophilic scarring alopecia with a bacterial component. Corticosteroids might help as an adjunct, but antibiotics are the primary therapy.
+- **Telogen effluvium** is mainly a non-inflammatory, trigger-driven shedding disorder, so the link to a corticosteroid is weak.
+- **Rare genetic or immunodeficiency syndromes** (hereditary hypotrichosis with recurrent skin vesicles, alopecia antibody deficiency, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome) have no plausible mechanistic link to a topical steroid. Their high scores most likely reflect proximity to other alopecia terms in the knowledge graph.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials were found for alopecia mucinosa. For alopecia areata, one trial was retrieved, and it studies a different condition:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Phase 4 | Recruiting | 250 | Multicentre prospective study comparing treatment outcomes between groups, using before-and-after photographs, in central centrifugal cicatricial alopecia (CCCA). CCCA is a scarring alopecia, not alopecia areata, and the role of fluocinonide is not confirmed. Indirect support only. |
+
+No ISRCTN or EU Clinical Trials Register entries were identified. No trials were found for the other predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15692503](https://pubmed.ncbi.nlm.nih.gov/15692503/) | 2005 | Case report | Journal of the American Academy of Dermatology | Four cases of congenital alopecia areata followed for 3 to 5 years. Hair loss had prolonged quiet periods, and treatments included minoxidil 2% and a range of topical agents. It does not establish the efficacy of fluocinonide. |
+
+No literature was found for the other predicted indications.
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1304000P0AABABA | Fluocinonide Ointment 0.05% | Ointment (per product name) | Not recorded in the data compiled for this report |
+
+One valid single-ingredient authorisation is recorded; there are no combination products and none have been cancelled. The data compiled for this report do not include NICE-appraised indications or BNF classification details. Please check the current MHRA records and the BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction screen identified 64 potential interacting drugs, but none has a graded severity (all are listed as "Unknown"). Examples include other corticosteroids (triamcinolone, prednisone, budesonide, dexamethasone, fluticasone), cyclosporine, clopidogrel, acetylsalicylic acid, ibuprofen, and several acid-suppressing drugs (omeprazole, lansoprazole, famotidine). These should be treated as unverified signals and checked against the SmPC and BNF.
+- **Conditions flagged in the knowledge graph**: Drug-disease contraindication links (not label text) include hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, Cushing syndrome, adrenal gland hyperfunction, and various pituitary hormone deficiency disorders. These are consistent with the systemic effects of corticosteroids and should be considered if substantial absorption occurs (for example, extensive use, occlusion, or use on broken skin).
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -88,14 +113,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (alopecia mucinosa) has no supporting clinical trials or literature — the evidence level is L5 (model prediction only) — and the drug currently has no UK marketing authorisation. There is insufficient basis to proceed.
+The predictions rest almost entirely on the TxGNN score. The only retrieved trial concerns a different alopecia and the only publication is a case report, so alopecia areata is best treated as a research question rather than a supported indication. Alopecia mucinosa has a plausible rationale but no evidence at all.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC warnings, contraindications and drug interaction data (currently a blocking data gap)
-- Confirmed mechanism of action data from DrugBank or the SmPC
-- Any clinical trial or literature evidence specific to fluocinonide in alopecia mucinosa
-- Consideration of whether *alopecia areata* (rank 3), which has an existing trial and a related publication, is a more appropriate candidate for further evaluation
-- Confirmation of original licensed indication(s) for fluocinonide, which were not present in this evidence pack
+- Mechanism of action data for fluocinonide
+- Label warnings and contraindications from the SmPC and BNF (not available in the data compiled for this report)
+- Approved indication text and dosage form for the UK authorisation
+- Direct comparative or controlled studies of topical fluocinonide in alopecia areata or alopecia mucinosa
+- Confirmation of whether fluocinonide was a studied treatment in NCT04207931
+- Assessment of scalp application, including route suitability and the risk of systemic absorption
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

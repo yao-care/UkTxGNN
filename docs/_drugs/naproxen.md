@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Model Prediction Only (L5)
-nav_order: 403
+nav_order: 434
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,76 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Naproxen: From NSAID Therapy to Brachydactyly-Syndactyly Syndrome
+# Naproxen: From Musculoskeletal and Pain Conditions to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Naproxen is a well-established non-steroidal anti-inflammatory drug (NSAID); however, this evidence pack contains no data on its originally licensed indication in this jurisdiction. The TxGNN model predicts a possible association with **Brachydactyly-Syndactyly Syndrome**, a rare congenital skeletal disorder, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the drug's own mechanistic rationale explicitly flags the biological link as implausible.
-
----
+Naproxen is a non-steroidal anti-inflammatory drug (NSAID) used for conditions such as arthritis, gout, tendinitis and headache or migraine disorders.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack |
-| Predicted New Indication | Brachydactyly-Syndactyly Syndrome |
+| Original Indication | Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis, gout, migraine, osteoarthritis and related conditions (from the knowledge-graph indication list; no approved indication text is available for the UK record) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate. Based on general pharmacological knowledge, Naproxen belongs to the propionic acid derivative class of NSAIDs, acting via non-selective inhibition of COX-1/COX-2 to reduce prostaglandin synthesis, and is conventionally used for pain and inflammation-related conditions.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Naproxen is an NSAID, and its efficacy in inflammatory and painful musculoskeletal conditions is established, but nothing in the supplied data links that activity to the predicted condition.
 
-The predicted new indication, brachydactyly-syndactyly syndrome, is a rare congenital skeletal malformation typically linked to genetic disruption of bone morphogenetic protein signalling (e.g. GDF5/CDMP1 pathways) during embryonic development — a structural/developmental disorder, not an inflammatory or pain-mediated condition. The evidence pack's own rationale states there is no known mechanistic link between NSAID-mediated COX inhibition and this congenital pathology.
+Brachydactyly-syndactyly syndrome is a rare congenital skeletal malformation with a developmental genetic basis. The data give no plausible reason for an anti-inflammatory drug to modify such a condition. At most, naproxen might offer symptomatic pain relief for secondary musculoskeletal complaints, which is not a disease-modifying indication.
 
-Notably, ranks 2–4 in this evidence pack show the same pattern: all four top predictions are rare congenital skeletal/developmental syndromes (colobomatous microphthalmia-rhizomelic dysplasia, acromesomelic dysplasia Hunter-Thompson type, brachyolmia-amelogenesis imperfecta syndrome), each with a documented rationale stating weak or absent biological plausibility. This clustering suggests the prediction may reflect embedding-space similarity among rare skeletal disorders in the knowledge graph rather than a genuine pharmacological signal, and should be treated as a hypothesis-generating output only.
+The high TxGNN score (rank 5,998) reflects a knowledge-graph prediction only. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
----
+The model also ranked three other rare syndromes highly (colobomatous microphthalmia-rhizomelic dysplasia syndrome, 99.22%; acromesomelic dysplasia, Hunter-Thompson type, 99.17%; brachyolmia-amelogenesis imperfecta syndrome, 99.06%). All are developmental genetic conditions with no supporting trials or literature, and the same caution applies.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
-No marketing authorisations are recorded for this candidate in the current evidence pack (market status: Not Marketed, 0 licenses on file).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010P0AAADAD (as recorded; not in standard PL format) | Naproxen Tab 250mg | Tablet (as named in the product record) | Not available in the compiled data |
 
----
+One valid single-ingredient authorisation is recorded. Please verify the authorisation details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and cautions flagged in the knowledge graph** (these are model-derived drug-disease links, not label text): hypertension, congestive heart failure, coronary artery disease, myocardial infarction, stroke and cerebrovascular disorders, liver disease and liver failure, kidney disease, blood coagulation disorders, anaemia, epilepsy, diabetes mellitus and diabetic ketoacidosis, osteoporosis, gallbladder disease, benign prostatic hyperplasia, obesity, and substance abuse/dependence.
+- **Drug interactions**: 100 interactions were identified, all of those listed being of moderate severity. Main examples include:
+  - Acetylsalicylic acid
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
+  - Metformin and chlorpropamide
+  - Acid-suppressing drugs (famotidine, ranitidine, cimetidine, rabeprazole, dexlansoprazole)
+  - Mesalazine and balsalazide
+  - Aprepitant
+  - Potassium citrate and potassium bicarbonate
+  - Bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes)
 
-*Note: TFDA/SmPC warnings and contraindications data are flagged as a Blocking data gap (DG001) in this evidence pack and must be resolved before any safety initial assessment (S1) can proceed.*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has Evidence Level L5 (model prediction only, no supporting clinical trials or literature), and the mechanistic rationale itself concludes there is no known biological basis linking NSAID activity to this congenital skeletal syndrome. Combined with a Blocking data gap on safety warnings/contraindications, this candidate does not meet the threshold to advance past S0.
+The prediction rests solely on a model score, with no clinical trials or publications, no supported mechanistic link, and a condition whose developmental genetic basis makes an NSAID effect implausible. The knowledge-graph contraindication profile also adds safety concerns for any new use.
 
 **To proceed, the following is needed:**
-- TFDA/SmPC product warnings and contraindications (Blocking gap, DG001)
-- Confirmed mechanism of action data (High priority gap, DG002)
-- Independent biological plausibility assessment for BMP/GDF5-pathway disorders
-- Any preclinical or case-level evidence supporting a link between NSAIDs and congenital skeletal dysplasias, before further investment in this direction
+- Mechanism of action data and a credible biological rationale linking COX inhibition to the target condition
+- Preclinical or case-based evidence of any benefit
+- Confirmation of the UK authorisation details (indication text, dosage form, manufacturer) and the label warnings and contraindications from the SmPC and BNF
+- A safety assessment for the intended patient population, which for these rare congenital conditions may include children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

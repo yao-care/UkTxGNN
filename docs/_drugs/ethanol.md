@@ -2,7 +2,7 @@
 layout: default
 title: Ethanol
 parent: Model Prediction Only (L5)
-nav_order: 245
+nav_order: 261
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ethanol: From No UK-Licensed Indication to Migraine Disorder
+# Ethanol: From No Recorded Original Indication to Migraine Disorder
 
 ## One-Sentence Summary
 
-Ethanol currently holds no UK marketing authorisation and no recorded original therapeutic indication in this evidence pack. The TxGNN model predicts a possible link to **Migraine Disorder**, with a high embedding similarity score, but this is supported only by **32 clinical trials of low/indirect relevance** and **no literature** for this specific indication — and separately retrieved literature on a closely related migraine subtype suggests ethanol may in fact be a migraine *trigger* rather than a treatment.
+> Ethanol is a long-established agent with one UK marketing authorisation on record, but no approved indication text is available in the data compiled for this report.
+> The TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no clinical trials** and the retrieved literature mainly describes ethanol as a migraine **trigger**, not a treatment.
+> This prediction should be regarded as unsupported as a repurposing opportunity.
 
 ---
 
@@ -41,66 +43,74 @@ Ethanol currently holds no UK marketing authorisation and no recorded original t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded — no approved indication or licence on file for Ethanol |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.29% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ethanol is not available in this evidence pack, and no original indication is on record — this is a substance with no current UK medicinal licence, so there is no established therapeutic precedent to reason from by analogy.
+Currently, detailed mechanism of action data is not available for ethanol, and no original indication is recorded, so the link between an existing use and migraine cannot be established from the data compiled.
 
-The TxGNN score (0.993, rank 6374 of the model's candidate space) reflects knowledge-graph embedding similarity rather than a demonstrated pharmacological mechanism. Of the 32 clinical trials retrieved for "migraine disorder," none actually test ethanol as an intervention for migraine — they were graded **C (low/indirect relevance)** and cover unrelated interventions (vestibular rehabilitation, botulinum toxin, biofeedback apps, cardiovascular cohorts, etc.) that happened to co-occur with migraine-related search terms.
+The high TxGNN score (0.993) most likely reflects a knowledge-graph association rather than therapeutic benefit. The supporting literature points in the harmful direction:
 
-More importantly, literature retrieved for the closely related subtype "migraine with brainstem aura" points in the **opposite direction** to the repurposing hypothesis: an ADH2 genotype association study (PMID 19486361) and a review of alcoholic drinks as headache triggers (PMID 23614946) both support ethanol as a recognised **migraine trigger/risk factor**, not a treatment. This is a material caveat that should weigh against the prediction rather than support it.
+- Ethanol-derived acetaldehyde acts through the CGRP receptor and TRPA1 in Schwann cells to evoke periorbital mechanical allodynia in mice (PMID 37101198).
+- Opening of ATP-sensitive potassium channels activates meningeal nociceptors, a proposed route to migraine headache (PMID 40785517).
+- Genetic association studies (alcohol dehydrogenase genotype, GABA receptor polymorphisms) link alcohol metabolism and GABAergic signalling to migraine susceptibility, not to treatment response.
+
+Alcohol is widely regarded as a migraine trigger. The prediction should therefore not be read as support for repurposing. A second predicted indication, migraine with brainstem aura (score 99.14%), has the same weaknesses: no trials and no ethanol-specific therapeutic evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-*Trials below were retrieved under the "migraine disorder" query but assessed as low/indirect relevance (Grade C) — none involve ethanol as the study intervention. They are listed for transparency on what evidence currently exists.*
-
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05351086](https://clinicaltrials.gov/study/NCT05351086) | Phase 1 | Completed | 26 | Safety/PK study of PUR3100 in healthy adults; not an ethanol or migraine-treatment trial |
-| [NCT06517446](https://clinicaltrials.gov/study/NCT06517446) | N/A | Recruiting | 48 | Virtual-reality optokinetic stimulation for unilateral vestibular hypofunction; unrelated to ethanol |
-| [NCT07207603](https://clinicaltrials.gov/study/NCT07207603) | N/A | Enrolling by invitation | 1000 | Observational cardiovascular risk cohort; not a migraine or ethanol study |
-| [NCT05454826](https://clinicaltrials.gov/study/NCT05454826) | N/A | Completed | 26 | Cold application plus relaxation exercises in migraine; non-pharmacological |
-| [NCT07297901](https://clinicaltrials.gov/study/NCT07297901) | N/A | Enrolling by invitation | 30 | App-based HRV breathing programme for migraine relief; non-pharmacological |
-| [NCT02810015](https://clinicaltrials.gov/study/NCT02810015) | Phase 2 | Unknown | 40 | Botulinum toxin for temporomandibular myofascial disorder; unrelated to ethanol |
-| [NCT06197542](https://clinicaltrials.gov/study/NCT06197542) | N/A | Completed | 54 | Manual therapy techniques for migraine trigger points; non-pharmacological |
-| [NCT03757208](https://clinicaltrials.gov/study/NCT03757208) | N/A | Completed | 113 | Preoperative carbohydrate loading before day-case cholecystectomy; unrelated |
-| [NCT06263920](https://clinicaltrials.gov/study/NCT06263920) | N/A | Recruiting | 360 | Observational cohort on late-onset epilepsy and subsequent stroke/dementia; unrelated |
-| [NCT00109083](https://clinicaltrials.gov/study/NCT00109083) | Phase 2 | Completed | 300 | Dose-ranging study of RWJ-333369 for migraine prophylaxis; intervention is not ethanol |
-
-An additional 22 trials were retrieved but remain unclassified (relevance "pending") in the source data; none identified so far describe ethanol as the study drug.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for the "Migraine Disorder" indication specifically.
+None of the publications below reports ethanol as a treatment for migraine. Several describe other compounds or are keyword-matching artefacts.
 
-*Note: literature retrieved under the closely related "migraine with brainstem aura" indication (14 items) includes two directly ethanol-relevant papers worth flagging to reviewers — [19486361](https://pubmed.ncbi.nlm.nih.gov/19486361/) (ADH2 genotype and migraine risk) and [23614946](https://pubmed.ncbi.nlm.nih.gov/23614946/) (alcoholic drinks as headache triggers) — both characterising ethanol as a migraine risk factor/trigger rather than a therapeutic agent. The remaining 12 items are genetic-association or biomarker studies (vitamin D receptor, GABA receptors, NOS3, LAG3/CD4) with no direct ethanol mechanistic link.*
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36373782](https://pubmed.ncbi.nlm.nih.gov/36373782/) | 2022 | Review | Headache | Reviews the complex relationship between alcohol and migraine |
+| [37101198](https://pubmed.ncbi.nlm.nih.gov/37101198/) | 2023 | Preclinical | J Biomed Sci | Acetaldehyde, via CGRP receptor and TRPA1, mediates ethanol-evoked allodynia in mice, relevant to migraine triggering |
+| [40785517](https://pubmed.ncbi.nlm.nih.gov/40785517/) | 2025 | Preclinical | Cephalalgia | KATP channel opening activates meningeal nociceptors; implications for migraine origin |
+| [19486361](https://pubmed.ncbi.nlm.nih.gov/19486361/) | 2010 | Genetic association | Headache | Alcohol dehydrogenase 2 genotype and migraine risk |
+| [35063053](https://pubmed.ncbi.nlm.nih.gov/35063053/) | 2022 | Cohort | Aerosp Med Hum Perform | Migraine history and outcomes in military pilots |
+| [29299688](https://pubmed.ncbi.nlm.nih.gov/29299688/) | 2018 | Genetic association | J Neural Transm | GABA receptor gene polymorphisms and migraine risk |
+| [19222595](https://pubmed.ncbi.nlm.nih.gov/19222595/) | 2009 | RCT (different drug: carisbamate) | Headache | Dose-response of carisbamate for migraine prevention; not ethanol |
+| [20456191](https://pubmed.ncbi.nlm.nih.gov/20456191/) | 2010 | RCT (different intervention: menthol) | Int J Clin Pract | Topical menthol 10% for acute migraine; not ethanol |
+| [30177906](https://pubmed.ncbi.nlm.nih.gov/30177906/) | 2018 | Pilot study (different compound: palmitoylethanolamide) | Front Neurol | Add-on palmitoylethanolamide in migraine with aura; not ethanol |
+| [42153521](https://pubmed.ncbi.nlm.nih.gov/42153521/) | 2026 | Scoping review | Drug Alcohol Rev | CGRP signalling in alcohol use disorders |
 
 ---
 
 ## UK Market Information
 
-Ethanol holds no UK marketing authorisation as a licensed medicinal product for any indication (Market status: Not marketed; 0 authorisations on record). No product-level data (PL numbers, formulations, licensed indications) are available to tabulate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 190100000AAADAD | Ethanol 90% (including duty) | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-Safety data for this candidate could not be assessed: key warnings, contraindications and drug-interaction data are all marked as data gaps in the evidence pack, including a **blocking gap** (missing UK/SmPC-equivalent warning and contraindication data) that prevents even a preliminary safety screen.
+**Drug Interactions** (100 interactions recorded; selected examples shown):
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Major:** eluxadoline
+- **Moderate:** acarbose, albiglutide, acetohexamide, alogliptin, acetylsalicylic acid, atropine, bupropion, canagliflozin, chlorpropamide, dapagliflozin, dicyclomine, dronabinol, dulaglutide, empagliflozin
+- **Minor:** doxycycline, cimetidine
+
+Many of the moderate interactions involve antidiabetic agents, which is relevant to glycaemic control.
+
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -109,13 +119,13 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but it is unsupported by mechanism (MOA unknown), by direct clinical evidence (all retrieved trials are unrelated to ethanol as an intervention), or by disease-specific literature (none available). Literature on a closely related migraine subtype actually characterises ethanol as a migraine trigger, which runs counter to the repurposing hypothesis. Combined with a blocking gap in safety data, there is currently no basis to proceed beyond Hold.
+The TxGNN score is high, but there are no clinical trials, and the literature indicates ethanol is a migraine trigger rather than a treatment. Evidence is at L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Ethanol's mechanism of action data relevant to migraine pathophysiology (currently a data gap)
-- UK-equivalent SmPC warnings and contraindications (blocking gap — required before any S1 safety screen)
-- Direct clinical or preclinical evidence testing ethanol (or a specific formulation/route) against migraine, rather than co-occurrence-derived trial matches
-- Reconciliation of the conflicting signal that ethanol is an established migraine trigger, not a treatment, before any further evaluation
+- Clarification of the approved indication(s) and dosage form for the UK authorisation
+- Mechanism of action data
+- Warnings and contraindications from the SmPC and BNF
+- Any credible clinical or mechanistic evidence of therapeutic benefit in migraine, as opposed to trigger effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

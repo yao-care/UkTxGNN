@@ -2,7 +2,7 @@
 layout: default
 title: Moxifloxacin
 parent: Model Prediction Only (L5)
-nav_order: 395
+nav_order: 425
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,59 +29,112 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Bacterial Infections to Hyperamylasemia
+# Moxifloxacin: From Bacterial Infections to Hyperamylasemia (Top-Ranked Prediction)
 
 ## One-Sentence Summary
 
-Moxifloxacin is a fourth-generation fluoroquinolone antibiotic; specific original licensed indications and mechanism of action data are not available in this evidence pack. The TxGNN model predicts a possible link to **Hyperamylasemia**, but this prediction is currently supported by **no clinical trials and no published literature**.
+Moxifloxacin is a fluoroquinolone antibiotic, originally used for bacterial infections such as pneumonia, conjunctivitis and plague.
+The TxGNN model's top-ranked prediction is **hyperamylasemia**, but **no clinical trials and no publications** support it. The only prediction with meaningful supporting evidence is **bubonic plague**, which is a close extension of an existing use rather than a true repurposing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in dataset — known generically as a fluoroquinolone antibiotic |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed (per available data) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, peritonitis, conjunctivitis, plague and others, per knowledge-graph indication data; no licence indication text available) |
+| Predicted New Indication | Hyperamylasemia (rank 1); bubonic plague is the best-supported prediction (rank 10) |
+| TxGNN Prediction Score | 99.98% (hyperamylasemia); 99.41% (bubonic plague) |
+| Evidence Level | L5 (hyperamylasemia); L4 (bubonic plague) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (hyperamylasemia); bubonic plague is a research question only |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, moxifloxacin is a fourth-generation fluoroquinolone antibiotic that acts by inhibiting bacterial DNA gyrase and topoisomerase IV; its established role is in treating bacterial infections, not metabolic or pancreatic enzyme disorders.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, moxifloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial infections is established.
 
-For hyperamylasemia specifically, no mechanistic pathway connects an antibacterial agent to pancreatic exocrine function or amylase metabolism. The evidence pack confirms this: the prediction is derived purely from the TxGNN knowledge graph score, with no supporting clinical trials or literature identified. This should be treated as a low-confidence, exploratory signal rather than a pharmacologically grounded hypothesis.
+**Hyperamylasemia (rank 1):** No plausible mechanism links an antibacterial to amylase metabolism. The high score is a graph-based prediction only, with no supporting data. The same applies to the other top-ranked predictions: polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, premalignant haematological disease and haematopoietic/lymphoid neoplasm. None has a rationale for moxifloxacin activity.
+
+**Haematological conditions with infection context (ranks 6 and 8):** Monoclonal gammopathy and congenital haematological disorder have trials and case reports, but these concern infection prevention or management in immunocompromised patients, not treatment of the underlying disease. The evidence is indirect.
+
+**Bubonic plague (rank 10):** This is the only prediction with strong biological plausibility. *Yersinia pestis* is susceptible to fluoroquinolones, and plague and pneumonic plague are already among moxifloxacin's known indications in the knowledge graph. Bubonic plague is therefore an extension of an existing use.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+No trials were found for hyperamylasemia. Across the other predictions, the trials found are indirect and none tests moxifloxacin for the predicted condition:
+
+| Trial Number | Phase | Status | Enrolment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00324324](https://clinicaltrials.gov/study/NCT00324324) | Phase 3 | Terminated | 240 | Placebo-controlled moxifloxacin prophylaxis against bacterial infection after allogeneic stem cell transplant. Supportive care, not disease treatment (listed under congenital haematological disorder) |
+| [NCT00062231](https://clinicaltrials.gov/study/NCT00062231) | NA | Terminated | 351 | Moxifloxacin alone vs ciprofloxacin plus amoxicillin/clavulanic acid for fever in low-risk neutropenic cancer patients (listed under monoclonal gammopathy and congenital haematological disorder) |
+| [NCT07023029](https://clinicaltrials.gov/study/NCT07023029) | Phase 1 | Completed | 33 | Etavopivat cardiac repolarisation study in healthy participants; likely uses moxifloxacin as a positive control, with no efficacy information |
+
+No bubonic plague trials were retrieved.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+The publications below relate to bubonic plague, monoclonal gammopathy and congenital analbuminemia. None was found for hyperamylasemia.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15555886](https://pubmed.ncbi.nlm.nih.gov/15555886/) | 2004 | Preclinical (mouse) | Int J Antimicrob Agents | Moxifloxacin and gatifloxacin gave full protection in mouse models of systemic and pneumonic plague, compared with ciprofloxacin |
+| [20052916](https://pubmed.ncbi.nlm.nih.gov/20052916/) | 2009 | Preclinical (mouse) | Antibiot Khimioter | *Y. pestis* strains highly susceptible to levofloxacin and moxifloxacin; ED50 5.5-14.0 mg/kg in infected mice |
+| [21115791](https://pubmed.ncbi.nlm.nih.gov/21115791/) | 2011 | Preclinical (in vitro model) | Antimicrob Agents Chemother | Derived a moxifloxacin regimen that optimised kill of *Y. pestis* and prevented resistance |
+| [21486959](https://pubmed.ncbi.nlm.nih.gov/21486959/) | 2011 | Preclinical (in vitro model) | Antimicrob Agents Chemother | Comparative efficacy of candidate antibiotics against *Y. pestis* versus streptomycin |
+| [29623187](https://pubmed.ncbi.nlm.nih.gov/29623187/) | 2018 | Case report | Ther Adv Drug Saf | Moxifloxacin-induced tinnitus in an older adult (adverse event) |
+| [35619805](https://pubmed.ncbi.nlm.nih.gov/35619805/) | 2022 | Case report | Front Public Health | Disseminated nocardiosis in a patient with macroglobulinaemia; isolate susceptible to moxifloxacin |
+| [39901105](https://pubmed.ncbi.nlm.nih.gov/39901105/) | 2025 | Case report | BMC Infect Dis | Nocardia, Candida and Aspergillus co-infection in multiple myeloma |
+| [32181025](https://pubmed.ncbi.nlm.nih.gov/32181025/) | 2020 | Case report | Case Rep Endocrinol | Recurrent hypoglycaemia in congenital analbuminemia; does not appear to involve moxifloxacin as treatment |
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501120Y0AAAAAA | Moxifloxacin Tablets 400 mg | Tablet (not specified in the data) | Not specified in the data |
+
+One valid single-ingredient authorisation is recorded. The data compiled for this report do not include the dosage form or approved indication text. Please check the current MHRA record and BNF entry.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Knowledge-graph contraindication signals** (from drug-disease edges, not label text):
+- **Cardiac:** long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischaemia, coronary artery disease
+- **Neurological and neuromuscular:** epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, peripheral neuropathy and peripheral nervous system disease
+- **Musculoskeletal:** tendinitis, periarthritis, exostosis
+- **Hepatic:** cirrhosis of the liver, drug-induced liver injury
+- **Gastrointestinal:** *Clostridium difficile* colitis, perinatal necrotising enterocolitis
+- **Metabolic:** potassium deficiency
 
-Two critical data gaps affect this evaluation and should be resolved before further review:
-- **Blocking**: SmPC-level warnings and contraindications are not yet available, which prevents a proper S1 safety assessment.
-- **High**: Mechanism of action data has not yet been retrieved, limiting assessment of mechanistic plausibility.
+**Drug interactions** (100 recorded; examples):
+- **Major:** hydrocortisone, dexamethasone, betamethasone, triamcinolone, bupropion, chlorpropamide
+- **Moderate:** antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, canagliflozin), famotidine, loperamide, aspirin, balsalazide, bisacodyl, calcium and potassium salts
+
+Notably, fluoroquinolones carry a labelled risk of peripheral neuropathy, which argues against use in the predicted neuropathy-associated haematological disease. Package insert warnings and contraindications are not available in the data compiled for this report, so please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (hyperamylasemia) is supported only by a raw TxGNN score, with no mechanistic rationale, clinical trials, or literature evidence (Evidence Level L5). Combined with missing safety data (warnings/contraindications) and missing MOA data, there is currently no basis to progress this candidate.
+The top-ranked prediction, hyperamylasemia, has no mechanistic rationale, trials or literature, and the same is true of most other high-scoring predictions. The only plausible candidate, bubonic plague, is an extension of an existing antibacterial use supported by preclinical data alone, and is better treated as a research question than a repurposing opportunity.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain SmPC warnings/contraindications from the relevant regulatory source
-- Resolve DG002: obtain confirmed mechanism of action data from DrugBank
-- Identify any mechanistic or preclinical rationale specific to hyperamylasemia, or deprioritise this candidate in favour of stronger signals
-
-**Note on alternative candidates:** Among the ten TxGNN-predicted indications reviewed for moxifloxacin, **bubonic plague** (rank 10, score 99.41%, Evidence Level L3) shows substantially stronger and more plausible support — moxifloxacin's known DNA gyrase/topoisomerase IV inhibition gives it direct bactericidal activity against *Yersinia pestis*, and multiple animal-model and in vitro PK/PD studies corroborate this. If a repurposing direction for moxifloxacin is to be pursued, this candidate warrants evaluation ahead of hyperamylasemia.
+- Mechanism of action data and SmPC warnings and contraindications (currently missing, a blocking gap for safety screening)
+- Licensed indication and dosage form details from the MHRA record
+- For bubonic plague: human clinical or guideline evidence, and confirmation of whether the existing UK licence already covers plague
+- For any other prediction: a defined biological rationale before further investment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

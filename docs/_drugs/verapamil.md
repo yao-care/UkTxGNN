@@ -2,7 +2,7 @@
 layout: default
 title: Verapamil
 parent: Model Prediction Only (L5)
-nav_order: 611
+nav_order: 653
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,11 +29,14 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Verapamil: From Cardiac Arrhythmia/Hypertension to Obsolete Bundle Branch Block
+# Verapamil: From Hypertension and Arrhythmia to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
 
 ## One-Sentence Summary
 
-Verapamil is a Class IV calcium-channel blocker traditionally used in cardiovascular disease (arrhythmia and hypertension); detailed original indication and mechanism-of-action data were not supplied in this Evidence Pack. TxGNN's top-ranked prediction, **Obsolete Bundle Branch Block**, is scored at **99.62%** but carries **no supporting clinical trials or literature**, and the Evidence Pack's own mechanistic analysis suggests this high score likely reflects a known **safety risk** (worsening of AV conduction) rather than a genuine therapeutic opportunity. Across all seven candidate indications in this pack, evidence remains weak (L4–L5), and only one candidate reaches a "Research Question" stage.
+Verapamil is an L-type calcium channel blocker, originally used for hypertension, atrial fibrillation, angina and ventricular tachycardia.
+The TxGNN model's top-ranked prediction is **obsolete bundle branch block**, which is almost certainly a graph artefact. The only prediction with any supporting literature of note is **pulmonary hypertension owing to lung disease and/or hypoxia**, backed by **no clinical trials** and **only indirect preclinical literature**.
+
+This report covers the top-ranked prediction and the best-supported alternative, because the top-ranked prediction has no evidence and a mechanistic concern.
 
 ---
 
@@ -41,80 +44,103 @@ Verapamil is a Class IV calcium-channel blocker traditionally used in cardiovasc
 
 | Item | Content |
 |------|------|
-| Original Indication | Not separately specified in the Evidence Pack; rationale text identifies verapamil as an approved Class IV (L-type calcium-channel blocker) antiarrhythmic, also used as an antihypertensive |
-| Predicted New Indication | Obsolete Bundle Branch Block |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the UK licence record has no indication text) |
+| Predicted New Indication (rank 1) | Obsolete bundle branch block |
+| Best-supported alternative | Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5) |
+| TxGNN Prediction Score | 99.62% (rank 1); 99.26% (rank 5 alternative) |
+| Evidence Level | L5 (rank 1); L4 (rank 5 alternative) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (rank 1); Research question only (rank 5 alternative) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for verapamil could not be extracted from this Evidence Pack (flagged as a High-severity data gap). However, the rationale accompanying the top prediction supplies relevant pharmacological context: verapamil is a Class IV calcium-channel blocker known to suppress atrioventricular (AV) nodal conduction and prolong the PR interval.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil blocks L-type calcium channels, relaxing vascular smooth muscle and slowing atrioventricular (AV) nodal conduction. This underpins its use in hypertension, supraventricular arrhythmias and angina.
 
-Critically, this pharmacology argues **against**, not for, the top-ranked prediction. In patients with bundle branch block — particularly bifascicular block — verapamil's AV-nodal suppression carries a risk of precipitating complete heart block. The Evidence Pack's own analysis concludes that the high TxGNN score most likely reflects a "verapamil–cardiac conduction system" co-occurrence within the knowledge graph rather than a genuine treatment association. In other words, the model may be capturing a **contraindication signal**, not a repurposing opportunity, and no clinical trials or publications were retrieved to support therapeutic use.
+**Bundle branch block (rank 1).** The mechanistic case is weak. Slowing conduction is not a treatment for bundle branch block, and AV nodal blockade could worsen conduction disease. The term is also flagged as obsolete in the ontology. The high score (99.62%) most likely reflects the condition's proximity to verapamil's approved arrhythmia indications in the knowledge graph, not true therapeutic potential.
 
-Among the remaining candidates, rank 2 (malignant renovascular hypertension) has a somewhat more plausible — though still weak — rationale, since verapamil is an established antihypertensive and could theoretically contribute to blood pressure control in severe hypertension. However, calcium-channel blockers are not first-line therapy where renal artery stenosis is present (ACE inhibitors/ARBs or revascularisation are preferred), and the two literature items retrieved discuss renovascular hypertension generally without directly evaluating verapamil.
+**Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5).** Hypoxic pulmonary vasoconstriction depends partly on L-type calcium channel activity, so calcium channel blockade is mechanistically plausible. However, blocking hypoxic vasoconstriction may worsen gas exchange through ventilation-perfusion mismatch, and verapamil's negative inotropic effect is a concern in right ventricular dysfunction. In pulmonary arterial hypertension, calcium channel blockers are used only in a small vasoreactive subgroup, mainly with dihydropyridines or diltiazem.
 
----
-
-## Other Predicted Indications Considered
-
-This Evidence Pack ranks seven candidate indications for verapamil. For transparency, all are summarised below, as the top-ranked candidate (above) is flagged as a likely safety signal rather than a therapeutic lead.
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Note |
-|------|---------|-------------|-----------------|-----------------|------|
-| 1 | Obsolete bundle branch block | 99.62% | L5 | Hold | Mechanistically a safety warning, not a benefit signal |
-| 2 | Malignant renovascular hypertension | 99.27% | L4 | Research Question | CCBs are not first-line where renal artery stenosis is present |
-| 3 | Malignant hypertensive renal disease | 99.27% | L5 | Hold | No trials or literature |
-| 4 | Pulmonary hypertension, unclear multifactorial mechanism | 99.26% | L5 | Hold | Weak theoretical basis; verapamil rarely used in PAH |
-| 5 | Pulmonary hypertension owing to lung disease/hypoxia | 99.26% | L5 | Hold | Guidelines advise **against** CCBs in this group (Group 3 PH); literature retrieved is generic hypoxia biology, not verapamil-specific |
-| 6 | Braddock syndrome | 99.15% | L5 | Hold | Rare genetic disorder with no known mechanistic link |
-| 7 | Periodic paralysis with transient compartment-like syndrome | 99.08% | L5 | Hold | No supporting evidence |
+The other predictions (malignant renovascular hypertension, malignant hypertensive renal disease, pulmonary hypertension of unclear multifactorial mechanism, Braddock syndrome, periodic paralysis with transient compartment-like syndrome) have no supporting trials, and their rationale rests on graph similarity.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+**Bundle branch block:** Currently no related literature available.
+
+**Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5):** 20 records were retrieved, but most are off-topic (retinal neuroprotection, natural product chemistry, migraine, multifocal atrial tachycardia). The most relevant are preclinical:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24977753](https://pubmed.ncbi.nlm.nih.gov/24977753/) | 2014 | Preclinical (animal) | J Trauma Acute Care Surg | Verapamil preserved cytoskeletal function in an intestinal model after hypoxia-reoxygenation |
+| [9768801](https://pubmed.ncbi.nlm.nih.gov/9768801/) | 1998 | Preclinical (ex vivo) | Anesth Analg | Ketamine-induced pulmonary vasodilation in isolated rat lung is partly mediated by L-type calcium channels (verapamil used as a probe) |
+| [21962069](https://pubmed.ncbi.nlm.nih.gov/21962069/) | 2011 | Preclinical (animal) | High Alt Med Biol | Long-term hypoxia and serotonin-mediated calcium influx through L-type channels in sheep pulmonary arteries |
+| [1353873](https://pubmed.ncbi.nlm.nih.gov/1353873/) | 1992 | Review | Pathol Biol | Calcium antagonists (including verapamil) for migraine prophylaxis; efficacy not firmly demonstrated (off-topic) |
+| [9440591](https://pubmed.ncbi.nlm.nih.gov/9440591/) | 1998 | Review | Chest | Multifocal atrial tachycardia, commonly seen with COPD (indirect context only) |
+
+**Malignant renovascular hypertension (rank 2):** Two papers were retrieved, neither a verapamil efficacy study.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [22147655](https://pubmed.ncbi.nlm.nih.gov/22147655/) | 2012 | Review | Horm Metab Res | Factors affecting the aldosterone/renin ratio; malignant or renovascular hypertension can cause false negatives |
+| [10224210](https://pubmed.ncbi.nlm.nih.gov/10224210/) | 1999 | Case report | Pediatrics | Solitary renal myofibromatosis as a cause of infantile renovascular hypertension |
 
 ---
 
 ## UK Market Information
 
-Verapamil is currently **not marketed** in the UK under this Evidence Pack's data, with no marketing authorisations on record (0 licences). No product, dosage form, or approved indication data is available for extraction.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0206020T0AAACAC (BNF-style product code, not a PL number) | Verapamil HCl tablets 40 mg | Tablet | Not available in the data compiled |
+
+The record corresponds to BNF section 2.6.2 (calcium-channel blockers). No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the current SmPC.
 
 ---
 
 ## Safety Considerations
 
-Formal safety data (key warnings, contraindications, drug interactions) were not available in this Evidence Pack. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from knowledge-graph drug-disease edges, not label text):** The knowledge graph links verapamil with several conditions, including:
+- Cardiac: heart failure, atrioventricular block, hypotensive disorder, aortic stenosis, hypertrophic cardiomyopathy, ventricular tachycardia (graph edges, to be verified against the SmPC)
+- Hepatic and renal: liver disease, kidney disease, renal artery obstruction
+- Neuromuscular: myasthenia gravis and neuromuscular junction disease
+- Haematological: neutropenia, agranulocytosis
+- Angioedema (including hereditary forms)
 
-Separately, note that the mechanistic analysis underlying the top prediction (Obsolete Bundle Branch Block) flags a **potential AV-conduction risk** with verapamil in patients with bundle branch block — this is a pharmacological caution derived from the repurposing rationale, not from a formal warnings/contraindications database, and should be verified against the current SmPC.
+These should be treated as signals requiring verification, not as confirmed label contraindications.
+
+**Drug Interactions:** 100 interactions were identified. The sample reviewed included:
+- **Major:** loperamide
+- **Moderate:** clarithromycin, cimetidine, aprepitant, bupropion, acetylsalicylic acid, metformin, canagliflozin, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone) and calcium salts
+- **Minor:** morphine
+
+Several of these (clarithromycin, cimetidine, aprepitant) are plausibly related to CYP3A4 or P-glycoprotein effects, but the mechanisms are not stated in the data.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for obsolete bundle branch block and the other prediction-only candidates). Pulmonary hypertension owing to lung disease and/or hypoxia is a **research question** only.
 
 **Rationale:**
-Evidence across all seven predicted indications is weak (L4–L5), with no clinical trials and only tangential literature. The top-ranked prediction is more consistent with a known cardiac safety risk than a therapeutic opportunity, and the drug has no current UK marketing authorisation on record. Only one candidate (malignant renovascular hypertension) reaches a "Research Question" stage, and even that lacks verapamil-specific evidence.
+- The top-ranked prediction has no trials or literature, an unfavourable mechanistic rationale (possible worsening of conduction disease) and an obsolete ontology term, so its high score is likely a graph artefact.
+- The best-supported alternative has only indirect preclinical evidence, with concerns about V/Q mismatch and negative inotropy.
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC warnings and contraindications (currently a blocking data gap preventing formal safety screening)
-- Confirmed mechanism-of-action data via DrugBank
-- Verapamil-specific literature and/or preclinical data for malignant renovascular hypertension, the only candidate currently at Research Question stage
-- Clarification of current UK marketing/licensing status for verapamil products
+- Mechanism of action data and the current UK SmPC warnings and contraindications (the safety screen cannot be completed without these)
+- Confirmation of the UK marketing authorisation number, dosage form and licensed indications
+- For pulmonary hypertension: direct preclinical or early clinical data on verapamil in hypoxia-related pulmonary hypertension, including gas exchange and right ventricular safety
+- Review of the 30 knowledge-graph contraindication signals against label text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

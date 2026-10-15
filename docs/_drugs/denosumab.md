@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Model Prediction Only (L5)
-nav_order: 202
+nav_order: 214
 evidence_level: L5
 indication_count: 2
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Denosumab is a RANKL-targeting monoclonal antibody used to treat osteoporosis, and this evidence pack currently shows no active UK marketing authorisation on file for it. The TxGNN model predicts a possible new role in **Severe Nonproliferative Diabetic Retinopathy**, with a prediction score of **99.63%**, but this specific prediction is currently supported by **zero clinical trials** and **zero publications** — it is a pure model inference extrapolated from a related, weaker-evidenced prediction (general diabetic retinopathy).
+Denosumab is a RANKL-neutralising monoclonal antibody, originally used to treat osteoporosis, including postmenopausal and drug-induced osteoporosis.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but this is a model prediction only, with **no clinical trials** and **no publications** supporting it directly.
+A closely related prediction, **diabetic retinopathy**, has **2 publications**, neither of which tests denosumab in this condition.
 
 ---
 
@@ -41,25 +43,23 @@ Denosumab is a RANKL-targeting monoclonal antibody used to treat osteoporosis, a
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis (identified from literature evidence; no formal UK licence text is present in this pack) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+| Original Indication | Osteoporosis (including postmenopausal and drug-induced osteoporosis) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is flagged as a data gap in this pack (`original_moa: [Data Gap]`), but the underlying evidence entries do give a partial mechanistic picture: Denosumab is a monoclonal antibody against RANKL, blocking the RANK/RANKL/OPG axis that is central to osteoclast-mediated bone turnover — its established basis of use in osteoporosis.
+Denosumab is a monoclonal antibody that neutralises RANKL. In osteoporosis, this reduces bone resorption. Detailed mechanism of action data are not available in the data compiled for this report, so the following reasoning is hypothetical.
 
-The pack's own repurposing rationale extends this mechanism to the eye: the OPG/RANKL system is also expressed in retinal vascular endothelium and pericytes, and RANKL signalling has been implicated in the angiogenesis and pericyte apoptosis seen in diabetic retinopathy. The severe nonproliferative subtype prediction is explicitly derived from this same logic applied to a related, less advanced disease stage (plain "diabetic retinopathy", TxGNN score 99.23%, rank 6788), which itself carries only indirect, low-grade supporting evidence (one Grade-C-relevance safety trial and two cohort-level publications — see Related Evidence below).
+One plausible but unverified link is that RANKL/RANK/OPG signalling may influence vascular inflammation, endothelial dysfunction and vascular calcification. These processes are relevant to diabetic microvascular disease. No retinal-specific evidence was identified, so this link is speculative.
 
-For severe nonproliferative diabetic retinopathy specifically, no trial or literature evidence exists in this pack at all. The mechanistic link is therefore a second-order extrapolation — plausible on biological grounds, but currently untested in this specific patient population or disease stage.
-
-**Related evidence (for context only, not for this specific subtype):** The broader "diabetic retinopathy" prediction is supported by NCT00925600 (a Phase 3 ocular-safety substudy of Denosumab in prostate cancer patients — Grade C relevance, not a retinopathy efficacy trial) and two cohort/registry publications (PMID 38899553, PMID 36960265) on diabetes-related outcomes with Denosumab. None of this evidence directly addresses severe nonproliferative disease.
+The original indication (bone metabolism) and the predicted indication (diabetic eye disease) are not closely related. The similarity between them has not been assessed. The very high TxGNN score reflects a model-derived association, not clinical validation.
 
 ---
 
@@ -71,19 +71,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found for severe nonproliferative diabetic retinopathy. For the broader **diabetic retinopathy** prediction (score 99.23%), two publications were identified. Neither tests denosumab as a treatment for retinopathy.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Likely observational cohort with systematic review and meta-analysis (design not confirmed) | Diabetes, Obesity & Metabolism | In osteoporosis patients, denosumab was associated with a lower incidence of type 2 diabetes, less foot ulceration and lower all-cause mortality than bisphosphonates. The study also examined microvascular outcomes (including retinopathy), but the retinopathy result cannot be confirmed from the available data. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Likely observational or cross-sectional (design not confirmed) | Cureus | Evaluated use of the FRAX fracture risk tool in adults with type 2 diabetes. Unrelated to retinopathy treatment. |
 
 ---
 
 ## UK Market Information
 
-Denosumab currently has no UK marketing authorisation on record in this evidence pack (market status: **Not marketed**, 0 licences held). No product, dosage form, or licensed indication text is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0606020Z0AAAAAA (BNF-style code) | Denosumab injection 60 mg/1 mL pre-filled syringe | Not specified | Not specified |
+
+The identifier above looks like a BNF classification code, not a standard MHRA PL number. Authorisation details should be checked against the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** 100 potential interactions were identified in the interaction database. The entries listed are all of moderate severity. Examples include:
+  - Corticosteroids: hydrocortisone, prednisolone, prednisone, methylprednisolone, dexamethasone, betamethasone, budesonide, triamcinolone
+  - Immunosuppressants and immunomodulators: tacrolimus, mercaptopurine, dupilumab, levamisole
+  - Radiopharmaceuticals and related agents: ibritumomab tiuxetan, tositumomab, iobenguane (I-131)
+  - Corticotropin and tetracosactide
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -92,14 +107,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-This is a Level 5 (model-prediction-only) candidate with no clinical trial or literature evidence specific to severe nonproliferative diabetic retinopathy, and the drug has no current UK marketing authorisation to build on. There is nothing here yet to justify advancing beyond the prediction stage.
+The prediction rests on a model score alone. There are no registered trials, and the two publications identified do not test denosumab in diabetic retinopathy. The mechanistic link is speculative, so the evidence does not support repurposing at this stage.
 
 **To proceed, the following is needed:**
-- SmPC warnings, precautions and contraindications from MHRA (flagged as a blocking data gap in this pack)
-- A confirmed mechanism-of-action record from DrugBank (flagged as a high-priority data gap)
-- Disease-stage-specific clinical or preclinical evidence for severe nonproliferative diabetic retinopathy, rather than relying solely on the general diabetic retinopathy extrapolation
-- Confirmation of UK licensing status/route of administration, since the drug is currently unlicensed here
-- If evidence accrues, re-evaluation of the related "diabetic retinopathy" (rank 2) candidate in parallel, as it currently carries marginally stronger (though still low-grade) supporting evidence
+- Full-text review of PMID 38899553 to determine whether retinopathy was an outcome and what the result was
+- Mechanism of action data and preclinical evidence for RANKL/RANK/OPG involvement in retinal disease
+- Safety review based on the SmPC and BNF, as warnings and contraindications were not available for this report
+- Confirmation of MHRA authorisation details, including licence number, dosage form and approved indication
+- Assessment of route compatibility, as intravitreal and systemic delivery have not been evaluated
+- Any registered or planned clinical studies in diabetic retinopathy, to move beyond L5 evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

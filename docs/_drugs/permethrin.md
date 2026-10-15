@@ -2,7 +2,7 @@
 layout: default
 title: Permethrin
 parent: Moderate Evidence (L3-L4)
-nav_order: 452
+nav_order: 487
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Permethrin: From Scabies and Head Lice to Trombiculiasis
+# Permethrin: From Scabies and Lice Infestations to Trombiculiasis
 
 ## One-Sentence Summary
 
-> Permethrin is a pyrethroid ectoparasiticide, originally used to treat scabies and head lice.
-> The TxGNN model predicts it may be effective for **Trombiculiasis** (chigger mite dermatitis),
-> with **no clinical trials** and **1 publication** (a veterinary case study) currently supporting this direction.
+Permethrin is a topical pyrethroid ectoparasiticide, originally used to treat scabies and lice (head, body and pubic) infestations.
+The TxGNN model predicts it may be effective for **trombiculiasis** (chigger mite infestation), but the only supporting evidence is **1 veterinary publication** and **no registered clinical trials**, so this remains a research question.
 
 ---
 
@@ -43,23 +42,23 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Scabies and head lice (based on known pharmacological use; no UK licensing text available in the evidence pack) |
+| Original Indication | Scabies, Norwegian scabies, mite infestation, and head, body and pubic lice infestations |
 | Predicted New Indication | Trombiculiasis |
 | TxGNN Prediction Score | 95.16% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not currently available for this record. However, based on the pharmacological classification referenced in the evidence pack, Permethrin is a pyrethroid ectoparasiticide/acaricide that acts on the voltage-gated sodium channels of arthropod nerve cells, causing paralysis and death of the parasite. Its established human indications — scabies (caused by the mite *Sarcoptes scabiei*) and head lice (*Pediculus humanus capitis*) — both involve arthropod ectoparasite infestations of the skin.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, permethrin is a pyrethroid that keeps voltage-gated sodium channels open in arthropod neurons, causing paralysis and death of the parasite.
 
-Trombiculiasis is a pruritic dermatitis caused by the larval stage of chigger mites (family Trombiculidae, e.g. *Neotrombicula autumnalis*) feeding on the skin. Chigger mites and scabies mites both belong to the subclass Acari and share similar arthropod neurophysiology, making them susceptible to the same sodium-channel-targeting mechanism.
+Trombiculiasis is caused by trombiculid mite larvae (chiggers). Permethrin is already used against scabies and other mite infestations, so an effect on another mite-borne skin condition is biologically plausible.
 
-Because Permethrin's mode of action targets a broad class of arthropod ectoparasites rather than a single species, extrapolation from scabies/lice to chigger mite dermatitis has reasonable biological plausibility (a "class effect" argument). This is supported by one veterinary case study showing efficacy against *Neotrombicula autumnalis* dermatitis in dogs, although direct human clinical data are currently lacking.
+The supporting evidence is indirect, however. The one publication found is a veterinary study in dogs using permethrin-pyriproxyfen combination products, not permethrin alone and not in humans.
 
 ---
 
@@ -73,21 +72,27 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Veterinary Clinical Study | The Journal of Small Animal Practice | Topical permethrin-pyriproxyfen combination resolved *Neotrombicula autumnalis*-induced moderate-to-severe pruritic dermatitis in 14 of 15 dogs within 1–3 weeks of treatment |
-
-**Note:** This is a veterinary (canine) study only; no human data are currently available.
+| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Veterinary clinical study (combination product) | J Small Anim Pract | 15 dogs with itchy dermatitis from *Neotrombicula autumnalis* were treated with topical permethrin-pyriproxyfen combinations. Treatment was effective within 1 to 3 weeks in 14 dogs, and the dermatitis resolved once the infestation cleared. |
 
 ---
 
 ## UK Market Information
 
-Permethrin is currently not marketed in the UK according to this evidence pack, and no marketing authorisation records are available for reference.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1310040Q0AAABAB | Permethrin cream 5% | Cream | Not stated in the data compiled for this report |
+
+Only one valid single-ingredient authorisation is recorded. The record is incomplete: no manufacturer, dosage form detail or indication text was available, and it should be checked against the MHRA register and the BNF before any reliance is placed on it.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signal**: The TxGNN knowledge graph links permethrin with **bronchial disease** as a contraindication. This comes from the graph, not from product label text, and needs verification against the SmPC.
+
+No drug interactions were identified in the data compiled for this report.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -96,14 +101,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-Only a single preclinical/veterinary case study (L4) supports this prediction, with no human clinical trials, no UK marketing authorisation, and unresolved safety and mechanism-of-action data gaps. Despite a mechanistically plausible "class effect" rationale, current evidence is insufficient to justify progression.
+The prediction is biologically plausible, since permethrin acts on mites, but the only evidence is a non-human study of combination products. There are no human trials, and the safety data (label warnings and contraindications) are incomplete.
 
 **To proceed, the following is needed:**
-- MHRA/SmPC warnings and contraindications data for Permethrin (currently a blocking data gap)
-- Confirmed mechanism of action documentation from DrugBank
-- Human clinical or case-series evidence specifically evaluating Permethrin for chigger mite dermatitis (trombiculiasis)
-- Verification of UK marketing authorisation and licensed dosage forms
-- Drug–drug interaction (DDI) data
+- Human clinical data (case series or trials) on permethrin for trombiculiasis
+- Confirmation of the UK authorisation details (indication, dosage form, manufacturer) and the SmPC warnings and contraindications
+- Verification of the knowledge-graph contraindication signal (bronchial disease)
+- Mechanism of action data from DrugBank to complete the mechanistic analysis
+- Comparison with current standard care for chigger bites, which is mainly symptomatic
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

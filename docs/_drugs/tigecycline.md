@@ -2,7 +2,7 @@
 layout: default
 title: Tigecycline
 parent: Model Prediction Only (L5)
-nav_order: 575
+nav_order: 617
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tigecycline: From Bacterial Infections to Disorder of Tyrosine Metabolism
+# Tigecycline: From Streptococcal Pneumonia to Disorder of Tyrosine Metabolism
 
 ## One-Sentence Summary
 
-Tigecycline is a glycylcycline-class antibiotic (a tetracycline derivative) used to treat bacterial infections; the specific UK-approved indication text is not included in this Evidence Pack. The TxGNN model predicts a possible association with **Disorder of Tyrosine Metabolism**, but this is currently supported only by **1 clinical trial** and **4 publications**, none of which actually address tyrosine metabolism — the retrieved evidence instead concerns chronic myeloid leukaemia and mitochondrial biology, suggesting the prediction may be a false positive driven by lexical similarity between "tyrosine metabolism" and "tyrosine kinase".
+Tigecycline is a glycylcycline antibiotic, originally used for streptococcal pneumonia.
+The TxGNN model predicts it may be effective for **disorder of tyrosine metabolism**, but there are **no registered clinical trials** and only **4 publications** (all preclinical or commentary, none directly relevant to tyrosine metabolism), so the prediction is supported by model output alone.
 
 ---
 
@@ -41,31 +42,29 @@ Tigecycline is a glycylcycline-class antibiotic (a tetracycline derivative) used
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in this Evidence Pack (known to be a glycylcycline-class antibiotic, per literature) |
-| Predicted New Indication | Disorder of Tyrosine Metabolism |
+| Original Indication | Streptococcal pneumonia (from the knowledge graph; no approved indication text is available in the UK licence record) |
+| Predicted New Indication | Disorder of tyrosine metabolism |
 | TxGNN Prediction Score | 95.76% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data for tigecycline is not available in this Evidence Pack (flagged as data gap DG002, High severity). Based on the literature retrieved, tigecycline is a glycylcycline-class antibiotic that binds the bacterial 30S ribosomal subunit to inhibit protein synthesis. An off-target effect — inhibition of the human mitochondrial ribosome (mitoribosome) — has also been documented, reducing oxidative phosphorylation (OXPHOS) capacity in certain cell types. This off-target activity has been explored in oncology research, particularly in leukaemia stem cells that depend heavily on mitochondrial metabolism.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, tigecycline is a tetracycline-class (glycylcycline) antibiotic that inhibits bacterial protein synthesis. Its efficacy in bacterial infection such as streptococcal pneumonia is the basis of its original use.
 
-However, no biochemical or pharmacological relationship has been established between tigecycline's known mechanisms (ribosomal/mitoribosomal protein synthesis inhibition) and disorders of tyrosine metabolism, which arise from defects in tyrosine-degradation enzymes (e.g. fumarylacetoacetase, tyrosine aminotransferase). None of the retrieved clinical trial or literature evidence discusses tyrosine metabolism, tyrosinaemia, or related enzymatic pathways.
+No direct link to tyrosine metabolism has been established. The retrieved literature concerns tigecycline's inhibition of mitochondrial translation and oxidative phosphorylation in cancer stem cells and leukaemia cells, and its effects on human melanocytes and fibroblasts. Melanin is synthesised from tyrosine, so the melanocyte study offers a tenuous, indirect connection, but it does not examine tyrosine metabolic disorders.
 
-The single associated clinical trial (NCT02883036) and three of the four associated publications instead concern chronic myeloid leukaemia (CML) and BCR-ABL/EGFR tyrosine kinase inhibitor resistance, where mitochondrial OXPHOS inhibition by tigecycline is being studied as an adjunct strategy. This strongly suggests the TxGNN association is a lexical/ontological artefact — conflating "tyrosine metabolism" with "tyrosine kinase" — rather than a genuine mechanistic signal. On current evidence, this candidate should not be considered mechanistically plausible.
+The high TxGNN score is a computational prediction without clinical support. It should be treated as a hypothesis only.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02883036](https://clinicaltrials.gov/study/NCT02883036) | N/A | Unknown | 100 | In vitro study of mitochondrial biogenesis/metabolic changes with tigecycline in chronic myeloid leukaemia (CML) models. Relevance graded **C (low)** — concerns CML biology, not tyrosine metabolism disorder; likely a coincidental keyword match. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,24 +72,31 @@ The single associated clinical trial (NCT02883036) and three of the four associa
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41009505](https://pubmed.ncbi.nlm.nih.gov/41009505/) | 2025 | In Vitro Study | International Journal of Molecular Sciences | Effects of tigecycline on human epidermal melanocytes and fibroblasts; dermatological pigmentary/phototoxic adverse effects — unrelated to tyrosine metabolism disorders. |
-| [28920959](https://pubmed.ncbi.nlm.nih.gov/28920959/) | 2017 | Preclinical (cell line) | Nature Medicine | Tigecycline inhibits mitochondrial OXPHOS to eradicate therapy-resistant CML leukaemic stem cells — mechanistically relevant to CML, not tyrosine metabolism. |
-| [29404396](https://pubmed.ncbi.nlm.nih.gov/29404396/) | 2018 | Commentary/Review | Molecular & Cellular Oncology | Author commentary on the above CML leukaemic stem cell/mitochondrial OXPHOS study. |
-| [31765940](https://pubmed.ncbi.nlm.nih.gov/31765940/) | 2020 | Preclinical | Neoplasia | SIRT1-targeting eradicates EGFR-TKI-resistant lung adenocarcinoma stem cells via mitochondrial OXPHOS regulation; tigecycline discussed as a mitochondrial translation inhibitor, not in the context of tyrosine metabolism. |
+| [41009505](https://pubmed.ncbi.nlm.nih.gov/41009505/) | 2025 | In vitro study | Int J Mol Sci | Effects of tigecycline on human epidermal melanocytes and fibroblasts; tetracyclines are linked to pigmentary disorders and phototoxicity, possibly through affinity for melanin |
+| [31765940](https://pubmed.ncbi.nlm.nih.gov/31765940/) | 2020 | Preclinical | Neoplasia | Targeting SIRT1 and mitochondrial oxidative phosphorylation in EGFR TKI-resistant lung adenocarcinoma stem cells (tigecycline not the main focus in the available abstract) |
+| [28920959](https://pubmed.ncbi.nlm.nih.gov/28920959/) | 2017 | Preclinical | Nature Medicine | Targeting mitochondrial oxidative phosphorylation, with tigecycline plus imatinib, eradicated therapy-resistant chronic myeloid leukaemia stem cells |
+| [29404396](https://pubmed.ncbi.nlm.nih.gov/29404396/) | 2018 | Commentary | Mol Cell Oncol | Auto-commentary on the above: tigecycline plus imatinib prevented relapse in preclinical models |
+
+None of these publications addresses tyrosine metabolism disorders.
 
 ---
 
 ## UK Market Information
 
-According to this Evidence Pack, tigecycline currently has **no listed UK marketing authorisations** (0 licences; market status: Not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501030Y0AAAAAA (BNF-style product code; not a PL number) | Tigecycline powder for injection, 50 mg vial | Powder for injection | Not available in the data compiled for this report |
+
+The BNF section code 0501030Y0 places the product among the tetracycline-class antibacterials (BNF chapter 5, Infections). The data compiled for this report did not include an MHRA PL number or approved indication text.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications and associated conditions (knowledge graph, not label text)**: liver failure, hyperbilirubinaemia, hereditary hyperbilirubinaemia, Gilbert syndrome, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, pancreatitis.
+- **Drug Interactions**: 30 interactions were identified, most with unclassified severity. Those graded **Moderate** include warfarin, dicoumarol (anticoagulant effect; monitor coagulation), picosulfuric acid, methoxsalen and tacrolimus. Others with unclassified severity include vancomycin, metronidazole, clarithromycin, proton pump inhibitors (omeprazole, lansoprazole, pantoprazole), morphine, prednisone, simvastatin, clopidogrel, heparin, ondansetron, metoclopramide, potassium chloride and acetylcysteine.
 
-*Note: this Evidence Pack has a blocking data gap (DG001) for TFDA/MHRA product-label warnings and contraindications, which currently prevents a formal S1 safety pre-assessment.*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -99,13 +105,15 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score (95.76%) is high, but no clinical trial or literature evidence specifically addresses tyrosine metabolism disorders; the associated evidence instead concerns unrelated CML/tyrosine-kinase-inhibitor-resistance research. The mechanistic rationale is unsupported, and the signal is most plausibly a text/ontology-driven false positive (Evidence Level L5, prediction only).
+The prediction rests on model output alone (L5). There are no clinical trials, and the retrieved literature does not address tyrosine metabolism. Several knowledge-graph contraindications (liver failure, hyperbilirubinaemia, pancreatitis) would also be relevant in a population with metabolic disease.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for tigecycline (data gap DG002)
-- UK/MHRA SmPC warnings, contraindications and safety data (data gap DG001, **blocking** — currently prevents any safety pre-assessment)
-- Independent biochemical/pharmacological review to confirm or definitively rule out any tyrosine-metabolism hypothesis before further investment
-- Note: among the 10 candidates in this Evidence Pack, rank 10 ("monoclonal gammopathy", Evidence Level L4, decision stage S1, recommendation "Research Question") is supported by two independent in vitro studies on tigecycline's anti-myeloma mitochondrial mechanism and may warrant separate evaluation as a more promising repurposing lead than the top-ranked candidate above.
+- Mechanism of action data and a plausible biological link between tigecycline and the tyrosine metabolic pathway
+- Targeted preclinical studies (for example, in relevant enzyme or cell models) before any clinical consideration
+- MHRA licence details (PL number, approved indications) and the SmPC safety information, including warnings and contraindications
+- Review of safety in the target population, given the hepatic and pancreatic signals
+
+**Other predictions reviewed:** None of the other nine predicted indications (ranks 2-10) supports repurposing. Several are better explained as adverse-event associations (teratogenic Pierre Robin syndrome, hyperamylasaemia) or have no evidence. The only one with preclinical data is monoclonal gammopathy (L4, Research Question): tigecycline showed antitumour activity in myeloma cell lines, but one study reported that it opposes the effect of bortezomib, which raises an antagonism concern with standard therapy.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

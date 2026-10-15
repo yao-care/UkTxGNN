@@ -2,7 +2,7 @@
 layout: default
 title: Gamolenic Acid
 parent: Model Prediction Only (L5)
-nav_order: 289
+nav_order: 311
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gamolenic Acid: From No UK-Authorised Indication to Insomnia (Predicted)
+# Gamolenic Acid: From an Unspecified Original Indication to Insomnia
 
 ## One-Sentence Summary
 
-Gamolenic acid (gamma-linolenic acid, GLA, DrugBank DB13854) currently holds no marketing authorisation in the United Kingdom and no original indication or mechanism-of-action data is recorded in this evidence pack. The TxGNN model predicts a possible effect on **Insomnia**, but this is supported by only **1 clinical trial** (rated as unrelated to either the drug or the indication) and **0 publications**, indicating the signal is currently unvalidated.
-
----
+Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule. The data compiled for this report do not state its original approved indication.
+The TxGNN model predicts it may be effective for **insomnia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no UK licences on record and no original indication data captured (data gap) |
+| Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for gamolenic acid is not available in this evidence pack, and the drug has no recorded UK marketing authorisation or original indication, which limits any standard MOA-to-indication plausibility assessment.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, GLA is converted to dihomo-gamma-linolenic acid and then to prostaglandin E1 (PGE1), which has anti-inflammatory effects.
 
-The only clinical trial linked to this candidate — NCT07233148 (Healing ALS Registry Observational Study, HAROS) — is an observational registry for people with ALS, MND or PLS. It has no direct connection to gamolenic acid or to insomnia; the evidence pipeline itself rated its relevance as grade C ("不相關試驗" / not relevant), noting it was surfaced by the automated search without a genuine mechanistic or clinical link.
+A link between this pathway and sleep regulation is speculative. Possible routes would be modulation of neuroinflammation or neuronal membrane lipid composition, but nothing in the data compiled for this report supports either. The high score is the only support for the prediction.
 
-On balance, this appears to be a case of a high TxGNN confidence score unsupported by corroborating trial or literature evidence — a likely false-positive signal rather than a genuine biological hypothesis. Worth flagging separately: within the same evidence pack, the **rheumatoid arthritis** prediction (rank 4) is backed by substantially stronger evidence (evidence level L2, two completed trials directly testing GLA, and 20 supporting publications including RCTs), consistent with GLA's established role as a precursor of anti-inflammatory dihomo-gamma-linolenic acid (DGLA) and prostaglandin E1. That signal may merit independent evaluation outside the scope of this insomnia-focused report.
-
----
+Other predictions follow the same pattern:
+- **Sleep disorder (initiating and maintaining sleep)** (98.87%) is essentially the same clinical entity as insomnia, so it likely reflects the same signal rather than independent support.
+- **Anxiety** (98.87%), **anxiety disorder** (97.14%) and **agoraphobia** (97.27%) overlap with one another and are likewise unsupported by trials or literature.
+- **Rheumatoid arthritis** (97.61%) is the most biologically plausible. GLA is metabolised to PGE1 and 15-HETrE, which have anti-inflammatory effects and may reduce pro-inflammatory leukotriene production. This is consistent with GLA's known pharmacology, but the data compiled here contain no trials or literature, so it remains L5. It is flagged as a research question.
+- Predictions for **alcohol withdrawal delirium**, **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, **benign paroxysmal torticollis of infancy** and **acute encephalopathy with biphasic seizures and late reduced diffusion** (all about 97%) have no plausible GLA mechanism and are most likely knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07233148](https://clinicaltrials.gov/study/NCT07233148) | N/A | Recruiting | 1000 | Observational monthly registry for people with ALS, MND or PLS, tracking ALSFRS-R scores, symptoms, diet, supplements and therapies. Not designed to evaluate gamolenic acid or insomnia; flagged as unrelated (grade C) by the evidence pipeline. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-Gamolenic acid is not currently marketed in the United Kingdom. No MHRA marketing authorisations are on record (0 licences).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1305010I0AAABAB | Gamolenic Acid Cap 80mg | Capsule (80 mg) | Not stated in the compiled data |
 
----
+The identifier above is a classification-style code rather than a standard MHRA PL number, so it should be verified against the MHRA register. The approved indication, manufacturer and NICE appraisal status should also be checked against the SmPC and BNF.
 
 ## Safety Considerations
 
-No structured safety data (key warnings, contraindications, or drug interactions) were available in this evidence pack, and as gamolenic acid is unlicensed in the UK, no SmPC currently exists to consult. Any future safety assessment would need to draw on DrugBank monograph data, published literature, and international product information (e.g. evening primrose oil/borage oil-derived GLA products) before proceeding further. Should the drug be used or supplied in the UK, suspected adverse reactions should still be reported via the Yellow Card Scheme.
-
----
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.93%), the only associated clinical trial is unrelated to both gamolenic acid and insomnia, there is no supporting literature, and no mechanism-of-action data exists to establish biological plausibility. This is evidence level L5 — a model prediction with no corroborating clinical or preclinical support.
+The insomnia prediction has a high model score but no supporting trials, no literature and no mechanism of action data, so it remains at evidence level L5. Safety information is also missing, so the candidate cannot progress to safety screening.
 
 **To proceed, the following is needed:**
-- Mechanism-of-action data for gamolenic acid (DG002 — query DrugBank API)
-- TFDA/MHRA label warnings and contraindications (DG001 — required before any S1 safety screening)
-- Genuine preclinical or clinical evidence linking GLA to sleep-onset or sleep-maintenance pathways
-- Consideration of the rheumatoid arthritis signal (rank 4, evidence level L2) as a separate, better-supported candidate for further evaluation
+- Confirm the original approved indication and the full SmPC (warnings, contraindications, interactions) from the MHRA and BNF.
+- Obtain mechanism of action data (for example from DrugBank).
+- Run a targeted literature and trial registry search (PubMed, ClinicalTrials.gov, ISRCTN, EU CTR) for GLA in insomnia and sleep disorders.
+- Run a separate targeted search for existing GLA randomised trials in rheumatoid arthritis, the most biologically plausible alternative. Such evidence may exist outside the compiled data and could raise the evidence level.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

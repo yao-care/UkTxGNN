@@ -2,7 +2,7 @@
 layout: default
 title: Degarelix
 parent: Model Prediction Only (L5)
-nav_order: 200
+nav_order: 212
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Degarelix is a GnRH (gonadotropin-releasing hormone) receptor antagonist established in oncology for advanced hormone-dependent prostate cancer, though it holds **no current UK marketing authorisation** and its formal mechanism-of-action record in this evidence pack remains a data gap.
-> The TxGNN model's top-ranked prediction for this drug is **Hypertrichosis (disease)**, with a very high similarity score (**99.99%**) but **zero supporting clinical trials and zero literature**.
-> This is a model-only prediction (Evidence Level L5) with a weak, non-specific mechanistic rationale, and the recommended decision is **Hold**.
+Degarelix is a gonadotropin-releasing hormone (GnRH) receptor antagonist, with a UK marketing authorisation on record but no approved indication text in the data compiled for this report.
+The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **no registered clinical trials** and **no publications** supporting this direction.
+This is a model-only prediction with a weak mechanistic rationale.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Advanced hormone-dependent prostate cancer (from published prescribing information; not confirmed within this evidence pack — see Data Gaps below) |
+| Original Indication | Not stated in the available authorisation data |
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Degarelix is flagged as a data gap in this evidence pack (DG002, High severity). Based on information embedded elsewhere in the pack's own repurposing rationale, Degarelix acts as a GnRH receptor antagonist: it directly blocks pituitary GnRH receptors, suppressing LH/FSH release and, downstream, testosterone production. This androgen-deprivation mechanism underlies its established oncology use.
+Detailed mechanism of action data is not available in the data compiled for this report. Degarelix is known as a GnRH receptor antagonist: it blocks pituitary GnRH receptors, reducing LH and FSH release and therefore gonadal androgen production.
 
-The proposed link to hypertrichosis (excessive hair growth) rests on the idea that if a case of hypertrichosis is androgen-driven (i.e. related to hyperandrogenism), suppressing testosterone could plausibly reduce it. However, the evidence pack's own rationale is explicit that this connection is weak: the general hypertrichosis category is most commonly caused by drug exposure, congenital factors, or other non-hormonal mechanisms unrelated to androgen signalling. The mechanistic link is therefore described as "unclear and overly generic" rather than disease-specific.
+The link to hypertrichosis is weak. Hypertrichosis is generally not androgen-driven (unlike hirsutism), so suppressing gonadal hormones is not an established way to treat it. The high TxGNN score reflects graph-based network proximity only, with no supporting trials or literature.
 
-In short, while the TxGNN similarity score is very high, no biological specificity or independent evidence currently substantiates this particular pairing — the score alone should not be read as clinical plausibility.
+Other top-ranked predictions are similarly unsupported. Examples are Ambras-type hypertrichosis universalis congenita, a Dandy-Walker malformation syndrome, isolated hair shaft abnormalities, and urticaria. Only **central precocious puberty** (score 99.67%) is biologically coherent, because GnRH suppression is its established principle of treatment. Even there, no paediatric data exist for degarelix. Practical barriers include the depot formulation and injection-site reactions.
 
 ---
 
@@ -77,27 +77,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Degarelix does not currently hold a UK marketing authorisation (0 licences recorded in this evidence pack), so no MHRA product entry is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0803042R0AAAAAA | Degarelix injection 80 mg vial + diluent | Injection (powder and solvent) | Not stated in the available data |
 
----
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Hormonal/endocrine antineoplastic (GnRH receptor antagonist; androgen-deprivation therapy) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Not established in this evidence pack; GnRH antagonists are not typically associated with significant myelosuppression |
-| Emetogenicity Classification | Not established in this evidence pack |
-| Monitoring Items | Please refer to the SmPC warnings and precautions |
-| Handling Protection | Please refer to the SmPC warnings and precautions |
+The data compiled for this report list one valid single-ingredient authorisation. It does not give a PL number, manufacturer or indication text. Please verify details against the MHRA register, the SmPC and the BNF.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease associations flagged by the knowledge graph** (not taken from label text): long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease and potassium deficiency disease. These should be checked against the SmPC.
+- **Drug Interactions** (100 interactions recorded; main ones shown):
+  - **Major:** cisapride and dolasetron (consistent with QT-prolongation concerns).
+  - **Moderate:** clarithromycin, levofloxacin, ondansetron, granisetron, palonosetron, famotidine, loperamide, and several laxatives and bowel-preparation agents (bisacodyl, picosulfuric acid, lactulose, lactitol, magnesium citrate, magnesium hydroxide, polyethylene glycol with electrolytes, castor oil, glycerin, mineral oil).
+  - **Minor:** metronidazole.
 
-Note: this evidence pack flags TFDA/SmPC warnings and contraindications as a **Blocking** data gap (DG001) — a formal safety review cannot proceed to S1 until this is resolved.
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -106,15 +102,14 @@ Note: this evidence pack flags TFDA/SmPC warnings and contraindications as a **B
 **Decision: Hold**
 
 **Rationale:**
-- The prediction is supported only by a TxGNN similarity score, with no clinical trials, literature, mechanistic specificity, or UK regulatory footing (drug not marketed) to corroborate it.
+The prediction rests on model output alone (L5), with no trials, no literature and a weak mechanistic link to hypertrichosis. Safety data from the product label were also not available for this assessment.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking safety data gap (DG001: SmPC warnings/contraindications)
-- Confirmation of mechanism of action and original licensed indication (DG002)
-- Any preclinical or case-level evidence specifically linking GnRH antagonism to androgen-driven hypertrichosis
-- Re-evaluation should Degarelix obtain UK marketing authorisation
-
-*Note: within this same evidence pack, rank 9 ("central precocious puberty 1") shows a substantially stronger and more disease-specific mechanistic rationale — Degarelix's GnRH-antagonist action directly parallels the established use of GnRH agonists in this condition — and is scored "Research Question" rather than "Hold". It may warrant separate evaluation despite its lower TxGNN rank.*
+- Confirmation of the licensed indication and product details from the MHRA register and SmPC
+- Label-based warnings and contraindications, including QT-related risk
+- Mechanism of action data
+- Preclinical or observational evidence for any androgen-independent role in hair growth
+- Consideration of **central precocious puberty** as a separate research question, since it is the most biologically plausible prediction, with paediatric safety and formulation feasibility to be established first
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

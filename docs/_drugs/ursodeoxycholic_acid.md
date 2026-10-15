@@ -2,7 +2,7 @@
 layout: default
 title: Ursodeoxycholic Acid
 parent: Model Prediction Only (L5)
-nav_order: 607
+nav_order: 649
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Ursodeoxycholic Acid: From Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolemia
+# Ursodeoxycholic Acid: From Gallstone Disease and Primary Biliary Cholangitis to Homozygous Familial Hypercholesterolaemia
 
 ## One-Sentence Summary
 
-Ursodeoxycholic acid (UDCA) is a hydrophilic bile acid whose established uses relate to primary biliary cholangitis and gallstone dissolution. The TxGNN model predicts a possible role in **Homozygous Familial Hypercholesterolemia (HoFH)**, but this prediction is currently based on the model score alone, with **no supporting clinical trials or published literature**, and the mechanistic rationale itself raises significant doubts about biological plausibility.
+Ursodeoxycholic acid (UDCA) is a bile acid originally used for gallstone disease (cholelithiasis) and primary biliary cholangitis.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolaemia**,
+but there are currently **no clinical trials and no publications** supporting this direction, so it remains a computational hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Primary biliary cholangitis (PBC) and gallstone dissolution (drawn from the mechanistic rationale narrative; no UK licence data confirms this) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome |
+| Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ursodeoxycholic acid is not available in this Evidence Pack (data gap). Based on the accompanying mechanistic rationale, UDCA's known pharmacology involves altering the composition of the bile acid pool, reducing biliary cholesterol saturation, and providing mild anti-apoptotic/cytoprotective effects — the basis for its use in PBC and gallstone dissolution.
+Detailed mechanism of action data is not currently available. Based on general knowledge, UDCA is a hydrophilic bile acid that influences bile acid and cholesterol handling. It may reduce intestinal cholesterol absorption, lower hepatic secretion of cholesterol into bile, and influence FXR signalling and bile acid synthesis (CYP7A1). These properties underlie its use in gallstone disease and primary biliary cholangitis.
 
-However, the link to HoFH proposed by the model appears mechanistically weak, and arguably runs in the wrong direction. Cholesterol-lowering strategies that work through bile acid depletion (e.g. bile acid sequestrants) act by triggering compensatory **upregulation of the LDL receptor**. HoFH, by definition, is caused by **absent or non-functional LDL receptors** (receptor-negative or receptor-defective disease), so a mechanism dependent on LDL receptor upregulation would be expected to have little or no effect in this population.
-
-Furthermore, UDCA is an **exogenous bile acid supplement**, not a bile acid sequestrant that depletes the bile acid pool. Its pharmacological direction is therefore essentially opposite to what would be required to drive an LDL receptor-mediated cholesterol-lowering effect. This mismatch is a key reason the evidence pack flags the rationale as "weak and direction-uncertain," and it substantially undermines confidence in the TxGNN prediction independent of the absence of clinical or literature support.
+Homozygous familial hypercholesterolaemia is a different kind of problem. It is caused by dysfunction of the LDL receptor pathway (variants in *LDLR*, *APOB*, *PCSK9* or *LDLRAP1*), leading to severely raised LDL cholesterol. Because the core defect is impaired receptor-mediated LDL clearance, any effect of UDCA on bile acid or cholesterol metabolism would likely be modest and unlikely to correct it. The link is therefore plausible only in a broad sense, and it is unverified.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +65,36 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Ursodeoxycholic acid is currently recorded as **Not Marketed** in this data set, with **0 marketing authorisations** on file. No licence records are available to summarise approved indications, dosage forms, or product names.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0109010U0AAAAAA (BNF code; PL number not available) | Ursodeoxycholic Acid Tablets 150 mg | Tablet | Not stated in the data compiled |
+
+Only one valid single-ingredient authorisation is recorded. Indication text and manufacturer details were not available, and NICE-appraised indications could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction search completed and returned 100 records. Most listed entries are of unknown severity. The only ones graded **Minor** are:
+  - Ciclosporin
+  - Aluminium hydroxide
+  - Magaldrate
+
+  Other listed entries with unclassified severity include pravastatin, ramipril, lorazepam, tramadol, fluconazole, erythromycin, sildenafil, pantoprazole, citalopram, moxifloxacin, nelfinavir, glimepiride and indinavir. Aluminium-containing antacids may bind bile acids and reduce absorption, so dose separation should be checked against the SmPC.
+
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is supported only by the TxGNN model score (Evidence Level L5), with no clinical trials or literature identified. The proposed mechanistic link is itself questionable, since HoFH's defining LDL receptor deficiency likely renders the proposed bile-acid-pool mechanism ineffective, and UDCA acts in the opposite pharmacological direction to what cholesterol lowering via this pathway would require.
+The prediction score is very high (99.86%), but there are no clinical trials or publications, and the proposed mechanism does not address the underlying LDL receptor defect. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for ursodeoxycholic acid (currently a data gap)
-- Product label warnings and contraindications from the relevant regulatory source, needed before any safety pre-screening can proceed (currently a blocking data gap)
-- Preclinical or mechanistic studies specifically evaluating UDCA in LDL receptor-negative/defective models relevant to HoFH
-- Clarification of UK marketing/licensing status if repurposing is to be pursued further
+- Mechanism of action data for UDCA to allow a proper mechanistic assessment
+- Preclinical or early clinical data on UDCA effects on LDL cholesterol in familial hypercholesterolaemia
+- A systematic literature search to confirm that no relevant studies exist
+- Complete UK authorisation details (PL number, approved indications, SmPC warnings and contraindications)
+- A review of the interaction data, particularly with statins and other lipid-lowering therapies used in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

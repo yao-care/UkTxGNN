@@ -2,15 +2,15 @@
 layout: default
 title: Famotidine
 parent: Moderate Evidence (L3-L4)
-nav_order: 259
-evidence_level: L3
+nav_order: 275
+evidence_level: L4
 indication_count: 10
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Famotidine: From Peptic Ulcer Disease to Duodenogastric Reflux
+# Famotidine: From Gastric Ulcer to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Famotidine is a histamine H2-receptor antagonist, conventionally used to suppress gastric acid secretion in conditions such as peptic ulcer disease. The TxGNN model predicts a possible additional role in **Duodenogastric Reflux**, but this specific prediction is currently supported by **0 clinical trials** and only **2 publications**, placing it at a very early, hypothesis-generating stage of evidence.
+Famotidine is a histamine H2-receptor antagonist, originally used to treat gastric and duodenal ulcers, gastro-oesophageal reflux disease and related acid-driven conditions.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, but only **2 small or indirect publications** and **no registered clinical trials** support this direction.
+Several other top-ranked predictions (such as peptic ulcer disease) largely overlap with existing labelled uses and are not true repurposing.
 
 ---
 
@@ -41,27 +43,43 @@ Famotidine is a histamine H2-receptor antagonist, conventionally used to suppres
 
 | Item | Content |
 |------|------|
-| Original Indication | Peptic ulcer disease / acid-related gastrointestinal disorders (general H2-receptor antagonist use; no drug-specific licensed indication text is available in this evidence pack) |
-| Predicted New Indication | Duodenogastric Reflux |
+| Original Indication | Gastric ulcer, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, duodenal ulcer, Zollinger-Ellison syndrome (the MHRA licence record compiled for this report contains no indication text) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (flagged internally as "Research Question" — early-stage signal only) |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for this candidate is not available in the evidence pack (a High-severity data gap). Based on well-established pharmacological knowledge, famotidine belongs to the histamine H2-receptor antagonist class, and its acid-suppressing efficacy in peptic ulcer disease and related acid-hypersecretory conditions is well documented; mechanistically, reducing gastric acid output could plausibly extend some benefit to other reflux-type conditions.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on established pharmacology, famotidine blocks H2 receptors on gastric parietal cells and reduces gastric acid secretion. Its efficacy in acid-related disease such as ulcers and reflux is well established.
 
-However, the specific mechanistic link proposed for duodenogastric reflux is weak. Duodenogastric reflux is primarily driven by retrograde flow of **bile and pancreatic juice** into the stomach, rather than by gastric acid hypersecretion. Acid suppression may relieve secondary acid-related symptoms, but it does not address the underlying pathophysiology of bile/pancreatic reflux. Consequently, while the TxGNN score is very high, the biological rationale for direct therapeutic benefit in this indication is limited, and the prediction should be regarded as a research hypothesis rather than a clinically actionable signal at this stage.
+Duodenogastric reflux is the backflow of bile and duodenal contents into the stomach. Acid suppression may ease symptoms or mucosal injury, but it does not correct the underlying motility problem. The mechanistic link is therefore partial and symptomatic, not disease-modifying.
+
+The graph-based prediction probably reflects the close proximity of this condition to ulcer and reflux disease in the knowledge graph. Evidence is thin: one cohort study in critically ill patients and one Russian-language report on early gastroduodenal reflux disease.
+
+**Other predictions in the data (for context):**
+
+| Predicted Indication | Evidence Level | Comment |
+|------|------|------|
+| Peptic ulcer disease | L1 | Overlaps with the labelled indication; 8 registered trials, several showing famotidine is inferior to pantoprazole for secondary prevention in aspirin or thienopyridine users |
+| Gastroduodenitis | L3 | Mostly ulcer-focused evidence overlapping the labelled use |
+| Gastrojejunal ulcer | L3 | Famotidine was the comparator in a small Phase 4 trial |
+| Peptic ulcer perforation | L3 | Famotidine inferior to pantoprazole for preventing recurrent aspirin-related ulcers; perforation itself is surgical |
+| Active peptic ulcer disease | L4 | On-label overlap, not a new indication |
+| Multiple endocrine neoplasia | L4 | Indirect; addresses acid hypersecretion in Zollinger-Ellison syndrome only |
+| Duodenal obstruction | L5 | No clear mechanistic link |
+| Abnormality of glucagon secretion | L5 | No evidence; computational prediction only |
+| Acne | L5 | No evidence; computational prediction only |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for duodenogastric reflux.
 
 ---
 
@@ -69,22 +87,28 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Cohort/Clinical study | World Journal of Gastroenterology | Investigated the effect of famotidine on gastroesophageal reflux (GER) and duodeno-gastro-esophageal reflux (DGER) in critically ill patients, exploring possible mechanisms and relevant contributing factors. |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Review | Eksperimental'naia i klinicheskaia gastroenterologiia (Experimental & Clinical Gastroenterology) | Reviewed efficacy of famotidine 20 mg twice daily at early stages of gastroduodenal reflux disease, based on clinical and endoscopic assessment (Savary–Miller grades 0–1). |
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Cohort | World J Gastroenterol | Investigated the effect of famotidine on gastro-oesophageal and duodeno-gastro-oesophageal reflux in critically ill patients and possible mechanisms |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Review | Eksp Klin Gastroenterol | Famotidine 20 mg twice daily in early-stage gastroduodenal reflux disease, assessed clinically and endoscopically |
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisations are currently recorded for Famotidine in this evidence pack (0 licences; market status: Not marketed). No product name, dosage form, or licensed indication text is therefore available to summarise here.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0103010H0AAAAAA (BNF-style code) | Famotidine tablets 20 mg | Tablet | Not stated in the data compiled for this report |
+
+Famotidine is marketed in the UK, with one valid single-ingredient authorisation recorded. Please check the current SmPC and BNF (section 1.3, antisecretory drugs) for authorised indications and doses.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications recorded in the knowledge graph (not label text):** kidney disease and impaired renal function, liver disease, gallbladder disease, nephrolithiasis, hypercalcaemia and related calcium or phosphorus disorders, hyperparathyroidism, sarcoidosis, diarrhoeal disease, constipation, and gastric cancers and neoplasms. These graph associations need verification against the SmPC; in particular, gastric malignancy should be excluded before acid suppression in patients with alarm symptoms.
+- **Drug interactions:** 100 interactions were identified, mostly of moderate severity. Examples include abiraterone, acalabrutinib, tramadol, salbutamol, alfuzosin, aminophylline, amiodarone, amisulpride, amitriptyline, apomorphine and aripiprazole. Minor interactions include alendronic acid and aluminium hydroxide.
+- **Literature signals:** a case report of delirium after switching from cimetidine to famotidine (PMID 11573854).
 
-*Note: this evidence pack flags a Blocking data gap — SmPC-equivalent warnings/contraindications data has not yet been retrieved — which by itself prevents this candidate from completing even a preliminary (S1) safety assessment.*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -93,14 +117,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The mechanistic rationale for duodenogastric reflux is biologically weak (acid suppression does not target the bile/pancreatic-driven pathology), and no clinical trials support this specific indication — only two low-tier publications (a clinical cohort study and a review) exist.
-- A Blocking data gap on safety/warning label data means this candidate cannot yet proceed past the initial safety screening stage regardless of efficacy evidence.
+The duodenogastric reflux prediction has a high model score but rests on two small or indirect publications and no registered trials. Acid suppression would at most relieve symptoms and does not address the underlying cause. The strongest-scoring evidence in the data (peptic ulcer disease) is on-label use, where famotidine is often inferior to a proton pump inhibitor for secondary prevention.
 
 **To proceed, the following is needed:**
-- Retrieval of SmPC-equivalent warnings, contraindications, and prescribing information (currently a Blocking data gap)
-- Confirmation of famotidine's mechanism of action from DrugBank or an equivalent source (currently a High-severity data gap)
-- Dedicated mechanistic or clinical studies addressing bile/pancreatic reflux components of duodenogastric reflux, rather than acid-only endpoints
-- Confirmation of UK marketing/licensing status, since no authorisations are currently on record
+- Controlled clinical studies of famotidine specifically in duodenogastric (bile) reflux, with symptom and endoscopic or histological endpoints
+- Comparison against proton pump inhibitors or other standard care
+- Detailed mechanism of action data
+- Full SmPC warnings and contraindications for the UK-authorised product, including the approved indication text
+- Verification of the knowledge-graph contraindications (renal, hepatic and calcium-related conditions) and a dose-adjustment plan for renal impairment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

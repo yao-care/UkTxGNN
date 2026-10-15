@@ -2,7 +2,7 @@
 layout: default
 title: Cycloserine
 parent: Model Prediction Only (L5)
-nav_order: 185
+nav_order: 196
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cycloserine: From Tuberculosis to Irritable Bowel Syndrome
+# Cycloserine: From Pulmonary Tuberculosis to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Cycloserine is a second-line antibiotic used mainly for multidrug-resistant tuberculosis (MDR-TB). The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome**, with a very high prediction score of **99.95%**, but currently **no clinical trials and no published literature** support this specific link — the prediction is model-driven only.
-
----
+Cycloserine is a second-line antibiotic originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but this is a model prediction only, with **no clinical trials** and **no relevant publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tuberculosis, particularly multidrug-resistant TB (based on evidence-pack rationale text; no formal UK licence data available — see below) |
-| Predicted New Indication | Irritable Bowel Syndrome |
+| Original Indication | Pulmonary tuberculosis (taken from the knowledge-graph indication record, as no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available in the regulatory registry for this drug (flagged as a High-severity data gap). Based on information available elsewhere in the evidence pack, cycloserine is a second-line anti-tuberculosis antibiotic that inhibits bacterial cell-wall synthesis (D-alanine racemase/ligase inhibition), and its D-isomer also acts centrally as an NMDA receptor glycine-site partial agonist.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cycloserine is a D-alanine analogue that inhibits bacterial cell wall synthesis, which explains its use in drug-resistant tuberculosis. It also acts as a partial agonist at the NMDA receptor in the central nervous system.
 
-Its efficacy in MDR-TB is well established. However, no mechanistic or clinical connection between this profile and irritable bowel syndrome — a gut-brain axis / visceral hypersensitivity disorder — has been identified in the trials or literature reviewed. The evidence pack's own rationale explicitly flags this: the TxGNN score is extremely high (99.95%) yet is entirely unsupported by trial or publication evidence, and should be treated as a potential knowledge-graph artefact rather than a genuine pharmacological signal. The same pattern (very high score, zero supporting evidence, no mechanistic rationale) recurs across most of the other top-10 predictions for this drug (acne, gastroparesis, conjunctivitis, pharyngitis, nasal cavity disease, acute laryngopharyngitis, postgastrectomy syndrome, rhinitis), suggesting a possible model clustering bias around antimicrobial/mucosal-disease nodes that warrants separate methodological review.
+Neither property offers a clear link to irritable bowel syndrome (IBS). Any effect through the gut microbiome would be speculative, and the data compiled for this report do not support a plausible mechanism. The high TxGNN score most likely reflects patterns in the knowledge graph rather than a demonstrated therapeutic rationale, so it should be treated as a hypothesis only.
 
----
+Other predicted indications were also reviewed. All remain at L5 with a recommendation of Hold:
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Acne | 99.91% | An antibacterial effect is conceivable, but neuropsychiatric toxicity makes the risk-benefit balance unfavourable against established treatments |
+| Gastroparesis | 99.66% | No mechanistic rationale evident |
+| Conjunctivitis | 99.27% | Only a 1963 general review of antibiotics; topical agents are the usual choice |
+| Insomnia | 99.21% | Literature shows cycloserine can *cause* insomnia and psychosis, which is the opposite of a therapeutic signal |
+| Pharyngitis | 99.01% | No supporting data |
+| Nasal cavity disease | 99.01% | One unrelated rhinosporidiosis case report |
+| Acute laryngopharyngitis | 98.85% | No supporting data |
+| Postgastrectomy syndrome | 98.79% | No supporting data |
+| Rhinitis | 98.70% | No supporting data |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for irritable bowel syndrome.
 
 ## UK Market Information
 
-Cycloserine currently holds no UK marketing authorisations (market status: **not marketed**, total licences: **0**). No dosage form or product information is available for the UK market.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501090E0AAABAB (BNF-style product code, not a PL number) | Cycloserine capsules 250 mg | Capsule | Not available in the compiled data |
 
----
+The BNF classification code (section 5.1.9, antituberculosis drugs) is consistent with its use in tuberculosis.
 
 ## Safety Considerations
 
-No structured warnings, contraindications, or interaction data are currently available in the registry for cycloserine (flagged as a Blocking-severity data gap — TFDA/SmPC label data has not yet been obtained). Please refer to the SmPC and BNF for safety information once available. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged in the knowledge graph as contraindications** (derived from the knowledge graph, not from label text): epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, kidney disease, pyoureter, psychotic disorder, schizophreniform disorder, mental disorder, schizoaffective disorder, substance abuse/dependence, vitamin B12 deficiency, megaloblastic anaemia and sideroblastic anaemia.
+- **Drug interactions** (11 recorded):
+  - **Major:** bupropion, ethanol, iohexol, iopamidol
+  - **Moderate:** picosulfuric acid, polyethylene glycol 3350 with electrolytes, sodium sulfate, caffeine, dicoumarol, warfarin, lindane
+- **Neuropsychiatric effects:** a 2022 case report describes cycloserine-induced insomnia and psychosis during treatment of multidrug-resistant tuberculosis.
 
-**Note:** literature identified during evidence review for a separate, unrelated candidate indication (insomnia) describes cycloserine-induced insomnia and psychosis in a patient treated for MDR-TB (PMID 36712725), consistent with cycloserine's known CNS/neuropsychiatric adverse effect profile (dose-related seizures, psychosis, confusion, sleep disturbance). This should be considered when evaluating any centrally active repurposing candidate for this drug.
-
----
+Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (irritable bowel syndrome) has an Evidence Level of L5 — a high TxGNN score with no supporting clinical trials or literature — and no plausible mechanistic link has been established. Cycloserine is also not currently marketed in the UK, and critical safety data (SmPC warnings/contraindications, confirmed MOA) remain outstanding, which blocks even a preliminary safety assessment.
+The prediction rests on the model score alone (L5), with no trials, no supporting literature and no plausible mechanistic link to irritable bowel syndrome. The known neuropsychiatric toxicity and the long list of knowledge-graph contraindications make the risk-benefit balance unfavourable for a non-life-threatening condition such as IBS.
 
 **To proceed, the following is needed:**
-- TFDA/SmPC warning and contraindication data (currently a Blocking gap)
-- Confirmed mechanism-of-action data via DrugBank (currently a High-severity gap)
-- Dedicated mechanistic or preclinical studies linking cycloserine to gut-brain axis pathophysiology, since none currently exist
-- A methodological review of whether the cluster of unsupported high-scoring predictions (IBS, acne, gastroparesis, and the ENT/mucosal-disease group) reflects a genuine signal or a knowledge-graph co-occurrence artefact
-- If pursuing repurposing in the UK at all, a new marketing authorisation pathway, since the drug is not currently licensed here
+- Mechanism of action data and a credible biological rationale linking cycloserine to IBS
+- Preclinical or early-phase clinical evidence of benefit
+- SmPC-based warnings and contraindications (the safety screening could not be completed without them)
+- The approved indication text and dosage form for the UK authorisation
+- A risk-benefit assessment against established IBS therapies, including a plan for monitoring neuropsychiatric adverse effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

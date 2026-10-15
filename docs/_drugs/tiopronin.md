@@ -2,7 +2,7 @@
 layout: default
 title: Tiopronin
 parent: Model Prediction Only (L5)
-nav_order: 578
+nav_order: 620
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,72 +33,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Tiopronin is a thiol-containing compound reported in the evidence pack as being used clinically for cystinuria to reduce urinary cystine excretion.
-> The TxGNN model predicts it may be effective for **Renal Tubular Acidosis**,
-> but currently **0 clinical trials** and **0 publications** directly support this specific direction.
-
----
+Tiopronin is a thiol-based agent, originally used to treat cystinuria (a condition in which cystine stones form in the kidneys and urinary tract).
+The TxGNN model predicts it may be effective for **renal tubular acidosis**, but this is a computational prediction only, with **no clinical trials** and **no publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystinuria (referenced in mechanistic rationale; not formally recorded in structured licensing data) |
-| Predicted New Indication | Renal Tubular Acidosis |
+| Original Indication | Cystinuria (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Tiopronin in this Evidence Pack. Based on the accompanying rationale, Tiopronin is a thiol (sulfhydryl-containing) compound whose known clinical use is in cystinuria, where it undergoes thiol-disulphide exchange with cystine to form more soluble mixed disulphides, thereby reducing renal cystine stone formation. This mechanism is centred on renal tubular cystine transport and binding chemistry, not on acid-base regulation.
+Currently, detailed mechanism of action data is not available. Based on known information, tiopronin is a thiol-based agent that forms soluble mixed disulfides with cysteine. This is the basis of its use in cystinuria, where it reduces the formation of poorly soluble cystine stones.
 
-Renal tubular acidosis, by contrast, is driven by dysfunction of tubular ion-handling machinery — principally H⁺-ATPase and HCO₃⁻/Cl⁻ exchangers — rather than by cystine handling. The evidence pack itself flags this gap explicitly, noting there is "no direct correspondence" between Tiopronin's known pharmacology and the acid-base transport defects underlying renal tubular acidosis. The mechanistic link is therefore speculative, arising from graph-based similarity in the TxGNN knowledge graph rather than from a demonstrated shared biological pathway.
+The link to renal tubular acidosis is loose. Renal tubular acidosis is a defect in the kidney's acid-base transport, which is not a mechanism that thiol exchange is known to address. The only connection is that both conditions involve renal tubular handling of solutes and can feature kidney stones or calcium deposition in the kidney (nephrocalcinosis).
 
-Of the ten TxGNN-predicted indications provided, only one (rank 6, "disease of transporter activity" — a broad ontology category rather than a discrete clinical diagnosis) is supported by any literature, and even that literature describes basic mitochondrial and channel biology rather than disease-specific therapeutic evidence. This overall pattern — high TxGNN similarity scores paired with an absence of clinical or mechanistic corroboration — is consistent with an L5 evidence tier across the candidate set.
+The high TxGNN score (99.63%) is a model prediction only. It should be treated as a hypothesis for further investigation, not as evidence of benefit.
 
----
+**Other predicted indications**
+
+The model also produced other high-scoring predictions, all at evidence level L5 with no trials or literature, and all with a recommendation of Hold:
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Adult polyglucosan body disease | 99.53% | Caused by glycogen branching enzyme (GBE1) deficiency; no known mechanism by which tiopronin would correct this |
+| Glycogen storage disease type IV (GBE1 deficiency), fatal perinatal neuromuscular, congenital neuromuscular, adult neuromuscular and childhood neuromuscular forms | 99.12% to 99.51% | Appears to reflect graph similarity to other glycogen storage disease labels; the fatal perinatal form is ultra-rare and severe |
+| Tricarboxylic acid cycle disorder | 99.48% | Speculative antioxidant rationale only |
+| Disease of transporter activity | 99.42% | Very broad category that includes cystinuria; too nonspecific to be a repurposing target |
+| Pyruvate metabolism disorder | 99.26% | No established link; speculative redox rationale |
+| Inborn disorder of fatty acid oxidation and ketone body metabolism | 99.14% | Likely reflects shared metabolic disease categories |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
-Tiopronin does not currently hold any marketing authorisation in the United Kingdom (0 authorisations on record; market status: Not marketed). No product-specific formulation, dosage form, or approved indication text is available at this time.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001030Q0AAABAB | Tiopronin tablets 250 mg | Not specified | Not specified |
 
----
+Only one valid single-ingredient authorisation was identified in the data compiled for this report. Dosage form and approved indication text were not available, and the number above is the identifier recorded in the data rather than a standard MHRA PL number. Please confirm the details against the MHRA register and the BNF.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+No label-based warnings, contraindications or drug interaction data were available.
 
----
+**Contraindication signals from the knowledge graph (not label text):** The TxGNN knowledge graph links tiopronin to contraindications in the following disease groups. These should be verified against the SmPC.
+- **Kidney conditions:** kidney disease, nephrotic syndrome (including familial forms), lipoid nephrosis, proteinuria, anti-glomerular basement membrane disease, granulomatosis with polyangiitis, pyoureter
+- **Blood disorders:** thrombocytopenia, leukopenia, agranulocytosis, neutropenia (including several congenital and idiopathic forms), aplastic anaemia
+- **Liver and gallbladder disease**
+- **Neuromuscular disorders:** myasthenia gravis, neuromuscular junction disease
+
+The kidney and blood-related signals are particularly relevant, as renal tubular acidosis is itself a kidney condition and any trial would need close renal and haematological monitoring.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The predicted indication (renal tubular acidosis) is supported only by TxGNN model similarity (Evidence Level L5), with no clinical trials or literature evidence, and the drug's own rationale note assesses the mechanistic link as speculative and lacking a direct biological correspondence. In addition, the drug is not marketed in the UK and lacks basic safety documentation (SmPC-derived warnings and contraindications are currently unavailable, flagged as a blocking gap), so it cannot proceed to safety screening.
+The predictions rest on model scores alone (evidence level L5), with no trials or publications, and no plausible mechanism linking tiopronin's thiol chemistry to renal tubular acidosis or the other predicted conditions. The knowledge graph also flags kidney and blood disorders as contraindications.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action (MOA) data (e.g. from DrugBank) to properly evaluate mechanistic plausibility
-- SmPC/product label warnings, contraindications, and drug interaction data — required before any safety assessment can begin
-- Confirmation of the drug's actual licensed indication(s), since the current dataset lists none
-- If further exploration is pursued, prioritise the "disease of transporter activity" candidate (rank 6), which is the only one with supporting literature (L4), over the top-ranked renal tubular acidosis candidate
+- Mechanism of action data for tiopronin, and a defined mechanistic hypothesis for renal tubular acidosis
+- Preclinical or case-level evidence supporting benefit in any predicted indication
+- Verified UK label information (approved indication, dosage form, warnings, contraindications and interactions) from the SmPC and BNF
+- Review of the knowledge-graph contraindication signals, particularly renal and haematological, against the SmPC
+- A more specific disease target, since several predictions are broad categories or ultra-rare subtypes that are difficult to test
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

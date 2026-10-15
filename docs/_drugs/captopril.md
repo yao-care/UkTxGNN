@@ -2,7 +2,7 @@
 layout: default
 title: Captopril
 parent: Moderate Evidence (L3-L4)
-nav_order: 126
+nav_order: 130
 evidence_level: L4
 indication_count: 4
 ---
@@ -33,76 +33,86 @@ Evidence Level: **L4** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Captopril is a well-established ACE (angiotensin-converting enzyme) inhibitor, widely used in clinical practice for the treatment of hypertension and heart failure.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**,
-with **0 clinical trials** and **1 publication** currently supporting this direction.
-A closely related prediction — malignant renovascular hypertension — is supported by 20 publications and carries a stronger evidence level (L3).
-
----
+Captopril is an ACE inhibitor originally used to treat hypertension and diabetic nephropathy.
+The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**, but there are **no registered clinical trials** and only **1 publication** (a diagnostic case report) bearing on this prediction, so the evidence is very limited.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No UK marketing authorisation on record in this dataset |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Hypertension, hypertensive disorder and diabetic nephropathy (the UK licence record contains no indication text) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.28% |
 | Evidence Level | L4 |
-| UK Market Status | Not Marketed (per dataset) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, captopril inhibits angiotensin-converting enzyme (ACE), reducing angiotensin II formation and blocking the renin-angiotensin-aldosterone system (RAAS). Its efficacy in hypertension and diabetic nephropathy is established.
 
-Captopril inhibits angiotensin-converting enzyme (ACE), blocking the conversion of Angiotensin I to Angiotensin II. This reduces systemic vascular resistance, suppresses aldosterone secretion, and lowers intraglomerular pressure — all pathophysiologically relevant mechanisms in hypertension-related renal damage. Although detailed MOA documentation is not available from the DrugBank record in this Evidence Pack, the drug's mechanism is well characterised in the wider literature and is directly applicable to renin-angiotensin-aldosterone system (RAAS)-driven disease.
+Malignant hypertension with renal involvement is a state in which RAAS activation can drive vascular injury, so RAAS blockade is biologically plausible. However, the only retrieved publication is a case report in which captopril renography was used as a *diagnostic* test in a patient with a renal cell carcinoma. It shows no therapeutic benefit. The high TxGNN score probably reflects the disease's closeness to existing hypertension and renal indications rather than direct evidence.
 
-Malignant hypertensive renal disease is characterised by severely elevated blood pressure causing acute end-organ damage to the kidneys, with fibrinoid necrosis of the renal microvasculature and RAAS hyperactivation as central pathophysiological features. By blocking ACE, Captopril directly targets this axis, making the TxGNN prediction mechanistically coherent. The drug's RAAS pathway applicability is further corroborated by the model's rank 2 prediction — malignant renovascular hypertension (TxGNN score 99.28%, L3 evidence, 20 publications) — where the same mechanistic pathway underpins a more evidence-supported therapeutic rationale.
-
-However, a critical caveat applies: in the context of acute kidney injury or bilateral renal artery stenosis, ACE inhibitors carry a well-documented risk of precipitating acute renal failure. Malignant hypertensive renal disease often presents with pre-existing renal impairment, making careful patient selection and close renal function monitoring essential before any clinical application can be considered.
-
----
+There is also a safety caveat. In malignant hypertension with bilateral renal artery stenosis, ACE inhibitors can precipitate acute kidney injury.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case Report | Clinical Nuclear Medicine | Positive captopril renography without renal artery stenosis, found to be caused by a chromophobe renal cell carcinoma producing renin-dependent hypertension; blood pressure resolved after nephrectomy, illustrating RAAS involvement in atypical renal hypertensive presentations |
+|------|-----|------|------|---------|
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | Positive captopril renography in a patient with a large chromophobe renal cell carcinoma but intact renal arteries. Renin-dependent hypertension resolved after nephrectomy. This is a diagnostic use, not treatment evidence. |
 
----
+### Related Predictions Considered
+
+Three other predicted indications were assessed. None has enough evidence to support progression.
+
+- **Malignant renovascular hypertension** (score 99.28%, L4): The mechanistic rationale is strong because the condition is renin-dependent. One 1984 clinical report describes captopril in stable and malignant hypertension ([PMID 6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/)). The rest of the literature is mostly case reports, reviews and diagnostic papers. One case report ([PMID 6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/)) described acute, reversible renal failure after captopril and enalapril in a patient with bilateral renal artery occlusion. This is the most plausible research question of the group, but study types were classified from titles only and are tentative.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.15%, L5): Only preclinical and indirect findings were retrieved, and most of the retrieved papers appear unrelated. Systemic vasodilators can also worsen ventilation-perfusion matching in hypoxic lung disease.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.15%, L5): No trials or literature. ACE inhibitors are not an established therapy for pulmonary arterial hypertension.
 
 ## UK Market Information
 
-No UK marketing authorisations are recorded for Captopril within this Evidence Pack dataset. Captopril is a long-established compound and clinicians should verify current authorisation status and approved indications directly via the MHRA product database, the BNF, and available SmPCs.
+One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved indication text.
 
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205051F0AAADAD | Captopril Tablets 12.5 mg | Tablet | Not stated in the available record |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications and cautions from the drug–disease knowledge graph** (these are model-derived associations, not label text):
+- Renal and hepatic: kidney disease, liver disease, hepatic encephalopathy and coma, pancreatitis, gallbladder disease
+- Angioedema of all types, including hereditary and ACE-inhibitor-related forms
+- Haematological: neutropenia, agranulocytosis
+- Cardiovascular: aortic stenosis and related valve disease, hypotensive disorders
+- Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hyperparathyroidism, hyperuricaemia
+- Connective tissue disease and systemic lupus erythematosus
 
----
+**Drug Interactions:** 100 interactions were found. The sample reviewed shows mainly Moderate-level interactions with:
+- Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+- Antidiabetic agents (metformin, alogliptin, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, exenatide, chlorpropamide, acetohexamide)
+- Others: bupropion, morphine, acetylsalicylic acid, dronabinol
+
+Minor interactions were noted with aluminium hydroxide and calcium carbonate.
+
+Please also refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between Captopril's ACE inhibitory action and malignant hypertensive renal disease is scientifically plausible and internally consistent with the drug's known pharmacology; however, the current evidence base is limited to a single case report (L4), and the inherent risk of acute renal deterioration in this critically ill patient population demands a substantially stronger evidence foundation before clinical repurposing can be considered.
+The prediction rests on model proximity and a single diagnostic case report, with no trials and no therapeutic evidence in malignant hypertensive renal disease. A renal safety concern (acute kidney injury with bilateral renal artery stenosis) also applies.
 
 **To proceed, the following is needed:**
-- Retrieval and review of the full MHRA SmPC to establish current contraindications, warnings, and renal function thresholds
-- Formal MOA documentation from DrugBank (DG002) to support mechanistic narrative in any regulatory submission
-- Prospective observational cohort studies or controlled trials specifically in malignant hypertensive renal disease
-- Development of a renal safety monitoring protocol addressing acute kidney injury risk, particularly in patients with pre-existing renal impairment or possible bilateral renovascular disease
-- Cross-referencing with the rank 2 evidence base (malignant renovascular hypertension, L3, 20 publications) to determine whether a combined or sequenced repurposing strategy is more clinically appropriate
+- Therapeutic (not diagnostic) clinical data in malignant hypertensive renal disease, for example a systematic review of ACE inhibitor use in malignant hypertension
+- Mechanism of action data and UK label information (SmPC warnings, contraindications, indication text), which are missing from the data compiled for this report
+- A renal safety monitoring plan, including exclusion or careful assessment of renal artery stenosis
+- If a further direction is wanted, review malignant renovascular hypertension as a research question first, using full-text assessment of the retrieved papers
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

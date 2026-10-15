@@ -2,7 +2,7 @@
 layout: default
 title: Aminophylline
 parent: Moderate Evidence (L3-L4)
-nav_order: 49
+nav_order: 51
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,94 +29,88 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aminophylline: From Bronchospasm to Migraine Disorder
+# Aminophylline: From Respiratory Disease (Original Indication Not Recorded) to Migraine Disorder
 
 ## One-Sentence Summary
 
-Aminophylline is a well-established methylxanthine bronchodilator used in the management of bronchospasm and apnea of prematurity, although no MHRA marketing authorisation is currently recorded in this evidence pack.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, driven by its pharmacological role as a non-selective adenosine receptor antagonist acting on pathways increasingly implicated in migraine pathogenesis.
-Current evidence comprises **no registered clinical trials** and **6 publications**, placing this prediction at an **L4 (mechanistic/preclinical) evidence level** — warranting further evaluation before clinical progression.
+Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **no registered clinical trials** and only **4 publications** (one 2023 review, two case reports, and one 1964 review), so the prediction rests mainly on mechanistic plausibility.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bronchospasm; apnea of prematurity (established clinical use; no UK marketing authorisation currently on record) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed (no MHRA marketing authorisation on record) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Research Question |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, aminophylline is a soluble salt of theophylline (combined with ethylenediamine to improve solubility). It exerts its effects primarily through two complementary mechanisms: non-selective competitive antagonism at adenosine receptors (A1, A2A, A2B, A3 subtypes), and inhibition of phosphodiesterase (PDE) enzymes leading to elevated intracellular cyclic AMP (cAMP). The structurally related methylxanthine caffeine is routinely incorporated into migraine combination analgesics (e.g., alongside aspirin and paracetamol), providing clinically validated mechanistic precedent for this drug class in headache.
+Detailed mechanism of action data is not available in the data compiled for this report. Aminophylline is generally understood to be a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Its efficacy as a bronchodilator is established, and mechanistically it may be applicable to migraine.
 
-The biological rationale for aminophylline in migraine rests on the adenosine hypothesis of migraine. Accumulating evidence suggests that pathologically elevated adenosine levels during a migraine attack activate A2A and A2B receptors on pial and dural blood vessels, precipitating vasodilation and stimulating the trigeminovascular pain pathway. By competitively blocking these receptors, aminophylline may theoretically interrupt this cascade. Indirect clinical evidence supports this: the selective A2A agonist regadenoson has been documented to trigger migraine attacks (PMID 34308528), which were subsequently reversed by aminophylline — a real-world proof-of-mechanism observation. Furthermore, aminophylline's efficacy in relieving post-dural puncture headache, another adenosine-mediated headache syndrome, has been observed in clinical practice and reviewed in the literature (PMID 38059379).
+Migraine is thought to involve adenosine signalling, which is implicated in cerebral vasodilation and trigeminovascular pain transmission. A 2023 review argues that migraine may be linked to impaired brain energy metabolism with high adenosine levels, and that aminophylline has given therapeutic relief in some pain conditions, particularly post-dural puncture headache. A case report of hemiplegic migraine triggered by regadenoson, an adenosine agonist, also hints that the adenosine pathway is involved.
 
-Despite the plausibility of the mechanism, aminophylline has a narrow therapeutic index and a distinct adverse effect profile compared with caffeine, carrying risks of tachyarrhythmia, hypokalaemia, and seizures at supratherapeutic concentrations. These considerations mean that any repurposing programme would require independent pharmacokinetic and safety characterisation in migraine populations, including careful assessment of appropriate dose and administration route.
+This support is indirect. No controlled trial of aminophylline in migraine was identified, and the main supporting paper is a narrative review that draws partly on an observational case series.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for aminophylline in migraine disorder.
+Currently no related clinical trials registered for migraine disorder.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Narrative Review | Pain Management | Proposes that migraine is driven by impaired brain energy metabolism and high adenosine levels; reviews evidence that aminophylline (as an adenosine receptor antagonist) provides strong relief in pain and post-dural headache; includes data from a published observational case series demonstrating therapeutic benefit |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case Report | Journal of Nuclear Cardiology | Reports a case of hemiplegic migraine triggered by regadenoson, a selective A2A adenosine receptor agonist used for myocardial perfusion imaging; aminophylline used to reverse adverse neurological effects — directly supports adenosine pathway involvement in migraine |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | In Vitro Basic Science | Stroke | Demonstrates that adenosine and adenine nucleotides markedly dilate feline and human pial arteries in vitro (particularly against a raised vascular tone), whilst sparing extracranial vessels; discusses this selectivity as a possible mechanism of migraine headache |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case Report | Canadian Journal of Cardiology | Documents a case of syndrome X presenting as "myocardial migraine without ischaemia"; severe chest pain and ST changes induced by dipyridamole were attributed to excessive adenosine activity, consistent with aminophylline's mechanistic rationale |
-| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Historical Clinical | The Practitioner | Historical article on suppository formulations including aminophylline; abstract not available; limited direct relevance to current clinical practice |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Case Series | Aggiornamenti Clinicoterapeutici | Early Italian clinical case series on medical management of headaches; abstract not available; primarily of historical interest |
+|------|-----|------|------|---------|
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review | Pain Management | Proposes that migraine involves high adenosine and impaired brain energy metabolism; suggests aminophylline, an adenosine antagonist, may relieve pain, especially post-dural headache |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case report | J Nucl Cardiol | Hemiplegic migraine episode triggered by regadenoson (adenosine A2A agonist); methylxanthines such as aminophylline can reverse its adverse effects |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case report | Can J Cardiol | Patient with syndrome X attributed to excessive adenosine effect ("myocardial migraine" without ischaemia) |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Review | Aggiornamenti Clinicoterapeutici | Historical review of medical headaches (no abstract available) |
 
 ---
 
 ## UK Market Information
 
-No MHRA marketing authorisation for aminophylline is currently recorded in this evidence pack (market status: not marketed; 0 authorisations on record). This most likely represents a **data gap** in the evidence collection process rather than the true regulatory position, as aminophylline is a long-established compound listed in the **British National Formulary (BNF Section 3.1.3 — Theophylline)** and is available in UK hospitals for intravenous use in acute severe asthma and neonatal apnoea. Oral modified-release theophylline preparations (e.g., Nuelin SA, Slo-Phyllin) are also licensed in the UK.
-
-Clinicians should consult the BNF and the relevant Summary of Product Characteristics (SmPC) for current prescribing, dosing, and monitoring guidance. The MHRA product licence register should be queried directly to confirm current authorisation status.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0301030B0AAARAR (BNF code) | Aminophylline Tab 225 mg M/R | Modified-release tablet | Not available |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the **Yellow Card Scheme** at [https://yellowcard.mhra.gov.uk/](https://yellowcard.mhra.gov.uk/).
+- **Drug Interactions**: Interaction screening identified 100 potential interactions. The main ones from the listed results are:
+  - **Major**: bupropion
+  - **Moderate**: H2 antagonists (famotidine, ranitidine, cimetidine, nizatidine), tetracyclines (doxycycline, tetracycline, minocycline), clarithromycin, corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide), bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes, sodium sulfate), obeticholic acid and metreleptin
+  - **Minor**: lansoprazole
 
-> **Clinical note for context:** Although formal safety data was not available in this evidence pack, aminophylline carries a well-recognised **narrow therapeutic index**. Theophylline plasma concentrations above 20 mg/L are associated with serious toxicity including ventricular arrhythmias, hypokalaemia, and generalised seizures. Routine therapeutic drug monitoring (target range 10–20 mg/L) is standard practice. Numerous pharmacokinetic interactions are documented (e.g., accelerated clearance in hyperthyroidism and with enzyme inducers; reduced clearance with ciprofloxacin, erythromycin, and cimetidine). These considerations are particularly relevant when evaluating any new indication in an unselected migraine population.
+Please also refer to the SmPC and BNF for full safety information, including warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-The adenosine receptor antagonism hypothesis linking aminophylline to migraine is biologically coherent and supported by indirect clinical observations and a recent narrative review (PMID 38059379); however, no prospective clinical trial evidence exists, and the current evidence base does not yet support a formal repurposing development decision. The narrow therapeutic index and potential for serious adverse effects at supratherapeutic concentrations add further complexity.
+The TxGNN score is high, but there are no clinical trials in migraine, and the literature is limited to one narrative review, two case reports and a historical review. The evidence is mechanistic and indirect (L4).
 
 **To proceed, the following is needed:**
-
-- **Confirm MOA and safety data:** Retrieve full mechanism of action and contraindication data from DrugBank API and the current MHRA SmPC; close Data Gap DG001 (MHRA warnings/contraindications) and DG002 (MOA) before formal safety screening (Stage S1)
-- **Define the target research question precisely:** Distinguish between (a) acute migraine abortive therapy, (b) prevention, or (c) a specific subgroup such as post-dural puncture headache — for which observational evidence appears strongest
-- **Conduct a prospective observational or Phase 2 proof-of-concept study:** With pre-specified primary endpoints (e.g., pain-free rate at 2 hours), therapeutic drug monitoring, and robust safety monitoring including cardiac rhythm assessment
-- **Assess route-of-administration feasibility:** IV administration is impractical for outpatient migraine management; oral bioavailability, target plasma concentrations, and patient acceptability must be characterised for any community-based indication
-- **Review drug interaction profile:** Particularly relevant in migraine patients who frequently use triptans, NSAIDs, and prophylactic agents (beta-blockers, topiramate, amitriptyline)
-- **Engage with MHRA via Scientific Advice:** Given the novel indication and narrow therapeutic index, early regulatory dialogue is advisable before committing to a full development programme
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates identified by TxGNN require clinical validation before any therapeutic application. This report has been prepared in accordance with YMYL (Your Money or Your Life) content standards; clinicians should always refer to authoritative sources including the BNF, MHRA SmPC, and NICE guidance when making prescribing decisions.*
+- Mechanism of action data and the original approved indication text for the UK licence
+- Structured review of the 2023 observational case series and its methodology
+- A well-designed pilot or randomised study in migraine, or in post-dural puncture headache as a related pain model
+- Review of the full SmPC and BNF safety information, including interactions and the narrow therapeutic index of theophylline-type drugs
+- Consideration of whether a modified-release oral formulation suits acute migraine treatment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

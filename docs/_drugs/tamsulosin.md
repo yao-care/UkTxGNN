@@ -2,7 +2,7 @@
 layout: default
 title: Tamsulosin
 parent: Model Prediction Only (L5)
-nav_order: 552
+nav_order: 592
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,84 +33,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Tamsulosin is a selective alpha-1A adrenergic receptor antagonist, clinically established for the management of benign prostatic hyperplasia (BPH) and associated lower urinary tract symptoms.
-> The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita**, a rare congenital hair-growth disorder,
-> but this prediction is currently supported by **no clinical trials** and **no published literature** — the evidence pack itself flags this as a likely knowledge-graph artefact rather than a pharmacologically grounded signal.
-
----
+Tamsulosin is an alpha-1A/1D adrenergic antagonist originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 supporting publications** for this indication, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH) — inferred from repurposing rationale text; no formal UK/MHRA licence data available in this pack |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% (raw score 0.99996) |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Benign prostatic hyperplasia (the licence record holds no approved indication text, so this comes from the knowledge-graph indication data) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.996% |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (marked as a data gap). Based on known pharmacology, tamsulosin is a selective alpha-1 adrenergic receptor antagonist acting predominantly on the alpha-1A subtype found in prostatic and bladder-neck smooth muscle, and its efficacy in BPH is well established in clinical practice.
+Detailed mechanism of action data is not available for this report. Tamsulosin is generally known as an alpha-1A/1D adrenoceptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which relieves urinary symptoms in BPH.
 
-However, the evidence pack's own mechanistic assessment explicitly finds **no known biological link** between this alpha-1 blockade and Ambras type hypertrichosis universalis congenita, a rare congenital disorder associated with chromosomal rearrangements near 8q and dysregulation of the EDNRB regulatory region. The assessment attributes the high TxGNN score to indirect node connectivity in the knowledge graph (e.g. shared skin-appendage gene co-expression noise) rather than a genuine pharmacological mechanism.
+Ambras-type hypertrichosis is a rare developmental disorder. It is linked to chromosome 8q23 rearrangements that affect regulation of the *TRPS1* gene. No plausible mechanism connects alpha-1 adrenergic blockade to this condition, and the original mechanism data are missing, so the link cannot be cross-checked. The high score most likely reflects proximity in the knowledge graph, not a therapeutic rationale.
 
-This pattern is consistent across the top 10 predicted indications for this candidate: 8 of the 10 (including hypertrichosis, hypotrichosis, alopecia areata, isolated hair-shaft abnormalities, and unrelated developmental syndromes such as Dandy-Walker malformation and odontal/periodontal malformation syndromes) are explicitly flagged in the source rationale as lacking any credible mechanistic basis. The two exceptions with any literature at all — "alopecia" (rank 9) — are discussed below and are also assessed as non-supportive. Overall, this candidate should be treated as a low-confidence, exploratory prediction rather than a mechanistically plausible repurposing opportunity.
-
----
+The other top-ranked predictions are mostly hair or congenital malformation conditions: hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata and migraine with brainstem aura. None has trial or literature support, and none has a recognised mechanistic basis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked indication (Ambras type hypertrichosis universalis congenita).
+Currently no related literature available for the top-ranked predicted indication.
 
-*For context: the evidence pack also lists 2 papers under the lower-ranked "alopecia" indication (rank 9, TxGNN score 99.81%), but both are assessed as non-supportive of a tamsulosin–alopecia link:*
+For context, the ninth-ranked prediction, alopecia, returned two publications. Neither supports tamsulosin as a treatment:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) | 2021 | Review/Case series | JAMA Dermatology | Investigates suicidality and psychiatric adverse events associated with **finasteride** (a 5-alpha reductase inhibitor, mechanistically unrelated to tamsulosin) in alopecia/BPH patients |
-| [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) | 2021 | Cohort | Cornea | Examines meibomian gland morphology in men with BPH; unrelated to scalp hair growth |
-
-Both papers were retrieved only because the study populations overlapped with BPH patients, not because they evaluate tamsulosin's effect on hair growth or loss. They do not constitute mechanistic or clinical evidence for this repurposing candidate.
-
----
+| [33175100](https://pubmed.ncbi.nlm.nih.gov/33175100/) | 2021 | Cohort / pharmacovigilance | JAMA Dermatology | Suicidality and psychological adverse events with finasteride, a different drug; not tamsulosin efficacy |
+| [32826647](https://pubmed.ncbi.nlm.nih.gov/32826647/) | 2021 | Cross-sectional | Cornea | Meibomian gland changes in men with BPH; unrelated to hair loss |
 
 ## UK Market Information
 
-Tamsulosin (DB00706) is currently recorded as **Not Marketed** in this evidence pack, with 0 marketing authorisations listed. No licence-level product, dosage form, or indication data is available to summarise.
-
----
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0704010U0AAAAAA (BNF-style code, not a PL number) | Tamsulosin HCl capsules 400 microgram modified-release | Modified-release capsule | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions flagged as contraindications or cautions in the knowledge graph** (these are graph associations, not label text): multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism and intraoperative floppy iris syndrome.
+- **Drug Interactions**: 100 interactions were identified. One is rated Major: **clarithromycin**. Moderate-rated examples include bupropion, aprepitant, morphine, cimetidine, canagliflozin, dapagliflozin, empagliflozin, ertugliflozin, miconazole, clotrimazole, fenfluramine and opium.
+- **Other considerations**: Tamsulosin can cause orthostatic hypotension and dizziness. This matters for any new population, including patients with migraine.
 
-*Note: key warnings, contraindications, and drug interaction data are recorded as data gaps in this evidence pack (see "To proceed" below) and could not be summarised here.*
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- All 10 top-ranked TxGNN predictions for this candidate are rated evidence level L4–L5 with no clinical trials and, apart from two tangentially related papers, no supporting literature. The evidence pack's own mechanistic review explicitly characterises the top prediction as lacking biological plausibility and likely reflecting knowledge-graph noise rather than a genuine drug-disease signal.
-- Additionally, a **Blocking**-severity data gap exists for TFDA/MHRA product warnings and contraindications, which prevents this candidate from entering safety pre-screening (Stage S1) regardless of the indication signal.
+The prediction is supported by the model score only (L5). No trials or publications exist, and no plausible mechanism links alpha-1 blockade to Ambras-type hypertrichosis. Pursuing this indication is not justified on current data.
 
 **To proceed, the following is needed:**
-- Official SmPC/product-label warnings and contraindications (currently blocking safety evaluation)
-- Verified mechanism of action (MOA) data from DrugBank or equivalent source
-- Independent mechanistic or preclinical evidence directly linking alpha-1 adrenergic antagonism to hair-growth pathways, before any further clinical validation is considered
-- Confirmation of UK market/licensing status, given the drug is currently recorded as not marketed
+- Mechanism of action data for tamsulosin, to allow a proper mechanistic assessment
+- Preclinical or mechanistic evidence linking alpha-1A/1D antagonism to hair follicle or *TRPS1* biology
+- The licence's approved indication text and dosage form, and the full SmPC warnings and contraindications
+- Review of the lower-ranked predictions for any with a stronger biological rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

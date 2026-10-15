@@ -2,7 +2,7 @@
 layout: default
 title: Prasterone
 parent: Model Prediction Only (L5)
-nav_order: 473
+nav_order: 511
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prasterone: From No Established UK Indication to Heparin Cofactor 2 Deficiency
+# Prasterone: From Systemic Lupus Erythematosus to Heparin Cofactor 2 Deficiency
 
 ## One-Sentence Summary
 
-Prasterone (DHEA) currently holds no UK marketing authorisation, and this evidence pack does not document an established original indication. The TxGNN model's top-ranked prediction — **heparin cofactor 2 deficiency** — is supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags this high score as likely knowledge-graph noise rather than a genuine mechanistic signal.
-
----
+Prasterone (dehydroepiandrosterone, DHEA) was originally associated with systemic lupus erythematosus and psychologic dyspareunia.
+The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but there are currently **no clinical trials and no publications** supporting this prediction, so it rests on a graph-based model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not documented (no UK marketing licences on file) |
+|------|------|
+| Original Indication | Systemic lupus erythematosus; paediatric systemic lupus erythematosus; psychologic dyspareunia (knowledge graph indications; no approved indication text is available for the UK product) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Prasterone in this evidence pack. Based on general pharmacological knowledge, Prasterone (dehydroepiandrosterone, DHEA) is a weak endogenous androgen precursor; however, no original indication or UK licence history is on file to establish a baseline for comparison.
+Currently, detailed mechanism of action data is not available. Based on known information, prasterone is a sex-steroid precursor (DHEA), with immunomodulatory activity that is relevant to its link with lupus. Pharmacology data compiled for this report also show an interaction with glycine receptors.
 
-For the top-ranked prediction, the model's own rationale is explicit about its weakness: DHEA has no known direct biochemical relationship with the SERPIND1-mediated coagulation-regulation pathway underlying heparin cofactor 2 deficiency. The high TxGNN score is more plausibly explained by co-occurrence noise between steroid-hormone and coagulation-related genes within the knowledge graph than by any real mechanistic link. This is corroborated by the complete absence of supporting clinical trials or literature.
+Heparin cofactor 2 deficiency is a heritable defect in a serpin (SERPIND1) that regulates coagulation. Prasterone has no established mechanism for correcting such a deficiency. The high score appears to reflect network proximity in the knowledge graph rather than a biological rationale. Any link, for example indirect effects on coagulation through sex-steroid metabolism, is speculative.
 
-It is also worth noting that among the remaining nine ranked predictions in this pack, none reach a stronger evidence tier for a *therapeutic* signal at heparin cofactor 2 deficiency specifically. One related candidate — systemic sclerosis (rank 7) — has a more defensible observational basis (consistently low serum DHEA-S in patients with more severe disease), but this concerns a different indication entirely and remains hypothesis-generating only (see Conclusion). Separately, the thrombophilia-related candidates (ranks 4 and 6) are flagged in the source rationale as potential **safety signals in the opposite direction** — androgen/DHEA states have been associated with *increased* thrombotic risk in the literature, which argues against, rather than for, repurposing toward coagulation-deficiency indications.
-
----
+The same pattern applies to the other top-ranked predictions, which are mostly coagulation and platelet disorders (factor V excess, antithrombin type 2 deficiency, thrombophilia, protein S deficiency, pseudo-von Willebrand disease, primary platelet release disorder). Of the ten predictions, **scleroderma** is the most mechanistically coherent, as it is an autoimmune connective tissue disease related to lupus. It is flagged as a research question and would need a dedicated literature and trial search.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
-Prasterone is **not currently marketed** in the UK. No MHRA marketing authorisations are recorded in this evidence pack (total licences: 0), so no product/dosage-form table can be produced.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0604030Q0AAAIAI | Prasterone Tab 25mg | Not specified | Not specified |
 
----
+The identifier above resembles a BNF-style product code (BNF section 6.4.3 relates to sex hormones) rather than a standard PL number, and it should be verified against the MHRA register. The compiled data show one valid single-ingredient authorisation. No NICE-appraised indication was identified in the data.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions / Pharmacology**: One pharmacological interaction was recorded, with the glycine receptor (all subtypes), where dehydroepiandrosterone is listed as a metabolite ligand. No clinically graded drug-drug interactions were identified.
+- **Coagulation concern**: Oral androgens and oestrogens can influence haemostatic factors. For the thrombophilia-type predictions, this raises a possible thrombotic safety concern rather than a therapeutic rationale, and a safety review would be needed before any efficacy question.
 
-*Note: this evidence pack flags TFDA-equivalent warnings/contraindications (DG001) as a **Blocking** data gap — this must be resolved before any formal safety pre-assessment (S1) can proceed.*
-
----
+Please refer to the SmPC and BNF for full safety information, including warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (heparin cofactor 2 deficiency) has no clinical trial or literature support and is explicitly characterised in the model rationale as a probable knowledge-graph artefact rather than a genuine mechanistic signal. Combined with the absence of any UK marketing authorisation and missing core MOA/safety data, this candidate does not meet the threshold to advance.
+The predictions rest solely on model scores, with no trials or publications and no plausible mechanism for heparin cofactor 2 deficiency. Safety data (warnings and contraindications) are also missing, so the evidence level remains L5.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking data gap (DG001): sourcing of licensing-body/SmPC warnings and contraindications
-- Resolution of the High-severity data gap (DG002): verified mechanism-of-action data from DrugBank or equivalent
-- Independent mechanistic or preclinical evidence directly linking DHEA to SERPIND1/heparin cofactor 2 pathway biology, since none currently exists
-- If pursuit is desired, consider redirecting evaluation toward the more biologically grounded systemic sclerosis signal (rank 7, L4/S1, "Research Question"), which is supported by six observational cohort studies linking low DHEA-S to disease severity — though this would require a dedicated proof-of-concept interventional study, as no trial of prasterone supplementation in SSc currently exists
+- Mechanism of action data for prasterone
+- Product label information (warnings, contraindications, approved indication, dosage form) for the UK authorisation
+- A dedicated literature and trial search, with scleroderma prioritised as the most coherent candidate
+- A safety review of haemostatic effects before any thrombophilia-related indication is considered
+- Assessment of route and formulation compatibility with the predicted indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

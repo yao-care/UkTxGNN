@@ -2,7 +2,7 @@
 layout: default
 title: Amiloride Hcl
 parent: Model Prediction Only (L5)
-nav_order: 48
+nav_order: 50
 evidence_level: L5
 indication_count: 0
 ---

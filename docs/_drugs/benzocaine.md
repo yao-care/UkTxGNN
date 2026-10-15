@@ -2,7 +2,7 @@
 layout: default
 title: Benzocaine
 parent: Model Prediction Only (L5)
-nav_order: 93
+nav_order: 97
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,70 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Benzocaine: From Topical Local Anaesthesia to Papillary Conjunctivitis
+# Benzocaine: From Tinea Pedis and Dermatitis to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Benzocaine is a well-established ester-type topical local anaesthetic, widely used to relieve pain and discomfort on skin and mucous membranes. The TxGNN model predicts it may have potential benefit in **Papillary Conjunctivitis**, however there are currently **no registered clinical trials** and **no published literature** directly supporting this specific application. The evidence base at present consists solely of a computational model prediction.
-
----
+Benzocaine is a topical ester local anaesthetic, originally associated with tinea infections, dermatitis and pharyngitis.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are currently **no registered clinical trials and no publications** supporting this direction. The prediction is computational only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical local anaesthesia (pain and discomfort relief on skin and mucous membranes) |
-| Predicted New Indication | Papillary Conjunctivitis |
+|------|------|
+| Original Indication | Tinea pedis, dermatitis, pharyngitis, tinea corporis and tinea infection (from the knowledge graph; no approved indication text is available for the UK product) |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.38% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on established pharmacology, Benzocaine is an ester-type local anaesthetic that works by blocking voltage-gated sodium channels (Nav), thereby inhibiting afferent nerve signal conduction and reducing the perception of pain, irritation, and pruritus. In principle, this property could offer symptomatic relief from the ocular discomfort and itch characteristic of papillary conjunctivitis.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, benzocaine is an ester local anaesthetic that blocks voltage-gated sodium channels. In theory, this could relieve discomfort or itching on the ocular surface.
 
-There is also some suggestion in the broader pharmacological literature that local anaesthetics may exert an auxiliary mast cell-stabilising effect, potentially modulating IgE-mediated histamine release. Since papillary conjunctivitis has an allergic/inflammatory component, this indirect mechanism represents a plausible — if limited — rationale for the TxGNN model's prediction.
+However, the link is weak. Papillary conjunctivitis is usually driven by allergic or mechanical irritation, such as contact lens wear, ocular prostheses or sutures. Management relies on removing the trigger and using antihistamines, mast cell stabilisers or topical corticosteroids, not anaesthetics. Benzocaine's original uses (tinea, dermatitis, pharyngitis) are topical symptom-relief or dermatological applications, so there is no clear shared pathway with allergic or inflammatory eye disease.
 
-However, the core pathophysiology of papillary conjunctivitis is primarily driven by chronic mechanical stimulation (from contact lenses, ocular prostheses, or exposed sutures) triggering T-cell and eosinophil-mediated chronic inflammation — a process not fundamentally caused by aberrant sodium channel activity. Benzocaine cannot address this root mechanism. Moreover, prolonged topical application of local anaesthetics to the ocular surface carries well-documented safety concerns, notably corneal epithelial toxicity through inhibition of cellular regeneration. The mechanistic link should therefore be considered indirect and symptom-palliative at best, with significant safety caveats in the ophthalmic context.
-
----
+The high score therefore reflects a model prediction that has not been verified by any clinical or literature evidence. Repeated application of topical anaesthetics to the eye can also cause corneal toxicity, delayed epithelial healing and keratopathy, so any ocular use would need careful risk assessment.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1203010C0AAARAR | Benzocaine Gel 20% | Not stated | Not stated |
+
+The data compiled for this report show one valid single-ingredient authorisation. The identifier does not follow the standard MHRA "PL" format, so the authorisation details should be verified against the MHRA and BNF records before any decision relies on them.
+
+## Cytotoxicity
+
+Not applicable. Benzocaine is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph (not label text):** The knowledge graph links benzocaine to a broad range of conditions, and these should be verified against the SmPC. They include:
+  - Hepatic and renal: liver failure, liver disease, hepatic coma, hepatic encephalopathy, kidney disease, nephrocalcinosis
+  - Neurological and psychiatric: epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder, substance abuse/dependence
+  - Metabolic and endocrine: inherited porphyria, porphyria, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, hypercalcaemia
+  - Haematological: thrombocytopenia, neutropenia, agranulocytosis, blood coagulation disease
+  - Other: gastritis, sarcoidosis, herpes simplex infection, exanthem
+- **Ocular concern for the predicted use:** Repeated topical anaesthetic use on the eye can cause corneal toxicity, delayed epithelial healing and keratopathy.
+- **Drug interactions:** No interaction data were found in the data compiled for this report.
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.38%) for Benzocaine in papillary conjunctivitis, there is no supporting clinical trial or published literature evidence for this indication, and the mechanistic link is indirect and symptom-oriented. Furthermore, the known ocular surface safety concerns associated with prolonged topical local anaesthetic use — particularly corneal epithelial toxicity — represent a material risk that has not yet been characterised for this application.
+The prediction is supported only by a model score, with no trials or publications. The proposed ocular use is mechanistically weak, since anaesthetics do not address the allergic or mechanical cause of papillary conjunctivitis. It also carries a recognised risk of corneal toxicity.
 
 **To proceed, the following is needed:**
-
-- Formal mechanism of action data (MOA) to confirm the pharmacological basis for any ophthalmic application
-- Preclinical ocular safety data, with particular focus on corneal epithelial toxicity and acceptable duration of exposure
-- At least one exploratory clinical study, case series, or observational report investigating benzocaine or related ester anaesthetics in conjunctivitis or analogous ocular surface conditions
-- Regulatory pathway assessment: Benzocaine currently holds no UK marketing authorisation; an MHRA licensing strategy would need to be established
-- A structured safety monitoring plan addressing corneal toxicity risk prior to any prospective investigation in human subjects
+- Mechanism of action data for benzocaine
+- Verified SmPC warnings and contraindications for the UK product, including its dosage form and approved indication
+- Preclinical or ophthalmic safety data on corneal tolerability
+- Any supporting literature or trial evidence for benzocaine in conjunctival disease
+- Comparison with established treatments (antihistamines, mast cell stabilisers, corticosteroids) to show a clinical rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

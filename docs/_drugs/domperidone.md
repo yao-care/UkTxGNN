@@ -2,7 +2,7 @@
 layout: default
 title: Domperidone
 parent: Model Prediction Only (L5)
-nav_order: 220
+nav_order: 236
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Domperidone: From Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Domperidone: From Upper Gastrointestinal Symptoms to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Domperidone is a peripherally-selective dopamine D2 receptor antagonist historically used as an antiemetic and prokinetic agent (and, via prolactin stimulation, as a lactation aid). The TxGNN model predicts a possible link to **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but this prediction is currently supported by **no clinical trials and no published literature** — it rests on knowledge-graph inference alone.
+Domperidone is a peripheral dopamine D2/D3 receptor antagonist used to manage nausea, vomiting, dyspepsia and related upper gastrointestinal symptoms.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** currently support this direction; it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Nausea/vomiting and gastrointestinal motility disorders (based on known pharmacological class; no formal indication text available in this evidence pack) |
+| Original Indication | Not stated in the UK licence data compiled for this report (pharmacology sources describe use in nausea, vomiting, dyspepsia and heartburn) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.08% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (drug-level data gap, DG002). Based on known pharmacology, domperidone is a peripherally-selective dopamine D2 receptor antagonist acting at the chemoreceptor trigger zone and gastrointestinal tract, used clinically for its antiemetic and prokinetic effects, and separately for prolactin-mediated lactation support.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology sources identify domperidone as an antagonist at the dopamine D2 and D3 receptors (DRD2, DRD3). It acts mainly outside the central nervous system and is used for dyspepsia, heartburn, epigastric pain, nausea and vomiting.
 
-NSIAD, in contrast, is caused by gain-of-function mutations in the AVPR2 (vasopressin V2) receptor, which becomes constitutively active independent of circulating ADH. There is no established pharmacological or physiological link between dopamine D2 receptor antagonism and V2 receptor signalling, and no literature currently connects the two pathways.
+NSIAD is a rare condition caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*), with some cases linked to GNAS-related signalling. The V2 receptor is constitutively active, which leads to inappropriate water retention and hyponatraemia. A mechanistic link to domperidone is not apparent. A plausible but unverified hypothesis is that dopaminergic modulation influences renal water handling or vasopressin signalling. However, domperidone is not known to act on V2 receptor activity, which is the core defect in NSIAD.
 
-On the evidence available, this prediction should be read as a knowledge-graph-derived hypothesis rather than a mechanistically grounded one. It may reflect an indirect graph association (e.g. shared downstream renal or endocrine nodes) rather than a genuine pharmacological rationale, and should be treated with appropriate caution.
+The high score may reflect network proximity in the knowledge graph rather than a true biological relationship. This prediction should be treated as a hypothesis requiring independent validation.
 
 ## Clinical Trial Evidence
 
@@ -65,24 +66,33 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Domperidone currently has no marketing authorisations recorded against this evidence pack, and market status is listed as not marketed. No product-level licence information is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0406000J0AAACAC | Domperidone oral suspension 5 mg/5 ml, sugar-free | Oral suspension | Not stated in the data compiled |
+
+The record shows one valid single-ingredient product. The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register. Domperidone is classified in BNF chapter 1 (gastrointestinal system), under drugs affecting gastrointestinal motility.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Conditions linked to domperidone by the knowledge graph** (from drug–disease contraindication links in the TxGNN knowledge graph, not from label text and so to be verified against the SmPC): long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease.
+- **Pharmacological targets:** dopamine D2 and D3 receptors (DRD2, DRD3). No drug–drug interaction entries with specific named drugs were identified in the data compiled.
+- Regulators have reviewed the benefit-risk balance of domperidone-containing medicines (the EMA review began in March 2013). Prescribers should consult the current SmPC and BNF for warnings, contraindications and cardiac risk guidance.
+
+Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN model inference (L5, S0), with no clinical trials, no literature, and no plausible shared mechanism identified between D2 receptor antagonism and the AVPR2-driven pathophysiology of NSIAD. Combined with the absence of any UK marketing authorisation, there is currently no basis to advance this candidate.
+The only support is a high TxGNN score. There are no clinical trials or publications, the mechanistic link to NSIAD is not evident, and the knowledge graph flags QT-related and hepatic safety concerns. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for domperidone (DG002)
-- MHRA/SmPC safety data — key warnings and contraindications (DG001)
-- Preclinical or mechanistic evidence for any interaction between dopaminergic and vasopressin V2 receptor signalling
-- At minimum, case-level or observational evidence before this candidate can move beyond S0
+- Mechanism of action data and a plausible, testable pathway linking dopamine D2/D3 antagonism to vasopressin V2 receptor signalling or renal water handling
+- Preclinical studies (for example, cell-based *AVPR2* gain-of-function models) to test any effect
+- Review of UK SmPC warnings and contraindications, with a cardiac (QT) and hepatic risk assessment
+- Confirmation of the UK licensed indication and authorisation details with the MHRA
+- A literature and trial registry search specific to NSIAD, which is a very rare condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

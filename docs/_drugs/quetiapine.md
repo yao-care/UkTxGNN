@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Quetiapine
-parent: Moderate Evidence (L3-L4)
-nav_order: 492
-evidence_level: L4
+parent: Model Prediction Only (L5)
+nav_order: 530
+evidence_level: L5
 indication_count: 10
 ---
 
 # Quetiapine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,94 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using the pharmaceutical-report-writing instructions in this system prompt directly (no additional skill needed for this task — it's a self-contained formatting job).
-
-**Note on candidate selection:** TxGNN's rank‑1 prediction (`predicted_indications[0]`, retinal dystrophy with/without extraocular anomalies) is explicitly flagged in its own `repurposing_rationale` as a likely **false positive** — none of its 15 associated PubMed records mention quetiapine, and there is no plausible mechanistic link. Eight of the ten ranked candidates (ranks 1–7, 9–10) share this pattern: rare structural/genetic disorders with zero clinical trials, zero literature, and evidence level L5. Presenting the mechanical top-score candidate as "the" prediction would be misleading for a clinical audience. This report therefore centres on **rank 8 (trichotillomania)**, the only candidate with actual supporting literature and a mechanistically coherent rationale.
-
----
-
-# Quetiapine: From Schizophrenia/Bipolar Disorder (established use) to Trichotillomania
+# Quetiapine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-> Quetiapine is a well-established atypical antipsychotic; this evidence pack does not itself contain confirmed UK original-indication or MHRA label data. Among ten TxGNN-predicted candidates, the only one with any real supporting evidence is **Trichotillomania (hair-pulling disorder)**, backed by **case reports and narrative reviews** but **no completed clinical trials**. The remaining nine candidates (including the model's highest-scoring prediction) have no literature or trial support and are assessed as likely model artefacts.
+Quetiapine is an atypical antipsychotic, originally used to treat schizophrenia and bipolar disorder.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but this is a model prediction only, with **no clinical trials** and **no publications** supporting it.
+The best-supported candidate among the top 10 is **trichotillomania**, which has **6 publications** (case reports and reviews only) and no registered trials.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not confirmed in this evidence pack (Data Gap); established clinical use is schizophrenia and bipolar disorder |
-| Predicted New Indication | Trichotillomania (hair-pulling disorder) |
-| TxGNN Prediction Score | 99.38% (rank 8 of ranked candidates) |
-| Evidence Level | L4 |
-| UK Market Status | Not marketed (per this evidence pack) |
-| Number of Marketing Authorisations | 0 |
+| Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); trichotillomania (rank 8) is the only candidate with any supporting literature |
+| TxGNN Prediction Score | 99.57% (rank 1); 99.38% (trichotillomania) |
+| Evidence Level | L5 (rank 1); L4 (trichotillomania) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (Data Gap DG002). Based on established pharmacological knowledge, quetiapine is a second-generation (atypical) antipsychotic of the dibenzothiazepine class, with antagonist activity at serotonin 5-HT2A, dopamine D2, and histamine H1 receptors. Its efficacy in schizophrenia and bipolar disorder is well established in clinical practice, though the specific UK-approved indication wording was not supplied in this pack.
+Currently, detailed mechanism of action data is not available. Based on known information, quetiapine is an atypical antipsychotic whose receptor pharmacology involves serotonin 5-HT2A, dopamine D2 and histamine H1 antagonism. Its efficacy in schizophrenia and bipolar disorder is established.
 
-Trichotillomania (hair-pulling disorder) is classified among obsessive-compulsive and related disorders. Dysregulation of serotonergic and dopaminergic signalling has been implicated in impulse-control symptoms, which provides a plausible mechanistic rationale for exploring quetiapine in this condition. However, this rationale is theoretical: the literature below consists of case reports and reviews rather than controlled trials, and one publication (PMID 11212595) reports quetiapine **exacerbating** obsessive-compulsive symptoms in a patient with co-morbid trichotillomania — an important safety signal that cuts against, not for, the hypothesis.
+**For the top-ranked prediction (retinal dystrophy):** the data compiled for this report show no mechanistic link. Inherited retinal degeneration is not plausibly addressed by monoaminergic receptor antagonism. The high score (0.996) reflects the model's prediction alone. The same holds for the other top-ranked candidates, which are mostly genetic or developmental conditions (congenital glycosylation disorder, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopias, Charcot-Marie-Tooth type 1G). None has trials or literature.
 
-The other nine TxGNN-ranked candidates (retinal dystrophy, congenital disorder of glycosylation, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria syndromes, several rare myopia subtypes, Charcot-Marie-Tooth disease type 1G) are structural, genetic, or developmental disorders with no plausible link to quetiapine's receptor pharmacology, no supporting literature, and no clinical trials. These are assessed as knowledge-graph co-occurrence artefacts rather than genuine repurposing signals.
+**For trichotillomania (rank 8):** a plausible link exists. Trichotillomania is a body-focused repetitive behaviour related to the obsessive-compulsive spectrum, in which serotonergic and dopaminergic dysregulation is implicated. Atypical antipsychotics are sometimes used as augmentation in this spectrum. The evidence is limited to case reports and small series, and one report describes quetiapine exacerbating obsessive-compulsive symptoms in a patient with trichotillomania.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
+
+Evidence below relates to trichotillomania (rank 8), the only predicted indication with literature. The abstracts available were truncated, so findings are summarised cautiously.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review | International Journal of Dermatology | Large-scale review noting the lack of established treatment guidelines for trichotillomania and calling for better clinician education on pharmacological options |
-| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | Review | Psychiatry | Overview of trichotillomania pharmacotherapy; describes a 33-year-old woman with a favourable clinical response to quetiapine |
-| [17484394](https://pubmed.ncbi.nlm.nih.gov/17484394/) | 2006 | Review | The Journal of Practical Nursing | General treatment overview of trichotillomania |
-| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | Case Report | Revista Brasileira de Psiquiatria | Case report describing use of quetiapine for treatment of trichotillomania |
-| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | Case Report | Psychosomatics | Case report and literature review of recurrent Rapunzel syndrome and trichotillomania |
-| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | Case Report/Review | Journal of Psychiatry & Neuroscience | **Safety signal**: case of quetiapine exacerbating obsessive-compulsive symptoms in a patient with OCD, trichotillomania, delusional disorder and bipolar disorder; reviews antipsychotic-induced OCS |
-| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | Case Report | Case Reports in Psychiatry | Trichotillomania as a manifestation of dementia; different population (not a quetiapine-treatment report) |
+| [12405081](https://pubmed.ncbi.nlm.nih.gov/12405081/) | 2002 | Review / case report | Psychiatry | Overview of trichotillomania and its treatment; case report of a favourable response to quetiapine in a 33-year-old woman |
+| [19142421](https://pubmed.ncbi.nlm.nih.gov/19142421/) | 2008 | Case report/series | Rev Bras Psiquiatr | Quetiapine for the treatment of trichotillomania (no abstract available) |
+| [11212595](https://pubmed.ncbi.nlm.nih.gov/11212595/) | 2001 | Case report/Review | J Psychiatry Neurosci | Review of atypical antipsychotic-induced obsessive-compulsive symptoms; first report of quetiapine exacerbating OCS in a patient with OCD, trichotillomania and bipolar disorder |
+| [38797877](https://pubmed.ncbi.nlm.nih.gov/38797877/) | 2025 | Review | Int J Dermatol | Review of pharmacological treatment of trichotillomania; notes lack of guidelines and common treatment strategy |
+| [20833945](https://pubmed.ncbi.nlm.nih.gov/20833945/) | 2010 | Case report/Review | Psychosomatics | Treatment of recurrent Rapunzel syndrome and trichotillomania; background context only |
+| [27840761](https://pubmed.ncbi.nlm.nih.gov/27840761/) | 2016 | Case report | Case Rep Psychiatry | Trichotillomania as a manifestation of dementia; limited direct relevance to quetiapine |
+
+---
 
 ## UK Market Information
 
-This evidence pack records quetiapine as **not marketed** in this jurisdiction (0 marketing authorisations, no license records available). No product/authorisation table could be generated from the supplied data.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0402010ABAAABAB (BNF-style code) | Quetiapine tablets 25 mg | Tablet | Not stated in the data compiled |
+
+One valid single-ingredient authorisation is recorded. BNF chapter 4.2.1 (antipsychotic drugs) is the relevant classification, as suggested by the code prefix.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Knowledge-graph contraindication signals** (not label text; verify against the SmPC): hypertension, orthostatic hypotension, long QT syndrome and torsades de pointes, epilepsy, liver disease, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, neutropenia and agranulocytosis, hypothyroidism, hyperlipidaemia and hypertriglyceridaemia, obesity, myocardial infarction, and several movement and other disorders.
+- **Drug Interactions:** 100 interactions were identified. Examples flagged **Major**: bupropion and morphine. Many **Moderate** interactions were also listed, including antidiabetic drugs (metformin, pioglitazone, alogliptin, canagliflozin, acarbose, albiglutide, chlorpropamide), anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), epinephrine, famotidine, loperamide, aprepitant, dexamethasone, bisacodyl and lorcaserin.
+- **Metabolic and sedation burden:** the knowledge-graph signals and the interactions with antidiabetic drugs point to metabolic risk that matters for any new long-term use.
 
-*(Note: this evidence pack flags TFDA/product-label warnings and contraindications as a Blocking data gap — see Conclusion below.)*
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for quetiapine in trichotillomania is limited to case reports and narrative reviews (Evidence Level L4) with no completed clinical trials, and includes at least one report of symptom worsening rather than benefit. Separately, a **Blocking** data gap (missing product-label warnings/contraindications) prevents this candidate from entering Stage 1 safety screening regardless of efficacy evidence.
+The top-ranked predictions, including retinal dystrophy, rest on model scores alone (L5) with no mechanistic, trial or literature support. Trichotillomania has a plausible mechanism but only case-level evidence (L4), and quetiapine carries notable metabolic, cardiac and interaction risks.
 
 **To proceed, the following is needed:**
-- Resolve Blocking gap DG001: obtain SmPC/product label warnings and contraindications
-- Resolve High-priority gap DG002: confirm mechanism of action and original approved indication(s) via DrugBank/regulatory source
-- Identify or commission a prospective controlled study of quetiapine for trichotillomania, given current evidence is case-report level only
-- Treat the remaining nine TxGNN candidates as low priority; they show no literature or trial support and are likely knowledge-graph artefacts rather than genuine repurposing signals
+- Mechanism of action data for quetiapine
+- Full MHRA SmPC warnings and contraindications, and approved indication text for the UK authorisation
+- For trichotillomania: a systematic review of antipsychotic use, then a controlled trial against established options (e.g. habit reversal therapy, N-acetylcysteine)
+- A risk-benefit assessment covering metabolic monitoring, QT risk and the interaction burden
+- No further work on the other top-ranked candidates unless supporting biological or clinical evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

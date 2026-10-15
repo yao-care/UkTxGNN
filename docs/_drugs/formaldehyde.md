@@ -2,7 +2,7 @@
 layout: default
 title: Formaldehyde
 parent: Model Prediction Only (L5)
-nav_order: 284
+nav_order: 304
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,63 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Formaldehyde: From Tissue Fixative to a Predicted Signal for Diffuse Cutaneous Leishmaniasis
+# Formaldehyde: From Influenza to Diffuse Cutaneous Leishmaniasis
 
 ## One-Sentence Summary
 
-Formaldehyde has no approved therapeutic indication recorded in this evidence pack; in the source literature it appears almost exclusively as a laboratory tissue-fixation and specimen-preservation reagent. The TxGNN model nonetheless assigns a very high prediction score to **Diffuse Cutaneous Leishmaniasis**, but this is supported by only **1 publication** (and **0 clinical trials**), and that publication is a diagnostic-methodology study rather than treatment evidence — so the signal should be read as low-confidence and largely artefactual.
+Formaldehyde is recorded in the TxGNN knowledge graph as linked to influenza (for example through its use in inactivating vaccine antigens), and is marketed in the UK as a topical gel.
+The TxGNN model predicts it may be effective for **diffuse cutaneous leishmaniasis**, but there are **no clinical trials** and **no related publications** supporting this prediction.
+The score is a computational output only, and the available data point to safety concerns rather than benefit.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable — no approved therapeutic indication on record. Formaldehyde is known clinically as a tissue fixative, disinfectant and antiseptic reagent rather than a systemic medicine |
-| Predicted New Indication | Diffuse Cutaneous Leishmaniasis |
+| Original Indication | Influenza (from the knowledge graph; no approved indication text is available in the UK licence data) |
+| Predicted New Indication | Leishmaniasis, diffuse cutaneous |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for formaldehyde as a systemic therapeutic agent. Based on the evidence pack, formaldehyde is not associated with any approved indication, and no pharmacological rationale linking it to leishmaniasis treatment has been identified.
+Currently, detailed mechanism of action data is not available. Formaldehyde is a reactive, non-selective cross-linking and tissue-fixing agent with general antimicrobial activity. This is why it is used for disinfection, tissue fixation and the inactivation of vaccine antigens.
 
-There is no established clinical or mechanistic relationship between formaldehyde and Diffuse Cutaneous Leishmaniasis. The single supporting publication (PMID 9830259) compares detection rates of *Leishmania* parasites in formalin-fixed, ethanol-fixed and frozen skin specimens using PCR and Southern blotting — this is a diagnostic-specimen-preservation methodology study, not evidence of therapeutic efficacy. Formaldehyde's appearance alongside "leishmaniasis" in this literature reflects its routine use as a histology fixative for biopsy samples, not a drug-disease treatment relationship.
+The link between influenza and diffuse cutaneous leishmaniasis is weak. One is a viral respiratory infection and the other is a chronic infection caused by an intracellular protozoan parasite. A general biocidal action does not translate into a safe systemic treatment for parasites that live inside host cells. Formaldehyde is also cytotoxic and carcinogenic, which argues strongly against systemic therapeutic use.
 
-Mechanistically, this prediction is unlikely to be applicable. TxGNN's knowledge-graph embeddings can be driven by frequent textual co-occurrence (e.g. "formalin-fixed leishmaniasis specimen") rather than genuine pharmacological association, and that appears to be the case here. Formaldehyde is also widely recognised as a systemic and mitochondrial toxin with carcinogenic potential, which further reduces its plausibility as a candidate for treating a chronic parasitic skin condition requiring prolonged administration. This should be treated as a hypothesis-generating artefact of the model rather than a genuine repurposing signal.
+The high TxGNN score therefore reflects patterns in the knowledge graph rather than a documented pharmacological rationale. Other top-ranked predictions for this drug (mucocutaneous leishmaniasis, a mitochondrial disorder, haemophagocytic syndromes) share the same limitation.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [9830259](https://pubmed.ncbi.nlm.nih.gov/9830259/) | 1998 | Methodology/Comparative | The Journal of Dermatology | Compared *Leishmania* parasite detection rates by PCR/Southern blotting across formalin-fixed, ethanol-fixed and frozen skin biopsy specimens (16 of 19 cases cutaneous leishmaniasis); formaldehyde used solely as a specimen-fixation reagent, not as a treatment |
+Currently no related literature available for diffuse cutaneous leishmaniasis.
+
+---
 
 ## UK Market Information
 
-Formaldehyde currently holds no UK marketing authorisations and is not marketed for any therapeutic indication in this dataset.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1307000C0AAABAB | Formaldehyde solution gel 0.75% | Gel (topical) | Not stated in the data compiled for this report |
+
+The identifier above is as recorded in the compiled licence data and is not in the standard MHRA "PL" format. Please verify it against the MHRA register before relying on it.
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Carcinogenicity signal:** Occupational studies and meta-analyses in the literature compiled for this report associate formaldehyde exposure with lymphohaematopoietic malignancy (including non-Hodgkin lymphoma and leukaemia) and with cancers of the nasopharynx and nasal cavity. This is a harm signal relevant to any systemic or prolonged-exposure use.
+- **Drug interactions:** No interaction data were found.
+
+For label-based warnings and contraindications, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 (model prediction only) — the single supporting reference is a diagnostic-specimen-fixation study, not therapeutic evidence, and no mechanism of action, clinical trial data, or UK marketing authorisation exists to support this signal. Formaldehyde's known systemic toxicity further weighs against pursuing this indication.
+The prediction rests on a model score alone (evidence level L5), with no trials and no relevant publications. The proposed mechanism is not plausible for an intracellular parasite, and formaldehyde's known toxicity and carcinogenicity argue against systemic repurposing.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data (DrugBank/pharmacology review) establishing biological plausibility for anti-leishmanial activity
-- Independent verification that the TxGNN score is not an artefact of literature co-occurrence (formalin-as-fixative bias)
-- Preclinical or in vivo efficacy data specific to *Leishmania* species
-- Toxicology and safety assessment (SmPC/TFDA equivalent), given formaldehyde's recognised carcinogenic and cytotoxic profile
-- Route of administration and formulation feasibility assessment, as none is currently defined
+- Any in vitro or in vivo evidence of activity against *Leishmania* at tolerable concentrations
+- Mechanism of action data and a clear rationale for the route of administration (topical use would need separate justification)
+- Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings
+- A review of whether less toxic, established anti-leishmanial options already address the clinical need
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

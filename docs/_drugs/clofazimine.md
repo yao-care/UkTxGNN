@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofazimine
-parent: Moderate Evidence (L3-L4)
-nav_order: 171
-evidence_level: L3
+parent: Model Prediction Only (L5)
+nav_order: 181
+evidence_level: L5
 indication_count: 3
 ---
 
 # Clofazimine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,9 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Clofazimine is a riminophenazine antimycobacterial agent internationally established as a core component of multidrug therapy (MDT) for leprosy (Hansen's disease); this specific therapeutic use is not captured in the current evidence pack. The TxGNN model predicts it may be relevant to **Pneumocystosis** management in immunocompromised patients, with **1 completed clinical trial** and **4 supporting publications** currently available — though the trial and most literature concern prophylaxis of a *co-occurring* opportunistic infection (*Mycobacterium avium* complex, MAC) in patients with a history of pneumocystosis, rather than direct anti-*Pneumocystis* activity.
+Clofazimine is an antimycobacterial drug, originally used to treat leprosy (including multibacillary leprosy) and pyoderma gangrenosum.
+The TxGNN model predicts it may be effective for **Pneumocystosis**, but there are **no registered clinical trials** and **3 publications**, none of which test clofazimine against Pneumocystis.
+This prediction rests on model output alone and is not supported by direct evidence.
 
 ---
 
@@ -41,31 +43,31 @@ Clofazimine is a riminophenazine antimycobacterial agent internationally establi
 
 | Item | Content |
 |------|------|
-| Original Indication | Leprosy (multibacillary), as part of multidrug therapy — *based on established international use; not recorded in this evidence pack* |
+| Original Indication | Leprosy, multibacillary leprosy, pyoderma gangrenosum (from the knowledge graph; no approved indication text is available for the UK authorisation) |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L3 |
-| UK Market Status | Not marketed (no MHRA authorisation currently on file) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for clofazimine is not available in this evidence pack. Based on known information, clofazimine is a riminophenazine antimycobacterial agent used in combination therapy for leprosy, with recognised anti-inflammatory and immunomodulatory activity in addition to its antimycobacterial effect. This broader immunomodulatory profile is a plausible mechanistic link to management of opportunistic infections in immunocompromised hosts, which is the context in which the supporting evidence arises.
+Currently, detailed mechanism of action data is not available. Based on known information, clofazimine is an antimycobacterial agent with established use in leprosy and is also used within multidrug regimens for drug-resistant tuberculosis and non-tuberculous mycobacterial infections. A mechanistic route to Pneumocystosis cannot be built from the data compiled for this report.
 
-Importantly, the available clinical trial and most of the literature relate to clofazimine's use as **prophylaxis against *Mycobacterium avium* complex (MAC) infection** in HIV-positive patients who had already experienced an episode of *Pneumocystis carinii* (now *jirovecii*) pneumonia, or who had low CD4 counts — not to direct treatment of pneumocystosis itself. The overlap arises because both conditions occur in the same severely immunocompromised (advanced HIV/AIDS) patient population, rather than through a demonstrated direct antiparasitic/antifungal effect of clofazimine against *Pneumocystis*.
+The high TxGNN score (0.999) is a graph-based prediction only. Pneumocystis is a fungus, and clofazimine's known antimycobacterial activity does not extend to fungi. The retrieved literature appears to link the two conditions through co-occurrence in patients with AIDS, who commonly develop both Pneumocystis pneumonia and mycobacterial infections, not through any therapeutic effect of clofazimine on Pneumocystis.
 
-This distinction matters clinically: the current evidence supports a rationale for further investigation of clofazimine's role in the broader management of opportunistic infection risk in immunocompromised patients, but does not itself demonstrate efficacy against pneumocystosis as a standalone indication.
+For context, two other predictions were generated for this drug:
+- **Malaria** (score 99.60%, evidence level L4): only indirect in vitro data on clofazimine analogues showing antiplasmodial activity (PMID 29026393). There are no clinical trials and no human efficacy data, and analogue findings cannot be assumed to apply to clofazimine itself.
+- **Gastrin secretion abnormality** (score 99.57%, evidence level L5): no trials, no publications and no mechanistic link.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00002058](https://clinicaltrials.gov/study/NCT00002058) | Not specified (NA) | Completed | N/A | Randomised controlled study evaluating clofazimine prophylaxis against *Mycobacterium avium* complex (MAC) infection in HIV-infected individuals at risk of this opportunistic disease; conducted in the pre-effective-antiretroviral-therapy era. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,18 +75,36 @@ This distinction matters clinically: the current evidence supports a rationale f
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | RCT | The Journal of Infectious Diseases | Randomised, prospective, open-label, treatment-vs-no-treatment trial (n=110) of clofazimine 50mg/day as prophylaxis against disseminated MAC infection in HIV patients with a prior episode of *Pneumocystis carinii* pneumonia or CD4 ≤100/mm³. |
-| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | PI Perspective | Update summarising management approaches to opportunistic infections, including clofazimine, in HIV/AIDS. |
-| [6299154](https://pubmed.ncbi.nlm.nih.gov/6299154/) | 1983 | Case report | Annals of Internal Medicine | Case of a 27-year-old man with haemophilia presenting with *Pneumocystis carinii* pneumonia followed by disseminated *Mycobacterium avium-intracellulare*, an early AIDS-defining case series. |
-| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case report | Infection | AIDS patient with *Mycobacterium kansasii* lung disease complicated by *Pneumocystis carinii* pneumonia; combination therapy including clofazimine led to sustained clinical recovery. |
+| [8501340](https://pubmed.ncbi.nlm.nih.gov/8501340/) | 1993 | Randomised open-label trial | J Infect Dis | Clofazimine as prophylaxis for disseminated *Mycobacterium avium* complex infection in 110 HIV patients (recent Pneumocystis pneumonia or CD4 ≤100/mm³). It does not test clofazimine against Pneumocystis. |
+| [2714863](https://pubmed.ncbi.nlm.nih.gov/2714863/) | 1989 | Case report | Infection | AIDS patient with *M. kansasii* lung disease complicated by Pneumocystis pneumonia. Recovered on a multidrug regimen including clofazimine, with trimethoprim-sulfamethoxazole added for Pneumocystis. The recovery from Pneumocystis cannot be attributed to clofazimine. |
+| [11363899](https://pubmed.ncbi.nlm.nih.gov/11363899/) | 1996 | Review | PI Perspective | General update on opportunistic infections; no abstract available. |
+
+None of these publications provides evidence that clofazimine treats Pneumocystosis.
+
+---
+
+## UK Market Information
+
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0501100C0AAAAAA | Clofazimine Capsules 100 mg | Capsule (per product name) | Not available in the data compiled for this report |
+
+The manufacturer, dosage form field and indication text are not recorded for this authorisation. Please confirm the details against the MHRA register and the BNF.
 
 ---
 
 ## Safety Considerations
 
-A **Blocking** data gap has been identified: TFDA/SmPC-equivalent warnings and contraindications for clofazimine are not currently available in this evidence pack, which prevents completion of even an initial (S1) safety screening. No drug–drug interaction data were retrieved.
+**Contraindication-related conditions (knowledge graph, not label text):** liver disease, gallbladder disease, diarrhoeal disease, active peptic ulcer disease, digestive system disease, intestinal disease, splenic infarction, splenic disease and hypersplenism.
 
-Please refer to the SmPC and BNF for safety information once available. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions:** 100 interactions were identified. Examples:
+- **Major:** cisapride, dolasetron
+- **Moderate:** clarithromycin, levofloxacin, ondansetron, granisetron, palonosetron, famotidine, loperamide, and a range of laxatives (bisacodyl, picosulfuric acid, lactulose, lactitol, macrogols, magnesium salts, castor oil, glycerin, mineral oil)
+- **Minor:** metronidazole
+
+The interaction with QT-prolonging agents (such as cisapride and dolasetron) warrants particular attention.
+
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -93,13 +113,13 @@ Please refer to the SmPC and BNF for safety information once available. Report s
 **Decision: Hold**
 
 **Rationale:**
-The drug currently has no UK marketing authorisation and a Blocking data gap exists for core safety information (warnings/contraindications), preventing an initial safety assessment. In addition, the supporting evidence primarily demonstrates clofazimine's role in preventing a *concurrent* opportunistic infection (MAC) in patients who have already had pneumocystosis, rather than direct efficacy against pneumocystosis itself, so the mechanistic rationale for this specific indication remains unconfirmed.
+The Pneumocystosis prediction has no clinical trials and no publications testing clofazimine against the organism, and no credible mechanistic link. The very high TxGNN score reflects graph association only. Malaria shows only preclinical analogue data, and gastrin secretion abnormality has no evidence.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA SmPC data (warnings, contraindications) to complete initial safety screening (resolves DG001)
-- Confirmed mechanism of action data (resolves DG002)
-- Studies evaluating direct anti-*Pneumocystis jirovecii* activity, as distinct from MAC co-prophylaxis
-- Clarification of UK regulatory/market pathway, given the drug is not currently marketed in the UK
+- Mechanism of action data for clofazimine
+- In vitro or in vivo evidence of activity against *Pneumocystis jirovecii*
+- Complete UK authorisation details (dosage form, manufacturer, approved indication) and SmPC warnings and contraindications
+- Review of the QT-related interaction risk before any new use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

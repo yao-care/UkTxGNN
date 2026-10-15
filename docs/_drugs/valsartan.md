@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Moderate Evidence (L3-L4)
-nav_order: 609
+nav_order: 651
 evidence_level: L4
 indication_count: 7
 ---
@@ -33,76 +33,84 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Valsartan is an Angiotensin II Receptor Blocker (ARB) whose established pharmacological class effect is the treatment of hypertension. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but this direction is currently supported by only **1 preclinical/animal-model publication** and **no registered clinical trials**.
-
----
+Valsartan is an angiotensin II receptor blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
+but the supporting evidence is thin: **no clinical trials** and **1 preclinical publication** are currently available for this indication.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension (specific TFDA/MHRA licensed indication text not available in this Evidence Pack — see Data Gaps) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold (Research Question stage) |
-
----
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Valsartan is currently flagged as a High-severity data gap in the Evidence Pack. However, the underlying repurposing rationale confirms that Valsartan acts as an **Angiotensin II Receptor Blocker (ARB)**, directly blocking the AT1 receptor within the renin-angiotensin-aldosterone system (RAAS) — this is consistent with its established class-level antihypertensive effect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, valsartan is an angiotensin II type 1 (AT1) receptor blocker, its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
 
-Malignant renovascular hypertension is a severe hypertensive subtype driven substantially by excessive renin-angiotensin activation and renal vascular pathology. Given that AT1 receptor blockade is already a well-established mechanism for blood pressure control, extending this class effect to a more severe, renin-driven hypertensive phenotype is mechanistically plausible.
+Malignant hypertension is driven in part by activation of the renin-angiotensin-aldosterone system (RAAS). A 2001 study (PMID 11560862) reported that AT1 receptor blockade prevented lethal malignant hypertension, with the effect linked to kidney inflammation. The study appears to be in an animal model. The mechanism is plausible and directly relevant, but the evidence is preclinical and indirect.
 
-The single supporting publication (Hilgers et al., *Circulation*, 2001) found that AT1 receptor blockade prevented lethal malignant hypertension in an animal model, and notably did so independently of blood-pressure-lowering effects — pointing to a renoprotective, anti-inflammatory mechanism rather than simple haemodynamic control. This strengthens biological plausibility but remains a single preclinical study; it does not establish clinical efficacy in humans.
+Because valsartan is already used for hypertension, this would be an extension to a severe subtype of the same condition rather than a new mechanism. Note that the other predicted indications were also reviewed, and all are weaker (see the table below).
 
----
+### Other Predicted Indications (Summary)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
+|------|------|------|------|
+| Malignant hypertensive renal disease | 99.97% | L5 | Only paper concerns avosentan (a different drug) |
+| Pulmonary hypertension, unclear multifactorial mechanism | 99.97% | L5 | No trials or literature |
+| Pulmonary hypertension owing to lung disease/hypoxia | 99.97% | L4 | Mostly preclinical or sacubitril/valsartan studies; no trials |
+| Braddock syndrome | 99.96% | L5 | No trials or literature |
+| Chronic pulmonary heart disease | 99.58% | L4 | Mostly sacubitril/valsartan in heart failure; one irrelevant Phase 1 trial |
+| Prinzmetal angina | 99.45% | L5 | One indirect review only |
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this predicted indication (Malignant Renovascular Hypertension).
-
----
+Currently no related clinical trials registered for malignant renovascular hypertension.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclinical/Animal | Circulation | AT1 receptor blockade prevented lethal malignant hypertension in an animal model, independent of blood-pressure-lowering effect, and was linked to reduced kidney inflammation |
-
----
+| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclinical animal study | Circulation | AT1 receptor blockade prevented lethal malignant hypertension, with the effect related to kidney inflammation |
 
 ## UK Market Information
 
-No marketing authorisation records are present in the current Evidence Pack. Valsartan is recorded as **Not marketed** in this dataset, with 0 total licences on file. Licence and formulation data will need to be sourced separately (e.g. MHRA product register, BNF) before any market-facing assessment can proceed.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0205052V0AAABAB | Valsartan capsule 80 mg | Capsule (inferred from product name) | Not specified in the data compiled |
 
----
+The data compiled for this report contain one valid single-ingredient authorisation. The authorisation number shown is not in the standard MHRA PL format, so it should be verified against the MHRA register. Dosage form and indication text were not supplied.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from drug-disease knowledge graph associations, not label text):**
+Conditions linked to valsartan as contraindications include liver failure, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), systemic lupus erythematosus, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, hyperuricaemia, gout, neutropenia, agranulocytosis, hypotension, hyperparathyroidism, hepatic coma and encephalopathy, neonatal jaundice, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, renal artery obstruction and impaired renal function.
+These come from a knowledge graph and may not match the licensed contraindications. Renal artery obstruction and impaired renal function are particularly relevant to renovascular disease.
 
-*(No key warnings, contraindications, or drug–drug interaction data were returned in the current Evidence Pack query.)*
+**Drug Interactions (100 recorded; examples shown):**
+- **Major:** potassium chloride, potassium bicarbonate (risk of hyperkalaemia)
+- **Moderate:** hydrocortisone, eluxadoline, exenatide, polyethylene glycol (3350 with electrolytes), and numerous insulin preparations (human, aspart, degludec, detemir, glargine, glulisine, lispro and others)
 
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the Malignant Renovascular Hypertension indication is currently limited to a single 2001 animal-model publication (Evidence Level L4, decision stage S1 — Research Question). There are no clinical trials, human observational data, or licensing information to support progression at this time.
+The prediction score is high and the RAAS mechanism is plausible, but support consists of one preclinical paper and no clinical trials (L4). Valsartan is already used for hypertension, so the gap is evidence in the malignant renovascular subtype specifically. Other predicted indications have even weaker support.
 
 **To proceed, the following is needed:**
-- TFDA/MHRA SmPC warnings and contraindications (Blocking data gap — DG001)
-- Detailed mechanism of action (MOA) data from DrugBank (High-priority data gap — DG002)
-- Human clinical or observational evidence (ideally Phase 2/3) specific to malignant or renovascular hypertension populations
-- UK marketing authorisation and licence data, given the drug is currently recorded as not marketed
-
-**Note:** Within this same Evidence Pack, a different candidate indication for Valsartan — **chronic pulmonary heart disease (cor pulmonale)** — carries substantially stronger evidence (Evidence Level L3, decision stage S2, "Proceed with Guardrails"), supported by a completed Phase 4 RCT (Sacubitril/Valsartan vs Enalapril, NCT02768298) and multiple COPD-with-heart-failure cohort analyses from the PARADIGM-HF and PARAGON-HF trial programmes. This indication may warrant separate, prioritised evaluation.
+- Mechanism of action data (currently missing)
+- Full SmPC and BNF warnings and contraindications (currently missing; this blocks formal safety screening)
+- Dosage form and approved indication details for the UK authorisation, and verification of the authorisation number
+- Clinical evidence (trials or observational studies) of valsartan in malignant or renovascular hypertension
+- A safety plan for renal function and potassium monitoring, given renal artery obstruction and hyperkalaemia interaction concerns
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

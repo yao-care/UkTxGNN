@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Memantine
-parent: High Evidence (L1-L2)
-nav_order: 362
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 391
+evidence_level: L5
 indication_count: 4
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,97 +29,87 @@ Evidence Level: **L1** | Predicted Indications: **4**
 
 </div>
 
-# Memantine: From Alzheimer's Disease to Migraine Disorder
+# Memantine: From Dementia Treatment to Migraine Disorder
 
 ## One-Sentence Summary
 
-> Memantine is an NMDA receptor antagonist, generally known for the treatment of moderate-to-severe Alzheimer's disease (this original indication is based on general pharmacological knowledge and is **not confirmed by regulatory data in this evidence pack** — see Data Gaps DG001/DG002).
-> The TxGNN model, together with real-world clinical and literature evidence, predicts memantine may be effective for **Migraine Disorder** (episodic migraine prophylaxis),
-> with **2 clinical trials** (including 1 completed Phase 3 RCT) and **20 publications** — including a network meta-analysis, a systematic review, and multiple RCTs — currently supporting this direction.
-
-Three further TxGNN candidates were also screened for this drug (pulmonary hypertension, kyphoscoliotic heart disease, migraine with brainstem aura); none currently have sufficient evidence and are addressed briefly in the Conclusion section.
-
----
+Memantine is an NMDA receptor antagonist marketed in the UK in oral solution and tablet forms. The data compiled for this report do not record an approved indication for it.
+The TxGNN model's most clinically supported prediction is **migraine disorder** (second-ranked overall; the top-ranked prediction, pulmonary hypertension, has no supporting studies), with **1 completed Phase 3 trial** and **19 publications**, including a meta-analysis of RCTs. The evidence base is small and of limited quality, so this should be treated as provisional.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (general knowledge; not confirmed by regulatory data in this evidence pack — Data Gap DG001/DG002) |
-| Predicted New Indication | Migraine Disorder (episodic migraine prophylaxis) |
+| Original Indication | Not stated in the data compiled for this report |
+| Predicted New Indication | Migraine disorder (rank 2; selected because rank 1, pulmonary hypertension, has no supporting evidence) |
 | TxGNN Prediction Score | 99.52% |
-| Evidence Level | L1 |
-| UK Market Status | Not Marketed (per available regulatory dataset) |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L1 (provisional; based on one small Phase 3 trial) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 2 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data from DrugBank is not available for this drug (Data Gap DG002). Based on information drawn from the supporting literature, memantine is a **non-competitive NMDA receptor antagonist**. Glutamate/NMDA receptor signalling is implicated in **cortical spreading depression** and **central sensitisation**, both of which are core elements of migraine pathophysiology. This gives the prediction a plausible, well-articulated mechanistic rationale — considerably stronger than the other three candidate indications flagged for this drug, none of which have an established mechanistic link (see repurposing_rationale for pulmonary hypertension and kyphoscoliotic heart disease, both scored L5/Hold with no or irrelevant supporting literature).
+Detailed mechanism of action data are not available in the data compiled for this report. Memantine is, however, a known non-competitive NMDA receptor antagonist, and the retrieved literature is consistent with that.
 
-Because the original indication (presumed Alzheimer's disease/dementia) also centres on glutamatergic/NMDA receptor modulation in the CNS, the pharmacological rationale for repurposing towards a CNS excitability disorder such as migraine is coherent, even though the two conditions are clinically distinct. This mechanistic continuity is reflected in the volume of published clinical interest: at least 8 dedicated clinical/case-based publications on memantine specifically for migraine prophylaxis exist (spanning 2007–2025), plus a completed Phase 3 head-to-head RCT against sodium valproate — an established first-line migraine prophylactic agent.
+Glutamate and NMDA receptor signalling are implicated in migraine. This includes cortical spreading depression, central sensitisation and trigeminovascular activation. Blocking the NMDA receptor is therefore a plausible route to migraine prophylaxis. Reviews of glutamate receptors as migraine targets and of NMDA antagonists (memantine and ketamine) as anti-migraine agents support this reasoning.
 
----
+The other predictions are weaker. Pulmonary hypertension and kyphoscoliotic heart disease have high scores but no supporting trials or relevant studies. Migraine with brainstem aura rests only on indirect extrapolation from general migraine data. Of the predictions retrieved, migraine disorder has by far the strongest support.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Phase 3 | Completed | 33 | Head-to-head comparison of memantine vs sodium valproate for prophylactic treatment of episodic migraine; sodium valproate is an established Level A prophylactic, memantine was tested as an alternative for non-responders. Small sample size limits statistical power. |
-| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | Phase 4 | Enrolling by invitation | 3,300 | Pragmatic EMR-based platform study across 10 common neurological disorders at NorthShore University HealthSystem; not a dedicated memantine–migraine trial, low direct relevance (relevance grade C). |
-
----
+| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Phase 3 | Completed | 33 | Memantine compared with sodium valproate for prophylaxis of episodic migraine. Directly relevant, but the small sample and active-comparator design limit conclusions about efficacy over placebo. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT (double-blind, placebo-controlled) | Headache | Randomised placebo-controlled study of memantine for prophylaxis of migraine without aura, following earlier uncontrolled evidence of benefit. |
-| [19280698](https://pubmed.ncbi.nlm.nih.gov/19280698/) | 2009 | RCT/Open-label | Headache | Evaluates memantine in preventive treatment of migraine and refractory migraine. |
-| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Meta-analysis of RCTs | Clinical Neuropharmacology | Systematic review/meta-analysis exploring memantine vs placebo efficacy for migraine; notes efficacy remains controversial. |
-| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematic Review | Headache | Assesses efficacy and safety of memantine for prophylactic treatment of episodic migraine. |
-| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Network Meta-analysis | Frontiers in Pharmacology | Compares comparative effectiveness and safety of oral preventive migraine medications (adults 18–65) across multiple agents. |
-| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Clinical Practice Guideline | Annals of Internal Medicine | 2023 US VA/DoD Clinical Practice Guideline for headache management, covering migraine/TTH treatment and prevention recommendations. |
-| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Review | Naunyn-Schmiedeberg's Archives of Pharmacology | Reviews NMDA receptor antagonists memantine and ketamine as potential anti-migraine agents, synthesising PubMed/Embase/ClinicalTrials.gov evidence. |
-| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospective study (n=60) | Journal of Headache and Pain | Retrospective characterisation of memantine efficacy as preventive migraine therapy in a university headache clinic cohort. |
-| [19031499](https://pubmed.ncbi.nlm.nih.gov/19031499/) | 2008 | Open-label study | Headache | Assesses efficacy and tolerability of memantine for preventive treatment of refractory migraine. |
-| [25159002](https://pubmed.ncbi.nlm.nih.gov/25159002/) | 2014 | Review | The Annals of Pharmacotherapy | Describes current evidence evaluating efficacy and safety of memantine for prevention of primary headache disorders. |
-
-Note: An additional commentary (PMID 34510445, *"Memantine for migraine – Big promise but little evidence"*, Headache 2021) directly cautions that despite the volume of positive-leaning publications, the underlying evidence base remains limited — this is reflected in the "Proceed with Guardrails" recommendation below.
-
----
+| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Meta-analysis of RCTs | Clin Neuropharmacol | Examines memantine versus placebo in migraine patients; the efficacy of memantine for migraine is described as controversial. |
+| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT | Headache | Double-blind, placebo-controlled study of memantine for prophylaxis of migraine without aura. |
+| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Network meta-analysis | Front Pharmacol | Compares the efficacy and safety of oral preventive medications for migraine in adults aged 18-65. |
+| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematic review | Headache | Assesses the efficacy and safety of memantine for prophylaxis of episodic migraine. |
+| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Review | Naunyn Schmiedebergs Arch Pharmacol | Presents memantine and ketamine as potential anti-migraine agents; some evidence of benefit. |
+| [25159002](https://pubmed.ncbi.nlm.nih.gov/25159002/) | 2014 | Review | Ann Pharmacother | Reviews data on the efficacy and safety of memantine for preventing primary headache disorders. |
+| [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445/) | 2021 | Commentary | Headache | "Big promise but little evidence": highlights the limited evidence base for memantine in migraine. |
+| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospective study | J Headache Pain | Retrospective study of 60 patients given memantine as migraine preventive therapy. |
+| [29508147](https://pubmed.ncbi.nlm.nih.gov/29508147/) | 2018 | Review | Neurotherapeutics | Glutamate and its receptors as therapeutic targets in migraine. |
+| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Clinical practice guideline | Ann Intern Med | 2023 US VA/DoD guideline on the management of headache, covering migraine treatment and prevention. |
 
 ## UK Market Information
 
-No marketing authorisation records are available in the current dataset. The evidence pack's regulatory source records **market status: Not Marketed**, with **0 registered licences**. This should be independently verified against the MHRA product database and BNF, as memantine is a well-established medicine in other markets; absence of a record here should not be interpreted as definitive UK non-availability.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0411000G0AAABAB | Memantine HCl oral solution 5 mg/pump | Oral solution | Not stated |
+| 0411000G0AAAAAA | Memantine HCl tablets 10 mg | Tablet | Not stated |
 
----
+Both authorisations are valid single-ingredient products. The data compiled for this report do not include approved indication text, so please check the BNF and SmPC for the licensed indication and any NICE-appraised use. Migraine prophylaxis would be off-label use.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications flagged in the knowledge graph** (drug-disease links, not label text): liver disease, gallbladder disease and impaired renal function.
+- **Drug Interactions**: 100 interactions were recorded. Those listed in the data include:
+  - **Moderate**: anticholinergic or antimuscarinic agents (hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, methscopolamine, propantheline, scopolamine, trospium, mepenzolate).
+  - **Minor**: ranitidine, metformin, cimetidine, potassium citrate.
+  - **Unknown severity**: glimepiride, doxycycline, lansoprazole, loperamide, famotidine, acetylsalicylic acid.
+- **Monitoring in a migraine setting**: the data suggest watching for dizziness, headache and somnolence, and checking renal function and concomitant medicines.
 
-*(No structured warnings, contraindications, or drug interaction data were available in this evidence pack — flagged as a Blocking Data Gap, DG001.)*
-
----
+Label warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Migraine disorder is the only one of the four TxGNN-predicted indications for this drug with substantive supporting evidence (L1: one completed Phase 3 RCT, a network meta-analysis, a systematic review, and a decade-plus track record of case series/open-label studies). However, trial sample sizes are small (largest dedicated RCT n=33) and at least one published commentary explicitly questions whether the promise is matched by evidence quality. This combination — plausible mechanism, moderate trial volume, but underpowered confirmatory data — supports cautious, guarded progression rather than an unqualified Go.
-
-The other three candidates (pulmonary hypertension, kyphoscoliotic heart disease, migraine with brainstem aura) remain at **Hold**: pulmonary hypertension and kyphoscoliotic heart disease have no relevant clinical trial evidence and only tangential or absent literature support (L5); migraine with brainstem aura has only indirect literature extrapolated from general migraine mechanism studies (L3).
+Migraine disorder is the only prediction with a completed Phase 3 trial and meta-analytic evidence. However, the trial is small (n=33) and compared memantine with an active drug rather than placebo. The literature itself describes the evidence as limited, so the L1 grade is provisional. The other predictions (pulmonary hypertension, kyphoscoliotic heart disease, migraine with brainstem aura) are not supported by direct evidence and should be held or treated as research questions.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking data gap on TFDA/MHRA-sourced warnings and contraindications (DG001) before any S1 safety review
-- Confirmation of DrugBank/SmPC-sourced mechanism of action and original licensed indication (DG002)
-- A larger, adequately powered confirmatory Phase 3 RCT for episodic migraine prophylaxis (current evidence base relies on small or open-label studies)
-- Confirmation of actual UK/MHRA marketing authorisation status, given the "Not Marketed" flag in this dataset conflicts with memantine's known international availability
-- Further evidence collection (trials/mechanistic studies) before any decision-stage progression on pulmonary hypertension, kyphoscoliotic heart disease, or migraine with brainstem aura
+- Larger, adequately powered, placebo-controlled RCTs in migraine prophylaxis
+- Critical appraisal of the existing meta-analysis (PMID 33961371) and the Phase 3 trial results
+- Confirmation of the licensed indications and labelled warnings from the SmPC and BNF
+- Mechanism of action data to be added to the record
+- A medicines-review and renal function check plan, given the large number of recorded interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

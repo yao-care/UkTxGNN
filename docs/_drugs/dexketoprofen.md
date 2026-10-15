@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: High Evidence (L1-L2)
-nav_order: 206
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 218
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dexketoprofen
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Dexketoprofen: From Acute Pain (NSAID) to Migraine Disorder
+# Dexketoprofen: From Pain Management (Indication Not Recorded) to Tendinitis
 
 ## One-Sentence Summary
 
-Dexketoprofen is a propionic-acid-derivative NSAID whose established use is short-term relief of acute mild-to-moderate pain; it currently holds no UK marketing authorisation in this dataset. The TxGNN model predicts it may be effective for **Migraine Disorder**, with **8 clinical trials** and **20 publications** currently supporting this direction — the strongest evidence base among all indications predicted for this drug.
+Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 25 mg tablet.
+The TxGNN model's top-ranked prediction is **tendinitis**, but this is supported by **no registered clinical trials** and only **1 indirect publication** (an emergency department study in non-specific musculoskeletal pain).
+Among the other predictions, **migraine disorder** has by far the strongest evidence (**5 clinical trials** and **20 publications**), and is discussed below as the more actionable direction.
 
 ---
 
@@ -41,61 +43,73 @@ Dexketoprofen is a propionic-acid-derivative NSAID whose established use is shor
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute mild-to-moderate pain (NSAID analgesic) — no jurisdiction-specific licence text available |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Tendinitis (rank 1); migraine disorder (rank 6) has the strongest evidence |
+| TxGNN Prediction Score | 99.90% (tendinitis); 99.87% (migraine disorder) |
+| Evidence Level | L4 (tendinitis); L1 (migraine disorder) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (tendinitis); Proceed with Guardrails (migraine disorder) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this candidate is currently a data gap. Based on known pharmacology, dexketoprofen is the pharmacologically active S(+)-enantiomer of ketoprofen, a propionic-acid-class NSAID that non-selectively inhibits COX-1/COX-2, reducing prostaglandin synthesis and thereby peripheral and central pain sensitisation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dexketoprofen is the active (S)-enantiomer of ketoprofen and belongs to the NSAID class, which inhibits cyclo-oxygenase (COX-1 and COX-2) enzymes and so reduces prostaglandin production. Its efficacy in acute pain has been established, and mechanistically it may be applicable to inflammatory and pain conditions.
 
-Its original use — acute mild-to-moderate pain — and the predicted new indication, migraine, share a common pharmacological pathway: NSAID-mediated COX inhibition reduces prostaglandin-driven activation and sensitisation of the trigeminovascular system, which underlies migraine pain. This is a well-established drug-class extension rather than a novel mechanistic hypothesis, and is corroborated by two closely related predictions for this candidate — **headache disorder** (rank 7, also L1/S3, "Proceed with Guardrails") and **migraine with brainstem aura** (rank 8, L2/S2), which extend the same rationale to a broader headache population and to a specific migraine subtype respectively.
+**Tendinitis.** Prostaglandin-mediated inflammation and pain are plausible drivers of tendon disorders, so an NSAID is a reasonable candidate. However, the only supporting evidence is a single emergency department trial in non-traumatic musculoskeletal pain, which mentions tendinitis only as one possible cause. It is indirect and not specific to tendinitis.
 
-By contrast, several other TxGNN-predicted indications for dexketoprofen (tendinitis, rheumatoid arthritis, fibromyalgia, idiopathic granulomatous myositis, myositis fibrosa, exostosis, congenital hypotrichosis milia) carry weak-to-absent mechanistic or empirical support (evidence levels L3–L5, recommendation "Research Question" or "Hold") and are not pursued further in this report.
+**Migraine disorder.** COX inhibition reduces prostaglandin-driven neurogenic inflammation and trigeminovascular pain signalling during acute attacks. This is supported by placebo-controlled and active-comparator randomised trials and a meta-analysis. The evidence relates to acute treatment only.
+
+**Other predictions.** Rheumatoid arthritis (symptomatic relief only), headache disorder (evidence derived from the migraine studies), and migraine with brainstem aura (extrapolated from general migraine) have partial or indirect rationale. Fibromyalgia, idiopathic granulomatous myositis, myositis fibrosa, exostosis and congenital hypotrichosis milia are model predictions only, with weak or no mechanistic support and no clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+No clinical trials are registered for the top-ranked prediction, tendinitis. Currently no related clinical trials registered.
+
+For reference, the following trials relate to the best-supported prediction, **migraine disorder**:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01730326](https://clinicaltrials.gov/study/NCT01730326) | Phase 4 | Completed | 200 | IV dexketoprofen vs IV paracetamol for acute migraine attack headache in the emergency department (direct head-to-head comparison) |
-| [NCT02159547](https://clinicaltrials.gov/study/NCT02159547) | Phase 4 | Completed | 224 | IV dexketoprofen vs placebo for acute migraine attack in the ED — largest placebo-controlled dataset for this indication |
-| [NCT04252521](https://clinicaltrials.gov/study/NCT04252521) | Phase 4/NA | Completed | 150 | IV metoclopramide vs dexketoprofen vs combination for acute migraine attack in the ED |
-| [NCT04372264](https://clinicaltrials.gov/study/NCT04372264) | Phase 4 | Unknown | 210 | Three-arm comparison of IV paracetamol, dexketoprofen and ibuprofen (VAS outcome) for acute migraine; design relevant but completion status unclear |
-| [NCT04533568](https://clinicaltrials.gov/study/NCT04533568) | Phase 4 | Completed | 160 | IV ibuprofen vs IV dexketoprofen for migraine-related headache in the ED (active-comparator design) |
-| [NCT05780671](https://clinicaltrials.gov/study/NCT05780671) | N/A | Completed | 160 | Dexketoprofen 50 mg + metoclopramide used as standard background therapy while testing supplemental oxygen; dexketoprofen not the primary intervention |
-| [NCT04519346](https://clinicaltrials.gov/study/NCT04519346) | NA | Completed | 150 | Intradermal mesotherapy vs systemic therapy (including NSAID) for migraine without aura; dexketoprofen not the sole focus |
-| [NCT06061588](https://clinicaltrials.gov/study/NCT06061588) | NA | Completed | 140 | Virtual reality technology for migraine-type headache; non-pharmacological comparator, included for population overlap only |
+| [NCT02159547](https://clinicaltrials.gov/study/NCT02159547) | Phase 4 | Completed | 224 | IV dexketoprofen versus placebo in acute migraine attack in the emergency department |
+| [NCT04252521](https://clinicaltrials.gov/study/NCT04252521) | Not applicable | Completed | 150 | IV metoclopramide versus dexketoprofen trometamol versus the combination in acute migraine |
+| [NCT01730326](https://clinicaltrials.gov/study/NCT01730326) | Phase 4 | Completed | 200 | IV dexketoprofen versus paracetamol for headache from acute migraine attack |
+| [NCT04533568](https://clinicaltrials.gov/study/NCT04533568) | Phase 4 | Completed | 160 | IV ibuprofen versus IV dexketoprofen for migraine-related headache |
+| [NCT04372264](https://clinicaltrials.gov/study/NCT04372264) | Phase 4 | Unknown | 210 | IV paracetamol, dexketoprofen and ibuprofen compared on pain scores in acute migraine |
 
 ---
 
 ## Literature Evidence
 
+For tendinitis, one publication is available:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31725614](https://pubmed.ncbi.nlm.nih.gov/31725614/) | 2019 | Meta-analysis (RCTs) | Medicine | Meta-analysis of RCTs assessing dexketoprofen vs placebo for migraine attack pain control |
-| [25944813](https://pubmed.ncbi.nlm.nih.gov/25944813/) | 2016 | RCT | Cephalalgia | Placebo-controlled RCT confirming efficacy of IV dexketoprofen in aborting migraine attacks in the ED |
-| [24394884](https://pubmed.ncbi.nlm.nih.gov/24394884/) | 2014 | RCT | Emergency Medicine Journal | RCT comparing IV dexketoprofen with paracetamol for acute migraine attack |
-| [32359776](https://pubmed.ncbi.nlm.nih.gov/32359776/) | 2020 | RCT | American Journal of Emergency Medicine | RCT of metoclopramide vs dexketoprofen vs combination for acute migraine attack |
-| [24412801](https://pubmed.ncbi.nlm.nih.gov/24412801/) | 2014 | RCT (Phase II) | The Journal of Pain | Dose-optimisation, placebo-controlled crossover RCT of dexketoprofen (25 mg/50 mg) for migraine |
-| [25056381](https://pubmed.ncbi.nlm.nih.gov/25056381/) | 2014 | RCT | Expert Review of Neurotherapeutics | Efficacy and tolerability of frovatriptan plus dexketoprofen combination for acute migraine |
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | 2025 American Headache Society guideline update on parenteral pharmacotherapies (incl. NSAIDs) for ED migraine treatment |
-| [24867846](https://pubmed.ncbi.nlm.nih.gov/24867846/) | 2014 | RCT | Neurological Sciences | Early vs late dexketoprofen + frovatriptan combination vs frovatriptan alone for migraine attacks |
-| [24363238](https://pubmed.ncbi.nlm.nih.gov/24363238/) | 2014 | RCT | Cephalalgia | Frovatriptan + dexketoprofen combination superior to frovatriptan alone for migraine attacks |
-| [11155464](https://pubmed.ncbi.nlm.nih.gov/11155464/) | 2000 | Early clinical study | Minerva Medica | Early efficacy and safety evaluation of dexketoprofen trometamol in acute migraine attack |
+| [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/) | 2019 | RCT | Am J Emerg Med | IV dexketoprofen versus paracetamol in non-traumatic musculoskeletal pain in the emergency department (indirect; not tendinitis-specific) |
+
+For reference, key publications for **migraine disorder**:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [25944813](https://pubmed.ncbi.nlm.nih.gov/25944813/) | 2016 | RCT | Cephalalgia | IV dexketoprofen versus placebo for migraine attack in the emergency department |
+| [31725614](https://pubmed.ncbi.nlm.nih.gov/31725614/) | 2019 | Meta-analysis | Medicine | Efficacy of dexketoprofen versus placebo for pain control in migraine attack across randomised studies |
+| [32359776](https://pubmed.ncbi.nlm.nih.gov/32359776/) | 2020 | RCT | Am J Emerg Med | IV metoclopramide versus dexketoprofen trometamol versus the combination in acute migraine |
+| [24412801](https://pubmed.ncbi.nlm.nih.gov/24412801/) | 2014 | RCT (Phase II) | J Pain | Dose-optimisation, placebo-controlled crossover study of 25 mg and 50 mg dexketoprofen trometamol in migraine |
+| [24394884](https://pubmed.ncbi.nlm.nih.gov/24394884/) | 2014 | RCT | Emerg Med J | IV paracetamol versus dexketoprofen in acute migraine in the emergency department |
+| [24363238](https://pubmed.ncbi.nlm.nih.gov/24363238/) | 2014 | RCT | Cephalalgia | Frovatriptan plus dexketoprofen versus frovatriptan alone in migraine with or without aura |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guideline | Headache | American Headache Society update on parenteral treatments for migraine in the emergency department |
 
 ---
 
 ## UK Market Information
 
-Dexketoprofen currently holds no UK marketing authorisation and no licences are recorded in this dataset (market status: **Not marketed**; 0 marketing authorisations on file). No BNF entry or NICE appraisal is applicable at this time.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010AEAAAAAA | Dexketoprofen Tab 25mg | Tablet | Not available in the data compiled for this report |
+
+The BNF classifies dexketoprofen among the non-steroidal anti-inflammatory drugs. Please check the current SmPC and BNF for the licensed indications. Dexketoprofen is not listed here under a NICE-appraised indication in the data compiled for this report.
 
 ---
 
@@ -103,23 +117,25 @@ Dexketoprofen currently holds no UK marketing authorisation and no licences are 
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*Note: local product warnings/contraindications data (TFDA equivalent) is flagged as a Blocking data gap in this evidence pack — see Next Steps below.*
+Class-level cautions relevant to any repurposing work include gastrointestinal, renal and cardiovascular risks of NSAIDs, and the risk of medication-overuse headache with frequent analgesic use in headache disorders.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold (tendinitis, the top-ranked prediction). Proceed with Guardrails for migraine disorder as a separate, better-evidenced direction.**
 
 **Rationale:**
-Multiple completed Phase 4 RCTs (including a placebo-controlled trial, n=224) and a supportive meta-analysis consistently show dexketoprofen is effective for acute migraine attack pain, and this is reinforced by parallel evidence for the closely related "headache disorder" indication. However, all identified trials are Phase 4 (post-marketing) studies conducted outside the UK, and drug-level safety/regulatory data for this jurisdiction remain unresolved.
+- Tendinitis has a high model score but only one indirect trial, and no registered trials, so it remains at L4 and should not progress on current evidence.
+- Migraine disorder is supported by multiple randomised trials, including a placebo-controlled study, and a meta-analysis (L1). Guardrails should limit use to acute treatment in adults, with attention to NSAID gastrointestinal, renal and cardiovascular risks. No prophylaxis evidence was provided.
 
 **To proceed, the following is needed:**
-- Local product label data (warnings and contraindications) — currently a **Blocking** data gap preventing initial safety assessment (S1)
-- Detailed mechanism-of-action confirmation via DrugBank — currently a **High**-severity data gap
-- A drug-drug interaction review, as none is currently on file
-- Confirmation of route/formulation compatibility (IV formulation used in cited trials) against any future UK licensing pathway
-- Given the absence of a current UK marketing authorisation, a regulatory pathway assessment (e.g. licensing route) would be required before clinical evaluation can advance
+- Original licensed indication text from the MHRA/SmPC, as the authorisation record is incomplete
+- Warnings, contraindications and interaction data from the SmPC and BNF (the safety screen cannot be completed without these)
+- Mechanism of action data from DrugBank
+- For tendinitis: tendon-specific randomised trials, ideally against another NSAID or placebo
+- For migraine disorder: assessment of evidence in UK primary-care settings and oral formulations, since most trials used IV dexketoprofen in Turkish emergency departments, and confirmation of the formulation and route available in the UK
+- For headache disorder and migraine with brainstem aura: subtype-specific studies before any extension beyond migraine
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Bisacodyl
 parent: Model Prediction Only (L5)
-nav_order: 105
+nav_order: 109
 evidence_level: L5
 indication_count: 0
 ---

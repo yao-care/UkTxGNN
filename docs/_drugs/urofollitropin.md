@@ -2,7 +2,7 @@
 layout: default
 title: Urofollitropin
 parent: Model Prediction Only (L5)
-nav_order: 606
+nav_order: 648
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Urofollitropin: From Ovulation Induction to Migraine Disorder
+# Urofollitropin: From Ovulation Induction and Ovarian Stimulation to Migraine Disorder
 
 ## One-Sentence Summary
 
-Urofollitropin is a urinary-derived, highly purified preparation of follicle-stimulating hormone (FSH), originally used for ovulation induction and the treatment of female infertility. The TxGNN model predicts it may be effective for **Migraine Disorder**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, meaning it rests on model output alone with no corroborating mechanistic or clinical evidence.
+Urofollitropin is a urine-derived follicle-stimulating hormone (FSH) preparation, used for ovulation induction and ovarian stimulation.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **no clinical trials and no publications** supporting this direction. The prediction is computational only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovulation induction / treatment of female infertility (inferred from drug class; no formal UK licence text available) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Not stated in the UK authorisation data compiled for this report (generally used for ovulation induction and ovarian stimulation) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for Urofollitropin is not currently available in this Evidence Pack. Based on known pharmacology, Urofollitropin is a urinary-purified FSH preparation used to stimulate follicular development for ovulation induction and infertility treatment. There is no established biological pathway linking exogenous FSH administration to migraine pathophysiology, which is primarily driven by trigeminovascular system activation and the CGRP (calcitonin gene-related peptide) pathway.
+Currently, detailed mechanism of action data is not available. Based on known information, urofollitropin is a urine-derived FSH preparation that stimulates follicular development in the ovary. Its established use is in reproductive medicine, and no mechanism has been shown that would make it applicable to migraine.
 
-The repurposing rationale accompanying this prediction explicitly notes that the high TxGNN score likely reflects an indirect connection between hormonal and neuroendocrine nodes within the knowledge graph, rather than any specific, validated pharmacological mechanism. No shared pathway, receptor target, or clinical rationale connects the treatment of infertility with migraine management.
+Hormonal fluctuation, particularly in oestrogen, is associated with migraine, which could offer a very loose, speculative connection through the effects of FSH on ovarian hormone production. However, there is no evidence that FSH activity modulates migraine pathophysiology. The high TxGNN score is a computational output and should not be read as clinical support.
 
-Given the absence of a plausible mechanistic link and the complete lack of supporting clinical or literature evidence, this prediction should be interpreted as a graph-topology artefact rather than a genuine repurposing signal at this stage.
+Other top-ranked predictions show the same pattern: migraine with brainstem aura, cauda equina syndrome, His bundle tachycardia, restless legs syndrome, obsolete neurogenic bladder, multifocal atrial tachycardia, postural orthostatic tachycardia syndrome, a migraine susceptibility entry, and Raynaud disease. None has trial or literature support, and several (for example cauda equina syndrome, a compressive surgical emergency) have no plausible mechanistic link, suggesting artefacts of knowledge-graph connectivity.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## UK Market Information
 
-No UK marketing authorisations are currently held for Urofollitropin (total licences: 0). The product's UK market status is recorded as **Not marketed**.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0605010M0AAAFAF (BNF-style product code; PL number not available) | Urofollitropin Inj 150u Vl + Dil | Injection (vial with diluent) | Not stated in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: Ganirelix (Moderate severity). Ganirelix is a GnRH antagonist often used alongside gonadotropins in ovarian stimulation protocols, so combined use should follow specialist protocols.
 
-> **Note:** Key warnings, contraindications, and drug-drug interaction (DDI) data for Urofollitropin are currently unavailable in this Evidence Pack (flagged as a **Blocking** data gap — DG001). This absence prevents any preliminary safety assessment (S1 stage) and must be resolved before further evaluation proceeds.
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanistic plausibility linking FSH to migraine pathophysiology, and the prediction is unsupported by any clinical trials or published literature (Evidence Level L5 — model prediction only). Combined with a blocking data gap on safety warnings/contraindications, this candidate does not meet the threshold to advance beyond the model-screening stage.
+The prediction rests only on a model score, with no registered trials, no publications, and no identifiable mechanistic link between FSH and migraine. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Resolution of the blocking data gap (DG001): TFDA/MHRA-equivalent SmPC warnings and contraindications
-- Confirmed mechanism of action data (DG002), including any neuroendocrine or hormonal pathways plausibly relevant to migraine
-- At least preclinical or observational evidence directly linking FSH (or gonadotropin) exposure to migraine frequency/severity
-- Independent confirmation that the TxGNN signal is not driven by graph artefacts (e.g., shared node connections unrelated to therapeutic mechanism)
+- Mechanism of action data and a credible biological hypothesis linking FSH activity to migraine
+- Preclinical or observational evidence (for example, studies of gonadotropin exposure and migraine)
+- The approved indication text and PL number from the MHRA authorisation record
+- Full safety information from the SmPC, including warnings and contraindications
+- Assessment of route and dosing compatibility, since the current injectable fertility regimens may not suit a chronic neurological condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

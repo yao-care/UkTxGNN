@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fenbufen
-parent: High Evidence (L1-L2)
-nav_order: 264
-evidence_level: L1
+parent: Model Prediction Only (L5)
+nav_order: 281
+evidence_level: L5
 indication_count: 10
 ---
 
 # Fenbufen
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Fenbufen: From Rheumatic Disease (Historical NSAID Use) to Osteoarthritis
+# Fenbufen: From Musculoskeletal Pain and Inflammation to Osteoarthritis
 
 ## One-Sentence Summary
 
-Fenbufen is a phenylalkanoic acid NSAID that was historically marketed internationally (e.g. as Cinopal/Lederfen) for pain and inflammation in rheumatoid arthritis and osteoarthritis, though it currently holds no UK marketing authorisation and formal regulatory indication data is unavailable. The TxGNN model's top-ranked prediction — **Osteoarthritis** (score 99.00%) — largely re-identifies this drug's own historically established use rather than a genuinely novel indication, supported by **20 PubMed publications** (several 1970s–1980s RCTs) but **no registered clinical trials** in ClinicalTrials.gov or ICTRP.
+Fenbufen is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in the UK, and the data compiled for this report do not record a specific approved indication for it.
+The TxGNN model predicts it may be effective for **osteoarthritis**, with **no registered clinical trials** but **20 publications** (including several randomised, double-blind comparisons) supporting this direction.
+Osteoarthritis is already an established use of fenbufen, so this is better described as confirmation of a known use than as true repurposing.
 
 ---
 
@@ -41,79 +43,88 @@ Fenbufen is a phenylalkanoic acid NSAID that was historically marketed internati
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in UK regulatory records (drug not currently marketed); historical literature indicates use for rheumatic/inflammatory pain (osteoarthritis, rheumatoid arthritis) |
+| Original Indication | Not recorded in the data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 99.00% |
-| Evidence Level | L1 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Evidence Level | L1 (as assigned in the compiled data; see the note under Literature Evidence) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed, regulator-confirmed mechanism of action data is not available for Fenbufen (DrugBank field flagged as a data gap). However, the accompanying literature evidence is informative: Fenbufen is a pro-drug phenylalkanoic acid derivative with analgesic, antipyretic and anti-inflammatory activity. Pharmacological studies cited in the evidence base indicate that fenbufen itself has little direct effect on cyclooxygenase, and that its major active metabolite, biphenylacetic acid, is the potent COX-1/COX-2 inhibitor responsible for its therapeutic effect — a classic NSAID mechanism.
+Detailed mechanism of action data for fenbufen is not available in the compiled data. However, fenbufen is an NSAID and a prodrug. Its main active metabolite is felbinac (biphenylacetic acid). The pharmacology literature indicates that fenbufen itself has no intrinsic effect on cyclooxygenase (COX), whereas felbinac is a potent inhibitor. Through COX-1 and COX-2 inhibition, it reduces prostaglandin-driven pain and inflammation in affected joints.
 
-This mechanism is directly applicable to osteoarthritis, where prostaglandin-mediated joint inflammation and pain are core pathological features. Notably, the "predicted new indication" here is not truly novel: multiple double-blind RCTs from the late 1970s and early 1980s (predating modern trial registries) already established fenbufen's efficacy in osteoarthritis, comparing it favourably to aspirin, indomethacin and piroxicam. A 1983 review further notes that fenbufen was evaluated in 155 clinical trials, including 53 specifically in osteoarthritis.
+Osteoarthritis is a painful, partly inflammatory joint condition, and symptom relief with NSAIDs is a well-established approach. Fenbufen was widely studied in osteoarthritis and rheumatoid arthritis in the 1970s and 1980s, so the model's prediction is consistent with existing clinical knowledge.
 
-In other words, TxGNN's knowledge graph appears not to have this historical indication encoded, so the "prediction" is best understood as a high-confidence rediscovery of an already-proven pharmacological relationship, rather than a mechanistically speculative repurposing hypothesis. This strengthens confidence in the biological plausibility of the signal, but it also means the finding offers limited *new* clinical information — the open question is regulatory and commercial (i.e., whether/how the drug could re-enter UK practice), not mechanistic.
+Other predictions in the list need to be treated more cautiously. Rheumatoid arthritis has similar trial support, again for symptom relief only. Gout and "arthropathy" have only indirect evidence. The rare skeletal dysplasias (pseudoachondroplasia, brachyolmia, Hunter-Thompson acromesomelic dysplasia and similar), myosclerosis and "osteoarthritis susceptibility" have no plausible mechanistic link or clinical evidence. These high scores most likely reflect proximity to osteoarthritis in the knowledge graph.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (no entries in ClinicalTrials.gov or ICTRP). The supporting evidence below predates modern trial registries and derives entirely from published literature.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+The table lists the most relevant publications for osteoarthritis, prioritising randomised trials.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [377471](https://pubmed.ncbi.nlm.nih.gov/377471/) | 1979 | RCT | Scand J Rheumatol Suppl | Double-blind crossover RCT (53 patients, knee/hip OA); fenbufen 600 mg/day vs aspirin 3.6 g/day over 4 weeks each — both produced significant improvement in OA activity measures |
-| [7044804](https://pubmed.ncbi.nlm.nih.gov/7044804/) | 1982 | RCT | Eur J Rheumatol Inflamm | Long-term double-blind, randomised parallel-group study (110 patients) comparing fenbufen vs indomethacin in OA, assessing both long-term efficacy and safety |
-| [7051052](https://pubmed.ncbi.nlm.nih.gov/7051052/) | 1982 | RCT (placebo-controlled) | Pharmacology | Short-term double-blind, placebo-controlled, parallel-group study of fenbufen in osteoarthritis (abstract not available) |
-| [6242958](https://pubmed.ncbi.nlm.nih.gov/6242958/) | 1981 | RCT (crossover) | Eur J Rheumatol Inflamm | Single-blind crossover comparison of fenbufen 600 mg nocte vs piroxicam 20 mg nocte in osteoarthritis (abstract not available) |
-| [6356911](https://pubmed.ncbi.nlm.nih.gov/6356911/) | 1983 | Review | Am J Med | Summarises 155 clinical trials of fenbufen (102 RA, 53 OA), including 12 pivotal double-blind controlled protocols (4 weeks–1 year duration) |
-| [7009135](https://pubmed.ncbi.nlm.nih.gov/7009135/) | 1981 | Review | Drugs | Pharmacological review: fenbufen 600–1000 mg/day comparable in efficacy to aspirin 3–4 g, indomethacin 75–100 mg or phenylbutazone 300–400 mg, generally with fewer side effects |
-| [35818275](https://pubmed.ncbi.nlm.nih.gov/35818275/) | 2022 | Review (safety) | Cell Mol Biol (Noisy-le-Grand) | Investigated immunomodulatory and toxic potential of fenbufen in cell-mediated and humoral immunity models; notes contemporary use for pain, pyrexia, OA and RA |
-| [347241](https://pubmed.ncbi.nlm.nih.gov/347241/) | 1978 | Clinical Study | Modern Medicine of Asia | Early clinical study of fenbufen in osteoarthritis (abstract not available) |
-| [331427](https://pubmed.ncbi.nlm.nih.gov/331427/) | 1977 | Comparative Trial | Revista Medica de Chile | Comparison of fenbufen and acetylsalicylic acid in the treatment of osteoarthritis (abstract not available) |
-| [11496378](https://pubmed.ncbi.nlm.nih.gov/11496378/) | 1979 | Clinical Study (non-English) | Acta Rhumatologica | "Fenbufen in osteoarthritis" — non-English clinical study (abstract not available) |
+| [7051052](https://pubmed.ncbi.nlm.nih.gov/7051052/) | 1982 | RCT (short-term, double-blind, placebo-controlled) | Pharmacology | Fenbufen versus placebo in osteoarthritis; no abstract available |
+| [7044804](https://pubmed.ncbi.nlm.nih.gov/7044804/) | 1982 | RCT (long-term, double-blind) | Eur J Rheumatol Inflamm | Fenbufen versus indomethacin in 110 osteoarthritis patients, comparing long-term efficacy and safety |
+| [377471](https://pubmed.ncbi.nlm.nih.gov/377471/) | 1979 | RCT (crossover) | Scand J Rheumatol Suppl | Fenbufen 600 mg versus aspirin 3.6 g daily in 53 patients with knee or hip osteoarthritis; both produced significant improvement |
+| [331427](https://pubmed.ncbi.nlm.nih.gov/331427/) | 1977 | Comparative trial | Rev Med Chil | Fenbufen compared with acetylsalicylic acid in osteoarthritis; no abstract available |
+| [367713](https://pubmed.ncbi.nlm.nih.gov/367713/) | 1978 | RCT (crossover) | Curr Med Res Opin | Fenbufen versus indomethacin and placebo in 20 patients; fenbufen was significantly better than placebo on two assessment indices |
+| [6242958](https://pubmed.ncbi.nlm.nih.gov/6242958/) | 1981 | Single-blind crossover | Eur J Rheumatol Inflamm | Fenbufen 600 mg versus piroxicam 20 mg at night in osteoarthritis |
+| [6356911](https://pubmed.ncbi.nlm.nih.gov/6356911/) | 1983 | Review | Am J Med | Overview of 155 trials (102 in RA, 53 in OA); all 12 pivotal protocols were double-blind and controlled, six of them in OA |
+| [7009135](https://pubmed.ncbi.nlm.nih.gov/7009135/) | 1981 | Review | Drugs | Fenbufen 600 mg daily was comparable to aspirin 3.6 g or indomethacin in efficacy, generally with fewer side effects |
+| [7111386](https://pubmed.ncbi.nlm.nih.gov/7111386/) | 1982 | Clinical study | Pharmacology | Fenbufen in osteoarthritis of the hip |
+| [7601178](https://pubmed.ncbi.nlm.nih.gov/7601178/) | 1994 | Critical review | Eur J Rheumatol Inflamm | Topical felbinac was equivalent to oral ibuprofen or fenbufen in mild to moderate osteoarthritis |
+
+**Note:** The evidence is old (1977 to 1994, apart from one 2022 paper on immunomodulatory and toxic potential) and uses older comparators such as aspirin and indomethacin. The L1 grade reflects the number of randomised trials found, but none of these is a registered Phase 3 trial, so the grade should be read with caution.
 
 ---
 
 ## UK Market Information
 
-Fenbufen currently has no UK marketing authorisation on record (0 licences; market status: **not marketed**). No product-level dosage form, brand name, or approved indication text is available for this drug in the evidence pack.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010F0AAACAC | Fenbufen Tab 450mg | Not recorded | Not recorded |
+
+This is a single valid product containing fenbufen alone. The compiled data do not include the dosage form, manufacturer or approved indication text, and the number shown is a BNF-style product code rather than a standard PL number. Please check the current MHRA product information and BNF entry to confirm the authorised indications.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+No warnings, contraindications or drug interaction data were available in the compiled data. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-No structured warnings, contraindications, or drug–drug interaction data were returned for Fenbufen in this evidence pack (safety query status: not found), and this has been flagged as a **blocking** data gap for safety pre-assessment. Note, separately, that the surrounding literature base (outside the formal safety dataset queried here) includes isolated post-marketing case reports historically associated with fenbufen — including pulmonary eosinophilia/rash and pure red cell aplasia — which should be formally verified against the SmPC before any clinical use is considered.
+The literature retrieved for this report also describes some reactions associated with fenbufen:
+- Rash and pulmonary eosinophilia (BMJ, 1990)
+- Pure red cell aplasia in a patient with rheumatoid arthritis (J Rheumatol, 1987)
+
+These are individual reports and should be weighed against the usual NSAID class risks (gastrointestinal, cardiovascular and renal).
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Although the mechanistic and historical literature evidence for fenbufen in osteoarthritis is strong (L1, multiple RCTs), the candidate cannot currently proceed: Fenbufen holds no UK marketing authorisation, and formal safety data (SmPC warnings, contraindications, DDI) is an unresolved **blocking** data gap that prevents entry into initial safety assessment (S1).
+Several randomised, double-blind trials support symptomatic benefit of fenbufen in osteoarthritis, and the drug is already marketed in the UK. However, the trials are decades old, there are no registered clinical trials, and safety and labelling data are missing from the compiled data. This is a confirmation of an existing use, not a new repurposing opportunity.
 
 **To proceed, the following is needed:**
-- MHRA/regulatory safety documentation (warnings, contraindications, DDI) to close the blocking data gap
-- Confirmation of current UK/EU marketing and licensing status, and pathway for reintroduction if none exists
-- Formal DrugBank-confirmed mechanism of action data
-- Independent verification of historical post-marketing safety signals (e.g. hypersensitivity/pulmonary eosinophilia, red cell aplasia) noted in the literature but not captured in structured safety data
-
----
-
-*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates identified here require clinical validation before any application in practice.*
+- Confirmation of the authorised indication, dosage form and manufacturer from the current MHRA product information and SmPC
+- Complete safety data (warnings, contraindications and interactions) from the SmPC and BNF
+- Comparison with current NICE-recommended osteoarthritis treatments, as the evidence uses older comparators
+- Mechanism of action data (COX inhibition via the active metabolite felbinac) confirmed from DrugBank
+- Clarification of the other predicted indications before further work: gout and "arthropathy" need subtype-specific evidence, and the rare skeletal dysplasias and "osteoarthritis susceptibility" should remain on hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylbutazone
-parent: High Evidence (L1-L2)
-nav_order: 459
-evidence_level: L2
+parent: Moderate Evidence (L3-L4)
+nav_order: 494
+evidence_level: L3
 indication_count: 10
 ---
 
 # Phenylbutazone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Phenylbutazone: Revisiting a Historical NSAID Use in Rheumatoid Arthritis
+# Phenylbutazone: From a Historical NSAID to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Phenylbutazone is a pyrazolone-class NSAID with no confirmed marketing authorisation currently on record in the UK dataset. TxGNN's top-ranked prediction is **Rheumatoid Arthritis**, but the underlying evidence indicates this is largely a re-identification of the drug's long-established historical use rather than a novel repurposing signal, supported by **20 publications** (no registered clinical trials) spanning 1952–2009.
+Phenylbutazone is a non-steroidal anti-inflammatory drug (NSAID) that is listed as marketed in the UK, although no approved indication text is available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with **0 registered clinical trials** and **20 publications** (mostly historical, 1950s to 1980s) supporting this direction.
+This is essentially a historical use rather than a genuinely new repurposing opportunity, and the drug carries serious haematological toxicity.
 
 ---
 
@@ -41,23 +43,23 @@ Phenylbutazone is a pyrazolone-class NSAID with no confirmed marketing authorisa
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the regulatory dataset; historically used as a pyrazolone NSAID for rheumatic/inflammatory joint disease |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Not available in the data compiled for this report |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (`original_moa` is unrecorded in this dataset). Based on the supporting literature and repurposing rationale, phenylbutazone is a **pyrazolone-class NSAID** that inhibits COX-1/COX-2, producing anti-inflammatory and analgesic effects — a mechanism directly relevant to the joint inflammation seen in rheumatoid arthritis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, phenylbutazone is a non-selective COX-1/COX-2 inhibitor NSAID. Reducing prostaglandin-mediated inflammation is mechanistically relevant to symptom control in rheumatoid arthritis (pain, morning stiffness, joint swelling).
 
-Importantly, the evidence pack itself flags that rheumatoid arthritis is **not a novel predicted use** for this drug, but rather a condition in which phenylbutazone already has a long clinical history (dating back to the 1950s–1980s double-blind trials). The same pattern holds for two other high-ranking predictions in this pack — **gout** (rank 4) and **osteoarthritis** (rank 7) — both supported by head-to-head trials against comparator NSAIDs (naproxen, indomethacin, flufenamic acid, aspirin). This suggests TxGNN is largely recovering the drug's established pharmacological class effect rather than surfacing a genuinely new therapeutic hypothesis.
+The literature shows that phenylbutazone was used historically in rheumatoid arthritis, including double-blind dose-ranging work and a comparison with its metabolite monophenylbutazone. These studies concern symptom relief. The drug has largely been withdrawn from human use because of serious haematological toxicity (agranulocytosis, aplastic anaemia). The prediction therefore reflects an indication already known historically, not a new opportunity.
 
-By contrast, several lower-tier predictions in this pack (colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachydactyly-syndactyly syndrome, acromesomelic dysplasia, brachyolmia, myosclerosis) are rare congenital skeletal/connective-tissue disorders with **no supporting literature or trials (L5)** and no plausible mechanistic link to NSAID pharmacology. One prediction — sclerosing cholangitis — is arguably contraindicated in direction, since the RA literature includes a documented case of phenylbutazone-induced hepatitis, i.e. a hepatic *risk* signal rather than a therapeutic opportunity.
+Other predicted indications were also reviewed. Gout (score 99.18%) and osteoarthritis (98.26%) have similar historical, symptom-based support. The remaining predictions (for example rare skeletal dysplasias, sclerosing cholangitis and myosclerosis) have no identifiable mechanistic link and no clinical or literature evidence, and are likely graph-based artefacts.
 
 ---
 
@@ -71,30 +73,46 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [4903691](https://pubmed.ncbi.nlm.nih.gov/4903691/) | 1969 | RCT | Canadian Medical Association journal | Double-blind comparison of monobutazone vs phenylbutazone in RA; fewer side effects with monobutazone |
-| [788739](https://pubmed.ncbi.nlm.nih.gov/788739/) | 1976 | Cohort | British Journal of Clinical Pharmacology | Double-blind dose-response study (50–300 mg/day) showing plasma concentration correlates with clinical response |
-| [913873](https://pubmed.ncbi.nlm.nih.gov/913873/) | 1977 | Cohort | Journal of International Medical Research | Double-blind dose-response study (50–400 mg/day); plasma levels linked to effectiveness |
-| [6884415](https://pubmed.ncbi.nlm.nih.gov/6884415/) | 1983 | Dose-finding (double-blind) | European Journal of Clinical Pharmacology | Determined 300 mg/day as minimum effective dose across 8 dose levels; 7/32 patients had adverse reactions |
-| [334476](https://pubmed.ncbi.nlm.nih.gov/334476/) | 1977 | Controlled trial | Current Medical Research and Opinion | Comparison of flurbiprofen vs phenylbutazone; rash observed in phenylbutazone arm |
-| [6345427](https://pubmed.ncbi.nlm.nih.gov/6345427/) | 1983 | Double-blind trial | International Journal of Tissue Reactions | Suxibuzone (prodrug) vs phenylbutazone; comparable efficacy, significantly fewer GI side effects with prodrug |
-| [786193](https://pubmed.ncbi.nlm.nih.gov/786193/) | 1976 | Review | Archives of Internal Medicine | Overview of RA treatment including anti-inflammatory agents |
-| [13009482](https://pubmed.ncbi.nlm.nih.gov/13009482/) | 1952 | Clinical evaluation | California Medicine | Landmark 409-patient evaluation of phenylbutazone across rheumatic diseases including RA and gout |
-| [1145012](https://pubmed.ncbi.nlm.nih.gov/1145012/) | 1975 | Case Report | Rheumatology and Rehabilitation | Phenylbutazone-associated hepatitis; review of 41 case histories (hepatic safety signal) |
-| [13126544](https://pubmed.ncbi.nlm.nih.gov/13126544/) | 1954 | Clinical report | British Medical Journal | Early clinical experience with phenylbutazone use in RA |
+| [4903691](https://pubmed.ncbi.nlm.nih.gov/4903691/) | 1969 | Double-blind clinical comparison | Can Med Assoc J | Monophenylbutazone vs phenylbutazone in ambulant outpatients with rheumatoid arthritis; fewer untoward symptoms with monophenylbutazone |
+| [913873](https://pubmed.ncbi.nlm.nih.gov/913873/) | 1977 | Double-blind dose study | J Int Med Res | Phenylbutazone 50 to 400 mg/day in 7 patients; plasma concentrations related to clinical effectiveness |
+| [788739](https://pubmed.ncbi.nlm.nih.gov/788739/) | 1976 | Double-blind dose study | Br J Clin Pharmacol | Doses of 50 to 300 mg/day over four 3-week periods; plasma concentration compared with therapeutic response |
+| [13009482](https://pubmed.ncbi.nlm.nih.gov/13009482/) | 1952 | Clinical study | Calif Med | 409 patients with rheumatic diseases; phenylbutazone showed a specific favourable effect in gout and suppressive effects in other rheumatic conditions |
+| [13059471](https://pubmed.ncbi.nlm.nih.gov/13059471/) | 1953 | Review | Br Med J | Early overview of phenylbutazone |
+| [13126544](https://pubmed.ncbi.nlm.nih.gov/13126544/) | 1954 | Clinical report | Br Med J | Use of phenylbutazone in rheumatoid arthritis |
+| [6368185](https://pubmed.ncbi.nlm.nih.gov/6368185/) | 1984 | Review | Drugs | NSAID status and rational use; no good evidence that NSAIDs halt progression of rheumatoid disease |
+| [35607639](https://pubmed.ncbi.nlm.nih.gov/35607639/) | 2022 | Case report | Drug Healthc Patient Saf | Pancytopenia with methotrexate and proton pump inhibitors; notes phenylbutazone among drugs that interact with methotrexate |
+| [37855282](https://pubmed.ncbi.nlm.nih.gov/37855282/) | 2024 | Pharmacovigilance review | Endocr Metab Immune Disord Drug Targets | Importance of NSAID pharmacovigilance for adverse drug reactions |
+| [14178376](https://pubmed.ncbi.nlm.nih.gov/14178376/) | 1964 | Review | Belg Tijdschr Geneeskd | General review of rheumatoid arthritis |
+
+For gout, a 1973 comparison with indomethacin ([4726072](https://pubmed.ncbi.nlm.nih.gov/4726072/)), a 1977 multicentre trial against naproxen ([843115](https://pubmed.ncbi.nlm.nih.gov/843115/)) and a double-blind trial against feprazone ([6988172](https://pubmed.ncbi.nlm.nih.gov/6988172/)) reported comparable efficacy to the comparator drugs.
 
 ---
 
 ## UK Market Information
 
-Phenylbutazone currently holds **no marketing authorisations** on record in this dataset (market status: Not Marketed; total licences: 0). No product, dosage form, or approved indication text is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010Q0AAABAB | Phenylbutazone Tablets 100 mg | Not stated | Not stated |
+
+The authorisation is recorded as a valid single-ingredient product. Dosage form and approved indication details were not available, so current UK licensed use should be confirmed against the BNF, the SmPC and the MHRA register.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** An interaction screen returned 100 interacting drugs. Most of those listed are of moderate severity, including:
+  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
+  - aspirin
+  - mesalazine and balsalazide
+  - antidiabetic drugs (metformin, chlorpropamide, glimepiride, saxagliptin, linagliptin)
+  - aprepitant and eliglustat
 
-*Note: The evidence pack flags UK safety data (warnings/contraindications) as a **Blocking** data gap — this must be resolved before any safety review can proceed. Separately, literature evidence for this indication includes a documented case report of phenylbutazone-associated hepatitis (PMID 1145012), which should be considered when assessing hepatic risk.*
+  Linaclotide is listed as minor.
+- **Haematological toxicity:** Serious blood disorders (agranulocytosis, aplastic anaemia) are the main reason the drug has largely been withdrawn from human use.
+- **Hepatic risk:** Phenylbutazone carries a hepatotoxicity risk, which argues against use in hepatobiliary disease.
+- **Methotrexate:** The literature notes that phenylbutazone can interact with methotrexate, with a risk of pancytopenia.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -103,15 +121,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- The safety data gap (DG001, Blocking) means an initial safety assessment (S1) cannot be completed, regardless of efficacy evidence strength.
-- The top prediction (rheumatoid arthritis) largely reflects the drug's own pre-existing historical use rather than a novel repurposing opportunity, and the drug has no current UK marketing authorisation to build on.
-- The remaining higher-ranked predictions in this pack (rare skeletal dysplasias, sclerosing cholangitis) either lack any supporting evidence (L5) or point in a direction inconsistent with a known hepatotoxicity signal.
+The evidence consists of historical, small, mostly pre-1990 studies with no registered trials, and the supporting literature does not suggest a new repurposing opportunity. Safer, better-tolerated NSAIDs and disease-modifying therapies are standard for rheumatoid arthritis, gout and osteoarthritis, and phenylbutazone's haematological toxicity outweighs any potential advantage.
 
 **To proceed, the following is needed:**
-- UK SmPC/MHRA-equivalent safety data (warnings, contraindications, DDI) to resolve DG001
-- Confirmed mechanism of action and formally documented original indication(s) to resolve DG002
-- Clarification of UK regulatory/marketing pathway, given zero current licences
-- If pursuing genuinely novel indications, independent mechanistic or preclinical validation for the L5-rated candidates, as none currently have literature or trial support
+- Confirmation of the current UK licensed indication, dosage form and restrictions from the SmPC, BNF and MHRA register
+- Complete safety information (warnings and contraindications) from the SmPC and BNF
+- Mechanism of action data to support the mechanistic-link analysis
+- A clear justification of benefit over current standard-of-care treatments, supported by modern controlled trial evidence
+- A haematological risk management plan if any further development were considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

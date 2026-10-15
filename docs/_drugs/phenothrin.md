@@ -2,7 +2,7 @@
 layout: default
 title: Phenothrin
 parent: Model Prediction Only (L5)
-nav_order: 456
+nav_order: 491
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,61 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenothrin: From Topical Ectoparasiticide Use to Aleutian Mink Disease
+# Phenothrin: From Scabies to Aleutian Mink Disease
 
 ## One-Sentence Summary
 
-Phenothrin is a pyrethroid-class topical insecticide/ectoparasiticide (used for external pest and flea control); no formal indication text or licensed UK product exists in this evidence pack. The TxGNN model predicts a possible link to **Aleutian mink disease**, but this is a model-only signal — **no clinical trials, no literature, and no supporting mechanism** currently back it up.
+Phenothrin is a synthetic pyrethroid insecticide, originally used to treat scabies, Norwegian scabies and mite infestation.
+The TxGNN model predicts it may be effective for **Aleutian mink disease**, but there are **no clinical trials** and **no publications** supporting this prediction, and no plausible mechanistic link has been identified.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented — described only as a topical pyrethroid ectoparasiticide (flea/insect control); no approved indication text on file |
+| Original Indication | Scabies, Norwegian scabies, mite infestation (from the knowledge graph; no approved indication text is available for the UK product) |
 | Predicted New Indication | Aleutian mink disease |
 | TxGNN Prediction Score | 97.21% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Phenothrin is not available in this evidence pack (flagged as a High-severity data gap, DG002). What is known from the supporting rationale text is that Phenothrin is a pyrethroid that acts on **insect sodium channels** and is used exclusively as a topical, external ectoparasiticide — it has no documented systemic pharmacology in mammals.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, phenothrin is a synthetic pyrethroid that acts on voltage-gated sodium channels in arthropods, which explains its use against scabies mites and other ectoparasites.
 
-Aleutian mink disease is caused by a **parvovirus** and produces its pathology through immune-complex deposition, not through any pathway plausibly modulated by an insect neurotoxin. The evidence pack's own mechanistic assessment explicitly states there is **no known biological rationale** connecting Phenothrin to this disease.
+Aleutian mink disease is caused by a parvovirus, and phenothrin has no known antiviral activity. The prediction therefore appears to come from network similarity in the knowledge graph (possibly linked to veterinary or antiparasitic associations) rather than from biology. The high score of 97.21% is a model output only and should not be read as evidence of efficacy.
 
-Taken together with the fact that all ten of the top TxGNN predictions for this drug carry the same L5/Hold status and similarly worded disclaimers (several explicitly describing themselves as "prediction noise" arising from graph-structural proximity rather than pharmacology), this candidate should be read as a **low-confidence, structural artefact** of the knowledge graph rather than a genuine repurposing signal.
+Other top-ranked predictions show the same pattern:
+- **Viral diseases** (feline panleukopenia, 97.15%; variola minor, 97.03%): no antiviral activity is known, and variola minor is eradicated, so clinical evaluation is not feasible.
+- **Benign neoplasms and nerve tumours** (tongue, hypopharynx, nasal cavity inverting papilloma, trochlear, spinal accessory and facial nerve neoplasms; scores 96.5-96.7%): no antitumour mechanism is documented. The identical scores for the three cranial nerve neoplasms suggest a graph-level artefact rather than independent evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## UK Market Information
 
-Phenothrin currently holds **no UK marketing authorisation** (0 licences on record), so no MHRA product entry or SmPC exists to reference for this candidate.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1310040S0AAABAB | Phenothrin_Alcoholic Lot 0.2% | Not specified | Not specified |
+
+The authorisation number above is in the format supplied in the compiled data and is not a standard MHRA "PL" number. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available.
+
+---
 
 ## Safety Considerations
 
-No structured safety data is available in this evidence pack — key warnings, contraindications and drug interaction data are all unpopulated (flagged as a Blocking data gap, DG001). Because there is no UK-authorised product, no SmPC exists to consult. Any future development would require ground-up toxicology and safety assessment (e.g. from pesticide regulatory dossiers) before this candidate could enter a formal safety review stage.
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+No drug interactions were found in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a model-only (L5) prediction with zero clinical trial or literature support, an explicit lack of biological mechanism connecting the drug to the disease, and no UK marketing presence to build a safety case on. The evidence pack itself argues against pharmacological plausibility.
+The prediction rests only on a model score. There are no trials or publications, no plausible mechanism (phenothrin is an arthropod sodium-channel agent, and the predicted diseases are viral or neoplastic), and the safety data are incomplete.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain regulatory labelling/warnings and contraindications before any safety review can start
-- Resolve DG002 (High): confirm a verified mechanism of action via DrugBank or primary pharmacology literature
-- Independent preclinical evidence for any antiviral or immunomodulatory activity relevant to parvovirus-driven disease
-- Clarify translational relevance, given the predicted indication is a veterinary (mink) disease rather than a human condition
-- Given all 10 ranked predictions for this drug share the same unsupported L5/Hold profile, treat this entire candidate batch as low priority pending stronger signal from an updated TxGNN run or new evidence sources
+- Mechanism of action data for phenothrin, and a credible biological rationale for any predicted indication
+- Verification of the UK authorisation record (PL number, dosage form, approved indication) with the MHRA
+- Safety information from the SmPC and BNF
+- Preclinical or in vitro evidence of activity in the predicted condition before any clinical consideration
+- A review of the prediction list for more biologically plausible candidates, such as other ectoparasitic conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

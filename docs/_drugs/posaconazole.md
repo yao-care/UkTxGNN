@@ -2,15 +2,15 @@
 layout: default
 title: Posaconazole
 parent: Moderate Evidence (L3-L4)
-nav_order: 471
-evidence_level: L3
+nav_order: 507
+evidence_level: L4
 indication_count: 10
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,9 +33,9 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Posaconazole is a triazole antifungal whose established international use is prophylaxis and treatment of invasive fungal infections in immunocompromised patients (a UK-specific approved indication text is not available in this evidence pack).
-> The TxGNN model predicts it may be effective for **Pneumocystosis**,
-> with **2 clinical trials** and **5 publications** currently identified, though none directly test posaconazole in this indication.
+Posaconazole is an azole antifungal originally used to treat and prevent a range of fungal infections, including aspergillosis and candidiasis.
+The TxGNN model predicts it may be effective for **pneumocystosis**, but only **1 clinical trial** (which tests a different drug) and **5 publications** (none of which test posaconazole for this condition) are linked to this prediction.
+The mechanistic reasoning argues against the prediction, so it should be treated as a likely model artefact.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Invasive fungal infection prophylaxis/treatment (general pharmacological knowledge; no UK-specific approved indication text on file) |
+| Original Indication | Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK authorisation record compiled for this report has no indication text. |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L3 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
+| Evidence Level | L4 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-> Currently, detailed mechanism of action data is not available in this evidence pack. Based on general pharmacological knowledge, Posaconazole is a second-generation triazole antifungal that inhibits fungal CYP51 (lanosterol 14α-demethylase), blocking ergosterol synthesis in the fungal cell membrane. Its established international role is prophylaxis and treatment of invasive fungal infections (e.g. invasive aspergillosis, candidiasis) in high-risk immunocompromised patients such as those undergoing allogeneic haematopoietic stem cell transplantation or with prolonged neutropenia.
+Detailed mechanism of action data is not available in the data compiled for this report. Posaconazole is a triazole antifungal. This class inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in the fungal cell membrane.
 
-Pneumocystosis is caused by *Pneumocystis jirovecii*, an atypical fungal organism that lacks the classical ergosterol-rich membrane targeted by triazole antifungals; standard prophylaxis and treatment (co-trimoxazole, atovaquone, dapsone/pyrimethamine) do not rely on the CYP51 pathway. The mechanistic link between posaconazole and pneumocystosis is therefore not well established in mainstream pharmacology, which limits confidence in this prediction despite the high TxGNN score.
+Its efficacy in invasive fungal infections is established, which is probably why the model links it to pneumocystosis. However, *Pneumocystis jirovecii* has little or no ergosterol and uses cholesterol-type sterols in its membrane, so an azole is not expected to work. The high score most likely reflects a general antifungal class association rather than a true mechanistic fit. Standard therapy is trimethoprim-sulfamethoxazole.
 
-The supporting literature identified relates mainly to posaconazole's general role in invasive fungal disease prophylaxis in haemato-oncology/transplant populations (where *Pneumocystis* risk co-exists but is not the primary target of triazole prophylaxis), rather than direct evidence of anti-*Pneumocystis* activity. The clinical trials identified evaluate broader antifungal prophylaxis strategies in the same at-risk population but do not test posaconazole specifically against pneumocystosis.
+Other predictions in the list are weaker still. Vulvovaginal candidiasis is mechanistically plausible but is an extension within the already approved antifungal indication family. The leprosy, congenital malformation and hair disorder predictions have no plausible mechanism and no supporting evidence.
 
 ---
 
@@ -67,8 +67,7 @@ The supporting literature identified relates mainly to posaconazole's general ro
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Active, Not Recruiting | 602 | Pivotal study of IV rezafungin vs standard antimicrobial regimen (which may include posaconazole) to prevent invasive fungal disease in adults undergoing allogeneic blood and marrow transplantation. Posaconazole not the study drug. |
-| [NCT06859424](https://clinicaltrials.gov/study/NCT06859424) | Phase 2 | Recruiting | 358 | Platform trial comparing GVHD prophylaxis drug combinations after mismatched unrelated donor peripheral blood stem cell transplant; relevant population but not a direct evaluation of posaconazole for pneumocystosis. |
+| [NCT04368559](https://clinicaltrials.gov/study/NCT04368559) | Phase 3 | Completed | 602 | ReSPECT study: intravenous rezafungin versus the standard antimicrobial regimen to prevent invasive fungal disease after allogeneic blood and marrow transplantation. It tests rezafungin, not posaconazole, so it is not direct evidence for this prediction. |
 
 ---
 
@@ -76,25 +75,43 @@ The supporting literature identified relates mainly to posaconazole's general ro
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Medical Weekly | Overview of invasive candidiasis, aspergillosis, cryptococcosis and Pneumocystis pneumonia; notes posaconazole prophylaxis has reduced invasive candidiasis in high-risk haemato-oncological patients, but does not report direct anti-*Pneumocystis* activity. |
-| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2025 | Guideline | The Lancet Infectious Diseases | British Society for Medical Mycology 2025 update on diagnosis of serious fungal disease; diagnostic focus rather than posaconazole-specific therapeutic evidence for pneumocystosis. |
-| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Guideline | Chinese Journal of Tuberculosis and Respiratory Diseases | 2025 clinical practice guideline for invasive pulmonary fungal disease diagnosis/management; general antifungal management context. |
-| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Retrospective cohort | Transplant Infectious Disease | Infectious complications (including fungal) in acute GVHD after liver transplantation; describes population-level infection risk, not posaconazole efficacy data. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Pharmacokinetic review | Clinical Pharmacokinetics | Review of antifungal penetration into pulmonary epithelial lining fluid; provides PK rationale but no clinical efficacy data for pneumocystosis. |
+| [26901377](https://pubmed.ncbi.nlm.nih.gov/26901377/) | 2016 | Review | Swiss Med Wkly | Overview of invasive candidiasis, aspergillosis, cryptococcosis and *Pneumocystis* pneumonia. Notes that mould-active posaconazole prophylaxis reduced invasive fungal disease in high-risk haemato-oncology patients. |
+| [41232547](https://pubmed.ncbi.nlm.nih.gov/41232547/) | 2026 | Guideline | Lancet Infect Dis | British Society for Medical Mycology 2025 update on diagnosing serious fungal diseases. Diagnostic guidance, not treatment evidence for posaconazole. |
+| [41362140](https://pubmed.ncbi.nlm.nih.gov/41362140/) | 2025 | Guideline | Zhonghua Jie He He Hu Xi Za Zhi | Chinese guidelines for diagnosing and managing invasive pulmonary fungal disease. |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Review | Clin Pharmacokinet | Penetration of antifungal and other anti-infective agents into pulmonary epithelial lining fluid. |
+| [35596686](https://pubmed.ncbi.nlm.nih.gov/35596686/) | 2022 | Cohort | Transpl Infect Dis | Infectious complications of acute graft-versus-host disease after liver transplantation. |
+
+None of these publications reports posaconazole as a treatment for pneumocystosis.
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisations are on record for Posaconazole in this evidence pack (market status: **Not Marketed**, 0 licences). No product-level BNF or NICE-appraisal data is available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0502010A0AAAAAA (BNF classification code, not a PL number) | Posaconazole oral suspension 200 mg/5 ml | Oral suspension | Not available in the data compiled for this report |
+
+The code listed appears to be a BNF section/product code (BNF section 5.2.1, triazole antifungals) rather than an MHRA PL number. No NICE-appraised indication data were available.
 
 ---
 
 ## Safety Considerations
 
-> Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** 100 interacting drugs were identified. Those listed with a **Major** level include:
+  - Loperamide
+  - Triamcinolone
+  - Budesonide
 
-Note: this evidence pack flags a **Blocking** data gap — TFDA-equivalent warning/contraindication data is unavailable, which prevents completion of the initial safety assessment (S1 stage) for this candidate.
+  **Moderate** interactions include:
+  - Acid suppressants (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole)
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone)
+  - Aprepitant
+  - Clarithromycin
+  - Saxagliptin
+  - Several bowel preparations (bisacodyl, picosulfuric acid, polyethylene glycol)
+- **Pregnancy:** Animal studies raise teratogenicity concerns, so caution is warranted in any developmental or congenital indication.
+
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -103,14 +120,14 @@ Note: this evidence pack flags a **Blocking** data gap — TFDA-equivalent warni
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between posaconazole (a triazole antifungal acting on ergosterol synthesis) and pneumocystosis (caused by an atypical fungus not classically covered by triazole antifungals) is not well supported by the identified literature, and no clinical trial directly tests posaconazole in this indication. Combined with the absence of any UK marketing authorisation and missing safety/warning data, the evidence does not currently support progression.
+The pneumocystosis prediction is not supported by trial or literature evidence for posaconazole, and the mechanism argues against it because *Pneumocystis* lacks the ergosterol target. The only linked trial tests a different drug. The model score is most likely a class-association artefact.
 
 **To proceed, the following is needed:**
-- Confirmed UK/MHRA-approved indication text and marketing authorisation status for posaconazole
-- SmPC-sourced warnings, contraindications and drug interaction data (currently a Blocking data gap)
-- Verified DrugBank/pharmacological mechanism of action data
-- Direct *in vitro* or clinical evidence of posaconazole activity against *Pneumocystis jirovecii*, rather than indirect population-level prophylaxis literature
-- Consideration of the higher-plausibility candidate identified in this evidence pack — **vulvovaginal candidiasis** (rank 2, score 98.9%) — which is directly within posaconazole's established antifungal spectrum against *Candida* species and is supported by multiple in vitro susceptibility studies
+- Mechanism of action data and a mechanistic case for activity against *Pneumocystis*
+- Preclinical or in vitro evidence of posaconazole activity in pneumocystosis, compared with trimethoprim-sulfamethoxazole
+- Full MHRA authorisation details (PL number, approved indications, SmPC warnings and contraindications)
+- A fuller review of drug-interaction management, particularly with corticosteroids and QT-prolonging drugs
+- If a lower-risk repurposing direction is wanted, vulvovaginal candidiasis in fluconazole-resistant or non-albicans infection could be studied as a research question, although current evidence is limited to in vitro and animal data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

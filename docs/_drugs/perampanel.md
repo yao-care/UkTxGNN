@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Perampanel
-parent: Model Prediction Only (L5)
-nav_order: 451
-evidence_level: L5
+parent: Moderate Evidence (L3-L4)
+nav_order: 484
+evidence_level: L3
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perampanel: From Epilepsy (Focal and Generalised Seizures) to Visual Epilepsy
+# Perampanel: From Partial Epilepsy to Status Epilepticus
 
 ## One-Sentence Summary
 
-Perampanel is a selective AMPA-receptor antagonist used in the treatment of refractory partial-onset (focal) and generalised seizures. The TxGNN model predicts it may also be effective for **visual epilepsy** (a rare reflex epilepsy triggered by visual stimuli), with a very high prediction score but currently only **3 clinical trials** and **0 dedicated publications** — none of which specifically study visual/photosensitive epilepsy.
+Perampanel is an AMPA receptor antagonist originally used for partial (focal-onset) epilepsy.
+The TxGNN model's top-ranked prediction is **visual epilepsy**, which has no trials and only indirect literature. The best-supported prediction is **status epilepticus**, with **4 clinical trials** (two terminated after one participant each) and **20 publications**, mostly retrospective or observational.
+
+> Note: The report title and the table below use status epilepticus, not the TxGNN rank-1 prediction (visual epilepsy). This is because status epilepticus is the only predicted indication with meaningful supporting evidence. Rank-1 visual epilepsy has no trials and no directly relevant literature (Evidence Level L4, Hold).
 
 ---
 
@@ -41,71 +44,111 @@ Perampanel is a selective AMPA-receptor antagonist used in the treatment of refr
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy — refractory partial-onset and generalised seizures (drawn from clinical trial background text; not separately confirmed in the regulatory dossier, which lists no original indications) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 (1 completed Phase 2 randomised, double-blind, placebo-controlled trial; note all 3 trials are general-epilepsy studies, none disease-specific to visual/reflex epilepsy) |
-| UK Market Status | Not marketed (0 marketing authorisations recorded — see caveat below) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Partial epilepsy; partial motor epilepsy |
+| Predicted New Indication | Status epilepticus (TxGNN rank 10 of the listed predictions; best-evidenced) |
+| TxGNN Prediction Score | 99.77% (rank-1 prediction, visual epilepsy: 99.92%) |
+| Evidence Level | L3 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question) |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the regulatory dossier for perampanel. However, the supporting literature within this evidence pack consistently describes perampanel as a first-in-class, selective, non-competitive antagonist of AMPA-type glutamate receptors (PMID [21635236](https://pubmed.ncbi.nlm.nih.gov/21635236/), [29042752](https://pubmed.ncbi.nlm.nih.gov/29042752/)). By dampening excitatory glutamatergic transmission broadly across seizure-generating circuits, this mechanism underlies perampanel's established use in refractory partial-onset and primary generalised tonic-clonic seizures.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces glutamate-mediated excitation of postsynaptic membranes and is established as an add-on treatment for focal-onset seizures.
 
-Visual epilepsy is a reflex epilepsy in which seizures are triggered by visual stimuli (e.g. flicker, pattern). Reflex epilepsies share cortical hyperexcitability as a common pathway, and AMPA receptors play a well-documented role in propagating cortically-triggered seizure activity. This gives some mechanistic plausibility to the TxGNN prediction, and is indirectly reinforced by preclinical evidence of perampanel's efficacy in other reflex/stimulus-triggered seizure models, such as audiogenic seizures in genetically epilepsy-prone rats (PMID [30092489](https://pubmed.ncbi.nlm.nih.gov/30092489/)).
+In prolonged status epilepticus, synaptic AMPA receptors increase while GABA-A receptors are internalised. This is thought to explain why benzodiazepines lose effect over time. Blocking AMPA receptors is therefore a rational add-on approach in refractory and super-refractory status epilepticus, and perampanel has shown activity in animal models of status epilepticus.
 
-That said, none of the three retrieved trials specifically enrolled or studied patients with visual/photosensitive epilepsy — they are general focal/generalised epilepsy studies, one of which incidentally used visual evoked potential (VEP) testing as a neurophysiological outcome measure rather than a treatment-efficacy endpoint. The mechanistic rationale is therefore currently stronger than the direct clinical evidence for this specific reflex-epilepsy subtype.
+Status epilepticus is a failure of the mechanisms that terminate a seizure, so it sits on the same disease spectrum as the original focal epilepsy indication. The evidence is mainly retrospective and observational, and publication bias is a concern.
+
+**Other predicted indications:**
+
+| Predicted indication | TxGNN score | Evidence level | Summary |
+|------|------|------|------|
+| Visual epilepsy (rank 1) | 99.92% | L4 | No trials; literature covers general epilepsy only |
+| Micturition-induced seizures | 99.86% | L4 | Indirect evidence only |
+| Eating seizures | 99.86% | L4 | Case reports do not show efficacy (one reports perampanel-induced food aversion) |
+| Orgasm-induced seizures | 99.86% | L5 | No trials or literature |
+| Startle epilepsy | 99.86% | L5 | No trials or literature |
+| Thinking seizures | 99.86% | L4 | Indirect evidence only |
+| Audiogenic seizures | 99.86% | L4 | Rodent models show anticonvulsant effect; not translated to humans |
+| Reading seizures | 99.83% | L4 | Indirect evidence only |
+| Beta-ketothiolase deficiency | 99.79% | L5 | No evidence; likely a network artefact |
+
+The high scores of the reflex-seizure predictions probably reflect the shared epilepsy phenotype rather than specific evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+Trials for status epilepticus:
+
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03780907](https://clinicaltrials.gov/study/NCT03780907) | Phase 2 | Completed | 18 | Assessed tolerability, safety and pharmacokinetics of perampanel (E2007) in patients with refractory partial or generalised seizures on concomitant AEDs |
-| [NCT02900755](https://clinicaltrials.gov/study/NCT02900755) | Phase 4 | Completed | 30 | Evaluated perampanel's effects on cognition and EEG in epilepsy patients, focusing on adverse-effect assessment during AED introduction |
-| [NCT03653741](https://clinicaltrials.gov/study/NCT03653741) | Phase 4 | Completed | 12 | First study to examine whether perampanel affects neurophysiology tests (EEG, SEP, BAEP, VEP) |
+| [NCT05756621](https://clinicaltrials.gov/study/NCT05756621) | N/A | Completed | 84 | Retrospective multicentre cohort of dual anti-glutamate therapy (ketamine + perampanel) in super-refractory status epilepticus after cardiac arrest. Real-world use; cannot establish efficacy |
+| [NCT04309721](https://clinicaltrials.gov/study/NCT04309721) | Phase 3 | Terminated | 1 | Randomised trial of add-on enteral perampanel in focal motor status epilepticus. Terminated with 1 participant; no efficacy data |
+| [NCT05684978](https://clinicaltrials.gov/study/NCT05684978) | Phase 4 | Terminated | 1 | Efficacy and safety of perampanel in refractory status epilepticus. Terminated with 1 participant; uninformative |
+| [NCT06401707](https://clinicaltrials.gov/study/NCT06401707) | Phase 2 | Recruiting | 52 | Pilot randomised placebo-controlled trial of perampanel to prevent status epilepticus after cardiac arrest (prophylaxis, not treatment of established status epilepticus) |
+
+No clinical trials are registered for the other predicted indications.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for this specific indication (visual epilepsy).
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35151187](https://pubmed.ncbi.nlm.nih.gov/35151187/) | 2022 | Systematic review | Epilepsy & Behavior | Assessed efficacy and safety of perampanel in status epilepticus, refractory and super-refractory; human data limited |
+| [30076046](https://pubmed.ncbi.nlm.nih.gov/30076046/) | 2018 | Systematic review | Epilepsy & Behavior | Efficacy and tolerability of perampanel in refractory and super-refractory status epilepticus |
+| [33754209](https://pubmed.ncbi.nlm.nih.gov/33754209/) | 2021 | Cohort study and review | Journal of Neurology | 81 patients with refractory and super-refractory status epilepticus; assessed effective dose and outcomes |
+| [38872031](https://pubmed.ncbi.nlm.nih.gov/38872031/) | 2024 | Retrospective cohort | Neurocritical Care | Perampanel add-on in refractory status epilepticus with postanoxic encephalopathy (off-label use) |
+| [39436521](https://pubmed.ncbi.nlm.nih.gov/39436521/) | 2025 | Case series | Neurological Sciences | Effectiveness and safety in refractory status epilepticus |
+| [38761446](https://pubmed.ncbi.nlm.nih.gov/38761446/) | 2024 | Case series | Epilepsy & Behavior | Perampanel oral suspension in refractory and super-refractory status epilepticus; dosage and safety |
+| [30613951](https://pubmed.ncbi.nlm.nih.gov/30613951/) | 2019 | Case summary | Acta Neurologica Scandinavica | Clinical cases from Austria, Finland, Germany and Spain using perampanel in status epilepticus |
+| [29663350](https://pubmed.ncbi.nlm.nih.gov/29663350/) | 2018 | Review | Epilepsia | Role of AMPA receptors and their antagonists in status epilepticus |
+| [26436331](https://pubmed.ncbi.nlm.nih.gov/26436331/) | 2015 | Review | Expert Rev Clin Pharmacol | Perampanel in focal and generalised epilepsies and status epilepticus; seizure reduction rates from pivotal trials |
+| [38256862](https://pubmed.ncbi.nlm.nih.gov/38256862/) | 2023 | Case series | Pharmaceuticals (Basel) | Refractory and super-refractory status epilepticus with suspected inflammatory aetiology (7 patients) |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation is recorded for perampanel in this evidence pack (0 licences; market status: not marketed).
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0408010AKAAABAB (BNF-style code; no PL number in the data) | Perampanel tablets 4 mg | Tablet | Not stated in the data compiled for this report |
 
-**Note:** this should be verified before the evaluation is finalised — perampanel (originator brand Fycompa) is a recognised antiepileptic medicine with regulatory history internationally, so the absence of a UK licence record here is unexpected and should be confirmed directly against the current MHRA product register.
+One valid single-ingredient authorisation is recorded. Status epilepticus is not an authorised indication for perampanel in the data reviewed.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions:** 56 potential interactions were identified; the 20 retrieved are mostly of moderate severity, with one minor. Notable examples:
+  - CNS depressants and opioids (additive sedation): morphine, codeine, hydrocodone, opium, diphenoxylate, difenoxin
+  - Cannabinoids: dronabinol, nabilone
+  - Antihistamines and sedating agents: promethazine, chlorpheniramine, azelastine (nasal)
+  - Others: ethanol, dexamethasone, metoclopramide, chloroquine, hydroxychloroquine, dextromethorphan, sibutramine
+  - Minor: clarithromycin
+- **Reported adverse effects in the literature:** psychiatric and behavioural reactions (irritability, psychosis, in a case report that cites a boxed warning for aggression and irritability), and food aversion (case report).
 
-**Important gap:** the evidence pack flags perampanel's key warnings, contraindications and drug interaction data as an unresolved **Blocking** data gap (DG001) — this prevents completion of an initial safety assessment and must be resolved before this candidate can progress, regardless of the efficacy signal.
+Please refer to the SmPC and BNF for full warnings and contraindications, which were not available in the data compiled for this report. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (research question)**
 
 **Rationale:**
-Safety data (warnings, contraindications, DDIs) is marked as a Blocking gap in the evidence pack, which alone prevents progression past initial safety screening. This is compounded by an unconfirmed mechanism of action, an apparent absence of UK marketing authorisation, and the fact that the top-ranked indication (visual epilepsy) has no disease-specific clinical evidence — all three retrieved trials are general epilepsy studies rather than reflex/photosensitive epilepsy trials.
+Status epilepticus has a plausible mechanism and two systematic reviews plus several case series, but the controlled evidence is absent: the Phase 3 and Phase 4 trials ended with one participant each, and the Phase 2 prophylaxis trial is still recruiting. All other predictions are supported only by indirect or preclinical evidence, or none. Note that the formal scoring for all predictions sits at the earliest decision stages (L3 to L5).
 
 **To proceed, the following is needed:**
-- MHRA-approved SmPC/PIL to resolve the Blocking safety data gap (DG001): key warnings, contraindications, drug interactions
-- Confirmed mechanism-of-action data against official regulatory labelling (DG002)
-- Verification of UK marketing authorisation status directly against the MHRA products register
-- Disease-specific evidence (reflex/photosensitive epilepsy cohorts) before advancing "visual epilepsy" beyond mechanistic rationale
-- Consider that within this same evidence pack, **status epilepticus** (rank 10) carries markedly stronger direct evidence — five dedicated trials including disease-specific Phase 2–4 studies, evidence level L2, and a "Proceed with Guardrails" scoring — and may represent a more tractable repurposing target once the safety data gap is resolved
+- Results from adequately powered randomised controlled trials in refractory status epilepticus (NCT06401707 is a first step, but addresses prophylaxis)
+- Full warnings, contraindications and mechanism-of-action data from the SmPC and BNF
+- Safety review for acute or critical-care use, including interactions with sedatives and opioids and psychiatric adverse effects
+- Confirmation of the approved indication text and available formulations (the data lists tablets only; oral suspension is described in the literature)
+- For reflex-seizure predictions (visual, audiogenic and others), preclinical-to-clinical studies before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

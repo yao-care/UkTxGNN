@@ -2,7 +2,7 @@
 layout: default
 title: Lactulose
 parent: Model Prediction Only (L5)
-nav_order: 332
+nav_order: 358
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Lactulose: From an Unrecorded Original Indication to Acute Urate Nephropathy
+# Lactulose: From Hepatic Encephalopathy to Obstructive Jaundice
 
 ## One-Sentence Summary
 
-Lactulose's original licensed indication could not be determined from this evidence pack — the drug is currently **Not Marketed** in the UK and no marketing authorisation or mechanism-of-action data is on file. The TxGNN model's top-ranked prediction is **Acute Urate Nephropathy**, but this candidate is supported by **zero clinical trials** and **zero publications**, so the prediction should be treated as a model-only signal rather than a clinical lead.
+Lactulose is a non-absorbable disaccharide, originally used to treat hepatic encephalopathy, hepatic coma and constipation.
+The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly to reduce complications such as endotoxaemia and postoperative renal dysfunction), with **no registered clinical trials** but **20 publications** retrieved, most of them small, older or preclinical studies.
 
 ---
 
@@ -41,23 +42,25 @@ Lactulose's original licensed indication could not be determined from this evide
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no marketing authorisation or indication data on record for Lactulose in this pack |
-| Predicted New Indication | Acute Urate Nephropathy |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 |
-| UK Market Status | Not Marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | Hold |
+| Original Indication | Hepatic encephalopathy, hepatic coma, constipation (the UK licence record carries no indication text) |
+| Predicted New Indication | Obstructive jaundice (top-ranked prediction, acute urate nephropathy, has no supporting evidence; see note below) |
+| TxGNN Prediction Score | 99.53% (obstructive jaundice); 99.89% for the top-ranked acute urate nephropathy |
+| Evidence Level | L3 (obstructive jaundice) |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold (research question; no registered trials, evidence limited to small, older or preclinical studies) |
+
+**Note on selection:** The highest-scoring prediction, acute urate nephropathy (99.89%), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Lactulose is not currently available in this evidence pack, and it has been flagged as a High-severity data gap. Based on what is known generally about the compound class, lactulose acts as an osmotic laxative and is metabolised by colonic bacteria, with downstream effects on ammonia absorption and colonic pH — but no original indication was captured in the regulatory data provided, so a direct comparison to the predicted indication cannot be made from this pack alone.
+Detailed mechanism of action data are not available in the data compiled for this report. Lactulose is widely understood to be a non-absorbable sugar that is fermented in the colon. This lowers colonic pH, reduces ammonia absorption and has an osmotic laxative effect. This is the basis of its use in hepatic encephalopathy and constipation.
 
-Critically, the model's own rationale for this candidate states there is **no known mechanistic link**: lactulose acts on colonic flora metabolism and ammonia absorption, which does not intersect with urate generation or excretion pathways (xanthine oxidase, renal tubular urate transporters). The high TxGNN score most likely reflects an indirect "kidney–drug" node association within the knowledge graph rather than genuine biological plausibility.
+In obstructive jaundice, bile no longer reaches the gut. This is associated with impaired intestinal barrier function, bacterial translocation and systemic endotoxaemia, which contribute to postoperative complications, especially renal dysfunction. Lactulose may reduce gut endotoxin load and bacterial overgrowth, which provides a plausible link. The retrieved literature describes this hypothesis, but it does not establish a clinical benefit. A 1997 review noted that a renoprotective effect "has not been shown conclusively" in clinical studies. A rat study (1989) found that lactulose did not prevent bile infarction or transaminase elevation.
 
-Given the complete absence of clinical trials or literature, and an explicit statement of mechanistic implausibility from the model's own rationale, this prediction should not be interpreted as a promising repurposing lead at this time.
+The relationship between the original and new indications is therefore indirect. Both involve liver disease and gut-derived toxins, but the new use would be supportive perioperative care rather than disease modification.
 
 ---
 
@@ -69,19 +72,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Selected from the retrieved publications, prioritising human studies. Study types are as classified in the compiled data; several were not classified, and findings are based on titles and abstract excerpts only.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/) | 1991 | Prospective randomised multicentre study | Br J Surg | 102 patients with obstructive jaundice randomised to preoperative lactulose (n=35), sodium deoxycholate (n=32) or no treatment, assessing postoperative renal dysfunction. Outcome not available in the data |
+| [3768644](https://pubmed.ncbi.nlm.nih.gov/3768644/) | 1986 | Clinical/experimental study | Br J Surg | 24 surgical patients (12 lactulose, 12 controls); endotoxaemia was significantly reduced in the lactulose group |
+| [12957136](https://pubmed.ncbi.nlm.nih.gov/12957136/) | 2003 | Mechanistic study (rabbit model) | J Surg Res | Evaluated lactulose for preventing bacterial translocation and endotoxaemia after bile duct ligation |
+| [23297639](https://pubmed.ncbi.nlm.nih.gov/23297639/) | 2012 | Clinical study | Zh Mikrobiol Epidemiol Immunobiol | Bile duct decompression combined with lactulose; assessed intestinal microecology in obstructive jaundice |
+| [15782993](https://pubmed.ncbi.nlm.nih.gov/15782993/) | 2005 | Review | Hepato-gastroenterology | Argues for adequate hydration and lactulose to prevent postoperative renal dysfunction in acute obstructive jaundice |
+| [9145459](https://pubmed.ncbi.nlm.nih.gov/9145459/) | 1997 | Review/commentary | Scand J Gastroenterol Suppl | Renoprotective effect of lactulose not conclusively shown in clinical studies |
+| [12598962](https://pubmed.ncbi.nlm.nih.gov/12598962/) | 2002 | Animal study | Pediatr Surg Int | Melatonin and lactulose tested on liver and kidney in rats with obstructive jaundice |
+| [2614579](https://pubmed.ncbi.nlm.nih.gov/2614579/) | 1989 | Experimental study (rats) | J Pathol | Lactulose, polymyxin B and neomycin did not prevent bile infarction or transaminase rise |
+| [8944448](https://pubmed.ncbi.nlm.nih.gov/8944448/) | 1996 | Clinical and experimental study | Br J Surg | Intestinal barrier dysfunction in obstructive jaundice, reversed by internal biliary drainage (not lactulose-specific) |
+| [29428098](https://pubmed.ncbi.nlm.nih.gov/29428098/) | 2018 | Review | Hepatobiliary Pancreat Dis Int | Pathophysiology and perioperative management of obstructive jaundice |
 
 ---
 
 ## UK Market Information
 
-No UK marketing authorisations are currently on record for Lactulose in this evidence pack. Market status is recorded as **Not Marketed**, with 0 total licences.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0106040G0AAAAAA (BNF-style code, not a PL number) | Lactulose oral solution 3.1–3.7 g/5 ml | Oral solution | Not stated in the compiled data |
+
+Only one authorisation record is available. The BNF classification code (section 1.6.4, osmotic laxatives) is consistent with its use as a laxative. Please check the current SmPC and BNF for the licensed indications and NICE guidance.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Contraindications (from the knowledge graph, not label text):** diabetes mellitus, diabetic ketoacidosis, appendicitis, galactosemia, glycogen storage disease, G6PD deficiency, cystinuria and glucose-galactose malabsorption. These should be verified against the SmPC.
+
+**Drug interactions:** 100 interactions were identified, nearly all graded Moderate in the compiled data (a few Minor, e.g. sodium citrate). Examples include:
+- Diuretics and electrolyte-affecting drugs: acetazolamide, hydrochlorothiazide, amiloride
+- QT-prolonging or arrhythmia-related drugs: amiodarone, amisulpride, arsenic trioxide, lumefantrine, asenapine, anagrelide
+- Corticosteroids and beta-agonists: hydrocortisone, triamcinolone, salbutamol
+- Others: tramadol, abiraterone, apalutamide, apomorphine, alfuzosin, atomoxetine, propofol
+
+A plausible shared concern is electrolyte disturbance (e.g. hypokalaemia) from diarrhoea, but the data do not state the mechanisms.
+
+Please refer to the SmPC and BNF for full warnings. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -90,36 +120,26 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Acute Urate Nephropathy) has no supporting clinical trials or literature, and the model's own mechanistic rationale explicitly states there is no known biological link between lactulose's pharmacology and urate handling. A high TxGNN score alone, without corroborating evidence, is insufficient to justify progression.
+The evidence for obstructive jaundice is limited to small, older clinical studies and animal experiments, with no registered trials. One review found no conclusive renoprotective effect, and one rat study found no benefit. The mechanistic hypothesis (reduced endotoxaemia) is reasonable but unproven, and the UK licence record carries no indication text.
 
 **To proceed, the following is needed:**
-- Lactulose mechanism-of-action data (DrugBank API query, currently a High-severity gap)
-- UK/EU marketing authorisation and SmPC data, including warnings and contraindications (currently a Blocking-severity gap)
-- Any preclinical or mechanistic studies specifically linking lactulose to urate metabolism, should this candidate be revisited
-- Given the absence of supporting evidence for this specific candidate, consideration should be given to reviewing other candidates in the same evidence pack with materially stronger evidence (see appendix below)
+- Full-text review of the 1991 randomised multicentre study (PMID 2032107) and the 1986 study to confirm outcomes
+- A systematic review of lactulose for preventing postoperative renal dysfunction in obstructive jaundice
+- Mechanism of action data and UK licence indication wording
+- Safety review against the SmPC, including electrolyte monitoring and the knowledge-graph contraindications (notably diabetes)
+- If pursued, a modern, adequately powered randomised trial in the context of current biliary drainage practice
 
----
+**Other predicted indications (for reference):**
 
-## Appendix: Other Candidate Indications in This Evidence Pack
-
-This evidence pack ("TW-DB00581-multi") contains eight TxGNN-predicted indications for Lactulose. Evidence quality varies substantially and does **not** track TxGNN score — the highest-scoring candidates have no supporting evidence, while a mid-ranked candidate has meaningful clinical and mechanistic support.
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 1 | Acute Urate Nephropathy | 99.89% | L5 | Hold |
-| 2 | Nephrolithiasis | 99.78% | L5 | Hold |
-| 3 | **Obstructive Jaundice** | 99.53% | **L2** | **Research Question** |
-| 4 | Bile Duct Disease | 99.47% | L3 | Research Question |
-| 5 | Biliary Tract Disease | 99.38% | L4 | Hold |
-| 6 | Hyperphosphatemia | 99.37% | L5 | Hold |
-| 7 | Exercise-Induced Malignant Hyperthermia | 99.14% | L5 | Hold |
-| 8 | Bile Duct Neoplasm | 99.12% | L4 | Hold |
-
-**Notable candidate: Obstructive Jaundice (Rank 3)**
-
-Unlike the top-ranked prediction, this candidate is supported by a completed Phase 4 study (NCT01090193, n=20), a multicentre randomised study of preoperative lactulose in obstructive jaundice (PMID [2032107](https://pubmed.ncbi.nlm.nih.gov/2032107/), 1991, tier 1), and 21 supporting publications spanning human and animal studies. The proposed mechanism — reduction of gut-derived endotoxaemia and bacterial translocation via lactulose's acidification of the colonic environment — is biologically coherent and repeatedly described in the literature, in contrast to the implausible link underlying the top-ranked prediction.
-
-**Recommendation:** If this evidence pack is being used to select a lead candidate for further evaluation, Obstructive Jaundice (Rank 3) warrants priority review over the top TxGNN-scored candidate, which lacks any corroborating evidence.
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Acute urate nephropathy | 99.89% | L5 | No data; no plausible mechanism. Hold |
+| Nephrolithiasis | 99.78% | L5 | No data; computational only. Hold |
+| Bile duct disease | 99.47% | L4 | Mostly indirect or preclinical; overlaps with obstructive jaundice. Research question |
+| Biliary tract disease | 99.38% | L4 | Indirect (bile composition, SIBO, endotoxaemia). Research question |
+| Hyperphosphatemia | 99.37% | L4 | Only a review of constipation in CKD; no evidence of phosphate lowering. Hold |
+| Exercise-induced malignant hyperthermia | 99.14% | L5 | No data; no plausible mechanism. Hold |
+| Bile duct neoplasm | 99.12% | L4 | Indirect perioperative gut-barrier literature only. Research question |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

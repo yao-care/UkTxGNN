@@ -2,7 +2,7 @@
 layout: default
 title: Nilotinib
 parent: Moderate Evidence (L3-L4)
-nav_order: 414
+nav_order: 445
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,74 +29,88 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Nilotinib: From Chronic Myeloid Leukaemia to Dermatofibrosarcoma Protuberans
+# Nilotinib: From BCR-ABL1-Positive Chronic Myeloid Leukaemia to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nilotinib is a BCR-ABL tyrosine kinase inhibitor originally developed for chronic myeloid leukaemia (background pharmacology; not itself recorded in this evidence pack). The TxGNN model predicts potential efficacy in **dermatofibrosarcoma protuberans (DFSP)**, but this is currently supported only by **0 clinical trials** and **1 mechanistic review article** — evidence is preclinical/class-level only.
+Nilotinib is a tyrosine kinase inhibitor originally used to treat BCR-ABL1-positive chronic myeloid leukaemia.
+The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**,
+but at present there are **no registered clinical trials** and only **1 publication** (a review) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myeloid leukaemia (CML) — general pharmacological background; not present in this evidence pack (`original_indications` empty) |
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L4 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (data gap DG002). Based on the repurposing rationale supplied, nilotinib is a small-molecule inhibitor of PDGFR, KIT and BCR-ABL kinases — the same tyrosine kinases targeted by imatinib.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge of nilotinib pharmacology, it is a tyrosine kinase inhibitor active against BCR-ABL, KIT, DDR and PDGFR (alpha and beta).
 
-DFSP is driven by the *COL1A1-PDGFB* fusion gene, which causes constitutive activation of PDGFR-β. Imatinib, which shares nilotinib's PDGFR-inhibitory activity, is already approved for DFSP. This creates a plausible class-level mechanistic rationale for nilotinib in the same disease.
+DFSP is characterised by a COL1A1-PDGFB translocation. This produces a constitutively active PDGFB ligand that drives PDGFRB signalling. Inhibiting the PDGFR pathway is therefore a biologically coherent approach. Imatinib, a closely related PDGFR-inhibiting tyrosine kinase inhibitor, is an established therapy for unresectable or metastatic DFSP, which supports plausibility at the class level.
 
-However, the evidence pack is explicit that this link is **inferential and class-based**, not nilotinib-specific: no clinical trial or case-level data for nilotinib in DFSP currently exists, only a general review of PDGFR-inhibitor pharmacology. The prediction should therefore be treated as a research hypothesis rather than an evidence-backed indication.
+This rationale is inferred from general pharmacology rather than from nilotinib-specific data in the compiled dataset. The very high TxGNN score is consistent with the target overlap, but it is not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews the role of small-molecule PDGFR inhibitors (a class including nilotinib) in neoplastic disorders; discusses PDGF/PDGFR signalling relevant to tumours such as DFSP, without nilotinib-specific clinical data |
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors in neoplastic disorders, covering the role of the PDGF/PDGFR signalling pathway as a therapeutic target |
 
 ## UK Market Information
 
-Nilotinib currently holds no UK marketing authorisations in this evidence pack, and no product-level licence information is available.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0801050ASAAAAAA | Nilotinib capsules 200 mg | Capsule | Not available in the compiled data |
+
+One valid single-ingredient authorisation was identified. The dosage form and approved indication text were not recorded in the compiled data, so the entry should be checked against the current MHRA record, the SmPC and the BNF. The listed number is not in standard PL format and should also be verified.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor) — based on general pharmacological class knowledge, as DrugBank category data was not returned in this pack |
-| Myelosuppression Risk | Please refer to the SmPC warnings and precautions |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the SmPC warnings and precautions (the knowledge-graph contraindication list includes neutropenia, thrombocytopenia and anaemia) |
 | Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
-| Monitoring Items | Please refer to the SmPC warnings and precautions |
+| Monitoring Items | Full blood count, liver function, electrolytes (potassium, magnesium), glucose and ECG for QT interval; confirm against the SmPC |
 | Handling Protection | Please refer to the SmPC warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Disease-related cautions (from the TxGNN knowledge graph, not label text):** The knowledge graph links nilotinib with the following conditions, which should be verified against the SmPC:
+  - Cardiovascular and QT-related: hypertension, long QT syndrome (including familial), torsades de pointes
+  - Hepatic and biliary: liver disease, gallbladder disease, hyperbilirubinaemia (including Gilbert syndrome), pancreatitis
+  - Haematological: thrombocytopenia, neutropenia, agranulocytosis, anaemia
+  - Metabolic: hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, hypophosphataemia
+- **Drug Interactions:** 100 interactions were recorded; examples are shown below.
+  - Major: dexamethasone, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
+  - Moderate: acid-suppressing drugs (famotidine, ranitidine, cimetidine, omeprazole, rabeprazole), other corticosteroids (hydrocortisone, betamethasone, budesonide, triamcinolone), pioglitazone, saxagliptin, loperamide, bupropion, aprepitant, bisacodyl
 
-**Note:** This evidence pack flags a **Blocking** data gap (DG001) — full label warnings and contraindications have not yet been retrieved. This prevents completion of the S1 initial safety assessment and must be resolved before any further evaluation proceeds.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is limited to a class-level mechanistic inference (L4) with no nilotinib-specific clinical trials in DFSP, the drug holds no UK marketing authorisation, and a **blocking** safety data gap (missing warnings/contraindications) prevents initial safety evaluation.
+The mechanistic link (PDGFR inhibition in a PDGFB-driven tumour) is plausible and the TxGNN score is high. However, there are no nilotinib-specific trials in DFSP and only one general review, so the evidence is limited to L4. The compiled safety data are incomplete, and the knowledge graph flags several cardiac (QT), hepatic and haematological cautions.
 
 **To proceed, the following is needed:**
-- Resolution of blocking data gap DG001: full label warnings and contraindications
-- Resolution of data gap DG002: confirmed mechanism of action / DrugBank category data
-- Nilotinib-specific preclinical or clinical evidence in DFSP (current evidence is imatinib-by-analogy only)
-- Confirmation of any UK/EU marketing authorisation pathway, since the drug is currently not marketed in the UK
+- A targeted literature search for nilotinib in DFSP (case series, phase 2 studies) and comparison with imatinib outcomes
+- Mechanism of action data from DrugBank, to confirm PDGFR activity formally
+- The MHRA SmPC and BNF warnings and contraindications, which are required for safety screening
+- Confirmation of the authorisation details (dosage form, approved indication, licence number)
+- A cardiac (QT) and drug-interaction risk plan for any proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

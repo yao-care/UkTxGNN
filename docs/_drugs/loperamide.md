@@ -2,7 +2,7 @@
 layout: default
 title: Loperamide
 parent: Model Prediction Only (L5)
-nav_order: 351
+nav_order: 378
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Loperamide: From Antidiarrhoeal Use to Acute Contagious Conjunctivitis
+# Loperamide: From Diarrhoeal Disease to Acute Contagious Conjunctivitis
 
 ## One-Sentence Summary
 
-Loperamide (DrugBank DB00836) is a peripherally-restricted opioid-receptor agonist conventionally used to reduce intestinal motility. The TxGNN model assigns its highest score to **Acute Contagious Conjunctivitis**, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the underlying evidence pack explicitly flags it as likely knowledge-graph noise rather than a genuine repurposing signal.
-
----
+Loperamide is a peripherally acting anti-motility agent, originally used to treat diarrhoeal disease and dysentery.
+The TxGNN model predicts it may be effective for **acute contagious conjunctivitis**, but there are **no clinical trials** and **no publications** supporting this prediction. It is a model output only, with no known biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this dataset — `original_indications` is empty and no UK licences are recorded |
-| Predicted New Indication | Acute Contagious Conjunctivitis |
+| Original Indication | Diarrhoeal disease, dysentery (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| UK Market Status | Not marketed (per this evidence pack) |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, no formal mechanism-of-action record is available in the drug-level fields (flagged as data gap DG002). However, the model's own rationale confirms that loperamide acts as a peripherally-restricted μ-opioid receptor agonist, working on the myenteric plexus of the gut to suppress peristalsis — a mechanism specific to gastrointestinal motility.
+Loperamide is a peripherally acting mu-opioid receptor agonist that slows gut motility. Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on general pharmacological knowledge.
 
-There is **no known mechanistic pathway** connecting opioid-receptor-mediated gut motility suppression to acute contagious conjunctivitis, which is driven by ocular surface infection and local inflammatory/immune processes. Despite the very high TxGNN similarity score (rank 778 of the model's output), the prediction is accompanied by no corroborating clinical trials or literature evidence whatsoever.
+The original indications (diarrhoeal disease and dysentery) are gastrointestinal conditions. Conjunctivitis is an eye condition. No ocular or anti-infective mechanism of loperamide is established. The very high score (99.97%) is most likely driven by associations within the knowledge graph rather than by biology, and the other top-ranked predictions are mostly conjunctivitis subtypes, which supports this interpretation.
 
-Taken together, this pattern — an extremely high score with a biologically implausible mechanism and a complete absence of external evidence — is characteristic of a **false-positive signal generated via unrelated intermediate nodes** in the knowledge graph, rather than a genuine repurposing opportunity. This assessment is consistent with the evidence pack's own scoring: decision stage S0, recommendation Hold.
-
-**Context from other candidates in this evidence pack:** none of the remaining nine predicted indications materially strengthen the case for repurposing loperamide:
-- **Amebic dysentery** (rank 2, L4) is supported only by a case report ([PMID 17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/)) describing loperamide use *causing* fulminant amoebic colitis — a **negative safety signal**, not supportive evidence, because antimotility agents can delay clearance of invasive pathogens.
-- **Conjunctivitis** (rank 3, L5) cites two clinical trials that on inspection concern azithromycin for trachoma, unrelated to loperamide — a data-linkage mismatch, not real evidence.
-- **Gastroduodenitis** (rank 4, L3) has a single 1986 non-English observational article suggesting symptomatic benefit for diarrhoea associated with functional GI disorders — plausible as symptom relief only, not disease-modifying, and too dated/weak to support action.
-- Ranks 5–10 (various conjunctival conditions and Angelucci syndrome) have no evidence at all and share the same implausible mechanistic profile as rank 1.
-
----
+In short, this prediction should be regarded as a computational hypothesis only, with no plausible mechanistic link identified.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Acute Contagious Conjunctivitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Acute Contagious Conjunctivitis.
+Currently no related literature available for the top-ranked prediction.
 
----
+For context, literature exists for other lower-ranked predictions, but it describes safety concerns rather than benefit:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/) | 2007 | Case report | Journal of Travel Medicine | Fulminant amoebic colitis with toxic megacolon in a patient with heavy loperamide use (amebic dysentery prediction). Suggests possible harm. |
+| [41924411](https://pubmed.ncbi.nlm.nih.gov/41924411/) | 2026 | Case report | Cureus | Loperamide-induced respiratory depression in severe chemotherapy-related gastrointestinal inflammation (gastroduodenitis prediction). Suggests increased systemic exposure when the gut mucosa is compromised. |
+| [3893119](https://pubmed.ncbi.nlm.nih.gov/3893119/) | 1985 | Review | The American Journal of Medicine | General review of non-fluid therapy and chemoprophylaxis for acute diarrhoea. Not specific to amebic dysentery. |
 
 ## UK Market Information
 
-According to this evidence pack, loperamide has **no marketing authorisations on record** (market status: "not marketed"; total licences: 0). This is at odds with loperamide's well-known availability in the UK (e.g. as Imodium, OTC and POM presentations) and should be **verified directly against the MHRA product register** before this dataset is relied upon for any regulatory or commercial decision.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0104020L0AAAAAA | Loperamide HCl Capsules 2 mg | Capsule (inferred from product name) | Not available in the data compiled |
 
----
+The identifier above is in the format of a BNF-style code rather than a standard MHRA PL number, so the authorisation details should be verified against the MHRA database.
 
 ## Safety Considerations
 
-Formal key warnings, contraindications, and drug-interaction data are not available in this evidence pack (flagged as data gap DG001, severity: Blocking — TFDA label/warnings not yet retrieved).
+- **Contraindications (knowledge graph associations, not label text):** liver disease, gallbladder disease, paralytic ileus, intestinal obstruction, familial visceral myopathy, dysentery, diarrhoeal disease, infectious diarrhoeal disease, intestinal infectious disease.
+- **Drug Interactions:** 100 interactions were recorded. Major-level examples include abiraterone, ranitidine, fosamprenavir and gemfibrozil. Moderate-level examples include codeine, dihydrocodeine, tramadol, ethanol and several antihistamines (chlorpheniramine, cetirizine, acrivastine).
+- **Case-report safety signals:** worsening of invasive intestinal infection (toxic megacolon in amoebic colitis) and central opioid effects such as respiratory depression when gut inflammation increases systemic absorption.
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
-One relevant safety signal did emerge from the literature review, though it relates to a different candidate indication (amebic dysentery) rather than the top-ranked prediction: a published case report links loperamide use to fulminant amoebic colitis in the setting of invasive intestinal infection ([PMID 17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/)). This underscores that antimotility agents carry a plausible mechanism for harm in invasive enteric infections and should not be assumed safe by default in any GI-infection-adjacent repurposing indication.
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (acute contagious conjunctivitis) has no clinical or literature support and no plausible mechanistic link to loperamide's known pharmacology; it is best interpreted as a knowledge-graph artefact. No other candidate in the top 10 reaches a level of evidence sufficient to justify further investment, and one candidate (amebic dysentery) carries an identified safety concern rather than supportive evidence.
+The prediction rests solely on a model score. There are no trials or publications, and no plausible mechanism links an anti-motility gut agent to conjunctivitis. Related predictions in the gastrointestinal area yielded safety warnings rather than supportive evidence.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve TFDA/MHRA label warnings and contraindications before any safety-relevant evaluation can proceed
-- Resolve DG002: obtain formal DrugBank/SmPC mechanism-of-action data to properly assess mechanistic plausibility for any future candidate
-- Verify actual UK marketing-authorisation status directly with MHRA, as the "not marketed" / 0-licence record in this dataset appears inconsistent with known market presence
-- If further TxGNN-driven repurposing screening is pursued for this drug, prioritise candidates with independent literature or trial corroboration over score magnitude alone, given the demonstrated rate of noise/mismatch in this batch (ranks 1, 3, 5–10)
+- A plausible mechanistic hypothesis for an ocular effect, supported by preclinical data
+- Mechanism of action data for loperamide
+- Label warnings and contraindications from the SmPC and BNF
+- Verification of the MHRA authorisation details, including approved indication and dosage form
+- Evidence of a suitable ocular formulation or route, as none is currently identified
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

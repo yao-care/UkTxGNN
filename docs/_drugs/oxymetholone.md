@@ -2,7 +2,7 @@
 layout: default
 title: Oxymetholone
 parent: Model Prediction Only (L5)
-nav_order: 439
+nav_order: 472
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Oxymetholone: From Unspecified Original Indication to Seborrhoeic Dermatitis
+# Oxymetholone: From Aplastic Anaemia to Seborrhoeic Dermatitis
 
 ## One-Sentence Summary
 
-> Oxymetholone is an anabolic-androgenic steroid; no original indication data is currently on record for this evidence pack.
-> The TxGNN model predicts a possible association with **Seborrhoeic Dermatitis** (score 99.05%),
-> but this is supported by **no clinical trials** and **no published literature**, and the underlying pharmacology points in the opposite direction to a therapeutic benefit.
+Oxymetholone is an oral anabolic-androgenic steroid, originally used to treat aplastic anaemias (including Diamond-Blackfan anaemia).
+The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**,
+but **no clinical trials and no publications** currently support this direction; the prediction rests on the model score alone.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in current data (no `original_indications` on file) |
-| Predicted New Indication | Seborrhoeic Dermatitis |
+| Original Indication | Aplastic anaemia (including Diamond-Blackfan anaemia, inherited and idiopathic aplastic anaemia) |
+| Predicted New Indication | Seborrhoeic dermatitis |
 | TxGNN Prediction Score | 99.05% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
-## Why is This Prediction Reasonable? (Caution Advised)
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this evidence pack. Based on known pharmacological class information, Oxymetholone is an **anabolic-androgenic steroid (AAS)**.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxymetholone is a 17-alpha-alkylated derivative of dihydrotestosterone that acts as an androgen receptor agonist and stimulates erythropoiesis. This explains its use in bone marrow failure states such as aplastic anaemia.
 
-Androgens are well established to stimulate sebaceous gland proliferation and increase sebum production — this is precisely the mechanism believed to *drive* seborrhoeic dermatitis and acne, not treat it. Clinically, acne and increased sebum production are recognised adverse effects of androgen therapy. This places the predicted indication in **direct mechanistic opposition** to a plausible therapeutic effect.
+A link to seborrhoeic dermatitis is speculative. One could hypothesise that androgen-mediated modulation of sebaceous gland activity or inflammation might play a role. However, androgens generally increase sebum production and are more often associated with seborrhoea and acne, so this hypothesis runs against the expected direction of effect. No mechanistic evidence was available to support the link, and the relationship between the original and predicted indications remains unassessed.
 
-The high TxGNN score (99.05%) most likely reflects strong graph connectivity between "androgen" and "sebaceous gland/skin" nodes in the knowledge graph — a reflection of a well-documented *adverse* pharmacological relationship rather than a *therapeutic* one. This prediction should be treated as a **candidate false positive** pending mechanistic review, and is not, on current evidence, a credible repurposing lead.
+The high TxGNN score (0.99) is a computational output only and should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ---
 
@@ -77,15 +77,28 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Oxymetholone does not currently hold a marketing authorisation and has a UK market status of **Not marketed**. No licence records are available to summarise.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 0901030H0AAAGAG | Oxymetholone Tablets 50 mg | Tablet (inferred from product name) | Not stated in the data compiled for this report |
+
+Only one single-ingredient authorisation is recorded, and its status is valid. The identifier shown does not follow the usual MHRA "PL" format, so the licence details should be verified against the MHRA register and the BNF before any further work.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links oxymetholone with contraindications in the following areas:
+  - **Hepatic:** liver failure, liver disease, peliosis hepatis, gallbladder disease
+  - **Renal:** kidney disease, nephrotic syndrome (including familial nephrotic syndrome and lipoid nephrosis), pyoureter
+  - **Cardiovascular:** congestive heart failure, heart disease, cardiovascular disease, coronary artery disease, arteriosclerosis disorder, atherosclerosis, hypoalphalipoproteinemia
+  - **Hormone-sensitive cancers and prostate:** prostate cancer, prostate neoplasm, prostate carcinoma, female breast carcinoma, benign prostatic hyperplasia
+  - **Metabolic and other:** diabetes mellitus, diabetic ketoacidosis, humoral hypercalcaemia of malignancy, blood coagulation disease
+- **Drug Interactions:** 69 interactions are recorded. Examples include:
+  - **Major:** carfilzomib
+  - **Moderate:** corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide), corticotropin and tetracosactide, cyclosporine, asparaginase products, chlorpropamide, clofarabine, brentuximab vedotin, cannabidiol, C1-esterase inhibitors, and topical vitamin D analogues (calcipotriol, calcitriol)
+- **Class-related concerns:** As a 17-alpha-alkylated androgen, oxymetholone is associated with hepatotoxicity, peliosis hepatis, adverse lipid changes and virilisation. These are a poor fit for a benign, non-life-threatening skin condition.
 
-*Note: Key warnings, contraindications and drug interaction data for Oxymetholone are not currently available in this evidence pack (flagged as a blocking data gap — see Conclusion).*
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -94,14 +107,14 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-- Evidence level is L5 (model prediction only) — no clinical trials or literature support this indication.
-- The proposed mechanism runs **counter** to the biological direction expected for treating seborrhoeic dermatitis, raising strong suspicion of a false positive driven by knowledge-graph node connectivity rather than genuine therapeutic signal.
-- A **blocking** data gap exists on TFDA/SmPC-equivalent warnings and contraindications, meaning this candidate cannot yet enter a formal safety pre-assessment (S1).
+The only support is a computational prediction score, with no clinical or literature evidence (L5). The proposed mechanism runs against the expected androgenic effect on sebaceous glands, and the hepatic, cardiovascular and metabolic safety burden is unfavourable for seborrhoeic dermatitis, which already has well-tolerated alternatives.
 
 **To proceed, the following is needed:**
-- Full prescribing information (warnings, contraindications) to close the blocking data gap before any safety pre-assessment can begin.
-- Confirmed mechanism of action data from DrugBank or equivalent source.
-- An independent mechanistic review to assess whether the TxGNN score reflects a genuine therapeutic hypothesis or a graph-connectivity artefact, before any further evidence collection is commissioned for this indication.
+- Mechanism of action data and a credible biological rationale for benefit in seborrhoeic dermatitis
+- Safety information from the SmPC and BNF (warnings and contraindications), which was not available for this report
+- Verification of the MHRA authorisation details (number, dosage form, approved indication)
+- Preclinical or early clinical evidence of benefit, and a risk-benefit assessment against existing treatments
+- Assessment of route compatibility, as any dermatological use would need a suitable formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

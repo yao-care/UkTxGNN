@@ -2,7 +2,7 @@
 layout: default
 title: Hypromellose
 parent: Model Prediction Only (L5)
-nav_order: 308
+nav_order: 330
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hypromellose: From Ophthalmic Excipient Use to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
+# Hypromellose: From Ocular Lubrication to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-> Hypromellose is a cellulose-derived excipient/polymer, most commonly used as an artificial tear, ophthalmic lubricant, and tablet coating agent; it has no established systemic pharmacological or immunomodulatory activity.
-> The TxGNN model predicts a possible link to **hepatic veno-occlusive disease-immunodeficiency syndrome**, a rare inherited immunodeficiency,
-> but this prediction is currently supported by **no clinical trials and no literature**, and the evidence pack itself flags the score as likely knowledge-graph noise rather than a genuine biological signal.
+Hypromellose is a cellulose-derived polymer used as an ocular lubricant, viscosity enhancer and film former, and it is currently marketed in the UK as 0.3% eye drops.
+The TxGNN model predicts it may be effective for **hepatic veno-occlusive disease-immunodeficiency syndrome**, but there are **no clinical trials** and **no publications** supporting this prediction.
+The result is a graph-based signal only, with no biological rationale behind it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in the evidence pack (Hypromellose is conventionally used as an artificial tear/ophthalmic lubricant and tablet-coating excipient; no formal indication or MOA data supplied) |
+| Original Indication | Not stated in the licence data (ocular lubrication is the product's known use as an eye drop) |
 | Predicted New Indication | Hepatic veno-occlusive disease-immunodeficiency syndrome |
 | TxGNN Prediction Score | 98.30% |
 | Evidence Level | L5 |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed |
+| Number of Marketing Authorisations | 1 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking/High-severity data gap). Based on known information, Hypromellose is a cellulose derivative used almost exclusively as an inactive excipient — as an ophthalmic lubricant/artificial tear and as a film-coating/viscosity agent in oral formulations. It has no reported systemic absorption, immunomodulatory, or haematopoietic activity.
+Currently, detailed mechanism of action data is not available. Based on known information, hypromellose is an inert, cellulose-derived excipient with negligible systemic absorption. Its role in eye drops is to lubricate the ocular surface and increase the viscosity of the formulation.
 
-Hepatic veno-occlusive disease-immunodeficiency syndrome is a rare inherited disorder involving hepatic sinusoidal endothelial injury and combined immunodeficiency. There is no known pharmacological pathway by which an inert, topically/orally acting excipient such as Hypromellose could influence either hepatic sinusoidal endothelium or immune gene regulation.
+No mechanistic link has been identified between hypromellose and this disease. The predicted condition is an autosomal recessive immunodeficiency caused by SP110 mutation. It is a genetic disorder, and a non-absorbed polymer has no known way of influencing it. The high score of 0.983 most likely reflects patterns in the knowledge graph rather than real biology.
 
-The evidence pack's own rationale is explicit on this point: the high TxGNN score most likely reflects structural or co-occurrence noise in the knowledge graph — a known limitation for excipient-class "drugs" that appear across many unrelated formulations — rather than a true biological signal. This assessment is consistent across all ten ranked predictions for this drug (ranks 1–10), none of which describe a plausible mechanism, and only one (rank 8, psoriasis) has any associated trial or literature evidence, and that evidence concerns Hypromellose only as a delivery-vehicle excipient in unrelated formulations, not as an active therapeutic agent.
+The other nine top-ranked predictions show the same pattern. They include pancytopenia due to IKZF1 mutations, hepatic veno-occlusive disease, CRAC channel dysfunction, several rare immunodeficiency syndromes, a HOIL-1 deficiency disorder and HHV-8-related tumours. None has a plausible mechanism, trial or publication. Psoriasis (rank 8) is the most biologically conceivable, since cellulose-ether polymers are used as vehicles in topical products and may have a mild emollient or barrier effect. However, this is not a disease-modifying mechanism, and no data support it.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## UK Market Information
 
-No UK marketing authorisation is currently identified for Hypromellose in this evidence pack (market status: **Not marketed**; 0 licences on record). As an excipient/OTC ophthalmic lubricant, any UK-authorised products would need to be confirmed separately against the MHRA product database and BNF excipient listings.
+| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1108010F0AAAAAA | Hypromellose Eye Drops 0.3% | Eye drops | Not stated in the licence data |
+
+This is a single-ingredient product with a valid status. The data compiled for this report do not include NICE appraisals or a BNF classification for it.
+
+---
 
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-*(Note: Warnings, contraindications, and drug-interaction data for this candidate are listed as an unresolved Blocking data gap in the evidence pack — a validated SmPC/PIL has not yet been obtained.)*
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or literature evidence, no plausible mechanistic link, and no UK marketing authorisation for this drug. The evidence pack itself attributes the high TxGNN score to likely knowledge-graph noise typical of excipient-class compounds, rather than a genuine repurposing signal.
+The prediction rests on a graph-based score alone (Evidence Level L5), with no trials, no literature and no plausible mechanism. Hypromellose is a pharmacologically inert, non-absorbed excipient, so the high score is most likely a network artefact.
 
 **To proceed, the following is needed:**
-- Resolution of the Blocking data gap: TFDA/MHRA-equivalent SmPC warnings and contraindications
-- Verified mechanism of action (MOA) data from DrugBank or equivalent
-- Any primary evidence (preclinical or clinical) in which Hypromellose itself — not merely a co-formulated agent — is the active intervention
-- Re-evaluation of TxGNN output quality for excipient-class drug nodes before further pursuing this candidate
+- Mechanism of action data for hypromellose
+- Any preclinical or clinical evidence linking it to the predicted condition (none currently exists)
+- Safety information from the SmPC and BNF, which was not available in the compiled data
+- Route and formulation compatibility assessment, since the only UK product is an ophthalmic preparation and the predicted conditions are systemic
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
