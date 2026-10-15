@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "hereditary-hemochromatosis",
+          "display": "hereditary hemochromatosis"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "hereditary hemochromatosis",
       "concept": {
         "text": "hereditary hemochromatosis"
       }

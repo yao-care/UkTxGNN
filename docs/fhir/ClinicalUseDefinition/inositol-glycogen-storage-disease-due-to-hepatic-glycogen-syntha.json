@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "glycogen-storage-disease-due-to-hepatic-glycogen-synthase-deficiency",
+          "display": "glycogen storage disease due to hepatic glycogen synthase deficiency"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "glycogen storage disease due to hepatic glycogen synthase deficiency",
       "concept": {
         "text": "glycogen storage disease due to hepatic glycogen synthase deficiency"
       }

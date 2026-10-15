@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "dermatophytosis-of-scalp-or-beard",
+          "display": "dermatophytosis of scalp or beard"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "dermatophytosis of scalp or beard",
       "concept": {
         "text": "dermatophytosis of scalp or beard"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "cutaneous-candidiasis",
+          "display": "cutaneous candidiasis"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "cutaneous candidiasis",
       "concept": {
         "text": "cutaneous candidiasis"
       }

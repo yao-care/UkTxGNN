@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "primary-cutaneous-t-cell-lymphoma",
+          "display": "primary cutaneous T-cell lymphoma"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "primary cutaneous T-cell lymphoma",
       "concept": {
         "text": "primary cutaneous T-cell lymphoma"
       }

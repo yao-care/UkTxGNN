@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "multiple-system-atrophy",
+          "display": "multiple system atrophy"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "multiple system atrophy",
       "concept": {
         "text": "multiple system atrophy"
       }

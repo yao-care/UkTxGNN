@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "bronchial-adenomas-carcinoids-childhood",
+          "display": "bronchial adenomas/carcinoids childhood"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "bronchial adenomas/carcinoids childhood",
       "concept": {
         "text": "bronchial adenomas/carcinoids childhood"
       }

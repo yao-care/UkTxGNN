@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "non-seminomatous-lesion",
+          "display": "non-seminomatous lesion"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "non-seminomatous lesion",
       "concept": {
         "text": "non-seminomatous lesion"
       }

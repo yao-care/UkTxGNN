@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "postgastrectomy-syndrome",
+          "display": "postgastrectomy syndrome"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "postgastrectomy syndrome",
       "concept": {
         "text": "postgastrectomy syndrome"
       }

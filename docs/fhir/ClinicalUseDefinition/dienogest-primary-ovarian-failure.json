@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "primary-ovarian-failure",
+          "display": "primary ovarian failure"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "primary ovarian failure",
       "concept": {
         "text": "primary ovarian failure"
       }

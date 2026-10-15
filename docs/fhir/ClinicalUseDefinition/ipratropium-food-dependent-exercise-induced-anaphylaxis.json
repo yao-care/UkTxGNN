@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "food-dependent-exercise-induced-anaphylaxis",
+          "display": "food-dependent exercise-induced anaphylaxis"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "food-dependent exercise-induced anaphylaxis",
       "concept": {
         "text": "food-dependent exercise-induced anaphylaxis"
       }

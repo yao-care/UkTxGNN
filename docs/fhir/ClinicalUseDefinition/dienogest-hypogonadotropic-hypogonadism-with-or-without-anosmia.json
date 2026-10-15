@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "hypogonadotropic-hypogonadism-with-or-without-anosmia",
+          "display": "hypogonadotropic hypogonadism with or without anosmia"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "hypogonadotropic hypogonadism with or without anosmia",
       "concept": {
         "text": "hypogonadotropic hypogonadism with or without anosmia"
       }

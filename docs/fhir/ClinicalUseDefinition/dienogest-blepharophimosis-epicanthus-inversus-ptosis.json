@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "blepharophimosis-epicanthus-inversus-ptosis",
+          "display": "blepharophimosis-epicanthus inversus-ptosis"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "blepharophimosis-epicanthus inversus-ptosis",
       "concept": {
         "text": "blepharophimosis-epicanthus inversus-ptosis"
       }

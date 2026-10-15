@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "exanthem-disease",
+          "display": "exanthem (disease)"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "exanthem (disease)",
       "concept": {
         "text": "exanthem (disease)"
       }

@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "autonomic-nervous-system-disease",
+          "display": "autonomic nervous system disease"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "autonomic nervous system disease",
       "concept": {
         "text": "autonomic nervous system disease"
       }

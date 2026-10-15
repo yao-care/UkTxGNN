@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "drug-induced-osteoporosis",
+          "display": "drug-induced osteoporosis"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "drug-induced osteoporosis",
       "concept": {
         "text": "drug-induced osteoporosis"
       }

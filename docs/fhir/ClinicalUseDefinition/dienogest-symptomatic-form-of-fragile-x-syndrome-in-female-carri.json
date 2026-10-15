@@ -18,11 +18,11 @@
       "coding": [
         {
           "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "acral-peeling-skin-syndrome",
-          "display": "acral peeling skin syndrome"
+          "code": "symptomatic-form-of-fragile-x-syndrome-in-female-carrier",
+          "display": "symptomatic form of fragile X syndrome in female carrier"
         }
       ],
-      "text": "acral peeling skin syndrome",
+      "text": "symptomatic form of fragile X syndrome in female carrier",
       "concept": {
         "text": "symptomatic form of fragile X syndrome in female carrier"
       }
