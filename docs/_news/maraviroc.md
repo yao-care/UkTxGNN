@@ -25,16 +25,16 @@ This page combines the AI-predicted indications for Maraviroc with the latest he
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Predicted indications (10)</strong>:<ul>
+<li>HER2 positive breast carcinoma (99.2%)</li>
+<li>Cytomegalovirus infection (99.2%)</li>
+<li>Primary cutaneous T-cell lymphoma (99.7%)</li>
 <li>multiple endocrine neoplasia (99.8%)</li>
 <li>acne (disease) (99.8%)</li>
-<li>primary cutaneous T-cell lymphoma (99.7%)</li>
 <li>pediatric systemic lupus erythematosus (99.7%)</li>
 <li>primary cutaneous T-cell non-Hodgkin lymphoma (99.5%)</li>
 <li>primary cutaneous B-cell lymphoma (99.4%)</li>
 <li>candidiasis (99.3%)</li>
 <li>complement component 4a deficiency (99.2%)</li>
-<li>cytomegalovirus infection (99.2%)</li>
-<li>HER2 positive breast carcinoma (99.2%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/maraviroc/' | relative_url }}">View full drug report →</a></p>
