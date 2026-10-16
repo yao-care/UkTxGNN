@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Lactic acid with the latest 
 <li>cauda equina syndrome (98.7%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/lactic_acid/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/lactic-acid/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)

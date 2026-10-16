@@ -37,7 +37,7 @@ This page combines the AI-predicted indications for Peppermint oil with the late
 <li>polyp of frontal sinus (99.1%)</li>
 </ul></li>
 </ul>
-<p><a href="{{ '/drugs/peppermint_oil/' | relative_url }}">View full drug report →</a></p>
+<p><a href="{{ '/drugs/peppermint-oil/' | relative_url }}">View full drug report →</a></p>
 </div>
 
 ## Related News (0)
