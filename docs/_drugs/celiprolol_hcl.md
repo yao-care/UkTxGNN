@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Celiprolol Hcl
 parent: Model Prediction Only (L5)

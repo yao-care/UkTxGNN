@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Cinacalcet Hcl
 parent: Model Prediction Only (L5)

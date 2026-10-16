@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Amisulpride
 parent: Model Prediction Only (L5)

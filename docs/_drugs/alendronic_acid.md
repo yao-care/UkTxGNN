@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Alendronic Acid
 parent: Model Prediction Only (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Chloral Hydrate
 parent: Model Prediction Only (L5)
