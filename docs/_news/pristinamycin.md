@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Pristinamycin with the lates
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>disease of retroperitoneum (99.2%)</li>
 <li>lumbar spinal stenosis (99.2%)</li>

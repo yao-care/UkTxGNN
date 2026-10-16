@@ -3,7 +3,7 @@ layout: default
 title: "Taurolidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Taurolidine. Original indication: . 10 predicted indications."
+description: "Health news related to Taurolidine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
 permalink: /news/taurolidine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Taurolidine with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic cataract**, but there are **0 clinical trials** and **0 publications** supporting this direction.</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>diabetic cataract (98.9%)</li>
 <li>nuclear senile cataract (98.9%)</li>

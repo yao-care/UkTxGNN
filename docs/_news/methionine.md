@@ -3,7 +3,7 @@ layout: default
 title: "Methionine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Methionine. Original indication: . 10 predicted indications."
+description: "Health news related to Methionine. Original indication: The retrieved literature does not support methioni.... 10 predicted indications."
 permalink: /news/methionine/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Methionine with the latest h
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: The retrieved literature does not support methionine as an acne treatment. One paper reports raised plasma homocysteine (a methionine-cycle metabolite) in patients taking isotretinoin for cystic...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>acne (disease) (100.0%)</li>
 <li>severe nonproliferative diabetic retinopathy (100.0%)</li>

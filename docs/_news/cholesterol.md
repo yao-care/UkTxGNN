@@ -3,7 +3,7 @@ layout: default
 title: "Cholesterol News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Cholesterol. Original indication: . 10 predicted indications."
+description: "Health news related to Cholesterol. Original indication: he TxGNN model predicts it may be associated with .... 10 predicted indications."
 permalink: /news/cholesterol/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Cholesterol with the latest 
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be associated with **homozygous familial hypercholesterolaemia (HoFH)**, but there are **no registered clinical trials** and **17 publications**, none of which tests...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>homozygous familial hypercholesterolemia (98.8%)</li>
 <li>multiple endocrine neoplasia (98.7%)</li>

@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Clobazam with the latest hea
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>febrile infection-related epilepsy syndrome (99.8%)</li>
 <li>perioral myoclonia with absences (99.8%)</li>

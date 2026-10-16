@@ -3,7 +3,7 @@ layout: default
 title: "Camphor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Camphor. Original indication: . 10 predicted indications."
+description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be useful for **mig.... 10 predicted indications."
 permalink: /news/camphor/
 ---
 
@@ -24,7 +24,8 @@ This page combines the AI-predicted indications for Camphor with the latest heal
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
-<li><strong>Evidence level</strong>: L5</li>
+<li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case reports and a case series, with no efficacy data)...</li>
+<li><strong>Evidence level</strong>: L4</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>migraine disorder (99.8%)</li>
 <li>migraine with brainstem aura (99.8%)</li>

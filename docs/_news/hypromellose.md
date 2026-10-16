@@ -24,6 +24,7 @@ This page combines the AI-predicted indications for Hypromellose with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>hepatic veno-occlusive disease-immunodeficiency syndrome (98.3%)</li>
 <li>pancytopenia due to IKZF1 mutations (98.2%)</li>

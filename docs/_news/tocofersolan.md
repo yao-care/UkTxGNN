@@ -3,7 +3,7 @@ layout: default
 title: "Tocofersolan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tocofersolan. Original indication: . 10 predicted indications."
+description: "Health news related to Tocofersolan. Original indication: A link to amenorrhoea is speculative. Vitamin E ha.... 10 predicted indications."
 permalink: /news/tocofersolan/
 ---
 
@@ -24,6 +24,8 @@ This page combines the AI-predicted indications for Tocofersolan with the latest
 <div class="drug-info-card">
 <strong>Drug Information</strong>
 <ul>
+<li><strong>Original indication</strong>: A link to amenorrhoea is speculative. Vitamin E has been loosely discussed in relation to reproductive hormone balance and oxidative stress, but no mechanism has been established for this drug. The...</li>
+<li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
 <li>amenorrhea (disease) (99.3%)</li>
 <li>acne (disease) (99.0%)</li>
