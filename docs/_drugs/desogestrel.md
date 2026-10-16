@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Desogestrel: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not available in the data compiled for this report (the 75 mcg tablet…"
+monitor_inn: "Desogestrel"
+predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "acne (disease)", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 ---
 
 # Desogestrel

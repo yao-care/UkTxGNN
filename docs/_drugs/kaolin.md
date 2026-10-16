@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Kaolin: predicted new indication Thrombotic disease (evidence level L5). Approved use: Not recorded in the data compiled for this report"
+monitor_inn: "Kaolin"
+predicted_indications: ["thrombotic disease", "bronchitis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "vein disease", "thrombophilia", "interventricular septum aneurysm", "Jeune syndrome situs inversus", "heart disease"]
 ---
 
 # Kaolin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Xylitol: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the compiled data"
+monitor_inn: "xylitol"
+predicted_indications: ["meningococcal infection"]
 ---
 
 # Xylitol

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Teicoplanin: predicted new indication Bacterial arthritis (evidence level L3). Approved use: Staphylococcal infection"
+monitor_inn: "Teicoplanin"
+predicted_indications: ["bacterial arthritis", "visceral leishmaniasis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament", "sacrum chordoma", "disease of retroperitoneum", "disease of peritoneum"]
 ---
 
 # Teicoplanin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Phenothrin: predicted new indication Aleutian mink disease (evidence level L5). Approved use: Scabies, Norwegian scabies, mite infestation"
+monitor_inn: "Phenothrin"
+predicted_indications: ["aleutian mink disease", "feline panleukopenia", "variola minor infection", "benign neoplasm of tongue", "epiglottis neoplasm", "benign neoplasm of hypopharynx", "nasal cavity inverting papilloma", "trochlear nerve neoplasm", "spinal accessory nerve neoplasm", "facial nerve neoplasm"]
 ---
 
 # Phenothrin

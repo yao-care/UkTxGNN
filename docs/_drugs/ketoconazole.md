@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ketoconazole: predicted new indication Acne (evidence level L4). Approved use: Fungal and yeast skin infections (for example tinea pedis…"
+monitor_inn: "Ketoconazole"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole

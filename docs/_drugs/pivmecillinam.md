@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pivmecillinam: predicted new indication Bronchitis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Pivmecillinam"
+predicted_indications: ["bronchitis", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombotic disease", "severe nonproliferative diabetic retinopathy", "rheumatoid arthritis", "thrombophilia", "diabetic retinopathy", "laryngotracheitis"]
 ---
 
 # Pivmecillinam

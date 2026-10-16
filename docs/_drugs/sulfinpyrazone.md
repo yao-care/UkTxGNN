@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfinpyrazone: predicted new indication Renal hypouricaemia (evidence level L5). Approved use: Hyperuricaemia"
+monitor_inn: "Sulfinpyrazone"
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "neonatal epileptic encephalopathy due to glutaminase deficiency", "genetic otorhinolaryngological malformation", "disorder of phenylalanine metabolism", "idiopathic bilateral vestibulopathy", "semicircular canal dehiscence syndrome", "familial nasal acilia", "juvenile nasopharyngeal angiofibroma (disease)"]
 ---
 
 # Sulfinpyrazone

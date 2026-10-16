@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Oxandrolone: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not available in the compiled data"
+monitor_inn: "Oxandrolone"
+predicted_indications: ["breast fibrocystic disease", "pituitary hormone defiency from vascular origin", "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome", "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations"]
 ---
 
 # Oxandrolone

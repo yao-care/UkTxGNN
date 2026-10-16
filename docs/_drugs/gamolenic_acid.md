@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Gamolenic Acid: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Gamolenic acid"
+predicted_indications: ["insomnia (disease)", "anxiety", "sleep disorder, initiating and maintaining sleep", "rheumatoid arthritis", "agoraphobia", "anxiety disorder", "alcohol withdrawal delirium", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "benign paroxysmal torticollis of infancy", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Gamolenic Acid

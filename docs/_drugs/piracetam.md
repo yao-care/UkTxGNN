@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Piracetam: predicted new indication Osteoarthritis (evidence level L5). Approved use: Myoclonus, in combination with other anti-myoclonic therapies"
+monitor_inn: "Piracetam"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "hepatic porphyria", "gout", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "hepatopulmonary syndrome"]
 ---
 
 # Piracetam

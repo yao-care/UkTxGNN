@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Uveitis, iris disease, ciliary body disease, panuveitis"
+monitor_inn: "Rimexolone"
+predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 ---
 
 # Rimexolone

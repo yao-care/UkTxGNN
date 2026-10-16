@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Benperidol: predicted new indication Insomnia (evidence level L5). Approved use: Antisocial personality disorder"
+monitor_inn: "Benperidol"
+predicted_indications: ["insomnia (disease)", "juvenile onset Parkinson disease 19A", "acute intermittent porphyria", "sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "atypical juvenile parkinsonism", "hereditary late onset Parkinson disease", "PLA2G6-associated neurodegeneration", "specific developmental disorder", "attention deficit hyperactivity disorder, inattentive type"]
 ---
 
 # Benperidol

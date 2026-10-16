@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L4). Approved use: Vertigo of central nervous system origin"
+monitor_inn: "dimenhydrinate"
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Dimenhydrinate

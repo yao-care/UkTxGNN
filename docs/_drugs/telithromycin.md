@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Telithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection"
+monitor_inn: "Telithromycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "septicemic plague", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 ---
 
 # Telithromycin

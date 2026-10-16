@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Acetarsol: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). Approved use: Amoebiasis (amoebiasis due to Entamoeba histolytica)"
+monitor_inn: "Acetarsol"
+predicted_indications: ["leishmaniasis, diffuse cutaneous", "mucocutaneous leishmaniasis", "X-linked lymphoproliferative syndrome", "type 2 diabetes nephropathy", "streptococcal pneumonia", "squamous cell lung carcinoma", "Legionnaires' disease", "rete ovarii cystadenoma", "ovarian benign neoplasm", "ovarian papillary cystadenoma"]
 ---
 
 # Acetarsol

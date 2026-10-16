@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Retapamulin: predicted new indication Hordeolum (evidence level L5). Approved use: Impetigo, bullous impetigo"
+monitor_inn: "Retapamulin"
+predicted_indications: ["hordeolum", "staphylococcal scalded skin syndrome", "cysticercosis", "esophageal candidiasis", "coenurosis", "intestinal helminthiasis", "fascioliasis", "candidiasis, invasive", "congenital candidiasis", "neonatal candidiasis"]
 ---
 
 # Retapamulin

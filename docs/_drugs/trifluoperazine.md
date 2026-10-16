@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Schizophrenia, anxiety"
+monitor_inn: "Trifluoperazine"
+predicted_indications: ["manic bipolar affective disorder"]
 ---
 
 # Trifluoperazine

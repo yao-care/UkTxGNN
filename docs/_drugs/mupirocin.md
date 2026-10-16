@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mupirocin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L3). Approved use: Impetigo"
+monitor_inn: "Mupirocin"
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
 ---
 
 # Mupirocin

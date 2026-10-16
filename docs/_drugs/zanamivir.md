@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
+monitor_inn: "Zanamivir"
+predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "disorder of phenylalanine metabolism", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "dengue virus, susceptibility to", "aspergillosis, susceptibility to", "legionnaire disease, susceptibility to", "susceptibility to HIV infection", "Schistosoma mansoni infection, susceptibility"]
 ---
 
 # Zanamivir

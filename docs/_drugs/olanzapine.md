@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Olanzapine: predicted new indication Agoraphobia (evidence level L3). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
+monitor_inn: "Olanzapine"
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
 ---
 
 # Olanzapine

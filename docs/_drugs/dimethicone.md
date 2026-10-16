@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dimethicone: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the data compiled for this report (the UK product is a…"
+monitor_inn: "Dimethicone"
+predicted_indications: ["insomnia (disease)", "mature cataract", "immature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Dimethicone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tocofersolan: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Tocofersolan"
+predicted_indications: ["amenorrhea (disease)", "acne (disease)", "malignant catarrh", "infectious bovine rhinotracheitis", "conjunctivitis", "cytomegalovirus infection", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "roseolovirus infectious disease", "peripheral arterial disease"]
 ---
 
 # Tocofersolan

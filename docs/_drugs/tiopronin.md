@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Cystinuria"
+monitor_inn: "Tiopronin"
+predicted_indications: ["renal tubular acidosis", "adult polyglucosan body disease", "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form", "tricarboxylic acid cycle disorder", "disease of transporter activity", "pyruvate metabolism disorder", "inborn disorder of fatty acid oxidation and ketone body metabolism", "glycogen storage disease due to glycogen branching enzyme deficiency, adult neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, childhood neuromuscular form"]
 ---
 
 # Tiopronin

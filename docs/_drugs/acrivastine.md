@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Acrivastine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis"
+monitor_inn: "Acrivastine"
+predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
 ---
 
 # Acrivastine

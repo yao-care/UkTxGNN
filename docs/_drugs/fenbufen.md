@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fenbufen: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the data compiled for this report"
+monitor_inn: "Fenbufen"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "pseudoachondroplasia", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "rheumatoid arthritis", "gout", "arthropathy"]
 ---
 
 # Fenbufen

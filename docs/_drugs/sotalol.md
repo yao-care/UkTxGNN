@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Sotalol: predicted new indication Stroke disorder (highest TxGNN score overall: sick sinus syndrome 2… (evidence level L4). Approved use: Atrial fibrillation"
+monitor_inn: "Sotalol"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
 ---
 
 # Sotalol

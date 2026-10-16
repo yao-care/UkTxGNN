@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the compiled data (the authorisation entry has no ind…"
+monitor_inn: "Nalidixic acid"
+predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
 ---
 
 # Nalidixic Acid

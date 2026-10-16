@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 8
 last_modified_at: 2026-10-15
 description: "Chlorambucil: predicted new indication Chronic lymphocytic leukaemia/small lymphocytic lymphoma with IGHV so… (evidence level L4). Approved use: Hodgkin lymphoma, follicular lymphoma, mature B-cell n…"
+monitor_inn: "Chlorambucil"
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "acute lymphoblastic leukemia (disease)", "small cell lung carcinoma"]
 ---
 
 # Chlorambucil

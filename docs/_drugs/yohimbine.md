@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Yohimbine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the available data"
+monitor_inn: "Yohimbine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
 ---
 
 # Yohimbine

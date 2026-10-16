@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dihydrotachysterol: predicted new indication Renal osteodystrophy (evidence level L5). Approved use: Hypercalcaemia disease, nephrocalcinosis…"
+monitor_inn: "Dihydrotachysterol"
+predicted_indications: ["obsolete vitamin D deficiency", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets", "renal osteodystrophy", "vitamin D-dependent rickets", "impaired renal function disease", "non-renal secondary hyperparathyroidism"]
 ---
 
 # Dihydrotachysterol

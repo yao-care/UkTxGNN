@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L5). Approved use: Atopic, papillary and vernal conjunctivitis"
+monitor_inn: "ketorolac"
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

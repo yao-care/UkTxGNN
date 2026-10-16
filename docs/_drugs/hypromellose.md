@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Hypromellose: predicted new indication Hepatic veno-occlusive disease-immunodeficiency syndrome (evidence level L5). Approved use: Not stated in the licence data (ocular lubrication is the product's …"
+monitor_inn: "Hypromellose"
+predicted_indications: ["hepatic veno-occlusive disease-immunodeficiency syndrome", "pancytopenia due to IKZF1 mutations", "hepatic veno-occlusive disease", "combined immunodeficiency due to CRAC channel dysfunction", "absent thumb-short stature-immunodeficiency syndrome", "facial dysmorphism-immunodeficiency-livedo-short stature syndrome", "immuno-osseous dysplasia", "psoriasis", "autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis", "human herpesvirus 8-related tumor"]
 ---
 
 # Hypromellose

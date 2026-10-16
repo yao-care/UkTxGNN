@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
+monitor_inn: "Orlistat"
+predicted_indications: ["hypervitaminosis"]
 ---
 
 # Orlistat

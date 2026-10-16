@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Meptazinol: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the available authorisation data"
+monitor_inn: "Meptazinol"
+predicted_indications: ["insomnia (disease)", "neurocirculatory asthenia", "irritable bowel syndrome", "anxiety disorder", "anxiety", "sleep disorder, initiating and maintaining sleep", "agoraphobia", "dysthymic disorder", "benign paroxysmal torticollis of infancy", "enterocolitis (disease)"]
 ---
 
 # Meptazinol

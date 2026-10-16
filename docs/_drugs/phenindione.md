@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Phenindione: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the UK licence data"
+monitor_inn: "Phenindione"
+predicted_indications: ["thrombotic disease"]
 ---
 
 # Phenindione

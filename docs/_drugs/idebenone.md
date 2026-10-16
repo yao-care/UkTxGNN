@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Leber hereditary optic neuropathy"
+monitor_inn: "Idebenone"
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
 ---
 
 # Idebenone

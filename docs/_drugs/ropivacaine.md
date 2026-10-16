@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ropivacaine: predicted new indication Myofascial pain syndrome (highest-scoring candidate overall: migraine… (evidence level L3). Approved use: Not stated in the data compiled for this report (ropiva…"
+monitor_inn: "Ropivacaine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder", "fibromyalgia", "myofascial pain syndrome", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "bronchitis"]
 ---
 
 # Ropivacaine

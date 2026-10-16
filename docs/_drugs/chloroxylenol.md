@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Chloroxylenol: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licensing data compiled for this report (known use:…"
+monitor_inn: "Chloroxylenol"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "hepatic porphyria", "gout", "pseudoachondroplasia", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension"]
 ---
 
 # Chloroxylenol

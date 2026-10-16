@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Hydroquinone"
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease", "seborrheic dermatitis", "vulvar squamous neoplasm", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus", "acrodermatitis chronica atrophicans"]
 ---
 
 # Hydroquinone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Nefopam: predicted new indication Mature cataract . The only prediction with literature is lumbar spina… (evidence level L5). Approved use: Not stated in the data compiled for this report (nefopam is…"
+monitor_inn: "Nefopam"
+predicted_indications: ["mature cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 ---
 
 # Nefopam

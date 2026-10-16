@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Benzbromarone: predicted new indication Hypouricaemia, renal (evidence level L5). Approved use: Gout"
+monitor_inn: "Benzbromarone"
+predicted_indications: ["hypouricemia, renal"]
 ---
 
 # Benzbromarone

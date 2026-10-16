@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the data compiled for this report (olmesartan is an ARB…"
+monitor_inn: "Olmesartan"
+predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 ---
 
 # Olmesartan

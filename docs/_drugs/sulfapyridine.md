@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfapyridine: predicted new indication Heparin-induced thrombocytopenia (evidence level L5). Approved use: Dermatitis herpetiformis"
+monitor_inn: "Sulfapyridine"
+predicted_indications: ["heparin-induced thrombocytopenia (disease)", "hereditary angioedema", "hereditary angioedema with C1Inh deficiency", "acquired aplastic anemia", "C1 inhibitor deficiency", "autoimmune hemolytic anemia", "serpinopathy with toxic serpin polymerization", "disorder of GPI anchor biosynthesis", "hemoglobinuria", "venous insufficiency (disease)"]
 ---
 
 # Sulfapyridine

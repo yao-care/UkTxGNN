@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lormetazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the dru…"
+monitor_inn: "Lormetazepam"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Lormetazepam

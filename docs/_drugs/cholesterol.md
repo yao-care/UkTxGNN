@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cholesterol: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Cholesterol"
+predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease", "primary release disorder of platelets", "HER2 positive breast carcinoma", "infectious bovine rhinotracheitis", "malignant catarrh", "cytomegalovirus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Cholesterol

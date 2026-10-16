@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ethanolamine Oleate: predicted new indication Oesophageal disease (evidence level L3). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Ethanolamine oleate"
+predicted_indications: ["non-syndromic esophageal malformation", "primary release disorder of platelets", "thrombocytopenia due to immune destruction", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "esophageal disease", "severe nonproliferative diabetic retinopathy", "Scott syndrome", "neonatal thrombocytopenia", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
 ---
 
 # Ethanolamine Oleate

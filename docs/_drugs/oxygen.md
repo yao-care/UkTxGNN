@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxygen: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the data compiled for this report"
+monitor_inn: "Oxygen"
+predicted_indications: ["dry eye syndrome", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "non-syndromic esophageal malformation", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "amyopathic dermatomyositis", "esophageal disease"]
 ---
 
 # Oxygen

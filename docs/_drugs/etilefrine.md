@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Etilefrine: predicted new indication Alopecia (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Etilefrine"
+predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "benign prostatic hyperplasia (disease)", "osteoarthritis", "headache disorder", "phaeochromocytoma", "sympathetic paraganglioma", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etilefrine

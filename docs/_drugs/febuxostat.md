@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Febuxostat: predicted new indication Renal hypouricaemia (evidence level L4). Approved use: Hyperuricaemia"
+monitor_inn: "Febuxostat"
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 ---
 
 # Febuxostat

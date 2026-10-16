@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Apraclonidine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+monitor_inn: "Apraclonidine"
+predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Apraclonidine

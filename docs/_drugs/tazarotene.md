@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tazarotene: predicted new indication Seborrhoeic dermatitis (evidence level L5). Approved use: Psoriasis, parapsoriasis, acne"
+monitor_inn: "Tazarotene"
+predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 ---
 
 # Tazarotene

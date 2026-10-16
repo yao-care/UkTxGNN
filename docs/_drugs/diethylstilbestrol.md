@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Diethylstilbestrol: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the licence data"
+monitor_inn: "Diethylstilbestrol"
+predicted_indications: ["amenorrhea (disease)", "acne (disease)", "breast fibrocystic disease"]
 ---
 
 # Diethylstilbestrol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tolfenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Acute migraine"
+monitor_inn: "Tolfenamic acid"
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
 ---
 
 # Tolfenamic Acid

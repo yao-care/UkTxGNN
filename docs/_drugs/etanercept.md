@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-15
 description: "Etanercept: predicted new indication Rheumatoid vasculitis (evidence level L4). Approved use: Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis…"
+monitor_inn: "Etanercept"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
 ---
 
 # Etanercept

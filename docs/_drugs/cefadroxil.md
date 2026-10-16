@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefadroxil: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, tonsillitis, streptococcal infection…"
+monitor_inn: "Cefadroxil"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "Ureaplasma urethritis", "gonococcal urethritis", "septicemic plague"]
 ---
 
 # Cefadroxil

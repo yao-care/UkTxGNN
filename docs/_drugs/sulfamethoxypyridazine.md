@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Sulfamethoxypyridazine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the licence data compiled for this report (classed as a…"
+monitor_inn: "Sulfamethoxypyridazine"
+predicted_indications: ["gout", "allergic asthma", "diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "intrinsic asthma", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "Raynaud disease", "type 1 diabetes mellitus", "bronchitis", "chronic kidney disease"]
 ---
 
 # Sulfamethoxypyridazine

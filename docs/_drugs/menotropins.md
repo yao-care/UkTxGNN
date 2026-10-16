@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Menotropins: predicted new indication Peptic esophagitis (evidence level L5). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Menotropins"
+predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia syndrome", "esophageal disease", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal ulcer", "His bundle tachycardia", "sinoatrial block", "progressive familial heart block", "sinoatrial node disease"]
 ---
 
 # Menotropins

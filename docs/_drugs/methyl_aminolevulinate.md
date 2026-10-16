@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Methyl Aminolevulinate: predicted new indication Acne (disease). Rank 1 by score was hereditary haemochromatosis… (evidence level L5). Approved use: Not stated in the data compiled for this report (t…"
+monitor_inn: "methyl aminolevulinate"
+predicted_indications: ["hereditary hemochromatosis", "seborrheic keratosis", "acne (disease)", "vulvar inverted follicular keratosis", "psoriasis", "common wart", "drug-induced osteoporosis", "pityriasis lichenoides", "Wilson disease", "iron metabolism disease"]
 ---
 
 # Methyl Aminolevulinate

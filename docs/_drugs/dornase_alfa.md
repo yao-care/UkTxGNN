@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Dornase Alfa: predicted new indication Fryns Smeets Thiry syndrome (evidence level L5). Approved use: Cystic fibrosis"
+monitor_inn: "Dornase alfa"
+predicted_indications: ["Fryns Smeets Thiry syndrome", "Fryns Fabry Remans syndrome", "congenital nervous system disorder", "Flinders island spotted fever", "frontonasal dysplasia phocomelic upper limbs", "frontonasal dysplasia Klippel feil syndrome", "frontonasal malformation cloacal exstrophy", "central nervous system origin vertigo", "sensory peripheral neuropathy", "galactorrhoea-hyperprolactinaemia"]
 ---
 
 # Dornase Alfa

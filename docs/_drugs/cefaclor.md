@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefaclor: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, tonsillitis, streptococcal infection…"
+monitor_inn: "Cefaclor"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "Ureaplasma urethritis", "gonococcal urethritis", "congenital analbuminemia", "blood group incompatibility", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "premalignant hematological system disease", "monoclonal gammopathy"]
 ---
 
 # Cefaclor

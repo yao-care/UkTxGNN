@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Oxitriptan: predicted new indication Insomnia (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Oxitriptan"
+predicted_indications: ["insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "anxiety", "neurocirculatory asthenia", "anxiety disorder", "agoraphobia", "irritable bowel syndrome", "benign paroxysmal torticollis of infancy", "juvenile onset Parkinson disease 19A", "dysthymic disorder"]
 ---
 
 # Oxitriptan

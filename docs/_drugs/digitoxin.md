@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Digitoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the available licence data"
+monitor_inn: "Digitoxin"
+predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "thrombotic disease", "multiple endocrine neoplasia", "homozygous familial hypercholesterolemia", "gout", "brachydactyly-syndactyly syndrome", "hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Digitoxin

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Emedastine: predicted new indication Allergic urticaria (evidence level L2). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
+monitor_inn: "Emedastine"
+predicted_indications: ["allergic urticaria", "cold urticaria"]
 ---
 
 # Emedastine

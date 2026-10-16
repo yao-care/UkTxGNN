@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Eletriptan: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Migraine disorder (migraine with or without aura)"
+monitor_inn: "Eletriptan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 ---
 
 # Eletriptan

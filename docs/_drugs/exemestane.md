@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Exemestane: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not available in the UK authorisation data compiled for this report (…"
+monitor_inn: "Exemestane"
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura", "acne (disease)", "migraine with or without aura, susceptibility to", "breast fibrocystic disease"]
 ---
 
 # Exemestane

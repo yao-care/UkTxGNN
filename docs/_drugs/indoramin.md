@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Indoramin: predicted new indication Benign prostatic hyperplasia (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (the…"
+monitor_inn: "Indoramin"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
 ---
 
 # Indoramin

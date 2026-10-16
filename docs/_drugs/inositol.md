@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not stated in the UK authorisation record"
+monitor_inn: "inositol"
+predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "congestive heart failure", "hyperlipoproteinemia", "acute pulmonary heart disease", "glycogen storage disease due to hepatic glycogen synthase deficiency"]
 ---
 
 # Inositol

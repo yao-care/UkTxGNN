@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Inosine Pranobex: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Inosine pranobex"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "hepatic porphyria", "pseudoachondroplasia", "gout", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome"]
 ---
 
 # Inosine Pranobex

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
 description: "Nizatidine: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, peptic ulcer disease…"
+monitor_inn: "Nizatidine"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "duodenal obstruction", "duodenogastric reflux", "gastroduodenitis", "multiple endocrine neoplasia"]
 ---
 
 # Nizatidine

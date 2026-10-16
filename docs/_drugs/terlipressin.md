@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Terlipressin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the data compiled for this report"
+monitor_inn: "Terlipressin"
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder", "hyperthyroidism", "glaucoma", "trigeminal autonomic cephalalgia"]
 ---
 
 # Terlipressin
