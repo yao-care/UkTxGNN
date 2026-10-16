@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (general use:…"
 ---
 
 # Alfentanil

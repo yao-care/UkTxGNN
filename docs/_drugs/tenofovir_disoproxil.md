@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 ---
 
 # Tenofovir Disoproxil

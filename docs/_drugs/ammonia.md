@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Ammonia: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Psoriasis, parapsoriasis, acne, seborrhoeic dermatitis…"
 ---
 
 # Ammonia

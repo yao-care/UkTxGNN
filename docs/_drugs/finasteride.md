@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 289
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Finasteride: predicted new indication Hypertrichosis (evidence level L4). Approved use: Benign prostatic hyperplasia"
 ---
 
 # Finasteride

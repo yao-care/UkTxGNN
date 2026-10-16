@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 540
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Rifabutin: predicted new indication HIV infectious disease (in practice… (evidence level L1). Approved use: Not stated in the UK licence data compiled for this report"
 ---
 
 # Rifabutin

@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Taurolidine: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
 # Taurolidine

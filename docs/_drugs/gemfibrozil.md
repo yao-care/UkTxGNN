@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Gemfibrozil: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Hypertriglyceridaemia"
 ---
 
 # Gemfibrozil

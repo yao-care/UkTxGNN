@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 360
 evidence_level: L2
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Lamotrigine: predicted new indication Trigeminal neuralgia (evidence level L2). Approved use: Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome)"
 ---
 
 # Lamotrigine

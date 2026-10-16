@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Zafirlukast: predicted new indication Bronchitis (evidence level L5). Approved use: Asthma (including intrinsic and allergic asthma). The UK authorisatio…"
 ---
 
 # Zafirlukast

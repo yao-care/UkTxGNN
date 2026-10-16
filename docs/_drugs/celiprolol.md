@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 0
+last_modified_at: 2026-09-17
+description: "Celiprolol: predicted new indication None returned by TxGNN in current dataset (evidence level L5). Approved use: Not established in UK regulatory data"
 ---
 
 # Celiprolol

@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Sertraline: predicted new indication Schizotypal personality disorder (evidence level L4). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 ---
 
 # Sertraline

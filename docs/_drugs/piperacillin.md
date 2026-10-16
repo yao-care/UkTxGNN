@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-15
+description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report (piperacillin is a…"
 ---
 
 # Piperacillin

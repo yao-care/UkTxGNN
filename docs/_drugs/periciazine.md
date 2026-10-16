@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-15
+description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Schizophrenia and other psychoses"
 ---
 
 # Periciazine

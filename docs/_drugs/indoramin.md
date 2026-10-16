@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 337
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Indoramin: predicted new indication Benign prostatic hyperplasia (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (the…"
 ---
 
 # Indoramin

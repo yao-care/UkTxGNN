@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 554
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ropivacaine: predicted new indication Myofascial pain syndrome (highest-scoring candidate overall: migraine… (evidence level L3). Approved use: Not stated in the data compiled for this report (ropiva…"
 ---
 
 # Ropivacaine

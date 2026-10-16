@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not stated in the UK authorisation data. The knowledge graph lists ur…"
 ---
 
 # Tetracycline

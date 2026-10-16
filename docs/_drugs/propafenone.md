@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-15
+description: "Propafenone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Atrial fibrillation"
 ---
 
 # Propafenone

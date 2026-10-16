@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-15
+description: "Lansoprazole: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Gastric ulcer, peptic ulcer disease…"
 ---
 
 # Lansoprazole

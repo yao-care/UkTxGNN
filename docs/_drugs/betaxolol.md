@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 1
+last_modified_at: 2026-10-15
+description: "Betaxolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension (hypertension is also lis…"
 ---
 
 # Betaxolol

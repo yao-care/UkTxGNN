@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report (marketed as a priloc…"
 ---
 
 # Felypressin

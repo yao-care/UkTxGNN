@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-15
+description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L5). Approved use: Major depressive disorder, unipolar and endogenous depression…"
 ---
 
 # Citalopram

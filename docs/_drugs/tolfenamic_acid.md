@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Tolfenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Acute migraine"
 ---
 
 # Tolfenamic Acid

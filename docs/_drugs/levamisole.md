@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Levamisole: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Ascariasis and hookworm infection (ancylostomiasis)"
 ---
 
 # Levamisole

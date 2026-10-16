@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 282
 evidence_level: L1
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Fenofibrate: predicted new indication Hyperlipoproteinaemia (evidence level L1). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
 # Fenofibrate

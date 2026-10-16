@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Memantine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 ---
 
 # Memantine

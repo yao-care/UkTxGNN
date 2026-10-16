@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 124
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-15
+description: "Calcitriol: predicted new indication Vitamin D deficiency (obsolete ontology term) (evidence level L5). Approved use: Hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders…"
 ---
 
 # Calcitriol

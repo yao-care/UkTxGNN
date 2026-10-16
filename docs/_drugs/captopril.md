@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 130
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-15
+description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension, hypertensive disorder and diabetic nephropathy"
 ---
 
 # Captopril

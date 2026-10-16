@@ -5,6 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Ciprofibrate: predicted new indication Hyperlipoproteinaemia (evidence level L3). Approved use: Hypertriglyceridaemia"
 ---
 
 # Ciprofibrate

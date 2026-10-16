@@ -5,6 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-15
+description: "Activated Charcoal: predicted new indication Jeune syndrome situs inversus (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
 # Activated Charcoal
