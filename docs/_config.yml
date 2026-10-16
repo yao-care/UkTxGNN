@@ -17,6 +17,14 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-feed
+
+# RSS Feed
+feed:
+  path: feed.xml
+  collections:
+    drugs:
+      path: "/drugs/feed.xml"
 
 # Build settings
 markdown: kramdown
