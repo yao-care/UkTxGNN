@@ -35,6 +35,9 @@ collections:
   drugs:
     output: true
     permalink: /drugs/:name/
+  news:
+    output: true
+    permalink: /news/:name/
 
 # Defaults
 defaults:
