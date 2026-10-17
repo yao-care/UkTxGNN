@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Haemosiderosis and beta-thalassaemia-related haemoglobinopathies"
 monitor_inn: "Deferiprone"
-predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "beta-thalassemia with other manifestations", "pyropoikilocytosis, hereditary"]
+predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 ---
 
 # Deferiprone

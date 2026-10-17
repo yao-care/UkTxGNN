@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Permethrin: predicted new indication Trombiculiasis (evidence level L4). Approved use: Scabies, Norwegian scabies, mite infestation, and head…"
 monitor_inn: "Permethrin"
-predicted_indications: ["trombiculiasis", "lip neoplasm", "lower lip fistula", "anisakiasis", "toxascariasis", "toxocariasis", "herpes labialis", "punctate epithelial keratoconjunctivitis", "nasopharyngitis", "tonsillitis"]
+predicted_indications: ["lip neoplasm", "lower lip fistula", "anisakiasis", "toxascariasis", "toxocariasis", "herpes labialis", "punctate epithelial keratoconjunctivitis", "nasopharyngitis", "tonsillitis"]
 ---
 
 # Permethrin

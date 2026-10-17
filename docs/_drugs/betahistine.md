@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Betahistine: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Meniere disease"
 monitor_inn: "Betahistine"
-predicted_indications: ["restless legs syndrome", "active cochlear Meniere disease", "active cochleovestibular Meniere disease", "active vestibular Meniere disease", "otosclerosis", "peripheral vertigo", "age-related hearing impairment", "vertigo, benign recurrent, 2", "autosomal recessive hyperinsulinism due to Kir6.2 deficiency", "hyperinsulinemic hypoglycemia, familial"]
+predicted_indications: ["restless legs syndrome", "otosclerosis", "age-related hearing impairment", "vertigo, benign recurrent, 2", "autosomal recessive hyperinsulinism due to Kir6.2 deficiency", "hyperinsulinemic hypoglycemia, familial"]
 ---
 
 # Betahistine

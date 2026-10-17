@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Cefixime: predicted new indication Gonococcal urethritis (evidence level L3). Approved use: Urinary tract infection, bronchitis, tonsillitis, otitis media…"
 monitor_inn: "Cefixime"
-predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis", "epiglottitis", "laryngotracheitis", "urogenital tuberculosis", "tracheal disease", "hyperamylasemia"]
+predicted_indications: ["Ureaplasma urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "laryngitis", "epiglottitis", "laryngotracheitis", "urogenital tuberculosis", "tracheal disease", "hyperamylasemia"]
 ---
 
 # Cefixime

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Esomeprazole: predicted new indication Duodenogastric reflux (evidence level L4). Approved use: Peptic ulcer disease, GORD, oesophagitis, Zollinger-Ellison syndrome"
 monitor_inn: "Esomeprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Esomeprazole

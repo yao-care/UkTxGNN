@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fluoxetine: predicted new indication Schizoid personality disorder (evidence level L4). Approved use: Depression and related mood disorders, anxiety disorder…"
 monitor_inn: "Fluoxetine"
-predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants", "melancholia"]
+predicted_indications: ["schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants"]
 ---
 
 # Fluoxetine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Ciprofibrate: predicted new indication Hyperlipoproteinaemia (evidence level L3). Approved use: Hypertriglyceridaemia"
 monitor_inn: "Ciprofibrate"
-predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "hyperlipidemia", "homozygous familial hypercholesterolemia", "familial hyperlipidemia", "fibroma of prostate", "prostate cancer/brain cancer susceptibility"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "homozygous familial hypercholesterolemia", "fibroma of prostate", "prostate cancer/brain cancer susceptibility"]
 ---
 
 # Ciprofibrate

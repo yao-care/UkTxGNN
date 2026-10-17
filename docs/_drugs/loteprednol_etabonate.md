@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Loteprednol Etabonate: predicted new indication Conjunctival folliculosis (evidence level L5). Approved use: Uveitis, atopic, vernal and papillary conjunctivitis…"
 monitor_inn: "Loteprednol etabonate"
-predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "rosacea conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+predicted_indications: ["conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 ---
 
 # Loteprednol Etabonate

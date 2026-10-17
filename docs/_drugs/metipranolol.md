@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Metipranolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension"
 monitor_inn: "Metipranolol"
-predicted_indications: ["primary hereditary glaucoma", "glaucoma 1, open angle", "closed-angle glaucoma"]
+predicted_indications: ["primary hereditary glaucoma", "closed-angle glaucoma"]
 ---
 
 # Metipranolol

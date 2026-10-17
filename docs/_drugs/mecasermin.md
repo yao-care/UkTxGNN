@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Growth hormone insensitivity syndrome"
 monitor_inn: "Mecasermin"
-predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "esophageal varices with bleeding", "esophageal varices without bleeding", "autosomal ichthyosis syndrome with fatal disease course", "Gaucher disease", "varicose disease", "congenital pulmonary lymphangiectasia", "cholesteryl ester storage disease"]
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding", "autosomal ichthyosis syndrome with fatal disease course", "Gaucher disease", "varicose disease", "congenital pulmonary lymphangiectasia", "cholesteryl ester storage disease"]
 ---
 
 # Mecasermin
