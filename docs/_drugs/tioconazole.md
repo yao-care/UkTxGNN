@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tioconazole: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Vulvovaginal candidiasis"
 monitor_inn: "Tioconazole"
-predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis", "anogenital human papillomavirus infection", "tinea nigra", "fungal infectious disease", "mycotic corneal ulcer"]
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis", "anogenital human papillomavirus infection", "fungal infectious disease", "mycotic corneal ulcer"]
 ---
 
 # Tioconazole
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

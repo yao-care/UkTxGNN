@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Perampanel: predicted new indication Status epilepticus (evidence level L3). Approved use: Partial epilepsy"
 monitor_inn: "Perampanel"
-predicted_indications: ["visual epilepsy", "micturation-induced seizures", "eating seizures", "orgasm-induced seizures", "startle epilepsy", "thinking seizures", "audiogenic seizures", "reading seizures", "beta-ketothiolase deficiency", "status epilepticus"]
+predicted_indications: ["beta-ketothiolase deficiency"]
 ---
 
 # Perampanel
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

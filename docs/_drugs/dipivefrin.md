@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Dipivefrin: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
-monitor_inn: "dipivefrin"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Dipivefrin
@@ -27,7 +25,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 
