@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "drug_count": 604,
+  "generated": "2026-10-17",
+  "drug_count": 603,
   "indication_count": 1517,
   "drugs": [
     {
@@ -4546,14 +4546,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Celiprolol",
-      "slug": "celiprolol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Certolizumab Pegol",

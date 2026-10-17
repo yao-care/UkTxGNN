@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-16",
-  "total_count": 604,
+  "generated": "2026-10-17",
+  "total_count": 603,
   "source": "UkTxGNN",
   "drugs": [
     {
@@ -1062,16 +1062,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/celecoxib/"
-    },
-    {
-      "slug": "celiprolol",
-      "name": "Celiprolol",
-      "evidence_level": "L5",
-      "indication_count": 0,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/celiprolol/"
     },
     {
       "slug": "certolizumab-pegol",

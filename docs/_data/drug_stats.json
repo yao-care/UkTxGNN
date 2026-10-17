@@ -1,12 +1,12 @@
 {
   "generated": "2026-10-17",
-  "total_drugs": 604,
+  "total_drugs": 603,
   "level_counts": {
     "L1": 26,
     "L2": 23,
     "L3": 45,
     "L4": 108,
-    "L5": 402
+    "L5": 401
   },
   "all_drugs": [
     {
@@ -644,12 +644,6 @@
       "slug": "celecoxib",
       "level": "L1",
       "indication_count": 10
-    },
-    {
-      "name": "Celiprolol",
-      "slug": "celiprolol",
-      "level": "L5",
-      "indication_count": 0
     },
     {
       "name": "Certolizumab Pegol",
