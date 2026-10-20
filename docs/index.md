@@ -5,7 +5,7 @@ title: UkTxGNN - UK Drug Repurposing Predictions
 
 # UkTxGNN
 
-Drug repurposing predictions for the United Kingdom using TxGNN knowledge graph.
+Drug repurposing predictions for the United Kingdom using the TxGNN graph neural network.
 
 ## Overview
 

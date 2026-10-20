@@ -1,6 +1,6 @@
 # UkTxGNN Jekyll Configuration
 title: UkTxGNN - UK Drug Repurposing Predictions
-description: Drug repurposing predictions for the United Kingdom using TxGNN knowledge graph
+description: Drug repurposing predictions for the United Kingdom using the TxGNN graph neural network
 
 url: "https://uktxgnn.yao.care"
 baseurl: ""
