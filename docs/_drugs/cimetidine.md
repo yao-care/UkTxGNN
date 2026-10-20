@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Cimetidine: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, gastro-oesophageal reflux disease…"
 monitor_inn: "Cimetidine"
-predicted_indications: ["duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
+predicted_indications: ["peptic ulcer perforation", "lymphoadenopathic mastocytosis with eosinophilia", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
 ---
 
 # Cimetidine

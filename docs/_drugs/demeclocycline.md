@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-15
 description: "Demeclocycline: predicted new indication Chronic ethmoidal sinusitis (evidence level L5). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Demeclocycline"
-predicted_indications: ["paranasal sinus neoplasm (disease)"]
+predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Demeclocycline
