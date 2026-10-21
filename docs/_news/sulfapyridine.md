@@ -26,16 +26,16 @@ This page combines the AI-predicted indications for Sulfapyridine with the lates
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
 <li><strong>Predicted indications (10)</strong>:<ul>
-<li>heparin-induced thrombocytopenia (disease) (99.9%)</li>
-<li>hereditary angioedema (99.8%)</li>
-<li>hereditary angioedema with C1Inh deficiency (99.8%)</li>
-<li>acquired aplastic anemia (99.8%)</li>
+<li>Heparin-induced thrombocytopenia (99.9%)</li>
+<li>Hereditary angioedema (99.8%)</li>
+<li>Hereditary angioedema with C1Inh deficiency (99.8%)</li>
+<li>Acquired aplastic anaemia (99.8%)</li>
 <li>C1 inhibitor deficiency (99.8%)</li>
-<li>autoimmune hemolytic anemia (99.8%)</li>
-<li>serpinopathy with toxic serpin polymerization (99.8%)</li>
-<li>disorder of GPI anchor biosynthesis (99.7%)</li>
-<li>hemoglobinuria (99.7%)</li>
-<li>venous insufficiency (disease) (99.5%)</li>
+<li>Autoimmune haemolytic anaemia (99.8%)</li>
+<li>Serpinopathy with toxic serpin polymerisation (99.8%)</li>
+<li>Disorder of GPI anchor biosynthesis (99.7%)</li>
+<li>Haemoglobinuria (99.7%)</li>
+<li>Venous insufficiency (99.5%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/sulfapyridine/' | relative_url }}">View full drug report →</a></p>

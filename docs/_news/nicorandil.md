@@ -3,7 +3,7 @@ layout: default
 title: "Nicorandil News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Nicorandil. Original indication: . 10 predicted indications."
+description: "Health news related to Nicorandil. Original indication: . 1 predicted indications."
 permalink: /news/nicorandil/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/nicorandil/
 ---
 
 <p class="key-answer" data-question="What news is there about Nicorandil?">
-<strong>Nicorandil</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Nicorandil</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,17 +25,8 @@ This page combines the AI-predicted indications for Nicorandil with the latest h
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>benign prostatic hyperplasia (disease) (99.7%)</li>
-<li>alopecia (99.6%)</li>
-<li>hypotrichosis simplex of the scalp (99.5%)</li>
-<li>congenital hypotrichosis milia (99.5%)</li>
-<li>diffuse alopecia areata (99.5%)</li>
-<li>osteoarthritis susceptibility (99.4%)</li>
-<li>osteoarthritis (99.4%)</li>
-<li>acromesomelic dysplasia, Hunter-Thompson type (98.9%)</li>
-<li>brachyolmia (98.9%)</li>
-<li>brachyolmia-amelogenesis imperfecta syndrome (98.9%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Benign prostatic hyperplasia (99.7%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/nicorandil/' | relative_url }}">View full drug report →</a></p>

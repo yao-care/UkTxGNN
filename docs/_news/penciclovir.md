@@ -3,7 +3,7 @@ layout: default
 title: "Penciclovir News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Penciclovir. Original indication: . 9 predicted indications."
+description: "Health news related to Penciclovir. Original indication: . 10 predicted indications."
 permalink: /news/penciclovir/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/penciclovir/
 ---
 
 <p class="key-answer" data-question="What news is there about Penciclovir?">
-<strong>Penciclovir</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
+<strong>Penciclovir</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,17 @@ This page combines the AI-predicted indications for Penciclovir with the latest 
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (9)</strong>:<ul>
-<li>Cysticercosis | 98.99% | No credible mechanism (cestode lacks viral TK) (99.0%)</li>
-<li>Coenurosis | 98.75% | No known antiparasitic target (99.0%)</li>
-<li>Intestinal helminthiasis | 98.70% | No anthelmintic activity (99.0%)</li>
-<li>Malignant pleural mesothelioma | 98.51% | Only a speculative viral TK suicide-gene concept (explored with ganciclovir, not penciclovir) (99.0%)</li>
-<li>Endomyometritis | 98.45% | No antibacterial activity (99.0%)</li>
-<li>Malignant epithelioid mesothelioma | 98.40% | Same speculative link as above (99.0%)</li>
-<li>Sarcomatoid mesothelioma | 98.26% | No intrinsic antitumour mechanism (99.0%)</li>
-<li>Synovium cancer | 98.09% | No identified mechanism (99.0%)</li>
-<li>Malignant visceral pleura tumour | 98.03% | Same speculative link as mesothelioma (99.0%)</li>
+<li><strong>Predicted indications (10)</strong>:<ul>
+<li>Fascioliasis (99.1%)</li>
+<li>Cysticercosis (99.0%)</li>
+<li>Coenurosis (98.8%)</li>
+<li>Intestinal helminthiasis (98.7%)</li>
+<li>Malignant pleural mesothelioma (98.5%)</li>
+<li>Endomyometritis (98.5%)</li>
+<li>Malignant epithelioid mesothelioma (98.4%)</li>
+<li>Sarcomatoid mesothelioma (98.3%)</li>
+<li>Synovium cancer (98.1%)</li>
+<li>Malignant visceral pleura tumour (98.0%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/penciclovir/' | relative_url }}">View full drug report →</a></p>

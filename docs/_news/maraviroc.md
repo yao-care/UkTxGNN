@@ -3,7 +3,7 @@ layout: default
 title: "Maraviroc News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Maraviroc. Original indication: he TxGNN model predicts it may be effective for **.... 3 predicted indications."
+description: "Health news related to Maraviroc. Original indication: he TxGNN model predicts it may be effective for **.... 4 predicted indications."
 permalink: /news/maraviroc/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/maraviroc/
 ---
 
 <p class="key-answer" data-question="What news is there about Maraviroc?">
-<strong>Maraviroc</strong> currently has <strong>0 news articles</strong>, with 3 predicted indications.
+<strong>Maraviroc</strong> currently has <strong>0 news articles</strong>, with 4 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,7 +26,8 @@ This page combines the AI-predicted indications for Maraviroc with the latest he
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are **no clinical trials** and **no publications** supporting this prediction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (3)</strong>:<ul>
+<li><strong>Predicted indications (4)</strong>:<ul>
+<li>Multiple endocrine neoplasia (99.8%)</li>
 <li>HER2 positive breast carcinoma (99.2%)</li>
 <li>Cytomegalovirus infection (99.2%)</li>
 <li>Primary cutaneous T-cell lymphoma (99.7%)</li>

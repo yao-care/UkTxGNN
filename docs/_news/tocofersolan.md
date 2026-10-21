@@ -3,7 +3,7 @@ layout: default
 title: "Tocofersolan News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Tocofersolan. Original indication: A link to amenorrhoea is speculative. Vitamin E ha.... 10 predicted indications."
+description: "Health news related to Tocofersolan. Original indication: A link to amenorrhoea is speculative. Vitamin E ha.... 1 predicted indications."
 permalink: /news/tocofersolan/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/tocofersolan/
 ---
 
 <p class="key-answer" data-question="What news is there about Tocofersolan?">
-<strong>Tocofersolan</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Tocofersolan</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Tocofersolan with the latest
 <ul>
 <li><strong>Original indication</strong>: A link to amenorrhoea is speculative. Vitamin E has been loosely discussed in relation to reproductive hormone balance and oxidative stress, but no mechanism has been established for this drug. The...</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>amenorrhea (disease) (99.3%)</li>
-<li>acne (disease) (99.0%)</li>
-<li>malignant catarrh (98.2%)</li>
-<li>infectious bovine rhinotracheitis (98.2%)</li>
-<li>conjunctivitis (97.4%)</li>
-<li>cytomegalovirus infection (97.2%)</li>
-<li>antithrombin deficiency type 2 (97.0%)</li>
-<li>factor 5 excess with spontaneous thrombosis (96.9%)</li>
-<li>roseolovirus infectious disease (96.8%)</li>
-<li>peripheral arterial disease (96.7%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Amenorrhoea (99.3%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/tocofersolan/' | relative_url }}">View full drug report →</a></p>

@@ -3,7 +3,7 @@ layout: default
 title: "Camphor News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be useful for **mig.... 10 predicted indications."
+description: "Health news related to Camphor. Original indication: he TxGNN model predicts it may be useful for **mig.... 1 predicted indications."
 permalink: /news/camphor/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/camphor/
 ---
 
 <p class="key-answer" data-question="What news is there about Camphor?">
-<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Camphor</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Camphor with the latest heal
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be useful for **migraine disorder**, but there are **no registered clinical trials** and only **3 publications** (case reports and a case series, with no efficacy data)...</li>
 <li><strong>Evidence level</strong>: L4</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>migraine disorder (99.8%)</li>
-<li>migraine with brainstem aura (99.8%)</li>
-<li>erectile dysfunction (disease) (99.8%)</li>
-<li>pulmonary hypertension (99.8%)</li>
-<li>migraine with or without aura, susceptibility to (99.7%)</li>
-<li>kyphoscoliotic heart disease (99.7%)</li>
-<li>ulerythema ophryogenesis (99.6%)</li>
-<li>Raynaud disease (99.6%)</li>
-<li>atrophoderma vermiculata (99.5%)</li>
-<li>Tourette syndrome (99.5%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Migraine disorder (99.8%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/camphor/' | relative_url }}">View full drug report →</a></p>

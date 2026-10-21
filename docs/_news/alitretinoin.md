@@ -3,7 +3,7 @@ layout: default
 title: "Alitretinoin News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Alitretinoin. Original indication: . 10 predicted indications."
+description: "Health news related to Alitretinoin. Original indication: . 9 predicted indications."
 permalink: /news/alitretinoin/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/alitretinoin/
 ---
 
 <p class="key-answer" data-question="What news is there about Alitretinoin?">
-<strong>Alitretinoin</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Alitretinoin</strong> currently has <strong>0 news articles</strong>, with 9 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -25,16 +25,15 @@ This page combines the AI-predicted indications for Alitretinoin with the latest
 <strong>Drug Information</strong>
 <ul>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>amenorrhea (disease) (100.0%)</li>
-<li>acne (disease) (99.9%)</li>
-<li>atypical coarctation of aorta (99.9%)</li>
-<li>pregnancy associated osteoporosis (99.8%)</li>
-<li>aortic malformation (99.8%)</li>
-<li>postmenopausal osteoporosis (99.8%)</li>
-<li>autosomal dominant neovascular inflammatory vitreoretinopathy (99.7%)</li>
-<li>breast fibrocystic disease (99.7%)</li>
-<li>benign mammary dysplasia (99.7%)</li>
+<li><strong>Predicted indications (9)</strong>:<ul>
+<li>Acne (see note below on prediction ranking) (99.9%)</li>
+<li>Amenorrhoea (100.0%)</li>
+<li>Atypical coarctation of aorta (99.9%)</li>
+<li>Pregnancy-associated osteoporosis (99.8%)</li>
+<li>Aortic malformation (99.8%)</li>
+<li>Postmenopausal osteoporosis (99.8%)</li>
+<li>Autosomal dominant neovascular inflammatory vitreoretinopathy (99.7%)</li>
+<li>Breast fibrocystic disease / benign mammary dysplasia (99.7%)</li>
 <li>Worth syndrome (99.7%)</li>
 </ul></li>
 </ul>

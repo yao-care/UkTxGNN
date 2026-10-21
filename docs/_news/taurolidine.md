@@ -3,7 +3,7 @@ layout: default
 title: "Taurolidine News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to Taurolidine. Original indication: he TxGNN model predicts it may be effective for **.... 10 predicted indications."
+description: "Health news related to Taurolidine. Original indication: he TxGNN model predicts it may be effective for **.... 1 predicted indications."
 permalink: /news/taurolidine/
 ---
 
@@ -14,7 +14,7 @@ permalink: /news/taurolidine/
 ---
 
 <p class="key-answer" data-question="What news is there about Taurolidine?">
-<strong>Taurolidine</strong> currently has <strong>0 news articles</strong>, with 10 predicted indications.
+<strong>Taurolidine</strong> currently has <strong>0 news articles</strong>, with 1 predicted indications.
 </p>
 
 <div class="key-takeaway">
@@ -26,17 +26,8 @@ This page combines the AI-predicted indications for Taurolidine with the latest 
 <ul>
 <li><strong>Original indication</strong>: he TxGNN model predicts it may be effective for **diabetic cataract**, but there are **0 clinical trials** and **0 publications** supporting this direction.</li>
 <li><strong>Evidence level</strong>: L5</li>
-<li><strong>Predicted indications (10)</strong>:<ul>
-<li>diabetic cataract (98.9%)</li>
-<li>nuclear senile cataract (98.9%)</li>
-<li>cortical cataract (98.9%)</li>
-<li>diabetes mellitus type 2 associated cataract (98.9%)</li>
-<li>craniostenosis cataract (98.9%)</li>
-<li>tetanic cataract (98.9%)</li>
-<li>mature cataract (98.9%)</li>
-<li>immature cataract (98.9%)</li>
-<li>diabetic retinopathy (98.9%)</li>
-<li>senile cataract (98.8%)</li>
+<li><strong>Predicted indications (1)</strong>:<ul>
+<li>Diabetic cataract (98.9%)</li>
 </ul></li>
 </ul>
 <p><a href="{{ '/drugs/taurolidine/' | relative_url }}">View full drug report →</a></p>
