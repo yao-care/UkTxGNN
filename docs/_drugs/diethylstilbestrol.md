@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Diethylstilbestrol: From Unspecified Original Indication to Amenorrhoea
+## Diethylstilbestrol: From Unspecified Original Indication to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

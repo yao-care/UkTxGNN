@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Pramocaine: From Topical Skin and Anorectal Conditions to Papillary Conjunctivitis
+## Pramocaine: From Topical Skin and Anorectal Conditions to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

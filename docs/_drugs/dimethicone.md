@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From an Antifoaming Agent to Insomnia (Predicted)
+## Dimethicone: From an Antifoaming Agent to Insomnia (Predicted)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piracetam: From Myoclonus to Osteoarthritis
+## Piracetam: From Myoclonus to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Ciclosporin: From Rheumatoid Arthritis and Dry Eye Disease to Chronic Granulomatous Disease (Autosomal Recessive)
+## Ciclosporin: From Rheumatoid Arthritis and Dry Eye Disease to Chronic Granulomatous Disease (Autosomal Recessive)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

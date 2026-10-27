@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Exemestane: From Hormone-Receptor-Positive Breast Cancer to Antithrombin Deficiency Type 2
+## Exemestane: From Hormone-Receptor-Positive Breast Cancer to Antithrombin Deficiency Type 2
+{: .text-alpha }
 
 ## One-Sentence Summary
 

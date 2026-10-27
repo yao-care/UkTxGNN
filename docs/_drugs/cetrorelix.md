@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cetrorelix: From Controlled Ovarian Stimulation (Fertility Treatment) to Hypertrichosis
+## Cetrorelix: From Controlled Ovarian Stimulation (Fertility Treatment) to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Saxagliptin (DB06335): Type 2 Diabetes Mellitus — No Repurposing Prediction Available
+## Saxagliptin (DB06335): Type 2 Diabetes Mellitus — No Repurposing Prediction Available
+{: .text-alpha }
 
 ---
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pivmecillinam: From Bacterial Infection (Original Indication Not Recorded) to Bronchitis
+## Pivmecillinam: From Bacterial Infection (Original Indication Not Recorded) to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Strontium Ranelate: From Osteoporosis to Heparin Cofactor 2 Deficiency
+## Strontium Ranelate: From Osteoporosis to Heparin Cofactor 2 Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

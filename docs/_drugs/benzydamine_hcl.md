@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Benzydamine HCL: Repurposing Assessment — Insufficient Data for Full Evaluation
+## Benzydamine HCL: Repurposing Assessment — Insufficient Data for Full Evaluation
+{: .text-alpha }
 
 ---
 

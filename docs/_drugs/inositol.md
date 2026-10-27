@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inositol: From Lipid Disorders and Vitamin-Deficiency Conditions to Idiopathic Copper-Associated Cirrhosis
+## Inositol: From Lipid Disorders and Vitamin-Deficiency Conditions to Idiopathic Copper-Associated Cirrhosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

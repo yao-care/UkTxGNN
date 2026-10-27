@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Amoxicillin: From Bacterial Infections to Hyperamylasaemia
+## Amoxicillin: From Bacterial Infections to Hyperamylasaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

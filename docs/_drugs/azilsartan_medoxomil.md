@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Azilsartan Medoxomil: Repurposing Evaluation — Insufficient Data for Full Assessment
+## Azilsartan Medoxomil: Repurposing Evaluation — Insufficient Data for Full Assessment
+{: .text-alpha }
 
 ---
 

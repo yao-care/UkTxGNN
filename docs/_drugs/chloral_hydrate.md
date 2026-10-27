@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Chloral Hydrate: No Repurposing Candidates Generated — Evidence Pack Incomplete
+## Chloral Hydrate: No Repurposing Candidates Generated — Evidence Pack Incomplete
+{: .text-alpha }
 
 ---
 

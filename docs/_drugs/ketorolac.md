@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Ketorolac: From Allergic Conjunctival Conditions to Headache Disorder
+## Ketorolac: From Allergic Conjunctival Conditions to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

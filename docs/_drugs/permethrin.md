@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Permethrin: From Scabies and Lice Infestations to Trombiculiasis
+## Permethrin: From Scabies and Lice Infestations to Trombiculiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

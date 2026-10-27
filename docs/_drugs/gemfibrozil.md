@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Gemfibrozil: From Hypertriglyceridaemia to Rheumatoid Arthritis
+## Gemfibrozil: From Hypertriglyceridaemia to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

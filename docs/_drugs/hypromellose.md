@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hypromellose: From Ocular Lubrication to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
+## Hypromellose: From Ocular Lubrication to Hepatic Veno-Occlusive Disease-Immunodeficiency Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

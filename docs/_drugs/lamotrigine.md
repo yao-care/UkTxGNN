@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **9**
 
 </div>
 
-# Lamotrigine: From Epilepsy to Trigeminal Neuralgia
+## Lamotrigine: From Epilepsy to Trigeminal Neuralgia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

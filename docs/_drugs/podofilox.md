@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Podofilox: From Anogenital Warts to Vulvovaginal Candidiasis
+## Podofilox: From Anogenital Warts to Vulvovaginal Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

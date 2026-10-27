@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluphenazine: From Schizophrenia and Related Psychotic Disorders to Retinal Dystrophy (With or Without Extraocular Anomalies)
+## Fluphenazine: From Schizophrenia and Related Psychotic Disorders to Retinal Dystrophy (With or Without Extraocular Anomalies)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

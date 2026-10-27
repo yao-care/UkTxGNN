@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Hydroquinone: From Pigmentary Disorders to Seborrheic Keratosis
+## Hydroquinone: From Pigmentary Disorders to Seborrheic Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

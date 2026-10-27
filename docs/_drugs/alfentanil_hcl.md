@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alfentanil HCL: No TxGNN Repurposing Predictions Generated
+## Alfentanil HCL: No TxGNN Repurposing Predictions Generated
+{: .text-alpha }
 
 ---
 

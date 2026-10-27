@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Telithromycin: From Streptococcal Infection to Hyperamylasemia
+## Telithromycin: From Streptococcal Infection to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

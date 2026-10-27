@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Benzocaine: From Tinea Pedis and Dermatitis to Papillary Conjunctivitis
+## Benzocaine: From Tinea Pedis and Dermatitis to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

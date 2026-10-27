@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fenbufen: From Musculoskeletal Pain and Inflammation to Osteoarthritis
+## Fenbufen: From Musculoskeletal Pain and Inflammation to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

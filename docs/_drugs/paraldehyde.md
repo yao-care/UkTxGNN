@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Paraldehyde: From an Unspecified Original Indication to Irritable Bowel Syndrome
+## Paraldehyde: From an Unspecified Original Indication to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Eucalyptus Oil: From an Unspecified Original Indication to Osteoarthritis
+## Eucalyptus Oil: From an Unspecified Original Indication to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

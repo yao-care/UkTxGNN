@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Sotalol: From Atrial Fibrillation to Stroke Disorder
+## Sotalol: From Atrial Fibrillation to Stroke Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

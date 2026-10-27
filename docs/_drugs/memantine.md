@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Memantine: From Dementia Treatment to Migraine Disorder
+## Memantine: From Dementia Treatment to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

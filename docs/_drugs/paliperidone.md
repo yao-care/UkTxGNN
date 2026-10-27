@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy (Top Model Prediction)
+## Paliperidone: From Schizophrenia to Retinal Dystrophy (Top Model Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

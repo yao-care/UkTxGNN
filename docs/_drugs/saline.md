@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# SALINE: Drug Repurposing Evaluation — Insufficient Data for Assessment
+## SALINE: Drug Repurposing Evaluation — Insufficient Data for Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Meptazinol: From Opioid Analgesia to Insomnia
+## Meptazinol: From Opioid Analgesia to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

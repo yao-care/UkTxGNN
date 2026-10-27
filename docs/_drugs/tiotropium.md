@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Tiotropium: From Bronchitis and Asthma to Obstructive Lung Disease
+## Tiotropium: From Bronchitis and Asthma to Obstructive Lung Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

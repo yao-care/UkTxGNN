@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Estriol: From Menopausal Vasomotor Symptoms to Amenorrhoea
+## Estriol: From Menopausal Vasomotor Symptoms to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

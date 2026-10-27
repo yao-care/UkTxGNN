@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-# Dimenhydrinate: From Vertigo and Motion Sickness to Allergic Urticaria
+## Dimenhydrinate: From Vertigo and Motion Sickness to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

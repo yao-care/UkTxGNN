@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefpodoxime: From Bacterial Infection to Osteoarthritis Susceptibility
+## Cefpodoxime: From Bacterial Infection to Osteoarthritis Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

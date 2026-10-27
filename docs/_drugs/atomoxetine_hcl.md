@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Atomoxetine Hydrochloride: Repurposing Evaluation — Insufficient Evidence Pack Data
+## Atomoxetine Hydrochloride: Repurposing Evaluation — Insufficient Evidence Pack Data
+{: .text-alpha }
 
 ---
 

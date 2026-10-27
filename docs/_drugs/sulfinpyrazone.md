@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfinpyrazone: From Hyperuricaemia to Renal Hypouricaemia
+## Sulfinpyrazone: From Hyperuricaemia to Renal Hypouricaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

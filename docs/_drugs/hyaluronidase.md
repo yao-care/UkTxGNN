@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hyaluronidase: From Adjunct Use to Diabetic Retinopathy
+## Hyaluronidase: From Adjunct Use to Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Felbamate: From Epilepsy to Trigeminal Nerve Neoplasm (with Trigeminal Neuralgia as a Closer Alternative)
+## Felbamate: From Epilepsy to Trigeminal Nerve Neoplasm (with Trigeminal Neuralgia as a Closer Alternative)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Candesartan Cilexetil: From Hypertension to Malignant Renovascular Hypertension
+## Candesartan Cilexetil: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

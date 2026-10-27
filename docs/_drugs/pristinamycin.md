@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pristinamycin: From Bacterial Infection to Urethral Disease
+## Pristinamycin: From Bacterial Infection to Urethral Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trimetazidine: From Angina Pectoris to Endolymphatic Hydrops (Ménière's Disease)
+## Trimetazidine: From Angina Pectoris to Endolymphatic Hydrops (Ménière's Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

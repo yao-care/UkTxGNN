@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ropivacaine HCL: Local Anaesthetic — No TxGNN Repurposing Prediction Available
+## Ropivacaine HCL: Local Anaesthetic — No TxGNN Repurposing Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

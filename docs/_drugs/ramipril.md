@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramipril: From Hypertension to Pulmonary Hypertension (Prediction-Only)
+## Ramipril: From Hypertension to Pulmonary Hypertension (Prediction-Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

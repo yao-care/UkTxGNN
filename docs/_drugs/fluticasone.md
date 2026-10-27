@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Fluticasone: From Respiratory Disease (Inhaled Combination Products) to Migraine Disorder
+## Fluticasone: From Respiratory Disease (Inhaled Combination Products) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Betahistine HCl: Evidence Pack Incomplete — Repurposing Assessment Pending
+## Betahistine HCl: Evidence Pack Incomplete — Repurposing Assessment Pending
+{: .text-alpha }
 
 ---
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Aspirin: Evaluation Report — Evidence Pack Incomplete, Re-generation Required
+## Aspirin: Evaluation Report — Evidence Pack Incomplete, Re-generation Required
+{: .text-alpha }
 
 ---
 

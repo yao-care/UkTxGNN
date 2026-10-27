@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ciprofibrate: From Hypertriglyceridaemia to Hyperlipoproteinaemia
+## Ciprofibrate: From Hypertriglyceridaemia to Hyperlipoproteinaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

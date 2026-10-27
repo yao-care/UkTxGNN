@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Celiprolol: Drug Repurposing Evaluation — No Predictions Generated
+## Celiprolol: Drug Repurposing Evaluation — No Predictions Generated
+{: .text-alpha }
 
 ## One-Sentence Summary
 

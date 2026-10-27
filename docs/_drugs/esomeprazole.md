@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-# Esomeprazole: From Acid-Related Upper GI Disorders to Duodenogastric Reflux
+## Esomeprazole: From Acid-Related Upper GI Disorders to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Buspirone HCl: Generalised Anxiety Disorder — Repurposing Evaluation Incomplete
+## Buspirone HCl: Generalised Anxiety Disorder — Repurposing Evaluation Incomplete
+{: .text-alpha }
 
 ## One-Sentence Summary
 

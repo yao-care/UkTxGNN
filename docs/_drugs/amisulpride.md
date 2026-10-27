@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amisulpride (DB06288): Drug Repurposing Candidate — Evaluation Incomplete
+## Amisulpride (DB06288): Drug Repurposing Candidate — Evaluation Incomplete
+{: .text-alpha }
 
 ## One-Sentence Summary
 

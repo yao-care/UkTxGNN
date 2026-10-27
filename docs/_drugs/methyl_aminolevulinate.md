@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Aminolevulinate: From Its Licensed Dermatological Use to Acne (Disease)
+## Methyl Aminolevulinate: From Its Licensed Dermatological Use to Acne (Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

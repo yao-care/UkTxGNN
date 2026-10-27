@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Periciazine: From Psychotic Disorders to Migraine Disorder
+## Periciazine: From Psychotic Disorders to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

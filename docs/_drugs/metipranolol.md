@@ -31,7 +31,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Metipranolol: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Metipranolol: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

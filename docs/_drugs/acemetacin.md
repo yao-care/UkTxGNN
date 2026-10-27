@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Acemetacin: From Rheumatological Conditions to Osteoarthritis Susceptibility
+## Acemetacin: From Rheumatological Conditions to Osteoarthritis Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

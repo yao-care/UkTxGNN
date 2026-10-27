@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Naproxen: From Musculoskeletal and Pain Conditions to Brachydactyly-Syndactyly Syndrome
+## Naproxen: From Musculoskeletal and Pain Conditions to Brachydactyly-Syndactyly Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

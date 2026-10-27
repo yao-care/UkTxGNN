@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Danazol: From Endometriosis to Amenorrhoea
+## Danazol: From Endometriosis to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyclizine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
+## Cyclizine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

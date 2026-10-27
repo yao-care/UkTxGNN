@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dienogest: From Hormonal Contraception/Gynaecological Use to Amenorrhoea
+## Dienogest: From Hormonal Contraception/Gynaecological Use to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

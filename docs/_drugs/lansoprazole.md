@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Lansoprazole: From Acid-Related Upper Gastrointestinal Disease to Duodenogastric Reflux
+## Lansoprazole: From Acid-Related Upper Gastrointestinal Disease to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

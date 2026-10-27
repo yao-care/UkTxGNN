@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Rosiglitazone: From Type 2 Diabetes Mellitus — No TxGNN Predictions Available
+## Rosiglitazone: From Type 2 Diabetes Mellitus — No TxGNN Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

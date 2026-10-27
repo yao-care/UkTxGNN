@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Perampanel: From Partial Epilepsy to Status Epilepticus
+## Perampanel: From Partial Epilepsy to Status Epilepticus
+{: .text-alpha }
 
 ## One-Sentence Summary
 

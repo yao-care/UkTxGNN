@@ -31,7 +31,8 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-# Emedastine: From Allergic Conjunctivitis to Allergic Urticaria
+## Emedastine: From Allergic Conjunctivitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

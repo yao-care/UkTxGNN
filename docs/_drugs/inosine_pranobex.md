@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inosine Pranobex: From an Immunomodulatory Agent to Osteoarthritis (Prediction Only)
+## Inosine Pranobex: From an Immunomodulatory Agent to Osteoarthritis (Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

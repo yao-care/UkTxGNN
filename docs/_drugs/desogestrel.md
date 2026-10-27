@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Desogestrel: From Contraception to Amenorrhoea
+## Desogestrel: From Contraception to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

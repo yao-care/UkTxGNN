@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ciclosporin: Drug Repurposing Evaluation — Insufficient Data for Assessment
+## Ciclosporin: Drug Repurposing Evaluation — Insufficient Data for Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pramipexole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit Hyperactivity Disorder
+## Pramipexole: From Parkinson Disease and Restless Legs Syndrome to Attention Deficit Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

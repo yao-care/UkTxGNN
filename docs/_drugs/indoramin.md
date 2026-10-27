@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Indoramin: From Hypertension to Benign Prostatic Hyperplasia
+## Indoramin: From Hypertension to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

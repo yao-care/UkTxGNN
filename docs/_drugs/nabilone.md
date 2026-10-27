@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nabilone: From Chemotherapy-Induced Nausea and Vomiting to Migraine Disorder
+## Nabilone: From Chemotherapy-Induced Nausea and Vomiting to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

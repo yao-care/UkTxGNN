@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clobazam: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome (FIRES)
+## Clobazam: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome (FIRES)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Benzydamine: From Locally Acting Anti-inflammatory Use to Benign Prostatic Hyperplasia
+## Benzydamine: From Locally Acting Anti-inflammatory Use to Benign Prostatic Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

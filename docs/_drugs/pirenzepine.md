@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-# Pirenzepine: From Peptic Ulcer Disease to Gastroduodenitis
+## Pirenzepine: From Peptic Ulcer Disease to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

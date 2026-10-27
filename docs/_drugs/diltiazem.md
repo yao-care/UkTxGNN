@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Diltiazem: From Hypertension and Cardiac Arrhythmia to Susceptibility to Ischaemic Stroke (Obsolete Term)
+## Diltiazem: From Hypertension and Cardiac Arrhythmia to Susceptibility to Ischaemic Stroke (Obsolete Term)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

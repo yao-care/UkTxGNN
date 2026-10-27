@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lormetazepam: From Insomnia to Insomnia (Sleep Initiation and Maintenance Disorders)
+## Lormetazepam: From Insomnia to Insomnia (Sleep Initiation and Maintenance Disorders)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Menotropins: From Gonadotropin Therapy to Peptic Esophagitis
+## Menotropins: From Gonadotropin Therapy to Peptic Esophagitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

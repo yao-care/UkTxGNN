@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cinacalcet: Drug Repurposing Evaluation Report — No Predicted Indications Available
+## Cinacalcet: Drug Repurposing Evaluation Report — No Predicted Indications Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

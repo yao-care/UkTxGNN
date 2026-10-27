@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Mupirocin: From Impetigo to Staphylococcal Scalded Skin Syndrome
+## Mupirocin: From Impetigo to Staphylococcal Scalded Skin Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

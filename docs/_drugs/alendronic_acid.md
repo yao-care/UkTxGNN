@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alendronic Acid: Drug Repurposing Evaluation — No Candidate Indications Identified
+## Alendronic Acid: Drug Repurposing Evaluation — No Candidate Indications Identified
+{: .text-alpha }
 
 ## One-Sentence Summary
 

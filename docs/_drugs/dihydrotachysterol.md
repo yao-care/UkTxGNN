@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dihydrotachysterol: From Hypoparathyroidism and Rickets to Renal Osteodystrophy
+## Dihydrotachysterol: From Hypoparathyroidism and Rickets to Renal Osteodystrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

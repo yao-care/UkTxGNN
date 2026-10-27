@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Salmeterol: From Asthma and Emphysema to Bronchitis
+## Salmeterol: From Asthma and Emphysema to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

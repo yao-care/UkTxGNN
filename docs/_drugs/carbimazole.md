@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Carbimazole: From Hyperthyroidism to Neonatal Thyrotoxicosis
+## Carbimazole: From Hyperthyroidism to Neonatal Thyrotoxicosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

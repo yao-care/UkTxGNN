@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capsaicin: From Neuralgia to Otitis Externa
+## Capsaicin: From Neuralgia to Otitis Externa
+{: .text-alpha }
 
 ## One-Sentence Summary
 

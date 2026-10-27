@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-# Chenodeoxycholic Acid: From Gallstones (Cholelithiasis) to Homozygous Familial Hypercholesterolaemia
+## Chenodeoxycholic Acid: From Gallstones (Cholelithiasis) to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulthiame: From an Unspecified Original Indication to Cauda Equina Syndrome
+## Sulthiame: From an Unspecified Original Indication to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

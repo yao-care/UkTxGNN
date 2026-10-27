@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetarsol: From Amoebiasis to Diffuse Cutaneous Leishmaniasis
+## Acetarsol: From Amoebiasis to Diffuse Cutaneous Leishmaniasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

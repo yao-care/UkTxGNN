@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Felypressin: From Local Anaesthetic Adjunct to Drug-Induced Osteoporosis
+## Felypressin: From Local Anaesthetic Adjunct to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

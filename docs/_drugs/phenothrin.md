@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenothrin: From Scabies to Aleutian Mink Disease
+## Phenothrin: From Scabies to Aleutian Mink Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

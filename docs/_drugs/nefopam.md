@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nefopam: From Analgesia to Lumbar Spinal Stenosis (Perioperative Pain)
+## Nefopam: From Analgesia to Lumbar Spinal Stenosis (Perioperative Pain)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

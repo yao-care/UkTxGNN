@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-# Chlorambucil: From Hodgkin Lymphoma and B-cell Malignancies to Chronic Lymphocytic Leukaemia Subtypes
+## Chlorambucil: From Hodgkin Lymphoma and B-cell Malignancies to Chronic Lymphocytic Leukaemia Subtypes
+{: .text-alpha }
 
 ## One-Sentence Summary
 

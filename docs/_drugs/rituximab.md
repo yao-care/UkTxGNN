@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Rituximab: Evaluation On Hold — Evidence Pack Critically Incomplete
+## Rituximab: Evaluation On Hold — Evidence Pack Critically Incomplete
+{: .text-alpha }
 
 ## One-Sentence Summary
 

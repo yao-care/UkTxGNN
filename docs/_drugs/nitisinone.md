@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitisinone: From Tyrosinaemia to Renal Tubular Acidosis
+## Nitisinone: From Tyrosinaemia to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Lenograstim: From Neutropenia Support to Primary Release Disorder of Platelets
+## Lenograstim: From Neutropenia Support to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Taurolidine: From an Unspecified Original Indication to Diabetic Cataract
+## Taurolidine: From an Unspecified Original Indication to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

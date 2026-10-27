@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methadone: From Opioid Dependence to Tourette Syndrome
+## Methadone: From Opioid Dependence to Tourette Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

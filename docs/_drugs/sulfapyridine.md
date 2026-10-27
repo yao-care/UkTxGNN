@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfapyridine: From Dermatitis Herpetiformis to Heparin-Induced Thrombocytopenia
+## Sulfapyridine: From Dermatitis Herpetiformis to Heparin-Induced Thrombocytopenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

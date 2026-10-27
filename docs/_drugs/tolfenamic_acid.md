@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolfenamic Acid: From Migraine to Headache Disorder
+## Tolfenamic Acid: From Migraine to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

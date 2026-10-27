@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-# Tazarotene: From Psoriasis to Seborrhoeic Dermatitis
+## Tazarotene: From Psoriasis to Seborrhoeic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

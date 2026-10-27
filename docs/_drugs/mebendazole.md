@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mebendazole: From Intestinal Worm Infections to Acne
+## Mebendazole: From Intestinal Worm Infections to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

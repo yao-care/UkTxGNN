@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alitretinoin: From Severe Chronic Hand Eczema to Acne
+## Alitretinoin: From Severe Chronic Hand Eczema to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

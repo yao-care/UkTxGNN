@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Busulfan: From Marketed Oral Alkylating Agent to Myelodysplastic Syndrome
+## Busulfan: From Marketed Oral Alkylating Agent to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

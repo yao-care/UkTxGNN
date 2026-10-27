@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-# Cysteine: From Respiratory and Amyloid-Related Indications to Dry Eye Syndrome
+## Cysteine: From Respiratory and Amyloid-Related Indications to Dry Eye Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

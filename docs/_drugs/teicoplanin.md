@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Teicoplanin: From Staphylococcal Infection to Bacterial Arthritis
+## Teicoplanin: From Staphylococcal Infection to Bacterial Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

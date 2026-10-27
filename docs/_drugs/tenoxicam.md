@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tenoxicam: From Arthritic Joint Disease to Rheumatoid Arthritis
+## Tenoxicam: From Arthritic Joint Disease to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

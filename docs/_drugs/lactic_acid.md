@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lactic Acid: From an Unspecified Original Indication to Atypical Coarctation of Aorta
+## Lactic Acid: From an Unspecified Original Indication to Atypical Coarctation of Aorta
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Scopolamine (Hyoscine): From Motion Sickness and Antimuscarinic Indications to Cauda Equina Syndrome
+## Scopolamine (Hyoscine): From Motion Sickness and Antimuscarinic Indications to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

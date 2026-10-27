@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Calcitriol: From Mineral Metabolism Disorders to Vitamin D Deficiency
+## Calcitriol: From Mineral Metabolism Disorders to Vitamin D Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

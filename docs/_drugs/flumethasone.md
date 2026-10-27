@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flumethasone: From Inflammatory Skin Conditions to Alopecia Areata
+## Flumethasone: From Inflammatory Skin Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

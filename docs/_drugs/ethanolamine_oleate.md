@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ethanolamine Oleate: From Variceal Sclerotherapy to Oesophageal Disease
+## Ethanolamine Oleate: From Variceal Sclerotherapy to Oesophageal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

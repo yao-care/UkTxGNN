@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Nicardipine: From Hypertension to Pulmonary Hypertension (Multifactorial Mechanism)
+## Nicardipine: From Hypertension to Pulmonary Hypertension (Multifactorial Mechanism)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

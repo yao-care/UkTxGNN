@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Azelastine HCl: Evidence Pack Incomplete — Indicative Report Only
+## Azelastine HCl: Evidence Pack Incomplete — Indicative Report Only
+{: .text-alpha }
 
 > ⚠️ **Important Notice**: This Evidence Pack is critically incomplete. The `predicted_indications` array is empty, meaning TxGNN has not returned any repurposing predictions for this drug. The following report reflects only what could be extracted from the available data. **This report should not be used for any clinical or commissioning decision.**
 

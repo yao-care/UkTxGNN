@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Retapamulin: From Impetigo to Hordeolum
+## Retapamulin: From Impetigo to Hordeolum
+{: .text-alpha }
 
 ## One-Sentence Summary
 

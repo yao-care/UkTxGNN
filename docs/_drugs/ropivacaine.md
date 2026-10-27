@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ropivacaine: From Local Anaesthesia to Myofascial Pain Syndrome
+## Ropivacaine: From Local Anaesthesia to Myofascial Pain Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

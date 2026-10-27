@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Epinastine: From Atopic Conjunctivitis to Rosacea Conjunctivitis
+## Epinastine: From Atopic Conjunctivitis to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

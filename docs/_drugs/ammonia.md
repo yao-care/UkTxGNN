@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-# Ammonia: From Dermatological Conditions (Psoriasis, Acne, Seborrhoeic Dermatitis) to Acrodermatitis Chronica Atrophicans
+## Ammonia: From Dermatological Conditions (Psoriasis, Acne, Seborrhoeic Dermatitis) to Acrodermatitis Chronica Atrophicans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

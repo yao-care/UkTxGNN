@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Oxandrolone: From an Unspecified Original Indication to Breast Fibrocystic Disease
+## Oxandrolone: From an Unspecified Original Indication to Breast Fibrocystic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfamethoxypyridazine: From Bacterial Infection to Gout (Top Prediction)
+## Sulfamethoxypyridazine: From Bacterial Infection to Gout (Top Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

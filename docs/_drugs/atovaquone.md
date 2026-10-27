@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Atovaquone (DB01117): Drug Repurposing Evaluation — Critical Data Gaps Identified
+## Atovaquone (DB01117): Drug Repurposing Evaluation — Critical Data Gaps Identified
+{: .text-alpha }
 
 ## One-Sentence Summary
 

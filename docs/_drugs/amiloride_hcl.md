@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amiloride HCL: Repurposing Evaluation — Evidence Pack Incomplete, No Prediction Generated
+## Amiloride HCL: Repurposing Evaluation — Evidence Pack Incomplete, No Prediction Generated
+{: .text-alpha }
 
 ---
 

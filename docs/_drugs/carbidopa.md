@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Carbidopa: Drug Repurposing Evaluation — No New Indications Predicted
+## Carbidopa: Drug Repurposing Evaluation — No New Indications Predicted
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-# Phenindione: From Anticoagulation (Indication Not Recorded) to Thrombotic Disease
+## Phenindione: From Anticoagulation (Indication Not Recorded) to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

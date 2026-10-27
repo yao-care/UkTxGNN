@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Verapamil: From Hypertension and Arrhythmia to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+## Verapamil: From Hypertension and Arrhythmia to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

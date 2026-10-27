@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Cetirizine HCl: Repurposing Evaluation — TxGNN Predictions Not Yet Available
+## Cetirizine HCl: Repurposing Evaluation — TxGNN Predictions Not Yet Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

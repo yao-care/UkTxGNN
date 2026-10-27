@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Digitoxin: From Cardiac Indications to Prinzmetal Angina
+## Digitoxin: From Cardiac Indications to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

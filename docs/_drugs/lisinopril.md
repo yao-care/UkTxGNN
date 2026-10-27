@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Lisinopril: From Hypertension to Posterolateral Myocardial Infarction
+## Lisinopril: From Hypertension to Posterolateral Myocardial Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

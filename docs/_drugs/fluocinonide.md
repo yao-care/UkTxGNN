@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Fluocinonide: From Dermatitis and Inflammatory Skin Conditions to Alopecia Areata
+## Fluocinonide: From Dermatitis and Inflammatory Skin Conditions to Alopecia Areata
+{: .text-alpha }
 
 ## One-Sentence Summary
 

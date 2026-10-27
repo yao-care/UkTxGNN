@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Orphenadrine: From Parkinsonian Disorder to Schizophrenia
+## Orphenadrine: From Parkinsonian Disorder to Schizophrenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

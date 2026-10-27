@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma Subtypes
+## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma Subtypes
+{: .text-alpha }
 
 ## One-Sentence Summary
 

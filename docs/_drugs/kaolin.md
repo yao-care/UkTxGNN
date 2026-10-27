@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Kaolin: From an Unspecified Original Indication to Thrombotic Disease
+## Kaolin: From an Unspecified Original Indication to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

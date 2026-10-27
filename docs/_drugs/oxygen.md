@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxygen: From Medical Oxygen Therapy to Dermatitis
+## Oxygen: From Medical Oxygen Therapy to Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

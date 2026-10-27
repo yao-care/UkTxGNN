@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Folic Acid: From Folic Acid Deficiency Anaemia to Biotin Metabolic Disease
+## Folic Acid: From Folic Acid Deficiency Anaemia to Biotin Metabolic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

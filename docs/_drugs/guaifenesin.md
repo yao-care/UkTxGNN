@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Guaifenesin: From Upper Respiratory Tract Symptoms to Nasal Cavity Disease
+## Guaifenesin: From Upper Respiratory Tract Symptoms to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

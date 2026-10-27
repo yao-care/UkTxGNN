@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benperidol: From Antisocial Personality Disorder to Insomnia
+## Benperidol: From Antisocial Personality Disorder to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

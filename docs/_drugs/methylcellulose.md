@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methylcellulose: From Bulk-Forming Laxative to Osteoarthritis
+## Methylcellulose: From Bulk-Forming Laxative to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

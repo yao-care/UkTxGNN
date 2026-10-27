@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Chlorpromazine HCl: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+## Chlorpromazine HCl: Drug Repurposing Evaluation — Insufficient Data for Full Assessment
+{: .text-alpha }
 
 ---
 

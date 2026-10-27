@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Clotrimazole: From Superficial Fungal Infections to Vulvovaginitis
+## Clotrimazole: From Superficial Fungal Infections to Vulvovaginitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

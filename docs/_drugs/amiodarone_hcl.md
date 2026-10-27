@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amiodarone HCL: Antiarrhythmic Agent – Repurposing Assessment Incomplete
+## Amiodarone HCL: Antiarrhythmic Agent – Repurposing Assessment Incomplete
+{: .text-alpha }
 
 ---
 

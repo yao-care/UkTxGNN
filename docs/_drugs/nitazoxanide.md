@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nitazoxanide: From Giardiasis and Cryptosporidiosis to Polyclonal Hyperviscosity Syndrome
+## Nitazoxanide: From Giardiasis and Cryptosporidiosis to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

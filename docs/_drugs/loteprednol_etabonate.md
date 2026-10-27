@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Loteprednol Etabonate: From Uveitis and Allergic Conjunctivitis to Conjunctival Folliculosis
+## Loteprednol Etabonate: From Uveitis and Allergic Conjunctivitis to Conjunctival Folliculosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

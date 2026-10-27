@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **7**
 
 </div>
 
-# Fenofibrate: From Hyperlipidaemia to Hyperlipoproteinaemia
+## Fenofibrate: From Hyperlipidaemia to Hyperlipoproteinaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

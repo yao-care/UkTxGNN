@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Phylloquinone: From Osteoporosis to Renal Tubular Acidosis
+## Phylloquinone: From Osteoporosis to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

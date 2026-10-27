@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perphenazine: From Schizophrenia to Retinal Dystrophy (Prediction-Only; Anxiety Disorder Is the Best-Supported Alternative)
+## Perphenazine: From Schizophrenia to Retinal Dystrophy (Prediction-Only; Anxiety Disorder Is the Best-Supported Alternative)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

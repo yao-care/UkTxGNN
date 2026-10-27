@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amitriptyline Hydrochloride: Repurposing Evaluation Pending — Critical Data Gaps Identified
+## Amitriptyline Hydrochloride: Repurposing Evaluation Pending — Critical Data Gaps Identified
+{: .text-alpha }
 
 ---
 

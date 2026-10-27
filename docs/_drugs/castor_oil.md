@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Castor Oil: Drug Repurposing Evaluation — No Predictions Available
+## Castor Oil: Drug Repurposing Evaluation — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

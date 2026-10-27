@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **7**
 
 </div>
 
-# Methysergide: From Migraine Prophylaxis to Migraine Disorder (Historical Use, Not a True Repurposing)
+## Methysergide: From Migraine Prophylaxis to Migraine Disorder (Historical Use, Not a True Repurposing)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

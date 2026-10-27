@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tocofersolan: From Vitamin E Supplementation to Amenorrhoea
+## Tocofersolan: From Vitamin E Supplementation to Amenorrhoea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Anakinra: From Rheumatoid Arthritis to Familial Mediterranean Fever
+## Anakinra: From Rheumatoid Arthritis to Familial Mediterranean Fever
+{: .text-alpha }
 
 ## One-Sentence Summary
 

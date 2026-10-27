@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etilefrine: From Hypotension to Alopecia (Top Prediction), with Headache Disorder as the Only Indication Showing Any Evidence
+## Etilefrine: From Hypotension to Alopecia (Top Prediction), with Headache Disorder as the Only Indication Showing Any Evidence
+{: .text-alpha }
 
 ## One-Sentence Summary
 

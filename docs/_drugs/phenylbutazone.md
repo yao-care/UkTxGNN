@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Phenylbutazone: From a Historical NSAID to Rheumatoid Arthritis
+## Phenylbutazone: From a Historical NSAID to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **5**
 
 </div>
 
-# Cyclophosphamide: From Mycosis Fungoides and Other Lymphoid and Solid Cancers to Myeloid Leukaemia
+## Cyclophosphamide: From Mycosis Fungoides and Other Lymphoid and Solid Cancers to Myeloid Leukaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

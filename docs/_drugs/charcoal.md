@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Charcoal: Evidence Pack Incomplete — Repurposing Evaluation Pending
+## Charcoal: Evidence Pack Incomplete — Repurposing Evaluation Pending
+{: .text-alpha }
 
 ## One-Sentence Summary
 

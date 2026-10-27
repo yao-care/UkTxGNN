@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somatotropin: From Pituitary Dwarfism to Middle Ear Neuroendocrine Tumour
+## Somatotropin: From Pituitary Dwarfism to Middle Ear Neuroendocrine Tumour
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-# Aliskiren: From Hypertension to Pulmonary Hypertension (Unclear Multifactorial Mechanism)
+## Aliskiren: From Hypertension to Pulmonary Hypertension (Unclear Multifactorial Mechanism)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tryptophan: From an Unspecified Original Indication to Restless Legs Syndrome
+## Tryptophan: From an Unspecified Original Indication to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

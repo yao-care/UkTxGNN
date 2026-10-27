@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dornase Alfa: From Cystic Fibrosis to Fryns Smeets Thiry Syndrome
+## Dornase Alfa: From Cystic Fibrosis to Fryns Smeets Thiry Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

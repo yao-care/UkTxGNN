@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cefixime: From Urinary Tract and Respiratory Infections to Gonococcal Urethritis
+## Cefixime: From Urinary Tract and Respiratory Infections to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

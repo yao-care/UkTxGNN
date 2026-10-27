@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Ethanol: From No Recorded Original Indication to Migraine Disorder
+## Ethanol: From No Recorded Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

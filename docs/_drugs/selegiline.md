@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-# Selegiline: From Parkinson Disease to Perisylvian Polymicrogyria with Cerebellar Hypoplasia and Arthrogryposis
+## Selegiline: From Parkinson Disease to Perisylvian Polymicrogyria with Cerebellar Hypoplasia and Arthrogryposis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

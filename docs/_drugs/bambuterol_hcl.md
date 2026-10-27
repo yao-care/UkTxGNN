@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Bambuterol HCL: Drug Repurposing Evaluation — No Active Prediction Available
+## Bambuterol HCL: Drug Repurposing Evaluation — No Active Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

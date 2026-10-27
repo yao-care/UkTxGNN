@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Alfentanil: From Anaesthesia and Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Alfentanil: From Anaesthesia and Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Nimodipine: From Subarachnoid Haemorrhage to Homozygous Familial Hypercholesterolaemia
+## Nimodipine: From Subarachnoid Haemorrhage to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

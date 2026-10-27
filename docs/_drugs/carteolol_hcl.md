@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# CARTEOLOL HCL: Drug Repurposing Assessment — Insufficient Evidence Pack for Full Evaluation
+## CARTEOLOL HCL: Drug Repurposing Assessment — Insufficient Evidence Pack for Full Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

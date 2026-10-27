@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Roflumilast: Repurposing Potential Under Review — TxGNN Predictions Pending
+## Roflumilast: Repurposing Potential Under Review — TxGNN Predictions Pending
+{: .text-alpha }
 
 ---
 

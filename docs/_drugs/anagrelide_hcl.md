@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Anagrelide HCL: Evaluation Incomplete — No TxGNN Prediction Generated
+## Anagrelide HCL: Evaluation Incomplete — No TxGNN Prediction Generated
+{: .text-alpha }
 
 ## One-Sentence Summary
 

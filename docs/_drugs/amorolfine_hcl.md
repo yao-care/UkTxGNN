@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amorolfine HCL: No TxGNN Repurposing Predictions Returned
+## Amorolfine HCL: No TxGNN Repurposing Predictions Returned
+{: .text-alpha }
 
 ## One-Sentence Summary
 

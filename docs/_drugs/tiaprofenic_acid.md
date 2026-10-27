@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tiaprofenic Acid: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
+## Tiaprofenic Acid: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

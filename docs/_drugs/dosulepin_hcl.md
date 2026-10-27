@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Dosulepin HCl: Repurposing Assessment on Hold — Critical Data Gaps Prevent Evaluation
+## Dosulepin HCl: Repurposing Assessment on Hold — Critical Data Gaps Prevent Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

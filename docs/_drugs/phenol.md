@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Phenol: From Dermatitis to Acne Keloid
+## Phenol: From Dermatitis to Acne Keloid
+{: .text-alpha }
 
 ## One-Sentence Summary
 

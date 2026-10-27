@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ketoprofen: From Arthropathy and Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ketoprofen: From Arthropathy and Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+{: .text-alpha }
 
 ## One-Sentence Summary
 

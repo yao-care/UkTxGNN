@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Bacterial Infections to Hyperamylasemia (Top-Ranked Prediction)
+## Moxifloxacin: From Bacterial Infections to Hyperamylasemia (Top-Ranked Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

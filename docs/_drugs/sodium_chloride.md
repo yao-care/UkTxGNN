@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Chloride: From an Unspecified Original Indication to Breast Fibrocystic Disease
+## Sodium Chloride: From an Unspecified Original Indication to Breast Fibrocystic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

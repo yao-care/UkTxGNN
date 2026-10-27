@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methionine: From Unspecified Original Indication to Acne (Disease)
+## Methionine: From Unspecified Original Indication to Acne (Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Clarithromycin: From Respiratory and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+## Clarithromycin: From Respiratory and Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Calcipotriol: From Plaque Psoriasis to Seborrheic Keratosis
+## Calcipotriol: From Plaque Psoriasis to Seborrheic Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

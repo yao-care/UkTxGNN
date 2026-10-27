@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cholesterol: From No Recorded Original Indication to Homozygous Familial Hypercholesterolaemia
+## Cholesterol: From No Recorded Original Indication to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

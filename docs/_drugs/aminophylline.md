@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aminophylline: From Respiratory Disease (Original Indication Not Recorded) to Migraine Disorder
+## Aminophylline: From Respiratory Disease (Original Indication Not Recorded) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

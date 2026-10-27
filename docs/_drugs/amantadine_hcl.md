@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amantadine HCL: Drug Repurposing Evaluation — Evidence Pack Incomplete, Assessment on Hold
+## Amantadine HCL: Drug Repurposing Evaluation — Evidence Pack Incomplete, Assessment on Hold
+{: .text-alpha }
 
 ---
 

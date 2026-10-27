@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Asenapine: From Manic Bipolar Disorder and Schizophrenia to Retinal Dystrophy
+## Asenapine: From Manic Bipolar Disorder and Schizophrenia to Retinal Dystrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

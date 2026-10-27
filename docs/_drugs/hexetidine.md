@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hexetidine: From Oral Antiseptic Use to Interventricular Septum Aneurysm
+## Hexetidine: From Oral Antiseptic Use to Interventricular Septum Aneurysm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

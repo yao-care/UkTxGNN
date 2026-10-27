@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Norgestimate: From Acne and Menopausal Conditions to Elevated Plasma Zinc
+## Norgestimate: From Acne and Menopausal Conditions to Elevated Plasma Zinc
+{: .text-alpha }
 
 ## One-Sentence Summary
 

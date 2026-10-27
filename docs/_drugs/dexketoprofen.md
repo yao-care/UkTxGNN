@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexketoprofen: From Pain Management (Indication Not Recorded) to Tendinitis
+## Dexketoprofen: From Pain Management (Indication Not Recorded) to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

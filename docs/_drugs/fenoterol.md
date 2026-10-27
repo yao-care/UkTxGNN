@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-# Fenoterol: From Bronchodilation to Multiple System Atrophy
+## Fenoterol: From Bronchodilation to Multiple System Atrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 
