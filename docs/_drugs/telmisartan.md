@@ -4,17 +4,17 @@ title: Telmisartan
 parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Telmisartan"
-predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
+description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Telmisartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Telmisartan: From Hypertension to Prinzmetal Angina
+## Telmisartan: Prinzmetal angina
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina** with a ve
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (also stroke, cerebrovascular disorder and cerebral infarction in the knowledge graph; the UK licence record gives no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Prinzmetal (vasospastic) angina is caused by episodic coronary artery spasm. Angiotensin II-mediated vasoconstriction and endothelial dysfunction may contribute to this spasm. Telmisartan has been reported to improve endothelial function, which gives a plausible but unproven link.
 
-The very high graph score most likely reflects network proximity to cardiovascular indications rather than clinical evidence. This should be read as a hypothesis, not as support for use.
+The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This should be read as a hypothesis, not as support for use.
 
 ---
 
@@ -106,7 +106,7 @@ Report suspected adverse reactions via the Yellow Card Scheme.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but it rests only on graph proximity and a plausible endothelial and vasoconstriction hypothesis. No trials or publications were found, so this is an L5 prediction.
+The prediction score from the TxGNN model (deep learning) is very high, but it may reflect similarities the model learned between related diseases, not biological evidence, together with a plausible endothelial and vasoconstriction hypothesis. No trials or publications were found, so this is an L5 prediction.
 
 **To proceed, the following is needed:**
 - A systematic literature search for ARBs (including telmisartan) in vasospastic or coronary spasm disorders, together with preclinical or mechanistic work on coronary vasospasm.

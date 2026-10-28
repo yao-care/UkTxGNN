@@ -4,17 +4,17 @@ title: Rufinamide
 parent: Model Prediction Only (L5)
 nav_order: 558
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Rufinamide: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Lennox-Gastaut syndrome"
 monitor_inn: "Rufinamide"
-predicted_indications: ["perioral myoclonia with absences", "trigeminal nerve neoplasm", "renal-hepatic-pancreatic dysplasia"]
+predicted_indications: ["perioral myoclonia with absences"]
+description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rufinamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Rufinamide: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
+## Rufinamide: Perioral myoclonia with absences
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Rufinamide is an antiseizure medication, originally used as add-on treatment for seizures in Lennox-Gastaut syndrome.
-The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
 but **no clinical trials and no publications** were found for this specific prediction, so it rests on the model score alone.
 
 ---
@@ -48,12 +47,12 @@ but **no clinical trials and no publications** were found for this specific pred
 
 | Item | Content |
 |------|------|
-| Original Indication | Lennox-Gastaut syndrome |
-| Predicted New Indication | Febrile infection-related epilepsy syndrome |
-| TxGNN Prediction Score | 99.57% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Perioral myoclonia with absences |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,7 +118,7 @@ The prediction score is very high, but there are no trials or publications for F
 - Review of the licensed UK indication, dosing and safety against the current SmPC
 - A safety plan covering hepatic and haematological monitoring, and interactions with corticosteroids and other antiseizure drugs
 
-**Note on other predictions:** The other candidates in the list also lack trials, and several raise concerns. Perioral myoclonia with absences and atypical childhood epilepsy with centrotemporal spikes carry a risk that sodium channel blockers worsen seizures. Trigeminal nerve neoplasm and renal-hepatic-pancreatic dysplasia look like model artefacts. "Childhood onset epileptic encephalopathy" has the most literature, but this largely reflects the already-licensed Lennox-Gastaut indication. The literature does not directly support extension to other encephalopathies. Small uncontrolled studies in non-LGS encephalopathies (PMIDs 20666837 and 32334364) could be reviewed as a more evidence-based lead than FIRES.
+**Note on other predictions:** The other candidates in the list also lack trials, and several raise concerns. Perioral myoclonia with absences and atypical childhood epilepsy with centrotemporal spikes carry a risk that sodium channel blockers worsen seizures. "Childhood onset epileptic encephalopathy" has the most literature, but this largely reflects the already-licensed Lennox-Gastaut indication. The literature does not directly support extension to other encephalopathies. Small uncontrolled studies in non-LGS encephalopathies (PMIDs 20666837 and 32334364) could be reviewed as a more evidence-based lead than FIRES.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

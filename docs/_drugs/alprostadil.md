@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Alprostadil
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 42
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L4). Approved use: Erectile dysfunction"
 monitor_inn: "Alprostadil"
-predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve agenesis", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
+predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "tricuspid valve agenesis", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 ---
 
 # Alprostadil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **aortic malformation**, but th
 |------|------|
 | Original Indication | Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK authorisation record has no indication text) |
 | Predicted New Indication | Aortic malformation |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -122,7 +122,7 @@ For label warnings and contraindications, refer to the SmPC and BNF. Report susp
 **Decision: Hold (research question only)**
 
 **Rationale:**
-The predicted "aortic malformation" overlaps heavily with alprostadil's established use in ductal-dependent lesions, so it is not a genuinely new indication. There are no registered trials, and the supporting literature consists of case reports, perioperative studies and one preclinical study. The other nine predictions (congenital tricuspid and valvular disorders, heart septal defect, endemic goitre) rest on model scores alone or on weak evidence. Endemic goitre in particular has no plausible mechanism and is likely a knowledge-graph artefact.
+The predicted "aortic malformation" overlaps heavily with alprostadil's established use in ductal-dependent lesions, so it is not a genuinely new indication. There are no registered trials, and the supporting literature consists of case reports, perioperative studies and one preclinical study. The other nine predictions (congenital tricuspid and valvular disorders, heart septal defect, endemic goitre) rest on model scores alone or on weak evidence. Endemic goitre in particular has no plausible mechanism and is likely a TxGNN model (deep learning) artefact.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to support the mechanistic-link analysis

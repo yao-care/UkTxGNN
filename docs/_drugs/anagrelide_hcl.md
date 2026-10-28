@@ -8,6 +8,7 @@ nav_order: 64
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Anagrelide Hcl
@@ -51,8 +52,8 @@ A full repurposing evaluation cannot proceed until the data gaps identified belo
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| UK Market Status | Not found in current dataset (0 authorisations retrieved) |
-| Number of Marketing Authorisations | 0 (as retrieved) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

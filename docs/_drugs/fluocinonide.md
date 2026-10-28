@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Fluocinonide: From Dermatitis and Inflammatory Skin Conditions to Alopecia Areata
+## Fluocinonide: From Dermatitis and Inflammatory Skin Conditions to Alopecia Mucinosa
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ Direct evidence for fluocinonide in the predicted indication is very limited.
 |------|------|
 | Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Alopecia mucinosa (top-ranked); alopecia areata (top-ranked prediction with any supporting evidence) |
-| TxGNN Prediction Score | 99.61% (alopecia mucinosa); 99.59% (alopecia areata) |
+| TxGNN Prediction Score | 0.9961 (alopecia mucinosa); 0.9959 (alopecia areata) |
 | Evidence Level | L5 for alopecia mucinosa (model prediction only); L4 for alopecia areata (indirect evidence only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (alopecia mucinosa); Hold, framed as a research question (alopecia areata) |
 
 ---
@@ -68,7 +68,7 @@ The predicted indications fall mainly into the alopecia group, and their plausib
 - **Alopecia mucinosa (follicular mucinosis)** is an inflammatory follicular disorder. A mechanistic rationale exists and topical corticosteroids are used empirically, but no trials or publications were found.
 - **Folliculitis decalvans** is a neutrophilic scarring alopecia with a bacterial component. Corticosteroids might help as an adjunct, but antibiotics are the primary therapy.
 - **Telogen effluvium** is mainly a non-inflammatory, trigger-driven shedding disorder, so the link to a corticosteroid is weak.
-- **Rare genetic or immunodeficiency syndromes** (hereditary hypotrichosis with recurrent skin vesicles, alopecia antibody deficiency, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome) have no plausible mechanistic link to a topical steroid. Their high scores most likely reflect proximity to other alopecia terms in the knowledge graph.
+- **Rare genetic or immunodeficiency syndromes** (hereditary hypotrichosis with recurrent skin vesicles, alopecia antibody deficiency, alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome) have no plausible mechanistic link to a topical steroid. Their high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related alopecia diseases, not biological evidence.
 
 ---
 

@@ -8,6 +8,7 @@ nav_order: 555
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ropivacaine Hcl
@@ -49,8 +50,8 @@ Ropivacaine HCL is an amide-type local anaesthetic used for regional and epidura
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction only (no prediction generated) |
-| UK Market Status | Not recorded (Evidence Pack shows no marketing authorisations; likely a data collection gap) |
-| Number of Marketing Authorisations | 0 (as recorded in this Evidence Pack) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

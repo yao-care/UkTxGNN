@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Buserelin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 118
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Buserelin: predicted new indication Hypertrichosis (evidence level L4). Approved use: Prostate cancer"
+description: "Buserelin: predicted new indication hypertrichosis (evidence level L4). Approved use: Prostate cancer"
 monitor_inn: "Buserelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis 
 # Buserelin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Buserelin: From Prostate Cancer to Hypertrichosis
+## Buserelin: From Prostate Cancer to hypertrichosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and only **1 publication** (a cas
 |------|------|
 | Original Indication | Prostate cancer (based on pharmacology data; the UK licence record contains no indication text) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,16 +60,16 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 In theory, suppressing androgens could reduce androgen-driven hair growth. However, hypertrichosis is by definition excess hair growth that is *not* androgen-dependent, so this rationale is weak. The only publication found describes Cantu syndrome (a condition featuring hypertrichosis) with hypopituitarism and concerns endocrine monitoring, not treatment with buserelin.
 
-The link is therefore indirect. The high TxGNN score is most likely an artefact of network propagation in the knowledge graph rather than evidence of a therapeutic effect.
+The link is therefore indirect. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a therapeutic effect.
 
 **Other predicted indications (all with no trial or literature support, evidence level L5, Hold):**
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |---|---|---|---|
-| 2 | Ambras type hypertrichosis universalis congenita | 99.69% | Genetic follicular defect (e.g. TRPS1 regulatory rearrangements); no mechanistic connection to GnRH agonism |
-| 3 | Malformation syndrome with odontal and/or periodontal component | 99.66% | Developmental structural anomalies; no plausible mechanism |
-| 4 | Syndrome with a Dandy-Walker malformation as major feature | 99.64% | Congenital brain anomaly that a drug cannot reverse; purely computational prediction |
-| 5 | Isolated genetic hair shaft abnormality | 99.62% | Structural keratin/hair shaft defects not addressed by sex steroid suppression |
+| 2 | Ambras type hypertrichosis universalis congenita | 0.9969 | Genetic follicular defect (e.g. TRPS1 regulatory rearrangements); no mechanistic connection to GnRH agonism |
+| 3 | Malformation syndrome with odontal and/or periodontal component | 0.9966 | Developmental structural anomalies; no plausible mechanism |
+| 4 | Syndrome with a Dandy-Walker malformation as major feature | 0.9964 | Congenital brain anomaly that a drug cannot reverse; purely computational prediction |
+| 5 | Isolated genetic hair shaft abnormality | 0.9962 | Structural keratin/hair shaft defects not addressed by sex steroid suppression |
 
 ## Clinical Trial Evidence
 
@@ -102,7 +102,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and the single publication does not test buserelin. The proposed mechanism is weak because hypertrichosis is not androgen-driven, and the high score likely reflects network proximity in the knowledge graph. The other four predictions are also unsupported.
+There are no clinical trials and the single publication does not test buserelin. The proposed mechanism is weak because hypertrichosis is not androgen-driven, and the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other four predictions are also unsupported.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to allow a proper mechanistic analysis

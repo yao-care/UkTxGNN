@@ -48,19 +48,19 @@ but **no clinical trials** and **no publications** currently support this predic
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.56% |
+| TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, auranofin is a gold(I) compound that is known to inhibit thioredoxin reductase and modulate redox signalling and inflammation. Its efficacy in rheumatoid arthritis relates to these anti-inflammatory and immunomodulatory effects.
 
-No mechanistic link to the pathogenesis of this rare developmental syndrome can be established from the available data. The high TxGNN score (99.56%) is a knowledge-graph prediction only. It is not backed by any clinical trial or published study, so it should be regarded as a hypothesis rather than a finding.
+No mechanistic link to the pathogenesis of this rare developmental syndrome can be established from the available data. The high TxGNN score (0.9956) is a TxGNN model (deep learning) prediction only. It is not backed by any clinical trial or published study, so it should be regarded as a hypothesis rather than a finding.
 
-A second prediction, brachydactyly-syndactyly syndrome (score 99.24%), is in the same position: a rare congenital limb malformation with no documented pathway linking it to auranofin's activity and no supporting studies.
+A second prediction, brachydactyly-syndactyly syndrome (score 0.9924), is in the same position: a rare congenital limb malformation with no documented pathway linking it to auranofin's activity and no supporting studies.
 
 ## Clinical Trial Evidence
 

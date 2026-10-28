@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Efavirenz
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 245
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Efavirenz
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ but there are **no registered clinical trials** and only **1 in vitro/structural
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9980 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Feline immunodeficiency virus (FIV) is a related lentivirus that causes an AIDS-
 The score reflects similarity to the known HIV indication and is not independent clinical support. This is also a veterinary indication, so it falls outside the scope of human drug repurposing.
 
 For completeness, the data also include two other predictions:
-- **Simian immunodeficiency virus infection** (score 99.80%, L4, Hold). Wild-type SIV is intrinsically resistant to NNRTIs. The animal studies use RT-SHIV, a chimeric virus carrying HIV-1 reverse transcriptase, in macaques. They show efavirenz-containing regimens suppress viral load in this model, which reflects the HIV-1 target rather than a distinct SIV indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 99.77%, L5, Hold). There is no clinical trial or literature support and no established mechanistic link.
+- **Simian immunodeficiency virus infection** (score 0.9980, L4, Hold). Wild-type SIV is intrinsically resistant to NNRTIs. The animal studies use RT-SHIV, a chimeric virus carrying HIV-1 reverse transcriptase, in macaques. They show efavirenz-containing regimens suppress viral load in this model, which reflects the HIV-1 target rather than a distinct SIV indication.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (score 0.9977, L5, Hold). There is no clinical trial or literature support and no established mechanistic link.
 
 ## Clinical Trial Evidence
 

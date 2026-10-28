@@ -6,9 +6,9 @@ nav_order: 455
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne"
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
+description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Norgestimate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Norgestimate: From Acne and Menopausal Conditions to Elevated Plasma Zinc
+## Norgestimate: Zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be relevant to **elevated plasma zinc**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne; postmenopausal osteoporosis; osteoporosis; atrophic vulva; postmenopausal atrophic vaginitis (from the knowledge graph, as no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, norgestimate is a progestin that is normally combined with ethinylestradiol in oral contraceptive products.
 
-No established mechanistic link to elevated plasma zinc has been identified. The only support is the high TxGNN knowledge-graph score. Oral contraceptive oestrogens are known to raise serum copper and may modestly alter circulating zinc. This is a general hormonal effect on trace-element binding proteins rather than a documented therapeutic action.
+No established mechanistic link to elevated plasma zinc has been identified. The only support is the high TxGNN TxGNN model (deep learning) score. Oral contraceptive oestrogens are known to raise serum copper and may modestly alter circulating zinc. This is a general hormonal effect on trace-element binding proteins rather than a documented therapeutic action.
 
 Elevated plasma zinc is also a laboratory finding rather than a disease with a clear treatment target, so the indication itself is questionable. Any apparent link is speculative and unsupported by evidence. Similarity to the original indications has not yet been assessed.
 

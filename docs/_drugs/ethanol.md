@@ -50,10 +50,10 @@ Evidence Level: **L5** | Predicted Indications: **2**
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,13 +62,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 Currently, detailed mechanism of action data is not available for ethanol, and no original indication is recorded, so the link between an existing use and migraine cannot be established from the data compiled.
 
-The high TxGNN score (0.993) most likely reflects a knowledge-graph association rather than therapeutic benefit. The supporting literature points in the harmful direction:
+The high TxGNN score (0.9929) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of therapeutic benefit. The supporting literature points in the harmful direction:
 
 - Ethanol-derived acetaldehyde acts through the CGRP receptor and TRPA1 in Schwann cells to evoke periorbital mechanical allodynia in mice (PMID 37101198).
 - Opening of ATP-sensitive potassium channels activates meningeal nociceptors, a proposed route to migraine headache (PMID 40785517).
 - Genetic association studies (alcohol dehydrogenase genotype, GABA receptor polymorphisms) link alcohol metabolism and GABAergic signalling to migraine susceptibility, not to treatment response.
 
-Alcohol is widely regarded as a migraine trigger. The prediction should therefore not be read as support for repurposing. A second predicted indication, migraine with brainstem aura (score 99.14%), has the same weaknesses: no trials and no ethanol-specific therapeutic evidence.
+Alcohol is widely regarded as a migraine trigger. The prediction should therefore not be read as support for repurposing. A second predicted indication, migraine with brainstem aura (score 0.9914), has the same weaknesses: no trials and no ethanol-specific therapeutic evidence.
 
 ---
 

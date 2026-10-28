@@ -50,10 +50,10 @@ A closely related prediction, **diabetic retinopathy**, has **2 publications**, 
 |------|------|
 | Original Indication | Osteoporosis (including postmenopausal and drug-induced osteoporosis) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -76,7 +76,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publications were found for severe nonproliferative diabetic retinopathy. For the broader **diabetic retinopathy** prediction (score 99.23%), two publications were identified. Neither tests denosumab as a treatment for retinopathy.
+No publications were found for severe nonproliferative diabetic retinopathy. For the broader **diabetic retinopathy** prediction (score 0.9923), two publications were identified. Neither tests denosumab as a treatment for retinopathy.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

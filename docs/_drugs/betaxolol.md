@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Betaxolol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 102
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Betaxolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma and ocular hypertension (hypertension is also lis…"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Betaxolol: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Betaxolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,52 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Betaxolol: From Open-Angle Glaucoma and Hypertension to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Betaxolol: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Betaxolol: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications for Betaxolol. Every candidate that could be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
-Betaxolol is a beta-1 selective adrenergic blocker, originally used for hypertension, open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but at present there are **no registered clinical trials** and **no publications** supporting this specific direction, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma and ocular hypertension (hypertension is also listed as an original indication) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, betaxolol is a beta-1 selective adrenergic antagonist. In the eye, it lowers intraocular pressure (IOP) by reducing aqueous humour production. Its efficacy in open-angle glaucoma and ocular hypertension is established, and mechanistically it may be applicable to primary hereditary glaucoma.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Hereditary forms of glaucoma, such as primary congenital glaucoma or MYOC/CYP1B1-related glaucoma, share raised IOP as the downstream pathology. An IOP-lowering drug is therefore plausible in this setting. However, no link between betaxolol and the genetic causes of hereditary glaucoma can be established from the available data.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The high TxGNN score (0.997) is a model prediction only. It likely reflects the closeness of hereditary glaucoma to the existing glaucoma indications in the knowledge graph rather than independent evidence.
-
-Age is also a consideration. Hereditary glaucoma often presents in infancy, and topical beta-blockers carry paediatric safety concerns, including bradycardia and bronchospasm.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000I0AAAAAA | Betaxolol eye drops 0.5% (solution) | Eye drops, solution | Not stated in the data compiled |
-
-The data compiled for this report list one valid single-ingredient authorisation. The authorisation number is not in the standard MHRA "PL" format, and the dosage form, manufacturer and approved indication text are not recorded. Please verify these details against the MHRA register and the BNF.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 1106000I0AAAAAA | Betaxolol_Soln Eye Dps 0.5% |  | Valid |
 
 ## Safety Considerations
 
@@ -98,19 +92,6 @@ The data compiled for this report list one valid single-ingredient authorisation
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the TxGNN model score, with no trials or publications for primary hereditary glaucoma. Mechanism data and label-based safety information are also missing, and paediatric safety is a particular concern in this population.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for betaxolol and its relevance to hereditary glaucoma
-- Label-based warnings and contraindications from the SmPC and BNF, to replace the knowledge-graph-derived list
-- Full MHRA authorisation details (PL number, dosage form, approved indication)
-- Literature and trial searches for betaxolol in primary congenital and other hereditary glaucomas
-- A paediatric safety assessment (bradycardia, bronchospasm) for topical beta-blocker use in infants
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

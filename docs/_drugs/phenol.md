@@ -6,7 +6,7 @@ nav_order: 490
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Phenol: predicted new indication Acne keloid (evidence level L5). Approved use: Dermatitis"
+description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Phenol: From Dermatitis to Acne Keloid
+## Phenol: From Dermatitis to Acrodermatitis chronica atrophicans
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This is a model prediction with very limited supporting evidence.
 |------|------|
 | Original Indication | Dermatitis |
 | Predicted New Indication | Acne keloid (the highest-ranked prediction, acrodermatitis chronica atrophicans, has no supporting evidence and no plausible mechanism, so the best-supported prediction is used for this report) |
-| TxGNN Prediction Score | 99.94% (acne keloid); the top-ranked prediction scored 99.95% |
-| Evidence Level | L4 (acne keloid); L5 for the top-ranked prediction |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9994 (acne keloid); the top-ranked prediction scored 0.9995 |
+| Evidence Level | L5 (acne keloid); L5 for the top-ranked prediction |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ Phenol peels cause controlled injury to the epidermis and papillary dermis, foll
 
 However, this evidence concerns acne scars in general, not acne keloidalis, which is a chronic inflammatory folliculitis with scarring. Caustic injury in keloid-prone tissue could also worsen scarring. The link to the original dermatitis indication is therefore only loose.
 
-Other predictions in the list (for example acrodermatitis chronica atrophicans, dermatomyositis, interstitial lung disease, diabetic retinopathy and dry eye) have no plausible pharmacological rationale. The high scores likely reflect network proximity in the knowledge graph rather than biology.
+Other predictions in the list (for example acrodermatitis chronica atrophicans, dermatomyositis, interstitial lung disease, diabetic retinopathy and dry eye) have no plausible pharmacological rationale. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -82,7 +82,7 @@ Currently no related clinical trials registered.
 |------|-----|------|------|---------|
 | [17204096](https://pubmed.ncbi.nlm.nih.gov/17204096/) | 2007 | Clinical series (uncontrolled) | The Journal of Dermatology | Modified phenol peel (Exoderm) evaluated for facial wrinkles, acne scars and other skin problems in Asian patients. It was designed to reduce side effects such as arrhythmia, prolonged erythema, hypopigmentation, hypertrophic scarring and keloid. Indirect evidence only. |
 
-For dry eye syndrome (score 99.04%), 20 publications were retrieved, but none evaluated phenol. They concern dry eye pathophysiology or other compounds and are not evidence for phenol.
+For dry eye syndrome (score 0.9904), 20 publications were retrieved, but none evaluated phenol. They concern dry eye pathophysiology or other compounds and are not evidence for phenol.
 
 ---
 

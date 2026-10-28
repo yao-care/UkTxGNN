@@ -6,9 +6,9 @@ nav_order: 402
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Methyl Aminolevulinate: predicted new indication Acne (disease). Rank 1 by score was hereditary haemochromatosis… (evidence level L5). Approved use: Not stated in the data compiled for this report (t…"
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: ["hereditary hemochromatosis", "seborrheic keratosis", "acne (disease)", "vulvar inverted follicular keratosis", "psoriasis", "common wart", "drug-induced osteoporosis", "pityriasis lichenoides", "Wilson disease", "iron metabolism disease"]
+description: "Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methyl Aminolevulinate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methyl Aminolevulinate: From Its Licensed Dermatological Use to Acne (Disease)
+## Methyl Aminolevulinate: Hereditary hemochromatosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This report therefore focuses on acne and briefly compares the other predictions
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the literature describes approved use in actinic keratosis, basal cell carcinoma and Bowen's disease) |
-| Predicted New Indication | Acne (disease). Rank 1 by score was hereditary haemochromatosis, but it has no evidence, so the best-supported prediction is presented here |
-| TxGNN Prediction Score | Acne: 99.81% (hereditary haemochromatosis, rank 1: 99.86%) |
-| Evidence Level | L2 (acne) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hereditary hemochromatosis |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 (acne) |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold for hereditary haemochromatosis; Proceed with Guardrails (research question only) for acne |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data are not available in the compiled data. Based 
 
 For acne, MAL is taken up by sebaceous glands and *Cutibacterium acnes*, where it is converted to PpIX. Light activation may reduce sebaceous gland activity and bacterial load. This is a plausible extension of MAL-PDT from hyperproliferative skin lesions to a pilosebaceous disease.
 
-Several other predictions (psoriasis, common wart) have a similar rationale. Others lack one. Hereditary haemochromatosis, Wilson disease, iron metabolism disease and drug-induced osteoporosis are systemic metabolic or bone conditions, and a topical photodynamic agent has no plausible role in them. Their high scores likely reflect the link between the haem pathway and iron handling in the knowledge graph rather than a treatable mechanism.
+Several other predictions (psoriasis, common wart) have a similar rationale. Others lack one. Hereditary haemochromatosis, Wilson disease, iron metabolism disease and drug-induced osteoporosis are systemic metabolic or bone conditions, and a topical photodynamic agent has no plausible role in them.
 
 ---
 

@@ -48,10 +48,10 @@ Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing autho
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (olmesartan is an ARB, conventionally used for hypertension) |
 | Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing autho
 
 Olmesartan is an angiotensin II type 1 (AT1) receptor blocker. Detailed mechanism of action data are not available in the data compiled for this report, but the drug class is well characterised: AT1 blockade reduces vascular tone through modulation of the renin-angiotensin-aldosterone system (RAAS).
 
-Prinzmetal (vasospastic) angina is caused by coronary artery spasm. Reduced vascular tone through RAAS modulation could plausibly lessen vasospasm, which is the link the model appears to have found. However, this is a hypothesis only. The high TxGNN score (99.84%) is a model output and is not clinical evidence. No trials or literature were retrieved for this indication.
+Prinzmetal (vasospastic) angina is caused by coronary artery spasm. Reduced vascular tone through RAAS modulation could plausibly lessen vasospasm, which is the link the model appears to have found. However, this is a hypothesis only. The high TxGNN score (0.9984) is a model output and is not clinical evidence. No trials or literature were retrieved for this indication.
 
 **Other predictions reviewed**
 
@@ -68,11 +68,11 @@ The model produced ten predictions in total. The most notable are below.
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Migraine disorder | 99.64% | L4 | Three publications: a 2006 commentary, a 2006 clinical study in hypertensive patients, and a 2019 systematic review of ACE inhibitors and ARBs. Evidence is class-level and indirect. Whether olmesartan works independently of blood pressure lowering is unclear. Suitable as a research question. |
-| Pulmonary hypertension | 99.61% | L4 | Preclinical rat and mouse studies support biological plausibility. No human efficacy data. The one trial retrieved (NCT04330300) is a COVID-19 ACEi/ARB study and is not relevant. Suitable as a research question. |
-| Open-angle glaucoma | 99.40% | L4 | Only a 2009 general review of glaucoma treatment was retrieved, and its relevance to olmesartan is unconfirmed. Hold. |
-| Hair disorders (hypotrichosis simplex of the scalp, alopecia, congenital hypotrichosis milia, diffuse alopecia areata) | 99.56–99.65% | L5 | No plausible mechanism and no evidence. Likely network artefacts. |
-| Migraine with brainstem aura, kyphoscoliotic heart disease | 99.47–99.57% | L5 | Prediction only. |
+| Migraine disorder | 0.9964 | L4 | Three publications: a 2006 commentary, a 2006 clinical study in hypertensive patients, and a 2019 systematic review of ACE inhibitors and ARBs. Evidence is class-level and indirect. Whether olmesartan works independently of blood pressure lowering is unclear. Suitable as a research question. |
+| Pulmonary hypertension | 0.9961 | L4 | Preclinical rat and mouse studies support biological plausibility. No human efficacy data. The one trial retrieved (NCT04330300) is a COVID-19 ACEi/ARB study and is not relevant. Suitable as a research question. |
+| Open-angle glaucoma | 0.9940 | L5 | Only a 2009 general review of glaucoma treatment was retrieved, and its relevance to olmesartan is unconfirmed. Hold. |
+| Hair disorders (hypotrichosis simplex of the scalp, alopecia, congenital hypotrichosis milia, diffuse alopecia areata) | 99.56–0.9965 | L5 | No plausible mechanism and no evidence. Likely network artefacts. |
+| Migraine with brainstem aura, kyphoscoliotic heart disease | 99.47–0.9957 | L5 | Prediction only. |
 
 ---
 

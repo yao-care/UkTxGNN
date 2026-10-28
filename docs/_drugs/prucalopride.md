@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia**, b
 |------|------|
 | Original Indication | Constipation disorder |
 | Predicted New Indication | Hypoalphalipoproteinemia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, prucalopride is a selective 5-HT4 receptor agonist that enhances gastrointestinal motility, and its efficacy in constipation is established.
 
-For hypoalphalipoproteinemia (low HDL cholesterol), no credible mechanistic link could be identified. HDL metabolism and lipoprotein regulation are not known to involve 5-HT4 signalling in the gut. The high TxGNN score appears to be a knowledge-graph prediction artefact rather than a pharmacologically grounded signal.
+For hypoalphalipoproteinemia (low HDL cholesterol), no credible mechanistic link could be identified. HDL metabolism and lipoprotein regulation are not known to involve 5-HT4 signalling in the gut. The high TxGNN score appears to be a TxGNN model (deep learning) prediction artefact rather than a pharmacologically grounded signal.
 
 Other top-ranked predictions show the same pattern. Homozygous familial hypercholesterolaemia, oral candidiasis, strongyloidiasis and HIV infection have no plausible mechanism and no supporting studies. The only predictions with even an indirect rationale are the amyloidosis-related ones (amyloidosis, primary amyloidosis), where a prokinetic could in theory relieve gut dysmotility symptoms. That would be symptom management, not treatment of the underlying disease. Duodenal ulcer has only a weak, speculative link, as prucalopride does not reduce acid secretion or address *H. pylori*.
 

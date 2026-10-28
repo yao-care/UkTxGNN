@@ -50,10 +50,10 @@ Support is limited: **no registered clinical trials** and **6 publications**, of
 |------|------|
 | Original Indication | Not stated in the UK authorisation data compiled for this report (DrugBank notes use for post-menopausal hot flushes) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.18% |
+| TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

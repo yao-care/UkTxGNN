@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but **no cl
 |------|------|
 | Original Indication | Postmenopausal osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a SERM that acts on bone, breast and uterine tissue. Its efficacy in postmenopausal osteoporosis is established.
 
-No clear mechanistic link to duodenal ulcer was identified. Duodenal ulcer is driven mainly by *Helicobacter pylori* infection and NSAID use, and no established oestrogen receptor pathway explains a therapeutic benefit. The high score (0.997) is a knowledge-graph prediction only and should be read with caution.
+No clear mechanistic link to duodenal ulcer was identified. Duodenal ulcer is driven mainly by *Helicobacter pylori* infection and NSAID use, and no established oestrogen receptor pathway explains a therapeutic benefit. The high score (0.9972) is a TxGNN model (deep learning) prediction only and should be read with caution.
 
 Other predicted indications in the data (hypoalphalipoproteinaemia, duodenal obstruction and duodenogastric reflux) also have scores above 99%, but all are L5 with no supporting studies. Among them, only hypoalphalipoproteinaemia has even a weak, indirect plausibility, through raloxifene's known effects on LDL and total cholesterol. These are not evaluated further here.
 

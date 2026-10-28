@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 |------|------|
 | Original Indication | Not available (no approved indication text recorded in the marketing authorisation data) |
 | Predicted New Indication | Irritable bowel syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,17 +61,17 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 
 Currently, detailed mechanism of action data is not available. Paraldehyde is a sedative-hypnotic, presumed to act as a CNS depressant, possibly through GABAergic activity. This presumption is not confirmed by the data compiled for this report.
 
-There is no established link between this class of action and the pathophysiology of irritable bowel syndrome (visceral hypersensitivity, gut-brain axis disturbance, altered motility). The very high TxGNN score (99.97%) is a graph-based prediction only. It should be treated as a hypothesis-generating signal, not as evidence of efficacy. Anxiolytic or sedative effects might theoretically relieve stress-related symptoms, but this is speculative.
+There is no established link between this class of action and the pathophysiology of irritable bowel syndrome (visceral hypersensitivity, gut-brain axis disturbance, altered motility). The very high TxGNN score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal, not as evidence of efficacy. Anxiolytic or sedative effects might theoretically relieve stress-related symptoms, but this is speculative.
 
 Other predicted indications were also reviewed, all with model-only support:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Cauda equina syndrome | 99.97% | L5 | A compressive, surgical emergency; a sedative would not address the cause |
-| Obsolete neurogenic bladder (disease) | 99.88% | L5 | Obsolete ontology term; may be a graph artefact |
-| Neurocirculatory asthenia | 99.75% | L5 | Anxiety-related; indirect symptom relief is plausible but speculative |
-| Rhinitis | 99.60% | L5 | No mechanistic rationale |
-| Insomnia | 99.30% | L4 | Pharmacologically consistent with a sedative-hypnotic; indirect evidence only |
+| Cauda equina syndrome | 0.9997 | L5 | A compressive, surgical emergency; a sedative would not address the cause |
+| Obsolete neurogenic bladder (disease) | 0.9988 | L5 | Obsolete ontology term; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| Neurocirculatory asthenia | 0.9975 | L5 | Anxiety-related; indirect symptom relief is plausible but speculative |
+| Rhinitis | 0.9960 | L5 | No mechanistic rationale |
+| Insomnia | 0.9930 | L5 | Pharmacologically consistent with a sedative-hypnotic; indirect evidence only |
 
 ---
 
@@ -121,7 +121,7 @@ Warning and contraindication text was not available in the compiled data. Please
 **Decision: Hold**
 
 **Rationale:**
-The prediction for irritable bowel syndrome rests only on a graph-based score. There are no clinical trials or publications, no plausible mechanistic link, and the drug has known tolerability and interaction concerns. Better-characterised alternatives are available.
+The prediction for irritable bowel syndrome rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, no plausible mechanistic link, and the drug has known tolerability and interaction concerns. Better-characterised alternatives are available.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for paraldehyde

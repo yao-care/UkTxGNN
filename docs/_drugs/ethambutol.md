@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ethambutol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 260
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
-description: "Ethambutol: predicted new indication Epiglottitis (evidence level L4). Approved use: Pulmonary tuberculosis"
+last_modified_at: 2026-10-28
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
+description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ethambutol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
+## Ethambutol: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary tuberculosis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 The only supporting literature concerns laryngeal tuberculosis, in which the epiglottis can be affected. Ethambutol is used there as one component of standard multi-drug anti-tuberculous regimens. Any benefit would therefore be limited to tuberculous involvement of the epiglottis, which is essentially the existing indication at a different anatomical site.
 
-The prediction should not be read as support for typical bacterial epiglottitis (for example, *Haemophilus influenzae*), against which ethambutol has no expected activity. The high TxGNN score probably reflects the drug's strong association with tuberculosis in the knowledge graph rather than a distinct mechanistic link.
+The prediction should not be read as support for typical bacterial epiglottitis (for example, *Haemophilus influenzae*), against which ethambutol has no expected activity. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -109,10 +109,10 @@ The only supporting evidence is a single case series on laryngeal tuberculosis, 
 - Clinical evidence that ethambutol adds value in epiglottitis beyond its existing anti-tuberculosis use, which is unlikely given the biology
 
 **Other predictions reviewed (all Hold):**
-- **Laryngitis** (score 99.71%, L4): the evidence is limited to case reports of laryngeal TB and non-tuberculous mycobacterial infection, with several off-topic papers. This is the existing anti-TB indication at another site.
-- **Meningococcal infection** (99.63%, L5): no evidence. *Neisseria meningitidis* lacks the ethambutol target, so this is likely a knowledge-graph artefact.
-- **Peritonitis** (99.20%, L4): the literature relates to tuberculous peritonitis, where ethambutol is part of standard combination therapy. There is no support for non-tuberculous peritonitis.
-- **Infectious otitis media** (99.06%, L5): no evidence, and the common causative bacteria are not ethambutol targets.
+- **Laryngitis** (score 0.9971, L4): the evidence is limited to case reports of laryngeal TB and non-tuberculous mycobacterial infection, with several off-topic papers. This is the existing anti-TB indication at another site.
+- **Meningococcal infection** (0.9963, L5): no evidence. *Neisseria meningitidis* lacks the ethambutol target, so this is likely a TxGNN model (deep learning) artefact.
+- **Peritonitis** (0.9920, L4): the literature relates to tuberculous peritonitis, where ethambutol is part of standard combination therapy. There is no support for non-tuberculous peritonitis.
+- **Infectious otitis media** (0.9906, L5): no evidence, and the common causative bacteria are not ethambutol targets.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

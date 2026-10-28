@@ -8,6 +8,7 @@ nav_order: 553
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Ropinirole Hcl
@@ -52,8 +53,8 @@ As a result, **a substantive repurposing assessment cannot be completed at this 
 | Predicted New Indication | Not available — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | **Cannot be determined** |
-| UK Market Status | Not Marketed (0 MHRA authorisations retrieved) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

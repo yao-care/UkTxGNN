@@ -4,7 +4,7 @@ title: Colchicine
 parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
@@ -14,7 +14,7 @@ predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma pr
 # Colchicine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 |------|------|
 | Original Indication | Gout; familial Mediterranean fever (the UK authorisation data compiled for this report contain no indication text) |
 | Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -106,8 +106,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Familial Mediterranean fever, autosomal dominant | 99.38% | L4 | Not a true repurposing: colchicine is already first-line therapy for FMF. Only narrative reviews were retrieved, with no subtype-specific trials. Next step is to check whether the dominant-subtype label adds anything beyond the existing FMF indication. |
-| Dermatofibrosarcoma protuberans | 99.37% | L5 | No trials or literature. Only a speculative antimitotic rationale, with no link to the COL1A1-PDGFB driver. Hold. |
+| Dermatofibrosarcoma protuberans | 0.9937 | L5 | No trials or literature. Only a speculative antimitotic rationale, with no link to the COL1A1-PDGFB driver. Hold. |
 
 ## Conclusion and Next Steps
 

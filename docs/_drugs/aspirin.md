@@ -8,6 +8,7 @@ nav_order: 75
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aspirin
@@ -53,8 +54,8 @@ UK regulatory records returned zero marketing authorisations, which is inconsist
 | Predicted New Indication | None — `predicted_indications` list is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; cannot be assessed |
-| UK Market Status | Not recorded (data shows "Not marketed" — likely a retrieval error) |
-| Number of Marketing Authorisations | 0 (likely a retrieval error — Aspirin holds multiple MHRA licences) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

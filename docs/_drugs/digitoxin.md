@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Digitoxin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 225
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Digitoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the available licence data"
+description: "Digitoxin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Digitoxin"
-predicted_indications: ["Prinzmetal angina", "rheumatoid arthritis", "thrombotic disease", "multiple endocrine neoplasia", "homozygous familial hypercholesterolemia", "gout", "brachydactyly-syndactyly syndrome", "hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Digitoxin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Digitoxin: From Cardiac Indications to Prinzmetal Angina
+## Digitoxin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Digitoxin is a cardiac glycoside marketed in the UK as a 100 microgram tablet. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the available licence data |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 97.86% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, digitoxin is a cardiac glycoside that inhibits Na+/K+-ATPase, raising intracellular calcium.
-
-This mechanism does not obviously support use in Prinzmetal (vasospastic) angina. Higher intracellular calcium would be expected to increase vascular smooth muscle tone, which could be counterproductive in a condition driven by coronary vasospasm. The high TxGNN score is a graph-based prediction, and the mechanistic rationale is unclear and possibly contradictory. This prediction should be treated with considerable caution.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for Prinzmetal angina.
-
-For context, the other nine predictions were also reviewed. Only rheumatoid arthritis, thrombotic disease and hyperthyroidism had any retrieved literature, and none of it showed therapeutic benefit. It consisted of pharmacokinetic and interaction studies, case reports of toxicity, preclinical work and very old uncontrolled reports of topical digitoxin for venous disease. All ten predictions are currently rated Hold.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ## UK Market Information
 
@@ -87,18 +65,6 @@ Digitoxin has a narrow therapeutic index. The retrieved literature also shows th
 
 Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting trials or literature, and the known mechanism may work against benefit in vasospastic angina. The narrow therapeutic index adds further concern.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, and a clear mechanistic case for vasospastic angina
-- Licensed indication, dosage form and product information for the UK authorisation
-- Warnings and contraindications from the SmPC and BNF
-- Preclinical or early clinical evidence of benefit, with a safety and monitoring plan that accounts for the narrow therapeutic index
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,7 +6,7 @@ nav_order: 41
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Alprazolam: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety disorder"
+description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to Insomnia
+## Alprazolam: From Anxiety Disorder to insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The prediction is therefore best viewed as a hypothesis, not a supported indicat
 |------|------|
 | Original Indication | Anxiety disorder; anxiety; mixed anxiety and depressive disorder (no indication text is recorded on the UK authorisation, so these come from the knowledge-graph indication data) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -105,7 +105,7 @@ One valid single-ingredient authorisation is recorded, with no cancelled authori
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links alprazolam with contraindications in kidney disease, liver disease, gallbladder disease, open-angle and angle-closure glaucoma, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, obesity disorders, and substance-related disorders and dependence. These associations should be verified against the SmPC.
+- **Contraindications (TxGNN model associations, not label text):** The TxGNN model (deep learning) links alprazolam with contraindications in kidney disease, liver disease, gallbladder disease, open-angle and angle-closure glaucoma, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, obesity disorders, and substance-related disorders and dependence. These associations may reflect similarities the model learned between related diseases, not biological evidence, and should be verified against the SmPC.
 - **Drug Interactions:** 100 interactions are recorded; the 20 shown include:
   - **Major:** morphine, including liposomal morphine (additive central nervous system and respiratory depression).
   - **Moderate:** aprepitant, bupropion, cimetidine, clarithromycin, clotrimazole, dronabinol, eliglustat, glycerol phenylbutyrate, metoclopramide, miconazole.
@@ -129,7 +129,7 @@ The insomnia prediction rests on a model score and general class pharmacology, w
 - Confirmation of the UK-licensed indications and SmPC warnings and contraindications
 - A risk-benefit assessment covering dependence, withdrawal, falls and interactions, particularly in older adults
 
-For context, the same data identified **agoraphobia** (score 99.56%) as a prediction with more direct evidence. It is supported by multiple controlled studies of alprazolam in panic disorder with agoraphobia, though mostly from 1985–1994. It sits close to the existing anxiety and panic use, so it is better seen as an extension of current use than as true repurposing. Current guidance also favours other first-line agents, so it would merit separate evaluation.
+For context, the same data identified **agoraphobia** (score 0.9956) as a prediction with more direct evidence. It is supported by multiple controlled studies of alprazolam in panic disorder with agoraphobia, though mostly from 1985–1994. It sits close to the existing anxiety and panic use, so it is better seen as an extension of current use than as true repurposing. Current guidance also favours other first-line agents, so it would merit separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

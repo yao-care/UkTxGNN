@@ -8,6 +8,7 @@ nav_order: 54
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amisulpride
@@ -51,8 +52,8 @@ Critical data gaps — including absent UK regulatory records, missing mechanism
 | Predicted New Indication | Not available — TxGNN predictions absent |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not Assessed |
-| UK Market Status | Unconfirmed — Evidence Pack reports "Not marketed"; likely a data collection error |
-| Number of Marketing Authorisations | 0 (per Evidence Pack; inconsistent with known MHRA records) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

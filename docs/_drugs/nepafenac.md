@@ -50,10 +50,10 @@ Note that this is largely confirmation of an existing ocular use (post-cataract-
 |------|------|
 | Original Indication | Not available in the UK licence data compiled for this report |
 | Predicted New Indication | Eye disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

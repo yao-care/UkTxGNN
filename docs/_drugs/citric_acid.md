@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Citric Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 175
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
-description: "Citric Acid: predicted new indication Stomach disease (evidence level L4). Approved use: Dyspepsia and headache disorder"
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
+last_modified_at: 2026-10-27
+description: "Citric Acid: predicted new indication stomach disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Citric Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,40 +33,30 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Citric Acid: From Dyspepsia to Stomach Disease
+## Citric acid: Organic acid, effervescent antacid/alkalinising component → stomach disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Citric acid (here in an effervescent citric acid/potassium bicarbonate tablet) is originally used for dyspepsia and headache disorder.
-The TxGNN model predicts it may be effective for **stomach disease**,
-but there are **no registered clinical trials** and the **19 publications** retrieved are indirect, with none showing a therapeutic effect.
+Citric acid is an organic acid used in effervescent tablets together with potassium bicarbonate. The TxGNN model predicts it may be relevant for **stomach disease**, but **no clinical trials** and **20 publications** (mostly indirect or off-topic) are currently available, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dyspepsia and headache disorder (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
-| Predicted New Indication | Stomach disease |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | stomach disease |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, citric acid is used in an effervescent combination with potassium bicarbonate, and it is already marketed for dyspepsia. A wider gastric indication is therefore biologically plausible.
+Detailed mechanism of action data are not available. Citric acid is a weak organic acid. In effervescent formulations with bicarbonate it generates carbon dioxide and buffers acidity, which makes a gastric effect biologically plausible in a general sense.
 
-The literature shows citric acid in the stomach mainly as a diagnostic adjunct. It is used as a test meal in the 13C-urea breath test for *Helicobacter pylori*, where it delays gastric emptying and increases urease contact. This is not a therapeutic effect. The other papers (ulcer diet, *H. pylori* physiology, cuproptosis in gastric cancer, veterinary cobalamin deficiency) are indirect or off-topic.
-
-The high TxGNN score is partly explained by the overlap with the original dyspepsia indication. It should be read as a hypothesis, not as confirmation of benefit.
-
-Other predicted indications were also reviewed. None has registered trials or therapeutic evidence:
-
-- **Rhinitis** (L4): the strongest indirect signal is a citric acid/zwitterionic surfactant irrigation against *Staphylococcus aureus* biofilm in a sheep sinus model. Other papers use citric acid only as a cough trigger or taste-masking excipient.
-- **Pharyngitis** (L4): citric acid is a cough-provoking irritant and may aggravate rather than treat airway symptoms.
-- **Acute laryngopharyngitis, postgastrectomy syndrome, nasal cavity disease, papillary conjunctivitis and blepharoconjunctivitis** (L5): prediction only, with no supportive evidence. For airway and ocular conditions, the irritant properties of acid argue against benefit.
+The literature that mentions the stomach mostly uses citric acid as a test meal in the 13C-urea breath test for *Helicobacter pylori*. In that setting it delays gastric emptying and increases urease contact with the stomach lining. This is a diagnostic adjunct, not a treatment effect. The remaining papers (ulcer diet, *H. pylori* physiology, cuproptosis in gastric cancer, veterinary cobalamin deficiency, metabolomics) are indirect or off-topic. The high TxGNN score is partly explained by the overlap with dyspepsia-type uses, so it should not be read as evidence of therapeutic benefit.
 
 ## Clinical Trial Evidence
 
@@ -74,52 +64,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-None of the publications below tests citric acid as a treatment for stomach disease. Articles on cuproptosis, veterinary medicine, obesity devices, metabolomics and similar topics were judged off-topic and omitted.
+No study tests citric acid as a treatment for stomach disease. The most relevant publications are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31204406](https://pubmed.ncbi.nlm.nih.gov/31204406/) | 2019 | Diagnostic study | J Gastrointestin Liver Dis | Compared short (15 min) and standard (30 min) sampling for the 13C-urea breath test for *H. pylori*; citric acid is a variable in test protocols |
-| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Diagnostic study | Gut Liver | Editorial-type commentary on whether a citric acid meal improves 13C-urea breath test accuracy in Asian populations |
-| [30970440](https://pubmed.ncbi.nlm.nih.gov/30970440/) | 2019 | Diagnostic study | Gut Liver | Evaluated the effect of citric acid on 13C-urea breath test accuracy after *H. pylori* eradication in a region with common atrophic gastritis |
-| [15854177](https://pubmed.ncbi.nlm.nih.gov/15854177/) | 2005 | Experimental | Aliment Pharmacol Ther | Compared citric, malic and ascorbic acids for effects on intragastric urease activity |
-| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Diet in peptic ulcer disease; restrictive diets not supported, with only slight modifications advised |
+| [31204406](https://pubmed.ncbi.nlm.nih.gov/31204406/) | 2019 | Diagnostic study | J Gastrointestin Liver Dis | Compared short (15 min) vs standard (30 min) sampling for the 13C-urea breath test for *H. pylori*; citric acid is a test-meal variable, not a treatment |
+| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Diagnostic study | Gut Liver | Editorial-style commentary on whether a citric acid meal improves 13C-urea breath test accuracy in Asian populations |
+| [30970440](https://pubmed.ncbi.nlm.nih.gov/30970440/) | 2019 | Diagnostic study | Gut Liver | Effect of citric acid on breath test accuracy after *H. pylori* eradication where atrophic gastritis is common |
+| [15854177](https://pubmed.ncbi.nlm.nih.gov/15854177/) | 2005 | Experimental | Aliment Pharmacol Ther | Compared citric, malic and ascorbic acids on intragastric urease activity |
+| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Diet in peptic ulcer disease; restrictive diets not supported |
 | [9889978](https://pubmed.ncbi.nlm.nih.gov/9889978/) | 1998 | Review | Adv Microb Physiol | Physiology and metabolism of *H. pylori*; background only |
-| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Cohort | Metabolomics | High serum citric acid and L-carnitine detected in Koreans before gastric cancer onset; a biomarker finding, not a treatment |
 | [7106518](https://pubmed.ncbi.nlm.nih.gov/7106518/) | 1982 | Cohort | Gastroenterology | Salivary secretion in reflux oesophagitis; not about citric acid treatment |
+| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Cohort | Metabolomics | Serum citric acid and L-carnitine levels before gastric cancer onset in Koreans; a biomarker observation |
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0704030G0AAACAC (BNF-style product code; PL number not available) | Citric Acid/Pot Bicarb_Tab Eff | Effervescent tablet (per product name) | Not available |
+| 0704030G0AAACAC | Citric Acid/Pot Bicarb_Tab Eff | Not recorded | Not recorded in the local data |
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** the TxGNN knowledge graph links the drug with caution or contraindication in several conditions. The main groups are:
-  - Cardiovascular and renal: hypertension, congestive heart failure, kidney disease, impaired renal function, anuria.
-  - Adrenal: adrenal insufficiency, Addison disease, congenital adrenal hyperplasia.
-  - Gastrointestinal and hepatobiliary: peptic ulcer disease, chronic diarrhoeal disease, liver disease, gallbladder disease.
-  - Haematological: thrombocytopenia, haemophilia, anaemia.
-  - Metabolic and other: gout, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, substance abuse/dependence.
-- **Drug Interactions:** 15 interactions were identified.
-  - **Major:** aluminium hydroxide.
-  - **Moderate:** quinolone antibacterials, including ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin, norfloxacin, enoxacin, gatifloxacin, gemifloxacin, lomefloxacin, nalidixic acid, cinoxacin, trovafloxacin, grepafloxacin and sparfloxacin.
+- **Drug Interactions** (15 recorded):
+  - Major: aluminium hydroxide
+  - Moderate: fluoroquinolone and quinolone antibacterials, including ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin, norfloxacin, enoxacin, gatifloxacin, gemifloxacin, lomefloxacin, grepafloxacin, sparfloxacin, trovafloxacin, cinoxacin and nalidixic acid
 
-Product-specific warnings and contraindications were not available. Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Detailed label warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and an overlap with the existing dyspepsia indication. There are no registered therapeutic trials, and the literature only describes citric acid as a diagnostic aid. This is a research question rather than an actionable repurposing candidate.
+The prediction rests on the model score alone. No registered trials exist, and no cited study examines citric acid as a treatment for stomach disease; the literature concerns its use as a diagnostic test meal. The evidence is therefore at level L5.
 
 **To proceed, the following is needed:**
-- Clarification of what "stomach disease" would mean clinically, and which specific condition (for example functional dyspepsia or reflux symptoms) would be the target beyond the current indication.
-- The approved indication text, dosage form and PL number for the UK authorisation, plus SmPC warnings and contraindications.
-- Mechanism of action data for the combination product.
-- Controlled clinical evidence for a therapeutic gastric effect, beyond its use in breath-test protocols.
-- A review of the quinolone and aluminium-containing antacid interactions before any extension of use.
+- Mechanism of action data
+- Clinical studies that directly evaluate citric acid as a treatment for stomach disease, as distinct from its use in breath testing
+- Label-based warnings and contraindications from the SmPC and BNF
+- Review of the interaction with aluminium-containing antacids and quinolone antibacterials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

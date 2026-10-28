@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Daptomycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 207
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Daptomycin"
-predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "osteoarthritis susceptibility", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Daptomycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Daptomycin is an intravenous cyclic lipopeptide antibiotic. The data compiled for this report do not record an approved indication text for the UK authorisation.
-The TxGNN model predicts it may be effective for **osteoarthritis** (score 99.86%), but there are **no registered clinical trials**, and the **10 publications** retrieved mostly concern bone and joint *infections* rather than osteoarthritis itself. This is a model prediction with weak supporting evidence.
+The TxGNN model predicts it may be effective for **osteoarthritis** (score 0.9986), but there are **no registered clinical trials**, and the **10 publications** retrieved mostly concern bone and joint *infections* rather than osteoarthritis itself. This is a model prediction with weak supporting evidence.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **osteoarthritis** (score 99.86
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report |
 | Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,10 +61,10 @@ The TxGNN model predicts it may be effective for **osteoarthritis** (score 99.86
 
 Currently, detailed mechanism of action data is not available in the compiled data. Daptomycin is generally known as a cyclic lipopeptide antibiotic active against Gram-positive bacteria, but its original indication text was not captured for this report.
 
-For osteoarthritis, the mechanistic case is weak. The retrieved literature describes daptomycin treating Gram-positive osteoarticular and prosthetic joint infections (for example *Staphylococcus*), which is antibacterial use and not treatment of degenerative osteoarthritis. The high TxGNN score probably reflects proximity to joint and bone terms in the knowledge graph rather than a genuine disease-modifying effect.
+For osteoarthritis, the mechanistic case is weak. The retrieved literature describes daptomycin treating Gram-positive osteoarticular and prosthetic joint infections (for example *Staphylococcus*), which is antibacterial use and not treatment of degenerative osteoarthritis. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a disease-modifying effect.
 
 **Other predictions of note:**
-- **Rheumatoid arthritis** (score 99.84%, evidence level L4): a 2025 preclinical study (PMID 39571268) reports that daptomycin reduced collagen-induced arthritis in mice by suppressing inflammatory cytokines and NF-κB signalling. A follow-up study of daptomycin-derived lipopeptides (PMID 40923559) supports this idea. No human data exist, so this is the more scientifically interesting research question, though still preclinical.
+- **Rheumatoid arthritis** (score 0.9984, evidence level L4): a 2025 preclinical study (PMID 39571268) reports that daptomycin reduced collagen-induced arthritis in mice by suppressing inflammatory cytokines and NF-κB signalling. A follow-up study of daptomycin-derived lipopeptides (PMID 40923559) supports this idea. No human data exist, so this is the more scientifically interesting research question, though still preclinical.
 - **Osteoarthritis susceptibility, gout and rare skeletal dysplasias** (pseudoachondroplasia, Hunter-Thompson acromesomelic dysplasia, brachyolmia and others) have no credible therapeutic link. The gout report describes daptomycin-induced rhabdomyolysis followed by gouty arthritis, which is an adverse event signal and not evidence of benefit.
 
 ---

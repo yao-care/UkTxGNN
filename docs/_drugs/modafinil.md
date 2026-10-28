@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Modafinil: From Narcolepsy to Insomnia
+## Modafinil: insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be relevant to **insomnia**, but the link is ind
 |------|------|
 | Original Indication | Narcolepsy (including narcolepsy with cataplexy) |
 | Predicted New Indication | Insomnia (disease) |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 (model prediction with only very weak supporting studies) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be relevant to **insomnia**, but the link is ind
 
 Detailed mechanism of action data are not available in the data compiled for this report. Modafinil is generally understood to promote wakefulness through dopamine transporter inhibition and effects on wake-promoting brain circuits. It is established for excessive daytime sleepiness, not for inducing sleep.
 
-The link to insomnia is indirect and partly paradoxical. Modafinil can worsen insomnia as an adverse effect. The very high TxGNN score most likely reflects the drug's closeness to sleep-wake disorders in the knowledge graph (narcolepsy, shift work sleep disorder, sleep disturbance in neurological disease) rather than a true therapeutic effect on insomnia.
+The link to insomnia is indirect and partly paradoxical. Modafinil can worsen insomnia as an adverse effect. The very high score from the TxGNN model (deep learning) most likely reflects similarities the model learned between related diseases (narcolepsy, shift work sleep disorder, sleep disturbance in neurological disease), not biological evidence of a true therapeutic effect on insomnia.
 
 Any plausible benefit would be limited to daytime function and sleep/wake regulation in specific groups, such as older adults, people with Parkinson's disease, or those with neurological conditions and fatigue. It would not extend to primary insomnia.
 

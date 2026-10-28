@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Rheumatoid arthritis; psoriatic arthritis (the licence record has no indication text) |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ No plausible mechanistic link to brachydactyly-syndactyly syndrome can be establ
 
 The high TxGNN score is a computational prediction only. It is not supported by any clinical or published evidence and should be treated as a hypothesis at most.
 
-A second prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 99.93%), has the same limitations. It is a rare congenital ocular and skeletal malformation syndrome with no evident link to leflunomide's mechanism, no trials and no literature.
+A second prediction, colobomatous microphthalmia-rhizomelic dysplasia syndrome (score 0.9993), has the same limitations. It is a rare congenital ocular and skeletal malformation syndrome with no evident link to leflunomide's mechanism, no trials and no literature.
 
 ## Clinical Trial Evidence
 

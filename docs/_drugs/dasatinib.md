@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Dasatinib
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 209
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myeloid leukaemia, BCR-ABL1 positive (including blast phase)"
 monitor_inn: "Dasatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival"
 # Dasatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **Ewing sarcoma**, but only **2
 |------|------|
 | Original Indication | Chronic myeloid leukaemia, BCR-ABL1 positive (including blast phase) |
 | Predicted New Indication | Ewing sarcoma |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (borderline; the only completed Phase 2 trial was single-arm and covered mixed sarcomas) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

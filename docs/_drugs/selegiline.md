@@ -6,9 +6,9 @@ nav_order: 564
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Selegiline: predicted new indication Polymicrogyria, perisylvian… (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
+description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Selegiline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Selegiline: From Parkinson Disease to Perisylvian Polymicrogyria with Cerebellar Hypoplasia and Arthrogryposis
+## Selegiline: Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ This prediction is **model-based only**: there are **no clinical trials** and **
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease (the UK authorisation record lists no indication text, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Selegiline is generally known as a monoamine oxidase B (MAO-B) inhibitor that raises dopamine levels. Its efficacy in Parkinson disease is established.
 
-The predicted condition is a rare malformation of brain development, with abnormal cortical folding, an underdeveloped cerebellum and joint contractures. Nothing in the compiled data links MAO-B inhibition or dopaminergic effects to the causes of this condition. The high score (99.15%) is a computational output and should not be read as biological or clinical support.
+The predicted condition is a rare malformation of brain development, with abnormal cortical folding, an underdeveloped cerebellum and joint contractures. Nothing in the compiled data links MAO-B inhibition or dopaminergic effects to the causes of this condition. The high score (0.9915) is a computational output and should not be read as biological or clinical support.
 
 At present, the prediction is therefore **not mechanistically supported**. Any further interest would need genetic and pathway-level evidence before laboratory or clinical work.
 
@@ -106,7 +106,7 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 - Preclinical models or case-level evidence relevant to the condition
 - A full interaction and safety review against the SmPC and BNF
 
-**Note for portfolio review:** Within the same drug, the second-ranked prediction, **schizophrenia** (score 99.14%), has considerably more supporting evidence. It has one completed early-phase trial (NCT00456976, n=70) on selegiline augmentation for negative symptoms, plus a 2023 systematic review and meta-analysis and several placebo-controlled studies. It is rated L3 and is better suited to follow-up as a research question.
+**Note for portfolio review:** Within the same drug, the second-ranked prediction, **schizophrenia** (score 0.9914), has considerably more supporting evidence. It has one completed early-phase trial (NCT00456976, n=70) on selegiline augmentation for negative symptoms, plus a 2023 systematic review and meta-analysis and several placebo-controlled studies. It is rated L3 and is better suited to follow-up as a research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

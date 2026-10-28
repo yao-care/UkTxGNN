@@ -6,9 +6,9 @@ nav_order: 372
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levocetirizine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Levocetirizine: From Allergic Rhinitis to Rheumatoid Arthritis
+## Levocetirizine: Rheumatoid arthritis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Levocetirizine is a selective histamine H1 receptor antagonist. Detailed mechani
 
 Histamine is present in rheumatoid synovium and may contribute to vascular permeability and inflammatory signalling. This gives a plausible but unproven link between H1 blockade and rheumatoid arthritis.
 
-The very high TxGNN score (99.73%) is a model prediction only. Allergic conditions and rheumatoid arthritis are quite different diseases, and no studies were identified to show that H1 antagonism alters the course of rheumatoid arthritis. The prediction should be treated as a hypothesis for further investigation.
+The very high TxGNN score (0.9973) is a model prediction only. Allergic conditions and rheumatoid arthritis are quite different diseases, and no studies were identified to show that H1 antagonism alters the course of rheumatoid arthritis. The prediction should be treated as a hypothesis for further investigation.
 
-*Other lower-ranked predictions (colobomatous microphthalmia-rhizomelic dysplasia syndrome, score 99.59%; brachydactyly-syndactyly syndrome, score 99.52%) have no plausible mechanistic link. They are congenital developmental disorders that an antihistamine would not be expected to correct, and they most likely reflect knowledge-graph structure rather than biology.*
+*Other lower-ranked predictions (colobomatous microphthalmia-rhizomelic dysplasia syndrome, score 0.9959; brachydactyly-syndactyly syndrome, score 0.9952) have no plausible mechanistic link. They are congenital developmental disorders that an antihistamine would not be expected to correct. These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
 
 ## Clinical Trial Evidence
 

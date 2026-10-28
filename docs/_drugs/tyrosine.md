@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the available marketing authorisation data"
 monitor_inn: "Tyrosine"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
 ---
 
 # Tyrosine
@@ -47,31 +47,31 @@ The TxGNN model ranks **cauda equina syndrome** as its top prediction, but **no 
 |------|------|
 | Original Indication | Not recorded in the available marketing authorisation data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available for this drug. Tyrosine is a dietary amino acid and a known precursor of catecholamines (dopamine, noradrenaline) and of thyroid hormones. No approved original indication is recorded in the data compiled for this report, so a link between an established use and the predicted one cannot be drawn.
 
-Cauda equina syndrome is a compressive neurological emergency treated surgically. There is no clear mechanistic link between tyrosine and this condition. The high score is a graph-based prediction only and should not be read as evidence of benefit.
+Cauda equina syndrome is a compressive neurological emergency treated surgically. There is no clear mechanistic link between tyrosine and this condition. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of benefit.
 
 **Other predictions reviewed (all rated L5 except where noted, all Hold):**
 
 | Rank | Predicted Indication | Score | Comment |
 |---|---|---|---|
-| 2 | Neurogenic bladder (obsolete term) | 99.55% | Speculative link via catecholamine control of the bladder. No evidence, and the disease term is ambiguous. |
-| 3 | Angle-closure glaucoma | 99.54% | No direct mechanism. Retrieved papers are association or descriptive studies only. |
-| 4 | Hyperthyroidism | 99.51% | Tyrosine is a thyroid hormone substrate, so benefit is mechanistically doubtful and it may be counterproductive. |
-| 5 | Postural orthostatic tachycardia syndrome | 99.46% | Catecholamine precursor, which is plausible, but the only paper is a case report using a tyrosine hydroxylase inhibitor (opposite pharmacology). Evidence Level L4. |
-| 6 | Hyperthyroxinemia | 99.46% | Tyrosine is a thyroxine precursor, so lowering thyroxine is unlikely. |
-| 7 | Resistance to thyroid hormone (TRβ mutation) | 99.40% | Receptor-level defect that a hormone substrate would not correct. |
-| 8 | Aqueous misdirection | 99.35% | No plausible mechanism. |
-| 9 | Traumatic glaucoma | 99.35% | No direct mechanism. |
-| 10 | Neovascular glaucoma | 99.32% | No direct mechanism. Standard care is anti-VEGF therapy, laser and surgery. |
+| 2 | Neurogenic bladder (obsolete term) | 0.9955 | Speculative link via catecholamine control of the bladder. No evidence, and the disease term is ambiguous. |
+| 3 | Angle-closure glaucoma | 0.9954 | No direct mechanism. Retrieved papers are association or descriptive studies only. |
+| 4 | Hyperthyroidism | 0.9951 | Tyrosine is a thyroid hormone substrate, so benefit is mechanistically doubtful and it may be counterproductive. |
+| 5 | Postural orthostatic tachycardia syndrome | 0.9946 | Catecholamine precursor, which is plausible, but the only paper is a case report using a tyrosine hydroxylase inhibitor (opposite pharmacology). Evidence Level L4. |
+| 6 | Hyperthyroxinemia | 0.9946 | Tyrosine is a thyroxine precursor, so lowering thyroxine is unlikely. |
+| 7 | Resistance to thyroid hormone (TRβ mutation) | 0.9940 | Receptor-level defect that a hormone substrate would not correct. |
+| 8 | Aqueous misdirection | 0.9935 | No plausible mechanism. |
+| 9 | Traumatic glaucoma | 0.9935 | No direct mechanism. |
+| 10 | Neovascular glaucoma | 0.9932 | No direct mechanism. Standard care is anti-VEGF therapy, laser and surgery. |
 
 ## Clinical Trial Evidence
 

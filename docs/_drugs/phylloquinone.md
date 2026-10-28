@@ -4,17 +4,17 @@ title: Phylloquinone
 parent: Model Prediction Only (L5)
 nav_order: 496
 evidence_level: L5
-indication_count: 9
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Osteoporosis, postmenopausal osteoporosis, hypercalcaemia…"
 monitor_inn: "Phylloquinone"
-predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "NAD(P)HX dehydratase deficiency", "leukocyte adhesion deficiency", "hypermanganesemia with dystonia", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
+predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "leukocyte adhesion deficiency", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
+description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phylloquinone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Phylloquinone: From Osteoporosis to Renal Tubular Acidosis
+## Phylloquinone: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis, postmenopausal osteoporosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, congenital prothrombin deficiency (knowledge-graph indications; no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -71,14 +71,12 @@ All other predictions in the data compiled for this report are also evidence lev
 
 | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
 |------|------|------|
-| Hypophosphataemic rickets | 99.67% | Indirect link via phosphorus and bone metabolism; the core FGF23-mediated defect is not known to be affected by vitamin K |
-| Pendred syndrome | 99.56% | No clear mechanistic link |
-| Autosomal recessive nonsyndromic deafness | 99.51% | No identified mechanistic link |
-| NAD(P)HX dehydratase deficiency | 99.48% | Speculative; redox chemistry only |
-| Leukocyte adhesion deficiency | 99.47% | Unsupported by mechanism |
-| Hypermanganesaemia with dystonia | 99.38% | No link to manganese handling; at most supportive care for coagulation abnormalities |
-| Fraser syndrome | 99.22% | Unsupported; possible signal from warfarin embryopathy overlap |
-| Temtamy preaxial brachydactyly syndrome | 99.08% | Unsupported |
+| Hypophosphataemic rickets | 0.9967 | Indirect link via phosphorus and bone metabolism; the core FGF23-mediated defect is not known to be affected by vitamin K |
+| Pendred syndrome | 0.9956 | No clear mechanistic link |
+| Autosomal recessive nonsyndromic deafness | 0.9951 | No identified mechanistic link |
+| Leukocyte adhesion deficiency | 0.9947 | Unsupported by mechanism |
+| Fraser syndrome | 0.9922 | Unsupported; possible signal from warfarin embryopathy overlap |
+| Temtamy preaxial brachydactyly syndrome | 0.9908 | Unsupported |
 
 ---
 
@@ -113,7 +111,7 @@ Please refer to the SmPC and BNF for warnings and full interaction information. 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (evidence level L5), with no clinical trials or literature, an unverified mechanistic link, and several knowledge-graph contraindications that overlap with renal disease.
+The prediction rests on a model score alone (evidence level L5), with no clinical trials or literature, an unverified mechanistic link, and several contraindications that overlap with renal disease. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for phylloquinone

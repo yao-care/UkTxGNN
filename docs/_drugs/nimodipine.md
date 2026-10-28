@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 |------|------|
 | Original Indication | Subarachnoid haemorrhage (aneurysmal) |
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.29% |
+| TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nimodipine is a dihydropyridine L-type calcium channel blocker with selectivity for the cerebral vasculature. Its efficacy in subarachnoid haemorrhage is linked to its effects on cerebral vessels.
 
-The link to the predicted new indication is weak. Homozygous familial hypercholesterolaemia is caused by loss-of-function variants in genes such as *LDLR* (or *APOB*, *PCSK9*, *LDLRAP1*), which impair LDL clearance. Calcium channel blockade does not address this defect. Any association would be speculative, for example through possible vascular or atherosclerosis-related effects. The high TxGNN score (99.29%) is a computational prediction only and is not backed by any trial or literature evidence.
+The link to the predicted new indication is weak. Homozygous familial hypercholesterolaemia is caused by loss-of-function variants in genes such as *LDLR* (or *APOB*, *PCSK9*, *LDLRAP1*), which impair LDL clearance. Calcium channel blockade does not address this defect. Any association would be speculative, for example through possible vascular or atherosclerosis-related effects. The high TxGNN score (0.9929) is a computational prediction only and is not backed by any trial or literature evidence.
 
-A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 99.05%), is also at the same early stage. It has no mechanistic support and no trials or literature, and its very small patient population would make generating evidence difficult.
+A second prediction, nephrogenic syndrome of inappropriate antidiuresis (score 0.9905), is also at the same early stage. It has no mechanistic support and no trials or literature, and its very small patient population would make generating evidence difficult.
 
 ## Clinical Trial Evidence
 

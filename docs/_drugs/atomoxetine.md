@@ -50,10 +50,10 @@ The evidence supports an ADHD-symptom benefit in people with co-occurring develo
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD), including the inattentive type |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

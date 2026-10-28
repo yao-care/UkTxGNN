@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 |------|------|
 | Original Indication | Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis (the UK licence record contains no indication text) |
 | Predicted New Indication | Infectious otitis media |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 
 Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is an antimycobacterial agent used as part of multi-drug anti-tuberculosis regimens. Its activity depends on conversion to pyrazinoic acid by mycobacterial pyrazinamidase, a mechanism specific to *Mycobacterium tuberculosis*.
 
-The very high TxGNN score most likely reflects proximity in the knowledge graph between tuberculosis-related infectious disease nodes and ear infection nodes, rather than a pharmacological rationale. Common causes of bacterial otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*) are not susceptible to pyrazinamide. The only plausible link is the rare tuberculous otitis media, which is already covered by the existing TB indication and is not true repurposing.
+The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (tuberculosis-related infectious diseases and ear infections), not biological evidence. Common causes of bacterial otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*) are not susceptible to pyrazinamide. The only plausible link is the rare tuberculous otitis media, which is already covered by the existing TB indication and is not true repurposing.
 
 The other top-ranked predictions are all ear-related (middle ear disease, otosalpingitis, chronic, suppurative, non-suppurative and allergic otitis media, middle ear cholesterol granuloma, infectious otitis interna). Lyme disease is also predicted, but with no mechanistic support. None has a credible mechanism beyond tuberculous involvement.
 
@@ -101,7 +101,7 @@ The single authorisation is a valid single-ingredient product. The BNF classific
 
 ## Safety Considerations
 
-- **Contraindications and risk conditions (from knowledge-graph associations, not label text):** liver failure, acute liver failure, liver disease, hepatitis, inherited porphyria, porphyrin metabolism disease, porphyria, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, gout, peripheral nervous system disease, peripheral neuropathy, substance abuse/dependence, and slow acetylator status. These should be verified against the SmPC.
+- **Contraindications and risk conditions (not from label text):** liver failure, acute liver failure, liver disease, hepatitis, inherited porphyria, porphyrin metabolism disease, porphyria, gallbladder disease, diabetes mellitus, diabetic ketoacidosis, gout, peripheral nervous system disease, peripheral neuropathy, substance abuse/dependence, and slow acetylator status. These should be verified against the SmPC.
 - **Drug Interactions:** 56 interactions were identified. Those rated Moderate are picosulfuric acid and naltrexone. Others, listed without a severity grade, include pantoprazole, omeprazole, lansoprazole, mesalazine, morphine, vancomycin, prednisone, prednisolone, amphotericin B, potassium chloride, sulfasalazine, ranitidine, famotidine, metronidazole, acetylsalicylic acid, glyburide, amoxicillin and streptomycin.
 
 Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.

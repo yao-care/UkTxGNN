@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
+last_modified_at: 2026-10-28
 monitor_inn: "Sibutramine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
+description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sibutramine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Sibutramine: From Obesity to Hypervitaminosis
+## Sibutramine: Hypervitaminosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity disorder; monogenic obesity (the UK authorisation record has no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (per the data compiled for this report) |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, sibutramine is a serotonin-noradrenaline reuptake inhibitor (SNRI) that was used for appetite suppression, and its use in obesity is its established role.
 
-No plausible mechanistic link to hypervitaminosis has been identified. Hypervitaminosis results from excess vitamin intake and is managed by stopping the offending supplement and providing supportive care. An appetite suppressant has no obvious role in this process. The high score (99.98%) is a graph-based prediction with no clinical or literature support, and it probably reflects associations within the knowledge graph rather than a real pharmacological rationale.
+No plausible mechanistic link to hypervitaminosis has been identified. Hypervitaminosis results from excess vitamin intake and is managed by stopping the offending supplement and providing supportive care. An appetite suppressant has no obvious role in this process. The high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It has no clinical or literature support.
 
-Other predictions for this drug are equally weak. The proximal 16p11.2 microdeletion syndrome prediction (99.98%) most likely reflects the shared obesity phenotype, while the predictions for obsolete hypertelorism (99.97%) and frontorhiny (99.95%) have no plausible pharmacological basis. All four have no trials or publications and are rated L5 with a recommendation to hold.
+Other predictions for this drug are equally weak. The proximal 16p11.2 microdeletion syndrome prediction (0.9998) most likely reflects the shared obesity phenotype, while the predictions for obsolete hypertelorism (0.9997) and frontorhiny (0.9995) have no plausible pharmacological basis. All four have no trials or publications and are rated L5 with a recommendation to hold.
 
 ## Clinical Trial Evidence
 

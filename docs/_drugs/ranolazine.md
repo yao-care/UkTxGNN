@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available from the compiled 
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*, R137C/L). These cause constitutive receptor activation and unregulated insertion of aquaporin-2 into collecting duct cells. A connection through renal sodium handling or cAMP signalling is conceivable but purely speculative and unsupported by data.
 
-The high score most likely reflects network proximity in the knowledge graph rather than a validated biological rationale. The prediction should be treated as a hypothesis only.
+The high score (0.9965 for nephrogenic syndrome of inappropriate antidiuresis) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 

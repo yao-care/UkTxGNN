@@ -4,17 +4,17 @@ title: Liothyronine
 parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Hypothyroidism"
 monitor_inn: "liothyronine"
-predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "nodular goiter (disease)", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
+description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Liothyronine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Liothyronine: From Hypothyroidism to Renal Hypodysplasia/Aplasia
+## Liothyronine: Renal hypodysplasia/aplasia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypothyroidism (the data compiled for this report contain no approved indication text; this is taken from the knowledge-graph indication list, which also includes myxoedema, congenital hypothyroidism, goitre and thyroid cancers) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal hypodysplasia/aplasia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 3 |
+| UK Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 Detailed mechanism of action data is not available for this report. Based on known pharmacology, liothyronine is a thyroid hormone replacement that acts on thyroid hormone receptors. Its efficacy in hypothyroidism is established, and thyroid hormone contributes to normal growth and organ development in general.
 
-The link to the predicted indication is weak. Renal hypodysplasia/aplasia is a congenital structural malformation of the kidneys. There is no evidence that postnatal liothyronine can reverse or prevent it. The high score (99.95%) most likely reflects shared associations within the knowledge graph (for example with Potter sequence and bilateral renal agenesis) rather than a therapeutic rationale.
+The link to the predicted indication is weak. Renal hypodysplasia/aplasia is a congenital structural malformation of the kidneys. There is no evidence that postnatal liothyronine can reverse or prevent it. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example Potter sequence and bilateral renal agenesis), not biological evidence.
 
 The other top-ranked predictions show the same pattern. Bilateral renal agenesis, Potter sequence, Carney complex, myxoma, angiomyxoma, peripheral dysostosis and hypotrichosis simplex of the scalp have no trials or literature. Nodular goitre is already within the original indications, so it is not true repurposing. Acrodysostosis has 20 retrieved publications, but the ten shown concern hypothyroidism, depression augmentation and thyroid hormone resistance, not acrodysostosis, so they do not support that indication.
 
@@ -95,7 +95,7 @@ Please check the MHRA product database and the BNF (thyroid hormones section) fo
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** hypertension; hypopituitarism and other pituitary hormone deficiencies; hypogonadotropic hypogonadism and Kallmann syndrome; osteoporosis and postmenopausal osteoporosis; diabetes mellitus and diabetic ketoacidosis; coronary artery disease and myocardial infarction; thymus gland disease.
+- **Contraindications (TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence):** hypertension; hypopituitarism and other pituitary hormone deficiencies; hypogonadotropic hypogonadism and Kallmann syndrome; osteoporosis and postmenopausal osteoporosis; diabetes mellitus and diabetic ketoacidosis; coronary artery disease and myocardial infarction; thymus gland disease.
 - **Drug Interactions:** 311 interactions were recorded. The 20 shown are all of Moderate severity. They include antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, dulaglutide, canagliflozin, dapagliflozin, empagliflozin, linagliptin, chlorpropamide), proton pump inhibitors (omeprazole, rabeprazole, dexlansoprazole), calcium and magnesium salts (calcium phosphate, calcium acetate, magnesium oxide), and sympathomimetics (epinephrine, isometheptene, diethylpropion).
 - **Considerations specific to this prediction:** Carney complex includes cardiac myxomas, so exogenous thyroid hormone could carry cardiac risk there.
 

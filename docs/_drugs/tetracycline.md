@@ -6,9 +6,9 @@ nav_order: 610
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
-description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not stated in the UK authorisation data. The knowledge graph lists ur…"
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tetracycline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Tetracycline: From Bacterial Infections to Chronic Rhinosinusitis
+## Tetracycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,22 +48,22 @@ Across the predictions there are **no registered clinical trials** for tetracycl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax, gonorrhoea, pharyngitis, conjunctivitis, pneumonia and others |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1) |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L4 (literature is indirect; no tetracycline-specific trials) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 0.9958 |
+| Evidence Level | L5 (literature is indirect; no tetracycline-specific trials) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Other predictions evaluated:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Punctate epithelial keratoconjunctivitis | 99.58% | L4 | Hold |
-| Chronic ethmoidal sinusitis | 99.15% | L4 | Hold |
-| Chronic rhinosinusitis | 99.15% | L4 | Research question |
-| Paranasal sinus neoplasm | 99.10% | L5 | Hold |
+| Punctate epithelial keratoconjunctivitis | 0.9958 | L5 | Hold |
+| Chronic ethmoidal sinusitis | 0.9915 | L5 | Hold |
+| Chronic rhinosinusitis | 0.9915 | L5 | Research question |
+| Paranasal sinus neoplasm | 0.9910 | L5 | Hold |
 
 ---
 
@@ -127,7 +127,7 @@ The BNF classification is section 5.1.3 (tetracyclines). The data compiled for t
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern** (from knowledge graph associations, not label text, so confirm against the SmPC): liver failure and liver disease, kidney disease, kidney failure, uraemia and glomerulonephritis, epilepsy, diabetes and diabetic ketoacidosis, neutropenia and agranulocytosis, blood coagulation disorders, *Clostridium difficile* colitis, G6PD deficiency, peripheral neuropathy, respiratory failure, atrioventricular block and atrial fibrillation, gout, and others.
+**Contraindications and conditions of concern** (not taken from label text, so confirm against the SmPC): liver failure and liver disease, kidney disease, kidney failure, uraemia and glomerulonephritis, epilepsy, diabetes and diabetic ketoacidosis, neutropenia and agranulocytosis, blood coagulation disorders, *Clostridium difficile* colitis, G6PD deficiency, peripheral neuropathy, respiratory failure, atrioventricular block and atrial fibrillation, gout, and others.
 
 **Drug Interactions** (100 interactions recorded; examples shown):
 - **Major:** isotretinoin, acitretin, aminolevulinic acid

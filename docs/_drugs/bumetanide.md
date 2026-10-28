@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **acute pulmonary heart disease
 |------|------|
 | Original Indication | Congestive heart failure (the approved indication text for the UK authorisation is not available in the data compiled for this report) |
 | Predicted New Indication | Acute pulmonary heart disease |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (model prediction only; no studies specific to the predicted indication) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

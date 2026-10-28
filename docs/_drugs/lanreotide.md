@@ -6,9 +6,9 @@ nav_order: 361
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Lanreotide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Acromegaly"
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
+description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lanreotide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Lanreotide: From Acromegaly to Hypertrichosis
+## Lanreotide: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but this re
 
 | Item | Content |
 |------|------|
-| Original Indication | Acromegaly (also hyperpituitarism and pituitary gigantism, per the knowledge graph) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 IGF-1 signalling influences hair follicle growth, so a theoretical link to hair growth disorders is conceivable. However, this link is speculative. Hypertrichosis is a heterogeneous condition (congenital, drug-induced, or secondary to endocrine or metabolic disease), so any plausible mechanism would depend on the subtype.
 
-The other top-ranked predictions are even less convincing. They include malformation syndromes with a dental component, syndromes featuring Dandy-Walker malformation, isolated genetic hair shaft abnormalities, and Ambras-type congenital hypertrichosis. These are structural or genetic developmental conditions, not driven by the GH/IGF-1 axis. The high scores probably reflect proximity in the knowledge graph rather than a therapeutic rationale.
+The other top-ranked predictions are even less convincing. They include malformation syndromes with a dental component, syndromes featuring Dandy-Walker malformation, isolated genetic hair shaft abnormalities, and Ambras-type congenital hypertrichosis. These are structural or genetic developmental conditions, not driven by the GH/IGF-1 axis. The high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## UK Market Information
 
@@ -86,7 +86,7 @@ Label warnings and contraindications were not available. Please refer to the SmP
 **Decision: Hold**
 
 **Rationale:**
-The prediction is based only on a model score (99.97%), with no registered clinical trials or publications, and the mechanistic link to hypertrichosis is speculative. The Evidence Level is L5.
+The prediction is based only on a model score (0.9997), with no registered clinical trials or publications, and the mechanistic link to hypertrichosis is speculative. The Evidence Level is L5.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for lanreotide, and a clearer biological case for the GH/IGF-1 axis in hair growth disorders

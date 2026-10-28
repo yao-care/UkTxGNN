@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.04% |
+| TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on general knowledge, selenium is a cofactor of glutathione peroxidases and other selenoproteins, which support antioxidant defence. In principle, this could reduce oxidative stress and inflammatory injury to bile duct cells and hepatocytes, which are thought to contribute to cholestatic liver disease.
 
-The original indication could not be determined from the data compiled, so the link between the original and new indication cannot be assessed directly. The high TxGNN score (99.04%) is a computational prediction only.
+The original indication could not be determined from the data compiled, so the link between the original and new indication cannot be assessed directly. The high TxGNN score (0.9904) is a computational prediction only.
 
 The retrieved literature offers only indirect links: measurement of hepatic copper and selenium retention in primary sclerosing cholangitis (PSC), dietary micronutrient intake in PSC patients, and hepatic proteome changes in mouse models of fibrosis and sclerosing cholangitis. None shows that selenium supplementation improves PSC outcomes. The findings may reflect altered trace-element handling in cholestasis rather than a therapeutic target.
 

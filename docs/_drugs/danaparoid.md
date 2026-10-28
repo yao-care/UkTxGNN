@@ -49,10 +49,10 @@ The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, but
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -67,11 +67,11 @@ The other five predictions follow the same pattern. All are platelet or bleeding
 
 | Predicted Indication | TxGNN Score | Concern |
 |------|------|------|
-| Primary release disorder of platelets | 99.88% | Granule secretion/signalling defect; anticoagulation could aggravate bleeding |
-| Pseudo-von Willebrand disease | 99.83% | GPIbα gain-of-function; no known danaparoid action on the GPIbα–VWF axis |
-| Bleeding diathesis due to a collagen receptor defect | 99.30% | Impaired collagen response; no modulation of receptor signalling |
-| Haemorrhagic disorder due to constitutional thrombocytopenia | 99.30% | Inherited low platelet number/function; HIT use does not translate |
-| Scott syndrome | 99.28% | Already reduced thrombin generation; danaparoid would reduce it further |
+| Primary release disorder of platelets | 0.9988 | Granule secretion/signalling defect; anticoagulation could aggravate bleeding |
+| Pseudo-von Willebrand disease | 0.9983 | GPIbα gain-of-function; no known danaparoid action on the GPIbα–VWF axis |
+| Bleeding diathesis due to a collagen receptor defect | 0.9930 | Impaired collagen response; no modulation of receptor signalling |
+| Haemorrhagic disorder due to constitutional thrombocytopenia | 0.9930 | Inherited low platelet number/function; HIT use does not translate |
+| Scott syndrome | 0.9928 | Already reduced thrombin generation; danaparoid would reduce it further |
 
 ---
 

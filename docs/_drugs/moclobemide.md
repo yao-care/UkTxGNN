@@ -6,9 +6,9 @@ nav_order: 422
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
+description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Moclobemide
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **2**
 
 </div>
 
-## Moclobemide: From Anxiety Disorder to Agoraphobia
+## Moclobemide: Agoraphobia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Agoraphobia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -108,7 +108,7 @@ Two randomised controlled trials in panic disorder with or without agoraphobia s
 - Approved indication text and dosage form for the UK authorisation
 - A safety monitoring plan, including interaction screening for serotonergic and sympathomimetic medicines
 
-*Note: The second prediction, benign paroxysmal torticollis of infancy (TxGNN score 99.30%), has no trials or literature and no established mechanistic link. It is an L5 computational prediction only and the recommendation is Hold.*
+*Note: The second prediction, benign paroxysmal torticollis of infancy (TxGNN score 0.9930), has no trials or literature and no established mechanistic link. It is an L5 computational prediction only and the recommendation is Hold.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

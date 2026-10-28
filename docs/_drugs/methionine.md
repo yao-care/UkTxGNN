@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methionine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 399
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Methionine: predicted new indication Acne (disease) (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Methionine"
-predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "mature cataract", "immature cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "craniostenosis cataract", "diabetic cataract"]
+predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
+last_modified_at: 2026-10-23
+description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
 # Methionine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Methionine: From Unspecified Original Indication to Acne (Disease)
+## Methionine: From No Recorded Original Indication to Acne (Disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Methionine is an essential sulphur-containing amino acid, marketed in the UK as a 250 mg tablet, but the compiled data do not state an approved original indication.
-The TxGNN model predicts it may be effective for **acne**, but there are **no clinical trials** and only **2 tangential publications** (a case report and a cohort study), and neither supports a therapeutic benefit.
+Methionine is an essential sulfur-containing amino acid. The data compiled for this report contain no approved indication text for it in the UK.
+The TxGNN model predicts it may be effective for **acne (disease)**, but there are **0 clinical trials** and **2 publications** (a case report and a cohort study), neither of which tests methionine as a treatment. This is a model prediction only.
 
 ---
 
@@ -47,23 +47,21 @@ The TxGNN model predicts it may be effective for **acne**, but there are **no cl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report |
+| Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Acne (disease) |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 1.0000 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Methionine is an essential amino acid and a precursor of homocysteine through the methionine cycle, but the approved indication for the UK product is not recorded in the compiled data, so a link between the original use and acne cannot be established.
+Detailed mechanism of action data are not available. Methionine is an essential amino acid that is a precursor of homocysteine, cysteine and S-adenosylmethionine, and it is involved in methylation and sulfur metabolism. No approved indication text was available, so the relationship between an original indication and acne cannot be described.
 
-The retrieved literature does not support methionine as an acne treatment. One paper reports raised plasma homocysteine (a methionine-cycle metabolite) in patients taking isotretinoin for cystic acne, which suggests a drug-induced metabolic change rather than a therapeutic benefit. The other is a case report of an MTHFR mutation in a neonate, which is unrelated to acne treatment. Supplementing methionine could plausibly raise homocysteine, so the signal points towards potential harm rather than benefit. The very high TxGNN score is not backed by clinical or mechanistic data.
-
-Other predicted indications (for example diabetic cataract, nuclear senile cataract and severe nonproliferative diabetic retinopathy) have similarly weak support. The most notable indirect signal is for diabetic cataract, where studies of methionine sulfoxide reductase B1 (MsrB1) link the repair of oxidised methionine to lens cell protection. That work concerns repair of oxidised methionine residues, not methionine supplementation, so it is best treated as a research question.
+The two retrieved papers do not show that methionine treats acne. One reports raised plasma homocysteine in patients taking isotretinoin for cystic acne. The other is a case report of an MTHFR mutation in a neonate with, among other features, neonatal acne. Both relate to methionine/homocysteine metabolism only indirectly. The very high TxGNN score is a model output without clinical support.
 
 ---
 
@@ -77,8 +75,8 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | Int J Dermatol | Plasma homocysteine was elevated in patients on isotretinoin for cystic acne. This is a metabolic association, not evidence of benefit from methionine. |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | A neonate with a novel MTHFR mutation presented with encephalopathy, hair loss, marfanoid features and neonatal acne. It is unrelated to acne treatment. |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | Int J Dermatol | Plasma homocysteine was elevated in patients on isotretinoin for cystic acne; methionine was not tested as a treatment |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | Neonate with a novel MTHFR mutation, encephalopathy, hair loss, marfanoid features and neonatal acne; no methionine treatment effect shown |
 
 ---
 
@@ -88,22 +86,22 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | 1902070M0AAAAAA | Methionine Tab 250mg | Not stated | Not stated |
 
-The authorisation number is recorded as supplied in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register. No NICE-appraised or BNF classification details were available.
+The licence record lists no dosage form or approved indication text, so no approved use can be described from it.
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions** (5 recorded):
-  - Moderate: activated charcoal
-  - Minor: ephedrine, pseudoephedrine, mexiletine, flecainide
-- **Conditions flagged by the knowledge graph** (drug-disease contraindication links in the TxGNN knowledge graph, not label text, so they need verification against the SmPC):
-  - Cardiovascular and metabolic: hypertension, heart disease, cardiovascular disease, hyperlipidaemia (including familial), diabetes mellitus, diabetic ketoacidosis, ventricular fibrillation, digitalis poisoning
-  - Renal: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
-  - Calcium and phosphorus: hypercalcaemia, humoral hypercalcaemia of malignancy, sarcoidosis, phosphorus metabolism disorder
-  - Amino acid metabolism: phenylketonuria and other disorders of phenylalanine metabolism
+**Contraindications recorded in the knowledge graph** (these are drug–disease relations in the TxGNN knowledge graph, not label text) include:
+- Cardiovascular: hypertension, hypertensive disorder, heart disease, cardiovascular disease, hyperlipidaemia, familial hyperlipidaemia, ventricular fibrillation, digitalis poisoning
+- Renal: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, humoral hypercalcaemia of malignancy, sarcoidosis, phosphorus metabolism disease, phenylketonuria, disorders of phenylalanine metabolism
 
-Product-specific warnings and contraindications were not available. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (5 recorded):
+- Activated charcoal: Moderate
+- Ephedrine, pseudoephedrine, mexiletine, flecainide: Minor
+
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -112,13 +110,33 @@ Product-specific warnings and contraindications were not available. Please refer
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials, the two retrieved papers do not show benefit, and raised homocysteine suggests a possible risk rather than a therapeutic effect. The knowledge-graph safety flags (cardiovascular, renal and metabolic) add further caution.
+The prediction rests on the model score alone. No trial or publication tests methionine for acne, so the evidence level is L5. The knowledge-graph contraindication list is also extensive.
 
 **To proceed, the following is needed:**
-- The approved indication and SmPC safety information for the UK methionine tablet
-- Mechanism of action data (for example from DrugBank)
-- A plausible mechanistic rationale and preclinical data for methionine in acne, including the effect on homocysteine
-- Consideration of reframing the diabetic cataract signal (MsrB1 and methionine sulfoxide repair) as a separate research question
+- Mechanism of action data and a plausible biological rationale linking methionine to acne
+- Approved indication and label text from the UK licence record, plus SmPC warnings and contraindications
+- Any controlled clinical data on methionine in acne
+- A safety assessment covering the cardiovascular, renal and metabolic conditions listed above
+
+---
+
+## Other Predicted Indications (Summary)
+
+None of the following has a clinical trial. All are recommended as Hold, except diabetic cataract, which is a research question only.
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Severe nonproliferative diabetic retinopathy | 1.0000 | L5 | Prediction only; no literature |
+| 3 | Nuclear senile cataract | 1.0000 | L5 | Laboratory papers show methionine oxidation in cataractous lenses; none studies methionine as a treatment |
+| 4 | Diabetes mellitus type 2 associated cataract | 1.0000 | L5 | Prediction only |
+| 5 | Cortical cataract | 1.0000 | L5 | Lens biology and metabolomics papers only |
+| 6 | Immature cataract | 1.0000 | L5 | Prediction only |
+| 7 | Craniostenosis cataract | 1.0000 | L5 | Prediction only; rare syndromic condition |
+| 8 | Mature cataract | 1.0000 | L5 | One crystallin photoaggregation study, unrelated to methionine treatment |
+| 9 | Tetanic cataract | 1.0000 | L5 | Prediction only |
+| 10 | Diabetic cataract | 1.0000 | L5 | Review of homocysteine in eye disease and laboratory studies of methionine sulfoxide reductase B1 (MsrB1) in lens cells; none tests methionine administration |
+
+For diabetic cataract, the MsrB1 findings (PMIDs [22713178](https://pubmed.ncbi.nlm.nih.gov/22713178/), [23270945](https://pubmed.ncbi.nlm.nih.gov/23270945/)) and the homocysteine review ([26343924](https://pubmed.ncbi.nlm.nih.gov/26343924/)) show involvement of the methionine redox system, not a benefit of methionine supplementation. Raised homocysteine is associated with eye disease, so supplementation carries a plausible safety concern. A research question is warranted only on the repair-pathway biology.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

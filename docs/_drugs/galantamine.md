@@ -6,9 +6,9 @@ nav_order: 310
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
-description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer's disease"
 monitor_inn: "Galantamine"
-predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
+description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Galantamine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Galantamine: From Alzheimer's Disease to Psychogenic Movement Disorders
+## Galantamine: Psychogenic movement disorders
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 
 | Item | Content |
 |------|------|
-| Original Indication | Alzheimer's disease (the UK licence record holds no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 
 Galantamine is known as an acetylcholinesterase inhibitor and an allosteric modulator of nicotinic acetylcholine receptors. By raising cholinergic signalling in the brain, it may alter the balance between cholinergic and dopaminergic activity in circuits that control movement. Detailed mechanism-of-action data were not available for this report, so this description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications.
 
-The link to psychogenic movement disorders is speculative. These conditions are functional in nature, and no data compiled for this report connect cholinergic modulation to their pathophysiology or treatment. The high TxGNN score reflects network-based similarity in the knowledge graph, not demonstrated clinical benefit. Treat the prediction as a hypothesis only.
+The link to psychogenic movement disorders is speculative. These conditions are functional in nature, and no data compiled for this report connect cholinergic modulation to their pathophysiology or treatment. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Treat the prediction as a hypothesis only.
 
 ---
 

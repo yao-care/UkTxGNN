@@ -50,10 +50,10 @@ The prediction is essentially model-derived, and the literature raises significa
 |------|------|
 | Original Indication | Not available in the licence data |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -145,7 +145,7 @@ The prediction rests on a plausible oestrogen-replacement mechanism but is suppo
 
 ### Note on other predictions
 
-Two lower-ranked predictions, **acne** (score 99.72%, L5) and **breast fibrocystic disease** (score 99.16%, L5), were also reviewed. Both have no clinical trials and no literature addressing treatment, and both carry a **Hold** recommendation. The fibrocystic disease rationale is arguably contradictory, since oestrogens generally promote breast epithelial proliferation.
+Two lower-ranked predictions, **acne** (score 0.9972, L5) and **breast fibrocystic disease** (score 0.9916, L5), were also reviewed. Both have no clinical trials and no literature addressing treatment, and both carry a **Hold** recommendation. The fibrocystic disease rationale is arguably contradictory, since oestrogens generally promote breast epithelial proliferation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

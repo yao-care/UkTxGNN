@@ -4,17 +4,17 @@ title: Apixaban
 parent: Moderate Evidence (L3-L4)
 nav_order: 67
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Apixaban"
-predicted_indications: ["migraine disorder", "migraine with or without aura, susceptibility to", "leprosy", "rheumatoid arthritis", "migraine with brainstem aura", "Prinzmetal angina", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.02% |
+| TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,6 @@ The proposed link to migraine is indirect. It rests on paradoxical embolism or h
 
 The evidence for apixaban itself is contradictory. One case report describes migraine with aura worsening after starting apixaban. Another describes symptoms returning when a patient was switched from warfarin to apixaban, and resolving again on resuming warfarin. There is no established mechanism supporting factor Xa inhibition as a migraine treatment. The high TxGNN score should therefore be treated as a hypothesis, not as evidence of benefit.
 
-Other predicted indications in the model output (for example rheumatoid arthritis, which has some preclinical support, and pulmonary hypertension) are not evaluated in detail here.
 
 ---
 

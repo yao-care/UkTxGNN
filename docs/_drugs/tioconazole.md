@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tioconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 619
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Tioconazole: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Vulvovaginal candidiasis"
 monitor_inn: "Tioconazole"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "trichomonal vulvovaginitis", "anogenital human papillomavirus infection", "fungal infectious disease", "mycotic corneal ulcer"]
+predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **vulvovaginitis**, with **no r
 |------|------|
 | Original Indication | Vulvovaginal candidiasis |
 | Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 99.23% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9923 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -123,7 +123,7 @@ The evidence is L3: there are older randomised and comparative studies in vagina
 **Other predictions in the data, for context:**
 - **Trichomonal vulvovaginitis** and **fungal infectious disease** (mainly onychomycosis with laser-assisted topical tioconazole): limited supporting studies, worth further research questions.
 - **Tinea nigra**: mechanistically plausible from class effect, but no tioconazole-specific evidence.
-- **Atrophic vaginitis, vulvar ulceration, vulvar neoplasm, anogenital HPV and mycotic corneal ulcer**: model prediction only, with no plausible mechanism or evidence; not recommended for follow-up.
+- **Atrophic vaginitis**: model prediction only, with no plausible mechanism or evidence; not recommended for follow-up.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

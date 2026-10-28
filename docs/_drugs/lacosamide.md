@@ -6,9 +6,9 @@ nav_order: 356
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Lacosamide: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the UK authorisation data compiled for this report (lac…"
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lacosamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lacosamide: From Epilepsy to Migraine Disorder
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **4 clinical trials** (including 3 Phase 3 trials) and **18 publications** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data compiled for this report (lacosamide is known as an antiseizure medicine) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.87% |
-| Evidence Level | L1 (as assigned in the compiled data; see the caveats below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Manic bipolar affective disorder |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 (as assigned in the compiled data; see the caveats below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

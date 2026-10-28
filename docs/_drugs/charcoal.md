@@ -8,6 +8,7 @@ nav_order: 152
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Charcoal
@@ -51,8 +52,8 @@ A full repurposing evaluation cannot be completed in the current state; this rep
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no predictions or supporting studies present |
-| UK Market Status | Not currently authorised (per Evidence Pack) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

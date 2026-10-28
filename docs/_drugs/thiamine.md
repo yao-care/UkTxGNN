@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Thiamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 612
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Thiamine: predicted new indication Hyperthyroidism (evidence level L3). Approved use: Not available in the data compiled for this report"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Thiamine"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "pulmonary hypertension", "hyperthyroxinemia", "kyphoscoliotic heart disease", "Graves disease", "peripheral vascular disease", "neonatal thyrotoxicosis"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
+last_modified_at: 2026-10-23
+description: "Thiamine: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
 # Thiamine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Thiamine: From Nutritional Supplementation to Hyperthyroidism (Supportive Use)
+## Thiamine: From an Unspecified Licensed Use to resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet; no approved indication text is available in the data compiled for this report.
-The TxGNN model predicts it may be useful in **hyperthyroidism**, with **1 small completed clinical trial** and **19 publications** (mostly case reports) currently supporting this direction.
-The most plausible role is supportive, to correct functional thiamine deficiency and its cardiovascular and neurological complications, rather than to treat the thyroid disease itself.
+Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not state its approved indication.
+The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no clinical trials and no publications** supporting this prediction. It is a model output only.
 
 ---
 
@@ -48,58 +47,43 @@ The most plausible role is supportive, to correct functional thiamine deficiency
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Hyperthyroidism |
-| TxGNN Prediction Score | 99.44% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold (research question; see note on pulmonary hypertension below) |
+| Original Indication | Not stated in the licence record |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN Prediction Score | 0.9943 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Thiamine is an essential vitamin and the precursor of thiamine pyrophosphate, a coenzyme in carbohydrate metabolism and the citric acid cycle. Its established role is in preventing and treating thiamine deficiency.
+Detailed mechanism of action data for thiamine is not available in the data compiled for this report. Thiamine is generally known as a cofactor for enzymes involved in carbohydrate metabolism, but this is general background and not drawn from the supplied data.
 
-Hyperthyroidism raises metabolic rate and thiamine turnover, which can cause functional thiamine deficiency. This can resemble wet beriberi (high-output heart failure) or lead to Wernicke's encephalopathy, particularly when vomiting or poor intake coexists, as in hyperemesis gravidarum with gestational thyrotoxicosis.
-
-Thiamine would therefore act as supportive or adjunctive therapy for these complications. It is not an antithyroid treatment. The same reasoning applies to Graves disease (rank 8), a major cause of hyperthyroidism.
+The predicted condition is a monogenic disorder caused by THRB mutations that impair thyroid hormone receptor beta function. No direct link between thiamine and thyroid hormone receptor beta signalling is supported by the data. The TxGNN score is very high (0.9943), but it reflects a computational association, not biological or clinical evidence. On the available information, the prediction cannot be distinguished from a model artefact.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02767245](https://clinicaltrials.gov/study/NCT02767245) | Not applicable | Completed | 12 | Pilot study of thiamine supplementation to improve cardiovascular function in severe hyperthyroidism and to assess the prevalence of thiamine deficiency. Very small, no results available here. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-The publications retrieved are mainly case reports, case series and early physiology studies. No randomised trials were found. The most relevant are:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [26567494](https://pubmed.ncbi.nlm.nih.gov/26567494/) | 2015 | Case report/review | Crit Care Nurs Clin North Am | High-output heart failure caused by thyrotoxicosis and by beriberi (thiamine deficiency) |
-| [18026802](https://pubmed.ncbi.nlm.nih.gov/18026802/) | 2008 | Case report | J Gen Intern Med | Wernicke's encephalopathy associated with thyrotoxicosis |
-| [7919625](https://pubmed.ncbi.nlm.nih.gov/7919625/) | 1994 | Case series | Intern Med | Pulmonary hypertension settled after antithyroid therapy in hyperthyroidism, and after thiamine in cardiac beriberi |
-| [7416185](https://pubmed.ncbi.nlm.nih.gov/7416185/) | 1980 | Case series | Am J Med | 23 cases of beriberi heart disease in Japan, driven by relative thiamine deficiency |
-| [32983708](https://pubmed.ncbi.nlm.nih.gov/32983708/) | 2020 | Case report | Cureus | Wernicke's encephalopathy with transient gestational hyperthyroidism and hyperemesis |
-| [34995426](https://pubmed.ncbi.nlm.nih.gov/34995426/) | 2021 | Case report | South Dakota Med | Wernicke encephalopathy in a patient with Graves disease after sleeve gastrectomy |
-| [36176825](https://pubmed.ncbi.nlm.nih.gov/36176825/) | 2022 | Case report | Cureus | Wernicke's encephalopathy as a neurological consequence of an uncommon presentation of hyperthyroidism |
-| [32934066](https://pubmed.ncbi.nlm.nih.gov/32934066/) | 2020 | Case report | Clin Med (London) | Confusion and ataxia in pregnancy with hyperemesis gravidarum and thyrotoxicosis |
+Currently no related literature available for this predicted indication.
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906026M0AAAGAG | Thiamine HCl Tab 100mg | Not stated | Not stated |
+| Marketing Authorisation Number | Product Name | Dosage Form |
+|---------|------|------|
+| 0906026M0AAAGAG | Thiamine HCl tablet 100 mg | Tablet |
 
-One single-ingredient authorisation is recorded as valid. Dosage form and approved indication details were not available. Please check the BNF and the relevant SmPC.
+This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufacturer, so the approved use cannot be described from the data compiled here.
 
 ---
 
@@ -107,32 +91,24 @@ One single-ingredient authorisation is recorded as valid. Dosage form and approv
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-No drug interactions were identified in the data compiled for this report.
-
----
-
-## Other Predicted Indications (Brief Note)
-
-- **Pulmonary hypertension (rank 5, L3):** The strongest published signal. Multiple case series and prospective observational studies describe thiamine-responsive acute pulmonary hypertension in exclusively breastfed infants, with rapid response to thiamine. This applies only to thiamine-deficient populations (for example SLC19A2/SLC19A3 variants), not pulmonary hypertension in general. The pack suggests Proceed with Guardrails for this indication.
-- **Open-angle glaucoma (rank 4, L4):** Observational data only (for example lower blood thiamine in a small 1979 study). Hold.
-- **Peripheral vascular disease (rank 9, L4):** Literature relates to neuropathy and beriberi, not vascular disease. Hold.
-- **Resistance to thyroid hormone, primary hereditary glaucoma, hyperthyroxinemia, kyphoscoliotic heart disease, neonatal thyrotoxicosis:** Prediction only, with no meaningful supporting evidence. Hold.
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (research question)**
+**Decision: Hold**
 
 **Rationale:**
-The evidence for hyperthyroidism consists of one very small non-phased pilot study (n=12) and case-level literature. It supports thiamine only as an adjunct for deficiency-related complications, not as treatment of the thyroid disease. Pulmonary hypertension in thiamine-deficient infants has stronger observational support and could proceed with guardrails as a separate, deficiency-restricted question.
+The prediction rests only on the TxGNN score. There are no trials or publications for this disease, no supported mechanistic link, and no safety data in the compiled record, so there is no basis to progress.
+
+**Other predictions for thiamine (for context):**
+- **Primary hereditary glaucoma** (score 0.9940): no trials or literature, evidence level L5.
+- **Open-angle glaucoma** (score 0.9936): six publications, but all are observational or pathophysiology studies. The most relevant is a 1979 study (PMID 485004) reporting lower blood thiamine in 38 patients with chronic open-angle glaucoma than in 12 controls. This shows an association, not a treatment effect. It is best treated as a research question, not a repurposing candidate.
 
 **To proceed, the following is needed:**
-- Published results of NCT02767245, and an adequately powered randomised trial of thiamine in thyrotoxicosis with documented deficiency or cardiac involvement
-- Measurement of thiamine status (for example erythrocyte transketolase or whole-blood thiamine) to define the target population
-- UK approved indication, dosage form and safety information from the SmPC and BNF
-- Mechanism of action data
-- Clear patient selection criteria for any thiamine-responsive pulmonary hypertension use
+- The approved indication text and SmPC safety information for the UK thiamine product
+- Mechanism of action data for thiamine
+- A plausible biological rationale linking thiamine to thyroid hormone receptor beta signalling, followed by preclinical testing
+- For the glaucoma predictions, interventional studies, as the current literature shows only associations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

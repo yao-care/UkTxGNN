@@ -8,6 +8,7 @@ nav_order: 547
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Rituximab
@@ -51,8 +52,8 @@ This report documents the data gaps and outlines the remediation steps required 
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | N/A — no predictions present |
-| UK Market Status | Returned as "Not Marketed" — likely a data pipeline error |
-| Number of Marketing Authorisations | 0 — likely a data pipeline error |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Integrity Warning:** Rituximab is currently marketed in the United Kingdom under multiple brand names (including MabThera, Truxima, and Rixathon) with valid MHRA marketing authorisations. A return of zero licences and "Not Marketed" status strongly indicates a failure in the MHRA data ingestion pipeline, not an accurate reflection of UK market reality. Results in this Evidence Pack should not be acted upon until the pipeline is re-run and verified.

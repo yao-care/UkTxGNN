@@ -4,17 +4,17 @@ title: Dactinomycin
 parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
-indication_count: 9
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
-predicted_indications: ["relapsing-remitting multiple sclerosis", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "extrahepatic bile duct rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
+predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
 ---
 
 # Dactinomycin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model's top-ranked prediction is **relapsing-remitting multiple sclero
 |------|------|
 | Original Indication | Ewing sarcoma, testicular germ cell tumours, gestational trophoblastic neoplasm, rhabdomyosarcoma, Wilms tumour (the MHRA indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Relapsing-remitting multiple sclerosis (top-ranked prediction) |
-| TxGNN Prediction Score | 99.58% |
+| TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (top prediction); L3 for the rhabdomyosarcoma-related predictions |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (for relapsing-remitting multiple sclerosis) |
 
 ---

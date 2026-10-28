@@ -6,9 +6,9 @@ nav_order: 336
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, ankylosing spondylitis, gout, osteoarthritis…"
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
+description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Indomethacin
@@ -33,25 +33,25 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Indomethacin: From Inflammatory Arthritis to Brachydactyly-Syndactyly Syndrome
+## Indomethacin: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Indomethacin is an NSAID used for inflammatory and degenerative joint conditions such as rheumatoid arthritis, ankylosing spondylitis and gout, and for patent ductus arteriosus.
 The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation.
-**No clinical trials and no publications** currently support this prediction, so it rests on the model's graph-based score alone.
+**No clinical trials and no publications** currently support this prediction, so it rests on the score from the TxGNN model (deep learning) alone. This score may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, ankylosing spondylitis, gout, osteoarthritis, bursitis, tendinitis, frozen shoulder, patent ductus arteriosus (among others; taken from the knowledge-graph indication list, as no licensed indication text was available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.97% (model rank 350) |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 6 |
+| UK Market Status | Marketed (valid licences: 6 of 6) |
+| Number of Marketing Authorisations | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Brachydactyly-syndactyly syndrome is a rare congenital limb malformation caused by abnormal skeletal development. It is not an inflammatory condition. No mechanistic link between COX inhibition and skeletal developmental patterning has been identified.
 
-The high TxGNN score most likely reflects associations in the knowledge graph, such as shared musculoskeletal or limb-phenotype connections. It is not supported by biological or clinical evidence. This prediction should be treated as a computational signal only.
+The high TxGNN score (deep learning model) most likely reflects similarities the model learned between related diseases, such as shared musculoskeletal or limb-phenotype features. It is not biological evidence and is not supported by clinical evidence. This prediction should be treated as a computational signal only.
 
 ## Clinical Trial Evidence
 

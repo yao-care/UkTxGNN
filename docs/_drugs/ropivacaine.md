@@ -4,17 +4,17 @@ title: Ropivacaine
 parent: Moderate Evidence (L3-L4)
 nav_order: 554
 evidence_level: L3
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Ropivacaine: predicted new indication Myofascial pain syndrome (highest-scoring candidate overall: migraine… (evidence level L3). Approved use: Not stated in the data compiled for this report (ropiva…"
 monitor_inn: "Ropivacaine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder", "fibromyalgia", "myofascial pain syndrome", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "bronchitis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
+description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Ropivacaine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Ropivacaine: From Local Anaesthesia to Myofascial Pain Syndrome
+## Ropivacaine: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ The evidence is limited to small and mixed-design studies, so this remains an ea
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (ropivacaine is a local anaesthetic) |
-| Predicted New Indication | Myofascial pain syndrome (highest-scoring candidate overall: migraine disorder, 99.65%) |
-| TxGNN Prediction Score | 98.99% (myofascial pain syndrome); 99.65% (migraine disorder) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Migraine disorder |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-**Note on selection:** Migraine disorder ranks first by TxGNN score, but its evidence is weaker (one very small trial of 10 participants and observational studies; recommendation: Research Question). Myofascial pain syndrome has the strongest direct evidence and is therefore the focus of this report. Other candidates are summarised briefly at the end.
+**Note on selection:** Migraine disorder ranks first by TxGNN score, but its evidence is weaker (one very small trial of 10 participants and observational studies; recommendation: Research Question). Other candidates are summarised briefly at the end.
 
 ---
 
@@ -64,7 +64,7 @@ The evidence is limited to small and mixed-design studies, so this remains an ea
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels, which stops nociceptive (pain) signals from travelling along nerve fibres.
 
-Myofascial pain syndrome is characterised by painful trigger points in muscle, tendon or ligament. Injecting a local anaesthetic into these points can interrupt the pain-spasm cycle. Ropivacaine is already used in trigger point injection and in fascial plane or muscle block techniques, so the proposed use is mechanistically coherent and builds on existing clinical practice. The route is local infiltration, so this is a new use of an existing injectable rather than a systemic therapy.
+Injecting a local anaesthetic into these points can interrupt the pain-spasm cycle. Ropivacaine is already used in trigger point injection and in fascial plane or muscle block techniques, so the proposed use is mechanistically coherent and builds on existing clinical practice. The route is local infiltration, so this is a new use of an existing injectable rather than a systemic therapy.
 
 For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, stellate ganglion or pericranial trigger points, which may interrupt trigeminal and nociceptive signalling. The evidence relates to regional nerve block procedures, not systemic use.
 
@@ -72,7 +72,6 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 ## Clinical Trial Evidence
 
-**Myofascial pain syndrome**
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -89,7 +88,6 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 ## Literature Evidence
 
-**Myofascial pain syndrome**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -129,7 +127,6 @@ Only one valid single-ingredient authorisation is recorded. Dosage form detail a
 
 **Other considerations from the evidence:**
 - Local anaesthetics may be myotoxic, which is relevant to repeated intramuscular injection.
-- In vitro studies report cytotoxicity of ropivacaine to tenocytes and tenofibroblasts, a concern for peritendinous use (relevant to the tendinitis prediction).
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -139,27 +136,20 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Migraine disorder | 99.65% | L3 | Research Question |
-| Migraine with brainstem aura | 99.55% | L5 | Hold |
-| Nephrogenic syndrome of inappropriate antidiuresis | 99.41% | L5 | Hold (no plausible mechanism; likely model artefact) |
-| Dysthymic disorder | 99.15% | L5 | Hold |
-| Fibromyalgia | 98.99% | L4 | Research Question (only indirect myofascial pain trial) |
-| Tendinitis | 98.96% | L4 | Hold (symptomatic analgesia only; cytotoxicity concern) |
-| Idiopathic granulomatous myositis | 98.88% | L5 | Hold |
-| Myositis fibrosa | 98.88% | L5 | Hold |
-| Bronchitis | 98.83% | L4 | Hold (trials concern post-cardiac-surgery pain, not bronchitis) |
+| Migraine disorder | 0.9965 | L3 | Research Question |
+| Migraine with brainstem aura | 0.9955 | L5 | Hold |
+| Nephrogenic syndrome of inappropriate antidiuresis | 0.9941 | L5 | Hold (no plausible mechanism; likely model artefact) |
+| Dysthymic disorder | 0.9915 | L5 | Hold |
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (myofascial pain syndrome)
 
 **Rationale:**
 Ropivacaine has a coherent mechanism and existing clinical use in trigger point injection, supported by a completed Phase 4 trial and several randomised comparisons. However, the evidence consists of combination and comparative designs with no demonstrated superiority over other local anaesthetics, so it reaches only L3 and does not meet the threshold for L1 or L2.
 
 **To proceed, the following is needed:**
-- A adequately powered randomised trial of ropivacaine versus placebo or an active comparator (without a confounding co-treatment) in myofascial pain syndrome
 - Mechanism of action data and current SmPC warnings and contraindications, which are missing from the data compiled for this report
 - Confirmation of the licensed indications and dosage forms for the UK authorisation
 - A safety plan covering myotoxicity, cardiovascular and neurological toxicity monitoring, and the knowledge-graph contraindication signals

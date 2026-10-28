@@ -4,17 +4,17 @@ title: Amiloride
 parent: Model Prediction Only (L5)
 nav_order: 49
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Amiloride: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and congestive heart failure"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "Amiloride"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Amiloride: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Amiloride
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Amiloride: From Hypertension to Malignant Hypertensive Renal Disease
+## Amiloride: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Of the other predicted indications reviewed, only pulmonary hypertension due to 
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (the marketing authorisation record compiled for this report contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,10 +65,10 @@ Detailed mechanism of action data is not available in the data compiled for this
 Hypertensive renal disease is closely related to the original indication, so a high model score is understandable. However, the prediction most likely reflects amiloride's existing use in hypertension rather than a genuinely new therapeutic signal. Malignant hypertension is a hypertensive emergency and is not managed with potassium-sparing diuretics. Hyperkalaemia risk is also a significant concern when renal function is impaired.
 
 Other predictions were also reviewed:
-- **Malignant renovascular hypertension (99.82%):** ENaC inhibition is relevant to mineralocorticoid-driven hypertension. However, the only linked paper is a general 2003 review on investigating mineralocorticoid hypertension, not a study of amiloride.
-- **Pulmonary hypertension due to lung disease or hypoxia (99.81%):** Preclinical work suggests hypoxia downregulates alveolar ENaC, and ASIC1a channels (also targeted by amiloride) contribute to hypoxic pulmonary hypertension. No study shows amiloride treats this condition in patients. This is the only alternative with a research-question rationale (L4).
-- **Chronic pulmonary heart disease (99.68%):** Heart failure studies exist, but they address congestive heart failure, an existing indication, not cor pulmonale specifically. Evidence is indirect (L4).
-- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome:** No trials, no literature, and no clear mechanistic link. The scores are likely knowledge-graph artefacts.
+- **Malignant renovascular hypertension (0.9982):** ENaC inhibition is relevant to mineralocorticoid-driven hypertension. However, the only linked paper is a general 2003 review on investigating mineralocorticoid hypertension, not a study of amiloride.
+- **Pulmonary hypertension due to lung disease or hypoxia (0.9981):** Preclinical work suggests hypoxia downregulates alveolar ENaC, and ASIC1a channels (also targeted by amiloride) contribute to hypoxic pulmonary hypertension. No study shows amiloride treats this condition in patients. This is the only alternative with a research-question rationale (L4).
+- **Chronic pulmonary heart disease (0.9968):** Heart failure studies exist, but they address congestive heart failure, an existing indication, not cor pulmonale specifically. Evidence is indirect (L4).
+- **Pulmonary hypertension with unclear multifactorial mechanism and Braddock syndrome:** No trials, no literature, and no clear mechanistic link. The scores are likely TxGNN model (deep learning) artefacts.
 
 ---
 

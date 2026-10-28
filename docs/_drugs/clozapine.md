@@ -46,10 +46,10 @@ Clozapine is an atypical antipsychotic marketed in the UK as a 100 mg tablet. Th
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (the UK licence entry has no indication text) |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L2 (one completed Phase 2 RCT for the mania prediction; L1 for bipolar disorder broadly) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 (one completed Phase 2 RCT for the mania prediction; L1 for bipolar disorder broadly) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

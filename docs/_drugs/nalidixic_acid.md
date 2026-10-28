@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nalidixic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 432
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the compiled data (the authorisation entry has no ind…"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid 
 # Nalidixic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 |------|------|
 | Original Indication | Not recorded in the compiled data (the authorisation entry has no indication text) |
 | Predicted New Indication | Conjunctivitis |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Currently, detailed mechanism of action data are not available in the compiled d
 However, the prediction is weakly supported. The retrieved literature concerns *Shigella* and *Yersinia* serotyping, plasmids and antibiotic resistance in diarrhoeal disease, not ocular infection. Nalidixic acid is also a first-generation quinolone with a narrow spectrum (mainly Gram-negative Enterobacteriaceae) and limited potency. Later fluoroquinolones and other topical agents are the established ocular options. The high TxGNN score is therefore not backed by disease-specific clinical evidence.
 
 Other predictions in the data are weaker still:
-- **Sclerosing cholangitis** (score 99.63%): no trials or literature, purely computational (L5). Hepatic and CNS toxicity are concerns in a hepatobiliary disease.
-- **Rheumatoid arthritis** (score 99.41%): one observational study of oral *Staphylococcus* colonisation, not drug-specific (L5).
-- **Infectious otitis media** (score 99.04%): the only paper evaluates ofloxacin, a different quinolone. Nalidixic acid is poorly suited to the usual otitis pathogens (L4).
+- **Sclerosing cholangitis** (score 0.9963): no trials or literature, purely computational (L5). Hepatic and CNS toxicity are concerns in a hepatobiliary disease.
+- **Rheumatoid arthritis** (score 0.9941): one observational study of oral *Staphylococcus* colonisation, not drug-specific (L5).
+- **Infectious otitis media** (score 0.9904): the only paper evaluates ofloxacin, a different quinolone. Nalidixic acid is poorly suited to the usual otitis pathogens (L4).
 
 ---
 

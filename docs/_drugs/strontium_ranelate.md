@@ -6,9 +6,9 @@ nav_order: 578
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Strontium ranelate"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "severe nonproliferative diabetic retinopathy"]
+description: "Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Strontium Ranelate
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Strontium Ranelate: From Osteoporosis to Heparin Cofactor 2 Deficiency
+## Strontium Ranelate: Heparin cofactor 2 deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,28 +46,28 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis; osteoporosis (from the knowledge graph; no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, strontium ranelate acts on bone remodelling, through the calcium-sensing receptor and Wnt signalling, with both bone-forming and anti-resorptive effects. Its efficacy in osteoporosis is the basis of its original use.
 
-No established mechanistic link connects this bone activity to heparin cofactor II (SERPIND1) function. The high TxGNN score most likely reflects proximity in the knowledge graph rather than a biological rationale. In addition, strontium ranelate has been associated with an increased risk of venous thromboembolism (VTE), which runs against any benefit in a thrombophilic condition.
+No established mechanistic link connects this bone activity to heparin cofactor II (SERPIND1) function. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In addition, strontium ranelate has been associated with an increased risk of venous thromboembolism (VTE), which runs against any benefit in a thrombophilic condition.
 
 ### Other Predicted Indications (All Hold, Evidence Level L5)
 
 | Rank | Predicted Indication | TxGNN Score | Assessment |
 |------|------|------|------|
-| 2 | Antithrombin deficiency type 2 | 99.72% | No known action on antithrombin or the coagulation cascade. The VTE signal is a safety concern in this prothrombotic population. |
-| 3 | Factor 5 excess with spontaneous thrombosis | 99.71% | No documented effect on factor V. Use in a prothrombotic disorder would be very high-risk. |
-| 4 | Thrombophilia | 99.48% | The prediction is directionally inconsistent with the known raised VTE risk. |
-| 5 | Severe nonproliferative diabetic retinopathy | 99.40% | Any vascular or inflammatory rationale is speculative. Literature review and preclinical work would be needed first. |
+| 2 | Antithrombin deficiency type 2 | 0.9972 | No known action on antithrombin or the coagulation cascade. The VTE signal is a safety concern in this prothrombotic population. |
+| 3 | Factor 5 excess with spontaneous thrombosis | 0.9971 | No documented effect on factor V. Use in a prothrombotic disorder would be very high-risk. |
+| 4 | Thrombophilia | 0.9948 | The prediction is directionally inconsistent with the known raised VTE risk. |
+| 5 | Severe nonproliferative diabetic retinopathy | 0.9940 | Any vascular or inflammatory rationale is speculative. Literature review and preclinical work would be needed first. |
 
 ## Clinical Trial Evidence
 

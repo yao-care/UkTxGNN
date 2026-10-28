@@ -4,17 +4,17 @@ title: Meloxicam
 parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Meloxicam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,31 +47,29 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 |------|------|
 | Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (UK licence indication text not available in the data compiled for this report) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, meloxicam is a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain. Its efficacy in inflammatory and degenerative joint disease is established.
 
-The predicted condition is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*. Meloxicam has no known link to GDF5 or BMP signalling, and COX inhibition does not address the underlying genetic defect. The high score most likely reflects proximity in the knowledge graph to arthropathy and skeletal phenotypes rather than a plausible mechanism. At best, meloxicam might offer symptomatic relief of joint pain, which would be an indirect benefit and not disease modification.
+The predicted condition is a rare skeletal dysplasia caused by loss-of-function variants in *CDMP1/GDF5*. Meloxicam has no known link to GDF5 or BMP signalling, and COX inhibition does not address the underlying genetic defect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At best, meloxicam might offer symptomatic relief of joint pain, which would be an indirect benefit and not disease modification.
 
 **Other predictions in the top 10** (all with no clinical trials):
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Brachyolmia-amelogenesis imperfecta syndrome | 99.92% | L5 | Genetic (LTBP3-related); no mechanistic link to COX inhibition |
-| Myosclerosis | 99.90% | L5 | Rare congenital myopathy; no disease-modifying role |
-| Brachyolmia | 99.89% | L5 | Genetic skeletal dysplasia; mechanism unrelated |
-| Pseudoachondroplasia | 99.81% | L5 | Possible symptomatic relief of secondary joint degeneration only |
-| Spondyloarthropathy, susceptibility to | 99.52% | L5 | Near-duplicate of an existing indication, not a true repurposing candidate |
-| Rheumatoid nodulosis | 99.51% | L5 | May relieve joint symptoms; does not treat nodules |
-| Rheumatoid factor-positive polyarticular JIA | 99.44% | L4 | Subtype of an existing indication; indirect evidence only |
-| WHIM syndrome | 99.38% | L5 | CXCR4 gain-of-function immunodeficiency; no plausible link |
-| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.36% | L5 | Extremely rare; no plausible link |
+| Brachyolmia-amelogenesis imperfecta syndrome | 0.9992 | L5 | Genetic (LTBP3-related); no mechanistic link to COX inhibition |
+| Myosclerosis | 0.9990 | L5 | Rare congenital myopathy; no disease-modifying role |
+| Brachyolmia | 0.9989 | L5 | Genetic skeletal dysplasia; mechanism unrelated |
+| Pseudoachondroplasia | 0.9981 | L5 | Possible symptomatic relief of secondary joint degeneration only |
+| Rheumatoid nodulosis | 0.9951 | L5 | May relieve joint symptoms; does not treat nodules |
+| WHIM syndrome | 0.9938 | L5 | CXCR4 gain-of-function immunodeficiency; no plausible link |
+| Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9936 | L5 | Extremely rare; no plausible link |
 
 ## Clinical Trial Evidence
 
@@ -81,7 +79,6 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the lead prediction.
 
-For the eighth-ranked prediction (rheumatoid factor-positive polyarticular juvenile idiopathic arthritis), one indirect paper was found:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

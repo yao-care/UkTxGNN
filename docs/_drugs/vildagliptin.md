@@ -4,7 +4,7 @@ title: Vildagliptin
 parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Vildagliptin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Vildagliptin"
@@ -14,7 +14,7 @@ predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndr
 # Vildagliptin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Focal stiff limb syndrome |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 
 Detailed mechanism of action data is not available in the data compiled for this report. Vildagliptin is known to act on DPP-4 and is listed as a ligand of DPP-8, DPP-9 and TRPV4. Blocking DPP-4 raises active GLP-1 and GIP levels, which improves pancreatic islet function in type 2 diabetes. Its efficacy in type 2 diabetes is established.
 
-Focal stiff limb syndrome belongs to the stiff-person spectrum, a group of rare neurological disorders characterised by muscle stiffness and spasm. These are often thought to be autoimmune and linked to GABAergic signalling. The data compiled for this report show no mechanistic link between incretin pathway modulation and this condition. The high TxGNN score (99.88%) reflects a pattern in the knowledge graph rather than demonstrated biology. Any suggested connection, such as an immune-modulating effect of DPP-4 inhibition, is speculative and untested.
+Focal stiff limb syndrome belongs to the stiff-person spectrum, a group of rare neurological disorders characterised by muscle stiffness and spasm. These are often thought to be autoimmune and linked to GABAergic signalling. The data compiled for this report show no mechanistic link between incretin pathway modulation and this condition. The high TxGNN score (0.9988) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any suggested connection, such as an immune-modulating effect of DPP-4 inhibition, is speculative and untested.
 
 ---
 
@@ -104,7 +104,6 @@ The prediction rests only on the TxGNN model score. There are no trials, no publ
 - A mechanistic hypothesis linking DPP-4 inhibition (or other vildagliptin targets) to stiff-person-spectrum pathophysiology, with preclinical support
 - Detailed mechanism of action data and full UK labelling information (warnings, contraindications, interactions)
 - A targeted literature and trial registry search for stiff limb syndrome and related disorders
-- Review of the other TxGNN predictions for vildagliptin. Type 1 diabetes mellitus (score 99.37%) has substantially more supporting evidence in the data compiled, including a completed Phase 2 randomised trial of rapamycin plus vildagliptin and several small mechanistic studies. It is rated L2 and is a more evidence-supported research direction than this top-ranked prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

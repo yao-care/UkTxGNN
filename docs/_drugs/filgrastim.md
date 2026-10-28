@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 |------|------|
 | Original Indication | Constitutional neutropenia; severe congenital neutropenia; cyclic haematopoiesis; chronic familial neutropenia |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Primary release disorder of platelets is a qualitative platelet function defect,
 
 The same applies to the other top-ranked predictions, which are all inherited bleeding or protein-disorder conditions with no apparent connection to G-CSF signalling:
 
-- Pseudo-von Willebrand disease (score 99.997%)
+- Pseudo-von Willebrand disease (score 1.0000)
 - Glanzmann thrombasthenia (99.996%)
 - Scott syndrome (99.956%)
 - Haemorrhagic disorder due to constitutional thrombocytopenia (99.911%). This has only a weak, indirect rationale, since G-CSF mobilises haematopoietic progenitors but is not a recognised thrombopoietic agent.
@@ -76,7 +76,7 @@ The same applies to the other top-ranked predictions, which are all inherited bl
 
 Currently no clinical trials are registered for the top-ranked predicted indication, primary release disorder of platelets.
 
-For the related, lower-ranked prediction **platelet-type bleeding disorder** (score 99.69%), seven trials were linked. All were graded as having low relevance. They are stem cell transplantation studies in haematological malignancies or marrow failure, in which filgrastim is at most a supportive or mobilisation agent. Their listing under this indication is likely an ontology-mapping artefact.
+For the related, lower-ranked prediction **platelet-type bleeding disorder** (score 0.9969), seven trials were linked. All were graded as having low relevance. They are stem cell transplantation studies in haematological malignancies or marrow failure, in which filgrastim is at most a supportive or mobilisation agent. Their listing under this indication is likely an ontology-mapping artefact.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

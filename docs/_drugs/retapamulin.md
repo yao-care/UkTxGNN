@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Retapamulin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 538
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Retapamulin: predicted new indication Hordeolum (evidence level L5). Approved use: Impetigo, bullous impetigo"
+description: "Retapamulin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Retapamulin"
-predicted_indications: ["hordeolum", "staphylococcal scalded skin syndrome", "cysticercosis", "esophageal candidiasis", "coenurosis", "intestinal helminthiasis", "fascioliasis", "candidiasis, invasive", "congenital candidiasis", "neonatal candidiasis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Retapamulin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,54 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Retapamulin: From Impetigo to Hordeolum
+## Retapamulin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Retapamulin is a topical pleuromutilin antibacterial, originally used for impetigo and bullous impetigo.
-The TxGNN model predicts it may be effective for **hordeolum**, but **no clinical trials and no publications** were found in the data compiled for this report, so this is a computational prediction only.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo, bullous impetigo (from the knowledge graph; no approved indication text is available for the UK licence) |
-| Predicted New Indication | Hordeolum |
-| TxGNN Prediction Score | 98.82% |
-| Evidence Level | L5 (model prediction only; no actual studies. The underlying data lists L4, but with no trials, literature or mechanism studies the L5 definition applies.) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Detailed original mechanism of action data are not available in the data compiled for this report. Based on general pharmacological knowledge, retapamulin is a pleuromutilin antibacterial that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit (peptidyl transferase centre).
-
-Impetigo and hordeolum are both commonly caused by *Staphylococcus aureus*. A hordeolum is an infection of the eyelid glands. The drug's anti-staphylococcal activity therefore gives a plausible, but indirect, rationale.
-
-There are important limits. No ophthalmic formulation exists, and the available product is a skin ointment. There is no trial or literature support, so the high score should be treated as a hypothesis to test, not as evidence of efficacy.
-
-**Other predictions in the top 10.** The remaining predictions are much less plausible:
-- **Staphylococcal scalded skin syndrome (rank 2):** The pathogen link is plausible, but the condition is systemic and toxin-mediated and is usually treated with systemic antibiotics. A topical agent is unlikely to be sufficient.
-- **Cysticercosis, coenurosis, intestinal helminthiasis and fascioliasis:** These are parasitic infections. Retapamulin has no known antiparasitic activity.
-- **Oesophageal, invasive, congenital and neonatal candidiasis:** These are fungal infections. Retapamulin has no known antifungal activity, and a topical skin product is unsuited to oesophageal or systemic disease. The identical scores for congenital and neonatal candidiasis suggest a shared graph artefact rather than independent evidence.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ---
 
@@ -103,20 +67,6 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The hordeolum prediction scores highly, but it is supported only by an indirect anti-staphylococcal rationale. There are no trials or publications, no ophthalmic formulation, and no mechanism or label safety data in the compiled data. Other predictions have no biological plausibility.
-
-**To proceed, the following is needed:**
-- A literature and trial search for topical or ophthalmic pleuromutilin or retapamulin use in hordeolum and blepharitis
-- Mechanism of action data confirmed from DrugBank
-- SmPC warnings and contraindications (the BNF/label safety data are currently missing, which blocks safety screening)
-- Assessment of safety and formulation suitability for periocular or ophthalmic use, including the dermatitis contraindication signal
-- A route-compatibility assessment, since the current ointment is for skin use
-- Comparison against established treatments for hordeolum (warm compresses, topical antibiotics) to define any unmet need
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -46,17 +46,17 @@ Amylmetacresol is a topical antiseptic, used in throat lozenges. The TxGNN model
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the licence record contains no indication text) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Amylmetacresol is a topical antiseptic used in throat lozenges, usually for the relief of sore throat. Its use in the oropharynx involves minimal systemic exposure.
 
-Cauda equina syndrome is a compressive neurological emergency that is treated surgically. No mechanistic link to an antiseptic lozenge has been established, and no plausible pharmacological rationale is evident. The high score (99.99%) reflects a model prediction only, not clinical or literature support.
+Cauda equina syndrome is a compressive neurological emergency that is treated surgically. No mechanistic link to an antiseptic lozenge has been established, and no plausible pharmacological rationale is evident. The high score (0.9999) reflects a model prediction only, not clinical or literature support.
 
 The other top-ranked predictions are similarly unsupported. They include obsolete neurogenic bladder, irritable bowel syndrome and a cluster of ocular conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer and benign ciliary body neoplasm). The ocular cluster in particular looks like a model artefact from correlated disease terms rather than independent signals. The only weak, speculative rationale is for infectious anterior uveitis: amylmetacresol shows in vitro antibacterial and antiviral activity in the oropharyngeal setting, but it is not formulated or validated for intraocular use.
 

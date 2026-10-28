@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 |------|------|
 | Original Indication | Parkinson's disease and related parkinsonian syndromes |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Rasmussen encephalitis is a rare, chronic, unilateral inflammatory brain disease. It involves T-cell-mediated neuroinflammation, progressive hemispheric atrophy and intractable focal seizures, including epilepsia partialis continua. Its pathology is immune-mediated rather than primarily dopaminergic.
 
-The most plausible explanation for the prediction is an indirect link in the knowledge graph. Hemiparkinsonism-hemiatrophy syndrome, one of levodopa's listed original indications, shares features such as unilateral hemispheric atrophy. This looks like a network-proximity artefact rather than evidence of a therapeutic effect. Dopaminergic therapy would not be expected to change the immune-driven course or the seizures of Rasmussen encephalitis. The mechanistic rationale is therefore weak and unsupported at present.
+The most plausible explanation for the prediction is that the TxGNN model (deep learning) learned a similarity between related diseases. Hemiparkinsonism-hemiatrophy syndrome, one of levodopa's listed original indications, shares features such as unilateral hemispheric atrophy. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a therapeutic effect. Dopaminergic therapy would not be expected to change the immune-driven course or the seizures of Rasmussen encephalitis. The mechanistic rationale is therefore weak and unsupported at present.
 
 ## Clinical Trial Evidence
 

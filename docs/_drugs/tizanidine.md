@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tizanidine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 622
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Tizanidine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Tizanidine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis", "trichotillomania", "headache disorder", "dysthymic disorder", "fibromyalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 ---
 
 # Tizanidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Tizanidine is a centrally acting alpha-2 adrenergic agonist, marketed in the UK 
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.79% |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L1 (as scored in the compiled data; see the note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 score is generous. L1 formally requires at least two completed Phase 3 RCTs. The only Phase 3 trial (NCT05484349) has an unknown status and no results. The supporting efficacy evidence is a single older placebo-controlled RCT in chronic daily headache. On a strict reading, the evidence is closer to L2 to L3. The "Proceed with Guardrails" decision should be read in that light.
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The original indication is not recorded in the compiled UK licence data, so a direct comparison with the new indication cannot be made. Tizanidine is, however, a recognised muscle-tone agent. The literature has examined it as a preventive option in chronic daily headache, chronic migraine and tension-type headache, particularly where a muscle-tension component is present.
 
-The prediction is therefore mechanistically plausible, mainly for **chronic daily headache and migraine prophylaxis**. The broader group of predicted migraine-related entities (brainstem aura, genetic susceptibility) largely reflects the shared migraine neighbourhood in the knowledge graph and carries no specific evidence of its own.
+The prediction is therefore mechanistically plausible, mainly for **chronic daily headache and migraine prophylaxis**. The broader group of predicted migraine-related entities (brainstem aura) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; it carries no specific evidence of its own.
 
 ---
 
@@ -75,7 +75,6 @@ The prediction is therefore mechanistically plausible, mainly for **chronic dail
 | [NCT05484349](https://clinicaltrials.gov/study/NCT05484349) | Phase 3 | Unknown | 189 | Multicentre, randomised, double-blind, placebo-controlled study of oral tizanidine for preventing migraine attacks in adults with episodic migraine. Planned completion December 2025; no results available. |
 | [NCT02403687](https://clinicaltrials.gov/study/NCT02403687) | N/A | Completed | 300 | 24-week observational analgesic study of topical NSAIDs. Low relevance; tizanidine is not shown as a migraine intervention. |
 
-Related trials under adjacent predictions (not migraine itself): [NCT07382921](https://clinicaltrials.gov/study/NCT07382921) (pregabalin/tizanidine versus pregabalin in fibromyalgia, not yet recruiting, n=164).
 
 ---
 
@@ -108,7 +107,7 @@ This identifier appears to be a BNF-style product code rather than a standard MH
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links tizanidine with liver failure, kidney disease, pyoureter, psychotic disorders (including schizophreniform and schizoaffective disorder), mental disorder and hypotensive disorder. These should be verified against the SmPC.
+- **Contraindications (TxGNN model associations, not label text):** The TxGNN model (deep learning) links tizanidine with liver failure, kidney disease, pyoureter, psychotic disorders (including schizophreniform and schizoaffective disorder), mental disorder and hypotensive disorder. These may reflect similarities the model learned between related diseases, not biological evidence, and should be verified against the SmPC.
 - **Drug Interactions:** 100 interactions were identified. Those graded **Major** include:
   - Famotidine
   - Cimetidine

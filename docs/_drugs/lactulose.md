@@ -49,13 +49,13 @@ The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly t
 |------|------|
 | Original Indication | Hepatic encephalopathy, hepatic coma, constipation (the UK licence record carries no indication text) |
 | Predicted New Indication | Obstructive jaundice (top-ranked prediction, acute urate nephropathy, has no supporting evidence; see note below) |
-| TxGNN Prediction Score | 99.53% (obstructive jaundice); 99.89% for the top-ranked acute urate nephropathy |
-| Evidence Level | L3 (obstructive jaundice) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for the top-ranked acute urate nephropathy |
+| Evidence Level | L5 (obstructive jaundice) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; no registered trials, evidence limited to small, older or preclinical studies) |
 
-**Note on selection:** The highest-scoring prediction, acute urate nephropathy (99.89%), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.
+**Note on selection:** The highest-scoring prediction, acute urate nephropathy (0.9989), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.
 
 ---
 
@@ -138,13 +138,13 @@ The evidence for obstructive jaundice is limited to small, older clinical studie
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Acute urate nephropathy | 99.89% | L5 | No data; no plausible mechanism. Hold |
-| Nephrolithiasis | 99.78% | L5 | No data; computational only. Hold |
-| Bile duct disease | 99.47% | L4 | Mostly indirect or preclinical; overlaps with obstructive jaundice. Research question |
-| Biliary tract disease | 99.38% | L4 | Indirect (bile composition, SIBO, endotoxaemia). Research question |
-| Hyperphosphatemia | 99.37% | L4 | Only a review of constipation in CKD; no evidence of phosphate lowering. Hold |
-| Exercise-induced malignant hyperthermia | 99.14% | L5 | No data; no plausible mechanism. Hold |
-| Bile duct neoplasm | 99.12% | L4 | Indirect perioperative gut-barrier literature only. Research question |
+| Acute urate nephropathy | 0.9989 | L5 | No data; no plausible mechanism. Hold |
+| Nephrolithiasis | 0.9978 | L5 | No data; computational only. Hold |
+| Bile duct disease | 0.9947 | L4 | Mostly indirect or preclinical; overlaps with obstructive jaundice. Research question |
+| Biliary tract disease | 0.9938 | L5 | Indirect (bile composition, SIBO, endotoxaemia). Research question |
+| Hyperphosphatemia | 0.9937 | L5 | Only a review of constipation in CKD; no evidence of phosphate lowering. Hold |
+| Exercise-induced malignant hyperthermia | 0.9914 | L5 | No data; no plausible mechanism. Hold |
+| Bile duct neoplasm | 0.9912 | L5 | Indirect perioperative gut-barrier literature only. Research question |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

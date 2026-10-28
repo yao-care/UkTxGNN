@@ -6,7 +6,7 @@ nav_order: 467
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxazepam: predicted new indication Insomnia (evidence level L3). Approved use: Alcohol withdrawal delirium"
+description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
 predicted_indications: ["insomnia (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Oxazepam: From Alcohol Withdrawal Delirium and Anxiety to Insomnia
+## Oxazepam: insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **insomnia**, but there are cur
 |------|------|
 | Original Indication | Alcohol withdrawal delirium; anxiety (the UK licence record contains no indication text) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

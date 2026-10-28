@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,17 +48,17 @@ There are currently **no clinical trials** and **no publications** supporting th
 |------|------|
 | Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from knowledge-graph indication data; no indication text is recorded for the UK authorisation) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Flurbiprofen is an NSAID of the phenylalkanoic acid class. As a class, NSAIDs inhibit cyclo-oxygenase (COX) enzymes and reduce prostaglandin-mediated inflammation and pain. This is the basis of its use in inflammatory and degenerative joint disease.
 
-The predicted condition is different in nature. Acromesomelic dysplasia, Hunter-Thompson type, is a congenital skeletal dysplasia affecting limb development. It has no recognised inflammatory driver that COX inhibition would be expected to modify. The high score most likely reflects proximity in the knowledge graph, such as shared skeletal or joint-related genes or phenotypes, rather than a pharmacological link.
+The predicted condition is different in nature. Acromesomelic dysplasia, Hunter-Thompson type, is a congenital skeletal dysplasia affecting limb development. It has no recognised inflammatory driver that COX inhibition would be expected to modify. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 At most, a purely symptomatic role (for example, joint pain relief) can be imagined. No data support even this, and there is no plausible disease-modifying mechanism.
 
@@ -99,7 +99,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications, and no plausible mechanistic link. The condition is a congenital skeletal dysplasia with no inflammatory target for flurbiprofen, so the high score likely reflects knowledge-graph proximity.
+The prediction has no supporting trials or publications, and no plausible mechanistic link. The condition is a congenital skeletal dysplasia with no inflammatory target for flurbiprofen. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, and any biological rationale linking COX inhibition to this condition

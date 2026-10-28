@@ -4,17 +4,17 @@ title: Paliperidone
 parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia, schizoaffective disorder, schizophreniform disorder…"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Paliperidone: From Schizophrenia to Retinal Dystrophy (Top Model Prediction)
+## Paliperidone: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, schizoaffective disorder, schizophreniform disorder, psychotic disorder (from the knowledge graph; no approved indication text is available for the UK licence) |
-| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); treatment-refractory schizophrenia (rank 10) is the only prediction with related studies |
-| TxGNN Prediction Score | 99.92% (retinal dystrophy); 99.80% (treatment-refractory schizophrenia) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (retinal dystrophy); L4 (treatment-refractory schizophrenia) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,11 +59,10 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 **Retinal dystrophy (rank 1):** No mechanistic link is supported. The high score (0.999) is a model output only, and no trials or literature were found. The same applies to the other highly ranked predictions, which include X-linked and syndromic myopia, hydranencephaly, a congenital disorder of glycosylation, perisylvian polymicrogyria, Charcot-Marie-Tooth disease type 1G and atypical glycine encephalopathy. Most are monogenic or structural conditions in which an antipsychotic is unlikely to alter the underlying disease. A speculative dopaminergic role in eye growth has been suggested for myopia, but nothing here supports it for paliperidone.
 
-**Treatment-refractory schizophrenia (rank 10):** This is a close extension of the approved indication, so the receptor-antagonism rationale is plausible. However, clozapine is the established standard in this subpopulation, and the data provided do not show that paliperidone is effective in it.
 
 ## Clinical Trial Evidence
 
-No trials are registered for the rank 1 prediction (retinal dystrophy). The trials below are linked to treatment-refractory schizophrenia (rank 10) and show paliperidone only as a possible comparator or background treatment.
+No trials are registered for the rank 1 prediction (retinal dystrophy with or without extraocular anomalies).
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -73,7 +72,7 @@ No trials are registered for the rank 1 prediction (retinal dystrophy). The tria
 
 ## Literature Evidence
 
-No literature was found for the rank 1 prediction. The reviews below relate to treatment-refractory schizophrenia (rank 10) and are general in scope.
+No literature was found for the rank 1 prediction.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -106,7 +105,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predictions (including retinal dystrophy) rest on model scores alone, with no trials, no literature and no plausible mechanistic link. Treatment-refractory schizophrenia is biologically sensible but is supported only by indirect Phase 4 trials and general reviews, and clozapine remains the standard of care.
+The top-ranked predictions (including retinal dystrophy with or without extraocular anomalies) rest on model scores alone, with no trials, no literature and no plausible mechanistic link.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for paliperidone, to allow a proper mechanistic analysis

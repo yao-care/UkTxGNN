@@ -50,10 +50,10 @@ Support comes from **18 publications** (mainly reviews, cohort studies and case 
 |------|------|
 | Original Indication | Hereditary angioedema, including hereditary angioedema with C1 inhibitor deficiency |
 | Predicted New Indication | C1 inhibitor deficiency |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

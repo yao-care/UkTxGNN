@@ -6,9 +6,9 @@ nav_order: 312
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Ganirelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Prevention of premature ovulation during ovarian stimulation in ferti…"
 monitor_inn: "Ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
+description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ganirelix
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ganirelix: From Fertility Treatment (Ovarian Stimulation) to Hypertrichosis
+## Ganirelix: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,24 +46,24 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Prevention of premature ovulation during ovarian stimulation in fertility treatment (from pharmacology data; no approved indication text is recorded for the UK authorisation) |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This suppresses LH and FSH release and, indirectly, gonadal sex hormone production. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
 
-The only conceivable link to hypertrichosis is an indirect reduction of androgen drive. However, most forms of hypertrichosis are not androgen-dependent (they are congenital or drug-induced), so this mechanism is unlikely to apply to them. The high TxGNN score reflects proximity in a knowledge graph, not clinical or experimental support.
+The only conceivable link to hypertrichosis is an indirect reduction of androgen drive. However, most forms of hypertrichosis are not androgen-dependent (they are congenital or drug-induced), so this mechanism is unlikely to apply to them.
 
 The other nine predictions are weaker still. Most concern congenital or structural conditions (Ambras syndrome, Dandy-Walker malformation, hair shaft abnormalities, familial trichomegaly, odontal/periodontal malformation syndromes) with no plausible link to gonadotropin signalling. Two are hormonal and deserve a brief mention as research questions only:
 
-- **Central precocious puberty** (score 99.75%): GnRH receptor blockade is mechanistically coherent, but the standard of care is GnRH agonists. Ganirelix is short-acting with no depot form, which limits practicality.
-- **Familial male-limited precocious puberty** (score 99.85%): This is driven by activating LHCGR mutations that act independently of the pituitary, so a GnRH antagonist is expected to be ineffective.
+- **Central precocious puberty** (score 0.9975): GnRH receptor blockade is mechanistically coherent, but the standard of care is GnRH agonists. Ganirelix is short-acting with no depot form, which limits practicality.
+- **Familial male-limited precocious puberty** (score 0.9985): This is driven by activating LHCGR mutations that act independently of the pituitary, so a GnRH antagonist is expected to be ineffective.
 
 ## Clinical Trial Evidence
 
@@ -99,7 +99,7 @@ Warnings and contraindications were not available. Please refer to the SmPC and 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based model score only, with no clinical trials or literature, and the mechanism is not plausible for most hypertrichosis forms. Evidence level is L5.
+Evidence level is L5.
 
 **To proceed, the following is needed:**
 - Label warnings and contraindications from the SmPC/BNF (a blocking gap for safety screening)

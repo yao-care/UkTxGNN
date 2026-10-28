@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 463
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Omeprazole: predicted new indication Duodenogastric reflux (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease…"
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **2**
 
 </div>
 
-## Omeprazole: From Gastro-oesophageal Reflux and Peptic Ulcer Disease to Duodenogastric Reflux
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Omeprazole is a proton pump inhibitor originally used for acid-related upper gastrointestinal conditions such as gastric and duodenal ulcers, gastro-oesophageal reflux disease and Zollinger-Ellison syndrome.
-The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the supporting evidence is limited: **1 registered clinical trial (not relevant to efficacy)** and **15 publications**, mostly small human studies and animal work.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be useful for **duodenogastric reflux**, but the
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, duodenal ulcer, Zollinger-Ellison syndrome (the licence record has no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.64% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9964 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -65,7 +64,7 @@ Duodenogastric reflux involves bile and duodenal contents flowing back into the 
 
 The link is, however, indirect. Omeprazole does not directly treat bile reflux, and some data suggest it does not reduce reflux. Rat studies also raise a safety concern: acid blockade combined with duodenogastric reflux promoted gastric neoplasia. The high TxGNN score is a model prediction, not clinical evidence.
 
-A second candidate, **duodenal obstruction** (score 99.64%), was also generated. It is a mechanical condition needing endoscopic or surgical relief, and omeprazole would not resolve an established obstruction. The retrieved literature consists of case reports and does not test omeprazole for this purpose. The evidence level is L5 and the recommendation is **Hold**. The score likely reflects network proximity to peptic ulcer disease rather than a distinct therapeutic effect.
+A second candidate, **duodenal obstruction** (score 0.9964), was also generated. It is a mechanical condition needing endoscopic or surgical relief, and omeprazole would not resolve an established obstruction. The retrieved literature consists of case reports and does not test omeprazole for this purpose. The evidence level is L5 and the recommendation is **Hold**. The score likely reflects network proximity to peptic ulcer disease rather than a distinct therapeutic effect.
 
 ---
 

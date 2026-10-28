@@ -4,17 +4,17 @@ title: Isotretinoin
 parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Isotretinoin: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
+description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isotretinoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
+## Isotretinoin: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-According to the knowledge graph used for this report, isotretinoin is linked to hypertensive disorders as its original indication, although it is marketed in the UK as a topical gel (0.05%) product.
 The TxGNN model predicts it may be effective for **malignant renovascular hypertension** (and also malignant hypertensive renal disease), but **no clinical trials and no publications** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; no approved indication text is available in the licence data) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.01% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. The original indications recorded in the knowledge graph (hypertensive disorder, hypertension) are unusual for isotretinoin, which is a retinoid known mainly for treating severe acne. This suggests the drug-indication links in the graph may be erroneous or mismatched, so the prediction should be treated with caution.
+Currently, detailed mechanism of action data is not available. The original indications recorded in the knowledge graph (hypertensive disorder, hypertension) are unusual for isotretinoin, which is a retinoid known mainly for treating severe acne.
 
 The only mechanistic link that can be proposed is speculative: in preclinical settings, retinoids have been reported to influence renin-angiotensin signalling, renal vascular remodelling and renin expression. This is not supported by the data compiled for this report.
 
-The second predicted indication, malignant hypertensive renal disease, has an identical score (99.01%). This suggests both predictions come from the same hypertension-related region of the graph rather than from independent signals. Isotretinoin's known adverse effects (teratogenicity, dyslipidaemia) also argue against an antihypertensive role without strong evidence.
+The second predicted indication, malignant hypertensive renal disease, has an identical score (0.9901). Isotretinoin's known adverse effects (teratogenicity, dyslipidaemia) also argue against an antihypertensive role without strong evidence.
 
 ## Clinical Trial Evidence
 
@@ -103,10 +102,9 @@ For label-based warnings and contraindications, please refer to the SmPC and BNF
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone (Evidence Level L5), with no trials or publications. The recorded original indications look inconsistent with isotretinoin's actual use, and the safety profile is concerning for a severely compromised cardiovascular and renal population.
+The recorded original indications look inconsistent with isotretinoin's actual use, and the safety profile is concerning for a severely compromised cardiovascular and renal population.
 
 **To proceed, the following is needed:**
-- Verification of the knowledge-graph indication links for isotretinoin, which may be erroneous
 - Mechanism of action data (e.g. from DrugBank)
 - Label-based warnings and contraindications from the SmPC and BNF, and confirmation of the licence details with the MHRA
 - Preclinical or clinical evidence that retinoids affect renovascular or malignant hypertension

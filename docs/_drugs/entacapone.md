@@ -48,10 +48,10 @@ but **no clinical trials and no publications** currently support this prediction
 |------|------|
 | Original Indication | Parkinson disease and related parkinsonian syndromes (the licence record in the compiled data has no indication text) |
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -103,11 +103,11 @@ Please refer to the SmPC and BNF for authoritative safety information. Report su
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |---|---|---|---|---|
-| 2 | Rasmussen subacute encephalitis | 99.73% | L5 | No clear mechanistic link |
-| 3 | Myelitis | 99.63% | L5 | No mechanistic rationale or data |
-| 4 | Juvenile paralysis agitans (Hunt) | 99.60% | L5 | Largely overlaps with existing Parkinson indications |
-| 7 | Lewy body dementia | 99.25% | L4 | Only indirect preclinical signals; one imaging trial (NCT04246437) does not test entacapone |
-| 10 | PSP-corticobasal syndrome | 99.04% | L5 | Poor levodopa response expected; linked trial is observational gait analysis |
+| 2 | Rasmussen subacute encephalitis | 0.9973 | L5 | No clear mechanistic link |
+| 3 | Myelitis | 0.9963 | L5 | No mechanistic rationale or data |
+| 4 | Juvenile paralysis agitans (Hunt) | 0.9960 | L5 | Largely overlaps with existing Parkinson indications |
+| 7 | Lewy body dementia | 0.9925 | L5 | Only indirect preclinical signals; one imaging trial (NCT04246437) does not test entacapone |
+| 10 | PSP-corticobasal syndrome | 0.9904 | L5 | Poor levodopa response expected; linked trial is observational gait analysis |
 
 The remaining predictions (ranks 5, 6, 8 and 9: transaldolase deficiency, lethal infantile mitochondrial myopathy, fructose-1,6-bisphosphatase deficiency, and a polymicrogyria syndrome) have no plausible mechanistic link and no evidence.
 

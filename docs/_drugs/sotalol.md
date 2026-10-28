@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sotalol
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 575
-evidence_level: L4
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Sotalol: predicted new indication Stroke disorder (highest TxGNN score overall: sick sinus syndrome 2… (evidence level L4). Approved use: Atrial fibrillation"
 monitor_inn: "Sotalol"
-predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation", "obsolete susceptibility to ischemic stroke"]
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
+description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sotalol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Sotalol: From Atrial Fibrillation to Stroke Disorder
+## Sotalol: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -41,7 +41,7 @@ Evidence Level: **L4** | Predicted Indications: **7**
 Sotalol is a class III antiarrhythmic with beta-blocking activity, originally used to treat atrial fibrillation.
 The TxGNN model's most clinically plausible prediction is **stroke disorder** (an indirect link via atrial fibrillation rhythm control). It is supported by **1 clinical trial** and **20 publications**, none of which examines stroke as a primary endpoint.
 
-*Note: The highest-scoring prediction by TxGNN score is sick sinus syndrome 2 (autosomal dominant), at 99.76%. It has no supporting trials or literature, and sotalol's pharmacology raises a safety concern in that condition. This report therefore focuses on stroke disorder, the prediction with the most evidence.*
+*Note: The highest-scoring prediction by TxGNN score is sick sinus syndrome 2 (autosomal dominant), at 0.9976. It has no supporting trials or literature, and sotalol's pharmacology raises a safety concern in that condition. This report therefore focuses on stroke disorder, the prediction with the most evidence.*
 
 ---
 
@@ -49,12 +49,12 @@ The TxGNN model's most clinically plausible prediction is **stroke disorder** (a
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation |
-| Predicted New Indication | Stroke disorder (highest TxGNN score overall: sick sinus syndrome 2, autosomal dominant) |
-| TxGNN Prediction Score | 99.44% (stroke disorder); 99.76% (sick sinus syndrome 2) |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN Prediction Score | 0.9976 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -65,7 +65,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Sotalol does not treat stroke directly. The link is indirect: atrial fibrillation increases the risk of thromboembolic stroke, so maintaining sinus rhythm could in principle reduce that risk. However, the retrieved literature concerns AF management and its complications rather than stroke outcomes. Anticoagulation remains the main stroke-prevention strategy in AF.
 
-The other predictions are weaker. Sick sinus syndrome 2 involves sinus node dysfunction and bradycardia, so further slowing of the sinus node is a safety concern rather than a rationale. Wildervanck syndrome, sarcoglycanopathy and macrocephaly with dysmorphic facies and psychomotor retardation have no plausible mechanistic link and no supporting studies. "Obsolete susceptibility to ischemic stroke" is an obsolete ontology term that overlaps with the stroke prediction and should be assessed together with it. For manic bipolar affective disorder, the retrieved papers describe an interaction risk (additive QT prolongation with antipsychotics), not a therapeutic benefit.
+The other predictions are weaker. Sick sinus syndrome 2 involves sinus node dysfunction and bradycardia, so further slowing of the sinus node is a safety concern rather than a rationale. Wildervanck syndrome, sarcoglycanopathy and macrocephaly with dysmorphic facies and psychomotor retardation have no plausible mechanistic link and no supporting studies. For manic bipolar affective disorder, the retrieved papers describe an interaction risk (additive QT prolongation with antipsychotics), not a therapeutic benefit.
 
 ---
 

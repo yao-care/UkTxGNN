@@ -6,7 +6,7 @@ nav_order: 472
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxymetholone: predicted new indication Seborrhoeic dermatitis (evidence level L5). Approved use: Aplastic anaemia (including Diamond-Blackfan anaemia…"
+description: "Oxymetholone: predicted new indication seborrheic dermatitis (evidence level L5). Approved use: Aplastic anaemia (including Diamond-Blackfan anaemia…"
 monitor_inn: "Oxymetholone"
 predicted_indications: ["seborrheic dermatitis"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Oxymetholone: From Aplastic Anaemia to Seborrhoeic Dermatitis
+## Oxymetholone: From Aplastic Anaemia to Seborrheic Dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but **no clinical trials and no publications** currently support this direction;
 |------|------|
 | Original Indication | Aplastic anaemia (including Diamond-Blackfan anaemia, inherited and idiopathic aplastic anaemia) |
 | Predicted New Indication | Seborrhoeic dermatitis |
-| TxGNN Prediction Score | 99.05% |
+| TxGNN Prediction Score | 0.9905 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 A link to seborrhoeic dermatitis is speculative. One could hypothesise that androgen-mediated modulation of sebaceous gland activity or inflammation might play a role. However, androgens generally increase sebum production and are more often associated with seborrhoea and acne, so this hypothesis runs against the expected direction of effect. No mechanistic evidence was available to support the link, and the relationship between the original and predicted indications remains unassessed.
 
-The high TxGNN score (0.99) is a computational output only and should be treated as a hypothesis-generating signal, not as evidence of efficacy.
+The high TxGNN score (0.9905) is a computational output only and should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ---
 
@@ -92,7 +92,7 @@ Only one single-ingredient authorisation is recorded, and its status is valid. T
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** The TxGNN knowledge graph links oxymetholone with contraindications in the following areas:
+- **Contraindications (TxGNN model associations, not label text):** The TxGNN model (deep learning) links oxymetholone with contraindications in the following areas. These associations may reflect similarities the model learned between related diseases, not biological evidence:
   - **Hepatic:** liver failure, liver disease, peliosis hepatis, gallbladder disease
   - **Renal:** kidney disease, nephrotic syndrome (including familial nephrotic syndrome and lipoid nephrosis), pyoureter
   - **Cardiovascular:** congestive heart failure, heart disease, cardiovascular disease, coronary artery disease, arteriosclerosis disorder, atherosclerosis, hypoalphalipoproteinemia

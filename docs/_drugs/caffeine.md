@@ -4,17 +4,17 @@ title: Caffeine
 parent: Model Prediction Only (L5)
 nav_order: 122
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Caffeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Headache and migraine disorders, allergic and vasomotor rhinitis…"
+indication_count: 8
 monitor_inn: "Caffeine"
-predicted_indications: ["nasal cavity disease", "thrombotic disease", "acute laryngopharyngitis", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
+last_modified_at: 2026-10-27
+description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Caffeine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Caffeine: From Headache and Migraine Disorders to Nasal Cavity Disease
+## Caffeine: Methylxanthine adenosine-receptor antagonist → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Caffeine is a methylxanthine used in headache and migraine disorders and in combination products for cold, pharyngitis and rhinitis.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but **no clinical trials** and only **3 publications** (a review, a formulation study and an animal study, none showing treatment of nasal disease) support this direction.
-Other predicted indications, such as hypnic headache and neuralgia, have somewhat stronger indirect support and may be better research priorities.
+Caffeine is a methylxanthine stimulant that acts as an adenosine receptor antagonist.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **3 publications**, none of which studies the treatment of nasal disease directly.
 
 ---
 
@@ -48,21 +47,21 @@ Other predicted indications, such as hypnic headache and neuralgia, have somewha
 
 | Item | Content |
 |------|------|
-| Original Indication | Headache and migraine disorders, allergic and vasomotor rhinitis, common cold, pharyngitis (from the knowledge graph; no approved indication text is available for the UK product) |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 (preclinical and mechanistic evidence only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9991 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, caffeine is a methylxanthine that antagonises adenosine receptors and inhibits phosphodiesterase. It may also interact with bitter taste receptors in airway epithelium.
+Detailed mechanism of action data are not available in the data compiled for this report. Caffeine is a methylxanthine that blocks adenosine receptors and inhibits phosphodiesterase. Both actions can modulate inflammatory and vascular responses. One review also describes bitter taste receptors in the nasal cavity and airways, which caffeine may interact with.
 
-Caffeine is already used in combination products for allergic and vasomotor rhinitis, so a link to nasal conditions is biologically plausible. However, the supporting evidence is indirect. The one nasal-related study examined a nasal gel as a delivery route for cognition after sleep deprivation, not as treatment for nasal disease. The prediction is therefore best regarded as a hypothesis, not an established direction.
+Caffeine is used in some combination products for rhinitis-type conditions, which gives some biological plausibility. However, nothing in the retrieved evidence is specific to nasal cavity disease as a broad category. The prediction should be treated as a hypothesis rather than a supported use.
 
 ---
 
@@ -76,9 +75,9 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26272040](https://pubmed.ncbi.nlm.nih.gov/26272040/) | 2015 | Review | Pharmacology & Therapeutics | Bitter taste receptors are expressed in airway tissues including the nasal cavity; their pharmacology and role in human airways are reviewed |
-| [35579146](https://pubmed.ncbi.nlm.nih.gov/35579146/) | 2022 | Formulation/Preclinical | Current Drug Delivery | Nasal caffeine thermo-sensitive in situ gel developed to enhance cognition after sleep deprivation (a delivery route, not nasal disease treatment) |
-| [9751618](https://pubmed.ncbi.nlm.nih.gov/9751618/) | 1998 | Animal study | Cancer Research | Black tea and caffeine inhibited lung tumorigenesis in rats given a tobacco-specific carcinogen (not relevant to nasal disease) |
+| [26272040](https://pubmed.ncbi.nlm.nih.gov/26272040/) | 2015 | Review | Pharmacology & Therapeutics | Bitter taste receptors are expressed in several tissues, including the nasal cavity and lungs, and have a role in human airways. It does not test caffeine as a treatment for nasal disease. |
+| [35579146](https://pubmed.ncbi.nlm.nih.gov/35579146/) | 2022 | Formulation/Preclinical | Current Drug Delivery | Nasal caffeine thermo-sensitive gel studied for cognition after sleep deprivation. This concerns a delivery route, not treatment of nasal disease. |
+| [9751618](https://pubmed.ncbi.nlm.nih.gov/9751618/) | 1998 | Animal study | Cancer Research | Black tea and caffeine inhibited lung tumorigenesis in rats given a carcinogen. Unrelated to nasal disease. |
 
 ---
 
@@ -86,27 +85,18 @@ Currently no related clinical trials registered.
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0404000E0AAAKAK | Caffeine solution 25 mg/5 ml | Not specified | Not specified |
-
-The record shows one valid single-ingredient product. The identifier appears to be a BNF-style product code (not a PL number), and no manufacturer, dosage form or indication text is available. Please check the MHRA and BNF entries directly.
+| 0404000E0AAAKAK | Caffeine Soln 25mg/5ml | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications and cautions (from the knowledge graph, not label text):** The knowledge graph links caffeine to caution or contraindication in several conditions. These include:
-  - Cardiovascular: hypertension, orthostatic hypotension, postural orthostatic tachycardia syndrome, long QT syndrome.
-  - Neurological and psychiatric: epilepsy, insomnia, anxiety disorders.
-  - Respiratory and gastrointestinal: COPD, peptic and gastric ulcer, inflammatory bowel disease, pancreatitis.
-  - Hepatic, renal and metabolic: liver disease and liver failure, kidney disease, porphyria, hypothyroidism.
-  - Other: gallbladder disease, thrombocytopenia.
-- **Drug Interactions:** 75 interactions were identified. The main examples are listed below; the full list should be checked in the BNF.
-  - **Major:** cocaine (nasal and topical).
-  - **Moderate:** alosetron, obeticholic acid, abametapir (topical), adenosine, anagrelide, bendamustine, capmatinib, ciprofloxacin, cycloserine, dipyridamole, duloxetine.
-  - **Minor:** acetylsalicylic acid, cimetidine, atazanavir, disulfiram.
-- **Other considerations:** Retrieved literature raises cardiovascular concerns with stimulant use and medication-overuse headache with analgesic combinations.
+**Drug Interactions**: 75 interactions are recorded. Examples include:
+- **Major**: cocaine (nasal), cocaine (topical)
+- **Moderate**: alosetron, obeticholic acid, adenosine, anagrelide, bendamustine, capmatinib, ciprofloxacin, cycloserine, dipyridamole, duloxetine, abametapir (topical)
+- **Minor**: acetylsalicylic acid, cimetidine, atazanavir, disulfiram
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -115,19 +105,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials and the supporting literature is indirect, with only a nasal delivery formulation study and an airway review. The label-based safety data are also incomplete.
+The prediction score is high, but no clinical trial or publication directly studies caffeine for nasal cavity disease. The evidence therefore stays at L5, and the data are insufficient to justify progression.
 
 **To proceed, the following is needed:**
-- A defined target condition within "nasal cavity disease" (for example, allergic or vasomotor rhinitis, where caffeine is already used in combinations)
-- Controlled clinical or well-designed preclinical evidence in nasal disease
-- Mechanism of action data and label-based warnings and contraindications from the SmPC and BNF
-- Confirmation of the product's dosage form, approved indication and route compatibility
-
-**Other predicted indications of note:**
-- **Hypnic headache** (score 99.17%): reviews and case series describe caffeine as a first-line option, but no controlled trials exist. This is classed as a research question and is the best-supported alternative.
-- **Neuralgia** and **trigeminal autonomic cephalalgia** (L4): preclinical support and related headache literature, but no caffeine-specific trials.
-- **Thrombotic disease** and **vein disease**: evidence is indirect, the direction of effect is unclear, and there are cardiovascular safety concerns. Both are on Hold.
-- **Acute laryngopharyngitis, papillary conjunctivitis, glossodynia and coccygodynia** (L5): model predictions only, with no supporting studies.
+- Clarify which specific nasal conditions are of interest, as "nasal cavity disease" is very broad
+- Mechanism of action data from a source such as DrugBank
+- Preclinical or early clinical studies of caffeine in a defined nasal condition
+- SmPC warnings and contraindications for the UK-licensed product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

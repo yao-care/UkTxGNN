@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulpiride
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 586
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-15
 description: "Sulpiride: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Schizophrenia"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Sulpiride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 </div>
 
-## Sulpiride: From Schizophrenia to Retinal Dystrophy
+## Sulpiride: From Schizophrenia to retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but the only supporting evidence is **2 preclinical publications** in rat models
 |------|------|
 | Original Indication | Schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Dopamine is an important signalling molecule in the retina, and D2-like receptor
 
 This link has limits. The studies measured electrical light responses in animal retinas. They did not show any effect on disease progression, retinal cell survival or vision in people with inherited retinal dystrophy. The relationship between schizophrenia and retinal dystrophy is purely pharmacological (a shared receptor target), not a shared disease process. Detailed mechanism of action data were not available in the data compiled for this report.
 
-Eight other lower-ranked predictions (hydranencephaly, polymicrogyria, Charcot-Marie-Tooth disease type 1G, several myopia subtypes, a glycosylation disorder and atypical glycine encephalopathy) have only model scores of about 99.9% and no trials or literature. Most have no identifiable mechanistic rationale. They were not evaluated further here.
+Eight other lower-ranked predictions (hydranencephaly, polymicrogyria, Charcot-Marie-Tooth disease type 1G, several myopia subtypes, a glycosylation disorder and atypical glycine encephalopathy) have only model scores of about 0.9990 and no trials or literature. Most have no identifiable mechanistic rationale. They were not evaluated further here.
 
 ## Clinical Trial Evidence
 

@@ -50,10 +50,10 @@ The evidence is model-based only, and the recommendation is to hold.
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the marketing authorisation record contains no approved indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,7 +68,7 @@ This is also a veterinary condition rather than a human one, so it is of limited
 
 Other predictions in the data compiled for this report do not look stronger:
 - **Simian immunodeficiency virus infection** (L4): four preclinical macaque studies were found (2011–2016). They appear to examine combination antiretroviral regimens, and it is unclear whether darunavir was a component. They are best viewed as HIV animal-model work, not as a new human indication.
-- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (L5): no plausible mechanistic link; likely a knowledge-graph artefact.
+- **Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter** (L5): no plausible mechanistic link; likely a TxGNN model (deep learning) artefact.
 - **Obsolete familial combined hyperlipidaemia** (L5): protease inhibitors are associated with adverse lipid effects, so the association may reflect a side-effect relationship rather than a therapeutic one. The disease term is also obsolete.
 
 ---

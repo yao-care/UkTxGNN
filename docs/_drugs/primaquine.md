@@ -4,17 +4,17 @@ title: Primaquine
 parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Plasmodium vivax malaria"
 monitor_inn: "Primaquine"
-predicted_indications: ["myiasis", "wound myiasis", "creeping myiasis", "furuncular myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primaquine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Primaquine: From Plasmodium vivax Malaria to Myiasis
+## Primaquine: Myiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **myiasis** (fly-larvae infesta
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasmodium vivax malaria |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 On review, the mechanistic case for myiasis is weak. Myiasis is an infestation by dipteran fly larvae, which are insects, not protozoa. Primaquine has no known larvicidal activity. Standard management is larval removal and wound care, with ivermectin-type agents used in some presentations.
 
-The high score most likely reflects proximity to other antiparasitic indications in the knowledge graph, not a pharmacological link. The same pattern applies to the closely related predictions (wound myiasis, creeping myiasis and furuncular myiasis), which also lack clinical or literature support.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The same pattern applies to the closely related predictions (wound myiasis, creeping myiasis and furuncular myiasis), which also lack clinical or literature support.
 
 ---
 

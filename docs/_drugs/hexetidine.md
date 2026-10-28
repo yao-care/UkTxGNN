@@ -48,17 +48,17 @@ but there are **no clinical trials** and **no relevant publications** supporting
 |------|------|
 | Original Indication | Not stated in the available authorisation data (the product is a 0.1% sugar-free mouthwash) |
 | Predicted New Indication | Interventricular septum aneurysm |
-| TxGNN Prediction Score | 99.16% |
+| TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, hexetidine is a topical antiseptic used in the mouth, with antimicrobial and antifungal activity and negligible systemic exposure.
 
-An interventricular septum aneurysm is a structural cardiac abnormality. No known pathway through which a topical oral antiseptic could modify this condition has been identified, so the prediction does not appear mechanistically reasonable. The high TxGNN score reflects graph-based association only.
+An interventricular septum aneurysm is a structural cardiac abnormality. No known pathway through which a topical oral antiseptic could modify this condition has been identified, so the prediction does not appear mechanistically reasonable. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are similarly unsupported. They include pulmonary valve disease, orofacial clefting syndrome, Laubry-Pezzi syndrome, Pierre Robin syndrome (syndromic and chromosomal forms), chromosomal deletion disorders and Jeune syndrome. All are structural, developmental or genetic conditions with no plausible link to a topical antiseptic. The only literature found for any of them is a general review of anti-plaque agents (PMID 12974527), which was linked to a glycosylation disorder (disorder of fucoglycan synthesis) and has no bearing on it.
 
@@ -89,7 +89,7 @@ No drug interaction records were found in the data compiled for this report.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-model score. There are no trials or relevant publications, and no plausible mechanism links a topical oral antiseptic to a structural cardiac defect. Systemic exposure is also negligible.
+The prediction rests only on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or relevant publications, and no plausible mechanism links a topical oral antiseptic to a structural cardiac defect. Systemic exposure is also negligible.
 
 **To proceed, the following is needed:**
 - A credible mechanistic hypothesis that explains how a topical antiseptic could affect the condition

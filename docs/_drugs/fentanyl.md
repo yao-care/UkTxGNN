@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,9 +59,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which cause water retention even when vasopressin is undetectable. Opioids can influence vasopressin release centrally, and SIADH-like effects have been reported with opioids. However, this would not correct a receptor-level, vasopressin-independent defect.
 
-**No established mechanistic link was identified.** The high score probably reflects network proximity in the knowledge graph (for example, to water-balance or vasopressin-related pathways) rather than a therapeutic rationale. Fentanyl may in fact worsen water retention or hyponatraemia, which is a safety concern rather than a benefit.
+**No established mechanistic link was identified.** The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example, those involving water-balance or vasopressin-related pathways), not biological evidence. Fentanyl may in fact worsen water retention or hyponatraemia, which is a safety concern rather than a benefit.
 
-A second prediction, **Tourette syndrome** (score 99.05%), was also generated. Its rationale is weak and speculative. The endogenous opioid system modulates striatal dopamine, but there is no clinical evidence for fentanyl in tic suppression. Its abuse liability, respiratory depression, tolerance and dependence make it unsuitable for a chronic neurodevelopmental condition. It is also evidence level L5 with a recommendation of Hold.
+A second prediction, **Tourette syndrome** (score 0.9905), was also generated. Its rationale is weak and speculative. The endogenous opioid system modulates striatal dopamine, but there is no clinical evidence for fentanyl in tic suppression. Its abuse liability, respiratory depression, tolerance and dependence make it unsuitable for a chronic neurodevelopmental condition. It is also evidence level L5 with a recommendation of Hold.
 
 ## Clinical Trial Evidence
 

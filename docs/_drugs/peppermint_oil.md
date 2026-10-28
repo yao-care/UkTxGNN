@@ -6,7 +6,7 @@ nav_order: 483
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Peppermint Oil: predicted new indication Cardiovascular disease (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Peppermint Oil: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Peppermint Oil: From an Unspecified Original Indication to Cardiovascular Disease
+## Peppermint Oil: From an Unspecified Original Indication to Leprosy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ That evidence consists of **1 completed clinical trial** and **2 directly linked
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Cardiovascular disease (the highest-ranked prediction with supporting evidence; the top-scoring prediction overall, leprosy, has none) |
-| TxGNN Prediction Score | 99.13% (cardiovascular disease); leprosy 99.80% |
-| Evidence Level | L3 (cardiovascular disease); L5 for all other predictions |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| TxGNN Prediction Score | 0.9913 (cardiovascular disease); leprosy 0.9980 |
+| Evidence Level | L5 (cardiovascular disease); L5 for all other predictions |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -66,7 +66,7 @@ A small human physiology study (PMID 30070742) found that menthol combined with 
 
 This link is plausible but unconfirmed. The evidence concerns blood pressure and cardiometabolic risk markers, not hard cardiovascular outcomes such as myocardial infarction or stroke. The results of the completed trial are not detailed in the data supplied, so the size and direction of any effect cannot be confirmed.
 
-The other nine top-ranked predictions have no trials or literature behind them. They are leprosy, pneumocystosis, coronary artery disease, myocardial ischaemia, echinococcosis, and four polyp-type conditions (vocal cord, uterine, middle ear, frontal sinus). The high scores for the polyp conditions appear to reflect graph similarity between related disease nodes rather than biological rationale.
+The other nine top-ranked predictions have no trials or literature behind them. They are leprosy, pneumocystosis, coronary artery disease, myocardial ischaemia, echinococcosis, and four polyp-type conditions (vocal cord, uterine, middle ear, frontal sinus). The high scores for the polyp conditions come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

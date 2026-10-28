@@ -6,9 +6,9 @@ nav_order: 642
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Parkinson disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Trihexyphenidyl"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
+description: "Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trihexyphenidyl
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trihexyphenidyl: From Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Trihexyphenidyl: Attention deficit-hyperactivity disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson disease and related parkinsonian and dystonic disorders (knowledge-graph indications) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 ADHD is associated with dysregulation of both dopaminergic and cholinergic signalling, so a mechanistic link is conceivable. However, this rationale is speculative. The only retrieved paper describes tics associated with dystonia, a related movement phenotype, and does not test trihexyphenidyl in ADHD.
 
-There is also a plausible counter-argument: anticholinergic drugs can cause memory impairment and confusion, which may worsen attention in people with ADHD. The high TxGNN score reflects a pattern in the knowledge graph, not clinical proof.
+There is also a plausible counter-argument: anticholinergic drugs can cause memory impairment and confusion, which may worsen attention in people with ADHD. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -114,7 +114,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone. There are no clinical trials and no direct literature for ADHD, and the anticholinergic cognitive effects could be counterproductive in this population.
+The prediction rests on a TxGNN model (deep learning) score alone. There are no clinical trials and no direct literature for ADHD, and the anticholinergic cognitive effects could be counterproductive in this population.
 
 **To proceed, the following is needed:**
 - Retrieval of the full MHRA SmPC and BNF safety data (warnings and contraindications), as the label-based safety data are currently missing

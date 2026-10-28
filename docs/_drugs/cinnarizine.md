@@ -8,6 +8,7 @@ nav_order: 171
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cinnarizine
@@ -49,8 +50,8 @@ Cinnarizine (DrugBank ID: DB00568) is a piperazine-derivative calcium channel bl
 | Predicted New Indication | None predicted |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction only; no actual studies available |
-| UK Market Status | Not marketed (per current dataset) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note on UK Market Status:** Cinnarizine is in fact available in the United Kingdom (e.g. Stugeron, Cinnarizine 15 mg tablets — available over the counter for motion sickness and as a prescription medicine for vestibular disorders). The current dataset does not yet reflect MHRA marketing authorisation data. This data gap should be remediated before any further evaluation.

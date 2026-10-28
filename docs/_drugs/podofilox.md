@@ -4,7 +4,7 @@ title: Podofilox
 parent: Model Prediction Only (L5)
 nav_order: 505
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Podofilox: predicted new indication Vulvovaginal candidiasis (evidence level L5). Approved use: Anogenital human papillomavirus infection"
 monitor_inn: "Podofilox"
@@ -14,7 +14,7 @@ predicted_indications: ["vulvovaginal candidiasis", "photosensitivity disease", 
 # Podofilox
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The only well-supported prediction in the list is human papillomavirus infection
 |------|------|
 | Original Indication | Anogenital human papillomavirus infection; common wart |
 | Predicted New Indication | Vulvovaginal candidiasis |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,6 @@ The prediction for vulvovaginal candidiasis is **not mechanistically convincing*
 
 Other predicted indications (photosensitivity disease, herpes zoster, benign neoplasms of the tongue and hypopharynx, cystic neoplasm, mesenchymoma, nasal inverting papilloma, testicular tumour) also have no clinical trials or literature. Several involve sites unsuitable for topical podofilox. Etoposide, a podophyllotoxin derivative, is used in testicular cancer, but it is a different compound with a different mechanism (topoisomerase II inhibition) and does not support podofilox.
 
-The prediction that matches the evidence is **human papillomavirus infection** (score 99.20%). This is already the labelled use, so it confirms the original indication rather than representing repurposing.
 
 ## Clinical Trial Evidence
 

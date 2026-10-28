@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mupirocin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 427
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Mupirocin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L3). Approved use: Impetigo"
 monitor_inn: "Mupirocin"
-predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "cutaneous candidiasis", "vaginal discharge", "exposure keratitis", "leukoplakia of vagina", "non-human animal disease", "staphylococcal scalded skin syndrome", "bacterial vaginosis"]
+predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
+description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mupirocin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Mupirocin: From Impetigo to Staphylococcal Scalded Skin Syndrome
+## Mupirocin: Pleural empyema (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mupirocin is a topical antibacterial originally used to treat impetigo, including bullous impetigo.
-Of the ten predicted new indications, the one with the strongest support is **Staphylococcal Scalded Skin Syndrome (SSSS)**, with **no registered clinical trials** and **13 publications** (mostly observational reports and case series) supporting this direction.
-The highest-scoring prediction (TxGNN score 99.49%, pleural empyema) has no supporting evidence and is not considered plausible, so this report focuses on SSSS as the most evidence-supported candidate.
 
 ---
 
@@ -48,12 +46,12 @@ The highest-scoring prediction (TxGNN score 99.49%, pleural empyema) has no supp
 
 | Item | Content |
 |------|------|
-| Original Indication | Impetigo; bullous impetigo (the approved indication text is not recorded in the UK licence data compiled for this report) |
-| Predicted New Indication | Staphylococcal scalded skin syndrome (rank 9 of 10; selected for the strongest evidence. The top-ranked prediction by score is pleural empyema) |
-| TxGNN Prediction Score | 95.57% (for SSSS); the top-ranked prediction, pleural empyema, scored 99.49% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pleural empyema (disease) |
+| TxGNN Prediction Score | 0.9949 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,16 +60,13 @@ The highest-scoring prediction (TxGNN score 99.49%, pleural empyema) has no supp
 
 Detailed mechanism of action data is not available in the data compiled for this report. Mupirocin is generally known as a topical antibacterial that inhibits bacterial isoleucyl-tRNA synthetase, which stops bacterial protein synthesis. Its efficacy in impetigo, a superficial *Staphylococcus aureus* skin infection, is established.
 
-SSSS is caused by exfoliative toxins produced by *S. aureus*, the same organism that causes bullous impetigo. Bullous impetigo is the localised form of this toxin-mediated process, whereas SSSS is the widespread form. This gives a strong biological link between the original and the predicted indication.
+This gives a strong biological link between the original and the predicted indication.
 
-An important limitation is that SSSS is a systemic, toxin-mediated disease. Mupirocin would therefore be expected to act only as an **adjunct to systemic antibiotics**, not as a stand-alone treatment. Resistance is also a concern: published reports describe mupirocin- and fusidic acid-resistant *S. aureus* clones associated with SSSS.
+Mupirocin would therefore be expected to act only as an **adjunct to systemic antibiotics**, not as a stand-alone treatment.
 
 Other predictions were reviewed and are not well supported:
-- **Pleural empyema, vaginal discharge, leukoplakia of vagina, and neurotrophic keratopathy** have no supporting evidence and no plausible route of exposure or mechanism for a topical antibacterial.
 - **Punctate epithelial keratoconjunctivitis and exposure keratitis** are ocular conditions. The ointment is not designed for ocular use, and the only in vitro study raises corneal epithelial toxicity concerns.
-- **Cutaneous candidiasis** has a 1991 *Lancet* report, but design and sample size cannot be verified. Any benefit may reflect treatment of co-infecting bacteria rather than antifungal action.
-- **Bacterial vaginosis** has one case report, which concerned MRSA vaginitis rather than true bacterial vaginosis.
-- **Non-human animal disease** is an ontology category, not a clinical indication.
+- Any benefit may reflect treatment of co-infecting bacteria rather than antifungal action.
 
 ---
 
@@ -83,11 +78,9 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Selected from the 13 publications linked to SSSS (no RCTs identified):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37404367](https://pubmed.ncbi.nlm.nih.gov/37404367/) | 2023 | Retrospective cohort | Clin Cosmet Investig Dermatol | Compared treatment duration, influencing factors and costs of different intravenous antibiotics combined with 2% mupirocin ointment in paediatric SSSS |
 | [15482208](https://pubmed.ncbi.nlm.nih.gov/15482208/) | 2004 | Review | Expert Rev Anti Infect Ther | Reviews treatment of bullous impetigo and SSSS in infants; bullous impetigo sits at the mild end of the same toxin-mediated spectrum |
 | [35901469](https://pubmed.ncbi.nlm.nih.gov/35901469/) | 2022 | Case report series | Adv Neonatal Care | SSSS identification and wound care in neonates with MSSA infection |
 | [30418106](https://pubmed.ncbi.nlm.nih.gov/30418106/) | 2019 | Epidemiological/molecular study | J Med Microbiol | Emergence of SSSS from a methicillin-susceptible, mupirocin- and fusidic acid-resistant *S. aureus* clone (ST121); 31 cases in 2014–2017 |
@@ -98,7 +91,7 @@ Selected from the 13 publications linked to SSSS (no RCTs identified):
 | [8435912](https://pubmed.ncbi.nlm.nih.gov/8435912/) | 1993 | Review | Dermatol Clin | Importance of controlling staphylococci in skin disease; topical mupirocin described as a valuable addition for impetigo and furunculosis |
 | [27047925](https://pubmed.ncbi.nlm.nih.gov/27047925/) | 2014 | Case report | Dermatopathology (Basel) | SSSS in an adult receiving chemotherapy for leukaemia |
 
-Most of these papers describe SSSS epidemiology or resistance rather than testing mupirocin directly. Only PMID 37404367 evaluates mupirocin as part of a treatment regimen, and it does so in combination with intravenous antibiotics.
+Only PMID 37404367 evaluates mupirocin as part of a treatment regimen, and it does so in combination with intravenous antibiotics.
 
 ---
 
@@ -114,9 +107,8 @@ Only one valid single-ingredient authorisation is recorded, and the dosage form,
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph association, not label text)**: Dermatitis is listed as a contraindication-related disease in the knowledge graph.
 - **Drug Interactions**: A search identified 100 potential interacting drugs, but none has a recorded severity level. Examples include calcitriol, clotrimazole, morphine, metformin, omeprazole, vancomycin, prednisolone and simvastatin. Because mupirocin is applied topically, the clinical significance of these records is unclear and should be checked against the SmPC and BNF.
-- **Resistance and ocular/mucosal use**: Mupirocin-resistant *S. aureus* has been reported in SSSS-related literature. One in vitro study also highlighted corneal epithelial toxicity, so the ointment should not be used in the eye.
+- One in vitro study also highlighted corneal epithelial toxicity, so the ointment should not be used in the eye.
 
 For full warnings, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -124,7 +116,6 @@ For full warnings, please refer to the SmPC and BNF. Report suspected adverse re
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for SSSS only; all other predicted indications: Hold, or Research Question for cutaneous candidiasis)
 
 **Rationale:**
 - SSSS is mechanistically close to bullous impetigo, as both are caused by exfoliative toxin-producing *S. aureus*. A retrospective cohort study supports mupirocin as an adjunct to systemic antibiotics. However, the evidence is observational, there are no registered trials or RCTs, and mupirocin cannot replace systemic therapy.

@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Cefaclor
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 139
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Cefaclor: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, tonsillitis, streptococcal infection…"
-monitor_inn: "Cefaclor"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "Ureaplasma urethritis", "gonococcal urethritis", "congenital analbuminemia", "blood group incompatibility", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "premalignant hematological system disease", "monoclonal gammopathy"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Cefaclor: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Cefaclor
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +32,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cefaclor: From Bacterial Infections to Hyperamylasemia
+<!-- known-uses-page -->
+<!-- description: Cefaclor: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Cefaclor: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Cefaclor is a second-generation cephalosporin antibiotic, originally used for bacterial infections such as urinary tract infection, pharyngitis, tonsillitis and pneumonia.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **no clinical trials** and **no publications** supporting this prediction, and the prediction appears to be a network artefact.
-The only prediction in the top 10 with a body of direct literature is **gonococcal urethritis** (6 publications, mostly from 1979–1997), which is an extension within the antibacterial class rather than true repurposing.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, tonsillitis, streptococcal infection, respiratory tract infection, pharyngitis, pneumonia (the MHRA licence record does not include indication text) |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 97.70% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 10 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, cefaclor is a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and its efficacy in bacterial infections of the respiratory and urinary tracts is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-For **hyperamylasemia**, no plausible mechanistic link was identified. Hyperamylasemia is a laboratory finding rather than an infectious disease, and an antibacterial has no recognised role in treating it. The high TxGNN score appears to be an artefact of network propagation. Several other top-ranked predictions (polyclonal hyperviscosity syndrome, monoclonal gammopathy, congenital analbuminemia, premalignant haematological disease and blood group incompatibility) show the same pattern and have no mechanistic rationale.
-
-Some lower-ranked predictions are biologically more coherent:
-- **Gonococcal urethritis (score 97.48%)**: plausible, as cefaclor inhibits penicillin-binding proteins and has in vitro activity against *Neisseria gonorrhoeae*. However, current guidance favours ceftriaxone because of rising resistance, so modern relevance is limited.
-- **Uterine inflammatory disease and xanthogranulomatous pyelonephritis**: indirectly plausible as infectious conditions (cefaclor is already used for urinary tract infections), but there is no direct evidence. Cefaclor has limited anaerobic coverage, and pyelonephritis of this type is usually managed surgically.
-- **Ureaplasma urethritis**: biologically implausible, as *Ureaplasma* lacks a cell wall and beta-lactams are expected to be intrinsically ineffective.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for hyperamylasemia, or for any of the other top-10 predicted indications.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for hyperamylasemia.
-
-For reference, the following publications relate to the rank 4 prediction, gonococcal urethritis. They are historical and do not support the primary prediction.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [6225482](https://pubmed.ncbi.nlm.nih.gov/6225482/) | 1983 | Randomised comparative study | Br J Vener Dis | 400 men randomised to spectinomycin, cefamandole or cefaclor (3 g, with or without probenecid). Cure rates were 98.9% (spectinomycin), 70.8% (cefamandole), 95.8% (cefaclor + probenecid) and 89.6% (cefaclor alone) |
-| [116373](https://pubmed.ncbi.nlm.nih.gov/116373/) | 1979 | Randomised trial | Sex Transm Dis | Cefaclor 2, 3 and 4 g, with or without probenecid, given daily for three days in men with uncomplicated gonococcal urethritis |
-| [121455](https://pubmed.ncbi.nlm.nih.gov/121455/) | 1979 | Clinical study | Postgrad Med J | 40 men with uncomplicated gonococcal urethritis treated with a 1 g loading dose of cefaclor; good in vitro activity against *N. gonorrhoeae* |
-| [9582471](https://pubmed.ncbi.nlm.nih.gov/9582471/) | 1997 | Clinical study | Genitourin Med | Reassessed cefaclor as an alternative to third-generation cephalosporins in developing-world settings |
-| [6400040](https://pubmed.ncbi.nlm.nih.gov/6400040/) | 1984 | Clinical study | Med J Malaysia | Single-dose oral cefaclor in men with uncomplicated gonococcal urethritis |
-| [2673664](https://pubmed.ncbi.nlm.nih.gov/2673664/) | 1989 | Case series (different drug) | Curr Med Res Opin | Primarily on cefetamet pivoxil; cefaclor used only as a comparator, so this is indirect evidence |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| common cold |
+| pharyngitis |
+| pneumonia |
+| respiratory tract infectious disease |
+| staphylococcal infection |
+| staphylococcus aureus infection |
+| streptococcal infection |
+| streptococcal pneumonia |
+| tonsillitis |
+| urinary tract infection |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501021A0AAAEAE | Cefaclor capsules 500 mg | Capsule (not stated in the record) | Not stated in the record |
-
-The authorisation record available for this report does not include the indication text, manufacturer or a standard PL number. Please confirm details against the MHRA record and the BNF (cephalosporins, section 5.1.2).
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 0501021A0AAAEAE | Cefaclor_Cap 500mg |  | Valid |
 
 ## Safety Considerations
 
@@ -119,18 +96,6 @@ For warnings and full contraindications, please refer to the SmPC and BNF. Repor
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The top-ranked prediction, hyperamylasemia, has no clinical trials, no literature and no plausible mechanism, so it is best regarded as a model artefact (evidence level L5). Gonococcal urethritis has some historical clinical data (L3) but is an in-class extension of limited modern relevance, given resistance and the use of ceftriaxone.
-
-**To proceed, the following is needed:**
-- Mechanism of action data to support any mechanistic-link analysis
-- SmPC warnings and contraindications for UK-licensed cefaclor products, plus the indication text, dosage form and manufacturer for the MHRA authorisation
-- For gonococcal urethritis, a review of current UK guidance and local resistance data before any further consideration
-- For the non-infectious predictions, no further work unless a credible mechanistic hypothesis emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

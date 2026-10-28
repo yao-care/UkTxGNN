@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **congenital disorder of glycos
 |------|------|
 | Original Indication | Psychotic disorder (also schizophrenia, schizoaffective disorder, schizophreniform disorder, Tourette syndrome) |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **congenital disorder of glycos
 
 Detailed mechanism of action data is not available in the data compiled for this report. Haloperidol is generally understood to be a dopamine D2 receptor antagonist, and this underlies its use in psychosis and Tourette syndrome.
 
-No mechanistic link has been identified between D2 antagonism and the fucosylation pathways that are defective in this rare inherited metabolic condition. The very high TxGNN score (99.91%) reflects patterns in the knowledge graph rather than biological or clinical evidence. On current information the prediction is not plausible enough to act on without further mechanistic work.
+No mechanistic link has been identified between D2 antagonism and the fucosylation pathways that are defective in this rare inherited metabolic condition. The very high TxGNN score (0.9991) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological or clinical evidence. On current information the prediction is not plausible enough to act on without further mechanistic work.
 
 ---
 
@@ -89,7 +89,7 @@ The record contains one valid single-ingredient authorisation. It gives no dosag
 
 ## Safety Considerations
 
-- **Contraindications and cautions (knowledge-graph associations, not label text):** The drug-disease associations recorded for haloperidol include:
+- **Contraindications and cautions (drug-disease associations, not label text):** The drug-disease associations recorded for haloperidol include:
   - cardiac: long QT syndrome (including familial), torsades de pointes
   - neurological: epilepsy, basal ganglia disease, neuroleptic malignant syndrome
   - blood disorders: neutropenia, leukopenia, agranulocytosis and congenital neutropenia syndromes
@@ -117,7 +117,7 @@ The prediction rests on a model score alone, with no trials, no literature and n
 - Detailed mechanism of action data for haloperidol
 - Review of the SmPC and BNF safety information against this rare-disease population
 
-**Note on other predictions for this drug:** Among the other predicted indications, only **manic bipolar affective disorder** (TxGNN score 99.83%) has substantial support. It has completed Phase 3 trials, including a placebo- and haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses (PMIDs 34642461, 39191865). That use is close to haloperidol's existing psychiatric indications rather than true repurposing, and it is rated "Proceed with Guardrails". Guardrails would include monitoring for extrapyramidal symptoms, QTc prolongation and tardive dyskinesia, and reviewing interactions before co-prescribing. The remaining predictions (retinal dystrophy, myopia variants and various congenital malformation syndromes) are rated Hold, mostly with no clinical evidence.
+**Note on other predictions for this drug:** Among the other predicted indications, only **manic bipolar affective disorder** (TxGNN score 0.9983) has substantial support. It has completed Phase 3 trials, including a placebo- and haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses (PMIDs 34642461, 39191865). That use is close to haloperidol's existing psychiatric indications rather than true repurposing, and it is rated "Proceed with Guardrails". Guardrails would include monitoring for extrapyramidal symptoms, QTc prolongation and tardive dyskinesia, and reviewing interactions before co-prescribing. The remaining predictions (retinal dystrophy, myopia variants and various congenital malformation syndromes) are rated Hold, mostly with no clinical evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

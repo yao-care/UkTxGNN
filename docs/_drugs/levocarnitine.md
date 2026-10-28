@@ -6,9 +6,9 @@ nav_order: 371
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Levocarnitine: predicted new indication Congestive heart failure (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Levocarnitine"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
+description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levocarnitine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Levocarnitine: From Carnitine Supplementation to Congestive Heart Failure
+## Levocarnitine: Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This report focuses on that top-evidence candidate. Other predictions are summar
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Congestive heart failure (the highest-scoring prediction, an ultra-rare vascular syndrome, has no supporting evidence and is on Hold) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L1 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 (see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Under the strict rule (at least two completed Phase 3 RCTs), the evidence is closer to L2. There is one completed Phase 2/3 RCT (n=268), plus a small recruiting Early Phase 1 trial. The L1 label comes from the upstream scoring and should be read with caution.
@@ -67,8 +67,8 @@ Detailed mechanism of action data is not available for this drug in the data com
 In failing heart muscle, energy metabolism is impaired and carnitine pools may be depleted. Supplementation could therefore improve myocardial energy supply, reduce the build-up of toxic acyl-CoA species, and improve cardiac function. This is especially relevant in haemodialysis and cardiorenal patients, who are prone to carnitine deficiency. The link between a metabolic carnitine role and heart failure is biologically plausible, but the evidence is not yet definitive.
 
 **Other predictions in the top 10:**
-- **Diabetic nephropathy (score 99.91%, L3):** One 2026 clinical study of a levocarnitine-alprostadil combination, so levocarnitine's own contribution cannot be separated out.
-- **Rheumatoid arthritis (score 99.87%):** The only trial listed (NCT03953703, Phase 2, n=15) studied dry eye in Sjögren's syndrome rather than rheumatoid arthritis, so it does not directly support this prediction. The "L2" grading appears to be overstated.
+- **Diabetic nephropathy (score 0.9991, L3):** One 2026 clinical study of a levocarnitine-alprostadil combination, so levocarnitine's own contribution cannot be separated out.
+- **Rheumatoid arthritis (score 0.9987):** The only trial listed (NCT03953703, Phase 2, n=15) studied dry eye in Sjögren's syndrome rather than rheumatoid arthritis, so it does not directly support this prediction. The "L2" grading appears to be overstated.
 - **Seven other predictions (including two rare vascular syndromes, sclerosing cholangitis, gout and hypoalphalipoproteinemia):** Model prediction only, with no trials or literature and no plausible mechanism. These are on Hold.
 
 ---

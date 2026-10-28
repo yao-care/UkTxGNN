@@ -8,6 +8,7 @@ nav_order: 551
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Roflumilast
@@ -53,8 +54,8 @@ A full repurposing evaluation cannot be issued at this stage; the recommended de
 | Predicted New Indication | Pending — TxGNN prediction pipeline has not been executed for this drug |
 | TxGNN Prediction Score | Pending |
 | Evidence Level | Cannot be determined |
-| UK Market Status | Data collection incomplete — Evidence Pack records 0 licences; however, Roflumilast is known to hold MHRA marketing authorisation (Daxas) |
-| Number of Marketing Authorisations | 0 recorded in current data *(likely a data collection error — see above)* |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

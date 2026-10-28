@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terlipressin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 608
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Terlipressin: predicted new indication Pulmonary hypertension (evidence level L3). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Terlipressin"
-predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder", "hyperthyroidism", "glaucoma", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
+description: "Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terlipressin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Terlipressin: From Portal Hypertension Complications to Pulmonary Hypertension
+## Terlipressin: Open-angle glaucoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,15 +47,15 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, sup
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the UK authorisation record has no indication text) |
-| Predicted New Indication | Pulmonary hypertension |
-| TxGNN Prediction Score | 99.56% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Open-angle glaucoma |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
-**Note on the top-ranked predictions:** The highest-scoring predictions were open-angle glaucoma (99.78%) and primary hereditary glaucoma (99.77%). Both have no trials or literature and no plausible mechanism, so they are not pursued here. Pulmonary hypertension is the highest-ranked prediction with any supporting literature, so it is the focus of this report. The other predictions (kyphoscoliotic heart disease, esotropia, headache disorder, hyperthyroidism, trigeminal autonomic cephalalgia and the remaining glaucoma entries) are model outputs only and are all rated Hold at evidence level L5.
+**Note on the top-ranked predictions:** The highest-scoring predictions were open-angle glaucoma (0.9978) and primary hereditary glaucoma (0.9977). Both have no trials or literature and no plausible mechanism, so they are not pursued here. Pulmonary hypertension is the highest-ranked prediction with any supporting literature, so it is the focus of this report. The other predictions (kyphoscoliotic heart disease, esotropia, headache disorder, hyperthyroidism, trigeminal autonomic cephalalgia and the remaining glaucoma entries) are model outputs only and are all rated Hold at evidence level L5.
 
 ---
 

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, with **no
 |------|------|
 | Original Indication | Peptic ulcer disease |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

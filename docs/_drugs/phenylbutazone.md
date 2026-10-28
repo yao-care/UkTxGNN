@@ -4,17 +4,17 @@ title: Phenylbutazone
 parent: Moderate Evidence (L3-L4)
 nav_order: 494
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Phenylbutazone: predicted new indication Rheumatoid arthritis (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Phenylbutazone"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis", "osteoarthritis susceptibility", "osteoarthritis", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "myosclerosis"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
 ---
 
 # Phenylbutazone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is essentially a historical use rather than a genuinely new repurposing opp
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The literature shows that phenylbutazone was used historically in rheumatoid arthritis, including double-blind dose-ranging work and a comparison with its metabolite monophenylbutazone. These studies concern symptom relief. The drug has largely been withdrawn from human use because of serious haematological toxicity (agranulocytosis, aplastic anaemia). The prediction therefore reflects an indication already known historically, not a new opportunity.
 
-Other predicted indications were also reviewed. Gout (score 99.18%) and osteoarthritis (98.26%) have similar historical, symptom-based support. The remaining predictions (for example rare skeletal dysplasias, sclerosing cholangitis and myosclerosis) have no identifiable mechanistic link and no clinical or literature evidence, and are likely graph-based artefacts.
+Other predicted indications were also reviewed. Gout (score 0.9918) has similar historical, symptom-based support. The remaining predictions (for example rare skeletal dysplasias and sclerosing cholangitis) have no identifiable mechanistic link and no clinical or literature evidence; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

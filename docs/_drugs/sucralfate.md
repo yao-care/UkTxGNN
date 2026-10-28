@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 |------|------|
 | Original Indication | Duodenal ulcer |
 | Predicted New Indication | Duodenogastric reflux |
-| TxGNN Prediction Score | 99.37% |
+| TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Duodenogastric reflux means bile and other duodenal contents flow back into the stomach and can injure the mucosa, causing alkaline reflux gastritis and sometimes oesophagitis. Sucralfate's established mucosal-protective action in peptic ulcer disease could plausibly reduce this bile-related injury. The link rests on general knowledge of the drug rather than on mechanism data in the supplied record.
 
-A note on the second prediction in the data: **duodenal obstruction** (TxGNN score 99.30%) has no credible mechanistic link and no supporting evidence. Sucralfate protects ulcerated mucosa but does not relieve mechanical obstruction. The high score probably reflects network proximity to duodenal ulcer, of which obstruction is a complication. It is not discussed further, and its recommendation is **Hold** (L5).
+A note on the second prediction in the data: **duodenal obstruction** (TxGNN score 0.9930) has no credible mechanistic link and no supporting evidence. Sucralfate protects ulcerated mucosa but does not relieve mechanical obstruction. The high score probably reflects network proximity to duodenal ulcer, of which obstruction is a complication. It is not discussed further, and its recommendation is **Hold** (L5).
 
 ---
 

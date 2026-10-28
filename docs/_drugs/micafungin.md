@@ -4,17 +4,17 @@ title: Micafungin
 parent: Moderate Evidence (L3-L4)
 nav_order: 413
 evidence_level: L3
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Micafungin: predicted new indication Urinary tract infection (evidence level L3). Approved use: Oesophageal candidiasis, candidaemia, disseminated candidiasis"
 monitor_inn: "Micafungin"
-predicted_indications: ["urinary tract infection (disease)", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "malignant visceral pleura tumor", "sarcomatoid mesothelioma", "urogenital tuberculosis"]
+predicted_indications: ["urinary tract infection (disease)"]
+description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Micafungin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Micafungin: From Candidaemia and Invasive Candidiasis to Urinary Tract Infection
+## Micafungin: Urinary tract infection (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **no registered clinical trials** but **13 publications** (mostly case repo
 
 | Item | Content |
 |------|------|
-| Original Indication | Oesophageal candidiasis, candidaemia, disseminated candidiasis (the MHRA licence record compiled for this report contains no indication text; these indications come from the TxGNN knowledge graph) |
-| Predicted New Indication | Urinary tract infection |
-| TxGNN Prediction Score | 99.03% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Urinary tract infection (disease) |
+| TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -109,7 +109,7 @@ Micafungin is not an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: Kidney disease and pyoureter are linked to micafungin in the TxGNN knowledge graph. This is relevant because UTI patients may have renal impairment or urinary obstruction, so clinical judgement and the SmPC are needed.
+- **Contraindications (TxGNN model associations, not label text)**: Kidney disease and pyoureter are linked to micafungin by the TxGNN model (deep learning); these associations may reflect similarities the model learned between related diseases, not biological evidence. This is relevant because UTI patients may have renal impairment or urinary obstruction, so clinical judgement and the SmPC are needed.
 - **Drug Interactions** (5 moderate-level interactions recorded):
   - Amphotericin B
   - Nitisinone
@@ -135,7 +135,6 @@ The mechanism is plausible and a pharmacokinetic study plus several case series,
 - Confirmation of the licensed UK indications and SmPC safety information
 - A renal safety review given the knowledge-graph kidney disease contraindication signal
 
-**Other predicted indications:** Nine further predictions (ureaplasma urethritis, gonococcal urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, four mesothelioma and pleural tumour entities, and urogenital tuberculosis) have no supporting trials or relevant literature and no plausible mechanism. They are model predictions only (L5) and should be placed on **Hold**.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

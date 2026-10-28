@@ -4,17 +4,17 @@ title: Nadolol
 parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nadolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---
 
 # Nadolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,14 +61,13 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, nadolol is a non-selective beta-blocker. Its efficacy in hypertension is established, and beta-blockade reduces renin release and blood pressure, which may be relevant to hypertensive renal disease.
 
-The predicted indication is closely related to the original one. The high score (99.59%) is probably driven by the proximity of this disease to hypertension in the knowledge graph, rather than by an independent repurposing signal. In practice, malignant hypertension is a hypertensive emergency usually managed with intravenous agents, so oral nadolol is unlikely to be first-line.
+The predicted indication is closely related to the original one. The high score (0.9959) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than an independent repurposing signal. In practice, malignant hypertension is a hypertensive emergency usually managed with intravenous agents, so oral nadolol is unlikely to be first-line.
 
 Other predictions in the same list were assessed in the same way:
 
-- **Malignant renovascular hypertension** (score 99.59%, L5): beta-blockade lowers renin secretion, which is relevant where the renin-angiotensin system is activated. It is likely an ontology-proximity effect, with no trial or literature evidence. Caution is needed in bilateral renal artery stenosis.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.53%, L5): no trials or literature. Beta-blockers have historically been avoided in pulmonary arterial hypertension because of concerns about cardiac output and right ventricular function.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.53%, L4): 12 publications were returned, but all are preclinical or indirect (see Literature Evidence). Beta-blockade may worsen outcomes in patients with COPD.
-- **Braddock syndrome** (score 99.43%, L5): no plausible mechanistic rationale is evident, and the signal is probably a network-connectivity artefact.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 0.9953, L5): no trials or literature. Beta-blockers have historically been avoided in pulmonary arterial hypertension because of concerns about cardiac output and right ventricular function.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9953, L4): 12 publications were returned, but all are preclinical or indirect (see Literature Evidence). Beta-blockade may worsen outcomes in patients with COPD.
+- **Braddock syndrome** (score 0.9943, L5): no plausible mechanistic rationale is evident, and the signal is probably a network-connectivity artefact.
 
 ---
 

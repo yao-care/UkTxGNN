@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00350",
-      "display": "Omeprazole_Cap E/C 10mg"
+      "reference": "MedicationKnowledge/DB00350"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "pulmonary-arterial-hypertension-associated-with-chronic-hemolytic-anemia",
-          "display": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
-        }
-      ],
-      "text": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      "concept": {
+        "text": "pulmonary arterial hypertension associated with chronic hemolytic anemia"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9985
     }
   ]
 }

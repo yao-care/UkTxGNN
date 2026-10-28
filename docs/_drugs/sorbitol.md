@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 Currently, detailed mechanism of action data is not available. Sorbitol is generally known as an osmotic agent, laxative and pharmaceutical excipient. No efficacy in a defined original indication could be confirmed from the data compiled.
 
-Malignant hyperthermia is a disorder of skeletal muscle calcium regulation, typically linked to RYR1 variants and triggered by volatile anaesthetics or succinylcholine. No plausible direct link between sorbitol and ryanodine receptor function or calcium handling is evident. The high score (0.994) may reflect proximity within the knowledge graph, for example through shared osmotic, fluid-balance or excipient-related nodes, rather than a true therapeutic effect. The prediction needs mechanistic validation before it can be taken forward.
+Malignant hyperthermia is a disorder of skeletal muscle calcium regulation, typically linked to RYR1 variants and triggered by volatile anaesthetics or succinylcholine. No plausible direct link between sorbitol and ryanodine receptor function or calcium handling is evident. The high score (0.9940) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than a true therapeutic effect. The prediction needs mechanistic validation before it can be taken forward.
 
 ---
 

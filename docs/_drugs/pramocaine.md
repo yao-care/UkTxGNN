@@ -6,9 +6,9 @@ nav_order: 510
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Dermatitis, tinea infections, haemorrhoids, proctitis, burns…"
 monitor_inn: "pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
+description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pramocaine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Pramocaine: From Topical Skin and Anorectal Conditions to Papillary Conjunctivitis
+## Pramocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be useful for **papillary conjunctivitis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis, tinea infections, haemorrhoids, proctitis, burns, otitis externa (from the knowledge graph; no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Papillary conjunctivitis |
-| TxGNN Prediction Score | 99.15% |
+| TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

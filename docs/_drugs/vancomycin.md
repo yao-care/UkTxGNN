@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis (also staphylococcal infections…"
 monitor_inn: "Vancomycin"
-predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
+predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 ---
 
 # Vancomycin
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Vancomycin is a glycopeptide antibiotic, originally used for Gram-positive infections such as *Clostridium difficile* colitis, staphylococcal infections and endocarditis.
-The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **no clinical trials** and only **1 publication** (an unrelated case report), so the prediction is most likely a knowledge-graph artefact.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **no clinical trials** and only **1 publication** (an unrelated case report), so the prediction is most likely a TxGNN model (deep learning) artefact.
 
 ---
 
@@ -49,13 +49,13 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 |------|------|
 | Original Indication | Clostridium difficile colitis (also staphylococcal infections, endocarditis, bacterial arthritis and staphylococcal pneumonia) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-*Note: the data compiled for this report contain no approved indication text for the UK product. The original indications above come from the TxGNN knowledge graph.*
+*Note: the data compiled for this report contain no approved indication text for the UK product. The original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
 
 ---
 
@@ -63,7 +63,7 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, vancomycin inhibits bacterial cell wall synthesis by binding the D-Ala-D-Ala termini of peptidoglycan precursors in Gram-positive bacteria. Its efficacy in its original infectious indications is well established.
 
-Diffuse scleroderma, by contrast, is an autoimmune fibrotic disease. There is no plausible mechanistic link between a cell wall synthesis inhibitor and the pathology of scleroderma. The high TxGNN score appears to be a graph-based artefact rather than a genuine repurposing signal.
+Diffuse scleroderma, by contrast, is an autoimmune fibrotic disease. There is no plausible mechanistic link between a cell wall synthesis inhibitor and the pathology of scleroderma. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 For context, the other top-ranked predictions are also weak. Paratyphoid fever, salmonellosis and typhoid fever involve Gram-negative organisms that are intrinsically resistant to vancomycin. The one biologically plausible prediction is streptococcal pneumonia (rank 9, Gram-positive). However, this is an extension of existing antibacterial use rather than true repurposing, and beta-lactams remain first-line.
 

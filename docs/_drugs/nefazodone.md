@@ -6,9 +6,9 @@ nav_order: 437
 evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Nefazodone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
+description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Nefazodone
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **2**
 
 </div>
 
-## Nefazodone: From Depression to Migraine Disorder
+## Nefazodone: Migraine disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but evidence is very limited: **no clinical trials** and only **1 publication** 
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Antidepressants with 5-HT2 antagonism have been explored for migraine prevention, so the rationale is plausible but indirect. Serotonergic signalling is thought to play a role in migraine pathophysiology, which is why drugs acting on this system are considered.
 
-The high TxGNN score (99.60%) is a computational prediction only. The single supporting reference is a 2004 review that mentions nefazodone among several emerging preventive options. No nefazodone-specific clinical data for migraine can be confirmed from the data compiled. A related subtype, migraine with brainstem aura, was also predicted (score 99.60%), but it has no trials or literature and its score probably reflects its close relationship to migraine in general rather than independent evidence.
+The high TxGNN score (0.9960) is a computational prediction only. The single supporting reference is a 2004 review that mentions nefazodone among several emerging preventive options. No nefazodone-specific clinical data for migraine can be confirmed from the data compiled. A related subtype, migraine with brainstem aura, was also predicted (score 0.9960), but it has no trials or literature and its score probably reflects its close relationship to migraine in general rather than independent evidence.
 
 ## Clinical Trial Evidence
 
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** epilepsy, liver disease, gallbladder disease, hypotensive disorder, stroke and cerebrovascular disorders (including cerebral infarction), myocardial infarction and coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, and substance-related disorders/substance abuse or dependence.
+- **Contraindications (associations from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, and not label text):** epilepsy, liver disease, gallbladder disease, hypotensive disorder, stroke and cerebrovascular disorders (including cerebral infarction), myocardial infarction and coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, and substance-related disorders/substance abuse or dependence.
 - **Drug Interactions:** 100 interactions were identified. Those graded **Major** in the examples retrieved include loperamide, bupropion, triamcinolone, lorcaserin, budesonide and dolasetron. Moderate examples include hydrocortisone, dexamethasone, betamethasone, clarithromycin, morphine, aprepitant, pioglitazone, saxagliptin and alosetron. Only part of the list was available for review.
 - **Other considerations (general pharmacological knowledge, not confirmed in the compiled data):** nefazodone carries a hepatotoxicity warning and has been withdrawn in many markets. It also inhibits CYP3A4, which is relevant to co-prescribed migraine drugs such as triptans and ergot derivatives.
 

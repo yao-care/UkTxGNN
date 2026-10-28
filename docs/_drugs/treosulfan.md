@@ -4,17 +4,17 @@ title: Treosulfan
 parent: Model Prediction Only (L5)
 nav_order: 637
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report (the drug…"
 monitor_inn: "Treosulfan"
-predicted_indications: ["diabetic cataract", "nuclear senile cataract", "cortical cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "diabetic retinopathy", "senile cataract"]
+predicted_indications: ["diabetic cataract"]
+description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Treosulfan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Treosulfan: From Haematopoietic Stem Cell Transplant Conditioning to Diabetic Cataract
+## Treosulfan: Diabetic cataract
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -44,15 +44,15 @@ Treosulfan is an alkylating cytotoxic agent, used in conditioning treatment befo
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK licence data compiled for this report (the drug is known as an alkylating agent used in transplant conditioning) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Diabetic cataract |
-| TxGNN Prediction Score | 99.01% |
+| TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Other top-ranked predictions are all eye conditions with similar scores (98.9% to 99.0%): nuclear senile cataract, cortical cataract, tetanic cataract, craniostenosis cataract, immature cataract, mature cataract, type 2 diabetes-associated cataract, diabetic retinopathy and senile cataract. None has any trial or literature support.
+None has any trial or literature support.
 
 ## Why is This Prediction Reasonable?
 
@@ -61,11 +61,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 **The prediction is not supported by a plausible mechanism.** Diabetic cataract is driven by hyperglycaemia-related lens damage (polyol pathway, oxidative stress), which is unrelated to DNA alkylation. The same applies to the other predicted conditions:
 
 - Age-related (nuclear, cortical, senile) cataract arises from oxidative damage and protein aggregation.
-- Mature cataract is managed surgically.
-- Tetanic cataract is treated by correcting the underlying calcium disorder.
-- Diabetic retinopathy involves microvascular dysfunction and VEGF signalling, with established treatments (anti-VEGF, laser, corticosteroids).
 
-The high TxGNN score most likely reflects the shared cataract-related neighbourhood in the knowledge graph rather than a pharmacological rationale. A systemic cytotoxic, myelosuppressive drug would carry substantial toxicity for a non-life-threatening eye condition.
+A systemic cytotoxic, myelosuppressive drug would carry substantial toxicity for a non-life-threatening eye condition.
 
 ## Clinical Trial Evidence
 
@@ -104,7 +101,6 @@ No drug-disease contraindication edges or drug interaction records were identifi
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests entirely on a graph-based score (Evidence Level L5), with no trials, no publications and no plausible mechanistic link. The risk-benefit balance of a systemic alkylating agent for cataract or diabetic retinopathy is unfavourable, given that effective surgical and medical options already exist.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (DrugBank) and a documented biological rationale linking treosulfan to lens or retinal pathology

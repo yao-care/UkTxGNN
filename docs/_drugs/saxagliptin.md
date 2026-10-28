@@ -8,6 +8,7 @@ nav_order: 562
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Saxagliptin
@@ -51,8 +52,8 @@ Saxagliptin is a selective dipeptidyl peptidase-4 (DPP-4) inhibitor used in the 
 | Predicted New Indication | Not available — no TxGNN prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (no studies retrieved; model prediction not generated) |
-| UK Market Status | Not recorded in evidence pack (0 authorisations returned) |
-| Number of Marketing Authorisations | 0 (as per evidence pack — see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

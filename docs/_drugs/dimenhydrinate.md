@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 230
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L4). Approved use: Vertigo of central nervous system origin"
@@ -14,7 +14,7 @@ predicted_indications: ["allergic urticaria", "cold urticaria"]
 # Dimenhydrinate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ but there are currently **no registered clinical trials** and only **1 publicati
 |------|------|
 | Original Indication | Vertigo of central nervous system origin; motion sickness |
 | Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
-A second predicted indication, cold urticaria (score 99.24%, Evidence Level L5, Hold), is discussed briefly below.
+A second predicted indication, cold urticaria (score 0.9924, Evidence Level L5, Hold), is discussed briefly below.
 
 ## Why is This Prediction Reasonable?
 
@@ -64,7 +64,7 @@ Urticaria is driven largely by histamine released from mast cells. Blocking H1 r
 
 There are important caveats. No direct evidence exists for dimenhydrinate itself in this indication, and the TxGNN score is a model prediction, not clinical evidence. Current guidance generally favours second-generation non-sedating antihistamines for urticaria, which limits the practical value of a sedating first-generation agent.
 
-**Cold urticaria (secondary prediction):** This is also a histamine-mediated physical urticaria, so H1 antagonism is mechanistically plausible. No trials or publications were found for dimenhydrinate in this condition. Support rests only on the model score (99.24%) and class-level reasoning.
+**Cold urticaria (secondary prediction):** This is also a histamine-mediated physical urticaria, so H1 antagonism is mechanistically plausible. No trials or publications were found for dimenhydrinate in this condition. Support rests only on the model score (0.9924) and class-level reasoning.
 
 ## Clinical Trial Evidence
 
@@ -113,7 +113,7 @@ The H1-antagonist mechanism of the diphenhydramine component makes the predictio
 - Label warnings and contraindications from the SmPC and BNF
 - Verified UK MHRA licence numbers, dosage forms and approved indications for the listed products
 - Human clinical evidence (ideally randomised trials) comparing dimenhydrinate with non-sedating antihistamines in urticaria
-- Assessment of the sedation and anticholinergic burden, and of the knowledge graph-flagged conditions and interactions, in the urticaria population
+- Assessment of the sedation and anticholinergic burden, and of relevant conditions and interactions, in the urticaria population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

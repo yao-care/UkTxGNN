@@ -4,17 +4,17 @@ title: Cyclophosphamide
 parent: High Evidence (L1-L2)
 nav_order: 195
 evidence_level: L2
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Cyclophosphamide: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Mycosis fungoides and variants, primary cutaneous T-cell lymphoma…"
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **5** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **myeloid leukaemia**, with **3
 |------|------|
 | Original Indication | Mycosis fungoides and variants, primary cutaneous T-cell lymphoma, plasma cell myeloma, neuroblastoma, lymphoma, breast carcinoma, retinoblastoma (no approved-indication text is available in the UK licence record) |
 | Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.47% |
+| TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

@@ -4,17 +4,17 @@ title: Oxitriptan
 parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxitriptan: predicted new indication Insomnia (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Oxitriptan: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Oxitriptan"
-predicted_indications: ["insomnia (disease)", "sleep disorder, initiating and maintaining sleep", "anxiety", "neurocirculatory asthenia", "anxiety disorder", "agoraphobia", "irritable bowel syndrome", "benign paroxysmal torticollis of infancy", "juvenile onset Parkinson disease 19A", "dysthymic disorder"]
+predicted_indications: ["insomnia (disease)"]
 ---
 
 # Oxitriptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oxitriptan: From an Unspecified Original Indication to Insomnia
+## Oxitriptan: From an Unspecified Original Indication to insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,23 +48,22 @@ The evidence is a computational prediction only.
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxitriptan is the direct precursor of serotonin, which is in turn converted to melatonin. This offers a plausible link to sleep regulation through serotonergic and melatonergic pathways.
 
-The original indication could not be identified, so the relationship between it and insomnia cannot be assessed. The related predictions, sleep disorder (initiating and maintaining sleep; score 98.10%), anxiety (98.06%), anxiety disorder (97.67%) and dysthymic disorder (96.31%), rest on the same serotonergic rationale. These are mechanistic hypotheses only. No trial or publication directly evaluating oxitriptan for insomnia was provided.
+The original indication could not be identified, so the relationship between it and insomnia cannot be assessed. This is a mechanistic hypothesis only. No trial or publication directly evaluating oxitriptan for insomnia was provided.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for insomnia.
 
-For context, one trial was linked to a lower-ranked prediction, irritable bowel syndrome (score 97.41%):
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|

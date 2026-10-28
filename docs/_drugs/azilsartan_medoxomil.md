@@ -8,6 +8,7 @@ nav_order: 88
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azilsartan Medoxomil
@@ -53,8 +54,8 @@ This report documents the current data status and outlines the remediation steps
 | Predicted New Indication | **Not available** — TxGNN prediction pipeline returned no results |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** — Model prediction only; no actual studies linked |
-| UK Market Status | Not populated in evidence pack *(see note below)* |
-| Number of Marketing Authorisations | 0 per evidence pack |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Note:** The evidence pack field `market_status` shows "Not marketed" (not marketed), which appears to reflect Taiwan regulatory data rather than UK/MHRA data. Azilsartan medoxomil is in fact authorised in the United Kingdom under the brand name **Edarbi** (PL 50622/0001 and related). This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate. The regulatory section below reflects this gap explicitly.

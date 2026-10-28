@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 349
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L1** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Ketamine is an NMDA receptor antagonist with one oral solution authorisation rec
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.33% |
+| TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade in the compiled data is generous. Only one Phase 3 trial (THINK, NCT03081416) is completed, and its results were not available to us. The other Phase 3 trial (KetHead) is still recruiting. Strictly applying the rule of at least two completed Phase 3 RCTs, the evidence is closer to L2. Please treat it as provisional.

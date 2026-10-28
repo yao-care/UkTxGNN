@@ -6,9 +6,9 @@ nav_order: 591
 evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-15
-description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Erectile dysfunction, benign prostatic hyperplasia…"
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
+description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tadalafil
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Tadalafil: From Erectile Dysfunction and Pulmonary Hypertension to Ambras Type Hypertrichosis Universalis Congenita
+## Tadalafil: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Erectile dysfunction, benign prostatic hyperplasia, pulmonary hypertension (the licence record held no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Tadalafil is generally known as a PDE5 inhibitor: it raises cGMP levels and promotes vasodilation, which underlies its use in erectile dysfunction and pulmonary hypertension.
 
-The link to the predicted indication is weak. Ambras syndrome is a rare congenital disorder associated with chromosomal rearrangements affecting TRPS1 regulation. No clear mechanistic connection to PDE5 inhibition has been identified. The very high score most likely reflects proximity in the knowledge graph to hypertrichosis-related nodes, for example the hair-growth effects of other vasodilators such as minoxidil, rather than a validated pharmacological rationale.
+The link to the predicted indication is weak. Ambras syndrome is a rare congenital disorder associated with chromosomal rearrangements affecting TRPS1 regulation. No clear mechanistic connection to PDE5 inhibition has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, for example the hair-growth effects of other vasodilators such as minoxidil, not biological evidence or a validated pharmacological rationale.
 
 **Other predictions in the same set**
 
@@ -66,13 +66,13 @@ All other predicted indications also have no clinical trials, and only one has a
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Hypertrichosis | 99.98% | L5 | Speculative. Hypertrichosis is a known adverse effect of vasodilators, so the direction of effect is unclear. |
-| Malformation syndrome with odontal and/or periodontal component | 99.97% | L5 | No identifiable mechanism. Likely a graph artefact. |
-| Syndrome with a Dandy-Walker malformation as major feature | 99.97% | L5 | No credible mechanism for a structural developmental anomaly. |
-| Isolated genetic hair shaft abnormality | 99.96% | L5 | No established mechanism. Likely phenotypic proximity to hypertrichosis. |
-| Familial isolated trichomegaly | 99.65% | L5 | No supported role for PDE5 inhibition. |
-| Kyphoscoliotic heart disease | 99.43% | L5 | Indirect but most biologically coherent, given the pulmonary hypertension and right heart strain. Vasodilators may worsen ventilation-perfusion matching in hypoxia-driven disease. |
-| Migraine with brainstem aura | 99.08% | L4 | The only evidence is a case report suggesting tadalafil may provoke aura, which is a possible adverse effect rather than a benefit. |
+| Hypertrichosis | 0.9998 | L5 | Speculative. Hypertrichosis is a known adverse effect of vasodilators, so the direction of effect is unclear. |
+| Malformation syndrome with odontal and/or periodontal component | 0.9997 | L5 | No identifiable mechanism. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+| Syndrome with a Dandy-Walker malformation as major feature | 0.9997 | L5 | No credible mechanism for a structural developmental anomaly. |
+| Isolated genetic hair shaft abnormality | 0.9996 | L5 | No established mechanism. Likely phenotypic proximity to hypertrichosis. |
+| Familial isolated trichomegaly | 0.9965 | L5 | No supported role for PDE5 inhibition. |
+| Kyphoscoliotic heart disease | 0.9943 | L5 | Indirect but most biologically coherent, given the pulmonary hypertension and right heart strain. Vasodilators may worsen ventilation-perfusion matching in hypoxia-driven disease. |
+| Migraine with brainstem aura | 0.9908 | L5 | The only evidence is a case report suggesting tadalafil may provoke aura, which is a possible adverse effect rather than a benefit. |
 
 ## Clinical Trial Evidence
 
@@ -126,7 +126,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5), with no clinical trials or publications and no plausible mechanistic link. The high score most likely reflects phenotypic proximity in the knowledge graph rather than a therapeutic effect. None of the other predicted indications has stronger support. Kyphoscoliotic heart disease is the most biologically coherent, but it is still prediction-only. The migraine signal points towards harm.
+The prediction rests on model output alone (L5), with no clinical trials or publications and no plausible mechanistic link. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a therapeutic effect. None of the other predicted indications has stronger support. Kyphoscoliotic heart disease is the most biologically coherent, but it is still prediction-only. The migraine signal points towards harm.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to allow proper analysis of any mechanistic link

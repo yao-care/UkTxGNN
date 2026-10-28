@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Activated Charcoal
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 23
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Activated Charcoal: predicted new indication Jeune syndrome situs inversus (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "Activated Charcoal: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Activated charcoal"
-predicted_indications: ["Jeune syndrome situs inversus", "orofacial clefting syndrome", "disorder of fucoglycosan synthesis", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 7", "pulmonary valve disease", "heart disease", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Activated Charcoal
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Activated Charcoal: From Gastrointestinal Adsorbent to Jeune Syndrome Situs Inversus
+## Activated Charcoal
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Activated charcoal is a non-absorbed oral adsorbent, marketed in the UK and used mainly to bind ingested toxins and drugs in the gut.
-The TxGNN model predicts it may be effective for **Jeune syndrome situs inversus**, a rare ciliopathy, but **no clinical trials and no relevant publications** support this prediction.
-The high score appears to be a graph-based artefact rather than a credible repurposing signal.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Jeune syndrome situs inversus |
-| TxGNN Prediction Score | 89.94% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, activated charcoal is a non-specific adsorbent that binds substances in the gastrointestinal lumen and is not absorbed systemically.
-
-Jeune syndrome (asphyxiating thoracic dystrophy) is a ciliopathy with skeletal and organ involvement. No known pathway in this condition could be modified by a gut adsorbent, so there is no plausible mechanistic link between the drug's action and the disease.
-
-The prediction is therefore best regarded as a statistical artefact of the knowledge graph. The other top-ranked predictions (for example orofacial clefting, Pierre Robin syndrome and chromosomal deletion syndromes) are similarly implausible, which supports this view.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for Jeune syndrome situs inversus.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 
 ---
 
@@ -108,18 +76,6 @@ Please refer to the SmPC and BNF for warnings and contraindications. Report susp
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanism. Activated charcoal is not absorbed, and Jeune syndrome has no pathway a gut adsorbent could affect. The evidence level is L5 (model prediction only).
-
-**To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking gut adsorption to the pathology of Jeune syndrome
-- Preclinical or clinical evidence specific to this condition
-- Confirmation of the licensed indications and mechanism of action from the SmPC, BNF and DrugBank
-- Full warnings and contraindications from the SmPC and BNF
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

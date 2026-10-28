@@ -4,17 +4,17 @@ title: Triamterene
 parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Triamterene: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension and congestive heart failure"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "Triamterene"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Triamterene
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Triamterene: From Hypertension to Malignant Renovascular Hypertension
+## Triamterene: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Triamterene is a potassium-sparing diuretic, originally used for hypertension and congestive heart failure.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **no clinical trials** and **no relevant publications** supporting this prediction. It rests on model output alone.
+It rests on model output alone.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **malignant renovascular hypert
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and congestive heart failure (the UK licence record contains no indication text) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,10 +64,10 @@ Detailed mechanism of action data is not available in the data compiled for this
 The link to malignant renovascular hypertension is weak. This condition is driven mainly by activation of the renin-angiotensin system and renal artery stenosis. A diuretic alone is unlikely to be adequate, and volume depletion could worsen renal perfusion. The high TxGNN score probably reflects similarity to the approved hypertension indication rather than independent evidence.
 
 Other predictions for this drug follow the same pattern:
-- **Malignant hypertensive renal disease** (99.89%): the score appears inherited from the parent hypertension indication. Hyperkalaemia risk in renal impairment makes triamterene a poor fit.
-- **Pulmonary hypertension** (two forms, 99.88%): diuretics can relieve right-heart congestion, but there is no known action on pulmonary vascular remodelling.
-- **Braddock syndrome** (99.84%): no mechanistic rationale is identifiable.
-- **Chronic pulmonary heart disease** (99.75%): the most plausible of the group, as diuretics are used for volume overload in right-sided heart failure and triamterene is already used in congestive heart failure. The evidence remains indirect.
+- **Malignant hypertensive renal disease** (0.9989): the score appears inherited from the parent hypertension indication. Hyperkalaemia risk in renal impairment makes triamterene a poor fit.
+- **Pulmonary hypertension** (two forms, 0.9988): diuretics can relieve right-heart congestion, but there is no known action on pulmonary vascular remodelling.
+- **Braddock syndrome** (0.9984): no mechanistic rationale is identifiable.
+- **Chronic pulmonary heart disease** (0.9975): the most plausible of the group, as diuretics are used for volume overload in right-sided heart failure and triamterene is already used in congestive heart failure. The evidence remains indirect.
 
 ---
 
@@ -79,7 +79,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publications were found for the lead prediction (malignant renovascular hypertension). The table below lists publications retrieved for the related predictions, and none of them directly supports the lead indication.
+The table below lists publications retrieved for the related predictions, and none of them directly supports the lead indication.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -102,7 +102,7 @@ Please check the product's SmPC and the BNF classification for the licensed indi
 
 ## Safety Considerations
 
-**Contraindications (from knowledge-graph associations, not label text):** the TxGNN knowledge graph links triamterene to contraindications in the following groups. These should be verified against the SmPC.
+These should be verified against the SmPC.
 - **Renal:** kidney disease, anuria, nephrolithiasis, nephrocalcinosis, acute urate nephropathy
 - **Hepatic:** liver failure, liver disease, hepatic coma, hepatic encephalopathy
 - **Metabolic and endocrine:** diabetes mellitus (type 1 and type 2), diabetic ketoacidosis, gout, hyperuricaemia, hyperparathyroidism, hypercalcaemia, acidosis, lactic acidosis

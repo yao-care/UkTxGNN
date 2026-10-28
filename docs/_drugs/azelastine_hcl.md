@@ -8,6 +8,7 @@ nav_order: 87
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azelastine Hcl
@@ -55,8 +56,8 @@ As a result, no repurposing analysis, evidence grading, or decision recommendati
 | Predicted New Indication | None — prediction data absent |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not determinable |
-| UK Market Status | Not recorded in Evidence Pack |
-| Number of Marketing Authorisations | 0 recorded in Evidence Pack |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** — insufficient data to proceed |
 
 ---

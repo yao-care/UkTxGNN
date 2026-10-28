@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 249
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
 description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Emtricitabine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the UK authorisation record has no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 (preclinical studies only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -116,11 +116,11 @@ SIV infection is a non-human disease, no clinical trials exist, and the supporti
 - Identification of a genuine new human indication, as SIV infection is not a human disease
 - Mechanism of action data (currently unavailable)
 - Complete UK authorisation details (indication text, dosage form, PL number)
-- Label-based warnings and contraindications from the SmPC and BNF, to confirm the knowledge-graph signals
+- Label-based warnings and contraindications from the SmPC and BNF, to check the predictions of the TxGNN model (deep learning), whose scores may reflect similarities the model learned between related diseases, not biological evidence
 
 **Other predictions in the data (not recommended for progression):**
-- *Feline acquired immunodeficiency syndrome* (score 99.92%): a veterinary indication with a single animal publication (L4); Hold.
-- *Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter* (score 99.92%): no trials or literature and no plausible mechanistic link (L5); likely a computational artefact; Hold.
+- *Feline acquired immunodeficiency syndrome* (score 0.9992): a veterinary indication with a single animal publication (L4); Hold.
+- *Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter* (score 0.9992): no trials or literature and no plausible mechanistic link (L5); likely a computational artefact; Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

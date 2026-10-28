@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Captopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 130
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension, hypertensive disorder and diabetic nephropathy"
 monitor_inn: "Captopril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 |------|------|
 | Original Indication | Hypertension, hypertensive disorder and diabetic nephropathy (the UK licence record contains no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.28% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9928 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,9 @@ Currently no related clinical trials registered.
 
 Three other predicted indications were assessed. None has enough evidence to support progression.
 
-- **Malignant renovascular hypertension** (score 99.28%, L4): The mechanistic rationale is strong because the condition is renin-dependent. One 1984 clinical report describes captopril in stable and malignant hypertension ([PMID 6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/)). The rest of the literature is mostly case reports, reviews and diagnostic papers. One case report ([PMID 6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/)) described acute, reversible renal failure after captopril and enalapril in a patient with bilateral renal artery occlusion. This is the most plausible research question of the group, but study types were classified from titles only and are tentative.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.15%, L5): Only preclinical and indirect findings were retrieved, and most of the retrieved papers appear unrelated. Systemic vasodilators can also worsen ventilation-perfusion matching in hypoxic lung disease.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.15%, L5): No trials or literature. ACE inhibitors are not an established therapy for pulmonary arterial hypertension.
+- **Malignant renovascular hypertension** (score 0.9928, L4): The mechanistic rationale is strong because the condition is renin-dependent. One 1984 clinical report describes captopril in stable and malignant hypertension ([PMID 6145432](https://pubmed.ncbi.nlm.nih.gov/6145432/)). The rest of the literature is mostly case reports, reviews and diagnostic papers. One case report ([PMID 6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/)) described acute, reversible renal failure after captopril and enalapril in a patient with bilateral renal artery occlusion. This is the most plausible research question of the group, but study types were classified from titles only and are tentative.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9915, L5): Only preclinical and indirect findings were retrieved, and most of the retrieved papers appear unrelated. Systemic vasodilators can also worsen ventilation-perfusion matching in hypoxic lung disease.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 0.9915, L5): No trials or literature. ACE inhibitors are not an established therapy for pulmonary arterial hypertension.
 
 ## UK Market Information
 

@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 ## One-Sentence Summary
 
 Mesalazine (5-aminosalicylic acid) is an anti-inflammatory drug originally used to treat ulcerative colitis and other inflammatory bowel conditions.
-The TxGNN model predicts it may be effective for **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** currently support this prediction. The score is a graph-based prediction only.
+The TxGNN model predicts it may be effective for **congenital hypotrichosis with juvenile macular dystrophy**, but **no clinical trials and no publications** currently support this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 |------|------|
 | Original Indication | Ulcerative colitis, inflammatory bowel disease, ulcerative proctosigmoiditis (the licence record held no indication text) |
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 The predicted indication is an ultra-rare genetic disorder caused by CDH3 (cadherin-3) mutations, affecting hair follicle and retinal development. It is a structural defect, not an inflammatory disease. We could identify no plausible mechanistic link between mesalazine's anti-inflammatory action and this condition.
 
-The high score (0.996) should be read as a statistical artefact of the knowledge graph, not as evidence of benefit. For context, the other top-ranked predictions are also weakly supported:
+The high score (0.9965) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. For context, the other top-ranked predictions are also weakly supported:
 
 - **Osteoarthritis (rank 2):** only a computational target-identification paper, with no clinical data. Oral mesalazine acts mostly locally in the colon, with low systemic exposure.
 - **Rheumatoid arthritis (rank 3):** indirect evidence from sulfasalazine, which releases mesalazine. Its antirheumatic effect is generally attributed to the sulfapyridine moiety or the intact parent compound, not mesalazine. Mesalazine alone has not been shown to work in rheumatoid arthritis.
@@ -112,7 +112,7 @@ Report suspected adverse reactions via the Yellow Card Scheme.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There are no trials or publications, and no plausible mechanism links mesalazine to a CDH3-related genetic disorder of hair and retina. The evidence level is L5.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and no plausible mechanism links mesalazine to a CDH3-related genetic disorder of hair and retina. The evidence level is L5.
 
 **To proceed, the following is needed:**
 - A credible mechanistic hypothesis, supported by preclinical data (for example, cell or animal models of CDH3 deficiency)

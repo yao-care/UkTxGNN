@@ -8,6 +8,7 @@ nav_order: 35
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alfuzosin Hcl
@@ -49,8 +50,8 @@ Alfuzosin HCL is an alpha-1 adrenergic receptor antagonist, recognised in publis
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — pipeline not yet executed for this drug |
-| UK Market Status | Not marketed (per current dataset) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

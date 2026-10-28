@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Prilocaine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 517
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Prilocaine: predicted new indication Neuralgia (evidence level L3). Approved use: Premature ejaculation"
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
+description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Prilocaine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Prilocaine: From Premature Ejaculation and Psychologic Dyspareunia to Neuralgia
+## Prilocaine: Papillary conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Prilocaine is an amide local anaesthetic, listed in the TxGNN knowledge graph with original indications of premature ejaculation and psychologic dyspareunia.
+Prilocaine is an amide local anaesthetic with original indications of premature ejaculation and psychologic dyspareunia.
 The TxGNN model predicts it may be useful for **neuralgia** (the highest-evidence prediction among the top 10 candidates), with **2 clinical trials** and **14 publications** currently supporting this direction.
 The evidence is mostly small, old or uncontrolled, and is largely based on the lidocaine/prilocaine (EMLA) combination rather than prilocaine alone.
 
@@ -48,12 +48,12 @@ The evidence is mostly small, old or uncontrolled, and is largely based on the l
 
 | Item | Content |
 |------|------|
-| Original Indication | Premature ejaculation; psychologic dyspareunia (from the TxGNN knowledge graph; no approved indication text is available for the UK licence) |
-| Predicted New Indication | Neuralgia (the top-ranked prediction by score is papillary conjunctivitis, but it has no supporting evidence; neuralgia is the best-supported) |
-| TxGNN Prediction Score | 99.34% (neuralgia) |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Papillary conjunctivitis |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

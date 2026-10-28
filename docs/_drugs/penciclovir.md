@@ -4,17 +4,17 @@ title: Penciclovir
 parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Penciclovir: predicted new indication Fascioliasis (evidence level L5). Approved use: Herpes labialis"
 monitor_inn: "Penciclovir"
-predicted_indications: ["fascioliasis", "cysticercosis", "coenurosis", "intestinal helminthiasis", "malignant pleural mesothelioma", "endomyometritis", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "synovium cancer", "malignant visceral pleura tumor"]
+predicted_indications: ["fascioliasis"]
 ---
 
 # Penciclovir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,31 +47,22 @@ The TxGNN model predicts it may be effective for **fascioliasis**, but there are
 |------|------|
 | Original Indication | Herpes labialis |
 | Predicted New Indication | Fascioliasis |
-| TxGNN Prediction Score | 99.06% |
+| TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, penciclovir is a guanosine nucleoside analogue. After phosphorylation by viral thymidine kinase, it inhibits herpesvirus DNA polymerase. This explains its efficacy in herpes labialis.
 
-Fascioliasis is a liver fluke (trematode) infection. Flukes have no viral thymidine kinase and no herpesvirus-like DNA polymerase, so there is no plausible mechanistic link to penciclovir. The high TxGNN score is a graph-based prediction and likely reflects network proximity between parasitic diseases in the knowledge graph rather than real biology. It should not be read as evidence of efficacy.
+Fascioliasis is a liver fluke (trematode) infection. Flukes have no viral thymidine kinase and no herpesvirus-like DNA polymerase, so there is no plausible mechanistic link to penciclovir. The high score of 0.9906 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
 The other top-ranked predictions show the same pattern:
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Cysticercosis | 98.99% | No credible mechanism (cestode lacks viral TK) |
-| 3 | Coenurosis | 98.75% | No known antiparasitic target |
-| 4 | Intestinal helminthiasis | 98.70% | No anthelmintic activity |
-| 5 | Malignant pleural mesothelioma | 98.51% | Only a speculative viral TK suicide-gene concept (explored with ganciclovir, not penciclovir) |
-| 6 | Endomyometritis | 98.45% | No antibacterial activity |
-| 7 | Malignant epithelioid mesothelioma | 98.40% | Same speculative link as above |
-| 8 | Sarcomatoid mesothelioma | 98.26% | No intrinsic antitumour mechanism |
-| 9 | Synovium cancer | 98.09% | No identified mechanism |
-| 10 | Malignant visceral pleura tumour | 98.03% | Same speculative link as mesothelioma |
 
 None of these predictions has supporting trials or publications.
 

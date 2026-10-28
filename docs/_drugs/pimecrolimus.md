@@ -4,17 +4,17 @@ title: Pimecrolimus
 parent: High Evidence (L1-L2)
 nav_order: 497
 evidence_level: L2
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Pimecrolimus: predicted new indication Seborrhoeic dermatitis (evidence level L2). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Pimecrolimus"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
+description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Pimecrolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L2** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Pimecrolimus: From Atopic Eczema to Seborrhoeic Dermatitis
+## Pimecrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Pimecrolimus is a topical calcineurin inhibitor, originally used to treat atopic eczema (atopic dermatitis).
-The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**,
 with **1 clinical trial** (Phase 2, completed) and **18 publications** (including two systematic reviews of randomised controlled trials) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis |
-| Predicted New Indication | Seborrhoeic dermatitis |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Seborrheic dermatitis |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -120,9 +119,9 @@ One completed Phase 2 randomised, double-blind trial and two systematic reviews 
 
 ## Other Predicted Indications (Brief Note)
 
-- **Dermatitis (score 99.37%, L1):** Dominated by atopic dermatitis, which is already the approved indication, so this is not true repurposing. Evidence is strong (multiple Phase 3/4 trials, a 5-year randomised safety trial, network meta-analyses and guidelines), but varies by subtype (e.g. perioral dermatitis).
-- **Exanthem (score 99.32%, L2, Research Question):** A non-specific label. The trials cover oral and genital lichen planus or lichen sclerosus, and EGFR-inhibitor rash, all small pilots. No single conclusion can be drawn.
-- **Acrodermatitis chronica atrophicans (score 99.01%, L5, Hold):** Prediction score only, with no trials or literature. This is a late manifestation of Lyme disease, treated with antibiotics, and an immunosuppressant has no clear rationale and could be counterproductive.
+- Evidence is strong (multiple Phase 3/4 trials, a 5-year randomised safety trial, network meta-analyses and guidelines), but varies by subtype (e.g. perioral dermatitis).
+- **Exanthem (score 0.9932, L2, Research Question):** A non-specific label. The trials cover oral and genital lichen planus or lichen sclerosus, and EGFR-inhibitor rash, all small pilots. No single conclusion can be drawn.
+- **Acrodermatitis chronica atrophicans (score 0.9901, L5, Hold):** Prediction score only, with no trials or literature. This is a late manifestation of Lyme disease, treated with antibiotics, and an immunosuppressant has no clear rationale and could be counterproductive.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

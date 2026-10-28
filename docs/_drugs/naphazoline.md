@@ -50,10 +50,10 @@ but there are **no clinical trials and no publications** supporting this predict
 |------|------|
 | Original Indication | Temporary relief of eye redness (vasoconstrictor eye drops; the authorisation record contains no indication text) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available from the data comp
 
 On review, **the prediction is not biologically plausible**. Local vasoconstriction is not a recognised way to promote hair growth, and it could in theory reduce blood flow to hair follicles. Established hair-loss treatments act through different pathways: minoxidil (a vasodilator and potassium channel opener), finasteride, and JAK inhibitors.
 
-The same pattern appears across the other top predictions: alopecia, alopecia areata, hypertrichosis (excess hair growth, the opposite direction) and several rare congenital syndromes. This suggests the high scores reflect non-specific hair-disorder associations in the knowledge graph rather than a true pharmacological effect. The score should be treated as a computational signal only.
+The same pattern appears across the other top predictions: alopecia, alopecia areata, hypertrichosis (excess hair growth, the opposite direction) and several rare congenital syndromes. This suggests the high scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence or a true pharmacological effect. The score should be treated as a computational signal only.
 
 ---
 

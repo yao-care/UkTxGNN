@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Topotecan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 630
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Ovarian cancer"
 monitor_inn: "Topotecan"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 # Topotecan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ with **3 clinical trials** (none breast-specific and with interpretable results)
 |------|------|
 | Original Indication | Ovarian cancer (the UK licence record contains no indication text) |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -119,7 +119,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high (99.92%), but the supporting evidence for breast cancer is thin. The only breast-specific trial was terminated with no reported enrolment. The published clinical data are old, small phase 2 or pilot studies, one of which found no evidence of increased efficacy. Resistance via BCRP is a recognised concern, and topotecan's toxicity profile, particularly myelosuppression, is significant.
+The TxGNN score is very high (0.9992), but the supporting evidence for breast cancer is thin. The only breast-specific trial was terminated with no reported enrolment. The published clinical data are old, small phase 2 or pilot studies, one of which found no evidence of increased efficacy. Resistance via BCRP is a recognised concern, and topotecan's toxicity profile, particularly myelosuppression, is significant.
 
 **To proceed, the following is needed:**
 - A systematic review of the phase 2 topotecan data in breast cancer, including comparison with current standard options

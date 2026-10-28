@@ -4,17 +4,17 @@ title: Mecasermin
 parent: Model Prediction Only (L5)
 nav_order: 386
 evidence_level: L5
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Growth hormone insensitivity syndrome"
 monitor_inn: "Mecasermin"
-predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding", "autosomal ichthyosis syndrome with fatal disease course", "Gaucher disease", "varicose disease", "congenital pulmonary lymphangiectasia", "cholesteryl ester storage disease"]
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
+description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mecasermin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mecasermin: From Growth Hormone Insensitivity Syndrome to Monosomy X
+## Mecasermin: Monosomy X
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 | Item | Content |
 |------|------|
-| Original Indication | Growth hormone insensitivity syndrome; Laron syndrome (from the knowledge graph, as the UK authorisation record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Monosomy X |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,9 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is a recombinant form of IGF-1, the main mediator of growth hormone effects on growth. Its efficacy in growth hormone insensitivity (where the body cannot respond adequately to growth hormone) is established, and mechanistically it may be applicable to other conditions with short stature.
 
-Monosomy X (Turner syndrome) is characterised by short stature, so involvement of the IGF-1 axis is biologically plausible. However, Turner syndrome is usually treated with growth hormone, which works through an intact growth hormone receptor. There is no clear reason, from the data compiled, to expect mecasermin to add benefit. The very high TxGNN score (0.996) is a computational signal only and is not backed by clinical evidence here.
+Monosomy X (Turner syndrome) is characterised by short stature, so involvement of the IGF-1 axis is biologically plausible. However, Turner syndrome is usually treated with growth hormone, which works through an intact growth hormone receptor. There is no clear reason, from the data compiled, to expect mecasermin to add benefit. The very high TxGNN score (0.9959) is a computational signal only and is not backed by clinical evidence here.
 
-Other predictions in the top 10 (for example Wolman disease, Gaucher disease, oesophageal varices, varicose disease and cholesteryl ester storage disease) have no identified mechanistic link to IGF-1 and appear to be driven by proximity in the knowledge graph. The one exception is growth hormone insensitivity syndrome with immune dysregulation 2 (STAT5B-related), which is closely related to the existing indication. It is better viewed as an extension of the current label than as true repurposing, and it warrants a targeted literature review. It would not address the immune component of the condition.
+Other predictions in the top 10 (for example Wolman disease and oesophageal varices) have no identified mechanistic link to IGF-1. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

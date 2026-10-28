@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Nabilone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 429
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the UK authorisation data compiled for this report (nab…"
 monitor_inn: "Nabilone"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "migraine with or without aura, susceptibility to", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
 ---
 
 # Nabilone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be useful for **migraine disorder**, with **no r
 |------|------|
 | Original Indication | Not stated in the UK authorisation data compiled for this report (nabilone is generally used for chemotherapy-induced nausea and vomiting refractory to conventional antiemetics) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (migraine); L3 for the related headache disorder prediction |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,13 +63,13 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 The endocannabinoid system is thought to modulate trigeminovascular pain signalling, CGRP release and central pain processing, all of which are relevant to migraine. This offers a plausible, though unproven, biological link between nabilone's pharmacology and migraine.
 
-The only direct source is a 2026 systematic review of cannabinoid-based interventions for low back pain and migraine. The available data do not show whether it contains nabilone-specific migraine data. The high TxGNN score reflects a graph-based association, not clinical confirmation.
+The only direct source is a 2026 systematic review of cannabinoid-based interventions for low back pain and migraine. The available data do not show whether it contains nabilone-specific migraine data. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Related predictions in the same output:**
-- **Headache disorder** (score 99.78%, L3): a small, preliminary, double-blind, active-controlled randomised trial of nabilone in medication overuse headache (30 patients, 2012) is the most direct clinical evidence.
+- **Headache disorder** (score 0.9978, L3): a small, preliminary, double-blind, active-controlled randomised trial of nabilone in medication overuse headache (30 patients, 2012) is the most direct clinical evidence.
 - **Migraine with brainstem aura**, **migraine susceptibility** and **trigeminal autonomic cephalalgia**: no independent evidence. The susceptibility term is essentially a duplicate of migraine.
 - **Tourette syndrome** and **manic bipolar disorder**: only indirect evidence. In bipolar disorder there is also a concern that cannabinoids could worsen mania or psychosis.
-- **Atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, ulerythema ophryogenesis**: no plausible mechanism, likely graph artefacts.
+- **Atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, ulerythema ophryogenesis**: no plausible mechanism; the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

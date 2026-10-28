@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **meningococcal infection**, bu
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Meningococcal infection |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A possible, but unverified, link is a general antimicrobial effect against *Neisseria meningitidis*, which can colonise the oropharynx. This is speculative and has not been tested.
 
-There are strong reasons for caution. Meningococcal infection is an invasive systemic disease. It is treated with systemic antibiotics such as ceftriaxone and prevented by vaccination. A topical oral fluoride product with minimal systemic exposure is unlikely to be relevant to treatment. The very high TxGNN score is a graph-based model output and should not be read as clinical evidence.
+There are strong reasons for caution. Meningococcal infection is an invasive systemic disease. It is treated with systemic antibiotics such as ceftriaxone and prevented by vaccination. A topical oral fluoride product with minimal systemic exposure is unlikely to be relevant to treatment. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -79,7 +79,6 @@ The authorisation is recorded as valid and as a single-ingredient product. Produ
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph signal, not label text):** The TxGNN knowledge graph links stannous fluoride with **dental fluorosis** as a contraindication. This is not from product labelling and should be checked against the SmPC.
 - **Drug Interactions:** No interaction records were found.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.

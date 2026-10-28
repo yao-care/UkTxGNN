@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and **no publications*
 |------|------|
 | Original Indication | Obesity disorder; monogenic obesity (the UK authorisation record holds no indication text) |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

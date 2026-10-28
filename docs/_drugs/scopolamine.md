@@ -6,9 +6,9 @@ nav_order: 563
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Motion sickness, peptic ulcer disease, irritable bowel syndrome…"
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
+description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Scopolamine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Scopolamine (Hyoscine): From Motion Sickness and Antimuscarinic Indications to Cauda Equina Syndrome
+## Scopolamine: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,23 +45,23 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome** (the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Motion sickness, peptic ulcer disease, irritable bowel syndrome, allergic and vasomotor rhinitis, uveitis, cycloplegia and others (listed in the knowledge graph; the UK authorisation record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Other predictions in the same list, all at evidence level L5 with a Hold recommendation:
 
 | Rank | Predicted Indication | TxGNN Score |
 |------|------|------|
-| 2 | Neurogenic bladder (term flagged obsolete in the ontology) | 99.98% |
-| 3 | Papillary conjunctivitis | 99.98% |
-| 4 | Atopic conjunctivitis | 99.80% |
-| 5 | Rosacea conjunctivitis | 99.40% |
-| 6 | Vernal conjunctivitis | 99.08% |
+| 2 | Neurogenic bladder (term flagged obsolete in the ontology) | 0.9998 |
+| 3 | Papillary conjunctivitis | 0.9998 |
+| 4 | Atopic conjunctivitis | 0.9980 |
+| 5 | Rosacea conjunctivitis | 0.9940 |
+| 6 | Vernal conjunctivitis | 0.9908 |
 
 ## Why is This Prediction Reasonable?
 

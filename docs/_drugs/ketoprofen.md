@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
 monitor_inn: "Ketoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ketoprofen: From Arthropathy and Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ketoprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from the TxGNN knowledge graph; no approved indication text is available for the UK licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,14 +61,14 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 Detailed mechanism of action data are not available in the data compiled for this report. Ketoprofen is a non-selective cyclooxygenase (COX) inhibitor, and its efficacy in inflammatory and degenerative joint disease is well established. It works by reducing prostaglandin synthesis.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss of function of the *GDF5* (CDMP1) gene. Ketoprofen has no established mechanism for correcting this defect. At most it could offer symptomatic pain relief, which is not a disease-modifying rationale. The high score most likely reflects proximity within the knowledge graph (shared skeletal and joint-related neighbours) rather than a biological rationale. The prediction should therefore be treated as a hypothesis only.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss of function of the *GDF5* (CDMP1) gene. Ketoprofen has no established mechanism for correcting this defect. At most it could offer symptomatic pain relief, which is not a disease-modifying rationale. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The prediction should therefore be treated as a hypothesis only.
 
 Other predicted indications were also screened. Most are rare developmental or genetic disorders with no plausible COX-related mechanism. Two stand out as research questions:
 
-- **Spondyloarthropathy, susceptibility to** (score 99.86%): NSAIDs are an established first-line symptomatic therapy for spondyloarthritis. This is class-level evidence that overlaps with ketoprofen's existing indications, so it is probably not true repurposing.
-- **Juvenile arthritis due to defect in LACC1** (score 99.74%): NSAIDs are commonly used for symptom control in juvenile arthritis, but this monogenic autoinflammatory-type disease usually needs biologic therapy, so ketoprofen would be adjunctive at best.
+- This is class-level evidence that overlaps with ketoprofen's existing indications, so it is probably not true repurposing.
+- **Juvenile arthritis due to defect in LACC1** (score 0.9974): NSAIDs are commonly used for symptom control in juvenile arthritis, but this monogenic autoinflammatory-type disease usually needs biologic therapy, so ketoprofen would be adjunctive at best.
 
-Pseudoachondroplasia (score 99.95%) has a plausible indirect link, as early-onset joint pain and osteoarthritis are common, but this is symptomatic use only and no data were supplied.
+Pseudoachondroplasia (score 0.9995) has a plausible indirect link, as early-onset joint pain and osteoarthritis are common, but this is symptomatic use only and no data were supplied.
 
 ---
 

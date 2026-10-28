@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olanzapine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 459
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Olanzapine: predicted new indication Agoraphobia (evidence level L3). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
+description: "Olanzapine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L3). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **3**
 
 </div>
 
-## Olanzapine: From Bipolar Disorder and Schizophrenia to Agoraphobia
+## Olanzapine: From Bipolar Disorder and Schizophrenia to benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,13 +49,13 @@ The TxGNN model predicts it may be effective for **Agoraphobia** (the highest-ra
 |------|------|
 | Original Indication | Bipolar disorder, schizophrenia, depressive disorders (the UK licence record contains no indication text) |
 | Predicted New Indication | Agoraphobia (the model's top-ranked prediction is benign paroxysmal torticollis of infancy; see note below) |
-| TxGNN Prediction Score | 99.47% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9947 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
-**Note on prediction choice:** The top-ranked prediction, benign paroxysmal torticollis of infancy (score 99.54%), has no trials or literature (L5) and raises safety concerns for antipsychotic use in infants, so it is not evaluated further here. Agoraphobia is the highest-ranked prediction with a body of supporting literature. The third prediction, dysthymic disorder (99.28%), has only indirect evidence (L4) and should also be held.
+**Note on prediction choice:** The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9954), has no trials or literature (L5) and raises safety concerns for antipsychotic use in infants, so it is not evaluated further here. Agoraphobia is the highest-ranked prediction with a body of supporting literature.
 
 ---
 
@@ -63,7 +63,7 @@ The TxGNN model predicts it may be effective for **Agoraphobia** (the highest-ra
 
 Detailed mechanism of action data is not currently available for this drug. Based on known pharmacology, olanzapine is a multi-receptor antagonist acting at serotonin (5-HT2A/5-HT2C) and dopamine D2 receptors, among others. Its efficacy in schizophrenia and bipolar disorder is established, and it may be applicable to anxiety-spectrum conditions.
 
-Agoraphobia is closely linked to panic disorder and the wider anxiety spectrum. Olanzapine has been used as an add-on treatment in anxiety disorders that have not responded to first-line therapy, which gives a plausible mechanistic basis for the prediction. Its original indications also include anxiety disorder in the knowledge graph.
+Agoraphobia is closely linked to panic disorder and the wider anxiety spectrum. Olanzapine has been used as an add-on treatment in anxiety disorders that have not responded to first-line therapy, which gives a plausible mechanistic basis for the prediction. The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The evidence is indirect, however. It relates mainly to treatment-resistant panic disorder (with or without agoraphobia) rather than agoraphobia as a standalone diagnosis. Metabolic adverse effects also limit its appeal where first-line options (SSRIs and CBT) are available.
 

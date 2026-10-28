@@ -8,6 +8,7 @@ nav_order: 170
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cinchocaine Hcl
@@ -48,8 +49,8 @@ Cinchocaine (also known as dibucaine) is a potent, long-acting amide-type local 
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No model prediction or supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ## Why Was This Drug Evaluated?
@@ -85,7 +86,7 @@ No TxGNN repurposing predictions were generated for cinchocaine HCl due to the a
 
 **To proceed, the following is needed:**
 
-1. **Resolve DrugBank mapping** — Confirm the DrugBank ID for cinchocaine HCl (likely [DB00527](https://go.drugbank.com/drugs/DB00527) for dibucaine) and re-run the TxGNN knowledge graph prediction pipeline
+1. **Resolve DrugBank mapping** — Confirm the DrugBank ID for cinchocaine HCl (likely [DB00527](https://go.drugbank.com/drugs/DB00527) for dibucaine) and re-run the TxGNN TxGNN model (deep learning) prediction pipeline
 2. **Obtain mechanism of action data** — Query DrugBank API with the confirmed identifier to retrieve pharmacodynamic and pharmacokinetic profiles
 3. **Retrieve safety data** — Source the SmPC or BNF entry for cinchocaine to populate key warnings, contraindications, and interaction profiles
 4. **Confirm UK regulatory status** — Verify current MHRA product licence status via the [MHRA Products database](https://products.mhra.gov.uk/) to determine if any authorised products containing cinchocaine remain on the UK market

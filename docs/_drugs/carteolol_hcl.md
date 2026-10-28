@@ -8,6 +8,7 @@ nav_order: 136
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carteolol Hcl
@@ -52,8 +53,8 @@ Without a target repurposing indication, a full mechanistic and clinical evaluat
 | Predicted New Indication | None — no TxGNN prediction available in this Evidence Pack |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (model prediction only — but no indication has even been predicted) |
-| UK Market Status | Not marketed |
-| Number of UK Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of UK Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

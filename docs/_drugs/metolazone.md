@@ -4,17 +4,17 @@ title: Metolazone
 parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Metolazone: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Metolazone"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metolazone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metolazone: From Hypertension to Malignant Renovascular Hypertension
+## Metolazone: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Metolazone is a thiazide-like diuretic, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **no registered clinical trials** and **no relevant publications** supporting this direction. The evidence is model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); no approved indication text is available in the UK licence data |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.84% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,9 +60,8 @@ Currently, detailed mechanism of action data is not available in the data compil
 Malignant renovascular hypertension is a severe, renin-driven form of hypertension. A diuretic could plausibly lower volume load, but thiazide-type agents are not first-line here. Management centres on blood pressure control and revascularisation, and RAAS blockade is hazardous in bilateral renal artery stenosis. The high TxGNN score most likely reflects the similarity of this condition to the original hypertension indication rather than any specific supporting evidence.
 
 Other predicted indications are also weakly supported:
-- **Malignant hypertensive renal disease** (score 99.84%): metolazone retains efficacy at reduced GFR and is used with loop diuretics for diuretic resistance, but this is a hypertensive emergency where parenteral agents and rapid controlled blood pressure reduction are standard. Oral metolazone has no established role, and there is a risk of excessive volume or electrolyte depletion.
-- **Pulmonary hypertension (unclear multifactorial mechanism, and owing to lung disease/hypoxia)** (score 99.83%): diuretics offer indirect symptomatic relief of right-heart volume overload, but metolazone does not act on the pulmonary vascular mechanisms driving the disease.
-- **Braddock syndrome** (score 99.78%): no mechanistic rationale is evident, and the score is likely a graph-embedding artefact.
+- **Malignant hypertensive renal disease** (score 0.9984): metolazone retains efficacy at reduced GFR and is used with loop diuretics for diuretic resistance, but this is a hypertensive emergency where parenteral agents and rapid controlled blood pressure reduction are standard. Oral metolazone has no established role, and there is a risk of excessive volume or electrolyte depletion.
+- **Pulmonary hypertension (unclear multifactorial mechanism, and owing to lung disease/hypoxia)** (score 0.9983): diuretics offer indirect symptomatic relief of right-heart volume overload, but metolazone does not act on the pulmonary vascular mechanisms driving the disease.
 
 ## Clinical Trial Evidence
 

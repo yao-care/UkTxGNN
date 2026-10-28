@@ -8,6 +8,7 @@ nav_order: 105
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bifonazole
@@ -51,8 +52,8 @@ Critical data gaps — including mechanism of action and SmPC safety information
 | Predicted New Indication | No predictions generated in this run |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — pipeline could not complete |
-| UK Market Status | Not marketed in the United Kingdom |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

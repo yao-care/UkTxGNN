@@ -4,7 +4,7 @@ title: Phenytoin
 parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalised tonic-clonic seizures…"
 monitor_inn: "Phenytoin"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Phenytoin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,13 +47,13 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 |------|------|
 | Original Indication | Epilepsy (including generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome and status epilepticus) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-The approved indication text was not available in the UK licence record, so the original indications above come from the TxGNN knowledge graph.
+The approved indication text was not available in the UK licence record, so the original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Why is This Prediction Reasonable?
 
@@ -61,7 +61,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 For **trigeminal nerve neoplasm**, the prediction is **not mechanistically convincing**. The high score likely reflects network proximity to trigeminal neuralgia and seizure-related nodes rather than any antitumour effect. Sodium channel blockade might relieve neuropathic pain symptoms, but there is no plausible mechanism for treating the neoplasm itself. The two retrieved papers concern trigeminal neuralgia and Sturge-Weber syndrome, not neoplasm treatment.
 
-The more credible repurposing signal is for **trigeminal neuralgia** (score 99.97%, rank 9). There, phenytoin reduces ectopic high-frequency firing in the trigeminal nerve, the same mechanism as carbamazepine, the first-line drug. Phenytoin has been mentioned as an alternative or add-on, and intravenous use has been studied for acute exacerbations.
+The more credible repurposing signal is for **trigeminal neuralgia** (score 0.9997, rank 9). There, phenytoin reduces ectopic high-frequency firing in the trigeminal nerve, the same mechanism as carbamazepine, the first-line drug. Phenytoin has been mentioned as an alternative or add-on, and intravenous use has been studied for acute exacerbations.
 
 Other predictions (reflex seizures such as audiogenic, reading, startle, eating, micturition-induced and thinking seizures) are theoretically plausible as seizure types, but have little or no direct human evidence. Beta-ketothiolase deficiency has no recognisable mechanistic link and is likely a network artefact.
 
@@ -106,7 +106,7 @@ The identifier shown is the code in the data compiled for this report, and it is
 - Haematological: thrombocytopenia, neutropenia, agranulocytosis
 - Other: systemic lupus erythematosus, sleep apnoea syndromes, substance abuse/dependence
 
-These are knowledge-graph associations and should be checked against the SmPC.
+These scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; they should be checked against the SmPC.
 
 **Drug interactions:** 100 interactions were identified; the main examples listed (mostly moderate severity) include:
 - Antidiabetic agents: acarbose, metformin, pioglitazone, alogliptin, albiglutide

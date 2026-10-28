@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorpromazine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 158
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Schizophrenia and other psychotic disorders…"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "Chlorpromazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
+last_modified_at: 2026-10-27
+description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Chlorpromazine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,109 +33,65 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Chlorpromazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy
+## Chlorpromazine: Phenothiazine antipsychotic (dopamine D2 receptor antagonist) → Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Chlorpromazine is an antipsychotic originally used to treat schizophrenia and other psychotic and manic disorders.
-The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **no clinical trials** and only **1 publication**, a 1967 report of phototoxic adverse reactions, so this prediction has no therapeutic support and a possible safety concern.
-
----
+Chlorpromazine is a phenothiazine antipsychotic medicine marketed in the UK.
+The TxGNN model predicts it may be relevant to **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication** (a 1967 report of a drug-induced adverse effect, not a therapeutic benefit).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia and other psychotic disorders, manic bipolar affective disorder (the UK licence record contains no indication text; indications are from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9995 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Chlorpromazine is a long-established antipsychotic whose efficacy in schizophrenia is well recognised. The mechanism is generally attributed to dopamine D2 receptor antagonism, though this is not confirmed by the data compiled for this report.
+Detailed mechanism of action data are not currently available in the data compiled for this report. Chlorpromazine is a member of the phenothiazine class, which is generally understood to act mainly through dopamine D2 receptor antagonism.
 
-The prediction for retinal dystrophy is **not mechanistically convincing**. The only supporting record is a 1967 report of phototoxic (ocular and skin) reactions with high-dose chlorpromazine and thioridazine. This describes a drug-induced adverse effect, not a benefit. Chlorpromazine can deposit in the retina and uvea, so it may be harmful in an inherited retinal disease. The high TxGNN score most likely reflects a network-prediction artefact rather than a real therapeutic signal.
-
-**Other predictions reviewed.** Of the other nine ranked predictions, eight have no trials or literature (L5) and no plausible mechanism, and all were given a Hold:
-- congenital disorder of glycosylation with defective fucosylation
-- X-linked myopia, syndromic myopia and myopia 26 (X-linked, female-limited), which have only a speculative link via retinal dopamine signalling
-- hydranencephaly
-- perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis
-- Charcot-Marie-Tooth disease type 1G
-- atypical glycine encephalopathy
-
-The tenth, **early-onset schizophrenia** (score 99.47%), is an age-specific extension of an existing indication rather than true repurposing. It has indirect observational and genetic-association evidence only (L3, Research Question), with no paediatric or adolescent RCT.
-
----
+The data compiled for this report do not provide a convincing mechanistic bridge to inherited retinal dystrophy. The only supporting record is a 1967 JAMA report describing phototoxic reactions (ocular and skin) after high-dose chlorpromazine and thioridazine. This describes harm rather than benefit. Chlorpromazine can deposit in retinal and uveal tissue, so it could plausibly be detrimental in an inherited retinal disease. The very high TxGNN score (0.9995) has no clinical support behind it and most likely reflects an artefact of the network prediction rather than a genuine therapeutic signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Adverse-effect report | JAMA | Phototoxic reactions induced by high doses of chlorpromazine and thioridazine. This is a harm signal, not evidence of benefit. |
-
----
+| [5336672](https://pubmed.ncbi.nlm.nih.gov/5336672/) | 1967 | Adverse-effect report | JAMA | Phototoxic reactions induced by high doses of chlorpromazine and thioridazine; no abstract available and no therapeutic benefit described |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010D0AAAIAI (BNF-style code; no PL number in the data compiled) | Chlorpromazine HCl tablets 25 mg | Tablet | Not stated in the data compiled |
-
-BNF section 4.2.1 (antipsychotic drugs) is the relevant classification. Please check the current SmPC for the licensed indications.
-
----
-
-## Cytotoxicity
-
-Not applicable: chlorpromazine is not an antineoplastic drug, so this section is omitted.
-
----
+The licence records compiled for this report show one valid single-ingredient authorisation (product: Chlorpromazine HCl tablets 25 mg). Dosage form, manufacturer and approved indication text are not recorded in the local data.
 
 ## Safety Considerations
 
-Label-derived warnings and contraindications were not available in the data compiled. Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+- **Drug Interactions**: The interaction screen returned 100 recorded interactions. Examples flagged as **Major**: bupropion and morphine. Examples flagged as **Moderate** include acarbose, famotidine, epinephrine, hydrocortisone, metformin, pioglitazone, canagliflozin, chlorpropamide, amphotericin B, atropine, glycopyrronium, hyoscyamine, loperamide and bisacodyl. Several antidiabetic agents appear in this list, suggesting attention to glycaemic control, and several anticholinergic agents suggest additive anticholinergic effects.
+- **Conditions flagged as potential cautions in the compiled data (not label text)**: long QT syndrome, torsades de pointes, heart conduction disease, sudden cardiac arrest, myocardial infarction, orthostatic hypotension, epilepsy, liver disease, neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anaemia, hyperglycaemia, benign prostatic hyperplasia, basal ganglia disease and substance abuse/dependence, among others.
 
-- **Contraindication signals from the knowledge graph** (these are network associations, not label text). Conditions flagged include:
-  - Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial infarction
-  - Haematological: neutropenia, agranulocytosis, leukopenia, thrombocytopenia, anaemia
-  - Neurological: epilepsy, basal ganglia disease, multiple system atrophy
-  - Autonomic: orthostatic hypotension, postural orthostatic tachycardia syndrome
-  - Hepatic and biliary: liver disease, gallbladder disease
-  - Metabolic and other: hyperglycaemia, obesity, benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma
-- **Ocular relevance**: the only retinal-related record is the phototoxicity report above, and chlorpromazine can deposit in the retina and uvea.
-- **Drug interactions**: 100 interactions were identified. The sample provided includes two **Major** interactions, with **bupropion** and **morphine**. The remainder are **Moderate**, including:
-  - Antidiabetics: acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide
-  - Anticholinergics: atropine, hyoscyamine, glycopyrronium
-  - Others: epinephrine, hydrocortisone, famotidine, loperamide, bisacodyl, amphotericin B, lorcaserin
-
----
+Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The retinal dystrophy prediction rests on a high model score alone. The only related publication reports an adverse effect, and chlorpromazine's known retinal deposition and phototoxicity suggest possible harm. No trials exist.
+The prediction rests on a model score alone. The single supporting publication describes a toxic ocular and skin effect of chlorpromazine, not a benefit, and no study directly examines chlorpromazine as a treatment for this retinal disease. Retinal deposition of the drug raises a plausible safety concern.
 
 **To proceed, the following is needed:**
-- Any credible preclinical or mechanistic evidence for benefit in inherited retinal disease (none is currently available)
-- Mechanism of action data and label-derived warnings and contraindications from the SmPC and BNF
-- The licensed indication text and PL number for the UK product
-- For early-onset schizophrenia, if pursued as a research question: paediatric and adolescent efficacy and safety data (extrapyramidal symptoms, sedation) compared with currently preferred antipsychotics
+- Any preclinical or clinical evidence of benefit in inherited retinal dystrophy (none is currently available)
+- Detailed mechanism of action data and a credible biological rationale
+- A retinal safety assessment, given the known ocular and phototoxic effects of chlorpromazine
+- Full warnings and contraindications from the SmPC and BNF to complete safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

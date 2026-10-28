@@ -4,17 +4,17 @@ title: Hydroxyurea
 parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Melanoma, sickle cell anaemia, ovarian cancer"
 monitor_inn: "Hydroxyurea"
-predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+predicted_indications: ["female breast carcinoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
+description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Hydroxyurea: From Melanoma and Sickle Cell Anaemia to Female Breast Carcinoma
+## Hydroxyurea: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Melanoma, sickle cell anaemia, ovarian cancer (from the knowledge graph; no approved indication text is available for the UK licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (preclinical and mechanistic studies only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 (preclinical and mechanistic studies only) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -106,7 +106,6 @@ The single authorisation recorded in the compiled data is listed under a product
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (antimetabolite; ribonucleotide reductase inhibitor) |
-| Myelosuppression Risk | High. The knowledge graph links hydroxyurea with leukopenia, thrombocytopenia and anaemia |
 | Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
 | Monitoring Items | FBC with differential, platelet count, renal and liver function |
 | Handling Protection | Follow local cytotoxic drug handling procedures |
@@ -115,7 +114,7 @@ The single authorisation recorded in the compiled data is listed under a product
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia, cutaneous vasculitis.
+- **Contraindications (associations from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence; not label text)**: kidney disease, pyoureter, thrombocytopenia, anaemia, macrocytic anaemia, leukopenia, cutaneous vasculitis.
 - **Drug Interactions**: 100 potential interactions were identified. Only levofloxacin is graded (Minor); the rest, including doxycycline, amphotericin B, hydrocortisone, aspirin, morphine, metformin and simvastatin, have no severity grade, so their clinical significance is unknown.
 
 Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
@@ -141,7 +140,7 @@ Support for breast carcinoma rests on a model prediction and preclinical replica
 
 The same data lists stronger candidates than breast carcinoma elsewhere in the ranking:
 
-- **Sickle cell–haemoglobin C disease** (TxGNN 99.67%, evidence level L2): one terminated phase 2 trial ([NCT00532883](https://clinicaltrials.gov/study/NCT00532883), n=44) plus a 2025 trial publication in NEJM Evidence ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort data. This is the best-supported prediction, and adequately powered RCT confirmation is still needed.
+- **Sickle cell–haemoglobin C disease** (TxGNN 0.9967, evidence level L2): one terminated phase 2 trial ([NCT00532883](https://clinicaltrials.gov/study/NCT00532883), n=44) plus a 2025 trial publication in NEJM Evidence ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort data. This is the best-supported prediction, and adequately powered RCT confirmation is still needed.
 - **Sickle cell–beta-thalassaemia** (L3): supportive but not disease-specific evidence.
 - **Other sickle cell variants and rare mucinous or cervical tumours**: indirect evidence or model prediction only (L4–L5); Hold.
 ## Disclaimer

@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Nefopam: predicted new indication Mature cataract . The only prediction with literature is lumbar spina… (evidence level L5). Approved use: Not stated in the data compiled for this report (nefopam is…"
 monitor_inn: "Nefopam"
-predicted_indications: ["mature cataract", "craniostenosis cataract", "tetanic cataract", "immature cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
+predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
+last_modified_at: 2026-10-23
+description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
 # Nefopam
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nefopam: From Analgesia to Lumbar Spinal Stenosis (Perioperative Pain)
+## Nefopam: From a Centrally Acting Analgesic to Immature Cataract
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Nefopam is a centrally acting non-opioid analgesic marketed in the UK as a 30 mg tablet.
-The TxGNN model's top-ranked predictions are cataract-related conditions (mature cataract and others), none of which has any supporting evidence. The only prediction with published literature is **lumbar spinal stenosis**, with **0 registered clinical trials** and **4 publications** (mostly perioperative pain studies).
+Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30 mg tablet. The TxGNN model predicts it may be effective for **immature cataract**, but **no clinical trials and no publications** support this prediction, so it is a computational signal only.
 
 ---
 
@@ -47,23 +46,23 @@ The TxGNN model's top-ranked predictions are cataract-related conditions (mature
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (nefopam is a non-opioid analgesic) |
-| Predicted New Indication | Mature cataract (top-ranked prediction, no supporting evidence). The only prediction with literature is lumbar spinal stenosis (rank 10), discussed below |
-| TxGNN Prediction Score | 99.98% (mature cataract); 99.97% (lumbar spinal stenosis) |
-| Evidence Level | L5 for mature cataract and the other cataract predictions; L4 for lumbar spinal stenosis |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold (cataract predictions); lumbar spinal stenosis is a research question only |
+| Original Indication | Not stated in the licence record compiled for this report |
+| Predicted New Indication | Immature cataract |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Licence Records | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, nefopam is a centrally acting non-opioid analgesic. It inhibits serotonin, noradrenaline and dopamine reuptake and modulates voltage-gated sodium and calcium channels.
+Detailed mechanism of action data from DrugBank is not available. From the other information compiled for this report, nefopam is a centrally acting analgesic that inhibits the reuptake of serotonin, noradrenaline and dopamine, and modulates voltage-gated sodium and calcium channels.
 
-**Cataract predictions (ranks 1-9).** No mechanistic link has been established. Nothing in nefopam's pharmacology is known to affect lens opacification, whether age-related, diabetic, syndromic or tetanic. The uniformly high scores across the cataract group (99.97-99.98%) most likely reflect a shared disease-class signal in the knowledge graph rather than a pharmacological rationale. These should be regarded as model artefacts.
+No recognised pathway links these actions to lens opacification. Cataract formation is generally driven by oxidative damage, protein modification and, in some subtypes, metabolic or calcium-homeostasis disturbances. Nefopam's calcium channel effects are neuronal and have no known influence on these processes.
 
-**Lumbar spinal stenosis (rank 10).** The link here is indirect but plausible. Monoamine reuptake inhibition and ion channel modulation may help neuropathic-type pain, dysesthesia and postoperative pain in patients undergoing spine surgery. However, the evidence concerns symptom control around surgery, not modification of the underlying disease.
+The TxGNN model (deep learning) gives a very high score, but near-identical scores appear across many cataract subtypes (for example mature, senile, cortical, nuclear and diabetic cataract). The score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence. On the data available, the prediction should be treated as a hypothesis with no supporting mechanism.
 
 ---
 
@@ -75,14 +74,9 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-All publications below relate to lumbar spinal stenosis. No literature was available for any cataract prediction.
+Currently no related literature available.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [38068520](https://pubmed.ncbi.nlm.nih.gov/38068520/) | 2023 | Randomised, double-blind study | Journal of Clinical Medicine | 73 patients with lumbar spinal stenosis undergoing spine surgery received nefopam 20 mg or saline before surgery; outcomes were dysesthesia, postoperative pain and satisfaction (results not shown in the available abstract) |
-| [41937571](https://pubmed.ncbi.nlm.nih.gov/41937571/) | 2026 | Randomised, double-blind, placebo-controlled trial | Asian Spine Journal | Evaluated the opioid-sparing effect of continuous postoperative intravenous nefopam in multilevel degenerative lumbar spinal fusion (results not shown in the available abstract) |
-| [31166320](https://pubmed.ncbi.nlm.nih.gov/31166320/) | 2019 | Clinical study | Zhurnal Voprosy Neirokhirurgii imeni N. N. Burdenko | Compared multimodal perioperative analgesia regimens in spinal stenosis surgery and their effect on failed back surgery syndrome (design not confirmed) |
-| [25535527](https://pubmed.ncbi.nlm.nih.gov/25535527/) | 2014 | Case report | Journal of Korean Neurosurgical Society | Status epilepticus in a 71-year-old man after nefopam given around lumbar spinal stenosis surgery; a seizure-risk safety signal |
+For context, among the other predictions for nefopam, only lumbar spinal stenosis has any publications. These concern perioperative pain and dysesthesia, which is symptom control rather than a disease-modifying effect. They do not bear on cataract.
 
 ---
 
@@ -90,34 +84,34 @@ All publications below relate to lumbar spinal stenosis. No literature was avail
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0407010P0AAABAB (BNF product code, not a PL number) | Nefopam HCl Tab 30mg | Tablet | Not stated in the data compiled |
+| 0407010P0AAABAB (as recorded; this is in BNF-style code format, not a PL number) | Nefopam HCl Tab 30mg | Tablet (from product name) | Not stated in the licence record |
 
-BNF classification code 0407010 corresponds to the non-opioid analgesics section. Only one valid single-ingredient authorisation is recorded.
+This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication could not be confirmed from the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-- **Seizure risk:** The literature includes a case report of status epilepticus associated with nefopam ([PMID 25535527](https://pubmed.ncbi.nlm.nih.gov/25535527/)). Published neurological adverse reactions include confusion, hallucinations, delirium and convulsions, and other reported effects are anticholinergic and cardiovascular.
+- **Drug Interactions**: The interaction query returned no results, which means no interaction data are available rather than that none exist.
+- **Reported adverse event**: A case report describes status epilepticus attributed to nefopam (PMID 25535527). This is consistent with its known effects on seizure threshold and its anticholinergic and sympathomimetic adverse effects.
 
-Please refer to the SmPC and BNF for full warnings, contraindications and drug interaction information. Report suspected adverse reactions via the Yellow Card Scheme.
+Warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for all cataract predictions); lumbar spinal stenosis is a research question only.
+**Decision: Hold**
 
 **Rationale:**
-- The nine cataract predictions have no trials, no literature and no plausible mechanism, so they rest on model score alone (L5).
-- For lumbar spinal stenosis, the evidence supports perioperative analgesia rather than treatment of the disease itself. Study designs have not been fully verified, so it remains L4 and is not graded as RCT-level evidence. The seizure signal also calls for caution.
+The prediction rests only on a model score. There are no trials or publications on immature cataract, and no plausible mechanistic link. Core safety data are also missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data confirmed from DrugBank
-- SmPC warnings and contraindications (currently a blocking gap for safety screening)
-- Full-text review of the two randomised studies (PMIDs 38068520 and 41937571) to confirm designs, endpoints and results
-- Clarification of whether perioperative analgesia in spinal stenosis surgery falls within nefopam's existing analgesic use, which would make it a use-extension question rather than true repurposing
-- A seizure-risk assessment for patients undergoing spine surgery
+- Mechanism of action data (for example from DrugBank) and a credible biological rationale linking nefopam to lens opacification
+- Preclinical evidence (for example lens models) or any clinical study directly addressing cataract
+- The SmPC warnings and contraindications, and the licensed indication text, for the UK product
+- A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.
+- Given the seizure risk, a safety review before any consideration in an older population, in which cataract is most common
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

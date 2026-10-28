@@ -4,17 +4,17 @@ title: Mianserin
 parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
-indication_count: 7
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Mianserin"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "dysthymic disorder", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "neurotic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 ---
 
 # Mianserin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Among the other predictions, **dysthymic disorder, melancholia, neurotic depress
 |------|------|
 | Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK licence record holds no indication text) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predictions, **dysthymic disorder, melancholia, neurotic depress
 
 Detailed mechanism of action data is not currently available in the data compiled for this report. Pharmacology records show that mianserin binds several serotonin receptors (5-HT1B, 5-HT2A, 5-HT2B, 5-HT2C, 5-HT6, 5-HT7), the three alpha-1 adrenoceptor subtypes, the LPA1 receptor and the noradrenaline transporter. Some of these records come from mouse or rat targets. This profile is consistent with its use as an antidepressant, but the records do not by themselves explain any new indication.
 
-For the top-ranked prediction, **no mechanistic link is supported**. Benign paroxysmal torticollis of infancy is a paediatric, migraine-related condition, often associated with CACNA1A variants. Nothing in mianserin's known pharmacology suggests relevance. The high score (0.995) reflects a graph-based prediction only and should not be read as clinical evidence.
+For the top-ranked prediction, **no mechanistic link is supported**. Benign paroxysmal torticollis of infancy is a paediatric, migraine-related condition, often associated with CACNA1A variants. Nothing in mianserin's known pharmacology suggests relevance. The high score (0.9949) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as clinical evidence.
 
 Other high-ranking predictions are more plausible, but most are close to existing uses rather than true repurposing:
 
@@ -124,7 +124,7 @@ Please refer to the SmPC and BNF for warnings, contraindications and other safet
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, benign paroxysmal torticollis of infancy, is supported only by a graph-based score. There are no trials or publications, and no plausible mechanistic link. Safety and mechanism data are also incomplete. The better-supported predictions (dysthymic disorder, melancholia, neurotic depression and neurotic disorder) are close to existing depression and anxiety uses and are best treated as research questions rather than new repurposing candidates.
+The top-ranked prediction, benign paroxysmal torticollis of infancy, is supported only by a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications, and no plausible mechanistic link. Safety and mechanism data are also incomplete. The better-supported prediction (neurotic disorder) is close to existing depression and anxiety uses and is best treated as a research question rather than a new repurposing candidate.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for mianserin

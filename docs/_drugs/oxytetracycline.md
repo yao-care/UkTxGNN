@@ -6,9 +6,9 @@ nav_order: 473
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
+description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Oxytetracycline
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Oxytetracycline: From Bacterial Infections to Chronic Rhinosinusitis
+## Oxytetracycline: Chronic rhinosinusitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including urinary tract infection, bronchitis, pneumonia, pharyngitis and conjunctivitis (the UK licence record has no indication text, so this comes from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic rhinosinusitis |
-| TxGNN Prediction Score | 99.61% |
+| TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -114,7 +114,7 @@ For full safety information, please refer to the SmPC and BNF. Report suspected 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score (99.61%), with no trials or publications for chronic rhinosinusitis. The proposed link, antibacterial plus possible anti-inflammatory action, is plausible but unproven.
+The prediction is supported only by the TxGNN model score (0.9961), with no trials or publications for chronic rhinosinusitis. The proposed link, antibacterial plus possible anti-inflammatory action, is plausible but unproven.
 
 **To proceed, the following is needed:**
 - A systematic literature search for tetracyclines (including doxycycline) in chronic rhinosinusitis, to establish whether any clinical signal exists
@@ -123,7 +123,7 @@ The prediction is supported only by the TxGNN model score (99.61%), with no tria
 - Assessment against existing UK guidance for chronic rhinosinusitis, including whether long-term antibiotic use is appropriate in the context of antimicrobial stewardship
 - Route and formulation compatibility, which is currently undetermined
 
-**Other candidate in the data:** Otitis externa (TxGNN score 99.27%) has 17 publication records, including small randomised comparisons of topical oxytetracycline combinations (with polymyxin B and hydrocortisone). Evidence there is provisionally L3, graded on titles only. Steroid-only preparations appeared comparably effective in some studies, so the contribution of oxytetracycline is uncertain. It may be a more tractable research question than chronic rhinosinusitis.
+**Other candidate in the data:** Otitis externa (TxGNN score 0.9927) has 17 publication records, including small randomised comparisons of topical oxytetracycline combinations (with polymyxin B and hydrocortisone). Evidence there is provisionally L3, graded on titles only. Steroid-only preparations appeared comparably effective in some studies, so the contribution of oxytetracycline is uncertain. It may be a more tractable research question than chronic rhinosinusitis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

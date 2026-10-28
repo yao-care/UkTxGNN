@@ -6,7 +6,7 @@ nav_order: 96
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Benzbromarone: predicted new indication Hypouricaemia, renal (evidence level L5). Approved use: Gout"
+description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Gout"
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Benzbromarone: From Gout and Hyperuricaemia to Renal Hypouricaemia
+## Benzbromarone: From Gout and Hyperuricaemia to hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be relevant to **renal hypouricaemia**, but the 
 |------|------|
 | Original Indication | Gout; hyperuricaemia |
 | Predicted New Indication | Hypouricaemia, renal |
-| TxGNN Prediction Score | 99.07% |
+| TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

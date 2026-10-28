@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ketorolac
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 352
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Ketorolac: predicted new indication Headache disorder (evidence level L5). Approved use: Atopic, papillary and vernal conjunctivitis"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
+description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Ketorolac
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Ketorolac: From Allergic Conjunctival Conditions to Headache Disorder
+## Ketorolac: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **17 clinical trials** and **19 publications** currently supporting this di
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic, papillary and vernal conjunctivitis (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 3 |
+| UK Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Several completed Phase 3/4 trials and multiple systematic reviews and meta-analyses exist. However, most of the compiled trials are small, are paediatric or emergency-department studies, and use parenteral or intranasal ketorolac rather than the oral or ophthalmic products authorised here. The L1 grade should be read with that caveat.
@@ -63,8 +63,8 @@ Detailed mechanism of action data is not available in the data compiled for this
 Its original conjunctival indications also rest on prostaglandin-driven inflammation, so the same anti-inflammatory action links the old and new indications. Parenteral ketorolac is already used in emergency department headache care, and this supports the biological plausibility of the prediction.
 
 Two other predictions were generated, but they are much weaker:
-- **Rosacea conjunctivitis** (score 99.40%): no trials or literature were found, so this remains speculative (Evidence Level L5, Hold).
-- **Trigeminal autonomic cephalalgia** (score 99.39%): evidence is indirect, one related trial was withdrawn with no enrolment, and cluster headache generally responds poorly to standard NSAIDs (Evidence Level L4, Research Question).
+- **Rosacea conjunctivitis** (score 0.9940): no trials or literature were found, so this remains speculative (Evidence Level L5, Hold).
+- **Trigeminal autonomic cephalalgia** (score 0.9939): evidence is indirect, one related trial was withdrawn with no enrolment, and cluster headache generally responds poorly to standard NSAIDs (Evidence Level L4, Research Question).
 
 ## Clinical Trial Evidence
 

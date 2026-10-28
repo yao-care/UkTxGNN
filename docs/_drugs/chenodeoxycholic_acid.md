@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Chenodeoxycholic Acid
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 153
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Chenodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L4). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones)"
+description: "Chenodeoxycholic Acid: predicted new indication homozygous familial hypercholesterolemia (evidence level L4). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones)"
 monitor_inn: "Chenodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["homozygous familial hypercholesterolemia", "brain small
 # Chenodeoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Chenodeoxycholic Acid: From Gallstones (Cholelithiasis) to Homozygous Familial Hypercholesterolaemia
+## Chenodeoxycholic Acid: From Gallstones (Cholelithiasis) to homozygous familial hypercholesterolemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **1 indirect 
 |------|------|
 | Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones) |
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9957 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,7 +84,7 @@ The identifier shown is a BNF-style product code (BNF chapter 1, gastrointestina
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, diarrhoeal disease, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, sclerosing cholangitis, primary biliary cholangitis, Reynolds syndrome.
+- **Contraindications (not label text)**: liver disease, gallbladder disease, diarrhoeal disease, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, sclerosing cholangitis, primary biliary cholangitis, Reynolds syndrome.
 - **Drug Interactions**: 56 interactions were identified, all of those listed being of Moderate severity. Main examples:
   - Bile acid sequestrants (cholestyramine, colestipol, colesevelam) and aluminium hydroxide, which may reduce absorption
   - Oestrogens (ethinylestradiol, estradiol, conjugated oestrogens)
@@ -103,7 +103,7 @@ The prediction is supported only by an indirect review of a different disease (C
 **To proceed, the following is needed:**
 - Mechanism of action data for CDCA, and a clear mechanistic rationale for lowering LDL-C in HoFH
 - Preclinical or clinical data on CDCA's effects on LDL-C in HoFH, including the risk of LDL-C elevation
-- Label-based warnings and contraindications (SmPC/BNF) to replace the knowledge-graph associations, as well as the approved indication text and dosage form for the UK authorisation
+- Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above, as well as the approved indication text and dosage form for the UK authorisation
 - Verification of the MHRA authorisation number
 - A review of the safety implications of the contraindicated liver and biliary conditions and the interaction profile before any new-use study
 ## Disclaimer

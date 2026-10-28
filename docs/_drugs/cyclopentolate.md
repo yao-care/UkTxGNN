@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Cycloplegia |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.54% |
+| TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,8 +63,8 @@ Cauda equina syndrome causes bladder, bowel and sexual dysfunction through nerve
 There are also practical concerns. Cyclopentolate is formulated only as an ophthalmic solution, so systemic exposure would be uncharacterised. Systemic anticholinergic effects, including CNS effects and urinary retention, would be a particular risk in this condition.
 
 Two other predictions were also generated, both with L5 evidence and a Hold recommendation:
-- **Neurogenic bladder (obsolete ontology term)**, score 99.40%. Antimuscarinics such as oxybutynin and tolterodine are established for neurogenic detrusor overactivity, so a class-level rationale exists. However, cyclopentolate has no clinical data here, and better-characterised, bladder-selective options are available. The term should be mapped to current terminology (neurogenic detrusor overactivity) before further work.
-- **Irritable bowel syndrome**, score 99.27%. Anticholinergic antispasmodics such as dicyclomine and hyoscyamine are used for IBS symptoms. There is no evidence for cyclopentolate specifically, no oral or systemic formulation, and established alternatives already exist.
+- **Neurogenic bladder (obsolete ontology term)**, score 0.9940. Antimuscarinics such as oxybutynin and tolterodine are established for neurogenic detrusor overactivity, so a class-level rationale exists. However, cyclopentolate has no clinical data here, and better-characterised, bladder-selective options are available. The term should be mapped to current terminology (neurogenic detrusor overactivity) before further work.
+- **Irritable bowel syndrome**, score 0.9927. Anticholinergic antispasmodics such as dicyclomine and hyoscyamine are used for IBS symptoms. There is no evidence for cyclopentolate specifically, no oral or systemic formulation, and established alternatives already exist.
 
 ## Clinical Trial Evidence
 

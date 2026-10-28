@@ -4,7 +4,7 @@ title: Atazanavir
 parent: Moderate Evidence (L3-L4)
 nav_order: 76
 evidence_level: L4
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "Atazanavir"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Atazanavir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infection / AIDS (the UK authorisation record holds no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -93,7 +93,7 @@ Only one valid single-ingredient authorisation record is held. The identifier sh
 
 ## Safety Considerations
 
-- **Contraindications and conditions of concern (from knowledge-graph associations, not label text):** liver failure, liver disease, gallbladder disease, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, chronic hepatitis B or C infection, haemophilia, hyperbilirubinaemia (including Gilbert syndrome), nephrolithiasis, acute urate nephropathy, atrioventricular block, and lactic acidosis. These should be checked against the SmPC.
+- **Contraindications and conditions of concern (not from label text):** liver failure, liver disease, gallbladder disease, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, chronic hepatitis B or C infection, haemophilia, hyperbilirubinaemia (including Gilbert syndrome), nephrolithiasis, acute urate nephropathy, atrioventricular block, and lactic acidosis. These should be checked against the SmPC.
 - **Drug interactions:** The interaction database returned 100 entries, 20 of which were reviewed here. Those with a **Major** rating include:
   - Acid-suppressing drugs: famotidine, ranitidine, rabeprazole, omeprazole
   - Loperamide
@@ -120,7 +120,7 @@ SIV infection is an animal-model disease with no human treatment need, and the o
 
 ---
 
-**Note on other predicted indications:** Two further predictions with literature, *AIDS related complex* and *congenital HIV* (both L3), are essentially the existing HIV indication under different labels or are mainly safety studies in exposed infants, so they are not true repurposing opportunities. The remaining predictions (feline AIDS, a rare neurodevelopmental disorder, and obsolete familial combined hyperlipidaemia) have no trials or literature and are likely knowledge-graph artefacts.
+**Note on other predicted indications:** The other predictions (feline AIDS, a rare neurodevelopmental disorder, and obsolete familial combined hyperlipidaemia) have no trials or literature and are likely TxGNN model (deep learning) artefacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

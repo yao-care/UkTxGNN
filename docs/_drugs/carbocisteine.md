@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **gout**, but there are current
 |------|------|
 | Original Indication | Not stated in the available authorisation data (the product is classed as a mucolytic) |
 | Predicted New Indication | Gout |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Carbocisteine is 
 
 A plausible but unproven hypothesis is that these antioxidant and anti-inflammatory effects could modulate oxidative stress and inflammation relevant to gouty inflammation, for example neutrophil activity and NLRP3-related signalling. **No evidence in the compiled data supports this.** There is also no established link to urate-lowering mechanisms such as xanthine oxidase inhibition or URAT1 inhibition.
 
-The high TxGNN score (99.67%) is therefore a computational signal that needs verification, not evidence of efficacy.
+The high TxGNN score (0.9967) is therefore a computational signal that needs verification, not evidence of efficacy.
 
 ## Clinical Trial Evidence
 

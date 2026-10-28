@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lisinopril
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 376
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Lisinopril: predicted new indication Posterolateral myocardial infarction (evidence level L4). Approved use: Hypertension, myocardial infarction"
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Lisinopril: From Hypertension to Posterolateral Myocardial Infarction
+## Lisinopril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Lisinopril is an ACE inhibitor, originally used to treat hypertension and myocardial infarction.
-The TxGNN model predicts it may be effective for **posterolateral myocardial infarction**,
 but **no clinical trials** and **no publications** specific to this subtype were found. This is an anatomical subtype of an already-established indication rather than a true repurposing candidate.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, myocardial infarction (from the knowledge graph; the UK authorisation record contains no indication text) |
-| Predicted New Indication | Posterolateral myocardial infarction |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,15 +63,12 @@ Posterolateral myocardial infarction is an anatomical subtype of myocardial infa
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Posteroinferior myocardial infarction | 99.90% | L4 | Subtype of approved MI indication; only indirect class-level evidence |
-| Pulmonary hypertension (unclear multifactorial mechanism) | 99.89% | L5 | Model prediction only; ACE inhibitors are not established therapy |
-| Pulmonary hypertension owing to lung disease/hypoxia | 99.89% | L4 | Literature is mostly off-target (muscle, retina, pancreas, fish); no lisinopril clinical evidence |
-| Malignant renovascular hypertension | 99.89% | L4 | Falls under approved hypertension indication; risk in bilateral renal artery stenosis |
-| Malignant hypertensive renal disease | 99.89% | L4 | Extension of hypertension indication; needs renal function and potassium monitoring |
-| Septal myocardial infarction | 99.88% | L4 | Subtype of approved MI indication; one case report of uncertain relevance |
-| Braddock syndrome | 99.86% | L5 | No mechanistic rationale evident |
-| Chronic pulmonary heart disease | 99.68% | L3 | Two small Russian-language clinical studies of lisinopril; the most interesting research question |
-| Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 99.33% | L5 | COL4A1-related; no mechanistic link evident |
+| Pulmonary hypertension (unclear multifactorial mechanism) | 0.9989 | L5 | Model prediction only; ACE inhibitors are not established therapy |
+| Pulmonary hypertension owing to lung disease/hypoxia | 0.9989 | L5 | Literature is mostly off-target (muscle, retina, pancreas, fish); no lisinopril clinical evidence |
+| Malignant hypertensive renal disease | 0.9989 | L5 | Extension of hypertension indication; needs renal function and potassium monitoring |
+| Braddock syndrome | 0.9986 | L5 | No mechanistic rationale evident |
+| Chronic pulmonary heart disease | 0.9968 | L3 | Two small Russian-language clinical studies of lisinopril; the most interesting research question |
+| Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 0.9933 | L5 | COL4A1-related; no mechanistic link evident |
 
 ## Clinical Trial Evidence
 

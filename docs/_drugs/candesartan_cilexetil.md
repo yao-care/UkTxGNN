@@ -4,17 +4,17 @@ title: Candesartan Cilexetil
 parent: Model Prediction Only (L5)
 nav_order: 126
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Candesartan Cilexetil: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
 monitor_inn: "Candesartan cilexetil"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+last_modified_at: 2026-10-27
+description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Candesartan Cilexetil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,43 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Candesartan Cilexetil: From Hypertension to Malignant Renovascular Hypertension
+## Candesartan cilexetil: angiotensin II receptor blocker → malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Candesartan cilexetil is an angiotensin II receptor blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but currently there are **no clinical trials** and **no directly relevant publications** supporting this prediction.
+Candesartan cilexetil is an oral angiotensin II receptor blocker (ARB).
+The TxGNN model predicts it may be useful for **malignant hypertensive renal disease**.
+There are currently **no clinical trials and no publications** that directly study this use, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); the approved indication text is not available in the data compiled for this report |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.68% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, candesartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Candesartan cilexetil is a prodrug of candesartan, which blocks the angiotensin II type 1 (AT1) receptor. This is the general mode of action of the ARB class, not a finding specific to this report.
 
-Renovascular hypertension is driven largely by activation of the renin-angiotensin system, so blocking the AT1 receptor is mechanistically plausible. The high TxGNN score probably reflects the close similarity of this condition to the approved hypertension indication in the knowledge graph, rather than independent evidence.
-
-There is an important safety caveat. Drugs that block the renin-angiotensin system can precipitate acute renal failure in patients with bilateral renal artery stenosis, or stenosis affecting a solitary kidney. This is exactly the population in which renovascular hypertension occurs, so the benefit-risk balance needs careful evaluation before any further development.
-
-**Other predictions in the data (all L5, all Hold):**
-
-| Rank | Predicted Indication | Score | Comment |
-|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.68% | Renoprotective role of ARBs in other kidney diseases is an inference only; no direct evidence |
-| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.67% | Heterogeneous category; systemic hypotension is a concern |
-| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.67% | Plausible but unproven link; the two retrieved papers do not directly support it |
-| 5 | Braddock syndrome | 99.56% | No mechanistic link identified; likely a knowledge-graph artefact |
+Blocking the renin-angiotensin system (RAS) is mechanistically relevant to kidney injury driven by severe high blood pressure. ARBs have established kidney-protective roles in other chronic kidney disease settings. This reasoning is an inference from related conditions. No evidence in the compiled data directly addresses malignant hypertensive renal disease.
 
 ## Clinical Trial Evidence
 
@@ -77,49 +66,30 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature was found for the lead prediction (malignant renovascular hypertension). The only publications retrieved relate to the rank 4 prediction, and both are tangential:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [31396238](https://pubmed.ncbi.nlm.nih.gov/31396238/) | 2019 | Preclinical (mouse) | Frontiers in Immunology | Candesartan cilexetil improved neurological outcomes in a mouse model of neonatal hypoxia-induced seizures through anti-inflammatory effects; not a pulmonary hypertension study |
-| [21423692](https://pubmed.ncbi.nlm.nih.gov/21423692/) | 2011 | Preclinical (rat) | Evid Based Complement Alternat Med | Hachimijiogan (a herbal formulation, not candesartan) was compared with an angiotensin II receptor blocker in a remnant kidney model; not relevant to pulmonary hypertension |
+Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205052C0AAABAB | Candesartan Cilexetil Tab 4mg | Tablet (not specified in the data) | Not available in the data compiled for this report |
-
-The authorisation identifier shown is as recorded in the data and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. Candesartan sits within the BNF cardiovascular chapter (angiotensin-II receptor antagonists); NICE-appraised indications should be checked directly.
+Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded. No approved-indication text or dosage-form detail is held in the data compiled for this report. Please check the current SmPC and the BNF for authorised uses and formulations.
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from the TxGNN knowledge graph, not from product label text):**
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-The knowledge graph links candesartan to the following conditions as contraindications or cautions. These should be confirmed against the SmPC:
-
-- **Renal and vascular:** anuria, impaired renal function, renal artery obstruction, hypotensive disorder
-- **Metabolic and electrolyte:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcaemia, phosphorus metabolism disease, hyperparathyroidism, osteitis fibrosa, nephrocalcinosis, hyperuricaemia, gout
-- **Hepatic and biliary:** liver disease, hepatic coma, hepatic encephalopathy, gallbladder disease, pancreatitis, neonatal jaundice
-- **Autoimmune:** systemic lupus erythematosus (including paediatric)
-
-Some of these entries appear to reflect warnings for combination products (for example, those containing a thiazide diuretic) rather than candesartan alone, so they should be interpreted with caution.
-
-Please refer to the SmPC and BNF for authoritative warnings and drug interaction information. Report suspected adverse reactions via the Yellow Card Scheme.
+As with other ARBs, blood pressure, renal function and potassium would normally need careful monitoring. Any use in severe kidney disease would need specialist oversight. Confirm the specifics against the SmPC.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There are no trials and no directly relevant literature. The target population, renovascular disease, carries a recognised risk of acute renal failure with renin-angiotensin system blockade.
+The prediction score is high (0.9968), but no clinical trial or publication directly studies candesartan cilexetil in malignant hypertensive renal disease. The evidence level is therefore L5, and the mechanistic link is only an inference from related conditions.
 
 **To proceed, the following is needed:**
-- Product label data (indication, warnings and contraindications) for the UK authorisation, including a verified MHRA licence number and dosage form
-- Mechanism of action data confirmed from a source such as DrugBank
-- A systematic literature review on ARBs in renovascular hypertension and malignant hypertension, including renal safety in renal artery stenosis
-- A safety plan covering renal function and potassium monitoring, and exclusion of bilateral renal artery stenosis
-- Review of whether the remaining predictions (pulmonary hypertension, Braddock syndrome) merit any further work, given the lack of mechanistic support
+- Clinical or observational data on ARBs, or candesartan specifically, in malignant hypertensive renal disease
+- Detailed mechanism of action data
+- Label-based warnings and contraindications from the SmPC, with a safety review for patients with severe kidney injury
+- Expert clinical (nephrology) review of whether a trial is justified
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

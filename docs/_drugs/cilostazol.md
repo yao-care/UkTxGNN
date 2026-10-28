@@ -8,6 +8,7 @@ nav_order: 166
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cilostazol
@@ -51,8 +52,8 @@ Cilostazol is a phosphodiesterase III (PDE3) inhibitor historically used for the
 | Predicted New Indication | **None** — TxGNN returned no candidates |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** (No prediction to evaluate) |
-| UK Market Status | Not marketed (Not marketed) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

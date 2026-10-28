@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-15
-description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis…"
+last_modified_at: 2026-10-28
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
+description: "Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Naproxen
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Naproxen: From Musculoskeletal and Pain Conditions to Brachydactyly-Syndactyly Syndrome
+## Naproxen: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Bursitis, rheumatoid arthritis, ankylosing spondylitis, tendinitis, gout, migraine, osteoarthritis and related conditions (from the knowledge-graph indication list; no approved indication text is available for the UK record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.35% |
+| TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,9 +60,9 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 Brachydactyly-syndactyly syndrome is a rare congenital skeletal malformation with a developmental genetic basis. The data give no plausible reason for an anti-inflammatory drug to modify such a condition. At most, naproxen might offer symptomatic pain relief for secondary musculoskeletal complaints, which is not a disease-modifying indication.
 
-The high TxGNN score (rank 5,998) reflects a knowledge-graph prediction only. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
+The high TxGNN score (rank 5,998) reflects a TxGNN model (deep learning) prediction only. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
-The model also ranked three other rare syndromes highly (colobomatous microphthalmia-rhizomelic dysplasia syndrome, 99.22%; acromesomelic dysplasia, Hunter-Thompson type, 99.17%; brachyolmia-amelogenesis imperfecta syndrome, 99.06%). All are developmental genetic conditions with no supporting trials or literature, and the same caution applies.
+The model also ranked three other rare syndromes highly (colobomatous microphthalmia-rhizomelic dysplasia syndrome, 0.9922; acromesomelic dysplasia, Hunter-Thompson type, 0.9917; brachyolmia-amelogenesis imperfecta syndrome, 0.9906). All are developmental genetic conditions with no supporting trials or literature, and the same caution applies.
 
 ## Clinical Trial Evidence
 

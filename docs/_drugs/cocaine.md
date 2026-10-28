@@ -48,17 +48,17 @@ This prediction rests on model output alone and is not supported by direct evide
 |------|------|
 | Original Indication | Not stated in the UK authorisation data; the drug is described as a local anaesthetic for nasal, oral and laryngeal surgery |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, cocaine is a local anaesthetic and a blocker of monoamine reuptake (including dopamine and noradrenaline). Its anaesthetic efficacy in mucosal surgery is established.
 
-Cauda equina syndrome is a compressive neurological emergency, usually caused by disc herniation, and it requires urgent surgical decompression. We could not identify a credible mechanistic link between cocaine and this condition. The single publication retrieved is a case report of lumbosacral disc pathology that does not involve cocaine. The high TxGNN score appears to reflect association within the knowledge graph rather than a therapeutic rationale.
+Cauda equina syndrome is a compressive neurological emergency, usually caused by disc herniation, and it requires urgent surgical decompression. We could not identify a credible mechanistic link between cocaine and this condition. The single publication retrieved is a case report of lumbosacral disc pathology that does not involve cocaine. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predicted indications were also reviewed. All are rated Hold. The most evidence-rich (rhinitis, anaphylaxis, pharyngitis) are dominated by reports of cocaine causing harm, not treating disease.
 

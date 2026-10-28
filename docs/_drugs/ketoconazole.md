@@ -6,9 +6,9 @@ nav_order: 350
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Ketoconazole: predicted new indication Acne (evidence level L4). Approved use: Fungal and yeast skin infections (for example tinea pedis…"
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
+description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ketoconazole
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Ketoconazole: From Superficial Fungal Skin Infections to Acne
+## Ketoconazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal and yeast skin infections (for example tinea pedis, tinea corporis, pityriasis versicolor, seborrhoeic dermatitis, cutaneous candidiasis). The authorisation record compiled for this report carries no indication text, so this comes from the knowledge-graph indication list. |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.80% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---

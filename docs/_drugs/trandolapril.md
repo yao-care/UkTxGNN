@@ -4,17 +4,17 @@ title: Trandolapril
 parent: Model Prediction Only (L5)
 nav_order: 632
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Trandolapril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 5
+last_modified_at: 2026-10-28
 monitor_inn: "Trandolapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trandolapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Trandolapril: From Hypertension to Malignant Renovascular Hypertension
+## Trandolapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Trandolapril is an ACE inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but **no clinical trials** and **no publications** specific to this indication were found in the data compiled for this report. The prediction rests on model output alone.
+The prediction rests on model output alone.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **malignant renovascular hypert
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.92% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ Renovascular hypertension is strongly driven by activation of the renin-angioten
 
 There are important caveats. The high TxGNN score likely reflects similarity to the approved hypertension indication rather than independent evidence. ACE inhibitors also carry a known risk of acute renal failure in bilateral renal artery stenosis, which is a direct safety concern in this population.
 
-Other predictions in the list include malignant hypertensive renal disease (99.92%), pulmonary hypertension owing to lung disease and/or hypoxia (99.92%), pulmonary hypertension with unclear multifactorial mechanism (99.92%), Braddock syndrome (99.88%) and chronic pulmonary heart disease (99.19%). None has clinical trial support. Only the pulmonary hypertension and chronic pulmonary heart disease predictions have any literature, and that literature is preclinical or indirect.
+Other predictions in the list include malignant hypertensive renal disease (0.9992), pulmonary hypertension owing to lung disease and/or hypoxia (0.9992), pulmonary hypertension with unclear multifactorial mechanism (0.9992), Braddock syndrome (0.9988) and chronic pulmonary heart disease (0.9919). None has clinical trial support. Only the pulmonary hypertension and chronic pulmonary heart disease predictions have any literature, and that literature is preclinical or indirect.
 
 ---
 
@@ -132,7 +132,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN model score, with no trials or publications for trandolapril in malignant renovascular hypertension. There is also a recognised renal safety concern in this setting.
+There is also a recognised renal safety concern in this setting.
 
 **To proceed, the following is needed:**
 - Mechanism of action data to support the mechanistic-link analysis

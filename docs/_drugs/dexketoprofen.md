@@ -50,10 +50,10 @@ Among the other predictions, **migraine disorder** has by far the strongest evid
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Tendinitis (rank 1); migraine disorder (rank 6) has the strongest evidence |
-| TxGNN Prediction Score | 99.90% (tendinitis); 99.87% (migraine disorder) |
-| Evidence Level | L4 (tendinitis); L1 (migraine disorder) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9990 (tendinitis); 0.9987 (migraine disorder) |
+| Evidence Level | L5 (tendinitis); L1 (migraine disorder) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (tendinitis); Proceed with Guardrails (migraine disorder) |
 
 ---

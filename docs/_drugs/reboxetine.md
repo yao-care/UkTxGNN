@@ -4,17 +4,17 @@ title: Reboxetine
 parent: Model Prediction Only (L5)
 nav_order: 537
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Depression (unipolar depression, major depressive disorder)"
 monitor_inn: "Reboxetine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
 ---
 
 # Reboxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 |------|------|
 | Original Indication | Depression (unipolar depression, major depressive disorder) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Reboxetine is known to be a selective norepinephrine reuptake inhibitor, acting on the norepinephrine transporter (NET, encoded by *SLC6A2*). Its efficacy in depression is established, and it has been used in the UK for acute treatment of depressive illness and for maintaining clinical improvement in responders.
 
-The TxGNN score is very high, but it comes from a knowledge-graph prediction, not from clinical or mechanistic evidence. Benign paroxysmal torticollis of infancy is a paediatric, migraine-equivalent episodic disorder that is likely linked to channelopathy genes (such as *CACNA1A*). No link between norepinephrine reuptake inhibition and this condition is evident. The relationship between the original and predicted indications is therefore unestablished, and the prediction should be treated as a hypothesis only.
+The TxGNN score is very high, but it comes from a TxGNN model (deep learning) prediction, not from clinical or mechanistic evidence. Benign paroxysmal torticollis of infancy is a paediatric, migraine-equivalent episodic disorder that is likely linked to channelopathy genes (such as *CACNA1A*). No link between norepinephrine reuptake inhibition and this condition is evident. The relationship between the original and predicted indications is therefore unestablished, and the prediction should be treated as a hypothesis only.
 
 ---
 

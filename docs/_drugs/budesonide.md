@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Budesonide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 113
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, asthma, allergic rhinitis"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 # Budesonide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but **no cli
 |------|------|
 | Original Indication | Crohn's disease, inflammatory bowel disease, asthma, allergic rhinitis (UK licence indication text not available) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available for this drug. Based on known
 
 Atopic eczema is a Th2-driven inflammatory skin disease. Corticosteroids are a mainstay of treatment for it, so a mechanistic link is plausible. However, the data compiled for this report do not show direct clinical evidence for budesonide in this condition.
 
-Note that the model also lists "dermatitis, atopic", which is the same disease and has been merged into this assessment. The second-ranked prediction, **bronchitis** (score 99.81%, Phase 2 and 4 trials, evidence level L2), has considerably stronger supporting evidence. It may be a more productive repurposing direction and is worth evaluating separately.
+Note that the model also lists "dermatitis, atopic", which is the same disease and has been merged into this assessment. The second-ranked prediction, **bronchitis** (score 0.9981, Phase 2 and 4 trials, evidence level L2), has considerably stronger supporting evidence. It may be a more productive repurposing direction and is worth evaluating separately.
 
 ---
 
@@ -103,7 +103,7 @@ The product is in the BNF gastrointestinal chapter, consistent with its use in i
 
 ## Safety Considerations
 
-**Contraindications (knowledge graph associations, not label text):** The knowledge graph links budesonide with the following conditions, which should be checked against the SmPC:
+**Contraindications (TxGNN model associations, not label text):** The TxGNN model (deep learning) links budesonide with the following conditions. These links may reflect similarities the model learned between related diseases, not biological evidence, and should be checked against the SmPC:
 - Cardiovascular and metabolic: hypertension, congestive heart failure, hyperglycaemia
 - Hepatobiliary: liver disease, gallbladder disease
 - Neurological: epilepsy
@@ -130,7 +130,7 @@ Report suspected adverse reactions via the Yellow Card Scheme. Please refer to t
 **Decision: Hold**
 
 **Rationale:**
-- The TxGNN score is very high (99.96%), but the evidence is limited to model prediction, a plausible glucocorticoid mechanism and one preclinical formulation paper. There are no registered clinical trials, and many established topical corticosteroids already exist for atopic eczema.
+- The TxGNN score is very high (0.9996), but the evidence is limited to model prediction, a plausible glucocorticoid mechanism and one preclinical formulation paper. There are no registered clinical trials, and many established topical corticosteroids already exist for atopic eczema.
 
 **To proceed, the following is needed:**
 - A systematic search for clinical studies of topical budesonide in atopic eczema, including in children

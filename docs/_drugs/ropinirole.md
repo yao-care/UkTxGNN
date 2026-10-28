@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **8 publicati
 |------|------|
 | Original Indication | Restless legs syndrome; Parkinson disease |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,7 +89,7 @@ The data compiled for this report show one valid single-ingredient authorisation
 
 ## Safety Considerations
 
-**Contraindications / cautions (from knowledge-graph associations, not label text):** Ropinirole is linked to the following conditions: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, drug-induced dyskinesia, liver failure, and psychotic, schizophreniform, schizoaffective and other mental disorders. The psychiatric associations deserve particular attention in a paediatric ADHD population.
+**Contraindications / cautions (from TxGNN model (deep learning) outputs, not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** Ropinirole is linked to the following conditions: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, drug-induced dyskinesia, liver failure, and psychotic, schizophreniform, schizoaffective and other mental disorders. The psychiatric associations deserve particular attention in a paediatric ADHD population.
 
 **Other safety signals in the literature:** Dopamine agonists, including ropinirole, have been associated with an increased risk of gambling disorder in a Swedish nationwide register study (PMID 34061895). Corneal oedema has also been reported with dopaminergic agents (PMID 30950895).
 

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 |------|------|
 | Original Indication | Obesity disorder; monogenic obesity (the UK licence record contains no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,12 +61,12 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 Currently, detailed mechanism of action data is not available in the compiled record. From general pharmacology, mazindol is a sympathomimetic appetite suppressant that inhibits catecholamine (norepinephrine and dopamine) reuptake. Its efficacy in obesity rests on reduced appetite.
 
-No plausible mechanistic link to hypervitaminosis could be identified. Vitamin excess and its clearance are unrelated to catecholamine reuptake inhibition. The very high TxGNN score is therefore best read as a knowledge-graph artefact rather than a biologically grounded signal.
+No plausible mechanistic link to hypervitaminosis could be identified. Vitamin excess and its clearance are unrelated to catecholamine reuptake inhibition. The very high TxGNN score is therefore best read as a TxGNN model (deep learning) artefact rather than a biologically grounded signal.
 
 Other predictions in the same list include:
-- **Proximal 16p11.2 microdeletion syndrome** (score 99.997%): this has a weak, indirect rationale, because the deletion is associated with severe early-onset obesity. The drug would not address the neurodevelopmental features of the syndrome.
-- **Postural orthostatic tachycardia syndrome** (score 99.60%): norepinephrine reuptake inhibition has some biological plausibility. However, the same sympathomimetic action could worsen tachycardia and raise blood pressure, so the safety direction is uncertain.
-- **Obsolete hypertelorism, frontorhiny, pentosuria and lethal polymalformative syndrome (Boissel type)**: no plausible mechanism, likely graph artefacts.
+- **Proximal 16p11.2 microdeletion syndrome** (score 1.0000): this has a weak, indirect rationale, because the deletion is associated with severe early-onset obesity. The drug would not address the neurodevelopmental features of the syndrome.
+- **Postural orthostatic tachycardia syndrome** (score 0.9960): norepinephrine reuptake inhibition has some biological plausibility. However, the same sympathomimetic action could worsen tachycardia and raise blood pressure, so the safety direction is uncertain.
+- **Obsolete hypertelorism, frontorhiny, pentosuria and lethal polymalformative syndrome (Boissel type)**: no plausible mechanism; the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 None of these has supporting trials or literature.
 

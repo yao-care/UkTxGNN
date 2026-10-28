@@ -6,9 +6,9 @@ nav_order: 595
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Tazarotene: predicted new indication Seborrhoeic dermatitis (evidence level L5). Approved use: Psoriasis, parapsoriasis, acne"
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
+description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tazarotene
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tazarotene: From Psoriasis to Seborrhoeic Dermatitis
+## Tazarotene: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Psoriasis, parapsoriasis, acne (from the knowledge graph; no approved indication text is available for the UK authorisation) |
-| Predicted New Indication | Seborrhoeic dermatitis |
-| TxGNN Prediction Score | 99.79% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Seborrheic dermatitis |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -76,8 +76,8 @@ Currently no related clinical trials registered.
 Currently no related literature available for seborrhoeic dermatitis.
 
 *Other predicted indications (for context):*
-- **Seborrhoeic keratosis** (TxGNN score 99.51%, evidence level L4): a 2023 systematic review of topical treatments for seborrhoeic keratoses ([PMID 36215682](https://pubmed.ncbi.nlm.nih.gov/36215682/)) and a 2004 comparative study of cryosurgery versus topical calcipotriene, tazarotene and imiquimod ([PMID 15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/)) provide indirect evidence. Only titles and short abstracts were available, so the tazarotene-specific results need confirming from the full texts. This is best treated as a research question.
-- **Vulvar inverted follicular keratosis** (TxGNN score 99.38%, evidence level L5): no trials or literature. A retinoid effect is speculative, and local irritation on thin genital skin is a particular concern.
+- **Seborrhoeic keratosis** (TxGNN score 0.9951, evidence level L4): a 2023 systematic review of topical treatments for seborrhoeic keratoses ([PMID 36215682](https://pubmed.ncbi.nlm.nih.gov/36215682/)) and a 2004 comparative study of cryosurgery versus topical calcipotriene, tazarotene and imiquimod ([PMID 15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/)) provide indirect evidence. Only titles and short abstracts were available, so the tazarotene-specific results need confirming from the full texts. This is best treated as a research question.
+- **Vulvar inverted follicular keratosis** (TxGNN score 0.9938, evidence level L5): no trials or literature. A retinoid effect is speculative, and local irritation on thin genital skin is a particular concern.
 
 ---
 

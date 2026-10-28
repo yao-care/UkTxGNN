@@ -6,9 +6,9 @@ nav_order: 633
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Tranexamic Acid: predicted new indication Amenorrhoea (evidence level L5). Approved use: Endometriosis"
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
+description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tranexamic Acid
@@ -33,12 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Tranexamic Acid: From Endometriosis to Amenorrhoea
+## Tranexamic Acid: Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic medicine. The knowledge graph records its original indication as endometriosis, although it is best known clinically for heavy menstrual bleeding.
+Tranexamic acid is an antifibrinolytic medicine. Its original indication is endometriosis, although it is best known clinically for heavy menstrual bleeding.
 The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **no registered clinical trials** and only **2 publications** (both narrative reviews), and these do not directly support the prediction.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, but there are 
 
 | Item | Content |
 |------|------|
-| Original Indication | Endometriosis (as recorded in the TxGNN knowledge graph; no approved indication text is available in the UK licence data) |
-| Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.19% |
-| Evidence Level | L4 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 0.9919 |
+| Evidence Level | L5 (see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Strictly, the grading rules would place this at L5 (model prediction only), because there are no clinical trials and only narrative reviews. L4 is retained here from the underlying assessment, but it rests on general pharmacology, not on studies of this indication.

@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 |------|------|
 | Original Indication | Parkinson's disease and related parkinsonian and dystonic disorders (from the knowledge graph; no indication text is recorded on the UK authorisation data) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available. Based on its drug class, procyclidine is a muscarinic antagonist. It is used in parkinsonism and dystonia to restore the balance between cholinergic and dopaminergic signalling in the basal ganglia.
 
-Rasmussen encephalitis is a different kind of condition. It is a chronic, immune-mediated, T-cell-driven inflammation of one brain hemisphere, causing focal seizures and progressive atrophy. Blocking muscarinic receptors does not address this inflammation. The very high TxGNN score is most likely driven by shared neurological neighbours in the knowledge graph, not by a demonstrated pharmacological link.
+Rasmussen encephalitis is a different kind of condition. It is a chronic, immune-mediated, T-cell-driven inflammation of one brain hemisphere, causing focal seizures and progressive atrophy. Blocking muscarinic receptors does not address this inflammation. The very high score of 0.9974 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 At most, an anticholinergic might relieve secondary movement symptoms. The mechanistic case is therefore weak.
 
@@ -67,15 +67,15 @@ The model produced nine further predictions. None has trial or literature suppor
 
 | Rank | Predicted Indication | Score | Comment |
 |---|---|---|---|
-| 2 | Myelitis | 99.65% | Anticholinergics could at most ease secondary spasticity or dystonia; inflammation is not addressed |
-| 3 | PLA2G6-associated neurodegeneration | 99.63% | Symptomatic overlap with dystonia-parkinsonism only; not disease-modifying |
-| 4 | Attention deficit-hyperactivity disorder | 99.63% | Mechanistic direction questionable, as anticholinergics may impair cognition and attention |
-| 5 | Faciodigitogenital syndrome | 99.45% | No plausible mechanistic link; likely a graph artefact |
-| 6 | Transaldolase deficiency | 99.42% | No recognised link to anticholinergic activity |
-| 7 | Progressive supranuclear palsy-corticobasal syndrome | 99.42% | Related to parkinsonism, but limited benefit and added cognitive risk in older patients |
-| 8 | Juvenile paralysis agitans (of Hunt) | 99.37% | Historical term for juvenile parkinsonism; largely redundant with existing indications (L4) |
-| 9 | Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis | 99.34% | Structural developmental disorder; no plausible role |
-| 10 | Fructose-1,6-bisphosphatase deficiency | 99.34% | No mechanistic relationship evident |
+| 2 | Myelitis | 0.9965 | Anticholinergics could at most ease secondary spasticity or dystonia; inflammation is not addressed |
+| 3 | PLA2G6-associated neurodegeneration | 0.9963 | Symptomatic overlap with dystonia-parkinsonism only; not disease-modifying |
+| 4 | Attention deficit-hyperactivity disorder | 0.9963 | Mechanistic direction questionable, as anticholinergics may impair cognition and attention |
+| 5 | Faciodigitogenital syndrome | 0.9945 | No plausible mechanistic link; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence |
+| 6 | Transaldolase deficiency | 0.9942 | No recognised link to anticholinergic activity |
+| 7 | Progressive supranuclear palsy-corticobasal syndrome | 0.9942 | Related to parkinsonism, but limited benefit and added cognitive risk in older patients |
+| 8 | Juvenile paralysis agitans (of Hunt) | 0.9937 | Historical term for juvenile parkinsonism; largely redundant with existing indications (L4) |
+| 9 | Perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis | 0.9934 | Structural developmental disorder; no plausible role |
+| 10 | Fructose-1,6-bisphosphatase deficiency | 0.9934 | No mechanistic relationship evident |
 
 ## Clinical Trial Evidence
 

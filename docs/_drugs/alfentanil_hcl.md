@@ -8,6 +8,7 @@ nav_order: 33
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alfentanil Hcl
@@ -53,8 +54,8 @@ As a result, no repurposing indication, clinical trial evidence, or literature e
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — Model prediction absent; no supporting studies |
-| UK Market Status | Not recorded (0 licences in data) |
-| Number of Marketing Authorisations | 0 (as per evidence pack) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data integrity note:** The evidence pack contains no UK marketing authorisation records for Alfentanil HCL and lists market status as "not marketed." This is inconsistent with known UK practice, where alfentanil (e.g., Rapifen®) holds MHRA authorisation for use in anaesthesia. The regulatory dataset should be verified before any further evaluation proceeds.

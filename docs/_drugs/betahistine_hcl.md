@@ -8,6 +8,7 @@ nav_order: 101
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Betahistine Hcl
@@ -53,8 +54,8 @@ meaning a full drug repurposing evaluation cannot be completed at this stage and
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction only; no candidates returned |
-| UK Market Status | Not Marketed *(per Evidence Pack; 0 MHRA licences recorded)* |
-| Number of Marketing Authorisations | 0 *(per Evidence Pack)* |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

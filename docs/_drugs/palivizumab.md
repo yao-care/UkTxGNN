@@ -48,19 +48,19 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Respiratory syncytial virus infection (the approved indication text for the UK authorisation is not available) |
 | Predicted New Indication | Benign neoplasm of tongue |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Palivizumab is known to be a humanised monoclonal antibody directed against the F protein of RSV, and its role in RSV infection is well established. It neutralises the virus rather than acting on human tissue.
 
-Benign tongue neoplasms are not driven by RSV, and palivizumab has no known antitumour activity. No plausible mechanistic link has been identified. The high TxGNN score is a model output only. It most likely reflects proximity in the knowledge graph to respiratory or upper airway disease nodes rather than a true biological relationship.
+Benign tongue neoplasms are not driven by RSV, and palivizumab has no known antitumour activity. No plausible mechanistic link has been identified. The high TxGNN score is a model output only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The other top-ranked predictions show the same pattern. They are epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of hypopharynx, benign neoplasm of floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of jugular foramen, mesenchymoma and thyroglossal duct cyst. All have scores of about 99.9%, none has any trial or literature support, and none has a mechanistic rationale. This suggests a systematic pattern in the model rather than a drug-specific signal.
+The other top-ranked predictions show the same pattern. They are epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of hypopharynx, benign neoplasm of floor of mouth, tumour of testis and paratestis, cystic neoplasm, schwannoma of jugular foramen, mesenchymoma and thyroglossal duct cyst. All have scores of 0.9994, none has any trial or literature support, and none has a mechanistic rationale. This suggests a systematic pattern in the model rather than a drug-specific signal.
 
 ## Clinical Trial Evidence
 

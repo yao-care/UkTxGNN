@@ -4,17 +4,17 @@ title: Valproic Acid
 parent: Model Prediction Only (L5)
 nav_order: 650
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Valproic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Valproic Acid: From Epilepsy to Trigeminal Nerve Neoplasm
+## Valproic Acid: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,27 +48,19 @@ The more plausible predicted uses are epilepsy-related (for example trigeminal n
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy; manic bipolar affective disorder; absence epilepsy (from the TxGNN knowledge graph, as no approved indication text is available in the UK data) |
-| Predicted New Indication | Trigeminal nerve neoplasm (rank 1) |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 For context, the other leading predictions are:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Visual epilepsy | 99.88% | L4 | Research question |
-| 3 | Trigeminal neuralgia | 99.83% | L4 | Research question |
-| 4 | Orgasm-induced seizures | 99.81% | L5 | Hold |
-| 5 | Eating seizures | 99.81% | L4 | Hold |
-| 6 | Thinking seizures | 99.81% | L5 | Hold |
-| 7 | Audiogenic seizures | 99.81% | L4 | Hold |
-| 8 | Startle epilepsy | 99.81% | L4 | Research question |
-| 9 | Micturition-induced seizures | 99.81% | L5 | Hold |
-| 10 | Reading seizures | 99.79% | L4 | Hold |
+| 3 | Trigeminal neuralgia | 0.9983 | L4 | Research question |
 
 ---
 

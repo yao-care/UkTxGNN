@@ -6,9 +6,9 @@ nav_order: 421
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Allergic rhinitis"
 monitor_inn: "Mizolastine"
-predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "extrapyramidal and movement disease", "benign shuddering attacks", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
+predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
+description: "Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mizolastine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mizolastine: From Allergic Rhinitis to Acute Intermittent Porphyria
+## Mizolastine: Acute intermittent porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis; vasomotor rhinitis (from the TxGNN knowledge graph, as no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute intermittent porphyria |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,15 +68,15 @@ The model also ranked the following conditions highly. All are L5 (model predict
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Psychogenic movement disorders | 99.71% | Mizolastine has limited CNS penetration, so a role is implausible without further evidence |
-| 3 | Lingual-facial-buccal dyskinesia | 99.71% | Typically dopaminergic; no dopaminergic activity documented for mizolastine |
-| 4 | Chronic tic disorder | 99.71% | Speculative link via histaminergic modulation of basal ganglia (H3 pathways); weak |
-| 5 | Extrapyramidal and movement disease | 99.70% | Broad category; no specific pathway identified |
-| 6 | Benign shuddering attacks | 99.70% | Self-limited paediatric condition that generally needs no drug treatment |
-| 7 | Primary orthostatic tremor | 99.69% | Thought to involve central oscillators; no documented effect from H1 antagonism |
-| 8 | Tremor-nystagmus-duodenal ulcer syndrome | 99.69% | Extremely rare; likely reflects network proximity rather than pharmacology |
-| 9 | Benign paroxysmal tonic upgaze of childhood with ataxia | 99.68% | Rare channelopathy-associated condition with no known link to H1 antagonism |
-| 10 | Carbamoyl phosphate synthetase I deficiency | 99.47% | Urea cycle disorder; an antihistamine would not correct the enzyme deficiency |
+| 2 | Psychogenic movement disorders | 0.9971 | Mizolastine has limited CNS penetration, so a role is implausible without further evidence |
+| 3 | Lingual-facial-buccal dyskinesia | 0.9971 | Typically dopaminergic; no dopaminergic activity documented for mizolastine |
+| 4 | Chronic tic disorder | 0.9971 | Speculative link via histaminergic modulation of basal ganglia (H3 pathways); weak |
+| 5 | Extrapyramidal and movement disease | 0.9970 | Broad category; no specific pathway identified |
+| 6 | Benign shuddering attacks | 0.9970 | Self-limited paediatric condition that generally needs no drug treatment |
+| 7 | Primary orthostatic tremor | 0.9969 | Thought to involve central oscillators; no documented effect from H1 antagonism |
+| 8 | Tremor-nystagmus-duodenal ulcer syndrome | 0.9969 | Extremely rare; likely reflects network proximity rather than pharmacology |
+| 9 | Benign paroxysmal tonic upgaze of childhood with ataxia | 0.9968 | Rare channelopathy-associated condition with no known link to H1 antagonism |
+| 10 | Carbamoyl phosphate synthetase I deficiency | 0.9947 | Urea cycle disorder; an antihistamine would not correct the enzyme deficiency |
 
 ## Clinical Trial Evidence
 

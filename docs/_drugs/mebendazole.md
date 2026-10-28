@@ -4,17 +4,17 @@ title: Mebendazole
 parent: Model Prediction Only (L5)
 nav_order: 385
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Mebendazole: predicted new indication Acne (evidence level L5). Approved use: Enterobiasis, ascaridiasis, trichuriasis"
 monitor_inn: "Mebendazole"
-predicted_indications: ["acne (disease)", "leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "hordeolum", "alveolar echinococcosis", "inhalational botulism", "toxin-mediated infectious botulism", "impetigo", "Sorsby's fundus dystrophy", "demodicidosis of sebaceous gland"]
+predicted_indications: ["acne (disease)"]
+description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mebendazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mebendazole: From Intestinal Worm Infections to Acne
+## Mebendazole: Acne (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **acne**, but **no clinical tri
 
 | Item | Content |
 |------|------|
-| Original Indication | Enterobiasis, ascaridiasis, trichuriasis (the licence record has no indication text, so these come from the knowledge-graph indication links) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.20% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 This mechanism explains its activity against intestinal worms, but it does not obviously apply to acne. Acne involves excess sebum production, *Cutibacterium acnes* colonisation and inflammation of the hair follicle. No credible mechanistic link between tubulin inhibition and these processes has been established.
 
-The high TxGNN score (0.99) should therefore be read as a computational signal, not clinical support. The model may be picking up network associations in its knowledge graph rather than a true biological rationale.
+The high TxGNN score (0.9920) should therefore be read as a computational signal, not clinical support. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -115,7 +115,6 @@ The acne prediction rests only on a model score. There are no registered trials,
 - Any clinical or observational data on mebendazole in acne
 - Formal mechanism of action data and full SmPC safety information
 
-**Note on other predictions in the same analysis:** the predictions with the most supporting literature are **alveolar echinococcosis** and **echinococcus granulosus infection (hydatid disease)**. Both are rated L3 and "Proceed with Guardrails". They extend mebendazole's existing antiparasitic mechanism, and the evidence is mainly observational studies, reviews and WHO guidance. No registered trials were retrieved. Albendazole is usually preferred in these conditions, with mebendazole as an alternative. These candidates are better prioritised for evaluation than acne.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

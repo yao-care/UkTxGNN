@@ -4,17 +4,17 @@ title: Tacrolimus
 parent: High Evidence (L1-L2)
 nav_order: 590
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Atopic eczema / atopic dermatitis"
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
+description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **3** 
+Evidence Level: **L1** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **3**
 
 </div>
 
-## Tacrolimus: From Atopic Eczema to Seborrheic Dermatitis
+## Tacrolimus: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ with **2 clinical trials** (one completed Phase 3) and **20 publications** curre
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema / atopic dermatitis (from the knowledge graph; no approved indication text is available in the UK licence data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.26% |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 in the scoring data rests on one completed Phase 3 trial plus one completed Phase 4 trial for seborrheic dermatitis. Strictly, the L1 rule asks for two or more completed Phase 3 RCTs, so this level should be regarded as provisional until trial results are reviewed.
@@ -120,8 +120,7 @@ A completed Phase 3 trial and a completed Phase 4 trial directly address tacroli
 ---
 
 *Other predicted indications (not recommended for progression):*
-- **Parapsoriasis** (score 99.24%, evidence level L4, Hold): only two case reports on pityriasis lichenoides and no clinical trials.
-- **Dermatitis (broad)** (score 99.17%): the trials mostly concern atopic dermatitis, which is the existing indication, so they reflect established use rather than new repurposing. Value is limited to non-atopic subtypes, which would need subtype-specific evidence.
+- **Parapsoriasis** (score 0.9924, evidence level L4, Hold): only two case reports on pityriasis lichenoides and no clinical trials.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

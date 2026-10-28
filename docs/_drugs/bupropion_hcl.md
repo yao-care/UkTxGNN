@@ -8,6 +8,7 @@ nav_order: 117
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bupropion Hcl
@@ -49,8 +50,8 @@ Bupropion HCl is a well-recognised antidepressant and smoking cessation agent be
 | Predicted New Indication | No TxGNN prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction only (no predictions generated) |
-| UK Market Status | Not Marketed (per Evidence Pack; **verification recommended** — see note below) |
-| Number of Marketing Authorisations | 0 (per Evidence Pack) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Integrity Note**: The Evidence Pack records UK market status as "Not Marketed" with zero licences. This warrants independent verification against the MHRA Product Licence register, as bupropion-containing products have a known international regulatory footprint (e.g., Zyban for smoking cessation). It is possible that the data retrieval step failed or the query was submitted under a non-matching name variant ("BUPROPION HCL" vs "bupropion hydrochloride").

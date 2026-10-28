@@ -6,9 +6,9 @@ nav_order: 606
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
+description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Terazosin
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Terazosin: From Hypertension and Benign Prostatic Hyperplasia to Hypotrichosis Simplex of the Scalp
+## Terazosin: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Terazosin is an alpha-1 adrenergic blocker, originally used to treat hypertension and benign prostatic hyperplasia.
-The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, but there are **no clinical trials and no publications** supporting this top-ranked prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **hypotrichosis simplex of the scalp**, but there are **no clinical trials and no publications** supporting this top-ranked prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 Among the other predicted indications, **Raynaud disease** and **migraine** have the most (though still limited and dated) supporting literature.
 
 ---
@@ -48,12 +48,12 @@ Among the other predicted indications, **Raynaud disease** and **migraine** have
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension; benign prostatic hyperplasia (from the knowledge graph, as no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predicted indications, **Raynaud disease** and **migraine** have
 
 Currently, detailed mechanism of action data is not available. Based on known information, terazosin is a selective alpha-1 adrenergic antagonist. Its efficacy in hypertension and benign prostatic hyperplasia is established, and it acts by relaxing vascular and prostatic smooth muscle.
 
-For the top-ranked prediction, the only plausible link is that alpha-1 blockade causes vasodilation, which may change scalp microcirculation around hair follicles. However, hypotrichosis simplex is a genetic disorder of hair follicle development, so a vascular mechanism is unlikely to be disease-modifying. The high score is therefore best read as a graph-proximity signal rather than a mechanistic one.
+For the top-ranked prediction, the only plausible link is that alpha-1 blockade causes vasodilation, which may change scalp microcirculation around hair follicles. However, hypotrichosis simplex is a genetic disorder of hair follicle development, so a vascular mechanism is unlikely to be disease-modifying. The high score comes from the TxGNN model (deep learning) and is therefore best read as a reflection of similarities the model learned between related diseases, not as biological or mechanistic evidence.
 
 The other hair-related predictions (congenital hypotrichosis milia, diffuse alopecia areata, Ambras-type hypertrichosis) have the same weakness: they are genetic or autoimmune conditions with no established link to alpha-1 antagonism. Predictions with a more credible rationale are Raynaud disease (excess alpha-adrenergic vasoconstriction in digital vessels) and migraine (vascular tone and sympathetic activity). These are summarised below.
 
@@ -119,7 +119,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is supported only by a graph-based score, with no trials or publications and a weak mechanistic rationale for a genetic hair-follicle disorder. The hair-related predictions as a group lack plausibility. The more credible directions are Raynaud disease and migraine, but their evidence is small, dated and of unverified design, so they are better treated as research questions.
+The top-ranked prediction is supported only by a TxGNN model (deep learning) score, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials or publications and the mechanistic rationale for a genetic hair-follicle disorder is weak. The hair-related predictions as a group lack plausibility. The more credible directions are Raynaud disease and migraine, but their evidence is small, dated and of unverified design, so they are better treated as research questions.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and UK label warnings and contraindications (currently missing, and they block formal safety screening)

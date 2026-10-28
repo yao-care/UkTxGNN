@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 369
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Levetiracetam: predicted new indication Status epilepticus (evidence level L1). Approved use: Partial epilepsy"
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,27 +33,26 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Levetiracetam: From Partial Epilepsy to Status Epilepticus
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Levetiracetam is an antiseizure medication, originally used to treat partial epilepsy.
-The TxGNN model predicts it may be effective for **status epilepticus**, the highest-ranked prediction with direct evidence, supported by **16 registered clinical trials** (including 3 Phase 3 studies) and **20 publications**, among them large randomised trials.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy |
-| Predicted New Indication | Status epilepticus |
-| TxGNN Prediction Score | 99.91% |
-| Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-*Note on the prediction selection:* the top-ranked TxGNN prediction in the data compiled for this report is visual epilepsy (99.98%), but it has no registered trials and only indirect literature (evidence level L4). Status epilepticus (rank 9) is the prediction with the strongest supporting evidence, so this report focuses on it. Other reflex-seizure predictions are summarised briefly at the end.
+Other reflex-seizure predictions are summarised briefly at the end.
 
 ## Why is This Prediction Reasonable?
 
@@ -115,13 +114,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Visual epilepsy | 99.98% | L4 | No trials; literature is indirect |
-| Startle epilepsy | 99.96% | L3 | Open-label add-on cohort and case reports; also reports in hyperekplexia |
-| Audiogenic seizures | 99.96% | L3 | Evidence is veterinary and preclinical |
-| Reading seizures | 99.94% | L4 | Small case-level reports of response; otherwise indirect |
-| Thinking, eating, micturition-induced seizures | 99.96% | L4 | No indication-specific evidence |
-| Orgasm-induced seizures | 99.96% | L5 | No evidence |
-| Beta-ketothiolase deficiency | 99.90% | L5 | No evidence; no mechanistic link; likely a model artefact |
+| Beta-ketothiolase deficiency | 0.9990 | L5 | No evidence; no mechanistic link; likely a model artefact |
 
 ## Conclusion and Next Steps
 

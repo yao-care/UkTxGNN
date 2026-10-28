@@ -4,17 +4,17 @@ title: Codeine
 parent: Model Prediction Only (L5)
 nav_order: 189
 evidence_level: L5
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Codeine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+indication_count: 3
 monitor_inn: "codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+last_modified_at: 2026-10-27
+description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Codeine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Codeine: From Headache Disorder and Upper Respiratory Symptoms to Nasal Cavity Disease
+## Codeine: Opioid analgesic → nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Codeine is an opioid originally used for symptomatic relief in conditions such as headache disorder, rhinitis, pharyngitis and the common cold.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no clinical trials** and only **1 publication** (a case report describing a complication of opioid misuse, not a benefit).
-The prediction is therefore not supported by actual evidence.
+Codeine is an opioid analgesic and antitussive that is currently marketed in the UK as a combination tablet with ibuprofen.
+The TxGNN model predicts it may be relevant to **nasal cavity disease**, but there are **no registered clinical trials** and only **1 publication** (a case report describing harm rather than benefit).
+Evidence is limited to the model prediction.
 
 ---
 
@@ -48,28 +48,21 @@ The prediction is therefore not supported by actual evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (knowledge graph indications; no approved indication text is available for the UK product) |
-| Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.93% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | nasal cavity disease |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, codeine is an opioid analgesic and cough suppressant, here represented by an ibuprofen/codeine combination product (Solpadeine Mig). Its use in rhinitis, the common cold and headache is symptomatic.
+Detailed mechanism of action data is not currently available for this drug. Codeine is a well-known opioid with antitussive and mild analgesic effects, and it is commonly used for symptom relief in upper respiratory conditions.
 
-The high score most likely reflects proximity in the knowledge graph between nasal-related nodes (rhinitis, nasopharyngitis) and "nasal cavity disease". It does not reflect a treatment mechanism. There is no plausible pharmacological route by which codeine would treat structural or other disease of the nasal cavity.
-
-The only publication retrieved reports a rhinolith (nasal stone) formed around a hardened codeine and opium mixture lodged in the nose. This is a complication of misuse, not a therapeutic signal.
-
-Other high-scoring predictions in the data show similar problems:
-- **Acute laryngopharyngitis** (score 99.92%): no trials or literature. It is an extension of existing symptomatic use, and opioid antitussives have a poor benefit-risk profile in acute upper respiratory infections.
-- **Trigeminal autonomic cephalalgia** (score 99.43%): the literature does not evaluate codeine. Opioids are generally not recommended for cluster headache because of limited efficacy, medication-overuse headache and dependence.
-- **Allergic urticaria** (score 99.37%): codeine directly degranulates mast cells and is used as a positive control in skin tests. It is a known cause of urticaria, so this link points to harm rather than treatment.
+The high model score likely reflects shared links to nasal and upper airway conditions in the data used to train the model. However, there is no plausible mechanism by which codeine would treat structural or inflammatory disease of the nasal cavity. The only publication retrieved describes a nasal stone (rhinolith) formed around a hardened mixture of codeine and opium that had been lodged in the nose. That is a complication linked to the drug, not a therapeutic benefit. The prediction should therefore be treated as a statistical signal rather than a credible treatment hypothesis.
 
 ---
 
@@ -83,7 +76,7 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A 21-year-old man had a unilateral rhinolith formed around a hardened codeine and opium mixture ("opioma"), causing nasal obstruction and recurrent purulent rhinorrhoea. This describes harm, not benefit. |
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Case report | Ear, Nose & Throat Journal | A 21-year-old man had a unilateral rhinolith formed around an impacted foreign body, which proved to be a hardened mixture of codeine and opium. It was removed under local anaesthesia. No therapeutic effect was reported. |
 
 ---
 
@@ -91,30 +84,15 @@ Currently no related clinical trials registered.
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 1001010J0DGAAAY | Solpadeine Mig Ibuprofen/Codeine Tab | Not stated | Not stated |
-
-The licence number shown is the identifier held in the compiled data and is not in standard MHRA "PL" format. Please verify it against the MHRA register.
+| 1001010J0DGAAAY | Solpadeine Mig Ibuprofen/Codeine_Tab | Not recorded | Not recorded |
 
 ---
 
 ## Safety Considerations
 
-**Contraindications and cautions from the knowledge graph** (these come from drug-disease graph links, not product label text, and should be verified against the SmPC):
-- Cardiovascular and respiratory: hypertension, chronic obstructive pulmonary disease
-- Hepatic, renal and pancreatic: liver failure, liver disease, kidney disease, pancreatitis, gallbladder disease
-- Neurological and psychiatric: epilepsy, insomnia, anxiety disorder, neurotic disorder, dysthymic disorder, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder
-- Metabolic and endocrine: porphyria (including inherited porphyria), hypothyroidism (including myxoedema and congenital hypothyroidism)
-- Gastrointestinal: peptic ulcer disease, inflammatory bowel disease, gastritis
-- Haematological and skin: thrombocytopenia, dermatitis herpetiformis
-- Other: pyoureter
+- **Drug Interactions**: 449 interactions were identified in the data compiled for this report. Major-level interactions include **alvimopan** and **bupropion**. Moderate-level interactions include atropine, cimetidine, dexamethasone, glycopyrronium, granisetron, hyoscyamine, loperamide, dicyclomine, dronabinol and fenfluramine.
 
-**Drug interactions:** 449 interactions were identified. Examples shown include:
-- **Major:** alvimopan, bupropion
-- **Moderate:** atropine, cimetidine, dexamethasone, dicyclomine, glycopyrronium, granisetron, hyoscyamine, loperamide, eluxadoline, fenfluramine
-
-**Additional considerations from the literature:** codeine can cause urticaria and allergic reactions through direct mast cell activation, and opioid misuse carries risks of dependence and medication-overuse headache.
-
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+For full warnings, contraindications and dosing, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -123,13 +101,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The very high TxGNN score is not backed by any trial or therapeutic publication. The one paper describes a complication of opioid misuse. The related predictions (laryngopharyngitis, cluster headache, urticaria) are either extensions of existing symptomatic use or point toward harm. Opioid antitussives and analgesics also have an unfavourable benefit-risk profile for these conditions.
+The prediction rests on a very high model score alone. The single publication describes a complication from foreign-body opioid material in the nose, not a treatment effect, and there are no trials. No credible mechanism supports codeine for nasal cavity disease.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a credible rationale for a benefit in nasal cavity disease
-- Product-level data for the UK authorisation (dosage form, approved indication, SmPC warnings and contraindications)
-- Clinical evidence of efficacy, which does not currently exist
-- A benefit-risk assessment covering dependence, misuse and medication-overuse headache
+- Mechanism of action data and a plausible biological rationale for nasal cavity disease
+- Any clinical or preclinical study that directly tests codeine in nasal cavity disease
+- Label-based warnings and contraindications from the SmPC and BNF
+- A defined target condition within nasal cavity disease, so that benefit can be weighed against opioid risks (dependence, respiratory depression)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

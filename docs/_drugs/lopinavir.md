@@ -50,10 +50,10 @@ Currently there are **0 clinical trials** and **3 publications** (all preclinica
 |------|------|
 | Original Indication | HIV infectious disease; AIDS (the marketing authorisation records compiled for this report contain no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 SIV is a lentivirus closely related to HIV, and its protease is a homologous target, so a protease inhibitor effect is biologically plausible. However, SIV infection occurs in non-human primates, so this prediction is best read as an animal-model extension of the HIV indication, not a new human therapeutic use. Its main value is as a preclinical research model.
 
-Two other predictions were also generated, but both are weaker. Feline acquired immunodeficiency syndrome (score 99.90%) is a veterinary indication with no supporting studies, so it is outside the scope of human drug repurposing. A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.90%) has no identifiable mechanistic link to protease inhibition and may reflect a network artefact in the model.
+Two other predictions were also generated, but both are weaker. Feline acquired immunodeficiency syndrome (score 0.9990) is a veterinary indication with no supporting studies, so it is outside the scope of human drug repurposing. A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 0.9990) has no identifiable mechanistic link to protease inhibition and may reflect a network artefact in the model.
 
 ---
 

@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fluphenazine: From Schizophrenia and Related Psychotic Disorders to Retinal Dystrophy (With or Without Extraocular Anomalies)
+## Fluphenazine: From Schizophrenia and Related Psychotic Disorders to Retinal Dystrophy with or without Extraocular Anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 |------|------|
 | Original Indication | Schizophrenia and related psychotic disorders (psychotic, schizophreniform and schizoaffective disorders) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.99% (model rank 252) |
+| TxGNN Prediction Score | 0.9999 (model rank 252) |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Fluphenazine is a phenothiazine antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in schizophrenia and other psychotic disorders is well established.
 
-For this predicted indication, no plausible mechanistic link can be identified. Retinal dystrophies are inherited degenerative eye conditions, and nothing in the data suggests that D2 antagonism would modify them. The score is very high (above 99.99%), and the same level of score appears across many unrelated rare diseases in this drug's prediction list. This pattern points to a likely model artefact rather than a drug-specific signal.
+For this predicted indication, no plausible mechanistic link can be identified. Retinal dystrophies are inherited degenerative eye conditions, and nothing in the data suggests that D2 antagonism would modify them. The score is very high (above 0.9999), and the same level of score appears across many unrelated rare diseases in this drug's prediction list. This pattern points to a likely model artefact rather than a drug-specific signal.
 
 The prediction should therefore be treated as a computational hypothesis only, not as a repurposing lead.
 
@@ -116,7 +116,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Rationale:**
 The prediction rests on a model score alone, with no trials, no literature and no plausible mechanism. The pattern of very high scores across unrelated rare diseases suggests an artefact. The established safety profile of fluphenazine (QT prolongation, blood dyscrasias, extrapyramidal effects) also makes speculative use in an unrelated, non-psychiatric condition hard to justify.
 
-**Note on other predictions:** Among the ten predicted indications, only **manic bipolar affective disorder** (rank 10, score 99.98%) has any supporting literature. It is graded L4 and labelled a research question.
+**Note on other predictions:** Among the ten predicted indications, only **manic bipolar affective disorder** (rank 10, score 0.9998) has any supporting literature. It is graded L4 and labelled a research question.
 - The 19 retrieved publications are indirect. They cover long-acting injectable antipsychotics as a class, including maintenance treatment of bipolar disorder ([PMID 22494448](https://pubmed.ncbi.nlm.nih.gov/22494448/); [PMID 26243837](https://pubmed.ncbi.nlm.nih.gov/26243837/)), plus two fluphenazine case reports ([PMID 36779113](https://pubmed.ncbi.nlm.nih.gov/36779113/); [PMID 34353834](https://pubmed.ncbi.nlm.nih.gov/34353834/)).
 - This indication is closely related to fluphenazine's psychiatric uses and has a recognised D2-based rationale, so it is a more credible direction than the retinal prediction.
 - No fluphenazine-specific trial in mania was found.

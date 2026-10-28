@@ -6,9 +6,9 @@ nav_order: 409
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis…"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
+description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metronidazole
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Metronidazole: From Anaerobic and Protozoal Infections to Pneumocystosis
+## Metronidazole: Pneumocystosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Peritonitis, endocarditis, anaerobic bacterial infections, giardiasis, rosacea, bacterial vaginosis, intracranial abscess (the UK authorisation record contains no indication text; these are drawn from the knowledge-graph indication list) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -118,14 +118,14 @@ For context, the other top-ranked predictions have similarly limited support:
 | Rank | Predicted Indication | Evidence Level | Assessment |
 |---|---|---|---|
 | 2 | Punctate epithelial keratoconjunctivitis | L5 | Prediction only; no data |
-| 3 | Ulcerative proctosigmoiditis | L4 | Biologically plausible (gut microbiota) but only general IBD reviews |
+| 3 | Ulcerative proctosigmoiditis | L5 | Biologically plausible (gut microbiota) but only general IBD reviews |
 | 4 | Nocardiosis | L5 | No established activity; first-line is trimethoprim-sulfamethoxazole |
 | 5 | Postmenopausal atrophic vaginitis | L5 | Oestrogen-deficiency condition; retrieved paper does not test metronidazole |
 | 6 | Cryptococcal meningitis | L5 | Fungal; no antifungal mechanism |
 | 7 | Papillary conjunctivitis | L5 | Prediction only; no data |
 | 8 | Myiasis | L4 | Adjunct in wound care only; ivermectin is effective treatment |
 | 9 | Cap polyposis | L4 | Case reports and one hypothesis paper; no controlled data |
-| 10 | Ulceration of vulva | L4 | Indirect evidence (vulvar Crohn's, cutaneous amoebiasis) |
+| 10 | Ulceration of vulva | L5 | Indirect evidence (vulvar Crohn's, cutaneous amoebiasis) |
 
 Cap polyposis and vulvar ulceration have the most substantive, though still low-grade, supporting literature and may merit a closer look as research questions.
 

@@ -4,17 +4,17 @@ title: Sulfasalazine
 parent: Model Prediction Only (L5)
 nav_order: 583
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Sulfasalazine"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "osteoarthritis susceptibility", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "spondyloarthropathy, susceptibility to", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ A lower-ranked prediction, **osteoarthritis**, has preclinical support only (see
 |------|------|
 | Original Indication | Rheumatoid arthritis; ulcerative colitis; inflammatory bowel disease; juvenile idiopathic arthritis; spondyloarthropathy |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,12 +62,11 @@ A lower-ranked prediction, **osteoarthritis**, has preclinical support only (see
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Sulfasalazine is an anti-inflammatory disease-modifying drug, and its efficacy in inflammatory arthritis and inflammatory bowel disease is established. Its activity is generally linked to inhibition of NF-kB and of inflammatory mediators.
 
-For brachydactyly-syndactyly syndrome, **no plausible mechanistic link has been identified**. This is a congenital limb malformation, and an anti-inflammatory agent is unlikely to alter a developmental disorder. The high TxGNN score reflects a knowledge-graph pattern only. It should be read as a hypothesis-generating signal, not as evidence of benefit.
+For brachydactyly-syndactyly syndrome, **no plausible mechanistic link has been identified**. This is a congenital limb malformation, and an anti-inflammatory agent is unlikely to alter a developmental disorder. The high score of 0.9994 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be read as a hypothesis-generating signal, not as evidence of benefit.
 
 The other top-10 predictions are similar. Most are rare hereditary or developmental conditions with no supporting studies. Two are exceptions:
 
-- **Osteoarthritis** (rank 5, score 99.64%) has plausible preclinical biology. Sulfasalazine blocked proteoglycan and collagen release from cytokine-stimulated cartilage, reduced cartilage destruction in animal models, and affected prostaglandin and leukotriene release. All of this evidence is in vitro or in animals.
-- **Spondyloarthropathy, susceptibility to** (rank 8) is already a listed original indication, so it is not a true repurposing candidate.
+- **Osteoarthritis** (rank 5, score 0.9964) has plausible preclinical biology. Sulfasalazine blocked proteoglycan and collagen release from cytokine-stimulated cartilage, reduced cartilage destruction in animal models, and affected prostaglandin and leukotriene release. All of this evidence is in vitro or in animals.
 
 ---
 
@@ -126,12 +125,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests only on a knowledge-graph score. It has no trials, no publications and no plausible mechanism, so it is not suitable for further development. Osteoarthritis is the only prediction with some biological support, but that support is limited to preclinical work and is indirect.
+The top-ranked prediction rests only on a TxGNN model (deep learning) score. It has no trials, no publications and no plausible mechanism, so it is not suitable for further development. Osteoarthritis is the only prediction with some biological support, but that support is limited to preclinical work and is indirect.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for sulfasalazine
 - For osteoarthritis, a formal review of the preclinical evidence, followed by an early-phase human study if the case holds up
-- Label-based warnings and contraindications from the SmPC, to replace the knowledge-graph associations
+- Label-based warnings and contraindications from the SmPC, to replace the TxGNN model (deep learning) predictions, whose scores may reflect similarities the model learned between related diseases, not biological evidence
 - Confirmation of the UK marketing authorisation details (PL number, formulations and approved indications)
 ## Disclaimer
 

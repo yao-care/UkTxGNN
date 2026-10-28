@@ -6,9 +6,9 @@ nav_order: 304
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). Approved use: Influenza"
 monitor_inn: "Formaldehyde"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "mucocutaneous leishmaniasis", "pyelonephritis", "streptococcal pneumonia", "X-linked lymphoproliferative syndrome", "trigonitis", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "Plasmodium falciparum malaria"]
+description: "Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formaldehyde
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Formaldehyde: From Influenza to Diffuse Cutaneous Leishmaniasis
+## Formaldehyde: Leishmaniasis, diffuse cutaneous
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ The score is a computational output only, and the available data point to safety
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (from the knowledge graph; no approved indication text is available in the UK licence data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Leishmaniasis, diffuse cutaneous |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Formaldehyde is a
 
 The link between influenza and diffuse cutaneous leishmaniasis is weak. One is a viral respiratory infection and the other is a chronic infection caused by an intracellular protozoan parasite. A general biocidal action does not translate into a safe systemic treatment for parasites that live inside host cells. Formaldehyde is also cytotoxic and carcinogenic, which argues strongly against systemic therapeutic use.
 
-The high TxGNN score therefore reflects patterns in the knowledge graph rather than a documented pharmacological rationale. Other top-ranked predictions for this drug (mucocutaneous leishmaniasis, a mitochondrial disorder, haemophagocytic syndromes) share the same limitation.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and there is no documented pharmacological rationale. Other top-ranked predictions for this drug (mucocutaneous leishmaniasis, a mitochondrial disorder, haemophagocytic syndromes) share the same limitation.
 
 ---
 

@@ -8,6 +8,7 @@ nav_order: 556
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Rosiglitazone
@@ -51,8 +52,8 @@ A full repurposing evaluation cannot proceed until the critical data gaps identi
 | Predicted New Indication | Not available — predictions absent from Evidence Pack |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (no prediction data present) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

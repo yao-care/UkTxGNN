@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Midodrine
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 416
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Midodrine: predicted new indication Hypotensive disorder (evidence level L2). Approved use: Orthostatic hypotension"
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
+description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Midodrine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,11 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Midodrine: From Orthostatic Hypotension to Hypotensive Disorder
+## Midodrine: Variably protease-sensitive prionopathy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Midodrine is a peripheral alpha-1 adrenergic agonist, originally used to treat orthostatic hypotension (and related autonomic disorders such as multiple system atrophy and postural orthostatic tachycardia syndrome in the knowledge graph).
 The TxGNN model predicts it may be effective for **hypotensive disorder**, with **1 clinical trial** and **18 publications** currently supporting this direction.
 This prediction largely overlaps with the existing indication, so it is not a true novel repurposing.
 
@@ -48,12 +47,12 @@ This prediction largely overlaps with the existing indication, so it is not a tr
 
 | Item | Content |
 |------|------|
-| Original Indication | Orthostatic hypotension (also multiple system atrophy and postural orthostatic tachycardia syndrome, per the knowledge graph) |
-| Predicted New Indication | Hypotensive disorder |
-| TxGNN Prediction Score | 99.90% |
-| Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Variably protease-sensitive prionopathy |
+| TxGNN Prediction Score | 0.9999 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

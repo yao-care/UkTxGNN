@@ -48,17 +48,17 @@ This prediction should be treated as a model output only.
 |------|------|
 | Original Indication | Not recorded in the licence data (nitrofurantoin is a urinary antibacterial) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Nitrofurantoin is a nitrofuran antibacterial whose efficacy in urinary tract infection is well established. No anti-inflammatory or immunomodulatory mechanism relevant to rheumatoid arthritis has been established.
 
-The high TxGNN score (99.89%) appears to reflect network associations rather than a therapeutic rationale. The retrieved papers describe nitrofurantoin-associated pulmonary toxicity, including a case where a methotrexate-nitrofurantoin interaction caused irreversible pulmonary fibrosis in a patient with rheumatoid arthritis. They also include a UK self-controlled case series examining antibiotic exposure and rheumatoid arthritis flares. These point to co-occurrence and possible harm, not treatment benefit.
+The high TxGNN score (0.9989) appears to reflect network associations rather than a therapeutic rationale. The retrieved papers describe nitrofurantoin-associated pulmonary toxicity, including a case where a methotrexate-nitrofurantoin interaction caused irreversible pulmonary fibrosis in a patient with rheumatoid arthritis. They also include a UK self-controlled case series examining antibiotic exposure and rheumatoid arthritis flares. These point to co-occurrence and possible harm, not treatment benefit.
 
 ## Clinical Trial Evidence
 

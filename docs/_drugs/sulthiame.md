@@ -48,19 +48,19 @@ but there are **no clinical trials** and **no publications** supporting this pre
 |------|------|
 | Original Indication | Not stated in the available authorisation data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulthiame is a carbonic anhydrase inhibitor. However, the authorisation records provided contain no approved indication text, so the relationship between its original use and the predicted indication cannot be assessed.
 
-Cauda equina syndrome is typically a structural, compressive condition of the lower spinal nerve roots, and management is generally surgical. No plausible mechanistic link between carbonic anhydrase inhibition and this condition can be established from the available data. The high score (99.97%, model rank 816) is a computational signal only and should not be read as evidence of efficacy.
+Cauda equina syndrome is typically a structural, compressive condition of the lower spinal nerve roots, and management is generally surgical. No plausible mechanistic link between carbonic anhydrase inhibition and this condition can be established from the available data. The high score (0.9997, model rank 816) is a computational signal only and should not be read as evidence of efficacy.
 
-Other top-ranked predictions show the same pattern: none has clinical or literature support. These include obsolete neurogenic bladder (99.94%), irritable bowel syndrome (99.86%), neurocirculatory asthenia (99.79%), anaphylaxis (99.72%), food-dependent exercise-induced anaphylaxis (99.62%), three mitral valve prolapse entries (familial, general and MVP1, 99.4% to 99.5%) and autonomic nervous system disease (99.35%). The mitral valve prolapse and anaphylaxis entries overlap heavily and probably reflect a shared graph-neighbourhood signal rather than independent evidence. The "obsolete neurogenic bladder" term is flagged as obsolete in the ontology and would need mapping to a current term before further evaluation.
+Other top-ranked predictions show the same pattern: none has clinical or literature support. These include obsolete neurogenic bladder (0.9994), irritable bowel syndrome (0.9986), neurocirculatory asthenia (0.9979), anaphylaxis (0.9972), food-dependent exercise-induced anaphylaxis (0.9962), three mitral valve prolapse entries (familial 0.9949, general 0.9948 and MVP1 0.9943) and autonomic nervous system disease (0.9935). The mitral valve prolapse and anaphylaxis entries overlap heavily; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The "obsolete neurogenic bladder" term is flagged as obsolete in the ontology and would need mapping to a current term before further evaluation.
 
 ## Clinical Trial Evidence
 

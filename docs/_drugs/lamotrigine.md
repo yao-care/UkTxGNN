@@ -4,17 +4,17 @@ title: Lamotrigine
 parent: High Evidence (L1-L2)
 nav_order: 360
 evidence_level: L2
-indication_count: 9
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Lamotrigine: predicted new indication Trigeminal neuralgia (evidence level L2). Approved use: Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome)"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
+description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lamotrigine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **9** 
+Evidence Level: **L2** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **9**
 
 </div>
 
-## Lamotrigine: From Epilepsy to Trigeminal Neuralgia
+## Lamotrigine: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -42,7 +42,7 @@ Lamotrigine is an antiseizure medicine, originally used for epilepsy (including 
 The TxGNN model predicts it may be effective for **trigeminal neuralgia** (the highest-ranked prediction with clinical support), with **2 completed clinical trials** and **19 publications** currently supporting this direction.
 The evidence is small-scale: both trials are underpowered, so this is a promising add-on or second-line option rather than a proven treatment.
 
-> Note: The top-ranked TxGNN prediction is "trigeminal nerve neoplasm", but the linked publications concern trigeminal neuralgia, not a tumour. This appears to be a knowledge-graph artefact, so this report focuses on trigeminal neuralgia as the best-supported candidate.
+> Note: The top-ranked TxGNN prediction is "trigeminal nerve neoplasm", but the linked publications concern trigeminal neuralgia, not a tumour. This appears to be a TxGNN model (deep learning) artefact, so this report focuses on trigeminal neuralgia as the best-supported candidate.
 
 ---
 
@@ -50,12 +50,12 @@ The evidence is small-scale: both trials are underpowered, so this is a promisin
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (including partial epilepsy and Lennox-Gastaut syndrome); no approved indication text is available in the UK licence record |
-| Predicted New Indication | Trigeminal neuralgia |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trigeminal nerve neoplasm |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -126,7 +126,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 | Eating seizures, micturition-induced seizures, thinking seizures, reading seizures | L4 | Only indirect literature; no direct evidence of lamotrigine efficacy. Hold. |
 | Audiogenic seizures | L4 | Animal models only; not a defined human indication. Hold. |
 | Orgasm-induced seizures | L5 | No trials or publications. Hold. |
-| Trigeminal nerve neoplasm | L5 | Likely a knowledge-graph artefact; no anti-tumour evidence. Hold. |
+| Trigeminal nerve neoplasm | L5 | Likely a TxGNN model (deep learning) artefact; no anti-tumour evidence. Hold. |
 
 ---
 

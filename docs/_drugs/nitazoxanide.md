@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Nitazoxanide
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 448
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Nitazoxanide: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Giardiasis, cryptosporidiosis"
+description: "Nitazoxanide: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Nitazoxanide"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "bubonic plague"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Nitazoxanide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,42 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Nitazoxanide: From Giardiasis and Cryptosporidiosis to Polyclonal Hyperviscosity Syndrome
+## Nitazoxanide
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Nitazoxanide is an antiparasitic drug originally used to treat giardiasis and cryptosporidiosis.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**,
-but there are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on a model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Giardiasis, cryptosporidiosis (the authorisation record supplied contains no indication text) |
-| Predicted New Indication | Polyclonal hyperviscosity syndrome |
-| TxGNN Prediction Score | 97.82% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available. Based on known information, nitazoxanide is a thiazolide antiparasitic with broad antiprotozoal, antibacterial and antiviral activity. Its efficacy in giardiasis and cryptosporidiosis is established.
-
-Polyclonal hyperviscosity syndrome is caused by raised polyclonal immunoglobulin levels thickening the blood. No plausible mechanism links nitazoxanide to this condition, and the high score most likely reflects patterns in the knowledge graph rather than a pharmacological rationale. The prediction should therefore be regarded as a hypothesis only.
-
-Other top-ranked predictions (for example hyperamylasemia, congenital analbuminemia, monoclonal gammopathy and plague) are likewise unsupported by any trial or publication in the data compiled for this report. Nitazoxanide has some preclinical anticancer reports, which give a speculative link to haematological conditions, but this is not backed by the data supplied.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ## UK Market Information
 
@@ -89,18 +65,6 @@ The identifier shown is a BNF-style product code rather than an MHRA PL number. 
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by a model score (L5), with no trials, no publications and no plausible mechanistic link to polyclonal hyperviscosity syndrome. Safety signals (hepatic and renal disease, diabetes, and interactions with warfarin and sulfonylureas) add further caution.
-
-**To proceed, the following is needed:**
-- Mechanism of action data for nitazoxanide, and a defined mechanistic hypothesis for hyperviscosity
-- Preclinical or clinical evidence in the predicted indication
-- The MHRA SmPC, including indication, warnings and contraindications, to complete safety screening
-- Confirmation of the UK authorisation details (PL number, dosage form and approved indication)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

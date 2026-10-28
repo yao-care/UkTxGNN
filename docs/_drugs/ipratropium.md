@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ipratropium
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 341
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Ipratropium: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Chronic obstructive pulmonary disease (COPD) and related airway and n…"
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
+description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ipratropium
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Ipratropium: From Chronic Obstructive Pulmonary Disease to Obstructive Lung Disease
+## Ipratropium: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Ipratropium is an inhaled anticholinergic bronchodilator, originally used for chronic obstructive pulmonary disease (COPD) and rhinitis.
-The TxGNN model predicts it may be effective for **obstructive lung disease**, with **26 registered clinical trials** and **20 publications** currently supporting this direction.
 This prediction largely overlaps with an established use, so it is not a true repurposing finding.
 
 ---
@@ -48,12 +47,12 @@ This prediction largely overlaps with an established use, so it is not a true re
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic obstructive pulmonary disease (COPD) and related airway and nasal conditions (the UK authorisation record contains no indication text) |
-| Predicted New Indication | Obstructive lung disease |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nasal cavity disease |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -62,7 +61,7 @@ This prediction largely overlaps with an established use, so it is not a true re
 
 Detailed mechanism of action data is not available in the data compiled for this report. Ipratropium is a muscarinic (anticholinergic) antagonist. It blocks acetylcholine-mediated bronchoconstriction in airway smooth muscle. It is a quaternary ammonium derivative of atropine and is poorly absorbed after inhalation, so its action is mainly local.
 
-COPD is itself an obstructive lung disease, so the predicted indication overlaps closely with the drug's established use. The mechanism is the same: reducing vagal tone in the airways to relieve bronchoconstriction. Ipratropium is commonly combined with salbutamol, a beta-2 agonist. The two drugs act through different pathways and their effects are additive.
+The mechanism is the same: reducing vagal tone in the airways to relieve bronchoconstriction. Ipratropium is commonly combined with salbutamol, a beta-2 agonist. The two drugs act through different pathways and their effects are additive.
 
 This prediction should therefore be seen as confirming existing use rather than opening a new therapeutic area.
 
@@ -143,7 +142,6 @@ Ipratropium and ipratropium/salbutamol are well established in COPD, and at leas
 
 **To proceed, the following is needed:**
 - The MHRA marketing authorisation details (PL number, dosage form and approved indication) for the product concerned
-- SmPC warnings and contraindications to replace the knowledge-graph signals
 - Mechanism of action data
 - Confirmation of whether any new use beyond existing COPD labelling is intended
 - Review of the NICE and BNF guidance on place in therapy
@@ -154,15 +152,15 @@ Ipratropium and ipratropium/salbutamol are well established in COPD, and at leas
 
 | Rank | Predicted Indication | Score | Evidence Level | Suggested Decision |
 |---|---|---|---|---|
-| 2 | Nasal cavity disease | 99.86% | L4 | Research question (a meta-analysis of intranasal anticholinergics in chronic rhinitis exists, but no trials in this dataset) |
-| 3 | Pharyngitis | 99.85% | L4 | Hold (weak, speculative rationale) |
-| 4 | Acute laryngopharyngitis | 99.84% | L5 | Hold (model prediction only) |
-| 5 | Respiratory malformation | 99.80% | L3 | Research question (small, mislabelled evidence) |
-| 6 | Papillary conjunctivitis | 99.75% | L5 | Hold (ocular exposure can cause mydriasis) |
-| 7 | Rienhoff syndrome | 99.69% | L5 | Hold (model prediction only) |
-| 8 | Tracheal disease | 99.66% | L4 | Research question (preclinical evidence only) |
-| 9 | Anaphylaxis | 99.38% | L4 | Hold (a case report shows the drug can trigger anaphylaxis) |
-| 10 | Food-dependent exercise-induced anaphylaxis | 99.36% | L5 | Hold (model prediction only) |
+| 2 | Nasal cavity disease | 0.9986 | L5 | Research question (a meta-analysis of intranasal anticholinergics in chronic rhinitis exists, but no trials in this dataset) |
+| 3 | Pharyngitis | 0.9985 | L5 | Hold (weak, speculative rationale) |
+| 4 | Acute laryngopharyngitis | 0.9984 | L5 | Hold (model prediction only) |
+| 5 | Respiratory malformation | 0.9980 | L5 | Research question (small, mislabelled evidence) |
+| 6 | Papillary conjunctivitis | 0.9975 | L5 | Hold (ocular exposure can cause mydriasis) |
+| 7 | Rienhoff syndrome | 0.9969 | L5 | Hold (model prediction only) |
+| 8 | Tracheal disease | 0.9966 | L4 | Research question (preclinical evidence only) |
+| 9 | Anaphylaxis | 0.9938 | L4 | Hold (a case report shows the drug can trigger anaphylaxis) |
+| 10 | Food-dependent exercise-induced anaphylaxis | 0.9936 | L5 | Hold (model prediction only) |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

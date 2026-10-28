@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **catecholaminergic polymorphic
 |------|------|
 | Original Indication | Ventricular fibrillation |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -133,7 +133,7 @@ The CPVT prediction rests on model score and phenotype similarity alone. There a
 - Label-based warnings and contraindications, and the licensed indication text for the UK authorisation
 - A specialist-led safety monitoring plan (ECG, thyroid, liver and lung monitoring)
 
-**Note:** The data compiled for this report show stronger support for amiodarone in **ventricular tachycardia** (TxGNN score 99.64%, Evidence Level L1). That evidence includes completed Phase 3 trials such as ALPS (3,024 patients) and AVID, and it is a near-label use. It may be a more productive candidate for further evaluation, with guardrails for pulmonary, thyroid, hepatic and ocular toxicity, QT prolongation and bradycardia.
+**Note:** The data compiled for this report show stronger support for amiodarone in **ventricular tachycardia** (TxGNN score 0.9964, Evidence Level L1). That evidence includes completed Phase 3 trials such as ALPS (3,024 patients) and AVID, and it is a near-label use. It may be a more productive candidate for further evaluation, with guardrails for pulmonary, thyroid, hepatic and ocular toxicity, QT prolongation and bradycardia.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

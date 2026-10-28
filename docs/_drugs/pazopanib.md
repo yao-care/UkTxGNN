@@ -4,17 +4,17 @@ title: Pazopanib
 parent: Model Prediction Only (L5)
 nav_order: 480
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Pazopanib: predicted new indication Renal cell carcinoma associated with neuroblastoma (evidence level L5). Approved use: Renal cell carcinoma and soft tissue sarcoma"
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
+description: "Pazopanib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Pazopanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma Subtypes
+## Pazopanib: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,28 +47,24 @@ The TxGNN model gives its highest prediction score to **renal cell carcinoma ass
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma and soft tissue sarcoma (from the knowledge-graph indication data; the UK authorisation record has no indication text) |
-| Predicted New Indication | Renal cell carcinoma associated with neuroblastoma (top-ranked prediction) |
-| TxGNN Prediction Score | 99.63% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Liposarcoma |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 for the top-ranked prediction (model prediction only). Other predictions range from L2 to L5 (see below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold for the top-ranked prediction. Research Question for liposarcoma, unclassified RCC, fibroblastic neoplasm and DFSP |
 
 **Summary of the ten predicted indications**
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 1 | Renal cell carcinoma associated with neuroblastoma | 99.63% | L5 | Hold |
-| 2 | Unclassified renal cell carcinoma | 99.63% | L3 | Research Question |
-| 3 | RCC with Xp11.2 translocation/TFE3 fusion | 99.63% | L5 | Hold |
-| 4 | Liposarcoma | 99.59% | L2 | Research Question |
-| 5 | Childhood kidney cell carcinoma | 99.54% | L5 | Hold |
-| 6 | Ovarian myxoid liposarcoma | 99.51% | L5 | Hold |
-| 7 | Heart fibrosarcoma | 99.37% | L5 | Hold |
-| 8 | Fibroblastic neoplasm | 99.35% | L2 | Research Question |
-| 9 | Kidney fibrosarcoma | 99.33% | L5 | Hold |
-| 10 | Dermatofibrosarcoma protuberans (DFSP) | 99.29% | L2 | Research Question |
+| 4 | Liposarcoma | 0.9959 | L2 | Research Question |
+| 6 | Ovarian myxoid liposarcoma | 0.9951 | L5 | Hold |
+| 7 | Heart fibrosarcoma | 0.9937 | L5 | Hold |
+| 8 | Fibroblastic neoplasm | 0.9935 | L5 | Research Question |
+| 9 | Kidney fibrosarcoma | 0.9933 | L5 | Hold |
+| 10 | Dermatofibrosarcoma protuberans (DFSP) | 0.9929 | L2 | Research Question |
 
 ---
 
@@ -114,7 +110,6 @@ NCT02180867 (fibroblastic neoplasm and DFSP) and NCT06239272 (DFSP) also appear 
 
 ## Literature Evidence
 
-**Unclassified renal cell carcinoma (rank 2)**
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -202,7 +197,6 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold** for the top-ranked prediction (renal cell carcinoma associated with neuroblastoma) and other predictions with no supporting studies. **Research Question** for liposarcoma, unclassified RCC, fibroblastic neoplasm and DFSP.
 
 **Rationale:**
-- The top three scores (99.63%) are driven by model propagation from the approved RCC indication, and the top-ranked entity has no trials or publications (L5).
 - The most credible leads are subtype extensions with Phase 2 data:
   - Unclassified RCC (L3): a single-arm Phase 2 study and retrospective series.
   - DFSP (L2): a dedicated Phase 2 study with a strong mechanistic basis, though imatinib remains the standard.

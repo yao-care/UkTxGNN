@@ -4,17 +4,17 @@ title: Gefitinib
 parent: Model Prediction Only (L5)
 nav_order: 313
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Non-small cell lung carcinoma"
 monitor_inn: "Gefitinib"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
+description: "Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Gefitinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Gefitinib: From Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+## Gefitinib: Fibromatosis, gingival
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-small cell lung carcinoma (the UK licence record contains no indication text; this comes from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Fibromatosis, gingival |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR) tyrosine kinase. Its efficacy in EGFR-mutated NSCLC is established.
 
-A possible link to gingival fibromatosis is EGFR and growth-factor signalling in fibroblast proliferation. This is speculative: no study in the compiled data tests it, and the model's similarity assessment to the original indication is still pending. The high score (99.89%) is a computational prediction and should not be read as evidence of benefit.
+A possible link to gingival fibromatosis is EGFR and growth-factor signalling in fibroblast proliferation. This is speculative: no study in the compiled data tests it, and the model's similarity assessment to the original indication is still pending. The high score (0.9989) is a computational prediction and should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 

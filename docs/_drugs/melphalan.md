@@ -4,17 +4,17 @@ title: Melphalan
 parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Melphalan: predicted new indication Gonadal germ cell tumour (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
+description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Melphalan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Melphalan: From Ovarian Cancer to Gonadal Germ Cell Tumour
+## Melphalan: Female breast carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **7 clinical trials** (mostly small, early-phase or mixed-tumour transplant
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the UK authorisation record compiled for this report contains no indication text; the original indication is taken from the knowledge graph) |
-| Predicted New Indication | Gonadal germ cell tumour |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L2 (one completed Phase 2 trial, but melphalan is part of a combination regimen) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Female breast carcinoma |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (one completed Phase 2 trial, but melphalan is part of a combination regimen) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question only) |
 
 ---
@@ -64,7 +64,7 @@ Melphalan is a nitrogen mustard DNA alkylating agent. It forms interstrand cross
 
 Ovarian cancer and gonadal germ cell tumours are both tumours arising in the gonads, and germ cell tumours are generally highly chemosensitive to DNA-damaging agents. High-dose melphalan with autologous stem cell rescue has been explored as salvage therapy for relapsed or poor-prognosis disease. This is the only clinical setting in which melphalan has been tested for this indication.
 
-The very high TxGNN score is consistent with the ovarian indications in the knowledge graph, but it is a model prediction and not proof of efficacy. In the available trials, melphalan is usually one component of a multi-drug regimen, so its individual contribution cannot be separated.
+In the available trials, melphalan is usually one component of a multi-drug regimen, so its individual contribution cannot be separated.
 
 ---
 

@@ -48,10 +48,10 @@ The prediction is computational only, and the mechanistic rationale is weak and 
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (fenoterol is generally used as a bronchodilator) |
 | Predicted New Indication | Multiple system atrophy |
-| TxGNN Prediction Score | 99.70% |
+| TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,13 +66,13 @@ All of the following are prediction-only (L5), with no trials or literature, and
 
 | Rank | Predicted Indication | TxGNN Score | Mechanistic Comment |
 |------|------|------|------|
-| 2 | Postural orthostatic tachycardia syndrome | 99.61% | Vasodilation and reflex tachycardia would be expected to aggravate symptoms; safety concern |
-| 3 | Variably protease-sensitive prionopathy | 99.54% | No clear link between beta-2 agonism and prion pathology |
-| 4 | Open-angle glaucoma | 99.43% | Class-level effects on aqueous humour dynamics are partially plausible; systemic fenoterol is not an ocular agent |
-| 5 | Raynaud disease | 99.41% | Vasodilation is the most coherent mechanism; limited by systemic effects and no clinical data |
-| 6 | Primary hereditary glaucoma | 99.37% | Often structural in origin; pharmacological IOP lowering is less likely to be disease-modifying |
-| 7 | Sinoatrial block | 99.35% | Chronotropic rationale exists, but arrhythmia risk and better established options (atropine, pacing) |
-| 8 | Sinoatrial node disease | 99.25% | Proarrhythmic and ischaemic risk; pacemaker implantation is standard of care |
+| 2 | Postural orthostatic tachycardia syndrome | 0.9961 | Vasodilation and reflex tachycardia would be expected to aggravate symptoms; safety concern |
+| 3 | Variably protease-sensitive prionopathy | 0.9954 | No clear link between beta-2 agonism and prion pathology |
+| 4 | Open-angle glaucoma | 0.9943 | Class-level effects on aqueous humour dynamics are partially plausible; systemic fenoterol is not an ocular agent |
+| 5 | Raynaud disease | 0.9941 | Vasodilation is the most coherent mechanism; limited by systemic effects and no clinical data |
+| 6 | Primary hereditary glaucoma | 0.9937 | Often structural in origin; pharmacological IOP lowering is less likely to be disease-modifying |
+| 7 | Sinoatrial block | 0.9935 | Chronotropic rationale exists, but arrhythmia risk and better established options (atropine, pacing) |
+| 8 | Sinoatrial node disease | 0.9925 | Proarrhythmic and ischaemic risk; pacemaker implantation is standard of care |
 
 ## Clinical Trial Evidence
 

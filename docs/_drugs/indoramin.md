@@ -48,10 +48,10 @@ with **no registered clinical trials** and **8 publications** (mostly reviews an
 |------|------|
 | Original Indication | Not stated in the UK authorisation data compiled for this report (the published literature describes use in hypertension) |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

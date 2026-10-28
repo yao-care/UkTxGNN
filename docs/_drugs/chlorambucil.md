@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Chlorambucil
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 155
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Chlorambucil: predicted new indication Chronic lymphocytic leukaemia/small lymphocytic lymphoma with IGHV so… (evidence level L4). Approved use: Hodgkin lymphoma, follicular lymphoma, mature B-cell n…"
 monitor_inn: "Chlorambucil"
 predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+description: "Chlorambucil: predicted new indication Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hy… (evidence level L5). Approved use: Not …"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Chlorambucil: From Hodgkin Lymphoma and B-cell Malignancies to Chronic Lymphocytic Leukaemia Subtypes
+## Chlorambucil: Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ No clinical trials and **no subtype-specific publications** are currently availa
 
 | Item | Content |
 |------|------|
-| Original Indication | Hodgkin lymphoma, follicular lymphoma, mature B-cell neoplasms, acute lymphoblastic leukaemia, Richter syndrome (the UK authorisation record holds no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Chronic lymphocytic leukaemia/small lymphocytic lymphoma with IGHV somatic hypermutation |
-| TxGNN Prediction Score | 99.72% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
+| TxGNN Prediction Score | 0.9972 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ No clinical trials and **no subtype-specific publications** are currently availa
 
 Detailed mechanism of action data is not currently available. Based on known information, chlorambucil is a DNA-alkylating nitrogen mustard. Its efficacy in B-cell malignancies is established, and mechanistically it may be applicable to CLL/SLL subtypes.
 
-The predicted indication is a molecular subset of CLL/SLL. This is therefore largely an existing use, or a subtype of one, rather than true repurposing. The very high score most likely reflects how close the disease sits to the drug's current indications in the knowledge graph.
+The predicted indication is a molecular subset of CLL/SLL. This is therefore largely an existing use, or a subtype of one, rather than true repurposing.
 
 The second-ranked prediction, pregerminal centre CLL/SLL (the unmutated IGHV subtype), has the same score and the same rationale. Its single supporting paper (PMID 12577769, 2003) is a review advocating risk-adapted CLL management, not subtype-specific efficacy data.
 

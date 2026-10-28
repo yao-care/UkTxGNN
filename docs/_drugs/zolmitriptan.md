@@ -4,17 +4,17 @@ title: Zolmitriptan
 parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Zolmitriptan: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Migraine disorder (migraine with or without aura)"
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zolmitriptan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Zolmitriptan: From Migraine to Migraine with Brainstem Aura
+## Zolmitriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zolmitriptan is a 5-HT1B/1D receptor agonist (a triptan), originally used for the acute treatment of migraine.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
 but there are currently **no registered clinical trials** and only **general migraine and triptan literature** (20 publications, mostly reviews) supporting this direction, with no subtype-specific data.
 
 ---
@@ -48,12 +47,12 @@ but there are currently **no registered clinical trials** and only **general mig
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (migraine with or without aura) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 (no clinical trials; only preclinical, mechanism and general review literature) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 (no clinical trials; only preclinical, mechanism and general review literature) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +65,7 @@ Migraine with brainstem aura is a migraine subtype that shares the core pathophy
 
 There is, however, an important caveat. Triptans have traditionally been used with caution, or avoided, in brainstem aura (formerly basilar-type migraine) because of theoretical concerns about vasoconstriction. The supplied literature consists of general migraine and triptan reviews and gives no subtype-specific efficacy or safety data. The very high TxGNN score mainly reflects proximity to the already approved migraine indication, not independent evidence for this subtype.
 
-Two other predictions (atrophoderma vermiculata and ulerythema ophryogenesis) have no identifiable mechanistic link, no trials and no literature. They appear to be graph-based artefacts and are not pursued further here.
+Two other predictions (atrophoderma vermiculata and ulerythema ophryogenesis) have no identifiable mechanistic link, no trials and no literature.
 
 ---
 

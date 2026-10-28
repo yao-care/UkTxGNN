@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Phenindione
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 489
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Phenindione: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the UK licence data"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease"]
 # Phenindione
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There are **no registered clinical trials** and **20 publications**, most of the
 |------|------|
 | Original Indication | Not recorded in the UK licence data |
 | Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 99.29% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9929 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

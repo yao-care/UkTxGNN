@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 542
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy / hepatic coma"
 monitor_inn: "Rifaximin"
-predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
+description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy / hepatic coma (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Oral candidiasis |
-| TxGNN Prediction Score | 99.75% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9975 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, rifaximin is a non-absorbed oral antibacterial that acts within the gut. Its efficacy in hepatic encephalopathy relates to reducing gut bacterial load.
 
-On the available evidence, the prediction is **not mechanistically supported**. Rifaximin has no antifungal activity, and oral candidiasis is a fungal infection. The one relevant publication (PMID 34180023) reports that rifaximin use favoured micafungin-resistant *Candida* infections in allogeneic stem cell transplant recipients. This suggests a possible harm signal, such as gut microbiota disruption promoting fungal overgrowth. The high TxGNN score is most likely an artefact of the knowledge graph.
+On the available evidence, the prediction is **not mechanistically supported**. Rifaximin has no antifungal activity, and oral candidiasis is a fungal infection. The one relevant publication (PMID 34180023) reports that rifaximin use favoured micafungin-resistant *Candida* infections in allogeneic stem cell transplant recipients. This suggests a possible harm signal, such as gut microbiota disruption promoting fungal overgrowth. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Other top-ranked predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) also lack clinical or mechanistic support. The broader candidiasis prediction (score 99.15%) likewise has only indirect, observational literature pointing in the opposite direction.
+Other top-ranked predictions (commissural lip fistula, osteoradionecrosis of the mandible, oral leukoedema, burning mouth syndrome) also lack clinical or mechanistic support. The broader candidiasis prediction (score 0.9915) likewise has only indirect, observational literature pointing in the opposite direction.
 
 ## Clinical Trial Evidence
 

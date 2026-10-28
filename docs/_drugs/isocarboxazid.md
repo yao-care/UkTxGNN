@@ -4,17 +4,17 @@ title: Isocarboxazid
 parent: Model Prediction Only (L5)
 nav_order: 343
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
+indication_count: 7
 monitor_inn: "Isocarboxazid"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "dysthymic disorder", "melancholia", "histrionic personality disorder (disease)"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "schizotypal personality disorder"]
+last_modified_at: 2026-10-28
+description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Isocarboxazid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Isocarboxazid: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Isocarboxazid: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Isocarboxazid is a non-selective, irreversible monoamine oxidase inhibitor (MAOI) antidepressant, originally used for depression and anxiety disorders.
-The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of infancy**, but this prediction has **no clinical trials and no publications** behind it and is not mechanistically plausible.
-The better-supported candidates lie within the depression spectrum (dysthymic disorder, melancholia, neurotic depression), where evidence is largely class-level or overlaps the existing label.
+Isocarboxazid is a monoamine oxidase inhibitor (MAOI) with depressive disorders and anxiety disorder as its recorded indications.
+The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but **no clinical trials and no publications** support this prediction.
+Other predicted conditions in the data (for example obsessive-compulsive disorder and phobic disorder) have limited, low-quality supporting literature.
 
 ---
 
@@ -48,64 +48,52 @@ The better-supported candidates lie within the depression spectrum (dysthymic di
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; the UK authorisation record contains no indication text) |
-| Predicted New Indication | Benign paroxysmal torticollis of infancy (rank 1) |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
-> Note: Rank 1 has the highest graph score but the weakest rationale. The most credible candidates are ranked 7–9 (see the comparison below).
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known pharmacology, isocarboxazid is a non-selective, irreversible MAO inhibitor. By blocking the breakdown of serotonin, noradrenaline and dopamine, it increases monoaminergic signalling, which underpins its antidepressant effect.
+Detailed mechanism of action data is not available in the data compiled for this report. Isocarboxazid is generally known as an irreversible, non-selective MAO inhibitor, which raises the availability of serotonin, noradrenaline and dopamine. This is background knowledge rather than a data point from the compiled record.
 
-**Rank 1 (benign paroxysmal torticollis of infancy):** No mechanistic rationale was identified. The condition is a self-limiting paediatric disorder linked to CACNA1A and migraine-spectrum biology. A non-selective irreversible MAOI is implausible and unsuitable for infants. The very high score reflects a graph-based association only.
+For the top-ranked prediction, **no mechanistic rationale was identified**. Benign paroxysmal torticollis of infancy is a rare paediatric disorder, often linked to CACNA1A channelopathy and related to the migraine spectrum. No established link exists between MAO inhibition and this pathophysiology. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Using an MAOI in infants would also raise major safety concerns, including dietary tyramine restrictions, extensive drug interactions and a lack of paediatric data.
 
-**Other predictions in the top 10:**
+Other predictions in the list are more biologically plausible through monoamine modulation, but remain unproven for isocarboxazid specifically:
 
-| Rank | Predicted Indication | Score | Evidence Level | Assessment |
-|---|---|---|---|---|
-| 2 | Agoraphobia | 99.96% | L5 | Plausible class-level rationale (MAOIs used in panic and phobic anxiety), but no isocarboxazid-specific data |
-| 3 | Obsessive-compulsive disorder | 99.96% | L4 | Only a 1990 combination-therapy report and a trichotillomania case report; not OCD-specific |
-| 4 | Neurotic disorder | 99.94% | L4 | Broad historical category; literature dated or indirect |
-| 5 | Phobic disorder | 99.93% | L4 | Historical role of MAOIs in phobic anxiety; evidence indirect |
-| 6 | Post-traumatic stress disorder | 99.93% | L4 | Only a general PTSD review; no isocarboxazid data |
-| 7 | Dysthymic disorder | 99.93% | L4 | Strong mechanistic link; class-level meta-analysis only. Most plausible near-label extension |
-| 8 | Melancholia | 99.92% | L3 | Essentially the existing depression indication |
-| 9 | Neurotic depression | 99.92% | L3 | Overlaps existing label; not a distinct repurposing signal |
-| 10 | Histrionic personality disorder | 99.92% | L5 | Graph-based only; safety profile argues against pursuit |
+- **Agoraphobia** (score 0.9996): MAOIs such as phenelzine have historically been used in panic disorder and agoraphobia. No isocarboxazid-specific studies were retrieved.
+- **Obsessive-compulsive disorder** (0.9997): serotonergic modulation is central to OCD treatment. Only indirect, low-quality literature was found.
+- **Neurotic disorder** (0.9994) and **phobic disorder** (0.9993): these scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence; they overlap with anxiety and depression.
+- **Post-traumatic stress disorder** (0.9993): some benefit has been seen with other MAOIs, but there is no isocarboxazid-specific evidence.
+- **Schizotypal personality disorder** (0.9992): no mechanistic rationale or supporting evidence; MAOIs could theoretically worsen psychotic symptoms.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the top-ranked prediction, or for any of the ten predictions reviewed.
+Currently no related clinical trials registered for benign paroxysmal torticollis of infancy, or for any of the other six predicted conditions.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked prediction (benign paroxysmal torticollis of infancy).
+Currently no related literature available for benign paroxysmal torticollis of infancy.
 
-For the most relevant near-label candidates (melancholia, neurotic depression, dysthymic disorder, and OCD-spectrum conditions), the main publications are:
+For context, the literature retrieved for other predicted conditions is listed below. None of it studies the top-ranked disease.
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [3276281](https://pubmed.ncbi.nlm.nih.gov/3276281/) | 1988 | Placebo-controlled study | Arch Gen Psychiatry | In 130 anxious depressed patients, isocarboxazid beat placebo on depression and anxiety measures; more effective in major than minor depression |
-| [3889078](https://pubmed.ncbi.nlm.nih.gov/3889078/) | 1985 | Double-blind trial | J Clin Psychopharmacol | 6-week isocarboxazid vs placebo in atypical depression |
-| [7036196](https://pubmed.ncbi.nlm.nih.gov/7036196/) | 1982 | Double-blind trial | Psychiatry Res | 6-week placebo-controlled study (30 male outpatients) relating platelet MAO inhibition to response |
-| [6222098](https://pubmed.ncbi.nlm.nih.gov/6222098/) | 1983 | Review | J Affect Disord | Greater efficacy than placebo; modal dose 30–60 mg/day; higher doses poorly tolerated; common side effects dizziness and myoclonus |
-| [7612154](https://pubmed.ncbi.nlm.nih.gov/7612154/) | 1995 | Review/meta-analysis | Neuropsychopharmacology | Comparable efficacy of phenelzine, isocarboxazid and tranylcypromine in outpatients |
-| [35837681](https://pubmed.ncbi.nlm.nih.gov/35837681/) | 2023 | Review | CNS Spectrums | Prescriber's guide to classic MAOIs in treatment-resistant depression, covering interactions and side-effect management |
-| [23934742](https://pubmed.ncbi.nlm.nih.gov/23934742/) | 2013 | Review | CNS Drugs | Current place of MAOIs in depression |
-| [21527126](https://pubmed.ncbi.nlm.nih.gov/21527126/) | 2011 | Meta-analysis of RCTs | J Clin Psychiatry | Antidepressants (class level) are effective in dysthymia; not isocarboxazid-specific |
-| [2404536](https://pubmed.ncbi.nlm.nih.gov/2404536/) | 1990 | Case report | Br J Psychiatry | Resistant affective and phobic symptoms responded to isocarboxazid plus amitriptyline; relapse on blinded placebo substitution |
-| [6725219](https://pubmed.ncbi.nlm.nih.gov/6725219/) | 1984 | Case report | J Clin Psychiatry | Isocarboxazid treated depression with associated trichotillomania; symptoms recurred on withdrawal |
+| PMID | Year | Type | Journal | Key Findings | Related Prediction |
+|------|-----|------|------|---------|------|
+| [2404536](https://pubmed.ncbi.nlm.nih.gov/2404536/) | 1990 | Single case with double-blind placebo substitution | Br J Psychiatry | A woman with affective and phobic symptoms responded to isocarboxazid plus amitriptyline; symptoms returned on placebo and resolved on reintroduction | OCD, neurotic disorder, phobic disorder |
+| [6725219](https://pubmed.ncbi.nlm.nih.gov/6725219/) | 1984 | Case report | J Clin Psychiatry | Isocarboxazid treated depression with associated trichotillomania; symptoms recurred on stopping | OCD (spectrum condition) |
+| [3372704](https://pubmed.ncbi.nlm.nih.gov/3372704/) | 1988 | Clinical study | J Clin Psychopharmacol | 56 depressed inpatients treated with isocarboxazid; phobic anxiety was more common in non-responders | Phobic disorder (indirect) |
+| [34036925](https://pubmed.ncbi.nlm.nih.gov/34036925/) | 2022 | Review | Curr Mol Pharmacol | General review of PTSD symptoms and therapies; not specific to isocarboxazid | PTSD |
+| [14129281](https://pubmed.ncbi.nlm.nih.gov/14129281/) | 1964 | Controlled study | Am J Psychiatry | Diazepam in psychiatric outpatients; not isocarboxazid-specific | Neurotic disorder |
+| [14208878](https://pubmed.ncbi.nlm.nih.gov/14208878/) | 1964 | EEG/pharmacology study | Riv Neurol | EEG study of psychotropic drug combinations | Neurotic disorder |
 
 ---
 
@@ -113,31 +101,27 @@ For the most relevant near-label candidates (melancholia, neurotic depression, d
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0403020H0AAAAAA (BNF-style code) | Isocarboxazid 10 mg tablets | Tablet | Indication text not available in the compiled data |
+| 0403020H0AAAAAA | Isocarboxazid Tab 10mg | Not stated | Not stated in the licence record |
 
-The single record is a valid single-ingredient product. It carries a BNF-style classification code (BNF chapter 4.3, antidepressant drugs) rather than a standard PL number, and no manufacturer or approved indication text was available. The authorisation details should be verified against the MHRA register before any decision relies on them.
+This is a single-ingredient record with valid status. The number appears to be a classification-style code rather than a standard MHRA "PL" number, so it should be verified against the MHRA register. No NICE-appraised indication data were available in the compiled data.
+
+---
+
+## Cytotoxicity
+
+Not applicable. Isocarboxazid is not an antineoplastic drug.
 
 ---
 
 ## Safety Considerations
 
-**Contraindications suggested by the knowledge graph** (derived from graph edges, not label text; to be confirmed against the SmPC):
-- **Cardiovascular:** hypertension, hypotension, orthostatic hypotension, coronary artery disease, sudden cardiac arrest, heart conduction disease, heart disease generally
-- **Endocrine/tumour:** phaeochromocytoma, sympathetic paraganglioma, hyperthyroidism/Graves disease, diabetes and diabetic ketoacidosis
-- **Neurological/psychiatric:** epilepsy, bipolar disorder, substance abuse/dependence, multiple system atrophy
-- **Organ disease:** liver, kidney and gallbladder disease
+No label-based warnings or contraindications were available in the compiled data. The items below come from knowledge-graph relations and interaction records.
 
-**Drug interactions** (100 interactions recorded; examples):
-- **Major:** isometheptene, bupropion, morphine, lorcaserin, diethylpropion, phentermine, dolasetron, palonosetron
-- **Moderate:** epinephrine, chlorpropamide, glimepiride, repaglinide, dronabinol, insulin aspart
-- **Minor:** hyoscyamine, atropine, dicyclomine
+- **Contraindication relations recorded in the knowledge graph** (not label text): hypertension and hypertensive disorder, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, epilepsy, kidney disease, liver disease, gallbladder disease, bipolar disorder, diabetes mellitus and diabetic ketoacidosis, substance abuse/dependence, coronary artery disease, heart conduction disease, cardiovascular and heart disease, sudden cardiac arrest, phaeochromocytoma and other paragangliomas, hyperthyroidism and Graves disease, and several cancers (duodenum, small intestine, heart, adrenal gland).
+- **Drug interactions**: 100 interactions were recorded, and 20 were returned in detail. **Major** interactions include isometheptene, bupropion, morphine, lorcaserin, diethylpropion, dolasetron, palonosetron and phentermine. **Moderate** interactions include epinephrine, chlorpropamide, glimepiride, repaglinide, insulin aspart, dronabinol, picosulfuric acid, sodium sulfate and polyethylene glycol with electrolytes. **Minor** interactions include hyoscyamine, atropine and dicyclomine.
+- **Population concern**: for the top-ranked prediction, the target population is infants. There are no paediatric data, and MAOI dietary and interaction restrictions would be hard to manage.
 
-**Literature-reported safety signals:**
-- Serotonin syndrome occurred in a patient on trazodone, isocarboxazid and methylphenidate (PMID 7854515).
-- A mild hypertensive reaction after eating cheese and borderline liver enzyme elevations were reported (PMID 6376485).
-- Higher doses are poorly tolerated (PMID 6222098).
-
-Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -146,15 +130,14 @@ Please also refer to the SmPC and BNF for full safety information. Report suspec
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (benign paroxysmal torticollis of infancy) rests on a graph score alone, with no trials, no literature and no plausible mechanism, and an irreversible MAOI is unsuitable for infants. Most other predictions are either indirect (class-level or historical evidence) or overlap the existing depression label. Isocarboxazid's high-risk safety profile (hypertensive crisis, serotonin syndrome, extensive interactions) raises the bar for any extension.
+The top-ranked prediction, benign paroxysmal torticollis of infancy, has only a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no publications and no plausible mechanism, so the evidence level is L5. The use of an MAOI in infants also raises serious safety concerns. Among the other predictions, obsessive-compulsive disorder, neurotic disorder, phobic disorder and PTSD are mechanistically plausible but are supported only by indirect or very low-quality literature, and no cited study directly addresses these diseases at a level that would justify a higher recommendation.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to support mechanistic-link analysis
-- Full SmPC warnings and contraindications for the UK product (the current safety data is incomplete and blocks safety screening)
-- Verified MHRA authorisation details, including indication text
-- For dysthymic disorder (the most plausible near-label extension): isocarboxazid-specific controlled data, since current evidence is class-level only
-- For agoraphobia, OCD and PTSD: prospective controlled studies, as no isocarboxazid-specific trial data exist
-- A clear interaction-management and dietary-restriction plan before any new-indication study
+- Mechanism of action data for isocarboxazid, as the data compiled for this report contain none
+- Label-based warnings and contraindications from the SmPC and BNF, as the safety data are incomplete
+- Confirmation of the UK licence details (authorisation number, dosage form and approved indication)
+- For any future work, prioritise agoraphobia, phobic disorder or OCD, where class-level plausibility exists, and start with a systematic literature search and controlled studies specific to isocarboxazid
+- A clear safety plan covering dietary tyramine restrictions and drug interactions before considering any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

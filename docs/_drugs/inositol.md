@@ -4,17 +4,17 @@ title: Inositol
 parent: Model Prediction Only (L5)
 nav_order: 339
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not stated in the UK authorisation record"
 monitor_inn: "inositol"
-predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "congestive heart failure", "hyperlipoproteinemia", "acute pulmonary heart disease", "glycogen storage disease due to hepatic glycogen synthase deficiency"]
+predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "congestive heart failure", "acute pulmonary heart disease", "glycogen storage disease due to hepatic glycogen synthase deficiency"]
+description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Inositol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Inositol: From Lipid Disorders and Vitamin-Deficiency Conditions to Idiopathic Copper-Associated Cirrhosis
+## Inositol: Idiopathic copper-associated cirrhosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ Inositol is a vitamin-like compound whose original indications in the data compi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation record; the knowledge graph lists pellagra, beriberi, hypertriglyceridaemia, familial combined hyperlipidaemia and hypoalphalipoproteinaemia |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Idiopathic copper-associated cirrhosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -60,7 +60,7 @@ Inositol is a vitamin-like compound whose original indications in the data compi
 
 Currently, detailed mechanism of action data is not available. Inositol is a naturally occurring sugar alcohol that takes part in intracellular signalling (for example, the inositol phosphate and IP3 calcium pathways). Its link to the original lipid-related indications is historical, since inositol esters such as inositol nicotinate were used for lipid lowering.
 
-For idiopathic copper-associated cirrhosis, **no mechanistic rationale is supported by the data compiled for this report**. The score is a model output only. Several liver and portal-hypertension-related diseases (early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, hepatoportal sclerosis, primitive portal vein thrombosis) share exactly the same score. This suggests a common graph-based signal rather than disease-specific evidence, so the score should be treated with caution.
+For idiopathic copper-associated cirrhosis, **no mechanistic rationale is supported by the data compiled for this report**. The score is a model output only. Several liver and portal-hypertension-related diseases (early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, hepatoportal sclerosis, primitive portal vein thrombosis) share exactly the same score. This score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should be treated with caution.
 
 Other predictions with some literature:
 

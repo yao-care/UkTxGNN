@@ -6,9 +6,9 @@ nav_order: 34
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
+description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Alfuzosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Alfuzosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Alfuzosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,21 +46,21 @@ but there are **no clinical trials and no publications** supporting this predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (the MHRA authorisation text is not available in the data compiled for this report; the indication comes from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on established pharmacology, alfuzosin is an alpha-1 adrenergic antagonist. It relaxes smooth muscle in the prostate and bladder neck, which improves urinary flow in BPH.
 
-The predicted indication is not closely related to the original one. Ambras syndrome is a rare genetic disorder linked to regulatory changes on chromosome 8q that affect TRPS1 expression. No plausible pathway connects alpha-1 blockade to this condition. The very high TxGNN score probably reflects graph-neighbourhood similarity among rare hair and congenital phenotypes rather than a true pharmacological link.
+The predicted indication is not closely related to the original one. Ambras syndrome is a rare genetic disorder linked to regulatory changes on chromosome 8q that affect TRPS1 expression. No plausible pathway connects alpha-1 blockade to this condition. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related rare hair and congenital phenotypes, not biological evidence.
 
-Other top-ranked predictions show the same pattern. These include hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly and hypotrichosis simplex of the scalp. None has supporting evidence. Hypertrichosis is a known adverse effect of some vasodilators such as minoxidil, which may explain the association in the knowledge graph. The direction of effect (inducing versus treating) is unclear.
+Other top-ranked predictions from the TxGNN model show the same pattern. These include hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly and hypotrichosis simplex of the scalp. None has supporting evidence. Hypertrichosis is a known adverse effect of some vasodilators such as minoxidil, which may explain the association the model learned. The direction of effect (inducing versus treating) is unclear.
 
 ## Clinical Trial Evidence
 
@@ -110,7 +110,7 @@ The prediction rests on model output alone (L5). There are no clinical trials or
 - Preclinical evidence (for example, in vitro or animal models of hair follicle biology)
 - Clarification of the direction of effect (treatment versus induction of hypertrichosis)
 - Full SmPC warnings and contraindications, and the MHRA authorisation details (approved indication, dosage form, licence number)
-- A review of whether the very high score is a graph artefact, for example by checking the knowledge-graph paths behind the prediction
+- A review of whether the very high score from the TxGNN model (deep learning) only reflects similarities the model learned between related diseases, not biological evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

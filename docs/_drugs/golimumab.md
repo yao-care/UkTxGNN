@@ -4,17 +4,17 @@ title: Golimumab
 parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Golimumab: predicted new indication Rheumatoid vasculitis (evidence level L5). Approved use: Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis…"
 monitor_inn: "Golimumab"
-predicted_indications: ["hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease"]
+predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Golimumab: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+## Golimumab: Hypermobility of coccyx
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Golimumab is an anti-TNF-alpha monoclonal antibody, originally used for inflammatory arthritis and ulcerative colitis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but the supporting evidence is weak: **1 registered clinical trial** (not testing golimumab for this condition) and **6 publications**, none of which is a direct efficacy study.
 
 ---
 
@@ -47,12 +46,12 @@ The TxGNN model predicts it may be effective for **rheumatoid vasculitis**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, ulcerative colitis |
-| Predicted New Indication | Rheumatoid vasculitis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 (indirect and mechanistic evidence only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypermobility of coccyx |
+| TxGNN Prediction Score | 0.9967 |
+| Evidence Level | L5 (indirect and mechanistic evidence only) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -132,7 +131,7 @@ The mechanistic link to RA is plausible, but no study has tested golimumab in rh
 - Detailed mechanism of action data and full safety information (warnings and contraindications) from the SmPC.
 - Confirmation of the licensed indications, dosage forms and authorisation details for the UK product.
 
-Other predicted indications in the data (inflammatory spondylopathy and polyarticular juvenile idiopathic arthritis) have much stronger trial support. They largely overlap with existing uses, so the licence status should be checked before treating them as new indications.
+They largely overlap with existing uses, so the licence status should be checked before treating them as new indications.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

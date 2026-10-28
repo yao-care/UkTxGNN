@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **reactive thrombocytosis**, bu
 |------|------|
 | Original Indication | Thrombocythaemia; familial thrombocytosis (the UK authorisation record holds no indication text) |
 | Predicted New Indication | Reactive thrombocytosis |
-| TxGNN Prediction Score | 99.83% |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -115,7 +115,7 @@ No clinical trials exist for anagrelide in reactive thrombocytosis, and the lite
 - A cardiovascular risk assessment given the interaction and contraindication signals
 - Verification of the UK authorisation record, including the licence number, dosage form and approved indication
 
-*Note: The second predicted indication, inverse Klippel-Trenaunay syndrome (TxGNN score 99.59%), has no supporting trials or literature and no plausible mechanistic link (evidence level L5, Hold). It is not evaluated further.*
+*Note: The second predicted indication, inverse Klippel-Trenaunay syndrome (TxGNN score 0.9959), has no supporting trials or literature and no plausible mechanistic link (evidence level L5, Hold). It is not evaluated further.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

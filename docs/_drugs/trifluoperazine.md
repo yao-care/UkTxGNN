@@ -6,9 +6,9 @@ nav_order: 640
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Schizophrenia, anxiety"
 monitor_inn: "Trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
+description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Trifluoperazine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Trifluoperazine: From Schizophrenia and Anxiety to Manic Bipolar Affective Disorder
+## Trifluoperazine: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but there are **no registered clinical trials** and the **20 publications** comp
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, anxiety (from the knowledge graph; no approved indication text is available in the UK licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and no trials are registered) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: the structured scoring in the data compiled for this report lists L4. In my assessment the literature contains no preclinical or mechanism study of trifluoperazine in mania, so L5 is the better fit under the grading rules. This should be confirmed at review.*

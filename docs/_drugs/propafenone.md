@@ -4,17 +4,17 @@ title: Propafenone
 parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Propafenone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Atrial fibrillation"
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
+description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propafenone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Propafenone: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Propafenone is a class IC antiarrhythmic, originally used for atrial fibrillation and ventricular tachycardia.
-The TxGNN model's most clinically plausible prediction is **catecholaminergic polymorphic ventricular tachycardia (CPVT)**, supported by **no registered clinical trials** and **10 publications** (mostly case-level and preclinical mechanistic studies).
+The TxGNN model's most clinically plausible prediction is **manic bipolar affective disorder**, supported by **no registered clinical trials** and **10 publications** (mostly case-level and preclinical mechanistic studies).
 The model's top-ranked prediction, manic bipolar affective disorder, is not supported; the literature points to harm rather than benefit.
 
 > This report focuses on the CPVT prediction, which has the strongest evidence. The other predictions are summarised in the final section for completeness.
@@ -50,12 +50,12 @@ The model's top-ranked prediction, manic bipolar affective disorder, is not supp
 
 | Item | Content |
 |------|------|
-| Original Indication | Atrial fibrillation; ventricular tachycardia (the data compiled for this report contains no UK licence indication text) |
-| Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia (rank 2 by TxGNN score; rank 1, manic bipolar affective disorder, is judged an artefact) |
-| TxGNN Prediction Score | 99.79% (CPVT); 99.80% (manic bipolar affective disorder) |
-| Evidence Level | L3 (CPVT) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Manic bipolar affective disorder |
+| TxGNN Prediction Score | 0.9980 |
+| Evidence Level | L5 (CPVT) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question only; not for clinical use outside specialist care) |
 
 ---
@@ -132,13 +132,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Manic bipolar affective disorder | 99.80% | L5 | Hold. No plausible therapeutic mechanism; literature suggests propafenone may cause mania |
-| Incessant infant ventricular tachycardia | 99.44% | L3 | Research question. Older paediatric studies (e.g. PMID 8237821) report oral propafenone use; evidence is retrospective and proarrhythmia risk needs assessment |
-| Arrhythmogenic right ventricular cardiomyopathy | 99.42% | L4 | Hold. Safety signals (QRS widening, provoked incessant VT); risk-benefit appears unfavourable |
-| Periodic paralysis with transient compartment-like syndrome | 99.67% | L5 | Hold. Prediction only; no trials or literature |
-| Prinzmetal angina | 99.45% | L5 | Hold. No anti-vasospastic mechanism; class IC agents are generally avoided in ischaemic heart disease |
-| Nephrogenic syndrome of inappropriate antidiuresis | 99.23% | L5 | Hold. No mechanistic link; no trials or literature |
-| Trichotillomania | 99.17% | L5 | Hold. No plausible rationale; no trials or literature |
+| Manic bipolar affective disorder | 0.9980 | L5 | Hold. No plausible therapeutic mechanism; literature suggests propafenone may cause mania |
+| Arrhythmogenic right ventricular cardiomyopathy | 0.9942 | L4 | Hold. Safety signals (QRS widening, provoked incessant VT); risk-benefit appears unfavourable |
+| Periodic paralysis with transient compartment-like syndrome | 0.9967 | L5 | Hold. Prediction only; no trials or literature |
+| Prinzmetal angina | 0.9945 | L5 | Hold. No anti-vasospastic mechanism; class IC agents are generally avoided in ischaemic heart disease |
+| Nephrogenic syndrome of inappropriate antidiuresis | 0.9923 | L5 | Hold. No mechanistic link; no trials or literature |
+| Trichotillomania | 0.9917 | L5 | Hold. No plausible rationale; no trials or literature |
 
 ---
 

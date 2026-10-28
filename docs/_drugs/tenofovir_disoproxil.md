@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 604
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-15
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
@@ -14,7 +14,7 @@ predicted_indications: ["simian immunodeficiency virus infection", "feline acqui
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There are **no registered clinical trials** and **18 publications** (almost all 
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the UK authorisation record holds no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,8 +68,8 @@ SIV infection is not a human clinical condition. The prediction therefore mainly
 
 The other predictions are weaker still:
 - **Feline acquired immunodeficiency syndrome:** a single veterinary study of combination antiretroviral therapy. It is not relevant to human repurposing.
-- **Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 99.95%): no evidence and no plausible mechanistic link.
-- **Familial combined hyperlipidaemia** (score 99.60%): no evidence, and the disease term is marked obsolete in the ontology, so it should be remapped before any further review.
+- **Neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter** (score 0.9995): no evidence and no plausible mechanistic link.
+- **Familial combined hyperlipidaemia** (score 0.9960): no evidence, and the disease term is marked obsolete in the ontology, so it should be remapped before any further review.
 
 ---
 

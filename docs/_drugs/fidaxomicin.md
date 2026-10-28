@@ -4,17 +4,17 @@ title: Fidaxomicin
 parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Clostridium difficile colitis"
 monitor_inn: "Fidaxomicin"
-predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis", "parasitic skin disease"]
+predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
+description: "Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fidaxomicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fidaxomicin: From Clostridium difficile Colitis to Staphylococcal Scalded Skin Syndrome
+## Fidaxomicin: Staphylococcal scalded skin syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials** and **no relevant publications** 
 
 | Item | Content |
 |------|------|
-| Original Indication | *Clostridium difficile* colitis (the licence record compiled for this report contains no approved indication text; this is taken from the drug's known indications in the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Staphylococcal scalded skin syndrome |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 That in vitro activity is the only link to the predicted indication, and it is a weak one. Staphylococcal scalded skin syndrome is a toxin-mediated skin disease caused by *S. aureus*. Fidaxomicin has minimal systemic absorption, so it is unlikely to reach effective concentrations in skin or blood. The high TxGNN score probably reflects similarity between anti-infective agents and infections rather than a demonstrated pharmacological rationale.
 
-Other top-ranked predictions (bullous impetigo, impetigo, inhalational botulism, toxin-mediated infectious botulism, vulvovaginal candidiasis, hordeolum, *S. aureus* pneumonia, punctate epithelial keratoconjunctivitis and parasitic skin disease) also have scores of 0.986 to 0.997. None has trial or supporting literature evidence, and several lack any plausible mechanism (for example, an antibacterial for a fungal infection, a parasitic disease, or a preformed neurotoxin). The only conceivable link for toxin-mediated infectious botulism is gut-localised activity against *Clostridium* species, which is indirect reasoning only.
+Other top-ranked predictions (bullous impetigo, impetigo, inhalational botulism, toxin-mediated infectious botulism, vulvovaginal candidiasis, hordeolum, *S. aureus* pneumonia and punctate epithelial keratoconjunctivitis) also have scores of 0.9902 to 0.9970. None has trial or supporting literature evidence, and several lack any plausible mechanism (for example, an antibacterial for a fungal infection or a preformed neurotoxin). The only conceivable link for toxin-mediated infectious botulism is gut-localised activity against *Clostridium* species, which is indirect reasoning only.
 
 ## Clinical Trial Evidence
 

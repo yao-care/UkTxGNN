@@ -6,7 +6,7 @@ nav_order: 582
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Sulfapyridine: predicted new indication Heparin-induced thrombocytopenia (evidence level L5). Approved use: Dermatitis herpetiformis"
+description: "Sulfapyridine: predicted new indication heparin-induced thrombocytopenia (disease) (evidence level L5). Approved use: Dermatitis herpetiformis"
 monitor_inn: "Sulfapyridine"
 predicted_indications: ["heparin-induced thrombocytopenia (disease)", "hereditary angioedema", "hereditary angioedema with C1Inh deficiency", "acquired aplastic anemia", "C1 inhibitor deficiency", "autoimmune hemolytic anemia", "serpinopathy with toxic serpin polymerization", "disorder of GPI anchor biosynthesis", "hemoglobinuria", "venous insufficiency (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfapyridine: From Dermatitis Herpetiformis to Heparin-Induced Thrombocytopenia
+## Sulfapyridine: From Dermatitis Herpetiformis to heparin-induced thrombocytopenia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,31 +47,31 @@ The TxGNN model predicts it may be effective for **heparin-induced thrombocytope
 |------|------|
 | Original Indication | Dermatitis herpetiformis |
 | Predicted New Indication | Heparin-induced thrombocytopenia |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, sulfapyridine is a sulfonamide whose efficacy in dermatitis herpetiformis is established, which is generally attributed to anti-inflammatory and neutrophil-modulating effects.
 
-No mechanistic link to HIT has been identified. HIT is an antibody-mediated (anti-PF4/heparin) prothrombotic disorder, which is very different from the neutrophil-driven skin disease for which sulfapyridine is used. Sulfonamides are also occasionally associated with drug-induced thrombocytopenia, which argues against benefit. The high score most likely reflects proximity in the knowledge graph rather than a biological rationale.
+No mechanistic link to HIT has been identified. HIT is an antibody-mediated (anti-PF4/heparin) prothrombotic disorder, which is very different from the neutrophil-driven skin disease for which sulfapyridine is used. Sulfonamides are also occasionally associated with drug-induced thrombocytopenia, which argues against benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **Other predictions reviewed (all L5 unless stated, all Hold):**
 
 | Predicted Indication | Score | Comment |
 |------|------|------|
-| Hereditary angioedema | 99.82% | Unproven hypothesis only; established therapies exist |
-| Hereditary angioedema with C1Inh deficiency | 99.82% | Same as above |
-| Acquired aplastic anaemia | 99.82% | Sulfonamides can cause bone marrow suppression; safety concern |
-| C1 inhibitor deficiency | 99.81% | Prediction only |
-| Autoimmune haemolytic anaemia | 99.81% | Sulfonamides can cause haemolysis; may worsen the condition |
-| Serpinopathy with toxic serpin polymerisation | 99.75% | No identified mechanism |
-| Disorder of GPI anchor biosynthesis | 99.72% | No identified mechanism |
-| Haemoglobinuria | 99.70% | Evidence level L4; only a 1945 case report of an adverse reaction |
-| Venous insufficiency | 99.54% | No identified mechanism |
+| Hereditary angioedema | 0.9982 | Unproven hypothesis only; established therapies exist |
+| Hereditary angioedema with C1Inh deficiency | 0.9982 | Same as above |
+| Acquired aplastic anaemia | 0.9982 | Sulfonamides can cause bone marrow suppression; safety concern |
+| C1 inhibitor deficiency | 0.9981 | Prediction only |
+| Autoimmune haemolytic anaemia | 0.9981 | Sulfonamides can cause haemolysis; may worsen the condition |
+| Serpinopathy with toxic serpin polymerisation | 0.9975 | No identified mechanism |
+| Disorder of GPI anchor biosynthesis | 0.9972 | No identified mechanism |
+| Haemoglobinuria | 0.9970 | Evidence level L4; only a 1945 case report of an adverse reaction |
+| Venous insufficiency | 0.9954 | No identified mechanism |
 
 ## Clinical Trial Evidence
 

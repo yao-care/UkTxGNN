@@ -4,7 +4,7 @@ title: Nebivolol
 parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nebivolol"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Nebivolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,23 +48,23 @@ but there are currently **no clinical trials** and **no directly relevant public
 |------|------|
 | Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, nebivolol is a highly selective beta-1 blocker that also promotes nitric oxide-mediated vasodilation. Its efficacy in hypertension is established, and it may mechanistically lower blood pressure in hypertensive renal disease.
 
-The high TxGNN score (99.42%) most likely reflects the close relationship between this condition and nebivolol's existing hypertension indication, rather than independent clinical evidence. Malignant hypertension with renal involvement is an acute emergency that is usually managed with intravenous agents, so oral nebivolol has no established role.
+The high TxGNN score (0.9942) most likely reflects the close relationship between this condition and nebivolol's existing hypertension indication, rather than independent clinical evidence. Malignant hypertension with renal involvement is an acute emergency that is usually managed with intravenous agents, so oral nebivolol has no established role.
 
 Other predictions with the same evidence level (L5, no trials or literature) include:
-- **Malignant renovascular hypertension** (score 99.42%): beta-1 blockade reduces renin release, which is theoretically relevant.
-- **Pulmonary hypertension with unclear multifactorial mechanism** (score 99.39%): beta-blockers are generally used cautiously in pulmonary arterial hypertension because of concerns about right ventricular function.
-- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 99.39%): the 12 publications retrieved are mostly preclinical organ-protection studies and do not assess pulmonary hypertension outcomes. The eNOS/Hif1α signalling findings offer only a weak mechanistic hint.
-- **Braddock syndrome** (score 99.14%): no clear mechanistic rationale can be derived from the available data.
+- **Malignant renovascular hypertension** (score 0.9942): beta-1 blockade reduces renin release, which is theoretically relevant.
+- **Pulmonary hypertension with unclear multifactorial mechanism** (score 0.9939): beta-blockers are generally used cautiously in pulmonary arterial hypertension because of concerns about right ventricular function.
+- **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9939): the 12 publications retrieved are mostly preclinical organ-protection studies and do not assess pulmonary hypertension outcomes. The eNOS/Hif1α signalling findings offer only a weak mechanistic hint.
+- **Braddock syndrome** (score 0.9914): no clear mechanistic rationale can be derived from the available data.
 
 ## Clinical Trial Evidence
 

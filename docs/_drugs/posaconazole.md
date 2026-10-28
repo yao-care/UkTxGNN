@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Posaconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 507
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis…"
 monitor_inn: "Posaconazole"
-predicted_indications: ["pneumocystosis", "vulvovaginal candidiasis", "leprosy", "multibacillary leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "paucibacillary leprosy"]
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The mechanistic reasoning argues against the prediction, so it should be treated
 |------|------|
 | Original Indication | Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK authorisation record compiled for this report has no indication text. |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Its efficacy in invasive fungal infections is established, which is probably why the model links it to pneumocystosis. However, *Pneumocystis jirovecii* has little or no ergosterol and uses cholesterol-type sterols in its membrane, so an azole is not expected to work. The high score most likely reflects a general antifungal class association rather than a true mechanistic fit. Standard therapy is trimethoprim-sulfamethoxazole.
 
-Other predictions in the list are weaker still. Vulvovaginal candidiasis is mechanistically plausible but is an extension within the already approved antifungal indication family. The leprosy, congenital malformation and hair disorder predictions have no plausible mechanism and no supporting evidence.
+Other predictions in the list are weaker still. Vulvovaginal candidiasis is mechanistically plausible but is an extension within the already approved antifungal indication family.
 
 ---
 

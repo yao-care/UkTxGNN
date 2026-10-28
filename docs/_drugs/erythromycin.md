@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Erythromycin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 256
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Erythromycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L4). Approved use: Bacterial infections, including acne, otitis media…"
+evidence_level: L5
+indication_count: 5
 monitor_inn: "Erythromycin"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "acute contagious conjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
+last_modified_at: 2026-10-27
+description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Erythromycin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,83 +33,68 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Erythromycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+## Erythromycin: Macrolide antibiotic (50S ribosomal subunit inhibitor) → 點狀上皮角膜結膜炎 (punctate epithelial keratoconjunctivitis)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Erythromycin is a macrolide antibiotic, originally used for respiratory, genital, skin and eye infections such as pneumonia, pertussis, gonorrhoea, acne and conjunctivitis.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but there are currently **no registered clinical trials** and only **1 publication** (a paediatric management review) supporting this direction, so the evidence is indirect.
+Erythromycin is a macrolide antibiotic with antibacterial and anti-inflammatory activity. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials** and only **1 publication** (a general paediatric review) support this direction, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including acne, otitis media, streptococcal and staphylococcal infections, pneumonia, pertussis, gonorrhoea, urethritis and conjunctivitis (the UK licence record contains no indication text; this list comes from the knowledge graph) |
-| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | punctate epithelial keratoconjunctivitis |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, erythromycin is a macrolide antibiotic with antibacterial and anti-inflammatory activity. Its efficacy in bacterial conjunctivitis and staphylococcal infections is established, and it may be applicable to related ocular surface disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, erythromycin is a macrolide that inhibits bacterial protein synthesis at the 50S ribosomal subunit and also has anti-inflammatory properties. Topical ophthalmic erythromycin is widely used in eye infections, so applying it to an ocular surface disease is plausible.
 
-Punctate epithelial keratoconjunctivitis is an ocular surface condition. Chronic blepharokeratoconjunctivitis, a related condition, is often associated with staphylococcal infection, which makes an antibacterial or anti-inflammatory macrolide plausible. The only supporting paper is a single paediatric management review, so this support is indirect and does not demonstrate efficacy for this specific condition.
-
-Other predictions in the dataset include lymphogranuloma venereum (L4, the best-supported alternative, since erythromycin is active against *Chlamydia trachomatis* but is a second-line option behind doxycycline), necrotizing ulcerative gingivitis, exposure keratitis and post-infectious syndrome (all L4, with indirect or historical evidence). Acute contagious conjunctivitis largely overlaps with an existing indication. The remaining predictions have no meaningful evidence.
+The only retrieved publication is a review of chronic blepharokeratoconjunctivitis in children, a related but different ocular surface condition that is often associated with staphylococcal disease. It does not study punctate epithelial keratoconjunctivitis itself, so the support is indirect. Because no cited study directly addresses the predicted disease, the evidence level is capped at L5 (model prediction only), despite the pipeline's preliminary L4 label.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | Describes the history, symptoms, clinical signs and treatment of chronic blepharokeratoconjunctivitis in children; indirect support only |
+| [11495307](https://pubmed.ncbi.nlm.nih.gov/11495307/) | 2001 | Review | Journal of Pediatric Ophthalmology and Strabismus | Describes history, symptoms, clinical signs and treatment of chronic blepharokeratoconjunctivitis in children; a related condition, not the predicted disease itself |
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0501050C0AAABAB (BNF-style code; PL number not available) | Erythromycin E/C 250 mg tablets | Gastro-resistant tablet (per product name) | Not stated in the data compiled |
-
-BNF classification: the code suggests the antibacterial chapter (macrolides). Please confirm in the BNF and the SmPC.
+| 0501050C0AAABAB | Erythromycin Tab E/C 250mg | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern** (derived from the knowledge graph, not label text):
-- Cardiac: long QT syndrome (including familial), torsades de pointes
-- Metabolic and haematological: porphyria (inherited and other porphyrin metabolism disorders), folic acid deficiency anaemia, haematological disease
-- Organ disease: kidney disease, liver disease, gallbladder disease
-- Gastrointestinal: *Clostridium difficile* colitis, perinatal necrotising enterocolitis
-- Skin: exfoliative dermatitis, dermatitis
-- Neuromuscular: myasthenia gravis (including adult-onset), neuromuscular junction disease
-- Hearing: hearing disorder, auditory system disease
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Drug Interactions:** 100 interactions were identified; the main ones listed include:
-- **Major:** loperamide, clarithromycin
-- **Moderate:** famotidine, cimetidine, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, pioglitazone, chlorpropamide, alosetron, aprepitant, balsalazide, bisacodyl, picosulfuric acid, polyethylene glycol (3350 with electrolytes)
-- **Minor:** amoxicillin
+Drug interaction records compiled for this report include the following notable entries:
+- **Major**: loperamide, clarithromycin
+- **Moderate**: for example famotidine, hydrocortisone, pioglitazone, alosetron, aprepitant, dexamethasone, budesonide, cimetidine
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Only a subset of the 100 recorded interactions is shown here; check the BNF interaction guidance before prescribing.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials and the only paper is an indirect paediatric review on a related condition. Evidence is limited to L4, and there are significant QT-related and interaction concerns with systemic use.
+The TxGNN score is very high, but there are no trials and the sole publication is an indirect review of a related condition. There is no direct evidence for punctate epithelial keratoconjunctivitis.
 
 **To proceed, the following is needed:**
-- Controlled clinical data (trials or well-designed comparative studies) for punctate epithelial keratoconjunctivitis
-- Mechanism of action data for erythromycin to support the link with the predicted indication
-- Confirmation of the UK licence details (PL number, formulation, approved indications) and of the route of administration (e.g. topical ophthalmic versus oral)
-- Review of the SmPC and BNF safety information, as label-based warnings and contraindications were not available
+- Studies that directly examine erythromycin (topical or systemic) in punctate epithelial keratoconjunctivitis
+- Mechanism of action data and a clear rationale for the anti-inflammatory versus antibacterial role
+- Review of the SmPC and BNF safety information, including QT-prolongation risk and interaction management, for any ocular or systemic use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

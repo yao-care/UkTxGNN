@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the compiled data (a 5-HT3 antagonist…"
+last_modified_at: 2026-10-28
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
+description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Granisetron
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Granisetron: From Chemotherapy-Related Nausea and Vomiting to Manic Bipolar Affective Disorder
+## Granisetron: Manic bipolar affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Note: the data compiled for this report did not include an approved indication t
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the compiled data (a 5-HT3 antagonist, generally used as an antiemetic) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Manic bipolar affective disorder |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the compiled data. Based o
 
 This link is speculative. The very high TxGNN score reflects a network-based model prediction, not clinical observation, and no trials or publications were found to support it. The similarity between the original and predicted indications has not been assessed.
 
-Other predictions in the same list include Tourette syndrome (99.52%) and trichotillomania (99.23%), which also have only speculative serotonergic and dopaminergic rationales. Several others, such as acute contagious conjunctivitis, bronchitis and nephrogenic syndrome of inappropriate antidiuresis, have no plausible mechanistic link and are probably model artefacts. All have L5 evidence and a Hold recommendation.
+Other predictions in the same list include Tourette syndrome (0.9952) and trichotillomania (0.9923), which also have only speculative serotonergic and dopaminergic rationales. Several others, such as acute contagious conjunctivitis, bronchitis and nephrogenic syndrome of inappropriate antidiuresis, have no plausible mechanistic link and are probably model artefacts. All have L5 evidence and a Hold recommendation.
 
 ---
 

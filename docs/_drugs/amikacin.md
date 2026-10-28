@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Amikacin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 48
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L4). Approved use: Bacterial pneumonia, Pseudomonas aeruginosa infection…"
 monitor_inn: "Amikacin"
-predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
 ---
 
 # Amikacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but ther
 |------|------|
 | Original Indication | Bacterial pneumonia, *Pseudomonas aeruginosa* infection, bacterial meningitis and other Gram-negative infections (the UK authorisation record compiled for this report contains no indication text) |
 | Predicted New Indication | Paratyphoid fever |
-| TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9982 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 However, the plausibility is limited. Aminoglycosides penetrate cells poorly, and *Salmonella* is an intracellular pathogen, so clinical efficacy in enteric fever is doubtful. Guideline-preferred agents (azithromycin, third-generation cephalosporins, and carbapenems for extensively drug-resistant strains) are used instead. The very high TxGNN score appears to reflect Gram-negative antibacterial class similarity rather than independent clinical support.
 
-Other predictions for this drug (typhoid fever, salmonellosis, meningococcemia, epiglottitis) are similar in nature, with indirect or in vitro support only. Several others (diffuse scleroderma, hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, punctate epithelial keratoconjunctivitis) have no plausible mechanistic link and are likely graph-prediction artefacts.
+Other predictions for this drug (typhoid fever, salmonellosis, meningococcemia, epiglottitis) are similar in nature, with indirect or in vitro support only. Several others (diffuse scleroderma, hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, punctate epithelial keratoconjunctivitis) have no plausible mechanistic link; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

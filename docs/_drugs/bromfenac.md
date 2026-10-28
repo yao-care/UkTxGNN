@@ -50,10 +50,10 @@ The strongest evidence concerns inflammation and pain after cataract surgery, wh
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report |
 | Predicted New Indication | Eye disease (broad category) |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

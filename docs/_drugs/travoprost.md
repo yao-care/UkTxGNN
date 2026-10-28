@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
-predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
+predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 ---
 
 # Travoprost
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Travoprost is a topical prostaglandin F2-alpha analogue, originally used to lower intraocular pressure in open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but there are **no clinical trials** and **no publications** supporting this specific prediction. It is a graph-based prediction only.
+The TxGNN model (deep learning) predicts it may be effective for **visceral calciphylaxis**, but there are **no clinical trials** and **no publications** supporting this specific prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Visceral calciphylaxis |
-| TxGNN Prediction Score | 99.99985% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, travoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure by acting on FP receptors and increasing uveoscleral outflow. Its efficacy in glaucoma and ocular hypertension is well established.
 
-The link to visceral calciphylaxis is speculative. FP receptor agonism causes local vasodilation (seen clinically as conjunctival hyperaemia), and the model may be picking up on vascular-related terms in its knowledge graph. However, calciphylaxis is a calcific vascular disease, and there is no data showing that a topical ocular prostaglandin analogue has any therapeutic effect on it. Minimal systemic exposure after eye-drop dosing further weakens the rationale.
+The link to visceral calciphylaxis is speculative. FP receptor agonism causes local vasodilation (seen clinically as conjunctival hyperaemia), and the score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence. However, calciphylaxis is a calcific vascular disease, and there is no data showing that a topical ocular prostaglandin analogue has any therapeutic effect on it. Minimal systemic exposure after eye-drop dosing further weakens the rationale.
 
 The other top-ranked predictions (thoracic outlet syndromes, angiodysplasia of stomach, blue toe syndrome, lymphangiectasis, spontaneous coronary artery dissection, hemangioendothelioma, and vascular disease) are likewise unsupported by clinical data. Several are mechanical or neural compression conditions with no plausible link to this drug.
 
@@ -131,7 +131,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction for visceral calciphylaxis rests solely on a graph-based model score. No trials or publications support it, and a topical ocular prostaglandin analogue has no plausible systemic mechanism for this condition. The same applies to all other top-ranked predictions.
+The prediction for visceral calciphylaxis rests solely on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. No trials or publications support it, and a topical ocular prostaglandin analogue has no plausible systemic mechanism for this condition. The same applies to all other top-ranked predictions.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data, and a credible mechanistic rationale for calcific vascular disease

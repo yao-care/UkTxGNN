@@ -50,10 +50,10 @@ Of the ten predictions reviewed, the best-supported direction is **infection pro
 |------|------|
 | Original Indication | Bacterial infections (streptococcal, staphylococcal, pneumonia, sinusitis, conjunctivitis, pyelonephritis, anthrax) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis (rank 1); see the note on other predictions below |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (rank 1 prediction); L1 for the monoclonal gammopathy/myeloma prophylaxis prediction (rank 7) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Proceed with Guardrails for myeloma infection prophylaxis |
 
 ---

@@ -6,7 +6,7 @@ nav_order: 151
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Cetrorelix: predicted new indication Hypertrichosis (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
+description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Cetrorelix: From Controlled Ovarian Stimulation (Fertility Treatment) to Hypertrichosis
+## Cetrorelix: From Controlled Ovarian Stimulation (Fertility Treatment) to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 |------|------|
 | Original Indication | Inhibition of premature LH surges in women undergoing controlled ovarian stimulation (the UK licence record contains no indication text; this is taken from the pharmacology data) |
 | Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 Cetrorelix is a peptide antagonist of the GnRH receptor (GnRH1 receptor, encoded by *GNRHR*). By blocking this receptor it suppresses LH and FSH release and, downstream, sex steroid production. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
 
-The link to the predicted indication is weak. Hypertrichosis is not a classic androgen-driven condition (unlike hirsutism), so suppressing sex steroids has no clear reason to help. The very high TxGNN score is a graph-based prediction with no supporting clinical or literature data, and it should be read as a hypothesis-generating signal rather than evidence of benefit.
+The link to the predicted indication is weak. Hypertrichosis is not a classic androgen-driven condition (unlike hirsutism), so suppressing sex steroids has no clear reason to help. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting clinical or literature data, so it should be read as a hypothesis-generating signal rather than evidence of benefit.
 
 **Other predictions reviewed.** The model produced ten predictions in total. Most are even less plausible, including Ambras syndrome, malformation syndromes, Dandy-Walker malformation, hair shaft abnormalities, persistent fetal circulation syndrome, familial trichomegaly and aromatase excess syndrome. These are genetic, structural or developmental conditions, or involve non-gonadal pathways, and no mechanism for GnRH antagonism has been identified. Two predictions are flagged as research questions because they involve the hypothalamic-pituitary-gonadal axis:
 

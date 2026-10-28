@@ -4,17 +4,17 @@ title: Nizatidine
 parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
-indication_count: 7
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Nizatidine: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, peptic ulcer disease…"
 monitor_inn: "Nizatidine"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
+description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Nizatidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Nizatidine: From Gastric Ulcer to Active Peptic Ulcer Disease
+## Nizatidine: Duodenal obstruction
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Nizatidine is a histamine H2-receptor antagonist, originally used to treat gastric and duodenal ulcers, peptic ulcer disease and gastro-oesophageal reflux disease.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, with **no registered clinical trials** but **19 publications** currently supporting this direction.
 This prediction largely overlaps with the drug's existing uses, so it is better described as on-label confirmation than true repurposing.
 
 ---
@@ -48,12 +47,12 @@ This prediction largely overlaps with the drug's existing uses, so it is better 
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastric ulcer, peptic ulcer disease, gastro-oesophageal reflux disease, oesophagitis, dyspepsia, duodenal ulcer (UK licence text not available) |
-| Predicted New Indication | Active peptic ulcer disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 (provisional, see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Duodenal obstruction |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L5 (provisional, see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -70,12 +69,9 @@ Acid suppression is the core mechanism for healing peptic ulcers. The predicted 
 
 | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|
-| Peptic ulcer perforation | 99.94% | L5 | Model prediction only. No evidence nizatidine prevents or treats perforation itself. |
-| Gastrojejunal ulcer | 99.94% | L4 | Mechanistically plausible, but the literature is indirect. PPIs are generally preferred. |
-| Duodenal obstruction | 99.86% | L5 | Model prediction only. No direct evidence of benefit. |
-| Duodenogastric reflux | 99.85% | L5 | Mainly a bile and pancreatic secretion problem, which H2-receptor antagonists do not address. |
-| Gastroduodenitis | 99.58% | L3 (provisional) | Small studies on NSAID-induced lesions. No randomised evidence for the condition itself. |
-| Multiple endocrine neoplasia | 99.27% | L5 | Model prediction only. Any link is symptomatic control of acid hypersecretion, and PPIs have largely replaced H2-receptor antagonists. |
+| Duodenal obstruction | 0.9986 | L5 | Model prediction only. No direct evidence of benefit. |
+| Gastroduodenitis | 0.9958 | L3 (provisional) | Small studies on NSAID-induced lesions. No randomised evidence for the condition itself. |
+| Multiple endocrine neoplasia | 0.9927 | L5 | Model prediction only. Any link is symptomatic control of acid hypersecretion, and PPIs have largely replaced H2-receptor antagonists. |
 
 ---
 
@@ -114,7 +110,6 @@ Only one valid single-ingredient authorisation is recorded. The dosage form, man
 
 ## Safety Considerations
 
-**Contraindications (knowledge-graph associations, not label text)**
 
 The knowledge graph links nizatidine to the following conditions. These should be checked against the SmPC.
 - Liver disease

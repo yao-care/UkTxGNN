@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Phenylalanine is 
 
 The only link in the literature is indirect. One cohort study (PMID 15790420) examined plasma tyrosine, a phenylalanine metabolite, in relation to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. This suggests altered aromatic amino acid metabolism in cholestatic liver disease, but it describes an association with symptoms and does not show that phenylalanine treats the condition.
 
-The high TxGNN score is a computational prediction only and is not supported by clinical data. It should be read as a hypothesis-generating signal. A second predicted indication, congenital prothrombin deficiency (score 99.26%), has no trials or literature and no plausible mechanism, so it is not considered a repurposing candidate.
+The high TxGNN score is a computational prediction only and is not supported by clinical data. It should be read as a hypothesis-generating signal. A second predicted indication, congenital prothrombin deficiency (score 0.9926), has no trials or literature and no plausible mechanism, so it is not considered a repurposing candidate.
 
 ## Clinical Trial Evidence
 

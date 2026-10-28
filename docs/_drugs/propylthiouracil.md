@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Moderate Evidence (L3-L4)
 nav_order: 527
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L4). Approved use: Hyperthyroidism, Graves disease, thyrotoxicosis, t…"
 monitor_inn: "Propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (TRβ Mutation)
+## Propylthiouracil: Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,20 +46,19 @@ The evidence is weak, and the mechanistic rationale is arguably counterproductiv
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves disease, thyrotoxicosis, thyroid crisis (the UK authorisation record contains no indication text; these are taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed**
 
 | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|
-| Neonatal thyrotoxicosis | 99.40% | L3 | Research question (not an independent new use; largely covered by the existing hyperthyroidism indication) |
-| Hyperthyroxinemia | 99.08% | L4 | Hold |
+| Hyperthyroxinemia | 0.9908 | L4 | Hold |
 
 ## Why is This Prediction Reasonable?
 
@@ -69,7 +68,7 @@ The predicted indication is, however, mechanistically doubtful. In resistance to
 
 The literature supports this caution. One case report describes a patient with RTH whose goitre enlarged after propylthiouracil (PMID 10724359). Another series describes children with partial hormone resistance who were treated for suspected thyrotoxicosis and had poor TSH suppression afterwards (PMID 3097618).
 
-By contrast, the second-ranked prediction, **neonatal thyrotoxicosis**, has a strong mechanistic link, as the disease mechanism is the same as in maternal Graves disease. However, most of the evidence concerns treating the mother to protect the fetus and neonate, which extends the existing indication. Methimazole is commonly preferred outside the first trimester because of propylthiouracil's hepatotoxicity risk.
+Neonatal thyrotoxicosis has a strong mechanistic link, as the disease mechanism is the same as in maternal Graves disease. However, most of the evidence concerns treating the mother to protect the fetus and neonate, which extends the existing indication. Methimazole is commonly preferred outside the first trimester because of propylthiouracil's hepatotoxicity risk.
 
 ## Clinical Trial Evidence
 
@@ -132,7 +131,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no clinical trials, and the supporting literature consists of mouse models and case reports, with some suggesting propylthiouracil may worsen RTH. Lowering thyroid hormone output in a condition with compensatory TSH elevation is mechanistically counterproductive. Neonatal thyrotoxicosis has a stronger rationale, but it largely overlaps with the existing hyperthyroidism use and is better handled as a research question than as a new indication.
+The top prediction has no clinical trials, and the supporting literature consists of mouse models and case reports, with some suggesting propylthiouracil may worsen RTH. Lowering thyroid hormone output in a condition with compensatory TSH elevation is mechanistically counterproductive.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and SmPC warnings and contraindications (the label safety review is a blocking gap)

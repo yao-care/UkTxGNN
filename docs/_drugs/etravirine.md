@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Etravirine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 269
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Etravirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "Etravirine"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-23
+description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,36 +33,31 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Etravirine: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Etravirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) originally used to treat HIV infection and AIDS.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, but this prediction is supported by **no clinical trials** and only **1 preclinical publication**, so the evidence is weak.
+Etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI), originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but there are currently **no clinical trials** and **no publications** that directly study this condition, so the prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS (the licence record held no indication text; this comes from the knowledge graph) |
-| Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | HIV infectious disease and AIDS (relation recorded in the knowledge graph; the UK licence record contains no indication text) |
+| Predicted New Indication | Feline acquired immunodeficiency syndrome |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI active against HIV-1, and its efficacy in HIV infection is established. Mechanistically, it could in principle be applicable to a related lentivirus such as SIV.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its use in HIV infection is recorded in the knowledge graph.
 
-The link is weak, however. SIV, like HIV-2, is generally intrinsically resistant to NNRTIs. The single publication retrieved concerns nanoparticle-based antiretroviral combinations against HIV, not SIV directly. The high score probably reflects the closeness of SIV to HIV in the knowledge graph rather than biological evidence. SIV infection is also a model-organism or veterinary disease, so it has no direct human clinical relevance as a repurposing target.
-
-**Other predictions reviewed.** None of the other top-ranked predictions offers a stronger case:
-- **Congenital HIV** (score 99.79%, L3): a small observational report of two pregnant women treated with etravirine, darunavir and raltegravir. This is an extension of the existing HIV indication to a specific population, and is the only prediction worth following up as a research question, focused on pregnancy safety and pharmacokinetics.
-- **AIDS related complex** (99.79%): a historical term that falls within the existing HIV indication, so it is not a true repurposing opportunity.
-- **Feline AIDS, neurodevelopmental disorder, prostate fibroma, Brenner tumour, benign reproductive neoplasm, benign prostate phyllodes tumour and obsolete familial combined hyperlipidaemia**: no supporting studies and no plausible mechanism. These are most likely graph artefacts.
+Feline immunodeficiency virus (FIV) is a lentivirus, which is why a model that relies on network similarity to HIV and AIDS would rank it highly. However, the reverse transcriptase of FIV differs structurally from that of HIV-1, and NNRTIs are generally poorly active against it. The high score therefore most likely reflects similarity to the original HIV indication rather than demonstrated activity. This should be regarded as a weak, unconfirmed hypothesis. Feline AIDS is also a veterinary condition, so human prescribing guidance does not directly apply.
 
 ## Clinical Trial Evidence
 
@@ -70,28 +65,30 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Currently no related literature available for feline acquired immunodeficiency syndrome.
+
+For context, the second-ranked prediction (simian immunodeficiency virus infection) has one linked paper, which is an in vitro study of nanoparticle-based antiretroviral combinations against HIV. It does not study this predicted disease and is not evidence for it:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preclinical / in vitro | Molecular Pharmaceutics | Nanoparticle-based antiretroviral drug combinations studied for synergistic inhibition of cell-free and cell-to-cell HIV transmission. It concerns HIV, not SIV. |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preclinical (in vitro) | Molecular Pharmaceutics | Nanocarrier-delivered antiretroviral combinations assessed for synergistic inhibition of cell-free and cell-to-cell HIV transmission |
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0503010AFAAAAAA (BNF-style code; no PL number in the data) | Etravirine 100 mg tablets | Tablet | Not stated in the available data |
+| 0503010AFAAAAAA | Etravirine Tab 100mg | Not stated | Not stated in the licence record |
 
-BNF chapter 5.3.1 (HIV infection, non-nucleoside reverse transcriptase inhibitors) is consistent with the code above. No NICE-appraised indication data were available.
+The identifier shown appears to be a BNF-style classification code rather than a PL number. The record is a single-ingredient product and is listed as valid. The indication text is absent, so no approved indication can be confirmed from these data.
 
 ## Safety Considerations
 
-- **Knowledge-graph contraindication signals** (from graph relationships, not label text): chronic hepatitis C virus infection, hepatitis C virus infection, chronic hepatitis B virus infection, peripheral nervous system disease and peripheral neuropathy. These should be checked against the SmPC.
-- **Drug Interactions**: 100 interactions were recorded. The 20 reviewed include one minor and 19 moderate interactions. The main ones are:
-  - Acid-suppressing drugs: omeprazole, rabeprazole, ranitidine and cimetidine
-  - Corticosteroids: dexamethasone, betamethasone, hydrocortisone and triamcinolone
-  - Antidiabetic drugs: pioglitazone, glimepiride, chlorpropamide, saxagliptin and linagliptin
-  - Others: clarithromycin, metronidazole, aprepitant, dronabinol, eliglustat, naldemedine and naloxegol
-
-  The full list should be checked in the BNF interactions appendix and the SmPC.
+- **Knowledge-graph contraindication relations** (not label text): chronic hepatitis C virus infection, hepatitis C virus infection, chronic hepatitis B virus infection, peripheral nervous system disease, and peripheral neuropathy. These should be checked against the SmPC.
+- **Drug Interactions**: 100 interactions were identified in the interaction database. Most of those listed are of moderate severity, including:
+  - Proton pump inhibitors and H2 blockers: omeprazole, rabeprazole, cimetidine (minor for ranitidine)
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
+  - Antidiabetic agents: pioglitazone, saxagliptin, linagliptin, glimepiride, chlorpropamide
+  - Others: clarithromycin, metronidazole, aprepitant, eliglustat, naloxegol, naldemedine, dronabinol
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -100,13 +97,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The predicted SIV indication has no clinical trials and a single preclinical paper that does not address SIV. SIV is also naturally resistant to NNRTIs and is not a human disease, so there is no meaningful human repurposing opportunity.
+There are no trials or publications on feline acquired immunodeficiency syndrome, and known differences between FIV and HIV-1 reverse transcriptase make activity unlikely. The high score appears to reflect similarity to the original HIV indication. Other predictions for this drug (simian immunodeficiency virus infection, benign tumours, a rare neurodevelopmental disorder, obsolete familial combined hyperlipidaemia) are also unsupported by any direct evidence.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (currently unavailable)
-- SmPC warnings and contraindications, which are needed before any safety screening can proceed
-- The approved indication text and PL number for the UK licence
-- For the congenital HIV direction: a structured review of pregnancy safety and pharmacokinetic data for etravirine
+- Direct in vitro or in vivo data on etravirine activity against FIV reverse transcriptase
+- Mechanism of action data and SmPC warnings and contraindications for the UK product
+- Confirmation of the licensed indication text, dosage form and PL number
+- A veterinary regulatory and pharmacological assessment, since the target condition is not a human disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

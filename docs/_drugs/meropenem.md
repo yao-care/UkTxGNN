@@ -4,7 +4,7 @@ title: Meropenem
 parent: Moderate Evidence (L3-L4)
 nav_order: 395
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Serious bacterial infections…"
 monitor_inn: "Meropenem"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 |------|------|
 | Original Indication | Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded on the UK authorisation) |
 | Predicted New Indication | Bacterial arthritis |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -104,7 +104,7 @@ This is the only authorisation listed. The identifier is not in the usual PL for
 
 ## Safety Considerations
 
-- **Contraindications and cautions (knowledge-graph associations, not label text):** epilepsy, kidney disease, thrombocytopenia, *Clostridium difficile* colitis, pyoureter and perinatal necrotizing enterocolitis. Please verify these against the SmPC.
+- **Contraindications and cautions (not label text):** epilepsy, kidney disease, thrombocytopenia, *Clostridium difficile* colitis, pyoureter and perinatal necrotizing enterocolitis. Please verify these against the SmPC.
 - **Drug Interactions:** 14 interactions were recorded.
   - **Major:** bupropion, iohexol and iopamidol.
   - **Moderate:** picosulfuric acid, polyethylene glycol (3350 with electrolytes), nitisinone, sodium sulfate, lindane, ethinylestradiol, alpelisib, encorafenib, mycophenolic acid, pemetrexed and teriflunomide.

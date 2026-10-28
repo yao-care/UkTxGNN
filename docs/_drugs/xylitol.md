@@ -48,15 +48,15 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Meningococcal infection |
-| TxGNN Prediction Score | 99.66% |
+| TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no original indication is recorded. Based on the information compiled, no direct mechanistic link between xylitol and meningococcal infection has been established. The very high TxGNN score reflects a knowledge-graph computational prediction only.
+Currently, detailed mechanism of action data is not available, and no original indication is recorded. Based on the information compiled, no direct mechanistic link between xylitol and meningococcal infection has been established. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 One speculative, unverified rationale is that xylitol has been reported to reduce the adherence of some respiratory bacteria (for example *Streptococcus pneumoniae* and *Haemophilus influenzae*) to nasopharyngeal epithelium and to reduce biofilm formation. Whether this extends to *Neisseria meningitidis* colonisation is not supported by the data compiled for this report.
 

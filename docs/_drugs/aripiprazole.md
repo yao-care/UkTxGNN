@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 71
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Aripiprazole: predicted new indication Major affective disorder (evidence level L1). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia…"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-10-28
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: predicted new indication Major affective disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Aripiprazole: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+## Aripiprazole: Major affective disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **major affective disorder** (i
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia, autism spectrum disorder (the UK licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Major affective disorder |
-| TxGNN Prediction Score | 99.62% |
-| Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9962 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -144,8 +144,8 @@ Multiple completed, large Phase 3 placebo-controlled trials and several network 
 
 ### Other Predicted Indications (Brief Note)
 
-- **Trichotillomania (score 99.26%, L3):** limited to a small open-label trial (n=12), case reports and one unstarted Phase 2 trial; aripiprazole has also been reported to cause the condition, so this remains a research question.
-- **Asperger syndrome susceptibility (99.52%):** indirect support only, from the existing autism-related indication. **Hold.**
+- **Trichotillomania (score 0.9926, L3):** limited to a small open-label trial (n=12), case reports and one unstarted Phase 2 trial; aripiprazole has also been reported to cause the condition, so this remains a research question.
+- **Hold.**
 - **Eight other predictions** (including Phelan-McDermid syndrome and hydranencephaly): no trials or literature and no plausible mechanistic link. **Hold.**
 ## Disclaimer
 

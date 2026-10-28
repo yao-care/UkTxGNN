@@ -8,6 +8,7 @@ nav_order: 99
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Benzydamine Hcl
@@ -53,8 +54,8 @@ The current Evidence Pack contains **no TxGNN-predicted new indications**, and c
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — model pipeline incomplete; no predictions generated |
-| UK Market Status | Not marketed (per Evidence Pack — see note below) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 > **Note on UK market status:** The Evidence Pack records zero active MHRA marketing authorisations. This should be verified directly against the [MHRA Product Licence Register](https://products.mhra.gov.uk/), as Benzydamine HCL preparations (e.g., Difflam oral spray and mouthwash) are known to hold MHRA authorisations in practice. A data retrieval gap or pipeline scope limitation may account for this discrepancy.

@@ -4,17 +4,17 @@ title: Propranolol
 parent: Model Prediction Only (L5)
 nav_order: 525
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Hypertension, atrial fibrillation, hypertrophic cardiomyopathy…"
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
+description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Propranolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Propranolol: From Hypertension and Cardiovascular Disorders to Distal Myopathy, Tateyama Type
+## Propranolol: Distal myopathy, Tateyama type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ This prediction is currently supported by **0 clinical trials** and **0 publicat
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, hypertrophic cardiomyopathy, haemangioma and related vascular conditions (the UK licence record lists no indication text, so these come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Distal myopathy, Tateyama type |
-| TxGNN Prediction Score | 99.40% |
+| TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This prediction is currently supported by **0 clinical trials** and **0 publicat
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Propranolol is a non-selective beta-adrenergic blocker. Its efficacy in cardiovascular conditions such as hypertension, arrhythmia and hypertrophic cardiomyopathy is well established. Mechanistically, it reduces heart rate, myocardial contractility and oxygen demand.
 
-No plausible link between beta-adrenergic blockade and this rare distal myopathy can be established from the available data. The high score (99.40%) is a computational output from the knowledge graph. It may reflect network proximity between propranolol and muscle-related disease nodes. It is not evidence of a pharmacological rationale. This prediction should be treated as a hypothesis only.
+No plausible link between beta-adrenergic blockade and this rare distal myopathy can be established from the available data. The high score (0.9940) comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of a pharmacological rationale. This prediction should be treated as a hypothesis only.
 
 ---
 

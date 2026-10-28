@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ribavirin
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 539
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
+evidence_level: L1
+indication_count: 9
 monitor_inn: "Ribavirin"
-predicted_indications: ["chronic hepatitis B virus infection", "hepatopulmonary syndrome", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatic porphyria", "IgG4-related pachymeningitis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
+predicted_indications: ["chronic hepatitis B virus infection", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mesenteritis"]
+last_modified_at: 2026-10-23
+description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 ---
 
 # Ribavirin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ribavirin: From Chronic Hepatitis C to Chronic Hepatitis B Virus Infection
+## Ribavirin: From Chronic Hepatitis C Virus Infection to Chronic Hepatitis B Virus Infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ribavirin is an oral nucleoside analogue antiviral, originally used to treat chronic hepatitis C virus infection and respiratory syncytial virus (RSV) disease.
-The TxGNN model predicts it may be effective for **chronic hepatitis B virus infection**, with **15 registered clinical trials** and **20 publications** linked to this prediction. However, most of this evidence concerns hepatitis C or HCV/HBV co-infection, so direct evidence for ribavirin in hepatitis B is limited.
+Ribavirin is an antiviral medicine whose known indications are chronic hepatitis C virus infection and respiratory syncytial virus infection.
+The TxGNN model predicts it may be effective for **chronic hepatitis B virus infection**, but the supporting evidence is largely indirect: of the **15 clinical trials** and **20 publications** retrieved, only a few examine hepatitis B, and none isolates ribavirin's own contribution.
 
 ---
 
@@ -47,65 +47,61 @@ The TxGNN model predicts it may be effective for **chronic hepatitis B virus inf
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection; RSV infection (the UK licence record compiled for this report has no indication text) |
+| Original Indication | Chronic hepatitis C virus infection (relation recorded in the knowledge graph; the UK licence record contains no indication text) |
 | Predicted New Indication | Chronic hepatitis B virus infection |
-| TxGNN Prediction Score | 99.86% |
-| Evidence Level | L1 (as assigned in the compiled data; see the note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9986 |
+| Evidence Level | L1 (see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-> **Note on evidence level:** The L1 label rests on the count of completed Phase 3 trials. Only one completed Phase 3 trial (NCT00114361) tests ribavirin directly in hepatitis B, and its contribution of ribavirin over peginterferon alone is unconfirmed. A stricter reading would place the evidence closer to L2. The recommendation is therefore Hold rather than Go.
+*Note on evidence level:* NCT00114361 is a completed Phase 3 trial directly in HBeAg-negative chronic hepatitis B, and NCT03759782 is a Phase 3 trial of ribavirin in HBV, but its status is unknown. Only one directly relevant Phase 3 trial has a completed status, which on a strict reading falls short of the L1 criterion (two or more completed Phase 3 RCTs). That trial tests peginterferon plus ribavirin, so ribavirin's separate effect is not isolated. The level is therefore best treated as provisional and weaker than "L1" suggests.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ribavirin is generally understood to be a nucleoside analogue with broad antiviral activity. Its proposed actions include inhibiting inosine monophosphate dehydrogenase (IMPDH), depleting intracellular guanosine triphosphate (GTP) pools, and modulating immune responses.
+Detailed mechanism of action data is not available. Ribavirin is a guanosine nucleoside analogue with broad activity against RNA viruses such as hepatitis C. Its proposed actions include inhibiting IMPDH, depleting the GTP pool and modulating the immune response.
 
-Hepatitis C and hepatitis B both cause chronic viral liver disease, and ribavirin has an established role in the former, usually alongside interferon-based or direct-acting antiviral therapy. This is the likely basis for the model's prediction.
+Hepatitis B is a DNA virus, so direct antiviral activity is mechanistically weak. Any benefit is more plausibly immunomodulatory, for example as an add-on to interferon-based therapy by shifting the immune response towards Th1 and enhancing interferon signalling. Much of the retrieved clinical context also involves HBV/HCV co-infection, where ribavirin acts on the hepatitis C component.
 
-The mechanistic case is weak, however. Ribavirin has no established direct activity against HBV, a DNA virus that replicates via reverse transcription. Any benefit is more plausibly indirect, by enhancing interferon-driven immune responses when given with peginterferon. Many of the listed trials involve HCV treatment or HCV/HBV co-infection, so the evidence is confounded. Modern first-line hepatitis B therapies (entecavir, tenofovir) have also made ribavirin-based approaches largely obsolete.
+The very high TxGNN score is a network-based prediction. It does not confirm efficacy against HBV specifically.
 
 ---
 
 ## Clinical Trial Evidence
 
-The table lists the most relevant trials from the 15 compiled. Most are HCV studies in which ribavirin is a background drug.
+Many of the 15 retrieved trials are hepatitis C studies in which ribavirin is a background agent. The table lists those most relevant to hepatitis B.
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | Completed | 138 | Peginterferon alfa-2a plus ribavirin versus peginterferon alone in HBeAg-negative chronic hepatitis B. This is the most direct test, but ribavirin's added value needs checking against the comparator arms. |
-| [NCT00275938](https://clinicaltrials.gov/study/NCT00275938) | Phase 2/3 | Completed | 120 | Pilot of interferon alpha-2b plus ribavirin in chronic hepatitis B. Limited power. |
-| [NCT03759782](https://clinicaltrials.gov/study/NCT03759782) | Phase 3 | Unknown | 24 | Pilot of ribavirin's immune-modulating properties to enhance nucleoside analogue therapy in hepatitis B. |
-| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Phase 3 | Unknown | 320 | Peginterferon alfa-2a plus ribavirin in HCV/HBV co-infection versus HCV alone. Ribavirin's role in HBV is unclear. |
-| [NCT00117533](https://clinicaltrials.gov/study/NCT00117533) | Phase 4 | Unknown | 20 | Pilot of pegylated interferon alfa-2b plus ribavirin in dual hepatitis B and delta (HDV) infection. |
-| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Phase 3 | Completed | 36 | Direct-acting antivirals plus ribavirin in HCV with decompensated cirrhosis. HBV outcomes are not attributable to ribavirin. |
-| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Phase 4 | Completed | 129 | Peginterferon alfa-2a plus ribavirin in genotype 1 HCV, looking at IL-28B expression. HCV-focused. |
-| [NCT01195181](https://clinicaltrials.gov/study/NCT01195181) | Phase 4 | Completed | 506 | Surveillance and control programme for chronic hepatitis C. Not a ribavirin efficacy trial for HBV. |
-| [NCT01425970](https://clinicaltrials.gov/study/NCT01425970) | Phase 2 | Terminated | 210 | INX-08189 with peginterferon and ribavirin in HCV genotype 2/3. Terminated early. |
-| [NCT01795911](https://clinicaltrials.gov/study/NCT01795911) | Phase 2 | Completed | 165 | Peginterferon lambda with ribavirin and direct-acting antivirals in HCV. Ribavirin is background therapy. |
+| [NCT00114361](https://clinicaltrials.gov/study/NCT00114361) | Phase 3 | Completed | 138 | Peginterferon alfa-2a plus ribavirin versus peginterferon monotherapy in HBeAg-negative chronic HBV; ribavirin's separate contribution is not clear from the available data |
+| [NCT00275938](https://clinicaltrials.gov/study/NCT00275938) | Phase 2/3 | Completed | 120 | Pilot study of interferon alpha-2b plus ribavirin in chronic hepatitis B; small and exploratory |
+| [NCT03759782](https://clinicaltrials.gov/study/NCT03759782) | Phase 3 | Unknown | 24 | Pilot study of ribavirin added to nucleoside analogue therapy to boost HBV antiviral activity |
+| [NCT00154869](https://clinicaltrials.gov/study/NCT00154869) | Phase 3 | Unknown | 320 | Peginterferon alfa-2a plus ribavirin in HCV/HBV co-infection and chronic hepatitis C |
+| [NCT00117533](https://clinicaltrials.gov/study/NCT00117533) | Phase 4 | Unknown | 20 | Pilot of pegylated interferon alfa-2b plus ribavirin in dual hepatitis B and D infection |
+| [NCT02219477](https://clinicaltrials.gov/study/NCT02219477) | Phase 3 | Completed | 36 | Direct-acting antivirals plus ribavirin in HCV with decompensated cirrhosis; ribavirin is a backbone agent, so no HBV efficacy is shown |
+| [NCT01447420](https://clinicaltrials.gov/study/NCT01447420) | Phase 4 | Completed | 129 | Peginterferon plus ribavirin and IL-28B expression in HCV genotype 1; little bearing on HBV |
+| [NCT01425970](https://clinicaltrials.gov/study/NCT01425970) | Phase 2 | Terminated | 210 | INX-08189 with peginterferon and ribavirin in HCV; terminated early |
 
-Five further trials, all in HCV, were also listed in the compiled data (NCT01309932, NCT00911963, NCT03186313, NCT02483156, NCT01001754, NCT01830127). They give no direct evidence for ribavirin in hepatitis B.
+The remaining retrieved trials (for example NCT01795911, NCT01309932, NCT00911963, NCT01195181, NCT03186313, NCT02483156, NCT01001754 and NCT01830127) are hepatitis C studies with ribavirin as a background agent and are not HBV evidence.
 
 ---
 
 ## Literature Evidence
 
-No randomised controlled trials were identified in the compiled literature. The 20 publications are mostly narrative reviews of HBV/HCV co-infection or general viral hepatitis management.
+The retrieved publications are almost entirely reviews. None is a randomised trial of ribavirin in hepatitis B.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | HCV/HBV co-infection. Earlier recommendations favoured peginterferon plus ribavirin for patients with detectable HCV RNA. |
-| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World J Gastroenterol | Treatment and outcomes of dual HCV/HBV infection. Co-infected patients have a higher risk of disease progression. |
-| [25048716](https://pubmed.ncbi.nlm.nih.gov/25048716/) | 2015 | Review | Hepatology | Immunological aspects of antiviral therapy in chronic HBV and HCV. |
-| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Review | World J Gastroenterol | IL28B polymorphism and HBV infection outcomes. Its link to peginterferon plus ribavirin response is established in HCV. |
-| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Review | Curr Opin Virol | Effect of IL28B genotype on HBV and HCV infection. |
-| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Rev Anti Infect Ther | Treatment options for chronic hepatitis B and C in children. |
-| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | Review | Annu Rev Med | Treatment strategies for chronic hepatitis B and C. Interferon and lamivudine were the main HBV options at the time. |
-| [11929032](https://pubmed.ncbi.nlm.nih.gov/11929032/) | 2002 | Review | Indian J Pediatr | Management of chronic HBV and HCV infections. |
-| [24379612](https://pubmed.ncbi.nlm.nih.gov/24379612/) | 2013 | Review | World J Gastroenterol | Prevention of hepatocellular carcinoma in chronic HBV and HCV infection. |
-| [8314494](https://pubmed.ncbi.nlm.nih.gov/8314494/) | 1993 | Review | Gut | Historical treatment of chronic hepatitis B and C before interferon. |
+| [32664198](https://pubmed.ncbi.nlm.nih.gov/32664198/) | 2020 | Review | Viruses | HCV/HBV co-infection; peginterferon plus ribavirin was previously recommended for co-infected patients with positive HCV RNA |
+| [24659886](https://pubmed.ncbi.nlm.nih.gov/24659886/) | 2014 | Review | World J Gastroenterol | Treatment and outcomes of dual HCV/HBV infection, which carries a higher risk of disease progression |
+| [25048716](https://pubmed.ncbi.nlm.nih.gov/25048716/) | 2015 | Review | Hepatology | Immunological aspects of antiviral therapy in chronic HBV and HCV |
+| [26284971](https://pubmed.ncbi.nlm.nih.gov/26284971/) | 2015 | Review | Curr Opin Virol | Effect of IL28B genotype on treatment response in HBV and HCV |
+| [25232239](https://pubmed.ncbi.nlm.nih.gov/25232239/) | 2014 | Review | World J Gastroenterol | IL28B polymorphism and outcomes in HBV infection |
+| [11160766](https://pubmed.ncbi.nlm.nih.gov/11160766/) | 2001 | Review | Annu Rev Med | Treatment strategies for chronic hepatitis B and C |
+| [17009938](https://pubmed.ncbi.nlm.nih.gov/17009938/) | 2006 | Review | Expert Rev Anti Infect Ther | Treatment options for chronic hepatitis B and C in children |
+| [24379612](https://pubmed.ncbi.nlm.nih.gov/24379612/) | 2013 | Review | World J Gastroenterol | Prevention of hepatocellular carcinoma in chronic HBV and HCV |
 
 ---
 
@@ -113,25 +109,32 @@ No randomised controlled trials were identified in the compiled literature. The 
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0503050B0AAAEAE | Ribavirin tablets 200 mg | Tablet | Not stated in the compiled data |
+| 0503050B0AAAEAE | Ribavirin tablets 200 mg | Not recorded | Not recorded in the licence data |
 
-The identifier above is a drug product code from the compiled data rather than a standard MHRA PL number. The dosage form and approved indication text were not available. Please verify the current authorisation, indications and NICE appraisal status in the BNF and the MHRA records.
+This is one valid single-ingredient record. It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report. The identifier looks like a BNF-style product code rather than a "PL" number, so check it against the MHRA record.
 
 ---
 
 ## Safety Considerations
 
-No label-based warnings or contraindications were available in the data compiled for this report. The following signals come from other sources.
+**Relations recorded in the knowledge graph (not label text):** the knowledge graph records contraindication relations between ribavirin and the following conditions. They are not confirmed by SmPC text:
+- Respiratory: chronic obstructive pulmonary disease, asthma (including intrinsic and allergic), interstitial lung disease, sarcoidosis
+- Liver and pancreas: cirrhosis of liver, autoimmune hepatitis, pancreatitis
+- Blood: anaemia (including macrocytic and haemolytic), sickle cell anaemia, haemoglobinopathy, pancytopenia, inherited aplastic anaemia
+- Cardiovascular: myocardial infarction, coronary artery disease, atherosclerosis, myocardial ischaemia
+- Other: impaired renal function, periodontitis
 
-- **Knowledge-graph contraindication signals** (not label text): the TxGNN knowledge graph links ribavirin to contraindications in the following groups.
-  - **Haematological:** anaemia, haemolytic anaemia, sickle cell anaemia, haemoglobinopathy, pancytopenia, inherited aplastic anaemia.
-  - **Cardiovascular:** myocardial infarction, coronary artery disease, atherosclerosis, myocardial ischaemia.
-  - **Respiratory:** COPD, asthma, interstitial lung disease, sarcoidosis.
-  - **Hepatic, renal and other:** cirrhosis of the liver, autoimmune hepatitis, impaired renal function, pancreatitis, periodontitis.
-- **Drug interactions:** 100 potential interactions were identified, but none has a severity grade in the compiled data. Examples include calcitriol, pantoprazole, glimepiride, mesalazine, doxycycline, metformin, omeprazole, morphine, prednisone and amphotericin B. These need verification against the BNF interaction checker and the SmPC.
-- **Setting-specific concern:** ribavirin-associated haemolytic anaemia is a recognised concern in cirrhosis and related conditions.
+**Drug interactions:** 100 interactions were found in the DDInter database, but the severity level for each is recorded as "Unknown". Examples include pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, morphine, prednisone and doxycycline. Their clinical significance cannot be judged from these data.
 
-Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Other signals in the retrieved literature:** the paper on hepatopulmonary syndrome reports interferon-alpha-induced pulmonary granulomatosis, and several case reports describe porphyria cutanea tarda arising during peginterferon/ribavirin therapy. These are reports of possible adverse events, not evidence of benefit.
+
+Please refer to the SmPC and BNF for authoritative warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
+
+## Other Predicted Indications (Briefly)
+
+The other eight predictions have no supporting clinical trials, and their evidence level is L5: primitive portal vein thrombosis, hepatoportal sclerosis, early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, hepatic porphyria, IgG4-related pachymeningitis, eosinophilic angiocentric fibrosis and IgG4-related mesenteritis. None has an identifiable mechanistic rationale, and the scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The hepatic porphyria and hepatopulmonary syndrome literature mainly describes adverse events or disease associations, not benefit.
 
 ---
 
@@ -140,16 +143,14 @@ Please refer to the SmPC and BNF for authoritative safety information. Report su
 **Decision: Hold**
 
 **Rationale:**
-Only one completed Phase 3 trial tests ribavirin directly in chronic hepatitis B, and it was a combination with peginterferon. The mechanistic rationale for direct HBV activity is weak, most of the remaining evidence is HCV-related or confounded by co-infection, and established nucleos(t)ide analogue therapy has largely superseded such approaches. The safety profile, particularly haemolytic anaemia, adds further caution.
+- The only completed Phase 3 trial in hepatitis B tests ribavirin together with peginterferon and cannot isolate ribavirin's own effect. HBV is a DNA virus, so the mechanistic basis is weak. Ribavirin also has a substantial haematological safety burden, particularly haemolytic anaemia. The strong TxGNN score is not backed by HBV-specific efficacy evidence.
 
 **To proceed, the following is needed:**
-- Review of the NCT00114361 results to determine whether ribavirin adds benefit beyond peginterferon alone.
-- Confirmation of the population in NCT00275938 (hepatitis B versus C) and the results of NCT03759782.
-- Mechanism of action data and comparison against current first-line HBV therapies (entecavir, tenofovir).
-- UK SmPC and BNF safety information, including label warnings and contraindications, and confirmation of the licensed indications and dosage form.
-- A safety plan for haematological and cardiovascular risk, including monitoring.
-
-**Other predicted indications:** The remaining nine predictions (for example hepatopulmonary syndrome, hepatoportal sclerosis and hepatic porphyria) have either no supporting studies or only reports of adverse events during HCV therapy. All are at Hold with no credible mechanistic rationale.
+- A ribavirin-controlled comparison in HBV (with versus without ribavirin on a common backbone), with the results of NCT00114361 and NCT03759782 reviewed
+- Mechanism of action data and a clear immunomodulatory rationale for HBV
+- UK licence indication text, dosage form and SmPC warnings and contraindications
+- Severity grading of the listed drug interactions
+- A safety plan covering anaemia, pulmonary and cardiovascular risks, and pregnancy precautions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

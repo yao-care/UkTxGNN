@@ -6,9 +6,9 @@ nav_order: 544
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Uveitis, iris disease, ciliary body disease, panuveitis"
 monitor_inn: "Rimexolone"
 predicted_indications: ["seborrheic dermatitis", "dermatitis"]
+description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Rimexolone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Rimexolone: From Uveitis to Seborrheic Dermatitis
+## Rimexolone: Seborrheic dermatitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Uveitis, iris disease, ciliary body disease, panuveitis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Seborrheic dermatitis |
-| TxGNN Prediction Score | 99.50% |
+| TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data are not available for this drug. Based on known information, rimexolone is a synthetic glucocorticoid (glucocorticoid receptor agonist) with anti-inflammatory and immunosuppressive properties. Its use in uveitis and other ocular inflammation is established, and mechanistically it may be applicable to inflammatory skin conditions.
 
-Topical corticosteroids are an established treatment class for seborrheic dermatitis. This makes the high prediction score biologically plausible, through shared glucocorticoid effects such as reduced release of inflammatory mediators and reduced leukocyte infiltration. A second prediction, general **dermatitis** (score 99.34%), follows the same logic.
+Topical corticosteroids are an established treatment class for seborrheic dermatitis. This makes the high prediction score biologically plausible, through shared glucocorticoid effects such as reduced release of inflammatory mediators and reduced leukocyte infiltration. A second prediction, general **dermatitis** (score 0.9934), follows the same logic.
 
 This is a class-effect inference, not drug-specific evidence. Rimexolone is formulated only as an ophthalmic preparation, so skin penetration, dermal safety and appropriate dosing have not been characterised. Any dermatological use would need new formulation and safety work.
 

@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 |------|------|
 | Original Indication | Rheumatoid arthritis, osteoarthritis (from the knowledge graph, as no indication text is recorded for the UK authorisation) |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Piroxicam is generally understood to be a non-selective cyclo-oxygenase (COX) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative arthritis is established.
 
-This prediction does not appear mechanistically sound. The predicted condition is a rare developmental malformation syndrome, and an NSAID has no plausible way to correct its underlying genetic cause. The high TxGNN score (ranked 130th among all predictions for this drug) reflects patterns in the knowledge graph rather than a biological or clinical rationale. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
+This prediction does not appear mechanistically sound. The predicted condition is a rare developmental malformation syndrome, and an NSAID has no plausible way to correct its underlying genetic cause. The high TxGNN score (ranked 130th among all predictions for this drug) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal, not as evidence of benefit.
 
 The same applies to most of the other top-ranked predictions for piroxicam, which are mainly congenital skeletal dysplasias and limb malformations. Only the lower-ranked prediction of **juvenile idiopathic arthritis (JIA)** has a clear mechanistic fit and supporting literature (see the conclusion).
 
@@ -117,7 +117,7 @@ Please refer to the SmPC and BNF for authoritative warnings and contraindication
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone (L5), with no trials, no literature and no credible mechanistic link to a rare genetic developmental syndrome. Safety screening also cannot be completed, because label-based warnings and contraindications were not available.
+The prediction rests on a TxGNN model (deep learning) score alone (L5), with no trials, no literature and no credible mechanistic link to a rare genetic developmental syndrome. Safety screening also cannot be completed, because label-based warnings and contraindications were not available.
 
 **Other predictions:** Among the other predictions for piroxicam, **juvenile idiopathic arthritis** is the only one with supporting evidence (L3, "Research Question"). It has a strong mechanistic fit and includes:
 - A 1986 multicentre double-blind crossover study of piroxicam versus naproxen in juvenile chronic arthritis (47 children).

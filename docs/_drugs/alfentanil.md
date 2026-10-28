@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Not stated in the licence data compiled for this report (general use: anaesthesia and analgesia) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). These cause water retention and low blood sodium (hyponatraemia) independent of vasopressin. Opioids can influence vasopressin release in the brain: kappa-opioid agonists tend to suppress it, whereas mu-opioids are often associated with antidiuresis.
 
-The biological plausibility is weak. NSIAD is a receptor-level disorder in the kidney, so central modulation of vasopressin would not be expected to correct constitutive V2 receptor activity. Opioid-induced antidiuresis could even worsen hyponatraemia. The high score is most likely a knowledge-graph artefact and should not be read as evidence of efficacy.
+The biological plausibility is weak. NSIAD is a receptor-level disorder in the kidney, so central modulation of vasopressin would not be expected to correct constitutive V2 receptor activity. Opioid-induced antidiuresis could even worsen hyponatraemia. The high score is most likely a TxGNN model (deep learning) artefact and should not be read as evidence of efficacy.
 
 ## Clinical Trial Evidence
 

@@ -50,10 +50,10 @@ This is a model prediction only and should be treated as a hypothesis, not as ev
 |------|------|
 | Original Indication | Not recorded in the data compiled for this report (general class use: relief of muscle spasm) |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ This is a model prediction only and should be treated as a hypothesis, not as ev
 
 Currently, detailed mechanism of action data is not available. Based on known information, methocarbamol is a centrally acting skeletal muscle relaxant. A plausible link would therefore be symptomatic relief of muscle spasm or pain associated with the condition.
 
-The prediction is only partly plausible. Cauda equina syndrome is a surgical emergency caused by compression of the nerve roots, and its management is urgent decompression. A muscle relaxant would not address the underlying pathology. The very high TxGNN score (0.9998) most likely reflects proximity in the knowledge graph rather than demonstrated pharmacology, so the mechanism cannot be verified from the available data.
+The prediction is only partly plausible. Cauda equina syndrome is a surgical emergency caused by compression of the nerve roots, and its management is urgent decompression. A muscle relaxant would not address the underlying pathology. The very high score (0.9998) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so the mechanism cannot be verified from the available data.
 
-Other predictions in the same list (for example uveitis, panuveitis, iris disease, conjunctivitis, ventricular tachycardia and anaphylaxis) also have no supporting trials and no identifiable mechanistic rationale. This pattern suggests the model signal may be an artefact of the graph neighbourhood.
+Other predictions in the same list (for example uveitis, panuveitis, iris disease, conjunctivitis, ventricular tachycardia and anaphylaxis) also have no supporting trials and no identifiable mechanistic rationale. This pattern suggests the scores from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

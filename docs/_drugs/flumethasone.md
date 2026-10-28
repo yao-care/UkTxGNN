@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **alopecia areata**, but there 
 |------|------|
 | Original Indication | Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis, seborrhoeic dermatitis, discoid lupus erythematosus, primary cutaneous T-cell lymphoma); the licence records compiled for this report contain no indication text |
 | Predicted New Indication | Alopecia areata |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

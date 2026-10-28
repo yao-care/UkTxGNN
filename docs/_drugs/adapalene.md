@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Adapalene: From Acne to Elevated Plasma Zinc
+## Adapalene: From Acne to zinc, elevated plasma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be associated with **elevated plasma zinc**, but
 |------|------|
 | Original Indication | Acne (disease) |
 | Predicted New Indication | Zinc, elevated plasma |
-| TxGNN Prediction Score | 99.51% |
+| TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 No direct mechanistic link to this new indication has been identified. Retinoid signalling has been loosely associated with zinc and retinol-binding protein metabolism, but no known pathway connects topical adapalene to regulation of plasma zinc. Elevated plasma zinc is also a laboratory finding rather than a typical treatable disease, and it is usually caused by zinc supplementation or exposure. Systemic exposure after topical adapalene is minimal, which further weakens biological plausibility.
 
-The high TxGNN score (99.51%) should therefore be treated as a hypothesis from a knowledge-graph model, not as evidence of benefit.
+The high TxGNN score (0.9951) should therefore be treated as a hypothesis from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -89,7 +89,7 @@ For full safety information, please refer to the SmPC and BNF. Report suspected 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a knowledge-graph score. There are no trials or publications, no plausible mechanism, and the proposed "indication" is a laboratory finding that is typically caused by zinc exposure. Minimal systemic absorption from topical use further weakens the case.
+The prediction rests solely on a TxGNN model (deep learning) score. There are no trials or publications, no plausible mechanism, and the proposed "indication" is a laboratory finding that is typically caused by zinc exposure. Minimal systemic absorption from topical use further weakens the case.
 
 **To proceed, the following is needed:**
 - Confirmation that elevated plasma zinc is a clinically meaningful treatment target

@@ -6,9 +6,9 @@ nav_order: 332
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Leber hereditary optic neuropathy"
 monitor_inn: "Idebenone"
-predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
+description: "Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Idebenone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Idebenone: From Leber Hereditary Optic Neuropathy to Hepatic Porphyria
+## Idebenone: Hepatic porphyria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no clinical trials and no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Leber hereditary optic neuropathy (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,7 +79,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (99.92%), with no registered clinical trials, no publications and no verified mechanism of action. This corresponds to evidence level L5, which is not enough to justify further investment at this stage.
+The prediction is supported only by a model score (0.9992), with no registered clinical trials, no publications and no verified mechanism of action. This corresponds to evidence level L5, which is not enough to justify further investment at this stage.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for idebenone, to allow a proper mechanistic-link analysis

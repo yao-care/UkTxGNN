@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocyst
 |------|------|
 | Original Indication | Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no indication text) |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

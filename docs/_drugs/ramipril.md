@@ -4,7 +4,7 @@ title: Ramipril
 parent: Model Prediction Only (L5)
 nav_order: 534
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (also stroke and cerebrovascular disorders…"
 monitor_inn: "Ramipril"
@@ -14,7 +14,7 @@ predicted_indications: ["pulmonary hypertension with unclear multifactorial mech
 # Ramipril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ramipril: From Hypertension to Pulmonary Hypertension (Prediction-Only)
+## Ramipril: From Hypertension to pulmonary hypertension with unclear multifactorial mechanism (Prediction-Only)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 |------|------|
 | Original Indication | Hypertension (also stroke and cerebrovascular disorders, cerebral infarction) |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The data compiled for this report contain 9 ranked predictions. The top-ranked prediction has no supporting studies. The best-supported prediction is **cerebral artery occlusion** (L4, preclinical and one small clinical study); it is discussed under "Other Predictions" below.*
@@ -81,14 +81,13 @@ No publications were retrieved for the top-ranked indication. The table below sh
 
 | Predicted Indication | TxGNN Score | Evidence Level | Summary |
 |------|------|------|------|
-| Cerebral artery occlusion | 99.74% | L4 | One small clinical study (PMID 8797135, 1996) of ramipril vs enalapril on cerebral blood flow in 15 elderly patients with asymptomatic carotid stenosis. Animal studies are mixed: ACE inhibition reduced infarction in normotensive but not hypertensive rats (PMID 20407464), and candesartan but not ramipril improved outcome (PMID 18300867). |
-| Intracerebral haemorrhage | 99.82% | L4 | Indirect animal data only (e.g. PMID 15721222); no direct clinical evidence |
-| Malignant hypertensive renal disease | 99.93% | L5 | Prediction only |
-| Malignant renovascular hypertension | 99.93% | L5 | Prediction only; safety concern in bilateral renal artery stenosis |
-| Braddock syndrome | 99.91% | L5 | Prediction only; no clear mechanistic rationale |
-| Brain stem infarction | 99.89% | L5 | Prediction only |
-| Prinzmetal angina | 99.83% | L5 | Prediction only; the single retrieved paper is unrelated to ramipril |
-| ABri amyloidosis | 99.79% | L5 | Prediction only; no clear mechanistic rationale |
+| Cerebral artery occlusion | 0.9974 | L5 | One small clinical study (PMID 8797135, 1996) of ramipril vs enalapril on cerebral blood flow in 15 elderly patients with asymptomatic carotid stenosis. Animal studies are mixed: ACE inhibition reduced infarction in normotensive but not hypertensive rats (PMID 20407464), and candesartan but not ramipril improved outcome (PMID 18300867). |
+| Intracerebral haemorrhage | 0.9982 | L5 | Indirect animal data only (e.g. PMID 15721222); no direct clinical evidence |
+| Malignant hypertensive renal disease | 0.9993 | L5 | Prediction only |
+| Braddock syndrome | 0.9991 | L5 | Prediction only; no clear mechanistic rationale |
+| Brain stem infarction | 0.9989 | L5 | Prediction only |
+| Prinzmetal angina | 0.9983 | L5 | Prediction only; the single retrieved paper is unrelated to ramipril |
+| ABri amyloidosis | 0.9979 | L5 | Prediction only; no clear mechanistic rationale |
 
 ## UK Market Information
 

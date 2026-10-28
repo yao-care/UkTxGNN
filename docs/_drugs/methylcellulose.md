@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Methylcellulose
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 403
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Methylcellulose: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (methylcellul…"
-monitor_inn: "Methylcellulose"
-predicted_indications: ["osteoarthritis", "enterocolitis (disease)", "alopecia", "pseudoachondroplasia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "insomnia (disease)", "exercise-induced malignant hyperthermia", "osteoarthritis susceptibility"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Methylcellulose: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Methylcellulose
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,70 +32,45 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Methylcellulose: From Bulk-Forming Laxative to Osteoarthritis
+<!-- known-uses-page -->
+<!-- description: Methylcellulose: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Methylcellulose: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Methylcellulose, so there is currently no new predicted indication. The recorded uses of this drug are listed below. No known uses are recorded for it.
 
-Methylcellulose is a bulk-forming agent that is marketed in the UK as a 500 mg tablet. The TxGNN model predicts it may be useful for **osteoarthritis**, but the data compiled for this report show **no registered clinical trials** and only **preclinical formulation papers**, in which methylcellulose serves as a delivery vehicle rather than as an active treatment.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data compiled for this report (methylcellulose is a bulk-forming agent, BNF section 1.6.1) |
-| Predicted New Indication | Osteoarthritis |
-| TxGNN Prediction Score | 95.21% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 0 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data are not available in the data compiled for this report. Methylcellulose is a non-absorbed, bulk-forming polymer. It acts in the gut by retaining water and increasing stool bulk, which is why it is used for constipation.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-The literature does not show methylcellulose acting on osteoarthritis directly. The retrieved papers use it as an excipient or thermosensitive hydrogel matrix to deliver other active agents, such as meloxicam, celecoxib, nanozymes, stem cell spheroids and proanthocyanidin. Any benefit comes from the payload or from the viscoelastic and sustained-release properties of the vehicle, not from a pharmacological action of methylcellulose.
-
-The high TxGNN score is therefore most likely driven by methylcellulose appearing frequently alongside osteoarthritis formulations in the knowledge graph. It should not be read as evidence of therapeutic activity. The link between the original gastrointestinal use and osteoarthritis is weak.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-All retrieved papers are preclinical or formulation studies, and none tests methylcellulose as a treatment in patients.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41054792](https://pubmed.ncbi.nlm.nih.gov/41054792/) | 2025 | Preclinical | Artif Cells Nanomed Biotechnol | Injectable methylcellulose–carboxymethyl chitosan thermosensitive hydrogel carrying amniotic fluid stromal cell spheroids for cartilage regeneration |
-| [40354857](https://pubmed.ncbi.nlm.nih.gov/40354857/) | 2025 | Preclinical | Int J Biol Macromol | Transdermal F127/methylcellulose hydrogel with nanozymes for osteoarthritis relief via immunomodulatory pathways |
-| [30767746](https://pubmed.ncbi.nlm.nih.gov/30767746/) | 2020 | Formulation | Curr Rheumatol Rev | Herbal topical patch containing curcumin and Arnica montana for osteoarthritis |
-| [32027902](https://pubmed.ncbi.nlm.nih.gov/32027902/) | 2020 | Preclinical | Int J Biol Macromol | Injectable carboxymethyl chitosan–methylcellulose–pluronic hydrogel encapsulating meloxicam nanoparticles |
-| [36079990](https://pubmed.ncbi.nlm.nih.gov/36079990/) | 2022 | Formulation | Nanomaterials (Basel) | Proanthocyanidin transferosomes loaded into a 4% methylcellulose gel, optimised for osteoarthritis |
-| [26752990](https://pubmed.ncbi.nlm.nih.gov/26752990/) | 2015 | Formulation | Res Pharm Sci | Iontophoretic delivery of celecoxib from gel formulations that include cellulose derivatives |
-| [21959817](https://pubmed.ncbi.nlm.nih.gov/21959817/) | 2011 | Formulation | Pak J Pharm Sci | Meloxicam solubility enhancement by ternary complexation |
-
-Two further retrieved papers (grapiprant pharmacology and agmatine in dogs) concern unrelated agents and are not considered relevant.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0106010H0AAACAC (BNF-style product code) | Methylcellulose Tab 500mg | Tablet | Not stated in the data compiled |
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 0106010H0AAACAC | Methylcellulose_Tab 500mg |  | Valid |
 
 ## Safety Considerations
 
@@ -108,18 +82,6 @@ Please refer to the SmPC and BNF for warnings and contraindications. Report susp
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The osteoarthritis prediction rests on model output and on papers where methylcellulose is only a delivery vehicle. There is no clinical trial evidence and no evidence of intrinsic activity against osteoarthritis.
-
-**To proceed, the following is needed:**
-- Evidence that methylcellulose itself, not a drug-loaded hydrogel, has a therapeutic effect in osteoarthritis (for example, vehicle-only control arms)
-- Mechanism of action data
-- Approved indication text and SmPC safety information for the UK-authorised product
-- If the hydrogel direction is pursued, it should be assessed as a drug-delivery platform (a formulation question) rather than as methylcellulose repurposing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

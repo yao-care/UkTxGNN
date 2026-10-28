@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Eletriptan
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 246
-evidence_level: L3
-indication_count: 4
-last_modified_at: 2026-10-15
-description: "Eletriptan: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Migraine disorder (migraine with or without aura)"
+evidence_level: L5
+indication_count: 3
 monitor_inn: "Eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
+last_modified_at: 2026-10-27
+description: "Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Eletriptan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **4**
 
 </div>
 
-## Eletriptan: From Migraine to Migraine with Brainstem Aura
+## Eletriptan: 5-HT1B/1D receptor agonist (triptan) → atrophoderma vermiculata (atrophoderma vermiculata)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Eletriptan is a selective 5-HT1B/1D receptor agonist (a triptan), originally used to treat acute migraine with or without aura.
-The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but there are **no registered clinical trials** and only general migraine literature (**17 publications**, none specific to brainstem aura).
-This prediction should be treated as a research question rather than a treatment recommendation.
+Eletriptan is a triptan-class medicine. The TxGNN model predicts it may be relevant to **atrophoderma vermiculata** (atrophoderma vermiculata), with a prediction score of 0.9994. No clinical trials or publications were found to support this prediction, so it rests on the computational prediction alone.
 
 ---
 
@@ -48,27 +46,21 @@ This prediction should be treated as a research question rather than a treatment
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine disorder (migraine with or without aura) |
-| Predicted New Indication | Migraine with brainstem aura |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | atrophoderma vermiculata (atrophoderma vermiculata) |
+| TxGNN Prediction Score | 0.9994 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Eletriptan is a selective 5-HT1B/1D receptor agonist. Its action on these receptors is thought to counter trigeminovascular activation, CGRP release and cranial vasodilation, which are central to migraine attacks. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the published literature.
+Detailed mechanism of action data is not available in the data compiled for this report. Eletriptan belongs to the triptan class, which acts as agonists at 5-HT1B/1D receptors, and this is its recognised pharmacological profile.
 
-Migraine with brainstem aura is a migraine subtype, so it shares the underlying pathophysiology of the approved indication. This closeness to the existing migraine indication is the main reason for the very high TxGNN score. It is not independent evidence of efficacy.
-
-There are important caveats:
-
-- Triptans are traditionally cautioned against or contraindicated in brainstem aura (formerly basilar-type migraine) and hemiplegic migraine, because of theoretical concerns about vasoconstriction.
-- One randomised study (PMID 15469451) found no benefit when eletriptan 80 mg was taken during the aura phase.
-- No studies specific to brainstem aura were identified.
+Atrophoderma vermiculata is a rare atrophic skin disorder affecting hair follicles, mainly on the cheeks. No plausible mechanistic link was identified between 5-HT1B/1D agonism and its pathology. The high TxGNN score is a computational output only. Similarity to the drug's established use has not been assessed, and no trials or literature support the prediction. It should therefore be treated as a hypothesis-generating signal rather than a reasoned therapeutic proposal.
 
 ---
 
@@ -80,18 +72,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The publications below concern migraine in general. None is specific to brainstem aura.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [11844898](https://pubmed.ncbi.nlm.nih.gov/11844898/) | 2002 | RCT | Eur Neurol | Eletriptan 40 mg and 80 mg compared with ergotamine/caffeine and placebo in acute migraine (general migraine population) |
-| [15469451](https://pubmed.ncbi.nlm.nih.gov/15469451/) | 2004 | RCT | Eur J Neurol | Eletriptan 80 mg taken during the aura phase showed no benefit |
-| [12807526](https://pubmed.ncbi.nlm.nih.gov/12807526/) | 2003 | Clinical study | Cephalalgia | Placebo-controlled study (n = 446) of eletriptan in patients with prior poor response or intolerance to oral sumatriptan |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of acute migraine pharmacotherapies |
-| [11687056](https://pubmed.ncbi.nlm.nih.gov/11687056/) | 2001 | Review | Cochrane Database Syst Rev | Cochrane review protocol on eletriptan for acute migraine (a later version was withdrawn, PMID 17636718) |
-| [12498013](https://pubmed.ncbi.nlm.nih.gov/12498013/) | 2002 | Review | Curr Opin Investig Drugs | Overview of eletriptan as a 5-HT1B/1D agonist, with higher receptor affinity than sumatriptan |
-| [21028917](https://pubmed.ncbi.nlm.nih.gov/21028917/) | 2010 | Review | Paediatr Drugs | Use of triptans for paediatric migraine |
-| [25155004](https://pubmed.ncbi.nlm.nih.gov/25155004/) | 2014 | Case report | Rev Port Cardiol | Non-ST-elevation myocardial infarction a few hours after taking eletriptan, suggesting a possible causal link |
+Currently no related literature available.
 
 ---
 
@@ -99,34 +80,28 @@ The publications below concern migraine in general. None is specific to brainste
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0407041AAAAABAB (as recorded; not in PL format) | Eletriptan tablets 40 mg | Tablet (as recorded in product name) | Indication text not available in the compiled data; eletriptan is used for acute migraine |
+| 0407041AAAAABAB | Eletriptan Tab 40mg | Not recorded | Not recorded |
 
-One valid single-ingredient authorisation is recorded, with no cancelled authorisations.
+The record lists one valid single-ingredient licence. The reference number is in BNF-style coding rather than a PL number. Indication text is not recorded in the local data.
 
 ---
 
 ## Safety Considerations
 
-**Contraindications and cautions (from drug-disease knowledge graph associations, not product label text):**
-Associations were found with the following conditions, which should be verified against the SmPC and BNF:
+**Contraindication-related conditions in the data compiled for this report** (these are drug–disease relations, not taken from label text; check them against the SmPC):
+- Cardiovascular and cerebrovascular: hypertension, coronary artery disease, myocardial infarction, myocardial ischaemia, Prinzmetal angina, stroke, transient ischaemic attack, cerebral infarction, brain ischaemia, vertebrobasilar insufficiency, peripheral vascular disease, peripheral arterial disease, Raynaud disease, ischaemic bowel disease
+- Hepatic: liver failure, liver disease, gallbladder disease
+- Metabolic: diabetes mellitus, diabetic ketoacidosis, obesity
+- Other: serotonin syndrome, familial or sporadic hemiplegic migraine, haemoglobinopathy
 
-- **Cardiovascular and cerebrovascular:** coronary artery disease, myocardial infarction, myocardial ischaemia, Prinzmetal angina, hypertension, stroke, transient ischaemic attack, cerebral infarction, brain ischaemia, vertebrobasilar insufficiency, peripheral vascular disease, Raynaud disease, ischaemic bowel disease
-- **Neurological:** familial or sporadic hemiplegic migraine
-- **Hepatic:** liver disease, liver failure, gallbladder disease
-- **Metabolic:** diabetes mellitus, diabetic ketoacidosis, obesity
-- **Other:** serotonin syndrome, haemoglobinopathy
-
-**Drug interactions:** 94 interactions were identified. Those graded Major include:
-
+**Drug Interactions:** 94 interactions were identified. Major-level interactions include:
 - Clarithromycin
-- 5-HT3 antagonists (ondansetron, granisetron, dolasetron, palonosetron)
-- Serotonergic or anorectic agents (lorcaserin, fenfluramine, dexfenfluramine, sibutramine)
+- Lorcaserin, dexfenfluramine, fenfluramine, sibutramine
+- 5-HT3 antagonists: ondansetron, granisetron, dolasetron, palonosetron
 
-Moderate interactions include aprepitant, morphine, cimetidine, clotrimazole and miconazole.
+Moderate-level interactions include aprepitant, morphine, cimetidine, clotrimazole and miconazole. Interactions with a CYP3A4 inhibitor such as clarithromycin and with other serotonergic agents merit particular attention.
 
-Note that vertebrobasilar insufficiency and hemiplegic migraine appear among the associated conditions, which is directly relevant to the proposed brainstem aura indication. A case report also links eletriptan to myocardial infarction.
-
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+The vasoconstrictive profile of triptans is an additional consideration for any new use. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -135,25 +110,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score mainly reflects proximity to the existing migraine indication. No brainstem-aura-specific trials exist, and the one aura-phase RCT showed no benefit. Triptans are traditionally cautioned in this subtype because of vasoconstriction concerns, and the safety associations overlap with the proposed population.
+The prediction scores highly in the model, but there are no clinical trials or publications, no plausible mechanistic link, and the drug carries cardiovascular and cerebrovascular safety restrictions. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- A systematic review of triptan use and safety in migraine with brainstem aura
-- Review of the current SmPC and BNF guidance on cautions and contraindications, as product label data were not available
-- Mechanism-of-action data and a vascular safety assessment specific to the brainstem aura population
-- Any prospective or registry data on eletriptan in this subtype, before considering a formal trial
-
----
-
-### Other Predicted Indications (for reference)
-
-The following lower-ranked predictions have no clinical trials or literature, an evidence level of L5 and a recommendation of Hold:
-
-| Predicted Indication | TxGNN Score | Comment |
-|------|------|------|
-| Atrophoderma vermiculata | 99.94% | No plausible mechanistic link identified |
-| Ulerythema ophryogenesis | 99.89% | No plausible mechanistic link; likely a knowledge-graph association with the related follicular atrophic disorder |
-| Sciatic neuropathy | 99.03% | Speculative link via 5-HT1 involvement in pain modulation; vasoconstrictive profile is a safety consideration |
+- Mechanistic or preclinical evidence linking 5-HT1B/1D signalling to atrophoderma vermiculata
+- Case reports or exploratory studies in the target condition
+- Confirmation of mechanism of action and label-based warnings and contraindications from the SmPC and BNF
+- A risk–benefit assessment, given the rarity of the condition and the drug's vascular safety profile
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

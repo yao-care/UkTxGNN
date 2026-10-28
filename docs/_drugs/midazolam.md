@@ -6,9 +6,9 @@ nav_order: 415
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Midazolam: predicted new indication Insomnia (evidence level L3). Approved use: Anxiety"
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
+description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Midazolam
@@ -33,12 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **1**
 
 </div>
 
-## Midazolam: From Anxiety to Insomnia
+## Midazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Midazolam is a short-acting benzodiazepine, originally listed for anxiety in the knowledge graph used for this report and widely used today for procedural and perioperative sedation.
+Midazolam is a short-acting benzodiazepine, originally listed for anxiety and widely used today for procedural and perioperative sedation.
 The TxGNN model predicts it may be effective for **insomnia**, with **2 registered clinical trials** (neither directly testing midazolam as an insomnia treatment) and **10 publications**, including several older randomised hypnotic studies from the 1980s and 1990.
 
 ---
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 register
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety (from the knowledge graph; UK authorisation indication text is not available) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.74% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 3 |
+| UK Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

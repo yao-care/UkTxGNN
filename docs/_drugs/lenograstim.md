@@ -46,25 +46,25 @@ Lenograstim is a recombinant human granulocyte colony-stimulating factor (G-CSF)
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Primary release disorder of platelets |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Lenograstim is a recombinant human G-CSF. It acts on the G-CSF receptor to stimulate the proliferation and differentiation of the neutrophil lineage. Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the established class pharmacology of G-CSF.
 
-Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to release their granule contents properly. No established link exists between G-CSF signalling and correcting platelet granule release. The high TxGNN score (99.91%) is a network-based prediction only. On current information, the mechanistic rationale is weak and should be treated as speculative.
+Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to release their granule contents properly. No established link exists between G-CSF signalling and correcting platelet granule release. The high TxGNN score (0.9991) is a network-based prediction only. On current information, the mechanistic rationale is weak and should be treated as speculative.
 
 Other predictions from the same model show a similar pattern, and none has supporting trials or literature:
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| Glanzmann thrombasthenia | 99.89% | L5 | Caused by deficiency or dysfunction of the integrin αIIbβ3 receptor. G-CSF receptor agonism is not expected to restore this function. |
-| Pseudo-von Willebrand disease | 99.88% | L5 | Caused by gain-of-function GP1BA variants. No recognised link to G-CSF signalling. |
-| Severe nonproliferative diabetic retinopathy | 99.61% | L5 | G-CSF has been explored in vascular repair, but it could also promote neovascularisation or inflammation, which is a possible retinal safety concern. |
+| Glanzmann thrombasthenia | 0.9989 | L5 | Caused by deficiency or dysfunction of the integrin αIIbβ3 receptor. G-CSF receptor agonism is not expected to restore this function. |
+| Pseudo-von Willebrand disease | 0.9988 | L5 | Caused by gain-of-function GP1BA variants. No recognised link to G-CSF signalling. |
+| Severe nonproliferative diabetic retinopathy | 0.9961 | L5 | G-CSF has been explored in vascular repair, but it could also promote neovascularisation or inflammation, which is a possible retinal safety concern. |
 
 ## Clinical Trial Evidence
 

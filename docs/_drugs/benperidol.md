@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Benperidol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 95
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Benperidol: predicted new indication Insomnia (evidence level L5). Approved use: Antisocial personality disorder"
+description: "Benperidol: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Benperidol"
-predicted_indications: ["insomnia (disease)", "juvenile onset Parkinson disease 19A", "acute intermittent porphyria", "sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "atypical juvenile parkinsonism", "hereditary late onset Parkinson disease", "PLA2G6-associated neurodegeneration", "specific developmental disorder", "attention deficit hyperactivity disorder, inattentive type"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Benperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,43 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Benperidol: From Antisocial Personality Disorder to Insomnia
+## Benperidol
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Benperidol is a butyrophenone antipsychotic, listed in the data compiled for this report with an original indication of antisocial personality disorder.
-The TxGNN model predicts it may be effective for **insomnia**, but there are **no clinical trials** and **no publications** supporting this direction, so the prediction rests on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Antisocial personality disorder (from the TxGNN knowledge graph; no approved indication text is available in the UK authorisation data) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 98.95% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that benperidol binds the dopamine D2 and D4 receptors. It is a potent D2 antagonist of the butyrophenone class, used to manage antisocial hypersexual behaviour caused by mental illness.
-
-The suggested link to insomnia is speculative. Sedation is a plausible secondary effect, possibly through histamine H1 or alpha-1 adrenergic blockade, but this has not been confirmed for benperidol. In antipsychotics, sedation is generally regarded as an adverse effect, not a therapeutic goal.
-
-The extrapyramidal and QT-prolongation risks of a high-potency D2 antagonist argue against use for insomnia. The high TxGNN score is a computational output and is not evidence of clinical benefit.
-
-Another predicted indication, "sleep disorder, initiating and maintaining sleep", is essentially the same clinical concept as insomnia. It should not be treated as independent corroboration.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ## UK Market Information
 
@@ -89,19 +64,6 @@ The identifier above is a BNF-style classification code (BNF section 4.2.1, anti
 
 Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The insomnia prediction is supported only by a model score, with no trials or publications. The known pharmacology, and in particular the extrapyramidal and QT risks of a potent D2 antagonist, argues against a favourable benefit-risk balance for insomnia.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, including receptor binding at H1 and alpha-1 adrenergic sites
-- Label warnings and contraindications from the SmPC and BNF
-- Confirmation of MHRA licence details, including the approved indication and dosage form
-- Any preclinical or clinical evidence of hypnotic efficacy, with comparison against established insomnia treatments
-- A safety assessment covering extrapyramidal symptoms, QT prolongation and seizure threshold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

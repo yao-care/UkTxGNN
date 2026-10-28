@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, wit
 |------|------|
 | Original Indication | Common wart, anogenital human papillomavirus infection, superficial multifocal basal cell carcinoma, actinic keratosis (approved indication text is not available in the UK licence record) |
 | Predicted New Indication | Pre-malignant neoplasm |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L3 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9992 |
+| Evidence Level | L5 (see note below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The compiled data assigns L1, but by the stated criteria this is not supported. The only completed Phase 3 trial is a 20-patient single-arm study, and the second Phase 3 trial was terminated after 9 participants. Neither meets the bar of two completed Phase 3 RCTs. The supporting evidence is a Cochrane systematic review and other reviews, so L3 is the more defensible grade.
@@ -95,7 +95,7 @@ Imiquimod is an immune response modifier rather than a conventional cytotoxic, a
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** photoparoxysmal response, photosensitivity disease, autoimmune disease, graft versus host disease and sunburn.
+- **Contraindications (TxGNN model (deep learning) associations, not label text; they may reflect similarities the model learned between related diseases, not biological evidence):** photoparoxysmal response, photosensitivity disease, autoimmune disease, graft versus host disease and sunburn.
 - **Drug Interactions:** 59 potential interactions were identified, all with an unspecified severity level. Examples include warfarin, clopidogrel, prednisolone, prednisone, budesonide, hydroxychloroquine and ibuprofen. These need clinical review before any conclusions are drawn.
 - **Literature safety signals:** case reports describe malignant conversion of oral papillomatosis during imiquimod treatment, erythema multiforme, lichen planopilaris, and a mucinous carcinoma arising during treatment of extramammary Paget disease. These are isolated reports, but they support careful lesion monitoring.
 

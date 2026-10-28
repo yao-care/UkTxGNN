@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 |------|------|
 | Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK licence record) |
 | Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,9 +64,9 @@ Detailed mechanism of action data is not available in the data compiled for this
 Faciodigitogenital syndrome is an X-linked developmental disorder in which ADHD-like behavioural features can occur. A symptomatic rationale is therefore conceivable: methylphenidate could treat the attention and hyperactivity symptoms, not the underlying genetic condition. No evidence in the compiled data supports this, and no mechanistic link has been established. The very high TxGNN score should be treated as a hypothesis only.
 
 **Other predictions considered (all lower-ranked):**
-- **Chondromyxoid fibroma** (score 99.991%): no plausible mechanistic link. This is a benign cartilage-derived bone tumour, and the score is likely a knowledge-graph artefact. No trials or literature (L5, Hold).
-- **Specific developmental disorder** (score 99.988%): indirect ADHD-focused literature that largely overlaps with the existing indication (L4, Research Question).
-- **Dysthymic disorder** (score 99.109%): indirect evidence from ADHD with comorbid depressive symptoms; no trial of methylphenidate in dysthymia (L4, Research Question).
+- **Chondromyxoid fibroma** (score 0.9999): no plausible mechanistic link. This is a benign cartilage-derived bone tumour, and the score is likely a TxGNN model (deep learning) artefact. No trials or literature (L5, Hold).
+- **Specific developmental disorder** (score 0.9999): indirect ADHD-focused literature that largely overlaps with the existing indication (L4, Research Question).
+- **Dysthymic disorder** (score 0.9911): indirect evidence from ADHD with comorbid depressive symptoms; no trial of methylphenidate in dysthymia (L4, Research Question).
 
 ---
 

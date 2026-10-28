@@ -4,17 +4,17 @@ title: Valsartan
 parent: Moderate Evidence (L3-L4)
 nav_order: 651
 evidence_level: L4
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Valsartan: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
+description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Valsartan: From Hypertension to Malignant Renovascular Hypertension
+## Valsartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Valsartan is an angiotensin II receptor blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but the supporting evidence is thin: **no clinical trials** and **1 preclinical publication** are currently available for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.97% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,12 +65,12 @@ Because valsartan is already used for hypertension, this would be an extension t
 
 | Predicted Indication | TxGNN Score | Evidence Level | Evidence Summary |
 |------|------|------|------|
-| Malignant hypertensive renal disease | 99.97% | L5 | Only paper concerns avosentan (a different drug) |
-| Pulmonary hypertension, unclear multifactorial mechanism | 99.97% | L5 | No trials or literature |
-| Pulmonary hypertension owing to lung disease/hypoxia | 99.97% | L4 | Mostly preclinical or sacubitril/valsartan studies; no trials |
-| Braddock syndrome | 99.96% | L5 | No trials or literature |
-| Chronic pulmonary heart disease | 99.58% | L4 | Mostly sacubitril/valsartan in heart failure; one irrelevant Phase 1 trial |
-| Prinzmetal angina | 99.45% | L5 | One indirect review only |
+| Malignant hypertensive renal disease | 0.9997 | L5 | Only paper concerns avosentan (a different drug) |
+| Pulmonary hypertension, unclear multifactorial mechanism | 0.9997 | L5 | No trials or literature |
+| Pulmonary hypertension owing to lung disease/hypoxia | 0.9997 | L4 | Mostly preclinical or sacubitril/valsartan studies; no trials |
+| Braddock syndrome | 0.9996 | L5 | No trials or literature |
+| Chronic pulmonary heart disease | 0.9958 | L4 | Mostly sacubitril/valsartan in heart failure; one irrelevant Phase 1 trial |
+| Prinzmetal angina | 0.9945 | L5 | One indirect review only |
 
 ## Clinical Trial Evidence
 
@@ -93,7 +92,6 @@ The data compiled for this report contain one valid single-ingredient authorisat
 
 ## Safety Considerations
 
-**Contraindications (from drug-disease knowledge graph associations, not label text):**
 Conditions linked to valsartan as contraindications include liver failure, liver disease, pancreatitis, gallbladder disease, angioedema (including hereditary, acquired and RAAS-blocker-induced forms), systemic lupus erythematosus, potassium deficiency, diabetes mellitus and diabetic ketoacidosis, hyperuricaemia, gout, neutropenia, agranulocytosis, hypotension, hyperparathyroidism, hepatic coma and encephalopathy, neonatal jaundice, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, renal artery obstruction and impaired renal function.
 These come from a knowledge graph and may not match the licensed contraindications. Renal artery obstruction and impaired renal function are particularly relevant to renovascular disease.
 

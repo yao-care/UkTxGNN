@@ -4,17 +4,17 @@ title: Lorazepam
 parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Anxiety disorder, status epilepticus, absence epilepsy…"
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
+description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Lorazepam: From Anxiety and Seizure Disorders to Trigeminal Nerve Neoplasm
+## Lorazepam: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Among the other predictions, **insomnia** and several **reflex seizure types** h
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, status epilepticus, absence epilepsy, Lennox-Gastaut syndrome and related epilepsies (the UK licence record contains no indication text; these indications come from the TxGNN knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.87% |
+| TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Among the other predictions, **insomnia** and several **reflex seizure types** h
 
 Detailed mechanism of action data is not available in the data compiled for this report. Lorazepam is a benzodiazepine that enhances GABA-A receptor-mediated inhibition, giving it anxiolytic, sedative and anticonvulsant effects.
 
-For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanistic link has been identified. Lorazepam has no known antineoplastic activity. The very high score is a graph-based signal only. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a cranial nerve tumour, which is supportive care rather than a repurposing indication.
+For the top-ranked prediction, **trigeminal nerve neoplasm**, no plausible mechanistic link has been identified. Lorazepam has no known antineoplastic activity. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, lorazepam could treat symptoms such as anxiety or seizures in a patient with a cranial nerve tumour, which is supportive care rather than a repurposing indication.
 
 The other predictions are more biologically coherent:
 

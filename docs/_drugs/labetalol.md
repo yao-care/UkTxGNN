@@ -4,7 +4,7 @@ title: Labetalol
 parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Labetalol"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 |------|------|
 | Original Indication | Hypertensive disorder / hypertension (the approved indication text is not recorded in the licence data compiled for this report) |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,8 +66,8 @@ Malignant hypertensive renal disease is kidney injury driven by severely raised 
 An important caveat: this predicted indication largely overlaps with the existing hypertension use rather than representing a truly distinct new indication. The high score is a computational prediction only, and the relationship to the original indication has not yet been formally assessed.
 
 Two other predictions were also generated, and they are weaker:
-- **Malignant renovascular hypertension** (score 99.08%): The only linked publication (PMID 7242419) is a 1981 case report of drug-induced vasculitis in which labetalol was used with minoxidil for initial blood pressure control. It does not evaluate labetalol for this indication. Beta-blockade may reduce renin, which is mechanistically relevant.
-- **Pulmonary hypertension** (two predicted forms, score 99.08%): There is no supporting evidence. Beta-blockers are generally used cautiously in pulmonary hypertension because of the risk to right ventricular function, and non-selective beta-blockade may worsen bronchospasm in lung disease. The ten publications retrieved concern systemic or obstetric hypertension, beta-blocker overdose, and animal or unrelated studies, and appear to have been matched on keywords only.
+- **Malignant renovascular hypertension** (score 0.9908): The only linked publication (PMID 7242419) is a 1981 case report of drug-induced vasculitis in which labetalol was used with minoxidil for initial blood pressure control. It does not evaluate labetalol for this indication. Beta-blockade may reduce renin, which is mechanistically relevant.
+- **Pulmonary hypertension** (two predicted forms, score 0.9908): There is no supporting evidence. Beta-blockers are generally used cautiously in pulmonary hypertension because of the risk to right ventricular function, and non-selective beta-blockade may worsen bronchospasm in lung disease. The ten publications retrieved concern systemic or obstetric hypertension, beta-blocker overdose, and animal or unrelated studies, and appear to have been matched on keywords only.
 
 ---
 

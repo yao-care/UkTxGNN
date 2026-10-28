@@ -4,9 +4,9 @@ title: Teriparatide
 parent: Model Prediction Only (L5)
 nav_order: 607
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Teriparatide: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
+description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Teriparatide: From Postmenopausal Osteoporosis to Duodenal Ulcer
+## Teriparatide: From Postmenopausal Osteoporosis to duodenal ulcer (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but **no cl
 |------|------|
 | Original Indication | Postmenopausal osteoporosis / osteoporosis |
 | Predicted New Indication | Duodenal ulcer |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Teriparatide is the active fragment (1-34) of human parathyroid hormone. Pharmac
 
 On the data compiled for this report, **no plausible mechanistic link** between anabolic PTH signalling and duodenal ulcer healing is evident. Osteoporosis is a skeletal disease, whereas duodenal ulcer is a mucosal disease of the upper gastrointestinal tract. No shared pathway, supporting study or clinical observation connects them.
 
-The high model score probably reflects network-level associations in the knowledge graph rather than a biological rationale that can be tested. It should be treated as a hypothesis-generating signal only.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should be treated as a hypothesis-generating signal only.
 
 ---
 
@@ -113,7 +113,7 @@ The duodenal ulcer prediction has a high model score but no trials, no literatur
 - Confirmation of the SmPC-based safety profile, including calcium-related risks and interactions with digoxin
 - A clear justification for pursuing this over established ulcer therapy, since teriparatide is a daily injection
 
-**Note on other predictions:** In the same output, **pregnancy-associated osteoporosis** (rank 8, score 99.55%) is much better supported, at Evidence Level L3. It has about 20 publications, including a systematic review and meta-analysis, teriparatide cohort studies and a 2026 position statement. The evidence is observational, with no RCT identified, and it is essentially an off-label extension of the existing osteoporosis use. It is a more realistic research question than duodenal ulcer.
+**Note on other conditions:** **Pregnancy-associated osteoporosis** is much better supported, at Evidence Level L3. It has about 20 publications, including a systematic review and meta-analysis, teriparatide cohort studies and a 2026 position statement. The evidence is observational, with no RCT identified, and it is essentially an off-label extension of the existing osteoporosis use. It is a more realistic research question than duodenal ulcer.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

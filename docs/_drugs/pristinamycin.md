@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Pristinamycin: predicted new indication Disease of retroperitoneum . Urethral disease is the only prediction… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pristinamycin"
-predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
+predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
 ---
 
 # Pristinamycin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Pristinamycin: From Bacterial Infection to Urethral Disease
+## Pristinamycin: From Bacterial Infection to Disease of Retroperitoneum
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **urethral disease**, a predict
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Disease of retroperitoneum (rank 1 by TxGNN score). Urethral disease (rank 9) is the only prediction with a plausible rationale and is the focus of this report |
-| TxGNN Prediction Score | 99.17% (disease of retroperitoneum); 99.15% (urethral disease) |
+| TxGNN Prediction Score | 0.9917 (disease of retroperitoneum); 0.9915 (urethral disease) |
 | Evidence Level | L5 for disease of retroperitoneum; L4 for urethral disease |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (disease of retroperitoneum); Hold, treated as a research question (urethral disease) |
 
 ---

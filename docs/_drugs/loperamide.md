@@ -6,9 +6,9 @@ nav_order: 378
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Diarrhoeal disease, dysentery"
 monitor_inn: "Loperamide"
-predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "conjunctival folliculosis", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "Angelucci syndrome"]
+predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
+description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Loperamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Loperamide: From Diarrhoeal Disease to Acute Contagious Conjunctivitis
+## Loperamide: Acute contagious conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 
 | Item | Content |
 |------|------|
-| Original Indication | Diarrhoeal disease, dysentery (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acute contagious conjunctivitis |
-| TxGNN Prediction Score | 99.97% |
+| TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Loperamide is a peripherally acting mu-opioid receptor agonist that slows gut motility. Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on general pharmacological knowledge.
 
-The original indications (diarrhoeal disease and dysentery) are gastrointestinal conditions. Conjunctivitis is an eye condition. No ocular or anti-infective mechanism of loperamide is established. The very high score (99.97%) is most likely driven by associations within the knowledge graph rather than by biology, and the other top-ranked predictions are mostly conjunctivitis subtypes, which supports this interpretation.
+The original indications (diarrhoeal disease and dysentery) are gastrointestinal conditions. Conjunctivitis is an eye condition. No ocular or anti-infective mechanism of loperamide is established. The very high score (0.9997) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The other top-ranked predictions are mostly conjunctivitis subtypes, which supports this interpretation.
 
 In short, this prediction should be regarded as a computational hypothesis only, with no plausible mechanistic link identified.
 
@@ -87,7 +87,7 @@ The identifier above is in the format of a BNF-style code rather than a standard
 
 ## Safety Considerations
 
-- **Contraindications (knowledge graph associations, not label text):** liver disease, gallbladder disease, paralytic ileus, intestinal obstruction, familial visceral myopathy, dysentery, diarrhoeal disease, infectious diarrhoeal disease, intestinal infectious disease.
+- **Contraindications (not label text):** liver disease, gallbladder disease, paralytic ileus, intestinal obstruction, familial visceral myopathy, dysentery, diarrhoeal disease, infectious diarrhoeal disease, intestinal infectious disease.
 - **Drug Interactions:** 100 interactions were recorded. Major-level examples include abiraterone, ranitidine, fosamprenavir and gemfibrozil. Moderate-level examples include codeine, dihydrocodeine, tramadol, ethanol and several antihistamines (chlorpheniramine, cetirizine, acrivastine).
 - **Case-report safety signals:** worsening of invasive intestinal infection (toxic megacolon in amoebic colitis) and central opioid effects such as respiratory depression when gut inflammation increases systemic absorption.
 

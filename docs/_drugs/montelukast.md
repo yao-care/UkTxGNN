@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Montelukast
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 424
-evidence_level: L5
-indication_count: 5
+evidence_level: L1
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Montelukast: predicted new indication Bronchitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, intrinsic asthma…"
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
+description: "Montelukast: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Montelukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L1** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Montelukast: From Allergic Rhinitis and Asthma to Bronchitis
+## Montelukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **bronchitis** (in the data, ma
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, intrinsic asthma, allergic asthma (the MHRA indication text is not available in the data compiled for this report) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The compiled data assigns L2 to this specific prediction. By the standard rules, one completed Phase 3 RCT (NCT00076973, n=1,125) would not meet L1, which requires at least two. Because trial results are not summarised in the data, I have used L2 as the more defensible grading. The Quick Overview figure above should therefore be read as **L2**.
@@ -147,10 +147,8 @@ Only one large Phase 3 trial exists, and the supporting evidence is a mix of sma
 
 | Predicted Indication | Score | Evidence Level | Suggested Decision |
 |------|------|------|------|
-| Atopic eczema | 99.81% | L1 (compiled data); efficacy inconsistent, reviews report modest or uncertain benefit | Hold / research question |
-| Asthma | 99.54% | L1 | Already an established indication; Proceed with Guardrails (neuropsychiatric monitoring) |
-| Obstructive lung disease | 99.34% | L1 (evidence largely asthma-driven; no COPD-specific benefit shown) | Proceed with Guardrails |
-| Asthma-related traits, susceptibility to | 99.22% | L5 | Hold (a genetic susceptibility phenotype, not a treatable condition; no studies) |
+| Atopic eczema | 0.9981 | L1 (compiled data); efficacy inconsistent, reviews report modest or uncertain benefit | Hold / research question |
+| Obstructive lung disease | 0.9934 | L5 (evidence largely asthma-driven; no COPD-specific benefit shown) | Proceed with Guardrails |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

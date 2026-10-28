@@ -48,10 +48,10 @@ Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed 
 |------|------|
 | Original Indication | Not stated in the UK licence data compiled for this report |
 | Predicted New Indication | Myelodysplastic syndrome |
-| TxGNN Prediction Score | 99.62% |
+| TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -140,11 +140,10 @@ Label warnings and contraindications were not available in the data compiled for
 
 | Indication | Score | Evidence Level | Suggested Decision |
 |------|------|------|------|
-| Refractory cytopenia of childhood | 99.54% | L2 | Proceed with Guardrails (Phase 2 conditioning trials in mixed populations, one paediatric cohort; no disease-specific RCT) |
-| Unclassified MDS | 99.53% | L3 | Research question (one 1994 study, no registered trials) |
-| Aregenerative anaemia | 99.49% | L1 (conservative) | Proceed with Guardrails (the Phase 3 trial is not specific to this condition; confirm diagnosis, e.g. aplastic anaemia vs MDS) |
-| HIV infection | 99.44% | L3 | Research question (busulfan only conditions for gene-modified stem cells; not an antiviral) |
-| Del(5q), congenital sideroblastic anaemia, a rare neurodevelopmental disorder, seborrhoeic keratosis, feline AIDS | 99.0-99.5% | L5 | Hold (no supporting evidence or no plausible rationale) |
+| Refractory cytopenia of childhood | 0.9954 | L2 | Proceed with Guardrails (Phase 2 conditioning trials in mixed populations, one paediatric cohort; no disease-specific RCT) |
+| Unclassified MDS | 0.9953 | L5 | Research question (one 1994 study, no registered trials) |
+| Aregenerative anaemia | 0.9949 | L5 (conservative) | Proceed with Guardrails (the Phase 3 trial is not specific to this condition; confirm diagnosis, e.g. aplastic anaemia vs MDS) |
+| HIV infection | 0.9944 | L3 | Research question (busulfan only conditions for gene-modified stem cells; not an antiviral) |
 
 ---
 

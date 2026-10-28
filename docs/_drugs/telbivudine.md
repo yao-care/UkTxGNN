@@ -4,17 +4,17 @@ title: Telbivudine
 parent: Model Prediction Only (L5)
 nav_order: 598
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Telbivudine: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Telbivudine"
-predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
+predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
+description: "Telbivudine: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Telbivudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Telbivudine: From Chronic Hepatitis B Virus Infection to Chronic Hepatitis C Virus Infection
+## Telbivudine: Chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus (HC
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection (the UK authorisation record does not include indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -116,13 +116,13 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials for HCV, and the retrieved literature does not show anti-HCV activity. Telbivudine targets HBV DNA polymerase, whereas HCV depends on NS5B RNA polymerase, so there is no credible mechanistic link. Current HCV treatment relies on direct-acting antivirals, so the prediction appears to be a knowledge-graph artefact.
+There are no clinical trials for HCV, and the retrieved literature does not show anti-HCV activity. Telbivudine targets HBV DNA polymerase, whereas HCV depends on NS5B RNA polymerase, so there is no credible mechanistic link. Current HCV treatment relies on direct-acting antivirals, so the prediction appears to be a TxGNN model (deep learning) artefact.
 
 **To proceed, the following is needed:**
 - In vitro evidence of anti-HCV activity (for example, replicon assays)
 - A plausible mechanism for telbivudine acting on HCV
 - Detailed mechanism of action data for telbivudine
-- SmPC-based warnings and contraindications to replace the knowledge-graph associations
+- SmPC-based warnings and contraindications to replace the TxGNN model (deep learning) associations, which may reflect similarities the model learned between related diseases, not biological evidence
 - Comparison against current direct-acting antiviral regimens to establish any unmet need
 ## Disclaimer
 

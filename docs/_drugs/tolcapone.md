@@ -48,21 +48,21 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Parkinson disease (the licence record held no approved indication text, so this is taken from the drug's known indications) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, tolcapone is a COMT inhibitor that prolongs the availability of levodopa and dopamine in the brain. Its efficacy in Parkinson disease is established, and this is a symptomatic dopaminergic effect.
 
-Rasmussen encephalitis is a rare, immune-mediated, unilateral inflammatory disease of the brain, typically causing refractory seizures and progressive neurological decline. No plausible mechanistic link between COMT inhibition and this condition can be established from the data supplied. The high TxGNN score (99.93%) is a graph-based association and may reflect shared neurological network connections in the knowledge graph rather than true biology.
+Rasmussen encephalitis is a rare, immune-mediated, unilateral inflammatory disease of the brain, typically causing refractory seizures and progressive neurological decline. No plausible mechanistic link between COMT inhibition and this condition can be established from the data supplied. The high TxGNN score (0.9993) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The predictions ranked 2 to 10 follow a similar pattern. Most have no supporting studies (for example myelitis, transaldolase deficiency, fructose-1,6-bisphosphatase deficiency and several rare neurodevelopmental syndromes). Two are worth noting:
-- **Lewy body dementia** (score 99.64%, evidence level L4) shares dopaminergic dysfunction and alpha-synuclein pathology with Parkinson disease. The only supporting item is one 2024 preclinical iPSC organoid study, so this remains a research question.
-- **Paralysis agitans, juvenile, of Hunt** (score 99.52%) is a historical term for juvenile parkinsonism. It is likely a relabelling of an existing indication rather than a true repurposing candidate.
+- **Lewy body dementia** (score 0.9964, evidence level L4) shares dopaminergic dysfunction and alpha-synuclein pathology with Parkinson disease. The only supporting item is one 2024 preclinical iPSC organoid study, so this remains a research question.
+- **Paralysis agitans, juvenile, of Hunt** (score 0.9952) is a historical term for juvenile parkinsonism. It is likely a relabelling of an existing indication rather than a true repurposing candidate.
 
 ## Clinical Trial Evidence
 

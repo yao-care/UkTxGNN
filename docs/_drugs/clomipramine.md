@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clomipramine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 182
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
-predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **anxiety disorder**, with **8 
 |------|------|
 | Original Indication | Obsessive-compulsive disorder |
 | Predicted New Indication | Anxiety disorder |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (as graded in the data compiled for this report; see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade rests on completed Phase 3 trials, but these are OCD trials in which clomipramine is background therapy or part of the SRI class. They are not anxiety-disorder trials. Direct evidence for anxiety comes from the literature (see below), so the grade should be read cautiously.

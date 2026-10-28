@@ -4,17 +4,17 @@ title: Olopatadine
 parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis…"
 monitor_inn: "Olopatadine"
-predicted_indications: ["rosacea conjunctivitis", "punctate epithelial keratoconjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "Angelucci syndrome", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "blepharoconjunctivitis"]
+predicted_indications: ["rosacea conjunctivitis"]
+description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Olopatadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Olopatadine: From Allergic Conjunctivitis to Rosacea Conjunctivitis
+## Olopatadine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,25 +46,23 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, olopatadine is an H1 antagonist and mast cell stabiliser, and its efficacy in allergic and atopic conjunctivitis is established. Mechanistically, it may be applicable to inflammatory conjunctival conditions with an allergic component.
 
-The link to rosacea conjunctivitis is indirect and speculative. Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation and *Demodex*, rather than mast cell-mediated allergy. The high TxGNN score therefore reflects network similarity in the knowledge graph, not demonstrated clinical benefit.
+The link to rosacea conjunctivitis is indirect and speculative. Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation and *Demodex*, rather than mast cell-mediated allergy.
 
 Other predicted indications are also mostly conjunctival conditions. The highest-ranked alternatives, none of which have clinical trial data, are:
 
-- **Punctate epithelial keratoconjunctivitis** (score 98.81%): one case report on atopic keratoconjunctivitis, which did not test olopatadine for this indication.
-- **Parasitic conjunctivitis** (score 97.89%): one preclinical-type article on allergic conjunctivitis induced by *Acanthamoeba* protein. It is unclear whether olopatadine was tested.
-- **Angelucci syndrome** (score 97.84%): some plausibility because of overlap with vernal conjunctivitis, but no direct evidence.
+- It is unclear whether olopatadine was tested.
 
 ## Clinical Trial Evidence
 
@@ -78,7 +76,6 @@ For context, the two articles retrieved for other predicted indications are:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) | 2011 | Case report | Case Rep Ophthalmol Med | Limbitis secondary to autologous serum eye drops in a patient with atopic keratoconjunctivitis; olopatadine 0.2% was part of her background treatment (predicted indication: punctate epithelial keratoconjunctivitis) |
 | [34029500](https://pubmed.ncbi.nlm.nih.gov/34029500/) | 2021 | Preclinical | Curr Eye Res | Allergic conjunctivitis induced by *Acanthamoeba* excretory-secretory protein; assessed resolvin D1 and antiallergic agents (predicted indication: parasitic conjunctivitis) |
 
 ## UK Market Information

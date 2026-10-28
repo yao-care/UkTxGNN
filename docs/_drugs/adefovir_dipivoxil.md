@@ -4,17 +4,17 @@ title: Adefovir Dipivoxil
 parent: Model Prediction Only (L5)
 nav_order: 27
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Adefovir Dipivoxil: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
+indication_count: 9
 monitor_inn: "Adefovir dipivoxil"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
+last_modified_at: 2026-10-27
+description: "Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Adefovir Dipivoxil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,97 +33,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Adefovir Dipivoxil: From Chronic Hepatitis B to Chronic Hepatitis C Virus Infection
+## Adefovir dipivoxil: nucleotide analogue reverse transcriptase/polymerase inhibitor → chronic hepatitis C virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Adefovir dipivoxil is an oral nucleotide analogue antiviral, originally used to treat chronic hepatitis B virus (HBV) infection.
-The TxGNN model predicts it may be effective for **chronic hepatitis C virus (HCV) infection** (score 99.97%), but **no clinical trials** are registered for this prediction and the 10 publications retrieved are mostly general viral hepatitis reviews focused on HBV, so the prediction rests on model output alone.
-
----
+Adefovir dipivoxil is an oral nucleotide analogue antiviral that is marketed in the UK. The TxGNN model predicts it may be useful for **chronic hepatitis C virus infection**, but the data compiled for this report contain **no clinical trials** and **no publications** that directly study adefovir in this disease. The prediction is supported by model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection (the UK licence record contains no indication text, so this comes from the TxGNN knowledge graph) |
-| Predicted New Indication | Chronic hepatitis C virus infection |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | chronic hepatitis C virus infection |
+| TxGNN Prediction Score | 0.9997 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From established pharmacology, adefovir dipivoxil is an oral prodrug of adefovir, an acyclic nucleotide analogue of adenosine monophosphate. Its active diphosphate form inhibits HBV DNA polymerase/reverse transcriptase and terminates viral DNA chain elongation.
+Detailed mechanism of action data are not available in the data compiled for this report. Adefovir dipivoxil is a prodrug of adefovir, an acyclic nucleotide phosphonate that inhibits viral DNA polymerase/reverse transcriptase. This is its established mechanism against hepatitis B virus (HBV) and retroviruses.
 
-The link to HCV is weak. HCV is an RNA virus that replicates through the NS5B RNA-dependent RNA polymerase, a different target from the one adefovir inhibits. The retrieved literature consists of general viral hepatitis reviews and HBV-focused papers, and none of it shows adefovir activity against HCV. The high TxGNN score most likely reflects network proximity between viral hepatitis disease nodes in the knowledge graph rather than a shared pharmacological mechanism.
-
-Among the other predictions, **HIV infection** has a more credible basis. Several completed Phase 2 trials and a placebo-controlled randomised trial (PMID 11546945) exist, because adefovir inhibits retroviral reverse transcriptase. However, the doses needed for HIV were limited by nephrotoxicity, and tenofovir later replaced adefovir for HIV. This is not a favourable case for revival.
-
----
+Hepatitis C virus (HCV) is an RNA virus that replicates through the NS5B RNA-dependent RNA polymerase, a different enzyme. No mechanistic link between adefovir and HCV has been established. The retrieved publications are general viral hepatitis reviews and HBV-focused papers, not studies of adefovir activity against HCV. The high score probably reflects closeness of viral hepatitis nodes in the model's network rather than pharmacology, so the prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for chronic hepatitis C virus infection.
 
----
-
 ## Literature Evidence
+
+The publications retrieved are mainly general reviews of viral hepatitis treatment. None reports adefovir activity in HCV infection. The most relevant are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15588803](https://pubmed.ncbi.nlm.nih.gov/15588803/) | 2004 | Review | Best Pract Res Clin Gastroenterol | Treatment of chronic viral hepatitis; mainly covers interferon, lamivudine and adefovir for HBV |
-| [16107195](https://pubmed.ncbi.nlm.nih.gov/16107195/) | 2005 | Not classified | Expert Rev Anti Infect Ther | Peginterferon alfa-2a for hepatitis B; notes monotherapy with interferon, lamivudine or adefovir remains unsatisfactory |
-| [15918324](https://pubmed.ncbi.nlm.nih.gov/15918324/) | 2004 | Not classified | Lijec Vjesn | Treatment and prevention of viral hepatitis; discusses interferon and lamivudine, including YMDD mutations |
+| [15588803](https://pubmed.ncbi.nlm.nih.gov/15588803/) | 2004 | Review | Best Pract Res Clin Gastroenterol | Overview of chronic viral hepatitis treatment; adefovir discussed in the hepatitis B context |
 | [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Review | Minerva Gastroenterol Dietol | Antiviral drugs for hepatitis B and C and their effects on kidney function |
-| [19149648](https://pubmed.ncbi.nlm.nih.gov/19149648/) | 2009 | Not classified | Med Chem | Bicyclol, a novel agent for hepatitis B and C; not about adefovir |
-| [16699274](https://pubmed.ncbi.nlm.nih.gov/16699274/) | 2006 | Not classified | Dig Dis | Established and emerging viral hepatitis therapies; adefovir is licensed for HBV, while HCV is treated with interferon plus ribavirin |
-| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Not classified | Recent Pat Anti Infect Drug Discov | Pegylated interferons for chronic hepatitis B; adefovir listed among approved HBV drugs |
-| [24797262](https://pubmed.ncbi.nlm.nih.gov/24797262/) | 2014 | Not classified | Viral Immunol | Serum cytokine profiles associated with HBeAg seroconversion after stopping nucleos(t)ide therapy |
+| [16699274](https://pubmed.ncbi.nlm.nih.gov/16699274/) | 2006 | Not classified | Dig Dis | Established and emerging viral hepatitis therapies; adefovir listed as licensed for hepatitis B only |
+| [18221137](https://pubmed.ncbi.nlm.nih.gov/18221137/) | 2006 | Not classified | Recent Pat Anti-Infect Drug Discov | Pegylated interferons for chronic hepatitis B; adefovir among approved HBV drugs |
+| [16107195](https://pubmed.ncbi.nlm.nih.gov/16107195/) | 2005 | Not classified | Expert Rev Anti Infect Ther | Peginterferon alfa-2a for hepatitis B; adefovir monotherapy described as unsatisfactory |
+| [15918324](https://pubmed.ncbi.nlm.nih.gov/15918324/) | 2004 | Not classified | Lijec Vjesn | Treatment and prevention of viral hepatitis |
 | [22370225](https://pubmed.ncbi.nlm.nih.gov/22370225/) | 2012 | Guideline/Consensus | Orv Hetil | Hungarian consensus guideline for hepatitis B, C and D |
-| [31572002](https://pubmed.ncbi.nlm.nih.gov/31572002/) | 2019 | Not classified | Cancer Manag Res | Antiviral therapy and survival in HBV-related small hepatocellular carcinoma |
-
-None of these publications reports adefovir activity against HCV.
-
----
+| [19149648](https://pubmed.ncbi.nlm.nih.gov/19149648/) | 2009 | Not classified | Med Chem | Bicyclol for chronic hepatitis B and C; not related to adefovir |
+| [24797262](https://pubmed.ncbi.nlm.nih.gov/24797262/) | 2014 | Not classified | Viral Immunol | Cytokine profiles and HBeAg seroconversion after stopping antiviral therapy in hepatitis B |
+| [31572002](https://pubmed.ncbi.nlm.nih.gov/31572002/) | 2019 | Not classified | Cancer Manag Res | Nucleos(t)ide analogue therapy and survival in HBV-related small hepatocellular carcinoma |
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0503030B0AAAAAA | Adefovir Dipivoxil 10 mg tablets | Tablet | Indication text not available in the licence record |
+| 0503030B0AAAAAA | Adefovir Dipivoxil Tab 10mg | Not recorded | Not recorded |
 
-The identifier in the licence record resembles a BNF classification code rather than a standard PL number, so the authorisation details should be verified against the MHRA register. One single-ingredient authorisation is recorded as valid.
-
----
+The local data show one valid single-ingredient authorisation. The BNF classification code appears to be embedded in the record number (section 5.3.3.2, chronic hepatitis B antivirals), but the indication text is not recorded.
 
 ## Safety Considerations
 
-- **Contraindications suggested by the knowledge graph** (not taken from label text, so they need confirmation in the SmPC): kidney disease, pyoureter, obesity disorder, monogenic obesity, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis.
-- **Renal function**: one retrieved review (PMID 25027705) addresses the effects of antivirals on kidney function. Nephrotoxicity is a recognised concern with adefovir and was dose-limiting in HIV studies.
-- **Drug interactions**: 25 potential interactions were identified, none with a severity grading in the source. Examples include proton pump inhibitors (pantoprazole, omeprazole, lansoprazole, rabeprazole), H2 antagonists (ranitidine, famotidine), warfarin, heparin, ibuprofen, morphine, lidocaine, kanamycin, prednisolone and potassium chloride. These are unverified, so check against the SmPC and BNF.
+- **Contraindications and warnings (label text):** Not available in the data compiled for this report. Please refer to the SmPC and BNF.
+- **Drug Interactions:** 25 potential interactions were identified, none with a graded severity. Examples include pantoprazole, omeprazole, lansoprazole, rabeprazole, ranitidine, famotidine, morphine, warfarin, heparin, ibuprofen, prednisolone, kanamycin and potassium chloride. Review each combination against the SmPC and BNF.
+- **Other cautions:** Renal toxicity is a recognised dose-limiting effect of adefovir, and the literature describes kidney injury during long-term therapy. Lactic acidosis and liver disease (fatty liver, steatohepatitis) are also relevant concerns for this drug class. Monitor renal function.
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The HCV prediction has no registered trials, no supporting HCV-specific publications and no plausible mechanistic link. Modern direct-acting antivirals already treat HCV effectively, so there is also no clear unmet need.
+The prediction rests on a model score alone. There are no trials or publications of adefovir in chronic hepatitis C, and there is no plausible mechanism, since HCV is an RNA virus not targeted by this DNA polymerase inhibitor. Direct-acting antivirals already exist for HCV.
 
 **To proceed, the following is needed:**
-- In vitro evidence of adefovir activity against HCV, to establish any mechanistic basis
-- Detailed mechanism of action data and verified UK licence details (authorisation number and indication text)
-- A renal safety monitoring plan, given the known nephrotoxicity risk
-- If a repurposing direction is still wanted, assess HIV (which has Phase 2 data) or HBV co-infection settings instead
+- Laboratory evidence of anti-HCV activity (for example replicon assays)
+- A defensible mechanistic rationale for activity against NS5B or other HCV targets
+- Mechanism of action data and label safety information (warnings, contraindications) for the UK product
+- A benefit-risk assessment that addresses nephrotoxicity against current HCV standard of care
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

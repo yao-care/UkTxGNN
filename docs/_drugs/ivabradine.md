@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-15
-description: "Ivabradine: predicted new indication Hypertrichosis (evidence level L5). Approved use: Not stated in the data compiled for this report"
+last_modified_at: 2026-10-28
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
+description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ivabradine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Ivabradine: From Heart Rate Control to Hypertrichosis
+## Ivabradine: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report |
-| Predicted New Indication | Hypertrichosis |
-| TxGNN Prediction Score | 99.79% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,13 +59,13 @@ Ivabradine inhibits HCN (hyperpolarisation-activated cyclic nucleotide-gated) ch
 
 No direct mechanistic link between HCN channel inhibition and hypertrichosis has been established. HCN channels are expressed in some non-cardiac tissues, but a role in hair follicle biology is speculative. Ambras-type hypertrichosis, for example, is linked to genomic rearrangements near TRPS1, which is not an HCN pathway.
 
-The very high score (99.79%) is a knowledge-graph prediction only. The other top-ranked predictions are also hair- or developmental-related conditions, and they likely share network neighbours with hypertrichosis rather than providing independent biological support. Other predictions with the same L5 evidence level and a Hold recommendation:
+The very high score (0.9979) is a TxGNN model (deep learning) prediction only. The other top-ranked predictions are also hair- or developmental-related conditions, and they likely share network neighbours with hypertrichosis rather than providing independent biological support. Other predictions with the same L5 evidence level and a Hold recommendation:
 
-- Ambras type hypertrichosis universalis congenita (99.72%)
-- Malformation syndrome with odontal and/or periodontal component (99.72%)
-- Syndrome with a Dandy-Walker malformation as major feature (99.70%)
-- Isolated genetic hair shaft abnormality (99.69%)
-- Nephrogenic syndrome of inappropriate antidiuresis (99.08%)
+- Ambras type hypertrichosis universalis congenita (0.9972)
+- Malformation syndrome with odontal and/or periodontal component (0.9972)
+- Syndrome with a Dandy-Walker malformation as major feature (0.9970)
+- Isolated genetic hair shaft abnormality (0.9969)
+- Nephrogenic syndrome of inappropriate antidiuresis (0.9908)
 
 ## Clinical Trial Evidence
 

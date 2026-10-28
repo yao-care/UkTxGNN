@@ -8,6 +8,7 @@ nav_order: 160
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Chlorpropamide
@@ -51,8 +52,8 @@ and the evidence pack contains **no clinical trials** or **publications** to sup
 | Predicted New Indication | None — no predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No predictions or supporting studies) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

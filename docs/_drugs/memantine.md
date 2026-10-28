@@ -47,10 +47,10 @@ The TxGNN model's most clinically supported prediction is **migraine disorder** 
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Migraine disorder (rank 2; selected because rank 1, pulmonary hypertension, has no supporting evidence) |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L1 (provisional; based on one small Phase 3 trial) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| TxGNN Prediction Score | 0.9952 |
+| Evidence Level | L5 (provisional; based on one small Phase 3 trial) |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?

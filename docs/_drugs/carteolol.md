@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Carteolol
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 135
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Carteolol: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Hypertension, open-angle glaucoma and ocular hypertension"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Carteolol: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Carteolol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,62 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Carteolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Carteolol: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Carteolol: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidate indications for Carteolol, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug. This page records its market status in the United Kingdom.
 
-Carteolol is a non-selective beta-blocker with intrinsic sympathomimetic activity, originally used for hypertension, open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
-but at present there are **no clinical trials and no publications** supporting this specific prediction; it rests on model output alone.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, open-angle glaucoma and ocular hypertension (from the knowledge graph; no approved indication text is available in the UK licence data) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
----
+## Known uses among the model's candidates
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, carteolol is a non-selective beta-adrenergic blocker with intrinsic sympathomimetic activity. In the eye it lowers intraocular pressure (IOP) by reducing aqueous humour production. Its efficacy in open-angle glaucoma and ocular hypertension is established.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Raised IOP is the main modifiable risk factor across glaucoma subtypes, so there is a plausible mechanistic basis for use in primary hereditary glaucoma (for example, MYOC- or CYP1B1-related forms). The very high TxGNN score is likely driven by the close proximity of this condition to the approved glaucoma indications in the knowledge graph, and it should not be read as evidence of clinical benefit.
-
-There is an important caveat. Some hereditary glaucomas, such as primary congenital glaucoma, are caused by developmental anomalies of the anterior chamber angle and are usually managed surgically. In those cases, medical IOP lowering would be an adjunct at best.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000K0AAABAB | Carteolol HCl Eye Drops 2% | Eye drops (per product name) | Not available in the data compiled |
-
-The licence number above is reproduced as recorded and does not follow the usual UK "PL XXXXX/XXXX" format, so it should be checked against the MHRA register. Manufacturer, dosage form and indication text are also missing from the record. NICE appraisal and BNF classification details were not available.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 1106000K0AAABAB | Carteolol HCl_Eye Dps 2% |  | Valid |
 
 ## Safety Considerations
 
@@ -100,20 +84,6 @@ Product-specific warnings and contraindications from the label are not available
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported only by the model score (L5), with no trials or publications for primary hereditary glaucoma. Label-level safety information is missing, and some hereditary glaucomas are mainly treated surgically, which limits the likely benefit of an IOP-lowering drug.
-
-**To proceed, the following is needed:**
-- Mechanism of action data, to support the mechanistic-link analysis
-- Label-level warnings and contraindications from the SmPC and BNF, which are currently a blocking gap for safety screening
-- A literature and trial search specific to carteolol in hereditary or primary congenital glaucoma subtypes
-- Clarification of the UK licence record (dosage form, manufacturer, approved indication, licence number format)
-- Assessment of route compatibility (topical ophthalmic use) and of how far the prediction differs from the existing open-angle glaucoma indication
-- Clinical input on which hereditary glaucoma subtypes could realistically benefit from medical IOP lowering
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

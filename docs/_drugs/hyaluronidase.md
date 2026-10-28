@@ -46,16 +46,16 @@ The Phase 3 results were not available in the data compiled for this report, so 
 
 ## Quick Overview
 
-The first-ranked TxGNN prediction (esotropia) has no clinical support. This report therefore focuses on diabetic retinopathy, which has the strongest evidence among the predictions. Its model score is 99.71% (rank 6 of 10).
+The first-ranked TxGNN prediction (esotropia) has no clinical support. This report therefore focuses on diabetic retinopathy, which has the strongest evidence among the predictions. Its model score is 0.9971 (rank 6 of 10).
 
 | Item | Content |
 |------|------|
 | Original Indication | Not available in the UK licence data |
 | Predicted New Indication | Diabetic retinopathy (top-ranked prediction by TxGNN score: esotropia, which is unsupported) |
-| TxGNN Prediction Score | 99.71% (diabetic retinopathy); 99.89% (esotropia) |
-| Evidence Level | L1 (two completed Phase 3 trials; results not available) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9971 (diabetic retinopathy); 0.9989 (esotropia) |
+| Evidence Level | L5 (two completed Phase 3 trials; results not available) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only; verify published Phase 3 results first) |
 
 ---

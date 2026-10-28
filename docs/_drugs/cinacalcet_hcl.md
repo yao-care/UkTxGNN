@@ -8,6 +8,7 @@ nav_order: 168
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cinacalcet Hcl
@@ -49,8 +50,8 @@ Cinacalcet hydrochloride is a calcimimetic agent primarily used in the managemen
 | Predicted New Indication | **None** — no TxGNN predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** (No model predictions or supporting studies) |
-| UK Market Status | Not marketed (per evidence pack data) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?

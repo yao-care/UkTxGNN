@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-15
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Pioglitazone"
-predicted_indications: ["opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 ---
 
 # Pioglitazone
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 Pioglitazone is an insulin-sensitising agent (a PPAR-gamma agonist) originally used to treat type 2 diabetes mellitus.
 The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia,
-but there are currently **no clinical trials** and **no publications** supporting this prediction. The score is a graph-based prediction only.
+but there are currently **no clinical trials** and **no publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -48,17 +48,17 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Opsismodysplasia |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, pioglitazone is a thiazolidinedione (PPAR-gamma agonist) whose efficacy in type 2 diabetes is well established. It improves insulin sensitivity and may support beta-cell function.
 
-Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a negative regulator of PI3K/insulin signalling. The only conceivable link is a shared insulin-signalling pathway. No direct connection between PPAR-gamma agonism and the disease mechanism has been established, so the high score should be treated as a graph-based association rather than a validated mechanistic rationale.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations. INPPL1 encodes SHIP2, a negative regulator of PI3K/insulin signalling. The only conceivable link is a shared insulin-signalling pathway. No direct connection between PPAR-gamma agonism and the disease mechanism has been established, so the high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 For context, other top-ranked predictions are also unsupported by trial or literature data:
 
@@ -85,7 +85,7 @@ Only one single-ingredient authorisation is recorded. The identifier is not in s
 
 ## Safety Considerations
 
-- **Contraindications (knowledge-graph associations, not label text):** kidney disease, liver disease, gallbladder disease, congestive heart failure, adrenocortical insufficiency/Addison disease, infectious disease, thymus gland disease, and several pituitary and growth hormone deficiency or hypogonadotropic hypogonadism conditions (including hypopituitarism, Sheehan syndrome and Kallmann syndrome). Congestive heart failure is the most clinically familiar of these for pioglitazone. These associations should be confirmed against the SmPC.
+- **Contraindications (associations from the TxGNN model (deep learning), not label text; they may reflect similarities the model learned between related diseases, not biological evidence):** kidney disease, liver disease, gallbladder disease, congestive heart failure, adrenocortical insufficiency/Addison disease, infectious disease, thymus gland disease, and several pituitary and growth hormone deficiency or hypogonadotropic hypogonadism conditions (including hypopituitarism, Sheehan syndrome and Kallmann syndrome). Congestive heart failure is the most clinically familiar of these for pioglitazone. These associations should be confirmed against the SmPC.
 - **Drug Interactions:** 100 interactions were recorded. Most examples shown are Moderate, for example:
   - Hydrochlorothiazide
   - Hydrocortisone

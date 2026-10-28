@@ -4,7 +4,7 @@ title: Carbamazepine
 parent: Model Prediction Only (L5)
 nav_order: 131
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (also partial epilepsy, bipolar disorder…"
 monitor_inn: "Carbamazepine"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficien
 # Carbamazepine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Carbamazepine is an established antiseizure medicine, originally used for epilepsy, bipolar disorder and trigeminal neuralgia.
-The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (score 99.998%), but **no clinical trials** are registered and the 18 publications retrieved are mostly case reports and reviews of tumour-related neuralgia, not treatment of the tumour itself. The evidence is therefore weak.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (score 1.0000), but **no clinical trials** are registered and the 18 publications retrieved are mostly case reports and reviews of tumour-related neuralgia, not treatment of the tumour itself. The evidence is therefore weak.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (
 |------|------|
 | Original Indication | Epilepsy (also partial epilepsy, bipolar disorder, Lennox-Gastaut syndrome, trigeminal and glossopharyngeal neuralgia) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.998% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,9 +61,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Carbamazepine is widely known to block voltage-gated sodium channels, which reduces abnormal repetitive neuronal firing. This is the basis of its use in epilepsy and trigeminal neuralgia.
 
-The predicted indication is probably a semantic artefact. Trigeminal neuralgia is a listed original indication, and the retrieved papers describe neuralgia that is *secondary to* tumours or masses (schwannoma, lipoma, meningioma, dermoid cyst, lymphoma). In these reports carbamazepine controls the pain symptomatically, and in several cases it failed or was poorly tolerated. This is symptom control, not an antineoplastic effect. The high TxGNN score most likely reflects the closeness of "trigeminal nerve neoplasm" to "trigeminal neuralgia" in the knowledge graph.
+The predicted indication is probably a semantic artefact. Trigeminal neuralgia is a listed original indication, and the retrieved papers describe neuralgia that is *secondary to* tumours or masses (schwannoma, lipoma, meningioma, dermoid cyst, lymphoma). In these reports carbamazepine controls the pain symptomatically, and in several cases it failed or was poorly tolerated. This is symptom control, not an antineoplastic effect. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as "trigeminal nerve neoplasm" and "trigeminal neuralgia", not biological evidence.
 
-Other high-ranking predictions (reflex seizure syndromes such as startle epilepsy, audiogenic, reading, eating and micturition-induced seizures) are best viewed as extensions of the existing epilepsy indication. They are not new therapeutic areas.
 
 ---
 
@@ -103,7 +102,7 @@ One valid single-ingredient authorisation is recorded. Dosage form and indicatio
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from knowledge-graph associations, not label text):**
+**Contraindications and conditions of concern (from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence, and not label text):**
 - **Haematological:** neutropenia, agranulocytosis, pancytopenia, thrombocytopenia, anaemia, and congenital or cyclic neutropenia syndromes
 - **Cardiovascular:** atrioventricular block and heart conduction disease, coronary artery disease, sudden cardiac arrest, hypertension
 - **Hepatic and renal:** liver disease, kidney disease, impaired renal function, gallbladder disease

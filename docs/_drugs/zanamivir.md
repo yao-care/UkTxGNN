@@ -4,17 +4,17 @@ title: Zanamivir
 parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
 monitor_inn: "Zanamivir"
-predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "disorder of phenylalanine metabolism", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "dengue virus, susceptibility to", "aspergillosis, susceptibility to", "legionnaire disease, susceptibility to", "susceptibility to HIV infection", "Schistosoma mansoni infection, susceptibility"]
+predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 ---
 
 # Zanamivir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but this is
 |------|------|
 | Original Indication | Influenza (approved indication text is not available in the UK licence record) |
 | Predicted New Indication | Pyelonephritis |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Zanamivir is known to be a viral neuraminidase inhibitor, and its efficacy in influenza is established.
 
-Pyelonephritis is typically a bacterial infection of the kidney. No plausible mechanistic link to viral neuraminidase inhibition has been identified, and the high TxGNN score appears to be a graph-based prediction without supporting clinical or literature evidence. On current information, the prediction is not mechanistically credible.
+Pyelonephritis is typically a bacterial infection of the kidney. No plausible mechanistic link to viral neuraminidase inhibition has been identified, and the high score comes from the TxGNN model (deep learning). It may reflect similarities the model learned between related diseases, not biological evidence, and there is no supporting clinical or literature evidence. On current information, the prediction is not mechanistically credible.
 
 Other top-ranked predictions (for example disorders of tyrosine and phenylalanine metabolism, dengue susceptibility, aspergillosis susceptibility, Legionnaires' disease susceptibility, HIV susceptibility and schistosomiasis susceptibility) show the same pattern. None has a supporting clinical trial, and the few publications retrieved concern influenza antiviral resistance and are unrelated to those conditions.
 

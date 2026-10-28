@@ -50,10 +50,10 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 |------|------|
 | Original Indication | Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) |
-| TxGNN Prediction Score | 99.62% (trigeminal nerve neoplasm); 99.18% (trigeminal neuralgia) |
+| TxGNN Prediction Score | 0.9962 (trigeminal nerve neoplasm); 0.9918 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L4 (trigeminal neuralgia) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); trigeminal neuralgia remains a research question |
 
 ---
@@ -62,7 +62,7 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacological knowledge, felbamate is thought to act through NMDA receptor (glycine site) antagonism and GABAergic potentiation, and may modulate sodium channels.
 
-**Trigeminal nerve neoplasm:** These actions could relieve neuropathic symptoms linked to trigeminal nerve involvement, but they offer no plausible antitumour effect. The high score is probably driven by network proximity to trigeminal neuralgia and other nerve-related nodes in the knowledge graph, not by tumour biology. The prediction should be regarded as a graph-based artefact rather than a credible oncology signal.
+**Trigeminal nerve neoplasm:** These actions could relieve neuropathic symptoms linked to trigeminal nerve involvement, but they offer no plausible antitumour effect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia and other nerve-related conditions, not biological evidence. The prediction should be regarded as a model-based result rather than a credible oncology signal.
 
 **Trigeminal neuralgia:** This condition involves ectopic, hyperexcitable firing of trigeminal afferents, and first-line drugs (carbamazepine, oxcarbazepine) act on voltage-gated sodium channels. Felbamate's mechanisms give it a plausible basis for neuropathic pain, and the link to its original antiepileptic use is much stronger.
 
@@ -101,7 +101,7 @@ Felbamate sits in the BNF antiepileptic section (chapter 4, central nervous syst
 
 ## Safety Considerations
 
-- **Contraindications and risk conditions (from knowledge graph associations, not label text):** long QT syndrome (including familial), torsades de pointes, liver failure and liver disease, gallbladder disease, kidney disease, haematologic disease, aplastic anaemia (including idiopathic), porphyria and other porphyrin metabolism diseases, anxiety disorder, neurotic disorder, dysthymic disorder, and pyoureter.
+- **Contraindications and risk conditions (not label text):** long QT syndrome (including familial), torsades de pointes, liver failure and liver disease, gallbladder disease, kidney disease, haematologic disease, aplastic anaemia (including idiopathic), porphyria and other porphyrin metabolism diseases, anxiety disorder, neurotic disorder, dysthymic disorder, and pyoureter.
 - **Key warnings:** Felbamate is associated with serious risks of aplastic anaemia and hepatic failure (boxed warnings), and a case report describes delayed anaphylaxis. Please confirm the details in the SmPC.
 - **Drug interactions:** 100 interactions were identified in the compiled data. The 20 listed were all of Moderate severity. They include:
   - Opioids: morphine (including liposomal), opium

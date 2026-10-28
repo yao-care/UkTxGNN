@@ -48,10 +48,10 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Breast fibrocystic disease |
-| TxGNN Prediction Score | 99.23% |
+| TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,9 +66,9 @@ Other predicted indications were also reviewed, all at the same L5 level with no
 
 | Rank | Predicted Indication | TxGNN Score |
 |------|------|------|
-| 2 | Pituitary hormone deficiency of vascular origin | 99.23% |
-| 3 | Hypogonadotropic hypogonadism-frontoparietal alopecia syndrome | 99.21% |
-| 4 | Non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations | 99.08% |
+| 2 | Pituitary hormone deficiency of vascular origin | 0.9923 |
+| 3 | Hypogonadotropic hypogonadism-frontoparietal alopecia syndrome | 0.9921 |
+| 4 | Non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations | 0.9908 |
 
 For these, oxandrolone does not replace the deficient hormones, which remain the standard of care. Any benefit would be speculative, such as adjunctive anabolic support.
 

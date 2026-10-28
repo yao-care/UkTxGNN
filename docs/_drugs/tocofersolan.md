@@ -4,17 +4,17 @@ title: Tocofersolan
 parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Tocofersolan: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not stated in the data compiled for this report"
+description: "Tocofersolan: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Tocofersolan"
-predicted_indications: ["amenorrhea (disease)", "acne (disease)", "malignant catarrh", "infectious bovine rhinotracheitis", "conjunctivitis", "cytomegalovirus infection", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "roseolovirus infectious disease", "peripheral arterial disease"]
+predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
 ---
 
 # Tocofersolan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tocofersolan: From Vitamin E Supplementation to Amenorrhoea
+## Tocofersolan: From Vitamin E Supplementation to amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.31% |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A link to amenorrhoea is speculative. Vitamin E has been loosely discussed in relation to reproductive hormone balance and oxidative stress, but no mechanism has been established for this drug. The high TxGNN score is a computational output only and is not supported by any trial or literature evidence.
 
-Other top-ranked predictions are similarly weak. Several (malignant catarrh, infectious bovine rhinotracheitis) are veterinary diseases with no human relevance and probably reflect knowledge-graph artefacts. Others, such as acne, conjunctivitis and peripheral arterial disease, have only a plausible indirect antioxidant or anti-inflammatory rationale, with no evidence for tocofersolan.
+Other top-ranked predictions are similarly weak. Some, such as acne, have only a plausible indirect antioxidant or anti-inflammatory rationale, with no evidence for tocofersolan.
 
 ---
 

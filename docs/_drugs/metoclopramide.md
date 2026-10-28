@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 407
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L4). Approved use: Gastro-oesophageal reflux disease"
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
+description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metoclopramide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Metoclopramide: From Gastro-oesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: Gastroduodenitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastro-oesophageal reflux disease; oesophagitis (peptic oesophagitis) |
-| Predicted New Indication | Gastric ulcer |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Gastroduodenitis |
+| TxGNN Prediction Score | 0.9990 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist prokinetic. It enhances gastric emptying and raises lower oesophageal sphincter tone, which explains its use in reflux disease.
 
-The relationship between the original and predicted indications is indirect. Metoclopramide does not suppress acid or protect the mucosa, so it has no direct ulcer-healing action. It may relieve symptoms of delayed gastric emptying or duodenogastric reflux that coexist with ulcer disease. The high TxGNN score probably reflects how close gastric ulcer sits to reflux and oesophagitis in the knowledge graph, rather than an ulcer-specific mechanism.
+The relationship between the original and predicted indications is indirect. Metoclopramide does not suppress acid or protect the mucosa, so it has no direct ulcer-healing action. It may relieve symptoms of delayed gastric emptying or duodenogastric reflux that coexist with ulcer disease.
 
 Other candidate indications ranked by the model (gastroduodenitis, peptic ulcer disease, peptic ulcer perforation, gastrojejunal ulcer) have even weaker support. For peptic ulcer perforation, prokinetics have no plausible therapeutic role and could be harmful.
 
@@ -126,7 +126,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on knowledge-graph proximity rather than clinical evidence. Metoclopramide has no direct ulcer-healing mechanism, and the only trial and recent RCTs concern endoscopic visualisation in GI bleeding, not ulcer treatment. The graph-listed caution for active peptic ulcer disease adds further concern.
+Metoclopramide has no direct ulcer-healing mechanism, and the only trial and recent RCTs concern endoscopic visualisation in GI bleeding, not ulcer treatment. The graph-listed caution for active peptic ulcer disease adds further concern.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear rationale for an ulcer-specific effect

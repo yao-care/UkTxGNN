@@ -48,10 +48,10 @@ but there are currently **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Dry eye syndrome; xerophthalmia |
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 A speculative link is that these properties could, in theory, support hydration of a dry surface, whether ocular or skin. However, congenital ichthyosiform erythroderma is a genetic disorder of epidermal barrier function and lipid metabolism (for example, mutations in *TGM1*, *ALOXE3*, *ALOX12B* and *NIPAL4*). Nothing in the data compiled for this report shows that povidone acts on these keratinisation defects.
 
-The high TxGNN score is a knowledge-graph prediction only. It should be treated as a hypothesis for further investigation, not as evidence of efficacy.
+The high TxGNN score is a TxGNN model (deep learning) prediction only. It should be treated as a hypothesis for further investigation, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -97,7 +97,7 @@ Please refer to the SmPC and BNF for authoritative safety information. Report su
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score. There are no trials or publications, the mechanism of action is unavailable, and the proposed link to a genetic keratinisation disorder is biologically implausible for a lubricating polymer.
+The prediction is supported only by a TxGNN model (deep learning) score. There are no trials or publications, the mechanism of action is unavailable, and the proposed link to a genetic keratinisation disorder is biologically implausible for a lubricating polymer.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank)

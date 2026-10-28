@@ -6,7 +6,7 @@ nav_order: 266
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Etonogestrel: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not stated in the data compiled for this report (implant product…"
+description: "Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (implant product…"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Etonogestrel: From Contraception to Amenorrhoea
+## Etonogestrel: From Contraception to Amenorrhea (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant. Th
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (implant product, 68 mg) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.84% |
+| TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 This prediction is probably not a genuine therapeutic signal. Amenorrhoea is a well-known effect of the etonogestrel implant, which alters bleeding patterns. The model has likely picked up an existing pharmacological action, not a treatment use. Using a drug that induces amenorrhoea to treat amenorrhoea is mechanistically contradictory.
 
-Other predicted indications are benign breast conditions: fibrocystic breast disease (score 99.61%), blunt duct adenosis of the breast and apocrine adenosis of the breast (both 99.29%, identical scores that suggest a shared graph-neighbourhood artefact), and benign mammary dysplasia (99.21%). The rationale is hypothetical progestogenic counter-regulation of oestrogen-driven breast tissue proliferation. None has supporting trials or publications.
+Other predicted indications are benign breast conditions: fibrocystic breast disease (score 0.9961), blunt duct adenosis of the breast and apocrine adenosis of the breast (both 0.9929, identical scores that come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence), and benign mammary dysplasia (0.9921). The rationale is hypothetical progestogenic counter-regulation of oestrogen-driven breast tissue proliferation. None has supporting trials or publications.
 
 ---
 

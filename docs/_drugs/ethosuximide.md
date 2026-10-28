@@ -48,10 +48,10 @@ but currently there are **no clinical trials** and **no publications** supportin
 |------|------|
 | Original Indication | Absence epilepsy |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Currently, detailed mechanism of action data is not available in the data compil
 
 NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*) or, in some cases, *GNAS*. These produce constitutive receptor activity and water retention despite low vasopressin levels. A link between T-type calcium channel blockade and this process has not been established. Any connection, for example through renal calcium signalling or aquaporin-2 regulation, is speculative.
 
-The very high TxGNN score (99.91%, model rank 1420) is a model-based prediction only. It may reflect proximity within the knowledge graph rather than a true therapeutic relationship, and should not be treated as clinical evidence.
+The very high TxGNN score (0.9991, model rank 1420) is a model-based prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be treated as clinical evidence.
 
 ## Clinical Trial Evidence
 

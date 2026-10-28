@@ -4,7 +4,7 @@ title: Zonisamide
 parent: Model Prediction Only (L5)
 nav_order: 663
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Zonisamide"
@@ -14,7 +14,7 @@ predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobine
 # Zonisamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The only related signal found is a review reporting that antiseizure medications
 |------|------|
 | Original Indication | Epilepsy (the licence indication text was not recorded in the data compiled for this report) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The only related signal found is a review reporting that antiseizure medications
 
 Currently, detailed mechanism of action data is not available. Based on known pharmacology, zonisamide blocks voltage-gated sodium channels and T-type calcium channels, and it is thought to have weak dopaminergic and serotonergic effects. Its efficacy in epilepsy is established, and these actions could plausibly modulate the neural circuits involved in tics.
 
-This link is **speculative**. The high TxGNN score is a computational prediction from a knowledge graph and is not clinical evidence. The mechanistic reasoning has not been tested in Tourette syndrome. One review found during the evidence search (PMID 36005856) points the other way, as it describes antiseizure medication-induced obsessive-compulsive and tic disorders.
+This link is **speculative**. The high TxGNN score is a prediction from the TxGNN model (deep learning) and is not clinical evidence. The mechanistic reasoning has not been tested in Tourette syndrome. One review found during the evidence search (PMID 36005856) points the other way, as it describes antiseizure medication-induced obsessive-compulsive and tic disorders.
 
 ---
 

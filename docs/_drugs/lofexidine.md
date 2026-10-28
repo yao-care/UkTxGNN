@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but the 
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.42% |
+| TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ A plausible link to migraine exists because other alpha-2 agonists, such as clon
 
 This reasoning is a hypothesis. The high TxGNN score is a computational prediction only, and no clinical evidence currently supports lofexidine for migraine.
 
-A second prediction, **migraine with brainstem aura** (score 99.26%), appears to be inherited from the broader migraine association. No specific mechanism links lofexidine to brainstem aura pathophysiology, and no trials or publications support it.
+A second prediction, **migraine with brainstem aura** (score 0.9926), appears to be inherited from the broader migraine association. No specific mechanism links lofexidine to brainstem aura pathophysiology, and no trials or publications support it.
 
 ## Clinical Trial Evidence
 

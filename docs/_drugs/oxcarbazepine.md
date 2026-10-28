@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Moderate Evidence (L3-L4)
 nav_order: 468
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Oxcarbazepine: predicted new indication Visual epilepsy (evidence level L4). Approved use: Partial epilepsy"
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Oxcarbazepine: From Partial Epilepsy to Visual Epilepsy
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Oxcarbazepine is an antiseizure medicine originally used for partial (focal) epilepsy.
-The TxGNN model predicts it may be effective for **visual epilepsy**,
 but there are currently **no registered clinical trials** and only **general epilepsy literature** (reviews and guidelines) supporting this direction. Among the other predicted indications, restless legs syndrome has the only indication-specific human reports (case reports).
 
 ---
@@ -48,12 +47,12 @@ but there are currently **no registered clinical trials** and only **general epi
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy (the MHRA indication text is not available in the data compiled for this report) |
-| Predicted New Indication | Visual epilepsy |
-| TxGNN Prediction Score | 99.95% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Restless legs syndrome |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -68,15 +67,12 @@ Visual (occipital or photosensitive) epilepsy is a focal or reflex seizure type.
 
 | Predicted Indication | TxGNN Score | Evidence Level | Key Point |
 |------|------|------|------|
-| Restless legs syndrome | 99.89% | L4 | Three-case series and a paroxetine-induced case report; no controlled trials |
-| Status epilepticus | 99.87% | L4 | Case report/series in refractory status epilepticus; one report of oxcarbazepine-induced myoclonic status epilepticus |
-| Eating, orgasm-induced, startle, micturition-induced, audiogenic, thinking and reading seizures | 99.84%–99.89% | L4–L5 | No indication-specific human trial evidence; support is indirect or preclinical |
+| Restless legs syndrome | 0.9989 | L4 | Three-case series and a paroxetine-induced case report; no controlled trials |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for visual epilepsy, nor for any of the other predicted indications reviewed.
 
 ---
 

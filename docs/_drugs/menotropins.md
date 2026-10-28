@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Menotropins
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 392
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Menotropins: predicted new indication Peptic esophagitis (evidence level L5). Approved use: Not stated in the data compiled for this report"
+description: "Menotropins: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Menotropins"
-predicted_indications: ["peptic esophagitis", "postural orthostatic tachycardia syndrome", "esophageal disease", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal ulcer", "His bundle tachycardia", "sinoatrial block", "progressive familial heart block", "sinoatrial node disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Menotropins
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,48 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Menotropins: From Gonadotropin Therapy to Peptic Esophagitis
+## Menotropins
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Menotropins is a urinary-derived gonadotropin (FSH/LH) preparation used to stimulate follicular development and spermatogenesis. The TxGNN model predicts it may be effective for **peptic esophagitis**, but **no clinical trials and no publications** currently support this direction, and no plausible biological mechanism has been identified.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the data compiled for this report (the UK licence record contains no indication text) |
-| Predicted New Indication | Peptic esophagitis |
-| TxGNN Prediction Score | 98.44% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacology, menotropins is a urinary-derived FSH/LH gonadotropin that acts on gonadal FSH and LH receptors to stimulate follicular development and spermatogenesis.
-
-No plausible mechanistic link to peptic esophagitis has been identified. Oesophageal mucosal injury from acid reflux is not known to involve gonadotropin signalling. The high TxGNN score most likely reflects knowledge-graph topology rather than biological rationale, and should be treated as a computational output only.
-
-The other top-ranked predictions show the same pattern. Most are oesophageal terms (oesophageal disease, oesophageal ulcer, oesophageal malformation), which likely cluster together through graph proximity. The remainder are cardiovascular or autonomic conditions (postural orthostatic tachycardia syndrome, Raynaud disease, sinoatrial block, His bundle tachycardia, progressive familial heart block, sinoatrial node disease), none with a supporting mechanism or evidence. For Raynaud disease, gonadotropin therapy can raise oestrogen levels and carries thromboembolic risk, so it could plausibly be unfavourable in vascular disorders.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ---
 
@@ -97,19 +67,6 @@ No warning or contraindication text was available in the compiled data. Please r
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on model output alone (L5). There are no trials or publications, no plausible mechanism linking gonadotropin signalling to peptic esophagitis, and key regulatory and safety data are missing.
-
-**To proceed, the following is needed:**
-- Mechanism of action data and a credible biological rationale linking gonadotropin activity to oesophageal mucosal disease
-- Approved indication and warning/contraindication text from the SmPC and BNF
-- Preclinical or observational evidence supporting any benefit in peptic esophagitis
-- Route and formulation compatibility assessment (currently an injectable product)
-- Comparison against established treatments (for example, proton pump inhibitors) before further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

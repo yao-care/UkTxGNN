@@ -47,24 +47,24 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 |------|------|
 | Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and others (the UK licence record contains no indication text) |
 | Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.81% |
+| TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is established, but there is no identifiable mechanistic link to hyperamylasemia.
 
-Hyperamylasemia is a laboratory finding with many causes (pancreatic, salivary and renal), not a disease that an antibacterial would be expected to treat. The high TxGNN score is most likely an artefact of the knowledge graph rather than a true pharmacological signal.
+Hyperamylasemia is a laboratory finding with many causes (pancreatic, salivary and renal), not a disease that an antibacterial would be expected to treat. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other predictions in the list have more plausible, though still indirect, rationales. These are not the primary prediction but are worth noting:
 
-- **Punctate epithelial keratoconjunctivitis (score 99.78%):** conjunctivitis is already an original indication, and azithromycin has anti-inflammatory effects on the ocular surface. The only supplied paper is a case report on microsporidial keratoconjunctivitis that does not test azithromycin.
-- **Monoclonal gammopathy (score 99.61%):** one in vitro study shows macrolides block autophagy flux and sensitise myeloma cells to bortezomib. This is preclinical only.
-- **Sickle cell disease and other congenital haematological disorders (score 99.40%):** azithromycin's anti-inflammatory effects could plausibly reduce acute chest syndrome. Two trials testing this were withdrawn with no participants enrolled.
-- **Septicaemic plague (score 99.52%):** an in vitro study found azithromycin had poor activity against *Yersinia pestis* strains, and effective standard treatments already exist.
+- **Punctate epithelial keratoconjunctivitis (score 0.9978):** conjunctivitis is already an original indication, and azithromycin has anti-inflammatory effects on the ocular surface. The only supplied paper is a case report on microsporidial keratoconjunctivitis that does not test azithromycin.
+- **Monoclonal gammopathy (score 0.9961):** one in vitro study shows macrolides block autophagy flux and sensitise myeloma cells to bortezomib. This is preclinical only.
+- **Sickle cell disease and other congenital haematological disorders (score 0.9940):** azithromycin's anti-inflammatory effects could plausibly reduce acute chest syndrome. Two trials testing this were withdrawn with no participants enrolled.
+- **Septicaemic plague (score 0.9952):** an in vitro study found azithromycin had poor activity against *Yersinia pestis* strains, and effective standard treatments already exist.
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,7 @@ Please refer to the SmPC and BNF for complete safety information. Report suspect
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, hyperamylasemia, has no supporting trials or literature and no plausible mechanism, so it is best regarded as a knowledge-graph artefact (Evidence Level L5). Of the other predictions, sickle cell disease complications (acute chest syndrome prophylaxis) and ocular surface inflammation are the most biologically plausible research questions, but neither has usable clinical data.
+The top prediction, hyperamylasemia, has no supporting trials or literature and no plausible mechanism, so it is best regarded as a TxGNN model (deep learning) artefact (Evidence Level L5). Of the other predictions, sickle cell disease complications (acute chest syndrome prophylaxis) and ocular surface inflammation are the most biologically plausible research questions, but neither has usable clinical data.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for azithromycin

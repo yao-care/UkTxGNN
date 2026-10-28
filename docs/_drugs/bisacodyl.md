@@ -8,6 +8,7 @@ nav_order: 109
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bisacodyl
@@ -49,8 +50,8 @@ Bisacodyl is a stimulant laxative indicated for constipation and bowel preparati
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no model predictions generated |
-| UK Market Status | No authorisation data retrieved |
-| Number of Marketing Authorisations | 0 (data retrieval incomplete) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

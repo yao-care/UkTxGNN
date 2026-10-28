@@ -48,10 +48,10 @@ Baclofen is a GABA-B receptor agonist, widely used to treat muscle spasticity. T
 |------|------|
 | Original Indication | Muscle spasticity (the MHRA record compiled for this report carries no indication text; this is taken from the literature) |
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
-| TxGNN Prediction Score | 99.32% |
+| TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -127,7 +127,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The ADHD prediction rests on a model score alone, with no registered trials and no ADHD-specific publications. The knowledge graph also flags epilepsy and psychotic disorders, which are relevant to this population.
+The ADHD prediction rests on a model score alone, with no registered trials and no ADHD-specific publications. Epilepsy and psychotic disorders are also relevant to this population.
 
 **To proceed, the following is needed:**
 - Direct preclinical or clinical evidence of baclofen in ADHD
@@ -135,7 +135,7 @@ The ADHD prediction rests on a model score alone, with no registered trials and 
 - Review of the SmPC warnings and contraindications for paediatric and adult ADHD populations
 - A safety plan covering sedation and co-prescribed medicines
 
-**Note on the second-ranked prediction:** Baclofen is also predicted for **nicotine dependence** (score 99.19%, evidence level L2). Three Phase 2 trials exist (NCT01228994, NCT00257894, NCT01821560): two were terminated early and one was completed, and none reported results in the data compiled. Rodent studies also support an effect on nicotine reward and withdrawal. This is a more evidence-supported research question than ADHD and could be assessed in a separate report.
+**Note on the second-ranked prediction:** Baclofen is also predicted for **nicotine dependence** (score 0.9919, evidence level L2). Three Phase 2 trials exist (NCT01228994, NCT00257894, NCT01821560): two were terminated early and one was completed, and none reported results in the data compiled. Rodent studies also support an effect on nicotine reward and withdrawal. This is a more evidence-supported research question than ADHD and could be assessed in a separate report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

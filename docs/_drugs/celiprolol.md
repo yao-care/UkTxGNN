@@ -9,6 +9,7 @@ evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
 description: "Celiprolol: predicted new indication None returned by TxGNN in current dataset (evidence level L5). Approved use: Not established in UK regulatory data"
+predicted_indications: []
 ---
 
 # Celiprolol
@@ -52,8 +53,8 @@ This report documents the evaluation status and the critical data gaps that must
 | Predicted New Indication | None returned by TxGNN in current dataset |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Indeterminate — no TxGNN predictions generated |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

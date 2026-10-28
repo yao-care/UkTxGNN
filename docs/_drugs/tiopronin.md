@@ -4,17 +4,17 @@ title: Tiopronin
 parent: Model Prediction Only (L5)
 nav_order: 620
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
-description: "Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Cystinuria"
 monitor_inn: "Tiopronin"
 predicted_indications: ["renal tubular acidosis", "adult polyglucosan body disease", "tricarboxylic acid cycle disorder", "disease of transporter activity", "pyruvate metabolism disorder", "inborn disorder of fatty acid oxidation and ketone body metabolism"]
+description: "Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiopronin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tiopronin: From Cystinuria to Renal Tubular Acidosis
+## Tiopronin: Renal tubular acidosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,12 +45,12 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Cystinuria (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Renal tubular acidosis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 The link to renal tubular acidosis is loose. Renal tubular acidosis is a defect in the kidney's acid-base transport, which is not a mechanism that thiol exchange is known to address. The only connection is that both conditions involve renal tubular handling of solutes and can feature kidney stones or calcium deposition in the kidney (nephrocalcinosis).
 
-The high TxGNN score (99.63%) is a model prediction only. It should be treated as a hypothesis for further investigation, not as evidence of benefit.
+The high TxGNN score (0.9963) is a model prediction only. It should be treated as a hypothesis for further investigation, not as evidence of benefit.
 
 **Other predicted indications**
 
@@ -67,12 +67,11 @@ The model also produced other high-scoring predictions, all at evidence level L5
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Adult polyglucosan body disease | 99.53% | Caused by glycogen branching enzyme (GBE1) deficiency; no known mechanism by which tiopronin would correct this |
-| Glycogen storage disease type IV (GBE1 deficiency), fatal perinatal neuromuscular, congenital neuromuscular, adult neuromuscular and childhood neuromuscular forms | 99.12% to 99.51% | Appears to reflect graph similarity to other glycogen storage disease labels; the fatal perinatal form is ultra-rare and severe |
-| Tricarboxylic acid cycle disorder | 99.48% | Speculative antioxidant rationale only |
-| Disease of transporter activity | 99.42% | Very broad category that includes cystinuria; too nonspecific to be a repurposing target |
-| Pyruvate metabolism disorder | 99.26% | No established link; speculative redox rationale |
-| Inborn disorder of fatty acid oxidation and ketone body metabolism | 99.14% | Likely reflects shared metabolic disease categories |
+| Adult polyglucosan body disease | 0.9953 | Caused by glycogen branching enzyme (GBE1) deficiency; no known mechanism by which tiopronin would correct this |
+| Tricarboxylic acid cycle disorder | 0.9948 | Speculative antioxidant rationale only |
+| Disease of transporter activity | 0.9942 | Very broad category that includes cystinuria; too nonspecific to be a repurposing target |
+| Pyruvate metabolism disorder | 0.9926 | No established link; speculative redox rationale |
+| Inborn disorder of fatty acid oxidation and ketone body metabolism | 0.9914 | Likely reflects shared metabolic disease categories |
 
 ## Clinical Trial Evidence
 

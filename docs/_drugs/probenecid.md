@@ -6,9 +6,9 @@ nav_order: 521
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Probenecid: predicted new indication Renal hypouricaemia (evidence level L4). Approved use: Gout"
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
+description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Probenecid
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Probenecid: From Gout to Renal Hypouricaemia
+## Probenecid: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be relevant to **renal hypouricaemia**, but the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; hyperuricaemia (the licence record held no approved indication text, so these come from the knowledge-graph indication edges) |
-| Predicted New Indication | Renal hypouricaemia |
-| TxGNN Prediction Score | 99.73% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypouricemia, renal |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,7 +65,7 @@ The predicted indication is mechanistically problematic. Hereditary renal hypour
 
 The high TxGNN score probably reflects network proximity through urate-transport biology, not a therapeutic relationship. A more plausible role for probenecid is as a pharmacological probe. Several of the retrieved case reports used the uricosuric response to probenecid, alongside pyrazinamide, to characterise the tubular defect.
 
-Two lower-ranked predictions were also generated. **Lesch-Nyhan syndrome** (score 99.39%, L5) and **partial HGPRT deficiency** (score 99.37%, L5) both involve purine overproduction. In both, increasing urinary urate load may raise the risk of urate stones and nephropathy, and xanthine oxidase inhibition (for example allopurinol) is the standard of care. Neither has clinical trials. Lesch-Nyhan syndrome has two retrieved publications, a computational modelling study and a 1976 biochemical overview of Tourette syndrome. Partial HGPRT deficiency has none.
+Two lower-ranked predictions were also generated. **Lesch-Nyhan syndrome** (score 0.9939, L5) and **partial HGPRT deficiency** (score 0.9937, L5) both involve purine overproduction. In both, increasing urinary urate load may raise the risk of urate stones and nephropathy, and xanthine oxidase inhibition (for example allopurinol) is the standard of care. Neither has clinical trials. Lesch-Nyhan syndrome has two retrieved publications, a computational modelling study and a 1976 biochemical overview of Tourette syndrome. Partial HGPRT deficiency has none.
 
 ---
 

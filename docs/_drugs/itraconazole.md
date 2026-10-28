@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Itraconazole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 346
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (oesophageal candidiasis, candidaemia…"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Itraconazole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **1** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The prediction is best regarded as a model artefact rather than a credible repur
 |------|------|
 | Original Indication | Fungal infections (oesophageal candidiasis, candidaemia, histoplasmosis, aspergillosis, blastomycosis, coccidioidomycosis, sporotrichosis, fusariosis and others); no approved indication text is available for the UK product |
 | Predicted New Indication | Pneumocystosis |
-| TxGNN Prediction Score | 99.34% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9934 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The prediction is best regarded as a model artefact rather than a credible repur
 
 Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, itraconazole inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. This underlies its activity against moulds and endemic fungi such as *Aspergillus* and *Histoplasma*.
 
-The high TxGNN score most likely reflects the drug's network proximity to other fungal infections in the knowledge graph. It probably does not reflect a true mechanistic fit. *Pneumocystis jirovecii* lacks ergosterol in its cell membrane and uses cholesterol instead, so azole antifungals are not expected to be effective. Co-trimoxazole (trimethoprim-sulfamethoxazole) remains the standard of care for both treatment and prophylaxis.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as other fungal infections, not biological evidence. It probably does not reflect a true mechanistic fit. *Pneumocystis jirovecii* lacks ergosterol in its cell membrane and uses cholesterol instead, so azole antifungals are not expected to be effective. Co-trimoxazole (trimethoprim-sulfamethoxazole) remains the standard of care for both treatment and prophylaxis.
 
 ---
 

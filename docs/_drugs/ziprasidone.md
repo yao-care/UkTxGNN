@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ziprasidone
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 661
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ziprasidone: predicted new indication Major affective disorder (evidence level L2). Approved use: Manic bipolar affective disorder, bipolar disorder, schizophrenia"
+last_modified_at: 2026-10-28
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Ziprasidone: From Bipolar Disorder and Schizophrenia to Major Affective Disorder
+## Ziprasidone: Trichotillomania
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,15 +48,15 @@ Several of the trials are small or exploratory, and only a few are randomised, p
 
 | Item | Content |
 |------|------|
-| Original Indication | Manic bipolar affective disorder, bipolar disorder, schizophrenia (the data compiled for this report holds no approved indication text for the UK licence) |
-| Predicted New Indication | Major affective disorder |
-| TxGNN Prediction Score | 99.66% |
-| Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Trichotillomania |
+| TxGNN Prediction Score | 0.9983 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
-The top-ranked prediction was trichotillomania (99.83%), but it has no supporting trials or literature, so it is rated L5 and Hold. Major affective disorder is the best-supported prediction, and this report focuses on it.
+The top-ranked prediction was trichotillomania (0.9983), but it has no supporting trials or literature, so it is rated L5 and Hold. Major affective disorder is the best-supported prediction, and this report focuses on it.
 
 ---
 

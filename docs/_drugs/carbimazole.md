@@ -4,17 +4,17 @@ title: Carbimazole
 parent: Model Prediction Only (L5)
 nav_order: 133
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-15
-description: "Carbimazole: predicted new indication Neonatal thyrotoxicosis (evidence level L5). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis"
+indication_count: 2
 monitor_inn: "Carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
+last_modified_at: 2026-10-27
+description: "Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Carbimazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Carbimazole: From Hyperthyroidism to Neonatal Thyrotoxicosis
+## Carbimazole: Antithyroid thionamide prodrug (thyroid hormone synthesis inhibitor) → Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)
 {: .text-alpha }
+
+Note: the instructions state that for an English page the name is written once without parentheses. The title is therefore given as follows.
+
+## Carbimazole: Antithyroid thionamide prodrug (thyroid hormone synthesis inhibitor) → Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
+{: .text-alpha }
+
+---
 
 ## One-Sentence Summary
 
-Carbimazole is an antithyroid drug (a prodrug of methimazole) originally used to treat hyperthyroidism, Graves' disease and thyrotoxicosis.
-The TxGNN model's top-ranked prediction is resistance to thyroid hormone beta, but this looks like a network artefact. The most clinically plausible prediction is **neonatal thyrotoxicosis**, supported by **0 registered clinical trials** and **13 publications** (reviews, cohorts and case reports).
+Carbimazole is an antithyroid medicine that is converted in the body to methimazole and reduces thyroid hormone production.
+The TxGNN model predicts it may be relevant to **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no clinical trials** and only **1 case report** in the data compiled for this report, and that report does not support use in this condition.
 
 ---
 
@@ -47,52 +54,37 @@ The TxGNN model's top-ranked prediction is resistance to thyroid hormone beta, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism, Graves' disease, thyrotoxicosis (the approved indication text is not available in the licence data) |
-| Predicted New Indication | Neonatal thyrotoxicosis (the top-scoring prediction, resistance to thyroid hormone due to a thyroid hormone receptor beta mutation, is judged not credible; see below) |
-| TxGNN Prediction Score | 99.41% (neonatal thyrotoxicosis); 99.71% for resistance to thyroid hormone beta; 99.21% for hyperthyroxinaemia |
-| Evidence Level | L3 (neonatal thyrotoxicosis: reviews, cohorts and case reports only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Proceed with Guardrails (neonatal thyrotoxicosis only); Hold for the other two predictions |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Carbimazole is, however, a well-known prodrug of methimazole. It inhibits thyroid peroxidase and so reduces the synthesis of thyroid hormone. This is why it works in hyperthyroidism and Graves' disease.
+Detailed mechanism of action data is not available in the data compiled for this report. Carbimazole is known to act as a prodrug of methimazole, which inhibits thyroid peroxidase and so lowers the synthesis of thyroid hormones.
 
-**Neonatal thyrotoxicosis (most plausible).** This condition usually results from transplacental passage of maternal TSH-receptor stimulating antibodies in Graves' disease, driving excess thyroid hormone production. Blocking hormone synthesis directly matches this pathophysiology. Carbimazole is already used in this setting, so the prediction is essentially an extension of the existing hyperthyroidism use to a special population. The published evidence is limited to case reports, small series and reviews.
+In resistance to thyroid hormone beta, the defect lies in the hormone receptor. Patients typically have raised thyroid hormones with a non-suppressed TSH. In theory, lowering hormone synthesis could reduce circulating hormone levels. In practice, it would also remove negative feedback and increase TSH, which risks goitre enlargement and worsening hypothyroidism in tissues that are already resistant to the hormone.
 
-**Resistance to thyroid hormone beta (not supported).** The defect lies in the receptor, with raised T4/T3 and non-suppressed TSH. Lowering hormone synthesis would remove negative feedback and raise TSH further, risking goitre enlargement and worsening hypothyroidism in receptor-resistant tissues. The high score is probably a network-proximity artefact from shared thyroid-axis terms, and antithyroid drugs are generally not recommended here.
-
-**Hyperthyroxinaemia (not a distinct target).** This is a laboratory finding with several causes. Where it reflects true hormone overproduction, it is already covered by the existing indication. With binding-protein abnormalities (such as familial dysalbuminaemic hyperthyroxinaemia) antithyroid treatment is not indicated, and in TSH-secreting pituitary adenoma carbimazole does not address the cause and may raise TSH further.
+The mechanistic rationale is therefore weak and potentially harmful. The high TxGNN score most likely reflects shared thyroid-hormone-axis terms rather than a true therapeutic link. Antithyroid drugs are generally not recommended in this condition.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for any of the three predicted indications.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Most relevant publications for neonatal thyrotoxicosis (the highest-value prediction):
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24251220](https://pubmed.ncbi.nlm.nih.gov/24251220/) | 2013 | Review | Indian J Endocrinol Metab | Fetal thyrotoxicosis is rare, with mortality of 12-20%, mostly from heart failure. It results from placental transfer of thyroid-stimulating immunoglobulins. |
-| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Hyperthyroidism in pregnancy: distinguishing it from physiological changes, and the risks to mother and offspring. |
-| [7523202](https://pubmed.ncbi.nlm.nih.gov/7523202/) | 1994 | Retrospective cohort | Eur J Obstet Gynecol Reprod Biol | 32 pregnancies complicated by hyperthyroidism, managed with carbimazole or propylthiouracil. |
-| [1971773](https://pubmed.ncbi.nlm.nih.gov/1971773/) | 1990 | Cohort | Clin Endocrinol | In 44 women with Graves' disease treated with PTU or carbimazole, maternal and neonatal thyroid function was related to TSH receptor antibodies and thionamide dose. |
-| [11298090](https://pubmed.ncbi.nlm.nih.gov/11298090/) | 2001 | Case series | Clin Endocrinol | Congenital thyrotoxicosis in premature infants. Maternal history and TSH receptor antibody levels help predict adverse outcomes. |
-| [41191399](https://pubmed.ncbi.nlm.nih.gov/41191399/) | 2025 | Case report | Endocrinol Diabetes Metab Case Rep | Neonatal hypercalcaemia secondary to transient thyrotoxicosis; the thyrotoxicosis responded to carbimazole. |
-| [25952662](https://pubmed.ncbi.nlm.nih.gov/25952662/) | 2015 | Case report | Indian J Pediatr | Intrauterine carbimazole treatment of fetal hyperthyroidism in two siblings. |
-| [12124735](https://pubmed.ncbi.nlm.nih.gov/12124735/) | 2002 | Case report | Am J Med Genet | Choanal atresia after maternal carbimazole treatment (safety signal). |
-| [27747714](https://pubmed.ncbi.nlm.nih.gov/27747714/) | 2015 | Case report | Drug Saf Case Rep | A newborn treated with carbimazole and propranolol developed severe hypotension after amlodipine. |
-| [2315685](https://pubmed.ncbi.nlm.nih.gov/2315685/) | 1990 | Case report | Scott Med J | Neonatal thyrotoxicosis responded to carbimazole in the infant of a mother with relapsed Graves' disease and TSH receptor antibodies. |
-
-Other predictions: resistance to thyroid hormone beta has one case discussion ([24165508](https://pubmed.ncbi.nlm.nih.gov/24165508/), 2013, BMJ Case Reports), which describes a patient with raised free T4 and non-suppressed TSH who was intermittently treated with carbimazole. For hyperthyroxinaemia there are only case reports, a review and a laboratory study (for example [24847468](https://pubmed.ncbi.nlm.nih.gov/24847468/) and [3708869](https://pubmed.ncbi.nlm.nih.gov/3708869/)), with no controlled data.
+| [24165508](https://pubmed.ncbi.nlm.nih.gov/24165508/) | 2013 | Case report / differential diagnosis | BMJ Case Reports | A young man with persistently raised free thyroxine and non-suppressed TSH was treated intermittently with carbimazole for about 10 years under a diagnosis of hyperthyroidism. The report discusses the differential diagnosis of this biochemical pattern; it does not show benefit of carbimazole in thyroid hormone resistance. |
 
 ---
 
@@ -100,35 +92,28 @@ Other predictions: resistance to thyroid hormone beta has one case discussion ([
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0602020D0AAAAAA (BNF code 0602020D0, antithyroid drugs) | Carbimazole tablets 5 mg | Tablet (not specified in the data) | Not specified in the data; please check the SmPC |
+| 0602020D0AAAAAA (BNF code) | Carbimazole Tab 5mg | Tablet | Not recorded in the local data |
 
 ---
 
 ## Safety Considerations
 
-- **Teratogenic signal:** Case reports describe choanal atresia after in-utero carbimazole exposure. Possible associations with aplasia cutis have also been noted.
-- **Overtreatment:** Fetal or neonatal hypothyroidism and goitre can occur if the dose is too high.
-- **Drug interactions:** Case reports describe severe hypotension when amlodipine was added in a neonate treated with carbimazole and propranolol. Dedicated interaction data are not available.
-- **Resistance to thyroid hormone beta:** Antithyroid drugs are generally not recommended, as they may raise TSH and worsen goitre or hypothyroidism.
-
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails (neonatal thyrotoxicosis only). Hold for resistance to thyroid hormone beta and hyperthyroxinaemia.**
+**Decision: Hold**
 
 **Rationale:**
-- For neonatal thyrotoxicosis, the mechanism matches the pathophysiology and carbimazole is already used clinically in this setting, but the evidence is limited to reviews, cohorts and case reports (L3), with no registered trials.
-- The resistance to thyroid hormone beta prediction is probably an artefact and may be harmful. Hyperthyroxinaemia is a laboratory finding rather than a distinct target.
+The prediction has no supporting clinical trials, the single retrieved publication is a case report that does not demonstrate benefit, and the mechanism suggests possible harm through raised TSH and goitre growth.
 
 **To proceed, the following is needed:**
-- The approved indication text and SmPC safety data (warnings and contraindications) for the UK licence
-- Mechanism of action data from DrugBank
-- Review against NICE and BNF guidance on antithyroid drugs in pregnancy and the neonatal period
-- A structured review of dosing, monitoring (thyroid function, blood counts) and teratogenicity risk for fetal and neonatal use
-- Formal clinical specialist (paediatric endocrinology) input on any evidence gaps that prospective or registry data could address
+- Mechanism of action data and a clear mechanistic case that addresses receptor-level resistance
+- Controlled or observational data in patients with thyroid hormone receptor beta mutations
+- A safety assessment covering TSH rise, goitre and hypothyroidism in this population
+- Full SmPC warnings and contraindications for review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

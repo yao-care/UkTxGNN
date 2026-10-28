@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ascorbic Acid: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Ascorbic acid deficiency"
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "vitamin deficiency disorder"]
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected", "vitamin deficiency disorder"]
+last_modified_at: 2026-10-27
+description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ascorbic Acid
@@ -33,83 +33,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ascorbic Acid: From Ascorbic Acid Deficiency and Scurvy to Non-Syndromic Esophageal Malformation
+## Ascorbic acid: vitamin C (antioxidant and enzyme cofactor) → non-syndromic esophageal malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ascorbic acid (vitamin C) is an essential nutrient, used to treat and prevent ascorbic acid deficiency and scurvy.
-The TxGNN model predicts it may be effective for **non-syndromic esophageal malformation**, but there are currently **no clinical trials** and **no publications** supporting this prediction.
-
----
+Ascorbic acid is a water-soluble vitamin used as an essential nutrient and antioxidant cofactor.
+The TxGNN model predicts it may be relevant to **non-syndromic esophageal malformation**,
+but there are **no clinical trials** and **no publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascorbic acid deficiency; scurvy (taken from knowledge-graph indication data, as no approved indication text is recorded for the UK authorisation) |
-| Predicted New Indication | Non-syndromic esophageal malformation |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | non-syndromic esophageal malformation |
+| TxGNN Prediction Score | 0.9996 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ascorbic acid is an essential water-soluble vitamin. Its efficacy in scurvy and ascorbic acid deficiency is well established, because it replaces a missing nutrient. Mechanistically, a link to a new indication is not evident.
+Detailed mechanism of action data are not available for this drug. Ascorbic acid is generally understood to act as an antioxidant and as a cofactor for hydroxylase enzymes involved in collagen synthesis and catecholamine production.
 
-Non-syndromic esophageal malformation is a congenital structural defect of the oesophagus. An antioxidant and cofactor vitamin is not plausibly able to correct a developmental anatomical abnormality. The high TxGNN score most likely reflects network-level associations in the knowledge graph rather than a biological rationale. No studies were identified to support or explain the link, so the prediction should be treated as a hypothesis only.
-
----
+Non-syndromic esophageal malformation is a congenital structural defect arising during embryonic development. There is no known mechanism by which an antioxidant or cofactor vitamin would correct such a defect. The high model score is therefore not backed by a credible biological rationale, and the prediction should be read as a statistical output only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0906031C0AAAGAG | Ascorbic Acid Tab 100 mg | Tablet | Not stated in the data compiled for this report |
+| 0906031C0AAAGAG | Ascorbic Acid Tab 100mg | Not recorded | Not recorded |
 
-Only one authorisation is recorded (single-ingredient, valid). The identifier above is shown as recorded and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register before any use. Please also check BNF and NICE guidance for the current licensed indications of ascorbic acid products.
-
----
+Only one authorisation is recorded in the data compiled for this report, and it is currently valid. The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it.
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph** (derived from drug-disease relationship data, not from product label text, so they need confirmation against the SmPC): hypertension, epilepsy, kidney disease, liver disease, gallbladder disease, peptic ulcer disease, rheumatoid arthritis, systemic lupus erythematosus (including paediatric), multiple sclerosis, allergic and vasomotor rhinitis, sarcoidosis, diabetes mellitus, diabetic ketoacidosis, hyperparathyroidism, osteitis fibrosa, anuria, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, potassium deficiency, blood coagulation disease, sickle cell anaemia, hereditary persistence of fetal haemoglobin, primary hyperoxaluria, hereditary haemochromatosis, sunburn and pyoureter.
-- **Drug Interactions**: 25 interactions were identified in total, and 20 are detailed in the data compiled for this report.
-  - Moderate: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine, aluminium hydroxide, bortezomib, deferoxamine.
-  - Minor: paclitaxel, cisplatin, doxorubicin (including liposomal), pseudoephedrine, ephedrine (including nasal), ethinylestradiol, flecainide, fluphenazine, indinavir, mexiletine.
+Label-based warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug interactions:** 25 interactions were recorded. The 20 listed in the data are mostly minor, and the following are rated moderate:
+- Amphetamine
+- Aluminium hydroxide
+- Benzphetamine
+- Bortezomib
+- Deferoxamine
+- Dextroamphetamine
+- Lisdexamfetamine
+- Metamfetamine
 
----
+Minor interactions include paclitaxel, cisplatin, doxorubicin, ethinylestradiol, pseudoephedrine, ephedrine, flecainide, fluphenazine, indinavir and mexiletine.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no trials or publications, and there is no credible mechanism linking a nutritional vitamin to a congenital structural malformation of the oesophagus. This indication is not suitable for further development in its current form.
+The prediction has the highest score in the list but no supporting trials, no publications and no plausible mechanism. It does not justify further investment in its current form.
 
 **To proceed, the following is needed:**
-- A plausible mechanistic or developmental-biology rationale, together with any preclinical evidence.
-- Detailed mechanism of action data for ascorbic acid.
-- Clarification of the UK authorisation record (identifier, dosage form and approved indication text).
-- Review of the lower-ranked predictions for the same drug. "Injury" (supported by several Phase 2 to 4 trials) and "esophageal disease" (supported by mostly preclinical and epidemiological literature, including an animal study that reported enhanced oesophageal carcinogenesis with ascorbic acid in a reflux model) have more supporting data and may be better candidates for evaluation.
+- A biological rationale linking ascorbic acid to the development or treatment of congenital esophageal malformation
+- Any preclinical or clinical evidence that directly addresses this condition
+- Mechanism of action data and label-based safety information (SmPC and BNF)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

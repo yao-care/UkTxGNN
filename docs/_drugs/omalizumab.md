@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **bronchitis** (top-ranked pred
 |------|------|
 | Original Indication | Asthma (allergic and intrinsic asthma) and idiopathic urticaria; MHRA indication text is not available in the data compiled for this report |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.999% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ---

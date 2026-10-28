@@ -4,17 +4,17 @@ title: Diphenhydramine
 parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Diphenhydramine: predicted new indication Rhinitis (evidence level L5). Approved use: Insomnia"
+description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Diphenhydramine"
-predicted_indications: ["rosacea conjunctivitis", "cauda equina syndrome", "nasopharyngitis", "viral conjunctivitis", "neuralgia", "trigeminal autonomic cephalalgia", "glossodynia"]
+predicted_indications: ["rosacea conjunctivitis"]
 ---
 
 # Diphenhydramine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Diphenhydramine: From Allergic and Vasomotor Rhinitis to Rhinitis (Label-Consistent Extension)
+## Diphenhydramine: Rosacea Conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This report evaluates the best-supported prediction, rhinitis, and summarises th
 |------|------|
 | Original Indication | Insomnia; vasomotor rhinitis; allergic rhinitis; atopic, papillary and vernal conjunctivitis (the product record held no approved indication text) |
 | Predicted New Indication | Rhinitis (rank 2; the rank 1 prediction, rosacea conjunctivitis, has no evidence) |
-| TxGNN Prediction Score | 98.35% (rhinitis); 99.20% (rosacea conjunctivitis) |
-| Evidence Level | L1 (for rhinitis, per the data compiled for this report) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9920 (rosacea conjunctivitis) |
+| Evidence Level | L5 (for rhinitis, per the data compiled for this report) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -120,15 +120,7 @@ Label warnings and contraindications are not available in the compiled data. Ple
 
 | Rank | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|------|
-| 1 | Rosacea conjunctivitis | 99.20% | L5 | Hold | No trials or literature; the disease is driven mainly by meibomian gland dysfunction and inflammation, so the link is weak. |
-| 3 | Allergic urticaria | 98.24% | L3 | Proceed with Guardrails | H1 blockade is standard; one small Phase 3 pilot (NCT02023164, n=36) used IV diphenhydramine as a comparator. Newer antihistamines are preferred. |
-| 4 | Cold urticaria | 95.92% | L4 | Research Question | Only old treatment reports and case reports. |
-| 5 | Cauda equina syndrome | 95.57% | L5 | Hold | No plausible mechanism; probably a network artefact. |
-| 6 | Nasopharyngitis | 94.96% | L4 | Research Question | One indirect RCT of a combination product; symptomatic benefit only. |
-| 7 | Viral conjunctivitis | 93.97% | L5 | Hold | Not primarily histamine-driven; no evidence. |
-| 8 | Neuralgia | 92.30% | L4 | Hold | Trials involved other drugs; diphenhydramine appears mostly as an active placebo. |
-| 9 | Trigeminal autonomic cephalalgia | 92.25% | L4 | Research Question | One small terminated emergency department trial of primary headache; a 1952 anecdotal report. |
-| 10 | Glossodynia | 92.08% | L5 | Hold | No data. |
+| 1 | Rosacea conjunctivitis | 0.9920 | L5 | Hold | No trials or literature; the disease is driven mainly by meibomian gland dysfunction and inflammation, so the link is weak. |
 
 ---
 

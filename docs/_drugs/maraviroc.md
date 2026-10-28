@@ -50,10 +50,10 @@ This is a model-only prediction and should be treated as hypothesis-generating.
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Multiple endocrine neoplasia |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only prediction and should be treated as hypothesis-generating.
 
 Maraviroc is a CCR5 antagonist. Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects general knowledge of the drug class rather than a supplied source.
 
-No established link exists between CCR5 blockade and the pathogenesis of multiple endocrine neoplasia (MEN). MEN is driven by alterations in genes such as MEN1, RET and CDKN1B. The high TxGNN score comes from knowledge-graph patterns alone and is not backed by any trial or publication. At present the prediction is not mechanistically supported.
+No established link exists between CCR5 blockade and the pathogenesis of multiple endocrine neoplasia (MEN). MEN is driven by alterations in genes such as MEN1, RET and CDKN1B. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not backed by any trial or publication. At present the prediction is not mechanistically supported.
 
 ### Other predictions reviewed
 
@@ -70,10 +70,10 @@ Other predicted indications with higher evidence levels are listed below for con
 
 | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|
-| HER2 positive breast carcinoma | 99.22% | L4 | Preclinical work shows autocrine CCL5 contributes to trastuzumab resistance through ERK activation, which gives mechanistic support for CCR5 blockade. This is the most biologically supported of the predictions, and it is classed as a research question. |
-| Cytomegalovirus infection | 99.23% | L4 | CMV encodes a chemokine receptor homologue (US28), so there is some plausibility. The linked paper is an observational study of immune markers in HIV, which gives only indirect context. |
-| Primary cutaneous T-cell lymphoma | 99.72% | L5 | Chemokine receptors are expressed on skin-homing T cells. The only linked paper is a review on ACKR1, not on maraviroc. |
-| Other predictions (acne, paediatric SLE, cutaneous B-cell lymphoma, candidiasis, complement C4A deficiency) | 99.24–99.76% | L5 | Prediction only, with no supporting maraviroc data. |
+| HER2 positive breast carcinoma | 0.9922 | L4 | Preclinical work shows autocrine CCL5 contributes to trastuzumab resistance through ERK activation, which gives mechanistic support for CCR5 blockade. This is the most biologically supported of the predictions, and it is classed as a research question. |
+| Cytomegalovirus infection | 0.9923 | L5 | CMV encodes a chemokine receptor homologue (US28), so there is some plausibility. The linked paper is an observational study of immune markers in HIV, which gives only indirect context. |
+| Primary cutaneous T-cell lymphoma | 0.9972 | L5 | Chemokine receptors are expressed on skin-homing T cells. The only linked paper is a review on ACKR1, not on maraviroc. |
+| Other predictions (acne, paediatric SLE, cutaneous B-cell lymphoma, candidiasis, complement C4A deficiency) | 99.24–0.9976 | L5 | Prediction only, with no supporting maraviroc data. |
 
 ---
 
@@ -121,7 +121,7 @@ Label warnings and contraindications were not available. Please refer to the SmP
 **Decision: Hold**
 
 **Rationale:**
-The prediction for multiple endocrine neoplasia rests on a graph-based score alone, with no trials, no literature and no plausible mechanistic link. Label-level safety data and the approved indication are also missing.
+The prediction for multiple endocrine neoplasia rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence. There are no trials, no literature and no plausible mechanistic link. Label-level safety data and the approved indication are also missing.
 
 **To proceed, the following is needed:**
 - The approved indication text, full SmPC warnings and contraindications for the UK product

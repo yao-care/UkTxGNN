@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Dipivefrin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 233
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Dipivefrin: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Dipivefrin: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Dipivefrin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,50 +32,46 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Dipivefrin: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+<!-- known-uses-page -->
+<!-- description: Dipivefrin: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Dipivefrin: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model produced candidates for Dipivefrin with a score of 0.99 or higher, but every candidate that can be traced to a source is already a known use. There is therefore currently no new predicted indication for this drug.
 
-Dipivefrin is an eye-drop prodrug of epinephrine, originally used to treat open-angle glaucoma.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but this is a model prediction only, with **no clinical trials** and **no publications** currently supporting it.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 0 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, dipivefrin is a prodrug of epinephrine. It is hydrolysed in the cornea to the active adrenergic agonist, which lowers intraocular pressure mainly by increasing aqueous humour outflow and, to a lesser extent, by reducing aqueous production.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Open-angle glaucoma and primary hereditary glaucoma share the same clinical endpoint: raised intraocular pressure. This is probably why the model scores the prediction so highly. The score most likely reflects similarity to the existing glaucoma indication rather than independent evidence.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-There is an important caveat. Primary hereditary glaucoma (for example, primary congenital glaucoma) is driven by developmental abnormalities of the trabecular meshwork and anterior chamber angle, such as CYP1B1 or MYOC variants. Whether an adrenergic outflow-enhancing agent would work in this setting has not been established.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## UK Market Information
 
-The data compiled for this report lists two marketed single-ingredient products. Their licence numbers are in a non-MHRA format, and no dosage form or approved indication text is recorded. They should be checked against MHRA records before being relied upon.
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000Q0BBAAAA | Propine Ophth Soln 0.1% | Not recorded | Not recorded |
-| 1106000Q0AAAAAA | Dipivefrine HCl Eye Drops 0.1% | Not recorded | Not recorded |
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 1106000Q0BBAAAA | Propine_Ophth Soln 0.1% |  | Valid |
+| 1106000Q0AAAAAA | Dipivefrine HCl_Eye Dps 0.1% |  | Valid |
 
 ## Safety Considerations
 
@@ -83,20 +80,6 @@ The data compiled for this report lists two marketed single-ingredient products.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction rests on model output alone (L5), with no trials or publications. The biological basis for use in developmental, genetically driven glaucoma is uncertain, and the safety data from product labelling are incomplete.
-
-**To proceed, the following is needed:**
-- Mechanism of action data confirmed from a primary source
-- SmPC warnings and contraindications for the UK-authorised products
-- Verification of MHRA marketing authorisation details (licence numbers, dosage forms, indications)
-- Literature and trial searches specific to primary congenital and hereditary glaucoma
-- Preclinical or early clinical evidence that adrenergic agonists lower intraocular pressure in this population
-- Specialist paediatric ophthalmology input, as primary congenital glaucoma is usually managed surgically
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

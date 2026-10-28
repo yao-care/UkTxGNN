@@ -4,17 +4,17 @@ title: Irbesartan
 parent: Model Prediction Only (L5)
 nav_order: 342
 evidence_level: L5
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Irbesartan: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension, hypertensive disorder, diabetic nephropathy"
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
+description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Irbesartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Irbesartan: From Hypertension to Malignant Renovascular Hypertension
+## Irbesartan: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Irbesartan is an angiotensin II receptor blocker (ARB), originally used to treat hypertension and diabetic nephropathy.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **no clinical trials** and **no publications** directly supporting this prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, hypertensive disorder, diabetic nephropathy (the UK authorisation record supplied no indication text) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.31% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 Other predicted indications in the data compiled for this report:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.31% | L5 | Hold |
-| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 99.25% | L5 | Hold |
-| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.25% | L4 | Research Question |
+| 2 | Malignant hypertensive renal disease | 0.9931 | L5 | Hold |
+| 3 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9925 | L5 | Hold |
+| 4 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9925 | L5 | Research Question |
 
 ## Why is This Prediction Reasonable?
 
@@ -135,7 +134,7 @@ Report suspected adverse reactions via the Yellow Card Scheme. Please also refer
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.31%) is a computational prediction only. No clinical trials or literature support irbesartan in malignant renovascular hypertension, and the known renal risk of ARBs in renal artery stenosis raises a specific safety concern. The pulmonary hypertension signal (L4) is preclinical and indirect, so it is best treated as a research question rather than a development candidate.
+The high TxGNN score (0.9931) is a computational prediction only. No clinical trials or literature support irbesartan in malignant renovascular hypertension, and the known renal risk of ARBs in renal artery stenosis raises a specific safety concern. The pulmonary hypertension signal (L4) is preclinical and indirect, so it is best treated as a research question rather than a development candidate.
 
 **To proceed, the following is needed:**
 - A systematic literature search for ARB use in renovascular and malignant hypertension

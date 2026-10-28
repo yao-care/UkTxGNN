@@ -4,7 +4,7 @@ title: Ciclesonide
 parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Ciclesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, intrinsic asthma, allergic asthma, allergic rhinitis…"
 monitor_inn: "Ciclesonide"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 # Ciclesonide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this res
 |------|------|
 | Original Indication | Asthma, intrinsic asthma, allergic asthma, allergic rhinitis, vasomotor rhinitis (the licence record held no indication text) |
 | Predicted New Indication | Atopic eczema |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -65,11 +65,10 @@ There are important limits. The score is a prediction only. Ciclesonide is formu
 
 | Rank | Predicted Indication | Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | 2-Hydroxyethyl methacrylate sensitisation | 99.76% | L5 | Contact allergy. Corticosteroids only control symptoms, and there is no supporting evidence. |
-| 3 | Dermatitis, atopic | 99.73% | L5 | Duplicate of atopic eczema. |
-| 4 | Bronchitis | 99.70% | L4 | Only indirect support from a COPD guideline. |
-| 5 | Contact dermatitis | 99.25% | L4 | The only publication is a safety signal, not evidence of benefit. |
-| 6 | Asthma-related traits, susceptibility to | 99.13% | L5 | A genetic trait term that overlaps with the approved asthma indication. It should be excluded or reclassified. |
+| 2 | 2-Hydroxyethyl methacrylate sensitisation | 0.9976 | L5 | Contact allergy. Corticosteroids only control symptoms, and there is no supporting evidence. |
+| 3 | Dermatitis, atopic | 0.9973 | L5 | Duplicate of atopic eczema. |
+| 4 | Bronchitis | 0.9970 | L5 | Only indirect support from a COPD guideline. |
+| 5 | Contact dermatitis | 0.9925 | L5 | The only publication is a safety signal, not evidence of benefit. |
 
 ## Clinical Trial Evidence
 

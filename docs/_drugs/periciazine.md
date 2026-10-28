@@ -4,17 +4,17 @@ title: Periciazine
 parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Schizophrenia and other psychoses"
 monitor_inn: "periciazine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "migraine with or without aura, susceptibility to", "ulerythema ophryogenesis"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
 ---
 
 # Periciazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Schizophrenia and other psychoses; short-term adjunctive management of severe anxiety, psychomotor agitation and violent or dangerously impulsive behaviour (the licence records compiled for this report contain no indication text, so this is taken from pharmacology data) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ Other phenothiazines, such as chlorpromazine and prochlorperazine, are used for 
 **Other predicted indications** (all L5, all Hold):
 - **Migraine with brainstem aura** and **migraine with or without aura, susceptibility to**: These share the migraine rationale. The first likely reflects the wider migraine cluster rather than subtype-specific biology, and brainstem aura adds sedation and neurological-monitoring concerns. The second describes a genetic susceptibility phenotype rather than a treatable condition.
 - **Dysthymic disorder**: There is only a weak, indirect rationale. Periciazine's sedative and extrapyramidal profile argues against use in chronic low-grade depression.
-- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: No plausible mechanistic link was identified. These are probably graph-based artefacts.
+- **Atrophoderma vermiculata** and **ulerythema ophryogenesis**: No plausible mechanistic link was identified. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Clinical Trial Evidence
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Tinidazole: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Tinidazole"
-predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
+predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
 ---
 
 # Tinidazole
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 |------|------|
 | Original Indication | Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK licence record contains no indication text) |
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 
 Detailed mechanism of action data is not available. Based on known information, tinidazole is a 5-nitroimidazole antimicrobial with established activity against protozoa and anaerobic bacteria, and its efficacy in vaginal infections such as bacterial vaginosis and trichomoniasis is recognised.
 
-The prediction most likely reflects overlap with these approved vaginitis indications in the knowledge graph. Atrophic vaginitis, however, is caused by oestrogen deficiency after the menopause, not by infection. An antimicrobial mechanism therefore has no clear rationale here, and the high score should be read as a likely knowledge-graph artefact rather than a biologically grounded signal.
+The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between this indication and related approved vaginitis indications, not biological evidence. Atrophic vaginitis, however, is caused by oestrogen deficiency after the menopause, not by infection. An antimicrobial mechanism therefore has no clear rationale here, and the high score should be read as a likely model artefact rather than a biologically grounded signal.
 
 Other predictions in the same list (for example vulvar ulceration, vulvar neoplasm and benign breast conditions) also lack a credible mechanism or supporting evidence. A plausible link exists only for ulceration of an infectious or anaerobe-associated origin.
 

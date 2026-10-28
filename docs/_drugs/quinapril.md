@@ -4,17 +4,17 @@ title: Quinapril
 parent: Model Prediction Only (L5)
 nav_order: 531
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Quinapril: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Quinapril"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Quinapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,25 +33,24 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Quinapril: From Hypertension to Malignant Renovascular Hypertension
+## Quinapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Quinapril is an angiotensin-converting enzyme (ACE) inhibitor originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
 but there are currently **no clinical trials** and **no publications** directly supporting this prediction. It is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 99.86% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -66,19 +65,18 @@ There is also a notable safety concern. ACE inhibitors carry a known risk of acu
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
 |------|------|------|------|------|
-| 2 | Malignant hypertensive renal disease | 99.86% | L5 | Hold |
-| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 99.85% | L4 | Research Question |
-| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 99.85% | L5 | Hold |
-| 5 | Braddock syndrome | 99.79% | L5 | Hold |
+| 2 | Malignant hypertensive renal disease | 0.9986 | L5 | Hold |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9985 | L5 | Research Question |
+| 4 | Pulmonary hypertension with unclear multifactorial mechanism | 0.9985 | L5 | Hold |
+| 5 | Braddock syndrome | 0.9979 | L5 | Hold |
 
 - **Malignant hypertensive renal disease:** RAAS blockade is mechanistically relevant, because reduced intraglomerular pressure and antiproteinuric effects are known class benefits. No quinapril-specific evidence was available, and renal safety (hyperkalaemia, creatinine rise) would need assessment.
 - **Pulmonary hypertension due to lung disease/hypoxia:** Animal studies suggest quinapril reduces hypoxic pulmonary hypertension and vascular remodelling (see Literature Evidence). There is no human evidence, and systemic vasodilation could worsen ventilation-perfusion matching.
 - **Pulmonary hypertension, unclear multifactorial mechanism:** Any rationale is extrapolated from RAAS involvement in pulmonary vascular remodelling. The group is heterogeneous and no direct evidence is available.
-- **Braddock syndrome:** No clear mechanistic link could be established. The high score is likely a knowledge-graph artefact.
+- **Braddock syndrome:** No clear mechanistic link could be established. The high score is likely a TxGNN model (deep learning) artefact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for malignant renovascular hypertension or the other predicted indications.
 
 ## Literature Evidence
 

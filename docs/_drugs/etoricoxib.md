@@ -4,17 +4,17 @@ title: Etoricoxib
 parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data (the product's clinical use is gen…"
 monitor_inn: "Etoricoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,13 +48,13 @@ Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet, 
 |------|------|
 | Original Indication | Not available in the compiled data (the product's clinical use is generally rheumatoid arthritis, osteoarthritis, ankylosing spondylitis, gout and acute pain) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-**Other predictions of note.** Headache disorder (score 99.31%) and trigeminal autonomic cephalalgia (score 99.15%) are supported by small case-level literature (L4, "Research Question"). They are the most evidence-supported of the ten predictions, even though they rank lower by score.
+**Other predictions of note.** Headache disorder (score 0.9931) and trigeminal autonomic cephalalgia (score 0.9915) are supported by small case-level literature (L4, "Research Question"). They are the most evidence-supported of the ten predictions, even though they rank lower by score.
 
 ---
 

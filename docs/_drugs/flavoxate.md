@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Flavoxate: From Urinary Tract Smooth Muscle Spasm to Attention Deficit Hyperactivity Disorder (Inattentive Type)
+## Flavoxate: From Urinary Tract Smooth Muscle Spasm to Attention Deficit Hyperactivity Disorder, Inattentive Type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Flavoxate is a urinary tract smooth muscle relaxant with antimuscarinic, phosphodiesterase-inhibiting and calcium-antagonist properties, marketed in the UK as a 200 mg tablet.
-The TxGNN model predicts it may be effective for **attention deficit hyperactivity disorder, inattentive type**, but there are currently **no clinical trials** and **no publications** supporting this prediction. It rests on a graph-based model score alone.
+The TxGNN model (deep learning) predicts it may be effective for **attention deficit hyperactivity disorder, inattentive type** (score 0.9975), but there are currently **no clinical trials** and **no publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ## Quick Overview
 
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **attention deficit hyperactivi
 |------|------|
 | Original Indication | Not stated in the available licence data (flavoxate is generally used for urinary urgency, frequency and related bladder symptoms) |
 | Predicted New Indication | Attention deficit hyperactivity disorder, inattentive type |
-| TxGNN Prediction Score | 99.75% |
+| TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available for this drug. Based on known pharmacology, flavoxate relaxes urinary tract smooth muscle through antimuscarinic, phosphodiesterase-inhibiting and calcium-antagonist actions.
 
-These properties have no established link to ADHD, which is characterised mainly by dopaminergic and noradrenergic dysregulation. The high TxGNN score is therefore best read as a graph-proximity signal rather than a pharmacologically grounded hypothesis. The model also ranks closely related entries highly, including "attention deficit-hyperactivity disorder" and "specific developmental disorder". These likely reflect the same underlying signal counted more than once, so they should not be treated as independent support.
+These properties have no established link to ADHD, which is characterised mainly by dopaminergic and noradrenergic dysregulation. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is best read as a model signal rather than a pharmacologically grounded hypothesis. The model also ranks closely related entries highly, including "attention deficit-hyperactivity disorder" and "specific developmental disorder". These likely reflect the same underlying signal counted more than once, so they should not be treated as independent support.
 
-Among the other predictions, **irritable bowel syndrome** (score 99.74%) has the most plausible rationale. Antimuscarinic and smooth muscle relaxant activity is conceptually similar to antispasmodics such as hyoscine and dicyclomine. This link is still unverified, as no trials or literature were available. Predictions for neurogenic bladder largely overlap with the drug's existing symptomatic urological use. Those for gastroduodenitis, peptic ulcer disease and cauda equina syndrome have weak or indirect rationales.
+Among the other predictions, **irritable bowel syndrome** (score 0.9974) has the most plausible rationale. Antimuscarinic and smooth muscle relaxant activity is conceptually similar to antispasmodics such as hyoscine and dicyclomine. This link is still unverified, as no trials or literature were available. Predictions for neurogenic bladder largely overlap with the drug's existing symptomatic urological use. Those for gastroduodenitis, peptic ulcer disease and cauda equina syndrome have weak or indirect rationales.
 
 ## UK Market Information
 

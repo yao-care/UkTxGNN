@@ -4,17 +4,17 @@ title: Methadone
 parent: Moderate Evidence (L3-L4)
 nav_order: 398
 evidence_level: L4
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Methadone"
-predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold", "migraine disorder", "fibromyalgia", "idiopathic granulomatous myositis"]
+predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
 ---
 
 # Methadone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet. 
 |------|------|
 | Original Indication | Not stated in the data compiled for this report |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.76% |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -4,17 +4,17 @@ title: Lactic Acid
 parent: Model Prediction Only (L5)
 nav_order: 357
 evidence_level: L5
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-15
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lactic acid"
-predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome", "esophageal disease", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "excretory apparatus of the lacrimal system anomaly", "eye disease", "cauda equina syndrome"]
+predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 ---
 
 # Lactic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **atypical coarctation of aorta
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Atypical coarctation of aorta |
-| TxGNN Prediction Score | 99.59% |
+| TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,18 +61,16 @@ The TxGNN model predicts it may be effective for **atypical coarctation of aorta
 
 Currently, detailed mechanism of action data is not available. Lactic acid is an endogenous metabolite (the end product of glycolysis), and no approved indication text was available for it, so the link between an original and a new indication cannot be established.
 
-No mechanistic link was identified for this prediction. The TxGNN score is high (0.996), but there are no trials and no literature. Atypical coarctation of aorta is a structural vascular malformation, which is managed surgically or by intervention. There is no known role for a metabolite such as lactic acid in treating it. The prediction should be regarded as a knowledge-graph artefact until proven otherwise.
+No mechanistic link was identified for this prediction. The TxGNN score is high (0.9959), but there are no trials and no literature. Atypical coarctation of aorta is a structural vascular malformation, which is managed surgically or by intervention. There is no known role for a metabolite such as lactic acid in treating it. The prediction should be regarded as a TxGNN model (deep learning) artefact until proven otherwise.
 
 Other top-ranked predictions show the same pattern:
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Summary |
 |------|------|------|------|
-| 2 | Aortic malformation | 99.35% | 14 papers, none testing lactic acid as a therapy |
-| 3 | Non-syndromic oesophageal malformation | 99.23% | No evidence |
-| 4 | Amenorrhoea | 99.16% | 1 baboon vaginal microbiota study |
-| 5 | Dry eye syndrome | 99.13% | Biomarker, probiotic and supplement studies; none tests lactic acid |
-| 6 | Oesophageal disease | 98.94% | Literature suggests lactate may promote tumour progression |
-| 9 | Eye disease | 98.68% | One study suggests lactic acid promotes choroidal neovascularisation |
+| 2 | Aortic malformation | 0.9935 | 14 papers, none testing lactic acid as a therapy |
+| 3 | Non-syndromic oesophageal malformation | 0.9923 | No evidence |
+| 4 | Amenorrhoea | 0.9916 | 1 baboon vaginal microbiota study |
+| 5 | Dry eye syndrome | 0.9913 | Biomarker, probiotic and supplement studies; none tests lactic acid |
 
 ---
 
@@ -129,7 +127,7 @@ For warnings and contraindications, please refer to the SmPC and BNF. Report sus
 **Decision: Hold**
 
 **Rationale:**
-All ten predicted indications are supported only by the TxGNN knowledge-graph score (evidence level L5), with no clinical trials. For the top predictions, the available literature either has no connection to lactic acid therapy or points to potential harm (oncology and ocular neovascularisation). Lactic acid has no plausible therapeutic role in structural malformations.
+All ten predicted indications are supported only by the TxGNN TxGNN model (deep learning) score (evidence level L5), with no clinical trials. For the top predictions, the available literature either has no connection to lactic acid therapy or points to potential harm (oncology and ocular neovascularisation). Lactic acid has no plausible therapeutic role in structural malformations.
 
 **To proceed, the following is needed:**
 - Approved indication, dosage form and route details for the UK authorisation, verified with the MHRA

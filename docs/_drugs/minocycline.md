@@ -4,17 +4,17 @@ title: Minocycline
 parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-15
-description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not stated in the licence data. The knowledge graph lists urinary tra…"
 monitor_inn: "Minocycline"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "neurotrophic keratopathy", "postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
+description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Minocycline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
+## Minocycline: Punctate epithelial keratoconjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials and no publications** currently support this prediction
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data. The knowledge graph lists urinary tract infection, bronchitis, acne, anthrax, periodontitis, gonorrhoea, pharyngitis and others |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
-| TxGNN Prediction Score | 99.63% |
+| TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,7 +78,7 @@ The data show one valid single-ingredient authorisation. Minocycline sits within
 
 ## Safety Considerations
 
-- **Contraindications and conditions of concern (from knowledge graph associations, not label text):** kidney disease, liver disease, gallbladder disease, *Clostridium difficile* colitis, pyoureter, perinatal necrotising enterocolitis, pseudotumour cerebri (idiopathic intracranial hypertension), intracranial hypertension and oesophageal dyskinesia. These should be checked against the SmPC.
+- **Contraindications and conditions of concern (not taken from label text):** kidney disease, liver disease, gallbladder disease, *Clostridium difficile* colitis, pyoureter, perinatal necrotising enterocolitis, pseudotumour cerebri (idiopathic intracranial hypertension), intracranial hypertension and oesophageal dyskinesia. These should be checked against the SmPC.
 - **Drug Interactions:** 100 interactions were identified in total; the first 20 are available for review.
   - **Major:** isotretinoin and acitretin. Retinoids combined with tetracyclines carry a risk of raised intracranial pressure.
   - **Moderate:** ethinylestradiol, amoxicillin, ampicillin, aminolevulinic acid (topical), sodium citrate, calcium phosphate, calcium acetate, bismuth subcitrate potassium, balsalazide, asparaginase products, brentuximab vedotin, calaspargase pegol and cannabidiol.
@@ -91,7 +91,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score (99.63%) but is Level L5: there are no trials, no publications and no mechanism data. The tetracycline class rationale is plausible but unsupported by evidence here.
+The prediction has a high model score (0.9963) but is Level L5: there are no trials, no publications and no mechanism data. The tetracycline class rationale is plausible but unsupported by evidence here.
 
 **To proceed, the following is needed:**
 - Literature review of tetracycline use (including minocycline) in punctate epithelial keratoconjunctivitis and related ocular surface disease

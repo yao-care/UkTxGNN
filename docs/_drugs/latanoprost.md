@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Latanoprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,32 +33,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Latanoprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Latanoprost is a prostaglandin F2-alpha analogue, originally used to treat open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
 but **no clinical trials and no publications** were found in the data compiled for this report to support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Open-angle glaucoma; ocular hypertension (from the TxGNN knowledge graph, as the licence record contains no indication text) |
-| Predicted New Indication | Primary hereditary glaucoma |
-| TxGNN Prediction Score | 99.88% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Visceral calciphylaxis |
+| TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, latanoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure (IOP) mainly by increasing uveoscleral outflow. Its efficacy in open-angle glaucoma and ocular hypertension is established, and mechanistically it may be applicable to other glaucomas where raised IOP is the treatable driver.
 
-Primary hereditary glaucoma, including congenital and juvenile forms, is also characterised by elevated IOP, which gives the prediction biological plausibility. However, these forms often involve developmental defects of the trabecular meshwork or drainage angle and are frequently managed surgically. The high TxGNN score probably reflects proximity to the approved glaucoma indication in the knowledge graph rather than new repurposing evidence. Latanoprost might be considered as adjunctive therapy in some cases, but the data compiled for this report provide no support for this.
+However, these forms often involve developmental defects of the trabecular meshwork or drainage angle and are frequently managed surgically. Latanoprost might be considered as adjunctive therapy in some cases, but the data compiled for this report provide no support for this.
 
 Other predicted indications were also reviewed. Hypotrichosis simplex of the scalp and congenital hypotrichosis milia have a plausible rationale, since prostaglandin analogues prolong the hair anagen phase and eyelash growth is a recognised latanoprost effect. Both remain unverified, with no trial or literature evidence. The vascular predictions (visceral calciphylaxis, thoracic outlet syndromes, angiodysplasia of the stomach, blue toe syndrome, lymphangiectasis) have no clear mechanistic link and are unlikely to be reachable with topical ocular dosing, which gives minimal systemic exposure.
 

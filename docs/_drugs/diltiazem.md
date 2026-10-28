@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 229
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-15
-description: "Diltiazem: predicted new indication Obsolete susceptibility to ischaemic stroke (evidence level L5). Approved use: Hypertensive disorder, hypertension, atrial fibrillation…"
-monitor_inn: "Diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,50 +32,45 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Diltiazem: From Hypertension and Cardiac Arrhythmia to Susceptibility to Ischaemic Stroke (Obsolete Term)
+<!-- known-uses-page -->
+<!-- description: Diltiazem: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Diltiazem: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem. Every candidate that can be traced to a source is already a known use, so there is currently no new predicted indication. The one known use is supported by a licence in another country.
 
-Diltiazem is a calcium channel blocker originally used for hypertension, atrial fibrillation, Prinzmetal angina and ventricular tachycardia.
-The TxGNN model predicts it may be effective for **susceptibility to ischaemic stroke** (an obsolete ontology term),
-but **no clinical trials or publications** were found in the data compiled for this report, so the prediction rests on the model alone.
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Hypertensive disorder, hypertension, atrial fibrillation, Prinzmetal angina, ventricular tachycardia (from the knowledge graph; no approved indication text is available for the UK product) |
-| Predicted New Indication | Obsolete susceptibility to ischaemic stroke |
-| TxGNN Prediction Score | 99.08% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (all traceable model candidates are known uses) |
+| Known uses among model candidates | 1 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
-## Why is This Prediction Reasonable?
+## Known uses among the model's candidates
 
-Detailed mechanism of action data is not available. From general pharmacology, diltiazem is a non-dihydropyridine calcium channel blocker. It lowers blood pressure, slows the heart rate and dilates blood vessels.
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| Prinzmetal angina | licence in another country (approved indication: angina) |
 
-Several of its established uses relate to stroke risk factors. Hypertension is the leading modifiable risk factor for stroke, and atrial fibrillation is a major cause of cardioembolic stroke. Blood pressure lowering and heart rate control could therefore plausibly reduce stroke susceptibility. Vasodilation of cerebral and coronary vessels is another possible link.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-These links are indirect inferences. No trial or publication in the data compiled for this report supports them, and the high TxGNN score is a model output, not clinical evidence. The disease term is also labelled "obsolete", which suggests a deprecated ontology entry. It may map to a broader or different current term, such as ischaemic stroke or stroke susceptibility, and should be reconciled before further evaluation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| none |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0107010AAAAAJAJ (BNF code, not a PL number) | Diltiazem HCl cream 2% | Cream | Not stated in the data compiled |
-
-The data compiled for this report show one valid single-ingredient product and no cancelled authorisations. A 2% diltiazem cream is a topical product, so its use differs from oral or intravenous diltiazem for the cardiovascular indications above. The route of administration for the predicted new indication has not yet been assessed.
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 0107010AAAAAJAJ | Diltiazem HCl_Crm 2% |  | Valid |
 
 ## Safety Considerations
 
@@ -96,20 +90,6 @@ The data compiled for this report show one valid single-ingredient product and n
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction has no supporting trials or publications (Evidence Level L5), and the target disease term is obsolete. The only UK authorisation identified is a topical cream, with no approved indication text available. The case for the prediction is currently theoretical.
-
-**To proceed, the following is needed:**
-- Reconcile the obsolete disease term with a current ontology term, such as ischaemic stroke or stroke susceptibility
-- Mechanism of action data (for example from DrugBank) to support the mechanistic-link analysis
-- A targeted literature and trial search on diltiazem and stroke prevention or outcomes
-- SmPC and BNF warnings and contraindications for the relevant UK formulations, as the safety screening data are incomplete
-- Confirmation of the UK marketing authorisation details (PL number, dosage form, approved indication) and of routes of administration suitable for the proposed use
-- Assessment of the interaction and contraindication profile in patients at stroke risk, who often have conduction disease, hypotension or are on multiple medicines
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

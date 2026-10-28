@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Permethrin
-parent: Moderate Evidence (L3-L4)
+parent: Known Uses Only (No New Predictions)
 nav_order: 487
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Permethrin: predicted new indication Trombiculiasis (evidence level L4). Approved use: Scabies, Norwegian scabies, mite infestation, and head…"
-monitor_inn: "Permethrin"
-predicted_indications: ["trombiculiasis", "lip neoplasm", "lower lip fistula", "anisakiasis", "toxascariasis", "toxocariasis", "herpes labialis", "punctate epithelial keratoconjunctivitis", "nasopharyngitis", "tonsillitis"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Permethrin: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Permethrin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,63 +32,50 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Permethrin: From Scabies and Lice Infestations to Trombiculiasis
+<!-- known-uses-page -->
+<!-- description: Permethrin: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Permethrin: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Permethrin, so there is currently no new predicted indication. The drug's recorded uses are listed below.
 
-Permethrin is a topical pyrethroid ectoparasiticide, originally used to treat scabies and lice (head, body and pubic) infestations.
-The TxGNN model predicts it may be effective for **trombiculiasis** (chigger mite infestation), but the only supporting evidence is **1 veterinary publication** and **no registered clinical trials**, so this remains a research question.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Scabies, Norwegian scabies, mite infestation, and head, body and pubic lice infestations |
-| Predicted New Indication | Trombiculiasis |
-| TxGNN Prediction Score | 95.16% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 6 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| none | none |
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, permethrin is a pyrethroid that keeps voltage-gated sodium channels open in arthropod neurons, causing paralysis and death of the parasite.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-Trombiculiasis is caused by trombiculid mite larvae (chiggers). Permethrin is already used against scabies and other mite infestations, so an effect on another mite-borne skin condition is biologically plausible.
-
-The supporting evidence is indirect, however. The one publication found is a veterinary study in dogs using permethrin-pyriproxyfen combination products, not permethrin alone and not in humans.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [14984153](https://pubmed.ncbi.nlm.nih.gov/14984153/) | 2004 | Veterinary clinical study (combination product) | J Small Anim Pract | 15 dogs with itchy dermatitis from *Neotrombicula autumnalis* were treated with topical permethrin-pyriproxyfen combinations. Treatment was effective within 1 to 3 weeks in 14 dogs, and the dermatitis resolved once the infestation cleared. |
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| mite infestation |
+| norwegian scabies |
+| pediculus humanus capitis infestation |
+| pediculus humanus corporis infestation |
+| pthirus pubis infestation |
+| scabies |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310040Q0AAABAB | Permethrin cream 5% | Cream | Not stated in the data compiled for this report |
-
-Only one valid single-ingredient authorisation is recorded. The record is incomplete: no manufacturer, dosage form detail or indication text was available, and it should be checked against the MHRA register and the BNF before any reliance is placed on it.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 1310040Q0AAABAB | Permethrin_Crm 5% |  | Valid |
 
 ## Safety Considerations
 
@@ -101,19 +87,6 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is biologically plausible, since permethrin acts on mites, but the only evidence is a non-human study of combination products. There are no human trials, and the safety data (label warnings and contraindications) are incomplete.
-
-**To proceed, the following is needed:**
-- Human clinical data (case series or trials) on permethrin for trombiculiasis
-- Confirmation of the UK authorisation details (indication, dosage form, manufacturer) and the SmPC warnings and contraindications
-- Verification of the knowledge-graph contraindication signal (bronchial disease)
-- Mechanism of action data from DrugBank to complete the mechanistic analysis
-- Comparison with current standard care for chigger bites, which is mainly symptomatic
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

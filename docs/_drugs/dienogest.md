@@ -50,10 +50,10 @@ Amenorrhoea is better understood as an expected pharmacological effect of dienog
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the licence indication text is empty) |
 | Predicted New Indication | Amenorrhoea |
-| TxGNN Prediction Score | 99.71% |
-| Evidence Level | L4 (preclinical/mechanistic and indirect literature only; no clinical trials) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 (preclinical/mechanistic and indirect literature only; no clinical trials) |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

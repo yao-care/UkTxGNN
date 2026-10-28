@@ -50,10 +50,10 @@ but the data compiled for this report contain **no relevant clinical trials** an
 |------|------|
 | Original Indication | Not recorded in the UK licence data compiled for this report (the product is a direct thrombin inhibitor anticoagulant) |
 | Predicted New Indication | Sclerosing cholangitis |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

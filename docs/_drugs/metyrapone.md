@@ -4,17 +4,17 @@ title: Metyrapone
 parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (pharmac…"
 monitor_inn: "Metyrapone"
-predicted_indications: ["exercise-induced malignant hyperthermia", "malignant hyperthermia, susceptibility to", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
+predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
 
 # Metyrapone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 |------|------|
 | Original Indication | Not recorded in the UK licence data compiled for this report (pharmacology sources describe use in diagnostic testing of hypothalamic-pituitary function and in Cushing's syndrome) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 Currently, detailed mechanism of action data is not available in the compiled data. From pharmacology sources, metyrapone inhibits 11-beta-hydroxylase (CYP11B1) and, to a lesser extent, CYP11B2, which blocks the final step of cortisol synthesis in the adrenal gland.
 
-Malignant hyperthermia is a different kind of disorder. It is driven by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). Cortisol synthesis inhibition does not address this pathway, and no mechanistic link has been established. The high TxGNN score appears to be a graph-based signal, probably from shared network neighbours among myopathy and malignant hyperthermia nodes, rather than a pharmacological rationale.
+Malignant hyperthermia is a different kind of disorder. It is driven by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). Cortisol synthesis inhibition does not address this pathway, and no mechanistic link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the myopathies and malignant hyperthermia, not biological evidence or a pharmacological rationale.
 
 The other top-ranked predictions are also muscle or electrolyte disorders (for example malignant hyperthermia susceptibility, King-Denborough syndrome, central core myopathy, centronuclear myopathy and familial periodic paralysis). They share the same weakness: there is no plausible mechanistic connection to steroidogenesis inhibition.
 

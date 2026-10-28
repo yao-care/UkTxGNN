@@ -4,17 +4,17 @@ title: Perindopril
 parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perindopril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Perindopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Perindopril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ but the data compiled for this report contain **no clinical trials** and **no di
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Malignant hypertensive renal disease |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 (preclinical or mechanistic evidence only; see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 4 |
+| TxGNN Prediction Score | 0.9977 |
+| Evidence Level | L5 (preclinical or mechanistic evidence only; see note below) |
+| UK Market Status | Marketed (valid licences: 4 of 4) |
+| Number of Marketing Authorisations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 *Note: The only publication linked to this indication is an observational study on renal cancer, which is not relevant to perindopril. Strictly, the evidence for this prediction is closer to L5 (model prediction only).*
@@ -66,9 +66,9 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 Malignant hypertensive renal disease is kidney damage caused by severely raised blood pressure. It is closely related to the approved hypertension indication, and RAAS activation is a known driver of the condition. Mechanistically, RAAS blockade is therefore plausible.
 
-However, the very high TxGNN score (99.77%) most likely reflects how close this disease sits to hypertension in the knowledge graph, rather than independent evidence of benefit. Malignant hypertension is also an acute, high-risk setting in which ACE inhibitors may cause a sharp fall in blood pressure or kidney injury, so plausibility alone is not enough.
+However, the very high TxGNN score (0.9977) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of benefit. Malignant hypertension is also an acute, high-risk setting in which ACE inhibitors may cause a sharp fall in blood pressure or kidney injury, so plausibility alone is not enough.
 
-Other predictions generated for this drug (for context only): malignant renovascular hypertension (99.77%, L5), pulmonary hypertension due to lung disease or hypoxia (99.75%, L4, animal data only), pulmonary hypertension of unclear multifactorial mechanism (99.75%, L5), and Braddock syndrome (99.66%, L5, no rationale evident). All are currently on Hold.
+Other predictions generated for this drug (for context only): malignant renovascular hypertension (0.9977, L5), pulmonary hypertension due to lung disease or hypoxia (0.9975, L4, animal data only), pulmonary hypertension of unclear multifactorial mechanism (0.9975, L5), and Braddock syndrome (0.9966, L5, no rationale evident). All are currently on Hold.
 
 ---
 

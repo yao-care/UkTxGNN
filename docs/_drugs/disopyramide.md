@@ -50,10 +50,10 @@ This is a model-only signal with no supporting evidence, and it should be treate
 |------|------|
 | Original Indication | Not stated in the UK authorisation data (the drug is a Class Ia antiarrhythmic) |
 | Predicted New Indication | Tourette syndrome |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ This is a model-only signal with no supporting evidence, and it should be treate
 
 Currently, detailed mechanism of action data is not available from the compiled sources. Based on known pharmacology, disopyramide is a Class Ia antiarrhythmic that blocks sodium channels and has anticholinergic activity.
 
-Tourette syndrome is thought to arise from dysfunction in dopaminergic and cortico-striatal-thalamo-cortical circuits. Sodium channel blockade and anticholinergic effects are not recognised therapeutic mechanisms in this condition, so **no mechanistic link is established**. The high TxGNN score reflects a graph-based association only. It should not be read as evidence of efficacy.
+Tourette syndrome is thought to arise from dysfunction in dopaminergic and cortico-striatal-thalamo-cortical circuits. Sodium channel blockade and anticholinergic effects are not recognised therapeutic mechanisms in this condition, so **no mechanistic link is established**. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It should not be read as evidence of efficacy.
 
 The same applies to the other top-ranked predictions. These include ADHD (and its inattentive subtype), trichotillomania, faciodigitogenital syndrome, specific developmental disorder, chondromyxoid fibroma and trigeminal nerve neoplasm. All were reviewed, none has any supporting trial or publication, and the data provide no plausible pharmacological rationale for any of them.
 
@@ -116,7 +116,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone, with no trials, no literature, no plausible mechanism and a safety profile that is unfavourable for the likely patient population.
+The prediction rests on a TxGNN model (deep learning) score alone, which may reflect similarities the model learned between related diseases, not biological evidence, with no trials, no literature, no plausible mechanism and a safety profile that is unfavourable for the likely patient population.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for disopyramide, to allow a proper mechanistic assessment

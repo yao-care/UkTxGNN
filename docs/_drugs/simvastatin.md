@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Simvastatin
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 569
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-15
-description: "Simvastatin: predicted new indication Familial hypercholesterolaemia (evidence level L1). Approved use: Hypertriglyceridaemia, stroke and cerebrovascular disorders…"
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Simvastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L1** | Predicted Indications: **8**
 
 </div>
 
-## Simvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Familial Hypercholesterolaemia
+## Simvastatin: Brain stem infarction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ Familial hypercholesterolaemia overlaps with simvastatin's existing indications,
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertriglyceridaemia, stroke and cerebrovascular disorders, atherosclerosis, familial combined hyperlipidaemia, hyperlipoproteinaemia, homozygous familial hypercholesterolaemia (the UK authorisation record has no indication text) |
-| Predicted New Indication | Familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.63% |
-| Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Brain stem infarction |
+| TxGNN Prediction Score | 0.9941 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -146,13 +146,11 @@ Multiple completed Phase 3 trials in familial hypercholesterolaemia include simv
 
 | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |------|------|------|------|------|
-| Autosomal dominant hypercholesterolaemia | 99.36% | L1 | Proceed with Guardrails | Overlaps with familial hypercholesterolaemia; same Phase 3 trials |
-| HIV infectious disease | 99.22% | L3 | Research Question | Evidence concerns drug interactions and HIV-associated dyslipidaemia, not antiviral effect; one pilot study found no anti-HIV activity |
-| Brain stem infarction | 99.41% | L4 | Hold | Only a tangential preclinical paper; no trials |
-| CETP deficiency | 99.39% | L5 | Hold | Model prediction only |
-| Hypercholesterolaemia due to CYP7A1 deficiency | 99.27% | L5 | Hold | Model prediction only; reported poor statin response |
-| ABri amyloidosis | 99.13% | L5 | Hold | Model prediction only |
-| Neurodevelopmental disorder with ataxic gait and absent speech | 99.10% | L5 | Hold | Model prediction only |
+| HIV infectious disease | 0.9922 | L3 | Research Question | Evidence concerns drug interactions and HIV-associated dyslipidaemia, not antiviral effect; one pilot study found no anti-HIV activity |
+| Brain stem infarction | 0.9941 | L5 | Hold | Only a tangential preclinical paper; no trials |
+| CETP deficiency | 0.9939 | L5 | Hold | Model prediction only |
+| ABri amyloidosis | 0.9913 | L5 | Hold | Model prediction only |
+| Neurodevelopmental disorder with ataxic gait and absent speech | 0.9910 | L5 | Hold | Model prediction only |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

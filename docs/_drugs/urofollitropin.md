@@ -4,17 +4,17 @@ title: Urofollitropin
 parent: Model Prediction Only (L5)
 nav_order: 648
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Urofollitropin: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the UK authorisation data compiled for this report (gen…"
 monitor_inn: "Urofollitropin"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "migraine with or without aura, susceptibility to", "Raynaud disease"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
 ---
 
 # Urofollitropin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 |------|------|
 | Original Indication | Not stated in the UK authorisation data compiled for this report (generally used for ovulation induction and ovarian stimulation) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,7 @@ Currently, detailed mechanism of action data is not available. Based on known in
 
 Hormonal fluctuation, particularly in oestrogen, is associated with migraine, which could offer a very loose, speculative connection through the effects of FSH on ovarian hormone production. However, there is no evidence that FSH activity modulates migraine pathophysiology. The high TxGNN score is a computational output and should not be read as clinical support.
 
-Other top-ranked predictions show the same pattern: migraine with brainstem aura, cauda equina syndrome, His bundle tachycardia, restless legs syndrome, obsolete neurogenic bladder, multifocal atrial tachycardia, postural orthostatic tachycardia syndrome, a migraine susceptibility entry, and Raynaud disease. None has trial or literature support, and several (for example cauda equina syndrome, a compressive surgical emergency) have no plausible mechanistic link, suggesting artefacts of knowledge-graph connectivity.
+Other top-ranked predictions show the same pattern: migraine with brainstem aura, cauda equina syndrome, His bundle tachycardia, restless legs syndrome, obsolete neurogenic bladder, multifocal atrial tachycardia, postural orthostatic tachycardia syndrome, and Raynaud disease. None has trial or literature support, and several (for example cauda equina syndrome, a compressive surgical emergency) have no plausible mechanistic link. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 

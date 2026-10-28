@@ -6,9 +6,9 @@ nav_order: 411
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Mexiletine: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the licence data (mexiletine is an antiarrhythmic…"
 monitor_inn: "Mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
+description: "Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Mexiletine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mexiletine: From Ventricular Arrhythmia to Headache Disorder
+## Mexiletine: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ It has **no registered clinical trials** and **5 publications**, all small obser
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence data (mexiletine is an antiarrhythmic, class IB) |
-| Predicted New Indication | Headache disorder (selected for evidence; the top-scoring prediction by TxGNN is hypertrichosis) |
-| TxGNN Prediction Score | 99.48% (headache disorder); the top-ranked prediction, hypertrichosis, scored 99.78% |
-| Evidence Level | L3 (observational studies and case series) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9978 |
+| Evidence Level | L5 (observational studies and case series) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 **Note on the choice of indication:** The top-ranked predictions by score (hypertrichosis, nephrogenic syndrome of inappropriate antidiuresis, Ambras syndrome and others) have no supporting studies and no plausible mechanism. Headache disorder and migraine have the only direct clinical literature, so this report focuses on headache disorder.

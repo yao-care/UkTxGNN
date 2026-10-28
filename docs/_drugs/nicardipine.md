@@ -4,17 +4,17 @@ title: Nicardipine
 parent: Model Prediction Only (L5)
 nav_order: 442
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-15
-description: "Nicardipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+indication_count: 4
 monitor_inn: "Nicardipine"
-predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
+predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
+last_modified_at: 2026-10-23
+description: "Nicardipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertensive disorder and hypertension"
 ---
 
 # Nicardipine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,97 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Nicardipine: From Hypertension to Pulmonary Hypertension (Multifactorial Mechanism)
+## Nicardipine: From Hypertension to Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Nicardipine is a dihydropyridine calcium channel blocker, originally used to treat hypertension.
-The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**,
-but there are currently **no registered clinical trials** and **no directly supporting publications** for this specific indication, so the prediction rests on the model alone.
+Nicardipine is a dihydropyridine calcium channel blocker, recorded in the knowledge graph for hypertensive disorder and hypertension.
+The TxGNN model predicts it may be useful for **pulmonary hypertension owing to lung disease and/or hypoxia**,
+but there are currently **no registered clinical trials** and **no publications that directly study this condition in patients**. The only closely related item is one 1988 animal study of hypoxic pulmonary vasoconstriction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder) |
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.26% |
+| Original Indication | Hypertensive disorder and hypertension (relation recorded in the knowledge graph; no licence indication text available) |
+| Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on drug class, nicardipine is a dihydropyridine calcium channel blocker. It relaxes vascular smooth muscle and causes vasodilation, and its efficacy in systemic hypertension is established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, nicardipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and lowers systemic blood pressure.
 
-Pulmonary hypertension involves raised pressure in the pulmonary arteries, and pulmonary vascular tone is partly calcium-dependent. This gives a plausible but unverified link between systemic vasodilation and pulmonary vasodilation.
+Hypoxic pulmonary vasoconstriction depends partly on calcium influx into pulmonary arterial smooth muscle, so a mechanistic link is plausible. One physiological study in dogs (PMID 3132192, 1988) examined nicardipine's effect on regional hypoxic pulmonary vasoconstriction.
 
-There is an important caution. Calcium channel blockers can inhibit hypoxic pulmonary vasoconstriction, which may worsen ventilation-perfusion matching and gas exchange. This needs careful evaluation before any clinical use in this setting. The one directly relevant publication identified concerns nicardipine and regional hypoxic pulmonary vasoconstriction in dogs (see below), which is not evidence of benefit in patients.
+There is also a safety concern. Systemic vasodilation by calcium channel blockers can impair ventilation-perfusion matching and worsen oxygenation in hypoxic lung disease. The high TxGNN score is a computational prediction only and is not clinical evidence.
+
+Other predicted indications in the data (pulmonary hypertension with unclear multifactorial mechanism, malignant hypertensive renal disease, Braddock syndrome) have no retrieved trials or literature. Malignant hypertensive renal disease is most likely an extension of the existing hypertension use rather than a true new indication.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-No literature was identified for the top-ranked predicted indication. The table below lists the most relevant publications retrieved for the related predicted indication, pulmonary hypertension owing to lung disease and/or hypoxia (rank 2). Only the first is directly about nicardipine and the pulmonary circulation; the others are indirect.
+None of the retrieved publications studies nicardipine in patients with pulmonary hypertension owing to lung disease or hypoxia. The most relevant items are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3132192](https://pubmed.ncbi.nlm.nih.gov/3132192/) | 1988 | Preclinical/physiological study | Br J Anaesth | Effect of nicardipine on regional hypoxic pulmonary vasoconstriction in 14 open-chest dogs, including a group with controlled cardiac output |
-| [19035721](https://pubmed.ncbi.nlm.nih.gov/19035721/) | 2008 | Clinical study | J Neurosurg | IV nicardipine in hypertensive emergencies in acute brain disease and its effect on brain tissue oxygen; systemic, not pulmonary, hypertension |
-| [2693295](https://pubmed.ncbi.nlm.nih.gov/2693295/) | 1989 | Review | Fundam Clin Pharmacol | Neuropharmacology of calcium antagonists in cerebral ischaemia, vasospasm and hypoxia |
-| [1735870](https://pubmed.ncbi.nlm.nih.gov/1735870/) | 1992 | Review | J Post Anesth Nurs | Acute postoperative hypertension in hypertensive patients; systemic, not pulmonary |
-| [14751848](https://pubmed.ncbi.nlm.nih.gov/14751848/) | 2004 | Preclinical | Am J Physiol Lung Cell Mol Physiol | 5-HT-induced calcium influx in rat small intrapulmonary artery; background on pulmonary vasoconstriction mechanisms |
+| [3132192](https://pubmed.ncbi.nlm.nih.gov/3132192/) | 1988 | Physiological/preclinical (dogs) | Br J Anaesth | Effect of nicardipine on regional hypoxic pulmonary vasoconstriction in open-chest dogs; higher doses increased cardiac output |
+| [19035721](https://pubmed.ncbi.nlm.nih.gov/19035721/) | 2008 | Clinical study | J Neurosurg | IV nicardipine in hypertensive emergencies in acute brain disease and its effect on cerebral oxygenation (not pulmonary hypertension) |
+| [2693295](https://pubmed.ncbi.nlm.nih.gov/2693295/) | 1989 | Review | Fundam Clin Pharmacol | Neuropharmacology of calcium antagonists, including use in cerebral ischaemia, vasospasm and hypoxia |
+| [3288055](https://pubmed.ncbi.nlm.nih.gov/3288055/) | 1988 | Review | Ann N Y Acad Sci | Pathophysiology of isolated cardiomyocytes (background only) |
+| [1735870](https://pubmed.ncbi.nlm.nih.gov/1735870/) | 1992 | Review | J Post Anesth Nurs | Acute postoperative systemic hypertension (indirect) |
+| [14751848](https://pubmed.ncbi.nlm.nih.gov/14751848/) | 2004 | Preclinical | Am J Physiol Lung Cell Mol Physiol | 5-HT-induced calcium influx in rat small intrapulmonary artery (mechanistic background) |
+
+---
 
 ## UK Market Information
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0206020Q0AAAAAA | Nicardipine HCl capsule 20 mg | Capsule | Not stated in the data compiled for this report |
+| 0206020Q0AAAAAA | Nicardipine HCl Cap 20mg | Not stated | Not stated |
 
-The reference code above appears to be a BNF-style product code rather than a standard PL number. Dosage form and approved indication details were not available. Please check the current MHRA listing, SmPC and BNF.
+This identifier resembles a BNF-style product code (BNF section 2.6.2, calcium-channel blockers) rather than a standard PL number. Please verify it against the MHRA register.
+
+---
 
 ## Safety Considerations
 
-- **Contraindications and disease associations (from knowledge-graph data, not label text):** liver disease, gallbladder disease, hypotensive disorder, impaired renal function, intracerebral haemorrhage, cerebral infarction, ischaemic stroke susceptibility, cerebrovascular disorder, cerebral artery occlusion and brain stem infarction. Verify against the SmPC.
-- **Drug Interactions:** 100 interactions were identified in total. The only one listed as **Major** among those reviewed was **dolasetron**. Examples of **Moderate** interactions include:
-  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
-  - Other drugs: bupropion, aprepitant, morphine, acetylsalicylic acid, cimetidine, miconazole, magnesium sulfate
-  - Calcium salts: calcium phosphate, calcium acetate
-  - SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin
-  - Cannabinoids: dronabinol, nabilone
-- **Specific concern for this indication:** possible worsening of gas exchange through inhibition of hypoxic pulmonary vasoconstriction.
+- **Contraindications (relations recorded in the knowledge graph, not label text):** liver disease, gallbladder disease, hypotensive disorder, impaired renal function, intracerebral haemorrhage, cerebral infarction, cerebrovascular disorder, cerebral artery occlusion, brain stem infarction.
+- **Drug Interactions:** 100 interactions were recorded. Examples:
+  - **Major:** dolasetron.
+  - **Moderate:** cimetidine, aprepitant, bupropion, morphine, acetylsalicylic acid, miconazole, magnesium sulfate, several corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), and SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin).
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no clinical trials and no directly supportive human evidence for this indication (evidence level L5). The only pulmonary-specific paper is an animal study, and there is a recognised risk of impaired gas exchange.
+No clinical trials or direct patient studies support nicardipine in pulmonary hypertension owing to lung disease or hypoxia. The only related evidence is one animal study, and systemic vasodilation may worsen oxygenation in hypoxic lung disease. The high TxGNN score alone is insufficient.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for nicardipine
-- UK label information (SmPC warnings, contraindications, approved indication, dosage form) to complete safety screening
-- Systematic literature review of calcium channel blockers in pulmonary hypertension, with attention to disease subgroup and vasoreactivity
-- Preclinical and early clinical data on pulmonary haemodynamics and oxygenation
-- Clarification of the disease definition used in the prediction
-- Note: other predicted indications (malignant renovascular hypertension, malignant hypertensive renal disease) largely overlap with the existing hypertension indication and offer limited repurposing novelty. Braddock syndrome has no identifiable mechanistic rationale and needs manual curation of its disease definition.
+- Mechanism-of-action data and label warnings and contraindications (from the SmPC and BNF)
+- Preclinical or early-phase data on pulmonary haemodynamics and gas exchange in hypoxic lung disease
+- Assessment of the ventilation-perfusion mismatch risk
+- Confirmation of the UK licence details (dosage form, approved indication, authorisation number)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

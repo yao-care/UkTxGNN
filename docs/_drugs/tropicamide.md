@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
+last_modified_at: 2026-10-28
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
+description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tropicamide
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tropicamide: From Cycloplegia to Cauda Equina Syndrome
+## Tropicamide: Cauda equina syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,21 +45,21 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cycloplegia (the licence record compiled for this report contains no approved indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Cauda equina syndrome |
-| TxGNN Prediction Score | 99.53% |
+| TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-Two other predictions were also generated: obsolete neurogenic bladder (99.13%) and irritable bowel syndrome (99.12%). Neither has clinical trial or literature support.
+Two other predictions were also generated: obsolete neurogenic bladder (0.9913) and irritable bowel syndrome (0.9912). Neither has clinical trial or literature support.
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology records list activity at the M2, M3, M4 and M5 receptors. It is used as a short-acting mydriatic for examining the lens, vitreous humour and retina.
 
-Cauda equina syndrome is caused by compression of the lumbosacral nerve roots and produces bladder, bowel and sensory dysfunction. In theory, anticholinergic action could reduce detrusor overactivity. However, the primary treatment is urgent surgical decompression, and no drug is expected to treat the underlying disease. The high TxGNN score is a graph-based prediction and is probably driven by the shared neurogenic bladder phenotype.
+Cauda equina syndrome is caused by compression of the lumbosacral nerve roots and produces bladder, bowel and sensory dysfunction. In theory, anticholinergic action could reduce detrusor overactivity. However, the primary treatment is urgent surgical decompression, and no drug is expected to treat the underlying disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The mechanistic case is also weakened by the formulation. Topical ophthalmic tropicamide gives minimal systemic exposure, so it is unlikely to reach the effect on bladder or bowel that systemic antimuscarinics achieve.
 

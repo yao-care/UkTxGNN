@@ -4,17 +4,17 @@ title: Tiaprofenic Acid
 parent: Model Prediction Only (L5)
 nav_order: 615
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis"
 monitor_inn: "Tiaprofenic acid"
-predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "spondyloarthropathy, susceptibility to", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
+description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tiaprofenic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tiaprofenic Acid: From Rheumatoid Arthritis and Osteoarthritis to Brachydactyly-Syndactyly Syndrome
+## Tiaprofenic Acid: Brachydactyly-syndactyly syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Based on known information, tiaprofenic acid is an NSAID of the propionic acid class and acts as a cyclooxygenase (COX) inhibitor. Its efficacy in rheumatoid arthritis and osteoarthritis rests on this anti-inflammatory and analgesic action.
 
-Brachydactyly-syndactyly syndrome is a genetic limb malformation with a developmental rather than inflammatory cause. COX inhibition is not expected to correct the underlying defect, so no mechanistic link has been established. The very high TxGNN score is a computational prediction only. It may reflect proximity between skeletal or joint-related disease terms in the knowledge graph rather than true biological relevance.
+Brachydactyly-syndactyly syndrome is a genetic limb malformation with a developmental rather than inflammatory cause. COX inhibition is not expected to correct the underlying defect, so no mechanistic link has been established. The very high TxGNN score is a computational prediction only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 Other top-ranked predictions show the same pattern. Most are rare genetic skeletal or developmental conditions (for example colobomatous microphthalmia-rhizomelic dysplasia syndrome, brachyolmia and acromesomelic dysplasia, Hunter-Thompson type) or coagulation disorders (factor 5 excess with spontaneous thrombosis, heparin cofactor 2 deficiency), with no plausible mechanistic link. The most biologically plausible candidate is spondyloarthropathy (susceptibility), because NSAIDs are first-line symptomatic therapy in that group of diseases. However, this entry is a susceptibility-type disease term, and no trial or literature evidence was found for tiaprofenic acid in it. Other NSAIDs are already established in this setting.
 

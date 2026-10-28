@@ -6,7 +6,7 @@ nav_order: 354
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "L-Lysine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available in the data compiled for this report"
+description: "L-Lysine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## L-Lysine: From an Unspecified Original Indication to Gastroparesis
+## L-Lysine: From an Unspecified Original Indication to gastroparesis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,19 +48,19 @@ This prediction rests on model output alone and is not supported by actual studi
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Gastroparesis |
-| TxGNN Prediction Score | 99.77% |
+| TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. L-Lysine is an essential amino acid, and no established pharmacological pathway linking it to gastric motility could be identified from the data compiled.
 
-The model's high score appears to be a graph-based association only. The single publication retrieved concerns delivering mesenchymal stem cells from gelatin-alginate hydrogels to the stomach lumen. It does not use L-Lysine as a therapeutic agent. The apparent link may reflect network proximity (for example, amino acid or gelatin-related terms) rather than a true pharmacological effect.
+The model's high score appears to be a model-based association only. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The single publication retrieved concerns delivering mesenchymal stem cells from gelatin-alginate hydrogels to the stomach lumen. It does not use L-Lysine as a therapeutic agent.
 
-Two other predictions were also generated: congenital prothrombin deficiency (score 99.13%) and vitamin D deficiency, a term now marked obsolete (score 99.02%). Neither has any trials or literature. Lysine's role in fibrinolysis (lysine analogues such as tranexamic acid are antifibrinolytics) does not correct a prothrombin deficiency, which is treated by factor replacement. No direct mechanism links L-Lysine to vitamin D status. These are noted for context only; the report focuses on the top-ranked prediction.
+Two other predictions were also generated: congenital prothrombin deficiency (score 0.9913) and vitamin D deficiency, a term now marked obsolete (score 0.9902). Neither has any trials or literature. Lysine's role in fibrinolysis (lysine analogues such as tranexamic acid are antifibrinolytics) does not correct a prothrombin deficiency, which is treated by factor replacement. No direct mechanism links L-Lysine to vitamin D status. These are noted for context only; the report focuses on the top-ranked prediction.
 
 ## Clinical Trial Evidence
 

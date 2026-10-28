@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Clonidine: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Hypertension, open-angle glaucoma, ADHD"
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
+last_modified_at: 2026-10-27
+description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Clonidine
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Clonidine: From Hypertension to Faciodigitogenital Syndrome
+## Clonidine: alpha-2 adrenergic agonist → faciodigitogenital syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Clonidine is an alpha-2 adrenergic agonist originally used for hypertension, open-angle glaucoma and attention deficit hyperactivity disorder (ADHD).
-The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**, a rare genetic developmental syndrome.
-There are **no clinical trials** and **no publications** supporting this prediction, so it rests on the model score alone.
+Clonidine is a centrally acting alpha-2 adrenergic agonist that is marketed in the UK.
+The TxGNN model predicts it may be relevant to **faciodigitogenital syndrome**, but **no clinical trials and no publications** were found for this condition, so the prediction rests on the model score alone.
 
 ---
 
@@ -48,21 +47,21 @@ There are **no clinical trials** and **no publications** supporting this predict
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, open-angle glaucoma, ADHD (from the knowledge-graph indication records; the licence text in the compiled data is blank) |
-| Predicted New Indication | Faciodigitogenital syndrome |
-| TxGNN Prediction Score | 99.999% (model rank 34) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | faciodigitogenital syndrome |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Clonidine is an alpha-2 adrenergic agonist that reduces noradrenergic tone, and its efficacy in hypertension and ADHD is established.
+Detailed mechanism of action data are not available in the data compiled for this report. Clonidine is known as an alpha-2 adrenergic agonist that reduces central noradrenergic output.
 
-On the evidence available, **the prediction is not mechanistically supported**. Faciodigitogenital syndrome is a rare genetic developmental disorder, and alpha-2 adrenergic agonism has no known link to its pathophysiology. The score is very high (0.99999), but with no trials and no literature it is most likely an artefact of the knowledge graph rather than a genuine repurposing signal.
+Faciodigitogenital syndrome is a rare genetic developmental condition. No mechanistic link between alpha-2 adrenergic agonism and its pathophysiology could be identified. The very high TxGNN score (0.9999) is not matched by any clinical or published evidence, and the prediction is most likely a computational artefact rather than a credible repurposing signal.
 
 ---
 
@@ -82,24 +81,20 @@ Currently no related literature available.
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0205020E0AAACAC (as recorded; a BNF-style product code rather than a PL number) | Clonidine HCl Tab 100mcg | Tablet (taken from the product name) | Not stated in the data compiled |
+| 0205020E0AAACAC | Clonidine HCl Tab 100mcg | Not recorded | Not recorded |
 
-This is a single-ingredient product with valid status. The compiled data give no indication text, so check the current SmPC and BNF entry for the licensed indications.
+The local data list one valid single-ingredient authorisation. The identifier shown is a BNF-style product code rather than a PL number, and no indication text is recorded.
 
 ---
 
 ## Safety Considerations
 
-- **Contraindication signals from the knowledge graph (not label text):** The TxGNN knowledge graph links clonidine to a number of conditions as potential contraindications. They should be checked against the SmPC before any use. Examples:
-  - Cardiovascular: hypotensive disorder, myocardial infarction, myocardial ischaemia, heart conduction disease, sudden cardiac arrest
-  - Metabolic and endocrine: type 1 and type 2 diabetes mellitus, diabetic ketoacidosis, gout, hypercalcaemia
-  - Organ-related and other: liver failure, anuria, respiratory failure, pancreatitis, systemic lupus erythematosus, anxiety disorder
-- **Drug interactions:** The interaction screen returned 100 interactions. The 20 shown were all of moderate severity, mainly:
-  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone)
-  - glucose-lowering drugs (SGLT2 inhibitors, sulfonylureas, insulins)
-  - others, such as bupropion, morphine and dronabinol
+**Drug interactions:** Interaction screening identified 100 recorded interactions; the 20 listed in the data are all of moderate severity. They include:
+- Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide
+- Glucose-lowering agents: insulin products, glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide, and SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+- Central nervous system agents: bupropion, morphine, dronabinol
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Warning and contraindication text from the product label was not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -108,14 +103,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support, no identifiable mechanistic link, and the condition is a rare genetic syndrome unrelated to clonidine's pharmacology. It is best treated as a likely computational artefact.
+The prediction has no supporting trials or publications, no plausible mechanistic link, and concerns a rare genetic developmental syndrome unrelated to clonidine's pharmacology. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- Any human or credible preclinical evidence linking alpha-2 agonism to this syndrome
-- Detailed mechanism of action data
-- Label-based warnings and contraindications from the SmPC
-
-**Note:** Other predicted indications for clonidine in the same dataset have more support. Tourette syndrome has guideline and meta-analysis backing and is closer to established off-label use. Obesity-related hypertension, migraine and mania have limited, mostly small studies. These would be better starting points for any repurposing work.
+- A credible mechanistic hypothesis linking alpha-2 agonism to the pathophysiology of faciodigitogenital syndrome
+- Any preclinical or clinical data in this condition
+- Verified mechanism of action and label-based safety data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

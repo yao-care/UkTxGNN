@@ -8,6 +8,7 @@ nav_order: 85
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azelaic Acid
@@ -51,8 +52,8 @@ No evidence review of a predicted new indication can therefore be performed at t
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no predictions available |
-| UK Market Status | Not confirmed (data extract shows 0 MHRA licences; independent verification strongly recommended) |
-| Number of Marketing Authorisations | 0 (per data extract — likely incomplete; see UK Market Information below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

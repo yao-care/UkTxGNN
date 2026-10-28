@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lormetazepam
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 381
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Lormetazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the dru…"
 monitor_inn: "Lormetazepam"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Lormetazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The more genuinely new predictions (such as anxiety and anxiety disorder) rest o
 |------|------|
 | Original Indication | Not recorded in the UK licence data compiled for this report (the drug is a benzodiazepine hypnotic) |
 | Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: one Phase 3 comparator trial is completed (n=283), and a second was terminated early (n=33). Strictly, only one completed Phase 3 RCT is available, so the level is L2 rather than L1. The data compiled for this report assigned L1, which I have not adopted.*

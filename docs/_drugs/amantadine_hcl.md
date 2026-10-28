@@ -8,6 +8,7 @@ nav_order: 45
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amantadine Hcl
@@ -51,8 +52,8 @@ Amantadine hydrochloride is a well-established agent with dual antiviral and ant
 | Predicted New Indication | Not available — TxGNN predictions absent |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| UK Market Status | Reported as "Not Marketed" — likely a data pipeline error |
-| Number of Marketing Authorisations | 0 (reported) — likely a data collection error |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note on Original Indication:** The Evidence Pack's `original_indications` array is empty and `drugbank_id` is null, preventing automated retrieval. From established pharmaceutical knowledge, amantadine is licensed in the UK (Symmetrel, Alliance Pharmaceuticals) for Parkinson's disease, drug-induced extrapyramidal reactions, and influenza A prophylaxis/treatment, and is listed in BNF section 4.9.1. The reported "Not Marketed" status is inconsistent with this and should be investigated.

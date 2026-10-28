@@ -48,10 +48,10 @@ It is a model prediction only, and no mechanistic rationale has been identified.
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (marketed as a prilocaine/felypressin local anaesthetic injection) |
 | Predicted New Indication | Drug-induced osteoporosis |
-| TxGNN Prediction Score | 99.80% |
+| TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,7 @@ No established mechanistic link has been identified between this action and drug
 The other top-ranked predictions are similarly unsupported:
 
 - **Severe non-proliferative diabetic retinopathy and diabetic retinopathy:** only a speculative vasopressin–microvascular link exists. V1-mediated vasoconstriction could plausibly worsen retinal ischaemia rather than help it.
-- **Esotropia:** no plausible rationale; likely a graph-embedding artefact.
+- **Esotropia:** no plausible rationale; the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 - **Bronchial adenomas/carcinoids (childhood), ductal or ductular proliferation, chondroid hamartoma, non-seminomatous lesion, tumour of testis and paratestis, and pre-malignant neoplasm:** no mechanism or supporting data. Several share an identical score, suggesting non-specific predictions.
 
 ## Clinical Trial Evidence

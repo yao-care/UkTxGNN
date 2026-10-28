@@ -6,7 +6,7 @@ nav_order: 453
 evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Norethisterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
+description: "Norethisterone: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-## Norethisterone: From Endometriosis and Menopausal Conditions to Amenorrhea
+## Norethisterone: From Endometriosis and Menopausal Conditions to amenorrhea
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinic
 |------|------|
 | Original Indication | Endometriosis, primary ovarian failure, postmenopausal osteoporosis, postmenopausal atrophic vaginitis (the UK licence record contains no indication text) |
 | Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ This identifier does not follow the usual MHRA "PL XXXXX/XXXX" format, so the li
 
 ## Safety Considerations
 
-- **Contraindications (suggested by knowledge-graph associations, not label text):** hypertension, epilepsy, porphyria, kidney disease, liver disease, gallbladder disease, diabetes mellitus and hyperglycaemia, hypertriglyceridaemia, hypothyroidism, systemic lupus erythematosus, asthma, hypercalcaemia, and female breast carcinoma. These must be verified against the SmPC.
+- **Contraindications (suggested by similarities the TxGNN model (deep learning) learned between related diseases, not label text):** hypertension, epilepsy, porphyria, kidney disease, liver disease, gallbladder disease, diabetes mellitus and hyperglycaemia, hypertriglyceridaemia, hypothyroidism, systemic lupus erythematosus, asthma, hypercalcaemia, and female breast carcinoma. These must be verified against the SmPC.
 - **Drug Interactions:** 159 interactions were identified. All 20 listed are of moderate severity. They are mainly with glucose-lowering agents (acarbose, metformin, dapagliflozin, linagliptin, nateglinide, GLP-1 agonists and insulins), plus aprepitant, clotrimazole, metreleptin and prucalopride.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.

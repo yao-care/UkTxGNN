@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 570
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Renal cell carcinoma"
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Sirolimus: From Renal Cell Carcinoma and Lymphangioleiomyomatosis to Liposarcoma
+## Sirolimus: Liposarcoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ A stronger and more clinically actionable signal in the same output is for **lym
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal cell carcinoma; lymphangioleiomyomatosis (the UK licence record contains no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.89% |
+| TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see rationale) |
 
 ## Why is This Prediction Reasonable?
@@ -117,10 +117,10 @@ The liposarcoma prediction has a high model score but rests on one single-arm co
 
 | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |---|---|---|---|---|
-| **Lymphangiomyoma (LAM)** | 99.79% | L1 | Proceed with Guardrails | Phase 3 MILES trial ([NCT00414648](https://clinicaltrials.gov/study/NCT00414648), n=89, completed) and an active Phase 3 early-disease trial ([NCT03150914](https://clinicaltrials.gov/study/NCT03150914)). Consistent with the original LAM indication, so on-label or near-label rather than true repurposing. |
-| Benign PEComa | 99.80% | L4 | Research Question | Case reports and cohorts; mechanistically coherent (TSC1/TSC2 loss) |
-| Lung PEComa | 99.63% | L3 | Research Question | Evidence mostly LAM-derived and indirect |
-| Uterine corpus PEComa, ovarian myxoid liposarcoma, Xp11.2/TFE3 renal cell carcinoma, unclassified renal cell carcinoma, renal cell carcinoma associated with neuroblastoma, vulva sarcoma | 99.6–99.8% | L4–L5 | Hold | Model prediction only, or no direct evidence |
+| **Lymphangiomyoma (LAM)** | 0.9979 | L5 | Proceed with Guardrails | Phase 3 MILES trial ([NCT00414648](https://clinicaltrials.gov/study/NCT00414648), n=89, completed) and an active Phase 3 early-disease trial ([NCT03150914](https://clinicaltrials.gov/study/NCT03150914)). Consistent with the original LAM indication, so on-label or near-label rather than true repurposing. |
+| Benign PEComa | 0.9980 | L5 | Research Question | Case reports and cohorts; mechanistically coherent (TSC1/TSC2 loss) |
+| Lung PEComa | 0.9963 | L5 | Research Question | Evidence mostly LAM-derived and indirect |
+| Uterine corpus PEComa, ovarian myxoid liposarcoma, Xp11.2/TFE3 renal cell carcinoma, unclassified renal cell carcinoma, renal cell carcinoma associated with neuroblastoma, vulva sarcoma | 99.6–0.9980 | L5–L5 | Hold | Model prediction only, or no direct evidence |
 
 Note that the DrugBank-style mechanism data and licence indication text were unavailable, so the original-indication listing relies on the knowledge graph.
 ## Disclaimer

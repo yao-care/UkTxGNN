@@ -4,17 +4,17 @@ title: Tolfenamic Acid
 parent: Model Prediction Only (L5)
 nav_order: 626
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Tolfenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Acute migraine"
 monitor_inn: "Tolfenamic acid"
-predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "exostosis", "inclusion body myositis", "osteoarthritis susceptibility"]
+predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "exostosis", "inclusion body myositis"]
 ---
 
 # Tolfenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This prediction largely overlaps with the existing migraine use, so it is not a 
 |------|------|
 | Original Indication | Acute migraine (the licence record compiled for this report has no indication text; the migraine indication comes from pharmacology reference data) |
 | Predicted New Indication | Headache disorder |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L1 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9974 |
+| Evidence Level | L5 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -124,7 +124,7 @@ Several randomised, double-blind studies support tolfenamic acid for acute and p
 
 ## Other Predicted Indications (Brief Note)
 
-- **Rheumatoid arthritis** (score 99.70%): The literature includes randomised double-blind comparisons against phenylbutazone, aspirin and ibuprofen, showing symptomatic benefit rather than disease modification. This is an established NSAID-type use rather than a novel finding (Proceed with Guardrails).
+- **Rheumatoid arthritis** (score 0.9970): The literature includes randomised double-blind comparisons against phenylbutazone, aspirin and ibuprofen, showing symptomatic benefit rather than disease modification. This is an established NSAID-type use rather than a novel finding (Proceed with Guardrails).
 - **Tendinitis, trigeminal autonomic cephalalgia, myositis fibrosa, idiopathic granulomatous myositis, fibromyalgia, exostosis, inclusion body myositis and osteoarthritis susceptibility**: Model prediction only, with no trials or literature in the data compiled (Hold).
 ## Disclaimer
 

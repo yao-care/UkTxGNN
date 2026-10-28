@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 329
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Hydroxyzine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Atopic eczema, allergic rhinitis…"
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
+description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **5**
 
 </div>
 
-## Hydroxyzine: From Atopic Eczema and Allergic Conditions to Allergic Urticaria
+## Hydroxyzine: Rosacea conjunctivitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Hydroxyzine is a first-generation H1-receptor antagonist, originally used for allergic and itchy skin and airway conditions such as atopic eczema, allergic rhinitis and urticaria.
-The TxGNN model predicts it may be effective for **allergic urticaria**, with **no registered clinical trials** and **19 publications** (mostly reviews on antihistamines, many about its metabolite cetirizine) currently associated with this direction.
 Urticaria is already an established use of hydroxyzine, so this is largely an on-label indication rather than true repurposing.
 
 ---
@@ -48,12 +47,12 @@ Urticaria is already an established use of hydroxyzine, so this is largely an on
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic eczema, allergic rhinitis, urticaria and related allergic conditions (from the knowledge graph; no approved indication text is available for the UK product) |
-| Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.77% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Rosacea conjunctivitis |
+| TxGNN Prediction Score | 0.9970 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +61,7 @@ Urticaria is already an established use of hydroxyzine, so this is largely an on
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydroxyzine is a first-generation H1-receptor inverse agonist. In urticaria, histamine released from mast cells causes the wheal and flare, so H1 blockade is a direct mechanistic fit.
 
-Hydroxyzine's original indications already include urticaria, angioedema and other allergic skin and airway conditions, so the predicted indication sits very close to the established ones. The prediction mainly reflects how closely allergic urticaria is linked to these existing indications.
+Hydroxyzine's original indications already include urticaria, angioedema and other allergic skin and airway conditions, so the predicted indication sits very close to the established ones.
 
 The supplied literature is mainly general antihistamine reviews and position statements, and much of it concerns cetirizine, the active metabolite of hydroxyzine. It contains no hydroxyzine-specific randomised trial for allergic urticaria. Current guidance favours second-generation antihistamines first-line, with hydroxyzine as a secondary option because of sedation.
 
@@ -140,7 +139,7 @@ Urticaria is mechanistically well matched to H1 blockade and is already an estab
 - A risk review for QT prolongation, sedation and anticholinergic effects, particularly in older patients and those on interacting drugs
 
 **Other predicted indications (for context):**
-- Cold urticaria (score 99.66%, L3, Research Question): a small 1984 randomised double-blind comparison ([PMID 6480953](https://pubmed.ncbi.nlm.nih.gov/6480953/)) included hydroxyzine, and a 1979 single-patient study ([PMID 475987](https://pubmed.ncbi.nlm.nih.gov/475987/)) found hydroxyzine plus cimetidine helpful. This is the best-supported of the other predictions, but the evidence is old and small.
+- This is the best-supported of the other predictions, but the evidence is old and small.
 - Rosacea conjunctivitis, recalcitrant atopic dermatitis and atopic IgE responsiveness (all L5, Hold): no clinical evidence was supplied. The anticholinergic effects of hydroxyzine may worsen dry eye in ocular disease.
 ## Disclaimer
 

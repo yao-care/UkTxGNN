@@ -48,10 +48,10 @@ but there are currently **no registered clinical trials** and only **9 publicati
 |------|------|
 | Original Indication | Tourette syndrome |
 | Predicted New Indication | Trichotillomania |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?

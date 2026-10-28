@@ -6,9 +6,9 @@ nav_order: 465
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Orphenadrine: predicted new indication Schizophrenia (evidence level L5). Approved use: Parkinsonian disorder / Parkinson disease"
 monitor_inn: "Orphenadrine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "myopia 26, X-linked, female-limited"]
+description: "Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Orphenadrine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Orphenadrine: From Parkinsonian Disorder to Schizophrenia
+## Orphenadrine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ That literature mostly concerns managing drug-induced movement side effects, not
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinsonian disorder / Parkinson disease (from the knowledge graph; no approved indication text available for the UK authorisation) |
-| Predicted New Indication | Schizophrenia (best-evidenced of the 7 predictions; the top-ranked prediction is retinal dystrophy with or without extraocular anomalies) |
-| TxGNN Prediction Score | 99.13% (schizophrenia); 99.29% (retinal dystrophy, rank 1) |
-| Evidence Level | L3 (schizophrenia); L5 for the other six predictions |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 0.9929 |
+| Evidence Level | L5 (schizophrenia); L5 for the other six predictions |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

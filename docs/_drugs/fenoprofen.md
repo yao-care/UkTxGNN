@@ -4,17 +4,17 @@ title: Fenoprofen
 parent: Model Prediction Only (L5)
 nav_order: 283
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Fenoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis"
+indication_count: 9
 monitor_inn: "Fenoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "ankylosing spondylitis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoachondroplasia", "WHIM syndrome", "ankylosing spondylitis"]
+last_modified_at: 2026-10-27
+description: "Fenoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fenoprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Fenoprofen: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Fenoprofen: Non-steroidal anti-inflammatory drug (COX inhibitor) → acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fenoprofen is a non-steroidal anti-inflammatory drug (NSAID) used for rheumatoid arthritis and osteoarthritis.
-The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder.
-There are currently **no clinical trials** and **no publications** supporting this prediction, so it rests on the computational score alone.
+Fenoprofen is a non-selective cyclooxygenase (COX) inhibitor of the NSAID class, used for pain and inflammation in rheumatic conditions.
+The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter-Thompson type**, but there are currently **no clinical trials and no publications** studying this disease, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis (the UK authorisation record has no indication text, so these come from the knowledge graph) |
-| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.997% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this report. Fenoprofen is known to be a non-selective cyclooxygenase (COX-1 and COX-2) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory joint disease is well established.
+Detailed mechanism of action data for fenoprofen are not available in the data compiled for this report. As a member of the NSAID class, fenoprofen is generally understood to inhibit COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by loss-of-function variants in the *CDMP1/GDF5* gene, which disrupt cartilage and bone development. Fenoprofen does not act on this pathway, and an anti-inflammatory drug would not be expected to correct a developmental defect in chondrogenesis.
+Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function variants in the *CDMP1/GDF5* gene, which impair cartilage and bone development. Anti-inflammatory COX inhibition would not be expected to correct this underlying defect.
 
-The high score most likely reflects shared skeletal and joint features in the knowledge graph rather than a true biological link. The prediction should therefore be treated as a hypothesis-generating signal with no supporting mechanism.
+The very high score is therefore best read as a computational signal, probably driven by shared skeletal and joint features with the arthritic conditions the drug is used for, rather than as evidence of a true mechanistic link. No mechanistic link has been established, and the prediction should be treated as hypothesis-generating only.
 
 ## Clinical Trial Evidence
 
@@ -68,45 +67,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this disease.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010G0AAABAB | Fenoprofen Tab 300 mg | Tablet | Not recorded |
+The local data record one single-ingredient authorisation for fenoprofen, and it is currently valid. No indication text, dosage form or manufacturer is recorded for it.
 
-This authorisation number is not in the standard MHRA "PL" format, so the record should be checked against the MHRA register before use. Current NICE appraisals or BNF classification for this product should also be checked directly.
+| Authorisation Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| 1001010G0AAABAB | Fenoprofen Tab 300mg | Not recorded | Not recorded |
 
 ## Safety Considerations
 
-**Contraindications and cautions suggested by the knowledge graph.** These come from drug-disease relationships in the TxGNN knowledge graph, not from product label text, and need confirming against the SmPC. The main groupings are:
-- **Cardiovascular and cerebrovascular:** hypertension, congestive heart failure, myocardial infarction, coronary thrombosis, stroke, cerebral infarction, thrombotic disease and general cardiovascular or heart disease.
-- **Renal:** kidney disease, kidney papillary necrosis and acute papillary necrosis.
-- **Gastrointestinal and hepatic:** active peptic ulcer disease and drug-induced liver injury.
-- **Haematological:** blood coagulation disease, anaemia (including macrocytic anaemia) and haemoglobinopathy.
-- **Sensory:** vision disorder, blindness, hearing disorder and auditory system disease.
-- **Other:** substance abuse or dependence, and pyoureter.
+Label-derived warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Drug interactions.** The interaction screening returned 100 interactions in total, of which 20 were available for review. Most are Moderate, with some Minor.
-- **Moderate:** acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), metformin, sulfonylureas (chlorpropamide, glimepiride), mesalazine, balsalazide, potassium citrate and bicarbonate, and bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes, sodium sulfate).
-- **Minor:** H2-receptor antagonists (famotidine, ranitidine, cimetidine) and linaclotide.
-
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+**Drug Interactions** (100 interactions recorded in total; selected examples below):
+- **Moderate**: acetylsalicylic acid, hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone, metformin, glimepiride, chlorpropamide, mesalazine, balsalazide, potassium citrate, potassium bicarbonate, picosulfuric acid, sodium sulfate, polyethylene glycol (3350 with electrolytes)
+- **Minor**: famotidine, ranitidine, cimetidine, linaclotide
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical, literature or mechanistic support. It conflicts with the underlying biology of a genetic skeletal disorder, and it is probably an artefact of the graph. The knowledge-graph safety signals in cardiovascular, renal and gastrointestinal disease would also need careful weighing in any new patient group.
+The prediction has a very high model score but no supporting clinical trials or publications, and there is no plausible biological rationale for a COX inhibitor to alter the course of a genetic skeletal dysplasia. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- A plausible biological rationale linking COX inhibition to *GDF5*-related skeletal development, supported by preclinical data
 - Mechanism of action data for fenoprofen
-- Confirmation of the UK authorisation record, including the approved indication text, dosage form and SmPC safety information
-
-**Note on other predictions:** Of the ten top-ranked predictions for fenoprofen, only **ankylosing spondylitis** (model rank 10, score 99.94%) has any supporting literature. This includes two small double-blind cross-over trials from 1980 and a 1981 randomised comparison of NSAIDs. It is classed as L3 with a "Research Question" recommendation. However, it is a symptomatic extension within the NSAID class rather than true repurposing, and well-established alternatives exist. If a lead indication is wanted for further assessment, this is the more defensible candidate.
+- Preclinical evidence that COX inhibition affects the GDF5-related pathway or relevant symptoms in this disease
+- Label-derived safety information from the SmPC and BNF
+- Any case-level or registry data on NSAID use in this rare condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

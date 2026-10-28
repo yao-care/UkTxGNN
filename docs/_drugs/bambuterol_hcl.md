@@ -8,6 +8,7 @@ nav_order: 93
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bambuterol Hcl
@@ -51,8 +52,8 @@ No clinical trial, literature, or mechanistic evidence can therefore be evaluate
 | Predicted New Indication | Not available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — Model prediction pipeline incomplete; no candidate generated |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

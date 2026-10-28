@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Quetiapine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+## Quetiapine: From Schizophrenia and Bipolar Disorder to retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ The best-supported candidate among the top 10 is **trichotillomania**, which has
 |------|------|
 | Original Indication | Bipolar disorder, major affective disorder, manic bipolar affective disorder, schizophrenia |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); trichotillomania (rank 8) is the only candidate with any supporting literature |
-| TxGNN Prediction Score | 99.57% (rank 1); 99.38% (trichotillomania) |
+| TxGNN Prediction Score | 0.9957 (rank 1); 0.9938 (trichotillomania) |
 | Evidence Level | L5 (rank 1); L4 (trichotillomania) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ The best-supported candidate among the top 10 is **trichotillomania**, which has
 
 Currently, detailed mechanism of action data is not available. Based on known information, quetiapine is an atypical antipsychotic whose receptor pharmacology involves serotonin 5-HT2A, dopamine D2 and histamine H1 antagonism. Its efficacy in schizophrenia and bipolar disorder is established.
 
-**For the top-ranked prediction (retinal dystrophy):** the data compiled for this report show no mechanistic link. Inherited retinal degeneration is not plausibly addressed by monoaminergic receptor antagonism. The high score (0.996) reflects the model's prediction alone. The same holds for the other top-ranked candidates, which are mostly genetic or developmental conditions (congenital glycosylation disorder, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopias, Charcot-Marie-Tooth type 1G). None has trials or literature.
+**For the top-ranked prediction (retinal dystrophy):** the data compiled for this report show no mechanistic link. Inherited retinal degeneration is not plausibly addressed by monoaminergic receptor antagonism. The high score (0.9957) reflects the model's prediction alone. The same holds for the other top-ranked candidates, which are mostly genetic or developmental conditions (congenital glycosylation disorder, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopias, Charcot-Marie-Tooth type 1G). None has trials or literature.
 
 **For trichotillomania (rank 8):** a plausible link exists. Trichotillomania is a body-focused repetitive behaviour related to the obsessive-compulsive spectrum, in which serotonergic and dopaminergic dysregulation is implicated. Atypical antipsychotics are sometimes used as augmentation in this spectrum. The evidence is limited to case reports and small series, and one report describes quetiapine exacerbating obsessive-compulsive symptoms in a patient with trichotillomania.
 
@@ -103,7 +103,7 @@ One valid single-ingredient authorisation is recorded. BNF chapter 4.2.1 (antips
 
 - **Knowledge-graph contraindication signals** (not label text; verify against the SmPC): hypertension, orthostatic hypotension, long QT syndrome and torsades de pointes, epilepsy, liver disease, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, neutropenia and agranulocytosis, hypothyroidism, hyperlipidaemia and hypertriglyceridaemia, obesity, myocardial infarction, and several movement and other disorders.
 - **Drug Interactions:** 100 interactions were identified. Examples flagged **Major**: bupropion and morphine. Many **Moderate** interactions were also listed, including antidiabetic drugs (metformin, pioglitazone, alogliptin, canagliflozin, acarbose, albiglutide, chlorpropamide), anticholinergics (atropine, hyoscyamine, glycopyrronium, clidinium), epinephrine, famotidine, loperamide, aprepitant, dexamethasone, bisacodyl and lorcaserin.
-- **Metabolic and sedation burden:** the knowledge-graph signals and the interactions with antidiabetic drugs point to metabolic risk that matters for any new long-term use.
+- **Metabolic and sedation burden:** the TxGNN model (deep learning) signals, which may reflect similarities the model learned between related diseases rather than biological evidence, and the interactions with antidiabetic drugs point to metabolic risk that matters for any new long-term use.
 
 Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 

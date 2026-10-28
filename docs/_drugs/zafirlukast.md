@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 ## One-Sentence Summary
 
 Zafirlukast is a cysteinyl leukotriene receptor antagonist, originally used to treat asthma.
-The TxGNN model predicts it may be effective for **bronchitis** (score 99.93%), but **no clinical trials or publications** were found for this indication, so the prediction rests on the model alone.
+The TxGNN model predicts it may be effective for **bronchitis** (score 0.9993), but **no clinical trials or publications** were found for this indication, so the prediction rests on the model alone.
 A second prediction, obstructive lung disease, is supported by **18 publications** (mostly reviews) but no clinical trials.
 
 ---
@@ -50,10 +50,10 @@ A second prediction, obstructive lung disease, is supported by **18 publications
 |------|------|
 | Original Indication | Asthma (including intrinsic and allergic asthma). The UK authorisation record contains no indication text. |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 99.93% |
+| TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Asthma and bronchitis are both inflammatory airway conditions in which mucus hypersecretion and airway narrowing play a part. A mechanistic link is therefore plausible. However, this is a computational prediction only. The very high score may partly reflect the overlap between asthma and other airway diseases rather than genuine new-indication evidence. No primary data were available to verify the link.
 
-For context, the second-ranked prediction, **obstructive lung disease** (score 99.17%, evidence level L4), is supported by reviews such as the Busse et al. 1999 review of leukotriene pathway inhibitors in asthma and COPD. This evidence is indirect, and the prediction is largely explained by the existing asthma indication.
+For context, the second-ranked prediction, **obstructive lung disease** (score 0.9917, evidence level L4), is supported by reviews such as the Busse et al. 1999 review of leukotriene pathway inhibitors in asthma and COPD. This evidence is indirect, and the prediction is largely explained by the existing asthma indication.
 
 ---
 
@@ -104,7 +104,7 @@ The identifier above follows a BNF-style code format rather than a standard PL n
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph associations, not label text):** liver disease, cirrhosis of liver, gallbladder disease, insomnia, anxiety, anxiety disorder, neurotic disorder and dysthymic disorder. These should be checked against the SmPC.
+- **Contraindications (not taken from label text):** liver disease, cirrhosis of liver, gallbladder disease, insomnia, anxiety, anxiety disorder, neurotic disorder and dysthymic disorder. These should be checked against the SmPC.
 - **Drug Interactions:** 100 interactions were identified. Those listed as moderate include aprepitant, acetylsalicylic acid, metronidazole, budesonide (including nasal), saxagliptin, eliglustat, naltrexone, nateglinide, nitisinone, repaglinide, rosuvastatin, simvastatin and tinidazole. Sibutramine is listed as minor. Pantoprazole, mesalazine, morphine, metformin and omeprazole have an unknown severity level.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.

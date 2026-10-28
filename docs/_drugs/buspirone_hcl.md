@@ -8,6 +8,7 @@ nav_order: 119
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Buspirone Hcl
@@ -49,8 +50,8 @@ Buspirone HCl is a non-benzodiazepine anxiolytic used in the management of gener
 | Predicted New Indication | No prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction not generated; no supporting studies identified |
-| UK Market Status | Not marketed (data retrieval failure — manual verification required) |
-| Number of Marketing Authorisations | 0 (likely a pipeline data gap; generic buspirone tablets are understood to be available in the UK) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Important note on UK market status:** The Evidence Pack records zero MHRA marketing authorisations for Buspirone HCl. This is almost certainly a data collection failure rather than a true market absence — generic buspirone hydrochloride tablets (e.g., 5 mg and 10 mg) are listed in the British National Formulary (BNF) and have been available in the UK. Manual verification against the [MHRA Product Licence Register](https://products.mhra.gov.uk/) is required before any regulatory conclusions are drawn.

@@ -4,7 +4,7 @@ title: Perphenazine
 parent: Model Prediction Only (L5)
 nav_order: 488
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Perphenazine"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Perphenazine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Perphenazine: From Schizophrenia to Retinal Dystrophy (Prediction-Only; Anxiety Disorder Is the Best-Supported Alternative)
+## Perphenazine: From Schizophrenia to retinal dystrophy with or without extraocular anomalies (Prediction-Only)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perphenazine is a phenothiazine antipsychotic, originally used to treat schizophrenia and mixed anxiety and depressive disorder.
 The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but there are **no clinical trials** and only **1 publication** (a case report of drug-induced retinal toxicity from a different drug), so this prediction is not supported.
-The best-evidenced candidate in the data compiled for this report is **anxiety disorder** (**1 clinical trial**, **20 publications**), which largely overlaps with the existing licensed use.
 
 ---
 
@@ -50,10 +49,10 @@ The best-evidenced candidate in the data compiled for this report is **anxiety d
 |------|------|
 | Original Indication | Schizophrenia; mixed anxiety and depressive disorder (the UK authorisation record has no indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,11 +61,10 @@ The best-evidenced candidate in the data compiled for this report is **anxiety d
 
 Detailed mechanism of action data is not available. Based on known information, perphenazine is a phenothiazine antipsychotic whose efficacy in schizophrenia is established. It acts mainly as a dopamine D2 antagonist, with additional activity at 5-HT2A and other receptors.
 
-For the top prediction, **the rationale is weak**. The only literature record (PMID 14129300, 1964) describes pigmentary retinopathy caused by **thioridazine**, a different phenothiazine. This is a retinal toxicity signal for the drug class, not evidence of benefit. No plausible therapeutic mechanism for perphenazine in inherited retinal dystrophy has been identified. The very high score probably reflects network proximity in the knowledge graph rather than drug-specific evidence.
+For the top prediction, **the rationale is weak**. The only literature record (PMID 14129300, 1964) describes pigmentary retinopathy caused by **thioridazine**, a different phenothiazine. This is a retinal toxicity signal for the drug class, not evidence of benefit. No plausible therapeutic mechanism for perphenazine in inherited retinal dystrophy has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are similarly unsupported: syndromic myopia, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis, hydranencephaly, Charcot-Marie-Tooth disease type 1G, X-linked myopia, a congenital disorder of glycosylation, and atypical glycine encephalopathy. They are mostly congenital structural, genetic or metabolic conditions, and none has trials or literature. The speculation that dopaminergic signalling is involved in myopia is not backed by direct evidence.
 
-The one prediction with real supporting material is **anxiety disorder** (score 99.53%, rank 10). It overlaps with the existing use of perphenazine, combined with amitriptyline, in mixed anxiety and depression. It is better described as an extension of the existing indication than as novel repurposing.
 
 ---
 

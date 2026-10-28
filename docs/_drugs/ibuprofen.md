@@ -6,9 +6,9 @@ nav_order: 331
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-15
-description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ibuprofen
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 </div>
 
-## Ibuprofen: From Rheumatoid Arthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Ibuprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,30 +45,30 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy, headache disorder, patent ductus arteriosus (from the knowledge graph; the UK authorisation record has no indication text) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.74% |
+| TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, ibuprofen is a non-selective cyclooxygenase (COX) inhibitor with analgesic and anti-inflammatory effects, and its efficacy in arthritis is well established.
 
-Hunter-Thompson type acromesomelic dysplasia is a rare genetic skeletal disorder linked to variants in *GDF5* (CDMP1) and impaired cartilage formation. COX inhibition would not be expected to correct this developmental defect. The high score (0.997) most likely reflects the closeness of skeletal and joint terms in the knowledge graph to the approved arthritis indications, rather than a defined biological pathway. At most, ibuprofen might offer symptomatic pain relief, which is not disease modification.
+Hunter-Thompson type acromesomelic dysplasia is a rare genetic skeletal disorder linked to variants in *GDF5* (CDMP1) and impaired cartilage formation. COX inhibition would not be expected to correct this developmental defect. The high score (0.9974) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. At most, ibuprofen might offer symptomatic pain relief, which is not disease modification.
 
 Other top-ranked predictions show the same pattern:
 
 | Rank | Predicted Indication | Score | Assessment |
 |------|------|------|------|
-| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 99.71% | No mechanistic link; genetic skeletal and enamel disorder |
-| 3 | Myosclerosis | 99.68% | Possible symptomatic relief only; no evidence on fibrosis |
-| 4 | Brachyolmia | 99.67% | No mechanistic link; genetic skeletal dysplasia |
-| 5 | Brachydactyly-syndactyly syndrome | 99.66% | No mechanistic link; congenital malformation |
-| 6 | Pseudoachondroplasia | 99.66% | Speculative symptomatic joint pain relief only (COMP variants; secondary osteoarthritis) |
-| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.60% | No mechanistic link; developmental syndrome |
+| 2 | Brachyolmia-amelogenesis imperfecta syndrome | 0.9971 | No mechanistic link; genetic skeletal and enamel disorder |
+| 3 | Myosclerosis | 0.9968 | Possible symptomatic relief only; no evidence on fibrosis |
+| 4 | Brachyolmia | 0.9967 | No mechanistic link; genetic skeletal dysplasia |
+| 5 | Brachydactyly-syndactyly syndrome | 0.9966 | No mechanistic link; congenital malformation |
+| 6 | Pseudoachondroplasia | 0.9966 | Speculative symptomatic joint pain relief only (COMP variants; secondary osteoarthritis) |
+| 7 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 0.9960 | No mechanistic link; developmental syndrome |
 
 All seven predictions have no registered trials and no literature.
 

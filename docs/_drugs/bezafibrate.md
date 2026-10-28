@@ -8,6 +8,7 @@ nav_order: 103
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Bezafibrate
@@ -51,8 +52,8 @@ This report documents the data gaps and outlines the remediation steps required 
 | Predicted New Indication | Not available — no TxGNN predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| UK Market Status | Not marketed (per Evidence Pack; data completeness unverified — see below) |
-| Number of Marketing Authorisations | 0 (per Evidence Pack) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -6,9 +6,9 @@ nav_order: 479
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-15
-description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Major depressive disorder, anxiety disorder…"
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
+description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Paroxetine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Paroxetine: Ohdo syndrome and variants
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no registered clinical trials** and **no publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder, anxiety disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia (from the knowledge graph; no licence indication text is available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ohdo syndrome and variants |
-| TxGNN Prediction Score | 99.11% |
+| TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not currently available. Paroxetine is know
 
 Ohdo syndrome and its variants (for example, Say-Barber-Biesecker-Young-Simpson syndrome) are rare genetic conditions linked to KAT6B variants. They typically involve intellectual disability and craniofacial or developmental features. No link between paroxetine's pharmacology and KAT6B-related chromatin regulation, or the disease phenotype, is supported by the available data.
 
-The very high TxGNN score (0.991) reflects a pattern in a knowledge graph and is not evidence of efficacy. At most, paroxetine might offer symptomatic benefit for comorbid anxiety or depression. That would be an extension of its existing use, not treatment of the underlying disease.
+The very high TxGNN score (0.9911) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is not evidence of efficacy. At most, paroxetine might offer symptomatic benefit for comorbid anxiety or depression. That would be an extension of its existing use, not treatment of the underlying disease.
 
 ## Clinical Trial Evidence
 

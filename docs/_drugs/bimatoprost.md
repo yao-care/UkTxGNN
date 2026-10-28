@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 ## One-Sentence Summary
 
 Bimatoprost is a prostamide (prostaglandin F2-alpha analogue) eye drop, originally used for open-angle glaucoma and ocular hypertension.
-The TxGNN model predicts it may be effective for a **malformation syndrome with an odontal and/or periodontal component**, but **no clinical trials and no publications** currently support this prediction. It is a graph-based signal only.
+The TxGNN model (deep learning) predicts it may be effective for a **malformation syndrome with odontal and/or periodontal component**, but **no clinical trials and no publications** currently support this prediction. The score comes from the TxGNN model and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for a **malformation syndrome with 
 |------|------|
 | Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
-| TxGNN Prediction Score | 99.997% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for a **malformation syndrome with 
 
 Currently, detailed mechanism of action data is not available. Bimatoprost is a prostamide/prostaglandin F2-alpha analogue. Its efficacy in lowering intraocular pressure in glaucoma and ocular hypertension is established, and it is also known to promote eyelash growth.
 
-No plausible mechanistic link to this predicted condition has been identified. A developmental malformation syndrome involving the teeth or periodontium is not obviously addressed by a topical ocular prostamide. The very high TxGNN score reflects a pattern in the knowledge graph, not any biological or clinical finding, and the prediction is most likely a graph artefact.
+No plausible mechanistic link to this predicted condition has been identified. A developmental malformation syndrome involving the teeth or periodontium is not obviously addressed by a topical ocular prostamide. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -101,7 +101,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a graph-based score. There are no clinical trials or publications, and no plausible mechanistic link to a dental or periodontal malformation syndrome. Evidence is insufficient to justify further investment.
+The prediction rests solely on a score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications, and no plausible mechanistic link to a dental or periodontal malformation syndrome. Evidence is insufficient to justify further investment.
 
 **To proceed, the following is needed:**
 - Any biological rationale or preclinical data linking prostamide/FP-receptor signalling to this condition

@@ -8,6 +8,7 @@ nav_order: 81
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atovaquone
@@ -51,8 +52,8 @@ No evidence level can be assigned until the pipeline is re-run with complete inp
 | Predicted New Indication | No TxGNN predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| UK Market Status | Not marketed (per current data) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

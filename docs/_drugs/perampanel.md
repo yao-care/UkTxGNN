@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Perampanel
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 484
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Perampanel: predicted new indication Status epilepticus (evidence level L3). Approved use: Partial epilepsy"
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Perampanel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Perampanel: From Partial Epilepsy to Status Epilepticus
+## Perampanel: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Perampanel is an AMPA receptor antagonist originally used for partial (focal-onset) epilepsy.
-The TxGNN model's top-ranked prediction is **visual epilepsy**, which has no trials and only indirect literature. The best-supported prediction is **status epilepticus**, with **4 clinical trials** (two terminated after one participant each) and **20 publications**, mostly retrospective or observational.
 
 > Note: The report title and the table below use status epilepticus, not the TxGNN rank-1 prediction (visual epilepsy). This is because status epilepticus is the only predicted indication with meaningful supporting evidence. Rank-1 visual epilepsy has no trials and no directly relevant literature (Evidence Level L4, Hold).
 
@@ -49,12 +48,12 @@ The TxGNN model's top-ranked prediction is **visual epilepsy**, which has no tri
 
 | Item | Content |
 |------|------|
-| Original Indication | Partial epilepsy; partial motor epilepsy |
-| Predicted New Indication | Status epilepticus (TxGNN rank 10 of the listed predictions; best-evidenced) |
-| TxGNN Prediction Score | 99.77% (rank-1 prediction, visual epilepsy: 99.92%) |
-| Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Beta-ketothiolase deficiency |
+| TxGNN Prediction Score | 0.9979 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -71,15 +70,7 @@ Status epilepticus is a failure of the mechanisms that terminate a seizure, so i
 
 | Predicted indication | TxGNN score | Evidence level | Summary |
 |------|------|------|------|
-| Visual epilepsy (rank 1) | 99.92% | L4 | No trials; literature covers general epilepsy only |
-| Micturition-induced seizures | 99.86% | L4 | Indirect evidence only |
-| Eating seizures | 99.86% | L4 | Case reports do not show efficacy (one reports perampanel-induced food aversion) |
-| Orgasm-induced seizures | 99.86% | L5 | No trials or literature |
-| Startle epilepsy | 99.86% | L5 | No trials or literature |
-| Thinking seizures | 99.86% | L4 | Indirect evidence only |
-| Audiogenic seizures | 99.86% | L4 | Rodent models show anticonvulsant effect; not translated to humans |
-| Reading seizures | 99.83% | L4 | Indirect evidence only |
-| Beta-ketothiolase deficiency | 99.79% | L5 | No evidence; likely a network artefact |
+| Beta-ketothiolase deficiency | 0.9979 | L5 | No evidence; likely a network artefact |
 
 The high scores of the reflex-seizure predictions probably reflect the shared epilepsy phenotype rather than specific evidence.
 

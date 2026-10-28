@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydromorphone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 325
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L4). Approved use: Common cold"
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Hydromorphone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 </div>
 
-## Hydromorphone: From Common Cold to Pharyngitis
+## Hydromorphone: Pharyngitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Hydromorphone is a strong opioid analgesic (mu-opioid agonist). The knowledge graph lists its original indications as common cold and nasopharyngitis.
+Hydromorphone is a strong opioid analgesic (mu-opioid agonist).
 The TxGNN model predicts it may be useful for **pharyngitis**, but the **3 linked clinical trials** study post-tonsillectomy pain rather than pharyngitis, and **no publications** were found for this prediction. Evidence is therefore very limited.
 
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be useful for **pharyngitis**, but the **3 linke
 
 | Item | Content |
 |------|------|
-| Original Indication | Common cold; nasopharyngitis (from the knowledge graph; no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pharyngitis |
-| TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9981 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydromorphone is a mu-opioid receptor agonist that acts centrally to relieve pain and suppress cough. Its original indications in the knowledge graph (common cold, nasopharyngitis) are upper respiratory conditions, and pharyngitis is closely related to both.
+Currently, detailed mechanism of action data is not available. Based on known information, hydromorphone is a mu-opioid receptor agonist that acts centrally to relieve pain and suppress cough. The pharyngitis prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The link is probably symptomatic only. Hydromorphone has no antimicrobial or anti-inflammatory action against the cause of pharyngitis. The three linked trials involve pain after tonsillectomy, which is surgical pain and not pharyngitis as a disease. The high TxGNN score most likely reflects the closeness of pharyngitis to the cold and nasopharyngitis indications in the network, and not trial data on pharyngitis itself.
 
@@ -114,11 +114,11 @@ For full safety information, please refer to the SmPC and BNF. Report suspected 
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Allergic urticaria | 99.81% | L5 | No evidence. Opioids can release histamine and cause urticaria, so worsening is more likely than benefit. |
-| Nasal cavity disease | 99.80% | L5 | No evidence and no defined mechanism. |
-| Acute laryngopharyngitis | 99.75% | L5 | No evidence. Central antitussive effect may ease cough but does not treat the underlying condition. |
-| Headache disorder | 99.65% | L3 | The only prediction with a completed trial (NCT02389829, Phase 4, n=127) and published studies. Hydromorphone was less effective than prochlorperazine plus diphenhydramine, and guidelines advise against routine opioid use for acute migraine. This is a real but unfavourable use, not a recommended repurposing. |
-| Trigeminal autonomic cephalalgia | 99.58% | L5 | No evidence. Opioids are not recommended for cluster headache, and established therapies exist. |
+| Allergic urticaria | 0.9981 | L5 | No evidence. Opioids can release histamine and cause urticaria, so worsening is more likely than benefit. |
+| Nasal cavity disease | 0.9980 | L5 | No evidence and no defined mechanism. |
+| Acute laryngopharyngitis | 0.9975 | L5 | No evidence. Central antitussive effect may ease cough but does not treat the underlying condition. |
+| Headache disorder | 0.9965 | L3 | The only prediction with a completed trial (NCT02389829, Phase 4, n=127) and published studies. Hydromorphone was less effective than prochlorperazine plus diphenhydramine, and guidelines advise against routine opioid use for acute migraine. This is a real but unfavourable use, not a recommended repurposing. |
+| Trigeminal autonomic cephalalgia | 0.9958 | L5 | No evidence. Opioids are not recommended for cluster headache, and established therapies exist. |
 
 ---
 

@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 |------|------|
 | Original Indication | Not stated in the UK licence data compiled for this report (pharmacology sources describe use in nausea, vomiting, dyspepsia and heartburn) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.08% |
+| TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 NSIAD is a rare condition caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*), with some cases linked to GNAS-related signalling. The V2 receptor is constitutively active, which leads to inappropriate water retention and hyponatraemia. A mechanistic link to domperidone is not apparent. A plausible but unverified hypothesis is that dopaminergic modulation influences renal water handling or vasopressin signalling. However, domperidone is not known to act on V2 receptor activity, which is the core defect in NSIAD.
 
-The high score may reflect network proximity in the knowledge graph rather than a true biological relationship. This prediction should be treated as a hypothesis requiring independent validation.
+The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. This prediction should be treated as a hypothesis requiring independent validation.
 
 ## Clinical Trial Evidence
 

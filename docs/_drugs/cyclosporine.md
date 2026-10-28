@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclosporine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 197
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-15
-description: "Cyclosporine: predicted new indication Granulomatous disease, chronic, autosomal recessive (evidence level L4). Approved use: Rheumatoid arthritis, dry eye syndrome, xerophthalmia…"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
+last_modified_at: 2026-10-27
+description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclosporine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **7** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,82 +33,82 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 </div>
 
-## Ciclosporin: From Rheumatoid Arthritis and Dry Eye Disease to Chronic Granulomatous Disease (Autosomal Recessive)
+## Cyclosporine: calcineurin inhibitor (T-cell immunosuppressant) → granulomatous disease, chronic, autosomal recessive (granulomatous disease, chronic, autosomal recessive)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ciclosporin is a calcineurin inhibitor, originally used for rheumatoid arthritis, dry eye syndrome and Sjögren syndrome.
-The TxGNN model predicts it may be effective for **autosomal recessive chronic granulomatous disease**,
-but **no clinical trials** and only **1 publication** (an indirect transplant cohort study) are available, so the prediction rests almost entirely on the model.
+Cyclosporine is a calcineurin-inhibitor immunosuppressant. The TxGNN model predicts it may be effective for **granulomatous disease, chronic, autosomal recessive**, but the evidence is thin: **no clinical trials** and **1 publication**, which concerns stem cell transplantation outcomes and does not test cyclosporine as a treatment for the condition itself.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, dry eye syndrome, xerophthalmia, Sjögren syndrome (from the knowledge graph; no approved indication text is available for the authorisation) |
-| Predicted New Indication | Granulomatous disease, chronic, autosomal recessive |
-| TxGNN Prediction Score | 99.68% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | granulomatous disease, chronic, autosomal recessive |
+| TxGNN Prediction Score | 0.9968 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ciclosporin is, however, a well-known calcineurin inhibitor that suppresses T-cell activation. It is widely used for immunosuppression, including graft-versus-host disease (GVHD) prophylaxis in haematopoietic stem cell transplantation (HSCT).
+Detailed mechanism of action data is not available in the data compiled for this report. Cyclosporine is generally known as a calcineurin inhibitor that suppresses T-cell activation, and it is widely used for graft-versus-host disease (GVHD) prophylaxis in haematopoietic stem cell transplantation (HSCT).
 
-The link to chronic granulomatous disease (CGD) is indirect. The only linked paper describes outcomes of sibling or unrelated donor stem cell transplantation in CGD. Ciclosporin is likely part of the transplant or GVHD prophylaxis regimen, rather than a treatment for CGD itself. There is no evidence that it corrects the underlying NADPH oxidase defect. The very high TxGNN score is therefore not supported by direct clinical evidence.
+The only linked paper describes HSCT outcomes in chronic granulomatous disease (CGD). Cyclosporine is probably part of the transplant regimen, so the connection is indirect. CGD is caused by a defect in the NADPH oxidase enzyme complex, and there is no evidence that cyclosporine corrects or treats this defect. The very high TxGNN score is therefore not supported by direct clinical evidence, and the prediction should be regarded as a hypothesis only.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Reports excellent survival after sibling or unrelated donor stem cell transplantation in CGD. Ciclosporin is not the studied intervention; the study supports transplantation, not ciclosporin as a CGD treatment. |
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | The Journal of Allergy and Clinical Immunology | Survival after sibling or unrelated donor stem cell transplantation for chronic granulomatous disease was excellent. Cyclosporine is not studied as a treatment in its own right. |
+
+---
 
 ## UK Market Information
 
-The data compiled for this report contain one marketing authorisation record. It carries an identifier from a non-UK numbering system and has no dosage form or approved indication text, so it cannot be confirmed as an MHRA product licence. Please verify UK authorisations (for example Neoral, Sandimmun and generic ciclosporin products) in the MHRA product database and the BNF.
-
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+| Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0802020G0AAADAD | Ciclosporin capsule 100 mg | Not specified | Not specified |
+| 0802020G0AAADAD | Ciclosporin Cap 100mg | Not recorded | Not recorded |
+
+---
 
 ## Safety Considerations
 
-**Contraindications (knowledge graph associations, not label text):** the knowledge graph links ciclosporin with contraindications in the following areas:
-- Cardiovascular and renal: hypertension, kidney disease
-- Hepatic and metabolic: liver disease, gallbladder disease, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), hypertriglyceridaemia, hyperuricaemia
-- Neurological: epilepsy, brain disease, pseudotumor cerebri, intracranial hypertension
-- Infection: infectious disease, eye infectious disease, conjunctivitis
-- Haematological and malignant: cancer, neoplasms, lymphoma (including primary CNS lymphoma), lymphosarcoma, thrombocytopenic purpura
+Structured warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Drug Interactions:** the interaction screen returned 100 interactions in total; the main ones among those listed are:
-- **Major:** loperamide
-- **Moderate:** rabeprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, amphotericin B (including lipid complex), bupropion, aprepitant, mesalazine, balsalazide, acetylsalicylic acid, metronidazole, chlorpropamide, cholic acid
-- **Minor:** ranitidine, doxycycline
+**Drug Interactions** (the compiled data lists 100 interacting drugs; selected examples):
+- **Major**: loperamide
+- **Moderate**: rabeprazole, hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone, amphotericin B, bupropion, aprepitant, mesalazine, balsalazide, acetylsalicylic acid, metronidazole, chlorpropamide, cholic acid
+- **Minor**: ranitidine, doxycycline
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported by a single indirect transplant cohort study and no clinical trials, and there is no plausible evidence that ciclosporin treats the underlying CGD defect. The score is high but is not backed by direct clinical evidence.
+No clinical trial or publication directly studies cyclosporine as a treatment for chronic granulomatous disease. The single linked paper concerns transplant outcomes, so the high prediction score is not backed by direct evidence (Evidence Level L5).
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a clear mechanistic rationale linking calcineurin inhibition to CGD pathology
-- Evidence on whether ciclosporin has any role beyond transplant GVHD prophylaxis in CGD
-- Confirmation of the UK marketing authorisation details (licence number, dosage form, approved indications)
-- Review of the full SmPC warnings and contraindications, as label-based safety data were not available
-- A safety assessment for this population, given the interaction burden and the knowledge graph contraindication signals (infection, renal and hepatic disease)
-
-*Other predicted indications were also reviewed. Brain aneurysm (L3) has small, early non-randomised studies in subarachnoid haemorrhage vasospasm, not in aneurysm itself, and a 2017 mouse study argues against a T-cell mechanism. The remaining predictions (colobomatous microphthalmia-rhizomelic dysplasia syndrome, congenital ichthyosiform erythroderma, fetal erythroblastosis, brachydactyly-syndactyly syndrome, prolapse of lacrimal gland) have no clinical evidence and are all rated L5, Hold.*
+- Mechanistic data showing a plausible effect of calcineurin inhibition on the CGD disease process, beyond its role in transplant GVHD prophylaxis
+- Preclinical or clinical studies that directly address cyclosporine in CGD
+- Mechanism of action data and full SmPC-based safety information (warnings and contraindications)
+- Review of the many documented drug interactions and organ toxicity (kidney, blood pressure) in this patient group
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -48,10 +48,10 @@ This is an animal disease, so the prediction has limited relevance to human drug
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the UK licence record contains no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 (observational veterinary data only; no human trials) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 (observational veterinary data only; no human trials) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

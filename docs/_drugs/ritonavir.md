@@ -6,9 +6,9 @@ nav_order: 546
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-15
-description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease / AIDS"
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Ritonavir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Ritonavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are **no registered clinical trials** and the **10 publications** iden
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease / AIDS; chronic hepatitis C virus infection (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -62,7 +62,7 @@ SIV is a close lentiviral relative of HIV, and its protease is structurally and 
 
 However, the high TxGNN score most likely reflects the similarity of SIV to the already established HIV indication. SIV infection is a research model in non-human primates, not a human clinical condition. This should be regarded as supporting preclinical modelling rather than a true repurposing opportunity.
 
-The other two predictions are weaker. Feline acquired immunodeficiency syndrome (score 99.92%, L5) is a veterinary disease with no supporting literature or trials. A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 99.92%, L5) has no identifiable mechanistic link to ritonavir and is likely a knowledge-graph artefact.
+The other two predictions are weaker. Feline acquired immunodeficiency syndrome (score 0.9992, L5) is a veterinary disease with no supporting literature or trials. A rare neurodevelopmental disorder with ataxic gait, absent speech and decreased cortical white matter (score 0.9992, L5) has no identifiable mechanistic link to ritonavir and is likely a TxGNN model (deep learning) artefact.
 
 ## Clinical Trial Evidence
 

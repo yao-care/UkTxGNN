@@ -8,6 +8,7 @@ nav_order: 50
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amiloride Hcl
@@ -51,8 +52,8 @@ Amiloride HCL is a well-established potassium-sparing diuretic with a long clini
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not assessable — no predicted indication available |
-| UK Market Status | Not marketed (per evidence pack — see note below) |
-| Number of Marketing Authorisations | 0 (per evidence pack — likely a data quality issue) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Note:** Amiloride is a long-established compound that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at source, rather than a true absence from the UK market. This must be investigated before any regulatory conclusions are drawn.

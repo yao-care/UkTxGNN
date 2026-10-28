@@ -4,17 +4,17 @@ title: Formoterol
 parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
-indication_count: 6
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome"]
+description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Formoterol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Formoterol: From Pulmonary Emphysema and Asthma to Respiratory Malformation
+## Formoterol: Respiratory malformation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **respiratory malformation**, b
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary emphysema, intrinsic asthma, allergic asthma (from the knowledge graph, as no approved indication text is available for the UK authorisations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Respiratory malformation |
-| TxGNN Prediction Score | 99.92% |
+| TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **respiratory malformation**, b
 
 Currently, detailed mechanism of action data is not available from the compiled data. Formoterol is a long-acting beta2-agonist, and this class relaxes airway smooth muscle to produce bronchodilation. Its efficacy in asthma and COPD-related disease is well established.
 
-The high TxGNN score most likely reflects network proximity between formoterol and respiratory disease nodes in the knowledge graph, rather than a specific biological link. Respiratory malformation is a structural, congenital problem. Bronchodilation would not be expected to correct it or modify the disease, so no plausible disease-modifying mechanism is evident.
+The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence of a specific link between formoterol and respiratory disease. Respiratory malformation is a structural, congenital problem. Bronchodilation would not be expected to correct it or modify the disease, so no plausible disease-modifying mechanism is evident.
 
 At best, formoterol might relieve secondary airflow obstruction or wheeze in affected patients. Nothing in the compiled data tests or supports even that.
 

@@ -8,6 +8,7 @@ nav_order: 79
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atomoxetine Hcl
@@ -51,8 +52,8 @@ Atomoxetine hydrochloride is a selective norepinephrine reuptake inhibitor (NRI)
 | Predicted New Indication | None available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — prediction stage not reached |
-| UK Market Status | Not recorded in Evidence Pack *(see note below)* |
-| Number of Marketing Authorisations | 0 (per Evidence Pack) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠ Market Status Discrepancy:** The Evidence Pack records zero MHRA licences and a "not marketed" status. This is inconsistent with known regulatory information: atomoxetine (Strattera®, Eli Lilly) holds MHRA marketing authorisation for ADHD in children, adolescents, and adults, and is listed in the BNF (Chapter 4 — CNS stimulants and other drugs for ADHD). The MHRA regulatory data collection step should be re-run before this report is finalised.

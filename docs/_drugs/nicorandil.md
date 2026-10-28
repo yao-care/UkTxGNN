@@ -4,17 +4,17 @@ title: Nicorandil
 parent: Moderate Evidence (L3-L4)
 nav_order: 443
 evidence_level: L4
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the UK licence data compiled for this report (the pha…"
 monitor_inn: "Nicorandil"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis susceptibility", "osteoarthritis", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome"]
+predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
 ---
 
 # Nicorandil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 |------|------|
 | Original Indication | Not recorded in the UK licence data compiled for this report (the pharmacology source describes chronic stable angina pectoris) |
 | Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 99.71% |
+| TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

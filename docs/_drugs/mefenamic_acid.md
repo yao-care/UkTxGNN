@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **8** 
+Evidence Level: **L2** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ This is closer to an on-class use of an NSAID than true repurposing, and the evi
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.73% |
+| TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -130,7 +130,7 @@ Several small double-blind trials show symptomatic benefit comparable to other N
 |------|------|------|
 | Migraine disorder | L2 | Double-blind trials in acute, prophylactic and menstrual migraine; small, older studies |
 | Headache disorder | L2 | Evidence is mostly migraine-specific |
-| Migraine with brainstem aura | L4 | Indirect evidence only |
+| Migraine with brainstem aura | L5 | Indirect evidence only |
 | Osteoarthritis susceptibility | L5 | A genetic risk concept and not a treatable condition; no studies |
 | Trigeminal autonomic cephalalgia | L5 | Speculative link; no studies |
 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | L5 | Likely a model artefact |

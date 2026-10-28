@@ -1,20 +1,22 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Capsaicin
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 129
-evidence_level: L5
-indication_count: 10
 last_modified_at: 2026-10-15
-description: "Capsaicin: predicted new indication Otitis externa (evidence level L5). Approved use: Neuralgia"
+description: "Capsaicin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Capsaicin"
-predicted_indications: ["otitis externa", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "post-infectious syndrome", "Chagas cardiomyopathy", "papillary conjunctivitis", "infection-related hemolytic uremic syndrome", "tinea corporis", "rosacea conjunctivitis"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Capsaicin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +35,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Capsaicin: From Neuralgia to Otitis Externa
+## Capsaicin
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Capsaicin is a TRPV1 agonist, originally used to treat neuralgia and postherpetic neuralgia.
-The TxGNN model predicts it may be effective for **otitis externa**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Neuralgia; postherpetic neuralgia |
-| Predicted New Indication | Otitis externa |
-| TxGNN Prediction Score | 98.76% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
-
-## Why is This Prediction Reasonable?
-
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, capsaicin is a TRPV1 agonist. Topical use is thought to desensitise nociceptive nerve fibres and reduce the pain messenger substance P, which underlies its use in neuralgia.
-
-In theory, the same desensitisation could relieve pain from an inflamed ear canal, which is the only plausible link between neuralgia and otitis externa. However, no supporting mechanistic or clinical evidence was found. Capsaicin is a strong irritant, and applying it to inflamed or broken skin or inside the ear canal is a real safety concern. The prediction should therefore be regarded as a hypothesis only.
-
-The same model also ranked several other conditions highly (for example post-infectious syndrome, papillary conjunctivitis and tinea corporis). None has trial evidence. The only one with indirect literature is post-infectious syndrome (TRPV1 sensitisation in post-infectious irritable bowel syndrome), which is graded L4 and is a research question rather than a candidate for use.
+| Original Indication | Not recorded in the local data |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
 ## UK Market Information
 
@@ -77,18 +62,6 @@ The authorisation number is in a format that does not look like a standard MHRA 
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction for otitis externa is supported by model score only (L5), with no clinical trials or literature, a speculative mechanism, and a clear local irritancy concern at the proposed site.
-
-**To proceed, the following is needed:**
-- Detailed mechanism of action data (for example from DrugBank)
-- Verification of the UK authorisation details (product form, indication, MHRA number) and of SmPC and BNF warnings and contraindications
-- Preclinical or early clinical data showing that capsaicin is tolerable and effective for ear canal pain, including local tolerability
-- Assessment of suitable formulations and routes, as none has been established for the ear
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -8,6 +8,7 @@ nav_order: 132
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Carbidopa
@@ -51,8 +52,8 @@ This report serves as a baseline assessment only; resolution of multiple data ga
 | Predicted New Indication | None generated in this evaluation cycle |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No predictions generated |
-| UK Market Status | Not independently marketed (0 licences on record) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note on UK Market Status:** Carbidopa is not available as a standalone licensed medicine in the UK. It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®). The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.

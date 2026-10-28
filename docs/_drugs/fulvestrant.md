@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 308
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-15
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Fulvestrant"
-predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a model-generated hypothesis supported mainly by one in vitro study, and
 |------|------|
 | Original Indication | Not stated in the UK licence data compiled for this report |
 | Predicted New Indication | HIV infectious disease |
-| TxGNN Prediction Score | 99.91% |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical/mechanistic only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ For HIV, the rationale is indirect. Oestrogen receptor alpha is expressed in CD4
 
 The second publication concerns HTLV-1-associated myelopathy, a different retrovirus, and offers only weak support.
 
-Other predictions in the list (for example simian immunodeficiency virus infection and feline AIDS) appear to reflect the same HIV-related signal in the knowledge graph and are not relevant to human development.
+Other predictions in the list (for example simian immunodeficiency virus infection and feline AIDS) come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, and are not relevant to human development.
 
 ---
 

@@ -50,10 +50,10 @@ The prediction rests on model output alone and has no clear mechanistic rational
 |------|------|
 | Original Indication | Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK licence is not available) |
 | Predicted New Indication | Myiasis |
-| TxGNN Prediction Score | 99.41% |
+| TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,8 +66,8 @@ Myiasis is an infestation of tissue by fly larvae. It is usually managed by larv
 
 The other highly ranked predictions are closely related and share the same weakness:
 
-- **Wound myiasis, creeping myiasis and furuncular myiasis** have identical scores (99.34%). This suggests the prediction is propagated through the disease hierarchy rather than reflecting subtype-specific biology.
-- **Echinococcus granulosus infection** (score 99.32%) has a weak, speculative conceptual parallel. Griseofulvin binds tubulin, and benzimidazoles (albendazole, mebendazole), the standard medical therapy for cystic echinococcosis, also act on parasite tubulin. There is no evidence that griseofulvin has scolicidal or anti-cyst activity.
+- **Wound myiasis, creeping myiasis and furuncular myiasis** have identical scores (0.9934). This suggests the prediction is propagated through the disease hierarchy rather than reflecting subtype-specific biology.
+- **Echinococcus granulosus infection** (score 0.9932) has a weak, speculative conceptual parallel. Griseofulvin binds tubulin, and benzimidazoles (albendazole, mebendazole), the standard medical therapy for cystic echinococcosis, also act on parasite tubulin. There is no evidence that griseofulvin has scolicidal or anti-cyst activity.
 
 ---
 

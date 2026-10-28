@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB01033",
-      "display": "Omeprazole_Cap E/C 10mg"
+      "reference": "MedicationKnowledge/DB01033"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "hodgkins-lymphoma",
-          "display": "Hodgkins lymphoma"
-        }
-      ],
-      "text": "Hodgkins lymphoma"
+      "concept": {
+        "text": "Hodgkins lymphoma"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.998
     }
   ]
 }

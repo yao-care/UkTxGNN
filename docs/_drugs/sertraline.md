@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sertraline
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 567
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-15
-description: "Sertraline: predicted new indication Schizotypal personality disorder (evidence level L4). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Sertraline"
-predicted_indications: ["schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-10-23
+description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Sertraline: From Anxiety Disorders to Schizotypal Personality Disorder
+## Sertraline: Histrionic personality disorder (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Sertraline is a selective serotonin reuptake inhibitor (SSRI) originally used for anxiety disorders, obsessive-compulsive disorder (OCD), post-traumatic stress disorder (PTSD), social phobia and related conditions.
-The TxGNN model predicts it may be effective for **schizotypal personality disorder**, but the supporting evidence is very thin: **1 small clinical trial** (8 participants) and **1 publication** (a case report on a different condition).
+Sertraline is an antidepressant of the selective serotonin reuptake inhibitor (SSRI) class.
+The TxGNN model predicts it may be effective for **histrionic personality disorder**, but there are currently **no clinical trials and no publications** supporting this specific prediction.
 
 ---
 
@@ -47,60 +47,50 @@ The TxGNN model predicts it may be effective for **schizotypal personality disor
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder, post-traumatic stress disorder, social phobia, phobic disorder, obsessive-compulsive disorder |
-| Predicted New Indication | Schizotypal personality disorder |
-| TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Histrionic personality disorder (disease) |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sertraline is an SSRI. Its efficacy in anxiety disorders, OCD, PTSD and social phobia is established, and mechanistically it may be applicable to schizotypal personality disorder.
+Currently, detailed mechanism of action data is not available. Mechanistically, it may be applicable to personality-disorder traits such as affective instability, anxiety or impulsivity.
 
-Schizotypal presentations often include anxiety, social avoidance, depressive and obsessive features. These overlap with symptoms that sertraline already treats. The one registered trial tested sertraline alone versus sertraline plus risperidone in adolescents with attenuated positive and negative symptoms. This population is related to, but not the same as, schizotypal personality disorder.
-
-This reasoning is plausible but speculative. The high TxGNN score reflects a computational prediction and has not been confirmed by clinical data.
+Histrionic personality disorder is a psychiatric condition that often co-occurs with mood and anxiety disorders. The prediction probably reflects network proximity to the conditions sertraline is already linked with. No study in the data compiled for this report tests sertraline in histrionic personality disorder, so the link remains hypothetical.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrolment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00169988](https://clinicaltrials.gov/study/NCT00169988) | Not specified | Completed | 8 | Sertraline alone vs sertraline plus risperidone for attenuated positive and negative symptoms in adolescents (Recognition and Prevention Program). It assessed unusual thoughts, suspiciousness, reasoning, memory, attention and social skills. The very small sample and absence of a phase designation mean no efficacy conclusion can be drawn. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Case report | Postepy Psychiatrii Neurologii | Describes a 14-year-old girl with comorbid OCD and anorexia nervosa and the diagnostic difficulties involved. It does not address schizotypal personality disorder, so it offers no direct support. |
+Currently no related literature available.
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403030Q0AAAAAA | Sertraline HCl tablets 50 mg | Tablet | Not stated in the data compiled for this report |
+| Marketing Authorisation Number | Product Name |
+|---------|------|
+| 0403030Q0AAAAAA | Sertraline HCl_Tab 50mg |
 
-The identifier above follows the BNF classification code format rather than a standard PL number. Please confirm the marketing authorisation details against the MHRA register. The approved indications should be checked against the current SmPC and the relevant NICE guidance.
+This is a single-ingredient product with valid status. Dosage form and approved indication text are not available in the compiled record, so it cannot be used to confirm any approved indication. The listed identifier is not in the usual PL number format, so verify it against the MHRA register. It resembles a BNF-style product code (BNF section 4.3.3, selective serotonin re-uptake inhibitors).
 
 ---
 
 ## Safety Considerations
 
-- **Conditions linked to contraindications or cautions (knowledge-graph associations, not label text):** epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis, and serotonin syndrome.
-- **Drug Interactions:** 100 interactions were recorded; the first 20 are summarised here.
-  - **Major:** bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron, phentermine.
-  - **Moderate:** famotidine, loperamide, morphine, acetylsalicylic acid (aspirin), bisacodyl, chlorpropamide, clarithromycin, picosulfuric acid, polyethylene glycol (3350 with electrolytes), dronabinol, glimepiride, sodium sulfate, insulin aspart.
-
-The main point for any new use is the interaction with other serotonergic drugs. Combination with an antipsychotic, as in the registered trial, would need its own review.
+- **Contraindication-type relations recorded in the knowledge graph** (not label text): epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome, nephrogenic syndrome of inappropriate antidiuresis and serotonin syndrome.
+- **Drug Interactions**: 100 interactions are recorded. Major-severity examples include bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and phentermine. Moderate-severity examples include aspirin, morphine, clarithromycin, famotidine and loperamide.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -111,14 +101,16 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the only direct evidence is one completed trial of 8 participants with no phase designation. A single case report on an unrelated condition adds nothing. There is no mechanism data, and the safety profile for this population has not been assessed.
+The high TxGNN score is a computational prediction only. There are no trials or publications for histrionic personality disorder, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Adequately powered randomised controlled trials of sertraline in adults with schizotypal personality disorder
-- Detailed mechanism of action data
-- A review of the current SmPC warnings and contraindications, including serotonergic and antipsychotic combinations
-- Confirmation of the UK marketing authorisation details and approved indications
-- Consideration of a higher-evidence candidate: agoraphobia, also predicted for sertraline, has stronger support (panic disorder trials and network meta-analyses) as a near-label extension
+- Clinical or observational data directly studying sertraline in histrionic personality disorder
+- Mechanism of action data to support a mechanistic link
+- Label-based warnings and contraindications from the SmPC and BNF
+- Licensed indication and dosage form details for the UK authorisation
+- Review of the interaction burden and of the knowledge-graph contraindication signals (for example bipolar disorder and serotonin syndrome) before any use outside current indications
+
+**Note on other predictions:** In the same data set, agoraphobia (rank 6) has considerably more supporting literature, mainly sertraline studies in panic disorder with or without agoraphobia. It would be a more evidence-supported candidate to evaluate separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -6,9 +6,9 @@ nav_order: 387
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-15
-description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Central nervous system origin vertigo"
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
+description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Meclizine
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 </div>
 
-## Meclizine: From Vertigo and Motion Sickness to Allergic Urticaria
+## Meclizine: Allergic urticaria
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but there are currently **no registered clinical trials and no publications** su
 
 | Item | Content |
 |------|------|
-| Original Indication | Central nervous system origin vertigo; motion sickness (per the TxGNN knowledge graph; no approved indication text is available for the UK authorisations) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Allergic urticaria |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 3 |
+| UK Market Status | Marketed (valid licences: 3 of 3) |
+| Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,11 +64,11 @@ Other predicted indications are listed below. All are supported by model predict
 
 | Rank | Predicted Indication | TxGNN Score | Evidence Level | Comment |
 |------|------|------|------|------|
-| 2 | Common cold | 99.49% | L5 | Possible symptom relief of rhinorrhoea and sneezing only; no disease modification |
-| 3 | Nasal cavity disease | 99.48% | L5 | Broad category with no specific disease defined, which limits assessment |
-| 4 | Pharyngitis | 99.45% | L5 | Any benefit would be indirect (for example, reduced postnasal drip) |
-| 5 | Acute laryngopharyngitis | 99.37% | L5 | Weak rationale; anticholinergic drying could worsen throat irritation |
-| 6 | Cold urticaria | 99.22% | L5 | Plausible link, as H1 antihistamines are first-line, but newer non-sedating agents are preferred |
+| 2 | Common cold | 0.9949 | L5 | Possible symptom relief of rhinorrhoea and sneezing only; no disease modification |
+| 3 | Nasal cavity disease | 0.9948 | L5 | Broad category with no specific disease defined, which limits assessment |
+| 4 | Pharyngitis | 0.9945 | L5 | Any benefit would be indirect (for example, reduced postnasal drip) |
+| 5 | Acute laryngopharyngitis | 0.9937 | L5 | Weak rationale; anticholinergic drying could worsen throat irritation |
+| 6 | Cold urticaria | 0.9922 | L5 | Plausible link, as H1 antihistamines are first-line, but newer non-sedating agents are preferred |
 
 ## Clinical Trial Evidence
 
@@ -100,7 +100,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-The only support is a high model score (99.67%) with no clinical trials or publications (evidence level L5). Established, better-tolerated antihistamines already exist for urticaria, and meclizine's sedative and anticholinergic profile is a disadvantage.
+The only support is a high model score (0.9967) with no clinical trials or publications (evidence level L5). Established, better-tolerated antihistamines already exist for urticaria, and meclizine's sedative and anticholinergic profile is a disadvantage.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank)

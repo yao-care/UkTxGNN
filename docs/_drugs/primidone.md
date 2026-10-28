@@ -4,17 +4,17 @@ title: Primidone
 parent: Model Prediction Only (L5)
 nav_order: 519
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-15
-description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Primidone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Primidone: From Epilepsy to Trigeminal Nerve Neoplasm
+## Primidone: Trigeminal nerve neoplasm
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (generalised tonic-clonic, partial, and Lennox-Gastaut syndrome per the knowledge graph; no licence indication text available) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Trigeminal nerve neoplasm |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 
 Currently, detailed mechanism of action data is not available. Based on known information, primidone is an anticonvulsant that is metabolised to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but no mechanistic basis for anti-tumour activity in trigeminal nerve neoplasm is supported by the data compiled for this report.
 
-The high TxGNN score (99.99%) is a computational prediction only. Any benefit in a trigeminal nerve tumour would be speculative, for example symptomatic relief of neuropathic pain rather than a treatment effect on the tumour.
+The high TxGNN score (0.9999) is a computational prediction only. Any benefit in a trigeminal nerve tumour would be speculative, for example symptomatic relief of neuropathic pain rather than a treatment effect on the tumour.
 
 Other predictions in the list are more coherent with the drug's pharmacology:
 
@@ -109,7 +109,7 @@ The product is marketed as a single-ingredient, valid authorisation. The identif
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge-graph associations, not label text):** The following were flagged:
+- **Contraindications (from the TxGNN model (deep learning), not label text; these may reflect similarities the model learned between related diseases, not biological evidence):** The following were flagged:
   - Porphyria, including inherited porphyria and porphyrin metabolism disease
   - Kidney disease and liver disease
   - Gallbladder disease

@@ -10,20 +10,14 @@
   "type": "indication",
   "subject": [
     {
-      "reference": "MedicationKnowledge/DB00911",
-      "display": "Omeprazole_Cap E/C 10mg"
+      "reference": "MedicationKnowledge/DB00911"
     }
   ],
   "indication": {
     "diseaseSymptomProcedure": {
-      "coding": [
-        {
-          "system": "https://uktxgnn.yao.care/fhir/CodeSystem/predicted-indication",
-          "code": "ulceration-of-vulva",
-          "display": "ulceration of vulva"
-        }
-      ],
-      "text": "ulceration of vulva"
+      "concept": {
+        "text": "ulceration of vulva"
+      }
     }
   },
   "extension": [
@@ -34,6 +28,10 @@
     {
       "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/research-only",
       "valueBoolean": true
+    },
+    {
+      "url": "https://uktxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9987
     }
   ]
 }

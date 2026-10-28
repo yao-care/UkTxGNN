@@ -8,6 +8,7 @@ nav_order: 159
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Chlorpromazine Hcl
@@ -51,8 +52,8 @@ Chlorpromazine hydrochloride is a first-generation (typical) antipsychotic of th
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — no predictions or supporting studies present in pack |
-| UK Market Status | Not marketed (per Evidence Pack — see data quality note below) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Quality Note:** The Evidence Pack records UK market status as "Not marketed" with zero licences. This is likely a data extraction error. Chlorpromazine (marketed as **Largactil®** by Sanofi) holds a current MHRA marketing authorisation in the United Kingdom for schizophrenia and related psychoses, and is listed in the BNF (Section 4.2.1). This discrepancy must be investigated and resolved before relying on the Evidence Pack for any regulatory decision.

@@ -8,6 +8,7 @@ nav_order: 565
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Selegiline Hcl
@@ -51,8 +52,8 @@ Selegiline HCl is a selective monoamine oxidase B (MAO-B) inhibitor, widely reco
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (model prediction only — not yet generated) |
-| UK Market Status | Not marketed (per data; see note below) |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠ Data Integrity Note:** Selegiline hydrochloride (e.g., Eldepryl®) has historically been available in UK clinical practice as an adjunct treatment for Parkinson's disease. The zero-licence result likely reflects a mapping failure against the MHRA authorisations database rather than genuine absence from the UK market. This must be verified before the report is finalised.

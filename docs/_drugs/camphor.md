@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Camphor
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 125
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Camphor"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---
 
 # Camphor
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ The evidence is currently at the model-prediction and preclinical level, so this
 |------|------|
 | Original Indication | Not available in the data compiled for this report (the single authorisation record has no indication text) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9985 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -101,7 +101,7 @@ Points from the compiled data that warrant caution:
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.85%), but the evidence is limited to a single animal study and indirect case reports, some of which suggest camphor may provoke headache rather than treat it. There are no human trials, and neurotoxicity is a recognised concern.
+The TxGNN score is high (0.9985), but the evidence is limited to a single animal study and indirect case reports, some of which suggest camphor may provoke headache rather than treat it. There are no human trials, and neurotoxicity is a recognised concern.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank) to support the TRP-channel hypothesis

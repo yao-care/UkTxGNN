@@ -4,17 +4,17 @@ title: Guaifenesin
 parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "Guaifenesin"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis", "tracheal disease", "trigeminal autonomic cephalalgia", "anorectal stricture", "anal polyp", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Guaifenesin: From Upper Respiratory Tract Symptoms to Nasal Cavity Disease
+## Guaifenesin: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (knowledge-graph indications; no approved indication text is available for the UK licence) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.98% |
+| TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction with no actual studies of guaifenesin for this indication; the single review only mentions guaifenesin within a decongestant combination) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -112,10 +112,9 @@ Please refer to the SmPC and BNF for authoritative safety information. Report su
 The TxGNN score is very high, but no clinical trials exist, and the one supporting article is a 2002 review that does not test guaifenesin for nasal cavity disease. Mechanism-of-action data and label safety data are also missing, so the prediction cannot yet be advanced.
 
 **Other predictions of note:**
-- **Tracheal disease** (score 98.83%, evidence level L3) has the strongest supporting data: a 2012 in vitro study comparing guaifenesin, N-acetylcysteine and ambroxol on MUC5AC and mucociliary transport in human airway cells, plus a 2018 case report. It is better supported than nasal cavity disease and is worth considering as a research question.
-- **Acute laryngopharyngitis** (99.98%) is plausible because it is close to the existing pharyngitis indication, but it has no supporting evidence.
-- **Faucial diphtheria** (99.54%) lacks a plausible mechanism, because it needs antitoxin and antibiotics, and the score likely reflects network proximity only.
-- Predictions for cervical disc degenerative disorder, papillary conjunctivitis, trigeminal autonomic cephalalgia, anorectal stricture, anal polyp and punctate epithelial keratoconjunctivitis have no evidence and no plausible mechanism, and are likely graph artefacts.
+- **Acute laryngopharyngitis** (0.9998) is plausible because it is close to the existing pharyngitis indication, but it has no supporting evidence.
+- **Faucial diphtheria** (0.9954) lacks a plausible mechanism, because it needs antitoxin and antibiotics, and the score likely reflects network proximity only.
+- Predictions for cervical disc degenerative disorder and papillary conjunctivitis have no evidence and no plausible mechanism. Their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for guaifenesin

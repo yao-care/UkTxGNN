@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Trifluridine
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 641
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-15
-description: "Trifluridine: predicted new indication Cecum villous adenoma (evidence level L5). Approved use: Herpes simplex virus keratitis"
-monitor_inn: "Trifluridine"
-predicted_indications: ["cecum villous adenoma", "lipoma of colon", "colonic lymphangioma", "cecum neuroendocrine tumor G1", "rectosigmoid junction neoplasm", "colon leiomyoma", "cecal disease", "benign neoplasm of cecum", "cavernous hemangioma of colon", "photosensitivity disease"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Trifluridine: known uses and market status in the United Kingdom; currently no new candidate indication"
+predicted_indications: []
 ---
 
 # Trifluridine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +32,49 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Trifluridine: From Herpes Simplex Virus Keratitis and Colorectal Cancer to Cecum Villous Adenoma
+<!-- known-uses-page -->
+<!-- description: Trifluridine: known uses and market status in the United Kingdom; currently no new candidate indication -->
+## Trifluridine: Known uses and market status in the United Kingdom
 {: .text-alpha }
 
-## One-Sentence Summary
+## Summary
+The TxGNN model has no candidate with a score of 0.99 or higher for Trifluridine, so there is currently no new predicted indication. The drug's recorded uses are listed below. They are the drug's own recorded uses, not model candidates.
 
-Trifluridine is a thymidine analogue, originally used for herpes simplex virus keratitis (as an eye drop) and, with tipiracil, for colorectal cancer.
-The TxGNN model predicts it may be effective for **cecum villous adenoma**, but there are currently **no clinical trials** and **no publications** supporting this specific prediction.
-
----
-
-## Quick Overview
-
+## Quick overview
 | Item | Content |
 |------|------|
-| Original Indication | Herpes simplex virus keratitis; colorectal cancer (colonic neoplasm) |
-| Predicted New Indication | Cecum villous adenoma |
-| TxGNN Prediction Score | 98.60% |
-| Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
-| Recommended Decision | Hold |
+| New predicted indications | None (no model candidate scored 0.99 or higher) |
+| Known uses recorded for this drug | 6 |
+| Evidence level | Not applicable |
+| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 
----
+## Known uses recorded for this drug
 
-## Why is This Prediction Reasonable?
+### Approved (supported by a licence or label)
+| Indication | Source |
+|------|------|
+| colorectal neoplasms | licence in another country |
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, trifluridine is a thymidine analogue that is incorporated into DNA and inhibits thymidylate synthase. Combined with tipiracil, it is approved for metastatic colorectal cancer.
+### Related to an approved indication (same disease category)
+| Indication | Approved category |
+|------|------|
+| none | none |
 
-A villous adenoma of the cecum is a benign precursor lesion of the colon, so a shared colonic epithelial origin makes a link plausible. The high score probably reflects closeness to colorectal neoplasms in the knowledge graph.
-
-However, the clinical rationale is weak. Benign adenomas are managed by endoscopic resection, and systemic cytotoxic therapy is not clinically justified for them. This is a model prediction only.
-
-Other top-ranked predictions show the same pattern: colonic lipoma, lymphangioma, leiomyoma and cavernous hemangioma (all benign, with no mechanistic rationale), cecal neuroendocrine tumour G1 (low proliferative index, so unlikely to respond to an S-phase-dependent antimetabolite), and photosensitivity disease (no plausible link, probably a graph artefact). "Rectosigmoid junction neoplasm" is largely a re-labelling of the existing colorectal cancer indication rather than a new repurposing opportunity.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for cecum villous adenoma.
-
----
-
-## Literature Evidence
-
-Currently no related literature available for cecum villous adenoma.
-
-For information only, publications were retrieved for two lower-ranked predictions, but none supports a new indication:
-- "Cecal disease" (rank 7): three case reports in metastatic colorectal cancer, covering readministration of cancer drugs ([32655959](https://pubmed.ncbi.nlm.nih.gov/32655959/), 2020), trifluridine/tipiracil-associated vasculitis ([30677817](https://pubmed.ncbi.nlm.nih.gov/30677817/), 2018) and pain management ([30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/), 2018). They relate to the already-approved colorectal indication or its toxicity.
-- "Benign neoplasm of cecum" (rank 8): one cohort study of irinotecan-loaded bead chemoembolisation for colorectal liver metastases ([37500124](https://pubmed.ncbi.nlm.nih.gov/37500124/), 2023). This is a malignant, off-target setting and appears to be a retrieval mismatch.
-
----
+### Relations recorded in the knowledge graph (no approval found)
+| Indication |
+|------|
+| colonic neoplasm |
+| colorectal cancer |
+| herpes simplex virus keratitis |
+| malignant colon neoplasm |
+| squamous cell carcinoma of colon |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1103030T0AAADAD | Trifluridine eye drops 1% (preservative-free) | Not specified | Not specified in the data compiled |
-
-Note: the identifier above is not in standard MHRA "PL" format, and the indication text and dosage form were not available. Please verify the authorisation against the MHRA database and the BNF.
-
----
+| Licence | Product | Dosage form | Status |
+|------|------|------|------|
+| 1103030T0AAADAD | Trifluridine_Eye Dps 1% P/F |  | Valid |
 
 ## Cytotoxicity
 
@@ -125,19 +106,6 @@ Please refer to the SmPC and BNF for warnings and contraindications. Report susp
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction is supported by model score only (L5), with no trials or literature. Benign adenomas are treated by endoscopic resection, so systemic cytotoxic therapy is not clinically justified.
-
-**To proceed, the following is needed:**
-- A clear clinical rationale for systemic therapy in a benign lesion, or a decision to redirect effort to a malignant colonic indication already covered by existing evidence
-- Mechanism of action data (for example from DrugBank)
-- Warnings and contraindications from the SmPC and BNF
-- Confirmation of the UK authorisation details (PL number, dosage form, approved indication)
-- Any preclinical or observational evidence specific to villous adenoma
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

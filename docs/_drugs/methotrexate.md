@@ -4,17 +4,17 @@ title: Methotrexate
 parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
-description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukaemia, rheumatoid arthritis, psoriasis…"
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methotrexate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Methotrexate: From Acute Lymphoblastic Leukaemia to Pulmonary Blastoma
+## Methotrexate: Pulmonary blastoma
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma** (top-ran
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia, rheumatoid arthritis, psoriasis, non-Hodgkin lymphoma and related conditions (from the knowledge graph; no approved indication text is available for the UK product) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary blastoma |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -65,10 +65,9 @@ For pulmonary blastoma specifically, the data do not support a specific link. Th
 
 Other predictions in the same list have more supporting material and may be better starting points for further work:
 
-- **Hodgkin lymphoma** (score 99.32%, evidence level L3): methotrexate-containing VBM (vinblastine, bleomycin, methotrexate) chemotherapy has been used in early-stage disease. However, most of the 44 listed trials are mixed haematological studies in which methotrexate is a supportive or backbone drug, for example graft-versus-host disease prophylaxis.
-- **Rhabdomyosarcoma** (score 99.25%, evidence level L3): a phase 2 trial of high-dose methotrexate in children and adolescents with high-risk disease (PMID 9329466) is the closest direct evidence, but it is old and there are no phase 3 data.
-- **Primary pulmonary lymphoma** (score 99.45%, evidence level L4): methotrexate is already used in non-Hodgkin lymphoma, so applicability is plausible, but the retrieved literature is mostly case reports and reviews, with no pulmonary-specific trial.
-- **Small cell lung carcinoma** (score 99.43%, evidence level L4): methotrexate featured in older SCLC combination regimens, but the retrieved trials concern non-small cell lung cancer.
+- **Hodgkin lymphoma** (score 0.9932, evidence level L3): methotrexate-containing VBM (vinblastine, bleomycin, methotrexate) chemotherapy has been used in early-stage disease. However, most of the 44 listed trials are mixed haematological studies in which methotrexate is a supportive or backbone drug, for example graft-versus-host disease prophylaxis.
+- **Rhabdomyosarcoma** (score 0.9925, evidence level L3): a phase 2 trial of high-dose methotrexate in children and adolescents with high-risk disease (PMID 9329466) is the closest direct evidence, but it is old and there are no phase 3 data.
+- **Primary pulmonary lymphoma** (score 0.9945, evidence level L4): methotrexate is already used in non-Hodgkin lymphoma, so applicability is plausible, but the retrieved literature is mostly case reports and reviews, with no pulmonary-specific trial.
 
 ---
 
@@ -124,7 +123,7 @@ Label warnings and contraindications were not available in the data compiled. Pl
 **Decision: Hold**
 
 **Rationale:**
-The pulmonary blastoma prediction has a high model score (99.45%) but no trials, no publications and no mechanistic evidence specific to this tumour (evidence level L5). Methotrexate is also a high-toxicity cytotoxic drug, so a prediction alone is not enough to justify progression.
+The pulmonary blastoma prediction has a high model score (0.9945) but no trials, no publications and no mechanistic evidence specific to this tumour (evidence level L5). Methotrexate is also a high-toxicity cytotoxic drug, so a prediction alone is not enough to justify progression.
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data for methotrexate, and a tumour-specific rationale for pulmonary blastoma.

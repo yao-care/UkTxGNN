@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: High Evidence (L1-L2)
 nav_order: 365
 evidence_level: L2
-indication_count: 6
-last_modified_at: 2026-10-15
-description: "Lenalidomide: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
+indication_count: 4
+last_modified_at: 2026-10-28
 monitor_inn: "Lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **6** 
+Evidence Level: **L2** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **6**
 
 </div>
 
-## Lenalidomide: From Plasma Cell Myeloma to Myeloid Leukaemia
+## Lenalidomide: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **45 clinical trials** (mostly Phase 1/2) and **19 publications** (mainly r
 
 | Item | Content |
 |------|------|
-| Original Indication | Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm, lymphosarcoma, myelodysplastic syndrome (from the knowledge graph; no approved indication text is available for the UK authorisation) |
-| Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.49% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Myeloid leukemia |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -158,10 +158,8 @@ Multiple completed Phase 2 trials, mostly combination or maintenance studies in 
 ### Note on Other Predictions
 
 The other predicted indications are weaker and should not be prioritised:
-- **Unclassified myelodysplastic syndrome** (99.43%, L3): relevance depends on del(5q); evidence is cohort and case-level only; research question.
-- **Refractory cytopenia of childhood** (99.35%, L3): one Phase 1 paediatric safety study; research question.
-- **Aregenerative anaemia** (99.32%, L3): indirect evidence only; research question.
-- **Severe congenital hypochromic anaemia with ringed sideroblasts** (99.28%, L5) and **partial deletion of the long arm of chromosome 5** (99.27%, L5): no supporting trials or literature, likely mapping artefacts; hold.
+- **Refractory cytopenia of childhood** (0.9935, L3): one Phase 1 paediatric safety study; research question.
+- **Aregenerative anaemia** (0.9932, L3): indirect evidence only; research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

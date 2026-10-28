@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Degarelix: From Prostate Cancer to Hypertrichosis
+## Degarelix: From Prostate Cancer to hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -50,10 +50,10 @@ This is a model-only prediction with a weak mechanistic rationale.
 |------|------|
 | Original Indication | Not stated in the available authorisation data |
 | Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ This is a model-only prediction with a weak mechanistic rationale.
 
 Detailed mechanism of action data is not available in the data compiled for this report. Degarelix is known as a GnRH receptor antagonist: it blocks pituitary GnRH receptors, reducing LH and FSH release and therefore gonadal androgen production.
 
-The link to hypertrichosis is weak. Hypertrichosis is generally not androgen-driven (unlike hirsutism), so suppressing gonadal hormones is not an established way to treat it. The high TxGNN score reflects graph-based network proximity only, with no supporting trials or literature.
+The link to hypertrichosis is weak. Hypertrichosis is generally not androgen-driven (unlike hirsutism), so suppressing gonadal hormones is not an established way to treat it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no supporting trials or literature.
 
-Other top-ranked predictions are similarly unsupported. Examples are Ambras-type hypertrichosis universalis congenita, a Dandy-Walker malformation syndrome, isolated hair shaft abnormalities, and urticaria. Only **central precocious puberty** (score 99.67%) is biologically coherent, because GnRH suppression is its established principle of treatment. Even there, no paediatric data exist for degarelix. Practical barriers include the depot formulation and injection-site reactions.
+Other top-ranked predictions are similarly unsupported. Examples are Ambras-type hypertrichosis universalis congenita, a Dandy-Walker malformation syndrome, isolated hair shaft abnormalities, and urticaria. Only **central precocious puberty** (score 0.9967) is biologically coherent, because GnRH suppression is its established principle of treatment. Even there, no paediatric data exist for degarelix. Practical barriers include the depot formulation and injection-site reactions.
 
 ---
 

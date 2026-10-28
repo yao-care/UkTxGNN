@@ -8,6 +8,7 @@ nav_order: 59
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amorolfine Hcl
@@ -51,8 +52,8 @@ A complete repurposing evaluation **cannot be performed** until these gaps are r
 | Predicted New Indication | No predictions available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model returned no predictions |
-| UK Market Status | Recorded as "not marketed" in this Evidence Pack *(see data note below)* |
-| Number of Marketing Authorisations | 0 per Evidence Pack *(verification against MHRA register strongly recommended)* |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Integrity Note:** Amorolfine 5% nail lacquer (brand name **Loceryl**, Galderma) holds an established MHRA marketing authorisation in the United Kingdom for the treatment of mild-to-moderate onychomycosis. The Evidence Pack's record of zero UK licences appears to reflect a data pipeline error — likely a query against the Taiwan TFDA register rather than the MHRA register — rather than the true UK regulatory position. This must be corrected before any formal evaluation proceeds. Please verify at [MHRA Product Licence Register](https://products.mhra.gov.uk/).

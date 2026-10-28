@@ -50,10 +50,10 @@ The evidence is mainly reviews and small older studies, so this remains a resear
 |------|------|
 | Original Indication | Early myoclonic encephalopathy, absence epilepsy, Lennox-Gastaut syndrome, anxiety disorder (the UK licence record carries no indication text) |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.65% |
+| TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; Proceed with Guardrails only if supported by further evidence) |
 
 ---
@@ -103,7 +103,7 @@ Only one authorisation is recorded (single-ingredient, valid). Dosage form, manu
 
 ## Safety Considerations
 
-**Contraindications and conditions of concern (from knowledge graph associations, not label text):** liver failure and liver disease, kidney disease, porphyria, respiratory failure, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, open-angle and angle-closure glaucoma, and substance-related disorders or dependence. Confirm against the SmPC.
+**Contraindications and conditions of concern (from the drug's labelled information and related-condition associations, not label text):** liver failure and liver disease, kidney disease, porphyria, respiratory failure, obstructive sleep apnoea and other sleep apnoea syndromes, congenital central hypoventilation syndrome, open-angle and angle-closure glaucoma, and substance-related disorders or dependence. Confirm against the SmPC.
 
 **Drug Interactions** (100 interactions recorded; examples):
 - **Major:** morphine, liposomal morphine (additive central nervous system and respiratory depression)
@@ -118,8 +118,8 @@ Wider concerns with benzodiazepines (dependence, tolerance, cognitive impairment
 
 | Predicted Indication | TxGNN Score | Evidence Level | Assessment |
 |------|------|------|------|
-| Insomnia | 99.32% | L4 | Hold: literature is mostly indirect, with no clinical trials and no clear evidence of efficacy in primary insomnia; dependence and falls risk weigh against advancing |
-| Trigeminal nerve neoplasm | 99.30% | L5 | Hold: no plausible mechanistic link, no trials and no literature |
+| Insomnia | 0.9932 | L4 | Hold: literature is mostly indirect, with no clinical trials and no clear evidence of efficacy in primary insomnia; dependence and falls risk weigh against advancing |
+| Trigeminal nerve neoplasm | 0.9930 | L5 | Hold: no plausible mechanistic link, no trials and no literature |
 
 ---
 

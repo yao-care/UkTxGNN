@@ -49,10 +49,10 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 |------|------|
 | Original Indication | Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.60% |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 
 Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, cyanocobalamin is a cofactor for methionine synthase and methylmalonyl-CoA mutase. Biotin is a cofactor for carboxylases such as propionyl-CoA carboxylase. Both pathways feed into propionate and methylmalonate metabolism, so a plausible but unverified link may exist through shared organic acid metabolism.
 
-However, the link is weak. Biotin-responsive disorders, such as biotinidase deficiency and holocarboxylase synthetase deficiency, are treated with biotin, not vitamin B12. The very high TxGNN score may reflect the close grouping of vitamins and cofactors in the knowledge graph rather than a true therapeutic relationship. No direct mechanistic link between cyanocobalamin and biotin metabolism is established in the data supplied.
+However, the link is weak. Biotin-responsive disorders, such as biotinidase deficiency and holocarboxylase synthetase deficiency, are treated with biotin, not vitamin B12. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. No direct mechanistic link between cyanocobalamin and biotin metabolism is established in the data supplied.
 
 ---
 

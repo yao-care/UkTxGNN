@@ -6,9 +6,9 @@ nav_order: 492
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-15
-description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Streptococcal infection, pharyngitis, infectious otitis media…"
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
+description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenoxymethylpenicillin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Phenoxymethylpenicillin: From Streptococcal and Respiratory Tract Infections to Epiglottitis
+## Phenoxymethylpenicillin: Epiglottitis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, pharyngitis, infectious otitis media, respiratory tract infections, erysipelas, scarlet fever (the UK licence record contains no indication text, so these come from the knowledge graph) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Epiglottitis |
-| TxGNN Prediction Score | 99.90% |
+| TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -66,7 +66,7 @@ Epiglottitis is a bacterial infection of the supraglottis. Historically it was c
 There are important limitations:
 - Phenoxymethylpenicillin is oral and narrow-spectrum, and it is not active against beta-lactamase-producing *H. influenzae*.
 - Epiglottitis is an airway emergency. It is usually managed with airway protection and intravenous broad-spectrum antibiotics such as third-generation cephalosporins, so oral penicillin V is not a suitable primary therapy.
-- The 99.90% score is a computational prediction only and is not clinical evidence.
+- The 0.9990 score is a computational prediction only and is not clinical evidence.
 
 ---
 
@@ -80,7 +80,7 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for epiglottitis.
 
-*For context, the second-ranked prediction, laryngitis (TxGNN score 99.85%, evidence level L4), has one related publication. It is indirect evidence only and is not about phenoxymethylpenicillin as a treatment:*
+*For context, the second-ranked prediction, laryngitis (TxGNN score 0.9985, evidence level L4), has one related publication. It is indirect evidence only and is not about phenoxymethylpenicillin as a treatment:*
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

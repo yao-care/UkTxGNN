@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report (piperacillin is a…"
 monitor_inn: "piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ There is no credible evidence that piperacillin treats rheumatoid arthritis, and
 |------|------|
 | Original Indication | Not available in the data compiled for this report (piperacillin is an antibacterial for bacterial infections) |
 | Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,7 @@ There is no credible evidence that piperacillin treats rheumatoid arthritis, and
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Piperacillin is, however, a well-established beta-lactam antibiotic that inhibits bacterial cell wall synthesis.
 
-This mechanism has no known anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis, an autoimmune disease. The high TxGNN score (99.94%) most likely reflects a graph-based association rather than a true therapeutic link.
+This mechanism has no known anti-inflammatory or immunomodulatory action relevant to rheumatoid arthritis, an autoimmune disease. The high score (0.9994) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The retrieved literature supports this view. The papers describe RA patients who developed infections or treatment complications (for example, methotrexate-induced pancytopenia or infections under immunosuppression), where piperacillin was used to treat the infection. This reflects co-occurrence in patients, not an effect on RA itself.
 

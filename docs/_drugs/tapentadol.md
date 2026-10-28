@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Model Prediction Only (L5)
 nav_order: 593
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-15
 description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Tapentadol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,19 +47,19 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 |------|------|
 | Original Indication | Not available in the compiled data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.67% |
+| TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available from the compiled data. Based on general pharmacological knowledge, tapentadol combines mu-opioid receptor agonism with noradrenaline reuptake inhibition. In theory, this dual action could modulate central pain pathways that are also relevant to migraine.
 
-The TxGNN score is very high (0.997), but it reflects a knowledge-graph prediction only. The mechanistic link is speculative. Opioids are generally discouraged for migraine because of the risk of medication-overuse headache, chronification and dependence.
+The TxGNN score is very high (0.9967), but it reflects a TxGNN model (deep learning) prediction only. The mechanistic link is speculative. Opioids are generally discouraged for migraine because of the risk of medication-overuse headache, chronification and dependence.
 
-Two related predictions were also returned: migraine with brainstem aura (score 99.57%) and migraine with or without aura, susceptibility to (score 99.08%). The first probably reflects propagation from the parent migraine node. The second describes genetic susceptibility rather than a treatable clinical condition, so it is of limited practical use.
+A related prediction was also returned: migraine with brainstem aura (score 0.9957). It probably reflects propagation from the parent migraine node.
 
 ## Clinical Trial Evidence
 
@@ -67,7 +67,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No publications directly test tapentadol in migraine. Two indirect publications were retrieved for the related prediction "migraine with or without aura, susceptibility to":
+No publications directly test tapentadol in migraine.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

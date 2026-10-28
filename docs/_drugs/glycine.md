@@ -4,17 +4,17 @@ title: Glycine
 parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-15
-description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
+description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Glycine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,32 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Glycine: From Rhinitis and Upper Respiratory Tract Conditions to Nasal Cavity Disease
+## Glycine: Nasal cavity disease
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Glycine is an amino acid that the knowledge graph links to upper-airway conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold.
+Glycine is an amino acid. The TxGNN model (deep learning) score for nasal cavity disease (0.9985) may reflect similarities the model learned between related diseases, such as upper-airway conditions like allergic rhinitis, vasomotor rhinitis, pharyngitis and the common cold, not biological evidence.
 The TxGNN model predicts it may be effective for **nasal cavity disease**, but this is a model prediction only: the single registered trial is not a therapeutic study of glycine, and the two publications are not clinically relevant.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text is available for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Nasal cavity disease |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, glycine's listed uses are already nasal and upper-airway conditions, so the predicted indication is close to its existing uses. A specific pharmacological link, such as a glycine receptor-mediated anti-inflammatory or cytoprotective effect, cannot be substantiated from the data compiled for this report.
 
-The high TxGNN score (0.998) reflects proximity within the knowledge graph. Because "nasal cavity disease" is a broad category that includes rhinitis, the prediction is largely an extension of existing associations rather than a new repurposing signal.
+The high TxGNN score (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Because "nasal cavity disease" is a broad category that includes rhinitis, the prediction is largely an extension of existing associations rather than a new repurposing signal.
 
-A second prediction, **acute laryngopharyngitis** (score 99.84%), was also generated. It has no trials or publications, and is anatomically close to pharyngitis and nasopharyngitis, which likely explains the graph-based prediction.
 
 ## Clinical Trial Evidence
 
@@ -102,7 +101,7 @@ Please refer to the SmPC and BNF for authoritative safety information. Report su
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. The one registered trial is an unrelated imaging study, the two publications are basic research without clinical relevance, and no mechanism of action data are available. The predicted indication also largely overlaps with existing associated uses, so it offers little new repurposing signal.
+The prediction rests only on the score from the TxGNN model (deep learning), which may reflect similarities the model learned between related diseases, not biological evidence. The one registered trial is an unrelated imaging study, the two publications are basic research without clinical relevance, and no mechanism of action data are available. The predicted indication also largely overlaps with existing associated uses, so it offers little new repurposing signal.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glycine in nasal and upper-airway tissue

@@ -8,6 +8,7 @@ nav_order: 147
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Celiprolol Hcl
@@ -51,8 +52,8 @@ As a result, **no evidence-based repurposing recommendation** can be made at thi
 | Predicted New Indication | No TxGNN prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction only (no predictions returned) |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---

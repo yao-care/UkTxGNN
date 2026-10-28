@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Yohimbine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 657
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 9
 last_modified_at: 2026-10-15
 description: "Yohimbine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the available data"
 monitor_inn: "Yohimbine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "migraine with or without aura, susceptibility to", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
 ---
 
 # Yohimbine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ The evidence is weak, and the pharmacology points in an unfavourable direction, 
 |------|------|
 | Original Indication | Not recorded in the available data |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.94% |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -119,7 +119,7 @@ Warning and contraindication text from the product information was not available
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, and the literature is almost entirely animal, in vitro or indirect. Alpha-2 agonists, not antagonists, are the agents associated with migraine research, so the direction of effect is questionable. The very high prediction score appears to reflect model proximity rather than independent evidence. The knowledge graph also flags cardiovascular, hepatic, renal and anxiety-related conditions, which are relevant to a migraine population.
+There are no clinical trials, and the literature is almost entirely animal, in vitro or indirect. Alpha-2 agonists, not antagonists, are the agents associated with migraine research, so the direction of effect is questionable. The very high prediction score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - Product information (SmPC) warnings, contraindications and the approved indication for the UK-listed tablet

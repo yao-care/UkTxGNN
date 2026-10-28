@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-15
-description: "Ofloxacin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Bacterial infections (e.g. typhoid fever, urinary tract infection…"
 monitor_inn: "Ofloxacin"
-predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
+last_modified_at: 2026-10-23
+description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Ofloxacin
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Ofloxacin: From Bacterial Infections to Hyperamylasemia
+## Ofloxacin: Polyclonal hyperviscosity syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Ofloxacin is a fluoroquinolone antibiotic, originally used for bacterial infections such as urinary tract infection, bronchitis, bacterial pneumonia and typhoid fever.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but this is a purely computational prediction with **no clinical trials** and **no relevant publications** supporting it.
+Ofloxacin is a fluoroquinolone antibacterial.
+The TxGNN model predicts it may be useful for **septicaemic plague**. The supporting evidence is **11 publications** (mostly animal and laboratory studies) and **no registered clinical trials**.
 
 ---
 
@@ -47,23 +47,25 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but this i
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (e.g. typhoid fever, urinary tract infection, bronchitis, bacterial pneumonia). The UK licence record contains no indication text, so this is taken from the knowledge-graph indication list. |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 99.91% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
+| TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
+
+The evidence level is L5 because no cited study directly examines septicaemic plague in humans. The retrieved publications are animal and in vitro studies of *Yersinia pestis* (the cause of plague). The pipeline's own preliminary grading was L4, but under the ceiling rule L5 applies.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial infections is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Ofloxacin is a fluoroquinolone, a class that inhibits bacterial DNA gyrase and topoisomerase IV, enzymes needed for bacterial DNA replication. This is general class knowledge rather than data from the compiled record.
 
-For hyperamylasemia, however, no plausible mechanistic link has been identified. Hyperamylasemia is a laboratory finding with pancreatic, salivary and other non-infectious causes, and an antibacterial agent has no recognised action on these. The high TxGNN score is a graph-based prediction and should not be read as evidence of benefit.
+The relationship to the original uses is straightforward. Ofloxacin is already used against a range of bacterial infections, and plague is also a bacterial infection. *Yersinia pestis* is susceptible to fluoroquinolones in laboratory testing. Plague is therefore a biologically plausible target, unlike the other high-scoring predictions for this drug (such as hyperviscosity syndrome or congenital analbuminemia), which have no credible mechanism.
 
-Other predicted indications were also reviewed. Most (for example polyclonal hyperviscosity syndrome, congenital analbuminemia, monoclonal gammopathy and blood group incompatibility) have no mechanistic rationale. Only **septicemic plague** is biologically plausible, since *Yersinia pestis* is susceptible to fluoroquinolones. That is effectively an extension of the antibacterial indication, supported only by animal and in vitro studies (evidence level L4). It is not the top-ranked prediction.
+An important caveat is that the support is indirect. Other fluoroquinolones, such as ciprofloxacin and levofloxacin, are better characterised for plague. Ofloxacin would need to be positioned relative to them.
 
 ---
 
@@ -75,7 +77,21 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for hyperamylasemia.
+Eleven publications were retrieved for plague. The most relevant are listed below (animal studies first, then in vitro studies). No human trials or RCTs were found.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16127904](https://pubmed.ncbi.nlm.nih.gov/16127904/) | 2002 | Animal study | Antibiotiki i khimioterapiia | Ofloxacin in experimental plague in mice. In vitro MIC was 0.08 mg/L, and it was more active than pefloxacin and nalidixic acid. Prophylaxis efficacy was lower against strains lacking fraction I and mouse toxin |
+| [8203841](https://pubmed.ncbi.nlm.nih.gov/8203841/) | 1994 | Animal study | Antimicrob Agents Chemother | Ofloxacin was active in vitro and was compared with beta-lactams, aminoglycosides and doxycycline in a mouse model of systemic *Y. pestis* infection |
+| [9517950](https://pubmed.ncbi.nlm.nih.gov/9517950/) | 1998 | Animal study | Antimicrob Agents Chemother | Mouse model of pneumonic plague comparing streptomycin with antibiotics that have little or no clinical experience |
+| [10987101](https://pubmed.ncbi.nlm.nih.gov/10987101/) | 2000 | Animal study | Antibiotiki i khimioterapiia | Fluoroquinolones including ofloxacin interfered with post-vaccination immunity in mice. A quinolone-resistant vaccine strain avoided this |
+| [11871319](https://pubmed.ncbi.nlm.nih.gov/11871319/) | 2001 | Animal study | Antibiotiki i khimioterapiia | Experimental bubonic plague model in baboons for assessing new antibacterials |
+| [8540736](https://pubmed.ncbi.nlm.nih.gov/8540736/) | 1995 | In vitro | Antimicrob Agents Chemother | 78 *Y. pestis* strains. Ceftriaxone and ciprofloxacin were most active, followed by ofloxacin and ampicillin |
+| [8913481](https://pubmed.ncbi.nlm.nih.gov/8913481/) | 1996 | In vitro | Antimicrob Agents Chemother | 100 human isolates from southern Africa. Ofloxacin and levofloxacin were highly active (MIC90 below 0.03 µg/mL) |
+| [18644132](https://pubmed.ncbi.nlm.nih.gov/18644132/) | 2008 | In vitro / molecular | BMC Microbiol | Screening for antibiotic resistance determinants in *Y. pestis* |
+| [13677133](https://pubmed.ncbi.nlm.nih.gov/13677133/) | 2003 | In vitro / microbiology | Antibiotiki i khimioterapiia | Plague mutants resistant to rifampicin and nalidixic acid arose at low frequency |
+
+Two further retrieved papers concern *Burkholderia* and *Vibrio cholerae* rather than plague and are not relevant to this prediction.
 
 ---
 
@@ -83,31 +99,25 @@ Currently no related literature available for hyperamylasemia.
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0501120P0AAABAB (BNF code, as recorded) | Ofloxacin 400 mg tablets | Tablet | Not recorded in the data compiled |
+| 0501120P0AAABAB | Ofloxacin 400 mg tablets | Tablet | Not stated in the licence record |
 
-Only one single-ingredient authorisation is recorded, and it is currently valid.
+This is a single-ingredient product with a valid status. The listed number appears to be a product code rather than a standard PL number.
 
 ---
 
 ## Safety Considerations
 
-**Contraindications / conditions of concern (from knowledge-graph drug–disease contraindication links, not label text):**
-- Cardiac: long QT syndrome (including familial), torsades de pointes
-- Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, peripheral neuropathy and other peripheral nervous system disease
-- Hepatic and renal: liver failure, liver disease, drug-induced liver injury, kidney disease, impaired renal function
-- Tendon and musculoskeletal: tendinitis, periarthritis, rhabdomyolysis
-- Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency
-- Haematological: thrombocytopenia, leukopenia, anaemia
-- Gastrointestinal: *Clostridium difficile* colitis, necrotising enterocolitis, gallbladder disease
+**Knowledge-graph contraindication relations** (not taken from label text) include:
+- **Cardiac:** long QT syndrome, familial long QT syndrome, torsades de pointes
+- **Neurological and neuromuscular:** epilepsy, myasthenia gravis, peripheral neuropathy
+- **Musculoskeletal:** tendinitis, rhabdomyolysis
+- **Hepatic and renal:** liver failure, liver disease, drug-induced liver injury, kidney disease, impaired renal function
+- **Metabolic:** diabetes mellitus, diabetic ketoacidosis, potassium deficiency
+- **Blood and gut:** thrombocytopenia, anaemia, leukopenia, *Clostridium difficile* colitis
 
-**Drug interactions:** 100 interactions were identified. Major-level interactions include:
-- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone
-- Bupropion
-- Chlorpropamide
+**Drug interactions:** 100 interactions were found. Examples flagged as **Major** include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), bupropion and chlorpropamide. Many **Moderate** interactions involve antidiabetic drugs (metformin, pioglitazone, acarbose, alogliptin, canagliflozin), as well as famotidine, loperamide, aspirin, and calcium and potassium salts.
 
-Moderate-level interactions include antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), famotidine, loperamide, aspirin, balsalazide, bisacodyl and calcium and potassium salts.
-
-Product-specific warnings and contraindications from the label were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Label warnings and contraindications were not available. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -116,14 +126,13 @@ Product-specific warnings and contraindications from the label were not availabl
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication of hyperamylasemia has no clinical, trial or relevant literature support and no plausible mechanism. The prediction is model-derived only (L5). The safety profile also includes several significant concerns.
+Septicaemic plague is a biologically plausible target, but the evidence is limited to animal and laboratory studies, with no human trials. Better-characterised fluoroquinolones are available for plague. The other nine predictions have no credible mechanism or evidence and should also be held.
 
 **To proceed, the following is needed:**
-- A credible mechanistic hypothesis linking ofloxacin to hyperamylasemia, if one exists
-- Label-based warnings and contraindications from the SmPC and BNF
-- Mechanism of action data
-- Approved indication text for the UK authorisation
-- If a repurposing direction is pursued, consider septicemic plague as a better-supported research question. It would need human clinical data, and its UK regulatory and public health context would need review.
+- Clinical data in human plague, or a rationale for choosing ofloxacin over ciprofloxacin or levofloxacin
+- Mechanism of action data and the licensed indication text from the SmPC
+- Label-based warnings and contraindications, with particular attention to QT prolongation, tendon, neuropathy and CNS risks
+- Review of the interaction profile, notably with corticosteroids, and of dosing in renal impairment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

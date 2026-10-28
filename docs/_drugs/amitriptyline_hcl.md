@@ -8,6 +8,7 @@ nav_order: 55
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amitriptyline Hcl
@@ -53,8 +54,8 @@ However, this Evidence Pack contains **no TxGNN predicted indications** and is m
 | Predicted New Indication | No predictions returned |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — prediction pipeline incomplete; no supporting studies assessable |
-| UK Market Status | Unconfirmed (data reports unlicensed — see data quality note) |
-| Number of Marketing Authorisations | 0 recorded (likely a data extraction failure — see below) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Note:** Amitriptyline hydrochloride is a long-established medicine with a well-known presence in the UK. The reported market status of "not marketed" with zero MHRA authorisations is almost certainly a data extraction failure rather than an accurate regulatory picture. The MHRA Products database should be queried directly before this Evidence Pack is used for any downstream decision-making.

@@ -4,17 +4,17 @@ title: Tryptophan
 parent: Moderate Evidence (L3-L4)
 nav_order: 646
 evidence_level: L3
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-15
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not available"
 monitor_inn: "Tryptophan"
-predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency", "acne (disease)", "pregnancy associated osteoporosis"]
+predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 ---
 
 # Tryptophan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 |------|------|
 | Original Indication | Not available (no approved indication text in the data compiled) |
 | Predicted New Indication | Restless legs syndrome |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

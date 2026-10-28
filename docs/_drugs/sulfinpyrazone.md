@@ -6,9 +6,9 @@ nav_order: 584
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Sulfinpyrazone: predicted new indication Renal hypouricaemia (evidence level L5). Approved use: Hyperuricaemia"
 monitor_inn: "Sulfinpyrazone"
-predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "neonatal epileptic encephalopathy due to glutaminase deficiency", "genetic otorhinolaryngological malformation", "disorder of phenylalanine metabolism", "idiopathic bilateral vestibulopathy", "semicircular canal dehiscence syndrome", "familial nasal acilia", "juvenile nasopharyngeal angiofibroma (disease)"]
+predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "neonatal epileptic encephalopathy due to glutaminase deficiency", "genetic otorhinolaryngological malformation", "disorder of phenylalanine metabolism", "semicircular canal dehiscence syndrome", "idiopathic bilateral vestibulopathy", "familial nasal acilia", "juvenile nasopharyngeal angiofibroma (disease)"]
+description: "Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sulfinpyrazone
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Sulfinpyrazone: From Hyperuricaemia to Renal Hypouricaemia
+## Sulfinpyrazone: Hypouricemia, renal
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **renal hypouricaemia**, but **
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperuricaemia (obsolete disease term in the knowledge graph; no approved indication text available for the UK licence) |
-| Predicted New Indication | Renal hypouricaemia |
-| TxGNN Prediction Score | 99.99% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypouricemia, renal |
+| TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfinpyrazone is a uricosuric agent that inhibits URAT1-mediated renal urate reabsorption and lowers serum urate. It also has a weak antiplatelet effect.
 
-On closer inspection, the prediction is **not mechanistically reasonable**. Renal hypouricaemia is caused by loss-of-function of URAT1 (SLC22A12) or GLUT9, which already produces excessive urate excretion and low serum urate. A uricosuric drug would be expected to **worsen** this phenotype rather than treat it. The very high TxGNN score is therefore most likely an artefact of associations in the knowledge graph, and the predicted direction should be regarded as contraindicated.
+On closer inspection, the prediction is **not mechanistically reasonable**. Renal hypouricaemia is caused by loss-of-function of URAT1 (SLC22A12) or GLUT9, which already produces excessive urate excretion and low serum urate. A uricosuric drug would be expected to **worsen** this phenotype rather than treat it.
 
 The other highly ranked predictions show the same pattern:
 - **HPRT partial deficiency and Lesch-Nyhan syndrome:** the link is only symptomatic (lowering urate). Increased renal urate load raises the risk of urate nephropathy and stones, and xanthine oxidase inhibitors such as allopurinol are standard of care. Sulfinpyrazone would not address the neurological features of Lesch-Nyhan syndrome.
@@ -95,7 +95,7 @@ Please also refer to the SmPC and BNF for full safety information. Report suspec
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5), with no trials or publications. The expected pharmacology (increased urate excretion) runs opposite to the disease biology of renal hypouricaemia, so the high score is likely a graph artefact. None of the other top-ranked predictions has a plausible mechanism or supporting evidence.
+The prediction rests on model score alone (L5), with no trials or publications. None of the other top-ranked predictions has a plausible mechanism or supporting evidence.
 
 **To proceed, the following is needed:**
 - A mechanistic rationale showing a plausible benefit rather than harm. Without one, this indication should not be pursued.

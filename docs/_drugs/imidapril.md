@@ -4,17 +4,17 @@ title: Imidapril
 parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Imidapril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
+description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Imidapril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Imidapril: From Hypertension to Pulmonary Hypertension
+## Imidapril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,12 +46,12 @@ but **no clinical trials or publications** were found in the data compiled for t
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (hypertensive disorder); no approved indication text is available in the UK authorisation data |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
-| TxGNN Prediction Score | 99.78% |
+| TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,10 +64,9 @@ The renin-angiotensin system also influences pulmonary vascular tone and remodel
 
 | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|
-| Pulmonary hypertension owing to lung disease and/or hypoxia | 99.78% | Theoretical attenuation of hypoxia-driven vascular remodelling; ACE inhibition may impair hypoxic pulmonary vasoconstriction and ventilation-perfusion matching |
-| Malignant hypertensive renal disease | 99.76% | Close to the original indication, so more an extension than true repurposing; ACE inhibitors can worsen renal function in acute settings (e.g. renal artery stenosis, volume depletion) |
-| Malignant renovascular hypertension | 99.76% | Strongly renin-angiotensin dependent, but ACE inhibitors can precipitate acute kidney injury in bilateral renal artery stenosis or a solitary kidney |
-| Braddock syndrome | 99.70% | No clear mechanistic link; the score likely reflects network proximity to hypertension-related nodes |
+| Pulmonary hypertension owing to lung disease and/or hypoxia | 0.9978 | Theoretical attenuation of hypoxia-driven vascular remodelling; ACE inhibition may impair hypoxic pulmonary vasoconstriction and ventilation-perfusion matching |
+| Malignant hypertensive renal disease | 0.9976 | Close to the original indication, so more an extension than true repurposing; ACE inhibitors can worsen renal function in acute settings (e.g. renal artery stenosis, volume depletion) |
+| Braddock syndrome | 0.9970 | No clear mechanistic link; the score likely reflects network proximity to hypertension-related nodes |
 
 ## Clinical Trial Evidence
 

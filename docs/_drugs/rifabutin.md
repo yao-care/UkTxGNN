@@ -48,10 +48,10 @@ Rifabutin is a rifamycin antibiotic marketed in the UK as a 150 mg capsule. It i
 |------|------|
 | Original Indication | Not stated in the UK licence data compiled for this report |
 | Predicted New Indication | HIV infectious disease (in practice, HIV-associated opportunistic mycobacterial disease) |
-| TxGNN Prediction Score | 99.88% |
+| TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 Note on evidence level: the L1 grading is taken from the data compiled for this report. The Phase 3 trials supporting it are in MAC disease or MAC prophylaxis in HIV patients, not in HIV itself.

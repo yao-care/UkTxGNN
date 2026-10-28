@@ -4,7 +4,7 @@ title: Sorafenib
 parent: High Evidence (L1-L2)
 nav_order: 573
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-15
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L2). Approved use: Hepatocellular carcinoma (also renal cell carcinoma and thyroid carci…"
 monitor_inn: "Sorafenib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female bre
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,13 +47,13 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 |------|------|
 | Original Indication | Hepatocellular carcinoma (also renal cell carcinoma and thyroid carcinoma) |
 | Predicted New Indication | Liposarcoma |
-| TxGNN Prediction Score | 99.82% |
+| TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-The original indication is taken from the knowledge-graph indication list, because the licence record compiled for this report contains no approved-indication text.
+The original indication is taken from the indication list of the source data used for this report, because the licence record compiled for this report contains no approved-indication text.
 
 ## Why is This Prediction Reasonable?
 
@@ -119,7 +119,7 @@ Label warnings were not available in the compiled data. Please refer to the SmPC
 
 **To proceed, the following is needed:**
 - Subgroup results for liposarcoma from the Phase 2 soft tissue sarcoma trials (NCT00217620 and SWOG S0505).
-- Mechanism of action data and SmPC-based warnings and contraindications, with a safety review of the knowledge-graph signals (cardiovascular, haematological, hepatic).
+- Mechanism of action data and SmPC-based warnings and contraindications, with a safety review of the signals in the source data (cardiovascular, haematological, hepatic).
 - The approved indication text for the UK authorisation.
 - A liposarcoma-specific prospective study, ideally in dedifferentiated disease, before any clinical positioning.
 

@@ -8,6 +8,7 @@ nav_order: 150
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Cetirizine Hcl
@@ -49,8 +50,8 @@ Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in t
 | Predicted New Indication | Not yet available |
 | TxGNN Prediction Score | Not yet available |
 | Evidence Level | L5 — no predictions generated |
-| UK Market Status | Not populated (known data gap — see note below) |
-| Number of Marketing Authorisations | 0 recorded (data ingestion gap, not a true absence) |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note on UK Market Status:** The Evidence Pack records zero UK licences, but Cetirizine HCl is well established in the UK marketplace as both a prescription medicine and a Pharmacy (P) / General Sale List (GSL) product. This is a data pipeline gap, not an accurate reflection of the MHRA register. UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.

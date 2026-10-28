@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 326
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-15
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Hydroquinone"
-predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease", "seborrheic dermatitis", "vulvar squamous neoplasm", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus", "acrodermatitis chronica atrophicans"]
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
 ---
 
 # Hydroquinone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ This is a model-driven hypothesis with weak supporting evidence.
 |------|------|
 | Original Indication | Not available in the data compiled for this report |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| TxGNN Prediction Score | 0.9973 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism of action data are not available in the data compiled for thi
 
 Any benefit would be cosmetic only. Hydroquinone would not treat the underlying epidermal proliferation. The only supporting publication is a prospective observational study of combination treatment for facial pigmentary disorders in Asian patients, which is indirect evidence.
 
-Other predictions in the list (for example vulvar squamous neoplasm, seborrheic dermatitis and acrodermatitis chronica atrophicans) have no plausible mechanistic link and are likely artefacts of the knowledge graph.
 
 ---
 
@@ -117,7 +116,6 @@ The prediction rests on a high model score and a single indirect observational s
 - Product label information (approved indication, warnings and contraindications) for the UK-marketed product
 - Controlled studies of hydroquinone in seborrheic keratosis
 - A review of the knowledge-graph contraindication signals against the label
-- Consideration of lichen planus pigmentosus as a more plausible alternative. It is the only prediction advanced to a research question, but a case report of hydroquinone non-response is a negative signal and there is no controlled evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

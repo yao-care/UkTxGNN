@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Model Prediction Only (L5)
 nav_order: 84
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-15
 description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Azathioprine"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,9 +40,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 Azathioprine is an immunosuppressive purine antimetabolite, originally used for rheumatoid arthritis.
 The TxGNN model ranks **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental malformation, as its top prediction.
-There are **no clinical trials and no publications** supporting this prediction, so it appears to be a graph-based artefact rather than a credible repurposing lead.
+There are **no clinical trials and no publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-Two other predictions for this drug, **inflammatory bowel disease** and **ulcerative colitis**, have substantial supporting evidence. They are summarised below because they are the clinically meaningful findings.
 
 ---
 
@@ -52,10 +51,10 @@ Two other predictions for this drug, **inflammatory bowel disease** and **ulcera
 |------|------|
 | Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
-| TxGNN Prediction Score | 99.9994% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +63,7 @@ Two other predictions for this drug, **inflammatory bowel disease** and **ulcera
 
 Detailed mechanism-of-action data are not available in the data compiled for this report. Azathioprine is a thiopurine prodrug. It is converted to 6-mercaptopurine and then to thioguanine nucleotides, which inhibit purine synthesis and suppress lymphocyte proliferation. This explains its benefit in immune-mediated conditions such as rheumatoid arthritis.
 
-The predicted condition is a rare developmental malformation syndrome, not an immune-mediated disease. No plausible mechanism links purine-antimetabolite immunosuppression to altering eye or skeletal development. The very high TxGNN score (99.9994%) is best interpreted as a knowledge-graph artefact. The same pattern applies to other top-ranked predictions, such as brachydactyly-syndactyly syndrome and acromesomelic dysplasia (Hunter-Thompson type).
+The predicted condition is a rare developmental malformation syndrome, not an immune-mediated disease. No plausible mechanism links purine-antimetabolite immunosuppression to altering eye or skeletal development. The very high TxGNN score (1.0000) is best interpreted as a TxGNN model (deep learning) artefact. The same pattern applies to other top-ranked predictions, such as brachydactyly-syndactyly syndrome and acromesomelic dysplasia (Hunter-Thompson type).
 
 ---
 
@@ -86,8 +85,6 @@ These two predictions are much better supported than the top-ranked one. Both ar
 
 | Predicted Indication | TxGNN Score | Evidence Level | Decision | Supporting Evidence |
 |------|------|------|------|------|
-| Inflammatory bowel disease | 99.52% | L1 | Proceed with Guardrails | 25 registered trials (several Phase 3/4); reviews on thiopurine use and pharmacogenetics |
-| Ulcerative colitis | 99.33% | L1 | Proceed with Guardrails | 16 registered trials; Cochrane reviews and a 2025 RCT |
 
 **Selected trials**
 
@@ -142,8 +139,7 @@ For full safety information, please refer to the SmPC and BNF. Report suspected 
 **Decision: Hold** (for colobomatous microphthalmia-rhizomelic dysplasia syndrome)
 
 **Rationale:**
-- There is no mechanistic rationale, no trial and no literature supporting azathioprine for this malformation syndrome, and the high TxGNN score appears to be a graph artefact.
-- Inflammatory bowel disease and ulcerative colitis are better candidates (Proceed with Guardrails, L1). They are already established uses, so they validate the model more than they offer new repurposing opportunities.
+- There is no mechanistic rationale, no trial and no literature supporting azathioprine for this malformation syndrome. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 **To proceed, the following is needed:**
 - For the top-ranked prediction: any mechanistic or genetic evidence linking purine-antimetabolite immunosuppression to the disease, which is unlikely to exist.

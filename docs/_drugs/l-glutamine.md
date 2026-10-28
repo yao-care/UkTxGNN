@@ -1,20 +1,20 @@
 ---
 layout: default
 title: L-Glutamine
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 353
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "L-Glutamine: predicted new indication Dermatitis (evidence level L4). Approved use: Short bowel syndrome"
 monitor_inn: "L-Glutamine"
 predicted_indications: ["drug-induced osteoporosis", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "severe nonproliferative diabetic retinopathy", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
+description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # L-Glutamine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## L-Glutamine: From Short Bowel Syndrome to Dermatitis
+## L-Glutamine: Drug-induced osteoporosis
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,15 +45,15 @@ The TxGNN model predicts it may be effective for **dermatitis** (the highest-ran
 
 | Item | Content |
 |------|------|
-| Original Indication | Short bowel syndrome (from the TxGNN knowledge graph; no approved indication text is available for the UK authorisation) |
-| Predicted New Indication | Dermatitis (see note below) |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Drug-induced osteoporosis |
+| TxGNN Prediction Score | 0.9998 |
+| Evidence Level | L5 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
-**Note on prediction selection:** The top-ranked prediction by TxGNN score was drug-induced osteoporosis (99.98%), followed by haemorrhagic disease of the newborn (99.96%). Neither has any trials or publications, so both remain at L5 with a Hold recommendation. This report focuses on dermatitis (rank 3), the highest-ranked prediction with any supporting data. The other seven predictions (ranks 4-10) also have no supporting evidence.
+**Note on prediction selection:** The top-ranked prediction by TxGNN score was drug-induced osteoporosis (0.9998), followed by haemorrhagic disease of the newborn (0.9996). Neither has any trials or publications, so both remain at L5 with a Hold recommendation. This report focuses on dermatitis (rank 3), the highest-ranked prediction with any supporting data. The other seven predictions (ranks 4-10) also have no supporting evidence.
 
 ## Why is This Prediction Reasonable?
 

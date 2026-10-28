@@ -4,17 +4,17 @@ title: Letrozole
 parent: High Evidence (L1-L2)
 nav_order: 367
 evidence_level: L1
-indication_count: 10
+indication_count: 4
 last_modified_at: 2026-10-15
-description: "Letrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not recorded in the UK licence data compiled for this report"
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
+description: "Letrozole: predicted new indication Nipple carcinoma (evidence level L1). Approved use: Not recorded in the local data"
 ---
 
 # Letrozole
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-## Letrozole: From Original Indication Not Recorded to Female Breast Carcinoma
+## Letrozole: Nipple carcinoma
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Letrozole is a nonsteroidal aromatase inhibitor that lowers oestrogen production. The data compiled for this report do not record its original licensed indication.
-The TxGNN model predicts it may be effective for **female breast carcinoma**, with **40 clinical trials** and **20 publications** currently supporting this direction. Breast cancer is in fact an established use of letrozole, so this is better read as confirmation than as true repurposing.
+Breast cancer is in fact an established use of letrozole, so this is better read as confirmation than as true repurposing.
 
 ---
 
@@ -47,12 +47,12 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, wi
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data compiled for this report |
-| Predicted New Indication | Female breast carcinoma |
-| TxGNN Prediction Score | 99.98% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Nipple carcinoma |
+| TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -124,7 +124,6 @@ Letrozole is an endocrine anticancer agent and not a conventional cytotoxic.
 | Cytotoxicity Classification | Targeted hormonal therapy (nonsteroidal aromatase inhibitor) |
 | Myelosuppression Risk | Please refer to the SmPC warnings and precautions |
 | Emetogenicity Classification | Please refer to the SmPC warnings and precautions |
-| Monitoring Items | Please refer to the SmPC; bone health and liver function are relevant given the knowledge-graph signals below |
 | Handling Protection | Please refer to the SmPC and local handling policy |
 
 ---

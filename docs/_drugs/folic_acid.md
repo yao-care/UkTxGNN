@@ -47,17 +47,17 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 |------|------|
 | Original Indication | Vitamin deficiency disorder; folic acid deficiency anaemia (approved indication text not available in the UK licence data) |
 | Predicted New Indication | Biotin metabolic disease |
-| TxGNN Prediction Score | 99.49% |
+| TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not currently available. Based on known information, folic acid is a B vitamin that acts as a cofactor in one-carbon metabolism. Its efficacy in folate-deficiency anaemia is well established.
 
-Folic acid and biotin are both water-soluble B vitamins involved in cellular metabolism, so a shared nutritional or metabolic pathway is plausible. The high TxGNN score reflects proximity in a knowledge graph, which is a computational association and not evidence of treatment benefit.
+Folic acid and biotin are both water-soluble B vitamins involved in cellular metabolism, so a shared nutritional or metabolic pathway is plausible. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It is a computational association and not evidence of treatment benefit.
 
 There are important reasons for caution. Folate does not substitute for biotin in biotin-dependent carboxylases, for example in holocarboxylase synthetase or biotinidase deficiency, where the standard treatment is biotin supplementation. The literature supplied contains general vitamin reviews and gives no direct evidence that folic acid treats biotin metabolic disease. The prediction should therefore be regarded as a hypothesis with weak mechanistic support.
 

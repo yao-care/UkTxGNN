@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Model Prediction Only (L5)
+parent: High Evidence (L1-L2)
 nav_order: 394
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 8
 last_modified_at: 2026-10-15
-description: "Mercaptopurine: predicted new indication Myeloid leukaemia (evidence level L5). Approved use: Acute lymphoblastic leukaemia"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
+description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mercaptopurine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Mercaptopurine: From Acute Lymphoblastic Leukaemia to Myeloid Leukaemia
+## Mercaptopurine: Myeloid leukemia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,12 +48,12 @@ with **15 clinical trials** and **20 publications** currently linked to this dir
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute lymphoblastic leukaemia (from the knowledge graph; no approved indication text is available for the UK licence) |
-| Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 99.94% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Myeloid leukemia |
+| TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (see note below) |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* several Phase 3 trials in acute promyelocytic leukaemia (APL) and acute myeloid leukaemia (AML) include mercaptopurine only as part of a combination regimen. They do not test it on its own. Under the grading rules this supports L2 at most, and the decision below is deliberately cautious.
@@ -64,7 +64,7 @@ with **15 clinical trials** and **20 publications** currently linked to this dir
 
 Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, mercaptopurine is a purine antimetabolite. It is converted into thioguanine nucleotides (TGNs), which are incorporated into DNA and inhibit de novo purine synthesis. This acts on rapidly dividing blast cells.
 
-Acute lymphoblastic leukaemia and myeloid leukaemia are both acute leukaemias driven by proliferating blasts, so a shared antimetabolite mechanism is plausible. Acute promyelocytic leukaemia, a subtype of AML, is also listed among the drug's original indications in the knowledge graph. Published myeloid-disease experience includes oral mercaptopurine/methotrexate maintenance in transplant-ineligible AML, ALL-like consolidation in childhood AML, and APL maintenance regimens.
+Acute lymphoblastic leukaemia and myeloid leukaemia are both acute leukaemias driven by proliferating blasts, so a shared antimetabolite mechanism is plausible. Published myeloid-disease experience includes oral mercaptopurine/methotrexate maintenance in transplant-ineligible AML, ALL-like consolidation in childhood AML, and APL maintenance regimens.
 
 The main limitation is that nearly all of this evidence is regimen-level. The independent benefit of mercaptopurine in myeloid leukaemia has not been established.
 

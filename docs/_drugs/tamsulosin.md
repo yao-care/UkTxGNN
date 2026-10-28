@@ -6,9 +6,9 @@ nav_order: 592
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-15
-description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Benign prostatic hyperplasia"
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
+description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tamsulosin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Tamsulosin: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+## Tamsulosin: Ambras type hypertrichosis universalis congenita
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -45,19 +45,19 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (the licence record holds no approved indication text, so this comes from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.996% |
+| TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available for this report. Tamsulosin is generally known as an alpha-1A/1D adrenoceptor antagonist. It relaxes smooth muscle in the prostate and bladder neck, which relieves urinary symptoms in BPH.
 
-Ambras-type hypertrichosis is a rare developmental disorder. It is linked to chromosome 8q23 rearrangements that affect regulation of the *TRPS1* gene. No plausible mechanism connects alpha-1 adrenergic blockade to this condition, and the original mechanism data are missing, so the link cannot be cross-checked. The high score most likely reflects proximity in the knowledge graph, not a therapeutic rationale.
+Ambras-type hypertrichosis is a rare developmental disorder. It is linked to chromosome 8q23 rearrangements that affect regulation of the *TRPS1* gene. No plausible mechanism connects alpha-1 adrenergic blockade to this condition, and the original mechanism data are missing, so the link cannot be cross-checked. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are mostly hair or congenital malformation conditions: hypertrichosis, hair shaft abnormalities, hypotrichosis, alopecia areata and migraine with brainstem aura. None has trial or literature support, and none has a recognised mechanistic basis.
 

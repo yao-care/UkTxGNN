@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 |------|------|
 | Original Indication | HIV infection; AIDS (the licence record holds no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
-| TxGNN Prediction Score | 99.85% |
+| TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ Simian immunodeficiency virus (SIV) is a close relative of HIV, so a shared reve
 
 The high TxGNN score probably reflects the disease's similarity to the original HIV indication rather than independent evidence. SIV infection is also an animal-model disease with no human clinical use, so the prediction has limited relevance to UK clinical practice.
 
-Two other predictions were also generated. Feline acquired immunodeficiency syndrome (score 99.85%) is a veterinary disease with only one biochemical and structural study, and FIV reverse transcriptase is generally less susceptible to NNRTIs. A rare neurodevelopmental disorder (score 99.82%) has no documented mechanistic link, no trials and no literature. Neither is a credible human repurposing candidate.
+Two other predictions were also generated. Feline acquired immunodeficiency syndrome (score 0.9985) is a veterinary disease with only one biochemical and structural study, and FIV reverse transcriptase is generally less susceptible to NNRTIs. A rare neurodevelopmental disorder (score 0.9982) has no documented mechanistic link, no trials and no literature. Neither is a credible human repurposing candidate.
 
 ## Clinical Trial Evidence
 

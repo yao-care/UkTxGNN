@@ -5,10 +5,10 @@ parent: Model Prediction Only (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-15
-description: "Demeclocycline: predicted new indication Chronic ethmoidal sinusitis (evidence level L5). Approved use: Bacterial infections, including urinary tract infection, bronchitis…"
 monitor_inn: "Demeclocycline"
 predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
+last_modified_at: 2026-10-27
+description: "Demeclocycline: predicted new indication chronic ethmoidal sinusitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Demeclocycline
@@ -33,89 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Demeclocycline: From Bacterial Infections to Chronic Ethmoidal Sinusitis
+## Demeclocycline: tetracycline antibiotic → chronic ethmoidal sinusitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Demeclocycline is a tetracycline antibiotic, originally used to treat a range of bacterial infections such as urinary tract infections, bronchitis and gonorrhoea.
-The TxGNN model predicts it may be effective for **chronic ethmoidal sinusitis**, but **no clinical trials and no publications** were identified in the data compiled for this report. The prediction rests on the model score alone.
-
----
+Demeclocycline is a tetracycline-class antibiotic.
+The TxGNN model predicts it may be relevant to **chronic ethmoidal sinusitis**, but this rests on a model score alone: **no clinical trials** and **no publications** were found for this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, including urinary tract infection, bronchitis, gonorrhoea and pharyngitis (from knowledge graph indication data; no MHRA indication text available) |
-| Predicted New Indication | Chronic ethmoidal sinusitis |
-| TxGNN Prediction Score | 99.14% |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | chronic ethmoidal sinusitis |
+| TxGNN Prediction Score | 0.9914 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, demeclocycline belongs to the tetracycline class of antibiotics. Its antibacterial efficacy in respiratory and other infections is established, and mechanistically it may be applicable to chronic ethmoidal sinusitis.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, demeclocycline belongs to the tetracycline class, which acts against a range of bacteria by inhibiting protein synthesis. Bacterial infection is one recognised contributor to chronic sinus disease, so an antibacterial effect is a plausible, though unproven, link.
 
-Chronic sinus inflammation can involve bacterial pathogens, so antibacterial activity is a plausible link. Tetracyclines have also been reported to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects, which could be relevant to chronic sinus inflammation. This remains a hypothesis. Because the original mechanism of action data is missing, the link cannot be verified from the data compiled for this report.
+Tetracyclines have also been reported to have anti-inflammatory effects, including inhibition of matrix metalloproteinases, which could in principle be relevant to chronic sinus inflammation. This remains a hypothesis. It cannot be verified from the data compiled for this report, and no evidence specific to demeclocycline in this condition was found.
 
-Two other predictions for this drug are also available, both at the same L5 level with no trials or literature:
-- **Chronic rhinosinusitis** (score 99.09%): Other tetracyclines, such as doxycycline, have been studied in this condition, but no such evidence was supplied for demeclocycline, so it cannot be counted as direct support. Concerns include antibiotic resistance with long-term use, phototoxicity, and the availability of better-studied alternatives.
-- **Paranasal sinus neoplasm** (score 99.05%): Any link is speculative, such as preclinical anti-proliferative or anti-angiogenic effects. The high score may partly reflect knowledge-graph proximity to sinus-related conditions rather than a true therapeutic signal.
-
----
+Two other conditions were also scored by the model: chronic rhinosinusitis (0.9909) and paranasal sinus neoplasm (0.9905). They are not the main prediction and are not assessed further here.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
+| Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0501030F0AAAAAA (BNF classification code; not a PL number) | Demeclocycline HCl Capsules 150 mg | Capsule | Not available in the compiled data |
+| 0501030F0AAAAAA | Demeclocycline HCl Cap 150mg | Capsule (150 mg, per product name) | Not recorded in the local data |
 
-The product is classified under BNF section 5.1.3 (tetracyclines).
-
----
+The identifier above is a BNF-style product code rather than a PL number. Under the BNF, demeclocycline sits in the tetracycline antibacterial section (chapter 5, infections). One single-ingredient record is listed, and it is currently valid.
 
 ## Safety Considerations
 
-- **Disease associations flagged as contraindications in the knowledge graph** (not taken from label text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, and diabetes insipidus (including neurohypophyseal and central forms).
-- **Drug Interactions** (100 interactions were recorded; the sample reviewed includes):
-  - **Major:** Vitamin A.
-  - **Moderate:** Amoxicillin, balsalazide, and polyvalent cation products that can reduce tetracycline absorption (calcium phosphate, calcium acetate, magnesium oxide, magnesium sulfate, magnesium chloride, zinc sulfate, zinc acetate, potassium citrate). Several insulin products (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular and inhaled human insulin) are also listed.
-  - **Minor:** Mannitol.
+- **Drug Interactions**: The interaction screening returned 100 entries. The examples below are drawn from the first 20 returned.
+  - **Major**: Vitamin A.
+  - **Moderate**: amoxicillin, balsalazide, calcium salts (phosphate, acetate), magnesium salts (oxide, sulfate, chloride), zinc salts (sulfate, acetate), potassium citrate, and several insulins (aspart, degludec, detemir, glargine, glulisine, human isophane, human regular, inhaled human).
+  - **Minor**: mannitol.
+- **Conditions flagged as contraindications in reference data** (not drawn from label text): kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotising enterocolitis, and diabetes insipidus (including central and neurohypophyseal forms).
 
-Label-based warnings and contraindications were not available. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a high TxGNN score (L5). There are no clinical trials or publications, the mechanism of action data is missing, and label-based safety data could not be obtained. The case does not yet justify further development.
+The prediction is supported only by a high model score (0.9914). No trials or publications address chronic ethmoidal sinusitis, so the evidence level is L5. There are also better-studied alternatives for sinus disease, and long-term antibiotic use raises resistance concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for demeclocycline
-- SmPC-based warnings and contraindications, and the MHRA approved indication text and PL number
-- A systematic literature search for tetracycline use in chronic sinusitis, to determine whether any evidence extends to demeclocycline
-- A comparison with better-studied alternatives (such as doxycycline) and an assessment of antimicrobial resistance risk with prolonged use
-- Preclinical or early-phase clinical evidence before any further consideration
+- Published or registered clinical evidence in chronic sinusitis, including comparison with established treatments
+- Label-based warnings and contraindications from the SmPC and BNF
+- Assessment of antimicrobial resistance and photosensitivity risks with prolonged use
+- Confirmation of the approved indication text and dosage form for the UK product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

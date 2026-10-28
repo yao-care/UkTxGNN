@@ -48,10 +48,10 @@ but there are currently **no clinical trials and no publications** supporting th
 |------|------|
 | Original Indication | Cholelithiasis, cholecystolithiasis, choledocholithiasis, primary biliary cholangitis, Reynolds syndrome |
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
-| TxGNN Prediction Score | 99.86% |
+| TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ Please refer to the SmPC and BNF for warnings and contraindications. Report susp
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.86%), but there are no clinical trials or publications, and the proposed mechanism does not address the underlying LDL receptor defect. The evidence level is L5 (model prediction only).
+The prediction score is very high (0.9986), but there are no clinical trials or publications, and the proposed mechanism does not address the underlying LDL receptor defect. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
 - Mechanism of action data for UDCA to allow a proper mechanistic assessment

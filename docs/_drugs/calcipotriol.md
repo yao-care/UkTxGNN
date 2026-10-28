@@ -49,10 +49,10 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (calcipotriol is widely used topically for psoriasis) |
 | Predicted New Indication | Seborrheic keratosis |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question) |
 
 ---

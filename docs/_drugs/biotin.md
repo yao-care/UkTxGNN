@@ -47,10 +47,10 @@ The TxGNN model predicts it may be useful for **dyspepsia**, but there are curre
 |------|------|
 | Original Indication | Nutritional biotin deficiency (the UK authorisation record contains no indication text) |
 | Predicted New Indication | Dyspepsia |
-| TxGNN Prediction Score | 99.43% |
+| TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -59,7 +59,7 @@ Currently, detailed mechanism of action data is not available. Biotin is known t
 
 Biotin deficiency can cause gastrointestinal symptoms such as nausea and anorexia. This suggests, at most, that correcting a deficiency might relieve some digestive symptoms. It does not show that biotin treats dyspepsia in people who are not deficient. The prediction currently rests on the model score alone, with no established mechanistic link.
 
-A second prediction, gastroparesis (score 99.42%), has no trials or literature and no clear mechanistic rationale, so it is not evaluated further here.
+A second prediction, gastroparesis (score 0.9942), has no trials or literature and no clear mechanistic rationale, so it is not evaluated further here.
 
 ## Clinical Trial Evidence
 

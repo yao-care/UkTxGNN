@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-15
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 monitor_inn: "Allopurinol"
-predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
+predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
 ---
 
 # Allopurinol
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 |------|------|
 | Original Indication | Gout; hyperuricaemia; acute urate nephropathy |
 | Predicted New Indication | Hepatic porphyria |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -61,7 +61,7 @@ The link to hepatic porphyria is indirect. Allopurinol has been reported to inte
 
 The direction of effect is uncertain. Depending on the porphyria type, depleting haem could be harmful or beneficial, and some drugs that affect haem metabolism are known to be porphyrinogenic. The link is therefore plausible but unproven.
 
-The other nine predictions (including idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, and immune-mediated necrotizing myopathy) have scores of 99.85% to 99.94% but no clinical evidence, so they are not pursued here.
+The other nine predictions (including idiopathic copper-associated cirrhosis, hepatopulmonary syndrome, and immune-mediated necrotizing myopathy) have scores of 0.9985 to 0.9994 but no clinical evidence, so they are not pursued here.
 
 ## Clinical Trial Evidence
 

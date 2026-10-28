@@ -48,10 +48,10 @@ but the supporting evidence is limited to **2 animal studies** and **no clinical
 |------|------|
 | Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the marketing authorisation indication text is not available in the data compiled for this report) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
-| TxGNN Prediction Score | 99.96% |
+| TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 on the strict rules above (no clinical trials; animal studies only). The source data labels this L3, but the supporting studies are preclinical animal studies rather than observational studies or systematic reviews. |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,7 +60,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Feline immunodeficiency virus (FIV) is a lentivirus that causes progressive immune dysfunction in cats, similar to HIV in humans. Its reverse transcriptase is homologous to that of HIV-1, so the mechanism is biologically plausible.
 
-Two caveats apply. First, the predicted indication is a non-human disease, so the prediction adds little to human repurposing. Second, the other high-scoring predictions are not more useful: simian immunodeficiency virus infection in macaques largely confirms the already-established antiretroviral and PrEP use, and a rare neurodevelopmental disorder (score 99.96%) has no identifiable mechanistic link, no trials and no literature.
+Two caveats apply. First, the predicted indication is a non-human disease, so the prediction adds little to human repurposing. Second, the other high-scoring predictions are not more useful: simian immunodeficiency virus infection in macaques largely confirms the already-established antiretroviral and PrEP use, and a rare neurodevelopmental disorder (score 0.9996) has no identifiable mechanistic link, no trials and no literature.
 
 ## Clinical Trial Evidence
 
@@ -86,7 +86,7 @@ Both authorisations are valid single-ingredient entries. The identifiers shown a
 
 ## Safety Considerations
 
-- **Contraindications and warnings (knowledge-graph associations, not label text):** The data compiled for this report links tenofovir to conditions including liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis, kidney disease, Fanconi renotubular syndrome, hypophosphatemia, osteomalacia, rickets, long QT syndrome, torsades de pointes, and hepatitis C virus infection. These are model-derived associations and must be checked against the SmPC.
+- **Contraindications and warnings (TxGNN model associations, not label text):** The TxGNN model (deep learning) links tenofovir to conditions including liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, lactic acidosis, kidney disease, Fanconi renotubular syndrome, hypophosphatemia, osteomalacia, rickets, long QT syndrome, torsades de pointes, and hepatitis C virus infection. These associations come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. They must be checked against the SmPC.
 - **Resistance consideration:** Tenofovir-selected SIV variants were unevenly distributed across anatomical sites in macaques (PMID 14963139), which is relevant to resistance.
 - **Drug interactions:** No interaction data was found.
 

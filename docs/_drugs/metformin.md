@@ -6,9 +6,9 @@ nav_order: 397
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-15
-description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
+description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Metformin
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-## Metformin: From Type 2 Diabetes Mellitus to Classic Stiff Person Syndrome
+## Metformin: Classic stiff person syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,30 +46,30 @@ but there are currently **no registered clinical trials** and **no publications*
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from the knowledge graph; no approved indication text is available in the UK licence record) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Classic stiff person syndrome |
-| TxGNN Prediction Score | 99.45% |
+| TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Currently, detailed mechanism of action data is not available. Based on known information, metformin is a biguanide whose efficacy in type 2 diabetes is well established, and the mechanistic link to stiff person syndrome cannot be verified from the data compiled for this report.
 
-A speculative link is that metformin activates AMPK and has immunomodulatory effects, which might bear on an autoimmune, anti-GAD-associated disorder such as stiff person syndrome. A more likely explanation for the high score is shared autoimmunity: type 2 diabetes and related diabetes types frequently co-occur with stiff person syndrome through anti-GAD65 antibodies. This co-occurrence probably drives the graph association rather than any therapeutic effect.
+A speculative link is that metformin activates AMPK and has immunomodulatory effects, which might bear on an autoimmune, anti-GAD-associated disorder such as stiff person syndrome. A more likely explanation for the high score is shared autoimmunity: type 2 diabetes and related diabetes types frequently co-occur with stiff person syndrome through anti-GAD65 antibodies. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, rather than any therapeutic effect.
 
-The second-ranked prediction, focal stiff limb syndrome, has an identical score (99.45%). This suggests it is inherited from the closely related disease node rather than from independent evidence.
+The second-ranked prediction, focal stiff limb syndrome, has an identical score (0.9945). This suggests it is inherited from the closely related disease node rather than from independent evidence.
 
 **Other predicted indications (all L5, Hold, no trials or literature):**
 
 | Rank | Predicted Indication | TxGNN Score | Comment |
 |------|------|------|------|
-| 2 | Focal stiff limb syndrome | 99.45% | Score identical to rank 1; likely inherited from a related disease. No plausible direct mechanism. |
-| 3 | Opsismodysplasia | 99.40% | Caused by INPPL1 (SHIP2) loss of function, affecting PI3K/AKT signalling. Only a loose pathway-level link to metformin's AMPK/mTOR effects. |
-| 4 | Thiamine-responsive dysfunction syndrome | 99.40% | Diabetes is a feature of the condition, which probably explains the association. Metformin would treat glycaemia at most; treatment is thiamine supplementation. |
-| 5 | Drug-induced localised lipodystrophy | 99.06% | Metformin improves insulin sensitivity in systemic lipodystrophy, but this localised form is mainly a cosmetic or injection-site issue. |
+| 2 | Focal stiff limb syndrome | 0.9945 | Score identical to rank 1; likely inherited from a related disease. No plausible direct mechanism. |
+| 3 | Opsismodysplasia | 0.9940 | Caused by INPPL1 (SHIP2) loss of function, affecting PI3K/AKT signalling. Only a loose pathway-level link to metformin's AMPK/mTOR effects. |
+| 4 | Thiamine-responsive dysfunction syndrome | 0.9940 | Diabetes is a feature of the condition, which probably explains the association. Metformin would treat glycaemia at most; treatment is thiamine supplementation. |
+| 5 | Drug-induced localised lipodystrophy | 0.9906 | Metformin improves insulin sensitivity in systemic lipodystrophy, but this localised form is mainly a cosmetic or injection-site issue. |
 
 ## Clinical Trial Evidence
 
@@ -111,7 +111,7 @@ Label-based warnings and contraindications were not available, so please refer t
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a graph-based score. There are no clinical trials or publications for any of the five predicted indications, and the apparent link to stiff person syndrome is most plausibly explained by co-occurring autoimmune diabetes rather than a therapeutic effect.
+The prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There are no clinical trials or publications for any of the five predicted indications, and the apparent link to stiff person syndrome is most plausibly explained by co-occurring autoimmune diabetes rather than a therapeutic effect.
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to allow a mechanistic assessment

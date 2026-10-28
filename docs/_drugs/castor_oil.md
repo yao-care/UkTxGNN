@@ -8,6 +8,7 @@ nav_order: 138
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Castor Oil
@@ -51,8 +52,8 @@ No evidence level can be assigned until predictions and supporting data are avai
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Not assessable |
-| UK Market Status | Not marketed |
-| Number of Marketing Authorisations | 0 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

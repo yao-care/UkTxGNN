@@ -4,17 +4,17 @@ title: Moxonidine
 parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-15
-description: "Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "primary hereditary glaucoma"]
+description: "Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Moxonidine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Moxonidine: From Hypertension to Hypotrichosis Simplex of the Scalp
+## Moxonidine: Hypotrichosis simplex of the scalp
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,19 +46,19 @@ but **no clinical trials and no relevant publications** currently support this d
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (the UK authorisation record has no approved indication text; hypertension is taken from the knowledge-graph indication data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.95% |
+| TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 1 |
+| UK Market Status | Marketed (valid licences: 1 of 1) |
+| Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, moxonidine is an imidazoline I1 / alpha-2 adrenergic agonist that lowers sympathetic outflow, and it is used to lower blood pressure. Pharmacology records also list it as binding the alpha-2A, alpha-2B and alpha-2C adrenoceptors.
 
-The link between this mechanism and scalp hair loss is **speculative**. One could imagine a role for vascular or neurogenic modulation of the hair follicle, but nothing in the supplied data supports it. The high TxGNN score reflects proximity in a knowledge graph and should not be read as evidence of benefit.
+The link between this mechanism and scalp hair loss is **speculative**. One could imagine a role for vascular or neurogenic modulation of the hair follicle, but nothing in the supplied data supports it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be read as evidence of benefit.
 
 The other top-ranked predictions are also unsupported by clinical data:
 

@@ -50,10 +50,10 @@ This prediction rests on model output alone and is not supported by direct evide
 |------|------|
 | Original Indication | Not stated in the data compiled for this report (the products are inhaled fluticasone combination inhalers) |
 | Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 99.20% |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed |
-| Number of Marketing Authorisations | 2 |
+| UK Market Status | Marketed (valid licences: 2 of 2) |
+| Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---
@@ -62,9 +62,9 @@ This prediction rests on model output alone and is not supported by direct evide
 
 Currently, detailed mechanism of action data is not available. Based on known information, fluticasone is a glucocorticoid used in combination with long-acting beta-2 agonists (salmeterol, formoterol) in inhaled products. Its anti-inflammatory activity is established in airway disease, but this has not been shown to carry over to migraine.
 
-Neuroinflammation has been proposed as a contributor to migraine, which is the only plausible conceptual link. However, inhaled fluticasone acts mainly locally and has low systemic bioavailability, so there is no established route by which it would reach a central neurological target. The very high TxGNN score (0.992) appears to be a graph-propagation signal and not a mechanistically grounded finding.
+Neuroinflammation has been proposed as a contributor to migraine, which is the only plausible conceptual link. However, inhaled fluticasone acts mainly locally and has low systemic bioavailability, so there is no established route by which it would reach a central neurological target. The very high score (0.9920) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-The same applies to the other two predictions in the data: **Prinzmetal angina** (score 99.19%) and **migraine with brainstem aura** (score 99.09%). Both are L5 with no trials or publications. Prinzmetal angina is driven by coronary vasospasm, for which calcium channel blockers and nitrates are standard, and there is no recognised pathway for fluticasone. Migraine with brainstem aura is a rare subtype, and its prediction likely reflects the same signal as migraine generally.
+The same applies to the other two predictions in the data: **Prinzmetal angina** (score 0.9919) and **migraine with brainstem aura** (score 0.9909). Both are L5 with no trials or publications. Prinzmetal angina is driven by coronary vasospasm, for which calcium channel blockers and nitrates are standard, and there is no recognised pathway for fluticasone. Migraine with brainstem aura is a rare subtype, and its prediction likely reflects the same signal as migraine generally.
 
 ---
 
@@ -109,7 +109,7 @@ Warnings and contraindications were not available in the data compiled for this 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a graph-based model score. There are no trials, and the single publication concerns adverse neuropsychiatric events, not benefit. There is no plausible mechanism by which a locally acting inhaled corticosteroid would treat migraine, Prinzmetal angina or migraine with brainstem aura.
+The prediction is supported only by a score from the TxGNN model (deep learning). There are no trials, and the single publication concerns adverse neuropsychiatric events, not benefit. There is no plausible mechanism by which a locally acting inhaled corticosteroid would treat migraine disorder, Prinzmetal angina or migraine with brainstem aura.
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible pathway linking fluticasone to migraine pathophysiology
