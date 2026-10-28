@@ -19,7 +19,7 @@ Drug repurposing predictions for United Kingdom MHRA-approved drugs using the Tx
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 603 |
+| **Drug Reports** | 583 |
 | **Total Predictions** | 11,961,740 |
 | **Unique Drugs** | 701 |
 | **Unique Indications** | 17,081 |
