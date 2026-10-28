@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Congestive heart failure"
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]

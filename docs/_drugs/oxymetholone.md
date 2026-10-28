@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Oxymetholone: predicted new indication seborrheic dermatitis (evidence level L5). Approved use: Aplastic anaemia (including Diamond-Blackfan anaemia…"
 monitor_inn: "Oxymetholone"
 predicted_indications: ["seborrheic dermatitis"]

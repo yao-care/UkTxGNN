@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Pirenzepine: predicted new indication Gastroduodenitis (evidence level L3). Approved use: Peptic ulcer disease"
 monitor_inn: "Pirenzepine"
 predicted_indications: ["gastroduodenitis", "irritable bowel syndrome"]

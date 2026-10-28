@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 554
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"

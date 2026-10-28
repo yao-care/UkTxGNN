@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Arginine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]

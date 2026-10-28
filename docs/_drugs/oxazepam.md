@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
 predicted_indications: ["insomnia (disease)"]

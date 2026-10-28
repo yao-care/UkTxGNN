@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Chenodeoxycholic Acid: predicted new indication homozygous familial hypercholesterolemia (evidence level L4). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones)"
 monitor_inn: "Chenodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]

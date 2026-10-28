@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Oxitriptan: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Oxitriptan"
 predicted_indications: ["insomnia (disease)"]

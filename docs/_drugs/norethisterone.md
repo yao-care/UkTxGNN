@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Norethisterone: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]

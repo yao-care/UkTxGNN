@@ -5,7 +5,7 @@ layout: default
 title: Piracetam
 parent: Known Uses Only (No New Predictions)
 nav_order: 501
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Piracetam: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Piracetam"
 predicted_indications: []

@@ -5,7 +5,7 @@ layout: default
 title: Nitazoxanide
 parent: Known Uses Only (No New Predictions)
 nav_order: 448
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-28
 description: "Nitazoxanide: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Nitazoxanide"
 predicted_indications: []

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Acrivastine: predicted new indication Recalcitrant atopic dermatitis (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
