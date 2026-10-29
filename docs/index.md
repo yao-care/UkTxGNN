@@ -7,6 +7,50 @@ title: UkTxGNN - UK Drug Repurposing Predictions
 
 Drug repurposing predictions for the United Kingdom using the TxGNN graph neural network.
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## United Kingdom: what this site covers
+
+This site publishes reports for **{{ site.data.drug_stats.total_drugs }}** medicines listed in the registration data of [MHRA](https://www.gov.uk/mhra) (United Kingdom).
+
+Reports by evidence level: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Highest evidence levels on this site
+
+| Medicine | Evidence level |
+|---|---|
+| [Bromfenac](/drugs/bromfenac/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Nepafenac](/drugs/nepafenac/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Ribavirin](/drugs/ribavirin/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Salmeterol](/drugs/salmeterol/) | L1 |
+| [Tiotropium](/drugs/tiotropium/) | L1 |
+| [Tizanidine](/drugs/tizanidine/) | L1 |
+| [Letrozole](/drugs/letrozole/) | L1 |
+
+### Medicines covered only by this site among the 30 TxGNN sites
+
+| Medicine | Evidence level |
+|---|---|
+| [Fenbufen](/drugs/fenbufen/) | L1 |
+| [Indoramin](/drugs/indoramin/) | L3 |
+| [Methysergide](/drugs/methysergide/) | L3 |
+| [Pirenzepine](/drugs/pirenzepine/) | L3 |
+| [Diethylstilbestrol](/drugs/diethylstilbestrol/) | L4 |
+| [Sulfapyridine](/drugs/sulfapyridine/) | L5 |
+| [Sulfinpyrazone](/drugs/sulfinpyrazone/) | L5 |
+| [Dihydrotachysterol](/drugs/dihydrotachysterol/) | L5 |
+| [Oxandrolone](/drugs/oxandrolone/) | L5 |
+| [Gamolenic Acid](/drugs/gamolenic-acid/) | L5 |
+| [Meptazinol](/drugs/meptazinol/) | L5 |
+| [Cholesterol](/drugs/cholesterol/) | N/A |
+| [Ethanolamine Oleate](/drugs/ethanolamine-oleate/) | N/A |
+| [Etilefrine](/drugs/etilefrine/) | N/A |
+| [Metipranolol](/drugs/metipranolol/) | N/A |
+
+<!-- local-home:end -->
+
 ## Overview
 
 UkTxGNN uses graph neural networks to identify potential new therapeutic uses for existing drugs authorised by the UK Medicines and Healthcare products Regulatory Agency (MHRA).
