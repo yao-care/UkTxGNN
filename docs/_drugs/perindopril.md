@@ -53,7 +53,7 @@ but the data compiled for this report contain **no clinical trials** and **no di
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (preclinical or mechanistic evidence only; see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (4 of 4) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 4 (valid: 4) |
+| Number of BNF Presentation Codes | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 *Note: The only publication linked to this indication is an observational study on renal cancer, which is not relevant to perindopril. Strictly, the evidence for this prediction is closer to L5 (model prediction only).*

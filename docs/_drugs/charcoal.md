@@ -53,7 +53,7 @@ A full repurposing evaluation cannot be completed in the current state; this rep
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no predictions or supporting studies present |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

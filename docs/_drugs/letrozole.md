@@ -52,7 +52,7 @@ Breast cancer is in fact an established use of letrozole, so this is better read
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

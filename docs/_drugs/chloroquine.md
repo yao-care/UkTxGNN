@@ -49,7 +49,7 @@ Chloroquine is an antimalarial that is also used in rheumatoid arthritis and lup
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 *Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*

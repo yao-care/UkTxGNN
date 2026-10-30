@@ -52,7 +52,7 @@ The TxGNN model gives its highest prediction score to **renal cell carcinoma ass
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 for the top-ranked prediction (model prediction only). Other predictions range from L2 to L5 (see below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold for the top-ranked prediction. Research Question for liposarcoma, unclassified RCC, fibroblastic neoplasm and DFSP |
 
 **Summary of the ten predicted indications**

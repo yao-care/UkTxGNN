@@ -52,7 +52,7 @@ The TxGNN model predicts it may be useful for **septicaemic plague**. The suppor
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The evidence level is L5 because no cited study directly examines septicaemic plague in humans. The retrieved publications are animal and in vitro studies of *Yersinia pestis* (the cause of plague). The pipeline's own preliminary grading was L4, but under the ceiling rule L5 applies.

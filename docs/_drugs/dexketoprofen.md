@@ -53,7 +53,7 @@ Among the other predictions, **migraine disorder** has by far the strongest evid
 | TxGNN Prediction Score | 0.9990 (tendinitis); 0.9987 (migraine disorder) |
 | Evidence Level | L5 (tendinitis); L1 (migraine disorder) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (tendinitis); Proceed with Guardrails (migraine disorder) |
 
 ---

@@ -52,7 +52,7 @@ The TxGNN model (deep learning) predicts it may be effective for **polyclonal hy
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

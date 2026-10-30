@@ -53,7 +53,7 @@ Direct evidence for fluocinonide in the predicted indication is very limited.
 | TxGNN Prediction Score | 0.9961 (alopecia mucinosa); 0.9959 (alopecia areata) |
 | Evidence Level | L5 for alopecia mucinosa (model prediction only); L4 for alopecia areata (indirect evidence only) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (alopecia mucinosa); Hold, framed as a research question (alopecia areata) |
 
 ---

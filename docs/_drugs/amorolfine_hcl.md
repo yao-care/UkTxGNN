@@ -53,7 +53,7 @@ A complete repurposing evaluation **cannot be performed** until these gaps are r
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model returned no predictions |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **⚠️ Data Integrity Note:** Amorolfine 5% nail lacquer (brand name **Loceryl**, Galderma) holds an established MHRA marketing authorisation in the United Kingdom for the treatment of mild-to-moderate onychomycosis. The Evidence Pack's record of zero UK licences appears to reflect a data pipeline error — likely a query against the Taiwan TFDA register rather than the MHRA register — rather than the true UK regulatory position. This must be corrected before any formal evaluation proceeds. Please verify at [MHRA Product Licence Register](https://products.mhra.gov.uk/).

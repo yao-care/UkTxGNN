@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **bronchitis** (in the data, ma
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L1 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** The compiled data assigns L2 to this specific prediction. By the standard rules, one completed Phase 3 RCT (NCT00076973, n=1,125) would not meet L1, which requires at least two. Because trial results are not summarised in the data, I have used L2 as the more defensible grading. The Quick Overview figure above should therefore be read as **L2**.

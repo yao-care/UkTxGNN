@@ -51,7 +51,7 @@ Support is weak: **0 clinical trials** and **1 publication** (an in vitro suscep
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The evidence level is L5. The only publication is an in vitro study of HIV-2, SIV and SHIV susceptibility to anti-HIV-1 compounds. It does not directly study SIV infection as a treatment indication for abacavir in a way that supports a higher level.

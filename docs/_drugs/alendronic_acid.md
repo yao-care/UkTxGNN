@@ -51,7 +51,7 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — No predictions generated |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 > ⚠️ **Data Quality Notice**: This Evidence Pack is materially incomplete. Alendronic acid (DrugBank DB00630) is a well-established bisphosphonate with multiple MHRA-authorised products in the UK (e.g., Fosamax, and numerous generics). The absence of licensing records and original indication data in the Evidence Pack strongly suggests a data ingestion failure upstream, rather than a true absence of authorisation. This must be investigated and corrected before any repurposing analysis is meaningful.

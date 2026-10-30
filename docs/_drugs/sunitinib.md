@@ -53,7 +53,7 @@ The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appea
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---

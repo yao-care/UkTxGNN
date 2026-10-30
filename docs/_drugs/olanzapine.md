@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **Agoraphobia** (the highest-ra
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 **Note on prediction choice:** The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9954), has no trials or literature (L5) and raises safety concerns for antipsychotic use in infants, so it is not evaluated further here. Agoraphobia is the highest-ranked prediction with a body of supporting literature.

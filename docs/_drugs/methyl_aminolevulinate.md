@@ -53,7 +53,7 @@ This report therefore focuses on acne and briefly compares the other predictions
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (acne) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold for hereditary haemochromatosis; Proceed with Guardrails (research question only) for acne |
 
 ---

@@ -52,7 +52,7 @@ Evidence Level: **L4** | Predicted Indications: **9**
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (genetic and observational evidence only; no interventional studies) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

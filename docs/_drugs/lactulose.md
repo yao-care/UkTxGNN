@@ -52,7 +52,7 @@ The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly t
 | TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for the top-ranked acute urate nephropathy |
 | Evidence Level | L5 (obstructive jaundice) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; no registered trials, evidence limited to small, older or preclinical studies) |
 
 **Note on selection:** The highest-scoring prediction, acute urate nephropathy (0.9989), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.

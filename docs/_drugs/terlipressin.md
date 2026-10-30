@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, sup
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 **Note on the top-ranked predictions:** The highest-scoring predictions were open-angle glaucoma (0.9978) and primary hereditary glaucoma (0.9977). Both have no trials or literature and no plausible mechanism, so they are not pursued here. Pulmonary hypertension is the highest-ranked prediction with any supporting literature, so it is the focus of this report. The other predictions (kyphoscoliotic heart disease, esotropia, headache disorder, hyperthyroidism, trigeminal autonomic cephalalgia and the remaining glaucoma entries) are model outputs only and are all rated Hold at evidence level L5.

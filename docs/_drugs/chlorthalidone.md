@@ -49,7 +49,7 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (4 of 4) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 4 (valid: 4) |
+| Number of BNF Presentation Codes | 4 (valid: 4) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ but the supporting evidence is limited to **2 animal studies** and **no clinical
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 on the strict rules above (no clinical trials; animal studies only). The source data labels this L3, but the supporting studies are preclinical animal studies rather than observational studies or systematic reviews. |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

@@ -51,7 +51,7 @@ with **2 clinical trials** (one completed Phase 3) and **20 publications** curre
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 in the scoring data rests on one completed Phase 3 trial plus one completed Phase 4 trial for seborrheic dermatitis. Strictly, the L1 rule asks for two or more completed Phase 3 RCTs, so this level should be regarded as provisional until trial results are reviewed.

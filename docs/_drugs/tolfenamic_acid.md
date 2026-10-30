@@ -53,7 +53,7 @@ This prediction largely overlaps with the existing migraine use, so it is not a 
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 ---

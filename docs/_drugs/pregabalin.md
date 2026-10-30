@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **tendinitis**, but there are *
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (mechanistic plausibility only; no tendinitis-specific studies) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -51,7 +51,7 @@ with **17 clinical trials** and **19 publications** currently supporting this di
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 3 (valid: 3) |
+| Number of BNF Presentation Codes | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Several completed Phase 3/4 trials and multiple systematic reviews and meta-analyses exist. However, most of the compiled trials are small, are paediatric or emergency-department studies, and use parenteral or intranasal ketorolac rather than the oral or ophthalmic products authorised here. The L1 grade should be read with that caveat.

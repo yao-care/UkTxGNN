@@ -50,7 +50,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (retinal dystrophy); L4 (treatment-refractory schizophrenia) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

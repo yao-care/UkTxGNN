@@ -53,7 +53,7 @@ This report focuses on that top-evidence candidate. Other predictions are summar
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Under the strict rule (at least two completed Phase 3 RCTs), the evidence is closer to L2. There is one completed Phase 2/3 RCT (n=268), plus a small recruiting Early Phase 1 trial. The L1 label comes from the upstream scoring and should be read with caution.

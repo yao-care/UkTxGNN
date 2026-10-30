@@ -51,7 +51,7 @@ Tizanidine is a centrally acting alpha-2 adrenergic agonist, marketed in the UK 
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L1 (as scored in the compiled data; see the note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on evidence level:** The L1 score is generous. L1 formally requires at least two completed Phase 3 RCTs. The only Phase 3 trial (NCT05484349) has an unknown status and no results. The supporting efficacy evidence is a single older placebo-controlled RCT in chronic daily headache. On a strict reading, the evidence is closer to L2 to L3. The "Proceed with Guardrails" decision should be read in that light.

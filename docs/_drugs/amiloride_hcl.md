@@ -53,7 +53,7 @@ Amiloride HCL is a well-established potassium-sparing diuretic with a long clini
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not assessable — no predicted indication available |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Note:** Amiloride is a long-established compound that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at source, rather than a true absence from the UK market. This must be investigated before any regulatory conclusions are drawn.

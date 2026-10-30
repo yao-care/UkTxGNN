@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, wit
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The compiled data assigns L1, but by the stated criteria this is not supported. The only completed Phase 3 trial is a 20-patient single-arm study, and the second Phase 3 trial was terminated after 9 participants. Neither meets the bar of two completed Phase 3 RCTs. The supporting evidence is a Cochrane systematic review and other reviews, so L3 is the more defensible grade.

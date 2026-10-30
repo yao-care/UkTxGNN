@@ -52,7 +52,7 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **n
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (at least 20) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | at least 20 |
+| Number of BNF Presentation Codes | at least 20 |
 | Recommended Decision | Hold |
 
 ---

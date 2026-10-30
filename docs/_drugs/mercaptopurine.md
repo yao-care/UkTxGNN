@@ -53,7 +53,7 @@ with **15 clinical trials** and **20 publications** currently linked to this dir
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L2 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* several Phase 3 trials in acute promyelocytic leukaemia (APL) and acute myeloid leukaemia (AML) include mercaptopurine only as part of a combination regimen. They do not test it on its own. Under the grading rules this supports L2 at most, and the decision below is deliberately cautious.

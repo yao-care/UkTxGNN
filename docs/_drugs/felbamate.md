@@ -53,7 +53,7 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 | TxGNN Prediction Score | 0.9962 (trigeminal nerve neoplasm); 0.9918 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L4 (trigeminal neuralgia) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); trigeminal neuralgia remains a research question |
 
 ---

@@ -44,8 +44,8 @@ The TxGNN deep-learning model produced candidates for Levobunolol, but every can
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 2 |
-| Market status in the United Kingdom | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 ## Known uses among the model's candidates
 

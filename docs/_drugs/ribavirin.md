@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **chronic hepatitis B virus inf
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* NCT00114361 is a completed Phase 3 trial directly in HBeAg-negative chronic hepatitis B, and NCT03759782 is a Phase 3 trial of ribavirin in HBV, but its status is unknown. Only one directly relevant Phase 3 trial has a completed status, which on a strict reading falls short of the L1 criterion (two or more completed Phase 3 RCTs). That trial tests peginterferon plus ribavirin, so ribavirin's separate effect is not isolated. The level is therefore best treated as provisional and weaker than "L1" suggests.

@@ -53,7 +53,7 @@ The evidence is limited to small and mixed-design studies, so this remains an ea
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on selection:** Migraine disorder ranks first by TxGNN score, but its evidence is weaker (one very small trial of 10 participants and observational studies; recommendation: Research Question). Other candidates are summarised briefly at the end.

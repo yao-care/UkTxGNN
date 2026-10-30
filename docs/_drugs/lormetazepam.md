@@ -53,7 +53,7 @@ The more genuinely new predictions (such as anxiety and anxiety disorder) rest o
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Evidence level note: one Phase 3 comparator trial is completed (n=283), and a second was terminated early (n=33). Strictly, only one completed Phase 3 RCT is available, so the level is L2 rather than L1. The data compiled for this report assigned L1, which I have not adopted.*

@@ -51,7 +51,7 @@ No clinical trials are registered for this disease, and the two retrieved public
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (5 of 5) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 5 (valid: 5) |
+| Number of BNF Presentation Codes | 5 (valid: 5) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

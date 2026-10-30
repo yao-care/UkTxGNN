@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (6 of 6) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 6 (valid: 6) |
+| Number of BNF Presentation Codes | 6 (valid: 6) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

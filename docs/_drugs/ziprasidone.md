@@ -53,7 +53,7 @@ Several of the trials are small or exploratory, and only a few are randomised, p
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 The top-ranked prediction was trichotillomania (0.9983), but it has no supporting trials or literature, so it is rated L5 and Hold. Major affective disorder is the best-supported prediction, and this report focuses on it.

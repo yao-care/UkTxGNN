@@ -53,7 +53,7 @@ Amenorrhoea is better understood as an expected pharmacological effect of dienog
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (preclinical/mechanistic and indirect literature only; no clinical trials) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ---

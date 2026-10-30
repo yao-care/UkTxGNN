@@ -53,7 +53,7 @@ There are **no registered clinical trials** and **18 publications** (almost all 
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical only) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

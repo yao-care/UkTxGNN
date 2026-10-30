@@ -53,7 +53,7 @@ with **7 clinical trials** (mostly small, early-phase or mixed-tumour transplant
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (one completed Phase 2 trial, but melphalan is part of a combination regimen) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question only) |
 
 ---

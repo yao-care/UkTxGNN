@@ -51,7 +51,7 @@ Azelastine (DB00972) is a pharmaceutical compound submitted for drug repurposing
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no prediction generated |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **anxiety disorder**, with **8 
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (as graded in the data compiled for this report; see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade rests on completed Phase 3 trials, but these are OCD trials in which clomipramine is background therapy or part of the SRI class. They are not anxiety-disorder trials. Direct evidence for anxiety comes from the literature (see below), so the grade should be read cautiously.

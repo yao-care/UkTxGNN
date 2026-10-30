@@ -55,7 +55,7 @@ This report covers the top-ranked prediction and the best-supported alternative,
 | TxGNN Prediction Score | 0.9962 (rank 1); 0.9926 (rank 5 alternative) |
 | Evidence Level | L5 (rank 1); L4 (rank 5 alternative) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Research question only (rank 5 alternative) |
 
 ---

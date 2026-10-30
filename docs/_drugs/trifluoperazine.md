@@ -53,7 +53,7 @@ but there are **no registered clinical trials** and the **20 publications** comp
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and no trials are registered) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: the structured scoring in the data compiled for this report lists L4. In my assessment the literature contains no preclinical or mechanism study of trifluoperazine in mania, so L5 is the better fit under the grading rules. This should be confirmed at review.*

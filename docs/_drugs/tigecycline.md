@@ -46,8 +46,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for T
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 6 |
 | Evidence level | Not applicable |
-| Market status in the United Kingdom | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 ## Known uses recorded for this drug
 

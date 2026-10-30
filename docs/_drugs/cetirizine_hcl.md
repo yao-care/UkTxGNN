@@ -51,7 +51,7 @@ Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in t
 | TxGNN Prediction Score | Not yet available |
 | Evidence Level | L5 — no predictions generated |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 > **Note on UK Market Status:** The Evidence Pack records zero UK licences, but Cetirizine HCl is well established in the UK marketplace as both a prescription medicine and a Pharmacy (P) / General Sale List (GSL) product. This is a data pipeline gap, not an accurate reflection of the MHRA register. UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.

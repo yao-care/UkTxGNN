@@ -55,7 +55,7 @@ The model's top-ranked prediction, manic bipolar affective disorder, is not supp
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 (CPVT) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails (research question only; not for clinical use outside specialist care) |
 
 ---

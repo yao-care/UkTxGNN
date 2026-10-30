@@ -53,7 +53,7 @@ That evidence consists of **1 completed clinical trial** and **2 directly linked
 | TxGNN Prediction Score | 0.9913 (cardiovascular disease); leprosy 0.9980 |
 | Evidence Level | L5 (cardiovascular disease); L5 for all other predictions |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold (research question only) |
 
 ---

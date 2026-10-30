@@ -53,7 +53,7 @@ Evidence is limited to **3 small case-level reports** and **no registered clinic
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The three reports on hypotrichosis simplex are case reports or case-level combination-therapy studies. They would otherwise suggest L3, but the rules do not allow L1 to L4 here: the data compiled for this report contains no clinical trial and no controlled or observational study directly assessing minoxidil alone for this disease. I have therefore assigned L5 and treated the case reports as supportive anecdotes.

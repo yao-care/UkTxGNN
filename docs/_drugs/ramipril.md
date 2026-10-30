@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note: The data compiled for this report contain 9 ranked predictions. The top-ranked prediction has no supporting studies. The best-supported prediction is **cerebral artery occlusion** (L4, preclinical and one small clinical study); it is discussed under "Other Predictions" below.*

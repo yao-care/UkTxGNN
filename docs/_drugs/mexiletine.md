@@ -53,7 +53,7 @@ It has **no registered clinical trials** and **5 publications**, all small obser
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (observational studies and case series) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 
 **Note on the choice of indication:** The top-ranked predictions by score (hypertrichosis, nephrogenic syndrome of inappropriate antidiuresis, Ambras syndrome and others) have no supporting studies and no plausible mechanism. Headache disorder and migraine have the only direct clinical literature, so this report focuses on headache disorder.

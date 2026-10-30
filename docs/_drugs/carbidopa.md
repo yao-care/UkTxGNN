@@ -42,7 +42,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 > **Note on UK Market Status:** Carbidopa is not available as a standalone licensed medicine in the UK. It is commercially available only in fixed-dose combination products (e.g., co-careldopa / Sinemet®, and co-careldopa + entacapone / Stalevo®). The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.
 

@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **urethral disease**, a predict
 | TxGNN Prediction Score | 0.9917 (disease of retroperitoneum); 0.9915 (urethral disease) |
 | Evidence Level | L5 for disease of retroperitoneum; L4 for urethral disease |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (disease of retroperitoneum); Hold, treated as a research question (urethral disease) |
 
 ---

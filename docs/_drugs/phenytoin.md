@@ -50,7 +50,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The approved indication text was not available in the UK licence record, so the original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.

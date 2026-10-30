@@ -53,7 +53,7 @@ There are **no registered clinical trials** and **20 publications** (all preclin
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 The predicted indication is a non-human disease. The cited macaque studies directly examine SIV infection, but they are animal studies, not human clinical evidence. The evidence level is therefore conservatively set at L5 in line with the reporting rules, which reserve L1–L4 for studies directly supporting a human clinical use. The source scoring labelled this L4; this report does not adopt that level.

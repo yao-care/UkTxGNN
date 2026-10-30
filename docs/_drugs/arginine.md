@@ -51,7 +51,7 @@ Evidence is therefore limited to a model prediction plus a plausible mechanistic
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

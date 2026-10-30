@@ -50,7 +50,7 @@ The TxGNN model predicts it may be effective for **dermatitis** (the highest-ran
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (treat as a research question) |
 
 **Note on prediction selection:** The top-ranked prediction by TxGNN score was drug-induced osteoporosis (0.9998), followed by haemorrhagic disease of the newborn (0.9996). Neither has any trials or publications, so both remain at L5 with a Hold recommendation. This report focuses on dermatitis (rank 3), the highest-ranked prediction with any supporting data. The other seven predictions (ranks 4-10) also have no supporting evidence.

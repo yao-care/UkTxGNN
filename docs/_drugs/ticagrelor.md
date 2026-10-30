@@ -53,7 +53,7 @@ None of these studies has yet reported results showing that ticagrelor works in 
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on the evidence level.** The data compiled for this report scored this prediction as L1. That score does not hold up. The only Phase 3 trial directly studying intracranial atherosclerosis (CAPTIVA) is still ongoing and has no results. The other directly relevant trial is a small, non-phased pilot study. The directly relevant literature consists of a single-centre cohort study and a trial design paper. No completed Phase 3 RCT in this disease has been cited. A strict reading of the evidence rules therefore places this at **L5**, with the strongest signal being an ongoing Phase 3 trial. The larger body of RCT evidence for ticagrelor relates to coronary and other ischaemic disease, not to this prediction. I have also moved the recommendation from "Proceed with Guardrails" to "Hold" until results are available.

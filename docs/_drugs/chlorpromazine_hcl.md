@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 This is likely a data extraction error. Chlorpromazine (marketed as **Largactil®** by Sanofi) holds a current MHRA marketing authorisation in the United Kingdom for schizophrenia and related psychoses, and is listed in the BNF (Section 4.2.1). This discrepancy must be investigated and resolved before relying on the Evidence Pack for any regulatory decision.
 

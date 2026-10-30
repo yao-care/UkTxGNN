@@ -53,7 +53,7 @@ The evidence is mainly reviews and small older studies, so this remains a resear
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; Proceed with Guardrails only if supported by further evidence) |
 
 ---

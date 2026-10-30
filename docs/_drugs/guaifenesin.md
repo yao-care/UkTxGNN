@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction with no actual studies of guaifenesin for this indication; the single review only mentions guaifenesin within a decongestant combination) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ---

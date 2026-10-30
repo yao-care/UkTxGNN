@@ -49,7 +49,7 @@ Mycophenolate mofetil is an immunosuppressant that inhibits inosine monophosphat
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level: the L2 grading is not well supported by the trials listed. The only Phase 2 trials are a pilot of a different drug (DAPD) with MMF as an add-on arm, and a withdrawn study with no participants. The only randomised publication, in treatment-naive patients, is a small RCT from 2004. A more cautious reading is closer to L3.*

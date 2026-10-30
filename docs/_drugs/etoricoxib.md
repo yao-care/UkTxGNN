@@ -51,7 +51,7 @@ Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet, 
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Other predictions of note.** Headache disorder (score 0.9931) and trigeminal autonomic cephalalgia (score 0.9915) are supported by small case-level literature (L4, "Research Question"). They are the most evidence-supported of the ten predictions, even though they rank lower by score.

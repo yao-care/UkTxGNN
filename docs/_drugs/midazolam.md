@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 register
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 3 (valid: 3) |
+| Number of BNF Presentation Codes | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
 ---

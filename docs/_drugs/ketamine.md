@@ -49,7 +49,7 @@ Ketamine is an NMDA receptor antagonist with one oral solution authorisation rec
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade in the compiled data is generous. Only one Phase 3 trial (THINK, NCT03081416) is completed, and its results were not available to us. The other Phase 3 trial (KetHead) is still recruiting. Strictly applying the rule of at least two completed Phase 3 RCTs, the evidence is closer to L2. Please treat it as provisional.

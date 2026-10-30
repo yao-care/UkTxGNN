@@ -53,7 +53,7 @@ The evidence is therefore very limited.
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** the only publication for pseudomembranous conjunctivitis concerns adenoviral conjunctivitis, a related condition, and does not directly study the predicted disease. Under the evidence rules this is L5, although the underlying data compilation labelled it L4.

@@ -51,7 +51,7 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 2 (valid: 2) |
+| Number of BNF Presentation Codes | 2 (valid: 2) |
 | Recommended Decision | Hold |
 
 A second predicted indication, cold urticaria (score 0.9924, Evidence Level L5, Hold), is discussed briefly below.

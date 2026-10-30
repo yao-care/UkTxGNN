@@ -42,7 +42,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 This warrants independent verification against the MHRA Product Licence register, as bupropion-containing products have a known international regulatory footprint (e.g., Zyban for smoking cessation). It is possible that the data retrieval step failed or the query was submitted under a non-matching name variant ("BUPROPION HCL" vs "bupropion hydrochloride").
 

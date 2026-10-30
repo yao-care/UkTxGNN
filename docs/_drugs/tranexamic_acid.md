@@ -52,7 +52,7 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, but there are 
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Strictly, the grading rules would place this at L5 (model prediction only), because there are no clinical trials and only narrative reviews. L4 is retained here from the underlying assessment, but it rests on general pharmacology, not on studies of this indication.

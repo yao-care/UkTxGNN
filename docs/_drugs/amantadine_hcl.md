@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 |------|---------|
 | Original Indication | Not recorded in the local data |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 
 > **Note on Original Indication:** The Evidence Pack's `original_indications` array is empty and `drugbank_id` is null, preventing automated retrieval. From established pharmaceutical knowledge, amantadine is licensed in the UK (Symmetrel, Alliance Pharmaceuticals) for Parkinson's disease, drug-induced extrapyramidal reactions, and influenza A prophylaxis/treatment, and is listed in BNF section 4.9.1.
 

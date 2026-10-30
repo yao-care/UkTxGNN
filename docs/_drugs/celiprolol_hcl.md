@@ -53,7 +53,7 @@ As a result, **no evidence-based repurposing recommendation** can be made at thi
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction only (no predictions returned) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of Marketing Authorisations | 1 (valid: 1) |
+| Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 
 ---
