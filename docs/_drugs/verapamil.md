@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -54,7 +54,7 @@ This report covers the top-ranked prediction and the best-supported alternative,
 | Best-supported alternative | Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5) |
 | TxGNN Prediction Score | 0.9962 (rank 1); 0.9926 (rank 5 alternative) |
 | Evidence Level | L5 (rank 1); L4 (rank 5 alternative) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (rank 1); Research question only (rank 5 alternative) |
 

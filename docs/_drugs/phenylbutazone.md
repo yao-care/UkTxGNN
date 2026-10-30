@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 494
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Phenylbutazone: predicted new indication Rheumatoid arthritis (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Phenylbutazone"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
@@ -52,7 +52,7 @@ This is essentially a historical use rather than a genuinely new repurposing opp
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

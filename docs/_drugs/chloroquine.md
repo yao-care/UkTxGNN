@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L4). Approved use: Rheumatoid arthritis, systemic and discoid lupus erythe…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -48,7 +48,7 @@ Chloroquine is an antimalarial that is also used in rheumatoid arthritis and lup
 | Predicted New Indication | Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (valid licences: 2 of 2) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

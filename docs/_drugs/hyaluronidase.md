@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Hyaluronidase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not available in the UK licence data"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -54,7 +54,7 @@ The first-ranked TxGNN prediction (esotropia) has no clinical support. This repo
 | Predicted New Indication | Diabetic retinopathy (top-ranked prediction by TxGNN score: esotropia, which is unsupported) |
 | TxGNN Prediction Score | 0.9971 (diabetic retinopathy); 0.9989 (esotropia) |
 | Evidence Level | L5 (two completed Phase 3 trials; results not available) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only; verify published Phase 3 results first) |
 

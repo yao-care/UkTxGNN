@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 589
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Nonpapillary renal cell carcinoma, renal cell adenocarcinoma…"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -52,7 +52,7 @@ The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appea
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question; see Conclusion) |
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -54,7 +54,7 @@ UK regulatory records returned zero marketing authorisations, which is inconsist
 | Predicted New Indication | None — `predicted_indications` list is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; cannot be assessed |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 

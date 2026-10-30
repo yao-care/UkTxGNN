@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -52,7 +52,7 @@ Amenorrhoea is better understood as an expected pharmacological effect of dienog
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (preclinical/mechanistic and indirect literature only; no clinical trials) |
-| UK Market Status | Marketed (valid licences: 2 of 2) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold |
 

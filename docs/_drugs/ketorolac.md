@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ with **17 clinical trials** and **19 publications** currently supporting this di
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Marketed (valid licences: 3 of 3) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Proceed with Guardrails |
 

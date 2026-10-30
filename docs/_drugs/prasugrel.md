@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Prasugrel: predicted new indication Migraine disorder (evidence level L3). Approved use: Acute coronary syndrome"
 monitor_inn: "Prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the high
 | Predicted New Indication | Migraine disorder (the top-ranked prediction, pulmonary hypertension, has no direct supporting evidence, so migraine is evaluated here) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (research question only) |
 

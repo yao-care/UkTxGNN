@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 predicted_indications: []
 ---
 
@@ -52,7 +52,7 @@ Selegiline HCl is a selective monoamine oxidase B (MAO-B) inhibitor, widely reco
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (model prediction only — not yet generated) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | **Hold** |
 

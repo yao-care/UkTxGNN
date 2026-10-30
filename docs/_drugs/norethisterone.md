@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 453
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Norethisterone: predicted new indication amenorrhea (evidence level L4). Approved use: Endometriosis, primary ovarian failure, postmenopausal osteoporosis…"
 monitor_inn: "norethisterone"
 predicted_indications: ["amenorrhea (disease)"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinic
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

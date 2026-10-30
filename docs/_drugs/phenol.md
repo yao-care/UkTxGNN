@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -52,7 +52,7 @@ This is a model prediction with very limited supporting evidence.
 | Predicted New Indication | Acne keloid (the highest-ranked prediction, acrodermatitis chronica atrophicans, has no supporting evidence and no plausible mechanism, so the best-supported prediction is used for this report) |
 | TxGNN Prediction Score | 0.9994 (acne keloid); the top-ranked prediction scored 0.9995 |
 | Evidence Level | L5 (acne keloid); L5 for the top-ranked prediction |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

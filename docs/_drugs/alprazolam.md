@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 41
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -52,7 +52,7 @@ The prediction is therefore best viewed as a hypothesis, not a supported indicat
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

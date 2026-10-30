@@ -5,7 +5,7 @@ layout: default
 title: Cinnarizine
 parent: Known Uses Only (No New Predictions)
 nav_order: 171
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 
 > **Note on UK Market Status:** Cinnarizine is in fact available in the United Kingdom (e.g. Stugeron, Cinnarizine 15 mg tablets — available over the counter for motion sickness and as a prescription medicine for vestibular disorders). The current dataset does not yet reflect MHRA marketing authorisation data. This data gap should be remediated before any further evaluation.

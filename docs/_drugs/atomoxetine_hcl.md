@@ -5,7 +5,7 @@ layout: default
 title: Atomoxetine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 79
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-30
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,7 +42,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 
 This is inconsistent with known regulatory information: atomoxetine (Strattera®, Eli Lilly) holds MHRA marketing authorisation for ADHD in children, adolescents, and adults, and is listed in the BNF (Chapter 4 — CNS stimulants and other drugs for ADHD). The MHRA regulatory data collection step should be re-run before this report is finalised.

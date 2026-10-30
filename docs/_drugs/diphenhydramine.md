@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -52,7 +52,7 @@ This report evaluates the best-supported prediction, rhinitis, and summarises th
 | Predicted New Indication | Rhinitis (rank 2; the rank 1 prediction, rosacea conjunctivitis, has no evidence) |
 | TxGNN Prediction Score | 0.9920 (rosacea conjunctivitis) |
 | Evidence Level | L5 (for rhinitis, per the data compiled for this report) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

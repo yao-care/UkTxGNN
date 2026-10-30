@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,7 +48,7 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 | Predicted New Indication | primary hereditary glaucoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (valid licences: 4 of 4) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (4 of 4) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 4 (valid: 4) |
 | Recommended Decision | Hold |
 

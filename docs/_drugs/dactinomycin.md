@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -51,7 +51,7 @@ The TxGNN model's top-ranked prediction is **relapsing-remitting multiple sclero
 | Predicted New Indication | Relapsing-remitting multiple sclerosis (top-ranked prediction) |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (top prediction); L3 for the rhabdomyosarcoma-related predictions |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (for relapsing-remitting multiple sclerosis) |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Narcolepsy (including narcolepsy with cataplexy)"
 monitor_inn: "Modafinil"
 predicted_indications: ["insomnia (disease)"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be relevant to **insomnia**, but the link is ind
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 (model prediction with only very weak supporting studies) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

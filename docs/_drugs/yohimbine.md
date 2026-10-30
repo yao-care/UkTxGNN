@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 657
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Yohimbine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the available data"
 monitor_inn: "Yohimbine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
@@ -52,7 +52,7 @@ The evidence is weak, and the pharmacology points in an unfavourable direction, 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Memantine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -49,7 +49,7 @@ The TxGNN model's most clinically supported prediction is **migraine disorder** 
 | Predicted New Indication | Migraine disorder (rank 2; selected because rank 1, pulmonary hypertension, has no supporting evidence) |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 (provisional; based on one small Phase 3 trial) |
-| UK Market Status | Marketed (valid licences: 2 of 2) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Proceed with Guardrails |
 

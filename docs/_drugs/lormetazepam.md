@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 381
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Lormetazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the dru…"
 monitor_inn: "Lormetazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
@@ -52,7 +52,7 @@ The more genuinely new predictions (such as anxiety and anxiety disorder) rest o
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L2 (see note below) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

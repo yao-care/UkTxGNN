@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: ["hereditary hemochromatosis", "seborrheic keratosis", "acne (disease)", "vulvar inverted follicular keratosis", "psoriasis", "common wart", "drug-induced osteoporosis", "pityriasis lichenoides", "Wilson disease", "iron metabolism disease"]
 description: "Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ This report therefore focuses on acne and briefly compares the other predictions
 | Predicted New Indication | Hereditary hemochromatosis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (acne) |
-| UK Market Status | Marketed (valid licences: 2 of 2) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 2 (valid: 2) |
 | Recommended Decision | Hold for hereditary haemochromatosis; Proceed with Guardrails (research question only) for acne |
 

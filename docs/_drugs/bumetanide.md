@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Congestive heart failure"
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **acute pulmonary heart disease
 | Predicted New Indication | Acute pulmonary heart disease |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (model prediction only; no studies specific to the predicted indication) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Oxandrolone: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Oxandrolone"
 predicted_indications: ["breast fibrocystic disease", "pituitary hormone defiency from vascular origin", "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome", "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations"]
@@ -50,7 +50,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

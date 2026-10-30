@@ -5,7 +5,7 @@ layout: default
 title: Acetarsol
 parent: Known Uses Only (No New Predictions)
 nav_order: 16
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Acetarsol: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Acetarsol"
 predicted_indications: []
@@ -43,7 +43,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 
 *Note: the approved indication text for the UK product was not available in the data compiled for this report.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sulfapyridine: predicted new indication heparin-induced thrombocytopenia (disease) (evidence level L5). Approved use: Dermatitis herpetiformis"
 monitor_inn: "Sulfapyridine"
 predicted_indications: ["heparin-induced thrombocytopenia (disease)", "hereditary angioedema", "hereditary angioedema with C1Inh deficiency", "acquired aplastic anemia", "C1 inhibitor deficiency", "autoimmune hemolytic anemia", "serpinopathy with toxic serpin polymerization", "disorder of GPI anchor biosynthesis", "hemoglobinuria", "venous insufficiency (disease)"]
@@ -49,7 +49,7 @@ The TxGNN model predicts it may be effective for **heparin-induced thrombocytope
 | Predicted New Indication | Heparin-induced thrombocytopenia |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

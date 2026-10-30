@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 337
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Indoramin: predicted new indication Benign prostatic hyperplasia (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (the…"
 monitor_inn: "Indoramin"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
@@ -50,7 +50,7 @@ with **no registered clinical trials** and **8 publications** (mostly reviews an
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

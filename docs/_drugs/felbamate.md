@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Felbamate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, partial epilepsy, Lennox-Gastaut syndrome"
 monitor_inn: "Felbamate"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,7 +52,7 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) |
 | TxGNN Prediction Score | 0.9962 (trigeminal nerve neoplasm); 0.9918 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L4 (trigeminal neuralgia) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); trigeminal neuralgia remains a research question |
 

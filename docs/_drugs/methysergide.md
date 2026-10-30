@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 405
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Methysergide: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the UK authorisation data (historically migraine pro…"
 monitor_inn: "Methysergide"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -50,7 +50,7 @@ There are **no registered clinical trials**, and the evidence consists of **19 p
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold |
 

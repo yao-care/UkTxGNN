@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Dexketoprofen: predicted new indication Tendinitis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -52,7 +52,7 @@ Among the other predictions, **migraine disorder** has by far the strongest evid
 | Predicted New Indication | Tendinitis (rank 1); migraine disorder (rank 6) has the strongest evidence |
 | TxGNN Prediction Score | 0.9990 (tendinitis); 0.9987 (migraine disorder) |
 | Evidence Level | L5 (tendinitis); L1 (migraine disorder) |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Hold (tendinitis); Proceed with Guardrails (migraine disorder) |
 

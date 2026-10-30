@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,7 @@ but there are currently **no registered clinical trials and no publications** su
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Marketed (valid licences: 3 of 3) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 

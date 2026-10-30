@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 413
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,7 +52,7 @@ with **no registered clinical trials** but **13 publications** (mostly case repo
 | Predicted New Indication | Urinary tract infection (disease) |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed (valid licences: 1 of 1) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |
 

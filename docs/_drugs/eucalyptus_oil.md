@@ -3,7 +3,7 @@ layout: default
 title: Eucalyptus Oil
 parent: Known Uses Only (No New Predictions)
 nav_order: 270
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Eucalyptus Oil: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -44,7 +44,7 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Eucalyptus O
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| Market status in the United Kingdom | Marketed (valid licences: 1 of 1) |
+| Market status in the United Kingdom | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 1 (valid: 1) |
 
 ## Known uses recorded for this drug

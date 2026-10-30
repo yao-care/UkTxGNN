@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -51,7 +51,7 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 register
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| UK Market Status | Marketed (valid licences: 3 of 3) |
+| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
 | Number of Marketing Authorisations | 3 (valid: 3) |
 | Recommended Decision | Hold |
 
