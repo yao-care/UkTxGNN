@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 monitor_inn: "L-Glutamine"
 predicted_indications: ["drug-induced osteoporosis", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "severe nonproliferative diabetic retinopathy", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -108,7 +108,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN scores are high, but the only dermatitis trial was withdrawn with no participants, and the supporting literature is preclinical or indirect (mostly supplement combinations in cancer-therapy skin toxicity). Evidence is L4 at best for dermatitis, and L5 for all other predictions. This is best treated as a research question rather than a candidate for clinical use.
+Evidence is L4 at best for dermatitis, and L5 for all other predictions. This is best treated as a research question rather than a candidate for clinical use.
 
 **To proceed, the following is needed:**
 - Mechanism-of-action data for L-glutamine
