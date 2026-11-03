@@ -4,17 +4,17 @@ title: Haloperidol
 parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Psychotic disorder (also schizophrenia, schizoaffective disor…"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Haloperidol"
-predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
+predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
+description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Haloperidol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-## Haloperidol: From Psychotic Disorder to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: Congenital disorder of glycosylation with defective fucosylation
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **congenital disorder of glycos
 
 | Item | Content |
 |------|------|
-| Original Indication | Psychotic disorder (also schizophrenia, schizoaffective disorder, schizophreniform disorder, Tourette syndrome) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
@@ -117,7 +117,7 @@ The prediction rests on a model score alone, with no trials, no literature and n
 - Detailed mechanism of action data for haloperidol
 - Review of the SmPC and BNF safety information against this rare-disease population
 
-**Note on other predictions for this drug:** Among the other predicted indications, only **manic bipolar affective disorder** (TxGNN score 0.9983) has substantial support. It has completed Phase 3 trials, including a placebo- and haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses (PMIDs 34642461, 39191865). That use is close to haloperidol's existing psychiatric indications rather than true repurposing, and it is rated "Proceed with Guardrails". Guardrails would include monitoring for extrapyramidal symptoms, QTc prolongation and tardive dyskinesia, and reviewing interactions before co-prescribing. The remaining predictions (retinal dystrophy, myopia variants and various congenital malformation syndromes) are rated Hold, mostly with no clinical evidence.
+It has completed Phase 3 trials, including a placebo- and haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses (PMIDs 34642461, 39191865). That use is close to haloperidol's existing psychiatric indications rather than true repurposing, and it is rated "Proceed with Guardrails". Guardrails would include monitoring for extrapyramidal symptoms, QTc prolongation and tardive dyskinesia, and reviewing interactions before co-prescribing. The remaining predictions (retinal dystrophy, myopia variants and various congenital malformation syndromes) are rated Hold, mostly with no clinical evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

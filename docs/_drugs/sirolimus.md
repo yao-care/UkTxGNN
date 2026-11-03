@@ -4,17 +4,17 @@ title: Sirolimus
 parent: High Evidence (L1-L2)
 nav_order: 570
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-30
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Sirolimus"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Sirolimus
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -117,7 +117,6 @@ The liposarcoma prediction has a high model score but rests on one single-arm co
 
 | Predicted Indication | Score | Evidence Level | Recommendation | Comment |
 |---|---|---|---|---|
-| **Lymphangiomyoma (LAM)** | 0.9979 | L5 | Proceed with Guardrails | Phase 3 MILES trial ([NCT00414648](https://clinicaltrials.gov/study/NCT00414648), n=89, completed) and an active Phase 3 early-disease trial ([NCT03150914](https://clinicaltrials.gov/study/NCT03150914)). Consistent with the original LAM indication, so on-label or near-label rather than true repurposing. |
 | Benign PEComa | 0.9980 | L5 | Research Question | Case reports and cohorts; mechanistically coherent (TSC1/TSC2 loss) |
 | Lung PEComa | 0.9963 | L5 | Research Question | Evidence mostly LAM-derived and indirect |
 

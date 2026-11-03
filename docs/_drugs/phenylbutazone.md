@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenylbutazone
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 494
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-30
-description: "Phenylbutazone: predicted new indication Rheumatoid arthritis (evidence level L3). Approved use: Not available in the data compiled for this report"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "Phenylbutazone"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "gout", "sclerosing cholangitis"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
+description: "Phenylbutazone: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Phenylbutazone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **5** 
+Evidence Level: **L5** | Predicted Indications: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L3** | Predicted Indications: **5**
 
 </div>
 
-## Phenylbutazone: From a Historical NSAID to Rheumatoid Arthritis
+## Phenylbutazone: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Phenylbutazone is a non-steroidal anti-inflammatory drug (NSAID) that is listed as marketed in the UK, although no approved indication text is available in the data compiled for this report.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with **0 registered clinical trials** and **20 publications** (mostly historical, 1950s to 1980s) supporting this direction.
 This is essentially a historical use rather than a genuinely new repurposing opportunity, and the drug carries serious haematological toxicity.
 
 ---
@@ -48,10 +47,10 @@ This is essentially a historical use rather than a genuinely new repurposing opp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9982 |
-| Evidence Level | L3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| TxGNN Prediction Score | 0.9971 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
@@ -62,9 +61,9 @@ This is essentially a historical use rather than a genuinely new repurposing opp
 
 Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, phenylbutazone is a non-selective COX-1/COX-2 inhibitor NSAID. Reducing prostaglandin-mediated inflammation is mechanistically relevant to symptom control in rheumatoid arthritis (pain, morning stiffness, joint swelling).
 
-The literature shows that phenylbutazone was used historically in rheumatoid arthritis, including double-blind dose-ranging work and a comparison with its metabolite monophenylbutazone. These studies concern symptom relief. The drug has largely been withdrawn from human use because of serious haematological toxicity (agranulocytosis, aplastic anaemia). The prediction therefore reflects an indication already known historically, not a new opportunity.
+These studies concern symptom relief. The drug has largely been withdrawn from human use because of serious haematological toxicity (agranulocytosis, aplastic anaemia). The prediction therefore reflects an indication already known historically, not a new opportunity.
 
-Other predicted indications were also reviewed. Gout (score 0.9918) has similar historical, symptom-based support. The remaining predictions (for example rare skeletal dysplasias and sclerosing cholangitis) have no identifiable mechanistic link and no clinical or literature evidence; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+Other predicted indications were also reviewed. The remaining predictions (for example rare skeletal dysplasias and sclerosing cholangitis) have no identifiable mechanistic link and no clinical or literature evidence; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 ---
 
@@ -126,7 +125,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists of historical, small, mostly pre-1990 studies with no registered trials, and the supporting literature does not suggest a new repurposing opportunity. Safer, better-tolerated NSAIDs and disease-modifying therapies are standard for rheumatoid arthritis, gout and osteoarthritis, and phenylbutazone's haematological toxicity outweighs any potential advantage.
+The evidence consists of historical, small, mostly pre-1990 studies with no registered trials, and the supporting literature does not suggest a new repurposing opportunity.
 
 **To proceed, the following is needed:**
 - Confirmation of the current UK licensed indication, dosage form and restrictions from the SmPC, BNF and MHRA register

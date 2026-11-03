@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Methysergide
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 405
-evidence_level: L3
-indication_count: 6
-last_modified_at: 2026-10-30
-description: "Methysergide: predicted new indication Migraine disorder (evidence level L3). Approved use: Not available in the UK authorisation data (historically migraine pro…"
+evidence_level: L5
+indication_count: 5
+last_modified_at: 2026-11-03
 monitor_inn: "Methysergide"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease"]
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease"]
+description: "Methysergide: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Methysergide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **6** 
+Evidence Level: **L5** | Predicted Indications: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,22 @@ Evidence Level: **L3** | Predicted Indications: **6**
 
 </div>
 
-## Methysergide: From Migraine Prophylaxis to Migraine Disorder (Historical Use, Not a True Repurposing)
+## Methysergide: Migraine with brainstem aura
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Methysergide is a semisynthetic ergot-derived serotonin receptor antagonist, historically used to prevent migraine.
-The TxGNN model predicts it may be effective for **migraine disorder**, which is largely a re-confirmation of its historical use rather than a new indication.
 There are **no registered clinical trials**, and the evidence consists of **19 publications**, mostly narrative reviews, alongside serious, well-documented fibrosis safety concerns.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the UK authorisation data (historically migraine prophylaxis) |
-| Predicted New Indication | Migraine disorder |
-| TxGNN Prediction Score | 0.9995 |
-| Evidence Level | L3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Migraine with brainstem aura |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |

@@ -4,17 +4,17 @@ title: Tioconazole
 parent: Model Prediction Only (L5)
 nav_order: 619
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-30
-description: "Tioconazole: predicted new indication Vulvovaginitis (evidence level L3). Approved use: Vulvovaginal candidiasis"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Tioconazole"
-predicted_indications: ["vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
+description: "Tioconazole: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Tioconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **3** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 </div>
 
-## Tioconazole: From Vulvovaginal Candidiasis to Vulvovaginitis
+## Tioconazole: Vulvitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Tioconazole is a topical imidazole antifungal, originally used to treat vulvovaginal candidiasis.
-The TxGNN model predicts it may be effective for **vulvovaginitis**, with **no registered clinical trials** but **20 publications** (mostly 1980s studies) in the data compiled for this report. Because vulvovaginitis largely overlaps with the existing candidal indication, this is closer to an on-label use than true repurposing.
+Because vulvovaginitis largely overlaps with the existing candidal indication, this is closer to an on-label use than true repurposing.
 
 ---
 
@@ -47,9 +47,9 @@ The TxGNN model predicts it may be effective for **vulvovaginitis**, with **no r
 
 | Item | Content |
 |------|------|
-| Original Indication | Vulvovaginal candidiasis |
-| Predicted New Indication | Vulvovaginitis |
-| TxGNN Prediction Score | 0.9923 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vulvitis |
+| TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **vulvovaginitis**, with **no r
 
 Detailed mechanism of action data is not available in the DrugBank record compiled for this report. From pharmacology data, tioconazole is known to inhibit fungal lanosterol 14-alpha-demethylase (CYP51/ERG11), the enzyme that converts lanosterol to ergosterol. Without ergosterol, the fungal cell wall cannot be maintained and the organism cannot survive. Tioconazole also inhibits the human enzyme CYP8B1, which is involved in bile acid biosynthesis.
 
-Vulvovaginal candidiasis is a form of vulvovaginitis, so the predicted indication is largely the same clinical entity as the original one. The prediction is therefore plausible, but it adds little new therapeutic scope. It does not extend to non-fungal causes of vulvovaginitis, such as atrophic or viral causes, where an antifungal mechanism would not apply.
+The prediction is therefore plausible, but it adds little new therapeutic scope. It does not extend to non-fungal causes of vulvovaginitis, such as atrophic or viral causes, where an antifungal mechanism would not apply.
 
 ---
 
@@ -121,7 +121,6 @@ The evidence is L3: there are older randomised and comparative studies in vagina
 - Modern, registered trial data if a genuinely new use is pursued
 
 **Other predictions in the data, for context:**
-- **Trichomonal vulvovaginitis** and **fungal infectious disease** (mainly onychomycosis with laser-assisted topical tioconazole): limited supporting studies, worth further research questions.
 - **Tinea nigra**: mechanistically plausible from class effect, but no tioconazole-specific evidence.
 - **Atrophic vaginitis**: model prediction only, with no plausible mechanism or evidence; not recommended for follow-up.
 ## Disclaimer

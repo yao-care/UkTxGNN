@@ -4,17 +4,17 @@ title: Alprazolam
 parent: Moderate Evidence (L3-L4)
 nav_order: 41
 evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-30
-description: "Alprazolam: predicted new indication insomnia (disease) (evidence level L4). Approved use: Anxiety disorder"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Alprazolam"
-predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
+description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Alprazolam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **3** 
+Evidence Level: **L4** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **3**
 
 </div>
 
-## Alprazolam: From Anxiety Disorder to insomnia (disease)
+## Alprazolam: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,8 +48,8 @@ The prediction is therefore best viewed as a hypothesis, not a supported indicat
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder; anxiety; mixed anxiety and depressive disorder (no indication text is recorded on the UK authorisation, so these come from the knowledge-graph indication data) |
-| Predicted New Indication | Insomnia |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
@@ -129,7 +129,7 @@ The insomnia prediction rests on a model score and general class pharmacology, w
 - Confirmation of the UK-licensed indications and SmPC warnings and contraindications
 - A risk-benefit assessment covering dependence, withdrawal, falls and interactions, particularly in older adults
 
-For context, the same data identified **agoraphobia** (score 0.9956) as a prediction with more direct evidence. It is supported by multiple controlled studies of alprazolam in panic disorder with agoraphobia, though mostly from 1985–1994. It sits close to the existing anxiety and panic use, so it is better seen as an extension of current use than as true repurposing. Current guidance also favours other first-line agents, so it would merit separate evaluation.
+It is supported by multiple controlled studies of alprazolam in panic disorder with agoraphobia, though mostly from 1985–1994. It sits close to the existing anxiety and panic use, so it is better seen as an extension of current use than as true repurposing. Current guidance also favours other first-line agents, so it would merit separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cyclophosphamide
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 195
-evidence_level: L2
-indication_count: 4
-last_modified_at: 2026-10-30
-description: "Cyclophosphamide: predicted new indication Myeloid leukaemia (evidence level L2). Approved use: Mycosis fungoides and variants, primary cutaneous T-cell lymphoma…"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Cyclophosphamide"
-predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "lymph node cancer"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Cyclophosphamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **4** 
+Evidence Level: **L5** | Predicted Indications: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **4**
 
 </div>
 
-## Cyclophosphamide: From Mycosis Fungoides and Other Lymphoid and Solid Cancers to Myeloid Leukaemia
+## Cyclophosphamide: Vertebral anomalies and variable endocrine and T-cell dysfunction
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be effective for **myeloid leukaemia**, with **3
 
 | Item | Content |
 |------|------|
-| Original Indication | Mycosis fungoides and variants, primary cutaneous T-cell lymphoma, plasma cell myeloma, neuroblastoma, lymphoma, breast carcinoma, retinoblastoma (no approved-indication text is available in the UK licence record) |
-| Predicted New Indication | Myeloid leukaemia |
-| TxGNN Prediction Score | 0.9947 |
-| Evidence Level | L2 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
+| TxGNN Prediction Score | 0.9938 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

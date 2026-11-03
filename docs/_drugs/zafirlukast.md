@@ -4,17 +4,17 @@ title: Zafirlukast
 parent: Model Prediction Only (L5)
 nav_order: 658
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-30
-description: "Zafirlukast: predicted new indication Bronchitis (evidence level L5). Approved use: Asthma (including intrinsic and allergic asthma). The UK authorisatio…"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Zafirlukast"
-predicted_indications: ["bronchitis", "obstructive lung disease"]
+predicted_indications: ["bronchitis"]
+description: "Zafirlukast: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Zafirlukast
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **2** 
+Evidence Level: **L5** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-## Zafirlukast: From Asthma to Bronchitis
+## Zafirlukast: Bronchitis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Zafirlukast is a cysteinyl leukotriene receptor antagonist, originally used to treat asthma.
 The TxGNN model predicts it may be effective for **bronchitis** (score 0.9993), but **no clinical trials or publications** were found for this indication, so the prediction rests on the model alone.
-A second prediction, obstructive lung disease, is supported by **18 publications** (mostly reviews) but no clinical trials.
 
 ---
 
@@ -48,7 +47,7 @@ A second prediction, obstructive lung disease, is supported by **18 publications
 
 | Item | Content |
 |------|------|
-| Original Indication | Asthma (including intrinsic and allergic asthma). The UK authorisation record contains no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
@@ -64,7 +63,7 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Asthma and bronchitis are both inflammatory airway conditions in which mucus hypersecretion and airway narrowing play a part. A mechanistic link is therefore plausible. However, this is a computational prediction only. The very high score may partly reflect the overlap between asthma and other airway diseases rather than genuine new-indication evidence. No primary data were available to verify the link.
 
-For context, the second-ranked prediction, **obstructive lung disease** (score 0.9917, evidence level L4), is supported by reviews such as the Busse et al. 1999 review of leukotriene pathway inhibitors in asthma and COPD. This evidence is indirect, and the prediction is largely explained by the existing asthma indication.
+This evidence is indirect, and the prediction is largely explained by the existing asthma indication.
 
 ---
 
@@ -78,7 +77,7 @@ Currently no related clinical trials registered for bronchitis.
 
 Currently no related literature available for bronchitis.
 
-For reference, the literature retrieved for the second prediction (obstructive lung disease) includes the following. All are reviews or pharmacology overviews, and none are primary trials.
+All are reviews or pharmacology overviews, and none are primary trials.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|

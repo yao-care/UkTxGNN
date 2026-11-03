@@ -4,17 +4,17 @@ title: Amiodarone
 parent: Moderate Evidence (L3-L4)
 nav_order: 52
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L4). Approved use: Ventricular fibrillation"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-## Amiodarone: From Ventricular Fibrillation to Catecholaminergic Polymorphic Ventricular Tachycardia
+## Amiodarone: Catecholaminergic polymorphic ventricular tachycardia
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -47,7 +47,7 @@ The TxGNN model predicts it may be effective for **catecholaminergic polymorphic
 
 | Item | Content |
 |------|------|
-| Original Indication | Ventricular fibrillation |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
@@ -133,7 +133,7 @@ The CPVT prediction rests on model score and phenotype similarity alone. There a
 - Label-based warnings and contraindications, and the licensed indication text for the UK authorisation
 - A specialist-led safety monitoring plan (ECG, thyroid, liver and lung monitoring)
 
-**Note:** The data compiled for this report show stronger support for amiodarone in **ventricular tachycardia** (TxGNN score 0.9964, Evidence Level L1). That evidence includes completed Phase 3 trials such as ALPS (3,024 patients) and AVID, and it is a near-label use. It may be a more productive candidate for further evaluation, with guardrails for pulmonary, thyroid, hepatic and ocular toxicity, QT prolongation and bradycardia.
+That evidence includes completed Phase 3 trials such as ALPS (3,024 patients) and AVID, and it is a near-label use. It may be a more productive candidate for further evaluation, with guardrails for pulmonary, thyroid, hepatic and ocular toxicity, QT prolongation and bradycardia.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

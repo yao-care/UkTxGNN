@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Model Prediction Only (L5)
 nav_order: 71
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-30
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-description: "Aripiprazole: predicted new indication Major affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Aripiprazole: Major affective disorder
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Aripiprazole is an atypical antipsychotic originally used for manic bipolar disorder, bipolar disorder, schizophrenia and autism-spectrum conditions.
-The TxGNN model predicts it may be effective for **major affective disorder** (in practice, adjunctive treatment in major depressive disorder), with **36 clinical trials** and **19 publications** currently supporting this direction.
 
 ---
 
@@ -48,8 +47,8 @@ The TxGNN model predicts it may be effective for **major affective disorder** (i
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | Major affective disorder |
-| TxGNN Prediction Score | 0.9962 |
+| Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
+| TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |

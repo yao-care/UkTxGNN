@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lormetazepam
-parent: High Evidence (L1-L2)
+parent: Model Prediction Only (L5)
 nav_order: 381
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Lormetazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the dru…"
+evidence_level: L5
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Lormetazepam"
-predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy"]
+predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
+description: "Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Lormetazepam
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-## Lormetazepam: From Insomnia to Insomnia (Sleep Initiation and Maintenance Disorders)
+## Lormetazepam: Alcohol withdrawal delirium
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -48,10 +48,10 @@ The more genuinely new predictions (such as anxiety and anxiety disorder) rest o
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data compiled for this report (the drug is a benzodiazepine hypnotic) |
-| Predicted New Indication | Insomnia |
-| TxGNN Prediction Score | 0.9998 |
-| Evidence Level | L2 (see note below) |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Alcohol withdrawal delirium |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 (see note below) |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Proceed with Guardrails |

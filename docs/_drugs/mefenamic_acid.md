@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-11-03
-description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **7** 
+Evidence Level: **L2** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,21 @@ Evidence Level: **L2** | Predicted Indications: **7**
 
 </div>
 
-## Mefenamic Acid: From Pain and Inflammation to Rheumatoid Arthritis
+## Mefenamic Acid: Headache disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is already marketed in the UK as an oral capsule.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, supported by **no registered clinical trials** but **several older double-blind trials among 20 publications** (1966-1979).
 This is closer to an on-class use of an NSAID than true repurposing, and the evidence supports symptom relief only, not disease modification.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the data compiled for this report |
-| Predicted New Indication | Rheumatoid arthritis |
-| TxGNN Prediction Score | 0.9973 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Headache disorder |
+| TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |

@@ -4,17 +4,17 @@ title: Flurbiprofen
 parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-30
-description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, arthropathy"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Flurbiprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "ankylosing spondylitis", "pseudoachondroplasia", "hypermobility of coccyx"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
+description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Flurbiprofen
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **9** 
+Evidence Level: **L5** | Predicted Indications: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-## Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
+## Flurbiprofen: Acromesomelic dysplasia, Hunter-Thompson type
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,7 +46,7 @@ There are currently **no clinical trials** and **no publications** supporting th
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (from knowledge-graph indication data; no indication text is recorded for the UK authorisation) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
@@ -107,7 +107,7 @@ The prediction has no supporting trials or publications, and no plausible mechan
 - Full safety data from the SmPC and BNF, given the cardiovascular, gastrointestinal, renal and hepatic cautions above
 - Complete UK authorisation details (indication text, dosage form, valid licence number)
 
-**Note on other predictions:** Among the other predicted indications for flurbiprofen, only **ankylosing spondylitis** (rank 8) has supporting literature. This includes several randomised, double-blind comparisons with indomethacin, phenylbutazone and naproxen from the 1970s and 1980s (for example [PMID 4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) and [PMID 3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/)). It sits at evidence level L3 and is better viewed as an extension within the NSAID class than as novel repurposing. It would be the more productive direction to evaluate, and its evidence should not be transferred to the indication reported here.
+This includes several randomised, double-blind comparisons with indomethacin, phenylbutazone and naproxen from the 1970s and 1980s (for example [PMID 4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) and [PMID 3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/)). It sits at evidence level L3 and is better viewed as an extension within the NSAID class than as novel repurposing. It would be the more productive direction to evaluate, and its evidence should not be transferred to the indication reported here.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

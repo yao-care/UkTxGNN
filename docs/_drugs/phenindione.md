@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Phenindione
-parent: Model Prediction Only (L5)
+parent: Known Uses Only (No New Predictions)
 nav_order: 489
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-30
-description: "Phenindione: predicted new indication Thrombotic disease (evidence level L3). Approved use: Not recorded in the UK licence data"
+last_modified_at: 2026-11-03
+description: "Phenindione: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Phenindione"
-predicted_indications: ["thrombotic disease"]
+predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Phenindione
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **N/A** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Phenindione: From Anticoagulation (Indication Not Recorded) to Thrombotic Disease
+## Phenindione
 {: .text-alpha }
-
-## One-Sentence Summary
-
-Phenindione is an indandione-class oral anticoagulant (a vitamin K antagonist), but no original indication is recorded in the data compiled for this report.
-The TxGNN model predicts it may be effective for **thrombotic disease**, which is effectively the drug's established use rather than a genuinely new indication.
-There are **no registered clinical trials** and **20 publications**, most of them historical (1950s to 1990s) and of low evidential strength.
-
----
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data |
-| Predicted New Indication | Thrombotic disease |
-| TxGNN Prediction Score | 0.9929 |
-| Evidence Level | L5 |
+| Original Indication | Not recorded in the local data |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
-| Recommended Decision | Hold |
-
----
-
-## Why is This Prediction Reasonable?
-
-Phenindione is an oral anticoagulant of the indandione class. It inhibits vitamin K epoxide reductase (VKORC1), which reduces the production of active vitamin K-dependent clotting factors II, VII, IX and X. This mechanism directly targets thrombus formation, which fits the very high TxGNN score.
-
-The prediction should be read with caution. Thrombotic disease is essentially the drug's established use, not a novel repurposing target. The high score therefore mostly reflects the model recovering known pharmacology. The gap is in the record: no original indication is listed, and the data compiled for this report contain no detailed mechanism entry.
-
-The pharmacology database entry also notes that phenindione was discontinued in some settings because of a higher incidence of severe adverse effects than warfarin, and that individual national agencies may have granted marketing authorisation.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-The publications are mostly historical case reports, clinical evaluations and general reviews. No randomised controlled trial specific to phenindione was identified. The table lists the most relevant items.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8037888](https://pubmed.ncbi.nlm.nih.gov/8037888/) | 1994 | Review | Drug Safety | Clinically significant drug interactions with oral anticoagulants, including indandione derivatives |
-| [41177211](https://pubmed.ncbi.nlm.nih.gov/41177211/) | 2026 | Systematic review | Contraception | Safety of contraception in women on anticoagulants (indirect, not specific to phenindione) |
-| [407865](https://pubmed.ncbi.nlm.nih.gov/407865/) | 1977 | Case series | Arch Mal Coeur Vaiss | 100 patients over 75 on long-term anticoagulation, with phenindione doses reduced with age |
-| [11907960](https://pubmed.ncbi.nlm.nih.gov/11907960/) | 2001 | Case report | Ann Dermatol Venereol | Hypersensitivity to fluindione, a related indandione; notes severe immuno-allergic complications reported with phenindione (hepatitis, renal failure, bone marrow failure) |
-| [13162792](https://pubmed.ncbi.nlm.nih.gov/13162792/) | 1954 | Case report | JAMA | Severe hypersensitivity reaction to phenindione |
-| [13572936](https://pubmed.ncbi.nlm.nih.gov/13572936/) | 1958 | Clinical evaluation | BMJ | Clinical evaluation of phenindione (Miradon) |
-| [13307153](https://pubmed.ncbi.nlm.nih.gov/13307153/) | 1956 | Review/commentary | J Med Assoc Ga | Early commentary describing phenylindanedione as a useful anticoagulant |
-| [2517317](https://pubmed.ncbi.nlm.nih.gov/2517317/) | 1989 | Case report | Nephrologie | Lupus anticoagulant with recurrent venous thrombosis in a patient on phenindione for 11 years |
-| [7843480](https://pubmed.ncbi.nlm.nih.gov/7843480/) | 1994 | Review | Int J Gynaecol Obstet | Low molecular weight heparin thromboprophylaxis in pregnancy (not specific to phenindione) |
 
 ---
 
@@ -112,19 +66,6 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 
 ---
 
-## Conclusion and Next Steps
-
-**Decision: Hold**
-
-**Rationale:**
-The prediction restates phenindione's established use as an anticoagulant rather than identifying a new indication. The supporting evidence is historical, low-level and largely case-based, with no registered trials. Required licence and safety information is also missing, and safety screening cannot proceed without it.
-
-**To proceed, the following is needed:**
-- The licensed indication and dosage form from the MHRA register or SmPC, to establish the original indication
-- Package insert warnings and contraindications from the BNF or SmPC
-- Mechanism of action data from DrugBank
-- A comparison with current anticoagulants (for example warfarin and direct oral anticoagulants) and with NICE guidance, to establish whether phenindione has any role today
-- A clear statement of whether the question is a true repurposing target or a record-completion exercise
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

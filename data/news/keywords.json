@@ -1,7 +1,7 @@
 {
   "generated": "2026-03-26",
   "drug_count": 37,
-  "indication_count": 271,
+  "indication_count": 270,
   "drugs": [
     {
       "slug": "cefpodoxime",
@@ -2283,18 +2283,6 @@
       "keywords": {
         "en": [
           "straddling or overriding tricuspid valve"
-        ],
-        "zh": []
-      },
-      "related_drugs": [
-        "alprostadil"
-      ]
-    },
-    {
-      "name": "tricuspid valve agenesis",
-      "keywords": {
-        "en": [
-          "tricuspid valve agenesis"
         ],
         "zh": []
       },

@@ -4,17 +4,17 @@ title: Sertraline
 parent: Model Prediction Only (L5)
 nav_order: 567
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 monitor_inn: "Sertraline"
-predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-10-30
+predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+last_modified_at: 2026-11-03
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -110,7 +110,7 @@ The high TxGNN score is a computational prediction only. There are no trials or 
 - Licensed indication and dosage form details for the UK authorisation
 - Review of the interaction burden and of the knowledge-graph contraindication signals (for example bipolar disorder and serotonin syndrome) before any use outside current indications
 
-**Note on other predictions:** In the same data set, agoraphobia (rank 6) has considerably more supporting literature, mainly sertraline studies in panic disorder with or without agoraphobia. It would be a more evidence-supported candidate to evaluate separately.
+It would be a more evidence-supported candidate to evaluate separately.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

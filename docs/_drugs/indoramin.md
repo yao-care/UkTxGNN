@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Indoramin
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 337
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-30
-description: "Indoramin: predicted new indication Benign prostatic hyperplasia (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (the…"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Indoramin"
-predicted_indications: ["benign prostatic hyperplasia (disease)", "hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
+predicted_indications: ["hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
+description: "Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Indoramin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-## Indoramin: From Hypertension to Benign Prostatic Hyperplasia
+## Indoramin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
@@ -46,10 +46,10 @@ with **no registered clinical trials** and **8 publications** (mostly reviews an
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data compiled for this report (the published literature describes use in hypertension) |
-| Predicted New Indication | Benign prostatic hyperplasia |
-| TxGNN Prediction Score | 0.9997 |
-| Evidence Level | L3 |
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Hypertrichosis (disease) |
+| TxGNN Prediction Score | 0.9993 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |

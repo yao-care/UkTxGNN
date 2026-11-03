@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Moderate Evidence (L3-L4)
+parent: Model Prediction Only (L5)
 nav_order: 234
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 monitor_inn: "Dipyridamole"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-10-30
-description: "Dipyridamole: predicted new indication thrombotic disease (evidence level L4). Approved use: Not recorded in the local data"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **8** 
+Evidence Level: **L5** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Evidence Level: **L4** | Predicted Indications: **8**
 
 </div>
 
-## Dipyridamole: phosphodiesterase inhibitor and adenosine reuptake inhibitor → thrombotic disease
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## One-Sentence Summary
 
 Dipyridamole is an oral antiplatelet and vasodilator medicine that is currently marketed in the UK.
-The TxGNN model predicts it may be useful for **thrombotic disease**.
 The data compiled for this report contain **no registered clinical trials** for this broad indication and **20 publications**, mostly older narrative reviews on antiplatelet therapy.
 
 ## Quick Overview
@@ -47,9 +46,9 @@ The data compiled for this report contain **no registered clinical trials** for 
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| Predicted New Indication | thrombotic disease |
-| TxGNN Prediction Score | 0.9994 |
-| Evidence Level | L4 |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
+| TxGNN Prediction Score | 0.9989 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
