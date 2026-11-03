@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -161,6 +161,7 @@ Ipratropium and ipratropium/salbutamol are well established in COPD, and at leas
 | 8 | Tracheal disease | 0.9966 | L4 | Research question (preclinical evidence only) |
 | 9 | Anaphylaxis | 0.9938 | L4 | Hold (a case report shows the drug can trigger anaphylaxis) |
 | 10 | Food-dependent exercise-induced anaphylaxis | 0.9936 | L5 | Hold (model prediction only) |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

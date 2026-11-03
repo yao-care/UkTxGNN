@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Mefenamic Acid: predicted new indication Rheumatoid arthritis (evidence level L2). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
@@ -135,6 +135,7 @@ Several small double-blind trials show symptomatic benefit comparable to other N
 | Trigeminal autonomic cephalalgia | L5 | Speculative link; no studies |
 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | L5 | Likely a model artefact |
 | Brachydactyly-syndactyly syndrome | L5 | Likely a model artefact |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

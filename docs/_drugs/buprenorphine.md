@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 115
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -112,6 +112,7 @@ All were assessed as **Hold**:
 | Continuous spikes and waves during sleep | 0.9905 | L5 | Prediction only. Opioids can lower seizure threshold in some settings, a potential safety concern. |
 | Benign shuddering attacks | 0.9903 | L5 | Prediction only. The condition is benign and self-limiting, so an opioid would have an unfavourable risk-benefit balance. |
 | Extrapyramidal and movement disease | 0.9903 | L5 | Prediction only. A broad category, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

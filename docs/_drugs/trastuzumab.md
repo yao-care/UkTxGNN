@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -157,6 +157,7 @@ A large completed Phase 3 randomised adjuvant trial (n=3,270) and pivotal publis
 | Normal breast-like subtype of breast carcinoma | L4 | Hold | Typically HER2-low or negative; the only trial uses a different molecule and is not yet recruiting |
 | Malignant cutaneous granular cell skin tumour, ectomesenchymoma, HHV-8-related tumour, middle ear neuroendocrine tumour | L5 | Hold | Prediction only, with no supporting trials or literature |
 | Kidney pelvis sarcomatoid transitional cell carcinoma, prostatic urethra urothelial carcinoma | L5 | Research Question | HER2 is expressed in some urothelial carcinomas, so HER2 testing and biomarker-selected study would come first |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

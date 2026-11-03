@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 424
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -149,6 +149,7 @@ Only one large Phase 3 trial exists, and the supporting evidence is a mix of sma
 |------|------|------|------|
 | Atopic eczema | 0.9981 | L1 (compiled data); efficacy inconsistent, reviews report modest or uncertain benefit | Hold / research question |
 | Obstructive lung disease | 0.9934 | — | Proceed with Guardrails |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

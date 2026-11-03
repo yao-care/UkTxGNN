@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -145,6 +145,7 @@ The evidence for obstructive jaundice is limited to small, older clinical studie
 | Hyperphosphatemia | 0.9937 | L5 | Only a review of constipation in CKD; no evidence of phosphate lowering. Hold |
 | Exercise-induced malignant hyperthermia | 0.9914 | L5 | No data; no plausible mechanism. Hold |
 | Bile duct neoplasm | 0.9912 | L5 | Indirect perioperative gut-barrier literature only. Research question |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

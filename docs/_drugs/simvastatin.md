@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -151,6 +151,7 @@ Multiple completed Phase 3 trials in familial hypercholesterolaemia include simv
 | CETP deficiency | 0.9939 | L5 | Hold | Model prediction only |
 | ABri amyloidosis | 0.9913 | L5 | Hold | Model prediction only |
 | Neurodevelopmental disorder with ataxic gait and absent speech | 0.9910 | L5 | Hold | Model prediction only |
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

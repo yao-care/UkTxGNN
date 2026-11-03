@@ -3,7 +3,7 @@ layout: default
 title: Etilefrine
 parent: Known Uses Only (No New Predictions)
 nav_order: 264
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Etilefrine: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,6 +41,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 The TxGNN model has no candidate with a score of 0.99 or higher for Etilefrine, so there is currently no new predicted indication. No recorded uses for this drug are available in the data used for this page. The recorded uses are listed below, and the groups are empty.
 
 ## Quick overview
+
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
@@ -50,16 +51,19 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Etilefrine, 
 ## Known uses recorded for this drug
 
 ### Approved (supported by a licence or label)
+
 | Indication | Source |
 |------|------|
 | none | none |
 
 ### Related to an approved indication (same disease category)
+
 | Indication | Approved category |
 |------|------|
 | none | none |
 
 ### Relations recorded in the knowledge graph (no approval found)
+
 | Indication |
 |------|
 | none |
