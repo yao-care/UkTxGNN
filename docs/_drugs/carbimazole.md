@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Carbimazole"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -32,11 +32,6 @@ Evidence Level: **L5** | Predicted Indications: **2**
 ## Pharmacist Assessment Report
 
 </div>
-
-## Carbimazole: Antithyroid thionamide prodrug (thyroid hormone synthesis inhibitor) → Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta)
-{: .text-alpha }
-
-Note: the instructions state that for an English page the name is written once without parentheses. The title is therefore given as follows.
 
 ## Carbimazole: Antithyroid thionamide prodrug (thyroid hormone synthesis inhibitor) → Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta
 {: .text-alpha }
