@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Methysergide is a semisynthetic ergot-derived serotonin receptor antagonist, historically used to prevent migraine.
-There are **no registered clinical trials**, and the evidence consists of **19 publications**, mostly narrative reviews, alongside serious, well-documented fibrosis safety concerns.
+Methysergide is a serotonin receptor antagonist that is currently marketed in the UK.
+The TxGNN model predicts it may be useful for **migraine with brainstem aura**. The supporting evidence is indirect: no clinical trials are registered, and the available literature consists of reviews and one historical 1963 clinical series in general migraine prevention.
 
 ## Quick Overview
 
@@ -55,32 +55,27 @@ There are **no registered clinical trials**, and the evidence consists of **19 p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Based on the published literature, methysergide is a 5-HT2A/2B/2C receptor antagonist with partial 5-HT1 agonist activity. Serotonin is implicated in migraine pathophysiology, and 5-HT2 antagonists such as methysergide, pizotifen and cyproheptadine have been recognised as clinically effective in migraine prophylaxis.
+Detailed mechanism of action data are not available in the data compiled for this report. Methysergide is generally characterised as a 5-HT2 receptor antagonist, and serotonergic and platelet-based hypotheses of migraine fit with this pharmacology.
 
-The predicted indication is therefore not a new use. Methysergide was introduced decades ago for migraine prevention, and a 1963 clinical series reported excellent or good results in about 51% of 87 patients. The TxGNN prediction is consistent with this history, but it adds no new therapeutic information.
-
-Other predictions in the list are weaker. Migraine with brainstem aura and migraine susceptibility are subtypes or labels overlapping with migraine, so the same evidence applies only indirectly. Atrophoderma vermiculata, ulerythema ophryogenesis and kyphoscoliotic heart disease have no supporting studies or mechanistic rationale. Pulmonary hypertension has only preclinical, animal-based serotonin work, and methysergide is itself linked to pleuropulmonary and cardiac valvular fibrosis, so the safety profile argues against this use.
+Migraine with brainstem aura is a subtype of migraine, so evidence of a preventive effect in migraine more broadly might apply indirectly. However, none of the cited studies examines this subtype specifically. Methysergide has vasoconstrictive properties, which may call for caution in aura subtypes involving brainstem or vertebrobasilar symptoms.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The most relevant publications for migraine disorder are listed below. All are reviews or historical reports; no modern RCTs were identified.
+None of the publications below directly studies migraine with brainstem aura. They address migraine in general.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9793694](https://pubmed.ncbi.nlm.nih.gov/9793694/) | 1998 | Review | Cephalalgia | Methysergide is a 5-HT2 antagonist and 5-HT1 agonist; open and controlled studies support efficacy in migraine prophylaxis, possibly more so in resistant, high-frequency cases |
-| [22444161](https://pubmed.ncbi.nlm.nih.gov/22444161/) | 2012 | Review | Headache | Compares receptor profiles of dihydroergotamine, ergotamine, methysergide and sumatriptan; differences explain their side effects and limits on use |
-| [18644039](https://pubmed.ncbi.nlm.nih.gov/18644039/) | 2008 | Review | Cephalalgia | History of methysergide's development from serotonin research to migraine prophylaxis |
-| [14084702](https://pubmed.ncbi.nlm.nih.gov/14084702/) | 1963 | Historical clinical trial | Can Med Assoc J | 87 patients with frequent migraine; 50.6% had excellent or good results, with loss of effect in a few on long-term use |
-| [2045831](https://pubmed.ncbi.nlm.nih.gov/2045831/) | 1991 | Review | J Neurol | 5-HT2 antagonists including methysergide are effective in prophylaxis, although ketanserin appears ineffective |
-| [19683643](https://pubmed.ncbi.nlm.nih.gov/19683643/) | 2009 | Review | Lancet | Valvular heart disease was first linked to drugs through methysergide and ergotamine used for migraine prophylaxis |
-| [15962998](https://pubmed.ncbi.nlm.nih.gov/15962998/) | 2005 | Review | CNS Drugs | Ergot alkaloids, including methysergide, should be avoided in pregnancy |
-| [25217187](https://pubmed.ncbi.nlm.nih.gov/25217187/) | 2014 | Review | Eur J Clin Pharmacol | Reviews lactation risk of anti-migraine drugs |
-| [36147034](https://pubmed.ncbi.nlm.nih.gov/36147034/) | 2022 | Review | Front Pain Res | Notes methysergide was removed from use long ago because of safety concerns |
-| [1156159](https://pubmed.ncbi.nlm.nih.gov/1156159/) | 1975 | Case series | Arch Surg | Severe limb ischaemia in four patients taking methysergide or ergot for headache; most improved after stopping |
+| [14084702](https://pubmed.ncbi.nlm.nih.gov/14084702/) | 1963 | Historical clinical series | Canadian Medical Association Journal | Methysergide used for prevention in 87 patients with frequent severe migraine of several types; 50.6% reported excellent or good results, and effect waned in some patients on long-term use |
+| [16702838](https://pubmed.ncbi.nlm.nih.gov/16702838/) | 2006 | Review | Current Opinion in Neurology | Reviews migraine pathophysiology, including familial hemiplegic migraine mutations and cortical spreading depression |
+| [11139754](https://pubmed.ncbi.nlm.nih.gov/11139754/) | 2000 | Review | Revue Neurologique | Overview of prophylactic treatment of migraine and when to consider it |
+| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Review | Cephalalgia | Critical review of sumatriptan in migraine and cluster headache |
+| [21521208](https://pubmed.ncbi.nlm.nih.gov/21521208/) | 2011 | Review | Headache | Narrative history of migraine research from 1910 to 2010 |
+| [6373100](https://pubmed.ncbi.nlm.nih.gov/6373100/) | 1984 | Review | Clinical Pharmacy | Classification, mechanisms and management of headache types |
+| [2701286](https://pubmed.ncbi.nlm.nih.gov/2701286/) | 1989 | Review | Biomedicine & Pharmacotherapy | Review of the platelet hypothesis of migraine |
 
 ## UK Market Information
 
@@ -88,35 +83,34 @@ The most relevant publications for migraine disorder are listed below. All are r
 |---------|------|------|-----------|
 | 0407042L0AAAAAA | Methysergide Tab 1mg | Not specified | Not specified |
 
-Only one authorisation is recorded, and the data compiled for this report contain no dosage form or approved indication text. The record should be checked against the current MHRA register and the BNF before any conclusion about availability is drawn.
+The approved indication is not recorded in the local data. One valid single-ingredient licence is listed.
 
 ## Safety Considerations
 
-- **Key Warnings**: The literature documents retroperitoneal, pleuropulmonary and cardiac valvular fibrosis, which led to restricted use and withdrawal in many markets. Ergot-related arterial spasm and limb ischaemia have also been reported. Ergot alkaloids, including methysergide, should be avoided in pregnancy.
-- **Drug Interactions**: 98 interactions were identified. Major interactions include:
-  - Isometheptene
-  - Epinephrine (including topical)
-  - Ephedrine (including nasal)
-  - Lorcaserin
-  - Clarithromycin
+**Drug Interactions**: 98 interactions are recorded. Examples of those rated Major include:
+- Isometheptene
+- Epinephrine (including topical)
+- Lorcaserin
+- Clarithromycin
+- Ephedrine (including nasal)
 
-  Moderate interactions include doxycycline, tetracycline, minocycline, cimetidine, aprepitant, dexamethasone, fenfluramine, dexfenfluramine, sibutramine and the azole antifungals miconazole and clotrimazole.
+Moderate interactions include doxycycline, tetracycline, minocycline, aprepitant, dexamethasone, cimetidine, eluxadoline, fenfluramine, sibutramine and the azole antifungals miconazole and clotrimazole.
 
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+For other safety information, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction restates a historical use, supported only by reviews and old clinical series, with no registered trials. Fibrosis risk (retroperitoneal, pleuropulmonary, cardiac valvular) is serious, and many safer, better-evidenced prophylactic options exist. The remaining predicted indications have no or only indirect preclinical support.
+The prediction score is very high, but no study directly addresses migraine with brainstem aura, so the evidence level is L5. The only clinical data are a historical 1963 series in general migraine. The vasoconstrictive pharmacology also raises a specific concern for brainstem or vertebrobasilar aura.
 
 **To proceed, the following is needed:**
-- Confirmation of the current UK authorisation status, dosage form and approved indication
-- Mechanism of action data from a curated source
-- Full warnings and contraindications from the SmPC and BNF
-- A comparative benefit-risk assessment against current migraine prophylaxis options
-- If any use were pursued, a monitoring plan for fibrosis (clinical review, imaging and echocardiography) and defined treatment-free intervals
+- Mechanism of action data
+- Warnings and contraindications from the SmPC and BNF
+- Studies specific to migraine with brainstem aura, with attention to vascular safety
+- A fibrosis and cardiovascular safety review, given the known risk of pleuropulmonary and valvular fibrosis with methysergide
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

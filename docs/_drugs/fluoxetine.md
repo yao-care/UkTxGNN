@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
 last_modified_at: 2026-11-03
-description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Relations recorded in the knowledge graph : major depressive disorder…"
+description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Fluoxetine
@@ -33,20 +33,20 @@ Evidence Level: **L5** | Predicted Indications: **8**
 
 </div>
 
-## Fluoxetine: From Major Depressive Disorder to Paranoid Personality Disorder
+## Fluoxetine: Paranoid personality disorder
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) with known uses in depressive, anxiety, obsessive-compulsive and eating disorders. The TxGNN model (deep learning) predicts it may be useful in **paranoid personality disorder**, but **no clinical trials** and only **7 publications** were found, none of which tests fluoxetine in this condition. The prediction currently rests on the model score alone, which may reflect similarities the model learned between related diseases, not biological evidence.
-
----
+Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) antidepressant.
+The TxGNN model predicts it may be relevant to **paranoid personality disorder**,
+but there are **no registered clinical trials** and only **7 publications** (reviews and comorbidity studies, none testing fluoxetine in this disorder), so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Relations recorded in the knowledge graph (not licence text): major depressive disorder, bulimia nervosa, obsessive-compulsive disorder, anxiety disorder, bipolar disorder and others. The UK licence record compiled for this report contains no indication text. |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
@@ -54,37 +54,27 @@ Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) with known uses in
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Fluoxetine is known as an SSRI. Its efficacy in depression and related conditions is recorded in the knowledge graph. Mechanistically, it may plausibly apply to the anxiety, mood and impulsivity symptoms that often co-occur with personality disorders.
+Detailed mechanism of action data are not available in the data compiled for this report. Fluoxetine is an SSRI, and serotonergic modulation could plausibly influence anxiety, impulsivity and low mood, which often co-occur with cluster A personality disorders.
 
-Paranoid personality disorder belongs to the cluster A personality disorders, which also include schizoid and schizotypal disorders. Serotonergic modulation could affect some of the associated symptoms. However, no study identified here tests fluoxetine specifically in paranoid personality disorder. The available literature consists of reviews and comorbidity studies. These cover borderline personality disorder, depression with coexisting personality disorders, and a general review of drug treatment in cluster A disorders. The very high TxGNN score is a computational prediction, not clinical evidence.
-
-**Evidence level reasoning:** The pack's own scoring lists L4. Under the evidence rules, L1 to L4 require a study that directly addresses the predicted disease itself. The cluster A review is about drug treatment in this group of disorders but provides no fluoxetine-specific data for paranoid personality disorder. The evidence level is therefore L5.
-
----
+However, none of the publications identified studies fluoxetine specifically in paranoid personality disorder. The literature consists of a review of pharmacological treatment in cluster A personality disorders, reviews and cohort studies of borderline personality disorder, and studies of depression with co-existing personality disorders. The very high TxGNN score is a computational prediction only and is not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Reviews drug treatment in cluster A personality disorders (paranoid, schizoid, schizotypal). These patients tend to be isolated and have reduced quality of life. |
-| [36853245](https://pubmed.ncbi.nlm.nih.gov/36853245/) | 2023 | Review | JAMA | Review of borderline personality disorder, a different personality disorder. It affects about 0.7% to 2.7% of US adults and is linked to marked social and work impairment. |
-| [12524634](https://pubmed.ncbi.nlm.nih.gov/12524634/) | 2003 | Cohort | Comprehensive Psychiatry | Among 183 depressed patients in a randomised fluoxetine versus nortriptyline trial, 30 had borderline personality disorder. They had earlier, more chronic depression and more suicide attempts. |
-| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychological Medicine | Assessed personality disorder diagnoses in depressed outpatients before and after fluoxetine, looking at whether diagnostic change tracked depressive improvement. |
-| [17637578](https://pubmed.ncbi.nlm.nih.gov/17637578/) | 2000 | Cohort | CNS Spectrums | Social anxiety and premorbid personality disorders in paranoid schizophrenia patients treated with clozapine. This is a different condition and drug. |
-| [21371699](https://pubmed.ncbi.nlm.nih.gov/21371699/) | 2011 | Cohort | Comprehensive Psychiatry | Compared characteristics of depression starting in childhood, adolescence or adulthood. Not specific to this indication. |
-| [26703328](https://pubmed.ncbi.nlm.nih.gov/26703328/) | 2016 | Review | J Dev Behav Pediatr | Case-based discussion of psychiatric diagnoses in polycystic ovarian syndrome. Not specific to this indication. |
-
----
+| [29955451](https://pubmed.ncbi.nlm.nih.gov/29955451/) | 2016 | Review | The Mental Health Clinician | Review of pharmacological treatment in cluster A personality disorders, which include paranoid personality disorder |
+| [36853245](https://pubmed.ncbi.nlm.nih.gov/36853245/) | 2023 | Review | JAMA | Review of borderline personality disorder; not specific to paranoid personality disorder |
+| [12214786](https://pubmed.ncbi.nlm.nih.gov/12214786/) | 2002 | Review | Psychological Medicine | Personality disorder diagnoses assessed in depressed outpatients before and after fluoxetine treatment |
+| [12524634](https://pubmed.ncbi.nlm.nih.gov/12524634/) | 2003 | Cohort | Comprehensive Psychiatry | Depressed patients in a fluoxetine versus nortriptyline trial, comparing those with borderline, other and no personality disorders |
+| [17637578](https://pubmed.ncbi.nlm.nih.gov/17637578/) | 2000 | Cohort | CNS Spectrums | Social anxiety and premorbid personality disorders in paranoid schizophrenia treated with clozapine |
+| [21371699](https://pubmed.ncbi.nlm.nih.gov/21371699/) | 2011 | Cohort | Comprehensive Psychiatry | Characteristics of childhood-, teenage- and adult-onset depression in a clinical sample |
+| [26703328](https://pubmed.ncbi.nlm.nih.gov/26703328/) | 2016 | Review | Journal of Developmental and Behavioral Pediatrics | Case-based discussion of psychiatric diagnoses and polycystic ovarian syndrome in an adolescent |
 
 ## UK Market Information
 
@@ -92,33 +82,24 @@ Currently no related clinical trials registered.
 |---------|------|------|
 | 0403030E0AAAAAA (identifier as listed; it is not in PL number format) | Fluoxetine hydrochloride capsules 20 mg | Capsule (taken from the product name) |
 
-No approved indication text, dosage form field or manufacturer is recorded in the licence data compiled for this report. This is a single-ingredient product.
-
----
-
 ## Safety Considerations
 
-- **Contraindication-type relations recorded in the knowledge graph** (these come from graph relations, not label text, and must be checked against the SmPC): multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver failure and liver disease, cirrhosis, epilepsy, bipolar disorder and major affective disorder, gallbladder disease, diabetes mellitus, hyperglycaemia, diabetic ketoacidosis, benign prostatic hyperplasia, neutropenia, agranulocytosis, blood coagulation disease, hyperlipidaemia and hypertriglyceridaemia, obesity disorders, female breast carcinoma, stroke and cerebrovascular disorders, cerebral infarction, myocardial infarction and coronary thrombosis.
-- **Drug interactions:** 100 interactions were recorded, and 20 were available for review. The **Major** ones are bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and cisapride. Moderate interactions include aspirin, morphine, clarithromycin, famotidine, loperamide, several laxatives and sulfonylureas (chlorpropamide, acetohexamide).
+- **Drug Interactions**: 100 interactions were found in the interaction database. Those graded Major include bupropion, lorcaserin, diethylpropion, dolasetron, eliglustat, palonosetron and cisapride. Moderate interactions include acetylsalicylic acid, morphine, clarithromycin, famotidine, loperamide and chlorpropamide.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- There are no registered trials and no fluoxetine-specific studies in paranoid personality disorder, so the evidence level is L5 and the high score is a model prediction only.
+No clinical trials and no fluoxetine-specific studies in paranoid personality disorder were found. The high TxGNN score is a computational signal only, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data to support the proposed link.
-- Fluoxetine-specific clinical studies in paranoid personality disorder, or at least in cluster A personality disorders.
-- Review of the SmPC warnings and contraindications, which are missing from the data compiled for this report.
-- A UK licence indication text and dosage form record.
+- Fluoxetine-specific clinical studies (ideally randomised controlled trials) in paranoid personality disorder
+- Detailed mechanism of action data
+- Safety review for psychosis-prone patients, given the limited and mixed data in related personality disorders
 
-**Note on other predictions:** Other predicted indications in the same data have stronger support and may be better priorities to evaluate. Agoraphobia has literature on panic disorder, including a network meta-analysis and fluoxetine-specific studies. Phobic disorder has a completed Phase 3 trial in childhood social phobia, though the fluoxetine arm needs confirming.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

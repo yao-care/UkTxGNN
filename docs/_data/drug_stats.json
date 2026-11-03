@@ -3,10 +3,10 @@
   "total_drugs": 583,
   "level_counts": {
     "L1": 13,
-    "L2": 20,
-    "L3": 17,
-    "L4": 37,
-    "L5": 452
+    "L2": 17,
+    "L3": 18,
+    "L4": 35,
+    "L5": 456
   },
   "all_drugs": [
     {
@@ -156,7 +156,7 @@
     {
       "name": "Alprazolam",
       "slug": "alprazolam",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 2
     },
     {
@@ -210,7 +210,7 @@
     {
       "name": "Amiodarone",
       "slug": "amiodarone",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -1950,7 +1950,7 @@
     {
       "name": "Mefenamic Acid",
       "slug": "mefenamic_acid",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 6
     },
     {
@@ -2382,7 +2382,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 9
     },
     {
@@ -2730,7 +2730,7 @@
     {
       "name": "Progesterone",
       "slug": "progesterone",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -2958,7 +2958,7 @@
     {
       "name": "Sirolimus",
       "slug": "sirolimus",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 6
     },
     {

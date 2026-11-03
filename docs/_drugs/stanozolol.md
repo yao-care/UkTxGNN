@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Stanozolol is an attenuated oral androgen, originally used to prevent attacks of hereditary angioedema, including angioedema with C1 inhibitor deficiency.
-Support comes from **18 publications** (mainly reviews, cohort studies and case reports) and **no registered clinical trials**.
+Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in the UK. The TxGNN model predicts it may be relevant to **serpinopathy with toxic serpin polymerization**. **No clinical trials or publications** support this prediction, so it rests on model output alone.
 
 ---
 
@@ -52,18 +51,15 @@ Support comes from **18 publications** (mainly reviews, cohort studies and case 
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of the class, stanozolol is a 17-alpha-alkylated androgen. It is thought to raise hepatic synthesis of C1 inhibitor and related complement components such as C4, which reduces the frequency of angioedema attacks.
+Detailed mechanism of action data is not currently available for stanozolol. It is an androgen-class steroid, and the model's high score most likely reflects its closeness to serpin-related biology in the underlying data network. A high score of this kind does not show a therapeutic effect.
 
-The predicted indication is not a true departure from the original one. The TxGNN score mainly confirms an association that is already established in practice.
-
-Published literature describes stanozolol as a prophylactic option alongside danazol. Newer targeted prophylactic therapies are now available and would be the natural comparators.
+The mechanistic link is also unclear and may point the wrong way. Androgens can increase the synthesis of some serpins. In a condition driven by toxic serpin polymer build-up, that effect could in theory worsen polymer accumulation. No study has tested this, so any benefit is unsupported.
 
 ---
 
@@ -75,18 +71,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25707325](https://pubmed.ncbi.nlm.nih.gov/25707325/) | 2015 | Systematic review | Ann Allergy Asthma Immunol | Critical appraisal of the risk-benefit ratio of long-term androgen use in hereditary angioedema |
-| [22729959](https://pubmed.ncbi.nlm.nih.gov/22729959/) | 2012 | Review | Curr Allergy Asthma Rep | Current options for treating acute attacks and for prophylaxis in HAE due to C1-INH deficiency |
-| [31826031](https://pubmed.ncbi.nlm.nih.gov/31826031/) | 2018 | Review | Allergologie Select | Update on treatment of acquired and hereditary recurrent angioedema |
-| [1869690](https://pubmed.ncbi.nlm.nih.gov/1869690/) | 1991 | Review | J Am Acad Dermatol | Prophylactic therapy is possible with danazol or stanozolol; acute attacks do not respond to antihistamines, corticosteroids or adrenergic drugs |
-| [26727765](https://pubmed.ncbi.nlm.nih.gov/26727765/) | 2015 | Cohort | J Investig Allergol Clin Immunol | Clinical pattern and acute and long-term management of HAE due to C1-INH deficiency |
-| [3146615](https://pubmed.ncbi.nlm.nih.gov/3146615/) | 1988 | Cohort | J Clin Chem Clin Biochem | Contact system and fibrinolysis evaluated at baseline, during attacks and during low-dose anabolic steroid prophylaxis |
-| [7892812](https://pubmed.ncbi.nlm.nih.gov/7892812/) | 1994 | Case series | Allergol Immunopathol | Three type II HAE cases treated with stanozolol; satisfactory clinical course with almost no attacks, but one patient had raised liver enzymes |
-| [23248378](https://pubmed.ncbi.nlm.nih.gov/23248378/) | 2012 | Case report | Indian J Dermatol | Type 1 HAE in a young man started on stanozolol 2 mg three times daily |
-| [18447143](https://pubmed.ncbi.nlm.nih.gov/18447143/) | 2008 | Case report | J Investig Allergol Clin Immunol | Woman with HAE stable on stanozolol, later found to have an associated acquired angioedema |
-| [3445878](https://pubmed.ncbi.nlm.nih.gov/3445878/) | 1987 | Family study | Allergol Immunopathol | Three families with C1-INH deficiency; antifibrinolytics and androgen derivatives effective for prevention and treatment |
+Currently no related literature available.
 
 ---
 
@@ -94,25 +79,24 @@ Currently no related clinical trials registered.
 
 | Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| 0604030T0AAACAC (BNF code; no PL number available) | Stanozolol tablets 2 mg | Tablet | Not stated in the data compiled for this report |
+| 0604030T0AAACAC (BNF code; no PL number available) | 1 (valid: 1) | Tablet | Not stated in the data compiled for this report |
 
-The BNF classification code (chapter 6, endocrine system) is shown in place of a PL number. Approved indication text, dosage form and manufacturer details were not available.
+The local data lists one valid single-ingredient authorisation, and no cancelled authorisations. The BNF classification code suggests the product sits in the anabolic steroid section (BNF chapter 6, endocrine system).
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (from knowledge graph, not label text)**: The TxGNN knowledge graph links stanozolol to contraindications in the following conditions:
-  - Liver disease and gallbladder disease
-  - Kidney disease, nephrotic syndrome and nephrocalcinosis
-  - Hypercalcaemia, including humoral hypercalcaemia of malignancy, and phosphorus metabolism disorders
-  - Heart disease, cardiovascular disease and coronary artery disease
-  - Prostate cancer and benign prostatic hyperplasia
-  - Diabetes mellitus and diabetic ketoacidosis
-- **Class-related risks**: Hepatotoxicity, virilisation, adverse lipid effects and teratogenicity are known risks of androgens. One case series in the literature reported raised liver enzymes after starting stanozolol.
-- **Drug Interactions**: 69 interactions are recorded. The main ones identified are:
-  - **Major**: carfilzomib
-  - **Moderate**: corticosteroids (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide), corticotropin and tetracosactide, ciclosporin, chlorpropamide, asparaginase products, clofarabine, brentuximab vedotin, cannabidiol, topical calcipotriol and calcitriol, and C1-esterase inhibitor products (human C1-esterase inhibitor and conestat alfa)
+- **Drug Interactions**: The data compiled for this report records 69 interacting drugs. Examples:
+  - **Major**: carfilzomib.
+  - **Moderate**: systemic and topical corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), corticotropin, tetracosactide, asparaginase products, brentuximab vedotin, cannabidiol, chlorpropamide, clofarabine, cyclosporine, and topical vitamin D analogues (calcipotriol, calcitriol).
+- **Conditions of concern**: The data lists the following conditions as concerns with this drug. They are not taken from product label text, so check them against the SmPC.
+  - kidney, liver and gallbladder disease
+  - nephrotic syndrome
+  - diabetes and diabetic ketoacidosis
+  - hypercalcaemia and nephrocalcinosis
+  - heart and coronary artery disease
+  - prostate cancer and benign prostatic hyperplasia
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -120,21 +104,17 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Stanozolol's use in hereditary angioedema is supported by a systematic review, several narrative reviews and cohort studies, so evidence is moderate (L3). However, there are no registered trials. The indication is essentially the original one, and the known androgen risks and many interactions call for careful controls.
+- The prediction is model-only (Evidence Level L5), with no trials or publications for this disease. The mechanistic reasoning suggests possible harm rather than benefit.
 
 **To proceed, the following is needed:**
-- SmPC warnings, contraindications and approved indication text, which were not available for this report
-- Mechanism of action data
-- A hepatic, lipid and virilisation monitoring plan, with pregnancy exclusion
-- A comparison with newer targeted prophylactic therapies and current UK guidance
-- Review of the 69 recorded interactions, particularly the major interaction with carfilzomib
+- Preclinical or mechanistic data showing that stanozolol does not increase toxic serpin polymer formation, and ideally that it reduces it.
+- Detailed mechanism of action data for stanozolol.
+- A review of the approved indication and the SmPC safety information for the UK product.
+- Any clinical or observational evidence in the predicted disease, before reconsidering the decision.
 
----
-
-*Other predicted indications (serpinopathy with toxic serpin polymerisation, fetal erythroblastosis, Peyronie disease, renal tubular acidosis, immune-mediated necrotising myopathy, antisynthetase syndrome, complement C1s deficiency, focal myositis and idiopathic eosinophilic myositis) have no supporting trials or literature showing benefit. The single case report retrieved (rhabdomyolysis in a bodybuilder using anabolic steroids) is a safety signal rather than support. All are rated Hold.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

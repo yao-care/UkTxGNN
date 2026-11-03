@@ -38,8 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Dipyridamole is an oral antiplatelet and vasodilator medicine that is currently marketed in the UK.
-The data compiled for this report contain **no registered clinical trials** for this broad indication and **20 publications**, mostly older narrative reviews on antiplatelet therapy.
+Dipyridamole is an antiplatelet medicine that is currently marketed in the UK. The TxGNN model predicts it may be relevant to **sick sinus syndrome 2, autosomal dominant**. No clinical trials or publications support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
@@ -55,11 +54,9 @@ The data compiled for this report contain **no registered clinical trials** for 
 
 ## Why is This Prediction Reasonable?
 
-Dipyridamole inhibits adenosine reuptake (via ENT1) and phosphodiesterases (PDE3 and PDE5). This raises cAMP and cGMP inside platelets and reversibly inhibits platelet aggregation. Reviews in the data describe this as the basis for blocking platelet-mediated thrombotic disease. It may also support nitric oxide-related vascular protection.
+Detailed mechanism of action data are not available in the data compiled for this report. Dipyridamole is generally understood to raise local adenosine levels and inhibit platelet aggregation.
 
-Platelet aggregation plays a central role in arterial thrombosis and thromboembolism. An antiplatelet mechanism is therefore a plausible fit for a broad "thrombotic disease" label. The very high model score is consistent with this known pharmacology.
-
-The supplied data give no direct trial-level evidence for thrombotic disease as a single entity. The literature is mainly narrative reviews, with some case-level reports in thrombotic thrombocytopenic purpura. Detailed mechanism-of-action data were not available in the structured drug record, so the mechanism above comes from the published reviews.
+Sick sinus syndrome 2 is an inherited disorder of the heart's natural pacemaker, the sinus node. Adenosine acts on sinus node function, so in theory dipyridamole could affect it. That effect may be a safety concern (for example, slowing the sinus node) rather than a benefit. The data compiled for this report show no plausible therapeutic rationale, and the TxGNN score alone cannot establish one.
 
 ## Clinical Trial Evidence
 
@@ -67,18 +64,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Review | Arterioscler Thromb Vasc Biol | Dipyridamole raises cAMP and cGMP in platelets, reversibly inhibits aggregation and may boost nitric oxide-mediated vascular protection |
-| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Review | Curr Top Med Chem | Describes the PDE and adenosine reuptake actions, plus an antioxidant activity that was previously unrecognised |
-| [20955428](https://pubmed.ncbi.nlm.nih.gov/20955428/) | 2010 | Review | Ann N Y Acad Sci | Antithrombotic and possible neuroprotective, anti-inflammatory effects during acute stroke |
-| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Review | Med J Aust | Overview of antiplatelet drugs in preventing myocardial infarction, stroke and other vascular events |
-| [15494585](https://pubmed.ncbi.nlm.nih.gov/15494585/) | 2004 | Review | JAMA | Oral antiplatelet agents, alone or combined, reduce recurrent vascular events in established atherothrombotic disease |
-| [11945125](https://pubmed.ncbi.nlm.nih.gov/11945125/) | 2002 | Review | Curr Med Chem | Role of platelet aggregation in thromboembolic disease and expansion of antiplatelet agents |
-| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Review | Clin Cardiol | Aspirin with dipyridamole in coronary thrombosis; aspirin only partly effective in experimental models |
-| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Review | Postgrad Med | Aspirin, dipyridamole and sulfinpyrazone have antithrombotic effects in humans |
-| [2440111](https://pubmed.ncbi.nlm.nih.gov/2440111/) | 1987 | Review | Semin Hematol | Antiplatelet agents produced improvement in many patients with thrombotic thrombocytopenic purpura; failures were attributed to dose, duration and disease severity |
-| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Case report | Arch Intern Med | Two patients with thrombotic thrombocytopenic purpura; one had long-lasting remission on aspirin, dipyridamole and sulfinpyrazone, and relapsed when the dipyridamole dose was tapered |
+Currently no related literature available.
 
 ## UK Market Information
 
@@ -86,26 +72,32 @@ Currently no related clinical trials registered.
 |---------|------|------|-----------|
 | 0209000L0AAACAC | Dipyridamole Tab 100mg | Tablet | Not recorded in the local data |
 
-The local record lists one valid single-ingredient authorisation. The data compiled for this report do not include BNF or NICE-appraised indication text.
+One single-ingredient authorisation is recorded, and it is valid.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction screen returned 100 potential interactions. The records shown include three rated Moderate: dexfenfluramine, sibutramine and fenfluramine. Other listed interactions are of unknown severity, including aspirin, cimetidine, omeprazole, pantoprazole, lansoprazole, metformin, glimepiride, rosiglitazone, simvastatin, prednisone, morphine, vancomycin, amphotericin B and calcitriol.
+- **Drug Interactions**: The data compiled for this report list 100 potential interacting drugs. The ones graded as moderate are:
+  - dexfenfluramine
+  - sibutramine
+  - fenfluramine
 
-Warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF, and report suspected adverse reactions via the Yellow Card Scheme.
+  Other recorded interactions have no severity grade. They include acetylsalicylic acid, cimetidine, omeprazole, pantoprazole, lansoprazole, metformin, glimepiride, rosiglitazone, simvastatin, morphine, prednisone, vancomycin and amphotericin B.
+- **Theoretical cardiac concern**: Adenosine-related effects on the sinus node could be unfavourable in a patient with sinus node dysfunction. This is a hypothesis, not an established finding.
+
+For warnings and contraindications, please refer to the SmPC and BNF. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The antiplatelet mechanism is plausible and well described. However, no registered trials and no randomised evidence in the supplied data study thrombotic disease directly. The evidence is limited to older narrative reviews and a few case-level reports. "Thrombotic disease" is also too broad to guide a specific clinical use.
+The prediction is supported only by a model score. No trials or publications address this condition, and the mechanism suggests possible harm rather than benefit.
 
 **To proceed, the following is needed:**
-- A narrower, clinically defined thrombotic condition, with a review of existing trials and guidelines for it
-- Mechanism-of-action data recorded in the structured drug record
-- SmPC and BNF warnings and contraindications, which are currently missing from the compiled data
-- A bleeding-risk and interaction review for combined use with other antiplatelet or anticoagulant therapy
+- Mechanism of action data and an assessment of dipyridamole's effects on sinus node function
+- Any preclinical or clinical studies directly addressing this condition
+- Review of the SmPC and BNF safety information for patients with conduction or rhythm disorders
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -38,10 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Phenylbutazone is a non-steroidal anti-inflammatory drug (NSAID) that is listed as marketed in the UK, although no approved indication text is available in the data compiled for this report.
-This is essentially a historical use rather than a genuinely new repurposing opportunity, and the drug carries serious haematological toxicity.
-
----
+Phenylbutazone is a non-steroidal anti-inflammatory drug that acts through cyclo-oxygenase (COX) inhibition.
+The TxGNN model predicts it may be relevant to **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
@@ -55,42 +53,19 @@ This is essentially a historical use rather than a genuinely new repurposing opp
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, phenylbutazone is a non-selective COX-1/COX-2 inhibitor NSAID. Reducing prostaglandin-mediated inflammation is mechanistically relevant to symptom control in rheumatoid arthritis (pain, morning stiffness, joint swelling).
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Phenylbutazone is generally understood to belong to the NSAID class, which acts by inhibiting COX enzymes.
 
-These studies concern symptom relief. The drug has largely been withdrawn from human use because of serious haematological toxicity (agranulocytosis, aplastic anaemia). The prediction therefore reflects an indication already known historically, not a new opportunity.
-
-Other predicted indications were also reviewed. The remaining predictions (for example rare skeletal dysplasias and sclerosing cholangitis) have no identifiable mechanistic link and no clinical or literature evidence; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
----
+No plausible mechanistic link has been identified between COX inhibition and this prediction. The condition is a rare developmental disorder, and a high model score alone, without supporting trials or literature, does not establish biological relevance. The prediction should be treated as a computational signal only, not as a rationale for clinical use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [4903691](https://pubmed.ncbi.nlm.nih.gov/4903691/) | 1969 | Double-blind clinical comparison | Can Med Assoc J | Monophenylbutazone vs phenylbutazone in ambulant outpatients with rheumatoid arthritis; fewer untoward symptoms with monophenylbutazone |
-| [913873](https://pubmed.ncbi.nlm.nih.gov/913873/) | 1977 | Double-blind dose study | J Int Med Res | Phenylbutazone 50 to 400 mg/day in 7 patients; plasma concentrations related to clinical effectiveness |
-| [788739](https://pubmed.ncbi.nlm.nih.gov/788739/) | 1976 | Double-blind dose study | Br J Clin Pharmacol | Doses of 50 to 300 mg/day over four 3-week periods; plasma concentration compared with therapeutic response |
-| [13009482](https://pubmed.ncbi.nlm.nih.gov/13009482/) | 1952 | Clinical study | Calif Med | 409 patients with rheumatic diseases; phenylbutazone showed a specific favourable effect in gout and suppressive effects in other rheumatic conditions |
-| [13059471](https://pubmed.ncbi.nlm.nih.gov/13059471/) | 1953 | Review | Br Med J | Early overview of phenylbutazone |
-| [13126544](https://pubmed.ncbi.nlm.nih.gov/13126544/) | 1954 | Clinical report | Br Med J | Use of phenylbutazone in rheumatoid arthritis |
-| [6368185](https://pubmed.ncbi.nlm.nih.gov/6368185/) | 1984 | Review | Drugs | NSAID status and rational use; no good evidence that NSAIDs halt progression of rheumatoid disease |
-| [35607639](https://pubmed.ncbi.nlm.nih.gov/35607639/) | 2022 | Case report | Drug Healthc Patient Saf | Pancytopenia with methotrexate and proton pump inhibitors; notes phenylbutazone among drugs that interact with methotrexate |
-| [37855282](https://pubmed.ncbi.nlm.nih.gov/37855282/) | 2024 | Pharmacovigilance review | Endocr Metab Immune Disord Drug Targets | Importance of NSAID pharmacovigilance for adverse drug reactions |
-| [14178376](https://pubmed.ncbi.nlm.nih.gov/14178376/) | 1964 | Review | Belg Tijdschr Geneeskd | General review of rheumatoid arthritis |
-
-For gout, a 1973 comparison with indomethacin ([4726072](https://pubmed.ncbi.nlm.nih.gov/4726072/)), a 1977 multicentre trial against naproxen ([843115](https://pubmed.ncbi.nlm.nih.gov/843115/)) and a double-blind trial against feprazone ([6988172](https://pubmed.ncbi.nlm.nih.gov/6988172/)) reported comparable efficacy to the comparator drugs.
-
----
+Currently no related literature available.
 
 ## UK Market Information
 
@@ -98,41 +73,30 @@ For gout, a 1973 comparison with indomethacin ([4726072](https://pubmed.ncbi.nlm
 |---------|------|------|-----------|
 | 1001010Q0AAABAB | Phenylbutazone Tablets 100 mg | Not stated | Not stated |
 
-The authorisation is recorded as a valid single-ingredient product. Dosage form and approved indication details were not available, so current UK licensed use should be confirmed against the BNF, the SmPC and the MHRA register.
-
----
+One valid single-ingredient licence is recorded, and none are cancelled.
 
 ## Safety Considerations
 
-- **Drug Interactions:** An interaction screen returned 100 interacting drugs. Most of those listed are of moderate severity, including:
-  - corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide)
-  - aspirin
-  - mesalazine and balsalazide
-  - antidiabetic drugs (metformin, chlorpropamide, glimepiride, saxagliptin, linagliptin)
-  - aprepitant and eliglustat
+- **Drug Interactions**: 100 interacting drugs were identified in the interaction screen. The entries listed here are mostly of Moderate severity, with one Minor:
+  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide
+  - Antidiabetic agents: metformin, chlorpropamide, glimepiride, saxagliptin, linagliptin
+  - Aspirin (acetylsalicylic acid) and aminosalicylates: mesalazine, balsalazide
+  - Others: aprepitant, eliglustat, potassium citrate, potassium bicarbonate, picosulfuric acid, polyethylene glycol (3350 with electrolytes), and linaclotide (Minor)
 
-  Linaclotide is listed as minor.
-- **Haematological toxicity:** Serious blood disorders (agranulocytosis, aplastic anaemia) are the main reason the drug has largely been withdrawn from human use.
-- **Hepatic risk:** Phenylbutazone carries a hepatotoxicity risk, which argues against use in hepatobiliary disease.
-- **Methotrexate:** The literature notes that phenylbutazone can interact with methotrexate, with a risk of pancytopenia.
-
-Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+The prediction-level assessment also notes that phenylbutazone carries a hepatotoxicity risk. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence consists of historical, small, mostly pre-1990 studies with no registered trials, and the supporting literature does not suggest a new repurposing opportunity.
+The prediction rests on a high model score alone. There are no clinical trials or publications, and no identifiable mechanistic link to COX inhibition, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Confirmation of the current UK licensed indication, dosage form and restrictions from the SmPC, BNF and MHRA register
-- Complete safety information (warnings and contraindications) from the SmPC and BNF
-- Mechanism of action data to support the mechanistic-link analysis
-- A clear justification of benefit over current standard-of-care treatments, supported by modern controlled trial evidence
-- A haematological risk management plan if any further development were considered
+- Mechanistic data (MOA) from DrugBank, and any biological rationale linking the drug to this disorder
+- Preclinical or clinical studies that directly address this disease
+- Complete warnings and contraindications from the SmPC and BNF to allow safety screening
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

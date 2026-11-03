@@ -38,8 +38,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Zafirlukast is a cysteinyl leukotriene receptor antagonist, originally used to treat asthma.
-The TxGNN model predicts it may be effective for **bronchitis** (score 0.9993), but **no clinical trials or publications** were found for this indication, so the prediction rests on the model alone.
+Zafirlukast is a cysteinyl leukotriene receptor antagonist that is currently marketed in the UK.
+The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials or publications** were found in the data compiled for this report, so the prediction rests on the model score alone.
 
 ---
 
@@ -59,35 +59,21 @@ The TxGNN model predicts it may be effective for **bronchitis** (score 0.9993), 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, zafirlukast is a selective, competitive antagonist of the CysLT1 receptor. It blocks the effects of the cysteinyl leukotrienes LTC4, LTD4 and LTE4, which drive bronchoconstriction, airway oedema, mucus secretion and eosinophil recruitment.
+Detailed mechanism of action data is not available in the data compiled for this report. From its drug class, zafirlukast is a cysteinyl leukotriene receptor (CysLT1) antagonist.
 
-Asthma and bronchitis are both inflammatory airway conditions in which mucus hypersecretion and airway narrowing play a part. A mechanistic link is therefore plausible. However, this is a computational prediction only. The very high score may partly reflect the overlap between asthma and other airway diseases rather than genuine new-indication evidence. No primary data were available to verify the link.
-
-This evidence is indirect, and the prediction is largely explained by the existing asthma indication.
+Leukotrienes contribute to airway inflammation, bronchoconstriction and mucus secretion. Blocking their receptor could plausibly reduce these features in bronchitis, so a mechanistic link exists in principle. However, the TxGNN score (0.9993) is a computational output only. No trials or literature were supplied for this indication, so the link cannot be verified from the available data.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for bronchitis.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for bronchitis.
-
-All are reviews or pharmacology overviews, and none are primary trials.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10421833](https://pubmed.ncbi.nlm.nih.gov/10421833/) | 1999 | Review | Clin Exp Allergy | Leukotriene pathway inhibitors (zafirlukast, montelukast, zileuton) in asthma and COPD |
-| [10023966](https://pubmed.ncbi.nlm.nih.gov/10023966/) | 1999 | Review | Lancet | Leukotriene-receptor antagonists act as both anti-inflammatory and bronchodilator drugs, with activity across asthma severities |
-| [9463793](https://pubmed.ncbi.nlm.nih.gov/9463793/) | 1998 | Review | Drugs | Pharmacology and therapeutic potential of zafirlukast in chronic asthma |
-| [11270943](https://pubmed.ncbi.nlm.nih.gov/11270943/) | 2001 | Review | Drugs | Update on zafirlukast efficacy in asthma; 20 mg twice daily effective in placebo-controlled studies of up to 13 weeks |
-| [31544544](https://pubmed.ncbi.nlm.nih.gov/31544544/) | 2019 | Review | Expert Rev Respir Med | Update on leukotriene treatments and leukotriene-related airway inflammation in asthma |
-| [26385352](https://pubmed.ncbi.nlm.nih.gov/26385352/) | 2015 | Review | Curr Allergy Asthma Rep | Antileukotrienes in upper airway inflammatory diseases |
-| [11888331](https://pubmed.ncbi.nlm.nih.gov/11888331/) | 2002 | Review | Clin Pharmacokinet | Pharmacokinetic profile of zafirlukast |
+Currently no related literature available.
 
 ---
 
@@ -97,14 +83,14 @@ All are reviews or pharmacology overviews, and none are primary trials.
 |---------|------|------|-----------|
 | 0303020Z0AAAAAA | Zafirlukast tablets 20 mg | Tablet (not specified in the data) | Not stated in the data compiled for this report |
 
-The identifier above follows a BNF-style code format rather than a standard PL number, and the BNF section 3.3.2 (leukotriene receptor antagonists) is the relevant classification. Please confirm the authorisation details with the MHRA.
+The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL number, and no approved indication text is recorded. The single licence is valid and is for a single-ingredient product.
 
 ---
 
 ## Safety Considerations
 
-- **Contraindications (not taken from label text):** liver disease, cirrhosis of liver, gallbladder disease, insomnia, anxiety, anxiety disorder, neurotic disorder and dysthymic disorder. These should be checked against the SmPC.
-- **Drug Interactions:** 100 interactions were identified. Those listed as moderate include aprepitant, acetylsalicylic acid, metronidazole, budesonide (including nasal), saxagliptin, eliglustat, naltrexone, nateglinide, nitisinone, repaglinide, rosuvastatin, simvastatin and tinidazole. Sibutramine is listed as minor. Pantoprazole, mesalazine, morphine, metformin and omeprazole have an unknown severity level.
+- **Drug Interactions**: 100 potential interactions were identified in the interaction screen. Examples of those graded Moderate include aprepitant, acetylsalicylic acid, metronidazole, budesonide (including nasal), saxagliptin, eliglustat, naltrexone, nateglinide, nitisinone, repaglinide, rosuvastatin, simvastatin and tinidazole. Sibutramine is graded Minor. Pantoprazole, mesalazine, morphine, metformin and omeprazole are of unknown grade.
+- **Conditions requiring caution (from interaction and relationship data, not label text)**: liver disease, cirrhosis of liver, gallbladder disease, insomnia, anxiety, anxiety disorder, neurotic disorder and dysthymic disorder.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -115,14 +101,14 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis prediction has a very high model score but no supporting trials or literature (evidence level L5). The UK record also lacks indication and safety label data, so the benefit-risk balance cannot be assessed.
+The only support for bronchitis is a high TxGNN score (0.9993); no clinical trials or publications address this disease, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- Clinical trial or observational evidence for zafirlukast in bronchitis, with the type of bronchitis (acute, chronic or eosinophilic) specified
-- Confirmed mechanism of action data and a clearer link between asthma and bronchitis
-- UK SmPC warnings, contraindications and approved indication text, particularly for hepatic safety
-- A review of the interactions with statins, repaglinide, nateglinide and corticosteroids
-- Further evaluation of obstructive lung disease (such as COPD) as a separate research question
+- Clinical or observational studies of zafirlukast directly in bronchitis
+- Detailed mechanism of action data
+- Label-based warnings and contraindications from the SmPC and BNF
+- Review of the hepatic and neuropsychiatric cautions and the moderate-grade interactions before any use in a new population
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
