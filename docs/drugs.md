@@ -32,7 +32,7 @@ description: "All drug validation reports and evidence level statistics in UkTxG
 ---
 
 <!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
-This list is based on the registration data of [MHRA](https://www.gov.uk/mhra) (United Kingdom).
+This list is based on the [NHSBSA BNF code information](https://opendata.nhsbsa.net/) (United Kingdom).
 
 <!-- local-home:end -->
 

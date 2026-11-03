@@ -6,7 +6,7 @@
 [![Website](https://img.shields.io/badge/Website-uktxgnn.yao.care-blue)](https://uktxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Drug repurposing predictions for United Kingdom MHRA-approved drugs using the TxGNN model.
+Drug repurposing predictions for medicines in the NHSBSA BNF code list (United Kingdom) using the TxGNN model.
 
 ## Disclaimer
 
@@ -73,7 +73,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| MHRA Total Drugs | 9,616 |
+| NHSBSA BNF code list Total Drugs | 9,616 |
 | Repurposing Candidates | 11,958,054 |
 
 ### Deep Learning Method
@@ -130,7 +130,7 @@ The TxGNN score represents the model's confidence in a drug-disease pair, rangin
 flowchart TD
     A["TxGNN Prediction Results"] --> B
     subgraph B["Step 1: DrugBundle Collector"]
-        B1["Drug-level: MHRA, DDI, DrugBank"]
+        B1["Drug-level: NHSBSA BNF, DDI, DrugBank"]
         B2["Indication-level: ClinicalTrials, PubMed, ICTRP"]
     end
     B --> |"drug_bundle.json"| C
@@ -153,7 +153,7 @@ flowchart TD
 
 | File | Download |
 |------|------|
-| MHRA Data | [Data Source](https://products.mhra.gov.uk/) |
+| NHSBSA BNF Data | [BNF code information](https://opendata.nhsbsa.net/) |
 | node.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144482) |
 | kg.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144484) |
 | edges.csv | [Harvard Dataverse](https://dataverse.harvard.edu/api/access/datafile/7144483) |
@@ -215,7 +215,7 @@ PYTHONPATH=src python -m uktxgnn.predict.txgnn_model
 
 | Category | Data | Source | Note |
 |------|------|------|------|
-| **Drug Data** | MHRA | [MHRA](https://products.mhra.gov.uk/) | United Kingdom |
+| **Drug Data** | NHSBSA BNF code information | [NHSBSA open data](https://opendata.nhsbsa.net/) | United Kingdom |
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
 | **Drug Interactions** | DDInter 2.0 | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
@@ -301,7 +301,7 @@ UkTxGNN/
 
 ```mermaid
 flowchart TD
-    FDA["MHRA Data"] --> proc["process_fda_data.py"]
+    FDA["NHSBSA BNF Data"] --> proc["process_fda_data.py"]
     TxGNN["TxGNN Data"] --> prep["prepare_external_data.py"]
 
     proc --> json["uk_fda_drugs.json"]
