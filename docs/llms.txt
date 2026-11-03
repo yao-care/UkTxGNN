@@ -14,6 +14,7 @@
 - UkTxGNN - UK Drug Repurposing Predictions: https://uktxgnn.yao.care/
 - All Drugs: https://uktxgnn.yao.care/drugs/
 - High Evidence (L1-L2): https://uktxgnn.yao.care/evidence-high/
+- UK Medicines with Trial Evidence for a New Indication: https://uktxgnn.yao.care/clinical-trial-evidence/
 - Moderate Evidence (L3-L4): https://uktxgnn.yao.care/evidence-medium/
 - Model Prediction Only (L5): https://uktxgnn.yao.care/evidence-low/
 - Methodology: https://uktxgnn.yao.care/methodology/
