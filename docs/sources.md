@@ -3,7 +3,7 @@ layout: default
 title: Data Sources
 nav_order: 93
 permalink: /sources/
-description: "Data sources behind UkTxGNN: MHRA registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank."
+description: "Data sources behind UkTxGNN: the NHSBSA BNF code list, TxGNN, ClinicalTrials.gov, PubMed and DrugBank."
 ---
 
 # Data Sources
@@ -21,7 +21,7 @@ Every conclusion traces back to a public data source — nothing is a black box.
 <tr><th>Type</th><th>Source</th><th>Used for</th></tr>
 </thead>
 <tbody>
-<tr><td>Registration data</td><td><a href="https://www.gov.uk/mhra">MHRA</a></td><td>Approved drug list and ingredients for United Kingdom</td></tr>
+<tr><td>Local medicine list</td><td><a href="https://opendata.nhsbsa.net/">NHSBSA</a></td><td>BNF presentation codes: medicines in current NHS prescribing use and their ingredients</td></tr>
 <tr><td>Prediction model</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Drug&ndash;disease association prediction</td></tr>
 <tr><td>Clinical trials</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Evidence grading (NCT)</td></tr>
 <tr><td>Literature</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Evidence grading (PMID)</td></tr>
@@ -32,6 +32,18 @@ Every conclusion traces back to a public data source — nothing is a black box.
 
 ---
 
+## United Kingdom medicine data
+
+| Item | Detail |
+|------|--------|
+| Dataset | BNF code information, current year (latest monthly `BNF_CODE_CURRENT_<YYYYMM>` CSV) |
+| Publisher | NHS Business Services Authority (NHSBSA) open data portal |
+| Download | `https://opendata.nhsbsa.net/api/3/action/package_show?id=bnf-code-information-current-year` (dataset record; the latest CSV resource is used) |
+| Nature of the data | Prescribing presentation codes, not a licence register: MHRA licence status is not included |
+| Update | Downloaded again every Monday by an automated workflow; listing status in drug reports is updated from the new file |
+
+---
+
 ## Licensing
 
 Each source has its own licence — please check before citing:
@@ -39,7 +51,7 @@ Each source has its own licence — please check before citing:
 - **TxGNN**: academic use; cite Huang et al. (2024)
 - **ClinicalTrials.gov / PubMed**: US NIH public data
 - **DrugBank**: non-commercial use subject to its licence terms
-- **MHRA**: subject to the open data terms of the United Kingdom regulator
+- **NHSBSA BNF code information**: published by the NHS Business Services Authority; check its terms of use before reuse
 
 ---
 
@@ -47,7 +59,7 @@ Each source has its own licence — please check before citing:
 
 | Data | Frequency |
 |------|-----------|
-| Registration data | As published by the regulator |
+| NHSBSA BNF code list | Weekly (every Monday, automated) |
 | Trial / literature evidence | Re-collected periodically |
 | Interaction data | Reviewed quarterly |
 
@@ -62,18 +74,8 @@ Each source has its own licence — please check before citing:
 
 ## About the Developer
 
-This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
-number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-UkTxGNN is the United Kingdom site of the company's "TxGNN Drug Repurposing" product line.
-The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
-Product overview: <https://www.yao.care/medical/txgnn/>.
-
-The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
-in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
-model, covering national drug-registration data integration, deep-learning prediction that excludes uses already recorded in the knowledge graph, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
-electronic health record integration.
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care). See the
+<a href="{{ '/about/' | relative_url }}">About</a> page for the full company and methodology background.
 
 ---
 
