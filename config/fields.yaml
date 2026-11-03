@@ -7,7 +7,7 @@ language: en
 # 報告引用時如實標示來源（2026-10-12 盤點 J 項）
 regulatory_agency: "NHS BNF (England)"
 regulatory_agency_full: Medicines and Healthcare products Regulatory Agency
-data_source: https://products.mhra.gov.uk/
+data_source: https://opendata.nhsbsa.net/api/3/action/package_show?id=bnf-code-information-current-year
 
 # MHRA PARD field mapping
 field_mapping:

@@ -19,9 +19,9 @@ Evidence levels range from L1 (stronger clinical evidence) to L5 (model predicti
 - `/evidence-low/` Model Prediction Only (L5) — L5 candidates in UkTxGNN: model prediction only, with no clinical or literature evidence yet.
 - `/methodology/` Methodology — How UkTxGNN produces and validates predictions: TxGNN deep learning prediction, evidence collection, L1-L5 grading, and decision recommendations.
 - `/guide/` User Guide — UkTxGNN user guide: how to look up drugs, read evidence levels and interpret recommendations.
-- `/sources/` Data Sources — Data sources behind UkTxGNN: MHRA registration data, TxGNN, ClinicalTrials.gov, PubMed and DrugBank.
+- `/sources/` Data Sources — Data sources behind UkTxGNN: the NHSBSA BNF code list, TxGNN, ClinicalTrials.gov, PubMed and DrugBank.
 - `/downloads/` Downloads — UkTxGNN open data downloads: FHIR resources, prediction results and search index.
-- `/about/` About — UkTxGNN is a drug repurposing prediction platform developed by 藥提醒科技有限公司 (yao.care), built on the Harvard TxGNN model, covering MHRA-approved medicines in United Kingdom.
+- `/about/` About — UkTxGNN is a drug repurposing prediction platform developed by 藥提醒科技有限公司 (yao.care), built on the Harvard TxGNN model, covering medicines in the NHSBSA BNF code list for United Kingdom.
 
 ## Example drug reports
 
