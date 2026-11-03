@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Progesterone
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 523
-evidence_level: L5
+evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-11-03
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **6** 
+Evidence Level: **L4** | Predicted Indications: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,9 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Progesterone is a natural progestogen hormone available in the UK as a micronised capsule. The TxGNN model predicts it may be useful for **breast fibrocystic disease**, but there are **no registered clinical trials** and the **20 publications** retrieved are mainly older reviews, pathology and hormone-level studies, with no direct interventional evidence for progesterone.
+Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.
+The TxGNN model predicts it may be useful for **breast fibrocystic disease**, with a score of 0.9998.
+There are **no registered clinical trials** and **19 publications**, all endocrinological, pathological or mechanistic, so the evidence level is **L4**.
 
 ## Quick Overview
 
@@ -47,18 +49,18 @@ Progesterone is a natural progestogen hormone available in the UK as a micronise
 | Original Indication | Not recorded in the local data |
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on general endocrine knowledge, progesterone acts on progesterone receptors in hormone-responsive tissues such as the breast and endometrium.
+Detailed mechanism of action data are not currently available. Progesterone is the main natural progestogen, acting on progesterone receptors in the uterus, breast and other tissues, and it opposes the proliferative effect of oestrogen.
 
-One older review (Vorherr, 1986) proposes that fibrocystic breast disease reflects oestrogen predominance with relative progesterone deficiency, leading to connective tissue and epithelial overgrowth. A 2018 study of 50 women with fibrocystic disease and 40 controls examined the oestradiol-to-progesterone relationship in the late luteal phase. This offers a plausible rationale for progesterone supplementation.
+The publications compiled for this report propose that fibrocystic breast changes are linked to relative oestrogen predominance and progesterone deficiency in the luteal phase. One study compared the oestradiol/progesterone ratio in women with and without the condition. This offers a plausible biological rationale for progesterone supplementation.
 
-However, this rationale is hypothetical. The retrieved literature is dominated by reviews, epidemiology and pathology, and the effect of progestogen exposure on breast tissue is inconsistent across studies. No cited study tests progesterone as a treatment for this condition, so the evidence level is L5 (model prediction with supporting background only).
+However, the supporting papers are mostly older reviews, epidemiology, pathology and hormone measurements. None tests progesterone as a treatment for this condition, and the effect of progestogens on breast tissue is inconsistent across studies. The prediction should therefore be treated as a research question rather than a treatment recommendation.
 
 ## Clinical Trial Evidence
 
@@ -66,18 +68,20 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The most relevant publications are listed below. None is an interventional study of progesterone.
+Selected from the 19 publications compiled; none evaluates progesterone as an intervention.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Describes fibrocystic disease as driven by oestrogen predominance and progesterone deficiency; covers pathology, clinical picture and management |
-| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Study (n=50 vs 40) | Acta Clin Croat | Examined the oestradiol/progesterone relationship in the late luteal phase in women with fibrocystic disease versus controls |
-| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Review | J Reprod Med | Reviews hormone effects on breast disease; oestrogen and oral contraceptives not shown to cause breast cancer |
-| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Review | Fertil Steril | Older oral contraceptives appeared to protect against benign breast disease; effect of current low-dose progestogen pills unclear |
+| [3511705](https://pubmed.ncbi.nlm.nih.gov/3511705/) | 1986 | Review | Am J Obstet Gynecol | Describes fibrocystic disease as driven by oestrogen predominance and progesterone deficiency; covers clinical picture and management |
+| [31168213](https://pubmed.ncbi.nlm.nih.gov/31168213/) | 2018 | Observational | Acta Clin Croat | Compared late luteal-phase oestradiol/progesterone ratio in 50 women with fibrocystic disease and 40 controls |
+| [1936311](https://pubmed.ncbi.nlm.nih.gov/1936311/) | 1991 | Review | Fertil Steril | Oral contraceptives of the pre-mid-1970s type appeared protective against benign breast disease; effect of low-dose progestogen types unclear |
 | [3902125](https://pubmed.ncbi.nlm.nih.gov/3902125/) | 1985 | Review | Breast Cancer Res Treat | Epidemiology and endocrinology of benign breast disease |
+| [6481706](https://pubmed.ncbi.nlm.nih.gov/6481706/) | 1984 | Review | J Reprod Med | Reviews the effects of oestrogen and progesterone on breast disease |
 | [41438397](https://pubmed.ncbi.nlm.nih.gov/41438397/) | 2025 | Cross-sectional | Int J Reprod Biomed | Association between fibrocystic breast disease and PCOS phenotypes |
-| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Randomised, double-blind, placebo-controlled | Breast Dis | Evaluated metformin (not progesterone) in fibrocystic changes |
-| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Pathology review | Virchows Arch | Apocrine lesions of the breast, including benign cysts |
+| [28598826](https://pubmed.ncbi.nlm.nih.gov/28598826/) | 2017 | Randomised trial | Breast Dis | Double-blind placebo-controlled trial of metformin (not progesterone) in fibrocystic changes |
+| [7788004](https://pubmed.ncbi.nlm.nih.gov/7788004/) | 1995 | Observational | Eur J Endocrinol | Thyroid hormones in serum and cyst fluid of women with fibrocystic disease |
+| [8043497](https://pubmed.ncbi.nlm.nih.gov/8043497/) | 1994 | Cohort | J Steroid Biochem Mol Biol | Steroid content of breast cyst fluid and its relation to breast cancer risk |
+| [34537861](https://pubmed.ncbi.nlm.nih.gov/34537861/) | 2022 | Review | Virchows Arch | Pathology of apocrine lesions of the breast |
 
 ## UK Market Information
 
@@ -85,28 +89,23 @@ The most relevant publications are listed below. None is an interventional study
 |---------|------|------|-----------|
 | 0604012S0AAALAL | Progesterone Cap 100mg (Micronised) | Capsule (inferred from product name) | Not available |
 
-At least one valid single-ingredient licence is recorded for progesterone in the local data.
-
 ## Safety Considerations
 
-Detailed label warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
-**Drug Interactions**: 100 interactions were recorded. The ones listed here are rated Moderate, and many involve glucose-lowering drugs, which may need closer glycaemic monitoring:
-- Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, dapagliflozin, saxagliptin, dulaglutide, empagliflozin, glimepiride, repaglinide, semaglutide, liraglutide, insulin aspart, insulin degludec and insulin detemir
-- Others: aprepitant, clarithromycin
+Interaction screening returned 100 recorded interactions, listed here as moderate-level examples. Many involve glucose-lowering drugs (for example acarbose, metformin, pioglitazone, canagliflozin, empagliflozin, semaglutide, liraglutide and several insulins), so blood glucose control may need monitoring in people with diabetes. Aprepitant and clarithromycin also appear among the moderate interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no clinical trials exist and no publication tests progesterone as a treatment for breast fibrocystic disease. The hormonal-imbalance rationale rests on older, mostly descriptive literature, and the influence of progestogens on breast tissue is inconsistent.
+The hormonal imbalance hypothesis gives a plausible rationale, but no clinical trial or publication tests progesterone treatment in breast fibrocystic disease, and the effect of progestogens on breast tissue is inconsistent. The evidence level is L4 and the prediction remains a research question.
 
 **To proceed, the following is needed:**
-- Controlled clinical studies of progesterone in breast fibrocystic disease or related breast pain
+- A controlled clinical study of progesterone in fibrocystic breast disease
 - Detailed mechanism of action data
-- Label-based warnings and contraindications from the SmPC and BNF
-- A breast safety assessment of progestogen exposure, including any proliferative effects
+- Review of SmPC warnings and contraindications, including breast-related safety and glucose-lowering drug interactions
 
 ## Disclaimer
 
