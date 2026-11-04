@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-04",
   "total_drugs": 583,
   "level_counts": {
-    "L1": 10,
-    "L2": 19,
-    "L3": 17,
-    "L4": 36,
-    "L5": 457
+    "L1": 9,
+    "L2": 23,
+    "L3": 18,
+    "L4": 37,
+    "L5": 452
   },
   "all_drugs": [
     {
@@ -156,7 +156,7 @@
     {
       "name": "Alprazolam",
       "slug": "alprazolam",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 2
     },
     {
@@ -270,7 +270,7 @@
     {
       "name": "Apixaban",
       "slug": "apixaban",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 1
     },
     {
@@ -330,7 +330,7 @@
     {
       "name": "Atomoxetine",
       "slug": "atomoxetine",
-      "level": "L3",
+      "level": "L5",
       "indication_count": 10
     },
     {
@@ -420,7 +420,7 @@
     {
       "name": "Bicalutamide",
       "slug": "bicalutamide",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 10
     },
     {
@@ -708,7 +708,7 @@
     {
       "name": "Citalopram",
       "slug": "citalopram",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 5
     },
     {
@@ -786,7 +786,7 @@
     {
       "name": "Clozapine",
       "slug": "clozapine",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -966,7 +966,7 @@
     {
       "name": "Diazepam",
       "slug": "diazepam",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 10
     },
     {
@@ -1284,7 +1284,7 @@
     {
       "name": "Febuxostat",
       "slug": "febuxostat",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 3
     },
     {
@@ -1980,7 +1980,7 @@
     {
       "name": "Mercaptopurine",
       "slug": "mercaptopurine",
-      "level": "L2",
+      "level": "L3",
       "indication_count": 8
     },
     {
@@ -2100,7 +2100,7 @@
     {
       "name": "Miconazole",
       "slug": "miconazole",
-      "level": "L3",
+      "level": "L4",
       "indication_count": 1
     },
     {
@@ -2154,7 +2154,7 @@
     {
       "name": "Modafinil",
       "slug": "modafinil",
-      "level": "L5",
+      "level": "L3",
       "indication_count": 1
     },
     {
@@ -2382,7 +2382,7 @@
     {
       "name": "Omalizumab",
       "slug": "omalizumab",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 9
     },
     {
@@ -2490,7 +2490,7 @@
     {
       "name": "Pazopanib",
       "slug": "pazopanib",
-      "level": "L5",
+      "level": "L2",
       "indication_count": 6
     },
     {
@@ -2802,7 +2802,7 @@
     {
       "name": "Ranitidine",
       "slug": "ranitidine",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -2970,7 +2970,7 @@
     {
       "name": "Sorafenib",
       "slug": "sorafenib",
-      "level": "L2",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -3258,7 +3258,7 @@
     {
       "name": "Tizanidine",
       "slug": "tizanidine",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 5
     },
     {
@@ -3432,7 +3432,7 @@
     {
       "name": "Valsartan",
       "slug": "valsartan",
-      "level": "L4",
+      "level": "L5",
       "indication_count": 6
     },
     {
@@ -3486,7 +3486,7 @@
     {
       "name": "Zidovudine",
       "slug": "zidovudine",
-      "level": "L5",
+      "level": "L4",
       "indication_count": 4
     },
     {

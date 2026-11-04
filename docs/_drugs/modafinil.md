@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Modafinil
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 423
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
-description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Narcolepsy (including narcolepsy with cataplexy)"
+last_modified_at: 2026-11-04
 monitor_inn: "Modafinil"
 predicted_indications: ["insomnia (disease)"]
+description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **1** 
+Evidence Level: **L3** | Predicted Indications: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-## Modafinil: insomnia (disease)
+## Modafinil: Insomnia (disease)
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Modafinil is a wake-promoting medicine, originally used to treat narcolepsy and excessive daytime sleepiness.
-The TxGNN model predicts it may be relevant to **insomnia**, but the link is indirect, supported by only **2 small clinical trials** (one terminated with 2 participants) and **no publications directly demonstrating efficacy in insomnia**.
+Modafinil is a wake-promoting agent used for excessive daytime sleepiness.
+The TxGNN model predicts it may be relevant to **insomnia (disease)**, but the supporting evidence is limited: **2 clinical trials** (one terminated after 2 participants, one small completed study of 40 people) and a set of mostly indirect publications. The evidence level is **L3**.
 
 ---
 
@@ -47,10 +47,10 @@ The TxGNN model predicts it may be relevant to **insomnia**, but the link is ind
 
 | Item | Content |
 |------|------|
-| Original Indication | Narcolepsy (including narcolepsy with cataplexy) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9985 |
-| Evidence Level | L5 (model prediction with only very weak supporting studies) |
+| Evidence Level | L3 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
@@ -59,11 +59,11 @@ The TxGNN model predicts it may be relevant to **insomnia**, but the link is ind
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Modafinil is generally understood to promote wakefulness through dopamine transporter inhibition and effects on wake-promoting brain circuits. It is established for excessive daytime sleepiness, not for inducing sleep.
+Detailed mechanism of action data is not available in the data compiled for this report. Modafinil is generally understood to promote wakefulness through effects on dopamine signalling and wake-promoting brain circuits.
 
-The link to insomnia is indirect and partly paradoxical. Modafinil can worsen insomnia as an adverse effect. The very high score from the TxGNN model (deep learning) most likely reflects similarities the model learned between related diseases (narcolepsy, shift work sleep disorder, sleep disturbance in neurological disease), not biological evidence of a true therapeutic effect on insomnia.
+The link to insomnia is indirect and partly paradoxical. Modafinil is used to counter daytime sleepiness, not to induce sleep, and insomnia is a recognised adverse effect. The high TxGNN score most likely reflects network proximity to other sleep-wake disorders (such as shift work sleep disorder and sleep disturbance in neurological disease) rather than a direct therapeutic effect on insomnia.
 
-Any plausible benefit would be limited to daytime function and sleep/wake regulation in specific groups, such as older adults, people with Parkinson's disease, or those with neurological conditions and fatigue. It would not extend to primary insomnia.
+Any plausible benefit would be limited to daytime function and sleep/wake regulation in specific groups, such as older adults or people with neurological conditions and fatigue. It would not extend to treating primary insomnia itself.
 
 ---
 
@@ -71,25 +71,26 @@ Any plausible benefit would be limited to daytime function and sleep/wake regula
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Terminated | 2 | Modafinil for sleep/wake disturbances in older adults. Terminated after only 2 participants, so no interpretable results. |
-| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Completed | 40 | Effects of modafinil, alone or with cognitive behavioural therapy for insomnia (CBT-I), on daytime functioning and insomnia severity. Small study with no results provided, so it does not establish efficacy. |
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Phase 4 | Completed | 40 | Effects of modafinil, alone or with cognitive behavioural therapy for insomnia (CBT-I), on daytime functioning and insomnia severity in primary insomnia. No results provided; small sample. |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Phase 4 | Terminated | 2 | Modafinil for sleep/wake disturbances in older adults. Terminated with only 2 participants, so no interpretable efficacy or safety evidence. |
 
 ---
 
 ## Literature Evidence
 
-None of the publications below tests modafinil for insomnia directly. They concern related sleepiness and fatigue conditions.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematic review/meta-analysis | PloS one | Assessed modafinil for fatigue and excessive daytime sleepiness in neurological disorders; earlier trials gave inconsistent results. |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematic review/meta-analysis | Parkinsonism & related disorders | Pharmacological options for daytime sleepiness and sleep disorders in Parkinson's disease; few clinical trials available. |
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Review | Drugs | Evidence-based review of approved and investigational uses of modafinil, based on placebo-controlled trials. |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Review | Movement Disorders | Movement Disorder Society evidence review of treatments for non-motor symptoms of Parkinson's disease. |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Review | Expert Opinion on Pharmacotherapy | Management of sleep disturbances in Parkinson's disease. |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Review | Drugs | Burden and management of shift work sleep disorder. |
-| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Case series | Am J Hosp Palliat Care | Modafinil reduced fatigue in Charcot-Marie-Tooth disease type 1A. |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Review | Revue neurologique | Overview of narcolepsy with cataplexy, including sleep maintenance insomnia as a feature. |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Systematic review/meta-analysis | PLoS One | Assessed modafinil for fatigue and excessive daytime sleepiness in neurological disorders; earlier trials gave inconsistent results. |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Systematic review/meta-analysis | Parkinsonism & Related Disorders | Pharmacological options for daytime sleepiness and sleep disorders in Parkinson's disease; few clinical trials available. |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Review | Drugs | Evidence-based review of approved and investigational uses of modafinil, based on randomised placebo-controlled trials. |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Review | Movement Disorders | Evidence review of treatments for non-motor symptoms of Parkinson's disease. |
+| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Review | Neurotherapeutics | Treatment of sleep disorders in Parkinson's disease; optimal insomnia treatments not yet determined. |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Review | Drugs | Burden of illness and management approaches for shift work sleep disorder. |
+| [21904092](https://pubmed.ncbi.nlm.nih.gov/21904092/) | 2011 | Review | Postgraduate Medicine | Emerging theories and therapies for shift work disorder, which can include insomnia. |
+| [24138359](https://pubmed.ncbi.nlm.nih.gov/24138359/) | 2013 | Review | Medical Journal of Australia | Health burden and management of sleep loss and circadian disruption in shift work. |
+| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Case series | American Journal of Hospice & Palliative Care | Modafinil reduced fatigue in Charcot-Marie-Tooth disease type 1A. |
+
+These publications address related sleep-wake conditions and modafinil more broadly; none is a randomised trial of modafinil for insomnia.
 
 ---
 
@@ -99,22 +100,14 @@ None of the publications below tests modafinil for insomnia directly. They conce
 |---------|------|------|-----------|
 | 0404000R0AAAAAA | Modafinil Tab 100mg | Not specified | Not specified |
 
-One valid single-ingredient authorisation is recorded. Dosage form and approved indication text are not available in the compiled data, so please check the current SmPC, the BNF and any relevant NICE guidance.
-
 ---
 
 ## Safety Considerations
 
-**Contraindication signals from the knowledge graph** (these come from drug-disease network links, not from product label text, and need verification against the SmPC):
-- Cardiovascular: hypertension, acute coronary syndrome, myocardial infarction, myocardial ischaemia, coronary artery disease, mitral valve prolapse, postural orthostatic tachycardia syndrome
-- Psychiatric: anxiety disorder, psychotic disorder, schizoaffective disorder, dysthymic disorder, substance abuse/dependence, and mental disorders in general
-- Other: liver failure, haemoglobinopathy
+- **Contraindications recorded in the data compiled for this report (not label text):** hypertension, liver failure, anxiety and other mental disorders (including psychotic and schizoaffective disorders), substance abuse/dependence, acute coronary syndrome and myocardial infarction, coronary artery disease and myocardial ischaemia, mitral valve prolapse, and postural orthostatic tachycardia syndrome.
+- **Drug Interactions:** 100 interactions were identified. Examples at moderate level include omeprazole, esomeprazole, rabeprazole, dexamethasone, eliglustat, linagliptin and cisapride. Examples at minor level include hydrocortisone, pioglitazone, aprepitant, cimetidine and clarithromycin.
 
-**Drug interactions** (100 recorded in total; examples from the first 20 shown):
-- Moderate: omeprazole, esomeprazole, rabeprazole, dexamethasone, cisapride, eliglustat, linagliptin
-- Minor: hydrocortisone, pioglitazone, aprepitant, cimetidine, clarithromycin, and others
-
-Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Please also refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
 
@@ -123,13 +116,14 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by relevant clinical evidence. The only insomnia-related trials are one terminated study (2 participants) and one small study without reported results. Modafinil is a wake-promoting drug that can itself worsen insomnia, so the prediction is best treated as a research question rather than a treatment opportunity.
+The evidence level is L3. The only relevant study is one small Phase 4 trial of modafinil on waking function and sleep in primary insomnia (NCT00124384), with no randomised results available, and the other trial was terminated at 2 participants. Modafinil can itself cause insomnia, so the high prediction score should not be read as clinical support.
 
 **To proceed, the following is needed:**
-- Mechanism of action data and a clearer rationale for any benefit in insomnia
-- Published results from NCT00124384, or new well-designed randomised trials in a defined population (for example, older adults or people with neurological disease and daytime impairment)
-- Full UK licence details (dosage form, approved indication) and the SmPC warnings and contraindications
-- A safety review covering the cardiovascular and psychiatric signals above and the interaction profile
+- Results or publication from NCT00124384, or a new adequately powered randomised controlled trial in a defined insomnia population
+- Mechanism of action data to clarify the link between wake-promotion and insomnia
+- Safety review covering the recorded contraindications and insomnia as an adverse effect
+- SmPC and BNF review of warnings and contraindications
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

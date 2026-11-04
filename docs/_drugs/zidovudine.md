@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Zidovudine
-parent: Model Prediction Only (L5)
+parent: Moderate Evidence (L3-L4)
 nav_order: 660
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 monitor_inn: "Zidovudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-03
-description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infection and AIDS"
+last_modified_at: 2026-11-04
+description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **4** 
+Evidence Level: **L4** | Predicted Indications: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +33,49 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 </div>
 
-## Zidovudine: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Zidovudine: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## One-Sentence Summary
 
-Zidovudine is a nucleoside reverse transcriptase inhibitor, originally used for HIV infection and AIDS (as recorded in the knowledge graph).
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, an animal disease model rather than a human indication.
-There are **no registered clinical trials** and **20 publications** (all preclinical or animal studies), none of them human studies of this disease.
-
----
+Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiretroviral. The TxGNN model predicts it may be relevant to **simian immunodeficiency virus infection**, with a prediction score of 0.9996. Support currently comes from **20 publications**, mainly animal studies in macaques, and **no registered clinical trials**, giving an evidence level of **L4**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection and AIDS (relation recorded in the knowledge graph; no approved indication text is available in the UK licence data) |
+| Original Indication | Not recorded in the local data |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 1 (valid: 1) |
 | Recommended Decision | Hold |
 
-The predicted indication is a non-human disease. The cited macaque studies directly examine SIV infection, but they are animal studies, not human clinical evidence. The evidence level is therefore conservatively set at L5 in line with the reporting rules, which reserve L1–L4 for studies directly supporting a human clinical use. The source scoring labelled this L4; this report does not adopt that level.
-
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, zidovudine is an NRTI. Its antiviral effect depends on blocking reverse transcriptase, the enzyme that retroviruses use to copy their genetic material.
+Detailed mechanism of action data is not available in the data compiled for this report. Zidovudine is, however, a well-established NRTI: it is incorporated into viral DNA by reverse transcriptase and halts chain elongation.
 
-SIV is a lentivirus closely related to HIV and replicates through the same reverse transcriptase-dependent cycle. This explains why the model links zidovudine to SIV, and why macaques infected with SIV are widely used as a model of HIV infection.
-
-However, this is a model-organism connection. SIV infection is not a human disease, so the prediction mainly reflects the drug's known anti-retroviral activity rather than a new human therapeutic opportunity.
-
----
+Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV and relies on the same reverse transcriptase-dependent replication cycle, so a mechanistic link is plausible. It is important to note that SIV infection is an animal disease, not a human clinical condition. The evidence is preclinical, with macaque studies serving mainly as models for HIV. The prediction is therefore best treated as a research question rather than a prospect for new human use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-The compiled literature is almost entirely animal or in vitro work. The most relevant items are below.
+The retrieved publications are almost all animal or in vitro studies. A selection of the most relevant:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Animal study | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir after vaginal SIV exposure in macaques |
-| [7695293](https://pubmed.ncbi.nlm.nih.gov/7695293/) | 1995 | Animal study | Antimicrob Agents Chemother | Immediate oral zidovudine in SIV-infected newborn macaques prevented infection or reduced virus load and improved antiviral immune responses |
-| [7690823](https://pubmed.ncbi.nlm.nih.gov/7690823/) | 1993 | Animal study | J Infect Dis | Zidovudine started 1 to 72 hours after SIV inoculation in rhesus monkeys; effect depended on timing of initiation |
-| [7797947](https://pubmed.ncbi.nlm.nih.gov/7797947/) | 1995 | Animal study | J Infect Dis | In perinatally infected rhesus macaques, zidovudine prolonged survival and lowered CNS virus load, but did not prevent infection |
-| [2016686](https://pubmed.ncbi.nlm.nih.gov/2016686/) | 1991 | Animal study | J Acquir Immune Defic Syndr | In cynomolgus monkeys, neither zidovudine nor 3'-fluorothymidine prevented infection; the latter was about ten times more potent in delaying antigen appearance |
-| [7848683](https://pubmed.ncbi.nlm.nih.gov/7848683/) | 1994 | Animal study | AIDS Res Hum Retroviruses | Animal model of acute SIV infection in zidovudine-treated cynomolgus macaques, examining viral load kinetics |
-| [9021180](https://pubmed.ncbi.nlm.nih.gov/9021180/) | 1997 | In vitro / animal | Antimicrob Agents Chemother | Zidovudine-resistant SIV mutant (Q151M) caused AIDS in newborn macaques |
-| [11020686](https://pubmed.ncbi.nlm.nih.gov/11020686/) | 2000 | Review | Ann Emerg Med | Review of non-occupational HIV post-exposure prophylaxis; no direct human efficacy studies, with indirect support from animal studies |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Animal study | J Virol | Early post-exposure antiretroviral combinations including zidovudine and effects on lymphocyte proliferation in SIV-infected macaques |
-
----
+| [7695293](https://pubmed.ncbi.nlm.nih.gov/7695293/) | 1995 | Animal study (newborn macaques) | Antimicrob Agents Chemother | Immediate oral zidovudine either prevented SIV infection or reduced virus load and improved antiviral immune responses in newborn rhesus macaques |
+| [7690823](https://pubmed.ncbi.nlm.nih.gov/7690823/) | 1993 | Animal study | J Infect Dis | Effects of starting zidovudine 1 to 72 hours after SIV inoculation in rhesus monkeys, compared with saline controls |
+| [7797947](https://pubmed.ncbi.nlm.nih.gov/7797947/) | 1995 | Animal study | J Infect Dis | Zidovudine did not prevent infection but prolonged survival and lowered CNS viral burden in perinatally infected macaques |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Animal study (macaque PEP) | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir after vaginal SIV exposure |
+| [2016686](https://pubmed.ncbi.nlm.nih.gov/2016686/) | 1991 | Animal study | J Acquir Immune Defic Syndr | Zidovudine and 3'-fluorothymidine did not prevent SIV infection in cynomolgus monkeys; FLT was about ten times more potent in delaying antigen appearance |
+| [7848683](https://pubmed.ncbi.nlm.nih.gov/7848683/) | 1994 | Animal study | AIDS Res Hum Retroviruses | Macaque model of zidovudine effect on viral load during acute SIV infection |
+| [9021180](https://pubmed.ncbi.nlm.nih.gov/9021180/) | 1997 | In vitro / animal (resistance) | Antimicrob Agents Chemother | A zidovudine-resistant SIV mutant (Q151M) caused AIDS in newborn macaques |
+| [11020686](https://pubmed.ncbi.nlm.nih.gov/11020686/) | 2000 | Review | Ann Emerg Med | Review of non-occupational HIV post-exposure prophylaxis, noting indirect support from animal SIV studies |
 
 ## UK Market Information
 
@@ -100,51 +83,24 @@ The compiled literature is almost entirely animal or in vitro work. The most rel
 |---------|------|------|-----------|
 | 0503010Y0AAABAB | Zidovudine capsules 250 mg | Capsule | Not stated in the data compiled for this report |
 
-One single-ingredient record is listed and its status is valid. The listed identifier follows a BNF-style code format rather than a standard PL number, so it should be verified against MHRA records.
-
----
-
 ## Safety Considerations
 
-**Contraindication relations recorded in the knowledge graph** (these are not label text, and they need confirmation against the SmPC):
-- Liver: liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis
-- Kidney and urinary: kidney disease, pyoureter
-- Pancreas and gallbladder: pancreatitis, gallbladder disease
-- Muscle: myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, dermatomyositis, myositis
-- Blood: neutropenia, agranulocytosis, anaemia, macrocytic anaemia
-- Metabolic: lactic acidosis, hypertriglyceridaemia, obesity disorder, monogenic obesity
+- **Contraindications and warnings recorded for related conditions**: The data compiled for this report flag liver failure, liver disease, kidney disease, pancreatitis, myopathy and myositis, neutropenia, agranulocytosis, anaemia, lactic acidosis, fatty liver disease and hypertriglyceridaemia as areas of concern. These are not taken from product label text and should be verified against the SmPC.
+- **Drug Interactions** (100 recorded; main examples): moderate interactions with amphotericin B (including lipid formulations), systemic corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), naltrexone, rosuvastatin, simvastatin and orlistat. Minor interactions with cimetidine and clarithromycin.
 
-**Drug interactions** (100 recorded; main examples from the interaction database):
-- Moderate: amphotericin B (including cholesteryl sulfate and lipid complex forms), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), naltrexone, rosuvastatin, simvastatin, orlistat
-- Minor: cimetidine, clarithromycin
-- Severity not classified: pantoprazole, morphine, metformin, omeprazole
-
-Label warnings and contraindications were not available. Please refer to the SmPC and BNF for authoritative safety information. Report suspected adverse reactions via the Yellow Card Scheme.
-
----
+Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link is strong, but SIV infection is an animal model of HIV, not a human indication, and there are no clinical trials. Zidovudine's established role in HIV is already captured by its original indication, so this prediction offers little new for UK clinical practice.
+The only support for this prediction is animal data (for example macaque studies, PMIDs 7695293, 7690823 and 7797947), giving an evidence level of L4. SIV infection is an animal disease with no human clinical indication, so there is no direct route to a new clinical use.
 
 **To proceed, the following is needed:**
-- Clarify whether the question is research use (model organism) or a genuine human indication; if the former, no repurposing action is needed
-- Mechanism of action data from DrugBank
-- Approved indication text and SmPC warnings and contraindications from the MHRA/BNF
-- Verification of the licence record (identifier format, dosage form and indication text are missing)
-
----
-
-### Other predictions in the data (for reference)
-
-| Predicted Indication | TxGNN Score | Evidence Level | Comment |
-|------|------|------|------|
-| Feline acquired immunodeficiency syndrome | 0.9996 | L5 | Veterinary use only. Animal studies exist, including cat toxicity data (anaemia in FeLV-infected cats). Not a human indication |
-| Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter | 0.9996 | L5 | Model prediction only; no mechanistic link identified. Zidovudine's mitochondrial, muscle and haematological toxicities argue for caution |
-| Obsolete familial combined hyperlipidaemia | 0.9962 | L5 | Model prediction only; the term is obsolete. Antiretroviral therapy is associated with lipid disturbances, so benefit is implausible |
+- Mechanism of action data for the drug record
+- Clarification of whether the prediction has any translational value beyond serving as an HIV model
+- Review of the relevant SmPC warnings and contraindications, which are not available in the compiled data
 
 ## Disclaimer
 
