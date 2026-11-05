@@ -24,9 +24,6 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 | **Unique Drugs** | 701 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **DFI Data** | 857 |
-| **DHI Data** | 35 |
-| **DDSI Data** | 8,359 |
 | **FHIR Resources** | 701 MK / 50,000 CUD |
 
 ### Evidence Level Distribution
@@ -219,7 +216,7 @@ PYTHONPATH=src python -m uktxgnn.predict.txgnn_model
 | **Knowledge Graph** | TxGNN KG | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) | 17,080 diseases, 7,957 drugs |
 | **Drug Database** | DrugBank | [DrugBank](https://go.drugbank.com/) | Drug ingredient mapping |
 | **Drug Interactions** | DDInter | [DDInter](https://ddinter2.scbdd.com/) | DDI pairs |
-| **Drug Interactions** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Approved drug interactions |
+| **Drug Interactions** | Guide to PHARMACOLOGY | [IUPHAR/BPS](https://www.guidetopharmacology.org/) | Approved-drug target data (not interactions) |
 | **Clinical Trials** | ClinicalTrials.gov | [CT.gov API v2](https://clinicaltrials.gov/data-api/api) | Clinical trials registry |
 | **Clinical Trials** | WHO ICTRP | [ICTRP API](https://apps.who.int/trialsearch/api/v1/search) | International clinical trials platform |
 | **Literature** | PubMed | [NCBI E-utilities](https://eutils.ncbi.nlm.nih.gov/entrez/eutils/) | Medical literature search |
