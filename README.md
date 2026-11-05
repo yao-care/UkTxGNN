@@ -20,21 +20,22 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 | Item | Count |
 |------|------|
 | **Drug Reports** | 583 |
-| **Total Predictions** | 11,961,740 |
-| **Unique Drugs** | 701 |
+| **Total Predictions** | 12,218,290 |
+| **Unique Drugs** | 759 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 701 MK / 50,000 CUD |
+| **FHIR Resources** | 744 MK / 4,933 CUD |
 
 ### Evidence Level Distribution
 
 | Evidence Level | Report Count | Description |
 |---------|-------|------|
-| **L1** | 0 | Multiple Phase 3 RCTs |
-| **L2** | 0 | Single RCT or multiple Phase 2 |
-| **L3** | 0 | Observational studies |
-| **L4** | 0 | Preclinical / mechanistic studies |
-| **L5** | 701 | Computational prediction only |
+| **L1** | 9 | Multiple Phase 3 RCTs |
+| **L2** | 22 | Single RCT or multiple Phase 2 |
+| **L3** | 16 | Observational studies |
+| **L4** | 37 | Preclinical / mechanistic studies |
+| **L5** | 455 | Computational prediction only |
+| **N/A** | 44 | Known uses only (no new prediction) |
 
 ### By Source
 
@@ -42,16 +43,16 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 |------|------|
 | KG | 10,764,961 |
 | KG + DL | 1,193,093 |
-| DL | 3,686 |
+| DL | 260,236 |
 
 ### By Confidence
 
 | Confidence | Predictions |
 |------|------|
 | very_high | 51,521 |
-| high | 1,143,846 |
-| medium | 10,765,648 |
-| low | 725 |
+| high | 1,161,808 |
+| medium | 10,786,045 |
+| low | 218,916 |
 
 ---
 
@@ -70,7 +71,7 @@ uv run python scripts/run_kg_prediction.py
 
 | Metric | Value |
 |------|------|
-| NHSBSA BNF code list Total Drugs | 9,616 |
+| NHSBSA BNF code list Total Drugs | 9,719 |
 | Repurposing Candidates | 11,958,054 |
 
 ### Deep Learning Method
@@ -82,8 +83,8 @@ PYTHONPATH=src python -m uktxgnn.predict.txgnn_model
 
 | Metric | Value |
 |------|------|
-| Total DL Predictions | 1,196,718 |
-| Unique Drugs | 701 |
+| Total DL Predictions | 1,293,828 |
+| Unique Drugs | 759 |
 | Unique Indications | 17,081 |
 
 ### Score Interpretation
