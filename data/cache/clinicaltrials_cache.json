@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-05T05:35:28.446680",
+  "last_check": "2026-11-05T19:41:42.972548",
   "seen_trials": {
     "Acetazolamide": [
       "NCT05470283",
@@ -2208,6 +2208,9 @@
     "Tiotropium": [
       "NCT03842839",
       "NCT00662740"
+    ],
+    "Clozapine": [
+      "NCT05603104"
     ]
   }
 }
