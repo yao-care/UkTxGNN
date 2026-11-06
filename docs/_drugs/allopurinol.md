@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001040C0AAAAAA | Allopurinol Tab 100 mg | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040C0AAAAAA | Allopurinol 100mg tablets | Allopurinol |
+| 1001040C0AAAPAP | Allopurinol 100mg/5ml oral solution | Allopurinol |
+| 1001040C0AAAWAW | Allopurinol 100mg/5ml oral suspension | Allopurinol |
+| 1001040C0AAARAR | Allopurinol 10mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAANAN | Allopurinol 150mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAAQAQ | Allopurinol 15mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAAZAZ | Allopurinol 2.5mg/5ml oral suspension | Allopurinol |
+| 1001040C0AABABA | Allopurinol 200mg tablets | Allopurinol |
+| 1001040C0AAASAS | Allopurinol 200mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAAKAK | Allopurinol 20mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAAYAY | Allopurinol 25mg/5ml oral suspension | Allopurinol |
+| 1001040C0AAABAB | Allopurinol 300mg tablets | Allopurinol |
+| 1001040C0AAALAL | Allopurinol 300mg/5ml oral solution | Allopurinol |
+| 1001040C0AAAXAX | Allopurinol 300mg/5ml oral suspension | Allopurinol |
+| 1001040C0AABBBB | Allopurinol 300mg/5ml oral suspension sugar free | Allopurinol |
+| 1001040C0AAAMAM | Allopurinol 50mg/5ml oral liquid | Allopurinol |
+| 1001040C0AAATAT | Allopurinol 5mg/5ml oral liquid | Allopurinol |
+| 1001040C0BDAAAA | Caplenal 100mg tablets | Allopurinol |
+| 1001040C0BDABAB | Caplenal 300mg tablets | Allopurinol |
+| 1001040C0BLAAAA | Uricto 100mg tablets | Allopurinol |
 
-The data compiled for this report list one valid single-ingredient authorisation. The identifier is not in standard MHRA PL format, and the indication text is not available. Please check the current SmPC, the BNF classification and any relevant NICE guidance directly.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in standard MHRA PL format, and the indication text is not available. Please check the current SmPC, the BNF classification and any relevant NICE guidance directly.
 
 ## Safety Considerations
 

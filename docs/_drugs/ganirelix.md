@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
 description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (1 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,11 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0607020W0AAAAAA (BNF-style product code; PL number not available) | Ganirelix Inj 500mcg/ml 0.5ml Pfs | Pre-filled syringe (injection) | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0607020W0BBAAAA | Orgalutran 250microgram/0.5ml inj pre-filled syringe | Ganirelix |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 211
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Deferiprone: predicted new indication Hepatic porphyria (evidence level L4). Approved use: Haemosiderosis and beta-thalassaemia-related haemoglobinopathies"
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901030I0AAAAAA | Deferiprone Tab 500mg | Tablet (per product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901030I0AAAEAE | Deferiprone 100mg/ml oral solution sugar free | Deferiprone |
+| 0901030I0AAAFAF | Deferiprone 1g tablets | Deferiprone |
+| 0901030I0AAACAC | Deferiprone 400mg capsules | Deferiprone |
+| 0901030I0AAABAB | Deferiprone 400mg/5ml oral liquid | Deferiprone |
+| 0901030I0AAAAAA | Deferiprone 500mg tablets | Deferiprone |
+| 0901030I0BBACAF | Ferriprox 1000mg tablets | Deferiprone |
+| 0901030I0BBABAE | Ferriprox 100mg/ml oral solution | Deferiprone |
+| 0901030I0BBAAAA | Ferriprox 500mg tablets | Deferiprone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is not in the usual PL format, and the manufacturer is not recorded. Please confirm the details against the MHRA register and the BNF.
 

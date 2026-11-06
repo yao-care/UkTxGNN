@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 26
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Adapalene: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne (disease)"
 monitor_inn: "Adapalene"
 predicted_indications: ["zinc, elevated plasma"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be associated with **elevated plasma zinc**, but
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1306010H0AAAAAA | Adapalene Gel 0.1% | Gel (topical) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1306010H0AAABAB | Adapalene 0.1% cream | Adapalene |
+| 1306010H0AAAAAA | Adapalene 0.1% gel | Adapalene |
+| 1306010Z0AAAAAA | Adapalene 0.1% / Benzoyl peroxide 2.5% gel | Adapalene and benzoyl peroxide |
+| 1306010Z0AAABAB | Adapalene 0.3% / Benzoyl peroxide 2.5% gel | Adapalene and benzoyl peroxide |
+| 1306010H0BBABAB | Differin 0.1% cream | Adapalene |
+| 1306010H0BBAAAA | Differin 0.1% gel | Adapalene |
+| 1306010Z0BBAAAA | Epiduo 0.1%/2.5% gel | Adapalene and benzoyl peroxide |
+| 1306010Z0BBABAB | Epiduo 0.3%/2.5% gel | Adapalene and benzoyl peroxide |
 
-The data compiled for this report contain one valid single-ingredient authorisation. The authorisation number shown is not in the standard UK "PL" format, and the dosage form and approved indication fields were blank, so the gel form is inferred from the product name. Please verify against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number shown is not in the standard UK "PL" format, and the dosage form and approved indication fields were blank, so the gel form is inferred from the product name. Please verify against the MHRA register and the BNF.
 
 ## Safety Considerations
 

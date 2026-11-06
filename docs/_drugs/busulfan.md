@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 120
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -50,8 +50,8 @@ Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed 
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -106,9 +106,17 @@ Most trials test busulfan as one component of a multi-drug regimen in mixed AML/
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801010B0AAABAB (BNF code) | Busulfan Tab 2mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801010B0AAAFAF | Busulfan 25mg capsules | Busulfan |
+| 0801010B0AAABAB | Busulfan 2mg tablets | Busulfan |
+| 0801010B0AAADAD | Busulfan 2mg/5ml oral liquid | Busulfan |
+| 0801010B0AAAEAE | Busulfan 60mg/10ml solution for infusion ampoules | Busulfan |
+| 0801010B0AAAGAG | Busulfan 60mg/10ml solution for infusion vials | Busulfan |
+| 0801010B0BCAAAE | Busilvex 60mg/10ml concentrate for inf ampoules | Busulfan |
+| 0801010B0BBABAB | Myleran 2mg tablets | Busulfan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Only one single-ingredient product is recorded, and it is currently valid. The indication text and manufacturer were not available, so please check the current SmPC and BNF entry for the licensed uses.
 

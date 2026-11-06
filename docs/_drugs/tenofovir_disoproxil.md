@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 604
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **18 publications** (almost all 
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ---
@@ -102,11 +102,32 @@ Further publications include reviews of PrEP (PMID 20874040, 22964889), a pharma
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010H0AAAAAA | Tenofovir Disoproxil Tab 245 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010H0AAACAC | Tenofovir disoproxil 123mg tablets | Tenofovir disoproxil |
+| 0503010H0AAADAD | Tenofovir disoproxil 163mg tablets | Tenofovir disoproxil |
+| 0503010H0AAAEAE | Tenofovir disoproxil 204mg tablets | Tenofovir disoproxil |
+| 0503010H0AAAAAA | Tenofovir disoproxil 245mg tablets | Tenofovir disoproxil |
+| 0503010H0AAABAB | Tenofovir disoproxil 33mg/g granules | Tenofovir disoproxil |
+| 0503010ANBBAAAA | Atripla 600mg/200mg/245mg tablets | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010ASBBAAAA | Delstrigo 100mg/300mg/245mg tablets | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010ASAAAAAA | Doravirine 100mg/Lamivudine 300mg/Tenofovir disoproxil 245mg | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010ANAAAAAA | Efavirenz 600mg / Emtr 200mg /Tenofovir disoproxil 245mg tab | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010BDAAAAAA | Elvitegravir 150mg/Cobicistat/Emtr/Tenofovir disoproxil tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir disoproxil |
+| 0503010BBAAAAAA | Emtr 200mg/Rilpivirine 25mg/Tenofovir disoproxil 245mg tab | Emtricitabine/Rilpivirine/Tenofovir disoproxil |
+| 0503010AAAAAAAA | Emtricitabine 200mg / Tenofovir disoproxil 245mg tablets | Emtricitabine and tenofovir disoproxil |
+| 0503010BBBBAAAA | Eviplera 200mg/25mg/245mg tablets | Emtricitabine/Rilpivirine/Tenofovir disoproxil |
+| 0503010AYAAAAAA | Generic National 30 day HIV post exposure prophylaxis pack | Raltegravir/Emtricitabine/Tenofovir disoproxil |
+| 0503010AABCAAAA | Ictastan 200mg/245mg tablets | Emtricitabine and tenofovir disoproxil |
+| 0503010AVAAAAAA | Lamivudine 300mg / Tenofovir disoproxil 245mg tablets | Lamivudine/tenofovir disoproxil |
+| 0503010AYBBAAAA | National 30 day HIV post exposure prophylaxis pack | Raltegravir/Emtricitabine/Tenofovir disoproxil |
+| 0503010BDBBAAAA | Stribild 150mg/150mg/200mg/245mg tablets | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir disoproxil |
+| 0503010BDBBABAA | Stribild 150mg/150mg/200mg/245mg tablets (Imported USA) | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir disoproxil |
+| 0503010AABBAAAA | Truvada 200mg/245mg tablets | Emtricitabine and tenofovir disoproxil |
 
-The data compiled for this report show one valid single-ingredient authorisation. The identifier appears to be a BNF-style product code rather than an MHRA "PL" number, so it should be checked against the MHRA register. Dosage form, manufacturer and approved indication text are not recorded, and NICE appraisal information is not available here.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style product code rather than an MHRA "PL" number, so it should be checked against the MHRA register. Dosage form, manufacturer and approved indication text are not recorded, and NICE appraisal information is not available here.
 
 ---
 

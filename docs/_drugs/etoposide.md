@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 | Predicted New Indication | well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,22 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801040D0AAAAAA | Etoposide Capsules 50 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801040D0AAABAB | Etoposide 100mg capsules | Etoposide |
+| 0801040D0AAAGAG | Etoposide 100mg powder for solution for injection vials | Etoposide |
+| 0801040D0AAADAD | Etoposide 100mg/5ml solution for infusion vials | Etoposide |
+| 0801040D0AAAEAE | Etoposide 200mg/10ml solution for infusion vials | Etoposide |
+| 0801040D0AAAFAF | Etoposide 500mg/25ml solution for infusion vials | Etoposide |
+| 0801040D0AAAAAA | Etoposide 50mg capsules | Etoposide |
+| 0801040D0BCAAAD | Eposin 100mg/5ml concentrate for solution for infusion vials | Etoposide |
+| 0801040D0BCABAF | Eposin 500mg/25ml concentrate for inf vials | Etoposide |
+| 0801040D0BDAAAG | Etopophos 100mg powder for solution for injection vials | Etoposide |
+| 0801040D0BBABAB | Vepesid 100mg capsules | Etoposide |
+| 0801040D0BBADAD | Vepesid 100mg/5ml solution for infusion vials | Etoposide |
+| 0801040D0BBAAAA | Vepesid 50mg capsules | Etoposide |
 
-At least one valid single-ingredient licence is recorded for the UK market.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Cytotoxicity
 

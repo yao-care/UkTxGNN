@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tapentadol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (50 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 50 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,30 @@ Neither paper provides efficacy evidence for tapentadol in migraine. The 2018 st
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407020AGAAAAAA | Tapentadol HCl tablets 50 mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407020AGAAAKAK | Tapentadol 100mg modified-release capsules | Tapentadol |
+| 0407020AGAAADAD | Tapentadol 100mg modified-release tablets | Tapentadol |
+| 0407020AGAAAPAP | Tapentadol 100mg tablets | Tapentadol |
+| 0407020AGAAALAL | Tapentadol 150mg modified-release capsules | Tapentadol |
+| 0407020AGAAAEAE | Tapentadol 150mg modified-release tablets | Tapentadol |
+| 0407020AGAAAMAM | Tapentadol 200mg modified-release capsules | Tapentadol |
+| 0407020AGAAAFAF | Tapentadol 200mg modified-release tablets | Tapentadol |
+| 0407020AGAAAHAH | Tapentadol 20mg/ml oral solution sugar free | Tapentadol |
+| 0407020AGAAANAN | Tapentadol 250mg modified-release capsules | Tapentadol |
+| 0407020AGAAAGAG | Tapentadol 250mg modified-release tablets | Tapentadol |
+| 0407020AGAAAIAI | Tapentadol 25mg modified-release tablets | Tapentadol |
+| 0407020AGAAAJAJ | Tapentadol 50mg modified-release capsules | Tapentadol |
+| 0407020AGAAACAC | Tapentadol 50mg modified-release tablets | Tapentadol |
+| 0407020AGAAAAAA | Tapentadol 50mg tablets | Tapentadol |
+| 0407020AGAAABAB | Tapentadol 75mg tablets | Tapentadol |
+| 0407020AGBCACAD | Ationdo SR 100mg tablets | Tapentadol |
+| 0407020AGBCADAE | Ationdo SR 150mg tablets | Tapentadol |
+| 0407020AGBCAEAF | Ationdo SR 200mg tablets | Tapentadol |
+| 0407020AGBCAFAG | Ationdo SR 250mg tablets | Tapentadol |
+| 0407020AGBCAAAI | Ationdo SR 25mg tablets | Tapentadol |
+
+Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The number shown is a BNF-style product code rather than a standard PL number. Please check the MHRA record and the BNF (opioid analgesics section) for the authorised indications and formulations.
 

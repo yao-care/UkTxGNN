@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -52,8 +52,8 @@ This is a model-generated hypothesis supported mainly by one in vitro study, and
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L4 (preclinical/mechanistic only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,11 +87,14 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803041AAAAAAAA | Fulvestrant Inj 250mg/5ml Pfs | Solution for injection (pre-filled syringe) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803041AAAAAAAA | Fulvestrant 250mg/5ml inj pre-filled syringes | Fulvestrant |
+| 0803041AABBAAAA | Faslodex 250mg/5ml inj pre-filled syringes | Fulvestrant |
 
-Only one authorisation was identified. The dosage form and indication fields were not populated in the source data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and indication fields were not populated in the source data.
 
 ---
 

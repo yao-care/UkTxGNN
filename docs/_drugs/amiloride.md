@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Amiloride"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Amiloride: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Of the other predicted indications reviewed, only pulmonary hypertension due to 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,11 +99,32 @@ Many other retrieved papers (ovarian cancer pH, choroid plexus transport, hepati
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202030C0AAACAC | Amiloride HCl Tab 5mg | Tablet (5 mg) | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202030C0AAA8A8 | Amiloride 1.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABBBB | Amiloride 1.7mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAAZAZ | Amiloride 10mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABABA | Amiloride 12.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA1A1 | Amiloride 1mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABEBE | Amiloride 2.3mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA4A4 | Amiloride 2.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA6A6 | Amiloride 2mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA5A5 | Amiloride 300micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA2A2 | Amiloride 3mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAAYAY | Amiloride 400micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA3A3 | Amiloride 4mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABDBD | Amiloride 500micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAACAC | Amiloride 5mg tablets | Amiloride hydrochloride |
+| 0202030C0AAASAS | Amiloride 5mg/5ml oral solution sugar free | Amiloride hydrochloride |
+| 0202030C0AAAXAX | Amiloride 5mg/5ml oral suspension | Amiloride hydrochloride |
+| 0202030C0AABCBC | Amiloride 800micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202040C0BBAAAA | Amil-Co 5mg/50mg tablets | Co-amilozide (Amiloride hydrochloride/hydrochlorothiazide) |
+| 0202030C0BFAAAS | Amilamont 5mg/5ml oral solution sugar free | Amiloride hydrochloride |
+| 0202040C0BGAAAA | Amilmaxco 5mg/50mg tablets | Co-amilozide (Amiloride hydrochloride/hydrochlorothiazide) |
 
-One valid single-ingredient authorisation is recorded. Please check the current SmPC and BNF (potassium-sparing diuretics) for the licensed indications and dosing.
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC and BNF (potassium-sparing diuretics) for the licensed indications and dosing.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Frovatriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Frovatriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Frovatriptan is a triptan-class medicine. The TxGNN model predicts it may be rel
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,11 +78,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407041ABAAAAAA | Frovatriptan Tab 2.5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041ABAAAAAA | Frovatriptan 2.5mg tablets | Frovatriptan |
+| 0407041ABBBAAAA | Migard 2.5mg tablets | Frovatriptan |
+| 0407041ABBCAAAA | Mylatrip 2.5mg tablets | Frovatriptan |
 
-The BNF classification code in the record (0407041) places the product among the drugs used for acute treatment of migraine. One single-ingredient authorisation is valid.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code in the record (0407041) places the product among the drugs used for acute treatment of migraine.
 
 ---
 

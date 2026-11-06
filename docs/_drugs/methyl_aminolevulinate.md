@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: ["hereditary hemochromatosis", "seborrheic keratosis", "acne (disease)", "vulvar inverted follicular keratosis", "psoriasis", "common wart", "drug-induced osteoporosis", "pityriasis lichenoides", "Wilson disease", "iron metabolism disease"]
 description: "Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This report therefore focuses on acne and briefly compares the other predictions
 | Predicted New Indication | Hereditary hemochromatosis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (acne) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold for hereditary haemochromatosis; Proceed with Guardrails (research question only) for acne |
 
 ---
@@ -104,12 +104,14 @@ Other predictions with some literature (reviews, retrospective analyses and case
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1308010X0BBAAAA | Metvix Cream 16% | Not stated | Not stated |
-| 1308010X0AAAAAA | Methyl-5-Aminolevulinate Cream 16% | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1308010X0AAAAAA | Methyl aminolevulinate 16% cream | Methyl-5-aminolevulinate |
+| 1308010X0BBAAAA | Metvix 16% cream | Methyl-5-aminolevulinate |
 
-Both authorisations are valid single-ingredient products. Dosage form and indication text were not available in the compiled data. Please check the current MHRA record, the SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text were not available in the compiled data. Please check the current MHRA record, the SmPC and the BNF.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
@@ -52,8 +52,8 @@ Among the other predictions, **dysthymic disorder, melancholia, neurotic depress
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -103,9 +103,16 @@ The table below shows the most relevant publications for the closest-to-label pr
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403010T0AAAAAA | Mianserin HCl tablets 10 mg | Tablet | Indication text not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010T0AAAAAA | Mianserin 10mg tablets | Mianserin hydrochloride |
+| 0403010T0AAAFAF | Mianserin 10mg/5ml oral liquid | Mianserin hydrochloride |
+| 0403010T0AAABAB | Mianserin 20mg tablets | Mianserin hydrochloride |
+| 0403010T0AAADAD | Mianserin 20mg/5ml oral liquid | Mianserin hydrochloride |
+| 0403010T0AAACAC | Mianserin 30mg tablets | Mianserin hydrochloride |
+| 0403010T0AAAEAE | Mianserin 30mg/5ml oral liquid | Mianserin hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above follows the BNF-style code format rather than a standard PL number. BNF classification (antidepressants, chapter 4.3) should be confirmed against current references.
 

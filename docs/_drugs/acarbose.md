@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acarbose"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acarbose: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,16 @@ For the ninth-ranked prediction, pancreatic agenesis, 11 papers were retrieved. 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601023A0AAAAAA | Acarbose Tab 50mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601023A0AAABAB | Acarbose 100mg tablets | Acarbose |
+| 0601023A0AAAAAA | Acarbose 50mg tablets | Acarbose |
+| 0601023A0BBADAB | Glucobay 100mg tablets | Acarbose |
+| 0601023A0BBACAA | Glucobay 50mg tablets | Acarbose |
 
-The record lists one single-ingredient authorisation, currently valid. Dosage form and indication text are not available in the compiled data. The identifier is not in the usual MHRA "PL" format, so it should be checked against the MHRA register.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text are not available in the compiled data. The identifier is not in the usual MHRA "PL" format, so it should be checked against the MHRA register.
 
 ## Safety Considerations
 

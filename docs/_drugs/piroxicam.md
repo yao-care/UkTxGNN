@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis"
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **colobomatous microphthalmia-r
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1003020R0AAAAAA (as recorded; not in standard PL format) | Piroxicam Gel 0.5% | Gel (from product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1003020R0AAAAAA | Piroxicam 0.5% gel | Piroxicam |
+| 1001010R0AAAAAA | Piroxicam 10mg capsules | Piroxicam |
+| 1001010R0AAADAD | Piroxicam 10mg dispersible tablets | Piroxicam |
+| 1001010R0AAABAB | Piroxicam 20mg capsules | Piroxicam |
+| 1001010R0AAAEAE | Piroxicam 20mg dispersible tablets | Piroxicam |
+| 1001010R0AAAGAG | Piroxicam 20mg orodispersible tablets sugar free | Piroxicam |
+| 1001010R0AAACAC | Piroxicam 20mg suppositories | Piroxicam |
+| 1001010R0AAAHAH | Piroxicam 20mg/1ml solution for injection ampoules | Piroxicam |
+| 1001010R0BHAAAK | Brexidol 20mg tablets | Piroxicam |
+| 1003020R0BBAAAA | Feldene 0.5% gel | Piroxicam |
+| 1001010R0BBAAAA | Feldene 10mg capsules | Piroxicam |
+| 1001010R0BBACAD | Feldene 10mg dispersible tablets | Piroxicam |
+| 1001010R0BBABAB | Feldene 20 capsules | Piroxicam |
+| 1001010R0BBADAE | Feldene 20mg dispersible tablets | Piroxicam |
+| 1001010R0BBAEAC | Feldene 20mg suppositories | Piroxicam |
+| 1001010R0BBAFAH | Feldene IM 20mg/1ml solution for injection ampoules | Piroxicam |
+| 1001010R0BBAGAG | Feldene Melt 20mg tablets | Piroxicam |
+| 1003020R0BBACAA | Feldene P 0.5% gel | Piroxicam |
+| 1001010R0AAAKAK | Piroxicam betadex 20mg tablets | Piroxicam |
+| 1001010R0BDAAAA | Pirozip 10 capsules | Piroxicam |
 
-The record shows one valid single-ingredient authorisation and no cancelled authorisations. The authorisation number, dosage form and indication text should be verified against the MHRA register and the current SmPC. The BNF classification should also be checked.
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number, dosage form and indication text should be verified against the MHRA register and the current SmPC. The BNF classification should also be checked.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Telithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "septicemic plague", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Telithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, streptococcal pneumonia…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model (deep learning) predicts it may be effective for **polyclonal hy
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501050T0AAAAAA | Telithromycin Tab 400mg | Tablet (400 mg) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501050T0AAAAAA | Telithromycin 400mg tablets | Telithromycin |
+| 0501050T0BBAAAA | Ketek 400mg tablets | Telithromycin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed record is a single-ingredient product and is shown as valid. The code resembles a BNF-style classification code rather than a standard PL number, so the authorisation details should be verified against the MHRA register.
 

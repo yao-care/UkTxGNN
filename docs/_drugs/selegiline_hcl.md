@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Selegiline HCl is a selective monoamine oxidase B (MAO-B) inhibitor, widely recognised in clinical practice for the management of Parkinson's disease. However, this Evidence Pack contains **no TxGNN-predicted new indications**, **no UK marketing authorisation records**, and **no usable safety data**, meaning a substantive repurposing evaluation cannot be completed at this stage. Immediate data remediation is required before any recommendation can be made.
+Selegiline HCl is a selective monoamine oxidase B (MAO-B) inhibitor, widely recognised in clinical practice for the management of Parkinson's disease. However, this Evidence Pack contains **no TxGNN-predicted new indications**, and **no usable safety data**, meaning a substantive repurposing evaluation cannot be completed at this stage. Immediate data remediation is required before any recommendation can be made.
 
 ---
 
@@ -52,11 +52,11 @@ Selegiline HCl is a selective monoamine oxidase B (MAO-B) inhibitor, widely reco
 | Predicted New Indication | None — `predicted_indications` array is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 (model prediction only — not yet generated) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | **Hold** |
 
-> **⚠ Data Integrity Note:** Selegiline hydrochloride (e.g., Eldepryl®) has historically been available in UK clinical practice as an adjunct treatment for Parkinson's disease. The zero-licence result likely reflects a mapping failure against the MHRA authorisations database rather than genuine absence from the UK market. This must be verified before the report is finalised.
+> **⚠ Data Integrity Note:** Selegiline hydrochloride (e.g., Eldepryl®) has historically been available in UK clinical practice as an adjunct treatment for Parkinson's disease. This must be verified before the report is finalised.
 
 ---
 
@@ -84,7 +84,7 @@ Currently no related literature available in this Evidence Pack.
 
 ## UK Market Information
 
-No MHRA marketing authorisation records were returned for this drug. As noted above, this is likely a data pipeline issue. The following remediation step is recommended:
+The following remediation step is recommended:
 
 - Manually search the [MHRA Product Licence Register](https://products.mhra.gov.uk/) for "selegiline" and "Eldepryl" to retrieve current PL numbers, dosage forms, and approved indications.
 - Cross-reference with the [BNF section 4.9.1 (Dopaminergic drugs used in Parkinson's disease)](https://bnf.nice.org.uk/drugs/selegiline-hydrochloride/) for current clinical status.
@@ -104,7 +104,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-This Evidence Pack does not contain the minimum data required for a drug repurposing evaluation — specifically, TxGNN predictions are absent, MHRA licence records were not retrieved, and all safety fields are unpopulated. No clinical recommendation can be made on the basis of this pack alone.
+No clinical recommendation can be made on the basis of this pack alone.
 
 **To proceed, the following is needed:**
 

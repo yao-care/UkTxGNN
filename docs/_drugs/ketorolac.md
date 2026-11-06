@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 352
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **17 clinical trials** and **19 publications** currently supporting this di
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 3 (valid: 3) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Several completed Phase 3/4 trials and multiple systematic reviews and meta-analyses exist. However, most of the compiled trials are small, are paediatric or emergency-department studies, and use parenteral or intranasal ketorolac rather than the oral or ophthalmic products authorised here. The L1 grade should be read with that caveat.
@@ -100,13 +100,20 @@ The table shows the 10 most relevant of the 17 trials, prioritising direct ketor
 
 ## UK Market Information
 
-The three authorisations below are listed in the data compiled for this report. No dosage form, manufacturer or approved indication text is available for them, and the identifiers shown are not in the standard UK "PL" format, so they should be verified against the MHRA register.
+No dosage form, manufacturer or approved indication text is available for them, and the identifiers shown are not in the standard UK "PL" format, so they should be verified against the MHRA register.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1501042E0BBACAC | Toradol Oral Tab 10mg | Oral tablet (per product name) | Not available |
-| 110802070BBAAAA | Acular Ophth Soln 0.5% | Ophthalmic solution (per product name) | Not available |
-| 110802070AAAAAA | Ketorolac Trometamol Eye Drops 0.5% | Eye drops (per product name) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 110802070AAAAAA | Ketorolac 0.5% eye drops | Ketorolac trometamol |
+| 1501042E0AAACAC | Ketorolac 10mg tablets | Ketorolac trometamol |
+| 1501042E0AAABAB | Ketorolac 10mg/1ml solution for injection ampoules | Ketorolac trometamol |
+| 1501042E0AAAAAA | Ketorolac 30mg/1ml solution for injection ampoules | Ketorolac trometamol |
+| 110802070BBAAAA | Acular 5mg/ml eye drops | Ketorolac trometamol |
+| 1501042E0BBACAC | Toradol 10mg tablets | Ketorolac trometamol |
+| 1501042E0BBABAB | Toradol 10mg/1ml solution for injection ampoules | Ketorolac trometamol |
+| 1501042E0BBAAAA | Toradol 30mg/1ml solution for injection ampoules | Ketorolac trometamol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Most of the supporting headache evidence concerns parenteral and intranasal ketorolac. The authorised products listed here are oral and ophthalmic, so route compatibility with the predicted indication has not been established.
 

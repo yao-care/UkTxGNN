@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 415
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **insomnia**, with **2 register
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 3 (valid: 3) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (46 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 46 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,11 +95,30 @@ Four further publications retrieved (lemborexant and delirium, zolpidem in an an
 
 The authorisation numbers below are as listed in the data compiled for this report. They are not in the standard PL format, and no dosage form or approved indication text is available.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408020V0AAAQAQ | Midazolam oromucosal solution 10 mg/1 ml | Oromucosal solution | Not available |
-| 0408020V0AAAPAP | Midazolam oromucosal solution 10 mg/ml | Oromucosal solution | Not available |
-| 1501041T0AAAAAA | Midazolam hydrochloride injection 5 mg/ml, 2 ml ampoule | Injection | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1501041T0AAARAR | Midazolam 100mg/50ml solution for infusion vials | Midazolam hydrochloride |
+| 0408020V0AAASAS | Midazolam 10mg/1ml oromucosal soln pf oral syringes SF | Midazolam maleate |
+| 0408020W0AAADAD | Midazolam 10mg/2ml oromucosal soln pf oral syringes SF | Midazolam hydrochloride |
+| 1501041T0AAAAAA | Midazolam 10mg/2ml solution for injection ampoules | Midazolam hydrochloride |
+| 0408020V0AAAFAF | Midazolam 10mg/5ml oral liquid | Midazolam maleate |
+| 1501041T0AAABAB | Midazolam 10mg/5ml solution for injection ampoules | Midazolam hydrochloride |
+| 0408020V0AAALAL | Midazolam 10mg/ml oral liquid | Midazolam maleate |
+| 0408020V0AAAMAM | Midazolam 11mg/5ml oral liquid | Midazolam maleate |
+| 0408020V0AAAEAE | Midazolam 12.5mg/5ml oral liquid | Midazolam maleate |
+| 0408020V0AAABAB | Midazolam 15mg tablets | Midazolam maleate |
+| 0408020W0AAAGAG | Midazolam 2.5mg/0.25ml oromucosal soln pf oral syringes | Midazolam hydrochloride |
+| 0408020V0AAAXAX | Midazolam 2.5mg/0.25ml oromucosal soln pf oral syringes SF | Midazolam maleate |
+| 0408020W0AAAAAA | Midazolam 2.5mg/0.5ml oromucosal soln pf oral syringes SF | Midazolam hydrochloride |
+| 0408020V0AAAGAG | Midazolam 2.5mg/5ml oral liquid | Midazolam maleate |
+| 0408020V0AAAJAJ | Midazolam 20mg/5ml oral liquid | Midazolam maleate |
+| 0408020V0AAAHAH | Midazolam 25mg/5ml oral liquid | Midazolam maleate |
+| 1501041T0AAATAT | Midazolam 2mg/2ml solution for injection ampoules | Midazolam hydrochloride |
+| 0408020W0AAAHAH | Midazolam 2mg/ml oral solution sugar free | Midazolam hydrochloride |
+| 0408020V0AAAKAK | Midazolam 40mg/5ml oral liquid | Midazolam maleate |
+| 1501041T0AAANAN | Midazolam 50mg/10ml solution for injection ampoules | Midazolam hydrochloride |
+
+Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

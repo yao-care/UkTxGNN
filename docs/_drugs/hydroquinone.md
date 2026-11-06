@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hydroquinone: predicted new indication Seborrheic keratosis (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -52,8 +52,8 @@ This is a model-driven hypothesis with weak supporting evidence.
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,6 @@ This is a model-driven hypothesis with weak supporting evidence.
 Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, hydroquinone inhibits tyrosinase and reduces melanin synthesis. This could plausibly lighten the pigmentation of seborrheic keratosis lesions.
 
 Any benefit would be cosmetic only. Hydroquinone would not treat the underlying epidermal proliferation. The only supporting publication is a prospective observational study of combination treatment for facial pigmentary disorders in Asian patients, which is indirect evidence.
-
 
 ---
 
@@ -83,9 +82,21 @@ Currently no related clinical trials registered for seborrheic keratosis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1315000G0AAAIAI | Hydroquinone Cream 4% | Cream (per product name) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1315000G0AAAWAW | Hydroquinone 2% cream | Depigmenting agents |
+| 1315000G0AABEBE | Hydroquinone 2% in Aqueous cream | Depigmenting agents |
+| 1315000G0AABKBK | Hydroquinone 20% cream | Depigmenting agents |
+| 1315000G0AAAQAQ | Hydroquinone 3% cream | Depigmenting agents |
+| 1315000G0AAALAL | Hydroquinone 4% cream | Depigmenting agents |
+| 1315000G0AAABAB | Hydroquinone 5% cream | Depigmenting agents |
+| 1315000G0BEABAW | Eldoquin 2% cream | Depigmenting agents |
+| 1315000G0BEAAAL | Eldoquin 4% cream | Depigmenting agents |
+| 1315000G0AABHBH | Hydrocort 1% / Tretinoin 0.025% / Hydroquinone 4% in Aq crm | Depigmenting agents |
+| 1315000G0AABJBJ | Hydrocort 1%/Tret 0.025%/Hydroquinone 4% in Gen Unguen M crm | Depigmenting agents |
+| 1315000G0AABIBI | Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream | Depigmenting agents |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

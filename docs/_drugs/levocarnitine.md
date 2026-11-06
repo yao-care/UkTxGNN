@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Levocarnitine"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This report focuses on that top-evidence candidate. Other predictions are summar
 | Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* Under the strict rule (at least two completed Phase 3 RCTs), the evidence is closer to L2. There is one completed Phase 2/3 RCT (n=268), plus a small recruiting Early Phase 1 trial. The L1 label comes from the upstream scoring and should be read with caution.
@@ -101,11 +101,29 @@ In failing heart muscle, energy metabolism is impaired and carnitine pools may b
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0908010Z0AAABAB (BNF-style code; no PL number in the data) | Levocarnitine 500 mg capsules | Capsule (not stated in the data) | Not stated in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0908010C0AAAGAG | Levocarnitine 1.5g/5ml oral solution paediatric | Levocarnitine |
+| 0908010C0AAAJAJ | Levocarnitine 1.5g/5ml oral solution paediatric sugar free | Levocarnitine |
+| 0908010C0AAABAB | Levocarnitine 1g chewable tablets | Levocarnitine |
+| 0908010C0AAALAL | Levocarnitine 1g tablets | Levocarnitine |
+| 0908010C0AAAAAA | Levocarnitine 1g/10ml soln unit dose vials sugar free | Levocarnitine |
+| 0908010C0AAAHAH | Levocarnitine 1g/5ml solution for injection ampoules | Levocarnitine |
+| 0908010C0AAAIAI | Levocarnitine 330mg tablets | Levocarnitine |
+| 0908010Z0BDAAAC | Bio-Carnitine 250mg capsules | Levocarnitine |
+| 0908010C0BBABAB | Carnitor 1g chewable tablets | Levocarnitine |
+| 0908010C0BBADAH | Carnitor 1g/5ml solution for injection ampoules | Levocarnitine |
+| 0908010C0BBAEAI | Carnitor 330mg tablets | Levocarnitine |
+| 0908010C0BBACAG | Carnitor Paediatric 30% oral solution | Levocarnitine |
+| 0908010C0BBAAAA | Carnitor oral single dose 1g solution | Levocarnitine |
+| 0908010Z0BCAAAB | Lamberts L-Carnitine 500mg capsules | Levocarnitine |
+| 0908010Z0AAACAC | Levocarnitine/L-Carnitine 250mg capsules | Levocarnitine |
+| 0908010Z0AAABAB | Levocarnitine/L-Carnitine 500mg capsules | Levocarnitine |
+| 0908010C0BCAAAL | ValuBurn L-Carnitine 1000mg tablets | Levocarnitine |
 
-One valid single-ingredient authorisation is recorded. Please check the current SmPC and BNF for licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC and BNF for licensed indications.
 
 ---
 

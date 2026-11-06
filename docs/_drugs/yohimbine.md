@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 657
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Yohimbine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the available data"
 monitor_inn: "Yohimbine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
@@ -52,8 +52,8 @@ The evidence is weak, and the pharmacology points in an unfavourable direction, 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,12 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704050Y0AAAMAM (BNF-style product code) | Yohimbine HCl Tab 5 mg | Tablet (not recorded in data) | Not recorded in data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704050Y0AAAVAV | Yohimbine 5mg tablets | Yohimbine hydrochloride |
+| 0704050Y0BCAAAV | Prowess Plain 5mg tablets | Yohimbine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Only one single-ingredient product is listed, and it is recorded as valid. The compiled data do not give the manufacturer, dosage form or approved indication.
 

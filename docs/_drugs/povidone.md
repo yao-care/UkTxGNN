@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Povidone: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Congenital ichthyosiform erythroderma |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,12 +72,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1108010T0BBAAAA | Oculotect Eye Drops 5% 0.4ml Unit Dose, preservative-free | Eye drops | Not stated in the data compiled |
-| 1108010T0AAAAAA | Povidone K 25 Eye Drops 5% 0.4ml Unit Dose, preservative-free | Eye drops | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108010T0BBAAAA | Oculotect 5% eye drops 0.4ml unit dose | Povidone K 25 |
+| 1108010T0AAAAAA | Povidone K25 5% eye drops 0.4ml unit dose preservative free | Povidone K 25 |
 
-Both listings are single-ingredient products with valid status. The identifiers shown appear to be BNF-style product codes rather than standard MHRA "PL" numbers, so please verify them against the MHRA register.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown appear to be BNF-style product codes rather than standard MHRA "PL" numbers, so please verify them against the MHRA register.
 
 ## Safety Considerations
 

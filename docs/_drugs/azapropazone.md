@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Azapropazone"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Azapropazone: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010B0AAABAB | Azapropazone Tab 600mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010B0AAAAAA | Azapropazone 300mg capsules | Azapropazone |
+| 1001010B0AAABAB | Azapropazone 600mg tablets | Azapropazone |
+| 1001010B0BBAAAA | Rheumox 300mg capsules | Azapropazone |
+| 1001010B0BBABAB | Rheumox 600mg tablets | Azapropazone |
 
-The local data hold one valid single-ingredient licence for this drug.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

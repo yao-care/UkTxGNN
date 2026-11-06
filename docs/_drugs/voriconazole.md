@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 655
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Voriconazole: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Voriconaz
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,23 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Voriconaz
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0502010D0AAAAAA | Voriconazole_Tab 200mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0502010D0AAAGAG | Voriconazole 1% eye drops | Voriconazole |
+| 0502010D0AAAEAE | Voriconazole 1% eye drops preservative free | Voriconazole |
+| 0502010D0AAAHAH | Voriconazole 100mg tablets | Voriconazole |
+| 0502010D0AAAFAF | Voriconazole 200mg inj vials | Voriconazole |
+| 0502010D0AAACAC | Voriconazole 200mg powder for solution for infusion vials | Voriconazole |
+| 0502010D0AAAAAA | Voriconazole 200mg tablets | Voriconazole |
+| 0502010D0AAADAD | Voriconazole 200mg/5ml oral suspension | Voriconazole |
+| 0502010D0AAABAB | Voriconazole 50mg tablets | Voriconazole |
+| 0502010D0BBAEAF | VFEND 200mg inj vials | Voriconazole |
+| 0502010D0BBACAC | VFEND 200mg powder for solution for infusion vials | Voriconazole |
+| 0502010D0BBAAAA | VFEND 200mg tablets | Voriconazole |
+| 0502010D0BBADAD | VFEND 40mg/ml oral suspension | Voriconazole |
+| 0502010D0BBABAB | VFEND 50mg tablets | Voriconazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

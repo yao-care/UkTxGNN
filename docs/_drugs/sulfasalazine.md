@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sulfasalazine: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
@@ -52,8 +52,8 @@ A lower-ranked prediction, **osteoarthritis**, has preclinical support only (see
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,11 +96,29 @@ No human osteoarthritis trials were identified. Several other retrieved papers c
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0105010E0AAAAAA (BNF-style code as listed; PL number not available) | Sulfasalazine Tab 500mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0105010E0AAANAN | Sulfasalazine 100mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0AAAKAK | Sulfasalazine 125mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0AAALAL | Sulfasalazine 200mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0AAAEAE | Sulfasalazine 250mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0AAAPAP | Sulfasalazine 250mg/5ml oral suspension sugar free | Sulfasalazine |
+| 0105010E0AAADAD | Sulfasalazine 3g/100ml retention enema | Sulfasalazine |
+| 0105010E0AAABAB | Sulfasalazine 500mg gastro-resistant tablets | Sulfasalazine |
+| 0105010E0AAACAC | Sulfasalazine 500mg suppositories | Sulfasalazine |
+| 0105010E0AAAAAA | Sulfasalazine 500mg tablets | Sulfasalazine |
+| 0105010E0AAAJAJ | Sulfasalazine 500mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0BBAEAE | Salazopyrin 250mg/5ml oral suspension | Sulfasalazine |
+| 0105010E0BBADAD | Salazopyrin 3g/100ml enema | Sulfasalazine |
+| 0105010E0BBACAC | Salazopyrin 500mg suppositories | Sulfasalazine |
+| 0105010E0BBAAAA | Salazopyrin 500mg tablets | Sulfasalazine |
+| 0105010E0BBABAB | Salazopyrin EN-Tabs 500mg | Sulfasalazine |
+| 0105010E0BCABAB | Sulazine EC 500mg tablets (Genesis Pharm) | Sulfasalazine |
+| 0105010E0BCACAB | Sulazine EC 500mg tablets (Teva) | Sulfasalazine |
 
-One valid single-ingredient authorisation is recorded. Please check the current SmPC, the BNF and any relevant NICE guidance for authorised indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC, the BNF and any relevant NICE guidance for authorised indications.
 
 ---
 

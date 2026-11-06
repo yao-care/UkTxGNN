@@ -5,7 +5,7 @@ layout: default
 title: Phenothrin
 parent: Known Uses Only (No New Predictions)
 nav_order: 491
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Phenothrin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Phenothrin"
 predicted_indications: []
@@ -43,16 +43,23 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310040S0AAABAB | Phenothrin_Alcoholic Lot 0.2% | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310040S0AAABAB | Phenothrin 0.2% lotion | Phenothrin |
+| 1310040S0AAADAD | Phenothrin 0.5% foam | Phenothrin |
+| 1310040S0AAACAC | Phenothrin 0.5% liquid | Phenothrin |
+| 1310040S0BBABAB | Full Marks 0.2% lotion | Phenothrin |
+| 1310040S0BBACAC | Full Marks 0.5% liquid | Phenothrin |
+| 1310040S0BBADAD | Full Marks 0.5% mousse | Phenothrin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is in the format supplied in the compiled data and is not a standard MHRA "PL" number. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available.
 

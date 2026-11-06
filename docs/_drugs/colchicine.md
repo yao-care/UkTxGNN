@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001040G0AAACAC | Colchicine Tab 500mcg | Tablet (500 microgram) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040G0AAAHAH | Colchicine 250micrograms/5ml oral solution | Colchicine |
+| 1001040G0AAAKAK | Colchicine 250micrograms/ml oral solution sugar free | Colchicine |
+| 1001040G0AAAIAI | Colchicine 400micrograms/5ml oral suspension | Colchicine |
+| 1001040G0AAACAC | Colchicine 500microgram tablets | Colchicine |
 
-Only one authorisation record is available, and it carries no indication text or manufacturer. Please check the current MHRA authorisation and the BNF for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA authorisation and the BNF for the licensed indications.
 
 ## Cytotoxicity
 

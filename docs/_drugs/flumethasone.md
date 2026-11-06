@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis…"
 monitor_inn: "flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, but there 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -74,12 +74,14 @@ Other predicted indications were considered, and none has supporting evidence:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1201010F0BBAAAA | Locorten-Vioform Ear Drops | Ear drops (not specified in the data) | Not available |
-| 1201010F0AAAAAA | Flumetasone/Clioquinol Ear Drops 0.02%/1% | Ear drops | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1201010F0AAAAAA | Flumetasone 0.02% / Clioquinol 1% ear drops | Flumetasone pivalate |
+| 1201010F0BBAAAA | Locorten Vioform ear drops | Flumetasone pivalate |
 
-Both authorisations are valid single-ingredient records. The numbers above are as recorded in the data compiled for this report and are not in standard PL format. The products are ear preparations, so any use for scalp or skin conditions would be outside the marketed route and would need a route-compatibility assessment.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The numbers above are as recorded in the data compiled for this report and are not in standard PL format. The products are ear preparations, so any use for scalp or skin conditions would be outside the marketed route and would need a route-compatibility assessment.
 
 ---
 

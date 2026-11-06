@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Lansoprazole is a proton pump inhibitor, originally used for acid-related upper 
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 (model prediction with no actual studies; the single review is general and does not address this indication) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,9 +84,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103050L0AAAAAA (BNF code, section 1.3.5 proton pump inhibitors) | Lansoprazole capsules 30 mg (gastro-resistant granules) | Capsule | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103050L0AAARAR | Lansoprazole 10mg oral powder sachets | Lansoprazole |
+| 0103050L0AAAIAI | Lansoprazole 10mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AAAUAU | Lansoprazole 11mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AAABAB | Lansoprazole 15mg gastro-resistant capsules | Lansoprazole |
+| 0103050L0AABBBB | Lansoprazole 15mg oral powder sachets | Lansoprazole |
+| 0103050L0AAAGAG | Lansoprazole 15mg orodispersible tablets | Lansoprazole |
+| 0103050L0AAAMAM | Lansoprazole 15mg/5ml oral solution | Lansoprazole |
+| 0103050L0AAAXAX | Lansoprazole 15mg/5ml oral suspension | Lansoprazole |
+| 0103050L0AAASAS | Lansoprazole 20mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AABABA | Lansoprazole 22.5mg/5ml oral suspension | Lansoprazole |
+| 0103050L0AAAVAV | Lansoprazole 22mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AABDBD | Lansoprazole 3.75mg/5ml oral solution | Lansoprazole |
+| 0103050L0AAAAAA | Lansoprazole 30mg gastro-resistant capsules | Lansoprazole |
+| 0103050L0AAADAD | Lansoprazole 30mg gastro-resistant granules sachets | Lansoprazole |
+| 0103050L0AAAHAH | Lansoprazole 30mg orodispersible tablets | Lansoprazole |
+| 0103050L0AAAJAJ | Lansoprazole 30mg/5ml oral solution | Lansoprazole |
+| 0103050L0AAAYAY | Lansoprazole 30mg/5ml oral suspension | Lansoprazole |
+| 0103050L0AAAKAK | Lansoprazole 3mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AAATAT | Lansoprazole 40mg/5ml oral liquid | Lansoprazole |
+| 0103050L0AAAPAP | Lansoprazole 4mg/5ml oral liquid | Lansoprazole |
+
+Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

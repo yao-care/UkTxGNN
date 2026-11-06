@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Carvedilol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Carvedilol is a beta-blocker that also blocks alpha-1 adrenergic receptors. The 
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 020400080AAABAB | Carvedilol Tab 12.5mg | Not recorded | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 020400080AAAMAM | Carvedilol 1.5mg/5ml oral suspension | Carvedilol |
+| 020400080AAABAB | Carvedilol 12.5mg tablets | Carvedilol |
+| 020400080AAACAC | Carvedilol 25mg tablets | Carvedilol |
+| 020400080AAAEAE | Carvedilol 3.125mg tablets | Carvedilol |
+| 020400080AAADAD | Carvedilol 3.125mg/5ml oral suspension | Carvedilol |
+| 020400080AAANAN | Carvedilol 3.5mg suppositories | Carvedilol |
+| 020400080AAAPAP | Carvedilol 5mg/5ml oral suspension | Carvedilol |
+| 020400080AAAFAF | Carvedilol 6.25mg tablets | Carvedilol |
+| 020400080BBAAAB | Eucardic 12.5mg tablets | Carvedilol |
+| 020400080BBABAC | Eucardic 25mg tablets | Carvedilol |
+| 020400080BBACAE | Eucardic 3.125mg tablets | Carvedilol |
+| 020400080BBADAF | Eucardic 6.25mg tablets | Carvedilol |
 
-The local data record a single valid single-ingredient licence and no cancelled licences.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

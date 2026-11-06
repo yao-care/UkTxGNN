@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acetazolamide: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Relations recorded in the knowledge graph: absence epilepsy…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (35 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 35 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,32 @@ Currently no related literature available for exercise-induced malignant hyperth
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000B0AAACAC | Acetazolamide Tab 250mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000B0AAA2A2 | Acetazolamide 100mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABDBD | Acetazolamide 10mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAA6A6 | Acetazolamide 110mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAA5A5 | Acetazolamide 120mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAASAS | Acetazolamide 125mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABFBF | Acetazolamide 145mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAA7A7 | Acetazolamide 150mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABJBJ | Acetazolamide 160mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABMBM | Acetazolamide 175mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABCBC | Acetazolamide 18mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAAYAY | Acetazolamide 200mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABLBL | Acetazolamide 20mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABBBB | Acetazolamide 220mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAALAL | Acetazolamide 250mg modified-release capsules | Acetazolamide |
+| 1106000B0AAACAC | Acetazolamide 250mg tablets | Acetazolamide |
+| 1106000B0AAATAT | Acetazolamide 250mg/5ml oral solution | Acetazolamide |
+| 1106000B0AABQBQ | Acetazolamide 250mg/5ml oral suspension | Acetazolamide |
+| 1106000B0AABEBE | Acetazolamide 25mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AAA1A1 | Acetazolamide 275mg/5ml oral liquid | Acetazolamide |
+| 1106000B0AABNBN | Acetazolamide 300mg/5ml oral liquid | Acetazolamide |
 
-The compiled data list one single-ingredient authorisation, which is currently valid. No indication text or dosage form is recorded, so the licensed indications should be checked against the current SmPC and BNF.
+Showing 20 of 35 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No indication text or dosage form is recorded, so the licensed indications should be checked against the current SmPC and BNF.
 
 ---
 

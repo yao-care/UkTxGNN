@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tolcapone: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Tolcapone"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,14 @@ For the related prediction of Lewy body dementia, one preclinical publication wa
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010S0AAAAAA | Tolcapone tablets 100 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010S0AAAAAA | Tolcapone 100mg tablets | Tolcapone |
+| 0409010S0BBAAAA | Tasmar 100mg tablets | Tolcapone |
 
-The data compiled for this report show one valid single-ingredient authorisation. The identifier shown does not follow the usual MHRA "PL" format, so check it against the MHRA database. Please confirm the current licensed indication and BNF classification in the SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown does not follow the usual MHRA "PL" format, so check it against the MHRA database. Please confirm the current licensed indication and BNF classification in the SmPC and BNF.
 
 ## Safety Considerations
 

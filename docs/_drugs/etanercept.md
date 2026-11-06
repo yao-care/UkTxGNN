@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Etanercept is a biologic TNF inhibitor. The TxGNN model predicts it may be relev
 | Predicted New Indication | hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,7 +78,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Etanercept is marketed in the UK, with one valid single-ingredient licence recorded in the local data and none cancelled. The approved indication text is not recorded in the local data, and the dosage form is not recorded either. The product is listed as a 50 mg/mL pre-filled syringe injection.
+The approved indication text is not recorded in the local data, and the dosage form is not recorded either. The product is listed as a 50 mg/mL pre-filled syringe injection.
 
 ---
 

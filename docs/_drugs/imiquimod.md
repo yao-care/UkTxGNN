@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital human papillomavirus infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, wit
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The compiled data assigns L1, but by the stated criteria this is not supported. The only completed Phase 3 trial is a 20-patient single-arm study, and the second Phase 3 trial was terminated after 9 participants. Neither meets the bar of two completed Phase 3 RCTs. The supporting evidence is a Cochrane systematic review and other reviews, so L3 is the more defensible grade.
@@ -83,11 +83,17 @@ Actinic keratosis, a premalignant skin lesion, is already among imiquimod's esta
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1307000V0AAAAAA | Imiquimod cream 5%, 250 mg sachet | Cream (recorded form not stated) | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1307000V0AAABAB | Imiquimod 3.75% cream 250mg sachets | Imiquimod |
+| 1307000V0AAAAAA | Imiquimod 5% cream 250mg sachets | Imiquimod |
+| 1307000V0BBAAAA | Aldara 5% cream 250mg sachets | Imiquimod |
+| 1307000V0BDAAAA | Bascellex 50mg/g cream 250mg sachets | Imiquimod |
+| 1307000V0BCAAAB | Zyclara 3.75% cream 250mg sachets | Imiquimod |
 
-This is the only authorisation in the data compiled for this report. The identifier does not follow the usual MHRA "PL" format, so please verify it against the MHRA record. NICE appraisal and BNF classification details were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier does not follow the usual MHRA "PL" format, so please verify it against the MHRA record. NICE appraisal and BNF classification details were not available.
 
 ## Cytotoxicity
 

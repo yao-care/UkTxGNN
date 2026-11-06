@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ meaning **no clinical trial or literature evidence** could be retrieved to suppo
 | Predicted New Indication | None |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — no predictions generated |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (1 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 |
 | Recommended Decision | Hold |
 
 ---

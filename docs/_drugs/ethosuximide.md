@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 263
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ethosuximide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Absence epilepsy"
 monitor_inn: "Ethosuximide"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ but currently there are **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010I0AAABAB (BNF-style product code; PL number not available) | Ethosuximide oral solution 250mg/5ml | Oral solution | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010I0AAAAAA | Ethosuximide 250mg capsules | Ethosuximide |
+| 0408010I0AAABAB | Ethosuximide 250mg/5ml oral solution | Ethosuximide |
+| 0408010I0AAAKAK | Ethosuximide 250mg/5ml oral solution sugar free | Ethosuximide |
+| 0408010I0AAALAL | Ethosuximide 500mg/5ml oral solution sugar free | Ethosuximide |
+| 0408010I0BBAAAA | Emeside 250mg capsules | Ethosuximide |
+| 0408010I0BBABAB | Emeside 250mg/5ml syrup | Ethosuximide |
+| 0408010I0BDAAAA | Epesri 250mg capsules | Ethosuximide |
+| 0408010I0BDABAB | Epesri 250mg/5ml syrup | Ethosuximide |
+| 0408010I0BCAAAA | Zarontin 250mg capsules | Ethosuximide |
+| 0408010I0BCABAB | Zarontin 250mg/5ml syrup | Ethosuximide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (0408010) corresponds to the anti-epileptic drug section (BNF chapter 4.8.1).
 

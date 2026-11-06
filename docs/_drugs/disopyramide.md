@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Disopyramide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Not stated in the UK authorisation data (the drug is a Class Ia antia…"
 monitor_inn: "Disopyramide"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ This is a model-only signal with no supporting evidence, and it should be treate
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +90,29 @@ For context, the only publication retrieved across all top-10 predictions relate
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0203020F0AAABAB (BNF code) | Disopyramide capsules 100 mg | Capsule | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0203020F0AAABAB | Disopyramide 100mg capsules | Disopyramide |
+| 0203020F0AAAVAV | Disopyramide 100mg/5ml oral liquid | Disopyramide |
+| 0203020F0AAACAC | Disopyramide 150mg capsules | Disopyramide |
+| 0203020G0AAAEAE | Disopyramide 150mg modified-release tablets | Disopyramide phosphate |
+| 0203020F0AAASAS | Disopyramide 16mg/5ml oral liquid | Disopyramide |
+| 0203020F0AAAWAW | Disopyramide 20mg/5ml oral liquid | Disopyramide |
+| 0203020G0AAABAB | Disopyramide 250mg modified-release capsules | Disopyramide phosphate |
+| 0203020G0AAACAC | Disopyramide 250mg modified-release tablets | Disopyramide phosphate |
+| 0203020F0AAAPAP | Disopyramide 25mg capsules | Disopyramide |
+| 0203020F0AAAXAX | Disopyramide 25mg/5ml oral liquid | Disopyramide |
+| 0203020F0AAARAR | Disopyramide 50mg/5ml oral liquid | Disopyramide |
+| 0203020G0AAAFAF | Disopyramide 50mg/5ml solution for injection ampoules | Disopyramide phosphate |
+| 0203020G0BCABAE | Dirythmin SA 150mg tablets | Disopyramide phosphate |
+| 0203020G0BBAAAB | Isomide CR 250mg capsules | Disopyramide phosphate |
+| 0203020F0BCAAAB | Rythmodan 100mg capsules | Disopyramide |
+| 0203020F0BCACAB | Rythmodan 100mg capsules (Imported Canada) | Disopyramide |
+| 0203020F0BCABAC | Rythmodan 150mg capsules | Disopyramide |
+| 0203020G0BDAAAF | Rythmodan 50mg/5ml solution for injection ampoules | Disopyramide phosphate |
+| 0203020G0BDABAC | Rythmodan Retard 250mg tablets | Disopyramide phosphate |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (0203020F0) falls within the cardiovascular system, antiarrhythmic drugs chapter. The compiled data do not include a PL number, manufacturer or indication text. The record should be checked against the MHRA product information.
 

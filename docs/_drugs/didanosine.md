@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Didanosine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Didanosine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infection and AIDS"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010N0AAAIAI | Didanosine Cap E/C 400mg | Capsule (enteric-coated, from product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010N0AAAFAF | Didanosine 125mg gastro-resistant capsules | Didanosine |
+| 0503010N0AAADAD | Didanosine 150mg dispersible chewable tablets sugar free | Didanosine |
+| 0503010N0AAAEAE | Didanosine 200mg dispersible chewable tablets sugar free | Didanosine |
+| 0503010N0AAAGAG | Didanosine 200mg gastro-resistant capsules | Didanosine |
+| 0503010N0AAAHAH | Didanosine 250mg gastro-resistant capsules | Didanosine |
+| 0503010N0AAACAC | Didanosine 25mg dispersible chewable tablets sugar free | Didanosine |
+| 0503010N0AAAIAI | Didanosine 400mg gastro-resistant capsules | Didanosine |
+| 0503010N0BBADAD | Videx 150mg chewable dispersible tablets | Didanosine |
+| 0503010N0BBAEAE | Videx 200mg chewable dispersible tablets | Didanosine |
+| 0503010N0BBACAC | Videx 25mg chewable dispersible tablets | Didanosine |
+| 0503010N0BBAFAF | Videx EC 125mg capsules | Didanosine |
+| 0503010N0BBAGAG | Videx EC 200mg capsules | Didanosine |
+| 0503010N0BBAHAH | Videx EC 250mg capsules | Didanosine |
+| 0503010N0BBAIAI | Videx EC 400mg capsules | Didanosine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is a single-ingredient product record. The approved indication text is not available, so the original indications above are not confirmed by licence text.
 

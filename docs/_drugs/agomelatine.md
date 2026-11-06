@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Agomelatine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** in the data compiled for this rep
 | Predicted New Indication | benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040Z0AAAAAA | Agomelatine Tab 25mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040Z0AAAAAA | Agomelatine 25mg tablets | Agomelatine |
+| 0403040Z0BBAAAA | Valdoxan 25mg tablets | Agomelatine |
 
-One valid single-ingredient licence is recorded. The dosage form and approved indication text are not recorded in the local data. The identifier shown appears to be a BNF-style code rather than a PL number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and approved indication text are not recorded in the local data. The identifier shown appears to be a BNF-style code rather than a PL number.
 
 ## Safety Considerations
 

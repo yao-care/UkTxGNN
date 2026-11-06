@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Rifabutin is a rifamycin antibiotic that inhibits bacterial DNA-dependent RNA po
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,9 +92,18 @@ No retrieved trial tests rifabutin as a treatment for HIV infection. The trials 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090Q0AAABAB (BNF code) | Rifabutin Cap 150mg | Capsule (150 mg) | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090Q0AAAZAZ | Rifabutin 100mg/5ml oral liquid | Rifabutin |
+| 0501090Q0AAABAB | Rifabutin 150mg capsules | Rifabutin |
+| 0501090Q0AAAUAU | Rifabutin 150mg/5ml oral liquid | Rifabutin |
+| 0501090Q0AAAJAJ | Rifabutin 50mg/5ml oral liquid | Rifabutin |
+| 0501090Q0AAAGAG | Rifabutin 60mg/5ml oral liquid | Rifabutin |
+| 0501090Q0AAALAL | Rifabutin 75mg/5ml oral liquid | Rifabutin |
+| 0501090Q0AAAVAV | Rifabutin 90mg/5ml oral liquid | Rifabutin |
+| 0501090Q0BBAAAB | Mycobutin 150mg capsules | Rifabutin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

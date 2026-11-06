@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Aripiprazole is an atypical antipsychotic originally used for manic bipolar diso
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (36 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 36 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,9 +108,30 @@ One further meta-analysis of aripiprazole or bupropion augmentation (PMID 386692
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010ADAAAAAA (BNF-style code, not a PL number) | Aripiprazole tablets 10 mg | Not stated | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010ADAAAEAE | Aripiprazole 10mg orodispersible tablets sugar free | Aripiprazole |
+| 0402010ADAAAAAA | Aripiprazole 10mg tablets | Aripiprazole |
+| 0402010ADAAAFAF | Aripiprazole 15mg orodispersible tablets sugar free | Aripiprazole |
+| 0402010ADAAABAB | Aripiprazole 15mg tablets | Aripiprazole |
+| 0402010ADAAALAL | Aripiprazole 1mg tablets | Aripiprazole |
+| 0402010ADAAAGAG | Aripiprazole 1mg/ml oral solution | Aripiprazole |
+| 0402010ADAAAKAK | Aripiprazole 1mg/ml oral solution sugar free | Aripiprazole |
+| 0402010ADAAAMAM | Aripiprazole 2.5mg tablets | Aripiprazole |
+| 0402010ADAAANAN | Aripiprazole 20mg tablets | Aripiprazole |
+| 0402010ADAAACAC | Aripiprazole 30mg tablets | Aripiprazole |
+| 0402010ADAAADAD | Aripiprazole 5mg tablets | Aripiprazole |
+| 0402010ADAAAJAJ | Aripiprazole 7.5mg/ml oral solution | Aripiprazole |
+| 0402020ADAAADAD | Aripiprazole 720mg/2.4ml prolonged-rel inj pf syringes | Aripiprazole |
+| 0402010ADAAAHAH | Aripiprazole 9.75mg/1.3ml solution for injection vials | Aripiprazole |
+| 0402020ADAAACAC | Aripiprazole 960mg/3.2ml prolonged-rel inj pf syringes | Aripiprazole |
+| 0402010ADBBAEAE | Abilify 10mg orodispersible tablets | Aripiprazole |
+| 0402010ADBBAAAA | Abilify 10mg tablets | Aripiprazole |
+| 0402010ADBBAFAF | Abilify 15mg orodispersible tablets | Aripiprazole |
+| 0402010ADBBABAB | Abilify 15mg tablets | Aripiprazole |
+| 0402010ADBBAGAG | Abilify 1mg/ml oral solution | Aripiprazole |
+
+Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF code 0402010 corresponds to antipsychotic drugs. Dosage form, manufacturer and approved indication text were not available for this entry. Please check the current MHRA record and SmPC.
 
@@ -131,7 +152,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed, large Phase 3 placebo-controlled trials and several network meta-analyses support adjunctive aripiprazole in major depressive disorder, which fits an L1 evidence level. The UK licence record does not state indications, and the safety profile requires careful management.
+Multiple completed, large Phase 3 placebo-controlled trials and several network meta-analyses support adjunctive aripiprazole in major depressive disorder, which fits an L1 evidence level. The safety profile requires careful management.
 
 **To proceed, the following is needed:**
 - Confirmation of the UK licensed indications and current SmPC wording, including whether adjunctive use in depression is within licence

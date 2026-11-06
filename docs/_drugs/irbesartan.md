@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **no clinical trials** and **no publications** directly 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 Other predicted indications in the data compiled for this report:
@@ -90,11 +90,32 @@ No literature was found for the top-ranked prediction (malignant renovascular hy
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205052I0AAAAAA | Irbesartan Tab 75mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205052I0AAAMAM | Irbesartan 100mg/5ml oral suspension | Irbesartan |
+| 0205052I0AAABAB | Irbesartan 150mg tablets | Irbesartan |
+| 0205052I0AAAFAF | Irbesartan 150mg/5ml oral suspension | Irbesartan |
+| 0205052I0AAAJAJ | Irbesartan 20mg oral powder sachets | Irbesartan |
+| 0205052I0AAAIAI | Irbesartan 300mg oral powder sachets | Irbesartan |
+| 0205052I0AAACAC | Irbesartan 300mg tablets | Irbesartan |
+| 0205052I0AAAGAG | Irbesartan 300mg/5ml oral suspension | Irbesartan |
+| 0205052I0AAAKAK | Irbesartan 30mg oral powder sachets | Irbesartan |
+| 0205052I0AAALAL | Irbesartan 37.5mg oral powder sachets | Irbesartan |
+| 0205052I0AAAAAA | Irbesartan 75mg tablets | Irbesartan |
+| 0205052I0BBABAB | Aprovel 150mg tablets | Irbesartan |
+| 0205052I0BBACAC | Aprovel 300mg tablets | Irbesartan |
+| 0205052I0BBAAAA | Aprovel 75mg tablets | Irbesartan |
+| 0205052A0BBAAAA | CoAprovel 150mg/12.5mg tablets | Irbesartan with diuretic |
+| 0205052A0BBABAB | CoAprovel 300mg/12.5mg tablets | Irbesartan with diuretic |
+| 0205052A0BBACAC | CoAprovel 300mg/25mg tablets | Irbesartan with diuretic |
+| 0205052I0BEABAB | Ifirmasta 150mg tablets | Irbesartan |
+| 0205052I0BEACAC | Ifirmasta 300mg tablets | Irbesartan |
+| 0205052I0BEAAAA | Ifirmasta 75mg tablets | Irbesartan |
+| 0205052A0AAAAAA | Irbesartan 150mg / Hydrochlorothiazide 12.5mg tablets | Irbesartan with diuretic |
 
-Only one valid single-ingredient authorisation is recorded, and no dosage form or indication text was supplied. Please check the current MHRA record and BNF (cardiovascular system, angiotensin-II receptor antagonists) for full details.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record and BNF (cardiovascular system, angiotensin-II receptor antagonists) for full details.
 
 ## Safety Considerations
 

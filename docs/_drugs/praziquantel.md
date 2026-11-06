@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 513
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Praziquantel: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 4 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ## Known uses recorded for this drug
 
@@ -75,9 +75,16 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0505050P0AAAAAA | Praziquantel_Tab 600mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0505050P0AAADAD | Praziquantel 150mg tablets | Praziquantel |
+| 0505050P0AAABAB | Praziquantel 500mg tablets | Praziquantel |
+| 0505050P0AAAAAA | Praziquantel 600mg tablets | Praziquantel |
+| 0505050P0BBAAAA | Biltricide 600mg tablets | Praziquantel |
+| 0505050P0BCAAAD | Cesol 150mg tablets | Praziquantel |
+| 0505050P0BEAAAB | Cysticide 500mg tablets | Praziquantel |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

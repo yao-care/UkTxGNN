@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9936 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (47 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 47 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,11 +92,32 @@ Publications directly relevant to a possible therapeutic role are listed first. 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090K0AAAHAH | Isoniazid Tab 50mg | Tablet (not specified in the data) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090K0AAAIAI | Isoniazid 100mg tablets | Isoniazid |
+| 0501090K0AABJBJ | Isoniazid 100mg/5ml oral liquid | Isoniazid |
+| 0501090K0AABQBQ | Isoniazid 110mg/5ml oral solution | Isoniazid |
+| 0501090K0AACSCS | Isoniazid 119mg/5ml oral solution | Isoniazid |
+| 0501090K0AABZBZ | Isoniazid 120mg/5ml oral solution | Isoniazid |
+| 0501090K0AACECE | Isoniazid 125mg/5ml oral solution | Isoniazid |
+| 0501090K0AABKBK | Isoniazid 130mg/5ml oral solution | Isoniazid |
+| 0501090K0AABPBP | Isoniazid 135mg/5ml oral solution | Isoniazid |
+| 0501090K0AACBCB | Isoniazid 140mg/5ml oral solution | Isoniazid |
+| 0501090K0AABLBL | Isoniazid 150mg/5ml oral liquid | Isoniazid |
+| 0501090K0AABNBN | Isoniazid 17.5mg/5ml oral solution | Isoniazid |
+| 0501090K0AACKCK | Isoniazid 170mg/5ml oral solution | Isoniazid |
+| 0501090K0AACGCG | Isoniazid 175mg/5ml oral solution | Isoniazid |
+| 0501090K0AABUBU | Isoniazid 180mg/5ml oral solution | Isoniazid |
+| 0501090K0AABMBM | Isoniazid 200mg/5ml oral liquid | Isoniazid |
+| 0501090K0AABSBS | Isoniazid 220mg/5ml oral solution | Isoniazid |
+| 0501090K0AABWBW | Isoniazid 250mg/5ml oral solution | Isoniazid |
+| 0501090K0AACDCD | Isoniazid 25mg/5ml oral solution | Isoniazid |
+| 0501090K0AACFCF | Isoniazid 260mg/5ml oral solution | Isoniazid |
+| 0501090K0AACACA | Isoniazid 270mg/5ml oral solution | Isoniazid |
 
-The data compiled for this report list one valid single-ingredient authorisation. The identifier shown does not follow the usual MHRA "PL" format, so please verify the authorisation details against the MHRA register and the BNF.
+Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown does not follow the usual MHRA "PL" format, so please verify the authorisation details against the MHRA register and the BNF.
 
 ---
 

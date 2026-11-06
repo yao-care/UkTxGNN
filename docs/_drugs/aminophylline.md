@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 51
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,24 @@ Currently no related clinical trials registered for migraine disorder.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301030B0AAARAR (BNF code) | Aminophylline Tab 225 mg M/R | Modified-release tablet | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301030B0AAANAN | Aminophylline 100mg tablets | Aminophylline |
+| 0301030B0AAARAR | Aminophylline 225mg modified-release tablets | Aminophylline |
+| 0301030B0BCAAA9 | Aminophylline 250mg/10ml inj Minijet pre-filled syringes | Aminophylline |
+| 0301030B0AAA9A9 | Aminophylline 250mg/10ml inj pre-filled syringes | Aminophylline |
+| 0301030B0AAABAB | Aminophylline 250mg/10ml solution for injection ampoules | Aminophylline |
+| 0301030B0AAAMAM | Aminophylline 360mg suppositories | Aminophylline |
+| 0301030C0AAADAD | Aminophylline hydrate 100mg modified-release tablets | Aminophylline hydrate |
+| 0301030C0AAAEAE | Aminophylline hydrate 225mg modified-release tablets | Aminophylline hydrate |
+| 0301030C0AAACAC | Aminophylline hydrate 350mg modified-release tablets | Aminophylline hydrate |
+| 0301030B0BDAAAR | Amnivent-225 SR tablets | Aminophylline |
+| 0301030B0BFABAR | Norphyllin SR 225mg tablets | Aminophylline |
+| 0301030C0BCAAAE | Phyllocontin Continus 225mg tablets | Aminophylline hydrate |
+| 0301030C0BCABAC | Phyllocontin Forte Continus 350mg tablets | Aminophylline hydrate |
+| 0301030C0BCACAD | Phyllocontin Paediatric Continus 100mg tablets | Aminophylline hydrate |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

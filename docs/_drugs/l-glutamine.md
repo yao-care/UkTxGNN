@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "L-Glutamine"
 predicted_indications: ["drug-induced osteoporosis", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "severe nonproliferative diabetic retinopathy", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **dermatitis** (the highest-ran
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold (treat as a research question) |
 
 **Note on prediction selection:** The top-ranked prediction by TxGNN score was drug-induced osteoporosis (0.9998), followed by haemorrhagic disease of the newborn (0.9996). Neither has any trials or publications, so both remain at L5 with a Hold recommendation. This report focuses on dermatitis (rank 3), the highest-ranked prediction with any supporting data. The other seven predictions (ranks 4-10) also have no supporting evidence.
@@ -91,11 +91,16 @@ Two further retrieved papers (a broiler chicken study and a tear fluid amino aci
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 090401000AABKBK | L-Glutamine powder sachet 5 g | Powder (sachet) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AAFFFF | Glutamine 500mg capsules | Other amino acidandnutritional agent preparations |
+| 090401000AABWBW | Glutamine 5g oral powder sachets sugar free | Other food for special diet preparations |
+| 090401000BBIDBW | GlutaminOx 5g oral powder sachets sugar free | Other food for special diet preparations |
+| 090402000BBQIA0 | Impact with Glutamine liquid | Enteral nutrition |
+| 091101000BBPXFF | Quest L-Glutamine 500mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000BBQPFF | Solgar L-Glutamine 500mg capsules | Other amino acidandnutritional agent preparations |
 
-Only one single-ingredient authorisation (valid status) was identified. The record carries a non-MHRA-style number, and no dosage form text, manufacturer or indication text was supplied, so the UK regulatory details should be verified against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

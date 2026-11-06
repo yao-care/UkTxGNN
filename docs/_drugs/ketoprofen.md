@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,11 +86,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 100302010AAAAAA | Ketoprofen Gel 2.5% | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 100302010AAACAC | Ketoprofen 10% gel | Ketoprofen |
+| 1001010L0AAABAB | Ketoprofen 100mg capsules | Ketoprofen |
+| 1001010L0AAAIAI | Ketoprofen 100mg modified-release capsules | Ketoprofen |
+| 1001010L0AAAPAP | Ketoprofen 100mg suppositories | Ketoprofen |
+| 1001010L0AAAGAG | Ketoprofen 100mg/2ml solution for injection ampoules | Ketoprofen |
+| 1001010L0AAALAL | Ketoprofen 150mg modified-release capsules | Ketoprofen |
+| 100302010AAAAAA | Ketoprofen 2.5% gel | Ketoprofen |
+| 1001010L0AAAJAJ | Ketoprofen 200mg modified-release capsules | Ketoprofen |
+| 1001010L0AAAAAA | Ketoprofen 50mg capsules | Ketoprofen |
+| 1001010L0BQAAAM | Axorid 100mg/20mg modified-release capsules | Ketoprofen |
+| 1001010L0BQABAN | Axorid 200mg/20mg modified-release capsules | Ketoprofen |
+| 1001010L0BJAAAJ | Fenoket 200mg modified-release capsules | Ketoprofen |
+| 1001010L0BMAAAJ | Jomethid XL 200mg capsules | Ketoprofen |
+| 1001010L0BIAAAJ | Ketocid 200 modified-release capsules | Ketoprofen |
+| 1001010L0AAAMAM | Ketoprofen 100mg / Omeprazole 20mg modified-release capsules | Ketoprofen |
+| 1001010L0AAANAN | Ketoprofen 200mg / Omeprazole 20mg modified-release capsules | Ketoprofen |
+| 1001010L0BLAAAJ | Ketotard XL 200mg capsules | Ketoprofen |
+| 1001010L0BEAAAI | Ketovail 100mg modified-release capsules | Ketoprofen |
+| 1001010L0BEABAJ | Ketovail 200mg modified-release capsules | Ketoprofen |
+| 1001010L0BKAAAJ | Ketozip 200 XL capsules | Ketoprofen |
 
-Only one authorisation is recorded, for a topical gel. The authorisation number in the compiled data does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Dosage form and indication text are missing and should be confirmed against the current SmPC and BNF.
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number in the compiled data does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Dosage form and indication text are missing and should be confirmed against the current SmPC and BNF.
 
 ---
 

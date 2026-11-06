@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **tendinitis**, but there are *
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (mechanistic plausibility only; no tendinitis-specific studies) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (72 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 72 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,30 @@ Currently no related clinical trials registered for tendinitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010AEAAAAAA (as recorded; a code rather than a standard PL number) | Pregabalin 25 mg capsules | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010AEAAADAD | Pregabalin 100mg capsules | Pregabalin |
+| 0408010AEAAAUAU | Pregabalin 100mg tablets | Pregabalin |
+| 0408010AEAAAEAE | Pregabalin 150mg capsules | Pregabalin |
+| 0408010AEAAAYAY | Pregabalin 150mg tablets | Pregabalin |
+| 0408010AEAAAJAJ | Pregabalin 150mg/5ml oral liquid | Pregabalin |
+| 0408010AEAABBBB | Pregabalin 165mg modified-release tablets | Pregabalin |
+| 0408010AEAAAFAF | Pregabalin 200mg capsules | Pregabalin |
+| 0408010AEAAAVAV | Pregabalin 200mg tablets | Pregabalin |
+| 0408010AEAAAKAK | Pregabalin 200mg/5ml oral liquid | Pregabalin |
+| 0408010AEAAANAN | Pregabalin 20mg/ml oral solution sugar free | Pregabalin |
+| 0408010AEAAAIAI | Pregabalin 225mg capsules | Pregabalin |
+| 0408010AEAAAZAZ | Pregabalin 225mg tablets | Pregabalin |
+| 0408010AEAAAAAA | Pregabalin 25mg capsules | Pregabalin |
+| 0408010AEAAASAS | Pregabalin 25mg tablets | Pregabalin |
+| 0408010AEAAAMAM | Pregabalin 25mg/5ml oral liquid | Pregabalin |
+| 0408010AEAAAGAG | Pregabalin 300mg capsules | Pregabalin |
+| 0408010AEAAAWAW | Pregabalin 300mg tablets | Pregabalin |
+| 0408010AEAAARAR | Pregabalin 300mg/5ml oral suspension | Pregabalin |
+| 0408010AEAABCBC | Pregabalin 330mg modified-release tablets | Pregabalin |
+| 0408010AEAAABAB | Pregabalin 50mg capsules | Pregabalin |
+
+Showing 20 of 72 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

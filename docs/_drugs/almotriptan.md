@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Almotriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Almotriptan is a triptan, a serotonin 5-HT1B/1D receptor agonist. The TxGNN mode
 | Predicted New Indication | atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,7 +78,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Almotriptan is currently marketed, with at least one valid single-ingredient licence and no cancelled licences in the local records. Indication text and dosage form are not recorded in the local data. Please consult the current SmPC and BNF for authorised uses, formulations and the BNF classification.
+Indication text and dosage form are not recorded in the local data. Please consult the current SmPC and BNF for authorised uses, formulations and the BNF classification.
 
 ---
 

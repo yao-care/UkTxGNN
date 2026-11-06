@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Trandolapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The prediction rests on model output alone.
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,11 +94,26 @@ For context, the literature found for related pulmonary predictions is indirect 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051U0AAACAC (BNF-style product code; PL number not available) | Trandolapril capsules 2 mg | Capsule | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051U0AAABAB | Trandolapril 1mg capsules | Trandolapril |
+| 0205051U0AAACAC | Trandolapril 2mg capsules | Trandolapril |
+| 0205051U0AAAGAG | Trandolapril 2mg/5ml oral suspension | Trandolapril |
+| 0205051U0AAAFAF | Trandolapril 4mg capsules | Trandolapril |
+| 0205051U0AAAAAA | Trandolapril 500microgram capsules | Trandolapril |
+| 0205051U0BBABAB | Gopten 1mg capsules | Trandolapril |
+| 0205051U0BBACAC | Gopten 2mg capsules | Trandolapril |
+| 0205051U0BBADAF | Gopten 4mg capsules | Trandolapril |
+| 0205051U0BBAAAA | Gopten 500microgram capsules | Trandolapril |
+| 0205051U0BCABAB | Odrik 1mg capsules | Trandolapril |
+| 0205051U0BCACAC | Odrik 2mg capsules | Trandolapril |
+| 0205051U0BCAAAA | Odrik 500microgram capsules | Trandolapril |
+| 0205051V0BBAAAA | Tarka modified-release capsules | Trandolapril with calcium channel blocker |
+| 0205051V0AAAAAA | Verapamil 180mg modified-release / Trandolapril 2mg capsules | Trandolapril with calcium channel blocker |
 
-One single-ingredient authorisation is currently valid. Please check the SmPC for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the SmPC for the licensed indications.
 
 ---
 

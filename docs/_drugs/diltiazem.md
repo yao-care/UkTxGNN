@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 229
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Diltiazem: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (107 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 107 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,30 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0107010AAAAAJAJ | Diltiazem HCl_Crm 2% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107010AAAAADAD | Diltiazem 0.2% cream | Diltiazem hydrochloride |
+| 0107010AAAAAIAI | Diltiazem 0.4% cream | Diltiazem hydrochloride |
+| 0107010AAAAAQAQ | Diltiazem 0.4% ointment | Diltiazem hydrochloride |
+| 0107010AAAAALAL | Diltiazem 0.5% ointment | Diltiazem hydrochloride |
+| 0107010AAAAANAN | Diltiazem 1% cream | Diltiazem hydrochloride |
+| 0206020C0AABCBC | Diltiazem 100mg/5ml oral solution | Diltiazem hydrochloride |
+| 0206020C0AABHBH | Diltiazem 10mg/5ml oral solution | Diltiazem hydrochloride |
+| 0206020C0AAAUAU | Diltiazem 120mg modified-release capsules | Diltiazem hydrochloride |
+| 0206020C0AAASAS | Diltiazem 120mg modified-release tablets | Diltiazem hydrochloride |
+| 0206020C0AABBBB | Diltiazem 120mg/5ml oral solution | Diltiazem hydrochloride |
+| 0206020C0AAAVAV | Diltiazem 180mg modified-release capsules | Diltiazem hydrochloride |
+| 0107010AAAAAJAJ | Diltiazem 2% cream | Diltiazem hydrochloride |
+| 0107010AAAAABAB | Diltiazem 2% gel | Diltiazem hydrochloride |
+| 0107010AAAAAKAK | Diltiazem 2% ointment | Diltiazem hydrochloride |
+| 0206020C0AAAXAX | Diltiazem 200mg modified-release capsules | Diltiazem hydrochloride |
+| 0206020C0AABGBG | Diltiazem 20mg/5ml oral solution | Diltiazem hydrochloride |
+| 0206020C0AAAWAW | Diltiazem 240mg modified-release capsules | Diltiazem hydrochloride |
+| 0206020C0AAAEAE | Diltiazem 300mg modified-release capsules | Diltiazem hydrochloride |
+| 0206020C0AABFBF | Diltiazem 30mg/5ml oral solution | Diltiazem hydrochloride |
+| 0206020C0AABABA | Diltiazem 360mg modified-release capsules | Diltiazem hydrochloride |
+
+Showing 20 of 107 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ciclesonide: predicted new indication Atopic eczema (evidence level L5). Approved use: Asthma, intrinsic asthma, allergic asthma, allergic rhinitis…"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this res
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,16 @@ No publications were found for atopic eczema. The publications below relate to o
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0302000U0AAACAC | Ciclesonide inhaler 160 microgram (60 doses) | Inhalation | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0302000U0AAABAB | Ciclesonide 160micrograms/dose inhaler CFC free | Ciclesonide |
+| 0302000U0AAAAAA | Ciclesonide 80micrograms/dose inhaler CFC free | Ciclesonide |
+| 0302000U0BBABAB | Alvesco 160 inhaler | Ciclesonide |
+| 0302000U0BBAAAA | Alvesco 80 inhaler | Ciclesonide |
 
-The reference number follows a BNF-style code (British National Formulary section 3, respiratory system) rather than a standard PL number. One authorisation is recorded, and it is a single-ingredient product.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The reference number follows a BNF-style code (British National Formulary section 3, respiratory system) rather than a standard PL number.
 
 ## Safety Considerations
 

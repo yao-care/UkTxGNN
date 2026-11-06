@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Raloxifene: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but **no cl
 | Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0604011X0AAAAAA | Raloxifene HCl tablets 60 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604011X0AAAAAA | Raloxifene 60mg tablets | Raloxifene hydrochloride |
+| 0604011X0BFAAAA | Evirex 60mg tablets | Raloxifene hydrochloride |
+| 0604011X0BBAAAA | Evista 60mg tablets | Raloxifene hydrochloride |
+| 0604011X0BEAAAA | Ostiral 60mg tablets | Raloxifene hydrochloride |
+| 0604011X0BDAAAA | Razylan 60mg tablets | Raloxifene hydrochloride |
 
-The authorisation record is incomplete: the dosage form and approved indication text are missing, and the identifier is not in the standard MHRA "PL" format. It should be verified against the MHRA register and the BNF before any use.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

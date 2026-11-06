@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -52,8 +52,8 @@ Amenorrhoea is better understood as an expected pharmacological effect of dienog
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (preclinical/mechanistic and indirect literature only; no clinical trials) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,12 +90,18 @@ The data also include a case report of an ovarian granulosa cell tumour (PMID 34
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0703010R0BBAAAA | Qlaira (C/Pk Tab) | Not specified | Not specified |
-| 0703010R0AAAAAA | Estradiol / Estradiol + Dienogest (C/Pk Tab) | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604012W0AAAAAA | Dienogest 2mg tablets | Dienogest |
+| 0604012W0BCAAAA | Dimetrum 2mg tablets | Dienogest |
+| 0703010R0AAAAAA | Generic Qlaira tablets | Estradiol valandestradiol valerate with dienogest |
+| 0703010R0BBAAAA | Qlaira tablets | Estradiol valandestradiol valerate with dienogest |
+| 0604012W0BDAAAA | Sawis 2mg tablets | Dienogest |
+| 0604012W0BBAAAA | Zalkya 2mg tablets | Dienogest |
 
-Both authorisations are valid. Dosage form and indication text are not recorded in the data compiled for this report. The identifiers shown above are as recorded and do not follow the standard MHRA PL number format, so they should be verified against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text are not recorded in the data compiled for this report. The identifiers shown above are as recorded and do not follow the standard MHRA PL number format, so they should be verified against the MHRA register and the BNF.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tadalafil"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -90,9 +90,23 @@ The only publication identified across the predicted indications relates to migr
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704050R0AAAAAA | Tadalafil Tab 10 mg | Tablet (10 mg) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704050R0AAAAAA | Tadalafil 10mg tablets | Tadalafil |
+| 0704050R0AAACAC | Tadalafil 2.5mg tablets | Tadalafil |
+| 0704050R0AAABAB | Tadalafil 20mg tablets | Tadalafil |
+| 0704050R0AAADAD | Tadalafil 5mg tablets | Tadalafil |
+| 0205010Z0BBAAAA | Adcirca 20mg tablets | Tadalafil (Vasodilator Antihypertensive) |
+| 0704050R0BFAAAA | Avarante 10mg tablets | Tadalafil |
+| 0704050R0BBAAAA | Cialis 10mg tablets | Tadalafil |
+| 0704050R0BBACAC | Cialis 2.5mg tablets | Tadalafil |
+| 0704050R0BBABAB | Cialis 20mg tablets | Tadalafil |
+| 0704050R0BBADAD | Cialis 5mg tablets | Tadalafil |
+| 0704050R0BEAAAA | Cialis Together 10mg tablets | Tadalafil |
+| 0704050R0BGAAAA | Stamiz 10mg tablets | Tadalafil |
+| 0704050R0BDAAAB | Talmanco 20mg tablets | Tadalafil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style code rather than a standard MHRA PL number, and the dosage form is inferred from the product name. Please verify both against the MHRA register and the BNF.
 

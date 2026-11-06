@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is mostly small, old or uncontrolled, and is largely based on the l
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---
@@ -100,11 +100,32 @@ Trials for other predicted indications (also weakly relevant): [NCT02403687](htt
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1502010S0AAADAD | Prilocaine HCl injection 1% (10 mg/ml), 50 ml vial | Injection | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1502010S0AAACAC | Prilocaine 200mg/20ml solution for injection vials | Prilocaine hydrochloride |
+| 1502010S0AAADAD | Prilocaine 500mg/50ml solution for injection vials | Prilocaine hydrochloride |
+| 1502010S0BBACAC | Citanest 1% solution for injection 20ml vials | Prilocaine hydrochloride |
+| 1502010S0BBADAD | Citanest 1% solution for injection 50ml vials | Prilocaine hydrochloride |
+| 1502010S0BBAHAI | Citanest 3% with Octapressin Dental 0.054units/1.8ml inj | Prilocaine hydrochloride |
+| 1502010S0BBAJAJ | Citanest 3% with Octapressin Dental 0.066units/2.2ml inj | Prilocaine hydrochloride |
+| 1502010S0BBAKAK | Citanest 3% with Octapressin Dental 1.19microg/2.2ml inj | Prilocaine hydrochloride |
+| 1502010J0BUAABY | Denela 5% cream | Lidocaine hydrochloride |
+| 1502010J0BEAABY | Emla 5% cream | Lidocaine hydrochloride |
+| 0704060B0BBAAAA | Fortacin 150mg/ml / 50mg/ml cutaneous spray (Plethora) | Lidocaine/prilocaine (Premature Ejaculation) |
+| 0704060B0BCAAAA | Fortacin 150mg/ml / 50mg/ml cutaneous spray (Recorati) | Lidocaine/prilocaine (Premature Ejaculation) |
+| 0704060B0AAAAAA | Lidocaine 150mg/ml / Prilocaine 50mg/ml cutaneous spy | Lidocaine/prilocaine (Premature Ejaculation) |
+| 1502010J0AABYBY | Lidocaine 2.5% / Prilocaine 2.5% cream | Lidocaine hydrochloride |
+| 1502010I0AAAJAJ | Lidocaine 25mg/Prilocaine 25mg/g gel 1.7g with applicator SF | Lidocaine |
+| 1502010I0AAAIAI | Lidocaine 25mg/Prilocaine 25mg/g periodontal gel 1.7g SF | Lidocaine |
+| 1502010J0BXAABY | Nulbia 5% cream | Lidocaine hydrochloride |
+| 1502010I0BFABAJ | Oraqix 25mg/25mg/g periodontal gel 1.7g cart with dispenser | Lidocaine |
+| 1502010I0BFAAAI | Oraqix 25mg/25mg/g periodontal gel 1.7g cartridges | Lidocaine |
+| 1502010S0AAAIAI | Prilocaine 54mg/Felypressin 0.054units/1.8ml inj | Prilocaine hydrochloride |
+| 1502010S0AAAJAJ | Prilocaine 66mg/Felypressin 0.066units/2.2ml inj | Prilocaine hydrochloride |
 
-This is a single-ingredient product with valid status. The authorisation number shown is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register. NICE appraisal information and the BNF classification were not available in the data compiled for this report.
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number shown is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register. NICE appraisal information and the BNF classification were not available in the data compiled for this report.
 
 ---
 

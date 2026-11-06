@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 | Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070X0AAAAAA (BNF-style code; not a PL number) | Rifaximin tablets 200 mg | Tablet | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070X0AAACAC | Rifaximin 100mg/5ml oral suspension | Rifaximin |
+| 0501070X0AAAAAA | Rifaximin 200mg tablets | Rifaximin |
+| 0501070X0AAABAB | Rifaximin 550mg tablets | Rifaximin |
+| 0501070X0BBABAC | Normix 100mg/5ml granules for oral suspension | Rifaximin |
+| 0501070X0BBAAAA | Normix 200mg tablets | Rifaximin |
+| 0501070X0BEAAAB | Targaxan 550mg tablets | Rifaximin |
+| 0501070X0BDAAAB | Xifaxan 550mg tablets | Rifaximin |
+| 0501070X0BCAAAA | Xifaxanta 200mg tablets | Rifaximin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

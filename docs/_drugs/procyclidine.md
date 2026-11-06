@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Procyclidine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson's disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,9 +87,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409020S0AAAEAE | Procyclidine HCl tablets 5 mg | Tablet | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409020S0AAAMAM | Procyclidine 10mg tablets | Procyclidine hydrochloride |
+| 0409020S0AAACAC | Procyclidine 10mg/2ml solution for injection ampoules | Procyclidine hydrochloride |
+| 0409020S0AAALAL | Procyclidine 2.5mg tablets | Procyclidine hydrochloride |
+| 0409020S0AAAKAK | Procyclidine 2.5mg/5ml oral liquid | Procyclidine hydrochloride |
+| 0409020S0AAAGAG | Procyclidine 2.5mg/5ml oral solution sugar free | Procyclidine hydrochloride |
+| 0409020S0AAAEAE | Procyclidine 5mg tablets | Procyclidine hydrochloride |
+| 0409020S0AAAJAJ | Procyclidine 5mg/5ml oral liquid | Procyclidine hydrochloride |
+| 0409020S0AAAHAH | Procyclidine 5mg/5ml oral solution sugar free | Procyclidine hydrochloride |
+| 0409020S0BBAAAG | Arpicolin 2.5mg/5ml oral solution | Procyclidine hydrochloride |
+| 0409020S0BBABAH | Arpicolin 5mg/5ml oral solution | Procyclidine hydrochloride |
+| 0409020S0BCABAC | Kemadrin 10mg/2ml solution for injection ampoules | Procyclidine hydrochloride |
+| 0409020S0BCAAAE | Kemadrin 5mg tablets | Procyclidine hydrochloride |
+| 0409020S0BDAAAE | Muscinil 5mg tablets | Procyclidine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is a classification-style code, not a standard PL number, and no manufacturer or indication text is recorded. Please check the current MHRA-authorised products, the SmPC and the BNF (Chapter 4, Central nervous system: drugs used in parkinsonism and related disorders) for the licensed indications. No NICE appraisal information was available in the compiled data.
 

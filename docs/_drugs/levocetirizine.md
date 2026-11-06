@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010ACAAAAAA | Levocetirizine Tab 5 mg | Tablet (5 mg) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010ACAAABAB | Levocetirizine 500micrograms/ml oral solution sugar free | Levocetirizine |
+| 0304010ACAAACAC | Levocetirizine 5mg orodispersible tablets sugar free | Levocetirizine |
+| 0304010ACAAAAAA | Levocetirizine 5mg tablets | Levocetirizine |
+| 0304010ACBBABAB | Xyzal 0.5mg/ml oral solution | Levocetirizine |
+| 0304010ACBBAAAA | Xyzal 5mg tablets | Levocetirizine |
 
-The compiled data lists one valid single-ingredient authorisation. The identifier shown is in a non-PL format and should be checked against the MHRA register. The BNF classification (antihistamines, respiratory system chapter) and any NICE-appraised indications should be verified directly.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is in a non-PL format and should be checked against the MHRA register. The BNF classification (antihistamines, respiratory system chapter) and any NICE-appraised indications should be verified directly.
 
 ## Safety Considerations
 

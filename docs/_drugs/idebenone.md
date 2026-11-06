@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Idebenone"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
 description: "Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -64,11 +64,16 @@ The model also ranks several other conditions highly, all with the same lack of 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0411000H0AAABAB | Idebenone Cap 150mg | Capsule (150 mg strength per product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108030ABAAABAB | Idebenone 150mg capsules | Idebenone |
+| 1108030ABAAACAC | Idebenone 150mg tablets | Idebenone |
+| 1108030ABAAAAAA | Idebenone 45mg tablets | Idebenone |
+| 1108030ABBBAAAC | Raxone 150mg tablets | Idebenone |
 
-The data lists one valid single-ingredient authorisation. The identifier is not in the standard MHRA "PL" format, so it should be checked against the MHRA register before any reliance is placed on it. Dosage form, manufacturer and approved indication text are not recorded in the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the standard MHRA "PL" format, so it should be checked against the MHRA register before any reliance is placed on it. Dosage form, manufacturer and approved indication text are not recorded in the data compiled for this report.
 
 ## Safety Considerations
 

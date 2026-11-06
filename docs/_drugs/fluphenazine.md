@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia and related psychotic disorders (psychotic…"
 monitor_inn: "Fluphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "myopia X-linked", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy", "manic bipolar affective disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9999 (model rank 252) |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (30 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 30 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010I0AAABAB (product code; not in PL number format) | Fluphenazine HCl 1 mg tablets | Tablet | Indication text not provided in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010I0AAABAB | Fluphenazine 1mg tablets | Fluphenazine hydrochloride |
+| 0402010I0AAACAC | Fluphenazine 2.5mg tablets | Fluphenazine hydrochloride |
+| 0402010I0AAADAD | Fluphenazine 5mg tablets | Fluphenazine hydrochloride |
+| 0402020L0AAAFAF | Fluphenazine decanoate 100mg/1ml inj ampoules | Fluphenazine decanoate |
+| 0402020L0AAAAAA | Fluphenazine decanoate 12.5mg/0.5ml inj ampoules | Fluphenazine decanoate |
+| 0402020L0AAAIAI | Fluphenazine decanoate 125mg/5ml inj vials | Fluphenazine decanoate |
+| 0402020L0AAAEAE | Fluphenazine decanoate 250mg/10ml inj vials | Fluphenazine decanoate |
+| 0402020L0AAACAC | Fluphenazine decanoate 25mg/1ml inj ampoules | Fluphenazine decanoate |
+| 0402020L0AAAGAG | Fluphenazine decanoate 25mg/1ml inj pre-filled syringes | Fluphenazine decanoate |
+| 0402020L0AAABAB | Fluphenazine decanoate 50mg/0.5ml inj ampoules | Fluphenazine decanoate |
+| 0402020L0AAADAD | Fluphenazine decanoate 50mg/2ml inj ampoules | Fluphenazine decanoate |
+| 0402020L0AAAHAH | Fluphenazine decanoate 50mg/2ml inj pre-filled syringes | Fluphenazine decanoate |
+| 0402020L0BBAAAA | Modecate 12.5mg/0.5ml solution for injection ampoules | Fluphenazine decanoate |
+| 0402020L0BBADAE | Modecate 250mg/10ml solution for injection vials | Fluphenazine decanoate |
+| 0402020L0BBAHAC | Modecate 25mg/1ml inj ampoules (Imported (Denmark)) | Fluphenazine decanoate |
+| 0402020L0BBAIAC | Modecate 25mg/1ml inj ampoules (Imported (Germany)) | Fluphenazine decanoate |
+| 0402020L0BBABAC | Modecate 25mg/1ml solution for injection ampoules (Sanofi) | Fluphenazine decanoate |
+| 0402020L0BBADAG | Modecate 25mg/1ml solution for injection pre-filled syringes | Fluphenazine decanoate |
+| 0402020L0BBACAD | Modecate 50mg/2ml solution for injection ampoules | Fluphenazine decanoate |
+| 0402020L0BBAEAH | Modecate 50mg/2ml solution for injection pre-filled syringes | Fluphenazine decanoate |
+
+Showing 20 of 30 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Fluphenazine hydrochloride tablets fall within the BNF antipsychotic chapter (psychoses and related disorders). Please confirm the current authorisation number and licensed indications in the SmPC on the MHRA website.
 

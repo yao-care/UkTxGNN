@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Conjunctivitis**, but there a
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (28 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 28 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,11 +94,32 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090R0AAABAB (BNF-style product code, not a PL number) | Rifampicin capsules 300 mg | Capsule | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090R0AAAFAF | Rifampicin 100mg/5ml oral suspension | Rifampicin |
+| 0501090R0AAAMAM | Rifampicin 120mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAAAAA | Rifampicin 150mg capsules | Rifampicin |
+| 0501090R0AAAKAK | Rifampicin 150mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAANAN | Rifampicin 200mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAAUAU | Rifampicin 210mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAAQAQ | Rifampicin 30.5mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAABAB | Rifampicin 300mg capsules | Rifampicin |
+| 0501090R0AAAPAP | Rifampicin 300mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAARAR | Rifampicin 480mg/5ml oral liquid | Rifampicin |
+| 0501090R0AAADAD | Rifampicin 600mg inf vials | Rifampicin |
+| 0501090R0BBACAF | Rifadin 100mg/5ml syrup | Rifampicin |
+| 0501090R0BBAAAA | Rifadin 150mg capsules | Rifampicin |
+| 0501090R0BBABAB | Rifadin 300mg capsules | Rifampicin |
+| 0501090R0BBAEAD | Rifadin 600mg inf vials | Rifampicin |
+| 0501090S0BHAAAE | Rifamazid 150mg/100mg capsules | Rifampicin combined preparations |
+| 0501090S0AAAEAE | Rifampicin 150mg / Isoniazid 100mg capsules | Rifampicin combined preparations |
+| 0501090S0AAAAAA | Rifampicin 150mg / Isoniazid 100mg tablets | Rifampicin combined preparations |
+| 0501090S0AAADAD | Rifampicin 300mg / Isoniazid 150mg capsules | Rifampicin combined preparations |
+| 0501090S0AAABAB | Rifampicin 300mg / Isoniazid 150mg tablets | Rifampicin combined preparations |
 
-The data compiled for this report show one valid single-ingredient authorisation. Dosage form and indication details were not available, and no ophthalmic rifampicin product was identified.
+Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication details were not available.
 
 ---
 

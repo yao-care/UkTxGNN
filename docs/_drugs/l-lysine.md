@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "L-Lysine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
@@ -50,8 +50,8 @@ This prediction rests on model output alone and is not supported by actual studi
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,19 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 091101000AAFDFD | L-Lysine Tab 1g | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AAFDFD | Lysine 1g tablets | Other amino acidandnutritional agent preparations |
+| 091101000AAFXFX | Lysine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 091101000BBUIFX | EN-Lysine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 091101000BBKUFX | HealthAid L-Lysine hydrochloride 500mg tablets | Other amino acidandnutritional agent preparations |
+| 0913445A0BEAAAE | L-Lysine powder | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+| 091101000BBMFFX | Lamberts L-Lysine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 0913445A0AAAEAE | Lysine powder | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+| 091101000BBUQFD | Quest L-Lysine High Potency 1000mg tablets | Other amino acidandnutritional agent preparations |
+| 091101000BBNAFD | Solgar L-Lysine 1000mg tablets | Other amino acidandnutritional agent preparations |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is shown as it appears in the compiled data. It does not follow the usual MHRA PL format, so it should be verified against MHRA records.
 

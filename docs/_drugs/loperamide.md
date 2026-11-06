@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "Angelucci syndrome"]
 description: "Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acute contagious conjunctivit
 | Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (46 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 46 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,30 @@ For context, literature exists for other lower-ranked predictions, but it descri
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0104020L0AAAAAA | Loperamide HCl Capsules 2 mg | Capsule (inferred from product name) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0104020L0AAASAS | Loperamide 15mg/5ml oral solution | Loperamide hydrochloride |
+| 0104020L0AAAFAF | Loperamide 1mg/5ml oral liquid | Loperamide hydrochloride |
+| 0104020L0AAABAB | Loperamide 1mg/5ml oral solution sugar free | Loperamide hydrochloride |
+| 0104020L0AAAKAK | Loperamide 2.5mg/5ml oral liquid | Loperamide hydrochloride |
+| 0104020L0AAAQAQ | Loperamide 25mg/5ml oral solution | Loperamide hydrochloride |
+| 0104020L0AAAPAP | Loperamide 25mg/5ml oral suspension | Loperamide hydrochloride |
+| 0104020L0AAAAAA | Loperamide 2mg capsules | Loperamide hydrochloride |
+| 0104020L0AAATAT | Loperamide 2mg oral lyophilisates sugar free | Loperamide hydrochloride |
+| 0104020L0AAARAR | Loperamide 2mg orodispersible tablets sugar free | Loperamide hydrochloride |
+| 0104020L0AAADAD | Loperamide 2mg tablets | Loperamide hydrochloride |
+| 0104020L0AAAHAH | Loperamide 4mg/5ml oral liquid | Loperamide hydrochloride |
+| 0104020L0BDAAAA | Arret 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BWAAAA | Bell's Diarrhoea Relief 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BLAAAA | Diah-Limit 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BRAAAA | Diaquitte 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BCAAAA | Diareze Diarrhoea Relief 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BSAAAA | Diarrhoea Relief 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BHAAAA | Diasorb 2mg capsules | Loperamide hydrochloride |
+| 0104020L0BNAAAM | Diocalm Complete pack | Loperamide hydrochloride |
+| 0104020L0BEAAAA | Diocalm Ultra 2mg capsules | Loperamide hydrochloride |
+
+Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is in the format of a BNF-style code rather than a standard MHRA PL number, so the authorisation details should be verified against the MHRA database.
 

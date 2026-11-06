@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other predictions, **insomnia** and several **reflex seizure types** h
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (22 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 22 |
 | Recommended Decision | Hold |
 
 ---
@@ -98,11 +98,32 @@ Currently no related literature available for trigeminal nerve neoplasm. The mos
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0401020P0AAABAB (BNF-style product code; not a PL number) | Lorazepam tablets 1 mg | Tablet (inferred from product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401020P0AACACA | Lorazepam 1.125mg/5ml oral liquid | Lorazepam |
+| 0401020P0AACKCK | Lorazepam 1mg orodispersible tablets | Lorazepam |
+| 0401020P0AAABAB | Lorazepam 1mg tablets | Lorazepam |
+| 0401020P0AACDCD | Lorazepam 1mg/5ml oral solution | Lorazepam |
+| 0401020P0AACECE | Lorazepam 1mg/5ml oral suspension | Lorazepam |
+| 0401020P0AACICI | Lorazepam 1mg/ml oral solution sugar free | Lorazepam |
+| 0401020P0AACLCL | Lorazepam 2.5mg orodispersible tablets | Lorazepam |
+| 0401020P0AAACAC | Lorazepam 2.5mg tablets | Lorazepam |
+| 0401020P0AACMCM | Lorazepam 250microgram tablets | Lorazepam |
+| 0401020P0AABHBH | Lorazepam 250micrograms/5ml oral liquid | Lorazepam |
+| 0401020P0AACHCH | Lorazepam 2mg/1ml solution for injection ampoules | Lorazepam |
+| 0401020P0AACJCJ | Lorazepam 2mg/1ml solution for injection vials | Lorazepam |
+| 0401020P0AABRBR | Lorazepam 2mg/5ml oral liquid | Lorazepam |
+| 0401020P0AABZBZ | Lorazepam 3.75mg/5ml oral liquid | Lorazepam |
+| 0401020P0AABSBS | Lorazepam 400micrograms/5ml oral liquid | Lorazepam |
+| 0401020P0AAAAAA | Lorazepam 4mg/1ml solution for injection ampoules | Lorazepam |
+| 0401020P0AABXBX | Lorazepam 4mg/5ml oral liquid | Lorazepam |
+| 0401020P0AAADAD | Lorazepam 500microgram tablets | Lorazepam |
+| 0401020P0AACFCF | Lorazepam 500micrograms/5ml oral solution | Lorazepam |
+| 0401020P0AACGCG | Lorazepam 500micrograms/5ml oral suspension | Lorazepam |
 
-Only one authorisation is recorded. The record contains no manufacturer, dosage form field or approved indication text. NICE appraisal information is not available in the data compiled for this report.
+Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+NICE appraisal information is not available in the data compiled for this report.
 
 ---
 

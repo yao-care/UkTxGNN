@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 | Predicted New Indication | Glaucoma (glaucoma) |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -77,11 +77,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 100201000AAADAD | Amifampridine Tab 10mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 100201000AAADAD | Amifampridine 10mg tablets | Other neuromuscularar transmisson preparations |
+| 100201000AAAEAE | Amifampridine 20mg tablets | Other neuromuscularar transmisson preparations |
+| 100201000BNAVAD | Firdapse 10mg tablets | Other neuromuscularar transmisson preparations |
 
-The authorisation record in the compiled data carries no dosage-form or indication text, and the number shown is not in MHRA PL format. Confirm the current UK authorisation details against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Confirm the current UK authorisation details against the MHRA register and the BNF.
 
 ---
 

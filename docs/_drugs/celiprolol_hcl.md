@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 147
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Celiprolol HCL is a beta-adrenoceptor blocking agent not currently authorised for marketing in the United Kingdom.
 The TxGNN model returned **no predicted indications** for this candidate, and the underlying Evidence Pack contains critical data gaps in original indication, mechanism of action, and safety profile.
 As a result, **no evidence-based repurposing recommendation** can be made at this time.
 
@@ -52,15 +51,15 @@ As a result, **no evidence-based repurposing recommendation** can be made at thi
 | Predicted New Indication | No TxGNN prediction available |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — model prediction only (no predictions returned) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | **Hold** |
 
 ---
 
 ## UK Market Information
 
-Celiprolol HCL currently holds **no MHRA marketing authorisation** in the United Kingdom. There are no registered products, dosage forms, or approved indications on record in this Evidence Pack.
+There are no registered products, dosage forms, or approved indications on record in this Evidence Pack.
 
 > **Note for clinicians:** Celiprolol is available in certain other European markets (e.g., France, Germany) for cardiovascular indications. However, in the absence of a UK marketing authorisation, any clinical use would require a Specials licence or named-patient basis application via the MHRA, and standard BNF/NICE guidance does not apply.
 
@@ -79,7 +78,7 @@ Report suspected adverse reactions via the **Yellow Card Scheme** (https://yello
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Celiprolol HCL is incomplete across all critical domains — TxGNN returned no predicted indications, the mechanism of action is unrecorded, the drug has no UK marketing authorisation, and no safety profile has been retrieved. There is currently no basis on which to evaluate or recommend a repurposing pathway.
+The Evidence Pack for Celiprolol HCL is incomplete across all critical domains — TxGNN returned no predicted indications, the mechanism of action is unrecorded, and no safety profile has been retrieved. There is currently no basis on which to evaluate or recommend a repurposing pathway.
 
 **To proceed, the following is needed:**
 

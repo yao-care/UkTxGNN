@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dapoxetine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **migraine disorder**, but there a
 | Predicted New Indication | migraine disorder |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,16 @@ The two publications retrieved do not directly study dapoxetine in migraine, so 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704050ABAAAAAA | Dapoxetine HCl Tablets 30 mg | Tablet | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704060A0AAAAAA | Dapoxetine 30mg tablets | Dapoxetine hydrochloride |
+| 0704060A0AAABAB | Dapoxetine 60mg tablets | Dapoxetine hydrochloride |
+| 0704060A0BBACAA | Priligy 30mg tablets (A. Menarini Farma) | Dapoxetine hydrochloride |
+| 0704060A0BBAAAA | Priligy 30mg tablets (Imported) | Dapoxetine hydrochloride |
+| 0704060A0BBADAB | Priligy 60mg tablets (A. Menarini Farma) | Dapoxetine hydrochloride |
+| 0704060A0BBABAB | Priligy 60mg tablets (Imported) | Dapoxetine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

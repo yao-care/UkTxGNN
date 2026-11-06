@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -48,8 +48,8 @@ Rivaroxaban is an oral direct Factor Xa inhibitor (anticoagulant). The TxGNN mod
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,26 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0208020Y0AAACAC (BNF-style product code, not a PL number) | Rivaroxaban Tab 20mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208020Y0AAAIAI | Rivaroxaban 10mg capsules | Rivaroxaban |
+| 0208020Y0AAAAAA | Rivaroxaban 10mg tablets | Rivaroxaban |
+| 0208020Y0AAAGAG | Rivaroxaban 15mg capsules | Rivaroxaban |
+| 0208020Y0AAABAB | Rivaroxaban 15mg tablets | Rivaroxaban |
+| 0208020Y0AAAEAE | Rivaroxaban 15mg tablets and Rivaroxaban 20mg tablets | Rivaroxaban |
+| 0208020Y0AAAFAF | Rivaroxaban 1mg/ml granules for oral suspension sugar free | Rivaroxaban |
+| 0208020Y0AAADAD | Rivaroxaban 2.5mg tablets | Rivaroxaban |
+| 0208020Y0AAAHAH | Rivaroxaban 20mg capsules | Rivaroxaban |
+| 0208020Y0AAACAC | Rivaroxaban 20mg tablets | Rivaroxaban |
+| 0208020Y0AAAJAJ | Rivaroxaban 5mg/ml oral suspension sugar free | Rivaroxaban |
+| 0208020Y0BBAAAA | Xarelto 10mg tablets | Rivaroxaban |
+| 0208020Y0BBABAB | Xarelto 15mg tablets | Rivaroxaban |
+| 0208020Y0BBAEAE | Xarelto 15mg/20mg treatment initiation pack | Rivaroxaban |
+| 0208020Y0BBAFAF | Xarelto 1mg/ml granules for oral suspension | Rivaroxaban |
+| 0208020Y0BBADAD | Xarelto 2.5mg tablets | Rivaroxaban |
+| 0208020Y0BBACAC | Xarelto 20mg tablets | Rivaroxaban |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

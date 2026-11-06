@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 135
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Carteolol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidate indications for Carteolol, but every candidat
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,14 @@ The TxGNN model produced candidate indications for Carteolol, but every candidat
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000K0AAABAB | Carteolol HCl_Eye Dps 2% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000K0AAAAAA | Carteolol 1% eye drops | Carteolol hydrochloride |
+| 1106000K0AAABAB | Carteolol 2% eye drops | Carteolol hydrochloride |
+| 1106000K0BBAAAA | Teoptic 1% eye drops | Carteolol hydrochloride |
+| 1106000K0BBABAB | Teoptic 2% eye drops | Carteolol hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

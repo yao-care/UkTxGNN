@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **faciodigitogenital syndrome**, 
 | Predicted New Indication | faciodigitogenital syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205020E0AAACAC | Clonidine HCl Tab 100mcg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205020E0AAACAC | Clonidine 100microgram tablets | Clonidine hydrochloride |
+| 0205020E0AAAFAF | Clonidine 100micrograms/24hours transdermal patches | Clonidine hydrochloride |
+| 0407042F0AAALAL | Clonidine 100micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0407042F0AABBBB | Clonidine 100micrograms/5ml oral solution sugar free | Clonidine hydrochloride |
+| 0407042F0AAAMAM | Clonidine 10micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0407042F0AAANAN | Clonidine 12.5micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0407042F0AAARAR | Clonidine 125micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0205020E0AAABAB | Clonidine 150micrograms/1ml solution for injection ampoules | Clonidine hydrochloride |
+| 0407042F0AAAKAK | Clonidine 15micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0205020E0AAAGAG | Clonidine 200micrograms/24hours transdermal patches | Clonidine hydrochloride |
+| 0205020E0AAAAAA | Clonidine 250microgram modified-release capsules | Clonidine hydrochloride |
+| 0407042F0AAAVAV | Clonidine 250micrograms/5ml oral solution | Clonidine hydrochloride |
+| 0407042F0AAAWAW | Clonidine 250micrograms/5ml oral suspension | Clonidine hydrochloride |
+| 0407042F0AAAAAA | Clonidine 25microgram tablets | Clonidine hydrochloride |
+| 0407042F0AAAGAG | Clonidine 25micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0407042F0AAAYAY | Clonidine 3.75micrograms/5ml oral suspension | Clonidine hydrochloride |
+| 0205020E0AAADAD | Clonidine 300microgram tablets | Clonidine hydrochloride |
+| 0205020E0AAAHAH | Clonidine 300micrograms/24hours transdermal patches | Clonidine hydrochloride |
+| 0407042F0AAAQAQ | Clonidine 37.5micrograms/5ml oral liquid | Clonidine hydrochloride |
+| 0407042F0AABABA | Clonidine 40micrograms/5ml oral suspension | Clonidine hydrochloride |
 
-The local data list one valid single-ingredient authorisation. The identifier shown is a BNF-style product code rather than a PL number, and no indication text is recorded.
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is a BNF-style product code rather than a PL number, and no indication text is recorded.
 
 ---
 

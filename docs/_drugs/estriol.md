@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 258
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Estriol: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (Dru…"
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,8 +52,8 @@ Support is limited: **no registered clinical trials** and **6 publications**, of
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,9 +89,29 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0702010F0AAACAC (BNF-style code) | Estriol cream 0.01% with applicator | Cream (vaginal) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0702010F0AAAEAE | Estriol 0.01% vaginal cream | Estriol |
+| 0604011M0AAABAB | Estriol 1mg tablets | Estriol |
+| 0702010F0AAAGAG | Estriol 30microgram pessaries | Estriol |
+| 0702010F0AAABAB | Estriol 500microgram pessaries | Estriol |
+| 0702010F0BEAAAF | Blissel 50micrograms/g vaginal gel with applicator | Estriol |
+| 0702010F0AAACAC | Estriol 0.01% vaginal cream with applicator | Estriol |
+| 0702010F0AAAAAA | Estriol 1mg/g vaginal cream with applicator | Estriol |
+| 0702010F0AAAFAF | Estriol 50micrograms/g vaginal gel with applicator | Estriol |
+| 0604011J0AAABAB | Generic Trisequens Forte tablets | Estradiol and estriol with progestogen |
+| 0604011J0AAAAAA | Generic Trisequens tablets | Estradiol and estriol with progestogen |
+| 0702010F0BBABAC | Gynest 0.01% cream with applicator | Estriol |
+| 0702010F0BFAAAG | Imvaggis 0.03mg pessaries | Estriol |
+| 0702010F0BBAAAB | Ortho-Gynest 500microgram pessaries | Estriol |
+| 0702010F0BGAAAA | Ovesse 1mg/g vaginal cream with applicator | Estriol |
+| 0604011M0BBABAB | Ovestin 1mg tablets | Estriol |
+| 0702010F0BCABAA | Ovestin 1mg/g vaginal cream with applic (Imported (Germany)) | Estriol |
+| 0702010F0BCAAAA | Ovestin 1mg/g vaginal cream with applicator | Estriol |
+| 0604011J0BBABAB | Trisequens Forte tablets | Estradiol and estriol with progestogen |
+| 0604011J0BBAAAA | Trisequens tablets | Estradiol and estriol with progestogen |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "sorbitol"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (1 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,13 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203050A0AAAKAK | Mucin/Xylitol/Sorbitol Lozenge 65/59/55.5 mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AABTBT | Sorbitol 70% solution non-crystallising | Other amino acidandnutritional agent preparations |
 
-The single authorisation is a combination lozenge product (mucin, xylitol and sorbitol). The listed number does not follow the usual MHRA PL format and should be verified against the MHRA register.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed number does not follow the usual MHRA PL format and should be verified against the MHRA register.
 
 ---
 

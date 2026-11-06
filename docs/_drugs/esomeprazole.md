@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **duodenal obstruction**, but **n
 | Predicted New Indication | duodenal obstruction |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103050E0AAAAAA (BNF code) | Esomeprazole gastro-resistant tablets 20 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103050E0AAAEAE | Esomeprazole 10mg gastro-resistant granules sachets | Esomeprazole |
+| 0103050E0AAAFAF | Esomeprazole 20mg gastro-resistant capsules | Esomeprazole |
+| 0103050E0AAAAAA | Esomeprazole 20mg gastro-resistant tablets | Esomeprazole |
+| 0103050E0AAAGAG | Esomeprazole 40mg gastro-resistant capsules | Esomeprazole |
+| 0103050E0AAABAB | Esomeprazole 40mg gastro-resistant tablets | Esomeprazole |
+| 0103050E0AAACAC | Esomeprazole 40mg powder for solution for injection vials | Esomeprazole |
+| 0103050E0AAADAD | Esomeprazole 40mg/5ml oral suspension | Esomeprazole |
+| 0103050E0BFAAAE | Absizom 10mg gastro-resistant granules sachets | Esomeprazole |
+| 0103050E0BCAAAF | Emozul 20mg gastro-resistant capsules | Esomeprazole |
+| 0103050E0BCABAG | Emozul 40mg gastro-resistant capsules | Esomeprazole |
+| 0103050E0BHAAAA | Gastrozil 20mg gastro-resistant tablets | Esomeprazole |
+| 0103050E0BEAAAA | Guardium acid reflux control 20mg gastro-resistant tablets | Esomeprazole |
+| 0103050E0BGAAAA | Heartburn and Acid Reflux Control 20mg gast res tab | Esomeprazole |
+| 1001010P0AABBBB | Naproxen 500mg / Esomeprazole 20mg modified-release tablets | Naproxen |
+| 0103050E0BBADAE | Nexium 10mg gastro-resistant granules sachets | Esomeprazole |
+| 0103050E0BBAEAA | Nexium 20mg gastro-resistant tablets (Arrow) | Esomeprazole |
+| 0103050E0BBAAAA | Nexium 20mg gastro-resistant tablets (AstraZeneca) | Esomeprazole |
+| 0103050E0BBAFAB | Nexium 40mg gastro-resistant tablets (Arrow) | Esomeprazole |
+| 0103050E0BBABAB | Nexium 40mg gastro-resistant tablets (AstraZeneca) | Esomeprazole |
+| 0103050E0BBAHAF | Nexium Control 20mg gastro-resistant capsules | Esomeprazole |
+
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The list is limited to the single record in the local data. It is a single-ingredient product and is currently valid.
 

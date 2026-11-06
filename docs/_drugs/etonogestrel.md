@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (implant product…"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
@@ -50,8 +50,8 @@ Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant. Th
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0703022P0AAAAAA (BNF code) | Etonogestrel implant 68 mg | Implant | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0703022P0AAAAAA | Etonogestrel 68mg implant | Etonogestrel |
+| 0703011A0AAAAAA | Ethinylest 2.7mg/Etonogestrel 11.7mg vaginal delivery system | Etonogestrel/ethinylestradiol |
+| 0703022P0BBAAAA | Implanon 68mg implant | Etonogestrel |
+| 0703022P0BCAAAA | Nexplanon 68mg implant | Etonogestrel |
+| 0703011A0BBAAAA | NuvaRing 0.12mg/0.015mg per day vaginal delivery system | Etonogestrel/ethinylestradiol |
+| 0703011A0BCAAAA | SyreniRing 0.12mg/0.015mg per day vaginal delivery system | Etonogestrel/ethinylestradiol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (section 7.3.2, progestogen-only contraceptives) is shown in place of a PL number.
 

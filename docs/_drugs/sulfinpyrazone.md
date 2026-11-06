@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfinpyrazone"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "neonatal epileptic encephalopathy due to glutaminase deficiency", "genetic otorhinolaryngological malformation", "disorder of phenylalanine metabolism", "semicircular canal dehiscence syndrome", "idiopathic bilateral vestibulopathy", "familial nasal acilia", "juvenile nasopharyngeal angiofibroma (disease)"]
 description: "Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **renal hypouricaemia**, but **
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001040P0AAAAAA | Sulfinpyrazone Tablets 100 mg | Tablet (form not specified in the data) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040P0AAAAAA | Sulfinpyrazone 100mg tablets | Sulfinpyrazone |
+| 1001040P0AAACAC | Sulfinpyrazone 200mg tablets | Sulfinpyrazone |
+| 1001040P0BBAAAA | Anturan 100mg tablets | Sulfinpyrazone |
+| 1001040P0BBABAC | Anturan 200mg tablets | Sulfinpyrazone |
 
-One single-ingredient authorisation is recorded as valid. The identifier shown is not in standard MHRA PL format, so the number and indication should be verified against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is not in standard MHRA PL format, so the number and indication should be verified against the MHRA register and the BNF.
 
 ## Safety Considerations
 

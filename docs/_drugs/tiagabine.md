@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 614
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tiagabine: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model's candidates for Tiagabine are all known uses, so there is curre
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,17 @@ The TxGNN model's candidates for Tiagabine are all known uses, so there is curre
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0408010ABAAAAAA | Tiagabine_Tab 5mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010ABAAABAB | Tiagabine 10mg tablets | Tiagabine |
+| 0408010ABAAACAC | Tiagabine 15mg tablets | Tiagabine |
+| 0408010ABAAAEAE | Tiagabine 2.5mg/5ml oral suspension | Tiagabine |
+| 0408010ABAAAAAA | Tiagabine 5mg tablets | Tiagabine |
+| 0408010ABBBABAB | Gabitril 10mg tablets | Tiagabine |
+| 0408010ABBBACAC | Gabitril 15mg tablets | Tiagabine |
+| 0408010ABBBAAAA | Gabitril 5mg tablets | Tiagabine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

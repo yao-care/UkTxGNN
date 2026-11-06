@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 598
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Telbivudine"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "disorder of phenylalanine metabolism", "disorder of tyrosine metabolism", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"]
 description: "Telbivudine: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus (HC
 | Predicted New Indication | Chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,11 +88,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503030D0AAAAAA (BNF-style code; no PL number in the compiled data) | Telbivudine tablets 600 mg | Tablet (600 mg) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503031C0AAAAAA | Telbivudine 600mg tablets | Telbivudine |
+| 0503031C0BBAAAA | Sebivo 600mg tablets | Telbivudine |
 
-The compiled data list one valid single-ingredient authorisation. No indication text, manufacturer or NICE-appraised indication is available. The NICE single technology appraisal of telbivudine for chronic hepatitis B (PMID 19846025) concerned HBV, not HCV.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No indication text, manufacturer or NICE-appraised indication is available. The NICE single technology appraisal of telbivudine for chronic hepatitis B (PMID 19846025) concerned HBV, not HCV.
 
 ---
 

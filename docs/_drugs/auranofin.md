@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Auranofin: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Auranofin"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -50,8 +50,8 @@ but **no clinical trials** and **no publications** currently support this predic
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001030A0AAAAAA | Auranofin Tab 3mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030A0AAAAAA | Auranofin 3mg tablets | Auranofin |
+| 1001030A0BBAAAA | Ridaura Tiltab 3mg tablets | Auranofin |
 
-The single authorisation is a valid single-ingredient product. The licence number above is as recorded in the source data and does not follow the standard MHRA "PL" format, so it should be verified against the MHRA register before any reliance is placed on it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The licence number above is as recorded in the source data and does not follow the standard MHRA "PL" format, so it should be verified against the MHRA register before any reliance is placed on it.
 
 ## Cytotoxicity
 

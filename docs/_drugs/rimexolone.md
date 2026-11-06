@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rimexolone"
 predicted_indications: ["seborrheic dermatitis", "dermatitis"]
 description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1104010V0AAAAAA | Rimexolone eye drops 10 mg/ml | Eye drops | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104010V0AAAAAA | Rimexolone 10mg/ml eye drops | Rimexolone |
+| 1104010V0BBAAAA | Vexol 10mg/ml eye drops | Rimexolone |
 
-Note: the licence number shown is as recorded in the compiled data and is not in the standard UK "PL XXXXX/XXXX" format; please verify it against the MHRA register. Only one valid single-ingredient authorisation is recorded.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Note: the licence number shown is as recorded in the compiled data and is not in the standard UK "PL XXXXX/XXXX" format; please verify it against the MHRA register.
 
 ## Safety Considerations
 

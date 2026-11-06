@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Exemestane: predicted new indication antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Exemestane is a steroidal aromatase inhibitor that lowers oestrogen levels. The 
 | Predicted New Indication | antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -67,8 +67,6 @@ Currently no related clinical trials registered.
 Currently no related literature available for this predicted indication.
 
 ## UK Market Information
-
-The data compiled for this report show one valid single-ingredient licence record for exemestane (25 mg tablet). Its dosage form, manufacturer and approved indication text are not recorded, so no further licence details can be given here.
 
 ## Safety Considerations
 

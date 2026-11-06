@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (general use:…"
 monitor_inn: "Alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1501043A0AAADAD | Alfentanil HCl Inj 5mg/ml 1ml Amp | Injection (ampoule) | Not stated in the data available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1501043A0AAAEAE | Alfentanil 0.1% nasal spray | Alfentanil hydrochloride |
+| 1501043A0AAABAB | Alfentanil 1mg/2ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0AAAHAH | Alfentanil 25mg/50ml solution for injection vials | Alfentanil hydrochloride |
+| 1501043A0AAAFAF | Alfentanil 500micrograms/1ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0AAACAC | Alfentanil 5mg/10ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0AAADAD | Alfentanil 5mg/1ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0BBAAAB | Rapifen 1mg/2ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0BBABAC | Rapifen 5mg/10ml solution for injection ampoules | Alfentanil hydrochloride |
+| 1501043A0BBADAD | Rapifen Intensive Care 5mg/1ml inj ampoules | Alfentanil hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

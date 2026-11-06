@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Etodolac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etodolac: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Etodolac is a cyclo-oxygenase (COX)-2-preferential non-steroidal anti-inflammato
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The local data record one valid single-ingredient authorisation for etodolac (modified-release 600 mg tablet; record reference 1001010E0AAADAD). No dosage form, manufacturer or approved indication text is recorded for it, so no further detail can be given here.
+No dosage form, manufacturer or approved indication text is recorded for it, so no further detail can be given here.
 
 ## Safety Considerations
 

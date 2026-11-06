@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 131
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carbamazepine: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (also partial epilepsy, bipolar disorder…"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (44 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 44 |
 | Recommended Decision | Hold |
 
 ---
@@ -62,7 +62,6 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (
 Currently, detailed mechanism of action data is not available in the data compiled for this report. Carbamazepine is widely known to block voltage-gated sodium channels, which reduces abnormal repetitive neuronal firing. This is the basis of its use in epilepsy and trigeminal neuralgia.
 
 The predicted indication is probably a semantic artefact. Trigeminal neuralgia is a listed original indication, and the retrieved papers describe neuralgia that is *secondary to* tumours or masses (schwannoma, lipoma, meningioma, dermoid cyst, lymphoma). In these reports carbamazepine controls the pain symptomatically, and in several cases it failed or was poorly tolerated. This is symptom control, not an antineoplastic effect. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as "trigeminal nerve neoplasm" and "trigeminal neuralgia", not biological evidence.
-
 
 ---
 
@@ -92,11 +91,32 @@ The most relevant publications retrieved (none is an RCT):
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010C0AAABAB | Carbamazepine Tab 100mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010C0AAAJAJ | Carbamazepine 100mg chewable tablets sugar free | Carbamazepine |
+| 0408010C0AAABAB | Carbamazepine 100mg tablets | Carbamazepine |
+| 0408010C0AABDBD | Carbamazepine 100mg/5ml oral liquid | Carbamazepine |
+| 0408010C0AAAPAP | Carbamazepine 100mg/5ml oral suspension sugar free | Carbamazepine |
+| 0408010C0AABGBG | Carbamazepine 10mg/5ml oral liquid | Carbamazepine |
+| 0408010C0AABFBF | Carbamazepine 120mg/5ml oral liquid | Carbamazepine |
+| 0408010C0AAAUAU | Carbamazepine 125mg suppositories | Carbamazepine |
+| 0408010C0AAAKAK | Carbamazepine 200mg chewable tablets sugar free | Carbamazepine |
+| 0408010C0AAAGAG | Carbamazepine 200mg modified-release tablets | Carbamazepine |
+| 0408010C0AAACAC | Carbamazepine 200mg tablets | Carbamazepine |
+| 0408010C0AAAXAX | Carbamazepine 200mg/5ml oral liquid | Carbamazepine |
+| 0408010C0AAAVAV | Carbamazepine 250mg suppositories | Carbamazepine |
+| 0408010C0AABEBE | Carbamazepine 35mg/5ml oral liquid | Carbamazepine |
+| 0408010C0AAAHAH | Carbamazepine 400mg modified-release tablets | Carbamazepine |
+| 0408010C0AAADAD | Carbamazepine 400mg tablets | Carbamazepine |
+| 0408010C0AABHBH | Carbamazepine 40mg/5ml oral suspension | Carbamazepine |
+| 0408010C0AAAYAY | Carbamazepine 500mg/5ml oral suspension | Carbamazepine |
+| 0408010C0AABIBI | Carbamazepine 50mg/5ml oral solution | Carbamazepine |
+| 0408010C0BGAAAG | Arbil MR 200mg tablets | Carbamazepine |
+| 0408010C0BGABAH | Arbil MR 400mg tablets | Carbamazepine |
 
-One valid single-ingredient authorisation is recorded. Dosage form and indication text are not available in the compiled data, and the identifier is not in the usual PL format. Please check the MHRA register and the BNF (Section 4.8.1, antiepileptic drugs) for current licensed products and indications.
+Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text are not available in the compiled data, and the identifier is not in the usual PL format. Please check the MHRA register and the BNF (Section 4.8.1, antiepileptic drugs) for current licensed products and indications.
 
 ---
 

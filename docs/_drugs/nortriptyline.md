@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **15 publications** (including a Coch
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,28 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403010V0AAADAD | Nortriptyline Tab 10 mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010V0AAAWAW | Nortriptyline 10mg capsules | Nortriptyline |
+| 0403010V0AAADAD | Nortriptyline 10mg tablets | Nortriptyline |
+| 0403010V0AAANAN | Nortriptyline 10mg/5ml oral solution | Nortriptyline |
+| 0403010V0AAAUAU | Nortriptyline 10mg/5ml oral solution sugar free | Nortriptyline |
+| 0403010V0AAAGAG | Nortriptyline 10mg/5ml oral suspension | Nortriptyline |
+| 0403010V0AAAXAX | Nortriptyline 25mg capsules | Nortriptyline |
+| 0403010V0AAAEAE | Nortriptyline 25mg tablets | Nortriptyline |
+| 0403010V0AAAQAQ | Nortriptyline 25mg/5ml oral liquid | Nortriptyline |
+| 0403010V0AAAVAV | Nortriptyline 25mg/5ml oral solution sugar free | Nortriptyline |
+| 0403010V0AAARAR | Nortriptyline 50mg tablets | Nortriptyline |
+| 0403010V0AAATAT | Nortriptyline 50mg/5ml oral solution | Nortriptyline |
+| 0403010V0AAASAS | Nortriptyline 50mg/5ml oral suspension | Nortriptyline |
+| 0403010V0BBAAAD | Allegron 10mg tablets | Nortriptyline |
+| 0403010V0BBABAE | Allegron 25mg tablets | Nortriptyline |
+| 0403010V0BDAAAL | Motipress tablets | Nortriptyline |
+| 0403010V0BEAAAM | Motival 10mg/500microgram tablets | Nortriptyline |
+| 0403010V0AAAMAM | Nortriptyline 10mg / Fluphenazine 500microgram tablets | Nortriptyline |
+| 0403010V0AAALAL | Nortriptyline 30mg / Fluphenazine 1.5mg tablets | Nortriptyline |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation identifier above is as recorded in the compiled data, and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Dosage form and approved indication text are not available. Please check the BNF classification and any NICE guidance directly.
 

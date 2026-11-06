@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina** with a ve
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (22 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 22 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205052Q0AAACAC | Telmisartan Tab 20mg | Tablet (taken from the product name) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205052Q0AAACAC | Telmisartan 20mg tablets | Telmisartan |
+| 0205052Q0AAAAAA | Telmisartan 40mg tablets | Telmisartan |
+| 0205052Q0AAADAD | Telmisartan 40mg/5ml oral suspension | Telmisartan |
+| 0205052Q0AAABAB | Telmisartan 80mg tablets | Telmisartan |
+| 0205052R0BCAAAA | Actelsar HCT 40mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BCABAB | Actelsar HCT 80mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BCACAC | Actelsar HCT 80mg/25mg tablets | Telmisartan with diuretic |
+| 0205052Q0BBACAC | Micardis 20mg tablets | Telmisartan |
+| 0205052Q0BBAAAA | Micardis 40mg tablets | Telmisartan |
+| 0205052Q0BBABAB | Micardis 80mg tablets | Telmisartan |
+| 0205052R0BBAAAA | MicardisPlus 40mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BBABAB | MicardisPlus 80mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BBACAC | MicardisPlus 80mg/25mg tablets | Telmisartan with diuretic |
+| 0205052R0AAAAAA | Telmisartan 40mg / Hydrochlorothiazide 12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0AAABAB | Telmisartan 80mg / Hydrochlorothiazide 12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0AAACAC | Telmisartan 80mg / Hydrochlorothiazide 25mg tablets | Telmisartan with diuretic |
+| 0205052R0BDAAAA | Tolucombi 40mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BDABAB | Tolucombi 80mg/12.5mg tablets | Telmisartan with diuretic |
+| 0205052R0BDACAC | Tolucombi 80mg/25mg tablets | Telmisartan with diuretic |
+| 0205052Q0BCACAC | Tolura 20mg tablets | Telmisartan |
 
-This is the only valid single-ingredient authorisation recorded. The record does not give the manufacturer, a PL number or indication text. Please check the current MHRA record, the SmPC and the BNF for full licensed indications and NICE guidance.
+Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record, the SmPC and the BNF for full licensed indications and NICE guidance.
 
 ---
 

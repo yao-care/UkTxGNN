@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Lormetazepam"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
 description: "Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,8 @@ Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet. T
 | Predicted New Indication | Alcohol withdrawal delirium |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -77,11 +78,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0401010P0AAABAB (no PL number recorded) | 1 (valid: 1) | Tablet | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401010P0AAAHAH | Lormetazepam 125micrograms/5ml oral suspension | Lormetazepam |
+| 0401010P0AAACAC | Lormetazepam 1mg tablets | Lormetazepam |
+| 0401010P0AAAGAG | Lormetazepam 1mg/5ml oral suspension | Lormetazepam |
+| 0401010P0AAAEAE | Lormetazepam 2mg/5ml oral suspension | Lormetazepam |
+| 0401010P0AAABAB | Lormetazepam 500microgram tablets | Lormetazepam |
+| 0401010P0AAAFAF | Lormetazepam 500micrograms/5ml oral suspension | Lormetazepam |
 
-At least one single-ingredient authorisation is currently valid, and none are cancelled. The listed identifier follows the BNF-style product code format rather than a PL number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed identifier follows the BNF-style product code format rather than a PL number.
 
 ---
 

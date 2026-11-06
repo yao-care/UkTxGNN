@@ -5,7 +5,7 @@ layout: default
 title: Piracetam
 parent: Known Uses Only (No New Predictions)
 nav_order: 501
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Piracetam: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Piracetam"
 predicted_indications: []
@@ -43,18 +43,25 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409030P0AAAAAA (BNF code) | Piracetam oral solution 333.3 mg/1 ml | Oral solution | Not recorded in the compiled data; pharmacology data describe UK use for myoclonus alongside other anti-myoclonic therapies |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409030P0AAACAC | Piracetam 1.2g tablets | Piracetam |
+| 0409030P0AAAAAA | Piracetam 333.3mg/ml oral solution sugar free | Piracetam |
+| 0409030P0AAABAB | Piracetam 800mg tablets | Piracetam |
+| 0409030P0BBACAC | Nootropil 1200mg tablets | Piracetam |
+| 0409030P0BBAAAA | Nootropil 33% oral solution | Piracetam |
+| 0409030P0BBABAB | Nootropil 800mg tablets | Piracetam |
 
-Only one authorisation record is available. The number shown is a BNF-style product code rather than a standard PL number, so the MHRA record should be checked directly. Piracetam is not approved by the US FDA but is authorised in several other European, Asian and South American countries.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The number shown is a BNF-style product code rather than a standard PL number, so the MHRA record should be checked directly. Piracetam is not approved by the US FDA but is authorised in several other European, Asian and South American countries.
 
 ---
 

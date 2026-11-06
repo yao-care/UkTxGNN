@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 360
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L2). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ The evidence is small-scale: both trials are underpowered, so this is a promisin
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (32 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 32 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,11 +96,32 @@ This is the same mechanism class as carbamazepine and oxcarbazepine, the establi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010H0AAAAAA | Lamotrigine Tab 100mg | Tablet (not specified in record) | Not specified in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010H0AABMBM | Lamotrigine 1.5mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AABSBS | Lamotrigine 1.7mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AAAWAW | Lamotrigine 100mg dispersible tablets sugar free | Lamotrigine |
+| 0408010H0AAAAAA | Lamotrigine 100mg tablets | Lamotrigine |
+| 0408010H0AABUBU | Lamotrigine 10mg/5ml oral suspension | Lamotrigine |
+| 0408010H0AABWBW | Lamotrigine 10mg/ml oral suspension sugar free | Lamotrigine |
+| 0408010H0AAAZAZ | Lamotrigine 15mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AABQBQ | Lamotrigine 200mg dispersible tablets sugar free | Lamotrigine |
+| 0408010H0AAA1A1 | Lamotrigine 200mg tablets | Lamotrigine |
+| 0408010H0AABGBG | Lamotrigine 200mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AABNBN | Lamotrigine 20mg/5ml oral suspension | Lamotrigine |
+| 0408010H0AAAQAQ | Lamotrigine 25mg dispersible tablets sugar free | Lamotrigine |
+| 0408010H0AAACAC | Lamotrigine 25mg tablets | Lamotrigine |
+| 0408010H0AABRBR | Lamotrigine 25mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AABJBJ | Lamotrigine 2mg dispersible tablets sugar free | Lamotrigine |
+| 0408010H0AAA4A4 | Lamotrigine 37.5mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AAA5A5 | Lamotrigine 5.5mg/5ml oral liquid | Lamotrigine |
+| 0408010H0AABPBP | Lamotrigine 50mg dispersible tablets sugar free | Lamotrigine |
+| 0408010H0AAABAB | Lamotrigine 50mg tablets | Lamotrigine |
+| 0408010H0AAA3A3 | Lamotrigine 50mg/5ml oral suspension | Lamotrigine |
 
-This is the only authorisation in the data compiled for this report, and its identifier does not follow the usual MHRA "PL" format. Approved indication text and manufacturer details are not available. Please verify the current authorisations, NICE guidance and BNF classification before any decision.
+Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Approved indication text and manufacturer details are not available. Please verify the current authorisations, NICE guidance and BNF classification before any decision.
 
 ---
 

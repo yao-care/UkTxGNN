@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tiaprofenic acid"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
 description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **brachydactyly-syndactyly synd
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010T0AAACAC | Tiaprofenic Acid Tablets 300 mg | Tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010T0AAABAB | Tiaprofenic acid 200mg tablets | Tiaprofenic acid |
+| 1001010T0AAADAD | Tiaprofenic acid 300mg modified-release capsules | Tiaprofenic acid |
+| 1001010T0AAACAC | Tiaprofenic acid 300mg tablets | Tiaprofenic acid |
+| 1001010T0BBAAAB | Surgam 200mg tablets | Tiaprofenic acid |
+| 1001010T0BBABAC | Surgam 300mg tablets | Tiaprofenic acid |
+| 1001010T0BBADAD | Surgam SA 300mg capsules | Tiaprofenic acid |
 
-Only one valid single-ingredient authorisation was identified. The dosage form and indication text were not recorded in the data compiled for this report, and the dosage form shown is inferred from the product name. Please verify the authorisation details against the MHRA and BNF records.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and indication text were not recorded in the data compiled for this report, and the dosage form shown is inferred from the product name. Please verify the authorisation details against the MHRA and BNF records.
 
 ## Safety Considerations
 

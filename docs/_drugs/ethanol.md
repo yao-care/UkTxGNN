@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-> Ethanol is a long-established agent with one UK marketing authorisation on record, but no approved indication text is available in the data compiled for this report.
+> Ethanol is a long-established agent, but no approved indication text is available in the data compiled for this report.
 > The TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no clinical trials** and the retrieved literature mainly describes ethanol as a migraine **trigger**, not a treatment.
 > This prediction should be regarded as unsupported as a repurposing opportunity.
 
@@ -52,8 +52,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,9 +99,15 @@ None of the publications below reports ethanol as a treatment for migraine. Seve
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190100000AAADAD | Ethanol 90% (including duty) | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190100000AAABAB | Ethanol 100% solution for injection 2ml ampoules | Other alcohol, wine and spirit preparations |
+| 190100000AAAAAA | Ethanol 100% solution for injection 5ml ampoules | Other alcohol, wine and spirit preparations |
+| 190100000AAAIAI | Ethanol 70% duty paid | Other alcohol, wine and spirit preparations |
+| 190100000AAAEAE | Ethanol 90% excluding rebate | Other alcohol, wine and spirit preparations |
+| 190100000AAADAD | Ethanol 90% including duty | Other alcohol, wine and spirit preparations |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

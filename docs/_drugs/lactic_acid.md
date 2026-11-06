@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **atypical coarctation of aorta
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (27 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 27 |
 | Recommended Decision | Hold |
 
 ---
@@ -100,11 +100,30 @@ The remaining papers cover perioperative biomarkers and surgical cohorts, with l
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190600000AAATAT | Lactic Acid_Liq | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1302010K0AAAFAF | Lactic acid 10% in Aqueous cream | Lactic acid |
+| 1302010K0AAAHAH | Lactic acid 5% in Aqueous cream | Lactic acid |
+| 1302010K0AAAGAG | Lactic acid 5% in Wool alcohols ointment | Lactic acid |
+| 190600000AAATAT | Lactic acid liquid | Other acid preparations |
+| 1307000M0BXACAV | Bazuka Treatment gel | Salicylic acid |
+| 1307000M0BXAAAV | Bazuka gel | Salicylic acid |
+| 1302010U0BCAAAE | Calmurid cream | Urea |
+| 1307000M0BLAAAX | Cuplex Verruca gel | Salicylic acid |
+| 0702010L0AAACAC | Diethylstilbestrol 500microgram / Lactic acid 5% pessaries | Diethylstilbestrol |
+| 1307000M0BKABBY | Duofilm paint | Salicylic acid |
+| 130201000BBJRCE | LactiCare lotion | Other emollient preparations |
+| 130201000AACECE | Lactic acid 5% / Sodium pidolate 2.5% lotion | Other emollient preparations |
+| 130201000AADNDN | Propylene glycol 20% / Lactic acid 3% in Gen Unguentum M crm | Other emollient preparations |
+| 130201000AADPDP | Propylene glycol 20% / Lactic acid 5% in Gen Unguentum M crm | Other emollient preparations |
+| 1307000M0BPAAAW | Salactol paint | Salicylic acid |
+| 1307000M0BJAAAV | Salatac gel | Salicylic acid |
+| 1307000M0AABXBX | Salicylic acid 1% / Lactic acid 2% in Gen Unguentum M cream | Salicylic acid |
+| 1307000M0AAAXAX | Salicylic acid 11% / Lactic acid 4% gel | Salicylic acid |
+| 1307000M0AAAVAV | Salicylic acid 12% / Lactic acid 4% gel | Salicylic acid |
+| 1307000M0AABYBY | Salicylic acid 16.7% / Lactic acid 15% paint | Salicylic acid |
 
-Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form and approved indication were not available in the data compiled for this report, so this identifier should be verified against the MHRA register, as it does not follow the usual PL number format.
+Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

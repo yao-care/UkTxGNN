@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 157
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Chloroxylenol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced no candidate indication for Chloroxylenol with a score 
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,20 @@ The TxGNN model produced no candidate indication for Chloroxylenol with a score 
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1311050E0AAACAC | Chloroxylenol_Soln 4.8% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1311050E0AAACAC | Chloroxylenol 4.8% solution | Chloroxylenol |
+| 131005000AAAYAY | Racemic camphor 0.5% / Chloroxylenol 0.25% cream | Other minor cut and abrasion preparations |
+| 131200000AAAHAH | Aldioxa 0.22% / Chloroxylenol 0.5% powder | Other antiperspirant preparations |
+| 1203010C0AAALAL | Benzocaine 2% / Chloroxylenol 0.106% oromucosal gel SF | Benzocaine |
+| 1311050E0BBABAC | Dettol 4.8% liquid | Chloroxylenol |
+| 1311050E0BBACAD | Dettol antiseptic cream | Chloroxylenol |
+| 1311050E0AAADAD | Generic Dettol antiseptic cream | Chloroxylenol |
+| 1203010C0BGAAAL | Rinstead Adult gel | Benzocaine |
+| 131005000BBAUAY | Skintex Medicinal cream | Other minor cut and abrasion preparations |
+| 131200000BBAAAH | ZeaSORB powder | Other antiperspirant preparations |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

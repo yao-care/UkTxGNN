@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
 description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Note: the data compiled for this report did not include an approved indication t
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,24 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000M0AAABAB | Granisetron HCl Tab 1 mg | Tablet | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000M0AAABAB | Granisetron 1mg tablets | Granisetron hydrochloride |
+| 0406000M0AAAFAF | Granisetron 1mg/1ml solution for injection ampoules | Granisetron hydrochloride |
+| 0406000M0AAAEAE | Granisetron 200micrograms/ml oral solution sugar free | Granisetron hydrochloride |
+| 0406000M0AAADAD | Granisetron 2mg tablets | Granisetron hydrochloride |
+| 0406000AFAAAAAA | Granisetron 3.1mg/24hours transdermal patches | Granisetron |
+| 0406000M0AAAAAA | Granisetron 3mg/3ml solution for injection ampoules | Granisetron hydrochloride |
+| 0406000M0BBABAB | Kytril 1mg tablets | Granisetron hydrochloride |
+| 0406000M0BBAFAF | Kytril 1mg/1ml solution for injection ampoules | Granisetron hydrochloride |
+| 0406000M0BBAEAE | Kytril 200micrograms/ml liquid paediatric | Granisetron hydrochloride |
+| 0406000M0BBADAD | Kytril 2mg tablets | Granisetron hydrochloride |
+| 0406000M0BBAAAA | Kytril 3mg/3ml solution for injection ampoules | Granisetron hydrochloride |
+| 0406000AFBBAAAA | Sancuso 3.1mg/24hours transdermal patches | Granisetron |
 
-The compiled data lists one valid single-ingredient authorisation. Dosage form, manufacturer and approved indication text were not supplied for it. The authorisation number is shown exactly as supplied and does not follow the usual UK "PL" format, so it should be verified against the MHRA register. NICE appraisals and BNF classification were not included in the compiled data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form, manufacturer and approved indication text were not supplied for it. The authorisation number is shown exactly as supplied and does not follow the usual UK "PL" format, so it should be verified against the MHRA register. NICE appraisals and BNF classification were not included in the compiled data.
 
 ---
 

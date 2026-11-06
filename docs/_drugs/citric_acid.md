@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Citric Acid: predicted new indication stomach disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Citric acid is an organic acid used in effervescent tablets together with potass
 | Predicted New Indication | stomach disease |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,18 @@ No study tests citric acid as a treatment for stomach disease. The most relevant
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704030G0AAACAC | Citric Acid/Pot Bicarb_Tab Eff | Not recorded | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190600000AAANAN | Citric acid monohydrate powder | Other acid preparations |
+| 0106050M0BBAAAA | Citramag effervescent powder sachets | Magnesium citrate |
+| 0106050M0AAAAAA | Citric acid 17.79g/Magnesium carb 11.57g efferv pdr sach SF | Magnesium citrate |
+| 0309020AGAAAAAA | Citric acid 20mg/Ipecac liq ext 10microL/5ml soln | Citric acid monohydrate/ipecacuanha |
+| 070403000AAAGAG | Citric acid 334mg/Pot cit 550mg/Sod cit 500mg/5ml soln | Other urological pain preparations |
+| 0704030G0BBAAAC | Effercitrate tablets | Potassium citrate |
+| 0309020AGBBAAAA | Hill's Balsam Chesty Cough Liquid for Children | Citric acid monohydrate/ipecacuanha |
+| 0704030G0AAACAC | Potassium citrate 1.5g / Citric acid 250mg efferv tab SF | Potassium citrate |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

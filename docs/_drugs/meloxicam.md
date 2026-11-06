@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,18 +79,31 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for the lead prediction.
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/) | 2014 | Safety registry study (design not confirmed) | Pediatric Rheumatology Online Journal | Long-term safety and developmental data for celecoxib and non-selective NSAIDs in juvenile idiopathic arthritis. Meloxicam is not specifically assessed. |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010AAAAAAAA | Meloxicam tablets 7.5 mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010AAAAAJAJ | Meloxicam 15mg orodispersible tablets sugar free | Meloxicam |
+| 1001010AAAAACAC | Meloxicam 15mg suppositories | Meloxicam |
+| 1001010AAAAABAB | Meloxicam 15mg tablets | Meloxicam |
+| 1001010AAAAAIAI | Meloxicam 15mg/5ml oral suspension | Meloxicam |
+| 1001010AAAAAGAG | Meloxicam 3.75mg/5ml oral suspension | Meloxicam |
+| 1001010AAAAAKAK | Meloxicam 7.5mg orodispersible tablets sugar free | Meloxicam |
+| 1001010AAAAADAD | Meloxicam 7.5mg suppositories | Meloxicam |
+| 1001010AAAAAAAA | Meloxicam 7.5mg tablets | Meloxicam |
+| 1001010AAAAAHAH | Meloxicam 7.5mg/5ml oral suspension | Meloxicam |
+| 1001010AABBACAC | Mobic 15mg suppositories | Meloxicam |
+| 1001010AABBABAB | Mobic 15mg tablets | Meloxicam |
+| 1001010AABBADAD | Mobic 7.5mg suppositories | Meloxicam |
+| 1001010AABBAAAA | Mobic 7.5mg tablets | Meloxicam |
 
-The data compiled for this report lists one valid single-ingredient authorisation. The identifier is not in standard MHRA "PL" format, and dosage form, manufacturer and indication text are not available. Please verify against the MHRA product database, the SmPC and the BNF (musculoskeletal and joint diseases, NSAIDs section).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in standard MHRA "PL" format, and dosage form, manufacturer and indication text are not available. Please verify against the MHRA product database, the SmPC and the BNF (musculoskeletal and joint diseases, NSAIDs section).
 
 ## Safety Considerations
 

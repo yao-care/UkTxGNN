@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (36 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 36 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0109010U0AAAAAA (BNF code; PL number not available) | Ursodeoxycholic Acid Tablets 150 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0109010U0AABJBJ | Ursodeoxycholic acid 100mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAAWAW | Ursodeoxycholic acid 120mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAARAR | Ursodeoxycholic acid 125mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAAAAA | Ursodeoxycholic acid 150mg tablets | Ursodeoxycholic acid |
+| 0109010U0AAANAN | Ursodeoxycholic acid 150mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAAUAU | Ursodeoxycholic acid 200mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAABAB | Ursodeoxycholic acid 250mg capsules | Ursodeoxycholic acid |
+| 0109010U0AABLBL | Ursodeoxycholic acid 250mg tablets | Ursodeoxycholic acid |
+| 0109010U0AAAJAJ | Ursodeoxycholic acid 250mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AABEBE | Ursodeoxycholic acid 250mg/5ml oral suspension sugar free | Ursodeoxycholic acid |
+| 0109010U0AAAQAQ | Ursodeoxycholic acid 25mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AAAYAY | Ursodeoxycholic acid 300mg tablets | Ursodeoxycholic acid |
+| 0109010U0AABHBH | Ursodeoxycholic acid 300mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AABGBG | Ursodeoxycholic acid 34mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AABDBD | Ursodeoxycholic acid 37.5mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AABCBC | Ursodeoxycholic acid 375mg/5ml oral liquid | Ursodeoxycholic acid |
+| 0109010U0AABNBN | Ursodeoxycholic acid 400mg tablets | Ursodeoxycholic acid |
+| 0109010U0AABMBM | Ursodeoxycholic acid 500mg capsules | Ursodeoxycholic acid |
+| 0109010U0AABKBK | Ursodeoxycholic acid 500mg tablets | Ursodeoxycholic acid |
+| 0109010U0AAAXAX | Ursodeoxycholic acid 50mg/5ml oral liquid | Ursodeoxycholic acid |
 
-Only one valid single-ingredient authorisation is recorded. Indication text and manufacturer details were not available, and NICE-appraised indications could not be confirmed from the data compiled for this report.
+Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Indication text and manufacturer details were not available, and NICE-appraised indications could not be confirmed from the data compiled for this report.
 
 ## Safety Considerations
 

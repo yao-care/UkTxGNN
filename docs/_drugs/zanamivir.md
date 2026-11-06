@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
 monitor_inn: "Zanamivir"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but this is
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,12 @@ Currently no related literature available for pyelonephritis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0503040A0AAAAAA | Zanamivir powder for inhalation 5 mg disk with device | Inhalation powder | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503040A0BBAAAA | Relenza 5mg inhalation powder blisters with Diskhaler | Zanamivir |
+| 0503040A0AAAAAA | Zanamivir 5mg inhalation powder blisters with device | Zanamivir |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification for this product is within the antiviral chapter (influenza, section 5.3.4).
 

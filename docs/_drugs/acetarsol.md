@@ -5,7 +5,7 @@ layout: default
 title: Acetarsol
 parent: Known Uses Only (No New Predictions)
 nav_order: 16
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acetarsol: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Acetarsol"
 predicted_indications: []
@@ -43,16 +43,21 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 *Note: the approved indication text for the UK product was not available in the data compiled for this report.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0107010B0AAAAAA (BNF code) | Acetarsol suppositories 250 mg | Suppository (per product name) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107010B0AAABAB | Acetarsol 1g suppositories | Acetarsol |
+| 0107010B0AAAAAA | Acetarsol 250mg suppositories | Acetarsol |
+| 0107010B0AAAEAE | Acetarsol 360mg suppositories | Acetarsol |
+| 0107010B0AAAFAF | Acetarsol 500mg suppositories | Acetarsol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Acetarsol is listed under BNF section 1.7 (local preparations for anal and rectal disorders), as suggested by the 0107 prefix of the code above. The identifier shown is a BNF-style code rather than a standard PL number. Please verify the current MHRA authorisation status before any further evaluation.
 

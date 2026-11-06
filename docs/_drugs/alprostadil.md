@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L4). Approved use: Erectile dysfunction"
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **aortic malformation**, but th
 | Predicted New Indication | Aortic malformation |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold (treat as a research question) |
 
 ---
@@ -90,11 +90,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704050B0AABABA (BNF-style code) | Alprostadil urethral stick 500 micrograms | Urethral stick (dosage form not recorded) | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704050B0AAAWAW | Alprostadil 10microgram inj cartridges | Alprostadil |
+| 0704050B0AABJBJ | Alprostadil 10microgram inj pre-filled disposable devices | Alprostadil |
+| 0704050B0AAAIAI | Alprostadil 10microgram inj vials | Alprostadil |
+| 0704050B0AAAYAY | Alprostadil 125microgram urethral sticks | Alprostadil |
+| 0704050B0AABBBB | Alprostadil 1mg urethral sticks | Alprostadil |
+| 0704050B0AAAVAV | Alprostadil 20microgram inj cartridges | Alprostadil |
+| 0704050B0AABKBK | Alprostadil 20microgram inj pre-filled disposable devices | Alprostadil |
+| 0704050B0AAAAAA | Alprostadil 20microgram inj vials | Alprostadil |
+| 0704050B0AAAZAZ | Alprostadil 250microgram urethral sticks | Alprostadil |
+| 0704050B0AABPBP | Alprostadil 3mg/g cream | Alprostadil |
+| 0704050B0AABFBF | Alprostadil 40microgram inj cartridges | Alprostadil |
+| 0704050B0AABDBD | Alprostadil 40microgram inj vials | Alprostadil |
+| 0704050B0AABABA | Alprostadil 500microgram urethral sticks | Alprostadil |
+| 0701011D0AAABAB | Alprostadil 500micrograms/1ml solution for infusion ampoules | Alprostadil |
+| 0704050B0AAANAN | Alprostadil 5microgram inj vials | Alprostadil |
+| 0704050B0AABMBM | Alprostadil 10microgram inj cartridges with device | Alprostadil |
+| 0704050B0AABLBL | Alprostadil 20microgram inj cartridges with device | Alprostadil |
+| 0704050B0AABNBN | Alprostadil 40microgram inj cartridges with device | Alprostadil |
+| 0704050B0BBABAI | Caverject 10microgram inj vials | Alprostadil |
+| 0704050B0BBAAAA | Caverject 20microgram inj vials | Alprostadil |
 
-Only one authorisation record was found. It is a BNF classification code rather than a standard MHRA PL number, and the manufacturer and indication text are not recorded.
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

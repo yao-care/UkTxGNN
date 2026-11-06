@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Travoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Travoprost"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
@@ -51,8 +51,8 @@ The TxGNN model (deep learning) predicts it may be effective for **visceral calc
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -107,11 +107,19 @@ Publications retrieved for the broader "vascular disease" and "hemangioendotheli
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000AEAAAAAA | Travoprost eye drops 40 mcg/ml | Eye drops | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000AEAAABAB | Travoprost 40micrograms/ml eye dps 0.1ml ud preserv free | Travoprost |
+| 1106000AEAAAAAA | Travoprost 40micrograms/ml eye drops | Travoprost |
+| 1106000AEBCAAAA | Bondulc 40micrograms/ml eye drops | Travoprost |
+| 1106000AHBBAAAA | DuoTrav 40micrograms/ml / 5mg/ml eye drops | Timolol and travoprost |
+| 1106000AEBBAAAA | Travatan 40micrograms/ml eye drops | Travoprost |
+| 1106000AHAAAAAA | Travoprost 40micrograms/ml / Timolol 5mg/ml eye drops | Timolol and travoprost |
+| 1106000AEBDAAAB | Visutrax 40micrograms/ml eye drops 0.1ml unit dose | Travoprost |
 
-One valid single-ingredient authorisation is recorded. Please check the MHRA register and the BNF (prostaglandin analogues, glaucoma section) for the licensed indications and current product details.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the MHRA register and the BNF (prostaglandin analogues, glaucoma section) for the licensed indications and current product details.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Atorvastatin is a statin that lowers blood cholesterol and is widely used for ca
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -92,7 +92,7 @@ The published evidence supports cardiovascular risk and lipid management in peop
 
 ## UK Market Information
 
-Atorvastatin is currently marketed in the UK, and the local data record one valid single-ingredient authorisation. No indication text is recorded for it in the local data. Please check the current MHRA record, the SmPC and the BNF for authorised indications and product details.
+No indication text is recorded for it in the local data. Please check the current MHRA record, the SmPC and the BNF for authorised indications and product details.
 
 ## Safety Considerations
 

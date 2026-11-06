@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but currently there are **no clinical trials** and **no publications** in the da
 | Predicted New Indication | thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (41 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 41 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0208010D0AAABAB (BNF-coded product record) | Enoxaparin Inj 100mg/ml 0.4ml Pfs | Pre-filled syringe (injection) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208010D0AAAEAE | Enoxaparin sodium 100mg/1ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAAFAF | Enoxaparin sodium 120mg/0.8ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAAGAG | Enoxaparin sodium 150mg/1ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAAAAA | Enoxaparin sodium 20mg/0.2ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAAHAH | Enoxaparin sodium 300mg/3ml solution for injection vials | Enoxaparin |
+| 0208010D0AAABAB | Enoxaparin sodium 40mg/0.4ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAACAC | Enoxaparin sodium 60mg/0.6ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0AAADAD | Enoxaparin sodium 80mg/0.8ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0BEAEAE | Arovi 100mg/1ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEAGAF | Arovi 120mg/0.8ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEAFAG | Arovi 150mg/1ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEAAAA | Arovi 20mg/0.2ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEABAB | Arovi 40mg/0.4ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEACAC | Arovi 60mg/0.6ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BEADAD | Arovi 80mg/0.8ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BBAEAE | Clexane 100mg/1ml solution for injection pre-filled syringes | Enoxaparin |
+| 0208010D0BBAAAA | Clexane 20mg/0.2ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0BBAHAH | Clexane 300mg/3ml solution for injection multidose vials | Enoxaparin |
+| 0208010D0BBABAB | Clexane 40mg/0.4ml inj pre-filled syringes | Enoxaparin |
+| 0208010D0BBACAC | Clexane 60mg/0.6ml inj pre-filled syringes | Enoxaparin |
+
+Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The data show one valid single-ingredient record. The BNF chapter code (0208010D0) corresponds to parenteral anticoagulants.
 

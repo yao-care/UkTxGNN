@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 245
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Efavirenz: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **1 in vitro/structural
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0503010D0AAADAD | Efavirenz tablets 600 mg | Tablet (as named in the record) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010D0AAABAB | Efavirenz 100mg capsules | Efavirenz |
+| 0503010D0AAAAAA | Efavirenz 200mg capsules | Efavirenz |
+| 0503010D0AAAEAE | Efavirenz 30mg/ml oral solution sugar free | Efavirenz |
+| 0503010D0AAACAC | Efavirenz 50mg capsules | Efavirenz |
+| 0503010D0AAADAD | Efavirenz 600mg tablets | Efavirenz |
+| 0503010ANBBAAAA | Atripla 600mg/200mg/245mg tablets | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010ANAAAAAA | Efavirenz 600mg / Emtr 200mg /Tenofovir disoproxil 245mg tab | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010D0BBABAB | Sustiva 100mg capsules | Efavirenz |
+| 0503010D0BBAAAA | Sustiva 200mg capsules | Efavirenz |
+| 0503010D0BBAEAE | Sustiva 30mg/ml oral solution | Efavirenz |
+| 0503010D0BBACAC | Sustiva 50mg capsules | Efavirenz |
+| 0503010D0BBADAD | Sustiva 600mg tablets | Efavirenz |
 
-The record is a single-ingredient product with valid status. The BNF classification code (section 5.3.1, HIV infection) corresponds to antiviral treatment of HIV. A formal MHRA marketing authorisation (PL) number was not provided.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code (section 5.3.1, HIV infection) corresponds to antiviral treatment of HIV. A formal MHRA marketing authorisation (PL) number was not provided.
 
 ## Cytotoxicity
 

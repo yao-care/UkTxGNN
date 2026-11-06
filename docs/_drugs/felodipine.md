@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Felodipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Felodipine is a calcium channel blocker used for hypertension, though the UK licence record compiled for this report carries no indication text.
+Felodipine is a calcium channel blocker used for hypertension.
 The TxGNN model predicts it may be useful for **pulmonary hypertension with unclear multifactorial mechanism**,
 but **no clinical trials** and **no publications** currently support this specific prediction, so it rests on model output alone.
 
@@ -52,8 +52,8 @@ but **no clinical trials** and **no publications** currently support this specif
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Number of Approvals | 1 licence record (single-ingredient product) |
 | Recommended Decision | Hold |
 
@@ -81,11 +81,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Licence Identifier | Product Name | Dosage Form | Status |
-|---------|------|------|-----------|
-| 0206020F0AAACAC | Felodipine Tab 10mg M/R | Modified-release tablet (from product name) | Valid, single-ingredient |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020F0AAACAC | Felodipine 10mg modified-release tablets | Felodipine |
+| 0206020F0AAADAD | Felodipine 2.5mg modified-release tablets | Felodipine |
+| 0206020F0AAAGAG | Felodipine 2.5mg/5ml oral solution | Felodipine |
+| 0206020F0AAAIAI | Felodipine 2.5mg/5ml oral suspension | Felodipine |
+| 0206020F0AAABAB | Felodipine 5mg modified-release tablets | Felodipine |
+| 0206020F0AAAHAH | Felodipine 5mg/5ml oral solution | Felodipine |
+| 0206020F0BDACAC | Cabren 10mg modified-release tablets | Felodipine |
+| 0206020F0BDABAD | Cabren 2.5mg modified-release tablets | Felodipine |
+| 0206020F0BDAAAB | Cabren 5mg modified-release tablets | Felodipine |
+| 0206020F0BKABAC | Cardioplen XL 10mg tablets | Felodipine |
+| 0206020F0BKACAD | Cardioplen XL 2.5mg tablets | Felodipine |
+| 0206020F0BKAAAB | Cardioplen XL 5mg tablets | Felodipine |
+| 0206020F0BNABAC | Delofine XL 10mg tablets | Felodipine |
+| 0206020F0BNACAD | Delofine XL 2.5mg tablets | Felodipine |
+| 0206020F0BNAAAB | Delofine XL 5mg tablets | Felodipine |
+| 0205051S0AAAAAA | Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets | Ramipril with calcium channel blocker |
+| 0205051S0AAABAB | Felodipine 5mg modified-release / Ramipril 5mg tablets | Ramipril with calcium channel blocker |
+| 0206020F0BFABAC | Felogen XL 10mg tablets | Felodipine |
+| 0206020F0BFAAAB | Felogen XL 5mg tablets | Felodipine |
+| 0206020F0BEABAC | Felotens XL 10mg tablets | Felodipine |
 
-The record gives no approved indication text, so the table does not state how the product is licensed.
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

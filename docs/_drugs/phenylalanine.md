@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 493
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 091101000AACPCP | Phenylalanine Cap 500mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AADSDS | L-Phenylalanine 100mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000AACCCC | L-Phenylalanine 25mg capsules | Other amino acidandnutritional agent preparations |
+| 0913445A0AAAGAG | L-Phenylalanine 500mg capsules | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+| 0913213A0AAAFAF | L-Phenylalanine 50mg oral powder sachets | Powder single L-amino acid supplement (0913213) |
+| 0913213A0BGAAAF | Phenylalanine50 oral powder sachets | Powder single L-amino acid supplement (0913213) |
+| 0913445A0BGAAAG | Quest L-Phenylalanine 500mg capsules | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

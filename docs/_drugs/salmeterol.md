@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Salmeterol is a long-acting beta2-adrenoceptor agonist inhaled as a bronchodilat
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (57 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 57 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,30 @@ The link to respiratory malformation is indirect. Bronchodilation and improved a
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0301011U0AAABAB | Salmeterol powder for inhalation 50 mcg (with reference) | Inhalation powder | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301011U0AAACAC | Salmeterol 25micrograms/dose inhaler | Salmeterol |
+| 0301011U0AAAHAH | Salmeterol 25micrograms/dose inhaler CFC free | Salmeterol |
+| 0301011U0AAABAB | Salmeterol 50microgram inhalation powder blisters | Salmeterol |
+| 0301011U0AAAEAE | Salmeterol 50micrograms/dose dry powder inhaler | Salmeterol |
+| 0302000N0BHAAAZ | Aerivio Spiromax 50microg / 500microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+| 0302000N0BGABBF | AirFluSal 25micrograms/dose / 125micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BGACBG | AirFluSal 25micrograms/dose / 250micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BGAAAZ | AirFluSal Forspiro 50microg / 500microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+| 0302000N0BJAABF | Aloflute 25micrograms/dose / 125micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BJABBG | Aloflute 25micrograms/dose / 250micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BPABBF | Avenor 25micrograms/dose / 125micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BPACBG | Avenor 25micrograms/dose / 250micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BPAABE | Avenor 25micrograms/dose / 50micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BRAAAX | Campona Airmaster 50microg/dose / 100microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+| 0302000N0BRABAY | Campona Airmaster 50microg/dose / 250microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+| 0302000N0BRACAZ | Campona Airmaster 50microg/dose / 500microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+| 0302000N0BLABBF | Combisal 25micrograms/dose / 125micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BLACBG | Combisal 25micrograms/dose / 250micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BLAABE | Combisal 25micrograms/dose / 50micrograms/dose inhaler | Fluticasone propionate (Inhalation) |
+| 0302000N0BNACAX | Fixkoh Airmaster 50microg/dose / 100microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
+
+Showing 20 of 57 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style product code (BNF chapter 3, respiratory system), not a PL number.
 

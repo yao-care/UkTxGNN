@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Rotigotine: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Parkinson's disease and restless legs syndrome"
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **3 publicati
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010Z0AAABAB | Rotigotine transdermal patch 4 mg/24 hrs | Transdermal patch | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010Z0AAAFAF | Rotigotine 1mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAAAAA | Rotigotine 2mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAAGAG | Rotigotine 3mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAABAB | Rotigotine 4mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAACAC | Rotigotine 6mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAADAD | Rotigotine 8mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0AAAEAE | Generic Neupro transdermal patches starter pack | Rotigotine |
+| 0409010Z0BBAFAF | Neupro 1mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBAAAA | Neupro 2mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBAGAG | Neupro 3mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBABAB | Neupro 4mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBACAC | Neupro 6mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBADAD | Neupro 8mg/24hours transdermal patches | Rotigotine |
+| 0409010Z0BBAEAE | Neupro transdermal patches treatment initiation pack | Rotigotine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The record corresponds to BNF section 4.9.1 (drugs used in Parkinsonism). The number shown is a classification-style code rather than a standard PL number.
 

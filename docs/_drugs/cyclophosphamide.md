@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Cyclophosphamide"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
 description: "Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Cyclophosphamide is an alkylating chemotherapy and immunosuppressive agent. The 
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,28 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801010H0AAAFAF (BNF-style code) | Cyclophosphamide 50 mg tablets | Tablet | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801010H0AAARAR | Cyclophosphamide 100mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0AAADAD | Cyclophosphamide 1g powder for solution for injection vials | Cyclophosphamide |
+| 0801010H0AAABAB | Cyclophosphamide 200mg inj vials | Cyclophosphamide |
+| 0801010H0AAAKAK | Cyclophosphamide 25mg tablets | Cyclophosphamide |
+| 0801010H0AAAPAP | Cyclophosphamide 25mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0AAAMAM | Cyclophosphamide 35mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0AAAVAV | Cyclophosphamide 40mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0AAACAC | Cyclophosphamide 500mg inj vials | Cyclophosphamide |
+| 0801010H0AAAFAF | Cyclophosphamide 50mg tablets | Cyclophosphamide |
+| 0801010H0AAANAN | Cyclophosphamide 50mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0AAAQAQ | Cyclophosphamide 75mg/5ml oral liquid | Cyclophosphamide |
+| 0801010H0BDAAAK | Cytoxan 25mg tablets | Cyclophosphamide |
+| 0801010H0BBAFAD | Endoxana 1g powder for solution for injection vials | Cyclophosphamide |
+| 0801010H0BBADAB | Endoxana 200mg powder for solution for injection vials | Cyclophosphamide |
+| 0801010H0BBAEAC | Endoxana 500mg powder for solution for injection vials | Cyclophosphamide |
+| 0801010H0BBABAF | Endoxana 50mg tablets | Cyclophosphamide |
 
-One valid single-ingredient authorisation is recorded. Please check the current SmPC and BNF entry for licensed indications and dosing.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC and BNF entry for licensed indications and dosing.
 
 ## Cytotoxicity
 

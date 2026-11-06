@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Reboxetine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Depression (unipolar depression, major depressive disorder)"
 monitor_inn: "Reboxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic disorder", "Keppen-Lubinsky syndrome", "ligneous conjunctivitis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040U0AAAAAA (BNF-style product code, not a PL number) | Reboxetine 4 mg tablets | Tablet | Indication text not provided in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040U0AAAAAA | Reboxetine 4mg tablets | Reboxetine |
+| 0403040U0BBAAAA | Edronax 4mg tablets | Reboxetine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF classification: the code above falls within the antidepressant chapter (4.3). Please check the current SmPC and the NICE guidance for the licensed indication and place in therapy.
 

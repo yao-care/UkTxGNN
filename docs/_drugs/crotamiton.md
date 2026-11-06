@@ -5,7 +5,7 @@ layout: default
 title: Crotamiton
 parent: Known Uses Only (No New Predictions)
 nav_order: 191
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Crotamiton: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Crotamiton"
 predicted_indications: []
@@ -43,18 +43,25 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1303000I0AAAAAA | Crotamiton Cream 10% | Cream (topical) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1303000I0AAAAAA | Crotamiton 10% cream | Crotamiton |
+| 1303000I0AAABAB | Crotamiton 10% lotion | Crotamiton |
+| 1303000I0BCAAAA | Boots Derma Care Itch Relief cream | Crotamiton |
+| 1303000I0BBABAA | Eurax 10% cream | Crotamiton |
+| 1304000V0BTABAJ | Eurax Hc cream | Hydrocortisone |
+| 1304000V0BTAAAJ | Eurax Hydrocortisone cream | Hydrocortisone |
+| 1303000I0BBAAAB | Eurax lotion | Crotamiton |
+| 1304000V0AAAJAJ | Hydrocortisone 0.25% / Crotamiton 10% cream | Hydrocortisone |
 
-The compiled data list one valid single-ingredient authorisation. Its dosage form, manufacturer and approved indication text are not provided, and the authorisation number is not in the usual MHRA PL format, so it should be verified against the MHRA register before use.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

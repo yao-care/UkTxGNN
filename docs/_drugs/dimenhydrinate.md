@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 230
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L4). Approved use: Vertigo of central nervous system origin"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **1 publicati
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 A second predicted indication, cold urticaria (score 0.9924, Evidence Level L5, Hold), is discussed briefly below.
@@ -78,12 +78,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-The data compiled for this report list 2 valid single-ingredient authorisations, but the numbers shown are not UK MHRA product licence (PL) numbers, and dosage form and approved indication text are not available. Please verify current UK product details in the BNF and the MHRA product information.
+Please verify current UK product details in the BNF and the MHRA product information.
 
-| Authorisation Number (as recorded) | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000ACBBAAAA | Arlevert tablet | Not available | Not available |
-| 0406000ACAAAAAA | Cinnarizine/Dimenhydrinate tablet 20 mg/40 mg | Not available | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000H0AAAEAE | Dimenhydrinate 12.5mg/5ml oral liquid | Dimenhydrinate |
+| 0406000H0AAADAD | Dimenhydrinate 50mg tablets | Dimenhydrinate |
+| 0406000ACBBAAAA | Arlevert tablets | Dimenhydrinate/cinnarizine |
+| 0406000ACAAAAAA | Cinnarizine 20mg / Dimenhydrinate 40mg tablets | Dimenhydrinate/cinnarizine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

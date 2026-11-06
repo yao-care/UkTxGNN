@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Latanoprost"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but **no clinical trials and no publications** were found in the data compiled f
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000L0AAAAAA | Latanoprost Eye Drops 50 micrograms/ml | Eye drops | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000L0AAABAB | Latanoprost 50micrograms/ml eye dps 0.2ml ud preserv free | Latanoprost |
+| 1106000L0AAADAD | Latanoprost 50micrograms/ml eye dps 0.3ml ud preserv free | Latanoprost |
+| 1106000L0AAAAAA | Latanoprost 50micrograms/ml eye drops | Latanoprost |
+| 1106000L0AAACAC | Latanoprost 50micrograms/ml eye drops preservative free | Latanoprost |
+| 1106000L0BFAAAD | Catiolanze 50micrograms/ml eye dps emulsn 0.3ml unit dose | Latanoprost |
+| 1106000ADBDAAAB | Fixapost 50micrograms/ml / 5mg/ml eye drops 0.2ml unit dose | Latanoprost and timolol |
+| 1106000L0BGAAAA | LatOp 50micrograms/ml eye drops | Latanoprost |
+| 1106000ADAAABAB | Latanoprost 50mcg/ml / Timolol 5mg/ml eye dps 0.2ml ud PF | Latanoprost and timolol |
+| 1106000ADAAACAC | Latanoprost 50microg / Timolol 5mg/ml eye dps preserv free | Latanoprost and timolol |
+| 1106000ANAAAAAA | Latanoprost 50microg/ml / Netarsudil 200microg/ml eye dps | Latanoprost and Netarsudil |
+| 1106000ADAAAAAA | Latanoprost 50micrograms/ml / Timolol 5mg/ml eye drops | Latanoprost and timolol |
+| 1106000L0BEAAAC | Lotacryn 50micrograms/ml eye drops | Latanoprost |
+| 1106000L0BDAAAA | Medizol 0.005% eye drops | Latanoprost |
+| 1106000ADBCAAAA | Medox 50micrograms/ml / 5mg/ml eye drops | Latanoprost and timolol |
+| 1106000L0BCAAAB | Monopost 50micrograms/ml eye drops 0.2ml unit dose | Latanoprost |
+| 1106000ANBBAAAA | Roclanda 50micrograms/ml / 200micrograms/ml eye drops | Latanoprost and Netarsudil |
+| 1106000ADBEABAC | Vizilatan Duo 50micrograms/ml / 5mg/ml eye drops | Latanoprost and timolol |
+| 1106000ADBBAAAA | Xalacom 50micrograms/ml / 5mg/ml eye drops | Latanoprost and timolol |
+| 1106000L0BBAAAA | Xalatan 50micrograms/ml eye drops | Latanoprost |
 
-Only one valid single-ingredient authorisation is recorded. The authorisation number appears not to follow the standard MHRA "PL" format, so it should be checked against the MHRA register. Please refer to the BNF (ophthalmic preparations, glaucoma) and relevant NICE guidance for the current licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number appears not to follow the standard MHRA "PL" format, so it should be checked against the MHRA register. Please refer to the BNF (ophthalmic preparations, glaucoma) and relevant NICE guidance for the current licensed indications.
 
 ## Safety Considerations
 

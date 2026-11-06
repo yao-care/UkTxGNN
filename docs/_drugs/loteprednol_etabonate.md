@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The evidence is therefore very limited.
 | Predicted New Indication | Serous conjunctivitis except viral |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 **Note on evidence level:** the only publication for pseudomembranous conjunctivitis concerns adenoviral conjunctivitis, a related condition, and does not directly study the predicted disease. Under the evidence rules this is L5, although the underlying data compilation labelled it L4.
@@ -86,11 +86,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1104010W0AAAAAA | Loteprednol Etabonate Eye Drops 0.5% | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104010W0BBAAAA | Lotemax 0.5% eye drops | Loteprednol etabonate |
+| 1104010W0AAAAAA | Loteprednol 0.5% eye drops | Loteprednol etabonate |
 
-The licence list is complete (1 single-ingredient product, valid). The data compiled for this report did not include BNF or NICE indication details for this product.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The data compiled for this report did not include BNF or NICE indication details for this product.
 
 ---
 

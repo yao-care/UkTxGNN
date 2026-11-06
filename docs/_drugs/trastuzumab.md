@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The prediction is best understood as a receptor-defined subgroup of the already-
 | Predicted New Indication | Malignant cutaneous granular cell skin tumor |
 | TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (22 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 22 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -103,11 +103,32 @@ Benefit is expected only in HER2-positive tumours. HER2-negative PR+ tumours are
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050ADAAAAAA | Trastuzumab IV infusion 150 mg vial (dry powder) | Not specified | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050ADAAAAAA | Trastuzumab 150mg powder for solution for infusion vials | Trastuzumab |
+| 0801050ADAAAEAE | Trastuzumab 420mg powder for solution for infusion vials | Trastuzumab |
+| 0801050ADAAABAB | Trastuzumab 600mg/5ml solution for injection vials | Trastuzumab |
+| 0801050ADAAAFAF | Trastuzumab 60mg powder for solution for infusion vials | Trastuzumab |
+| 0801050ADBBAAAA | Herceptin 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBBABAB | Herceptin 600mg/5ml solution for injection vials | Trastuzumab |
+| 0801050ADBEAAAA | Herzuma 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBEABAE | Herzuma 420mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBCAAAC | Kadcyla 100mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBCABAD | Kadcyla 160mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBFAAAA | Kanjinti 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBFABAE | Kanjinti 420mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBIABAA | Ogivri 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBIAAAE | Ogivri 420mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBDAAAA | Ontruzant 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADAAACAC | Trastuzumab emtansine 100mg inf vials | Trastuzumab |
+| 0801050ADAAADAD | Trastuzumab emtansine 160mg inf vials | Trastuzumab |
+| 0801050ADBGAAAA | Trazimera 150mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBGABAE | Trazimera 420mg pdr for concentrate for inf vials | Trastuzumab |
+| 0801050ADBHAAAA | Zercepac 150mg pdr for concentrate for inf vials | Trastuzumab |
 
-One authorisation is recorded, and it is a valid single-ingredient product. The identifier shown appears to be a BNF-style code (BNF section 8.1.5, monoclonal antibodies) rather than an MHRA PL number.
+Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown appears to be a BNF-style code (BNF section 8.1.5, monoclonal antibodies) rather than an MHRA PL number.
 
 ---
 

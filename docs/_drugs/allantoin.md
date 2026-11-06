@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "allantoin"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "exanthem (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **severe nonproliferative diabeti
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9956 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The local licence record lists one valid authorisation, for a combination product containing coal tar extract and allantoin (cream, 5%/2%). It carries no recorded dosage form, manufacturer or approved indication text, and, being a combination product, it does not describe how allantoin alone is authorised. The licence details are added by the site program from the licence facts.
+The licence details are added by the site program from the licence facts.
 
 ## Safety Considerations
 

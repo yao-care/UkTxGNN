@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials and no publications** su
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 3 (valid: 3) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000N0AAAAAA | Meclozine HCl Tab 12.5mg | Tablet | Indication text not available |
-| 0406000N0BBAAAA | Sea-Legs Tab 12.5mg | Tablet | Indication text not available |
-| 0406000N0BDAAAC | Traveleeze Pastil | Pastille | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000N0AAACAC | Meclozine 12.5mg pastilles sugar free | Meclozine hydrochloride |
+| 0406000N0AAAAAA | Meclozine 12.5mg tablets | Meclozine hydrochloride |
+| 0406000N0BBAAAA | Sea-Legs 12.5mg tablets | Meclozine hydrochloride |
+| 0406000N0BDAAAC | Traveleeze Soft & Chewy pastilles | Meclozine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifiers above are as recorded in the data compiled for this report and are not in the standard MHRA "PL XXXXX/XXXX" format. They should be verified against the MHRA register. Dosage forms are inferred from product names because the dosage form field was empty. In the BNF, antihistamines for nausea and vertigo are classified under the nausea and vertigo section of the gastrointestinal chapter. No NICE appraisal data were available.
 

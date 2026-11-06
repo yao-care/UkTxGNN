@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dexketoprofen: predicted new indication Tendinitis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -52,8 +52,8 @@ Among the other predictions, **migraine disorder** has by far the strongest evid
 | Predicted New Indication | Tendinitis (rank 1); migraine disorder (rank 6) has the strongest evidence |
 | TxGNN Prediction Score | 0.9990 (tendinitis); 0.9987 (migraine disorder) |
 | Evidence Level | L5 (tendinitis); L1 (migraine disorder) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold (tendinitis); Proceed with Guardrails (migraine disorder) |
 
 ---
@@ -110,9 +110,14 @@ For reference, key publications for **migraine disorder**:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010AEAAAAAA | Dexketoprofen Tab 25mg | Tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010AEAAAAAA | Dexketoprofen 25mg tablets | Dexketoprofen |
+| 1001010AEBBAAAA | Keral 25mg tablets | Dexketoprofen |
+| 040702040BXAABD | Skudexa 75mg/25mg tablets | Tramadol hydrochloride |
+| 040702040AABDBD | Tramadol 75mg / Dexketoprofen 25mg tablets | Tramadol hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classifies dexketoprofen among the non-steroidal anti-inflammatory drugs. Please check the current SmPC and BNF for the licensed indications. Dexketoprofen is not listed here under a NICE-appraised indication in the data compiled for this report.
 
@@ -135,7 +140,7 @@ Class-level cautions relevant to any repurposing work include gastrointestinal, 
 - Migraine disorder is supported by multiple randomised trials, including a placebo-controlled study, and a meta-analysis (L1). Guardrails should limit use to acute treatment in adults, with attention to NSAID gastrointestinal, renal and cardiovascular risks. No prophylaxis evidence was provided.
 
 **To proceed, the following is needed:**
-- Original licensed indication text from the MHRA/SmPC, as the authorisation record is incomplete
+- Original licensed indication text from the MHRA/SmPC
 - Warnings, contraindications and interaction data from the SmPC and BNF (the safety screen cannot be completed without these)
 - Mechanism of action data from DrugBank
 - For tendinitis: tendon-specific randomised trials, ideally against another NSAID or placebo

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Gemfibrozil: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Hypertriglyceridaemia"
 monitor_inn: "Gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0212000Q0AAABAB | Gemfibrozil tablets 600 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000Q0AAAAAA | Gemfibrozil 300mg capsules | Gemfibrozil |
+| 0212000Q0AAABAB | Gemfibrozil 600mg tablets | Gemfibrozil |
+| 0212000Q0BBAAAA | Lopid 300mg capsules | Gemfibrozil |
+| 0212000Q0BBABAB | Lopid 600mg tablets | Gemfibrozil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note that this authorisation number is not in the standard UK PL format, and the dosage form and approved indication are not recorded in the compiled data. Please verify against the MHRA register, the SmPC and the BNF.
 

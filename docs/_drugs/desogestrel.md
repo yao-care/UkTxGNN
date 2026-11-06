@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Desogestrel: predicted new indication amenorrhea (disease) (evidence level L3). Approved use: Not available in the data compiled for this report (the 75 mcg tablet…"
 monitor_inn: "Desogestrel"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -52,8 +52,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,30 @@ The model's prediction is therefore plausible in a limited sense. However, the s
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0703021Q0AAAAAA (BNF-style code) | Desogestrel 75 mcg tablets | Tablet (as named) | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0703021Q0AAAAAA | Desogestrel 75microgram tablets | Desogestrel |
+| 0703021Q0BEAAAA | Aizea 75microgram tablets | Desogestrel |
+| 0703010E0BPAAAB | Alenini 150microgram/20microgram tablets | Combined ethinylestradiol 20mcg |
+| 0703010F0CBAAAA | Alenvona 150microgram/30microgram tablets | Combined ethinylestradiol 30mcg |
+| 0703010E0BQAAAB | Bimizza 150microgram/20microgram tablets | Combined ethinylestradiol 20mcg |
+| 0703021Q0BBAAAA | Cerazette 75microgram tablets | Desogestrel |
+| 0703021Q0BDAAAA | Cerelle 75microgram tablets | Desogestrel |
+| 0703010F0BTAAAA | Cimizt 30microgram/150microgram tablets | Combined ethinylestradiol 30mcg |
+| 0703021Q0BGAAAA | Desomono 75microgram tablets | Desogestrel |
+| 0703021Q0BFAAAA | Desorex 75microgram tablets | Desogestrel |
+| 0703010E0AAABAB | Ethinylestradiol 20microgram / Desogestrel 150microgram tab | Combined ethinylestradiol 20mcg |
+| 0703010F0AAAAAA | Ethinylestradiol 30microgram / Desogestrel 150microgram tab | Combined ethinylestradiol 30mcg |
+| 0703021Q0BIAAAA | Feanolla 75microgram tablets | Desogestrel |
+| 0703010E0BIAAAB | Gedarel 20microgram/150microgram tablets | Combined ethinylestradiol 20mcg |
+| 0703010F0BQAAAA | Gedarel 30microgram/150microgram tablets | Combined ethinylestradiol 30mcg |
+| 0703010E0BLAAAB | Lestramyl 20microgram/150microgram tablets | Combined ethinylestradiol 20mcg |
+| 0703010F0BUAAAA | Lestramyl 30microgram/150microgram tablets | Combined ethinylestradiol 30mcg |
+| 0703021Q0BKAAAA | Lovima 75microgram tablets | Desogestrel |
+| 0703010F0BBAAAA | Marvelon tablets | Combined ethinylestradiol 30mcg |
+| 0703010E0BCAAAB | Mercilon 150microgram/20microgram tablets | Combined ethinylestradiol 20mcg |
+
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF places this product in the progestogen-only contraceptive group (section 7.3.2.1). No NICE-appraised indication for amenorrhoea was found in the data compiled.
 

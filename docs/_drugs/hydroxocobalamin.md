@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Hydroxocobalamin"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hydroxocobalamin: predicted new indication Esophageal varices with bleeding (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but the data compiled for this report contain **no clinical trials and no public
 | Predicted New Indication | Esophageal varices with bleeding |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901020N0AAABAB | Hydroxocobalamin injection 1 mg/ml, 1 ml ampoule | Injection (ampoule) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901020N0AAAMAM | Hydroxocobalamin 10mg/2ml solution for injection ampoules | Hydroxocobalamin |
+| 0901020N0AAAJAJ | Hydroxocobalamin 10mg/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0AAAIAI | Hydroxocobalamin 150micrograms/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0AAAKAK | Hydroxocobalamin 15mg/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0AAABAB | Hydroxocobalamin 1mg/1ml solution for injection ampoules | Hydroxocobalamin |
+| 0901020N0AAAHAH | Hydroxocobalamin 2mg/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0AAAGAG | Hydroxocobalamin 3mg/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0AAADAD | Hydroxocobalamin 500micrograms/5ml oral liquid | Hydroxocobalamin |
+| 0901020N0BDAAAB | Cobalin-H 1mg/1ml solution for injection ampoules | Hydroxocobalamin |
+| 0901020N0BEAAAM | Megamilbedoce 10mg/2ml solution for injection ampoules | Hydroxocobalamin |
+| 0901020N0BBAAAB | Neo-Cytamen 1000micrograms/1ml inj ampoules | Hydroxocobalamin |
 
-The record is a BNF-style product code rather than a PL number, and it is a single-ingredient product with valid status. The list is complete (1 of 1).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The list is complete (1 of 1).
 
 ## Safety Considerations
 

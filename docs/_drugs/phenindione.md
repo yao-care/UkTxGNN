@@ -3,7 +3,7 @@ layout: default
 title: Phenindione
 parent: Known Uses Only (No New Predictions)
 nav_order: 489
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Phenindione: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Phenindione"
 predicted_indications: []
@@ -41,16 +41,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0208020N0AAACAC (BNF-style code) | Phenindione tablets 50 mg | Tablet | Not recorded in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208020N0AAAAAA | Phenindione 10mg tablets | Phenindione |
+| 0208020N0AAABAB | Phenindione 25mg tablets | Phenindione |
+| 0208020N0AAACAC | Phenindione 50mg tablets | Phenindione |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The data show one valid single-ingredient product. The dosage form field, manufacturer and indication text are empty, so these should be confirmed against the MHRA register and BNF.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (115 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 115 |
 | Recommended Decision | Hold |
 
 ---
@@ -97,11 +97,32 @@ None of these studies addresses faciodigitogenital syndrome.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0404000M0AAAAAA | Methylphenidate HCl Tab 10mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0404000M0AAAUAU | Methylphenidate 10mg modified-release capsules | Methylphenidate hydrochloride |
+| 0404000M0AAAAAA | Methylphenidate 10mg tablets | Methylphenidate hydrochloride |
+| 0404000M0AAACAC | Methylphenidate 10mg/5ml oral solution | Methylphenidate hydrochloride |
+| 0404000M0AAAIAI | Methylphenidate 12.5mg/5ml oral solution | Methylphenidate hydrochloride |
+| 0404000M0AAAXAX | Methylphenidate 15mg/5ml oral solution | Methylphenidate hydrochloride |
+| 0404000M0AAAMAM | Methylphenidate 18mg modified-release tablets | Methylphenidate hydrochloride |
+| 0404000M0AAALAL | Methylphenidate 2.5mg/5ml oral solution | Methylphenidate hydrochloride |
+| 0404000M0AABDBD | Methylphenidate 20mg MR chew tab sugar free | Methylphenidate hydrochloride |
+| 0404000M0AAAQAQ | Methylphenidate 20mg modified-release capsules | Methylphenidate hydrochloride |
+| 0404000M0AAAHAH | Methylphenidate 20mg modified-release tablets | Methylphenidate hydrochloride |
+| 0404000M0AAAKAK | Methylphenidate 20mg tablets | Methylphenidate hydrochloride |
+| 0404000M0AAAGAG | Methylphenidate 20mg/5ml oral solution | Methylphenidate hydrochloride |
+| 0404000M0AAATAT | Methylphenidate 27mg modified-release tablets | Methylphenidate hydrochloride |
+| 0404000M0AABCBC | Methylphenidate 2mg/ml oral solution sugar free | Methylphenidate hydrochloride |
+| 0404000M0AABEBE | Methylphenidate 30mg MR chew tab sugar free | Methylphenidate hydrochloride |
+| 0404000M0AAAVAV | Methylphenidate 30mg modified-release capsules | Methylphenidate hydrochloride |
+| 0404000M0AAANAN | Methylphenidate 36mg modified-release tablets | Methylphenidate hydrochloride |
+| 0404000M0AABFBF | Methylphenidate 40mg MR chew tab sugar free | Methylphenidate hydrochloride |
+| 0404000M0AAAWAW | Methylphenidate 40mg modified-release capsules | Methylphenidate hydrochloride |
+| 0404000M0AABGBG | Methylphenidate 45mg modified-release tablets | Methylphenidate hydrochloride |
 
-The record is a single-ingredient, valid authorisation. Dosage form and approved indication text are not available in the data compiled for this report. Please check the current MHRA record, SmPC and BNF for authoritative details.
+Showing 20 of 115 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text are not available in the data compiled for this report. Please check the current MHRA record, SmPC and BNF for authoritative details.
 
 ---
 

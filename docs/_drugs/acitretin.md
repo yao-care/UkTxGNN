@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acne (disease)**, with **1 cl
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,11 +82,20 @@ The TxGNN term "acne (disease)" appears to be conflated with acne inversa (hidra
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1305020A0AAABAB | Acitretin capsule 10 mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1305020A0AAABAB | Acitretin 10mg capsules | Acitretin |
+| 1305020A0AAAFAF | Acitretin 10mg/5ml oral solution | Acitretin |
+| 1305020A0AAADAD | Acitretin 10mg/5ml oral suspension | Acitretin |
+| 1305020A0AAAAAA | Acitretin 25mg capsules | Acitretin |
+| 1305020A0AAACAC | Acitretin 5mg/5ml oral solution | Acitretin |
+| 1305020A0AAAEAE | Acitretin 5mg/5ml oral suspension | Acitretin |
+| 1305020A0BBABAB | Neotigason 10mg capsules | Acitretin |
+| 1305020A0BBAAAA | Neotigason 25mg capsules | Acitretin |
 
-The data compiled for this report show one valid single-ingredient authorisation. Dosage form and approved indication text are missing, and the number shown is not in the standard UK PL format, so it should be checked against the MHRA record and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text are missing, and the number shown is not in the standard UK PL format, so it should be checked against the MHRA record and the BNF.
 
 ## Cytotoxicity
 

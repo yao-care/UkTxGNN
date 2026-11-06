@@ -5,7 +5,7 @@ layout: default
 title: Dornase Alfa
 parent: Known Uses Only (No New Predictions)
 nav_order: 238
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dornase Alfa: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Dornase alfa"
 predicted_indications: []
@@ -43,14 +43,17 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0307000K0AAAAAA | Dornase Alfa Nebuliser Solution 2.5mg/2.5ml Amp | Nebuliser solution | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0307000K0AAAAAA | Dornase alfa 2.5mg/2.5ml nebuliser liquid ampoules | Dornase alfa |
+| 0307000K0BBAAAA | Pulmozyme 2.5mg nebuliser liquid 2.5ml ampoules | Dornase alfa |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style product code (British National Formulary chapter 3, respiratory system, mucolytics) rather than a standard MHRA product licence (PL) number. Please verify the licence details against the MHRA product information and the SmPC.
 

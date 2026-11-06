@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 68
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Apraclonidine: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Apraclonidine with a score
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,14 @@ The TxGNN deep-learning model produced candidates for Apraclonidine with a score
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1108020J0AAABAB | Apraclonidine_Eye Dps 5mg/ml |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108020J0AAAAAA | Apraclonidine 1% eye dps 0.25ml unit dose preservative free | Apraclonidine |
+| 1108020J0AAABAB | Apraclonidine 5mg/ml eye drops | Apraclonidine |
+| 1108020J0BBAAAA | Iopidine 1% eye drops 0.25ml unit dose | Apraclonidine |
+| 1108020J0BBABAB | Iopidine 5mg/ml eye drops | Apraclonidine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

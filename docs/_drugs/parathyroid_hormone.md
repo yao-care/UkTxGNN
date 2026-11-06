@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 478
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the available licence data"
 monitor_inn: "Parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
@@ -51,8 +51,8 @@ Evidence Level: **L4** | Predicted Indications: **9**
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 (genetic and observational evidence only; no interventional studies) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,12 @@ None of these studies tested PTH as a treatment for migraine.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0606010V0AAAAAA (BNF-style product code; not a PL number) | Parathyroid Hormone Inj 1.61mg Pfs Cart | Injection (prefilled cartridge) | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0606010V0AAAAAA | Parathyroid hormone 1.61mg inj cartridges | Parathyroid hormone |
+| 0606010V0BBAAAA | Preotact 1.61mg inj cartridges | Parathyroid hormone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Only one product entry was found. The BNF classification code begins with chapter 6 (endocrine system), consistent with a parathyroid-related product.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -52,8 +52,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,11 +84,32 @@ The literature found for the broader condition of conjunctivitis (for example, t
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501080W0AAADAD (product code as recorded; not a PL number) | Trimethoprim 100 mg tablets | Tablet | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501080W0AAADAD | Trimethoprim 100mg tablets | Trimethoprim |
+| 0501080W0AAAAAA | Trimethoprim 100mg/5ml solution for injection ampoules | Trimethoprim |
+| 0501080W0AAAEAE | Trimethoprim 200mg tablets | Trimethoprim |
+| 0501080W0AAAMAM | Trimethoprim 200mg/5ml oral liquid | Trimethoprim |
+| 0501080W0AAANAN | Trimethoprim 20mg/5ml oral liquid | Trimethoprim |
+| 0501080W0AAAPAP | Trimethoprim 240mg/5ml oral liquid | Trimethoprim |
+| 0501080W0AAAIAI | Trimethoprim 50mg/5ml oral suspension sugar free | Trimethoprim |
+| 0501080W0AAAQAQ | Trimethoprim 7mg/5ml oral liquid | Trimethoprim |
+| 0501080D0AAAJAJ | Co-trimoxazole 160mg/800mg tablets | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080D0AAATAT | Co-trimoxazole 160mg/800mg/10ml inf ampoules | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080D0AAACAC | Co-trimoxazole 40mg/200mg/5ml oral suspension sugar free | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080D0AAAHAH | Co-trimoxazole 80mg/400mg tablets | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080D0AAAEAE | Co-trimoxazole 80mg/400mg/5ml oral suspension | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080D0AAABAB | Co-trimoxazole 80mg/400mg/5ml solution for infusion ampoules | Co-trimoxazole(Trimethoprim/sulfamethoxazole) |
+| 0501080W0BCAAAD | Monotrim 100mg tablets | Trimethoprim |
+| 0501080W0BCADAA | Monotrim 100mg/5ml solution for injection ampoules | Trimethoprim |
+| 0501080W0BCABAE | Monotrim 200mg tablets | Trimethoprim |
+| 0501080W0BCACAI | Monotrim 50mg/5ml oral suspension | Trimethoprim |
+| 1103010Q0AAACAC | Polymyxin B 10,000units/g / Trimethoprim 5mg/g eye ointment | Polymyxin B sulphate |
+| 1103010Q0AAABAB | Polymyxin B 10,000units/ml / Trimethoprim 1mg/ml eye drops | Polymyxin B sulphate |
 
-Only one single-ingredient authorisation is recorded, and it is valid. It is an oral tablet, so no topical ophthalmic route is documented. Route compatibility with the predicted eye indication has not been assessed. Check the BNF and current MHRA/NICE sources for authorised indications.
+Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It is an oral tablet, so no topical ophthalmic route is documented. Route compatibility with the predicted eye indication has not been assessed. Check the BNF and current MHRA/NICE sources for authorised indications.
 
 ---
 

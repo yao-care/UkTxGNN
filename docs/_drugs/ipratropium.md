@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ This prediction largely overlaps with an established use, so it is not a true re
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (38 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 38 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -107,11 +107,32 @@ Only one trial, NCT02177253, is both large and directly relevant. Several others
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301040R0AAAAAA (BNF code) | Salbutamol/Ipratropium inhaler 100/20 (200 doses) | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301020I0BEAAAF | Ipratropium 250micrograms/1ml neb liq Steri-Neb ud vials | Ipratropium bromide |
+| 0301020I0BHAAAF | Ipratropium 250micrograms/1ml neb liq ud Steripoule vials | Ipratropium bromide |
+| 0301020I0BEABAC | Ipratropium 500micrograms/2ml neb liq Steri-Neb ud vials | Ipratropium bromide |
+| 0301020I0BHABAC | Ipratropium 500micrograms/2ml neb liq ud Steripoule vials | Ipratropium bromide |
+| 0301020I0AAAGAG | Ipratropium bromide 20micrograms/dose BA inhaler | Ipratropium bromide |
+| 0301020I0AAAAAA | Ipratropium bromide 20micrograms/dose inhaler | Ipratropium bromide |
+| 0301020I0AAANAN | Ipratropium bromide 20micrograms/dose inhaler CFC free | Ipratropium bromide |
+| 1202020I0AAABAB | Ipratropium bromide 21micrograms/dose nasal spray | Ipratropium bromide |
+| 0301020I0AAAFAF | Ipratropium bromide 250micrograms/1ml neb liq ud vials | Ipratropium bromide |
+| 0301020I0AAAIAI | Ipratropium bromide 40microgram inhalation powder capsules | Ipratropium bromide |
+| 0301020I0AAADAD | Ipratropium bromide 40micrograms/dose inhaler | Ipratropium bromide |
+| 0301020I0AAACAC | Ipratropium bromide 500micrograms/2ml neb liq ud vials | Ipratropium bromide |
+| 0301020I0BBAGAG | Atrovent 20micrograms/dose Autohaler | Ipratropium bromide |
+| 0301020I0BBAAAA | Atrovent 20micrograms/dose inhaler | Ipratropium bromide |
+| 0301020I0BBAJAN | Atrovent 20micrograms/dose inhaler CFC free | Ipratropium bromide |
+| 0301020I0BBAFAF | Atrovent 250micrograms/1ml nebuliser liquid UDVs | Ipratropium bromide |
+| 0301020I0BBAIAI | Atrovent 40microgram Aerocaps | Ipratropium bromide |
+| 0301020I0BBAHAH | Atrovent 40microgram Aerocaps with Aerohaler | Ipratropium bromide |
+| 0301020I0BBACAC | Atrovent 500micrograms/2ml nebuliser liquid UDVs | Ipratropium bromide |
+| 0301020I0BBADAD | Atrovent Forte 40micrograms/dose inhaler | Ipratropium bromide |
 
-The record holds one valid single-ingredient authorisation. The number shown appears to be a BNF-style code (BNF section 3.1.4, antimuscarinic bronchodilators) rather than an MHRA PL number. No dosage form, manufacturer or indication text is recorded, so this should be checked against the MHRA register.
+Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The number shown appears to be a BNF-style code (BNF section 3.1.4, antimuscarinic bronchodilators) rather than an MHRA PL number. No dosage form, manufacturer or indication text is recorded, so this should be checked against the MHRA register.
 
 ---
 

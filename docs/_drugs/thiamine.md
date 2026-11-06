@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Thiamine: predicted new indication resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not stated in the licence record"
 ---
 
@@ -38,7 +38,6 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not state its approved indication.
 The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no clinical trials and no publications** supporting this prediction. It is a model output only.
 
 ---
@@ -51,8 +50,8 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (44 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 44 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +78,30 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form |
-|---------|------|------|
-| 0906026M0AAAGAG | Thiamine HCl tablet 100 mg | Tablet |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906026M0AABLBL | Thiamine 100mg modified-release tablets | Thiamine hydrochloride |
+| 0906026M0AAAGAG | Thiamine 100mg tablets | Thiamine hydrochloride |
+| 0906026M0AABIBI | Thiamine 100mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AABMBM | Thiamine 100mg/5ml oral solution sugar free | Thiamine hydrochloride |
+| 0906026M0AABJBJ | Thiamine 100mg/5ml oral suspension | Thiamine hydrochloride |
+| 0906026M0AAAVAV | Thiamine 10mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AAAYAY | Thiamine 200mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AAAWAW | Thiamine 20mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AABPBP | Thiamine 250mg/2ml solution for injection ampoules | Thiamine hydrochloride |
+| 0906026M0AABNBN | Thiamine 250mg/5ml solution for injection ampoules | Thiamine hydrochloride |
+| 0906026M0AAAEAE | Thiamine 25mg tablets | Thiamine hydrochloride |
+| 0906026M0AAATAT | Thiamine 25mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AABCBC | Thiamine 300mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AAAZAZ | Thiamine 500mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AAAFAF | Thiamine 50mg tablets | Thiamine hydrochloride |
+| 0906026M0AAAXAX | Thiamine 50mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AABKBK | Thiamine 50mg/5ml oral suspension | Thiamine hydrochloride |
+| 0906026M0AABDBD | Thiamine 5mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0AABHBH | Thiamine 75mg/5ml oral solution | Thiamine hydrochloride |
+| 0906026M0BMABAG | AcThion 100mg tablets | Thiamine hydrochloride |
 
-This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufacturer, so the approved use cannot be described from the data compiled here.
+Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

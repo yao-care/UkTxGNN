@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 545
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **familial horizontal gaze pals
 | Predicted New Indication | Gaze palsy, familial horizontal, with progressive scoliosis |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 040201030AAAAAA (as recorded; not in standard MHRA PL format) | Risperidone tablets 1 mg | Tablet | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040201030AAARAR | Risperidone 125micrograms/5ml oral solution | Risperidone |
+| 040201030AAALAL | Risperidone 1mg orodispersible tablets sugar free | Risperidone |
+| 040201030AAAAAA | Risperidone 1mg tablets | Risperidone |
+| 040201030AAAEAE | Risperidone 1mg/ml oral solution sugar free | Risperidone |
+| 040201030AAATAT | Risperidone 250microgram tablets | Risperidone |
+| 040201030AAASAS | Risperidone 250micrograms/5ml oral suspension | Risperidone |
+| 040201030AAAMAM | Risperidone 2mg orodispersible tablets sugar free | Risperidone |
+| 040201030AAABAB | Risperidone 2mg tablets | Risperidone |
+| 040201030AAAPAP | Risperidone 3mg orodispersible tablets sugar free | Risperidone |
+| 040201030AAACAC | Risperidone 3mg tablets | Risperidone |
+| 040201030AAAQAQ | Risperidone 4mg orodispersible tablets sugar free | Risperidone |
+| 040201030AAADAD | Risperidone 4mg tablets | Risperidone |
+| 040201030AAANAN | Risperidone 500microgram orodispersible tablets sugar free | Risperidone |
+| 040201030AAAKAK | Risperidone 500microgram tablets | Risperidone |
+| 040201030AAAFAF | Risperidone 6mg tablets | Risperidone |
+| 0402020AABCABAE | Okedi 100mg pdr and solvent for prolonged-rel inj pfs | Risperidone |
+| 0402020AABCAAAD | Okedi 75mg pdr and solvent for prolonged-rel inj pf syringes | Risperidone |
+| 040201030BBAAAA | Risperdal 1mg tablets | Risperidone |
+| 040201030BBAEAE | Risperdal 1mg/ml oral solution | Risperidone |
+| 040201030BBABAB | Risperdal 2mg tablets | Risperidone |
 
-The record shows one valid single-ingredient authorisation. Dosage form is inferred from the product name, and no approved indication text is available. Verify the authorisation details against the MHRA database, the SmPC and the BNF before any further work.
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form is inferred from the product name, and no approved indication text is available. Verify the authorisation details against the MHRA database, the SmPC and the BNF before any further work.
 
 ## Safety Considerations
 

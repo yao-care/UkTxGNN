@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ramipril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension (also stroke and cerebrovascular disorders…"
 monitor_inn: "Ramipril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (36 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 36 |
 | Recommended Decision | Hold |
 
 *Note: The data compiled for this report contain 9 ranked predictions. The top-ranked prediction has no supporting studies. The best-supported prediction is **cerebral artery occlusion** (L4, preclinical and one small clinical study); it is discussed under "Other Predictions" below.*
@@ -91,9 +91,30 @@ No publications were retrieved for the top-ranked indication. The table below sh
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051R0AAAAAA | Ramipril capsules 1.25 mg | Capsule (per product name) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051R0AAAAAA | Ramipril 1.25mg capsules | Ramipril |
+| 0205051R0AAAKAK | Ramipril 1.25mg tablets | Ramipril |
+| 0205051R0AAAGAG | Ramipril 1.25mg/5ml oral liquid | Ramipril |
+| 0205051R0AAADAD | Ramipril 10mg capsules | Ramipril |
+| 0205051R0AAANAN | Ramipril 10mg tablets | Ramipril |
+| 0205051R0AAAHAH | Ramipril 10mg/5ml oral solution | Ramipril |
+| 0205051R0AABABA | Ramipril 10mg/5ml oral solution sugar free | Ramipril |
+| 0205051R0AAAWAW | Ramipril 10mg/5ml oral suspension | Ramipril |
+| 0205051R0AAABAB | Ramipril 2.5mg capsules | Ramipril |
+| 0205051R0AAALAL | Ramipril 2.5mg tablets | Ramipril |
+| 0205051R0AAAFAF | Ramipril 2.5mg/5ml oral liquid | Ramipril |
+| 0205051R0AAATAT | Ramipril 2.5mg/5ml oral solution sugar free | Ramipril |
+| 0205051R0AAACAC | Ramipril 5mg capsules | Ramipril |
+| 0205051R0AAAMAM | Ramipril 5mg tablets | Ramipril |
+| 0205051R0AAAEAE | Ramipril 5mg/5ml oral liquid | Ramipril |
+| 0205051R0AAAZAZ | Ramipril 5mg/5ml oral solution sugar free | Ramipril |
+| 0205051R0AAAJAJ | Ramipril 750micrograms/5ml oral liquid | Ramipril |
+| 0205051S0AAAAAA | Felodipine 2.5mg modified-release / Ramipril 2.5mg tablets | Ramipril with calcium channel blocker |
+| 0205051S0AAABAB | Felodipine 5mg modified-release / Ramipril 5mg tablets | Ramipril with calcium channel blocker |
+| 0205051R0AAAIAI | Generic Tritace titration pack capsules | Ramipril |
+
+Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is in the format supplied in the data and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Ramipril is classified in the BNF under ACE inhibitors (cardiovascular system).
 

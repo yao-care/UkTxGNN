@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **pharyngitis**, but the **3 linke
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,32 @@ All three trials were graded as having low relevance (grade C) to this predictio
 
 ## UK Market Information
 
-One valid single-ingredient marketing authorisation is recorded for hydromorphone. The data compiled for this report contain no dosage form or approved indication text for it.
+The data compiled for this report contain no dosage form or approved indication text for it.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 040702050AAADAD | Hydromorphone HCl capsule 2.6 mg | Capsule | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040702050AAAEAE | Hydromorphone 1.3mg capsules | Hydromorphone hydrochloride |
+| 040702050AAANAN | Hydromorphone 10mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050AAAAAA | Hydromorphone 16mg modified-release capsules | Hydromorphone hydrochloride |
+| 040702050AAADAD | Hydromorphone 2.6mg capsules | Hydromorphone hydrochloride |
+| 040702050AAAMAM | Hydromorphone 20mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050AAABAB | Hydromorphone 24mg modified-release capsules | Hydromorphone hydrochloride |
+| 040702050AAAFAF | Hydromorphone 2mg modified-release capsules | Hydromorphone hydrochloride |
+| 040702050AAALAL | Hydromorphone 2mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050AAAGAG | Hydromorphone 4mg modified-release capsules | Hydromorphone hydrochloride |
+| 040702050AAAPAP | Hydromorphone 50mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050AAAKAK | Hydromorphone 5mg/5ml oral solution | Hydromorphone hydrochloride |
+| 040702050AAACAC | Hydromorphone 8mg modified-release capsules | Hydromorphone hydrochloride |
+| 040702050BBAAAE | Palladone 1.3mg capsules | Hydromorphone hydrochloride |
+| 040702050BBAJAN | Palladone 10mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050BBABAD | Palladone 2.6mg capsules | Hydromorphone hydrochloride |
+| 040702050BBAIAM | Palladone 20mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050BBAHAL | Palladone 2mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050BBAKAP | Palladone 50mg/1ml solution for injection ampoules | Hydromorphone hydrochloride |
+| 040702050BBAFAA | Palladone SR 16mg capsules | Hydromorphone hydrochloride |
+| 040702050BBAGAB | Palladone SR 24mg capsules | Hydromorphone hydrochloride |
+
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

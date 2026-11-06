@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **feline acquired immunodeficie
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,11 +75,18 @@ For context, the second-ranked prediction (simian immunodeficiency virus infecti
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010AFAAAAAA | Etravirine Tab 100mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010AFAAAAAA | Etravirine 100mg tablets | Etravirine |
+| 0503010AFAAABAB | Etravirine 200mg tablets | Etravirine |
+| 0503010AFAAACAC | Etravirine 25mg tablets | Etravirine |
+| 0503010AFBBAAAA | Intelence 100mg tablets | Etravirine |
+| 0503010AFBBABAB | Intelence 200mg tablets | Etravirine |
+| 0503010AFBBACAC | Intelence 25mg tablets | Etravirine |
 
-The identifier shown appears to be a BNF-style classification code rather than a PL number. The record is a single-ingredient product and is listed as valid. The indication text is absent, so no approved indication can be confirmed from these data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown appears to be a BNF-style classification code rather than a PL number. The indication text is absent, so no approved indication can be confirmed from these data.
 
 ## Safety Considerations
 

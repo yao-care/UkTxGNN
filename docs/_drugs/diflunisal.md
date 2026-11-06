@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Diflunisal"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diflunisal: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ but there are **no clinical trials** and **no publications** supporting this pre
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,15 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010D0AAAAAA | Diflunisal Tab 250 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010D0AAAAAA | Diflunisal 250mg tablets | Diflunisal |
+| 1001010D0AAABAB | Diflunisal 500mg tablets | Diflunisal |
+| 1001010D0BBAAAA | Dolobid 250mg tablets | Diflunisal |
+| 1001010D0BBABAB | Dolobid 500mg tablets | Diflunisal |
+| 1001010D0BCAAAA | Novo-Diflunisal 250mg tablets | Diflunisal |
 
-The local data show one valid single-ingredient licence. The record carries no dosage-form or indication text.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

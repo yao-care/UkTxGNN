@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Doxycycline is a tetracycline-class antibiotic with a long record of clinical us
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-Doxycycline is marketed in the UK. The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracyclines). No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed. The formal licence table is generated separately by the site program.
+Doxycycline is marketed in the UK. The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracyclines). No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed.
 
 ## Safety Considerations
 

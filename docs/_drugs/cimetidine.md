@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cimetidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cimetidine: predicted new indication peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cimetidine is a histamine H2-receptor antagonist (acid-suppressing medicine). Th
 | Predicted New Indication | peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (27 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 27 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,30 @@ Of the 20 publications retrieved, the most relevant are listed below. None is a 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103010D0AAAAAA | Cimetidine Tab 200mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103010D0AAAKAK | Cimetidine 100mg tablets | Cimetidine |
+| 0103010D0AAAFAF | Cimetidine 200mg chewable tablets sugar free | Cimetidine |
+| 0103010D0AAAAAA | Cimetidine 200mg tablets | Cimetidine |
+| 0103010D0AAAEAE | Cimetidine 200mg/2ml solution for injection ampoules | Cimetidine |
+| 0103010D0AAADAD | Cimetidine 200mg/5ml oral solution | Cimetidine |
+| 0103010D0AAALAL | Cimetidine 200mg/5ml oral solution sugar free | Cimetidine |
+| 0103010D0AAAGAG | Cimetidine 200mg/5ml oral suspension sugar free | Cimetidine |
+| 0103010D0AAAIAI | Cimetidine 400mg effervescent tablets sugar free | Cimetidine |
+| 0103010D0AAABAB | Cimetidine 400mg tablets | Cimetidine |
+| 0103010D0AAACAC | Cimetidine 800mg tablets | Cimetidine |
+| 0103010D0BLAAAA | Acid-Eze 200mg tablets | Cimetidine |
+| 0103010D0BKAAAB | Acitak 400mg tablets | Cimetidine |
+| 0103010D0BCAAAF | Dyspamet 200mg chewable tablets | Cimetidine |
+| 0103010D0BCABAG | Dyspamet 200mg/5ml oral suspension | Cimetidine |
+| 0103010D0BFABAB | Galenamet 400mg tablets | Cimetidine |
+| 0103010D0BDAAAA | Peptimax 200 tablets | Cimetidine |
+| 0103010D0BDABAB | Peptimax 400 tablets | Cimetidine |
+| 0103010D0BMAAAB | Tagadine 400mg tablets | Cimetidine |
+| 0103010D0BBAIAK | Tagamet 100 tablets | Cimetidine |
+| 0103010D0BBAAAA | Tagamet 200mg tablets | Cimetidine |
+
+Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

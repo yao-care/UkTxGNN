@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunt
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (205 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 205 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010J0AAACAC | Ibuprofen oral suspension 100 mg/5 ml | Oral suspension | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1003020P0AAAIAI | Ibuprofen 10% gel | Ibuprofen |
+| 1001010J0AABQBQ | Ibuprofen 100mg chewable capsules | Ibuprofen |
+| 1001010J0AAACAC | Ibuprofen 100mg/5ml oral suspension | Ibuprofen |
+| 1001010J0AABMBM | Ibuprofen 100mg/5ml oral suspension 5ml sachets sugar free | Ibuprofen |
+| 1001010J0AABHBH | Ibuprofen 100mg/5ml oral suspension sugar free | Ibuprofen |
+| 0701011F0AAAAAA | Ibuprofen 10mg/2ml solution for infusion ampoules | Ibuprofen |
+| 1001010J0AAAAAA | Ibuprofen 200mg capsules | Ibuprofen |
+| 1001010J0AABPBP | Ibuprofen 200mg effervescent tablets | Ibuprofen |
+| 1003020P0AAAKAK | Ibuprofen 200mg medicated plasters | Ibuprofen |
+| 1001010J0AABABA | Ibuprofen 200mg modified-release capsules | Ibuprofen |
+| 1001010J0AABNBN | Ibuprofen 200mg orodispersible tablets sugar free | Ibuprofen |
+| 1001010J0AAADAD | Ibuprofen 200mg tablets | Ibuprofen |
+| 1001010J0AABIBI | Ibuprofen 200mg/5ml oral suspension | Ibuprofen |
+| 1001010J0AABRBR | Ibuprofen 200mg/5ml oral suspension sugar free | Ibuprofen |
+| 1001010J0AAABAB | Ibuprofen 300mg modified-release capsules | Ibuprofen |
+| 1001010J0AAAUAU | Ibuprofen 400mg capsules | Ibuprofen |
+| 1001010J0AAAEAE | Ibuprofen 400mg tablets | Ibuprofen |
+| 1003020P0AAAAAA | Ibuprofen 5% cream | Ibuprofen |
+| 1003020P0AAAFAF | Ibuprofen 5% foam | Ibuprofen |
+| 1003020P0AAACAC | Ibuprofen 5% gel | Ibuprofen |
+
+Showing 20 of 205 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Ibuprofen is classed in the BNF as a non-steroidal anti-inflammatory drug. The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register. The wider UK ibuprofen product range, including NICE-appraised uses, was not captured in the data compiled for this report.
 

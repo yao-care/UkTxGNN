@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Sotalol"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
@@ -53,8 +53,8 @@ The TxGNN model's most clinically plausible prediction is **stroke disorder** (a
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -98,11 +98,32 @@ For manic bipolar affective disorder, two papers address drug interactions rathe
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000T0AAABAB | Sotalol HCl Tab 40mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000T0AAASAS | Sotalol 10mg/5ml oral liquid | Sotalol hydrochloride |
+| 0204000T0AAAEAE | Sotalol 160mg tablets | Sotalol hydrochloride |
+| 0204000T0AAAFAF | Sotalol 200mg tablets | Sotalol hydrochloride |
+| 0204000T0AAANAN | Sotalol 20mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AAATAT | Sotalol 25mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AABCBC | Sotalol 25mg/5ml oral suspension | Sotalol hydrochloride |
+| 0204000T0AAARAR | Sotalol 30mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AAAVAV | Sotalol 35mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AAABAB | Sotalol 40mg tablets | Sotalol hydrochloride |
+| 0204000T0AAAHAH | Sotalol 40mg/4ml solution for injection ampoules | Sotalol hydrochloride |
+| 0204000T0AAAMAM | Sotalol 40mg/5ml oral liquid | Sotalol hydrochloride |
+| 0204000T0AAAPAP | Sotalol 50mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AABDBD | Sotalol 50mg/5ml oral suspension | Sotalol hydrochloride |
+| 0204000T0AAAWAW | Sotalol 5mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0AAACAC | Sotalol 80mg tablets | Sotalol hydrochloride |
+| 0204000T0AAAUAU | Sotalol 80mg/5ml oral liquid | Sotalol hydrochloride |
+| 0204000T0AABABA | Sotalol 8mg/5ml oral solution | Sotalol hydrochloride |
+| 0204000T0BBACAF | Beta-Cardone 200mg tablets | Sotalol hydrochloride |
+| 0204000T0BBAAAB | Beta-Cardone 40mg tablets | Sotalol hydrochloride |
+| 0204000T0BBABAC | Beta-Cardone 80mg tablets | Sotalol hydrochloride |
 
-The compiled data lists one valid single-ingredient authorisation. The authorisation number appears in a non-standard format, and the dosage form, manufacturer and approved indication were not recorded. Please verify against the MHRA register and the BNF.
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number appears in a non-standard format, and the dosage form, manufacturer and approved indication were not recorded. Please verify against the MHRA register and the BNF.
 
 ---
 

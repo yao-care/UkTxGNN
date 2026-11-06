@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Cinchocaine (also known as dibucaine) is a potent, long-acting amide-type local anaesthetic historically used for topical and spinal anaesthesia. No new indications have been predicted by the TxGNN model for this compound, and there are currently **no marketing authorisations** held in the UK. Insufficient data is available to support a repurposing recommendation at this time.
+Cinchocaine (also known as dibucaine) is a potent, long-acting amide-type local anaesthetic historically used for topical and spinal anaesthesia. No new indications have been predicted by the TxGNN model for this compound. Insufficient data is available to support a repurposing recommendation at this time.
 
 ## Quick Overview
 
@@ -49,8 +49,8 @@ Cinchocaine (also known as dibucaine) is a potent, long-acting amide-type local 
 | Predicted New Indication | None — no TxGNN predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No model prediction or supporting studies) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | **Hold** |
 
 ## Why Was This Drug Evaluated?
@@ -69,7 +69,7 @@ Currently no related literature available linking cinchocaine to a novel repurpo
 
 ## UK Market Information
 
-No MHRA marketing authorisations were identified for cinchocaine HCl in this evidence pack. Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products), but no current product licences are recorded here.
+Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products), but no current product licences are recorded here.
 
 ## Safety Considerations
 
@@ -82,7 +82,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-No TxGNN repurposing predictions were generated for cinchocaine HCl due to the absence of a confirmed DrugBank identifier mapping. Additionally, the drug currently holds no UK marketing authorisations, and critical safety data (warnings, contraindications, drug interactions) remains unavailable. There is insufficient evidence to support any repurposing evaluation at this stage.
+No TxGNN repurposing predictions were generated for cinchocaine HCl due to the absence of a confirmed DrugBank identifier mapping. Additionally, critical safety data (warnings, contraindications, drug interactions) remains unavailable. There is insufficient evidence to support any repurposing evaluation at this stage.
 
 **To proceed, the following is needed:**
 

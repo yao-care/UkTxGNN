@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (oesophageal candidiasis, candidaemia…"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -52,8 +52,8 @@ The prediction is best regarded as a model artefact rather than a credible repur
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9934 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,18 @@ The publications retrieved are mainly general reviews and case reports on opport
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502010C0AAAAAA (BNF code; no PL number available) | Itraconazole capsules 100 mg | Capsule | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0502010C0AAAAAA | Itraconazole 100mg capsules | Itraconazole |
+| 0502010C0AAACAC | Itraconazole 50mg/5ml oral liquid | Itraconazole |
+| 0502010C0AAABAB | Itraconazole 50mg/5ml oral solution sugar free | Itraconazole |
+| 0502010C0AAADAD | Itraconazole 250mg/25ml concentrate and solvent for inf amp | Itraconazole |
+| 0502010C0BBAAAA | Sporanox 100mg capsules | Itraconazole |
+| 0502010C0BBACAB | Sporanox 50mg/5ml oral solution | Itraconazole |
+| 0502010C0BBADAD | Sporanox I.V. 250mg/25ml inf ampoules and diluent | Itraconazole |
+| 0502010C0BBABAA | Sporanox-Pulse 100mg capsules | Itraconazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF classification code 0502010C relates to itraconazole within the antifungal drugs section (BNF chapter 5, infections).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, sup
 | Predicted New Indication | Open-angle glaucoma |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold (research question only) |
 
 **Note on the top-ranked predictions:** The highest-scoring predictions were open-angle glaucoma (0.9978) and primary hereditary glaucoma (0.9977). Both have no trials or literature and no plausible mechanism, so they are not pursued here. Pulmonary hypertension is the highest-ranked prediction with any supporting literature, so it is the focus of this report. The other predictions (kyphoscoliotic heart disease, esotropia, headache disorder, hyperthyroidism, trigeminal autonomic cephalalgia and the remaining glaucoma entries) are model outputs only and are all rated Hold at evidence level L5.
@@ -96,9 +96,15 @@ Of the 20 retrieved publications, the most relevant to pulmonary hypertension ar
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0605020T0AAAAAA (BNF code) | Terlipressin injection 1 mg vial with diluent | Injection (powder and diluent) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0605020T0AAAAAA | Terlipressin 1mg inj vials | Terlipressin |
+| 0605020T0AAABAB | Terlipressin 1mg/5ml solution for injection vials | Terlipressin |
+| 0605020T0BBAAAA | Glypressin 1mg inj vials | Terlipressin |
+| 0605020T0BCAAAA | Variquel 1mg inj vials | Terlipressin |
+| 0605020T0BCABAB | Variquel 1mg/5ml solution for injection vials | Terlipressin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Only one entry is available. It carries a BNF classification code rather than a standard PL number, and the indication text is blank.
 

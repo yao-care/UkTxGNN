@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Duloxetine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 | Predicted New Indication | benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040Y0AAAAAA | Duloxetine HCl_Cap G/R 30mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040Y0AAADAD | Duloxetine 120mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AAAAAAAA | Duloxetine 20mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0AAAAAA | Duloxetine 30mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AAAAAFAF | Duloxetine 30mg/5ml oral suspension | Duloxetine hydrochloride |
+| 0704020AAAAABAB | Duloxetine 40mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0AAABAB | Duloxetine 60mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AAAAAEAE | Duloxetine 60mg/5ml oral suspension | Duloxetine hydrochloride |
+| 0403040Y0AAACAC | Duloxetine 90mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BBAAAA | Cymbalta 30mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BBABAB | Cymbalta 60mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BDAAAA | Depalta 30mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BDABAB | Depalta 60mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BCAAAA | Duciltia 30mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BCAAAB | Duciltia 60mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AABDAAAA | Dutor 20mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BEAAAA | Dutor 30mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AABDACAB | Dutor 40mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0403040Y0BEABAB | Dutor 60mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AABBAAAA | Yentreve 20mg gastro-resistant capsules | Duloxetine hydrochloride |
+| 0704020AABBABAB | Yentreve 40mg gastro-resistant capsules | Duloxetine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The single record is a valid single-ingredient product. The BNF chemical code shown above is the identifier held in the local data.
 

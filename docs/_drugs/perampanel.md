@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Perampanel is an AMPA receptor antagonist originally used for partial (focal-ons
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -110,11 +110,30 @@ No clinical trials are registered for the other predicted indications.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010AKAAABAB (BNF-style code; no PL number in the data) | Perampanel tablets 4 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010AKAAAEAE | Perampanel 10mg tablets | Perampanel |
+| 0408010AKAAAFAF | Perampanel 12mg tablets | Perampanel |
+| 0408010AKAAAAAA | Perampanel 2mg tablets | Perampanel |
+| 0408010AKAAAKAK | Perampanel 2mg/5ml oral suspension | Perampanel |
+| 0408010AKAAABAB | Perampanel 4mg tablets | Perampanel |
+| 0408010AKAAAGAG | Perampanel 4mg/5ml oral suspension | Perampanel |
+| 0408010AKAAAJAJ | Perampanel 500micrograms/ml oral suspension sugar free | Perampanel |
+| 0408010AKAAAIAI | Perampanel 5mg/5ml oral suspension | Perampanel |
+| 0408010AKAAACAC | Perampanel 6mg tablets | Perampanel |
+| 0408010AKAAAHAH | Perampanel 6mg/5ml oral suspension | Perampanel |
+| 0408010AKAAADAD | Perampanel 8mg tablets | Perampanel |
+| 0408010AKBBAGAJ | Fycompa 0.5mg/ml oral suspension | Perampanel |
+| 0408010AKBBAEAE | Fycompa 10mg tablets | Perampanel |
+| 0408010AKBBAFAF | Fycompa 12mg tablets | Perampanel |
+| 0408010AKBBAAAA | Fycompa 2mg tablets | Perampanel |
+| 0408010AKBBABAB | Fycompa 4mg tablets | Perampanel |
+| 0408010AKBBACAC | Fycompa 6mg tablets | Perampanel |
+| 0408010AKBBADAD | Fycompa 8mg tablets | Perampanel |
 
-One valid single-ingredient authorisation is recorded. Status epilepticus is not an authorised indication for perampanel in the data reviewed.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Status epilepticus is not an authorised indication for perampanel in the data reviewed.
 
 ---
 

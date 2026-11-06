@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -52,8 +52,8 @@ This report evaluates the best-supported prediction, rhinitis, and summarises th
 | Predicted New Indication | Rhinitis (rank 2; the rank 1 prediction, rosacea conjunctivitis, has no evidence) |
 | TxGNN Prediction Score | 0.9920 (rosacea conjunctivitis) |
 | Evidence Level | L5 (for rhinitis, per the data compiled for this report) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (56 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 56 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -99,9 +99,30 @@ The main caveat is tolerability. Sedation, anticholinergic effects and cognitive
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010N0AAAGAG (BNF-style product code; not a PL number) | Diphenhydramine HCl tablets 25 mg | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010N0AAAKAK | Diphenhydramine 10mg/5ml oral solution | Diphenhydramine hydrochloride |
+| 1303000J0AAAAAA | Diphenhydramine 2% cream | Diphenhydramine hydrochloride |
+| 0304010N0AAAGAG | Diphenhydramine 25mg tablets | Diphenhydramine hydrochloride |
+| 0304010N0AAAPAP | Diphenhydramine 50mg tablets | Diphenhydramine hydrochloride |
+| 030902040AAABAB | Diphenhydramine 6.25mg/5ml oral solution sugar free | Diphenhydramine hydrochloride |
+| 0309020AHAAAAAA | Ammonium chloride 130mg/5ml / Diphenhydramine 14mg/5ml soln | Ammonium chloride/diphenhydramine hydrochloride |
+| 0309020AHBCAAAA | Bell's Dual Action Chesty Cough oral solution | Ammonium chloride/diphenhydramine hydrochloride |
+| 1303000J0BFAAAB | Benadryl Skin Allergy Relief cream | Diphenhydramine hydrochloride |
+| 1303000J0BFABAC | Benadryl Skin Allergy Relief lotion | Diphenhydramine hydrochloride |
+| 030902040BBAAA0 | Benylin Chesty Coughs Original oral solution | Diphenhydramine hydrochloride |
+| 030902040BBADAA | Benylin Children's Night Coughs oral solution | Diphenhydramine hydrochloride |
+| 030902040BBACA0 | Benylin with Codeine oral solution | Diphenhydramine hydrochloride |
+| 0309020ABBDAAAA | Boots Night Cough Relief oral solution | Diphenhydramine hydrochloride/pholcodine |
+| 1303000J0BHAAAA | Boots Skin Allergy Relief 2% cream | Diphenhydramine hydrochloride |
+| 0407010X0CTAABM | CalCold Six Plus oral solution | Paracetamol combined preparations |
+| 0407010X0CUAABM | Calpol Night oral solution | Paracetamol combined preparations |
+| 0304010N0BSAAAG | Care Night Time Sleep Aid 25mg tablets | Diphenhydramine hydrochloride |
+| 0309020ABBBAAAA | Cough Nurse Night Time Liquid | Diphenhydramine hydrochloride/pholcodine |
+| 0309020R0BDABAB | Covonia Hot Dose Cough & Cold syrup | Dextromethorphan hydrobrom compound prepartions |
+| 0309020R0BDAAAB | Covonia night time formula oral solution | Dextromethorphan hydrobrom compound prepartions |
+
+Showing 20 of 56 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The compiled data holds one valid single-ingredient product record. Please check the current SmPC and the BNF (antihistamines chapter) for the licensed indications and doses, as well as any relevant NICE guidance.
 

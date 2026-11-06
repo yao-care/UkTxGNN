@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ This prediction largely overlaps with the existing indication, so it is not a tr
 | Predicted New Indication | Variably protease-sensitive prionopathy |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -94,11 +94,21 @@ Because this prediction overlaps with the existing labelled use, it should be tr
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0207020Y0AAADAD | Midodrine HCl tablets 5 mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0207020Y0AAAGAG | Midodrine 10mg tablets | Midodrine hydrochloride |
+| 0207020Y0AAAEAE | Midodrine 2.5mg tablets | Midodrine hydrochloride |
+| 0207020Y0AAAFAF | Midodrine 5mg tablets | Midodrine hydrochloride |
+| 0207020Y0BDACAG | Bramox 10mg tablets | Midodrine hydrochloride |
+| 0207020Y0BDAAAE | Bramox 2.5mg tablets | Midodrine hydrochloride |
+| 0207020Y0BDABAF | Bramox 5mg tablets | Midodrine hydrochloride |
+| 0207020Y0BBAAAE | Gutron 2.5mg tablets | Midodrine hydrochloride |
+| 0207020Y0BBABAF | Gutron 5mg tablets | Midodrine hydrochloride |
+| 0207020Y0BEAAAE | Midotense 2.5mg tablets | Midodrine hydrochloride |
 
-One valid single-ingredient authorisation is recorded. Details of the approved indication, dosage form and manufacturer should be confirmed against the MHRA record, the SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Details of the approved indication, dosage form and manufacturer should be confirmed against the MHRA record, the SmPC and the BNF.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syn
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,19 @@ Currently no related literature available for polyclonal hyperviscosity syndrome
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501120Y0AAAAAA | Moxifloxacin tablets 400 mg | Tablet (form not specified in the record) | Not stated in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108020U0AAABAB | Moxifloxacin 0.5% eye drops | Moxifloxacin hydrochloride |
+| 0501120Y0AAAAAA | Moxifloxacin 400mg tablets | Moxifloxacin |
+| 0501120Y0AAACAC | Moxifloxacin 400mg/250ml infusion bags | Moxifloxacin |
+| 0501120Y0AAABAB | Moxifloxacin 400mg/250ml solution for infusion bottles | Moxifloxacin |
+| 0501120Y0AAADAD | Moxifloxacin 400mg/5ml oral solution | Moxifloxacin |
+| 0501120Y0BBAAAA | Avelox 400mg tablets | Moxifloxacin |
+| 0501120Y0BBABAB | Avelox 400mg/250ml solution for infusion bottles | Moxifloxacin |
+| 0501120Y0BBACAC | Avelox I.V. 400mg/250ml infusion bags | Moxifloxacin |
+| 1108020U0BCAAAB | Moxivig 0.5% eye drops | Moxifloxacin hydrochloride |
 
-The list contains one single-ingredient authorisation, which is valid. The licence record gives no indication text, so no approved indication can be stated from it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

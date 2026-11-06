@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **glaucoma**, but the supportin
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 0.9927 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (47 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 47 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-The data compiled for this report show one valid single-ingredient authorisation (rivastigmine 3 mg capsule). It carries a Japanese-style drug code rather than an MHRA PL number, and the dosage form, manufacturer and approved indication text are not recorded. Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details.
+It carries a Japanese-style drug code rather than an MHRA PL number, and the dosage form, manufacturer and approved indication text are not recorded. Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details.
 
 ## Safety Considerations
 

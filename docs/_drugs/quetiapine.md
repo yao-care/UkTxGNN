@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -52,8 +52,8 @@ The best-supported candidate among the top 10 is **trichotillomania**, which has
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies (rank 1); trichotillomania (rank 8) is the only candidate with any supporting literature |
 | TxGNN Prediction Score | 0.9957 (rank 1); 0.9938 (trichotillomania) |
 | Evidence Level | L5 (rank 1); L4 (trichotillomania) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (89 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 89 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,32 @@ Evidence below relates to trichotillomania (rank 8), the only predicted indicati
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010ABAAABAB (BNF-style code) | Quetiapine tablets 25 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010ABAAAPAP | Quetiapine 100mg oral powder sachets | Quetiapine |
+| 0402010ABAAACAC | Quetiapine 100mg tablets | Quetiapine |
+| 0402010ABAAAMAM | Quetiapine 100mg/5ml oral liquid | Quetiapine |
+| 0402010ABAAAIAI | Quetiapine 12.5mg/5ml oral solution | Quetiapine |
+| 0402010ABAABBBB | Quetiapine 12.5mg/5ml oral suspension | Quetiapine |
+| 0402010ABAAAEAE | Quetiapine 125mg/5ml oral liquid | Quetiapine |
+| 0402010ABAABABA | Quetiapine 150mg modified-release tablets | Quetiapine |
+| 0402010ABAAAFAF | Quetiapine 150mg tablets | Quetiapine |
+| 0402010ABAAAJAJ | Quetiapine 150mg/5ml oral liquid | Quetiapine |
+| 0402010ABAAAWAW | Quetiapine 200mg modified-release tablets | Quetiapine |
+| 0402010ABAAADAD | Quetiapine 200mg tablets | Quetiapine |
+| 0402010ABAAARAR | Quetiapine 200mg/5ml oral suspension | Quetiapine |
+| 0402010ABAABFBF | Quetiapine 20mg/ml oral suspension sugar free | Quetiapine |
+| 0402010ABAAAQAQ | Quetiapine 25mg oral powder sachets | Quetiapine |
+| 0402010ABAAABAB | Quetiapine 25mg tablets | Quetiapine |
+| 0402010ABAAAHAH | Quetiapine 25mg/5ml oral solution | Quetiapine |
+| 0402010ABAABDBD | Quetiapine 25mg/5ml oral suspension | Quetiapine |
+| 0402010ABAAAXAX | Quetiapine 300mg modified-release tablets | Quetiapine |
+| 0402010ABAAAKAK | Quetiapine 300mg tablets | Quetiapine |
+| 0402010ABAAAYAY | Quetiapine 400mg modified-release tablets | Quetiapine |
 
-One valid single-ingredient authorisation is recorded. BNF chapter 4.2.1 (antipsychotic drugs) is the relevant classification, as suggested by the code prefix.
+Showing 20 of 89 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+BNF chapter 4.2.1 (antipsychotic drugs) is the relevant classification, as suggested by the code prefix.
 
 ---
 

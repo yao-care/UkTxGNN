@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Triamterene"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ It rests on model output alone.
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,22 @@ The table below lists publications retrieved for the related predictions, and no
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202030W0AAAAAA | Triamterene capsule 50 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202030W0AAAAAA | Triamterene 50mg capsules | Triamterene |
+| 0202040H0AAAAAA | Co-triamterzide 50mg/25mg tablets | Co-triamterzide(Triamterene/hydrochlorothiazide) |
+| 0202040H0BBAAAA | Dyazide 50mg/25mg tablets | Co-triamterzide(Triamterene/hydrochlorothiazide) |
+| 0202030W0BBAAAA | Dytac 50mg capsules | Triamterene |
+| 0202040V0BDAAAC | Dytide capsules | Triamterene with thiazides |
+| 0202040U0BBAAAA | Frusene 50mg/40mg tablets | Triamterene with loop diuretics |
+| 0202040V0BBAAAA | Kalspare tablets | Triamterene with thiazides |
+| 0202040H0BCAAAA | Triam-Co 50mg/25mg tablets | Co-triamterzide(Triamterene/hydrochlorothiazide) |
+| 0202040H0BDAAAA | Triamaxco 50mg/25mg tablets | Co-triamterzide(Triamterene/hydrochlorothiazide) |
+| 0202040V0AAACAC | Triamterene 50mg / Benzthiazide 25mg capsules | Triamterene with thiazides |
+| 0202040V0AAAAAA | Triamterene 50mg / Chlortalidone 50mg tablets | Triamterene with thiazides |
+| 0202040U0AAAAAA | Triamterene 50mg / Furosemide 40mg tablets | Triamterene with loop diuretics |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Please check the product's SmPC and the BNF classification for the licensed indications.
 

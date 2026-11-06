@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **histrionic personality disord
 | Predicted New Indication | Histrionic personality disorder (disease) |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (24 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 24 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name |
-|---------|------|
-| 0403030Q0AAAAAA | Sertraline HCl_Tab 50mg |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403030Q0AAABAB | Sertraline 100mg tablets | Sertraline hydrochloride |
+| 0403030Q0AABCBC | Sertraline 100mg/5ml concentrate for oral soln sugar free | Sertraline hydrochloride |
+| 0403030Q0AAARAR | Sertraline 100mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAAPAP | Sertraline 10mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAAYAY | Sertraline 12.5mg tablets | Sertraline hydrochloride |
+| 0403030Q0AAAIAI | Sertraline 12.5mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AABABA | Sertraline 150mg tablets | Sertraline hydrochloride |
+| 0403030Q0AAAKAK | Sertraline 150mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAASAS | Sertraline 15mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AABBBB | Sertraline 200mg tablets | Sertraline hydrochloride |
+| 0403030Q0AAANAN | Sertraline 20mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAAZAZ | Sertraline 25mg tablets | Sertraline hydrochloride |
+| 0403030Q0AAAWAW | Sertraline 25mg/5ml oral solution | Sertraline hydrochloride |
+| 0403030Q0AAAXAX | Sertraline 25mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAAAAA | Sertraline 50mg tablets | Sertraline hydrochloride |
+| 0403030Q0AAAVAV | Sertraline 50mg/5ml oral solution | Sertraline hydrochloride |
+| 0403030Q0AAAQAQ | Sertraline 50mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AABDBD | Sertraline 50mg/5ml oral suspension sugar free | Sertraline hydrochloride |
+| 0403030Q0AAATAT | Sertraline 5mg/5ml oral suspension | Sertraline hydrochloride |
+| 0403030Q0AAAUAU | Sertraline 75mg/5ml oral suspension | Sertraline hydrochloride |
 
-This is a single-ingredient product with valid status. Dosage form and approved indication text are not available in the compiled record, so it cannot be used to confirm any approved indication. The listed identifier is not in the usual PL number format, so verify it against the MHRA register. It resembles a BNF-style product code (BNF section 4.3.3, selective serotonin re-uptake inhibitors).
+Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text are not available in the compiled record, so it cannot be used to confirm any approved indication. The listed identifier is not in the usual PL number format, so verify it against the MHRA register. It resembles a BNF-style product code (BNF section 4.3.3, selective serotonin re-uptake inhibitors).
 
 ---
 

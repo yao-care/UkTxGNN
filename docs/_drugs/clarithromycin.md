@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (26 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 26 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501050B0AAAAAA | Clarithromycin Tab 250mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501050B0AAAGAG | Clarithromycin 125mg granules for oral suspension sachets | Clarithromycin |
+| 0501050B0AAAKAK | Clarithromycin 125mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0AAABAB | Clarithromycin 125mg/5ml oral suspension | Clarithromycin |
+| 0501050B0AAALAL | Clarithromycin 187.5mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0AAAFAF | Clarithromycin 250mg granules for oral suspension sachets | Clarithromycin |
+| 0501050B0AAAMAM | Clarithromycin 250mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0AAAAAA | Clarithromycin 250mg tablets | Clarithromycin |
+| 0501050B0AAAHAH | Clarithromycin 250mg/5ml oral suspension | Clarithromycin |
+| 0501050B0AAAEAE | Clarithromycin 500mg modified-release tablets | Clarithromycin |
+| 0501050B0AAACAC | Clarithromycin 500mg powder for solution for infusion vials | Clarithromycin |
+| 0501050B0AAADAD | Clarithromycin 500mg tablets | Clarithromycin |
+| 0501050B0BEAAAE | Clarie XL 500mg tablets | Clarithromycin |
+| 0501050B0BDAAAK | Clarosip 125mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0BDABAL | Clarosip 187.5mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0BDACAM | Clarosip 250mg granules for oral suspension straws | Clarithromycin |
+| 0501050B0BGAAAE | Febzin XL 500mg tablets | Clarithromycin |
+| 0501050B0BBAAAA | Klaricid 250mg tablets | Clarithromycin |
+| 0501050B0BBADAD | Klaricid 500 tablets | Clarithromycin |
+| 0501050B0BBAFAF | Klaricid Adult 250mg granules sachets | Clarithromycin |
+| 0501050B0BBACAC | Klaricid IV 500mg powder for solution for infusion vials | Clarithromycin |
 
-The data compiled for this report list one single-ingredient authorisation, with a status of valid. Please check the SmPC and BNF (macrolides, infections section) for the authorised indications.
+Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the SmPC and BNF (macrolides, infections section) for the authorised indications.
 
 ---
 

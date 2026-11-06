@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Cinacalcet hydrochloride is a calcimimetic agent primarily used in the managemen
 | Predicted New Indication | **None** — no TxGNN predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | **L5** (No model predictions or supporting studies) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?

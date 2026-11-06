@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lisinopril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but **no clinical trials** and **no publications** specific to this subtype were
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (41 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 41 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,30 @@ For the lower-ranked prediction **chronic pulmonary heart disease**, the followi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051L0AAAAAA | Lisinopril Tablets 2.5 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051L0AAACAC | Lisinopril 10mg tablets | Lisinopril |
+| 0205051L0AAAHAH | Lisinopril 10mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAATAT | Lisinopril 14mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAAKAK | Lisinopril 15mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAAAAA | Lisinopril 2.5mg tablets | Lisinopril |
+| 0205051L0AAAIAI | Lisinopril 2.5mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAADAD | Lisinopril 20mg tablets | Lisinopril |
+| 0205051L0AAAYAY | Lisinopril 20mg/5ml oral solution | Lisinopril |
+| 0205051L0AAAZAZ | Lisinopril 20mg/5ml oral suspension | Lisinopril |
+| 0205051L0AAAJAJ | Lisinopril 30mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAASAS | Lisinopril 37.5mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAARAR | Lisinopril 40mg/5ml oral suspension | Lisinopril |
+| 0205051L0AAAMAM | Lisinopril 500micrograms/5ml oral liquid | Lisinopril |
+| 0205051L0AAABAB | Lisinopril 5mg tablets | Lisinopril |
+| 0205051L0AAAGAG | Lisinopril 5mg/5ml oral liquid | Lisinopril |
+| 0205051L0AAAQAQ | Lisinopril 5mg/5ml oral solution sugar free | Lisinopril |
+| 0205051L0AAANAN | Lisinopril 7.5mg/5ml oral liquid | Lisinopril |
+| 0205051K0BCABAB | Carace 10 Plus tablets | Lisinopril with diuretic |
+| 0205051L0BCACAC | Carace 10mg tablets | Lisinopril |
+| 0205051L0BCAAAA | Carace 2.5mg tablets | Lisinopril |
+
+Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above appears to be a BNF-style product code rather than an MHRA PL number, and the record contains no indication or manufacturer text. Please verify against the MHRA product database and the BNF.
 

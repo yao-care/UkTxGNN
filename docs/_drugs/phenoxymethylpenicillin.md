@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +90,18 @@ Currently no related literature available for epiglottitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501011P0AAADAD (BNF-style product code; no PL number in the data) | Phenoxymethylpenicillin oral solution 125 mg/5 ml | Oral solution | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501011P0AAATAT | Phenoxymethylpenicillin 0.3% eye drops | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAADAD | Phenoxymethylpenicillin 125mg/5ml oral solution | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAARAR | Phenoxymethylpenicillin 125mg/5ml oral solution sugar free | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAAJAJ | Phenoxymethylpenicillin 250mg tablets | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAAFAF | Phenoxymethylpenicillin 250mg/5ml oral solution | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAASAS | Phenoxymethylpenicillin 250mg/5ml oral solution sugar free | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0AAAUAU | Phenoxymethylpenicillin 500mg tablets | Phenoxymethylpenicillin (Penicillin V) |
+| 0501011P0BNADAJ | Tenkicin 250mg tablets | Phenoxymethylpenicillin (Penicillin V) |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classifies the product under section 5.1 (antibacterial drugs, penicillins). Epiglottitis is not a listed indication in the data compiled for this report.
 

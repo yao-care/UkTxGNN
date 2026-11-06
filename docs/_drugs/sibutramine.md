@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Sibutramine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0405020S0AAAAAA | Sibutramine Cap 10mg | Capsule (inferred from product name) | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0405020S0AAAAAA | Sibutramine 10mg capsules | Sibutramine |
+| 0405020S0AAABAB | Sibutramine 15mg capsules | Sibutramine |
+| 0405020S0BBAAAA | Reductil 10mg capsules | Sibutramine |
+| 0405020S0BBABAB | Reductil 15mg capsules | Sibutramine |
 
-This identifier looks like a BNF-style classification code rather than a standard MHRA PL number, and the dosage form, manufacturer and approved indication are blank in the compiled record. The marketed status and the single authorisation should be checked against the MHRA register before any decision relies on them. Sibutramine has been withdrawn in many jurisdictions because of cardiovascular risk.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+This identifier looks like a BNF-style classification code rather than a standard MHRA PL number, and the dosage form, manufacturer and approved indication are blank in the compiled record. Sibutramine has been withdrawn in many jurisdictions because of cardiovascular risk.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Everolimus: predicted new indication liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Everolimus is an mTOR inhibitor with a single licence recorded in the UK data compiled for this report.
+Everolimus is an mTOR inhibitor.
 The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clinical trial** (a combination Phase 2 study) and **4 publications** currently linked to this direction, only one of which reports clinical data in the disease itself.
 
 ---
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clini
 | Predicted New Indication | liposarcoma |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,30 @@ Dedifferentiated liposarcoma is typically driven by MDM2/CDK4 amplification, and
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050AXAAABAB | Everolimus Tab 10mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050AXAAABAB | Everolimus 10mg tablets | Everolimus |
+| 0801050AXAAACAC | Everolimus 2.5mg tablets | Everolimus |
+| 0801050AXAAADAD | Everolimus 250microgram tablets | Everolimus |
+| 0801050AXAAAGAG | Everolimus 2mg dispersible tablets sugar free | Everolimus |
+| 0801050AXAAAHAH | Everolimus 3mg dispersible tablets sugar free | Everolimus |
+| 0801050AXAAAFAF | Everolimus 500microgram tablets | Everolimus |
+| 0801050AXAAAIAI | Everolimus 5mg dispersible tablets sugar free | Everolimus |
+| 0801050AXAAAAAA | Everolimus 5mg tablets | Everolimus |
+| 0801050AXAAAEAE | Everolimus 750microgram tablets | Everolimus |
+| 0801050AXBBABAB | Afinitor 10mg tablets | Everolimus |
+| 0801050AXBBACAC | Afinitor 2.5mg tablets | Everolimus |
+| 0801050AXBBAAAA | Afinitor 5mg tablets | Everolimus |
+| 0801050AXBDAAAD | Certican 0.25mg tablets | Everolimus |
+| 0801050AXBDACAF | Certican 0.5mg tablets | Everolimus |
+| 0801050AXBDABAE | Certican 0.75mg tablets | Everolimus |
+| 0801050AXBCACAB | Votubia 10mg tablets | Everolimus |
+| 0801050AXBCABAC | Votubia 2.5mg tablets | Everolimus |
+| 0801050AXBCADAG | Votubia 2mg dispersible tablets | Everolimus |
+| 0801050AXBCAEAH | Votubia 3mg dispersible tablets | Everolimus |
+| 0801050AXBCAFAI | Votubia 5mg dispersible tablets | Everolimus |
+
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 
@@ -126,7 +147,7 @@ The only clinical evidence directly in liposarcoma is a single-arm Phase 2 combi
 - Full results of the ribociclib plus everolimus Phase 2 study, with analysis of everolimus's contribution
 - Everolimus-specific efficacy data in liposarcoma
 - Mechanism of action data
-- SmPC warnings and contraindications for the UK product, plus indication and dosage form details for the licence record
+- SmPC warnings and contraindications for the UK product, plus indication and dosage form details
 - A safety and interaction management plan, particularly for CYP3A4-related and antidiabetic interactions
 ## Disclaimer
 

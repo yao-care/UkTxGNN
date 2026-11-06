@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Desloratadine is an oral antihistamine tablet marketed in the UK. The TxGNN mode
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010ABAAAAAA | Desloratadine Tab 5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010ABAAABAB | Desloratadine 2.5mg/5ml oral solution | Desloratadine |
+| 0304010ABAAADAD | Desloratadine 2.5mg/5ml oral solution sugar free | Desloratadine |
+| 0304010ABAAAAAA | Desloratadine 5mg tablets | Desloratadine |
+| 0304010ABBDAAAD | Midetorin 2.5mg/5ml oral solution (Actavis) | Desloratadine |
+| 0304010ABBDABAD | Midetorin 2.5mg/5ml oral solution (Arrow) | Desloratadine |
+| 0304010ABBBACAD | Neoclarityn 2.5mg/5ml oral solution | Desloratadine |
+| 0304010ABBBABAB | Neoclarityn 2.5mg/5ml syrup | Desloratadine |
+| 0304010ABBBAAAA | Neoclarityn 5mg tablets | Desloratadine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

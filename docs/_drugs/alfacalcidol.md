@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alfacalcidol"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
@@ -50,8 +50,8 @@ The best-supported alternative among the model's top predictions is **renal tubu
 | Predicted New Indication | Craniofacial conodysplasia |
 | TxGNN Prediction Score | 0.9955 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (27 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 27 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,30 @@ No publications were found for craniofacial conodysplasia. The table below shows
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906040B0AAAAAA | Alfacalcidol capsules 250 ng | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906040B0AAAKAK | Alfacalcidol 1mg/5ml oral liquid | Alfacalcidol |
+| 0906040B0AAABAB | Alfacalcidol 1microgram capsules | Alfacalcidol |
+| 0906040B0AAAFAF | Alfacalcidol 1micrograms/0.5ml inj ampoules | Alfacalcidol |
+| 0906040B0AAAMAM | Alfacalcidol 1micrograms/5ml oral liquid | Alfacalcidol |
+| 0906040B0AAAAAA | Alfacalcidol 250nanogram capsules | Alfacalcidol |
+| 0906040B0AAAGAG | Alfacalcidol 2micrograms/1ml solution for injection ampoules | Alfacalcidol |
+| 0906040B0AAAJAJ | Alfacalcidol 2micrograms/ml oral drops sugar free | Alfacalcidol |
+| 0906040B0AAAIAI | Alfacalcidol 500nanogram capsules | Alfacalcidol |
+| 0906040B0AAALAL | Alfacalcidol 625nanograms/5ml oral liquid | Alfacalcidol |
+| 0906040B0BFABAA | ActiDol 0.25microgram capsules | Alfacalcidol |
+| 0906040B0BFAAAI | ActiDol 0.5microgram capsules | Alfacalcidol |
+| 0906040B0BFACAB | ActiDol 1microgram capsules | Alfacalcidol |
+| 0906040B0BDAAAA | AlciDol 0.25microgram softgel capsules | Alfacalcidol |
+| 0906040B0BDABAI | AlciDol 0.5microgram softgel capsules | Alfacalcidol |
+| 0906040B0BDACAB | AlciDol 1microgram softgel capsules | Alfacalcidol |
+| 0906040B0BEADAA | AlfaD 0.25microgram capsules | Alfacalcidol |
+| 0906040B0BEABAI | AlfaD 0.5microgram capsules | Alfacalcidol |
+| 0906040B0BEACAB | AlfaD 1microgram capsules | Alfacalcidol |
+| 0906040B0BCAAAA | AlfacalEss 0.25microgram capsules | Alfacalcidol |
+| 0906040B0BCABAI | AlfacalEss 0.5microgram capsules | Alfacalcidol |
+
+Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listing is a single-ingredient product and is currently marketed. The reference number appears to be a BNF-style code rather than a PL number.
 

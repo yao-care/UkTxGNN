@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Stannous Fluoride: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Stannous fluoride"
 predicted_indications: ["meningococcal infection"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **meningococcal infection**, bu
 | Predicted New Indication | Meningococcal infection |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0905030M0AAABAB | Stannous Fluoride Gel 0.4% | Gel (topical) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0905030M0AAABAB | Stannous fluoride 0.4% dental gel sugar free | Stannous fluoride |
+| 0905030M0BCAAAB | Colgate FluoriGard Gel-Kam 0.4% dental gel | Stannous fluoride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation is recorded as valid and as a single-ingredient product. Product-level details such as the indication and manufacturer were not available.
 

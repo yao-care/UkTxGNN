@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 622
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Tizanidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
 description: "Tizanidine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Tizanidine is a central alpha-2 adrenergic agonist. The TxGNN model predicts it 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,22 @@ One further registered study (NCT02403687, an observational analgesic study of t
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1002020T0AAABAB | Tizanidine HCl tablets 2 mg | Tablet | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1002020T0AAABAB | Tizanidine 2mg tablets | Tizanidine hydrochloride |
+| 1002020T0AAAIAI | Tizanidine 2mg/5ml oral solution | Tizanidine hydrochloride |
+| 1002020T0AAAJAJ | Tizanidine 2mg/5ml oral suspension | Tizanidine hydrochloride |
+| 1002020T0AAAAAA | Tizanidine 4mg tablets | Tizanidine hydrochloride |
+| 1002020T0AAAEAE | Tizanidine 4mg/5ml oral liquid | Tizanidine hydrochloride |
+| 1002020T0AAAKAK | Tizanidine 5mg/5ml oral suspension | Tizanidine hydrochloride |
+| 1002020T0AAALAL | Tizanidine 6mg/5ml oral suspension | Tizanidine hydrochloride |
+| 1002020T0AAAHAH | Tizanidine 8mg/5ml oral liquid | Tizanidine hydrochloride |
+| 1002020T0BDAAAB | Tizagelan 2mg tablets | Tizanidine hydrochloride |
+| 1002020T0BDABAA | Tizagelan 4mg tablets | Tizanidine hydrochloride |
+| 1002020T0BCAAAB | Zanaflex 2mg tablets | Tizanidine hydrochloride |
+| 1002020T0BCABAA | Zanaflex 4mg tablets | Tizanidine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

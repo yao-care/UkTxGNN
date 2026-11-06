@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 description: "Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **heparin cofac
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,24 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0604030Q0AAAIAI | Prasterone Tab 25mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604030Q0AAAHAH | Prasterone 10mg tablets | Prasterone |
+| 0604030Q0AAAAAA | Prasterone 25mg capsules | Prasterone |
+| 0604030Q0AAAIAI | Prasterone 25mg tablets | Prasterone |
+| 0604030Q0AAACAC | Prasterone 50mg capsules | Prasterone |
+| 0604030Q0AAAMAM | Prasterone 6.5mg pessaries | Prasterone |
+| 0604030Q0BBAGAH | DHEA 10mg tablets | Prasterone |
+| 0604030Q0BBAAAA | DHEA 25mg capsules | Prasterone |
+| 0604030Q0BBAFAI | DHEA 25mg tablets | Prasterone |
+| 0604030Q0BBACAC | DHEA 50mg capsules | Prasterone |
+| 0604030Q0BHAAAM | Intrarosa 6.5mg pessaries | Prasterone |
+| 0604030Q0BGAAAL | Natrol DHEA 10mg tablets | Prasterone |
+| 0604030Q0AAALAL | Prasterone 10mg / Calcium carbonate 47mg tablets | Prasterone |
 
-The identifier above resembles a BNF-style product code (BNF section 6.4.3 relates to sex hormones) rather than a standard PL number, and it should be verified against the MHRA register. The compiled data show one valid single-ingredient authorisation. No NICE-appraised indication was identified in the data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above resembles a BNF-style product code (BNF section 6.4.3 relates to sex hormones) rather than a standard PL number, and it should be verified against the MHRA register. No NICE-appraised indication was identified in the data.
 
 ## Safety Considerations
 

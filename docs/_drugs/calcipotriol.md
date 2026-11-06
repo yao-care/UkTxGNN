@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 123
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Calcipotriol: predicted new indication Seborrheic keratosis (evidence level L3). Approved use: Not stated in the data compiled for this report (calcipotriol is wide…"
 monitor_inn: "Calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **seborrheic keratosis**, with 
 | Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold (research question) |
 
 ---
@@ -86,9 +86,29 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1305020D0AAAAAA | Calcipotriol ointment 50 microgram/g | Ointment | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1305020D0AAABAB | Calcipotriol 50micrograms/g cream | Calcipotriol |
+| 1305020D0AAAAAA | Calcipotriol 50micrograms/g ointment | Calcipotriol |
+| 1305020D0AAAJAJ | Calcipotriol 0.005% / Betamethasone dipropionate 0.05% cream | Calcipotriol |
+| 1305020D0AAAGAG | Calcipotriol 0.005% / Betamethasone dipropionate 0.05% gel | Calcipotriol |
+| 1305020D0AAAFAF | Calcipotriol 0.005% / Betamethasone dipropionate 0.05% oint | Calcipotriol |
+| 1305020D0AAAIAI | Calcipotriol 50microg/Betamethasone diprop 500microg/g foam | Calcipotriol |
+| 1305020D0AAAHAH | Calcipotriol 50micrograms/g oint 50% in White soft paraffin | Calcipotriol |
+| 1305020D0AAACAC | Calcipotriol 50micrograms/ml scalp solution | Calcipotriol |
+| 1305020D0BGAAAF | Dalbecal 50micrograms/g / 0.5mg/g ointment | Calcipotriol |
+| 1305020D0BFAAAF | Dalonev ointment | Calcipotriol |
+| 1305020D0BCABAG | Dovobet gel | Calcipotriol |
+| 1305020D0BCACAG | Dovobet gel Applicator | Calcipotriol |
+| 1305020D0BCAAAF | Dovobet ointment | Calcipotriol |
+| 1305020D0BBABAB | Dovonex 50micrograms/g cream | Calcipotriol |
+| 1305020D0BBAAAA | Dovonex 50micrograms/g ointment | Calcipotriol |
+| 1305020D0BBACAC | Dovonex 50micrograms/ml scalp solution | Calcipotriol |
+| 1305020D0BEAAAI | Enstilar 50micrograms/g / 0.5 mg/g cutaneous foam | Calcipotriol |
+| 1305020D0BHAAAJ | Wynzora 50micrograms/g / 0.5mg/g cream | Calcipotriol |
+| 1305020D0BDAAAG | Xamiol gel | Calcipotriol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed number is a BNF-style product code rather than a standard PL number. Dosage form and indication details were not captured and should be checked against the SmPC.
 

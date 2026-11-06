@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **post-infectious neuralgia**, but
 | Predicted New Indication | Post-infectious neuralgia |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -75,7 +75,7 @@ Post-infectious neuralgia, in practice usually postherpetic neuralgia, is nerve 
 
 ## UK Market Information
 
-One valid single-ingredient authorisation is recorded for famciclovir (Famciclovir tablet 125 mg). Dosage form, manufacturer and approved indication text are not recorded in the local data, so no further detail can be reported here.
+Dosage form, manufacturer and approved indication text are not recorded in the local data, so no further detail can be reported here.
 
 ---
 

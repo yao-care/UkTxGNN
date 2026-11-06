@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Levofloxacin is a fluoroquinolone antibacterial. The TxGNN model predicts it may
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501120X0AAAAAA | Levofloxacin Tab 500mg | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501120X0AAABAB | Levofloxacin 250mg tablets | Levofloxacin |
+| 0501120X0AAAAAA | Levofloxacin 500mg tablets | Levofloxacin |
+| 0501120X0AAADAD | Levofloxacin 500mg/100ml infusion bags | Levofloxacin |
+| 0501120X0AAAGAG | Levofloxacin 500mg/100ml infusion polyethylene bottles | Levofloxacin |
+| 0501120X0AAAEAE | Levofloxacin 500mg/100ml solution for infusion bottles | Levofloxacin |
+| 0501120X0AAACAC | Levofloxacin 500mg/100ml solution for infusion vials | Levofloxacin |
+| 1103010AGAAACAC | Levofloxacin 5mg/ml eye dps 0.3ml ud preservative free | Levofloxacin |
+| 1103010AGAAABAB | Levofloxacin 5mg/ml eye dps 0.5ml ud preservative free | Levofloxacin |
+| 1103010AGAAAAAA | Levofloxacin 5mg/ml eye drops | Levofloxacin |
+| 1103010AGAAADAD | Levofloxacin 5mg/ml eye drops preservative free | Levofloxacin |
+| 1104010I0AAAWAW | Dexamethasone 1mg/ml / Levofloxacin 5mg/ml eye drops | Dexamethasone |
+| 1104010I0BJAAAW | Ducressa 1mg/ml / 5mg/ml eye drops | Dexamethasone |
+| 0501120X0BCAAAB | Evoxil 250mg tablets | Levofloxacin |
+| 0501120X0BCACAA | Evoxil 500mg tablets | Levofloxacin |
+| 0501120X0BCABAC | Evoxil 500mg/100ml solution for infusion vials | Levofloxacin |
+| 1103010AGBCAAAD | Eyflox 5mg/ml eye drops | Levofloxacin |
+| 0501120X0AAAFAF | Levofloxacin 100mg/ml nebuliser liquid ampoules | Levofloxacin |
+| 1103010AGBBAAAA | Oftaquix 5mg/ml eye drops | Levofloxacin |
+| 1103010AGBBACAC | Oftaquix 5mg/ml eye drops 0.3ml unit dose | Levofloxacin |
+| 1103010AGBBABAB | Oftaquix 5mg/ml eye drops 0.5ml unit dose | Levofloxacin |
 
-The data compiled for this report show one valid single-ingredient licence.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

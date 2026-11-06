@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ This prediction is **model-based only**: there are **no clinical trials** and **
 | Predicted New Indication | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010T0AAAFAF (identifier as recorded; it resembles a BNF product code rather than a PL number) | Selegiline HCl Oral Solution 10 mg/5 ml | Oral solution | Not stated in the compiled record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010T0AAAKAK | Selegiline 1.25mg oral lyophilisates sugar free | Selegiline hydrochloride |
+| 0409010T0AAACAC | Selegiline 10mg tablets | Selegiline hydrochloride |
+| 0409010T0AAALAL | Selegiline 10mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0AAAIAI | Selegiline 19mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0AAAAAA | Selegiline 5mg tablets | Selegiline hydrochloride |
+| 0409010T0AAAGAG | Selegiline 5mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0BBABAC | Eldepryl 10mg tablets | Selegiline hydrochloride |
+| 0409010T0BBACAL | Eldepryl 10mg/5ml syrup | Selegiline hydrochloride |
+| 0409010T0BBAAAA | Eldepryl 5mg tablets | Selegiline hydrochloride |
+| 0409010T0BFAAAK | Zelapar 1.25mg oral lyophilisates | Selegiline hydrochloride |
 
-One valid single-ingredient authorisation is recorded, and none are cancelled. The indication text for this product was not available, so UK-authorised uses should be confirmed against the current SmPC and BNF (Parkinson disease is the established use).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The indication text for this product was not available, so UK-authorised uses should be confirmed against the current SmPC and BNF (Parkinson disease is the established use).
 
 ## Safety Considerations
 

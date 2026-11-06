@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ezetimibe: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hyperlipidaemia"
 ---
 
@@ -52,8 +52,8 @@ but **no clinical trials** and **no publications that directly study this condit
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9909 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,26 @@ The two publications retrieved concern lipid-lowering in general and do not stud
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0212000L0AAAAAA | Ezetimibe Tab 10 mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000L0AAAAAA | Ezetimibe 10mg tablets | Ezetimibe |
+| 0212000APAAAAAA | Atorvastatin 10mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAABAB | Atorvastatin 20mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAACAC | Atorvastatin 40mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAADAD | Atorvastatin 80mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000ALAAAAAA | Bempedoic acid 180mg / Ezetimibe 10mg tablets | Bempedoic acid/Ezetimibe |
+| 0212000L0BBAAAA | Ezetrol 10mg tablets | Ezetimibe |
+| 0212000ACBBAAAA | Inegy 10mg/20mg tablets | Simvastatin and ezetimibe |
+| 0212000ACBBABAB | Inegy 10mg/40mg tablets | Simvastatin and ezetimibe |
+| 0212000ACBBACAC | Inegy 10mg/80mg tablets | Simvastatin and ezetimibe |
+| 0212000ALBBAAAA | Nustendi 180mg/10mg tablets | Bempedoic acid/Ezetimibe |
+| 0212000ACAAAAAA | Simvastatin 20mg / Ezetimibe 10mg tablets | Simvastatin and ezetimibe |
+| 0212000ACAAABAB | Simvastatin 40mg / Ezetimibe 10mg tablets | Simvastatin and ezetimibe |
+| 0212000ACAAACAC | Simvastatin 80mg / Ezetimibe 10mg tablets | Simvastatin and ezetimibe |
 
-The data compiled for this report contain one single-ingredient authorisation, currently valid. Please check the current MHRA record and the BNF for the full licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record and the BNF for the full licensed indications.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clofazimine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Clofazimine is an antimycobacterial medicine marketed in the UK. The TxGNN model
 | Predicted New Indication | Pneumocystosis (pneumocystosis) |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,14 @@ None of these studies directly tests clofazimine against pneumocystosis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501100C0AAAAAA | Clofazimine Cap 100mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501100C0AAAAAA | Clofazimine 100mg capsules | Clofazimine |
+| 0501100C0AAACAC | Clofazimine 50mg capsules | Clofazimine |
+| 0501100C0BBAAAA | Lamprene 100mg capsules | Clofazimine |
+| 0501100C0BBACAC | Lamprene 50mg capsules | Clofazimine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

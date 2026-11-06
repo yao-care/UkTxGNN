@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 579
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Duodenal ulcer"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 0.9937 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -94,11 +94,25 @@ The abstracts available in the data do not report outcome results, so efficacy c
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103030S0AAAAAA | Sucralfate Tab 1 g | Tablet | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103030S0AAAAAA | Sucralfate 1g tablets | Sucralfate |
+| 0107010S0AAAIAI | Sucralfate 1g/30ml enema | Sucralfate |
+| 0103030S0AAAEAE | Sucralfate 1g/5ml oral suspension | Sucralfate |
+| 0103030S0AAADAD | Sucralfate 1g/5ml oral suspension sugar free | Sucralfate |
+| 0103030S0AAACAC | Sucralfate 250mg/5ml oral suspension | Sucralfate |
+| 0107010S0AAAKAK | Sucralfate 2g/20ml enema | Sucralfate |
+| 0107010S0AAALAL | Sucralfate 2g/50ml enema | Sucralfate |
+| 0107010S0AAAJAJ | Sucralfate 4% in Emulsifying ointment | Sucralfate |
+| 1313080S0AAADAD | Sucralfate powder | Sucralfate |
+| 0103030S0BBAAAA | Antepsin 1g tablets | Sucralfate |
+| 0103030S0BBABAD | Antepsin 1g/5ml oral suspension | Sucralfate |
+| 0103030S0BDAAAA | Carafate 1g tablets | Sucralfate |
+| 0103030S0BCAAAA | Sulcrate 1g tablets | Sucralfate |
 
-This is the only authorisation in the data compiled for this report (single-ingredient, valid). The identifier is not in the usual PL format, and dosage form and indication text are not recorded, so please verify the entry against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the usual PL format, and dosage form and indication text are not recorded, so please verify the entry against the MHRA register and the BNF.
 
 ---
 

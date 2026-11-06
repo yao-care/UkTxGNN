@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 552
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **8 publicati
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (54 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 54 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,11 +81,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010H0AAAKAK | Ropinirole HCl tablet 2 mg modified-release | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010H0AAANAN | Ropinirole 12mg/5ml oral liquid | Ropinirole hydrochloride |
+| 0409010H0AAAJAJ | Ropinirole 1mg oral powder sachets | Ropinirole hydrochloride |
+| 0409010H0AAABAB | Ropinirole 1mg tablets | Ropinirole hydrochloride |
+| 0409010H0AAAQAQ | Ropinirole 1mg/5ml oral solution | Ropinirole hydrochloride |
+| 0409010H0AAAAAA | Ropinirole 250microgram tablets | Ropinirole hydrochloride |
+| 0409010H0AAAKAK | Ropinirole 2mg modified-release tablets | Ropinirole hydrochloride |
+| 0409010H0AAACAC | Ropinirole 2mg tablets | Ropinirole hydrochloride |
+| 0409010H0AAARAR | Ropinirole 3mg modified-release tablets | Ropinirole hydrochloride |
+| 0409010H0AAALAL | Ropinirole 4mg modified-release tablets | Ropinirole hydrochloride |
+| 0409010H0AAAHAH | Ropinirole 500microgram tablets | Ropinirole hydrochloride |
+| 0409010H0AAADAD | Ropinirole 5mg tablets | Ropinirole hydrochloride |
+| 0409010H0AAASAS | Ropinirole 6mg modified-release tablets | Ropinirole hydrochloride |
+| 0409010H0AAAMAM | Ropinirole 8mg modified-release tablets | Ropinirole hydrochloride |
+| 0409010H0AAATAT | Ropinirole 8mg/5ml oral suspension | Ropinirole hydrochloride |
+| 0409010H0BCABAA | Adartrel 250microgram tablets | Ropinirole hydrochloride |
+| 0409010H0BCACAC | Adartrel 2mg tablets | Ropinirole hydrochloride |
+| 0409010H0BCAAAH | Adartrel 500microgram tablets | Ropinirole hydrochloride |
+| 0409010H0BHAAAK | Aimpart XL 2mg tablets | Ropinirole hydrochloride |
+| 0409010H0BHABAL | Aimpart XL 4mg tablets | Ropinirole hydrochloride |
+| 0409010H0BHACAM | Aimpart XL 8mg tablets | Ropinirole hydrochloride |
 
-The data compiled for this report show one valid single-ingredient authorisation. The identifier is not in the standard MHRA PL format, and the dosage form and approved indication are not stated. Please check the current SmPC, BNF and NICE guidance for the authorised indications.
+Showing 20 of 54 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the standard MHRA PL format, and the dosage form and approved indication are not stated. Please check the current SmPC, BNF and NICE guidance for the authorised indications.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tenofovir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "tenofovir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ but the supporting evidence is limited to **2 animal studies** and **no clinical
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 on the strict rules above (no clinical trials; animal studies only). The source data labels this L3, but the supporting studies are preclinical animal studies rather than observational studies or systematic reviews. |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (43 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 43 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,12 +77,32 @@ For context, the related prediction of simian immunodeficiency virus infection i
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010AABBAAAA | Truvada Tab 200mg/245mg | Not available | Not available |
-| 0503010AAAAAAAA | Emtricitabine/Tenofovir Tab 200mg/245mg | Not available | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503031D0AAAAAA | Tenofovir alafenamide 25mg tablets | Tenofovir alafenamide |
+| 0503010H0AAACAC | Tenofovir disoproxil 123mg tablets | Tenofovir disoproxil |
+| 0503010H0AAADAD | Tenofovir disoproxil 163mg tablets | Tenofovir disoproxil |
+| 0503010H0AAAEAE | Tenofovir disoproxil 204mg tablets | Tenofovir disoproxil |
+| 0503010H0AAAAAA | Tenofovir disoproxil 245mg tablets | Tenofovir disoproxil |
+| 0503010H0AAABAB | Tenofovir disoproxil 33mg/g granules | Tenofovir disoproxil |
+| 0503010ANBBAAAA | Atripla 600mg/200mg/245mg tablets | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010AQAAABAB | Bictegravir 30mg /Emtr 120mg /Tenofovir alafenamide 15mg tab | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQAAAAAA | Bictegravir 50mg /Emtr 200mg /Tenofovir alafenamide 25mg tab | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQBBABAB | Biktarvy 30mg/120mg/15mg tablets | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQBBAAAA | Biktarvy 50mg/200mg/25mg tablets | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010BEAAAAAA | Darunavir 800mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010ASBBAAAA | Delstrigo 100mg/300mg/245mg tablets | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010AMBBAAAA | Descovy 200mg/10mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010AMBBABAB | Descovy 200mg/25mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010ASAAAAAA | Doravirine 100mg/Lamivudine 300mg/Tenofovir disoproxil 245mg | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010ANAAAAAA | Efavirenz 600mg / Emtr 200mg /Tenofovir disoproxil 245mg tab | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010BAAAABAB | Elvitegravir 150mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010BDAAAAAA | Elvitegravir 150mg/Cobicistat/Emtr/Tenofovir disoproxil tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir disoproxil |
+| 0503010BAAAAAAA | Elvitegravir 90mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
 
-Both authorisations are valid single-ingredient entries. The identifiers shown are those in the data compiled for this report and appear to be BNF-style codes rather than MHRA "PL" numbers, so they should be verified against the MHRA register.
+Showing 20 of 43 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown are those in the data compiled for this report and appear to be BNF-style codes rather than MHRA "PL" numbers, so they should be verified against the MHRA register.
 
 ## Safety Considerations
 

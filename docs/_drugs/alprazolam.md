@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 41
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Alprazolam"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, produci
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,11 +89,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0401020A0AAAAAA (as recorded; this is a classification-style code, not a standard PL number) | Alprazolam Tab 250mcg | Tablet (taken from the product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401020A0AAAAAA | Alprazolam 250microgram tablets | Alprazolam |
+| 0401020A0AAABAB | Alprazolam 500microgram tablets | Alprazolam |
+| 0401020A0BBAAAA | Xanax 250microgram tablets | Alprazolam |
+| 0401020A0BBABAB | Xanax 500microgram tablets | Alprazolam |
 
-The local data list one valid single-ingredient licence.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

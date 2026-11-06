@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vancomycin: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Clostridium difficile colitis (also staphylococcal infections…"
 monitor_inn: "Vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 | Predicted New Indication | Diffuse scleroderma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 *Note: the data compiled for this report contain no approved indication text for the UK product. The original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
@@ -85,9 +85,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070U0AAABAB (BNF code; no PL number available) | Vancomycin HCl capsules 250 mg | Capsule (oral) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1103010Z0AAADAD | Vancomycin 1.4% eye drops | Vancomycin hydrochloride |
+| 0501070U0AAAAAA | Vancomycin 125mg capsules | Vancomycin hydrochloride |
+| 0501070U0AAALAL | Vancomycin 125mg/5ml oral liquid | Vancomycin hydrochloride |
+| 0501070U0AAAFAF | Vancomycin 1g powder for solution for infusion vials | Vancomycin hydrochloride |
+| 0501070U0AAABAB | Vancomycin 250mg capsules | Vancomycin hydrochloride |
+| 0501070U0AAAKAK | Vancomycin 250mg/5ml oral liquid | Vancomycin hydrochloride |
+| 1103010Z0AAAAAA | Vancomycin 5% eye drops | Vancomycin hydrochloride |
+| 0501070U0AAACAC | Vancomycin 500mg powder for solution for infusion vials | Vancomycin hydrochloride |
+| 0501070U0AAAHAH | Vancomycin 50mg/5ml oral solution | Vancomycin hydrochloride |
+| 0501070U0AAAMAM | Vancomycin 62.5mg/5ml oral solution | Vancomycin hydrochloride |
+| 0501070U0BBAEAF | Vancocin 1g powder for solution for infusion vials | Vancomycin hydrochloride |
+| 0501070U0BBADAC | Vancocin 500mg powder for solution for infusion vials | Vancomycin hydrochloride |
+| 0501070U0BBAAAA | Vancocin Matrigel 125mg capsules | Vancomycin hydrochloride |
+| 0501070U0BBABAB | Vancocin Matrigel 250mg capsules | Vancomycin hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF classification: the code prefix 0501070 corresponds to the BNF section on other antibacterials (glycopeptide antibacterials).
 

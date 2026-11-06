@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Trihexyphenidyl"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409020C0AAADAD | Trihexyphenidyl HCl Tablets 2 mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409020C0AAAPAP | Trihexyphenidyl 10mg/5ml oral solution | Trihexyphenidyl hydrochloride |
+| 0409020C0AAAQAQ | Trihexyphenidyl 10mg/5ml oral suspension | Trihexyphenidyl hydrochloride |
+| 0409020C0AAAIAI | Trihexyphenidyl 1mg/5ml oral liquid | Trihexyphenidyl hydrochloride |
+| 0409020C0AAADAD | Trihexyphenidyl 2mg tablets | Trihexyphenidyl hydrochloride |
+| 0409020C0AAASAS | Trihexyphenidyl 2mg/5ml oral solution | Trihexyphenidyl hydrochloride |
+| 0409020C0AAALAL | Trihexyphenidyl 2mg/5ml oral suspension | Trihexyphenidyl hydrochloride |
+| 0409020C0AAAJAJ | Trihexyphenidyl 500micrograms/5ml oral liquid | Trihexyphenidyl hydrochloride |
+| 0409020C0AAAEAE | Trihexyphenidyl 5mg tablets | Trihexyphenidyl hydrochloride |
+| 0409020C0AAACAC | Trihexyphenidyl 5mg/5ml oral solution | Trihexyphenidyl hydrochloride |
+| 0409020C0AAAKAK | Trihexyphenidyl 5mg/5ml oral suspension | Trihexyphenidyl hydrochloride |
+| 0409020C0AAARAR | Trihexyphenidyl 8mg/5ml oral solution | Trihexyphenidyl hydrochloride |
+| 0409020C0BEAAAD | Agitane 2mg tablets | Trihexyphenidyl hydrochloride |
+| 0409020C0BEABAE | Agitane 5mg tablets | Trihexyphenidyl hydrochloride |
+| 0409020C0BCAAAC | Broflex 5mg/5ml syrup | Trihexyphenidyl hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The marketing authorisation number above is as recorded in the compiled data and does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Please consult the BNF (antimuscarinic drugs used in parkinsonism) and the current SmPC for licensed indications.
 

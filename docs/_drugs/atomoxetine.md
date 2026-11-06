@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ No clinical trials are registered for this condition, and none of the 14 publica
 | Predicted New Indication | Specific developmental disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (32 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 32 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,32 @@ None of these studies directly examines a specific developmental disorder. They 
 
 ## UK Market Information
 
-Overall status: **Marketed**. One valid single-ingredient authorisation is recorded.
+Overall status: **Marketed**.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0404000S0AAAAAA | Atomoxetine HCl capsule 10 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0404000S0AAAHAH | Atomoxetine 100mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAAAAA | Atomoxetine 10mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAARAR | Atomoxetine 10mg/5ml oral solution | Atomoxetine hydrochloride |
+| 0404000S0AAACAC | Atomoxetine 18mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAALAL | Atomoxetine 20mg/5ml oral suspension | Atomoxetine hydrochloride |
+| 0404000S0AAADAD | Atomoxetine 25mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAAIAI | Atomoxetine 25mg/5ml oral liquid | Atomoxetine hydrochloride |
+| 0404000S0AAAPAP | Atomoxetine 30mg/5ml oral suspension | Atomoxetine hydrochloride |
+| 0404000S0AAAQAQ | Atomoxetine 36mg/5ml oral suspension | Atomoxetine hydrochloride |
+| 0404000S0AAABAB | Atomoxetine 40mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAAJAJ | Atomoxetine 40mg/5ml oral suspension | Atomoxetine hydrochloride |
+| 0404000S0AAAKAK | Atomoxetine 4mg/ml oral solution sugar free | Atomoxetine hydrochloride |
+| 0404000S0AAAGAG | Atomoxetine 5mg/5ml oral solution | Atomoxetine hydrochloride |
+| 0404000S0AAAMAM | Atomoxetine 5mg/5ml oral suspension | Atomoxetine hydrochloride |
+| 0404000S0AAAEAE | Atomoxetine 60mg capsules | Atomoxetine hydrochloride |
+| 0404000S0AAANAN | Atomoxetine 60mg/5ml oral solution | Atomoxetine hydrochloride |
+| 0404000S0AAAFAF | Atomoxetine 80mg capsules | Atomoxetine hydrochloride |
+| 0404000S0BCAAAH | ATOMAID 100mg capsules | Atomoxetine hydrochloride |
+| 0404000S0BCAGAA | ATOMAID 10mg capsules | Atomoxetine hydrochloride |
+| 0404000S0BCAFAC | ATOMAID 18mg capsules | Atomoxetine hydrochloride |
+
+Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Caffeine"
 predicted_indications: ["nasal cavity disease", "thrombotic disease", "papillary conjunctivitis", "neuralgia", "glossodynia", "coccygodynia", "trigeminal autonomic cephalalgia", "vein disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (46 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 46 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0404000E0AAAKAK | Caffeine Soln 25mg/5ml | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0404000D0AAAAAA | Caffeine (base) 50mg tablets | Caffeine |
+| 0404000E0AAAJAJ | Caffeine citrate 100mg/5ml oral solution | Caffeine citrate |
+| 0404000E0AAAXAX | Caffeine citrate 10mg/1ml solution for infusion ampoules | Caffeine citrate |
+| 0404000E0AAAMAM | Caffeine citrate 10mg/5ml oral liquid | Caffeine citrate |
+| 0404000E0AAAWAW | Caffeine citrate 16mg/5ml oral solution | Caffeine citrate |
+| 0404000E0AAATAT | Caffeine citrate 180mg/5ml oral liquid | Caffeine citrate |
+| 0404000E0AAAPAP | Caffeine citrate 200mg/5ml oral liquid | Caffeine citrate |
+| 0404000E0AAALAL | Caffeine citrate 20mg/1ml solution for infusion ampoules | Caffeine citrate |
+| 0404000E0AAAQAQ | Caffeine citrate 25mg/5ml oral liquid | Caffeine citrate |
+| 0404000E0AAAKAK | Caffeine citrate 50mg/5ml oral solution | Caffeine citrate |
+| 0404000E0AAASAS | Caffeine citrate 80mg/5ml oral solution | Caffeine citrate |
+| 190400000AAHXHX | Caffeine citrate powder | Other single substance preparations |
+| 070403000AAAFAF | Ammonium chloride 325mg / Caffeine 100mg gast res tab | Other urological pain preparations |
+| 0407010AABCAAAB | Anadin Original tablets | Aspirin and caffeine |
+| 070403000BPBAAF | Aqua Ban gastro-resistant tablets | Other urological pain preparations |
+| 0407010AAAAABAB | Aspirin 325mg / Caffeine 15mg tablets | Aspirin and caffeine |
+| 0407010AAAAACAC | Aspirin 600mg / Caffeine 50mg oral powder sachets sugar free | Aspirin and caffeine |
+| 0407010U0BIAAAC | Beechams Cold Relief Orange Flavour effervescent tablets | Paracetamol and caffeine |
+| 0407010AABDAAAC | Beechams Powders oral powder sachets | Aspirin and caffeine |
+| 0407010U0BFABAC | Boots Paracetamol Extra soluble tablets | Paracetamol and caffeine |
+
+Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

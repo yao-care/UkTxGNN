@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Omeprazole is a proton pump inhibitor originally used for acid-related upper gas
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (66 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 66 |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -96,11 +96,30 @@ The remaining retrieved publications were about gastric acid physiology or other
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103050P0AAAFAF (BNF-style product code, not a PL number) | Omeprazole gastro-resistant capsules 10 mg | Gastro-resistant capsule | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103050P0AAAMAM | Omeprazole 10mg dispersible gastro-resistant tablets | Omeprazole |
+| 0103050P0AAAFAF | Omeprazole 10mg gastro-resistant capsules | Omeprazole |
+| 0103050P0AABCBC | Omeprazole 10mg gastro-resistant tablets | Omeprazole |
+| 0103050P0AABXBX | Omeprazole 10mg/15ml oral solution unit dose sugar free | Omeprazole |
+| 0103050P0AAAJAJ | Omeprazole 10mg/5ml oral solution | Omeprazole |
+| 0103050P0AABLBL | Omeprazole 10mg/5ml oral suspension | Omeprazole |
+| 0103050P0AABUBU | Omeprazole 10mg/5ml oral suspension sugar free | Omeprazole |
+| 0103050P0AABBBB | Omeprazole 12.5mg/5ml oral liquid | Omeprazole |
+| 0103050P0AAAXAX | Omeprazole 15.5mg/5ml oral liquid | Omeprazole |
+| 0103050P0AABHBH | Omeprazole 15mg/5ml oral liquid | Omeprazole |
+| 0103050P0AABWBW | Omeprazole 1mg/ml oral suspension sugar free | Omeprazole |
+| 0103050P0AAALAL | Omeprazole 2.5mg/5ml oral suspension | Omeprazole |
+| 0103050P0AAANAN | Omeprazole 20mg dispersible gastro-resistant tablets | Omeprazole |
+| 0103050P0AAAAAA | Omeprazole 20mg gastro-resistant capsules | Omeprazole |
+| 0103050P0AABDBD | Omeprazole 20mg gastro-resistant tablets | Omeprazole |
+| 0103050P0AABYBY | Omeprazole 20mg/15ml oral solution unit dose sugar free | Omeprazole |
+| 0103050P0AAAQAQ | Omeprazole 20mg/5ml oral solution | Omeprazole |
+| 0103050P0AABMBM | Omeprazole 20mg/5ml oral suspension | Omeprazole |
+| 0103050P0AABVBV | Omeprazole 20mg/5ml oral suspension sugar free | Omeprazole |
+| 0103050P0AAARAR | Omeprazole 25mg/5ml oral liquid | Omeprazole |
 
-Only one authorisation record is available in the data compiled for this report.
+Showing 20 of 66 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

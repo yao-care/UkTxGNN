@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mesalazine: predicted new indication Congenital hypotrichosis with juvenile macular dystrophy (evidence level L5). Approved use: Ulcerative colitis, inflammatory bowel disease…"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 | Predicted New Indication | Congenital hypotrichosis with juvenile macular dystrophy |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (59 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 59 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,9 +85,30 @@ Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0105010B0AAAIAI (BNF section 1.5.1 code) | Mesalazine 500 mg modified-release tablets | Modified-release tablet | Not recorded in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0105010B0AAARAR | Mesalazine 1.2g gastro-resistant modified-release tablets | Mesalazine (Systemic) |
+| 0105010B0AAAUAU | Mesalazine 1.5g gast res MR gran sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AABDBD | Mesalazine 1.6g gastro-resistant tablets | Mesalazine (Systemic) |
+| 0105010B0AAAXAX | Mesalazine 1g gast res MR gran sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AABCBC | Mesalazine 1g gastro-resistant tablets | Mesalazine (Systemic) |
+| 0105010B0AAANAN | Mesalazine 1g modified-release granules sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AAAYAY | Mesalazine 1g modified-release tablets | Mesalazine (Systemic) |
+| 0105010B0AAAJAJ | Mesalazine 1g suppositories | Mesalazine (Systemic) |
+| 0105010B0AAACAC | Mesalazine 1g/100ml enema | Mesalazine (Systemic) |
+| 0105010B0AAAHAH | Mesalazine 250mg gastro-resistant tablets | Mesalazine (Systemic) |
+| 0105010B0AAAGAG | Mesalazine 250mg suppositories | Mesalazine (Systemic) |
+| 0105010B0AAATAT | Mesalazine 2g modified-release granules sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AAALAL | Mesalazine 2g/59ml enema | Mesalazine (Systemic) |
+| 0105010B0AABBBB | Mesalazine 300mg/5ml oral suspension | Mesalazine (Systemic) |
+| 0105010B0AAAZAZ | Mesalazine 3g gast res MR gran sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AAAAAA | Mesalazine 400mg gastro-resistant tablets | Mesalazine (Systemic) |
+| 0105010B0AAAMAM | Mesalazine 400mg/5ml oral liquid | Mesalazine (Systemic) |
+| 0105010B0AABABA | Mesalazine 4g modified-release granules sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AAAPAP | Mesalazine 500mg gast res MR gran sachets sugar free | Mesalazine (Systemic) |
+| 0105010B0AAAWAW | Mesalazine 500mg gastro-resistant tablets | Mesalazine (Systemic) |
+
+Showing 20 of 59 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Mesalazine sits in BNF chapter 1.5 (aminosalicylates for inflammatory bowel disease). The identifier above appears to be a BNF-style product code rather than a standard MHRA PL number, so the PL number should be confirmed against the MHRA register.
 

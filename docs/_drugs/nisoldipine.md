@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Nisoldipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nisoldipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,16 @@ No publications were found for the top-ranked indication. The table below shows 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206020W0AAABAB | Nisoldipine tablets 20 mg modified-release | Modified-release tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020W0AAAAAA | Nisoldipine 10mg modified-release tablets | Nisoldipine |
+| 0206020W0AAABAB | Nisoldipine 20mg modified-release tablets | Nisoldipine |
+| 0206020W0AAACAC | Nisoldipine 30mg modified-release tablets | Nisoldipine |
+| 0206020W0BBAAAA | Syscor MR 10 tablets | Nisoldipine |
+| 0206020W0BBABAB | Syscor MR 20 tablets | Nisoldipine |
+| 0206020W0BBACAC | Syscor MR 30 tablets | Nisoldipine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This record lists one single-ingredient product. The BNF classification code embedded in the identifier suggests the cardiovascular calcium channel blocker section, but no approved indication text is available here.
 

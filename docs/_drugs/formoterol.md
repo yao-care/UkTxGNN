@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Formoterol is a long-acting beta2-adrenergic agonist that relaxes airway smooth 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (66 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 66 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,12 +80,32 @@ None of the retrieved publications addresses respiratory malformation. They conc
 
 ## UK Market Information
 
-Formoterol is currently marketed, with 2 valid licences and none cancelled. The records carry no dosage form or indication text.
+The records carry no dosage form or indication text.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0302000N0AABLBL | Fluticasone/Formoterol inhaler 50/5 mcg, 120 doses | Inhaler (not specified) | Not stated |
-| 0302000C0AABXBX | Beclometasone dipropionate/Formoterol inhaler 100/6 mcg, 120 doses | Inhaler (not specified) | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301011E0AAACAC | Formoterol 12micrograms/dose dry powder inhaler | Formoterol fumarate |
+| 0301011E0AAADAD | Formoterol 12micrograms/dose inhaler CFC free | Formoterol fumarate |
+| 0301011E0AAABAB | Formoterol 6micrograms/dose dry powder inhaler | Formoterol fumarate |
+| 0301040V0AAAAAA | Aclidinium brom 396mcg/dose / Formoterol 11.8mcg/dose DP inh | Aclidinium bromide/formoterol |
+| 0301011E0BDAAAD | Atimos Modulite 12micrograms/dose inhaler | Formoterol fumarate |
+| 0302000ABAAAAAA | Beclometasone 100microg/Formoterol 6microg/dose dry pdr inh | BeclometDiprop/Formoterol |
+| 0302000ABAAABAB | Beclometasone 100microg/Formoterol 6microg/dose inh CFC free | BeclometDiprop/Formoterol |
+| 0302000ABAAACAC | Beclometasone 200microg/Formoterol 6microg/dose dry pdr inh | BeclometDiprop/Formoterol |
+| 0302000ABAAADAD | Beclometasone 200microg/Formoterol 6microg/dose inh CFC free | BeclometDiprop/Formoterol |
+| 0301040AABBAAAA | Bevespi Aerosphere 7.2microg / 5microg/dose pressurised inh | Glycopyrronium/formoterol |
+| 0302000ABBDAAAB | Bibecfo 100micrograms/dose / 6micrograms/dose inhaler | BeclometDiprop/Formoterol |
+| 0302000ABBDABAD | Bibecfo 200micrograms/dose / 6micrograms/dose inhaler | BeclometDiprop/Formoterol |
+| 0302000K0AABCBC | Budesonide 100microg / Formoterol 3microg/dose inh CFC free | Budesonide |
+| 0302000K0AAALAL | Budesonide 100microg / Formoterol 6microg/dose dry pdr inh | Budesonide |
+| 0302000K0AAAMAM | Budesonide 200mcg/dose / Formoterol 6mcg/dose dry powder inh | Budesonide |
+| 0302000K0AABBBB | Budesonide 200microg / Formoterol 6microg/dose inh CFC free | Budesonide |
+| 0302000K0AAAUAU | Budesonide 400mcg/dose /Formoterol 12mcg/dose dry powder inh | Budesonide |
+| 0301040V0BBAAAA | Duaklir 340micrograms/dose / 12micrograms/dose Genuair | Aclidinium bromide/formoterol |
+| 0302000K0BHAAAM | DuoResp Spiromax 160microg/dose / 4.5microg/dose dry pdr inh | Budesonide |
+| 0302000K0BHABAU | DuoResp Spiromax 320microg/dose / 9microg/dose dry pdr inh | Budesonide |
+
+Showing 20 of 66 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

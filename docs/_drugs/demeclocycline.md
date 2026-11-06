@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Demeclocycline"
 predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Demeclocycline: predicted new indication chronic ethmoidal sinusitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **chronic ethmoidal sinusitis**, 
 | Predicted New Indication | chronic ethmoidal sinusitis |
 | TxGNN Prediction Score | 0.9914 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501030F0AAAAAA | Demeclocycline HCl Cap 150mg | Capsule (150 mg, per product name) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501030F0AAAAAA | Demeclocycline 150mg capsules | Demeclocycline hydrochloride |
+| 0501030F0AAAIAI | Demeclocycline 150mg tablets | Demeclocycline hydrochloride |
+| 0501030F0AAAGAG | Demeclocycline 150mg/5ml oral liquid | Demeclocycline hydrochloride |
+| 0501030F0AAAJAJ | Demeclocycline 300mg capsules | Demeclocycline hydrochloride |
+| 0501030F0AAAFAF | Demeclocycline 300mg/5ml oral liquid | Demeclocycline hydrochloride |
+| 0501030F0AAAHAH | Demeclocycline 75mg/5ml oral liquid | Demeclocycline hydrochloride |
+| 0501030F0BBAAAA | Ledermycin 150mg capsules | Demeclocycline hydrochloride |
+| 0501030F0BBABAJ | Ledermycin 300mg capsules | Demeclocycline hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is a BNF-style product code rather than a PL number. Under the BNF, demeclocycline sits in the tetracycline antibacterial section (chapter 5, infections). One single-ingredient record is listed, and it is currently valid.
 

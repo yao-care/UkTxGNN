@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ Currently there are **0 clinical trials** and **3 publications** (all preclinica
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,12 +86,20 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010G0BBACAC | Kaletra Tab 200mg/50mg | Not specified | Not specified |
-| 0503010G0AAADAD | Lopinavir/Ritonavir Tab 100mg/25mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010G0BBADAD | Kaletra 100mg/25mg tablets | Lopinavir and ritonavir |
+| 0503010G0BBAAAA | Kaletra 133.3mg/33.3mg capsules | Lopinavir and ritonavir |
+| 0503010G0BBACAC | Kaletra 200mg/50mg tablets | Lopinavir and ritonavir |
+| 0503010G0BBABAB | Kaletra 80mg/20mg/1ml oral solution | Lopinavir and ritonavir |
+| 0503010G0AAADAD | Lopinavir 100mg / Ritonavir 25mg tablets | Lopinavir and ritonavir |
+| 0503010G0AAAAAA | Lopinavir 133.3mg / Ritonavir 33.3mg capsules | Lopinavir and ritonavir |
+| 0503010G0AAACAC | Lopinavir 200mg / Ritonavir 50mg tablets | Lopinavir and ritonavir |
+| 0503010G0AAABAB | Lopinavir 400mg/5ml / Ritonavir 100mg/5ml oral solution | Lopinavir and ritonavir |
 
-Both authorisations are valid single-ingredient records. The authorisation numbers shown are as listed in the data compiled for this report and are not in the standard MHRA PL format, so they should be verified against the MHRA register. Please check the BNF (section 5.3.1, HIV infection) and the relevant NICE guidance for the current approved indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation numbers shown are as listed in the data compiled for this report and are not in the standard MHRA PL format, so they should be verified against the MHRA register. Please check the BNF (section 5.3.1, HIV infection) and the relevant NICE guidance for the current approved indications.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **classic stiff person syndrome
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,26 @@ Currently no related literature available for the lead prediction. The only publ
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601021A0AAAAAA | Glimepiride Tab 2mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601021A0AAABAB | Glimepiride 1mg tablets | Glimepiride |
+| 0601021A0AAAAAA | Glimepiride 2mg tablets | Glimepiride |
+| 0601021A0AAAGAG | Glimepiride 2mg/5ml oral liquid | Glimepiride |
+| 0601021A0AAACAC | Glimepiride 3mg tablets | Glimepiride |
+| 0601021A0AAADAD | Glimepiride 4mg tablets | Glimepiride |
+| 0601021A0AAAHAH | Glimepiride 6mg/5ml oral suspension | Glimepiride |
+| 0601021A0BBABAB | Amaryl 1mg tablets | Glimepiride |
+| 0601021A0BBAAAA | Amaryl 2mg tablets | Glimepiride |
+| 0601021A0BBACAC | Amaryl 3mg tablets | Glimepiride |
+| 0601021A0BBADAD | Amaryl 4mg tablets | Glimepiride |
+| 0601021A0BCAAAB | Niddaryl 1mg tablets | Glimepiride |
+| 0601021A0BCABAA | Niddaryl 2mg tablets | Glimepiride |
+| 0601021A0BCACAC | Niddaryl 3mg tablets | Glimepiride |
+| 0601021A0BCADAD | Niddaryl 4mg tablets | Glimepiride |
 
-The data compiled for this report show one single-ingredient authorisation (valid). The list is complete.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The list is complete.
 
 ## Safety Considerations
 

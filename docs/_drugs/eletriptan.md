@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Eletriptan is a triptan-class medicine. The TxGNN model predicts it may be relev
 | Predicted New Indication | atrophoderma vermiculata (atrophoderma vermiculata) |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,11 +78,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407041AAAAABAB | Eletriptan Tab 40mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041AAAAAAAA | Eletriptan 20mg tablets | Eletriptan |
+| 0407041AAAAABAB | Eletriptan 40mg tablets | Eletriptan |
+| 0407041AABBAAAA | Relpax 20mg tablets | Eletriptan |
+| 0407041AABBABAB | Relpax 40mg tablets | Eletriptan |
 
-The record lists one valid single-ingredient licence. The reference number is in BNF-style coding rather than a PL number. Indication text is not recorded in the local data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The reference number is in BNF-style coding rather than a PL number. Indication text is not recorded in the local data.
 
 ---
 

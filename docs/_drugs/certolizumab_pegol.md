@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Certolizumab pegol"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ This prediction rests on the model score alone: **no clinical trials** and **no 
 | Predicted New Indication | hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Local regulatory records show the drug as marketed in the UK, with a valid single-ingredient licence (subcutaneous injection, 200 mg/1 mL pre-filled syringe). The licence records carry no indication text or dosage-form details. Check the current SmPC and BNF entries for authorised uses and administration.
+Check the current SmPC and BNF entries for authorised uses and administration.
 
 ## Safety Considerations
 

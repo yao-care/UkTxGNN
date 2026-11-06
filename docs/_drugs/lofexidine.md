@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lofexidine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lofexidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## One-Sentence Summary
 
-Lofexidine is a central alpha-2 adrenergic agonist with one marketing authorisation recorded in the UK, but no approved indication text was available in the data compiled for this report.
+Lofexidine is a central alpha-2 adrenergic agonist, but no approved indication text was available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **migraine disorder**, but the prediction is not backed by any clinical trials, and only **1 publication** (a drug-review article) is linked to it.
 
 ## Quick Overview
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but the 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,12 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0410030D0AAAAAA (BNF code) | Lofexidine HCl Tablets 0.2 mg | Tablet | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0410030D0AAAAAA | Lofexidine 200microgram tablets | Lofexidine hydrochloride |
+| 0410030D0BBAAAA | BritLofex 200microgram tablets | Lofexidine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -99,7 +102,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (evidence level L5). There are no registered trials and no publications on lofexidine in migraine. The UK authorisation record lacks indication text, and mechanism and label safety data are missing.
+The prediction rests on model output alone (evidence level L5). There are no registered trials and no publications on lofexidine in migraine. Mechanism and label safety data are missing.
 
 **To proceed, the following is needed:**
 - The SmPC warnings and contraindications, which are currently blocking any safety screening

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,11 +77,32 @@ Currently no related literature available for opsismodysplasia.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601023B0AAAAAA | Pioglitazone HCl Tab 15mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601023B0AAAAAA | Pioglitazone 15mg tablets | Pioglitazone hydrochloride |
+| 0601023B0AAAEAE | Pioglitazone 15mg/5ml oral suspension | Pioglitazone hydrochloride |
+| 0601023B0AAABAB | Pioglitazone 30mg tablets | Pioglitazone hydrochloride |
+| 0601023B0AAADAD | Pioglitazone 30mg/5ml oral suspension | Pioglitazone hydrochloride |
+| 0601023B0AAACAC | Pioglitazone 45mg tablets | Pioglitazone hydrochloride |
+| 0601023B0AAAFAF | Pioglitazone 45mg/5ml oral suspension | Pioglitazone hydrochloride |
+| 0601023B0BBAAAA | Actos 15mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BBABAB | Actos 30mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BBACAC | Actos 45mg tablets | Pioglitazone hydrochloride |
+| 0601023W0BBAAAA | Competact 15mg/850mg tablets | Metformin hydrochloride/pioglitazone |
+| 0601023B0BEAAAA | Diabiom 15mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BEABAB | Diabiom 30mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BEACAC | Diabiom 45mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BDACAA | Glidipion 15mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BDAAAB | Glidipion 30mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BDABAC | Glidipion 45mg tablets | Pioglitazone hydrochloride |
+| 0601023B0BCADAA | Glizofar 15mg tablets (Arrow) | Pioglitazone hydrochloride |
+| 0601023B0BCAAAA | Glizofar 15mg tablets (Teva) | Pioglitazone hydrochloride |
+| 0601023B0BCAEAB | Glizofar 30mg tablets (Arrow) | Pioglitazone hydrochloride |
+| 0601023B0BCABAB | Glizofar 30mg tablets (Teva) | Pioglitazone hydrochloride |
 
-Only one single-ingredient authorisation is recorded. The identifier is not in standard MHRA "PL" format, and the approved indication text is not available. Please verify against the MHRA register and the BNF (Section 6.1.2, thiazolidinediones).
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in standard MHRA "PL" format, and the approved indication text is not available. Please verify against the MHRA register and the BNF (Section 6.1.2, thiazolidinediones).
 
 ## Safety Considerations
 

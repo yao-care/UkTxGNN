@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 63
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Anagrelide: predicted new indication Reactive thrombocytosis (evidence level L4). Approved use: Thrombocythaemia"
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **reactive thrombocytosis**, bu
 | Predicted New Indication | Reactive thrombocytosis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,12 @@ The publications mainly concern essential thrombocythaemia (ET) and anagrelide g
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901040A0AAAAAA | Anagrelide HCl capsule 500 mcg | Capsule | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901040A0AAAAAA | Anagrelide 500microgram capsules | Anagrelide hydrochloride |
+| 0901040A0BDAAAA | Xagrid 500microgram capsules | Anagrelide hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: The authorisation number shown is as held in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA record.
 

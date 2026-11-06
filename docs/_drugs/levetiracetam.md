@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Levetiracetam is an antiseizure medication, originally used to treat partial epi
 | Predicted New Indication | Beta-ketothiolase deficiency |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (44 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 44 |
 | Recommended Decision | Proceed with Guardrails |
 
 Other reflex-seizure predictions are summarised briefly at the end.
@@ -96,11 +96,32 @@ Two further trials (NCT02726867, NCT00603135) were withdrawn with no participant
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010A0AAAAAA | Levetiracetam Tab 250mg | Tablet (not stated in the compiled data) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010A0AAATAT | Levetiracetam 1.5g gran for soln sachets sugar free | Levetiracetam |
+| 0408010A0AAARAR | Levetiracetam 1.5g/100ml infusion bags | Levetiracetam |
+| 0408010A0AAAHAH | Levetiracetam 100mg/ml oral solution sugar free | Levetiracetam |
+| 0408010A0AAAUAU | Levetiracetam 1g gran for soln sachets sugar free | Levetiracetam |
+| 0408010A0AAAMAM | Levetiracetam 1g granules sachets sugar free | Levetiracetam |
+| 0408010A0AAACAC | Levetiracetam 1g tablets | Levetiracetam |
+| 0408010A0AAAQAQ | Levetiracetam 1g/100ml infusion bags | Levetiracetam |
+| 0408010A0AAAVAV | Levetiracetam 250mg gran for soln sachets sugar free | Levetiracetam |
+| 0408010A0AAAKAK | Levetiracetam 250mg granules sachets sugar free | Levetiracetam |
+| 0408010A0AAAAAA | Levetiracetam 250mg tablets | Levetiracetam |
+| 0408010A0AAAFAF | Levetiracetam 250mg/5ml oral liquid | Levetiracetam |
+| 0408010A0AAADAD | Levetiracetam 300mg/5ml oral liquid | Levetiracetam |
+| 0408010A0AAAEAE | Levetiracetam 400mg/5ml oral liquid | Levetiracetam |
+| 0408010A0AAAWAW | Levetiracetam 500mg gran for soln sachets sugar free | Levetiracetam |
+| 0408010A0AAALAL | Levetiracetam 500mg granules sachets sugar free | Levetiracetam |
+| 0408010A0AAAXAX | Levetiracetam 500mg orodispersible tablets sugar free | Levetiracetam |
+| 0408010A0AAABAB | Levetiracetam 500mg tablets | Levetiracetam |
+| 0408010A0AAAPAP | Levetiracetam 500mg/100ml infusion bags | Levetiracetam |
+| 0408010A0AAANAN | Levetiracetam 500mg/5ml solution for infusion ampoules | Levetiracetam |
+| 0408010A0AAAJAJ | Levetiracetam 500mg/5ml solution for infusion vials | Levetiracetam |
 
-Only one authorisation record is available, and it is a tablet product. It does not include the intravenous formulation used in status epilepticus. The record does not state a licence number in MHRA format, dosage form or approved indication, so these should be checked against the SmPC, MHRA and the BNF.
+Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It does not include the intravenous formulation used in status epilepticus.
 
 ## Safety Considerations
 

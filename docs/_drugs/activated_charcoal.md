@@ -5,7 +5,7 @@ layout: default
 title: Activated Charcoal
 parent: Known Uses Only (No New Predictions)
 nav_order: 23
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Activated Charcoal: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Activated charcoal"
 predicted_indications: []
@@ -43,19 +43,35 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1902070E0AAAJAJ | Activated Charcoal Oral Suspension 1.04 g/5 ml | Oral suspension | Not stated in the compiled data |
-| 1902070E0AAABAB | Charcoal Tablet | Tablet | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1902070E0AAAJAJ | Activated charcoal 1.04g/5ml oral suspension | Charcoal |
+| 1902070E0AAAHAH | Activated charcoal 200mg capsules | Charcoal |
+| 1902070E0AAALAL | Activated charcoal 200mg/ml oral suspension sugar free | Charcoal |
+| 1902070E0AAAMAM | Activated charcoal 300mg capsules | Charcoal |
+| 1902070E0AAABAB | Activated charcoal 300mg tablets | Charcoal |
+| 1902070E0AAAIAI | Activated charcoal 5g effervescent granules sachets | Charcoal |
+| 1902070E0AAAGAG | Activated charcoal 81.3% gran for gastroenteral or susp SF | Charcoal |
+| 1902070E0BJAAAJ | Actidose-Aqua Advance 1.04g/5ml oral suspension | Charcoal |
+| 1902070E0AAAAAA | Activated charcoal biscuits | Charcoal |
+| 1902070E0BEAAAG | Carbomix 81.3% granules for oral suspension | Charcoal |
+| 1902070E0BLAAAL | Charcodote 200mg/ml oral suspension | Charcoal |
+| 1902070E0BBACAM | J.L. Bragg's Charcoal capsules | Charcoal |
+| 1902070E0BBAAAA | J.L. Bragg's Medicinal Charcoal biscuits | Charcoal |
+| 1902070E0BBABAB | J.L. Bragg's Medicinal Charcoal tablets | Charcoal |
+| 1902070E0BIAAAI | Medicoal 5g effervescent granules sachets | Charcoal |
+| 1902070E0BFAAAH | Norit 200mg capsules | Charcoal |
 
-Both products are listed as valid single-ingredient products. The identifiers shown are product codes from the compiled data rather than PL numbers. Please check the current MHRA and BNF entries for licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown are product codes from the compiled data rather than PL numbers. Please check the current MHRA and BNF entries for licensed indications.
 
 ---
 

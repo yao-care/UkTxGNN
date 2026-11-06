@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nefopam"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
@@ -50,8 +50,8 @@ Nefopam is a centrally acting non-opioid analgesic that is currently marketed in
 | Predicted New Indication | Immature cataract |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,17 @@ For context, among the other predictions for nefopam, only lumbar spinal stenosi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407010P0AAABAB (as recorded; this is in BNF-style code format, not a PL number) | Nefopam HCl Tab 30mg | Tablet (from product name) | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407010P0AAAAAA | Nefopam 20mg/1ml solution for injection ampoules | Nefopam hydrochloride |
+| 0407010P0AAAEAE | Nefopam 20mg/5ml oral suspension | Nefopam hydrochloride |
+| 0407010P0AAABAB | Nefopam 30mg tablets | Nefopam hydrochloride |
+| 0407010P0AAAFAF | Nefopam 30mg/5ml oral suspension | Nefopam hydrochloride |
+| 0407010P0AAAGAG | Nefopam 60mg tablets | Nefopam hydrochloride |
+| 0407010P0BBABAA | Acupan 20mg/1ml solution for injection ampoules | Nefopam hydrochloride |
+| 0407010P0BBAAAB | Acupan 30mg tablets | Nefopam hydrochloride |
 
-This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication could not be confirmed from the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

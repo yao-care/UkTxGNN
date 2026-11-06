@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and **no publications*
 | Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (101 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 101 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,11 +81,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601022B0AAABAB | Metformin HCl Tablets 500 mg | Tablet (inferred from product name; not stated in the record) | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601022B0AAAVAV | Metformin 1g modified-release tablets | Metformin hydrochloride |
+| 0601022B0AAAXAX | Metformin 1g oral powder sachets sugar free | Metformin hydrochloride |
+| 0601022B0AABABA | Metformin 1g tablets | Metformin hydrochloride |
+| 0601022B0AAAMAM | Metformin 1g/5ml oral solution | Metformin hydrochloride |
+| 0601022B0AAAYAY | Metformin 1g/5ml oral solution sugar free | Metformin hydrochloride |
+| 0601022B0AAAKAK | Metformin 250mg/5ml oral liquid | Metformin hydrochloride |
+| 0601022B0AAALAL | Metformin 425mg/5ml oral liquid | Metformin hydrochloride |
+| 0601022B0AAASAS | Metformin 500mg modified-release tablets | Metformin hydrochloride |
+| 0601022B0AAAWAW | Metformin 500mg oral powder sachets sugar free | Metformin hydrochloride |
+| 0601022B0AAABAB | Metformin 500mg tablets | Metformin hydrochloride |
+| 0601022B0AAAIAI | Metformin 500mg/5ml oral liquid | Metformin hydrochloride |
+| 0601022B0AAARAR | Metformin 500mg/5ml oral solution sugar free | Metformin hydrochloride |
+| 0601022B0AAANAN | Metformin 5mg/5ml oral solution | Metformin hydrochloride |
+| 0601022B0AAATAT | Metformin 750mg modified-release tablets | Metformin hydrochloride |
+| 0601022B0AAAQAQ | Metformin 850mg capsules | Metformin hydrochloride |
+| 0601022B0AABBBB | Metformin 850mg modified-release tablets | Metformin hydrochloride |
+| 0601022B0AAADAD | Metformin 850mg tablets | Metformin hydrochloride |
+| 0601022B0AAAJAJ | Metformin 850mg/5ml oral liquid | Metformin hydrochloride |
+| 0601022B0AAAZAZ | Metformin 850mg/5ml oral solution sugar free | Metformin hydrochloride |
+| 0601023AJAAAAAA | Alogliptin 12.5mg / Metformin 1g tablets | Alogliptin/metformin |
 
-The record is a single valid, single-ingredient product. The identifier is not in the standard MHRA "PL" format and may be a BNF-style product code, so it should be checked against the MHRA register. NICE-appraised indications could not be cross-referenced from the data compiled for this report.
+Showing 20 of 101 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the standard MHRA "PL" format and may be a BNF-style product code, so it should be checked against the MHRA register. NICE-appraised indications could not be cross-referenced from the data compiled for this report.
 
 ## Safety Considerations
 

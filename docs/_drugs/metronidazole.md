@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (50 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 50 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,11 +90,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501110C0AAAGAG | Metronidazole suppository 500 mg | Suppository (inferred from product name) | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310012K0AAAXAX | Metronidazole 0.75% cream | Metronidazole |
+| 1310012K0AAARAR | Metronidazole 0.75% gel | Metronidazole |
+| 0702020X0AAAAAA | Metronidazole 0.75% vaginal gel | Metronidazole |
+| 1310012K0AAAQAQ | Metronidazole 0.8% gel | Metronidazole |
+| 1310012K0AABHBH | Metronidazole 0.85% gel | Metronidazole |
+| 1310012K0AABJBJ | Metronidazole 1% cream | Metronidazole |
+| 1310012K0AABIBI | Metronidazole 10% ointment | Metronidazole |
+| 0501110C0AAADAD | Metronidazole 100mg/20ml solution for infusion ampoules | Metronidazole |
+| 0501110C0AABLBL | Metronidazole 100mg/5ml oral liquid | Metronidazole |
+| 0501110C0AABTBT | Metronidazole 100mg/5ml oral suspension | Metronidazole |
+| 0501110C0AAAHAH | Metronidazole 1g suppositories | Metronidazole |
+| 1310012K0AAAEAE | Metronidazole 2% cream | Metronidazole |
+| 0501110C0AABJBJ | Metronidazole 200mg suppositories | Metronidazole |
+| 0501110C0AAAIAI | Metronidazole 200mg tablets | Metronidazole |
+| 0501110C0AABQBQ | Metronidazole 200mg/5ml oral solution | Metronidazole |
+| 0501110C0AAAEAE | Metronidazole 200mg/5ml oral suspension | Metronidazole |
+| 1203020J0AAAAAA | Metronidazole 25% oromucosal gel sugar free | Metronidazole |
+| 0501110C0AAAJAJ | Metronidazole 400mg tablets | Metronidazole |
+| 0501110C0AAAGAG | Metronidazole 500mg suppositories | Metronidazole |
+| 0501110C0AABHBH | Metronidazole 500mg tablets | Metronidazole |
 
-Only one single-ingredient authorisation record is available, and it is currently valid. The identifier does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register before being relied on. Indication text and NICE or BNF classification details are not available here.
+Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register before being relied on. Indication text and NICE or BNF classification details are not available here.
 
 ---
 

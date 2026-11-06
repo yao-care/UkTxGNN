@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Filgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Constitutional neutropenia"
 monitor_inn: "Filgrastim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **primary release disorder of p
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (26 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 26 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,30 @@ For the related, lower-ranked prediction **platelet-type bleeding disorder** (sc
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901060I0AAAMAM | Filgrastim injection 48 MU/0.5 mL (pre-filled syringe) | Injection | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901060I0AAAPAP | Filgrastim 12million units/0.2ml inj pre-filled syringes | Filgrastim |
+| 0901060I0AAALAL | Filgrastim 30million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0AAAAAA | Filgrastim 30million units/1ml solution for injection vials | Filgrastim |
+| 0901060I0AAAMAM | Filgrastim 48million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0AAANAN | Filgrastim 48million units/0.8ml inj pre-filled syringes | Filgrastim |
+| 0901060I0AAABAB | Filgrastim 48million units/1.6ml inj vials | Filgrastim |
+| 0901060I0AAAQAQ | Filgrastim 70million units/0.73ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BGACAP | Accofil 12million units/0.2ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BGAAAL | Accofil 30million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BGABAM | Accofil 48million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BGADAQ | Accofil 70million units/0.73ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BBAAAA | Neupogen 30million units/1ml solution for injection vials | Filgrastim |
+| 0901060I0BBABAB | Neupogen 48million units/1.6ml solution for injection vials | Filgrastim |
+| 0901060I0BBAEAL | Neupogen Singleject 30million units/0.5ml inj pfs | Filgrastim |
+| 0901060I0BBAFAM | Neupogen Singleject 48million units/0.5ml inj pfs | Filgrastim |
+| 0901060I0BEAAAP | Nivestim 12million units/0.2ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BEABAL | Nivestim 30million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BEACAM | Nivestim 48million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BCAAAL | Ratiograstim 30million units/0.5ml inj pre-filled syringes | Filgrastim |
+| 0901060I0BCABAN | Ratiograstim 48million units/0.8ml inj pre-filled syringes | Filgrastim |
+
+Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is as listed in the compiled data and does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register.
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,11 +96,23 @@ The direct citalopram evidence is modest. It consists of open-label paediatric a
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403030Z0AAAAAA | Citalopram HCl oral drops 40 mg/ml S/F | Oral drops | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403030D0AAABAB | Citalopram 10mg tablets | Citalopram hydrobromide |
+| 0403030D0AAAGAG | Citalopram 10mg/5ml oral suspension | Citalopram hydrobromide |
+| 0403030D0AAAAAA | Citalopram 20mg tablets | Citalopram hydrobromide |
+| 0403030D0AAADAD | Citalopram 20mg/5ml oral suspension | Citalopram hydrobromide |
+| 0403030D0AAAMAM | Citalopram 30mg tablets | Citalopram hydrobromide |
+| 0403030D0AAACAC | Citalopram 40mg tablets | Citalopram hydrobromide |
+| 0403030Z0AAAAAA | Citalopram 40mg/ml oral drops sugar free | Citalopram hydrochloride |
+| 0403030D0BBABAB | Cipramil 10mg tablets | Citalopram hydrobromide |
+| 0403030D0BBAAAA | Cipramil 20mg tablets | Citalopram hydrobromide |
+| 0403030D0BBACAC | Cipramil 40mg tablets | Citalopram hydrobromide |
+| 0403030Z0BBAAAA | Cipramil 40mg/ml drops | Citalopram hydrochloride |
 
-The data lists one valid single-ingredient licence. The identifier shown is a BNF-style product code rather than a "PL" number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is a BNF-style product code rather than a "PL" number.
 
 ---
 

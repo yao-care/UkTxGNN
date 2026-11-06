@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L5). Approved use: Congestive heart failure"
 monitor_inn: "Bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acute pulmonary heart disease
 | Predicted New Indication | Acute pulmonary heart disease |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (model prediction only; no studies specific to the predicted indication) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,9 +89,21 @@ None of these publications studies bumetanide specifically in acute pulmonary he
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202020D0AAAEAE | Bumetanide tablets 1 mg | Tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202020D0AAAEAE | Bumetanide 1mg tablets | Bumetanide |
+| 0202020D0AAADAD | Bumetanide 1mg/5ml oral solution sugar free | Bumetanide |
+| 0202020D0AAABAB | Bumetanide 2mg/4ml solution for injection ampoules | Bumetanide |
+| 0202020D0AAAFAF | Bumetanide 5mg tablets | Bumetanide |
+| 0202020D0AAAGAG | Bumetanide 5mg/5ml oral suspension | Bumetanide |
+| 0202040D0AAAAAA | Amiloride 5mg / Bumetanide 1mg tablets | Amiloride hydrochloride with loop diuretics |
+| 0202080C0AAAAAA | Bumetanide 500microg/Pot chlor 573mg (pot 7.7mmol) MR tab | Bumetanide/potassium |
+| 0202020D0BBAAAE | Burinex 1mg tablets | Bumetanide |
+| 0202020D0BBABAF | Burinex 5mg tablets | Bumetanide |
+| 0202040D0BBAAAA | Burinex A 5mg/1mg tablets | Amiloride hydrochloride with loop diuretics |
+| 0202080C0BBAAAA | Burinex K modified-release tablets | Bumetanide/potassium |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Please check the BNF classification and the current SmPC for the authorised indications. Whether NICE has appraised any indication was not covered by the data compiled for this report.
 

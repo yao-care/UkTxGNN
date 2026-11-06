@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Entacapone: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease and related parkinsonian syndromes"
 monitor_inn: "Entacapone"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (35 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 35 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010V0AAAAAA | Entacapone Tab 200 mg | Tablet (200 mg, from product name) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010V0AAAAAA | Entacapone 200mg tablets | Entacapone |
+| 0409010V0AAACAC | Entacapone 200mg/5ml oral suspension | Entacapone |
+| 0409010V0AAABAB | Entacapone 400mg/5ml oral liquid | Entacapone |
+| 0409010V0BBAAAA | Comtess 200mg tablets | Entacapone |
+| 0409010X0AAABAB | Levodopa 100mg / Carbidopa 25mg / Entacapone 200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0AAAFAF | Levodopa 125mg / Carbidopa 31.25mg / Entacapone 200mg tab | Levodopa/carbidopa/entacapone |
+| 0409010X0AAACAC | Levodopa 150mg / Carbidopa 37.5mg / Entacapone 200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0AAAGAG | Levodopa 175mg / Carbidopa 43.75mg / Entacapone 200mg tab | Levodopa/carbidopa/entacapone |
+| 0409010X0AAADAD | Levodopa 200mg / Carbidopa 50mg / Entacapone 200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0AAAAAA | Levodopa 50mg / Carbidopa 12.5mg / Entacapone 200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0AAAEAE | Levodopa 75mg / Carbidopa 18.75mg / Entacapone 200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAHAB | Sastravi 100mg/25mg/200mg tablets (Accord Healthcare Ltd) | Levodopa/carbidopa/entacapone |
+| 0409010X0BCADAB | Sastravi 100mg/25mg/200mg tablets (Actavis UK Ltd) | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAAAF | Sastravi 125mg/31.25mg/200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAEAC | Sastravi 150mg/37.5mg/200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAJAG | Sastravi 175mg/43.75mg/200mg tablets (Accord Healthcare Ltd) | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAFAG | Sastravi 175mg/43.75mg/200mg tablets (Actavis UK Ltd) | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAGAD | Sastravi 200mg/50mg/200mg tablets | Levodopa/carbidopa/entacapone |
+| 0409010X0BCAIAA | Sastravi 50mg/12.5mg/200mg tablets (Accord Healthcare Ltd) | Levodopa/carbidopa/entacapone |
+| 0409010X0BCABAA | Sastravi 50mg/12.5mg/200mg tablets (Actavis UK Ltd) | Levodopa/carbidopa/entacapone |
 
-The compiled data lists one valid single-ingredient authorisation. The identifier shown follows a non-MHRA format, so the PL number should be checked against the MHRA register. The BNF and NICE guidance should be consulted for the approved indication.
+Showing 20 of 35 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown follows a non-MHRA format, so the PL number should be checked against the MHRA register. The BNF and NICE guidance should be consulted for the approved indication.
 
 ## Safety Considerations
 

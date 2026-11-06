@@ -5,7 +5,7 @@ layout: default
 title: Capsaicin
 parent: Known Uses Only (No New Predictions)
 nav_order: 129
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Capsaicin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Capsaicin"
 predicted_indications: []
@@ -43,14 +43,22 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1003020AAAAAAAA | Capsaicin cream 0.075% | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1003020AAAAACAC | Capsaicin 0.006% cream | Capsaicin |
+| 1003020AAAAABAB | Capsaicin 0.025% cream | Capsaicin |
+| 1003020AAAAAAAA | Capsaicin 0.075% cream | Capsaicin |
+| 1003020AAAAADAD | Capsaicin 179mg cutaneous patches | Capsaicin |
+| 1003020AABCAAAA | Axsain 0.075% cream | Capsaicin |
+| 1003020AABEAAAD | Qutenza 179mg cutaneous patches | Capsaicin |
+| 1003020AABDAAAB | Zacin 0.025% cream | Capsaicin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF.
 

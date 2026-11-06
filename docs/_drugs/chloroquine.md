@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L4). Approved use: Rheumatoid arthritis, systemic and discoid lupus erythe…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -48,8 +48,8 @@ Chloroquine is an antimalarial that is also used in rheumatoid arthritis and lup
 | Predicted New Indication | Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 *Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
@@ -87,12 +87,24 @@ For closely related JIA terms, the most relevant publications involving chloroqu
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0504010Z0BBAAAA (BNF code) | Paludrine/Avloclor tablets 100/250 mg | Tablet | Not available in the data compiled |
-| 0504010Z0AAAAAA (BNF code) | Chloroquine/Proguanil tablets 250/100 mg | Tablet | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0504010F0AAABAB | Chloroquine phosphate 250mg tablets | Chloroquine phosphate |
+| 0504010F0AAAAAA | Chloroquine phosphate 80mg/5ml oral solution | Chloroquine phosphate |
+| 0504010G0AAACAC | Chloroquine sulfate 200mg tablets | Chloroquine sulfate |
+| 0504010G0AAAAAA | Chloroquine sulfate 200mg/5ml inj ampoules | Chloroquine sulfate |
+| 0504010G0AAAFAF | Chloroquine sulfate 68mg/5ml oral solution | Chloroquine sulfate |
+| 0504010F0BBABAB | Avloclor 250mg tablets | Chloroquine phosphate |
+| 0504010Z0AAAAAA | Chloroquine phosphate 250mg tab and Proguanil 100mg tab | Chloroquine phosphate with proguanil hydrochloride |
+| 0504010F0BCAAAA | Malarivon 80mg/5ml syrup | Chloroquine phosphate |
+| 0504010G0BBAAAC | Nivaquine 200mg tablets | Chloroquine sulfate |
+| 0504010G0BBACAA | Nivaquine 200mg/5ml solution for injection ampoules | Chloroquine sulfate |
+| 0504010G0BBABAF | Nivaquine 68mg/5ml syrup | Chloroquine sulfate |
+| 0504010Z0BBAAAA | Paludrine/Avloclor tablets anti-malarial travel pack | Chloroquine phosphate with proguanil hydrochloride |
 
-Both entries are single-ingredient authorisations with valid status. They are listed here by BNF classification code (antimalarials, section 5.4.1); PL numbers and approved indication wording were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+They are listed here by BNF classification code (antimalarials, section 5.4.1); PL numbers and approved indication wording were not available.
 
 ## Cytotoxicity
 

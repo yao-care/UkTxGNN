@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -42,7 +42,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Aspirin (acetylsalicylic acid) is a well-established analgesic, antipyretic, and antiplatelet agent with decades of clinical use across multiple indications.
 However, this Evidence Pack contains **no predicted new indications** and carries two flagged data gaps at Blocking and High severity, meaning a complete drug repurposing evaluation cannot be performed at this time.
-UK regulatory records returned zero marketing authorisations, which is inconsistent with Aspirin's known presence in the UK market and almost certainly reflects a data retrieval failure rather than true market absence.
 
 ---
 
@@ -54,21 +53,40 @@ UK regulatory records returned zero marketing authorisations, which is inconsist
 | Predicted New Indication | None — `predicted_indications` list is empty |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | L5 — No predictions generated; cannot be assessed |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (78 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 78 |
 | Recommended Decision | **Hold** |
 
 ---
 
 ## UK Market Information
 
-No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is inconsistent with the known UK market: aspirin-containing products hold numerous MHRA marketing authorisations covering indications including analgesia, antipyresis, and secondary prevention of cardiovascular events, and are listed throughout the BNF (sections 2.9 and 4.7.1).
-
 A re-query against the MHRA Product Licence database is strongly recommended before proceeding.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|-------------------------------|--------------|-------------|---------------------|
-| — | No records returned | — | Re-query required |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407010B0AAAWAW | Acetylsalicylic acid mixture | Aspirin |
+| 0209000A0AAA5A5 | Aspirin 100mg/5ml oral liquid | Aspirin |
+| 0407010B0AABCBC | Aspirin 150mg suppositories | Aspirin |
+| 0209000A0AABHBH | Aspirin 15mg/5ml oral liquid | Aspirin |
+| 0209000A0AABJBJ | Aspirin 225mg/5ml oral liquid | Aspirin |
+| 0209000A0AAATAT | Aspirin 25mg capsules | Aspirin |
+| 0209000A0AABABA | Aspirin 25mg/5ml oral liquid | Aspirin |
+| 0407010B0AAAEAE | Aspirin 300mg dispersible tablets | Aspirin |
+| 0407010B0AACCCC | Aspirin 300mg effervescent tablets sugar free | Aspirin |
+| 0407010B0AAA3A3 | Aspirin 300mg gastro-resistant tablets | Aspirin |
+| 0407010B0AACGCG | Aspirin 300mg modified-release tablets | Aspirin |
+| 0407010B0AAANAN | Aspirin 300mg orodispersible tablets sugar free | Aspirin |
+| 0407010B0AABEBE | Aspirin 300mg suppositories | Aspirin |
+| 0407010B0AAAFAF | Aspirin 300mg tablets | Aspirin |
+| 0407010B0AAABAB | Aspirin 300mg/5ml oral liquid | Aspirin |
+| 0209000A0AABFBF | Aspirin 30mg/5ml oral liquid | Aspirin |
+| 0209000A0AACCCC | Aspirin 37.5mg oral powder sachets | Aspirin |
+| 0209000A0AABIBI | Aspirin 37.5mg/5ml oral liquid | Aspirin |
+| 0209000A0AACDCD | Aspirin 40mg oral powder sachets | Aspirin |
+| 0209000A0AABBBB | Aspirin 40mg/5ml oral liquid | Aspirin |
+
+Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 
@@ -93,7 +111,6 @@ The Evidence Pack is functionally incomplete — no predicted indications were g
 - **Re-run TxGNN prediction pipeline** once the DrugBank ID is resolved
 - **Resolve DG001** — retrieve SmPC warnings and contraindications from the MHRA website or eMC (https://www.medicines.org.uk/emc/)
 - **Resolve DG002** — retrieve mechanism of action data via DrugBank API using `DB00945`
-- **Re-query MHRA Product Licence database** to populate UK marketing authorisation records
 - **Re-generate this Evidence Pack** (version v5 or later) once all inputs are confirmed and the pipeline completes successfully
 
 ---

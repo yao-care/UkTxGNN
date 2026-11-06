@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Levamisole"
 predicted_indications: ["drug-induced osteoporosis", "benign neoplasm of tongue", "cervical neuroblastoma", "epiglottis neoplasm", "benign neoplasm of buccal mucosa", "cystic neoplasm", "benign neoplasm of floor of mouth", "schwannoma of jugular foramen", "benign neoplasm of hypopharynx", "abducens nerve neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Levamisole: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Ascaridiasis and ancylostomiasis"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,14 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0505020L0AAABAB | Levamisole HCl Tab 50mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0505020L0AAAFAF | Levamisole 25mg tablets | Levamisole hydrochloride |
+| 0505020L0AAABAB | Levamisole 50mg tablets | Levamisole hydrochloride |
+| 0505020L0AAAGAG | Levamisole 50mg/5ml oral suspension | Levamisole hydrochloride |
+| 0505020L0BCAAAB | Ergamisol 50mg tablets | Levamisole hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is a single-ingredient product record. The list is complete (1 of 1). The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register.
 

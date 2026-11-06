@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
 description: "Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Among the other predicted indications, **Raynaud disease** and **migraine** have
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,11 +89,24 @@ There is no literature for the top-ranked prediction (hypotrichosis simplex of t
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205040V0AAABAB | Terazosin HCl Tab 2mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205040V0AAADAD | Terazosin 10mg tablets | Terazosin hydrochloride |
+| 0205040V0AAABAB | Terazosin 2mg tablets | Terazosin hydrochloride |
+| 0205040V0AAAAAA | Terazosin 2mg tablets and Terazosin 1mg tablets | Terazosin hydrochloride |
+| 0205040V0AAACAC | Terazosin 5mg tablets | Terazosin hydrochloride |
+| 0205040V0BCAAAB | Benph 2mg tablets | Terazosin hydrochloride |
+| 0205040V0BCABAC | Benph 5mg tablets | Terazosin hydrochloride |
+| 0704010T0AAAEAE | Generic Hytrin BPH tablets starter pack | Terazosin hydrochloride |
+| 0205040V0BBADAD | Hytrin 10mg tablets | Terazosin hydrochloride |
+| 0205040V0BBABAB | Hytrin 2mg tablets | Terazosin hydrochloride |
+| 0205040V0BBACAC | Hytrin 5mg tablets | Terazosin hydrochloride |
+| 0704010T0BBAEAE | Hytrin BPH tablets starter pack | Terazosin hydrochloride |
+| 0205040V0BBAEAA | Hytrin tablets starter pack | Terazosin hydrochloride |
 
-One single-ingredient authorisation is recorded as valid. Indication text and dosage form are not available in the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Indication text and dosage form are not available in the data compiled for this report.
 
 ---
 

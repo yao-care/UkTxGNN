@@ -5,7 +5,7 @@ layout: default
 title: Digitoxin
 parent: Known Uses Only (No New Predictions)
 nav_order: 225
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Digitoxin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Digitoxin"
 predicted_indications: []
@@ -43,14 +43,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (1 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0201010D0AAAAAA | Digitoxin Tab 100mcg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0201010D0AAAAAA | Digitoxin 100microgram tablets | Digitoxin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier appears to be a BNF-style product code (BNF chapter 2.1.1, cardiac glycosides) rather than a standard PL number. Licence-level details such as indication and dosage form are not available.
 

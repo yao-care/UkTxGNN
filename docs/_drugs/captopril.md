@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L4). Approved use: Hypertension, hypertensive disorder and diabetic nephropathy"
 monitor_inn: "Captopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9928 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (78 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 78 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,11 +81,30 @@ Three other predicted indications were assessed. None has enough evidence to sup
 
 ## UK Market Information
 
-One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved indication text.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051F0AABVBV | Captopril 1.25mg/5ml oral liquid | Captopril |
+| 0205051F0AABKBK | Captopril 1.5mg capsules | Captopril |
+| 0205051F0AACNCN | Captopril 1.5mg/5ml oral liquid | Captopril |
+| 0205051F0AADDDD | Captopril 1.6mg/5ml oral solution | Captopril |
+| 0205051F0AADGDG | Captopril 1.75mg/5ml oral solution | Captopril |
+| 0205051F0AADCDC | Captopril 100mg/5ml oral solution | Captopril |
+| 0205051F0AACCCC | Captopril 100micrograms/5ml oral solution | Captopril |
+| 0205051F0AABRBR | Captopril 10mg/5ml oral liquid | Captopril |
+| 0205051F0AADQDQ | Captopril 11.25mg/5ml oral liquid | Captopril |
+| 0205051F0AAADAD | Captopril 12.5mg tablets | Captopril |
+| 0205051F0AABTBT | Captopril 12.5mg/5ml oral liquid | Captopril |
+| 0205051F0AADFDF | Captopril 12mg/5ml oral solution | Captopril |
+| 0205051F0AACXCX | Captopril 15.625mg/5ml oral solution | Captopril |
+| 0205051F0AACGCG | Captopril 15mg/5ml oral liquid | Captopril |
+| 0205051F0AADJDJ | Captopril 17.5mg/5ml oral solution | Captopril |
+| 0205051F0AADPDP | Captopril 17mg/5ml oral liquid | Captopril |
+| 0205051F0AACZCZ | Captopril 18.5mg/5ml oral solution | Captopril |
+| 0205051F0AACJCJ | Captopril 1mg/5ml oral liquid | Captopril |
+| 0205051F0AABYBY | Captopril 2.5mg/5ml oral liquid | Captopril |
+| 0205051F0AABPBP | Captopril 20mg/5ml oral liquid | Captopril |
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051F0AAADAD | Captopril Tablets 12.5 mg | Tablet | Not stated in the available record |
+Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

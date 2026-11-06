@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ergocalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Ergocalciferol is a vitamin D2 preparation (a nutritional vitamin D analogue) with one UK licence recorded in the local data.
+Ergocalciferol is a vitamin D2 preparation (a nutritional vitamin D analogue).
 The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Campailla Martinelli type**,
 but **no clinical trials and no publications** were found for this disease, so the prediction rests on the model alone.
 
@@ -52,8 +52,8 @@ but **no clinical trials and no publications** were found for this disease, so t
 | Predicted New Indication | acromesomelic dysplasia, Campailla Martinelli type |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (83 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 83 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,9 +80,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906040N0AAEWEW | Ergocalciferol Tab 12.5mcg | Tablet (strength given in product name) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906040N0AAFGFG | Ergocalciferol 1,000units/5ml oral solution | Ergocalciferol |
+| 0906040N0AADCDC | Ergocalciferol 1,000units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAEAEA | Ergocalciferol 1,250units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAELEL | Ergocalciferol 1,400units/5ml oral liquid | Ergocalciferol |
+| 0906040N0AADIDI | Ergocalciferol 1,500units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAFMFM | Ergocalciferol 1,500units/ml oral solution sugar free | Ergocalciferol |
+| 0906040N0AAEMEM | Ergocalciferol 1,875units/5ml oral liquid | Ergocalciferol |
+| 0906040N0AADYDY | Ergocalciferol 1,950units/5ml oral liquid | Ergocalciferol |
+| 0906040N0AAFLFL | Ergocalciferol 1.25mg capsules | Ergocalciferol |
+| 0906040N0AAANAN | Ergocalciferol 1.25mg tablets | Ergocalciferol |
+| 0906040N0AAFIFI | Ergocalciferol 10,000units/5ml oral solution | Ergocalciferol |
+| 0906040N0AADLDL | Ergocalciferol 10,000units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAFKFK | Ergocalciferol 100,000units/5ml oral solution | Ergocalciferol |
+| 0906040N0AADDDD | Ergocalciferol 100,000units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAEBEB | Ergocalciferol 100units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AAEWEW | Ergocalciferol 12.5microgram tablets | Ergocalciferol |
+| 0906040N0AADPDP | Ergocalciferol 120units/5ml oral liquid | Ergocalciferol |
+| 0906040N0AAAPAP | Ergocalciferol 125microgram tablets | Ergocalciferol |
+| 0906040N0AADJDJ | Ergocalciferol 150,000units/5ml oral suspension | Ergocalciferol |
+| 0906040N0AADGDG | Ergocalciferol 2,000units/5ml oral suspension | Ergocalciferol |
+
+Showing 20 of 83 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 One single-ingredient product is recorded as valid. The data compiled for this report carry no indication text for it.
 

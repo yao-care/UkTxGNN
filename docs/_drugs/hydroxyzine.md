@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ Urticaria is already an established use of hydroxyzine, so this is largely an on
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,23 @@ Priority is given to reviews over case reports. Most items concern antihistamine
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010J0AAABAB | Hydroxyzine HCl tablets 10 mg | Tablet (not specified in the data) | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010J0AAABAB | Hydroxyzine 10mg tablets | Hydroxyzine hydrochloride |
+| 0304010J0AAAEAE | Hydroxyzine 10mg/5ml oral solution | Hydroxyzine hydrochloride |
+| 0304010J0AAALAL | Hydroxyzine 10mg/5ml oral suspension | Hydroxyzine hydrochloride |
+| 0304010J0AAAJAJ | Hydroxyzine 15mg/5ml oral suspension | Hydroxyzine hydrochloride |
+| 0304010J0AAAIAI | Hydroxyzine 2.5mg/5ml oral solution | Hydroxyzine hydrochloride |
+| 0304010J0AAAGAG | Hydroxyzine 20mg/5ml oral solution | Hydroxyzine hydrochloride |
+| 0304010J0AAACAC | Hydroxyzine 25mg tablets | Hydroxyzine hydrochloride |
+| 0304010J0AAAHAH | Hydroxyzine 25mg/5ml oral solution | Hydroxyzine hydrochloride |
+| 0304010J0AAAFAF | Hydroxyzine 5mg/5ml oral liquid | Hydroxyzine hydrochloride |
+| 0304010J0BBAAAB | Atarax 10mg tablets | Hydroxyzine hydrochloride |
+| 0304010J0BBABAC | Atarax 25mg tablets | Hydroxyzine hydrochloride |
+| 0304010J0BCAAAE | Ucerax 10mg/5ml syrup | Hydroxyzine hydrochloride |
+| 0304010J0BCABAC | Ucerax 25mg tablets | Hydroxyzine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier appears to be a BNF-style product code rather than an MHRA PL number, so the MHRA authorisation details should be checked against the SmPC.
 

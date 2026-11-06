@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 414
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Miconazole is an imidazole antifungal that blocks fungal ergosterol synthesis. T
 | Predicted New Indication | 痤瘡 (acne (disease)) |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (29 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 29 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +79,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203020H0AAAAAA | Miconazole oromucosal gel 20 mg/g | Oromucosal gel (from product name) | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310020N0AAAEAE | Miconazole 0.16% dry powder spray | Miconazole nitrate |
+| 1103020M0AAABAB | Miconazole 1% eye drops preservative free | Miconazole |
+| 0702020P0AAAGAG | Miconazole 1.2g vaginal capsules | Miconazole nitrate |
+| 0702020P0AAADAD | Miconazole 100mg pessaries | Miconazole nitrate |
+| 0702020P0AAAAAA | Miconazole 100mg pessaries and Miconazole 2% cream | Miconazole nitrate |
+| 1310020N0AAAAAA | Miconazole 2% cream | Miconazole nitrate |
+| 1310020N0AAABAB | Miconazole 2% powder | Miconazole nitrate |
+| 0702020P0AAABAB | Miconazole 2% vaginal cream | Miconazole nitrate |
+| 1203020H0AAADAD | Miconazole 50mg muco-adhesive buccal tablets sugar free | Miconazole |
+| 1310020N0BDABAA | Acorvio 2% cream | Miconazole nitrate |
+| 1304000ACBBAAAA | Acorvio Plus cream | Fluprednidene acetate |
+| 1304000V0CGABCH | Daktacort 2%/1% cream | Hydrocortisone |
+| 1304000V0CRAACH | Daktacort Hydrocortisone cream | Hydrocortisone |
+| 1304000V0CGACCS | Daktacort ointment | Hydrocortisone |
+| 1310020N0BBAAAA | Daktarin 2% cream | Miconazole nitrate |
+| 1310020N0BBABAB | Daktarin 2% powder | Miconazole nitrate |
+| 1203020H0BBAAAA | Daktarin 20mg/g oromucosal gel | Miconazole |
+| 1310020N0BBAGAE | Daktarin Aktiv 0.16% spray powder | Miconazole nitrate |
+| 1310020N0BBAEAA | Daktarin Aktiv 2% cream | Miconazole nitrate |
+| 1310020N0BBAFAB | Daktarin Aktiv 2% powder | Miconazole nitrate |
 
-One valid single-ingredient licence is recorded, and the drug is marketed in the UK.
+Showing 20 of 29 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

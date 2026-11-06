@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Diazoxide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Diazoxide is a potassium channel opener used in the management of conditions of 
 | Predicted New Indication | hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (29 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 29 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,30 @@ Some publications on hair-related questions exist for other predictions, such as
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601040E0AAAAAA | Diazoxide Tab 50mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601040E0AAAIAI | Diazoxide 100mg capsules | Diazoxide |
+| 0601040E0AAAPAP | Diazoxide 100mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAAXAX | Diazoxide 10mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAARAR | Diazoxide 12.5mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAAUAU | Diazoxide 125mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABABA | Diazoxide 13mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAANAN | Diazoxide 150mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABFBF | Diazoxide 15mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABGBG | Diazoxide 17.4mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAAWAW | Diazoxide 200mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABDBD | Diazoxide 20mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABEBE | Diazoxide 24mg/5ml oral liquid | Diazoxide |
+| 0601040E0AAAYAY | Diazoxide 250mg/5ml oral solution | Diazoxide |
+| 0601040E0AABHBH | Diazoxide 250mg/5ml oral suspension | Diazoxide |
+| 0601040E0AAAGAG | Diazoxide 25mg capsules | Diazoxide |
+| 0601040E0AAAQAQ | Diazoxide 25mg/5ml oral liquid | Diazoxide |
+| 0205010E0AAAAAA | Diazoxide 300mg/20ml solution for injection ampoules | Diazoxide |
+| 0601040E0AAAVAV | Diazoxide 30mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABCBC | Diazoxide 35mg/5ml oral liquid | Diazoxide |
+| 0601040E0AABKBK | Diazoxide 50mg capsules | Diazoxide |
 
-One valid single-ingredient authorisation is recorded.
+Showing 20 of 29 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

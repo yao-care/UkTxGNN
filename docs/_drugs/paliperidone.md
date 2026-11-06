@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (retinal dystrophy); L4 (treatment-refractory schizophrenia) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (28 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 28 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,6 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 Detailed mechanism of action data is not available in the data compiled for this report. Paliperidone is generally known as a dopamine D2 and serotonin 5-HT2A receptor antagonist, and its efficacy in schizophrenia is established.
 
 **Retinal dystrophy (rank 1):** No mechanistic link is supported. The high score (0.999) is a model output only, and no trials or literature were found. The same applies to the other highly ranked predictions, which include X-linked and syndromic myopia, hydranencephaly, a congenital disorder of glycosylation, perisylvian polymicrogyria, Charcot-Marie-Tooth disease type 1G and atypical glycine encephalopathy. Most are monogenic or structural conditions in which an antipsychotic is unlikely to alter the underlying disease. A speculative dopaminergic role in eye growth has been suggested for myopia, but nothing here supports it for paliperidone.
-
 
 ## Clinical Trial Evidence
 
@@ -81,11 +80,32 @@ No literature was found for the rank 1 prediction.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010AEAAABAB | Paliperidone 6 mg modified-release tablets | Modified-release tablet | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402020ABAAACAC | Paliperidone 100mg/1ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAEAE | Paliperidone 150mg/1.5ml inj and Paliperidone 100mg/1ml inj | Paliperidone |
+| 0402020ABAAADAD | Paliperidone 150mg/1.5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAFAF | Paliperidone 175mg/0.875ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAJAJ | Paliperidone 1g/5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAGAG | Paliperidone 263mg/1.315ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAHAH | Paliperidone 350mg/1.75ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402010AEAAAAAA | Paliperidone 3mg modified-release tablets | Paliperidone |
+| 0402020ABAAAAAA | Paliperidone 50mg/0.5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAAIAI | Paliperidone 525mg/2.625ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402010AEAAABAB | Paliperidone 6mg modified-release tablets | Paliperidone |
+| 0402020ABAAAKAK | Paliperidone 700mg/3.5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABAAABAB | Paliperidone 75mg/0.75ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402010AEAAACAC | Paliperidone 9mg modified-release tablets | Paliperidone |
+| 0402020ABBDABAJ | Byannli 1000mg/5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402020ABBDAAAK | Byannli 700mg/3.5ml prolonged-rel inj pf syringes | Paliperidone |
+| 0402010AEBBAAAA | Invega 3mg modified-release tablets | Paliperidone |
+| 0402010AEBBABAB | Invega 6mg modified-release tablets | Paliperidone |
+| 0402010AEBBACAC | Invega 9mg modified-release tablets | Paliperidone |
+| 0402020ABBCAAAF | Trevicta 175mg/0.875ml prolonged-rel inj pf syringes | Paliperidone |
 
-The listed identifier follows a BNF-style code (BNF chapter 4.2.1, antipsychotic drugs) rather than a standard PL number. One valid single-ingredient authorisation is recorded.
+Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed identifier follows a BNF-style code (BNF chapter 4.2.1, antipsychotic drugs) rather than a standard PL number.
 
 ## Safety Considerations
 

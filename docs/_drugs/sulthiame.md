@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sulthiame: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the available authorisation data"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
@@ -50,13 +50,13 @@ but there are **no clinical trials** and **no publications** supporting this pre
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulthiame is a carbonic anhydrase inhibitor. However, the authorisation records provided contain no approved indication text, so the relationship between its original use and the predicted indication cannot be assessed.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulthiame is a carbonic anhydrase inhibitor. However, the relationship between its original use and the predicted indication cannot be assessed.
 
 Cauda equina syndrome is typically a structural, compressive condition of the lower spinal nerve roots, and management is generally surgical. No plausible mechanistic link between carbonic anhydrase inhibition and this condition can be established from the available data. The high score (0.9997, model rank 816) is a computational signal only and should not be read as evidence of efficacy.
 
@@ -72,12 +72,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010Y0AAAAAA | Sultiame Tab 50mg | Not stated | Not stated |
-| 0408010Y0BBABAB | Ospolot Tab 200mg (Import) | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010Y0AAADAD | Sultiame 100mg tablets | Sultiame |
+| 0408010Y0AAABAB | Sultiame 200mg tablets | Sultiame |
+| 0408010Y0AAAEAE | Sultiame 20mg/ml oral suspension | Sultiame |
+| 0408010Y0AAAAAA | Sultiame 50mg tablets | Sultiame |
+| 0408010Y0BBABAB | Ospolot 200mg tablets | Sultiame |
+| 0408010Y0BBACAE | Ospolot 20mg/ml oral suspension | Sultiame |
+| 0408010Y0BBAAAA | Ospolot 50mg tablets | Sultiame |
 
-Both records are listed as valid single-ingredient products. The identifiers shown are the codes in the compiled data, not confirmed MHRA product licence (PL) numbers, and no dosage form or indication text was available. Please check the current BNF and MHRA records for the authorised indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown are the codes in the compiled data, not confirmed MHRA product licence (PL) numbers, and no dosage form or indication text was available. Please check the current BNF and MHRA records for the authorised indications.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 112
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bromfenac: predicted new indication Eye disease (broad category) (evidence level L1). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -52,8 +52,8 @@ The strongest evidence concerns inflammation and pain after cataract surgery, wh
 | Predicted New Indication | Eye disease (broad category) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L1 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,9 +108,12 @@ The table lists 10 of the 19 publications, prioritising higher-quality study des
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010AQAAAAAA | Bromfenac eye drops 900 micrograms/ml | Eye drops | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108020AGAAAAAA | Bromfenac 900micrograms/ml eye drops | Bromfenac |
+| 1108020AGBBAAAA | Yellox 0.9mg/ml eye drops | Bromfenac |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

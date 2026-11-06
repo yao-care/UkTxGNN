@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fenofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia, hyperlipidaemia, familial hyperlipidaemia…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (15 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 15 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,11 +87,25 @@ None of these studies addresses CETP deficiency in patients.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0212000P0AAABAB | Fenofibrate Capsules 200 mg (Micronised) | Capsule (not stated in the record) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000P0AAAGAG | Fenofibrate 160mg/5ml oral solution | Fenofibrate |
+| 0212000P0AAAFAF | Fenofibrate 200mg capsules | Fenofibrate |
+| 0212000P0AAAEAE | Fenofibrate micronised 160mg tablets | Fenofibrate |
+| 0212000P0AAABAB | Fenofibrate micronised 200mg capsules | Fenofibrate |
+| 0212000P0AAADAD | Fenofibrate micronised 267mg capsules | Fenofibrate |
+| 0212000P0AAACAC | Fenofibrate micronised 67mg capsules | Fenofibrate |
+| 0212000AJBBAAAA | Cholib 145mg/20mg tablets | Fenofibrate/simvastatin |
+| 0212000AJBBABAB | Cholib 145mg/40mg tablets | Fenofibrate/simvastatin |
+| 0212000AJAAAAAA | Fenofibrate 145mg / Simvastatin 20mg tablets | Fenofibrate/simvastatin |
+| 0212000AJAAABAB | Fenofibrate 145mg / Simvastatin 40mg tablets | Fenofibrate/simvastatin |
+| 0212000P0BDAAAF | Fenogal 200mg capsules | Fenofibrate |
+| 0212000P0BBABAB | Lipantil Micro 200 capsules | Fenofibrate |
+| 0212000P0BBADAD | Lipantil Micro 267 capsules | Fenofibrate |
+| 0212000P0BBACAC | Lipantil Micro 67 capsules | Fenofibrate |
+| 0212000P0BCAAAE | Supralip 160mg tablets | Fenofibrate |
 
-The list contains one single-ingredient authorisation.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

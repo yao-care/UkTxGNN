@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lenograstim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lenograstim"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
@@ -48,8 +48,8 @@ Lenograstim is a recombinant human granulocyte colony-stimulating factor (G-CSF)
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901060K0AAABAB | Lenograstim injection 13.4 mega units vial + diluent | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901060K0AAACAC | Lenograstim 13.4million unit inj pre-filled syringes | Lenograstim |
+| 0901060K0AAABAB | Lenograstim 13.4million unit inj vials | Lenograstim |
+| 0901060K0AAADAD | Lenograstim 33.6million unit inj pre-filled syringes | Lenograstim |
+| 0901060K0AAAAAA | Lenograstim 33.6million unit inj vials | Lenograstim |
+| 0901060K0BBAEAC | Granocyte 13million unit inj pre-filled syringes | Lenograstim |
+| 0901060K0BBADAB | Granocyte 13million unit inj vials | Lenograstim |
+| 0901060K0BBAFAD | Granocyte 34million unit inj pre-filled syringes | Lenograstim |
+| 0901060K0BBACAA | Granocyte 34million unit inj vials | Lenograstim |
 
-One valid single-ingredient authorisation is recorded. The dosage form and approved indication text were not available in the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and approved indication text were not available in the data compiled for this report.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pristinamycin: predicted new indication Disease of retroperitoneum . Urethral disease is the only prediction… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pristinamycin"
 predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **urethral disease**, a predict
 | Predicted New Indication | Disease of retroperitoneum (rank 1 by TxGNN score). Urethral disease (rank 9) is the only prediction with a plausible rationale and is the focus of this report |
 | TxGNN Prediction Score | 0.9917 (disease of retroperitoneum); 0.9915 (urethral disease) |
 | Evidence Level | L5 for disease of retroperitoneum; L4 for urethral disease |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold (disease of retroperitoneum); Hold, treated as a research question (urethral disease) |
 
 ---
@@ -98,11 +98,16 @@ No publications were found for the other predicted indications.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070Z0AAAAAA (BNF code; no PL number recorded) | Pristinamycin 500 mg tablets | Tablet | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070Z0AAABAB | Pristinamycin 250mg tablets | Pristinamycin |
+| 0501070Z0AAAAAA | Pristinamycin 500mg tablets | Pristinamycin |
+| 0501070Z0BBABAB | Pyostacine 250mg tablets | Pristinamycin |
+| 0501070Z0BBAAAA | Pyostacine 500mg tablets | Pristinamycin |
 
-The BNF classification code (0501070Z0) falls within section 5.1 (antibacterial drugs). One single-ingredient authorisation is recorded, with valid status.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code (0501070Z0) falls within section 5.1 (antibacterial drugs).
 
 ---
 

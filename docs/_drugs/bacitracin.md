@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **punctate epithelial keratoconju
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,12 +69,16 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310011W0BCAAAB | Polyfax Oint | Not recorded | Not recorded |
-| 1310011W0AAABAB | Polymyxin / Bacitracin Oint | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310011W0BCAAAB | Polyfax ointment | Polymyxins |
+| 1103010Q0BBAAAA | Polyfax ophthalmic ointment | Polymyxin B sulphate |
+| 1103010Q0AAAAAA | Polymyxin B 10,000units/g / Bacitracin 500units/g eye oint | Polymyxin B sulphate |
+| 1310011W0AAABAB | Polymyxin B 10,000units/g / Bacitracin 500units/g ointment | Polymyxins |
 
-Both authorisations are currently valid, and the data compiled for this report contain no indication text for them. Both are classed as single-ingredient records, but the second product name suggests a polymyxin/bacitracin preparation, so it should be checked against the product label before drawing conclusions about bacitracin alone.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Both are classed as single-ingredient records, but the second product name suggests a polymyxin/bacitracin preparation, so it should be checked against the product label before drawing conclusions about bacitracin alone.
 
 ## Safety Considerations
 

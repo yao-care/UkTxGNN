@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "Zidovudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiretroviral
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,22 @@ The retrieved publications are almost all animal or in vitro studies. A selectio
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010Y0AAABAB | Zidovudine capsules 250 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010Y0AAAAAA | Zidovudine 100mg capsules | Zidovudine |
+| 0503010Y0AAADAD | Zidovudine 10mg/1ml oral solution sugar free | Zidovudine |
+| 0503010Y0AAAEAE | Zidovudine 200mg/20ml solution for infusion vials | Zidovudine |
+| 0503010Y0AAABAB | Zidovudine 250mg capsules | Zidovudine |
+| 0503010F0AAAAAA | Abacavir 300mg / Lamivudine 150mg / Zidovudine 300mg tablets | Abacavir/lamivudine/zidovudine |
+| 0503010A0BBAAAA | Combivir 150mg/300mg tablets | Lamivudine and zidovudine |
+| 0503010Y0BBAAAA | Retrovir 100mg capsules | Zidovudine |
+| 0503010Y0BBAEAD | Retrovir 100mg/10ml oral solution | Zidovudine |
+| 0503010Y0BBABAB | Retrovir 250mg capsules | Zidovudine |
+| 0503010Y0BBAFAE | Retrovir IV 200mg/20ml concentrate for inf vials | Zidovudine |
+| 0503010F0BBAAAA | Trizivir 300mg/150mg/300mg tablets | Abacavir/lamivudine/zidovudine |
+| 0503010A0AAAAAA | Zidovudine 300mg / Lamivudine 150mg tablets | Lamivudine and zidovudine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -54,8 +54,8 @@ This report covers the top-ranked prediction and the best-supported alternative,
 | Best-supported alternative | Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5) |
 | TxGNN Prediction Score | 0.9962 (rank 1); 0.9926 (rank 5 alternative) |
 | Evidence Level | L5 (rank 1); L4 (rank 5 alternative) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (47 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 47 |
 | Recommended Decision | Hold (rank 1); Research question only (rank 5 alternative) |
 
 ---
@@ -92,7 +92,6 @@ Currently no related clinical trials registered for any of the predicted indicat
 | [1353873](https://pubmed.ncbi.nlm.nih.gov/1353873/) | 1992 | Review | Pathol Biol | Calcium antagonists (including verapamil) for migraine prophylaxis; efficacy not firmly demonstrated (off-topic) |
 | [9440591](https://pubmed.ncbi.nlm.nih.gov/9440591/) | 1998 | Review | Chest | Multifocal atrial tachycardia, commonly seen with COPD (indirect context only) |
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [22147655](https://pubmed.ncbi.nlm.nih.gov/22147655/) | 2012 | Review | Horm Metab Res | Factors affecting the aldosterone/renin ratio; malignant or renovascular hypertension can cause false negatives |
@@ -102,11 +101,32 @@ Currently no related clinical trials registered for any of the predicted indicat
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206020T0AAACAC (BNF-style product code, not a PL number) | Verapamil HCl tablets 40 mg | Tablet | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020T0AAA3A3 | Verapamil 10mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAAIAI | Verapamil 120mg modified-release capsules | Verapamil hydrochloride |
+| 0206020T0AAAUAU | Verapamil 120mg modified-release tablets | Verapamil hydrochloride |
+| 0206020T0AAAFAF | Verapamil 120mg tablets | Verapamil hydrochloride |
+| 0206020T0AABABA | Verapamil 120mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAAGAG | Verapamil 160mg tablets | Verapamil hydrochloride |
+| 0206020T0AAAJAJ | Verapamil 180mg modified-release capsules | Verapamil hydrochloride |
+| 0206020T0AAA2A2 | Verapamil 20mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAAKAK | Verapamil 240mg modified-release capsules | Verapamil hydrochloride |
+| 0206020T0AAAHAH | Verapamil 240mg modified-release tablets | Verapamil hydrochloride |
+| 0206020T0AABHBH | Verapamil 240mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AABFBF | Verapamil 250mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AABEBE | Verapamil 30mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAACAC | Verapamil 40mg tablets | Verapamil hydrochloride |
+| 0206020T0AAAZAZ | Verapamil 40mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAAVAV | Verapamil 40mg/5ml oral solution sugar free | Verapamil hydrochloride |
+| 0206020T0AABDBD | Verapamil 45mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AABGBG | Verapamil 50mg/5ml oral liquid | Verapamil hydrochloride |
+| 0206020T0AAAAAA | Verapamil 5mg/2ml solution for injection ampoules | Verapamil hydrochloride |
+| 0206020T0AAADAD | Verapamil 80mg tablets | Verapamil hydrochloride |
 
-The record corresponds to BNF section 2.6.2 (calcium-channel blockers). No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the current SmPC.
+Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The record corresponds to BNF section 2.6.2 (calcium-channel blockers).
 
 ---
 

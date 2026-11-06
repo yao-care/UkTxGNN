@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The more plausible predicted uses are epilepsy-related (for example trigeminal n
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 For context, the other leading predictions are:
@@ -112,11 +112,30 @@ Selected evidence for the more plausible predictions:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402030Q0AAABAB | Valproic Acid Tab G/R 500mg | Not specified | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040801020AAAHAH | Valproic acid 125mg gastro-resistant capsules | Valproic acid |
+| 040801020AAAAAA | Valproic acid 150mg gastro-resistant capsules | Valproic acid |
+| 0402030Q0AAAAAA | Valproic acid 250mg gastro-resistant tablets | Valproic acid |
+| 040801020AAAFAF | Valproic acid 250mg/5ml oral liquid | Valproic acid |
+| 040801020AAABAB | Valproic acid 300mg gastro-resistant capsules | Valproic acid |
+| 040801020AAACAC | Valproic acid 500mg gastro-resistant capsules | Valproic acid |
+| 0402030Q0AAABAB | Valproic acid 500mg gastro-resistant tablets | Valproic acid |
+| 040801020AAAGAG | Valproic acid 500mg/5ml oral liquid | Valproic acid |
+| 0402030Q0BCAAAA | Belvo 250mg gastro-resistant tablets | Valproic acid |
+| 0402030Q0BCABAB | Belvo 500mg gastro-resistant tablets | Valproic acid |
+| 040801020BBAAAA | Convulex 150mg gastro-resistant capsules | Valproic acid |
+| 040801020BBABAB | Convulex 300mg gastro-resistant capsules | Valproic acid |
+| 040801020BBACAC | Convulex 500mg gastro-resistant capsules | Valproic acid |
+| 040801020BCACAH | Depakote 125mg sprinkle gastro-resistant capsules | Valproic acid |
+| 0402030Q0BBAAAA | Depakote 250mg gastro-resistant tablets | Valproic acid |
+| 0402030Q0BBABAB | Depakote 500mg gastro-resistant tablets | Valproic acid |
+| 0402030Q0BDABAA | Syonell 250mg gastro-resistant tablets | Valproic acid |
+| 0402030Q0BDAAAB | Syonell 500mg gastro-resistant tablets | Valproic acid |
 
-The data compiled for this report lists one valid single-ingredient authorisation (a modified-release 500 mg tablet). The identifier appears to be a BNF-style code (chapter 4, central nervous system) rather than a standard MHRA PL number, and no approved indication text is available. Please check the current SmPC and BNF for licensed indications and NICE guidance.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style code (chapter 4, central nervous system) rather than a standard MHRA PL number, and no approved indication text is available. Please check the current SmPC and BNF for licensed indications and NICE guidance.
 
 ---
 

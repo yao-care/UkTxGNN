@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne (disease)**, but there a
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,15 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1902070M0AAAAAA | Methionine Tab 250mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1902070M0AAAAAA | L-Methionine 250mg tablets | Methionine |
+| 091101000AAFWFW | L-methionine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 091101000BBNYFW | Bio-Methionine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 040701020AAAAAA | Co-methiamol 100mg/500mg tablets | Co-methiamol (Methionine/paracetamol) |
+| 040701020BBAAAA | Paradote 100mg/500mg tablets | Co-methiamol (Methionine/paracetamol) |
 
-The licence record lists no dosage form or approved indication text, so no approved use can be described from it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only **1 indirect 
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,9 +84,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1103010H0AAAAAA | Fusidic Acid Viscous Eye Drops 1% | Eye drops (viscous) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1103010H0AAAAAA | Fusidic acid 1% modified-release eye drops | Fusidic acid |
+| 1310012F0AAABAB | Fusidic acid 2% cream | Fusidic acid |
+| 1310012F0AAACAC | Fusidic acid 2% gel | Fusidic acid |
+| 0501070M0AAAAAA | Fusidic acid 250mg/5ml oral suspension | Fusidic acid |
+| 1304000F0AACCCC | Betamethasone valerate 0.1% / Fusidic acid 2% cream | Betamethasone valerate |
+| 1304000F0BCACCC | Fucibet Lipid cream | Betamethasone valerate |
+| 1304000F0BCABCC | Fucibet cream | Betamethasone valerate |
+| 1310012F0BBABAC | Fucidin 2% gel | Fusidic acid |
+| 1310012F0BBAAAB | Fucidin 20mg/g cream | Fusidic acid |
+| 0501070M0BBAAAA | Fucidin 250mg/5ml oral suspension | Fusidic acid |
+| 1304000X0BHABCB | Fucidin H cream | Hydrocortisone acetate |
+| 1103010H0BBAAAA | Fucithalmic 1% eye drops | Fusidic acid |
+| 1304000X0AACBCB | Hydrocortisone acetate 1% / Fusidic acid 2% cream | Hydrocortisone acetate |
+| 1304000F0BHAACC | Xemacort 20mg/g / 1mg/g cream | Betamethasone valerate |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is the code held in the compiled record and is not in the standard PL number format. Please verify it against the MHRA register.
 

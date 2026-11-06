@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 182
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L5). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **anxiety disorder**, with **8 
 | Predicted New Indication | Anxiety disorder |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L1 (as graded in the data compiled for this report; see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade rests on completed Phase 3 trials, but these are OCD trials in which clomipramine is background therapy or part of the SRI class. They are not anxiety-disorder trials. Direct evidence for anxiety comes from the literature (see below), so the grade should be read cautiously.
@@ -93,9 +93,28 @@ The retrieved Phase 3 trials are mainly OCD-focused. Direct evidence in anxiety 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0403010F0AAABAB (no PL number in the data) | Clomipramine HCl capsules 25 mg | Capsule | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010F0AAAAAA | Clomipramine 10mg capsules | Clomipramine hydrochloride |
+| 0403010F0AAALAL | Clomipramine 10mg/5ml oral liquid | Clomipramine hydrochloride |
+| 0403010F0AAASAS | Clomipramine 250mg/5ml oral suspension | Clomipramine hydrochloride |
+| 0403010F0AAABAB | Clomipramine 25mg capsules | Clomipramine hydrochloride |
+| 0403010F0AAADAD | Clomipramine 25mg/2ml solution for injection ampoules | Clomipramine hydrochloride |
+| 0403010F0AAAKAK | Clomipramine 25mg/5ml oral liquid | Clomipramine hydrochloride |
+| 0403010F0AAAPAP | Clomipramine 37.5mg/5ml oral liquid | Clomipramine hydrochloride |
+| 0403010F0AAACAC | Clomipramine 50mg capsules | Clomipramine hydrochloride |
+| 0403010F0AAANAN | Clomipramine 50mg/5ml oral solution | Clomipramine hydrochloride |
+| 0403010F0AAAQAQ | Clomipramine 50mg/5ml oral suspension | Clomipramine hydrochloride |
+| 0403010F0AAAMAM | Clomipramine 5mg/5ml oral liquid | Clomipramine hydrochloride |
+| 0403010F0AAARAR | Clomipramine 75mg modified-release tablets | Clomipramine hydrochloride |
+| 0403010F0BBAAAA | Anafranil 10mg capsules | Clomipramine hydrochloride |
+| 0403010F0BBABAB | Anafranil 25mg capsules | Clomipramine hydrochloride |
+| 0403010F0BBAEAD | Anafranil 25mg/2ml solution for injection ampoules | Clomipramine hydrochloride |
+| 0403010F0BBADAK | Anafranil 25mg/5ml syrup | Clomipramine hydrochloride |
+| 0403010F0BBACAC | Anafranil 50mg capsules | Clomipramine hydrochloride |
+| 0403010F0BBAFAR | Anafranil SR 75mg tablets | Clomipramine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Clomipramine falls under BNF section 4.3.1 (tricyclic antidepressants). Please check the current SmPC and any relevant NICE guidance for the licensed indications.
 

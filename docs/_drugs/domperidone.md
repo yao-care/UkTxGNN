@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report (pharmacol…"
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,29 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000J0AAACAC | Domperidone oral suspension 5 mg/5 ml, sugar-free | Oral suspension | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000J0AAALAL | Domperidone 1.9mg/5ml oral suspension | Domperidone |
+| 0406000J0AAANAN | Domperidone 10mg orodispersible tablets sugar free | Domperidone |
+| 0406000J0AAAJAJ | Domperidone 10mg tablets | Domperidone |
+| 0406000J0AAAKAK | Domperidone 10mg/5ml oral suspension | Domperidone |
+| 0406000J0AAACAC | Domperidone 1mg/ml oral suspension sugar free | Domperidone |
+| 0406000J0AAAHAH | Domperidone 20mg/5ml oral suspension | Domperidone |
+| 0406000J0AAAGAG | Domperidone 25mg/5ml oral suspension | Domperidone |
+| 0406000J0AAABAB | Domperidone 30mg suppositories | Domperidone |
+| 0406000J0AAAFAF | Domperidone 50mg/5ml oral suspension | Domperidone |
+| 0406000J0AAAMAM | Domperidone 800micrograms/5ml oral suspension | Domperidone |
+| 0407041A0BHAAAI | Domperamol tablets | Analgesics with anti-emetics |
+| 0406000J0BFAAAN | Epzit 10mg orodispersible tablets | Domperidone |
+| 0406000J0BBAFAJ | Motilium 10 tablets | Domperidone |
+| 0406000J0BBAEAJ | Motilium 10mg tablets | Domperidone |
+| 0406000J0BBABAC | Motilium 1mg/ml oral suspension | Domperidone |
+| 0406000J0BBACAB | Motilium 30mg suppositories | Domperidone |
+| 0406000J0BBAGAN | Motilium Instants 10mg orodispersible tablets | Domperidone |
+| 0407041A0AAAIAI | Paracetamol 500mg / Domperidone 10mg tablets | Analgesics with anti-emetics |
+| 0406000J0BEAAAJ | Vivadone 10mg tablets | Domperidone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The record shows one valid single-ingredient product. The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register. Domperidone is classified in BNF chapter 1 (gastrointestinal system), under drugs affecting gastrointestinal motility.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 (preclinical and mechanistic studies only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,11 +93,24 @@ No randomised trials or breast-specific clinical studies were found. The most re
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190400000AACBCB | Ichthammol_(S) | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901030R0AAABAB | Hydroxycarbamide 100mg tablets | Hydroxycarbamide |
+| 0901030R0AAAAAA | Hydroxycarbamide 1g tablets | Hydroxycarbamide |
+| 0801050P0AAACAC | Hydroxycarbamide 300mg capsules | Hydroxycarbamide |
+| 0801050P0AAAAAA | Hydroxycarbamide 500mg capsules | Hydroxycarbamide |
+| 0801050P0AAABAB | Hydroxycarbamide 500mg/5ml oral solution | Hydroxycarbamide |
+| 0801050P0AAAEAE | Hydroxycarbamide 500mg/5ml oral solution sugar free | Hydroxycarbamide |
+| 0801050P0AAADAD | Hydroxycarbamide 500mg/5ml oral suspension | Hydroxycarbamide |
+| 0801050P0BCAAAC | Droxia 300mg capsules | Hydroxycarbamide |
+| 0801050P0BBAAAA | Hydrea 500mg capsules | Hydroxycarbamide |
+| 0901030R0BBAAAA | Siklos 1000mg tablets | Hydroxycarbamide |
+| 0901030R0BBABAB | Siklos 100mg tablets | Hydroxycarbamide |
+| 0801050P0BDAAAE | Xromi 100mg/ml oral solution | Hydroxycarbamide |
 
-The single authorisation recorded in the compiled data is listed under a product name (Ichthammol) that does not correspond to hydroxyurea. It also has no dosage form or indication text. This record should be verified against the MHRA register before any reliance is placed on it. The data compiled for this report does not include NICE appraisals or BNF classification for this drug.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It also has no dosage form or indication text. This record should be verified against the MHRA register before any reliance is placed on it. The data compiled for this report does not include NICE appraisals or BNF classification for this drug.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040X0AAAAAA | Mirtazapine Tab 30mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040X0AAALAL | Mirtazapine 15mg orodispersible tablets | Mirtazapine |
+| 0403040X0AAAQAQ | Mirtazapine 15mg orodispersible tablets sugar free | Mirtazapine |
+| 0403040X0AAANAN | Mirtazapine 15mg tablets | Mirtazapine |
+| 0403040X0AAASAS | Mirtazapine 15mg/5ml oral solution | Mirtazapine |
+| 0403040X0AAAGAG | Mirtazapine 15mg/ml oral solution sugar free | Mirtazapine |
+| 0403040X0AAAIAI | Mirtazapine 2mg capsules | Mirtazapine |
+| 0403040X0AAAJAJ | Mirtazapine 30mg orodispersible tablets | Mirtazapine |
+| 0403040X0AAAAAA | Mirtazapine 30mg tablets | Mirtazapine |
+| 0403040X0AAABAB | Mirtazapine 30mg/5ml oral liquid | Mirtazapine |
+| 0403040X0AAAMAM | Mirtazapine 45mg orodispersible tablets | Mirtazapine |
+| 0403040X0AAARAR | Mirtazapine 45mg orodispersible tablets sugar free | Mirtazapine |
+| 0403040X0AAAPAP | Mirtazapine 45mg tablets | Mirtazapine |
+| 0403040X0AAAHAH | Mirtazapine 4mg capsules | Mirtazapine |
+| 0403040X0AAAKAK | Mirtazapine 750micrograms/5ml oral liquid | Mirtazapine |
+| 0403040X0AAAFAF | Mirtazapine 75mg/5ml oral suspension | Mirtazapine |
+| 0403040X0BBAAAA | Zispin 30mg tablets | Mirtazapine |
+| 0403040X0BBACAL | Zispin SolTab 15mg orodispersible tablets | Mirtazapine |
+| 0403040X0BBABAJ | Zispin SolTab 30mg orodispersible tablets | Mirtazapine |
+| 0403040X0BBADAM | Zispin SolTab 45mg orodispersible tablets | Mirtazapine |
 
-This is the only authorisation record in the compiled data. The identifier does not follow the usual MHRA PL number format, so it should be checked against the MHRA register. Please refer to the BNF (antidepressant drugs) and the current SmPC for licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier does not follow the usual MHRA PL number format, so it should be checked against the MHRA register. Please refer to the BNF (antidepressant drugs) and the current SmPC for licensed indications.
 
 ## Safety Considerations
 

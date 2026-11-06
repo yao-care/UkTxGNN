@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Darunavir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Darunavir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,8 +52,8 @@ The evidence is model-based only, and the recommendation is to hold.
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,28 @@ For the second-ranked prediction (simian immunodeficiency virus infection), the 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010ACAAABAB (BNF-style code; no PL number provided) | Darunavir tablets 400 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010ACAAAFAF | Darunavir 100mg/ml oral suspension sugar free | Darunavir |
+| 0503010ACAAAEAE | Darunavir 150mg tablets | Darunavir |
+| 0503010ACAAAAAA | Darunavir 300mg tablets | Darunavir |
+| 0503010ACAAABAB | Darunavir 400mg tablets | Darunavir |
+| 0503010ACAAACAC | Darunavir 600mg tablets | Darunavir |
+| 0503010ACAAADAD | Darunavir 75mg tablets | Darunavir |
+| 0503010ACAAAGAG | Darunavir 800mg tablets | Darunavir |
+| 0503010AKAAAAAA | Darunavir 800mg / Cobicistat 150mg tablets | Darunavir/cobicistat |
+| 0503010BEAAAAAA | Darunavir 800mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010ACBBAFAF | Prezista 100mg/ml oral suspension | Darunavir |
+| 0503010ACBBAEAE | Prezista 150mg tablets | Darunavir |
+| 0503010ACBBAAAA | Prezista 300mg tablets | Darunavir |
+| 0503010ACBBABAB | Prezista 400mg tablets | Darunavir |
+| 0503010ACBBACAC | Prezista 600mg tablets | Darunavir |
+| 0503010ACBBADAD | Prezista 75mg tablets | Darunavir |
+| 0503010ACBBAGAG | Prezista 800mg tablets | Darunavir |
+| 0503010AKBBAAAA | Rezolsta 800mg/150mg tablets | Darunavir/cobicistat |
+| 0503010BEBBAAAA | Symtuza 800mg/150mg/200mg/10mg tablets | Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Darunavir is classified in BNF chapter 5 (infections), under HIV protease inhibitors (section 5.3.1).
 

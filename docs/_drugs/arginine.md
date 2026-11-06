@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Arginine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -50,8 +50,8 @@ Evidence is therefore limited to a model prediction plus a plausible mechanistic
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L4 (preclinical and mechanistic studies only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (22 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 22 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,32 @@ Only publications with some relevance to arginine or the nitrergic mechanism are
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 091101000AADJDJ | Arginine Liq Spec 500mg/5ml | Not specified | Not specified |
-| 091101000AAFIFI | L-Arginine Pdr | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AACXCX | Arginine 1.5g/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAFLFL | Arginine 1.5mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAFVFV | Arginine 1g tablets | Other amino acidandnutritional agent preparations |
+| 091101000AAEBEB | Arginine 1g/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAEIEI | Arginine 250mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAFSFS | Arginine 2g/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AADBDB | Arginine 300mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AACSCS | Arginine 500mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000AADQDQ | Arginine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 091101000AAELEL | Arginine 500mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAGDGD | Arginine 500mg/5ml oral solution sugar free | Other amino acidandnutritional agent preparations |
+| 091101000AAEVEV | Arginine 600mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AACUCU | Arginine 750mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000BBVBGD | Aactigin 500mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000BBVAEL | Aargin 500mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000BBHWCS | G & G L-Arginine 500mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000BBRVDQ | HealthAid L-Arginine 500mg tablets | Other amino acidandnutritional agent preparations |
+| 0913445A0BHAAAC | L-Arginine powder (Nutricia) | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+| 0913445A0AAACAC | L-arginine powder | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
+| 091101000BBJVCS | Quest L-Arginine 500mg capsules | Other amino acidandnutritional agent preparations |
 
-Both products are listed as valid, single-ingredient authorisations. Dosage form and approved indication text were not available in the data compiled for this report.
+Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text were not available in the data compiled for this report.
 
 ## Safety Considerations
 
@@ -112,7 +132,7 @@ The prediction rests on a computational score and animal data, with no registere
 
 **To proceed, the following is needed:**
 - The SmPC and BNF safety information (warnings, contraindications, interactions) for the UK-authorised arginine products
-- Approved indication, dosage form and manufacturer details for the two UK authorisations
+- Approved indication, dosage form and manufacturer details
 - Mechanism of action data confirmed from a source such as DrugBank
 - Human evidence, such as a small proof-of-concept study of gastric emptying in patients with gastroparesis, ideally stratified by cause (diabetic, idiopathic, drug-induced)
 - A review of the renal, metabolic and cardiovascular conditions flagged above, given that many gastroparesis patients have diabetes and renal impairment

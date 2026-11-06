@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bupropion is a norepinephrine and dopamine reuptake inhibitor with a single valid UK marketing authorisation on record.
+Bupropion is a norepinephrine and dopamine reuptake inhibitor.
 The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder**,
 with **6 clinical trials** and **19 publications** currently supporting this direction, including a completed Phase 3 trial and a Cochrane review of bupropion in adult ADHD.
 
@@ -50,8 +50,8 @@ with **6 clinical trials** and **19 publications** currently supporting this dir
 | Predicted New Indication | attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -88,7 +88,7 @@ Guardrails apply: bupropion lowers the seizure threshold, can affect blood press
 
 ## UK Market Information
 
-One valid single-ingredient marketing authorisation is recorded for bupropion: a modified-release 150 mg tablet. The licence record carries no dosage form or approved indication text, so details are not shown here. Please refer to the SmPC and BNF for authorised uses.
+Please refer to the SmPC and BNF for authorised uses.
 
 ## Safety Considerations
 

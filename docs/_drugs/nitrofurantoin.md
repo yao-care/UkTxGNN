@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nitrofurantoin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the licence data (nitrofurantoin is a urinary antibac…"
 monitor_inn: "Nitrofurantoin"
 predicted_indications: ["rheumatoid arthritis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "sclerosing cholangitis", "methemoglobinemia, alpha type", "gout", "methemoglobinemia"]
@@ -50,8 +50,8 @@ This prediction should be treated as a model output only.
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (57 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 57 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,30 @@ None of these publications shows a therapeutic benefit of nitrofurantoin in rheu
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501130R0AAAAAA (BNF code) | Nitrofurantoin capsules 50 mg | Capsule | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501130R0AAABAB | Nitrofurantoin 100mg capsules | Nitrofurantoin |
+| 0501130R0AAAGAG | Nitrofurantoin 100mg modified-release capsules | Nitrofurantoin |
+| 0501130R0AAAEAE | Nitrofurantoin 100mg tablets | Nitrofurantoin |
+| 0501130R0AAAJAJ | Nitrofurantoin 100mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AAATAT | Nitrofurantoin 10mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AACGCG | Nitrofurantoin 11mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABEBE | Nitrofurantoin 12.5mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABSBS | Nitrofurantoin 125mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AAAUAU | Nitrofurantoin 12mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AACECE | Nitrofurantoin 13.5mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AAASAS | Nitrofurantoin 13mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABWBW | Nitrofurantoin 14mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AAALAL | Nitrofurantoin 15mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABJBJ | Nitrofurantoin 16mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AACICI | Nitrofurantoin 17.5mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABIBI | Nitrofurantoin 17mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABQBQ | Nitrofurantoin 18.75mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AAAQAQ | Nitrofurantoin 18mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AACDCD | Nitrofurantoin 1mg/5ml oral liquid | Nitrofurantoin |
+| 0501130R0AABDBD | Nitrofurantoin 2.5mg/5ml oral liquid | Nitrofurantoin |
+
+Showing 20 of 57 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

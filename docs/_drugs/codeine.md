@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Evidence is limited to the model prediction.
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (91 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 91 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010J0DGAAAY | Solpadeine Mig Ibuprofen/Codeine_Tab | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407020C0AAALAL | Codeine 10mg suppositories | Codeine phosphate |
+| 0407020C0AAAYAY | Codeine 10mg/5ml oral liquid | Codeine phosphate |
+| 0407020C0AAAQAQ | Codeine 15mg suppositories | Codeine phosphate |
+| 0407020C0AAADAD | Codeine 15mg tablets | Codeine phosphate |
+| 0309010C0AAAAAA | Codeine 15mg/5ml linctus | Codeine phosphate |
+| 0309010C0AAADAD | Codeine 15mg/5ml linctus sugar free | Codeine phosphate |
+| 0407020C0AABCBC | Codeine 1mg suppositories | Codeine phosphate |
+| 0407020C0AABBBB | Codeine 20mg suppositories | Codeine phosphate |
+| 0407020C0AAABAB | Codeine 25mg/5ml oral solution | Codeine phosphate |
+| 0407020C0AAASAS | Codeine 30mg suppositories | Codeine phosphate |
+| 0407020C0AAAEAE | Codeine 30mg tablets | Codeine phosphate |
+| 0407020C0AAAHAH | Codeine 30mg/1ml solution for injection ampoules | Codeine phosphate |
+| 0407020C0AAAPAP | Codeine 30mg/5ml oral solution | Codeine phosphate |
+| 0309010C0AAACAC | Codeine 3mg/5ml linctus paediatric | Codeine phosphate |
+| 0309010C0AAAEAE | Codeine 3mg/5ml linctus paediatric sugar free | Codeine phosphate |
+| 0407020C0AAANAN | Codeine 50mg/5ml oral solution | Codeine phosphate |
+| 0407020C0AAAKAK | Codeine 5mg suppositories | Codeine phosphate |
+| 0407020C0AAAXAX | Codeine 5mg/5ml oral liquid | Codeine phosphate |
+| 0407020C0AABABA | Codeine 6.75mg/5ml oral solution | Codeine phosphate |
+| 0407020C0AAAFAF | Codeine 60mg tablets | Codeine phosphate |
+
+Showing 20 of 91 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

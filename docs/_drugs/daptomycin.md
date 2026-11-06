@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L4). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **osteoarthritis** (score 0.998
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,11 +96,14 @@ Publications retrieved for osteoarthritis (up to 10 shown). Most address joint i
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070Y0AAABAB (BNF-style product code; not a PL number) | Daptomycin I/V Infusion 500 mg vial (dry powder) | Powder for intravenous infusion | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070Y0AAAAAA | Daptomycin 350mg powder for solution for infusion vials | Daptomycin |
+| 0501070Y0AAABAB | Daptomycin 500mg powder for solution for infusion vials | Daptomycin |
+| 0501070Y0BBAAAA | Cubicin 350mg pdr for concentrate for inf vials | Daptomycin |
+| 0501070Y0BBABAB | Cubicin 500mg pdr for concentrate for inf vials | Daptomycin |
 
-One single-ingredient authorisation is recorded as valid; none are cancelled.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

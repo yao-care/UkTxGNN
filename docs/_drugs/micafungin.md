@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 413
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **no registered clinical trials** but **13 publications** (mostly case repo
 | Predicted New Indication | Urinary tract infection (disease) |
 | TxGNN Prediction Score | 0.9903 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -93,9 +93,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502040B0AAABAB (BNF-style product code; no PL number in the data) | Micafungin I/V infusion 50 mg vial (dry powder) | Powder for intravenous infusion | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0502040B0AAAAAA | Micafungin 100mg powder for solution for infusion vials | Micafungin |
+| 0502040B0AAABAB | Micafungin 50mg powder for solution for infusion vials | Micafungin |
+| 0502040B0BBAAAA | Mycamine 100mg powder for solution for infusion vials | Micafungin |
+| 0502040B0BBABAB | Mycamine 50mg powder for solution for infusion vials | Micafungin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Micafungin sits in the BNF antifungal section (chapter 5, infections). The data compiled for this report contain one valid single-ingredient product and no NICE-appraised indication details.
 

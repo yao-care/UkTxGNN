@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis…"
 monitor_inn: "Posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -52,8 +52,8 @@ The mechanistic reasoning argues against the prediction, so it should be treated
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,18 @@ None of these publications reports posaconazole as a treatment for pneumocystosi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502010A0AAAAAA (BNF classification code, not a PL number) | Posaconazole oral suspension 200 mg/5 ml | Oral suspension | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0502010A0AAABAB | Posaconazole 100mg gastro-resistant tablets | Posaconazole |
+| 0502010A0AAACAC | Posaconazole 300mg/16.7ml solution for infusion vials | Posaconazole |
+| 0502010A0AAAAAA | Posaconazole 40mg/ml oral suspension | Posaconazole |
+| 0502010A0BBABAB | Noxafil 100mg gastro-resistant tablets | Posaconazole |
+| 0502010A0BBADAD | Noxafil 300mg/10ml gastro-resistant pdr and solvent for susp | Posaconazole |
+| 0502010A0BBACAC | Noxafil 300mg/16.7ml concentrate for inf vials | Posaconazole |
+| 0502010A0BBAAAA | Noxafil 40mg/ml oral suspension | Posaconazole |
+| 0502010A0AAADAD | Posaconazole 300mg/10ml gast res pdr and solvent for susp SF | Posaconazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The code listed appears to be a BNF section/product code (BNF section 5.2.1, triazole antifungals) rather than an MHRA PL number. No NICE-appraised indication data were available.
 

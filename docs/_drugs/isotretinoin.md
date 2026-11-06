@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ The TxGNN model predicts it may be effective for **malignant renovascular hypert
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1306010M0AAAAAA | Isotretinoin Gel 0.05% | Gel | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1306010M0AAAAAA | Isotretinoin 0.05% gel | Isotretinoin |
+| 1306020J0AAACAC | Isotretinoin 10mg capsules | Isotretinoin |
+| 1306020J0AAABAB | Isotretinoin 20mg capsules | Isotretinoin |
+| 1306020J0AAADAD | Isotretinoin 20mg tablets | Isotretinoin |
+| 1306020J0AAAEAE | Isotretinoin 40mg capsules | Isotretinoin |
+| 1306020J0AAAAAA | Isotretinoin 5mg capsules | Isotretinoin |
+| 1306010I0AAACAC | Isotretinoin 0.05% / Erythromycin 2% gel | Erythromycin |
+| 1306010M0BBAAAA | Isotrex 0.05% gel | Isotretinoin |
+| 1306010I0BDAAAC | Isotrexin gel | Erythromycin |
+| 1306020J0BBACAC | Roaccutane 10mg capsules | Isotretinoin |
+| 1306020J0BBABAB | Roaccutane 20mg capsules | Isotretinoin |
+| 1306020J0BBAAAA | Roaccutane 5mg capsules | Isotretinoin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: this licence identifier is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register before any further use.
 

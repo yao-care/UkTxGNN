@@ -5,7 +5,7 @@ layout: default
 title: Nitazoxanide
 parent: Known Uses Only (No New Predictions)
 nav_order: 448
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nitazoxanide: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Nitazoxanide"
 predicted_indications: []
@@ -43,14 +43,17 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070ABAAAAAA (BNF code) | Nitazoxanide tablets 500 mg | Tablet | Indication text not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070ABAAABAB | Nitazoxanide 100mg/5ml oral suspension | Nitazoxanide |
+| 0501070ABAAAAAA | Nitazoxanide 500mg tablets | Nitazoxanide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style product code rather than an MHRA PL number. The BNF classification (section 5.4.8 range, antiprotozoal drugs) should be confirmed against the current BNF entry.
 

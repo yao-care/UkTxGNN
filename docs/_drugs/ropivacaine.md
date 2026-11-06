@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 554
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence is limited to small and mixed-design studies, so this remains an ea
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Proceed with Guardrails |
 
 **Note on selection:** Migraine disorder ranks first by TxGNN score, but its evidence is weaker (one very small trial of 10 participants and observational studies; recommendation: Research Question). Other candidates are summarised briefly at the end.
@@ -72,7 +72,6 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 ## Clinical Trial Evidence
 
-
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
 | [NCT07866443](https://clinicaltrials.gov/study/NCT07866443) | Phase 4 | Completed | 74 | Randomised comparison of ropivacaine trigger point injection alone versus combined with oral pregabalin in chronic neck and upper back myofascial pain. Pain, trigger point count, neuropathic symptoms and quality of life assessed at baseline, 1 and 3 months. The combination design limits attribution to ropivacaine. |
@@ -87,7 +86,6 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 ---
 
 ## Literature Evidence
-
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
@@ -108,11 +106,22 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1502010R0AAABAB | Ropivacaine HCl Inj 7.5 mg/ml 10 ml Amp | Injection (ampoule) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1502010R0AAAEAE | Ropivacaine 100mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
+| 1502010R0AAAFAF | Ropivacaine 200mg/100ml infusion bags | Ropivacaine hydrochloride |
+| 1502010R0AAAAAA | Ropivacaine 20mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
+| 1502010R0AAADAD | Ropivacaine 400mg/200ml infusion bags | Ropivacaine hydrochloride |
+| 1502010R0AAABAB | Ropivacaine 75mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
+| 1502010R0BBADAE | Naropin 100mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
+| 1502010R0BBAEAF | Naropin 200mg/100ml infusion Polybags | Ropivacaine hydrochloride |
+| 1502010R0BBAAAA | Naropin 20mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
+| 1502010R0BBACAD | Naropin 400mg/200ml infusion Polybags | Ropivacaine hydrochloride |
+| 1502010R0BBABAB | Naropin 75mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
 
-Only one valid single-ingredient authorisation is recorded. Dosage form detail and approved indication text are not available, so please check the current MHRA record, the SmPC and the BNF for licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form detail and approved indication text are not available, so please check the current MHRA record, the SmPC and the BNF for licensed indications.
 
 ---
 
@@ -144,7 +153,6 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 ---
 
 ## Conclusion and Next Steps
-
 
 **Rationale:**
 Ropivacaine has a coherent mechanism and existing clinical use in trigger point injection, supported by a completed Phase 4 trial and several randomised comparisons. However, the evidence consists of combination and comparative designs with no demonstrated superiority over other local anaesthetics, so it reaches only L3 and does not meet the threshold for L1 or L2.

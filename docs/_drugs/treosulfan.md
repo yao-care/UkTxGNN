@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Treosulfan"
 predicted_indications: ["diabetic cataract"]
 description: "Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Treosulfan is an alkylating cytotoxic agent, used in conditioning treatment befo
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 0.9901 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 None has any trial or literature support.
@@ -74,9 +74,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0801010Z0AAACAC | Treosulfan capsules 250 mg | Capsule | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801010Z0AAADAD | Treosulfan 1g powder for solution for injection vials | Treosulfan |
+| 0801010Z0AAACAC | Treosulfan 250mg capsules | Treosulfan |
+| 0801010Z0AAABAB | Treosulfan 5g powder for solution for injection vials | Treosulfan |
+| 0801010Z0BBAAAD | Trecondi 1g powder for solution for infusion | Treosulfan |
+| 0801010Z0BBABAB | Trecondi 5g powder for solution for infusion | Treosulfan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The record corresponds to a BNF classification code (chapter 8.1.1, alkylating drugs) rather than a standard PL number. Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current MHRA and BNF entries before relying on this information.
 

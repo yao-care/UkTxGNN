@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia**, b
 | Predicted New Indication | Hypoalphalipoproteinemia |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,14 @@ For context, the only publications retrieved across the top-ranked predictions c
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0106070A0AAABAB (BNF-style product code, not a PL number) | Prucalopride tablets 2 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0106070A0AAAAAA | Prucalopride 1mg tablets | Prucalopride |
+| 0106070A0AAABAB | Prucalopride 2mg tablets | Prucalopride |
+| 0106070A0BBAAAA | Resolor 1mg tablets | Prucalopride |
+| 0106070A0BBABAB | Resolor 2mg tablets | Prucalopride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 One valid single-ingredient product is recorded. Dosage form and approved indication text were not available, so please confirm details against the current SmPC.
 

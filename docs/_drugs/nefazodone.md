@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 437
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Nefazodone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but evidence is very limited: **no clinical trials** and only **1 publication** 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040T0AAABAB (BNF-style code; not a standard PL number) | Nefazodone HCl tablets 200 mg | Tablet | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040T0AAAAAA | Nefazodone 100mg tablets | Nefazodone hydrochloride |
+| 0403040T0AAABAB | Nefazodone 200mg tablets | Nefazodone hydrochloride |
+| 0403040T0BBAAAA | Dutonin 100mg tablets | Nefazodone hydrochloride |
+| 0403040T0BBABAB | Dutonin 200mg tablets | Nefazodone hydrochloride |
+| 0403040T0BBACAC | Dutonin tablets treatment initiation pack | Nefazodone hydrochloride |
+| 0403040T0AAACAC | Generic Dutonin tablets treatment initiation pack | Nefazodone hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

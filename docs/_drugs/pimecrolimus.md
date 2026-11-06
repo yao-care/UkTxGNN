@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 497
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Pimecrolimus"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **1 clinical trial** (Phase 2, completed) and **18 publications** (includin
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,12 @@ The very high TxGNN score is consistent with this reasoning. Two systematic revi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1305030B0AAAAAA | Pimecrolimus 1% cream | Cream (per product name) | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1305030B0AAAAAA | Pimecrolimus 1% cream | Pimecrolimus |
+| 1305030B0BBAAAA | Elidel 1% cream | Pimecrolimus |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the authorisation identifier above is reproduced as recorded and does not follow the usual MHRA "PL xxxxx/xxxx" format; it should be verified against the MHRA register. NICE appraisal status and BNF classification were not included in the data compiled for this report.
 

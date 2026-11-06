@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 589
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Nonpapillary renal cell carcinoma, renal cell adenocarcinoma…"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -52,8 +52,8 @@ The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appea
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold (research question; see Conclusion) |
 
 ---
@@ -92,11 +92,19 @@ However, the available Phase 2 data suggest that activity in liposarcoma subtype
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050AMAAAAAA | Sunitinib Cap 12.5mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050AMAAAAAA | Sunitinib 12.5mg capsules | Sunitinib |
+| 0801050AMAAABAB | Sunitinib 25mg capsules | Sunitinib |
+| 0801050AMAAADAD | Sunitinib 37.5mg capsules | Sunitinib |
+| 0801050AMAAACAC | Sunitinib 50mg capsules | Sunitinib |
+| 0801050AMBBAAAA | Sutent 12.5mg capsules | Sunitinib |
+| 0801050AMBBABAB | Sutent 25mg capsules | Sunitinib |
+| 0801050AMBBACAC | Sutent 50mg capsules | Sunitinib |
 
-Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number. Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current SmPC and BNF.
 
 ---
 

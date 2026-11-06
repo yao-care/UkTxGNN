@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly t
 | Predicted New Indication | Obstructive jaundice (top-ranked prediction, acute urate nephropathy, has no supporting evidence; see note below) |
 | TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for the top-ranked acute urate nephropathy |
 | Evidence Level | L5 (obstructive jaundice) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold (research question; no registered trials, evidence limited to small, older or preclinical studies) |
 
 **Note on selection:** The highest-scoring prediction, acute urate nephropathy (0.9989), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.
@@ -96,11 +96,18 @@ Selected from the retrieved publications, prioritising human studies. Study type
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0106040G0AAAAAA (BNF-style code, not a PL number) | Lactulose oral solution 3.1–3.7 g/5 ml | Oral solution | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0106040G0AAAGAG | Lactulose 10g/15ml oral solution 15ml sachets sugar free | Lactulose |
+| 0106040G0AAAAAA | Lactulose 3.1-3.7g/5ml oral solution | Lactulose |
+| 0106040G0BCAAAA | Duphalac 3.35g/5ml oral solution | Lactulose |
+| 0106040G0BEAAAA | Lactugal 3.1-3.7g/5ml oral solution | Lactulose |
+| 0106040G0BHAAAA | Lemlax 3.26g/5ml oral solution | Lactulose |
+| 0106040G0BFAAAA | Regulose 3.1-3.7g/5ml syrup | Lactulose |
 
-Only one authorisation record is available. The BNF classification code (section 1.6.4, osmotic laxatives) is consistent with its use as a laxative. Please check the current SmPC and BNF for the licensed indications and NICE guidance.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code (section 1.6.4, osmotic laxatives) is consistent with its use as a laxative. Please check the current SmPC and BNF for the licensed indications and NICE guidance.
 
 ---
 
@@ -125,7 +132,7 @@ Please refer to the SmPC and BNF for full warnings. Report suspected adverse rea
 **Decision: Hold**
 
 **Rationale:**
-The evidence for obstructive jaundice is limited to small, older clinical studies and animal experiments, with no registered trials. One review found no conclusive renoprotective effect, and one rat study found no benefit. The mechanistic hypothesis (reduced endotoxaemia) is reasonable but unproven, and the UK licence record carries no indication text.
+The evidence for obstructive jaundice is limited to small, older clinical studies and animal experiments, with no registered trials. One review found no conclusive renoprotective effect, and one rat study found no benefit. The mechanistic hypothesis (reduced endotoxaemia) is reasonable but unproven.
 
 **To proceed, the following is needed:**
 - Full-text review of the 1991 randomised multicentre study (PMID 2032107) and the 1986 study to confirm outcomes

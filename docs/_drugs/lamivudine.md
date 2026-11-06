@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 359
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Lamivudine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Lamivudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -50,8 +50,8 @@ This is an animal disease, so the prediction has limited relevance to human drug
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 (observational veterinary data only; no human trials) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010Q0AAADAD (BNF-style code; not a PL number) | Lamivudine 100 mg tablets | Tablet | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010Q0AAADAD | Lamivudine 100mg tablets | Lamivudine |
+| 0503010Q0AAAAAA | Lamivudine 150mg tablets | Lamivudine |
+| 0503010Q0AAACAC | Lamivudine 25mg/5ml oral solution | Lamivudine |
+| 0503010Q0AAAEAE | Lamivudine 300mg tablets | Lamivudine |
+| 0503010Q0AAABAB | Lamivudine 50mg/5ml oral solution | Lamivudine |
+| 0503010F0AAAAAA | Abacavir 300mg / Lamivudine 150mg / Zidovudine 300mg tablets | Abacavir/lamivudine/zidovudine |
+| 0503010Z0AAAAAA | Abacavir 600mg / Lamivudine 300mg tablets | Abacavir and lamivudine |
+| 0503010A0BBAAAA | Combivir 150mg/300mg tablets | Lamivudine and zidovudine |
+| 0503010ASBBAAAA | Delstrigo 100mg/300mg/245mg tablets | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010AZAAABAB | Dolutegravir 50mg / Abacavir 600mg / Lamivudine 300mg tab | Dolutegravir/Abacavir/Lamivudine |
+| 0503010AUAAAAAA | Dolutegravir 50mg / Lamivudine 300mg tablets | Dolutegravir/lamivudine |
+| 0503010AZAAAAAA | Dolutegravir 5mg/Abacavir 60mg/Lamivudine 30mg disp tab SF | Dolutegravir/Abacavir/Lamivudine |
+| 0503010ASAAAAAA | Doravirine 100mg/Lamivudine 300mg/Tenofovir disoproxil 245mg | Doravirine/lamivudine/tenofovir disoproxil |
+| 0503010AUBBAAAA | Dovato 50mg/300mg tablets | Dolutegravir/lamivudine |
+| 0503010Q0BBAAAA | Epivir 150mg tablets | Lamivudine |
+| 0503010Q0BBACAE | Epivir 300mg tablets | Lamivudine |
+| 0503010Q0BBABAB | Epivir 50mg/5ml oral solution | Lamivudine |
+| 0503010Z0BBAAAA | Kivexa 600mg/300mg tablets | Abacavir and lamivudine |
+| 0503010AVAAAAAA | Lamivudine 300mg / Tenofovir disoproxil 245mg tablets | Lamivudine/tenofovir disoproxil |
+| 0503010AZBBABAB | Triumeq 50mg/600mg/300mg tablets | Dolutegravir/Abacavir/Lamivudine |
+
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Cytotoxicity
 

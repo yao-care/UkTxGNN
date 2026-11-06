@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Epinastine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "Epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,12 @@ Currently no related literature available for rosacea conjunctivitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1104020ACAAAAAA | Epinastine HCl eye drops 0.5 mg/ml | Eye drops | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020ACAAAAAA | Epinastine 500micrograms/ml eye drops | Epinastine hydrochloride |
+| 1104020ACBBAAAA | Relestat 0.5mg/ml eye drops | Epinastine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the identifier above is as recorded in the compiled data and is not in standard MHRA "PL" format. It should be verified against the MHRA register. Dosage form is inferred from the product name. NICE appraisal and BNF classification details were not available.
 

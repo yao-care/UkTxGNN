@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 233
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dipivefrin: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Dipivefrin with a score of 0.99 or highe
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## Known uses among the model's candidates
 
@@ -72,10 +72,12 @@ The TxGNN model produced candidates for Dipivefrin with a score of 0.99 or highe
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000Q0BBAAAA | Propine_Ophth Soln 0.1% |  | Valid |
-| 1106000Q0AAAAAA | Dipivefrine HCl_Eye Dps 0.1% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000Q0AAAAAA | Dipivefrine 0.1% eye drops | Dipivefrine hydrochloride |
+| 1106000Q0BBAAAA | Propine 0.1% eye drops | Dipivefrine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

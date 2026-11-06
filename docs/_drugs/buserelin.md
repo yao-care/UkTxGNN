@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 118
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Buserelin: predicted new indication hypertrichosis (evidence level L4). Approved use: Prostate cancer"
 monitor_inn: "Buserelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and only **1 publication** (a cas
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,17 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803042B0AAABAB (BNF-style product code) | Buserelin nasal spray 100 micrograms (84 doses), 10 g | Nasal spray | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803042B0AAABAB | Buserelin 100micrograms/dose nasal spray | Buserelin |
+| 0607020B0AAAAAA | Buserelin 150micrograms/dose nasal spray | Buserelin |
+| 0803042B0AAAAAA | Buserelin 5.5mg/5.5ml solution for injection vials(Prostate) | Buserelin |
+| 0607020B0BBAAAA | Suprecur 150micrograms/dose nasal spray | Buserelin |
+| 0607020B0BBABAB | Suprecur 5.5mg/5.5ml solution for injection vials | Buserelin |
+| 0803042B0BBABAB | Suprefact 100micrograms/dose nasal spray | Buserelin |
+| 0803042B0BBAAAA | Suprefact 5.5mg/5.5ml solution for injection vials | Buserelin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Cytotoxicity
 

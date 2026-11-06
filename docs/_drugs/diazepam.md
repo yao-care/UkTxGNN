@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Diazepam is a benzodiazepine that enhances inhibitory GABA-A receptor signalling
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0401020K0AAAHAH | Diazepam Tab 2mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401020K0BLABAE | Diazepam 10mg RecTubes | Diazepam |
+| 0401020K0AABBBB | Diazepam 10mg suppositories | Diazepam |
+| 0401020K0AAAJAJ | Diazepam 10mg tablets | Diazepam |
+| 0401020K0AAAEAE | Diazepam 10mg/2.5ml rectal solution tube | Diazepam |
+| 0401020K0AAAQAQ | Diazepam 10mg/2ml emulsion for injection ampoules | Diazepam |
+| 0401020K0AAACAC | Diazepam 10mg/2ml solution for injection ampoules | Diazepam |
+| 0401020K0AAA1A1 | Diazepam 10mg/5ml oral solution | Diazepam |
+| 0401020K0AACKCK | Diazepam 10mg/5ml oral suspension | Diazepam |
+| 0401020K0AACHCH | Diazepam 15mg/5ml oral solution | Diazepam |
+| 0401020K0AABKBK | Diazepam 1mg/5ml oral solution | Diazepam |
+| 0401020K0BLACBQ | Diazepam 2.5mg RecTubes | Diazepam |
+| 0401020K0AABQBQ | Diazepam 2.5mg/1.25ml rectal solution tube | Diazepam |
+| 0401020K0AACBCB | Diazepam 2.5mg/5ml oral solution | Diazepam |
+| 0401020K0AACLCL | Diazepam 2.5mg/5ml oral suspension | Diazepam |
+| 0401020K0AABMBM | Diazepam 25mg/5ml oral solution | Diazepam |
+| 0401020K0AAAHAH | Diazepam 2mg tablets | Diazepam |
+| 0401020K0AAA6A6 | Diazepam 2mg/5ml oral solution | Diazepam |
+| 0401020K0AAAWAW | Diazepam 2mg/5ml oral solution sugar free | Diazepam |
+| 0401020K0AACICI | Diazepam 2mg/5ml oral suspension | Diazepam |
+| 0401020K0AACMCM | Diazepam 2mg/5ml oral suspension sugar free | Diazepam |
 
-At least one valid single-ingredient authorisation is on record, and the drug is marketed in the UK.
+Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

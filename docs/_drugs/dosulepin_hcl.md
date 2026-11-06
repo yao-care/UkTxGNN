@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -39,7 +39,6 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Dosulepin hydrochloride (also known as dothiepin) is a tricyclic antidepressant (TCA) historically used in the treatment of depression and anxiety-related conditions.
-The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a formal repurposing assessment impossible at this stage.
 Immediate remediation of **two critical data gaps** is required before this candidate can enter the evaluation pipeline.
 
 ---
@@ -52,8 +51,8 @@ Immediate remediation of **two critical data gaps** is required before this cand
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — TxGNN pipeline returned no candidates |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -86,9 +85,7 @@ Currently no related literature available in this Evidence Pack.
 
 ## UK Market Information
 
-No UK marketing authorisations are recorded in the current Evidence Pack.
-
-> **Important note for healthcare professionals**: Dosulepin HCl was previously marketed in the UK as **Prothiaden** (formerly by Knoll/Abbott). The absence of marketing authorisation records in this Evidence Pack likely reflects a data retrieval issue rather than confirmed non-authorised status. Current MHRA registration status should be verified directly via the [MHRA Products database](https://products.mhra.gov.uk/) before drawing regulatory conclusions. The BNF also provides current prescribing guidance on dosulepin where it remains available under specialist supervision.
+> **Important note for healthcare professionals**: Dosulepin HCl was previously marketed in the UK as **Prothiaden** (formerly by Knoll/Abbott). Current MHRA registration status should be verified directly via the [MHRA Products database](https://products.mhra.gov.uk/) before drawing regulatory conclusions. The BNF also provides current prescribing guidance on dosulepin where it remains available under specialist supervision.
 
 ---
 

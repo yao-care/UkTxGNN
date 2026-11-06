@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but there are currently **no registered clinical trials** and only **general mig
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (no clinical trials; only preclinical, mechanism and general review literature) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,11 +96,21 @@ The publications below are general migraine or triptan papers. None studies zolm
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407041Z0AAAAAA | Zolmitriptan tablets 2.5 mg | Tablet (as recorded in the compiled data) | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041Z0AAABAB | Zolmitriptan 2.5mg orodispersible tablets sugar free | Zolmitriptan |
+| 0407041Z0AAAAAA | Zolmitriptan 2.5mg tablets | Zolmitriptan |
+| 0407041Z0AAADAD | Zolmitriptan 5mg orodispersible tablets sugar free | Zolmitriptan |
+| 0407041Z0AAAEAE | Zolmitriptan 5mg tablets | Zolmitriptan |
+| 0407041Z0AAACAC | Zolmitriptan 5mg/0.1ml nasal spray unit dose | Zolmitriptan |
+| 0407041Z0BBAAAA | Zomig 2.5mg tablets | Zolmitriptan |
+| 0407041Z0BBACAC | Zomig 5mg/0.1ml nasal spray 0.1ml unit dose | Zolmitriptan |
+| 0407041Z0BBABAB | Zomig Rapimelt 2.5mg orodispersible tablets | Zolmitriptan |
+| 0407041Z0BBADAD | Zomig Rapimelt 5mg orodispersible tablets | Zolmitriptan |
 
-The compiled data show one valid single-ingredient authorisation. The identifier is in a non-standard format and is not a typical MHRA PL number, so it should be verified against the MHRA register. The dosage form and approved indication fields were blank. Please check the current SmPC, the BNF and any NICE guidance for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is in a non-standard format and is not a typical MHRA PL number, so it should be verified against the MHRA register. The dosage form and approved indication fields were blank. Please check the current SmPC, the BNF and any NICE guidance for the licensed indications.
 
 ---
 

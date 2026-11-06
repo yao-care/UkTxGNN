@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L4 (mechanistic and adjacent-condition evidence only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (44 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 44 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +90,30 @@ Currently no related clinical trials registered for ADHD.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010W0AAACAC | Pramipexole tablets 88 mcg | Tablet | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010W0AAAGAG | Pramipexole 1.05mg modified-release tablets | Pramipexole |
+| 0409010W0AAAJAJ | Pramipexole 1.57mg modified-release tablets | Pramipexole |
+| 0409010W0AAABAB | Pramipexole 180microgram tablets | Pramipexole |
+| 0409010W0AAAHAH | Pramipexole 2.1mg modified-release tablets | Pramipexole |
+| 0409010W0AAAKAK | Pramipexole 2.62mg modified-release tablets | Pramipexole |
+| 0409010W0AAAEAE | Pramipexole 260microgram modified-release tablets | Pramipexole |
+| 0409010W0AAAIAI | Pramipexole 3.15mg modified-release tablets | Pramipexole |
+| 0409010W0AAADAD | Pramipexole 350microgram tablets | Pramipexole |
+| 0409010W0AAAFAF | Pramipexole 520microgram modified-release tablets | Pramipexole |
+| 0409010W0AAAAAA | Pramipexole 700microgram tablets | Pramipexole |
+| 0409010W0AAACAC | Pramipexole 88microgram tablets | Pramipexole |
+| 0409010W0BBACAC | Mirapexin 0.088mg tablets | Pramipexole |
+| 0409010W0BBABAB | Mirapexin 0.18mg tablets | Pramipexole |
+| 0409010W0BBAEAE | Mirapexin 0.26mg modified-release tablets | Pramipexole |
+| 0409010W0BBADAD | Mirapexin 0.35mg tablets | Pramipexole |
+| 0409010W0BBAFAF | Mirapexin 0.52mg modified-release tablets | Pramipexole |
+| 0409010W0BBAAAA | Mirapexin 0.7mg tablets | Pramipexole |
+| 0409010W0BBAGAG | Mirapexin 1.05mg modified-release tablets | Pramipexole |
+| 0409010W0BBAJAJ | Mirapexin 1.57mg modified-release tablets | Pramipexole |
+| 0409010W0BBAHAH | Mirapexin 2.1mg modified-release tablets | Pramipexole |
+
+Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is as listed in the data and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. Please also consult the BNF and relevant NICE guidance for the licensed indications.
 

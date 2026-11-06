@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Aztreonam: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, Pseudomonas aeruginosa infection…"
 ---
 
@@ -50,8 +50,8 @@ The better-supported (though still limited) candidate in this list is **gonococc
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,18 @@ For context, the literature retrieved for the most evidence-supported alternativ
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501023A0AAAFAF | Aztreonam powder and solvent for nebuliser solution, 75 mg vial with device | Nebuliser solution (powder and solvent) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501023A0AAABAB | Aztreonam 1g powder for solution for injection vials | Aztreonam |
+| 0501023A0AAAAAA | Aztreonam 2g powder for solution for injection vials | Aztreonam |
+| 0501023A0AAACAC | Aztreonam 500mg powder for solution for injection vials | Aztreonam |
+| 0501023A0BBABAB | Azactam 1g powder for solution for injection vials | Aztreonam |
+| 0501023A0BBAAAA | Azactam 2g powder for solution for injection vials | Aztreonam |
+| 0501023A0BBACAC | Azactam 500mg powder for solution for injection vials | Aztreonam |
+| 0501023A0AAAFAF | Aztreonam 75mg neb soln vials with device | Aztreonam |
+| 0501023A0BCAAAF | Cayston 75mg neb soln vials with Altera Nebuliser Handset | Aztreonam |
 
-Only one single-ingredient authorisation is listed. The record does not include approved indication text, so no approved indications can be stated from it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

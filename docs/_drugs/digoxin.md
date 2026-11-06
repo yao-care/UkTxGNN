@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Digoxin is a cardiac glycoside. The TxGNN model predicts it may be effective for
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0201010F0AAADAD | Digoxin Tab 62.5mcg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0201010F0AAARAR | Digoxin 100micrograms/1ml solution for injection ampoules | Digoxin |
+| 0201010F0AAAEAE | Digoxin 125microgram tablets | Digoxin |
+| 0201010F0AAANAN | Digoxin 125micrograms/5ml oral liquid | Digoxin |
+| 0201010F0AAAFAF | Digoxin 250microgram tablets | Digoxin |
+| 0201010F0AAAPAP | Digoxin 250micrograms/5ml oral liquid | Digoxin |
+| 0201010F0AAACAC | Digoxin 500micrograms/2ml solution for infusion ampoules | Digoxin |
+| 0201010F0AAAAAA | Digoxin 50micrograms/ml oral solution | Digoxin |
+| 0201010F0AAADAD | Digoxin 62.5microgram tablets | Digoxin |
+| 0201010F0AAAQAQ | Digoxin 75micrograms/5ml oral liquid | Digoxin |
+| 0201010F0BEABAE | Digamex 125microgram tablets | Digoxin |
+| 0201010F0BEACAF | Digamex 250microgram tablets | Digoxin |
+| 0201010F0BEAAAD | Digamex 62.5microgram tablets | Digoxin |
+| 0201010F0BBAAAE | Lanoxin 125 tablets | Digoxin |
+| 0201010F0BBABAF | Lanoxin 250microgram tablets | Digoxin |
+| 0201010F0BBACAC | Lanoxin 500micrograms/2ml solution for infusion ampoules | Digoxin |
+| 0201010F0BBAGAR | Lanoxin Injection Pediatric 100micrograms/1ml inj ampoules | Digoxin |
+| 0201010F0BBAEAA | Lanoxin PG 50micrograms/ml elixir | Digoxin |
+| 0201010F0BBADAD | Lanoxin PG 62.5microgram tablets | Digoxin |
 
-The licence record is a single-ingredient product and currently valid. The product code format suggests it is a BNF-style code rather than a PL number, so the authorisation number should be checked against MHRA records.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The product code format suggests it is a BNF-style code rather than a PL number, so the authorisation number should be checked against MHRA records.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Albendazole is an anthelmintic medicine. The TxGNN model predicts it may be effe
 | Predicted New Indication | Coenurosis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -105,11 +105,17 @@ The publications are mainly reviews of neurocysticercosis and case reports of re
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0505030A0AAABAB | Albendazole 400 mg chewable tablets | Chewable tablet | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0505030A0AAACAC | Albendazole 200mg/5ml oral suspension | Albendazole |
+| 0505030A0AAABAB | Albendazole 400mg chewable tablets | Albendazole |
+| 0505030A0AAADAD | Albendazole 400mg tablets | Albendazole |
+| 0505030A0BBABAD | Eskazole 400mg tablets | Albendazole |
+| 0505030A0BCAAAB | Zentel 400mg chewable tablets | Albendazole |
 
-At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK. Please check the current SmPC and BNF for authorised uses.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC and BNF for authorised uses.
 
 ---
 

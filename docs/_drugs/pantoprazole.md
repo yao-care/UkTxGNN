@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ This is largely an on-label use rather than true repurposing, so the prediction 
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -67,7 +67,6 @@ The predicted indication is essentially the same as the drug's existing use in p
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [7614102](https://pubmed.ncbi.nlm.nih.gov/7614102/) | 1995 | RCT | Eur J Gastroenterol Hepatol | Double-blind comparison of pantoprazole 40 mg vs omeprazole 20 mg for acute duodenal ulcer healing |
@@ -83,11 +82,21 @@ The predicted indication is essentially the same as the drug's existing use in p
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103050R0AAAAAA | Pantoprazole gastro-resistant tablets 40 mg | Gastro-resistant tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103050R0AAABAB | Pantoprazole 20mg gastro-resistant tablets | Pantoprazole |
+| 0103050R0AAAEAE | Pantoprazole 20mg/5ml oral suspension | Pantoprazole |
+| 0103050R0AAAAAA | Pantoprazole 40mg gastro-resistant tablets | Pantoprazole |
+| 0103050R0AAACAC | Pantoprazole 40mg powder for solution for injection vials | Pantoprazole |
+| 0103050R0AAAFAF | Pantoprazole 40mg/5ml oral suspension | Pantoprazole |
+| 0103050R0BCAAAB | Pantoloc Control 20mg gastro-resistant tablets | Pantoprazole |
+| 0103050R0BBABAB | Protium 20mg gastro-resistant tablets | Pantoprazole |
+| 0103050R0BBAAAA | Protium 40mg gastro-resistant tablets | Pantoprazole |
+| 0103050R0BBACAC | Protium I.V. 40mg powder for solution for injection vials | Pantoprazole |
 
-One valid single-ingredient authorisation is recorded, with no cancelled authorisations. The identifier shown follows a BNF-style coding format rather than a standard PL number, so it should be verified against the MHRA register. In the BNF, pantoprazole is classified among the proton pump inhibitors under gastrointestinal drugs (BNF section 1.3.5).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown follows a BNF-style coding format rather than a standard PL number, so it should be verified against the MHRA register. In the BNF, pantoprazole is classified among the proton pump inhibitors under gastrointestinal drugs (BNF section 1.3.5).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Finasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DH
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,11 +78,17 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0604020C0AAAAAA | Finasteride Tab 5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1309000W0AAAAAA | Finasteride 1mg tablets | Finasteride |
+| 0604020C0AAADAD | Finasteride 5mg oral powder sachets | Finasteride |
+| 0604020C0AAAAAA | Finasteride 5mg tablets | Finasteride |
+| 0604020C0AAACAC | Finasteride 5mg/5ml oral suspension | Finasteride |
+| 1309000W0BCAAAA | Aindeem 1mg tablet | Finasteride |
+| 1309000W0BBAAAA | Propecia 1mg tablets | Finasteride |
+| 0604020C0BBAAAA | Proscar 5mg tablets | Finasteride |
 
-The data compiled for this report show one valid single-ingredient authorisation.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

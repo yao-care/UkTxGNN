@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **no clinical trials and no publications** supporting this predict
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (15 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 15 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,25 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704010A0AAAAAA | Alfuzosin HCl Tablets 2.5 mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704010A0AAADAD | Alfuzosin 10mg modified-release tablets | Alfuzosin hydrochloride |
+| 0704010A0AAAFAF | Alfuzosin 10mg/5ml oral solution | Alfuzosin hydrochloride |
+| 0704010A0AAAHAH | Alfuzosin 10mg/5ml oral suspension | Alfuzosin hydrochloride |
+| 0704010A0AAAAAA | Alfuzosin 2.5mg tablets | Alfuzosin hydrochloride |
+| 0704010A0AAABAB | Alfuzosin 5mg modified-release tablets | Alfuzosin hydrochloride |
+| 0704010A0BFABAD | Besavar XL 10mg tablets (Actavis UK Ltd) | Alfuzosin hydrochloride |
+| 0704010A0BFAAAD | Besavar XL 10mg tablets (Zentiva) | Alfuzosin hydrochloride |
+| 0704010A0BHAAAD | Fuzatal XL 10mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BJAAAD | Kelanu XL 10mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BIAAAD | Vasran XL 10mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BBAAAA | Xatral 2.5mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BBABAB | Xatral SR 5mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BBACAD | Xatral XL 10mg tablets | Alfuzosin hydrochloride |
+| 0704010A0BKAAAD | Zochek 10mg modified-release tablets | Alfuzosin hydrochloride |
+| 0704010A0BGAAAD | Zufal XL 10mg tablets | Alfuzosin hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the identifier above (which resembles a BNF-style classification code rather than a standard PL number) and the product details should be verified against the MHRA register and the current BNF entry.
 

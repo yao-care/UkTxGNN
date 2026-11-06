@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Subarachnoid haemorrhage (aneurysmal)"
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 0.9929 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206020M0AAABAB | Nimodipine tablet 30 mg | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020M0AAAAAA | Nimodipine 10mg/50ml solution for infusion vials | Nimodipine |
+| 0206020M0AAABAB | Nimodipine 30mg tablets | Nimodipine |
+| 0206020M0AAACAC | Nimodipine 30mg/5ml oral suspension | Nimodipine |
+| 0206020M0BBAAAA | Nimotop 0.02% solution for infusion 50ml vials | Nimodipine |
+| 0206020M0BBABAB | Nimotop 30mg tablets | Nimodipine |
 
-The data compiled for this report lists one valid single-ingredient authorisation. The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF.
 
 ## Safety Considerations
 

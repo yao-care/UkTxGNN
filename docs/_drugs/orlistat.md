@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Orlistat: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "Orlistat"
 predicted_indications: ["hypervitaminosis"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and **no publications*
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0405010P0AAAAAA (BNF-style product code; no PL number recorded) | Orlistat capsules 120 mg | Capsule (inferred from the product name) | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0405010P0AAAAAA | Orlistat 120mg capsules | Orlistat |
+| 0405010P0AAACAC | Orlistat 27mg chewable tablets | Orlistat |
+| 0405010P0AAABAB | Orlistat 60mg capsules | Orlistat |
+| 0405010P0BCABAC | Alli 27mg chewable tablets | Orlistat |
+| 0405010P0BCAAAB | Alli 60mg capsules | Orlistat |
+| 0405010P0BDAAAA | Beacita 120mg capsules | Orlistat |
+| 0405010P0BEAAAB | Orlos 60mg capsules | Orlistat |
+| 0405010P0BBAAAA | Xenical 120mg capsules | Orlistat |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF chapter 4.5 (obesity) is the usual classification for orlistat, and the record above corresponds to this code. The compiled data hold no indication text or NICE appraisal information for this product.
 

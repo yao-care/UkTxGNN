@@ -5,7 +5,7 @@ layout: default
 title: Benperidol
 parent: Known Uses Only (No New Predictions)
 nav_order: 95
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benperidol: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Benperidol"
 predicted_indications: []
@@ -43,14 +43,20 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010B0AAAAAA | Benperidol Tab 250mcg | Tablet (as indicated by product name) | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010B0AAAAAA | Benperidol 250microgram tablets | Benperidol |
+| 0402010B0AAABAB | Benperidol 250micrograms/5ml oral suspension | Benperidol |
+| 0402010B0AAACAC | Benperidol 500micrograms/5ml oral suspension | Benperidol |
+| 0402010B0BBAAAA | Anquil 250microgram tablets | Benperidol |
+| 0402010B0BCAAAA | Benquil 250microgram tablets | Benperidol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is a BNF-style classification code (BNF section 4.2.1, antipsychotic drugs) and not a standard MHRA product licence number (PL). The licence details should be checked against MHRA records.
 

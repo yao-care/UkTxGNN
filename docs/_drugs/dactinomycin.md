@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dactinomycin: predicted new indication Relapsing-remitting multiple sclerosis (evidence level L5). Approved use: Ewing sarcoma, testicular germ cell tumours…"
 monitor_inn: "Dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **relapsing-remitting multiple sclero
 | Predicted New Indication | Relapsing-remitting multiple sclerosis (top-ranked prediction) |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (top prediction); L3 for the rhabdomyosarcoma-related predictions |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold (for relapsing-remitting multiple sclerosis) |
 
 ---
@@ -96,9 +96,12 @@ No literature was linked to the top-ranked prediction (relapsing-remitting multi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801020D0AAAAAA (BNF code) | Dactinomycin injection 500 microgram vial | Injection (powder for solution) | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801020D0AAAAAA | Dactinomycin 500microgram inj vials | Dactinomycin |
+| 0801020D0BBAAAA | Cosmegen Lyovac 500microgram inj vials | Dactinomycin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF section 8.1.2 (cytotoxic antibiotics) is the relevant classification for this product. The number above is a BNF product code rather than a PL number.
 

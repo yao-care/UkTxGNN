@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 429
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the UK authorisation data compiled for this report (nab…"
 monitor_inn: "Nabilone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **migraine disorder**, with **no r
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (migraine); L3 for the related headache disorder prediction |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000R0AAAAAA (BNF-style product code; no PL number supplied) | Nabilone capsules 1 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000R0AAAAAA | Nabilone 1mg capsules | Nabilone |
+| 0406000R0AAAGAG | Nabilone 250microgram capsules | Nabilone |
+| 0406000R0AAAJAJ | Nabilone 2mg capsules | Nabilone |
+| 0406000R0AAAHAH | Nabilone 500microgram capsules | Nabilone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Dosage form and indication text are not recorded for this authorisation, so please check the current SmPC and BNF.
 

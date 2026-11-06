@@ -5,7 +5,7 @@ layout: default
 title: Pegvisomant
 parent: Known Uses Only (No New Predictions)
 nav_order: 481
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pegvisomant: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Pegvisomant"
 predicted_indications: []
@@ -43,15 +43,25 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
-
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0605010Z0AAACAC | Pegvisomant Inj 20mg Vl + Dil | Injection (vial with diluent) | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0605010Z0AAAAAA | Pegvisomant 10mg inj vials | Pegvisomant |
+| 0605010Z0AAABAB | Pegvisomant 15mg inj vials | Pegvisomant |
+| 0605010Z0AAACAC | Pegvisomant 20mg inj vials | Pegvisomant |
+| 0605010Z0AAADAD | Pegvisomant 25mg inj vials | Pegvisomant |
+| 0605010Z0AAAEAE | Pegvisomant 30mg inj vials | Pegvisomant |
+| 0605010Z0BBAAAA | Somavert 10mg inj vials | Pegvisomant |
+| 0605010Z0BBABAB | Somavert 15mg inj vials | Pegvisomant |
+| 0605010Z0BBACAC | Somavert 20mg inj vials | Pegvisomant |
+| 0605010Z0BBADAD | Somavert 25mg inj vials | Pegvisomant |
+| 0605010Z0BBAEAE | Somavert 30mg inj vials | Pegvisomant |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier follows the BNF-style code format (BNF chapter 6, endocrine system) rather than a standard MHRA PL number, so the MHRA authorisation details should be verified. No NICE-appraised indication data were available.
 

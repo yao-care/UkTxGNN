@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 | Predicted New Indication | Psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name |
-|---------|------|
-| 0411000F0AAABAB | Galantamine tablets 8 mg |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0411000F0AAACAC | Galantamine 12mg tablets | Galantamine |
+| 0411000F0AAAFAF | Galantamine 16mg modified-release capsules | Galantamine |
+| 0411000F0AAADAD | Galantamine 20mg/5ml oral solution sugar free | Galantamine |
+| 0411000F0AAAGAG | Galantamine 24mg modified-release capsules | Galantamine |
+| 0411000F0AAAAAA | Galantamine 4mg tablets | Galantamine |
+| 0411000F0AAAEAE | Galantamine 8mg modified-release capsules | Galantamine |
+| 0411000F0AAABAB | Galantamine 8mg tablets | Galantamine |
+| 0411000F0BEABAF | Acumor XL 16mg capsules | Galantamine |
+| 0411000F0BEACAG | Acumor XL 24mg capsules | Galantamine |
+| 0411000F0BEAAAE | Acumor XL 8mg capsules | Galantamine |
+| 0411000F0BLABAF | Consion XL 16mg capsules | Galantamine |
+| 0411000F0BLACAG | Consion XL 24mg capsules | Galantamine |
+| 0411000F0BLAAAE | Consion XL 8mg capsules | Galantamine |
+| 0411000F0BHABAF | Elmino XL 16mg capsules | Galantamine |
+| 0411000F0BHAAAG | Elmino XL 24mg capsules | Galantamine |
+| 0411000F0BHACAE | Elmino XL 8mg capsules | Galantamine |
+| 0411000F0BMABAF | Gaalin 16mg modified-release capsules | Galantamine |
+| 0411000F0BMACAG | Gaalin 24mg modified-release capsules | Galantamine |
+| 0411000F0BMAAAE | Gaalin 8mg modified-release capsules | Galantamine |
+| 0411000F0BCABAF | Galsya XL 16mg capsules | Galantamine |
+
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The record for this product holds no dosage form, manufacturer or approved indication text. The number is not in the MHRA "PL" format, so the authorisation should be verified against the MHRA register and the BNF entry before any further work.
 
@@ -109,7 +130,7 @@ The prediction has a high model score but no trials, no publications and no esta
 
 **To proceed, the following is needed:**
 - Any clinical or preclinical evidence linking cholinergic modulation to psychogenic movement disorders.
-- Confirmed mechanism-of-action data and a verified MHRA authorisation record, including SmPC warnings and contraindications.
+- Confirmed mechanism-of-action data, including SmPC warnings and contraindications.
 - A safety assessment covering cardiac conduction, the interactions above and the possible worsening of movement disorders.
 
 **Note on other predictions from the same analysis:**

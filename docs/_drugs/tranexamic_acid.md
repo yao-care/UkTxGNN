@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, but there are 
 | Predicted New Indication | Amenorrhea (disease) |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (26 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 26 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* Strictly, the grading rules would place this at L5 (model prediction only), because there are no clinical trials and only narrative reviews. L4 is retained here from the underlying assessment, but it rests on general pharmacology, not on studies of this indication.
@@ -86,11 +86,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0211000P0AAACAC | Tranexamic Acid Tab 500mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0211000P0AAAQAQ | Tranexamic acid 100mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AABFBF | Tranexamic acid 150mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AABGBG | Tranexamic acid 1g granules sachets | Tranexamic acid |
+| 0211000P0AABHBH | Tranexamic acid 1g/100ml infusion polyethylene bottles | Tranexamic acid |
+| 0211000P0AAAJAJ | Tranexamic acid 1g/5ml oral solution | Tranexamic acid |
+| 0211000P0AAAKAK | Tranexamic acid 2.5g/5ml oral solution | Tranexamic acid |
+| 0211000P0AABABA | Tranexamic acid 225mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAAZAZ | Tranexamic acid 240mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAAIAI | Tranexamic acid 250mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AABEBE | Tranexamic acid 250mg/5ml oral suspension | Tranexamic acid |
+| 0211000P0AAAUAU | Tranexamic acid 25mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAARAR | Tranexamic acid 300mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAAWAW | Tranexamic acid 350mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAANAN | Tranexamic acid 400mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AAAXAX | Tranexamic acid 425mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AABDBD | Tranexamic acid 5% mouthwash | Tranexamic acid |
+| 0211000P0AAACAC | Tranexamic acid 500mg tablets | Tranexamic acid |
+| 0211000P0AABIBI | Tranexamic acid 500mg/50ml infusion polyethylene bottles | Tranexamic acid |
+| 0211000P0AABBBB | Tranexamic acid 500mg/5ml oral solution | Tranexamic acid |
+| 0211000P0AABCBC | Tranexamic acid 500mg/5ml oral suspension | Tranexamic acid |
 
-Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the data compiled for this report. Please check the MHRA register, the BNF and the current SmPC for licensed indications. The record does not follow the usual UK "PL" numbering format, so the identifier should be verified.
+Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the MHRA register, the BNF and the current SmPC for licensed indications.
 
 ---
 

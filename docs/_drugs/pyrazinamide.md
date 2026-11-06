@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis"
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 | Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (35 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 35 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,32 @@ These reports describe pyrazinamide as one component of standard anti-TB therapy
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090N0AAAAAA (BNF-style code, not a PL number) | Pyrazinamide Tablets 500 mg | Tablet | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090N0AACHCH | Pyrazinamide 1.25g/5ml oral liquid | Pyrazinamide |
+| 0501090N0AACECE | Pyrazinamide 1.4g/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABMBM | Pyrazinamide 1.5g/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABIBI | Pyrazinamide 100mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AACFCF | Pyrazinamide 105mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABHBH | Pyrazinamide 125mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABABA | Pyrazinamide 150mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AAA7A7 | Pyrazinamide 175mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABCBC | Pyrazinamide 1g/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABFBF | Pyrazinamide 200mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABKBK | Pyrazinamide 250mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABUBU | Pyrazinamide 275mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABJBJ | Pyrazinamide 300mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AACDCD | Pyrazinamide 312.5mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABEBE | Pyrazinamide 350mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABDBD | Pyrazinamide 375mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABTBT | Pyrazinamide 400mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABZBZ | Pyrazinamide 420mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AABRBR | Pyrazinamide 425mg/5ml oral liquid | Pyrazinamide |
+| 0501090N0AACBCB | Pyrazinamide 430mg/5ml oral liquid | Pyrazinamide |
 
-The single authorisation is a valid single-ingredient product. The BNF classification code suggests section 5.1.9 (antituberculosis drugs). Please confirm the licensed indication and PL number against the MHRA record and SmPC.
+Showing 20 of 35 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code suggests section 5.1.9 (antituberculosis drugs). Please confirm the licensed indication and PL number against the MHRA record and SmPC.
 
 ---
 

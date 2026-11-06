@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cocaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the UK authorisation data"
 monitor_inn: "Cocaine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "rhinitis", "irritable bowel syndrome", "anaphylaxis", "neurocirculatory asthenia", "atopic conjunctivitis", "food-dependent exercise-induced anaphylaxis", "pharyngitis"]
@@ -50,8 +50,8 @@ This prediction rests on model output alone and is not supported by direct evide
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,10 +74,23 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1502010G0AAAAAA | Cocaine mouthwash 5% | Mouthwash | Not specified in the data compiled; BNF section 15.2 (local anaesthesia) |
-| 1502010F0AAATAT | Cocaine hydrochloride mouthwash 2% | Mouthwash | Not specified in the data compiled; BNF section 15.2 (local anaesthesia) |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1502010G0AAAIAI | Cocaine 10% mouthwash | Cocaine |
+| 1502010F0AAAXAX | Cocaine 10% nasal drops | Cocaine hydrochloride |
+| 1502010G0AAARAR | Cocaine 10% spray | Cocaine |
+| 1107000F0AAADAD | Cocaine 2% eye drops | Cocaine (Eye) |
+| 1502010G0AAADAD | Cocaine 2% mouthwash | Cocaine |
+| 1502010G0AAATAT | Cocaine 25% oromucosal paste | Cocaine |
+| 1107000F0AAAAAA | Cocaine 4% eye drops | Cocaine (Eye) |
+| 1107000F0AAAEAE | Cocaine 4% eye drops preservative free | Cocaine (Eye) |
+| 1502010G0AAAUAU | Cocaine 4% topical solution | Cocaine |
+| 1502010G0AAAAAA | Cocaine 5% mouthwash | Cocaine |
+| 1502010G0AAASAS | Cocaine 5% nasal spray | Cocaine |
+| 1502010G0AAABAB | Cocaine powder | Cocaine |
+| 0407020P0AAAIAI | Morphine and Cocaine elixir | Morphine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the identifiers above are NHS BNF product codes, not MHRA "PL" numbers, and the data compiled do not give approved indication text. Please verify the licensing details against the MHRA register and the SmPC.
 

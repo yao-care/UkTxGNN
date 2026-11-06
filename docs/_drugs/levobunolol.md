@@ -3,7 +3,7 @@ layout: default
 title: Levobunolol
 parent: Known Uses Only (No New Predictions)
 nav_order: 370
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Levobunolol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN deep-learning model produced candidates for Levobunolol, but every can
 | Item | Content |
 |------|------|
 | Known uses among model candidates | 2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 ## Known uses among the model's candidates
 
@@ -71,9 +71,14 @@ The TxGNN deep-learning model produced candidates for Levobunolol, but every can
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000T0AAABAB | Levobunolol HCl_Eye Dps 0.5% 0.4ml Ud |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000T0AAAAAA | Levobunolol 0.5% eye drops | Levobunolol hydrochloride |
+| 1106000T0AAABAB | Levobunolol 0.5% eye drops 0.4ml unit dose preservative free | Levobunolol hydrochloride |
+| 1106000T0BBAAAA | Betagan 0.5% eye drops | Levobunolol hydrochloride |
+| 1106000T0BBABAB | Betagan Unit Dose 0.5% eye drops 0.4ml unit dose | Levobunolol hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

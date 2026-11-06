@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Danazol: predicted new indication amenorrhoea (amenorrhea (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Danazol is a synthetic steroid with antigonadotropin activity that is marketed i
 | Predicted New Indication | amenorrhoea (amenorrhea (disease)) |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,8 +80,6 @@ No cited study evaluates danazol as a treatment for amenorrhoea as a disease. Th
 | [6819580](https://pubmed.ncbi.nlm.nih.gov/6819580/) | 1982 | Review | Prog Clin Biol Res | Danazol in endometriosis and infertility; suppresses ovarian function |
 
 ## UK Market Information
-
-Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The licence record does not include a dosage form, manufacturer or approved indication text, so no authorisation table is shown.
 
 ## Safety Considerations
 

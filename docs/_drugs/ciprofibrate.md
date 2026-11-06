@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ciprofibrate: predicted new indication Cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridaemia and familial combined hyperlipidaemia"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 | Predicted New Indication | Cholesterol-ester transfer protein deficiency |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,14 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 021200010AAAAAA | Ciprofibrate Tab 100 mg | Not stated | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 021200010AAAAAA | Ciprofibrate 100mg tablets | Ciprofibrate |
+| 021200010BBAAAA | Modalim 100mg tablets | Ciprofibrate |
 
-The data compiled for this report show one valid single-ingredient authorisation. The licence record has no indication text, so it does not by itself confirm any approved use. Ciprofibrate is described in pharmacology sources as used for severe hypertriglyceridaemia or mixed hyperlipidaemia when a statin is contraindicated or not tolerated, and as not approved by the US FDA or EMA.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Ciprofibrate is described in pharmacology sources as used for severe hypertriglyceridaemia or mixed hyperlipidaemia when a statin is contraindicated or not tolerated, and as not approved by the US FDA or EMA.
 
 ## Safety Considerations
 

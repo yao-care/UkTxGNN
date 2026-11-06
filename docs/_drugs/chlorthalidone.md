@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 | Predicted New Indication | primary hereditary glaucoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (4 of 4) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 4 (valid: 4) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,14 +68,29 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The data compiled for this report show the drug as marketed, with 4 valid single-ingredient licence records and no cancelled records. The records carry no dosage form or indication text. The product names are:
+The records carry no dosage form or indication text. The product names are:
 
-| Product Name | Licence Reference |
-|---------|------|
-| Hygroton Tab 50mg | 0202010F0BBAAAA |
-| Kalspare Tab | 0202040V0BBAAAA |
-| Chlortalidone Tab 50mg | 0202010F0AAAAAA |
-| Triamterene/Chlortalidone Tab 50mg/50mg | 0202040V0AAAAAA |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202010F0AAALAL | Chlortalidone 12.5mg tablets | Chlortalidone |
+| 0202010F0AAAAAA | Chlortalidone 50mg tablets | Chlortalidone |
+| 0202010F0AAAKAK | Chlortalidone 50mg/5ml oral suspension | Chlortalidone |
+| 020400040BDABAB | Atenix Co 100 tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040BDAAAA | Atenix Co 50 tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040AAABAB | Co-tenidone 100mg/25mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040AAACAC | Co-tenidone 100mg/25mg/5ml oral liquid | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040AAAAAA | Co-tenidone 50mg/12.5mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 0202010F0BBAAAA | Hygroton 50mg tablets | Chlortalidone |
+| 0202010F0BCABAL | Hylaton 12.5mg tablets | Chlortalidone |
+| 0202010F0BCAAAA | Hylaton 50mg tablets | Chlortalidone |
+| 0202040V0BBAAAA | Kalspare tablets | Triamterene with thiazides |
+| 020400040BEABAB | Tenchlor 100mg/25mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040BEAAAA | Tenchlor 50mg/12.5mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040BBAAAA | Tenoret 50mg/12.5mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040BCAAAB | Tenoretic 100mg/25mg tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 0202040V0AAAAAA | Triamterene 50mg / Chlortalidone 50mg tablets | Triamterene with thiazides |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

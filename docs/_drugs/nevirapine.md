@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,11 +87,22 @@ Five further publications (PMIDs 27748043, 1283296, 9145853, 12176326, 23320071 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010B0AAAAAA | Nevirapine tablets 200 mg | Tablet | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010B0AAADAD | Nevirapine 100mg modified-release tablets | Nevirapine |
+| 0503010B0AAAAAA | Nevirapine 200mg tablets | Nevirapine |
+| 0503010B0AAAEAE | Nevirapine 400mg modified-release tablets | Nevirapine |
+| 0503010B0AAACAC | Nevirapine 50mg modified-release tablets | Nevirapine |
+| 0503010B0AAABAB | Nevirapine 50mg/5ml oral suspension | Nevirapine |
+| 0503010B0BBADAD | Viramune 100mg modified-release tablets | Nevirapine |
+| 0503010B0BBAAAA | Viramune 200mg tablets | Nevirapine |
+| 0503010B0BBAEAE | Viramune 400mg modified-release tablets | Nevirapine |
+| 0503010B0BBACAC | Viramune 50mg modified-release tablets | Nevirapine |
+| 0503010B0BBABAB | Viramune 50mg/5ml oral suspension | Nevirapine |
 
-The record gives a BNF-style product code rather than a PL number, and no dosage form or indication text. Please check the MHRA register and the SmPC for the full licence details.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the MHRA register and the SmPC for the full licence details.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Urofollitropin: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the UK authorisation data compiled for this report (gen…"
 monitor_inn: "Urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0605010M0AAAFAF (BNF-style product code; PL number not available) | Urofollitropin Inj 150u Vl + Dil | Injection (vial with diluent) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0605010M0AAADAD | Urofollitropin 150unit inj ampoules | Urofollitropin |
+| 0605010M0AAAFAF | Urofollitropin 150unit inj vials | Urofollitropin |
+| 0605010M0AAACAC | Urofollitropin 75unit inj ampoules | Urofollitropin |
+| 0605010M0AAAEAE | Urofollitropin 75unit inj vials | Urofollitropin |
+| 0605010M0BHAAAE | Bravelle 75unit inj vials | Urofollitropin |
+| 0605010M0BGABAF | Fostimon 150unit inj vials | Urofollitropin |
+| 0605010M0BGAAAE | Fostimon 75unit inj vials | Urofollitropin |
+| 0605010M0BDACAD | Metrodin High Purity 150unit inj ampoules | Urofollitropin |
+| 0605010M0BDABAC | Metrodin High Purity 75unit inj ampoules | Urofollitropin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Donepezil: predicted new indication psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 | Predicted New Indication | psychogenic movement disorders |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,24 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0411000D0AAAAAA | Donepezil HCl_Tab 5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0411000D0AAAIAI | Donepezil 10mg orodispersible tablets | Donepezil hydrochloride |
+| 0411000D0AAAEAE | Donepezil 10mg orodispersible tablets sugar free | Donepezil hydrochloride |
+| 0411000D0AAABAB | Donepezil 10mg tablets | Donepezil hydrochloride |
+| 0411000D0AAAFAF | Donepezil 10mg/5ml oral suspension | Donepezil hydrochloride |
+| 0411000D0AAAJAJ | Donepezil 1mg/ml oral solution sugar free | Donepezil hydrochloride |
+| 0411000D0AAAHAH | Donepezil 5mg orodispersible tablets | Donepezil hydrochloride |
+| 0411000D0AAADAD | Donepezil 5mg orodispersible tablets sugar free | Donepezil hydrochloride |
+| 0411000D0AAAAAA | Donepezil 5mg tablets | Donepezil hydrochloride |
+| 0411000D0BCABAE | Apozyl 10mg orodispersible tablets | Donepezil hydrochloride |
+| 0411000D0BCAAAD | Apozyl 5mg orodispersible tablets | Donepezil hydrochloride |
+| 0411000D0BBABAB | Aricept 10mg tablets | Donepezil hydrochloride |
+| 0411000D0BBAAAA | Aricept 5mg tablets | Donepezil hydrochloride |
+| 0411000D0BBADAE | Aricept Evess 10mg orodispersible tablets | Donepezil hydrochloride |
+| 0411000D0BBACAD | Aricept Evess 5mg orodispersible tablets | Donepezil hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The licence is a single-ingredient product and is currently valid. Detailed dosage form and indication text are not available in the local data.
 

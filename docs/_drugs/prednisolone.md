@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 514
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Prednisolone: predicted new indication Alopecia areata (evidence level L2). Approved use: Autoimmune disease"
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **alopecia areata**, with **no 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (87 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 87 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -92,9 +92,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0603020T0AAAAAA (BNF code) | Prednisolone 1 mg tablets | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0603020T0AABBBB | Prednisolone 1.5mg/5ml oral liquid | Prednisolone |
+| 0603020T0AABJBJ | Prednisolone 1.67mg/5ml oral liquid | Prednisolone |
+| 0603020T0AABKBK | Prednisolone 10mg tablets | Prednisolone |
+| 0603020T0AABCBC | Prednisolone 10mg/5ml oral liquid | Prednisolone |
+| 0603020T0AABMBM | Prednisolone 10mg/ml oral solution sugar free | Prednisolone |
+| 0603020T0AAAYAY | Prednisolone 15mg/5ml oral liquid | Prednisolone |
+| 0603020T0AAATAT | Prednisolone 1mg gastro-resistant tablets | Prednisolone |
+| 0603020T0AAAAAA | Prednisolone 1mg tablets | Prednisolone |
+| 0603020T0AABFBF | Prednisolone 1mg/5ml oral liquid | Prednisolone |
+| 0603020T0AAAFAF | Prednisolone 2.5mg gastro-resistant tablets | Prednisolone |
+| 0603020T0AAABAB | Prednisolone 2.5mg tablets | Prednisolone |
+| 0603020T0AABIBI | Prednisolone 2.5mg/5ml oral liquid | Prednisolone |
+| 0603020T0AAAXAX | Prednisolone 20mg tablets | Prednisolone |
+| 0105020E0AAABAB | Prednisolone 20mg/100ml rectal solution | Prednisolone sodium phosphate |
+| 0603020T0AABGBG | Prednisolone 20mg/5ml oral liquid | Prednisolone |
+| 0603020T0AAARAR | Prednisolone 25mg tablets | Prednisolone |
+| 1001022N0AAABAB | Prednisolone 25mg/1ml suspension for injection ampoules | Prednisolone acetate |
+| 0603020T0AABDBD | Prednisolone 25mg/5ml oral liquid | Prednisolone |
+| 0603020T0AABQBQ | Prednisolone 2mg tablets | Prednisolone |
+| 0603020T0AABEBE | Prednisolone 2mg/5ml oral suspension | Prednisolone |
+
+Showing 20 of 87 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the number shown is a BNF-style product code rather than a standard PL number, and neither the indication text nor the manufacturer is recorded. Please check the current SmPC and BNF.
 

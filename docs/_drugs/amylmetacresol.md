@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amylmetacresol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -48,8 +48,8 @@ Amylmetacresol is a topical antiseptic, used in throat lozenges. The TxGNN model
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203030A0AAADAD | Amylmetacresol Lozenge 600 mcg (sugar-free) | Lozenge | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1203030A0AAAEAE | Amylmetacresol 600microgram lozenges | Amylmetacresol |
+| 1203030A0AAADAD | Amylmetacresol 600microgram lozenges sugar free | Amylmetacresol |
+| 1203030A0BCAAAD | Antiseptic Throat Drops Blackcurrant sugar free | Amylmetacresol |
+| 1203030A0BCABAE | Antiseptic Throat Drops Cherry Menthol | Amylmetacresol |
+| 1203030A0BCACAE | Antiseptic Throat Drops Orange and Menthol with Vitamin C | Amylmetacresol |
+| 1203030A0BCAFAE | Boots Sore Throat Relief 600microgram loz orange & menthol | Amylmetacresol |
+| 1203030A0BCADAE | Boots Sore Throat Relief 600microgram lozenges cherry | Amylmetacresol |
+| 1203030A0BCAEAE | Boots Sore Throat Relief 600microgram lozenges lemon | Amylmetacresol |
+| 1203030A0BCAGAD | Boots Sore Throat Relief 600microgram lozenges sugar free | Amylmetacresol |
+| 1203030A0AAACAC | Dichlorobenzyl alc 230microg/Amylmetacresol 120microg loz | Amylmetacresol |
+| 1203030A0AAAAAA | Dichlorobenzyl alcohol 1.2mg / Amylmetacresol 600microg loz | Amylmetacresol |
+| 1203030AAAAAAAA | Dichlorobenzyl alcohol 1.2mg/Amylmetacresol 600microg loz SF | Dichlorobenzyl alcohol/amylmetacresol |
+| 1203030A0AAABAB | Generic Strepsils Orange with Vitamin C 100mg lozenges | Amylmetacresol |
+| 1203030A0BIAAAC | Lloydspharmacy Antiseptic Throat lozenges | Amylmetacresol |
+| 1203030A0BBAIAA | Strepsils Children 6+ lozenges | Amylmetacresol |
+| 1203030A0BBAGAA | Strepsils Cool lozenges | Amylmetacresol |
+| 1203030A0BBABAA | Strepsils Honey and Lemon lozenges | Amylmetacresol |
+| 1203030A0BBAJAA | Strepsils Menthol 1.2mg/600microgram lozenges | Amylmetacresol |
+| 1203030A0BBACAB | Strepsils Orange with Vitamin C 100mg lozenges | Amylmetacresol |
+| 1203030A0BBAEAA | Strepsils Strawberry lozenges sugar free | Amylmetacresol |
 
-The record lists one valid single-ingredient authorisation. Dosage form and indication details were not available in the data compiled for this report, so the lozenge form is inferred from the product name.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication details were not available in the data compiled for this report, so the lozenge form is inferred from the product name.
 
 ## Safety Considerations
 

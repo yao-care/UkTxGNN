@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 443
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the UK licence data compiled for this report (the pha…"
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,9 +75,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206030N0AAAAAA (BNF-style code) | Nicorandil 10 mg tablets | Tablet (form not specified in the data) | Not specified in the data compiled; pharmacology sources describe chronic stable angina pectoris |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206030N0AAAEAE | Nicorandil 10mg oral powder sachets | Nicorandil |
+| 0206030N0AAAAAA | Nicorandil 10mg tablets | Nicorandil |
+| 0206030N0AAAFAF | Nicorandil 20mg oral powder sachets | Nicorandil |
+| 0206030N0AAABAB | Nicorandil 20mg tablets | Nicorandil |
+| 0206030N0BBAAAA | Ikorel 10mg tablets | Nicorandil |
+| 0206030N0BBABAB | Ikorel 20mg tablets | Nicorandil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

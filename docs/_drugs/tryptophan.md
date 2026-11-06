@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 646
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not available"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9972 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040S0AAABAB (BNF-style product code) | Tryptophan Tab 500mg | Tablet (not specified in the data) | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040S0AAAIAI | Tryptophan 500mg capsules | Tryptophan |
+| 0403040S0AAABAB | Tryptophan 500mg tablets | Tryptophan |
+| 0403040S0AAAGAG | Tryptophan 50mg capsules | Tryptophan |
+| 0403040S0BBAEAI | Optimax 500mg capsules (Esteve) | Tryptophan |
+| 0403040S0BBADAI | Optimax 500mg capsules (Special Order) | Tryptophan |
+| 0403040S0BBAAAB | Optimax 500mg tablets | Tryptophan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code suggests a listing under the central nervous system chapter (section 4.3, antidepressant drugs). Approved indication text and manufacturer details were not available, and no NICE-appraised indication was identified in the data.
 

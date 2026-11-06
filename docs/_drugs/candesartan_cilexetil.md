@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no clinical trials and no publications** that directly stu
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded. No approved-indication text or dosage-form detail is held in the data compiled for this report. Please check the current SmPC and the BNF for authorised uses and formulations.
+No approved-indication text or dosage-form detail is held in the data compiled for this report. Please check the current SmPC and the BNF for authorised uses and formulations.
 
 ## Safety Considerations
 

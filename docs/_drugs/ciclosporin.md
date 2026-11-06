@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -48,8 +48,8 @@ Ciclosporin is a well-established calcineurin inhibitor immunosuppressant; howev
 | Predicted New Indication | No TxGNN predictions available |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | N/A — No predictions generated |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Recommended Decision | **Hold** |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available — no predicted indication available 
 
 ## UK Market Information
 
-No marketing authorisation data is available in the evidence pack. **Note:** Ciclosporin is in fact widely authorised and marketed in the United Kingdom under multiple brand names (e.g., Sandimmun, Neoral, Capimune, Deximune). The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly.
+**Note:** Ciclosporin is in fact widely authorised and marketed in the United Kingdom under multiple brand names (e.g., Sandimmun, Neoral, Capimune, Deximune). The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly.
 
 ## Safety Considerations
 

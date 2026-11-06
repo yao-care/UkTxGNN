@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Ammonia"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Ammonia is a long-established agent with a single UK licence recorded in the data compiled for this report.
+Ammonia is a long-established agent.
 The TxGNN model predicts it may be relevant to **acrodermatitis chronica atrophicans**, with a score of 0.9970.
 **No clinical trials and no publications** support this prediction, so it rests on the model output alone.
 
@@ -50,8 +50,8 @@ The TxGNN model predicts it may be relevant to **acrodermatitis chronica atrophi
 | Predicted New Indication | acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190400000AAUIUI | Ammonia Solution Strong 3.5% | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190500000AAAAAA | Ammonia solution aromatic | Other preparations |
+| 190400000AAGGGG | Ammonia solution dilute | Other single substance preparations |
+| 190400000AAGJGJ | Ammonia solution strong | Other single substance preparations |
+| 190400000AAUIUI | Ammonia solution strong 3.5% liquid | Other single substance preparations |
+| 190400000BBBRUI | After Bite Classic 3.5% liquid | Other single substance preparations |
+| 0309020B0AAACAC | Ammonia and Ipecacuanha mixture | Ammonium bicarbonate |
+| 190400000BBBQUI | Boots Bite and Sting Relief 3.5% liquid | Other single substance preparations |
+| 0309020T0AAACAC | Ipecacuanha and Ammonia mixture paediatric | Ipecacuanha |
 
-The data compiled for this report contain one valid single-ingredient licence. Dosage form and indication text are not recorded for it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text are not recorded for it.
 
 ## Safety Considerations
 

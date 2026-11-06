@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Formaldehyde"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "mucocutaneous leishmaniasis", "pyelonephritis", "streptococcal pneumonia", "X-linked lymphoproliferative syndrome", "trigonitis", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "Plasmodium falciparum malaria"]
 description: "Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The score is a computational output only, and the available data point to safety
 | Predicted New Indication | Leishmaniasis, diffuse cutaneous |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,18 @@ Currently no related literature available for diffuse cutaneous leishmaniasis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1307000C0AAABAB | Formaldehyde solution gel 0.75% | Gel (topical) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1307000C0AAALAL | Formaldehyde (Buffered) 4% solution | Formaldehyde |
+| 1307000C0AAABAB | Formaldehyde 0.75% gel | Formaldehyde |
+| 1307000C0AAAHAH | Formaldehyde 2% solution | Formaldehyde |
+| 1307000C0AAAFAF | Formaldehyde 3% solution | Formaldehyde |
+| 1307000C0AAADAD | Formaldehyde 5% solution | Formaldehyde |
+| 1307000C0AAAXAX | Formaldehyde 6% solution | Formaldehyde |
+| 1307000C0AAACAC | Formaldehyde solution | Formaldehyde |
+| 1307000C0BBAAAB | Veracur 0.75% gel | Formaldehyde |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is as recorded in the compiled licence data and is not in the standard MHRA "PL" format. Please verify it against the MHRA register before relying on it.
 

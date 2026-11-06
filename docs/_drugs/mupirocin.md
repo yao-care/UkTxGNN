@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Mupirocin is a topical antibacterial originally used to treat impetigo, includin
 | Predicted New Indication | Pleural empyema (disease) |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -78,7 +78,6 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [15482208](https://pubmed.ncbi.nlm.nih.gov/15482208/) | 2004 | Review | Expert Rev Anti Infect Ther | Reviews treatment of bullous impetigo and SSSS in infants; bullous impetigo sits at the mild end of the same toxin-mediated spectrum |
@@ -97,11 +96,18 @@ Only PMID 37404367 evaluates mupirocin as part of a treatment regimen, and it do
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1202030R0AAAAAA | Mupirocin 2% ointment | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310011M0AAABAB | Mupirocin 2% cream | Mupirocin |
+| 1202030R0AAAAAA | Mupirocin 2% nasal ointment | Mupirocin |
+| 1310011M0AAAAAA | Mupirocin 2% ointment | Mupirocin |
+| 1310011M0BBABAB | Bactroban 2% cream | Mupirocin |
+| 1202030R0BBAAAA | Bactroban 2% nasal ointment | Mupirocin |
+| 1310011M0BBAAAA | Bactroban 2% ointment | Mupirocin |
 
-Only one valid single-ingredient authorisation is recorded, and the dosage form, manufacturer and approved indication text were not available in the data compiled for this report. The authorisation number above is not in the usual MHRA PL format, so please verify it against the MHRA register. Please also check the BNF and the current SmPC for the licensed indications and NICE guidance on topical antibacterials.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number above is not in the usual MHRA PL format, so please verify it against the MHRA register. Please also check the BNF and the current SmPC for the licensed indications and NICE guidance on topical antibacterials.
 
 ---
 
@@ -115,7 +121,6 @@ For full warnings, please refer to the SmPC and BNF. Report suspected adverse re
 ---
 
 ## Conclusion and Next Steps
-
 
 **Rationale:**
 - SSSS is mechanistically close to bullous impetigo, as both are caused by exfoliative toxin-producing *S. aureus*. A retrospective cohort study supports mupirocin as an adjunct to systemic antibiotics. However, the evidence is observational, there are no registered trials or RCTs, and mupirocin cannot replace systemic therapy.

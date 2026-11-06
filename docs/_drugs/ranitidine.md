@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Ranitidine is a histamine H2-receptor antagonist that suppresses gastric acid se
 | Predicted New Indication | Peptic ulcer perforation |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (62 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 62 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +79,30 @@ None of the publications below tests ranitidine as a treatment for peptic ulcer 
 
 ## UK Market Information
 
-Ranitidine is recorded as marketed in the UK, with one valid single-ingredient licence record in the data compiled for this report.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103010T0AAAZAZ | Ranitidine 1.5mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABIBI | Ranitidine 1.8mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AAAYAY | Ranitidine 10mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABPBP | Ranitidine 11.4mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABNBN | Ranitidine 12mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AAAIAI | Ranitidine 150mg effervescent tablets | Ranitidine hydrochloride |
+| 0103010T0AAAAAA | Ranitidine 150mg tablets | Ranitidine hydrochloride |
+| 0103010T0AABUBU | Ranitidine 150mg/5ml oral solution sugar free | Ranitidine hydrochloride |
+| 0103010T0AABEBE | Ranitidine 16mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABDBD | Ranitidine 18mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABTBT | Ranitidine 1mg/5ml oral solution | Ranitidine hydrochloride |
+| 0103010T0AABCBC | Ranitidine 20mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AAATAT | Ranitidine 25mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AAAJAJ | Ranitidine 300mg effervescent tablets | Ranitidine hydrochloride |
+| 0103010T0AAACAC | Ranitidine 300mg tablets | Ranitidine hydrochloride |
+| 0103010T0AAAWAW | Ranitidine 30mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AAAVAV | Ranitidine 31mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABVBV | Ranitidine 37.5mg/5ml oral solution | Ranitidine hydrochloride |
+| 0103010T0AABHBH | Ranitidine 3mg/5ml oral liquid | Ranitidine hydrochloride |
+| 0103010T0AABBBB | Ranitidine 40mg/5ml oral liquid | Ranitidine hydrochloride |
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0103010T0AAAAAA | Ranitidine HCl tablets 150 mg | Tablet (not specified in the data) | Not available in the data compiled for this report |
+Showing 20 of 62 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

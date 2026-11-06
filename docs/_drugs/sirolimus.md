@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,7 +50,8 @@ Currently there is **1 registered clinical trial** (completed, no published resu
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +77,20 @@ This rationale remains theoretical. The supporting literature consists mainly of
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0802020U0AAADAD (BNF-style product code, not a PL number) | 1 (valid: 1) | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0802020U0AAADAD | Sirolimus 1mg tablets | Sirolimus |
+| 0802020U0AAACAC | Sirolimus 1mg/ml oral solution sugar free | Sirolimus |
+| 0802020U0AAAEAE | Sirolimus 2mg tablets | Sirolimus |
+| 0802020U0AAAGAG | Sirolimus 2mg/g gel | Sirolimus |
+| 0802020U0AAAFAF | Sirolimus 500microgram tablets | Sirolimus |
+| 0802020U0BCAAAG | Hyftor 2mg/g gel | Sirolimus |
+| 0802020U0BBAFAF | Rapamune 0.5mg tablets | Sirolimus |
+| 0802020U0BBADAD | Rapamune 1mg tablets | Sirolimus |
+| 0802020U0BBACAC | Rapamune 1mg/ml oral solution | Sirolimus |
+| 0802020U0BBAEAE | Rapamune 2mg tablets | Sirolimus |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

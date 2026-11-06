@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Gout"
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **renal hypouricaemia**, but the 
 | Predicted New Indication | Hypouricaemia, renal |
 | TxGNN Prediction Score | 0.9907 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,13 @@ The 19 publications identified are mostly case reports and mechanistic studies. 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001040A0AAAAAA | Benzbromarone tablets 100 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040A0AAAAAA | Benzbromarone 100mg tablets | Benzbromarone |
+| 1001040A0AAABAB | Benzbromarone 50mg tablets | Benzbromarone |
+| 1001040A0BBAAAA | Desuric 100mg tablets | Benzbromarone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above does not follow the usual MHRA format (PL XXXXX/XXXX), so the licensing details should be verified against the MHRA records. The data compiled for this report do not include NICE appraisals or the BNF classification for this product.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 | Predicted New Indication | Cauda equina neoplasm |
 | TxGNN Prediction Score | 0.9930 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,30 @@ Only one report (a single case of spinal myxopapillary ependymoma) is close to t
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050Y0AAADAD | Temozolomide capsule 20 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050Y0AAAAAA | Temozolomide 100mg capsules | Temozolomide |
+| 0801050Y0AAAEAE | Temozolomide 140mg capsules | Temozolomide |
+| 0801050Y0AAAFAF | Temozolomide 180mg capsules | Temozolomide |
+| 0801050Y0AAADAD | Temozolomide 20mg capsules | Temozolomide |
+| 0801050Y0AAABAB | Temozolomide 250mg capsules | Temozolomide |
+| 0801050Y0AAACAC | Temozolomide 5mg capsules | Temozolomide |
+| 0801050Y0BBAAAA | Temodal 100mg capsules | Temozolomide |
+| 0801050Y0BBAEAE | Temodal 140mg capsules | Temozolomide |
+| 0801050Y0BBAFAF | Temodal 180mg capsules | Temozolomide |
+| 0801050Y0BBADAD | Temodal 20mg capsules | Temozolomide |
+| 0801050Y0BBABAB | Temodal 250mg capsules | Temozolomide |
+| 0801050Y0BBACAC | Temodal 5mg capsules | Temozolomide |
+| 0801050Y0BCACAA | Temomedac 100mg capsules | Temozolomide |
+| 0801050Y0BCADAE | Temomedac 140mg capsules | Temozolomide |
+| 0801050Y0BCAEAF | Temomedac 180mg capsules | Temozolomide |
+| 0801050Y0BCABAD | Temomedac 20mg capsules | Temozolomide |
+| 0801050Y0BCAFAB | Temomedac 250mg capsules | Temozolomide |
+| 0801050Y0BCAAAC | Temomedac 5mg capsules | Temozolomide |
 
-The list contains one single-ingredient authorisation record, and it is complete. No approved indication text is available in the data compiled, so the original indications above are not confirmed licence wording.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No approved indication text is available in the data compiled, so the original indications above are not confirmed licence wording.
 
 ---
 

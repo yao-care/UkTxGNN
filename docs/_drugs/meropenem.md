@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Serious bacterial infections…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,11 +94,17 @@ No randomised trials were found. The most relevant of the 20 publications retrie
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501022A0AAAAAA | Meropenem injection 500 mg vial (dry powder) | Powder for injection (vial) | Not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501022A0AAABAB | Meropenem 1g powder for solution for injection vials | Meropenem |
+| 0501022A0AAAFAF | Meropenem 2g powder for solution for injection vials | Meropenem |
+| 0501022A0AAAAAA | Meropenem 500mg powder for solution for injection vials | Meropenem |
+| 0501022A0BBABAB | Meronem 1g powder for solution for injection vials | Meropenem |
+| 0501022A0BBAAAA | Meronem 500mg powder for solution for injection vials | Meropenem |
 
-This is the only authorisation listed. The identifier is not in the usual PL format, so please check the authorisation details against the MHRA register, the SmPC and the BNF before relying on them.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the usual PL format, so please check the authorisation details against the MHRA register, the SmPC and the BNF before relying on them.
 
 ---
 

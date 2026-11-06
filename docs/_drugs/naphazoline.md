@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -52,8 +52,8 @@ but there are **no clinical trials and no publications** supporting this predict
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,11 +84,18 @@ For context, the only publication retrieved for any of the top ten predictions r
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1104020ABAAAAAA (BNF code) | Hamamelis/Naphazoline Eye Drops 12.5/0.01% | Eye drops | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020R0AAAAAA | Naphazoline 0.012% eye drops | Naphazoline hydrochloride |
+| 1104020ABBBAAAA | Eye drew blue/clear | Hamamalis |
+| 1104020ABAAAAAA | Hamamelis water 12.5% / Naphazoline 0.01% eye drops | Hamamalis |
+| 1104020R0BBAAAA | Murine irritation & redness relief 0.012% eye drops | Naphazoline hydrochloride |
+| 1104020ABBCAAAA | Optrex Bloodshot eye drops | Hamamalis |
+| 1104020ABBCABAA | Optrex Red Eyes eye drops | Hamamalis |
 
-This is a single-ingredient authorisation record for a witch hazel (hamamelis) and naphazoline eye drop product. Dosage form and indication text were not recorded in the data compiled for this report. Please check the current SmPC and BNF entry.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text were not recorded in the data compiled for this report. Please check the current SmPC and BNF entry.
 
 ---
 

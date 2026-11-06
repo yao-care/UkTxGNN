@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -72,11 +72,16 @@ The link to the predicted indication is weak. Hypertrichosis is not a classic an
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0607020D0AAAAAA | Cetrorelix injection 250 micrograms vial with diluent | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0607020D0AAAAAA | Cetrorelix 250microgram inj vials | Cetrorelix |
+| 0607020D0AAABAB | Cetrorelix 3mg inj vials | Cetrorelix |
+| 0607020D0BBAAAA | Cetrotide 250microgram inj vials | Cetrorelix |
+| 0607020D0BBABAB | Cetrotide 3mg inj vials | Cetrorelix |
 
-The identifier above is the BNF-style product code from the data compiled for this report, not a PL number. The record has no dosage form or indication text, so the licensed indication should be confirmed against the current SmPC.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above is the BNF-style product code from the data compiled for this report, not a PL number.
 
 ---
 

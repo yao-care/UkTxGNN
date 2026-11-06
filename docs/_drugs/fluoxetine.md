@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Fluoxetine"
 predicted_indications: ["paranoid personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **7 publications** (rev
 | Predicted New Indication | Paranoid personality disorder |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (22 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 22 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form |
-|---------|------|------|
-| 0403030E0AAAAAA (identifier as listed; it is not in PL number format) | Fluoxetine hydrochloride capsules 20 mg | Capsule (taken from the product name) |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403030E0AAALAL | Fluoxetine 10mg capsules | Fluoxetine hydrochloride |
+| 0403030E0AAAPAP | Fluoxetine 10mg tablets | Fluoxetine hydrochloride |
+| 0403030E0AAAQAQ | Fluoxetine 10mg/5ml oral suspension | Fluoxetine hydrochloride |
+| 0403030E0AAAGAG | Fluoxetine 2.5mg/5ml oral liquid | Fluoxetine hydrochloride |
+| 0403030E0AAAAAA | Fluoxetine 20mg capsules | Fluoxetine hydrochloride |
+| 0403030E0AAAKAK | Fluoxetine 20mg dispersible tablets sugar free | Fluoxetine hydrochloride |
+| 0403030E0AAACAC | Fluoxetine 20mg/5ml oral solution | Fluoxetine hydrochloride |
+| 0403030E0AAAHAH | Fluoxetine 20mg/5ml oral solution sugar free | Fluoxetine hydrochloride |
+| 0403030E0AAARAR | Fluoxetine 20mg/5ml oral suspension | Fluoxetine hydrochloride |
+| 0403030E0AAAIAI | Fluoxetine 2mg/5ml oral liquid | Fluoxetine hydrochloride |
+| 0403030E0AAAMAM | Fluoxetine 30mg capsules | Fluoxetine hydrochloride |
+| 0403030E0AAANAN | Fluoxetine 40mg capsules | Fluoxetine hydrochloride |
+| 0403030E0AAAEAE | Fluoxetine 60mg capsules | Fluoxetine hydrochloride |
+| 0403030E0BCAAAA | Felicium 20mg capsules | Fluoxetine hydrochloride |
+| 0403030E0BHAAAK | Olena 20mg dispersible tablets | Fluoxetine hydrochloride |
+| 0403030E0BDAAAA | Oxactin 20mg capsules | Fluoxetine hydrochloride |
+| 0403030E0BBAAAA | Prozac 20mg capsules | Fluoxetine hydrochloride |
+| 0403030E0BBABAC | Prozac 20mg/5ml liquid | Fluoxetine hydrochloride |
+| 0403030E0BBACAE | Prozac 60mg capsules | Fluoxetine hydrochloride |
+| 0403030E0BGAAAH | Prozep 20mg/5ml oral solution | Fluoxetine hydrochloride |
+
+Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

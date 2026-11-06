@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **no registered clinical trials** and only **indirect li
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,11 +84,14 @@ None of the publications below studies brainstem aura directly. They concern nar
 
 ## UK Market Information
 
-Marketing authorisation details recorded for this product are incomplete (no UK licence number, dosage form or approved indication text is available in the data compiled for this report). Only the following product entry is available:
+Only the following product entry is available:
 
-| Product Name | Strength | Status |
-|---------|------|------|
-| Naratriptan hydrochloride tablets | 2.5 mg | Valid (single-ingredient product) |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041M0AAAAAA | Naratriptan 2.5mg tablets | Naratriptan hydrochloride |
+| 0407041M0BBAAAA | Naramig 2.5mg tablets | Naratriptan hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Please check the MHRA product database and the BNF for licence numbers and current approved indications.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 521
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **renal hypouricaemia**, but the 
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,11 +96,18 @@ Twenty publications were retrieved for renal hypouricaemia. They are reviews, ca
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001040K0AAAAAA | Probenecid Tablets 500 mg | Tablet (not stated in the licence record) | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040K0AAADAD | Probenecid 250mg tablets | Probenecid |
+| 1001040K0AAAFAF | Probenecid 300mg tablets | Probenecid |
+| 1001040K0AAAAAA | Probenecid 500mg tablets | Probenecid |
+| 1001040K0BFAAAA | Benemid 500mg tablets (Imported) | Probenecid |
+| 1001040K0BBAAAA | Benemid 500mg tablets (Merck Sharp & Dohme Ltd) | Probenecid |
+| 1001040K0BCAAAA | Benuryl 500mg tablets | Probenecid |
 
-This is the only authorisation in the compiled data, and the identifier does not follow the usual PL number format. Please verify the authorisation details against the MHRA register.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please verify the authorisation details against the MHRA register.
 
 ---
 

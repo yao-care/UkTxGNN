@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 206
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocyst
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -91,11 +91,19 @@ Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (de
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501100H0AAAFAF | Dapsone 50 mg tablets | Tablet | Indication text not available in the compiled record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501100H0AAAHAH | Dapsone 100mg tablets | Dapsone |
+| 0501100H0AAAPAP | Dapsone 20mg/5ml oral suspension | Dapsone |
+| 0501100H0AAAMAM | Dapsone 40mg/5ml oral suspension | Dapsone |
+| 0501100H0AAAFAF | Dapsone 50mg tablets | Dapsone |
+| 0501100H0AAALAL | Dapsone 50mg/5ml oral suspension | Dapsone |
+| 0501100H0AAAKAK | Dapsone 5mg/5ml oral liquid | Dapsone |
+| 0501100H0AAANAN | Dapsone 75mg/5ml oral suspension | Dapsone |
+| 0504010Q0AAAAAA | Dapsone 100mg / Pyrimethamine 12.5mg tablets | Pyrimethamine with dapsone |
+| 0504010Q0BBAAAA | Maloprim tablets | Pyrimethamine with dapsone |
 
-This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MHRA register for the authorisation details.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -124,7 +132,7 @@ Please also refer to the SmPC and BNF for full safety information. Report suspec
 Four completed Phase 3 trials (NCT00000802, NCT00000991, NCT00001028, NCT00000640) and systematic reviews support dapsone-containing regimens for PCP prophylaxis and treatment. Co-trimoxazole remains first choice, so dapsone is best positioned as an alternative for patients intolerant of it. Haemolysis and methaemoglobinaemia require active risk management.
 
 **To proceed, the following is needed:**
-- Confirmation of the UK licensed indications and current SmPC. The record has no indication text, so it is unclear whether PCP is within the licence.
+- Confirmation of the UK licensed indications and current SmPC.
 - Mechanism of action data from a primary source (currently a data gap).
 - A G6PD screening and methaemoglobin monitoring plan.
 - A review of the interaction list, particularly agents that may add to haemolytic or methaemoglobin-forming risk.

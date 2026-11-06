@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Schizophrenia and other psychoses"
 monitor_inn: "periciazine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,12 +74,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010P0AAADAD | Pericyazine Tablets 2.5 mg | Tablet | Not stated in the compiled records |
-| 0402010P0BBABAE | Neulactil Tablets 10 mg | Tablet | Not stated in the compiled records |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010P0AAAEAE | Pericyazine 10mg tablets | Pericyazine |
+| 0402010P0AAACAC | Pericyazine 10mg/5ml oral solution | Pericyazine |
+| 0402010P0AAADAD | Pericyazine 2.5mg tablets | Pericyazine |
+| 0402010P0AAAGAG | Pericyazine 2.5mg/5ml oral liquid | Pericyazine |
+| 0402010P0BBABAE | Neulactil 10mg tablets | Pericyazine |
+| 0402010P0BBAAAD | Neulactil 2.5mg tablets | Pericyazine |
+| 0402010P0BBADAC | Neulactil Forte syrup | Pericyazine |
 
-Both products are valid single-ingredient authorisations. The identifiers shown are BNF-style codes (BNF chapter 4.2.1, antipsychotic drugs), not MHRA "PL" numbers. Dosage form is inferred from the product names, as it is not recorded in the compiled data. No NICE-appraised indication for migraine was identified.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown are BNF-style codes (BNF chapter 4.2.1, antipsychotic drugs), not MHRA "PL" numbers. Dosage form is inferred from the product names, as it is not recorded in the compiled data. No NICE-appraised indication for migraine was identified.
 
 ## Safety Considerations
 

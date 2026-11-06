@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Currently there are **no registered clinical trials** and **5 publications**, no
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (34 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 34 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-Cetirizine is currently marketed in the data compiled for this report, with one valid single-ingredient licence record (Cetirizine HCl tablets, 10 mg). Dosage form and indication text are not recorded for this record. Please consult the MHRA register and the BNF for full product details.
+Dosage form and indication text are not recorded for this record. Please consult the MHRA register and the BNF for full product details.
 
 ---
 

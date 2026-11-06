@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 113
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Budesonide: predicted new indication Atopic eczema (evidence level L4). Approved use: Crohn's disease, inflammatory bowel disease, asthma, allergic rhinitis"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but **no cli
 | Predicted New Indication | Atopic eczema |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (79 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 79 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,30 @@ Most other retrieved papers concern contact sensitisation, eosinophilic oesophag
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0105020A0AAACAC (BNF-style product code, not a PL number) | Budesonide capsules 3 mg (enteric-coated pellets) | Capsule (modified release) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0302000K0AAAKAK | Budesonide 100micrograms/dose dry powder inhaler | Budesonide |
+| 0302000K0AAAZAZ | Budesonide 100micrograms/dose inhaler CFC free | Budesonide |
+| 1202010I0AAACAC | Budesonide 100micrograms/dose nasal spray | Budesonide |
+| 0105020A0AAAGAG | Budesonide 1mg orodispersible tablets sugar free | Budesonide |
+| 0302000K0AAAIAI | Budesonide 1mg/2ml nebuliser liquid unit dose vials | Budesonide |
+| 0302000K0AABEBE | Budesonide 1mg/2ml nebuliser suspension unit dose ampoules | Budesonide |
+| 0302000K0BEAAAR | Budesonide 200 Cyclocaps | Budesonide |
+| 0302000K0AAARAR | Budesonide 200microgram inhalation powder capsules | Budesonide |
+| 0302000K0AAAWAW | Budesonide 200micrograms/dose dry pdr inhalation cartridge | Budesonide |
+| 0302000K0AAAGAG | Budesonide 200micrograms/dose dry powder inhaler | Budesonide |
+| 0302000K0AAADAD | Budesonide 200micrograms/dose inhaler | Budesonide |
+| 0302000K0AABABA | Budesonide 200micrograms/dose inhaler CFC free | Budesonide |
+| 0105020A0AAABAB | Budesonide 2mg/100ml enema | Budesonide |
+| 0105020A0AAACAC | Budesonide 3mg gastro-resistant capsules | Budesonide |
+| 0105020A0AAAAAA | Budesonide 3mg gastro-resistant modified-release capsules | Budesonide |
+| 0302000K0BEABAS | Budesonide 400 Cyclocaps | Budesonide |
+| 0302000K0AAASAS | Budesonide 400microgram inhalation powder capsules | Budesonide |
+| 0302000K0AAAHAH | Budesonide 400micrograms/dose dry powder inhaler | Budesonide |
+| 0105020A0AAAIAI | Budesonide 4mg suppositories | Budesonide |
+| 0105020A0AAAHAH | Budesonide 500microgram orodispersible tablets sugar free | Budesonide |
+
+Showing 20 of 79 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The product is in the BNF gastrointestinal chapter, consistent with its use in inflammatory bowel disease. No topical formulation for atopic eczema appears in the data.
 

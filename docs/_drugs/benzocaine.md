@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant for **papillary conjunctivitis**, bu
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9938 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (41 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 41 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203010C0AAARAR | Benzocaine Gel 20% | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1303000B0AAAIAI | Benzocaine 1% spray | Benzocaine |
+| 1203030B0AAABAB | Benzocaine 1.5mg/dose oromucosal spray sugar free | Benzocaine |
+| 1203010C0AAAPAP | Benzocaine 10% dental gel sugar free | Benzocaine |
+| 1203010C0AAAQAQ | Benzocaine 125mg/5ml oral liquid | Benzocaine |
+| 1203010C0AAAKAK | Benzocaine 150mg/5ml oral liquid | Benzocaine |
+| 1203030B0AAAIAI | Benzocaine 1mg/dose oromucosal spray sugar free | Benzocaine |
+| 1203010C0AAARAR | Benzocaine 20% dental gel sugar free | Benzocaine |
+| 1303000B0AAAFAF | Benzocaine 3% cream | Benzocaine |
+| 190400000AAHNHN | Benzocaine powder | Other single substance preparations |
+| 1203030B0BCAAAB | AAA 1.5mg/dose sore throat spray | Benzocaine |
+| 1303000B0BFAAAK | Anthisan Plus Sting Relief spray | Benzocaine |
+| 1303000B0AAACAC | Benzocaine 0.5% / Triclosan 0.2% lotion | Benzocaine |
+| 1303000B0AAAJAJ | Benzocaine 1% / Mepyramine 0.5% spray | Benzocaine |
+| 1303000B0AAABAB | Benzocaine 1% / Triclosan 0.2% cream | Benzocaine |
+| 1203030B0AAAHAH | Benzocaine 10mg / Cetylpyridinium chloride 1.4mg lozenges | Benzocaine |
+| 1203030B0AAAEAE | Benzocaine 10mg / Dequalinium chloride 250microgram lozenges | Benzocaine |
+| 1203010C0AAALAL | Benzocaine 2% / Chloroxylenol 0.106% oromucosal gel SF | Benzocaine |
+| 1303000B0AAAKAK | Benzocaine 2% / Mepyramine 2% spray | Benzocaine |
+| 1303000B0AAAEAE | Benzocaine 2.857% / Triclosan 0.057% spray | Benzocaine |
+| 1203030B0AAACAC | Benzocaine 5mg / Tyrothricin 1mg lozenges | Benzocaine |
 
-The licence is a single-ingredient product and is currently valid. The authorisation record carries no dosage form or indication text, so the list may not reflect the full range of UK products.
+Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The licence is a single-ingredient product and is currently valid.
 
 ## Safety Considerations
 

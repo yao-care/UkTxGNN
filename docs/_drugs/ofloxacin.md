@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **septicaemic plague**. The suppor
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 The evidence level is L5 because no cited study directly examines septicaemic plague in humans. The retrieved publications are animal and in vitro studies of *Yersinia pestis* (the cause of plague). The pipeline's own preliminary grading was L4, but under the ceiling rule L5 applies.
@@ -97,11 +97,23 @@ Two further retrieved papers concern *Burkholderia* and *Vibrio cholerae* rather
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501120P0AAABAB | Ofloxacin 400 mg tablets | Tablet | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1201010ABAAAAAA | Ofloxacin 0.3% ear drops | Ofloxacin |
+| 1103010Y0AAAAAA | Ofloxacin 0.3% eye drops | Ofloxacin |
+| 0501120P0AAADAD | Ofloxacin 100mg/5ml oral liquid | Ofloxacin |
+| 0501120P0AAAAAA | Ofloxacin 200mg tablets | Ofloxacin |
+| 0501120P0AAACAC | Ofloxacin 200mg/100ml solution for infusion bottles | Ofloxacin |
+| 0501120P0AAAEAE | Ofloxacin 250mg/5ml oral liquid | Ofloxacin |
+| 0501120P0AAABAB | Ofloxacin 400mg tablets | Ofloxacin |
+| 1103010Y0BBAAAA | Exocin 0.3% eye drops | Ofloxacin |
+| 0501120P0BBAAAA | Tarivid 200mg tablets | Ofloxacin |
+| 0501120P0BBADAC | Tarivid 200mg/100ml solution for infusion bottles | Ofloxacin |
+| 0501120P0BBACAB | Tarivid 400mg tablets | Ofloxacin |
 
-This is a single-ingredient product with a valid status. The listed number appears to be a product code rather than a standard PL number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed number appears to be a product code rather than a standard PL number.
 
 ---
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -40,7 +40,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Amiloride HCL is a well-established potassium-sparing diuretic with a long clinical history, typically used in the management of oedema and hypertension. However, this evidence pack contains **no TxGNN-generated repurposing predictions**, and multiple critical data fields — including UK marketing authorisation records, mechanism of action, and safety data — are either absent or flagged as gaps. A substantive repurposing recommendation **cannot be made** on the basis of this evidence pack alone; remediation of data gaps is required before evaluation can proceed.
+Amiloride HCL is a well-established potassium-sparing diuretic with a long clinical history, typically used in the management of oedema and hypertension. However, this evidence pack contains **no TxGNN-generated repurposing predictions**, and multiple critical data fields — including mechanism of action, and safety data — are either absent or flagged as gaps. A substantive repurposing recommendation **cannot be made** on the basis of this evidence pack alone; remediation of data gaps is required before evaluation can proceed.
 
 ---
 
@@ -52,11 +52,11 @@ Amiloride HCL is a well-established potassium-sparing diuretic with a long clini
 | Predicted New Indication | No prediction generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | Not assessable — no predicted indication available |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Recommended Decision | **Hold** |
 
-> ⚠️ **Data Quality Note:** Amiloride is a long-established compound that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at source, rather than a true absence from the UK market. This must be investigated before any regulatory conclusions are drawn.
+> ⚠️ **Data Quality Note:** Amiloride is a long-established compound. This must be investigated before any regulatory conclusions are drawn.
 
 ---
 
@@ -88,13 +88,30 @@ Currently no related literature is available within this evidence pack.
 
 ## UK Market Information
 
-The evidence pack records **zero UK marketing authorisations** for Amiloride HCL. This is inconsistent with the drug's known regulatory history and is likely the result of a data pipeline error (e.g., failed DrugBank ID linkage — `drugbank_id` is null in the evidence pack).
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202030C0AAA8A8 | Amiloride 1.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABBBB | Amiloride 1.7mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAAZAZ | Amiloride 10mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABABA | Amiloride 12.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA1A1 | Amiloride 1mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABEBE | Amiloride 2.3mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA4A4 | Amiloride 2.5mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA6A6 | Amiloride 2mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA5A5 | Amiloride 300micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA2A2 | Amiloride 3mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAAYAY | Amiloride 400micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAA3A3 | Amiloride 4mg/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AABDBD | Amiloride 500micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202030C0AAACAC | Amiloride 5mg tablets | Amiloride hydrochloride |
+| 0202030C0AAASAS | Amiloride 5mg/5ml oral solution sugar free | Amiloride hydrochloride |
+| 0202030C0AAAXAX | Amiloride 5mg/5ml oral suspension | Amiloride hydrochloride |
+| 0202030C0AABCBC | Amiloride 800micrograms/5ml oral liquid | Amiloride hydrochloride |
+| 0202040C0BBAAAA | Amil-Co 5mg/50mg tablets | Co-amilozide (Amiloride hydrochloride/hydrochlorothiazide) |
+| 0202030C0BFAAAS | Amilamont 5mg/5ml oral solution sugar free | Amiloride hydrochloride |
+| 0202040C0BGAAAA | Amilmaxco 5mg/50mg tablets | Co-amilozide (Amiloride hydrochloride/hydrochlorothiazide) |
 
-| Item | Status |
-|------|--------|
-| MHRA Licences on Record | 0 (evidence pack) |
-| DrugBank ID | Not resolved |
-| Recommended Action | Re-run MHRA product licence lookup using INN "amiloride" and cross-reference BNF section 2.2.3 (Potassium-sparing diuretics) |
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 
@@ -116,7 +133,6 @@ This evidence pack is critically incomplete: no TxGNN repurposing prediction has
 **To proceed, the following is needed:**
 
 - **Resolve DrugBank ID mapping** — `drugbank_id` is null; this is likely the root cause of missing MOA, safety, and regulatory data. Query DrugBank using the INN "amiloride" to retrieve the correct identifier (expected: DB00594).
-- **Re-ingest UK licensing data** — Re-run the MHRA licence lookup with a corrected DrugBank ID or direct INN search to populate UK marketing authorisation records.
 - **Retrieve mechanism of action (MOA)** — Query DrugBank API for Amiloride HCL's pharmacology record (ENaC blocker / potassium-sparing diuretic) to enable mechanistic plausibility analysis.
 - **Retrieve SmPC safety data** — Download and parse the current MHRA SmPC to populate key warnings, contraindications, and drug interactions.
 - **Re-run TxGNN prediction pipeline** — Once the DrugBank ID and regulatory data are resolved, re-run the TxGNN model to generate repurposing candidates with confidence scores.

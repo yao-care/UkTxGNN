@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cyclosporine is a calcineurin-inhibitor immunosuppressant. The TxGNN model predi
 | Predicted New Indication | granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 0.9968 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (48 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 48 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,9 +80,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0802020G0AAADAD | Ciclosporin Cap 100mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020AEAAAJAJ | Ciclosporin 0.05% eye dps 0.4ml unit dose preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAIAI | Ciclosporin 0.06% eye dps 0.4ml unit dose preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAHAH | Ciclosporin 0.06% eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAGAG | Ciclosporin 0.2% eye ointment | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAFAF | Ciclosporin 0.2% eye ointment preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0AAADAD | Ciclosporin 100mg capsules | Ciclosporin |
+| 0802020G0AAAGAG | Ciclosporin 100mg/ml oral solution sugar free | Ciclosporin |
+| 0802020G0AAAHAH | Ciclosporin 10mg capsules | Ciclosporin |
+| 1104020AEAAAAAA | Ciclosporin 1mg/ml eye drops 0.3ml unit dose | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAKAK | Ciclosporin 1mg/ml eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAEAE | Ciclosporin 2% eye drops | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAADAD | Ciclosporin 2% eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAACAC | Ciclosporin 2% eye ointment | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0AAAEAE | Ciclosporin 250mg/5ml solution for infusion ampoules | Ciclosporin |
+| 0802020G0AAACAC | Ciclosporin 25mg capsules | Ciclosporin |
+| 0802020G0AAAFAF | Ciclosporin 50mg capsules | Ciclosporin |
+| 0802020G0AAAAAA | Ciclosporin 50mg/1ml solution for infusion ampoules | Ciclosporin |
+| 1104020AEAAABAB | Ciclosporin 900microg/ml eye drops 0.25ml ud preserv free | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0BFACAD | Capimune 100mg capsules | Ciclosporin |
+| 0802020G0BFAAAC | Capimune 25mg capsules | Ciclosporin |
+
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

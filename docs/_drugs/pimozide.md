@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 498
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pimozide: predicted new indication Trichotillomania (evidence level L3). Approved use: Tourette syndrome"
 monitor_inn: "Pimozide"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **9 publicati
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold (research question only) |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010R0AAABAB (BNF-style code; not a PL number) | Pimozide 4 mg tablets | Tablet | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010R0AAAGAG | Pimozide 1.25mg/5ml oral suspension | Pimozide |
+| 0402010R0AAAAAA | Pimozide 2mg tablets | Pimozide |
+| 0402010R0AAAHAH | Pimozide 2mg/5ml oral suspension | Pimozide |
+| 0402010R0AAABAB | Pimozide 4mg tablets | Pimozide |
+| 0402010R0BBAAAA | Orap 2mg tablets | Pimozide |
+| 0402010R0BBABAB | Orap 4mg tablets | Pimozide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Pimozide falls within the BNF antipsychotic classification (chapter 4, central nervous system). No NICE appraisal for the predicted indication was identified in the data compiled.
 

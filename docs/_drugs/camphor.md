@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -50,8 +50,8 @@ The evidence is currently at the model-prediction and preclinical level, so this
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190400000AAIKIK | Camphor (S) BP 1988 | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190400000AAIKIK | Camphor racemic powder | Other single substance preparations |
+| 1307000M0BMADBL | Boots verruca removal gel | Salicylic acid |
+| 130900000AABGBG | Camphor 3.57%/Salicylic acid 3.57%/Phenol 2.85%/Sulfur 2.14% | Other shampoo and scalp preparations |
+| 1307000M0AABLBL | Salicylic acid 12.5% / Camphor 3.11% liquid | Salicylic acid |
+| 1307000M0BQACBL | Scholl Corn and Callous removal liquid | Salicylic acid |
+| 1307000M0BQADBL | Scholl Seal and Heal verruca removal gel | Salicylic acid |
 
-The single authorisation is recorded as a valid single-ingredient product. Dosage form and indication details were not available in the data compiled for this report, so please check the current MHRA record, the BNF and any relevant NICE guidance.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication details were not available in the data compiled for this report, so please check the current MHRA record, the BNF and any relevant NICE guidance.
 
 ## Safety Considerations
 

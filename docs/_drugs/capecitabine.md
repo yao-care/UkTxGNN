@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Capecitabine: predicted new indication Gastric adenocarcinoma and proximal polyposis of the stomach (evidence level L5). Approved use: Metastasis from malignant tumour of colon"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **gastric adenocarcinoma and proxi
 | Predicted New Indication | Gastric adenocarcinoma and proximal polyposis of the stomach |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801030V0AAAAAA | Capecitabine Tab 500mg | Tablet (500 mg) | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801030V0AAABAB | Capecitabine 150mg tablets | Capecitabine |
+| 0801030V0AAACAC | Capecitabine 300mg tablets | Capecitabine |
+| 0801030V0AAAAAA | Capecitabine 500mg tablets | Capecitabine |
+| 0801030V0BBABAB | Xeloda 150mg tablets | Capecitabine |
+| 0801030V0BBAAAA | Xeloda 500mg tablets | Capecitabine |
 
-The data list one single-ingredient authorisation with valid status. The identifier is not in the usual MHRA "PL" format and should be verified against the MHRA register.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is not in the usual MHRA "PL" format and should be verified against the MHRA register.
 
 ---
 

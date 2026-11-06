@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Valsartan is an angiotensin II receptor blocker (ARB) that is marketed in the UK
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (38 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 38 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205052V0AAABAB | Valsartan capsule 80 mg | Capsule (inferred from product name) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205052V0AAACAC | Valsartan 160mg capsules | Valsartan |
+| 0205052V0AAAHAH | Valsartan 160mg tablets | Valsartan |
+| 0205052V0AAAGAG | Valsartan 160mg/5ml oral liquid | Valsartan |
+| 0205052V0AAAFAF | Valsartan 320mg tablets | Valsartan |
+| 0205052V0AAAJAJ | Valsartan 3mg/ml oral solution | Valsartan |
+| 0205052V0AAAAAA | Valsartan 40mg capsules | Valsartan |
+| 0205052V0AAADAD | Valsartan 40mg tablets | Valsartan |
+| 0205052V0AAAEAE | Valsartan 40mg/5ml oral liquid | Valsartan |
+| 0205052V0AAABAB | Valsartan 80mg capsules | Valsartan |
+| 0205052V0AAAIAI | Valsartan 80mg tablets | Valsartan |
+| 0206020Z0AAACAC | Amlodipine 10mg / Valsartan 160mg tablets | Valsartan/amlodipine |
+| 0206020Z0AAABAB | Amlodipine 5mg / Valsartan 160mg tablets | Valsartan/amlodipine |
+| 0206020Z0AAAAAA | Amlodipine 5mg / Valsartan 80mg tablets | Valsartan/amlodipine |
+| 0205052X0BBAAAA | Co-Diovan 160mg/12.5mg tablets | Valsartan with diuretic |
+| 0205052X0BBABAB | Co-Diovan 160mg/25mg tablets | Valsartan with diuretic |
+| 0205052X0BBACAC | Co-Diovan 80mg/12.5mg tablets | Valsartan with diuretic |
+| 0205052V0BBACAC | Diovan 160mg capsules | Valsartan |
+| 0205052V0BBAEAF | Diovan 320mg tablets | Valsartan |
+| 0205052V0BBAFAJ | Diovan 3mg/1ml oral solution | Valsartan |
+| 0205052V0BBAAAA | Diovan 40mg capsules | Valsartan |
 
-This is a single-ingredient product and its status is valid.
+Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

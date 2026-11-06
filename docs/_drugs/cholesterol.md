@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 162
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cholesterol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cholesterol,
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,15 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cholesterol,
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 190400000AAEDED | Cholesterol_(S) |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0908010D0AAALAL | Cholesterol 1g oral powder sachets | Cholesterol |
+| 0908010D0AAAMAM | Cholesterol 3g oral powder sachets | Cholesterol |
+| 0908010D0AAAKAK | Cholesterol 750mg/5ml oral suspension | Cholesterol |
+| 190400000AAEDED | Cholesterol powder | Other single substance preparations |
+| 1305020Z0AAAAAA | Cholesterol 2% / Simvastatin 2% cream | Cholesterol/simvastatin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

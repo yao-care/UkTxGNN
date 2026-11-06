@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ This is a model prediction only.
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (28 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 28 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,11 +84,32 @@ For context, the broader rhabdomyosarcoma prediction (rank 2) has only indirect 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1308010Y0AAAAAA | Fluorouracil Cream 5% | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801030H0AAAVAV | Fluorouracil 0.5% cream | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAXAX | Fluorouracil 1% cream | Fluorouracil (Antimetabolites) |
+| 0801030H0AABDBD | Fluorouracil 1.1g/44ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AABEBE | Fluorouracil 1.2g/48ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAWAW | Fluorouracil 1g/20ml solution for injection vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABCBC | Fluorouracil 1g/40ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAEAE | Fluorouracil 2.5g/100ml solution for infusion vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AAATAT | Fluorouracil 2.5g/50ml solution for infusion vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABFBF | Fluorouracil 200mg/8ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAAAA | Fluorouracil 250mg capsules | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAHAH | Fluorouracil 250mg/10ml solution for injection vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABBBB | Fluorouracil 250mg/5ml solution for injection vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABLBL | Fluorouracil 4% cream | Fluorouracil (Antimetabolites) |
+| 1308010Y0AAAAAA | Fluorouracil 5% cream | Fluorouracil (Sunscreen) |
+| 0801030H0AAARAR | Fluorouracil 500mg/10ml solution for injection vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABGBG | Fluorouracil 500mg/20ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AAADAD | Fluorouracil 500mg/20ml solution for injection vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AAAUAU | Fluorouracil 5g/100ml solution for infusion vials | Fluorouracil (Antimetabolites) |
+| 0801030H0AABHBH | Fluorouracil 600mg/24ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
+| 0801030H0AABIBI | Fluorouracil 800mg/32ml inj pre-filled syringes | Fluorouracil (Antimetabolites) |
 
-The licence list contains one single-ingredient authorisation and may not reflect the full UK product range. Please check the MHRA records and the BNF for current products and indications.
+Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the MHRA records and the BNF for current products and indications.
 
 ---
 

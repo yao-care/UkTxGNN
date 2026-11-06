@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 566
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Selenium"
 predicted_indications: ["sclerosing cholangitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9904 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (26 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 26 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0905050A0AAACAC (BNF code as listed) | Selenium injection 50 micrograms/ml, 2 ml ampoule | Injection (ampoule) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 090504700BBFSBC | 200-SEL tablets | Other selenium preparations |
+| 090504700AABJBJ | Selenium 100microgram tablets | Other selenium preparations |
+| 0905050A0AAAEAE | Selenium 100micrograms/10ml solution for infusion vials | Selenium |
+| 0905050A0AAAAAA | Selenium 100micrograms/2ml oral solution unit dose ampoules | Selenium |
+| 0905050A0AAACAC | Selenium 100micrograms/2ml solution for injection ampoules | Selenium |
+| 090504700AABKBK | Selenium 200microgram capsules | Other selenium preparations |
+| 090504700AABCBC | Selenium 200microgram tablets | Other selenium preparations |
+| 0905050A0AAABAB | Selenium 500micrograms/10ml oral solution unit dose vials | Selenium |
+| 0905050A0AAADAD | Selenium 500micrograms/10ml solution for injection vials | Selenium |
+| 090504700BBFTBC | Abselen 200microgram tablets | Other selenium preparations |
+| 090504700BBEZBC | Bio-SelenoPrecise 200microgram tablets | Other selenium preparations |
+| 090504700BBDXBJ | Cytoplan Selenium 100microgram tablets | Other selenium preparations |
+| 090504700BBFNBC | EN-Selenium 200microgram tablets | Other selenium preparations |
+| 090504700BBFRBK | G & G Selenium 200microgram capsules | Other selenium preparations |
+| 090504700BBFDBC | HealthAid Selenium 200microgram tablets | Other selenium preparations |
+| 091000000BBRIBS | HealthAid Vitamin E 400unit / Selenium 100microgram capsules | Other compound vitamin/mineral formulation preparations |
+| 090504700BBFPBC | Lamberts Selenium 200microgram tablets | Other selenium preparations |
+| 0905050A0BBAAAA | Selenase 100micrograms/2ml soln 2ml unit dose ampoules | Selenium |
+| 0905050A0BBACAC | Selenase 100micrograms/2ml solution for injection ampoules | Selenium |
+| 090504700BCAABC | Selenase 200 XXL tablets | Other selenium preparations |
+
+Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

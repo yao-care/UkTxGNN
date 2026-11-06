@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hyaluronidase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not available in the UK licence data"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Hyaluronidase is an enzyme that breaks down hyaluronan, and it has one UK marketing authorisation (a 1,500 unit injection ampoule), but no approved indication text was available for this report.
+Hyaluronidase is an enzyme that breaks down hyaluronan, but no approved indication text was available for this report.
 Among the ten predictions, the TxGNN model's best-supported one is **diabetic retinopathy**, with **3 clinical trials** (two completed Phase 3 trials of intravitreal ovine hyaluronidase) and **19 publications**.
 The Phase 3 results were not available in the data compiled for this report, so efficacy is unconfirmed.
 
@@ -54,8 +54,8 @@ The first-ranked TxGNN prediction (esotropia) has no clinical support. This repo
 | Predicted New Indication | Diabetic retinopathy (top-ranked prediction by TxGNN score: esotropia, which is unsupported) |
 | TxGNN Prediction Score | 0.9971 (diabetic retinopathy); 0.9989 (esotropia) |
 | Evidence Level | L5 (two completed Phase 3 trials; results not available) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold (research question only; verify published Phase 3 results first) |
 
 ---
@@ -106,11 +106,14 @@ No ISRCTN or EU Clinical Trials Register entries were found.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1003010P0AAAAAA (BNF-style product code, not a PL number) | Hyaluronidase injection 1,500 unit ampoule | Injection | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1003010P0AAAAAA | Hyaluronidase 1,500unit inj ampoules | Hyaluronidase |
+| 1003010P0BBAAAA | Hyalase 1500unit powder for solution for injection ampoules | Hyaluronidase |
 
-The marketing authorisation is a single-ingredient product with valid status. The compiled data contains no approved indication text, so the original indication could not be confirmed.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The compiled data contains no approved indication text, so the original indication could not be confirmed.
 
 ---
 

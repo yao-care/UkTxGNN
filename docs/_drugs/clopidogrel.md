@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Clopidogrel is an oral antiplatelet medicine that blocks the P2Y12 receptor on p
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 0.9944 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,7 +91,7 @@ None of these publications studies migraine with brainstem aura directly. They c
 
 ## UK Market Information
 
-Clopidogrel is marketed in the UK, and at least one valid single-ingredient authorisation is recorded in the local data. No indication text is recorded for it, so no approved-indication summary is given here.
+No indication text is recorded for it, so no approved-indication summary is given here.
 
 ---
 

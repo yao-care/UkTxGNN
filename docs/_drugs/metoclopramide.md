@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (24 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 24 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,9 +94,30 @@ Other candidate indications ranked by the model (gastroduodenitis, peptic ulcer 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000P0AAADAD (BNF-style product code; PL number not available) | Metoclopramide HCl oral solution 5mg/5ml, sugar-free | Oral solution | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000P0AAAFAF | Metoclopramide 100mg/20ml solution for injection ampoules | Metoclopramide hydrochloride |
+| 0406000P0AAAEAE | Metoclopramide 10mg tablets | Metoclopramide hydrochloride |
+| 0406000P0AAABAB | Metoclopramide 10mg/2ml solution for injection ampoules | Metoclopramide hydrochloride |
+| 0406000P0AAASAS | Metoclopramide 12.5mg/5ml oral solution | Metoclopramide hydrochloride |
+| 0406000P0AAAJAJ | Metoclopramide 15mg modified-release capsules | Metoclopramide hydrochloride |
+| 0406000P0AAAHAH | Metoclopramide 15mg modified-release tablets | Metoclopramide hydrochloride |
+| 0406000P0AAAPAP | Metoclopramide 5mg tablets | Metoclopramide hydrochloride |
+| 0406000P0AAADAD | Metoclopramide 5mg/5ml oral solution sugar free | Metoclopramide hydrochloride |
+| 0407041A0AAAJAJ | Aspirin 900mg / Metoclopramide 10mg oral pdr sach sugar free | Analgesics with anti-emetics |
+| 0406000P0BIAAAH | Gastrobid Continus 15mg tablets | Metoclopramide hydrochloride |
+| 0406000P0BLAAAE | Gastroflux 10mg tablets | Metoclopramide hydrochloride |
+| 0406000P0BBAAAE | Maxolon 10mg tablets | Metoclopramide hydrochloride |
+| 0406000P0BBADAB | Maxolon 10mg/2ml solution for injection ampoules | Metoclopramide hydrochloride |
+| 0406000P0BBAIAP | Maxolon 5mg tablets | Metoclopramide hydrochloride |
+| 0406000P0BBABAD | Maxolon 5mg/5ml syrup | Metoclopramide hydrochloride |
+| 0406000P0BBAGAF | Maxolon High Dose 100mg/20ml solution for injection ampoules | Metoclopramide hydrochloride |
+| 0406000P0BBACAD | Maxolon Paediatric 5mg/5ml liquid | Metoclopramide hydrochloride |
+| 0406000P0BBAHAJ | Maxolon SR 15mg capsules | Metoclopramide hydrochloride |
+| 0406000P0BMAAAE | Metoclomex 10mg tablets | Metoclopramide hydrochloride |
+| 0407041A0BIAAAJ | MigraMax oral powder sachets | Analgesics with anti-emetics |
+
+Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

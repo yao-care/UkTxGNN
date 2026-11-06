@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Felbamate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, partial epilepsy, Lennox-Gastaut syndrome"
 monitor_inn: "Felbamate"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -52,8 +52,8 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) |
 | TxGNN Prediction Score | 0.9962 (trigeminal nerve neoplasm); 0.9918 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L4 (trigeminal neuralgia) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); trigeminal neuralgia remains a research question |
 
 ---
@@ -91,11 +91,19 @@ Literature for trigeminal neuralgia (rank 2):
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010AAAAABAB (BNF-style code; no PL number available) | Felbamate tablets 600 mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010AAAAAAAA | Felbamate 400mg tablets | Felbamate |
+| 0408010AAAAABAB | Felbamate 600mg tablets | Felbamate |
+| 0408010AAAAACAC | Felbamate 600mg/5ml oral suspension | Felbamate |
+| 0408010AABBAAAA | Felbatol 400mg tablets | Felbamate |
+| 0408010AABBABAB | Felbatol 600mg tablets | Felbamate |
+| 0408010AABCAAAB | Taloxa 600mg tablets | Felbamate |
+| 0408010AABCABAC | Taloxa 600mg/5ml oral suspension | Felbamate |
 
-Felbamate sits in the BNF antiepileptic section (chapter 4, central nervous system). It has 1 valid single-ingredient authorisation record.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Felbamate sits in the BNF antiepileptic section (chapter 4, central nervous system).
 
 ---
 

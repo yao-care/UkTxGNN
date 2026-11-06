@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Carbimazole"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -53,8 +53,8 @@ The TxGNN model predicts it may be relevant to **resistance to thyroid hormone d
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,9 +85,29 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0602020D0AAAAAA (BNF code) | Carbimazole Tab 5mg | Tablet | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0602020D0AAAVAV | Carbimazole 1.25mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAIAI | Carbimazole 1.5mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAYAY | Carbimazole 10mg tablets | Carbimazole |
+| 0602020D0AAAGAG | Carbimazole 10mg/5ml oral solution | Carbimazole |
+| 0602020D0AAAWAW | Carbimazole 10mg/5ml oral suspension | Carbimazole |
+| 0602020D0AAAZAZ | Carbimazole 15mg tablets | Carbimazole |
+| 0602020D0AAARAR | Carbimazole 2.5mg capsules | Carbimazole |
+| 0602020D0AAATAT | Carbimazole 2.5mg/5ml oral liquid | Carbimazole |
+| 0602020D0AABABA | Carbimazole 2.5mg/ml oral solution sugar free | Carbimazole |
+| 0602020D0AAABAB | Carbimazole 20mg tablets | Carbimazole |
+| 0602020D0AAAFAF | Carbimazole 20mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAUAU | Carbimazole 2mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAXAX | Carbimazole 30mg/5ml oral suspension | Carbimazole |
+| 0602020D0AAAPAP | Carbimazole 4mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAAAA | Carbimazole 5mg tablets | Carbimazole |
+| 0602020D0AAAKAK | Carbimazole 5mg/5ml oral liquid | Carbimazole |
+| 0602020D0AAAQAQ | Carbimazole 60mg/5ml oral liquid | Carbimazole |
+| 0602020D0BBABAB | NeoMercazole 20 tablets | Carbimazole |
+| 0602020D0BBAAAA | NeoMercazole 5 tablets | Carbimazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

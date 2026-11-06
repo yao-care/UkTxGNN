@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 504
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Pivmecillinam: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Pivmeci
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,13 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Pivmeci
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0501015P0AAABAB | Pivmecillinam HCl_Tab 200mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501015P0AAABAB | Pivmecillinam 200mg tablets | Pivmecillinam hydrochloride |
+| 0501015P0AAACAC | Pivmecillinam 200mg/5ml oral suspension | Pivmecillinam hydrochloride |
+| 0501015P0BBABAB | Selexid 200mg tablets | Pivmecillinam hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

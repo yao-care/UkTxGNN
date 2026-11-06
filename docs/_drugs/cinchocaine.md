@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **bronchitis**, but there are cur
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,11 +69,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0107010G0AAAAAA | Cinchocaine HCl Ointment 1.1% | Ointment (per product name) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107010G0AAAAAA | Cinchocaine 1.1% ointment | Cinchocaine hydrochloride |
+| 0107020J0AAAEAE | Cinchocaine 0.5% / Hydrocortisone 0.5% ointment | Hydrocortisone |
+| 0107020P0AAACAC | Cinchocaine 0.5% / Prednisolone 0.19% ointment | Prednisolone |
+| 0107020P0AAADAD | Cinchocaine 1mg / Prednisolone hexanoate 1.3mg suppositories | Prednisolone |
+| 0107020J0AAAFAF | Cinchocaine 5mg / Hydrocortisone 5mg suppositories | Hydrocortisone |
+| 0107010G0BBAAAA | Nupercainal 1.1% ointment | Cinchocaine hydrochloride |
+| 0107020J0BEAAAE | Proctosedyl ointment | Hydrocortisone |
+| 0107020J0BEABAF | Proctosedyl suppositories | Hydrocortisone |
+| 0107020P0BCAAAC | Scheriproct ointment | Prednisolone |
+| 0107020P0BCABAD | Scheriproct suppositories | Prednisolone |
+| 0107020J0BFACAE | Uniroid HC ointment | Hydrocortisone |
+| 0107020J0BFADAF | Uniroid HC suppositories | Hydrocortisone |
 
-The single record is a single-ingredient product with valid status. The record is from the BNF-coded listing and does not include a PL number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

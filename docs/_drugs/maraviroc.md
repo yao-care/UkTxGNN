@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Maraviroc: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -52,8 +52,8 @@ This is a model-only prediction and should be treated as hypothesis-generating.
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,20 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010ADAAAAAA (BNF code) | Maraviroc tablets 150 mg | Tablet | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010ADAAAAAA | Maraviroc 150mg tablets | Maraviroc |
+| 0503010ADAAACAC | Maraviroc 20mg/ml oral solution sugar free | Maraviroc |
+| 0503010ADAAAEAE | Maraviroc 25mg tablets | Maraviroc |
+| 0503010ADAAABAB | Maraviroc 300mg tablets | Maraviroc |
+| 0503010ADAAADAD | Maraviroc 75mg tablets | Maraviroc |
+| 0503010ADBBAAAA | Celsentri 150mg tablets | Maraviroc |
+| 0503010ADBBACAC | Celsentri 20mg/ml oral solution | Maraviroc |
+| 0503010ADBBAEAE | Celsentri 25mg tablets | Maraviroc |
+| 0503010ADBBABAB | Celsentri 300mg tablets | Maraviroc |
+| 0503010ADBBADAD | Celsentri 75mg tablets | Maraviroc |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is one valid single-ingredient product. The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register.
 

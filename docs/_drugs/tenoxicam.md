@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Tenoxicam"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tenoxicam: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Arthritic joint disease and arthropathy"
 ---
 
@@ -52,8 +52,8 @@ There are currently **no clinical trials** and **no publications** supporting th
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Status |
-|---------|------|------|
-| 100101040AAAAAA | Tenoxicam Tab 20 mg | Valid, single-ingredient product |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 100101040AAADAD | Tenoxicam 20mg inj vials | Tenoxicam |
+| 100101040AAAAAA | Tenoxicam 20mg tablets | Tenoxicam |
+| 100101040BBADAD | Mobiflex 20mg inj vials | Tenoxicam |
+| 100101040BBAAAA | Mobiflex 20mg tablets | Tenoxicam |
 
-The licence record contains no approved indication text, dosage form or manufacturer, so the authorised indications cannot be confirmed from the data compiled for this report. Please check the current SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC and the BNF.
 
 ---
 

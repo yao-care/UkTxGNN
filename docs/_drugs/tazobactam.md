@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 596
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Tazobactam: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ## Known uses among the model's candidates
 
@@ -72,10 +72,16 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0501014S0BBABAB | Tazocin_Inj 4.5g Vl |  | Valid |
-| 0501014S0AAABAB | Piperacillin/Tazobactam_Inj 4g/0.5g Vl |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501014S0AAAAAA | Piperacillin 2g / Tazobactam 250mg inf vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0AAABAB | Piperacillin 4g / Tazobactam 500mg inf vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0AAACAC | Piperacillin 4g / Tazobactam 500mg inj vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBAAAA | Tazocin 2g/0.25g powder for solution for infusion vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBACAC | Tazocin 4.5g inj intravenous infusion pack | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBABAB | Tazocin 4g/0.5g powder for solution for infusion vials | Piperacillin sodium/tazobactam sodium |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

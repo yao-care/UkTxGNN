@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**, but
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,16 @@ Currently no related literature available for seborrhoeic dermatitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1305020T0AAAAAA | Tazarotene Aq Gel 0.05% | Gel (aqueous) | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1305020T0AAAAAA | Tazarotene 0.05% gel | Tazarotene |
+| 1305020T0AAABAB | Tazarotene 0.1% gel | Tazarotene |
+| 1305020T0BBAAAA | Zorac 0.05% gel | Tazarotene |
+| 1305020T0BBABAB | Zorac 0.1% gel | Tazarotene |
 
-The authorisation is recorded as a single-ingredient product with valid status. Manufacturer and approved indication text are not available in the data compiled for this report, so the UK licensed indications should be checked against the current SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Manufacturer and approved indication text are not available in the data compiled for this report, so the UK licensed indications should be checked against the current SmPC and BNF.
 
 ---
 

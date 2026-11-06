@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "schizotypal personality disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ Other predicted conditions in the data (for example obsessive-compulsive disorde
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,11 +99,14 @@ For context, the literature retrieved for other predicted conditions is listed b
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403020H0AAAAAA | Isocarboxazid Tab 10mg | Not stated | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403020H0AAAAAA | Isocarboxazid 10mg tablets | Isocarboxazid |
+| 0403020H0AAACAC | Isocarboxazid 20mg/5ml oral suspension | Isocarboxazid |
 
-This is a single-ingredient record with valid status. The number appears to be a classification-style code rather than a standard MHRA "PL" number, so it should be verified against the MHRA register. No NICE-appraised indication data were available in the compiled data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The number appears to be a classification-style code rather than a standard MHRA "PL" number, so it should be verified against the MHRA register. No NICE-appraised indication data were available in the compiled data.
 
 ---
 

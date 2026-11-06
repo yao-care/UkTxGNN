@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 394
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Mercaptopurine is a purine antimetabolite used in cytotoxic chemotherapy. The Tx
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -88,9 +88,29 @@ Most trials below test multi-agent regimens in which mercaptopurine's contributi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801030L0AAAAAA | Mercaptopurine 50 mg tablets | Tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801030L0AAAGAG | Mercaptopurine 10mg capsules | Mercaptopurine |
+| 0801030L0AAABAB | Mercaptopurine 10mg tablets | Mercaptopurine |
+| 0801030L0AAASAS | Mercaptopurine 12.5mg capsules | Mercaptopurine |
+| 0801030L0AAARAR | Mercaptopurine 20mg capsules | Mercaptopurine |
+| 0801030L0AAAQAQ | Mercaptopurine 20mg/ml oral suspension | Mercaptopurine |
+| 0801030L0AAALAL | Mercaptopurine 25mg capsules | Mercaptopurine |
+| 0801030L0AAAJAJ | Mercaptopurine 25mg tablets | Mercaptopurine |
+| 0801030L0AAAHAH | Mercaptopurine 25mg/5ml oral suspension | Mercaptopurine |
+| 0801030L0AAAMAM | Mercaptopurine 30mg capsules | Mercaptopurine |
+| 0801030L0AAAKAK | Mercaptopurine 45mg/5ml oral suspension | Mercaptopurine |
+| 0801030L0AAAAAA | Mercaptopurine 50mg tablets | Mercaptopurine |
+| 0801030L0AAAFAF | Mercaptopurine 50mg/5ml oral suspension | Mercaptopurine |
+| 0801030L0AAACAC | Mercaptopurine 5mg/5ml oral suspension | Mercaptopurine |
+| 0801030L0AAAPAP | Mercaptopurine 75mg capsules | Mercaptopurine |
+| 0801030L0AAANAN | Mercaptopurine 75mg tablets | Mercaptopurine |
+| 0801030L0AAAIAI | Mercaptopurine 75mg/5ml oral suspension | Mercaptopurine |
+| 0801030L0BDAAAA | Hanixol 50mg tablets | Mercaptopurine |
+| 0801030L0BBAAAA | Puri-Nethol 50mg tablets | Mercaptopurine |
+| 0801030L0BCABAQ | Xaluprine 20mg/ml oral suspension | Mercaptopurine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Cytotoxicity
 

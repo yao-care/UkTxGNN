@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "clioquinol"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clioquinol: predicted new indication Ectothrix infectious disease (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection…"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 | Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (5 of 5) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 5 (valid: 5) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,13 +83,27 @@ Currently no related literature available.
 
 The records compiled for this report list five single-ingredient clioquinol authorisations. Dosage form and approved indication text are not available in them, and some entries are products that combine clioquinol with a corticosteroid, as their names show. The list is therefore not used here to describe how clioquinol alone is approved.
 
-| Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1201010F0BBAAAA | Locorten-Vioform Ear Drops | Not stated | Not stated |
-| 1304000N0AACACA | Fluocinolone/Clioquinol Cream 0.025%/3% | Not stated | Not stated |
-| 1201010F0AAAAAA | Flumetasone/Clioquinol Ear Drops 0.02%/1% | Not stated | Not stated |
-| 1304000V0AACLCL | Clioquinol/Hydrocortisone Ointment 3%/1% | Not stated | Not stated |
-| 1304000F0AACACA | Betamethasone Valerate/Clioquinol Cream 0.1%/3% | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1304000F0AACACA | Betamethasone valerate 0.1% / Clioquinol 3% cream | Betamethasone valerate |
+| 1304000F0AACDCD | Betamethasone valerate 0.1% / Clioquinol 3% ointment | Betamethasone valerate |
+| 1304000F0BBAKCA | Betnovate-C cream | Betamethasone valerate |
+| 1304000F0BBAMCD | Betnovate-C ointment | Betamethasone valerate |
+| 1304000V0AACACA | Clioquinol 3% / Hydrocortisone 1% cream | Hydrocortisone |
+| 1201010F0AAAAAA | Flumetasone 0.02% / Clioquinol 1% ear drops | Flumetasone pivalate |
+| 1304000N0AACACA | Fluocinolone acetonide 0.025% / Clioquinol 3% cream | Fluocinolone acetonide |
+| 1304000N0AACCCC | Fluocinolone acetonide 0.025% / Clioquinol 3% ointment | Fluocinolone acetonide |
+| 1304000V0AACLCL | Hydrocortisone 1% / Clioquinol 3% ointment | Hydrocortisone |
+| 1304000V0AAEWEW | Ichthammol 1% / Clioquinol 3% in Hydrocortisone 1% ointment | Hydrocortisone |
+| 1201010F0BBAAAA | Locorten Vioform ear drops | Flumetasone pivalate |
+| 1305010ADBBAAAA | Quinaband bandage 7.5cm x 6m | Zinc paste, calamine and clioquinol |
+| 1304000N0BBAKCA | Synalar C cream | Fluocinolone acetonide |
+| 1304000N0BBAMCC | Synalar C ointment | Fluocinolone acetonide |
+| 1304000V0BZABCA | Vioform-Hydrocortisone cream | Hydrocortisone |
+| 1304000V0BZACCL | Vioform-Hydrocortisone ointment | Hydrocortisone |
+| 1305010ADAAAAAA | Zinc paste, Calamine and Clioquinol bandage BP 7.5cm x 6m | Zinc paste, calamine and clioquinol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

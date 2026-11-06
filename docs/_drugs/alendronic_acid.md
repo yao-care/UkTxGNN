@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,17 +50,15 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 | Predicted New Indication | None identified |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 — No predictions generated |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
-> ⚠️ **Data Quality Notice**: This Evidence Pack is materially incomplete. Alendronic acid (DrugBank DB00630) is a well-established bisphosphonate with multiple MHRA-authorised products in the UK (e.g., Fosamax, and numerous generics). The absence of licensing records and original indication data in the Evidence Pack strongly suggests a data ingestion failure upstream, rather than a true absence of authorisation. This must be investigated and corrected before any repurposing analysis is meaningful.
+> ⚠️ **Data Quality Notice**: This Evidence Pack is materially incomplete. Alendronic acid (DrugBank DB00630) is a well-established bisphosphonate with multiple MHRA-authorised products in the UK (e.g., Fosamax, and numerous generics). This must be investigated and corrected before any repurposing analysis is meaningful.
 
 ---
 
 ## UK Market Information
-
-No marketing authorisation records were returned by the Evidence Pack pipeline for the United Kingdom.
 
 > **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov.uk/) and re-run the data ingestion pipeline. Multiple PL numbers are expected for 70 mg weekly tablets and 10 mg daily tablets across numerous manufacturers.
 

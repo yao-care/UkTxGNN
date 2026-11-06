@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tetracycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 description: "Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Across the predictions there are **no registered clinical trials** for tetracycl
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9958 |
 | Evidence Level | L5 (literature is indirect; no tetracycline-specific trials) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 Other predictions evaluated:
@@ -117,9 +117,16 @@ Publications are shown for the most-supported predictions.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0501030V0AAAFAF | Tetracycline tablets 250 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501030V0AAARAR | Tetracycline 125mg/5ml oral solution | Tetracycline |
+| 0501030V0AAAAAA | Tetracycline 250mg capsules | Tetracycline |
+| 0501030V0AAAFAF | Tetracycline 250mg tablets | Tetracycline |
+| 0501030V0BBAAAA | Achromycin 250mg capsules | Tetracycline |
+| 1306010W0AAAAAA | Tetracycline 2.2mg/ml topical solution | Tetracycline hydrochloride |
+| 1306010W0BBAAAA | Topicycline 2.2mg/ml topical solution | Tetracycline hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification is section 5.1.3 (tetracyclines). The data compiled for this report did not include a PL number or indication text; please verify against the MHRA product listing and the SmPC.
 

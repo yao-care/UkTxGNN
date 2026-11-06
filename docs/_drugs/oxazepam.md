@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 467
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Oxazepam: predicted new indication insomnia (disease) (evidence level L3). Approved use: Alcohol withdrawal delirium"
 monitor_inn: "Oxazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **insomnia**, but there are cur
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,9 +91,16 @@ The most relevant publications are listed first. Several retrieved papers are on
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0401020T0AAABAB (BNF code; no PL number supplied) | Oxazepam tablets 10 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401020T0AAABAB | Oxazepam 10mg tablets | Oxazepam |
+| 0401020T0AAAJAJ | Oxazepam 10mg/5ml oral suspension | Oxazepam |
+| 0401020T0AAAIAI | Oxazepam 12.5mg/5ml oral suspension | Oxazepam |
+| 0401020T0AAACAC | Oxazepam 15mg tablets | Oxazepam |
+| 0401020T0AAAHAH | Oxazepam 2.5mg/5ml oral suspension | Oxazepam |
+| 0401020T0AAAKAK | Oxazepam 2mg/5ml oral suspension | Oxazepam |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 BNF code 0401020T0 places oxazepam among the anxiolytics (BNF chapter 4.1.2).
 

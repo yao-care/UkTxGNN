@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 385
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
 description: "Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but **no clinical tri
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0505010D0AAAAAA | Mebendazole Oral Suspension 100mg/5ml | Oral suspension (from product name) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0505010D0AAADAD | Mebendazole 100mg chewable tablets sugar free | Mebendazole |
+| 0505010D0AAAAAA | Mebendazole 100mg/5ml oral suspension | Mebendazole |
+| 0505010D0BEAAAD | Boots Threadworm Treatment 100mg chewable tablets | Mebendazole |
+| 0505010D0BCAAAD | Ovex 100mg chewable tablets | Mebendazole |
+| 0505010D0BCABAA | Ovex 100mg/5ml oral suspension | Mebendazole |
+| 0505010D0BDAAAD | Pripsen Mebendazole 100mg chewable tablets | Mebendazole |
+| 0505010D0BBAAAD | Vermox 100mg chewable tablets | Mebendazole |
+| 0505010D0BBABAA | Vermox 100mg/5ml oral suspension | Mebendazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above resembles a BNF-style classification code (BNF chapter 5, infections) rather than a standard PL number. Please check the MHRA register for the official authorisation details and approved indications.
 

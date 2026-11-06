@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **HIV infectious disease**, but t
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?

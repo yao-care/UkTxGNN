@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -50,8 +50,8 @@ Support is weak: **0 clinical trials** and **1 publication** (an in vitro suscep
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 The evidence level is L5. The only publication is an in vitro study of HIV-2, SIV and SHIV susceptibility to anti-HIV-1 compounds. It does not directly study SIV infection as a treatment indication for abacavir in a way that supports a higher level.
@@ -80,11 +80,24 @@ For the second predicted indication (feline AIDS), one further study is availabl
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010E0AAAAAA | Abacavir tablets 300 mg | Not stated | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010E0AAABAB | Abacavir 20mg/ml oral solution sugar free | Abacavir |
+| 0503010E0AAAAAA | Abacavir 300mg tablets | Abacavir |
+| 0503010F0AAAAAA | Abacavir 300mg / Lamivudine 150mg / Zidovudine 300mg tablets | Abacavir/lamivudine/zidovudine |
+| 0503010Z0AAAAAA | Abacavir 600mg / Lamivudine 300mg tablets | Abacavir and lamivudine |
+| 0503010AZAAABAB | Dolutegravir 50mg / Abacavir 600mg / Lamivudine 300mg tab | Dolutegravir/Abacavir/Lamivudine |
+| 0503010AZAAAAAA | Dolutegravir 5mg/Abacavir 60mg/Lamivudine 30mg disp tab SF | Dolutegravir/Abacavir/Lamivudine |
+| 0503010Z0BBAAAA | Kivexa 600mg/300mg tablets | Abacavir and lamivudine |
+| 0503010AZBBABAB | Triumeq 50mg/600mg/300mg tablets | Dolutegravir/Abacavir/Lamivudine |
+| 0503010AZBBAAAA | Triumeq 5mg/60mg/30mg dispersible tablets | Dolutegravir/Abacavir/Lamivudine |
+| 0503010F0BBAAAA | Trizivir 300mg/150mg/300mg tablets | Abacavir/lamivudine/zidovudine |
+| 0503010E0BBABAB | Ziagen 20mg/ml oral solution | Abacavir |
+| 0503010E0BBAAAA | Ziagen 300mg tablets | Abacavir |
 
-This is a single-ingredient product with valid status. The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records.
 
 ## Safety Considerations
 

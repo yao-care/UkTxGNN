@@ -5,7 +5,7 @@ layout: default
 title: Hypromellose
 parent: Known Uses Only (No New Predictions)
 nav_order: 330
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hypromellose: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Hypromellose"
 predicted_indications: []
@@ -43,18 +43,39 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1108010F0AAAAAA | Hypromellose Eye Drops 0.3% | Eye drops | Not stated in the licence data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108010F0AABQBQ | Hypromellose 0.065% eye drops | Hypromellose |
+| 1108010F0AAAXAX | Hypromellose 0.1% eye drops preservative free | Hypromellose |
+| 1108010F0AABZBZ | Hypromellose 0.25% eye drops | Hypromellose |
+| 1108010F0AACACA | Hypromellose 0.25% eye drops preservative free | Hypromellose |
+| 1108010F0AAAAAA | Hypromellose 0.3% eye drops | Hypromellose |
+| 1108010F0AAANAN | Hypromellose 0.3% eye drops preservative free (drug) | Hypromellose |
+| 1108010F0AABSBS | Hypromellose 0.32% eye dps 0.5ml unit dose preservative free | Hypromellose |
+| 1108010F0AABNBN | Hypromellose 0.32% eye drops | Hypromellose |
+| 1108010F0AABYBY | Hypromellose 0.32% eye drops preservative free | Hypromellose |
+| 1108010F0AAABAB | Hypromellose 0.5% eye drops | Hypromellose |
+| 1108010F0AAALAL | Hypromellose 0.5% eye drops preservative free | Hypromellose |
+| 1108010F0AAACAC | Hypromellose 1% eye drops | Hypromellose |
+| 1108010F0AAASAS | Hypromellose 1% eye drops preservative free | Hypromellose |
+| 1108010F0AAADAD | Hypromellose 2% eye drops | Hypromellose |
+| 1108010F0BIACBN | Artelac 0.32% eye drops | Hypromellose |
+| 1108010F0BIABBS | Artelac Single Dose Unit 0.32% eye drops 0.5ml unit dose | Hypromellose |
+| 1108010F0BJAAAA | Brolene Cool Eyes 0.3% eye drops | Hypromellose |
+| 1108010F0AAA4A4 | Hypromellose 0.3% / Dextran '70' 0.1% eye drops | Hypromellose |
+| 1108010F0AABXBX | Hypromellose 0.3%/Dextran '70' 0.1% eye dps 0.4ml | Hypromellose |
+| 1108010F0BBAAAC | Isopto Alkaline 1% eye drops | Hypromellose |
 
-This is a single-ingredient product with a valid status. The data compiled for this report do not include NICE appraisals or a BNF classification for it.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The data compiled for this report do not include NICE appraisals or a BNF classification for it.
 
 ---
 

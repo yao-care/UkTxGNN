@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,9 +77,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206030Y0AAAAAA (BNF code) | Ivabradine Tab 5mg | Tablet | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206030Y0AAACAC | Ivabradine 2.5mg tablets | Ivabradine |
+| 0206030Y0AAAAAA | Ivabradine 5mg tablets | Ivabradine |
+| 0206030Y0AAABAB | Ivabradine 7.5mg tablets | Ivabradine |
+| 0206030Y0BBAAAA | Procoralan 5mg tablets | Ivabradine |
+| 0206030Y0BBABAB | Procoralan 7.5mg tablets | Ivabradine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed number is a BNF-style product code rather than a PL number. Ivabradine falls within BNF chapter 2 (cardiovascular system).
 

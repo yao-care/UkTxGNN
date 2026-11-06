@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ambrisentan"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **pulmonary arteriovenous malform
 | Predicted New Indication | pulmonary arteriovenous malformation (disease) |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205010X0AAAAAA | Ambrisentan_Tab 5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205010X0AAABAB | Ambrisentan 10mg tablets | Ambrisentan |
+| 0205010X0AAACAC | Ambrisentan 2.5mg tablets | Ambrisentan |
+| 0205010X0AAAAAA | Ambrisentan 5mg tablets | Ambrisentan |
+| 0205010X0BBABAB | Volibris 10mg tablets | Ambrisentan |
+| 0205010X0BBACAC | Volibris 2.5mg tablets | Ambrisentan |
+| 0205010X0BBAAAA | Volibris 5mg tablets | Ambrisentan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

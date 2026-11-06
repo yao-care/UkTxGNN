@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L3). Approved use: Ovarian cancer"
 monitor_inn: "Topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -50,8 +50,8 @@ with **3 clinical trials** (none breast-specific and with interpretable results)
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -87,11 +87,24 @@ One limitation is that topotecan is a substrate of the efflux transporter BCRP/A
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050AFAAACAC | Topotecan Cap 250mcg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050AFAAADAD | Topotecan 1mg capsules | Topotecan |
+| 0801050AFAAAAAA | Topotecan 1mg powder for solution for infusion vials | Topotecan |
+| 0801050AFAAAFAF | Topotecan 1mg/1ml solution for infusion vials | Topotecan |
+| 0801050AFAAACAC | Topotecan 250microgram capsules | Topotecan |
+| 0801050AFAAABAB | Topotecan 4mg powder for solution for infusion vials | Topotecan |
+| 0801050AFAAAEAE | Topotecan 4mg/4ml solution for infusion vials | Topotecan |
+| 0801050AFBBACAC | Hycamtin 0.25mg capsules | Topotecan |
+| 0801050AFBBADAD | Hycamtin 1mg capsules | Topotecan |
+| 0801050AFBBAAAA | Hycamtin 1mg pdr for concentrate for inf vials | Topotecan |
+| 0801050AFBBABAB | Hycamtin 4mg pdr for concentrate for inf vials | Topotecan |
+| 0801050AFBCAAAA | Potactasol 1mg pdr for concentrate for inf vials | Topotecan |
+| 0801050AFBCABAB | Potactasol 4mg pdr for concentrate for inf vials | Topotecan |
 
-This is a single valid single-ingredient product record, and the licence record provides no dosage form or indication text. NICE appraisal status and the BNF classification should be checked directly.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+NICE appraisal status and the BNF classification should be checked directly.
 
 ## Cytotoxicity
 

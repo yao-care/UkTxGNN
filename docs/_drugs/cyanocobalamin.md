@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency…"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901020D0AAAEAE (BNF code) | Cyanocobalamin Tablets 50 microgram | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901020D0AAAJAJ | Cyanocobalamin 100microgram tablets | Cyanocobalamin |
+| 0901020D0AAAHAH | Cyanocobalamin 1mg modified-release tablets | Cyanocobalamin |
+| 0901020D0AAAIAI | Cyanocobalamin 1mg sublingual tablets sugar free | Cyanocobalamin |
+| 0901020D0AAAFAF | Cyanocobalamin 1mg tablets | Cyanocobalamin |
+| 0901020D0AAADAD | Cyanocobalamin 1mg/1ml solution for injection ampoules | Cyanocobalamin |
+| 0901020D0AAAGAG | Cyanocobalamin 35micrograms/5ml oral solution | Cyanocobalamin |
+| 0901020D0AAAKAK | Cyanocobalamin 500microgram tablets | Cyanocobalamin |
+| 0901020D0AAAEAE | Cyanocobalamin 50microgram tablets | Cyanocobalamin |
+| 0901020D0BQADAJ | ActivB12 100microgram tablets | Cyanocobalamin |
+| 0901020D0BQABAH | ActivB12 1mg modified-release tablets | Cyanocobalamin |
+| 0901020D0BQAAAF | ActivB12 1mg tablets | Cyanocobalamin |
+| 0901020D0BQACAE | ActivB12 50microgram tablets | Cyanocobalamin |
+| 0901020D0BMAAAK | Acyanocomin 500microgram tablets | Cyanocobalamin |
+| 0901020D0BDAAAF | Behepan 1mg tablets | Cyanocobalamin |
+| 0901020D0BKADAJ | CyanocoB12 100microgram tablets | Cyanocobalamin |
+| 0901020D0BKAAAH | CyanocoB12 1mg modified-release tablets | Cyanocobalamin |
+| 0901020D0BKABAF | CyanocoB12 1mg tablets | Cyanocobalamin |
+| 0901020D0BKAEAK | CyanocoB12 500microgram tablets | Cyanocobalamin |
+| 0901020D0BKACAE | CyanocoB12 50microgram tablets | Cyanocobalamin |
+| 0901020D0BIADAJ | CyanocoMinn 100microgram tablets | Cyanocobalamin |
+
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Only one single-ingredient product is recorded, and it is currently valid. The identifier shown is a BNF-style code rather than an MHRA PL number, so the MHRA record should be checked directly.
 

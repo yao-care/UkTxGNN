@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tinidazole: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,14 @@ Some literature was retrieved for the fifth-ranked prediction (AIDS). It concern
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501110G0AAABAB | Tinidazole tablets 500 mg | Tablet (not specified in the record) | Not specified in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501110G0AAABAB | Tinidazole 500mg tablets | Tinidazole |
+| 0501110G0BBAAAB | Fasigyn 500mg tablets | Tinidazole |
 
-The record lists one valid single-ingredient authorisation. Dosage form, manufacturer and indication text are missing, so the MHRA and BNF entries should be checked directly.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form, manufacturer and indication text are missing, so the MHRA and BNF entries should be checked directly.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cycloserine"
 predicted_indications: ["irritable bowel syndrome", "acne (disease)", "gastroparesis (disease)", "conjunctivitis", "insomnia (disease)", "pharyngitis", "nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 | Predicted New Indication | irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (1 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 1 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,11 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090E0AAABAB | Cycloserine Cap 250mg | Capsule (250 mg) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090E0AAABAB | Cycloserine 250mg capsules | Cycloserine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier follows the BNF-style product code format, not a PL number. The list contains one single-ingredient record, and it is currently valid.
 

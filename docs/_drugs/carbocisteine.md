@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the available authorisation data (the product is classe…"
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **gout**, but there are current
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,21 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0307000J0AAAAAA | Carbocisteine Capsules 375 mg | Capsule | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0307000J0AAABAB | Carbocisteine 125mg/5ml oral solution | Carbocisteine |
+| 0307000J0AAACAC | Carbocisteine 250mg/5ml oral solution | Carbocisteine |
+| 0307000J0AAAHAH | Carbocisteine 250mg/5ml oral solution sugar free | Carbocisteine |
+| 0307000J0AAAAAA | Carbocisteine 375mg capsules | Carbocisteine |
+| 0307000J0AAAJAJ | Carbocisteine 750mg capsules | Carbocisteine |
+| 0307000J0AAAGAG | Carbocisteine 750mg/10ml soln 10ml sachets sugar free | Carbocisteine |
+| 0307000J0AAAIAI | Carbocisteine 750mg/5ml oral solution sugar free | Carbocisteine |
+| 0307000J0BBABAC | Mucodyne 250mg/5ml syrup | Carbocisteine |
+| 0307000J0BBAAAA | Mucodyne 375mg capsules | Carbocisteine |
+| 0307000J0BBADAB | Mucodyne Paediatric 125mg/5ml syrup | Carbocisteine |
+| 0307000J0BBAEAC | Mucodyne Paediatric 250mg/5ml syrup | Carbocisteine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above appears to be a BNF-style product code, not a standard PL marketing authorisation number. It should be verified against the MHRA register. The BNF chemical code (03.07) places carbocisteine among the mucolytics in the respiratory system chapter.
 

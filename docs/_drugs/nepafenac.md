@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 439
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the UK licence data compiled for this report"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -52,8 +52,8 @@ Note that this is largely confirmation of an existing ocular use (post-cataract-
 | Predicted New Indication | Eye disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -106,11 +106,16 @@ Forty trials were compiled. The most relevant are listed below (selected by rele
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1108020AFAAAAAA (BNF/dm+d product code) | Nepafenac eye drops 1 mg/ml | Eye drops | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1108020AFAAAAAA | Nepafenac 1mg/ml eye drops | Nepafenac |
+| 1108020AFAAABAB | Nepafenac 3mg/ml eye drops | Nepafenac |
+| 1108020AFBBAAAA | Nevanac 1mg/ml eye drops | Nepafenac |
+| 1108020AFBBABAB | Nevanac 3mg/ml eye drops | Nepafenac |
 
-One valid single-ingredient authorisation is recorded. Dosage form and indication text were not available in the compiled data, so please check the SmPC and the relevant NICE guidance.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text were not available in the compiled data, so please check the SmPC and the relevant NICE guidance.
 
 ---
 

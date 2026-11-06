@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Zonisamide"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -52,8 +52,8 @@ The only related signal found is a review reporting that antiseizure medications
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,23 @@ The review "Antiseizure medication-induced obsessive-compulsive disorder and tic
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010ADAAAAAA | Zonisamide capsules 100 mg | Capsule | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010ADAAAAAA | Zonisamide 100mg capsules | Zonisamide |
+| 0408010ADAAAGAG | Zonisamide 100mg/5ml oral suspension | Zonisamide |
+| 0408010ADAAAIAI | Zonisamide 200mg capsules | Zonisamide |
+| 0408010ADAAAHAH | Zonisamide 20mg/ml oral suspension sugar free | Zonisamide |
+| 0408010ADAAABAB | Zonisamide 25mg capsules | Zonisamide |
+| 0408010ADAAAFAF | Zonisamide 25mg/5ml oral suspension | Zonisamide |
+| 0408010ADAAACAC | Zonisamide 50mg capsules | Zonisamide |
+| 0408010ADAAADAD | Zonisamide 50mg/5ml oral solution | Zonisamide |
+| 0408010ADAAAEAE | Zonisamide 50mg/5ml oral suspension | Zonisamide |
+| 0408010ADBCAAAG | Desizon 20mg/ml oral suspension | Zonisamide |
+| 0408010ADBBADAA | Zonegran 100mg capsules | Zonisamide |
+| 0408010ADBBABAB | Zonegran 25mg capsules | Zonisamide |
+| 0408010ADBBACAC | Zonegran 50mg capsules | Zonisamide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier follows the BNF classification code format rather than a standard PL number, so verify it against the MHRA register. BNF chapter 4.8.1 covers antiepileptic drugs. The licence indication text and NICE-appraised indications were not available in the data compiled.
 

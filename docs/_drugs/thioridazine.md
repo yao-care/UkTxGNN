@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Thioridazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* the publications retrieved are mostly class-level antipsychotic reviews, interaction reports and safety papers. The only thioridazine-specific items are a single-patient observation of a woman with schizoaffective disorder on thioridazine maintenance (1993), a 1964 French report of thioridazine combined with a barbiturate and electroconvulsive therapy for manic reactions, and a 1980 study of pimozide in mania that compares it with thioridazine. None is a controlled study of thioridazine in this disease, so the level is capped at L5.
@@ -100,11 +100,30 @@ Currently no related clinical trials registered for manic bipolar affective diso
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010W0AAAGAG | Thioridazine Tab 50mg | Not stated | Not stated in the records compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010W0AAAHAH | Thioridazine 100mg tablets | Thioridazine |
+| 0402010W0AAABAB | Thioridazine 100mg/5ml oral suspension | Thioridazine |
+| 0402010W0AAAEAE | Thioridazine 10mg tablets | Thioridazine |
+| 0402010W0AAAFAF | Thioridazine 25mg tablets | Thioridazine |
+| 0402010W0AAACAC | Thioridazine 25mg/5ml oral solution | Thioridazine |
+| 0402010W0AAAAAA | Thioridazine 25mg/5ml oral suspension | Thioridazine |
+| 0402010W0AAAGAG | Thioridazine 50mg tablets | Thioridazine |
+| 0402010W0AAAYAY | Thioridazine 50mg/5ml oral suspension | Thioridazine |
+| 0402010W0BBADAH | Melleril 100mg tablets | Thioridazine |
+| 0402010W0BBAFAB | Melleril 100mg/5ml oral suspension | Thioridazine |
+| 0402010W0BBAAAE | Melleril 10mg tablets | Thioridazine |
+| 0402010W0BBABAF | Melleril 25mg tablets | Thioridazine |
+| 0402010W0BBAEAA | Melleril 25mg/5ml oral suspension | Thioridazine |
+| 0402010W0BBAGAC | Melleril 25mg/5ml syrup | Thioridazine |
+| 0402010W0BBACAG | Melleril 50mg tablets | Thioridazine |
+| 0402010W0BCABAH | Rideril 100mg tablets | Thioridazine |
+| 0402010W0BCAAAF | Rideril 25mg tablets | Thioridazine |
+| 0402010W0BCACAG | Rideril 50mg tablets | Thioridazine |
 
-This is the only licence record (a single-ingredient product with valid status). It carries no indication text, so no approved indication can be stated from these data. Please check the current SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It carries no indication text, so no approved indication can be stated from these data. Please check the current SmPC and BNF.
 
 ---
 
@@ -138,7 +157,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high and D2 blockade gives a plausible class-level rationale. However, no trial or controlled study of thioridazine in manic bipolar affective disorder was found. Its QT-prolongation and arrhythmia risks and its serious interactions (including with lithium, a standard mania treatment) are major concerns, and the licence record carries no indication text.
+The prediction score is high and D2 blockade gives a plausible class-level rationale. However, no trial or controlled study of thioridazine in manic bipolar affective disorder was found. Its QT-prolongation and arrhythmia risks and its serious interactions (including with lithium, a standard mania treatment) are major concerns.
 
 **To proceed, the following is needed:**
 - Mechanism of action data for thioridazine

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Olanzapine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L3). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Agoraphobia** (the highest-ra
 | Predicted New Indication | Agoraphobia (the model's top-ranked prediction is benign paroxysmal torticollis of infancy; see note below) |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (62 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 62 |
 | Recommended Decision | Hold (treat as a research question) |
 
 **Note on prediction choice:** The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9954), has no trials or literature (L5) and raises safety concerns for antipsychotic use in infants, so it is not evaluated further here. Agoraphobia is the highest-ranked prediction with a body of supporting literature.
@@ -92,11 +92,32 @@ No randomised controlled trials were identified.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 040201060AAAAAA | Olanzapine tablets 5 mg | Tablet (not specified in the data) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040201060AAAJAJ | Olanzapine 1.25mg/5ml oral liquid | Olanzapine |
+| 040201060AAAFAF | Olanzapine 10mg oral lyophilisates sugar free | Olanzapine |
+| 040201060AAAXAX | Olanzapine 10mg orodispersible tablets | Olanzapine |
+| 040201060AAATAT | Olanzapine 10mg orodispersible tablets sugar free | Olanzapine |
+| 040201060AAANAN | Olanzapine 10mg powder for solution for injection vials | Olanzapine |
+| 040201060AAACAC | Olanzapine 10mg tablets | Olanzapine |
+| 040201060AABBBB | Olanzapine 12.5mg/5ml oral suspension | Olanzapine |
+| 040201060AAAKAK | Olanzapine 15mg oral lyophilisates sugar free | Olanzapine |
+| 040201060AAAYAY | Olanzapine 15mg orodispersible tablets | Olanzapine |
+| 040201060AAAUAU | Olanzapine 15mg orodispersible tablets sugar free | Olanzapine |
+| 040201060AAALAL | Olanzapine 15mg tablets | Olanzapine |
+| 040201060AABCBC | Olanzapine 15mg/5ml oral solution | Olanzapine |
+| 040201060AABGBG | Olanzapine 2.5mg orodispersible tablets sugar free | Olanzapine |
+| 040201060AAADAD | Olanzapine 2.5mg tablets | Olanzapine |
+| 040201060AAAIAI | Olanzapine 2.5mg/5ml oral solution | Olanzapine |
+| 040201060AABABA | Olanzapine 2.5mg/5ml oral suspension | Olanzapine |
+| 040201060AAAPAP | Olanzapine 20mg oral lyophilisates sugar free | Olanzapine |
+| 040201060AAAZAZ | Olanzapine 20mg orodispersible tablets | Olanzapine |
+| 040201060AAAVAV | Olanzapine 20mg orodispersible tablets sugar free | Olanzapine |
+| 040201060AAAQAQ | Olanzapine 20mg tablets | Olanzapine |
 
-The single authorisation is a valid single-ingredient product. The reference number is not in the usual MHRA PL format, so please verify it against the MHRA register. NICE-appraised indications were not available in the data compiled for this report.
+Showing 20 of 62 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The reference number is not in the usual MHRA PL format, so please verify it against the MHRA register. NICE-appraised indications were not available in the data compiled for this report.
 
 ---
 

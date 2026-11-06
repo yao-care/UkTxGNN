@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Dipyridamole is an antiplatelet medicine that is currently marketed in the UK. T
 | Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (32 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 32 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +68,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0209000L0AAACAC | Dipyridamole Tab 100mg | Tablet | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0209000L0AAACAC | Dipyridamole 100mg tablets | Dipyridamole |
+| 0209000L0AAAHAH | Dipyridamole 100mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAAAAA | Dipyridamole 10mg/2ml solution for injection ampoules | Dipyridamole |
+| 0209000L0AAAJAJ | Dipyridamole 10mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAAUAU | Dipyridamole 12.5mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAARAR | Dipyridamole 15mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAAMAM | Dipyridamole 200mg modified-release capsules | Dipyridamole |
+| 0209000L0AAANAN | Dipyridamole 200mg/5ml oral solution | Dipyridamole |
+| 0209000L0AAAZAZ | Dipyridamole 200mg/5ml oral suspension | Dipyridamole |
+| 0209000L0AAAYAY | Dipyridamole 200mg/5ml oral suspension sugar free | Dipyridamole |
+| 0209000L0AAATAT | Dipyridamole 20mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAAPAP | Dipyridamole 250mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAABAB | Dipyridamole 25mg tablets | Dipyridamole |
+| 0209000L0AAAQAQ | Dipyridamole 25mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAASAS | Dipyridamole 30mg/5ml oral liquid | Dipyridamole |
+| 0209000L0AAALAL | Dipyridamole 50mg/5ml oral solution | Dipyridamole |
+| 0209000L0AAAKAK | Dipyridamole 50mg/5ml oral suspension sugar free | Dipyridamole |
+| 0209000L0AAAIAI | Dipyridamole 5mg/5ml oral liquid | Dipyridamole |
+| 0209000V0BBAAAA | Asasantin Retard capsules | Dipyridamole and aspirin |
+| 0209000V0BDAAAA | Atransipar 200mg/25mg modified-release capsules | Dipyridamole and aspirin |
 
-One single-ingredient authorisation is recorded, and it is valid.
+Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

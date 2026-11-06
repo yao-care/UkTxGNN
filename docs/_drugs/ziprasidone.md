@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 661
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ No clinical trials or publications directly studying this condition were found, 
 | Predicted New Indication | Trichotillomania |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010AGAAABAB | Ziprasidone HCl Cap 80mg | Capsule (per product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010AGAAADAD | Ziprasidone 20mg capsules | Ziprasidone hydrochloride |
+| 0402010AGAAAAAA | Ziprasidone 40mg capsules | Ziprasidone hydrochloride |
+| 0402010AGAAACAC | Ziprasidone 60mg capsules | Ziprasidone hydrochloride |
+| 0402010AGAAABAB | Ziprasidone 80mg capsules | Ziprasidone hydrochloride |
+| 0402010AGBBAAAA | Zeldox 40mg capsules | Ziprasidone hydrochloride |
+| 0402010AGBBACAC | Zeldox 60mg capsules | Ziprasidone hydrochloride |
+| 0402010AGBBABAB | Zeldox 80mg capsules | Ziprasidone hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code embedded in this record (chapter 4, central nervous system) is consistent with an antipsychotic. Indication text is not recorded in the local data.
 

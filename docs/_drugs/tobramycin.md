@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 623
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **exposure keratitis**, but the
 | Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (24 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 24 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,30 @@ Currently no related clinical trials registered for exposure keratitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501040U0AAAKAK (BNF-style product code; this is not a PL number) | Tobramycin nebuliser solution 300 mg/4 ml single-dose | Nebuliser solution | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501040U0AAANAN | Tobramycin 170mg/1.7ml nebuliser liquid ampoules | Tobramycin |
+| 0501040U0AAAAAA | Tobramycin 20mg/2ml solution for injection vials | Tobramycin |
+| 0501040U0AAAMAM | Tobramycin 20mg/5ml oral solution | Tobramycin |
+| 0501040U0AAAIAI | Tobramycin 240mg/6ml solution for injection vials | Tobramycin |
+| 0501040U0AAAKAK | Tobramycin 300mg/4ml nebuliser liquid ampoules | Tobramycin |
+| 0501040U0AAAGAG | Tobramycin 300mg/5ml nebuliser liquid ampoules | Tobramycin |
+| 1103010X0AAAAAA | Tobramycin 3mg/ml eye drops | Tobramycin |
+| 0501040U0AAAEAE | Tobramycin 40mg/1ml solution for injection ampoules | Tobramycin |
+| 0501040U0AAABAB | Tobramycin 40mg/1ml solution for injection vials | Tobramycin |
+| 0501040U0AAAHAH | Tobramycin 40mg/5ml oral solution | Tobramycin |
+| 0501040U0AAAFAF | Tobramycin 80mg/2ml solution for infusion ampoules | Tobramycin |
+| 0501040U0AAACAC | Tobramycin 80mg/2ml solution for injection vials | Tobramycin |
+| 0501040U0BDAAAK | Bramitob 300mg/4ml nebuliser solution 4ml ampoules | Tobramycin |
+| 1104010I0AAAPAP | Dexamethasone 0.1% / Tobramycin 0.3% eye drops | Dexamethasone |
+| 0501040U0BHAAAG | Munuza 300mg/5ml nebuliser solution 5ml ampoules | Tobramycin |
+| 0501040U0BBAAAA | Nebcin 20mg/2ml solution for injection vials | Tobramycin |
+| 0501040U0BBACAC | Nebcin 80mg/2ml solution for injection vials | Tobramycin |
+| 0501040U0BCAAAG | Tobi 300mg/5ml nebuliser solution 5ml ampoules | Tobramycin |
+| 0501040U0BCABAL | Tobi Podhaler 28mg inhalation powder capsules with device | Tobramycin |
+| 1104010I0BFAAAP | Tobradex 3mg/ml / 1mg/ml eye drops | Dexamethasone |
+
+Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Dosage form and indication text were not provided, so NICE-appraised indications cannot be summarised here. Please check the SmPC and BNF.
 
@@ -111,8 +132,8 @@ The prediction score is high, but there are no registered trials and no publishe
 - Clinical or well-designed preclinical studies of tobramycin in exposure keratitis, including its prophylactic role against secondary infection
 - Comparison against established care, such as lubricants and lid protection, and against alternative topical antibiotics
 - Assessment of corneal epithelial toxicity in a compromised epithelium
-- Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications), because the current licence record is incomplete
-- Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation
+- Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications)
+- Confirmation of which ophthalmic tobramycin formulations are available in the UK
 
 ### Other predictions reviewed
 

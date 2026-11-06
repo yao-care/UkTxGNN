@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 102
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Betaxolol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,18 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000I0AAAAAA | Betaxolol_Soln Eye Dps 0.5% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000I0AAABAB | Betaxolol 0.25% eye drops | Betaxolol |
+| 1106000I0AAACAC | Betaxolol 0.25% eye drops 0.25ml unit dose preservative free | Betaxolol |
+| 1106000I0AAAAAA | Betaxolol 0.5% eye drops | Betaxolol |
+| 0204000G0AAAAAA | Betaxolol 20mg tablets | Betaxolol hydrochloride |
+| 1106000I0BBACAC | Betoptic 0.25% eye drops suspension 0.25ml unit dose | Betaxolol |
+| 1106000I0BBABAB | Betoptic 0.25% suspension eye drops | Betaxolol |
+| 1106000I0BBAAAA | Betoptic 0.5% eye drops | Betaxolol |
+| 0204000G0BBAAAA | Kerlone 20mg tablets | Betaxolol hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

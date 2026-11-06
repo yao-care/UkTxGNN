@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Mexiletine"
 predicted_indications: ["hypertrichosis (disease)", "nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "migraine disorder", "isolated genetic hair shaft abnormality", "pulmonary hypertension", "migraine with brainstem aura", "headache disorder"]
 description: "Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ It has **no registered clinical trials** and **5 publications**, all small obser
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 (observational studies and case series) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold (research question only) |
 
 **Note on the choice of indication:** The top-ranked predictions by score (hypertrichosis, nephrogenic syndrome of inappropriate antidiuresis, Ambras syndrome and others) have no supporting studies and no plausible mechanism. Headache disorder and migraine have the only direct clinical literature, so this report focuses on headache disorder.
@@ -92,9 +92,28 @@ Other predictions have little or no relevant literature. For pulmonary hypertens
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0203020P0AAABAB (BNF-style code) | Mexiletine HCl capsules 200 mg | Capsule | Not stated in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0203020P0AAAMAM | Mexiletine 100mg tablets | Mexiletine hydrochloride |
+| 0203020P0AAAFAF | Mexiletine 10mg/5ml oral solution | Mexiletine hydrochloride |
+| 0203020P0AAAEAE | Mexiletine 200mg/5ml oral solution | Mexiletine hydrochloride |
+| 0203020P0AAACAC | Mexiletine 250mg/10ml solution for injection ampoules | Mexiletine hydrochloride |
+| 0203020P0AAAHAH | Mexiletine 25mg capsules | Mexiletine hydrochloride |
+| 0203020P0AAADAD | Mexiletine 360mg modified-release capsules | Mexiletine hydrochloride |
+| 0203020P0AAALAL | Mexiletine 37.5mg/5ml oral solution | Mexiletine hydrochloride |
+| 0203020P0AAAAAA | Mexiletine 50mg capsules | Mexiletine hydrochloride |
+| 0203020P0AAAKAK | Mexiletine 50mg/5ml oral solution | Mexiletine hydrochloride |
+| 0203020P0AAAJAJ | Mexiletine 50mg/5ml oral suspension | Mexiletine hydrochloride |
+| 0203020P0AAAIAI | Mexiletine hydrochloride 100mg (Mexiletine 83mg) capsules | Mexiletine hydrochloride |
+| 0203020P0AAANAN | Mexiletine hydrochloride 200mg (Mexiletine 167mg) capsules | Mexiletine hydrochloride |
+| 0203020P0BBADAC | Mexitil 250mg/10ml solution for injection ampoules | Mexiletine hydrochloride |
+| 0203020P0BBAAAA | Mexitil 50mg capsules | Mexiletine hydrochloride |
+| 0203020P0BBAEAD | Mexitil PL Perlongets 360mg capsules | Mexiletine hydrochloride |
+| 0203020P0BCAAAN | Namuscla 167mg capsules | Mexiletine hydrochloride |
+| 0203020P0BCABAI | Namuscla 83mg capsules | Mexiletine hydrochloride |
+| 0203020P0BDAAAN | Ritalmex 200mg capsules | Mexiletine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF section code in the identifier (0203, "Drugs for arrhythmias") is consistent with an antiarrhythmic classification. The indication text, dosage form and manufacturer details were not available.
 

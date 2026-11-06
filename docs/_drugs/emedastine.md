@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 248
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Emedastine: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Emedastine, but every cand
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 2 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## Known uses among the model's candidates
 
@@ -73,9 +73,12 @@ The TxGNN deep-learning model produced candidates for Emedastine, but every cand
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1104020X0AAAAAA | Emedastine_Eye Dps 0.5mg/ml |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020X0AAAAAA | Emedastine 0.5mg/ml eye drops | Emedastine |
+| 1104020X0BBAAAA | Emadine 0.5mg/ml eye drops | Emedastine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

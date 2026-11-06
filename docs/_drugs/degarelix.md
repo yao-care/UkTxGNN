@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available authorisation data"
 monitor_inn: "Degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -52,8 +52,8 @@ This is a model-only prediction with a weak mechanistic rationale.
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803042R0AAAAAA | Degarelix injection 80 mg vial + diluent | Injection (powder and solvent) | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803042R0AAABAB | Degarelix 120mg inj vials | Degarelix |
+| 0803042R0AAAAAA | Degarelix 80mg inj vials | Degarelix |
+| 0803042R0BBABAB | Firmagon 120mg inj vials | Degarelix |
+| 0803042R0BBAAAA | Firmagon 80mg inj vials | Degarelix |
 
-The data compiled for this report list one valid single-ingredient authorisation. It does not give a PL number, manufacturer or indication text. Please verify details against the MHRA register, the SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It does not give a PL number, manufacturer or indication text. Please verify details against the MHRA register, the SmPC and the BNF.
 
 ---
 

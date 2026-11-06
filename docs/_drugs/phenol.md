@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Phenol: predicted new indication Acrodermatitis chronica atrophicans (evidence level L5). Approved use: Dermatitis"
 monitor_inn: "Phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -52,8 +52,8 @@ This is a model prediction with very limited supporting evidence.
 | Predicted New Indication | Acne keloid (the highest-ranked prediction, acrodermatitis chronica atrophicans, has no supporting evidence and no plausible mechanism, so the best-supported prediction is used for this report) |
 | TxGNN Prediction Score | 0.9994 (acne keloid); the top-ranked prediction scored 0.9995 |
 | Evidence Level | L5 (acne keloid); L5 for the top-ranked prediction |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,9 +88,24 @@ For dry eye syndrome (score 0.9904), 20 publications were retrieved, but none ev
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203040K0AAAGAG | Phenol 0.71% | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1203040K0AAAGAG | Phenol 0.71% mouthwash sugar free | Phenol |
+| 1310050P0AAAFAF | Phenol 2% in Aqueous calamine cream | Phenol |
+| 130900000AABGBG | Camphor 3.57%/Salicylic acid 3.57%/Phenol 2.85%/Sulfur 2.14% | Other shampoo and scalp preparations |
+| 1310050P0BBABAD | Germolene antiseptic cream | Phenol |
+| 1310050P0BBAAAE | Germolene antiseptic first aid wash spray | Phenol |
+| 1311050V0AAAAAA | Halogenated phenols 0.68% / Phenol 0.175% liquid | Halogenated phenols with phenol |
+| 1303000AAAAALAL | Menthol 2% / Phenol 1% in Aqueous cream | Menthol |
+| 0107030P0AAAFAF | Oily phenol 5% solution for injection 25ml vials | Phenol |
+| 0107030P0AAABAB | Oily phenol 5% solution for injection 2ml ampoules | Phenol |
+| 0107030P0AAADAD | Oily phenol 5% solution for injection 5ml ampoules | Phenol |
+| 1310050P0AAADAD | Phenol 1.2% / Chlorhexidine gluconate 0.25% cream | Phenol |
+| 1310050P0AAAEAE | Phenol 1.2% / Chlorhexidine gluconate 0.25% spray | Phenol |
+| 1311050V0BBAAAA | TCP antiseptic liquid | Halogenated phenols with phenol |
+| 1203040K0BCAAAG | Ultra Chloraseptic 0.71% antiseptic mouthwash and gargle | Phenol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The data compiled for this report do not include the authorisation's dosage form or approved indication text. The authorisation number is not in standard MHRA PL format, so it should be verified.
 

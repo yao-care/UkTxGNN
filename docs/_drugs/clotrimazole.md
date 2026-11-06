@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Clotrimazole is a topical and vaginal azole antifungal. The TxGNN model predicts
 | Predicted New Indication | acne (disease) |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (53 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 53 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Clotrimazole is marketed in the UK, with at least one valid single-ingredient authorisation recorded in the local data (Clotrimazole pessary 200 mg). Approved indication text and dosage form are not recorded for this entry.
+Approved indication text and dosage form are not recorded for this entry.
 
 ---
 

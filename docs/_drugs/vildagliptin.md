@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Vildagliptin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601023AAAAAAAA | Vildagliptin tablets 50 mg | Tablet | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601023AAAAAAAA | Vildagliptin 50mg tablets | Vildagliptin |
+| 0601023Z0BBAAAA | Eucreas 50mg/1000mg tablets | Metformin hydrochloride/vildagliptin |
+| 0601023Z0BBABAB | Eucreas 50mg/850mg tablets | Metformin hydrochloride/vildagliptin |
+| 0601023AABBAAAA | Galvus 50mg tablets | Vildagliptin |
+| 0601023Z0AAAAAA | Vildagliptin 50mg / Metformin 1g tablets | Metformin hydrochloride/vildagliptin |
+| 0601023Z0AAABAB | Vildagliptin 50mg / Metformin 850mg tablets | Metformin hydrochloride/vildagliptin |
 
-This is the only authorisation recorded. It is a single-ingredient product with valid status. The number is not in the standard PL format, so it should be checked against the MHRA register. Please also consult the BNF (antidiabetic drugs section) and the current SmPC for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The number is not in the standard PL format, so it should be checked against the MHRA register. Please also consult the BNF (antidiabetic drugs section) and the current SmPC for the licensed indications.
 
 ---
 

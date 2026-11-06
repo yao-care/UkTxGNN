@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tiopronin"
 predicted_indications: ["renal tubular acidosis", "adult polyglucosan body disease", "tricarboxylic acid cycle disorder", "disease of transporter activity", "pyruvate metabolism disorder", "inborn disorder of fatty acid oxidation and ketone body metabolism"]
 description: "Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,11 +83,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001030Q0AAABAB | Tiopronin tablets 250 mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030Q0AAAAAA | Tiopronin 100mg tablets | Tiopronin |
+| 1001030Q0AAABAB | Tiopronin 250mg tablets | Tiopronin |
+| 1001030Q0BDAAAB | Acadione 250mg tablets | Tiopronin |
+| 1001030Q0BCAAAB | Captimer 250mg tablets | Tiopronin |
 
-Only one valid single-ingredient authorisation was identified in the data compiled for this report. Dosage form and approved indication text were not available, and the number above is the identifier recorded in the data rather than a standard MHRA PL number. Please confirm the details against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text were not available, and the number above is the identifier recorded in the data rather than a standard MHRA PL number. Please confirm the details against the MHRA register and the BNF.
 
 ## Safety Considerations
 

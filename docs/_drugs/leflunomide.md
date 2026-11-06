@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Leflunomide: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Brachydactyly-syndactyly syndrome |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001030L0AAAAAA | Leflunomide Tab 10mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030L0AAACAC | Leflunomide 100mg tablets | Leflunomide |
+| 1001030L0AAAAAA | Leflunomide 10mg tablets | Leflunomide |
+| 1001030L0AAADAD | Leflunomide 15mg tablets | Leflunomide |
+| 1001030L0AAABAB | Leflunomide 20mg tablets | Leflunomide |
+| 1001030L0BBACAC | Arava 100mg tablets | Leflunomide |
+| 1001030L0BBAAAA | Arava 10mg tablets | Leflunomide |
+| 1001030L0BBABAB | Arava 20mg tablets | Leflunomide |
 
-Only one valid single-ingredient authorisation is recorded. The record does not give a dosage form or approved indication text, and the number does not follow the UK PL format. It should be checked against MHRA records.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It should be checked against MHRA records.
 
 ## Safety Considerations
 

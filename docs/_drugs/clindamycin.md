@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
 description: "Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,30 @@ For context, the second-ranked prediction (exposure keratitis) has limited, indi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501060D0AAABAB | Clindamycin HCl capsules 150 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1306010F0AAAAAA | Clindamycin 1% alcoholic solution | Clindamycin phosphate |
+| 1306010F0AAABAB | Clindamycin 1% aqueous lotion | Clindamycin phosphate |
+| 1306010F0AAADAD | Clindamycin 1% gel | Clindamycin phosphate |
+| 0501060D0AAATAT | Clindamycin 100mg/5ml oral suspension | Clindamycin hydrochloride |
+| 0501060D0AAAJAJ | Clindamycin 120mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAABAB | Clindamycin 150mg capsules | Clindamycin hydrochloride |
+| 0501060D0AAAHAH | Clindamycin 150mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAAQAQ | Clindamycin 150mg/5ml oral suspension | Clindamycin hydrochloride |
+| 0702020E0AAAAAA | Clindamycin 2% vaginal cream | Clindamycin phosphate |
+| 0501060D0AAARAR | Clindamycin 200mg/5ml oral suspension | Clindamycin hydrochloride |
+| 0501060D0AAAFAF | Clindamycin 20mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAAMAM | Clindamycin 300mg capsules | Clindamycin hydrochloride |
+| 0501060E0AAAAAA | Clindamycin 300mg/2ml solution for injection ampoules | Clindamycin phosphate |
+| 0501060D0AAAGAG | Clindamycin 300mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAAIAI | Clindamycin 400mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAAPAP | Clindamycin 450mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAASAS | Clindamycin 50mg/5ml oral suspension | Clindamycin hydrochloride |
+| 0501060E0AAABAB | Clindamycin 600mg/4ml solution for injection ampoules | Clindamycin phosphate |
+| 0501060D0AAALAL | Clindamycin 60mg/5ml oral solution | Clindamycin hydrochloride |
+| 0501060D0AAAAAA | Clindamycin 75mg capsules | Clindamycin hydrochloride |
+
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The number shown appears to be a BNF-style product code rather than an MHRA "PL" number, so the MHRA licence details should be confirmed directly.
 

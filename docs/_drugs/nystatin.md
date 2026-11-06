@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,7 +52,8 @@ The single registered trial is for a different drug and a different eye conditio
 | Predicted New Indication | Disease of orbital region |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +82,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502030B0AAABAB (BNF-style product code; no PL number in the data) | 1 (valid: 1) | Oral suspension | Indication text not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1203020N0AAAAAA | Nystatin 100,000unit pastilles | Nystatin |
+| 0702020T0AAAFAF | Nystatin 100,000unit pessaries | Nystatin |
+| 0702020T0AAAEAE | Nystatin 100,000units/4g application vaginal cream | Nystatin |
+| 1310020U0AAAAAA | Nystatin 100,000units/g cream | Nystatin |
+| 1310020U0AAADAD | Nystatin 100,000units/g ointment | Nystatin |
+| 0502030B0AAABAB | Nystatin 100,000units/ml oral suspension | Nystatin |
+| 0502030B0AAAXAX | Nystatin 100,000units/ml oral suspension sugar free | Nystatin |
+| 0502030B0AAAKAK | Nystatin 250mg capsules | Nystatin |
+| 0502030B0AAAIAI | Nystatin 500,000unit tablets | Nystatin |
+| 0502030B0AAACAC | Nystatin powder | Nystatin |
+| 1203010W0AAAAAA | Betamethasone 0.05%/Doxycycline 10%/Nystatin 2% m/wash sach | Betamethasone/Doxycycline/Nystatin |
+| 1304000H0AACACA | Clobet 0.05%/Oxytetracycline 3% /Nystatin 100,000units/g crm | Clobetasone butyrate |
+| 1304000G0AACBCB | Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000u/g oint | Clobetasol propionate |
+| 1304000G0AACACA | Clobetasol 500microg/Neomycin 5mg/Nystatin 100,000unit/g crm | Clobetasol propionate |
+| 1304000G0BBAFCA | Dermovate-NN cream | Clobetasol propionate |
+| 1304000G0BBAGCB | Dermovate-NN ointment | Clobetasol propionate |
+| 0501110C0BCALA8 | Flagyl Compak | Metronidazole |
+| 1304000Z0AACJCJ | Gramicidin/Neomycin/Nystatin/Triamcinolone acetonide oint | Triamcinolone acetonide |
+| 0501110C0AAA8A8 | Metronidazole 400mg tab and Nystatin 100,000unit pess | Metronidazole |
+| 1304000V0CFABCF | Nystaform HC cream | Hydrocortisone |
 
-The main authorisation record is a single-ingredient product with valid status. Please check the current MHRA-authorised product information and the BNF for the licensed indications.
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA-authorised product information and the BNF for the licensed indications.
 
 ---
 

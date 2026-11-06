@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Phylloquinone"
 predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "leukocyte adhesion deficiency", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
 description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,32 @@ All other predictions in the data compiled for this report are also evidence lev
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906060Q0AAAEAE (BNF-style product code, not a PL number) | Phytomenadione capsules 1 mg | Capsule | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906060Q0AABCBC | Phytomenadione 10mg capsules | Phytomenadione |
+| 0906060Q0AAACAC | Phytomenadione 10mg tablets | Phytomenadione |
+| 0906060Q0AAABAB | Phytomenadione 10mg/1ml solution for injection ampoules | Phytomenadione |
+| 0906060Q0AAAPAP | Phytomenadione 10mg/5ml oral suspension | Phytomenadione |
+| 0906060Q0AAAEAE | Phytomenadione 1mg capsules | Phytomenadione |
+| 0906060Q0AAAAAA | Phytomenadione 1mg/0.5ml solution for injection ampoules | Phytomenadione |
+| 0906060Q0AAAZAZ | Phytomenadione 200micrograms/ml oral drops sugar free | Phytomenadione |
+| 0906060Q0AAAXAX | Phytomenadione 20mg/ml oral drops | Phytomenadione |
+| 0906060Q0AAAYAY | Phytomenadione 20mg/ml oral drops sugar free | Phytomenadione |
+| 0906060Q0AAASAS | Phytomenadione 2mg/0.2ml solution for injection ampoules | Phytomenadione |
+| 0906060Q0AABDBD | Phytomenadione 30micrograms/ml oral solution | Phytomenadione |
+| 0906060Q0AABBBB | Phytomenadione 500micrograms/5ml oral liquid | Phytomenadione |
+| 0906060Q0AAAHAH | Phytomenadione 5mg/5ml oral suspension | Phytomenadione |
+| 0906060Q0BHAAAC | AmPhytom 10mg tablets | Phytomenadione |
+| 0906060Q0BFAAAE | K-Cap 1mg capsules | Phytomenadione |
+| 0906060Q0BDABAY | Kanavit 20mg/ml oral drops sugar free | Phytomenadione |
+| 0906060Q0BBAAAC | Konakion 10mg tablets | Phytomenadione |
+| 0906060Q0BBAFAB | Konakion MM 10mg/1ml solution for injection ampoules | Phytomenadione |
+| 0906060Q0BBAGAS | Konakion MM Paediatric 2mg/0.2ml inj ampoules (Cheplapharm) | Phytomenadione |
+| 0906060Q0BBAHAS | Konakion MM Paediatric 2mg/0.2ml inj amps (Imported(France)) | Phytomenadione |
 
-Only one valid single-ingredient authorisation is recorded. Please refer to the SmPC and BNF for the approved indications and dosing.
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please refer to the SmPC and BNF for the approved indications and dosing.
 
 ---
 

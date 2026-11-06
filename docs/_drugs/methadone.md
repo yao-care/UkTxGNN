@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 398
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -50,8 +50,8 @@ Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet. 
 | Predicted New Indication | Tourette syndrome |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (71 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 71 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407020M0AAAEAE | Methadone HCl Tablets 5 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0410030C0AAATAT | Methadone 1.67mg/5ml oral liquid | Methadone hydrochloride |
+| 0407020M0AABMBM | Methadone 100mg capsules | Methadone hydrochloride |
+| 0407020M0AAA2A2 | Methadone 100mg impregnated cigarettes | Methadone hydrochloride |
+| 0407020M0AAADAD | Methadone 100mg suppositories | Methadone hydrochloride |
+| 0410030C0AABEBE | Methadone 100mg/5ml oral liquid | Methadone hydrochloride |
+| 0407020M0AAAKAK | Methadone 10mg capsules | Methadone hydrochloride |
+| 0407020M0AAAVAV | Methadone 10mg/1ml solution for injection ampoules | Methadone hydrochloride |
+| 0410030C0AAAQAQ | Methadone 10mg/5ml oral liquid | Methadone hydrochloride |
+| 0410030C0AABABA | Methadone 10mg/ml oral solution sugar free | Methadone hydrochloride |
+| 0410030C0AABFBF | Methadone 12.5mg/5ml oral liquid | Methadone hydrochloride |
+| 0407020M0AABSBS | Methadone 15mg suppositories | Methadone hydrochloride |
+| 0410030C0AABGBG | Methadone 15mg/5ml oral liquid | Methadone hydrochloride |
+| 0410030C0AAAUAU | Methadone 1mg/5ml oral liquid | Methadone hydrochloride |
+| 0410030C0AAAAAA | Methadone 1mg/ml oral solution | Methadone hydrochloride |
+| 0410030C0AAAFAF | Methadone 1mg/ml oral solution sugar free | Methadone hydrochloride |
+| 0410030C0AAAJAJ | Methadone 1mg/ml oral suspension sugar free | Methadone hydrochloride |
+| 0410030C0AAASAS | Methadone 2.33mg/5ml oral liquid | Methadone hydrochloride |
+| 0407020M0AAA8A8 | Methadone 20mg/1ml solution for injection ampoules | Methadone hydrochloride |
+| 0407020M0AAA3A3 | Methadone 20mg/2ml solution for injection ampoules | Methadone hydrochloride |
+| 0410030C0AAAPAP | Methadone 20mg/5ml oral liquid | Methadone hydrochloride |
 
-Methadone is listed in the data as a single-ingredient product with a valid status. The listed number is a product code rather than a standard PL number. Please check the current MHRA record and the BNF for the authorised indications and formulations.
+Showing 20 of 71 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed number is a product code rather than a standard PL number. Please check the current MHRA record and the BNF for the authorised indications and formulations.
 
 ---
 

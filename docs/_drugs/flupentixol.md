@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 298
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this direction.
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040F0AAAAAA | Flupentixol HCl Tab 500mcg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402020G0AAABAB | Flupentixol 100mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0403040F0AAABAB | Flupentixol 1mg tablets | Flupentixol hydrochloride |
+| 0403040F0AAAGAG | Flupentixol 1mg/5ml oral solution | Flupentixol hydrochloride |
+| 0402020G0AAAIAI | Flupentixol 200mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0AAAAAA | Flupentixol 20mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0402010H0AAAAAA | Flupentixol 3mg tablets | Flupentixol hydrochloride |
+| 0402020G0AAACAC | Flupentixol 40mg/2ml solution for injection ampoules | Flupentixol decanoate |
+| 0403040F0AAAAAA | Flupentixol 500microgram tablets | Flupentixol hydrochloride |
+| 0403040F0AAAFAF | Flupentixol 500micrograms/5ml oral liquid | Flupentixol hydrochloride |
+| 0402020G0AAAHAH | Flupentixol 50mg/0.5ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0BBAAAA | Depixol 20mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0402010H0BBAAAA | Depixol 3mg tablets | Flupentixol hydrochloride |
+| 0402020G0BBABAC | Depixol 40mg/2ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0BBADAB | Depixol Conc 100mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0BBAFAH | Depixol Conc 50mg/0.5ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0BBAGAI | Depixol Low Volume 200mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0403040F0BBABAB | Fluanxol 1mg tablets | Flupentixol hydrochloride |
+| 0403040F0BBAAAA | Fluanxol 500microgram tablets | Flupentixol hydrochloride |
+| 0402020G0BCADAB | Psytixol 100mg/1ml solution for injection ampoules | Flupentixol decanoate |
+| 0402020G0BCAEAI | Psytixol 200mg/1ml solution for injection ampoules | Flupentixol decanoate |
+
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The reference above appears to be a BNF-style product code rather than an MHRA "PL" number. It should be checked against the MHRA register. Flupentixol is classified in BNF chapter 4 (central nervous system, antipsychotic drugs).
 

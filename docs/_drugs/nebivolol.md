@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no directly relevant public
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9942 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,18 @@ Currently no related literature available for the top predicted indication (mali
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000ABAAABAB | Nebivolol Tablets 2.5 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000ABAAADAD | Nebivolol 1.25mg tablets | Nebivolol |
+| 0204000ABAAACAC | Nebivolol 10mg tablets | Nebivolol |
+| 0204000ABAAABAB | Nebivolol 2.5mg tablets | Nebivolol |
+| 0204000ABAAAAAA | Nebivolol 5mg tablets | Nebivolol |
+| 0204000ABBCAAAA | Hypoloc 5mg tablets | Nebivolol |
+| 0204000ABBBAAAA | Nebilet 5mg tablets | Nebivolol |
 
-The data compiled for this report list one valid single-ingredient authorisation. Please check the current MHRA record, the SmPC and the BNF for the full licensed indications and the product's formal authorisation number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record, the SmPC and the BNF for the full licensed indications and the product's formal authorisation number.
 
 ## Safety Considerations
 

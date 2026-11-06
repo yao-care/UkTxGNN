@@ -5,7 +5,7 @@ layout: default
 title: Retapamulin
 parent: Known Uses Only (No New Predictions)
 nav_order: 538
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Retapamulin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Retapamulin"
 predicted_indications: []
@@ -43,16 +43,19 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310011AAAAAAAA | Retapamulin Oint 1% | Ointment (as implied by the product name) | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310011AAAAAAAA | Retapamulin 1% ointment | Retapamulin |
+| 1310011AABBAAAA | Altargo 10mg/g ointment | Retapamulin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be checked against the MHRA register. NICE appraisal and BNF classification details were not available.
 

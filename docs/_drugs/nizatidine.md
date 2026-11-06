@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Nizatidine"
 predicted_indications: ["duodenal obstruction", "gastroduodenitis", "multiple endocrine neoplasia"]
 description: "Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ This prediction largely overlaps with the drug's existing uses, so it is better 
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (provisional, see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -100,16 +100,25 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103010N0AAAAAA (BNF-style product code, not a PL number) | Nizatidine capsules 150 mg | Capsule | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103010N0AAACAC | Nizatidine 100mg/4ml solution for infusion ampoules | Nizatidine |
+| 0103010N0AAAAAA | Nizatidine 150mg capsules | Nizatidine |
+| 0103010N0AAADAD | Nizatidine 150mg/5ml oral liquid | Nizatidine |
+| 0103010N0AAABAB | Nizatidine 300mg capsules | Nizatidine |
+| 0103010N0BBACAC | Axid 100mg/4ml solution for infusion ampoules | Nizatidine |
+| 0103010N0BBAAAA | Axid 150mg capsules | Nizatidine |
+| 0103010N0BBABAB | Axid 300mg capsules | Nizatidine |
+| 0103010N0BCAAAA | Zinga 150mg capsules | Nizatidine |
+| 0103010N0BCABAB | Zinga 300mg capsules | Nizatidine |
 
-Only one valid single-ingredient authorisation is recorded. The dosage form, manufacturer and approved indication wording were not available, so please check the current SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form, manufacturer and approved indication wording were not available, so please check the current SmPC and BNF.
 
 ---
 
 ## Safety Considerations
-
 
 The knowledge graph links nizatidine to the following conditions. These should be checked against the SmPC.
 - Liver disease

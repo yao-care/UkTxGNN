@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Metolazone"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **no registered clinical trials** and **no relevant publ
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +79,23 @@ For the fourth-ranked prediction (pulmonary hypertension owing to lung disease a
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202010V0AAAAAA | Metolazone Tab 5mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202010V0AAAMAM | Metolazone 1.25mg/5ml oral liquid | Metolazone |
+| 0202010V0AAAFAF | Metolazone 1mg/5ml oral liquid | Metolazone |
+| 0202010V0AAANAN | Metolazone 2.5mg tablets | Metolazone |
+| 0202010V0AAAKAK | Metolazone 2.5mg/5ml oral liquid | Metolazone |
+| 0202010V0AAAJAJ | Metolazone 500micrograms/5ml oral liquid | Metolazone |
+| 0202010V0AAAAAA | Metolazone 5mg tablets | Metolazone |
+| 0202010V0AAAHAH | Metolazone 5mg/5ml oral liquid | Metolazone |
+| 0202010V0BBAAAA | Metenix 5mg tablets | Metolazone |
+| 0202010V0BFAAAA | Xaqua 5mg tablets | Metolazone |
+| 0202010V0BEAAAN | Zaroxolyn 2.5mg tablets | Metolazone |
+| 0202010V0BEABAA | Zaroxolyn 5mg tablets | Metolazone |
 
-Note: the licence data compiled for this report contain one valid single-ingredient authorisation. Dosage form and approved indication text are not available, so please check the current SmPC and BNF entry.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and approved indication text are not available, so please check the current SmPC and BNF entry.
 
 ## Safety Considerations
 

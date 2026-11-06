@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Penciclovir: predicted new indication Fascioliasis (evidence level L5). Approved use: Herpes labialis"
 monitor_inn: "Penciclovir"
 predicted_indications: ["fascioliasis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **fascioliasis**, but there are
 | Predicted New Indication | Fascioliasis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,11 +76,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310030L0AAAAAA | Penciclovir cream 1% | Cream | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310030L0AAAAAA | Penciclovir 1% cream | Penciclovir |
+| 1310030L0BCAAAA | Fenistil Cold Sore 1% cream | Penciclovir |
+| 1310030L0BBAAAA | Vectavir Cold Sore 1% cream | Penciclovir |
 
-Penciclovir is marketed in the UK as a single-ingredient topical product. The data compiled for this report contain only one authorisation, and its record is incomplete (no dosage form, manufacturer or indication text). Please verify the authorisation details against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Penciclovir is marketed in the UK as a single-ingredient topical product. Please verify the authorisation details against the MHRA register and the BNF.
 
 ## Safety Considerations
 

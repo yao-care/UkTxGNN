@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Phenytoin: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy (including generalised tonic-clonic seizures…"
 monitor_inn: "Phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -49,8 +49,8 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
 
 The approved indication text was not available in the UK licence record, so the original indications above come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
@@ -91,11 +91,32 @@ Supporting literature for the related prediction, trigeminal neuralgia:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010Q0AAAAAA | Phenytoin sodium capsules 100 mg | Capsule | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010Z0AABHBH | Phenytoin 300mg/5ml oral liquid | Phenytoin |
+| 0408010Z0AAAAAA | Phenytoin 30mg/5ml oral suspension | Phenytoin |
+| 0408010Z0AAACAC | Phenytoin 50mg chewable tablets | Phenytoin |
+| 0408010Z0AABIBI | Phenytoin 90mg/5ml oral solution | Phenytoin |
+| 0408010Z0AAALAL | Phenytoin 90mg/5ml oral suspension | Phenytoin |
+| 0408010Q0AAAAAA | Phenytoin sodium 100mg capsules | Phenytoin sodium |
+| 0408010Q0AAAGAG | Phenytoin sodium 100mg tablets | Phenytoin sodium |
+| 0408020T0AAAAAA | Phenytoin sodium 250mg/5ml solution for injection ampoules | Phenytoin sodium |
+| 0408010Q0AAADAD | Phenytoin sodium 25mg capsules | Phenytoin sodium |
+| 0408010Q0AAAQAQ | Phenytoin sodium 300mg capsules | Phenytoin sodium |
+| 0408010Q0AAAZAZ | Phenytoin sodium 400mg/5ml oral liquid | Phenytoin sodium |
+| 0408010Q0AAAPAP | Phenytoin sodium 50mg capsules | Phenytoin sodium |
+| 0408010Q0AAAFAF | Phenytoin sodium 50mg tablets | Phenytoin sodium |
+| 0408010Q0AAAXAX | Phenytoin sodium 50mg/5ml oral liquid | Phenytoin sodium |
+| 0408010Q0AABABA | Phenytoin sodium 54mg/5ml oral suspension | Phenytoin sodium |
+| 0408010Q0AAAVAV | Phenytoin sodium 84mg/5ml oral liquid | Phenytoin sodium |
+| 0408010Z0BCAAAC | Dilantin Infatabs 50mg chewable tablets | Phenytoin |
+| 0408010Z0BCABAA | Dilantin-30 suspension | Phenytoin |
+| 0408010Q0BBAEAA | Epanutin 100mg capsules | Phenytoin sodium |
+| 0408010Q0BBACAD | Epanutin 25mg capsules | Phenytoin sodium |
 
-The identifier shown is the code in the data compiled for this report, and it is not in the usual PL number format. It is a single-ingredient product with a valid status. Please verify the licence details against the MHRA register and the BNF (antiepileptic drugs section).
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is the code in the data compiled for this report, and it is not in the usual PL number format. Please verify the licence details against the MHRA register and the BNF (antiepileptic drugs section).
 
 ## Safety Considerations
 

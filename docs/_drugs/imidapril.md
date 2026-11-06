@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Imidapril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials or publications** were found in the data compiled for t
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051W0AAAAAA | Imidapril HCl Tab 10 mg | Tablet (as indicated by product name) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051W0AAAAAA | Imidapril 10mg tablets | Imidapril hydrochloride |
+| 0205051W0AAACAC | Imidapril 20mg tablets | Imidapril hydrochloride |
+| 0205051W0AAABAB | Imidapril 5mg tablets | Imidapril hydrochloride |
+| 0205051W0BBAAAA | Tanatril 10mg tablets | Imidapril hydrochloride |
+| 0205051W0BBACAC | Tanatril 20mg tablets | Imidapril hydrochloride |
+| 0205051W0BBABAB | Tanatril 5mg tablets | Imidapril hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed authorisation number is not in the standard UK PL format, so it should be verified against the MHRA register. Current MHRA and NICE status for imidapril should also be confirmed.
 

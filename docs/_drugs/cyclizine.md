@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cyclizine is a first-generation H1-antihistamine with antiemetic activity. The T
 | Predicted New Indication | allergic urticaria |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,11 +78,32 @@ Currently no related literature available for allergic urticaria.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000F0AAACAC | Cyclizine HCl Tab 50mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0406000F0AABABA | Cyclizine 10mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAATAT | Cyclizine 12.5mg suppositories | Cyclizine hydrochloride |
+| 0406000F0AAASAS | Cyclizine 12.5mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AABCBC | Cyclizine 2.5mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAAXAX | Cyclizine 250mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAAEAE | Cyclizine 25mg suppositories | Cyclizine hydrochloride |
+| 0406000F0AAAVAV | Cyclizine 25mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAAZAZ | Cyclizine 30mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAABAB | Cyclizine 50mg suppositories | Cyclizine hydrochloride |
+| 0406000F0AAACAC | Cyclizine 50mg tablets | Cyclizine hydrochloride |
+| 0406000G0AAAAAA | Cyclizine 50mg/1ml solution for injection ampoules | Cyclizine lactate |
+| 0406000F0AAAQAQ | Cyclizine 50mg/5ml oral solution | Cyclizine hydrochloride |
+| 0406000F0AABEBE | Cyclizine 50mg/5ml oral suspension | Cyclizine hydrochloride |
+| 0406000F0AABBBB | Cyclizine 5mg/5ml oral liquid | Cyclizine hydrochloride |
+| 0406000F0AAAUAU | Cyclizine 62.5mg/5ml oral liquid | Cyclizine hydrochloride |
+| 040702020BBAAAA | Cyclimorph 10 solution for injection 1ml ampoules | Morphine tartrate and cyclizine tartrate |
+| 040702020BBABAB | Cyclimorph 15 solution for injection 1ml ampoules | Morphine tartrate and cyclizine tartrate |
+| 0407020H0BBAAAB | Diconal tablets | Dipipanone hydrochloride |
+| 0407020H0AAABAB | Dipipanone 10mg / Cyclizine 30mg tablets | Dipipanone hydrochloride |
+| 040702020AAAAAA | Morphine tartrate 10mg/1ml / Cyclizine tartrate 50mg inj amp | Morphine tartrate and cyclizine tartrate |
 
-The data compiled for this report list one valid single-ingredient licence for cyclizine. The listed code (0406000F0AAACAC) resembles a BNF-style product code rather than a PL number, so the authorisation number should be checked against MHRA records.
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed code (0406000F0AAACAC) resembles a BNF-style product code rather than a PL number, so the authorisation number should be checked against MHRA records.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Eplerenone"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be useful for **pulmonary hypertension with uncl
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9950 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202030X0AAAAAA | Eplerenone Tab 25mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202030X0AAAAAA | Eplerenone 25mg tablets | Eplerenone |
+| 0202030X0AAABAB | Eplerenone 50mg tablets | Eplerenone |
+| 0202030X0BBAAAA | Inspra 25mg tablets | Eplerenone |
+| 0202030X0BBABAB | Inspra 50mg tablets | Eplerenone |
 
-This is a single-ingredient product with valid status. The dosage form and approved indication text are not recorded in the data compiled for this report. Please check the current SmPC and BNF entry for licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and approved indication text are not recorded in the data compiled for this report. Please check the current SmPC and BNF entry for licensed indications.
 
 ---
 

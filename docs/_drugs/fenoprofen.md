@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Fenoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoachondroplasia", "WHIM syndrome", "ankylosing spondylitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fenoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter
 | Predicted New Indication | acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,16 @@ Currently no related literature available for this disease.
 
 ## UK Market Information
 
-The local data record one single-ingredient authorisation for fenoprofen, and it is currently valid. No indication text, dosage form or manufacturer is recorded for it.
+No indication text, dosage form or manufacturer is recorded for it.
 
-| Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010G0AAABAB | Fenoprofen Tab 300mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010G0AAABAB | Fenoprofen 300mg tablets | Fenoprofen |
+| 1001010G0AAADAD | Fenoprofen 600mg tablets | Fenoprofen |
+| 1001010G0BBAAAB | Fenopron 300 tablets | Fenoprofen |
+| 1001010G0BBABAD | Fenopron 600 tablets | Fenoprofen |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

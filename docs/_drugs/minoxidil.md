@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with connective tissue disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension and alopecia"
 ---
 
@@ -52,8 +52,8 @@ Evidence is limited to **3 small case-level reports** and **no registered clinic
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 The three reports on hypotrichosis simplex are case reports or case-level combination-therapy studies. They would otherwise suggest L3, but the rules do not allow L1 to L4 here: the data compiled for this report contains no clinical trial and no controlled or observational study directly assessing minoxidil alone for this disease. I have therefore assigned L5 and treated the case reports as supportive anecdotes.
@@ -88,11 +88,29 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205010N0AAABAB | Minoxidil Tab 5mg | Not stated | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205010N0AAACAC | Minoxidil 10mg tablets | Minoxidil |
+| 1309000H0AAAKAK | Minoxidil 2% gel | Minoxidil |
+| 1309000H0AAAAAA | Minoxidil 2% solution | Minoxidil |
+| 0205010N0AAAAAA | Minoxidil 2.5mg tablets | Minoxidil |
+| 1309000H0AAALAL | Minoxidil 5% foam | Minoxidil |
+| 1309000H0AAAJAJ | Minoxidil 5% solution | Minoxidil |
+| 0205010N0AAABAB | Minoxidil 5mg tablets | Minoxidil |
+| 1309000H0BCAAAA | Boots Hair Loss Treatment Regular Strength 2% solution | Minoxidil |
+| 0205010N0BBACAC | Loniten 10mg tablets | Minoxidil |
+| 0205010N0BBAAAA | Loniten 2.5mg tablets | Minoxidil |
+| 0205010N0BBABAB | Loniten 5mg tablets | Minoxidil |
+| 1309000H0BBAFAK | Regaine for Men 2% gel | Minoxidil |
+| 1309000H0BBAGAL | Regaine for Men Extra Strength 5% scalp foam | Minoxidil |
+| 1309000H0BBABAJ | Regaine for Men Extra Strength 5% scalp solution | Minoxidil |
+| 1309000H0BBAAAA | Regaine for Men Regular Strength 2% solution | Minoxidil |
+| 1309000H0BBAHAL | Regaine for Women Once a Day 5% scalp foam | Minoxidil |
+| 1309000H0BBADAA | Regaine for Women Regular Strength 2% solution | Minoxidil |
 
-This is the only record found (a single-ingredient product), and it is identified by a BNF-style code rather than a PL number. The record carries no approved indication text, so no UK licensed indication can be stated from these data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+This is the only record found (a single-ingredient product), and it is identified by a BNF-style code rather than a PL number.
 
 ---
 

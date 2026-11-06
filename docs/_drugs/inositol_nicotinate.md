@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Inositol nicotinate"
 predicted_indications: ["vitamin deficiency disorder", "biotin metabolic disease", "non-syndromic esophageal malformation", "iron deficiency anemia", "acute urate nephropathy", "esophageal disease", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Inositol Nicotinate: predicted new indication Vitamin deficiency disorder (evidence level L5). Approved use: Pellagra and beriberi"
 ---
 
@@ -50,8 +50,8 @@ Inositol nicotinate is a hexanicotinate ester of inositol that releases nicotini
 | Predicted New Indication | Vitamin deficiency disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -78,9 +78,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206040AFAAABAB (BNF-style product code; no PL number supplied) | Inositol Nicotinate Tab 750mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206040AFAAAHAH | Inositol nicotinate 1g/5ml oral suspension | Nicotinic acid derivatives |
+| 0206040AFAAACAC | Inositol nicotinate 1g/5ml oral suspension sugar free | Nicotinic acid derivatives |
+| 0206040AFAAAAAA | Inositol nicotinate 500mg tablets | Nicotinic acid derivatives |
+| 0206040AFAAABAB | Inositol nicotinate 750mg tablets | Nicotinic acid derivatives |
+| 0206040AFBCACAC | Hexopal 1g/5ml oral suspension | Nicotinic acid derivatives |
+| 0206040AFBCAAAA | Hexopal 500mg tablets | Nicotinic acid derivatives |
+| 0206040AFBCABAB | Hexopal Forte 750mg tablets | Nicotinic acid derivatives |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is the only record, and it is a single-ingredient product. The data do not include approved indication text, so no licensed use can be confirmed here.
 

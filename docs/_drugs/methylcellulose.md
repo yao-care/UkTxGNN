@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 403
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Methylcellulose: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylcellul
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,30 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylcellul
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0106010H0AAACAC | Methylcellulose_Tab 500mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0106010H0AAAKAK | Methylcellulose 100mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAALAL | Methylcellulose 112.5mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAVAV | Methylcellulose 168.75mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AABNBN | Methylcellulose 2% oral gel | Methylcellulose |
+| 0106010H0AAAIAI | Methylcellulose 200mg/5ml oral solution | Methylcellulose |
+| 0106010H0AABKBK | Methylcellulose 20mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAMAM | Methylcellulose 225mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAATAT | Methylcellulose 250mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAYAY | Methylcellulose 25mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAXAX | Methylcellulose 270mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAUAU | Methylcellulose 300mg/5ml oral solution | Methylcellulose |
+| 0106010H0AABMBM | Methylcellulose 350mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAJAJ | Methylcellulose 450mg/5ml oral solution | Methylcellulose |
+| 0106010H0AAASAS | Methylcellulose 45mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAACAC | Methylcellulose 500mg tablets | Methylcellulose |
+| 0106010H0AABLBL | Methylcellulose 500mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAWAW | Methylcellulose 50mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAAPAP | Methylcellulose 900mg/5ml oral liquid | Methylcellulose |
+| 0106010H0AAANAN | Methylcellulose 950mg/5ml oral liquid | Methylcellulose |
+| 190400000AAAKAK | Methylcellulose powder | Other single substance preparations |
+
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

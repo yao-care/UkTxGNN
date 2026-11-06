@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Azelastine (DB00972) is a pharmaceutical compound submitted for drug repurposing
 | Predicted New Indication | None generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no prediction generated |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,7 @@ No mechanism of action (MOA) data is recorded in this evidence pack. MOA informa
 
 The TxGNN model returned no predicted indications for this compound. Based on how the pipeline operates, this is most likely a consequence of incomplete or unresolved DrugBank input data rather than a genuine absence of repurposing potential. Azelastine is an established antihistamine in widespread international clinical use, and repurposing signal is plausible once the pipeline inputs are corrected.
 
-The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded. Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure.
+Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure.
 
 ---
 

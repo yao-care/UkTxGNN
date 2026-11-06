@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the data compiled for this report (general class use:…"
 monitor_inn: "Methocarbamol"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -52,8 +52,8 @@ This is a model prediction only and should be treated as a hypothesis, not as ev
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,15 @@ Currently no related literature available for cauda equina syndrome.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1002020S0AAABAB | Methocarbamol Tab 750mg | Tablet | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1002020S0AAADAD | Methocarbamol 1500mg tablets | Methocarbamol |
+| 1002020S0AAACAC | Methocarbamol 375mg/5ml oral suspension | Methocarbamol |
+| 1002020S0AAABAB | Methocarbamol 750mg tablets | Methocarbamol |
+| 1002020S0AAAEAE | Methocarbamol 750mg/5ml oral suspension sugar free | Methocarbamol |
+| 1002020S0BBAAAB | Robaxin 750 tablets | Methocarbamol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The registry lists one valid single-ingredient authorisation. Indication text and dosage form details are not available in the data compiled for this report. Please check the current MHRA product information and the BNF (skeletal muscle relaxants) for licensed indications.
 

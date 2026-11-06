@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea unguium, tinea barbae…"
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "wound myiasis", "creeping myiasis", "furuncular myiasis", "echinococcus granulosus infectious disease"]
@@ -52,8 +52,8 @@ The prediction rests on model output alone and has no clear mechanistic rational
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (72 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 72 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502050B0AAACAC | Griseofulvin Tab 500 mg | Tablet (strength given in the product name) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310020Q0AAABAB | Griseofulvin 1% spray | Griseofulvin |
+| 0502050B0AACDCD | Griseofulvin 1.25g/5ml oral suspension | Griseofulvin |
+| 0502050B0AAALAL | Griseofulvin 100mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AABWBW | Griseofulvin 105mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACBCB | Griseofulvin 10mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACFCF | Griseofulvin 110mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AAANAN | Griseofulvin 112.5mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AABGBG | Griseofulvin 12.5mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AABJBJ | Griseofulvin 120mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AAABAB | Griseofulvin 125mg tablets | Griseofulvin |
+| 0502050B0AACUCU | Griseofulvin 125mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACLCL | Griseofulvin 130mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACJCJ | Griseofulvin 135mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AAASAS | Griseofulvin 140mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AAAPAP | Griseofulvin 150mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AABABA | Griseofulvin 160mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACQCQ | Griseofulvin 165mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AABRBR | Griseofulvin 167mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AAAVAV | Griseofulvin 170mg/5ml oral suspension | Griseofulvin |
+| 0502050B0AACVCV | Griseofulvin 175mg/5ml oral suspension | Griseofulvin |
 
-This is the only authorisation identified (single-ingredient product, valid). The identifier above is a drug-code-style reference, not a standard MHRA "PL" number. Please verify the licence details and indication wording against the MHRA register and the BNF.
+Showing 20 of 72 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above is a drug-code-style reference, not a standard MHRA "PL" number. Please verify the licence details and indication wording against the MHRA register and the BNF.
 
 ---
 

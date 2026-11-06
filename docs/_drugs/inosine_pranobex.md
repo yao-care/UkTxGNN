@@ -3,7 +3,7 @@ layout: default
 title: Inosine Pranobex
 parent: Known Uses Only (No New Predictions)
 nav_order: 338
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Inosine Pranobex: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inosine Pran
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## Known uses recorded for this drug
 
@@ -70,9 +70,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inosine Pran
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0503021D0AAAAAA | Inosine Pranobex_Tab 500mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503021D0BBAAAA | Imunovir 500mg tablets | Inosine pranobex |
+| 0503021D0AAAAAA | Inosine acedoben dimepranol 500mg tablets | Inosine pranobex |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ layout: default
 title: Celiprolol
 parent: Known Uses Only (No New Predictions)
 nav_order: 146
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Celiprolol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -42,8 +42,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 
 ---
 

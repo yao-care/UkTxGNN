@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sulfapyridine: predicted new indication heparin-induced thrombocytopenia (disease) (evidence level L5). Approved use: Dermatitis herpetiformis"
 monitor_inn: "Sulfapyridine"
 predicted_indications: ["heparin-induced thrombocytopenia (disease)", "hereditary angioedema", "hereditary angioedema with C1Inh deficiency", "acquired aplastic anemia", "C1 inhibitor deficiency", "autoimmune hemolytic anemia", "serpinopathy with toxic serpin polymerization", "disorder of GPI anchor biosynthesis", "hemoglobinuria", "venous insufficiency (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **heparin-induced thrombocytope
 | Predicted New Indication | Heparin-induced thrombocytopenia |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -89,11 +89,14 @@ For the ninth-ranked prediction (haemoglobinuria), the only publication is:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501080V0AAADAD | Sulfapyridine Cap 250mg | Capsule (per product name) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501080V0AAADAD | Sulfapyridine 250mg capsules | Sulfapyridine |
+| 0501080V0BDABAD | Concord 693 250mg capsules | Sulfapyridine |
 
-The data compiled for this report list one valid single-ingredient authorisation. The identifier shown is not in the usual MHRA PL format, so it should be verified against the MHRA register and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is not in the usual MHRA PL format, so it should be verified against the MHRA register and the BNF.
 
 ## Cytotoxicity
 

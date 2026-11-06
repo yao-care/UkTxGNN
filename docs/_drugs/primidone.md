@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,11 +99,30 @@ The publications below relate to lower-ranked predictions and provide indirect e
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0408010U0AAABAB | Primidone tablets 250 mg | Tablet | Not available in the data compiled; primidone sits in BNF chapter 4.8.1 (control of epilepsy) |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010U0AAATAT | Primidone 100mg/5ml oral suspension | Primidone |
+| 0408010U0AABDBD | Primidone 125mg tablets | Primidone |
+| 0408010U0AAAQAQ | Primidone 200mg/5ml oral suspension | Primidone |
+| 0408010U0AAABAB | Primidone 250mg tablets | Primidone |
+| 0408010U0AABCBC | Primidone 250mg/5ml oral suspension | Primidone |
+| 0408010U0AABEBE | Primidone 250mg/5ml oral suspension sugar free | Primidone |
+| 0408010U0AAACAC | Primidone 25mg/5ml oral suspension | Primidone |
+| 0408010U0AAASAS | Primidone 30mg/5ml oral suspension | Primidone |
+| 0408010U0AAAFAF | Primidone 50mg capsules | Primidone |
+| 0408010U0AAAXAX | Primidone 50mg tablets | Primidone |
+| 0408010U0AABABA | Primidone 50mg/5ml oral suspension | Primidone |
+| 0408010U0AABBBB | Primidone 62.5mg/5ml oral suspension | Primidone |
+| 0408010U0BCABBD | Enodama 125mg tablets | Primidone |
+| 0408010U0BCACAB | Enodama 250mg tablets | Primidone |
+| 0408010U0BCAAAX | Enodama 50mg tablets | Primidone |
+| 0408010U0BBAAAB | Mysoline 250mg tablets | Primidone |
+| 0408010U0BBABBC | Mysoline 250mg/5ml oral suspension | Primidone |
+| 0408010U0BBADAX | Mysoline 50mg tablets | Primidone |
 
-The product is marketed as a single-ingredient, valid authorisation. The identifier shown above is a BNF product code rather than a PL number, and the manufacturer and approved indication text were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown above is a BNF product code rather than a PL number, and the manufacturer and approved indication text were not available.
 
 ---
 

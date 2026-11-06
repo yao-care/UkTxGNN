@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Sorafenib is an oral multikinase inhibitor that blocks RAF, VEGFR, PDGFR and KIT
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,12 @@ Soft tissue sarcomas, including liposarcoma, can depend on these pathways. Labor
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050AJAAAAAA | Sorafenib Tablets 200 mg | Tablet (200 mg) | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050AJAAAAAA | Sorafenib 200mg tablets | Sorafenib |
+| 0801050AJBBAAAA | Nexavar 200mg tablets | Sorafenib |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 139
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cefaclor: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 10 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 
 ## Known uses recorded for this drug
 
@@ -81,9 +81,26 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0501021A0AAAEAE | Cefaclor_Cap 500mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501021A0AAABAB | Cefaclor 125mg/5ml oral suspension | Cefaclor |
+| 0501021A0AAAJAJ | Cefaclor 125mg/5ml oral suspension sugar free | Cefaclor |
+| 0501021A0AAAAAA | Cefaclor 250mg capsules | Cefaclor |
+| 0501021A0AAACAC | Cefaclor 250mg/5ml oral suspension | Cefaclor |
+| 0501021A0AAAKAK | Cefaclor 250mg/5ml oral suspension sugar free | Cefaclor |
+| 0501021A0AAAGAG | Cefaclor 375mg modified-release tablets | Cefaclor |
+| 0501021A0AAAEAE | Cefaclor 500mg capsules | Cefaclor |
+| 0501021A0BEAAAG | Bacticlor MR 375mg tablets | Cefaclor |
+| 0501021A0BBABAB | Distaclor 125mg/5ml oral suspension | Cefaclor |
+| 0501021A0BBACAC | Distaclor 250mg/5ml oral suspension | Cefaclor |
+| 0501021A0BBADAE | Distaclor 500mg capsules | Cefaclor |
+| 0501021A0BBAEAG | Distaclor MR 375mg tablets | Cefaclor |
+| 0501021A0BDACAJ | Keftid 125mg/5ml oral suspension | Cefaclor |
+| 0501021A0BDAAAA | Keftid 250mg capsules | Cefaclor |
+| 0501021A0BDADAK | Keftid 250mg/5ml oral suspension | Cefaclor |
+| 0501021A0BDABAE | Keftid 500mg capsules | Cefaclor |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ but there are **no clinical trials** and **no publications** supporting this pre
 | Predicted New Indication | non-syndromic esophageal malformation |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (104 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 104 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906031C0AAAGAG | Ascorbic Acid Tab 100mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906031C0AABYBY | Ascorbic acid 1.5g modified-release tablets | Ascorbic acid |
+| 1104020AFAAAAAA | Ascorbic acid 10% eye drops preservative free | Ascorbic acid (Eye) |
+| 0906031C0AABNBN | Ascorbic acid 100mg chewable tablets | Ascorbic acid |
+| 0906031C0AAAGAG | Ascorbic acid 100mg tablets | Ascorbic acid |
+| 0906031C0AABDBD | Ascorbic acid 100mg/5ml oral liquid | Ascorbic acid |
+| 0906031C0AABVBV | Ascorbic acid 120mg chewable tablets | Ascorbic acid |
+| 0906031C0AABWBW | Ascorbic acid 1g chewable tablets | Ascorbic acid |
+| 0906031C0AAANAN | Ascorbic acid 1g effervescent tablets | Ascorbic acid |
+| 0906031C0AACCCC | Ascorbic acid 1g effervescent tablets sugar free | Ascorbic acid |
+| 0906031C0AABXBX | Ascorbic acid 1g modified-release tablets | Ascorbic acid |
+| 0906031C0AAAHAH | Ascorbic acid 200mg tablets | Ascorbic acid |
+| 0906031C0AABRBR | Ascorbic acid 200mg/5ml oral solution | Ascorbic acid |
+| 0906031C0AAAPAP | Ascorbic acid 250mg tablets | Ascorbic acid |
+| 0906031C0AAABAB | Ascorbic acid 250mg/5ml oral solution | Ascorbic acid |
+| 0906031C0AABFBF | Ascorbic acid 25mg/5ml oral solution | Ascorbic acid |
+| 0906031C0AABIBI | Ascorbic acid 500mg capsules | Ascorbic acid |
+| 0906031C0AAALAL | Ascorbic acid 500mg chewable tablets | Ascorbic acid |
+| 0906031C0AACBCB | Ascorbic acid 500mg chewable tablets sugar free | Ascorbic acid |
+| 0906031C0AAAUAU | Ascorbic acid 500mg effervescent tablets | Ascorbic acid |
+| 0906031C0AABABA | Ascorbic acid 500mg modified-release capsules | Ascorbic acid |
 
-Only one authorisation is recorded in the data compiled for this report, and it is currently valid. The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it.
+Showing 20 of 104 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it.
 
 ## Safety Considerations
 

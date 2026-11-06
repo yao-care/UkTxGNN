@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Omalizumab"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Omalizumab is a humanised monoclonal antibody that binds immunoglobulin E (IgE).
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,32 @@ Detailed mechanism-of-action data are not available beyond this target informati
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304020X0AAABAB (BNF-style code) | Omalizumab injection 75 mg/0.5 ml pre-filled syringe | Not specified | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304020X0AAAAAA | Omalizumab 150mg inj vials | Omalizumab |
+| 0304020X0AAADAD | Omalizumab 150mg/1ml inj pre-filled disposable devices | Omalizumab |
+| 0304020X0AAACAC | Omalizumab 150mg/1ml inj pre-filled syringes | Omalizumab |
+| 0304020X0AAAFAF | Omalizumab 300mg/2ml inj pre-filled disposable devices | Omalizumab |
+| 0304020X0AAAGAG | Omalizumab 300mg/2ml inj pre-filled syringes | Omalizumab |
+| 0304020X0AAAEAE | Omalizumab 75mg/0.5ml inj pre-filled disposable devices | Omalizumab |
+| 0304020X0AAABAB | Omalizumab 75mg/0.5ml inj pre-filled syringes | Omalizumab |
+| 0304020X0BCADAD | Omlyclo 150mg/1ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BCABAC | Omlyclo 150mg/1ml solution for injection pre-filled syringes | Omalizumab |
+| 0304020X0BCAFAF | Omlyclo 300mg/2ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BCAEAG | Omlyclo 300mg/2ml solution for injection pre-filled syringes | Omalizumab |
+| 0304020X0BCAAAB | Omlyclo 75mg/0.5ml inj pre-filled syringes | Omalizumab |
+| 0304020X0BCACAE | Omlyclo 75mg/0.5ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BBAAAA | Xolair 150mg inj vials | Omalizumab |
+| 0304020X0BBADAD | Xolair 150mg/1ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BBACAC | Xolair 150mg/1ml solution for injection pre-filled syringes | Omalizumab |
+| 0304020X0BBAFAF | Xolair 300mg/2ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BBAGAG | Xolair 300mg/2ml solution for injection pre-filled syringes | Omalizumab |
+| 0304020X0BBAEAE | Xolair 75mg/0.5ml solution for injection pre-filled pens | Omalizumab |
+| 0304020X0BBABAB | Xolair 75mg/0.5ml solution for injection pre-filled syringes | Omalizumab |
 
-The local data record one valid single-ingredient licence and a market status of Marketed. BNF classification for omalizumab sits within the respiratory chapter (section 3.4, allergic disorders).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+BNF classification for omalizumab sits within the respiratory chapter (section 3.4, allergic disorders).
 
 ## Safety Considerations
 

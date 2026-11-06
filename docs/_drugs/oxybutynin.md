@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **restless legs syndrome**, but
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (30 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 30 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -81,12 +81,32 @@ For context, the following publications relate to the lower-ranked prediction of
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704020J0AAAUAU | Oxybutynin transdermal patch 3.9 mg/24 hrs | Transdermal patch | Not available in the compiled data |
-| 0704020J0AAAAAA | Oxybutynin HCl tablet 2.5 mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704020J0AAATAT | Oxybutynin 10mg modified-release tablets | Oxybutynin |
+| 0704040G0AAAHAH | Oxybutynin 10mg/10ml intravesical solution pfs | Oxybutynin hydrochloride |
+| 0704020J0AAARAR | Oxybutynin 12.5mg/5ml oral solution | Oxybutynin |
+| 0704020J0AAAAAA | Oxybutynin 2.5mg tablets | Oxybutynin |
+| 0704020J0AAAZAZ | Oxybutynin 2.5mg/5ml oral solution | Oxybutynin |
+| 0704020J0AAAFAF | Oxybutynin 2.5mg/5ml oral solution sugar free | Oxybutynin |
+| 0704020J0AAAKAK | Oxybutynin 2.5mg/5ml oral suspension | Oxybutynin |
+| 0704020J0AAAUAU | Oxybutynin 3.9mg/24hours transdermal patches | Oxybutynin |
+| 0704020J0AAABAB | Oxybutynin 3mg tablets | Oxybutynin |
+| 0704020J0AAALAL | Oxybutynin 3mg/5ml oral solution | Oxybutynin |
+| 0704020J0AAAYAY | Oxybutynin 3mg/5ml oral suspension | Oxybutynin |
+| 0704020J0AAASAS | Oxybutynin 5mg modified-release tablets | Oxybutynin |
+| 0704020J0AAACAC | Oxybutynin 5mg tablets | Oxybutynin |
+| 0704040G0AAAGAG | Oxybutynin 5mg/15ml bladder irrigation vials | Oxybutynin hydrochloride |
+| 0704040G0AAADAD | Oxybutynin 5mg/30ml bladder irrigation pre-filled syringes | Oxybutynin hydrochloride |
+| 0704040G0AAABAB | Oxybutynin 5mg/30ml bladder irrigation vials | Oxybutynin hydrochloride |
+| 0704020J0AAAMAM | Oxybutynin 5mg/5ml oral liquid | Oxybutynin |
+| 0704020J0AAAGAG | Oxybutynin 5mg/5ml oral solution sugar free | Oxybutynin |
+| 0704020J0AAAPAP | Oxybutynin 8mg/5ml oral solution | Oxybutynin |
+| 0704020J0BBAAAB | Cystrin 3mg tablets | Oxybutynin |
 
-Both authorisations are valid single-ingredient products. The identifiers listed appear to be BNF-style product codes (BNF section 7.4.2, drugs for urinary frequency, enuresis and incontinence) rather than MHRA PL numbers, so they should be checked against the MHRA register.
+Showing 20 of 30 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers listed appear to be BNF-style product codes (BNF section 7.4.2, drugs for urinary frequency, enuresis and incontinence) rather than MHRA PL numbers, so they should be checked against the MHRA register.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Indoramin"
 predicted_indications: ["hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
 description: "Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **hypertrichosis** (score 0.9993)
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,11 +69,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704010M0AAAAAA | Indoramin Tab 20mg | Tablet (20 mg) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704010M0AAAAAA | Indoramin 20mg tablets | Indoramin |
+| 0205040I0AAAAAA | Indoramin 25mg tablets | Indoramin |
+| 0205040I0BBAAAA | Baratol 25mg tablets | Indoramin |
+| 0704010M0BBAAAA | Doralese Tiltab 20mg tablets | Indoramin |
 
-This is the single valid single-ingredient licence recorded locally. The list is complete according to the local data (no partial records).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The list is complete according to the local data (no partial records).
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Propylene glycol"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "mature cataract", "immature cataract", "craniostenosis cataract"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L5). Approved use: Dry eye syndrome and xerophthalmia"
 ---
 
@@ -52,8 +52,8 @@ The available signal points towards possible respiratory harm, not benefit.
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,11 +86,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190400000AAAWAW | Propylene Glycol_Liq | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 130201000AACMCM | Propylene glycol 20% in Aqueous cream | Other emollient preparations |
+| 130400000AABKBK | Propylene glycol 20% in Clobetasol 0.05% cream | Other topical corticosteroid preparations |
+| 130201000AADIDI | Propylene glycol 25% in Aqueous cream | Other emollient preparations |
+| 130201000AADKDK | Propylene glycol 30% in Generic Unguentum M cream | Other emollient preparations |
+| 130201000AACNCN | Propylene glycol 40% in Aqueous cream | Other emollient preparations |
+| 130400000AABLBL | Propylene glycol 40% in Clobetasol 0.05% cream | Other topical corticosteroid preparations |
+| 130201000AADJDJ | Propylene glycol 40% in Clobetasone 0.05% cream | Other emollient preparations |
+| 130201000AADCDC | Propylene glycol 40% in Generic Unguentum M cream | Other emollient preparations |
+| 130201000AADFDF | Propylene glycol 50% in Aqueous cream | Other emollient preparations |
+| 130400000AABHBH | Propylene glycol 50% in Clobetasol 0.05% cream | Other topical corticosteroid preparations |
+| 130201000AACVCV | Propylene glycol 60% in Aqueous cream | Other emollient preparations |
+| 130400000AABJBJ | Propylene glycol 60% in Clobetasol 0.05% cream | Other topical corticosteroid preparations |
+| 190400000AAAWAW | Propylene glycol liquid | Other single substance preparations |
+| 1304000G0AADPDP | Clobet .05% crm 25%/Propylene glycol 40% in Gen Unguen M crm | Clobetasol propionate |
+| 1304000G0AADMDM | Clobet .05% oint 50%/Propylene glycol 48%/Salic acid 2% oint | Clobetasol propionate |
+| 1304000G0AADKDK | Clobetasol 0.05% crm 25%/Propylene glycol 40% in Aqueous crm | Clobetasol propionate |
+| 130201000AADNDN | Propylene glycol 20% / Lactic acid 3% in Gen Unguentum M crm | Other emollient preparations |
+| 130201000AADPDP | Propylene glycol 20% / Lactic acid 5% in Gen Unguentum M crm | Other emollient preparations |
+| 1304000G0AADBDB | Propylene glycol 40% in Clobetasol 0.05% ointment | Clobetasol propionate |
+| 1304000G0AACWCW | Propylene glycol 50% in Clobetasol 0.05% ointment | Clobetasol propionate |
 
-This is a single-ingredient product with a valid status. The record contains no indication text, so no approved indication can be described from it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

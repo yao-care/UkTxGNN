@@ -5,7 +5,7 @@ layout: default
 title: Benzydamine Hcl
 parent: Known Uses Only (No New Predictions)
 nav_order: 99
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -36,16 +36,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Benzydamine Hcl
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
 |------|---------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
-
-> **Note on UK market status:** The Evidence Pack records zero active MHRA marketing authorisations. This should be verified directly against the [MHRA Product Licence Register](https://products.mhra.gov.uk/), as Benzydamine HCL preparations (e.g., Difflam oral spray and mouthwash) are known to hold MHRA authorisations in practice. A data retrieval gap or pipeline scope limitation may account for this discrepancy.
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (15 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 15 |
 
 ---
 

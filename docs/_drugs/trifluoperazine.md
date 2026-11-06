@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
 description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are **no registered clinical trials** and the **20 publications** comp
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 (model prediction only; the supporting literature is indirect and no trials are registered) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 *Note: the structured scoring in the data compiled for this report lists L4. In my assessment the literature contains no preclinical or mechanism study of trifluoperazine in mania, so L5 is the better fit under the grading rules. This should be confirmed at review.*
@@ -95,11 +95,32 @@ None of the publications below is a randomised trial of trifluoperazine in mania
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010X0AAAHAH (a BNF-style product code, not a PL number) | Trifluoperazine tablets 1 mg | Tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010X0AAABAB | Trifluoperazine 10mg modified-release capsules | Trifluoperazine |
+| 0402010X0AAACAC | Trifluoperazine 15mg modified-release capsules | Trifluoperazine |
+| 0402010X0AAAHAH | Trifluoperazine 1mg tablets | Trifluoperazine |
+| 0402010X0AAAFAF | Trifluoperazine 1mg/5ml oral solution sugar free | Trifluoperazine |
+| 0402010X0AAALAL | Trifluoperazine 1mg/5ml oral suspension | Trifluoperazine |
+| 0402010X0AAAAAA | Trifluoperazine 2mg modified-release capsules | Trifluoperazine |
+| 0402010X0AAAUAU | Trifluoperazine 2mg tablets | Trifluoperazine |
+| 0402010X0AAAIAI | Trifluoperazine 5mg tablets | Trifluoperazine |
+| 0402010X0AAAKAK | Trifluoperazine 5mg/5ml oral solution sugar free | Trifluoperazine |
+| 0402010X0BBADAB | Stelazine 10mg Spansules | Trifluoperazine |
+| 0402010X0BBAEAC | Stelazine 15mg Spansules | Trifluoperazine |
+| 0402010X0BBAKAH | Stelazine 1mg tablets (Imported) | Trifluoperazine |
+| 0402010X0BBAAAH | Stelazine 1mg tablets (Mercury Pharma) | Trifluoperazine |
+| 0402010X0BBAFAF | Stelazine 1mg/5ml syrup | Trifluoperazine |
+| 0402010X0BBACAA | Stelazine 2mg Spansules | Trifluoperazine |
+| 0402010X0BBALAI | Stelazine 5mg tablets (Imported) | Trifluoperazine |
+| 0402010X0BBABAI | Stelazine 5mg tablets (Mercury Pharma) | Trifluoperazine |
+| 0402010X0BBAJAK | Stelazine Forte 1mg/ml oral solution | Trifluoperazine |
+| 0402010X0BCAAAH | Terrazine 1mg tablets | Trifluoperazine |
+| 0402010X0BCABAI | Terrazine 5mg tablets | Trifluoperazine |
 
-The licence record gives no dosage form or approved indication text. The product sits in BNF chapter 4 (central nervous system), antipsychotic drugs. Please check the current SmPC and any NICE guidance for authorised indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The product sits in BNF chapter 4 (central nervous system), antipsychotic drugs. Please check the current SmPC and any NICE guidance for authorised indications.
 
 ---
 

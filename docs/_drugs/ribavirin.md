@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mesenteritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L5). Approved use: Chronic hepatitis C virus infection"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **chronic hepatitis B virus inf
 | Predicted New Indication | Chronic hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 *Note on evidence level:* NCT00114361 is a completed Phase 3 trial directly in HBeAg-negative chronic hepatitis B, and NCT03759782 is a Phase 3 trial of ribavirin in HBV, but its status is unknown. Only one directly relevant Phase 3 trial has a completed status, which on a strict reading falls short of the L1 criterion (two or more completed Phase 3 RCTs). That trial tests peginterferon plus ribavirin, so ribavirin's separate effect is not isolated. The level is therefore best treated as provisional and weaker than "L1" suggests.
@@ -107,9 +107,22 @@ The retrieved publications are almost entirely reviews. None is a randomised tri
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503050B0AAAEAE | Ribavirin tablets 200 mg | Not recorded | Not recorded in the licence data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503050B0AAAIAI | Ribavirin 1.2g/12ml solution for injection vials | Ribavirin |
+| 0503050B0AAABAB | Ribavirin 200mg capsules | Ribavirin |
+| 0503050B0AAAEAE | Ribavirin 200mg tablets | Ribavirin |
+| 0503050B0AAAGAG | Ribavirin 400mg tablets | Ribavirin |
+| 0503050B0AAAHAH | Ribavirin 40mg/ml oral solution | Ribavirin |
+| 0503050B0AAAAAA | Ribavirin 6g powder for nebuliser solution vials | Ribavirin |
+| 0503050B0BFAAAE | Copegus 200mg tablets | Ribavirin |
+| 0503050B0BFABAG | Copegus 400mg tablets | Ribavirin |
+| 0503050B0BEAAAB | Rebetol 200mg capsules | Ribavirin |
+| 0503050B0BEABAH | Rebetol 40mg/ml oral solution | Ribavirin |
+| 0503050B0BCACAI | Virazole 1.2g/12ml solution for injection vials | Ribavirin |
+| 0503050B0BCABAA | Virazole 6g powder for nebuliser solution vials | Ribavirin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is one valid single-ingredient record. It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report. The identifier looks like a BNF-style product code rather than a "PL" number, so check it against the MHRA record.
 

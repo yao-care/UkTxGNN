@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Oxymetholone: predicted new indication seborrheic dermatitis (evidence level L5). Approved use: Aplastic anaemia (including Diamond-Blackfan anaemia…"
 monitor_inn: "Oxymetholone"
 predicted_indications: ["seborrheic dermatitis"]
@@ -52,8 +52,8 @@ but **no clinical trials and no publications** currently support this direction;
 | Predicted New Indication | Seborrhoeic dermatitis |
 | TxGNN Prediction Score | 0.9905 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,11 +82,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901030H0AAAGAG | Oxymetholone Tablets 50 mg | Tablet (inferred from product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901030H0AAAEAE | Oxymetholone 25mg/5ml oral suspension | Oxymetholone |
+| 0901030H0AAAFAF | Oxymetholone 50mg capsules | Oxymetholone |
+| 0901030H0AAAGAG | Oxymetholone 50mg tablets | Oxymetholone |
 
-Only one single-ingredient authorisation is recorded, and its status is valid. The identifier shown does not follow the usual MHRA "PL" format, so the licence details should be verified against the MHRA register and the BNF before any further work.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown does not follow the usual MHRA "PL" format, so the licence details should be verified against the MHRA register and the BNF before any further work.
 
 ---
 

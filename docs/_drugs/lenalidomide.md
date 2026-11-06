@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 365
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **45 clinical trials** (mostly Phase 1/2) and **19 publications** (mainly r
 | Predicted New Indication | Myeloid leukemia |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -108,11 +108,26 @@ No randomised controlled trial publication specific to myeloid leukaemia was ide
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0802040Y0AAADAD (BNF-style code) | Lenalidomide capsules 25 mg | Capsule (stated in product name) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0802040Y0AAABAB | Lenalidomide 10mg capsules | Lenalidomide |
+| 0802040Y0AAACAC | Lenalidomide 15mg capsules | Lenalidomide |
+| 0802040Y0AAAEAE | Lenalidomide 2.5mg capsules | Lenalidomide |
+| 0802040Y0AAAGAG | Lenalidomide 20mg capsules | Lenalidomide |
+| 0802040Y0AAADAD | Lenalidomide 25mg capsules | Lenalidomide |
+| 0802040Y0AAAAAA | Lenalidomide 5mg capsules | Lenalidomide |
+| 0802040Y0AAAFAF | Lenalidomide 7.5mg capsules | Lenalidomide |
+| 0802040Y0BBABAB | Revlimid 10mg capsules | Lenalidomide |
+| 0802040Y0BBACAC | Revlimid 15mg capsules | Lenalidomide |
+| 0802040Y0BBAEAE | Revlimid 2.5mg capsules | Lenalidomide |
+| 0802040Y0BBAGAG | Revlimid 20mg capsules | Lenalidomide |
+| 0802040Y0BBADAD | Revlimid 25mg capsules | Lenalidomide |
+| 0802040Y0BBAAAA | Revlimid 5mg capsules | Lenalidomide |
+| 0802040Y0BBAFAF | Revlimid 7.5mg capsules | Lenalidomide |
 
-One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code rather than a standard MHRA PL number, and no approved indication text or manufacturer is listed. Verify the PL number and indications against the MHRA record, the SmPC and NICE appraisals before use.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Verify the PL number and indications against the MHRA record, the SmPC and NICE appraisals before use.
 
 ---
 

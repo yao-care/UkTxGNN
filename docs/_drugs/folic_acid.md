@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (64 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 64 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,11 +84,32 @@ No randomised trials were identified. The most relevant publications are reviews
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0901020G0AAAGAG | Folic Acid Tablets 5 mg | Tablet (form not specified in data) | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901020G0AABXBX | Folic acid 1.5mg/5ml oral liquid | Folic acid |
+| 0901020G0AABSBS | Folic acid 100microgram tablets | Folic acid |
+| 0901020G0AABYBY | Folic acid 100micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AACUCU | Folic acid 10mg/5ml oral liquid | Folic acid |
+| 0901020G0AACQCQ | Folic acid 12.5mg/5ml oral liquid | Folic acid |
+| 0901020G0AACHCH | Folic acid 125micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AACYCY | Folic acid 150mg capsules | Folic acid |
+| 0901020G0AACSCS | Folic acid 150micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AAAAAA | Folic acid 15mg/1ml solution for injection ampoules | Folic acid |
+| 0901020G0AACGCG | Folic acid 1mg/5ml oral liquid | Folic acid |
+| 0901020G0AABZBZ | Folic acid 2.5mg/5ml oral liquid | Folic acid |
+| 0901020G0AACICI | Folic acid 2.5mg/5ml oral solution sugar free | Folic acid |
+| 0901020G0AACVCV | Folic acid 200micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AACDCD | Folic acid 250micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AACMCM | Folic acid 25mg/5ml oral liquid | Folic acid |
+| 0901020G0AACBCB | Folic acid 2mg/5ml oral liquid | Folic acid |
+| 0901020G0AACFCF | Folic acid 300micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AABFBF | Folic acid 400microgram tablets | Folic acid |
+| 0901020G0AACACA | Folic acid 400micrograms/5ml oral liquid | Folic acid |
+| 0901020G0AACNCN | Folic acid 400micrograms/5ml oral solution sugar free | Folic acid |
 
-One single-ingredient authorisation is recorded as valid. Refer to the BNF (vitamins and minerals, folic acid) and the SmPC for the licensed indications and dosing.
+Showing 20 of 64 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Refer to the BNF (vitamins and minerals, folic acid) and the SmPC for the licensed indications and dosing.
 
 ## Safety Considerations
 

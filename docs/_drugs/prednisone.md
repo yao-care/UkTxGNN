@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 515
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,7 +49,8 @@ The TxGNN model predicts it may be useful for **alopecia areata**, and the data 
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -79,11 +80,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0603020X0AAAGAG (BNF-style product code; no PL number available) | 1 (valid: 1) | Modified-release tablet (as named in the product record) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0603020X0AAAEAE | Prednisone 1mg modified-release tablets | Prednisone |
+| 0603020X0AAAFAF | Prednisone 2mg modified-release tablets | Prednisone |
+| 0603020X0AAAGAG | Prednisone 5mg modified-release tablets | Prednisone |
+| 0603020X0BDAAAE | Lodotra 1mg modified-release tablets | Prednisone |
+| 0603020X0BDABAF | Lodotra 2mg modified-release tablets | Prednisone |
+| 0603020X0BDACAG | Lodotra 5mg modified-release tablets | Prednisone |
 
-This is a single-ingredient product, and its status is valid. The BNF classification code embedded in the identifier (0603020) corresponds to the corticosteroid section.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code embedded in the identifier (0603020) corresponds to the corticosteroid section.
 
 ## Safety Considerations
 

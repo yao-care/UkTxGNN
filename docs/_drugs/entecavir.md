@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Entecavir is an oral guanosine nucleoside analogue that inhibits hepatitis B vir
 | Predicted New Indication | chronic hepatitis C virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -83,9 +83,16 @@ Because no cited study tests entecavir as a treatment for HCV itself, the eviden
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503030C0AAAAAA | Entecavir tablets 500 mcg | Tablet (from product name) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503031B0AAABAB | Entecavir 1mg tablets | Entecavir |
+| 0503031B0AAAAAA | Entecavir 500microgram tablets | Entecavir |
+| 0503031B0AAACAC | Entecavir 50micrograms/ml oral solution sugar free | Entecavir |
+| 0503031B0BBACAC | Baraclude 0.05mg/ml oral solution | Entecavir |
+| 0503031B0BBAAAA | Baraclude 0.5mg tablets | Entecavir |
+| 0503031B0BBABAB | Baraclude 1mg tablets | Entecavir |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 One valid single-ingredient record is present.
 

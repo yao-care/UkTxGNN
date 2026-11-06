@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 444
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Nicotinamide: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Nicotinam
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 37 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,30 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Nicotinam
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1306010N0AAAAAA | Nicotinamide_Gel 4% |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906022K0BIAAAS | 250-B3 capsules | Nicotinamide |
+| 0906022K0AAARAR | Nicotinamide 100mg capsules | Nicotinamide |
+| 0906022K0AAABAB | Nicotinamide 100mg tablets | Nicotinamide |
+| 0906022K0AAASAS | Nicotinamide 250mg capsules | Nicotinamide |
+| 0906022K0AAAQAQ | Nicotinamide 250mg modified-release tablets | Nicotinamide |
+| 0906022K0AAAPAP | Nicotinamide 250mg tablets | Nicotinamide |
+| 0906022K0AAAKAK | Nicotinamide 25mg/5ml oral solution | Nicotinamide |
+| 1306010N0AAAAAA | Nicotinamide 4% gel | Nicotinamide |
+| 0906022K0AAAGAG | Nicotinamide 500mg capsules | Nicotinamide |
+| 0906022K0AAACAC | Nicotinamide 500mg tablets | Nicotinamide |
+| 0906022K0AAAJAJ | Nicotinamide 500mg/5ml oral solution | Nicotinamide |
+| 0906022K0AAATAT | Nicotinamide 50mg capsules | Nicotinamide |
+| 0906022K0AAAAAA | Nicotinamide 50mg tablets | Nicotinamide |
+| 0906022K0AAAUAU | Nicotinamide 750mg capsules | Nicotinamide |
+| 0906022K0BHAAAS | AceNic 250mg capsules | Nicotinamide |
+| 0906022K0BHADAP | AceNic 250mg tablets | Nicotinamide |
+| 0906022K0BHABAG | AceNic 500mg capsules | Nicotinamide |
+| 0906022K0BHACAC | AceNic 500mg tablets | Nicotinamide |
+| 0906022K0BHAFAT | AceNic 50mg capsules | Nicotinamide |
+| 0906022K0BHAEAA | AceNic 50mg tablets | Nicotinamide |
+
+Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

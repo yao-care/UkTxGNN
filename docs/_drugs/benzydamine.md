@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 98
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Benzydamine: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** in the data c
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (15 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 15 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,25 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203010E0AAAAAA | Benzydamine HCl Mouthwash 0.15% Sugar-Free | Mouthwash (inferred from product name) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1203010E0AAAAAA | Benzydamine 0.15% mouthwash sugar free | Benzydamine hydrochloride |
+| 1203010E0AAABAB | Benzydamine 0.15% oromucosal spray sugar free | Benzydamine hydrochloride |
+| 1203010E0AAACAC | Benzydamine 0.30% oromucosal spray sugar free | Benzydamine hydrochloride |
+| 1003020F0AAAAAA | Benzydamine 3% cream | Benzydamine hydrochloride |
+| 1203030Y0AAAAAA | Benzydamine 3mg lozenges sugar free | Benzydamine hydrochloride |
+| 1203010E0BBACAA | Difflam 0.15% Sore Throat Rinse | Benzydamine hydrochloride |
+| 1203010E0BBABAB | Difflam 0.15% spray | Benzydamine hydrochloride |
+| 1003020F0BBAAAA | Difflam 3% cream | Benzydamine hydrochloride |
+| 1203030Y0BCAAAA | Difflam 3mg lozenges eucalyptus | Benzydamine hydrochloride |
+| 1203030Y0BCABAA | Difflam 3mg lozenges lemon | Benzydamine hydrochloride |
+| 1203030Y0BCACAA | Difflam 3mg lozenges mint | Benzydamine hydrochloride |
+| 1203030Y0BCADAA | Difflam 3mg lozenges orange-honey | Benzydamine hydrochloride |
+| 1203010E0BBAAAA | Difflam Oral Rinse 0.15% solution | Benzydamine hydrochloride |
+| 1003020F0BBABAA | Difflam-P 3% cream | Benzydamine hydrochloride |
+| 1203030Y0BBAAAA | Lozamine 3mg lozenges | Benzydamine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above appears to be a BNF-style product code rather than a standard MHRA Product Licence (PL) number. Please verify the licence details against the MHRA register and the BNF.
 

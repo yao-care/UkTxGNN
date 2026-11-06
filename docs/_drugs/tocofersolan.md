@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tocofersolan: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Tocofersolan"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -52,8 +52,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,9 +82,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906050U0AAAAAA (BNF code) | Tocofersolan oral solution 250 mg/5 mL, sugar-free | Oral solution | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906050U0AAAAAA | Tocofersolan 50mg/ml oral solution sugar free | Tocofersolan |
+| 0906050U0BBAAAA | Vedrop 50mg/ml oral solution | Tocofersolan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (chapter 9, nutrition and blood) suggests a vitamin product. The recorded identifier is a BNF/NHS product code rather than a standard PL number, and the approved indication text, manufacturer and NICE appraisal information were not available.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ranolazine: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Ranolazine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206030Z0AAABAB (BNF code) | Ranolazine 500 mg modified-release tablets | Modified-release tablet | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206030Z0AAAAAA | Ranolazine 375mg modified-release tablets | Ranolazine |
+| 0206030Z0AAABAB | Ranolazine 500mg modified-release tablets | Ranolazine |
+| 0206030Z0AAACAC | Ranolazine 750mg modified-release tablets | Ranolazine |
+| 0206030Z0BCAAAA | Anzipro 375mg modified-release tablets | Ranolazine |
+| 0206030Z0BCABAB | Anzipro 500mg modified-release tablets | Ranolazine |
+| 0206030Z0BCACAC | Anzipro 750mg modified-release tablets | Ranolazine |
+| 0206030Z0BBAAAA | Ranexa 375mg modified-release tablets | Ranolazine |
+| 0206030Z0BBABAB | Ranexa 500mg modified-release tablets | Ranolazine |
+| 0206030Z0BBACAC | Ranexa 750mg modified-release tablets | Ranolazine |
+| 0206030Z0BDAAAA | Ranogelan 375mg prolonged-release tablets | Ranolazine |
+| 0206030Z0BDABAB | Ranogelan 500mg prolonged-release tablets | Ranolazine |
+| 0206030Z0BDACAC | Ranogelan 750mg prolonged-release tablets | Ranolazine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the identifier shown is a BNF-style product code rather than an MHRA PL number. BNF chapter 2 (cardiovascular system) classification is indicated by the code prefix.
 

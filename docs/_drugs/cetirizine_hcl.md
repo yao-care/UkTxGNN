@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,11 +50,11 @@ Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in t
 | Predicted New Indication | Not yet available |
 | TxGNN Prediction Score | Not yet available |
 | Evidence Level | L5 — no predictions generated |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (34 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 34 |
 | Recommended Decision | **Hold** |
 
-> **Note on UK Market Status:** The Evidence Pack records zero UK licences, but Cetirizine HCl is well established in the UK marketplace as both a prescription medicine and a Pharmacy (P) / General Sale List (GSL) product. This is a data pipeline gap, not an accurate reflection of the MHRA register. UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.
+> UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.
 
 ---
 
@@ -70,9 +70,7 @@ Additionally, mechanism of action (MOA) data was not retrieved from DrugBank des
 
 ## UK Market Information
 
-No marketing authorisation records are available in this Evidence Pack.
-
-This represents a data ingestion failure rather than the absence of UK licences. Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**. MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.
+Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**. MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.
 
 ---
 
@@ -93,7 +91,6 @@ The Evidence Pack for Cetirizine HCl is missing its two most critical inputs —
 
 - **Run TxGNN prediction pipeline** for Cetirizine HCl to generate ranked repurposing candidates
 - **Resolve DrugBank data gap** — the query returned a success status but no DrugBank ID or MOA was captured; inspect the mapping/parsing step in the pipeline
-- **Load UK MHRA marketing authorisation records** via the regulatory data pipeline
 - **Retrieve SmPC** for key warnings, contraindications, and drug interactions
 - **Re-generate the Evidence Pack** once the above gaps are resolved, then repeat this evaluation
 

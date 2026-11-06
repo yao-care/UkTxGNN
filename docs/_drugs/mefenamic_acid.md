@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ No clinical trials are registered, but **19 publications** have been compiled, i
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -93,11 +93,20 @@ Currently no related clinical trials registered. The randomised studies below we
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010N0AAAAAA | Mefenamic Acid Capsules 250 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010N0AAAAAA | Mefenamic acid 250mg capsules | Mefenamic acid |
+| 1001010N0AAAJAJ | Mefenamic acid 250mg tablets | Mefenamic acid |
+| 1001010N0AAAGAG | Mefenamic acid 250mg/5ml oral suspension | Mefenamic acid |
+| 1001010N0AAADAD | Mefenamic acid 500mg tablets | Mefenamic acid |
+| 1001010N0AAAHAH | Mefenamic acid 500mg/5ml oral suspension | Mefenamic acid |
+| 1001010N0AAABAB | Mefenamic acid 50mg/5ml oral suspension | Mefenamic acid |
+| 1001010N0BDACAA | Dysman 250 capsules | Mefenamic acid |
+| 1001010N0BDADAD | Dysman 500 tablets | Mefenamic acid |
+| 1001010N0BBAAAA | Ponstan 250mg capsules | Mefenamic acid |
+| 1001010N0BBABAD | Ponstan Forte 500mg tablets | Mefenamic acid |
 
-One single-ingredient authorisation is valid, and the drug is marketed in the UK.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

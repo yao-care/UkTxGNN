@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyclopentolate: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
 monitor_inn: "Cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9954 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1105000E0AAABAB | Cyclopentolate HCl Eye Drops 0.5% | Eye drops | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1105000E0AAAEAE | Cyclopentolate 0.5% eye dps 0.5ml ud preservative free | Cyclopentolate hydrochloride |
+| 1105000E0AAABAB | Cyclopentolate 0.5% eye drops | Cyclopentolate hydrochloride |
+| 1105000E0AAAFAF | Cyclopentolate 1% eye dps 0.5ml unit dose preservative free | Cyclopentolate hydrochloride |
+| 1105000E0AAACAC | Cyclopentolate 1% eye drops | Cyclopentolate hydrochloride |
+| 1105000E0BBAAAE | Minims cyclopentolate hydrochloride 0.5% eye dps 0.5ml ud | Cyclopentolate hydrochloride |
+| 1105000E0BBABAF | Minims cyclopentolate hydrochloride 1% eye dps 0.5ml ud | Cyclopentolate hydrochloride |
+| 1105000E0BCAAAB | Mydrilate 0.5% solution | Cyclopentolate hydrochloride |
+| 1105000E0BCABAC | Mydrilate 1% solution | Cyclopentolate hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register. The product is a topical ophthalmic preparation.
 

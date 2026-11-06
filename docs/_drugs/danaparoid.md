@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Danaparoid: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Danaparoid is a heparinoid anticoagulant (a mixture of heparan sulfate, dermatan sulfate and chondroitin sulfate) with one marketing authorisation record in the data compiled for this report.
+Danaparoid is a heparinoid anticoagulant (a mixture of heparan sulfate, dermatan sulfate and chondroitin sulfate).
 The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, but **no clinical trials and no publications** support this, and the biological rationale points in the opposite direction (anticoagulation would be expected to worsen bleeding).
 
 ---
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, but
 | Predicted New Indication | Glanzmann thrombasthenia |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,9 +89,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1314000H0AAAAAA | Heparinoid Crm 0.3% | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208010C0AAAAAA | Danaparoid sodium 750units/0.6ml inj ampoules | Danaparoid sodium |
+| 0208010C0BBAAAA | Orgaran 750units/0.6ml solution for injection ampoules | Danaparoid sodium |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Dosage form, manufacturer and approved indication are not recorded for this authorisation. The record appears to be a topical heparinoid cream, which is not the same as the injectable danaparoid used as an anticoagulant. The licence number format also does not follow the usual MHRA "PL" pattern, so the record should be verified against the MHRA register and the BNF before any conclusions are drawn.
 

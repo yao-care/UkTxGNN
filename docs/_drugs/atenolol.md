@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -50,8 +50,8 @@ but the data compiled for this report contain **no clinical trials and no public
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (38 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 38 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000E0AAAAAA | Atenolol oral solution 25mg/5ml sugar-free | Oral solution | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000E0AAACAC | Atenolol 100mg tablets | Atenolol |
+| 0204000E0AAASAS | Atenolol 10mg/5ml oral liquid | Atenolol |
+| 0204000E0AAAQAQ | Atenolol 12.5mg/5ml oral liquid | Atenolol |
+| 0204000E0AAAGAG | Atenolol 25mg tablets | Atenolol |
+| 0204000E0AAANAN | Atenolol 25mg/5ml oral liquid | Atenolol |
+| 0204000E0AAAAAA | Atenolol 25mg/5ml oral solution sugar free | Atenolol |
+| 0204000E0AAAMAM | Atenolol 3.125mg/5ml oral liquid | Atenolol |
+| 0204000E0AAAPAP | Atenolol 3mg/5ml oral liquid | Atenolol |
+| 0204000E0AAABAB | Atenolol 50mg tablets | Atenolol |
+| 0204000E0AAARAR | Atenolol 50mg/5ml oral liquid | Atenolol |
+| 0204000E0AAADAD | Atenolol 5mg/10ml solution for injection ampoules | Atenolol |
+| 0204000E0BEABAC | Antipressan 100mg tablets | Atenolol |
+| 0204000E0BEACAG | Antipressan 25mg tablets | Atenolol |
+| 0204000E0BEAAAB | Antipressan 50mg tablets | Atenolol |
+| 0204000E0BCADAC | Atenix 100 tablets | Atenolol |
+| 0204000E0BCAEAG | Atenix 25 tablets | Atenolol |
+| 0204000E0BCACAB | Atenix 50 tablets | Atenolol |
+| 020400040BDABAB | Atenix Co 100 tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 020400040BDAAAA | Atenix Co 50 tablets | Co-tenidone (Atenolol/chlortalidone) |
+| 0204000A0AAAAAA | Atenolol 25mg / Bendroflumethiazide 1.25mg capsules | Atenolol with thiazides |
 
-This is one single-ingredient product record, listed as valid. The identifier appears to be a BNF-style product code rather than a PL number. The list is complete.
+Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style product code rather than a PL number. The list is complete.
 
 ## Safety Considerations
 

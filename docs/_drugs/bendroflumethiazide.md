@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Bendroflumethiazide"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bendroflumethiazide: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are currently **no clinical trials and no publications** supporting this p
 | Predicted New Indication | malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (30 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 30 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0202010B0AAABAB | Bendroflumethiazide Tab 2.5mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0202010B0AAAUAU | Bendroflumethiazide 1.25mg/5ml oral suspension | Bendroflumethiazide |
+| 0202010B0AAAWAW | Bendroflumethiazide 1mg/5ml oral suspension | Bendroflumethiazide |
+| 0202010B0AAABAB | Bendroflumethiazide 2.5mg tablets | Bendroflumethiazide |
+| 0202010B0AAAXAX | Bendroflumethiazide 2.5mg/5ml oral suspension | Bendroflumethiazide |
+| 0202010B0AAASAS | Bendroflumethiazide 2mg/5ml oral liquid | Bendroflumethiazide |
+| 0202010B0AAAVAV | Bendroflumethiazide 3.75mg/5ml oral liquid | Bendroflumethiazide |
+| 0202010B0AAACAC | Bendroflumethiazide 5mg tablets | Bendroflumethiazide |
+| 0202010B0AAAQAQ | Bendroflumethiazide 5mg/5ml oral suspension | Bendroflumethiazide |
+| 0202010B0BBAAAB | Aprinox 2.5mg tablets | Bendroflumethiazide |
+| 0202010B0BBABAC | Aprinox 5mg tablets | Bendroflumethiazide |
+| 0204000A0AAAAAA | Atenolol 25mg / Bendroflumethiazide 1.25mg capsules | Atenolol with thiazides |
+| 0202080B0AAAAAA | Bendroflumethiazide 2.5mg/Pot chlor 573mg MR tab | Bendroflumethiazide/potassium |
+| 0202080B0AAABAB | Bendroflumethiazide 2.5mg/Pot chlor 630mg MR tab | Bendroflumethiazide/potassium |
+| 0202080B0BBAAAA | Centyl K modified-release tablets | Bendroflumethiazide/potassium |
+| 0204000X0BBAAAA | Corgaretic 40mg tablets | Nadolol with diuretic |
+| 0204000X0BBABAB | Corgaretic 80mg tablets | Nadolol with diuretic |
+| 0204000Q0BBAAAA | Inderetic 80mg/2.5mg capsules | Propranolol hydrochloride with diuretic |
+| 0204000Q0BCAAAB | Inderex 160mg/5mg modified-release capsules | Propranolol hydrochloride with diuretic |
+| 0204000X0AAAAAA | Nadolol 40mg / Bendroflumethiazide 5mg tablets | Nadolol with diuretic |
+| 0204000X0AAABAB | Nadolol 80mg / Bendroflumethiazide 5mg tablets | Nadolol with diuretic |
 
-One valid single-ingredient authorisation is recorded, and no cancelled ones.
+Showing 20 of 30 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Amantadine is an oral agent with dopaminergic and NMDA receptor antagonist activ
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9948 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,19 @@ Publications were retrieved for other predicted conditions (for example, amantad
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010B0AAAAAA | Amantadine HCl Cap 100mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010B0AAAAAA | Amantadine 100mg capsules | Amantadine hydrochloride |
+| 0503040C0AAABAB | Amantadine 100mg tablets | Amantadine hydrochloride |
+| 0409010B0AAABAB | Amantadine 50mg/5ml oral solution sugar free | Amantadine hydrochloride |
+| 0503040C0BBAAAA | Lysovir 100mg capsules | Amantadine hydrochloride |
+| 0409010B0BBAAAA | Symmetrel 100mg capsules | Amantadine hydrochloride |
+| 0409010B0BBABAB | Symmetrel 50mg/5ml syrup | Amantadine hydrochloride |
+| 0409010B0BCAAAB | Trilasym 50mg/5ml oral solution | Amantadine hydrochloride |
 
-The local data hold one valid single-ingredient authorisation. Dosage form and indication text are not recorded.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form and indication text are not recorded.
 
 ## Safety Considerations
 

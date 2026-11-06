@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson's disease and related parkinsonian syndromes"
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (85 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 85 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409010I0AAAKAK | Levodopa liquid, 100 mg/5 ml | Oral liquid | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010I0AAAKAK | Levodopa 100mg/5ml oral liquid | Levodopa |
+| 0409010I0AAAJAJ | Levodopa 125mg/5ml oral suspension | Levodopa |
+| 0409010I0AAAMAM | Levodopa 25mg/5ml oral suspension | Levodopa |
+| 0409010I0AAAFAF | Levodopa 500mg tablets | Levodopa |
+| 0409010N0BGAAAE | Apodespan PR 50mg/200mg tablets | Co-careldopa (Carbidopa/levodopa) |
+| 0409010N0BEAAAG | Caramet 25mg/100mg CR tablets | Co-careldopa (Carbidopa/levodopa) |
+| 0409010N0BEABAE | Caramet 50mg/200mg CR tablets | Co-careldopa (Carbidopa/levodopa) |
+| 0409010K0AAAIAI | Co-beneldopa 12.5mg/50mg capsules | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAMAM | Co-beneldopa 12.5mg/50mg dispersible tablets sugar free | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAANAN | Co-beneldopa 12.5mg/50mg/5ml oral suspension | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAJAJ | Co-beneldopa 25mg/100mg capsules | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAALAL | Co-beneldopa 25mg/100mg dispersible tablets sugar free | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAFAF | Co-beneldopa 25mg/100mg modified-release capsules | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAHAH | Co-beneldopa 25mg/100mg/5ml oral liquid | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAPAP | Co-beneldopa 25mg/6.25mg/5ml oral suspension | Co-beneldopa (Benserazide/levodopa) |
+| 0409010K0AAAKAK | Co-beneldopa 50mg/200mg capsules | Co-beneldopa (Benserazide/levodopa) |
+| 0409010N0AAAAAA | Co-careldopa 10mg/100mg tablets | Co-careldopa (Carbidopa/levodopa) |
+| 0409010N0AAAJAJ | Co-careldopa 10mg/100mg/5ml oral suspension | Co-careldopa (Carbidopa/levodopa) |
+| 0409010N0AAAYAY | Co-careldopa 10mg/40mg/5ml oral suspension | Co-careldopa (Carbidopa/levodopa) |
+| 0409010N0AAADAD | Co-careldopa 12.5mg/50mg tablets | Co-careldopa (Carbidopa/levodopa) |
 
-Only one authorisation is recorded (single-ingredient, valid). The identifier shown is not in the standard MHRA PL format, so the authorisation details should be verified against the MHRA register. BNF classification and NICE appraisal information were not available in the data compiled.
+Showing 20 of 85 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is not in the standard MHRA PL format, so the authorisation details should be verified against the MHRA register. BNF classification and NICE appraisal information were not available in the data compiled.
 
 ## Safety Considerations
 

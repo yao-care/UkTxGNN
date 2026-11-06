@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 406
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Metipranolol: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ All candidates produced by the TxGNN model for Metipranolol are already known us
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,14 @@ All candidates produced by the TxGNN model for Metipranolol are already known us
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000U0AAADAD | Metipranolol_Eye Dps 0.1% Ud |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000U0AAADAD | Metipranolol 0.1% eye dps 0.5ml unit dose preservative free | Metipranolol |
+| 1106000U0AAAEAE | Metipranolol 0.3% eye dps 0.5ml unit dose preservative free | Metipranolol |
+| 1106000U0BCAAAD | Minims metipranolol 0.1% eye drops 0.5ml unit dose | Metipranolol |
+| 1106000U0BCABAE | Minims metipranolol 0.3% eye drops 0.5ml unit dose | Metipranolol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

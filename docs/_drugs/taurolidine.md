@@ -5,7 +5,7 @@ layout: default
 title: Taurolidine
 parent: Known Uses Only (No New Predictions)
 nav_order: 594
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Taurolidine: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Taurolidine"
 predicted_indications: []
@@ -43,14 +43,18 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070AAAAAAAA (BNF code) | Taurolidine Neb Liq 2% | Nebuliser liquid | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070AAAAAAAA | Taurolidine 2% nebuliser liquid | Taurolidine |
+| 0501070AAAAABAB | Taurolidine intraperitoneal solution bottles | Taurolidine |
+| 0501070AABBAAAB | Taurolin 100mg/5ml intraperitoneal solution bottles | Taurolidine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above appears to be a BNF-style code rather than a standard PL number. Dosage form is inferred from the product name, and no manufacturer or indication text is available.
 

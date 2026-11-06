@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 523
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ There are **no registered clinical trials** and **19 publications**, all endocri
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (40 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 40 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,30 @@ Selected from the 19 publications compiled; none evaluates progesterone as an in
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0604012S0AAALAL | Progesterone Cap 100mg (Micronised) | Capsule (inferred from product name) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604012S0AAANAN | Progesterone 100mg pessaries | Progesterone |
+| 0604012S0AACACA | Progesterone 100mg/1ml solution for injection ampoules | Progesterone |
+| 0604012S0AAAHAH | Progesterone 100mg/2ml solution for injection ampoules | Progesterone |
+| 0604012S0AABXBX | Progesterone 2% in Aqueous cream | Progesterone |
+| 0604012S0AABYBY | Progesterone 2.34% transdermal cream | Progesterone |
+| 0604012S0AAAEAE | Progesterone 200mg pessaries | Progesterone |
+| 0604012S0AACFCF | Progesterone 25mg/1.112ml inj pre-filled syringes | Progesterone |
+| 0604012S0AACCCC | Progesterone 25mg/1.112ml solution for injection vials | Progesterone |
+| 0604012S0AACBCB | Progesterone 25mg/1.119ml solution for injection vials | Progesterone |
+| 0604012S0AAACAC | Progesterone 25mg/1ml solution for injection ampoules | Progesterone |
+| 0604012S0AAAVAV | Progesterone 4% vaginal gel 1.125g applicators | Progesterone |
+| 0604012S0AAAFAF | Progesterone 400mg pessaries | Progesterone |
+| 0604012S0AAADAD | Progesterone 50mg/1ml solution for injection ampoules | Progesterone |
+| 0604012S0AAAWAW | Progesterone 8% vaginal gel 1.125g applicators | Progesterone |
+| 0604012S0AAALAL | Progesterone micronised 100mg capsules | Progesterone |
+| 0604012S0AABWBW | Progesterone micronised 200mg capsules | Progesterone |
+| 0604012S0AABZBZ | Progesterone micronised 200mg vaginal capsules | Progesterone |
+| 0604012S0AACDCD | Progesterone micronised 300mg vaginal capsules | Progesterone |
+| 0604012S0AACECE | Progesterone micronised 400mg vaginal capsules | Progesterone |
+| 0604011L0CCAABM | Bijuve 1mg/100mg capsules | Estradiol with progestogen |
+
+Showing 20 of 40 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 291
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fluconazole: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Oral candidiasis, candidiasis, vulvovaginal candidiasis…"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **punctate epithelial keratocon
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (29 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 29 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,32 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0502010B0AAAAAA | Fluconazole Capsules 50 mg | Capsule | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0502010B0AAAMAM | Fluconazole 100mg/50ml solution for infusion bottles | Fluconazole |
+| 0502010B0AAAPAP | Fluconazole 100mg/50ml solution for infusion vials | Fluconazole |
+| 0502010B0AAABAB | Fluconazole 150mg capsules | Fluconazole |
+| 0502010B0AAACAC | Fluconazole 200mg capsules | Fluconazole |
+| 0502010B0AAAKAK | Fluconazole 200mg/100ml infusion bags | Fluconazole |
+| 0502010B0AAALAL | Fluconazole 200mg/100ml solution for infusion bottles | Fluconazole |
+| 0502010B0AAAEAE | Fluconazole 200mg/100ml solution for infusion vials | Fluconazole |
+| 0502010B0AAAHAH | Fluconazole 200mg/5ml oral suspension | Fluconazole |
+| 0502010B0AAANAN | Fluconazole 400mg/200ml infusion bags | Fluconazole |
+| 0502010B0AAAAAA | Fluconazole 50mg capsules | Fluconazole |
+| 0502010B0AAADAD | Fluconazole 50mg/25ml solution for infusion vials | Fluconazole |
+| 0502010B0AAAGAG | Fluconazole 50mg/5ml oral suspension | Fluconazole |
+| 0502010B0BFADAB | Azocan-P 150mg capsules | Fluconazole |
+| 0502010B0BGAAAB | Bell's Thrush Relief Oral 150mg capsules | Fluconazole |
+| 0702020F0BGAAAP | Boots Pharmacy Thrush Duo | Clotrimazole |
+| 0702020F0BBAMAN | Canesten Thrush Duo 150mg Oral capsules & External 2% cream | Clotrimazole |
+| 0502010B0BDAAAB | Canesten Thrush Oral 150mg capsules | Fluconazole |
+| 0502010B0BBABAB | Diflucan 150mg capsules | Fluconazole |
+| 0502010B0BBACAC | Diflucan 200mg capsules | Fluconazole |
+| 0502010B0BBAEAE | Diflucan 200mg/100ml solution for infusion vials | Fluconazole |
 
-The identifier shown is a BNF-style product code (BNF section 5.2.1, azole antifungals) rather than a PL number. One valid single-ingredient authorisation is recorded.
+Showing 20 of 29 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is a BNF-style product code (BNF section 5.2.1, azole antifungals) rather than a PL number.
 
 ## Safety Considerations
 

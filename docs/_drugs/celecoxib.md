@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,11 +69,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010AHAAAAAA | Celecoxib Cap 100mg | Capsule (strength 100 mg) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010AHAAAAAA | Celecoxib 100mg capsules | Celecoxib |
+| 0407041AFAAAAAA | Celecoxib 120mg/4.8ml soln unit dose bottles sugar free | Celecoxib |
+| 1001010AHAAABAB | Celecoxib 200mg capsules | Celecoxib |
+| 1001010AHAAADAD | Celecoxib 400mg capsules | Celecoxib |
+| 1001010AHAAAEAE | Celecoxib 50mg/5ml oral suspension | Celecoxib |
+| 1001010AHBBAAAA | Celebrex 100mg capsules | Celecoxib |
+| 1001010AHBBABAB | Celebrex 200mg capsules | Celecoxib |
+| 0407041AFBBAAAA | Elyxyb 120mg/4.8ml oral solution unit dose bottles | Celecoxib |
+| 1001010AHBCAAAD | Onsenal 400mg capsules | Celecoxib |
 
-At least one single-ingredient licence is currently valid, with no cancelled licences.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

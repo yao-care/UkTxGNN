@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Prasugrel: predicted new indication Migraine disorder (evidence level L3). Approved use: Acute coronary syndrome"
 monitor_inn: "Prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **migraine disorder** (the high
 | Predicted New Indication | Migraine disorder (the top-ranked prediction, pulmonary hypertension, has no direct supporting evidence, so migraine is evaluated here) |
 | TxGNN Prediction Score | 0.9988 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -88,11 +88,18 @@ The supporting data are indirect. They consist of a retrospective review of thie
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0209000Y0AAABAB | Prasugrel Tab 10mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0209000Y0AAABAB | Prasugrel 10mg tablets | Prasugrel |
+| 0209000Y0AAAAAA | Prasugrel 5mg tablets | Prasugrel |
+| 0209000Y0BBABAB | Efient 10mg tablets | Prasugrel |
+| 0209000Y0BBAAAA | Efient 5mg tablets | Prasugrel |
+| 0209000Y0BCABAB | Prafsia 10mg tablets | Prasugrel |
+| 0209000Y0BCAAAA | Prafsia 5mg tablets | Prasugrel |
 
-The data compiled for this report show one valid single-ingredient authorisation. The dosage form, manufacturer and indication text were not available, so please check the current MHRA record, SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form, manufacturer and indication text were not available, so please check the current MHRA record, SmPC and BNF.
 
 ---
 

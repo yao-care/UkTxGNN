@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma** (top-ran
 | Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 0.9945 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (152 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 152 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,32 @@ Currently no related literature available for pulmonary blastoma.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001030U0AAABAB | Methotrexate tablets 2.5 mg | Tablet (not specified in the data) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030U0AAACAC | Methotrexate 10mg tablets | Methotrexate |
+| 1001030U0AACECE | Methotrexate 10mg/0.2ml inj pre-filled disposable devices | Methotrexate |
+| 1001030U0AABFBF | Methotrexate 10mg/0.2ml inj pre-filled syringes | Methotrexate |
+| 0801030P0AAFNFN | Methotrexate 10mg/0.4ml inj pre-filled disposable devices | Methotrexate |
+| 0801030P0AAFHFH | Methotrexate 10mg/0.4ml inj pre-filled syringes | Methotrexate |
+| 1001030U0AABBBB | Methotrexate 10mg/1ml inj pre-filled syringes | Methotrexate |
+| 1001030U0AAAHAH | Methotrexate 10mg/5ml oral liquid | Methotrexate |
+| 1001030U0AACDCD | Methotrexate 12.5mg/0.25ml inj pre-filled disposable devices | Methotrexate |
+| 1001030U0AABKBK | Methotrexate 12.5mg/0.25ml inj pre-filled syringes | Methotrexate |
+| 0801030P0AAFPFP | Methotrexate 12.5mg/0.5ml inj pre-filled disposable devices | Methotrexate |
+| 0801030P0AAFJFJ | Methotrexate 12.5mg/0.5ml inj pre-filled syringes | Methotrexate |
+| 1001030U0AAAKAK | Methotrexate 12.5mg/5ml oral liquid | Methotrexate |
+| 1001030U0AAASAS | Methotrexate 12mg/5ml oral liquid | Methotrexate |
+| 1001030U0AACCCC | Methotrexate 15mg/0.3ml inj pre-filled disposable devices | Methotrexate |
+| 1001030U0AABGBG | Methotrexate 15mg/0.3ml inj pre-filled syringes | Methotrexate |
+| 0801030P0AAFQFQ | Methotrexate 15mg/0.6ml inj pre-filled disposable devices | Methotrexate |
+| 0801030P0AAFKFK | Methotrexate 15mg/0.6ml inj pre-filled syringes | Methotrexate |
+| 1001030U0AABCBC | Methotrexate 15mg/1.5ml inj pre-filled syringes | Methotrexate |
+| 1001030U0AAARAR | Methotrexate 15mg/5ml oral liquid | Methotrexate |
+| 1001030U0AABVBV | Methotrexate 17.5mg/0.35ml inj pre-filled disposable devices | Methotrexate |
 
-Only one single-ingredient authorisation is recorded, and it is currently valid. The identifier shown is as recorded in the data and is not in the usual PL number format, so it should be verified against the MHRA register. Please check the current SmPC and BNF for the authorised indications and dosing.
+Showing 20 of 152 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is as recorded in the data and is not in the usual PL number format, so it should be verified against the MHRA register. Please check the current SmPC and BNF for the authorised indications and dosing.
 
 ---
 

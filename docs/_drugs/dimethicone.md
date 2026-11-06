@@ -5,7 +5,7 @@ layout: default
 title: Dimethicone
 parent: Known Uses Only (No New Predictions)
 nav_order: 231
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dimethicone: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Dimethicone"
 predicted_indications: []
@@ -43,8 +43,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 
 All are L5 with no supporting studies and a recommendation of Hold.
 
@@ -52,11 +52,31 @@ All are L5 with no supporting studies and a recommendation of Hold.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0101010R0AAABAB (BNF code) | Simeticone suspension 40 mg/ml, sugar-free | Oral suspension | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1302020D0AAAAAA | Dimeticone 10% cream | Dimeticone (Barrier) |
+| 1310040V0AAAEAE | Dimeticone 4% cutaneous spray | Dimeticone (Parasiticidal) |
+| 1310040V0AAAAAA | Dimeticone 4% lotion | Dimeticone (Parasiticidal) |
+| 1302020D0BIAAAH | Boots Antiseptic Nappy Rash cream | Dimeticone (Barrier) |
+| 1302020D0BIABA0 | Boots Lip & Cold Sore cream | Dimeticone (Barrier) |
+| 1302020D0BBAAAC | Conotrane cream | Dimeticone (Barrier) |
+| 1302020D0BFAAA0 | Cymex cream | Dimeticone (Barrier) |
+| 1302020D0AAAEAE | Dimeticone 10% / Cetrimide 0.3% cream | Dimeticone (Barrier) |
+| 1302020D0AAAHAH | Dimeticone 10% / Cetrimide 0.5% cream | Dimeticone (Barrier) |
+| 1302020D0AAACAC | Dimeticone 22% / Benzalkonium chloride 0.1% cream | Dimeticone (Barrier) |
+| 1302020D0AAADAD | Generic Vasogen cream | Dimeticone (Barrier) |
+| 1310040V0BBAAAA | Hedrin 4% lotion | Dimeticone (Parasiticidal) |
+| 1310040V0BBAEAE | Hedrin 4% spray | Dimeticone (Parasiticidal) |
+| 1302020D0BEAAAE | Siopel cream | Dimeticone (Barrier) |
+| 1302020D0BGABAG | Sprilon aerosol spray | Dimeticone (Barrier) |
+| 130201000BBGDA7 | Vaseline Dermacare cream | Other emollient preparations |
+| 1302020D0BCAAAD | Vasogen cream | Dimeticone (Barrier) |
+| 130201000AAA7A7 | White soft paraffin 15% / Dimeticone 1% cream | Other emollient preparations |
+| 1302020D0AAAGAG | Zinc oxide 12.5% / Dimeticone 1.04% spray | Dimeticone (Barrier) |
 
-This is a single-ingredient product with valid status. The identifier shown is a BNF-style product code rather than a PL number. The BNF code places it in chapter 1 (gastrointestinal system), consistent with antifoaming use.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is a BNF-style product code rather than a PL number. The BNF code places it in chapter 1 (gastrointestinal system), consistent with antifoaming use.
 
 ---
 

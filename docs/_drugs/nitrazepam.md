@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Nitrazepam"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The data compiled for this report include **no registered clinical trials** and 
 | Predicted New Indication | Wernicke-Korsakoff syndrome |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,9 +85,21 @@ Of the 20 publications retrieved, the most relevant are listed below. Where the 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0401010R0AAACAC | Nitrazepam Tablets 5 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401010R0AAAUAU | Nitrazepam 10mg/5ml oral suspension | Nitrazepam |
+| 0401010R0AAAAAA | Nitrazepam 2.5mg/5ml oral suspension | Nitrazepam |
+| 0401010R0AAAQAQ | Nitrazepam 2.5mg/5ml oral suspension sugar free | Nitrazepam |
+| 0401010R0AAAVAV | Nitrazepam 2mg/5ml oral suspension | Nitrazepam |
+| 0401010R0AAATAT | Nitrazepam 450micrograms/5ml oral suspension | Nitrazepam |
+| 0401010R0AAAWAW | Nitrazepam 4mg/5ml oral suspension | Nitrazepam |
+| 0401010R0AAACAC | Nitrazepam 5mg tablets | Nitrazepam |
+| 0401010R0AAAXAX | Nitrazepam 5mg/5ml oral suspension | Nitrazepam |
+| 0401010R0AAANAN | Nitrazepam 6mg/5ml oral suspension | Nitrazepam |
+| 0401010R0BDAAAC | Mogadon 5mg tablets | Nitrazepam |
+| 0401010R0BFAAAA | Somnite 2.5mg/5ml oral suspension | Nitrazepam |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style product code (BNF section 4.1.1, hypnotics) and not a PL marketing authorisation number. Please check the SmPC for the licensed indications.
 

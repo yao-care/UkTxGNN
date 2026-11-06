@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 601
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Temazepam: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model produced candidates for Temazepam at a score of 0.
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,15 @@ The TxGNN deep-learning model produced candidates for Temazepam at a score of 0.
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0401010T0AAAMAM | Temazepam_Tab 10mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0401010T0AAAMAM | Temazepam 10mg tablets | Temazepam |
+| 0401010T0AAAEAE | Temazepam 10mg/5ml oral solution sugar free | Temazepam |
+| 0401010T0AABABA | Temazepam 10mg/5ml oral solution unit dose vials sugar free | Temazepam |
+| 0401010T0AABCBC | Temazepam 14mg/5ml oral liquid | Temazepam |
+| 0401010T0AAANAN | Temazepam 20mg tablets | Temazepam |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

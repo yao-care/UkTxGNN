@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ This prediction is currently supported by **0 clinical trials** and **0 publicat
 | Predicted New Indication | Distal myopathy, Tateyama type |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (67 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 67 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000R0AAAAAA | Propranolol HCl Cap 80mg M/R | Modified-release capsule (taken from the product name) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000R0AACMCM | Propranolol 1.67mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AADKDK | Propranolol 10mg orodispersible tablets sugar free | Propranolol hydrochloride |
+| 0204000R0AAAHAH | Propranolol 10mg tablets | Propranolol hydrochloride |
+| 0204000R0AACJCJ | Propranolol 10mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACXCX | Propranolol 10mg/5ml oral solution sugar free | Propranolol hydrochloride |
+| 0204000R0AACRCR | Propranolol 15mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AAABAB | Propranolol 160mg modified-release capsules | Propranolol hydrochloride |
+| 0204000R0AAALAL | Propranolol 160mg tablets | Propranolol hydrochloride |
+| 0204000R0AADEDE | Propranolol 16mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AAACAC | Propranolol 1mg/1ml solution for injection ampoules | Propranolol hydrochloride |
+| 0204000R0AACSCS | Propranolol 2.5mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACQCQ | Propranolol 2.75mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACPCP | Propranolol 20mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AADGDG | Propranolol 22.5mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACKCK | Propranolol 25mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACUCU | Propranolol 2mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACZCZ | Propranolol 3.5mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AADADA | Propranolol 32mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AACTCT | Propranolol 3mg/5ml oral liquid | Propranolol hydrochloride |
+| 0204000R0AADLDL | Propranolol 40mg orodispersible tablets sugar free | Propranolol hydrochloride |
 
-The identifier above is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA register and the BNF before any reliance is placed on it. The licence record does not state a manufacturer or approved indication.
+Showing 20 of 67 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA register and the BNF before any reliance is placed on it.
 
 ---
 

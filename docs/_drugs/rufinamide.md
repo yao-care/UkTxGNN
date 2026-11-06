@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but **no clinical trials and no publications** were found for this specific pred
 | Predicted New Indication | Perioral myoclonia with absences |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,11 +81,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Reference Code | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010AFAAABAB (BNF-style code; PL number not provided) | Rufinamide 200 mg tablets | Tablet | Not stated in the data compiled; BNF chapter 4.8.1 (antiepileptic drugs) |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010AFAAAAAA | Rufinamide 100mg tablets | Rufinamide |
+| 0408010AFAAABAB | Rufinamide 200mg tablets | Rufinamide |
+| 0408010AFAAACAC | Rufinamide 400mg tablets | Rufinamide |
+| 0408010AFAAADAD | Rufinamide 40mg/ml oral suspension sugar free | Rufinamide |
+| 0408010AFBBAAAA | Inovelon 100mg tablets | Rufinamide |
+| 0408010AFBBABAB | Inovelon 200mg tablets | Rufinamide |
+| 0408010AFBBACAC | Inovelon 400mg tablets | Rufinamide |
+| 0408010AFBBADAD | Inovelon 40mg/ml oral suspension | Rufinamide |
 
-Only one authorisation (single-ingredient, valid) was identified. The licensed indication text, manufacturer and MHRA PL number were not available and should be checked against the current SmPC. The licensed UK indication is adjunctive treatment of seizures in Lennox-Gastaut syndrome. FIRES is not a licensed indication.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The licensed indication text, manufacturer and MHRA PL number were not available and should be checked against the current SmPC. The licensed UK indication is adjunctive treatment of seizures in Lennox-Gastaut syndrome. FIRES is not a licensed indication.
 
 ---
 

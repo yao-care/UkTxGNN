@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but the data compiled for this report contain **no clinical trials** and **no di
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 (preclinical or mechanistic evidence only; see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (4 of 4) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 4 (valid: 4) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (23 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 23 |
 | Recommended Decision | Hold |
 
 *Note: The only publication linked to this indication is an observational study on renal cancer, which is not relevant to perindopril. Strictly, the evidence for this prediction is closer to L5 (model prediction only).*
@@ -88,14 +88,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051Y0BBABAB | Coversyl Arginine Tab 5mg | Not stated | Not stated |
-| 0205051Y0AAAAAA | Perindopril Arginine Tab 2.5mg | Not stated | Not stated |
-| 0205051M0BBABAB | Coversyl Tab 4mg | Not stated | Not stated |
-| 0205051M0AAAAAA | Perindopril Erbumine Tab 2mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051M0AAACAC | Perindopril erbumine 1mg/5ml oral liquid | Perindopril erbumine |
+| 0205051M0AAAJAJ | Perindopril erbumine 2mg oral powder sachets | Perindopril erbumine |
+| 0205051M0AAAAAA | Perindopril erbumine 2mg tablets | Perindopril erbumine |
+| 0205051M0AAADAD | Perindopril erbumine 2mg/5ml oral suspension | Perindopril erbumine |
+| 0205051M0AAAMAM | Perindopril erbumine 3mg/5ml oral solution | Perindopril erbumine |
+| 0205051M0AAABAB | Perindopril erbumine 4mg tablets | Perindopril erbumine |
+| 0205051M0AAAKAK | Perindopril erbumine 4mg/5ml oral solution | Perindopril erbumine |
+| 0205051M0AAALAL | Perindopril erbumine 4mg/5ml oral suspension | Perindopril erbumine |
+| 0205051M0AAAFAF | Perindopril erbumine 8mg tablets | Perindopril erbumine |
+| 0205051M0AAAHAH | Perindopril erbumine 8mg/5ml oral liquid | Perindopril erbumine |
+| 0205051AAAAACAC | Perindopril tosilate 10mg tablets | Perindopril tosilate |
+| 0205051AAAAAAAA | Perindopril tosilate 2.5mg tablets | Perindopril tosilate |
+| 0205051AAAAABAB | Perindopril tosilate 5mg tablets | Perindopril tosilate |
+| 0205051M0BBAAAA | Coversyl 2mg tablets | Perindopril erbumine |
+| 0205051M0BBABAB | Coversyl 4mg tablets | Perindopril erbumine |
+| 0205051M0BBACAF | Coversyl 8mg tablets | Perindopril erbumine |
+| 0205051N0BBAAAA | Coversyl Plus tablets | Perindopril erbumine with diuretic |
+| 0205051ACAAABAB | Perindopril erbumine 4mg / Amlodipine 10mg tablets | Perindopril with calcium channel blocker |
+| 0205051ACAAAAAA | Perindopril erbumine 4mg / Amlodipine 5mg tablets | Perindopril with calcium channel blocker |
+| 0205051N0AAAAAA | Perindopril erbumine 4mg / Indapamide 1.25mg tablets | Perindopril erbumine with diuretic |
 
-All four authorisations are single-ingredient products and currently valid. Please refer to the BNF (cardiovascular system, ACE inhibitors) and the SmPC for approved indications and dosing.
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please refer to the BNF (cardiovascular system, ACE inhibitors) and the SmPC for approved indications and dosing.
 
 ---
 
@@ -132,7 +150,7 @@ The mechanistic link is plausible, but there are no clinical trials and no relev
 - Mechanism of action data from DrugBank
 - SmPC and BNF warnings and contraindications, which are needed before any safety screening
 - A renal safety plan (renal function and potassium monitoring, caution in renal artery stenosis)
-- Approved indication text for the four UK authorisations, to confirm the baseline licence
+- Approved indication text, to confirm the baseline licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

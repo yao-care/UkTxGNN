@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
 description: "Flavoxate: predicted new indication Attention deficit hyperactivity disorder, inattentive type (evidence level L5). Approved use: Not stated in the available licence data (flavoxate is generally used"
@@ -49,8 +49,8 @@ The TxGNN model (deep learning) predicts it may be effective for **attention def
 | Predicted New Indication | Attention deficit hyperactivity disorder, inattentive type |
 | TxGNN Prediction Score | 0.9975 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,9 +63,15 @@ Among the other predictions, **irritable bowel syndrome** (score 0.9974) has the
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704020G0AAACAC | Flavoxate HCl tablets 200 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704020G0AAAEAE | Flavoxate 100mg/5ml oral liquid | Flavoxate hydrochloride |
+| 0704020G0AAACAC | Flavoxate 200mg tablets | Flavoxate hydrochloride |
+| 0704020G0AAADAD | Flavoxate 200mg/5ml oral suspension | Flavoxate hydrochloride |
+| 0704020G0AAAFAF | Flavoxate 250mg/5ml oral liquid | Flavoxate hydrochloride |
+| 0704020G0BBABAC | Urispas 200 tablets | Flavoxate hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a drug classification code rather than a standard PL number. Indication text and dosage form were not available in the compiled data. Please check the current SmPC, the BNF and NICE guidance for the authorised indications.
 

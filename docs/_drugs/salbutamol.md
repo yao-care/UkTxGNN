@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,7 +49,8 @@ The TxGNN model predicts it may be effective for **papillary conjunctivitis**, b
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (94 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 94 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,11 +69,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301011R0AAAFAF (as listed; appears to be a BNF-style code rather than a PL number) | 1 (valid: 1) | Inhalation powder | — |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301011R0AABUBU | Salbutamol 100micrograms/dose breath actuated inh CFC free | Salbutamol |
+| 0301011R0AAADAD | Salbutamol 100micrograms/dose breath actuated inhaler | Salbutamol |
+| 0301011R0AACCCC | Salbutamol 100micrograms/dose dry pdr inhalation cartridge | Salbutamol |
+| 0301011R0AABZBZ | Salbutamol 100micrograms/dose dry powder inhaler | Salbutamol |
+| 0301011R0AAAAAA | Salbutamol 100micrograms/dose inhaler | Salbutamol |
+| 0301011R0AAAPAP | Salbutamol 100micrograms/dose inhaler CFC free | Salbutamol |
+| 0301011R0BVAAAX | Salbutamol 2.5mg/2.5ml neb liq unit dose Steripoule vials | Salbutamol |
+| 0301011R0AACDCD | Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose ampoules | Salbutamol |
+| 0301011R0AAAXAX | Salbutamol 2.5mg/2.5ml nebuliser liquid unit dose vials | Salbutamol |
+| 0301011R0BPACAV | Salbutamol 200 Cyclocaps | Salbutamol |
+| 0301011R0AAAKAK | Salbutamol 200microgram inhalation powder blisters | Salbutamol |
+| 0301011R0AAAVAV | Salbutamol 200microgram inhalation powder capsules | Salbutamol |
+| 0301011R0AAAQAQ | Salbutamol 200micrograms/dose dry powder inhaler | Salbutamol |
+| 0301011R0AAAZAZ | Salbutamol 2mg tablets | Salbutamol |
+| 0301011R0AABGBG | Salbutamol 2mg/5ml oral solution sugar free | Salbutamol |
+| 0301011R0BPADAW | Salbutamol 400 Cyclocaps | Salbutamol |
+| 0301011R0AAALAL | Salbutamol 400microgram inhalation powder blisters | Salbutamol |
+| 0301011R0AAAWAW | Salbutamol 400microgram inhalation powder capsules | Salbutamol |
+| 0301011R0AABMBM | Salbutamol 4mg modified-release capsules | Salbutamol |
+| 0301011R0AABEBE | Salbutamol 4mg modified-release tablets | Salbutamol |
 
-One valid single-ingredient licence is recorded, and no cancelled licences. The record carries no manufacturer details.
+Showing 20 of 94 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 
@@ -92,7 +112,7 @@ The prediction has a very high model score but no trials, no directly relevant l
 **To proceed, the following is needed:**
 - Preclinical and clinical evidence directly studying salbutamol in papillary conjunctivitis
 - Mechanism of action data and a clearer mechanistic rationale for ocular use
-- An assessment of a suitable route and formulation, since the only UK licence recorded is an inhalation product
+- An assessment of a suitable route and formulation
 - Label-based safety information, including ocular safety and relevant interactions
 
 ## Disclaimer

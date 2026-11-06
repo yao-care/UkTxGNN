@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cefpodoxime: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
@@ -50,8 +50,8 @@ Cefpodoxime is an oral third-generation cephalosporin antibiotic. The TxGNN mode
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 0.9925 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501021F0AAAAAA | Cefpodoxime_Tab 100mg | Tablet (as named in the product record) | Not stated in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501021F0AAAAAA | Cefpodoxime 100mg tablets | Cefpodoxime |
+| 0501021F0AAABAB | Cefpodoxime 40mg/5ml oral suspension | Cefpodoxime |
+| 0501021F0BBAAAA | Orelox 100mg tablets | Cefpodoxime |
+| 0501021F0BBABAB | Orelox 40mg/5ml oral suspension paediatric | Cefpodoxime |
 
-The identifier above follows a BNF-style product code (BNF section 5.1.2, cephalosporins) rather than a standard PL number. The record is a single-ingredient product with valid status.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above follows a BNF-style product code (BNF section 5.1.2, cephalosporins) rather than a standard PL number.
 
 ---
 

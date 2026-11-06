@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Olmesartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the data compiled for this report (olmesartan is an ARB…"
 monitor_inn: "Olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
@@ -50,8 +50,8 @@ Olmesartan is an angiotensin II receptor blocker (ARB) with a UK marketing autho
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (29 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 29 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +90,30 @@ Currently no related literature available for Prinzmetal angina.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205052B0AAAAAA | Olmesartan Medoxomil Tablets 10 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205052B0AAAAAA | Olmesartan medoxomil 10mg tablets | Olmesartan medoxomil |
+| 0205052B0AAADAD | Olmesartan medoxomil 10mg/5ml oral liquid | Olmesartan medoxomil |
+| 0205052B0AAABAB | Olmesartan medoxomil 20mg tablets | Olmesartan medoxomil |
+| 0205052B0AAACAC | Olmesartan medoxomil 40mg tablets | Olmesartan medoxomil |
+| 0205052ACAAAAAA | Generic Sevikar HCT 20mg/5mg/12.5mg tablets | Olmesartan medoxomil/amlodipine/hydrochlorothiazide |
+| 0205052ACAAACAC | Generic Sevikar HCT 40mg/10mg/12.5mg tablets | Olmesartan medoxomil/amlodipine/hydrochlorothiazide |
+| 0205052ACAAAEAE | Generic Sevikar HCT 40mg/10mg/25mg tablets | Olmesartan medoxomil/amlodipine/hydrochlorothiazide |
+| 0205052ACAAABAB | Generic Sevikar HCT 40mg/5mg/12.5mg tablets | Olmesartan medoxomil/amlodipine/hydrochlorothiazide |
+| 0205052ACAAADAD | Generic Sevikar HCT 40mg/5mg/25mg tablets | Olmesartan medoxomil/amlodipine/hydrochlorothiazide |
+| 0205052ABAAAAAA | Olmesartan medoxomil 20mg / Amlodipine 5mg tablets | Olmesartan medoxomil/amlodipine |
+| 0205052Y0AAAAAA | Olmesartan medoxomil 20mg / Hydrochlorothiazide 12.5mg tab | Olmesartan medoxomil/hydrochlorothiazide |
+| 0205052Y0AAABAB | Olmesartan medoxomil 20mg / Hydrochlorothiazide 25mg tablets | Olmesartan medoxomil/hydrochlorothiazide |
+| 0205052ABAAACAC | Olmesartan medoxomil 40mg / Amlodipine 10mg tablets | Olmesartan medoxomil/amlodipine |
+| 0205052ABAAABAB | Olmesartan medoxomil 40mg / Amlodipine 5mg tablets | Olmesartan medoxomil/amlodipine |
+| 0205052Y0AAACAC | Olmesartan medoxomil 40mg / Hydrochlorothiazide 12.5mg tab | Olmesartan medoxomil/hydrochlorothiazide |
+| 0205052B0BBAAAA | Olmetec 10mg tablets | Olmesartan medoxomil |
+| 0205052B0BBABAB | Olmetec 20mg tablets | Olmesartan medoxomil |
+| 0205052B0BBACAC | Olmetec 40mg tablets | Olmesartan medoxomil |
+| 0205052Y0BBAAAA | Olmetec Plus 20mg/12.5mg tablets | Olmesartan medoxomil/hydrochlorothiazide |
+| 0205052Y0BBABAB | Olmetec Plus 20mg/25mg tablets | Olmesartan medoxomil/hydrochlorothiazide |
+
+Showing 20 of 29 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is as supplied and is not in the standard UK PL number format. Authorisation details should be verified against the MHRA register and the BNF.
 

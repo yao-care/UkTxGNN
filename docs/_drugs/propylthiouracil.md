@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 527
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ The evidence is weak, and the mechanistic rationale is arguably counterproductiv
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 **Other predicted indications reviewed**
@@ -106,11 +106,22 @@ Currently no related clinical trials registered, for any of the three predicted 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| BNF code 0602020N0AAABAB | Propylthiouracil 50 mg tablets | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0602020N0AAAMAM | Propylthiouracil 100mg suppositories | Propylthiouracil |
+| 0602020N0AAAPAP | Propylthiouracil 100mg tablets | Propylthiouracil |
+| 0602020N0AAAGAG | Propylthiouracil 100mg/5ml oral liquid | Propylthiouracil |
+| 0602020N0AAAKAK | Propylthiouracil 150mg/5ml oral suspension | Propylthiouracil |
+| 0602020N0AAALAL | Propylthiouracil 200mg/5ml oral liquid | Propylthiouracil |
+| 0602020N0AAAHAH | Propylthiouracil 20mg/5ml oral liquid | Propylthiouracil |
+| 0602020N0AAANAN | Propylthiouracil 25mg tablets | Propylthiouracil |
+| 0602020N0AAAJAJ | Propylthiouracil 25mg/5ml oral liquid | Propylthiouracil |
+| 0602020N0AAABAB | Propylthiouracil 50mg tablets | Propylthiouracil |
+| 0602020N0AAAIAI | Propylthiouracil 50mg/5ml oral liquid | Propylthiouracil |
 
-The record lists one valid single-ingredient authorisation. It carries no dosage form or indication text, and no PL number is available. In the BNF, propylthiouracil falls under antithyroid drugs (chapter 6, endocrine system).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+It carries no dosage form or indication text, and no PL number is available. In the BNF, propylthiouracil falls under antithyroid drugs (chapter 6, endocrine system).
 
 ## Safety Considerations
 

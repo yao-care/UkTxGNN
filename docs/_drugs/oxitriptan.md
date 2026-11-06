@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Oxitriptan: predicted new indication insomnia (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Oxitriptan"
 predicted_indications: ["insomnia (disease)"]
@@ -50,8 +50,8 @@ The evidence is a computational prediction only.
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,7 +63,6 @@ The original indication could not be identified, so the relationship between it 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for insomnia.
-
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
 |---------|------|------|------|---------|
@@ -77,9 +76,16 @@ The only publication linked to any prediction is a 1990 review of a different dr
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403040R0AAAFAF | Oxitriptan Cap 50mg | Capsule (50 mg) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403040R0AAAJAJ | Oxitriptan 100mg tablets | Oxitriptan |
+| 0403040R0AAAFAF | Oxitriptan 50mg capsules | Oxitriptan |
+| 0403040R0AAAKAK | Oxitriptan 50mg modified-release tablets | Oxitriptan |
+| 0403040R0BEAAAK | HealthAid 5-HTP HydroxyTryptoPhan 50mg tablets | Oxitriptan |
+| 0403040R0BDAAAJ | Lamberts 5-HTP 100mg tablets | Oxitriptan |
+| 0403040R0BBABAF | Tript-OH 50mg capsules | Oxitriptan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier is a BNF-style product code rather than a standard PL number. It sits under BNF section 4.3.4 (antidepressant drugs, other). No manufacturer or approved indication text was available.
 

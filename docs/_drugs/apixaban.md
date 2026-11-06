@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 67
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Apixaban"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Apixaban is an oral anticoagulant that directly inhibits factor Xa. The TxGNN mo
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9902 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,9 +84,15 @@ The only proposed link to migraine is a hypothesis: in a subset of people with m
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0208020Z0AAAAAA (BNF code) | Apixaban tablets 2.5 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208020Z0AAACAC | Apixaban 1mg/ml oral suspension sugar free | Apixaban |
+| 0208020Z0AAAAAA | Apixaban 2.5mg tablets | Apixaban |
+| 0208020Z0AAABAB | Apixaban 5mg tablets | Apixaban |
+| 0208020Z0BBAAAA | Eliquis 2.5mg tablets | Apixaban |
+| 0208020Z0BBABAB | Eliquis 5mg tablets | Apixaban |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code for this record is 0208020Z0 (oral anticoagulants).
 

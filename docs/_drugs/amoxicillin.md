@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amoxicillin: predicted new indication Hyperamylasaemia (hyperamylasemia) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **hyperamylasaemia (hyperamylasem
 | Predicted New Indication | Hyperamylasaemia (hyperamylasemia) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (65 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 65 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,9 +79,30 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501013B0AAAAAA | Amoxicillin Cap 250mg | Capsule (as named in product record) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501013B0AAAIAI | Amoxicillin 125mg/1.25ml oral suspension paediatric | Amoxicillin |
+| 0501013B0AAAJAJ | Amoxicillin 125mg/5ml oral suspension | Amoxicillin |
+| 0501013B0AAASAS | Amoxicillin 125mg/5ml oral suspension sugar free | Amoxicillin |
+| 0501013B0AAAUAU | Amoxicillin 1g dispersible tablets sugar free | Amoxicillin |
+| 0501013C0AAAEAE | Amoxicillin 1g powder for solution for injection vials | Amoxicillin sodium |
+| 0501013B0AAAAAA | Amoxicillin 250mg capsules | Amoxicillin |
+| 0501013C0AAACAC | Amoxicillin 250mg powder for solution for injection vials | Amoxicillin sodium |
+| 0501013B0AAAKAK | Amoxicillin 250mg/5ml oral suspension | Amoxicillin |
+| 0501013B0AAATAT | Amoxicillin 250mg/5ml oral suspension sugar free | Amoxicillin |
+| 0501013B0AAAHAH | Amoxicillin 3g oral powder sachets sugar free | Amoxicillin |
+| 0501013B0AAABAB | Amoxicillin 500mg capsules | Amoxicillin |
+| 0501013C0AAADAD | Amoxicillin 500mg powder for solution for injection vials | Amoxicillin sodium |
+| 0501013B0AABDBD | Amoxicillin 500mg tablets | Amoxicillin |
+| 0501013B0AAAVAV | Amoxicillin 500mg/5ml oral suspension sugar free | Amoxicillin |
+| 0501013B0BDABAJ | Almodan 125mg/5ml syrup | Amoxicillin |
+| 0501013K0BCAAAA | Amiclav 250mg/125mg tablets | Co-amoxiclav (Amoxicillin/clavulanic acid) |
+| 0501013B0BFAGAS | Amix 125 oral suspension | Amoxicillin |
+| 0501013B0BFAEAA | Amix 250 capsules | Amoxicillin |
+| 0501013B0BFAIAT | Amix 250 oral suspension | Amoxicillin |
+| 0501013B0BFAFAB | Amix 500 capsules | Amoxicillin |
+
+Showing 20 of 65 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

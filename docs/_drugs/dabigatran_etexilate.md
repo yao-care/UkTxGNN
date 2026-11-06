@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the pro…"
 monitor_inn: "Dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -52,8 +52,8 @@ but the data compiled for this report contain **no relevant clinical trials** an
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -84,11 +84,30 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0208020X0AAAAAA | Dabigatran Etexilate Cap 75mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208020X0AAABAB | Dabigatran etexilate 110mg capsules | Dabigatran etexilate |
+| 0208020X0AAAHAH | Dabigatran etexilate 110mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAACAC | Dabigatran etexilate 150mg capsules | Dabigatran etexilate |
+| 0208020X0AAAIAI | Dabigatran etexilate 150mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAADAD | Dabigatran etexilate 20mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAAEAE | Dabigatran etexilate 30mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAAFAF | Dabigatran etexilate 40mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAAGAG | Dabigatran etexilate 50mg granules sachets sugar free | Dabigatran etexilate |
+| 0208020X0AAAAAA | Dabigatran etexilate 75mg capsules | Dabigatran etexilate |
+| 0208020X0BBABAB | Pradaxa 110mg capsules | Dabigatran etexilate |
+| 0208020X0BBAHAH | Pradaxa 110mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBACAC | Pradaxa 150mg capsules | Dabigatran etexilate |
+| 0208020X0BBAIAI | Pradaxa 150mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBADAD | Pradaxa 20mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBAEAE | Pradaxa 30mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBAFAF | Pradaxa 40mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBAGAG | Pradaxa 50mg granules sachets | Dabigatran etexilate |
+| 0208020X0BBAAAA | Pradaxa 75mg capsules | Dabigatran etexilate |
 
-The licence record is a single, valid, single-ingredient product. The identifier appears to be a BNF-style product code (BNF chapter 2, section 8: oral anticoagulants) rather than a standard PL number. Approved indication text and dosage form were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style product code (BNF chapter 2, section 8: oral anticoagulants) rather than a standard PL number. Approved indication text and dosage form were not available.
 
 ---
 

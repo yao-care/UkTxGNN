@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -54,8 +54,8 @@ The model's top-ranked prediction, manic bipolar affective disorder, is not supp
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L5 (CPVT) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Proceed with Guardrails (research question only; not for clinical use outside specialist care) |
 
 ---
@@ -97,11 +97,18 @@ Only the first four entries bear directly on propafenone or class I drugs in CPV
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0203020R0AAAAAA | Propafenone HCl tablets 150 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0203020R0AAAAAA | Propafenone 150mg tablets | Propafenone hydrochloride |
+| 0203020R0AAAFAF | Propafenone 150mg/5ml oral liquid | Propafenone hydrochloride |
+| 0203020R0AAABAB | Propafenone 300mg tablets | Propafenone hydrochloride |
+| 0203020R0AAAEAE | Propafenone 50mg/5ml oral liquid | Propafenone hydrochloride |
+| 0203020R0BCAAAA | Arythmol 150mg tablets | Propafenone hydrochloride |
+| 0203020R0BCABAB | Arythmol 300mg tablets | Propafenone hydrochloride |
 
-This is a single valid single-ingredient authorisation. The number shown is a classification-style code rather than a standard MHRA PL number, so it should be checked against the MHRA register. Please refer to the BNF (cardiovascular system, antiarrhythmic drugs) and the SmPC for the authorised indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The number shown is a classification-style code rather than a standard MHRA PL number, so it should be checked against the MHRA register. Please refer to the BNF (cardiovascular system, antiarrhythmic drugs) and the SmPC for the authorised indications.
 
 ---
 

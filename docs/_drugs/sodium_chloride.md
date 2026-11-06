@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 571
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sodium Chloride: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (203 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 203 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,30 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1202020L0BCAAAD | Saline_Steri-Neb Neb Soln 0.9%/2.5ml Ud |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0902021S0AACGCG | Sodium chloride 0.18% infusion 500ml polyethylene bottles | Sodium chloride |
+| 1108010K0AABPBP | Sodium chloride 0.43% eye drops | Sodium chloride |
+| 0902021S0BBARCH | Sodium chloride 0.45% infusion 500ml Viaflex bags | Sodium chloride |
+| 0902021S0AACHCH | Sodium chloride 0.45% infusion 500ml bags | Sodium chloride |
+| 0902021S0AADNDN | Sodium chloride 0.45% infusion 500ml polyethylene bottles | Sodium chloride |
+| 1108010K0AAAWAW | Sodium chloride 0.5% eye drops | Sodium chloride |
+| 1108010K0AACCCC | Sodium chloride 0.5% eye drops preservative free | Sodium chloride |
+| 1108010K0AAAJAJ | Sodium chloride 0.5% eye ointment | Sodium chloride |
+| 1108010K0AAAYAY | Sodium chloride 0.9% eye dps 0.5ml ud preservative free | Sodium chloride |
+| 1108010K0AAAAAA | Sodium chloride 0.9% eye drops | Sodium chloride |
+| 1108010K0AAA1A1 | Sodium chloride 0.9% eye drops preservative free | Sodium chloride |
+| 0902021S0BBAVCJ | Sodium chloride 0.9% inf 100ml Mini-Bag Plus Viaflex bags | Sodium chloride |
+| 0902021S0AACJCJ | Sodium chloride 0.9% infusion 100ml | Sodium chloride |
+| 0902021S0BNAHCJ | Sodium chloride 0.9% infusion 100ml Freeflex Plus bags | Sodium chloride |
+| 0902021S0BNABCJ | Sodium chloride 0.9% infusion 100ml Freeflex bags | Sodium chloride |
+| 0902021S0BMAACJ | Sodium chloride 0.9% infusion 100ml KabiPac bottles | Sodium chloride |
+| 0902021S0BBAUCJ | Sodium chloride 0.9% infusion 100ml Mini-Bag Viaflex bags | Sodium chloride |
+| 0902021S0BBASCJ | Sodium chloride 0.9% infusion 100ml Plus bags | Sodium chloride |
+| 0902021S0BBAMBM | Sodium chloride 0.9% infusion 150ml Viaflex bags | Sodium chloride |
+| 0902021S0AABMBM | Sodium chloride 0.9% infusion 150ml bags | Sodium chloride |
+
+Showing 20 of 203 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 description: "Bicalutamide: predicted new indication Hypertrichosis (hypertrichosis (disease)) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Bicalutamide is a non-steroidal androgen receptor antagonist. The TxGNN model pr
 | Predicted New Indication | Hypertrichosis (hypertrichosis (disease)) |
 | TxGNN Prediction Score | 0.9969 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803042A0AAAAAA | Bicalutamide Tab 50mg | Not recorded | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803042A0AAABAB | Bicalutamide 150mg tablets | Bicalutamide |
+| 0803042A0AAADAD | Bicalutamide 150mg/5ml oral suspension | Bicalutamide |
+| 0803042A0AAAAAA | Bicalutamide 50mg tablets | Bicalutamide |
+| 0803042A0AAACAC | Bicalutamide 50mg/5ml oral suspension | Bicalutamide |
+| 0803042A0BBABAB | Casodex 150mg tablets | Bicalutamide |
+| 0803042A0BBAAAA | Casodex 50mg tablets | Bicalutamide |
 
-At least one single-ingredient licence is currently valid.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Cytotoxicity
 

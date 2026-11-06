@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Nitisinone was originally used to treat hereditary tyrosinaemia. The TxGNN model
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,22 @@ Currently no related literature is available for renal tubular acidosis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0908010AFAAAAAA | Nitisinone capsules 2 mg | Capsule | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0908010AFAAACAC | Nitisinone 10mg capsules | Nitisinone |
+| 0908010AFAAADAD | Nitisinone 20mg capsules | Nitisinone |
+| 0908010AFAAAAAA | Nitisinone 2mg capsules | Nitisinone |
+| 0908010AFAAAEAE | Nitisinone 4mg/ml oral suspension sugar free | Nitisinone |
+| 0908010AFAAABAB | Nitisinone 5mg capsules | Nitisinone |
+| 0908010AFBBACAC | Orfadin 10mg capsules | Nitisinone |
+| 0908010AFBBADAD | Orfadin 20mg capsules | Nitisinone |
+| 0908010AFBBAAAA | Orfadin 2mg capsules | Nitisinone |
+| 0908010AFBBAEAE | Orfadin 4mg/1ml oral suspension | Nitisinone |
+| 0908010AFBBABAB | Orfadin 5mg capsules | Nitisinone |
 
-The data compiled for this report lists one valid single-ingredient authorisation. The authorisation number appears to be a non-MHRA format, so it should be checked against the MHRA product database. Dosage form and indication text are missing. NICE appraisal and BNF classification information is not included in the compiled data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number appears to be a non-MHRA format, so it should be checked against the MHRA product database. Dosage form and indication text are missing. NICE appraisal and BNF classification information is not included in the compiled data.
 
 ## Safety Considerations
 

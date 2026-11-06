@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Erythromycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "lymphogranuloma venereum", "necrotizing ulcerative gingivitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Erythromycin is a macrolide antibiotic with antibacterial and anti-inflammatory 
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,9 +70,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501050C0AAABAB | Erythromycin Tab E/C 250mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1103010I0BCAAAA | Erythromycin 0.5% Ophthalmic Ointment | Erythromycin |
+| 1103010I0AAAAAA | Erythromycin 0.5% eye ointment | Erythromycin |
+| 1306010I0AAADAD | Erythromycin 2% gel | Erythromycin |
+| 1306010I0AAAAAA | Erythromycin 2% solution | Erythromycin |
+| 0501050C0AAAKAK | Erythromycin 250mg gastro-resistant capsules | Erythromycin |
+| 0501050C0AAABAB | Erythromycin 250mg gastro-resistant tablets | Erythromycin |
+| 1306010I0AAAEAE | Erythromycin 4% gel | Erythromycin |
+| 0501050N0AAAAAA | Erythromycin stearate 250mg tablets | Erythromycin stearate |
+| 0501050N0AAABAB | Erythromycin stearate 500mg tablets | Erythromycin stearate |
+| 1306010I0BFAAAF | Aknemycin Plus solution | Erythromycin |
+| 1306010C0BWAAAY | Benzamycin gel | Benzoyl peroxide |
+| 1306010C0AAAYAY | Benzoyl peroxide 5% / Erythromycin 3% gel | Benzoyl peroxide |
+| 1306010I0BEAAAD | Eryacne 2 gel | Erythromycin |
+| 1306010I0BEABAE | Eryacne 4 gel | Erythromycin |
+| 0501050C0BCAAAK | Erymax 250mg gastro-resistant capsules | Erythromycin |
+| 0501050N0BBAAAA | Erythrocin 250 tablets | Erythromycin stearate |
+| 0501050N0BBABAB | Erythrocin 500 tablets | Erythromycin stearate |
+| 0501050K0BBAAAA | Erythrocin IV lactobionate 1g inf vials | Erythromycin lactobionate |
+| 0501050N0BCAAAA | Erythrolar 250mg tablets | Erythromycin stearate |
+| 0501050N0BCABAB | Erythrolar 500mg tablets | Erythromycin stearate |
+
+Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

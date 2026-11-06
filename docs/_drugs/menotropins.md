@@ -5,7 +5,7 @@ layout: default
 title: Menotropins
 parent: Known Uses Only (No New Predictions)
 nav_order: 392
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Menotropins: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Menotropins"
 predicted_indications: []
@@ -43,18 +43,35 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0605010N0AAAEAE (BNF code) | Menotrophin injection 75 units, 1:1 vial + diluent | Injection (powder and solvent) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0605010N0AAAHAH | Menotrophin 1,200unit inj vials | Menotrophin |
+| 0605010N0AAAFAF | Menotrophin 150unit inj vials | Menotrophin |
+| 0605010N0AAAGAG | Menotrophin 600unit inj vials | Menotrophin |
+| 0605010N0AAAAAA | Menotrophin 75unit inj ampoules | Menotrophin |
+| 0605010N0AAAEAE | Menotrophin 75unit inj vials | Menotrophin |
+| 0605010N0AAAIAI | Menotrophin 900unit inj pre-filled syringes | Menotrophin |
+| 0605010N0BEAAAA | Menogon 75unit inj ampoules | Menotrophin |
+| 0605010N0BFACAH | Menopur 1,200unit inj vials | Menotrophin |
+| 0605010N0BFADAF | Menopur 150unit inj vials | Menotrophin |
+| 0605010N0BFABAG | Menopur 600unit inj vials | Menotrophin |
+| 0605010N0BFAAAE | Menopur 75unit inj vials | Menotrophin |
+| 0605010N0BHABAF | Meriofert 150unit inj vials | Menotrophin |
+| 0605010N0BHAAAE | Meriofert 75unit inj vials | Menotrophin |
+| 0605010N0BHACAI | Meriofert PFS 900unit inj pre-filled syringes | Menotrophin |
+| 0605010N0BGADAF | Merional 150unit inj vials | Menotrophin |
+| 0605010N0BGACAE | Merional 75unit inj vials | Menotrophin |
 
-The single listed entry is a single-ingredient product classed as valid. BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification. The record gives a BNF-style product code rather than a PL number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The single listed entry is a single-ingredient product classed as valid. BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification.
 
 ---
 

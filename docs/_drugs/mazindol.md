@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mazindol: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "Mazindol"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "pentosuria", "lethal polymalformative syndrome, Boissel type"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -86,9 +86,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0405020N0AAABAB (BNF-style product code; no PL number in the compiled data) | Mazindol Tab 1mg | Tablet | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0405020N0AAABAB | Mazindol 1mg tablets | Mazindol |
+| 0405020N0AAAAAA | Mazindol 2mg tablets | Mazindol |
+| 0405020N0BBABAB | Teronac 1mg tablets | Mazindol |
+| 0405020N0BBAAAA | Teronac 2mg tablets | Mazindol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

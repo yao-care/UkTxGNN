@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 348
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Kaolin: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Kaolin, so t
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,21 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Kaolin, so t
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0104010H0AAABAB | Kaolin_Mix |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190400000AALKLK | Kaolin light powder | Other single substance preparations |
+| 0104010H0BHAAAK | Entrocalm tablets | Kaolin light |
+| 0104010H0BEAAAL | Kao-C junior diarrhoea oral suspension | Kaolin light |
+| 0104020D0BBAAAB | Kaodene oral suspension | Codeine phosphate compound mixtures |
+| 0104010H0AAAKAK | Kaolin 400mg / Calcium carbonate 75mg tablets | Kaolin light |
+| 0104010H0AAALAL | Kaolin 500mg/5ml / Calcium carbonate 250mg/5ml susp SF | Kaolin light |
+| 0104020N0AAABAB | Kaolin and Morphine mixture | Opium and morphine |
+| 1302010H0AAAAAA | Kaolin heavy 20.76% / Zinc oxide 4.5% cream | Fuller's earth |
+| 0104020D0AAABAB | Kaolin light 1.5g/5ml / Codeine 5mg/5ml susp sugar free | Codeine phosphate compound mixtures |
+| 0104010H0AAABAB | Kaolin mixture | Kaolin light |
+| 0104010H0AAACAC | Kaolin mixture paediatric | Kaolin light |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

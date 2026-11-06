@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and only indirect lite
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9939 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,14 @@ No randomised controlled trials were identified. The publications below are revi
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501080J0AAABAB (BNF-style code; PL number not provided) | Sulfadiazine Tablets 500 mg | Tablet | Indication text not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501080J0AAAFAF | Sulfadiazine 150mg/5ml oral suspension | Sulfadiazine |
+| 0501080J0AAAHAH | Sulfadiazine 250mg/5ml oral suspension | Sulfadiazine |
+| 0501080J0AAABAB | Sulfadiazine 500mg tablets | Sulfadiazine |
+| 0501080J0AAAGAG | Sulfadiazine 500mg/5ml oral suspension | Sulfadiazine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

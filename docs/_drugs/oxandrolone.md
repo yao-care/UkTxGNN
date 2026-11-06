@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Oxandrolone: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Oxandrolone"
 predicted_indications: ["breast fibrocystic disease", "pituitary hormone defiency from vascular origin", "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome", "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 0.9923 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0604030P0AAABAB (BNF code) | Oxandrolone Tab 2.5mg | Tablet | Not stated in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604030P0AAABAB | Oxandrolone 2.5mg tablets | Oxandrolone |
+| 0604030P0BCAAAB | Oxandrin 2.5mg tablets | Oxandrolone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (0604030P0, within the section on anabolic steroids) is shown in place of a PL number, as no PL number was supplied. One valid single-ingredient product is listed.
 

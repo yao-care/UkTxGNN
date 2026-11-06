@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Rizatriptan"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ but there are **no registered clinical trials** and only **general migraine lite
 | Predicted New Indication | Atrophoderma vermiculata |
 | TxGNN Prediction Score | 0.9919 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -99,11 +99,20 @@ The hemiplegic migraine study (PMID 17718700) is the closest available data to a
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407041R0AAAAAA | Rizatriptan tablets 5 mg | Not specified | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041R0AAACAC | Rizatriptan 10mg oral lyophilisates sugar free | Rizatriptan |
+| 0407041R0AAADAD | Rizatriptan 10mg orodispersible tablets sugar free | Rizatriptan |
+| 0407041R0AAABAB | Rizatriptan 10mg tablets | Rizatriptan |
+| 0407041R0AAAEAE | Rizatriptan 5mg orodispersible tablets sugar free | Rizatriptan |
+| 0407041R0AAAAAA | Rizatriptan 5mg tablets | Rizatriptan |
+| 0407041R0BBABAB | Maxalt 10mg tablets | Rizatriptan |
+| 0407041R0BBAAAA | Maxalt 5mg tablets | Rizatriptan |
+| 0407041R0BBACAC | Maxalt Melt 10mg oral lyophilisates | Rizatriptan |
 
-The data compiled for this report contain one valid single-ingredient authorisation. The identifier shown is not in the standard MHRA "PL" format, and the dosage form and indication text are not recorded, so please verify against the MHRA database and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is not in the standard MHRA "PL" format, and the dosage form and indication text are not recorded, so please verify against the MHRA database and the BNF.
 
 ---
 

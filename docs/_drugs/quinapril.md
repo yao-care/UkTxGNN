@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Quinapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ but there are currently **no clinical trials** and **no publications** directly 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,7 +77,6 @@ There is also a notable safety concern. ACE inhibitors carry a known risk of acu
 
 ## Clinical Trial Evidence
 
-
 ## Literature Evidence
 
 No literature is available for the top-ranked prediction. The only publications identified relate to the third-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), and both are preclinical:
@@ -89,9 +88,24 @@ No literature is available for the top-ranked prediction. The only publications 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051Q0AAACAC | Quinapril HCl Tablets 20 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051Q0AAABAB | Quinapril 10mg tablets | Quinapril hydrochloride |
+| 0205051Q0AAACAC | Quinapril 20mg tablets | Quinapril hydrochloride |
+| 0205051Q0AAADAD | Quinapril 40mg tablets | Quinapril hydrochloride |
+| 0205051Q0AAAAAA | Quinapril 5mg tablets | Quinapril hydrochloride |
+| 0205051Q0BBABAB | Accupro 10mg tablets | Quinapril hydrochloride |
+| 0205051Q0BBACAC | Accupro 20mg tablets | Quinapril hydrochloride |
+| 0205051Q0BBADAD | Accupro 40mg tablets | Quinapril hydrochloride |
+| 0205051Q0BBAAAA | Accupro 5mg tablets | Quinapril hydrochloride |
+| 0205051P0BBAAAA | Accuretic 10mg/12.5mg tablets | Quinapril hydrochloride with diuretic |
+| 0205051P0AAAAAA | Quinapril 10mg / Hydrochlorothiazide 12.5mg tablets | Quinapril hydrochloride with diuretic |
+| 0205051Q0BCABAB | Quinil 10mg tablets | Quinapril hydrochloride |
+| 0205051Q0BCACAC | Quinil 20mg tablets | Quinapril hydrochloride |
+| 0205051Q0BCADAD | Quinil 40mg tablets | Quinapril hydrochloride |
+| 0205051Q0BCAAAA | Quinil 5mg tablets | Quinapril hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: this identifier is formatted like a BNF code rather than an MHRA PL number, so the MHRA licence details should be verified.
 

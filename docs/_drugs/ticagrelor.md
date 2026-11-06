@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome"
 ---
 
@@ -52,8 +52,8 @@ None of these studies has yet reported results showing that ticagrelor works in 
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 **Note on the evidence level.** The data compiled for this report scored this prediction as L1. That score does not hold up. The only Phase 3 trial directly studying intracranial atherosclerosis (CAPTIVA) is still ongoing and has no results. The other directly relevant trial is a small, non-phased pilot study. The directly relevant literature consists of a single-centre cohort study and a trial design paper. No completed Phase 3 RCT in this disease has been cited. A strict reading of the evidence rules therefore places this at **L5**, with the strongest signal being an ongoing Phase 3 trial. The larger body of RCT evidence for ticagrelor relates to coronary and other ischaemic disease, not to this prediction. I have also moved the recommendation from "Proceed with Guardrails" to "Hold" until results are available.
@@ -92,11 +92,18 @@ Related evidence in stroke more broadly (not specific to intracranial atheroscle
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0209000Z0AAAAAA | Ticagrelor tablet 90 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0209000Z0AAABAB | Ticagrelor 60mg tablets | Ticagrelor |
+| 0209000Z0AAACAC | Ticagrelor 90mg orodispersible tablets sugar free | Ticagrelor |
+| 0209000Z0AAAAAA | Ticagrelor 90mg tablets | Ticagrelor |
+| 0209000Z0BBABAB | Brilique 60mg tablets | Ticagrelor |
+| 0209000Z0BBACAC | Brilique 90mg orodispersible tablets | Ticagrelor |
+| 0209000Z0BBAAAA | Brilique 90mg tablets | Ticagrelor |
 
-Only one single-ingredient authorisation is listed in the compiled data, and it carries no indication text. Please check the current SmPC, the BNF (antiplatelet drugs, cardiovascular system chapter) and any NICE guidance for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current SmPC, the BNF (antiplatelet drugs, cardiovascular system chapter) and any NICE guidance for the licensed indications.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Golimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Golimumab is an anti-TNF-alpha monoclonal antibody, originally used for inflamma
 | Predicted New Indication | Hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (indirect and mechanistic evidence only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,21 @@ No trials were found on the ISRCTN or EU Clinical Trials Register for this indic
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001030X0AAABAB | Golimumab injection 50 mg/0.5 ml pre-filled syringe/disposable device | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030X0AAACAC | Golimumab 100mg/1ml inj pre-filled disposable devices | Golimumab |
+| 1001030X0AAABAB | Golimumab 50mg/0.5ml inj pre-filled disposable devices | Golimumab |
+| 1001030X0AAAAAA | Golimumab 50mg/0.5ml inj pre-filled syringes | Golimumab |
+| 1001030X0BCAAAC | Gobivaz 100mg/1ml solution for injection pre-filled pens | Golimumab |
+| 1001030X0BCACAA | Gobivaz 50mg/0.5ml inj pre-filled syringes | Golimumab |
+| 1001030X0BCABAB | Gobivaz 50mg/0.5ml solution for injection pre-filled pens | Golimumab |
+| 1001030X0BBACAC | Simponi 100mg/1ml solution for injection pre-filled pens | Golimumab |
+| 1001030X0BBAAAA | Simponi 50mg/0.5ml inj pre-filled syringes | Golimumab |
+| 1001030X0BBABAB | Simponi 50mg/0.5ml solution for injection pre-filled pens | Golimumab |
 
-This is the only authorisation in the data compiled for this report. The record gives no formal dosage form or indication text, so the licensed indications should be confirmed against the current SmPC and the relevant BNF entry. NICE appraisals for the original indications should also be checked.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+NICE appraisals for the original indications should also be checked.
 
 ---
 

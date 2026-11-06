@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 180
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clobetasol: predicted new indication Primary cutaneous T-cell lymphoma (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ with **no registered clinical trials** but **14 publications**, including severa
 | Predicted New Indication | Primary cutaneous T-cell lymphoma |
 | TxGNN Prediction Score | 0.9951 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (53 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 53 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -81,9 +81,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1304000G0AACBCB | Clobetasol/Neomycin/Nystatin Ointment | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1304000G0AAAAAA | Clobetasol 0.05% cream | Clobetasol propionate |
+| 1304000G0AADIDI | Clobetasol 0.05% cream 10% in Aqueous cream | Clobetasol propionate |
+| 1304000G0AACZCZ | Clobetasol 0.05% cream 10% in Generic Unguentum M cream | Clobetasol propionate |
+| 1304000G0AADGDG | Clobetasol 0.05% cream 25% in Cetomacrogol cream (Formula A) | Clobetasol propionate |
+| 1304000G0AACQCQ | Clobetasol 0.05% cream 25% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AACXCX | Clobetasol 0.05% cream 30% in Aqueous cream | Clobetasol propionate |
+| 1304000G0AADADA | Clobetasol 0.05% cream 50% in Generic Unguentum M cream | Clobetasol propionate |
+| 1304000G0AACRCR | Clobetasol 0.05% cream 50% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AADHDH | Clobetasol 0.05% oint 20% in Cetomacrogol crm (Formula A) | Clobetasol propionate |
+| 1304000G0AABABA | Clobetasol 0.05% ointment | Clobetasol propionate |
+| 1304000G0AACMCM | Clobetasol 0.05% ointment 10% in Generic Unguentum M cream | Clobetasol propionate |
+| 1304000G0AACJCJ | Clobetasol 0.05% ointment 10% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AACPCP | Clobetasol 0.05% ointment 20% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AADEDE | Clobetasol 0.05% ointment 25% in Generic Unguentum M cream | Clobetasol propionate |
+| 1304000G0AACKCK | Clobetasol 0.05% ointment 25% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AACSCS | Clobetasol 0.05% ointment 30% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AADJDJ | Clobetasol 0.05% ointment 50% in Emulsifying ointment | Clobetasol propionate |
+| 1304000G0AACGCG | Clobetasol 0.05% ointment 50% in White soft paraffin | Clobetasol propionate |
+| 1304000G0AABBBB | Clobetasol 0.05% scalp application | Clobetasol propionate |
+| 1304000G0AACCCC | Clobetasol 500micrograms/g foam | Clobetasol propionate |
+
+Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Dosage form and approved indication details were not available in the data compiled for this report. The authorisation number shown is not in standard MHRA PL format, so please verify it against the MHRA register.
 

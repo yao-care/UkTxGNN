@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **cauda equina syndrome**, but 
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9953 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 Two other predictions were also generated: obsolete neurogenic bladder (0.9913) and irritable bowel syndrome (0.9912). Neither has clinical trial or literature support.
@@ -75,9 +75,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1105000S0AAABAB | Tropicamide Eye Drops 1% | Eye drops | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1105000S0AAAAAA | Tropicamide 0.5% eye drops | Tropicamide |
+| 1105000S0AAACAC | Tropicamide 0.5% eye drops 0.5ml unit dose preservative free | Tropicamide |
+| 1105000S0AAABAB | Tropicamide 1% eye drops | Tropicamide |
+| 1105000S0AAADAD | Tropicamide 1% eye drops 0.5ml unit dose preservative free | Tropicamide |
+| 1105000S0BBAAAC | Minims tropicamide 0.5% eye drops 0.5ml unit dose | Tropicamide |
+| 1105000S0BBABAD | Minims tropicamide 1% eye drops 0.5ml unit dose | Tropicamide |
+| 1105000S0BCAAAA | Mydriacyl 0.5% eye drops | Tropicamide |
+| 1105000S0BCABAB | Mydriacyl 1% eye drops | Tropicamide |
+| 1105000T0BBAAAA | Mydriasert 5.4mg/0.28mg ophthalmic inserts | Phenylephrine hydrochloride and tropicamide |
+| 1105000T0AAAAAA | Phenylephrine 5.4mg/Tropicamide 0.28mg ophthalmic inserts | Phenylephrine hydrochloride and tropicamide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 115
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Buprenorphine: predicted new indication Acute intermittent porphyria (evidence level L4). Approved use: Opioid dependence"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 | Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (142 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 142 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407020B0AAABAB | Buprenorphine sublingual tablets 200 microgram (sugar-free) | Sublingual tablet | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0410030A0AAAUAU | Buprenorphine 128mg/0.36ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAAVAV | Buprenorphine 160mg/0.45ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAAPAP | Buprenorphine 16mg/0.32ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAAIAI | Buprenorphine 1mg sublingual tablets sugar free | Buprenorphine hydrochloride |
+| 0407020B0AAABAB | Buprenorphine 200microgram sublingual tablets sugar free | Buprenorphine |
+| 0410030A0AAAQAQ | Buprenorphine 24mg/0.48ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAALAL | Buprenorphine 2mg oral lyophilisates sugar free | Buprenorphine hydrochloride |
+| 0410030A0AAADAD | Buprenorphine 2mg sublingual tablets sugar free | Buprenorphine hydrochloride |
+| 0407020B0AAAAAA | Buprenorphine 300micrograms/1ml inj ampoules | Buprenorphine |
+| 0410030A0AAARAR | Buprenorphine 32mg/0.64ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0407020B0AAADAD | Buprenorphine 400microgram sublingual tablets sugar free | Buprenorphine |
+| 0410030A0AAAKAK | Buprenorphine 4mg sublingual tablets sugar free | Buprenorphine hydrochloride |
+| 0410030A0AAASAS | Buprenorphine 64mg/0.18ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAAJAJ | Buprenorphine 6mg sublingual tablets sugar free | Buprenorphine hydrochloride |
+| 0410030A0AAAWAW | Buprenorphine 74.2mg implant | Buprenorphine hydrochloride |
+| 0410030A0AAAMAM | Buprenorphine 8mg oral lyophilisates sugar free | Buprenorphine hydrochloride |
+| 0410030A0AAAEAE | Buprenorphine 8mg sublingual tablets sugar free | Buprenorphine hydrochloride |
+| 0410030A0AAANAN | Buprenorphine 8mg/0.16ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0410030A0AAATAT | Buprenorphine 96mg/0.27ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
+| 0407020B0BEABAI | BuTrans 10micrograms/hour transdermal patches | Buprenorphine |
+
+Showing 20 of 142 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the identifier shown is a product code in the compiled data, not a standard MHRA "PL" number. Please verify it against the MHRA register and the BNF.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report (piperacillin is a…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -52,8 +52,8 @@ There is no credible evidence that piperacillin treats rheumatoid arthritis, and
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -97,12 +97,18 @@ None of the publications tests piperacillin as a treatment for RA. The most rele
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501014S0BBABAB | Tazocin Inj 4.5g Vl | Injection (vial) | Not available in the data compiled for this report |
-| 0501014S0AAABAB | Piperacillin/Tazobactam Inj 4g/0.5g Vl | Injection (vial) | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501014S0AAAAAA | Piperacillin 2g / Tazobactam 250mg inf vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0AAABAB | Piperacillin 4g / Tazobactam 500mg inf vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0AAACAC | Piperacillin 4g / Tazobactam 500mg inj vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBAAAA | Tazocin 2g/0.25g powder for solution for infusion vials | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBACAC | Tazocin 4.5g inj intravenous infusion pack | Piperacillin sodium/tazobactam sodium |
+| 0501014S0BBABAB | Tazocin 4g/0.5g powder for solution for infusion vials | Piperacillin sodium/tazobactam sodium |
 
-Both authorisations are valid single-ingredient entries. The identifiers shown are BNF-style codes (BNF section 5.1.1.4, antipseudomonal penicillins), not PL numbers, so the licence details should be verified against the MHRA register and the SmPC.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifiers shown are BNF-style codes (BNF section 5.1.1.4, antipseudomonal penicillins), not PL numbers, so the licence details should be verified against the MHRA register and the SmPC.
 
 ---
 

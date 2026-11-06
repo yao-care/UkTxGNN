@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -39,7 +39,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 ## One-Sentence Summary
 
 Charcoal is a pharmaceutical-grade adsorbent agent used in emergency medicine for acute poisoning and drug overdose management.
-This Evidence Pack contains **no TxGNN-generated repurposing predictions** and is missing critical data fields including DrugBank linkage, mechanism of action, and UK marketing authorisation records.
+This Evidence Pack contains **no TxGNN-generated repurposing predictions** and is missing critical data fields including DrugBank linkage, mechanism of action.
 A full repurposing evaluation cannot be completed in the current state; this report documents what is available and outlines the steps required to proceed.
 
 ---
@@ -52,8 +52,8 @@ A full repurposing evaluation cannot be completed in the current state; this rep
 | Predicted New Indication | No predictions generated |
 | TxGNN Prediction Score | Not available |
 | Evidence Level | Below L5 — no predictions or supporting studies present |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available for this candidate's predicted indicat
 
 ## UK Market Information
 
-No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records.
+This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records.
 
 Manual verification against the MHRA product licence database using the INN "activated charcoal" and known brand name variants is strongly recommended before concluding that no UK authorisation exists.
 
@@ -105,7 +105,7 @@ The Evidence Pack is structurally incomplete — no TxGNN prediction output is p
 
 - **Resolve the DrugBank ID gap:** The DrugBank query returned a successful hit; retrieve and populate the DrugBank ID, MOA, drug categories, and toxicity data from that result
 - **Re-run the TxGNN prediction pipeline** using the confirmed DrugBank ID to generate repurposing candidates and prediction scores
-- **Verify UK marketing authorisations manually** via the [MHRA products database](https://products.mhra.gov.uk/) searching by "activated charcoal" and known brand names, to correct the apparent zero-licence result
+- **Verify UK marketing authorisations manually** via the [MHRA products database](https://products.mhra.gov.uk/) searching by "activated charcoal" and known brand names
 - **Retrieve SmPC safety data** including warnings, contraindications, and drug interactions from the MHRA-approved SmPC
 - **Re-run evidence collection** (ClinicalTrials.gov, PubMed, ICTRP) once a top-ranked predicted indication is available
 - **Re-issue this report** once a complete Evidence Pack (v5 or later) is available

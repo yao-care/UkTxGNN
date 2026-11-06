@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Palivizumab: predicted new indication Benign neoplasm of tongue (evidence level L5). Approved use: Respiratory syncytial virus infection (the approved indication text f…"
 monitor_inn: "Palivizumab"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
@@ -50,8 +50,8 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 | Predicted New Indication | Benign neoplasm of tongue |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503050A0AAAAAA | Palivizumab Inj 100mg Vl + Dil | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503050A0AAAAAA | Palivizumab 100mg inj vials | Palivizumab |
+| 0503050A0AAADAD | Palivizumab 100mg/1ml solution for injection vials | Palivizumab |
+| 0503050A0AAABAB | Palivizumab 50mg inj vials | Palivizumab |
+| 0503050A0AAACAC | Palivizumab 50mg/0.5ml solution for injection vials | Palivizumab |
+| 0503050A0BBAAAA | Synagis 100mg inj vials | Palivizumab |
+| 0503050A0BBADAD | Synagis 100mg/1ml solution for injection vials | Palivizumab |
+| 0503050A0BBABAB | Synagis 50mg inj vials | Palivizumab |
+| 0503050A0BBACAC | Synagis 50mg/0.5ml solution for injection vials | Palivizumab |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This entry appears to be a classification-style code rather than a standard MHRA PL number, so the MHRA authorisation details should be verified against the SmPC and the BNF.
 

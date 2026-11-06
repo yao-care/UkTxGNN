@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,28 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010E0AAAAAA (BNF-style product code, not a PL number) | Fexofenadine HCl tablets 120 mg | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010E0AAAAAA | Fexofenadine 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0AAADAD | Fexofenadine 120mg/5ml oral liquid | Fexofenadine hydrochloride |
+| 0304010E0AAAFAF | Fexofenadine 125mg/5ml oral suspension | Fexofenadine hydrochloride |
+| 0304010E0AAABAB | Fexofenadine 180mg tablets | Fexofenadine hydrochloride |
+| 0304010E0AAAEAE | Fexofenadine 180mg/5ml oral solution | Fexofenadine hydrochloride |
+| 0304010E0AAAHAH | Fexofenadine 180mg/5ml oral suspension | Fexofenadine hydrochloride |
+| 0304010E0AAACAC | Fexofenadine 30mg tablets | Fexofenadine hydrochloride |
+| 0304010E0AAAGAG | Fexofenadine 30mg/5ml oral suspension | Fexofenadine hydrochloride |
+| 0304010E0BCAAAA | Allevia 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BCABAB | Allevia Hives 180mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BFAAAB | Histahive 180mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BEAAAA | Histallay 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BGAAAA | Numark Hayfever Relief 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BHAAAA | Pirilieve Hayfever Relief 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BBAAAA | Telfast 120mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BBABAB | Telfast 180mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BBACAC | Telfast 30mg tablets | Fexofenadine hydrochloride |
+| 0304010E0BDAAAA | Treathay 120mg tablets | Fexofenadine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The record shows one valid single-ingredient product and no cancelled products. Fexofenadine falls under antihistamines in the BNF (chapter 3, respiratory system; the code prefix 0304 matches this). Please check the MHRA register and the SmPC for the licensed indications and the PL number.
 

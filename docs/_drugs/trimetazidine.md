@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 643
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Trimetazidine: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,14 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0206020B0AAAAAA | Trimetazidine HCl_Tab 20mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020B0AAAAAA | Trimetazidine 20mg tablets | Trimetazidine hydrochloride |
+| 0206020B0AAABAB | Trimetazidine 35mg modified-release tablets | Trimetazidine hydrochloride |
+| 0206020B0BBAAAA | Vastarel 20mg tablets | Trimetazidine hydrochloride |
+| 0206020B0BBABAB | Vastarel MR 35mg tablets | Trimetazidine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

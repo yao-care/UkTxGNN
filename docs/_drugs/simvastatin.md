@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ Familial hypercholesterolaemia overlaps with simvastatin's existing indications,
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (34 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 34 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -103,11 +103,32 @@ An important caveat: several Phase 3 trials test ezetimibe or alirocumab added t
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0212000Y0AAAAAA | Simvastatin Tab 10 mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000Y0AAAAAA | Simvastatin 10mg tablets | Simvastatin |
+| 0212000Y0AAAFAF | Simvastatin 10mg/5ml oral suspension | Simvastatin |
+| 0212000Y0AAABAB | Simvastatin 20mg tablets | Simvastatin |
+| 0212000Y0AAAGAG | Simvastatin 20mg/5ml oral liquid | Simvastatin |
+| 0212000Y0AAAKAK | Simvastatin 20mg/5ml oral suspension sugar free | Simvastatin |
+| 0212000Y0AAAPAP | Simvastatin 25mg/5ml oral liquid | Simvastatin |
+| 0212000Y0AAADAD | Simvastatin 40mg tablets | Simvastatin |
+| 0212000Y0AAAMAM | Simvastatin 40mg/5ml oral liquid | Simvastatin |
+| 0212000Y0AAALAL | Simvastatin 40mg/5ml oral suspension sugar free | Simvastatin |
+| 0212000Y0AAAHAH | Simvastatin 80mg tablets | Simvastatin |
+| 1305020Z0AAAAAA | Cholesterol 2% / Simvastatin 2% cream | Cholesterol/simvastatin |
+| 0212000AJBBAAAA | Cholib 145mg/20mg tablets | Fenofibrate/simvastatin |
+| 0212000AJBBABAB | Cholib 145mg/40mg tablets | Fenofibrate/simvastatin |
+| 0212000AJAAAAAA | Fenofibrate 145mg / Simvastatin 20mg tablets | Fenofibrate/simvastatin |
+| 0212000AJAAABAB | Fenofibrate 145mg / Simvastatin 40mg tablets | Fenofibrate/simvastatin |
+| 0212000ACBBAAAA | Inegy 10mg/20mg tablets | Simvastatin and ezetimibe |
+| 0212000ACBBABAB | Inegy 10mg/40mg tablets | Simvastatin and ezetimibe |
+| 0212000ACBBACAC | Inegy 10mg/80mg tablets | Simvastatin and ezetimibe |
+| 0212000Y0BFAAAA | Lloydspharmacy Cholesterol Lowering 10mg tablets | Simvastatin |
+| 0212000Y0BEAAAA | Ranzolont 10mg tablets | Simvastatin |
 
-Only one single-ingredient authorisation is recorded in the data compiled for this report. The dosage form and indication text are missing, and the identifier is not in the usual MHRA PL format, so it should be checked against the MHRA register. Please also consult the BNF (lipid-regulating drugs) and relevant NICE guidance for current UK use in familial hypercholesterolaemia.
+Showing 20 of 34 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and indication text are missing, and the identifier is not in the usual MHRA PL format, so it should be checked against the MHRA register. Please also consult the BNF (lipid-regulating drugs) and relevant NICE guidance for current UK use in familial hypercholesterolaemia.
 
 ---
 

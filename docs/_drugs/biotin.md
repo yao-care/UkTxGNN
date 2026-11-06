@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **dyspepsia**, but there are curre
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,11 +80,29 @@ None of these publications provides direct evidence that biotin is effective for
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 090602800AAAGAG | Biotin Tab 5mg | Tablet (not stated in the record) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 090602800AACPCP | Biotin 10mg tablets | Other vitamin B preparations |
+| 090602800AACFCF | Biotin 10mg/5ml oral liquid | Other vitamin B preparations |
+| 090602800AACJCJ | Biotin 20mg/5ml oral liquid | Other vitamin B preparations |
+| 090602800AAAAAA | Biotin 25mg/5ml oral liquid | Other vitamin B preparations |
+| 090602800AACMCM | Biotin 50mg/5ml oral liquid | Other vitamin B preparations |
+| 090602800AAAGAG | Biotin 5mg tablets | Other vitamin B preparations |
+| 090602800AACUCU | Biotin 5mg/5ml oral liquid | Other vitamin B preparations |
+| 090602800AADBDB | Biotin 900microgram capsules | Other vitamin B preparations |
+| 090602800BBKACP | AactiBio 10mg tablets | Other vitamin B preparations |
+| 090602800BBJZAG | AactiBio 5mg tablets | Other vitamin B preparations |
+| 090602800BBKECP | Abiovex 10K 10mg tablets | Other vitamin B preparations |
+| 090602800BBKDAG | Abotin 5mg tablets | Other vitamin B preparations |
+| 090602800BBJRAG | BioVit7 5mg tablets | Other vitamin B preparations |
+| 090602800BBJQAG | BiotEss 5mg tablets | Other vitamin B preparations |
+| 090602800BBJFAG | Biotin-ratiopharm 5 tablets | Other vitamin B preparations |
+| 090602800BBJMCP | Biotisan Biotin S 10mg FORTE tablets | Other vitamin B preparations |
+| 090602800BBJHAG | OroB7 5mg tablets | Other vitamin B preparations |
 
-The data compiled for this report list one valid single-ingredient authorisation. The listed number is not in the standard UK "PL" format, so the authorisation details should be verified against the MHRA register. NICE appraisal and BNF classification details were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The listed number is not in the standard UK "PL" format, so the authorisation details should be verified against the MHRA register. NICE appraisal and BNF classification details were not available.
 
 ## Safety Considerations
 

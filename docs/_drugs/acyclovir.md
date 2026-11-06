@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ No clinical trials are registered for this disease, and the two retrieved public
 | Predicted New Indication | punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (5 of 5) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 5 (valid: 5) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (45 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 45 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,13 +73,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503021C0AAAAAA | Aciclovir Oral Suspension 200mg/5ml S/F | Oral suspension | Not recorded in the local data |
-| 1310030C0BDAAAA | Soothelip Cold Sore Cream 5% | Cream | Not recorded in the local data |
-| 1310030C0BBABAA | Zovirax Cold Sore Cream 5% | Cream | Not recorded in the local data |
-| 1310030C0BFAAAA | Virasorb Cold Sore Cream 5% | Cream | Not recorded in the local data |
-| 1310030C0BNAAAA | Cymex Ultra Cream 5% | Cream | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503021C0AAAKAK | Aciclovir 1g/40ml solution for infusion vials | Aciclovir |
+| 0503021C0AAAGAG | Aciclovir 200mg dispersible tablets | Aciclovir |
+| 0503021C0AAABAB | Aciclovir 200mg tablets | Aciclovir |
+| 0503021C0AAAAAA | Aciclovir 200mg/5ml oral suspension sugar free | Aciclovir |
+| 0503021B0AAAAAA | Aciclovir 250mg powder for solution for infusion vials | Aciclovir sodium |
+| 0503021C0AAAIAI | Aciclovir 250mg/10ml solution for infusion vials | Aciclovir |
+| 1103030C0AAAAAA | Aciclovir 30mg/g eye ointment | Aciclovir |
+| 0503021C0AAAHAH | Aciclovir 400mg dispersible tablets | Aciclovir |
+| 0503021C0AAACAC | Aciclovir 400mg tablets | Aciclovir |
+| 0503021C0AAAFAF | Aciclovir 400mg/5ml oral suspension sugar free | Aciclovir |
+| 1310030C0AAAAAA | Aciclovir 5% cream | Aciclovir |
+| 0503021B0AAABAB | Aciclovir 500mg powder for solution for infusion vials | Aciclovir sodium |
+| 0503021C0AAAJAJ | Aciclovir 500mg/20ml solution for infusion vials | Aciclovir |
+| 0503021C0AAAEAE | Aciclovir 800mg dispersible tablets | Aciclovir |
+| 0503021C0AAADAD | Aciclovir 800mg tablets | Aciclovir |
+| 1310030C0BIAAAA | Aviral 5% cream | Aciclovir |
+| 1310030C0BHAAAA | Clearsore 5% cream | Aciclovir |
+| 1310030C0BNAAAA | Cymex Ultra 5% cream | Aciclovir |
+| 0503021C0BDAAAE | Duvimex 800mg dispersible tablets | Aciclovir |
+| 1310030C0BJAAAA | Galpharm Cold Sore 5% cream | Aciclovir |
+
+Showing 20 of 45 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

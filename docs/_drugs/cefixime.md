@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 141
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cefixime: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 10 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ## Known uses recorded for this drug
 
@@ -81,9 +81,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0501021C0AAAAAA | Cefixime_Tab 200mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501021C0AAABAB | Cefixime 100mg/5ml oral suspension | Cefixime |
+| 0501021C0AAADAD | Cefixime 200mg capsules | Cefixime |
+| 0501021C0AAAAAA | Cefixime 200mg tablets | Cefixime |
+| 0501021C0AAACAC | Cefixime 400mg tablets | Cefixime |
+| 0501021C0BBAAAA | Suprax 200mg tablets | Cefixime |
+| 0501021C0BBABAB | Suprax Paediatric 100mg/5ml oral suspension | Cefixime |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Perphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "atypical glycine encephalopathy"]
@@ -51,8 +51,8 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ---
@@ -64,7 +64,6 @@ Detailed mechanism of action data is not available. Based on known information, 
 For the top prediction, **the rationale is weak**. The only literature record (PMID 14129300, 1964) describes pigmentary retinopathy caused by **thioridazine**, a different phenothiazine. This is a retinal toxicity signal for the drug class, not evidence of benefit. No plausible therapeutic mechanism for perphenazine in inherited retinal dystrophy has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The other top-ranked predictions are similarly unsupported: syndromic myopia, perisylvian polymicrogyria with cerebellar hypoplasia and arthrogryposis, hydranencephaly, Charcot-Marie-Tooth disease type 1G, X-linked myopia, a congenital disorder of glycosylation, and atypical glycine encephalopathy. They are mostly congenital structural, genetic or metabolic conditions, and none has trials or literature. The speculation that dopaminergic signalling is involved in myopia is not backed by direct evidence.
-
 
 ---
 
@@ -107,11 +106,22 @@ Most of this evidence is old, uses the perphenazine-amitriptyline combination, a
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010Q0AAACAC (BNF-style code, not a PL number) | Perphenazine tablets 2 mg | Tablet | Indication text not available in the compiled record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010Q0AAACAC | Perphenazine 2mg tablets | Perphenazine |
+| 0402010Q0AAAKAK | Perphenazine 2mg/5ml oral suspension | Perphenazine |
+| 0402010Q0AAADAD | Perphenazine 4mg tablets | Perphenazine |
+| 0402010Q0AAALAL | Perphenazine 4mg/5ml oral suspension | Perphenazine |
+| 0403010B0AAA9A9 | Amitriptyline 10mg / Perphenazine 2mg tablets | Amitriptyline hydrochloride |
+| 0403010B0AAA8A8 | Amitriptyline 25mg / Perphenazine 2mg tablets | Amitriptyline hydrochloride |
+| 0402010Q0BBAAAC | Fentazin 2mg tablets | Perphenazine |
+| 0402010Q0BBABAD | Fentazin 4mg tablets | Perphenazine |
+| 0403010B0BIAAA8 | Triptafen tablets | Amitriptyline hydrochloride |
+| 0403010B0BIABA9 | Triptafen-M tablets | Amitriptyline hydrochloride |
 
-One valid single-ingredient authorisation is recorded. The BNF section code (0402010) corresponds to antipsychotic drugs.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF section code (0402010) corresponds to antipsychotic drugs.
 
 ---
 

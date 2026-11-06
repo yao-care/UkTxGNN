@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **4 clinical trials** (including 3 Phase 3 trials) and **18 publications** 
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 (as assigned in the compiled data; see the caveats below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -95,11 +95,31 @@ Two caveats apply. First, the mechanistic link is plausible but not proven in hu
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010AHAAAAAA (BNF-style code; not a PL number) | Lacosamide tablets 50 mg | Tablet (form not specified in the data) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010AHAAABAB | Lacosamide 100mg tablets | Lacosamide |
+| 0408010AHAAAGAG | Lacosamide 10mg/ml oral solution sugar free | Lacosamide |
+| 0408010AHAAACAC | Lacosamide 150mg tablets | Lacosamide |
+| 0408010AHAAAFAF | Lacosamide 15mg/ml oral solution sugar free | Lacosamide |
+| 0408010AHAAADAD | Lacosamide 200mg tablets | Lacosamide |
+| 0408010AHAAAEAE | Lacosamide 200mg/20ml solution for infusion vials | Lacosamide |
+| 0408010AHAAAAAA | Lacosamide 50mg tablets | Lacosamide |
+| 0408010AHBCABAB | Eplaid 100mg tablets | Lacosamide |
+| 0408010AHBCACAC | Eplaid 150mg tablets | Lacosamide |
+| 0408010AHBCADAD | Eplaid 200mg tablets | Lacosamide |
+| 0408010AHBCAAAA | Eplaid 50mg tablets | Lacosamide |
+| 0408010AHBBABAB | Vimpat 100mg tablets | Lacosamide |
+| 0408010AHBBAGAG | Vimpat 10mg/ml syrup (Imported) | Lacosamide |
+| 0408010AHBBAHAG | Vimpat 10mg/ml syrup (USB Pharma) | Lacosamide |
+| 0408010AHBBACAC | Vimpat 150mg tablets | Lacosamide |
+| 0408010AHBBAFAF | Vimpat 15mg/ml syrup | Lacosamide |
+| 0408010AHBBADAD | Vimpat 200mg tablets | Lacosamide |
+| 0408010AHBBAEAE | Vimpat 200mg/20ml solution for infusion vials | Lacosamide |
+| 0408010AHBBAAAA | Vimpat 50mg tablets | Lacosamide |
 
-One single-ingredient authorisation is recorded as valid. No approved indication text was available, so UK-specific indications should be confirmed in the SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No approved indication text was available, so UK-specific indications should be confirmed in the SmPC and BNF.
 
 ---
 

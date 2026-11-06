@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Capreomycin is an injectable antibiotic used against mycobacterial infection. Th
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,8 +79,6 @@ Currently no related literature available.
 ---
 
 ## UK Market Information
-
-The data compiled for this report records one valid single-ingredient licence for an injectable capreomycin product (1 g vial). The licence record carries no dosage form, manufacturer or approved indication text, and its number is not in the usual MHRA PL format, so UK authorisation details should be confirmed against the MHRA register and the BNF.
 
 ---
 

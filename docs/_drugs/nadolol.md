@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nadolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,11 +96,30 @@ The remaining records (PMIDs 8935706, 1913717, 31527180, 1670627, 11076740, 1068
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000M0AAABAB | Nadolol Tab 80mg | Tablet (not specified in the data) | Not specified in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000M0AAALAL | Nadolol 100mg/5ml oral suspension | Nadolol |
+| 0204000M0AAADAD | Nadolol 10mg/5ml oral liquid | Nadolol |
+| 0204000M0AAAGAG | Nadolol 20mg/5ml oral solution | Nadolol |
+| 0204000M0AAAHAH | Nadolol 20mg/5ml oral suspension | Nadolol |
+| 0204000M0AAAKAK | Nadolol 25mg/5ml oral solution | Nadolol |
+| 0204000M0AAAFAF | Nadolol 30mg/5ml oral solution | Nadolol |
+| 0204000M0AAAIAI | Nadolol 30mg/5ml oral suspension | Nadolol |
+| 0204000M0AAAAAA | Nadolol 40mg tablets | Nadolol |
+| 0204000M0AAACAC | Nadolol 40mg/5ml oral solution | Nadolol |
+| 0204000M0AAAJAJ | Nadolol 40mg/5ml oral suspension | Nadolol |
+| 0204000M0AAABAB | Nadolol 80mg tablets | Nadolol |
+| 0204000M0AAAEAE | Nadolol 80mg/5ml oral liquid | Nadolol |
+| 0204000M0BBAAAA | Corgard 40mg tablets | Nadolol |
+| 0204000M0BBABAB | Corgard 80mg tablets | Nadolol |
+| 0204000X0BBAAAA | Corgaretic 40mg tablets | Nadolol with diuretic |
+| 0204000X0BBABAB | Corgaretic 80mg tablets | Nadolol with diuretic |
+| 0204000X0AAAAAA | Nadolol 40mg / Bendroflumethiazide 5mg tablets | Nadolol with diuretic |
+| 0204000X0AAABAB | Nadolol 80mg / Bendroflumethiazide 5mg tablets | Nadolol with diuretic |
 
-The data compiled for this report list one valid single-ingredient authorisation. The identifier shown is not in the usual MHRA PL format, so the authorisation details should be verified against the MHRA register and the BNF (beta-blocker section).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is not in the usual MHRA PL format, so the authorisation details should be verified against the MHRA register and the BNF (beta-blocker section).
 
 ---
 

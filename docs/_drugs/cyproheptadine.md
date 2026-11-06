@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Cyproheptadine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cyproheptadine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **n
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9921 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010K0AAABAB | Cyproheptadine HCl Tab 4mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010K0AAADAD | Cyproheptadine 2mg/5ml oral liquid | Cyproheptadine hydrochloride |
+| 0304010K0AAABAB | Cyproheptadine 4mg tablets | Cyproheptadine hydrochloride |
+| 0304010K0AAAFAF | Cyproheptadine 4mg/5ml oral liquid | Cyproheptadine hydrochloride |
+| 0304010K0BBAAAB | Periactin 4mg tablets | Cyproheptadine hydrochloride |
 
-The data compiled for this report show one valid single-ingredient licence record. The authorisation number is not in the MHRA "PL" format, so the record should be verified against MHRA sources.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number is not in the MHRA "PL" format, so the record should be verified against MHRA sources.
 
 ---
 

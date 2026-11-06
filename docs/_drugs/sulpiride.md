@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Sulpiride: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Schizophrenia"
 monitor_inn: "Sulpiride"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
@@ -50,8 +50,8 @@ but the only supporting evidence is **2 preclinical publications** in rat models
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,28 @@ Both publications are animal studies. No human studies were identified.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010U0AAAHAH | Sulpiride Tablets 200mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010U0AAAPAP | Sulpiride 100mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAZAZ | Sulpiride 10mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAUAU | Sulpiride 150mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAHAH | Sulpiride 200mg tablets | Sulpiride |
+| 0402010U0AAANAN | Sulpiride 200mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAEAE | Sulpiride 200mg/5ml oral solution sugar free | Sulpiride |
+| 0402010U0AAAVAV | Sulpiride 250mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAATAT | Sulpiride 25mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAARAR | Sulpiride 300mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAQAQ | Sulpiride 400mg tablets | Sulpiride |
+| 0402010U0AAASAS | Sulpiride 400mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAYAY | Sulpiride 500mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAMAM | Sulpiride 50mg/5ml oral liquid | Sulpiride |
+| 0402010U0AAAWAW | Sulpiride 70mg/5ml oral liquid | Sulpiride |
+| 0402010U0BBAAAH | Dolmatil 200mg tablets | Sulpiride |
+| 0402010U0BBABAQ | Dolmatil 400mg tablets | Sulpiride |
+| 0402010U0BCAAAH | Sulpitil 200mg tablets | Sulpiride |
+| 0402010U0BFAAAE | Sulpor 200mg/5ml oral solution | Sulpiride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather than a standard MHRA product licence (PL) number, so the licence details should be checked against the MHRA register. The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs.
 

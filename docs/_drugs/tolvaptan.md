@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tolvaptan"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ with **no registered clinical trials** but **20 publications** (including two pi
 | Predicted New Indication | Renal-hepatic-pancreatic dysplasia |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,24 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0605020Y0AAAAAA | Tolvaptan tablets 15 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0605020Y0AAAAAA | Tolvaptan 15mg tablets | Tolvaptan |
+| 0605020Y0AAABAB | Tolvaptan 30mg tablets | Tolvaptan |
+| 0605020Y0AAACAC | Tolvaptan 45mg tablets and Tolvaptan 15mg tablets | Tolvaptan |
+| 0605020Y0AAADAD | Tolvaptan 60mg tablets and Tolvaptan 30mg tablets | Tolvaptan |
+| 0605020Y0AAAFAF | Tolvaptan 7.5mg tablets | Tolvaptan |
+| 0605020Y0AAAEAE | Tolvaptan 90mg tablets and Tolvaptan 30mg tablets | Tolvaptan |
+| 0605020Y0BCAAAA | Jinarc 15mg tablets | Tolvaptan |
+| 0605020Y0BCABAB | Jinarc 30mg tablets | Tolvaptan |
+| 0605020Y0BCACAC | Jinarc 45mg tablets and Jinarc 15mg tablets | Tolvaptan |
+| 0605020Y0BCADAD | Jinarc 60mg tablets and Jinarc 30mg tablets | Tolvaptan |
+| 0605020Y0BCAEAE | Jinarc 90mg tablets and Jinarc 30mg tablets | Tolvaptan |
+| 0605020Y0BBAAAA | Samsca 15mg tablets | Tolvaptan |
+| 0605020Y0BBABAB | Samsca 30mg tablets | Tolvaptan |
+| 0605020Y0BBACAF | Samsca 7.5mg tablets | Tolvaptan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a classification-style code rather than a standard PL number. Dosage form, manufacturer and approved indication text were not available for this entry.
 

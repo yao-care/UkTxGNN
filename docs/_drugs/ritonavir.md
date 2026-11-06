@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 546
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are **no registered clinical trials** and the **10 publications** iden
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -85,11 +85,32 @@ Several of these studies concern antiretroviral regimens generally rather than r
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010U0AAACAC (BNF-style product code, not a PL number) | Ritonavir tablets 100 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010U0AAAAAA | Ritonavir 100mg capsules | Ritonavir |
+| 0503010U0AAADAD | Ritonavir 100mg oral powder sachets sugar free | Ritonavir |
+| 0503010U0AAACAC | Ritonavir 100mg tablets | Ritonavir |
+| 0503010U0AAABAB | Ritonavir 80mg/1ml oral solution sugar free | Ritonavir |
+| 0503032G0AAAAAA | Generic Viekirax 12.5mg/75mg/50mg tablets | Paritaprevir/ritonavir/ombitasvir |
+| 0503010G0BBADAD | Kaletra 100mg/25mg tablets | Lopinavir and ritonavir |
+| 0503010G0BBAAAA | Kaletra 133.3mg/33.3mg capsules | Lopinavir and ritonavir |
+| 0503010G0BBACAC | Kaletra 200mg/50mg tablets | Lopinavir and ritonavir |
+| 0503010G0BBABAB | Kaletra 80mg/20mg/1ml oral solution | Lopinavir and ritonavir |
+| 0503010G0AAADAD | Lopinavir 100mg / Ritonavir 25mg tablets | Lopinavir and ritonavir |
+| 0503010G0AAAAAA | Lopinavir 133.3mg / Ritonavir 33.3mg capsules | Lopinavir and ritonavir |
+| 0503010G0AAACAC | Lopinavir 200mg / Ritonavir 50mg tablets | Lopinavir and ritonavir |
+| 0503010G0AAABAB | Lopinavir 400mg/5ml / Ritonavir 100mg/5ml oral solution | Lopinavir and ritonavir |
+| 0503060B0AAAAAA | Nirmatrelvir 150mg tablets and Ritonavir 100mg tablets | Nirmatrelvir with Ritonavir |
+| 0503010U0BBACAA | Norvir 100mg capsules | Ritonavir |
+| 0503010U0BBAEAD | Norvir 100mg oral powder sachets | Ritonavir |
+| 0503010U0BBADAC | Norvir 100mg tablets | Ritonavir |
+| 0503010U0BBABAB | Norvir 80mg/ml oral solution | Ritonavir |
+| 0503060B0BBAAAA | Paxlovid 150mg/100mg tablets | Nirmatrelvir with Ritonavir |
+| 0503032G0BBAAAA | Viekirax 12.5mg/75mg/50mg tablets | Paritaprevir/ritonavir/ombitasvir |
 
-One single-ingredient authorisation is recorded as valid. Within the BNF, ritonavir sits in the HIV protease inhibitor group (chapter 5, infections).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Within the BNF, ritonavir sits in the HIV protease inhibitor group (chapter 5, infections).
 
 ## Safety Considerations
 

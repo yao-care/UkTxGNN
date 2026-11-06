@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ and the evidence pack contains **no clinical trials** or **publications** to sup
 | Predicted New Indication | None — no predictions generated |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5 (No predictions or supporting studies) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | **Hold** |
 
 ---
@@ -64,7 +64,7 @@ Currently, the TxGNN model has not generated any repurposing predictions for chl
 
 From general pharmacological knowledge, chlorpropamide is a first-generation sulfonylurea that stimulates insulin secretion from pancreatic beta cells by blocking ATP-sensitive potassium channels. However, detailed mechanism of action data was not available in this evidence pack (marked as a data gap). The drug has largely fallen out of clinical use globally due to its exceptionally long half-life (approximately 36 hours), which confers an elevated risk of prolonged and severe hypoglycaemia compared to newer sulfonylureas.
 
-As there is no predicted indication to assess, and the drug currently holds no marketing authorisation in the United Kingdom, there is insufficient basis to pursue repurposing at this stage.
+As there is no predicted indication to assess, there is insufficient basis to pursue repurposing at this stage.
 
 ---
 
@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Chlorpropamide holds no current marketing authorisations in the United Kingdom. The drug has been discontinued from the UK market. No MHRA-authorised products are listed.
+The drug has been discontinued from the UK market. No MHRA-authorised products are listed.
 
 ---
 

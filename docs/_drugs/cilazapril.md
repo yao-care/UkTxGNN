@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cilazapril"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cilazapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ Cilazapril is an angiotensin-converting enzyme (ACE) inhibitor. The TxGNN model 
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205051E0AAACAC | Cilazapril Tab 1mg | Tablet (as named in the product record) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205051E0AAACAC | Cilazapril 1mg tablets | Cilazapril |
+| 0205051E0AAADAD | Cilazapril 2.5mg tablets | Cilazapril |
+| 0205051E0AAABAB | Cilazapril 500microgram tablets | Cilazapril |
+| 0205051E0AAAEAE | Cilazapril 5mg tablets | Cilazapril |
+| 0205051E0BBACAC | Vascace 1mg tablets | Cilazapril |
+| 0205051E0BBADAD | Vascace 2.5mg tablets | Cilazapril |
+| 0205051E0BBABAB | Vascace 500microgram tablets | Cilazapril |
+| 0205051E0BBAEAE | Vascace 5mg tablets | Cilazapril |
 
-At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK. The identifier above is a record code and not in the usual MHRA "PL" format.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier above is a record code and not in the usual MHRA "PL" format.
 
 ---
 

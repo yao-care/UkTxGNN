@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 76
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "Atazanavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,22 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010L0AAADAD | Atazanavir capsule 300 mg | Capsule (not specified in the record) | Not specified in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010L0AAACAC | Atazanavir 100mg capsules | Atazanavir |
+| 0503010L0AAAAAA | Atazanavir 150mg capsules | Atazanavir |
+| 0503010L0AAABAB | Atazanavir 200mg capsules | Atazanavir |
+| 0503010L0AAADAD | Atazanavir 300mg capsules | Atazanavir |
+| 0503010ALAAAAAA | Atazanavir 300mg / Cobicistat 150mg tablets | Atazanavir and cobicistat |
+| 0503010ALBBAAAA | Evotaz 300mg/150mg tablets | Atazanavir and cobicistat |
+| 0503010L0BBACAC | Reyataz 100mg capsules | Atazanavir |
+| 0503010L0BBAAAA | Reyataz 150mg capsules | Atazanavir |
+| 0503010L0BBABAB | Reyataz 200mg capsules | Atazanavir |
+| 0503010L0BBADAD | Reyataz 300mg capsules | Atazanavir |
 
-Only one valid single-ingredient authorisation record is held. The identifier shown is in a format that does not look like a standard MHRA "PL" number, so please verify it against the MHRA register and the BNF before relying on it.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown is in a format that does not look like a standard MHRA "PL" number, so please verify it against the MHRA register and the BNF before relying on it.
 
 ---
 

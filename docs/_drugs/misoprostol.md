@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Misoprostol: predicted new indication amenorrhea (disease) (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Misoprostol"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -52,8 +52,8 @@ This prediction rests essentially on model output and is not supported by direct
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9964 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
 
 ---
@@ -94,9 +94,28 @@ None of these publications evaluates misoprostol as a treatment for amenorrhoea.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103040M0AAAAAA | Misoprostol Tab 200mcg | Tablet (not stated in the data) | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103040M0AAAAAA | Misoprostol 200microgram tablets | Misoprostol |
+| 0701010X0AAAAAA | Misoprostol 400microgram tablets | Misoprostol (Gynaecology) |
+| 1001010C0BLAAAM | Arthrotec 50 gastro-resistant tablets | Diclofenac sodium |
+| 1001010C0BLABAX | Arthrotec 75 gastro-resistant tablets | Diclofenac sodium |
+| 0103040M0BBAAAA | Cytotec 200microgram tablets | Misoprostol |
+| 1001010C0AAAMAM | Diclofenac sodium 50mg gast res / Misoprostol 200microg tab | Diclofenac sodium |
+| 1001010C0AAAXAX | Diclofenac sodium 75mg gast res / Misoprostol 200microg tab | Diclofenac sodium |
+| 1001010C0CPAAAM | Masidemen 50mg/200microgram gastro-resistant tablets | Diclofenac sodium |
+| 1001010C0CPABAX | Masidemen 75mg/200microgram gastro-resistant tablets | Diclofenac sodium |
+| 0701021A0BBAAAA | Medabon Combipack tablets | Mifepristone/misoprostol |
+| 0701021A0AAAAAA | Mifepristone 200mg tab and Misoprostol 200microg vaginal tab | Mifepristone/misoprostol |
+| 1001010C0CNAAAM | Misofen 50mg/200microgram gastro-resistant tablets | Diclofenac sodium |
+| 1001010C0CNABAX | Misofen 75mg/200microgram gastro-resistant tablets | Diclofenac sodium |
+| 0701010X0AAABAB | Misoprostol 7micrograms/hour vaginal delivery system | Misoprostol (Gynaecology) |
+| 0701010X0BCAAAB | Mysodelle 200micrograms vaginal delivery system | Misoprostol (Gynaecology) |
+| 1001010P0BKAAAL | Napratec OP tablets | Naproxen |
+| 1001010P0AAALAL | Naproxen 500mg tablets and Misoprostol 200microgram tablets | Naproxen |
+| 0701010X0BBAAAA | Topogyne 400microgram tablets | Misoprostol (Gynaecology) |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is as recorded in the compiled data and is not in the usual MHRA PL number format. Manufacturer and approved indication text were not available. Please verify against the current SmPC and BNF.
 

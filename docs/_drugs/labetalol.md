@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Labetalol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9908 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ---
@@ -91,11 +91,31 @@ The only publication retrieved for a closely related predicted indication (malig
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0204000I0AAABAB (as recorded; not in standard PL format) | Labetalol HCl Tablets 50 mg | Tablet (as the product name indicates) | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0204000I0AAANAN | Labetalol 1.5mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAACAC | Labetalol 100mg tablets | Labetalol hydrochloride |
+| 0204000I0AAAAAA | Labetalol 100mg/20ml solution for injection ampoules | Labetalol hydrochloride |
+| 0204000I0AAALAL | Labetalol 100mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAAMAM | Labetalol 10mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAADAD | Labetalol 200mg tablets | Labetalol hydrochloride |
+| 0204000I0AAAJAJ | Labetalol 200mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAAKAK | Labetalol 25mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAAEAE | Labetalol 400mg tablets | Labetalol hydrochloride |
+| 0204000I0AAABAB | Labetalol 50mg tablets | Labetalol hydrochloride |
+| 0204000I0AAAPAP | Labetalol 50mg/10ml inj pre-filled syringes | Labetalol hydrochloride |
+| 0204000I0AAAIAI | Labetalol 50mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAARAR | Labetalol 5mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0AAAQAQ | Labetalol 75mg/5ml oral liquid | Labetalol hydrochloride |
+| 0204000I0BCABAC | Trandate 100mg tablets | Labetalol hydrochloride |
+| 0204000I0BCAEAA | Trandate 100mg/20ml solution for injection ampoules | Labetalol hydrochloride |
+| 0204000I0BCACAD | Trandate 200mg tablets | Labetalol hydrochloride |
+| 0204000I0BCADAE | Trandate 400mg tablets | Labetalol hydrochloride |
+| 0204000I0BCAAAB | Trandate 50mg tablets | Labetalol hydrochloride |
 
-One valid single-ingredient authorisation is recorded, with no cancelled authorisations. The licence identifier is not in the standard MHRA "PL" format, so the number, form and indication should be verified against the MHRA records and the BNF before any decision relies on them.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The licence identifier is not in the standard MHRA "PL" format, so the number, form and indication should be verified against the MHRA records and the BNF before any decision relies on them.
 
 ---
 

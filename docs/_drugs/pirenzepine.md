@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pirenzepine: predicted new indication Gastroduodenitis (evidence level L3). Approved use: Peptic ulcer disease"
 monitor_inn: "Pirenzepine"
 predicted_indications: ["gastroduodenitis", "irritable bowel syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, with **no
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,9 +84,13 @@ The table lists the most relevant publications, prioritising controlled trials o
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0103020P0AAAAAA | Pirenzepine Tablets 50 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0103020P0AAACAC | Pirenzepine 100mg tablets | Pirenzepine |
+| 0103020P0AAABAB | Pirenzepine 25mg tablets | Pirenzepine |
+| 0103020P0AAAAAA | Pirenzepine 50mg tablets | Pirenzepine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed code appears to be a BNF-style product code (BNF section 1.3, antisecretory drugs and mucosal protectants) rather than a standard MHRA PL number. Dosage form and approved indication text were not recorded, so the licence details should be checked against the MHRA product information.
 

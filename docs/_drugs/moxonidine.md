@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Moxonidine"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "primary hereditary glaucoma"]
 description: "Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no relevant publications** currently support this d
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,11 +78,21 @@ For the related prediction "alopecia", one publication was retrieved: [40007390]
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0205020M0AAAAAA | Moxonidine tablets 200 microgram | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205020M0AAAAAA | Moxonidine 200microgram tablets | Moxonidine |
+| 0205020M0AAACAC | Moxonidine 300microgram tablets | Moxonidine |
+| 0205020M0AAABAB | Moxonidine 400microgram tablets | Moxonidine |
+| 0205020M0BBADAA | Physiotens 200microgram tablets (Actavis) | Moxonidine |
+| 0205020M0BBAAAA | Physiotens 200microgram tablets (Mylan) | Moxonidine |
+| 0205020M0BBAFAC | Physiotens 300microgram tablets (Actavis) | Moxonidine |
+| 0205020M0BBACAC | Physiotens 300microgram tablets (Mylan) | Moxonidine |
+| 0205020M0BBAEAB | Physiotens 400microgram tablets (Actavis) | Moxonidine |
+| 0205020M0BBABAB | Physiotens 400microgram tablets (Mylan) | Moxonidine |
 
-The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. The record contains no dosage form, manufacturer or approved indication text.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The authorisation number above is the identifier in the compiled record and is not in the standard MHRA "PL" format. It should be verified against the MHRA register.
 
 ## Safety Considerations
 

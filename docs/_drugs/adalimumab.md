@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Adalimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ There are currently **no registered clinical trials** and **no publications** su
 | Predicted New Indication | hypermobility of coccyx |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (43 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 43 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,7 +70,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Adalimumab is currently marketed in the UK. The local data list one valid single-ingredient licence and no cancelled licences. No approved indication text is recorded in the local data for that licence.
+Adalimumab is currently marketed in the UK. No approved indication text is recorded in the local data for that licence.
 
 ## Safety Considerations
 

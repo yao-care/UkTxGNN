@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
 description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 | Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0607040A0AAAAAA | Mecasermin injection 10 mg/1 ml, 4 ml vial | Injection | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0607040A0AAAAAA | Mecasermin 40mg/4ml solution for injection vials | Mecasermin |
+| 0607040A0BBAAAA | Increlex 40mg/4ml solution for injection vials | Mecasermin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is a BNF-style product code (BNF section 6.7.4 area), not a standard MHRA PL number. The authorisation number, dosage form detail and indication text should be verified against the MHRA register and the current SmPC.
 

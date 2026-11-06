@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Tolfenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Acute migraine"
 monitor_inn: "Tolfenamic acid"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "exostosis", "inclusion body myositis"]
@@ -52,8 +52,8 @@ This prediction largely overlaps with the existing migraine use, so it is not a 
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (several randomised double-blind studies, but none are registered Phase 3 trials; based on titles and abstracts only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -91,9 +91,12 @@ Currently no related clinical trials registered. Most of the studies pre-date tr
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407041U0AAABAB (BNF code) | Tolfenamic Acid tablets 200 mg | Tablet | Not stated in the data compiled; reference data describe UK approval for acute migraine |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041U0AAABAB | Tolfenamic acid 200mg tablets | Tolfenamic acid |
+| 0407041U0BBABAB | Clotam Rapid 200mg tablets | Tolfenamic acid |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

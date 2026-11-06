@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Onychomycosis (fungal nail infection)"
 monitor_inn: "Amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310020A0AAAAAA | Amorolfine HCl Nail Lacquer Kit 5% 5 ml | Nail lacquer (kit) | Not stated in the available record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310020A0AAABAB | Amorolfine 0.25% cream | Amorolfine hydrochloride |
+| 1310020A0AAAAAA | Amorolfine 5% medicated nail lacquer | Amorolfine hydrochloride |
+| 1310020A0BEAAAA | Boots Fungal Nail Treatment 5% medicated nail lacquer | Amorolfine hydrochloride |
+| 1310020A0BCAAAA | Curanail 5% medicated nail lacquer | Amorolfine hydrochloride |
+| 1310020A0BBABAB | Loceryl 0.25% cream | Amorolfine hydrochloride |
+| 1310020A0BBAAAA | Loceryl 5% medicated nail lacquer | Amorolfine hydrochloride |
+| 1310020A0BDAAAA | Omicur 5% medicated nail lacquer | Amorolfine hydrochloride |
+| 1310020A0BFAAAA | Schollmed Fungal Nail Treatment 5% medicated nail lacquer | Amorolfine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Note: the authorisation number above is shown as it appears in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register. Please also confirm the NICE and BNF classification (BNF section on antifungal nail preparations) directly from the BNF.
 

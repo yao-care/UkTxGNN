@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ There are currently **no clinical trials** and **no publications** supporting th
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,29 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010I0AAACAC (as recorded; not in standard MHRA PL format, so verify against the MHRA register) | Flurbiprofen Tab 100 mg | Tablet (inferred from product name) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020G0AAACAC | Flurbiprofen 0.03% eye dps 0.4ml unit dose preservative free | Flurbiprofen sodium |
+| 1001010I0AAAAAA | Flurbiprofen 100mg suppositories | Flurbiprofen |
+| 1001010I0AAACAC | Flurbiprofen 100mg tablets | Flurbiprofen |
+| 1001010I0AAADAD | Flurbiprofen 200mg modified-release capsules | Flurbiprofen |
+| 1001010I0AAABAB | Flurbiprofen 50mg tablets | Flurbiprofen |
+| 1203010F0AAABAB | Flurbiprofen 2.92mg/actuation oromucosal spray sugar free | Flubiprofen |
+| 1203010F0AAAAAA | Flurbiprofen 8.75mg lozenges | Flubiprofen |
+| 1203010F0AAACAC | Flurbiprofen 8.75mg lozenges sugar free | Flubiprofen |
+| 1001010I0BBACAA | Froben 100mg suppositories | Flurbiprofen |
+| 1001010I0BBABAC | Froben 100mg tablets | Flurbiprofen |
+| 1001010I0BBAAAB | Froben 50mg tablets | Flurbiprofen |
+| 1001010I0BBADAD | Froben SR 200mg capsules | Flurbiprofen |
+| 1104020G0BBABAC | Ocufen 0.03% eye drops 0.4ml unit dose | Flurbiprofen sodium |
+| 1203010F0BBACAB | Strefen Direct 8.75mg oromucosal spray | Flubiprofen |
+| 1203010F0BBAEAC | Strefen Eucalyptus and Manuka Honey 8.75mg lozenges | Flubiprofen |
+| 1203010F0BBAAAA | Strefen Honey and Lemon 8.75mg lozenges | Flubiprofen |
+| 1203010F0BBADAC | Strefen Orange 8.75mg lozenges sugar free | Flubiprofen |
 
-The data show one valid single-ingredient authorisation. Indication text, manufacturer and dosage-form fields are not populated, and no NICE-appraised indication information was available. Check the BNF and the current SmPC for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Indication text, manufacturer and dosage-form fields are not populated, and no NICE-appraised indication information was available. Check the BNF and the current SmPC for the licensed indications.
 
 ## Safety Considerations
 

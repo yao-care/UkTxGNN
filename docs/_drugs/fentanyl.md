@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fentanyl: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 0.9946 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (168 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 168 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407020A0AAAEAE | Fentanyl Transdermal Patch 25mcg/hr | Transdermal patch | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407020A0AAANAN | Fentanyl 1.2mg lozenges | Fentanyl |
+| 0407020A0AAAPAP | Fentanyl 1.6mg lozenges | Fentanyl |
+| 0407020A0AABCBC | Fentanyl 100microgram buccal tablets sugar free | Fentanyl |
+| 0407020A0AAAWAW | Fentanyl 100microgram sublingual tablets sugar free | Fentanyl |
+| 1501043F0AAAAAA | Fentanyl 100micrograms/2ml solution for injection ampoules | Fentanyl citrate |
+| 0407020A0AABJBJ | Fentanyl 100micrograms/dose nasal spray | Fentanyl |
+| 0407020A0AABXBX | Fentanyl 133microgram sublingual tablets sugar free | Fentanyl |
+| 0407020A0AABTBT | Fentanyl 200microgram buccal films sugar free | Fentanyl |
+| 0407020A0AABDBD | Fentanyl 200microgram buccal tablets sugar free | Fentanyl |
+| 0407020A0AAAIAI | Fentanyl 200microgram lozenges | Fentanyl |
+| 0407020A0AAAXAX | Fentanyl 200microgram sublingual tablets sugar free | Fentanyl |
+| 0407020A0AABLBL | Fentanyl 200micrograms/dose nasal spray | Fentanyl |
+| 0407020A0AABZBZ | Fentanyl 267microgram sublingual tablets sugar free | Fentanyl |
+| 0407020A0AAAYAY | Fentanyl 300microgram sublingual tablets sugar free | Fentanyl |
+| 0407020A0AABUBU | Fentanyl 400microgram buccal films sugar free | Fentanyl |
+| 0407020A0AABEBE | Fentanyl 400microgram buccal tablets sugar free | Fentanyl |
+| 0407020A0AAAJAJ | Fentanyl 400microgram lozenges | Fentanyl |
+| 0407020A0AAAZAZ | Fentanyl 400microgram sublingual tablets sugar free | Fentanyl |
+| 0407020A0AABPBP | Fentanyl 400micrograms/dose nasal spray | Fentanyl |
+| 1501043F0AAABAB | Fentanyl 500micrograms/10ml solution for injection ampoules | Fentanyl citrate |
 
-The product code above is the BNF-style identifier recorded for this product. It is not a PL number. Only one authorisation (single-ingredient, valid) is recorded.
+Showing 20 of 168 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The product code above is the BNF-style identifier recorded for this product. It is not a PL number.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials and no publications** supporting th
 | Predicted New Indication | Polycystic kidney disease 3 with or without polycystic liver disease |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,26 @@ For context, the only publication retrieved across the top ten predictions (PMID
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409030C0AAAAAA (as recorded; not a standard MHRA PL number) | Tetrabenazine Tablets 25 mg | Tablet (not stated in the record) | Not stated in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409030C0AAAMAM | Tetrabenazine 10mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAQAQ | Tetrabenazine 12.5mg tablets | Tetrabenazine |
+| 0409030C0AAASAS | Tetrabenazine 12.5mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAPAP | Tetrabenazine 2.5mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAAAA | Tetrabenazine 25mg tablets | Tetrabenazine |
+| 0409030C0AAARAR | Tetrabenazine 25mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAALAL | Tetrabenazine 31.25mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAGAG | Tetrabenazine 50mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAJAJ | Tetrabenazine 5mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAANAN | Tetrabenazine 6.25mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAKAK | Tetrabenazine 62.5mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0AAAHAH | Tetrabenazine 75mg/5ml oral suspension | Tetrabenazine |
+| 0409030C0BEAAAA | Revocon 25mg tablets | Tetrabenazine |
+| 0409030C0BFAAAA | Tardiben 25mg tablets | Tetrabenazine |
+| 0409030C0BDAAAA | Tetmodis 25mg tablets | Tetrabenazine |
+| 0409030C0BCAAAA | Xenazine 25 tablets | Tetrabenazine |
 
-One valid single-ingredient authorisation is recorded. The record contains no manufacturer, dosage form or indication text, so the licence details should be verified against the MHRA register, the SmPC and the BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

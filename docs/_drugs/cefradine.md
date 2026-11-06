@@ -5,7 +5,7 @@ layout: default
 title: Cefradine
 parent: Known Uses Only (No New Predictions)
 nav_order: 143
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Cefradine: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Cefradine"
 predicted_indications: []
@@ -43,18 +43,31 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501021M0AAAAAA | Cefradine Capsules 250 mg | Capsule | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501021M0AAADAD | Cefradine 1g powder for solution for injection vials | Cefradine |
+| 0501021M0AAAAAA | Cefradine 250mg capsules | Cefradine |
+| 0501021M0AAAFAF | Cefradine 250mg/5ml oral solution | Cefradine |
+| 0501021M0AAABAB | Cefradine 500mg capsules | Cefradine |
+| 0501021M0AAACAC | Cefradine 500mg powder for solution for injection vials | Cefradine |
+| 0501021M0BCAAAA | Nicef 250mg capsules | Cefradine |
+| 0501021M0BCABAB | Nicef 500mg capsules | Cefradine |
+| 0501021M0BBAEAD | Velosef 1g powder for solution for injection vials | Cefradine |
+| 0501021M0BBAAAA | Velosef 250mg capsules | Cefradine |
+| 0501021M0BBACAF | Velosef 250mg/5ml syrup | Cefradine |
+| 0501021M0BBABAB | Velosef 500mg capsules | Cefradine |
+| 0501021M0BBADAC | Velosef 500mg powder for solution for injection vials | Cefradine |
 
-The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number. The dosage form, manufacturer and approved indication text are not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form, manufacturer and approved indication text are not available.
 
 ---
 

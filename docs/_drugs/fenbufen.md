@@ -4,7 +4,7 @@ title: Fenbufen
 parent: Known Uses Only (No New Predictions)
 nav_order: 281
 monitor_inn: "Fenbufen"
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fenbufen: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -41,8 +41,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 
 ## Disclaimer
 

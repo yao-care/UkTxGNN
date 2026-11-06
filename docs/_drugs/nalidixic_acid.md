@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L4). Approved use: Not recorded in the compiled data (the authorisation entry has no ind…"
 monitor_inn: "Nalidixic acid"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,18 @@ None of these papers evaluates nalidixic acid as a treatment for conjunctivitis.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501120N0AAAAAA (BNF-style code; not a PL number) | Nalidixic Acid Oral Suspension 300 mg/5 ml | Oral suspension | Not recorded in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501120N0AAAAAA | Nalidixic acid 300mg/5ml oral suspension | Nalidixic acid |
+| 0501120N0AAAFAF | Nalidixic acid 300mg/5ml oral suspension sugar free | Nalidixic acid |
+| 0501120N0AAABAB | Nalidixic acid 500mg tablets | Nalidixic acid |
+| 0501120N0AAACAC | Generic Mictral granules 7g sachets | Nalidixic acid |
+| 0501120N0BDAAAC | Mictral granules 7g sachets | Nalidixic acid |
+| 0501120N0BBABAF | Negram 300mg/5ml oral suspension | Nalidixic acid |
+| 0501120N0BBAAAB | Negram 500mg tablets | Nalidixic acid |
+| 0501120N0BCAAAA | Uriben 300mg/5ml oral suspension | Nalidixic acid |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The compiled data show one valid single-ingredient product. Dosage form and indication text were not supplied beyond the product name, so this entry should be verified against the MHRA record and the current BNF.
 
@@ -130,7 +139,7 @@ The prediction rests on a high model score and a plausible antibacterial mechani
 - Confirmation of the current UK approved indication, dosage form and SmPC warnings and contraindications (the missing label data block safety screening)
 - Detailed mechanism of action data (for example from DrugBank)
 - Disease-specific evidence for nalidixic acid in conjunctivitis, such as in vitro susceptibility of ocular pathogens or comparative clinical studies
-- A rationale for using nalidixic acid over established ocular antibacterials, including an assessment of an ophthalmic formulation, as only an oral suspension is currently authorised
+- A rationale for using nalidixic acid over established ocular antibacterials, including an assessment of an ophthalmic formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

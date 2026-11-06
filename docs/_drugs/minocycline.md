@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but **no clinical trials and no publications** currently support this prediction
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -70,11 +70,31 @@ Currently no related literature available for this indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501030P0AAABAB (BNF-style product code; PL number not available) | Minocycline HCl Tablets 100 mg | Tablet (inferred from product name) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501030P0AAAEAE | Minocycline 100mg capsules | Minocycline hydrochloride |
+| 0501030P0AAACAC | Minocycline 100mg modified-release capsules | Minocycline hydrochloride |
+| 0501030P0AAABAB | Minocycline 100mg tablets | Minocycline hydrochloride |
+| 1203020P0AAAAAA | Minocycline 2% dental gel sugar free | Minocycline hydrochloride |
+| 0501030P0AAADAD | Minocycline 50mg capsules | Minocycline hydrochloride |
+| 0501030P0AAAAAA | Minocycline 50mg tablets | Minocycline hydrochloride |
+| 0501030P0AAAFAF | Minocycline 50mg/5ml oral liquid | Minocycline hydrochloride |
+| 0501030P0BHABAC | Acnamino MR 100mg capsules (Almus) | Minocycline hydrochloride |
+| 0501030P0BHAAAC | Acnamino MR 100mg capsules (Dexcel-Pharma) | Minocycline hydrochloride |
+| 0501030P0BDABAE | Aknemin 100mg capsules | Minocycline hydrochloride |
+| 0501030P0BDAAAD | Aknemin 50 capsules | Minocycline hydrochloride |
+| 0501030P0BCABAB | Blemix 100mg tablets | Minocycline hydrochloride |
+| 0501030P0BCAAAA | Blemix 50mg tablets | Minocycline hydrochloride |
+| 1203020P0BBAAAA | Dentomycin 2% dental gel | Minocycline hydrochloride |
+| 0501030P0BBABAB | Minocin 100mg tablets | Minocycline hydrochloride |
+| 0501030P0BBAAAA | Minocin 50mg tablets | Minocycline hydrochloride |
+| 0501030P0BBACAC | Minocin MR 100mg capsules | Minocycline hydrochloride |
+| 0501030P0BGAAAC | Sebomin MR 100mg capsules | Minocycline hydrochloride |
+| 0501030P0BIAAAC | Sebren MR 100mg capsules | Minocycline hydrochloride |
 
-The data show one valid single-ingredient authorisation. Minocycline sits within BNF section 5.1.3 (tetracyclines).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Minocycline sits within BNF section 5.1.3 (tetracyclines).
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Chenodeoxycholic Acid: predicted new indication homozygous familial hypercholesterolemia (evidence level L4). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones)"
 monitor_inn: "Chenodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and only **1 indirect 
 | Predicted New Indication | Homozygous familial hypercholesterolaemia |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,15 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0109010G0AAABAB | Chenodeoxycholic Acid Capsules 250 mg | Not specified | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0109010G0AAAPAP | Chenodeoxycholic acid 200mg tablets | Chenodeoxycholic acid |
+| 0109010G0AAABAB | Chenodeoxycholic acid 250mg capsules | Chenodeoxycholic acid |
+| 0109010G0AAACAC | Chenodeoxycholic acid 250mg tablets | Chenodeoxycholic acid |
+| 0109010G0BGAAAC | Chenodiol 250mg tablets | Chenodeoxycholic acid |
+| 0109010G0BHAAAB | Xenbilox 250mg capsules | Chenodeoxycholic acid |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier shown is a BNF-style product code (BNF chapter 1, gastrointestinal system, biliary and pancreatic disorders), not a standard MHRA PL number. It should be checked against the MHRA register.
 

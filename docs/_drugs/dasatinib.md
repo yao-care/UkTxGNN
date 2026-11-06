@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 209
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myeloid leukaemia, BCR-ABL1 positive (including blast phase)"
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **Ewing sarcoma**, but only **2
 | Predicted New Indication | Ewing sarcoma |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L2 (borderline; the only completed Phase 2 trial was single-arm and covered mixed sarcomas) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (24 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 24 |
 | Recommended Decision | Hold |
 
 ---
@@ -97,11 +97,32 @@ No randomised controlled trials in Ewing sarcoma were found.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050ANAAADAD | Dasatinib tablets 100 mg | Tablet | Indication text not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050ANAAADAD | Dasatinib 100mg tablets | Dasatinib |
+| 0801050ANAAAGAG | Dasatinib 10mg/ml oral suspension | Dasatinib |
+| 0801050ANAAALAL | Dasatinib 110.6mg tablets | Dasatinib |
+| 0801050ANAAAEAE | Dasatinib 140mg tablets | Dasatinib |
+| 0801050ANAAAHAH | Dasatinib 15.8mg tablets | Dasatinib |
+| 0801050ANAAAAAA | Dasatinib 20mg tablets | Dasatinib |
+| 0801050ANAAAIAI | Dasatinib 39.5mg tablets | Dasatinib |
+| 0801050ANAAABAB | Dasatinib 50mg tablets | Dasatinib |
+| 0801050ANAAAJAJ | Dasatinib 63.2mg tablets | Dasatinib |
+| 0801050ANAAACAC | Dasatinib 70mg tablets | Dasatinib |
+| 0801050ANAAAKAK | Dasatinib 79mg tablets | Dasatinib |
+| 0801050ANAAAFAF | Dasatinib 80mg tablets | Dasatinib |
+| 0801050ANBBADAD | Sprycel 100mg tablets | Dasatinib |
+| 0801050ANBBAGAG | Sprycel 10mg/ml oral suspension | Dasatinib |
+| 0801050ANBBAEAE | Sprycel 140mg tablets | Dasatinib |
+| 0801050ANBBAAAA | Sprycel 20mg tablets | Dasatinib |
+| 0801050ANBBABAB | Sprycel 50mg tablets | Dasatinib |
+| 0801050ANBBACAC | Sprycel 70mg tablets | Dasatinib |
+| 0801050ANBBAFAF | Sprycel 80mg tablets | Dasatinib |
+| 0801050ANBCAEAL | Uxil 110.6mg tablets | Dasatinib |
 
-One valid single-ingredient authorisation is recorded. The identifier appears to be a BNF-style product code rather than a standard PL number, so please check it against the MHRA register. Neither dosage form nor manufacturer is recorded. No NICE appraisal information was available.
+Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a BNF-style product code rather than a standard PL number, so please check it against the MHRA register. Neither dosage form nor manufacturer is recorded. No NICE appraisal information was available.
 
 ---
 

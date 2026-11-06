@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Peppermint Oil: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -52,8 +52,8 @@ That evidence consists of **1 completed clinical trial** and **2 directly linked
 | Predicted New Indication | Cardiovascular disease (the highest-ranked prediction with supporting evidence; the top-scoring prediction overall, leprosy, has none) |
 | TxGNN Prediction Score | 0.9913 (cardiovascular disease); leprosy 0.9980 |
 | Evidence Level | L5 (cardiovascular disease); L5 for all other predictions |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (15 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 15 |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -95,10 +95,25 @@ Other retrieved publications concerned formulation of unrelated antihypertensive
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 190601000AAAKAK | Peppermint Water Concentrated BP 1973 | Not stated | Not stated |
-| 0102000T0AAAAAA | Peppermint Oil Capsules, E/C 0.2 ml | Not stated (enteric-coated capsule per product name) | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0102000T0AAAAAA | Peppermint oil 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0AAAFAF | Peppermint oil 0.2ml gastro-resistant modified-release caps | Peppermint oil |
+| 0102000T0AAABAB | Peppermint oil liquid | Peppermint oil |
+| 0102000T0BPAAAA | ActiMint 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BIAAAA | Apercap 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BLAAAA | Buscomint 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BMAAAA | ColoPep 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BJAAAA | Colomint 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BBAAAF | Colpermin gastro-resistant modified-release capsules | Peppermint oil |
+| 0102000T0BGAAAA | Equilon Herbal 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0104020N0BEAAAE | J Collis Browne's mixture | Opium and morphine |
+| 0102000T0BCAAAA | Mintec 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0104020N0AAAEAE | Morphine 1mg/5ml / Peppermint oil 1.5microlitres/5ml soln | Opium and morphine |
+| 0102000T0BKAAAA | PepperMinn 0.2ml gastro-resistant capsules | Peppermint oil |
+| 0102000T0BNAAAA | Purosure Peppermint oil 0.2ml gastro-resistant capsules | Peppermint oil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Both entries are valid single-ingredient products. The identifiers above are as recorded in the compiled data and are not in the standard PL number format, so they should be verified against the MHRA and BNF records.
 

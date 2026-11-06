@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 349
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ketamine: predicted new indication Headache disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -48,8 +48,8 @@ Ketamine is an NMDA receptor antagonist with one oral solution authorisation rec
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 0.9933 |
 | Evidence Level | L1 (see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (27 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 27 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* The L1 grade in the compiled data is generous. Only one Phase 3 trial (THINK, NCT03081416) is completed, and its results were not available to us. The other Phase 3 trial (KetHead) is still recruiting. Strictly applying the rule of at least two completed Phase 3 RCTs, the evidence is closer to L2. Please treat it as provisional.
@@ -93,11 +93,30 @@ Other retrieved publications mainly concern ketamine in depression, alcohol use 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0406000W0AAANAN | Ketamine oral solution 50 mg/5 ml | Oral solution | Not recorded in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1501010F0AAAFAF | Ketamine 100mg/2ml solution for injection ampoules | Ketamine |
+| 0406000W0AAACAC | Ketamine 100mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAAFAF | Ketamine 10mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAAQAQ | Ketamine 15mg/5ml oral solution | Ketamine hydrochloride |
+| 1501010F0AAADAD | Ketamine 1g/10ml solution for injection vials | Ketamine |
+| 1501010F0AAAAAA | Ketamine 200mg/20ml solution for injection vials | Ketamine |
+| 0406000W0AAADAD | Ketamine 20mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAAHAH | Ketamine 250mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAABAB | Ketamine 25mg/5ml oral solution | Ketamine hydrochloride |
+| 1501010F0AAAGAG | Ketamine 25mg/5ml solution for injection ampoules | Ketamine |
+| 0406000W0AAAKAK | Ketamine 30mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAARAR | Ketamine 40mg capsules | Ketamine hydrochloride |
+| 0406000W0AAAJAJ | Ketamine 40mg/5ml oral solution | Ketamine hydrochloride |
+| 1501010F0AAABAB | Ketamine 500mg/10ml solution for injection vials | Ketamine |
+| 0406000W0AAALAL | Ketamine 500mg/5ml oral solution | Ketamine hydrochloride |
+| 1501010F0AAAHAH | Ketamine 50mg/2ml solution for injection ampoules | Ketamine |
+| 0406000W0AAANAN | Ketamine 50mg/5ml oral solution | Ketamine hydrochloride |
+| 0406000W0AAAPAP | Ketamine 50mg/5ml oral suspension | Ketamine hydrochloride |
+| 1501010F0AAAEAE | Ketamine 50mg/5ml solution for injection ampoules | Ketamine |
+| 0406000W0AAAIAI | Ketamine 5mg/5ml oral solution | Ketamine hydrochloride |
 
-The record carries no approved indication text or dosage form field. It does not carry a standard MHRA product licence (PL) number format, so the authorisation details should be verified against the MHRA register and the BNF.
+Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

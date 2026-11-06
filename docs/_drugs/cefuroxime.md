@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Cefuroxime is a second-generation cephalosporin antibiotic that inhibits bacteri
 | Predicted New Indication | hyperamylasemia |
 | TxGNN Prediction Score | 0.9976 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -60,10 +60,29 @@ No plausible mechanistic link between cefuroxime and hyperamylasemia has been id
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501021K0BBABAB | Zinnat Tab 250mg | Not recorded | Not recorded |
-| 0501021K0AAAAAA | Cefuroxime Axetil Tab 125mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501021J0AAACAC | Cefuroxime 1.5g powder for solution for injection vials | Cefuroxime sodium |
+| 0501021K0AAADAD | Cefuroxime 125mg granules for oral suspension sachets | Cefuroxime axetil |
+| 0501021K0AAAAAA | Cefuroxime 125mg tablets | Cefuroxime axetil |
+| 0501021K0AAACAC | Cefuroxime 125mg/5ml oral suspension | Cefuroxime axetil |
+| 0501021J0AAAAAA | Cefuroxime 250mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021K0AAABAB | Cefuroxime 250mg tablets | Cefuroxime axetil |
+| 1103010T0AAAAAA | Cefuroxime 5% eye drops | Cefuroxime sodium |
+| 1103010T0AAACAC | Cefuroxime 5% eye drops preservative free | Cefuroxime sodium |
+| 0501021J0AAABAB | Cefuroxime 750mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BCACAC | Britacef 1.5g powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BCAAAA | Britacef 250mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BCABAB | Britacef 750mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BBACAC | Zinacef 1.5g powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BBAAAA | Zinacef 250mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021J0BBABAB | Zinacef 750mg powder for solution for injection vials | Cefuroxime sodium |
+| 0501021K0BBAAAA | Zinnat 125mg tablets | Cefuroxime axetil |
+| 0501021K0BBACAC | Zinnat 125mg/5ml oral suspension | Cefuroxime axetil |
+| 0501021K0BBABAB | Zinnat 250mg tablets | Cefuroxime axetil |
+| 0501021K0BBADAD | Zinnat Suspension 125mg granules sachets | Cefuroxime axetil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Both authorisations are single-ingredient products and both are currently valid. The data compiled for this report do not include indication text or dosage form for these records.
 

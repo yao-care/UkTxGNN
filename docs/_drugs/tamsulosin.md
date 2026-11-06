@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
 description: "Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (42 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 42 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -78,9 +78,30 @@ For context, the ninth-ranked prediction, alopecia, returned two publications. N
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0704010U0AAAAAA (BNF-style code, not a PL number) | Tamsulosin HCl capsules 400 microgram modified-release | Modified-release capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0704010U0AAAEAE | Tamsulosin 200microgram oral powder sachets | Tamsulosin hydrochloride |
+| 0704010U0AAAAAA | Tamsulosin 400microgram modified-release capsules | Tamsulosin hydrochloride |
+| 0704010U0AAABAB | Tamsulosin 400microgram modified-release tablets | Tamsulosin hydrochloride |
+| 0704010U0AAADAD | Tamsulosin 400microgram oral powder sachets | Tamsulosin hydrochloride |
+| 0704010U0AAACAC | Tamsulosin 400micrograms/5ml oral solution | Tamsulosin hydrochloride |
+| 0704010U0AAAFAF | Tamsulosin 400micrograms/5ml oral suspension | Tamsulosin hydrochloride |
+| 0704010U0BNAAAA | Alphacard MR 400microgram capsules | Tamsulosin hydrochloride |
+| 0704010U0BEAAAA | Bazetham MR 400microgram capsules | Tamsulosin hydrochloride |
+| 0704010V0BBAAAA | Combodart 0.5mg/0.4mg capsules | Tamsulosin and dutasteride hydrochloride |
+| 0704010U0BMABAA | Contiflo XL 400microgram capsules (NorthStar) | Tamsulosin hydrochloride |
+| 0704010U0BMAAAA | Contiflo XL 400microgram capsules (Ranbaxy) | Tamsulosin hydrochloride |
+| 0704010U0BTAAAB | Cositam XL 400microgram tablets (Consilient) | Tamsulosin hydrochloride |
+| 0704010U0BJAAAA | Diffundox XL 400microgram capsules | Tamsulosin hydrochloride |
+| 0704010V0BCAAAA | Dutrozen 0.5mg/0.4mg capsules | Tamsulosin and dutasteride hydrochloride |
+| 0704010U0BVABAB | Faramsil 400microgram modified-release tablets (NorthStar) | Tamsulosin hydrochloride |
+| 0704010U0BVAAAB | Faramsil 400microgram modified-release tablets (Sandoz) | Tamsulosin hydrochloride |
+| 0704010U0BWAAAB | Flectone XL 400microgram tablets | Tamsulosin hydrochloride |
+| 0704010U0BBAAAA | Flomax MR 400microgram capsules | Tamsulosin hydrochloride |
+| 0704010U0BBABAA | Flomax Relief MR 400microgram capsules | Tamsulosin hydrochloride |
+| 0704010U0BDAAAB | Flomaxtra XL 400microgram tablets | Tamsulosin hydrochloride |
+
+Showing 20 of 42 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

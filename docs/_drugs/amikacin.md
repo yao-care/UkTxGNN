@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 48
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amikacin: predicted new indication Paratyphoid fever (evidence level L4). Approved use: Bacterial pneumonia, Pseudomonas aeruginosa infection…"
 monitor_inn: "Amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "meningococcemia"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but ther
 | Predicted New Indication | Paratyphoid fever |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,11 +92,16 @@ Closely related typhoid fever literature includes an in vitro study showing *S. 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501040C0AAADAD | Amikacin injection, paediatric 50 mg/mL, 2 mL vial | Injection | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501040C0AAADAD | Amikacin 100mg/2ml solution for injection vials | Amikacin |
+| 0501040C0AAAAAA | Amikacin 500mg/2ml solution for injection vials | Amikacin |
+| 0501040C0BBACAD | Amikin 100mg/2ml solution for injection vials | Amikacin |
+| 0501040C0BBAAAA | Amikin 500mg/2ml solution for injection vials | Amikacin |
 
-The data compiled for this report records one valid single-ingredient authorisation and no cancelled authorisations. Within the BNF, amikacin falls under aminoglycoside antibacterials (BNF section 5.1.4).
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Within the BNF, amikacin falls under aminoglycoside antibacterials (BNF section 5.1.4).
 
 ---
 

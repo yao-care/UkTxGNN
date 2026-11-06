@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ with **7 clinical trials** (mostly small, early-phase or mixed-tumour transplant
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9967 |
 | Evidence Level | L5 (one completed Phase 2 trial, but melphalan is part of a combination regimen) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Proceed with Guardrails (research question only) |
 
 ---
@@ -94,11 +94,19 @@ Literature for related ovarian germ cell tumours is limited to a single case rep
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801010S0AAABAB (a product code, not a standard PL number) | Melphalan tablets 2 mg | Tablet (inferred from product name) | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801010S0AAABAB | Melphalan 2mg tablets | Melphalan |
+| 0801010S0AAADAD | Melphalan 50mg inj vials | Melphalan |
+| 0801010S0AAACAC | Melphalan 5mg tablets | Melphalan |
+| 0801010S0BBAAAB | Alkeran 2mg tablets | Melphalan |
+| 0801010S0BBADAD | Alkeran 50mg inj vials | Melphalan |
+| 0801010S0BBABAC | Alkeran 5mg tablets | Melphalan |
+| 0801010S0BCAAAD | Phelinun 50mg pdr and solvent for concentrate for inf vials | Melphalan |
 
-Only one valid single-ingredient authorisation was recorded. Please check the current MHRA record, the SmPC and the BNF for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record, the SmPC and the BNF for the licensed indications.
 
 ---
 

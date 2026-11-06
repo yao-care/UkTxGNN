@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data (the product's clinical use is gen…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -50,8 +50,8 @@ Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet, 
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 **Other predictions of note.** Headache disorder (score 0.9931) and trigeminal autonomic cephalalgia (score 0.9915) are supported by small case-level literature (L4, "Research Question"). They are the most evidence-supported of the ten predictions, even though they rank lower by score.
@@ -94,11 +94,20 @@ None of these is a controlled trial in migraine. The evidence is anecdotal or in
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1001010AJAAAAAA | Etoricoxib Tab 60mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010AJAAACAC | Etoricoxib 120mg tablets | Etoricoxib |
+| 1001010AJAAADAD | Etoricoxib 30mg tablets | Etoricoxib |
+| 1001010AJAAAAAA | Etoricoxib 60mg tablets | Etoricoxib |
+| 1001010AJAAABAB | Etoricoxib 90mg tablets | Etoricoxib |
+| 1001010AJBBACAC | Arcoxia 120mg tablets | Etoricoxib |
+| 1001010AJBBADAD | Arcoxia 30mg tablets | Etoricoxib |
+| 1001010AJBBAAAA | Arcoxia 60mg tablets | Etoricoxib |
+| 1001010AJBBABAB | Arcoxia 90mg tablets | Etoricoxib |
 
-One valid single-ingredient authorisation is recorded. Please check the current MHRA record and the BNF for the full licensed indications and the product's formal licence (PL) number.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the current MHRA record and the BNF for the full licensed indications and the product's formal licence (PL) number.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Meptazinol"
 predicted_indications: ["insomnia (disease)"]
 description: "Meptazinol: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ The evidence rests on the model prediction alone.
 | Predicted New Indication | Insomnia (disease) |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -88,16 +88,20 @@ They are indirect evidence only, and their titles alone were available, so study
 | [7117680](https://pubmed.ncbi.nlm.nih.gov/7117680/) | 1982 | Randomised, double-blind trial (101 surgical patients) | J Int Med Res | Meptazinol-hyoscine was compared with an Omnopon-hyoscine premedication. Both reduced blood pressure and respiratory rate to a similar extent and produced similar sedation, which the authors interpreted as satisfactory alleviation of anxiety. |
 | [6135885](https://pubmed.ncbi.nlm.nih.gov/6135885/) | 1983 | Clinical study (unclassified) | Lancet | Meptazinol-midazolam combination for postoperative analgesia and sedation. Effects may be confounded by midazolam, a benzodiazepine. |
 
-
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407020L0AAABAB | Meptazinol HCl Tab 200mg | Tablet (200 mg) | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407020L0AAAAAA | Meptazinol 100mg/1ml solution for injection ampoules | Meptazinol hydrochloride |
+| 0407020L0AAABAB | Meptazinol 200mg tablets | Meptazinol hydrochloride |
+| 0407020L0BBABAA | Meptid 100mg/1ml solution for injection ampoules | Meptazinol hydrochloride |
+| 0407020L0BBAAAB | Meptid 200mg tablets | Meptazinol hydrochloride |
 
-One valid single-ingredient authorisation is recorded. The record does not include manufacturer, dosage form detail or indication text. The identifier shown does not follow the usual PL number format, so it should be verified against MHRA and BNF sources.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier shown does not follow the usual PL number format, so it should be verified against MHRA and BNF sources.
 
 ---
 

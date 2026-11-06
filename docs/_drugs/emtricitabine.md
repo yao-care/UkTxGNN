@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 249
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease"
 monitor_inn: "Emtricitabine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 (preclinical studies only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (32 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 32 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,11 +84,32 @@ The publications are mainly macaque PrEP studies and reviews. Of the 20 retrieve
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010K0AAAAAA (record identifier; not a standard PL number) | Emtricitabine capsule 200 mg | Capsule (strength 200 mg) | Indication text not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010K0AAABAB | Emtricitabine 10mg/ml oral solution sugar free | Emtricitabine |
+| 0503010K0AAAAAA | Emtricitabine 200mg capsules | Emtricitabine |
+| 0503010ANBBAAAA | Atripla 600mg/200mg/245mg tablets | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010AQAAABAB | Bictegravir 30mg /Emtr 120mg /Tenofovir alafenamide 15mg tab | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQAAAAAA | Bictegravir 50mg /Emtr 200mg /Tenofovir alafenamide 25mg tab | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQBBABAB | Biktarvy 30mg/120mg/15mg tablets | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010AQBBAAAA | Biktarvy 50mg/200mg/25mg tablets | Bictegravir/emtricitabine/tenofovir alafenamide |
+| 0503010BEAAAAAA | Darunavir 800mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010AMBBAAAA | Descovy 200mg/10mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010AMBBABAB | Descovy 200mg/25mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010ANAAAAAA | Efavirenz 600mg / Emtr 200mg /Tenofovir disoproxil 245mg tab | Efavirenz/emtricitabine/tenofovir disoproxil |
+| 0503010BAAAABAB | Elvitegravir 150mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010BDAAAAAA | Elvitegravir 150mg/Cobicistat/Emtr/Tenofovir disoproxil tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir disoproxil |
+| 0503010BAAAAAAA | Elvitegravir 90mg/Cobicistat/Emtr/Tenofovir alafenamide tab | Elvitegravir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
+| 0503010BCAAAAAA | Emtr 200mg/Rilpivirine 25mg/Tenofovir alafenamide 25mg tab | Emtricitabine/Rilpivirine/Tenofovir alafenamide |
+| 0503010BBAAAAAA | Emtr 200mg/Rilpivirine 25mg/Tenofovir disoproxil 245mg tab | Emtricitabine/Rilpivirine/Tenofovir disoproxil |
+| 0503010AMAAAAAA | Emtricitabine 200mg / Tenofovir alafenamide 10mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010AMAAABAB | Emtricitabine 200mg / Tenofovir alafenamide 25mg tablets | Emtricitabine and tenofovir alafenamide |
+| 0503010AAAAAAAA | Emtricitabine 200mg / Tenofovir disoproxil 245mg tablets | Emtricitabine and tenofovir disoproxil |
+| 0503010K0BBABAB | Emtriva 10mg/ml oral solution | Emtricitabine |
 
-The record is a single-ingredient product with valid status. BNF classification and NICE appraisal details were not available in the data compiled for this report.
+Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+BNF classification and NICE appraisal details were not available in the data compiled for this report.
 
 ## Safety Considerations
 

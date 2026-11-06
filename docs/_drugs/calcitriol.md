@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Calcitriol is the active hormonal form of vitamin D. The TxGNN model predicts it
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The data compiled for this report show that calcitriol is currently marketed in the UK, with a valid single-ingredient authorisation. No indication text or dosage-form details were recorded in the local licence data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
+No indication text or dosage-form details were recorded in the local licence data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
 
 ## Safety Considerations
 

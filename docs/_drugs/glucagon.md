@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Glucagon"
 predicted_indications: ["irritable bowel syndrome"]
@@ -50,8 +50,8 @@ Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (po
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 0.9924 |
 | Evidence Level | L5 (model prediction only; no study has tested glucagon in IBS) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ---
@@ -96,9 +96,17 @@ Almost all of these publications concern GLP-1 or general IBS biology; none eval
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601040H0AAAEAE (BNF-style product code) | Glucagon injection (powder for reconstitution) 1 mg vial with diluent | Injection (powder and diluent) | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601040H0AAAEAE | Glucagon 1mg inj vials | Glucagon |
+| 0601040H0AAAFAF | Glucagon 1mg/0.2ml inj pre-filled disposable devices | Glucagon |
+| 0601040H0AAAGAG | Glucagon 500micrograms/0.1ml inj pf disposable devices | Glucagon |
+| 0601040H0BDAAAE | GlucaGen Hypokit 1mg inj | Glucagon |
+| 0601040H0BDABAE | GlucaGen Hypokit 1mg inj (Imported) | Glucagon |
+| 0601040H0BEAAAF | Ogluo 1mg/0.2ml solution for injection pre-filled pens | Glucagon |
+| 0601040H0BEABAG | Ogluo 500micrograms/0.1ml inj pre-filled pens | Glucagon |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This is a single valid, single-ingredient product. The BNF section reference implied by the product code (0601, drugs used in diabetes) is consistent with glucagon's use in severe hypoglycaemia.
 

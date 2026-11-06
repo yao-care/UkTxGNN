@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
 description: "Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but this re
 | Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -63,9 +63,23 @@ The other top-ranked predictions are even less convincing. They include malforma
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803043P0AAACAC | Lanreotide injection 90 mg/0.3 mL, pre-filled syringe | Injection | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803043P0AAADAD | Lanreotide 120mg/0.5ml inj pre-filled syringes | Lanreotide |
+| 0803043P0AAAAAA | Lanreotide 30mg inj vials | Lanreotide |
+| 0803043P0AAABAB | Lanreotide 60mg/0.3ml inj pre-filled syringes | Lanreotide |
+| 0803043P0AAAEAE | Lanreotide 60mg/0.5ml inj pre-filled syringes | Lanreotide |
+| 0803043P0AAACAC | Lanreotide 90mg/0.3ml inj pre-filled syringes | Lanreotide |
+| 0803043P0AAAFAF | Lanreotide 90mg/0.5ml inj pre-filled syringes | Lanreotide |
+| 0803043P0BBAGAD | Somatuline Autogel 120mg/0.5ml inj pfs with safety system | Lanreotide |
+| 0803043P0BBADAD | Somatuline Autogel 120mg/0.5ml inj pre-filled syringes | Lanreotide |
+| 0803043P0BBABAB | Somatuline Autogel 60mg/0.3ml inj pre-filled syringes | Lanreotide |
+| 0803043P0BBAEAE | Somatuline Autogel 60mg/0.5ml inj pfs with safety system | Lanreotide |
+| 0803043P0BBACAC | Somatuline Autogel 90mg/0.3ml inj pre-filled syringes | Lanreotide |
+| 0803043P0BBAFAF | Somatuline Autogel 90mg/0.5ml inj pfs with safety system | Lanreotide |
+| 0803043P0BBAAAA | Somatuline LA 30mg inj vials | Lanreotide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier follows a BNF-style product code rather than a standard PL number. Please verify the authorisation details against the MHRA register.
 

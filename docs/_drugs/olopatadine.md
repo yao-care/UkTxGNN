@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no publications** supportin
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -80,9 +80,15 @@ For context, the two articles retrieved for other predicted indications are:
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1104020Z0AAAAAA | Olopatadine eye drops 1 mg/ml | Eye drops | Not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020Z0AAAAAA | Olopatadine 1mg/ml eye drops | Olopatadine |
+| 1104020Z0BCAAAA | Hayeeze 1mg/ml eye drops | Olopatadine |
+| 1202010Z0AAAAAA | Mometasone 25microg / Olopatadine 600microg/dose nsl spy | Mometasone furoate/olopatadine hydrochloride |
+| 1104020Z0BBAAAA | Opatanol 1mg/ml eye drops | Olopatadine |
+| 1202010Z0BBAAAA | Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray | Mometasone furoate/olopatadine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This entry appears to be a BNF-style product code (BNF chapter 11, eye) rather than a standard MHRA PL number, so the authorisation details should be verified against the MHRA register.
 

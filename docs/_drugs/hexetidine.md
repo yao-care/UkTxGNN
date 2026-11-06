@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Hexetidine: predicted new indication Interventricular septum aneurysm (evidence level L5). Approved use: Not stated in the available authorisation data (the product is a 0.1%…"
 monitor_inn: "Hexetidine"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
@@ -50,8 +50,8 @@ but there are **no clinical trials** and **no relevant publications** supporting
 | Predicted New Indication | Interventricular septum aneurysm |
 | TxGNN Prediction Score | 0.9916 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (3 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,13 @@ Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1203040G0AAAAAA | Hexetidine mouthwash 0.1% (sugar-free) | Mouthwash | Not stated in the available data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1203040G0AAAAAA | Hexetidine 0.1% mouthwash sugar free | Hexetidine |
+| 1203040G0BBAAAA | Oraldene 0.1% mouthwash peppermint | Hexetidine |
+| 1203040G0BBABAA | Oraldene Icemint 0.1% mouthwash | Hexetidine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above is as recorded in the data compiled for this report and is not in the standard PL number format. Please verify it against the MHRA register.
 

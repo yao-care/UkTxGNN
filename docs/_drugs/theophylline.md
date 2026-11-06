@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Theophylline: predicted new indication Thrombotic disease (evidence level L5). Approved use: Asthma, bronchitis, pulmonary emphysema and related airway diseases"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **thrombotic disease**, but the
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (36 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 36 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,30 @@ The retrieved publications are mostly background or methodological papers, not s
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301030S0AAAMAM | Theophylline Tab 200mg M/R (modified-release tablet) | Not recorded | Not recorded in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301030S0AAAHAH | Theophylline 10mg/5ml oral liquid | Theophylline |
+| 0301030S0AABFBF | Theophylline 120mg/5ml oral liquid | Theophylline |
+| 0301030S0AAACAC | Theophylline 125mg modified-release capsules | Theophylline |
+| 0301030S0AAAJAJ | Theophylline 125mg tablets | Theophylline |
+| 0301030S0AABBBB | Theophylline 125mg/5ml oral suspension | Theophylline |
+| 0301030S0AAALAL | Theophylline 175mg modified-release tablets | Theophylline |
+| 0301030S0AABGBG | Theophylline 175mg/5ml oral liquid | Theophylline |
+| 0301030S0AAAMAM | Theophylline 200mg modified-release tablets | Theophylline |
+| 0301030S0AAADAD | Theophylline 250mg modified-release capsules | Theophylline |
+| 0301030S0AAANAN | Theophylline 250mg modified-release tablets | Theophylline |
+| 0301030S0AABEBE | Theophylline 250mg/5ml oral liquid | Theophylline |
+| 0301030S0AAAPAP | Theophylline 300mg modified-release tablets | Theophylline |
+| 0301030S0AAA3A3 | Theophylline 300mg suppositories | Theophylline |
+| 0301030S0AAARAR | Theophylline 400mg modified-release tablets | Theophylline |
+| 0301030S0AABKBK | Theophylline 50mg/5ml oral solution | Theophylline |
+| 0301030S0AABLBL | Theophylline 50mg/5ml oral suspension | Theophylline |
+| 0301030S0AABHBH | Theophylline 5mg/5ml oral solution | Theophylline |
+| 0301030S0AAABAB | Theophylline 60mg modified-release capsules | Theophylline |
+| 0301030S0AAAGAG | Theophylline 60mg/5ml oral liquid | Theophylline |
+| 0301030S0AABJBJ | Theophylline 75mg/5ml oral suspension | Theophylline |
+
+Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This record appears to be a prescribing-classification style code rather than a standard PL number. Please check the MHRA register and the BNF (respiratory system, bronchodilators) for the authorised indications.
 

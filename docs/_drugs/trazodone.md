@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 636
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -52,8 +52,8 @@ but the supporting evidence is **small and dated**: no registered clinical trial
 | Predicted New Indication | Obsessive-compulsive disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Proceed with Guardrails (research question only) |
 
 ---
@@ -95,11 +95,32 @@ Most of the other retrieved papers are further case reports, reviews or pharmaco
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403010X0AAAAAA | Trazodone HCl capsule 50 mg | Capsule (as named in the product description) | Not available in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010X0AAABAB | Trazodone 100mg capsules | Trazodone hydrochloride |
+| 0403010X0AAAQAQ | Trazodone 100mg tablets | Trazodone hydrochloride |
+| 0403010X0AAAIAI | Trazodone 100mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAANAN | Trazodone 100mg/5ml oral solution sugar free | Trazodone hydrochloride |
+| 0403010X0AAAKAK | Trazodone 10mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAAEAE | Trazodone 150mg modified-release tablets | Trazodone hydrochloride |
+| 0403010X0AAADAD | Trazodone 150mg tablets | Trazodone hydrochloride |
+| 0403010X0AAALAL | Trazodone 150mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAAHAH | Trazodone 250mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAAJAJ | Trazodone 25mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAAAAA | Trazodone 50mg capsules | Trazodone hydrochloride |
+| 0403010X0AAAPAP | Trazodone 50mg tablets | Trazodone hydrochloride |
+| 0403010X0AAAGAG | Trazodone 50mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0AAAFAF | Trazodone 50mg/5ml oral solution sugar free | Trazodone hydrochloride |
+| 0403010X0AAAMAM | Trazodone 75mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0BBABAB | Molipaxin 100mg capsules | Trazodone hydrochloride |
+| 0403010X0BBADAD | Molipaxin 150mg tablets | Trazodone hydrochloride |
+| 0403010X0BBAAAA | Molipaxin 50mg capsules | Trazodone hydrochloride |
+| 0403010X0BBACAF | Molipaxin 50mg/5ml oral liquid | Trazodone hydrochloride |
+| 0403010X0BBAEAE | Molipaxin CR 150mg tablets | Trazodone hydrochloride |
 
-The data compiled for this report list only one authorisation, and the number shown is not in the standard MHRA "PL" format, so it should be checked against the MHRA register. The BNF classifies trazodone among antidepressant drugs. NICE-appraised indication details were not available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classifies trazodone among antidepressant drugs. NICE-appraised indication details were not available.
 
 ---
 
@@ -123,7 +144,7 @@ Label-based warnings were not available. Please refer to the SmPC and BNF for fu
 - Review of the full text and results of the 1992 placebo-controlled RCT (PMID 1629380)
 - A modern, adequately powered randomised trial in OCD, including treatment-resistant patients and adjunctive use
 - Mechanism of action data (MOA) from DrugBank
-- UK label information (indications, warnings, contraindications) from the SmPC and BNF, plus verification of the authorisation record
+- UK label information (indications, warnings, contraindications) from the SmPC and BNF
 - A cardiac and interaction risk assessment (QT prolongation, serotonergic combinations) before any use in the new indication
 ## Disclaimer
 

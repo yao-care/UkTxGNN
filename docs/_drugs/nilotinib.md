@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nilotinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L4). Approved use: Chronic myelogenous leukaemia, BCR-ABL1 positive"
 monitor_inn: "Nilotinib"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
@@ -50,8 +50,8 @@ but at present there are **no registered clinical trials** and only **1 publicat
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 0.9931 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,11 +74,18 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050ASAAAAAA | Nilotinib capsules 200 mg | Capsule | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050ASAAABAB | Nilotinib 150mg capsules | Nilotinib |
+| 0801050ASAAAAAA | Nilotinib 200mg capsules | Nilotinib |
+| 0801050ASAAACAC | Nilotinib 50mg capsules | Nilotinib |
+| 0801050ASBBABAB | Tasigna 150mg capsules | Nilotinib |
+| 0801050ASBBAAAA | Tasigna 200mg capsules | Nilotinib |
+| 0801050ASBBACAC | Tasigna 50mg capsules | Nilotinib |
 
-One valid single-ingredient authorisation was identified. The dosage form and approved indication text were not recorded in the compiled data, so the entry should be checked against the current MHRA record, the SmPC and the BNF. The listed number is not in standard PL format and should also be verified.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The dosage form and approved indication text were not recorded in the compiled data, so the entry should be checked against the current MHRA record, the SmPC and the BNF. The listed number is not in standard PL format and should also be verified.
 
 ## Cytotoxicity
 

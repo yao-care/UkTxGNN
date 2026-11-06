@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no registered clinical trials** and **no publications*
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 0.9911 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,9 +72,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403030P0AAAAAA (BNF-style code, not a PL number) | Paroxetine HCl tablets 20 mg | Tablet | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403030P0AAAKAK | Paroxetine 10mg tablets | Paroxetine hydrochloride |
+| 0403030P0AAAFAF | Paroxetine 10mg/5ml oral liquid | Paroxetine hydrochloride |
+| 0403030P0AAAGAG | Paroxetine 10mg/5ml oral suspension sugar free | Paroxetine hydrochloride |
+| 0403030P0AAAAAA | Paroxetine 20mg tablets | Paroxetine hydrochloride |
+| 0403030P0AAADAD | Paroxetine 20mg/5ml oral liquid | Paroxetine hydrochloride |
+| 0403030P0AAABAB | Paroxetine 30mg tablets | Paroxetine hydrochloride |
+| 0403030P0AAAEAE | Paroxetine 30mg/5ml oral liquid | Paroxetine hydrochloride |
+| 0403030P0AAALAL | Paroxetine 40mg tablets | Paroxetine hydrochloride |
+| 0403030P0BBADAK | Seroxat 10mg tablets | Paroxetine hydrochloride |
+| 0403030P0BBAAAA | Seroxat 20mg tablets | Paroxetine hydrochloride |
+| 0403030P0BBACAG | Seroxat 20mg/10ml liquid | Paroxetine hydrochloride |
+| 0403030P0BBABAB | Seroxat 30mg tablets | Paroxetine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Paroxetine falls within the BNF antidepressant (SSRI) classification, section 4.3.3. Please confirm the current MHRA marketing authorisation (PL) number and licensed indications in the SmPC.
 

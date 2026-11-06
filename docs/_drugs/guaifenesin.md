@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 (model prediction with no actual studies of guaifenesin for this indication; the single review only mentions guaifenesin within a decongestant combination) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (59 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 59 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,9 +83,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0309020G0AAABAB (BNF-style product code; no PL number available) | Guaifenesin oral solution 100 mg/5 ml | Oral solution | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0309020G0AAABAB | Guaifenesin 100mg/5ml oral solution | Guaifenesin |
+| 0309020G0AAAJAJ | Guaifenesin 33.33mg/5ml oral solution sugar free | Guaifenesin |
+| 0309020G0AAALAL | Guaifenesin 50mg/5ml oral solution | Guaifenesin |
+| 0309020G0AAANAN | Guaifenesin 50mg/5ml oral solution sugar free | Guaifenesin |
+| 1002020L0AAACAC | Guaifenesin 600mg modified-release tablets | Guaifenesin |
+| 0309020G0AAARAR | Guaifenesin 66.67mg/5ml oral solution | Guaifenesin |
+| 0309020G0AAAEAE | Guaifenesin 66.67mg/5ml oral solution sugar free | Guaifenesin |
+| 0309020G0AAAAAA | Guaifenesin powder | Guaifenesin |
+| 0309020G0BJAFAG | Adult Meltus Chesty Cough with Decongestant oral solution | Guaifenesin |
+| 0309020G0BJACAK | Adult Meltus Chesty Coughs Sugar & Colour Free oral solution | Guaifenesin |
+| 0309020G0BJAEA0 | Adult Meltus for Chesty Coughs and Catarrh oral solution | Guaifenesin |
+| 0309020G0BKAAAJ | Beechams Veno's for Kids Chesty Cough 33.33mg/5ml syrup | Guaifenesin |
+| 0309020G0BTAAAB | Bell's Mucus Cough 100mg/5ml oral solution | Guaifenesin |
+| 0309020G0BNACAP | Benylin Chesty Coughs Non-Drowsy oral solution | Guaifenesin |
+| 0309020G0BNABAM | Benylin Chesty Coughs oral solution 5ml sachets | Guaifenesin |
+| 0309020G0BNADAN | Benylin Children's Chesty Coughs 50mg/5ml oral solution | Guaifenesin |
+| 0309020G0BNAAA0 | Benylin Children's Chesty Coughs 50mg/5ml soln 5ml sachets | Guaifenesin |
+| 0309020G0BNAHAB | Benylin Mucus Cough Max Honey & Lemon Flavour 100mg/5ml syr | Guaifenesin |
+| 0309020G0BNAGAB | Benylin Mucus Cough Max Menthol 100mg/5ml oral solution | Guaifenesin |
+| 0309020G0BNAFAG | Benylin Mucus Cough Plus Decongestant syrup | Guaifenesin |
+
+Showing 20 of 59 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

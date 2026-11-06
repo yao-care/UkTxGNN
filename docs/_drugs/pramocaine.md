@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **papillary conjunctivitis**, but 
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 0.9915 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,9 +71,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0107020J0AAADAD (BNF-style product code; not a PL number) | Hydrocort/Pramocaine Foam Enema (40D) | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107020J0AAADAD | Hydrocortisone 1% / Pramocaine 1% foam enema | Hydrocortisone |
+| 0107020J0BDAAAD | Proctofoam HC foam enema | Hydrocortisone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The product is a hydrocortisone and pramocaine combination foam enema, which falls within the BNF section on rectal corticosteroid preparations. This is a rectal product, not an ophthalmic one.
 

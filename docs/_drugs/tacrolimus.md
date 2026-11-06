@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 590
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ with **2 clinical trials** (one completed Phase 3) and **20 publications** curre
 | Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L1 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (64 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 64 |
 | Recommended Decision | Proceed with Guardrails |
 
 *Note on evidence level:* L1 in the scoring data rests on one completed Phase 3 trial plus one completed Phase 4 trial for seborrheic dermatitis. Strictly, the L1 rule asks for two or more completed Phase 3 RCTs, so this level should be regarded as provisional until trial results are reviewed.
@@ -88,11 +88,32 @@ A further practical advantage is its steroid-sparing profile. Long-term topical 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1305030C0AAAAAA | Tacrolimus ointment 0.1% | Ointment (not stated in the licence data) | Not stated in the licence data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0802020T0AAAXAX | Tacrolimus 0.0001% mouthwash | Tacrolimus |
+| 1305030C0AAACAC | Tacrolimus 0.03% ointment | Tacrolimus |
+| 1305030C0AAAAAA | Tacrolimus 0.1% ointment | Tacrolimus |
+| 0802020T0AAABAB | Tacrolimus 1mg capsules | Tacrolimus |
+| 0802020T0AAAWAW | Tacrolimus 1mg gran for susp sachets sugar free | Tacrolimus |
+| 0802020T0AAANAN | Tacrolimus 1mg modified-release capsules | Tacrolimus |
+| 0802020T0AABCBC | Tacrolimus 1mg modified-release tablets | Tacrolimus |
+| 0802020T0AAAGAG | Tacrolimus 2.5mg/5ml oral liquid | Tacrolimus |
+| 0802020T0AAAVAV | Tacrolimus 200microgram gran for susp sachets sugar free | Tacrolimus |
+| 0802020T0AAASAS | Tacrolimus 25mg/5ml oral liquid | Tacrolimus |
+| 0802020T0AABGBG | Tacrolimus 2mg capsules | Tacrolimus |
+| 0802020T0AABJBJ | Tacrolimus 2mg modified-release capsules | Tacrolimus |
+| 0802020T0AABIBI | Tacrolimus 2mg suppositories | Tacrolimus |
+| 0802020T0AAAKAK | Tacrolimus 2mg/5ml oral suspension | Tacrolimus |
+| 0802020T0AAATAT | Tacrolimus 3mg modified-release capsules | Tacrolimus |
+| 0802020T0AABEBE | Tacrolimus 4mg modified-release tablets | Tacrolimus |
+| 0802020T0AAAFAF | Tacrolimus 500microgram capsules | Tacrolimus |
+| 0802020T0AAAMAM | Tacrolimus 500microgram modified-release capsules | Tacrolimus |
+| 0802020T0AAARAR | Tacrolimus 500micrograms/5ml oral suspension | Tacrolimus |
+| 0802020T0AAAAAA | Tacrolimus 5mg capsules | Tacrolimus |
 
-Only one authorisation record is present in the data compiled for this report, and its indication text, dosage form and manufacturer are blank. The identifier is also not in the usual MHRA "PL" format, so it should be verified against the MHRA register. Reference to the BNF and relevant NICE guidance on topical calcineurin inhibitors for atopic eczema is advised.
+Showing 20 of 64 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier is also not in the usual MHRA "PL" format, so it should be verified against the MHRA register. Reference to the BNF and relevant NICE guidance on topical calcineurin inhibitors for atopic eczema is advised.
 
 ## Safety Considerations
 

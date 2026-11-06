@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Felbinac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Felbinac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ There are **no clinical trials** and **no publications** supporting this predict
 | Predicted New Indication | brachyolmia-amelogenesis imperfecta syndrome |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
 
 ---
@@ -80,11 +80,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1003020M0AAAAAA | Felbinac Gel 3% | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1003020M0AAAAAA | Felbinac 3% gel | Felbinac |
+| 1003020M0AAABAB | Felbinac 3.17% foam | Felbinac |
+| 1003020M0BBAAAA | Traxam 3% gel | Felbinac |
+| 1003020M0BBABAB | Traxam 3.17% foam | Felbinac |
+| 1003020M0BBACAA | Traxam Pain Relief 3% gel | Felbinac |
 
-The single record is a single-ingredient licence and is currently valid. The approved indication text is not recorded in the local data.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The approved indication text is not recorded in the local data.
 
 ---
 

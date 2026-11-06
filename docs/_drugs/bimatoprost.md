@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model (deep learning) predicts it may be effective for a **malformatio
 | Predicted New Indication | Malformation syndrome with odontal and/or periodontal component |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (21 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 21 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1106000AFAAAAAA | Bimatoprost eye drops 300 mcg/ml | Eye drops (from product name) | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000AFAAABAB | Bimatoprost 100micrograms/ml eye drops | Bimatoprost |
+| 1106000AFAAACAC | Bimatoprost 300micrograms/ml eye dps 0.4ml ud preserv free | Bimatoprost |
+| 1106000AFAAAAAA | Bimatoprost 300micrograms/ml eye drops | Bimatoprost |
+| 1106000AFAAADAD | Bimatoprost 300micrograms/ml eye drops preservative free | Bimatoprost |
+| 1106000AIAAACAC | Bimatoprost 300microg / Timolol 5mg/ml eye dps preserv free | Timolol and bimatoprost |
+| 1106000AIAAABAB | Bimatoprost 300microg/Timolol 5mg/ml eye dps 0.4ml | Timolol and bimatoprost |
+| 1106000AIAAAAAA | Bimatoprost 300micrograms/ml / Timolol 5mg/ml eye drops | Timolol and bimatoprost |
+| 1106000AFBGAAAD | Bimi 0.3mg/ml eye drops | Bimatoprost |
+| 1106000AIBEAAAC | Bimiduo 0.3mg/ml / 5mg/ml eye drops preservative free | Timolol and bimatoprost |
+| 1106000AFBDAAAD | Eyreida 0.3mg/ml eye drops | Bimatoprost |
+| 1106000AIBCABAC | Eyzeetan 0.3mg/ml / 5mg/ml eye drops preservative free | Timolol and bimatoprost |
+| 1106000AIBBAAAA | Ganfort 0.3mg/ml / 5mg/ml eye drops | Timolol and bimatoprost |
+| 1106000AIBBABAB | Ganfort 0.3mg/ml / 5mg/ml eye drops 0.4ml unit dose | Timolol and bimatoprost |
+| 1106000AFBBABAB | Lumigan 0.1mg/ml eye drops | Bimatoprost |
+| 1106000AFBBACAC | Lumigan 0.3mg/ml eye drops 0.4ml unit dose | Bimatoprost |
+| 1106000AFBBAAAA | Lumigan 300micrograms/ml eye drops | Bimatoprost |
+| 1106000AFBCAAAA | Sturiban 0.3mg/ml eye drops | Bimatoprost |
+| 1106000AIBDAAAA | Visublend 0.3mg/ml / 5mg/ml eye drops | Timolol and bimatoprost |
+| 1106000AFBHAAAB | Visuplain 0.1mg/ml eye drops | Bimatoprost |
+| 1106000AFBFAAAD | Vizibim 0.3mg/ml eye drops | Bimatoprost |
 
-The data compiled for this report show one valid single-ingredient authorisation. The indication text and BNF/NICE details were not available, so please confirm them against the current SmPC and BNF.
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The indication text and BNF/NICE details were not available, so please confirm them against the current SmPC and BNF.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "Raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 ---
 
@@ -52,8 +52,8 @@ There are **no registered clinical trials** and **15 publications** (mostly prec
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,22 @@ Of the publications compiled, the most relevant ones are listed below. All are p
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0503010AEAAAAAA (BNF-style code; not a PL number) | Raltegravir tablets 400 mg | Not stated | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503010AEAAABAB | Raltegravir 100mg chewable tablets | Raltegravir |
+| 0503010AEAAADAD | Raltegravir 100mg granules for oral suspension sachets | Raltegravir |
+| 0503010AEAAACAC | Raltegravir 25mg chewable tablets | Raltegravir |
+| 0503010AEAAAAAA | Raltegravir 400mg tablets | Raltegravir |
+| 0503010AEAAAEAE | Raltegravir 600mg tablets | Raltegravir |
+| 0503010AYAAAAAA | Generic National 30 day HIV post exposure prophylaxis pack | Raltegravir/Emtricitabine/Tenofovir disoproxil |
+| 0503010AEBBABAB | Isentress 100mg chewable tablets | Raltegravir |
+| 0503010AEBBADAD | Isentress 100mg granules for oral suspension sachets | Raltegravir |
+| 0503010AEBBACAC | Isentress 25mg chewable tablets | Raltegravir |
+| 0503010AEBBAAAA | Isentress 400mg tablets | Raltegravir |
+| 0503010AEBBAEAE | Isentress 600mg tablets | Raltegravir |
+| 0503010AYBBAAAA | National 30 day HIV post exposure prophylaxis pack | Raltegravir/Emtricitabine/Tenofovir disoproxil |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Raltegravir is recorded as marketed in the UK, with one single-ingredient record. The data compiled for this report contain no licence indication text, so approved indications cannot be confirmed here. Please check the current SmPC and BNF.
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 183
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Early myoclonic encephalopathy, absence epilepsy…"
 monitor_inn: "Clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ The evidence is mainly reviews and small older studies, so this remains a resear
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 0.9965 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (58 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 58 |
 | Recommended Decision | Hold (research question; Proceed with Guardrails only if supported by further evidence) |
 
 ---
@@ -93,11 +93,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0408010F0AAABAB (BNF-style product code) | Clonazepam tablets 500 microgram | Tablet (not specified in the data) | Not specified in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0408010F0AABFBF | Clonazepam 1.25mg/5ml oral liquid | Clonazepam |
+| 0408010F0AACXCX | Clonazepam 1.2mg/5ml oral liquid | Clonazepam |
+| 0408010F0AABKBK | Clonazepam 1.5mg/5ml oral liquid | Clonazepam |
+| 0408010F0AACFCF | Clonazepam 100micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AACSCS | Clonazepam 10mg/5ml oral liquid | Clonazepam |
+| 0408010F0AACACA | Clonazepam 12.5mg/5ml oral liquid | Clonazepam |
+| 0408010F0AABJBJ | Clonazepam 120micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AACECE | Clonazepam 125micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AACHCH | Clonazepam 150micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AACNCN | Clonazepam 160micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AACVCV | Clonazepam 180micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AADEDE | Clonazepam 1mg tablets | Clonazepam |
+| 0408020D0AAABAB | Clonazepam 1mg/1ml solution for injection ampoules | Clonazepam |
+| 0408010F0AABGBG | Clonazepam 1mg/5ml oral liquid | Clonazepam |
+| 0408010F0AABPBP | Clonazepam 2.5mg/5ml oral liquid | Clonazepam |
+| 0408010F0AADCDC | Clonazepam 2.5mg/ml drops | Clonazepam |
+| 0408010F0AAAAAA | Clonazepam 2.5mg/ml drops sugar free | Clonazepam |
+| 0408010F0AABHBH | Clonazepam 200micrograms/5ml oral liquid | Clonazepam |
+| 0408010F0AABCBC | Clonazepam 250micrograms/5ml oral solution | Clonazepam |
+| 0408010F0AADDDD | Clonazepam 250micrograms/5ml oral suspension | Clonazepam |
 
-Only one authorisation is recorded (single-ingredient, valid). Dosage form, manufacturer and approved indication text were not available, so please check the current SmPC and BNF.
+Showing 20 of 58 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Dosage form, manufacturer and approved indication text were not available, so please check the current SmPC and BNF.
 
 ---
 

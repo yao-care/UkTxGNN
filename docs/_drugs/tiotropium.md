@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tiotropium"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
 description: "Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Tiotropium is an inhaled long-acting anticholinergic bronchodilator marketed in 
 | Predicted New Indication | Respiratory malformation |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -89,9 +89,30 @@ Neither publication tests tiotropium in respiratory malformation.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301020Q0AAAAAA (BNF code) | Tiotropium powder for inhalation capsule 18 mcg + device | Inhalation powder capsule | Indication text not recorded in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301020Q0AAABAB | Tiotropium bromide 18microgram inhalation powder capsules | Tiotropium bromide |
+| 0301020Q0AAAEAE | Tiotropium bromide 2.5micrograms/dose inhalation soln cart | Tiotropium bromide |
+| 0301020Q0BDAAAA | Acopair 18microgram inhalation pdr caps with NeumoHaler | Tiotropium bromide |
+| 0301020Q0BCAAAD | Braltus 10microgram inhalation pdr caps with Zonda inhaler | Tiotropium bromide |
+| 0301040X0BBABAB | Spiolto Respimat 2.5microg/dose / 2.5microg/dose soln refill | Tiotropium bromide/olodaterol |
+| 0301040X0BBAAAA | Spiolto Respimat 2.5microg/dose/2.5microg/dose soln | Tiotropium bromide/olodaterol |
+| 0301020Q0BBAAAA | Spiriva 18microgram inhalation pdr caps with HandiHaler | Tiotropium bromide |
+| 0301020Q0BBABAB | Spiriva 18microgram inhalation powder capsules | Tiotropium bromide |
+| 0301020Q0BBACAC | Spiriva Respimat 2.5microg/dose inhalation soln | Tiotropium bromide |
+| 0301020Q0BBADAE | Spiriva Respimat 2.5microg/dose inhalation soln refill cart | Tiotropium bromide |
+| 0301020Q0BEABAB | Tiogiva 18microgram inhalation powder capsules | Tiotropium bromide |
+| 0301020Q0BEAAAA | Tiogiva 18microgram inhalation powder capsules with device | Tiotropium bromide |
+| 0301040X0AAABAB | Tiotropium brom 2.5microg/Olodaterol 2.5microg/dose soln | Tiotropium bromide/olodaterol |
+| 0301040X0AAAAAA | Tiotropium brom 2.5microg/Olodaterol 2.5microg/dose soln&dev | Tiotropium bromide/olodaterol |
+| 0301020Q0AAACAC | Tiotropium brom 2.5microg/dose soln for inhalation CFCfree | Tiotropium bromide |
+| 0301020Q0AAADAD | Tiotropium bromide 10microgram inhalation pdr caps with dev | Tiotropium bromide |
+| 0301020Q0AAAAAA | Tiotropium bromide 18microgram inhalation pdr caps with dev | Tiotropium bromide |
+| 0301020Q0BFABAA | Trokide 18microg inhalation pdr capsules with Vertical-Haler | Tiotropium bromide |
+| 0301020Q0BFAAAB | Trokide 18microgram inhalation powder capsules | Tiotropium bromide |
+| 0301040X0BCAAAA | Yanimo Respimat 2.5microg/dose / 2.5microg/dose soln | Tiotropium bromide/olodaterol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code in the identifier (0301020Q0) places the product among the antimuscarinic bronchodilators.
 

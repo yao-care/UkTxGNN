@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **n
 | Predicted New Indication | nasal cavity disease |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (at least 20) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | at least 20 |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (33 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 33 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,15 +79,32 @@ Currently no related literature available for nasal cavity disease.
 
 ## UK Market Information
 
-Twenty single-ingredient licence records are listed as valid in the local data, and the list may be partial. Indication text, dosage form and manufacturer are not recorded for these entries. Examples of the products are below.
+Indication text, dosage form and manufacturer are not recorded for these entries. Examples of the products are below.
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0407010X0CFAABD | Lemsip Max Cold & Flu Powder Sachets | Not recorded | Not recorded |
-| 0407010X0BKACA0 | Propain Plus Caplets | Not recorded | Not recorded |
-| 0407010X0BIABAI | Remedeine Forte Tablets | Not recorded | Not recorded |
-| 0407010X0BXACBL | Paramol Soluble Tablets 500mg/7.46mg | Not recorded | Not recorded |
-| 0407010X0BVAAAT | Panadol Night Pain Tablets | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407020G0BCADAI | DF 118 Forte 40mg tablets | Dihydrocodeine tartrate |
+| 0407020G0AAAAAA | Dihydrocodeine 10mg/5ml oral solution | Dihydrocodeine tartrate |
+| 0407020G0AAAPAP | Dihydrocodeine 10mg/5ml oral suspension | Dihydrocodeine tartrate |
+| 0407020G0AAAFAF | Dihydrocodeine 120mg modified-release tablets | Dihydrocodeine tartrate |
+| 0407020G0AAANAN | Dihydrocodeine 15mg/5ml oral solution | Dihydrocodeine tartrate |
+| 0407020G0AAACAC | Dihydrocodeine 30mg tablets | Dihydrocodeine tartrate |
+| 0407020G0AAAMAM | Dihydrocodeine 30mg/5ml oral solution | Dihydrocodeine tartrate |
+| 0407020G0AAAIAI | Dihydrocodeine 40mg tablets | Dihydrocodeine tartrate |
+| 0407020G0AAABAB | Dihydrocodeine 50mg/1ml solution for injection ampoules | Dihydrocodeine tartrate |
+| 0407020G0AAADAD | Dihydrocodeine 60mg modified-release tablets | Dihydrocodeine tartrate |
+| 0407020G0AAARAR | Dihydrocodeine 60mg/5ml oral liquid | Dihydrocodeine tartrate |
+| 0407020G0AAAEAE | Dihydrocodeine 90mg modified-release tablets | Dihydrocodeine tartrate |
+| 0407020G0AAAKAK | Dihydrocodeine 90mg/5ml oral solution | Dihydrocodeine tartrate |
+| 0407010N0AAAFAF | Co-dydramol 10mg/500mg oral powder sachets | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAAAAA | Co-dydramol 10mg/500mg tablets | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAACAC | Co-dydramol 10mg/500mg/5ml oral solution | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAAGAG | Co-dydramol 10mg/500mg/5ml oral suspension | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAAHAH | Co-dydramol 20mg/500mg tablets | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAAIAI | Co-dydramol 30mg/500mg tablets | Co-dydramol (Dihydrocodeine/paracetamol) |
+| 0407010N0AAAKAK | Co-dydramol 7.46mg/500mg effervescent tablets sugar free | Co-dydramol (Dihydrocodeine/paracetamol) |
+
+Showing 20 of 33 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Deferasirox is an oral iron chelator. The TxGNN model predicts it may be relevan
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9940 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -75,7 +75,7 @@ Neither publication directly studies deferasirox as a treatment for HIV infectio
 
 ## UK Market Information
 
-One valid single-ingredient licence record is present in the local data (deferasirox dispersible tablet, 500 mg). No indication text, dosage form or manufacturer is recorded for it.
+No indication text, dosage form or manufacturer is recorded for it.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 187
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Clozapine is an atypical antipsychotic with a broad receptor-binding profile. Th
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -79,9 +79,30 @@ An important caveat is that the available evidence concerns bipolar disorder bro
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010C0AAABAB (BNF-style product code) | Clozapine Tab 100mg | Tablet (not stated in the data) | Not stated in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010C0AAAKAK | Clozapine 100mg orodispersible tablets sugar free | Clozapine |
+| 0402010C0AAABAB | Clozapine 100mg tablets | Clozapine |
+| 0402010C0AAAFAF | Clozapine 100mg/5ml oral liquid | Clozapine |
+| 0402010C0AAAHAH | Clozapine 12.5mg orodispersible tablets sugar free | Clozapine |
+| 0402010C0AAALAL | Clozapine 200mg orodispersible tablets sugar free | Clozapine |
+| 0402010C0AAADAD | Clozapine 200mg tablets | Clozapine |
+| 0402010C0AAAIAI | Clozapine 25mg orodispersible tablets sugar free | Clozapine |
+| 0402010C0AAAAAA | Clozapine 25mg tablets | Clozapine |
+| 0402010C0AAAJAJ | Clozapine 50mg orodispersible tablets sugar free | Clozapine |
+| 0402010C0AAACAC | Clozapine 50mg tablets | Clozapine |
+| 0402010C0AAAEAE | Clozapine 50mg/ml oral suspension sugar free | Clozapine |
+| 0402010C0BBACAK | Clozaril 100mg orodispersible tablets | Clozapine |
+| 0402010C0BBABAB | Clozaril 100mg tablets | Clozapine |
+| 0402010C0BBADAH | Clozaril 12.5mg orodispersible tablets | Clozapine |
+| 0402010C0BBAEAL | Clozaril 200mg orodispersible tablets | Clozapine |
+| 0402010C0BBAHAD | Clozaril 200mg tablets | Clozapine |
+| 0402010C0BBAFAI | Clozaril 25mg orodispersible tablets | Clozapine |
+| 0402010C0BBAAAA | Clozaril 25mg tablets | Clozapine |
+| 0402010C0BBAGAJ | Clozaril 50mg orodispersible tablets | Clozapine |
+| 0402010C0BCABAB | Denzapine 100mg tablets | Clozapine |
+
+Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local data. It sits in the BNF antipsychotic chapter (code prefix 0402010).
 

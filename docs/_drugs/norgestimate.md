@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **elevated plasma zinc**, but the
 | Predicted New Indication | Zinc, elevated plasma |
 | TxGNN Prediction Score | 0.9906 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0703010G0AAACAC (NHS BNF code) | Ethinylestradiol/Norgestimate tablets 35 micrograms/250 micrograms | Tablet | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0703010G0BFAAAC | Cilest 35microgram/250microgram tablets | Combined ethinylestradiol 35mcg |
+| 0703010G0BHAAAC | Cilique 250microgram/35microgram tablets | Combined ethinylestradiol 35mcg |
+| 0703010G0AAACAC | Ethinylestradiol 35microgram / Norgestimate 250microgram tab | Combined ethinylestradiol 35mcg |
+| 0703010G0BGAAAC | Lizinna 250microgram/35microgram tablets | Combined ethinylestradiol 35mcg |
 
-The product is a single-ingredient-listed authorisation record that is currently valid. BNF classification lies within chapter 7 (obstetrics, gynaecology and urinary-tract disorders), section 7.3.1 (combined hormonal contraceptives), as indicated by the code prefix 0703010. Dosage form and approved indication text were not available in the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+BNF classification lies within chapter 7 (obstetrics, gynaecology and urinary-tract disorders), section 7.3.1 (combined hormonal contraceptives), as indicated by the code prefix 0703010. Dosage form and approved indication text were not available in the data compiled for this report.
 
 ## Safety Considerations
 

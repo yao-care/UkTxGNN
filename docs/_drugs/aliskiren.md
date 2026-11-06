@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Aliskiren"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Aliskiren: predicted new indication pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **pulmonary hypertension with unc
 | Predicted New Indication | pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,7 +69,7 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
-The data compiled for this report show a marketed status, with one valid single-ingredient authorisation record (no cancelled records). No approved indication text or dosage form is recorded in the local data, so the licensed uses cannot be described here. Please check the current MHRA record and the BNF for product details.
+No approved indication text or dosage form is recorded in the local data, so the licensed uses cannot be described here. Please check the current MHRA record and the BNF for product details.
 
 ## Safety Considerations
 

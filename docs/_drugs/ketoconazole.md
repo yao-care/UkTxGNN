@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 350
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 0.9980 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold (research question only) |
 
 ---
@@ -97,11 +97,31 @@ Other retrieved publications (on polycystic ovary syndrome, adapalene, infant ra
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1309000I0AAAAAA | Ketoconazole Shampoo 2% | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1309000I0AAACAC | Ketoconazole 1% shampoo | Ketoconazole |
+| 0502020A0AAADAD | Ketoconazole 100mg/5ml oral suspension | Ketoconazole |
+| 1310020L0AAAAAA | Ketoconazole 2% cream | Ketoconazole |
+| 1309000I0AAAAAA | Ketoconazole 2% shampoo | Ketoconazole |
+| 0502020A0AAACAC | Ketoconazole 200mg tablets | Ketoconazole |
+| 0502020A0AAAEAE | Ketoconazole 60mg/5ml oral suspension | Ketoconazole |
+| 0502020A0AAAFAF | Ketoconazole 75mg/5ml oral suspension | Ketoconazole |
+| 1309000I0BGAAAA | Boots Anti-Dandruff 2% shampoo | Ketoconazole |
+| 1310020L0BCAAAA | Daktarin Gold 2% cream | Ketoconazole |
+| 1310020L0BCABAA | Daktarin Intensiv 2% cream | Ketoconazole |
+| 1309000I0BEAAAA | Dandrazol 2% shampoo | Ketoconazole |
+| 1309000I0BEABAA | Dandrazol Anti-dandruff 2% shampoo | Ketoconazole |
+| 1309000I0BFAAAA | Ketopine 2% shampoo | Ketoconazole |
+| 1310020L0BBAAAA | Nizoral 2% cream | Ketoconazole |
+| 1309000I0BBAAAA | Nizoral 2% shampoo | Ketoconazole |
+| 0502020A0BBAAAC | Nizoral 200mg tablets | Ketoconazole |
+| 1309000I0BBABAA | Nizoral Dandruff 2% shampoo | Ketoconazole |
+| 1309000I0BBAEAA | Nizoral anti-dandruff 2% shampoo | Ketoconazole |
+| 1309000I0BCAAAC | Nizorelle 1% shampoo | Ketoconazole |
 
-Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not in the usual PL format, and no dosage form, manufacturer or indication text is provided. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No NICE appraisal or BNF classification data were available.
 
 ---
 
@@ -131,7 +151,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold (research question only)**
 
 **Rationale:**
-Support for acne rests on a high model score, laboratory data and one small, unreported trial, which is L4 evidence. Systemic exposure carries serious safety concerns, and the available UK authorisation record is incomplete.
+Support for acne rests on a high model score, laboratory data and one small, unreported trial, which is L4 evidence. Systemic exposure carries serious safety concerns.
 
 **To proceed, the following is needed:**
 - Results from NCT07237763 and, ideally, larger randomised trials of topical ketoconazole in acne vulgaris, distinguishing it from Malassezia folliculitis

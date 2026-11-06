@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Teriparatide: predicted new indication duodenal ulcer (disease) (evidence level L5). Approved use: Postmenopausal osteoporosis / osteoporosis"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but **no cl
 | Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ---
@@ -81,9 +81,22 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0606010U0AAACAC (BNF-style product code, not a PL number) | Teriparatide injection 250 micrograms/mL, 2.4 mL pre-filled pen | Injection (pre-filled pen) | Not specified in the listing |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0606010U0AAACAC | Teriparatide 20microg/80microL dose inj 2.4ml pf dispos dev | Teriparatide |
+| 0606010U0AAAEAE | Teriparatide 20micrograms/80microlitres dose inj 2.4ml cart | Teriparatide |
+| 0606010U0AAAAAA | Teriparatide 750micrograms/3ml inj pf dispos dev | Teriparatide |
+| 0606010U0BBABAC | Forsteo 20micrograms/80microlitres dose inj 2.4ml pf pens | Teriparatide |
+| 0606010U0BBAAAA | Forsteo 20micrograms/80microlitres inj 3ml pf dispos dev | Teriparatide |
+| 0606010U0BGAAAC | Lusama 20micrograms/80microlitres dose inj 2.4ml pf pens | Teriparatide |
+| 0606010U0BDAAAD | Movymia 20microg/80microlitres dose inj 2.4ml cart with pen | Teriparatide |
+| 0606010U0BDABAE | Movymia 20micrograms/80microlitres dose inj 2.4ml cartridge | Teriparatide |
+| 0606010U0BFAAAC | Sondelbay 20micrograms/80microlitres dose inj 2.4ml pf pens | Teriparatide |
+| 0606010U0AAADAD | Teriparatide 20microg/80microL dose inj 2.4ml cart with dev | Teriparatide |
+| 0606010U0BEABAD | Terrosa 20microg/80microlitres dose inj 2.4ml cart with pen | Teriparatide |
+| 0606010U0BEAAAE | Terrosa 20micrograms/80microlitres dose inj 2.4ml cartridge | Teriparatide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listing is a single marketed single-ingredient product. It carries no approved indication text, so the indication should be confirmed against the SmPC and BNF.
 

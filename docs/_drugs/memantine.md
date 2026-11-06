@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Memantine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -49,8 +49,8 @@ The TxGNN model's most clinically supported prediction is **migraine disorder** 
 | Predicted New Indication | Migraine disorder (rank 2; selected because rank 1, pulmonary hypertension, has no supporting evidence) |
 | TxGNN Prediction Score | 0.9952 |
 | Evidence Level | L5 (provisional; based on one small Phase 3 trial) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (28 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 28 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -84,12 +84,32 @@ The other predictions are weaker. Pulmonary hypertension and kyphoscoliotic hear
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0411000G0AAABAB | Memantine HCl oral solution 5 mg/pump | Oral solution | Not stated |
-| 0411000G0AAAAAA | Memantine HCl tablets 10 mg | Tablet | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0411000G0AAAFAF | Memantine 10mg orodispersible tablets sugar free | Memantine hydrochloride |
+| 0411000G0AAAHAH | Memantine 10mg soluble tablets sugar free | Memantine hydrochloride |
+| 0411000G0AAAAAA | Memantine 10mg tablets | Memantine hydrochloride |
+| 0411000G0AAABAB | Memantine 10mg/ml oral solution sugar free | Memantine hydrochloride |
+| 0411000G0AAAGAG | Memantine 20mg orodispersible tablets sugar free | Memantine hydrochloride |
+| 0411000G0AAAIAI | Memantine 20mg soluble tablets sugar free | Memantine hydrochloride |
+| 0411000G0AAADAD | Memantine 20mg tablets | Memantine hydrochloride |
+| 0411000G0AAAKAK | Memantine 5mg orodispersible tablets sugar free | Memantine hydrochloride |
+| 0411000G0AAAJAJ | Memantine 5mg/10mg/15mg/20mg orodispersible initiation pack | Memantine hydrochloride |
+| 0411000G0AAAEAE | Memantine 5mg/10mg/15mg/20mg tabs treatment initiation pack | Memantine hydrochloride |
+| 0411000G0BGAAAH | Alzhok 10mg soluble tablets | Memantine hydrochloride |
+| 0411000G0BGABAI | Alzhok 20mg soluble tablets | Memantine hydrochloride |
+| 0411000G0BGACA0 | Alzhok soluble tablets treatment initiation pack | Memantine hydrochloride |
+| 0411000G0BBAAAA | Ebixa 10mg tablets | Memantine hydrochloride |
+| 0411000G0BBACAD | Ebixa 20mg tablets | Memantine hydrochloride |
+| 0411000G0BBABAB | Ebixa 5mg/0.5ml pump actuation oral solution | Memantine hydrochloride |
+| 0411000G0BBADAE | Ebixa tablets treatment initiation pack | Memantine hydrochloride |
+| 0411000G0BDAAAA | Marixino 10mg tablets | Memantine hydrochloride |
+| 0411000G0BDABAD | Marixino 20mg tablets | Memantine hydrochloride |
+| 0411000G0BHAAAF | Mentino 10mg orodispersible tablets | Memantine hydrochloride |
 
-Both authorisations are valid single-ingredient products. The data compiled for this report do not include approved indication text, so please check the BNF and SmPC for the licensed indication and any NICE-appraised use. Migraine prophylaxis would be off-label use.
+Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The data compiled for this report do not include approved indication text, so please check the BNF and SmPC for the licensed indication and any NICE-appraised use. Migraine prophylaxis would be off-label use.
 
 ## Safety Considerations
 

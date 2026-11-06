@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 262
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ethanolamine Oleate: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ethanolamine
 | New predicted indications | None (no model candidate scored 0.99 or higher) |
 | Known uses recorded for this drug | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 
 ## Known uses recorded for this drug
 
@@ -72,9 +72,12 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ethanolamine
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0213000F0AAABAB | Ethanolamine Oleate_Inj 5% 5ml Amp |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0213000F0AAAAAA | Ethanolamine oleate 5% solution for injection 2ml ampoules | Ethanolamine oleate |
+| 0213000F0AAABAB | Ethanolamine oleate 5% solution for injection 5ml ampoules | Ethanolamine oleate |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

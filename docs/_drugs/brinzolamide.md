@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 111
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Brinzolamide: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,18 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 1106000ACAAAAAA | Brinzolamide_Eye Dps 10mg/ml |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000ACAAAAAA | Brinzolamide 10mg/ml eye drops | Brinzolamide |
+| 1106000AJBBAAAA | Azarga 10mg/ml / 5mg/ml eye drops | Brinzolamide and timolol |
+| 1106000ACBBAAAA | Azopt 10mg/ml eye drops | Brinzolamide |
+| 1106000ALAAABAB | Brinzolamide 10mg / Brimonidine 2mg/ml eye dps preserv free | Brinzolamide/brimonidine |
+| 1106000ALAAAAAA | Brinzolamide 10mg/ml / Brimonidine 2mg/ml eye drops | Brinzolamide/brimonidine |
+| 1106000AJAAAAAA | Brinzolamide 10mg/ml / Timolol 5mg/ml eye drops | Brinzolamide and timolol |
+| 1106000ALBBAAAA | Simbrinza 10mg/ml / 2mg/ml eye drops | Brinzolamide/brimonidine |
+| 1106000ALBCAAAB | Xabrixa 10mg/ml / 2mg/ml eye drops | Brinzolamide/brimonidine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

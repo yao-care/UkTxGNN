@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -50,8 +50,8 @@ Fosfomycin is an antibiotic whose recorded use in the knowledge graph is urinary
 | Predicted New Indication | Uterine inflammatory disease |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ---
@@ -85,11 +85,18 @@ The supporting material does not test this idea. The two trials are general paed
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501130D0AAAAAA (identifier as listed; not a PL number) | Fosfomycin Trometamol 3 g sachet | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070AEAAADAD | Fosfomycin 3g granules for oral solution sachets | Fosfomycin trometamol |
+| 0501130S0AAAAAA | Fosfomycin 500mg capsules | Fosfomycin calcium |
+| 0501070AEBDAAAD | Alexi 3g granules for oral solution sachets | Fosfomycin trometamol |
+| 0501130S0BBAAAA | Fosfocina 500mg capsules | Fosfomycin calcium |
+| 0501070AEBBADAD | Monuril 3g granules for oral solution sachets | Fosfomycin trometamol |
+| 0501070AEBCAAAD | Monurol 3g granules for oral solution sachets | Fosfomycin trometamol |
 
-One single-ingredient record is listed, and its status is valid. No indication text was supplied, so the approved indication cannot be confirmed from the data compiled for this report. Please check the current SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No indication text was supplied, so the approved indication cannot be confirmed from the data compiled for this report. Please check the current SmPC and BNF.
 
 ---
 

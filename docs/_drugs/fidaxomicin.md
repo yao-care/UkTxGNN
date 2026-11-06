@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
 description: "Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ but there are currently **no clinical trials** and **no relevant publications** 
 | Predicted New Indication | Staphylococcal scalded skin syndrome |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -74,9 +74,14 @@ For completeness, one publication was retrieved for the lower-ranked prediction 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501070ACAAAAAA (BNF-style code, not a PL number) | Fidaxomicin 200 mg tablets | Tablet | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501070ACAAAAAA | Fidaxomicin 200mg tablets | Fidaxomicin |
+| 0501070ACAAABAB | Fidaxomicin 40mg/ml oral suspension sugar free | Fidaxomicin |
+| 0501070ACBBAAAA | Dificlir 200mg tablets | Fidaxomicin |
+| 0501070ACBBABAB | Dificlir 40mg/ml oral suspension | Fidaxomicin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF code suggests a position in BNF chapter 5 (infections), but the data compiled for this report do not include the product's dosage form field, manufacturer or approved indication text.
 

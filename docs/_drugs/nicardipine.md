@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Nicardipine"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Nicardipine: predicted new indication Pulmonary hypertension owing to lung disease and/or hypoxia (evidence level L5). Approved use: Hypertensive disorder and hypertension"
 ---
 
@@ -52,8 +52,8 @@ but there are currently **no registered clinical trials** and **no publications 
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 0.9926 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -93,9 +93,19 @@ None of the retrieved publications studies nicardipine in patients with pulmonar
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0206020Q0AAAAAA | Nicardipine HCl Cap 20mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020Q0AAAAAA | Nicardipine 20mg capsules | Nicardipine hydrochloride |
+| 0206020Q0AAAFAF | Nicardipine 20mg/5ml oral liquid | Nicardipine hydrochloride |
+| 0206020Q0AAABAB | Nicardipine 30mg capsules | Nicardipine hydrochloride |
+| 0206020Q0AAACAC | Nicardipine 30mg modified-release capsules | Nicardipine hydrochloride |
+| 0206020Q0AAADAD | Nicardipine 45mg modified-release capsules | Nicardipine hydrochloride |
+| 0206020Q0BBAAAA | Cardene 20mg capsules | Nicardipine hydrochloride |
+| 0206020Q0BBABAB | Cardene 30mg capsules | Nicardipine hydrochloride |
+| 0206020Q0BBACAC | Cardene SR 30mg capsules | Nicardipine hydrochloride |
+| 0206020Q0BBADAD | Cardene SR 45mg capsules | Nicardipine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier resembles a BNF-style product code (BNF section 2.6.2, calcium-channel blockers) rather than a standard PL number. Please verify it against the MHRA register.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 | Predicted New Indication | diffuse scleroderma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (50 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 50 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,12 +77,30 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501120L0AAAAAA | Ciprofloxacin Tab 250mg | Tablet (not recorded) | Not recorded in the local data |
-| 1103010B0AAAAAA | Ciprofloxacin HCl Eye Drops 0.3% | Eye drops (not recorded) | Not recorded in the local data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1103010B0AAAEAE | Ciprofloxacin 0.2% eye drops preservative free | Ciprofloxacin |
+| 1201010ACAAAAAA | Ciprofloxacin 0.3% ear drops | Ciprofloxacin |
+| 1103010B0AAAAAA | Ciprofloxacin 0.3% eye drops | Ciprofloxacin |
+| 0501120L0AAAGAG | Ciprofloxacin 100mg tablets | Ciprofloxacin |
+| 0501120L0AAABAB | Ciprofloxacin 100mg/50ml solution for infusion bottles | Ciprofloxacin |
+| 0501120L0AABQBQ | Ciprofloxacin 100mg/50ml solution for infusion vials | Ciprofloxacin |
+| 0501120L0AAAPAP | Ciprofloxacin 100mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AAATAT | Ciprofloxacin 125mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AABIBI | Ciprofloxacin 150mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AABJBJ | Ciprofloxacin 165mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AAAXAX | Ciprofloxacin 170mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AABCBC | Ciprofloxacin 175mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AABEBE | Ciprofloxacin 200mg/100ml infusion bags | Ciprofloxacin |
+| 0501120L0AAADAD | Ciprofloxacin 200mg/100ml solution for infusion bottles | Ciprofloxacin |
+| 0501120L0AABRBR | Ciprofloxacin 200mg/100ml solution for infusion vials | Ciprofloxacin |
+| 0501120L0AABKBK | Ciprofloxacin 20mg/5ml oral suspension | Ciprofloxacin |
+| 0501120L0AAAAAA | Ciprofloxacin 250mg tablets | Ciprofloxacin |
+| 0501120L0AABGBG | Ciprofloxacin 250mg/5ml oral suspension | Ciprofloxacin |
+| 1201010ACAAABAB | Ciprofloxacin 2mg/ml ear dps 0.25ml ud preservative free | Ciprofloxacin |
+| 0501120L0AABBBB | Ciprofloxacin 375mg/5ml oral suspension | Ciprofloxacin |
 
-Both authorisations are valid and are single-ingredient products.
+Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

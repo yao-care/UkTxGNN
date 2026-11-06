@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 422
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
@@ -82,9 +82,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403020K0AAAAAA | Moclobemide Tablets 150 mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403020K0AAAAAA | Moclobemide 150mg tablets | Moclobemide |
+| 0403020K0AAADAD | Moclobemide 150mg/5ml oral suspension | Moclobemide |
+| 0403020K0AAACAC | Moclobemide 300mg tablets | Moclobemide |
+| 0403020K0AAAEAE | Moclobemide 50mg/5ml oral suspension | Moclobemide |
+| 0403020K0BBAAAA | Manerix 150mg tablets | Moclobemide |
+| 0403020K0BBABAC | Manerix 300mg tablets | Moclobemide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification code (04.03.02, MAOIs) is reflected in the identifier above. The identifier is in BNF-code format rather than the usual PL number format, so the authorisation number should be checked against the MHRA register.
 

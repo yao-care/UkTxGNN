@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 92
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Baclofen: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Muscle spasticity"
 monitor_inn: "Baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -50,8 +50,8 @@ Baclofen is a GABA-B receptor agonist, widely used to treat muscle spasticity. T
 | Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 0.9932 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (20 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 20 |
 | Recommended Decision | Hold |
 
 ---
@@ -92,9 +92,30 @@ None of these publications tests baclofen in people with ADHD.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1002020C0AAABAB | Baclofen oral solution 5mg/5ml sugar free | Oral solution | Not listed in the record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1002020C0AAAIAI | Baclofen 10mg tablets | Baclofen |
+| 1002020C0AAA4A4 | Baclofen 10mg/20ml solution for infusion ampoules | Baclofen |
+| 1002020C0AABGBG | Baclofen 10mg/5ml oral solution sugar free | Baclofen |
+| 1002020C0AAA3A3 | Baclofen 10mg/5ml solution for infusion ampoules | Baclofen |
+| 1002020C0AABEBE | Baclofen 15mg/5ml oral liquid | Baclofen |
+| 1002020C0AABHBH | Baclofen 20mg tablets | Baclofen |
+| 1002020C0AABDBD | Baclofen 20mg/5ml oral liquid | Baclofen |
+| 1002020C0AAA8A8 | Baclofen 2mg/5ml oral liquid | Baclofen |
+| 1002020C0AABFBF | Baclofen 40mg/20ml solution for infusion ampoules | Baclofen |
+| 1002020C0AAA2A2 | Baclofen 50micrograms/1ml solution for injection ampoules | Baclofen |
+| 1002020C0AABIBI | Baclofen 5mg tablets | Baclofen |
+| 1002020C0AAABAB | Baclofen 5mg/5ml oral solution sugar free | Baclofen |
+| 1002020C0AAA1A1 | Baclofen 5mg/5ml oral suspension | Baclofen |
+| 1002020C0BCAAAI | Baclospas 10mg tablets | Baclofen |
+| 1002020C0BBAAAI | Lioresal 10mg tablets | Baclofen |
+| 1002020C0BBABAB | Lioresal 5mg/5ml liquid | Baclofen |
+| 1002020C0BBAGA4 | Lioresal Intrathecal 10mg/20ml inf ampoules | Baclofen |
+| 1002020C0BBAFA3 | Lioresal Intrathecal 10mg/5ml solution for infusion ampoules | Baclofen |
+| 1002020C0BBAEA2 | Lioresal Intrathecal 50micrograms/1ml inj ampoules | Baclofen |
+| 1002020C0BEAAAB | Lyflex 5mg/5ml oral solution | Baclofen |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Check the current BNF entry and the SmPC for the licensed indications. No NICE appraisal of baclofen for ADHD is included in the data compiled for this report.
 

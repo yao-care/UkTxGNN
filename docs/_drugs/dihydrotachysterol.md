@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Dihydrotachysterol"
 predicted_indications: ["obsolete vitamin D deficiency", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "impaired renal function disease", "non-renal secondary hyperparathyroidism"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Dihydrotachysterol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -50,8 +50,8 @@ However, **no clinical trials and no publications** currently support this speci
 | Predicted New Indication | obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -72,11 +72,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0906040K0AAAAAA | Dihydrotachysterol oily solution 250 micrograms/1 mL | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906040K0BBAAAA | AT10 250micrograms/ml oral solution | Dihydrotachysterol |
+| 0906040K0AAAAAA | Dihydrotachysterol 250micrograms/ml oral solution sugar free | Dihydrotachysterol |
 
-One valid single-ingredient licence is recorded. The licence record carries no indication text.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

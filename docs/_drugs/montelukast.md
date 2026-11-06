@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 424
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -50,7 +50,8 @@ Montelukast is an oral cysteinyl leukotriene receptor (CysLT1) antagonist. The T
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Hold |
 
 ---
@@ -103,11 +104,19 @@ Most other studies in the data are in bronchiolitis, a different condition, and 
 
 ## UK Market Information
 
-Montelukast is marketed in the UK, with one valid single-ingredient authorisation recorded.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0303020G0AAABAB | Montelukast 10mg tablets | Montelukast |
+| 0303020G0AAACAC | Montelukast 4mg chewable tablets sugar free | Montelukast |
+| 0303020G0AAADAD | Montelukast 4mg granules sachets sugar free | Montelukast |
+| 0303020G0AAAAAA | Montelukast 5mg chewable tablets sugar free | Montelukast |
+| 0303020G0BCAAAD | Amecas 4mg granules sachets | Montelukast |
+| 0303020G0BBABAB | Singulair 10mg tablets | Montelukast |
+| 0303020G0BBACAC | Singulair Paediatric 4mg chewable tablets | Montelukast |
+| 0303020G0BBADAD | Singulair Paediatric 4mg granules sachets | Montelukast |
+| 0303020G0BBAAAA | Singulair Paediatric 5mg chewable tablets | Montelukast |
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0303020G0AAAAAA (BNF-style code, not a PL number) | 1 (valid: 1) | Chewable tablet | Not available in the data compiled for this report |
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The number shown is a BNF-style product code, not a PL number. Please refer to the BNF (section 3.3.2, leukotriene receptor antagonists) and the current SmPC for licensed indications.
 

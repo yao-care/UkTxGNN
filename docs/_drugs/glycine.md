@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
 description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -58,7 +58,6 @@ The TxGNN model predicts it may be effective for **nasal cavity disease**, but t
 Currently, detailed mechanism of action data is not available. Based on known information, glycine's listed uses are already nasal and upper-airway conditions, so the predicted indication is close to its existing uses. A specific pharmacological link, such as a glycine receptor-mediated anti-inflammatory or cytoprotective effect, cannot be substantiated from the data compiled for this report.
 
 The high TxGNN score (0.9985) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Because "nasal cavity disease" is a broad category that includes rhinitis, the prediction is largely an extension of existing associations rather than a new repurposing signal.
-
 
 ## Clinical Trial Evidence
 
@@ -75,11 +74,19 @@ The high TxGNN score (0.9985) comes from the TxGNN model (deep learning) and may
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 091101000AADADA | Glycine liquid, 750 mg/5 ml | Liquid | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 091101000AAFBFB | Glycine 1g oral powder sachets | Other amino acidandnutritional agent preparations |
+| 091101000AAEYEY | Glycine 500mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000AAFQFQ | Glycine 600mg oral powder sachets | Other amino acidandnutritional agent preparations |
+| 091101000AADADA | Glycine 750mg/5ml oral solution | Other amino acidandnutritional agent preparations |
+| 091101000AAERER | Glycine powder | Other amino acidandnutritional agent preparations |
+| 091101000BBUEEY | Gly-Caps 500mg capsules | Other amino acidandnutritional agent preparations |
+| 091101000BBURER | Glycine powder (Nutricia) | Other amino acidandnutritional agent preparations |
 
-This is the only authorisation identified, and it is a single-ingredient product with valid status. Approved indication text and dosage form details were not available in the data compiled for this report.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Approved indication text and dosage form details were not available in the data compiled for this report.
 
 ## Safety Considerations
 

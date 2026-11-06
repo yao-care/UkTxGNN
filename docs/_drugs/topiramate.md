@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy with generalised tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ The data compiled for this report suggest the prediction is likely a TxGNN model
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (40 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 40 |
 | Recommended Decision | Hold |
 
 ---
@@ -63,7 +63,6 @@ The data compiled for this report suggest the prediction is likely a TxGNN model
 Detailed mechanism of action data is not available in the compiled data. From the literature, topiramate is known to act through several mechanisms: blockade of voltage-dependent sodium channels, enhancement of GABA-A mediated inhibition, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition.
 
 These actions explain its effect in epilepsy, but they have no established relevance to tumour biology. The link between epilepsy and trigeminal nerve neoplasm is therefore weak. The very high TxGNN score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
-
 
 ---
 
@@ -77,16 +76,36 @@ Currently no related clinical trials registered for trigeminal nerve neoplasm.
 
 Currently no related literature available for trigeminal nerve neoplasm.
 
-
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 040801050AAAAAA | Topiramate Tab 50mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040801050AAABAB | Topiramate 100mg tablets | Topiramate |
+| 040801050AACCCC | Topiramate 100mg/5ml oral solution | Topiramate |
+| 040801050AAAZAZ | Topiramate 100mg/5ml oral suspension | Topiramate |
+| 040801050AACHCH | Topiramate 100mg/5ml oral suspension sugar free | Topiramate |
+| 040801050AAAQAQ | Topiramate 10mg/5ml oral liquid | Topiramate |
+| 040801050AAAXAX | Topiramate 12.5mg/5ml oral liquid | Topiramate |
+| 040801050AAAYAY | Topiramate 125mg/5ml oral liquid | Topiramate |
+| 040801050AABPBP | Topiramate 12mg/5ml oral liquid | Topiramate |
+| 040801050AABSBS | Topiramate 150mg/5ml oral liquid | Topiramate |
+| 040801050AAAUAU | Topiramate 15mg capsules | Topiramate |
+| 040801050AABVBV | Topiramate 15mg/5ml oral liquid | Topiramate |
+| 040801050AABTBT | Topiramate 16mg/5ml oral liquid | Topiramate |
+| 040801050AAACAC | Topiramate 200mg tablets | Topiramate |
+| 040801050AABABA | Topiramate 200mg/5ml oral liquid | Topiramate |
+| 040801050AABDBD | Topiramate 20mg/5ml oral liquid | Topiramate |
+| 040801050AACICI | Topiramate 20mg/ml oral solution sugar free | Topiramate |
+| 040801050AABZBZ | Topiramate 250mg/5ml oral suspension | Topiramate |
+| 040801050AAAVAV | Topiramate 25mg capsules | Topiramate |
+| 040801050AAADAD | Topiramate 25mg tablets | Topiramate |
+| 040801050AACECE | Topiramate 25mg/5ml oral solution | Topiramate |
 
-The compiled record holds one valid single-ingredient authorisation. The identifier appears to be a local product code, not a standard MHRA PL number, and should be verified against the MHRA database.
+Showing 20 of 40 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The identifier appears to be a local product code, not a standard MHRA PL number, and should be verified against the MHRA database.
 
 ---
 

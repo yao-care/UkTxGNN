@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -42,7 +42,6 @@ Azathioprine is an immunosuppressive purine antimetabolite, originally used for 
 The TxGNN model ranks **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental malformation, as its top prediction.
 There are **no clinical trials and no publications** supporting this prediction. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
-
 ---
 
 ## Quick Overview
@@ -53,8 +52,8 @@ There are **no clinical trials and no publications** supporting this prediction.
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (50 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 50 |
 | Recommended Decision | Hold |
 
 ---
@@ -110,11 +109,30 @@ These two predictions are much better supported than the top-ranked one. Both ar
 
 ## UK Market Information
 
-| Reference Code | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0802010G0AAADAD | Azathioprine Tab 25mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0802010G0AACNCN | Azathioprine 100mg tablets | Azathioprine |
+| 0802010G0AAAVAV | Azathioprine 100mg/5ml oral solution | Azathioprine |
+| 0802010G0AACJCJ | Azathioprine 100mg/5ml oral suspension | Azathioprine |
+| 0802010G0AAAHAH | Azathioprine 10mg capsules | Azathioprine |
+| 0802010G0AAARAR | Azathioprine 10mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABXBX | Azathioprine 120mg/5ml oral liquid | Azathioprine |
+| 0802010G0AAAXAX | Azathioprine 125mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABSBS | Azathioprine 12mg/5ml oral liquid | Azathioprine |
+| 0802010G0AACECE | Azathioprine 13mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABYBY | Azathioprine 150mg/5ml oral liquid | Azathioprine |
+| 0802010G0AAAUAU | Azathioprine 15mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABDBD | Azathioprine 17.5mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABJBJ | Azathioprine 175mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABKBK | Azathioprine 17mg/5ml oral liquid | Azathioprine |
+| 0802010G0AACBCB | Azathioprine 2.5mg/5ml oral liquid | Azathioprine |
+| 0802010G0AABIBI | Azathioprine 200mg/5ml oral liquid | Azathioprine |
+| 0802010G0AAAWAW | Azathioprine 20mg/5ml oral solution | Azathioprine |
+| 0802010G0AACKCK | Azathioprine 20mg/5ml oral suspension | Azathioprine |
+| 0802010G0AACGCG | Azathioprine 250mg/5ml oral liquid | Azathioprine |
+| 0802010G0AAADAD | Azathioprine 25mg tablets | Azathioprine |
 
-This is the only authorisation record in the data compiled for this report. The record carries no dosage-form or indication text, so please check the current MHRA-authorised SmPC and the BNF for the licensed indications.
+Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

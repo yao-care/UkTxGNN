@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **congenital disorder of glycos
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 0.9991 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (39 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 39 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,32 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0402010J0AAAAAA (listed identifier, not in PL format) | Haloperidol capsules 500 microgram | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010J0AAAJAJ | Haloperidol 1.5mg tablets | Haloperidol |
+| 0402010J0AABBBB | Haloperidol 1.5mg/5ml oral liquid | Haloperidol |
+| 0402010J0AAALAL | Haloperidol 10mg tablets | Haloperidol |
+| 0402010J0AAAGAG | Haloperidol 10mg/5ml oral solution sugar free | Haloperidol |
+| 0402010J0AAA7A7 | Haloperidol 1mg/5ml oral liquid | Haloperidol |
+| 0402010J0AABKBK | Haloperidol 2.5mg/5ml oral liquid | Haloperidol |
+| 0402010J0AABGBG | Haloperidol 200micrograms/5ml oral liquid | Haloperidol |
+| 0402010J0AABNBN | Haloperidol 200micrograms/ml oral solution sugar free | Haloperidol |
+| 0402010J0AAAMAM | Haloperidol 20mg tablets | Haloperidol |
+| 0402010J0AAADAD | Haloperidol 20mg/2ml solution for injection ampoules | Haloperidol |
+| 0402010J0AAA5A5 | Haloperidol 250micrograms/5ml oral liquid | Haloperidol |
+| 0402010J0AABDBD | Haloperidol 25micrograms/5ml oral liquid | Haloperidol |
+| 0402010J0AAA6A6 | Haloperidol 2mg/5ml oral liquid | Haloperidol |
+| 0402010J0AAAAAA | Haloperidol 500microgram capsules | Haloperidol |
+| 0402010J0AAAIAI | Haloperidol 500microgram tablets | Haloperidol |
+| 0402010J0AAA8A8 | Haloperidol 500micrograms/5ml oral liquid | Haloperidol |
+| 0402010J0AAAKAK | Haloperidol 5mg tablets | Haloperidol |
+| 0402010J0AAACAC | Haloperidol 5mg/1ml solution for injection ampoules | Haloperidol |
+| 0402010J0AAA4A4 | Haloperidol 5mg/5ml oral liquid | Haloperidol |
+| 0402010J0AABCBC | Haloperidol 5mg/5ml oral solution sugar free | Haloperidol |
 
-The record contains one valid single-ingredient authorisation. It gives no dosage form or approved indication text, so refer to the current SmPC and BNF for licensed uses. No NICE-appraised indication for the predicted condition is identified.
+Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+No NICE-appraised indication for the predicted condition is identified.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Riluzole: predicted new indication Bilateral parasagittal parieto-occipital polymicrogyria (evidence level L5). Approved use: Amyotrophic lateral sclerosis"
 monitor_inn: "Riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **bilateral parasagittal pariet
 | Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN Prediction Score | 0.9999 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,9 +73,18 @@ The publications retrieved in this analysis relate to a different prediction (an
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0409030R0AAAAAA | Riluzole Tablets 50 mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409030R0AAADAD | Riluzole 25mg/5ml oral suspension sugar free | Riluzole |
+| 0409030R0AAABAB | Riluzole 50mg oral powder sachets | Riluzole |
+| 0409030R0AAAEAE | Riluzole 50mg orodispersible films | Riluzole |
+| 0409030R0AAAAAA | Riluzole 50mg tablets | Riluzole |
+| 0409030R0AAACAC | Riluzole 50mg/5ml oral liquid | Riluzole |
+| 0409030R0BDAAAE | Emylif 50mg orodispersible films | Riluzole |
+| 0409030R0BBAAAA | Rilutek 50mg tablets | Riluzole |
+| 0409030R0BCAAAD | Teglutik 5mg/1ml oral suspension | Riluzole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The licence number shown is not in the usual MHRA "PL" format, and the dosage form and approved indication text were not available in the data compiled. Please verify the authorisation details against the MHRA register, the SmPC and the BNF.
 

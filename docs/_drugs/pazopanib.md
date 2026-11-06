@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 480
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -51,7 +51,8 @@ Six related clinical trials, two of them dedicated phase 2 studies in liposarcom
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9959 |
 | Evidence Level | L2 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -96,11 +97,14 @@ Liposarcoma is a group of adipocytic soft tissue sarcomas with limited treatment
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0801050AZAAABAB (BNF-style product code, not a PL number) | 1 (valid: 1) | Tablet | Indication text not available in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0801050AZAAAAAA | Pazopanib 200mg tablets | Pazopanib |
+| 0801050AZAAABAB | Pazopanib 400mg tablets | Pazopanib |
+| 0801050AZBBAAAA | Votrient 200mg tablets | Pazopanib |
+| 0801050AZBBABAB | Votrient 400mg tablets | Pazopanib |
 
-At least one valid licence is recorded for pazopanib, and its market status is Marketed.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

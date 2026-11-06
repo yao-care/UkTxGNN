@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 588
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Sumatriptan: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Sumatript
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 1 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (24 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 24 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,30 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Sumatript
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0407041T0AAACAC | Sumatriptan_Tab 100mg |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041T0AAACAC | Sumatriptan 100mg tablets | Sumatriptan succinate |
+| 0407041T0AAAHAH | Sumatriptan 10mg/0.1ml nasal spray unit dose | Sumatriptan succinate |
+| 0407041T0AAAGAG | Sumatriptan 20mg/0.1ml nasal spray unit dose | Sumatriptan succinate |
+| 0407041T0AAAJAJ | Sumatriptan 3mg/0.5ml inj pre-filled disposable devices | Sumatriptan succinate |
+| 0407041T0AAAFAF | Sumatriptan 50mg tablets | Sumatriptan succinate |
+| 0407041T0AAAIAI | Sumatriptan 6mg/0.5ml inj pre-filled disposable devices | Sumatriptan succinate |
+| 0407041T0AAAEAE | Sumatriptan 6mg/0.5ml solution for injection syringe refill | Sumatriptan succinate |
+| 0407041T0BEAAAF | Boots Migraine Relief 50mg tablets | Sumatriptan succinate |
+| 0407041T0BFAAAF | Gramegran 50mg tablets | Sumatriptan succinate |
+| 0407041T0BBACAC | Imigran 100mg tablets | Sumatriptan succinate |
+| 0407041T0BBAHAH | Imigran 10mg nasal spray | Sumatriptan succinate |
+| 0407041T0BBAGAG | Imigran 20mg nasal spray | Sumatriptan succinate |
+| 0407041T0BBAFAF | Imigran 50mg tablets | Sumatriptan succinate |
+| 0407041T0BBAJAC | Imigran Radis 100mg tablets | Sumatriptan succinate |
+| 0407041T0BBAIAF | Imigran Radis 50mg tablets | Sumatriptan succinate |
+| 0407041T0BBAKAF | Imigran Recovery 50mg tablets | Sumatriptan succinate |
+| 0407041T0BBADAD | Imigran Subject 6mg/0.5ml inj pfs with dev | Sumatriptan succinate |
+| 0407041T0BBAEAE | Imigran Subject 6mg/0.5ml inj syringe refill pack | Sumatriptan succinate |
+| 0407041T0BGAAAF | MigraKind 50mg tablets | Sumatriptan succinate |
+| 0407041T0BDAAAF | Migraitan 50mg tablets | Sumatriptan succinate |
+
+Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be relevant to **post-bacterial disorder**, but 
 | Predicted New Indication | post-bacterial disorder |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -69,9 +69,22 @@ Currently no related literature available for post-bacterial disorder.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1201010B0AAAFAF | Acetic Acid_Ear Spy 2% 5ml | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0702020B0AAAAAA | Acetic acid (glacial) 0.94% vaginal gel | Acetic acid |
+| 1201010B0AAAGAG | Acetic acid (glacial) 5% ear spray | Acetic acid |
+| 190600000AAAGAG | Acetic acid (glacial) 5% solution | Other acid preparations |
+| 190600000AAA9A9 | Acetic acid 0.5% solution | Other acid preparations |
+| 190600000AAA5A5 | Acetic acid 1% solution | Other acid preparations |
+| 1201010B0AAAFAF | Acetic acid 2% ear spray | Acetic acid |
+| 190600000AAA2A2 | Acetic acid 3% solution | Other acid preparations |
+| 190600000AABLBL | Acetic acid 33% solution | Other acid preparations |
+| 0702020B0BBAAAA | Aci-Jel 0.94% vaginal jelly | Acetic acid |
+| 120101050AAABAB | Dexamethasone 0.1%/Neomycin 0.5%/Acetic acid (glacial) 2% | Dexamethasone |
+| 1201010B0BBAAAF | EarCalm 2% spray | Acetic acid |
+| 120101050BCAAAB | Otomize ear spray | Dexamethasone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

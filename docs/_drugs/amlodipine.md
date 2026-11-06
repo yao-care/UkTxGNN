@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -52,8 +52,8 @@ The TxGNN model predicts it may be useful for **brain stem infarction**, with a 
 | Predicted New Indication | brain stem infarction |
 | TxGNN Prediction Score | 0.9994 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (47 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 47 |
 | Recommended Decision | Hold |
 
 ---
@@ -82,7 +82,7 @@ Currently no related literature available for brain stem infarction.
 
 ## UK Market Information
 
-Amlodipine is currently marketed in the UK, and at least one valid single-ingredient licence is recorded. Product-level details (dosage form, manufacturer and indication text) are not recorded in the local data compiled for this report. Please check the current MHRA-approved SmPC and the BNF cardiovascular chapter (calcium-channel blockers) for authorised uses and doses.
+Product-level details (dosage form, manufacturer and indication text) are not recorded in the local data compiled for this report. Please check the current MHRA-approved SmPC and the BNF cardiovascular chapter (calcium-channel blockers) for authorised uses and doses.
 
 ---
 

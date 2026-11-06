@@ -3,7 +3,7 @@ layout: default
 title: Eucalyptus Oil
 parent: Known Uses Only (No New Predictions)
 nav_order: 270
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Eucalyptus Oil: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 indication_count: 0
@@ -45,8 +45,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Eucalyptus O
 | Item | Content |
 |------|------|
 | Known uses recorded for this drug | 0 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (14 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 14 |
 
 ## Known uses recorded for this drug
 
@@ -70,9 +70,24 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Eucalyptus O
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 190605000AAAVAV | Eucalyptus Oil_Liq |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 190605000AAAVAV | Eucalyptus oil liquid | Other oil preparations |
+| 1203030N0BNAEAK | Halls Mentholyptus Blackcurrant lozenges | Menthol |
+| 1203030N0BNACAI | Halls Mentholyptus Extra Strong lozenges | Menthol |
+| 1203030N0BNABAH | Halls Mentholyptus Original Sugar Free lozenges | Menthol |
+| 1203030N0BNAAAG | Halls Mentholyptus Original lozenges | Menthol |
+| 1203030N0BNADAJ | Halls Mentholyptus Sugar Free Cherry lozenges | Menthol |
+| 1203030N0BMAAAD | Hill's Balsam Nasal Congestion pastilles | Menthol |
+| 1203030N0AAAKAK | Menthol 0.14% / Eucalyptus oil 0.028% lozenges | Menthol |
+| 1203030N0AAAJAJ | Menthol 0.16% / Eucalyptus oil 0.14% lozenges sugar free | Menthol |
+| 1203030N0AAAGAG | Menthol 0.185% / Eucalyptus oil 0.08% lozenges | Menthol |
+| 1203030N0AAAHAH | Menthol 0.24% / Eucalyptus oil 0.1% lozenges sugar free | Menthol |
+| 1203030N0AAAIAI | Menthol 0.52% / Eucalyptus oil 0.26% lozenges | Menthol |
+| 1203030N0AAADAD | Menthol 8mg/g / Eucalyptus oil 6mg/g pastilles | Menthol |
+| 1203030N0BCABAD | Potter's Decongestant pastilles | Menthol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

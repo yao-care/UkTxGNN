@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -50,8 +50,8 @@ Tioconazole is a topical imidazole antifungal. The TxGNN model predicts it may b
 | Predicted New Indication | Vulvitis |
 | TxGNN Prediction Score | 0.9920 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ---
@@ -90,9 +90,12 @@ No publication in the compiled set directly studies vulvitis. The papers below c
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 1310020T0AAAAAA | Tioconazole Medic Nail Lacquer 283 mg/ml | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310020T0AAAAAA | Tioconazole 283mg/ml medicated nail lacquer | Tioconazole |
+| 1310020T0BBAAAA | Trosyl 283mg/ml nail solution | Tioconazole |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Known Uses Only (No New Predictions)
 nav_order: 441
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Niacin: known uses and market status in the United Kingdom; currently no new candidate indication"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ The TxGNN model produced candidate indications for Niacin with a score of 0.99 o
 | New predicted indications | None (all traceable model candidates are known uses) |
 | Known uses among model candidates | 0 |
 | Evidence level | Not applicable |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 
 ## Known uses among the model's candidates
 
@@ -72,9 +72,23 @@ The TxGNN model produced candidate indications for Niacin with a score of 0.99 o
 
 ## UK Market Information
 
-| Licence | Product | Dosage form | Status |
-|------|------|------|------|
-| 0212000U0AAAVAV | Nicotinic Acid_Tab 500mg M/R |  | Valid |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000U0AAAXAX | Nicotinic acid 1g modified-release tablets | Nicotinic acid |
+| 0212000U0AAAVAV | Nicotinic acid 500mg modified-release tablets | Nicotinic acid |
+| 0212000U0AAAZAZ | Nicotinic acid 500mg oral powder sachets | Nicotinic acid |
+| 0212000U0AAATAT | Nicotinic acid 50mg capsules | Nicotinic acid |
+| 0212000U0AAABAB | Nicotinic acid 50mg tablets | Nicotinic acid |
+| 0212000U0AAAWAW | Nicotinic acid 750mg modified-release tablets | Nicotinic acid |
+| 0212000U0AAAYAY | Generic Niaspan titration pack | Nicotinic acid |
+| 0212000U0BFACAX | Niaspan 1g modified-release tablets | Nicotinic acid |
+| 0212000U0BFAAAV | Niaspan 500mg modified-release tablets | Nicotinic acid |
+| 0212000U0BFABAW | Niaspan 750mg modified-release tablets | Nicotinic acid |
+| 0212000U0BFADAY | Niaspan titration pack | Nicotinic acid |
+| 0212000AEAAAAAA | Nicotinic acid 1g / Laropiprant 20mg modified-release tabs | Nicotinic acid/laropiprant |
+| 0212000AEBBAAAA | Tredaptive 1000mg/20mg modified-release tablets | Nicotinic acid/laropiprant |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Denosumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Osteoporosis (including postmenopausal and drug-induced osteoporosis)"
 monitor_inn: "Denosumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -52,8 +52,8 @@ A closely related prediction, **diabetic retinopathy**, has **2 publications**, 
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 0.9963 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (27 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 27 |
 | Recommended Decision | Hold |
 
 ---
@@ -87,9 +87,30 @@ No publications were found for severe nonproliferative diabetic retinopathy. For
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0606020Z0AAAAAA (BNF-style code) | Denosumab injection 60 mg/1 mL pre-filled syringe | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0606020Z0AAABAB | Denosumab 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0AAACAC | Denosumab 120mg/1ml inj pre-filled syringes | Denosumab |
+| 0606020Z0AAAAAA | Denosumab 60mg/1ml inj pre-filled syringes | Denosumab |
+| 0606020Z0BXAAAA | Acvybra 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BKAAAA | Bildyos 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BLAAAB | Bilprevda 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BPAAAB | Bomyntra 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BQAAAA | Conexxence 60mg/1ml inj pre-filled syringes | Denosumab |
+| 0606020Z0BIAAAB | Denbrayce 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BGAAAB | Enwylma 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BHAAAA | Izamby 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BDAAAA | Jubbonti 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BSAAAB | Jubereq 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BEAAAA | Junod 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BJAAAA | Kefdensis 60mg/1ml inj pre-filled syringes | Denosumab |
+| 0606020Z0BUAAAA | Obodence 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BMAAAB | Osenvelt 120mg/1.7ml solution for injection vials | Denosumab |
+| 0606020Z0BRAAAA | Osvyrti 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BVAAAA | Ponlimsi 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+| 0606020Z0BBAAAA | Prolia 60mg/1ml solution for injection pre-filled syringes | Denosumab |
+
+Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The identifier above looks like a BNF classification code, not a standard MHRA PL number. Authorisation details should be checked against the MHRA register.
 

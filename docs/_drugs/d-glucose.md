@@ -5,7 +5,7 @@ layout: default
 title: D-Glucose
 parent: Known Uses Only (No New Predictions)
 nav_order: 200
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "D-Glucose: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "D-glucose"
 predicted_indications: []
@@ -43,16 +43,37 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | Item | Content |
 |------|------|
 | Original Indication | Not recorded in the local data |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (156 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 156 |
 
 ---
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0601040I0AAADAD | Glucose Gel 40% | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0902021G0BBAFA8 | Glucose 10% infusion 1litre Viaflex bags | Glucose |
+| 0902021G0AAA8A8 | Glucose 10% infusion 1litre bags | Glucose |
+| 0902021G0AAA9A9 | Glucose 10% infusion 500ml | Glucose |
+| 0902021G0BBACA9 | Glucose 10% infusion 500ml Viaflex bags | Glucose |
+| 0902021G0AABBBB | Glucose 20% infusion 500ml bags | Glucose |
+| 0902021G0AABIBI | Glucose 20% solution for infusion 100ml vials | Glucose |
+| 0902021G0AAABAB | Glucose 20% solution for infusion 20ml ampoules | Glucose |
+| 0601040I0AAAFAF | Glucose 3g/10ml oral solution | Glucose |
+| 0902021G0AABEBE | Glucose 40% infusion 500ml | Glucose |
+| 0601040I0AAADAD | Glucose 40% oral gel | Glucose |
+| 0902021G0BGAEA3 | Glucose 5% infusion 100ml Freeflex Plus bags | Glucose |
+| 0902021G0BGAAA3 | Glucose 5% infusion 100ml Freeflex bags | Glucose |
+| 0902021G0BBAEA3 | Glucose 5% infusion 100ml Viaflex bags | Glucose |
+| 0902021G0AAA3A3 | Glucose 5% infusion 100ml bags | Glucose |
+| 0902021G0BBAHA0 | Glucose 5% infusion 150ml Viaflex bags | Glucose |
+| 0902021G0AABDBD | Glucose 5% infusion 1litre | Glucose |
+| 0902021G0BGADBD | Glucose 5% infusion 1litre Freeflex bags | Glucose |
+| 0902021G0BBAABD | Glucose 5% infusion 1litre Viaflex bags | Glucose |
+| 0902021G0BGAFAU | Glucose 5% infusion 250ml Freeflex Plus bags | Glucose |
+| 0902021G0BGABAU | Glucose 5% infusion 250ml Freeflex bags | Glucose |
+
+Showing 20 of 156 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The listed code appears to be a BNF-style product code rather than a standard PL number. Please verify the authorisation details against the MHRA register and the BNF (section 6.1.4, treatment of hypoglycaemia).
 

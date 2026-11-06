@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **epiglottitis**, but there are
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -73,11 +73,31 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501090H0AAABAB | Ethambutol HCl Tab 100mg | Not stated | Not stated |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090H0AAABAB | Ethambutol 100mg tablets | Ethambutol hydrochloride |
+| 0501090H0AABDBD | Ethambutol 100mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AABFBF | Ethambutol 125mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AABCBC | Ethambutol 150mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AABHBH | Ethambutol 150mg/5ml oral suspension | Ethambutol hydrochloride |
+| 0501090H0AAAVAV | Ethambutol 200mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AABABA | Ethambutol 250mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AAAWAW | Ethambutol 25mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AAAZAZ | Ethambutol 300mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AAAYAY | Ethambutol 350mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AAATAT | Ethambutol 375mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AAACAC | Ethambutol 400mg tablets | Ethambutol hydrochloride |
+| 0501090H0AAASAS | Ethambutol 400mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AABBBB | Ethambutol 450mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AAARAR | Ethambutol 500mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AABGBG | Ethambutol 50mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AAAXAX | Ethambutol 600mg/5ml oral liquid | Ethambutol hydrochloride |
+| 0501090H0AABEBE | Ethambutol 700mg/5ml oral solution | Ethambutol hydrochloride |
+| 0501090H0AABIBI | Ethambutol 700mg/5ml oral suspension | Ethambutol hydrochloride |
 
-Only one single-ingredient authorisation is recorded, and its status is valid. Approved indication text and dosage form were not available in the compiled data. Please check the current SmPC and BNF entry for ethambutol for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Approved indication text and dosage form were not available in the compiled data. Please check the current SmPC and BNF entry for ethambutol for the licensed indications.
 
 ## Safety Considerations
 

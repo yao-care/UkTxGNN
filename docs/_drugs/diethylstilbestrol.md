@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Diethylstilbestrol: predicted new indication Amenorrhoea (evidence level L4). Approved use: Not available in the licence data"
 monitor_inn: "Diethylstilbestrol"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)", "breast fibrocystic disease"]
@@ -52,8 +52,8 @@ The prediction is essentially model-derived, and the literature raises significa
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L4 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
 
 ---
@@ -95,9 +95,14 @@ No randomised trials were identified. The most relevant publications are listed 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0803010K0AAAKAK | Diethylstilbestrol Tablets 1 mg | Tablet | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803010K0AAAKAK | Diethylstilbestrol 1mg tablets | Diethylstilbestrol |
+| 0803010K0AAALAL | Diethylstilbestrol 5mg tablets | Diethylstilbestrol |
+| 0702010L0AAACAC | Diethylstilbestrol 500microgram / Lactic acid 5% pessaries | Diethylstilbestrol |
+| 0702010L0BBAAAC | Tampovagan pessaries | Diethylstilbestrol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 This identifier appears to be a BNF-style product code rather than a standard MHRA PL number. Approved indication text and manufacturer details were not available.
 

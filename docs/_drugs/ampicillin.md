@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be relevant to **laryngitis**, but **no clinical
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (16 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 16 |
 | Recommended Decision | Hold |
 
 ---
@@ -98,9 +98,26 @@ None of the publications is a randomised trial of ampicillin in laryngitis. The 
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501013E0AAAAAA | Ampicillin Cap 250mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501013E0AAAEAE | Ampicillin 125mg/5ml oral suspension | Ampicillin |
+| 0501013E0AAAAAA | Ampicillin 250mg capsules | Ampicillin |
+| 0501013E0AAAFAF | Ampicillin 250mg/5ml oral suspension | Ampicillin |
+| 0501013E0AAABAB | Ampicillin 500mg capsules | Ampicillin |
+| 0501013E0AAADAD | Ampicillin 500mg powder for solution for injection vials | Ampicillin |
+| 0501013L0AAADAD | Co-fluampicil 125mg/125mg/5ml oral suspension | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013L0AAAAAA | Co-fluampicil 250mg/250mg capsules | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013L0AAABAB | Co-fluampicil 250mg/250mg inj vials | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013L0BBAAAA | Magnapen 250mg/250mg capsules | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013L0BBABAB | Magnapen 500mg powder for solution for injection vials | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013L0BBADAD | Magnapen syrup | Co-fluampicil(Flucloxacillin/ampicillin) |
+| 0501013E0BEADAE | Penbritin 125mg/5ml syrup | Ampicillin |
+| 0501013E0BEAAAA | Penbritin 250mg capsules | Ampicillin |
+| 0501013E0BEABAB | Penbritin 500mg capsules | Ampicillin |
+| 0501013E0BEAHAD | Penbritin 500mg powder for solution for injection vials | Ampicillin |
+| 0501013E0BEAEAF | Penbritin Forte 250mg/5ml syrup | Ampicillin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

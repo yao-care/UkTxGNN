@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the licence data compiled for this report (fenoterol is…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -50,8 +50,8 @@ The prediction is computational only, and the mechanistic rationale is weak and 
 | Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -84,10 +84,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0301040M0BBABAB (BNF code) | Duovent Neb Soln 4ml Ud Vl | Nebuliser solution | Not stated in the data compiled |
-| 0301040M0AAAAAA (BNF code) | Fenoterol/Ipratropium Inhaler 100/40mcg (200 doses) | Inhaler | Not stated in the data compiled |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0301011F0AAAAAA | Fenoterol 200micrograms/dose inhaler | Fenoterol hydrobromide |
+| 0301040M0BCABAD | Berodual N inhaler | Fenoterol hydrobromide |
+| 0301011F0BBACAA | Berotec 200micrograms/dose inhaler | Fenoterol hydrobromide |
+| 0301040M0BBACAC | Duovent Autohaler | Fenoterol hydrobromide |
+| 0301040M0BBABAB | Duovent UDVs nebuliser liquid 4ml | Fenoterol hydrobromide |
+| 0301040M0BBAAAA | Duovent inhaler | Fenoterol hydrobromide |
+| 0301040M0AAABAB | Fenoterol 1.25mg/Ipratropium 500microg/4ml neb liq ud vials | Fenoterol hydrobromide |
+| 0301040M0AAACAC | Fenoterol 100microg/Ipratropium bromide 40microg/dose BA inh | Fenoterol hydrobromide |
+| 0301040M0AAAAAA | Fenoterol 100microg/dose / Ipratropium 40microg/dose inh | Fenoterol hydrobromide |
+| 0301040M0AAADAD | Fenoterol 50microg/Ipratropium brom 20microg/dose CFC free | Fenoterol hydrobromide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix. The identifiers above are BNF codes rather than MHRA PL numbers, and approved indication text was not available.
 

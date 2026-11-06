@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
 description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 | Predicted New Indication | Renal hypodysplasia/aplasia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (3 of 3) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 3 (valid: 3) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (53 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 53 |
 | Recommended Decision | Hold |
 
 ---
@@ -83,11 +83,30 @@ Currently no related literature available for the top predicted indication (rena
 
 The data compiled for this report list three valid single-ingredient products. Dosage form and approved indication text were not available. The identifiers shown are the codes in the compiled data, not confirmed MHRA PL numbers.
 
-| Identifier | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0602010Z0BBAAAE | Armour Thyroid Tab 15mg | Tablet (not specified in data) | Not available |
-| 0602010Z0BDAAAB | Nature-Throid Tab 65mg (1 grain) | Tablet (not specified in data) | Not available |
-| 0602010Z0AAAEAE | Levothyrox/Liothyronine Tab 9.5/2.25mcg | Tablet (not specified in data) | Not available |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0602010M0AAAMAM | Liothyronine 100micrograms/5ml oral liquid | Liothyronine sodium |
+| 0602010M0AAAUAU | Liothyronine 10microgram capsules | Liothyronine sodium |
+| 0602010M0AAAQAQ | Liothyronine 10microgram tablets | Liothyronine sodium |
+| 0602010M0AAATAT | Liothyronine 10micrograms/5ml oral suspension | Liothyronine sodium |
+| 0602010M0AABCBC | Liothyronine 10micrograms/ml oral solution sugar free | Liothyronine sodium |
+| 0602010M0AABDBD | Liothyronine 15microgram tablets | Liothyronine sodium |
+| 0602010M0AAAIAI | Liothyronine 2.5microgram capsules | Liothyronine sodium |
+| 0602010M0AABABA | Liothyronine 20microgram capsules | Liothyronine sodium |
+| 0602010M0AAAAAA | Liothyronine 20microgram tablets | Liothyronine sodium |
+| 0602010M0AAAXAX | Liothyronine 20micrograms/5ml oral suspension | Liothyronine sodium |
+| 0602010M0AAAWAW | Liothyronine 25microgram tablets | Liothyronine sodium |
+| 0602010M0AAAYAY | Liothyronine 25micrograms/5ml oral suspension | Liothyronine sodium |
+| 0602010M0AAAKAK | Liothyronine 37.5micrograms/5ml oral liquid | Liothyronine sodium |
+| 0602010M0AAASAS | Liothyronine 50microgram tablets | Liothyronine sodium |
+| 0602010M0AAALAL | Liothyronine 50micrograms/5ml oral liquid | Liothyronine sodium |
+| 0602010M0AAAZAZ | Liothyronine 5microgram capsules | Liothyronine sodium |
+| 0602010M0AAADAD | Liothyronine 5microgram tablets | Liothyronine sodium |
+| 0602010M0AAANAN | Liothyronine 5micrograms/5ml oral liquid | Liothyronine sodium |
+| 0602010M0AAABAB | Liothyronine sodium 20microgram inj ampoules | Liothyronine sodium |
+| 0602010M0AAAVAV | Liothyronine sodium 20microgram inj vials | Liothyronine sodium |
+
+Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Please check the MHRA product database and the BNF (thyroid hormones section) for current UK authorisation status and NICE guidance.
 

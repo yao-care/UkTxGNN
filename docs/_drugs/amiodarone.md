@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data"
@@ -48,8 +48,8 @@ Amiodarone is an antiarrhythmic medicine used for ventricular rhythm disorders. 
 | Predicted New Indication | Catecholaminergic polymorphic ventricular tachycardia |
 | TxGNN Prediction Score | 0.9978 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (38 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 38 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -77,11 +77,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0203020D0AAAAAA | Amiodarone HCl tablets 100 mg | Not specified | Not specified |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0203020D0AAAAAA | Amiodarone 100mg tablets | Amiodarone hydrochloride |
+| 0203020D0AAAUAU | Amiodarone 100mg/5ml oral solution | Amiodarone hydrochloride |
+| 0203020D0AACHCH | Amiodarone 100mg/5ml oral suspension | Amiodarone hydrochloride |
+| 0203020D0AABGBG | Amiodarone 10mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAAXAX | Amiodarone 125mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAADAD | Amiodarone 150mg/3ml solution for injection ampoules | Amiodarone hydrochloride |
+| 0203020D0AABLBL | Amiodarone 150mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AACACA | Amiodarone 155mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABDBD | Amiodarone 15mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAABAB | Amiodarone 200mg tablets | Amiodarone hydrochloride |
+| 0203020D0AAAVAV | Amiodarone 200mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABKBK | Amiodarone 20mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABYBY | Amiodarone 22mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABEBE | Amiodarone 250mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAAWAW | Amiodarone 25mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0BGAABV | Amiodarone 300mg/10ml inj Minijet pre-filled syringes | Amiodarone hydrochloride |
+| 0203020D0AABVBV | Amiodarone 300mg/10ml inj pre-filled syringes | Amiodarone hydrochloride |
+| 0203020D0AAAZAZ | Amiodarone 30mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AACFCF | Amiodarone 31.25mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABSBS | Amiodarone 35mg/5ml oral liquid | Amiodarone hydrochloride |
 
-The local data lists one valid single-ingredient authorisation. The BNF classification code shown above is in the data in place of a PL number, and no indication text is recorded.
+Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The BNF classification code shown above is in the data in place of a PL number, and no indication text is recorded.
 
 ## Safety Considerations
 

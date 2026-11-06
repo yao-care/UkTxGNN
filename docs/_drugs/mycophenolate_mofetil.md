@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 428
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -48,8 +48,8 @@ Mycophenolate mofetil is an immunosuppressant that inhibits inosine monophosphat
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L2 (as assigned in the compiled data; see note below) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
 
 *Note on evidence level: the L2 grading is not well supported by the trials listed. The only Phase 2 trials are a pilot of a different drug (DAPD) with MMF as an add-on arm, and a withdrawn study with no participants. The only randomised publication, in treatment-naive patients, is a small RCT from 2004. A more cautious reading is closer to L3.*
@@ -86,11 +86,29 @@ The original indication is not recorded in the compiled data, so a direct compar
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0802010M0AAABAB | Mycophenolate Mofetil Tab 500mg | Tablet (not stated in the data) | Not stated in the data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0802010M0AAAGAG | Mycophenolate mofetil 100mg/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0AAAIAI | Mycophenolate mofetil 125mg/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0AAAJAJ | Mycophenolate mofetil 1g/5ml oral suspension sugar free | Mycophenolate mofetil |
+| 0802010M0AAAAAA | Mycophenolate mofetil 250mg capsules | Mycophenolate mofetil |
+| 0802010M0AAACAC | Mycophenolate mofetil 250mg/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0AAADAD | Mycophenolate mofetil 300mg/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0AAAHAH | Mycophenolate mofetil 500mg inf vials | Mycophenolate mofetil |
+| 0802010M0AAABAB | Mycophenolate mofetil 500mg tablets | Mycophenolate mofetil |
+| 0802010M0AAAEAE | Mycophenolate mofetil 500mg/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0BDAAAA | Arzip 250mg capsules | Mycophenolate mofetil |
+| 0802010M0BDABAB | Arzip 500mg tablets | Mycophenolate mofetil |
+| 0802010M0BBAEAJ | CellCept 1g/5ml oral suspension | Mycophenolate mofetil |
+| 0802010M0BBAAAA | CellCept 250mg capsules | Mycophenolate mofetil |
+| 0802010M0BBADAH | CellCept 500mg powder for solution for infusion vials | Mycophenolate mofetil |
+| 0802010M0BBABAB | CellCept 500mg tablets | Mycophenolate mofetil |
+| 0802010M0BCABAA | Myfenax 250mg capsules | Mycophenolate mofetil |
+| 0802010M0BCAAAB | Myfenax 500mg tablets | Mycophenolate mofetil |
 
-Only one authorisation is recorded, and its indication text and dosage form are not available in the compiled data. Please check the SmPC and BNF for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the SmPC and BNF for the licensed indications.
 
 ## Safety Considerations
 

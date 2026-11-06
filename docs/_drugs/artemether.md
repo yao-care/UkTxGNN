@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Artemether: predicted new indication Acquired angioedema (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -48,8 +48,8 @@ Artemether is an artemisinin-derivative antimalarial that is marketed in the UK.
 | Predicted New Indication | Acquired angioedema |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (2 of 2) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 2 (valid: 2) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -68,10 +68,12 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0504010AABBAAAA (BNF code) | Riamet Tab | Not recorded | Not recorded |
-| 0504010AAAAAAAA (BNF code) | Artemether/Lumefantrine Tab 20 mg/120 mg | Not recorded | Not recorded |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0504010AAAAAAAA | Artemether 20mg / Lumefantrine 120mg tablets | Artemether with lumefantrine |
+| 0504010AABBAAAA | Riamet tablets | Artemether with lumefantrine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 Both listed records are valid single-ingredient entries according to the local data. The identifiers shown are BNF-style codes rather than MHRA PL numbers.
 

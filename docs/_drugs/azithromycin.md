@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -76,9 +76,21 @@ Currently no related literature available for hyperamylasemia.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501050A0AAAAAA (BNF-style code, not a PL number) | Azithromycin capsules 250 mg | Capsule | Not stated in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1103010AIAAAAAA | Azithromycin 15mg/g eye dps 0.25g ud preservative free | Azithromycin |
+| 0501050A0AAABAB | Azithromycin 200mg/5ml oral suspension | Azithromycin |
+| 0501050A0AAAHAH | Azithromycin 200mg/5ml oral suspension sugar free | Azithromycin |
+| 0501050A0AAAAAA | Azithromycin 250mg capsules | Azithromycin |
+| 0501050A0AAAGAG | Azithromycin 250mg tablets | Azithromycin |
+| 0501050A0AAADAD | Azithromycin 500mg tablets | Azithromycin |
+| 1103010AIBBAAAA | Azyter 15mg/g eye drops 0.25g unit dose | Azithromycin |
+| 0501050A0BCAAAD | Clamelle 500mg tablets | Azithromycin |
+| 0501050A0BBABAB | Zithromax 200mg/5ml oral suspension | Azithromycin |
+| 0501050A0BBAAAA | Zithromax 250mg capsules | Azithromycin |
+| 0501050A0BBADAD | Zithromax 500mg tablets | Azithromycin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 The BNF classification for this product is not stated in the compiled data. Please verify the licence details and approved indications against the MHRA record and the current SmPC.
 

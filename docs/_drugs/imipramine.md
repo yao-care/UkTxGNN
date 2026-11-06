@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 334
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Imipramine: predicted new indication Attention deficit hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **attention deficit hyperactivi
 | Predicted New Indication | Attention deficit hyperactivity disorder |
 | TxGNN Prediction Score | 0.9990 |
 | Evidence Level | L3 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
@@ -94,9 +94,22 @@ Most records are older, and several study designs cannot be confirmed from title
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0403010N0AAADAD (BNF-style code) | Imipramine HCl Tablets 10 mg | Tablet | Not available in the compiled data |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010N0AAAJAJ | Imipramine 100mg/5ml oral liquid | Imipramine hydrochloride |
+| 0403010N0AAADAD | Imipramine 10mg tablets | Imipramine hydrochloride |
+| 0403010N0AAALAL | Imipramine 10mg/5ml oral liquid | Imipramine hydrochloride |
+| 0403010N0AAAMAM | Imipramine 12.5mg/5ml oral liquid | Imipramine hydrochloride |
+| 0403010N0AAAPAP | Imipramine 125mg/5ml oral liquid | Imipramine hydrochloride |
+| 0403010N0AAAEAE | Imipramine 25mg tablets | Imipramine hydrochloride |
+| 0403010N0AAACAC | Imipramine 25mg/5ml oral solution | Imipramine hydrochloride |
+| 0403010N0AAAQAQ | Imipramine 25mg/5ml oral solution sugar free | Imipramine hydrochloride |
+| 0403010N0AAAKAK | Imipramine 25mg/5ml oral suspension | Imipramine hydrochloride |
+| 0403010N0AAANAN | Imipramine 40mg/5ml oral liquid | Imipramine hydrochloride |
+| 0403010N0BCABAE | Tofranil 25mg tablets | Imipramine hydrochloride |
+| 0403010N0BCACAC | Tofranil 25mg/5ml syrup | Imipramine hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

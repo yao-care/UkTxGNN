@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -51,8 +51,8 @@ The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but
 | Predicted New Indication | Chronic rhinosinusitis |
 | TxGNN Prediction Score | 0.9961 |
 | Evidence Level | L5 (model prediction only) |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
 
 ---
@@ -79,11 +79,25 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Authorisation Identifier | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0501030T0AAAJAJ (BNF-style code; BNF section 5.1.3, tetracyclines) | Oxytetracycline tablets 250 mg | Tablet | Not specified in the data compiled for this report |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501030T0AAATAT | Oxytetracycline 100mg/5ml oral suspension | Oxytetracycline |
+| 0501030T0AAAPAP | Oxytetracycline 125mg/5ml oral suspension | Oxytetracycline |
+| 0501030T0AAAJAJ | Oxytetracycline 250mg tablets | Oxytetracycline |
+| 0501030T0AAAQAQ | Oxytetracycline 250mg/5ml oral suspension | Oxytetracycline |
+| 0501030T0AAARAR | Oxytetracycline 500mg/5ml oral suspension | Oxytetracycline |
+| 1304000H0AACACA | Clobet 0.05%/Oxytetracycline 3% /Nystatin 100,000units/g crm | Clobetasone butyrate |
+| 0501030T0BFAAAJ | Oxymycin 250mg tablets | Oxytetracycline |
+| 1304000V0AACMCM | Oxytetracycline 3% / Hydrocortisone 1% ointment | Hydrocortisone |
+| 0501030T0BIAAAJ | Oxytetramix 250 tablets | Oxytetracycline |
+| 1304000V0CCAFCM | Terra-Cortril ointment (Intrapharm) | Hydrocortisone |
+| 1304000V0CCACCM | Terra-Cortril ointment (Pfizer) | Hydrocortisone |
+| 0501030T0BGABAJ | Terramycin 250mg tablets | Oxytetracycline |
+| 1304000H0BCABCA | Trimovate cream | Clobetasone butyrate |
 
-The record gives a BNF-style product code rather than a standard PL number. The manufacturer and approved indication text are also not recorded, so please check the current SmPC for the licensed indications.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+The manufacturer and approved indication text are also not recorded, so please check the current SmPC for the licensed indications.
 
 ---
 

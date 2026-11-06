@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Acrivastine: predicted new indication Recalcitrant atopic dermatitis (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -49,8 +49,8 @@ The TxGNN model predicts it may be useful for **recalcitrant atopic dermatitis**
 | Predicted New Indication | Recalcitrant atopic dermatitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
-| UK Market Status | Listed in NHSBSA BNF presentation codes (1 of 1) – MHRA licence status is not included in this data |
-| Number of BNF Presentation Codes | 1 (valid: 1) |
+| UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
+| Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
@@ -71,11 +71,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
-| Marketing Authorisation Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| 0304010A0AAAAAA | Acrivastine Cap 8mg | Capsule (per product name) | Not stated in the licence record |
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010A0AAAAAA | Acrivastine 8mg capsules | Acrivastine |
+| 0304010A0BDAAAA | Allergy Relief 8mg capsules | Acrivastine |
+| 0304010A0BCAAAA | Benadryl Allergy Relief 8mg capsules | Acrivastine |
+| 0304010A0BCABAC | Benadryl Allergy Relief Plus Decongestant capsules | Acrivastine |
+| 0304010A0AAACAC | Pseudoephedrine 60mg / Acrivastine 8mg capsules | Acrivastine |
+| 0304010A0BBAAAA | Semprex 8mg capsules | Acrivastine |
 
-One single-ingredient authorisation is recorded and it is currently valid. The record gives no manufacturer, dosage-form field or indication text, so the approved indication should be confirmed from the SmPC and BNF.
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 
