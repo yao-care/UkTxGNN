@@ -579,7 +579,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/azathioprine/"
     },
@@ -769,7 +769,7 @@
       "evidence_level": "L4",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/buprenorphine/"
     },
@@ -1259,7 +1259,7 @@
       "evidence_level": "L3",
       "indication_count": 3,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/clonazepam/"
     },
@@ -1329,7 +1329,7 @@
       "evidence_level": "L5",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/colchicine/"
     },
@@ -1439,7 +1439,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/danaparoid/"
     },
@@ -1709,7 +1709,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Rosacea conjunctivitis",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/diphenhydramine/"
     },
@@ -2019,7 +2019,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Disease",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/etodolac/"
     },
@@ -2619,7 +2619,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/hydromorphone/"
     },
@@ -2689,7 +2689,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/imidapril/"
     },
@@ -3019,7 +3019,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/lenograstim/"
     },
@@ -3049,7 +3049,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/levetiracetam/"
     },
@@ -3189,7 +3189,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/maraviroc/"
     },
@@ -3279,7 +3279,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/meptazinol/"
     },
@@ -4019,7 +4019,7 @@
       "evidence_level": "L4",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/oxcarbazepine/"
     },
@@ -4109,7 +4109,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/paraldehyde/"
     },
@@ -4169,7 +4169,7 @@
       "evidence_level": "L5",
       "indication_count": 1,
       "original_indication": "",
-      "predicted_indication": "Predicted indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/perampanel/"
     },
@@ -4279,7 +4279,7 @@
       "evidence_level": "L5",
       "indication_count": 7,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/phylloquinone/"
     },
@@ -4549,7 +4549,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/propafenone/"
     },
@@ -4579,7 +4579,7 @@
       "evidence_level": "L4",
       "indication_count": 2,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/propylthiouracil/"
     },
@@ -4649,7 +4649,7 @@
       "evidence_level": "L5",
       "indication_count": 9,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ramipril/"
     },
@@ -4809,7 +4809,7 @@
       "evidence_level": "L3",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/ropivacaine/"
     },
@@ -5299,7 +5299,7 @@
       "evidence_level": "L5",
       "indication_count": 4,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tetracycline/"
     },
@@ -5329,7 +5329,7 @@
       "evidence_level": "L5",
       "indication_count": 10,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/thioridazine/"
     },
@@ -5399,7 +5399,7 @@
       "evidence_level": "L5",
       "indication_count": 6,
       "original_indication": "",
-      "predicted_indication": "Predicted Indication",
+      "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/tiopronin/"
     },
