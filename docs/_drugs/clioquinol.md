@@ -81,7 +81,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The records compiled for this report list five single-ingredient clioquinol authorisations. Dosage form and approved indication text are not available in them, and some entries are products that combine clioquinol with a corticosteroid, as their names show. The list is therefore not used here to describe how clioquinol alone is approved.
+Dosage form and approved indication text are not available in them, and some entries are products that combine clioquinol with a corticosteroid, as their names show. The list is therefore not used here to describe how clioquinol alone is approved.
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|

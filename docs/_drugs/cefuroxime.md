@@ -84,7 +84,7 @@ No plausible mechanistic link between cefuroxime and hyperamylasemia has been id
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Both authorisations are single-ingredient products and both are currently valid. The data compiled for this report do not include indication text or dosage form for these records.
+The data compiled for this report do not include indication text or dosage form for these records.
 
 ## Safety Considerations
 

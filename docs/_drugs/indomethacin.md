@@ -99,8 +99,6 @@ Six single-ingredient indomethacin products are recorded as valid. The licence n
 
 Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-A sixth authorisation, Indolar SR Cap 75mg (1001010K0BGADAD), is also recorded as valid.
-
 ## Safety Considerations
 
 **Contraindication signals (from the knowledge graph, not label text):**

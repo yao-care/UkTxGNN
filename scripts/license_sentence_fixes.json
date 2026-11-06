@@ -70,11 +70,24 @@
    "reason": "建議去 MHRA 資料庫查證（本站資料不含 MHRA 許可狀態），不是說本藥沒有許可，保留"
   }
  ],
+ "cinchocaine_hcl": [
+  {
+   "sentence": "Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products), but no current product licences are recorded here.",
+   "cut": ", but no current product licences are recorded here",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建），不是 MHRA 許可證；第二輪（規則補強後）只刪說許可有效／張數的片段，臨床與背景說明保留"
+  }
+ ],
  "dexketoprofen": [
   {
    "sentence": "Original licensed indication text from the MHRA/SmPC, as the authorisation record is incomplete",
    "cut": ", as the authorisation record is incomplete",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "dorzolamide": [
+  {
+   "sentence": "The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is currently marketed.",
+   "reason": "本站資料是 BNF 處方代碼清單，不含 MHRA 許可狀態；整句說一張有效許可、已上市，整句刪"
   }
  ],
  "everolimus": [
@@ -94,6 +107,13 @@
    "sentence": "Complete UK authorisation details (indication text, dosage form, valid licence number)",
    "keep": true,
    "reason": "下一步需要的資料（MHRA 許可細節本站資料沒有），不是說本藥許可有效，保留"
+  }
+ ],
+ "fulvestrant": [
+  {
+   "sentence": "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text).",
+   "cut": "licence ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單，不是 MHRA 許可證；只拿掉把資料說成許可資料的字（licence），其餘保留"
   }
  ],
  "lofexidine": [
@@ -127,6 +147,13 @@
    "sentence": "However, the authorisation records provided contain no approved indication text, so the relationship",
    "cut": "the authorisation records provided contain no approved indication text, so ",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "tioconazole": [
+  {
+   "sentence": "The plausible mechanism applies only to a fungal cause, and the licensed UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation.",
+   "cut": "licensed ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單，不是 MHRA 許可證；只拿掉把清單品項／資料說成許可的字（licensed、licence），其餘保留"
   }
  ],
  "tobramycin": [

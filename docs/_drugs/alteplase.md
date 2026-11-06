@@ -68,7 +68,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg vial with diluent) which is currently valid, so the product is marketed in the UK. No dosage form, manufacturer or indication text is recorded for this licence. Please refer to the current SmPC and BNF for authorised uses.
+No dosage form, manufacturer or indication text is recorded for this licence. Please refer to the current SmPC and BNF for authorised uses.
 
 ## Safety Considerations
 

@@ -38,7 +38,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fulvestrant is an oestrogen receptor antagonist and degrader. It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text).
+Fulvestrant is an oestrogen receptor antagonist and degrader. It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).
 The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are **no registered clinical trials** and only **2 publications**, both preclinical or indirect.
 This is a model-generated hypothesis supported mainly by one in vitro study, and not a validated repurposing signal.
 

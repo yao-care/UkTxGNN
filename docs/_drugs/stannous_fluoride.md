@@ -78,7 +78,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The authorisation is recorded as valid and as a single-ingredient product. Product-level details such as the indication and manufacturer were not available.
+Product-level details such as the indication and manufacturer were not available.
 
 ## Safety Considerations
 

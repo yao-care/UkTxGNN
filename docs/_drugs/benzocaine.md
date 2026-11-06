@@ -96,8 +96,6 @@ Currently no related literature available.
 
 Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The licence is a single-ingredient product and is currently valid.
-
 ## Safety Considerations
 
 - **Class-related ocular risk (from mechanistic reasoning, not label text)**: repeated topical anaesthetic use on the eye can cause corneal toxicity, delayed epithelial healing and keratopathy.

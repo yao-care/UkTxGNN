@@ -38,7 +38,7 @@ Evidence Level: **L1** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Ketamine is an NMDA receptor antagonist with one oral solution authorisation recorded on the UK market. The TxGNN model predicts it may be effective for **headache disorder**, with **9 clinical trials** and **19 publications** compiled for this direction. These include several small randomised trials, mostly in emergency department settings, and one Phase 3 trial that is still recruiting.
+Ketamine is an NMDA receptor antagonist. The TxGNN model predicts it may be effective for **headache disorder**, with **9 clinical trials** and **19 publications** compiled for this direction. These include several small randomised trials, mostly in emergency department settings, and one Phase 3 trial that is still recruiting.
 
 ## Quick Overview
 

@@ -70,7 +70,7 @@ Currently no related literature available — no predicted indication available 
 
 ## UK Market Information
 
-**Note:** Ciclosporin is in fact widely authorised and marketed in the United Kingdom under multiple brand names (e.g., Sandimmun, Neoral, Capimune, Deximune). The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly.
+The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly.
 
 ## Safety Considerations
 
@@ -92,7 +92,6 @@ The evidence pack is critically incomplete — there is no DrugBank ID mapping, 
 - **Re-run TxGNN prediction pipeline**: Once the DrugBank mapping is established, execute the KG and DL prediction models to generate candidate indications
 - **Populate original indication data**: Extract approved indications from MHRA marketing authorisations and BNF entries
 - **Retrieve safety data**: Obtain SmPC warnings, contraindications, and drug interaction profiles
-- **UK regulatory data**: Query MHRA for current marketing authorisation status, as Ciclosporin is known to be marketed in the UK despite the evidence pack showing otherwise
 
 ---
 

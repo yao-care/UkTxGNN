@@ -82,7 +82,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The drug has been discontinued from the UK market. No MHRA-authorised products are listed.
+The drug has been discontinued from the UK market.
 
 ---
 

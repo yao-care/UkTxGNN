@@ -69,7 +69,7 @@ Currently no related literature available linking cinchocaine to a novel repurpo
 
 ## UK Market Information
 
-Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products), but no current product licences are recorded here.
+Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products).
 
 ## Safety Considerations
 

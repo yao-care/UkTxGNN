@@ -88,7 +88,7 @@ No TxGNN-predicted indications have been generated for cinacalcet, and critical 
 **To proceed, the following is needed:**
 - Resolve DrugBank ID mapping for cinacalcet HCl (expected: DB01012) and re-run TxGNN prediction pipeline
 - Obtain and parse the SmPC to populate warnings, contraindications, and drug interaction data
-- Confirm UK marketing authorisation status (note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)
+- Confirm UK marketing authorisation status
 - Once predicted indications are generated, re-run the evidence collection pipeline (ClinicalTrials.gov, PubMed, ICTRP) to populate the clinical and literature evidence sections
 - Re-evaluate at the next review cycle once the above gaps are addressed
 ## Disclaimer

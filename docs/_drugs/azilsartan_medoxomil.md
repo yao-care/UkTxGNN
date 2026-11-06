@@ -36,7 +36,6 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 ## Azilsartan Medoxomil
 {: .text-alpha }
 
-
 ## Quick Overview
 
 | Item | Content |
@@ -45,7 +44,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 
-Azilsartan medoxomil is in fact authorised in the United Kingdom under the brand name **Edarbi** (PL 50622/0001 and related). This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate. The regulatory section below reflects this gap explicitly.
+This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate. The regulatory section below reflects this gap explicitly.
 
 ---
 

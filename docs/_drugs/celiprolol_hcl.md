@@ -59,8 +59,6 @@ As a result, **no evidence-based repurposing recommendation** can be made at thi
 
 ## UK Market Information
 
-There are no registered products, dosage forms, or approved indications on record in this Evidence Pack.
-
 > **Note for clinicians:** Celiprolol is available in certain other European markets (e.g., France, Germany) for cardiovascular indications. However, in the absence of a UK marketing authorisation, any clinical use would require a Specials licence or named-patient basis application via the MHRA, and standard BNF/NICE guidance does not apply.
 
 ---

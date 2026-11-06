@@ -69,7 +69,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is currently marketed. The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record. Please check the current SmPC and BNF entry for the authorised use and the product details.
+The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record. Please check the current SmPC and BNF entry for the authorised use and the product details.
 
 ## Safety Considerations
 

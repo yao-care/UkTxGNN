@@ -115,7 +115,7 @@ Other retrieved publications concerned formulation of unrelated antihypertensive
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Both entries are valid single-ingredient products. The identifiers above are as recorded in the compiled data and are not in the standard PL number format, so they should be verified against the MHRA and BNF records.
+The identifiers above are as recorded in the compiled data and are not in the standard PL number format, so they should be verified against the MHRA and BNF records.
 
 ---
 

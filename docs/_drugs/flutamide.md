@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-The local data record one valid single-ingredient flutamide licence (tablet, 250 mg). No dosage form or approved indication text is recorded for it. Please check the current SmPC and BNF entry for licensed uses.
+No dosage form or approved indication text is recorded for it. Please check the current SmPC and BNF entry for licensed uses.
 
 ## Cytotoxicity
 

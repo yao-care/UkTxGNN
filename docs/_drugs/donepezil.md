@@ -88,7 +88,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The licence is a single-ingredient product and is currently valid. Detailed dosage form and indication text are not available in the local data.
+Detailed dosage form and indication text are not available in the local data.
 
 ## Safety Considerations
 

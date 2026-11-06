@@ -113,7 +113,7 @@ Please refer to the SmPC and BNF for further safety information. Report suspecte
 
 **Rationale:**
 - No cited study directly addresses vulvitis, and there are no registered trials, so the prediction rests on model output and indirect candidal data only.
-- The plausible mechanism applies only to a fungal cause, and the licensed UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation.
+- The plausible mechanism applies only to a fungal cause, and the UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation.
 
 **To proceed, the following is needed:**
 - Studies or trials that directly test tioconazole in vulvitis, with the cause (candidal or non-infectious) clearly defined
