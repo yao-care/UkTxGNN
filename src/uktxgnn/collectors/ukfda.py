@@ -76,7 +76,7 @@ class LocalFDACollector(BaseCollector):
         self.fm = dict(cfg.get("field_mapping") or {})
         self.withdrawn = {str(s).strip().lower() for s in (cfg.get("withdrawn_statuses") or []) if str(s).strip()}
 
-        df = load_fda_drugs()
+        df = load_fda_drugs(keep_all=True)  # 證據包要同一成分的全部 BNF 代碼（2026-11-06 修：原本每個成分只留 1 筆）
         cols = set(df.columns)
         for k, aliases in COLUMN_ALIASES.items():
             if self.fm.get(k) not in cols:

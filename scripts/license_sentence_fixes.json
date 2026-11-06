@@ -1,0 +1,144 @@
+{
+ "allantoin": [
+  {
+   "sentence": "It carries no recorded dosage form, manufacturer or approved indication text, and, being a combination product, it does not describe how allantoin alone is authorised.",
+   "reason": "緊接在被刪句（The local licence record lists one valid authorisation…）後、以 It 指涉那筆已刪的「許可紀錄」（本站資料是 BNF 處方代碼，不是許可證），一併刪除"
+  }
+ ],
+ "amiloride_hcl": [
+  {
+   "sentence": "including UK marketing authorisation records, mechanism of action, and safety data",
+   "cut": "UK marketing authorisation records, ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "arginine": [
+  {
+   "sentence": "Approved indication, dosage form and manufacturer details for the two UK authorisations",
+   "cut": " for the two UK authorisations",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "aripiprazole": [
+  {
+   "sentence": "The UK licence record does not state indications, and the safety profile requires careful management.",
+   "cut": "The UK licence record does not state indications, and ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留",
+   "capitalize": true
+  }
+ ],
+ "aspirin": [
+  {
+   "sentence": "This is inconsistent with the known UK market: aspirin-containing products hold numerous MHRA marketing authorisations",
+   "reason": "前一句（本證據包沒有許可紀錄）已刪；本句以 This 指涉前句，並說 aspirin 製劑持有大量 MHRA 許可（本站資料是 BNF 處方代碼，不含 MHRA 許可狀態），整句刪；aspirin 的用途見頁首原適應症"
+  }
+ ],
+ "benzydamine_hcl": [
+  {
+   "sentence": "A data retrieval gap or pipeline scope limitation may account for this discrepancy.",
+   "reason": "前文說證據包「查無 MHRA 許可」的句子已刪（本站資料是 BNF 處方代碼，不含 MHRA 許可狀態）；本句指涉那個已刪的「差異／資料問題」，一併刪除"
+  }
+ ],
+ "buspirone_hcl": [
+  {
+   "sentence": "including the DrugBank identifier, original indications, and MHRA authorisation records",
+   "cut": ", and MHRA authorisation records",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "no DrugBank identifier was resolved, MHRA authorisation records could not be retrieved, and",
+   "cut": " MHRA authorisation records could not be retrieved,",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "celiprolol_hcl": [
+  {
+   "sentence": "the mechanism of action is unrecorded, the drug has no UK marketing authorisation, and no safety profile",
+   "cut": " the drug has no UK marketing authorisation,",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "charcoal": [
+  {
+   "sentence": "including DrugBank linkage, mechanism of action, and UK marketing authorisation records.",
+   "cut": ", and UK marketing authorisation records",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "Manual verification against the MHRA product licence database using the INN \"activated charcoal\" and known brand name variants is strongly recommended before concluding that no UK authorisation exists.",
+   "keep": true,
+   "reason": "建議去 MHRA 資料庫查證（本站資料不含 MHRA 許可狀態），不是說本藥沒有許可，保留"
+  }
+ ],
+ "dexketoprofen": [
+  {
+   "sentence": "Original licensed indication text from the MHRA/SmPC, as the authorisation record is incomplete",
+   "cut": ", as the authorisation record is incomplete",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "everolimus": [
+  {
+   "sentence": "Everolimus is an mTOR inhibitor with a single licence recorded in the UK data compiled for this report.",
+   "cut": " with a single licence recorded in the UK data compiled for this report",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "plus indication and dosage form details for the licence record",
+   "cut": " for the licence record",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "flurbiprofen": [
+  {
+   "sentence": "Complete UK authorisation details (indication text, dosage form, valid licence number)",
+   "keep": true,
+   "reason": "下一步需要的資料（MHRA 許可細節本站資料沒有），不是說本藥許可有效，保留"
+  }
+ ],
+ "lofexidine": [
+  {
+   "sentence": "The UK authorisation record lacks indication text, and mechanism and label safety data are missing.",
+   "cut": "The UK authorisation record lacks indication text, and ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留",
+   "capitalize": true
+  }
+ ],
+ "perindopril": [
+  {
+   "sentence": "Approved indication text for the four UK authorisations, to confirm the baseline licence",
+   "cut": " for the four UK authorisations",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／張數的片段，下一步需要的資料保留"
+  }
+ ],
+ "selegiline_hcl": [
+  {
+   "sentence": "**no TxGNN-predicted new indications**, **no UK marketing authorisation records**, and",
+   "cut": " **no UK marketing authorisation records**,",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "As noted above, this is likely a data pipeline issue.",
+   "reason": "前文說證據包「查無 MHRA 許可」的句子已刪（本站資料是 BNF 處方代碼，不含 MHRA 許可狀態）；本句指涉那個已刪的「差異／資料問題」，一併刪除"
+  }
+ ],
+ "sulthiame": [
+  {
+   "sentence": "However, the authorisation records provided contain no approved indication text, so the relationship",
+   "cut": "the authorisation records provided contain no approved indication text, so ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  }
+ ],
+ "tobramycin": [
+  {
+   "sentence": "approved indications, contraindications), because the current licence record is incomplete",
+   "cut": ", because the current licence record is incomplete",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation",
+   "cut": ", since the one authorisation on record is a nebuliser solution and not an eye preparation",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／張數的片段，下一步需要的資料保留"
+  }
+ ]
+}

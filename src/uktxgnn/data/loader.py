@@ -58,8 +58,12 @@ def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_bnf_data(filepath: Path) -> pd.DataFrame:
+def load_bnf_data(filepath: Path, dedup: bool = True) -> pd.DataFrame:
     """Load UK BNF data from Open Formulary format.
+
+    dedup=True（預設，給藥物清單與預測用）：每個成分只留 1 列。
+    證據包的本地資料要全部代碼：用 dedup=False（2026-11-06 修：原收集器因此每個成分只收到 1 筆代碼；
+    已收集的證據包由 scripts/rebuild_licenses_by_ingredient.py 依 NHSBSA BNF 清單依成分重建）。
 
     Args:
         filepath: Path to drug_names.csv file
@@ -97,7 +101,10 @@ def load_bnf_data(filepath: Path) -> pd.DataFrame:
 
     # Remove duplicates by Active_Substances and filter non-empty
     result = result[result['Active_Substances'].notna() & (result['Active_Substances'] != '')]
-    result = result.drop_duplicates(subset=['Active_Substances']).reset_index(drop=True)
+    if dedup:
+        result = result.drop_duplicates(subset=['Active_Substances']).reset_index(drop=True)
+    else:
+        result = result.reset_index(drop=True)
 
     print(f"  Total BNF items: {len(result)}")
     print(f"  Unique ingredients: {result['Active_Substances'].nunique()}")
@@ -117,7 +124,7 @@ def filter_active_medicines(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_fda_drugs(filepath: Optional[Path] = None) -> pd.DataFrame:
+def load_fda_drugs(filepath: Optional[Path] = None, keep_all: bool = False) -> pd.DataFrame:
     """Load and process MHRA drug data.
 
     This is the main entry point, compatible with the standard TxGNN interface.
@@ -160,7 +167,7 @@ def load_fda_drugs(filepath: Optional[Path] = None) -> pd.DataFrame:
 
     # Check if this is BNF format (drug_names.csv)
     if "drug_names.csv" in str(filepath):
-        return load_bnf_data(filepath)
+        return load_bnf_data(filepath, dedup=not keep_all)
 
     print(f"Loading MHRA data from: {filepath}")
 
