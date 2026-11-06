@@ -116,7 +116,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. No trials exist, and the available literature supports at most a thromboprophylaxis rationale rather than any effect on RA itself. The licence data are also incomplete, and RA patients often take drugs that interact with rivaroxaban.
+The prediction rests on the model score alone. No trials exist, and the available literature supports at most a thromboprophylaxis rationale rather than any effect on RA itself. RA patients often take drugs that interact with rivaroxaban.
 
 **To proceed, the following is needed:**
 - Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications

@@ -119,9 +119,8 @@ The Evidence Pack is critically incomplete. No TxGNN predictions were generated,
 
 **To proceed, the following is needed:**
 
-1. **Re-run the MHRA database query** using the INN `amiodarone`
 2. **Resolve the DrugBank ID** — query the DrugBank API with the normalised INN to obtain `drugbank_id`, drug categories, and full MOA; this is the likely root cause of the empty prediction list
-3. **Diagnose the TxGNN pipeline failure** — confirm whether the drug was successfully mapped to a KG node; if `drugbank_id` was null at prediction time, re-run `run_kg_prediction.py` after resolving step 2
+3. **Diagnose the TxGNN pipeline failure** — confirm whether the drug was successfully mapped to a KG node; if `drugbank_id` was null at prediction time, re-run `run_kg_prediction.py`
 4. **Populate safety fields** — extract key warnings, contraindications, and drug–drug interactions from the MHRA SmPC and BNF before any clinical use evaluation
 5. **Re-run evidence collection** (ClinicalTrials.gov, PubMed) against the top predicted indication once predictions are available
 

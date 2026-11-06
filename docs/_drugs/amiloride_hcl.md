@@ -128,7 +128,7 @@ Please refer to the SmPC and BNF (Section 2.2.3) for full safety information on 
 **Decision: Hold**
 
 **Rationale:**
-This evidence pack is critically incomplete: no TxGNN repurposing prediction has been generated, the UK marketing authorisation data appears erroneous, and all safety fields are absent. Proceeding with any repurposing evaluation in the current state would be premature and potentially misleading.
+This evidence pack is critically incomplete: no TxGNN repurposing prediction has been generated, and all safety fields are absent. Proceeding with any repurposing evaluation in the current state would be premature and potentially misleading.
 
 **To proceed, the following is needed:**
 

@@ -135,7 +135,7 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Two small randomised trials and several smaller clinical studies examine sucralfate in alkaline reflux gastritis, and the mechanism is plausible. However, the trials are small and old, no trials are registered, the results are not reported in the available abstracts, and the UK licence record is incomplete. This supports further investigation, not a change in practice.
+Two small randomised trials and several smaller clinical studies examine sucralfate in alkaline reflux gastritis, and the mechanism is plausible. However, the trials are small and old, no trials are registered, the results are not reported in the available abstracts. This supports further investigation, not a change in practice.
 
 **To proceed, the following is needed:**
 - Review of the full texts of the two RCTs (PMIDs 3839973 and 12923369) for outcomes and effect sizes

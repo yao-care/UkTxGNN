@@ -143,7 +143,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-Urticaria is mechanistically well matched to H1 blockade and is already an established use of hydroxyzine, but the supplied evidence contains no trials and no hydroxyzine-specific randomised data for this indication. Second-generation antihistamines are preferred first-line because of hydroxyzine's sedative and cardiac safety profile, and the UK authorisation details and safety data are incomplete.
+Urticaria is mechanistically well matched to H1 blockade and is already an established use of hydroxyzine, but the supplied evidence contains no trials and no hydroxyzine-specific randomised data for this indication. Second-generation antihistamines are preferred first-line because of hydroxyzine's sedative and cardiac safety profile, and the safety data are incomplete.
 
 **To proceed, the following is needed:**
 - Confirmation of the approved indications, dosage form and PL number from the UK SmPC and MHRA record

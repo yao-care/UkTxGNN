@@ -121,7 +121,7 @@ For warnings and contraindications, please refer to the SmPC and BNF. Report sus
 The prediction is supported by a model score alone, with no trials, no publications and no plausible mechanistic link between HCN channel inhibition and hair growth or the genetic causes of hypertrichosis.
 
 **To proceed, the following is needed:**
-- Confirmed approved indication text and licence details (the regulatory entry is incomplete)
+- Confirmed approved indication text and licence details
 - Mechanism of action data and a biological rationale linking HCN channels to hair follicle biology
 - Preclinical evidence (for example, HCN expression in hair follicles) before any clinical work
 - Safety screening using SmPC warnings and contraindications, which are not yet available

@@ -38,7 +38,7 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 ## One-Sentence Summary
 
-Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in the UK for allergic rhinitis and chronic urticaria. The TxGNN prediction pipeline has not yet generated repurposing candidates for this compound, and UK MHRA regulatory records have not been loaded into this Evidence Pack. This report documents the current data status and defines the remediation steps required before a full repurposing evaluation can proceed.
+Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in the UK for allergic rhinitis and chronic urticaria. The TxGNN prediction pipeline has not yet generated repurposing candidates for this compound. This report documents the current data status and defines the remediation steps required before a full repurposing evaluation can proceed.
 
 ---
 
@@ -53,8 +53,6 @@ Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in t
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (34 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 34 |
 | Recommended Decision | **Hold** |
-
-> UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.
 
 ---
 
@@ -95,7 +93,7 @@ Additionally, mechanism of action (MOA) data was not retrieved from DrugBank des
 
 Showing 20 of 34 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**. MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.
+Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**.
 
 ---
 
@@ -110,7 +108,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack for Cetirizine HCl is missing its two most critical inputs — TxGNN repurposing predictions and UK MHRA regulatory records. No meaningful evaluation of a new indication can be performed without these foundations in place.
+The Evidence Pack for Cetirizine HCl is missing its most critical inputs — TxGNN repurposing predictions. No meaningful evaluation of a new indication can be performed without these foundations in place.
 
 **To proceed, the following is needed:**
 

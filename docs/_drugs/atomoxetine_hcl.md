@@ -44,8 +44,6 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (32 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 32 |
 
-The MHRA regulatory data collection step should be re-run before this report is finalised.
-
 ---
 
 ## Disclaimer

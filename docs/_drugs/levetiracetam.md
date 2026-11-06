@@ -142,7 +142,7 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Large Phase 3 randomised trials (including ESETT with 478 participants) and a UK paediatric RCT (EcLiPSE) directly test levetiracetam in status epilepticus, and the condition is closely related to the approved partial epilepsy use. The evidence level is L1. However, the comparative trials mainly show levetiracetam as one of several comparable options, rather than a clearly superior one. The UK licensing data compiled for this report are incomplete.
+Large Phase 3 randomised trials (including ESETT with 478 participants) and a UK paediatric RCT (EcLiPSE) directly test levetiracetam in status epilepticus, and the condition is closely related to the approved partial epilepsy use. The evidence level is L1. However, the comparative trials mainly show levetiracetam as one of several comparable options, rather than a clearly superior one.
 
 **To proceed, the following is needed:**
 - Confirmation of the MHRA licensed indications and formulations (especially intravenous) against the SmPC, and of how status epilepticus use sits with NICE and BNF guidance

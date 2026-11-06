@@ -81,8 +81,6 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-> **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov.uk/) and re-run the data ingestion pipeline. Multiple PL numbers are expected for 70 mg weekly tablets and 10 mg daily tablets across numerous manufacturers.
-
 ---
 
 ## Safety Considerations
@@ -104,7 +102,6 @@ The Evidence Pack is too incomplete to support any repurposing evaluation — th
 
 - **[Critical — DG001]** Retrieve and parse the UK SmPC (MHRA-approved labelling) for Alendronic acid to populate approved indications, warnings, and contraindications
 - **[Critical — DG002]** Query DrugBank API (DB00630) to retrieve mechanism of action, pharmacodynamics, and drug interaction data
-- **[Critical]** Re-run the MHRA product licence ingestion pipeline and confirm PL records are correctly retrieved; verify that `market_status` and `total_licenses` fields are populated
 - **[Critical]** Re-run the TxGNN prediction pipeline; confirm that `predicted_indications` is populated with at least one candidate before generating a repurposing report
 - **[Recommended]** Once predictions are available, cross-reference with NICE technology appraisals and BNF bone metabolism drug category (BNF Chapter 6.6) for contextual relevance
 

@@ -85,7 +85,6 @@ The evidence pack contains no TxGNN-predicted indication and is missing critical
 
 - **Resolve Blocking gap (DG001):** Obtain the full MHRA SmPC for Azelastine, including approved indications, warnings, and contraindications — download the SmPC PDF from the MHRA website and parse the relevant sections
 - **Resolve High gap (DG002):** Retrieve MOA data for Azelastine (DB00972) via the DrugBank API to enable mechanistic rationale assessment
-- **Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in the current data pull
 - **Re-run TxGNN pipeline:** Once DrugBank data is complete, re-run the prediction pipeline and confirm whether a valid repurposing candidate is generated
 - **Proceed to full evaluation:** If a prediction is returned, initiate evidence collection (ClinicalTrials.gov, PubMed, ICTRP) for the predicted indication and re-issue this report using the standard format
 ## Disclaimer

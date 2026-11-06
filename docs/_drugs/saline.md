@@ -87,7 +87,6 @@ No TxGNN predictions were generated for SALINE, and all foundational data elemen
 - If SALINE refers to a specific formulation (e.g., hypertonic saline for cystic fibrosis), clarify the active component and resubmit under the correct INN
 - Retrieve mechanism of action data from DrugBank once the compound is correctly identified
 - Re-run the TxGNN prediction pipeline with a confirmed DrugBank ID
-- Obtain MHRA marketing authorisation data if the compound is authorised in the UK under a different name
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

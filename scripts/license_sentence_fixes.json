@@ -10,6 +10,11 @@
    "sentence": "including UK marketing authorisation records, mechanism of action, and safety data",
    "cut": "UK marketing authorisation records, ",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／說查無 MHRA 許可的片段，其餘（藥理、安全性、方法論）保留"
+  },
+  {
+   "sentence": "This evidence pack is critically incomplete: no TxGNN repurposing prediction has been generated, the UK marketing authorisation data appears erroneous, and all safety fields are absent.",
+   "cut": " the UK marketing authorisation data appears erroneous,",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「英國上市許可資料看似有誤」子句，其餘缺漏說明保留（2026-11-06）"
   }
  ],
  "arginine": [
@@ -31,6 +36,10 @@
   {
    "sentence": "This is inconsistent with the known UK market: aspirin-containing products hold numerous MHRA marketing authorisations",
    "reason": "前一句（本證據包沒有許可紀錄）已刪；本句以 This 指涉前句，並說 aspirin 製劑持有大量 MHRA 許可（本站資料是 BNF 處方代碼，不含 MHRA 許可狀態），整句刪；aspirin 的用途見頁首原適應症"
+  },
+  {
+   "sentence": "A re-query against the MHRA Product Licence database is strongly recommended before proceeding.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；建議重新查詢 MHRA 許可資料庫（前提是資料擷取有缺），與事實不符；整句刪（2026-11-06）"
   }
  ],
  "benzydamine_hcl": [
@@ -146,6 +155,19 @@
   {
    "sentence": "As noted above, this is likely a data pipeline issue.",
    "reason": "前文說證據包「查無 MHRA 許可」的句子已刪（本站資料是 BNF 處方代碼，不含 MHRA 許可狀態）；本句指涉那個已刪的「差異／資料問題」，一併刪除"
+  },
+  {
+   "sentence": "Once the TxGNN pipeline is re-run with a confirmed DrugBank ID and the MHRA licence data is correctly ingested, a full mechanistic rationale section will be possible.",
+   "cut": " and the MHRA licence data is correctly ingested",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「MHRA 許可資料正確擷取後」子句，重跑預測的說明保留（2026-11-06）"
+  },
+  {
+   "sentence": "Manually search the [MHRA Product Licence Register](https://products.mhra.gov.uk/) for \"selegiline\" and \"Eldepryl\" to retrieve current PL numbers, dosage forms, and approved indications.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；這條「補救步驟」是去 MHRA 擷取 PL 號補進資料，前提與事實不符；整條刪，BNF 交叉核對條目保留（2026-11-06）"
+  },
+  {
+   "sentence": "**Retrieve MHRA marketing authorisation data** — search MHRA Product Licence Register for \"selegiline\" and populate `licenses` array with PL numbers, product names, dosage forms, and approved indications",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；條目整條是擷取 MHRA 上市許可資料填入 licenses 欄位，與事實不符；整條刪（2026-11-06）"
   }
  ],
  "sulthiame": [
@@ -185,6 +207,15 @@
   {
    "sentence": "A corrected query is listed under Next Steps below.",
    "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；前兩句（search artefact、failed lookup）刪除後失去指涉，一併刪除"
+  },
+  {
+   "sentence": "**Re-run the MHRA database query** using the INN `amiodarone`",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；條目整條是重跑 MHRA 資料查詢，與事實不符；整條刪（2026-11-06）"
+  },
+  {
+   "sentence": "re-run `run_kg_prediction.py` after resolving step 2",
+   "cut": " after resolving step 2",
+   "reason": "同頁有序清單第 1 條（重跑 MHRA 資料查詢，與事實不符）刪除後，網頁上的編號往前移一號，「step 2」改指向本條自己；只刪這個失去指涉的步驟編號片段，條目其餘保留（2026-11-06）"
   }
  ],
  "ciclosporin": [
@@ -203,6 +234,119 @@
   {
    "sentence": "The identifier shown is as supplied in the compiled data and is not in the standard MHRA \"PL\" format, so it should be verified against the MHRA register.",
    "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；重建後本藥不在 BNF 清單、頁面不再顯示任何代碼，這句講的是重建前那筆舊紀錄的代碼，整句刪（2026-11-06 第三輪）"
+  }
+ ],
+ "alendronic_acid": [
+  {
+   "sentence": "> **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov.uk/) and re-run the data ingestion pipeline.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；本句要求核對「本報告的 MHRA 許可資料」並重跑資料擷取流程，前提（資料應含 MHRA 許可、擷取失敗）與事實不符；整句刪（2026-11-06 用戶決定：舊的「去查 MHRA」下一步）"
+  },
+  {
+   "sentence": "Multiple PL numbers are expected for 70 mg weekly tablets and 10 mg daily tablets across numerous manufacturers.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；「資料裡應有多個 PL 號」的說法與事實不符；整句刪（同一段落，2026-11-06）"
+  },
+  {
+   "sentence": "**[Critical]** Re-run the MHRA product licence ingestion pipeline and confirm PL records are correctly retrieved; verify that `market_status` and `total_licenses` fields are populated",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；條目整條是重跑 MHRA 許可擷取流程，與事實不符；整條刪（2026-11-06）"
+  }
+ ],
+ "atomoxetine_hcl": [
+  {
+   "sentence": "The MHRA regulatory data collection step should be re-run before this report is finalised.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；「重跑 MHRA 資料收集步驟」與事實不符；整句刪（2026-11-06）"
+  }
+ ],
+ "azelastine": [
+  {
+   "sentence": "**Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in the current data pull",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；條目整條以「這次資料擷取漏了既有許可」為前提，與事實不符；整條刪（2026-11-06）"
+  }
+ ],
+ "azilsartan_medoxomil": [
+  {
+   "sentence": "This discrepancy suggests the MHRA data pipeline has not yet been populated for this candidate.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；「MHRA 資料流程尚未填入本藥」與事實不符；整句刪（2026-11-06）"
+  },
+  {
+   "sentence": "The regulatory section below reflects this gap explicitly.",
+   "reason": "前一句（MHRA 資料流程未填入，與事實不符）刪除後，本句的 this gap 失去指涉；懸空句整句刪（2026-11-06）"
+  }
+ ],
+ "carbidopa": [
+  {
+   "sentence": "The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；說證據包反映「沒有單方 MHRA 上市許可」，把清單資料說成許可資料，與事實不符；整句刪（前兩句的產品說明保留，2026-11-06）"
+  }
+ ],
+ "cetirizine_hcl": [
+  {
+   "sentence": "The TxGNN prediction pipeline has not yet generated repurposing candidates for this compound, and UK MHRA regulatory records have not been loaded into this Evidence Pack.",
+   "cut": ", and UK MHRA regulatory records have not been loaded into this Evidence Pack",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「MHRA 許可紀錄尚未載入」子句，預測未產生的說明保留（2026-11-06）"
+  },
+  {
+   "sentence": "> UK marketing authorisation data must be loaded before this report can be used for any clinical or regulatory purpose.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；「必須載入英國上市許可資料」與事實不符；整句刪（2026-11-06）"
+  },
+  {
+   "sentence": "MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；「應擷取並載入 MHRA 許可資料」與事實不符；整句刪，同段的品牌與 BNF 分類說明保留（2026-11-06）"
+  },
+  {
+   "sentence": "The Evidence Pack for Cetirizine HCl is missing its two most critical inputs — TxGNN repurposing predictions and UK MHRA regulatory records.",
+   "cut": [
+    "two ",
+    " and UK MHRA regulatory records"
+   ],
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「缺 MHRA 許可紀錄」的片段（與其對應的「two」），缺預測的說明保留（2026-11-06）"
+  }
+ ],
+ "saline": [
+  {
+   "sentence": "Obtain MHRA marketing authorisation data if the compound is authorised in the UK under a different name",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；條目整條是補抓 MHRA 上市許可資料，與事實不符；整條刪（2026-11-06）"
+  }
+ ],
+ "levetiracetam": [
+  {
+   "sentence": "The UK licensing data compiled for this report are incomplete.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；說本報告彙整的英國許可資料不完整（前提是資料含許可），與事實不符；整句刪（2026-11-06）"
+  }
+ ],
+ "hydroxyzine": [
+  {
+   "sentence": "and the UK authorisation details and safety data are incomplete.",
+   "cut": "UK authorisation details and ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「英國許可資料不完整」片段，安全性資料不完整的說明保留（2026-11-06）"
+  }
+ ],
+ "ketamine": [
+  {
+   "sentence": "and the UK licence record, original indication and safety label data are incomplete.",
+   "cut": "UK licence record, ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「英國許可紀錄不完整」片段，試驗、原適應症、仿單資料的說明保留（2026-11-06）"
+  }
+ ],
+ "sucralfate": [
+  {
+   "sentence": "and the UK licence record is incomplete.",
+   "cut": ", and the UK licence record is incomplete",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「英國許可紀錄不完整」子句，試驗說明保留（2026-11-06）"
+  }
+ ],
+ "rivaroxaban": [
+  {
+   "sentence": "The licence data are also incomplete, and RA patients often take drugs that interact with rivaroxaban.",
+   "cut": "The licence data are also incomplete, and ",
+   "capitalize": true,
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「許可資料不完整」子句，交互作用說明保留（2026-11-06）"
+  }
+ ],
+ "ivabradine": [
+  {
+   "sentence": "Confirmed approved indication text and licence details (the regulatory entry is incomplete)",
+   "cut": " (the regulatory entry is incomplete)",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「許可紀錄不完整」括號，下一步需要的資料（原適應症、許可細節）保留（2026-11-06）"
   }
  ]
 }

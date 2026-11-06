@@ -130,7 +130,7 @@ Please also refer to the SmPC and BNF for full safety information. Report suspec
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several randomised and comparator trials in acute and chronic headache, a plausible NMDA-related mechanism and a high model score support further work. However, the trials are small, results are not available for the key Phase 3 studies, and the UK licence record, original indication and safety label data are incomplete.
+Several randomised and comparator trials in acute and chronic headache, a plausible NMDA-related mechanism and a high model score support further work. However, the trials are small, results are not available for the key Phase 3 studies, and the original indication and safety label data are incomplete.
 
 **To proceed, the following is needed:**
 - Published results of THINK (NCT03081416) and KetHead (NCT05306899), including effect sizes and adverse events

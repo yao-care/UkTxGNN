@@ -61,8 +61,6 @@ However, this Evidence Pack contains **no predicted new indications** and carrie
 
 ## UK Market Information
 
-A re-query against the MHRA Product Licence database is strongly recommended before proceeding.
-
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407010B0AAAWAW | Acetylsalicylic acid mixture | Aspirin |

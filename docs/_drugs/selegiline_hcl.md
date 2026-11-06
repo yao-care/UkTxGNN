@@ -66,7 +66,7 @@ No TxGNN prediction has been generated for this drug in the current Evidence Pac
 
 From publicly available information, selegiline HCl irreversibly inhibits MAO-B, thereby reducing the breakdown of dopamine in the striatum. At higher doses it also inhibits MAO-A, which broadens its pharmacological activity to include serotonergic and noradrenergic pathways — the basis for its transdermal formulation (Emsam®, approved in the US) being investigated as an antidepressant. These mechanistic properties make selegiline a plausible repurposing candidate across neuropsychiatric indications, but **no prediction score or supporting evidence has been provided in this Evidence Pack** to support or quantify that claim.
 
-Once the TxGNN pipeline is re-run with a confirmed DrugBank ID and the MHRA licence data is correctly ingested, a full mechanistic rationale section will be possible.
+Once the TxGNN pipeline is re-run with a confirmed DrugBank ID, a full mechanistic rationale section will be possible.
 
 ---
 
@@ -101,7 +101,6 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 The following remediation step is recommended:
 
-- Manually search the [MHRA Product Licence Register](https://products.mhra.gov.uk/) for "selegiline" and "Eldepryl" to retrieve current PL numbers, dosage forms, and approved indications.
 - Cross-reference with the [BNF section 4.9.1 (Dopaminergic drugs used in Parkinson's disease)](https://bnf.nice.org.uk/drugs/selegiline-hydrochloride/) for current clinical status.
 
 ---
@@ -125,7 +124,6 @@ No clinical recommendation can be made on the basis of this pack alone.
 
 - [ ] **Confirm DrugBank ID** for selegiline HCl (the `query_log` records a successful DrugBank lookup but `drugbank_id` remains null — the mapping result should be reviewed and the correct ID populated)
 - [ ] **Re-run TxGNN prediction pipeline** with the confirmed DrugBank ID to generate `predicted_indications`
-- [ ] **Retrieve MHRA marketing authorisation data** — search MHRA Product Licence Register for "selegiline" and populate `licenses` array with PL numbers, product names, dosage forms, and approved indications
 - [ ] **Populate MOA field** — query DrugBank API for mechanism of action and pharmacology summary (Data Gap DG002, severity: High)
 - [ ] **Retrieve SmPC safety data** — download and parse the relevant MHRA-approved SmPC PDF to populate `key_warnings`, `contraindications`, and DDI fields (Data Gap DG001, severity: Blocking)
 - [ ] **Re-submit Evidence Pack** once the above gaps are resolved; a full L1–L4 evaluation report can then be generated
