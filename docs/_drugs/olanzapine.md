@@ -6,7 +6,7 @@ nav_order: 459
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Olanzapine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L3). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
+description: "Olanzapine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---

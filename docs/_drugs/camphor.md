@@ -6,7 +6,7 @@ nav_order: 125
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-06
-description: "Camphor: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the data compiled for this report"
+description: "Camphor: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
 ---

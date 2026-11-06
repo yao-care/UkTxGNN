@@ -6,7 +6,7 @@ nav_order: 478
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-11-06
-description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the available licence data"
+description: "Parathyroid Hormone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not specified in the available licence data"
 monitor_inn: "Parathyroid hormone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "amenorrhea (disease)", "Raynaud disease", "non-syndromic esophageal malformation", "esophageal disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "erectile dysfunction (disease)"]
 ---
