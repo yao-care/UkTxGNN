@@ -276,6 +276,11 @@
   {
    "sentence": "The Evidence Pack reflects the absence of a standalone MHRA marketing authorisation, which is consistent with clinical practice.",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；說證據包反映「沒有單方 MHRA 上市許可」，把清單資料說成許可資料，與事實不符；整句刪（前兩句的產品說明保留，2026-11-06）"
+  },
+  {
+   "sentence": "It is commercially available only in fixed-dose combination products",
+   "keep": true,
+   "reason": "保留（無法判斷）：BNF 清單有一筆單方「Carbidopa 25mg tablets」（0409010D0AAAAAA），但 BNF 代碼不代表 MHRA 許可或市售狀態（多為未許可進口品），本句「市售只有複方」無法用本站資料證偽；2026-11-06 單方／複方逐句核對，保守保留"
   }
  ],
  "cetirizine_hcl": [
@@ -347,6 +352,12 @@
    "sentence": "Confirmed approved indication text and licence details (the regulatory entry is incomplete)",
    "cut": " (the regulatory entry is incomplete)",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（NHS prescribing codes），依設計不含 MHRA 許可證或許可狀態，沒有 MHRA 許可資料的擷取步驟；只刪「許可紀錄不完整」括號，下一步需要的資料（原適應症、許可細節）保留（2026-11-06）"
+  }
+ ],
+ "bacitracin": [
+  {
+   "sentence": "Both are classed as single-ingredient records, but the second product name suggests a polymyxin/bacitracin preparation",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼清單（本藥 4 筆，其中單方 0 筆，依 BNF 成分）；表列 4 筆 BNF 代碼都是 polymyxin（含 bacitracin）製劑、沒有單方；句子以「兩筆都歸為單方紀錄」為前提，整句刪（2026-11-06 用戶決定：單方／複方說法跟事實不符只刪錯的詞或子句）"
   }
  ]
 }

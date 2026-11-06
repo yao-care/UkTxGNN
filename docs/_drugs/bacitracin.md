@@ -78,8 +78,6 @@ Currently no related literature available for punctate epithelial keratoconjunct
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Both are classed as single-ingredient records, but the second product name suggests a polymyxin/bacitracin preparation, so it should be checked against the product label before drawing conclusions about bacitracin alone.
-
 ## Safety Considerations
 
 - **Drug Interactions**: 84 interactions were identified in the data compiled for this report. Those classed as major include:
