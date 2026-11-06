@@ -70,7 +70,30 @@ Currently no related literature available — no predicted indication available 
 
 ## UK Market Information
 
-The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1104020AEAAAJAJ | Ciclosporin 0.05% eye dps 0.4ml unit dose preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAIAI | Ciclosporin 0.06% eye dps 0.4ml unit dose preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAHAH | Ciclosporin 0.06% eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAGAG | Ciclosporin 0.2% eye ointment | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAFAF | Ciclosporin 0.2% eye ointment preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0AAADAD | Ciclosporin 100mg capsules | Ciclosporin |
+| 0802020G0AAAGAG | Ciclosporin 100mg/ml oral solution sugar free | Ciclosporin |
+| 0802020G0AAAHAH | Ciclosporin 10mg capsules | Ciclosporin |
+| 1104020AEAAAAAA | Ciclosporin 1mg/ml eye drops 0.3ml unit dose | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAKAK | Ciclosporin 1mg/ml eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAAEAE | Ciclosporin 2% eye drops | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAADAD | Ciclosporin 2% eye drops preservative free | Ciclosporin (Eye Anti Inflammatory) |
+| 1104020AEAAACAC | Ciclosporin 2% eye ointment | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0AAAEAE | Ciclosporin 250mg/5ml solution for infusion ampoules | Ciclosporin |
+| 0802020G0AAACAC | Ciclosporin 25mg capsules | Ciclosporin |
+| 0802020G0AAAFAF | Ciclosporin 50mg capsules | Ciclosporin |
+| 0802020G0AAAAAA | Ciclosporin 50mg/1ml solution for infusion ampoules | Ciclosporin |
+| 1104020AEAAABAB | Ciclosporin 900microg/ml eye drops 0.25ml ud preserv free | Ciclosporin (Eye Anti Inflammatory) |
+| 0802020G0BFACAD | Capimune 100mg capsules | Ciclosporin |
+| 0802020G0BFAAAC | Capimune 25mg capsules | Ciclosporin |
+
+Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ## Safety Considerations
 

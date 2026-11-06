@@ -70,6 +70,18 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0604020B0AAAAAA | Dutasteride 500microgram capsules | Dutasteride |
+| 0604020B0AAABAB | Dutasteride 500micrograms/5ml oral solution | Dutasteride |
+| 0604020B0BBAAAA | Avodart 500microgram capsules | Dutasteride |
+| 0704010V0BBAAAA | Combodart 0.5mg/0.4mg capsules | Tamsulosin and dutasteride hydrochloride |
+| 0704010V0BCAAAA | Dutrozen 0.5mg/0.4mg capsules | Tamsulosin and dutasteride hydrochloride |
+| 0704010V0AAAAAA | Tamsulosin 400microgram / Dutasteride 500microgram capsules | Tamsulosin and dutasteride hydrochloride |
+| 0604020B0BCAAAA | Zepron 500microgram capsules | Dutasteride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Dutasteride is marketed in the United Kingdom. No indication text is recorded for this authorisation in the local data.
 
 ## Safety Considerations

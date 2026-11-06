@@ -59,7 +59,17 @@ As a result, **no evidence-based repurposing recommendation** can be made at thi
 
 ## UK Market Information
 
-> **Note for clinicians:** Celiprolol is available in certain other European markets (e.g., France, Germany) for cardiovascular indications. However, in the absence of a UK marketing authorisation, any clinical use would require a Specials licence or named-patient basis application via the MHRA, and standard BNF/NICE guidance does not apply.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 020400060AAAAAA | Celiprolol 200mg tablets | Celiprolol hydrochloride |
+| 020400060AAACAC | Celiprolol 200mg/5ml oral suspension | Celiprolol hydrochloride |
+| 020400060AAABAB | Celiprolol 400mg tablets | Celiprolol hydrochloride |
+| 020400060BBAAAA | Celectol 200mg tablets | Celiprolol hydrochloride |
+| 020400060BBABAB | Celectol 400mg tablets | Celiprolol hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+> **Note for clinicians:** Celiprolol is available in certain other European markets (e.g., France, Germany) for cardiovascular indications.
 
 ---
 

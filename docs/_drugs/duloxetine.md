@@ -104,7 +104,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The single record is a valid single-ingredient product. The BNF chemical code shown above is the identifier held in the local data.
+The BNF chemical code shown above is the identifier held in the local data.
 
 ---
 

@@ -81,7 +81,7 @@ Currently no related literature available for the top predicted indication (rena
 
 ## UK Market Information
 
-The data compiled for this report list three valid single-ingredient products. Dosage form and approved indication text were not available. The identifiers shown are the codes in the compiled data, not confirmed MHRA PL numbers.
+Dosage form and approved indication text were not available. The identifiers shown are the codes in the compiled data, not confirmed MHRA PL numbers.
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|

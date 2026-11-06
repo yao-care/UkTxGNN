@@ -94,8 +94,6 @@ Because no cited study tests entecavir as a treatment for HCV itself, the eviden
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-One valid single-ingredient record is present.
-
 ## Safety Considerations
 
 **Drug Interactions**: 44 interactions were recorded. The 20 listed in the data compiled for this report are all graded Moderate. Main examples:

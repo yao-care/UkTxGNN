@@ -84,6 +84,21 @@ Currently no related literature available in this Evidence Pack.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010T0AAAKAK | Selegiline 1.25mg oral lyophilisates sugar free | Selegiline hydrochloride |
+| 0409010T0AAACAC | Selegiline 10mg tablets | Selegiline hydrochloride |
+| 0409010T0AAALAL | Selegiline 10mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0AAAIAI | Selegiline 19mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0AAAAAA | Selegiline 5mg tablets | Selegiline hydrochloride |
+| 0409010T0AAAGAG | Selegiline 5mg/5ml oral solution | Selegiline hydrochloride |
+| 0409010T0BBABAC | Eldepryl 10mg tablets | Selegiline hydrochloride |
+| 0409010T0BBACAL | Eldepryl 10mg/5ml syrup | Selegiline hydrochloride |
+| 0409010T0BBAAAA | Eldepryl 5mg tablets | Selegiline hydrochloride |
+| 0409010T0BFAAAK | Zelapar 1.25mg oral lyophilisates | Selegiline hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 The following remediation step is recommended:
 
 - Manually search the [MHRA Product Licence Register](https://products.mhra.gov.uk/) for "selegiline" and "Eldepryl" to retrieve current PL numbers, dosage forms, and approved indications.

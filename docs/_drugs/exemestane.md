@@ -68,6 +68,13 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0803041C0AAAAAA | Exemestane 25mg tablets | Exemestane |
+| 0803041C0BBAAAA | Aromasin 25mg tablets | Exemestane |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 ## Safety Considerations
 
 - **Drug Interactions**: The interaction screen returned 100 recorded interacting drugs. The only ones graded Moderate are **dexamethasone** and **troglitazone**. Other listed entries, such as pantoprazole, omeprazole, metformin, simvastatin, morphine and aspirin, have no assigned severity grade.

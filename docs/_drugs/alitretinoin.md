@@ -70,6 +70,15 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1305010AFAAAAAA | Alitretinoin 10mg capsules | Alitretinoin |
+| 1305010AFAAABAB | Alitretinoin 30mg capsules | Alitretinoin |
+| 1305010AFBBAAAA | Toctino 10mg capsules | Alitretinoin |
+| 1305010AFBBABAB | Toctino 30mg capsules | Alitretinoin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 ## Safety Considerations
 
 - **Drug Interactions**: Pharmacology records list binding to RAR-alpha, RAR-beta, RAR-gamma, RXR-alpha, RXR-beta and RXR-gamma, plus VKORC1 (vitamin K epoxide reductase complex subunit 1). These are target interactions rather than graded drug–drug interactions, so no interaction severity levels are available. Because VKORC1 is the target of warfarin, coagulation monitoring is a sensible precaution if co-prescribed; check the SmPC and BNF.

@@ -81,6 +81,31 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 040801060AACLCL | Clobazam 1.25mg/5ml oral liquid | Clobazam |
+| 040801060AABZBZ | Clobazam 1.5mg/5ml oral liquid | Clobazam |
+| 040801060AACFCF | Clobazam 100mg/5ml oral liquid | Clobazam |
+| 040801060AABTBT | Clobazam 10mg tablets | Clobazam |
+| 040801060AAA4A4 | Clobazam 10mg/5ml oral liquid | Clobazam |
+| 040801060AACSCS | Clobazam 10mg/5ml oral suspension sugar free | Clobazam |
+| 040801060AABYBY | Clobazam 12.5mg/5ml oral liquid | Clobazam |
+| 040801060AACHCH | Clobazam 120mg/5ml oral liquid | Clobazam |
+| 040801060AAA7A7 | Clobazam 15mg/5ml oral liquid | Clobazam |
+| 040801060AAA8A8 | Clobazam 1mg/5ml oral liquid | Clobazam |
+| 040801060AAAGAG | Clobazam 2.5mg capsules | Clobazam |
+| 040801060AABABA | Clobazam 2.5mg/5ml oral liquid | Clobazam |
+| 040801060AACTCT | Clobazam 20mg tablets | Clobazam |
+| 040801060AABSBS | Clobazam 20mg/5ml oral liquid | Clobazam |
+| 040801060AABUBU | Clobazam 250micrograms/5ml oral liquid | Clobazam |
+| 040801060AAA3A3 | Clobazam 25mg/5ml oral liquid | Clobazam |
+| 040801060AABNBN | Clobazam 2mg/5ml oral liquid | Clobazam |
+| 040801060AABLBL | Clobazam 3.5mg/5ml oral liquid | Clobazam |
+| 040801060AABPBP | Clobazam 3.75mg/5ml oral liquid | Clobazam |
+| 040801060AACBCB | Clobazam 32.5mg/5ml oral liquid | Clobazam |
+
+Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Please consult the BNF and the current SmPC for licensed indications and formulations.
 
 ---

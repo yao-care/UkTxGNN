@@ -102,7 +102,7 @@ Both publications are animal studies. No human studies were identified.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather than a standard MHRA product licence (PL) number, so the licence details should be checked against the MHRA register. The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs.
+The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs.
 
 ## Safety Considerations
 

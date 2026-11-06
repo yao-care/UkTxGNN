@@ -85,7 +85,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-This identifier follows the BNF-style product code format, not a PL number. The list contains one single-ingredient record, and it is currently valid.
+This identifier follows the BNF-style product code format, not a PL number.
 
 ---
 

@@ -102,7 +102,7 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Micafungin sits in the BNF antifungal section (chapter 5, infections). The data compiled for this report contain one valid single-ingredient product and no NICE-appraised indication details.
+Micafungin sits in the BNF antifungal section (chapter 5, infections). The data compiled for this report contain no NICE-appraised indication details.
 
 ---
 

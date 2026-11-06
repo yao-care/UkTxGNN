@@ -84,7 +84,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The identifier above is a BNF-style product code rather than a PL number. Under the BNF, demeclocycline sits in the tetracycline antibacterial section (chapter 5, infections). One single-ingredient record is listed, and it is currently valid.
+The identifier above is a BNF-style product code rather than a PL number. Under the BNF, demeclocycline sits in the tetracycline antibacterial section (chapter 5, infections).
 
 ## Safety Considerations
 

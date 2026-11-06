@@ -82,7 +82,28 @@ Currently no related literature available for this candidate's predicted indicat
 
 ## UK Market Information
 
-This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1902070E0AAAJAJ | Activated charcoal 1.04g/5ml oral suspension | Charcoal |
+| 1902070E0AAAHAH | Activated charcoal 200mg capsules | Charcoal |
+| 1902070E0AAALAL | Activated charcoal 200mg/ml oral suspension sugar free | Charcoal |
+| 1902070E0AAAMAM | Activated charcoal 300mg capsules | Charcoal |
+| 1902070E0AAABAB | Activated charcoal 300mg tablets | Charcoal |
+| 1902070E0AAAIAI | Activated charcoal 5g effervescent granules sachets | Charcoal |
+| 1902070E0AAAGAG | Activated charcoal 81.3% gran for gastroenteral or susp SF | Charcoal |
+| 1902070E0BJAAAJ | Actidose-Aqua Advance 1.04g/5ml oral suspension | Charcoal |
+| 1902070E0AAAAAA | Activated charcoal biscuits | Charcoal |
+| 1902070E0BEAAAG | Carbomix 81.3% granules for oral suspension | Charcoal |
+| 1902070E0BLAAAL | Charcodote 200mg/ml oral suspension | Charcoal |
+| 1902070E0BBACAM | J.L. Bragg's Charcoal capsules | Charcoal |
+| 1902070E0BBAAAA | J.L. Bragg's Medicinal Charcoal biscuits | Charcoal |
+| 1902070E0BBABAB | J.L. Bragg's Medicinal Charcoal tablets | Charcoal |
+| 1902070E0BIAAAI | Medicoal 5g effervescent granules sachets | Charcoal |
+| 1902070E0BFAAAH | Norit 200mg capsules | Charcoal |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua).
 
 Manual verification against the MHRA product licence database using the INN "activated charcoal" and known brand name variants is strongly recommended before concluding that no UK authorisation exists.
 

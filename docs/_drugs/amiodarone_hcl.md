@@ -70,9 +70,30 @@ Amiodarone has a complex, multi-target pharmacological profile — including Cla
 
 ## UK Market Information
 
-This is almost certainly a search artefact. The salt suffix "HCL" in the query string is the most probable cause of the failed lookup.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0203020D0AAAAAA | Amiodarone 100mg tablets | Amiodarone hydrochloride |
+| 0203020D0AAAUAU | Amiodarone 100mg/5ml oral solution | Amiodarone hydrochloride |
+| 0203020D0AACHCH | Amiodarone 100mg/5ml oral suspension | Amiodarone hydrochloride |
+| 0203020D0AABGBG | Amiodarone 10mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAAXAX | Amiodarone 125mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAADAD | Amiodarone 150mg/3ml solution for injection ampoules | Amiodarone hydrochloride |
+| 0203020D0AABLBL | Amiodarone 150mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AACACA | Amiodarone 155mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABDBD | Amiodarone 15mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAABAB | Amiodarone 200mg tablets | Amiodarone hydrochloride |
+| 0203020D0AAAVAV | Amiodarone 200mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABKBK | Amiodarone 20mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABYBY | Amiodarone 22mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABEBE | Amiodarone 250mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AAAWAW | Amiodarone 25mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0BGAABV | Amiodarone 300mg/10ml inj Minijet pre-filled syringes | Amiodarone hydrochloride |
+| 0203020D0AABVBV | Amiodarone 300mg/10ml inj pre-filled syringes | Amiodarone hydrochloride |
+| 0203020D0AAAZAZ | Amiodarone 30mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AACFCF | Amiodarone 31.25mg/5ml oral liquid | Amiodarone hydrochloride |
+| 0203020D0AABSBS | Amiodarone 35mg/5ml oral liquid | Amiodarone hydrochloride |
 
-A corrected query is listed under Next Steps below.
+Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
 ---
 

@@ -86,6 +86,31 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0304010I0AAADAD | Cetirizine 10mg capsules | Cetirizine hydrochloride |
+| 0304010I0AAAAAA | Cetirizine 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0AAABAB | Cetirizine 1mg/ml oral solution sugar free | Cetirizine hydrochloride |
+| 0304010I0BPAAAA | Allacan 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BIAAAA | AllerTek 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BQAAAA | BecoAllergy 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BTAAAA | Bell's Allergy Relief 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BEACAB | Benadryl Allergy 1mg/ml oral solution | Cetirizine hydrochloride |
+| 0304010I0BEAFAB | Benadryl Allergy Children's 1mg/ml oral solution | Cetirizine hydrochloride |
+| 0304010I0BEADAB | Benadryl Allergy Children's 6+ 1mg/ml oral solution | Cetirizine hydrochloride |
+| 0304010I0BEAEAD | Benadryl Allergy Liquid Release 10mg capsules | Cetirizine hydrochloride |
+| 0304010I0BEAGAA | Benadryl Allergy One A Day 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BEABAA | Benadryl One A Day 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BEAAAA | Benadryl One A Day Relief 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BNAAAB | Care Hayfever and Allergy oral solution | Cetirizine hydrochloride |
+| 0304010I0BJAAAA | Cetec 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BDAAAA | Cetirocol 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BGAAAA | Galpharm Hayfever and Allergy Relief 10mg tablets | Cetirizine hydrochloride |
+| 0304010I0BGABAB | Galpharm Hayfever and Allergy Relief 1mg/ml syrup | Cetirizine hydrochloride |
+| 0304010I0BMAAAA | Lloydspharmacy Hayfever and Allergy Relief 10mg tablets | Cetirizine hydrochloride |
+
+Showing 20 of 34 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Dosage form and indication text are not recorded for this record. Please consult the MHRA register and the BNF for full product details.
 
 ---

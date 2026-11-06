@@ -75,6 +75,19 @@ Post-infectious neuralgia, in practice usually postherpetic neuralgia, is nerve 
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0503021E0AAABAB | Famciclovir 125mg tablets | Famciclovir |
+| 0503021E0AAAAAA | Famciclovir 250mg tablets | Famciclovir |
+| 0503021E0AAADAD | Famciclovir 500mg tablets | Famciclovir |
+| 0503021E0AAACAC | Famciclovir 750mg tablets | Famciclovir |
+| 0503021E0BBABAB | Famvir 125mg tablets | Famciclovir |
+| 0503021E0BBAAAA | Famvir 250mg tablets | Famciclovir |
+| 0503021E0BBADAD | Famvir 500mg tablets | Famciclovir |
+| 0503021E0BBACAC | Famvir 750mg tablets | Famciclovir |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Dosage form, manufacturer and approved indication text are not recorded in the local data, so no further detail can be reported here.
 
 ---

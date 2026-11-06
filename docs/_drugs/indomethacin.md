@@ -72,7 +72,7 @@ Currently no related literature available.
 
 ## UK Market Information
 
-Six single-ingredient indomethacin products are recorded as valid. The licence numbers below are shown exactly as held in the data compiled for this report. They are not in the MHRA "PL" format, so verify them against the MHRA register. Approved indication text was not available for any product.
+The licence numbers below are shown exactly as held in the data compiled for this report. They are not in the MHRA "PL" format, so verify them against the MHRA register. Approved indication text was not available for any product.
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|

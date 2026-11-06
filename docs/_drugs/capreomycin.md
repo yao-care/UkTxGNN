@@ -80,6 +80,13 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501090C0AAAAAA | Capreomycin 1g powder for solution for injection vials | Capreomycin |
+| 0501090C0BBAAAA | Capastat 1g powder for solution for injection vials | Capreomycin |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 ---
 
 ## Safety Considerations

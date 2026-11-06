@@ -68,6 +68,24 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0906040C0AAAEAE | Calcitriol 1micrograms/1ml solution for injection ampoules | Calcitriol |
+| 0906040C0AAAAAA | Calcitriol 250nanogram capsules | Calcitriol |
+| 0906040C0AAADAD | Calcitriol 2micrograms/1ml solution for injection ampoules | Calcitriol |
+| 1305020W0AAAAAA | Calcitriol 3micrograms/g ointment | Calcitriol |
+| 0906040C0AAABAB | Calcitriol 500nanogram capsules | Calcitriol |
+| 0906040C0AAAGAG | Calcitriol 500nanograms/5ml oral liquid | Calcitriol |
+| 0906040C0AAAIAI | Calcitriol 5micrograms/5ml oral liquid | Calcitriol |
+| 0906040C0BCABAE | Calcijex 1micrograms/1ml solution for injection ampoules | Calcitriol |
+| 0906040C0BCAAAD | Calcijex 2micrograms/1ml solution for injection ampoules | Calcitriol |
+| 0906040C0BBACAI | Rocaltrol 1micrograms/ml oral solution | Calcitriol |
+| 0906040C0BBAAAA | Rocaltrol 250nanogram capsules | Calcitriol |
+| 0906040C0BBABAB | Rocaltrol 500nanogram capsules | Calcitriol |
+| 1305020W0BBAAAA | Silkis ointment | Calcitriol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No indication text or dosage-form details were recorded in the local licence data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
 
 ## Safety Considerations

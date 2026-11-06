@@ -107,7 +107,7 @@ No publications were found for craniofacial conodysplasia. The table below shows
 
 Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The listing is a single-ingredient product and is currently marketed. The reference number appears to be a BNF-style code rather than a PL number.
+The reference number appears to be a BNF-style code rather than a PL number.
 
 ## Safety Considerations
 

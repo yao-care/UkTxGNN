@@ -124,7 +124,7 @@ The main caveat is tolerability. Sedation, anticholinergic effects and cognitive
 
 Showing 20 of 56 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The compiled data holds one valid single-ingredient product record. Please check the current SmPC and the BNF (antihistamines chapter) for the licensed indications and doses, as well as any relevant NICE guidance.
+Please check the current SmPC and the BNF (antihistamines chapter) for the licensed indications and doses, as well as any relevant NICE guidance.
 
 ---
 

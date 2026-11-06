@@ -94,7 +94,7 @@ Currently no related literature available.
 
 Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The list is limited to the single record in the local data. It is a single-ingredient product and is currently valid.
+The list is limited to the single record in the local data.
 
 ## Safety Considerations
 

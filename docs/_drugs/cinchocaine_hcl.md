@@ -69,6 +69,23 @@ Currently no related literature available linking cinchocaine to a novel repurpo
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107010G0AAAAAA | Cinchocaine 1.1% ointment | Cinchocaine hydrochloride |
+| 0107020J0AAAEAE | Cinchocaine 0.5% / Hydrocortisone 0.5% ointment | Hydrocortisone |
+| 0107020P0AAACAC | Cinchocaine 0.5% / Prednisolone 0.19% ointment | Prednisolone |
+| 0107020P0AAADAD | Cinchocaine 1mg / Prednisolone hexanoate 1.3mg suppositories | Prednisolone |
+| 0107020J0AAAFAF | Cinchocaine 5mg / Hydrocortisone 5mg suppositories | Hydrocortisone |
+| 0107010G0BBAAAA | Nupercainal 1.1% ointment | Cinchocaine hydrochloride |
+| 0107020J0BEAAAE | Proctosedyl ointment | Hydrocortisone |
+| 0107020J0BEABAF | Proctosedyl suppositories | Hydrocortisone |
+| 0107020P0BCAAAC | Scheriproct ointment | Prednisolone |
+| 0107020P0BCABAD | Scheriproct suppositories | Prednisolone |
+| 0107020J0BFACAE | Uniroid HC ointment | Hydrocortisone |
+| 0107020J0BFADAF | Uniroid HC suppositories | Hydrocortisone |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Historically, cinchocaine has been available in the UK as a component of over-the-counter topical preparations (e.g. combination haemorrhoidal products).
 
 ## Safety Considerations

@@ -97,7 +97,7 @@ Currently no related literature available.
 
 Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The data show one valid single-ingredient record. The BNF chapter code (0208010D0) corresponds to parenteral anticoagulants.
+The BNF chapter code (0208010D0) corresponds to parenteral anticoagulants.
 
 ## Safety Considerations
 

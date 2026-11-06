@@ -70,6 +70,28 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205052C0AAADAD | Candesartan 16mg tablets | Candesartan cilexetil |
+| 0205052C0AAAKAK | Candesartan 16mg/5ml oral solution | Candesartan cilexetil |
+| 0205052C0AAAAAA | Candesartan 2mg tablets | Candesartan cilexetil |
+| 0205052C0AAAHAH | Candesartan 32mg tablets | Candesartan cilexetil |
+| 0205052C0AAABAB | Candesartan 4mg tablets | Candesartan cilexetil |
+| 0205052C0AAAIAI | Candesartan 4mg/5ml oral liquid | Candesartan cilexetil |
+| 0205052C0AAACAC | Candesartan 8mg tablets | Candesartan cilexetil |
+| 0205052C0AAAJAJ | Candesartan 8mg/5ml oral liquid | Candesartan cilexetil |
+| 0205052C0BBADAD | Amias 16mg tablets | Candesartan cilexetil |
+| 0205052C0BBAAAA | Amias 2mg tablets | Candesartan cilexetil |
+| 0205052C0BBAEAH | Amias 32mg tablets | Candesartan cilexetil |
+| 0205052C0BBABAB | Amias 4mg tablets | Candesartan cilexetil |
+| 0205052C0BBACAC | Amias 8mg tablets | Candesartan cilexetil |
+| 0205052AFAAABAB | Candesartan 16mg / Hydrochlorothiazide 12.5mg tablets | Candesartan cilexetil with diuretic |
+| 0205052AFAAACAC | Candesartan 32mg / Hydrochlorothiazide 12.5mg tablets | Candesartan cilexetil with diuretic |
+| 0205052AFAAADAD | Candesartan 32mg / Hydrochlorothiazide 25mg tablets | Candesartan cilexetil with diuretic |
+| 0205052AFAAAAAA | Candesartan 8mg / Hydrochlorothiazide 12.5mg tablets | Candesartan cilexetil with diuretic |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No approved-indication text or dosage-form detail is held in the data compiled for this report. Please check the current SmPC and the BNF for authorised uses and formulations.
 
 ## Safety Considerations

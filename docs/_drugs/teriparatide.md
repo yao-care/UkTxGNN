@@ -98,7 +98,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The listing is a single marketed single-ingredient product. It carries no approved indication text, so the indication should be confirmed against the SmPC and BNF.
+It carries no approved indication text, so the indication should be confirmed against the SmPC and BNF.
 
 ---
 

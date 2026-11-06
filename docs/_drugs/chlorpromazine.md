@@ -71,6 +71,31 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402010D0AABABA | Chlorpromazine 1.5mg/5ml oral liquid | Chlorpromazine hydrochloride |
+| 0402010D0AAARAR | Chlorpromazine 100mg suppositories | Chlorpromazine hydrochloride |
+| 0402010D0AAAKAK | Chlorpromazine 100mg tablets | Chlorpromazine hydrochloride |
+| 0402010D0AAAFAF | Chlorpromazine 100mg/5ml oral solution | Chlorpromazine hydrochloride |
+| 0402010D0AAA2A2 | Chlorpromazine 100mg/5ml oral suspension | Chlorpromazine hydrochloride |
+| 0402010D0AAAPAP | Chlorpromazine 100mg/5ml oral suspension sugar free | Chlorpromazine hydrochloride |
+| 0402010D0AABDBD | Chlorpromazine 10mg capsules | Chlorpromazine hydrochloride |
+| 0402010D0AAAHAH | Chlorpromazine 10mg tablets | Chlorpromazine hydrochloride |
+| 0402010D0AAA6A6 | Chlorpromazine 10mg/5ml oral liquid | Chlorpromazine hydrochloride |
+| 0402010D0AABBBB | Chlorpromazine 12.5mg/5ml oral liquid | Chlorpromazine hydrochloride |
+| 0402010D0AAASAS | Chlorpromazine 25mg suppositories | Chlorpromazine hydrochloride |
+| 0402010D0AAAIAI | Chlorpromazine 25mg tablets | Chlorpromazine hydrochloride |
+| 0402010D0AAADAD | Chlorpromazine 25mg/1ml solution for injection ampoules | Chlorpromazine hydrochloride |
+| 0402010D0AAABAB | Chlorpromazine 25mg/5ml oral solution | Chlorpromazine hydrochloride |
+| 0402010D0AAAVAV | Chlorpromazine 25mg/5ml oral solution sugar free | Chlorpromazine hydrochloride |
+| 0402010D0AAAJAJ | Chlorpromazine 50mg tablets | Chlorpromazine hydrochloride |
+| 0402010D0AAAMAM | Chlorpromazine 50mg/2ml solution for injection ampoules | Chlorpromazine hydrochloride |
+| 0402010D0AAA3A3 | Chlorpromazine 50mg/5ml oral liquid | Chlorpromazine hydrochloride |
+| 0402010D0BDADAK | Largactil 100mg tablets | Chlorpromazine hydrochloride |
+| 0402010D0BDAAAH | Largactil 10mg tablets | Chlorpromazine hydrochloride |
+
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Dosage form, manufacturer and approved indication text are not recorded in the local data.
 
 ## Safety Considerations

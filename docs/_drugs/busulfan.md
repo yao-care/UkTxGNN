@@ -118,7 +118,7 @@ Most trials test busulfan as one component of a multi-drug regimen in mixed AML/
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Only one single-ingredient product is recorded, and it is currently valid. The indication text and manufacturer were not available, so please check the current SmPC and BNF entry for the licensed uses.
+The indication text and manufacturer were not available, so please check the current SmPC and BNF entry for the licensed uses.
 
 ---
 

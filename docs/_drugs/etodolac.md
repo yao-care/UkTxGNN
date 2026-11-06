@@ -68,6 +68,20 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001010E0AAAAAA | Etodolac 200mg capsules | Etodolac |
+| 1001010E0AAACAC | Etodolac 300mg capsules | Etodolac |
+| 1001010E0AAADAD | Etodolac 600mg modified-release tablets | Etodolac |
+| 1001010E0BDAAAA | Ebretin 200mg capsules | Etodolac |
+| 1001010E0BDABAC | Ebretin 300mg capsules | Etodolac |
+| 1001010E0BFAAAC | Eccoxolac 300mg capsules | Etodolac |
+| 1001010E0BHAAAD | Etolyn 600mg modified-release tablets | Etodolac |
+| 1001010E0BGAAAD | Etopan XL 600mg tablets | Etodolac |
+| 1001010E0BBADAD | Lodine SR 600mg tablets | Etodolac |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No dosage form, manufacturer or approved indication text is recorded for it, so no further detail can be given here.
 
 ## Safety Considerations

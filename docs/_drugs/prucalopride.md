@@ -87,7 +87,7 @@ For context, the only publications retrieved across the top-ranked predictions c
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-One valid single-ingredient product is recorded. Dosage form and approved indication text were not available, so please confirm details against the current SmPC.
+Dosage form and approved indication text were not available, so please confirm details against the current SmPC.
 
 ## Safety Considerations
 

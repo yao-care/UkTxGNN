@@ -69,6 +69,21 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0107010N0AAAEAE | Allantoin 0.5% / Lidocaine 0.5% ointment | Lidocaine hydrochloride |
+| 0107010N0AAAFAF | Allantoin 10.25mg / Lidocaine 10.25mg suppositories | Lidocaine hydrochloride |
+| 1305020C0BHAABA | Alphosyl cream | Tars |
+| 1305020C0BHABBB | Alphosyl lotion | Tars |
+| 0107010N0BEAAAE | Anodesyn ointment | Lidocaine hydrochloride |
+| 0107010N0BEABAF | Anodesyn suppositories | Lidocaine hydrochloride |
+| 0107010N0BGAAAE | Care Haemorrhoid Relief ointment | Lidocaine hydrochloride |
+| 0107010N0BGABAF | Care Haemorrhoid Relief suppositories | Lidocaine hydrochloride |
+| 1305020C0AABABA | Coal tar extract 5% / Allantoin 2% cream | Tars |
+| 1305020C0AABBBB | Coal tar extract 5% / Allantoin 2% lotion | Tars |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 The licence details are added by the site program from the licence facts.
 
 ## Safety Considerations

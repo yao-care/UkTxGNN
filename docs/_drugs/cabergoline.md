@@ -70,6 +70,19 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0409010U0AAAAAA | Cabergoline 1mg tablets | Cabergoline |
+| 0409010U0AAABAB | Cabergoline 2mg tablets | Cabergoline |
+| 0409010U0AAACAC | Cabergoline 4mg tablets | Cabergoline |
+| 0607010C0AAAAAA | Cabergoline 500microgram tablets | Cabergoline |
+| 0409010U0BBAAAA | Cabaser 1mg tablets | Cabergoline |
+| 0409010U0BBABAB | Cabaser 2mg tablets | Cabergoline |
+| 0409010U0BBACAC | Cabaser 4mg tablets | Cabergoline |
+| 0607010C0BBAAAA | Dostinex 500microgram tablets | Cabergoline |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Cabergoline is marketed in the UK. No approved indication text is recorded in the local data, and no dosage form or manufacturer is listed.
 
 ## Safety Considerations

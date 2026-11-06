@@ -69,6 +69,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1106000P0AAAAAA | Dorzolamide 20mg/ml eye drops | Dorzolamide |
+| 1106000P0AAABAB | Dorzolamide 20mg/ml eye drops 0.2ml unit dose preserv free | Dorzolamide |
+| 1106000P0AAACAC | Dorzolamide 20mg/ml eye drops preservative free | Dorzolamide |
+| 1106000ABBFAAAC | Codimaz 20mg/ml / 5mg/ml eye drops | Dorzolamide and timolol |
+| 1106000ABBBABAB | Cosopt 20mg/ml / 5mg/ml eye dps 0.2ml ud preservative free | Dorzolamide and timolol |
+| 1106000ABBBAAAA | Cosopt 20mg/ml / 5mg/ml eye drops | Dorzolamide and timolol |
+| 1106000ABBBACAC | Cosopt iMulti 20mg/ml / 5mg/ml eye drops preservative free | Dorzolamide and timolol |
+| 1106000P0BFAAAC | Dimaz 20mg/ml eye drops | Dorzolamide |
+| 1106000P0BCAAAA | Dorzant 20mg/ml eye drops | Dorzolamide |
+| 1106000ABAAADAD | Dorzolamide 20mg/Timolol 5mg/ml eye dps 0.166ml preserv free | Dorzolamide and timolol |
+| 1106000ABAAABAB | Dorzolamide 20mg/Timolol 5mg/ml eye dps 0.2ml preserv free | Dorzolamide and timolol |
+| 1106000ABAAACAC | Dorzolamide 20mg/ml / Timolol 5mg/ml eye dps preserv free | Dorzolamide and timolol |
+| 1106000ABAAAAAA | Dorzolamide 20mg/ml / Timolol 5mg/ml eye drops | Dorzolamide and timolol |
+| 1106000P0BDAAAC | Eydelto 20mg/ml eye drops | Dorzolamide |
+| 1106000ABBDAAAC | Eylamdo 20mg/ml / 5mg/ml eye drops | Dorzolamide and timolol |
+| 1106000ABBGAAAD | Glaucopt 20mg/ml / 5mg/ml eye dps 0.166ml ud preserv free | Dorzolamide and timolol |
+| 1106000ABBCAAAA | Tidomat 20mg/ml / 5mg/ml eye drops | Dorzolamide and timolol |
+| 1106000P0BBAAAA | Trusopt 20mg/ml eye drops | Dorzolamide |
+| 1106000P0BBABAB | Trusopt 20mg/ml eye drops 0.2ml unit dose preservative free | Dorzolamide |
+| 1106000P0BEAAAC | Vizidor 20mg/ml eye drops | Dorzolamide |
+
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record. Please check the current SmPC and BNF entry for the authorised use and the product details.
 
 ## Safety Considerations

@@ -85,6 +85,31 @@ Currently no related literature available in this Evidence Pack.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0403010J0AAA8A8 | Dosulepin 100mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABABA | Dosulepin 10mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABCBC | Dosulepin 125mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABBBB | Dosulepin 150mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABHBH | Dosulepin 20mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABDBD | Dosulepin 250mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AAAAAA | Dosulepin 25mg capsules | Dosulepin hydrochloride |
+| 0403010J0AABJBJ | Dosulepin 25mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AAA6A6 | Dosulepin 25mg/5ml oral suspension | Dosulepin hydrochloride |
+| 0403010J0AABFBF | Dosulepin 37.5mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AAA5A5 | Dosulepin 50mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AABEBE | Dosulepin 5mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AAAIAI | Dosulepin 75mg tablets | Dosulepin hydrochloride |
+| 0403010J0AABKBK | Dosulepin 75mg/5ml oral solution | Dosulepin hydrochloride |
+| 0403010J0AAA7A7 | Dosulepin 75mg/5ml oral suspension | Dosulepin hydrochloride |
+| 0403010J0BCAAAA | Dothapax 25 capsules | Dosulepin hydrochloride |
+| 0403010J0BCABAI | Dothapax 75 tablets | Dosulepin hydrochloride |
+| 0403010J0BDABAA | Prepadine 25mg capsules | Dosulepin hydrochloride |
+| 0403010J0BDAAAI | Prepadine 75mg tablets | Dosulepin hydrochloride |
+| 0403010J0BBAAAA | Prothiaden 25mg capsules | Dosulepin hydrochloride |
+
+Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 > **Important note for healthcare professionals**: Dosulepin HCl was previously marketed in the UK as **Prothiaden** (formerly by Knoll/Abbott). Current MHRA registration status should be verified directly via the [MHRA Products database](https://products.mhra.gov.uk/) before drawing regulatory conclusions. The BNF also provides current prescribing guidance on dosulepin where it remains available under specialist supervision.
 
 ---

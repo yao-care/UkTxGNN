@@ -82,6 +82,31 @@ Currently no related literature available for brain stem infarction.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0206020A0AAAMAM | Amlodipine 1.5mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAAXAX | Amlodipine 10mg orodispersible tablets sugar free | Amlodipine |
+| 0206020A0AAABAB | Amlodipine 10mg tablets | Amlodipine |
+| 0206020A0AAADAD | Amlodipine 10mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAATAT | Amlodipine 10mg/5ml oral solution sugar free | Amlodipine |
+| 0206020A0AAAVAV | Amlodipine 2.5mg tablets | Amlodipine |
+| 0206020A0AAAJAJ | Amlodipine 2.5mg/5ml oral suspension | Amlodipine |
+| 0206020A0AAANAN | Amlodipine 2mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAAGAG | Amlodipine 4mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAAFAF | Amlodipine 50mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAAWAW | Amlodipine 5mg orodispersible tablets sugar free | Amlodipine |
+| 0206020A0AAAAAA | Amlodipine 5mg tablets | Amlodipine |
+| 0206020A0AAACAC | Amlodipine 5mg/5ml oral liquid | Amlodipine |
+| 0206020A0AAALAL | Amlodipine 5mg/5ml oral solution sugar free | Amlodipine |
+| 0206020A0AAAUAU | Amlodipine 5mg/5ml oral suspension sugar free | Amlodipine |
+| 0206020A0BGABAX | Amdelta 10mg orodispersible tablets | Amlodipine |
+| 0206020A0BGAAAW | Amdelta 5mg orodispersible tablets | Amlodipine |
+| 0206020Z0AAACAC | Amlodipine 10mg / Valsartan 160mg tablets | Valsartan/amlodipine |
+| 0206020Z0AAABAB | Amlodipine 5mg / Valsartan 160mg tablets | Valsartan/amlodipine |
+| 0206020Z0AAAAAA | Amlodipine 5mg / Valsartan 80mg tablets | Valsartan/amlodipine |
+
+Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Product-level details (dosage form, manufacturer and indication text) are not recorded in the local data compiled for this report. Please check the current MHRA-approved SmPC and the BNF cardiovascular chapter (calcium-channel blockers) for authorised uses and doses.
 
 ---

@@ -70,7 +70,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-Doxycycline is marketed in the UK. The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracyclines). No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0501030I0AAABAB | Doxycycline 100mg capsules | Doxycycline hyclate |
+| 0501030Z0AAABAB | Doxycycline 100mg dispersible tablets sugar free | Doxycycline monohydrate |
+| 0501030I0AAALAL | Doxycycline 100mg tablets | Doxycycline hyclate |
+| 0501030I0AAAKAK | Doxycycline 100mg/5ml oral suspension | Doxycycline hyclate |
+| 1203010U0AAABAB | Doxycycline 20mg tablets | Doxycycline hyclate |
+| 0501030Z0AAAAAA | Doxycycline 40mg modified-release capsules | Doxycycline monohydrate |
+| 0501030I0AAAAAA | Doxycycline 50mg capsules | Doxycycline hyclate |
+| 0501030I0AAAHAH | Doxycycline 50mg/5ml oral solution | Doxycycline hyclate |
+| 0501030I0AAAMAM | Doxycycline 50mg/5ml oral suspension | Doxycycline hyclate |
+| 1203010W0AAAAAA | Betamethasone 0.05%/Doxycycline 10%/Nystatin 2% m/wash sach | Betamethasone/Doxycycline/Nystatin |
+| 0501030I0BHAAAB | Demix 100 capsules | Doxycycline hyclate |
+| 0501030I0BHABAA | Demix 50 capsules | Doxycycline hyclate |
+| 0501030I0BCAAAB | Doxylar 100mg capsules | Doxycycline hyclate |
+| 0501030I0BCABAA | Doxylar 50mg capsules | Doxycycline hyclate |
+| 0501030Z0BBAAAA | Efracea 40mg modified-release capsules | Doxycycline monohydrate |
+| 1203010U0BBABAB | Periostat 20mg tablets | Doxycycline hyclate |
+| 0501030I0BEABAB | Vibramycin 100mg capsules | Doxycycline hyclate |
+| 0501030I0BEAAAA | Vibramycin 50 capsules | Doxycycline hyclate |
+| 0501030I0BEAEAA | Vibramycin Acne Pack 50mg capsules | Doxycycline hyclate |
+| 0501030Z0BCAAAB | Vibramycin-D 100mg dispersible tablets | Doxycycline monohydrate |
+
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Doxycycline is marketed in the UK. No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed.
 
 ## Safety Considerations
 

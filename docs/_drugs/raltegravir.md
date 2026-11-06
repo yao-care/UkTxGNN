@@ -112,7 +112,7 @@ Of the publications compiled, the most relevant ones are listed below. All are p
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Raltegravir is recorded as marketed in the UK, with one single-ingredient record. The data compiled for this report contain no licence indication text, so approved indications cannot be confirmed here. Please check the current SmPC and BNF.
+The data compiled for this report contain no licence indication text, so approved indications cannot be confirmed here. Please check the current SmPC and BNF.
 
 ---
 

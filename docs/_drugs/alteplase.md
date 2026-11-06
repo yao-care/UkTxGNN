@@ -68,6 +68,21 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0210020V0AAAAAA | Alteplase 10mg inj vials | Alteplase |
+| 0210020V0AAABAB | Alteplase 20mg inj vials | Alteplase |
+| 0210020V0AAADAD | Alteplase 2mg inj vials | Alteplase |
+| 0210020V0AAAEAE | Alteplase 2mg powder for solution for injection vials | Alteplase |
+| 0210020V0AAACAC | Alteplase 50mg inf vials | Alteplase |
+| 0210020V0BBAAAA | Actilyse 10mg inj vials | Alteplase |
+| 0210020V0BBABAB | Actilyse 20mg inj vials | Alteplase |
+| 0210020V0BBACAC | Actilyse 50mg inf vials | Alteplase |
+| 0210020V0BBADAD | Actilyse Cathflo 2mg inj vials | Alteplase |
+| 0210020V0BBAEAE | Actilyse Cathflo 2mg powder for solution for injection vials | Alteplase |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No dosage form, manufacturer or indication text is recorded for this licence. Please refer to the current SmPC and BNF for authorised uses.
 
 ## Safety Considerations

@@ -66,8 +66,6 @@ Invasive meningococcal disease is life-threatening. Xylitol would not be expecte
 
 Not listed in the NHSBSA BNF prescribing code list used for this report.
 
-The identifier shown is as supplied in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register.
-
 ## Safety Considerations
 
 - **Knowledge-graph contraindication signal**: The TxGNN knowledge graph (PrimeKG) links xylitol to a contraindication edge for **dental fluorosis**. This comes from the knowledge graph and not from product label text, so it should be interpreted cautiously.

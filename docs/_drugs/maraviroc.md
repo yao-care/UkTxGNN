@@ -106,7 +106,7 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-This is one valid single-ingredient product. The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register.
+The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register.
 
 ---
 

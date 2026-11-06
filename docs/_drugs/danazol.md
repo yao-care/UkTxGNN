@@ -81,6 +81,18 @@ No cited study evaluates danazol as a treatment for amenorrhoea as a disease. Th
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0607020C0AAAAAA | Danazol 100mg capsules | Danazol |
+| 0607020C0AAABAB | Danazol 200mg capsules | Danazol |
+| 0607020C0AAADAD | Danazol 35mg capsules | Danazol |
+| 0607020C0AAAEAE | Danazol 50mg capsules | Danazol |
+| 0607020C0BCAAAE | Cyclomen 50mg capsules | Danazol |
+| 0607020C0BBACAA | Danol 100mg capsules | Danazol |
+| 0607020C0BBAAAB | Danol 200mg capsules | Danazol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 ## Safety Considerations
 
 - **Drug Interactions**: The data compiled for this report list 100 interactions in total. Examples include:

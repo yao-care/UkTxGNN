@@ -70,6 +70,18 @@ Currently no related literature available for this disease.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0402030R0AAAAAA | Asenapine 10mg sublingual tablets sugar free | Asenapine |
+| 0402030R0AAACAC | Asenapine 3.8mg/24hours transdermal patches | Asenapine |
+| 0402030R0AAADAD | Asenapine 5.7mg/24hours transdermal patches | Asenapine |
+| 0402030R0AAABAB | Asenapine 5mg sublingual tablets sugar free | Asenapine |
+| 0402030R0AAAEAE | Asenapine 7.6mg/24hours transdermal patches | Asenapine |
+| 0402030R0BBAAAA | Sycrest 10mg sublingual tablets | Asenapine |
+| 0402030R0BBABAB | Sycrest 5mg sublingual tablets | Asenapine |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Asenapine is marketed in the United Kingdom. No indication text is recorded for it in the local data, so no approved indication can be summarised here.
 
 ## Safety Considerations

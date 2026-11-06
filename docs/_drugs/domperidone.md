@@ -95,7 +95,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The record shows one valid single-ingredient product. The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register. Domperidone is classified in BNF chapter 1 (gastrointestinal system), under drugs affecting gastrointestinal motility.
+The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register. Domperidone is classified in BNF chapter 1 (gastrointestinal system), under drugs affecting gastrointestinal motility.
 
 ## Safety Considerations
 

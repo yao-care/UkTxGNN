@@ -106,7 +106,7 @@ Currently no related clinical trials registered.
 
 Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Only one single-ingredient product is recorded, and it is currently valid. The identifier shown is a BNF-style code rather than an MHRA PL number, so the MHRA record should be checked directly.
+The identifier shown is a BNF-style code rather than an MHRA PL number, so the MHRA record should be checked directly.
 
 ---
 

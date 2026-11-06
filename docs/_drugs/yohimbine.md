@@ -99,7 +99,7 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Only one single-ingredient product is listed, and it is recorded as valid. The compiled data do not give the manufacturer, dosage form or approved indication.
+The compiled data do not give the manufacturer, dosage form or approved indication.
 
 ---
 

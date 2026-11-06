@@ -60,6 +60,27 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0606020A0AAAAAA | Alendronic acid 10mg tablets | Alendronic acid |
+| 0606020A0AAADAD | Alendronic acid 35mg/5ml oral solution | Alendronic acid |
+| 0606020A0AAABAB | Alendronic acid 5mg tablets | Alendronic acid |
+| 0606020A0AAAHAH | Alendronic acid 70mg effervescent tablets sugar free | Alendronic acid |
+| 0606020A0AAACAC | Alendronic acid 70mg tablets | Alendronic acid |
+| 0606020A0AAAFAF | Alendronic acid 70mg/100ml soln unit dose sugar free | Alendronic acid |
+| 0606020A0AAAEAE | Alendronic acid 70mg/5ml oral solution | Alendronic acid |
+| 0606020A0AAAGAG | Alendronic acid 70mg/75ml oral solution unit dose | Alendronic acid |
+| 0606020Y0AAABAB | Alendronic acid 70mg / Colecalciferol 140microgram tablets | Alendronic acid/colecalciferol |
+| 0606020Y0AAAAAA | Alendronic acid 70mg / Colecalciferol 70microgram tablets | Alendronic acid/colecalciferol |
+| 0606020Y0BCAAAB | Bentexo 70mg/5,600unit tablets | Alendronic acid/colecalciferol |
+| 0606020A0BCAAAH | Binosto 70mg effervescent tablets | Alendronic acid |
+| 0606020A0BBAAAA | Fosamax 10mg tablets | Alendronic acid |
+| 0606020A0BBABAB | Fosamax 5mg tablets | Alendronic acid |
+| 0606020A0BBADAC | Fosamax Once Weekly 70mg tablets | Alendronic acid |
+| 0606020Y0BBAAAA | Fosavance tablets | Alendronic acid/colecalciferol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 > **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov.uk/) and re-run the data ingestion pipeline. Multiple PL numbers are expected for 70 mg weekly tablets and 10 mg daily tablets across numerous manufacturers.
 
 ---
@@ -77,7 +98,7 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack is too incomplete to support any repurposing evaluation — there are no predicted indications, no original indication records, no UK regulatory data, and no safety information. This reflects upstream pipeline failures rather than a genuine absence of data for this widely licensed drug.
+The Evidence Pack is too incomplete to support any repurposing evaluation — there are no predicted indications, no original indication records, no UK regulatory data, and no safety information.
 
 **To proceed, the following is needed:**
 

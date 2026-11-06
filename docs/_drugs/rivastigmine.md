@@ -75,7 +75,32 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
-It carries a Japanese-style drug code rather than an MHRA PL number, and the dosage form, manufacturer and approved indication text are not recorded. Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details.
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0411000E0AAAAAA | Rivastigmine 1.5mg capsules | Rivastigmine |
+| 0411000E0AAAIAI | Rivastigmine 13.3mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0AAAHAH | Rivastigmine 2mg/ml oral solution | Rivastigmine |
+| 0411000E0AAAEAE | Rivastigmine 2mg/ml oral solution sugar free | Rivastigmine |
+| 0411000E0AAABAB | Rivastigmine 3mg capsules | Rivastigmine |
+| 0411000E0AAACAC | Rivastigmine 4.5mg capsules | Rivastigmine |
+| 0411000E0AAAFAF | Rivastigmine 4.6mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0AAADAD | Rivastigmine 6mg capsules | Rivastigmine |
+| 0411000E0AAAGAG | Rivastigmine 9.5mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BKACAI | Almuriva 13.3mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BKAAAF | Almuriva 4.6mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BKABAG | Almuriva 9.5mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BMABAF | Alzakt 4.6mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BMAAAG | Alzakt 9.5mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BGACAI | Alzest 13.3mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BGAAAF | Alzest 4.6mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BGABAG | Alzest 9.5mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BJAAAF | Eluden 4.6mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BJABAG | Eluden 9.5mg/24hours transdermal patches | Rivastigmine |
+| 0411000E0BFACAI | Erastig 13.3mg/24hours transdermal patches | Rivastigmine |
+
+Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details.
 
 ## Safety Considerations
 

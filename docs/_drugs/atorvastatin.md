@@ -92,6 +92,31 @@ The published evidence supports cardiovascular risk and lipid management in peop
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0212000B0AAALAL | Atorvastatin 10mg chewable tablets sugar free | Atorvastatin |
+| 0212000B0AAAAAA | Atorvastatin 10mg tablets | Atorvastatin |
+| 0212000B0AAAHAH | Atorvastatin 10mg/5ml oral solution | Atorvastatin |
+| 0212000B0AAARAR | Atorvastatin 10mg/5ml oral suspension | Atorvastatin |
+| 0212000B0AAAMAM | Atorvastatin 20mg chewable tablets sugar free | Atorvastatin |
+| 0212000B0AAABAB | Atorvastatin 20mg tablets | Atorvastatin |
+| 0212000B0AAAFAF | Atorvastatin 20mg/5ml oral solution | Atorvastatin |
+| 0212000B0AAAQAQ | Atorvastatin 20mg/5ml oral suspension | Atorvastatin |
+| 0212000B0AAASAS | Atorvastatin 20mg/5ml oral suspension sugar free | Atorvastatin |
+| 0212000B0AAANAN | Atorvastatin 30mg tablets | Atorvastatin |
+| 0212000B0AAACAC | Atorvastatin 40mg tablets | Atorvastatin |
+| 0212000B0AAAGAG | Atorvastatin 40mg/5ml oral liquid | Atorvastatin |
+| 0212000B0AAAPAP | Atorvastatin 60mg tablets | Atorvastatin |
+| 0212000B0AAADAD | Atorvastatin 80mg tablets | Atorvastatin |
+| 0212000B0AAAIAI | Atorvastatin 80mg/5ml oral suspension | Atorvastatin |
+| 0212000APAAAAAA | Atorvastatin 10mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAABAB | Atorvastatin 20mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAACAC | Atorvastatin 40mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000APAAADAD | Atorvastatin 80mg / Ezetimibe 10mg tablets | Atorvastatin/Ezetimibe |
+| 0212000B0BBAEAL | Lipitor 10mg chewable tablets | Atorvastatin |
+
+Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No indication text is recorded for it in the local data. Please check the current MHRA record, the SmPC and the BNF for authorised indications and product details.
 
 ## Safety Considerations

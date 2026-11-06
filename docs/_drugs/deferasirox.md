@@ -75,6 +75,23 @@ Neither publication directly studies deferasirox as a treatment for HIV infectio
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901030K0AAAAAA | Deferasirox 125mg dispersible tablets sugar free | Deferasirox |
+| 0901030K0AAAEAE | Deferasirox 180mg tablets | Deferasirox |
+| 0901030K0AAABAB | Deferasirox 250mg dispersible tablets sugar free | Deferasirox |
+| 0901030K0AAAFAF | Deferasirox 360mg tablets | Deferasirox |
+| 0901030K0AAACAC | Deferasirox 500mg dispersible tablets sugar free | Deferasirox |
+| 0901030K0AAADAD | Deferasirox 90mg tablets | Deferasirox |
+| 0901030K0BBAAAA | Exjade 125mg dispersible tablets | Deferasirox |
+| 0901030K0BBAEAE | Exjade 180mg tablets | Deferasirox |
+| 0901030K0BBABAB | Exjade 250mg dispersible tablets | Deferasirox |
+| 0901030K0BBAFAF | Exjade 360mg tablets | Deferasirox |
+| 0901030K0BBACAC | Exjade 500mg dispersible tablets | Deferasirox |
+| 0901030K0BBADAD | Exjade 90mg tablets | Deferasirox |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No indication text, dosage form or manufacturer is recorded for it.
 
 ## Safety Considerations

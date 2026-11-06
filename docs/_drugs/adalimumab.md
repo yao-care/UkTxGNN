@@ -70,6 +70,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030S0AAAFAF | Adalimumab 20mg/0.2ml inj pre-filled syringes | Adalimumab |
+| 1001030S0AAAIAI | Adalimumab 20mg/0.4ml inj pre-filled syringes | Adalimumab |
+| 1001030S0AAADAD | Adalimumab 40mg/0.4ml inj pre-filled disposable devices | Adalimumab |
+| 1001030S0AAAEAE | Adalimumab 40mg/0.4ml inj pre-filled syringes | Adalimumab |
+| 1001030S0AAABAB | Adalimumab 40mg/0.8ml inj pre-filled disposable devices | Adalimumab |
+| 1001030S0AAAAAA | Adalimumab 40mg/0.8ml inj pre-filled syringes | Adalimumab |
+| 1001030S0AAACAC | Adalimumab 40mg/0.8ml solution for injection vials | Adalimumab |
+| 1001030S0AAAHAH | Adalimumab 80mg/0.8ml inj pre-filled disposable devices | Adalimumab |
+| 1001030S0AAAGAG | Adalimumab 80mg/0.8ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BCACAI | Amgevita 20mg/0.4ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BCAAAA | Amgevita 40mg/0.8ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BCABAB | Amgevita 40mg/0.8ml solution for injection pre-filled pens | Adalimumab |
+| 1001030S0BCAHAF | Amgevita HCF 20mg/0.2ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BCAFAD | Amgevita HCF 40mg/0.4ml inj pre-filled pens | Adalimumab |
+| 1001030S0BCAGAE | Amgevita HCF 40mg/0.4ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BCADAH | Amgevita HCF 80mg/0.8ml inj pre-filled pens | Adalimumab |
+| 1001030S0BCAEAG | Amgevita HCF 80mg/0.8ml inj pre-filled syringes | Adalimumab |
+| 1001030S0BDAAAB | Hulio 40mg/0.8ml solution for injection pre-filled pens | Adalimumab |
+| 1001030S0BDABAA | Hulio 40mg/0.8ml solution for injection pre-filled syringes | Adalimumab |
+| 1001030S0BBAFAF | Humira 20mg/0.2ml solution for injection pre-filled syringes | Adalimumab |
+
+Showing 20 of 43 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Adalimumab is currently marketed in the UK. No approved indication text is recorded in the local data for that licence.
 
 ## Safety Considerations

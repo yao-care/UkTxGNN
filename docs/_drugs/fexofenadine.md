@@ -94,7 +94,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The record shows one valid single-ingredient product and no cancelled products. Fexofenadine falls under antihistamines in the BNF (chapter 3, respiratory system; the code prefix 0304 matches this). Please check the MHRA register and the SmPC for the licensed indications and the PL number.
+Fexofenadine falls under antihistamines in the BNF (chapter 3, respiratory system; the code prefix 0304 matches this). Please check the MHRA register and the SmPC for the licensed indications and the PL number.
 
 ## Safety Considerations
 

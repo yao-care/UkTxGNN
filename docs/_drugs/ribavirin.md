@@ -124,7 +124,7 @@ The retrieved publications are almost entirely reviews. None is a randomised tri
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-This is one valid single-ingredient record. It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report. The identifier looks like a BNF-style product code rather than a "PL" number, so check it against the MHRA record.
+It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report. The identifier looks like a BNF-style product code rather than a "PL" number, so check it against the MHRA record.
 
 ---
 

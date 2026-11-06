@@ -78,6 +78,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030D0AAAFAF | Etanercept 10mg inj vials | Etanercept |
+| 1001030D0AAAAAA | Etanercept 25mg inj vials | Etanercept |
+| 1001030D0AAAGAG | Etanercept 25mg/0.5ml inj pre-filled disposable devices | Etanercept |
+| 1001030D0AAADAD | Etanercept 25mg/0.5ml inj pre-filled syringes | Etanercept |
+| 1001030D0AAABAB | Etanercept 50mg inj vials | Etanercept |
+| 1001030D0AAAEAE | Etanercept 50mg/1ml inj pre-filled disposable devices | Etanercept |
+| 1001030D0AAACAC | Etanercept 50mg/1ml inj pre-filled syringes | Etanercept |
+| 1001030D0BCACAD | Benepali 25mg/0.5ml inj pre-filled syringes | Etanercept |
+| 1001030D0BCABAE | Benepali 50mg/1ml solution for injection pre-filled pens | Etanercept |
+| 1001030D0BCAAAC | Benepali 50mg/1ml solution for injection pre-filled syringes | Etanercept |
+| 1001030D0BBAAAA | Enbrel 25mg inj vials | Etanercept |
+| 1001030D0BBAHAG | Enbrel 25mg/0.5ml inj pre-filled MyClic pens | Etanercept |
+| 1001030D0BBAEAD | Enbrel 25mg/0.5ml solution for injection pre-filled syringes | Etanercept |
+| 1001030D0BBABAB | Enbrel 50mg inj vials | Etanercept |
+| 1001030D0BBAFAE | Enbrel 50mg/1ml inj pre-filled MyClic pens | Etanercept |
+| 1001030D0BBACAC | Enbrel 50mg/1ml solution for injection pre-filled syringes | Etanercept |
+| 1001030D0BBAGAF | Enbrel Paediatric 10mg inj vials | Etanercept |
+| 1001030D0BBADAA | Enbrel Paediatric 25mg inj vials | Etanercept |
+| 1001030D0BDAAAD | Erelzi 25mg/0.5ml solution for injection pre-filled syringes | Etanercept |
+| 1001030D0BDACAE | Erelzi 50mg/1ml solution for injection pre-filled pens | Etanercept |
+
+Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 The approved indication text is not recorded in the local data, and the dosage form is not recorded either. The product is listed as a 50 mg/mL pre-filled syringe injection.
 
 ---

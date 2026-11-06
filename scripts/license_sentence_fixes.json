@@ -68,6 +68,12 @@
    "sentence": "Manual verification against the MHRA product licence database using the INN \"activated charcoal\" and known brand name variants is strongly recommended before concluding that no UK authorisation exists.",
    "keep": true,
    "reason": "建議去 MHRA 資料庫查證（本站資料不含 MHRA 許可狀態），不是說本藥沒有許可，保留"
+  },
+  {
+   "sentence": "This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom",
+   "cut": "This is likely a data collection artefact: ",
+   "capitalize": true,
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；只刪「data collection artefact」片段，品牌與上市說明保留"
   }
  ],
  "cinchocaine_hcl": [
@@ -166,6 +172,37 @@
    "sentence": "Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation",
    "cut": ", since the one authorisation on record is a nebuliser solution and not an eye preparation",
    "reason": "本站資料是 NHSBSA BNF 處方代碼清單（依成分重建後多筆），不是 MHRA 許可證；只刪把清單說成許可紀錄／張數的片段，下一步需要的資料保留"
+  }
+ ],
+ "micafungin": [
+  {
+   "sentence": "The data compiled for this report contain one valid single-ingredient product and no NICE-appraised indication details.",
+   "cut": "one valid single-ingredient product and ",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；只刪說紀錄有效的片段，其餘照舊（2026-11-06 第三輪）"
+  }
+ ],
+ "amiodarone_hcl": [
+  {
+   "sentence": "A corrected query is listed under Next Steps below.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；前兩句（search artefact、failed lookup）刪除後失去指涉，一併刪除"
+  }
+ ],
+ "ciclosporin": [
+  {
+   "sentence": "This should be rectified by querying MHRA and BNF sources directly.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；緊接在被刪句（gap in the evidence pack）後、以 This 指涉，一併刪除"
+  }
+ ],
+ "rivastigmine": [
+  {
+   "sentence": "It carries a Japanese-style drug code rather than an MHRA PL number, and the dosage form, manufacturer and approved indication text are not recorded.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；舊證據包頁說本地資料查不到（search artefact、failed lookup、gap in the evidence pack），重建後清單有紀錄，與事實矛盾（2026-11-06 第三輪）；描述的是重建前那筆舊紀錄（日式藥碼），重建後清單是 BNF 處方代碼，整句刪"
+  }
+ ],
+ "xylitol": [
+  {
+   "sentence": "The identifier shown is as supplied in the compiled data and is not in the standard MHRA \"PL\" format, so it should be verified against the MHRA register.",
+   "reason": "本站資料是 NHSBSA BNF 處方代碼（依成分重建），不含 MHRA 許可狀態；重建後本藥不在 BNF 清單、頁面不再顯示任何代碼，這句講的是重建前那筆舊紀錄的代碼，整句刪（2026-11-06 第三輪）"
   }
  ]
 }

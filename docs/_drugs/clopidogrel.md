@@ -91,6 +91,29 @@ None of these publications studies migraine with brainstem aura directly. They c
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0209000C0AAAFAF | Clopidogrel 11mg oral powder sachets | Clopidogrel |
+| 0209000C0AAALAL | Clopidogrel 1mg/ml oral suspension | Clopidogrel |
+| 0209000C0AAADAD | Clopidogrel 25mg/5ml oral suspension | Clopidogrel |
+| 0209000C0AAAPAP | Clopidogrel 3.5mg oral powder sachets | Clopidogrel |
+| 0209000C0AAAEAE | Clopidogrel 300mg tablets | Clopidogrel |
+| 0209000C0AAAIAI | Clopidogrel 4mg oral powder sachets | Clopidogrel |
+| 0209000C0AAAMAM | Clopidogrel 5mg oral powder sachets | Clopidogrel |
+| 0209000C0AAASAS | Clopidogrel 5mg/5ml oral solution | Clopidogrel |
+| 0209000C0AAANAN | Clopidogrel 6mg oral powder sachets | Clopidogrel |
+| 0209000C0AAAQAQ | Clopidogrel 6mg/ml oral suspension | Clopidogrel |
+| 0209000C0AAACAC | Clopidogrel 75mg oral powder sachets | Clopidogrel |
+| 0209000C0AAAAAA | Clopidogrel 75mg tablets | Clopidogrel |
+| 0209000C0AAAJAJ | Clopidogrel 75mg/5ml oral solution | Clopidogrel |
+| 0209000C0AAAKAK | Clopidogrel 75mg/5ml oral suspension | Clopidogrel |
+| 0209000C0AAARAR | Clopidogrel 7mg/ml oral suspension | Clopidogrel |
+| 0209000C0BDAAAA | Grepid 75mg tablets | Clopidogrel |
+| 0209000C0BBABAE | Plavix 300mg tablets | Clopidogrel |
+| 0209000C0BBAAAA | Plavix 75mg tablets | Clopidogrel |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No indication text is recorded for it, so no approved-indication summary is given here.
 
 ---

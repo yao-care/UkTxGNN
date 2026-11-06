@@ -86,6 +86,17 @@ The only mechanistic link in the literature is a single report proposing that no
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001040V0AAABAB | Febuxostat 120mg tablets | Febuxostat |
+| 1001040V0AAAAAA | Febuxostat 80mg tablets | Febuxostat |
+| 1001040V0BBABAB | Adenuric 120mg tablets | Febuxostat |
+| 1001040V0BBAAAA | Adenuric 80mg tablets | Febuxostat |
+| 1001040V0BCABAB | Elstabya 120mg tablets | Febuxostat |
+| 1001040V0BCAAAA | Elstabya 80mg tablets | Febuxostat |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 ---
 
 ## Safety Considerations

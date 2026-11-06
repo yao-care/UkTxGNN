@@ -89,7 +89,7 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The BNF classification code (0604030P0, within the section on anabolic steroids) is shown in place of a PL number, as no PL number was supplied. One valid single-ingredient product is listed.
+The BNF classification code (0604030P0, within the section on anabolic steroids) is shown in place of a PL number, as no PL number was supplied.
 
 ## Safety Considerations
 

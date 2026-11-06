@@ -70,6 +70,17 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1001030Y0AAACAC | Certolizumab pegol 200mg/1ml inj cartridges | Certolizumab pegol |
+| 1001030Y0AAABAB | Certolizumab pegol 200mg/1ml inj pf disposable devices | Certolizumab pegol |
+| 1001030Y0AAAAAA | Certolizumab pegol 200mg/1ml inj pre-filled syringes | Certolizumab pegol |
+| 1001030Y0BBACAC | Cimzia 200mg/1ml inj in a dose-dispenser cartridge | Certolizumab pegol |
+| 1001030Y0BBABAB | Cimzia 200mg/1ml solution for injection pre-filled pens | Certolizumab pegol |
+| 1001030Y0BBAAAA | Cimzia 200mg/1ml solution for injection pre-filled syringes | Certolizumab pegol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Check the current SmPC and BNF entries for authorised uses and administration.
 
 ## Safety Considerations

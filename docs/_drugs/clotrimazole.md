@@ -82,6 +82,31 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 1310020H0AAABAB | Clotrimazole 1% cream | Clotrimazole |
+| 1103020C0AAABAB | Clotrimazole 1% eye drops preservative free | Clotrimazole |
+| 1310020H0AAADAD | Clotrimazole 1% powder | Clotrimazole |
+| 1310020H0AAAAAA | Clotrimazole 1% solution | Clotrimazole |
+| 1310020H0AAAEAE | Clotrimazole 1% spray | Clotrimazole |
+| 0702020F0AAALAL | Clotrimazole 10% cream and Clotrimazole 2% cream | Clotrimazole |
+| 0702020F0AAAGAG | Clotrimazole 10% vaginal cream | Clotrimazole |
+| 0702020F0AAADAD | Clotrimazole 100mg pessaries | Clotrimazole |
+| 0702020F0AAAJAJ | Clotrimazole 2% cream | Clotrimazole |
+| 0702020F0AAAEAE | Clotrimazole 200mg pessaries | Clotrimazole |
+| 0702020F0AAAFAF | Clotrimazole 500mg pessaries | Clotrimazole |
+| 0702020F0AAAKAK | Clotrimazole 500mg pessary and Clotrimazole 2% cream | Clotrimazole |
+| 1310020H0BIAAAB | Abtrim 1% cream | Clotrimazole |
+| 0702020F0BFAAAF | Abtrim 500mg pessaries | Clotrimazole |
+| 1304000D0AACACA | Betamethasone dipropionate 0.064% / Clotrimazole 1% cream | Betamethasone esters |
+| 1310020H0BFABAB | Boots Antifungal 1% cream | Clotrimazole |
+| 0702020F0BGAAAP | Boots Pharmacy Thrush Duo | Clotrimazole |
+| 1310020H0BHAAAB | Candiden 1% cream | Clotrimazole |
+| 0702020F0BDAAAF | Candiden 500mg pessaries | Clotrimazole |
+| 1310020H0BBAAAB | Canesten 1% cream | Clotrimazole |
+
+Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Approved indication text and dosage form are not recorded for this entry.
 
 ---

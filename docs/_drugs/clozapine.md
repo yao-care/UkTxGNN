@@ -104,7 +104,7 @@ An important caveat is that the available evidence concerns bipolar disorder bro
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local data. It sits in the BNF antipsychotic chapter (code prefix 0402010).
+It sits in the BNF antipsychotic chapter (code prefix 0402010).
 
 ## Safety Considerations
 

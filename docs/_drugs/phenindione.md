@@ -56,7 +56,7 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The data show one valid single-ingredient product. The dosage form field, manufacturer and indication text are empty, so these should be confirmed against the MHRA register and BNF.
+The dosage form field, manufacturer and indication text are empty, so these should be confirmed against the MHRA register and BNF.
 
 ---
 

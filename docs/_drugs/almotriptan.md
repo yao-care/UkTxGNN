@@ -78,6 +78,13 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0407041B0AAAAAA | Almotriptan 12.5mg tablets | Almotriptan |
+| 0407041B0BBAAAA | Almogran 12.5mg tablets | Almotriptan |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Indication text and dosage form are not recorded in the local data. Please consult the current SmPC and BNF for authorised uses, formulations and the BNF classification.
 
 ---

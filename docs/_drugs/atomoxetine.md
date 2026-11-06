@@ -91,8 +91,6 @@ None of these studies directly examines a specific developmental disorder. They 
 
 ## UK Market Information
 
-Overall status: **Marketed**.
-
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0404000S0AAAHAH | Atomoxetine 100mg capsules | Atomoxetine hydrochloride |

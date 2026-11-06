@@ -69,6 +69,15 @@ Currently no related literature available for this predicted indication.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0205053A0AAAAAA | Aliskiren 150mg tablets | Aliskiren |
+| 0205053A0AAABAB | Aliskiren 300mg tablets | Aliskiren |
+| 0205053A0BBAAAA | Rasilez 150mg tablets | Aliskiren |
+| 0205053A0BBABAB | Rasilez 300mg tablets | Aliskiren |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 No approved indication text or dosage form is recorded in the local data, so the licensed uses cannot be described here. Please check the current MHRA record and the BNF for product details.
 
 ## Safety Considerations

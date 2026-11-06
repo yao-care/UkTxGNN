@@ -82,6 +82,14 @@ Currently no related literature available.
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0601021E0AAAAAA | Chlorpropamide 100mg tablets | Chlorpropamide |
+| 0601021E0AAABAB | Chlorpropamide 250mg tablets | Chlorpropamide |
+| 0601021E0AAADAD | Chlorpropamide 250mg/5ml oral suspension | Chlorpropamide |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 The drug has been discontinued from the UK market.
 
 ---

@@ -92,7 +92,7 @@ Currently no related literature available for cauda equina syndrome.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
-The registry lists one valid single-ingredient authorisation. Indication text and dosage form details are not available in the data compiled for this report. Please check the current MHRA product information and the BNF (skeletal muscle relaxants) for licensed indications.
+Indication text and dosage form details are not available in the data compiled for this report. Please check the current MHRA product information and the BNF (skeletal muscle relaxants) for licensed indications.
 
 ---
 

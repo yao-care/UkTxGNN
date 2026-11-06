@@ -88,6 +88,15 @@ Guardrails apply: bupropion lowers the seizure threshold, can affect blood press
 
 ## UK Market Information
 
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0410020A0AAAAAA | Bupropion 150mg modified-release tablets | Bupropion hydrochloride |
+| 0405020U0BBAAAA | Mysimba 8mg/90mg modified-release tablets | Naltrexone/bupropion |
+| 0405020U0AAAAAA | Naltrexone 8mg / Bupropion 90mg modified-release tablets | Naltrexone/bupropion |
+| 0410020A0BBAAAA | Zyban 150mg modified-release tablets | Bupropion hydrochloride |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
 Please refer to the SmPC and BNF for authorised uses.
 
 ## Safety Considerations
