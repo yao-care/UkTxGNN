@@ -1,7 +1,7 @@
 """藥物頁許可證資訊的驗證（2026-11-12 建，本站查核機制；比照 TwTxGNN 的 gate 許可證項目）。
 
 依 snapshots/ 下的許可證快照（scripts/build_license_snapshot.py 產生）檢查，不需要 data/：
-  1. 市場段落（site.MARKET_SEC）表格第一欄符合本站號碼格式（site.ID_RE）的格子，號碼都屬於本藥（快照 own）。
+  1. 市場段落（site.MARKET_SEC）表格第一欄含本站號碼格式（site.ID_RE）的格子，整格都是本藥的號碼（快照 own）。
   2. 有程式產生的許可證表的站（site.program_block_problems 存在）：程式區塊＝依快照重算的結果。
   3. 概覽表的狀態列與張數列＝事實層的寫法：用本站 tools/txgnn/.claude/check_drug_page.py 的 marketed_text／
      not_marketed_text／unknown_status_text／not_reg_text／count_text（checker M1／M4 的同一套函式）。
@@ -91,15 +91,21 @@ def page_problems(stem, text):
     lines = body.replace("\r\n", "\n").split("\n")
     errs = []
     own = {ck.mv2.norm_id(x) for x in e["own"]}
+    own |= {ck.mv2.norm_id(x) for x in (getattr(C, "EXTRA_OWN", {}).get(stem) or {})}  # 事實層漏收、已人工對照主管機關清單的號碼
     a, b = section(lines)
+    partial = bool((e.get("facts") or {}).get("partial"))
     if a is not None:
-        if C.ID_RE is not None:
+        # 事實層是部分紀錄（證據包只收了一部分許可證，例 Kr 每藥最多 20 筆）時，表格裡的號碼可能屬於本藥但不在快照，不驗歸屬
+        if C.ID_RE is not None and not partial:
             for t in tables(lines[a:b]):
                 for r in rows(t):
                     cell = r[0] if r else ""
-                    for m in C.ID_RE.finditer(cell):
-                        if ck.mv2.norm_id(m.group(0)) not in own:
-                            errs.append(f"市場段落表格的號碼不屬於本藥：{m.group(0)}")
+                    cell = re.sub(r"^\[([^\]]+)\]\([^)]*\)$", r"\1", cell.strip())  # 號碼格是 Markdown 連結時取連結文字
+                    # 第一欄含本站號碼格式時，整格（號碼可帶後綴或括號，例 Za「55/8.2/0055.053」「G115 (ACT 101/1965)」）要是本藥的號碼
+                    # 整格不是本藥號碼時，再看格裡符合號碼格式的部分（例 My「MAL19973350AZ (kombinasi)」：號碼後面加註）
+                    if C.ID_RE.search(cell) and ck.mv2.norm_id(cell) not in own \
+                            and not any(ck.mv2.norm_id(m.group(0)) in own for m in C.ID_RE.finditer(cell)):
+                        errs.append(f"市場段落表格的號碼不屬於本藥：{cell}")
         if hasattr(C, "program_block_problems"):
             errs += C.program_block_problems(lines[a:b], e)
     fc = e.get("facts")

@@ -151,7 +151,7 @@ Four completed Phase 3 trials (NCT00000802, NCT00000991, NCT00001028, NCT0000064
 
 <!-- review:begin uk-lic-20261106-dapsone-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The record has no indication text, so it is unclear whether PCP is within the licence. / Mechanism of action data from a primary source (currently a data gap)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-06)**: Originally stated: "Confirmation of the UK licensed indications and current SmPC. The record has no indication text, so it is unclear whether PCP is within the licence." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-dapsone-2 -->
 

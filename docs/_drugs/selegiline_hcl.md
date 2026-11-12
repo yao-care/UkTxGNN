@@ -186,7 +186,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "s**, **no UK marketing authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**no UK marketing authorisation records**" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The zero-licence result likely reflects a mapping failure against the MHRA authorisations database rather than genuine absence from the UK m" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "No MHRA marketing authorisation records were returned for this drug. As noted above, this is likely a data pipeline issue" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "This Evidence Pack does not contain the minimum data required for a drug repurposing evaluation — specifically, TxGNN predictions are absent" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |

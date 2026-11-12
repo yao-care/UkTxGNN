@@ -163,7 +163,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "because the current licence record is incomplete , since the one authorisation on record is a nebuliser solution and not an eye preparation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "because the current licence record is incomplete since the one authorisation on record is a nebuliser solution and not an eye preparation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

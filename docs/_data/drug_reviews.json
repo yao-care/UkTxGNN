@@ -685,7 +685,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"that is expected to hold UK marketing authorisations A result of zero licences strongly suggests a data ingestion or mapping failure at sour\"",
+   "summary": "Removed: \"that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at sou\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {
@@ -1109,7 +1109,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"he UK licence record does not state indications, and t\"",
+   "summary": "Removed: \"The UK licence record does not state indications, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {
@@ -2371,7 +2371,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: a The automated \"",
+   "summary": "Removed: \"No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: The automated pu\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）、67acd88de（2026-11-06）"
   },
   {
@@ -2693,7 +2693,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"No MHRA marketing authorisations were identified for cinchocaine HCl in this evidence pack. , but no current product licences are recorded h\"",
+   "summary": "Removed: \"No MHRA marketing authorisations were identified for cinchocaine HCl in this evidence pack. but no current product licences are recorded her\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）、2c2697644（2026-11-06）"
   },
   {
@@ -3165,8 +3165,8 @@
    "drug": "dapsone",
    "file": "dapsone.md",
    "action": "correct",
-   "claim": "The record has no indication text, so it is unclear whether PCP is within the licence.\n- Mechanism of action data from a primary source (currently a data gap).",
-   "replacement": "- Mechanism of action data from a primary source (currently a data gap).",
+   "claim": "- Confirmation of the UK licensed indications and current SmPC. The record has no indication text, so it is unclear whether PCP is within the licence.",
+   "replacement": "- Confirmation of the UK licensed indications and current SmPC.",
    "note": "Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures.",
    "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：list）",
    "sources": [
@@ -5174,7 +5174,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"t with one oral solution authorisation recorded on the UK marke\"",
+   "summary": "Removed: \"with one oral solution authorisation recorded on the UK market\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：2c2697644（2026-11-06）"
   },
   {
@@ -5697,7 +5697,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"The UK authorisation record lacks indication text, and m\"",
+   "summary": "Removed: \"The UK authorisation record lacks indication text, and\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {
@@ -7730,7 +7730,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. , and no ophthalmic rifampicin product was identified\"",
+   "summary": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. and no ophthalmic rifampicin product was identified\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {
@@ -8051,7 +8051,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"s**, **no UK marketing authorisation record\"",
+   "summary": "Removed: \"**no UK marketing authorisation records**\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {
@@ -8933,7 +8933,7 @@
     }
    ],
    "checked": "2026-11-06",
-   "summary": "Removed: \"because the current licence record is incomplete , since the one authorisation on record is a nebuliser solution and not an eye preparation\"",
+   "summary": "Removed: \"because the current licence record is incomplete since the one authorisation on record is a nebuliser solution and not an eye preparation\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
   },
   {

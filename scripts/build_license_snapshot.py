@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from uktxgnn.regulatory import site as C  # noqa: E402
 
 OUT = ROOT / "snapshots" / f"{C.CODE}_licenses.json.gz"
-SLT = ROOT / "scripts" / "sync_license_tables.py"
+SLT = ROOT / "scripts" / getattr(C, "PROGRAM_SCRIPT", "sync_license_tables.py")  # 產生程式許可證表的本站程式（有 rows_of 才用）
 
 
 def _slt():

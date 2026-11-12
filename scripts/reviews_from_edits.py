@@ -110,9 +110,13 @@ def in_para(a, b):
         for k1 in range(0, 4):
             for k2 in range(0, 4):
                 x1, x2, y1, y2 = i1 - k1, i2 + k2, j1 - k1, j2 + k2
-                if x1 < 0 or y1 < 0 or x2 > len(ta) or y2 > len(tb) or y2 == y1:
-                    continue
-                cands.append((k1 + k2, (a[sa[x1][0]:sa[x2 - 1][1]] if x2 > x1 else "", b[sb[y1][0]:sb[y2 - 1][1]])))
+                if x1 < 0 or y1 < 0 or x2 > len(ta) or y2 > len(tb) or y2 == y1 or x2 == x1:
+                    continue  # replacement 不能空（錨點）；claim 也不能空（純插入的句子要多帶相鄰句才能定位，例 Za 補回句）
+                # claim 前後的分隔（空白或換行）要跟 replacement 前後的一樣，套用後才不會把兩行併成一行（例 My atropine：
+                # 整句刪掉時往後帶下一行當錨點，claim 前是空白、replacement 前是換行）；不一樣的候選排到後面
+                sep = lambda s, sp, i: s[sp[i - 1][1] if i > 0 else 0:sp[i][0] if i < len(sp) else len(s)]
+                bad = sep(a, sa, x1) != sep(b, sb, y1) or sep(a, sa, x2) != sep(b, sb, y2)
+                cands.append((k1 + k2 + (10 if bad else 0), (a[sa[x1][0]:sa[x2 - 1][1]] if x2 > x1 else "", b[sb[y1][0]:sb[y2 - 1][1]])))
         if not cands:
             continue  # 段落只剩這句又整句刪：由段落層級處理
         cands = [c for _, c in sorted(cands, key=lambda x: x[0])]
@@ -131,27 +135,39 @@ def changes(before, after):
         out.append([(pa[i], "", x) for x in near] or [(pa[i], "", "")])
 
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, pa, pb, autojunk=False).get_opcodes():
-        if op == "equal" or op == "insert":
-            continue  # 只有新增（沒有刪改）不是更正
-        # 逐段配對：原段落依序配新段落裡最相似的一段（相似度 ≥0.5），配上的做段內比對，配不上的是整段刪除。
-        # 不把多段接成一筆：段落之間常隔著表格，接起來的字串在頁面上不相連，套用時找不到（2026-11-12 atomoxetine 等 4 頁）
-        j = j1
+        if op == "equal":
+            continue
+        if op == "insert":
+            # 只有新增不是更正；但「刪句後補回部分內容」（例 Za d5c6364b6：只刪矛盾子句、其餘補回）要併回先前的整段刪除紀錄
+            for j in range(j1, j2):
+                out.append([("", pb[j], "", "insert")])
+            continue
+        # 段落配對：所有（原段落, 新段落）組合算相似度（新段落的字都在原段落裡也算高分），從最高分開始配、保持先後順序；
+        # 配上的做段內比對，配不上的原段落是整段刪除。不把多段接成一筆（段落之間常隔著表格，接起來在頁面上不相連）。
+        # 不用「依序各挑最像的」：會把被刪的段落錯配到後面那段的新版（2026-11-12 Za arginine）
+        def score(x, y):
+            r = difflib.SequenceMatcher(None, x, y, autojunk=False).ratio()
+            wb, wa = re.findall(r"\w+", y.lower()), set(re.findall(r"\w+", x.lower()))
+            if y.strip() and (y.strip() in x or (len(wb) >= 2 and set(wb) <= wa)):
+                r = max(r, 0.6 + 0.4 * r)  # 刪掉大半只剩一句（例 atropine「Five examples:」）
+            return r
+        cand = sorted(((score(pa[i], pb[k]), i, k) for i in range(i1, i2) for k in range(j1, j2)), reverse=True)
+        pairs = {}
+        for s, i, k in cand:
+            if s < 0.5 or i in pairs or k in pairs.values():
+                continue
+            if any((i2_ < i) != (k2_ < k) for i2_, k2_ in pairs.items()):
+                continue  # 保持先後順序
+            pairs[i] = k
         for i in range(i1, i2):
-            best, bj = 0.0, None
-            for k in range(j, j2):
-                r = difflib.SequenceMatcher(None, pa[i], pb[k], autojunk=False).ratio()
-                wb, wa = re.findall(r"\w+", pb[k].lower()), set(re.findall(r"\w+", pa[i].lower()))
-                if pb[k].strip() and (pb[k].strip() in pa[i] or (len(wb) >= 2 and set(wb) <= wa)):
-                    r = max(r, 0.99)  # 新段落的字都在原段落裡（刪掉大半只剩一句，例 atropine「Five examples:」、
-                    #                   ticagrelor「The drug is marketed, with 13 valid licenses, …」→「The drug is marketed.」）
-                if r > best:
-                    best, bj = r, k
-            if bj is not None and best >= 0.5:
-                for cands in in_para(pa[i], pb[bj]):
+            if i in pairs:
+                for cands in in_para(pa[i], pb[pairs[i]]):
                     out.append([(c, r, "") for c, r in cands])
-                j = bj + 1
             else:
-                deleted(i, j)
+                deleted(i, min([k for ii, k in pairs.items() if ii > i] or [j2]))
+        for k in range(j1, j2):
+            if k not in pairs.values():
+                out.append([("", pb[k], "", "insert")])  # 新段落（可能是補回的內容）
     return out
 
 
@@ -169,8 +185,11 @@ def snap_facts():
 
 
 def removed_text(claim, repl):
-    sm = difflib.SequenceMatcher(None, claim, repl, autojunk=False)
-    return " ".join(claim[i1:i2] for op, i1, i2, j1, j2 in sm.get_opcodes() if op in ("delete", "replace"))
+    """claim 裡被刪掉的字：以詞為單位比對（不分大小寫、不計標點），避免逐字比對把「dan p」「alaysia」這種半個詞當成刪除"""
+    wa, wb = claim.split(), repl.split()
+    key = lambda w: re.sub(r"[^\w]", "", w.lower())
+    sm = difflib.SequenceMatcher(None, [key(w) for w in wa], [key(w) for w in wb], autojunk=False)
+    return " ".join(" ".join(wa[i1:i2]) for op, i1, i2, j1, j2 in sm.get_opcodes() if op in ("delete", "replace"))
 
 
 def classify(rm):
@@ -186,6 +205,9 @@ def note_for(kind, date, fc):
 
 def manual_reason(fixes, stem, claim):
     for it in fixes.get(stem) or []:
+        kp = it.get("keep")
+        if kp is True or (isinstance(kp, str) and kp.strip() == (it.get("sentence") or "").strip()):
+            continue  # 人工判定整句保留（沒有刪任何字）的項目不當理由
         s = (it.get("sentence") or "").strip()
         cuts = it.get("cut") or []
         cuts = [x.strip(" ,;") for x in (cuts if isinstance(cuts, list) else [cuts])]
@@ -198,6 +220,17 @@ def manual_reason(fixes, stem, claim):
 def compose(recs, cands, meta):
     """同一處前後改過多次 → 合併成一筆（claim＝最早原句、replacement＝最新版）。回傳是否已併入既有紀錄。
     合併用最小的候選比對；合併後候選只剩合併結果（再往外帶句子的候選要依新頁面重算，這裡不做）"""
+    if len(cands[0]) == 4:  # 新增段落：補回先前整段刪掉的部分內容 → 那筆的 replacement 改成補回的文字
+        added = cands[0][1]
+        wa = set(re.findall(r"\w+", added.lower()))
+        for r in recs:
+            c0, r0, a0 = r["cands"][0]
+            wc = set(re.findall(r"\w+", c0.lower())) if c0 else set()
+            if not r0 and c0 and wa and len(wa & wc) >= 0.8 * len(wa):  # 補回時可能小改幾個字：八成以上的詞出現在原句就算
+                r["cands"] = [(c0, added, "")]
+                r["_meta"].append(meta)
+                return True
+        return True  # 其他單純新增不轉紀錄
     claim, repl, anchor = cands[0]
     for r in recs:
         old = r["cands"][0][1]
@@ -261,9 +294,13 @@ def pick(cands, cur_body):
     return None
 
 
+restored = []  # finalize 跳過的已還原句（檔名, 原句）
+
+
 def finalize(by, current, regen, fixes, facts, existing_ids):
     """草稿 → 正式紀錄；回傳 (紀錄, 無法定位的草稿)"""
     out, lost = [], []
+    restored.clear()
     for fname, recs in sorted(by.items()):
         stem = fname[:-3]
         cur = current(fname)
@@ -282,12 +319,17 @@ def finalize(by, current, regen, fixes, facts, existing_ids):
                 else:
                     lost.append((fname, {"claim": c0, "replacement": r0}))
                     continue
+            if fname in getattr(C, "RESTORED", {}):
+                restored.append((fname, got[0]))  # 這頁的刪句是依錯配事實刪的、之後已修正事實（site.py RESTORED），不是錯誤，不轉紀錄
+                continue
             r = dict(r, claim=got[0], replacement=got[1], anchor=got[2], how=got[3])
             n += 1
             first, last = r["_meta"][0], r["_meta"][-1]
             rm = removed_text(r["claim"], r["replacement"])
             reason = manual_reason(fixes, stem, r["claim"])
-            kind = (C.reason_kind(reason) if reason and hasattr(C, "reason_kind") else None) or classify(rm)
+            # 刪掉的字太短（例 ES「no comercializado」→「comercializado」只刪 "no"）時改用整句分類
+            kind = (C.reason_kind(reason) if reason and hasattr(C, "reason_kind") else None) or \
+                classify(rm if len(rm.strip()) >= 8 else r["claim"])
             rec = {
                 "id": f"{C.CODE}-lic-{first['date'].replace('-', '')}-{stem}-{n}",
                 "drug": stem, "file": fname, "action": "correct",
@@ -361,6 +403,8 @@ def main(argv):
           f"無法定位 {len(lost)} 筆")
     for fn, r in lost[:30]:
         print(f"  ? {fn}：{r['claim'][:90]!r} → {r['replacement'][:60]!r}")
+    if restored:
+        print(f"已還原、不轉紀錄 {len(restored)} 筆（site.py RESTORED）：" + "；".join(f"{fn}「{c[:50]}」" for fn, c in restored))
     if "--write" in argv:
         write(recs)
         print(f"已寫入 {DATA.relative_to(ROOT)}")

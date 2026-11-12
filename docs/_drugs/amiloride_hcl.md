@@ -185,7 +185,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "UK marketing authorisation records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "that is expected to hold UK marketing authorisations A result of zero licences strongly suggests a data ingestion or mapping failure at sour" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at sou" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The evidence pack records **zero UK marketing authorisations** for Amiloride HCL. This is inconsistent with the drug's known regulatory hist" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "**Re-ingest UK licensing data** — Re-run the MHRA licence lookup with a corrected DrugBank ID or direct INN search to populate UK marketing " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "the UK marketing authorisation data appears erroneous" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
