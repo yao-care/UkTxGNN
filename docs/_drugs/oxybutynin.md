@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
 description: "Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,8 @@ For context, the following publications relate to the lower-ranked prediction of
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704020J0AAATAT | Oxybutynin 10mg modified-release tablets | Oxybutynin |
@@ -106,7 +108,15 @@ For context, the following publications relate to the lower-ranked prediction of
 
 Showing 20 of 30 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers listed appear to be BNF-style product codes (BNF section 7.4.2, drugs for urinary frequency, enuresis and incontinence) rather than MHRA PL numbers, so they should be checked against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-oxybutynin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient products. The identifiers listed appear to be BNF-style product codes (BNF section 7.4.2, drugs for urinary frequency, enuresis and incontinence) rather than MHRA PL numbers, so they should be checked against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 30 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-oxybutynin-1 -->
 
 ## Safety Considerations
 
@@ -139,6 +149,19 @@ The prediction for restless legs syndrome rests only on a score from the TxGNN m
 - Detailed mechanism of action data
 - Approved indication text and SmPC safety information for the UK authorisations
 - A review of the contraindication associations against the SmPC, particularly given the interaction burden with other anticholinergics
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

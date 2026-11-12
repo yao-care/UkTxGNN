@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -101,6 +101,8 @@ Currently no related clinical trials registered for any of the predicted indicat
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206020T0AAA3A3 | Verapamil 10mg/5ml oral liquid | Verapamil hydrochloride |
@@ -126,7 +128,15 @@ Currently no related clinical trials registered for any of the predicted indicat
 
 Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The record corresponds to BNF section 2.6.2 (calcium-channel blockers).
+
+<!-- review:begin uk-lic-20261106-verapamil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record corresponds to BNF section 2.6.2 (calcium-channel blockers). No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the current SmPC." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 47 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-verapamil-1 -->
 
 ---
 
@@ -165,6 +175,19 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 - Confirmation of the UK marketing authorisation number, dosage form and licensed indications
 - For pulmonary hypertension: direct preclinical or early clinical data on verapamil in hypoxia-related pulmonary hypertension, including gas exchange and right ventricular safety
 - Review of the 30 knowledge-graph contraindication signals against label text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rifampicin: predicted new indication Conjunctivitis (evidence level L4). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -94,6 +94,8 @@ Currently no related clinical trials registered for conjunctivitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501090R0AAAFAF | Rifampicin 100mg/5ml oral suspension | Rifampicin |
@@ -119,7 +121,15 @@ Currently no related clinical trials registered for conjunctivitis.
 
 Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication details were not available.
+
+<!-- review:begin uk-lic-20261106-rifampicin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. Dosage form and indication details were not available, and no ophthalmic rifampicin product was identified." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 28 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-rifampicin-1 -->
 
 ---
 
@@ -160,6 +170,19 @@ The prediction score is high, but the supporting evidence is indirect (susceptib
 - Confirmation of whether any ophthalmic rifampicin formulation is available or feasible in the UK
 - Modern, controlled clinical evidence in a defined subtype (for example chlamydial conjunctivitis), compared with current UK standard-of-care antibiotics
 - A review of antimicrobial stewardship implications, given that rifampicin is a key antituberculosis agent and resistance is a concern
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation. , and no ophthalmic rifampicin product was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nadolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nadolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -96,6 +96,8 @@ The remaining records (PMIDs 8935706, 1913717, 31527180, 1670627, 11076740, 1068
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0204000M0AAALAL | Nadolol 100mg/5ml oral suspension | Nadolol |
@@ -119,7 +121,15 @@ The remaining records (PMIDs 8935706, 1913717, 31527180, 1670627, 11076740, 1068
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is not in the usual MHRA PL format, so the authorisation details should be verified against the MHRA register and the BNF (beta-blocker section).
+
+<!-- review:begin uk-lic-20261106-nadolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient authorisation. The identifier shown is not in the usual MHRA PL format, so the authorisation details should be verified against the MHRA register and the BNF (beta-blocker section)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-nadolol-1 -->
 
 ---
 
@@ -153,6 +163,19 @@ The prediction is an extension of nadolol's existing hypertension indication, wi
 - Clinical evidence specific to hypertensive renal disease or renovascular hypertension
 - Clarification of the UK authorisation details (PL number, dosage form, approved indication)
 - Review of the safety signals (renal disease, bronchial disease, atrioventricular block, diabetes) for the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

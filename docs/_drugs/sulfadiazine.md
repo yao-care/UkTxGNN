@@ -95,6 +95,8 @@ No randomised controlled trials were identified. The publications below are revi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501080J0AAAFAF | Sulfadiazine 150mg/5ml oral suspension | Sulfadiazine |
@@ -103,6 +105,8 @@ No randomised controlled trials were identified. The publications below are revi
 | 0501080J0AAAGAG | Sulfadiazine 500mg/5ml oral suspension | Sulfadiazine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

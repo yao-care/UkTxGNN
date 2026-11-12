@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Flunarizi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000E0AAABAB | Flunarizine 10mg tablets | Flunarizine dihydrochloride |
@@ -84,6 +86,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Flunarizi
 | 0406000E0BBACAD | Sibelium 5mg tablets | Flunarizine dihydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

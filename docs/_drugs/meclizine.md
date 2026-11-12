@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000N0AAACAC | Meclozine 12.5mg pastilles sugar free | Meclozine hydrochloride |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 0406000N0BDAAAC | Traveleeze Soft & Chewy pastilles | Meclozine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifiers above are as recorded in the data compiled for this report and are not in the standard MHRA "PL XXXXX/XXXX" format. They should be verified against the MHRA register. Dosage forms are inferred from product names because the dosage form field was empty. In the BNF, antihistamines for nausea and vertigo are classified under the nausea and vertigo section of the gastrointestinal chapter. No NICE appraisal data were available.
 

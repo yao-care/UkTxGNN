@@ -88,6 +88,8 @@ For dry eye syndrome (score 0.9904), 20 publications were retrieved, but none ev
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1203040K0AAAGAG | Phenol 0.71% mouthwash sugar free | Phenol |
@@ -106,6 +108,8 @@ For dry eye syndrome (score 0.9904), 20 publications were retrieved, but none ev
 | 1203040K0BCAAAG | Ultra Chloraseptic 0.71% antiseptic mouthwash and gargle | Phenol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The data compiled for this report do not include the authorisation's dosage form or approved indication text. The authorisation number is not in standard MHRA PL format, so it should be verified.
 

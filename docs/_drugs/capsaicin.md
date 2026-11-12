@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1003020AAAAACAC | Capsaicin 0.006% cream | Capsaicin |
@@ -59,6 +61,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 1003020AABDAAAB | Zacin 0.025% cream | Capsaicin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF.
 

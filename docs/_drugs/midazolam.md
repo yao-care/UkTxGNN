@@ -95,6 +95,8 @@ Four further publications retrieved (lemborexant and delirium, zolpidem in an an
 
 The authorisation numbers below are as listed in the data compiled for this report. They are not in the standard PL format, and no dosage form or approved indication text is available.
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1501041T0AAARAR | Midazolam 100mg/50ml solution for infusion vials | Midazolam hydrochloride |
@@ -119,6 +121,8 @@ The authorisation numbers below are as listed in the data compiled for this repo
 | 1501041T0AAANAN | Midazolam 50mg/10ml solution for injection ampoules | Midazolam hydrochloride |
 
 Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

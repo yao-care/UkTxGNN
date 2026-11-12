@@ -73,12 +73,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1202010L0AAACAC | Flunisolide 25micrograms/dose nasal spray | Flunisolide |
 | 1202010L0BBAAAC | Syntaris 0.025% nasal spray | Flunisolide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

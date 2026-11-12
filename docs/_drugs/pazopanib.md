@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 480
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
@@ -97,6 +97,8 @@ Liposarcoma is a group of adipocytic soft tissue sarcomas with limited treatment
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AZAAAAAA | Pazopanib 200mg tablets | Pazopanib |
@@ -105,6 +107,8 @@ Liposarcoma is a group of adipocytic soft tissue sarcomas with limited treatment
 | 0801050AZBBABAB | Votrient 400mg tablets | Pazopanib |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -127,6 +131,12 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
   - clarithromycin
   - dolasetron
 
+<!-- review:begin uk-lic-20261106-pazopanib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least one valid licence is recorded for pazopanib, and its market status is Marketed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-pazopanib-1 -->
+
   Moderate interactions include pioglitazone, loperamide, aprepitant, dexamethasone, budesonide, bisacodyl, magnesium oxide, saxagliptin and eliglustat.
 
 Label warnings and contraindications are not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
@@ -146,6 +156,18 @@ Two completed phase 2 trials of pazopanib in advanced liposarcoma (NCT01506596 a
 - Mechanism of action data to support subtype selection
 - A safety monitoring plan based on the SmPC, including management of the interactions listed above
 - Review of the local licence record, which has no recorded indication text
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least one valid licence is recorded for pazopanib, and its market status is Marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

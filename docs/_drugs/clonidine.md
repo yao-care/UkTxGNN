@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205020E0AAACAC | Clonidine 100microgram tablets | Clonidine hydrochloride |
@@ -104,7 +106,15 @@ Currently no related literature available.
 
 Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is a BNF-style product code rather than a PL number, and no indication text is recorded.
+
+<!-- review:begin uk-lic-20261106-clonidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data list one valid single-ingredient authorisation. The identifier shown is a BNF-style product code rather than a PL number, and no indication text is recorded." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 37 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clonidine-1 -->
 
 ---
 
@@ -130,6 +140,19 @@ The prediction has no supporting trials or publications, no plausible mechanisti
 - A credible mechanistic hypothesis linking alpha-2 agonism to the pathophysiology of faciodigitogenital syndrome
 - Any preclinical or clinical data in this condition
 - Verified mechanism of action and label-based safety data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

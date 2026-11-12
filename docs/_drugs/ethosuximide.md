@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010I0AAAAAA | Ethosuximide 250mg capsules | Ethosuximide |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 0408010I0BCABAB | Zarontin 250mg/5ml syrup | Ethosuximide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (0408010) corresponds to the anti-epileptic drug section (BNF chapter 4.8.1).
 

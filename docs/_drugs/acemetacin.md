@@ -74,12 +74,16 @@ The TxGNN deep-learning model has no candidate indication for Acemetacin with a 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 100101050AAAAAA | Acemetacin 60mg capsules | Acemetacin |
 | 100101050BBAAAA | Emflex 60mg capsules | Acemetacin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

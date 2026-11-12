@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Clobazam"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "atypical childhood epilepsy with centrotemporal spikes", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clobazam: predicted new indication febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 040801060AACLCL | Clobazam 1.25mg/5ml oral liquid | Clobazam |
@@ -106,7 +108,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please consult the BNF and the current SmPC for licensed indications and formulations.
+
+<!-- review:begin uk-lic-20261106-clobazam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clobazam is marketed in the UK, with one valid single-ingredient licence recorded in the local data. The licence record carries no product-level indication text or dosage form, so no authorisation table can be provided here. Please consult the BNF and the current SmPC for licensed indications and formulations." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 39 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clobazam-1 -->
 
 ---
 
@@ -133,6 +143,19 @@ The TxGNN score is high (0.9982), and a GABAergic rationale exists. However, no 
 - Detailed mechanism of action data
 - Label-level warnings and contraindications from the SmPC and BNF
 - A safety plan covering interactions, particularly with opioids, given the major interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clobazam is marketed in the UK, with one valid single-ingredient licence recorded in the local data. The licence record carries no product-l" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

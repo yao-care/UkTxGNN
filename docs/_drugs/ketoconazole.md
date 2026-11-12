@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 350
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data"
@@ -97,6 +97,8 @@ Other retrieved publications (on polycystic ovary syndrome, adapalene, infant ra
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1309000I0AAACAC | Ketoconazole 1% shampoo | Ketoconazole |
@@ -121,7 +123,15 @@ Other retrieved publications (on polycystic ovary syndrome, adapalene, infant ra
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No NICE appraisal or BNF classification data were available.
+
+<!-- review:begin uk-lic-20261106-ketoconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not in the usual PL format, and no dosage form, manufacturer or indication text is provided. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ketoconazole-1 -->
 
 ---
 
@@ -153,11 +163,31 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Rationale:**
 Support for acne rests on a high model score, laboratory data and one small, unreported trial, which is L4 evidence. Systemic exposure carries serious safety concerns.
 
+<!-- review:begin uk-lic-20261106-ketoconazole-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Systemic exposure carries serious safety concerns, and the available UK authorisation record is incomplete." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ketoconazole-2 -->
+
 **To proceed, the following is needed:**
 - Results from NCT07237763 and, ideally, larger randomised trials of topical ketoconazole in acne vulgaris, distinguishing it from Malassezia folliculitis
 - Confirmation of the UK product details (dosage form, route, indication) from the MHRA register and SmPC
 - Mechanism of action data and SmPC warnings and contraindications to complete the safety screen
 - Confirmation that any development is restricted to topical formulations, with a plan for the hepatic, adrenal and QT risks if systemic use were ever considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not i" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "and the available UK authorisation record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

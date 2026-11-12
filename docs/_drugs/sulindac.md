@@ -63,6 +63,8 @@ Other top-ranked predictions (for example brachyolmia, pseudoachondroplasia, myo
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010S0AAAAAA | Sulindac 100mg tablets | Sulindac |
@@ -71,6 +73,8 @@ Other top-ranked predictions (for example brachyolmia, pseudoachondroplasia, myo
 | 1001010S0BBABAB | Clinoril 200mg tablets | Sulindac |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation identifier does not follow the usual PL format, so it should be checked against the MHRA register before use. Please also refer to the BNF (musculoskeletal and joint diseases, NSAIDs) for current licensed indications.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tiaprofenic acid"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pseudoachondroplasia"]
 description: "Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010T0AAABAB | Tiaprofenic acid 200mg tablets | Tiaprofenic acid |
@@ -82,7 +84,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The dosage form and indication text were not recorded in the data compiled for this report, and the dosage form shown is inferred from the product name. Please verify the authorisation details against the MHRA and BNF records.
+
+<!-- review:begin uk-lic-20261106-tiaprofenic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation was identified. The dosage form and indication text were not recorded in the data compiled for this report, and the dosage form shown is inferred from the product name." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tiaprofenic_acid-1 -->
 
 ## Safety Considerations
 
@@ -102,6 +112,19 @@ The prediction is supported only by a model score, with no clinical trials or pu
 - Label-based safety information (warnings, contraindications, interactions) from the SmPC and BNF, as the safety screening cannot proceed without it
 - Confirmation of the approved indication and dosage form for the UK authorisation
 - A targeted literature search if spondyloarthropathy is pursued as a more plausible alternative, weighed against the safety profile of tiaprofenic acid and the established alternatives
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 554
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
@@ -106,6 +106,8 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1502010R0AAAEAE | Ropivacaine 100mg/10ml solution for injection ampoules | Ropivacaine hydrochloride |
@@ -121,7 +123,15 @@ For migraine, a similar logic applies to blocks of the sphenopalatine ganglion, 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form detail and approved indication text are not available, so please check the current MHRA record, the SmPC and the BNF for licensed indications.
+
+<!-- review:begin uk-lic-20261106-ropivacaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation is recorded. Dosage form detail and approved indication text are not available, so please check the current MHRA record, the SmPC and the BNF for licensed indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ropivacaine-1 -->
 
 ---
 
@@ -162,6 +172,19 @@ Ropivacaine has a coherent mechanism and existing clinical use in trigger point 
 - Confirmation of the licensed indications and dosage forms for the UK authorisation
 - A safety plan covering myotoxicity, cardiovascular and neurological toxicity monitoring, and the knowledge-graph contraindication signals
 - For migraine: larger controlled trials of nerve block procedures with ropivacaine specified as the agent
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001040G0AAAHAH | Colchicine 250micrograms/5ml oral solution | Colchicine |
@@ -83,7 +85,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA authorisation and the BNF for the licensed indications.
+
+<!-- review:begin uk-lic-20261106-colchicine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation record is available, and it carries no indication text or manufacturer. Please check the current MHRA authorisation and the BNF for the licensed indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-colchicine-1 -->
 
 ## Cytotoxicity
 
@@ -126,6 +136,19 @@ The malaria prediction rests on a model score and two indirect laboratory papers
 - Label-derived warnings and contraindications from the SmPC and BNF
 - Confirmation of the licensed indications for the UK authorisation record
 - A review of the chloroquine and other antimalarial interactions if the work progresses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation record is available, and it carries no indication text or manufacturer" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

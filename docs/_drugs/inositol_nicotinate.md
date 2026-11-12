@@ -78,6 +78,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206040AFAAAHAH | Inositol nicotinate 1g/5ml oral suspension | Nicotinic acid derivatives |
@@ -89,6 +91,8 @@ Currently no related literature available.
 | 0206040AFBCABAB | Hexopal Forte 750mg tablets | Nicotinic acid derivatives |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This is the only record, and it is a single-ingredient product. The data do not include approved indication text, so no licensed use can be confirmed here.
 

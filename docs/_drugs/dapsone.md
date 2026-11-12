@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 206
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -59,6 +59,12 @@ Detailed mechanism of action data is not available in the data compiled for this
 
 Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (dermatitis herpetiformis, acne). *Pneumocystis jirovecii* depends on folate synthesis, so an antimicrobial that blocks this pathway is a plausible treatment or prophylactic agent. The very high TxGNN score is consistent with this. In practice, dapsone is already used for prophylaxis in patients who cannot take trimethoprim-sulfamethoxazole (co-trimoxazole).
 
+<!-- review:begin uk-lic-20261106-dapsone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MHRA register for the authorisation details." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dapsone-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
@@ -91,6 +97,8 @@ Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (de
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501100H0AAAHAH | Dapsone 100mg tablets | Dapsone |
@@ -104,6 +112,8 @@ Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (de
 | 0504010Q0BBAAAA | Maloprim tablets | Pyrimethamine with dapsone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -138,6 +148,26 @@ Four completed Phase 3 trials (NCT00000802, NCT00000991, NCT00001028, NCT0000064
 - A review of the interaction list, particularly agents that may add to haemolytic or methaemoglobin-forming risk.
 - Comparison with current UK guidelines for patients intolerant of co-trimoxazole.
 - Clarification of the NCT00000991 and NCT00000640 results for dapsone-specific outcomes, as these trials involve combination regimens.
+
+<!-- review:begin uk-lic-20261106-dapsone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record has no indication text, so it is unclear whether PCP is within the licence. / Mechanism of action data from a primary source (currently a data gap)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dapsone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MH" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The record has no indication text, so it is unclear whether PCP is within the licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

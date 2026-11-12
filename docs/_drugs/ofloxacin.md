@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -97,6 +97,8 @@ Two further retrieved papers concern *Burkholderia* and *Vibrio cholerae* rather
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1201010ABAAAAAA | Ofloxacin 0.3% ear drops | Ofloxacin |
@@ -113,7 +115,15 @@ Two further retrieved papers concern *Burkholderia* and *Vibrio cholerae* rather
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed number appears to be a product code rather than a standard PL number.
+
+<!-- review:begin uk-lic-20261106-ofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with a valid status. The listed number appears to be a product code rather than a standard PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 11 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ofloxacin-1 -->
 
 ---
 
@@ -145,6 +155,19 @@ Septicaemic plague is a biologically plausible target, but the evidence is limit
 - Mechanism of action data and the licensed indication text from the SmPC
 - Label-based warnings and contraindications, with particular attention to QT prolongation, tendon, neuropathy and CNS risks
 - Review of the interaction profile, notably with corticosteroids, and of dosing in renal impairment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with a valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

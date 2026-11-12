@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403020K0AAAAAA | Moclobemide 150mg tablets | Moclobemide |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | 0403020K0BBABAC | Manerix 300mg tablets | Moclobemide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (04.03.02, MAOIs) is reflected in the identifier above. The identifier is in BNF-code format rather than the usual PL number format, so the authorisation number should be checked against the MHRA register.
 

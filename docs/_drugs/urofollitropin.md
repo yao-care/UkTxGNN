@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0605010M0AAADAD | Urofollitropin 150unit inj ampoules | Urofollitropin |
@@ -94,6 +96,8 @@ Currently no related literature available.
 | 0605010M0BDABAC | Metrodin High Purity 75unit inj ampoules | Urofollitropin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

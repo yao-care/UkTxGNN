@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hyaluronidase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not available in the UK licence data"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 Hyaluronidase is an enzyme that breaks down hyaluronan, but no approved indication text was available for this report.
 Among the ten predictions, the TxGNN model's best-supported one is **diabetic retinopathy**, with **3 clinical trials** (two completed Phase 3 trials of intravitreal ovine hyaluronidase) and **19 publications**.
 The Phase 3 results were not available in the data compiled for this report, so efficacy is unconfirmed.
+
+<!-- review:begin uk-lic-20261106-hyaluronidase-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Hyaluronidase is an enzyme that breaks down hyaluronan, and it has one UK marketing authorisation (a 1,500 unit injection ampoule), but no approved indication text was available for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-hyaluronidase-1 -->
 
 ---
 
@@ -106,6 +112,8 @@ No ISRCTN or EU Clinical Trials Register entries were found.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1003010P0AAAAAA | Hyaluronidase 1,500unit inj ampoules | Hyaluronidase |
@@ -113,7 +121,15 @@ No ISRCTN or EU Clinical Trials Register entries were found.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The compiled data contains no approved indication text, so the original indication could not be confirmed.
+
+<!-- review:begin uk-lic-20261106-hyaluronidase-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The marketing authorisation is a single-ingredient product with valid status. The compiled data contains no approved indication text, so the original indication could not be confirmed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-hyaluronidase-2 -->
 
 ---
 
@@ -140,6 +156,20 @@ Diabetic retinopathy is the only prediction with substantial evidence: two compl
 - Mechanism of action data
 - Assessment of route compatibility, since intravitreal use differs from the existing injection licence
 - Clarification of whether the evidence applies to diabetic retinopathy itself or only to vitreous haemorrhage
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and it has one UK marketing authorisation (a 1,500 unit injection ampoule)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The marketing authorisation is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

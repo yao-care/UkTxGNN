@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Felbinac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Felbinac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1003020M0AAAAAA | Felbinac 3% gel | Felbinac |
@@ -90,7 +92,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The approved indication text is not recorded in the local data.
+
+<!-- review:begin uk-lic-20261106-felbinac-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The single record is a single-ingredient licence and is currently valid. The approved indication text is not recorded in the local data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-felbinac-1 -->
 
 ---
 
@@ -112,6 +122,19 @@ The prediction has no supporting clinical trials or publications and no plausibl
 - Preclinical or mechanistic evidence directly linking felbinac to this syndrome
 - Any clinical or published evidence in this disease
 - Safety information from the SmPC and BNF, including suitability of a topical formulation for this condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The single record is a single-ingredient licence and is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403030P0AAAKAK | Paroxetine 10mg tablets | Paroxetine hydrochloride |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 0403030P0BBABAB | Seroxat 30mg tablets | Paroxetine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Paroxetine falls within the BNF antidepressant (SSRI) classification, section 4.3.3. Please confirm the current MHRA marketing authorisation (PL) number and licensed indications in the SmPC.
 

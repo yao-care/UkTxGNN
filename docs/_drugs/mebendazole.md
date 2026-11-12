@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0505010D0AAADAD | Mebendazole 100mg chewable tablets sugar free | Mebendazole |
@@ -95,6 +97,8 @@ Currently no related clinical trials registered.
 | 0505010D0BBABAA | Vermox 100mg/5ml oral suspension | Mebendazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above resembles a BNF-style classification code (BNF chapter 5, infections) rather than a standard PL number. Please check the MHRA register for the official authorisation details and approved indications.
 

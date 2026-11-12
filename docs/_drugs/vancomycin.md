@@ -85,6 +85,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1103010Z0AAADAD | Vancomycin 1.4% eye drops | Vancomycin hydrochloride |
@@ -103,6 +105,8 @@ Currently no related clinical trials registered.
 | 0501070U0BBABAB | Vancocin Matrigel 250mg capsules | Vancomycin hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF classification: the code prefix 0501070 corresponds to the BNF section on other antibacterials (glycopeptide antibacterials).
 

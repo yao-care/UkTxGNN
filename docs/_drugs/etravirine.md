@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Etravirine: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -75,6 +75,8 @@ For context, the second-ranked prediction (simian immunodeficiency virus infecti
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010AFAAAAAA | Etravirine 100mg tablets | Etravirine |
@@ -86,7 +88,15 @@ For context, the second-ranked prediction (simian immunodeficiency virus infecti
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown appears to be a BNF-style classification code rather than a PL number. The indication text is absent, so no approved indication can be confirmed from these data.
+
+<!-- review:begin uk-lic-20261106-etravirine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record is a single-ingredient product and is listed as valid. The indication text is absent, so no approved indication can be confirmed from these data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-etravirine-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ There are no trials or publications on feline acquired immunodeficiency syndrome
 - Mechanism of action data and SmPC warnings and contraindications for the UK product
 - Confirmation of the licensed indication text, dosage form and PL number
 - A veterinary regulatory and pharmacological assessment, since the target condition is not a human disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single-ingredient product and is listed as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

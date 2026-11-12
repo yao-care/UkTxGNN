@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Degarelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not stated in the available authorisation data"
 monitor_inn: "Degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803042R0AAABAB | Degarelix 120mg inj vials | Degarelix |
@@ -91,7 +93,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It does not give a PL number, manufacturer or indication text. Please verify details against the MHRA register, the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261106-degarelix-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient authorisation. It does not give a PL number, manufacturer or indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-degarelix-1 -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction rests on model output alone (L5), with no trials, no literature a
 - Mechanism of action data
 - Preclinical or observational evidence for any androgen-independent role in hair growth
 - Consideration of **central precocious puberty** as a separate research question, since it is the most biologically plausible prediction, with paediatric safety and formulation feasibility to be established first
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

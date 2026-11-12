@@ -84,12 +84,16 @@ The very high TxGNN score is consistent with this reasoning. Two systematic revi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1305030B0AAAAAA | Pimecrolimus 1% cream | Pimecrolimus |
 | 1305030B0BBAAAA | Elidel 1% cream | Pimecrolimus |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the authorisation identifier above is reproduced as recorded and does not follow the usual MHRA "PL xxxxx/xxxx" format; it should be verified against the MHRA register. NICE appraisal status and BNF classification were not included in the data compiled for this report.
 

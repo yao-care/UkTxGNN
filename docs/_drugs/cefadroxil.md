@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefadroxil, 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021B0AAABAB | Cefadroxil 125mg/5ml oral suspension | Cefadroxil |
@@ -88,6 +90,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefadroxil, 
 | 0501021B0BBADAD | Baxan 500mg/5ml oral suspension | Cefadroxil |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ Currently no related clinical trials registered. The randomised studies below we
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010N0AAAAAA | Mefenamic acid 250mg capsules | Mefenamic acid |
@@ -108,12 +110,20 @@ Currently no related clinical trials registered. The randomised studies below we
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
 
 - **Drug Interactions**: 100 interactions were recorded. Examples at moderate level include acetylsalicylic acid, corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), metformin, chlorpropamide, mesalazine, balsalazide and aprepitant. Minor-level examples include famotidine, ranitidine and cimetidine.
 - **Literature safety signals**: enteropathy with villous atrophy after prolonged use, and the risk of medication-overuse headache with frequent analgesic use. One report links analgesic use, including mefenamic acid, with chronic renal disease in patients with headache.
+
+<!-- review:begin uk-lic-20261106-mefenamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is valid, and the drug is marketed in the UK." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-mefenamic_acid-1 -->
 
 Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -131,6 +141,18 @@ Small double-blind randomised trials of mefenamic acid exist in migraine, includ
 - Comparison against current standard acute and preventive therapies
 - Detailed mechanism of action data
 - A safety plan covering gastrointestinal, renal and cardiovascular risks, and limits on treatment duration to avoid medication-overuse headache
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is valid, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

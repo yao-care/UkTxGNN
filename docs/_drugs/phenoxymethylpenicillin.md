@@ -90,6 +90,8 @@ Currently no related literature available for epiglottitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501011P0AAATAT | Phenoxymethylpenicillin 0.3% eye drops | Phenoxymethylpenicillin (Penicillin V) |
@@ -102,6 +104,8 @@ Currently no related literature available for epiglottitis.
 | 0501011P0BNADAJ | Tenkicin 250mg tablets | Phenoxymethylpenicillin (Penicillin V) |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classifies the product under section 5.1 (antibacterial drugs, penicillins). Epiglottitis is not a listed indication in the data compiled for this report.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levofloxacin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder"]
 description: "Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -62,6 +62,12 @@ The link to punctate epithelial keratoconjunctivitis is weak, however. The only 
 
 Currently no related clinical trials registered.
 
+<!-- review:begin uk-lic-20261106-levofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient licence." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 25 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-levofloxacin-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -69,6 +75,8 @@ Currently no related clinical trials registered.
 | [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Reports an outbreak of microsporidial keratoconjunctivitis linked to contaminated swimming pool water in Taiwan. It does not test levofloxacin and offers no efficacy evidence. |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -95,6 +103,8 @@ Currently no related clinical trials registered.
 
 Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Conditions flagged as cautions or contraindications for this drug:** long QT syndrome (including familial), torsades de pointes, epilepsy, liver disease and drug-induced liver injury, tendinitis and other tendon disorders, peripheral neuropathy, myasthenia gravis, diabetes mellitus and diabetic ketoacidosis, impaired renal function, Clostridium difficile colitis, myocardial ischaemia and coronary artery disease, rhabdomyolysis, and blood disorders (anaemia, leukopenia, thrombocytopenia, pancytopenia). These are drawn from structured drug-disease data, not from label text, and should be checked against the SmPC.
@@ -114,6 +124,18 @@ The prediction is supported only by a model score. The single retrieved paper co
 - Mechanism of action data and a clear aetiological rationale (infectious versus non-infectious forms)
 - Confirmation of an ophthalmic formulation and route, since the licence on record is for an oral 500 mg tablet
 - A review of fluoroquinolone safety signals and antimicrobial resistance considerations before any use outside current labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

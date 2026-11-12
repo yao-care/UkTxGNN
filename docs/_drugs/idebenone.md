@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Idebenone"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
 description: "Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data"
@@ -64,6 +64,8 @@ The model also ranks several other conditions highly, all with the same lack of 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1108030ABAAABAB | Idebenone 150mg capsules | Idebenone |
@@ -73,7 +75,15 @@ The model also ranks several other conditions highly, all with the same lack of 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the standard MHRA "PL" format, so it should be checked against the MHRA register before any reliance is placed on it. Dosage form, manufacturer and approved indication text are not recorded in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-idebenone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data lists one valid single-ingredient authorisation. The identifier is not in the standard MHRA "PL" format, so it should be checked against the MHRA register before any reliance is placed on it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-idebenone-1 -->
 
 ## Safety Considerations
 
@@ -92,6 +102,19 @@ The prediction is supported only by a model score (0.9992), with no registered c
 - Safety information (warnings, contraindications and interactions) from the SmPC and BNF, which is currently missing and blocks safety screening
 - Verification of the UK marketing authorisation details, including the licensed indication, dosage form and MHRA authorisation number
 - Assessment of route and formulation compatibility with the proposed new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

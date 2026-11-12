@@ -92,6 +92,8 @@ The table below lists publications retrieved for the related predictions, and no
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0202030W0AAAAAA | Triamterene 50mg capsules | Triamterene |
@@ -108,6 +110,8 @@ The table below lists publications retrieved for the related predictions, and no
 | 0202040U0AAAAAA | Triamterene 50mg / Furosemide 40mg tablets | Triamterene with loop diuretics |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Please check the product's SmPC and the BNF classification for the licensed indications.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010E0AAAAAA | Fexofenadine 120mg tablets | Fexofenadine hydrochloride |
@@ -94,7 +96,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Fexofenadine falls under antihistamines in the BNF (chapter 3, respiratory system; the code prefix 0304 matches this). Please check the MHRA register and the SmPC for the licensed indications and the PL number.
+
+<!-- review:begin uk-lic-20261106-fexofenadine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record shows one valid single-ingredient product and no cancelled products. Fexofenadine falls under antihistamines in the BNF (chapter 3, respiratory system; the code prefix 0304 matches this)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fexofenadine-1 -->
 
 ## Safety Considerations
 
@@ -125,6 +135,19 @@ The only support for this indication is a high model score. There are no clinica
 - The approved indication text and PL number for the UK authorisation
 - Evaluation of route and formulation (oral versus topical ocular) and of similarity to the original allergic indications
 - Early-phase or pilot data in ocular rosacea patients, ideally comparing against standard care (lid hygiene, topical or oral antibiotics)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record shows one valid single-ingredient product and no cancelled products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

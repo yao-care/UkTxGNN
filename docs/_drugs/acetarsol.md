@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0107010B0AAABAB | Acetarsol 1g suppositories | Acetarsol |
@@ -58,6 +60,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0107010B0AAAFAF | Acetarsol 500mg suppositories | Acetarsol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Acetarsol is listed under BNF section 1.7 (local preparations for anal and rectal disorders), as suggested by the 0107 prefix of the code above. The identifier shown is a BNF-style code rather than a standard PL number. Please verify the current MHRA authorisation status before any further evaluation.
 

@@ -84,6 +84,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1103010H0AAAAAA | Fusidic acid 1% modified-release eye drops | Fusidic acid |
@@ -102,6 +104,8 @@ Currently no related clinical trials registered.
 | 1304000F0BHAACC | Xemacort 20mg/g / 1mg/g cream | Betamethasone valerate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is the code held in the compiled record and is not in the standard PL number format. Please verify it against the MHRA register.
 

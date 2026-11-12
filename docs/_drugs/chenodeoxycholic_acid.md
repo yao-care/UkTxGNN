@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0109010G0AAAPAP | Chenodeoxycholic acid 200mg tablets | Chenodeoxycholic acid |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 0109010G0BHAAAB | Xenbilox 250mg capsules | Chenodeoxycholic acid |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style product code (BNF chapter 1, gastrointestinal system, biliary and pancreatic disorders), not a standard MHRA PL number. It should be checked against the MHRA register.
 

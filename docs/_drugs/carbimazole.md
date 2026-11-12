@@ -85,6 +85,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0602020D0AAAVAV | Carbimazole 1.25mg/5ml oral liquid | Carbimazole |
@@ -108,6 +110,8 @@ Currently no related clinical trials registered.
 | 0602020D0BBAAAA | NeoMercazole 5 tablets | Carbimazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

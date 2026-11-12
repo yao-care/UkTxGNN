@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 391
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Memantine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Memantine"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
@@ -84,6 +84,8 @@ The other predictions are weaker. Pulmonary hypertension and kyphoscoliotic hear
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0411000G0AAAFAF | Memantine 10mg orodispersible tablets sugar free | Memantine hydrochloride |
@@ -109,7 +111,15 @@ The other predictions are weaker. Pulmonary hypertension and kyphoscoliotic hear
 
 Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report do not include approved indication text, so please check the BNF and SmPC for the licensed indication and any NICE-appraised use. Migraine prophylaxis would be off-label use.
+
+<!-- review:begin uk-lic-20261106-memantine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient products. The data compiled for this report do not include approved indication text, so please check the BNF and SmPC for the licensed indication and any NICE-appraised use." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 28 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-memantine-1 -->
 
 ## Safety Considerations
 
@@ -135,6 +145,19 @@ Migraine disorder is the only prediction with a completed Phase 3 trial and meta
 - Confirmation of the licensed indications and labelled warnings from the SmPC and BNF
 - Mechanism of action data to be added to the record
 - A medicines-review and renal function check plan, given the large number of recorded interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

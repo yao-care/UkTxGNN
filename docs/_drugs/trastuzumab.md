@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trastuzumab"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data"
@@ -103,6 +103,8 @@ Benefit is expected only in HER2-positive tumours. HER2-negative PR+ tumours are
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050ADAAAAAA | Trastuzumab 150mg powder for solution for infusion vials | Trastuzumab |
@@ -128,7 +130,15 @@ Benefit is expected only in HER2-positive tumours. HER2-negative PR+ tumours are
 
 Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown appears to be a BNF-style code (BNF section 8.1.5, monoclonal antibodies) rather than an MHRA PL number.
+
+<!-- review:begin uk-lic-20261106-trastuzumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One authorisation is recorded, and it is a valid single-ingredient product. The identifier shown appears to be a BNF-style code (BNF section 8.1.5, monoclonal antibodies) rather than an MHRA PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 22 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-trastuzumab-1 -->
 
 ---
 
@@ -178,6 +188,18 @@ A large completed Phase 3 randomised adjuvant trial (n=3,270) and pivotal publis
 | Normal breast-like subtype of breast carcinoma | L4 | Hold | Typically HER2-low or negative; the only trial uses a different molecule and is not yet recruiting |
 | Malignant cutaneous granular cell skin tumour, ectomesenchymoma, HHV-8-related tumour, middle ear neuroendocrine tumour | L5 | Hold | Prediction only, with no supporting trials or literature |
 | Kidney pelvis sarcomatoid transitional cell carcinoma, prostatic urethra urothelial carcinoma | L5 | Research Question | HER2 is expressed in some urothelial carcinomas, so HER2 testing and biomarker-selected study would come first |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One authorisation is recorded, and it is a valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

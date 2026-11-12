@@ -94,6 +94,8 @@ None of these publications evaluates misoprostol as a treatment for amenorrhoea.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103040M0AAAAAA | Misoprostol 200microgram tablets | Misoprostol |
@@ -116,6 +118,8 @@ None of these publications evaluates misoprostol as a treatment for amenorrhoea.
 | 0701010X0BBAAAA | Topogyne 400microgram tablets | Misoprostol (Gynaecology) |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is as recorded in the compiled data and is not in the usual MHRA PL number format. Manufacturer and approved indication text were not available. Please verify against the current SmPC and BNF.
 

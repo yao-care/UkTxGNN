@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 589
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Nonpapillary renal cell carcinoma, renal cell adenocarcinoma…"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -92,6 +92,8 @@ However, the available Phase 2 data suggest that activity in liposarcoma subtype
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AMAAAAAA | Sunitinib 12.5mg capsules | Sunitinib |
@@ -104,7 +106,15 @@ However, the available Phase 2 data suggest that activity in liposarcoma subtype
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-sunitinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number. Dosage form, manufacturer and indication text are missing from the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sunitinib-1 -->
 
 ---
 
@@ -146,6 +156,19 @@ Two completed Phase 2 studies and one published Phase 2 report give some clinica
 - Mechanism of action data and UK SmPC safety information (the data compiled for this report are incomplete)
 - Review of cardiac, hepatic and QT-related risks against the contraindications listed above
 - Confirmation of the UK authorisation details, including formulation and approved indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

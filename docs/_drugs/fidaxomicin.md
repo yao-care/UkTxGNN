@@ -74,6 +74,8 @@ For completeness, one publication was retrieved for the lower-ranked prediction 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070ACAAAAAA | Fidaxomicin 200mg tablets | Fidaxomicin |
@@ -82,6 +84,8 @@ For completeness, one publication was retrieved for the lower-ranked prediction 
 | 0501070ACBBABAB | Dificlir 40mg/ml oral suspension | Fidaxomicin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF code suggests a position in BNF chapter 5 (infections), but the data compiled for this report do not include the product's dosage form field, manufacturer or approved indication text.
 

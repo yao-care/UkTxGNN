@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 86
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,6 +66,12 @@ The TxGNN model returned no predicted indications for this compound. Based on ho
 
 Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure.
 
+<!-- review:begin uk-lic-20261106-azelastine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded. Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 13 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-azelastine-1 -->
+
 ---
 
 ## Safety Considerations
@@ -87,6 +93,26 @@ The evidence pack contains no TxGNN-predicted indication and is missing critical
 - **Resolve High gap (DG002):** Retrieve MOA data for Azelastine (DB00972) via the DrugBank API to enable mechanistic rationale assessment
 - **Re-run TxGNN pipeline:** Once DrugBank data is complete, re-run the prediction pipeline and confirm whether a valid repurposing candidate is generated
 - **Proceed to full evaluation:** If a prediction is returned, initiate evidence collection (ClinicalTrials.gov, PubMed, ICTRP) for the predicted indication and re-issue this report using the standard format
+
+<!-- review:begin uk-lic-20261106-azelastine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in the current data pull / **Re-run TxGNN pipeline:** Once DrugBank data is complete, re-run the prediction pipeline and confirm whether a valid repurposing candidate is generated" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-azelastine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

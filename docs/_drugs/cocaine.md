@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1502010G0AAAIAI | Cocaine 10% mouthwash | Cocaine |
@@ -91,6 +93,8 @@ Currently no related clinical trials registered.
 | 0407020P0AAAIAI | Morphine and Cocaine elixir | Morphine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the identifiers above are NHS BNF product codes, not MHRA "PL" numbers, and the data compiled do not give approved indication text. Please verify the licensing details against the MHRA register and the SmPC.
 

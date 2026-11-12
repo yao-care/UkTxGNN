@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sulthiame: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the available authorisation data"
 monitor_inn: "sulthiame"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "neurocirculatory asthenia", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "familial mitral valve prolapse", "mitral valve prolapse (disease)", "MVP1", "autonomic nervous system disease"]
@@ -58,6 +58,12 @@ but there are **no clinical trials** and **no publications** supporting this pre
 
 Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, sulthiame is a carbonic anhydrase inhibitor. However, the relationship between its original use and the predicted indication cannot be assessed.
 
+<!-- review:begin uk-lic-20261106-sulthiame-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, the authorisation records provided contain no approved indication text, so the relationship between its original use and the predicted indication cannot be assessed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sulthiame-1 -->
+
 Cauda equina syndrome is typically a structural, compressive condition of the lower spinal nerve roots, and management is generally surgical. No plausible mechanistic link between carbonic anhydrase inhibition and this condition can be established from the available data. The high score (0.9997, model rank 816) is a computational signal only and should not be read as evidence of efficacy.
 
 Other top-ranked predictions show the same pattern: none has clinical or literature support. These include obsolete neurogenic bladder (0.9994), irritable bowel syndrome (0.9986), neurocirculatory asthenia (0.9979), anaphylaxis (0.9972), food-dependent exercise-induced anaphylaxis (0.9962), three mitral valve prolapse entries (familial 0.9949, general 0.9948 and MVP1 0.9943) and autonomic nervous system disease (0.9935). The mitral valve prolapse and anaphylaxis entries overlap heavily; their scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The "obsolete neurogenic bladder" term is flagged as obsolete in the ontology and would need mapping to a current term before further evaluation.
@@ -72,6 +78,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010Y0AAADAD | Sultiame 100mg tablets | Sultiame |
@@ -84,7 +92,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers shown are the codes in the compiled data, not confirmed MHRA product licence (PL) numbers, and no dosage form or indication text was available. Please check the current BNF and MHRA records for the authorised indications.
+
+<!-- review:begin uk-lic-20261106-sulthiame-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both records are listed as valid single-ingredient products. The identifiers shown are the codes in the compiled data, not confirmed MHRA product licence (PL) numbers, and no dosage form or indication text was available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sulthiame-2 -->
 
 ## Safety Considerations
 
@@ -105,6 +121,20 @@ The prediction is supported only by a model score, with no clinical trials, no p
 - A systematic literature and trial registry search (including ISRCTN and EU CTR) for sulthiame in cauda equina syndrome and the other predicted conditions
 - Mapping of the obsolete neurogenic bladder term to a current ontology term
 - Consideration of whether a more clinically plausible candidate among the lower-ranked predictions is worth prioritising, given the weak rationale for the top prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "the authorisation records provided contain no approved indication text, so" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "Both records are listed as valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

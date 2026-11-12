@@ -88,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403040S0AAAIAI | Tryptophan 500mg capsules | Tryptophan |
@@ -98,6 +100,8 @@ Currently no related clinical trials registered.
 | 0403040S0BBAAAB | Optimax 500mg tablets | Tryptophan |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code suggests a listing under the central nervous system chapter (section 4.3, antidepressant drugs). Approved indication text and manufacturer details were not available, and no NICE-appraised indication was identified in the data.
 

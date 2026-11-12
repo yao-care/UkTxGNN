@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 521
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data"
@@ -96,6 +96,8 @@ Twenty publications were retrieved for renal hypouricaemia. They are reviews, ca
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001040K0AAADAD | Probenecid 250mg tablets | Probenecid |
@@ -107,7 +109,15 @@ Twenty publications were retrieved for renal hypouricaemia. They are reviews, ca
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please verify the authorisation details against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-probenecid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation in the compiled data, and the identifier does not follow the usual PL number format. Please verify the authorisation details against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-probenecid-1 -->
 
 ---
 
@@ -143,6 +153,19 @@ The mechanism points in the wrong direction. A drug that increases renal urate e
 - A clear case for a therapeutic (rather than diagnostic) rationale in renal hypouricaemia. Without one, repurposing is not recommended
 - Mechanistic or preclinical studies showing benefit in any of the three predicted conditions, with particular attention to the risks of urolithiasis and acute kidney injury
 - A review of whether the diagnostic use of probenecid in characterising tubular urate defects is of interest in its own right
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation in the compiled data, and the identifier does not follow the usual PL number format" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

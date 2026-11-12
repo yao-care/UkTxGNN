@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Ammonia"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -42,6 +42,12 @@ Ammonia is a long-established agent.
 The TxGNN model predicts it may be relevant to **acrodermatitis chronica atrophicans**, with a score of 0.9970.
 **No clinical trials and no publications** support this prediction, so it rests on the model output alone.
 
+<!-- review:begin uk-lic-20261106-ammonia-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ammonia is a long-established agent with a single UK licence recorded in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ammonia-1 -->
+
 ## Quick Overview
 
 | Item | Content |
@@ -70,6 +76,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 190500000AAAAAA | Ammonia solution aromatic | Other preparations |
@@ -83,7 +91,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text are not recorded for it.
+
+<!-- review:begin uk-lic-20261106-ammonia-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report contain one valid single-ingredient licence. Dosage form and indication text are not recorded for it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ammonia-2 -->
 
 ## Safety Considerations
 
@@ -104,6 +120,20 @@ The prediction has a high model score but no supporting trials or publications, 
 - Any preclinical or clinical evidence directly studying acrodermatitis chronica atrophicans
 - Product label details (dosage form, route, indication, warnings and contraindications) for the licensed product
 - Route compatibility assessment and a full safety review before any further evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with a single UK licence recorded in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The data compiled for this report contain one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

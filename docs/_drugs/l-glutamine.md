@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "L-Glutamine"
 predicted_indications: ["drug-induced osteoporosis", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "severe nonproliferative diabetic retinopathy", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
 description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -89,7 +89,15 @@ Indirect clinical signals also exist in chemotherapy- or radiotherapy-induced mu
 
 Two further retrieved papers (a broiler chicken study and a tear fluid amino acid analysis) are not relevant to human dermatitis and are not listed.
 
+<!-- review:begin uk-lic-20261106-l-glutamine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one single-ingredient authorisation (valid status) was identified. The record carries a non-MHRA-style number, and no dosage form text, manufacturer or indication text was supplied, so the UK regulatory details should be verified against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-l-glutamine-2 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -101,6 +109,8 @@ Two further retrieved papers (a broiler chicken study and a tear fluid amino aci
 | 091101000BBQPFF | Solgar L-Glutamine 500mg capsules | Other amino acidandnutritional agent preparations |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -115,12 +125,32 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Rationale:**
 Evidence is L4 at best for dermatitis, and L5 for all other predictions. This is best treated as a research question rather than a candidate for clinical use.
 
+<!-- review:begin uk-lic-20261031-l-glutamine-1 -->
+
+> **Review correction (2026-10-31)**: Originally stated: "The TxGNN scores are high, but the only dermatitis trial was withdrawn with no participants, and the supporting literature is preclinical or indirect (mostly supplement combinations in cancer-therapy skin toxicity). Evidence is L4 at best for dermatitis, and L5 for all other predictions." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-10-31, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261031-l-glutamine-1 -->
+
 **To proceed, the following is needed:**
 - Mechanism-of-action data for L-glutamine
 - Safety information (warnings, contraindications and interactions) from the SmPC and BNF
 - Verified UK authorisation details, including dosage form and approved indication
 - Controlled clinical studies of glutamine in a defined dermatitis population (for example, atopic or contact dermatitis), with the route of administration clarified (oral versus topical)
 - Evidence clarifying whether the dermatitis signal is specific to glutamine rather than to the combination supplements studied
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Removed: "The TxGNN scores are high, but the only dermatitis trial was withdrawn with no participants, and the supporting literature is preclinical or" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "Only one single-ingredient authorisation (valid status) was identified. The record carries a non-MHRA-style number, and no dosage form text," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

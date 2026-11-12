@@ -48,11 +48,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0201010D0AAAAAA | Digitoxin 100microgram tablets | Digitoxin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier appears to be a BNF-style product code (BNF chapter 2.1.1, cardiac glycosides) rather than a standard PL number. Licence-level details such as indication and dosage form are not available.
 

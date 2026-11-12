@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 130
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Captopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension, hypertensive disorder and diabetic nephropathy"
 monitor_inn: "Captopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
@@ -79,7 +79,15 @@ Three other predicted indications were assessed. None has enough evidence to sup
 - **Pulmonary hypertension owing to lung disease and/or hypoxia** (score 0.9915, L5): Only preclinical and indirect findings were retrieved, and most of the retrieved papers appear unrelated. Systemic vasodilators can also worsen ventilation-perfusion matching in hypoxic lung disease.
 - **Pulmonary hypertension with unclear multifactorial mechanism** (score 0.9915, L5): No trials or literature. ACE inhibitors are not an established therapy for pulmonary arterial hypertension.
 
+<!-- review:begin uk-lic-20261106-captopril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 78 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-captopril-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -105,6 +113,8 @@ Three other predicted indications were assessed. None has enough evidence to sup
 | 0205051F0AABPBP | Captopril 20mg/5ml oral liquid | Captopril |
 
 Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -137,6 +147,19 @@ The prediction rests on model proximity and a single diagnostic case report, wit
 - Mechanism of action data and UK label information (SmPC warnings, contraindications, indication text), which are missing from the data compiled for this report
 - A renal safety monitoring plan, including exclusion or careful assessment of renal artery stenosis
 - If a further direction is wanted, review malignant renovascular hypertension as a research question first, using full-text assessment of the retrieved papers
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

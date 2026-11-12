@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data"
@@ -66,6 +66,12 @@ Currently no related clinical trials registered.
 
 None of the publications below tests ranitidine as a treatment for peptic ulcer perforation. They are listed as indirect, contextual evidence.
 
+<!-- review:begin uk-lic-20261106-ranitidine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ranitidine is recorded as marketed in the UK, with one valid single-ingredient licence record in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 62 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ranitidine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [2927479](https://pubmed.ncbi.nlm.nih.gov/2927479/) | 1989 | RCT | N Engl J Med | Randomised trial of nonoperative versus emergency surgical treatment of perforated peptic ulcer; ranitidine was not the intervention under test |
@@ -78,6 +84,8 @@ None of the publications below tests ranitidine as a treatment for peptic ulcer 
 | [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | Case report | Surg Endosc | Giant marginal ulcer, a complication after gastroenterostomy |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -104,6 +112,8 @@ None of the publications below tests ranitidine as a treatment for peptic ulcer 
 
 Showing 20 of 62 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
@@ -126,6 +136,18 @@ The prediction score is high (0.9988), but no registered trials and no study tes
 - Studies that directly test ranitidine in peptic ulcer perforation, for example as an adjunct to surgical or nonoperative management
 - Mechanism of action data and a clear rationale for any role beyond ulcer healing and recurrence prevention
 - Label warnings and contraindications from the SmPC and BNF, and a review of the interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Ranitidine is recorded as marketed in the UK, with one valid single-ingredient licence record in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

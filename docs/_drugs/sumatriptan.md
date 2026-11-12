@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Sumatript
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407041T0AAACAC | Sumatriptan 100mg tablets | Sumatriptan succinate |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Sumatript
 | 0407041T0BDAAAF | Migraitan 50mg tablets | Sumatriptan succinate |
 
 Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

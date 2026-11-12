@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010AGAAADAD | Ziprasidone 20mg capsules | Ziprasidone hydrochloride |
@@ -81,6 +83,8 @@ Currently no related literature available.
 | 0402010AGBBABAB | Zeldox 80mg capsules | Ziprasidone hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code embedded in this record (chapter 4, central nervous system) is consistent with an antipsychotic. Indication text is not recorded in the local data.
 

@@ -96,6 +96,8 @@ The 19 publications identified are mostly case reports and mechanistic studies. 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001040A0AAAAAA | Benzbromarone 100mg tablets | Benzbromarone |
@@ -103,6 +105,8 @@ The 19 publications identified are mostly case reports and mechanistic studies. 
 | 1001040A0BBAAAA | Desuric 100mg tablets | Benzbromarone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above does not follow the usual MHRA format (PL XXXXX/XXXX), so the licensing details should be verified against the MHRA records. The data compiled for this report do not include NICE appraisals or the BNF classification for this product.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefpodoxime: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
@@ -80,6 +80,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021F0AAAAAA | Cefpodoxime 100mg tablets | Cefpodoxime |
@@ -89,7 +91,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier above follows a BNF-style product code (BNF section 5.1.2, cephalosporins) rather than a standard PL number.
+
+<!-- review:begin uk-lic-20261106-cefpodoxime-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The identifier above follows a BNF-style product code (BNF section 5.1.2, cephalosporins) rather than a standard PL number. The record is a single-ingredient product with valid status." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cefpodoxime-1 -->
 
 ---
 
@@ -118,6 +128,19 @@ The prediction rests solely on a TxGNN model (deep learning) score. There are no
 - Preclinical studies (in vitro or animal models) testing any anti-inflammatory or chondroprotective effect
 - Licence indication text and the SmPC warnings and contraindications for the UK product
 - A review of whether the model score reflects only similarities the TxGNN model (deep learning) learned between related diseases, rather than biological evidence, before any clinical investment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

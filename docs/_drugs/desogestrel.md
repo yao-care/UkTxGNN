@@ -92,6 +92,8 @@ The model's prediction is therefore plausible in a limited sense. However, the s
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0703021Q0AAAAAA | Desogestrel 75microgram tablets | Desogestrel |
@@ -116,6 +118,8 @@ The model's prediction is therefore plausible in a limited sense. However, the s
 | 0703010E0BCAAAB | Mercilon 150microgram/20microgram tablets | Combined ethinylestradiol 20mcg |
 
 Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF places this product in the progestogen-only contraceptive group (section 7.3.2.1). No NICE-appraised indication for amenorrhoea was found in the data compiled.
 

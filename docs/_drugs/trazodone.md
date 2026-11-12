@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 636
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -95,6 +95,8 @@ Most of the other retrieved papers are further case reports, reviews or pharmaco
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010X0AAABAB | Trazodone 100mg capsules | Trazodone hydrochloride |
@@ -120,7 +122,15 @@ Most of the other retrieved papers are further case reports, reviews or pharmaco
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF classifies trazodone among antidepressant drugs. NICE-appraised indication details were not available.
+
+<!-- review:begin uk-lic-20261106-trazodone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list only one authorisation, and the number shown is not in the standard MHRA "PL" format, so it should be checked against the MHRA register. The BNF classifies trazodone among antidepressant drugs." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 20 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-trazodone-1 -->
 
 ---
 
@@ -146,6 +156,26 @@ Label-based warnings were not available. Please refer to the SmPC and BNF for fu
 - Mechanism of action data (MOA) from DrugBank
 - UK label information (indications, warnings, contraindications) from the SmPC and BNF
 - A cardiac and interaction risk assessment (QT prolongation, serotonergic combinations) before any use in the new indication
+
+<!-- review:begin uk-lic-20261106-trazodone-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "UK label information (indications, warnings, contraindications) from the SmPC and BNF, plus verification of the authorisation record" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 20 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-trazodone-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list only one authorisation, and the number shown is not in the standard MHRA "PL" format, so it should be" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "plus verification of the authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

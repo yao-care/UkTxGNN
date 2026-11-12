@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency…"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901020D0AAAJAJ | Cyanocobalamin 100microgram tablets | Cyanocobalamin |
@@ -106,7 +108,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is a BNF-style code rather than an MHRA PL number, so the MHRA record should be checked directly.
+
+<!-- review:begin uk-lic-20261106-cyanocobalamin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one single-ingredient product is recorded, and it is currently valid. The identifier shown is a BNF-style code rather than an MHRA PL number, so the MHRA record should be checked directly." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 37 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cyanocobalamin-1 -->
 
 ---
 
@@ -134,6 +144,19 @@ The prediction rests on a model score alone (L5), with no registered trials, no 
 - Label warnings and contraindications from the SmPC and BNF
 - Confirmation of the MHRA authorisation number and approved indication for the listed product
 - Preclinical or biochemical evidence before any clinical study is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

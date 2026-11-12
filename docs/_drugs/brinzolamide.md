@@ -72,6 +72,8 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000ACAAAAAA | Brinzolamide 10mg/ml eye drops | Brinzolamide |
@@ -84,6 +86,8 @@ The TxGNN model produced candidates for Brinzolamide with a score of 0.99 or hig
 | 1106000ALBCAAAB | Xabrixa 10mg/ml / 2mg/ml eye drops | Brinzolamide/brimonidine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

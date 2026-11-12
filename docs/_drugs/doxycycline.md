@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501030I0AAABAB | Doxycycline 100mg capsules | Doxycycline hyclate |
@@ -95,7 +97,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Doxycycline is marketed in the UK. No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed.
+
+<!-- review:begin uk-lic-20261106-doxycycline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracyclines). No indication text is recorded for it in the local data, and no dosage form or manufacturer is listed. The formal licence table is generated separately by the site program." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 21 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-doxycycline-1 -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ The prediction score is very high (0.9994), but no clinical trial or published s
 - Mechanism of action data for doxycycline
 - Label warnings and contraindications, and ocular-route feasibility, since only an oral modified-release formulation is recorded locally
 - Review of how well the disease term fits an infection-triggered presentation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracycl" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

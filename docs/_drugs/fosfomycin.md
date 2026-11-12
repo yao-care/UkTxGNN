@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fosfomycin"
 predicted_indications: ["uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "epiglottitis", "urogenital tuberculosis", "laryngitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "pyelitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fosfomycin: predicted new indication Uterine inflammatory disease (evidence level L5). Approved use: Urinary tract infection"
 ---
 
@@ -85,6 +85,8 @@ The supporting material does not test this idea. The two trials are general paed
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070AEAAADAD | Fosfomycin 3g granules for oral solution sachets | Fosfomycin trometamol |
@@ -96,7 +98,15 @@ The supporting material does not test this idea. The two trials are general paed
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No indication text was supplied, so the approved indication cannot be confirmed from the data compiled for this report. Please check the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-fosfomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient record is listed, and its status is valid. No indication text was supplied, so the approved indication cannot be confirmed from the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fosfomycin-1 -->
 
 ---
 
@@ -125,6 +135,19 @@ No label-based warnings or contraindications were available. Please refer to the
 - Confirmed mechanism of action data and the licensed indication text and dosage form from the SmPC.
 - Label-based warnings and contraindications to replace the knowledge-graph relations.
 - Consideration of a better-supported prediction from the same analysis: **pyelitis** (upper urinary tract infection). It has a Phase 2/3 RCT of intravenous fosfomycin in complicated UTI and acute pyelonephritis ([PMID 30861061](https://pubmed.ncbi.nlm.nih.gov/30861061/)). It is largely an extension of the existing urinary use rather than a new therapeutic area.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient record is listed, and its status is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

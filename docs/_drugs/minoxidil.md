@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Minoxidil"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with connective tissue disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Minoxidil: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Hypertension and alopecia"
 ---
 
@@ -88,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205010N0AAACAC | Minoxidil 10mg tablets | Minoxidil |
@@ -110,7 +112,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 This is the only record found (a single-ingredient product), and it is identified by a BNF-style code rather than a PL number.
+
+<!-- review:begin uk-lic-20261106-minoxidil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only record found (a single-ingredient product), and it is identified by a BNF-style code rather than a PL number. The record carries no approved indication text, so no UK licensed indication can be stated from these data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 17 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-minoxidil-1 -->
 
 ---
 
@@ -144,6 +154,19 @@ The TxGNN score is very high, but the supporting evidence is three small case-le
 - Mechanism of action data and SmPC warnings and contraindications
 - A UK licence record with indication text, and a decision on route (topical versus low-dose oral)
 - A cardiovascular safety plan if oral minoxidil is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record carries no approved indication text, so no UK licensed indication can be stated from these data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

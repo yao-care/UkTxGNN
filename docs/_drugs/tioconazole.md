@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -90,12 +90,16 @@ No publication in the compiled set directly studies vulvitis. The papers below c
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310020T0AAAAAA | Tioconazole 283mg/ml medicated nail lacquer | Tioconazole |
 | 1310020T0BBAAAA | Trosyl 283mg/ml nail solution | Tioconazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,10 +119,28 @@ Please refer to the SmPC and BNF for further safety information. Report suspecte
 - No cited study directly addresses vulvitis, and there are no registered trials, so the prediction rests on model output and indirect candidal data only.
 - The plausible mechanism applies only to a fungal cause, and the UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation.
 
+<!-- review:begin uk-lic-20261106-tioconazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The plausible mechanism applies only to a fungal cause, and the licensed UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tioconazole-1 -->
+
 **To proceed, the following is needed:**
 - Studies or trials that directly test tioconazole in vulvitis, with the cause (candidal or non-infectious) clearly defined
 - Confirmation of an appropriate vulvar or vaginal formulation and route in the UK
 - Warnings and contraindications from the SmPC and BNF, which are not available in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "licensed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

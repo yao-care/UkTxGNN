@@ -79,6 +79,8 @@ No study tests citric acid as a treatment for stomach disease. The most relevant
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 190600000AAANAN | Citric acid monohydrate powder | Other acid preparations |
@@ -91,6 +93,8 @@ No study tests citric acid as a treatment for stomach disease. The most relevant
 | 0704030G0AAACAC | Potassium citrate 1.5g / Citric acid 250mg efferv tab SF | Potassium citrate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

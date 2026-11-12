@@ -93,6 +93,8 @@ The publications retrieved are mainly general reviews and case reports on opport
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0502010C0AAAAAA | Itraconazole 100mg capsules | Itraconazole |
@@ -105,6 +107,8 @@ The publications retrieved are mainly general reviews and case reports on opport
 | 0502010C0BBABAA | Sporanox-Pulse 100mg capsules | Itraconazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF classification code 0502010C relates to itraconazole within the antifungal drugs section (BNF chapter 5, infections).
 

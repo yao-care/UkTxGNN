@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pristinamycin: predicted new indication Disease of retroperitoneum . Urethral disease is the only prediction… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pristinamycin"
 predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
@@ -98,6 +98,8 @@ No publications were found for the other predicted indications.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070Z0AAABAB | Pristinamycin 250mg tablets | Pristinamycin |
@@ -107,7 +109,15 @@ No publications were found for the other predicted indications.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF classification code (0501070Z0) falls within section 5.1 (antibacterial drugs).
+
+<!-- review:begin uk-lic-20261106-pristinamycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The BNF classification code (0501070Z0) falls within section 5.1 (antibacterial drugs). One single-ingredient authorisation is recorded, with valid status." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-pristinamycin-1 -->
 
 ---
 
@@ -131,6 +141,19 @@ Every prediction is at L4 or L5. For the top-ranked prediction (disease of retro
 - For urethral disease, a review of current UK and European guidance on *M. genitalium* and other urethritis. This should establish where pristinamycin sits against existing options, and consider the reported resistance and treatment failures
 - Registered, prospective clinical data (ideally comparative) if a formal repurposing case is to be made
 - Consideration of whether the remaining predictions merit any further work, given that they currently have no supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded, with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

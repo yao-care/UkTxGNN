@@ -90,6 +90,8 @@ Currently no related clinical trials registered for ADHD.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010W0AAAGAG | Pramipexole 1.05mg modified-release tablets | Pramipexole |
@@ -114,6 +116,8 @@ Currently no related clinical trials registered for ADHD.
 | 0409010W0BBAHAH | Mirapexin 2.1mg modified-release tablets | Pramipexole |
 
 Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is as listed in the data and is not in the standard MHRA "PL" format. It should be verified against the MHRA register. Please also consult the BNF and relevant NICE guidance for the licensed indications.
 

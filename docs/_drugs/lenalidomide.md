@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 365
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data"
@@ -108,6 +108,8 @@ No randomised controlled trial publication specific to myeloid leukaemia was ide
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0802040Y0AAABAB | Lenalidomide 10mg capsules | Lenalidomide |
@@ -127,7 +129,15 @@ No randomised controlled trial publication specific to myeloid leukaemia was ide
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Verify the PL number and indications against the MHRA record, the SmPC and NICE appraisals before use.
+
+<!-- review:begin uk-lic-20261106-lenalidomide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code rather than a standard MHRA PL number, and no approved indication text or manufacturer is listed. Verify the PL number and indications against the MHRA record, the SmPC and NICE appraisals before use." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 14 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lenalidomide-1 -->
 
 ---
 
@@ -175,6 +185,19 @@ Multiple completed Phase 2 trials, mostly combination or maintenance studies in 
 The other predicted indications are weaker and should not be prioritised:
 - **Refractory cytopenia of childhood** (0.9935, L3): one Phase 1 paediatric safety study; research question.
 - **Aregenerative anaemia** (0.9932, L3): indirect evidence only; research question.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code rather than a standard MHRA PL number, and no " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

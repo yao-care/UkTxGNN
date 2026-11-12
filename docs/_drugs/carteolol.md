@@ -72,6 +72,8 @@ The TxGNN model produced candidate indications for Carteolol, but every candidat
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000K0AAAAAA | Carteolol 1% eye drops | Carteolol hydrochloride |
@@ -80,6 +82,8 @@ The TxGNN model produced candidate indications for Carteolol, but every candidat
 | 1106000K0BBABAB | Teoptic 2% eye drops | Carteolol hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

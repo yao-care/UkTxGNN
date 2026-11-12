@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Flumethasone: predicted new indication Alopecia areata (evidence level L5). Approved use: Inflammatory skin conditions (e.g. atopic eczema, contact dermatitis…"
 monitor_inn: "flumethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "hereditary hypotrichosis with recurrent skin vesicles", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "primary cutaneous B-cell lymphoma", "alopecia universalis onychodystrophy vitiligo"]
@@ -74,6 +74,8 @@ Other predicted indications were considered, and none has supporting evidence:
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1201010F0AAAAAA | Flumetasone 0.02% / Clioquinol 1% ear drops | Flumetasone pivalate |
@@ -81,7 +83,15 @@ Other predicted indications were considered, and none has supporting evidence:
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The numbers above are as recorded in the data compiled for this report and are not in standard PL format. The products are ear preparations, so any use for scalp or skin conditions would be outside the marketed route and would need a route-compatibility assessment.
+
+<!-- review:begin uk-lic-20261106-flumethasone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient records. The numbers above are as recorded in the data compiled for this report and are not in standard PL format." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-flumethasone-1 -->
 
 ---
 
@@ -108,6 +118,19 @@ The prediction for alopecia areata is biologically plausible at the corticostero
 - A literature and trial search for flumethasone, or comparison with established topical corticosteroids, in alopecia areata
 - Route and formulation assessment, since the marketed products are ear drops
 - Verification of the knowledge-graph contraindication associations against the label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

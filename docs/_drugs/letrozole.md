@@ -79,6 +79,8 @@ None of these publications tests letrozole in nipple carcinoma. They are case re
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803041L0AAAAAA | Letrozole 2.5mg tablets | Letrozole |
@@ -86,6 +88,8 @@ None of these publications tests letrozole in nipple carcinoma. They are case re
 | 0803041L0BBAAAA | Femara 2.5mg tablets | Letrozole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

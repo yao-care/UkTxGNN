@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0208010D0AAAEAE | Enoxaparin sodium 100mg/1ml inj pre-filled syringes | Enoxaparin |
@@ -97,7 +99,15 @@ Currently no related literature available.
 
 Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF chapter code (0208010D0) corresponds to parenteral anticoagulants.
+
+<!-- review:begin uk-lic-20261106-enoxaparin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data show one valid single-ingredient record. The BNF chapter code (0208010D0) corresponds to parenteral anticoagulants." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 41 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-enoxaparin-1 -->
 
 ## Safety Considerations
 
@@ -122,6 +132,19 @@ The prediction score is high and the mechanism is plausible, but no clinical tri
 - SmPC warnings and contraindications for the UK product
 - Assessment of bleeding risk and dosing in neonates and paediatric patients, alongside established protein C replacement options
 - Specialist haematology input on the clinical need and study design
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data show one valid single-ingredient record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

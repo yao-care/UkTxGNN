@@ -92,6 +92,8 @@ None of these publications reports posaconazole as a treatment for pneumocystosi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0502010A0AAABAB | Posaconazole 100mg gastro-resistant tablets | Posaconazole |
@@ -104,6 +106,8 @@ None of these publications reports posaconazole as a treatment for pneumocystosi
 | 0502010A0AAADAD | Posaconazole 300mg/10ml gast res pdr and solvent for susp SF | Posaconazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The code listed appears to be a BNF section/product code (BNF section 5.2.1, triazole antifungals) rather than an MHRA PL number. No NICE-appraised indication data were available.
 

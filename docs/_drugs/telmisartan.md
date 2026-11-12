@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205052Q0AAACAC | Telmisartan 20mg tablets | Telmisartan |
@@ -106,7 +108,15 @@ Currently no related literature available.
 
 Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA record, the SmPC and the BNF for full licensed indications and NICE guidance.
+
+<!-- review:begin uk-lic-20261106-telmisartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only valid single-ingredient authorisation recorded. The record does not give the manufacturer, a PL number or indication text. Please check the current MHRA record, the SmPC and the BNF for full licensed indications and NICE guidance." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 22 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-telmisartan-1 -->
 
 ---
 
@@ -136,6 +146,19 @@ The prediction score from the TxGNN model (deep learning) is very high, but it m
 - A safety assessment for hypotension and for patients with coronary disease.
 
 **Note on other predictions:** Other predictions for telmisartan in the same data are better supported. The most advanced is **intracerebral hemorrhage** (L1, with the Phase 3 TRIDENT trial of a telmisartan-containing triple low-dose pill). It is confounded by the combination design and is a close extension of the existing hypertension and stroke indications. **Cerebral artery occlusion** (L3) has mainly animal data and overlaps with the stroke indications already approved. If a more evidence-based direction is wanted, a separate evaluation of these indications is recommended.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only valid single-ingredient authorisation recorded. The record does not give the manufacturer, a PL number or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

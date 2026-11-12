@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 71
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -108,6 +108,8 @@ One further meta-analysis of aripiprazole or bupropion augmentation (PMID 386692
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010ADAAAEAE | Aripiprazole 10mg orodispersible tablets sugar free | Aripiprazole |
@@ -133,6 +135,8 @@ One further meta-analysis of aripiprazole or bupropion augmentation (PMID 386692
 
 Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF code 0402010 corresponds to antipsychotic drugs. Dosage form, manufacturer and approved indication text were not available for this entry. Please check the current MHRA record and SmPC.
 
 ---
@@ -154,6 +158,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Rationale:**
 Multiple completed, large Phase 3 placebo-controlled trials and several network meta-analyses support adjunctive aripiprazole in major depressive disorder, which fits an L1 evidence level. The safety profile requires careful management.
 
+<!-- review:begin uk-lic-20261106-aripiprazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The UK licence record does not state indications, and the safety profile requires careful management." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 36 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-aripiprazole-1 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the UK licensed indications and current SmPC wording, including whether adjunctive use in depression is within licence
 - Mechanism of action data to replace the general pharmacology link
@@ -167,6 +177,19 @@ Multiple completed, large Phase 3 placebo-controlled trials and several network 
 - **Trichotillomania (score 0.9926, L3):** limited to a small open-label trial (n=12), case reports and one unstarted Phase 2 trial; aripiprazole has also been reported to cause the condition, so this remains a research question.
 - **Hold.**
 - **Eight other predictions** (including Phelan-McDermid syndrome and hydranencephaly): no trials or literature and no plausible mechanistic link. **Hold.**
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "he UK licence record does not state indications, and t" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

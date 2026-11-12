@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010R0AAAGAG | Pimozide 1.25mg/5ml oral suspension | Pimozide |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | 0402010R0BBABAB | Orap 4mg tablets | Pimozide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Pimozide falls within the BNF antipsychotic classification (chapter 4, central nervous system). No NICE appraisal for the predicted indication was identified in the data compiled.
 

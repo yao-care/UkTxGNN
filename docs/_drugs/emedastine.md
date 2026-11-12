@@ -73,12 +73,16 @@ The TxGNN deep-learning model produced candidates for Emedastine, but every cand
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1104020X0AAAAAA | Emedastine 0.5mg/ml eye drops | Emedastine |
 | 1104020X0BBAAAA | Emadine 0.5mg/ml eye drops | Emedastine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

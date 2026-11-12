@@ -72,6 +72,8 @@ The TxGNN model produced no candidate indication for Chloroxylenol with a score 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1311050E0AAACAC | Chloroxylenol 4.8% solution | Chloroxylenol |
@@ -86,6 +88,8 @@ The TxGNN model produced no candidate indication for Chloroxylenol with a score 
 | 131200000BBAAAH | ZeaSORB powder | Other antiperspirant preparations |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

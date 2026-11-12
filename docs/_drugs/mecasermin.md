@@ -81,12 +81,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0607040A0AAAAAA | Mecasermin 40mg/4ml solution for injection vials | Mecasermin |
 | 0607040A0BBAAAA | Increlex 40mg/4ml solution for injection vials | Mecasermin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is a BNF-style product code (BNF section 6.7.4 area), not a standard MHRA PL number. The authorisation number, dosage form detail and indication text should be verified against the MHRA register and the current SmPC.
 

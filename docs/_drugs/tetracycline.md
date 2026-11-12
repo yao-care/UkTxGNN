@@ -117,6 +117,8 @@ Publications are shown for the most-supported predictions.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501030V0AAARAR | Tetracycline 125mg/5ml oral solution | Tetracycline |
@@ -127,6 +129,8 @@ Publications are shown for the most-supported predictions.
 | 1306010W0BBAAAA | Topicycline 2.2mg/ml topical solution | Tetracycline hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification is section 5.1.3 (tetracyclines). The data compiled for this report did not include a PL number or indication text; please verify against the MHRA product listing and the SmPC.
 

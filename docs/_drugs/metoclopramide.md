@@ -94,6 +94,8 @@ Other candidate indications ranked by the model (gastroduodenitis, peptic ulcer 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000P0AAAFAF | Metoclopramide 100mg/20ml solution for injection ampoules | Metoclopramide hydrochloride |
@@ -118,6 +120,8 @@ Other candidate indications ranked by the model (gastroduodenitis, peptic ulcer 
 | 0407041A0BIAAAJ | MigraMax oral powder sachets | Analgesics with anti-emetics |
 
 Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

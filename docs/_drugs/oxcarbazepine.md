@@ -101,6 +101,8 @@ The articles below were retrieved for visual epilepsy. None addresses visual epi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010D0AAACAC | Oxcarbazepine 150mg tablets | Oxcarbazepine |
@@ -114,6 +116,8 @@ The articles below were retrieved for visual epilepsy. None addresses visual epi
 | 0408010D0BBADAE | Trileptal 60mg/ml oral suspension | Oxcarbazepine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier appears to be a BNF-style product code (BNF section 4.8.1, antiepileptic drugs) rather than a PL number. Dosage form and indication text should be confirmed against the SmPC.
 

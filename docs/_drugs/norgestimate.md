@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "norgestimate"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data"
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0703010G0BFAAAC | Cilest 35microgram/250microgram tablets | Combined ethinylestradiol 35mcg |
@@ -80,7 +82,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 BNF classification lies within chapter 7 (obstetrics, gynaecology and urinary-tract disorders), section 7.3.1 (combined hormonal contraceptives), as indicated by the code prefix 0703010. Dosage form and approved indication text were not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-norgestimate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The product is a single-ingredient-listed authorisation record that is currently valid. BNF classification lies within chapter 7 (obstetrics, gynaecology and urinary-tract disorders), section 7.3.1 (combined hormonal contraceptives), as indicated by the code prefix 0703010." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-norgestimate-1 -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ The prediction rests only on a model score, with no trials, no literature and no
 - Evidence that elevated plasma zinc is a clinically meaningful treatment target
 - Any preclinical or observational data linking norgestimate to zinc handling
 - Approved indication text and dosage form for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The product is a single-ingredient-listed authorisation record that is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

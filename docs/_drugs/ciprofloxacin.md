@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,12 @@ Neither study directly demonstrates that ciprofloxacin treats diffuse scleroderm
 
 Currently no related clinical trials registered.
 
+<!-- review:begin uk-lic-20261106-ciprofloxacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid and are single-ingredient products." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 50 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ciprofloxacin-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -76,6 +82,8 @@ Currently no related clinical trials registered.
 | [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Observational | British Journal of Rheumatology | 24 systemic sclerosis patients with malabsorption symptoms investigated for small bowel bacterial overgrowth, including treatment outcome; 6 had the diffuse form |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -102,6 +110,8 @@ Currently no related clinical trials registered.
 
 Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Conditions of concern recorded for ciprofloxacin**: long QT syndrome (including familial), torsades de pointes, epilepsy, kidney disease, potassium deficiency, tendinitis and other tendon disorders (including Achilles bursitis, heel spur, periarthritis), peripheral neuropathy and other peripheral nervous system disease, myasthenia gravis and other neuromuscular junction disease, *Clostridium difficile* colitis, and necrotising enterocolitis in neonates. These come from database relations rather than label text, so check them against the SmPC.
@@ -124,6 +134,19 @@ No cited study directly shows that ciprofloxacin is effective for diffuse sclero
 - A registered, adequately powered randomised trial specifically in diffuse scleroderma
 - Safety assessment for long-term or repeated fluoroquinolone use in scleroderma, including tendon, neurological and cardiac risks
 - Local licence indication text and SmPC warnings to complete the regulatory picture
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid and are single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

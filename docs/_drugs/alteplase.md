@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Alteplase"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alteplase: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0210020V0AAAAAA | Alteplase 10mg inj vials | Alteplase |
@@ -83,7 +85,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No dosage form, manufacturer or indication text is recorded for this licence. Please refer to the current SmPC and BNF for authorised uses.
+
+<!-- review:begin uk-lic-20261106-alteplase-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg vial with diluent) which is currently valid, so the product is marketed in the UK. No dosage form, manufacturer or indication text is recorded for this licence." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alteplase-1 -->
 
 ## Safety Considerations
 
@@ -106,6 +116,19 @@ The prediction score is high, but there are no trials or publications on altepla
 - Mechanism of action data and a clear rationale for a role beyond general thrombolysis
 - A bleeding-risk assessment for this patient group, based on the SmPC warnings and contraindications
 - Confirmation of the authorised indications and dosage form for the UK licence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg vial with diluent) which is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

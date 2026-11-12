@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ethanol: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ethanol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **2**
 > Ethanol is a long-established agent, but no approved indication text is available in the data compiled for this report.
 > The TxGNN model predicts it may be relevant to **migraine disorder**, but there are **no clinical trials** and the retrieved literature mainly describes ethanol as a migraine **trigger**, not a treatment.
 > This prediction should be regarded as unsupported as a repurposing opportunity.
+
+<!-- review:begin uk-lic-20261106-ethanol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "> Ethanol is a long-established agent with one UK marketing authorisation on record, but no approved indication text is available in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ethanol-1 -->
 
 ---
 
@@ -99,6 +105,8 @@ None of the publications below reports ethanol as a treatment for migraine. Seve
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 190100000AAABAB | Ethanol 100% solution for injection 2ml ampoules | Other alcohol, wine and spirit preparations |
@@ -108,6 +116,8 @@ None of the publications below reports ethanol as a treatment for migraine. Seve
 | 190100000AAADAD | Ethanol 90% including duty | Other alcohol, wine and spirit preparations |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -137,6 +147,19 @@ The TxGNN score is high, but there are no clinical trials, and the literature in
 - Mechanism of action data
 - Warnings and contraindications from the SmPC and BNF
 - Any credible clinical or mechanistic evidence of therapeutic benefit in migraine, as opposed to trigger effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with one UK marketing authorisation on record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

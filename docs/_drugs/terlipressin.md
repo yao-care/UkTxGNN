@@ -96,6 +96,8 @@ Of the 20 retrieved publications, the most relevant to pulmonary hypertension ar
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0605020T0AAAAAA | Terlipressin 1mg inj vials | Terlipressin |
@@ -105,6 +107,8 @@ Of the 20 retrieved publications, the most relevant to pulmonary hypertension ar
 | 0605020T0BCABAB | Variquel 1mg/5ml solution for injection vials | Terlipressin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Only one entry is available. It carries a BNF classification code rather than a standard PL number, and the indication text is blank.
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Rheumatoid arthritis, systemic and discoid lupus erythe…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -87,6 +87,8 @@ For closely related JIA terms, the most relevant publications involving chloroqu
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0504010F0AAABAB | Chloroquine phosphate 250mg tablets | Chloroquine phosphate |
@@ -104,7 +106,15 @@ For closely related JIA terms, the most relevant publications involving chloroqu
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 They are listed here by BNF classification code (antimalarials, section 5.4.1); PL numbers and approved indication wording were not available.
+
+<!-- review:begin uk-lic-20261106-chloroquine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both entries are single-ingredient authorisations with valid status. They are listed here by BNF classification code (antimalarials, section 5.4.1); PL numbers and approved indication wording were not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-chloroquine-1 -->
 
 ## Cytotoxicity
 
@@ -131,6 +141,19 @@ The TxGNN score is very high, but there are no clinical trials and no direct chl
 - Controlled efficacy data (or a systematic review) for chloroquine in polyarticular JIA, compared with current standard care
 - A paediatric dosing and safety monitoring plan, including retinal screening and cardiac (ECG) assessment
 - A review of the main interacting drugs likely to be co-prescribed in JIA, such as methotrexate
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both entries are single-ingredient authorisations with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

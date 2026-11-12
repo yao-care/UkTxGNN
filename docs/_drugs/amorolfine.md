@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310020A0AAABAB | Amorolfine 0.25% cream | Amorolfine hydrochloride |
@@ -93,6 +95,8 @@ Currently no related literature available.
 | 1310020A0BFAAAA | Schollmed Fungal Nail Treatment 5% medicated nail lacquer | Amorolfine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the authorisation number above is shown as it appears in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register. Please also confirm the NICE and BNF classification (BNF section on antifungal nail preparations) directly from the BNF.
 

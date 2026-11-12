@@ -71,12 +71,16 @@ Currently no related literature available for pyelonephritis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503040A0BBAAAA | Relenza 5mg inhalation powder blisters with Diskhaler | Zanamivir |
 | 0503040A0AAAAAA | Zanamivir 5mg inhalation powder blisters with device | Zanamivir |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification for this product is within the antiviral chapter (influenza, section 5.3.4).
 

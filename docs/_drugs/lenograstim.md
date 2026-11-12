@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lenograstim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lenograstim"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901060K0AAACAC | Lenograstim 13.4million unit inj pre-filled syringes | Lenograstim |
@@ -89,7 +91,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The dosage form and approved indication text were not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-lenograstim-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded. The dosage form and approved indication text were not available in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lenograstim-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction is supported only by a model score, with no clinical trials or pu
 - Preclinical or mechanistic evidence linking G-CSF receptor signalling to platelet release function
 - A literature and trial search specific to lenograstim or G-CSF in platelet function disorders
 - Confirmation of the authorisation details (dosage form, indication and marketing authorisation holder)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

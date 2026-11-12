@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nimodipine: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Subarachnoid haemorrhage (aneurysmal)"
 monitor_inn: "Nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206020M0AAAAAA | Nimodipine 10mg/50ml solution for infusion vials | Nimodipine |
@@ -81,7 +83,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261106-nimodipine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report lists one valid single-ingredient authorisation. The authorisation identifier above is not in standard MHRA PL format and the approved indication text is not available, so it should be verified against the MHRA register, the SmPC and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-nimodipine-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction rests on a model score alone (evidence level L5). There are no tr
 - A systematic literature and trial registry search (including ISRCTN and EU CTR)
 - Full UK licence details (PL number, dosage form, approved indication) and SmPC warnings and contraindications
 - Review of the established treatments for this condition to judge any realistic added value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

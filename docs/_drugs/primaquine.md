@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,13 +81,23 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0504010K0AAAAAA | Primaquine 7.5mg tablets | Primaquine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register. The BNF lists primaquine among the antimalarials. Myiasis is not an authorised use.
+
+<!-- review:begin uk-lic-20261106-primaquine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This single authorisation is a valid single-ingredient product. The identifier is not in the standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 1 BNF presentation code in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-primaquine-1 -->
 
 ---
 
@@ -116,6 +126,19 @@ The prediction rests on a model score alone, with no trials, no publications and
 - Confirmation of the marketing authorisation details, including the approved indication and dosage form
 
 **Other predictions for this drug (for context):** Malaria and pneumocystosis were assessed as L1 with "Proceed with Guardrails". Malaria is essentially primaquine's existing use, not true repurposing. Pneumocystosis is supported by clindamycin–primaquine as a second-line regimen. Both require G6PD testing before use. Toxoplasmosis is a research question (L4) with only incidental literature support. These would be better candidates for a dedicated evaluation than myiasis.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This single authorisation is a valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

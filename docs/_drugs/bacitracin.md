@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -67,7 +67,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
+<!-- review:begin uk-lic-20261106-bacitracin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are currently valid, and the data compiled for this report contain no indication text for them. Both are classed as single-ingredient records, but the second product name suggests a polymyxin/bacitracin preparation, so it should be checked against the product label before drawing conclusions about bacitracin alone." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-bacitracin-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -77,6 +85,8 @@ Currently no related literature available for punctate epithelial keratoconjunct
 | 1310011W0AAABAB | Polymyxin B 10,000units/g / Bacitracin 500units/g ointment | Polymyxins |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ No trial or publication directly studies bacitracin in punctate epithelial kerat
 - Evidence on the proportion of punctate epithelial keratoconjunctivitis with a bacterial component
 - Licence indication text, dosage forms and SmPC safety information for the UK products
 - Clinical or observational data in this specific condition, ideally separating bacitracin from combination products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are currently valid, and the data compiled for this report contain no indication text for them. Both are classed as sing" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

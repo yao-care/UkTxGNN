@@ -48,12 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070ABAAABAB | Nitazoxanide 100mg/5ml oral suspension | Nitazoxanide |
 | 0501070ABAAAAAA | Nitazoxanide 500mg tablets | Nitazoxanide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style product code rather than an MHRA PL number. The BNF classification (section 5.4.8 range, antiprotozoal drugs) should be confirmed against the current BNF entry.
 

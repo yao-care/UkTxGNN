@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Voriconaz
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0502010D0AAAGAG | Voriconazole 1% eye drops | Voriconazole |
@@ -89,6 +91,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Voriconaz
 | 0502010D0BBABAB | VFEND 50mg tablets | Voriconazole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

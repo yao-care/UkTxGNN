@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Tenoxicam"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenoxicam: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Arthritic joint disease and arthropathy"
 ---
 
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 100101040AAADAD | Tenoxicam 20mg inj vials | Tenoxicam |
@@ -91,7 +93,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261106-tenoxicam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence record contains no approved indication text, dosage form or manufacturer, so the authorised indications cannot be confirmed from the data compiled for this report. Please check the current SmPC and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tenoxicam-1 -->
 
 ---
 
@@ -114,6 +124,19 @@ The prediction has no supporting clinical trials or publications, so the evidenc
 - Confirmed approved indications, dosage form and safety information from the SmPC and BNF
 
 **Note on other predictions for this drug:** Among the other TxGNN predictions, **headache disorder** (score 0.9968) has the most support. It has one Phase 4 trial comparing intravenous tenoxicam with intravenous ibuprofen in acute migraine ([NCT06786650](https://clinicaltrials.gov/study/NCT06786650); 100 participants, active but not recruiting, no results yet). If the team wants to pursue a repurposing question for tenoxicam, that is the more promising direction. The alopecia-related predictions should not be pursued, because the only related publication reports alopecia as a possible adverse effect of tenoxicam ([PMID 9303679](https://pubmed.ncbi.nlm.nih.gov/9303679/)).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence record contains no approved indication text, dosage form or manufacturer, so the authorised indications cannot be confirmed from" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

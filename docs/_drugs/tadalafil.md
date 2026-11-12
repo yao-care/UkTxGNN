@@ -90,6 +90,8 @@ The only publication identified across the predicted indications relates to migr
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704050R0AAAAAA | Tadalafil 10mg tablets | Tadalafil |
@@ -107,6 +109,8 @@ The only publication identified across the predicted indications relates to migr
 | 0704050R0BDAAAB | Talmanco 20mg tablets | Tadalafil |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style code rather than a standard MHRA PL number, and the dosage form is inferred from the product name. Please verify both against the MHRA register and the BNF.
 

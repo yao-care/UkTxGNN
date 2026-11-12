@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0605010S0AABABA | Somatropin (epr) 10mg/1.5ml inj cartridges | Somatropin |
@@ -72,6 +74,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0605010S0AAASAS | Somatropin (rbe) 24mg inj cartridges | Somatropin |
 
 Showing 20 of 80 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above appears to be a BNF-style product code rather than a standard MHRA Product Licence (PL) number. The licence number should be verified against the MHRA register.
 

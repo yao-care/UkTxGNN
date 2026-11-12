@@ -82,6 +82,8 @@ The review "Antiseizure medication-induced obsessive-compulsive disorder and tic
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010ADAAAAAA | Zonisamide 100mg capsules | Zonisamide |
@@ -99,6 +101,8 @@ The review "Antiseizure medication-induced obsessive-compulsive disorder and tic
 | 0408010ADBBACAC | Zonegran 50mg capsules | Zonisamide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier follows the BNF classification code format rather than a standard PL number, so verify it against the MHRA register. BNF chapter 4.8.1 covers antiepileptic drugs. The licence indication text and NICE-appraised indications were not available in the data compiled.
 

@@ -86,6 +86,8 @@ Currently no related clinical trials registered for migraine disorder.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0301030B0AAANAN | Aminophylline 100mg tablets | Aminophylline |
@@ -104,6 +106,8 @@ Currently no related clinical trials registered for migraine disorder.
 | 0301030C0BCACAD | Phyllocontin Paediatric Continus 100mg tablets | Aminophylline hydrate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Stannous Fluoride: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Stannous fluoride"
 predicted_indications: ["meningococcal infection"]
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0905030M0AAABAB | Stannous fluoride 0.4% dental gel sugar free | Stannous fluoride |
@@ -78,7 +80,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Product-level details such as the indication and manufacturer were not available.
+
+<!-- review:begin uk-lic-20261106-stannous_fluoride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The authorisation is recorded as valid and as a single-ingredient product. Product-level details such as the indication and manufacturer were not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-stannous_fluoride-1 -->
 
 ## Safety Considerations
 
@@ -98,6 +108,19 @@ The prediction is supported only by a model score, with no trials or publication
 - Laboratory evidence of activity against *Neisseria meningitidis*, including an assessment of whether any effect is achievable at the site of action
 - The licensed indication and labelled warnings and contraindications for the UK product
 - A clear rationale for any route of administration beyond topical oral use, since topical exposure is unlikely to be relevant to systemic disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The authorisation is recorded as valid and as a single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

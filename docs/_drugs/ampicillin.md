@@ -98,6 +98,8 @@ None of the publications is a randomised trial of ampicillin in laryngitis. The 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501013E0AAAEAE | Ampicillin 125mg/5ml oral suspension | Ampicillin |
@@ -118,6 +120,8 @@ None of the publications is a randomised trial of ampicillin in laryngitis. The 
 | 0501013E0BEAEAF | Penbritin Forte 250mg/5ml syrup | Ampicillin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

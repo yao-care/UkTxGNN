@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -98,6 +98,8 @@ Currently no related literature available for trigeminal nerve neoplasm. The mos
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401020P0AACACA | Lorazepam 1.125mg/5ml oral liquid | Lorazepam |
@@ -123,7 +125,15 @@ Currently no related literature available for trigeminal nerve neoplasm. The mos
 
 Showing 20 of 22 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 NICE appraisal information is not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-lorazepam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation is recorded. The record contains no manufacturer, dosage form field or approved indication text. NICE appraisal information is not available in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 22 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lorazepam-1 -->
 
 ---
 
@@ -169,6 +179,19 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no trials, no literatu
 - For insomnia: lorazepam-specific randomised evidence, and positioning against approved hypnotics, with attention to dependence and tolerance
 - For reflex seizure types: disease-specific case series or registry data
 - A decision on whether to deprioritise trigeminal nerve neoplasm entirely
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation is recorded. The record contains no manufacturer, dosage form field or approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

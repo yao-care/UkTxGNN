@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data (the product's clinical use is gen…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -94,6 +94,8 @@ None of these is a controlled trial in migraine. The evidence is anecdotal or in
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010AJAAACAC | Etoricoxib 120mg tablets | Etoricoxib |
@@ -107,7 +109,15 @@ None of these is a controlled trial in migraine. The evidence is anecdotal or in
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA record and the BNF for the full licensed indications and the product's formal licence (PL) number.
+
+<!-- review:begin uk-lic-20261106-etoricoxib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded. Please check the current MHRA record and the BNF for the full licensed indications and the product's formal licence (PL) number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-etoricoxib-1 -->
 
 ---
 
@@ -133,6 +143,19 @@ The migraine prediction rests on a model score and a plausible COX-2/prostagland
 - Detailed mechanism-of-action data
 - A cardiovascular, renal and blood-pressure risk assessment for the intended population
 - If pursued, prioritising indomethacin-responsive headaches and trigeminal autonomic cephalalgias as the better-supported research question, ideally through a prospective controlled study
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
@@ -96,6 +96,8 @@ Two further trials (NCT02726867, NCT00603135) were withdrawn with no participant
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010A0AAATAT | Levetiracetam 1.5g gran for soln sachets sugar free | Levetiracetam |
@@ -121,7 +123,15 @@ Two further trials (NCT02726867, NCT00603135) were withdrawn with no participant
 
 Showing 20 of 44 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It does not include the intravenous formulation used in status epilepticus.
+
+<!-- review:begin uk-lic-20261106-levetiracetam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation record is available, and it is a tablet product. It does not include the intravenous formulation used in status epilepticus. The record does not state a licence number in MHRA format, dosage form or approved indication, so these should be checked against the SmPC, MHRA and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 44 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-levetiracetam-1 -->
 
 ## Safety Considerations
 
@@ -144,12 +154,32 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Rationale:**
 Large Phase 3 randomised trials (including ESETT with 478 participants) and a UK paediatric RCT (EcLiPSE) directly test levetiracetam in status epilepticus, and the condition is closely related to the approved partial epilepsy use. The evidence level is L1. However, the comparative trials mainly show levetiracetam as one of several comparable options, rather than a clearly superior one.
 
+<!-- review:begin uk-lic-20261106-levetiracetam-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, the comparative trials mainly show levetiracetam as one of several comparable options, rather than a clearly superior one. The UK licensing data compiled for this report are incomplete." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-levetiracetam-2 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the MHRA licensed indications and formulations (especially intravenous) against the SmPC, and of how status epilepticus use sits with NICE and BNF guidance
 - Detailed mechanism of action data (a gap in the compiled data)
 - Package insert warnings and contraindications (a blocking gap in the compiled data) for a formal safety screen
 - Dosing and monitoring guidance for special populations (children, renal impairment, pregnancy)
 - A review of the ESETT and EcLiPSE results for subgroup and safety outcomes, including the psychiatric and haematological signals above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation record is available, and it is a tablet product. The record does not state a licence number in MHRA format, dosage fo" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The UK licensing data compiled for this report are incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

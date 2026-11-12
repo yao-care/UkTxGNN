@@ -93,6 +93,8 @@ None of the retrieved publications studies nicardipine in patients with pulmonar
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206020Q0AAAAAA | Nicardipine 20mg capsules | Nicardipine hydrochloride |
@@ -106,6 +108,8 @@ None of the retrieved publications studies nicardipine in patients with pulmonar
 | 0206020Q0BBADAD | Cardene SR 45mg capsules | Nicardipine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier resembles a BNF-style product code (BNF section 2.6.2, calcium-channel blockers) rather than a standard PL number. Please verify it against the MHRA register.
 

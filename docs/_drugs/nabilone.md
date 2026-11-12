@@ -92,6 +92,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000R0AAAAAA | Nabilone 1mg capsules | Nabilone |
@@ -100,6 +102,8 @@ Currently no related clinical trials registered.
 | 0406000R0AAAHAH | Nabilone 500microgram capsules | Nabilone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Dosage form and indication text are not recorded for this authorisation, so please check the current SmPC and BNF.
 

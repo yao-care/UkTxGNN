@@ -92,6 +92,8 @@ None of these publications tests baclofen in people with ADHD.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1002020C0AAAIAI | Baclofen 10mg tablets | Baclofen |
@@ -116,6 +118,8 @@ None of these publications tests baclofen in people with ADHD.
 | 1002020C0BEAAAB | Lyflex 5mg/5ml oral solution | Baclofen |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Check the current BNF entry and the SmPC for the licensed indications. No NICE appraisal of baclofen for ADHD is included in the data compiled for this report.
 

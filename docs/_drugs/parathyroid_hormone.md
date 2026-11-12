@@ -91,12 +91,16 @@ None of these studies tested PTH as a treatment for migraine.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0606010V0AAAAAA | Parathyroid hormone 1.61mg inj cartridges | Parathyroid hormone |
 | 0606010V0BBAAAA | Preotact 1.61mg inj cartridges | Parathyroid hormone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Only one product entry was found. The BNF classification code begins with chapter 6 (endocrine system), consistent with a parathyroid-related product.
 

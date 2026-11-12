@@ -84,6 +84,8 @@ The table lists the most relevant publications, prioritising controlled trials o
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103020P0AAACAC | Pirenzepine 100mg tablets | Pirenzepine |
@@ -91,6 +93,8 @@ The table lists the most relevant publications, prioritising controlled trials o
 | 0103020P0AAAAAA | Pirenzepine 50mg tablets | Pirenzepine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed code appears to be a BNF-style product code (BNF section 1.3, antisecretory drugs and mucosal protectants) rather than a standard MHRA PL number. Dosage form and approved indication text were not recorded, so the licence details should be checked against the MHRA product information.
 

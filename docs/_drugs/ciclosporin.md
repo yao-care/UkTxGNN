@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -68,7 +68,15 @@ Currently no related clinical trials registered — no predicted indication avai
 
 Currently no related literature available — no predicted indication available for evidence search.
 
+<!-- review:begin uk-lic-20261106-ciclosporin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No marketing authorisation data is available in the evidence pack. **Note:** Ciclosporin is in fact widely authorised and marketed in the United Kingdom under multiple brand names (e.g., Sandimmun, Neoral, Capimune, Deximune). The absence of data here reflects a gap in the evidence pack rather than a true lack of UK market presence. This should be rectified by querying MHRA and BNF sources directly." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ciclosporin-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -95,6 +103,8 @@ Currently no related literature available — no predicted indication available 
 
 Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
@@ -116,9 +126,29 @@ The evidence pack is critically incomplete — there is no DrugBank ID mapping, 
 - **Populate original indication data**: Extract approved indications from MHRA marketing authorisations and BNF entries
 - **Retrieve safety data**: Obtain SmPC warnings, contraindications, and drug interaction profiles
 
+<!-- review:begin uk-lic-20261106-ciclosporin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Retrieve safety data**: Obtain SmPC warnings, contraindications, and drug interaction profiles / **UK regulatory data**: Query MHRA for current marketing authorisation status, as Ciclosporin is known to be marketed in the UK despite the evidence pack showing otherwise" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ciclosporin-2 -->
+
 ---
 
 *This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "No marketing authorisation data is available in the evidence pack. **Note:** Ciclosporin is in fact widely authorised and marketed in the Un" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**UK regulatory data**: Query MHRA for current marketing authorisation status, as Ciclosporin is known to be marketed in the UK despite the " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

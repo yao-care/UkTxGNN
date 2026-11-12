@@ -72,6 +72,8 @@ Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1203040G0AAAAAA | Hexetidine 0.1% mouthwash sugar free | Hexetidine |
@@ -79,6 +81,8 @@ Currently no related literature available for the predicted indication.
 | 1203040G0BBABAA | Oraldene Icemint 0.1% mouthwash | Hexetidine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is as recorded in the data compiled for this report and is not in the standard PL number format. Please verify it against the MHRA register.
 

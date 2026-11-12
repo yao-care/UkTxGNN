@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 209
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L2). Approved use: Chronic myeloid leukaemia, BCR-ABL1 positive (including blast phase)"
 monitor_inn: "Dasatinib"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -97,6 +97,8 @@ No randomised controlled trials in Ewing sarcoma were found.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050ANAAADAD | Dasatinib 100mg tablets | Dasatinib |
@@ -122,7 +124,15 @@ No randomised controlled trials in Ewing sarcoma were found.
 
 Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier appears to be a BNF-style product code rather than a standard PL number, so please check it against the MHRA register. Neither dosage form nor manufacturer is recorded. No NICE appraisal information was available.
+
+<!-- review:begin uk-lic-20261106-dasatinib-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded. The identifier appears to be a BNF-style product code rather than a standard PL number, so please check it against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 24 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dasatinib-1 -->
 
 ---
 
@@ -167,6 +177,19 @@ The Src/FAK rationale is biologically plausible, and dasatinib is already market
 - A paediatric and young-adult safety plan, covering pleural effusion, cytopenias and QT monitoring.
 
 For context, the same data identify **myeloid leukaemia** as the best-supported predicted indication. It carries L1 evidence, including a Phase 3 trial in core-binding factor AML (PMID 41490515). Most of that evidence overlaps with dasatinib's existing CML use, so only the AML data represent genuine repurposing.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

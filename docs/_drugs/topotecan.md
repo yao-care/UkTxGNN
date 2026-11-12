@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -87,6 +87,8 @@ One limitation is that topotecan is a substrate of the efflux transporter BCRP/A
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AFAAADAD | Topotecan 1mg capsules | Topotecan |
@@ -104,7 +106,15 @@ One limitation is that topotecan is a substrate of the efflux transporter BCRP/A
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 NICE appraisal status and the BNF classification should be checked directly.
+
+<!-- review:begin uk-lic-20261106-topotecan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single valid single-ingredient product record, and the licence record provides no dosage form or indication text. NICE appraisal status and the BNF classification should be checked directly." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-topotecan-1 -->
 
 ## Cytotoxicity
 
@@ -139,6 +149,19 @@ The TxGNN score is very high (0.9992), but the supporting evidence for breast ca
 - Mechanism of action data, and exploration of BCRP-related resistance and biomarker selection (for example MYC-driven or triple-negative subtypes)
 - The full SmPC warnings and contraindications and the licence indication text for the UK product, which are missing from the compiled data
 - A population-specific safety and haematological monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single valid single-ingredient product record, and the licence record provides no dosage form or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

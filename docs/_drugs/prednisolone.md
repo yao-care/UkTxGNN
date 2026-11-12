@@ -92,6 +92,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0603020T0AABBBB | Prednisolone 1.5mg/5ml oral liquid | Prednisolone |
@@ -116,6 +118,8 @@ Currently no related clinical trials registered.
 | 0603020T0AABEBE | Prednisolone 2mg/5ml oral suspension | Prednisolone |
 
 Showing 20 of 87 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the number shown is a BNF-style product code rather than a standard PL number, and neither the indication text nor the manufacturer is recorded. Please check the current SmPC and BNF.
 

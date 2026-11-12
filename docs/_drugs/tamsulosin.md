@@ -78,6 +78,8 @@ For context, the ninth-ranked prediction, alopecia, returned two publications. N
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704010U0AAAEAE | Tamsulosin 200microgram oral powder sachets | Tamsulosin hydrochloride |
@@ -102,6 +104,8 @@ For context, the ninth-ranked prediction, alopecia, returned two publications. N
 | 0704010U0BDAAAB | Flomaxtra XL 400microgram tablets | Tamsulosin hydrochloride |
 
 Showing 20 of 42 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -70,12 +70,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Etilefrine, 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0207010G0AAAAAA | Etilefrine 5mg tablets | Etilefrine hydrochloride |
 | 0207010G0BBAAAA | Effortil 5mg tablets | Etilefrine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

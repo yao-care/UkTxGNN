@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704010A0AAADAD | Alfuzosin 10mg modified-release tablets | Alfuzosin hydrochloride |
@@ -91,6 +93,8 @@ Currently no related literature available.
 | 0704010A0BGAAAD | Zufal XL 10mg tablets | Alfuzosin hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the identifier above (which resembles a BNF-style classification code rather than a standard PL number) and the product details should be verified against the MHRA register and the current BNF entry.
 

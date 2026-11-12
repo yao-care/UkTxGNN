@@ -77,6 +77,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Permethrin, 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310040Q0AAAAAA | Permethrin 1% scalp application | Permethrin |
@@ -86,6 +88,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Permethrin, 
 | 1310040Q0BCAAAA | Lythrin 1% creme rinse | Permethrin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

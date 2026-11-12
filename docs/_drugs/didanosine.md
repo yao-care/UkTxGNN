@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010N0AAAFAF | Didanosine 125mg gastro-resistant capsules | Didanosine |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | 0503010N0BBAIAI | Videx EC 400mg capsules | Didanosine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product record. The approved indication text is not available, so the original indications above are not confirmed by licence text.
 

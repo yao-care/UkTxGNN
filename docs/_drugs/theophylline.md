@@ -93,6 +93,8 @@ The retrieved publications are mostly background or methodological papers, not s
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0301030S0AAAHAH | Theophylline 10mg/5ml oral liquid | Theophylline |
@@ -117,6 +119,8 @@ The retrieved publications are mostly background or methodological papers, not s
 | 0301030S0AABJBJ | Theophylline 75mg/5ml oral suspension | Theophylline |
 
 Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This record appears to be a prescribing-classification style code rather than a standard PL number. Please check the MHRA register and the BNF (respiratory system, bronchodilators) for the authorised indications.
 

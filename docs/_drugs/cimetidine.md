@@ -91,6 +91,8 @@ Of the 20 publications retrieved, the most relevant are listed below. None is a 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103010D0AAAKAK | Cimetidine 100mg tablets | Cimetidine |
@@ -115,6 +117,8 @@ Of the 20 publications retrieved, the most relevant are listed below. None is a 
 | 0103010D0BBAAAA | Tagamet 200mg tablets | Cimetidine |
 
 Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

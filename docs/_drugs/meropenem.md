@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Serious bacterial infections…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
@@ -94,6 +94,8 @@ No randomised trials were found. The most relevant of the 20 publications retrie
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501022A0AAABAB | Meropenem 1g powder for solution for injection vials | Meropenem |
@@ -104,7 +106,15 @@ No randomised trials were found. The most relevant of the 20 publications retrie
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the usual PL format, so please check the authorisation details against the MHRA register, the SmPC and the BNF before relying on them.
+
+<!-- review:begin uk-lic-20261106-meropenem-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation listed. The identifier is not in the usual PL format, so please check the authorisation details against the MHRA register, the SmPC and the BNF before relying on them." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-meropenem-1 -->
 
 ---
 
@@ -131,6 +141,19 @@ The prediction score is very high and the antibacterial rationale is plausible. 
 - Confirmation of the UK authorisation details (identifier, dosage form and approved indications) from the SmPC and MHRA register
 - Label-based warnings and contraindications from the SmPC and BNF, including seizure risk and renal dosing
 - A stewardship plan defining when meropenem is appropriate for joint infection, for example after microbiological confirmation of a resistant organism
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation listed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

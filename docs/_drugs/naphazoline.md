@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Naphazoline: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Temporary relief of eye redness"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -84,6 +84,8 @@ For context, the only publication retrieved for any of the top ten predictions r
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1104020R0AAAAAA | Naphazoline 0.012% eye drops | Naphazoline hydrochloride |
@@ -95,7 +97,15 @@ For context, the only publication retrieved for any of the top ten predictions r
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text were not recorded in the data compiled for this report. Please check the current SmPC and BNF entry.
+
+<!-- review:begin uk-lic-20261106-naphazoline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient authorisation record for a witch hazel (hamamelis) and naphazoline eye drop product. Dosage form and indication text were not recorded in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-naphazoline-1 -->
 
 ---
 
@@ -121,6 +131,19 @@ The prediction rests on a model score alone (L5). There are no trials or relevan
 - Mechanism of action data and the product's SmPC (indication, dosage form, warnings and contraindications), which are missing from the data compiled
 - Confirmation of route compatibility, since the licensed product is an ophthalmic preparation and the predicted use would be on the scalp
 - Any clinical or observational evidence in hair disorders before further investment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient authorisation record for a witch hazel (hamamelis) and naphazoline eye drop product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

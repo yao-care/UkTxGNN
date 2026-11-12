@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenofovir: predicted new indication Feline acquired immunodeficiency syndrome (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "tenofovir"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -77,6 +77,8 @@ For context, the related prediction of simian immunodeficiency virus infection i
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503031D0AAAAAA | Tenofovir alafenamide 25mg tablets | Tenofovir alafenamide |
@@ -102,7 +104,15 @@ For context, the related prediction of simian immunodeficiency virus infection i
 
 Showing 20 of 43 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers shown are those in the data compiled for this report and appear to be BNF-style codes rather than MHRA "PL" numbers, so they should be verified against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-tenofovir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient entries. The identifiers shown are those in the data compiled for this report and appear to be BNF-style codes rather than MHRA "PL" numbers, so they should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 43 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tenofovir-1 -->
 
 ## Safety Considerations
 
@@ -125,6 +135,19 @@ The predicted indication is a veterinary disease supported only by two animal st
 - SmPC warnings and contraindications for the UK-authorised products, plus the approved indication text and dosage forms
 - Interaction data
 - If a human question is of interest, a review of the other predicted indications with a clearer human disease link
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient entries" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

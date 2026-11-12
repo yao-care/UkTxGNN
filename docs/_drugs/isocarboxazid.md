@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "schizotypal personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -99,6 +99,8 @@ For context, the literature retrieved for other predicted conditions is listed b
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403020H0AAAAAA | Isocarboxazid 10mg tablets | Isocarboxazid |
@@ -106,7 +108,15 @@ For context, the literature retrieved for other predicted conditions is listed b
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The number appears to be a classification-style code rather than a standard MHRA "PL" number, so it should be verified against the MHRA register. No NICE-appraised indication data were available in the compiled data.
+
+<!-- review:begin uk-lic-20261106-isocarboxazid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient record with valid status. The number appears to be a classification-style code rather than a standard MHRA "PL" number, so it should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-isocarboxazid-1 -->
 
 ---
 
@@ -141,6 +151,19 @@ The top-ranked prediction, benign paroxysmal torticollis of infancy, has only a 
 - Confirmation of the UK licence details (authorisation number, dosage form and approved indication)
 - For any future work, prioritise agoraphobia, phobic disorder or OCD, where class-level plausibility exists, and start with a systematic literature search and controlled studies specific to isocarboxazid
 - A clear safety plan covering dietary tyramine restrictions and drug interactions before considering any new use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient record with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

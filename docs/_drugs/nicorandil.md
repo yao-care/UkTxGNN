@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206030N0AAAEAE | Nicorandil 10mg oral powder sachets | Nicorandil |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 0206030N0BBABAB | Ikorel 20mg tablets | Nicorandil |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

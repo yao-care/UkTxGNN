@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "Bicalutamide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bicalutamide: predicted new indication Hypertrichosis (hypertrichosis (disease)) (evidence level L4). Approved use: Not recorded in the local data"
 ---
 
@@ -62,6 +62,12 @@ Hair growth in the follicle is modulated by androgen signalling. Minoxidil-induc
 
 Currently no related clinical trials registered.
 
+<!-- review:begin uk-lic-20261106-bicalutamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least one single-ingredient licence is currently valid." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-bicalutamide-1 -->
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
@@ -69,6 +75,8 @@ Currently no related clinical trials registered.
 | [35304167](https://pubmed.ncbi.nlm.nih.gov/35304167/) | 2022 | Comment/Letter | Journal of the American Academy of Dermatology | Comment on a retrospective review of 35 patients with female pattern hair loss, in which bicalutamide was used for minoxidil-induced hypertrichosis. No abstract is available. |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -80,6 +88,8 @@ Currently no related clinical trials registered.
 | 0803042A0BBAAAA | Casodex 50mg tablets | Bicalutamide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 
@@ -112,6 +122,18 @@ The mechanism is plausible and a retrospective review has been reported, but the
 - Detailed mechanism of action data
 - A prospective, controlled study in minoxidil-induced hypertrichosis
 - Full safety review against the SmPC, including hepatic monitoring and the major drug interactions listed above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least one single-ingredient licence is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

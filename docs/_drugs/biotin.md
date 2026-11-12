@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -80,6 +80,8 @@ None of these publications provides direct evidence that biotin is effective for
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 090602800AACPCP | Biotin 10mg tablets | Other vitamin B preparations |
@@ -102,7 +104,15 @@ None of these publications provides direct evidence that biotin is effective for
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed number is not in the standard UK "PL" format, so the authorisation details should be verified against the MHRA register. NICE appraisal and BNF classification details were not available.
+
+<!-- review:begin uk-lic-20261106-biotin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient authorisation. The listed number is not in the standard UK "PL" format, so the authorisation details should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 17 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-biotin-1 -->
 
 ## Safety Considerations
 
@@ -127,6 +137,19 @@ The prediction rests only on a high model score. There are no clinical trials, a
 - The SmPC warnings and contraindications for the UK product (currently missing)
 - Verification of the UK authorisation details, including approved indication and dosage form
 - Confirmation of the knowledge-graph contraindication signals against product labelling
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -94,6 +94,8 @@ Literature for related ovarian germ cell tumours is limited to a single case rep
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801010S0AAABAB | Melphalan 2mg tablets | Melphalan |
@@ -106,7 +108,15 @@ Literature for related ovarian germ cell tumours is limited to a single case rep
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA record, the SmPC and the BNF for the licensed indications.
+
+<!-- review:begin uk-lic-20261106-melphalan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation was recorded. Please check the current MHRA record, the SmPC and the BNF for the licensed indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-melphalan-1 -->
 
 ---
 
@@ -147,6 +157,19 @@ There is one completed Phase 2 trial in relapsed germ cell tumours (n=64), but m
 - A review of the safety profile in this population, including renal function, myelosuppression and secondary malignancy risk
 - Confirmation of the formulation and route required (high-dose intravenous melphalan versus the oral 2 mg tablet), since route compatibility has not yet been assessed
 - Specialist oncology and NICE guidance review before any clinical use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation was recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

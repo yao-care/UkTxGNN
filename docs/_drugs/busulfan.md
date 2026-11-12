@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 120
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -106,6 +106,8 @@ Most trials test busulfan as one component of a multi-drug regimen in mixed AML/
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801010B0AAAFAF | Busulfan 25mg capsules | Busulfan |
@@ -118,7 +120,15 @@ Most trials test busulfan as one component of a multi-drug regimen in mixed AML/
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The indication text and manufacturer were not available, so please check the current SmPC and BNF entry for the licensed uses.
+
+<!-- review:begin uk-lic-20261106-busulfan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one single-ingredient product is recorded, and it is currently valid. The indication text and manufacturer were not available, so please check the current SmPC and BNF entry for the licensed uses." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-busulfan-1 -->
 
 ---
 
@@ -168,6 +178,19 @@ Busulfan-based conditioning for MDS is supported by two completed Phase 3 trials
 - Mechanism of action data to complete the mechanistic analysis
 - Use only within combination conditioning regimens, with PK-targeted dosing, intensity matched to age and comorbidity, and monitoring for VOD/SOS, seizures and long-term complications
 - Review of interactions, particularly metronidazole, aprepitant and azole antifungals
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

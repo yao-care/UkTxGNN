@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310020H0AAABAB | Clotrimazole 1% cream | Clotrimazole |
@@ -107,7 +109,15 @@ Currently no related literature available.
 
 Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Approved indication text and dosage form are not recorded for this entry.
+
+<!-- review:begin uk-lic-20261106-clotrimazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clotrimazole is marketed in the UK, with at least one valid single-ingredient authorisation recorded in the local data (Clotrimazole pessary 200 mg). Approved indication text and dosage form are not recorded for this entry." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 53 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clotrimazole-1 -->
 
 ---
 
@@ -131,6 +141,19 @@ The prediction for acne rests on a high model score alone. The single related tr
 - Detailed mechanism of action data to support the proposed link
 - Label warnings and contraindications from the SmPC, and a review of the interaction profile for the intended population and formulation
 - Confirmation that a suitable topical formulation is available for dermatological use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clotrimazole is marketed in the UK, with at least one valid single-ingredient authorisation recorded in the local data (Clotrimazole pessary" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -79,6 +79,8 @@ The retrieved publications are almost all animal or in vitro studies. A selectio
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010Y0AAAAAA | Zidovudine 100mg capsules | Zidovudine |
@@ -95,6 +97,8 @@ The retrieved publications are almost all animal or in vitro studies. A selectio
 | 0503010A0AAAAAA | Zidovudine 300mg / Lamivudine 150mg tablets | Lamivudine and zidovudine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

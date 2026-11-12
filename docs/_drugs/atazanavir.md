@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 76
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "Atazanavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010L0AAACAC | Atazanavir 100mg capsules | Atazanavir |
@@ -98,7 +100,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is in a format that does not look like a standard MHRA "PL" number, so please verify it against the MHRA register and the BNF before relying on it.
+
+<!-- review:begin uk-lic-20261106-atazanavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation record is held. The identifier shown is in a format that does not look like a standard MHRA "PL" number, so please verify it against the MHRA register and the BNF before relying on it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-atazanavir-1 -->
 
 ---
 
@@ -132,6 +142,19 @@ SIV infection is an animal-model disease with no human treatment need, and the o
 ---
 
 **Note on other predicted indications:** The other predictions (feline AIDS, a rare neurodevelopmental disorder, and obsolete familial combined hyperlipidaemia) have no trials or literature and are likely TxGNN model (deep learning) artefacts.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation record is held" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

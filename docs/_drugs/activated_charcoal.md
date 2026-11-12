@@ -5,7 +5,7 @@ layout: default
 title: Activated Charcoal
 parent: Known Uses Only (No New Predictions)
 nav_order: 23
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Activated Charcoal: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Activated charcoal"
 predicted_indications: []
@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1902070E0AAAJAJ | Activated charcoal 1.04g/5ml oral suspension | Charcoal |
@@ -71,7 +73,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers shown are product codes from the compiled data rather than PL numbers. Please check the current MHRA and BNF entries for licensed indications.
+
+<!-- review:begin uk-lic-20261106-activated_charcoal-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both products are listed as valid single-ingredient products. The identifiers shown are product codes from the compiled data rather than PL numbers." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-activated_charcoal-1 -->
 
 ---
 
@@ -91,6 +101,18 @@ The identifiers shown are product codes from the compiled data rather than PL nu
 Please refer to the SmPC and BNF for warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both products are listed as valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

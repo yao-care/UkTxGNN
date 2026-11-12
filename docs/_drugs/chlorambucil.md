@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
 description: "Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -103,6 +103,8 @@ Two further papers (PMIDs 11250989 and 9000608) describe lung cancer and second 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801010F0AAAAAA | Chlorambucil 2mg tablets | Chlorambucil |
@@ -112,7 +114,15 @@ Two further papers (PMIDs 11250989 and 9000608) describe lung cancer and second 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA-approved indications in the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261106-chlorambucil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation was recorded. Please check the current MHRA-approved indications in the SmPC and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-chlorambucil-1 -->
 
 ---
 
@@ -158,6 +168,19 @@ The top-ranked prediction is a molecular subtype of CLL/SLL, a disease where chl
 - Subtype-specific data on chlorambucil in IGHV-mutated and unmutated CLL/SLL, and review against current NICE guidance
 - A focused evidence review for primary pulmonary (MALT) lymphoma if that indication is to be pursued
 - A safety monitoring plan covering myelosuppression, neurotoxicity, secondary malignancy and interaction checks
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation was recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

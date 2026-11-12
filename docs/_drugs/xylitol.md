@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Xylitol: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "xylitol"
 predicted_indications: ["meningococcal infection"]
@@ -62,9 +62,19 @@ One speculative, unverified rationale is that xylitol has been reported to reduc
 
 Invasive meningococcal disease is life-threatening. Xylitol would not be expected to replace antibiotic treatment or vaccination.
 
+<!-- review:begin uk-lic-20261106-xylitol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient authorisation record that is currently valid. The identifier shown is as supplied in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 0 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-xylitol-1 -->
+
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 Not listed in the NHSBSA BNF prescribing code list used for this report.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -88,6 +98,19 @@ The prediction rests only on a computational model. There are no registered tria
 - Preclinical or observational evidence on xylitol and *Neisseria meningitidis* adherence or nasopharyngeal carriage
 - Review of the dental fluorosis contraindication signal
 - Clarification of the intended route and formulation, as route compatibility has not been assessed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient authorisation record that is currently valid. The identifier shown is as supplied in the compiled data and is no" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -82,6 +82,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1003020P0AAAIAI | Ibuprofen 10% gel | Ibuprofen |
@@ -106,6 +108,8 @@ Currently no related literature available.
 | 1003020P0AAACAC | Ibuprofen 5% gel | Ibuprofen |
 
 Showing 20 of 205 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Ibuprofen is classed in the BNF as a non-steroidal anti-inflammatory drug. The authorisation number above is in a format that does not look like a standard MHRA PL number, so it should be verified against the MHRA register. The wider UK ibuprofen product range, including NICE-appraised uses, was not captured in the data compiled for this report.
 

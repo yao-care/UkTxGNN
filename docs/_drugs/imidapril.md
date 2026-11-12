@@ -78,6 +78,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205051W0AAAAAA | Imidapril 10mg tablets | Imidapril hydrochloride |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 0205051W0BBABAB | Tanatril 5mg tablets | Imidapril hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed authorisation number is not in the standard UK PL format, so it should be verified against the MHRA register. Current MHRA and NICE status for imidapril should also be confirmed.
 

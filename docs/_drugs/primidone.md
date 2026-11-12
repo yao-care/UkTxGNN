@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 519
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data"
@@ -99,6 +99,8 @@ The publications below relate to lower-ranked predictions and provide indirect e
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010U0AAATAT | Primidone 100mg/5ml oral suspension | Primidone |
@@ -122,7 +124,15 @@ The publications below relate to lower-ranked predictions and provide indirect e
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown above is a BNF product code rather than a PL number, and the manufacturer and approved indication text were not available.
+
+<!-- review:begin uk-lic-20261106-primidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The product is marketed as a single-ingredient, valid authorisation. The identifier shown above is a BNF product code rather than a PL number, and the manufacturer and approved indication text were not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-primidone-1 -->
 
 ---
 
@@ -162,6 +172,19 @@ The top prediction, trigeminal nerve neoplasm, rests on a model score alone, wit
 - For trigeminal neuralgia: a systematic review or a pilot study of primidone against first-line carbamazepine, including any NICE guidance on neuropathic pain
 - For reflex seizures: case series or registry data showing primidone response in the specific seizure types, since these may fall within the existing epilepsy indication
 - For trigeminal nerve neoplasm and beta-ketothiolase deficiency: no further investment unless a credible mechanistic rationale emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The product is marketed as a single-ingredient, valid authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

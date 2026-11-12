@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000A0AAADAD | Hyoscine 1mg/72hours transdermal patches | Hyoscine |
@@ -106,7 +108,15 @@ Currently no related literature available.
 
 Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text are not captured in the compiled record; please verify against the current MHRA record, SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-scopolamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation, a single-ingredient product, is recorded. Dosage form and indication text are not captured in the compiled record; please verify against the current MHRA record, SmPC and BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-scopolamine-1 -->
 
 ## Safety Considerations
 
@@ -141,6 +151,19 @@ All six predictions are supported only by the TxGNN model, with no clinical tria
 - A systematic literature and trial registry search, prioritising neurogenic bladder, to see whether any evidence exists
 - Complete MHRA authorisation details (dosage form, indication, PL number) and clarification of whether any non-patch formulation would suit the target route
 - For neurogenic bladder, a comparison against peripherally selective antimuscarinics, with attention to central nervous system adverse effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation, a single-ingredient product, is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

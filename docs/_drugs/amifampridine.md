@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -77,6 +77,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 100201000AAADAD | Amifampridine 10mg tablets | Other neuromuscularar transmisson preparations |
@@ -85,7 +87,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Confirm the current UK authorisation details against the MHRA register and the BNF.
+
+<!-- review:begin uk-lic-20261106-amifampridine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The authorisation record in the compiled data carries no dosage-form or indication text, and the number shown is not in MHRA PL format. Confirm the current UK authorisation details against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 3 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amifampridine-1 -->
 
 ---
 
@@ -111,6 +121,19 @@ The prediction rests on a model score alone. No trials or publications address g
 - Mechanism of action data for the compiled record
 - Review of safety in an ophthalmic population, including the SmPC warnings and the interactions listed above
 - Confirmation of UK authorisation details (dosage form, indication) from MHRA records
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The authorisation record in the compiled data carries no dosage-form or indication text, and the number shown is not in MHRA PL format" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

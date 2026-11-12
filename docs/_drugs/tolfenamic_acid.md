@@ -91,12 +91,16 @@ Currently no related clinical trials registered. Most of the studies pre-date tr
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407041U0AAABAB | Tolfenamic acid 200mg tablets | Tolfenamic acid |
 | 0407041U0BBABAB | Clotam Rapid 200mg tablets | Tolfenamic acid |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

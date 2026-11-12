@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 50
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -42,6 +42,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Amiloride HCL is a well-established potassium-sparing diuretic with a long clinical history, typically used in the management of oedema and hypertension. However, this evidence pack contains **no TxGNN-generated repurposing predictions**, and multiple critical data fields — including mechanism of action, and safety data — are either absent or flagged as gaps. A substantive repurposing recommendation **cannot be made** on the basis of this evidence pack alone; remediation of data gaps is required before evaluation can proceed.
 
+<!-- review:begin uk-lic-20261106-amiloride_hcl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, this evidence pack contains **no TxGNN-generated repurposing predictions**, and multiple critical data fields — including UK marketing authorisation records, mechanism of action, and safety data — are either absent or flagged as gaps." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiloride_hcl-1 -->
+
 ---
 
 ## Quick Overview
@@ -57,6 +63,12 @@ Amiloride HCL is a well-established potassium-sparing diuretic with a long clini
 | Recommended Decision | **Hold** |
 
 > ⚠️ **Data Quality Note:** Amiloride is a long-established compound. This must be investigated before any regulatory conclusions are drawn.
+
+<!-- review:begin uk-lic-20261106-amiloride_hcl-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "> ⚠️ **Data Quality Note:** Amiloride is a long-established compound that is expected to hold UK marketing authorisations. A result of zero licences strongly suggests a data ingestion or mapping failure at source, rather than a true absence from the UK market." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiloride_hcl-2 -->
 
 ---
 
@@ -84,9 +96,17 @@ No predicted indication is available in this evidence pack. Literature evidence 
 
 Currently no related literature is available within this evidence pack.
 
+<!-- review:begin uk-lic-20261106-amiloride_hcl-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The evidence pack records **zero UK marketing authorisations** for Amiloride HCL. This is inconsistent with the drug's known regulatory history and is likely the result of a data pipeline error (e.g., failed DrugBank ID linkage — `drugbank_id` is null in the evidence pack)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiloride_hcl-3 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -113,6 +133,8 @@ Currently no related literature is available within this evidence pack.
 
 Showing 20 of 48 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -130,6 +152,12 @@ Please refer to the SmPC and BNF (Section 2.2.3) for full safety information on 
 **Rationale:**
 This evidence pack is critically incomplete: no TxGNN repurposing prediction has been generated, and all safety fields are absent. Proceeding with any repurposing evaluation in the current state would be premature and potentially misleading.
 
+<!-- review:begin uk-lic-20261106-amiloride_hcl-5 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This evidence pack is critically incomplete: no TxGNN repurposing prediction has been generated, the UK marketing authorisation data appears erroneous, and all safety fields are absent." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiloride_hcl-5 -->
+
 **To proceed, the following is needed:**
 
 - **Resolve DrugBank ID mapping** — `drugbank_id` is null; this is likely the root cause of missing MOA, safety, and regulatory data. Query DrugBank using the INN "amiloride" to retrieve the correct identifier (expected: DB00594).
@@ -138,9 +166,32 @@ This evidence pack is critically incomplete: no TxGNN repurposing prediction has
 - **Re-run TxGNN prediction pipeline** — Once the DrugBank ID and regulatory data are resolved, re-run the TxGNN model to generate repurposing candidates with confidence scores.
 - **Re-submit evidence pack** — Once all blocking data gaps (DG001, DG002) are remediated, resubmit for a full evaluation report.
 
+<!-- review:begin uk-lic-20261106-amiloride_hcl-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Re-ingest UK licensing data** — Re-run the MHRA licence lookup with a corrected DrugBank ID or direct INN search to populate UK marketing authorisation records. / **Retrieve mechanism of action (MOA)** — Query DrugBank API for Amiloride HCL's pharmacology record (ENaC blocker / potassium-sparing diuretic) to enable mechanistic plausibility analysis." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 48 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiloride_hcl-4 -->
+
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation prior to any therapeutic application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "UK marketing authorisation records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "that is expected to hold UK marketing authorisations A result of zero licences strongly suggests a data ingestion or mapping failure at sour" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The evidence pack records **zero UK marketing authorisations** for Amiloride HCL. This is inconsistent with the drug's known regulatory hist" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**Re-ingest UK licensing data** — Re-run the MHRA licence lookup with a corrected DrugBank ID or direct INN search to populate UK marketing " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "the UK marketing authorisation data appears erroneous" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diphenhydramine: predicted new indication rosacea conjunctivitis (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -99,6 +99,8 @@ The main caveat is tolerability. Sedation, anticholinergic effects and cognitive
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010N0AAAKAK | Diphenhydramine 10mg/5ml oral solution | Diphenhydramine hydrochloride |
@@ -124,7 +126,15 @@ The main caveat is tolerability. Sedation, anticholinergic effects and cognitive
 
 Showing 20 of 56 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current SmPC and the BNF (antihistamines chapter) for the licensed indications and doses, as well as any relevant NICE guidance.
+
+<!-- review:begin uk-lic-20261106-diphenhydramine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The compiled data holds one valid single-ingredient product record. Please check the current SmPC and the BNF (antihistamines chapter) for the licensed indications and doses, as well as any relevant NICE guidance." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 56 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-diphenhydramine-1 -->
 
 ---
 
@@ -158,6 +168,19 @@ Rhinitis is supported by a large completed trial (n=1021) and several RCTs, but 
 - Comparative effectiveness and safety data against second-generation antihistamines, with specific guardrails for children and older adults
 - Review of the major interactions (potassium citrate, eliglustat) and additive anticholinergic or sedative combinations
 - For the lower-ranked predictions, targeted studies only where a plausible mechanism exists (for example, urticaria in acute settings)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The compiled data holds one valid single-ingredient product record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

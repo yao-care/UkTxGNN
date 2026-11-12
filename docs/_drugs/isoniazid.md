@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -92,6 +92,8 @@ Publications directly relevant to a possible therapeutic role are listed first. 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501090K0AAAIAI | Isoniazid 100mg tablets | Isoniazid |
@@ -117,7 +119,15 @@ Publications directly relevant to a possible therapeutic role are listed first. 
 
 Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown does not follow the usual MHRA "PL" format, so please verify the authorisation details against the MHRA register and the BNF.
+
+<!-- review:begin uk-lic-20261106-isoniazid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient authorisation. The identifier shown does not follow the usual MHRA "PL" format, so please verify the authorisation details against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 47 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-isoniazid-1 -->
 
 ---
 
@@ -151,6 +161,19 @@ The prediction is supported only by a model score and by old, low-level reports 
 - SmPC and BNF warnings and contraindications, and confirmation of the approved indication and dosage form for the UK authorisation
 - Full-text review of the older ocular tuberculosis papers, including the 1971 topical isoniazid report, and any recent clinical data
 - Hepatic risk assessment (including acetylator status) and a review of interactions before any new use is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

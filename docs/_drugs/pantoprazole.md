@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,6 +82,8 @@ The predicted indication is essentially the same as the drug's existing use in p
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103050R0AAABAB | Pantoprazole 20mg gastro-resistant tablets | Pantoprazole |
@@ -96,7 +98,15 @@ The predicted indication is essentially the same as the drug's existing use in p
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown follows a BNF-style coding format rather than a standard PL number, so it should be verified against the MHRA register. In the BNF, pantoprazole is classified among the proton pump inhibitors under gastrointestinal drugs (BNF section 1.3.5).
+
+<!-- review:begin uk-lic-20261106-pantoprazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded, with no cancelled authorisations. The identifier shown follows a BNF-style coding format rather than a standard PL number, so it should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-pantoprazole-1 -->
 
 ## Safety Considerations
 
@@ -121,6 +131,19 @@ The evidence supports pantoprazole in active peptic ulcer disease: a completed P
 - Verification of the NCT02084420 comparator and population, as the trial title is truncated
 - Review of long-term use risks (bone health, vitamin B12 status) and the major interactions (atazanavir, acalabrutinib)
 - Mechanism of action data from an authoritative source
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded, with no cancelled authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

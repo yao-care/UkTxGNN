@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -82,6 +82,8 @@ The TxGNN term "acne (disease)" appears to be conflated with acne inversa (hidra
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1305020A0AAABAB | Acitretin 10mg capsules | Acitretin |
@@ -95,7 +97,15 @@ The TxGNN term "acne (disease)" appears to be conflated with acne inversa (hidra
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and approved indication text are missing, and the number shown is not in the standard UK PL format, so it should be checked against the MHRA record and the BNF.
+
+<!-- review:begin uk-lic-20261106-acitretin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. Dosage form and approved indication text are missing, and the number shown is not in the standard UK PL format, so it should be checked against the MHRA record and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-acitretin-1 -->
 
 ## Cytotoxicity
 
@@ -128,6 +138,19 @@ The only trial retrieved addresses hidradenitis suppurativa, not acne vulgaris, 
 - The original licensed indication, mechanism of action data, and SmPC warnings and contraindications for the UK product
 - A pregnancy prevention plan and monitoring for liver function, lipids and bone effects
 - A comparison with established options such as isotretinoin for acne, or adalimumab and antibiotic regimens for hidradenitis suppurativa
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

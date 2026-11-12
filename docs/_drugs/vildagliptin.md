@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vildagliptin: predicted new indication Focal stiff limb syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601023AAAAAAAA | Vildagliptin 50mg tablets | Vildagliptin |
@@ -90,7 +92,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The number is not in the standard PL format, so it should be checked against the MHRA register. Please also consult the BNF (antidiabetic drugs section) and the current SmPC for the licensed indications.
+
+<!-- review:begin uk-lic-20261106-vildagliptin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation recorded. It is a single-ingredient product with valid status. The number is not in the standard PL format, so it should be checked against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-vildagliptin-1 -->
 
 ---
 
@@ -111,6 +121,19 @@ The prediction rests only on the TxGNN model score. There are no trials, no publ
 - A mechanistic hypothesis linking DPP-4 inhibition (or other vildagliptin targets) to stiff-person-spectrum pathophysiology, with preclinical support
 - Detailed mechanism of action data and full UK labelling information (warnings, contraindications, interactions)
 - A targeted literature and trial registry search for stiff limb syndrome and related disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation recorded. It is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 515
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Prednisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0603020X0AAAEAE | Prednisone 1mg modified-release tablets | Prednisone |
@@ -91,7 +93,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF classification code embedded in the identifier (0603020) corresponds to the corticosteroid section.
+
+<!-- review:begin uk-lic-20261106-prednisone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product, and its status is valid. The BNF classification code embedded in the identifier (0603020) corresponds to the corticosteroid section." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-prednisone-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,18 @@ One randomised, double-blind trial of low-dose prednisone combined with methotre
 - Mechanism of action data for the record
 - Full UK product label data (indication, warnings, contraindications) to complete safety screening
 - A steroid-sparing and monitoring plan (blood pressure, glucose, bone health, eye checks) for repeated or prolonged courses
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product, and its status is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

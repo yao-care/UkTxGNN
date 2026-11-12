@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Calcitriol"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,6 +68,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0906040C0AAAEAE | Calcitriol 1micrograms/1ml solution for injection ampoules | Calcitriol |
@@ -86,7 +88,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No indication text or dosage-form details were recorded in the local licence data. Prescribers should check the current SmPC and the BNF entry for authorised uses and formulations.
+
+<!-- review:begin uk-lic-20261106-calcitriol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show that calcitriol is currently marketed in the UK, with a valid single-ingredient authorisation. No indication text or dosage-form details were recorded in the local licence data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 13 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-calcitriol-1 -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ The prediction score is very high, but there are no trials or publications direc
 - Published clinical evidence in that condition
 - Mechanism of action data
 - Label-based warnings and contraindications from the SmPC and BNF
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show that calcitriol is currently marketed in the UK, with a valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

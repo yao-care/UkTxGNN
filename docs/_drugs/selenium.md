@@ -77,6 +77,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 090504700BBFSBC | 200-SEL tablets | Other selenium preparations |
@@ -101,6 +103,8 @@ Currently no related clinical trials registered.
 | 090504700BCAABC | Selenase 200 XXL tablets | Other selenium preparations |
 
 Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

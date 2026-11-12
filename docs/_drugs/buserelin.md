@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803042B0AAABAB | Buserelin 100micrograms/dose nasal spray | Buserelin |
@@ -94,6 +96,8 @@ Currently no related clinical trials registered.
 | 0803042B0BBAAAA | Suprefact 5.5mg/5.5ml solution for injection vials | Buserelin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

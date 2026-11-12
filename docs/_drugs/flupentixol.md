@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402020G0AAABAB | Flupentixol 100mg/1ml solution for injection ampoules | Flupentixol decanoate |
@@ -96,6 +98,8 @@ Currently no related literature available.
 | 0402020G0BCAEAI | Psytixol 200mg/1ml solution for injection ampoules | Flupentixol decanoate |
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The reference above appears to be a BNF-style product code rather than an MHRA "PL" number. It should be checked against the MHRA register. Flupentixol is classified in BNF chapter 4 (central nervous system, antipsychotic drugs).
 

@@ -50,12 +50,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310011AAAAAAAA | Retapamulin 1% ointment | Retapamulin |
 | 1310011AABBAAAA | Altargo 10mg/g ointment | Retapamulin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be checked against the MHRA register. NICE appraisal and BNF classification details were not available.
 

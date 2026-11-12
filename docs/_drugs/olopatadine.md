@@ -80,6 +80,8 @@ For context, the two articles retrieved for other predicted indications are:
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1104020Z0AAAAAA | Olopatadine 1mg/ml eye drops | Olopatadine |
@@ -89,6 +91,8 @@ For context, the two articles retrieved for other predicted indications are:
 | 1202010Z0BBAAAA | Ryaltris 25micrograms/dose / 600micrograms/dose nasal spray | Mometasone furoate/olopatadine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This entry appears to be a BNF-style product code (BNF chapter 11, eye) rather than a standard MHRA PL number, so the authorisation details should be verified against the MHRA register.
 

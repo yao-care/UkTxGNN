@@ -81,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021A0AAABAB | Cefaclor 125mg/5ml oral suspension | Cefaclor |
@@ -101,6 +103,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefaclor, so
 | 0501021A0BDABAE | Keftid 500mg capsules | Cefaclor |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

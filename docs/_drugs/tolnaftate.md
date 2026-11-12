@@ -74,6 +74,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tolnaftat
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310020Y0AAAKAK | Tolnaftate 0.12% spray | Tolnaftate |
@@ -98,6 +100,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tolnaftat
 | 1310020Y0AAAGAG | Tolnaftate 1% / Benzalkonium chloride 0.1% ointment | Tolnaftate |
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

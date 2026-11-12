@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Telithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "septicemic plague", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Telithromycin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Streptococcal infection, streptococcal pneumonia…"
 ---
 
@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501050T0AAAAAA | Telithromycin 400mg tablets | Telithromycin |
@@ -88,7 +90,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The code resembles a BNF-style classification code rather than a standard PL number, so the authorisation details should be verified against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-telithromycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The listed record is a single-ingredient product and is shown as valid. The code resembles a BNF-style classification code rather than a standard PL number, so the authorisation details should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-telithromycin-1 -->
 
 ---
 
@@ -120,6 +130,19 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 - A benefit-risk assessment given the safety signals above
 
 **Other predictions reviewed:** The remaining top-ranked predictions (hyperamylasaemia, congenital analbuminaemia, blood group incompatibility, premalignant haematological disease, monoclonal gammopathy and others) also have no trials or literature and no supporting mechanism, so all are L5 and Hold. Septicaemic plague is biologically plausible for an antibacterial, but the only retrieved item is a review of a different ketolide (cethromycin), so it remains a research question rather than supported evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The listed record is a single-ingredient product and is shown as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

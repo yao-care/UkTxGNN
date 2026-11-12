@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Domperidone: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report (pharmacol…"
 monitor_inn: "Domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000J0AAALAL | Domperidone 1.9mg/5ml oral suspension | Domperidone |
@@ -95,7 +97,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register. Domperidone is classified in BNF chapter 1 (gastrointestinal system), under drugs affecting gastrointestinal motility.
+
+<!-- review:begin uk-lic-20261106-domperidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record shows one valid single-ingredient product. The identifier shown is in a BNF-style product code format rather than a standard PL number, so the authorisation details should be confirmed against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-domperidone-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The only support is a high TxGNN score. There are no clinical trials or publicat
 - Review of UK SmPC warnings and contraindications, with a cardiac (QT) and hepatic risk assessment
 - Confirmation of the UK licensed indication and authorisation details with the MHRA
 - A literature and trial registry search specific to NSIAD, which is a very rare condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record shows one valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

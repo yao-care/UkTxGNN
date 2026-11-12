@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0902021S0AACGCG | Sodium chloride 0.18% infusion 500ml polyethylene bottles | Sodium chloride |
@@ -96,6 +98,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Sodium Chlor
 | 0902021S0AABMBM | Sodium chloride 0.9% infusion 150ml bags | Sodium chloride |
 
 Showing 20 of 203 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

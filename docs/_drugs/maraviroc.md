@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Maraviroc: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -91,6 +91,8 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010ADAAAAAA | Maraviroc 150mg tablets | Maraviroc |
@@ -106,7 +108,15 @@ Currently no related literature available for multiple endocrine neoplasia.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-maraviroc-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is one valid single-ingredient product. The listed number is a BNF classification code, not a PL number, so the authorisation number should be confirmed against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-maraviroc-1 -->
 
 ---
 
@@ -139,6 +149,19 @@ The prediction for multiple endocrine neoplasia rests on a TxGNN model (deep lea
 - Mechanism of action data to support any mechanistic analysis
 - Preclinical evidence linking CCR5 blockade to MEN biology
 - Consideration of HER2-positive breast carcinoma as a better-supported research question, starting with preclinical validation of CCL5/CCR5 inhibition in trastuzumab resistance
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is one valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

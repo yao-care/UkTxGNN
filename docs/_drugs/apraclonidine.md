@@ -72,6 +72,8 @@ The TxGNN deep-learning model produced candidates for Apraclonidine with a score
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1108020J0AAAAAA | Apraclonidine 1% eye dps 0.25ml unit dose preservative free | Apraclonidine |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model produced candidates for Apraclonidine with a score
 | 1108020J0BBABAB | Iopidine 5mg/ml eye drops | Apraclonidine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

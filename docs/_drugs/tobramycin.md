@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 623
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ Currently no related clinical trials registered for exposure keratitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501040U0AAANAN | Tobramycin 170mg/1.7ml nebuliser liquid ampoules | Tobramycin |
@@ -104,6 +106,8 @@ Currently no related clinical trials registered for exposure keratitis.
 | 1104010I0BFAAAP | Tobradex 3mg/ml / 1mg/ml eye drops | Dexamethasone |
 
 Showing 20 of 24 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Dosage form and indication text were not provided, so NICE-appraised indications cannot be summarised here. Please check the SmPC and BNF.
 
@@ -135,6 +139,12 @@ The prediction score is high, but there are no registered trials and no publishe
 - Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications)
 - Confirmation of which ophthalmic tobramycin formulations are available in the UK
 
+<!-- review:begin uk-lic-20261106-tobramycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications), because the current licence record is incomplete / Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 24 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tobramycin-1 -->
+
 ### Other predictions reviewed
 
 Other high-scoring predictions were considered, and none is stronger than the lead indication:
@@ -144,6 +154,19 @@ Other high-scoring predictions were considered, and none is stronger than the le
 - **Epidemic keratoconjunctivitis (L4)**: the condition is viral and tobramycin has no antiviral activity; any role is limited to secondary bacterial infection.
 - **Infective urethral stricture (L4)**: only a 1976 study in complicated urinary tract infection, which is indirect evidence.
 - **Remaining predictions (L5, no supporting evidence)**: non-human animal disease, postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy and infection-related haemolytic uraemic syndrome. For the last of these, antibiotic use is generally avoided and aminoglycoside nephrotoxicity is a serious concern.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "because the current licence record is incomplete , since the one authorisation on record is a nebuliser solution and not an eye preparation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

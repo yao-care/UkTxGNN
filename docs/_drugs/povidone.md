@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Povidone: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Dry eye syndrome"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1108010T0BBAAAA | Oculotect 5% eye drops 0.4ml unit dose | Povidone K 25 |
@@ -79,7 +81,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers shown appear to be BNF-style product codes rather than standard MHRA "PL" numbers, so please verify them against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-povidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both listings are single-ingredient products with valid status. The identifiers shown appear to be BNF-style product codes rather than standard MHRA "PL" numbers, so please verify them against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-povidone-1 -->
 
 ## Safety Considerations
 
@@ -107,6 +117,19 @@ The prediction is supported only by a TxGNN model (deep learning) score. There a
 - Preclinical or literature evidence of benefit in ichthyosis models or patients
 - Assessment of route compatibility, as the current products are ophthalmic and no topical dermatological formulation has been identified
 - Approved indication text and dosage form details for the UK authorisations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both listings are single-ingredient products with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

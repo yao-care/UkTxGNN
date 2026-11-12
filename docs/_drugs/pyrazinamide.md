@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pyrazinamide: predicted new indication Infectious otitis media (evidence level L5). Approved use: Pulmonary tuberculosis, meningeal tuberculosis, tuberculous meningitis"
 monitor_inn: "Pyrazinamide"
 predicted_indications: ["infectious otitis media", "middle ear disease", "otosalpingitis", "chronic otitis media", "suppurative otitis media", "non-suppurative otitis media", "middle ear cholesterol granuloma", "allergic otitis media", "Lyme disease", "infectious otitis interna"]
@@ -91,6 +91,8 @@ These reports describe pyrazinamide as one component of standard anti-TB therapy
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501090N0AACHCH | Pyrazinamide 1.25g/5ml oral liquid | Pyrazinamide |
@@ -116,7 +118,15 @@ These reports describe pyrazinamide as one component of standard anti-TB therapy
 
 Showing 20 of 35 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF classification code suggests section 5.1.9 (antituberculosis drugs). Please confirm the licensed indication and PL number against the MHRA record and SmPC.
+
+<!-- review:begin uk-lic-20261106-pyrazinamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The single authorisation is a valid single-ingredient product. The BNF classification code suggests section 5.1.9 (antituberculosis drugs)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 35 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-pyrazinamide-1 -->
 
 ---
 
@@ -141,6 +151,19 @@ The prediction has no trials, no direct literature, and no plausible mechanism f
 - Mechanism of action data and licensed indication text for the UK product
 - Verified SmPC warnings and contraindications (the label-based safety data were unavailable)
 - If of interest, clarify whether the aim is simply to support anti-TB therapy in confirmed tuberculous otitis media, which needs no new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The single authorisation is a valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

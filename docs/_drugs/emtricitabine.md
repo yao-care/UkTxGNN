@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 249
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Emtricitabine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Emtricitabine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -84,6 +84,8 @@ The publications are mainly macaque PrEP studies and reviews. Of the 20 retrieve
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010K0AAABAB | Emtricitabine 10mg/ml oral solution sugar free | Emtricitabine |
@@ -109,7 +111,15 @@ The publications are mainly macaque PrEP studies and reviews. Of the 20 retrieve
 
 Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 BNF classification and NICE appraisal details were not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-emtricitabine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record is a single-ingredient product with valid status. BNF classification and NICE appraisal details were not available in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 32 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-emtricitabine-1 -->
 
 ## Safety Considerations
 
@@ -142,6 +152,19 @@ SIV infection is a non-human disease, no clinical trials exist, and the supporti
 **Other predictions in the data (not recommended for progression):**
 - *Feline acquired immunodeficiency syndrome* (score 0.9992): a veterinary indication with a single animal publication (L4); Hold.
 - *Neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter* (score 0.9992): no trials or literature and no plausible mechanistic link (L5); likely a computational artefact; Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

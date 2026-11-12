@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "ipratropium"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
 description: "Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -107,6 +107,8 @@ Only one trial, NCT02177253, is both large and directly relevant. Several others
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0301020I0BEAAAF | Ipratropium 250micrograms/1ml neb liq Steri-Neb ud vials | Ipratropium bromide |
@@ -132,7 +134,15 @@ Only one trial, NCT02177253, is both large and directly relevant. Several others
 
 Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The number shown appears to be a BNF-style code (BNF section 3.1.4, antimuscarinic bronchodilators) rather than an MHRA PL number. No dosage form, manufacturer or indication text is recorded, so this should be checked against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-ipratropium-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record holds one valid single-ingredient authorisation. The number shown appears to be a BNF-style code (BNF section 3.1.4, antimuscarinic bronchodilators) rather than an MHRA PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 38 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ipratropium-1 -->
 
 ---
 
@@ -182,6 +192,18 @@ Ipratropium and ipratropium/salbutamol are well established in COPD, and at leas
 | 8 | Tracheal disease | 0.9966 | L4 | Research question (preclinical evidence only) |
 | 9 | Anaphylaxis | 0.9938 | L4 | Hold (a case report shows the drug can trigger anaphylaxis) |
 | 10 | Food-dependent exercise-induced anaphylaxis | 0.9936 | L5 | Hold (model prediction only) |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record holds one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

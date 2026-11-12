@@ -103,6 +103,8 @@ The table below shows the most relevant publications for the closest-to-label pr
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010T0AAAAAA | Mianserin 10mg tablets | Mianserin hydrochloride |
@@ -113,6 +115,8 @@ The table below shows the most relevant publications for the closest-to-label pr
 | 0403010T0AAAEAE | Mianserin 30mg/5ml oral liquid | Mianserin hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above follows the BNF-style code format rather than a standard PL number. BNF classification (antidepressants, chapter 4.3) should be confirmed against current references.
 

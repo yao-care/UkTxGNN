@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -79,6 +79,12 @@ Currently no related clinical trials registered.
 
 Publications retrieved for osteoarthritis (up to 10 shown). Most address joint infection and not osteoarthritis.
 
+<!-- review:begin uk-lic-20261106-daptomycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded as valid; none are cancelled." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-daptomycin-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Cohort | International Orthopaedics | Safety and efficacy of high-dose daptomycin plus rifampicin in Gram-positive osteoarticular infections |
@@ -96,6 +102,8 @@ Publications retrieved for osteoarthritis (up to 10 shown). Most address joint i
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070Y0AAAAAA | Daptomycin 350mg powder for solution for infusion vials | Daptomycin |
@@ -104,6 +112,8 @@ Publications retrieved for osteoarthritis (up to 10 shown). Most address joint i
 | 0501070Y0BBABAB | Cubicin 500mg pdr for concentrate for inf vials | Daptomycin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -131,6 +141,19 @@ The osteoarthritis prediction rests on model output alone, with no trials and no
 - Confirmation of the approved indication, dosage form and SmPC safety data for the UK product
 - Mechanism of action data
 - If pursuing a research question, rheumatoid arthritis is the more plausible direction: first replicate the 2025 collagen-induced arthritis findings and assess whether intravenous antibiotic dosing and muscle toxicity are acceptable for a chronic inflammatory condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid; none are cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -86,6 +86,8 @@ The two publications retrieved do not directly study dapoxetine in migraine, so 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704060A0AAAAAA | Dapoxetine 30mg tablets | Dapoxetine hydrochloride |
@@ -96,6 +98,8 @@ The two publications retrieved do not directly study dapoxetine in migraine, so 
 | 0704060A0BBABAB | Priligy 60mg tablets (Imported) | Dapoxetine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

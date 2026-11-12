@@ -86,6 +86,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0405020N0AAABAB | Mazindol 1mg tablets | Mazindol |
@@ -94,6 +96,8 @@ Currently no related literature available.
 | 0405020N0BBAAAA | Teronac 2mg tablets | Mazindol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

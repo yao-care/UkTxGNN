@@ -93,6 +93,8 @@ Most other retrieved papers concern contact sensitisation, eosinophilic oesophag
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0302000K0AAAKAK | Budesonide 100micrograms/dose dry powder inhaler | Budesonide |
@@ -117,6 +119,8 @@ Most other retrieved papers concern contact sensitisation, eosinophilic oesophag
 | 0105020A0AAAHAH | Budesonide 500microgram orodispersible tablets sugar free | Budesonide |
 
 Showing 20 of 79 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The product is in the BNF gastrointestinal chapter, consistent with its use in inflammatory bowel disease. No topical formulation for atopic eczema appears in the data.
 

@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1502010S0BBAHAI | Citanest 3% with Octapressin Dental 0.054units/1.8ml inj | Prilocaine hydrochloride |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 1502010S0AAAKAK | Prilocaine 66mg/Felypressin 1.19microg/2.2ml inj cart | Prilocaine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The product is a single-ingredient-type listing for the prilocaine/felypressin combination, classified under the BNF local anaesthetics section (15.2).
 

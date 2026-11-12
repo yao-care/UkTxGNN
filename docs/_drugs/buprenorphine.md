@@ -72,6 +72,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0410030A0AAAUAU | Buprenorphine 128mg/0.36ml prolonged-rel inj pf syringes | Buprenorphine hydrochloride |
@@ -96,6 +98,8 @@ Currently no related clinical trials registered.
 | 0407020B0BEABAI | BuTrans 10micrograms/hour transdermal patches | Buprenorphine |
 
 Showing 20 of 142 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the identifier shown is a product code in the compiled data, not a standard MHRA "PL" number. Please verify it against the MHRA register and the BNF.
 

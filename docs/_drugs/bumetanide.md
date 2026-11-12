@@ -89,6 +89,8 @@ None of these publications studies bumetanide specifically in acute pulmonary he
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0202020D0AAAEAE | Bumetanide 1mg tablets | Bumetanide |
@@ -104,6 +106,8 @@ None of these publications studies bumetanide specifically in acute pulmonary he
 | 0202080C0BBAAAA | Burinex K modified-release tablets | Bumetanide/potassium |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Please check the BNF classification and the current SmPC for the authorised indications. Whether NICE has appraised any indication was not covered by the data compiled for this report.
 

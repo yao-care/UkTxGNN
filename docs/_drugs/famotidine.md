@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103010H0AAACAC | Famotidine 10mg tablets | Famotidine |
@@ -84,6 +86,8 @@ Currently no related clinical trials registered.
 | 0103010H0BDAAAC | Ultra Heartburn Relief 10mg tablets | Famotidine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

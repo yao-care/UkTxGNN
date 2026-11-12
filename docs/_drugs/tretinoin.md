@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 638
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tretinoin: predicted new indication Rheumatoid nodulosis (evidence level L5). Approved use: Acne, acute promyelocytic leukaemia, acquired keratosis…"
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -83,6 +83,8 @@ Currently no related literature available for rheumatoid nodulosis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1306010V0AAALAL | Tretinoin 0.01% gel | Tretinoin |
@@ -108,7 +110,15 @@ Currently no related literature available for rheumatoid nodulosis.
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Note that this is a topical product, whereas the predicted systemic inflammatory indication would likely require a different route of administration; route compatibility has not been assessed.
+
+<!-- review:begin uk-lic-20261106-tretinoin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with valid status. The record carries no PL-format number, manufacturer, or indication text, so the identifier and details should be verified against the MHRA register. Note that this is a topical product, whereas the predicted systemic inflammatory indication would likely require a different route of administration; route compatibility has not been assessed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 21 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tretinoin-1 -->
 
 ---
 
@@ -151,6 +161,19 @@ The prediction rests on the TxGNN score alone (L5). No clinical trials or releva
 - Verified MHRA licence details (PL number, formulation, approved indications) and an assessment of route compatibility
 - A safety review covering systemic retinoid risks, particularly teratogenicity, and the major interactions listed above
 - Complete warnings and contraindication data from the SmPC and BNF
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with valid status. The record carries no PL-format number, manufacturer, or indication text, so the iden" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

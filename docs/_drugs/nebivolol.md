@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nebivolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
@@ -76,6 +76,8 @@ Currently no related literature available for the top predicted indication (mali
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0204000ABAAADAD | Nebivolol 1.25mg tablets | Nebivolol |
@@ -87,7 +89,15 @@ Currently no related literature available for the top predicted indication (mali
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the current MHRA record, the SmPC and the BNF for the full licensed indications and the product's formal authorisation number.
+
+<!-- review:begin uk-lic-20261106-nebivolol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient authorisation. Please check the current MHRA record, the SmPC and the BNF for the full licensed indications and the product's formal authorisation number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-nebivolol-1 -->
 
 ## Safety Considerations
 
@@ -116,6 +126,19 @@ The prediction is supported by model output only (L5). There are no clinical tri
 - Clinical or observational evidence in malignant hypertensive renal disease or renovascular hypertension
 - Assessment of whether an oral beta-blocker has any plausible role in the acute setting
 - Confirmation of the licensed indication and authorisation details from the MHRA record
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

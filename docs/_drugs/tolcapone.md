@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tolcapone: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Tolcapone"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
@@ -76,6 +76,8 @@ For the related prediction of Lewy body dementia, one preclinical publication wa
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010S0AAAAAA | Tolcapone 100mg tablets | Tolcapone |
@@ -83,7 +85,15 @@ For the related prediction of Lewy body dementia, one preclinical publication wa
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown does not follow the usual MHRA "PL" format, so check it against the MHRA database. Please confirm the current licensed indication and BNF classification in the SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-tolcapone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. The identifier shown does not follow the usual MHRA "PL" format, so check it against the MHRA database." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tolcapone-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction for Rasmussen subacute encephalitis rests on a model score alone,
 - Label warnings and contraindications from the SmPC and BNF
 - A liver safety monitoring plan
 - If a repurposing direction is pursued, consider Lewy body dementia as a better-founded research question, supported by preclinical work and a shared dopaminergic rationale
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

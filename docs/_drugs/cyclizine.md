@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cyclizine"
 predicted_indications: ["allergic urticaria", "nasal cavity disease", "cold urticaria", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -78,6 +78,8 @@ Currently no related literature available for allergic urticaria.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000F0AABABA | Cyclizine 10mg/5ml oral liquid | Cyclizine hydrochloride |
@@ -103,7 +105,15 @@ Currently no related literature available for allergic urticaria.
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed code (0406000F0AAACAC) resembles a BNF-style product code rather than a PL number, so the authorisation number should be checked against MHRA records.
+
+<!-- review:begin uk-lic-20261106-cyclizine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient licence for cyclizine. The listed code (0406000F0AAACAC) resembles a BNF-style product code rather than a PL number, so the authorisation number should be checked against MHRA records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cyclizine-1 -->
 
 ---
 
@@ -130,6 +140,19 @@ The prediction has a high model score (0.9998), and H1 blockade is mechanistical
 - Label-based warnings and contraindications from the SmPC and BNF
 - Verification of the MHRA authorisation number, dosage form and approved indication text
 - A review of interaction risks, especially additive anticholinergic and sedative effects
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient licence for cyclizine" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

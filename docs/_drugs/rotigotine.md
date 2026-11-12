@@ -76,6 +76,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010Z0AAAFAF | Rotigotine 1mg/24hours transdermal patches | Rotigotine |
@@ -94,6 +96,8 @@ Currently no related clinical trials registered.
 | 0409010Z0BBAEAE | Neupro transdermal patches treatment initiation pack | Rotigotine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The record corresponds to BNF section 4.9.1 (drugs used in Parkinsonism). The number shown is a classification-style code rather than a standard PL number.
 

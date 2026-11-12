@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 Charcoal is a pharmaceutical-grade adsorbent agent used in emergency medicine for acute poisoning and drug overdose management.
 This Evidence Pack contains **no TxGNN-generated repurposing predictions** and is missing critical data fields including DrugBank linkage, mechanism of action.
 A full repurposing evaluation cannot be completed in the current state; this report documents what is available and outlines the steps required to proceed.
+
+<!-- review:begin uk-lic-20261106-charcoal-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This Evidence Pack contains **no TxGNN-generated repurposing predictions** and is missing critical data fields including DrugBank linkage, mechanism of action, and UK marketing authorisation records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-charcoal-1 -->
 
 ---
 
@@ -82,6 +88,8 @@ Currently no related literature available for this candidate's predicted indicat
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1902070E0AAAJAJ | Activated charcoal 1.04g/5ml oral suspension | Charcoal |
@@ -103,7 +111,15 @@ Currently no related literature available for this candidate's predicted indicat
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua).
+
+<!-- review:begin uk-lic-20261106-charcoal-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: activated charcoal formulations **are** commercially available in the United Kingdom under several brand names (e.g., CharcoAid, Actidose-Aqua). The automated pull may have failed to match the queried drug name to MHRA product records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-charcoal-2 -->
 
 Manual verification against the MHRA product licence database using the INN "activated charcoal" and known brand name variants is strongly recommended before concluding that no UK authorisation exists.
 
@@ -131,9 +147,30 @@ The Evidence Pack is structurally incomplete — no TxGNN prediction output is p
 - **Re-run evidence collection** (ClinicalTrials.gov, PubMed, ICTRP) once a top-ranked predicted indication is available
 - **Re-issue this report** once a complete Evidence Pack (v5 or later) is available
 
+<!-- review:begin uk-lic-20261106-charcoal-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Verify UK marketing authorisations manually** via the [MHRA products database](https://products.mhra.gov.uk/) searching by "activated charcoal" and known brand names, to correct the apparent zero-licence result" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-charcoal-3 -->
+
 ---
 
 > ⚠️ **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidates identified require clinical validation before therapeutic application.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and UK marketing authorisation records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "No marketing authorisations are recorded for **Charcoal** in this Evidence Pack. This is likely a data collection artefact: a The automated " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "to correct the apparent zero-licence result" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

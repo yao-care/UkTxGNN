@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 564
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Selegiline"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "schizophrenia", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies"]
 description: "Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data"
@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010T0AAAKAK | Selegiline 1.25mg oral lyophilisates sugar free | Selegiline hydrochloride |
@@ -87,7 +89,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The indication text for this product was not available, so UK-authorised uses should be confirmed against the current SmPC and BNF (Parkinson disease is the established use).
+
+<!-- review:begin uk-lic-20261106-selegiline-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded, and none are cancelled. The indication text for this product was not available, so UK-authorised uses should be confirmed against the current SmPC and BNF (Parkinson disease is the established use)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-selegiline-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 - A full interaction and safety review against the SmPC and BNF
 
 **Note for portfolio review:** Within the same drug, the second-ranked prediction, **schizophrenia** (score 0.9914), has considerably more supporting evidence. It has one completed early-phase trial (NCT00456976, n=70) on selegiline augmentation for negative symptoms, plus a 2023 systematic review and meta-analysis and several placebo-controlled studies. It is rated L3 and is better suited to follow-up as a research question.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded, and none are cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

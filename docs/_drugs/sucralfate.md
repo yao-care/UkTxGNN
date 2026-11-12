@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 579
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L2). Approved use: Duodenal ulcer"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -94,6 +94,8 @@ The abstracts available in the data do not report outcome results, so efficacy c
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103030S0AAAAAA | Sucralfate 1g tablets | Sucralfate |
@@ -112,7 +114,15 @@ The abstracts available in the data do not report outcome results, so efficacy c
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the usual PL format, and dosage form and indication text are not recorded, so please verify the entry against the MHRA register and the BNF.
+
+<!-- review:begin uk-lic-20261106-sucralfate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation in the data compiled for this report (single-ingredient, valid). The identifier is not in the usual PL format, and dosage form and indication text are not recorded, so please verify the entry against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 13 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sucralfate-1 -->
 
 ---
 
@@ -137,6 +147,12 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Rationale:**
 Two small randomised trials and several smaller clinical studies examine sucralfate in alkaline reflux gastritis, and the mechanism is plausible. However, the trials are small and old, no trials are registered, the results are not reported in the available abstracts. This supports further investigation, not a change in practice.
 
+<!-- review:begin uk-lic-20261106-sucralfate-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, the trials are small and old, no trials are registered, the results are not reported in the available abstracts, and the UK licence record is incomplete." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sucralfate-2 -->
+
 **To proceed, the following is needed:**
 - Review of the full texts of the two RCTs (PMIDs 3839973 and 12923369) for outcomes and effect sizes
 - Mechanism of action data (currently missing)
@@ -144,6 +160,20 @@ Two small randomised trials and several smaller clinical studies examine sucralf
 - A verified MHRA licence record with dosage form and approved indication
 - A plan for managing interactions, including dose separation from interacting drugs
 - Any new trial would need a defined patient group (for example, post-gastric surgery or post-cholecystectomy) and clear symptom and histological endpoints
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report (single-ingredient, valid)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "and the UK licence record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

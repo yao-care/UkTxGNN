@@ -72,6 +72,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206020B0AAAAAA | Trimetazidine 20mg tablets | Trimetazidine hydrochloride |
@@ -80,6 +82,8 @@ The TxGNN deep-learning model has no candidate indication with a score of 0.99 o
 | 0206020B0BBABAB | Vastarel MR 35mg tablets | Trimetazidine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

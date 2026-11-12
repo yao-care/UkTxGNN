@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Azathioprine: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
@@ -97,6 +97,12 @@ These two predictions are much better supported than the top-ranked one. Both ar
 
 **Selected literature**
 
+<!-- review:begin uk-lic-20261106-azathioprine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation record in the data compiled for this report. The record carries no dosage-form or indication text, so please check the current MHRA-authorised SmPC and the BNF for the licensed indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 50 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-azathioprine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Cochrane review | Cochrane Database Syst Rev | Updated review of azathioprine and 6-mercaptopurine for maintaining remission in ulcerative colitis |
@@ -108,6 +114,8 @@ These two predictions are much better supported than the top-ranked one. Both ar
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -133,6 +141,8 @@ These two predictions are much better supported than the top-ranked one. Both ar
 | 0802010G0AAADAD | Azathioprine 25mg tablets | Azathioprine |
 
 Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -164,6 +174,19 @@ For full safety information, please refer to the SmPC and BNF. Report suspected 
 - Detailed mechanism-of-action data for azathioprine.
 - Licensed indications and dosage-form details from the current MHRA SmPC and BNF.
 - For IBD/UC: confirmation of current UK guideline positioning, such as NICE and BSG, and a TPMT/NUDT15 testing and monitoring protocol.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation record in the data compiled for this report. The record carries no dosage-form or indication text, so please " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

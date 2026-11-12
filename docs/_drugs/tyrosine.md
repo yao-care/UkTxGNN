@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tyrosine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the available marketing authorisation data"
 monitor_inn: "Tyrosine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -89,6 +89,12 @@ Currently no related literature available for cauda equina syndrome.
 
 The most relevant items found for other predictions are shown below. None tests tyrosine as a treatment.
 
+<!-- review:begin uk-lic-20261106-tyrosine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This record is a single valid single-ingredient authorisation. Its number does not follow the standard MHRA "PL XXXXX/XXXX" format, so the product details should be verified against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tyrosine-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [39063020](https://pubmed.ncbi.nlm.nih.gov/39063020/) | 2024 | Case report | Int J Mol Sci | Stress-related chronic fatigue syndrome responding to alpha-methyl-p-tyrosine, a tyrosine hydroxylase inhibitor. Indirect and pharmacologically opposite to tyrosine (POTS prediction). |
@@ -99,6 +105,8 @@ The most relevant items found for other predictions are shown below. None tests 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 091101000AAFEFE | Tyrosine 500mg capsules | Other amino acidandnutritional agent preparations |
@@ -108,6 +116,8 @@ The most relevant items found for other predictions are shown below. None tests 
 | 0913213A0BCAAAB | Tyrosine1000 oral powder 4g sachets | Powder single L-amino acid supplement (0913213) |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -127,6 +137,19 @@ All ten predictions rest on model scores alone (L5, with one L4 for POTS). None 
 - Mechanism of action data
 - A clearly defined original indication to anchor the repurposing rationale
 - Direct clinical or mechanistic evidence for tyrosine in any candidate indication. POTS, with its catecholamine rationale, would be the most plausible one to explore first.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This record is a single valid single-ingredient authorisation. Its number does not follow the standard MHRA "PL XXXXX/XXXX" format, so the p" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 187
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Clozapine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data"
@@ -79,6 +79,8 @@ An important caveat is that the available evidence concerns bipolar disorder bro
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010C0AAAKAK | Clozapine 100mg orodispersible tablets sugar free | Clozapine |
@@ -104,7 +106,15 @@ An important caveat is that the available evidence concerns bipolar disorder bro
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It sits in the BNF antipsychotic chapter (code prefix 0402010).
+
+<!-- review:begin uk-lic-20261106-clozapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local data. It sits in the BNF antipsychotic chapter (code prefix 0402010)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 31 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clozapine-1 -->
 
 ## Safety Considerations
 
@@ -127,6 +137,18 @@ A completed Phase 2 trial in treatment-resistant mania and a systematic review a
 - Clozapine blood monitoring (neutrophil counts) plus metabolic and cardiac monitoring plans
 - Interaction review for patients taking antidiabetic, anticholinergic or other interacting medicines
 - Review of the SmPC warnings, as labelled safety text was not available in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 604
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -102,6 +102,8 @@ Further publications include reviews of PrEP (PMID 20874040, 22964889), a pharma
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010H0AAACAC | Tenofovir disoproxil 123mg tablets | Tenofovir disoproxil |
@@ -127,7 +129,15 @@ Further publications include reviews of PrEP (PMID 20874040, 22964889), a pharma
 
 Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier appears to be a BNF-style product code rather than an MHRA "PL" number, so it should be checked against the MHRA register. Dosage form, manufacturer and approved indication text are not recorded, and NICE appraisal information is not available here.
+
+<!-- review:begin uk-lic-20261106-tenofovir_disoproxil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. The identifier appears to be a BNF-style product code rather than an MHRA "PL" number, so it should be checked against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 25 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tenofovir_disoproxil-1 -->
 
 ---
 
@@ -156,6 +166,19 @@ The only supported prediction (SIV infection) rests entirely on preclinical maca
 - Remapping the obsolete hyperlipidaemia term and reviewing the other low-evidence predictions
 - Mechanism of action data and label-based safety data (warnings, contraindications, interactions) from the SmPC and BNF
 - Verification of the UK authorisation record (MHRA PL number, dosage form, approved indication)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

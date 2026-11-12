@@ -89,6 +89,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0702010F0AAAEAE | Estriol 0.01% vaginal cream | Estriol |
@@ -112,6 +114,8 @@ Currently no related clinical trials registered.
 | 0604011J0BBAAAA | Trisequens tablets | Estradiol and estriol with progestogen |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

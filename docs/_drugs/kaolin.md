@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Kaolin, so t
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 190400000AALKLK | Kaolin light powder | Other single substance preparations |
@@ -87,6 +89,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Kaolin, so t
 | 0104010H0AAACAC | Kaolin mixture paediatric | Kaolin light |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -88,6 +88,8 @@ Currently no related clinical trials registered for tendinitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010AEAAADAD | Pregabalin 100mg capsules | Pregabalin |
@@ -112,6 +114,8 @@ Currently no related clinical trials registered for tendinitis.
 | 0408010AEAAABAB | Pregabalin 50mg capsules | Pregabalin |
 
 Showing 20 of 72 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -74,6 +74,14 @@ Currently no related literature available.
 
 The licence numbers below are shown exactly as held in the data compiled for this report. They are not in the MHRA "PL" format, so verify them against the MHRA register. Approved indication text was not available for any product.
 
+<!-- review:begin uk-lic-20261106-indomethacin-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Six single-ingredient indomethacin products are recorded as valid. The licence numbers below are shown exactly as held in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 39 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-indomethacin-2 -->
+
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010K0AAATAT | Indometacin 1.2mg/5ml oral liquid | Indometacin |
@@ -99,6 +107,8 @@ The licence numbers below are shown exactly as held in the data compiled for thi
 
 Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 **Contraindication signals (from the knowledge graph, not label text):**
@@ -110,6 +120,12 @@ The TxGNN knowledge graph links indomethacin to contraindications in the followi
 - **Respiratory:** asthma (including intrinsic and allergic)
 - **Neurological and psychiatric:** epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder
 - **Other:** infectious disease
+
+<!-- review:begin uk-lic-20261106-indomethacin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "A sixth authorisation, Indolar SR Cap 75mg (1001010K0BGADAD), is also recorded as valid." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 39 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-indomethacin-1 -->
 
 **Drug interactions:**
 A total of 252 interactions were recorded. Examples include:
@@ -132,6 +148,20 @@ The prediction is based only on a model score. There are no trials or publicatio
 - A risk-benefit assessment for the likely paediatric or young patient population
 
 For comparison, the same data includes a more evidence-supported prediction, **juvenile idiopathic arthritis** (L3, with literature that is mostly historical reviews). That prediction may warrant a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "A sixth authorisation, Indolar SR Cap 75mg (1001010K0BGADAD), is also recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "Six single-ingredient indomethacin products are recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

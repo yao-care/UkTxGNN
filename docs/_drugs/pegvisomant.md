@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0605010Z0AAAAAA | Pegvisomant 10mg inj vials | Pegvisomant |
@@ -62,6 +64,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0605010Z0BBAEAE | Somavert 30mg inj vials | Pegvisomant |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier follows the BNF-style code format (BNF chapter 6, endocrine system) rather than a standard MHRA PL number, so the MHRA authorisation details should be verified. No NICE-appraised indication data were available.
 

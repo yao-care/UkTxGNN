@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407020C0AAALAL | Codeine 10mg suppositories | Codeine phosphate |
@@ -106,6 +108,8 @@ Currently no related clinical trials registered.
 | 0407020C0AAAFAF | Codeine 60mg tablets | Codeine phosphate |
 
 Showing 20 of 91 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

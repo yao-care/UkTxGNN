@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 424
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data"
@@ -104,6 +104,8 @@ Most other studies in the data are in bronchiolitis, a different condition, and 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0303020G0AAABAB | Montelukast 10mg tablets | Montelukast |
@@ -118,7 +120,15 @@ Most other studies in the data are in bronchiolitis, a different condition, and 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The number shown is a BNF-style product code, not a PL number. Please refer to the BNF (section 3.3.2, leukotriene receptor antagonists) and the current SmPC for licensed indications.
+
+<!-- review:begin uk-lic-20261106-montelukast-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Montelukast is marketed in the UK, with one valid single-ingredient authorisation recorded." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 9 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-montelukast-1 -->
 
 ---
 
@@ -143,6 +153,18 @@ The mechanistic rationale is plausible, and two small controlled trials in bronc
 - Detailed mechanism of action data
 - Review of the current SmPC warnings and contraindications for the intended population, particularly children
 - Review of the recorded drug interactions against likely co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Montelukast is marketed in the UK, with one valid single-ingredient authorisation recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

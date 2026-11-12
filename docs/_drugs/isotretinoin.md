@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1306010M0AAAAAA | Isotretinoin 0.05% gel | Isotretinoin |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 1306020J0BBAAAA | Roaccutane 5mg capsules | Isotretinoin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: this licence identifier is not in the standard MHRA "PL XXXXX/XXXX" format, so it should be verified against the MHRA register before any further use.
 

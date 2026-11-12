@@ -79,6 +79,8 @@ Currently no related literature available for drug-induced osteoporosis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0505020L0AAAFAF | Levamisole 25mg tablets | Levamisole hydrochloride |
@@ -87,6 +89,8 @@ Currently no related literature available for drug-induced osteoporosis.
 | 0505020L0BCAAAB | Ergamisol 50mg tablets | Levamisole hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This is a single-ingredient product record. The list is complete (1 of 1). The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register.
 

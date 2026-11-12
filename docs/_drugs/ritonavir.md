@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 546
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ritonavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data"
@@ -85,6 +85,8 @@ Several of these studies concern antiretroviral regimens generally rather than r
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010U0AAAAAA | Ritonavir 100mg capsules | Ritonavir |
@@ -110,7 +112,15 @@ Several of these studies concern antiretroviral regimens generally rather than r
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Within the BNF, ritonavir sits in the HIV protease inhibitor group (chapter 5, infections).
+
+<!-- review:begin uk-lic-20261106-ritonavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded as valid. Within the BNF, ritonavir sits in the HIV protease inhibitor group (chapter 5, infections)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 20 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ritonavir-1 -->
 
 ## Safety Considerations
 
@@ -137,6 +147,19 @@ SIV infection is a non-human primate research model, not a human indication, and
 - Mechanism of action data (DrugBank) and the approved indication text from the SmPC
 - SmPC and BNF warnings and contraindications (a blocking gap for safety screening)
 - A review of the two other predictions (feline AIDS and the neurodevelopmental disorder), which currently have no supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

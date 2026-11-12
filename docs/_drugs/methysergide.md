@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Methysergide"
 predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease"]
 description: "Methysergide: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,8 @@ None of the publications below directly studies migraine with brainstem aura. Th
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407042L0AAAAAA | Methysergide 1mg tablets | Methysergide |
@@ -86,7 +88,15 @@ None of the publications below directly studies migraine with brainstem aura. Th
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The approved indication is not recorded in the local data.
+
+<!-- review:begin uk-lic-20261106-methysergide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The approved indication is not recorded in the local data. One valid single-ingredient licence is listed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-methysergide-1 -->
 
 ## Safety Considerations
 
@@ -113,6 +123,18 @@ The prediction score is very high, but no study directly addresses migraine with
 - Warnings and contraindications from the SmPC and BNF
 - Studies specific to migraine with brainstem aura, with attention to vascular safety
 - A fibrosis and cardiovascular safety review, given the known risk of pleuropulmonary and valvular fibrosis with methysergide
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient licence is listed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

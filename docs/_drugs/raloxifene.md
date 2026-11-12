@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Raloxifene: predicted new indication Duodenal ulcer (evidence level L5). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
@@ -69,7 +69,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin uk-lic-20261106-raloxifene-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The authorisation record is incomplete: the dosage form and approved indication text are missing, and the identifier is not in the standard MHRA "PL" format. It should be verified against the MHRA register and the BNF before any use." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-raloxifene-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -80,6 +88,8 @@ Currently no related literature available.
 | 0604011X0BDAAAA | Razylan 60mg tablets | Raloxifene hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -101,6 +111,19 @@ The prediction has no clinical, literature or mechanistic support (L5), and no p
 - Preclinical studies if a mechanistic hypothesis emerges
 - Verification of the MHRA authorisation details (PL number, dosage form, indication) and the SmPC safety information
 - Graded interaction severity for the key co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The authorisation record is incomplete: the dosage form and approved indication text are missing, and the identifier is not in the standard " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010ABAAABAB | Desloratadine 2.5mg/5ml oral solution | Desloratadine |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 0304010ABBBAAAA | Neoclarityn 5mg tablets | Desloratadine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

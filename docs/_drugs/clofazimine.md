@@ -86,6 +86,8 @@ None of these studies directly tests clofazimine against pneumocystosis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501100C0AAAAAA | Clofazimine 100mg capsules | Clofazimine |
@@ -94,6 +96,8 @@ None of these studies directly tests clofazimine against pneumocystosis.
 | 0501100C0BBACAC | Lamprene 50mg capsules | Clofazimine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -71,6 +71,8 @@ Currently no related literature available for the predicted indication. For cont
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 040702040AAALAL | Tramadol 100mg effervescent powder sachets sugar free | Tramadol hydrochloride |
@@ -95,6 +97,8 @@ Currently no related literature available for the predicted indication. For cont
 | 040702040AAAPAP | Tramadol 75mg modified-release tablets | Tramadol hydrochloride |
 
 Showing 20 of 115 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed number is a BNF-style code rather than a standard PL number, and indication text is not available in the compiled data. Please verify against the MHRA register and the BNF.
 

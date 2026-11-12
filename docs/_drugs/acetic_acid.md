@@ -69,6 +69,8 @@ Currently no related literature available for post-bacterial disorder.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0702020B0AAAAAA | Acetic acid (glacial) 0.94% vaginal gel | Acetic acid |
@@ -85,6 +87,8 @@ Currently no related literature available for post-bacterial disorder.
 | 120101050BCAAAB | Otomize ear spray | Dexamethasone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

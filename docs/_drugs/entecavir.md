@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,6 +60,12 @@ There is no known direct activity against HCV. HCV is an RNA virus whose replica
 
 Because no cited study tests entecavir as a treatment for HCV itself, the evidence level is capped at L5, although the co-infection literature is relevant clinical context.
 
+<!-- review:begin uk-lic-20261106-entecavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient record is present." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-entecavir-1 -->
+
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrolment | Key Findings |
@@ -83,6 +89,8 @@ Because no cited study tests entecavir as a treatment for HCV itself, the eviden
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503031B0AAABAB | Entecavir 1mg tablets | Entecavir |
@@ -93,6 +101,8 @@ Because no cited study tests entecavir as a treatment for HCV itself, the eviden
 | 0503031B0BBABAB | Baraclude 1mg tablets | Entecavir |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -120,6 +130,19 @@ Please refer to the SmPC and BNF for full safety information, including warnings
 - Clinical data in which HCV outcomes, such as sustained virological response, are measured with entecavir
 - Detailed mechanism of action data
 - If the aim is co-infection management, the question should be framed as HBV prophylaxis during DAA therapy, not as a new HCV indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient record is present" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

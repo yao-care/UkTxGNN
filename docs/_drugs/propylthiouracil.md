@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 527
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data"
@@ -106,6 +106,8 @@ Currently no related clinical trials registered, for any of the three predicted 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0602020N0AAAMAM | Propylthiouracil 100mg suppositories | Propylthiouracil |
@@ -121,7 +123,15 @@ Currently no related clinical trials registered, for any of the three predicted 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It carries no dosage form or indication text, and no PL number is available. In the BNF, propylthiouracil falls under antithyroid drugs (chapter 6, endocrine system).
+
+<!-- review:begin uk-lic-20261106-propylthiouracil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record lists one valid single-ingredient authorisation. It carries no dosage form or indication text, and no PL number is available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-propylthiouracil-1 -->
 
 ## Safety Considerations
 
@@ -149,6 +159,19 @@ The top prediction has no clinical trials, and the supporting literature consist
 - Confirmation of the authorised indication wording, dosage form and PL number for the UK product
 - For neonatal thyrotoxicosis: comparative evidence against methimazole, with a hepatotoxicity risk assessment
 - For hyperthyroxinemia: stratification by cause, as only true hormone overproduction is plausibly suitable
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0902021G0BBAFA8 | Glucose 10% infusion 1litre Viaflex bags | Glucose |
@@ -74,6 +76,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0902021G0BGABAU | Glucose 5% infusion 250ml Freeflex bags | Glucose |
 
 Showing 20 of 156 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed code appears to be a BNF-style product code rather than a standard PL number. Please verify the authorisation details against the MHRA register and the BNF (section 6.1.4, treatment of hypoglycaemia).
 

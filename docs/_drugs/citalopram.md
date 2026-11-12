@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -96,6 +96,8 @@ The direct citalopram evidence is modest. It consists of open-label paediatric a
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403030D0AAABAB | Citalopram 10mg tablets | Citalopram hydrobromide |
@@ -112,7 +114,15 @@ The direct citalopram evidence is modest. It consists of open-label paediatric a
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is a BNF-style product code rather than a "PL" number.
+
+<!-- review:begin uk-lic-20261106-citalopram-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data lists one valid single-ingredient licence. The identifier shown is a BNF-style product code rather than a "PL" number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 11 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-citalopram-1 -->
 
 ---
 
@@ -149,6 +159,18 @@ SSRIs are an established drug class for OCD, and the citalopram-specific evidenc
 - Confirmation of the licensed indications and safety wording from the current SmPC and BNF
 - An ECG and electrolyte monitoring plan, and a review of interacting medicines, especially for patients with cardiac or hepatic conditions
 - Detailed mechanism of action data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data lists one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

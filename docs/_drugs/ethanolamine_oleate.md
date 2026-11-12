@@ -72,12 +72,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Ethanolamine
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0213000F0AAAAAA | Ethanolamine oleate 5% solution for injection 2ml ampoules | Ethanolamine oleate |
 | 0213000F0AAABAB | Ethanolamine oleate 5% solution for injection 5ml ampoules | Ethanolamine oleate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -108,12 +108,16 @@ The table lists 10 of the 19 publications, prioritising higher-quality study des
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1108020AGAAAAAA | Bromfenac 900micrograms/ml eye drops | Bromfenac |
 | 1108020AGBBAAAA | Yellox 0.9mg/ml eye drops | Bromfenac |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -91,6 +91,8 @@ Currently no related clinical trials registered for vulvovaginal candidiasis or 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1307000K0AAABAB | Podophyllotoxin 0.15% cream | Podophyllotoxin |
@@ -101,6 +103,8 @@ Currently no related clinical trials registered for vulvovaginal candidiasis or 
 | 1307000K0BBABAA | Warticon Fem 0.5% solution | Podophyllotoxin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Dosage form and approved indication text are not available in the data compiled for this report. Please confirm the licence details against the MHRA record and the BNF.
 

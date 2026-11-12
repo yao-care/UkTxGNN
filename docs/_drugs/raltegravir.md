@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "Raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 ---
 
@@ -95,6 +95,8 @@ Of the publications compiled, the most relevant ones are listed below. All are p
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010AEAAABAB | Raltegravir 100mg chewable tablets | Raltegravir |
@@ -112,7 +114,15 @@ Of the publications compiled, the most relevant ones are listed below. All are p
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report contain no licence indication text, so approved indications cannot be confirmed here. Please check the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-raltegravir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Raltegravir is recorded as marketed in the UK, with one single-ingredient record. The data compiled for this report contain no licence indication text, so approved indications cannot be confirmed here." Removed: it described the products as single-ingredient or combination products in a way that did not match the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-raltegravir-1 -->
 
 ---
 
@@ -140,6 +150,19 @@ SIV infection is an animal model of HIV, not a human indication, so the predicti
 - Mechanism of action data to be recorded formally
 - Safety information from the SmPC, including a review of the muscle-related contraindication relations
 - A clear human or clinical rationale; otherwise this prediction is best treated as a research-model finding only
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Raltegravir is recorded as marketed in the UK, with one single-ingredient record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

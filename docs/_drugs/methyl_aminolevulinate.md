@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "methyl aminolevulinate"
 predicted_indications: ["hereditary hemochromatosis", "seborrheic keratosis", "acne (disease)", "vulvar inverted follicular keratosis", "psoriasis", "common wart", "drug-induced osteoporosis", "pityriasis lichenoides", "Wilson disease", "iron metabolism disease"]
 description: "Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). Approved use: Not recorded in the local data"
@@ -104,6 +104,8 @@ Other predictions with some literature (reviews, retrospective analyses and case
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1308010X0AAAAAA | Methyl aminolevulinate 16% cream | Methyl-5-aminolevulinate |
@@ -111,7 +113,15 @@ Other predictions with some literature (reviews, retrospective analyses and case
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text were not available in the compiled data. Please check the current MHRA record, the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261106-methyl_aminolevulinate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient products. Dosage form and indication text were not available in the compiled data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-methyl_aminolevulinate-1 -->
 
 ---
 
@@ -139,6 +149,19 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Trial 
 - Mechanism of action data for MAL
 - A review of the photosensitivity contraindication signals in the intended population
 - Further evidence before pursuing common wart or psoriasis, which currently rest on case reports, retrospective analyses and reviews
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

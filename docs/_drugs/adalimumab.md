@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Adalimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001030S0AAAFAF | Adalimumab 20mg/0.2ml inj pre-filled syringes | Adalimumab |
@@ -95,7 +97,15 @@ Currently no related literature available.
 
 Showing 20 of 43 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Adalimumab is currently marketed in the UK. No approved indication text is recorded in the local data for that licence.
+
+<!-- review:begin uk-lic-20261106-adalimumab-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data list one valid single-ingredient licence and no cancelled licences. No approved indication text is recorded in the local data for that licence." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 43 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-adalimumab-1 -->
 
 ## Safety Considerations
 
@@ -117,6 +127,19 @@ The prediction rests only on a model score. No trials or publications address hy
 - A plausible biological rationale linking TNF inhibition to coccygeal hypermobility, supported by mechanism of action data
 - Preclinical or observational data in this condition
 - A review of safety and interaction data in the SmPC and BNF, including the immunosuppression-related interactions above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data list one valid single-ingredient licence and no cancelled licences" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010I0AAADAD | Cetirizine 10mg capsules | Cetirizine hydrochloride |
@@ -111,7 +113,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 34 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text are not recorded for this record. Please consult the MHRA register and the BNF for full product details.
+
+<!-- review:begin uk-lic-20261106-cetirizine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Cetirizine is currently marketed in the data compiled for this report, with one valid single-ingredient licence record (Cetirizine HCl tablets, 10 mg). Dosage form and indication text are not recorded for this record." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 34 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine-1 -->
 
 ---
 
@@ -136,6 +146,19 @@ No clinical trial or publication directly studies cetirizine in nasal cavity dis
 - Mechanism of action data for cetirizine
 - Label warnings and contraindications from the SmPC and BNF
 - Licence indication text and dosage form details for the UK product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Cetirizine is currently marketed in the data compiled for this report, with one valid single-ingredient licence record (Cetirizine HCl table" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

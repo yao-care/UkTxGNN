@@ -72,6 +72,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Pivmeci
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501015P0AAABAB | Pivmecillinam 200mg tablets | Pivmecillinam hydrochloride |
@@ -79,6 +81,8 @@ The TxGNN model produced no candidate with a score of 0.99 or higher for Pivmeci
 | 0501015P0BBABAB | Selexid 200mg tablets | Pivmecillinam hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

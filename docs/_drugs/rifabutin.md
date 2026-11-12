@@ -92,6 +92,8 @@ No retrieved trial tests rifabutin as a treatment for HIV infection. The trials 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501090Q0AAAZAZ | Rifabutin 100mg/5ml oral liquid | Rifabutin |
@@ -104,6 +106,8 @@ No retrieved trial tests rifabutin as a treatment for HIV infection. The trials 
 | 0501090Q0BBAAAB | Mycobutin 150mg capsules | Rifabutin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

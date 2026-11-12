@@ -90,6 +90,8 @@ For context, the only publication retrieved across all top-10 predictions relate
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0203020F0AAABAB | Disopyramide 100mg capsules | Disopyramide |
@@ -113,6 +115,8 @@ For context, the only publication retrieved across all top-10 predictions relate
 | 0203020G0BDABAC | Rythmodan Retard 250mg tablets | Disopyramide phosphate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (0203020F0) falls within the cardiovascular system, antiarrhythmic drugs chapter. The compiled data do not include a PL number, manufacturer or indication text. The record should be checked against the MHRA product information.
 

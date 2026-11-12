@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Diazoxide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -68,7 +68,15 @@ Currently no related literature available for hypotrichosis simplex of the scalp
 
 Some publications on hair-related questions exist for other predictions, such as a primate study of topical diazoxide on bald scalp (PMID 2085505). These concern other conditions and do not count as direct evidence for this one.
 
+<!-- review:begin uk-lic-20261106-diazoxide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 29 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-diazoxide-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -95,6 +103,8 @@ Some publications on hair-related questions exist for other predictions, such as
 
 Showing 20 of 29 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Contraindication-type disease relations** (from relations recorded in the data compiled for this report, not label text): kidney disease and kidney failure, liver disease, gallbladder disease, congestive heart failure, coronary artery disease, cerebrovascular disorder, diabetes mellitus, diabetic ketoacidosis, hyperglycaemia, gout, uraemia, potassium deficiency, orthostatic hypotension, postural orthostatic tachycardia syndrome and multiple system atrophy. Check these against the SmPC.
@@ -115,6 +125,19 @@ The prediction is supported only by the model score and a plausible KATP mechani
 - Preclinical work, ideally with a topical formulation, because systemic exposure carries significant metabolic and cardiovascular risk
 - A safety review of systemic absorption, given the interactions and disease-related cautions above
 - Confirmation of the SmPC warnings and contraindications for the UK product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

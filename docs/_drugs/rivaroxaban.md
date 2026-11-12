@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -75,6 +75,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0208020Y0AAAIAI | Rivaroxaban 10mg capsules | Rivaroxaban |
@@ -95,6 +97,8 @@ Currently no related clinical trials registered for rheumatoid arthritis.
 | 0208020Y0BBACAC | Xarelto 20mg tablets | Rivaroxaban |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,11 +122,30 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Rationale:**
 The prediction rests on the model score alone. No trials exist, and the available literature supports at most a thromboprophylaxis rationale rather than any effect on RA itself. RA patients often take drugs that interact with rivaroxaban.
 
+<!-- review:begin uk-lic-20261106-rivaroxaban-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence data are also incomplete, and RA patients often take drugs that interact with rivaroxaban." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-rivaroxaban-1 -->
+
 **To proceed, the following is needed:**
 - Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications
 - Mechanism of action data
 - Preclinical or clinical evidence that Factor Xa inhibition affects RA disease activity, or a clearly defined thromboprophylaxis question in RA
 - A bleeding and drug-interaction risk assessment for RA patients taking NSAIDs, aspirin or corticosteroids
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence data are also incomplete, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

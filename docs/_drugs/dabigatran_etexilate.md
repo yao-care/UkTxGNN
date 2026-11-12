@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the pro…"
 monitor_inn: "Dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -84,6 +84,8 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0208020X0AAABAB | Dabigatran etexilate 110mg capsules | Dabigatran etexilate |
@@ -107,7 +109,15 @@ Currently no related clinical trials registered for sclerosing cholangitis.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier appears to be a BNF-style product code (BNF chapter 2, section 8: oral anticoagulants) rather than a standard PL number. Approved indication text and dosage form were not available.
+
+<!-- review:begin uk-lic-20261106-dabigatran_etexilate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence record is a single, valid, single-ingredient product. The identifier appears to be a BNF-style product code (BNF chapter 2, section 8: oral anticoagulants) rather than a standard PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dabigatran_etexilate-1 -->
 
 ---
 
@@ -133,6 +143,19 @@ The prediction rests on a model score alone (evidence level L5). There are no re
 - Confirmation of the licensed indications and dosage form for the UK product
 - A review of safety in hepatobiliary disease, given bleeding risk and the knowledge-graph contraindication signals
 - A detailed mechanism of action summary to support the mechanistic-link analysis
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence record is a single, valid, single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aztreonam: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, Pseudomonas aeruginosa infection…"
 ---
 
@@ -72,6 +72,12 @@ Currently no related literature available for hyperamylasemia.
 
 For context, the literature retrieved for the most evidence-supported alternative prediction, gonococcal urethritis, is below. These do not support the lead prediction.
 
+<!-- review:begin uk-lic-20261106-aztreonam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one single-ingredient authorisation is listed. The record does not include approved indication text, so no approved indications can be stated from it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-aztreonam-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [33077658](https://pubmed.ncbi.nlm.nih.gov/33077658/) | 2020 | Single-arm open-label trial | Antimicrob Agents Chemother | Single intramuscular 2 g aztreonam dose tested for *N. gonorrhoeae*, motivated by ceftriaxone-resistance concerns |
@@ -82,6 +88,8 @@ For context, the literature retrieved for the most evidence-supported alternativ
 | [11406757](https://pubmed.ncbi.nlm.nih.gov/11406757/) | 2001 | Resistance surveillance | J Infect Chemother | Emergence of cephem- and aztreonam-highly-resistant non-β-lactamase-producing gonococci |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -95,6 +103,8 @@ For context, the literature retrieved for the most evidence-supported alternativ
 | 0501023A0BCAAAF | Cayston 75mg neb soln vials with Altera Nebuliser Handset | Aztreonam |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -114,6 +124,19 @@ Please refer to the SmPC and BNF for authoritative warnings and contraindication
 - Mechanism of action data and UK label text (warnings, contraindications, approved indications) for the listed product
 - If a repurposing question is pursued, refocus on gonococcal urethritis, which would need modern comparative trial data, resistance surveillance and a review against current UK gonorrhoea guidance
 - For hyperamylasemia, a clear biological hypothesis before any further investigation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one single-ingredient authorisation is listed. The record does not include approved indication text, so no approved indications can be " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

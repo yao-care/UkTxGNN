@@ -96,12 +96,16 @@ No literature was linked to the top-ranked prediction (relapsing-remitting multi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801020D0AAAAAA | Dactinomycin 500microgram inj vials | Dactinomycin |
 | 0801020D0BBAAAA | Cosmegen Lyovac 500microgram inj vials | Dactinomycin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF section 8.1.2 (cytotoxic antibiotics) is the relevant classification for this product. The number above is a BNF product code rather than a PL number.
 

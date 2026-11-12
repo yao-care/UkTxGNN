@@ -84,6 +84,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0301011F0AAAAAA | Fenoterol 200micrograms/dose inhaler | Fenoterol hydrobromide |
@@ -98,6 +100,8 @@ Currently no related literature available.
 | 0301040M0AAADAD | Fenoterol 50microg/Ipratropium brom 20microg/dose CFC free | Fenoterol hydrobromide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix. The identifiers above are BNF codes rather than MHRA PL numbers, and approved indication text was not available.
 

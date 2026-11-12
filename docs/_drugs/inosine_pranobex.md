@@ -70,12 +70,16 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Inosine Pran
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503021D0BBAAAA | Imunovir 500mg tablets | Inosine pranobex |
 | 0503021D0AAAAAA | Inosine acedoben dimepranol 500mg tablets | Inosine pranobex |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

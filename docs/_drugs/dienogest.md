@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -90,6 +90,8 @@ The data also include a case report of an ovarian granulosa cell tumour (PMID 34
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0604012W0AAAAAA | Dienogest 2mg tablets | Dienogest |
@@ -101,7 +103,15 @@ The data also include a case report of an ovarian granulosa cell tumour (PMID 34
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text are not recorded in the data compiled for this report. The identifiers shown above are as recorded and do not follow the standard MHRA PL number format, so they should be verified against the MHRA register and the BNF.
+
+<!-- review:begin uk-lic-20261106-dienogest-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid. Dosage form and indication text are not recorded in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dienogest-1 -->
 
 ---
 
@@ -134,6 +144,19 @@ The prediction rests on model score alone. Amenorrhoea is an expected pharmacolo
 - Licence indication and dosage form details for both authorisations
 - A clear clinical question defining which type of amenorrhoea (if any) would be treated, and why a progestin that suppresses oestradiol would be appropriate
 - Clinical or observational studies in the proposed population before any further development
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

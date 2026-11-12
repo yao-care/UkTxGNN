@@ -79,12 +79,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0606020X0AAAAAA | Strontium ranelate 2g gran for susp sachets sugar free | Strontium ranelate |
 | 0606020X0BBAAAA | Protelos 2g granules for oral suspension sachets | Strontium ranelate |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The product is classed in BNF section 6.6 (drugs affecting bone metabolism). No NICE-appraised indication was available in the data compiled.
 

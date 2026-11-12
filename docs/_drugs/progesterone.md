@@ -85,6 +85,8 @@ Selected from the 19 publications compiled; none evaluates progesterone as an in
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0604012S0AAANAN | Progesterone 100mg pessaries | Progesterone |
@@ -109,6 +111,8 @@ Selected from the 19 publications compiled; none evaluates progesterone as an in
 | 0604011L0CCAABM | Bijuve 1mg/100mg capsules | Estradiol with progestogen |
 
 Showing 20 of 40 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acrivastine: predicted new indication Recalcitrant atopic dermatitis (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -69,7 +69,15 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin uk-lic-20261106-acrivastine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded and it is currently valid. The record gives no manufacturer, dosage-form field or indication text, so the approved indication should be confirmed from the SmPC and BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-acrivastine-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -81,6 +89,8 @@ Currently no related literature available.
 | 0304010A0BBAAAA | Semprex 8mg capsules | Acrivastine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -104,6 +114,19 @@ The prediction score is high, but there are no trials or publications studying a
 - SmPC-based warnings and contraindications, to verify the knowledge-graph contraindications
 - Confirmation of the licensed indication and dosage form for the UK authorisation
 - Assessment of how acrivastine would add to current standard atopic dermatitis treatment (emollients, topical corticosteroids, and systemic or biological options)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded and it is currently valid. The record gives no manufacturer, dosage-form field or indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

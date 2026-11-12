@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
 description: "Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0211000P0AAAQAQ | Tranexamic acid 100mg/5ml oral solution | Tranexamic acid |
@@ -111,7 +113,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the MHRA register, the BNF and the current SmPC for licensed indications.
+
+<!-- review:begin uk-lic-20261106-tranexamic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the data compiled for this report. Please check the MHRA register, the BNF and the current SmPC for licensed indications. The record does not follow the usual UK "PL" numbering format, so the identifier should be verified." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 26 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tranexamic_acid-1 -->
 
 ---
 
@@ -145,6 +155,19 @@ The prediction rests on a high model score and a loose mechanistic link to menst
 - Verified UK licence details (dosage form and approved indication) from the MHRA register and SmPC
 - Review of label-based warnings and contraindications, particularly thrombotic risk and interactions with hormonal products
 - Any clinical or observational data in the target population before further investment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the dat" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

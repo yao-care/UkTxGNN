@@ -87,6 +87,8 @@ No publications were found for severe nonproliferative diabetic retinopathy. For
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0606020Z0AAABAB | Denosumab 120mg/1.7ml solution for injection vials | Denosumab |
@@ -111,6 +113,8 @@ No publications were found for severe nonproliferative diabetic retinopathy. For
 | 0606020Z0BBAAAA | Prolia 60mg/1ml solution for injection pre-filled syringes | Denosumab |
 
 Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above looks like a BNF classification code, not a standard MHRA PL number. Authorisation details should be checked against the MHRA register.
 

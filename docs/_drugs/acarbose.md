@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Acarbose"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acarbose: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Type 2 diabetes mellitus"
 ---
 
@@ -73,6 +73,8 @@ For the ninth-ranked prediction, pancreatic agenesis, 11 papers were retrieved. 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601023A0AAABAB | Acarbose 100mg tablets | Acarbose |
@@ -82,7 +84,15 @@ For the ninth-ranked prediction, pancreatic agenesis, 11 papers were retrieved. 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and indication text are not available in the compiled data. The identifier is not in the usual MHRA "PL" format, so it should be checked against the MHRA register.
+
+<!-- review:begin uk-lic-20261106-acarbose-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record lists one single-ingredient authorisation, currently valid. Dosage form and indication text are not available in the compiled data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-acarbose-1 -->
 
 ## Safety Considerations
 
@@ -105,6 +115,19 @@ The prediction has no supporting trials or literature and no plausible mechanism
 - Preclinical or clinical studies directly addressing the predicted disease
 - Mechanism of action data and SmPC/BNF warnings and contraindications, which are currently missing
 - Licence indication and dosage form details for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record lists one single-ingredient authorisation, currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -75,6 +75,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0505050P0AAADAD | Praziquantel 150mg tablets | Praziquantel |
@@ -85,6 +87,8 @@ The TxGNN deep-learning model has no candidate with a score of 0.99 or higher fo
 | 0505050P0BEAAAB | Cysticide 500mg tablets | Praziquantel |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

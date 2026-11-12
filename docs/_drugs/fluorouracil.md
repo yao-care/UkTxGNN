@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -84,6 +84,8 @@ For context, the broader rhabdomyosarcoma prediction (rank 2) has only indirect 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801030H0AAAVAV | Fluorouracil 0.5% cream | Fluorouracil (Antimetabolites) |
@@ -109,7 +111,15 @@ For context, the broader rhabdomyosarcoma prediction (rank 2) has only indirect 
 
 Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the MHRA records and the BNF for current products and indications.
+
+<!-- review:begin uk-lic-20261106-fluorouracil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence list contains one single-ingredient authorisation and may not reflect the full UK product range. Please check the MHRA records and the BNF for current products and indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 28 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fluorouracil-1 -->
 
 ---
 
@@ -146,6 +156,19 @@ The prediction rests only on a model score. No trials or publications address th
 - Preclinical or retrospective case-series data on fluorouracil in rhabdomyosarcoma
 - Label-based safety data (SmPC warnings and contraindications), including DPD deficiency testing considerations
 - Confirmation of licensed indications and formulations in the UK (the single listed product is a cream, which is not suited to a systemic tumour)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence list contains one single-ingredient authorisation and may not reflect the full UK product range" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

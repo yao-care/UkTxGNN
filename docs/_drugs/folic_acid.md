@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin deficiency disorder"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -84,6 +84,8 @@ No randomised trials were identified. The most relevant publications are reviews
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901020G0AABXBX | Folic acid 1.5mg/5ml oral liquid | Folic acid |
@@ -109,7 +111,15 @@ No randomised trials were identified. The most relevant publications are reviews
 
 Showing 20 of 64 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Refer to the BNF (vitamins and minerals, folic acid) and the SmPC for the licensed indications and dosing.
+
+<!-- review:begin uk-lic-20261106-folic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded as valid. Refer to the BNF (vitamins and minerals, folic acid) and the SmPC for the licensed indications and dosing." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 64 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-folic_acid-1 -->
 
 ## Safety Considerations
 
@@ -141,6 +151,19 @@ The prediction rests on model output alone (Evidence Level L5). There are no reg
 - Mechanism of action data for folic acid
 - Mechanistic or preclinical studies showing a benefit of folic acid in biotin-related disease
 - Licensed indication text and dosage form details from the SmPC, and verification of label contraindications and warnings
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

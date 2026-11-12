@@ -71,6 +71,8 @@ The TxGNN deep-learning model produced candidates for Levobunolol, but every can
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000T0AAAAAA | Levobunolol 0.5% eye drops | Levobunolol hydrochloride |
@@ -79,6 +81,8 @@ The TxGNN deep-learning model produced candidates for Levobunolol, but every can
 | 1106000T0BBABAB | Betagan Unit Dose 0.5% eye drops 0.4ml unit dose | Levobunolol hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

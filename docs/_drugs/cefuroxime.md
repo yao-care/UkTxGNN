@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -60,6 +60,8 @@ No plausible mechanistic link between cefuroxime and hyperamylasemia has been id
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021J0AAACAC | Cefuroxime 1.5g powder for solution for injection vials | Cefuroxime sodium |
@@ -84,7 +86,15 @@ No plausible mechanistic link between cefuroxime and hyperamylasemia has been id
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report do not include indication text or dosage form for these records.
+
+<!-- review:begin uk-lic-20261106-cefuroxime-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are single-ingredient products and both are currently valid. The data compiled for this report do not include indication text or dosage form for these records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cefuroxime-1 -->
 
 ## Safety Considerations
 
@@ -108,6 +118,19 @@ The prediction rests only on the model score, with no clinical trials, no suppor
 - Detailed mechanism of action data for cefuroxime
 - Any preclinical or clinical studies directly addressing this condition
 - Warnings and contraindications from the SmPC and BNF, which are not available in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are single-ingredient products and both are currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

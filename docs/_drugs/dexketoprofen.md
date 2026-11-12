@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 218
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dexketoprofen: predicted new indication Tendinitis (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "idiopathic granulomatous myositis", "myositis fibrosa", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -110,6 +110,8 @@ For reference, key publications for **migraine disorder**:
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010AEAAAAAA | Dexketoprofen 25mg tablets | Dexketoprofen |
@@ -118,6 +120,8 @@ For reference, key publications for **migraine disorder**:
 | 040702040AABDBD | Tramadol 75mg / Dexketoprofen 25mg tablets | Tramadol hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classifies dexketoprofen among the non-steroidal anti-inflammatory drugs. Please check the current SmPC and BNF for the licensed indications. Dexketoprofen is not listed here under a NICE-appraised indication in the data compiled for this report.
 
@@ -146,6 +150,25 @@ Class-level cautions relevant to any repurposing work include gastrointestinal, 
 - For tendinitis: tendon-specific randomised trials, ideally against another NSAID or placebo
 - For migraine disorder: assessment of evidence in UK primary-care settings and oral formulations, since most trials used IV dexketoprofen in Turkish emergency departments, and confirmation of the formulation and route available in the UK
 - For headache disorder and migraine with brainstem aura: subtype-specific studies before any extension beyond migraine
+
+<!-- review:begin uk-lic-20261106-dexketoprofen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Original licensed indication text from the MHRA/SmPC, as the authorisation record is incomplete" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dexketoprofen-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "as the authorisation record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -96,6 +96,8 @@ Almost all of these publications concern GLP-1 or general IBS biology; none eval
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601040H0AAAEAE | Glucagon 1mg inj vials | Glucagon |
@@ -107,6 +109,8 @@ Almost all of these publications concern GLP-1 or general IBS biology; none eval
 | 0601040H0BEABAG | Ogluo 500micrograms/0.1ml inj pre-filled pens | Glucagon |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This is a single valid, single-ingredient product. The BNF section reference implied by the product code (0601, drugs used in diabetes) is consistent with glucagon's use in severe hypoglycaemia.
 

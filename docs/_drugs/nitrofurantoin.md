@@ -81,6 +81,8 @@ None of these publications shows a therapeutic benefit of nitrofurantoin in rheu
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501130R0AAABAB | Nitrofurantoin 100mg capsules | Nitrofurantoin |
@@ -105,6 +107,8 @@ None of these publications shows a therapeutic benefit of nitrofurantoin in rheu
 | 0501130R0AABDBD | Nitrofurantoin 2.5mg/5ml oral liquid | Nitrofurantoin |
 
 Showing 20 of 57 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

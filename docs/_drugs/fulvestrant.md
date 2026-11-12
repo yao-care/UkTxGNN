@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 308
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fulvestrant: predicted new indication HIV infectious disease (evidence level L4). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Fulvestrant"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -41,6 +41,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 Fulvestrant is an oestrogen receptor antagonist and degrader. It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK data compiled for this report contain no indication text).
 The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are **no registered clinical trials** and only **2 publications**, both preclinical or indirect.
 This is a model-generated hypothesis supported mainly by one in vitro study, and not a validated repurposing signal.
+
+<!-- review:begin uk-lic-20261106-fulvestrant-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "It is marketed in the UK as an injectable product, and its established use is in hormone receptor-positive breast cancer (this is from general knowledge, as the UK licence data compiled for this report contain no indication text)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fulvestrant-2 -->
 
 ---
 
@@ -87,6 +93,8 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803041AAAAAAAA | Fulvestrant 250mg/5ml inj pre-filled syringes | Fulvestrant |
@@ -94,7 +102,15 @@ Currently no related clinical trials registered for HIV infectious disease.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The dosage form and indication fields were not populated in the source data.
+
+<!-- review:begin uk-lic-20261106-fulvestrant-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation was identified. The dosage form and indication fields were not populated in the source data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fulvestrant-1 -->
 
 ---
 
@@ -131,6 +147,20 @@ The prediction has a very high model score but rests on a single in vitro study,
 - Further preclinical work on oestrogen receptor modulation and HIV latency, then early-phase studies if supported
 - Review of the safety profile in people living with HIV, including interactions with antiretroviral therapy
 - Obtaining the full SmPC warnings and contraindications, which are missing from the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

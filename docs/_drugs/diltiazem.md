@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0107010AAAAADAD | Diltiazem 0.2% cream | Diltiazem hydrochloride |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Diltiazem
 | 0206020C0AABABA | Diltiazem 360mg modified-release capsules | Diltiazem hydrochloride |
 
 Showing 20 of 107 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

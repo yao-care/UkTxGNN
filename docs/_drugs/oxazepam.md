@@ -91,6 +91,8 @@ The most relevant publications are listed first. Several retrieved papers are on
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401020T0AAABAB | Oxazepam 10mg tablets | Oxazepam |
@@ -101,6 +103,8 @@ The most relevant publications are listed first. Several retrieved papers are on
 | 0401020T0AAAKAK | Oxazepam 2mg/5ml oral suspension | Oxazepam |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF code 0401020T0 places oxazepam among the anxiolytics (BNF chapter 4.1.2).
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Prucalopride: predicted new indication Hypoalphalipoproteinemia (evidence level L5). Approved use: Constipation disorder"
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -78,6 +78,8 @@ For context, the only publications retrieved across the top-ranked predictions c
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0106070A0AAAAAA | Prucalopride 1mg tablets | Prucalopride |
@@ -87,7 +89,15 @@ For context, the only publications retrieved across the top-ranked predictions c
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and approved indication text were not available, so please confirm details against the current SmPC.
+
+<!-- review:begin uk-lic-20261106-prucalopride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient product is recorded. Dosage form and approved indication text were not available, so please confirm details against the current SmPC." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-prucalopride-1 -->
 
 ## Safety Considerations
 
@@ -111,6 +121,19 @@ The prediction for hypoalphalipoproteinemia is supported only by a model score. 
 - Label-based warnings and contraindications from the SmPC and BNF, as the safety screen cannot proceed without them
 - Authorisation details (PL number, dosage form, approved indication) for the UK product
 - If a different direction is of interest, a focused review of prokinetic use for amyloid-related GI dysmotility, which is the only indirectly plausible signal, as symptom management rather than a new disease indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient product is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

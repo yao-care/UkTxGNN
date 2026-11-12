@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0411000E0AAAAAA | Rivastigmine 1.5mg capsules | Rivastigmine |
@@ -100,7 +102,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 47 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details.
+
+<!-- review:begin uk-lic-20261106-rivastigmine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation (rivastigmine 3 mg capsule). It carries a Japanese-style drug code rather than an MHRA PL number, and the dosage form, manufacturer and approved indication text are not recorded. Please check the MHRA product database, the BNF (cholinesterase inhibitors, under dementia drugs) and relevant NICE guidance for full UK licence details." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 47 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-rivastigmine-1 -->
 
 ## Safety Considerations
 
@@ -134,6 +144,19 @@ The only supporting data are a single rabbit study and two reviews, with no huma
 - A suitable route of administration, since the current licensed product is a capsule and a topical ocular formulation would need development
 - Assessment of systemic cholinergic adverse effects and the contraindicated conditions listed above
 - Comparison with established glaucoma treatments (e.g. prostaglandin analogues, beta-blockers, pilocarpine)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation (rivastigmine 3 mg capsule). It carries a Japanese-style dr" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

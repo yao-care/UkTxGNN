@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -100,6 +100,8 @@ Trials for other predicted indications (also weakly relevant): [NCT02403687](htt
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1502010S0AAACAC | Prilocaine 200mg/20ml solution for injection vials | Prilocaine hydrochloride |
@@ -125,7 +127,15 @@ Trials for other predicted indications (also weakly relevant): [NCT02403687](htt
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The authorisation number shown is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register. NICE appraisal information and the BNF classification were not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-prilocaine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with valid status. The authorisation number shown is as recorded in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 21 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-prilocaine-1 -->
 
 ---
 
@@ -157,6 +167,19 @@ Neuralgia is the best-supported prediction (evidence level L3), but the evidence
 - Route compatibility assessment: the evidence concerns topical EMLA cream, whereas the listed product is an injection
 - A controlled trial or systematic review of topical lidocaine/prilocaine in postherpetic or other neuralgia, ideally separating the contribution of prilocaine
 - A safety plan covering methaemoglobinaemia risk, use in children, and barrier-compromised skin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

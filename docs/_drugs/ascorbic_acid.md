@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "segmental odontomaxillary dysplasia", "perinatal disease", "florid cemento-osseous dysplasia", "disease by subcellular system affected"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0906031C0AABYBY | Ascorbic acid 1.5g modified-release tablets | Ascorbic acid |
@@ -95,7 +97,15 @@ Currently no related literature available.
 
 Showing 20 of 104 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it.
+
+<!-- review:begin uk-lic-20261106-ascorbic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation is recorded in the data compiled for this report, and it is currently valid. The licence number is not in the usual MHRA PL format, so it should be checked against the MHRA register before relying on it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 104 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ascorbic_acid-1 -->
 
 ## Safety Considerations
 
@@ -124,6 +134,19 @@ The prediction has the highest score in the list but no supporting trials, no pu
 - A biological rationale linking ascorbic acid to the development or treatment of congenital esophageal malformation
 - Any preclinical or clinical evidence that directly addresses this condition
 - Mechanism of action data and label-based safety information (SmPC and BNF)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation is recorded in the data compiled for this report, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

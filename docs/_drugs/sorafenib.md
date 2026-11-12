@@ -87,12 +87,16 @@ Soft tissue sarcomas, including liposarcoma, can depend on these pathways. Labor
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AJAAAAAA | Sorafenib 200mg tablets | Sorafenib |
 | 0801050AJBBAAAA | Nexavar 200mg tablets | Sorafenib |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

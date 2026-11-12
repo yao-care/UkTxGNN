@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0307000J0AAABAB | Carbocisteine 125mg/5ml oral solution | Carbocisteine |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 0307000J0BBAEAC | Mucodyne Paediatric 250mg/5ml syrup | Carbocisteine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above appears to be a BNF-style product code, not a standard PL marketing authorisation number. It should be verified against the MHRA register. The BNF chemical code (03.07) places carbocisteine among the mucolytics in the respiratory system chapter.
 

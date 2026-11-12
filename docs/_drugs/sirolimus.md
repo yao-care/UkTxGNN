@@ -77,6 +77,8 @@ This rationale remains theoretical. The supporting literature consists mainly of
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0802020U0AAADAD | Sirolimus 1mg tablets | Sirolimus |
@@ -91,6 +93,8 @@ This rationale remains theoretical. The supporting literature consists mainly of
 | 0802020U0BBAEAE | Rapamune 2mg tablets | Sirolimus |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

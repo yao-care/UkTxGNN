@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 552
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010H0AAANAN | Ropinirole 12mg/5ml oral liquid | Ropinirole hydrochloride |
@@ -106,7 +108,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 54 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the standard MHRA PL format, and the dosage form and approved indication are not stated. Please check the current SmPC, BNF and NICE guidance for the authorised indications.
+
+<!-- review:begin uk-lic-20261106-ropinirole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. The identifier is not in the standard MHRA PL format, and the dosage form and approved indication are not stated." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 54 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ropinirole-1 -->
 
 ## Safety Considerations
 
@@ -138,6 +148,19 @@ The mechanistic link is plausible and there is one possible randomised add-on tr
 - The SmPC details of the UK authorisation (dosage form, indication, warnings, contraindications), which are missing from the compiled data.
 - Replication in an independent, registered, adequately powered paediatric trial.
 - A paediatric safety and monitoring plan covering psychiatric effects, impulse-control behaviours, sleep, blood pressure and drug interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

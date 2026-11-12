@@ -46,6 +46,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0604012P0AAADAD | Norethisterone 1mg tablets | Norethisterone |
@@ -70,6 +72,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0703010M0AAAAAA | Mestranol 50microgram / Norethisterone 1mg tablets | Combined mestranol |
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier does not follow the usual MHRA "PL XXXXX/XXXX" format, so the licence details should be verified against the MHRA register. NICE-appraised indications and BNF classification were not available in the data compiled for this report.
 

@@ -82,6 +82,8 @@ Currently no related clinical trials registered for seborrheic keratosis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1315000G0AAAWAW | Hydroquinone 2% cream | Depigmenting agents |
@@ -97,6 +99,8 @@ Currently no related clinical trials registered for seborrheic keratosis.
 | 1315000G0AABIBI | Hydrocortisone 1% / Tretinoin 0.1% / Hydroquinone 5% cream | Depigmenting agents |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

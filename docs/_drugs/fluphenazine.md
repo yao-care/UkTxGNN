@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010I0AAABAB | Fluphenazine 1mg tablets | Fluphenazine hydrochloride |
@@ -105,6 +107,8 @@ Currently no related literature available.
 | 0402020L0BBAEAH | Modecate 50mg/2ml solution for injection pre-filled syringes | Fluphenazine decanoate |
 
 Showing 20 of 30 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Fluphenazine hydrochloride tablets fall within the BNF antipsychotic chapter (psychoses and related disorders). Please confirm the current authorisation number and licensed indications in the SmPC on the MHRA website.
 

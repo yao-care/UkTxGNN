@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 349
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -39,6 +39,12 @@ Evidence Level: **L1** | Predicted Indications: **1**
 ## One-Sentence Summary
 
 Ketamine is an NMDA receptor antagonist. The TxGNN model predicts it may be effective for **headache disorder**, with **9 clinical trials** and **19 publications** compiled for this direction. These include several small randomised trials, mostly in emergency department settings, and one Phase 3 trial that is still recruiting.
+
+<!-- review:begin uk-lic-20261106-ketamine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Ketamine is an NMDA receptor antagonist with one oral solution authorisation recorded on the UK market. The TxGNN model predicts it may be effective for **headache disorder**, with **9 clinical trials** and **19 publications** compiled for this direction." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 27 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ketamine-2 -->
 
 ## Quick Overview
 
@@ -91,7 +97,15 @@ One further registered study (NCT02403687, the PACE study, n=300) is a broad ana
 
 Other retrieved publications mainly concern ketamine in depression, alcohol use disorder or complex regional pain syndrome, and are not directly relevant to headache.
 
+<!-- review:begin uk-lic-20261106-ketamine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record carries no approved indication text or dosage form field. It does not carry a standard MHRA product licence (PL) number format, so the authorisation details should be verified against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 27 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ketamine-1 -->
+
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -118,6 +132,8 @@ Other retrieved publications mainly concern ketamine in depression, alcohol use 
 
 Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ## Safety Considerations
 
 - **Contraindications suggested by the knowledge graph** (these are drug-disease links from a knowledge graph, not label text): hypertensive disorders, intracranial hypertension and pseudotumor cerebri, stroke and cerebrovascular disorders, myocardial infarction, myocardial ischaemia and coronary artery disease, ocular hypertension, respiratory failure, thyrotoxicosis (hyperthyroidism, Graves disease), delirium, substance abuse or dependence, and haemoglobinopathy.
@@ -132,6 +148,12 @@ Please also refer to the SmPC and BNF for full safety information. Report suspec
 **Rationale:**
 Several randomised and comparator trials in acute and chronic headache, a plausible NMDA-related mechanism and a high model score support further work. However, the trials are small, results are not available for the key Phase 3 studies, and the original indication and safety label data are incomplete.
 
+<!-- review:begin uk-lic-20261106-ketamine-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "However, the trials are small, results are not available for the key Phase 3 studies, and the UK licence record, original indication and safety label data are incomplete." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ketamine-3 -->
+
 **To proceed, the following is needed:**
 - Published results of THINK (NCT03081416) and KetHead (NCT05306899), including effect sizes and adverse events
 - The authorised indication, dosage form and a verified MHRA licence record for the UK product
@@ -139,6 +161,21 @@ Several randomised and comparator trials in acute and chronic headache, a plausi
 - Confirmed mechanism of action data from DrugBank
 - Assessment of route compatibility: the UK product is an oral solution, whereas the trials mainly used intranasal and intravenous routes
 - A safety monitoring and controlled-substance governance plan for any off-label use in headache
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record carries no approved indication text or dosage form field. It does not carry a standard MHRA product licence (PL) number format, s" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "t with one oral solution authorisation recorded on the UK marke" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "UK licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

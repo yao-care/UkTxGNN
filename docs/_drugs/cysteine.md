@@ -92,7 +92,11 @@ No retrieved study evaluates cysteine itself in patients with dry eye. The most 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 Not listed in the NHSBSA BNF prescribing code list used for this report.
+
+<!-- licenses:end -->
 
 ---
 

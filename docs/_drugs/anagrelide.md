@@ -82,12 +82,16 @@ The publications mainly concern essential thrombocythaemia (ET) and anagrelide g
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901040A0AAAAAA | Anagrelide 500microgram capsules | Anagrelide hydrochloride |
 | 0901040A0BDAAAA | Xagrid 500microgram capsules | Anagrelide hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: The authorisation number shown is as held in the compiled data and is not in the standard MHRA "PL XXXXX/XXXX" format. It should be verified against the MHRA record.
 

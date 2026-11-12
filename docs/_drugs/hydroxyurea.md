@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
 description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ No randomised trials or breast-specific clinical studies were found. The most re
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901030R0AAABAB | Hydroxycarbamide 100mg tablets | Hydroxycarbamide |
@@ -110,7 +112,15 @@ No randomised trials or breast-specific clinical studies were found. The most re
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It also has no dosage form or indication text. This record should be verified against the MHRA register before any reliance is placed on it. The data compiled for this report does not include NICE appraisals or BNF classification for this drug.
+
+<!-- review:begin uk-lic-20261106-hydroxyurea-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The single authorisation recorded in the compiled data is listed under a product name (Ichthammol) that does not correspond to hydroxyurea. It also has no dosage form or indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-hydroxyurea-1 -->
 
 ---
 
@@ -156,6 +166,19 @@ The same data lists stronger candidates than breast carcinoma elsewhere in the r
 - **Sickle cell–haemoglobin C disease** (TxGNN 0.9967, evidence level L2): one terminated phase 2 trial ([NCT00532883](https://clinicaltrials.gov/study/NCT00532883), n=44) plus a 2025 trial publication in NEJM Evidence ([39647172](https://pubmed.ncbi.nlm.nih.gov/39647172/)) and cohort data. This is the best-supported prediction, and adequately powered RCT confirmation is still needed.
 - **Sickle cell–beta-thalassaemia** (L3): supportive but not disease-specific evidence.
 - **Other sickle cell variants and rare mucinous or cervical tumours**: indirect evidence or model prediction only (L4–L5); Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The single authorisation recorded in the compiled data is listed under a product name (Ichthammol) that does not correspond to hydroxyurea" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

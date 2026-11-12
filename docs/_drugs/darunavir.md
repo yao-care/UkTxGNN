@@ -96,6 +96,8 @@ For the second-ranked prediction (simian immunodeficiency virus infection), the 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010ACAAAFAF | Darunavir 100mg/ml oral suspension sugar free | Darunavir |
@@ -118,6 +120,8 @@ For the second-ranked prediction (simian immunodeficiency virus infection), the 
 | 0503010BEBBAAAA | Symtuza 800mg/150mg/200mg/10mg tablets | Darunavir/Cobicistat/Emtricitabine/Tenofovir alafenamide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Darunavir is classified in BNF chapter 5 (infections), under HIV protease inhibitors (section 5.3.1).
 

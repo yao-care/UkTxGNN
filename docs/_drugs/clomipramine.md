@@ -93,6 +93,8 @@ The retrieved Phase 3 trials are mainly OCD-focused. Direct evidence in anxiety 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010F0AAAAAA | Clomipramine 10mg capsules | Clomipramine hydrochloride |
@@ -115,6 +117,8 @@ The retrieved Phase 3 trials are mainly OCD-focused. Direct evidence in anxiety 
 | 0403010F0BBAFAR | Anafranil SR 75mg tablets | Clomipramine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Clomipramine falls under BNF section 4.3.1 (tricyclic antidepressants). Please check the current SmPC and any relevant NICE guidance for the licensed indications.
 

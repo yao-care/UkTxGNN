@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -97,6 +97,8 @@ None of these studies addresses faciodigitogenital syndrome.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0404000M0AAAUAU | Methylphenidate 10mg modified-release capsules | Methylphenidate hydrochloride |
@@ -122,7 +124,15 @@ None of these studies addresses faciodigitogenital syndrome.
 
 Showing 20 of 115 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and approved indication text are not available in the data compiled for this report. Please check the current MHRA record, SmPC and BNF for authoritative details.
+
+<!-- review:begin uk-lic-20261106-methylphenidate-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record is a single-ingredient, valid authorisation. Dosage form and approved indication text are not available in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 115 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-methylphenidate-1 -->
 
 ---
 
@@ -157,6 +167,19 @@ The prediction for faciodigitogenital syndrome rests on a very high TxGNN score 
 - Verified label-based warnings and contraindications from the SmPC and BNF, as these are currently missing
 - Confirmation of the licensed indications and dosage forms for the UK authorisation
 - Independent validation of the TxGNN signal, ideally by clinical review of whether the proposal is a genuine repurposing opportunity or simply symptomatic ADHD treatment within an existing licensed use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single-ingredient, valid authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

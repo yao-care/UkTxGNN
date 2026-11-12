@@ -5,7 +5,7 @@ layout: default
 title: Menotropins
 parent: Known Uses Only (No New Predictions)
 nav_order: 392
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Menotropins: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Menotropins"
 predicted_indications: []
@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0605010N0AAAHAH | Menotrophin 1,200unit inj vials | Menotrophin |
@@ -71,7 +73,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The single listed entry is a single-ingredient product classed as valid. BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification.
+
+<!-- review:begin uk-lic-20261106-menotropins-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification. The record gives a BNF-style product code rather than a PL number." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-menotropins-1 -->
 
 ---
 
@@ -83,6 +93,18 @@ The single listed entry is a single-ingredient product classed as valid. BNF cha
 No warning or contraindication text was available in the compiled data. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record gives a BNF-style product code rather than a PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

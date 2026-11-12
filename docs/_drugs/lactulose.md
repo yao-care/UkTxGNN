@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -96,6 +96,8 @@ Selected from the retrieved publications, prioritising human studies. Study type
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0106040G0AAAGAG | Lactulose 10g/15ml oral solution 15ml sachets sugar free | Lactulose |
@@ -107,7 +109,15 @@ Selected from the retrieved publications, prioritising human studies. Study type
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF classification code (section 1.6.4, osmotic laxatives) is consistent with its use as a laxative. Please check the current SmPC and BNF for the licensed indications and NICE guidance.
+
+<!-- review:begin uk-lic-20261106-lactulose-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation record is available. The BNF classification code (section 1.6.4, osmotic laxatives) is consistent with its use as a laxative." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lactulose-1 -->
 
 ---
 
@@ -134,6 +144,12 @@ Please refer to the SmPC and BNF for full warnings. Report suspected adverse rea
 **Rationale:**
 The evidence for obstructive jaundice is limited to small, older clinical studies and animal experiments, with no registered trials. One review found no conclusive renoprotective effect, and one rat study found no benefit. The mechanistic hypothesis (reduced endotoxaemia) is reasonable but unproven.
 
+<!-- review:begin uk-lic-20261106-lactulose-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The mechanistic hypothesis (reduced endotoxaemia) is reasonable but unproven, and the UK licence record carries no indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lactulose-2 -->
+
 **To proceed, the following is needed:**
 - Full-text review of the 1991 randomised multicentre study (PMID 2032107) and the 1986 study to confirm outcomes
 - A systematic review of lactulose for preventing postoperative renal dysfunction in obstructive jaundice
@@ -152,6 +168,19 @@ The evidence for obstructive jaundice is limited to small, older clinical studie
 | Hyperphosphatemia | 0.9937 | L5 | Only a review of constipation in CKD; no evidence of phosphate lowering. Hold |
 | Exercise-induced malignant hyperthermia | 0.9914 | L5 | No data; no plausible mechanism. Hold |
 | Bile duct neoplasm | 0.9912 | L5 | Indirect perioperative gut-barrier literature only. Research question |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation record is available" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "and the UK licence record carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

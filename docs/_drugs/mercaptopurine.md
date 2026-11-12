@@ -88,6 +88,8 @@ Most trials below test multi-agent regimens in which mercaptopurine's contributi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801030L0AAAGAG | Mercaptopurine 10mg capsules | Mercaptopurine |
@@ -111,6 +113,8 @@ Most trials below test multi-agent regimens in which mercaptopurine's contributi
 | 0801030L0BCABAQ | Xaluprine 20mg/ml oral suspension | Mercaptopurine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

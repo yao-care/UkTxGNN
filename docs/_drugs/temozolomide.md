@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -85,6 +85,8 @@ Only one report (a single case of spinal myxopapillary ependymoma) is close to t
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050Y0AAAAAA | Temozolomide 100mg capsules | Temozolomide |
@@ -108,7 +110,15 @@ Only one report (a single case of spinal myxopapillary ependymoma) is close to t
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved indication text is available in the data compiled, so the original indications above are not confirmed licence wording.
+
+<!-- review:begin uk-lic-20261106-temozolomide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The list contains one single-ingredient authorisation record, and it is complete. No approved indication text is available in the data compiled, so the original indications above are not confirmed licence wording." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-temozolomide-1 -->
 
 ---
 
@@ -145,6 +155,19 @@ No clinical trials are registered, and the only directly relevant publication is
 - Detailed mechanism of action data
 - Licence indication text and SmPC warnings and contraindications for the UK product
 - A haematological monitoring and safety plan for use outside the current indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The list contains one single-ingredient authorisation record, and it is complete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

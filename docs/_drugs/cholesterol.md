@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cholesterol,
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0908010D0AAALAL | Cholesterol 1g oral powder sachets | Cholesterol |
@@ -81,6 +83,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cholesterol,
 | 1305020Z0AAAAAA | Cholesterol 2% / Simvastatin 2% cream | Cholesterol/simvastatin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

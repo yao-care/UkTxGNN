@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -80,6 +80,8 @@ For the second predicted indication (feline AIDS), one further study is availabl
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010E0AAABAB | Abacavir 20mg/ml oral solution sugar free | Abacavir |
@@ -97,7 +99,15 @@ For the second predicted indication (feline AIDS), one further study is availabl
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records.
+
+<!-- review:begin uk-lic-20261106-abacavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with valid status. The identifier appears to be a BNF-style code rather than an MHRA PL number, so the authorisation details should be checked against MHRA records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-abacavir-1 -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The predicted indications are animal lentivirus infections, supported only by in
 - Licence indication text and dosage form for the UK product
 - Label warnings and contraindications from the SmPC
 - A clear human-relevant rationale before any further evaluation, as the current predictions concern non-human species or lack any supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

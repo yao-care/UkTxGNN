@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,8 @@ Neither publication directly studies deferasirox as a treatment for HIV infectio
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0901030K0AAAAAA | Deferasirox 125mg dispersible tablets sugar free | Deferasirox |
@@ -92,7 +94,15 @@ Neither publication directly studies deferasirox as a treatment for HIV infectio
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No indication text, dosage form or manufacturer is recorded for it.
+
+<!-- review:begin uk-lic-20261106-deferasirox-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient licence record is present in the local data (deferasirox dispersible tablet, 500 mg). No indication text, dosage form or manufacturer is recorded for it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-deferasirox-1 -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The prediction rests on a high model score and one indirect preclinical study. T
 - Mechanism-of-action data to clarify whether iron chelation would help or harm
 - Review of safety in people living with HIV, including interactions with antiretroviral therapy and renal and hepatic risk
 - Complete SmPC warnings and contraindications for the UK-licensed product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient licence record is present in the local data (deferasirox dispersible tablet, 500 mg)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

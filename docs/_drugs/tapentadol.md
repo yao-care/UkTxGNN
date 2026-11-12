@@ -78,6 +78,8 @@ Neither paper provides efficacy evidence for tapentadol in migraine. The 2018 st
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0407020AGAAAKAK | Tapentadol 100mg modified-release capsules | Tapentadol |
@@ -102,6 +104,8 @@ Neither paper provides efficacy evidence for tapentadol in migraine. The 2018 st
 | 0407020AGBCAAAI | Ationdo SR 25mg tablets | Tapentadol |
 
 Showing 20 of 50 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The number shown is a BNF-style product code rather than a standard PL number. Please check the MHRA record and the BNF (opioid analgesics section) for the authorised indications and formulations.
 

@@ -72,6 +72,8 @@ The TxGNN deep-learning model produced candidates for Temazepam at a score of 0.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401010T0AAAMAM | Temazepam 10mg tablets | Temazepam |
@@ -81,6 +83,8 @@ The TxGNN deep-learning model produced candidates for Temazepam at a score of 0.
 | 0401010T0AAANAN | Temazepam 20mg tablets | Temazepam |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

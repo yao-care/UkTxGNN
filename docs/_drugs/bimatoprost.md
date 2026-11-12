@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000AFAAABAB | Bimatoprost 100micrograms/ml eye drops | Bimatoprost |
@@ -104,7 +106,15 @@ Currently no related literature available.
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The indication text and BNF/NICE details were not available, so please confirm them against the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-bimatoprost-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. The indication text and BNF/NICE details were not available, so please confirm them against the current SmPC and BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 21 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-bimatoprost-1 -->
 
 ---
 
@@ -129,6 +139,19 @@ The prediction rests solely on a score from the TxGNN model (deep learning), whi
 - Detailed mechanism of action data
 - Confirmation of the approved indication and dosage form for the UK authorisation
 - A review of other predicted indications for bimatoprost that have actual evidence. In particular, **alopecia** has several completed Phase 2 trials in androgenetic alopecia and female pattern hair loss, and a Phase 4 paediatric eyelash hypotrichosis trial. It warrants a separate evaluation, as it is a far more credible repurposing direction than this top-ranked prediction.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

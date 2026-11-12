@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 150
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Cetirizine HCl is a second-generation H1-receptor antihistamine widely used in the UK for allergic rhinitis and chronic urticaria. The TxGNN prediction pipeline has not yet generated repurposing candidates for this compound. This report documents the current data status and defines the remediation steps required before a full repurposing evaluation can proceed.
 
+<!-- review:begin uk-lic-20261106-cetirizine_hcl-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The TxGNN prediction pipeline has not yet generated repurposing candidates for this compound, and UK MHRA regulatory records have not been loaded into this Evidence Pack." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine_hcl-4 -->
+
 ---
 
 ## Quick Overview
@@ -64,9 +70,17 @@ No TxGNN repurposing predictions have been generated for Cetirizine HCl. Until t
 
 Additionally, mechanism of action (MOA) data was not retrieved from DrugBank despite a reported successful query — this should be investigated as a data-processing issue in the pipeline.
 
+<!-- review:begin uk-lic-20261106-cetirizine_hcl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No marketing authorisation records are available in this Evidence Pack." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 34 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine_hcl-1 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -93,7 +107,15 @@ Additionally, mechanism of action (MOA) data was not retrieved from DrugBank des
 
 Showing 20 of 34 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**.
+
+<!-- review:begin uk-lic-20261106-cetirizine_hcl-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This represents a data ingestion failure rather than the absence of UK licences. Cetirizine HCl is available in the UK under several brand names (e.g., Zirtek, Piriteze, Benadryl Allergy Solution) and as multiple generic products, classified under **BNF section 3.4.1 (Antihistamines)**. MHRA licence data should be retrieved and loaded before any regulatory assessment is undertaken." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine_hcl-2 -->
 
 ---
 
@@ -110,6 +132,12 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Rationale:**
 The Evidence Pack for Cetirizine HCl is missing its most critical inputs — TxGNN repurposing predictions. No meaningful evaluation of a new indication can be performed without these foundations in place.
 
+<!-- review:begin uk-lic-20261106-cetirizine_hcl-5 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack for Cetirizine HCl is missing its two most critical inputs — TxGNN repurposing predictions and UK MHRA regulatory records." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine_hcl-5 -->
+
 **To proceed, the following is needed:**
 
 - **Run TxGNN prediction pipeline** for Cetirizine HCl to generate ranked repurposing candidates
@@ -117,9 +145,32 @@ The Evidence Pack for Cetirizine HCl is missing its most critical inputs — TxG
 - **Retrieve SmPC** for key warnings, contraindications, and drug interactions
 - **Re-generate the Evidence Pack** once the above gaps are resolved, then repeat this evaluation
 
+<!-- review:begin uk-lic-20261106-cetirizine_hcl-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Load UK MHRA marketing authorisation records** via the regulatory data pipeline / **Retrieve SmPC** for key warnings, contraindications, and drug interactions" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetirizine_hcl-3 -->
+
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. Any repurposing candidates identified will require clinical validation before application.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "No marketing authorisation records are available in this Evidence Pack" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "This represents a data ingestion failure rather than the absence of UK licences. MHRA licence data should be retrieved and loaded before any" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**Load UK MHRA marketing authorisation records** via the regulatory data pipeline" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "and UK MHRA regulatory records have not been loaded into this Evidence Pack" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "two and UK MHRA regulatory records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

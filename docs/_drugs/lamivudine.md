@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010Q0AAADAD | Lamivudine 100mg tablets | Lamivudine |
@@ -105,6 +107,8 @@ Currently no related clinical trials registered.
 | 0503010AZBBABAB | Triumeq 50mg/600mg/300mg tablets | Dolutegravir/Abacavir/Lamivudine |
 
 Showing 20 of 25 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,6 +66,12 @@ From general pharmacological knowledge, chlorpropamide is a first-generation sul
 
 As there is no predicted indication to assess, there is insufficient basis to pursue repurposing at this stage.
 
+<!-- review:begin uk-lic-20261106-chlorpropamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "As there is no predicted indication to assess, and the drug currently holds no marketing authorisation in the United Kingdom, there is insufficient basis to pursue repurposing at this stage." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 3 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-chlorpropamide-1 -->
+
 ---
 
 ## Clinical Trial Evidence
@@ -82,6 +88,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601021E0AAAAAA | Chlorpropamide 100mg tablets | Chlorpropamide |
@@ -90,7 +98,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The drug has been discontinued from the UK market.
+
+<!-- review:begin uk-lic-20261106-chlorpropamide-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Chlorpropamide holds no current marketing authorisations in the United Kingdom. The drug has been discontinued from the UK market. No MHRA-authorised products are listed." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 3 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-chlorpropamide-2 -->
 
 ---
 
@@ -119,6 +135,20 @@ The TxGNN model has not identified any repurposing candidates for chlorpropamide
 ---
 
 *This report is for research purposes only and does not constitute medical advice. Any drug repurposing candidates require clinical validation before application. Report generated: 2026-04-05.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "and the drug currently holds no marketing authorisation in the United Kingdom" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "Chlorpropamide holds no current marketing authorisations in the United Kingdom. No MHRA-authorised products are listed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

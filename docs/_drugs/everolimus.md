@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Everolimus: predicted new indication liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L2** | Predicted Indications: **8**
 
 Everolimus is an mTOR inhibitor.
 The TxGNN model predicts it may be effective for **liposarcoma**, with **1 clinical trial** (a combination Phase 2 study) and **4 publications** currently linked to this direction, only one of which reports clinical data in the disease itself.
+
+<!-- review:begin uk-lic-20261106-everolimus-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Everolimus is an mTOR inhibitor with a single licence recorded in the UK data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-everolimus-1 -->
 
 ---
 
@@ -86,6 +92,8 @@ Dedifferentiated liposarcoma is typically driven by MDM2/CDK4 amplification, and
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AXAAABAB | Everolimus 10mg tablets | Everolimus |
@@ -110,6 +118,8 @@ Dedifferentiated liposarcoma is typically driven by MDM2/CDK4 amplification, and
 | 0801050AXBCAFAI | Votubia 5mg dispersible tablets | Everolimus |
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -149,6 +159,26 @@ The only clinical evidence directly in liposarcoma is a single-arm Phase 2 combi
 - Mechanism of action data
 - SmPC warnings and contraindications for the UK product, plus indication and dosage form details
 - A safety and interaction management plan, particularly for CYP3A4-related and antidiabetic interactions
+
+<!-- review:begin uk-lic-20261106-everolimus-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "SmPC warnings and contraindications for the UK product, plus indication and dosage form details for the licence record" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-everolimus-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with a single licence recorded in the UK data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "for the licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010J0AAAJAJ | Haloperidol 1.5mg tablets | Haloperidol |
@@ -104,7 +106,15 @@ Currently no related literature available.
 
 Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No NICE-appraised indication for the predicted condition is identified.
+
+<!-- review:begin uk-lic-20261106-haloperidol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record contains one valid single-ingredient authorisation. It gives no dosage form or approved indication text, so refer to the current SmPC and BNF for licensed uses. No NICE-appraised indication for the predicted condition is identified." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 39 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-haloperidol-1 -->
 
 ---
 
@@ -139,6 +149,19 @@ The prediction rests on a model score alone, with no trials, no literature and n
 - Review of the SmPC and BNF safety information against this rare-disease population
 
 It has completed Phase 3 trials, including a placebo- and haloperidol-controlled olanzapine trial (NCT00129220, n=224), and network meta-analyses (PMIDs 34642461, 39191865). That use is close to haloperidol's existing psychiatric indications rather than true repurposing, and it is rated "Proceed with Guardrails". Guardrails would include monitoring for extrapyramidal symptoms, QTc prolongation and tardive dyskinesia, and reviewing interactions before co-prescribing. The remaining predictions (retinal dystrophy, myopia variants and various congenital malformation syndromes) are rated Hold, mostly with no clinical evidence.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record contains one valid single-ingredient authorisation. It gives no dosage form or approved indication text, so refer to the current " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501014S0AAAAAA | Piperacillin 2g / Tazobactam 250mg inf vials | Piperacillin sodium/tazobactam sodium |
@@ -82,6 +84,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Tazobacta
 | 0501014S0BBABAB | Tazocin 4g/0.5g powder for solution for infusion vials | Piperacillin sodium/tazobactam sodium |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

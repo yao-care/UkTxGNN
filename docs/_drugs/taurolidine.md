@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501070AAAAAAAA | Taurolidine 2% nebuliser liquid | Taurolidine |
@@ -55,6 +57,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0501070AABBAAAB | Taurolin 100mg/5ml intraperitoneal solution bottles | Taurolidine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above appears to be a BNF-style code rather than a standard PL number. Dosage form is inferred from the product name, and no manufacturer or indication text is available.
 

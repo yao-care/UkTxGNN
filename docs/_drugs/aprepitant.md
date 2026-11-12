@@ -71,6 +71,8 @@ Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000ADAAABAB | Aprepitant 125mg capsules | Aprepitant |
@@ -86,6 +88,8 @@ Currently no related literature available for the predicted indication.
 | 0406000ADBBAAAA | Emend 80mg capsules | Aprepitant |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF chemical code above is the only identifier available. Dosage form detail, manufacturer and approved indication text are not recorded.
 

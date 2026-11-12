@@ -95,6 +95,8 @@ No publications were found for the top-ranked indication. The table below shows 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206020W0AAAAAA | Nisoldipine 10mg modified-release tablets | Nisoldipine |
@@ -105,6 +107,8 @@ No publications were found for the top-ranked indication. The table below shows 
 | 0206020W0BBACAC | Syscor MR 30 tablets | Nisoldipine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This record lists one single-ingredient product. The BNF classification code embedded in the identifier suggests the cardiovascular calcium channel blocker section, but no approved indication text is available here.
 

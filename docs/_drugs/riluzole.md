@@ -73,6 +73,8 @@ The publications retrieved in this analysis relate to a different prediction (an
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409030R0AAADAD | Riluzole 25mg/5ml oral suspension sugar free | Riluzole |
@@ -85,6 +87,8 @@ The publications retrieved in this analysis relate to a different prediction (an
 | 0409030R0BCAAAD | Teglutik 5mg/1ml oral suspension | Riluzole |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The licence number shown is not in the usual MHRA "PL" format, and the dosage form and approved indication text were not available in the data compiled. Please verify the authorisation details against the MHRA register, the SmPC and the BNF.
 

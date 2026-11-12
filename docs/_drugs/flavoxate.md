@@ -63,6 +63,8 @@ Among the other predictions, **irritable bowel syndrome** (score 0.9974) has the
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0704020G0AAAEAE | Flavoxate 100mg/5ml oral liquid | Flavoxate hydrochloride |
@@ -72,6 +74,8 @@ Among the other predictions, **irritable bowel syndrome** (score 0.9974) has the
 | 0704020G0BBABAC | Urispas 200 tablets | Flavoxate hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a drug classification code rather than a standard PL number. Indication text and dosage form were not available in the compiled data. Please check the current SmPC, the BNF and NICE guidance for the authorised indications.
 

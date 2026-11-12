@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -77,6 +77,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206030Y0AAACAC | Ivabradine 2.5mg tablets | Ivabradine |
@@ -86,6 +88,8 @@ Currently no related literature available.
 | 0206030Y0BBABAB | Procoralan 7.5mg tablets | Ivabradine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed number is a BNF-style product code rather than a PL number. Ivabradine falls within BNF chapter 2 (cardiovascular system).
 
@@ -126,6 +130,25 @@ The prediction is supported by a model score alone, with no trials, no publicati
 - Preclinical evidence (for example, HCN expression in hair follicles) before any clinical work
 - Safety screening using SmPC warnings and contraindications, which are not yet available
 - A risk-benefit assessment for non-cardiac use, given the interaction burden
+
+<!-- review:begin uk-lic-20261106-ivabradine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirmed approved indication text and licence details (the regulatory entry is incomplete)" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ivabradine-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "(the regulatory entry is incomplete)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

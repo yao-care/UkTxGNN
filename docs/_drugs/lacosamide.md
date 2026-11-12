@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lacosamide"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -95,6 +95,8 @@ Two caveats apply. First, the mechanistic link is plausible but not proven in hu
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010AHAAABAB | Lacosamide 100mg tablets | Lacosamide |
@@ -119,7 +121,15 @@ Two caveats apply. First, the mechanistic link is plausible but not proven in hu
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved indication text was available, so UK-specific indications should be confirmed in the SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-lacosamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One single-ingredient authorisation is recorded as valid. No approved indication text was available, so UK-specific indications should be confirmed in the SmPC and BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lacosamide-1 -->
 
 ---
 
@@ -152,6 +162,19 @@ Migraine is the best-supported of the model's predictions, with two completed Ph
 - Consider placebo-controlled evidence, since comparator-only designs do not establish superiority to placebo.
 
 **Other predictions (for context):** The remaining top-ten predictions have weaker support. Bipolar disorder (manic) has limited observational evidence and a neutropenia safety flag (Research Question). Myofascial pain syndrome has one completed Phase 2 placebo-controlled trial in fibromyalgia without available results (Research Question). Migraine with brainstem aura has only indirect support (Research Question). Tourette syndrome, trichotillomania, nephrogenic syndrome of inappropriate antidiuresis, insomnia, obsessive-compulsive disorder and papillary conjunctivitis are model predictions without supporting clinical evidence (Hold). For Tourette syndrome, the literature raises a possible adverse signal of antiepileptic-induced tics.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

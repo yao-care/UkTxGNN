@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Propylene glycol"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "mature cataract", "immature cataract", "craniostenosis cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Propylene Glycol: predicted new indication Bronchitis (evidence level L5). Approved use: Dry eye syndrome and xerophthalmia"
 ---
 
@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 130201000AACMCM | Propylene glycol 20% in Aqueous cream | Other emollient preparations |
@@ -111,11 +113,19 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
 
 - **Respiratory signal:** The retrieved literature describes inhaled propylene glycol, as an e-cigarette constituent, as a potential airway irritant linked to respiratory harm. This is relevant to any proposed use in bronchitis.
+
+<!-- review:begin uk-lic-20261106-propylene_glycol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with a valid status. The record contains no indication text, so no approved indication can be described from it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 20 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-propylene_glycol-1 -->
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -139,6 +149,19 @@ The prediction rests only on a model score. No trials exist, and the literature 
 ### Note on other predictions
 
 The other highest-ranked predictions (severe non-proliferative diabetic retinopathy, diabetic retinopathy and several cataract types) are also **Hold**. Most are at L5 with no trials or publications. For diabetic retinopathy, the one trial (NCT07090044) tests post-injection pain drops and not propylene glycol as a treatment. The one related publication (PMID 39006273) concerns propylene glycol mannate sulfate, a different compound. The other two are formulation studies where propylene glycol is probably an excipient. No cited study directly addresses propylene glycol as a treatment for diabetic retinopathy, so that indication is also L5 under the evidence rules.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The record contains no indication text, so no approved indication can be described " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

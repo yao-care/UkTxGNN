@@ -70,6 +70,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1103010I0BCAAAA | Erythromycin 0.5% Ophthalmic Ointment | Erythromycin |
@@ -94,6 +96,8 @@ Currently no related clinical trials registered.
 | 0501050N0BCABAB | Erythrolar 500mg tablets | Erythromycin stearate |
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

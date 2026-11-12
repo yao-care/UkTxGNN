@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "liothyronine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
 description: "Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data"
@@ -83,6 +83,14 @@ Currently no related literature available for the top predicted indication (rena
 
 Dosage form and approved indication text were not available. The identifiers shown are the codes in the compiled data, not confirmed MHRA PL numbers.
 
+<!-- review:begin uk-lic-20261106-liothyronine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list three valid single-ingredient products. Dosage form and approved indication text were not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 53 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-liothyronine-1 -->
+
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0602010M0AAAMAM | Liothyronine 100micrograms/5ml oral liquid | Liothyronine sodium |
@@ -107,6 +115,8 @@ Dosage form and approved indication text were not available. The identifiers sho
 | 0602010M0AAAVAV | Liothyronine sodium 20microgram inj vials | Liothyronine sodium |
 
 Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Please check the MHRA product database and the BNF (thyroid hormones section) for current UK authorisation status and NICE guidance.
 
@@ -135,6 +145,19 @@ The prediction is based on the model score alone. There are no trials, no releva
 - Preclinical or observational data in the predicted indication
 - Label-based warnings and contraindications from the SmPC and BNF
 - Approved indication text and dosage forms for the UK products
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list three valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

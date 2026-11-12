@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Thioridazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available"
 ---
 
@@ -100,6 +100,8 @@ Currently no related clinical trials registered for manic bipolar affective diso
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010W0AAAHAH | Thioridazine 100mg tablets | Thioridazine |
@@ -123,7 +125,15 @@ Currently no related clinical trials registered for manic bipolar affective diso
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It carries no indication text, so no approved indication can be stated from these data. Please check the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-thioridazine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only licence record (a single-ingredient product with valid status). It carries no indication text, so no approved indication can be stated from these data." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-thioridazine-1 -->
 
 ---
 
@@ -159,12 +169,32 @@ Please refer to the SmPC and BNF for full warnings and contraindications. Report
 **Rationale:**
 The prediction score is high and D2 blockade gives a plausible class-level rationale. However, no trial or controlled study of thioridazine in manic bipolar affective disorder was found. Its QT-prolongation and arrhythmia risks and its serious interactions (including with lithium, a standard mania treatment) are major concerns.
 
+<!-- review:begin uk-lic-20261106-thioridazine-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Its QT-prolongation and arrhythmia risks and its serious interactions (including with lithium, a standard mania treatment) are major concerns, and the licence record carries no indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-thioridazine-2 -->
+
 **To proceed, the following is needed:**
 - Mechanism of action data for thioridazine
 - Licence and SmPC text (indications, warnings, contraindications) for the UK product
 - Controlled clinical evidence in mania, compared against established treatments
 - A cardiac safety and ECG monitoring plan, and a review of co-prescribing with lithium
 - Confirmation of whether better-supported alternatives already cover this use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only licence record (a single-ingredient product with valid status)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "and the licence record carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

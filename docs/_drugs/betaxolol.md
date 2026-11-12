@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000I0AAABAB | Betaxolol 0.25% eye drops | Betaxolol |
@@ -84,6 +86,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidate indications fo
 | 0204000G0BBAAAA | Kerlone 20mg tablets | Betaxolol hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tinidazole: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
@@ -83,6 +83,8 @@ Some literature was retrieved for the fifth-ranked prediction (AIDS). It concern
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501110G0AAABAB | Tinidazole 500mg tablets | Tinidazole |
@@ -90,7 +92,15 @@ Some literature was retrieved for the fifth-ranked prediction (AIDS). It concern
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form, manufacturer and indication text are missing, so the MHRA and BNF entries should be checked directly.
+
+<!-- review:begin uk-lic-20261106-tinidazole-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record lists one valid single-ingredient authorisation. Dosage form, manufacturer and indication text are missing, so the MHRA and BNF entries should be checked directly." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-tinidazole-1 -->
 
 ---
 
@@ -116,6 +126,19 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 - Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK authorisation
 - A review of the neuropathy, neutropenia and epilepsy signals and of the alcohol interaction
 - Route compatibility assessment (currently pending)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

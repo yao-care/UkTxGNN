@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Famciclovir"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -75,6 +75,8 @@ Post-infectious neuralgia, in practice usually postherpetic neuralgia, is nerve 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503021E0AAABAB | Famciclovir 125mg tablets | Famciclovir |
@@ -88,7 +90,15 @@ Post-infectious neuralgia, in practice usually postherpetic neuralgia, is nerve 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form, manufacturer and approved indication text are not recorded in the local data, so no further detail can be reported here.
+
+<!-- review:begin uk-lic-20261106-famciclovir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded for famciclovir (Famciclovir tablet 125 mg). Dosage form, manufacturer and approved indication text are not recorded in the local data, so no further detail can be reported here." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-famciclovir-1 -->
 
 ---
 
@@ -112,6 +122,19 @@ The prediction score is high, but no trial or publication directly studies famci
 - Detailed mechanism-of-action data
 - Warnings and contraindications from the current SmPC and BNF
 - Review of the unclassified interaction records, especially for common co-medications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded for famciclovir (Famciclovir tablet 125 mg)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

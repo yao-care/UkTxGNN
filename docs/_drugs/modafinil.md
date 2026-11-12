@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 423
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Modafinil"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,6 +88,8 @@ The link to insomnia is indirect and partly paradoxical. Modafinil is used to co
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0404000R0AAAAAA | Modafinil 100mg tablets | Modafinil |
@@ -100,6 +102,8 @@ The link to insomnia is indirect and partly paradoxical. Modafinil is used to co
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -107,6 +111,12 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 - **Drug Interactions** (100 interactions recorded; examples):
   - Moderate: rabeprazole, omeprazole, esomeprazole, dexamethasone, eliglustat, linagliptin, cisapride
   - Minor: hydrocortisone, pioglitazone, aprepitant, triamcinolone, betamethasone, cimetidine, clarithromycin, saxagliptin, dronabinol
+
+<!-- review:begin uk-lic-20261106-modafinil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient licence is recorded, and the drug is marketed in the UK." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-modafinil-1 -->
 
 Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -123,6 +133,18 @@ The prediction rests on a high model score alone. The only insomnia-related tria
 - Published results from NCT00124384, or a new adequately powered randomised trial in a clearly defined insomnia population
 - Mechanism of action data to clarify any plausible link to insomnia
 - Warnings and contraindications from the SmPC and BNF for safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient licence is recorded, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

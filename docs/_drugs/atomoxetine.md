@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 78
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Atomoxetine"
 predicted_indications: ["specific developmental disorder", "faciodigitogenital syndrome", "chondromyxoid fibroma", "trichotillomania", "restless legs syndrome", "manic bipolar affective disorder", "Tourette syndrome", "transient tic disorder", "cerebellar ataxia", "autosomal dominant cerebellar ataxia"]
 description: "Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data"
@@ -91,6 +91,8 @@ None of these studies directly examines a specific developmental disorder. They 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0404000S0AAAHAH | Atomoxetine 100mg capsules | Atomoxetine hydrochloride |
@@ -115,6 +117,8 @@ None of these studies directly examines a specific developmental disorder. They 
 | 0404000S0BCAFAC | ATOMAID 18mg capsules | Atomoxetine hydrochloride |
 
 Showing 20 of 32 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,6 +146,18 @@ The prediction rests on the model score alone (L5). No registered trial and no p
 - Direct clinical evidence, such as a controlled trial in a defined developmental disorder population.
 - Mechanism of action data to support the mechanistic link.
 - Label warnings and contraindications from the SmPC and BNF, followed by a safety review of the recorded major interactions.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Overall status: **Marketed**. One valid single-ingredient authorisation is recorded" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

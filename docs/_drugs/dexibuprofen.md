@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 217
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dexibuprofen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Dexibuprofen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome"]
@@ -83,6 +83,12 @@ Currently no related clinical trials registered for the top-ranked prediction, o
 
 No literature is available for the top-ranked prediction. The only supporting publications relate to ankylosing spondylitis (rank 9) and are general reviews rather than disease-specific studies:
 
+<!-- review:begin uk-lic-20261106-dexibuprofen-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report show one valid single-ingredient authorisation. Its dosage form and indication details are incomplete, and the number does not follow the usual MHRA PL format, so it should be verified against the MHRA register and the BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dexibuprofen-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [11771569](https://pubmed.ncbi.nlm.nih.gov/11771569/) | 2001 | Review | Clinical Rheumatology | Overview of dexibuprofen clinical data: eight GCP trials (1,463 patients), including double-blind comparisons with placebo, racemic ibuprofen and diclofenac, plus a tolerability meta-analysis |
@@ -90,6 +96,8 @@ No literature is available for the top-ranked prediction. The only supporting pu
 | [21175420](https://pubmed.ncbi.nlm.nih.gov/21175420/) | 2010 | Review | Critical Reviews in Therapeutic Drug Carrier Systems | Microencapsulation as a drug-delivery approach for NSAIDs in arthritis, including ankylosing spondylitis |
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -100,6 +108,8 @@ No literature is available for the top-ranked prediction. The only supporting pu
 | 1001010AMBBABAB | Seractil 400mg tablets | Dexibuprofen |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -118,6 +128,19 @@ The top-ranked prediction, brachydactyly-syndactyly syndrome, has no trials, no 
 - Complete UK authorisation details (dosage form, approved indications, manufacturer)
 - For ankylosing spondylitis: a focused literature search and, if warranted, comparison with established NSAIDs, since it is an extension of existing NSAID use rather than a distinct repurposing opportunity
 - No further investment in the rare genetic and developmental predictions unless new mechanistic evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation. Its dosage form and indication details are incomplete, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

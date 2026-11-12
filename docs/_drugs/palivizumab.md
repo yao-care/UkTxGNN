@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503050A0AAAAAA | Palivizumab 100mg inj vials | Palivizumab |
@@ -84,6 +86,8 @@ Currently no related literature available.
 | 0503050A0BBACAC | Synagis 50mg/0.5ml solution for injection vials | Palivizumab |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This entry appears to be a classification-style code rather than a standard MHRA PL number, so the MHRA authorisation details should be verified against the SmPC and the BNF.
 

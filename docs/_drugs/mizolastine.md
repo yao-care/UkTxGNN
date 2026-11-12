@@ -88,6 +88,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010AAAAAAAA | Mizolastine 10mg modified-release tablets | Mizolastine |
@@ -95,6 +97,8 @@ Currently no related literature available.
 | 0304010AABBAAAA | Mizollen 10mg modified-release tablets | Mizolastine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style code (BNF chapter 3, respiratory system, antihistamines) rather than a standard PL number. Please confirm the marketing authorisation details with the MHRA.
 

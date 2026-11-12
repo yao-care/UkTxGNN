@@ -72,6 +72,8 @@ The TxGNN model's candidates for Tiagabine are all known uses, so there is curre
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408010ABAAABAB | Tiagabine 10mg tablets | Tiagabine |
@@ -83,6 +85,8 @@ The TxGNN model's candidates for Tiagabine are all known uses, so there is curre
 | 0408010ABBBAAAA | Gabitril 5mg tablets | Tiagabine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

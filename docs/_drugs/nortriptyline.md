@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010V0AAAWAW | Nortriptyline 10mg capsules | Nortriptyline |
@@ -105,6 +107,8 @@ Currently no related clinical trials registered.
 | 0403010V0AAALAL | Nortriptyline 30mg / Fluphenazine 1.5mg tablets | Nortriptyline |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation identifier above is as recorded in the compiled data, and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Dosage form and approved indication text are not available. Please check the BNF classification and any NICE guidance directly.
 

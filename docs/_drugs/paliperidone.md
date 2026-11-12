@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data"
@@ -80,6 +80,8 @@ No literature was found for the rank 1 prediction.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402020ABAAACAC | Paliperidone 100mg/1ml prolonged-rel inj pf syringes | Paliperidone |
@@ -105,7 +107,15 @@ No literature was found for the rank 1 prediction.
 
 Showing 20 of 28 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed identifier follows a BNF-style code (BNF chapter 4.2.1, antipsychotic drugs) rather than a standard PL number.
+
+<!-- review:begin uk-lic-20261106-paliperidone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The listed identifier follows a BNF-style code (BNF chapter 4.2.1, antipsychotic drugs) rather than a standard PL number. One valid single-ingredient authorisation is recorded." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 28 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-paliperidone-1 -->
 
 ## Safety Considerations
 
@@ -132,6 +142,19 @@ The top-ranked predictions (including retinal dystrophy with or without extraocu
 - The approved indication text and SmPC warnings and contraindications for the UK product
 - Direct clinical evidence of paliperidone in treatment-refractory schizophrenia, for example trial results where paliperidone is the studied intervention
 - For the other predictions, a credible biological rationale and preclinical evidence before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

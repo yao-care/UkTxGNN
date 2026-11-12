@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Piperacillin: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report (piperacillin is a…"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -97,6 +97,8 @@ None of the publications tests piperacillin as a treatment for RA. The most rele
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501014S0AAAAAA | Piperacillin 2g / Tazobactam 250mg inf vials | Piperacillin sodium/tazobactam sodium |
@@ -108,7 +110,15 @@ None of the publications tests piperacillin as a treatment for RA. The most rele
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers shown are BNF-style codes (BNF section 5.1.1.4, antipseudomonal penicillins), not PL numbers, so the licence details should be verified against the MHRA register and the SmPC.
+
+<!-- review:begin uk-lic-20261106-piperacillin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient entries. The identifiers shown are BNF-style codes (BNF section 5.1.1.4, antipseudomonal penicillins), not PL numbers, so the licence details should be verified against the MHRA register and the SmPC." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-piperacillin-1 -->
 
 ---
 
@@ -136,6 +146,19 @@ The prediction rests on a model score alone (evidence level L5). There are no tr
 - Mechanism of action data and licensed indication text for the UK products
 - Warnings and contraindications from the SmPC and BNF
 - Evidence from controlled studies, none of which currently exist
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient entries" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

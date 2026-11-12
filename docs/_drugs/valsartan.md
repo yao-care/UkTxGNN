@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Valsartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205052V0AAACAC | Valsartan 160mg capsules | Valsartan |
@@ -107,6 +109,8 @@ Currently no related clinical trials registered.
 
 Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -114,6 +118,12 @@ Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NH
 **Drug Interactions** (100 interactions were recorded; the main ones are listed):
 - **Major:** potassium bicarbonate and potassium chloride. Combining them with valsartan risks raised serum potassium.
 - **Moderate:** insulin products (including human, aspart, degludec, detemir, glargine, glulisine and lispro), exenatide, hydrocortisone, eluxadoline and polyethylene glycol 3350 with electrolytes.
+
+<!-- review:begin uk-lic-20261106-valsartan-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product and its status is valid." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 38 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-valsartan-1 -->
 
 No warning or contraindication text was available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -130,6 +140,18 @@ No warning or contraindication text was available in the data compiled for this 
 - Studies that directly evaluate valsartan in malignant hypertensive renal disease, starting with preclinical or observational data and then controlled clinical studies
 - Detailed mechanism of action data
 - Label-based warnings and contraindications for safety screening, particularly renal function and potassium monitoring in severe kidney disease
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product and its status is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

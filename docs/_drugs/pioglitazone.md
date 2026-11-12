@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pioglitazone: predicted new indication Opsismodysplasia (evidence level L5). Approved use: Type 2 diabetes mellitus"
 monitor_inn: "Pioglitazone"
 predicted_indications: ["opsismodysplasia", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
@@ -77,6 +77,8 @@ Currently no related literature available for opsismodysplasia.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601023B0AAAAAA | Pioglitazone 15mg tablets | Pioglitazone hydrochloride |
@@ -102,7 +104,15 @@ Currently no related literature available for opsismodysplasia.
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in standard MHRA "PL" format, and the approved indication text is not available. Please verify against the MHRA register and the BNF (Section 6.1.2, thiazolidinediones).
+
+<!-- review:begin uk-lic-20261106-pioglitazone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one single-ingredient authorisation is recorded. The identifier is not in standard MHRA "PL" format, and the approved indication text is not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-pioglitazone-1 -->
 
 ## Safety Considerations
 
@@ -136,6 +146,19 @@ The prediction rests on model output alone (Evidence Level L5), with no trials o
 - Preclinical evidence (for example, disease models or patient-derived cells)
 - Verified MHRA marketing authorisation details, including the approved indication, and SmPC warnings and contraindications
 - A safety assessment for a rare, likely paediatric population, given the heart failure, fracture and fluid retention concerns that apply to this drug class
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

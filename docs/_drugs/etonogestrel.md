@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0703022P0AAAAAA | Etonogestrel 68mg implant | Etonogestrel |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 | 0703011A0BCAAAA | SyreniRing 0.12mg/0.015mg per day vaginal delivery system | Etonogestrel/ethinylestradiol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (section 7.3.2, progestogen-only contraceptives) is shown in place of a PL number.
 

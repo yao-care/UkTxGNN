@@ -80,6 +80,8 @@ The link to respiratory malformation is indirect. Bronchodilation and improved a
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0301011U0AAACAC | Salmeterol 25micrograms/dose inhaler | Salmeterol |
@@ -104,6 +106,8 @@ The link to respiratory malformation is indirect. Bronchodilation and improved a
 | 0302000N0BNACAX | Fixkoh Airmaster 50microg/dose / 100microg/dose dry pdr inh | Fluticasone propionate (Inhalation) |
 
 Showing 20 of 57 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style product code (BNF chapter 3, respiratory system), not a PL number.
 

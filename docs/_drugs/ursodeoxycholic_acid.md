@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ursodeoxycholic Acid: predicted new indication Homozygous familial hypercholesterolaemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis…"
 monitor_inn: "Ursodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia"]
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0109010U0AABJBJ | Ursodeoxycholic acid 100mg/5ml oral liquid | Ursodeoxycholic acid |
@@ -95,7 +97,15 @@ Currently no related literature available.
 
 Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Indication text and manufacturer details were not available, and NICE-appraised indications could not be confirmed from the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-ursodeoxycholic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation is recorded. Indication text and manufacturer details were not available, and NICE-appraised indications could not be confirmed from the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 36 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ursodeoxycholic_acid-1 -->
 
 ## Safety Considerations
 
@@ -121,6 +131,19 @@ The prediction score is very high (0.9986), but there are no clinical trials or 
 - A systematic literature search to confirm that no relevant studies exist
 - Complete UK authorisation details (PL number, approved indications, SmPC warnings and contraindications)
 - A review of the interaction data, particularly with statins and other lipid-lowering therapies used in this population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

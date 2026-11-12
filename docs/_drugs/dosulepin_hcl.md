@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 Dosulepin hydrochloride (also known as dothiepin) is a tricyclic antidepressant (TCA) historically used in the treatment of depression and anxiety-related conditions.
 Immediate remediation of **two critical data gaps** is required before this candidate can enter the evaluation pipeline.
+
+<!-- review:begin uk-lic-20261106-dosulepin_hcl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a formal repurposing assessment impossible at this stage. / Immediate remediation of **two critical data gaps** is required before this candidate can enter the evaluation pipeline." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dosulepin_hcl-1 -->
 
 ---
 
@@ -85,6 +91,8 @@ Currently no related literature available in this Evidence Pack.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010J0AAA8A8 | Dosulepin 100mg/5ml oral solution | Dosulepin hydrochloride |
@@ -110,7 +118,21 @@ Currently no related literature available in this Evidence Pack.
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 > **Important note for healthcare professionals**: Dosulepin HCl was previously marketed in the UK as **Prothiaden** (formerly by Knoll/Abbott). Current MHRA registration status should be verified directly via the [MHRA Products database](https://products.mhra.gov.uk/) before drawing regulatory conclusions. The BNF also provides current prescribing guidance on dosulepin where it remains available under specialist supervision.
+
+<!-- review:begin uk-lic-20261106-dosulepin_hcl-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No UK marketing authorisations are recorded in the current Evidence Pack." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dosulepin_hcl-2 -->
+
+<!-- review:begin uk-lic-20261106-dosulepin_hcl-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The absence of marketing authorisation records in this Evidence Pack likely reflects a data retrieval issue rather than confirmed non-authorised status. Current MHRA registration status should be verified directly via the [MHRA Products database](https://products.mhra.gov.uk/) before drawing regulatory conclusions." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dosulepin_hcl-3 -->
 
 ---
 
@@ -148,6 +170,21 @@ The TxGNN pipeline generated no repurposing predictions for Dosulepin HCl, and t
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. Suspected adverse reactions should be reported via the [MHRA Yellow Card Scheme](https://yellowcard.mhra.gov.uk/).*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "No UK marketing authorisations are recorded in the current Evidence Pack" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "The absence of marketing authorisation records in this Evidence Pack likely reflects a data retrieval issue rather than confirmed non-author" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -75,6 +75,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1105000S0AAAAAA | Tropicamide 0.5% eye drops | Tropicamide |
@@ -89,6 +91,8 @@ Currently no related literature available.
 | 1105000T0AAAAAA | Phenylephrine 5.4mg/Tropicamide 0.28mg ophthalmic inserts | Phenylephrine hydrochloride and tropicamide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The licence number above is as it appears in the compiled data and is not in the standard MHRA "PL" format, so it should be verified against the MHRA register.
 

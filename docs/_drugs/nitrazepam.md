@@ -85,6 +85,8 @@ Of the 20 publications retrieved, the most relevant are listed below. Where the 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401010R0AAAUAU | Nitrazepam 10mg/5ml oral suspension | Nitrazepam |
@@ -100,6 +102,8 @@ Of the 20 publications retrieved, the most relevant are listed below. Where the 
 | 0401010R0BFAAAA | Somnite 2.5mg/5ml oral suspension | Nitrazepam |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style product code (BNF section 4.1.1, hypnotics) and not a PL marketing authorisation number. Please check the SmPC for the licensed indications.
 

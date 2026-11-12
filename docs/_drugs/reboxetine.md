@@ -79,12 +79,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403040U0AAAAAA | Reboxetine 4mg tablets | Reboxetine |
 | 0403040U0BBAAAA | Edronax 4mg tablets | Reboxetine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF classification: the code above falls within the antidepressant chapter (4.3). Please check the current SmPC and the NICE guidance for the licensed indication and place in therapy.
 

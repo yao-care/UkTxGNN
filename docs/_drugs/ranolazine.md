@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0206030Z0AAAAAA | Ranolazine 375mg modified-release tablets | Ranolazine |
@@ -87,6 +89,8 @@ Currently no related literature available.
 | 0206030Z0BDACAC | Ranogelan 750mg prolonged-release tablets | Ranolazine |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the identifier shown is a BNF-style product code rather than an MHRA PL number. BNF chapter 2 (cardiovascular system) classification is indicated by the code prefix.
 

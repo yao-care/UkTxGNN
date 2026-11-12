@@ -85,6 +85,8 @@ One further registered study (NCT02403687, an observational analgesic study of t
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1002020T0AAABAB | Tizanidine 2mg tablets | Tizanidine hydrochloride |
@@ -101,6 +103,8 @@ One further registered study (NCT02403687, an observational analgesic study of t
 | 1002020T0BCABAA | Zanaflex 4mg tablets | Tizanidine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

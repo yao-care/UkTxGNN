@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Alfacalcidol"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alfacalcidol: predicted new indication Craniofacial conodysplasia (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
@@ -82,6 +82,8 @@ No publications were found for craniofacial conodysplasia. The table below shows
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0906040B0AAAKAK | Alfacalcidol 1mg/5ml oral liquid | Alfacalcidol |
@@ -107,7 +109,15 @@ No publications were found for craniofacial conodysplasia. The table below shows
 
 Showing 20 of 27 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The reference number appears to be a BNF-style code rather than a PL number.
+
+<!-- review:begin uk-lic-20261106-alfacalcidol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The listing is a single-ingredient product and is currently marketed. The reference number appears to be a BNF-style code rather than a PL number." Removed: it described the products as single-ingredient or combination products in a way that did not match the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 27 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alfacalcidol-1 -->
 
 ## Safety Considerations
 
@@ -128,6 +138,19 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 - Any published case, genetic or preclinical data linking vitamin D signalling to craniofacial conodysplasia
 - For renal tubular acidosis, controlled studies showing benefit for bone outcomes
 - Licence indication text and SmPC safety data (warnings, contraindications, interactions) for the UK product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The listing is a single-ingredient product and is currently marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

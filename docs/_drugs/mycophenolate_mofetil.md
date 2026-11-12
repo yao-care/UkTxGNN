@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 428
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -86,6 +86,8 @@ The original indication is not recorded in the compiled data, so a direct compar
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0802010M0AAAGAG | Mycophenolate mofetil 100mg/5ml oral suspension | Mycophenolate mofetil |
@@ -108,7 +110,15 @@ The original indication is not recorded in the compiled data, so a direct compar
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the SmPC and BNF for the licensed indications.
+
+<!-- review:begin uk-lic-20261106-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation is recorded, and its indication text and dosage form are not available in the compiled data. Please check the SmPC and BNF for the licensed indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 17 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-mycophenolate_mofetil-1 -->
 
 ## Safety Considerations
 
@@ -136,6 +146,19 @@ The mechanism is plausible and early studies explored MMF alongside antiretrovir
 - Detailed mechanism-of-action data
 - A review of whether modern, well-powered controlled data exist for MMF in HIV
 - A specific interaction and safety plan for use with current antiretroviral regimens
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation is recorded, and its indication text and dosage form are not available in the compiled data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

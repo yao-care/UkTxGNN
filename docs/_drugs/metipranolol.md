@@ -72,6 +72,8 @@ All candidates produced by the TxGNN model for Metipranolol are already known us
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000U0AAADAD | Metipranolol 0.1% eye dps 0.5ml unit dose preservative free | Metipranolol |
@@ -80,6 +82,8 @@ All candidates produced by the TxGNN model for Metipranolol are already known us
 | 1106000U0BCABAE | Minims metipranolol 0.3% eye drops 0.5ml unit dose | Metipranolol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

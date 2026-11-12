@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -91,6 +91,8 @@ Evidence below relates to trichotillomania (rank 8), the only predicted indicati
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010ABAAAPAP | Quetiapine 100mg oral powder sachets | Quetiapine |
@@ -116,7 +118,15 @@ Evidence below relates to trichotillomania (rank 8), the only predicted indicati
 
 Showing 20 of 89 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 BNF chapter 4.2.1 (antipsychotic drugs) is the relevant classification, as suggested by the code prefix.
+
+<!-- review:begin uk-lic-20261106-quetiapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded. BNF chapter 4.2.1 (antipsychotic drugs) is the relevant classification, as suggested by the code prefix." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 89 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-quetiapine-1 -->
 
 ---
 
@@ -143,6 +153,19 @@ The top-ranked predictions, including retinal dystrophy, rest on model scores al
 - For trichotillomania: a systematic review of antipsychotic use, then a controlled trial against established options (e.g. habit reversal therapy, N-acetylcysteine)
 - A risk-benefit assessment covering metabolic monitoring, QT risk and the interaction burden
 - No further work on the other top-ranked candidates unless supporting biological or clinical evidence emerges
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

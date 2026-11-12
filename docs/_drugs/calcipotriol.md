@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1305020D0AAABAB | Calcipotriol 50micrograms/g cream | Calcipotriol |
@@ -109,6 +111,8 @@ Currently no related clinical trials registered.
 | 1305020D0BDAAAG | Xamiol gel | Calcipotriol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The listed number is a BNF-style product code rather than a standard PL number. Dosage form and indication details were not captured and should be checked against the SmPC.
 

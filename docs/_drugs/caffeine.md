@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0404000D0AAAAAA | Caffeine (base) 50mg tablets | Caffeine |
@@ -107,6 +109,8 @@ Currently no related clinical trials registered.
 | 0407010U0BFABAC | Boots Paracetamol Extra soluble tablets | Paracetamol and caffeine |
 
 Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

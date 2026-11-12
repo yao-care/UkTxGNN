@@ -82,6 +82,8 @@ Currently no related literature available for diffuse cutaneous leishmaniasis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1307000C0AAALAL | Formaldehyde (Buffered) 4% solution | Formaldehyde |
@@ -94,6 +96,8 @@ Currently no related literature available for diffuse cutaneous leishmaniasis.
 | 1307000C0BBAAAB | Veracur 0.75% gel | Formaldehyde |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is as recorded in the compiled licence data and is not in the standard MHRA "PL" format. Please verify it against the MHRA register before relying on it.
 

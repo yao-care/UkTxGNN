@@ -48,6 +48,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010B0AAAAAA | Benperidol 250microgram tablets | Benperidol |
@@ -57,6 +59,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 0402010B0BCAAAA | Benquil 250microgram tablets | Benperidol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is a BNF-style classification code (BNF section 4.2.1, antipsychotic drugs) and not a standard MHRA product licence number (PL). The licence details should be checked against MHRA records.
 

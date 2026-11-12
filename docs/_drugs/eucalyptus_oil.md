@@ -70,6 +70,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Eucalyptus O
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 190605000AAAVAV | Eucalyptus oil liquid | Other oil preparations |
@@ -88,6 +90,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Eucalyptus O
 | 1203030N0BCABAD | Potter's Decongestant pastilles | Menthol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

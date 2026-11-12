@@ -95,6 +95,8 @@ The only publication identified in the compiled data relates to the rank 6 predi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0408020Q0AAACAC | Paraldehyde 100% solution for injection 5ml ampoules | Paraldehyde |
@@ -104,6 +106,8 @@ The only publication identified in the compiled data relates to the rank 6 predi
 | 0408020Q0AAAKAK | Paraldehyde 5g/5ml solution for injection vials | Paraldehyde |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This is a single valid, single-ingredient product. No national MHRA or NICE-appraised indication text was available in the compiled data. The code shown follows a BNF-style format rather than a standard PL number.
 

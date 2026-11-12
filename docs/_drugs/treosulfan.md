@@ -74,6 +74,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801010Z0AAADAD | Treosulfan 1g powder for solution for injection vials | Treosulfan |
@@ -83,6 +85,8 @@ Currently no related literature available.
 | 0801010Z0BBABAB | Trecondi 5g powder for solution for infusion | Treosulfan |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The record corresponds to a BNF classification code (chapter 8.1.1, alkylating drugs) rather than a standard PL number. Dosage form, manufacturer and indication text are missing from the data compiled for this report. Please check the current MHRA and BNF entries before relying on this information.
 

@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1310040S0AAABAB | Phenothrin 0.2% lotion | Phenothrin |
@@ -60,6 +62,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | 1310040S0BBADAD | Full Marks 0.5% mousse | Phenothrin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above is in the format supplied in the compiled data and is not a standard MHRA "PL" number. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available.
 

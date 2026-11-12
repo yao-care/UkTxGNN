@@ -48,12 +48,16 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0307000K0AAAAAA | Dornase alfa 2.5mg/2.5ml nebuliser liquid ampoules | Dornase alfa |
 | 0307000K0BBAAAA | Pulmozyme 2.5mg nebuliser liquid 2.5ml ampoules | Dornase alfa |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier shown is a BNF-style product code (British National Formulary chapter 3, respiratory system, mucolytics) rather than a standard MHRA product licence (PL) number. Please verify the licence details against the MHRA product information and the SmPC.
 

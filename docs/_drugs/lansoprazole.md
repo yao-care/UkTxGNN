@@ -84,6 +84,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0103050L0AAARAR | Lansoprazole 10mg oral powder sachets | Lansoprazole |
@@ -108,6 +110,8 @@ Currently no related clinical trials registered.
 | 0103050L0AAAPAP | Lansoprazole 4mg/5ml oral liquid | Lansoprazole |
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

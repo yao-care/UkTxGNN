@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0405010P0AAAAAA | Orlistat 120mg capsules | Orlistat |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 0405010P0BBAAAA | Xenical 120mg capsules | Orlistat |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 BNF chapter 4.5 (obesity) is the usual classification for orlistat, and the record above corresponds to this code. The compiled data hold no indication text or NICE appraisal information for this product.
 

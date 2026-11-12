@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 329
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -92,6 +92,8 @@ Priority is given to reviews over case reports. Most items concern antihistamine
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0304010J0AAABAB | Hydroxyzine 10mg tablets | Hydroxyzine hydrochloride |
@@ -109,6 +111,8 @@ Priority is given to reviews over case reports. Most items concern antihistamine
 | 0304010J0BCABAC | Ucerax 25mg tablets | Hydroxyzine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier appears to be a BNF-style product code rather than an MHRA PL number, so the MHRA authorisation details should be checked against the SmPC.
 
@@ -145,6 +149,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Rationale:**
 Urticaria is mechanistically well matched to H1 blockade and is already an established use of hydroxyzine, but the supplied evidence contains no trials and no hydroxyzine-specific randomised data for this indication. Second-generation antihistamines are preferred first-line because of hydroxyzine's sedative and cardiac safety profile, and the safety data are incomplete.
 
+<!-- review:begin uk-lic-20261106-hydroxyzine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Second-generation antihistamines are preferred first-line because of hydroxyzine's sedative and cardiac safety profile, and the UK authorisation details and safety data are incomplete." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-hydroxyzine-1 -->
+
 **To proceed, the following is needed:**
 - Confirmation of the approved indications, dosage form and PL number from the UK SmPC and MHRA record
 - Warnings and contraindications from the SmPC and BNF to replace the knowledge-graph-only contraindication list
@@ -155,6 +165,19 @@ Urticaria is mechanistically well matched to H1 blockade and is already an estab
 **Other predicted indications (for context):**
 - This is the best-supported of the other predictions, but the evidence is old and small.
 - Rosacea conjunctivitis, recalcitrant atopic dermatitis and atopic IgE responsiveness (all L5, Hold): no clinical evidence was supplied. The anticholinergic effects of hydroxyzine may worsen dry eye in ocular disease.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "UK authorisation details and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

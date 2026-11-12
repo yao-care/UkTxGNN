@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Candesartan cilexetil"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -70,6 +70,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205052C0AAADAD | Candesartan 16mg tablets | Candesartan cilexetil |
@@ -92,7 +94,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No approved-indication text or dosage-form detail is held in the data compiled for this report. Please check the current SmPC and the BNF for authorised uses and formulations.
+
+<!-- review:begin uk-lic-20261106-candesartan_cilexetil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded. No approved-indication text or dosage-form detail is held in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 17 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-candesartan_cilexetil-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ The prediction score is high (0.9968), but no clinical trial or publication dire
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the SmPC, with a safety review for patients with severe kidney injury
 - Expert clinical (nephrology) review of whether a trial is justified
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

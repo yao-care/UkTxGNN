@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Danazol"
 predicted_indications: ["amenorrhea (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Danazol: predicted new indication amenorrhoea (amenorrhea (disease)) (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -66,6 +66,12 @@ Currently no related clinical trials registered.
 
 No cited study evaluates danazol as a treatment for amenorrhoea as a disease. The items below are the most relevant to menstrual suppression and danazol's endocrine effects.
 
+<!-- review:begin uk-lic-20261106-danazol-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The licence record does not include a dosage form, manufacturer or approved indication text, so no authorisation table is shown." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-danazol-1 -->
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
 | [39051650](https://pubmed.ncbi.nlm.nih.gov/39051650/) | 2024 | Cohort | Women's Health (London) | Retrospective multi-site cohort of danazol for menstrual suppression in transgender and nonbinary individuals; danazol can induce amenorrhoea but has reversible androgenic effects |
@@ -81,6 +87,8 @@ No cited study evaluates danazol as a treatment for amenorrhoea as a disease. Th
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0607020C0AAAAAA | Danazol 100mg capsules | Danazol |
@@ -92,6 +100,8 @@ No cited study evaluates danazol as a treatment for amenorrhoea as a disease. Th
 | 0607020C0BBAAAB | Danol 200mg capsules | Danazol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 
@@ -117,6 +127,19 @@ No clinical trial or publication studies danazol as a treatment for amenorrhoea 
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the SmPC, including androgenic effects and the interactions listed above
 - A safety monitoring plan for long-term use and for specific populations
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The licence record does not include a dosage f" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

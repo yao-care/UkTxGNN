@@ -80,6 +80,8 @@ For context, the second-ranked prediction (exposure keratitis) has limited, indi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1306010F0AAAAAA | Clindamycin 1% alcoholic solution | Clindamycin phosphate |
@@ -104,6 +106,8 @@ For context, the second-ranked prediction (exposure keratitis) has limited, indi
 | 0501060D0AAAAAA | Clindamycin 75mg capsules | Clindamycin hydrochloride |
 
 Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The number shown appears to be a BNF-style product code rather than an MHRA "PL" number, so the MHRA licence details should be confirmed directly.
 

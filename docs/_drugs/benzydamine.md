@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1203010E0AAAAAA | Benzydamine 0.15% mouthwash sugar free | Benzydamine hydrochloride |
@@ -91,6 +93,8 @@ Currently no related literature available.
 | 1203030Y0BBAAAA | Lozamine 3mg lozenges | Benzydamine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above appears to be a BNF-style product code rather than a standard MHRA Product Licence (PL) number. Please verify the licence details against the MHRA register and the BNF.
 

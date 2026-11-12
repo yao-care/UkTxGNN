@@ -72,6 +72,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Nicotinam
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0906022K0BIAAAS | 250-B3 capsules | Nicotinamide |
@@ -96,6 +98,8 @@ The TxGNN deep-learning model (score ≥ 0.99) produced candidates for Nicotinam
 | 0906022K0BHAEAA | AceNic 50mg tablets | Nicotinamide |
 
 Showing 20 of 37 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

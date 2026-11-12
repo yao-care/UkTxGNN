@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -91,6 +91,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401020K0BLABAE | Diazepam 10mg RecTubes | Diazepam |
@@ -116,6 +118,8 @@ Currently no related clinical trials registered.
 
 Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -125,6 +129,12 @@ Showing 20 of 31 BNF presentation codes. Source: NHSBSA BNF code information (NH
   - **Moderate:** bupropion, aprepitant, omeprazole, esomeprazole, cimetidine, clarithromycin, cisapride, clotrimazole, miconazole, dronabinol, metoclopramide.
   - **Minor:** dexamethasone, betamethasone, and several antacids (magnesium oxide, aluminium hydroxide, calcium carbonate).
 - **Literature signals:** Long-term benzodiazepine use is linked to dependence, memory impairment, falls, residual sedation and possible cancer risk (see the literature table).
+
+<!-- review:begin uk-lic-20261106-diazepam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least one valid single-ingredient authorisation is on record, and the drug is marketed in the UK." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 31 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-diazepam-1 -->
 
 Label warnings and contraindications were not available in the data compiled for this report. Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
@@ -142,6 +152,18 @@ The mechanism is plausible and the model score is very high. However, the only d
 - Detailed mechanism-of-action data and label-based warnings and contraindications.
 - A comparison against current first-line options, including a risk-benefit assessment for dependence, next-day impairment and use in older adults.
 - Confirmation of the approved indication and product details from the full SmPC.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least one valid single-ingredient authorisation is on record, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

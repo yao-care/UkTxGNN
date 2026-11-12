@@ -72,6 +72,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylcellul
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0106010H0AAAKAK | Methylcellulose 100mg/5ml oral liquid | Methylcellulose |
@@ -96,6 +98,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Methylcellul
 | 190400000AAAKAK | Methylcellulose powder | Other single substance preparations |
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

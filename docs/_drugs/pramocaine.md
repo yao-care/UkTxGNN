@@ -71,12 +71,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0107020J0AAADAD | Hydrocortisone 1% / Pramocaine 1% foam enema | Hydrocortisone |
 | 0107020J0BDAAAD | Proctofoam HC foam enema | Hydrocortisone |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The product is a hydrocortisone and pramocaine combination foam enema, which falls within the BNF section on rectal corticosteroid preparations. This is a rectal product, not an ophthalmic one.
 

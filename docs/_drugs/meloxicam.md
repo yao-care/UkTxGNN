@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Meloxicam: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…"
 monitor_inn: "Meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -85,6 +85,8 @@ Currently no related literature available for the lead prediction.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1001010AAAAAJAJ | Meloxicam 15mg orodispersible tablets sugar free | Meloxicam |
@@ -103,7 +105,15 @@ Currently no related literature available for the lead prediction.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in standard MHRA "PL" format, and dosage form, manufacturer and indication text are not available. Please verify against the MHRA product database, the SmPC and the BNF (musculoskeletal and joint diseases, NSAIDs section).
+
+<!-- review:begin uk-lic-20261106-meloxicam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report lists one valid single-ingredient authorisation. The identifier is not in standard MHRA "PL" format, and dosage form, manufacturer and indication text are not available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 13 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-meloxicam-1 -->
 
 ## Safety Considerations
 
@@ -139,6 +149,19 @@ The prediction is supported by the model score alone (L5), with no trials or pub
 - Confirmation of UK licence details (product, dosage form, approved indications) and SmPC warnings and contraindications
 - A clinical rationale for symptomatic use only, if pursued, with a safety plan for children and for patients with cardiovascular, renal or gastrointestinal risk
 - Review of the near-duplicate predictions (spondyloarthropathy susceptibility, rheumatoid factor-positive polyarticular JIA), which fall within existing indications and may be better treated as label clarifications than as repurposing candidates
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

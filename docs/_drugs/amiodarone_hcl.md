@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 53
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,9 +66,17 @@ Two likely causes should be investigated. First, the DrugBank ID for this compou
 
 Amiodarone has a complex, multi-target pharmacological profile — including Class III potassium channel blockade, sodium and calcium channel inhibition, and non-competitive beta-adrenergic antagonism — that theoretically supports repurposing interest. However, no mechanism-to-indication mapping has been produced by the current model run, and no evidence review can be conducted without a valid prediction to anchor it.
 
+<!-- review:begin uk-lic-20261106-amiodarone_hcl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The MHRA database lookup returned **0 marketing authorisations** for the query term "AMIODARONE HCL". This is almost certainly a search artefact. The salt suffix "HCL" in the query string is the most probable cause of the failed lookup." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 38 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiodarone_hcl-1 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -95,6 +103,8 @@ Amiodarone has a complex, multi-target pharmacological profile — including Cla
 
 Showing 20 of 38 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -117,6 +127,12 @@ Before any further evaluation, the following steps are mandatory:
 **Rationale:**
 The Evidence Pack is critically incomplete. No TxGNN predictions were generated, both the mechanism of action and safety fields are unpopulated. A meaningful repurposing evaluation cannot be produced from the current data; proceeding without remediation would yield unreliable outputs.
 
+<!-- review:begin uk-lic-20261106-amiodarone_hcl-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No TxGNN predictions were generated, no MHRA licence data was retrieved, and both the mechanism of action and safety fields are unpopulated." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 38 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiodarone_hcl-2 -->
+
 **To proceed, the following is needed:**
 
 2. **Resolve the DrugBank ID** — query the DrugBank API with the normalised INN to obtain `drugbank_id`, drug categories, and full MOA; this is the likely root cause of the empty prediction list
@@ -124,7 +140,35 @@ The Evidence Pack is critically incomplete. No TxGNN predictions were generated,
 4. **Populate safety fields** — extract key warnings, contraindications, and drug–drug interactions from the MHRA SmPC and BNF before any clinical use evaluation
 5. **Re-run evidence collection** (ClinicalTrials.gov, PubMed) against the top predicted indication once predictions are available
 
+<!-- review:begin uk-lic-20261106-amiodarone_hcl-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Re-run the MHRA database query** using the INN `amiodarone` (without the "HCL" salt suffix) to retrieve correct UK marketing authorisation records / **Resolve the DrugBank ID** — query the DrugBank API with the normalised INN to obtain `drugbank_id`, drug categories, and full MOA; this is the likely root cause of the empty prediction list" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiodarone_hcl-3 -->
+
+<!-- review:begin uk-lic-20261106-amiodarone_hcl-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**Diagnose the TxGNN pipeline failure** — confirm whether the drug was successfully mapped to a KG node; if `drugbank_id` was null at prediction time, re-run `run_kg_prediction.py` after resolving step 2" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-amiodarone_hcl-4 -->
+
 > ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before application.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The MHRA database lookup returned **0 marketing authorisations** for the query term "AMIODARONE HCL". This is almost certainly a search arte" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "no MHRA licence data was retrieved, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "1. **Re-run the MHRA database query** using the INN `amiodarone` (without the "HCL" salt suffix) to retrieve correct UK marketing authorisat" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "after resolving step 2" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

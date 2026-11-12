@@ -72,6 +72,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for B
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0406000B0AAABAB | Betahistine 16mg tablets | Betahistine hydrochloride |
@@ -85,6 +87,8 @@ The TxGNN model has no candidate indication with a score of 0.99 or higher for B
 | 0406000B0BBAAAA | Serc 8mg tablets | Betahistine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

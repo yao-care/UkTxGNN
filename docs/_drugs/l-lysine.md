@@ -74,6 +74,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 091101000AAFDFD | Lysine 1g tablets | Other amino acidandnutritional agent preparations |
@@ -87,6 +89,8 @@ Currently no related clinical trials registered.
 | 091101000BBNAFD | Solgar L-Lysine 1000mg tablets | Other amino acidandnutritional agent preparations |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above is shown as it appears in the compiled data. It does not follow the usual MHRA PL format, so it should be verified against MHRA records.
 

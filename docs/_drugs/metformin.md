@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data"
@@ -81,6 +81,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0601022B0AAAVAV | Metformin 1g modified-release tablets | Metformin hydrochloride |
@@ -106,7 +108,15 @@ Currently no related literature available.
 
 Showing 20 of 101 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier is not in the standard MHRA "PL" format and may be a BNF-style product code, so it should be checked against the MHRA register. NICE-appraised indications could not be cross-referenced from the data compiled for this report.
+
+<!-- review:begin uk-lic-20261106-metformin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record is a single valid, single-ingredient product. The identifier is not in the standard MHRA "PL" format and may be a BNF-style product code, so it should be checked against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 101 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-metformin-1 -->
 
 ## Safety Considerations
 
@@ -141,6 +151,19 @@ The prediction comes from the TxGNN model (deep learning) and may reflect simila
 - Preclinical or mechanistic evidence for an effect on anti-GAD-mediated autoimmunity
 - Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA licence number
 - Route-of-administration compatibility and similarity-to-original-indication assessments, which are still pending
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record is a single valid, single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

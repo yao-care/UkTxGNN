@@ -91,6 +91,8 @@ No publications were retrieved for the top-ranked indication. The table below sh
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205051R0AAAAAA | Ramipril 1.25mg capsules | Ramipril |
@@ -115,6 +117,8 @@ No publications were retrieved for the top-ranked indication. The table below sh
 | 0205051R0AAAIAI | Generic Tritace titration pack capsules | Ramipril |
 
 Showing 20 of 36 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above is in the format supplied in the data and does not follow the usual MHRA "PL" format. It should be verified against the MHRA register. Ramipril is classified in the BNF under ACE inhibitors (cardiovascular system).
 

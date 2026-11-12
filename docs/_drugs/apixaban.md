@@ -84,6 +84,8 @@ The only proposed link to migraine is a hypothesis: in a subset of people with m
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0208020Z0AAACAC | Apixaban 1mg/ml oral suspension sugar free | Apixaban |
@@ -93,6 +95,8 @@ The only proposed link to migraine is a hypothesis: in a subset of people with m
 | 0208020Z0BBABAB | Eliquis 5mg tablets | Apixaban |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code for this record is 0208020Z0 (oral anticoagulants).
 

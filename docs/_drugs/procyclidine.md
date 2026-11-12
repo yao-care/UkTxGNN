@@ -87,6 +87,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409020S0AAAMAM | Procyclidine 10mg tablets | Procyclidine hydrochloride |
@@ -104,6 +106,8 @@ Currently no related literature available.
 | 0409020S0BDAAAE | Muscinil 5mg tablets | Procyclidine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is a classification-style code, not a standard PL number, and no manufacturer or indication text is recorded. Please check the current MHRA-authorised products, the SmPC and the BNF (Chapter 4, Central nervous system: drugs used in parkinsonism and related disorders) for the licensed indications. No NICE appraisal information was available in the compiled data.
 

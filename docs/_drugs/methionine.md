@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
@@ -82,6 +82,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1902070M0AAAAAA | L-Methionine 250mg tablets | Methionine |
@@ -92,6 +94,8 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -100,6 +104,12 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 - Cardiovascular: hypertension, hypertensive disorder, heart disease, cardiovascular disease, hyperlipidaemia, familial hyperlipidaemia, ventricular fibrillation, digitalis poisoning
 - Renal: kidney disease, chronic kidney disease, chronic renal failure, end-stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
 - Metabolic: diabetes mellitus, diabetic ketoacidosis, hypercalcaemia, humoral hypercalcaemia of malignancy, sarcoidosis, phosphorus metabolism disease, phenylketonuria, disorders of phenylalanine metabolism
+
+<!-- review:begin uk-lic-20261106-methionine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence record lists no dosage form or approved indication text, so no approved use can be described from it." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-methionine-1 -->
 
 **Drug Interactions** (5 recorded):
 - Activated charcoal: Moderate
@@ -141,6 +151,19 @@ None of the following has a clinical trial. All are recommended as Hold, except 
 | 10 | Diabetic cataract | 1.0000 | L5 | Review of homocysteine in eye disease and laboratory studies of methionine sulfoxide reductase B1 (MsrB1) in lens cells; none tests methionine administration |
 
 For diabetic cataract, the MsrB1 findings (PMIDs [22713178](https://pubmed.ncbi.nlm.nih.gov/22713178/), [23270945](https://pubmed.ncbi.nlm.nih.gov/23270945/)) and the homocysteine review ([26343924](https://pubmed.ncbi.nlm.nih.gov/26343924/)) show involvement of the methionine redox system, not a benefit of methionine supplementation. Raised homocysteine is associated with eye disease, so supplementation carries a plausible safety concern. A research question is warranted only on the repair-pathway biology.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence record lists no dosage form or approved indication text, so no approved use can be described from it" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

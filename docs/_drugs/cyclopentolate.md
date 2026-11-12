@@ -76,6 +76,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1105000E0AAAEAE | Cyclopentolate 0.5% eye dps 0.5ml ud preservative free | Cyclopentolate hydrochloride |
@@ -88,6 +90,8 @@ Currently no related literature available.
 | 1105000E0BCABAC | Mydrilate 1% solution | Cyclopentolate hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The authorisation number above is as recorded in the compiled data and does not follow the usual PL format, so it should be verified against the MHRA register. The product is a topical ophthalmic preparation.
 

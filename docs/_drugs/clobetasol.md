@@ -81,6 +81,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1304000G0AAAAAA | Clobetasol 0.05% cream | Clobetasol propionate |
@@ -105,6 +107,8 @@ Currently no related clinical trials registered.
 | 1304000G0AACCCC | Clobetasol 500micrograms/g foam | Clobetasol propionate |
 
 Showing 20 of 53 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Dosage form and approved indication details were not available in the data compiled for this report. The authorisation number shown is not in standard MHRA PL format, so please verify it against the MHRA register.
 

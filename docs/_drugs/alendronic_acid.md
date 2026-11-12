@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -56,9 +56,29 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 
 > ⚠️ **Data Quality Notice**: This Evidence Pack is materially incomplete. Alendronic acid (DrugBank DB00630) is a well-established bisphosphonate with multiple MHRA-authorised products in the UK (e.g., Fosamax, and numerous generics). This must be investigated and corrected before any repurposing analysis is meaningful.
 
+<!-- review:begin uk-lic-20261106-alendronic_acid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The absence of licensing records and original indication data in the Evidence Pack strongly suggests a data ingestion failure upstream, rather than a true absence of authorisation. This must be investigated and corrected before any repurposing analysis is meaningful." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alendronic_acid-1 -->
+
+<!-- review:begin uk-lic-20261106-alendronic_acid-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "No marketing authorisation records were returned by the Evidence Pack pipeline for the United Kingdom." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alendronic_acid-2 -->
+
+<!-- review:begin uk-lic-20261106-alendronic_acid-4 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "> **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov.uk/) and re-run the data ingestion pipeline. Multiple PL numbers are expected for 70 mg weekly tablets and 10 mg daily tablets across numerous manufacturers." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alendronic_acid-4 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -81,6 +101,8 @@ Alendronic acid is a nitrogen-containing bisphosphonate widely used clinically f
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 ---
 
 ## Safety Considerations
@@ -98,6 +120,12 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 **Rationale:**
 The Evidence Pack is too incomplete to support any repurposing evaluation — there are no predicted indications, no original indication records, no UK regulatory data, and no safety information.
 
+<!-- review:begin uk-lic-20261106-alendronic_acid-3 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The Evidence Pack is too incomplete to support any repurposing evaluation — there are no predicted indications, no original indication records, no UK regulatory data, and no safety information. This reflects upstream pipeline failures rather than a genuine absence of data for this widely licensed drug." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alendronic_acid-3 -->
+
 **To proceed, the following is needed:**
 
 - **[Critical — DG001]** Retrieve and parse the UK SmPC (MHRA-approved labelling) for Alendronic acid to populate approved indications, warnings, and contraindications
@@ -105,9 +133,32 @@ The Evidence Pack is too incomplete to support any repurposing evaluation — th
 - **[Critical]** Re-run the TxGNN prediction pipeline; confirm that `predicted_indications` is populated with at least one candidate before generating a repurposing report
 - **[Recommended]** Once predictions are available, cross-reference with NICE technology appraisals and BNF bone metabolism drug category (BNF Chapter 6.6) for contextual relevance
 
+<!-- review:begin uk-lic-20261106-alendronic_acid-5 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "**[Critical]** Re-run the MHRA product licence ingestion pipeline and confirm PL records are correctly retrieved; verify that `market_status` and `total_licenses` fields are populated / **[Critical]** Re-run the TxGNN prediction pipeline; confirm that `predicted_indications` is populated with at least one candidate before generating a repurposing report" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-alendronic_acid-5 -->
+
 ---
 
 *This report is generated for research purposes only and does not constitute medical advice. Any drug repurposing candidate identified by TxGNN requires clinical validation before application. All findings should be interpreted in the context of current clinical guidelines and regulatory requirements.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The absence of licensing records and original indication data in the Evidence Pack strongly suggests a data ingestion failure upstream, rath" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "No marketing authorisation records were returned by the Evidence Pack pipeline for the United Kingdom" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "This reflects upstream pipeline failures rather than a genuine absence of data for this widely licensed drug" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "> **Action required**: Verify MHRA product licence data for Alendronic acid via the [MHRA Product Licence Search](https://products.mhra.gov." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**[Critical]** Re-run the MHRA product licence ingestion pipeline and confirm PL records are correctly retrieved; verify that `market_status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

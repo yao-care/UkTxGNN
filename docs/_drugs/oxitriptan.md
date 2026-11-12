@@ -76,6 +76,8 @@ The only publication linked to any prediction is a 1990 review of a different dr
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403040R0AAAJAJ | Oxitriptan 100mg tablets | Oxitriptan |
@@ -86,6 +88,8 @@ The only publication linked to any prediction is a 1990 review of a different dr
 | 0403040R0BBABAF | Tript-OH 50mg capsules | Oxitriptan |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier is a BNF-style product code rather than a standard PL number. It sits under BNF section 4.3.4 (antidepressant drugs, other). No manufacturer or approved indication text was available.
 

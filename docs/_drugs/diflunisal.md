@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Diflunisal"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "ankylosing spondylitis", "brachyolmia", "hypermobility of coccyx", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "inflammatory spondylopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diflunisal: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -76,9 +76,17 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for this predicted indication.
 
+<!-- review:begin uk-lic-20261106-diflunisal-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The local data show one valid single-ingredient licence. The record carries no dosage-form or indication text." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-diflunisal-1 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -89,6 +97,8 @@ Currently no related literature available for this predicted indication.
 | 1001010D0BCAAAA | Novo-Diflunisal 250mg tablets | Diflunisal |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,6 +127,19 @@ The prediction has no supporting trials or publications, and the mechanism of di
 - A credible mechanistic hypothesis connecting diflunisal to the GDF5/CDMP1 pathway, tested in preclinical models
 - Any clinical or literature evidence that directly studies this disease
 - Detailed mechanism of action data and full SmPC safety information for diflunisal
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The local data show one valid single-ingredient licence. The record carries no dosage-form or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

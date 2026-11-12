@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -69,6 +69,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000P0AAAAAA | Dorzolamide 20mg/ml eye drops | Dorzolamide |
@@ -94,7 +96,15 @@ Currently no related literature available.
 
 Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record. Please check the current SmPC and BNF entry for the authorised use and the product details.
+
+<!-- review:begin uk-lic-20261106-dorzolamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is currently marketed. The approved indication text is not recorded in the local data, and no dosage form is listed in the licence record." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 21 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-dorzolamide-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +122,19 @@ The prediction is computational only (evidence level L5). There are no trials or
 - Preclinical or early clinical studies directly in this condition
 - Assessment of whether a topical eye-drop formulation could be adapted for scalp use, including local tolerability and absorption
 - Complete safety information from the SmPC and BNF
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is currently marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

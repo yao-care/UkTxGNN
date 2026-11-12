@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010G0BBADAD | Kaletra 100mg/25mg tablets | Lopinavir and ritonavir |
@@ -99,7 +101,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The authorisation numbers shown are as listed in the data compiled for this report and are not in the standard MHRA PL format, so they should be verified against the MHRA register. Please check the BNF (section 5.3.1, HIV infection) and the relevant NICE guidance for the current approved indications.
+
+<!-- review:begin uk-lic-20261106-lopinavir-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both authorisations are valid single-ingredient records. The authorisation numbers shown are as listed in the data compiled for this report and are not in the standard MHRA PL format, so they should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 8 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lopinavir-1 -->
 
 ---
 
@@ -135,6 +145,19 @@ The only supporting evidence is three preclinical non-human primate studies, the
 - Approved indication text, dosage forms and verified MHRA authorisation numbers for the two listed products
 - A clear rationale for any use beyond preclinical research, such as a defined research role as a protease inhibitor model in SIV/SHIV systems
 - A cardiac (QT), hepatic and metabolic safety review, given the contraindication and interaction signals above
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both authorisations are valid single-ingredient records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

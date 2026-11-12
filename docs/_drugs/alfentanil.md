@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1501043A0AAAEAE | Alfentanil 0.1% nasal spray | Alfentanil hydrochloride |
@@ -85,6 +87,8 @@ Currently no related literature available.
 | 1501043A0BBADAD | Rapifen Intensive Care 5mg/1ml inj ampoules | Alfentanil hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

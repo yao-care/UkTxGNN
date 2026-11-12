@@ -75,6 +75,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 091101000AADSDS | L-Phenylalanine 100mg capsules | Other amino acidandnutritional agent preparations |
@@ -85,6 +87,8 @@ Currently no related clinical trials registered.
 | 0913445A0BGAAAG | Quest L-Phenylalanine 500mg capsules | Pdr disc/non ACBS single L-amino acid supplement (0913445) |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

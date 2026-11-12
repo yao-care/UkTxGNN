@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 398
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -85,6 +85,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0410030C0AAATAT | Methadone 1.67mg/5ml oral liquid | Methadone hydrochloride |
@@ -110,7 +112,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 71 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed number is a product code rather than a standard PL number. Please check the current MHRA record and the BNF for the authorised indications and formulations.
+
+<!-- review:begin uk-lic-20261106-methadone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Methadone is listed in the data as a single-ingredient product with a valid status. The listed number is a product code rather than a standard PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 71 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-methadone-1 -->
 
 ---
 
@@ -175,6 +185,19 @@ The Tourette syndrome prediction rests on a single small 1992 uncontrolled repor
 - A preclinical or small controlled study design with strict QT and respiratory monitoring
 - Full SmPC and BNF safety information, including warnings and contraindications
 - A risk-benefit assessment covering dependence, misuse and diversion potential in a young patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Methadone is listed in the data as a single-ingredient product with a valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

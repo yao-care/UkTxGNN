@@ -95,6 +95,8 @@ No randomised trials were identified. The most relevant publications are listed 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803010K0AAAKAK | Diethylstilbestrol 1mg tablets | Diethylstilbestrol |
@@ -103,6 +105,8 @@ No randomised trials were identified. The most relevant publications are listed 
 | 0702010L0BBAAAC | Tampovagan pessaries | Diethylstilbestrol |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier appears to be a BNF-style product code rather than a standard MHRA PL number. Approved indication text and manufacturer details were not available.
 

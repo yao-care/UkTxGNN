@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -88,6 +88,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205051M0AAACAC | Perindopril erbumine 1mg/5ml oral liquid | Perindopril erbumine |
@@ -113,7 +115,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please refer to the BNF (cardiovascular system, ACE inhibitors) and the SmPC for approved indications and dosing.
+
+<!-- review:begin uk-lic-20261106-perindopril-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "All four authorisations are single-ingredient products and currently valid. Please refer to the BNF (cardiovascular system, ACE inhibitors) and the SmPC for approved indications and dosing." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-perindopril-1 -->
 
 ---
 
@@ -151,6 +161,26 @@ The mechanistic link is plausible, but there are no clinical trials and no relev
 - SmPC and BNF warnings and contraindications, which are needed before any safety screening
 - A renal safety plan (renal function and potassium monitoring, caution in renal artery stenosis)
 - Approved indication text, to confirm the baseline licence
+
+<!-- review:begin uk-lic-20261106-perindopril-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Approved indication text for the four UK authorisations, to confirm the baseline licence" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-perindopril-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "All four authorisations are single-ingredient products and currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "for the four UK authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

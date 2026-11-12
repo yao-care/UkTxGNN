@@ -79,6 +79,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501013B0AAAIAI | Amoxicillin 125mg/1.25ml oral suspension paediatric | Amoxicillin |
@@ -103,6 +105,8 @@ Currently no related literature available.
 | 0501013B0BFAFAB | Amix 500 capsules | Amoxicillin |
 
 Showing 20 of 65 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

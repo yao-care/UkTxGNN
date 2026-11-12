@@ -63,6 +63,8 @@ The other top-ranked predictions are even less convincing. They include malforma
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0803043P0AAADAD | Lanreotide 120mg/0.5ml inj pre-filled syringes | Lanreotide |
@@ -80,6 +82,8 @@ The other top-ranked predictions are even less convincing. They include malforma
 | 0803043P0BBAAAA | Somatuline LA 30mg inj vials | Lanreotide |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 This identifier follows a BNF-style product code rather than a standard PL number. Please verify the authorisation details against the MHRA register.
 

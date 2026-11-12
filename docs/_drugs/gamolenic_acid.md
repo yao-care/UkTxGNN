@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1305010I0AAAAAA | Gamolenic acid 40mg capsules | Gamolenic acid |
@@ -96,6 +98,8 @@ Currently no related literature available.
 | 091200000BFNQEP | Lloydspharmacy Evening Primrose Oil 1000mg capsules | Other health supplement preparations |
 
 Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is a classification-style code rather than a standard MHRA PL number, so it should be verified against the MHRA register. The approved indication, manufacturer and NICE appraisal status should also be checked against the SmPC and BNF.
 

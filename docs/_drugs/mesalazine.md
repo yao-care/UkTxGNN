@@ -85,6 +85,8 @@ Currently no related literature available for the predicted indication.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0105010B0AAARAR | Mesalazine 1.2g gastro-resistant modified-release tablets | Mesalazine (Systemic) |
@@ -109,6 +111,8 @@ Currently no related literature available for the predicted indication.
 | 0105010B0AAAWAW | Mesalazine 500mg gastro-resistant tablets | Mesalazine (Systemic) |
 
 Showing 20 of 59 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Mesalazine sits in BNF chapter 1.5 (aminosalicylates for inflammatory bowel disease). The identifier above appears to be a BNF-style product code rather than a standard MHRA PL number, so the PL number should be confirmed against the MHRA register.
 

@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409020C0AAAPAP | Trihexyphenidyl 10mg/5ml oral solution | Trihexyphenidyl hydrochloride |
@@ -101,6 +103,8 @@ Currently no related clinical trials registered.
 | 0409020C0BCAAAC | Broflex 5mg/5ml syrup | Trihexyphenidyl hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The marketing authorisation number above is as recorded in the compiled data and does not follow the usual MHRA "PL" format, so it should be verified against the MHRA register. Please consult the BNF (antimuscarinic drugs used in parkinsonism) and the current SmPC for licensed indications.
 

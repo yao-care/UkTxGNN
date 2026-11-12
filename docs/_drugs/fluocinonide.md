@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluocinonide: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Inflammatory skin conditions, including atopic eczema…"
 monitor_inn: "Fluocinonide"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
@@ -96,6 +96,8 @@ No literature was found for the other predicted indications.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1304000P0AAAAAA | Fluocinonide 0.05% cream | Fluocinonide |
@@ -111,7 +113,15 @@ No literature was found for the other predicted indications.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The data compiled for this report do not include NICE-appraised indications or BNF classification details. Please check the current MHRA records and the BNF.
+
+<!-- review:begin uk-lic-20261106-fluocinonide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient authorisation is recorded; there are no combination products and none have been cancelled. The data compiled for this report do not include NICE-appraised indications or BNF classification details." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-fluocinonide-1 -->
 
 ---
 
@@ -138,6 +148,19 @@ The predictions rest almost entirely on the TxGNN score. The only retrieved tria
 - Direct comparative or controlled studies of topical fluocinonide in alopecia areata or alopecia mucinosa
 - Confirmation of whether fluocinonide was a studied treatment in NCT04207931
 - Assessment of scalp application, including route suitability and the risk of systemic absorption
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded; there are no combination products and none have been cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

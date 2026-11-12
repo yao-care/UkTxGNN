@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mesenteritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L1). Approved use: Chronic hepatitis C virus infection"
 ---
 
@@ -107,6 +107,8 @@ The retrieved publications are almost entirely reviews. None is a randomised tri
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503050B0AAAIAI | Ribavirin 1.2g/12ml solution for injection vials | Ribavirin |
@@ -124,7 +126,15 @@ The retrieved publications are almost entirely reviews. None is a randomised tri
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report. The identifier looks like a BNF-style product code rather than a "PL" number, so check it against the MHRA record.
+
+<!-- review:begin uk-lic-20261106-ribavirin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is one valid single-ingredient record. It carries no indication text, so the UK approved indication cannot be stated from the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-ribavirin-1 -->
 
 ---
 
@@ -164,6 +174,19 @@ The other eight predictions have no supporting clinical trials, and their eviden
 - UK licence indication text, dosage form and SmPC warnings and contraindications
 - Severity grading of the listed drug interactions
 - A safety plan covering anaemia, pulmonary and cardiovascular risks, and pregnancy precautions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is one valid single-ingredient record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

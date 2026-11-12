@@ -94,6 +94,8 @@ Most records are older, and several study designs cannot be confirmed from title
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0403010N0AAAJAJ | Imipramine 100mg/5ml oral liquid | Imipramine hydrochloride |
@@ -110,6 +112,8 @@ Most records are older, and several study designs cannot be confirmed from title
 | 0403010N0BCACAC | Tofranil 25mg/5ml syrup | Imipramine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

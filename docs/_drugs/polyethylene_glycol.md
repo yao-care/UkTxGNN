@@ -72,6 +72,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0106040M0AAAJAJ | Macrogol 3350 oral powder 8.5g sachets sugar free | Macrogol 3350 |
@@ -96,6 +98,8 @@ Currently no related literature available.
 | 0106040M0AAAHAH | Macrogol compound oral liquid NPF sugar free | Macrogol 3350 |
 
 Showing 20 of 39 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (0106040M0) places this product among osmotic laxatives (BNF section 1.6.4). No topical or dermatological product is listed.
 

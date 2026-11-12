@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Peppermint Oil: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Peppermint oil"
 predicted_indications: ["leprosy", "pneumocystosis", "coronary artery disease", "myocardial ischemia", "echinococcus granulosus infectious disease", "polyp of vocal cord", "uterine polyp", "polyp of middle ear", "cardiovascular disease", "polyp of frontal sinus"]
@@ -95,6 +95,8 @@ Other retrieved publications concerned formulation of unrelated antihypertensive
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0102000T0AAAAAA | Peppermint oil 0.2ml gastro-resistant capsules | Peppermint oil |
@@ -115,7 +117,15 @@ Other retrieved publications concerned formulation of unrelated antihypertensive
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifiers above are as recorded in the compiled data and are not in the standard PL number format, so they should be verified against the MHRA and BNF records.
+
+<!-- review:begin uk-lic-20261106-peppermint_oil-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Both entries are valid single-ingredient products. The identifiers above are as recorded in the compiled data and are not in the standard PL number format, so they should be verified against the MHRA and BNF records." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 15 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-peppermint_oil-1 -->
 
 ---
 
@@ -138,6 +148,19 @@ The only supported prediction, cardiovascular disease, rests on one small comple
 - Mechanism of action data, for example from DrugBank
 - Approved indication text, dosage forms and verified authorisation numbers for the two UK products
 - Larger, adequately powered trials with clinical cardiovascular endpoints, if the hypertension findings are positive
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Both entries are valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

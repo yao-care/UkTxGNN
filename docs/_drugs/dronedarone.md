@@ -92,12 +92,16 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0203020X0AAAAAA | Dronedarone 400mg tablets | Dronedarone hydrochloride |
 | 0203020X0BBAAAA | Multaq 400mg tablets | Dronedarone hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 

@@ -82,12 +82,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0906050U0AAAAAA | Tocofersolan 50mg/ml oral solution sugar free | Tocofersolan |
 | 0906050U0BBAAAA | Vedrop 50mg/ml oral solution | Tocofersolan |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification code (chapter 9, nutrition and blood) suggests a vitamin product. The recorded identifier is a BNF/NHS product code rather than a standard PL number, and the approved indication text, manufacturer and NICE appraisal information were not available.
 

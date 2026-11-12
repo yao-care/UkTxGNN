@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sulpiride: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Sulpiride"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
@@ -79,6 +79,8 @@ Both publications are animal studies. No human studies were identified.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0402010U0AAAPAP | Sulpiride 100mg/5ml oral liquid | Sulpiride |
@@ -102,7 +104,15 @@ Both publications are animal studies. No human studies were identified.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs.
+
+<!-- review:begin uk-lic-20261106-sulpiride-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather than a standard MHRA product licence (PL) number, so the licence details should be checked against the MHRA register. The BNF chemical code (0402010) places sulpiride among the antipsychotic drugs." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-sulpiride-1 -->
 
 ## Safety Considerations
 
@@ -123,6 +133,19 @@ The prediction score is very high, but support is limited to two animal electrop
 - Detailed mechanism of action data and clarification of the role of D2 antagonism in retinal degeneration
 - Review of the SmPC for safety, including a risk-benefit assessment for long-term use in a non-psychiatric population
 - Verification of the UK licence details (licence number, dosage form and approved indication)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather th" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

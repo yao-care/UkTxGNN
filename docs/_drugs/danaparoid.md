@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 203
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Danaparoid: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
@@ -40,6 +40,12 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 Danaparoid is a heparinoid anticoagulant (a mixture of heparan sulfate, dermatan sulfate and chondroitin sulfate).
 The TxGNN model predicts it may be relevant to **Glanzmann thrombasthenia**, but **no clinical trials and no publications** support this, and the biological rationale points in the opposite direction (anticoagulation would be expected to worsen bleeding).
+
+<!-- review:begin uk-lic-20261106-danaparoid-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Danaparoid is a heparinoid anticoagulant (a mixture of heparan sulfate, dermatan sulfate and chondroitin sulfate) with one marketing authorisation record in the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-danaparoid-1 -->
 
 ---
 
@@ -89,12 +95,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0208010C0AAAAAA | Danaparoid sodium 750units/0.6ml inj ampoules | Danaparoid sodium |
 | 0208010C0BBAAAA | Orgaran 750units/0.6ml solution for injection ampoules | Danaparoid sodium |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Dosage form, manufacturer and approved indication are not recorded for this authorisation. The record appears to be a topical heparinoid cream, which is not the same as the injectable danaparoid used as an anticoagulant. The licence number format also does not follow the usual MHRA "PL" pattern, so the record should be verified against the MHRA register and the BNF before any conclusions are drawn.
 
@@ -131,6 +141,19 @@ The predictions rest on model output alone (evidence level L5), with no trials o
 - Mechanism of action data and SmPC/BNF safety information (warnings and contraindications)
 - A biological justification for any benefit in platelet disorders, ideally from preclinical or mechanistic studies
 - Review of whether other predicted indications with a more plausible link exist; the six candidates here are not recommended for further development
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with one marketing authorisation record in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

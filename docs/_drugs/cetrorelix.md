@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -72,6 +72,8 @@ The link to the predicted indication is weak. Hypertrichosis is not a classic an
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0607020D0AAAAAA | Cetrorelix 250microgram inj vials | Cetrorelix |
@@ -81,7 +83,15 @@ The link to the predicted indication is weak. Hypertrichosis is not a classic an
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier above is the BNF-style product code from the data compiled for this report, not a PL number.
+
+<!-- review:begin uk-lic-20261106-cetrorelix-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The identifier above is the BNF-style product code from the data compiled for this report, not a PL number. The record has no dosage form or indication text, so the licensed indication should be confirmed against the current SmPC." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cetrorelix-1 -->
 
 ---
 
@@ -108,6 +118,19 @@ The predicted indication has a high model score but no trials, no literature and
 - The full UK licence details (PL number, dosage form, indication text)
 - A systematic literature and trial search for hypertrichosis, and separately for central precocious puberty, which is the most plausible of the ten predictions and could be reviewed as a research question
 - Comparison with existing standard-of-care options in any indication that is pursued
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record has no dosage form or indication text, so the licensed indication should be confirmed against the current SmPC" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

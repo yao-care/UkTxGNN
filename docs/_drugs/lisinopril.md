@@ -88,6 +88,8 @@ For the lower-ranked prediction **chronic pulmonary heart disease**, the followi
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205051L0AAACAC | Lisinopril 10mg tablets | Lisinopril |
@@ -112,6 +114,8 @@ For the lower-ranked prediction **chronic pulmonary heart disease**, the followi
 | 0205051L0BCAAAA | Carace 2.5mg tablets | Lisinopril |
 
 Showing 20 of 41 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above appears to be a BNF-style product code rather than an MHRA PL number, and the record contains no indication or manufacturer text. Please verify against the MHRA product database and the BNF.
 

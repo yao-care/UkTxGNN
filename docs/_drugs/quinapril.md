@@ -88,6 +88,8 @@ No literature is available for the top-ranked prediction. The only publications 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0205051Q0AAABAB | Quinapril 10mg tablets | Quinapril hydrochloride |
@@ -106,6 +108,8 @@ No literature is available for the top-ranked prediction. The only publications 
 | 0205051Q0BCAAAA | Quinil 5mg tablets | Quinapril hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: this identifier is formatted like a BNF code rather than an MHRA PL number, so the MHRA licence details should be verified.
 

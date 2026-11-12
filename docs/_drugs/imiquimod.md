@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital human papillomavirus infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -83,6 +83,8 @@ Actinic keratosis, a premalignant skin lesion, is already among imiquimod's esta
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1307000V0AAABAB | Imiquimod 3.75% cream 250mg sachets | Imiquimod |
@@ -93,7 +95,15 @@ Actinic keratosis, a premalignant skin lesion, is already among imiquimod's esta
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier does not follow the usual MHRA "PL" format, so please verify it against the MHRA record. NICE appraisal and BNF classification details were not available.
+
+<!-- review:begin uk-lic-20261106-imiquimod-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is the only authorisation in the data compiled for this report. The identifier does not follow the usual MHRA "PL" format, so please verify it against the MHRA record." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 5 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-imiquimod-1 -->
 
 ## Cytotoxicity
 
@@ -121,6 +131,19 @@ The prediction overlaps with an established use (actinic keratosis) and has a pl
 - Review of the interaction data and a monitoring plan for autoimmune, immunosuppressed and photosensitive patients
 
 *Other predicted indications (ranks 2–10) are not covered in detail here. They rest on L3–L5 evidence at most, such as scoping reviews, animal models and case reports, and are not recommended for progression at this stage.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

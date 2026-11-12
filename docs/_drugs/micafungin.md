@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 413
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
 description: "Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data"
@@ -93,6 +93,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0502040B0AAAAAA | Micafungin 100mg powder for solution for infusion vials | Micafungin |
@@ -102,7 +104,15 @@ Currently no related clinical trials registered.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Micafungin sits in the BNF antifungal section (chapter 5, infections). The data compiled for this report contain no NICE-appraised indication details.
+
+<!-- review:begin uk-lic-20261106-micafungin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report contain one valid single-ingredient product and no NICE-appraised indication details." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-micafungin-1 -->
 
 ---
 
@@ -139,6 +149,18 @@ The mechanism is plausible and a pharmacokinetic study plus several case series,
 - Clear patient selection criteria (symptomatic infection, azole-resistant species, upper tract or invasive disease) in line with antifungal stewardship
 - Confirmation of the licensed UK indications and SmPC safety information
 - A renal safety review given the knowledge-graph kidney disease contraindication signal
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "one valid single-ingredient product and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

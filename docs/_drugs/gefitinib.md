@@ -69,12 +69,16 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0801050AWAAAAAA | Gefitinib 250mg tablets | Gefitinib |
 | 0801050AWBBAAAA | Iressa 250mg tablets | Gefitinib |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is a BNF-style product code rather than a standard PL number. The compiled data contain no dosage form or indication text for this record, and no NICE-appraised indication details. Please check the current SmPC and the BNF.
 

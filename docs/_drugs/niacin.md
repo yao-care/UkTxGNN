@@ -72,6 +72,8 @@ The TxGNN model produced candidate indications for Niacin with a score of 0.99 o
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0212000U0AAAXAX | Nicotinic acid 1g modified-release tablets | Nicotinic acid |
@@ -89,6 +91,8 @@ The TxGNN model produced candidate indications for Niacin with a score of 0.99 o
 | 0212000AEBBAAAA | Tredaptive 1000mg/20mg modified-release tablets | Nicotinic acid/laropiprant |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

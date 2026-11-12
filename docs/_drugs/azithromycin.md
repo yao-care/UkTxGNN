@@ -76,6 +76,8 @@ Currently no related literature available for hyperamylasemia.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1103010AIAAAAAA | Azithromycin 15mg/g eye dps 0.25g ud preservative free | Azithromycin |
@@ -91,6 +93,8 @@ Currently no related literature available for hyperamylasemia.
 | 0501050A0BBADAD | Zithromax 500mg tablets | Azithromycin |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The BNF classification for this product is not stated in the compiled data. Please verify the licence details and approved indications against the MHRA record and the current SmPC.
 

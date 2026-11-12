@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetazolamide: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Relations recorded in the knowledge graph: absence epilepsy…"
 ---
 
@@ -81,6 +81,8 @@ Currently no related literature available for exercise-induced malignant hyperth
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1106000B0AAA2A2 | Acetazolamide 100mg/5ml oral liquid | Acetazolamide |
@@ -106,7 +108,15 @@ Currently no related literature available for exercise-induced malignant hyperth
 
 Showing 20 of 35 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No indication text or dosage form is recorded, so the licensed indications should be checked against the current SmPC and BNF.
+
+<!-- review:begin uk-lic-20261106-acetazolamide-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The compiled data list one single-ingredient authorisation, which is currently valid. No indication text or dosage form is recorded, so the licensed indications should be checked against the current SmPC and BNF." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 35 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-acetazolamide-1 -->
 
 ---
 
@@ -135,6 +145,19 @@ The prediction rests on the TxGNN score alone. No clinical trials or publication
 - Preclinical or clinical studies that directly address the predicted disease
 - Licence indication text and dosage form for the UK authorisation, plus SmPC warnings and contraindications
 - A safety assessment against the recorded contraindications and interactions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The compiled data list one single-ingredient authorisation, which is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

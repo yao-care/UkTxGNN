@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 10
 monitor_inn: "Bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data"
 ---
 
@@ -41,6 +41,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 Bupropion is a norepinephrine and dopamine reuptake inhibitor.
 The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder**,
 with **6 clinical trials** and **19 publications** currently supporting this direction, including a completed Phase 3 trial and a Cochrane review of bupropion in adult ADHD.
+
+<!-- review:begin uk-lic-20261106-bupropion-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Bupropion is a norepinephrine and dopamine reuptake inhibitor with a single valid UK marketing authorisation on record." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-bupropion-1 -->
 
 ## Quick Overview
 
@@ -88,6 +94,8 @@ Guardrails apply: bupropion lowers the seizure threshold, can affect blood press
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0410020A0AAAAAA | Bupropion 150mg modified-release tablets | Bupropion hydrochloride |
@@ -97,7 +105,15 @@ Guardrails apply: bupropion lowers the seizure threshold, can affect blood press
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please refer to the SmPC and BNF for authorised uses.
+
+<!-- review:begin uk-lic-20261106-bupropion-2 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "One valid single-ingredient marketing authorisation is recorded for bupropion: a modified-release 150 mg tablet. The licence record carries no dosage form or approved indication text, so details are not shown here. Please refer to the SmPC and BNF for authorised uses." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 4 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-bupropion-2 -->
 
 ## Safety Considerations
 
@@ -123,6 +139,20 @@ A completed Phase 3 placebo-controlled trial, a Phase 2/3 trial, and a Cochrane 
 - SmPC-based warnings and contraindications review, particularly seizure history, hypertension and substance use disorders
 - Review of the major interactions, especially with opioids and other CNS-active drugs
 - A monitoring plan for blood pressure and seizure risk in the target population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "with a single valid UK marketing authorisation on record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "One valid single-ingredient marketing authorisation is recorded for bupropion: a modified-release 150 mg tablet. The licence record carries " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -79,6 +79,8 @@ For context, literature exists for other lower-ranked predictions, but it descri
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0104020L0AAASAS | Loperamide 15mg/5ml oral solution | Loperamide hydrochloride |
@@ -103,6 +105,8 @@ For context, literature exists for other lower-ranked predictions, but it descri
 | 0104020L0BEAAAA | Diocalm Ultra 2mg capsules | Loperamide hydrochloride |
 
 Showing 20 of 46 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 The identifier above is in the format of a BNF-style code rather than a standard MHRA PL number, so the authorisation details should be verified against the MHRA database.
 

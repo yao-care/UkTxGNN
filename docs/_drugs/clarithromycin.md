@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia…"
 ---
 
@@ -83,6 +83,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501050B0AAAGAG | Clarithromycin 125mg granules for oral suspension sachets | Clarithromycin |
@@ -108,7 +110,15 @@ Currently no related clinical trials registered.
 
 Showing 20 of 26 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the SmPC and BNF (macrolides, infections section) for the authorised indications.
+
+<!-- review:begin uk-lic-20261106-clarithromycin-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The data compiled for this report list one single-ingredient authorisation, with a status of valid. Please check the SmPC and BNF (macrolides, infections section) for the authorised indications." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 26 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clarithromycin-1 -->
 
 ---
 
@@ -145,6 +155,19 @@ The prediction rests on a single case report in which hyperamylasemia was a coex
 - Clinical or observational studies that directly examine hyperamylasemia as a treatment target
 - Label-based warnings and contraindications from the SmPC, to replace the graph-derived safety relations
 - Full licence details (dosage form and approved indications) for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The data compiled for this report list one single-ingredient authorisation, with a status of valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

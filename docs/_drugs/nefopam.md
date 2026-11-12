@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Nefopam"
 predicted_indications: ["immature cataract", "mature cataract", "craniostenosis cataract", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nefopam: predicted new indication Immature cataract (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
@@ -78,9 +78,17 @@ Currently no related literature available.
 
 For context, among the other predictions for nefopam, only lumbar spinal stenosis has any publications. These concern perioperative pain and dysesthesia, which is symptom control rather than a disease-modifying effect. They do not bear on cataract.
 
+<!-- review:begin uk-lic-20261106-nefopam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication could not be confirmed from the data compiled for this report." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 7 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-nefopam-1 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -93,6 +101,8 @@ For context, among the other predictions for nefopam, only lumbar spinal stenosi
 | 0407010P0BBAAAB | Acupan 30mg tablets | Nefopam hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -118,6 +128,19 @@ The prediction rests only on a model score. There are no trials or publications 
 - The SmPC warnings and contraindications, and the licensed indication text, for the UK product
 - A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.
 - Given the seizure risk, a safety review before any consideration in an older population, in which cataract is most common
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

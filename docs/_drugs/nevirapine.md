@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 440
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nevirapine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection"
 monitor_inn: "Nevirapine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -87,6 +87,8 @@ Five further publications (PMIDs 27748043, 1283296, 9145853, 12176326, 23320071 
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503010B0AAADAD | Nevirapine 100mg modified-release tablets | Nevirapine |
@@ -102,7 +104,15 @@ Five further publications (PMIDs 27748043, 1283296, 9145853, 12176326, 23320071 
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Please check the MHRA register and the SmPC for the full licence details.
+
+<!-- review:begin uk-lic-20261106-nevirapine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record gives a BNF-style product code rather than a PL number, and no dosage form or indication text. Please check the MHRA register and the SmPC for the full licence details." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 10 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-nevirapine-1 -->
 
 ## Safety Considerations
 
@@ -139,6 +149,19 @@ The evidence is preclinical only (L4). There are no clinical trials, and SIV inf
 - Mechanism of action data
 - Full UK licence details and SmPC safety information, including warnings and contraindications
 - Direct evidence of nevirapine activity against wild-type SIV, as opposed to SHIV chimeras carrying HIV-1 RT
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record gives a BNF-style product code rather than a PL number, and no dosage form or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

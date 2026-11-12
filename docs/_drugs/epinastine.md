@@ -69,12 +69,16 @@ Currently no related literature available for rosacea conjunctivitis.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1104020ACAAAAAA | Epinastine 500micrograms/ml eye drops | Epinastine hydrochloride |
 | 1104020ACBBAAAA | Relestat 0.5mg/ml eye drops | Epinastine hydrochloride |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note: the identifier above is as recorded in the compiled data and is not in standard MHRA "PL" format. It should be verified against the MHRA register. Dosage form is inferred from the product name. NICE appraisal and BNF classification details were not available.
 

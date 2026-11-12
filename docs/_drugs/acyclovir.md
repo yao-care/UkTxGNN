@@ -73,6 +73,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0503021C0AAAKAK | Aciclovir 1g/40ml solution for infusion vials | Aciclovir |
@@ -97,6 +99,8 @@ Currently no related clinical trials registered.
 | 1310030C0BJAAAA | Galpharm Cold Sore 5% cream | Aciclovir |
 
 Showing 20 of 45 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

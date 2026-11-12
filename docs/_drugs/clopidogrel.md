@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Clopidogrel"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -91,6 +91,8 @@ None of these publications studies migraine with brainstem aura directly. They c
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0209000C0AAAFAF | Clopidogrel 11mg oral powder sachets | Clopidogrel |
@@ -114,7 +116,15 @@ None of these publications studies migraine with brainstem aura directly. They c
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 No indication text is recorded for it, so no approved-indication summary is given here.
+
+<!-- review:begin uk-lic-20261106-clopidogrel-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Clopidogrel is marketed in the UK, and at least one valid single-ingredient authorisation is recorded in the local data. No indication text is recorded for it, so no approved-indication summary is given here." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 18 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-clopidogrel-1 -->
 
 ---
 
@@ -140,6 +150,19 @@ No study in the data compiled for this report addresses migraine with brainstem 
 - Studies or registered trials that specifically include people with migraine with brainstem aura
 - Mechanism-of-action data and a mechanistic case specific to this subtype
 - Safety information from the UK SmPC and BNF, including a bleeding-risk assessment and a review of interactions (especially with proton pump inhibitors)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Clopidogrel is marketed in the UK, and at least one valid single-ingredient authorisation is recorded in the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

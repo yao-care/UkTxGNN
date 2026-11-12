@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Levodopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson's disease and related parkinsonian syndromes"
 monitor_inn: "Levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -71,6 +71,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0409010I0AAAKAK | Levodopa 100mg/5ml oral liquid | Levodopa |
@@ -96,7 +98,15 @@ Currently no related literature available.
 
 Showing 20 of 85 BNF presentation codes. Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The identifier shown is not in the standard MHRA PL format, so the authorisation details should be verified against the MHRA register. BNF classification and NICE appraisal information were not available in the data compiled.
+
+<!-- review:begin uk-lic-20261106-levodopa-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation is recorded (single-ingredient, valid). The identifier shown is not in the standard MHRA PL format, so the authorisation details should be verified against the MHRA register." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 85 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-levodopa-1 -->
 
 ## Safety Considerations
 
@@ -131,6 +141,19 @@ The only support is a high TxGNN score. There are no trials or publications, the
 - Preclinical or observational evidence in Rasmussen encephalitis
 - SmPC and BNF warnings and contraindications, particularly regarding seizure threshold
 - Verification of the UK marketing authorisation record, including approved indication and dosage form
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Only one authorisation is recorded (single-ingredient, valid)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

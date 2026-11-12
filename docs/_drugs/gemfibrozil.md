@@ -86,6 +86,8 @@ Currently no related clinical trials registered.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0212000Q0AAAAAA | Gemfibrozil 300mg capsules | Gemfibrozil |
@@ -94,6 +96,8 @@ Currently no related clinical trials registered.
 | 0212000Q0BBABAB | Lopid 600mg tablets | Gemfibrozil |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 Note that this authorisation number is not in the standard UK PL format, and the dosage form and approved indication are not recorded in the compiled data. Please verify against the MHRA register, the SmPC and the BNF.
 

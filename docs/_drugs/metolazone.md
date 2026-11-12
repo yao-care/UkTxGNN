@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Metolazone"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data"
@@ -79,6 +79,8 @@ For the fourth-ranked prediction (pulmonary hypertension owing to lung disease a
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0202010V0AAAMAM | Metolazone 1.25mg/5ml oral liquid | Metolazone |
@@ -95,7 +97,15 @@ For the fourth-ranked prediction (pulmonary hypertension owing to lung disease a
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 Dosage form and approved indication text are not available, so please check the current SmPC and BNF entry.
+
+<!-- review:begin uk-lic-20261106-metolazone-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Note: the licence data compiled for this report contain one valid single-ingredient authorisation. Dosage form and approved indication text are not available, so please check the current SmPC and BNF entry." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 11 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-metolazone-1 -->
 
 ## Safety Considerations
 
@@ -124,6 +134,19 @@ The prediction is supported only by the TxGNN score. There are no clinical trial
 - SmPC and BNF warnings and contraindications for formal safety screening
 - Approved indication text, dosage form and manufacturer details for the UK authorisation
 - Clinical or observational evidence in the predicted indication, followed by a specialist (nephrology/cardiology) review of whether any role exists beyond adjunctive diuretic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "Note: the licence data compiled for this report contain one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -76,6 +76,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Trifluridine
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 1103030T0AAABAB | Trifluridine 1% eye drops | Trifluridine (Antivirals) |
@@ -87,6 +89,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Trifluridine
 | 1103030T0BDAAAB | Viroptic 1% eye drops | Trifluridine (Antivirals) |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Cytotoxicity
 

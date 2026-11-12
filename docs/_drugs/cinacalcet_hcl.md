@@ -7,7 +7,7 @@ parent: Model Prediction Only (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -91,6 +91,25 @@ No TxGNN-predicted indications have been generated for cinacalcet, and critical 
 - Confirm UK marketing authorisation status
 - Once predicted indications are generated, re-run the evidence collection pipeline (ClinicalTrials.gov, PubMed, ICTRP) to populate the clinical and literature evidence sections
 - Re-evaluate at the next review cycle once the above gaps are addressed
+
+<!-- review:begin uk-lic-20261106-cinacalcet_hcl-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "Confirm UK marketing authorisation status (note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cinacalcet_hcl-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "(note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

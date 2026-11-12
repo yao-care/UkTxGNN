@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Zafirlukast"
 predicted_indications: ["bronchitis"]
 description: "Zafirlukast: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data"
@@ -75,9 +75,17 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+<!-- review:begin uk-lic-20261106-zafirlukast-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL number, and no approved indication text is recorded. The single licence is valid and is for a single-ingredient product." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 2 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-zafirlukast-1 -->
+
 ---
 
 ## UK Market Information
+
+<!-- licenses:begin -->
 
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
@@ -85,6 +93,8 @@ Currently no related literature available.
 | 0303020Z0BBAAAB | Accolate 20mg tablets | Zafirlukast |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,6 +119,18 @@ The only support for bronchitis is a high TxGNN score (0.9993); no clinical tria
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the SmPC and BNF
 - Review of the hepatic and neuropsychiatric cautions and the moderate-grade interactions before any use in a new population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL number, and no approved indication text is reco" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

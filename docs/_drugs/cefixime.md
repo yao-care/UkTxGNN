@@ -81,6 +81,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021C0AAABAB | Cefixime 100mg/5ml oral suspension | Cefixime |
@@ -91,6 +93,8 @@ The TxGNN model has no candidate with a score of 0.99 or higher for Cefixime, so
 | 0501021C0BBABAB | Suprax Paediatric 100mg/5ml oral suspension | Cefixime |
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

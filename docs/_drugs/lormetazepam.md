@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Lormetazepam"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
 description: "Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not recorded in the local data"
@@ -78,6 +78,8 @@ Currently no related literature available.
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0401010P0AAAHAH | Lormetazepam 125micrograms/5ml oral suspension | Lormetazepam |
@@ -89,7 +91,15 @@ Currently no related literature available.
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The listed identifier follows the BNF-style product code format rather than a PL number.
+
+<!-- review:begin uk-lic-20261106-lormetazepam-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "At least one single-ingredient authorisation is currently valid, and none are cancelled. The listed identifier follows the BNF-style product code format rather than a PL number." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-lormetazepam-1 -->
 
 ---
 
@@ -112,6 +122,18 @@ The model score is very high, but there are no lormetazepam-specific trials or p
 - Safety information from the SmPC and BNF (warnings, contraindications, interactions), including dependence and misuse considerations
 - Confirmation of the approved indication text for the UK authorisation
 - Assessment of whether the available oral tablet suits the acute inpatient setting in which this condition is managed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "At least one single-ingredient authorisation is currently valid, and none are cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

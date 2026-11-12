@@ -5,7 +5,7 @@ layout: default
 title: Cefradine
 parent: Known Uses Only (No New Predictions)
 nav_order: 143
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefradine: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Cefradine"
 predicted_indications: []
@@ -50,6 +50,8 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 ## UK Market Information
 
+<!-- licenses:begin -->
+
 | BNF presentation code | BNF presentation | BNF chemical substance |
 |------|------|------|
 | 0501021M0AAADAD | Cefradine 1g powder for solution for injection vials | Cefradine |
@@ -67,7 +69,15 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 
 Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
 
+<!-- licenses:end -->
+
 The dosage form, manufacturer and approved indication text are not available.
+
+<!-- review:begin uk-lic-20261106-cefradine-1 -->
+
+> **Review correction (2026-11-06)**: Originally stated: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number. The dosage form, manufacturer and approved indication text are not available." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261106-cefradine-1 -->
 
 ---
 
@@ -86,6 +96,18 @@ The dosage form, manufacturer and approved indication text are not available.
 Please refer to the SmPC and BNF for full warnings and contraindications. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ---
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Removed: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 
