@@ -24,7 +24,7 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 | **Unique Drugs** | 759 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 710 MK / 4,933 CUD |
+| **FHIR Resources** | 583 MK / 3,115 CUD |
 
 ### Evidence Level Distribution
 
