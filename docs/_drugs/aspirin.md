@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB00945
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-17
 description: "Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
@@ -39,8 +39,9 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Aspirin is a long-established cyclooxygenase (COX) inhibitor with antiplatelet activity, marketed in the UK in many single-ingredient and combination products.
-There are currently **no registered clinical trials** for this condition. The 20 publications compiled for this report cover migraine and migraine with aura more broadly, and none studies the brainstem aura subtype directly.
+Aspirin is a long-established cyclooxygenase inhibitor with antiplatelet activity, marketed in the UK in many single-ingredient products.
+The TxGNN model predicts it may be relevant to **atrophoderma vermiculata**, a rare atrophic skin disorder affecting hair follicles.
+There are currently **no registered clinical trials and no publications** supporting this prediction, so it rests on the computational score alone.
 
 ## Quick Overview
 
@@ -56,11 +57,9 @@ There are currently **no registered clinical trials** for this condition. The 20
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on established pharmacology, aspirin irreversibly inhibits COX enzymes. This reduces prostaglandin synthesis and platelet aggregation, which could plausibly dampen neurogenic inflammation and microembolic or thrombotic contributions to aura.
+Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Aspirin is generally known to irreversibly inhibit cyclooxygenase enzymes. This reduces prostaglandin and thromboxane production, which gives it antiplatelet, anti-inflammatory and analgesic effects.
 
-A further hypothesis links migraine with aura to patent foramen ovale and paradoxical microemboli, which an antiplatelet agent might influence. Reports in the compiled literature, such as the high prevalence of patent foramen ovale in migraine with aura (PMID 16362645), are consistent with this idea but do not prove benefit from aspirin.
-
-Aspirin has also been studied in other migraine settings, including preventive use in migraine with aura and acute treatment with intravenous aspirin. However, **no cited study addresses the brainstem aura subtype specifically**. The prediction therefore rests on a plausible mechanism and on extrapolation from the broader migraine literature, not on direct evidence.
+Atrophoderma vermiculata is a rare follicular atrophic skin disorder. The data compiled for this report show no clear mechanistic link between aspirin's COX-inhibition or antiplatelet action and this condition. The high TxGNN score (0.9959) reflects a model-derived association only. Without clinical or literature support, the prediction should be treated as a hypothesis, not as a basis for use.
 
 ## Clinical Trial Evidence
 
@@ -68,22 +67,11 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Double-blind, double-dummy trial of 278 patients with acute migraine (with or without aura). Intravenous lysine acetylsalicylate was compared with subcutaneous sumatriptan and placebo. |
-| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Randomised crossover study | Pain | Aspirin modulated an antinociceptive brainstem reflex (exteroceptive suppression) in patients with migraine without aura, patients with tension-type headache and healthy subjects. |
-| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Mechanistic study | Cephalalgia | Compared central anti-nociceptive effects of intravenous aspirin and oral zolmitriptan on the nociceptive blink reflex in migraine patients and healthy subjects. |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Reviews the role of antithrombotic drugs, including aspirin, in migraine prevention. |
-| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective cohort | Curr Health Sci J | Retrospective review of 203 patients with migraine with aura. Low-dose aspirin (95 patients) was compared with other prophylactic therapies for efficacy and tolerability. |
-| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on drug treatment of migraine, covering migraine with and without aura. |
-| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Guideline | Eur J Neurol | Revised EFNS guideline on drug treatment of migraine. |
-| [18806984](https://pubmed.ncbi.nlm.nih.gov/18806984/) | 2008 | Review | Der Nervenarzt | Overview of alternatives to beta blockers for preventive migraine treatment. |
-| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Clinical report | Zh Nevrol Psikhiatr | Preventive aspirin (1000, 500 and 100 mg) in 105 patients with migraine without aura. |
-| [7907982](https://pubmed.ncbi.nlm.nih.gov/7907982/) | 1994 | Preclinical | Eur Neurol | In cats, anti-migraine compounds failed to modulate the propagation of cortical spreading depression, the proposed substrate of aura. |
+Currently no related literature available.
 
 ## UK Market Information
 
-Aspirin is marketed in the UK. Several single-ingredient products are listed below; indication text is not recorded in the local data, and dosage forms are taken from the product names.
+A selection is shown below. Licence indication text is not recorded in the local data, and the list is not exhaustive.
 
 <!-- licenses:begin -->
 
@@ -114,25 +102,25 @@ Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-None of these authorisations carries migraine with brainstem aura as a recorded indication.
+No licence reviewed for this report lists atrophoderma vermiculata as an approved use.
 
 ## Safety Considerations
 
-Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+Specific warning, contraindication and interaction data were not available in the data compiled for this report. Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and aspirin is well characterised, but no trial or publication directly studies migraine with brainstem aura. The supporting literature concerns migraine and migraine with aura generally, so the evidence level is L5. The very high model score is not by itself enough to justify moving forward.
+The prediction rests only on a model score, with no clinical trials, no literature and no plausible mechanistic link to aspirin's known pharmacology in the data reviewed. The evidence level is L5, which does not support progressing to clinical or regulatory action.
 
 **To proceed, the following is needed:**
-- Subtype-specific evidence, such as case series or registry data on aspirin in migraine with brainstem aura
-- A clear clinical rationale, including whether any link to patent foramen ovale or microembolic mechanisms is relevant to this subtype
-- Detailed mechanism of action data to support the mechanistic link
-- A safety review for this population, including bleeding risk and the cardiovascular context of aura, against current SmPC and BNF guidance
-- A defined study design, such as a pilot prevention trial, and registration before any clinical development
+- Mechanism of action data and a plausible biological rationale linking aspirin to atrophoderma vermiculata
+- A systematic literature search for case reports or preclinical studies in this condition
+- Dermatology expert review of whether the disorder's pathology could respond to COX inhibition
+- Review of the safety profile, including bleeding risk, in the relevant patient population (SmPC and BNF)
+- Assessment of route and formulation suitability, for example oral versus topical delivery
 
 <!-- review:begin log -->
 
