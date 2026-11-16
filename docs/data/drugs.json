@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-06",
-  "total_count": 583,
+  "generated": "2026-11-16",
+  "total_count": 584,
   "source": "UkTxGNN",
   "drugs": [
     {
@@ -512,6 +512,16 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/asenapine/"
+    },
+    {
+      "slug": "aspirin",
+      "name": "Aspirin",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "",
+      "txgnn_score": "",
+      "url": "/drugs/aspirin/"
     },
     {
       "slug": "atazanavir",

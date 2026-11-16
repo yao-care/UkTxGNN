@@ -1190,7 +1190,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Removed: \"UK regulatory records returned zero marketing authorisations, which is inconsistent with Aspirin's known presence in the UK market and almos\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "the report was regenerated in 2026-11 and no longer contains this statement"
   },
   {
    "id": "uk-lic-20261106-aspirin-2",
@@ -1211,7 +1214,10 @@
    "checked": "2026-11-06",
    "summary": "Removed: \"No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is inconsistent with the known UK market: aspirin-c\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）",
-   "anchor": "Aspirin (acetylsalicylic acid) is a well-established analgesic, antipyretic, and antiplatelet agent with decades of clinical use across multiple indications.\nHowever, this Evidence Pack contains **no predicted new indications** and carries two flagged data gaps at Blocking and High severity, meaning a complete drug repurposing evaluation cannot be performed at this time."
+   "anchor": "Aspirin (acetylsalicylic acid) is a well-established analgesic, antipyretic, and antiplatelet agent with decades of clinical use across multiple indications.\nHowever, this Evidence Pack contains **no predicted new indications** and carries two flagged data gaps at Blocking and High severity, meaning a complete drug repurposing evaluation cannot be performed at this time.",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "the report was regenerated in 2026-11 and no longer contains this statement"
   },
   {
    "id": "uk-lic-20261106-aspirin-3",
@@ -1231,7 +1237,10 @@
    ],
    "checked": "2026-11-06",
    "summary": "Removed: \"**Re-query MHRA Product Licence database** to populate UK marketing authorisation records\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：7cf28e811（2026-11-06）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "the report was regenerated in 2026-11 and no longer contains this statement"
   },
   {
    "id": "uk-lic-20261106-aspirin-4",
@@ -1252,7 +1261,10 @@
    "checked": "2026-11-06",
    "summary": "Removed: \"A re-query against the MHRA Product Licence database is strongly recommended before proceeding\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：3461c7400（2026-11-06）",
-   "anchor": "No safety data is available in this Evidence Pack. Please refer to the current Aspirin Summary of Product Characteristics (SmPC) and the BNF for full safety information, including known contraindications (e.g., active peptic ulcer, known hypersensitivity, children under 16 with viral illness) and drug interactions (e.g., anticoagulants, NSAIDs, methotrexate)."
+   "anchor": "No safety data is available in this Evidence Pack. Please refer to the current Aspirin Summary of Product Characteristics (SmPC) and the BNF for full safety information, including known contraindications (e.g., active peptic ulcer, known hypersensitivity, children under 16 with viral illness) and drug interactions (e.g., anticoagulants, NSAIDs, methotrexate).",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "the report was regenerated in 2026-11 and no longer contains this statement"
   },
   {
    "id": "uk-lic-20261106-atazanavir-1",

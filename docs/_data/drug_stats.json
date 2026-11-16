@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-04",
-  "total_drugs": 583,
+  "generated": "2026-11-16",
+  "total_drugs": 584,
   "level_counts": {
     "L1": 9,
     "L2": 22,
     "L3": 16,
     "L4": 37,
-    "L5": 455
+    "L5": 456
   },
   "all_drugs": [
     {
@@ -314,6 +314,12 @@
       "slug": "asenapine",
       "level": "L5",
       "indication_count": 9
+    },
+    {
+      "name": "Aspirin",
+      "slug": "aspirin",
+      "level": "L5",
+      "indication_count": 7
     },
     {
       "name": "Atazanavir",

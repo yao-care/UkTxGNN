@@ -1,8 +1,8 @@
 ---
 layout: default
 title: UkTxGNN - UK Drug Repurposing Predictions
-description: "TxGNN drug repurposing reports for 583 medicines in the NHSBSA BNF code information (UK), with evidence levels L1–L5 from clinical trials and literature."
-last_modified_at: 2026-11-04
+description: "TxGNN drug repurposing reports for 584 medicines in the NHSBSA BNF code information (UK), with evidence levels L1–L5 from clinical trials and literature."
+last_modified_at: 2026-11-16
 ---
 
 # UkTxGNN
