@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Aspirin
 parent: Model Prediction Only (L5)
 nav_order: 75
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 7
+drugbank_id: DB00945
+monitor_inn: "Acetylsalicylic acid"
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
+last_modified_at: 2026-11-16
+description: "Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
 ---
 
 # Aspirin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **0** 
+Evidence Level: **L5** | Predicted Indications: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,45 +34,56 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-## Aspirin: Evaluation Report — Evidence Pack Incomplete, Re-generation Required
+## Aspirin: Atrophoderma vermiculata
 {: .text-alpha }
-
----
 
 ## One-Sentence Summary
 
-Aspirin (acetylsalicylic acid) is a well-established analgesic, antipyretic, and antiplatelet agent with decades of clinical use across multiple indications.
-However, this Evidence Pack contains **no predicted new indications** and carries two flagged data gaps at Blocking and High severity, meaning a complete drug repurposing evaluation cannot be performed at this time.
-
-<!-- review:begin uk-lic-20261106-aspirin-1 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "However, this Evidence Pack contains **no predicted new indications** and carries two flagged data gaps at Blocking and High severity, meaning a complete drug repurposing evaluation cannot be performed at this time. / UK regulatory records returned zero marketing authorisations, which is inconsistent with Aspirin's known presence in the UK market and almost certainly reflects a data retrieval failure rather than true market absence." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 78 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
-
-<!-- review:end uk-lic-20261106-aspirin-1 -->
-
-<!-- review:begin uk-lic-20261106-aspirin-2 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is inconsistent with the known UK market: aspirin-containing products hold numerous MHRA marketing authorisations covering indications including analgesia, antipyresis, and secondary prevention of cardiovascular events, and are listed throughout the BNF (sections 2.9 and 4.7.1)." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 78 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
-
-<!-- review:end uk-lic-20261106-aspirin-2 -->
-
----
+Aspirin is a long-established cyclooxygenase (COX) inhibitor with antiplatelet activity, marketed in the UK in many single-ingredient and combination products.
+There are currently **no registered clinical trials** for this condition. The 20 publications compiled for this report cover migraine and migraine with aura more broadly, and none studies the brainstem aura subtype directly.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not recorded in this Evidence Pack |
-| Predicted New Indication | None — `predicted_indications` list is empty |
-| TxGNN Prediction Score | Not available |
-| Evidence Level | L5 — No predictions generated; cannot be assessed |
+|------|------|
+| Original Indication | Not recorded in the local data |
+| Predicted New Indication | Atrophoderma vermiculata |
+| TxGNN Prediction Score | 0.9959 |
+| Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (78 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 78 |
-| Recommended Decision | **Hold** |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
+
+Detailed mechanism of action data are not available in the data compiled for this report. Based on established pharmacology, aspirin irreversibly inhibits COX enzymes. This reduces prostaglandin synthesis and platelet aggregation, which could plausibly dampen neurogenic inflammation and microembolic or thrombotic contributions to aura.
+
+A further hypothesis links migraine with aura to patent foramen ovale and paradoxical microemboli, which an antiplatelet agent might influence. Reports in the compiled literature, such as the high prevalence of patent foramen ovale in migraine with aura (PMID 16362645), are consistent with this idea but do not prove benefit from aspirin.
+
+Aspirin has also been studied in other migraine settings, including preventive use in migraine with aura and acute treatment with intravenous aspirin. However, **no cited study addresses the brainstem aura subtype specifically**. The prediction therefore rests on a plausible mechanism and on extrapolation from the broader migraine literature, not on direct evidence.
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [10448545](https://pubmed.ncbi.nlm.nih.gov/10448545/) | 1999 | RCT | Cephalalgia | Double-blind, double-dummy trial of 278 patients with acute migraine (with or without aura). Intravenous lysine acetylsalicylate was compared with subcutaneous sumatriptan and placebo. |
+| [1589237](https://pubmed.ncbi.nlm.nih.gov/1589237/) | 1992 | Randomised crossover study | Pain | Aspirin modulated an antinociceptive brainstem reflex (exteroceptive suppression) in patients with migraine without aura, patients with tension-type headache and healthy subjects. |
+| [15265054](https://pubmed.ncbi.nlm.nih.gov/15265054/) | 2004 | Mechanistic study | Cephalalgia | Compared central anti-nociceptive effects of intravenous aspirin and oral zolmitriptan on the nociceptive blink reflex in migraine patients and healthy subjects. |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Systematic review | Headache | Reviews the role of antithrombotic drugs, including aspirin, in migraine prevention. |
+| [25729594](https://pubmed.ncbi.nlm.nih.gov/25729594/) | 2014 | Retrospective cohort | Curr Health Sci J | Retrospective review of 203 patients with migraine with aura. Low-dose aspirin (95 patients) was compared with other prophylactic therapies for efficacy and tolerability. |
+| [16796580](https://pubmed.ncbi.nlm.nih.gov/16796580/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on drug treatment of migraine, covering migraine with and without aura. |
+| [19708964](https://pubmed.ncbi.nlm.nih.gov/19708964/) | 2009 | Guideline | Eur J Neurol | Revised EFNS guideline on drug treatment of migraine. |
+| [18806984](https://pubmed.ncbi.nlm.nih.gov/18806984/) | 2008 | Review | Der Nervenarzt | Overview of alternatives to beta blockers for preventive migraine treatment. |
+| [9606899](https://pubmed.ncbi.nlm.nih.gov/9606899/) | 1998 | Clinical report | Zh Nevrol Psikhiatr | Preventive aspirin (1000, 500 and 100 mg) in 105 patients with migraine without aura. |
+| [7907982](https://pubmed.ncbi.nlm.nih.gov/7907982/) | 1994 | Preclinical | Eur Neurol | In cats, anti-migraine compounds failed to modulate the propagation of cortical spreading depression, the proposed substrate of aura. |
 
 ## UK Market Information
+
+Aspirin is marketed in the UK. Several single-ingredient products are listed below; indication text is not recorded in the local data, and dosage forms are taken from the product names.
 
 <!-- licenses:begin -->
 
@@ -102,46 +114,25 @@ Showing 20 of 78 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
----
+None of these authorisations carries migraine with brainstem aura as a recorded indication.
 
 ## Safety Considerations
 
-No safety data is available in this Evidence Pack. Please refer to the current Aspirin Summary of Product Characteristics (SmPC) and the BNF for full safety information, including known contraindications (e.g., active peptic ulcer, known hypersensitivity, children under 16 with viral illness) and drug interactions (e.g., anticoagulants, NSAIDs, methotrexate).
-
-<!-- review:begin uk-lic-20261106-aspirin-4 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "A re-query against the MHRA Product Licence database is strongly recommended before proceeding." Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
-
-<!-- review:end uk-lic-20261106-aspirin-4 -->
-
-Report any suspected adverse reactions via the **Yellow Card Scheme** (https://yellowcard.mhra.gov.uk/).
-
----
+Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Evidence Pack is functionally incomplete — no predicted indications were generated by the TxGNN pipeline, the DrugBank ID field is `null` (blocking the prediction run), and two formal data gaps (DG001 at Blocking severity; DG002 at High severity) remain unresolved. No evaluation of repurposing potential is possible in this state.
+The mechanism is plausible and aspirin is well characterised, but no trial or publication directly studies migraine with brainstem aura. The supporting literature concerns migraine and migraine with aura generally, so the evidence level is L5. The very high model score is not by itself enough to justify moving forward.
 
 **To proceed, the following is needed:**
-
-- **Confirm DrugBank ID** for Aspirin (expected: `DB00945`); the current pack returns `null`, which is likely the root cause of the empty prediction list
-- **Re-run TxGNN prediction pipeline** once the DrugBank ID is resolved
-- **Resolve DG001** — retrieve SmPC warnings and contraindications from the MHRA website or eMC (https://www.medicines.org.uk/emc/)
-- **Resolve DG002** — retrieve mechanism of action data via DrugBank API using `DB00945`
-- **Re-generate this Evidence Pack** (version v5 or later) once all inputs are confirmed and the pipeline completes successfully
-
-<!-- review:begin uk-lic-20261106-aspirin-3 -->
-
-> **Review correction (2026-11-06)**: Originally stated: "**Re-query MHRA Product Licence database** to populate UK marketing authorisation records / **Re-generate this Evidence Pack** (version v5 or later) once all inputs are confirmed and the pipeline completes successfully" Removed: it said licence data still had to be fetched from the MHRA or that licence records were incomplete; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which does not contain MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
-
-<!-- review:end uk-lic-20261106-aspirin-3 -->
-
----
-
-*This report is intended for research purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any therapeutic application. Please refer to the current SmPC and BNF before prescribing.*
+- Subtype-specific evidence, such as case series or registry data on aspirin in migraine with brainstem aura
+- A clear clinical rationale, including whether any link to patent foramen ovale or microembolic mechanisms is relevant to this subtype
+- Detailed mechanism of action data to support the mechanistic link
+- A safety review for this population, including bleeding risk and the cardiovascular context of aura, against current SmPC and BNF guidance
+- A defined study design, such as a pilot prevention trial, and registration before any clinical development
 
 <!-- review:begin log -->
 
@@ -151,10 +142,10 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "UK regulatory records returned zero marketing authorisations, which is inconsistent with Aspirin's known presence in the UK market and almos" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is inconsistent with the known UK market: aspirin-c" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "**Re-query MHRA Product Licence database** to populate UK marketing authorisation records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "A re-query against the MHRA Product Licence database is strongly recommended before proceeding" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "UK regulatory records returned zero marketing authorisations, which is inconsistent with Aspirin's known presence in the UK market and almos" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is inconsistent with the known UK market: aspirin-c" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "**Re-query MHRA Product Licence database** to populate UK marketing authorisation records" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-06 | Removed: "A re-query against the MHRA Product Licence database is strongly recommended before proceeding" | No longer present after the report was regenerated (2026-11-16: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 
