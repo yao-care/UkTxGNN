@@ -1,6 +1,6 @@
 {
-  "total": 540,
-  "generated_at": "2026-11-19T06:16:07.276856",
+  "total": 539,
+  "generated_at": "2026-11-19T20:02:49.450034",
   "drugs": [
     {
       "name": "Abacavir",
@@ -106,24 +106,6 @@
         "drug-induced osteoporosis",
         "pityriasis simplex",
         "tinea corporis"
-      ],
-      "approved_indication": ""
-    },
-    {
-      "name": "Acetylsalicylic Acid",
-      "file": "acetylsalicylic_acid.md",
-      "evidence_level": "L5",
-      "indication_count": 7,
-      "predicted_indication": "",
-      "inn": "Acetylsalicylic acid",
-      "predicted_indications": [
-        "atrophoderma vermiculata",
-        "ulerythema ophryogenesis",
-        "heparin cofactor 2 deficiency",
-        "factor 5 excess with spontaneous thrombosis",
-        "antithrombin deficiency type 2",
-        "trigeminal autonomic cephalalgia",
-        "thrombophilia"
       ],
       "approved_indication": ""
     },
