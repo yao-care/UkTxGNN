@@ -19,12 +19,12 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 584 |
+| **Drug Reports** | 583 |
 | **Total Predictions** | 12,218,290 |
 | **Unique Drugs** | 759 |
 | **Unique Indications** | 17,081 |
 | **DDI Data** | 160,235 |
-| **FHIR Resources** | 584 MK / 3,122 CUD |
+| **FHIR Resources** | 583 MK / 3,115 CUD |
 
 ### Evidence Level Distribution
 
@@ -34,7 +34,7 @@ Drug repurposing predictions for medicines in the NHSBSA BNF code list (United K
 | **L2** | 22 | Single RCT or multiple Phase 2 |
 | **L3** | 16 | Observational studies |
 | **L4** | 37 | Preclinical / mechanistic studies |
-| **L5** | 456 | Computational prediction only |
+| **L5** | 455 | Computational prediction only |
 | **N/A** | 44 | Known uses only (no new prediction) |
 
 ### By Source

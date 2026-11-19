@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-16",
-  "total_count": 584,
+  "generated": "2026-11-19",
+  "total_count": 583,
   "source": "UkTxGNN",
   "drugs": [
     {
@@ -72,16 +72,6 @@
       "predicted_indication": "",
       "txgnn_score": "",
       "url": "/drugs/acetic-acid/"
-    },
-    {
-      "slug": "acetylsalicylic-acid",
-      "name": "Acetylsalicylic Acid",
-      "evidence_level": "L5",
-      "indication_count": 7,
-      "original_indication": "",
-      "predicted_indication": "",
-      "txgnn_score": "",
-      "url": "/drugs/acetylsalicylic-acid/"
     },
     {
       "slug": "acitretin",

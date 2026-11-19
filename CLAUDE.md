@@ -516,3 +516,9 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 465 筆紀錄（399 頁；其中 1 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
+
+## 同一 DrugBank ID 的重複公開頁改轉址（2026-11-19）
+
+用戶 2026-11-19 決定（照 ARTxGNN 同日做法）：公開藥物頁同一 DrugBank ID、預測相同的，留一頁、另一頁改轉址（layout: id_redirect、permalink 不變、sitemap: false、search_exclude、nav_exclude）。
+1 組 DB00945：acetylsalicylic_acid→aspirin（預測 7 項、L5、BNF 代碼 78 個相同；aspirin 有 4 筆查核紀錄、字數多一倍，也是 BNF 的名稱；acetylsalicylic_acid 沒有查核紀錄）。db00945 轉址頁改成直接指 aspirin。
+公開藥物頁 584→583；被轉址頁自己的 MK 由 sync_fhir_levels 當重複刪（MK 584→583、CUD 3122→3115）；衍生檔、hreflang 照重產。

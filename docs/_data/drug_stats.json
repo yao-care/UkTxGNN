@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-16",
-  "total_drugs": 584,
+  "generated": "2026-11-19",
+  "total_drugs": 583,
   "level_counts": {
     "L1": 9,
     "L2": 22,
     "L3": 16,
     "L4": 37,
-    "L5": 456
+    "L5": 455
   },
   "all_drugs": [
     {
@@ -50,12 +50,6 @@
       "slug": "acetic_acid",
       "level": "L5",
       "indication_count": 9
-    },
-    {
-      "name": "Acetylsalicylic Acid",
-      "slug": "acetylsalicylic_acid",
-      "level": "L5",
-      "indication_count": 7
     },
     {
       "name": "Acitretin",
