@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, olopatadine is an H1 antagonist and mast cell stabiliser, and its efficacy in allergic and atopic conjunctivitis is established. Mechanistically, it may be applicable to inflammatory conjunctival conditions with an allergic component.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for olopatadine: "Olopatadine is a histamine H 1 receptor antagonist. The antihistaminic activity of olopatadine has been documented in isolated tissues, animal models, and humans." ([DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85), label version 2026-09-15; accessed 2026-11-19.) Based on known information, olopatadine is an H1 antagonist and mast cell stabiliser, and its efficacy in allergic and atopic conjunctivitis is established. Mechanistically, it may be applicable to inflammatory conjunctival conditions with an allergic component.
 
 The link to rosacea conjunctivitis is indirect and speculative. Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation and *Demodex*, rather than mast cell-mediated allergy.
 
@@ -116,6 +116,19 @@ The prediction rests on a model score alone (L5), with no clinical trials or dir
 - Clinical evidence, such as a pilot study in patients with ocular rosacea who have a clear allergic component
 - Full SmPC-based warnings, contraindications and approved indication text for the UK product
 - Verification of the UK marketing authorisation number and dosage form
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

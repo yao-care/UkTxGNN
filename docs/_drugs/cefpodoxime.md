@@ -58,7 +58,7 @@ Cefpodoxime is an oral third-generation cephalosporin antibiotic. The TxGNN mode
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, cefpodoxime is a third-generation oral cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins. Its established role is in treating bacterial infections.
+ChEMBL (EMBL-EBI) records the mechanism of action of cefpodoxime as: Bacterial penicillin-binding protein inhibitor ([ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacological knowledge, cefpodoxime is a third-generation oral cephalosporin that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins. Its established role is in treating bacterial infections.
 
 No mechanistic link to osteoarthritis is supported by the available data. No anti-inflammatory, chondroprotective or analgesic activity relevant to osteoarthritis is documented. The high TxGNN score (0.9925) is a TxGNN model (deep learning) prediction only and is not corroborated by any trial or publication. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any indirect explanation (for example, treating a bacterial infection in or near a joint) is speculative and is not a recognised pathway for osteoarthritis.
 
@@ -133,11 +133,12 @@ The prediction rests solely on a TxGNN model (deep learning) score. There are no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
 
 <!-- review:end log -->
 

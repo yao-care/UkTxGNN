@@ -59,7 +59,7 @@ but **no clinical trials and no publications** were found for this specific pred
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Published reviews describe rufinamide as a triazole derivative thought to prolong the inactive state of voltage-gated sodium channels, which limits repetitive neuronal firing. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epileptic encephalopathy, is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rufinamide: "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), label version 2022-12-15; accessed 2026-11-19.) Published reviews describe rufinamide as a triazole derivative thought to prolong the inactive state of voltage-gated sodium channels, which limits repetitive neuronal firing. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epileptic encephalopathy, is established.
 
 FIRES is also a severe, drug-resistant epilepsy. It follows a febrile illness and causes frequent, prolonged seizures. A drug that suppresses seizure activity in refractory epileptic encephalopathies could plausibly help control FIRES seizures. This is the main basis for the prediction.
 
@@ -143,11 +143,12 @@ The prediction score is very high, but there are no trials or publications for F
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation (single-ingredient, valid) was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
 
 <!-- review:end log -->
 

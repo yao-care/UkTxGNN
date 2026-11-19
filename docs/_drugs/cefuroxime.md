@@ -54,7 +54,7 @@ Cefuroxime is a second-generation cephalosporin antibiotic that inhibits bacteri
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Cefuroxime is a beta-lactam antibiotic that acts by inhibiting bacterial cell wall synthesis, and it has no known effect on serum amylase.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cefuroxime: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), label version 2025-03-27; accessed 2026-11-19.) Cefuroxime is a beta-lactam antibiotic that acts by inhibiting bacterial cell wall synthesis, and it has no known effect on serum amylase.
 
 No plausible mechanistic link between cefuroxime and hyperamylasemia has been identified. Hyperamylasemia is a laboratory finding that can arise from a range of causes (for example pancreatic or salivary gland conditions), and an antibacterial agent has no recognised action on it. The high TxGNN score therefore appears to be an artefact of the model's pattern-based prediction rather than a pharmacologically grounded signal. No similarity analysis between the drug's existing uses and this condition is available.
 
@@ -123,11 +123,12 @@ The prediction rests only on the model score, with no clinical trials, no suppor
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorisations are single-ingredient products and both are currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
 
 <!-- review:end log -->
 

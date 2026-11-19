@@ -59,7 +59,7 @@ but there are currently **no registered clinical trials** and only **general epi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxcarbazepine is a keto-analogue of carbamazepine. Its active metabolite, the monohydroxy derivative (MHD), blocks voltage-gated sodium channels. Its efficacy in partial-onset seizures is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for oxcarbazepine: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), label version 2026-10-28; accessed 2026-11-19.) Based on known pharmacology, oxcarbazepine is a keto-analogue of carbamazepine. Its active metabolite, the monohydroxy derivative (MHD), blocks voltage-gated sodium channels. Its efficacy in partial-onset seizures is established.
 
 Visual (occipital or photosensitive) epilepsy is a focal or reflex seizure type. A sodium-channel mechanism is therefore plausible. However, the retrieved literature consists of general antiseizure-drug reviews and guidelines with no visual-epilepsy-specific data. Efficacy in this subtype is inferred from the parent indication and has not been shown directly.
 
@@ -147,6 +147,19 @@ The visual epilepsy prediction rests on the TxGNN score and extrapolation from f
 - SmPC warnings and contraindications to complete the safety screen
 - For restless legs syndrome, a controlled trial would be needed before further consideration
 - Syndrome-specific safety review, given the risk of seizure aggravation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

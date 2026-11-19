@@ -60,7 +60,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, desogestrel is a progestogen that suppresses gonadotropin secretion and exerts a progestogenic effect on the endometrium.
+ChEMBL (EMBL-EBI) records the mechanism of action of desogestrel as: Progesterone receptor agonist ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, desogestrel is a progestogen that suppresses gonadotropin secretion and exerts a progestogenic effect on the endometrium.
 
 In hypothalamic oligo/amenorrhoea, combined oral contraceptives containing desogestrel can provide cyclic hormone replacement and may help protect bone density, as shown in a cohort study of young women (PMID 11725730). This is symptomatic hormonal management. It does not restore the underlying ovulatory function.
 
@@ -148,6 +148,19 @@ The only registered trial does not identify desogestrel as the intervention, and
 - The approved indication text and SmPC safety information for the UK product
 - Mechanism of action data
 - Clarification of whether the intended use is a progestogen-only or combined formulation, with a thromboembolism risk assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

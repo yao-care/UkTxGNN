@@ -60,7 +60,7 @@ but **no clinical trials and no publications** currently support this direction;
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, oxymetholone is a 17-alpha-alkylated derivative of dihydrotestosterone that acts as an androgen receptor agonist and stimulates erythropoiesis. This explains its use in bone marrow failure states such as aplastic anaemia.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxymetholone as: Androgen Receptor agonist ([ChEMBL CHEMBL1200585 (oxymetholone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200585), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, oxymetholone is a 17-alpha-alkylated derivative of dihydrotestosterone that acts as an androgen receptor agonist and stimulates erythropoiesis. This explains its use in bone marrow failure states such as aplastic anaemia.
 
 A link to seborrhoeic dermatitis is speculative. One could hypothesise that androgen-mediated modulation of sebaceous gland activity or inflammation might play a role. However, androgens generally increase sebum production and are more often associated with seborrhoea and acne, so this hypothesis runs against the expected direction of effect. No mechanistic evidence was available to support the link, and the relationship between the original and predicted indications remains unassessed.
 
@@ -139,11 +139,12 @@ The only support is a computational prediction score, with no clinical or litera
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded, and its status is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200585 (oxymetholone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200585) |
 
 <!-- review:end log -->
 

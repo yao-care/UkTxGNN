@@ -56,7 +56,7 @@ but **no clinical trials and no publications** currently support this prediction
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, strontium ranelate acts on bone remodelling, through the calcium-sensing receptor and Wnt signalling, with both bone-forming and anti-resorptive effects. Its efficacy in osteoporosis is the basis of its original use.
+ChEMBL (EMBL-EBI) records the mechanism of action of strontium ranelate as: Unknown ([ChEMBL CHEMBL3707306 (strontium ranelate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707306), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacological knowledge, strontium ranelate acts on bone remodelling, through the calcium-sensing receptor and Wnt signalling, with both bone-forming and anti-resorptive effects. Its efficacy in osteoporosis is the basis of its original use.
 
 No established mechanistic link connects this bone activity to heparin cofactor II (SERPIND1) function. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. In addition, strontium ranelate has been associated with an increased risk of venous thromboembolism (VTE), which runs against any benefit in a thrombophilic condition.
 
@@ -110,6 +110,19 @@ The predictions rest on model scores alone (Evidence Level L5), with no trials o
 - Full SmPC warnings and contraindications for the UK product, including approved indication text and marketing authorisation details
 - A literature review and preclinical evidence for any predicted indication, with diabetic retinopathy the only one without a direct safety conflict
 - A formal benefit-risk assessment of the VTE signal before any clinical question is framed
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL3707306 (strontium ranelate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707306) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

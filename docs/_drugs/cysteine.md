@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **dry eye syndrome**, but **no cl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for cysteine. Based on known biochemistry, the thiol (sulphydryl) group of cysteine underpins two plausible links to the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cysteine: "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), label version 2026-04-09; accessed 2026-11-19.) Based on known biochemistry, the thiol (sulphydryl) group of cysteine underpins two plausible links to the ocular surface.
 
 First, thiol groups form disulphide bonds with cysteine-rich mucus glycoproteins. This is the basis of "thiomers" (thiolated polymers such as thiolated chitosan), which show improved mucoadhesion and retention on the eye surface. Second, cysteine is a precursor of glutathione and of hydrogen sulphide/persulphide species, which may counter the reactive oxygen species (ROS)-driven inflammation (including NLRP3 inflammasome activity) implicated in dry eye disease.
 
@@ -119,6 +119,19 @@ The prediction score is very high, but no clinical trials exist and no retrieved
 - Evidence that an ophthalmic formulation can be made safely, since the marketed product is a 5 mg tablet and no ocular route is recorded
 - Safety and tolerability data for ocular use
 - Label safety data (warnings, contraindications and interactions), which are not available in the data compiled for this report
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for cysteine" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

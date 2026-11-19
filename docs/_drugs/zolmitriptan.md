@@ -59,7 +59,7 @@ but there are currently **no registered clinical trials** and only **general mig
 
 ## Why is This Prediction Reasonable?
 
-Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist with both central and peripheral activity. Preclinical work shows it can inhibit trigeminovascular activation, and it is established for the acute treatment of migraine with or without aura. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the published pharmacology literature.
+Zolmitriptan is a selective serotonin 5-HT1B/1D receptor agonist with both central and peripheral activity. Preclinical work shows it can inhibit trigeminovascular activation, and it is established for the acute treatment of migraine with or without aura. According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) This description draws on the published pharmacology literature.
 
 Migraine with brainstem aura is a migraine subtype that shares the core pathophysiology of other migraines, including trigeminovascular activation and CGRP release. On this basis the mechanism is plausible.
 
@@ -160,11 +160,12 @@ The prediction is mechanistically plausible but is driven mainly by similarity t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled data show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ The best-supported candidate among the top 10 is **trichotillomania**, which has
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, quetiapine is an atypical antipsychotic whose receptor pharmacology involves serotonin 5-HT2A, dopamine D2 and histamine H1 antagonism. Its efficacy in schizophrenia and bipolar disorder is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quetiapine: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), label version 2026-10-08; accessed 2026-11-19.) Based on known information, quetiapine is an atypical antipsychotic whose receptor pharmacology involves serotonin 5-HT2A, dopamine D2 and histamine H1 antagonism. Its efficacy in schizophrenia and bipolar disorder is established.
 
 **For the top-ranked prediction (retinal dystrophy):** the data compiled for this report show no mechanistic link. Inherited retinal degeneration is not plausibly addressed by monoaminergic receptor antagonism. The high score (0.9957) reflects the model's prediction alone. The same holds for the other top-ranked candidates, which are mostly genetic or developmental conditions (congenital glycosylation disorder, hydranencephaly, 17p13.3 microdeletion syndrome, polymicrogyria, X-linked myopias, Charcot-Marie-Tooth type 1G). None has trials or literature.
 
@@ -158,11 +158,12 @@ The top-ranked predictions, including retinal dystrophy, rest on model scores al
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

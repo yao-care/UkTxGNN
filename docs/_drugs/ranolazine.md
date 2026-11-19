@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Ranolazine's generally known pharmacology includes inhibition of the late sodium current, some effect on the hERG potassium current, and partial inhibition of fatty acid oxidation. No established link between these actions and NSIAD has been identified.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ranolazine: "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), label version 2025-01-29; accessed 2026-11-19.) Ranolazine's generally known pharmacology includes inhibition of the late sodium current, some effect on the hERG potassium current, and partial inhibition of fatty acid oxidation. No established link between these actions and NSIAD has been identified.
 
 NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*, R137C/L). These cause constitutive receptor activation and unregulated insertion of aquaporin-2 into collecting duct cells. A connection through renal sodium handling or cAMP signalling is conceivable but purely speculative and unsupported by data.
 
@@ -117,6 +117,19 @@ The only support is a high TxGNN score. There are no trials or publications, no 
 - Preclinical or in vitro evidence in NSIAD-relevant models
 - Review of the SmPC warnings and contraindications, particularly QT prolongation and renal/hepatic impairment
 - Assessment of interaction risk, especially with CYP3A4 and P-gp inhibitors such as clarithromycin
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

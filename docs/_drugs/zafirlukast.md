@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **bronchitis**, but **no clinic
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From its drug class, zafirlukast is a cysteinyl leukotriene receptor (CysLT1) antagonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zafirlukast: "Zafirlukast is a selective and competitive receptor antagonist of leukotriene D 4 and E 4 (LTD 4 and LTE 4 ), components of slow-reacting substance of anaphylaxis (SRSA). Cysteinyl leukotriene production and receptor occupation have been correlated with the pathophysiology of asthma, including airway edema, smooth muscle constriction, and altered cellular activity associated with the inflammatory process, which contribute to the signs and symptoms of asthma." ([DailyMed: zafirlukast prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60f39f6-d590-4b00-8751-7f12b7ec5385), label version 2024-10-11; accessed 2026-11-19.) From its drug class, zafirlukast is a cysteinyl leukotriene receptor (CysLT1) antagonist.
 
 Leukotrienes contribute to airway inflammation, bronchoconstriction and mucus secretion. Blocking their receptor could plausibly reduce these features in bronchitis, so a mechanistic link exists in principle. However, the TxGNN score (0.9993) is a computational output only. No trials or literature were supplied for this indication, so the link cannot be verified from the available data.
 
@@ -124,11 +124,12 @@ The only support for bronchitis is a high TxGNN score (0.9993); no clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL number, and no approved indication text is reco" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: zafirlukast prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60f39f6-d590-4b00-8751-7f12b7ec5385) |
 
 <!-- review:end log -->
 

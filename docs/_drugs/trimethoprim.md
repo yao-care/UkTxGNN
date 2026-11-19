@@ -60,7 +60,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trimethoprim is a bacterial dihydrofolate reductase inhibitor. Its efficacy in bacterial infections, including ocular surface infections (often as a topical combination with polymyxin B), is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trimethoprim: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), label version 2026-11-15; accessed 2026-11-19.) Based on known information, trimethoprim is a bacterial dihydrofolate reductase inhibitor. Its efficacy in bacterial infections, including ocular surface infections (often as a topical combination with polymyxin B), is established.
 
 The high score most likely reflects network proximity to its known eye indications (conjunctivitis, acute contagious conjunctivitis, blepharoconjunctivitis) rather than independent evidence. Punctate epithelial keratoconjunctivitis is frequently viral or immune-mediated, for example adenoviral disease or Thygeson's superficial punctate keratitis. An antibacterial agent would not be expected to treat the underlying cause. The mechanistic link is therefore weak. It may apply only where a bacterial component or secondary infection is present, and that has not been verified.
 
@@ -152,11 +152,12 @@ The TxGNN score is very high, but there are no trials or publications for this i
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded, and it is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

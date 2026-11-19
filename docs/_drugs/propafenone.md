@@ -62,7 +62,7 @@ The model's top-ranked prediction, manic bipolar affective disorder, is not supp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, propafenone is a class IC antiarrhythmic that blocks sodium channels. Its efficacy in ventricular tachycardia is established, and mechanistically it may be applicable to CPVT.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for propafenone: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), label version 2026-06-04; accessed 2026-11-19.) Based on known information, propafenone is a class IC antiarrhythmic that blocks sodium channels. Its efficacy in ventricular tachycardia is established, and mechanistically it may be applicable to CPVT.
 
 CPVT is an inherited arrhythmia syndrome, usually caused by mutations in the cardiac ryanodine receptor (RyR2) or calsequestrin (CASQ2). These cause abnormal calcium release and arrhythmogenic calcium waves during adrenergic stress. Preclinical studies show that class I antiarrhythmics, including flecainide and R-propafenone, block open-state RyR2 channels and suppress these calcium waves. This is the core pathophysiology of CPVT.
 
@@ -176,11 +176,12 @@ Preclinical studies show that propafenone suppresses RyR2-mediated calcium waves
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->
 

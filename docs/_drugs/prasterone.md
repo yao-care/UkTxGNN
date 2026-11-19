@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **heparin cofac
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, prasterone is a sex-steroid precursor (DHEA), with immunomodulatory activity that is relevant to its link with lupus. Pharmacology data compiled for this report also show an interaction with glycine receptors.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for prasterone: "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), label version 2026-07-17; accessed 2026-11-19.) Based on known information, prasterone is a sex-steroid precursor (DHEA), with immunomodulatory activity that is relevant to its link with lupus. Pharmacology data compiled for this report also show an interaction with glycine receptors.
 
 Heparin cofactor 2 deficiency is a heritable defect in a serpin (SERPIND1) that regulates coagulation. Prasterone has no established mechanism for correcting such a deficiency. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any link, for example indirect effects on coagulation through sex-steroid metabolism, is speculative.
 
@@ -125,11 +125,12 @@ The predictions rest solely on model scores, with no trials or publications and 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled data show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
 
 <!-- review:end log -->
 

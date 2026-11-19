@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pneumocystosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Metronidazole is a nitroimidazole that is generally understood to be activated in anaerobic bacteria and protozoa, which is the basis of its established uses.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metronidazole: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), label version 2026-11-02; accessed 2026-11-19.) Metronidazole is a nitroimidazole that is generally understood to be activated in anaerobic bacteria and protozoa, which is the basis of its established uses.
 
 The relationship between the original and predicted indications is weak. *Pneumocystis* is a fungus and, as far as the compiled assessment indicates, lacks the nitroreductase activation pathway on which metronidazole depends. The high TxGNN score therefore does not appear to be supported by a plausible mechanism. The retrieved literature consists of general antiparasitic reviews and HIV opportunistic infection papers that mention metronidazole only incidentally. The standard treatment for *Pneumocystis* pneumonia cited in these papers is trimethoprim-sulfamethoxazole, not metronidazole.
 
@@ -179,11 +179,12 @@ The top-ranked prediction, pneumocystosis, has no clinical trials, no plausible 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation record is available, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Frovatriptan is a triptan-class medicine. The TxGNN model predicts it may be rel
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Frovatriptan belongs to the triptan class, which acts as agonists at 5-HT1B/1D receptors. Its use in the UK is within that class.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for frovatriptan: "Frovatriptan binds with high affinity to 5-HT 1B/1D receptors. The therapeutic activity of frovatriptan succinate is thought to be due to the agonist effects at the 5-HT 1B/1D receptors on intracranial blood vessels (including the arterio-venous anastomoses) and sensory nerves of the trigeminal system which result in cranial vessel constriction and inhibition of pro-inflammatory neuropeptide release." ([DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd), label version 2026-06-27; accessed 2026-11-19.) Frovatriptan belongs to the triptan class, which acts as agonists at 5-HT1B/1D receptors. Its use in the UK is within that class.
 
 Atrophoderma vermiculata is a follicular keratotic disorder with atrophic scarring of the cheeks. No plausible mechanistic link between serotonin 5-HT1B/1D agonism and this skin condition is evident from the available data. The high score is a computational output and may reflect shared gene or phenotype neighbours in the model's training data rather than a true therapeutic rationale. The prediction should be regarded as a hypothesis only.
 
@@ -126,11 +126,12 @@ The prediction rests only on a computational score, with no clinical trials, no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient authorisation is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd) |
 
 <!-- review:end log -->
 

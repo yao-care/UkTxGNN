@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** supporting th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Idebenone is a short-chain benzoquinone that supports mitochondrial electron transport and has antioxidant activity. Its established use in Leber hereditary optic neuropathy, a mitochondrial disorder, is the basis for its original indication.
+ChEMBL (EMBL-EBI) records the mechanism of action of idebenone as: Antioxidant and mitochondrial electron carrier ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0; accessed 2026-11-19.) Idebenone is a short-chain benzoquinone that supports mitochondrial electron transport and has antioxidant activity. Its established use in Leber hereditary optic neuropathy, a mitochondrial disorder, is the basis for its original indication.
 
 A link to hepatic porphyria is conceivable if oxidative stress or mitochondrial dysfunction contributes to liver injury in that condition. However, this is speculative. Without confirmed mechanism data and with no supporting studies, the mechanistic rationale cannot be verified.
 
@@ -107,11 +107,12 @@ The prediction is supported only by a model score (0.9992), with no registered c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
 
 <!-- review:end log -->
 

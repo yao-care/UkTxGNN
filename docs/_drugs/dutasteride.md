@@ -56,7 +56,7 @@ However, **no clinical trials and no publications** in the data compiled for thi
 
 ## Why is This Prediction Reasonable?
 
-Dutasteride inhibits both type 1 and type 2 5-alpha-reductase, which reduces the conversion of testosterone to DHT. Detailed mechanism-of-action data were not available in the compiled data, so this description is limited to the established pharmacology of the drug class.
+Dutasteride inhibits both type 1 and type 2 5-alpha-reductase, which reduces the conversion of testosterone to DHT. According to the Mechanism of Action section of the US FDA-approved prescribing information for dutasteride: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), label version 2026-08-27; accessed 2026-11-19.) This description is limited to the established pharmacology of the drug class.
 
 The mechanistic case for this prediction is weak. Ambras syndrome is a rare congenital disorder of excessive hair growth, associated with genomic rearrangements that affect regulation of the *TRPS1* gene. It is not primarily driven by DHT. Reducing DHT would therefore not be expected to address the underlying cause. The very high TxGNN score reflects proximity in a computational model, not biological or clinical validation. This prediction should be treated as a hypothesis only.
 
@@ -126,11 +126,12 @@ The prediction has no supporting trials or publications (evidence level L5). The
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record one valid marketing authorisation, for a single-ingredient product (a 500 microgram capsule)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->
 

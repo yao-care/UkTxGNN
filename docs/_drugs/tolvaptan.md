@@ -55,7 +55,7 @@ with **no registered clinical trials** but **20 publications** (including two pi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, vasopressin-driven cAMP signalling promotes cyst growth and fluid secretion. Blocking the V2 receptor lowers cAMP in renal tubular cells, which is the mechanism behind its use in ADPKD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tolvaptan: "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), label version 2026-09-30; accessed 2026-11-19.) Based on known pharmacology, tolvaptan is a selective vasopressin V2 receptor antagonist. In polycystic kidney disease, vasopressin-driven cAMP signalling promotes cyst growth and fluid secretion. Blocking the V2 receptor lowers cAMP in renal tubular cells, which is the mechanism behind its use in ADPKD.
 
 PKD3 (GANAB-related) is a close genetic and phenotypic variant of ADPKD, so the evidence extends by mechanism and disease class. This is effectively an on-label or near-label indication rather than true repurposing.
 
@@ -136,6 +136,19 @@ Two RCTs and a Cochrane systematic review support tolvaptan in ADPKD, and PKD3 i
 ---
 
 **Other predicted indications (for reference):** The remaining predictions are not supported by adequate evidence and are rated **Hold**, except Joubert syndrome with renal defect, which is a **Research Question**. These are renal-hepatic-pancreatic dysplasia, karyomegalic interstitial nephritis, thoracic malformation (only a neonatal heart failure case report), adult familial nephronophthisis-spastic quadriparesia syndrome, Ambras type hypertrichosis universalis congenita, hypertrichosis, malformation syndrome with odontal and/or periodontal component, and syndrome with a Dandy-Walker malformation as major feature. Joubert syndrome with renal defect has a plausible cAMP-based rationale through ciliopathy-related cystic kidney disease, but no tolvaptan data.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

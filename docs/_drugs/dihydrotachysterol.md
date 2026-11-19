@@ -56,7 +56,7 @@ However, **no clinical trials and no publications** currently support this speci
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, dihydrotachysterol is a vitamin D analogue. It is hydroxylated in the liver to 25-hydroxydihydrotachysterol, which acts on the vitamin D receptor without needing the renal 1-alpha-hydroxylation step.
+ChEMBL (EMBL-EBI) records the mechanism of action of dihydrotachysterol as: Vitamin D receptor agonist ([ChEMBL CHEMBL2356023 (dihydrotachysterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2356023), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, dihydrotachysterol is a vitamin D analogue. It is hydroxylated in the liver to 25-hydroxydihydrotachysterol, which acts on the vitamin D receptor without needing the renal 1-alpha-hydroxylation step.
 
 Because it acts on the same pathway that vitamin D deficiency disrupts, treating that deficiency is mechanistically plausible. It also overlaps with other calcium and bone-mineral disorders for which vitamin D analogues are used.
 
@@ -115,11 +115,12 @@ The prediction is mechanistically plausible but has no supporting trials or publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient licence is recorded. The licence record carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2356023 (dihydrotachysterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2356023) |
 
 <!-- review:end log -->
 

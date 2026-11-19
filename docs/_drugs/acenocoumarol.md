@@ -54,7 +54,7 @@ Acenocoumarol is an oral vitamin K antagonist anticoagulant. The TxGNN model pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Acenocoumarol belongs to the vitamin K antagonist class. These drugs inhibit VKORC1, which reduces the synthesis of functional vitamin K-dependent clotting factors II, VII, IX and X.
+ChEMBL (EMBL-EBI) records the mechanism of action of acenocoumarol as: Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor ([ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420), CC BY-SA 3.0; accessed 2026-11-19.) Acenocoumarol belongs to the vitamin K antagonist class. These drugs inhibit VKORC1, which reduces the synthesis of functional vitamin K-dependent clotting factors II, VII, IX and X.
 
 Heparin cofactor II deficiency is an inherited thrombophilia in which thrombin inhibition is impaired, giving a prothrombotic state. Long-term oral anticoagulation is a plausible approach to preventing thrombosis in thrombophilic states, so the mechanism is conceptually compatible. However, this link is inferred from general anticoagulation rationale and the model prediction. No study specific to this condition was found, and the prediction should be regarded as a hypothesis only.
 
@@ -90,6 +90,19 @@ The prediction score is high (0.9984), but there are no trials or publications f
 - Warnings and contraindications from the UK SmPC and BNF
 - Review of the potential interactions for INR and bleeding risk
 - Clinical expert input on whether anticoagulation is warranted in this rare condition
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

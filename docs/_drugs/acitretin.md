@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **acne (disease)**, with **1 cl
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on the literature retrieved, acitretin is a second-generation oral retinoid that modulates keratinocyte differentiation and proliferation and has anti-inflammatory effects. Retinoids as a class are known to reduce sebaceous gland activity. However, this is best established for isotretinoin, not acitretin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for acitretin: "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), label version 2026-10-20; accessed 2026-11-19.) Based on the literature retrieved, acitretin is a second-generation oral retinoid that modulates keratinocyte differentiation and proliferation and has anti-inflammatory effects. Retinoids as a class are known to reduce sebaceous gland activity. However, this is best established for isotretinoin, not acitretin.
 
 The TxGNN term "acne (disease)" appears to be conflated with acne inversa (hidradenitis suppurativa), which is the context of most of the acitretin evidence retrieved. Follicular occlusion and inflammation in hidradenitis suppurativa and nodulocystic acne could plausibly respond to retinoid-mediated normalisation of follicular keratinisation. Acitretin is not a standard therapy for common acne vulgaris. Its teratogenicity, with a long-lasting risk and a contraception requirement of about three years after treatment, strongly limits its use in women of childbearing potential.
 
@@ -143,11 +143,12 @@ The only trial retrieved addresses hidradenitis suppurativa, not acne vulgaris, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
 
 <!-- review:end log -->
 

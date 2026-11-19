@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, pramipexole is a non-ergoline dopamine agonist that preferentially acts on D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects its ability to restore dopaminergic signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pramipexole: "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), label version 2026-09-09; accessed 2026-11-19.) Based on general pharmacology, pramipexole is a non-ergoline dopamine agonist that preferentially acts on D2/D3 receptors. Its efficacy in Parkinson disease and restless legs syndrome reflects its ability to restore dopaminergic signalling.
 
 Dopaminergic dysregulation is implicated in ADHD. Variants of the dopamine D4 receptor gene have been linked to ADHD, and the retrieved literature discusses this (PMID 34182128). The link to pramipexole is therefore plausible, but indirect.
 
@@ -154,6 +154,19 @@ The high model score is not backed by any ADHD-specific trial or publication. Th
 - Verification of the UK marketing authorisation details, including the licensed indication and dosage form
 
 **Note on other predictions:** Among the other predicted indications, **schizophrenia** (rank 9) has markedly stronger support. It has a Phase 3 add-on trial (NCT01320982, status unknown, no results supplied) and a published randomised placebo-controlled add-on trial (PMID 35921506, 200 patients). This is worth assessing separately.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

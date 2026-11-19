@@ -54,7 +54,7 @@ Artemether is an artemisinin-derivative antimalarial that is marketed in the UK.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for artemether are not available in the data compiled for this report. Artemether is an artemisinin derivative, a class used as antimalarial therapy, but no mechanism has been identified that would connect it to acquired angioedema.
+ChEMBL (EMBL-EBI) records the mechanism of action of artemether as: Ferriprotoporphyrin IX inhibitor ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; accessed 2026-11-19.) Artemether is an artemisinin derivative, a class used as antimalarial therapy, but no mechanism has been identified that would connect it to acquired angioedema.
 
 Acquired angioedema is a bradykinin- or complement-pathway-related swelling disorder. No known action of artemether on these pathways was identified. The high TxGNN score (0.9990) is a computational output only. With no supporting trials or literature, it most likely reflects network proximity in the model rather than biology, and it should not be read as clinical support.
 
@@ -115,11 +115,12 @@ The prediction for acquired angioedema is supported only by a model score, with 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both listed records are valid single-ingredient entries according to the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for artemether are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

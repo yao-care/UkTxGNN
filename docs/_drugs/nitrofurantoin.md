@@ -56,7 +56,7 @@ This prediction should be treated as a model output only.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Nitrofurantoin is a nitrofuran antibacterial whose efficacy in urinary tract infection is well established. No anti-inflammatory or immunomodulatory mechanism relevant to rheumatoid arthritis has been established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for nitrofurantoin: "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), label version 2026-01-22; accessed 2026-11-19.) Nitrofurantoin is a nitrofuran antibacterial whose efficacy in urinary tract infection is well established. No anti-inflammatory or immunomodulatory mechanism relevant to rheumatoid arthritis has been established.
 
 The high TxGNN score (0.9989) appears to reflect network associations rather than a therapeutic rationale. The retrieved papers describe nitrofurantoin-associated pulmonary toxicity, including a case where a methotrexate-nitrofurantoin interaction caused irreversible pulmonary fibrosis in a patient with rheumatoid arthritis. They also include a UK self-controlled case series examining antibiotic exposure and rheumatoid arthritis flares. These point to co-occurrence and possible harm, not treatment benefit.
 
@@ -132,6 +132,19 @@ The prediction rests on a model score alone. There are no clinical trials, the l
 - A formal safety assessment, including interaction with methotrexate and long-term pulmonary and hepatic risk
 
 **Other predicted indications:** None of the other nine predictions (including diabetic nephropathy, sclerosing cholangitis, methemoglobinemia and gout) has trial evidence or a supportive mechanism. For methemoglobinemia, sclerosing cholangitis and the ocular anomaly signal, the literature indicates adverse drug effects rather than therapeutic opportunity. All are also recommended as Hold.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

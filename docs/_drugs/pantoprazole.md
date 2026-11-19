@@ -55,7 +55,7 @@ This is largely an on-label use rather than true repurposing, so the prediction 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (proton pump) in parietal cells. This suppresses acid secretion and allows ulcers to heal.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pantoprazole: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), label version 2026-11-06; accessed 2026-11-19.) From general pharmacology, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (proton pump) in parietal cells. This suppresses acid secretion and allows ulcers to heal.
 
 The predicted indication is essentially the same as the drug's existing use in peptic ulcer disease. Ulcer healing depends on reducing gastric acid exposure, so the mechanism fits directly. Other predicted indications in the data (gastrojejunal ulcer, peptic ulcer perforation, duodenogastric reflux, duodenal obstruction) are weaker. They rest on indirect evidence, or on none, and are outside the scope of this report.
 
@@ -136,11 +136,12 @@ The evidence supports pantoprazole in active peptic ulcer disease: a completed P
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded, with no cancelled authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

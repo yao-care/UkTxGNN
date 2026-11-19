@@ -62,7 +62,7 @@ Ketamine is an NMDA receptor antagonist. The TxGNN model predicts it may be effe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for ketamine were not available in the data compiled for this report. The following rests on general pharmacology. Ketamine is an NMDA receptor antagonist. NMDA-mediated glutamatergic signalling contributes to central sensitisation, cortical spreading depression and trigeminovascular pain transmission. These processes are implicated in migraine, cluster headache and other refractory headache disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketamine: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), label version 2026-03-27; accessed 2026-11-19.) The following rests on general pharmacology. Ketamine is an NMDA receptor antagonist. NMDA-mediated glutamatergic signalling contributes to central sensitisation, cortical spreading depression and trigeminovascular pain transmission. These processes are implicated in migraine, cluster headache and other refractory headache disorders.
 
 Blocking NMDA receptors at sub-dissociative doses may reduce this sensitisation and produce an analgesic effect. This offers a plausible mechanistic link between ketamine's known pharmacology and headache disorders. The high TxGNN score is a computational prediction and supports prioritisation only. It is not proof of efficacy.
 
@@ -166,13 +166,14 @@ Several randomised and comparator trials in acute and chronic headache, a plausi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record carries no approved indication text or dosage form field. It does not carry a standard MHRA product licence (PL) number format, s" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "with one oral solution authorisation recorded on the UK market" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "UK licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data for ketamine were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

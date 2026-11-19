@@ -60,7 +60,7 @@ Familial hypercholesterolaemia overlaps with simvastatin's existing indications,
 
 ## Why is This Prediction Reasonable?
 
-Simvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis. Lower intracellular cholesterol upregulates LDL receptors, which increases clearance of LDL cholesterol (LDL-C) from the blood. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the well-established pharmacology of the statin class.
+Simvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis. Lower intracellular cholesterol upregulates LDL receptors, which increases clearance of LDL cholesterol (LDL-C) from the blood. According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) This description reflects the well-established pharmacology of the statin class.
 
 In familial hypercholesterolaemia, LDL-C is persistently raised, mostly through LDL receptor pathway defects, and patients develop premature coronary artery disease. Because statins act on this same pathway, and residual LDL receptor function in heterozygous patients allows the response, the prediction is mechanistically coherent. Homozygous familial hypercholesterolaemia is already among simvastatin's listed original indications.
 
@@ -187,11 +187,12 @@ Multiple completed Phase 3 trials in familial hypercholesterolaemia include simv
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
 
 <!-- review:end log -->
 

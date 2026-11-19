@@ -56,7 +56,7 @@ Chloroquine is an antimalarial that is also used in rheumatoid arthritis and lup
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of chloroquine, it has immunomodulatory activity: it inhibits lysosomal function, reduces antigen processing and Toll-like receptor signalling, and lowers pro-inflammatory cytokine production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chloroquine: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), label version 2026-10-21; accessed 2026-11-19.) Based on the known pharmacology of chloroquine, it has immunomodulatory activity: it inhibits lysosomal function, reduces antigen processing and Toll-like receptor signalling, and lowers pro-inflammatory cytokine production.
 
 Chloroquine is already used in adult rheumatoid arthritis. RF-positive polyarticular JIA resembles adult seropositive rheumatoid arthritis, so a plausible mechanistic link exists. However, the TxGNN score is a computational prediction. The one publication retrieved for this exact disease concerns leflunomide, not chloroquine, and so gives no direct evidence for chloroquine here.
 
@@ -146,11 +146,12 @@ The TxGNN score is very high, but there are no clinical trials and no direct chl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both entries are single-ingredient authorisations with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 
 <!-- review:end log -->
 

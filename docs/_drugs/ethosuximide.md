@@ -56,7 +56,7 @@ but currently there are **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Ethosuximide is generally understood to block T-type calcium channels in thalamic neurons, which underlies its efficacy in absence epilepsy. This is background knowledge and not drawn from the compiled data.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ethosuximide: "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), label version 2026-05-25; accessed 2026-11-19.) Ethosuximide is generally understood to block T-type calcium channels in thalamic neurons, which underlies its efficacy in absence epilepsy. This is background knowledge and not drawn from the compiled data.
 
 NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*) or, in some cases, *GNAS*. These produce constitutive receptor activity and water retention despite low vasopressin levels. A link between T-type calcium channel blockade and this process has not been established. Any connection, for example through renal calcium signalling or aquaporin-2 regulation, is speculative.
 
@@ -119,6 +119,19 @@ The prediction is supported only by a model score (Evidence Level L5). There are
 - Warnings and contraindications from the SmPC and BNF, to complete safety screening
 - Approved indication text and PL number for the UK authorisation
 - Assessment of route and formulation compatibility for the new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

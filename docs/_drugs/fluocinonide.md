@@ -60,7 +60,7 @@ Direct evidence for fluocinonide in the predicted indication is very limited.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory and immunosuppressive actions. Its efficacy in inflammatory dermatoses is established, and mechanistically it may be applicable to inflammatory hair-follicle disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluocinonide: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of Fluocinonide Cream USP, 0.1% in corticosteroid responsive dermatoses is unknown." ([DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f), label version 2023-01-11; accessed 2026-11-19.) Based on known information, fluocinonide is a high-potency topical corticosteroid with anti-inflammatory and immunosuppressive actions. Its efficacy in inflammatory dermatoses is established, and mechanistically it may be applicable to inflammatory hair-follicle disorders.
 
 The predicted indications fall mainly into the alopecia group, and their plausibility varies considerably:
 
@@ -153,11 +153,12 @@ The predictions rest almost entirely on the TxGNN score. The only retrieved tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded; there are no combination products and none have been cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f) |
 
 <!-- review:end log -->
 

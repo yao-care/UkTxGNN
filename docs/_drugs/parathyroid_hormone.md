@@ -59,7 +59,7 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Parathyroid hormone is a calcium-regulating hormone, and its receptor (PTH1R) is shared with the related peptide PTHrP. A 2025 genetic study (PMID 40297711) links variants in the PTHrP receptor pathway to migraine susceptibility. This is the main reason the prediction is biologically plausible.
+ChEMBL (EMBL-EBI) records the mechanism of action of parathyroid hormone as: Parathyroid hormone receptor agonist ([ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078), CC BY-SA 3.0; accessed 2026-11-19.) Parathyroid hormone is a calcium-regulating hormone, and its receptor (PTH1R) is shared with the related peptide PTHrP. A 2025 genetic study (PMID 40297711) links variants in the PTHrP receptor pathway to migraine susceptibility. This is the main reason the prediction is biologically plausible.
 
 PTH1R signalling may plausibly be connected to CGRP-related vasodilation, since PTHrP and CGRP belong to related peptide signalling families. CGRP is a well-established migraine mediator. The remaining literature is indirect: it describes calcium, vitamin D, magnesium and bone status in people with migraine.
 
@@ -132,6 +132,19 @@ The prediction score is high, but support is limited to a genetic association an
 - Preclinical studies testing whether PTH1R modulation (agonism or antagonism) affects migraine-relevant models, including CGRP pathways
 - A clear hypothesis on the direction of effect, since genetic findings may point towards receptor antagonism rather than PTH administration
 - Assessment of calcium-related risks and the interactions listed above before any clinical testing
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108078 (parathyroid hormone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108078) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

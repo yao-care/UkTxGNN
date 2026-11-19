@@ -59,7 +59,7 @@ This prediction largely overlaps with the drug's existing uses, so it is better 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, nizatidine is an H2-receptor antagonist. It blocks histamine at the parietal cell and so reduces basal, nocturnal and stimulated gastric acid secretion. The literature describes it as a potent inhibitor of acid secretion, and in animal studies it was more active than cimetidine on a weight-for-weight basis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nizatidine: "Nizatidine is a competitive, reversible inhibitor of histamine at the histamine H 2 -receptors, particularly those in the gastric parietal cells. Antisecretory Activity Effects on Acid Secretion Nizatidine significantly inhibited nocturnal gastric acid secretion for up to 12 hours." ([DailyMed: nizatidine prescribing information, Epic Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236), label version 2025-01-02; accessed 2026-11-19.) Based on known pharmacology, nizatidine is an H2-receptor antagonist. It blocks histamine at the parietal cell and so reduces basal, nocturnal and stimulated gastric acid secretion. The literature describes it as a potent inhibitor of acid secretion, and in animal studies it was more active than cimetidine on a weight-for-weight basis.
 
 Acid suppression is the core mechanism for healing peptic ulcers. The predicted indication is therefore not a new use. It overlaps with the drug's established indications (gastric ulcer, duodenal ulcer and peptic ulcer disease). The literature includes randomised, placebo-controlled trials in active duodenal ulcer and benign gastric ulcer, as well as maintenance studies after healing.
 
@@ -166,11 +166,12 @@ The prediction for active peptic ulcer disease is supported by randomised, place
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nizatidine prescribing information, Epic Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9957997-8b85-48a0-9bb3-b878cb223236) |
 
 <!-- review:end log -->
 

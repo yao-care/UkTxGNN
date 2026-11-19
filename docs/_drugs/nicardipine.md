@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and **no publications 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, nicardipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and lowers systemic blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nicardipine: "Nicardipine inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle without changing serum calcium concentrations. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels." ([DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d), label version 2026-07-31; accessed 2026-11-19.) Based on known pharmacology, nicardipine is a dihydropyridine L-type calcium channel blocker that relaxes vascular smooth muscle and lowers systemic blood pressure.
 
 Hypoxic pulmonary vasoconstriction depends partly on calcium influx into pulmonary arterial smooth muscle, so a mechanistic link is plausible. One physiological study in dogs (PMID 3132192, 1988) examined nicardipine's effect on regional hypoxic pulmonary vasoconstriction.
 
@@ -138,6 +138,19 @@ No clinical trials or direct patient studies support nicardipine in pulmonary hy
 - Preclinical or early-phase data on pulmonary haemodynamics and gas exchange in hypoxic lung disease
 - Assessment of the ventilation-perfusion mismatch risk
 - Confirmation of the UK licence details (dosage form, approved indication, authorisation number)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

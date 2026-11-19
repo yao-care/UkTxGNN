@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Conjunctivitis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. Its efficacy in tuberculosis is well established, and mechanistically it may be applicable to bacterial eye infections.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rifampicin: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), label version 2026-05-05; accessed 2026-11-19.) Based on known information, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. Its efficacy in tuberculosis is well established, and mechanistically it may be applicable to bacterial eye infections.
 
 Rifampicin is active against Gram-positive bacteria and *Chlamydia trachomatis*, which are recognised causes of infectious conjunctivitis and trachoma. This gives a plausible antibacterial rationale. Older studies tested rifampicin eye ointment in chlamydial eye infection and trachoma.
 
@@ -175,11 +175,12 @@ The prediction score is high, but the supporting evidence is indirect (susceptib
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation. and no ophthalmic rifampicin product was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

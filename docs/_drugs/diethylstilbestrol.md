@@ -60,7 +60,7 @@ The prediction is essentially model-derived, and the literature raises significa
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, diethylstilbestrol is a synthetic non-steroidal oestrogen. Oestrogen replacement is a biologically plausible approach to hypo-oestrogenic amenorrhoea, such as primary ovarian failure, premature ovarian insufficiency, and gonadal dysgenesis (Turner syndrome).
+ChEMBL (EMBL-EBI) records the mechanism of action of diethylstilbestrol as: Estrogen receptor alpha agonist ([ChEMBL CHEMBL411 (diethylstilbestrol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL411), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, diethylstilbestrol is a synthetic non-steroidal oestrogen. Oestrogen replacement is a biologically plausible approach to hypo-oestrogenic amenorrhoea, such as primary ovarian failure, premature ovarian insufficiency, and gonadal dysgenesis (Turner syndrome).
 
 The retrieved literature is historical and descriptive. It includes reviews on ovarian failure and case reports of endometrial carcinoma after oestrogen therapy in gonadal dysgenesis and Turner syndrome. These point to a significant safety signal for unopposed oestrogen.
 
@@ -155,6 +155,19 @@ The prediction rests on a plausible oestrogen-replacement mechanism but is suppo
 ### Note on other predictions
 
 Two lower-ranked predictions, **acne** (score 0.9972, L5) and **breast fibrocystic disease** (score 0.9916, L5), were also reviewed. Both have no clinical trials and no literature addressing treatment, and both carry a **Hold** recommendation. The fibrocystic disease rationale is arguably contradictory, since oestrogens generally promote breast epithelial proliferation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL411 (diethylstilbestrol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL411) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

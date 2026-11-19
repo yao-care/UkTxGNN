@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for lofexidine is not available in the data compiled for this report. Based on its known pharmacology, lofexidine is a central alpha-2 adrenergic receptor agonist that reduces noradrenergic outflow from the locus coeruleus. It is generally used to ease symptoms of opioid withdrawal, which is not stated in the compiled data and should be confirmed against the SmPC.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lofexidine: "Lofexidine is a central alpha-2 adrenergic agonist that binds to receptors on adrenergic neurons. This reduces the release of norepinephrine and decreases sympathetic tone." ([DailyMed: Lucemyra (lofexidine hydrochloride) prescribing information, BioCorRx Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a848cc2-4dda-40d9-8b01-d789fe8981ed), label version 2026-07-22; accessed 2026-11-19.) Based on its known pharmacology, lofexidine is a central alpha-2 adrenergic receptor agonist that reduces noradrenergic outflow from the locus coeruleus. It is generally used to ease symptoms of opioid withdrawal, which is not stated in the compiled data and should be confirmed against the SmPC.
 
 A plausible link to migraine exists because other alpha-2 agonists, such as clonidine, have been studied for migraine prophylaxis. Modulating sympathetic tone and central pain and arousal pathways could, in theory, affect migraine.
 
@@ -131,12 +131,13 @@ The prediction rests on model output alone (evidence level L5). There are no reg
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with one marketing authorisation recorded in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The UK authorisation record lacks indication text, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for lofexidine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lucemyra (lofexidine hydrochloride) prescribing information, BioCorRx Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a848cc2-4dda-40d9-8b01-d789fe8981ed) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Mycophenolate mofetil is an immunosuppressant that inhibits inosine monophosphat
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the compiled data. However, the repurposing rationale describes MMF as an inhibitor of IMPDH, which depletes guanosine nucleotide pools. This limits lymphocyte proliferation, potentially reducing the pool of activated target cells for HIV. It may also potentiate nucleoside analogues such as abacavir and didanosine, by depleting intracellular deoxyguanosine triphosphate (dGTP).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mycophenolate mofetil: "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), label version 2026-07-31; accessed 2026-11-19.) However, the repurposing rationale describes MMF as an inhibitor of IMPDH, which depletes guanosine nucleotide pools. This limits lymphocyte proliferation, potentially reducing the pool of activated target cells for HIV. It may also potentiate nucleoside analogues such as abacavir and didanosine, by depleting intracellular deoxyguanosine triphosphate (dGTP).
 
 The original indication is not recorded in the compiled data, so a direct comparison with HIV cannot be made. The mechanism is plausible, and small studies have explored it. Clinical antiviral benefit has not been established, and immunosuppression in people with HIV raises safety concerns.
 
@@ -151,11 +151,12 @@ The mechanism is plausible and early studies explored MMF alongside antiretrovir
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation is recorded, and its indication text and dosage form are not available in the compiled data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

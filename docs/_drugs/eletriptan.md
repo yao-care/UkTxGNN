@@ -58,7 +58,7 @@ Eletriptan is a triptan-class medicine. The TxGNN model predicts it may be relev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Eletriptan belongs to the triptan class, which acts as agonists at 5-HT1B/1D receptors, and this is its recognised pharmacological profile.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for eletriptan: "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), label version 2024-01-15; accessed 2026-11-19.) Eletriptan belongs to the triptan class, which acts as agonists at 5-HT1B/1D receptors, and this is its recognised pharmacological profile.
 
 Atrophoderma vermiculata is a rare atrophic skin disorder affecting hair follicles, mainly on the cheeks. No plausible mechanistic link was identified between 5-HT1B/1D agonism and its pathology. The high TxGNN score is a computational output only. Similarity to the drug's established use has not been assessed, and no trials or literature support the prediction. It should therefore be treated as a hypothesis-generating signal rather than a reasoned therapeutic proposal.
 
@@ -137,11 +137,12 @@ The prediction scores highly in the model, but there are no clinical trials or p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record lists one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
 
 <!-- review:end log -->
 

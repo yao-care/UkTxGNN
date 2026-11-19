@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **migraine disorder**, with **no r
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Nabilone is, however, a synthetic analogue of delta-9-tetrahydrocannabinol (THC) and an agonist of CB1 and CB2 cannabinoid receptors. It is approved for chemotherapy-induced vomiting that has not responded to other antiemetics.
+ChEMBL (EMBL-EBI) records the mechanism of action of nabilone as: Cannabinoid CB1 receptor agonist ([ChEMBL CHEMBL2218896 (nabilone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2218896), CC BY-SA 3.0; accessed 2026-11-19.) Nabilone is, however, a synthetic analogue of delta-9-tetrahydrocannabinol (THC) and an agonist of CB1 and CB2 cannabinoid receptors. It is approved for chemotherapy-induced vomiting that has not responded to other antiemetics.
 
 The endocannabinoid system is thought to modulate trigeminovascular pain signalling, CGRP release and central pain processing, all of which are relevant to migraine. This offers a plausible, though unproven, biological link between nabilone's pharmacology and migraine.
 
@@ -141,6 +141,19 @@ The prediction score is high, but there are no registered trials for migraine an
 - A properly designed, adequately powered randomised trial in migraine or headache disorders
 - A safety monitoring plan covering psychiatric, cardiovascular and sedation risks, and CNS-depressant interactions
 - Consolidation of duplicate migraine entries (migraine with brainstem aura, migraine susceptibility) under the main migraine indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2218896 (nabilone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2218896) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

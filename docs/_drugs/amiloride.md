@@ -60,7 +60,7 @@ Of the other predicted indications reviewed, only pulmonary hypertension due to 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, amiloride blocks the epithelial sodium channel (ENaC) in the distal nephron. This reduces sodium reabsorption and conserves potassium, which lowers blood pressure and fluid retention. Its efficacy in hypertension and heart failure is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for amiloride: "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, amiloride blocks the epithelial sodium channel (ENaC) in the distal nephron. This reduces sodium reabsorption and conserves potassium, which lowers blood pressure and fluid retention. Its efficacy in hypertension and heart failure is well established.
 
 Hypertensive renal disease is closely related to the original indication, so a high model score is understandable. However, the prediction most likely reflects amiloride's existing use in hypertension rather than a genuinely new therapeutic signal. Malignant hypertension is a hypertensive emergency and is not managed with potassium-sparing diuretics. Hyperkalaemia risk is also a significant concern when renal function is impaired.
 
@@ -171,11 +171,12 @@ The prediction score is very high, but the evidence is model-only (L5) for the l
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
 
 <!-- review:end log -->
 

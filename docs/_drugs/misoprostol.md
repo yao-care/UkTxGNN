@@ -60,7 +60,7 @@ This prediction rests essentially on model output and is not supported by direct
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, misoprostol is a prostaglandin E1 analogue that induces uterine contraction and cervical ripening. It is used with mifepristone for early medical abortion and in the management of missed abortion.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diclofenac sodium and misoprostol (a combination product containing misoprostol): "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), label version 2026-08-31; accessed 2026-11-19.) Based on known information, misoprostol is a prostaglandin E1 analogue that induces uterine contraction and cervical ripening. It is used with mifepristone for early medical abortion and in the management of missed abortion.
 
 The identified literature concerns pregnancy-related amenorrhoea, mainly early pregnancy termination, and not amenorrhoea as a disease. In those studies, "amenorrhoea" describes the duration of early pregnancy (for example, 35 days or less) and is not the condition being treated. No mechanism has been established by which misoprostol would restore menses in primary or secondary amenorrhoea.
 
@@ -158,6 +158,19 @@ There are no registered trials, the literature addresses pregnancy termination r
 - Detailed mechanism of action data, and a rationale for how misoprostol could treat primary or secondary amenorrhoea
 - Clinical evidence in non-pregnancy amenorrhoea, as the current literature concerns pregnancy termination
 - A clear assessment of teratogenic and uterotonic risks in women of reproductive age
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

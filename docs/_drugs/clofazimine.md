@@ -58,7 +58,7 @@ Clofazimine is an antimycobacterial medicine marketed in the UK. The TxGNN model
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, so no mechanism-based rationale can be built for this prediction.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clofazimine: "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250), label version 2026-08-17; accessed 2026-11-19.) No mechanism-based rationale can be built for this prediction.
 
 The data compiled for this report do not support a credible mechanistic link. Pneumocystis is a fungus, and clofazimine's known activity is against mycobacteria; there is no basis here for assuming it acts on Pneumocystis. The three retrieved publications appear to be linked to the prediction only because clofazimine and Pneumocystis pneumonia both occur in people with advanced HIV disease and other opportunistic infections. They do not show a therapeutic effect against Pneumocystis.
 
@@ -128,6 +128,19 @@ The prediction is supported only by a model score. No trial or publication tests
 - Comparison against established Pneumocystis treatment and prophylaxis
 - Label-based warnings and contraindications from the SmPC and BNF
 - Review of the major interaction signals (cisapride, dolasetron) and QT-related risk before any clinical use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available, so n" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

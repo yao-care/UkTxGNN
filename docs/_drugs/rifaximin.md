@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **oral candidiasis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, rifaximin is a non-absorbed oral antibacterial that acts within the gut. Its efficacy in hepatic encephalopathy relates to reducing gut bacterial load.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for rifaximin: "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), label version 2025-08-27; accessed 2026-11-19.) Based on known information, rifaximin is a non-absorbed oral antibacterial that acts within the gut. Its efficacy in hepatic encephalopathy relates to reducing gut bacterial load.
 
 On the available evidence, the prediction is **not mechanistically supported**. Rifaximin has no antifungal activity, and oral candidiasis is a fungal infection. The one relevant publication (PMID 34180023) reports that rifaximin use favoured micafungin-resistant *Candida* infections in allogeneic stem cell transplant recipients. This suggests a possible harm signal, such as gut microbiota disruption promoting fungal overgrowth. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -110,6 +110,19 @@ The prediction rests on a model score alone. There are no clinical trials, rifax
 - Prospective or well-controlled studies, if any link between rifaximin, gut-oral axis effects and oral candidiasis is to be explored
 - Review of the safety signal for resistant *Candida* infection in immunocompromised patients
 - Complete UK authorisation details (PL number, dosage form, approved indication) and SmPC warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, with **no
 
 ## Why is This Prediction Reasonable?
 
-Pirenzepine is a selective muscarinic M1 receptor antagonist. It reduces gastric acid secretion and is already marketed for peptic ulcer disease. Its pharmacology data also show binding to the other muscarinic receptor subtypes (M2 to M5), though with M1 selectivity being its main characteristic. Formal mechanism-of-action data were not available in the data compiled for this report; the description here is drawn from the published literature.
+Pirenzepine is a selective muscarinic M1 receptor antagonist. It reduces gastric acid secretion and is already marketed for peptic ulcer disease. Its pharmacology data also show binding to the other muscarinic receptor subtypes (M2 to M5), though with M1 selectivity being its main characteristic. ChEMBL (EMBL-EBI) records the mechanism of action of pirenzepine as: Muscarinic acetylcholine receptor M1 antagonist ([ChEMBL CHEMBL9967 (pirenzepine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9967), CC BY-SA 3.0; accessed 2026-11-19.)
 
 Gastroduodenitis and peptic ulcer disease share much of the same underlying biology, namely acid and cholinergic drive on the gastroduodenal mucosa. Animal work shows that pirenzepine protects against chemically induced gastroduodenal ulcers (PMID 2636820). A volunteer study found that M1 inhibition increases bicarbonate secretion and prostaglandin E2 release (PMID 7737558).
 
@@ -117,6 +117,19 @@ The supporting evidence is limited to older (1979 to 1995) clinical and mechanis
 - Full text review of the older controlled trials (several abstracts are missing) to confirm design and outcomes
 - Head-to-head or contemporary comparative evidence against proton pump inhibitors
 - Confirmation of the approved indication wording and dosage form for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Formal mechanism-of-action data were not available in the data compiled for this report; the description here is drawn from the published literature" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL9967 (pirenzepine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9967) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

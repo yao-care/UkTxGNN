@@ -60,7 +60,7 @@ but there are currently **no registered clinical trials** and only indirect lite
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sulfadiazine is a sulfonamide that inhibits dihydropteroate synthase (DHPS) in the folate synthesis pathway. *Pneumocystis jirovecii* depends on the same pathway.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sulfadiazine: "The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid." ([DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91), label version 2024-09-24; accessed 2026-11-19.) Based on known pharmacology, sulfadiazine is a sulfonamide that inhibits dihydropteroate synthase (DHPS) in the folate synthesis pathway. *Pneumocystis jirovecii* depends on the same pathway.
 
 Sulfonamides combined with dihydrofolate reductase (DHFR) inhibitors are established therapy for Pneumocystis pneumonia; the best-known regimen is trimethoprim-sulfamethoxazole. Sulfadiazine is already used with pyrimethamine for toxoplasmosis, an infection that often occurs alongside pneumocystosis in immunocompromised patients. This shared mechanism makes the high TxGNN score plausible.
 
@@ -134,6 +134,19 @@ The mechanism is plausible, since sulfonamides inhibit DHPS and are established 
 - Preclinical or clinical data specifically for sulfadiazine in pneumocystosis, for example in patients who cannot tolerate trimethoprim-sulfamethoxazole
 - Full SmPC and BNF safety information (warnings and contraindications), and the approved indication text for the UK licence
 - A monitoring plan for haematological, renal and hepatic parameters, and for G6PD deficiency screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

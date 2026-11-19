@@ -58,7 +58,7 @@ Baclofen is a GABA-B receptor agonist, widely used to treat muscle spasticity. T
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Baclofen is known to be a GABA-B receptor agonist. GABA is the brain's main inhibitory neurotransmitter, and baclofen's effect on spasticity comes from dampening excitatory signalling in the spinal cord.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for baclofen: "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), label version 2026-09-22; accessed 2026-11-19.) Baclofen is known to be a GABA-B receptor agonist. GABA is the brain's main inhibitory neurotransmitter, and baclofen's effect on spasticity comes from dampening excitatory signalling in the spinal cord.
 
 A plausible link to ADHD is that GABA-B stimulation may modulate dopamine and glutamate signalling in frontostriatal circuits, which are involved in attention and impulse control. This is a hypothesis, not a demonstrated effect.
 
@@ -161,6 +161,19 @@ The ADHD prediction rests on a model score alone, with no registered trials and 
 - A safety plan covering sedation and co-prescribed medicines
 
 **Note on the second-ranked prediction:** Baclofen is also predicted for **nicotine dependence** (score 0.9919, evidence level L2). Three Phase 2 trials exist (NCT01228994, NCT00257894, NCT01821560): two were terminated early and one was completed, and none reported results in the data compiled. Rodent studies also support an effect on nicotine reward and withdrawal. This is a more evidence-supported research question than ADHD and could be assessed in a separate report.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

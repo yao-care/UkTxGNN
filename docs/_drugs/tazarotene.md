@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **seborrhoeic dermatitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on general pharmacology, tazarotene is a topical retinoid prodrug that is converted to tazarotenic acid. This binds selectively to retinoic acid receptors beta and gamma (RARβ and RARγ), normalising keratinocyte differentiation and reducing hyperproliferation and inflammation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tazarotene: "Tazarotene is a retinoid prodrug which is converted to its active form, the carboxylic acid of tazarotene, by deesterification. Tazarotenic acid binds to all three members of the retinoic acid receptor (RAR) family: RARα, RARβ, and RARγ, but shows relative selectivity for RARβ, and RARγ and may modify gene expression." ([DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057), label version 2026-11-04; accessed 2026-11-19.) Based on general pharmacology, tazarotene is a topical retinoid prodrug that is converted to tazarotenic acid. This binds selectively to retinoic acid receptors beta and gamma (RARβ and RARγ), normalising keratinocyte differentiation and reducing hyperproliferation and inflammation.
 
 These effects are relevant to psoriasis and acne, and could plausibly help with the scaling and inflammatory component of seborrhoeic dermatitis. However, that condition is also driven by *Malassezia* yeast colonisation and the skin's inflammatory response to it, which retinoid activity does not directly address. The very high TxGNN score is a computational prediction only, so the mechanistic link is inferred rather than demonstrated. Topical retinoid irritation (redness, peeling) could also aggravate a condition that commonly affects sensitive facial skin.
 
@@ -134,11 +134,12 @@ The prediction for seborrhoeic dermatitis is supported only by a model score, wi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The authorisation is recorded as a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057) |
 
 <!-- review:end log -->
 

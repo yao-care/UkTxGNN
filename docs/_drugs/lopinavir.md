@@ -60,7 +60,7 @@ Currently there are **0 clinical trials** and **3 publications** (all preclinica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lopinavir is an HIV protease inhibitor, its efficacy in HIV infection and AIDS is established, and mechanistically it may be applicable to SIV infection.
+ChEMBL (EMBL-EBI) records the mechanism of action of lopinavir as: Human immunodeficiency virus type 1 protease inhibitor ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, lopinavir is an HIV protease inhibitor, its efficacy in HIV infection and AIDS is established, and mechanistically it may be applicable to SIV infection.
 
 SIV is a lentivirus closely related to HIV, and its protease is a homologous target, so a protease inhibitor effect is biologically plausible. However, SIV infection occurs in non-human primates, so this prediction is best read as an animal-model extension of the HIV indication, not a new human therapeutic use. Its main value is as a preclinical research model.
 
@@ -150,11 +150,12 @@ The only supporting evidence is three preclinical non-human primate studies, the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorisations are valid single-ingredient records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

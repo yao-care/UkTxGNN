@@ -60,7 +60,7 @@ Perampanel is an AMPA receptor antagonist originally used for partial (focal-ons
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the published literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces glutamate-mediated excitation of postsynaptic membranes and is established as an add-on treatment for focal-onset seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perampanel: "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), label version 2022-12-28; accessed 2026-11-19.) Based on the published literature, perampanel is a selective, non-competitive AMPA-type glutamate receptor antagonist. It reduces glutamate-mediated excitation of postsynaptic membranes and is established as an add-on treatment for focal-onset seizures.
 
 In prolonged status epilepticus, synaptic AMPA receptors increase while GABA-A receptors are internalised. This is thought to explain why benzodiazepines lose effect over time. Blocking AMPA receptors is therefore a rational add-on approach in refractory and super-refractory status epilepticus, and perampanel has shown activity in animal models of status epilepticus.
 
@@ -179,11 +179,12 @@ Status epilepticus has a plausible mechanism and two systematic reviews plus sev
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
 
 <!-- review:end log -->
 

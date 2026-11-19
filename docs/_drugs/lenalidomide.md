@@ -60,7 +60,7 @@ with **45 clinical trials** (mostly Phase 1/2) and **19 publications** (mainly r
 
 ## Why is This Prediction Reasonable?
 
-Lenalidomide is a cereblon E3 ligase modulator. It promotes degradation of the transcription factors IKZF1 and IKZF3, and of CK1α, which drives its activity in del(5q) MDS. It also activates natural killer (NK) and T cells and has anti-angiogenic effects. Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on the mechanistic rationale assessed for the prediction.
+Lenalidomide is a cereblon E3 ligase modulator. It promotes degradation of the transcription factors IKZF1 and IKZF3, and of CK1α, which drives its activity in del(5q) MDS. It also activates natural killer (NK) and T cells and has anti-angiogenic effects. According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) This description is based on the mechanistic rationale assessed for the prediction.
 
 Myeloid leukaemia, including acute myeloid leukaemia (AML), is biologically close to MDS, where lenalidomide is already established. MDS frequently progresses to AML, and the same pathways (cereblon-mediated degradation, immune activation) could plausibly act in myeloid malignancies.
 
@@ -190,11 +190,12 @@ The other predicted indications are weaker and should not be prioritised:
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code rather than a standard MHRA PL number, and no " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **stroke disorder**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, dronedarone is a multichannel-blocking Class III antiarrhythmic, structurally related to amiodarone but without iodine. Its efficacy in atrial fibrillation has been established, and it may be applicable to stroke only indirectly.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dronedarone: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), label version 2026-01-27; accessed 2026-11-19.) Based on known information, dronedarone is a multichannel-blocking Class III antiarrhythmic, structurally related to amiodarone but without iodine. Its efficacy in atrial fibrillation has been established, and it may be applicable to stroke only indirectly.
 
 AF is a major risk factor for cardioembolic stroke. Any stroke benefit from dronedarone is therefore likely to come through rhythm and rate control in AF, rather than from a direct effect on the brain. A post hoc analysis of the ATHENA trial suggested a lower stroke risk in patients with paroxysmal or persistent AF. A laboratory study also reported anticoagulant and antiplatelet effects independent of its antiarrhythmic action, and a review described possible protective effects against ischaemia/reperfusion injury in heart and brain.
 
@@ -136,6 +136,19 @@ The prediction rests on an indirect link through AF management. No stroke-specif
 - Mechanism of action data to assess any direct neuroprotective or antithrombotic effect
 - UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK authorisation
 - A review of interaction risk with anticoagulants used for stroke prevention
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

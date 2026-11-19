@@ -60,7 +60,7 @@ Among the other predictions, **migraine disorder** has by far the strongest evid
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, dexketoprofen is the active (S)-enantiomer of ketoprofen and belongs to the NSAID class, which inhibits cyclo-oxygenase (COX-1 and COX-2) enzymes and so reduces prostaglandin production. Its efficacy in acute pain has been established, and mechanistically it may be applicable to inflammatory and pain conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of dexketoprofen as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, dexketoprofen is the active (S)-enantiomer of ketoprofen and belongs to the NSAID class, which inhibits cyclo-oxygenase (COX-1 and COX-2) enzymes and so reduces prostaglandin production. Its efficacy in acute pain has been established, and mechanistically it may be applicable to inflammatory and pain conditions.
 
 **Tendinitis.** Prostaglandin-mediated inflammation and pain are plausible drivers of tendon disorders, so an NSAID is a reasonable candidate. However, the only supporting evidence is a single emergency department trial in non-traumatic musculoskeletal pain, which mentions tendinitis only as one possible cause. It is indirect and not specific to tendinitis.
 
@@ -161,11 +161,12 @@ Class-level cautions relevant to any repurposing work include gastrointestinal, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "as the authorisation record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
 
 <!-- review:end log -->
 

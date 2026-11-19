@@ -56,7 +56,7 @@ but **no clinical trials** and **no publications** currently support this predic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, auranofin is a gold(I) compound that is known to inhibit thioredoxin reductase and modulate redox signalling and inflammation. Its efficacy in rheumatoid arthritis relates to these anti-inflammatory and immunomodulatory effects.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for auranofin: "The mechanism of action of RIDAURA (auranofin) is not understood. In patients with adult rheumatoid arthritis, RIDAURA may modify disease activity as manifested by synovitis and associated symptoms, and reflected by laboratory parameters such as ESR." ([DailyMed: Ridaura (auranofin) prescribing information, Sebela Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43ba3de1-ab2e-06f6-e054-00144ff8d46c), label version 2025-11-08; accessed 2026-11-19.) Based on general pharmacological knowledge, auranofin is a gold(I) compound that is known to inhibit thioredoxin reductase and modulate redox signalling and inflammation. Its efficacy in rheumatoid arthritis relates to these anti-inflammatory and immunomodulatory effects.
 
 No mechanistic link to the pathogenesis of this rare developmental syndrome can be established from the available data. The high TxGNN score (0.9956) is a TxGNN model (deep learning) prediction only. It is not backed by any clinical trial or published study, so it should be regarded as a hypothesis rather than a finding.
 
@@ -130,11 +130,12 @@ The prediction rests on a model score alone (Evidence Level L5), with no clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The single authorisation is a valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ridaura (auranofin) prescribing information, Sebela Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43ba3de1-ab2e-06f6-e054-00144ff8d46c) |
 
 <!-- review:end log -->
 

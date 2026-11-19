@@ -58,7 +58,7 @@ Fosfomycin is an antibiotic whose recorded use in the knowledge graph is urinary
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Fosfomycin is generally understood to inhibit MurA, an enzyme in the early steps of bacterial cell wall (peptidoglycan) synthesis. It is active against many common urinary pathogens.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fosfomycin: "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), label version 2025-11-04; accessed 2026-11-19.) Fosfomycin is generally understood to inhibit MurA, an enzyme in the early steps of bacterial cell wall (peptidoglycan) synthesis. It is active against many common urinary pathogens.
 
 The link to the predicted indication is plausible but indirect. Uterine and pelvic infections can involve bacteria from the genitourinary tract, so an antibiotic active against those organisms could in principle help. The model's high score probably reflects this overlap between urinary and genitourinary conditions.
 
@@ -140,11 +140,12 @@ No label-based warnings or contraindications were available. Please refer to the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient record is listed, and its status is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Clozapine is an atypical antipsychotic with a broad receptor-binding profile. Th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on clozapine's known pharmacology, it antagonises dopamine D2 and serotonin 5-HT2A receptors and also acts at muscarinic, adrenergic and histaminergic receptors. This broad profile provides a plausible antimanic and mood-stabilising mechanism, especially in treatment-resistant illness.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clozapine: "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors." ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), label version 2026-09-06; accessed 2026-11-19.) Based on clozapine's known pharmacology, it antagonises dopamine D2 and serotonin 5-HT2A receptors and also acts at muscarinic, adrenergic and histaminergic receptors. This broad profile provides a plausible antimanic and mood-stabilising mechanism, especially in treatment-resistant illness.
 
 An important caveat is that the available evidence concerns bipolar disorder broadly rather than the manic subtype specifically. The completed Phase 2 trial was in treatment-resistant mania, which is the closest direct evidence.
 
@@ -142,11 +142,12 @@ A completed Phase 2 trial in treatment-resistant mania and a systematic review a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ The evidence is weak, and the mechanistic rationale is arguably counterproductiv
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, propylthiouracil inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Peripherally, it also inhibits type 1 deiodinase, which converts T4 to T3. Its efficacy in hyperthyroidism is established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for propylthiouracil: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), label version 2026-08-27; accessed 2026-11-19.) Based on known pharmacology, propylthiouracil inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Peripherally, it also inhibits type 1 deiodinase, which converts T4 to T3. Its efficacy in hyperthyroidism is established.
 
 The predicted indication is, however, mechanistically doubtful. In resistance to thyroid hormone beta (RTH-β), tissues respond poorly to T3, and the pituitary-thyroid axis compensates with raised TSH, T4 and T3. Lowering hormone output with an antithyroid drug would be expected to raise TSH further, and so worsen goitre and pituitary stimulation. The high TxGNN score most likely reflects network proximity to thyroid hormone biology rather than a true therapeutic fit.
 
@@ -164,11 +164,12 @@ The top prediction has no clinical trials, and the supporting literature consist
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

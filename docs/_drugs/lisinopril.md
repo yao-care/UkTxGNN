@@ -55,7 +55,7 @@ but **no clinical trials** and **no publications** specific to this subtype were
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lisinopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension and myocardial infarction is established, and its effects on remodelling and afterload are the accepted rationale for use after MI.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lisinopril: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), label version 2025-12-16; accessed 2026-11-19.) Based on known information, lisinopril is an angiotensin-converting enzyme (ACE) inhibitor. Its efficacy in hypertension and myocardial infarction is established, and its effects on remodelling and afterload are the accepted rationale for use after MI.
 
 Posterolateral myocardial infarction is an anatomical subtype of myocardial infarction, which is already an approved indication. The high TxGNN score most likely reflects the ontology relationship with the parent MI term rather than a new therapeutic signal. The same mechanism would apply, but no subtype-specific evidence was provided.
 
@@ -142,6 +142,19 @@ Posterolateral myocardial infarction is a subtype of an indication for which lis
 - Mechanism of action data (currently unavailable)
 - For chronic pulmonary heart disease: retrieval of full texts to verify design and sample size, followed by a controlled trial if the signal holds
 - Review of whether MI subtype terms should be excluded from the repurposing pipeline as ontology duplicates of an approved indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

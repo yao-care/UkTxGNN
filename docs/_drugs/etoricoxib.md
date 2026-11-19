@@ -60,7 +60,7 @@ Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet, 
 
 ## Why is This Prediction Reasonable?
 
-Etoricoxib selectively inhibits COX-2, which reduces the synthesis of prostaglandin E2 (PGE2). PGE2 contributes to neurogenic inflammation and trigeminovascular sensitisation in migraine, so the mechanism is plausible. Detailed mechanism-of-action data were not available in the compiled data beyond COX-2 (PTGS2) as the target.
+Etoricoxib selectively inhibits COX-2, which reduces the synthesis of prostaglandin E2 (PGE2). PGE2 contributes to neurogenic inflammation and trigeminovascular sensitisation in migraine, so the mechanism is plausible. ChEMBL (EMBL-EBI) records the mechanism of action of etoricoxib as: Cyclooxygenase-2 inhibitor ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; accessed 2026-11-19.)
 
 A preclinical study (PMID 29209105) found that NSAIDs, including etoricoxib, affected the release of CGRP and PGE2 from rat trigeminal ganglia. Both molecules are implicated in migraine, which supports the biological rationale. This is not human clinical evidence.
 
@@ -148,11 +148,12 @@ The migraine prediction rests on a model score and a plausible COX-2/prostagland
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data beyond COX-2 (PTGS2) as the target" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

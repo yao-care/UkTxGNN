@@ -66,7 +66,7 @@ This is a model-generated hypothesis supported mainly by one in vitro study, and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Fulvestrant is generally known as a selective oestrogen receptor antagonist and degrader. Its efficacy in hormone receptor-positive breast cancer is established, and mechanistically it may be applicable wherever oestrogen receptor signalling matters.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fulvestrant: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), label version 2026-10-16; accessed 2026-11-19.) Fulvestrant is generally known as a selective oestrogen receptor antagonist and degrader. Its efficacy in hormone receptor-positive breast cancer is established, and mechanistically it may be applicable wherever oestrogen receptor signalling matters.
 
 For HIV, the rationale is indirect. Oestrogen receptor alpha is expressed in CD4+ T cells and has been hypothesised to influence HIV transcription and latency. A 2026 in vitro study (PMID 42430506) examined how oestrogen receptor ligands, including fulvestrant, and HIV latency-reversing agents affect oestrogen receptor alpha in CD4+ T cells. This suggests fulvestrant could plausibly influence latency reversal, but this has not been tested in patients.
 
@@ -152,12 +152,13 @@ The prediction has a very high model score but rests on a single in vitro study,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation was identified" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

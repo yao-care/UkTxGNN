@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology sources identify domperidone as an antagonist at the dopamine D2 and D3 receptors (DRD2, DRD3). It acts mainly outside the central nervous system and is used for dyspepsia, heartburn, epigastric pain, nausea and vomiting.
+ChEMBL (EMBL-EBI) records the mechanism of action of domperidone as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology sources identify domperidone as an antagonist at the dopamine D2 and D3 receptors (DRD2, DRD3). It acts mainly outside the central nervous system and is used for dyspepsia, heartburn, epigastric pain, nausea and vomiting.
 
 NSIAD is a rare condition caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*), with some cases linked to GNAS-related signalling. The V2 receptor is constitutively active, which leads to inappropriate water retention and hyponatraemia. A mechanistic link to domperidone is not apparent. A plausible but unverified hypothesis is that dopaminergic modulation influences renal water handling or vasopressin signalling. However, domperidone is not known to act on V2 receptor activity, which is the core defect in NSIAD.
 
@@ -133,11 +133,12 @@ The only support is a high TxGNN score. There are no clinical trials or publicat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record shows one valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
 
 <!-- review:end log -->
 

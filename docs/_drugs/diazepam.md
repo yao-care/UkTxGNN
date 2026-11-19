@@ -58,7 +58,7 @@ Diazepam is a benzodiazepine that enhances inhibitory GABA-A receptor signalling
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for diazepam were not available in the data compiled for this report. The published literature in that data describes diazepam as a positive allosteric modulator of the GABA-A receptor. It increases the effect of the brain's main inhibitory neurotransmitter, which produces sedative and anxiolytic effects.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for diazepam: "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), label version 2026-10-06; accessed 2026-11-19.) The published literature in that data describes diazepam as a positive allosteric modulator of the GABA-A receptor. It increases the effect of the brain's main inhibitory neurotransmitter, which produces sedative and anxiolytic effects.
 
 Dampening neuronal excitability in this way is a recognised route to sleep induction, and benzodiazepines have long been used as hypnotics. The mechanism is therefore plausible for insomnia.
 
@@ -157,11 +157,12 @@ The mechanism is plausible and the model score is very high. However, the only d
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one valid single-ingredient authorisation is on record, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for diazepam were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
 
 <!-- review:end log -->
 

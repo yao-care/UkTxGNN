@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Fenofibrate is generally known as a PPARα agonist, and the mechanistic link described here is drawn from the supporting literature. In mice, fenofibrate raises HDL cholesterol and lowers triglycerides, partly by increasing apoA-I/apoA-II expression and inducing the phospholipid transfer protein (PLTP) gene, which enlarges HDL particles.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fenofibrate: "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), label version 2025-10-01; accessed 2026-11-19.) Fenofibrate is generally known as a PPARα agonist, and the mechanistic link described here is drawn from the supporting literature. In mice, fenofibrate raises HDL cholesterol and lowers triglycerides, partly by increasing apoA-I/apoA-II expression and inducing the phospholipid transfer protein (PLTP) gene, which enlarges HDL particles.
 
 CETP deficiency is characterised by markedly raised HDL cholesterol and altered reverse cholesterol transport. Fenofibrate acts on overlapping lipoprotein pathways (HDL remodelling, PLTP induction, and, in preclinical models, combined CETP inhibition with PPARα agonism). However, the link is indirect and biologically ambiguous. CETP deficiency is already a high-HDL state, so there is no clear therapeutic reason to raise HDL further.
 
@@ -145,11 +145,12 @@ No clinical trial or publication studies fenofibrate in CETP deficiency itself, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The list contains one single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
 
 <!-- review:end log -->
 

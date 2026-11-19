@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled data. From pharmacology sources, metyrapone inhibits 11-beta-hydroxylase (CYP11B1) and, to a lesser extent, CYP11B2, which blocks the final step of cortisol synthesis in the adrenal gland.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metyrapone: "The pharmacological effect of Metopirone is to reduce cortisol and corticosterone production by inhibiting the 11-beta-hydroxylation reaction in the adrenal cortex. Removal of the strong inhibitory feedback mechanism exerted by cortisol results in an increase in adrenocorticotropic hormone (ACTH) production by the pituitary." ([DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f), label version 2026-05-19; accessed 2026-11-19.) From pharmacology sources, metyrapone inhibits 11-beta-hydroxylase (CYP11B1) and, to a lesser extent, CYP11B2, which blocks the final step of cortisol synthesis in the adrenal gland.
 
 Malignant hyperthermia is a different kind of disorder. It is driven by dysregulated calcium release through the skeletal muscle ryanodine receptor (RYR1). Cortisol synthesis inhibition does not address this pathway, and no mechanistic link has been established. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as the myopathies and malignant hyperthermia, not biological evidence or a pharmacological rationale.
 
@@ -138,11 +138,12 @@ The prediction has no supporting trials or publications (evidence level L5), and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
 
 <!-- review:end log -->
 

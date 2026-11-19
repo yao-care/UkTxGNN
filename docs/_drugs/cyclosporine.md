@@ -58,7 +58,7 @@ Cyclosporine is a calcineurin-inhibitor immunosuppressant. The TxGNN model predi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cyclosporine is generally known as a calcineurin inhibitor that suppresses T-cell activation, and it is widely used for graft-versus-host disease (GVHD) prophylaxis in haematopoietic stem cell transplantation (HSCT).
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclosporine: "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), label version 2026-09-10; accessed 2026-11-19.) Cyclosporine is generally known as a calcineurin inhibitor that suppresses T-cell activation, and it is widely used for graft-versus-host disease (GVHD) prophylaxis in haematopoietic stem cell transplantation (HSCT).
 
 The only linked paper describes HSCT outcomes in chronic granulomatous disease (CGD). Cyclosporine is probably part of the transplant regimen, so the connection is indirect. CGD is caused by a defect in the NADPH oxidase enzyme complex, and there is no evidence that cyclosporine corrects or treats this defect. The very high TxGNN score is therefore not supported by direct clinical evidence, and the prediction should be regarded as a hypothesis only.
 
@@ -134,6 +134,19 @@ No clinical trial or publication directly studies cyclosporine as a treatment fo
 - Preclinical or clinical studies that directly address cyclosporine in CGD
 - Mechanism of action data and full SmPC-based safety information (warnings and contraindications)
 - Review of the many documented drug interactions and organ toxicity (kidney, blood pressure) in this patient group
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

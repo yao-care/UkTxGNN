@@ -60,7 +60,7 @@ The evidence is mostly small, old or uncontrolled, and is largely based on the l
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, prilocaine is an amide local anaesthetic that blocks voltage-gated sodium channels in nerve fibres, reducing the generation and conduction of pain signals. Its original indications (premature ejaculation, psychologic dyspareunia) fit a topical or local desensitising effect.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for prilocaine: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), label version 2021-11-10; accessed 2026-11-19.) Based on known pharmacology, prilocaine is an amide local anaesthetic that blocks voltage-gated sodium channels in nerve fibres, reducing the generation and conduction of pain signals. Its original indications (premature ejaculation, psychologic dyspareunia) fit a topical or local desensitising effect.
 
 Neuralgia, particularly postherpetic neuralgia, involves abnormal firing of peripheral nociceptive fibres. Blocking sodium channels in these fibres is a plausible way to reduce pain, and topical local anaesthetics are already used in neuropathic pain care. Early reports from 1989 describe lidocaine/prilocaine (EMLA) cream in postherpetic neuralgia, with efficacy and pharmacokinetic data.
 
@@ -172,11 +172,12 @@ Neuralgia is the best-supported prediction (evidence level L3), but the evidence
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

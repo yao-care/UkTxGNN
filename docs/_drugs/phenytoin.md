@@ -57,7 +57,7 @@ The approved indication text was not available in the UK licence record, so the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Phenytoin is a well-known antiepileptic whose action is generally attributed to blockade of voltage-gated sodium channels. Its efficacy in epilepsy is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for phenytoin: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), label version 2026-06-25; accessed 2026-11-19.) Phenytoin is a well-known antiepileptic whose action is generally attributed to blockade of voltage-gated sodium channels. Its efficacy in epilepsy is established.
 
 For **trigeminal nerve neoplasm**, the prediction is **not mechanistically convincing**. The high score likely reflects network proximity to trigeminal neuralgia and seizure-related nodes rather than any antitumour effect. Sodium channel blockade might relieve neuropathic pain symptoms, but there is no plausible mechanism for treating the neoplasm itself. The two retrieved papers concern trigeminal neuralgia and Sturge-Weber syndrome, not neoplasm treatment.
 
@@ -167,11 +167,12 @@ The top prediction, trigeminal nerve neoplasm, has no plausible antitumour mecha
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "It is a single-ingredient product with a valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **pharyngitis**, but the **3 linke
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydromorphone is a mu-opioid receptor agonist that acts centrally to relieve pain and suppress cough. The pharyngitis prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydromorphone: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d), label version 2026-07-15; accessed 2026-11-19.) Based on known information, hydromorphone is a mu-opioid receptor agonist that acts centrally to relieve pain and suppress cough. The pharyngitis prediction comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
 The link is probably symptomatic only. Hydromorphone has no antimicrobial or anti-inflammatory action against the cause of pharyngitis. The three linked trials involve pain after tonsillectomy, which is surgical pain and not pharyngitis as a disease. The high TxGNN score most likely reflects the closeness of pharyngitis to the cold and nasopharyngitis indications in the network, and not trial data on pharyngitis itself.
 
@@ -170,11 +170,12 @@ The pharyngitis prediction rests on a high model score alone. The linked trials 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient marketing authorisation is recorded for hydromorphone" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
 
 <!-- review:end log -->
 

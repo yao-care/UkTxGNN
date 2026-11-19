@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, tinidazole is a 5-nitroimidazole antimicrobial with established activity against protozoa and anaerobic bacteria, and its efficacy in vaginal infections such as bacterial vaginosis and trichomoniasis is recognised.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for tinidazole: "Tinidazole is an antiprotozoal, antibacterial agent.. […] Tinidazole is an antiprotozoal, antibacterial agent. The nitro- group of tinidazole is reduced by cell extracts of Trichomonas. The free nitro radical generated as a result of this reduction may be responsible for the antiprotozoal activity." ([DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7), label version 2026-08-18; accessed 2026-11-19.) Based on known information, tinidazole is a 5-nitroimidazole antimicrobial with established activity against protozoa and anaerobic bacteria, and its efficacy in vaginal infections such as bacterial vaginosis and trichomoniasis is recognised.
 
 The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between this indication and related approved vaginitis indications, not biological evidence. Atrophic vaginitis, however, is caused by oestrogen deficiency after the menopause, not by infection. An antimicrobial mechanism therefore has no clear rationale here, and the high score should be read as a likely model artefact rather than a biologically grounded signal.
 
@@ -131,11 +131,12 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
 
 <!-- review:end log -->
 

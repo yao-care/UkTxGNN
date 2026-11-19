@@ -55,7 +55,7 @@ The TxGNN model predicts a possible role in **hypotrichosis simplex of the scalp
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. The pharmacology data show that dorzolamide acts on several human carbonic anhydrase isoforms (CA1, CA7, CA12 and CA14).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dorzolamide: "Carbonic anhydrase (CA) is an enzyme found in many tissues of the body including the eye. It catalyzes the reversible reaction involving the hydration of carbon dioxide and the dehydration of carbonic acid. […] Dorzolamide hydrochloride ophthalmic solution contains dorzolamide hydrochloride, an inhibitor of human carbonic anhydrase II." ([DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea), label version 2026-11-14; accessed 2026-11-19.) The pharmacology data show that dorzolamide acts on several human carbonic anhydrase isoforms (CA1, CA7, CA12 and CA14).
 
 The data compiled for this report do not identify a plausible link between carbonic anhydrase inhibition and hair follicle biology in hereditary hypotrichosis. Hypotrichosis simplex of the scalp is a rare inherited hair-loss disorder, and no mechanism is established by which a topical carbonic anhydrase inhibitor would act on it. The high score is best read as a computational signal that needs independent checking, not as support for efficacy. TxGNN scores are model outputs, not evidence from patients.
 
@@ -127,11 +127,12 @@ The prediction is computational only (evidence level L5). There are no trials or
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is currently marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dorzolamide Hydrochloride Ophthalmic Solution (dorzolamide hydrochloride) prescribing information, Micro Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4698e4e1-c5f6-4db1-9328-74464a85afea) |
 
 <!-- review:end log -->
 

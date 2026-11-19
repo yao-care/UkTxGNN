@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **7 publications** (rev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Fluoxetine is an SSRI, and serotonergic modulation could plausibly influence anxiety, impulsivity and low mood, which often co-occur with cluster A personality disorders.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluoxetine: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), label version 2026-01-08; accessed 2026-11-19.) Fluoxetine is an SSRI, and serotonergic modulation could plausibly influence anxiety, impulsivity and low mood, which often co-occur with cluster A personality disorders.
 
 However, none of the publications identified studies fluoxetine specifically in paranoid personality disorder. The literature consists of a review of pharmacological treatment in cluster A personality disorders, reviews and cohort studies of borderline personality disorder, and studies of depression with co-existing personality disorders. The very high TxGNN score is a computational prediction only and is not evidence of clinical benefit.
 
@@ -124,6 +124,18 @@ No clinical trials and no fluoxetine-specific studies in paranoid personality di
 - Fluoxetine-specific clinical studies (ideally randomised controlled trials) in paranoid personality disorder
 - Detailed mechanism of action data
 - Safety review for psychosis-prone patients, given the limited and mixed data in related personality disorders
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

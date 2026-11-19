@@ -60,7 +60,7 @@ The single registered trial is for a different drug and a different eye conditio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this report. Nystatin belongs to the polyene antifungal class, which acts by binding ergosterol in fungal cell membranes. In practice it is used locally, for example in the mouth and gut, and is not used systemically.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nystatin: "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), label version 2026-02-06; accessed 2026-11-19.) Nystatin belongs to the polyene antifungal class, which acts by binding ergosterol in fungal cell membranes. In practice it is used locally, for example in the mouth and gut, and is not used systemically.
 
 No plausible mechanistic link to disease of orbital region was identified. Because nystatin is not used systemically, drug exposure in orbital tissue is unlikely. The high TxGNN score is a statistical output of the model and is not supported by any clinical or laboratory evidence. The prediction should be regarded as hypothesis-generating at most.
 
@@ -146,11 +146,12 @@ The prediction has a high model score but no supporting trials or publications, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The main authorisation record is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
 
 <!-- review:end log -->
 

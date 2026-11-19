@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mecasermin is a recombinant form of IGF-1, the main mediator of growth hormone effects on growth. Its efficacy in growth hormone insensitivity (where the body cannot respond adequately to growth hormone) is established, and mechanistically it may be applicable to other conditions with short stature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mecasermin: "Insulin-like growth factor-1 (IGF-1) is a key hormonal mediator on statural growth. Under normal circumstances, growth hormone (GH) binds to its receptor in the liver, and other tissues, and stimulates the synthesis/secretion of IGF-1." ([DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce), label version 2026-05-18; accessed 2026-11-19.) Based on known information, mecasermin is a recombinant form of IGF-1, the main mediator of growth hormone effects on growth. Its efficacy in growth hormone insensitivity (where the body cannot respond adequately to growth hormone) is established, and mechanistically it may be applicable to other conditions with short stature.
 
 Monosomy X (Turner syndrome) is characterised by short stature, so involvement of the IGF-1 axis is biologically plausible. However, Turner syndrome is usually treated with growth hormone, which works through an intact growth hormone receptor. There is no clear reason, from the data compiled, to expect mecasermin to add benefit. The very high TxGNN score (0.9959) is a computational signal only and is not backed by clinical evidence here.
 
@@ -125,6 +125,19 @@ The prediction rests on a model score alone (Evidence Level L5), with no clinica
 - Full warnings and contraindications from the SmPC (a safety screening cannot be completed without them), including consideration of IGF-1's mitogenic effects
 - The approved indication text and a verified MHRA authorisation record for the UK product
 - Comparison against current standard care (growth hormone) to define any unmet need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Increlex (mecasermin) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d5b2b0e1-c523-468d-9a0b-4ae4e4a8dbce) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

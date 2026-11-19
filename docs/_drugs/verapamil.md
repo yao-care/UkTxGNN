@@ -62,7 +62,7 @@ This report covers the top-ranked prediction and the best-supported alternative,
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, verapamil blocks L-type calcium channels, relaxing vascular smooth muscle and slowing atrioventricular (AV) nodal conduction. This underpins its use in hypertension, supraventricular arrhythmias and angina.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for verapamil: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), label version 2026-10-30; accessed 2026-11-19.) Based on known pharmacology, verapamil blocks L-type calcium channels, relaxing vascular smooth muscle and slowing atrioventricular (AV) nodal conduction. This underpins its use in hypertension, supraventricular arrhythmias and angina.
 
 **Bundle branch block (rank 1).** The mechanistic case is weak. Slowing conduction is not a treatment for bundle branch block, and AV nodal blockade could worsen conduction disease. The term is also flagged as obsolete in the ontology. The high score (0.9962) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -180,11 +180,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
 
 <!-- review:end log -->
 

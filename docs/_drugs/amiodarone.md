@@ -54,7 +54,7 @@ Amiodarone is an antiarrhythmic medicine used for ventricular rhythm disorders. 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Amiodarone is generally described as a multichannel blocker with beta-blocking and calcium-channel effects, and these could plausibly bear on the calcium-handling abnormalities that drive CPVT (mutations in RYR2 or CASQ2 causing delayed afterdepolarisations).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amiodarone: "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), label version 2025-11-05; accessed 2026-11-19.) Amiodarone is generally described as a multichannel blocker with beta-blocking and calcium-channel effects, and these could plausibly bear on the calcium-handling abnormalities that drive CPVT (mutations in RYR2 or CASQ2 causing delayed afterdepolarisations).
 
 However, the retrieved literature indicates amiodarone is generally less effective than beta-blockers, flecainide and sympathetic denervation in CPVT. The high TxGNN score most likely reflects the shared ventricular arrhythmia phenotype rather than a proven treatment effect. None of the retrieved publications evaluates amiodarone as a treatment for CPVT directly, so the prediction is best treated as a research question.
 
@@ -138,11 +138,12 @@ The prediction rests on a model score alone. No trials exist and no cited study 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
 
 <!-- review:end log -->
 

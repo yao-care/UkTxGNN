@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **gastric ulcer**, but the support
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist prokinetic. It enhances gastric emptying and raises lower oesophageal sphincter tone, which explains its use in reflux disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for metoclopramide: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), label version 2026-02-09; accessed 2026-11-19.) Based on known pharmacology, metoclopramide is a dopamine D2 antagonist and 5-HT4 agonist prokinetic. It enhances gastric emptying and raises lower oesophageal sphincter tone, which explains its use in reflux disease.
 
 The relationship between the original and predicted indications is indirect. Metoclopramide does not suppress acid or protect the mucosa, so it has no direct ulcer-healing action. It may relieve symptoms of delayed gastric emptying or duodenogastric reflux that coexist with ulcer disease.
 
@@ -158,6 +158,19 @@ Metoclopramide has no direct ulcer-healing mechanism, and the only trial and rec
 - Controlled trials of metoclopramide, alone or alongside standard acid suppression, with ulcer healing or symptom endpoints
 - Full SmPC warnings and contraindications, and the approved indication text for the UK product
 - A review of whether any benefit is limited to a symptom subgroup (for example delayed gastric emptying or bile reflux) rather than ulcer disease itself
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

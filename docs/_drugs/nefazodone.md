@@ -56,7 +56,7 @@ but evidence is very limited: **no clinical trials** and only **1 publication** 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nefazodone is a serotonin 5-HT2A receptor antagonist and a serotonin/norepinephrine reuptake inhibitor. Its efficacy in depression and anxiety is established, and mechanistically it may be applicable to migraine.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nefazodone: "The mechanism of action of nefazodone, as with other antidepressants, is unknown. Preclinical studies have shown that nefazodone inhibits neuronal uptake of serotonin and norepinephrine. Nefazodone occupies central 5-HT 2 receptors at nanomolar concentrations, and acts as an antagonist at this receptor." ([DailyMed: nefazodone hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bd4c34a-4f43-4c84-8b98-1d074cba97d5), label version 2025-09-04; accessed 2026-11-19.) Based on general pharmacology, nefazodone is a serotonin 5-HT2A receptor antagonist and a serotonin/norepinephrine reuptake inhibitor. Its efficacy in depression and anxiety is established, and mechanistically it may be applicable to migraine.
 
 Antidepressants with 5-HT2 antagonism have been explored for migraine prevention, so the rationale is plausible but indirect. Serotonergic signalling is thought to play a role in migraine pathophysiology, which is why drugs acting on this system are considered.
 
@@ -110,6 +110,19 @@ The prediction rests on a model score and one indirect 2004 review, with no regi
 - Evidence of nefazodone-specific efficacy in migraine prevention (clinical studies or a focused literature search)
 - A benefit-risk assessment covering hepatotoxicity and CYP3A4 interactions with standard migraine therapies
 - Confirmation of current UK availability and the licence details
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: nefazodone hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bd4c34a-4f43-4c84-8b98-1d074cba97d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

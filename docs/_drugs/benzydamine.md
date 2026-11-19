@@ -56,7 +56,7 @@ but there are currently **no clinical trials and no publications** in the data c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. The TxGNN score is a model-based prediction only and has not been validated by any study in the data compiled for this report.
+ChEMBL (EMBL-EBI) records the mechanism of action of benzydamine as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; accessed 2026-11-19.) The TxGNN score is a model-based prediction only and has not been validated by any study in the data compiled for this report.
 
 From general pharmacology (not from the compiled evidence), benzydamine is a locally acting NSAID-like agent with anti-inflammatory, local anaesthetic and membrane-stabilising properties. Chronic prostatic inflammation is thought to contribute to BPH and lower urinary tract symptoms, so an anti-inflammatory link is plausible as a hypothesis.
 
@@ -116,6 +116,19 @@ The prediction rests on a model score alone (L5). There are no registered trials
 - Literature and trial searches for benzydamine in BPH and lower urinary tract symptoms
 - Preclinical or pharmacokinetic evidence on whether a systemic or targeted route could deliver adequate prostate exposure
 - Assessment of route compatibility between existing UK formulations and a BPH indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but **no clinical trials and no relevant publications** currently support this d
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, moxonidine is an imidazoline I1 / alpha-2 adrenergic agonist that lowers sympathetic outflow, and it is used to lower blood pressure. Pharmacology records also list it as binding the alpha-2A, alpha-2B and alpha-2C adrenoceptors.
+ChEMBL (EMBL-EBI) records the mechanism of action of moxonidine as: Nischarin agonist ([ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, moxonidine is an imidazoline I1 / alpha-2 adrenergic agonist that lowers sympathetic outflow, and it is used to lower blood pressure. Pharmacology records also list it as binding the alpha-2A, alpha-2B and alpha-2C adrenoceptors.
 
 The link between this mechanism and scalp hair loss is **speculative**. One could imagine a role for vascular or neurogenic modulation of the hair follicle, but nothing in the supplied data supports it. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it should not be read as evidence of benefit.
 
@@ -129,11 +129,12 @@ The prediction rests only on a model score, with no clinical trials or relevant 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record contains no dosage form, manufacturer or approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
 
 <!-- review:end log -->
 

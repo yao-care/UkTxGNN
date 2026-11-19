@@ -55,7 +55,7 @@ The TxGNN model (deep learning) predicts it may be effective for **attention def
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Based on known pharmacology, flavoxate relaxes urinary tract smooth muscle through antimuscarinic, phosphodiesterase-inhibiting and calcium-antagonist actions.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flavoxate: "Flavoxate hydrochloride counteracts smooth muscle spasm of the urinary tract and exerts its effect directly on the muscle. In a single study of 11 normal male subjects, the time to onset of action was 55 minutes." ([DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88), label version 2025-12-11; accessed 2026-11-19.) Based on known pharmacology, flavoxate relaxes urinary tract smooth muscle through antimuscarinic, phosphodiesterase-inhibiting and calcium-antagonist actions.
 
 These properties have no established link to ADHD, which is characterised mainly by dopaminergic and noradrenergic dysregulation. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence, so it is best read as a model signal rather than a pharmacologically grounded hypothesis. The model also ranks closely related entries highly, including "attention deficit-hyperactivity disorder" and "specific developmental disorder". These likely reflect the same underlying signal counted more than once, so they should not be treated as independent support.
 
@@ -107,6 +107,19 @@ The prediction rests on a model score alone, with no registered trials or public
 - A literature and trial search specific to flavoxate in the predicted conditions
 - If any indication is pursued, irritable bowel syndrome is the more biologically plausible candidate. Neurogenic bladder should first be mapped to current terminology (e.g. neurogenic detrusor overactivity) and treated as an extension of existing use
 - A review of anticholinergic burden and the contraindications listed above before any new population is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

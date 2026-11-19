@@ -54,7 +54,7 @@ Erythromycin is a macrolide antibiotic with antibacterial and anti-inflammatory 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, erythromycin is a macrolide that inhibits bacterial protein synthesis at the 50S ribosomal subunit and also has anti-inflammatory properties. Topical ophthalmic erythromycin is widely used in eye infections, so applying it to an ocular surface disease is plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for erythromycin: "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), label version 2018-12-04; accessed 2026-11-19.) Based on general pharmacology, erythromycin is a macrolide that inhibits bacterial protein synthesis at the 50S ribosomal subunit and also has anti-inflammatory properties. Topical ophthalmic erythromycin is widely used in eye infections, so applying it to an ocular surface disease is plausible.
 
 The only retrieved publication is a review of chronic blepharokeratoconjunctivitis in children, a related but different ocular surface condition that is often associated with staphylococcal disease. It does not study punctate epithelial keratoconjunctivitis itself, so the support is indirect. Because no cited study directly addresses the predicted disease, the evidence level is capped at L5 (model prediction only), despite the pipeline's preliminary L4 label.
 
@@ -120,6 +120,19 @@ The TxGNN score is very high, but there are no trials and the sole publication i
 - Studies that directly examine erythromycin (topical or systemic) in punctate epithelial keratoconjunctivitis
 - Mechanism of action data and a clear rationale for the anti-inflammatory versus antibacterial role
 - Review of the SmPC and BNF safety information, including QT-prolongation risk and interaction management, for any ocular or systemic use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

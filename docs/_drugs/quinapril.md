@@ -55,7 +55,7 @@ but there are currently **no clinical trials** and **no publications** directly 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, quinapril is an ACE inhibitor. It lowers angiotensin II and therefore blood pressure. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for quinapril: "Quinapril is deesterified to the principal metabolite, quinaprilat, which is an inhibitor of ACE activity in human subjects and animals. ACE is apeptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor, angiotensin II." ([DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206), label version 2021-01-01; accessed 2026-11-19.) Based on known pharmacology, quinapril is an ACE inhibitor. It lowers angiotensin II and therefore blood pressure. Its efficacy in hypertension is established, and mechanistically it may be applicable to malignant renovascular hypertension.
 
 Renovascular hypertension is strongly driven by the renin-angiotensin-aldosterone system (RAAS), so blocking this pathway is plausible. However, the high TxGNN score probably reflects similarity to the approved hypertension indication rather than new evidence.
 
@@ -134,6 +134,19 @@ The prediction is computational only (L5), with no clinical trials or literature
 - Verification of the UK licence details (MHRA PL number, dosage form, approved indication)
 - Clinical evidence for quinapril, or the ACE inhibitor class, in renovascular hypertension, including renal safety data in bilateral renal artery stenosis
 - For pulmonary hypertension, human studies beyond the preclinical findings, which would need to be assessed as a separate research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

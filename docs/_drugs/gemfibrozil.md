@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Gemfibrozil is a fibrate and a PPAR-alpha agonist. Its efficacy in hypertriglyceridaemia is established, and mechanistically it may be applicable to rheumatoid arthritis.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for gemfibrozil: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), label version 2026-11-10; accessed 2026-11-19.) Gemfibrozil is a fibrate and a PPAR-alpha agonist. Its efficacy in hypertriglyceridaemia is established, and mechanistically it may be applicable to rheumatoid arthritis.
 
 PPAR agonism has anti-inflammatory and immunomodulatory effects, such as reduced pro-inflammatory cytokines and effects on T-cell and regulatory T-cell differentiation. These pathways are relevant to autoimmune joint disease.
 
@@ -128,6 +128,19 @@ The prediction score is high, but there are no clinical trials and the only gemf
 - Verified UK SmPC warnings and contraindications, as well as the approved indication text for the UK authorisation
 - A safety assessment for patients with rheumatoid arthritis, who commonly take methotrexate, NSAIDs, corticosteroids and statins
 - A proof-of-concept clinical trial design, if preclinical results are supportive
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -56,7 +56,7 @@ but **no clinical trials and no publications** in the data compiled for this rep
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Pharmacology records show that agomelatine binds MT1 and MT2 melatonin receptors and 5-HT2A, 5-HT2B and 5-HT2C serotonin receptors. It is used clinically in major depressive disorder.
+ChEMBL (EMBL-EBI) records the mechanism of action of agomelatine as: Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that agomelatine binds MT1 and MT2 melatonin receptors and 5-HT2A, 5-HT2B and 5-HT2C serotonin receptors. It is used clinically in major depressive disorder.
 
 No mechanistic link between these receptor activities and benign paroxysmal torticollis of infancy has been established in the data provided. This is a childhood episodic disorder, thought to belong to the migraine spectrum or to be channel-related. The high TxGNN score is a computational prediction only, and the biological rationale for it remains unexplained.
 
@@ -112,11 +112,12 @@ The prediction rests on a model score alone. No trials, no literature and no pla
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient licence is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

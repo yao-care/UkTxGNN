@@ -58,7 +58,7 @@ Citalopram is a selective serotonin reuptake inhibitor (SSRI) marketed in the UK
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for citalopram is not available in the data compiled for this report. Citalopram belongs to the SSRI class, whose mechanism is well characterised: it blocks serotonin reuptake and so increases serotonergic signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for citalopram: "The mechanism of action of citalopram is unclear, but is presumed to be related to potentiation of serotonergic activity in the central nervous system (CNS) resulting from its inhibition of CNS neuronal reuptake of serotonin (5-HT)." ([DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177), label version 2023-10-09; accessed 2026-11-19.) Citalopram belongs to the SSRI class, whose mechanism is well characterised: it blocks serotonin reuptake and so increases serotonergic signalling.
 
 Serotonergic dysfunction in cortico-striato-thalamo-cortical circuits is implicated in obsessive-compulsive disorder (OCD), and SSRIs are an established first-line pharmacological class for it. This class-level rationale is consistent with the very high TxGNN score.
 
@@ -164,11 +164,12 @@ SSRIs are an established drug class for OCD, and the citalopram-specific evidenc
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data lists one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data for citalopram is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Celexa (citalopram) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4259d9b1-de34-43a4-85a8-41dd214e9177) |
 
 <!-- review:end log -->
 

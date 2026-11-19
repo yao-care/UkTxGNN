@@ -60,7 +60,7 @@ Amenorrhoea is better understood as an expected pharmacological effect of dienog
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, dienogest is a progestin with strong effects on the endometrium and mild antigonadotropic activity. It suppresses ovulation and endometrial proliferation, which commonly leads to amenorrhoea or a markedly altered bleeding pattern, as seen when it is used for endometriosis.
+ChEMBL (EMBL-EBI) records the mechanism of action of dienogest as: Unknown ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, dienogest is a progestin with strong effects on the endometrium and mild antigonadotropic activity. It suppresses ovulation and endometrial proliferation, which commonly leads to amenorrhoea or a markedly altered bleeding pattern, as seen when it is used for endometriosis.
 
 This explains why the model links dienogest to amenorrhoea. However, the link is largely circular: amenorrhoea is an expected effect or side effect of treatment, not a recognised disease target that dienogest is used to correct. In addition, dienogest lowers estradiol. In secondary amenorrhoea caused by oestrogen deficiency, this effect would be a concern rather than a benefit.
 
@@ -149,11 +149,12 @@ The prediction rests on model score alone. Amenorrhoea is an expected pharmacolo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorisations are valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

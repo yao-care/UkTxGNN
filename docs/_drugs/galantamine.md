@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **psychogenic movement disorder
 
 ## Why is This Prediction Reasonable?
 
-Galantamine is known as an acetylcholinesterase inhibitor and an allosteric modulator of nicotinic acetylcholine receptors. By raising cholinergic signalling in the brain, it may alter the balance between cholinergic and dopaminergic activity in circuits that control movement. Detailed mechanism-of-action data were not available for this report, so this description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications.
+Galantamine is known as an acetylcholinesterase inhibitor and an allosteric modulator of nicotinic acetylcholine receptors. By raising cholinergic signalling in the brain, it may alter the balance between cholinergic and dopaminergic activity in circuits that control movement. According to the Mechanism of Action section of the US FDA-approved prescribing information for galantamine: "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase." ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), label version 2026-07-02; accessed 2026-11-19.) This description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications.
 
 The link to psychogenic movement disorders is speculative. These conditions are functional in nature, and no data compiled for this report connect cholinergic modulation to their pathophysiology or treatment. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Treat the prediction as a hypothesis only.
 
@@ -151,11 +151,12 @@ The prediction has a high model score but no trials, no publications and no esta
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and a verified MHRA authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **female breast carcinoma**, bu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data was not available in the compiled data. From published knowledge, hydroxyurea inhibits ribonucleotide reductase, which depletes the deoxyribonucleotide (dNTP) pool and causes replication stress in dividing cells. This is the basis of its use in cancers and myeloproliferative conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hydroxyurea: "The precise mechanism by which hydroxyurea produces its cytotoxic and cytoreductive effects is not known. However, various studies support the hypothesis that hydroxyurea causes an immediate inhibition of DNA synthesis by acting as a ribonucleotide reductase inhibitor, without interfering with the synthesis of ribonucleic acid or of protein." ([DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b), label version 2026-02-02; accessed 2026-11-19.) From published knowledge, hydroxyurea inhibits ribonucleotide reductase, which depletes the deoxyribonucleotide (dNTP) pool and causes replication stress in dividing cells. This is the basis of its use in cancers and myeloproliferative conditions.
 
 Several preclinical papers use hydroxyurea as a replication-stress tool compound in breast and ovarian cancer cells. These include work on RPA2 hyperphosphorylation and DNA repair, valproic acid sensitisation, and ATR inhibition. They suggest breast cancer cells may be vulnerable to replication stress, which makes the prediction biologically plausible.
 
@@ -171,11 +171,12 @@ The same data lists stronger candidates than breast carcinoma elsewhere in the r
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The single authorisation recorded in the compiled data is listed under a product name (Ichthammol) that does not correspond to hydroxyurea" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data was not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xromi (hydroxyurea) prescribing information, Nova Laboratories, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b37d336-86da-4363-aef1-34a7d3ba973b) |
 
 <!-- review:end log -->
 

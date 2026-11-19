@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Leflunomide is generally known as an immunomodulatory drug that inhibits dihydroorotate dehydrogenase (DHODH) through its active metabolite teriflunomide. This reduces pyrimidine synthesis and lymphocyte proliferation, which is why it works in autoimmune joint disease. This is background knowledge rather than part of the compiled data.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for leflunomide: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), label version 2025-06-04; accessed 2026-11-19.) Leflunomide is generally known as an immunomodulatory drug that inhibits dihydroorotate dehydrogenase (DHODH) through its active metabolite teriflunomide. This reduces pyrimidine synthesis and lymphocyte proliferation, which is why it works in autoimmune joint disease. This is background knowledge rather than part of the compiled data.
 
 No plausible mechanistic link to brachydactyly-syndactyly syndrome can be established. This condition is a developmental, typically genetic, limb malformation disorder, and it is not driven by the immune processes that leflunomide targets. Leflunomide is also known to be teratogenic, which argues against its use in developmental contexts.
 
@@ -131,11 +131,12 @@ The prediction rests on a model score alone. There are no clinical trials or pub
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded. The record does not give a dosage form or approved indication text, and the numb" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

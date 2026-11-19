@@ -54,7 +54,7 @@ Desloratadine is an oral antihistamine tablet marketed in the UK. The TxGNN mode
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Desloratadine belongs to the second-generation H1 antihistamine class. These drugs block histamine H1 receptors, which reduces histamine-driven symptoms such as sneezing, itching, rhinorrhoea and nasal irritation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for desloratadine: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), label version 2025-10-23; accessed 2026-11-19.) Desloratadine belongs to the second-generation H1 antihistamine class. These drugs block histamine H1 receptors, which reduces histamine-driven symptoms such as sneezing, itching, rhinorrhoea and nasal irritation.
 
 Histamine plays a part in many inflammatory conditions of the nasal mucosa, so a link between H1 blockade and nasal disease is biologically plausible, especially for allergic conditions. However, "nasal cavity disease" is a very broad category. The mechanistic rationale holds for allergic nasal disease but not for the category as a whole. Any genuinely new use would need a defined nasal condition, and none is specified here.
 
@@ -108,6 +108,19 @@ The prediction score is high, but the predicted category is too broad to evaluat
 - Clinical or well-designed observational studies of desloratadine in that condition
 - Mechanism of action data and SmPC-based warnings and contraindications
 - Review of potential drug interactions, as none currently has a recorded severity
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

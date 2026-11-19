@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, imipramine inhibits presynaptic reuptake of norepinephrine and, to a lesser extent, serotonin. Its active metabolite, desipramine, is a relatively selective norepinephrine reuptake inhibitor.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for imipramine: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), label version 2026-11-04; accessed 2026-11-19.) Based on general pharmacological knowledge, imipramine inhibits presynaptic reuptake of norepinephrine and, to a lesser extent, serotonin. Its active metabolite, desipramine, is a relatively selective norepinephrine reuptake inhibitor.
 
 Noradrenergic dysfunction is implicated in ADHD, which gives a plausible mechanistic link. Tricyclic antidepressants such as imipramine and desipramine are described in the supplied literature as non-selective norepinephrine reuptake inhibitors that can be effective when stimulants fail. These sit alongside selective agents such as atomoxetine.
 
@@ -146,6 +146,19 @@ The mechanistic link is plausible and there is a small body of literature, inclu
 **Other predicted indications (for reference):**
 - *ADHD, inattentive type*, *faciodigitogenital syndrome*, *specific developmental disorder* and *chondromyxoid fibroma*, *benign paroxysmal torticollis of infancy*: **Hold**. There are no trials, and literature is absent or only indirectly relevant. The high scores likely reflect model or ontology artefacts. The inattentive subtype should be assessed under the parent ADHD indication.
 - *Obsessive-compulsive disorder*: **Research question** (L3). A small 1985 comparison of clomipramine and imipramine and a 1987 placebo-controlled study exist, but the literature mainly supports clomipramine and SSRIs, which are better-supported alternatives.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

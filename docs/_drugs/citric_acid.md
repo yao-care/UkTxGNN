@@ -54,7 +54,7 @@ Citric acid is an organic acid used in effervescent tablets together with potass
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available. Citric acid is a weak organic acid. In effervescent formulations with bicarbonate it generates carbon dioxide and buffers acidity, which makes a gastric effect biologically plausible in a general sense.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sodium picosulfate, magnesium oxide, and anhydrous citric acid (a combination product containing citric acid): "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), label version 2026-04-15; accessed 2026-11-19.) Citric acid is a weak organic acid. In effervescent formulations with bicarbonate it generates carbon dioxide and buffers acidity, which makes a gastric effect biologically plausible in a general sense.
 
 The literature that mentions the stomach mostly uses citric acid as a test meal in the 13C-urea breath test for *Helicobacter pylori*. In that setting it delays gastric emptying and increases urease contact with the stomach lining. This is a diagnostic adjunct, not a treatment effect. The remaining papers (ulcer diet, *H. pylori* physiology, cuproptosis in gastric cancer, veterinary cobalamin deficiency, metabolomics) are indirect or off-topic. The high TxGNN score is partly explained by the overlap with dyspepsia-type uses, so it should not be read as evidence of therapeutic benefit.
 
@@ -116,6 +116,19 @@ The prediction rests on the model score alone. No registered trials exist, and n
 - Clinical studies that directly evaluate citric acid as a treatment for stomach disease, as distinct from its use in breath testing
 - Label-based warnings and contraindications from the SmPC and BNF
 - Review of the interaction with aluminium-containing antacids and quinolone antibacterials
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

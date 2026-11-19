@@ -62,7 +62,7 @@ None of these studies has yet reported results showing that ticagrelor works in 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ticagrelor is a reversible P2Y12 receptor antagonist. It blocks ADP-mediated platelet activation and aggregation, which reduces the formation of clots in arteries.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ticagrelor: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), label version 2026-05-07; accessed 2026-11-19.) Based on known pharmacology, ticagrelor is a reversible P2Y12 receptor antagonist. It blocks ADP-mediated platelet activation and aggregation, which reduces the formation of clots in arteries.
 
 Symptomatic intracranial atherosclerotic stenosis is driven largely by platelet-mediated thrombosis and by emboli breaking off from narrowed arteries. Blocking platelet activation is therefore mechanistically plausible. Ticagrelor's activity does not depend on CYP2C19 activation, unlike clopidogrel. This may matter in populations with a high frequency of CYP2C19 loss-of-function variants, including many East Asian patients. The main trade-off is bleeding, and intracranial haemorrhage is a particular concern in this setting.
 
@@ -146,11 +146,12 @@ The mechanism is plausible and a large Phase 3 trial (CAPTIVA) is under way. How
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is listed in the compiled data, and it carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

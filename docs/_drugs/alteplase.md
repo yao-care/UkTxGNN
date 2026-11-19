@@ -54,7 +54,7 @@ Alteplase is a recombinant tissue plasminogen activator, a thrombolytic that dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, alteplase is a thrombolytic that activates plasminogen to form plasmin, which breaks down fibrin in clots.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for alteplase: "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9), label version 2026-01-20; accessed 2026-11-19.) Based on known pharmacology, alteplase is a thrombolytic that activates plasminogen to form plasmin, which breaks down fibrin in clots.
 
 Heparin cofactor II deficiency is an inherited thrombophilia, meaning a tendency to form clots. Alteplase could in principle be used to treat an acute thrombotic event arising in this setting. However, this would treat the clot itself rather than the underlying deficiency. The link is therefore indirect and hypothetical, and no studies were found to test it.
 
@@ -121,11 +121,12 @@ The prediction score is high, but there are no trials or publications on altepla
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg vial with diluent) which is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acute pulmonary heart disease
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, bumetanide is a loop diuretic that inhibits the Na-K-2Cl cotransporter (NKCC2) in the thick ascending limb of the loop of Henle. This produces rapid natriuresis and diuresis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bumetanide: "Bumetanide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone." ([DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f), label version 2026-08-27; accessed 2026-11-19.) Based on general pharmacology, bumetanide is a loop diuretic that inhibits the Na-K-2Cl cotransporter (NKCC2) in the thick ascending limb of the loop of Henle. This produces rapid natriuresis and diuresis.
 
 Acute pulmonary heart disease (acute cor pulmonale) involves right ventricular overload, for example from pulmonary embolism or acute lung injury. Reducing right-sided preload and systemic venous congestion could plausibly relieve right ventricular distension and peripheral or hepatic congestion. This is the same principle that underpins bumetanide's use in congestive heart failure and volume overload.
 
@@ -142,6 +142,19 @@ The prediction is mechanistically plausible but indirect. There are no clinical 
 - The approved indication text, warnings and contraindications from the SmPC
 - Review of current guidelines on managing acute right ventricular failure, to see where diuretics are positioned
 - Dosage form and manufacturer details for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

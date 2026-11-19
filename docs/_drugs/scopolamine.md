@@ -65,7 +65,7 @@ Other predictions in the same list, all at evidence level L5 with a Hold recomme
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its efficacy in motion sickness and in smooth-muscle and secretory conditions is established, and mechanistically it may modulate autonomic function of the bladder and bowel.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for scopolamine: "Scopolamine, a belladonna alkaloid, is an anticholinergic. Scopolamine acts: i) as a competitive inhibitor at postganglionic muscarinic receptor sites of the parasympathetic nervous system, and ii) on smooth muscles that respond to acetylcholine but lack cholinergic innervation." ([DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88), label version 2025-06-10; accessed 2026-11-19.) Based on known pharmacology, scopolamine is a non-selective muscarinic antagonist. Its efficacy in motion sickness and in smooth-muscle and secretory conditions is established, and mechanistically it may modulate autonomic function of the bladder and bowel.
 
 For cauda equina syndrome, the link is theoretical only. The condition is a structural, compressive neurological emergency treated surgically. An antimuscarinic could at most address secondary symptoms such as detrusor overactivity, not the underlying disease. The high TxGNN score is therefore a network-based model prediction with no supporting trial or literature data.
 
@@ -156,11 +156,12 @@ All six predictions are supported only by the TxGNN model, with no clinical tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation, a single-ingredient product, is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88) |
 
 <!-- review:end log -->
 

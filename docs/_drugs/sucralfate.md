@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **duodenogastric reflux** (alka
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, sucralfate binds to damaged gastric mucosa and forms a protective barrier. It is also thought to adsorb bile acids and pepsin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for sucralfate: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), label version 2026-01-06; accessed 2026-11-19.) Based on general pharmacological knowledge, sucralfate binds to damaged gastric mucosa and forms a protective barrier. It is also thought to adsorb bile acids and pepsin.
 
 Duodenogastric reflux means bile and other duodenal contents flow back into the stomach and can injure the mucosa, causing alkaline reflux gastritis and sometimes oesophagitis. Sucralfate's established mucosal-protective action in peptic ulcer disease could plausibly reduce this bile-related injury. The link rests on general knowledge of the drug rather than on mechanism data in the supplied record.
 
@@ -165,12 +165,13 @@ Two small randomised trials and several smaller clinical studies examine sucralf
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report (single-ingredient, valid)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "and the UK licence record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->
 

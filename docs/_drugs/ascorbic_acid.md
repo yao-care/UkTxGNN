@@ -56,7 +56,7 @@ but there are **no clinical trials** and **no publications** supporting this pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Ascorbic acid is generally understood to act as an antioxidant and as a cofactor for hydroxylase enzymes involved in collagen synthesis and catecholamine production.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ascorbic acid: "The exact mechanism of action of ascorbic acid for the treatment of symptoms and signs of scurvy (a disorder caused by severe deficiency in vitamin C) is unknown; however, administration of ascorbic acid in patients with scurvy is thought to restore the body pool of ascorbic acid." ([DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6), label version 2026-09-03; accessed 2026-11-19.) Ascorbic acid is generally understood to act as an antioxidant and as a cofactor for hydroxylase enzymes involved in collagen synthesis and catecholamine production.
 
 Non-syndromic esophageal malformation is a congenital structural defect arising during embryonic development. There is no known mechanism by which an antioxidant or cofactor vitamin would correct such a defect. The high model score is therefore not backed by a credible biological rationale, and the prediction should be read as a statistical output only.
 
@@ -139,11 +139,12 @@ The prediction has the highest score in the list but no supporting trials, no pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation is recorded in the data compiled for this report, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ascorbic acid prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0b683f8-189b-4a3f-9ffe-f91df6d798b6) |
 
 <!-- review:end log -->
 

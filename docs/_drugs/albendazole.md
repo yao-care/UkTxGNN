@@ -58,7 +58,7 @@ Albendazole is an anthelmintic medicine. The TxGNN model predicts it may be effe
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Albendazole belongs to the benzimidazole anthelmintic class. Medicines in this class are generally understood to act by binding to beta-tubulin in parasites, which disrupts their microtubules and energy handling.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for albendazole: "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5), label version 2019-09-23; accessed 2026-11-19.) Albendazole belongs to the benzimidazole anthelmintic class. Medicines in this class are generally understood to act by binding to beta-tubulin in parasites, which disrupts their microtubules and energy handling.
 
 Coenurosis is caused by the larval stage of the tapeworm *Taenia multiceps*. This is closely related biologically to neurocysticercosis, which is caused by the larval stage of *Taenia solium* and is the condition studied in most of the trials listed below. Because both are larval cestode infections, a beta-tubulin-directed mechanism could plausibly apply to coenurosis.
 
@@ -158,11 +158,12 @@ The prediction score is high (0.9983), but no trial or publication in the data c
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, colchicine binds tubulin and disrupts microtubule polymerisation. Its anti-inflammatory effects in gout and FMF are linked to reduced neutrophil chemotaxis and activation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for colchicine: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), label version 2026-10-16; accessed 2026-11-19.) Based on known pharmacology, colchicine binds tubulin and disrupts microtubule polymerisation. Its anti-inflammatory effects in gout and FMF are linked to reduced neutrophil chemotaxis and activation.
 
 Microtubules are essential to the cytoskeleton and cell division of *Plasmodium* parasites, so an antiparasitic effect is plausible in principle. However, this link is unproven. The two publications retrieved are indirect: one shows that **curcumin** (not colchicine) disrupts *P. falciparum* microtubules, and the other examines *pfmdr1* expression in mammalian cells and chloroquine susceptibility. Neither shows colchicine efficacy against malaria.
 
@@ -141,11 +141,12 @@ The malaria prediction rests on a model score and two indirect laboratory papers
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation record is available, and it carries no indication text or manufacturer" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->
 

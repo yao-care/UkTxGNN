@@ -58,7 +58,7 @@ Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, busulfan is a bifunctional alkylating agent that cross-links DNA and is myeloablative. Its efficacy in haematological conditions is established, and mechanistically it may be applicable to MDS.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for busulfan: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), label version 2026-07-29; accessed 2026-11-19.) Based on known information, busulfan is a bifunctional alkylating agent that cross-links DNA and is myeloablative. Its efficacy in haematological conditions is established, and mechanistically it may be applicable to MDS.
 
 Allogeneic haematopoietic stem cell transplantation (HSCT) is the only potentially curative option for MDS. Busulfan-based conditioning serves two purposes: it eradicates the malignant clone and it creates marrow space for donor cells to engraft. This is why busulfan features so often as the backbone of MDS transplant conditioning regimens.
 
@@ -183,11 +183,12 @@ Busulfan-based conditioning for MDS is supported by two completed Phase 3 trials
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 
 <!-- review:end log -->
 

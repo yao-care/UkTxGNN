@@ -56,7 +56,7 @@ There are currently **no clinical trials and no publications** that directly stu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Candesartan cilexetil is a prodrug of candesartan, which blocks the angiotensin II type 1 (AT1) receptor. This is the general mode of action of the ARB class, not a finding specific to this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for candesartan cilexetil: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), label version 2025-12-22; accessed 2026-11-19.) Candesartan cilexetil is a prodrug of candesartan, which blocks the angiotensin II type 1 (AT1) receptor. This is the general mode of action of the ARB class, not a finding specific to this report.
 
 Blocking the renin-angiotensin system (RAS) is mechanistically relevant to kidney injury driven by severe high blood pressure. ARBs have established kidney-protective roles in other chronic kidney disease settings. This reasoning is an inference from related conditions. No evidence in the compiled data directly addresses malignant hypertensive renal disease.
 
@@ -127,11 +127,12 @@ The prediction score is high (0.9968), but no clinical trial or publication dire
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Currently there are **no registered clinical trials** and **5 publications**, no
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cetirizine belongs to the H1-antihistamine class, whose main action is competitive blocking of histamine at H1 receptors on nerve endings, smooth muscle and glandular cells. A review in the literature set also suggests H1 antagonists may have additional anti-allergic effects beyond receptor blockade.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cetirizine: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), label version 2026-09-22; accessed 2026-11-19.) Cetirizine belongs to the H1-antihistamine class, whose main action is competitive blocking of histamine at H1 receptors on nerve endings, smooth muscle and glandular cells. A review in the literature set also suggests H1 antagonists may have additional anti-allergic effects beyond receptor blockade.
 
 "Nasal cavity disease" is a broad term. Much of it overlaps with allergic and vasomotor nasal conditions, in which histamine-driven symptoms such as sneezing, itching and watery discharge are plausible targets for an antihistamine. For other nasal diseases (for example infective or structural causes), the link is indirect, and the term is too nonspecific to judge as a distinct repurposing target.
 
@@ -151,11 +151,12 @@ No clinical trial or publication directly studies cetirizine in nasal cavity dis
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Cetirizine is currently marketed in the data compiled for this report, with one valid single-ingredient licence record (Cetirizine HCl table" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
 
 <!-- review:end log -->
 

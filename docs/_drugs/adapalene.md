@@ -55,7 +55,7 @@ The TxGNN model predicts it may be associated with **elevated plasma zinc**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Adapalene is generally understood to be a third-generation topical retinoid that selectively activates retinoic acid receptors (RAR-beta and RAR-gamma). Its efficacy in acne is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for adapalene: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), label version 2023-12-27; accessed 2026-11-19.) Adapalene is generally understood to be a third-generation topical retinoid that selectively activates retinoic acid receptors (RAR-beta and RAR-gamma). Its efficacy in acne is established.
 
 No direct mechanistic link to this new indication has been identified. Retinoid signalling has been loosely associated with zinc and retinol-binding protein metabolism, but no known pathway connects topical adapalene to regulation of plasma zinc. Elevated plasma zinc is also a laboratory finding rather than a typical treatable disease, and it is usually caused by zinc supplementation or exposure. Systemic exposure after topical adapalene is minimal, which further weakens biological plausibility.
 
@@ -121,11 +121,12 @@ The prediction rests solely on a TxGNN model (deep learning) score. There are no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report contain one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
 
 <!-- review:end log -->
 

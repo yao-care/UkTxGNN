@@ -21,11 +21,12 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 465,
-  "pages": 399,
-  "public_pages_with_records": 367,
+  "records": 918,
+  "pages": 540,
+  "public_pages_with_records": 508,
   "by_action": {
-   "correct": 465
+   "correct": 465,
+   "mechanism": 453
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L5",
    "lt": 205,
    "lv": 205,
-   "r": 0,
+   "r": 1,
    "i": "acromesomelic dysplasia, Hunter-Thompson type"
   },
   {
@@ -57,7 +58,7 @@
    "l": "L5",
    "lt": 168,
    "lv": 168,
-   "r": 1,
+   "r": 2,
    "i": "nephrogenic syndrome of inappropriate antidiuresis"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L5",
    "lt": 152,
    "lv": 152,
-   "r": 1,
+   "r": 2,
    "i": "pulmonary blastoma"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L4",
    "lt": 142,
    "lv": 142,
-   "r": 0,
+   "r": 1,
    "i": "acute intermittent porphyria"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 119,
    "lv": 119,
-   "r": 1,
+   "r": 2,
    "i": "migraine disorder"
   },
   {
@@ -93,7 +94,7 @@
    "l": "L5",
    "lt": 115,
    "lv": 115,
-   "r": 1,
+   "r": 2,
    "i": "faciodigitogenital syndrome"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 115,
    "lv": 115,
-   "r": 0,
+   "r": 1,
    "i": "acromesomelic dysplasia, Hunter-Thompson type"
   }
  ],
@@ -115,7 +116,7 @@
    "l": "L5",
    "lt": 78,
    "lv": 78,
-   "r": 4,
+   "r": 5,
    "i": "atrophoderma vermiculata"
   },
   {
@@ -124,26 +125,8 @@
    "l": "L1",
    "lt": 27,
    "lv": 27,
-   "r": 3,
+   "r": 4,
    "i": "headache disorder"
-  },
-  {
-   "t": "Ammonia",
-   "u": "/drugs/ammonia/",
-   "l": "L5",
-   "lt": 8,
-   "lv": 8,
-   "r": 2,
-   "i": "acrodermatitis chronica atrophicans"
-  },
-  {
-   "t": "Arginine",
-   "u": "/drugs/arginine/",
-   "l": "L4",
-   "lt": 22,
-   "lv": 22,
-   "r": 2,
-   "i": "gastroparesis (disease)"
   },
   {
    "t": "Bupropion",
@@ -151,7 +134,7 @@
    "l": "L2",
    "lt": 4,
    "lv": 4,
-   "r": 2,
+   "r": 3,
    "i": "attention deficit-hyperactivity disorder"
   },
   {
@@ -160,8 +143,26 @@
    "l": "L1",
    "lt": 9,
    "lv": 9,
-   "r": 2,
+   "r": 3,
    "i": "pneumocystosis"
+  },
+  {
+   "t": "Ergocalciferol",
+   "u": "/drugs/ergocalciferol/",
+   "l": "L5",
+   "lt": 83,
+   "lv": 83,
+   "r": 3,
+   "i": "acromesomelic dysplasia, Campailla Martinelli type"
+  },
+  {
+   "t": "Everolimus",
+   "u": "/drugs/everolimus/",
+   "l": "L2",
+   "lt": 23,
+   "lv": 23,
+   "r": 3,
+   "i": "liposarcoma"
   }
  ],
  "example": {
@@ -170,7 +171,7 @@
   "l": "L1",
   "lt": 64,
   "lv": 64,
-  "r": 1,
+  "r": 2,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [

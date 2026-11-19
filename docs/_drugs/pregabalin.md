@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **tendinitis**, but there are *
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Pregabalin is generally understood to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces the release of excitatory neurotransmitters and may relieve neuropathic and nociceptive pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for pregabalin: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), label version 2026-03-12; accessed 2026-11-19.) Pregabalin is generally understood to bind the alpha2-delta subunit of voltage-gated calcium channels. This reduces the release of excitatory neurotransmitters and may relieve neuropathic and nociceptive pain.
 
 Its established uses are pain-dominant conditions (fibromyalgia, myofascial pain, postherpetic neuralgia). Tendinitis is a painful musculoskeletal condition, so a pain-pathway overlap is plausible. The high TxGNN score probably reflects this overlap rather than any tendinopathy-specific evidence.
 
@@ -146,6 +146,19 @@ The very high model score is a computational signal only. No trials or tendiniti
 - Review of the muscle-related contraindication signals and the major opioid interaction
 
 **Note on other predictions:** In the same candidate list, **migraine disorder** has stronger support (evidence level L2). It has randomised trials in paediatric migraine prophylaxis against propranolol and sodium valproate, and a network meta-analysis. The only Phase 3 registration (NCT00447369) was withdrawn and provides no data. Migraine may merit a separate evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

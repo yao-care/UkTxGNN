@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **elevated plasma zinc**, but the
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, norgestimate is a progestin that is normally combined with ethinylestradiol in oral contraceptive products.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for norgestimate and ethinyl estradiol (a combination product containing norgestimate): "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923), label version 2026-10-12; accessed 2026-11-19.) Based on known information, norgestimate is a progestin that is normally combined with ethinylestradiol in oral contraceptive products.
 
 No established mechanistic link to elevated plasma zinc has been identified. The only support is the high TxGNN TxGNN model (deep learning) score. Oral contraceptive oestrogens are known to raise serum copper and may modestly alter circulating zinc. This is a general hormonal effect on trace-element binding proteins rather than a documented therapeutic action.
 
@@ -135,11 +135,12 @@ The prediction rests only on a model score, with no trials, no literature and no
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The product is a single-ingredient-listed authorisation record that is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
 
 <!-- review:end log -->
 

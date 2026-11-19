@@ -56,7 +56,7 @@ The only well-supported prediction in the list is human papillomavirus infection
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, podofilox is a purified form of podophyllotoxin. It binds tubulin, inhibits microtubule assembly and arrests mitosis, which causes necrosis of wart tissue. This is a lesion-directed effect rather than a true antiviral effect, so it does not eradicate the virus and recurrence is common.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for podofilox: "Treatment of genital warts with podofilox results in necrosis of visible wart tissue. The exact mechanism of action is unknown." ([DailyMed: podofilox prescribing information, Padagis US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af07697-5203-43e0-ba35-83683af851c3), label version 2023-02-28; accessed 2026-11-19.) From general pharmacology, podofilox is a purified form of podophyllotoxin. It binds tubulin, inhibits microtubule assembly and arrests mitosis, which causes necrosis of wart tissue. This is a lesion-directed effect rather than a true antiviral effect, so it does not eradicate the virus and recurrence is common.
 
 The prediction for vulvovaginal candidiasis is **not mechanistically convincing**. Candidiasis is a fungal infection, and antimitotic activity has no known antifungal action. The single retrieved paper is a 1999 general review of sexually transmitted disease treatment that covers both vaginal infections and genital warts. It most likely mentions podofilox only in the context of warts. The high score probably reflects co-occurrence of these conditions in the STD literature rather than a real therapeutic link.
 
@@ -126,6 +126,19 @@ The top predicted new indication, vulvovaginal candidiasis, has no clinical tria
 - Mechanism of action data to be confirmed from DrugBank
 - Full licence details (dosage form, approved indication) for the UK authorisation
 - Safety data from the SmPC, including warnings and contraindications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: podofilox prescribing information, Padagis US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af07697-5203-43e0-ba35-83683af851c3) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

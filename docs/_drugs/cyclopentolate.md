@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, cyclopentolate is a muscarinic antagonist (anticholinergic). Its use in cycloplegia is established, and mechanistically the same class effect could be relevant to conditions involving muscarinic-driven smooth muscle activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyclopentolate: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), label version 2024-06-25; accessed 2026-11-19.) Based on known pharmacology, cyclopentolate is a muscarinic antagonist (anticholinergic). Its use in cycloplegia is established, and mechanistically the same class effect could be relevant to conditions involving muscarinic-driven smooth muscle activity.
 
 Cauda equina syndrome causes bladder, bowel and sexual dysfunction through nerve compression. An antimuscarinic could theoretically ease secondary detrusor overactivity symptoms. It would not treat the underlying compression, which needs surgical decompression. The high TxGNN score is a computational prediction only.
 
@@ -121,6 +121,19 @@ All three predicted indications rest on model prediction only (L5), with no tria
 - Preclinical or clinical evidence in the target condition
 - Reconciliation of the obsolete neurogenic bladder term with current terminology
 - Verification of the marketing authorisation record, including approved indication and dosage form
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

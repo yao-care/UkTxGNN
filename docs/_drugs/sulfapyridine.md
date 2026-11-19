@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **heparin-induced thrombocytope
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, sulfapyridine is a sulfonamide whose efficacy in dermatitis herpetiformis is established, which is generally attributed to anti-inflammatory and neutrophil-modulating effects.
+ChEMBL (EMBL-EBI) records the mechanism of action of sulfapyridine as: Bacterial dihydropteroate synthase inhibitor ([ChEMBL CHEMBL700 (sulfapyridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL700), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, sulfapyridine is a sulfonamide whose efficacy in dermatitis herpetiformis is established, which is generally attributed to anti-inflammatory and neutrophil-modulating effects.
 
 No mechanistic link to HIT has been identified. HIT is an antibody-mediated (anti-PF4/heparin) prothrombotic disorder, which is very different from the neutrophil-driven skin disease for which sulfapyridine is used. Sulfonamides are also occasionally associated with drug-induced thrombocytopenia, which argues against benefit. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -136,11 +136,12 @@ The prediction rests on model output alone (L5), with no trials or publications,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL700 (sulfapyridine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL700) |
 
 <!-- review:end log -->
 

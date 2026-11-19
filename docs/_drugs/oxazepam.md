@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **insomnia**, but there are cur
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, oxazepam is a short-acting benzodiazepine. Drugs of this class enhance GABA-A receptor-mediated inhibitory neurotransmission, producing anxiolytic and sedative-hypnotic effects. This mechanistic description is inferred from the drug class rather than from the supplied data.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxazepam as: GABA-A receptor; anion channel positive allosteric modulator ([ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, oxazepam is a short-acting benzodiazepine. Drugs of this class enhance GABA-A receptor-mediated inhibitory neurotransmission, producing anxiolytic and sedative-hypnotic effects. This mechanistic description is inferred from the drug class rather than from the supplied data.
 
 Anxiety and insomnia frequently occur together, and benzodiazepines are used to treat both. Sleep disturbance is also a common feature of alcohol withdrawal. The prediction is therefore biologically plausible, particularly for insomnia accompanied by anxiety.
 
@@ -146,6 +146,19 @@ The prediction is mechanistically plausible and has a very high model score, but
 - Mechanism of action data from DrugBank
 - Controlled trials of oxazepam versus current insomnia options (including those recommended by NICE) with attention to rebound, dependence and daytime impairment
 - A comparison with existing UK guidance on short-term hypnotic use to establish whether oxazepam adds value
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

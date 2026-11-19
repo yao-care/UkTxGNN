@@ -56,7 +56,7 @@ Omalizumab is a humanised monoclonal antibody that binds immunoglobulin E (IgE).
 
 Omalizumab targets the constant region of the IgE heavy chain (gene *IGHE*). It lowers free IgE and reduces FcεRI-mediated activation of mast cells and basophils. This is a plausible way to dampen allergic airway inflammation.
 
-Detailed mechanism-of-action data are not available beyond this target information. The supporting literature concerns allergic airway disease in people who also have chronic bronchitis features, not bronchitis as a stand-alone condition. The mechanism is not established for infectious, non-allergic or smoking-related chronic bronchitis. The high score probably reflects proximity to allergic airway disease rather than direct evidence in bronchitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for omalizumab: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), label version 2026-10-06; accessed 2026-11-19.) The supporting literature concerns allergic airway disease in people who also have chronic bronchitis features, not bronchitis as a stand-alone condition. The mechanism is not established for infectious, non-allergic or smoking-related chronic bronchitis. The high score probably reflects proximity to allergic airway disease rather than direct evidence in bronchitis.
 
 ## Clinical Trial Evidence
 
@@ -141,11 +141,12 @@ No label-derived warnings or contraindications were available in the data compil
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record one valid single-ingredient licence and a market status of Marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available beyond this target information" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
 
 <!-- review:end log -->
 

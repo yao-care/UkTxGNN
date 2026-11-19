@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and only **8 publicati
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, ropinirole is a D2/D3 dopamine agonist (with some affinity for D4 receptors), its efficacy in restless legs syndrome and Parkinson disease is established, and mechanistically it may be applicable to ADHD.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropinirole: "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), label version 2026-11-06; accessed 2026-11-19.) Based on known information, ropinirole is a D2/D3 dopamine agonist (with some affinity for D4 receptors), its efficacy in restless legs syndrome and Parkinson disease is established, and mechanistically it may be applicable to ADHD.
 
 ADHD is linked to dopaminergic hypofunction. It also frequently co-occurs with restless legs syndrome, one of ropinirole's original indications. A shared dopaminergic and iron-metabolism pathway plausibly links the two conditions. A paediatric case report describes a 6-year-old boy in whom ropinirole improved both ADHD symptoms and sleep problems, after limited benefit from methylphenidate.
 
@@ -153,11 +153,12 @@ The mechanistic link is plausible and there is one possible randomised add-on tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

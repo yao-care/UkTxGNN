@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, clarithromycin is a macrolide antibiotic, and its activity against respiratory and ear, nose and throat bacterial infections is recorded in the knowledge graph. Mechanistically, it is not clear why it would be applicable to hyperamylasemia.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for clarithromycin: "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), label version 2026-11-12; accessed 2026-11-19.) Based on known information, clarithromycin is a macrolide antibiotic, and its activity against respiratory and ear, nose and throat bacterial infections is recorded in the knowledge graph. Mechanistically, it is not clear why it would be applicable to hyperamylasemia.
 
 The only publication linked to this prediction is a 2004 Japanese case report of *Mycobacterium abscessus* lung infection complicated by primary macroamylasemia. Clarithromycin was used there as an anti-mycobacterial agent. Hyperamylasemia was not the treatment target, and the association is most likely incidental to the infection or to a comorbidity. The high score of 0.9935 is a computational output and is not backed by clinical data.
 
@@ -160,11 +160,12 @@ The prediction rests on a single case report in which hyperamylasemia was a coex
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list one single-ingredient authorisation, with a status of valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
 
 <!-- review:end log -->
 

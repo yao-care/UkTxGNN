@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amikacin is an aminoglycoside that inhibits bacterial protein synthesis by binding the 30S ribosomal subunit. It has proven activity against many Gram-negative organisms, and *Salmonella enterica* (the cause of paratyphoid fever) is susceptible to it in vitro. This makes the prediction biologically plausible.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amikacin: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), label version 2026-07-27; accessed 2026-11-19.) Based on known information, amikacin is an aminoglycoside that inhibits bacterial protein synthesis by binding the 30S ribosomal subunit. It has proven activity against many Gram-negative organisms, and *Salmonella enterica* (the cause of paratyphoid fever) is susceptible to it in vitro. This makes the prediction biologically plausible.
 
 However, the plausibility is limited. Aminoglycosides penetrate cells poorly, and *Salmonella* is an intracellular pathogen, so clinical efficacy in enteric fever is doubtful. Guideline-preferred agents (azithromycin, third-generation cephalosporins, and carbapenems for extensively drug-resistant strains) are used instead. The very high TxGNN score appears to reflect Gram-negative antibacterial class similarity rather than independent clinical support.
 
@@ -145,11 +145,12 @@ The predicted indication has no clinical trials, and the literature is limited t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report records one valid single-ingredient authorisation and no cancelled authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
 
 <!-- review:end log -->
 

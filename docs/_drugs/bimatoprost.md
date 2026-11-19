@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for a **malformatio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Bimatoprost is a prostamide/prostaglandin F2-alpha analogue. Its efficacy in lowering intraocular pressure in glaucoma and ocular hypertension is established, and it is also known to promote eyelash growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bimatoprost: "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), label version 2024-10-16; accessed 2026-11-19.) Bimatoprost is a prostamide/prostaglandin F2-alpha analogue. Its efficacy in lowering intraocular pressure in glaucoma and ocular hypertension is established, and it is also known to promote eyelash growth.
 
 No plausible mechanistic link to this predicted condition has been identified. A developmental malformation syndrome involving the teeth or periodontium is not obviously addressed by a topical ocular prostamide. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -144,11 +144,12 @@ The prediction rests solely on a score from the TxGNN model (deep learning), whi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
 
 <!-- review:end log -->
 

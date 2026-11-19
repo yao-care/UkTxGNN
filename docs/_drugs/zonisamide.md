@@ -60,7 +60,7 @@ The only related signal found is a review reporting that antiseizure medications
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, zonisamide blocks voltage-gated sodium channels and T-type calcium channels, and it is thought to have weak dopaminergic and serotonergic effects. Its efficacy in epilepsy is established, and these actions could plausibly modulate the neural circuits involved in tics.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for zonisamide: "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), label version 2026-09-23; accessed 2026-11-19.) Based on known pharmacology, zonisamide blocks voltage-gated sodium channels and T-type calcium channels, and it is thought to have weak dopaminergic and serotonergic effects. Its efficacy in epilepsy is established, and these actions could plausibly modulate the neural circuits involved in tics.
 
 This link is **speculative**. The high TxGNN score is a prediction from the TxGNN model (deep learning) and is not clinical evidence. The mechanistic reasoning has not been tested in Tourette syndrome. One review found during the evidence search (PMID 36005856) points the other way, as it describes antiseizure medication-induced obsessive-compulsive and tic disorders.
 
@@ -150,6 +150,19 @@ The prediction rests on a model score alone (L5), with no registered trials or s
 - **Absence epilepsy** (L3) has the strongest evidence. It has a clear T-type calcium channel rationale and zonisamide-specific reports (PMIDs 15847848 and 24907183), and these are likely small or retrospective studies.
 - **Manic bipolar affective disorder** (L4) has indirect literature, including a pilot study in bipolar depression and a report of zonisamide-induced mania.
 - **Fibromyalgia** (L4) has one withdrawn trial with zero enrolment.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

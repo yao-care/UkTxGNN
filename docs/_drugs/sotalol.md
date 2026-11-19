@@ -61,7 +61,7 @@ The TxGNN model's most clinically plausible prediction is **stroke disorder** (a
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sotalol is a class III antiarrhythmic with beta-blocking activity. It prolongs cardiac repolarisation and slows sinus rate and atrioventricular conduction. Its efficacy in maintaining sinus rhythm in atrial fibrillation is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sotalol: "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), label version 2024-12-16; accessed 2026-11-19.) Based on known pharmacology, sotalol is a class III antiarrhythmic with beta-blocking activity. It prolongs cardiac repolarisation and slows sinus rate and atrioventricular conduction. Its efficacy in maintaining sinus rhythm in atrial fibrillation is established.
 
 Sotalol does not treat stroke directly. The link is indirect: atrial fibrillation increases the risk of thromboembolic stroke, so maintaining sinus rhythm could in principle reduce that risk. However, the retrieved literature concerns AF management and its complications rather than stroke outcomes. Anticoagulation remains the main stroke-prevention strategy in AF.
 
@@ -165,11 +165,12 @@ The stroke prediction rests on an indirect link through AF rhythm control, and n
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled data lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
 
 <!-- review:end log -->
 

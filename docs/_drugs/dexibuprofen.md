@@ -56,7 +56,7 @@ The only prediction with any supporting literature in the data compiled for this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known pharmacology, dexibuprofen is a cyclooxygenase (COX) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative joint disease is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of dexibuprofen as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, dexibuprofen is a cyclooxygenase (COX) inhibitor. It reduces prostaglandin-mediated inflammation and pain, and its efficacy in inflammatory and degenerative joint disease is established.
 
 For the top-ranked prediction, there is **no credible mechanistic link**. Brachydactyly-syndactyly syndromes are congenital limb malformations of developmental genetic origin, which an NSAID would not be expected to modify. The high score is a computational output only, with no trials or literature behind it.
 
@@ -133,11 +133,12 @@ The top-ranked prediction, brachydactyly-syndactyly syndrome, has no trials, no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation. Its dosage form and indication details are incomplete, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL175 (dexibuprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL175) |
 
 <!-- review:end log -->
 

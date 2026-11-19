@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **amenorrhoea**, but there are 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug in the data compiled for this report. Based on general pharmacology, tranexamic acid is an antifibrinolytic. It inhibits plasminogen activation and so reduces fibrinolysis-mediated breakdown of the endometrium. It is an established treatment for heavy menstrual bleeding, which gives a plausible indirect link to menstrual suppression.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tranexamic acid: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), label version 2025-09-03; accessed 2026-11-19.) Based on general pharmacology, tranexamic acid is an antifibrinolytic. It inhibits plasminogen activation and so reduces fibrinolysis-mediated breakdown of the endometrium. It is an established treatment for heavy menstrual bleeding, which gives a plausible indirect link to menstrual suppression.
 
 However, **suppressing menses is not the same as treating amenorrhoea**, which is the absence of menses. Amenorrhoea is usually hormonal or structural in origin, and an antifibrinolytic would not be expected to restore menstruation. The high TxGNN score probably reflects network proximity to menstrual disorders rather than a true therapeutic relationship.
 
@@ -160,11 +160,12 @@ The prediction rests on a high model score and a loose mechanistic link to menst
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the dat" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

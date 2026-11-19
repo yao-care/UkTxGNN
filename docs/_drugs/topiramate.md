@@ -60,7 +60,7 @@ The data compiled for this report suggest the prediction is likely a TxGNN model
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. From the literature, topiramate is known to act through several mechanisms: blockade of voltage-dependent sodium channels, enhancement of GABA-A mediated inhibition, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topiramate: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), label version 2026-10-05; accessed 2026-11-19.) From the literature, topiramate is known to act through several mechanisms: blockade of voltage-dependent sodium channels, enhancement of GABA-A mediated inhibition, antagonism of AMPA/kainate glutamate receptors, and weak carbonic anhydrase inhibition.
 
 These actions explain its effect in epilepsy, but they have no established relevance to tumour biology. The link between epilepsy and trigeminal nerve neoplasm is therefore weak. The very high TxGNN score (0.9970) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -149,11 +149,12 @@ The prediction for trigeminal nerve neoplasm rests on a model score alone (L5), 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled record holds one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

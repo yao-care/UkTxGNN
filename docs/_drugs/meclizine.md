@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials and no publications** su
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for meclizine is not available in the data compiled for this report. Based on known pharmacology, meclizine is a first-generation antihistamine with H1 receptor antagonist activity. Its established uses (vertigo and motion sickness) are thought to reflect its effects on the vestibular system and central nervous system.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for meclizine: "The precise mechanism by which meclizine exerts its therapeutic effect is unknown but is presumed to involve antagonism of the histamine H1 receptor." ([DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588), label version 2026-10-06; accessed 2026-11-19.) Based on known pharmacology, meclizine is a first-generation antihistamine with H1 receptor antagonist activity. Its established uses (vertigo and motion sickness) are thought to reflect its effects on the vestibular system and central nervous system.
 
 Allergic urticaria is a histamine-mediated condition, so H1 receptor blockade offers a plausible mechanistic link. However, this is a computational prediction only. Established H1 antihistamines are already standard treatment for urticaria, so any added value of meclizine would have to be shown, for example by comparison with non-sedating antihistamines. Sedation and anticholinergic effects are also drawbacks.
 
@@ -116,6 +116,19 @@ The only support is a high model score (0.9967) with no clinical trials or publi
 - A literature review and trial search for meclizine in urticaria
 - Evidence of benefit over non-sedating H1 antihistamines
 - A safety assessment covering sedation, anticholinergic burden, and the listed interactions and at-risk conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data for meclizine is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

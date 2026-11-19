@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nisoldipine is a dihydropyridine L-type calcium channel blocker. It causes vasodilation and lowers blood pressure in hypertension. Mechanistically, relaxation of pulmonary vascular smooth muscle could be relevant to pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nisoldipine: "Nisoldipine is a member of the dihydropyridine class of calcium channel antagonists (calcium ion antagonists or slow channel blockers) that inhibit the transmembrane influx of calcium into vascular smooth muscle and cardiac muscle. It reversibly competes with other dihydropyridines for binding to the calcium channel." ([DailyMed: Sular (nisoldipine) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=589157fa-d129-4de3-be3d-e0e1c22c5873), label version 2026-03-12; accessed 2026-11-19.) Based on known information, nisoldipine is a dihydropyridine L-type calcium channel blocker. It causes vasodilation and lowers blood pressure in hypertension. Mechanistically, relaxation of pulmonary vascular smooth muscle could be relevant to pulmonary hypertension.
 
 This link is theoretical. No trials or publications addressing this exact predicted disease were found, and the high TxGNN score is a model output rather than validated evidence.
 
@@ -140,6 +140,19 @@ The prediction rests on a computational score alone. No clinical trial or public
 - Human clinical studies in the predicted pulmonary hypertension indication
 - Clinical review of the benefit-risk balance, including gas exchange effects and the existing contraindications
 - Review of the predictions with weak rationale (Braddock syndrome) and of malignant hypertensive renal disease, which is largely an extension of the current hypertension use
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sular (nisoldipine) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=589157fa-d129-4de3-be3d-e0e1c22c5873) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

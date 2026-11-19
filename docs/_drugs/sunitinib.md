@@ -60,7 +60,7 @@ The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appea
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, sunitinib is a multitargeted receptor tyrosine kinase inhibitor acting on VEGFR, PDGFR and KIT. These pathways drive angiogenesis and tumour growth, and its efficacy in renal cell carcinoma and imatinib-resistant GIST has been established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for sunitinib: "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), label version 2026-02-20; accessed 2026-11-19.) Based on known information, sunitinib is a multitargeted receptor tyrosine kinase inhibitor acting on VEGFR, PDGFR and KIT. These pathways drive angiogenesis and tumour growth, and its efficacy in renal cell carcinoma and imatinib-resistant GIST has been established.
 
 Soft tissue sarcomas, including liposarcoma, also depend in part on angiogenesis and growth-factor receptor signalling. This gives a plausible mechanistic basis for testing sunitinib in liposarcoma.
 
@@ -161,11 +161,12 @@ Two completed Phase 2 studies and one published Phase 2 report give some clinica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

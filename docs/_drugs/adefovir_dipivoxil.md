@@ -54,7 +54,7 @@ Adefovir dipivoxil is an oral nucleotide analogue antiviral that is marketed in 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Adefovir dipivoxil is a prodrug of adefovir, an acyclic nucleotide phosphonate that inhibits viral DNA polymerase/reverse transcriptase. This is its established mechanism against hepatitis B virus (HBV) and retroviruses.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for adefovir dipivoxil: "Adefovir is an antiviral drug. […] Adefovir is an acyclic nucleotide analog of adenosine monophosphate which is phosphorylated to the active metabolite adefovir diphosphate by cellular kinases. Adefovir diphosphate inhibits HBV DNA polymerase (reverse transcriptase) by competing with the natural substrate deoxyadenosine triphosphate and by causing DNA chain termination after its incorporation into viral DNA." ([DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f), label version 2025-07-22; accessed 2026-11-19.) Adefovir dipivoxil is a prodrug of adefovir, an acyclic nucleotide phosphonate that inhibits viral DNA polymerase/reverse transcriptase. This is its established mechanism against hepatitis B virus (HBV) and retroviruses.
 
 Hepatitis C virus (HCV) is an RNA virus that replicates through the NS5B RNA-dependent RNA polymerase, a different enzyme. No mechanistic link between adefovir and HCV has been established. The retrieved publications are general viral hepatitis reviews and HBV-focused papers, not studies of adefovir activity against HCV. The high score probably reflects closeness of viral hepatitis nodes in the model's network rather than pharmacology, so the prediction should be treated as a hypothesis only.
 
@@ -125,11 +125,12 @@ The prediction rests on a model score alone. There are no trials or publications
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f) |
 
 <!-- review:end log -->
 

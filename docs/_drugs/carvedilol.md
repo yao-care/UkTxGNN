@@ -58,7 +58,7 @@ Carvedilol is a beta-blocker that also blocks alpha-1 adrenergic receptors. The 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for carvedilol were not available in the data compiled for this report. Carvedilol is generally described as a non-selective beta-blocker with additional alpha-1 blocking activity. Together, these actions lower blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carvedilol: "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), label version 2026-07-31; accessed 2026-11-19.) Carvedilol is generally described as a non-selective beta-blocker with additional alpha-1 blocking activity. Together, these actions lower blood pressure.
 
 Malignant hypertensive renal disease is kidney injury driven by severe, sustained blood pressure elevation. In principle, a drug that lowers blood pressure through beta and alpha-1 blockade could reduce that haemodynamic injury to the kidney. This link is theoretical. It mostly reflects the drug's general blood-pressure-lowering effect rather than any kidney-specific mechanism.
 
@@ -137,11 +137,12 @@ The TxGNN score is high, but there are no trials or publications for this diseas
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record a single valid single-ingredient licence and no cancelled licences" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for carvedilol were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
 
 <!-- review:end log -->
 

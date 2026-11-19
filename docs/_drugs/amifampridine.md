@@ -57,7 +57,7 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Amifampridine (3,4-diaminopyridine) is generally characterised as a voltage-gated potassium channel blocker. By prolonging presynaptic depolarisation, it enhances acetylcholine release at the nerve terminal.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for amifampridine: "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), label version 2026-04-16; accessed 2026-11-19.) Amifampridine (3,4-diaminopyridine) is generally characterised as a voltage-gated potassium channel blocker. By prolonging presynaptic depolarisation, it enhances acetylcholine release at the nerve terminal.
 
 There is no established link between this mechanism and the regulation of intraocular pressure or the neuroprotection of retinal ganglion cells. The high TxGNN score is a model-based prediction only. No study has examined amifampridine in glaucoma, so the mechanistic rationale remains speculative and the prediction should be regarded as a hypothesis to be tested rather than a supported finding.
 
@@ -126,11 +126,12 @@ The prediction rests on a model score alone. No trials or publications address g
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The authorisation record in the compiled data carries no dosage-form or indication text, and the number shown is not in MHRA PL format" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
 
 <!-- review:end log -->
 

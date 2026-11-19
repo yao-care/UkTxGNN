@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **infectious otitis media**, bu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is an antimycobacterial agent used as part of multi-drug anti-tuberculosis regimens. Its activity depends on conversion to pyrazinoic acid by mycobacterial pyrazinamidase, a mechanism specific to *Mycobacterium tuberculosis*.
+ChEMBL (EMBL-EBI) records the mechanism of action of pyrazinamide as: Fatty acid synthase inhibitor; 70S ribosome inhibitor ([ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, pyrazinamide is an antimycobacterial agent used as part of multi-drug anti-tuberculosis regimens. Its activity depends on conversion to pyrazinoic acid by mycobacterial pyrazinamidase, a mechanism specific to *Mycobacterium tuberculosis*.
 
 The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (tuberculosis-related infectious diseases and ear infections), not biological evidence. Common causes of bacterial otitis media (*Streptococcus pneumoniae*, *Haemophilus influenzae*, *Moraxella catarrhalis*) are not susceptible to pyrazinamide. The only plausible link is the rare tuberculous otitis media, which is already covered by the existing TB indication and is not true repurposing.
 
@@ -156,11 +156,12 @@ The prediction has no trials, no direct literature, and no plausible mechanism f
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The single authorisation is a valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->
 

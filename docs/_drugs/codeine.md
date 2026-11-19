@@ -60,7 +60,7 @@ Evidence is limited to the model prediction.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Codeine is a well-known opioid with antitussive and mild analgesic effects, and it is commonly used for symptom relief in upper respiratory conditions.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for codeine: "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), label version 2026-01-16; accessed 2026-11-19.) Codeine is a well-known opioid with antitussive and mild analgesic effects, and it is commonly used for symptom relief in upper respiratory conditions.
 
 The high model score likely reflects shared links to nasal and upper airway conditions in the data used to train the model. However, there is no plausible mechanism by which codeine would treat structural or inflammatory disease of the nasal cavity. The only publication retrieved describes a nasal stone (rhinolith) formed around a hardened mixture of codeine and opium that had been lodged in the nose. That is a complication linked to the drug, not a therapeutic benefit. The prediction should therefore be treated as a statistical signal rather than a credible treatment hypothesis.
 
@@ -133,6 +133,19 @@ The prediction rests on a very high model score alone. The single publication de
 - Any clinical or preclinical study that directly tests codeine in nasal cavity disease
 - Label-based warnings and contraindications from the SmPC and BNF
 - A defined target condition within nasal cavity disease, so that benefit can be weighed against opioid risks (dependence, respiratory depression)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

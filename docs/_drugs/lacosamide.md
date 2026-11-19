@@ -60,7 +60,7 @@ with **4 clinical trials** (including 3 Phase 3 trials) and **18 publications** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. From the published literature, lacosamide enhances slow inactivation of voltage-gated sodium channels and may also interact with collapsin response mediator protein 2 (CRMP2). Preclinical work suggests this could inhibit release of calcitonin gene-related peptide (CGRP) in the trigeminal system, a key pathway in migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lacosamide: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), label version 2026-09-09; accessed 2026-11-19.) From the published literature, lacosamide enhances slow inactivation of voltage-gated sodium channels and may also interact with collapsin response mediator protein 2 (CRMP2). Preclinical work suggests this could inhibit release of calcitonin gene-related peptide (CGRP) in the trigeminal system, a key pathway in migraine.
 
 Migraine and epilepsy share features of neuronal hyperexcitability. Lacosamide reduced cortical spreading depolarisation in mice (PMID 40670944), a model relevant to migraine aura. Other antiseizure drugs, such as topiramate and valproate, are established migraine preventives, which supports class-level plausibility.
 
@@ -167,11 +167,12 @@ Migraine is the best-supported of the model's predictions, with two completed Ph
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient authorisation is recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

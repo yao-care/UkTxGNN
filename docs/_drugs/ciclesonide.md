@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but this res
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ciclesonide is an inhaled corticosteroid prodrug. Esterases activate it to des-ciclesonide, a glucocorticoid receptor agonist with anti-inflammatory activity.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ciclesonide: "Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone." ([DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468), label version 2025-02-28; accessed 2026-11-19.) Based on known pharmacology, ciclesonide is an inhaled corticosteroid prodrug. Esterases activate it to des-ciclesonide, a glucocorticoid receptor agonist with anti-inflammatory activity.
 
 Atopic eczema is a Th2-driven inflammatory skin disease, and topical corticosteroids are an established treatment. A glucocorticoid mechanism is therefore biologically plausible. Asthma and allergic rhinitis are also Th2-type allergic conditions, which gives the original and predicted indications a shared inflammatory basis.
 
@@ -137,11 +137,12 @@ All predicted indications rest on model scores with no supporting trials. Atopic
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One authorisation is recorded, and it is a single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
 
 <!-- review:end log -->
 

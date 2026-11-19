@@ -60,7 +60,7 @@ but there are **no clinical trials** and **no publications** supporting this pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, diflunisal is an NSAID that inhibits cyclo-oxygenase (COX-1 and COX-2) and reduces prostaglandin-mediated inflammation and pain. It is also known to stabilise transthyretin.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diflunisal: "The precise mechanism of the analgesic and anti-inflammatory actions of diflunisal is not known. Diflunisal is a prostaglandin synthetase inhibitor. In animals, prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain." ([DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b), label version 2025-10-06; accessed 2026-11-19.) From general pharmacology, diflunisal is an NSAID that inhibits cyclo-oxygenase (COX-1 and COX-2) and reduces prostaglandin-mediated inflammation and pain. It is also known to stabilise transthyretin.
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia linked to the CDMP1/GDF5 pathway. Neither COX inhibition nor transthyretin stabilisation addresses this underlying genetic defect, so **no mechanistic link has been established**. The high TxGNN score reflects a computational prediction only and should not be read as evidence of benefit.
 
@@ -132,11 +132,12 @@ The prediction has no supporting trials or publications, and the mechanism of di
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data show one valid single-ingredient licence. The record carries no dosage-form or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dolobid (diflunisal) prescribing information, INA Pharmaceutics Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725234b2-0e23-45c3-a42d-eb4e62273f9b) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ It has **no registered clinical trials** and **5 publications**, all small obser
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Mexiletine is a known class IB antiarrhythmic that blocks voltage-gated sodium channels. It is also used in clinical practice for neuropathic pain and myotonia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mexiletine: "Mexiletine hydrochloride is a local anesthetic, antiarrhythmic agent, structurally similar to lidocaine, but orally active. In animal studies, mexiletine has been shown to be effective in the suppression of induced ventricular arrhythmias, including those induced by glycoside toxicity and coronary artery ligation." ([DailyMed: mexiletine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c09f68fa-759e-4772-9f6b-11005d8f83d5), label version 2026-03-31; accessed 2026-11-19.) Mexiletine is a known class IB antiarrhythmic that blocks voltage-gated sodium channels. It is also used in clinical practice for neuropathic pain and myotonia.
 
 Trigeminal autonomic cephalalgias and refractory daily headache involve neuronal hyperexcitability and ectopic discharge in trigeminal pathways. Blocking sodium channels could plausibly dampen this activity. A published review suggests that response to intravenous lidocaine (another class IB agent) may help predict response to mexiletine in trigeminal autonomic cephalalgias.
 
@@ -146,6 +146,19 @@ The highest-scoring predictions have no supporting evidence or plausible mechani
 - Randomised, controlled evidence for mexiletine in trigeminal autonomic cephalalgias or refractory chronic headache
 - A cardiac safety and drug interaction monitoring plan (ECG, CYP2D6/1A2 interacting drugs) for any headache study
 - Confirmation of dosage form and route for the UK-authorised product
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mexiletine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c09f68fa-759e-4772-9f6b-11005d8f83d5) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

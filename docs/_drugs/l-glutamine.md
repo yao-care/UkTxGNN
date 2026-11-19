@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **dermatitis** (the highest-ran
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for L-glutamine are not available in the data compiled for this report. L-Glutamine is the most abundant amino acid in plasma and is used clinically as a nutritional and gut-supportive supplement. Its link to short bowel syndrome relates to intestinal and nutritional support.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for l-glutamine: "The mechanism of action of the amino acid L-glutamine in treating sickle cell disease (SCD) is not fully understood. Oxidative stress phenomena are involved in the pathophysiology of SCD. Sickle red blood cells (RBCs) are more susceptible to oxidative damage than normal RBCs, which may contribute to the chronic hemolysis and vaso-occlusive events associated with SCD." ([DailyMed: l-glutamine prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4d99b233-992f-4adb-aaab-ef0021a3807f), label version 2026-06-10; accessed 2026-11-19.) L-Glutamine is the most abundant amino acid in plasma and is used clinically as a nutritional and gut-supportive supplement. Its link to short bowel syndrome relates to intestinal and nutritional support.
 
 For dermatitis, the supporting rationale comes mainly from preclinical work:
 
@@ -142,12 +142,13 @@ Evidence is L4 at best for dermatitis, and L5 for all other predictions. This is
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Removed: "The TxGNN scores are high, but the only dermatitis trial was withdrawn with no participants, and the supporting literature is preclinical or" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation (valid status) was identified. The record carries a non-MHRA-style number, and no dosage form text," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for L-glutamine are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: l-glutamine prescribing information, Camber Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4d99b233-992f-4adb-aaab-ef0021a3807f) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **insomnia (disease)**, but the s
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Modafinil is generally understood to promote wakefulness through dopamine transporter inhibition and effects on wake-promoting circuits.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for modafinil: "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), label version 2026-09-16; accessed 2026-11-19.) Modafinil is generally understood to promote wakefulness through dopamine transporter inhibition and effects on wake-promoting circuits.
 
 The link to insomnia is indirect and partly paradoxical. Modafinil is used to counteract daytime sleepiness, not to induce sleep, and insomnia is a recognised adverse effect. The high TxGNN score (0.9985) most likely reflects network proximity to other sleep-wake disorders rather than a direct therapeutic effect on insomnia. Any benefit would probably be limited to daytime function and sleep/wake regulation in specific groups, such as older adults or people with neurological disorders and fatigue, rather than primary insomnia.
 
@@ -138,11 +138,12 @@ The prediction rests on a high model score alone. The only insomnia-related tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient licence is recorded, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
 
 <!-- review:end log -->
 

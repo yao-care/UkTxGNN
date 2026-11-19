@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **renal hypodysplasia/aplasia**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known pharmacology, liothyronine is a thyroid hormone replacement that acts on thyroid hormone receptors. Its efficacy in hypothyroidism is established, and thyroid hormone contributes to normal growth and organ development in general.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for liothyronine: "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), label version 2026-05-18; accessed 2026-11-19.) Based on known pharmacology, liothyronine is a thyroid hormone replacement that acts on thyroid hormone receptors. Its efficacy in hypothyroidism is established, and thyroid hormone contributes to normal growth and organ development in general.
 
 The link to the predicted indication is weak. Renal hypodysplasia/aplasia is a congenital structural malformation of the kidneys. There is no evidence that postnatal liothyronine can reverse or prevent it. The high score (0.9995) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases (for example Potter sequence and bilateral renal agenesis), not biological evidence.
 
@@ -150,11 +150,12 @@ The prediction is based on the model score alone. There are no trials, no releva
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list three valid single-ingredient products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
 
 <!-- review:end log -->
 

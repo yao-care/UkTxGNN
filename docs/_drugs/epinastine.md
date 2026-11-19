@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known information, epinastine is a topical H1 receptor antagonist (the target is the histamine H1 receptor, HRH1) with mast cell stabilising activity. Its efficacy in allergic conjunctivitis is established, and the eye drops are used to treat itching associated with allergic conjunctivitis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for epinastine: "Epinastine is a topically active, direct H 1 -receptor antagonist and an inhibitor of the release of histamine from the mast cell. Epinastine is selective for the histamine H 1 -receptor and has affinity for the histamine H 2 -receptor." ([DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d), label version 2025-03-22; accessed 2026-11-19.) Based on known information, epinastine is a topical H1 receptor antagonist (the target is the histamine H1 receptor, HRH1) with mast cell stabilising activity. Its efficacy in allergic conjunctivitis is established, and the eye drops are used to treat itching associated with allergic conjunctivitis.
 
 The link to rosacea conjunctivitis is weak. Rosacea-associated ocular inflammation is driven mainly by meibomian gland dysfunction, innate immune activation and microbial or *Demodex* factors, not classic IgE-mediated histamine release. The high TxGNN score most likely reflects network proximity to other conjunctivitis terms rather than a shared disease mechanism. At best, epinastine might relieve an allergic or itch component.
 
@@ -101,6 +101,19 @@ The prediction is supported by model score only (L5), with no trials or publicat
 - Warnings and contraindications from the SmPC/BNF, as safety screening cannot proceed without them
 - Any clinical or exploratory studies of epinastine in ocular rosacea or meibomian gland dysfunction
 - If broader repurposing is of interest, a focused review of urticaria evidence, noting that no systemic UK formulation is identified in the compiled data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

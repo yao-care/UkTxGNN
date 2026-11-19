@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm** (
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Carbamazepine is widely known to block voltage-gated sodium channels, which reduces abnormal repetitive neuronal firing. This is the basis of its use in epilepsy and trigeminal neuralgia.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for carbamazepine: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), label version 2026-08-20; accessed 2026-11-19.) Carbamazepine is widely known to block voltage-gated sodium channels, which reduces abnormal repetitive neuronal firing. This is the basis of its use in epilepsy and trigeminal neuralgia.
 
 The predicted indication is probably a semantic artefact. Trigeminal neuralgia is a listed original indication, and the retrieved papers describe neuralgia that is *secondary to* tumours or masses (schwannoma, lipoma, meningioma, dermoid cyst, lymphoma). In these reports carbamazepine controls the pain symptomatically, and in several cases it failed or was poorly tolerated. This is symptom control, not an antineoplastic effect. The high TxGNN score (1.0000) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as "trigeminal nerve neoplasm" and "trigeminal neuralgia", not biological evidence.
 
@@ -164,11 +164,12 @@ The top prediction has only model-score support. No trials exist, and the litera
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
 
 <!-- review:end log -->
 

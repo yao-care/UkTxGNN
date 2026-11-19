@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **renal tubular acidosis**, but
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tiopronin is a thiol-based agent that forms soluble mixed disulfides with cysteine. This is the basis of its use in cystinuria, where it reduces the formation of poorly soluble cystine stones.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tiopronin: "The goal of therapy is to reduce urinary cystine concentration below its solubility limit. Tiopronin is an active reducing agent which undergoes thiol-disulfide exchange with cystine to form a mixed disulfide of tiopronin-cysteine." ([DailyMed: Venxxiva (tiopronin) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=02e24443-04c6-4b98-a395-49aec4a468de), label version 2025-12-22; accessed 2026-11-19.) Based on known information, tiopronin is a thiol-based agent that forms soluble mixed disulfides with cysteine. This is the basis of its use in cystinuria, where it reduces the formation of poorly soluble cystine stones.
 
 The link to renal tubular acidosis is loose. Renal tubular acidosis is a defect in the kidney's acid-base transport, which is not a mechanism that thiol exchange is known to address. The only connection is that both conditions involve renal tubular handling of solutes and can feature kidney stones or calcium deposition in the kidney (nephrocalcinosis).
 
@@ -136,11 +136,12 @@ The predictions rest on model scores alone (evidence level L5), with no trials o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation was identified in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Venxxiva (tiopronin) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=02e24443-04c6-4b98-a395-49aec4a468de) |
 
 <!-- review:end log -->
 

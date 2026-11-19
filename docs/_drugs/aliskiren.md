@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **pulmonary hypertension with unc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Aliskiren is known as a direct inhibitor of renin, the first and rate-limiting enzyme of the renin-angiotensin system (RAS), and is used to lower blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aliskiren: "Renin is secreted by the kidney in response to decreases in blood volume and renal perfusion. Renin cleaves angiotensinogen to form the inactive decapeptide angiotensin I (Ang I). Ang I is converted to the active octapeptide angiotensin II (Ang II) by ACE and non-ACE pathways." ([DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb), label version 2022-12-30; accessed 2026-11-19.) Aliskiren is known as a direct inhibitor of renin, the first and rate-limiting enzyme of the renin-angiotensin system (RAS), and is used to lower blood pressure.
 
 A plausible link is that RAS activation contributes to pulmonary vascular tone and remodelling, so blocking renin could in theory be useful in pulmonary hypertension. This has not been tested for this condition in the data supplied, and the TxGNN score reflects a model-based prediction rather than clinical or experimental confirmation.
 
@@ -118,11 +118,12 @@ The prediction score is very high, but it is the only support: there are no clin
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show a marketed status, with one valid single-ingredient authorisation record (no cancelled records)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aliskiren prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3fd2503-25ef-4660-a29a-f62c491e28fb) |
 
 <!-- review:end log -->
 

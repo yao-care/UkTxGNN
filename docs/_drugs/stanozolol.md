@@ -58,7 +58,7 @@ Stanozolol is an oral anabolic-androgenic steroid that is currently marketed in 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for stanozolol. It is an androgen-class steroid, and the model's high score most likely reflects its closeness to serpin-related biology in the underlying data network. A high score of this kind does not show a therapeutic effect.
+ChEMBL (EMBL-EBI) records the mechanism of action of stanozolol as: Androgen Receptor agonist ([ChEMBL CHEMBL2079587 (stanozolol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2079587), CC BY-SA 3.0; accessed 2026-11-19.) It is an androgen-class steroid, and the model's high score most likely reflects its closeness to serpin-related biology in the underlying data network. A high score of this kind does not show a therapeutic effect.
 
 The mechanistic link is also unclear and may point the wrong way. Androgens can increase the synthesis of some serpins. In a condition driven by toxic serpin polymer build-up, that effect could in theory worsen polymer accumulation. No study has tested this, so any benefit is unsupported.
 
@@ -134,11 +134,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data lists one valid single-ingredient authorisation, and no cancelled authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for stanozolol" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2079587 (stanozolol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2079587) |
 
 <!-- review:end log -->
 

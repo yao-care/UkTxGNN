@@ -56,7 +56,7 @@ This prediction is **model-based only**: there are **no clinical trials** and **
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Selegiline is generally known as a monoamine oxidase B (MAO-B) inhibitor that raises dopamine levels. Its efficacy in Parkinson disease is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for selegiline: "Selegiline is an irreversible inhibitor of monoamine oxidase (MAO), which regulates the metabolic degradation of catecholamines and serotonin in the central nervous system and peripheral tissues. At recommended doses, selegiline is selective for MAO type B (MAO-B), the major form in the brain." ([DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0), label version 2021-06-01; accessed 2026-11-19.) Selegiline is generally known as a monoamine oxidase B (MAO-B) inhibitor that raises dopamine levels. Its efficacy in Parkinson disease is established.
 
 The predicted condition is a rare malformation of brain development, with abnormal cortical folding, an underdeveloped cerebellum and joint contractures. Nothing in the compiled data links MAO-B inhibition or dopaminergic effects to the causes of this condition. The high score (0.9915) is a computational output and should not be read as biological or clinical support.
 
@@ -133,11 +133,12 @@ The prediction rests on a model score alone (L5). There are no trials or publica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded, and none are cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zelapar (selegiline hydrochloride) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=380d7717-2a79-42f3-a712-efe5e7696ba0) |
 
 <!-- review:end log -->
 

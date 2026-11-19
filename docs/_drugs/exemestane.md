@@ -54,7 +54,7 @@ Exemestane is a steroidal aromatase inhibitor that lowers oestrogen levels. The 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Exemestane is generally known as a steroidal, irreversible aromatase inhibitor, which reduces the conversion of androgens to oestrogens and so lowers circulating oestrogen.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for exemestane: "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3), label version 2025-12-24; accessed 2026-11-19.) Exemestane is generally known as a steroidal, irreversible aromatase inhibitor, which reduces the conversion of androgens to oestrogens and so lowers circulating oestrogen.
 
 Antithrombin deficiency type 2 is a hereditary defect of the *SERPINC1* gene that impairs antithrombin's thrombin-binding or heparin-binding function. No plausible mechanistic link has been identified between oestrogen lowering and correction of antithrombin function. The high score appears to reflect proximity in a model-derived network rather than clinical or pharmacological reasoning, and it should not be read as evidence of benefit.
 
@@ -109,11 +109,12 @@ The prediction rests solely on a model score. There are no trials or publication
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient licence record for exemestane (25 mg tablet). Its dosage form, manufactur" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->
 

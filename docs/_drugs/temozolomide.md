@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **cauda equina neoplasm**, but 
 
 ## Why is This Prediction Reasonable?
 
-Temozolomide is an oral alkylating agent. It methylates DNA (at O6-guanine, N7-guanine and N3-adenine), producing cytotoxic lesions and apoptosis in dividing cells. Its activity is greatest in tumours with MGMT promoter silencing. Detailed mechanism of action data are not available in the data compiled for this report, so this description is based on general pharmacological knowledge.
+Temozolomide is an oral alkylating agent. It methylates DNA (at O6-guanine, N7-guanine and N3-adenine), producing cytotoxic lesions and apoptosis in dividing cells. Its activity is greatest in tumours with MGMT promoter silencing. According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) This description is based on general pharmacological knowledge.
 
 Cauda equina neoplasms are mostly myxopapillary ependymomas. These are glial tumours of the central nervous system. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. The MGMT status of these tumours is not established in the data compiled, and the TxGNN score is a computational prediction, not clinical evidence.
 
@@ -160,11 +160,12 @@ No clinical trials are registered, and the only directly relevant publication is
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The list contains one single-ingredient authorisation record, and it is complete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
 
 <!-- review:end log -->
 

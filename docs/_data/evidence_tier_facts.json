@@ -9,7 +9,7 @@
   "with_current": 31,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 24,
+  "with_reviews": 30,
   "rows": [
    {
     "t": "Bromfenac",
@@ -18,8 +18,8 @@
     "i": "eye disease",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data were not available in the compiled data, so t\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -29,7 +29,7 @@
     "i": "myelodysplastic syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient product is recorded, and it is currently valid\"",
     "x": 0
    },
@@ -40,8 +40,8 @@
     "i": "anxiety disorder",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -51,7 +51,7 @@
     "i": "pneumocystosis",
     "lt": 9,
     "lv": 9,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The record has no indication text, so it is unclear whether PCP is within the licence\"",
     "x": 0
    },
@@ -62,7 +62,7 @@
     "i": "headache disorder",
     "lt": 27,
     "lv": 27,
-    "r": 3,
+    "r": 4,
     "rs": "Removed: \"UK licence record\"",
     "x": 0
    },
@@ -73,7 +73,7 @@
     "i": "headache disorder",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The three authorisations below are listed in the data compiled for this report\"",
     "x": 0
    },
@@ -84,7 +84,7 @@
     "i": "eye disease",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -95,7 +95,7 @@
     "i": "chronic hepatitis B virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is one valid single-ingredient record\"",
     "x": 0
    },
@@ -106,7 +106,7 @@
     "i": "seborrheic dermatitis",
     "lt": 64,
     "lv": 64,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation record is present in the data compiled for this report, and its indication…",
     "x": 0
    },
@@ -117,7 +117,7 @@
     "i": "HIV infectious disease",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Atorvastatin is currently marketed in the UK, and the local data record one valid single-ingredient…",
     "x": 0
    },
@@ -128,7 +128,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"One valid single-ingredient marketing authorisation is recorded for bupropion: a modified-release…",
     "x": 0
    },
@@ -139,7 +139,7 @@
     "i": "obsessive-compulsive disorder",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data lists one valid single-ingredient licence\"",
     "x": 0
    },
@@ -150,7 +150,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 31,
     "lv": 31,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clozapine is currently marketed in the UK, with one valid single-ingredient record in the local…",
     "x": 0
    },
@@ -161,7 +161,7 @@
     "i": "Ewing sarcoma",
     "lt": 24,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -172,7 +172,7 @@
     "i": "insomnia (disease)",
     "lt": 31,
     "lv": 31,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient authorisation is on record, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -183,7 +183,7 @@
     "i": "liposarcoma",
     "lt": 23,
     "lv": 23,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"for the licence record\"",
     "x": 0
    },
@@ -194,7 +194,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 32,
     "lv": 32,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation in the data compiled for this report, and its identifier does not…",
     "x": 0
    },
@@ -205,7 +205,7 @@
     "i": "myeloid leukemia",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code…",
     "x": 0
    },
@@ -216,7 +216,7 @@
     "i": "headache disorder",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is valid, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -227,8 +227,8 @@
     "i": "agoraphobia",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -238,7 +238,7 @@
     "i": "bronchitis",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Montelukast is marketed in the UK, with one valid single-ingredient authorisation recorded\"",
     "x": 0
    },
@@ -249,7 +249,7 @@
     "i": "HIV infectious disease",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded, and its indication text and dosage form are not available in…",
     "x": 0
    },
@@ -260,8 +260,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -271,7 +271,7 @@
     "i": "liposarcoma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid licence is recorded for pazopanib, and its market status is Marketed\"",
     "x": 0
    },
@@ -293,8 +293,8 @@
     "i": "alopecia areata",
     "lt": 87,
     "lv": 87,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -304,7 +304,7 @@
     "i": "alopecia areata",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product, and its status is valid\"",
     "x": 0
    },
@@ -315,7 +315,7 @@
     "i": "duodenogastric reflux",
     "lt": 13,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the UK licence record is incomplete\"",
     "x": 0
    },
@@ -326,7 +326,7 @@
     "i": "liposarcoma",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded, and the number shown is in a format different from a standard…",
     "x": 0
    },
@@ -337,8 +337,8 @@
     "i": "migraine disorder",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -348,7 +348,7 @@
     "i": "obsessive-compulsive disorder",
     "lt": 20,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"plus verification of the authorisation record\"",
     "x": 0
    }
@@ -372,7 +372,7 @@
   "with_current": 53,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 26,
+  "with_reviews": 48,
   "rows": [
    {
     "t": "Acitretin",
@@ -381,7 +381,7 @@
     "i": "acne (disease)",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -392,7 +392,7 @@
     "i": "insomnia (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data list one valid single-ingredient licence\"",
     "x": 0
    },
@@ -414,8 +414,8 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 53,
     "lv": 53,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -425,7 +425,7 @@
     "i": "restless legs syndrome",
     "lt": 58,
     "lv": 58,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded (single-ingredient, valid)\"",
     "x": 0
    },
@@ -436,8 +436,8 @@
     "i": "amenorrhea (disease)",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -447,8 +447,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -458,8 +458,8 @@
     "i": "myeloid leukemia",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -469,7 +469,7 @@
     "i": "urinary tract infection (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"one valid single-ingredient product and\"",
     "x": 0
    },
@@ -480,8 +480,8 @@
     "i": "insomnia (disease)",
     "lt": 46,
     "lv": 46,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -491,8 +491,8 @@
     "i": "insomnia (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -502,8 +502,8 @@
     "i": "trichotillomania",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -513,8 +513,8 @@
     "i": "gastroduodenitis",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Formal mechanism-of-action data were not available in the data compiled for this report; the description…",
     "x": 2
    },
    {
@@ -524,7 +524,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 54,
     "lv": 54,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -535,7 +535,7 @@
     "i": "migraine disorder",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -557,8 +557,8 @@
     "i": "migraine disorder",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -568,8 +568,8 @@
     "i": "reactive thrombocytosis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -590,7 +590,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation record is held\"",
     "x": 0
    },
@@ -601,7 +601,7 @@
     "i": "Hypertrichosis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one single-ingredient licence is currently valid\"",
     "x": 0
    },
@@ -612,8 +612,8 @@
     "i": "acute intermittent porphyria",
     "lt": 142,
     "lv": 142,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -623,8 +623,8 @@
     "i": "hepatic porphyria",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -634,8 +634,8 @@
     "i": "amenorrhea (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 3
    },
    {
@@ -645,8 +645,8 @@
     "i": "stroke disorder",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -656,7 +656,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 32,
     "lv": 32,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -667,7 +667,7 @@
     "i": "hypouricemia, renal",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Febuxostat is recorded as marketed in the UK, with one valid single-ingredient licence in the local…",
     "x": 0
    },
@@ -678,7 +678,7 @@
     "i": "HIV infectious disease",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"licence\"",
     "x": 0
    },
@@ -689,8 +689,8 @@
     "i": "rheumatoid arthritis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -700,7 +700,7 @@
     "i": "acne (disease)",
     "lt": 19,
     "lv": 19,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the available UK authorisation record is incomplete\"",
     "x": 0
    },
@@ -711,7 +711,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are valid single-ingredient records\"",
     "x": 0
    },
@@ -733,7 +733,7 @@
     "i": "Tourette syndrome",
     "lt": 71,
     "lv": 71,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Methadone is listed in the data as a single-ingredient product with a valid status\"",
     "x": 0
    },
@@ -744,7 +744,7 @@
     "i": "痤瘡",
     "lt": 29,
     "lv": 29,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence is recorded, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -755,8 +755,8 @@
     "i": "migraine disorder",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -766,8 +766,8 @@
     "i": "migraine disorder",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -777,7 +777,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record gives a BNF-style product code rather than a PL number, and no dosage form or indication…",
     "x": 0
    },
@@ -799,8 +799,8 @@
     "i": "restless legs syndrome",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -810,8 +810,8 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -832,8 +832,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 44,
     "lv": 44,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -843,7 +843,7 @@
     "i": "hypouricemia, renal",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation in the compiled data, and the identifier does not follow the usual…",
     "x": 0
    },
@@ -854,8 +854,8 @@
     "i": "breast fibrocystic disease",
     "lt": 40,
     "lv": 40,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -865,7 +865,7 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -876,7 +876,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Raltegravir is recorded as marketed in the UK, with one single-ingredient record\"",
     "x": 0
    },
@@ -887,7 +887,7 @@
     "i": "conjunctivitis",
     "lt": 28,
     "lv": 28,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. and no ophthalmic…",
     "x": 0
    },
@@ -898,7 +898,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 20,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
     "x": 0
    },
@@ -920,7 +920,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -931,7 +931,7 @@
     "i": "exposure keratitis",
     "lt": 24,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"because the current licence record is incomplete since the one authorisation on record is a…",
     "x": 0
    },
@@ -953,8 +953,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    }
   ],
@@ -976,7 +976,7 @@
   "with_current": 453,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 316,
+  "with_reviews": 429,
   "rows": [
    {
     "t": "Ibuprofen",
@@ -985,8 +985,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 205,
     "lv": 205,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -996,7 +996,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 168,
     "lv": 168,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded\"",
     "x": 0
    },
@@ -1007,7 +1007,7 @@
     "i": "pulmonary blastoma",
     "lt": 152,
     "lv": 152,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is currently valid\"",
     "x": 0
    },
@@ -1018,7 +1018,7 @@
     "i": "migraine disorder",
     "lt": 119,
     "lv": 119,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both products are listed as valid single-entry records\"",
     "x": 0
    },
@@ -1029,7 +1029,7 @@
     "i": "faciodigitogenital syndrome",
     "lt": 115,
     "lv": 115,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient, valid authorisation\"",
     "x": 0
    },
@@ -1040,8 +1040,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 115,
     "lv": 115,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available from the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -1051,7 +1051,7 @@
     "i": "non-syndromic esophageal malformation",
     "lt": 104,
     "lv": 104,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded in the data compiled for this report, and it is currently valid\"",
     "x": 0
    },
@@ -1062,7 +1062,7 @@
     "i": "classic stiff person syndrome",
     "lt": 101,
     "lv": 101,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single valid, single-ingredient product\"",
     "x": 0
    },
@@ -1073,7 +1073,7 @@
     "i": "papillary conjunctivitis",
     "lt": 94,
     "lv": 94,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"since the only UK licence recorded is an inhalation product\"",
     "x": 0
    },
@@ -1084,8 +1084,8 @@
     "i": "nasal cavity disease",
     "lt": 91,
     "lv": 91,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for this drug\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1095,7 +1095,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 89,
     "lv": 89,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -1106,7 +1106,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 85,
     "lv": 85,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded (single-ingredient, valid)\"",
     "x": 0
    },
@@ -1117,7 +1117,7 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 83,
     "lv": 83,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"One single-ingredient product is recorded as valid\"",
     "x": 0
    },
@@ -1128,8 +1128,8 @@
     "i": "atopic eczema",
     "lt": 79,
     "lv": 79,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available for this drug\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1139,7 +1139,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 78,
     "lv": 78,
-    "r": 4,
+    "r": 5,
     "rs": "Removed: \"A re-query against the MHRA Product Licence database is strongly recommended before proceeding\"",
     "x": 0
    },
@@ -1150,7 +1150,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 78,
     "lv": 78,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved…",
     "x": 0
    },
@@ -1161,7 +1161,7 @@
     "i": "myiasis",
     "lt": 72,
     "lv": 72,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation identified (single-ingredient product, valid)\"",
     "x": 0
    },
@@ -1172,8 +1172,8 @@
     "i": "tendinitis",
     "lt": 72,
     "lv": 72,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1183,7 +1183,7 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 67,
     "lv": 67,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence record does not state a manufacturer or approved indication\"",
     "x": 0
    },
@@ -1194,7 +1194,7 @@
     "i": "respiratory malformation",
     "lt": 66,
     "lv": 66,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Formoterol is currently marketed, with 2 valid licences and none cancelled\"",
     "x": 0
    },
@@ -1205,7 +1205,7 @@
     "i": "duodenal obstruction",
     "lt": 66,
     "lv": 66,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation record is available in the data compiled for this report\"",
     "x": 0
    },
@@ -1216,8 +1216,8 @@
     "i": "Hyperamylasaemia",
     "lt": 65,
     "lv": 65,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1227,7 +1227,7 @@
     "i": "biotin metabolic disease",
     "lt": 64,
     "lv": 64,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
     "x": 0
    },
@@ -1238,7 +1238,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 62,
     "lv": 62,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
     "x": 0
    },
@@ -1249,7 +1249,7 @@
     "i": "peptic ulcer perforation",
     "lt": 62,
     "lv": 62,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Ranitidine is recorded as marketed in the UK, with one valid single-ingredient licence record in…",
     "x": 0
    },
@@ -1260,8 +1260,8 @@
     "i": "nasal cavity disease",
     "lt": 59,
     "lv": 59,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -1271,8 +1271,8 @@
     "i": "congenital hypotrichosis with juvenile macular dystrophy",
     "lt": 59,
     "lv": 59,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1282,8 +1282,8 @@
     "i": "rheumatoid arthritis",
     "lt": 57,
     "lv": 57,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -1293,8 +1293,8 @@
     "i": "respiratory malformation",
     "lt": 57,
     "lv": 57,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1304,7 +1304,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 56,
     "lv": 56,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data holds one valid single-ingredient product record\"",
     "x": 0
    },
@@ -1315,7 +1315,7 @@
     "i": "acne (disease)",
     "lt": 53,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clotrimazole is marketed in the UK, with at least one valid single-ingredient authorisation…",
     "x": 0
    },
@@ -1326,7 +1326,7 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 53,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list three valid single-ingredient products\"",
     "x": 0
    },
@@ -1337,7 +1337,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 53,
     "lv": 53,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -1348,7 +1348,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 50,
     "lv": 50,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation record in the data compiled for this report. The record carries no…",
     "x": 0
    },
@@ -1359,7 +1359,7 @@
     "i": "diffuse scleroderma",
     "lt": 50,
     "lv": 50,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are valid and are single-ingredient products\"",
     "x": 0
    },
@@ -1370,7 +1370,7 @@
     "i": "pneumocystosis",
     "lt": 50,
     "lv": 50,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation record is available, and it is currently valid\"",
     "x": 0
    },
@@ -1381,8 +1381,8 @@
     "i": "migraine disorder",
     "lt": 50,
     "lv": 50,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled data\" replaced with a…",
     "x": 0
    },
    {
@@ -1392,7 +1392,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 48,
     "lv": 48,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -1403,8 +1403,8 @@
     "i": "granulomatous disease, chronic, autosomal recessive",
     "lt": 48,
     "lv": 48,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1414,7 +1414,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 48,
     "lv": 48,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The record gives no approved indication text, so the table does not state how the product is…",
     "x": 0
    },
@@ -1425,7 +1425,7 @@
     "i": "psychogenic movement disorders",
     "lt": 48,
     "lv": 48,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"and a verified MHRA authorisation record\"",
     "x": 0
    },
@@ -1436,7 +1436,7 @@
     "i": "cauda equina syndrome",
     "lt": 48,
     "lv": 48,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation, a single-ingredient product, is recorded\"",
     "x": 0
    },
@@ -1447,7 +1447,7 @@
     "i": "brain stem infarction",
     "lt": 47,
     "lv": 47,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Amlodipine is currently marketed in the UK, and at least one valid single-ingredient licence is…",
     "x": 0
    },
@@ -1458,7 +1458,7 @@
     "i": "conjunctivitis",
     "lt": 47,
     "lv": 47,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1469,7 +1469,7 @@
     "i": "glaucoma",
     "lt": 47,
     "lv": 47,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation (rivastigmine 3 mg…",
     "x": 0
    },
@@ -1480,7 +1480,7 @@
     "i": "obsolete bundle branch block",
     "lt": 47,
     "lv": 47,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
     "x": 0
    },
@@ -1491,8 +1491,8 @@
     "i": "nasal cavity disease",
     "lt": 46,
     "lv": 46,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1502,8 +1502,8 @@
     "i": "acute contagious conjunctivitis",
     "lt": 46,
     "lv": 46,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with…",
     "x": 0
    },
    {
@@ -1513,8 +1513,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 45,
     "lv": 45,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1524,7 +1524,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 44,
     "lv": 44,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -1535,7 +1535,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 44,
     "lv": 44,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The UK licensing data compiled for this report are incomplete\"",
     "x": 0
    },
@@ -1557,7 +1557,7 @@
     "i": "hypermobility of coccyx",
     "lt": 43,
     "lv": 43,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data list one valid single-ingredient licence and no cancelled licences\"",
     "x": 0
    },
@@ -1579,8 +1579,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 42,
     "lv": 42,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1601,7 +1601,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 41,
     "lv": 41,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data show one valid single-ingredient record\"",
     "x": 0
    },
@@ -1612,8 +1612,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 41,
     "lv": 41,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1623,7 +1623,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 40,
     "lv": 40,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled record holds one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1634,7 +1634,7 @@
     "i": "febrile infection-related epilepsy syndrome",
     "lt": 39,
     "lv": 39,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clobazam is marketed in the UK, with one valid single-ingredient licence recorded in the local…",
     "x": 0
    },
@@ -1645,7 +1645,7 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 39,
     "lv": 39,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record contains one valid single-ingredient authorisation. It gives no dosage form or approved…",
     "x": 0
    },
@@ -1656,7 +1656,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 39,
     "lv": 39,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Six single-ingredient indomethacin products are recorded as valid\"",
     "x": 0
    },
@@ -1678,7 +1678,7 @@
     "i": "catecholaminergic polymorphic ventricular tachycardia",
     "lt": 38,
     "lv": 38,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1689,7 +1689,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 38,
     "lv": 38,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is one single-ingredient product record, listed as valid\"",
     "x": 0
    },
@@ -1700,7 +1700,7 @@
     "i": "nasal cavity disease",
     "lt": 38,
     "lv": 38,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record holds one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1711,7 +1711,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 38,
     "lv": 38,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product and its status is valid\"",
     "x": 0
    },
@@ -1722,7 +1722,7 @@
     "i": "aortic malformation",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation record was found. It is a BNF classification code rather than a standard…",
     "x": 0
    },
@@ -1733,8 +1733,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 37,
     "lv": 37,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1744,7 +1744,7 @@
     "i": "faciodigitogenital syndrome",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1755,7 +1755,7 @@
     "i": "biotin metabolic disease",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient product is recorded, and it is currently valid\"",
     "x": 0
    },
@@ -1766,7 +1766,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded, for a topical gel\"",
     "x": 0
    },
@@ -1777,7 +1777,7 @@
     "i": "disease of orbital region",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The main authorisation record is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -1788,7 +1788,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 37,
     "lv": 37,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record shows one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1799,7 +1799,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 36,
     "lv": 36,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The UK licence record does not state indications, and\"",
     "x": 0
    },
@@ -1810,8 +1810,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 36,
     "lv": 36,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1821,8 +1821,8 @@
     "i": "thrombotic disease",
     "lt": 36,
     "lv": 36,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -1843,7 +1843,7 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 35,
     "lv": 35,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data list one single-ingredient authorisation, which is currently valid\"",
     "x": 0
    },
@@ -1854,7 +1854,7 @@
     "i": "PLA2G6-associated neurodegeneration",
     "lt": 35,
     "lv": 35,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -1865,7 +1865,7 @@
     "i": "infectious otitis media",
     "lt": 35,
     "lv": 35,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
     "x": 0
    },
@@ -1876,7 +1876,7 @@
     "i": "nasal cavity disease",
     "lt": 34,
     "lv": 34,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Cetirizine is currently marketed in the data compiled for this report, with one valid…",
     "x": 0
    },
@@ -1887,7 +1887,7 @@
     "i": "brain stem infarction",
     "lt": 34,
     "lv": 34,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded in the data compiled for this report\"",
     "x": 0
    },
@@ -1909,7 +1909,7 @@
     "i": "specific developmental disorder",
     "lt": 32,
     "lv": 32,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Overall status: Marketed. One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -1920,7 +1920,7 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 32,
     "lv": 32,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded, and it is valid\"",
     "x": 0
    },
@@ -1931,8 +1931,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 31,
     "lv": 31,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1942,8 +1942,8 @@
     "i": "duodenal obstruction",
     "lt": 31,
     "lv": 31,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -1953,7 +1953,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 31,
     "lv": 31,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is valid\"",
     "x": 0
    },
@@ -1964,7 +1964,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 30,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded, and no cancelled ones\"",
     "x": 0
    },
@@ -1975,8 +1975,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 30,
     "lv": 30,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -1986,7 +1986,7 @@
     "i": "restless legs syndrome",
     "lt": 30,
     "lv": 30,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are valid single-ingredient products\"",
     "x": 0
    },
@@ -1997,7 +1997,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 29,
     "lv": 29,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2008,7 +2008,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 29,
     "lv": 29,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2030,7 +2030,7 @@
     "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
     "lt": 28,
     "lv": 28,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence list contains one single-ingredient authorisation and may not reflect the full UK…",
     "x": 0
    },
@@ -2041,7 +2041,7 @@
     "i": "pulmonary hypertension",
     "lt": 28,
     "lv": 28,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are valid single-ingredient products\"",
     "x": 0
    },
@@ -2052,7 +2052,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 28,
     "lv": 28,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2063,7 +2063,7 @@
     "i": "craniofacial conodysplasia",
     "lt": 27,
     "lv": 27,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The listing is a single-ingredient product and is currently marketed\"",
     "x": 0
    },
@@ -2074,8 +2074,8 @@
     "i": "peptic ulcer perforation",
     "lt": 27,
     "lv": 27,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2085,8 +2085,8 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 27,
     "lv": 27,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced…",
     "x": 0
    },
    {
@@ -2096,7 +2096,7 @@
     "i": "atypical coarctation of aorta",
     "lt": 27,
     "lv": 27,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form…",
     "x": 0
    },
@@ -2107,7 +2107,7 @@
     "i": "hyperamylasemia",
     "lt": 26,
     "lv": 26,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one single-ingredient authorisation, with a status of valid\"",
     "x": 0
    },
@@ -2118,8 +2118,8 @@
     "i": "primary release disorder of platelets",
     "lt": 26,
     "lv": 26,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2129,7 +2129,7 @@
     "i": "amenorrhea (disease)",
     "lt": 26,
     "lv": 26,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved…",
     "x": 0
    },
@@ -2140,7 +2140,7 @@
     "i": "hepatic porphyria",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2162,7 +2162,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence records compiled for this report show one valid single-ingredient authorisation…",
     "x": 0
    },
@@ -2173,8 +2173,8 @@
     "i": "amenorrhea (disease)",
     "lt": 25,
     "lv": 25,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2184,7 +2184,7 @@
     "i": "duodenal obstruction",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"It is a single-ingredient product and is currently valid\"",
     "x": 0
    },
@@ -2195,7 +2195,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded, and no dosage form or indication text…",
     "x": 0
    },
@@ -2206,8 +2206,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 25,
     "lv": 25,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2217,7 +2217,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient licence\"",
     "x": 0
    },
@@ -2228,7 +2228,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 25,
     "lv": 25,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"It is a single-ingredient product with a valid status\"",
     "x": 0
    },
@@ -2250,8 +2250,8 @@
     "i": "gastroduodenitis",
     "lt": 24,
     "lv": 24,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2261,7 +2261,7 @@
     "i": "histrionic personality disorder (disease)",
     "lt": 24,
     "lv": 24,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -2305,7 +2305,7 @@
     "i": "pharyngitis",
     "lt": 23,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient marketing authorisation is recorded for hydromorphone\"",
     "x": 0
    },
@@ -2327,7 +2327,7 @@
     "i": "opsismodysplasia",
     "lt": 23,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2338,7 +2338,7 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 23,
     "lv": 23,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2349,8 +2349,8 @@
     "i": "paranoid personality disorder",
     "lt": 22,
     "lv": 22,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2360,7 +2360,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 22,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation is recorded. The record contains no manufacturer, dosage form field or…",
     "x": 0
    },
@@ -2371,7 +2371,7 @@
     "i": "Prinzmetal angina",
     "lt": 22,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only valid single-ingredient authorisation recorded. The record does not give the…",
     "x": 0
    },
@@ -2382,7 +2382,7 @@
     "i": "malignant cutaneous granular cell skin tumor",
     "lt": 22,
     "lv": 22,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One authorisation is recorded, and it is a valid single-ingredient product\"",
     "x": 0
    },
@@ -2393,7 +2393,7 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2404,7 +2404,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data show one valid single-ingredient dorzolamide eye-drop licence in the UK, and the drug is…",
     "x": 0
    },
@@ -2415,7 +2415,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain one valid single-ingredient record, a modified-release 40…",
     "x": 0
    },
@@ -2426,7 +2426,7 @@
     "i": "hypermobility of coccyx",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Etanercept is marketed in the UK, with one valid single-ingredient licence recorded in the local…",
     "x": 0
    },
@@ -2437,7 +2437,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record shows one valid single-ingredient authorisation and no cancelled authorisations\"",
     "x": 0
    },
@@ -2448,7 +2448,7 @@
     "i": "papillary conjunctivitis",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -2459,7 +2459,7 @@
     "i": "rheumatoid nodulosis",
     "lt": 21,
     "lv": 21,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status. The record carries no PL-format number…",
     "x": 0
    },
@@ -2470,8 +2470,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 20,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2481,7 +2481,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 20,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single record is a valid single-ingredient product\"",
     "x": 0
    },
@@ -2492,7 +2492,7 @@
     "i": "bronchitis",
     "lt": 20,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one valid single-ingredient licence and a market status of Marketed\"",
     "x": 0
    },
@@ -2514,8 +2514,8 @@
     "i": "respiratory malformation",
     "lt": 20,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2536,8 +2536,8 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2547,7 +2547,7 @@
     "i": "hyperamylasemia",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are single-ingredient products and both are currently valid\"",
     "x": 0
    },
@@ -2558,8 +2558,8 @@
     "i": "Tourette syndrome",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled sources\" replaced with a…",
     "x": 0
    },
    {
@@ -2569,7 +2569,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record shows one valid single-ingredient product\"",
     "x": 0
    },
@@ -2591,7 +2591,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded, with no cancelled authorisations\"",
     "x": 0
    },
@@ -2602,7 +2602,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
     "x": 0
    },
@@ -2613,7 +2613,7 @@
     "i": "visceral calciphylaxis",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2624,7 +2624,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2635,7 +2635,7 @@
     "i": "Ohdo syndrome and variants",
     "lt": 19,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation record in the compiled data\"",
     "x": 0
    },
@@ -2646,7 +2646,7 @@
     "i": "migraine with brainstem aura",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Clopidogrel is marketed in the UK, and at least one valid single-ingredient authorisation is…",
     "x": 0
    },
@@ -2657,7 +2657,7 @@
     "i": "sclerosing cholangitis",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence record is a single, valid, single-ingredient product\"",
     "x": 0
    },
@@ -2668,8 +2668,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -2679,7 +2679,7 @@
     "i": "Prinzmetal angina",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence record is a single-ingredient product and currently valid\"",
     "x": 0
    },
@@ -2701,8 +2701,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2712,8 +2712,8 @@
     "i": "amenorrhea (disease)",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -2723,7 +2723,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2734,7 +2734,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2745,7 +2745,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product is marketed as a single-ingredient, valid authorisation\"",
     "x": 0
    },
@@ -2756,7 +2756,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient product. This identifier appears…",
     "x": 0
    },
@@ -2767,7 +2767,7 @@
     "i": "cauda equina neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The list contains one single-ingredient authorisation record, and it is complete\"",
     "x": 0
    },
@@ -2778,7 +2778,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 18,
     "lv": 18,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the licence record carries no indication text\"",
     "x": 0
    },
@@ -2789,7 +2789,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
     "x": 0
    },
@@ -2811,7 +2811,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Candesartan cilexetil is marketed in the UK, and at least one valid licence is recorded\"",
     "x": 0
    },
@@ -2822,7 +2822,7 @@
     "i": "primary hereditary glaucoma",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show the drug as marketed, with 4 valid single-ingredient licence…",
     "x": 0
    },
@@ -2833,7 +2833,7 @@
     "i": "ectothrix infectious disease",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The records compiled for this report list five single-ingredient clioquinol authorisations\"",
     "x": 0
    },
@@ -2844,7 +2844,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -2866,7 +2866,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record carries no approved indication text, so no UK licensed indication can be stated from…",
     "x": 0
    },
@@ -2877,7 +2877,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 17,
     "lv": 17,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2888,8 +2888,8 @@
     "i": "laryngitis",
     "lt": 16,
     "lv": 16,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2899,7 +2899,7 @@
     "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 16,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -2910,7 +2910,7 @@
     "i": "rheumatoid arthritis",
     "lt": 16,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence data are also incomplete, and\"",
     "x": 0
    },
@@ -2921,7 +2921,7 @@
     "i": "polycystic kidney disease 3 with or without polycystic liver disease",
     "lt": 16,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded. The record contains no manufacturer, dosage…",
     "x": 0
    },
@@ -2932,8 +2932,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 15,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2943,8 +2943,8 @@
     "i": "benign prostatic hyperplasia (disease)",
     "lt": 15,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available for this drug\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -2954,7 +2954,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 15,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The list contains one single-ingredient authorisation\"",
     "x": 0
    },
@@ -2976,8 +2976,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -2987,7 +2987,7 @@
     "i": "psychogenic movement disorders",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence is a single-ingredient product and is currently valid\"",
     "x": 0
    },
@@ -2998,7 +2998,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain one single-ingredient authorisation, currently valid\"",
     "x": 0
    },
@@ -3009,8 +3009,8 @@
     "i": "exposure keratitis",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced…",
     "x": 0
    },
    {
@@ -3020,7 +3020,7 @@
     "i": "classic stiff person syndrome",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one single-ingredient authorisation (valid)\"",
     "x": 0
    },
@@ -3042,8 +3042,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3064,8 +3064,8 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3075,7 +3075,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is currently valid\"",
     "x": 0
    },
@@ -3086,8 +3086,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3097,8 +3097,8 @@
     "i": "diffuse scleroderma",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3108,7 +3108,7 @@
     "i": "obsolete vitamin D deficiency",
     "lt": 13,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show that calcitriol is currently marketed in the UK, with a…",
     "x": 0
    },
@@ -3119,8 +3119,8 @@
     "i": "cauda equina syndrome",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3130,7 +3130,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 13,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"UK authorisation details and\"",
     "x": 0
    },
@@ -3141,8 +3141,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3152,7 +3152,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 13,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3163,7 +3163,7 @@
     "i": "chronic rhinosinusitis",
     "lt": 13,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record gives a BNF-style product code rather than a standard PL number\"",
     "x": 0
    },
@@ -3185,8 +3185,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3196,8 +3196,8 @@
     "i": "Tourette syndrome",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3207,7 +3207,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -3218,8 +3218,8 @@
     "i": "post-bacterial disorder",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3229,7 +3229,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record a single valid single-ingredient licence and no cancelled licences\"",
     "x": 0
    },
@@ -3240,7 +3240,7 @@
     "i": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both entries are single-ingredient authorisations with valid status\"",
     "x": 0
    },
@@ -3262,7 +3262,7 @@
     "i": "HIV infectious disease",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence record is present in the local data (deferasirox dispersible…",
     "x": 0
    },
@@ -3273,7 +3273,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -3284,7 +3284,7 @@
     "i": "well-differentiated fetal adenocarcinoma of the lung",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient licence is recorded for the UK market\"",
     "x": 0
    },
@@ -3295,7 +3295,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3306,7 +3306,7 @@
     "i": "female breast carcinoma",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single authorisation recorded in the compiled data is listed under a product name (Ichthammol)…",
     "x": 0
    },
@@ -3317,8 +3317,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3328,8 +3328,8 @@
     "i": "Ohdo syndrome and variants",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3339,7 +3339,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3350,8 +3350,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled data\" replaced with a…",
     "x": 0
    },
    {
@@ -3361,7 +3361,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
     "x": 0
    },
@@ -3372,7 +3372,7 @@
     "i": "duodenal ulcer (disease)",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The listing is a single marketed single-ingredient product\"",
     "x": 0
    },
@@ -3383,7 +3383,7 @@
     "i": "female breast carcinoma",
     "lt": 12,
     "lv": 12,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single valid single-ingredient product record, and the licence record provides no dosage…",
     "x": 0
    },
@@ -3394,8 +3394,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 12,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3405,8 +3405,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3416,8 +3416,8 @@
     "i": "hyperamylasemia",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3427,8 +3427,8 @@
     "i": "acute pulmonary heart disease",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3449,8 +3449,8 @@
     "i": "seborrheic keratosis",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3460,7 +3460,7 @@
     "i": "esophageal varices with bleeding",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a BNF-style product code rather than a PL number, and it is a single-ingredient…",
     "x": 0
    },
@@ -3471,7 +3471,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Note: the licence data compiled for this report contain one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3493,7 +3493,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 11,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with a valid status\"",
     "x": 0
    },
@@ -3515,7 +3515,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg…",
     "x": 0
    },
@@ -3526,8 +3526,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3537,8 +3537,8 @@
     "i": "multiple system atrophy",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3548,7 +3548,7 @@
     "i": "alopecia mucinosa",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded; there are no combination products and none…",
     "x": 0
    },
@@ -3559,7 +3559,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is one valid single-ingredient product\"",
     "x": 0
    },
@@ -3570,7 +3570,7 @@
     "i": "renal tubular acidosis",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3581,7 +3581,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -3592,7 +3592,7 @@
     "i": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
     "lt": 10,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded, and none are cancelled\"",
     "x": 0
    },
@@ -3603,8 +3603,8 @@
     "i": "liposarcoma",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3614,8 +3614,8 @@
     "i": "cauda equina syndrome",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3636,7 +3636,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one single-ingredient licence is currently valid, with no cancelled licences\"",
     "x": 0
    },
@@ -3647,7 +3647,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one valid single-ingredient authorisation for etodolac (modified-release 600…",
     "x": 0
    },
@@ -3658,7 +3658,7 @@
     "i": "hypermobility of coccyx",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation in the data compiled for this report. The record gives no formal…",
     "x": 0
    },
@@ -3680,7 +3680,7 @@
     "i": "variably protease-sensitive prionopathy",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -3691,7 +3691,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The list contains one single-ingredient authorisation, which is valid. The licence record gives no…",
     "x": 0
    },
@@ -3702,7 +3702,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record contains no dosage form, manufacturer or approved indication text\"",
     "x": 0
    },
@@ -3713,8 +3713,8 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3724,7 +3724,7 @@
     "i": "duodenal obstruction",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -3735,7 +3735,7 @@
     "i": "duodenal obstruction",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded, with no cancelled authorisations\"",
     "x": 0
    },
@@ -3746,8 +3746,8 @@
     "i": "migraine disorder",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -3757,7 +3757,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 9,
     "lv": 9,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3768,7 +3768,7 @@
     "i": "zinc, elevated plasma",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -3801,7 +3801,7 @@
     "i": "hyperamylasemia",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is listed. The record does not include approved indication…",
     "x": 0
    },
@@ -3812,7 +3812,7 @@
     "i": "progeria-short stature-pigmented nevi syndrome",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one valid single-ingredient authorisation (1 mg tablet)\"",
     "x": 0
    },
@@ -3823,7 +3823,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -3834,8 +3834,8 @@
     "i": "stomach disease",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available\" replaced with a sourced mechanism-of-action statement",
     "x": 0
    },
    {
@@ -3845,8 +3845,8 @@
     "i": "cauda equina syndrome",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3856,7 +3856,7 @@
     "i": "chronic ethmoidal sinusitis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient record is listed, and it is currently valid\"",
     "x": 0
    },
@@ -3867,8 +3867,8 @@
     "i": "nasal cavity disease",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3878,7 +3878,7 @@
     "i": "migraine disorder",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -3889,7 +3889,7 @@
     "i": "post-infectious neuralgia",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded for famciclovir (Famciclovir tablet 125 mg)\"",
     "x": 0
    },
@@ -3911,8 +3911,8 @@
     "i": "pneumocystosis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3922,7 +3922,7 @@
     "i": "primary release disorder of platelets",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -3933,8 +3933,8 @@
     "i": "acne (disease)",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3944,7 +3944,7 @@
     "i": "conjunctivitis",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The compiled data show one valid single-ingredient product\"",
     "x": 0
    },
@@ -3955,8 +3955,8 @@
     "i": "hypervitaminosis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not included in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3966,8 +3966,8 @@
     "i": "benign neoplasm of tongue",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -3977,8 +3977,8 @@
     "i": "epiglottitis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -3988,8 +3988,8 @@
     "i": "pneumocystosis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4010,8 +4010,8 @@
     "i": "oral candidiasis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -4021,8 +4021,8 @@
     "i": "bilateral parasagittal parieto-occipital polymicrogyria",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -4032,7 +4032,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4043,7 +4043,7 @@
     "i": "perioral myoclonia with absences",
     "lt": 8,
     "lv": 8,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation (single-ingredient, valid) was identified\"",
     "x": 0
    },
@@ -4054,7 +4054,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data hold one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4065,7 +4065,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local records show one valid single-ingredient authorisation, a sublingual tablet (5 mg)\"",
     "x": 0
    },
@@ -4076,8 +4076,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4087,7 +4087,7 @@
     "i": "amenorrhoea",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Danazol is marketed in the UK, with one valid single-ingredient licence in the local records. The…",
     "x": 0
    },
@@ -4098,7 +4098,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one valid marketing authorisation, for a single-ingredient product (a 500…",
     "x": 0
    },
@@ -4109,8 +4109,8 @@
     "i": "duodenal obstruction",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4120,7 +4120,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"It has 1 valid single-ingredient authorisation record\"",
     "x": 0
    },
@@ -4131,7 +4131,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4142,8 +4142,8 @@
     "i": "irritable bowel syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for glucagon is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -4175,7 +4175,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded. The record does not give a dosage form…",
     "x": 0
    },
@@ -4186,7 +4186,7 @@
     "i": "female breast carcinoma",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation was recorded\"",
     "x": 0
    },
@@ -4197,7 +4197,7 @@
     "i": "insomnia (disease)",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence is recorded, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -4219,7 +4219,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4241,7 +4241,7 @@
     "i": "cauda equina syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Both records are listed as valid single-ingredient products\"",
     "x": 0
    },
@@ -4252,7 +4252,7 @@
     "i": "visceral calciphylaxis",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -4263,8 +4263,8 @@
     "i": "trichotillomania",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4274,7 +4274,7 @@
     "i": "recalcitrant atopic dermatitis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded and it is currently valid. The record gives no…",
     "x": 0
    },
@@ -4285,8 +4285,8 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4296,7 +4296,7 @@
     "i": "rheumatoid arthritis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The status of this licence is valid\"",
     "x": 0
    },
@@ -4318,7 +4318,7 @@
     "i": "hypermobility of coccyx",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Local regulatory records show the drug as marketed in the UK, with a valid single-ingredient…",
     "x": 0
    },
@@ -4340,7 +4340,7 @@
     "i": "amenorrhea (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are valid\"",
     "x": 0
    },
@@ -4351,8 +4351,8 @@
     "i": "HIV infectious disease",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4373,8 +4373,8 @@
     "i": "amenorrhea (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4384,7 +4384,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient product and is listed as valid\"",
     "x": 0
    },
@@ -4406,7 +4406,7 @@
     "i": "uterine inflammatory disease",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient record is listed, and its status is valid\"",
     "x": 0
    },
@@ -4417,8 +4417,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4428,7 +4428,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"Only one single-ingredient authorisation (valid status) was identified. The record carries a…",
     "x": 0
    },
@@ -4439,7 +4439,7 @@
     "i": "acute urate nephropathy",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"and the UK licence record carries no indication text\"",
     "x": 0
    },
@@ -4472,7 +4472,7 @@
     "i": "pleural empyema (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded, and the dosage form, manufacturer and…",
     "x": 0
    },
@@ -4494,7 +4494,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4505,7 +4505,7 @@
     "i": "dermatofibrosarcoma protuberans",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation was identified\"",
     "x": 0
    },
@@ -4516,8 +4516,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4549,8 +4549,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -4560,7 +4560,7 @@
     "i": "pulmonary hypertension",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4571,7 +4571,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4582,8 +4582,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -4604,7 +4604,7 @@
     "i": "intracranial arteriosclerosis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is listed in the compiled data, and it carries no…",
     "x": 0
    },
@@ -4615,7 +4615,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -4626,7 +4626,7 @@
     "i": "coenurosis",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK\"",
     "x": 0
    },
@@ -4637,8 +4637,8 @@
     "i": "migraine disorder",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4648,7 +4648,7 @@
     "i": "gastric adenocarcinoma and proximal polyposis of the stomach",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data list one single-ingredient authorisation with valid status\"",
     "x": 0
    },
@@ -4670,7 +4670,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. Its dosage form…",
     "x": 0
    },
@@ -4681,7 +4681,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data show one valid single-ingredient licence. The record carries no dosage-form or…",
     "x": 0
    },
@@ -4714,8 +4714,8 @@
     "i": "attention deficit hyperactivity disorder, inattentive type",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for this drug\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -4725,7 +4725,7 @@
     "i": "pre-malignant neoplasm",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is the only authorisation in the data compiled for this report\"",
     "x": 0
    },
@@ -4736,7 +4736,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"(the regulatory entry is incomplete)\"",
     "x": 0
    },
@@ -4747,7 +4747,7 @@
     "i": "rheumatoid arthritis",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4769,7 +4769,7 @@
     "i": "cauda equina syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The registry lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4780,7 +4780,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -4791,7 +4791,7 @@
     "i": "homozygous familial hypercholesterolemia",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -4802,8 +4802,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -4824,7 +4824,7 @@
     "i": "duodenal ulcer (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The authorisation record is incomplete: the dosage form and approved indication text are missing…",
     "x": 0
    },
@@ -4835,8 +4835,8 @@
     "i": "open-angle glaucoma",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -4846,8 +4846,8 @@
     "i": "diabetic cataract",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -4868,7 +4868,7 @@
     "i": "classic stiff person syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record lists one single-ingredient authorisation, currently valid\"",
     "x": 0
    },
@@ -4879,7 +4879,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show a marketed status, with one valid single-ingredient…",
     "x": 0
    },
@@ -4890,7 +4890,7 @@
     "i": "amenorrhea",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence list is generated by the site program from the licence records; no dosage form…",
     "x": 0
    },
@@ -4901,7 +4901,7 @@
     "i": "paratyphoid fever",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report records one valid single-ingredient authorisation and no…",
     "x": 0
    },
@@ -4912,7 +4912,7 @@
     "i": "neuroblastoma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence record contains no indication text\"",
     "x": 0
    },
@@ -4934,7 +4934,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both authorisations are currently valid, and the data compiled for this report contain no…",
     "x": 0
    },
@@ -4945,7 +4945,7 @@
     "i": "osteoarthritis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -4967,7 +4967,7 @@
     "i": "ALK-positive large B-cell lymphoma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation was recorded\"",
     "x": 0
    },
@@ -4978,7 +4978,7 @@
     "i": "atopic eczema",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One authorisation is recorded, and it is a single-ingredient product\"",
     "x": 0
    },
@@ -4989,8 +4989,8 @@
     "i": "pneumocystosis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available, so n\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -5000,7 +5000,7 @@
     "i": "Plasmodium falciparum malaria",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one authorisation record is available, and it carries no indication text or manufacturer\"",
     "x": 0
    },
@@ -5011,7 +5011,7 @@
     "i": "nasal cavity disease",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient licence record\"",
     "x": 0
    },
@@ -5022,7 +5022,7 @@
     "i": "osteoarthritis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid; none are cancelled\"",
     "x": 0
    },
@@ -5033,7 +5033,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5044,7 +5044,7 @@
     "i": "tendinitis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"as the authorisation record is incomplete\"",
     "x": 0
    },
@@ -5055,7 +5055,7 @@
     "i": "allergic urticaria",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list 2 valid single-ingredient authorisations, but the numbers…",
     "x": 0
    },
@@ -5066,7 +5066,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record lists one valid single-ingredient licence\"",
     "x": 0
    },
@@ -5077,7 +5077,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -5088,7 +5088,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one single-ingredient authorisation for fenoprofen, and it is currently valid\"",
     "x": 0
    },
@@ -5099,8 +5099,8 @@
     "i": "staphylococcal scalded skin syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5110,7 +5110,7 @@
     "i": "hepatic porphyria",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5143,8 +5143,8 @@
     "i": "hypervitaminosis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled record\" replaced with a…",
     "x": 0
    },
    {
@@ -5154,8 +5154,8 @@
     "i": "allergic urticaria",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data for meclizine is not available in the data compiled for this report\"…",
     "x": 0
    },
    {
@@ -5165,7 +5165,7 @@
     "i": "insomnia (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded. The record does not include manufacturer…",
     "x": 1
    },
@@ -5176,7 +5176,7 @@
     "i": "zinc, elevated plasma",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The product is a single-ingredient-listed authorisation record that is currently valid\"",
     "x": 0
    },
@@ -5198,7 +5198,7 @@
     "i": "hypoalphalipoproteinemia",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient product is recorded\"",
     "x": 0
    },
@@ -5220,8 +5220,8 @@
     "i": "pneumocystosis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5231,7 +5231,7 @@
     "i": "hypouricemia, renal",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
     "x": 10
    },
@@ -5242,8 +5242,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -5253,7 +5253,7 @@
     "i": "seborrheic dermatitis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The authorisation is recorded as a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -5275,7 +5275,7 @@
     "i": "renal tubular acidosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation was identified in the data compiled for this report\"",
     "x": 0
    },
@@ -5286,7 +5286,7 @@
     "i": "glaucoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The authorisation record in the compiled data carries no dosage-form or indication text, and the…",
     "x": 0
    },
@@ -5297,8 +5297,8 @@
     "i": "hypouricemia, renal",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -5308,7 +5308,7 @@
     "i": "fibroma of prostate",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data record one valid single-ingredient flutamide licence (tablet, 250 mg)\"",
     "x": 0
    },
@@ -5319,7 +5319,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One single-ingredient authorisation is valid\"",
     "x": 0
    },
@@ -5341,8 +5341,8 @@
     "i": "nipple carcinoma",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5352,8 +5352,8 @@
     "i": "acute intermittent porphyria",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available for this report\" replaced with a sourced…",
     "x": 0
    },
    {
@@ -5363,7 +5363,7 @@
     "i": "seborrheic dermatitis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and its status is valid\"",
     "x": 0
    },
@@ -5374,7 +5374,7 @@
     "i": "fascioliasis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report contain only one authorisation, and its record is incomplete (no…",
     "x": 0
    },
@@ -5385,7 +5385,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence is recorded, and none are cancelled\"",
     "x": 0
    },
@@ -5396,7 +5396,7 @@
     "i": "serpinopathy with toxic serpin polymerization",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data lists one valid single-ingredient authorisation, and no cancelled authorisations\"",
     "x": 0
    },
@@ -5418,8 +5418,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5429,7 +5429,7 @@
     "i": "chronic hepatitis C virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5440,7 +5440,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence is recorded\"",
     "x": 0
    },
@@ -5462,7 +5462,7 @@
     "i": "extracutaneous mastocytoma",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The local data hold one valid single-ingredient licence record\"",
     "x": 0
    },
@@ -5473,7 +5473,7 @@
     "i": "acquired angioedema",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Both listed records are valid single-ingredient entries according to the local data\"",
     "x": 0
    },
@@ -5484,7 +5484,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
     "x": 0
    },
@@ -5506,7 +5506,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. The licence…",
     "x": 0
    },
@@ -5517,8 +5517,8 @@
     "i": "relapsing-remitting multiple sclerosis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5539,7 +5539,7 @@
     "i": "obsolete vitamin D deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient licence is recorded. The licence record carries no indication text\"",
     "x": 6
    },
@@ -5550,8 +5550,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5561,7 +5561,7 @@
     "i": "antithrombin deficiency type 2",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient licence record for exemestane…",
     "x": 0
    },
@@ -5583,8 +5583,8 @@
     "i": "atopic eczema",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -5594,8 +5594,8 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -5605,7 +5605,7 @@
     "i": "esotropia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The marketing authorisation is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -5616,7 +5616,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This is a single-ingredient record with valid status\"",
     "x": 1
    },
@@ -5627,7 +5627,7 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Removed: \"The UK authorisation record lacks indication text, and\"",
     "x": 0
    },
@@ -5638,7 +5638,7 @@
     "i": "serous conjunctivitis except viral",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence list is complete (1 single-ingredient product, valid)\"",
     "x": 0
    },
@@ -5649,8 +5649,8 @@
     "i": "monosomy X",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -5682,7 +5682,7 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -5693,7 +5693,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Marketing authorisation details recorded for this product are incomplete (no UK licence number…",
     "x": 0
    },
@@ -5704,7 +5704,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The single record is a single-ingredient product with valid status\"",
     "x": 0
    },
@@ -5715,7 +5715,7 @@
     "i": "breast fibrocystic disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"One valid single-ingredient product is listed\"",
     "x": 4
    },
@@ -5748,8 +5748,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -5759,7 +5759,7 @@
     "i": "seborrheic dermatitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
     "x": 0
    },
@@ -5770,8 +5770,8 @@
     "i": "liposarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5792,8 +5792,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
     "x": 0
    },
    {
@@ -5803,7 +5803,7 @@
     "i": "heparin-induced thrombocytopenia (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
     "x": 10
    },
@@ -5814,7 +5814,7 @@
     "i": "chronic hepatitis C virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The compiled data list one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5825,7 +5825,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The listed record is a single-ingredient product and is shown as valid\"",
     "x": 0
    },
@@ -5836,7 +5836,7 @@
     "i": "postmenopausal atrophic vaginitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The record lists one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5858,8 +5858,8 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
     "x": 0
    },
    {
@@ -5869,7 +5869,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
     "x": 0
    },
@@ -5891,7 +5891,7 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
     "x": 0
    },
@@ -5902,8 +5902,8 @@
     "i": "pyelonephritis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
     "x": 0
    },
    {
@@ -5913,7 +5913,7 @@
     "i": "irritable bowel syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"The list contains one single-ingredient record, and it is currently valid\"",
     "x": 0
    },
@@ -5946,7 +5946,7 @@
     "i": "myiasis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Removed: \"This single authorisation is a valid single-ingredient product\"",
     "x": 0
    },
@@ -5968,8 +5968,8 @@
     "i": "dry eye syndrome",
     "lt": 0,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "\"Detailed mechanism of action data is not currently available for cysteine\" replaced with a sourced…",
     "x": 0
    },
    {

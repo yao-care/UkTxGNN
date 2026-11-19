@@ -62,7 +62,7 @@ The three reports on hypotrichosis simplex are case reports or case-level combin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature retrieved, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, relaxes vascular smooth muscle, which explains its blood-pressure-lowering effect. In hair follicles it is thought to prolong the anagen (growth) phase, enlarge follicles and act on dermal papilla cells.
+ChEMBL (EMBL-EBI) records the mechanism of action of minoxidil as: Sulfonylurea receptor 2, Kir6.2 opener ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0; accessed 2026-11-19.) Based on the literature retrieved, minoxidil is a potassium channel opener. Its active metabolite, minoxidil sulfate, relaxes vascular smooth muscle, which explains its blood-pressure-lowering effect. In hair follicles it is thought to prolong the anagen (growth) phase, enlarge follicles and act on dermal papilla cells.
 
 Hypotrichosis simplex of the scalp is a hereditary disorder with reduced hair density, so a drug that stimulates follicle growth is plausible. The score of 1.0000 comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -159,11 +159,12 @@ The TxGNN score is very high, but the supporting evidence is three small case-le
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record carries no approved indication text, so no UK licensed indication can be stated from these data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

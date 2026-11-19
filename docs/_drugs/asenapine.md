@@ -56,7 +56,7 @@ This is a model prediction only: **no clinical trials and no publications** were
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Asenapine is generally described as an antagonist at serotonin, dopamine, alpha-adrenergic and histamine receptors, which is relevant to its use in psychiatric illness.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for asenapine: "The mechanism of action of asenapine, in schizophrenia and bipolar I disorder, is unknown. It has been suggested that the efficacy of asenapine in schizophrenia could be mediated through a combination of antagonist activity at D 2 and 5-HT 2A receptors." ([DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8), label version 2025-01-31; accessed 2026-11-19.) Asenapine is generally described as an antagonist at serotonin, dopamine, alpha-adrenergic and histamine receptors, which is relevant to its use in psychiatric illness.
 
 No mechanistic link to this retinal condition has been identified. Inherited retinal dystrophies arise from genetic defects in retinal structure and function, and asenapine's receptor pharmacology has no established connection to those pathways. The high TxGNN score is a computational output and should not be read as evidence of benefit, nor as a probability of efficacy. Its similarity to the drug's original use has not been assessed.
 
@@ -120,11 +120,12 @@ The prediction rests on the model score alone. There are no trials or publicatio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local records show one valid single-ingredient authorisation, a sublingual tablet (5 mg)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Saphris (asenapine maleate) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5429f134-839f-4ffc-9944-55f51238def8) |
 
 <!-- review:end log -->
 

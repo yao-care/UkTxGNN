@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **benign paroxysmal torticollis
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Reboxetine is known to be a selective norepinephrine reuptake inhibitor, acting on the norepinephrine transporter (NET, encoded by *SLC6A2*). Its efficacy in depression is established, and it has been used in the UK for acute treatment of depressive illness and for maintaining clinical improvement in responders.
+ChEMBL (EMBL-EBI) records the mechanism of action of reboxetine as: Norepinephrine transporter inhibitor ([ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370), CC BY-SA 3.0; accessed 2026-11-19.) Reboxetine is known to be a selective norepinephrine reuptake inhibitor, acting on the norepinephrine transporter (NET, encoded by *SLC6A2*). Its efficacy in depression is established, and it has been used in the UK for acute treatment of depressive illness and for maintaining clinical improvement in responders.
 
 The TxGNN score is very high, but it comes from a TxGNN model (deep learning) prediction, not from clinical or mechanistic evidence. Benign paroxysmal torticollis of infancy is a paediatric, migraine-equivalent episodic disorder that is likely linked to channelopathy genes (such as *CACNA1A*). No link between norepinephrine reuptake inhibition and this condition is evident. The relationship between the original and predicted indications is therefore unestablished, and the prediction should be treated as a hypothesis only.
 
@@ -116,6 +116,19 @@ The prediction is supported only by a model score, with no trials, no publicatio
 - Paediatric safety and dosing data, plus the full SmPC warnings and contraindications
 
 **Note for prioritisation:** Other TxGNN predictions for reboxetine have more supporting literature (L3). These are agoraphobia, via panic disorder studies, and dysthymic disorder, via antidepressant meta-analyses. They are closer to its established use and may be better candidates for further evaluation.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL14370 (reboxetine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL14370) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

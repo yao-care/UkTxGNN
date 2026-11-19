@@ -56,7 +56,7 @@ This prediction rests on the model score alone: **no clinical trials** and **no 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data were not available in the data compiled for this report. Published literature describes certolizumab pegol as an anti-TNF-α agent. Its action is therefore expected to be anti-inflammatory, by blocking TNF-driven signalling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for certolizumab pegol: "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), label version 2026-10-29; accessed 2026-11-19.) Published literature describes certolizumab pegol as an anti-TNF-α agent. Its action is therefore expected to be anti-inflammatory, by blocking TNF-driven signalling.
 
 Hypermobility of the coccyx is mainly a mechanical or structural condition, not an inflammatory one. No plausible mechanistic link between TNF-α inhibition and this condition has been identified. The high score (0.9975) is a model output and does not show clinical benefit. The similarity between the drug's established use and this predicted condition has not yet been assessed.
 
@@ -119,11 +119,12 @@ The prediction is supported only by the model score (evidence level L5). There a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Local regulatory records show the drug as marketed in the UK, with a valid single-ingredient licence (subcutaneous injection, 200 mg/1 mL pr" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
 
 <!-- review:end log -->
 

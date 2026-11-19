@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **anxiety disorder**, with **8 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, clomipramine is a potent serotonin reuptake inhibitor. Its active metabolite, desmethylclomipramine, also inhibits noradrenaline reuptake. Modulation of serotonin and noradrenaline is the established basis for treating anxiety, panic and obsessive-compulsive spectrum disorders.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clomipramine: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), label version 2024-11-26; accessed 2026-11-19.) Based on known pharmacology, clomipramine is a potent serotonin reuptake inhibitor. Its active metabolite, desmethylclomipramine, also inhibits noradrenaline reuptake. Modulation of serotonin and noradrenaline is the established basis for treating anxiety, panic and obsessive-compulsive spectrum disorders.
 
 OCD and anxiety disorders overlap strongly. They share symptoms, frequent comorbidity and treatment response to serotonergic drugs. Published literature describes clomipramine as a reference drug in panic disorder and agoraphobia, including controlled comparisons with imipramine, diazepam, paroxetine and moclobemide.
 
@@ -144,6 +144,19 @@ Clomipramine has a clear serotonergic rationale and a long record of controlled 
 - A safety monitoring plan covering ECG and cardiac risk, seizure risk, interaction screening and suicidality, especially in younger and older patients
 
 Other predicted indications for this drug were not pursued here. Major depressive disorder and endogenous depression have strong class-level evidence, but anxiety disorder was the top-ranked prediction. The remaining predictions (benign paroxysmal torticollis of infancy and several personality disorders) rest on model prediction alone, and agoraphobia and ADHD are at research-question stage.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

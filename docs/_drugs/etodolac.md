@@ -54,7 +54,7 @@ Etodolac is a cyclo-oxygenase (COX)-2-preferential non-steroidal anti-inflammato
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Etodolac is generally understood to be a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for etodolac: "The mechanism of action of etodolac extended-release tablets, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition." ([DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331), label version 2024-12-31; accessed 2026-11-19.) Etodolac is generally understood to be a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare skeletal dysplasia caused by mutations in the CDMP1/GDF5 gene. Etodolac has no known link to GDF5 signalling or skeletal development. The high model score most likely reflects the drug's proximity to joint and skeletal terms in the model's training data rather than a biological mechanism. At most, an NSAID might ease secondary joint pain; it would not modify the underlying disease. This prediction should be regarded as a hypothesis only.
 
@@ -133,11 +133,12 @@ The prediction for acromesomelic dysplasia, Hunter-Thompson type, is supported o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record one valid single-ingredient authorisation for etodolac (modified-release 600 mg tablet; record reference 1001010E0AAAD" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331) |
 
 <!-- review:end log -->
 

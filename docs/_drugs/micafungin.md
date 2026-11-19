@@ -60,7 +60,7 @@ with **no registered clinical trials** but **13 publications** (mostly case repo
 
 ## Why is This Prediction Reasonable?
 
-Micafungin is an echinocandin that inhibits 1,3-beta-D-glucan synthase, an enzyme essential for building the fungal cell wall. It is active against *Candida* species. Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the echinocandin class.
+Micafungin is an echinocandin that inhibits 1,3-beta-D-glucan synthase, an enzyme essential for building the fungal cell wall. It is active against *Candida* species. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.) This description reflects the known pharmacology of the echinocandin class.
 
 The original indications (candidaemia and disseminated candidiasis) involve the same pathogens that cause Candida urinary tract infection. A pharmacokinetic report (PMID 27424599) found that urinary micafungin levels were sufficient to treat Candida UTI, despite low renal excretion of the active drug. Case series, retrospective cohorts and paediatric data describe successful eradication of candiduria, including fluconazole-resistant and non-albicans strains such as *C. glabrata* and *C. krusei*.
 
@@ -154,11 +154,12 @@ The mechanism is plausible and a pharmacokinetic study plus several case series,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "one valid single-ingredient product and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

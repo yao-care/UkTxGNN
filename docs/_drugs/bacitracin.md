@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **punctate epithelial keratoconju
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Bacitracin is a polypeptide antibacterial that acts mainly against Gram-positive organisms and is used topically. Mechanistically, it could be relevant where a bacterial component is present on the ocular surface.
+ChEMBL (EMBL-EBI) records the mechanism of action of bacitracin as: C55-isoprenyl pyrophosphate inhibitor ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; accessed 2026-11-19.) Bacitracin is a polypeptide antibacterial that acts mainly against Gram-positive organisms and is used topically. Mechanistically, it could be relevant where a bacterial component is present on the ocular surface.
 
 The predicted condition sits close to other ocular surface conditions in the model's data, which probably explains the high score. However, punctate epithelial keratoconjunctivitis is often viral (for example adenoviral) or non-infectious (for example toxic), and an antibacterial would be expected to offer limited benefit in those cases. The score therefore most likely reflects proximity to related eye conditions rather than a distinct, validated mechanism. No mechanistic validation is possible with the data available.
 
@@ -119,11 +119,12 @@ No trial or publication directly studies bacitracin in punctate epithelial kerat
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both authorisations are currently valid, and the data compiled for this report contain no indication text for them. Both are classed as sing" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
 
 <!-- review:end log -->
 

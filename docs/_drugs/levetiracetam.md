@@ -56,7 +56,7 @@ Other reflex-seizure predictions are summarised briefly at the end.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, levetiracetam binds synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release, which reduces neuronal hyperexcitability and seizure propagation. This mechanism is plausible for terminating prolonged or repetitive seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for levetiracetam: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), label version 2026-11-11; accessed 2026-11-19.) From general pharmacology, levetiracetam binds synaptic vesicle protein 2A (SV2A) and modulates neurotransmitter release, which reduces neuronal hyperexcitability and seizure propagation. This mechanism is plausible for terminating prolonged or repetitive seizures.
 
 Status epilepticus is a prolonged or repeated seizure state closely related to the approved partial epilepsy indication. It is therefore a label-adjacent extension rather than a distant repurposing. It is already used as a second-line option after benzodiazepines in practice, and the trial evidence below directly tests this use.
 
@@ -171,12 +171,13 @@ Large Phase 3 randomised trials (including ESETT with 478 participants) and a UK
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation record is available, and it is a tablet product. The record does not state a licence number in MHRA format, dosage fo" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The UK licensing data compiled for this report are incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

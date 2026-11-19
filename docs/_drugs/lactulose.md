@@ -61,7 +61,7 @@ The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly t
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Lactulose is widely understood to be a non-absorbable sugar that is fermented in the colon. This lowers colonic pH, reduces ammonia absorption and has an osmotic laxative effect. This is the basis of its use in hepatic encephalopathy and constipation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for lactulose: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), label version 2024-12-18; accessed 2026-11-19.) Lactulose is widely understood to be a non-absorbable sugar that is fermented in the colon. This lowers colonic pH, reduces ammonia absorption and has an osmotic laxative effect. This is the basis of its use in hepatic encephalopathy and constipation.
 
 In obstructive jaundice, bile no longer reaches the gut. This is associated with impaired intestinal barrier function, bacterial translocation and systemic endotoxaemia, which contribute to postoperative complications, especially renal dysfunction. Lactulose may reduce gut endotoxin load and bacterial overgrowth, which provides a plausible link. The retrieved literature describes this hypothesis, but it does not establish a clinical benefit. A 1997 review noted that a renoprotective effect "has not been shown conclusively" in clinical studies. A rat study (1989) found that lactulose did not prevent bile infarction or transaminase elevation.
 
@@ -173,12 +173,13 @@ The evidence for obstructive jaundice is limited to small, older clinical studie
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation record is available" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "and the UK licence record carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
 
 <!-- review:end log -->
 

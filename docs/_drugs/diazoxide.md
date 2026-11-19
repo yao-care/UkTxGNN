@@ -54,7 +54,7 @@ Diazoxide is a potassium channel opener used in the management of conditions of 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Pharmacologically, diazoxide opens ATP-sensitive potassium (KATP) channels. Minoxidil, which is used to promote hair growth, acts through the same channel family, so a hair-growth effect is biologically plausible.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for diazoxide: "PROGLYCEM produces a dose-related increase in blood glucose, due primarily to an inhibition of insulin release from the pancreas, and also to an extrapancreatic effect. The hyperglycemic effect of PROGLYCEM begins within an hour and generally lasts no more than 8 hours in the presence of normal renal function." ([DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2), label version 2026-10-06; accessed 2026-11-19.) Pharmacologically, diazoxide opens ATP-sensitive potassium (KATP) channels. Minoxidil, which is used to promote hair growth, acts through the same channel family, so a hair-growth effect is biologically plausible.
 
 Hypertrichosis is a well-known adverse effect of systemic diazoxide, which further supports the idea that the drug can stimulate hair follicles. However, hypotrichosis simplex of the scalp is a rare inherited condition, and it is not known whether KATP modulation would help. The high score (0.9996) is a model output only and is not evidence of clinical benefit.
 
@@ -130,11 +130,12 @@ The prediction is supported only by the model score and a plausible KATP mechani
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
 
 <!-- review:end log -->
 

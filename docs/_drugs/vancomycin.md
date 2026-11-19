@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **diffuse scleroderma**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, vancomycin inhibits bacterial cell wall synthesis by binding the D-Ala-D-Ala termini of peptidoglycan precursors in Gram-positive bacteria. Its efficacy in its original infectious indications is well established.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for vancomycin: "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), label version 2026-08-19; accessed 2026-11-19.) Based on established pharmacology, vancomycin inhibits bacterial cell wall synthesis by binding the D-Ala-D-Ala termini of peptidoglycan precursors in Gram-positive bacteria. Its efficacy in its original infectious indications is well established.
 
 Diffuse scleroderma, by contrast, is an autoimmune fibrotic disease. There is no plausible mechanistic link between a cell wall synthesis inhibitor and the pathology of scleroderma. The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -135,6 +135,19 @@ The prediction rests on model score alone (L5). There is no mechanistic rational
 - Confirmed mechanism of action data and UK SmPC warnings and contraindications
 - Any relevant clinical or observational data on vancomycin in scleroderma
 - If an antibacterial extension is of interest, streptococcal pneumonia (rank 9) is the only prediction with a plausible mechanism and would merit a separate evaluation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

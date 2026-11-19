@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the compiled record. From general pharmacology, mazindol is a sympathomimetic appetite suppressant that inhibits catecholamine (norepinephrine and dopamine) reuptake. Its efficacy in obesity rests on reduced appetite.
+ChEMBL (EMBL-EBI) records the mechanism of action of mazindol as: Monoamine transporter inhibitor ([ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781), CC BY-SA 3.0; accessed 2026-11-19.) From general pharmacology, mazindol is a sympathomimetic appetite suppressant that inhibits catecholamine (norepinephrine and dopamine) reuptake. Its efficacy in obesity rests on reduced appetite.
 
 No plausible mechanistic link to hypervitaminosis could be identified. Vitamin excess and its clearance are unrelated to catecholamine reuptake inhibition. The very high TxGNN score is therefore best read as a TxGNN model (deep learning) artefact rather than a biologically grounded signal.
 
@@ -125,6 +125,19 @@ The prediction for hypervitaminosis is supported only by a model score, with no 
 - Confirmation of the UK authorisation details (PL number, dosage form, approved indication)
 - Any preclinical or clinical evidence linking mazindol to vitamin excess or clearance
 - If a repurposing direction is wanted, consider re-prioritising candidates with a more plausible rationale (for example, the obesity-related 16p11.2 microdeletion syndrome or postural orthostatic tachycardia syndrome), each requiring its own evidence review and cardiovascular safety assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **nasal cavity disease**, but **n
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Cyproheptadine belongs to the antihistamine class, and its mechanism is generally understood to involve histamine H1 receptor and serotonin receptor antagonism. This general pharmacology is not drawn from the compiled data, so it should be checked against the SmPC.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cyproheptadine: "Cyproheptadine is a serotonin and histamine antagonist with anticholinergic and sedative effects. Antiserotonin and antihistamine drugs appear to compete with serotonin and histamine, respectively, for receptor sites." ([DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8), label version 2025-10-21; accessed 2026-11-19.) Cyproheptadine belongs to the antihistamine class, and its mechanism is generally understood to involve histamine H1 receptor and serotonin receptor antagonism. This general pharmacology is not drawn from the compiled data, so it should be checked against the SmPC.
 
 The model's prediction is likely driven by the drug's established use in nasal and allergic conditions. However, "nasal cavity disease" is a very broad category. It covers many different conditions with different causes, so the mechanistic link cannot be assessed meaningfully until a specific disease is defined (for example, a particular type of rhinitis).
 
@@ -131,11 +131,12 @@ The prediction is for a broad, non-specific category, and no trials or publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
 
 <!-- review:end log -->
 

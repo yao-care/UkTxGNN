@@ -58,7 +58,7 @@ Alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, produci
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general class pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, which produces sedative and hypnotic effects. This gives a plausible mechanistic basis for use in insomnia, particularly where insomnia occurs alongside anxiety.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprazolam: "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), label version 2025-02-11; accessed 2026-11-19.) Based on general class pharmacology, alprazolam is a benzodiazepine that enhances GABA-A receptor signalling, which produces sedative and hypnotic effects. This gives a plausible mechanistic basis for use in insomnia, particularly where insomnia occurs alongside anxiety.
 
 However, the supporting literature is largely indirect. The retrieved items include a panic disorder review, a post-COVID insomnia cross-sectional survey, benzodiazepine utilisation and economic modelling, a zolpidem deprescribing cohort and a pharmacokinetics review. The only study in which alprazolam was given to patients with insomnia is a retrospective observational study in coronary heart disease, where alprazolam was the control treatment and the comparison arm received moxibustion and ear acupuncture. No randomised controlled trial of alprazolam for insomnia was retrieved.
 
@@ -136,11 +136,12 @@ The mechanism is plausible and one retrospective observational study involved al
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data list one valid single-ingredient licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
 
 <!-- review:end log -->
 

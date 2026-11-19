@@ -66,7 +66,7 @@ but **no clinical trials and no publications** were found for this disease, so t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ergocalciferol is vitamin D2, which supports calcium and phosphate handling and bone mineralisation.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ergocalciferol: "The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)." ([DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210), label version 2026-11-02; accessed 2026-11-19.) Ergocalciferol is vitamin D2, which supports calcium and phosphate handling and bone mineralisation.
 
 Acromesomelic dysplasia is a rare, genetically determined skeletal dysplasia. The genetic basis is thought to involve natriuretic peptide receptor B and growth factor signalling defects. There is no established mechanism by which vitamin D2 supplementation would correct such a defect. Any link to bone metabolism is speculative, and the high score should be read as a computational association only.
 
@@ -149,12 +149,13 @@ The prediction is purely computational. There are no trials or publications for 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "with one UK licence recorded in the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "One single-ingredient product is recorded as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
 
 <!-- review:end log -->
 

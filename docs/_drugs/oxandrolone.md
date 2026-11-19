@@ -56,7 +56,7 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, oxandrolone is an anabolic-androgenic steroid that acts as an androgen receptor agonist, and a mechanistic link to fibrocystic breast disease is plausible only at the class level.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxandrolone as: Androgen Receptor agonist ([ChEMBL CHEMBL1200436 (oxandrolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200436), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, oxandrolone is an anabolic-androgenic steroid that acts as an androgen receptor agonist, and a mechanistic link to fibrocystic breast disease is plausible only at the class level.
 
 Androgen-derived agents have historically been used in fibrocystic breast conditions. Danazol, for example, works through anti-gonadotropic and anti-oestrogenic effects. This gives a loose rationale for the prediction. However, the link is inferred only from the model score and drug-class reasoning. No oxandrolone-specific study was found.
 
@@ -137,11 +137,12 @@ The prediction is supported only by a high model score and class-level reasoning
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient product is listed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200436 (oxandrolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200436) |
 
 <!-- review:end log -->
 

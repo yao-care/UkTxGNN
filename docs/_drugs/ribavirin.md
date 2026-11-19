@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **chronic hepatitis B virus inf
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Ribavirin is a guanosine nucleoside analogue with broad activity against RNA viruses such as hepatitis C. Its proposed actions include inhibiting IMPDH, depleting the GTP pool and modulating the immune response.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for ribavirin: "Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction." ([DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c), label version 2024-02-06; accessed 2026-11-19.) Ribavirin is a guanosine nucleoside analogue with broad activity against RNA viruses such as hepatitis C. Its proposed actions include inhibiting IMPDH, depleting the GTP pool and modulating the immune response.
 
 Hepatitis B is a DNA virus, so direct antiviral activity is mechanistically weak. Any benefit is more plausibly immunomodulatory, for example as an add-on to interferon-based therapy by shifting the immune response towards Th1 and enhancing interferon signalling. Much of the retrieved clinical context also involves HBV/HCV co-infection, where ribavirin acts on the hepatitis C component.
 
@@ -179,11 +179,12 @@ The other eight predictions have no supporting clinical trials, and their eviden
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is one valid single-ingredient record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
 
 <!-- review:end log -->
 

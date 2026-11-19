@@ -60,7 +60,7 @@ The evidence is mainly reviews and small older studies, so this remains a resear
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on the known class mechanism, clonazepam is a benzodiazepine that enhances GABA-A receptor-mediated inhibition. This may dampen sensory-motor hyperexcitability and reduce the sleep fragmentation caused by periodic limb movements.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clonazepam: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), label version 2025-12-01; accessed 2026-11-19.) Based on the known class mechanism, clonazepam is a benzodiazepine that enhances GABA-A receptor-mediated inhibition. This may dampen sensory-motor hyperexcitability and reduce the sleep fragmentation caused by periodic limb movements.
 
 Its established uses (seizure disorders and anxiety) both rely on this inhibitory effect. RLS is a sensorimotor disorder with prominent sleep disturbance, so a symptomatic benefit is plausible. The literature supports a sleep-related, symptomatic benefit rather than disease modification.
 
@@ -172,11 +172,12 @@ Clonazepam has a plausible mechanism and a long history of use in RLS, supported
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation is recorded (single-ingredient, valid)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
 
 <!-- review:end log -->
 

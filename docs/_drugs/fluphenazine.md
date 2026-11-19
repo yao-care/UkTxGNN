@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Fluphenazine is a phenothiazine antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in schizophrenia and other psychotic disorders is well established.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for fluphenazine: "Fluphenazine hydrochloride has activity at all levels of the central nervous system as well as on multiple organ systems. The mechanism whereby its therapeutic action is exerted is unknown." ([DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12), label version 2026-07-03; accessed 2026-11-19.) Fluphenazine is a phenothiazine antipsychotic that acts mainly by blocking dopamine D2 receptors. Its efficacy in schizophrenia and other psychotic disorders is well established.
 
 For this predicted indication, no plausible mechanistic link can be identified. Retinal dystrophies are inherited degenerative eye conditions, and nothing in the data suggests that D2 antagonism would modify them. The score is very high (above 0.9999), and the same level of score appears across many unrelated rare diseases in this drug's prediction list. This pattern points to a likely model artefact rather than a drug-specific signal.
 
@@ -151,6 +151,19 @@ The prediction rests on a model score alone, with no trials, no literature and n
 - The authorisation number, dosage forms and licensed indication text from the MHRA record and SmPC
 - Safety label data (warnings and contraindications) for formal safety screening
 - For any further consideration, a prioritised review of the bipolar mania indication, including fluphenazine-specific efficacy data, before further work on the retinal prediction
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluphenazine Hydrochoride (fluphenazine hydrochloride) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91b85b8d-4c10-4395-915e-272b81ef3b12) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

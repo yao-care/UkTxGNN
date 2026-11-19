@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Aminophylline is generally understood to be a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Its efficacy as a bronchodilator is established, and mechanistically it may be applicable to migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aminophylline: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), label version 2026-05-26; accessed 2026-11-19.) Aminophylline is generally understood to be a non-selective adenosine receptor antagonist and phosphodiesterase inhibitor. Its efficacy as a bronchodilator is established, and mechanistically it may be applicable to migraine.
 
 Migraine is thought to involve adenosine signalling, which is implicated in cerebral vasodilation and trigeminovascular pain transmission. A 2023 review argues that migraine may be linked to impaired brain energy metabolism with high adenosine levels, and that aminophylline has given therapeutic relief in some pain conditions, particularly post-dural puncture headache. A case report of hemiplegic migraine triggered by regadenoson, an adenosine agonist, also hints that the adenosine pathway is involved.
 
@@ -135,6 +135,19 @@ The TxGNN score is high, but there are no clinical trials in migraine, and the l
 - A well-designed pilot or randomised study in migraine, or in post-dural puncture headache as a related pain model
 - Review of the full SmPC and BNF safety information, including interactions and the narrow therapeutic index of theophylline-type drugs
 - Consideration of whether a modified-release oral formulation suits acute migraine treatment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

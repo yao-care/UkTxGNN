@@ -69,7 +69,7 @@ Other predictions evaluated:
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Based on known information, tetracycline is a broad-spectrum antibiotic with proven efficacy in several infections, including conjunctivitis, and it may be mechanistically applicable to the predicted eye and sinus conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of tetracycline as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, tetracycline is a broad-spectrum antibiotic with proven efficacy in several infections, including conjunctivitis, and it may be mechanistically applicable to the predicted eye and sinus conditions.
 
 **Punctate epithelial keratoconjunctivitis.** Tetracycline is active against *Chlamydia trachomatis*, a recognised cause of follicular conjunctivitis that can be followed by superficial punctate keratitis. Tetracyclines also have anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting properties that may help ocular surface inflammation. The link is indirect, however: the only paper is a 1992 case report of keratitis persisting *after* chlamydial conjunctivitis had resolved, and it does not test tetracycline as a treatment for the keratitis.
 
@@ -162,6 +162,19 @@ All four predictions rest on indirect evidence (L4 or L5) and no tetracycline-sp
 - Authorisation details (PL number, indication text, dosage form) and SmPC-based warnings and contraindications
 - For the ocular indication, studies evaluating tetracycline as a treatment, not only a description of post-infection keratitis
 - A stewardship and antimicrobial resistance assessment for long-term or repeated use in chronic conditions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1440 (tetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1440) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

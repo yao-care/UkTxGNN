@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **aortic malformation**, but th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known pharmacology, alprostadil is a prostaglandin E1 analogue that relaxes the smooth muscle of the ductus arteriosus. Infusion keeps the ductus open in newborns whose circulation depends on it, which maintains pulmonary or systemic blood flow until surgery.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for alprostadil: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), label version 2024-05-13; accessed 2026-11-19.) Based on known pharmacology, alprostadil is a prostaglandin E1 analogue that relaxes the smooth muscle of the ductus arteriosus. Infusion keeps the ductus open in newborns whose circulation depends on it, which maintains pulmonary or systemic blood flow until surgery.
 
 Aortic coarctation and interrupted aortic arch are already among alprostadil's original indications, so "aortic malformation" is largely a broader label for something already covered. The high TxGNN score is consistent with this overlap, and this is **not a truly novel repurposing signal**.
 
@@ -164,11 +164,12 @@ The predicted "aortic malformation" overlaps heavily with alprostadil's establis
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one authorisation record was found. It is a BNF classification code rather than a standard MHRA PL number, and the manufacturer and ind" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 
 <!-- review:end log -->
 

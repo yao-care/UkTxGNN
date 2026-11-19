@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Tadalafil is generally known as a PDE5 inhibitor: it raises cGMP levels and promotes vasodilation, which underlies its use in erectile dysfunction and pulmonary hypertension.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tadalafil: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), label version 2026-06-03; accessed 2026-11-19.) Tadalafil is generally known as a PDE5 inhibitor: it raises cGMP levels and promotes vasodilation, which underlies its use in erectile dysfunction and pulmonary hypertension.
 
 The link to the predicted indication is weak. Ambras syndrome is a rare congenital disorder associated with chromosomal rearrangements affecting TRPS1 regulation. No clear mechanistic connection to PDE5 inhibition has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, for example the hair-growth effects of other vasodilators such as minoxidil, not biological evidence or a validated pharmacological rationale.
 
@@ -152,6 +152,19 @@ The prediction rests on model output alone (L5), with no clinical trials or publ
 - Warnings and contraindications from the SmPC and BNF, as the safety screen cannot proceed without them
 - For kyphoscoliotic heart disease, a literature review and a clearly framed hypothesis that accounts for hypoxia-driven pulmonary hypertension
 - Preclinical or mechanistic studies before any clinical consideration of hypertrichosis-related indications
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -60,7 +60,7 @@ Note that this is largely confirmation of an existing ocular use (post-cataract-
 
 ## Why is This Prediction Reasonable?
 
-Nepafenac is a prodrug. Ocular tissue hydrolases convert it to amfenac, which inhibits both COX-1 and COX-2. This reduces prostaglandin synthesis, and so lowers ocular inflammation, pain and breakdown of the blood-retinal barrier. Detailed mechanism-of-action data were not available in the source database, but this mechanism is well described in the literature compiled for this report.
+Nepafenac is a prodrug. Ocular tissue hydrolases convert it to amfenac, which inhibits both COX-1 and COX-2. This reduces prostaglandin synthesis, and so lowers ocular inflammation, pain and breakdown of the blood-retinal barrier. According to the Mechanism of Action section of the US FDA-approved prescribing information for nepafenac: "After topical ocular dosing, nepafenac penetrates the cornea and is converted by ocular tissue hydrolases to amfenac, a NSAID. Nepafenac and amfenac are thought to inhibit the action of prostaglandin H synthase (cyclooxygenase), an enzyme required for prostaglandin production." ([DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547), label version 2026-04-01; accessed 2026-11-19.) This mechanism is well described in the literature compiled for this report.
 
 The predicted indication "eye disease" is very broad. The trial and literature evidence centres on post-cataract-surgery inflammation and pain, and on prevention of macular oedema (including in diabetic patients). The mechanism fits these conditions directly. Smaller studies extend to retinal surgery, photorefractive keratectomy (PRK) pain and laser iridotomy.
 
@@ -157,11 +157,12 @@ For the core ocular inflammation, pain and macular oedema setting, multiple comp
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the source database, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
 
 <!-- review:end log -->
 

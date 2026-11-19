@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **homozygous familial hyperchol
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, nimodipine is a dihydropyridine L-type calcium channel blocker with selectivity for the cerebral vasculature. Its efficacy in subarachnoid haemorrhage is linked to its effects on cerebral vessels.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nimodipine: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), label version 2024-08-30; accessed 2026-11-19.) Based on general pharmacology, nimodipine is a dihydropyridine L-type calcium channel blocker with selectivity for the cerebral vasculature. Its efficacy in subarachnoid haemorrhage is linked to its effects on cerebral vessels.
 
 The link to the predicted new indication is weak. Homozygous familial hypercholesterolaemia is caused by loss-of-function variants in genes such as *LDLR* (or *APOB*, *PCSK9*, *LDLRAP1*), which impair LDL clearance. Calcium channel blockade does not address this defect. Any association would be speculative, for example through possible vascular or atherosclerosis-related effects. The high TxGNN score (0.9929) is a computational prediction only and is not backed by any trial or literature evidence.
 
@@ -120,11 +120,12 @@ The prediction rests on a model score alone (evidence level L5). There are no tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
 
 <!-- review:end log -->
 

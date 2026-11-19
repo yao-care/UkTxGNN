@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Based on known information, perphenazine is a phenothiazine antipsychotic whose efficacy in schizophrenia is established. It acts mainly as a dopamine D2 antagonist, with additional activity at 5-HT2A and other receptors.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for perphenazine: "Perphenazine has actions at all levels of the central nervous system, particularly the hypothalamus. However, the site and mechanism of action of therapeutic effect are not known." ([DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941), label version 2026-11-11; accessed 2026-11-19.) Based on known information, perphenazine is a phenothiazine antipsychotic whose efficacy in schizophrenia is established. It acts mainly as a dopamine D2 antagonist, with additional activity at 5-HT2A and other receptors.
 
 For the top prediction, **the rationale is weak**. The only literature record (PMID 14129300, 1964) describes pigmentary retinopathy caused by **thioridazine**, a different phenothiazine. This is a retinal toxicity signal for the drug class, not evidence of benefit. No plausible therapeutic mechanism for perphenazine in inherited retinal dystrophy has been identified. The very high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -170,11 +170,12 @@ Report suspected adverse reactions via the Yellow Card Scheme.
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941) |
 
 <!-- review:end log -->
 

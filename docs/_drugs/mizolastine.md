@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Based on known information, mizolastine is a second-generation H1 antihistamine that acts on the histamine H1 receptor (HRH1). Its efficacy in allergic and vasomotor rhinitis is the basis of its original use.
+ChEMBL (EMBL-EBI) records the mechanism of action of mizolastine as: Histamine H1 receptor antagonist ([ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, mizolastine is a second-generation H1 antihistamine that acts on the histamine H1 receptor (HRH1). Its efficacy in allergic and vasomotor rhinitis is the basis of its original use.
 
 No mechanistic link to acute intermittent porphyria has been established. This condition is a haem biosynthesis disorder caused by porphobilinogen deaminase deficiency, and no known antihistamine pathway connects to it. The high TxGNN score is a computational prediction and should not be read as evidence of efficacy.
 
@@ -122,6 +122,19 @@ The prediction rests only on a computational score. There are no clinical trials
 - Approved indication text and dosage form for the UK authorisation
 - A porphyria-specific safety review (porphyrinogenicity)
 - Preclinical or mechanistic studies demonstrating a biological rationale for the predicted indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

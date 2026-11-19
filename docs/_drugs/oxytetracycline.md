@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for this drug. Oxytetracycline is a tetracycline-class antibiotic with a broad antibacterial spectrum, and its efficacy in respiratory, urinary and eye infections is established. Mechanistically, it may be applicable to chronic rhinosinusitis.
+ChEMBL (EMBL-EBI) records the mechanism of action of oxytetracycline as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0; accessed 2026-11-19.) Oxytetracycline is a tetracycline-class antibiotic with a broad antibacterial spectrum, and its efficacy in respiratory, urinary and eye infections is established. Mechanistically, it may be applicable to chronic rhinosinusitis.
 
 Tetracyclines are active against some bacteria that colonise the sinuses. The class has also been reported to have anti-inflammatory and matrix metalloproteinase (MMP)-inhibitory effects, which could plausibly relate to chronic sinus inflammation. This link is hypothetical. No trials or literature were found for oxytetracycline in this condition, and chronic rhinosinusitis is often not primarily driven by bacterial infection.
 
@@ -153,11 +153,12 @@ The prediction is supported only by the TxGNN model score (0.9961), with no tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record gives a BNF-style product code rather than a standard PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->
 

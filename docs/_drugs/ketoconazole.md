@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but the supporting ev
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ketoconazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts the fungal cell membrane. At higher systemic doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), which lowers androgen synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ketoconazole: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), label version 2025-11-18; accessed 2026-11-19.) Based on known pharmacology, ketoconazole inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which disrupts the fungal cell membrane. At higher systemic doses it also inhibits human steroidogenic enzymes (CYP17A1, CYP11A1), which lowers androgen synthesis.
 
 There are three plausible links to acne:
 - **Androgen pathway:** Reduced androgen synthesis could lower sebum production in androgen-driven acne. This applies to systemic exposure only.
@@ -179,12 +179,13 @@ Support for acne rests on a high model score, laboratory data and one small, unr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not i" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "and the available UK authorisation record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

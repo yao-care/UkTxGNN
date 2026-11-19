@@ -60,7 +60,7 @@ The mechanistic reasoning argues against the prediction, so it should be treated
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Posaconazole is a triazole antifungal. This class inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in the fungal cell membrane.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for posaconazole: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), label version 2026-02-13; accessed 2026-11-19.) Posaconazole is a triazole antifungal. This class inhibits fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis in the fungal cell membrane.
 
 Its efficacy in invasive fungal infections is established, which is probably why the model links it to pneumocystosis. However, *Pneumocystis jirovecii* has little or no ergosterol and uses cholesterol-type sterols in its membrane, so an azole is not expected to work. The high score most likely reflects a general antifungal class association rather than a true mechanistic fit. Standard therapy is trimethoprim-sulfamethoxazole.
 
@@ -146,6 +146,19 @@ The pneumocystosis prediction is not supported by trial or literature evidence f
 - Full MHRA authorisation details (PL number, approved indications, SmPC warnings and contraindications)
 - A fuller review of drug-interaction management, particularly with corticosteroids and QT-prolonging drugs
 - If a lower-risk repurposing direction is wanted, vulvovaginal candidiasis in fluconazole-resistant or non-albicans infection could be studied as a research question, although current evidence is limited to in vitro and animal data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

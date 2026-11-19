@@ -54,7 +54,7 @@ Cyclophosphamide is an alkylating chemotherapy and immunosuppressive agent. The 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Cyclophosphamide is a well-established alkylating agent whose cytotoxic and immunosuppressive (lymphodepleting) effects are used across oncology and immune-mediated disease.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cyclophosphamide: "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), label version 2026-08-26; accessed 2026-11-19.) Cyclophosphamide is a well-established alkylating agent whose cytotoxic and immunosuppressive (lymphodepleting) effects are used across oncology and immune-mediated disease.
 
 For this prediction, the mechanistic rationale is weak. The condition is a rare syndrome involving T-cell dysfunction. Cyclophosphamide's lymphodepleting action offers no clear therapeutic rationale and could plausibly worsen an existing immunodeficiency. The high model score (0.9938) should therefore be read as a computational signal only, not as evidence of benefit.
 
@@ -136,11 +136,12 @@ The prediction has no supporting trials or publications, and the immunosuppressi
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
 
 <!-- review:end log -->
 

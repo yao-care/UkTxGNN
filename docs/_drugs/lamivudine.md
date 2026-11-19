@@ -56,7 +56,7 @@ This is an animal disease, so the prediction has limited relevance to human drug
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI). Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to other lentiviruses that rely on a similar reverse transcriptase.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for lamivudine: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), label version 2024-08-15; accessed 2026-11-19.) Based on known information, lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI). Its efficacy in HIV and hepatitis B is established, and mechanistically it may be applicable to other lentiviruses that rely on a similar reverse transcriptase.
 
 Feline immunodeficiency virus (FIV) is a lentivirus that causes an AIDS-like illness in cats. Its reverse transcriptase is related to that of HIV-1, so an NRTI effect is biologically plausible. Some reverse transcriptase inhibitors active against HIV are also active against FIV.
 
@@ -149,6 +149,19 @@ The predicted indication is an animal disease, supported only by veterinary coho
 - Full-text review of the veterinary studies to verify design and outcomes
 - Approved indication text and licence details for the UK product, plus SmPC warnings and contraindications
 - Review of higher-priority human-relevant predictions, if any are identified
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

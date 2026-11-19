@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **retinal dystrophy with or witho
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not currently available in the data compiled for this report. Chlorpromazine is a member of the phenothiazine class, which is generally understood to act mainly through dopamine D2 receptor antagonism.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for chlorpromazine: "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), label version 2026-11-10; accessed 2026-11-19.) Chlorpromazine is a member of the phenothiazine class, which is generally understood to act mainly through dopamine D2 receptor antagonism.
 
 The data compiled for this report do not provide a convincing mechanistic bridge to inherited retinal dystrophy. The only supporting record is a 1967 JAMA report describing phototoxic reactions (ocular and skin) after high-dose chlorpromazine and thioridazine. This describes harm rather than benefit. Chlorpromazine can deposit in retinal and uveal tissue, so it could plausibly be detrimental in an inherited retinal disease. The very high TxGNN score (0.9995) has no clinical support behind it and most likely reflects an artefact of the network prediction rather than a genuine therapeutic signal.
 
@@ -132,11 +132,12 @@ The prediction rests on a model score alone. The single supporting publication d
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence records compiled for this report show one valid single-ingredient authorisation (product: Chlorpromazine HCl tablets 25 mg)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
 
 <!-- review:end log -->
 

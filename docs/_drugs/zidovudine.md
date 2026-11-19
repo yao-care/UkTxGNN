@@ -54,7 +54,7 @@ Zidovudine is a nucleoside reverse transcriptase inhibitor (NRTI) antiretroviral
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Zidovudine is, however, a well-established NRTI: it is incorporated into viral DNA by reverse transcriptase and halts chain elongation.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for zidovudine: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), label version 2024-11-13; accessed 2026-11-19.) Zidovudine is, however, a well-established NRTI: it is incorporated into viral DNA by reverse transcriptase and halts chain elongation.
 
 Simian immunodeficiency virus (SIV) is a lentivirus closely related to HIV and relies on the same reverse transcriptase-dependent replication cycle, so a mechanistic link is plausible. It is important to note that SIV infection is an animal disease, not a human clinical condition. The evidence is preclinical, with macaque studies serving mainly as models for HIV. The prediction is therefore best treated as a research question rather than a prospect for new human use.
 
@@ -118,6 +118,18 @@ The only support for this prediction is animal data (for example macaque studies
 - Mechanism of action data for the drug record
 - Clarification of whether the prediction has any translational value beyond serving as an HIV model
 - Review of the relevant SmPC warnings and contraindications, which are not available in the compiled data
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

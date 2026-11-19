@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for this drug. Based on known information, rimexolone is a synthetic glucocorticoid (glucocorticoid receptor agonist) with anti-inflammatory and immunosuppressive properties. Its use in uveitis and other ocular inflammation is established, and mechanistically it may be applicable to inflammatory skin conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of rimexolone as: Glucocorticoid receptor agonist ([ChEMBL CHEMBL1200617 (rimexolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200617), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, rimexolone is a synthetic glucocorticoid (glucocorticoid receptor agonist) with anti-inflammatory and immunosuppressive properties. Its use in uveitis and other ocular inflammation is established, and mechanistically it may be applicable to inflammatory skin conditions.
 
 Topical corticosteroids are an established treatment class for seborrheic dermatitis. This makes the high prediction score biologically plausible, through shared glucocorticoid effects such as reduced release of inflammatory mediators and reduced leukocyte infiltration. A second prediction, general **dermatitis** (score 0.9934), follows the same logic.
 
@@ -118,11 +118,12 @@ The prediction is plausible for the corticosteroid class, but there is no drug-s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200617 (rimexolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200617) |
 
 <!-- review:end log -->
 

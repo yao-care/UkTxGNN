@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **pulmonary blastoma** (top-ran
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Methotrexate is generally known as an antifolate that inhibits dihydrofolate reductase (DHFR) and so interferes with DNA synthesis in rapidly dividing cells. It is already used in several haematological and other malignancies, which is why a model that learns from drug-disease networks may extend it to other tumours.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for methotrexate: "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), label version 2026-11-05; accessed 2026-11-19.) Methotrexate is generally known as an antifolate that inhibits dihydrofolate reductase (DHFR) and so interferes with DNA synthesis in rapidly dividing cells. It is already used in several haematological and other malignancies, which is why a model that learns from drug-disease networks may extend it to other tumours.
 
 For pulmonary blastoma specifically, the data do not support a specific link. The score appears to reflect a general "antiproliferative drug, malignant lung tumour" signal. Pulmonary blastoma is a very rare lung tumour, and no trials or publications were retrieved.
 
@@ -166,11 +166,12 @@ The pulmonary blastoma prediction has a high model score (0.9945) but no trials,
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

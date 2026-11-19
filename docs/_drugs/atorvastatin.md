@@ -54,7 +54,7 @@ Atorvastatin is a statin that lowers blood cholesterol and is widely used for ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Atorvastatin belongs to the statin class, and its lipid-lowering efficacy is well established. Statins also have pleiotropic anti-inflammatory and immunomodulatory effects, such as reduced monocyte and macrophage activation and lower systemic inflammation markers.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atorvastatin: "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), label version 2024-04-15; accessed 2026-11-19.) Atorvastatin belongs to the statin class, and its lipid-lowering efficacy is well established. Statins also have pleiotropic anti-inflammatory and immunomodulatory effects, such as reduced monocyte and macrophage activation and lower systemic inflammation markers.
 
 These effects are relevant to the chronic immune activation seen in treated HIV infection, and this is the main mechanistic basis for the prediction. Atorvastatin is also used for protease-inhibitor-associated dyslipidaemia, but that is a lipid indication rather than an antiviral one.
 
@@ -157,11 +157,12 @@ Trials in people with HIV are small, mostly early phase or of unclear design, an
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Atorvastatin is currently marketed in the UK, and the local data record one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
 
 <!-- review:end log -->
 

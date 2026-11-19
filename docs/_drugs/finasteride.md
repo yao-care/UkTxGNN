@@ -58,7 +58,7 @@ Finasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DH
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Finasteride is known as a type II (and III) 5-alpha reductase inhibitor, which blocks the conversion of testosterone to DHT.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for finasteride: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), label version 2026-03-18; accessed 2026-11-19.) Finasteride is known as a type II (and III) 5-alpha reductase inhibitor, which blocks the conversion of testosterone to DHT.
 
 The link to the predicted condition is weak. Ambras syndrome is a congenital condition associated with chromosomal rearrangements affecting regulation of the *TRPS1* gene. It is not primarily an androgen-driven disorder, so lowering DHT has no clear rationale. The very high TxGNN score (0.9999) reflects a computational pattern only. It is not evidence of clinical benefit and should be treated as a hypothesis to test, not a finding.
 
@@ -129,11 +129,12 @@ The prediction is supported only by a model score. No trials or publications add
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

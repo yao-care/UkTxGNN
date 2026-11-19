@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **acne**, but **no clinical tri
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Mebendazole is a benzimidazole anthelmintic. It is generally understood to bind parasite beta-tubulin, which blocks microtubule formation and glucose uptake in the worm.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for mebendazole: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), label version 2021-10-05; accessed 2026-11-19.) Mebendazole is a benzimidazole anthelmintic. It is generally understood to bind parasite beta-tubulin, which blocks microtubule formation and glucose uptake in the worm.
 
 This mechanism explains its activity against intestinal worms, but it does not obviously apply to acne. Acne involves excess sebum production, *Cutibacterium acnes* colonisation and inflammation of the hair follicle. No credible mechanistic link between tubulin inhibition and these processes has been established.
 
@@ -127,6 +127,18 @@ The acne prediction rests only on a model score. There are no registered trials,
 - A credible mechanistic hypothesis, supported by laboratory or preclinical data
 - Any clinical or observational data on mebendazole in acne
 - Formal mechanism of action data and full SmPC safety information
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

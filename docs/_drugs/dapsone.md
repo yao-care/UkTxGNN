@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocyst
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, dapsone inhibits dihydropteroate synthase in the folate synthesis pathway, the same target as sulfonamides such as sulfamethoxazole. A published review (PMID 9675476) describes the same mechanism and reports strong anti-*Pneumocystis* activity in laboratory studies, animal studies and clinical trials.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dapsone: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), label version 2026-10-01; accessed 2026-11-19.) Based on general pharmacological knowledge, dapsone inhibits dihydropteroate synthase in the folate synthesis pathway, the same target as sulfonamides such as sulfamethoxazole. A published review (PMID 9675476) describes the same mechanism and reports strong anti-*Pneumocystis* activity in laboratory studies, animal studies and clinical trials.
 
 Dapsone's established uses are antimicrobial (leprosy) and anti-inflammatory (dermatitis herpetiformis, acne). *Pneumocystis jirovecii* depends on folate synthesis, so an antimicrobial that blocks this pathway is a plausible treatment or prophylactic agent. The very high TxGNN score is consistent with this. In practice, dapsone is already used for prophylaxis in patients who cannot take trimethoprim-sulfamethoxazole (co-trimoxazole).
 
@@ -159,12 +159,13 @@ Four completed Phase 3 trials (NCT00000802, NCT00000991, NCT00001028, NCT0000064
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MH" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The record has no indication text, so it is unclear whether PCP is within the licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->
 

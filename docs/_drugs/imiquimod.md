@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, wit
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, imiquimod is a Toll-like receptor 7 (TLR7) agonist. It induces local interferon-alpha, TNF-alpha and IL-12 production and promotes Th1-type cell-mediated immunity. This supports clearance of dysplastic and premalignant epithelium.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for imiquimod: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), label version 2025-05-23; accessed 2026-11-19.) Based on known pharmacology, imiquimod is a Toll-like receptor 7 (TLR7) agonist. It induces local interferon-alpha, TNF-alpha and IL-12 production and promotes Th1-type cell-mediated immunity. This supports clearance of dysplastic and premalignant epithelium.
 
 Actinic keratosis, a premalignant skin lesion, is already among imiquimod's established indications, so this prediction is largely consistent with existing use. Extension to other premalignant sites is biologically plausible. These include vulval, anal and cervical intraepithelial neoplasia, which are HPV-associated and covered by systematic reviews. The prediction is therefore best read as a broadening of an existing indication rather than a wholly new one.
 
@@ -136,11 +136,12 @@ The prediction overlaps with an established use (actinic keratosis) and has a pl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

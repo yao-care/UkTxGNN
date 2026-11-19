@@ -62,7 +62,7 @@ The evidence is small-scale: both trials are underpowered, so this is a promisin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, lamotrigine blocks voltage-gated sodium channels and reduces glutamate release. In trigeminal neuralgia, the pain is thought to arise from focal demyelination of the trigeminal nerve root, often from vascular compression, which causes abnormal repetitive firing of nerve fibres.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lamotrigine: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), label version 2026-10-12; accessed 2026-11-19.) Based on known pharmacology, lamotrigine blocks voltage-gated sodium channels and reduces glutamate release. In trigeminal neuralgia, the pain is thought to arise from focal demyelination of the trigeminal nerve root, often from vascular compression, which causes abnormal repetitive firing of nerve fibres.
 
 This is the same mechanism class as carbamazepine and oxcarbazepine, the established first-line treatments for trigeminal neuralgia. The shared principle is that dampening excessive neuronal firing helps in both epilepsy and this paroxysmal facial pain. The European Academy of Neurology (EAN) 2019 guideline lists lamotrigine as an add-on or second-line option, although the supporting evidence is limited. Slow dose titration is needed because of the rash risk, which can limit use in acute pain.
 
@@ -179,11 +179,12 @@ Two completed small trials (one Phase 2/3 against carbamazepine, one placebo-con
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report, and its identifier does not follow the usual MHRA "PL" format" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Bicalutamide is a non-steroidal androgen receptor antagonist. The TxGNN model pr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Bicalutamide is known as a non-steroidal androgen receptor antagonist, and on that basis a credible mechanism can be proposed.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bicalutamide: "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), label version 2026-02-27; accessed 2026-11-19.) Bicalutamide is known as a non-steroidal androgen receptor antagonist, and on that basis a credible mechanism can be proposed.
 
 Hair growth in the follicle is modulated by androgen signalling. Minoxidil-induced hypertrichosis in female pattern hair loss is plausibly influenced by this pathway, so blocking the androgen receptor offers a rational route to reducing unwanted hair growth. The only available literature is a comment on a retrospective review reporting improvement of minoxidil-induced hypertrichosis with bicalutamide. The design and results of that underlying review are not in the data compiled for this report, so the mechanistic link remains plausible but unconfirmed.
 
@@ -127,11 +127,12 @@ The mechanism is plausible and a retrospective review has been reported, but the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one single-ingredient licence is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
 
 <!-- review:end log -->
 

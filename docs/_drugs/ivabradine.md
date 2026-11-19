@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Ivabradine inhibits HCN (hyperpolarisation-activated cyclic nucleotide-gated) channels, mainly HCN4 in the sinoatrial node, which lowers heart rate. Detailed mechanism of action data is not available in the data compiled for this report, and the approved indication text is also missing, so the relationship between the original and predicted uses cannot be assessed directly.
+Ivabradine inhibits HCN (hyperpolarisation-activated cyclic nucleotide-gated) channels, mainly HCN4 in the sinoatrial node, which lowers heart rate. According to the Mechanism of Action section of the US FDA-approved prescribing information for ivabradine: "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), label version 2026-11-09; accessed 2026-11-19.) The approved indication text is also missing, so the relationship between the original and predicted uses cannot be assessed directly.
 
 No direct mechanistic link between HCN channel inhibition and hypertrichosis has been established. HCN channels are expressed in some non-cardiac tissues, but a role in hair follicle biology is speculative. Ambras-type hypertrichosis, for example, is linked to genomic rearrangements near TRPS1, which is not an HCN pathway.
 
@@ -141,11 +141,12 @@ The prediction is supported by a model score alone, with no trials, no publicati
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "(the regulatory entry is incomplete)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, and t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
 
 <!-- review:end log -->
 

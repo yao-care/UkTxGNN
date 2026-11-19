@@ -58,7 +58,7 @@ Cilazapril is an angiotensin-converting enzyme (ACE) inhibitor. The TxGNN model 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Cilazapril is, however, an ACE inhibitor. By blocking ACE it reduces angiotensin II formation, which may lessen vasoconstriction and vascular remodelling. Both processes are relevant to pulmonary vascular disease, so a mechanistic link is plausible.
+ChEMBL (EMBL-EBI) records the mechanism of action of cilazapril as: Angiotensin-converting enzyme inhibitor ([ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606), CC BY-SA 3.0; accessed 2026-11-19.) Cilazapril is, however, an ACE inhibitor. By blocking ACE it reduces angiotensin II formation, which may lessen vasoconstriction and vascular remodelling. Both processes are relevant to pulmonary vascular disease, so a mechanistic link is plausible.
 
 The weakness of this prediction is the nature of the target condition. Pulmonary hypertension with an unclear, multifactorial mechanism is heterogeneous, and a single mechanistic rationale is hard to justify. The score is a computational output only, and no study supports it directly.
 
@@ -132,11 +132,12 @@ The prediction score is high (0.9920), but there is no clinical trial or publica
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one valid single-ingredient licence is recorded, and the drug is marketed in the UK" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL515606 (cilazapril): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL515606) |
 
 <!-- review:end log -->
 

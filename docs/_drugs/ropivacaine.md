@@ -62,7 +62,7 @@ The evidence is limited to small and mixed-design studies, so this remains an ea
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels, which stops nociceptive (pain) signals from travelling along nerve fibres.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ropivacaine: "Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential." ([DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792), label version 2026-07-17; accessed 2026-11-19.) Based on known pharmacology, ropivacaine is a long-acting amide local anaesthetic that blocks voltage-gated sodium channels, which stops nociceptive (pain) signals from travelling along nerve fibres.
 
 Injecting a local anaesthetic into these points can interrupt the pain-spasm cycle. Ropivacaine is already used in trigger point injection and in fascial plane or muscle block techniques, so the proposed use is mechanistically coherent and builds on existing clinical practice. The route is local infiltration, so this is a new use of an existing injectable rather than a systemic therapy.
 
@@ -177,11 +177,12 @@ Ropivacaine has a coherent mechanism and existing clinical use in trigger point 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
 
 <!-- review:end log -->
 

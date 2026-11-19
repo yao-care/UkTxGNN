@@ -54,7 +54,7 @@ Ranitidine is a histamine H2-receptor antagonist that suppresses gastric acid se
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Ranitidine is known as an H2-receptor antagonist, and acid suppression is the basis of its use in acid-related upper gastrointestinal disease.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ranitidine: "Ranitidine Tablets are a competitive, reversible inhibitor of the action of histamine at the histamine H 2 -receptors, including receptors on the gastric cells. Ranitidine Tablets do not lower serum Ca ++ in hypercalcemic states." ([DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9), label version 2026-09-24; accessed 2026-11-19.) Ranitidine is known as an H2-receptor antagonist, and acid suppression is the basis of its use in acid-related upper gastrointestinal disease.
 
 Acid suppression can support the medical management of peptic ulcers and help prevent recurrence, which is the rationale for this prediction. However, perforation is a surgical emergency and ranitidine is not a treatment for it. The related literature (for example a randomised trial of nonoperative management of perforated ulcer, and reviews of long-term H2-antagonist maintenance) does not directly test ranitidine for perforation. The link is therefore indirect.
 
@@ -141,11 +141,12 @@ The prediction score is high (0.9988), but no registered trials and no study tes
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Ranitidine is recorded as marketed in the UK, with one valid single-ingredient licence record in the data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ranitidine prescribing information, Atland Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcf27c99-8bd4-41fb-bff8-38fed9de76d9) |
 
 <!-- review:end log -->
 

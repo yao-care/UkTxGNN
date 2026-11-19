@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **manic bipolar affective disor
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, thioridazine is a phenothiazine antipsychotic. The class acts largely through dopamine D2 receptor blockade, which is also the basis for the antimanic effect of antipsychotics as a group.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for thioridazine: "The basic pharmacological activity of thioridazine is similar to that of other phenothiazines, but is associated with minimal extrapyramidal stimulation. However, thioridazine has been shown to prolong the QTc interval in a dose dependent fashion." ([DailyMed: thioridazine hydrochloride prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56b3f4c2-52af-4947-b225-6808ae9f26f5), label version 2026-08-12; accessed 2026-11-19.) Based on general pharmacology, thioridazine is a phenothiazine antipsychotic. The class acts largely through dopamine D2 receptor blockade, which is also the basis for the antimanic effect of antipsychotics as a group.
 
 A 1980 study in manic patients reported that pimozide, a dopamine blocker, produced clinical improvement similar in size and time course to that seen with chlorpromazine and thioridazine. This is indirect support only, since the study was not designed to test thioridazine itself.
 
@@ -186,12 +186,13 @@ The prediction score is high and D2 blockade gives a plausible class-level ratio
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only licence record (a single-ingredient product with valid status)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "and the licence record carries no indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: thioridazine hydrochloride prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56b3f4c2-52af-4947-b225-6808ae9f26f5) |
 
 <!-- review:end log -->
 

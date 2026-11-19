@@ -58,7 +58,7 @@ Cimetidine is a histamine H2-receptor antagonist (acid-suppressing medicine). Th
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Cimetidine is known as an H2-receptor antagonist that reduces gastric acid secretion, and it has long been used in acid-related upper gastrointestinal disease.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cimetidine: "Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion." ([DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43), label version 2026-07-15; accessed 2026-11-19.) Cimetidine is known as an H2-receptor antagonist that reduces gastric acid secretion, and it has long been used in acid-related upper gastrointestinal disease.
 
 Perforation, however, is an acute surgical complication of peptic ulcer disease, not a condition treated by acid suppression. The publications retrieved include case reports and series of perforation occurring *during* cimetidine treatment (PMIDs 3967139, 6743974, 7082957). These point to a safety or non-protective signal rather than a therapeutic benefit. Cimetidine may lower long-term ulcer risk, but nothing here shows it treats perforation itself. The high score most likely reflects the disease's close relationship to peptic ulcer in the model's network, rather than a direct therapeutic link.
 
@@ -142,6 +142,19 @@ No study directly shows a benefit of cimetidine in peptic ulcer perforation, and
 - Mechanism of action data
 - Licence indication text, dosage form and warnings and contraindications from the SmPC and BNF
 - A review of the interaction profile for the likely patient population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

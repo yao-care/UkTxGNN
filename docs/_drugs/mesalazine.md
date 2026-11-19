@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **congenital hypotrichosis with
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, mesalazine is an aminosalicylate with anti-inflammatory activity (COX/LOX inhibition, PPAR-gamma activation and NF-kB modulation). Its efficacy in ulcerative colitis is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mesalazine: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), label version 2026-10-26; accessed 2026-11-19.) Based on known information, mesalazine is an aminosalicylate with anti-inflammatory activity (COX/LOX inhibition, PPAR-gamma activation and NF-kB modulation). Its efficacy in ulcerative colitis is well established.
 
 The predicted indication is an ultra-rare genetic disorder caused by CDH3 (cadherin-3) mutations, affecting hair follicle and retinal development. It is a structural defect, not an inflammatory disease. We could identify no plausible mechanistic link between mesalazine's anti-inflammatory action and this condition.
 
@@ -145,6 +145,19 @@ The score comes from the TxGNN model (deep learning) and may reflect similaritie
 - Complete SmPC warnings and contraindications, and confirmation of the MHRA licence details and approved indication
 - Clinical or case-level evidence in the target population, given that the condition is ultra-rare
 - If repurposing is pursued, prioritise predictions with clinical rationale, such as inflammatory joint disease, over this lower-plausibility candidate
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

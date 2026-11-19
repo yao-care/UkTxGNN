@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Aprepitant is known as a substance P/NK1 receptor antagonist. NK1 signalling has been loosely linked to vasopressin regulation and renal water handling, which is the only basis for the prediction.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for aprepitant: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), label version 2026-04-01; accessed 2026-11-19.) Aprepitant is known as a substance P/NK1 receptor antagonist. NK1 signalling has been loosely linked to vasopressin regulation and renal water handling, which is the only basis for the prediction.
 
 Nephrogenic SIAD, however, is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2). These act downstream of vasopressin release, so blocking NK1 is not expected to correct the primary defect. The very high TxGNN score is a computational output, not evidence of efficacy. The prediction should be regarded as weak biologically.
 
@@ -115,6 +115,19 @@ The prediction rests on a computational score only. There are no trials or relev
 - Preclinical or case-level evidence of aprepitant effect on urine concentration or water handling
 - Label warnings and contraindications from the SmPC and BNF, plus confirmation of the licensed indication
 - If any alternative prediction is pursued, subarachnoid haemorrhage and pulmonary hypertension have the more plausible preclinical rationale, though neither has supporting clinical evidence yet
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

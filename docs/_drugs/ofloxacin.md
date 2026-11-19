@@ -61,7 +61,7 @@ The evidence level is L5 because no cited study directly examines septicaemic pl
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ofloxacin is a fluoroquinolone, a class that inhibits bacterial DNA gyrase and topoisomerase IV, enzymes needed for bacterial DNA replication. This is general class knowledge rather than data from the compiled record.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ofloxacin: "Ofloxacin exerts its antibacterial activity by inhibiting DNA gyrase, a bacterial topoisomerase. DNA gyrase is an essential enzyme which controls DNA topology and assists in DNA replication, repair, deactivation, and transcription." ([DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de), label version 2026-10-23; accessed 2026-11-19.) Ofloxacin is a fluoroquinolone, a class that inhibits bacterial DNA gyrase and topoisomerase IV, enzymes needed for bacterial DNA replication. This is general class knowledge rather than data from the compiled record.
 
 The relationship to the original uses is straightforward. Ofloxacin is already used against a range of bacterial infections, and plague is also a bacterial infection. *Yersinia pestis* is susceptible to fluoroquinolones in laboratory testing. Plague is therefore a biologically plausible target, unlike the other high-scoring predictions for this drug (such as hyperviscosity syndrome or congenital analbuminemia), which have no credible mechanism.
 
@@ -160,11 +160,12 @@ Septicaemic plague is a biologically plausible target, but the evidence is limit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with a valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->
 

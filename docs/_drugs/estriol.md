@@ -60,7 +60,7 @@ Support is limited: **no registered clinical trials** and **6 publications**, of
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Pharmacology records show that estriol acts on oestrogen receptor alpha (ESR1) and oestrogen receptor beta (ESR2). It is generally described as a weak oestrogen with preferential receptor beta activity.
+ChEMBL (EMBL-EBI) records the mechanism of action of estriol as: Estrogen receptor modulator ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; accessed 2026-11-19.) Pharmacology records show that estriol acts on oestrogen receptor alpha (ESR1) and oestrogen receptor beta (ESR2). It is generally described as a weak oestrogen with preferential receptor beta activity.
 
 In functional hypothalamic amenorrhoea, stress, low energy availability or other stressors suppress pulsatile GnRH secretion from the hypothalamus. This lowers LH and FSH release, reduces ovarian function and leaves the woman hypo-oestrogenic. Replacing or modulating oestrogen signalling is therefore biologically plausible.
 
@@ -140,6 +140,19 @@ The evidence consists of one small physiological study and one review in FHA, wi
 - Clinical efficacy data (menstrual recovery, ovulation) from controlled studies in FHA
 - Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream
 - A comparison with established FHA management (lifestyle and nutritional correction, and standard hormone therapy)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

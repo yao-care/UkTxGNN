@@ -60,7 +60,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tocofersolan is a water-soluble derivative of vitamin E with antioxidant activity. Its approved indication was not recorded in the data compiled for this report, so the relationship between the original and predicted indications cannot be assessed.
+ChEMBL (EMBL-EBI) records the mechanism of action of tocofersolan as: Nutritional support ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, tocofersolan is a water-soluble derivative of vitamin E with antioxidant activity. Its approved indication was not recorded in the data compiled for this report, so the relationship between the original and predicted indications cannot be assessed.
 
 A link to amenorrhoea is speculative. Vitamin E has been loosely discussed in relation to reproductive hormone balance and oxidative stress, but no mechanism has been established for this drug. The high TxGNN score is a computational output only and is not supported by any trial or literature evidence.
 
@@ -120,6 +120,19 @@ The prediction is supported only by the TxGNN model score, with no clinical tria
 - A systematic literature and trial registry search for vitamin E in amenorrhoea
 - Clinical review of whether amenorrhoea is a credible target, or whether a more plausible candidate from the prediction list (for example acne) should be prioritised
 - Confirmation of route and formulation suitability for any new indication
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

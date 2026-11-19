@@ -54,7 +54,7 @@ Tizanidine is a central alpha-2 adrenergic agonist. The TxGNN model predicts it 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known pharmacology, tizanidine is a central alpha-2 adrenergic agonist. It may reduce trigeminal nociceptive transmission and central sensitisation, and may lower the muscle tension that contributes to headache.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tizanidine: "Tizanidine is a central alpha-2-adrenergic receptor agonist and presumably reduces spasticity by increasing presynaptic inhibition of motor neurons. The effects of tizanidine are greatest on polysynaptic pathways. The overall effect of these actions is thought to reduce facilitation of spinal motor neurons." ([DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08), label version 2026-01-02; accessed 2026-11-19.) Based on known pharmacology, tizanidine is a central alpha-2 adrenergic agonist. It may reduce trigeminal nociceptive transmission and central sensitisation, and may lower the muscle tension that contributes to headache.
 
 This makes a role in migraine prevention plausible, particularly for chronic daily headache with a muscle-tension component. The link is inferred from known pharmacology rather than from mechanism data in the compiled record.
 
@@ -124,6 +124,18 @@ One placebo-controlled randomised trial in chronic daily headache, in which most
 - Mechanism-of-action data to support the inferred pharmacological link
 - Label warnings and contraindications from the SmPC and BNF, including interaction management with the major-level interacting drugs
 - A defined prophylaxis population (episodic versus chronic migraine) and a monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zanaflex (tizanidine hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=60c27d35-7349-4fc6-86ad-70fffdbe3e08) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

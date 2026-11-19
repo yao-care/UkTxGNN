@@ -58,7 +58,7 @@ Clobazam is a benzodiazepine-class anti-seizure medicine that acts on GABA-A rec
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Clobazam is, however, a well-known GABA-A positive allosteric modulator. Febrile infection-related epilepsy syndrome (FIRES) is a severe, refractory epileptic encephalopathy in which GABAergic agents such as midazolam, lorazepam and barbiturates are used to control seizures.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clobazam: "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), label version 2026-10-16; accessed 2026-11-19.) Clobazam is, however, a well-known GABA-A positive allosteric modulator. Febrile infection-related epilepsy syndrome (FIRES) is a severe, refractory epileptic encephalopathy in which GABAergic agents such as midazolam, lorazepam and barbiturates are used to control seizures.
 
 The mechanistic link is therefore plausible at class level. However, the retrieved literature concerns other agents (enteral lorazepam and perampanel), not clobazam. The support for clobazam in FIRES is indirect and comes from the related benzodiazepine class.
 
@@ -148,11 +148,12 @@ The TxGNN score is high (0.9982), and a GABAergic rationale exists. However, no 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clobazam is marketed in the UK, with one valid single-ingredient licence recorded in the local data. The licence record carries no product-l" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
 
 <!-- review:end log -->
 

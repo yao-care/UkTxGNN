@@ -59,7 +59,7 @@ but there are **no registered clinical trials** and only **general migraine lite
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, rizatriptan is a serotonin 5-HT1B/1D receptor agonist. Its effect is thought to come from cranial blood vessel constriction and inhibition of release of pro-inflammatory neuropeptides such as CGRP along the trigeminovascular pathway.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rizatriptan: "Rizatriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Rizatriptan presumably exerts its therapeutic effects in the treatment of migraine headache by binding to 5-HT 1B/1D receptors located on intracranial blood vessels and sensory nerves of the trigeminal system." ([DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce), label version 2025-11-26; accessed 2026-11-19.) Based on known class pharmacology, rizatriptan is a serotonin 5-HT1B/1D receptor agonist. Its effect is thought to come from cranial blood vessel constriction and inhibition of release of pro-inflammatory neuropeptides such as CGRP along the trigeminovascular pathway.
 
 Migraine with brainstem aura is a subtype of migraine with aura (formerly basilar-type migraine). It shares the trigeminovascular pathway with the migraine types rizatriptan is already used for, so there is a plausible mechanistic overlap.
 
@@ -164,11 +164,12 @@ There is no trial evidence and no literature specific to brainstem aura, and the
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report contain one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rizatriptan prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f000d96c-42a0-4aac-96ca-8cef289979ce) |
 
 <!-- review:end log -->
 

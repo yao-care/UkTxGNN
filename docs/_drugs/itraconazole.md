@@ -60,7 +60,7 @@ The prediction is best regarded as a model artefact rather than a credible repur
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. From general pharmacology, itraconazole inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. This underlies its activity against moulds and endemic fungi such as *Aspergillus* and *Histoplasma*.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for itraconazole: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), label version 2026-07-13; accessed 2026-11-19.) From general pharmacology, itraconazole inhibits fungal lanosterol 14-alpha-demethylase (CYP51), which blocks ergosterol synthesis in the fungal cell membrane. This underlies its activity against moulds and endemic fungi such as *Aspergillus* and *Histoplasma*.
 
 The high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as other fungal infections, not biological evidence. It probably does not reflect a true mechanistic fit. *Pneumocystis jirovecii* lacks ergosterol in its cell membrane and uses cholesterol instead, so azole antifungals are not expected to be effective. Co-trimoxazole (trimethoprim-sulfamethoxazole) remains the standard of care for both treatment and prophylaxis.
 
@@ -145,6 +145,19 @@ The prediction rests on model output alone (L4 evidence). *Pneumocystis* lacks e
 - Preclinical evidence (in vitro or animal) of itraconazole activity against *Pneumocystis*, with a plausible non-ergosterol mechanism
 - Mechanism of action data and SmPC-based warnings and contraindications for the UK product
 - A clear clinical niche (for example, co-trimoxazole intolerance) before any clinical study is considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

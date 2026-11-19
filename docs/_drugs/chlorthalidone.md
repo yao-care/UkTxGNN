@@ -54,7 +54,7 @@ Chlorthalidone is a thiazide-like diuretic. The TxGNN model predicts it may be e
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available for chlorthalidone. It is a thiazide-like diuretic, and its main established effect is to reduce fluid volume and lower blood pressure.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for chlorthalidone: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), label version 2026-06-25; accessed 2026-11-19.) It is a thiazide-like diuretic, and its main established effect is to reduce fluid volume and lower blood pressure.
 
 No supporting trials or literature were identified for primary hereditary glaucoma. Thiazide-like diuretics are not an established glaucoma therapy, and any effect on intraocular pressure would be speculative. Chlorthalidone has weak carbonic anhydrase inhibitory activity, which is the mechanism of some glaucoma drugs. This link is plausible but is not supported by the data compiled for this report. The high score is a model prediction only.
 
@@ -126,11 +126,12 @@ The prediction has a very high model score but no trials or publications on prim
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show the drug as marketed, with 4 valid single-ingredient licence records and no cancelled records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available for chlorthalidone" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
 
 <!-- review:end log -->
 

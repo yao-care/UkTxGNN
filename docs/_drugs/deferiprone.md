@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hepatic porphyria**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Deferiprone is known to be an oral iron chelator. Its efficacy in transfusional iron overload in haemoglobinopathies is established, and mechanistically it may be applicable to iron-dependent porphyrias.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for deferiprone: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), label version 2026-01-28; accessed 2026-11-19.) Deferiprone is known to be an oral iron chelator. Its efficacy in transfusional iron overload in haemoglobinopathies is established, and mechanistically it may be applicable to iron-dependent porphyrias.
 
 In porphyria cutanea tarda-type uroporphyria, excess hepatic iron is thought to inhibit uroporphyrinogen decarboxylase. Removing iron could therefore reduce porphyrin accumulation. A mouse model of uroporphyria compared deferiprone with iron-deficient diets, and a 2020 mouse study in congenital erythropoietic porphyria found that iron chelation improved haemolytic anaemia and skin photosensitivity.
 
@@ -117,6 +117,19 @@ The hepatic porphyria prediction has a plausible iron-related mechanism, but the
 - Confirmation of the UK authorisation details (indication, dosage form, manufacturer)
 - Human evidence in hepatic porphyria, such as case series or a pilot trial, ideally in iron-overloaded porphyria cutanea tarda
 - A safety plan for the known haematological risks of deferiprone, including neutropenia and agranulocytosis, in this new population
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

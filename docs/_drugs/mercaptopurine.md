@@ -54,7 +54,7 @@ Mercaptopurine is a purine antimetabolite used in cytotoxic chemotherapy. The Tx
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide (TGN) metabolites are incorporated into DNA and inhibit de novo purine synthesis, so it can act on rapidly dividing leukaemic blasts.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for mercaptopurine: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), label version 2026-07-22; accessed 2026-11-19.) Mercaptopurine is a purine antimetabolite. Its thioguanine nucleotide (TGN) metabolites are incorporated into DNA and inhibit de novo purine synthesis, so it can act on rapidly dividing leukaemic blasts.
 
 Myeloid leukaemia is also a malignancy of proliferating haematopoietic cells, so an antimetabolite mechanism is plausible. In myeloid disease, however, mercaptopurine has mostly been used as part of multi-agent regimens. These include oral mercaptopurine/methotrexate maintenance in acute myeloid leukaemia (AML), ALL-like consolidation in childhood AML, and maintenance in acute promyelocytic leukaemia. The contribution of mercaptopurine itself cannot be separated from the rest of the regimen.
 
@@ -145,6 +145,18 @@ The mechanism is plausible and the TxGNN score is high (0.9994). The clinical ev
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the SmPC and BNF
 - A haematological and pharmacogenetic (TPMT/NUDT15) monitoring plan
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

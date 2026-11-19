@@ -56,7 +56,7 @@ None has any trial or literature support.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, treosulfan is a prodrug that converts to epoxide intermediates, which alkylate DNA. It is used for conditioning before haematopoietic stem cell transplantation, where its cytotoxic and myelosuppressive effects are the intended action.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for treosulfan: "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), label version 2025-01-31; accessed 2026-11-19.) From general pharmacology, treosulfan is a prodrug that converts to epoxide intermediates, which alkylate DNA. It is used for conditioning before haematopoietic stem cell transplantation, where its cytotoxic and myelosuppressive effects are the intended action.
 
 **The prediction is not supported by a plausible mechanism.** Diabetic cataract is driven by hyperglycaemia-related lens damage (polyol pathway, oxidative stress), which is unrelated to DNA alkylation. The same applies to the other predicted conditions:
 
@@ -118,6 +118,19 @@ No drug-disease contraindication edges or drug interaction records were identifi
 - Complete UK licence details (dosage form, manufacturer, approved indications) and the full SmPC warnings and contraindications
 - Route and formulation feasibility assessment, since no ocular-suitable route has been identified
 - A benefit-risk analysis against current standard care (cataract surgery, anti-VEGF, laser, corticosteroids)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

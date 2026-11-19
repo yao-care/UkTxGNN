@@ -59,7 +59,7 @@ The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm**, but th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, primidone is an anticonvulsant that is metabolised to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but no mechanistic basis for anti-tumour activity in trigeminal nerve neoplasm is supported by the data compiled for this report.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for primidone: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), label version 2026-09-10; accessed 2026-11-19.) Based on known information, primidone is an anticonvulsant that is metabolised to phenobarbital and phenylethylmalonamide (PEMA). Its efficacy in epilepsy is established, but no mechanistic basis for anti-tumour activity in trigeminal nerve neoplasm is supported by the data compiled for this report.
 
 The high TxGNN score (0.9999) is a computational prediction only. Any benefit in a trigeminal nerve tumour would be speculative, for example symptomatic relief of neuropathic pain rather than a treatment effect on the tumour.
 
@@ -177,11 +177,12 @@ The top prediction, trigeminal nerve neoplasm, rests on a model score alone, wit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The product is marketed as a single-ingredient, valid authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
 
 <!-- review:end log -->
 

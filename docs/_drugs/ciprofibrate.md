@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **cholesterol-ester transfer prot
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Ciprofibrate is known as a fibrate and a PPAR-alpha agonist (the target is listed in the pharmacology records), which modulates lipoprotein metabolism by lowering triglycerides and raising HDL cholesterol.
+ChEMBL (EMBL-EBI) records the mechanism of action of ciprofibrate as: Peroxisome proliferator-activated receptor alpha agonist ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0; accessed 2026-11-19.) Ciprofibrate is known as a fibrate and a PPAR-alpha agonist (the target is listed in the pharmacology records), which modulates lipoprotein metabolism by lowering triglycerides and raising HDL cholesterol.
 
 The proposed link to CETP deficiency runs through shared lipoprotein pathways. However, CETP deficiency is characterised by already markedly raised HDL cholesterol, so there is no clear therapeutic reason to give an HDL-raising drug. The only retrieved publication describes a fibrate-associated paradoxical rise in cholesterol in apolipoprotein E-deficient mice, which is not evidence of benefit in CETP deficiency. The high score is a computational prediction and should be treated as a hypothesis only.
 
@@ -115,11 +115,12 @@ No study directly examines ciprofibrate in CETP deficiency, so the evidence leve
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation. The licence record has no indication text, so it does not " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ There are currently **no clinical trials and no publications** supporting this p
 
 ## Why is This Prediction Reasonable?
 
-Bendroflumethiazide is a thiazide diuretic. It blocks sodium and chloride reabsorption in the distal convoluted tubule, increasing salt and water excretion and lowering blood pressure. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the thiazide class.
+Bendroflumethiazide is a thiazide diuretic. It blocks sodium and chloride reabsorption in the distal convoluted tubule, increasing salt and water excretion and lowering blood pressure. ChEMBL (EMBL-EBI) records the mechanism of action of bendroflumethiazide as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; accessed 2026-11-19.) This description reflects the known pharmacology of the thiazide class.
 
 The link to hypertensive renal disease is plausible only through blood pressure lowering. The strength of the prediction should be read with caution. Malignant hypertension is a hypertensive emergency, usually managed with rapid-acting parenteral agents, and thiazides are not a standard treatment. Thiazide efficacy is also reduced in advanced renal impairment. The high score most likely reflects the closeness of this disease to hypertension in the model's training data rather than independent evidence.
 
@@ -151,11 +151,12 @@ The prediction has no supporting trials or publications (evidence level L5). Mal
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded, and no cancelled ones" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
 
 <!-- review:end log -->
 

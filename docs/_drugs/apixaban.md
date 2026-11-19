@@ -58,7 +58,7 @@ Apixaban is an oral anticoagulant that directly inhibits factor Xa. The TxGNN mo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Apixaban is known as a direct factor Xa inhibitor, which reduces thrombin generation and clot formation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for apixaban: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), label version 2026-09-24; accessed 2026-11-19.) Apixaban is known as a direct factor Xa inhibitor, which reduces thrombin generation and clot formation.
 
 The only proposed link to migraine is a hypothesis: in a subset of people with migraine with aura, paradoxical embolism (for example through a patent foramen ovale) or a hypercoagulable state (for example antiphospholipid antibodies) might contribute to attacks, so anticoagulation could in theory help. There is no established mechanism supporting factor Xa inhibition as a migraine treatment, and the available case reports point in contradictory or unfavourable directions. The model score should therefore be treated as a hypothesis-generating signal only.
 
@@ -121,6 +121,18 @@ No study supports apixaban for migraine. The two case reports describe migraine 
 - Mechanistic data supporting a role for factor Xa inhibition in migraine
 - Prospective studies that directly examine apixaban in migraine, ideally in defined subgroups (for example migraine with aura and PFO or antiphospholipid antibodies)
 - Review of the bleeding risk of anticoagulation in a non-thrombotic condition such as migraine
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

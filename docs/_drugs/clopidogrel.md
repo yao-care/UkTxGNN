@@ -58,7 +58,7 @@ Clopidogrel is an oral antiplatelet medicine that blocks the P2Y12 receptor on p
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. Clopidogrel is known as a P2Y12 inhibitor. By reducing platelet activation, it may limit microembolic and platelet-derived (for example serotonin-mediated) triggers of migraine aura. This has been proposed particularly for people with a PFO.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for clopidogrel: "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), label version 2025-05-30; accessed 2026-11-19.) Clopidogrel is known as a P2Y12 inhibitor. By reducing platelet activation, it may limit microembolic and platelet-derived (for example serotonin-mediated) triggers of migraine aura. This has been proposed particularly for people with a PFO.
 
 The published work looks at migraine with aura and PFO more broadly, including a pilot randomised trial of clopidogrel as migraine prophylaxis, retrospective reviews and case series. None of it studies the brainstem aura subtype specifically. Any benefit for this subtype is therefore an extrapolation from the wider migraine-with-aura population.
 
@@ -155,11 +155,12 @@ No study in the data compiled for this report addresses migraine with brainstem 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clopidogrel is marketed in the UK, and at least one valid single-ingredient authorisation is recorded in the local data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

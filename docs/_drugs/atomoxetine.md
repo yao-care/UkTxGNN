@@ -60,7 +60,7 @@ No clinical trials are registered for this condition, and none of the 14 publica
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Atomoxetine is a selective norepinephrine reuptake inhibitor, so it acts on noradrenergic signalling, which is involved in attention and executive control.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for atomoxetine: "The precise mechanism by which STRATTERA produces its therapeutic effects in ADHD is unknown, but is thought to be related to selective inhibition of the pre-synaptic norepinephrine transporter, as determined in ex vivo uptake and neurotransmitter depletion studies." ([DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb), label version 2026-06-30; accessed 2026-11-19.) Atomoxetine is a selective norepinephrine reuptake inhibitor, so it acts on noradrenergic signalling, which is involved in attention and executive control.
 
 Specific developmental disorders, such as learning disabilities, frequently co-occur with attention-deficit symptoms. Any benefit seen in these populations is therefore likely to be on attentional symptoms rather than on the underlying learning or developmental disorder. The linked literature is indirect: it covers attention-deficit symptoms in children with autism and in patients with common comorbidities. It does not test atomoxetine for a specific developmental disorder.
 
@@ -151,11 +151,12 @@ The prediction rests on the model score alone (L5). No registered trial and no p
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Overall status: **Marketed**. One valid single-ingredient authorisation is recorded" | No longer present after the report was regenerated (2026-11-12: the report was regenerated in 2026-11 and no longer contains this statement; was: Corrected) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Strattera (atomoxetine hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=309de576-c318-404a-bc15-660c2b1876fb) |
 
 <!-- review:end log -->
 

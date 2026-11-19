@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **ectothrix infectious disease** (
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clioquinol is a topical antimicrobial that is thought to act by chelating metals such as zinc and copper, which may disrupt fungal metal homeostasis. This proposed mechanism is not confirmed by the data compiled for this report.
+ChEMBL (EMBL-EBI) records the mechanism of action of clioquinol as: Zinc chelating agent; Copper chelating agent; Iron chelating agent ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; accessed 2026-11-19.) Clioquinol is a topical antimicrobial that is thought to act by chelating metals such as zinc and copper, which may disrupt fungal metal homeostasis. This proposed mechanism is not confirmed by the data compiled for this report.
 
 The TxGNN model (deep learning) gives ectothrix infectious disease a score of 0.9926. This score may reflect similarities the model learned between related diseases, such as other dermatophyte infections, not biological evidence. Ectothrix infection is a dermatophyte infection in which fungal arthroconidia form on the outside of the hair shaft (for example, *Microsporum* and some *Trichophyton* species).
 
@@ -149,11 +149,12 @@ The prediction rests on model output and similarity to existing dermatophyte use
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The records compiled for this report list five single-ingredient clioquinol authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ but there are currently **no registered clinical trials** and only **indirect li
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known class pharmacology, naratriptan is a selective 5-HT1B/1D receptor agonist. It is thought to act by constricting cranial blood vessels and inhibiting release of pain-related neuropeptides (such as CGRP) from trigeminal nerve endings.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for naratriptan: "Naratriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (including substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938), label version 2026-08-07; accessed 2026-11-19.) Based on known class pharmacology, naratriptan is a selective 5-HT1B/1D receptor agonist. It is thought to act by constricting cranial blood vessels and inhibiting release of pain-related neuropeptides (such as CGRP) from trigeminal nerve endings.
 
 Migraine with brainstem aura is a subtype of migraine, so it shares the underlying pathophysiology (trigeminovascular activation, CGRP release, cranial vasodilation). This makes a mechanistic link plausible.
 
@@ -137,11 +137,12 @@ The prediction rests on model output and class pharmacology alone, with no trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Marketing authorisation details recorded for this product are incomplete (no UK licence number, dosage form or approved indication text is a" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ No clinical trials are registered for this disease, and the two retrieved public
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Aciclovir is a guanosine analogue antiviral that is generally understood to act against herpesviruses by being activated by viral thymidine kinase and inhibiting viral DNA synthesis.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for acyclovir: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), label version 2026-06-26; accessed 2026-11-19.) Aciclovir is a guanosine analogue antiviral that is generally understood to act against herpesviruses by being activated by viral thymidine kinase and inhibiting viral DNA synthesis.
 
 A mechanistic link is plausible only if the keratoconjunctivitis in question is herpesvirus-related. The two retrieved papers concern microsporidial keratoconjunctivitis and drug-induced corneal lipidosis in AIDS. Neither condition is expected to respond to aciclovir. The high TxGNN score is therefore not supported by clinical data, and the prediction should be treated as a hypothesis only.
 
@@ -120,6 +120,19 @@ The prediction has a high model score but no supporting clinical trials or relev
 - Detailed mechanism of action data
 - Review of ophthalmic route and formulation options, as the UK products identified are an oral suspension and topical creams
 - Warnings and contraindications from the SmPC and BNF
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

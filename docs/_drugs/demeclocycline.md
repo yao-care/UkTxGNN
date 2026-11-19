@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **chronic ethmoidal sinusitis**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, demeclocycline belongs to the tetracycline class, which acts against a range of bacteria by inhibiting protein synthesis. Bacterial infection is one recognised contributor to chronic sinus disease, so an antibacterial effect is a plausible, though unproven, link.
+According to the Clinical Pharmacology and Microbiology sections of the US FDA-approved prescribing information for demeclocycline: "The tetracyclines are primarily bacteriostatic and are thought to exert their antimicrobial effect by the inhibition of protein synthesis. The tetracyclines, including demeclocycline have a similar antimicrobial spectrum of activity against a wide range of gram-negative and gram-positive organisms." ([DailyMed: Demeclocycline Hydrochloride (demeclocycline) prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=539add06-e0a0-401a-b4f6-20776084aa9c), label version 2026-04-02; accessed 2026-11-19.) Based on general knowledge, demeclocycline belongs to the tetracycline class, which acts against a range of bacteria by inhibiting protein synthesis. Bacterial infection is one recognised contributor to chronic sinus disease, so an antibacterial effect is a plausible, though unproven, link.
 
 Tetracyclines have also been reported to have anti-inflammatory effects, including inhibition of matrix metalloproteinases, which could in principle be relevant to chronic sinus inflammation. This remains a hypothesis. It cannot be verified from the data compiled for this report, and no evidence specific to demeclocycline in this condition was found.
 
@@ -124,11 +124,12 @@ The prediction is supported only by a high model score (0.9914). No trials or pu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient record is listed, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Demeclocycline Hydrochloride (demeclocycline) prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=539add06-e0a0-401a-b4f6-20776084aa9c) |
 
 <!-- review:end log -->
 

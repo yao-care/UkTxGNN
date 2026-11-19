@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication** (a 19
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, buprenorphine is a partial mu-opioid receptor agonist (and kappa antagonist) whose efficacy in opioid dependence is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for buprenorphine: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), label version 2026-07-27; accessed 2026-11-19.) Based on known information, buprenorphine is a partial mu-opioid receptor agonist (and kappa antagonist) whose efficacy in opioid dependence is established.
 
 There is no established mechanistic link between buprenorphine and the pathophysiology of acute intermittent porphyria, which is a heme biosynthesis disorder caused by porbilinogen deaminase (PBGD) deficiency. Opioids are sometimes used to control the severe pain of acute porphyria attacks, which may explain the association the model learned. However, that is symptom relief, not disease modification. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. It has no clinical support and should be read with caution.
 
@@ -137,6 +137,18 @@ All were assessed as **Hold**:
 | Continuous spikes and waves during sleep | 0.9905 | L5 | Prediction only. Opioids can lower seizure threshold in some settings, a potential safety concern. |
 | Benign shuddering attacks | 0.9903 | L5 | Prediction only. The condition is benign and self-limiting, so an opioid would have an unfavourable risk-benefit balance. |
 | Extrapyramidal and movement disease | 0.9903 | L5 | Prediction only. A broad category, and the score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. |
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

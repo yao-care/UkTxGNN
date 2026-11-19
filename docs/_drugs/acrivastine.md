@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **recalcitrant atopic dermatitis**
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Acrivastine belongs to the class of second-generation H1-receptor antagonists with limited sedation.
+ChEMBL (EMBL-EBI) records the mechanism of action of acrivastine as: Histamine H1 receptor antagonist ([ChEMBL CHEMBL1224 (acrivastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1224), CC BY-SA 3.0; accessed 2026-11-19.) Acrivastine belongs to the class of second-generation H1-receptor antagonists with limited sedation.
 
 Histamine contributes to itch in atopic dermatitis, so H1 blockade offers a plausible symptomatic (anti-pruritic) rationale. However, itch in atopic dermatitis is driven largely by non-histaminergic pathways (IL-4/IL-13, IL-31, TSLP and neuroimmune signalling). Guideline-based reviews report limited benefit from H1 antihistamines, particularly in recalcitrant or moderate-to-severe disease.
 
@@ -119,11 +119,12 @@ The prediction score is high, but there are no trials or publications studying a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One single-ingredient authorisation is recorded and it is currently valid. The record gives no manufacturer, dosage-form field or indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1224 (acrivastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1224) |
 
 <!-- review:end log -->
 

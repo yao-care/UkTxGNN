@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **renal hypouricaemia**, but the 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Probenecid is, however, a known uricosuric. It inhibits the renal urate transporter URAT1 (SLC22A12) and the organic anion transporters OAT1 and OAT3. This reduces urate reabsorption in the kidney and lowers serum urate, which is why it is used in gout.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for probenecid: "Probenecid is a uricosuric and renal tubular blocking agent." ([DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069), label version 2026-11-06; accessed 2026-11-19.) Probenecid is, however, a known uricosuric. It inhibits the renal urate transporter URAT1 (SLC22A12) and the organic anion transporters OAT1 and OAT3. This reduces urate reabsorption in the kidney and lowers serum urate, which is why it is used in gout.
 
 The predicted indication is mechanistically problematic. Hereditary renal hypouricaemia is caused by loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). These variants already cause excessive urinary urate loss. Probenecid would be expected to **worsen** this defect rather than correct it. It could increase urate wasting and the risk of exercise-induced acute kidney injury and urolithiasis.
 
@@ -158,11 +158,12 @@ The mechanism points in the wrong direction. A drug that increases renal urate e
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation in the compiled data, and the identifier does not follow the usual PL number format" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
 
 <!-- review:end log -->
 

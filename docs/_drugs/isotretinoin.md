@@ -54,7 +54,7 @@ The TxGNN model predicts it may be effective for **malignant renovascular hypert
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. The original indications recorded in the knowledge graph (hypertensive disorder, hypertension) are unusual for isotretinoin, which is a retinoid known mainly for treating severe acne.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for isotretinoin: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), label version 2026-09-20; accessed 2026-11-19.) The original indications recorded in the knowledge graph (hypertensive disorder, hypertension) are unusual for isotretinoin, which is a retinoid known mainly for treating severe acne.
 
 The only mechanistic link that can be proposed is speculative: in preclinical settings, retinoids have been reported to influence renin-angiotensin signalling, renal vascular remodelling and renin expression. This is not supported by the data compiled for this report.
 
@@ -126,6 +126,19 @@ The recorded original indications look inconsistent with isotretinoin's actual u
 - Label-based warnings and contraindications from the SmPC and BNF, and confirmation of the licence details with the MHRA
 - Preclinical or clinical evidence that retinoids affect renovascular or malignant hypertension
 - A risk assessment covering teratogenicity, lipid effects, renal effects and the interaction burden
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

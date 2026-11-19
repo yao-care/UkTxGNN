@@ -68,7 +68,7 @@ The first-ranked TxGNN prediction (esotropia) has no clinical support. This repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the compiled data. Hyaluronidase is known to degrade hyaluronan, a major component of the extracellular matrix and the vitreous gel.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for hyaluronidase: "Hyaluronidase is a dispersion agent, which modifies the permeability of connective tissue through the hydrolysis of hyaluronic acid, a polysaccharide found in the intercellular ground substance of connective tissue, and of certain specialized tissues, such as the umbilical cord and vitreous humor. Hyaluronic acid is also present in the capsules of type A and C hemolytic streptococci." ([DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658), label version 2024-11-11; accessed 2026-11-19.) Hyaluronidase is known to degrade hyaluronan, a major component of the extracellular matrix and the vitreous gel.
 
 In the eye, this is the basis of "pharmacologic vitreolysis". The enzyme liquefies the vitreous and promotes posterior vitreous detachment. This may improve diffusion of oxygen and nutrients and help clear vitreous haemorrhage. It may also reduce vitreous-driven VEGF/HIF-1α signalling, which contributes to diabetic retinopathy progression. Animal studies support this (diabetic rats, enzyme-induced vitreolysis acting through the HIF-1α pathway, and retinal endothelial glycocalyx work in mice). A 2026 study of dysregulated hyaluronan metabolism in proliferative diabetic retinopathy has renewed mechanistic interest.
 
@@ -161,12 +161,13 @@ Diabetic retinopathy is the only prediction with substantial evidence: two compl
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "and it has one UK marketing authorisation (a 1,500 unit injection ampoule)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The marketing authorisation is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
 
 <!-- review:end log -->
 

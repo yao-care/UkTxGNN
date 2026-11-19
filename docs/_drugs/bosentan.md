@@ -54,7 +54,7 @@ Bosentan is a dual endothelin receptor antagonist (ETA/ETB). The TxGNN model pre
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Bosentan is known as a dual endothelin receptor antagonist, and the rationale below rests on that class property.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for bosentan: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), label version 2025-11-17; accessed 2026-11-19.) Bosentan is known as a dual endothelin receptor antagonist, and the rationale below rests on that class property.
 
 Endothelin-1 is reported to contribute to synovial inflammation, vasculopathy and release of inflammatory mediators (TNF-alpha, LTB4, IL-17 axis). In mouse models, bosentan reduced inflammation in collagen-induced arthritis, with a TNF-alpha-dependent component. Selective endothelin receptor blockade also reduced neutrophil accumulation and oedema in zymosan-induced arthritis. These findings give a plausible biological link, but they come from animal models only.
 
@@ -126,11 +126,12 @@ The prediction score is high (0.9980), but the supporting evidence is limited to
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The status of this licence is valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

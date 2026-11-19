@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **duodenal ulcer**, but **no cl
 
 ## Why is This Prediction Reasonable?
 
-Teriparatide is the active fragment (1-34) of human parathyroid hormone. Pharmacology data show it acts on the PTH1 receptor (and is also listed against the PTH2 receptor). In osteoporosis it works as a bone-building (anabolic) agent, stimulating osteoblast-driven bone formation. Detailed mechanism-of-action data were not available beyond these receptor targets.
+Teriparatide is the active fragment (1-34) of human parathyroid hormone. Pharmacology data show it acts on the PTH1 receptor (and is also listed against the PTH2 receptor). In osteoporosis it works as a bone-building (anabolic) agent, stimulating osteoblast-driven bone formation. According to the Mechanism of Action section of the US FDA-approved prescribing information for teriparatide: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), label version 2026-08-31; accessed 2026-11-19.)
 
 On the data compiled for this report, **no plausible mechanistic link** between anabolic PTH signalling and duodenal ulcer healing is evident. Osteoporosis is a skeletal disease, whereas duodenal ulcer is a mucosal disease of the upper gastrointestinal tract. No shared pathway, supporting study or clinical observation connects them.
 
@@ -142,11 +142,12 @@ The duodenal ulcer prediction has a high model score but no trials, no literatur
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The listing is a single marketed single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available beyond these receptor targets" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, ramipril is an ACE inhibitor. It reduces the conversion of angiotensin I to angiotensin II, lowering angiotensin II-mediated vasoconstriction and vascular remodelling.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for ramipril: "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, ramipril is an ACE inhibitor. It reduces the conversion of angiotensin I to angiotensin II, lowering angiotensin II-mediated vasoconstriction and vascular remodelling.
 
 Its efficacy in systemic hypertension is established. Because the renin-angiotensin system is also implicated in pulmonary vascular tone and remodelling, ACE inhibition is mechanistically plausible in pulmonary hypertension. This is a theoretical link only: no trials or literature were supplied for the top-ranked indication.
 
@@ -145,6 +145,19 @@ The top-ranked prediction rests on model output alone (L5), with no trials or li
 - Approved indication text and dosage form details for the UK marketing authorisation
 - SmPC-based safety data (warnings and contraindications), and a review of the safety implications of the knowledge-graph contraindications, particularly renal disease
 - If a repurposing direction is pursued, consider prioritising cerebral artery occlusion, which has the strongest (though still L4) evidence among the predictions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

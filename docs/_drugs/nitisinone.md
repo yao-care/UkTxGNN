@@ -54,7 +54,7 @@ Nitisinone was originally used to treat hereditary tyrosinaemia. The TxGNN model
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the rationale in the data, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD) and is used in hereditary tyrosinaemia type 1. In that condition, renal tubular dysfunction (Fanconi-type proximal tubulopathy) is a recognised feature.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for nitisinone: "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), label version 2026-10-21; accessed 2026-11-19.) Based on the rationale in the data, nitisinone inhibits 4-hydroxyphenylpyruvate dioxygenase (HPPD) and is used in hereditary tyrosinaemia type 1. In that condition, renal tubular dysfunction (Fanconi-type proximal tubulopathy) is a recognised feature.
 
 The link to renal tubular acidosis is therefore indirect. Treatment may improve tubular function secondary to tyrosinaemia, but nothing suggests it treats primary renal tubular acidosis. The high TxGNN score most likely reflects network proximity to tyrosinaemia-associated tubulopathy rather than a validated mechanism.
 
@@ -141,11 +141,12 @@ The prediction has no clinical trials or publications behind it (evidence level 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
 
 <!-- review:end log -->
 

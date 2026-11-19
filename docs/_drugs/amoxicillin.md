@@ -59,7 +59,7 @@ The TxGNN model predicts it may be relevant to **hyperamylasaemia (hyperamylasem
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Amoxicillin is a beta-lactam antibiotic, and beta-lactams act by inhibiting bacterial cell wall synthesis.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for amoxicillin: "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), label version 2026-11-13; accessed 2026-11-19.) Amoxicillin is a beta-lactam antibiotic, and beta-lactams act by inhibiting bacterial cell wall synthesis.
 
 Hyperamylasaemia is a laboratory finding (raised serum amylase), not an infection, and it has no established antibacterial target. No mechanistic link between amoxicillin and this condition has been identified. The high TxGNN score is a model-based prediction only and is not supported by any trials or publications. On current evidence the prediction should be regarded as unsubstantiated.
 
@@ -133,6 +133,19 @@ There are no clinical trials or publications for hyperamylasaemia, no plausible 
 - Any clinical or preclinical studies that directly address this condition
 - Detailed mechanism of action data
 - Label-based warnings and contraindications from the SmPC for safety screening
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

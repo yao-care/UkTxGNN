@@ -60,7 +60,7 @@ Sulpiride selectively blocks the D2 and D3 dopamine receptors and has low affini
 
 Dopamine is an important signalling molecule in the retina, and D2-like receptors modulate the activity of retinal neurons. In animal models of retinitis pigmentosa, the retinal dopaminergic system appears to be dysfunctional. In the P23H rat model, D2 antagonists including sulpiride appeared to improve the visual responses of retinal ganglion cells. This gives a plausible but indirect link to retinal signalling.
 
-This link has limits. The studies measured electrical light responses in animal retinas. They did not show any effect on disease progression, retinal cell survival or vision in people with inherited retinal dystrophy. The relationship between schizophrenia and retinal dystrophy is purely pharmacological (a shared receptor target), not a shared disease process. Detailed mechanism of action data were not available in the data compiled for this report.
+This link has limits. The studies measured electrical light responses in animal retinas. They did not show any effect on disease progression, retinal cell survival or vision in people with inherited retinal dystrophy. The relationship between schizophrenia and retinal dystrophy is purely pharmacological (a shared receptor target), not a shared disease process. ChEMBL (EMBL-EBI) records the mechanism of action of sulpiride as: Dopamine D2 receptor antagonist ([ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26), CC BY-SA 3.0; accessed 2026-11-19.)
 
 Eight other lower-ranked predictions (hydranencephaly, polymicrogyria, Charcot-Marie-Tooth disease type 1G, several myopia subtypes, a glycosylation disorder and atypical glycine encephalopathy) have only model scores of about 0.9990 and no trials or literature. Most have no identifiable mechanistic rationale. They were not evaluated further here.
 
@@ -138,11 +138,12 @@ The prediction score is very high, but support is limited to two animal electrop
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list one valid single-ingredient product. This identifier appears to be a BNF-style product code rather th" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
 
 <!-- review:end log -->
 

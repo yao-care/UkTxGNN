@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **Ewing sarcoma**, but only **2
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on the published literature, dasatinib inhibits BCR-ABL and Src-family kinases. It also inhibits KIT and PDGFR. Its efficacy in CML is driven by BCR-ABL inhibition.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for dasatinib: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), label version 2026-10-16; accessed 2026-11-19.) Based on the published literature, dasatinib inhibits BCR-ABL and Src-family kinases. It also inhibits KIT and PDGFR. Its efficacy in CML is driven by BCR-ABL inhibition.
 
 Ewing sarcoma is a bone and soft-tissue tumour of adolescents and young adults, and it has no direct link to BCR-ABL. The rationale rests on Src and FAK signalling. Laboratory studies show that Src activity promotes invasion, migration and invadopodia formation in Ewing sarcoma cells. Dasatinib reduced proliferation and migration in Ewing sarcoma and other sarcoma cell lines, and induced apoptosis in bone sarcoma cells that depend on Src.
 
@@ -182,11 +182,12 @@ For context, the same data identify **myeloid leukaemia** as the best-supported 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

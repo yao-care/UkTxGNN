@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but this re
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, lanreotide is a somatostatin analogue that suppresses growth hormone (GH) and insulin-like growth factor 1 (IGF-1). Its efficacy in acromegaly is established, and mechanistically it may be applicable to conditions in which the GH/IGF-1 axis influences tissue growth.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for lanreotide: "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), label version 2024-10-11; accessed 2026-11-19.) Based on known information, lanreotide is a somatostatin analogue that suppresses growth hormone (GH) and insulin-like growth factor 1 (IGF-1). Its efficacy in acromegaly is established, and mechanistically it may be applicable to conditions in which the GH/IGF-1 axis influences tissue growth.
 
 IGF-1 signalling influences hair follicle growth, so a theoretical link to hair growth disorders is conceivable. However, this link is speculative. Hypertrichosis is a heterogeneous condition (congenital, drug-induced, or secondary to endocrine or metabolic disease), so any plausible mechanism would depend on the subtype.
 
@@ -112,6 +112,19 @@ The prediction is based only on a model score (0.9997), with no registered clini
 - SmPC-based warnings and contraindications, and the approved indication text for the UK authorisation
 - Preclinical or pilot studies to test plausibility before any clinical development
 - A glucose, gallbladder and thyroid monitoring plan if clinical evaluation is ever considered
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

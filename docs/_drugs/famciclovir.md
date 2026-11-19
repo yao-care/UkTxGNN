@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **post-infectious neuralgia**, but
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the data compiled for this report. From general pharmacology, famciclovir is a prodrug of penciclovir. Penciclovir is phosphorylated by viral thymidine kinase and then inhibits viral DNA polymerase, so it acts mainly against herpesviruses such as herpes simplex virus and varicella-zoster virus.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for famciclovir: "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761), label version 2026-11-13; accessed 2026-11-19.) From general pharmacology, famciclovir is a prodrug of penciclovir. Penciclovir is phosphorylated by viral thymidine kinase and then inhibits viral DNA polymerase, so it acts mainly against herpesviruses such as herpes simplex virus and varicella-zoster virus.
 
 Post-infectious neuralgia, in practice usually postherpetic neuralgia, is nerve pain that follows a herpes zoster episode. A plausible argument is that treating the acute viral infection early could reduce nerve damage and so lower the later risk of neuralgia. This is a theoretical link only. Antivirals act on the virus, not directly on established neuropathic pain, and no study in the data compiled for this report tests famciclovir for preventing or treating this condition.
 
@@ -127,11 +127,12 @@ The prediction score is high, but no trial or publication directly studies famci
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded for famciclovir (Famciclovir tablet 125 mg)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
 
 <!-- review:end log -->
 

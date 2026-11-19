@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **acromesomelic dysplasia, Hunter
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for fenoprofen are not available in the data compiled for this report. As a member of the NSAID class, fenoprofen is generally understood to inhibit COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fenoprofen: "Fenoprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of FENOPRON TM, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Fenopron Tm (fenoprofen calcium) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ed1a69a-2375-4cc8-ac2f-1201d7e0b9d0), label version 2026-02-16; accessed 2026-11-19.) As a member of the NSAID class, fenoprofen is generally understood to inhibit COX-1 and COX-2, reducing prostaglandin-mediated inflammation and pain.
 
 Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia caused by loss-of-function variants in the *CDMP1/GDF5* gene, which impair cartilage and bone development. Anti-inflammatory COX inhibition would not be expected to correct this underlying defect.
 
@@ -117,11 +117,12 @@ The prediction has a very high model score but no supporting clinical trials or 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record one single-ingredient authorisation for fenoprofen, and it is currently valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data for fenoprofen are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fenopron Tm (fenoprofen calcium) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ed1a69a-2375-4cc8-ac2f-1201d7e0b9d0) |
 
 <!-- review:end log -->
 

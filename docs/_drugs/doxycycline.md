@@ -54,7 +54,7 @@ Doxycycline is a tetracycline-class antibiotic with a long record of clinical us
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for doxycycline are not available in the data compiled for this report. Doxycycline is a tetracycline antibiotic, a class that inhibits bacterial protein synthesis and is active against *Chlamydia trachomatis*. Tetracyclines are also known for anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects, which could plausibly matter in inflammation of the ocular surface.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for doxycycline: "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), label version 2026-07-09; accessed 2026-11-19.) Doxycycline is a tetracycline antibiotic, a class that inhibits bacterial protein synthesis and is active against *Chlamydia trachomatis*. Tetracyclines are also known for anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting effects, which could plausibly matter in inflammation of the ocular surface.
 
 The single publication is a case report of two patients who developed punctate epithelial keratitis after chlamydial follicular conjunctivitis. Both had been treated with oral tetracycline or doxycycline, and their conjunctival follicles resolved. The keratitis then recurred. In this report, doxycycline treated the preceding infection but did not prevent or resolve the corneal lesions. The link is therefore indirect and tied to an infectious cause, not a distinct repurposing signal.
 
@@ -135,11 +135,12 @@ The prediction score is very high (0.9994), but no clinical trial or published s
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracycl" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data for doxycycline are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ with **7 clinical trials** (mostly small, early-phase or mixed-tumour transplant
 
 ## Why is This Prediction Reasonable?
 
-Melphalan is a nitrogen mustard DNA alkylating agent. It forms interstrand crosslinks in DNA, which causes cell death in rapidly dividing cells. Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on general pharmacological knowledge of the drug class.
+Melphalan is a nitrogen mustard DNA alkylating agent. It forms interstrand crosslinks in DNA, which causes cell death in rapidly dividing cells. According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) This description is based on general pharmacological knowledge of the drug class.
 
 Ovarian cancer and gonadal germ cell tumours are both tumours arising in the gonads, and germ cell tumours are generally highly chemosensitive to DNA-damaging agents. High-dose melphalan with autologous stem cell rescue has been explored as salvage therapy for relapsed or poor-prognosis disease. This is the only clinical setting in which melphalan has been tested for this indication.
 
@@ -162,11 +162,12 @@ There is one completed Phase 2 trial in relapsed germ cell tumours (n=64), but m
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one valid single-ingredient authorisation was recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

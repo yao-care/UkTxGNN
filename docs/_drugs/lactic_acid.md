@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **atypical coarctation of aorta
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lactic acid is an endogenous metabolite (the end product of glycolysis), and no approved indication text was available for it, so the link between an original and a new indication cannot be established.
+ChEMBL (EMBL-EBI) records the mechanism of action of lactic acid as: pH lowering agent ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; accessed 2026-11-19.) Lactic acid is an endogenous metabolite (the end product of glycolysis), and no approved indication text was available for it, so the link between an original and a new indication cannot be established.
 
 No mechanistic link was identified for this prediction. The TxGNN score is high (0.9959), but there are no trials and no literature. Atypical coarctation of aorta is a structural vascular malformation, which is managed surgically or by intervention. There is no known role for a metabolite such as lactic acid in treating it. The prediction should be regarded as a TxGNN model (deep learning) artefact until proven otherwise.
 
@@ -169,11 +169,12 @@ All ten predicted indications are supported only by the TxGNN TxGNN model (deep 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form and approved indication were not available " | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 
 <!-- review:end log -->
 

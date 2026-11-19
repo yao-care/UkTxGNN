@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **conjunctivitis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data are not available in the compiled data. Based on general pharmacology, nalidixic acid is a quinolone antibacterial that inhibits bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. Bacterial conjunctivitis is, in principle, susceptible to antibacterial activity, which is the likely basis for the model's prediction.
+ChEMBL (EMBL-EBI) records the mechanism of action of nalidixic acid as: Bacterial DNA gyrase inhibitor ([ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, nalidixic acid is a quinolone antibacterial that inhibits bacterial DNA gyrase (topoisomerase II) and topoisomerase IV. Bacterial conjunctivitis is, in principle, susceptible to antibacterial activity, which is the likely basis for the model's prediction.
 
 However, the prediction is weakly supported. The retrieved literature concerns *Shigella* and *Yersinia* serotyping, plasmids and antibiotic resistance in diarrhoeal disease, not ocular infection. Nalidixic acid is also a first-generation quinolone with a narrow spectrum (mainly Gram-negative Enterobacteriaceae) and limited potency. Later fluoroquinolones and other topical agents are the established ocular options. The high TxGNN score is therefore not backed by disease-specific clinical evidence.
 
@@ -161,12 +161,13 @@ The prediction rests on a high model score and a plausible antibacterial mechani
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "as only an oral suspension is currently authorised" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The compiled data show one valid single-ingredient product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5) |
 
 <!-- review:end log -->
 

@@ -66,7 +66,7 @@ For context, the other leading predictions are:
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data compiled for this report is not available. Based on the literature reviewed, valproic acid is a broad-spectrum antiseizure drug. Its reported actions include enhancing GABAergic inhibition, blocking sodium channels and T-type calcium channels, and inhibiting histone deacetylase (HDAC).
+According to the Mechanism of Action section of the US FDA-approved prescribing information for valproic acid: "Valproic acid dissociates to the valproate ion in the gastrointestinal tract. The mechanisms by which valproate exerts its antiepileptic effects have not been established. It has been suggested that its activity in epilepsy is related to increased brain concentrations of gamma-aminobutyric acid (GABA)." ([DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f), label version 2025-05-23; accessed 2026-11-19.) Based on the literature reviewed, valproic acid is a broad-spectrum antiseizure drug. Its reported actions include enhancing GABAergic inhibition, blocking sodium channels and T-type calcium channels, and inhibiting histone deacetylase (HDAC).
 
 For the top-ranked prediction, **trigeminal nerve neoplasm**, there is no credible mechanistic link. The only retrieved paper is a case series on Sturge-Weber syndrome, where valproic acid is probably used just for seizure control. The high model score is not backed by clinical or mechanistic evidence, and it should be treated as a likely artefact.
 
@@ -184,11 +184,12 @@ The top-ranked prediction, trigeminal nerve neoplasm, has no supporting trials, 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation (a modified-release 500 mg tablet)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data compiled for this report is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Valproic (valproic acid) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34a0d45a-4388-7d8b-e063-6394a90a6c3f) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ The evidence level is L5. The only publication is an in vitro study of HIV-2, SI
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Abacavir is generally understood to be a nucleoside reverse transcriptase inhibitor (NRTI). It is phosphorylated intracellularly to carbovir triphosphate, which terminates viral DNA chain elongation.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for abacavir and lamivudine (a combination product containing abacavir): "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), label version 2026-09-18; accessed 2026-11-19.) Abacavir is generally understood to be a nucleoside reverse transcriptase inhibitor (NRTI). It is phosphorylated intracellularly to carbovir triphosphate, which terminates viral DNA chain elongation.
 
 SIV is a lentivirus closely related to HIV and also relies on reverse transcriptase. Inhibition of this enzyme is therefore mechanistically plausible. However, SIV infects non-human primates and is not a human clinical indication. Its main value is as a preclinical model of HIV, so the prediction offers little repurposing value for patients.
 
@@ -138,11 +138,12 @@ The predicted indications are animal lentivirus infections, supported only by in
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
 
 <!-- review:end log -->
 

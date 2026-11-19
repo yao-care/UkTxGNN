@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **visceral calc
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, travoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure by acting on FP receptors and increasing uveoscleral outflow. Its efficacy in glaucoma and ocular hypertension is well established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for travoprost: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), label version 2026-09-28; accessed 2026-11-19.) Based on known pharmacology, travoprost is a prostaglandin F2-alpha analogue that lowers intraocular pressure by acting on FP receptors and increasing uveoscleral outflow. Its efficacy in glaucoma and ocular hypertension is well established.
 
 The link to visceral calciphylaxis is speculative. FP receptor agonism causes local vasodilation (seen clinically as conjunctival hyperaemia), and the score from the TxGNN model (deep learning) may reflect similarities the model learned between related diseases, not biological evidence. However, calciphylaxis is a calcific vascular disease, and there is no data showing that a topical ocular prostaglandin analogue has any therapeutic effect on it. Minimal systemic exposure after eye-drop dosing further weakens the rationale.
 
@@ -162,11 +162,12 @@ The prediction for visceral calciphylaxis rests solely on a score from the TxGNN
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

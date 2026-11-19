@@ -61,7 +61,7 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension**, sup
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Terlipressin is known to be a vasopressin V1 receptor agonist and a splanchnic vasoconstrictor. It is widely used in cirrhosis-related complications such as variceal bleeding and hepatorenal syndrome.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for terlipressin: "Terlipressin is a synthetic vasopressin analogue with twice the selectivity for vasopressin V 1 receptors versus V 2 receptors. Terlipressin acts as both a prodrug for lysine-vasopressin, as well as having pharmacologic activity on its own." ([DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354), label version 2026-10-23; accessed 2026-11-19.) Terlipressin is known to be a vasopressin V1 receptor agonist and a splanchnic vasoconstrictor. It is widely used in cirrhosis-related complications such as variceal bleeding and hepatorenal syndrome.
 
 The link to pulmonary hypertension is plausible but limited. Small haemodynamic studies in cirrhosis with portopulmonary or pulmonary hypertension (PMID 22893473 and 21733953, both 2012) report that terlipressin lowered pulmonary vascular resistance and pulmonary pressures, while systemic pressure rose. This suggests terlipressin acts differently on the pulmonary and systemic circulations. Case reports describe rescue use in neonates with persistent pulmonary hypertension and refractory shock.
 
@@ -139,6 +139,19 @@ The pulmonary hypertension signal is biologically plausible, but it rests on sma
 - A systematic review of terlipressin in pulmonary hypertension, separated by subgroup (portopulmonary, neonatal, perioperative)
 - A controlled haemodynamic study with defined safety endpoints (cardiac output, respiratory events, ischaemia) before any clinical trial
 - Confirmation of route and formulation suitability for the proposed setting
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

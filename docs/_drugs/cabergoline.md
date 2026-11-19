@@ -56,7 +56,7 @@ No clinical trials or publications were found in the data compiled for this repo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for cabergoline are not available in the data compiled for this report. Cabergoline is generally characterised as a dopamine D2 receptor agonist.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for cabergoline: "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb), label version 2026-06-30; accessed 2026-11-19.) Cabergoline is generally characterised as a dopamine D2 receptor agonist.
 
 For this predicted condition, no identifiable mechanistic link to cabergoline was found. The high score reflects a pattern-based computational prediction only. It is not supported by any trial, publication or biological rationale in the compiled data. The score is a model output ranking, not a measure of clinical benefit.
 
@@ -121,11 +121,12 @@ The prediction rests on a model score alone. There are no trials, no publication
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The local data record one valid single-ingredient authorisation (1 mg tablet)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data for cabergoline are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
 
 <!-- review:end log -->
 

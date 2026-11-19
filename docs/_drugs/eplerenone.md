@@ -59,7 +59,7 @@ The TxGNN model predicts it may be useful for **pulmonary hypertension with uncl
 
 ## Why is This Prediction Reasonable?
 
-Eplerenone blocks the mineralocorticoid receptor (MR), the target of aldosterone. Aldosterone/MR signalling is linked to vascular remodelling, fibrosis and inflammation. Detailed mechanism-of-action data were not available for this report, so this description is a general inference.
+Eplerenone blocks the mineralocorticoid receptor (MR), the target of aldosterone. Aldosterone/MR signalling is linked to vascular remodelling, fibrosis and inflammation. According to the Mechanism of Action section of the US FDA-approved prescribing information for eplerenone: "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), label version 2025-06-23; accessed 2026-11-19.) This description is a general inference.
 
 Eplerenone is linked with hypertension, which is systemic blood-pressure disease. Pulmonary hypertension is a disease of the lung circulation. The two share a vascular element, and MR-driven remodelling could plausibly matter in both. This is a general mechanistic argument, not demonstrated evidence.
 
@@ -133,11 +133,12 @@ The prediction has a high model score but no trials or publications on this dise
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism-of-action data were not available for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
 
 <!-- review:end log -->
 

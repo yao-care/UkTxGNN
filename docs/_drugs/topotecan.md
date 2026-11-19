@@ -56,7 +56,7 @@ with **3 clinical trials** (none breast-specific and with interpretable results)
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, topotecan is a topoisomerase I inhibitor. It stabilises the topoisomerase I-DNA cleavable complex and causes DNA damage in rapidly dividing cells. Its efficacy in ovarian cancer is established, and mechanistically the same DNA-damage effect may apply to breast cancer.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for topotecan: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), label version 2023-09-18; accessed 2026-11-19.) Based on known pharmacology, topotecan is a topoisomerase I inhibitor. It stabilises the topoisomerase I-DNA cleavable complex and causes DNA damage in rapidly dividing cells. Its efficacy in ovarian cancer is established, and mechanistically the same DNA-damage effect may apply to breast cancer.
 
 Ovarian and breast cancers are both hormone-influenced gynaecological malignancies and share some biology, including hereditary BRCA-related syndromes. Preclinical work (PMID 37987734) suggests topoisomerase I inhibition may cause synthetic lethality in MYC-driven cancers, relevant to subtypes such as triple-negative breast cancer.
 
@@ -154,11 +154,12 @@ The TxGNN score is very high (0.9992), but the supporting evidence for breast ca
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is a single valid single-ingredient product record, and the licence record provides no dosage form or indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->
 

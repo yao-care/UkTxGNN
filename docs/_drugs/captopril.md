@@ -55,7 +55,7 @@ The TxGNN model predicts it may be useful for **malignant hypertensive renal dis
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, captopril inhibits angiotensin-converting enzyme (ACE), reducing angiotensin II formation and blocking the renin-angiotensin-aldosterone system (RAAS). Its efficacy in hypertension and diabetic nephropathy is established.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for captopril: "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), label version 2026-11-11; accessed 2026-11-19.) Based on known pharmacology, captopril inhibits angiotensin-converting enzyme (ACE), reducing angiotensin II formation and blocking the renin-angiotensin-aldosterone system (RAAS). Its efficacy in hypertension and diabetic nephropathy is established.
 
 Malignant hypertension with renal involvement is a state in which RAAS activation can drive vascular injury, so RAAS blockade is biologically plausible. However, the only retrieved publication is a case report in which captopril renography was used as a *diagnostic* test in a patient with a renal cell carcinoma. It shows no therapeutic benefit. The high TxGNN score probably reflects the disease's closeness to existing hypertension and renal indications rather than direct evidence.
 
@@ -152,11 +152,12 @@ The prediction rests on model proximity and a single diagnostic case report, wit
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved indication text" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
 
 <!-- review:end log -->
 

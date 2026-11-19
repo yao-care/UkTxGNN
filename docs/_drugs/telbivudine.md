@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **chronic hepatitis C virus (HC
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. The published literature describes telbivudine as an L-nucleoside analogue of thymidine. It is phosphorylated to its active triphosphate form and inhibits HBV DNA polymerase, terminating viral DNA chain elongation. Its efficacy in chronic hepatitis B is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of telbivudine as: DNA polymerase/reverse transcriptase inhibitor ([ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731), CC BY-SA 3.0; accessed 2026-11-19.) The published literature describes telbivudine as an L-nucleoside analogue of thymidine. It is phosphorylated to its active triphosphate form and inhibits HBV DNA polymerase, terminating viral DNA chain elongation. Its efficacy in chronic hepatitis B is established.
 
 The link to hepatitis C is weak. HCV is an RNA virus that replicates through the NS5B RNA-dependent RNA polymerase, which is a different target class from HBV DNA polymerase. No direct mechanistic link has been established. The high TxGNN score most likely reflects the shared hepatitis and antiviral context in the literature, because HBV and HCV are often discussed together. It probably does not reflect real anti-HCV activity.
 
@@ -142,11 +142,12 @@ There are no clinical trials for HCV, and the retrieved literature does not show
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The compiled data list one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL374731 (telbivudine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374731) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **attention deficit-hyperactivi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, trihexyphenidyl is a centrally acting muscarinic (M1-preferring) antagonist. It is thought to restore the balance between cholinergic and dopaminergic signalling in the striatum, which underlies its benefit in parkinsonism and dystonia.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for trihexyphenidyl: "Trihexyphenidyl Hydrochloride is the substituted piperidine salt, 3-(1-piperidyl)- 1-phenylcyclohexyl-1-propanol hydrochloride, which exerts a direct inhibitory effect upon the parasympathetic nervous system. It also has a relaxing effect on smooth musculature; exerted both directly upon the muscle tissue itself and indirectly through an inhibitory effect upon the parasympathetic nervous system." ([DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af), label version 2026-07-23; accessed 2026-11-19.) Based on known pharmacology, trihexyphenidyl is a centrally acting muscarinic (M1-preferring) antagonist. It is thought to restore the balance between cholinergic and dopaminergic signalling in the striatum, which underlies its benefit in parkinsonism and dystonia.
 
 ADHD is associated with dysregulation of both dopaminergic and cholinergic signalling, so a mechanistic link is conceivable. However, this rationale is speculative. The only retrieved paper describes tics associated with dystonia, a related movement phenotype, and does not test trihexyphenidyl in ADHD.
 
@@ -141,6 +141,19 @@ The prediction rests on a TxGNN model (deep learning) score alone. There are no 
 - Preclinical or clinical evidence that muscarinic antagonism improves ADHD symptoms without worsening cognition
 - Verification of the UK marketing authorisation details (number, dosage form, licensed indication)
 - Note: among the other predictions, **PLA2G6-associated neurodegeneration** (L4, "Research Question") has the most plausible symptomatic link, given its overlap with parkinsonism and dystonia. It is supported only by a single case report, so any benefit would be symptomatic rather than disease-modifying.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

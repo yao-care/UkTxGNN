@@ -55,7 +55,7 @@ but there are currently **no registered clinical trials** and **no relevant publ
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, metolazone is a thiazide-like diuretic that inhibits the Na+/Cl- cotransporter in the distal convoluted tubule. Its efficacy in hypertension is established, and mechanistically a diuretic could reduce volume load in other hypertensive conditions.
+ChEMBL (EMBL-EBI) records the mechanism of action of metolazone as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL878 (metolazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL878), CC BY-SA 3.0; accessed 2026-11-19.) Based on known information, metolazone is a thiazide-like diuretic that inhibits the Na+/Cl- cotransporter in the distal convoluted tubule. Its efficacy in hypertension is established, and mechanistically a diuretic could reduce volume load in other hypertensive conditions.
 
 Malignant renovascular hypertension is a severe, renin-driven form of hypertension. A diuretic could plausibly lower volume load, but thiazide-type agents are not first-line here. Management centres on blood pressure control and revascularisation, and RAAS blockade is hazardous in bilateral renal artery stenosis. The high TxGNN score most likely reflects the similarity of this condition to the original hypertension indication rather than any specific supporting evidence.
 
@@ -139,11 +139,12 @@ The prediction is supported only by the TxGNN score. There are no clinical trial
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Note: the licence data compiled for this report contain one valid single-ingredient authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL878 (metolazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL878) |
 
 <!-- review:end log -->
 

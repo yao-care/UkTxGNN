@@ -60,7 +60,7 @@ but the supporting evidence is **small and dated**: no registered clinical trial
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, trazodone acts on serotonergic pathways: it antagonises 5-HT2A/2C receptors and weakly inhibits serotonin reuptake. Its active metabolite, m-CPP, is also serotonergic.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for trazodone: "The mechanism of trazodone’s antidepressant action is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS. Trazodone is both a selective serotonin reuptake inhibitor (SSRI) and a 5HT2 receptor antagonist and the net result of this action on serotonergic transmission and its role in trazodone’s antidepressant effect is unknown." ([DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768), label version 2026-11-13; accessed 2026-11-19.) Based on general pharmacology, trazodone acts on serotonergic pathways: it antagonises 5-HT2A/2C receptors and weakly inhibits serotonin reuptake. Its active metabolite, m-CPP, is also serotonergic.
 
 Serotonergic modulation is the established basis of OCD drug treatment. Trazodone is already used in depression and anxiety, so a serotonergic effect on obsessive-compulsive symptoms is plausible. However, trazodone's serotonin reuptake inhibition is weak compared with agents established in OCD, and the clinical evidence is small and mostly from the 1980s and 1990s.
 
@@ -167,12 +167,13 @@ Label-based warnings were not available. Please refer to the SmPC and BNF for fu
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report list only one authorisation, and the number shown is not in the standard MHRA "PL" format, so it should be" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "plus verification of the authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
 
 <!-- review:end log -->
 

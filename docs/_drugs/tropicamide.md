@@ -57,7 +57,7 @@ Two other predictions were also generated: obsolete neurogenic bladder (0.9913) 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology records list activity at the M2, M3, M4 and M5 receptors. It is used as a short-acting mydriatic for examining the lens, vitreous humour and retina.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for tropicamide: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), label version 2023-02-15; accessed 2026-11-19.) Based on known pharmacology, tropicamide is a muscarinic receptor antagonist. Pharmacology records list activity at the M2, M3, M4 and M5 receptors. It is used as a short-acting mydriatic for examining the lens, vitreous humour and retina.
 
 Cauda equina syndrome is caused by compression of the lumbosacral nerve roots and produces bladder, bowel and sensory dysfunction. In theory, anticholinergic action could reduce detrusor overactivity. However, the primary treatment is urgent surgical decompression, and no drug is expected to treat the underlying disease. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -121,6 +121,19 @@ The predictions rest solely on TxGNN scores (Evidence Level L5), with no trials 
 - Mapping of the obsolete neurogenic bladder term to current terminology
 - Evidence of a feasible systemic or alternative route of administration
 - A literature and trial search targeted at antimuscarinics in neurogenic bladder, IBS and cauda equina syndrome, to establish whether tropicamide adds anything over existing agents
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

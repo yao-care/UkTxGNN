@@ -59,7 +59,7 @@ It rests on model output alone.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron. This promotes sodium loss and reduces fluid volume, which lowers blood pressure. It is already used for hypertension and congestive heart failure.
+ChEMBL (EMBL-EBI) records the mechanism of action of triamterene as: Amiloride-sensitive sodium channel, ENaC blocker ([ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585), CC BY-SA 3.0; accessed 2026-11-19.) Based on general pharmacology, triamterene is a potassium-sparing diuretic that blocks the epithelial sodium channel (ENaC) in the distal nephron. This promotes sodium loss and reduces fluid volume, which lowers blood pressure. It is already used for hypertension and congestive heart failure.
 
 The link to malignant renovascular hypertension is weak. This condition is driven mainly by activation of the renin-angiotensin system and renal artery stenosis. A diuretic alone is unlikely to be adequate, and volume depletion could worsen renal perfusion. The high TxGNN score probably reflects similarity to the approved hypertension indication rather than independent evidence.
 
@@ -146,6 +146,19 @@ The prediction rests on model output alone, with no trials or supporting literat
 - Retrieval of SmPC warnings and contraindications to complete the safety review
 - Controlled clinical evidence in the target population
 - A hyperkalaemia and renal function monitoring plan for any further assessment
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

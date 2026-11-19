@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no relevant publications** 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general knowledge, fidaxomicin is a narrow-spectrum macrocyclic antibacterial that inhibits bacterial RNA polymerase. Its efficacy in *C. difficile* colitis is established, and it may show in vitro activity against some Gram-positive organisms, including *Staphylococcus aureus*.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for fidaxomicin: "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), label version 2024-10-16; accessed 2026-11-19.) Based on general knowledge, fidaxomicin is a narrow-spectrum macrocyclic antibacterial that inhibits bacterial RNA polymerase. Its efficacy in *C. difficile* colitis is established, and it may show in vitro activity against some Gram-positive organisms, including *Staphylococcus aureus*.
 
 That in vitro activity is the only link to the predicted indication, and it is a weak one. Staphylococcal scalded skin syndrome is a toxin-mediated skin disease caused by *S. aureus*. Fidaxomicin has minimal systemic absorption, so it is unlikely to reach effective concentrations in skin or blood. The high TxGNN score probably reflects similarity between anti-infective agents and infections rather than a demonstrated pharmacological rationale.
 
@@ -114,6 +114,19 @@ The prediction is supported only by the TxGNN score, with no trials or relevant 
 - Confirmation of whether a topical or systemic formulation could achieve effective concentrations
 - Warnings and contraindications from the SmPC and BNF, so that safety screening can be completed
 - Approved indication text and product details for the UK authorisation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

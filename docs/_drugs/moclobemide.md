@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **agoraphobia**, with **no regi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, moclobemide is a reversible inhibitor of monoamine oxidase A. By reducing the breakdown of serotonin, noradrenaline and dopamine, it can plausibly reduce panic and phobic anxiety. The drug's targets are listed as MAO-A and MAO-B.
+ChEMBL (EMBL-EBI) records the mechanism of action of moclobemide as: Monoamine oxidase A inhibitor ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0; accessed 2026-11-19.) Based on known pharmacology, moclobemide is a reversible inhibitor of monoamine oxidase A. By reducing the breakdown of serotonin, noradrenaline and dopamine, it can plausibly reduce panic and phobic anxiety. The drug's targets are listed as MAO-A and MAO-B.
 
 Agoraphobia usually occurs together with panic disorder, so panic disorder data are the most relevant evidence. Moclobemide has already been studied in panic disorder with and without agoraphobia, and in social phobia. This fits with its existing use in anxiety and dysthymic disorders.
 
@@ -120,6 +120,19 @@ Two randomised controlled trials in panic disorder with or without agoraphobia s
 - A safety monitoring plan, including interaction screening for serotonergic and sympathomimetic medicines
 
 *Note: The second prediction, benign paroxysmal torticollis of infancy (TxGNN score 0.9930), has no trials or literature and no established mechanistic link. It is an L5 computational prediction only and the recommendation is Hold.*
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

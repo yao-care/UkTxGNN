@@ -58,7 +58,7 @@ Clotrimazole is a topical and vaginal azole antifungal. The TxGNN model predicts
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for clotrimazole is not available in the data compiled for this report. As a class, azole antifungals inhibit fungal lanosterol 14-alpha-demethylase and disrupt ergosterol synthesis. Clotrimazole is also reported to have some antibacterial and anti-inflammatory activity.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for clotrimazole: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), label version 2025-03-27; accessed 2026-11-19.) As a class, azole antifungals inhibit fungal lanosterol 14-alpha-demethylase and disrupt ergosterol synthesis. Clotrimazole is also reported to have some antibacterial and anti-inflammatory activity.
 
 A plausible link to acne would be a fungal or bacterial contribution to the condition, for example Malassezia-associated folliculitis (which can resemble acne) or *Cutibacterium acnes*. This remains speculative. The high TxGNN score is a model prediction only and does not show that clotrimazole works in acne.
 
@@ -146,11 +146,12 @@ The prediction for acne rests on a high model score alone. The single related tr
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Clotrimazole is marketed in the UK, with at least one valid single-ingredient authorisation recorded in the local data (Clotrimazole pessary" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data for clotrimazole is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->
 

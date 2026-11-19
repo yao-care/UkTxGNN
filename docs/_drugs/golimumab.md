@@ -58,7 +58,7 @@ Golimumab is an anti-TNF-alpha monoclonal antibody, originally used for inflamma
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Golimumab is, however, a fully human monoclonal antibody that neutralises TNF-alpha. Its efficacy in rheumatoid arthritis (RA) is established, and the published literature describes it as an anti-TNF-alpha agent.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for golimumab: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), label version 2026-11-02; accessed 2026-11-19.) Golimumab is, however, a fully human monoclonal antibody that neutralises TNF-alpha. Its efficacy in rheumatoid arthritis (RA) is established, and the published literature describes it as an anti-TNF-alpha agent.
 
 Rheumatoid vasculitis is a severe extra-articular complication of RA, so the two conditions are closely related. TNF-driven inflammation is thought to contribute to both, which gives a plausible mechanistic link. The very high TxGNN score probably reflects this close relationship to an approved indication rather than independent evidence of benefit for vasculitis.
 
@@ -157,11 +157,12 @@ They largely overlap with existing uses, so the licence status should be checked
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation in the data compiled for this report. The record gives no formal dosage form or indication text, so the licen" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
 
 <!-- review:end log -->
 

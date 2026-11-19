@@ -56,7 +56,7 @@ with **no registered clinical trials** but **15 publications** (including a Coch
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on the known pharmacology of the drug class, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker inhibition of serotonin reuptake. A PET study in patients with depression (PMID 24345533) examined its occupancy of the norepinephrine transporter.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for nortriptyline: "The mechanism of mood elevation by tricyclic antidepressants is at present unknown. Pamelor is not a monoamine oxidase inhibitor. It inhibits the activity of such diverse agents as histamine, 5-hydroxytryptamine, and acetylcholine." ([DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb), label version 2024-12-04; accessed 2026-11-19.) Based on the known pharmacology of the drug class, nortriptyline is a tricyclic antidepressant that mainly inhibits norepinephrine reuptake, with weaker inhibition of serotonin reuptake. A PET study in patients with depression (PMID 24345533) examined its occupancy of the norepinephrine transporter.
 
 Noradrenergic dysfunction in prefrontal circuits is implicated in ADHD. This is the same pathway targeted by approved nonstimulant ADHD medicines such as atomoxetine. Reviews also describe secondary-amine tricyclics such as nortriptyline and desipramine as established alternative treatments for ADHD, although their narrow therapeutic index and potential cardiovascular toxicity have limited their use.
 
@@ -146,6 +146,19 @@ The evidence is graded L2 on the strength of a controlled study of nortriptyline
 - Appraisal of the RCT and Cochrane review for sample size, outcomes and risk of bias, and comparison with licensed ADHD treatments (e.g. atomoxetine, guanfacine)
 - A cardiac monitoring plan (ECG, and serum levels where appropriate) and a review of the major interactions before any use in ADHD
 - Confirmation of the target population (children, adolescents or adults), and recognition that use in ADHD would be off-label
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

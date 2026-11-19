@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Vildagliptin is known to act on DPP-4 and is listed as a ligand of DPP-8, DPP-9 and TRPV4. Blocking DPP-4 raises active GLP-1 and GIP levels, which improves pancreatic islet function in type 2 diabetes. Its efficacy in type 2 diabetes is established.
+ChEMBL (EMBL-EBI) records the mechanism of action of vildagliptin as: Dipeptidyl peptidase IV inhibitor ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; accessed 2026-11-19.) Vildagliptin is known to act on DPP-4 and is listed as a ligand of DPP-8, DPP-9 and TRPV4. Blocking DPP-4 raises active GLP-1 and GIP levels, which improves pancreatic islet function in type 2 diabetes. Its efficacy in type 2 diabetes is established.
 
 Focal stiff limb syndrome belongs to the stiff-person spectrum, a group of rare neurological disorders characterised by muscle stiffness and spasm. These are often thought to be autoimmune and linked to GABAergic signalling. The data compiled for this report show no mechanistic link between incretin pathway modulation and this condition. The high TxGNN score (0.9988) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. Any suggested connection, such as an immune-modulating effect of DPP-4 inhibition, is speculative and untested.
 
@@ -126,11 +126,12 @@ The prediction rests only on the TxGNN model score. There are no trials, no publ
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation recorded. It is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

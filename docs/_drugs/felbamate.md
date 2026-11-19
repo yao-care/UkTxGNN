@@ -60,7 +60,7 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Based on general pharmacological knowledge, felbamate is thought to act through NMDA receptor (glycine site) antagonism and GABAergic potentiation, and may modulate sodium channels.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for felbamate: "The mechanism by which felbamate exerts its anticonvulsant activity is unknown, but in animal test systems designed to detect anticonvulsant activity, felbamate has properties in common with other marketed anticonvulsants. Felbamate is effective in mice and rats in the maximal electroshock test, the subcutaneous pentylenetetrazol seizure test, and the subcutaneous picrotoxin seizure test." ([DailyMed: Felbatol (felbamate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f522701-397a-11de-8a39-0800200c9a66), label version 2025-08-15; accessed 2026-11-19.) Based on general pharmacological knowledge, felbamate is thought to act through NMDA receptor (glycine site) antagonism and GABAergic potentiation, and may modulate sodium channels.
 
 **Trigeminal nerve neoplasm:** These actions could relieve neuropathic symptoms linked to trigeminal nerve involvement, but they offer no plausible antitumour effect. The high score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, such as trigeminal neuralgia and other nerve-related conditions, not biological evidence. The prediction should be regarded as a model-based result rather than a credible oncology signal.
 
@@ -151,11 +151,12 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "It has 1 valid single-ingredient authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felbatol (felbamate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f522701-397a-11de-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

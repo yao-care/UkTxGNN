@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 in vitro/structural
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, efavirenz is an HIV-1 NNRTI. Its efficacy in HIV infection is established, and it works by binding directly to the viral reverse transcriptase enzyme.
+According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for efavirenz: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), label version 2024-06-28; accessed 2026-11-19.) Based on known information, efavirenz is an HIV-1 NNRTI. Its efficacy in HIV infection is established, and it works by binding directly to the viral reverse transcriptase enzyme.
 
 Feline immunodeficiency virus (FIV) is a related lentivirus that causes an AIDS-like syndrome in cats. This relationship is the likely reason for the very high TxGNN score. However, FIV reverse transcriptase differs structurally from HIV-1 reverse transcriptase, and NNRTIs are generally expected to have weak or no activity against it. The single available study (2023) compared NNRTIs, including efavirenz, against feline and human immunodeficiency viruses at the biochemical and structural level. Only its title and introductory text were available, so it is not possible to confirm whether efavirenz was active against FIV.
 
@@ -142,11 +142,12 @@ The evidence is limited to a single in vitro/structural study with no clinical t
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record is a single-ingredient product with valid status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

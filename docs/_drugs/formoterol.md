@@ -54,7 +54,7 @@ Formoterol is a long-acting beta2-adrenergic agonist that relaxes airway smooth 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from the compiled data. Formoterol is a well-characterised long-acting beta2-adrenergic agonist, and in general this class causes bronchodilation by relaxing airway smooth muscle.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for formoterol: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), label version 2025-12-10; accessed 2026-11-19.) Formoterol is a well-characterised long-acting beta2-adrenergic agonist, and in general this class causes bronchodilation by relaxing airway smooth muscle.
 
 The high TxGNN score most likely reflects network proximity to respiratory disease nodes rather than a biological rationale. A structural, congenital malformation of the respiratory tract would not be expected to respond to bronchodilation, so no plausible disease-modifying mechanism is evident. This prediction should be treated as a hypothesis-generating signal only.
 
@@ -139,11 +139,12 @@ The prediction rests only on a computational score. There are no registered tria
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Formoterol is currently marketed, with 2 valid licences and none cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not currently available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
 
 <!-- review:end log -->
 

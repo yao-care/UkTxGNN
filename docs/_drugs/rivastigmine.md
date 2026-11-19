@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **glaucoma**, but the supportin
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, rivastigmine is a cholinesterase inhibitor (acetylcholinesterase and butyrylcholinesterase). Its efficacy in Alzheimer's disease comes from raising cholinergic signalling in the brain.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for rivastigmine: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), label version 2025-11-11; accessed 2026-11-19.) Based on known information, rivastigmine is a cholinesterase inhibitor (acetylcholinesterase and butyrylcholinesterase). Its efficacy in Alzheimer's disease comes from raising cholinergic signalling in the brain.
 
 Glaucoma is characterised by raised intraocular pressure (IOP) in many patients. Increased cholinergic tone in the eye can cause ciliary muscle contraction and miosis, which may improve trabecular outflow and lower IOP. This is similar to the classic cholinergic agent pilocarpine and to physostigmine. A rabbit study found that topical rivastigmine lowered IOP in normotensive animals, and a 2024 review supports a role for cholinergic agents in IOP reduction.
 
@@ -149,11 +149,12 @@ The only supporting data are a single rabbit study and two reviews, with no huma
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The data compiled for this report show one valid single-ingredient authorisation (rivastigmine 3 mg capsule). It carries a Japanese-style dr" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

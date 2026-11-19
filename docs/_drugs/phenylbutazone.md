@@ -55,7 +55,7 @@ The TxGNN model predicts it may be relevant to **colobomatous microphthalmia-rhi
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the data compiled for this report. Phenylbutazone is generally understood to belong to the NSAID class, which acts by inhibiting COX enzymes.
+ChEMBL (EMBL-EBI) records the mechanism of action of phenylbutazone as: Cyclooxygenase inhibitor ([ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101), CC BY-SA 3.0; accessed 2026-11-19.) Phenylbutazone is generally understood to belong to the NSAID class, which acts by inhibiting COX enzymes.
 
 No plausible mechanistic link has been identified between COX inhibition and this prediction. The condition is a rare developmental disorder, and a high model score alone, without supporting trials or literature, does not establish biological relevance. The prediction should be treated as a computational signal only, not as a rationale for clinical use.
 
@@ -113,11 +113,12 @@ The prediction rests on a high model score alone. There are no clinical trials o
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient licence is recorded, and none are cancelled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL101 (phenylbutazone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL101) |
 
 <!-- review:end log -->
 

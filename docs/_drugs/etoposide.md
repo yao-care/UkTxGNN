@@ -56,7 +56,7 @@ but there are **no registered clinical trials** and only **1 publication** (a ca
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data are not available in the data compiled for this report. Etoposide is generally known as a topoisomerase II inhibitor that causes DNA double-strand breaks, and it has established activity in lung malignancies such as small cell lung carcinoma.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for etoposide: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), label version 2026-10-07; accessed 2026-11-19.) Etoposide is generally known as a topoisomerase II inhibitor that causes DNA double-strand breaks, and it has established activity in lung malignancies such as small cell lung carcinoma.
 
 Well-differentiated fetal adenocarcinoma is a component of the rare pulmonary blastoma family, so a mechanistic rationale for a DNA-damaging agent is plausible. However, the single retrieved publication describes classic biphasic pulmonary blastoma treated with nedaplatin plus paclitaxel, not etoposide, and not well-differentiated fetal adenocarcinoma as a separate entity. The link therefore remains a model-based hypothesis.
 
@@ -133,11 +133,12 @@ The prediction score is high, but no trial or publication directly studies etopo
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "At least one valid single-ingredient licence is recorded for the UK market" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

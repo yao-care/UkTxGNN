@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the compiled data. Based on general pharmacological knowledge, tapentadol combines mu-opioid receptor agonism with noradrenaline reuptake inhibition. In theory, this dual action could modulate central pain pathways that are also relevant to migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for tapentadol: "Tapentadol is a centrally-acting synthetic analgesic. The exact mechanism of action is unknown. Although the clinical relevance is unclear, preclinical studies have shown that tapentadol is a mu-opioid receptor (MOR) agonist and a norepinephrine reuptake inhibitor (NRI)." ([DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d), label version 2025-12-30; accessed 2026-11-19.) Based on general pharmacological knowledge, tapentadol combines mu-opioid receptor agonism with noradrenaline reuptake inhibition. In theory, this dual action could modulate central pain pathways that are also relevant to migraine.
 
 The TxGNN score is very high (0.9967), but it reflects a TxGNN model (deep learning) prediction only. The mechanistic link is speculative. Opioids are generally discouraged for migraine because of the risk of medication-overuse headache, chronification and dependence.
 
@@ -141,6 +141,19 @@ The high TxGNN score is not backed by any clinical trials or directly relevant l
 - Warnings and contraindications from the SmPC and BNF, so that safety screening can proceed
 - Preclinical or clinical studies of tapentadol in migraine, including assessment of medication-overuse headache risk
 - Comparison against existing guideline-recommended migraine treatments, such as NICE-recommended options, to establish whether a role exists
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available from the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

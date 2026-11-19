@@ -60,7 +60,7 @@ This prediction rests on model output alone and is not supported by direct evide
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, fluticasone is a glucocorticoid used in combination with long-acting beta-2 agonists (salmeterol, formoterol) in inhaled products. Its anti-inflammatory activity is established in airway disease, but this has not been shown to carry over to migraine.
+According to the Mechanism of Action section of the US FDA-approved prescribing information for fluticasone: "Fluticasone propionate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone propionate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is 18 times that of dexamethasone, almost twice that of beclomethasone-17-monopropionate (BMP), the active metabolite of beclomethasone dipropionate, and over 3 times that of budesonide." ([DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2), label version 2026-10-23; accessed 2026-11-19.) Based on known information, fluticasone is a glucocorticoid used in combination with long-acting beta-2 agonists (salmeterol, formoterol) in inhaled products. Its anti-inflammatory activity is established in airway disease, but this has not been shown to carry over to migraine.
 
 Neuroinflammation has been proposed as a contributor to migraine, which is the only plausible conceptual link. However, inhaled fluticasone acts mainly locally and has low systemic bioavailability, so there is no established route by which it would reach a central neurological target. The very high score (0.9920) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -152,11 +152,12 @@ The prediction is supported only by a score from the TxGNN model (deep learning)
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Both products are listed as valid single-entry records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->
 

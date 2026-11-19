@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **polyclonal hy
 
 ## Why is This Prediction Reasonable?
 
-Telithromycin is a ketolide antibiotic that inhibits bacterial protein synthesis at the 50S ribosomal subunit. Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class.
+Telithromycin is a ketolide antibiotic that inhibits bacterial protein synthesis at the 50S ribosomal subunit. ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.) This description reflects general knowledge of the drug class.
 
 Polyclonal hyperviscosity syndrome is driven by an excess of polyclonal immunoglobulins in the blood. No known pathway connects an antibacterial ketolide to this process. The high TxGNN score (0.9990) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -135,11 +135,12 @@ The prediction rests on a TxGNN model (deep learning) score alone, which may ref
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The listed record is a single-ingredient product and is shown as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136) |
 
 <!-- review:end log -->
 

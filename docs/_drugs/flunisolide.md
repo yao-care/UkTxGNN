@@ -55,7 +55,7 @@ The TxGNN model predicts it may be effective for **atopic eczema**, but there ar
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Flunisolide is a synthetic corticosteroid, and as a class, corticosteroids act through the glucocorticoid receptor to produce anti-inflammatory and immunosuppressive effects.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for flunisolide: "Flunisolide has demonstrated potent glucocorticoid and weak mineralocorticoid activity in classical animal test systems. As a glucocorticoid, it is several hundred times more potent than the cortisol standard. Clinical studies with flunisolide have shown therapeutic activity on nasal mucous membranes with minimal evidence of systemic activity at the recommended doses." ([DailyMed: flunisolide prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50d87523-e1fb-4342-825f-9dba972c6a25), label version 2025-05-02; accessed 2026-11-19.) Flunisolide is a synthetic corticosteroid, and as a class, corticosteroids act through the glucocorticoid receptor to produce anti-inflammatory and immunosuppressive effects.
 
 Asthma, allergic rhinitis and atopic eczema are all allergic (atopic) inflammatory conditions that often occur together. Topical corticosteroids are already standard therapy for atopic eczema, so a corticosteroid being predicted for this condition is biologically plausible.
 
@@ -105,6 +105,19 @@ The prediction is supported only by class-level plausibility and one indirect ob
 - Comparison with existing topical corticosteroids
 - Licence details (dosage form, indication text) and SmPC safety information for the UK product
 - Review of the other predictions with some supporting evidence, such as bronchitis (a dated 1981 clinical study of uncertain design), as possible alternative research questions
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flunisolide prescribing information, Oceanside Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=50d87523-e1fb-4342-825f-9dba972c6a25) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

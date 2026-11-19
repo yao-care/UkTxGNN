@@ -56,7 +56,7 @@ The best-supported alternative among the model's top predictions is **renal tubu
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Alfacalcidol is known to be 1-alpha-hydroxycholecalciferol, an active vitamin D analogue. It bypasses renal 1-alpha-hydroxylation and supports calcium and phosphate homeostasis and bone mineralisation.
+ChEMBL (EMBL-EBI) records the mechanism of action of alfacalcidol as: Vitamin D receptor agonist ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0; accessed 2026-11-19.) Alfacalcidol is known to be 1-alpha-hydroxycholecalciferol, an active vitamin D analogue. It bypasses renal 1-alpha-hydroxylation and supports calcium and phosphate homeostasis and bone mineralisation.
 
 That makes a link to skeletal disorders conceivable. However, craniofacial conodysplasia is an extremely rare skeletal disorder, and no evidence-backed mechanism has been established. The score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -143,11 +143,12 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The listing is a single-ingredient product and is currently marketed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
 
 <!-- review:end log -->
 

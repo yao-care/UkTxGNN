@@ -56,7 +56,7 @@ but there are currently **no registered clinical trials** and only **9 publicati
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pimozide is a potent D2 dopamine receptor antagonist. Its efficacy in Tourette syndrome is established, and mechanistically it may be applicable to trichotillomania.
+According to the Clinical Pharmacology section of the US FDA-approved prescribing information for pimozide: "Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity." ([DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280), label version 2026-08-12; accessed 2026-11-19.) Based on known pharmacology, pimozide is a potent D2 dopamine receptor antagonist. Its efficacy in Tourette syndrome is established, and mechanistically it may be applicable to trichotillomania.
 
 Trichotillomania is a chronic hair-pulling disorder that overlaps clinically with tic disorders and the obsessive-compulsive spectrum. Dopaminergic dysregulation in cortico-striatal-thalamic circuits is implicated in these habit-like and tic-like behaviours, which provides a plausible link to the original indication.
 
@@ -123,6 +123,19 @@ The TxGNN score is very high, but the evidence is limited to reviews, one small 
 ---
 
 **Other predicted indications (for reference):** manic bipolar affective disorder (L3, Hold: small, dated studies of the 1970s–80s; newer antipsychotics are better established); major affective disorder, ADHD (L4, Hold: indirect evidence only, largely Tourette-related literature); insomnia, ADHD inattentive type, agoraphobia, faciodigitogenital syndrome, Malan overgrowth syndrome and benign paroxysmal torticollis of infancy (L5, Hold: prediction only, with no supporting trials or relevant literature).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
