@@ -14,6 +14,23 @@ From AI prediction to evidence grading — every candidate has a traceable basis
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## United Kingdom: how the method is applied on this site
+
+Local data: [NHSBSA BNF code information](https://opendata.nhsbsa.net/). The local data are NHSBSA BNF code information, a prescribing classification. These are not MHRA licences, and MHRA licence status is not included in this data.
+
+| Level | Reports | …with a current local entry |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+The review log has **{{ site.data.local_facts.reviews.records }}** entries on **{{ site.data.local_facts.reviews.public_pages_with_records }}** drug pages; corrections change registration facts only, never the model's predictions.
+
+<!-- local-facts:end -->
+
 ## Overall pipeline
 
 <p class="key-answer" data-question="How does UkTxGNN produce its predictions?">

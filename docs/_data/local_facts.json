@@ -1,0 +1,468 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 583,
+ "level_counts": {
+  "L1": 9,
+  "L2": 22,
+  "L3": 16,
+  "L4": 37,
+  "L5": 455
+ },
+ "level_na": 44,
+ "public_pages": 583,
+ "licence_snapshot": "uk_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 581,
+  "drugs_with_current": 581,
+  "drugs_none_current": 0,
+  "drugs_without_data": 2,
+  "drugs_partial": 0,
+  "items_total": 11014,
+  "items_current": 11014
+ },
+ "reviews": {
+  "records": 465,
+  "pages": 399,
+  "public_pages_with_records": 367,
+  "by_action": {
+   "correct": 465
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 583,
+  "clinical_use_definition": 3115
+ },
+ "top_licensed": [
+  {
+   "t": "Ibuprofen",
+   "u": "/drugs/ibuprofen/",
+   "l": "L5",
+   "lt": 205,
+   "lv": 205,
+   "r": 0,
+   "i": "acromesomelic dysplasia, Hunter-Thompson type"
+  },
+  {
+   "t": "Sodium Chloride",
+   "u": "/drugs/sodium-chloride/",
+   "l": "N/A",
+   "lt": 203,
+   "lv": 203,
+   "r": 0,
+   "i": ""
+  },
+  {
+   "t": "Fentanyl",
+   "u": "/drugs/fentanyl/",
+   "l": "L5",
+   "lt": 168,
+   "lv": 168,
+   "r": 1,
+   "i": "nephrogenic syndrome of inappropriate antidiuresis"
+  },
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "l": "L5",
+   "lt": 152,
+   "lv": 152,
+   "r": 1,
+   "i": "pulmonary blastoma"
+  },
+  {
+   "t": "Buprenorphine",
+   "u": "/drugs/buprenorphine/",
+   "l": "L4",
+   "lt": 142,
+   "lv": 142,
+   "r": 0,
+   "i": "acute intermittent porphyria"
+  },
+  {
+   "t": "Fluticasone",
+   "u": "/drugs/fluticasone/",
+   "l": "L5",
+   "lt": 119,
+   "lv": 119,
+   "r": 1,
+   "i": "migraine disorder"
+  },
+  {
+   "t": "Methylphenidate",
+   "u": "/drugs/methylphenidate/",
+   "l": "L5",
+   "lt": 115,
+   "lv": 115,
+   "r": 1,
+   "i": "faciodigitogenital syndrome"
+  },
+  {
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "l": "L5",
+   "lt": 115,
+   "lv": 115,
+   "r": 0,
+   "i": "acromesomelic dysplasia, Hunter-Thompson type"
+  }
+ ],
+ "no_current": [],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Aspirin",
+   "u": "/drugs/aspirin/",
+   "l": "L5",
+   "lt": 78,
+   "lv": 78,
+   "r": 4,
+   "i": "atrophoderma vermiculata"
+  },
+  {
+   "t": "Ketamine",
+   "u": "/drugs/ketamine/",
+   "l": "L1",
+   "lt": 27,
+   "lv": 27,
+   "r": 3,
+   "i": "headache disorder"
+  },
+  {
+   "t": "Ammonia",
+   "u": "/drugs/ammonia/",
+   "l": "L5",
+   "lt": 8,
+   "lv": 8,
+   "r": 2,
+   "i": "acrodermatitis chronica atrophicans"
+  },
+  {
+   "t": "Arginine",
+   "u": "/drugs/arginine/",
+   "l": "L4",
+   "lt": 22,
+   "lv": 22,
+   "r": 2,
+   "i": "gastroparesis (disease)"
+  },
+  {
+   "t": "Bupropion",
+   "u": "/drugs/bupropion/",
+   "l": "L2",
+   "lt": 4,
+   "lv": 4,
+   "r": 2,
+   "i": "attention deficit-hyperactivity disorder"
+  },
+  {
+   "t": "Dapsone",
+   "u": "/drugs/dapsone/",
+   "l": "L1",
+   "lt": 9,
+   "lv": 9,
+   "r": 2,
+   "i": "pneumocystosis"
+  }
+ ],
+ "example": {
+  "t": "Tacrolimus",
+  "u": "/drugs/tacrolimus/",
+  "l": "L1",
+  "lt": 64,
+  "lv": 64,
+  "r": 1,
+  "i": "seborrheic dermatitis"
+ },
+ "recent_reviews": [
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zafirlukast",
+   "u": "/drugs/zafirlukast/",
+   "s": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Yohimbine",
+   "u": "/drugs/yohimbine/",
+   "s": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Xylitol",
+   "u": "/drugs/xylitol/",
+   "s": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Removed: \"This is a single-ingredient product and its status is valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Ursodeoxycholic Acid",
+   "u": "/drugs/ursodeoxycholic-acid/",
+   "s": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tyrosine",
+   "u": "/drugs/tyrosine/",
+   "s": "Removed: \"This record is a single valid single-ingredient authorisation. Its number does not follow the…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Removed: \"Only one single-ingredient authorisation is recorded, and it is valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trifluoperazine",
+   "u": "/drugs/trifluoperazine/",
+   "s": "Removed: \"The licence record gives no dosage form or approved indication text\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tretinoin",
+   "u": "/drugs/tretinoin/",
+   "s": "Removed: \"This is a single-ingredient product with valid status. The record carries no PL-format number…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trazodone",
+   "u": "/drugs/trazodone/",
+   "s": "Removed: \"plus verification of the authorisation record\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trastuzumab",
+   "u": "/drugs/trastuzumab/",
+   "s": "Removed: \"One authorisation is recorded, and it is a valid single-ingredient product\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tranexamic Acid",
+   "u": "/drugs/tranexamic-acid/",
+   "s": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Trandolapril",
+   "u": "/drugs/trandolapril/",
+   "s": "Removed: \"One single-ingredient authorisation is currently valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Removed: \"This is a single valid single-ingredient product record, and the licence record provides no dosage…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Removed: \"The compiled record holds one valid single-ingredient authorisation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tolcapone",
+   "u": "/drugs/tolcapone/",
+   "s": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tobramycin",
+   "u": "/drugs/tobramycin/",
+   "s": "Removed: \"because the current licence record is incomplete since the one authorisation on record is a…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tiopronin",
+   "u": "/drugs/tiopronin/",
+   "s": "Removed: \"Only one valid single-ingredient authorisation was identified in the data compiled for this report\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Tioconazole",
+   "u": "/drugs/tioconazole/",
+   "s": "Removed: \"licensed\"",
+   "d": "2026-11-06"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Zafirlukast",
+   "u": "/drugs/zafirlukast/",
+   "s": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Yohimbine",
+   "u": "/drugs/yohimbine/",
+   "s": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Xylitol",
+   "u": "/drugs/xylitol/",
+   "s": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Vildagliptin",
+   "u": "/drugs/vildagliptin/",
+   "s": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "Removed: \"This is a single-ingredient product and its status is valid\"",
+   "d": "2026-11-06"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
+   "d": "2026-11-06"
+  }
+ ],
+ "files": {
+  "search_index": 583,
+  "drugs_json": 583
+ },
+ "by_level": {
+  "L1": {
+   "n": 9,
+   "current": 9
+  },
+  "L2": {
+   "n": 22,
+   "current": 22
+  },
+  "L3": {
+   "n": 16,
+   "current": 16
+  },
+  "L4": {
+   "n": 37,
+   "current": 37
+  },
+  "L5": {
+   "n": 455,
+   "current": 453
+  }
+ },
+ "cross": {
+  "unique_pairs": 54,
+  "unique_examples": [
+   {
+    "t": "Pirenzepine",
+    "u": "/drugs/pirenzepine/",
+    "i": "gastroduodenitis"
+   },
+   {
+    "t": "Diethylstilbestrol",
+    "u": "/drugs/diethylstilbestrol/",
+    "i": "amenorrhea (disease)"
+   },
+   {
+    "t": "Dihydrotachysterol",
+    "u": "/drugs/dihydrotachysterol/",
+    "i": "obsolete vitamin D deficiency"
+   },
+   {
+    "t": "Gamolenic Acid",
+    "u": "/drugs/gamolenic-acid/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Indoramin",
+    "u": "/drugs/indoramin/",
+    "i": "hypertrichosis (disease)"
+   },
+   {
+    "t": "Inositol Nicotinate",
+    "u": "/drugs/inositol-nicotinate/",
+    "i": "primitive portal vein thrombosis"
+   },
+   {
+    "t": "Isocarboxazid",
+    "u": "/drugs/isocarboxazid/",
+    "i": "schizotypal personality disorder"
+   },
+   {
+    "t": "Levamisole",
+    "u": "/drugs/levamisole/",
+    "i": "abducens nerve neoplasm"
+   },
+   {
+    "t": "Meptazinol",
+    "u": "/drugs/meptazinol/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Methysergide",
+    "u": "/drugs/methysergide/",
+    "i": "migraine with brainstem aura"
+   },
+   {
+    "t": "Oxandrolone",
+    "u": "/drugs/oxandrolone/",
+    "i": "breast fibrocystic disease"
+   },
+   {
+    "t": "Sulfapyridine",
+    "u": "/drugs/sulfapyridine/",
+    "i": "heparin-induced thrombocytopenia (disease)"
+   },
+   {
+    "t": "Sulfinpyrazone",
+    "u": "/drugs/sulfinpyrazone/",
+    "i": "hypouricemia, renal"
+   }
+  ]
+ }
+}

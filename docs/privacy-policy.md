@@ -47,11 +47,32 @@ patient identifiers. When you ask for clinical trials, the drug and indication n
 
 ---
 
-## Data subject rights
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Applicable law
 
-This site has no accounts and keeps no personal records on servers of its own (it has none). Usage statistics
-are collected by Google Analytics 4; you can block or delete its cookies in your browser settings.
-For questions about this policy, contact service@yao.care.
+For visitors in the United Kingdom the relevant law is the UK GDPR together with the [Data Protection Act 2018](https://www.legislation.gov.uk/ukpga/2018/12/contents); analytics cookies also fall under the Privacy and Electronic Communications Regulations (PECR). The regulator is the [Information Commissioner's Office (ICO)](https://ico.org.uk/). The operator is based in Taiwan and has no UK establishment; the processing concerned is the usage data Google Analytics 4 collects through cookies.
+
+## Your rights and how to use them
+
+- Right of access to personal data held about you.
+- Rights to rectification and erasure.
+- Right to restrict processing and to object to it.
+- Right to complain to the ICO.
+
+Requests: service@yao.care (there are no accounts, so tell us the date and pages of your visit). Analytics cookies can be blocked or deleted in your browser.
+
+## Copyright and data sources
+
+Site texts are protected under the [Copyright, Designs and Patents Act 1988](https://www.legislation.gov.uk/ukpga/1988/48/contents). The site's code is published under the MIT License in the [GitHub repository](https://github.com/yao-care/UkTxGNN); report texts are © 藥提醒科技有限公司 (yao.care).
+
+Data sources used on this site and their terms:
+
+- **TxGNN** data (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [ClinicalTrials.gov terms](https://clinicaltrials.gov/about-site/terms-conditions), [NCBI policies](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: [DrugBank](https://go.drugbank.com/) licence terms, non-commercial use.
+- **Local dataset** – [NHSBSA BNF code information](https://opendata.nhsbsa.net/): Open Government Licence v3.0 (NHSBSA Open Data Portal) (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+<!-- privacy-law:end -->
 
 ---
 
