@@ -50,6 +50,10 @@ the platform integrates clinical evidence from ClinicalTrials.gov and PubMed so 
 quickly assess how credible each prediction is.
 </p>
 
+<p class="key-answer" data-question="Is there a free dataset of drug repurposing predictions I can download?">
+Yes. All TxGNN predictions for United Kingdom are published free of charge on this site; dataset files, formats and licences are listed on the <a href="{{ '/sources/' | relative_url }}">Data Sources</a> page.
+</p>
+
 ---
 
 <!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
