@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Scopolamine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes"

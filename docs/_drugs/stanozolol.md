@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Stanozolol"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "fetal erythroblastosis", "Peyronie disease", "renal tubular acidosis", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "complement component C1s deficiency", "focal myositis", "idiopathic eosinophilic myositis"]
 description: "Stanozolol: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Demeclocycline"
 predicted_indications: ["chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Demeclocycline: predicted new indication chronic ethmoidal sinusitis (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 

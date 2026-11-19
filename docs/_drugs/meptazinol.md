@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Meptazinol"
 predicted_indications: ["insomnia (disease)"]
 description: "Meptazinol: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"

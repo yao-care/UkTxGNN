@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In the UK: 24 NHSBSA BNF presentation codes"
 ---
 

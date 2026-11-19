@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes"
 ---
 

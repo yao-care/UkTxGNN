@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 

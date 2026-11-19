@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 183
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Clonazepam: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Early myoclonic encephalopathy, absence epilepsy…"
 monitor_inn: "Clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]

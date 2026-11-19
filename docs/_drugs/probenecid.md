@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 521
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes"

@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 437
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Nefazodone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes"

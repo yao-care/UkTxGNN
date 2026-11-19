@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Gout"
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]

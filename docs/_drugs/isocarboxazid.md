@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "schizotypal personality disorder"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
