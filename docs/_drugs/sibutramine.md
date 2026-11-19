@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Sibutramine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
-description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Sibutramine

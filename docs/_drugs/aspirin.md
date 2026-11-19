@@ -9,7 +9,7 @@ drugbank_id: DB00945
 monitor_inn: "Acetylsalicylic acid"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "trigeminal autonomic cephalalgia", "thrombophilia"]
 last_modified_at: 2026-11-17
-description: "Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 78 NHSBSA BNF presentation codes"
 ---
 
 # Aspirin

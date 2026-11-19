@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
 last_modified_at: 2026-11-12
-description: "Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Not recorded in the local data"
+description: "Capreomycin: predicted new indication Gout (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Capreomycin

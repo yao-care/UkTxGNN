@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 last_modified_at: 2026-11-12
-description: "Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Eletriptan

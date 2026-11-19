@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Azapropazone"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "pseudoachondroplasia", "brachyolmia", "hypermobility of coccyx", "Kummell disease"]
 last_modified_at: 2026-11-12
-description: "Azapropazone: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data"
+description: "Azapropazone: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Azapropazone

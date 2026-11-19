@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Phylloquinone"
 predicted_indications: ["renal tubular acidosis", "hypophosphatemic rickets", "Pendred syndrome", "autosomal recessive nonsyndromic deafness", "leukocyte adhesion deficiency", "Fraser syndrome", "temtamy preaxial brachydactyly syndrome"]
-description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes"
 ---
 
 # Phylloquinone

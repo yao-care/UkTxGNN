@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "inositol"
 predicted_indications: ["idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatic porphyria", "congestive heart failure", "acute pulmonary heart disease", "glycogen storage disease due to hepatic glycogen synthase deficiency"]
-description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). In the UK: 1 NHSBSA BNF presentation code"
 ---
 
 # Inositol

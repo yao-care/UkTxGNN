@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Ammonia"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial"]
 last_modified_at: 2026-11-12
-description: "Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data"
+description: "Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 
 # Ammonia

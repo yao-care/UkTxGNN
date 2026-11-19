@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 last_modified_at: 2026-11-12
-description: "Everolimus: predicted new indication liposarcoma (evidence level L2). Approved use: Not recorded in the local data"
+description: "Everolimus: predicted new indication liposarcoma (evidence level L2). In the UK: 23 NHSBSA BNF presentation codes"
 ---
 
 # Everolimus

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Gamolenic acid"
 predicted_indications: ["insomnia (disease)"]
-description: "Gamolenic Acid: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Gamolenic Acid: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes"
 ---
 
 # Gamolenic Acid

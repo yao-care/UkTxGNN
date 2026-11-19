@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data"
+description: "Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes"
 ---
 
 # Galantamine

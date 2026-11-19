@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Strontium ranelate"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "severe nonproliferative diabetic retinopathy"]
-description: "Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Strontium Ranelate

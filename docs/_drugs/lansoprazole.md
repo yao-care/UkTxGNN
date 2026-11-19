@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
-description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 31 NHSBSA BNF presentation codes"
 ---
 
 # Lansoprazole

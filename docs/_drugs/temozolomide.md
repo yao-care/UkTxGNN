@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
 last_modified_at: 2026-11-12
-description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data"
+description: "Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes"
 ---
 
 # Temozolomide

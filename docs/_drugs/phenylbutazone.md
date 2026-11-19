@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "Phenylbutazone"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis"]
-description: "Phenylbutazone: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data"
+description: "Phenylbutazone: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"
 ---
 
 # Phenylbutazone

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data"
+description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes"
 ---
 
 # Perampanel

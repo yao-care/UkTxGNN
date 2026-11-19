@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
-description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). In the UK: 20 NHSBSA BNF presentation codes"
 ---
 
 # Trazodone

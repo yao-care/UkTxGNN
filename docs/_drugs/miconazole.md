@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). Approved use: Not recorded in the local data"
+description: "Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). In the UK: 29 NHSBSA BNF presentation codes"
 ---
 
 # Miconazole

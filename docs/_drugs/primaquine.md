@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "Primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
-description: "Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Primaquine: predicted new indication Myiasis (evidence level L5). In the UK: 1 NHSBSA BNF presentation code"
 ---
 
 # Primaquine

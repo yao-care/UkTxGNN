@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Granisetron"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "acute contagious conjunctivitis", "angioedema", "allergic urticaria", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "bronchitis", "cold urticaria", "conjunctivitis"]
-description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data"
+description: "Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes"
 ---
 
 # Granisetron

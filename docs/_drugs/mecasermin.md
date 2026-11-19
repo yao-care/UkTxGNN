@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
-description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mecasermin: predicted new indication Monosomy X (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Mecasermin

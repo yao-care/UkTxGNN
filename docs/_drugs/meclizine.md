@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
-description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Meclizine: predicted new indication Allergic urticaria (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Meclizine

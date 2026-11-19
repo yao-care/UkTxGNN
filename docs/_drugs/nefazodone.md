@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Nefazodone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data"
+description: "Nefazodone: predicted new indication Migraine disorder (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
 # Nefazodone

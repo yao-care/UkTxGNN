@@ -8,7 +8,7 @@ indication_count: 3
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 last_modified_at: 2026-11-12
-description: "Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes"
 ---
 
 # Etanercept

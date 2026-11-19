@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
-description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Pramocaine

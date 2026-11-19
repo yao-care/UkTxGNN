@@ -8,7 +8,7 @@ indication_count: 7
 monitor_inn: "Exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
 last_modified_at: 2026-11-12
-description: "Exemestane: predicted new indication antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data"
+description: "Exemestane: predicted new indication antithrombin deficiency type 2 (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Exemestane

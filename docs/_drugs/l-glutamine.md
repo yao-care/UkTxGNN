@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "L-Glutamine"
 predicted_indications: ["drug-induced osteoporosis", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "acne keloid", "severe nonproliferative diabetic retinopathy", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
-description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data"
+description: "L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
 # L-Glutamine

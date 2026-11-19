@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "Tizanidine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "Tourette syndrome", "ulerythema ophryogenesis"]
-description: "Tizanidine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Tizanidine: predicted new indication Migraine disorder (evidence level L2). In the UK: 12 NHSBSA BNF presentation codes"
 ---
 
 # Tizanidine

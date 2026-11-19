@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Golimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data"
+description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
 ---
 
 # Golimumab

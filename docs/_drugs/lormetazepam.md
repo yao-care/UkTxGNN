@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "Lormetazepam"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
-description: "Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not recorded in the local data"
+description: "Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
 # Lormetazepam

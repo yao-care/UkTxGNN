@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Diazoxide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 last_modified_at: 2026-11-12
-description: "Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data"
+description: "Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the UK: 29 NHSBSA BNF presentation codes"
 ---
 
 # Diazoxide

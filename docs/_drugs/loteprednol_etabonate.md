@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 last_modified_at: 2026-11-12
-description: "Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). Approved use: Not recorded in the local data"
+description: "Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Loteprednol Etabonate

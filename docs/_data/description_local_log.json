@@ -1,0 +1,3571 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "aceclofenac": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "acenocoumarol": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "acetic_acid": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "acyclovir": {
+      "tail": "In the UK: 45 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "adalimumab": {
+      "tail": "In the UK: 43 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "adefovir_dipivoxil": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "agomelatine": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "albendazole": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alfuzosin": {
+      "tail": "In the UK: 15 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aliskiren": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alitretinoin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "allantoin": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "almotriptan": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alprazolam": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "alteplase": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amantadine": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ambrisentan": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amifampridine": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amiloride": {
+      "tail": "In the UK: 48 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amiodarone": {
+      "tail": "In the UK: 38 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amlodipine": {
+      "tail": "In the UK: 47 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ammonia": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "amoxicillin": {
+      "tail": "In the UK: 65 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ampicillin": {
+      "tail": "In the UK: 16 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "anakinra": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "anastrozole": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "apixaban": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aripiprazole": {
+      "tail": "In the UK: 36 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "artemether": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ascorbic_acid": {
+      "tail": "In the UK: 104 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "asenapine": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "aspirin": {
+      "tail": "In the UK: 78 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "atomoxetine": {
+      "tail": "In the UK: 32 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "atorvastatin": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "azapropazone": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bacitracin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bendroflumethiazide": {
+      "tail": "In the UK: 30 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "benzocaine": {
+      "tail": "In the UK: 41 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bicalutamide": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bosentan": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "bupropion": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cabergoline": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "caffeine": {
+      "tail": "In the UK: 46 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "calcitriol": {
+      "tail": "In the UK: 13 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "candesartan_cilexetil": {
+      "tail": "In the UK: 17 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "capreomycin": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carbimazole": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "carvedilol": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cefuroxime": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "celecoxib": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "certolizumab_pegol": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cetirizine": {
+      "tail": "In the UK: 34 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorambucil": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorpromazine": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "chlorthalidone": {
+      "tail": "In the UK: 17 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cilazapril": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cimetidine": {
+      "tail": "In the UK: 27 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cinchocaine": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ciprofloxacin": {
+      "tail": "In the UK: 50 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "citalopram": {
+      "tail": "In the UK: 11 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "citric_acid": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clindamycin": {
+      "tail": "In the UK: 37 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clobazam": {
+      "tail": "In the UK: 39 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clofazimine": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clonidine": {
+      "tail": "In the UK: 37 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clopidogrel": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clotrimazole": {
+      "tail": "In the UK: 53 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "clozapine": {
+      "tail": "In the UK: 31 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "codeine": {
+      "tail": "In the UK: 91 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyclizine": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyclophosphamide": {
+      "tail": "In the UK: 16 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cycloserine": {
+      "tail": "In the UK: 1 NHSBSA BNF presentation code",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyclosporine": {
+      "tail": "In the UK: 48 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cyproheptadine": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "cysteine": {
+      "tail": "In the UK: no NHSBSA BNF presentation code in this data",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "danazol": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dapoxetine": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "deferasirox": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "demeclocycline": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "desloratadine": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diazepam": {
+      "tail": "In the UK: 31 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diazoxide": {
+      "tail": "In the UK: 29 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "diflunisal": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "digoxin": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dihydrocodeine": {
+      "tail": "In the UK: 33 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dihydrotachysterol": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dipyridamole": {
+      "tail": "In the UK: 32 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "donepezil": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dorzolamide": {
+      "tail": "In the UK: 21 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "doxycycline": {
+      "tail": "In the UK: 21 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "duloxetine": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "dutasteride": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "eletriptan": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "eltrombopag": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "enoxaparin": {
+      "tail": "In the UK: 41 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "entecavir": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ergocalciferol": {
+      "tail": "In the UK: 83 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "erythromycin": {
+      "tail": "In the UK: 31 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "esomeprazole": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "etanercept": {
+      "tail": "In the UK: 21 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ethambutol": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "etodolac": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "etoposide": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "everolimus": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "exemestane": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "famciclovir": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "famotidine": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "febuxostat": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "felbinac": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fenoprofen": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fexofenadine": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fidaxomicin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "finasteride": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluorouracil": {
+      "tail": "In the UK: 28 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fluoxetine": {
+      "tail": "In the UK: 22 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flupentixol": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flurbiprofen": {
+      "tail": "In the UK: 17 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "flutamide": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "formaldehyde": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "formoterol": {
+      "tail": "In the UK: 66 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "frovatriptan": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "fusidic_acid": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "galantamine": {
+      "tail": "In the UK: 48 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "gamolenic_acid": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ganirelix": {
+      "tail": "In the UK: 1 NHSBSA BNF presentation code",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "gefitinib": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "glimepiride": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "glycine": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "golimumab": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "granisetron": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "guaifenesin": {
+      "tail": "In the UK: 59 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "haloperidol": {
+      "tail": "In the UK: 39 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydromorphone": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydroxocobalamin": {
+      "tail": "In the UK: 11 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydroxyurea": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "hydroxyzine": {
+      "tail": "In the UK: 13 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ibuprofen": {
+      "tail": "In the UK: 205 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "idebenone": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "imidapril": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "indomethacin": {
+      "tail": "In the UK: 39 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "indoramin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "inositol": {
+      "tail": "In the UK: 1 NHSBSA BNF presentation code",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ipratropium": {
+      "tail": "In the UK: 38 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "irbesartan": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "isocarboxazid": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "isotretinoin": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ivabradine": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketoconazole": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketoprofen": {
+      "tail": "In the UK: 37 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ketorolac": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "l-glutamine": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lacosamide": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lamotrigine": {
+      "tail": "In the UK: 32 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lanreotide": {
+      "tail": "In the UK: 13 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lansoprazole": {
+      "tail": "In the UK: 31 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "latanoprost": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lenalidomide": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "letrozole": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levetiracetam": {
+      "tail": "In the UK: 44 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levocarnitine": {
+      "tail": "In the UK: 17 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levocetirizine": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "levofloxacin": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "liothyronine": {
+      "tail": "In the UK: 53 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lisinopril": {
+      "tail": "In the UK: 41 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "loperamide": {
+      "tail": "In the UK: 46 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lorazepam": {
+      "tail": "In the UK: 22 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "lormetazepam": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "loteprednol_etabonate": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mebendazole": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mecasermin": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "meclizine": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mefenamic_acid": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "melphalan": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "meptazinol": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mercaptopurine": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metformin": {
+      "tail": "In the UK: 101 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methotrexate": {
+      "tail": "In the UK: 152 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methyl_aminolevulinate": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "methysergide": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metoclopramide": {
+      "tail": "In the UK: 24 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metolazone": {
+      "tail": "In the UK: 11 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "metronidazole": {
+      "tail": "In the UK: 50 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mexiletine": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "micafungin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "miconazole": {
+      "tail": "In the UK: 29 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "midazolam": {
+      "tail": "In the UK: 46 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "midodrine": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "minocycline": {
+      "tail": "In the UK: 19 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mizolastine": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "moclobemide": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "modafinil": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "montelukast": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "moxifloxacin": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "moxonidine": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "mupirocin": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nabumetone": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "naproxen": {
+      "tail": "In the UK: 53 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "naratriptan": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nefazodone": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nitisinone": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nitrazepam": {
+      "tail": "In the UK: 11 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nizatidine": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "norfloxacin": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "norgestimate": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nortriptyline": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "nystatin": {
+      "tail": "In the UK: 37 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ofloxacin": {
+      "tail": "In the UK: 11 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "olopatadine": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "omalizumab": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "omeprazole": {
+      "tail": "In the UK: 66 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "orphenadrine": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxcarbazepine": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxybutynin": {
+      "tail": "In the UK: 30 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "oxytetracycline": {
+      "tail": "In the UK: 13 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "paliperidone": {
+      "tail": "In the UK: 28 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pantoprazole": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "paroxetine": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pazopanib": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "perampanel": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "perindopril": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenoxymethylpenicillin": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phenylbutazone": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "phylloquinone": {
+      "tail": "In the UK: 25 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pimecrolimus": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "polyethylene_glycol": {
+      "tail": "In the UK: 39 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pramipexole": {
+      "tail": "In the UK: 44 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "pramocaine": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prasterone": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prednisone": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "prilocaine": {
+      "tail": "In the UK: 21 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "primaquine": {
+      "tail": "In the UK: 1 NHSBSA BNF presentation code",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "primidone": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "probenecid": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "progesterone": {
+      "tail": "In the UK: 40 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propafenone": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propranolol": {
+      "tail": "In the UK: 67 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "propylthiouracil": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "quinapril": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ranitidine": {
+      "tail": "In the UK: 62 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rifabutin": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rifaximin": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rimexolone": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "risperidone": {
+      "tail": "In the UK: 37 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ritonavir": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rivastigmine": {
+      "tail": "In the UK: 47 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rizatriptan": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ropivacaine": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "rufinamide": {
+      "tail": "In the UK: 8 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salbutamol": {
+      "tail": "In the UK: 94 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "salmeterol": {
+      "tail": "In the UK: 57 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "scopolamine": {
+      "tail": "In the UK: 48 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "selegiline": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sertraline": {
+      "tail": "In the UK: 24 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sibutramine": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "simvastatin": {
+      "tail": "In the UK: 34 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sirolimus": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sorafenib": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sotalol": {
+      "tail": "In the UK: 23 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "stanozolol": {
+      "tail": "In the UK: 3 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "strontium_ranelate": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfadiazine": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulfinpyrazone": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "sulindac": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tacrolimus": {
+      "tail": "In the UK: 64 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tadalafil": {
+      "tail": "In the UK: 13 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tamsulosin": {
+      "tail": "In the UK: 42 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tazarotene": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "telbivudine": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "telmisartan": {
+      "tail": "In the UK: 22 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "temozolomide": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "terazosin": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "terlipressin": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tetrabenazine": {
+      "tail": "In the UK: 16 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tetracycline": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tiaprofenic_acid": {
+      "tail": "In the UK: 6 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tioconazole": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tiopronin": {
+      "tail": "In the UK: 4 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tiotropium": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tizanidine": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tobramycin": {
+      "tail": "In the UK: 24 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tolvaptan": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tramadol": {
+      "tail": "In the UK: 115 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trandolapril": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tranexamic_acid": {
+      "tail": "In the UK: 26 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trastuzumab": {
+      "tail": "In the UK: 22 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trazodone": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "treosulfan": {
+      "tail": "In the UK: 5 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "triamterene": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trifluoperazine": {
+      "tail": "In the UK: 20 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "trihexyphenidyl": {
+      "tail": "In the UK: 14 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "tropicamide": {
+      "tail": "In the UK: 10 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "valproic_acid": {
+      "tail": "In the UK: 18 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "valsartan": {
+      "tail": "In the UK: 38 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zafirlukast": {
+      "tail": "In the UK: 2 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zidovudine": {
+      "tail": "In the UK: 12 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "ziprasidone": {
+      "tail": "In the UK: 7 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    },
+    "zolmitriptan": {
+      "tail": "In the UK: 9 NHSBSA BNF presentation codes",
+      "original": "Approved use: Not recorded in the local data",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/aceclofenac.md",
+      "date": "2026-11-19",
+      "from": "\"Aceclofenac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aceclofenac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acenocoumarol.md",
+      "date": "2026-11-19",
+      "from": "\"Acenocoumarol: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acenocoumarol: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acetic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acetic Acid: predicted new indication post-bacterial disorder (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/acyclovir.md",
+      "date": "2026-11-19",
+      "from": "\"Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Acyclovir: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 45 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adalimumab.md",
+      "date": "2026-11-19",
+      "from": "\"Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Adalimumab: predicted new indication hypermobility of coccyx (evidence level L5). In the UK: 43 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/adefovir_dipivoxil.md",
+      "date": "2026-11-19",
+      "from": "\"Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/agomelatine.md",
+      "date": "2026-11-19",
+      "from": "\"Agomelatine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Agomelatine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/albendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Albendazole: predicted new indication Coenurosis (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alfuzosin.md",
+      "date": "2026-11-19",
+      "from": "\"Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Alfuzosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 15 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aliskiren.md",
+      "date": "2026-11-19",
+      "from": "\"Aliskiren: predicted new indication pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aliskiren: predicted new indication pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alitretinoin.md",
+      "date": "2026-11-19",
+      "from": "\"Alitretinoin: predicted new indication amenorrhea (amenorrhea (disease)) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Alitretinoin: predicted new indication amenorrhea (amenorrhea (disease)) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/allantoin.md",
+      "date": "2026-11-19",
+      "from": "\"Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Allantoin: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/almotriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alprazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Alprazolam: predicted new indication Insomnia (disease) (evidence level L3). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/alteplase.md",
+      "date": "2026-11-19",
+      "from": "\"Alteplase: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Alteplase: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amantadine.md",
+      "date": "2026-11-19",
+      "from": "\"Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ambrisentan.md",
+      "date": "2026-11-19",
+      "from": "\"Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ambrisentan: predicted new indication pulmonary arteriovenous malformation (disease) (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amifampridine.md",
+      "date": "2026-11-19",
+      "from": "\"Amifampridine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amifampridine: predicted new indication Glaucoma (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amiloride.md",
+      "date": "2026-11-19",
+      "from": "\"Amiloride: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amiloride: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amiodarone.md",
+      "date": "2026-11-19",
+      "from": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amiodarone: predicted new indication Catecholaminergic polymorphic ventricular tachycardia (evidence level L5). In the UK: 38 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amlodipine.md",
+      "date": "2026-11-19",
+      "from": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amlodipine: predicted new indication brain stem infarction (evidence level L5). In the UK: 47 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ammonia.md",
+      "date": "2026-11-19",
+      "from": "\"Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ammonia: predicted new indication acrodermatitis chronica atrophicans (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/amoxicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Amoxicillin: predicted new indication Hyperamylasaemia (hyperamylasemia) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Amoxicillin: predicted new indication Hyperamylasaemia (hyperamylasemia) (evidence level L5). In the UK: 65 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ampicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Ampicillin: predicted new indication Laryngitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ampicillin: predicted new indication Laryngitis (evidence level L5). In the UK: 16 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/anakinra.md",
+      "date": "2026-11-19",
+      "from": "\"Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Anakinra: predicted new indication Extracutaneous mastocytoma (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/anastrozole.md",
+      "date": "2026-11-19",
+      "from": "\"Anastrozole: predicted new indication neuroblastoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Anastrozole: predicted new indication neuroblastoma (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/apixaban.md",
+      "date": "2026-11-19",
+      "from": "\"Apixaban: predicted new indication Migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Apixaban: predicted new indication Migraine disorder (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aripiprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aripiprazole: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In the UK: 36 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/artemether.md",
+      "date": "2026-11-19",
+      "from": "\"Artemether: predicted new indication Acquired angioedema (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Artemether: predicted new indication Acquired angioedema (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ascorbic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ascorbic Acid: predicted new indication non-syndromic esophageal malformation (evidence level L5). In the UK: 104 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/asenapine.md",
+      "date": "2026-11-19",
+      "from": "\"Asenapine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Asenapine: predicted new indication retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/aspirin.md",
+      "date": "2026-11-19",
+      "from": "\"Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Aspirin: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 78 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atomoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Atomoxetine: predicted new indication Specific developmental disorder (evidence level L5). In the UK: 32 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/atorvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Atorvastatin: predicted new indication HIV infectious disease (evidence level L2). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/azapropazone.md",
+      "date": "2026-11-19",
+      "from": "\"Azapropazone: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Azapropazone: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bacitracin.md",
+      "date": "2026-11-19",
+      "from": "\"Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bacitracin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bendroflumethiazide.md",
+      "date": "2026-11-19",
+      "from": "\"Bendroflumethiazide: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bendroflumethiazide: predicted new indication malignant hypertensive renal disease (evidence level L5). In the UK: 30 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/benzocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 41 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bicalutamide.md",
+      "date": "2026-11-19",
+      "from": "\"Bicalutamide: predicted new indication Hypertrichosis (hypertrichosis (disease)) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Bicalutamide: predicted new indication Hypertrichosis (hypertrichosis (disease)) (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bosentan.md",
+      "date": "2026-11-19",
+      "from": "\"Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/bupropion.md",
+      "date": "2026-11-19",
+      "from": "\"Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Bupropion: predicted new indication attention deficit-hyperactivity disorder (evidence level L2). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cabergoline.md",
+      "date": "2026-11-19",
+      "from": "\"Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cabergoline: predicted new indication progeria-short stature-pigmented nevi syndrome (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/caffeine.md",
+      "date": "2026-11-19",
+      "from": "\"Caffeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Caffeine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 46 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/calcitriol.md",
+      "date": "2026-11-19",
+      "from": "\"Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Calcitriol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/candesartan_cilexetil.md",
+      "date": "2026-11-19",
+      "from": "\"Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Candesartan Cilexetil: predicted new indication malignant hypertensive renal disease (evidence level L5). In the UK: 17 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/capreomycin.md",
+      "date": "2026-11-19",
+      "from": "\"Capreomycin: predicted new indication Gout (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Capreomycin: predicted new indication Gout (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carbimazole.md",
+      "date": "2026-11-19",
+      "from": "\"Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/carvedilol.md",
+      "date": "2026-11-19",
+      "from": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Carvedilol: predicted new indication malignant hypertensive renal disease (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cefuroxime.md",
+      "date": "2026-11-19",
+      "from": "\"Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cefuroxime: predicted new indication hyperamylasemia (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/celecoxib.md",
+      "date": "2026-11-19",
+      "from": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Celecoxib: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/certolizumab_pegol.md",
+      "date": "2026-11-19",
+      "from": "\"Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Certolizumab Pegol: predicted new indication hypermobility of coccyx (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cetirizine.md",
+      "date": "2026-11-19",
+      "from": "\"Cetirizine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cetirizine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 34 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorambucil.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorambucil: predicted new indication ALK-positive large B-cell lymphoma (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorpromazine.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/chlorthalidone.md",
+      "date": "2026-11-19",
+      "from": "\"Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Chlorthalidone: predicted new indication primary hereditary glaucoma (evidence level L5). In the UK: 17 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cilazapril.md",
+      "date": "2026-11-19",
+      "from": "\"Cilazapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cilazapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cimetidine.md",
+      "date": "2026-11-19",
+      "from": "\"Cimetidine: predicted new indication peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cimetidine: predicted new indication peptic ulcer perforation (evidence level L5). In the UK: 27 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cinchocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cinchocaine: predicted new indication Bronchitis (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ciprofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). In the UK: 50 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/citalopram.md",
+      "date": "2026-11-19",
+      "from": "\"Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In the UK: 11 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/citric_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Citric Acid: predicted new indication stomach disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Citric Acid: predicted new indication stomach disease (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clindamycin.md",
+      "date": "2026-11-19",
+      "from": "\"Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clindamycin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clobazam.md",
+      "date": "2026-11-19",
+      "from": "\"Clobazam: predicted new indication febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clobazam: predicted new indication febrile infection-related epilepsy syndrome (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clofazimine.md",
+      "date": "2026-11-19",
+      "from": "\"Clofazimine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clofazimine: predicted new indication Pneumocystosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clonidine.md",
+      "date": "2026-11-19",
+      "from": "\"Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clonidine: predicted new indication faciodigitogenital syndrome (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clopidogrel.md",
+      "date": "2026-11-19",
+      "from": "\"Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clopidogrel: predicted new indication Migraine with brainstem aura (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clotrimazole.md",
+      "date": "2026-11-19",
+      "from": "\"Clotrimazole: predicted new indication acne (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Clotrimazole: predicted new indication acne (disease) (evidence level L5). In the UK: 53 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/clozapine.md",
+      "date": "2026-11-19",
+      "from": "\"Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L2). In the UK: 31 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/codeine.md",
+      "date": "2026-11-19",
+      "from": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Codeine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 91 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyclizine.md",
+      "date": "2026-11-19",
+      "from": "\"Cyclizine: predicted new indication allergic urticaria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyclizine: predicted new indication allergic urticaria (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyclophosphamide.md",
+      "date": "2026-11-19",
+      "from": "\"Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyclophosphamide: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). In the UK: 16 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cycloserine.md",
+      "date": "2026-11-19",
+      "from": "\"Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cycloserine: predicted new indication irritable bowel syndrome (evidence level L5). In the UK: 1 NHSBSA BNF presentation code\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyclosporine.md",
+      "date": "2026-11-19",
+      "from": "\"Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyclosporine: predicted new indication granulomatous disease, chronic, autosomal recessive (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cyproheptadine.md",
+      "date": "2026-11-19",
+      "from": "\"Cyproheptadine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cyproheptadine: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/cysteine.md",
+      "date": "2026-11-19",
+      "from": "\"Cysteine: predicted new indication Dry eye syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Cysteine: predicted new indication Dry eye syndrome (evidence level L5). In the UK: no NHSBSA BNF presentation code in this data\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/danazol.md",
+      "date": "2026-11-19",
+      "from": "\"Danazol: predicted new indication amenorrhoea (amenorrhea (disease)) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Danazol: predicted new indication amenorrhoea (amenorrhea (disease)) (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dapoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Dapoxetine: predicted new indication migraine disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dapoxetine: predicted new indication migraine disorder (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/deferasirox.md",
+      "date": "2026-11-19",
+      "from": "\"Deferasirox: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Deferasirox: predicted new indication HIV infectious disease (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/demeclocycline.md",
+      "date": "2026-11-19",
+      "from": "\"Demeclocycline: predicted new indication chronic ethmoidal sinusitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Demeclocycline: predicted new indication chronic ethmoidal sinusitis (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/desloratadine.md",
+      "date": "2026-11-19",
+      "from": "\"Desloratadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Desloratadine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Diazepam: predicted new indication Insomnia (disease) (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Diazepam: predicted new indication Insomnia (disease) (evidence level L2). In the UK: 31 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diazoxide.md",
+      "date": "2026-11-19",
+      "from": "\"Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diazoxide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the UK: 29 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/diflunisal.md",
+      "date": "2026-11-19",
+      "from": "\"Diflunisal: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Diflunisal: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/digoxin.md",
+      "date": "2026-11-19",
+      "from": "\"Digoxin: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Digoxin: predicted new indication Prinzmetal angina (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dihydrocodeine.md",
+      "date": "2026-11-19",
+      "from": "\"Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dihydrocodeine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 33 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dihydrotachysterol.md",
+      "date": "2026-11-19",
+      "from": "\"Dihydrotachysterol: predicted new indication obsolete vitamin D deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dihydrotachysterol: predicted new indication obsolete vitamin D deficiency (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dipyridamole.md",
+      "date": "2026-11-19",
+      "from": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dipyridamole: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In the UK: 32 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/donepezil.md",
+      "date": "2026-11-19",
+      "from": "\"Donepezil: predicted new indication psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Donepezil: predicted new indication psychogenic movement disorders (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dorzolamide.md",
+      "date": "2026-11-19",
+      "from": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dorzolamide: predicted new indication hypotrichosis simplex of the scalp (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/doxycycline.md",
+      "date": "2026-11-19",
+      "from": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/duloxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Duloxetine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Duloxetine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/dutasteride.md",
+      "date": "2026-11-19",
+      "from": "\"Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Dutasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/eletriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Eletriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/eltrombopag.md",
+      "date": "2026-11-19",
+      "from": "\"Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/enoxaparin.md",
+      "date": "2026-11-19",
+      "from": "\"Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Enoxaparin: predicted new indication thrombophilia due to protein C deficiency, autosomal recessive (evidence level L5). In the UK: 41 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/entecavir.md",
+      "date": "2026-11-19",
+      "from": "\"Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ergocalciferol.md",
+      "date": "2026-11-19",
+      "from": "\"Ergocalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ergocalciferol: predicted new indication acromesomelic dysplasia, Campailla Martinelli type (evidence level L5). In the UK: 83 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/erythromycin.md",
+      "date": "2026-11-19",
+      "from": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Erythromycin: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 31 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/esomeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Esomeprazole: predicted new indication duodenal obstruction (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etanercept.md",
+      "date": "2026-11-19",
+      "from": "\"Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ethambutol.md",
+      "date": "2026-11-19",
+      "from": "\"Ethambutol: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ethambutol: predicted new indication Epiglottitis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etodolac.md",
+      "date": "2026-11-19",
+      "from": "\"Etodolac: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Etodolac: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/etoposide.md",
+      "date": "2026-11-19",
+      "from": "\"Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Etoposide: predicted new indication well-differentiated fetal adenocarcinoma of the lung (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/everolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Everolimus: predicted new indication liposarcoma (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Everolimus: predicted new indication liposarcoma (evidence level L2). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/exemestane.md",
+      "date": "2026-11-19",
+      "from": "\"Exemestane: predicted new indication antithrombin deficiency type 2 (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Exemestane: predicted new indication antithrombin deficiency type 2 (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/famciclovir.md",
+      "date": "2026-11-19",
+      "from": "\"Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Famciclovir: predicted new indication Post-infectious neuralgia (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/famotidine.md",
+      "date": "2026-11-19",
+      "from": "\"Famotidine: predicted new indication duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Famotidine: predicted new indication duodenal obstruction (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/febuxostat.md",
+      "date": "2026-11-19",
+      "from": "\"Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Febuxostat: predicted new indication Hypouricemia, renal (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/felbinac.md",
+      "date": "2026-11-19",
+      "from": "\"Felbinac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Felbinac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fenoprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Fenoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fenoprofen: predicted new indication acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fexofenadine.md",
+      "date": "2026-11-19",
+      "from": "\"Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fidaxomicin.md",
+      "date": "2026-11-19",
+      "from": "\"Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fidaxomicin: predicted new indication Staphylococcal scalded skin syndrome (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/finasteride.md",
+      "date": "2026-11-19",
+      "from": "\"Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Finasteride: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluorouracil.md",
+      "date": "2026-11-19",
+      "from": "\"Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). In the UK: 28 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fluoxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fluoxetine: predicted new indication Paranoid personality disorder (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flupentixol.md",
+      "date": "2026-11-19",
+      "from": "\"Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flupentixol: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flurbiprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flurbiprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 17 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/flutamide.md",
+      "date": "2026-11-19",
+      "from": "\"Flutamide: predicted new indication fibroma of prostate (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Flutamide: predicted new indication fibroma of prostate (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formaldehyde.md",
+      "date": "2026-11-19",
+      "from": "\"Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/formoterol.md",
+      "date": "2026-11-19",
+      "from": "\"Formoterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Formoterol: predicted new indication Respiratory malformation (evidence level L5). In the UK: 66 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/frovatriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Frovatriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Frovatriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/fusidic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/galantamine.md",
+      "date": "2026-11-19",
+      "from": "\"Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Galantamine: predicted new indication Psychogenic movement disorders (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gamolenic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Gamolenic Acid: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Gamolenic Acid: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ganirelix.md",
+      "date": "2026-11-19",
+      "from": "\"Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 1 NHSBSA BNF presentation code\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/gefitinib.md",
+      "date": "2026-11-19",
+      "from": "\"Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Gefitinib: predicted new indication Fibromatosis, gingival (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glimepiride.md",
+      "date": "2026-11-19",
+      "from": "\"Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Glimepiride: predicted new indication Classic stiff person syndrome (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/glycine.md",
+      "date": "2026-11-19",
+      "from": "\"Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Glycine: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/golimumab.md",
+      "date": "2026-11-19",
+      "from": "\"Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/granisetron.md",
+      "date": "2026-11-19",
+      "from": "\"Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Granisetron: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/guaifenesin.md",
+      "date": "2026-11-19",
+      "from": "\"Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Guaifenesin: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 59 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/haloperidol.md",
+      "date": "2026-11-19",
+      "from": "\"Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Haloperidol: predicted new indication Congenital disorder of glycosylation with defective fucosylation (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydromorphone.md",
+      "date": "2026-11-19",
+      "from": "\"Hydromorphone: predicted new indication Pharyngitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydromorphone: predicted new indication Pharyngitis (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxocobalamin.md",
+      "date": "2026-11-19",
+      "from": "\"Hydroxocobalamin: predicted new indication Esophageal varices with bleeding (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydroxocobalamin: predicted new indication Esophageal varices with bleeding (evidence level L5). In the UK: 11 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyurea.md",
+      "date": "2026-11-19",
+      "from": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/hydroxyzine.md",
+      "date": "2026-11-19",
+      "from": "\"Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Hydroxyzine: predicted new indication Rosacea conjunctivitis (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ibuprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ibuprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 205 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/idebenone.md",
+      "date": "2026-11-19",
+      "from": "\"Idebenone: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Idebenone: predicted new indication Hepatic porphyria (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/imidapril.md",
+      "date": "2026-11-19",
+      "from": "\"Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Imidapril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/indomethacin.md",
+      "date": "2026-11-19",
+      "from": "\"Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Indomethacin: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/indoramin.md",
+      "date": "2026-11-19",
+      "from": "\"Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/inositol.md",
+      "date": "2026-11-19",
+      "from": "\"Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Inositol: predicted new indication Idiopathic copper-associated cirrhosis (evidence level L5). In the UK: 1 NHSBSA BNF presentation code\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ipratropium.md",
+      "date": "2026-11-19",
+      "from": "\"Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ipratropium: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 38 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/irbesartan.md",
+      "date": "2026-11-19",
+      "from": "\"Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Irbesartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/isocarboxazid.md",
+      "date": "2026-11-19",
+      "from": "\"Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/isotretinoin.md",
+      "date": "2026-11-19",
+      "from": "\"Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Isotretinoin: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ivabradine.md",
+      "date": "2026-11-19",
+      "from": "\"Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoconazole: predicted new indication Acne (disease) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketoconazole: predicted new indication Acne (disease) (evidence level L4). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketoprofen.md",
+      "date": "2026-11-19",
+      "from": "\"Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketoprofen: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ketorolac.md",
+      "date": "2026-11-19",
+      "from": "\"Ketorolac: predicted new indication Headache disorder (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Ketorolac: predicted new indication Headache disorder (evidence level L1). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/l-glutamine.md",
+      "date": "2026-11-19",
+      "from": "\"L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"L-Glutamine: predicted new indication Drug-induced osteoporosis (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lacosamide.md",
+      "date": "2026-11-19",
+      "from": "\"Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lacosamide: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lamotrigine.md",
+      "date": "2026-11-19",
+      "from": "\"Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Lamotrigine: predicted new indication Trigeminal nerve neoplasm (evidence level L2). In the UK: 32 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lanreotide.md",
+      "date": "2026-11-19",
+      "from": "\"Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lanreotide: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lansoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lansoprazole: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 31 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/latanoprost.md",
+      "date": "2026-11-19",
+      "from": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Latanoprost: predicted new indication Visceral calciphylaxis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lenalidomide.md",
+      "date": "2026-11-19",
+      "from": "\"Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/letrozole.md",
+      "date": "2026-11-19",
+      "from": "\"Letrozole: predicted new indication Nipple carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Letrozole: predicted new indication Nipple carcinoma (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levetiracetam.md",
+      "date": "2026-11-19",
+      "from": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levetiracetam: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In the UK: 44 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levocarnitine.md",
+      "date": "2026-11-19",
+      "from": "\"Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). In the UK: 17 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levocetirizine.md",
+      "date": "2026-11-19",
+      "from": "\"Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/levofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Levofloxacin: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/liothyronine.md",
+      "date": "2026-11-19",
+      "from": "\"Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Liothyronine: predicted new indication Renal hypodysplasia/aplasia (evidence level L5). In the UK: 53 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lisinopril.md",
+      "date": "2026-11-19",
+      "from": "\"Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lisinopril: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In the UK: 41 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/loperamide.md",
+      "date": "2026-11-19",
+      "from": "\"Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Loperamide: predicted new indication Acute contagious conjunctivitis (evidence level L5). In the UK: 46 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lorazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lorazepam: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/lormetazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Lormetazepam: predicted new indication Alcohol withdrawal delirium (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/loteprednol_etabonate.md",
+      "date": "2026-11-19",
+      "from": "\"Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mebendazole.md",
+      "date": "2026-11-19",
+      "from": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mebendazole: predicted new indication Acne (disease) (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mecasermin.md",
+      "date": "2026-11-19",
+      "from": "\"Mecasermin: predicted new indication Monosomy X (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mecasermin: predicted new indication Monosomy X (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meclizine.md",
+      "date": "2026-11-19",
+      "from": "\"Meclizine: predicted new indication Allergic urticaria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Meclizine: predicted new indication Allergic urticaria (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mefenamic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Mefenamic Acid: predicted new indication Headache disorder (evidence level L2). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/melphalan.md",
+      "date": "2026-11-19",
+      "from": "\"Melphalan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Melphalan: predicted new indication Female breast carcinoma (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/meptazinol.md",
+      "date": "2026-11-19",
+      "from": "\"Meptazinol: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Meptazinol: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mercaptopurine.md",
+      "date": "2026-11-19",
+      "from": "\"Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Mercaptopurine: predicted new indication Myeloid leukemia (evidence level L3). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metformin.md",
+      "date": "2026-11-19",
+      "from": "\"Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). In the UK: 101 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methotrexate.md",
+      "date": "2026-11-19",
+      "from": "\"Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). In the UK: 152 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methyl_aminolevulinate.md",
+      "date": "2026-11-19",
+      "from": "\"Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methyl Aminolevulinate: predicted new indication Hereditary hemochromatosis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/methysergide.md",
+      "date": "2026-11-19",
+      "from": "\"Methysergide: predicted new indication Migraine with brainstem aura (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Methysergide: predicted new indication Migraine with brainstem aura (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metoclopramide.md",
+      "date": "2026-11-19",
+      "from": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metoclopramide: predicted new indication Gastroduodenitis (evidence level L5). In the UK: 24 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metolazone.md",
+      "date": "2026-11-19",
+      "from": "\"Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metolazone: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 11 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/metronidazole.md",
+      "date": "2026-11-19",
+      "from": "\"Metronidazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Metronidazole: predicted new indication Pneumocystosis (evidence level L5). In the UK: 50 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mexiletine.md",
+      "date": "2026-11-19",
+      "from": "\"Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mexiletine: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/micafungin.md",
+      "date": "2026-11-19",
+      "from": "\"Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Micafungin: predicted new indication Urinary tract infection (disease) (evidence level L3). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/miconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Miconazole: predicted new indication 痤瘡 (acne (disease)) (evidence level L4). In the UK: 29 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/midazolam.md",
+      "date": "2026-11-19",
+      "from": "\"Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Midazolam: predicted new indication Insomnia (disease) (evidence level L3). In the UK: 46 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/midodrine.md",
+      "date": "2026-11-19",
+      "from": "\"Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/minocycline.md",
+      "date": "2026-11-19",
+      "from": "\"Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mizolastine.md",
+      "date": "2026-11-19",
+      "from": "\"Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moclobemide.md",
+      "date": "2026-11-19",
+      "from": "\"Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Moclobemide: predicted new indication Agoraphobia (evidence level L2). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/modafinil.md",
+      "date": "2026-11-19",
+      "from": "\"Modafinil: predicted new indication Insomnia (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Modafinil: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/montelukast.md",
+      "date": "2026-11-19",
+      "from": "\"Montelukast: predicted new indication Bronchitis (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Montelukast: predicted new indication Bronchitis (evidence level L2). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moxifloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Moxifloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/moxonidine.md",
+      "date": "2026-11-19",
+      "from": "\"Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Moxonidine: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/mupirocin.md",
+      "date": "2026-11-19",
+      "from": "\"Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Mupirocin: predicted new indication Pleural empyema (disease) (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nabumetone.md",
+      "date": "2026-11-19",
+      "from": "\"Nabumetone: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nabumetone: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/naproxen.md",
+      "date": "2026-11-19",
+      "from": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Naproxen: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In the UK: 53 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/naratriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Naratriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Naratriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nefazodone.md",
+      "date": "2026-11-19",
+      "from": "\"Nefazodone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Nefazodone: predicted new indication Migraine disorder (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nitisinone.md",
+      "date": "2026-11-19",
+      "from": "\"Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nitrazepam.md",
+      "date": "2026-11-19",
+      "from": "\"Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). In the UK: 11 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nizatidine.md",
+      "date": "2026-11-19",
+      "from": "\"Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nizatidine: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norfloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Norfloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Norfloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/norgestimate.md",
+      "date": "2026-11-19",
+      "from": "\"Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Norgestimate: predicted new indication Zinc, elevated plasma (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nortriptyline.md",
+      "date": "2026-11-19",
+      "from": "\"Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/nystatin.md",
+      "date": "2026-11-19",
+      "from": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Nystatin: predicted new indication Disease of orbital region (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ofloxacin.md",
+      "date": "2026-11-19",
+      "from": "\"Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ofloxacin: predicted new indication Polyclonal hyperviscosity syndrome (evidence level L5). In the UK: 11 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/olopatadine.md",
+      "date": "2026-11-19",
+      "from": "\"Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Olopatadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omalizumab.md",
+      "date": "2026-11-19",
+      "from": "\"Omalizumab: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Omalizumab: predicted new indication Bronchitis (evidence level L5). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/omeprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Omeprazole: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 66 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/orphenadrine.md",
+      "date": "2026-11-19",
+      "from": "\"Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Orphenadrine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxcarbazepine.md",
+      "date": "2026-11-19",
+      "from": "\"Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxcarbazepine: predicted new indication Restless legs syndrome (evidence level L4). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxybutynin.md",
+      "date": "2026-11-19",
+      "from": "\"Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxybutynin: predicted new indication Restless legs syndrome (evidence level L5). In the UK: 30 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/oxytetracycline.md",
+      "date": "2026-11-19",
+      "from": "\"Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paliperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Paliperidone: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). In the UK: 28 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pantoprazole.md",
+      "date": "2026-11-19",
+      "from": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pantoprazole: predicted new indication Duodenal obstruction (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/paroxetine.md",
+      "date": "2026-11-19",
+      "from": "\"Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pazopanib.md",
+      "date": "2026-11-19",
+      "from": "\"Pazopanib: predicted new indication Liposarcoma (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Pazopanib: predicted new indication Liposarcoma (evidence level L2). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/perampanel.md",
+      "date": "2026-11-19",
+      "from": "\"Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/perindopril.md",
+      "date": "2026-11-19",
+      "from": "\"Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Perindopril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenoxymethylpenicillin.md",
+      "date": "2026-11-19",
+      "from": "\"Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenoxymethylpenicillin: predicted new indication Epiglottitis (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phenylbutazone.md",
+      "date": "2026-11-19",
+      "from": "\"Phenylbutazone: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phenylbutazone: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/phylloquinone.md",
+      "date": "2026-11-19",
+      "from": "\"Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Phylloquinone: predicted new indication Renal tubular acidosis (evidence level L5). In the UK: 25 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pimecrolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/polyethylene_glycol.md",
+      "date": "2026-11-19",
+      "from": "\"Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pramipexole.md",
+      "date": "2026-11-19",
+      "from": "\"Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). In the UK: 44 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/pramocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prasterone.md",
+      "date": "2026-11-19",
+      "from": "\"Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prednisone.md",
+      "date": "2026-11-19",
+      "from": "\"Prednisone: predicted new indication Alopecia areata (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Prednisone: predicted new indication Alopecia areata (evidence level L2). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/prilocaine.md",
+      "date": "2026-11-19",
+      "from": "\"Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/primaquine.md",
+      "date": "2026-11-19",
+      "from": "\"Primaquine: predicted new indication Myiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Primaquine: predicted new indication Myiasis (evidence level L5). In the UK: 1 NHSBSA BNF presentation code\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/primidone.md",
+      "date": "2026-11-19",
+      "from": "\"Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Primidone: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/probenecid.md",
+      "date": "2026-11-19",
+      "from": "\"Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Probenecid: predicted new indication Hypouricemia, renal (evidence level L4). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/progesterone.md",
+      "date": "2026-11-19",
+      "from": "\"Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In the UK: 40 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propafenone.md",
+      "date": "2026-11-19",
+      "from": "\"Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propranolol.md",
+      "date": "2026-11-19",
+      "from": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In the UK: 67 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/propylthiouracil.md",
+      "date": "2026-11-19",
+      "from": "\"Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/quinapril.md",
+      "date": "2026-11-19",
+      "from": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Quinapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ranitidine.md",
+      "date": "2026-11-19",
+      "from": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ranitidine: predicted new indication Peptic ulcer perforation (evidence level L5). In the UK: 62 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifabutin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifabutin: predicted new indication HIV infectious disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rifabutin: predicted new indication HIV infectious disease (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rifaximin.md",
+      "date": "2026-11-19",
+      "from": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rifaximin: predicted new indication Oral candidiasis (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rimexolone.md",
+      "date": "2026-11-19",
+      "from": "\"Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/risperidone.md",
+      "date": "2026-11-19",
+      "from": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Risperidone: predicted new indication Gaze palsy, familial horizontal, with progressive scoliosis (evidence level L5). In the UK: 37 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ritonavir.md",
+      "date": "2026-11-19",
+      "from": "\"Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-19",
+      "from": "\"Rivastigmine: predicted new indication Glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rivastigmine: predicted new indication Glaucoma (evidence level L5). In the UK: 47 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rizatriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rizatriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ropivacaine.md",
+      "date": "2026-11-19",
+      "from": "\"Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data\"",
+      "to": "\"Ropivacaine: predicted new indication Migraine disorder (evidence level L3). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/rufinamide.md",
+      "date": "2026-11-19",
+      "from": "\"Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Rufinamide: predicted new indication Perioral myoclonia with absences (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salbutamol.md",
+      "date": "2026-11-19",
+      "from": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salbutamol: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 94 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/salmeterol.md",
+      "date": "2026-11-19",
+      "from": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Salmeterol: predicted new indication Respiratory malformation (evidence level L5). In the UK: 57 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/scopolamine.md",
+      "date": "2026-11-19",
+      "from": "\"Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). In the UK: 48 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/selegiline.md",
+      "date": "2026-11-19",
+      "from": "\"Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Selegiline: predicted new indication Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sertraline.md",
+      "date": "2026-11-19",
+      "from": "\"Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In the UK: 24 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sibutramine.md",
+      "date": "2026-11-19",
+      "from": "\"Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-19",
+      "from": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Simvastatin: predicted new indication Brain stem infarction (evidence level L5). In the UK: 34 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sirolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Sirolimus: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sirolimus: predicted new indication Liposarcoma (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sorafenib.md",
+      "date": "2026-11-19",
+      "from": "\"Sorafenib: predicted new indication Liposarcoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sorafenib: predicted new indication Liposarcoma (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sotalol.md",
+      "date": "2026-11-19",
+      "from": "\"Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sotalol: predicted new indication Sick sinus syndrome 2, autosomal dominant (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/stanozolol.md",
+      "date": "2026-11-19",
+      "from": "\"Stanozolol: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Stanozolol: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/strontium_ranelate.md",
+      "date": "2026-11-19",
+      "from": "\"Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Strontium Ranelate: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfadiazine.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfadiazine: predicted new indication Pneumocystosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulfinpyrazone.md",
+      "date": "2026-11-19",
+      "from": "\"Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/sulindac.md",
+      "date": "2026-11-19",
+      "from": "\"Sulindac: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Sulindac: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tacrolimus.md",
+      "date": "2026-11-19",
+      "from": "\"Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). Approved use: Not recorded in the local data\"",
+      "to": "\"Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In the UK: 64 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tadalafil.md",
+      "date": "2026-11-19",
+      "from": "\"Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tadalafil: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tamsulosin.md",
+      "date": "2026-11-19",
+      "from": "\"Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tamsulosin: predicted new indication Ambras type hypertrichosis universalis congenita (evidence level L5). In the UK: 42 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tazarotene.md",
+      "date": "2026-11-19",
+      "from": "\"Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/telbivudine.md",
+      "date": "2026-11-19",
+      "from": "\"Telbivudine: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Telbivudine: predicted new indication Chronic hepatitis C virus infection (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/telmisartan.md",
+      "date": "2026-11-19",
+      "from": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/temozolomide.md",
+      "date": "2026-11-19",
+      "from": "\"Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Temozolomide: predicted new indication Cauda equina neoplasm (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/terazosin.md",
+      "date": "2026-11-19",
+      "from": "\"Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Terazosin: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/terlipressin.md",
+      "date": "2026-11-19",
+      "from": "\"Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tetrabenazine.md",
+      "date": "2026-11-19",
+      "from": "\"Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tetrabenazine: predicted new indication Polycystic kidney disease 3 with or without polycystic liver disease (evidence level L5). In the UK: 16 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tetracycline.md",
+      "date": "2026-11-19",
+      "from": "\"Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tetracycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiaprofenic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tiaprofenic Acid: predicted new indication Brachydactyly-syndactyly syndrome (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tioconazole.md",
+      "date": "2026-11-19",
+      "from": "\"Tioconazole: predicted new indication Vulvitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tioconazole: predicted new indication Vulvitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiopronin.md",
+      "date": "2026-11-19",
+      "from": "\"Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tiopronin: predicted new indication Renal tubular acidosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tiotropium.md",
+      "date": "2026-11-19",
+      "from": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tiotropium: predicted new indication Respiratory malformation (evidence level L5). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tizanidine.md",
+      "date": "2026-11-19",
+      "from": "\"Tizanidine: predicted new indication Migraine disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Tizanidine: predicted new indication Migraine disorder (evidence level L2). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tobramycin.md",
+      "date": "2026-11-19",
+      "from": "\"Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Tobramycin: predicted new indication Exposure keratitis (evidence level L4). In the UK: 24 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tolvaptan.md",
+      "date": "2026-11-19",
+      "from": "\"Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tolvaptan: predicted new indication Renal-hepatic-pancreatic dysplasia (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tramadol.md",
+      "date": "2026-11-19",
+      "from": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tramadol: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 115 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trandolapril.md",
+      "date": "2026-11-19",
+      "from": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tranexamic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tranexamic Acid: predicted new indication Amenorrhea (disease) (evidence level L5). In the UK: 26 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trastuzumab.md",
+      "date": "2026-11-19",
+      "from": "\"Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trastuzumab: predicted new indication Malignant cutaneous granular cell skin tumor (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trazodone.md",
+      "date": "2026-11-19",
+      "from": "\"Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data\"",
+      "to": "\"Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L2). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/treosulfan.md",
+      "date": "2026-11-19",
+      "from": "\"Treosulfan: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Treosulfan: predicted new indication Diabetic cataract (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/triamterene.md",
+      "date": "2026-11-19",
+      "from": "\"Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Triamterene: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trifluoperazine.md",
+      "date": "2026-11-19",
+      "from": "\"Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 20 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/trihexyphenidyl.md",
+      "date": "2026-11-19",
+      "from": "\"Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Trihexyphenidyl: predicted new indication Attention deficit-hyperactivity disorder (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/tropicamide.md",
+      "date": "2026-11-19",
+      "from": "\"Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valproic_acid.md",
+      "date": "2026-11-19",
+      "from": "\"Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/valsartan.md",
+      "date": "2026-11-19",
+      "from": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Valsartan: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 38 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zafirlukast.md",
+      "date": "2026-11-19",
+      "from": "\"Zafirlukast: predicted new indication Bronchitis (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zafirlukast: predicted new indication Bronchitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zidovudine.md",
+      "date": "2026-11-19",
+      "from": "\"Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Not recorded in the local data\"",
+      "to": "\"Zidovudine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). In the UK: 12 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ziprasidone.md",
+      "date": "2026-11-19",
+      "from": "\"Ziprasidone: predicted new indication Trichotillomania (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Ziprasidone: predicted new indication Trichotillomania (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/zolmitriptan.md",
+      "date": "2026-11-19",
+      "from": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data\"",
+      "to": "\"Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}

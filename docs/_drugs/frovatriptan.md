@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "Frovatriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 last_modified_at: 2026-11-12
-description: "Frovatriptan: predicted new indication atrophoderma vermiculata (evidence level L5). Approved use: Not recorded in the local data"
+description: "Frovatriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"
 ---
 
 # Frovatriptan

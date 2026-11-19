@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 last_modified_at: 2026-11-12
-description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). Approved use: Not recorded in the local data"
+description: "Desloratadine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 
 # Desloratadine

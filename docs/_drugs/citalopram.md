@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "Citalopram"
 predicted_indications: ["obsessive-compulsive disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "schizoid personality disorder"]
 last_modified_at: 2026-11-12
-description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). Approved use: Not recorded in the local data"
+description: "Citalopram: predicted new indication Obsessive-compulsive disorder (evidence level L2). In the UK: 11 NHSBSA BNF presentation codes"
 ---
 
 # Citalopram

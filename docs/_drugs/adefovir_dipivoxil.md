@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "Adefovir dipivoxil"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
 last_modified_at: 2026-11-12
-description: "Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). Approved use: Not recorded in the local data"
+description: "Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Adefovir Dipivoxil

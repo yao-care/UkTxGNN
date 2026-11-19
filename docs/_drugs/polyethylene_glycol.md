@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
-description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). Approved use: Not recorded in the local data"
+description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes"
 ---
 
 # Polyethylene Glycol

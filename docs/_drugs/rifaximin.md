@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "Rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "burning mouth syndrome", "oral leukoedema", "candidiasis"]
-description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
 ---
 
 # Rifaximin

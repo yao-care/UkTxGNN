@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Mizolastine"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
-description: "Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not recorded in the local data"
+description: "Mizolastine: predicted new indication Acute intermittent porphyria (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"
 ---
 
 # Mizolastine

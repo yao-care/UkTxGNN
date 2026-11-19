@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
 last_modified_at: 2026-11-12
-description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Bosentan: predicted new indication rheumatoid arthritis (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
 # Bosentan

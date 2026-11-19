@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "Indoramin"
 predicted_indications: ["hypertrichosis (disease)", "vascular disease", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "syndrome with a Dandy-Walker malformation as major feature", "visceral calciphylaxis", "pulmonary hypertension"]
-description: "Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Indoramin: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Indoramin

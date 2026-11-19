@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "Sulfinpyrazone"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome", "neonatal epileptic encephalopathy due to glutaminase deficiency", "genetic otorhinolaryngological malformation", "disorder of phenylalanine metabolism", "semicircular canal dehiscence syndrome", "idiopathic bilateral vestibulopathy", "familial nasal acilia", "juvenile nasopharyngeal angiofibroma (disease)"]
-description: "Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). Approved use: Not recorded in the local data"
+description: "Sulfinpyrazone: predicted new indication Hypouricemia, renal (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Sulfinpyrazone

@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "Amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
 last_modified_at: 2026-11-12
-description: "Amoxicillin: predicted new indication Hyperamylasaemia (hyperamylasemia) (evidence level L5). Approved use: Not recorded in the local data"
+description: "Amoxicillin: predicted new indication Hyperamylasaemia (hyperamylasemia) (evidence level L5). In the UK: 65 NHSBSA BNF presentation codes"
 ---
 
 # Amoxicillin

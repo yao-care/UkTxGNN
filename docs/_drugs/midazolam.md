@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "Midazolam"
 predicted_indications: ["insomnia (disease)"]
-description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). Approved use: Not recorded in the local data"
+description: "Midazolam: predicted new indication Insomnia (disease) (evidence level L3). In the UK: 46 NHSBSA BNF presentation codes"
 ---
 
 # Midazolam

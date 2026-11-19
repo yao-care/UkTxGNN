@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "Ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
-description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). Approved use: Not recorded in the local data"
+description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L3). In the UK: 10 NHSBSA BNF presentation codes"
 ---
 
 # Ropivacaine

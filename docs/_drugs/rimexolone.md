@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Rimexolone"
 predicted_indications: ["seborrheic dermatitis", "dermatitis"]
-description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Not recorded in the local data"
+description: "Rimexolone: predicted new indication Seborrheic dermatitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
 # Rimexolone

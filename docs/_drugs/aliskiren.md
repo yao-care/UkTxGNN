@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "Aliskiren"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "cerebrovascular disorder"]
 last_modified_at: 2026-11-12
-description: "Aliskiren: predicted new indication pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Not recorded in the local data"
+description: "Aliskiren: predicted new indication pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
 ---
 
 # Aliskiren
