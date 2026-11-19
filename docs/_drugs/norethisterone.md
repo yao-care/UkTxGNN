@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Known Uses Only (No New Predictions)
 nav_order: 453
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Norethisterone: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "norethisterone"
 predicted_indications: []
