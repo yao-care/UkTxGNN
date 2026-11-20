@@ -54,7 +54,7 @@ Lenograstim is a recombinant human granulocyte colony-stimulating factor (G-CSF)
 
 ## Why is This Prediction Reasonable?
 
-Lenograstim is a recombinant human G-CSF. It acts on the G-CSF receptor to stimulate the proliferation and differentiation of the neutrophil lineage. ChEMBL (EMBL-EBI) records the mechanism of action of lenograstim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; accessed 2026-11-19.) This description reflects the established class pharmacology of G-CSF.
+Lenograstim is a recombinant human G-CSF. It acts on the G-CSF receptor to stimulate the proliferation and differentiation of the neutrophil lineage. This description reflects the established class pharmacology of G-CSF. ChEMBL (EMBL-EBI) records the mechanism of action of lenograstim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; accessed 2026-11-19.)
 
 Primary release disorder of platelets is a qualitative platelet function defect, in which platelets fail to release their granule contents properly. No established link exists between G-CSF signalling and correcting platelet granule release. The high TxGNN score (0.9991) is a network-based prediction only. On current information, the mechanistic rationale is weak and should be treated as speculative.
 
@@ -128,7 +128,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-19 | "Detailed mechanism of action data were not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128) |
+| 2026-11-20 | "Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the established class pharmacology of G-CSF" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128) |
 
 <!-- review:end log -->
 

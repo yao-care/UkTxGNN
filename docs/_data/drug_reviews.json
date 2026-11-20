@@ -10607,9 +10607,9 @@
    "drug": "bendroflumethiazide",
    "file": "bendroflumethiazide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of bendroflumethiazide as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the thiazide class.",
+   "replacement": "This description reflects the known pharmacology of the thiazide class. ChEMBL (EMBL-EBI) records the mechanism of action of bendroflumethiazide as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the thiazide class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -10621,8 +10621,34 @@
      "chembl_id": "CHEMBL1684"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-bendroflumethiazide-1",
+     "drug": "bendroflumethiazide",
+     "file": "bendroflumethiazide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of bendroflumethiazide as: Thiazide-sensitive sodium-chloride cotransporter inhibitor ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684",
+       "accessed": "2026-11-19",
+       "excerpt": "Thiazide-sensitive sodium-chloride cotransporter inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL1684"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-benzbromarone-1",
@@ -10745,9 +10771,9 @@
    "drug": "bromfenac",
    "file": "bromfenac.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data were not available in the compiled data, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for bromfenac: \"Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2.\" ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), label version 2026-06-15; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data were not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data were not available in the compiled data, so this description reflects the established pharmacology of the drug class.",
+   "replacement": "This description reflects the established pharmacology of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for bromfenac: \"Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2.\" ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), label version 2026-06-15; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data were not available in the compiled data, so this description reflects the established pharmacology of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -10761,8 +10787,36 @@
      "set_id": "4246c669-3c2a-2a2b-3b1c-696deb4ab519"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-bromfenac-1",
+     "drug": "bromfenac",
+     "file": "bromfenac.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data were not available in the compiled data, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for bromfenac: \"Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2.\" ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), label version 2026-06-15; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data were not available in the compiled data, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519",
+       "accessed": "2026-11-19",
+       "excerpt": "Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2.",
+       "label_version": "2026-06-15",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "4246c669-3c2a-2a2b-3b1c-696deb4ab519"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-budesonide-1",
@@ -13759,9 +13813,9 @@
    "drug": "fluorouracil",
    "file": "fluorouracil.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: \"Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP).\" ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge.",
+   "replacement": "This description reflects general pharmacological knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: \"Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP).\" ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -13775,8 +13829,36 @@
      "set_id": "1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-fluorouracil-1",
+     "drug": "fluorouracil",
+     "file": "fluorouracil.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data was not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for fluorouracil: \"Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP).\" ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), label version 2026-10-23; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data was not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b",
+       "accessed": "2026-11-19",
+       "excerpt": "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP).",
+       "label_version": "2026-10-23",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-fluoxetine-1",
@@ -14021,9 +14103,9 @@
    "drug": "fusidic_acid",
    "file": "fusidic_acid.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the rationale recorded for the prediction.",
+   "replacement": "This description draws on the rationale recorded for the prediction. ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the rationale recorded for the prediction\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -14035,17 +14117,43 @@
      "chembl_id": "CHEMBL374975"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-fusidic_acid-1",
+     "drug": "fusidic_acid",
+     "file": "fusidic_acid.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL374975 (fusidic acid): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975",
+       "accessed": "2026-11-19",
+       "excerpt": "Elongation factor G inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL374975"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-galantamine-1",
    "drug": "galantamine",
    "file": "galantamine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for galantamine: \"Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase.\" ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), label version 2026-07-02; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available for this report, so this description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications.",
+   "replacement": "This description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications. According to the Mechanism of Action section of the US FDA-approved prescribing information for galantamine: \"Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase.\" ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), label version 2026-07-02; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available for this report, so this description draws on general pharmacology and on the abstracts of the literature compiled for the drug's other predicted indications\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -14059,8 +14167,36 @@
      "set_id": "261889d3-41c8-4655-98f7-41317778e7a1"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-galantamine-1",
+     "drug": "galantamine",
+     "file": "galantamine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for galantamine: \"Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase.\" ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), label version 2026-07-02; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: galantamine prescribing information, Bryant Ranch Prepack",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1",
+       "accessed": "2026-11-19",
+       "excerpt": "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase.",
+       "label_version": "2026-07-02",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "261889d3-41c8-4655-98f7-41317778e7a1"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-gefitinib-1",
@@ -15091,9 +15227,9 @@
    "drug": "lenalidomide",
    "file": "lenalidomide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: \"Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.\" ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on the mechanistic rationale assessed for the prediction.",
+   "replacement": "This description is based on the mechanistic rationale assessed for the prediction. According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: \"Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.\" ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on the mechanistic rationale assessed for the prediction\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15107,17 +15243,45 @@
      "set_id": "5fa97bf5-28a2-48f1-8955-f56012d296be"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-lenalidomide-1",
+     "drug": "lenalidomide",
+     "file": "lenalidomide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for lenalidomide: \"Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.\" ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), label version 2023-03-24; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be",
+       "accessed": "2026-11-19",
+       "excerpt": "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex.",
+       "label_version": "2023-03-24",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "5fa97bf5-28a2-48f1-8955-f56012d296be"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-lenograstim-1",
    "drug": "lenograstim",
    "file": "lenograstim.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of lenograstim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the established class pharmacology of G-CSF.",
+   "replacement": "This description reflects the established class pharmacology of G-CSF. ChEMBL (EMBL-EBI) records the mechanism of action of lenograstim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the established class pharmacology of G-CSF\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15129,8 +15293,34 @@
      "chembl_id": "CHEMBL2109128"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-lenograstim-1",
+     "drug": "lenograstim",
+     "file": "lenograstim.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of lenograstim as: Granulocyte colony stimulating factor receptor agonist ([ChEMBL CHEMBL2109128 (lenograstim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL2109128 (lenograstim): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109128",
+       "accessed": "2026-11-19",
+       "excerpt": "Granulocyte colony stimulating factor receptor agonist",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL2109128"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-letrozole-1",
@@ -15185,9 +15375,9 @@
    "drug": "levocetirizine",
    "file": "levocetirizine.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for levocetirizine: \"Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models.\" ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), label version 2025-07-22; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on the known drug class.",
+   "replacement": "This description is based on the known drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for levocetirizine: \"Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models.\" ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), label version 2025-07-22; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on the known drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15201,8 +15391,36 @@
      "set_id": "1673f7ff-0c7c-4403-86cf-c05eb1475222"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-levocetirizine-1",
+     "drug": "levocetirizine",
+     "file": "levocetirizine.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for levocetirizine: \"Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models.\" ([DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222), label version 2025-07-22; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Xyzal (levocetirizine dihydrochloride) prescribing information, Chattem, Inc.",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1673f7ff-0c7c-4403-86cf-c05eb1475222",
+       "accessed": "2026-11-19",
+       "excerpt": "Levocetirizine, the active enantiomer of cetirizine, is an antihistamine; its principal effects are mediated via selective inhibition of H 1 receptors. The antihistaminic activity of levocetirizine has been documented in a variety of animal and human models.",
+       "label_version": "2025-07-22",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "1673f7ff-0c7c-4403-86cf-c05eb1475222"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-levodopa-1",
@@ -15329,9 +15547,9 @@
    "drug": "loperamide",
    "file": "loperamide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: \"In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.\" ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on general pharmacological knowledge.",
+   "replacement": "This description is based on general pharmacological knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: \"In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.\" ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description is based on general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15345,8 +15563,36 @@
      "set_id": "74b9893a-18c3-4117-85c2-edab8e7b3b3b"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-loperamide-1",
+     "drug": "loperamide",
+     "file": "loperamide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for loperamide: \"In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.\" ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), label version 2026-07-09; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b",
+       "accessed": "2026-11-19",
+       "excerpt": "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall.",
+       "label_version": "2026-07-09",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "74b9893a-18c3-4117-85c2-edab8e7b3b3b"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-lopinavir-1",
@@ -15423,9 +15669,9 @@
    "drug": "maraviroc",
    "file": "maraviroc.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for maraviroc: \"Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells.\" ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), label version 2023-11-10; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects general knowledge of the drug class rather than a supplied source.",
+   "replacement": "This description reflects general knowledge of the drug class rather than a supplied source. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for maraviroc: \"Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells.\" ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), label version 2023-11-10; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects general knowledge of the drug class rather than a supplied source\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15439,8 +15685,36 @@
      "set_id": "3c52dddd-0457-41cd-99e0-d30d4fd00ec5"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-maraviroc-1",
+     "drug": "maraviroc",
+     "file": "maraviroc.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for maraviroc: \"Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells.\" ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), label version 2023-11-10; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5",
+       "accessed": "2026-11-19",
+       "excerpt": "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells.",
+       "label_version": "2023-11-10",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "3c52dddd-0457-41cd-99e0-d30d4fd00ec5"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-mazindol-1",
@@ -15589,9 +15863,9 @@
    "drug": "melphalan",
    "file": "melphalan.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: \"Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine.\" ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on general pharmacological knowledge of the drug class.",
+   "replacement": "This description is based on general pharmacological knowledge of the drug class. According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: \"Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine.\" ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on general pharmacological knowledge of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15605,8 +15879,36 @@
      "set_id": "69f55869-dc11-408e-8fc7-47634269a52c"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-melphalan-1",
+     "drug": "melphalan",
+     "file": "melphalan.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for melphalan: \"Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine.\" ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), label version 2026-09-15; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c",
+       "accessed": "2026-11-19",
+       "excerpt": "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine.",
+       "label_version": "2026-09-15",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "69f55869-dc11-408e-8fc7-47634269a52c"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-memantine-1",
@@ -15945,9 +16247,9 @@
    "drug": "micafungin",
    "file": "micafungin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: \"Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.\" ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the echinocandin class.",
+   "replacement": "This description reflects the known pharmacology of the echinocandin class. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: \"Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.\" ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so this description reflects the known pharmacology of the echinocandin class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -15961,8 +16263,36 @@
      "set_id": "33e579c1-b315-44cb-a690-e2dd2cdf44ee"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-micafungin-1",
+     "drug": "micafungin",
+     "file": "micafungin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for micafungin: \"Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.\" ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), label version 2025-11-08; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee",
+       "accessed": "2026-11-19",
+       "excerpt": "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis.",
+       "label_version": "2025-11-08",
+       "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "33e579c1-b315-44cb-a690-e2dd2cdf44ee"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-miconazole-1",
@@ -18547,9 +18877,9 @@
    "drug": "simvastatin",
    "file": "simvastatin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the well-established pharmacology of the statin class.",
+   "replacement": "This description reflects the well-established pharmacology of the statin class. According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description reflects the well-established pharmacology of the statin class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -18563,8 +18893,36 @@
      "set_id": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-simvastatin-1",
+     "drug": "simvastatin",
+     "file": "simvastatin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for simvastatin: \"Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.\" ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), label version 2025-03-28; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zocor (simvastatin) prescribing information, Organon LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9",
+       "accessed": "2026-11-19",
+       "excerpt": "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol.",
+       "label_version": "2025-03-28",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "8f55d5de-5a4f-4a39-8c84-c53976dd6af9"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-sirolimus-1",
@@ -19035,9 +19393,9 @@
    "drug": "telithromycin",
    "file": "telithromycin.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
-   "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class.",
+   "replacement": "This description reflects general knowledge of the drug class. ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -19049,8 +19407,34 @@
      "chembl_id": "CHEMBL1136"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-telithromycin-1",
+     "drug": "telithromycin",
+     "file": "telithromycin.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data is not available in the data compiled for this report, so t",
+     "replacement": "ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data is not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL1136 (telithromycin): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136",
+       "accessed": "2026-11-19",
+       "excerpt": "Bacterial 70S ribosome inhibitor",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL1136"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-telmisartan-1",
@@ -19081,9 +19465,9 @@
    "drug": "temozolomide",
    "file": "temozolomide.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: \"Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.\" ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so this description is based on general pharmacological knowledge.",
+   "replacement": "This description is based on general pharmacological knowledge. According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: \"Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.\" ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so this description is based on general pharmacological knowledge\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -19097,8 +19481,36 @@
      "set_id": "046a9011-3911-4d3f-a15f-fbb56d5aad56"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-temozolomide-1",
+     "drug": "temozolomide",
+     "file": "temozolomide.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism of action data are not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for temozolomide: \"Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.\" ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), label version 2026-02-20; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism of action data are not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56",
+       "accessed": "2026-11-19",
+       "excerpt": "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death.",
+       "label_version": "2026-02-20",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "046a9011-3911-4d3f-a15f-fbb56d5aad56"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-tenofovir_disoproxil-1",
@@ -20079,9 +20491,9 @@
    "drug": "zolmitriptan",
    "file": "zolmitriptan.md",
    "action": "mechanism",
-   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
-   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) T",
-   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+   "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the published pharmacology literature.",
+   "replacement": "This description draws on the published pharmacology literature. According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.)",
+   "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the published pharmacology literature\" replaced with a sourced mechanism-of-action statement",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
    "sources": [
     {
@@ -20095,8 +20507,36 @@
      "set_id": "a734b368-6008-441c-ab44-5634e46be9a4"
     }
    ],
-   "checked": "2026-11-19",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "uk-moa-20261119-zolmitriptan-1",
+     "drug": "zolmitriptan",
+     "file": "zolmitriptan.md",
+     "action": "mechanism",
+     "claim": "Detailed mechanism-of-action data were not available in the data compiled for this report, so t",
+     "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for zolmitriptan: \"Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.\" ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), label version 2026-01-29; accessed 2026-11-19.) T",
+     "summary": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so t\" replaced with a sourced mechanism-of-action statement",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA",
+       "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4",
+       "accessed": "2026-11-19",
+       "excerpt": "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors.",
+       "label_version": "2026-01-29",
+       "section": "12.1 Mechanism of Action",
+       "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+       "set_id": "a734b368-6008-441c-ab44-5634e46be9a4"
+      }
+     ],
+     "checked": "2026-11-19",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "節錄後面接著 AI 說明「上面描述的依據」的句子，會讀成美國仿單的出處；那句移到節錄前面（原文不改，只換順序）"
+    }
+   ]
   },
   {
    "id": "uk-moa-20261119-zonisamide-1",
@@ -20120,6 +20560,126 @@
     }
    ],
    "checked": "2026-11-19",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "uk-moa-20261120-almotriptan-1",
+   "drug": "almotriptan",
+   "file": "almotriptan.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data are not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action section of the US FDA-approved prescribing information for almotriptan: \"Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites.\" ([DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645), label version 2025-12-31; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645",
+     "accessed": "2026-11-20",
+     "excerpt": "Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites.",
+     "label_version": "2025-12-31",
+     "section": "12.1 Mechanism of Action",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "6fa380c4-c885-4743-85bf-88819ae68645"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "uk-moa-20261120-cetrorelix-1",
+   "drug": "cetrorelix",
+   "file": "cetrorelix.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data are not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: \"GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge.\" ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data are not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79",
+     "accessed": "2026-11-20",
+     "excerpt": "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge.",
+     "label_version": "2025-09-22",
+     "section": "Clinical Pharmacology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "aca7768e-28a7-4027-b1d8-e66247665f79"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "uk-moa-20261120-entecavir-1",
+   "drug": "entecavir",
+   "file": "entecavir.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data is not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for entecavir: \"Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA.\" ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), label version 2019-11-06; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20",
+     "accessed": "2026-11-20",
+     "excerpt": "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA.",
+     "label_version": "2019-11-06",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "046e61c9-9298-4b2e-b76e-b26b81fecd20"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "uk-moa-20261120-ganirelix-1",
+   "drug": "ganirelix",
+   "file": "ganirelix.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data is not otherwise available in the data compiled for this report.",
+   "replacement": "According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ganirelix: \"The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway.\" ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), label version 2026-10-16; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data is not otherwise available in the data compiled for this report\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 Clinical Pharmacology 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1",
+     "accessed": "2026-11-20",
+     "excerpt": "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway.",
+     "label_version": "2026-10-16",
+     "section": "Clinical Pharmacology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "5f0908b5-3551-47fd-95f7-3669b0dff7f1"
+    }
+   ],
+   "checked": "2026-11-20",
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "uk-moa-20261120-meropenem-1",
+   "drug": "meropenem",
+   "file": "meropenem.md",
+   "action": "mechanism",
+   "claim": "Detailed mechanism of action data are not otherwise available.",
+   "replacement": "According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for meropenem: \"Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets.\" ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), label version 2026-11-02; accessed 2026-11-20.)",
+   "summary": "\"Detailed mechanism of action data are not otherwise available\" replaced with a sourced mechanism-of-action statement",
+   "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 美國 FDA 仿單 12.1 Mechanism of Action; 12.4 Microbiology 原文節錄補上，模型預測與其他正文不動。",
+   "sources": [
+    {
+     "title": "DailyMed: meropenem prescribing information, Civica, Inc",
+     "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f",
+     "accessed": "2026-11-20",
+     "excerpt": "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets.",
+     "label_version": "2026-11-02",
+     "section": "12.1 Mechanism of Action; 12.4 Microbiology",
+     "via": "openFDA drug label API (https://open.fda.gov/apis/drug/label/)",
+     "set_id": "b0075b72-c3cc-f844-e053-2a95a90a417f"
+    }
+   ],
+   "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
   }
  ]

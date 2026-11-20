@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
 description: "Ganirelix: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 1 NHSBSA BNF presentation code"
@@ -56,7 +56,7 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 ## Why is This Prediction Reasonable?
 
-Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This suppresses LH and FSH release and, indirectly, gonadal sex hormone production. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
+Ganirelix blocks the GnRH receptor (GNRHR) in the pituitary. This suppresses LH and FSH release and, indirectly, gonadal sex hormone production. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for ganirelix: "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), label version 2026-10-16; accessed 2026-11-20.)
 
 The only conceivable link to hypertrichosis is an indirect reduction of androgen drive. However, most forms of hypertrichosis are not androgen-dependent (they are congenital or drug-induced), so this mechanism is unlikely to apply to them.
 
@@ -113,6 +113,19 @@ Evidence level is L5.
 - Approved indication text for the UK authorisation, and the PL number
 - Any preclinical or clinical evidence linking GnRH antagonism to hypertrichosis
 - If a hormonal direction is pursued, a focused literature review on GnRH antagonists in central precocious puberty (research question only)
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

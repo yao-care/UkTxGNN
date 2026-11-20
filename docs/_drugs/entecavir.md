@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Entecavir: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
@@ -54,7 +54,7 @@ Entecavir is an oral guanosine nucleoside analogue that inhibits hepatitis B vir
 
 ## Why is This Prediction Reasonable?
 
-Entecavir inhibits HBV polymerase. Detailed mechanism of action data is not otherwise available in the data compiled for this report.
+Entecavir inhibits HBV polymerase. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for entecavir: "Entecavir is an antiviral drug against hepatitis B virus. […] Entecavir, a deoxyguanosine nucleoside analogue with activity against HBV reverse transcriptase (rt), is efficiently phosphorylated to the active triphosphate form, which has an intracellular half-life of 15 hours. By competing with the natural substrate deoxyguanosine triphosphate, entecavir triphosphate functionally inhibits all three activities of the HBV reverse transcriptase: base priming, reverse transcription of the negative strand from the pregenomic messenger RNA, and synthesis of the positive strand of HBV DNA." ([DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20), label version 2019-11-06; accessed 2026-11-20.)
 
 There is no known direct activity against HCV. HCV is an RNA virus whose replication depends on a different polymerase (NS5B). The only plausible link is indirect. In patients infected with both HBV and HCV, entecavir suppresses HBV replication, including HBV reactivation that can occur when direct-acting antivirals (DAAs) clear HCV. This is management of the co-infecting HBV, not treatment of HCV. The model's high score therefore probably reflects the two infections occurring together and being studied together, not a demonstrated anti-HCV effect.
 
@@ -135,11 +135,12 @@ Please refer to the SmPC and BNF for full safety information, including warnings
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "One valid single-ingredient record is present" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-20 | "Detailed mechanism of action data is not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Baraclude (entecavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046e61c9-9298-4b2e-b76e-b26b81fecd20) |
 
 <!-- review:end log -->
 

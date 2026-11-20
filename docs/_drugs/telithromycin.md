@@ -59,7 +59,7 @@ The TxGNN model (deep learning) predicts it may be effective for **polyclonal hy
 
 ## Why is This Prediction Reasonable?
 
-Telithromycin is a ketolide antibiotic that inhibits bacterial protein synthesis at the 50S ribosomal subunit. ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.) This description reflects general knowledge of the drug class.
+Telithromycin is a ketolide antibiotic that inhibits bacterial protein synthesis at the 50S ribosomal subunit. This description reflects general knowledge of the drug class. ChEMBL (EMBL-EBI) records the mechanism of action of telithromycin as: Bacterial 70S ribosome inhibitor ([ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136), CC BY-SA 3.0; accessed 2026-11-19.)
 
 Polyclonal hyperviscosity syndrome is driven by an excess of polyclonal immunoglobulins in the blood. No known pathway connects an antibacterial ketolide to this process. The high TxGNN score (0.9990) comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -140,7 +140,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The listed record is a single-ingredient product and is shown as valid" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136) |
+| 2026-11-20 | "Detailed mechanism of action data is not available in the data compiled for this report, so this description reflects general knowledge of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL1136 (telithromycin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1136) |
 
 <!-- review:end log -->
 

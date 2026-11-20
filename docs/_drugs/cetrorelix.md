@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Cetrorelix: predicted new indication hypertrichosis (disease) (evidence level L5). Approved use: Inhibition of premature LH surges in women undergoing controlled ovar…"
 monitor_inn: "Cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **hypertrichosis**, but there a
 
 ## Why is This Prediction Reasonable?
 
-Cetrorelix is a peptide antagonist of the GnRH receptor (GnRH1 receptor, encoded by *GNRHR*). By blocking this receptor it suppresses LH and FSH release and, downstream, sex steroid production. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
+Cetrorelix is a peptide antagonist of the GnRH receptor (GnRH1 receptor, encoded by *GNRHR*). By blocking this receptor it suppresses LH and FSH release and, downstream, sex steroid production. According to the Clinical Pharmacology section of the US FDA-approved prescribing information for cetrorelix: "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), label version 2025-09-22; accessed 2026-11-20.)
 
 The link to the predicted indication is weak. Hypertrichosis is not a classic androgen-driven condition (unlike hirsutism), so suppressing sex steroids has no clear reason to help. The very high TxGNN score comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence. There is no supporting clinical or literature data, so it should be read as a hypothesis-generating signal rather than evidence of benefit.
 
@@ -123,11 +123,12 @@ The predicted indication has a high model score but no trials, no literature and
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "The record has no dosage form or indication text, so the licensed indication should be confirmed against the current SmPC" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-20 | "Detailed mechanism of action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

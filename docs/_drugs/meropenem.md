@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Serious bacterial infections…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
@@ -59,7 +59,7 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 
 ## Why is This Prediction Reasonable?
 
-Meropenem is a carbapenem that kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis. Detailed mechanism of action data are not otherwise available. It covers many Gram-negative bacilli (including ESBL producers), many Gram-positive organisms and anaerobes.
+Meropenem is a carbapenem that kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis. According to the Mechanism of Action and Microbiology sections of the US FDA-approved prescribing information for meropenem: "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), label version 2026-11-02; accessed 2026-11-20.) It covers many Gram-negative bacilli (including ESBL producers), many Gram-positive organisms and anaerobes.
 
 Bacterial arthritis (septic arthritis) is a joint infection caused by the same kinds of organisms meropenem already treats in its established indications. These include Gram-negative bacilli and *Burkholderia pseudomallei*, the cause of melioidosis, which can involve bone and joints. The link is therefore biologically plausible, and the prediction probably reflects this antibacterial overlap.
 
@@ -146,11 +146,12 @@ The prediction score is very high and the antibacterial rationale is plausible. 
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "This is the only authorisation listed" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-20 | "Detailed mechanism of action data are not otherwise available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
 
 <!-- review:end log -->
 

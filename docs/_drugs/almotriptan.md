@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Almotriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Almotriptan: predicted new indication atrophoderma vermiculata (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -58,7 +58,7 @@ Almotriptan is a triptan, a serotonin 5-HT1B/1D receptor agonist. The TxGNN mode
 
 ## Why is This Prediction Reasonable?
 
-Almotriptan is thought to act as an agonist at 5-HT1B/1D receptors, causing cranial vasoconstriction and reducing neuropeptide release. Detailed mechanism of action data are not otherwise available in the data compiled for this report.
+Almotriptan is thought to act as an agonist at 5-HT1B/1D receptors, causing cranial vasoconstriction and reducing neuropeptide release. According to the Mechanism of Action section of the US FDA-approved prescribing information for almotriptan: "Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites." ([DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645), label version 2025-12-31; accessed 2026-11-20.)
 
 Atrophoderma vermiculata is a rare follicular atrophic skin disorder. No plausible mechanistic link to serotonergic vasoconstriction has been identified. The high TxGNN score reflects a computational pattern only, and it is not supported by biological, clinical or literature evidence. The prediction should be treated as a hypothesis-generating signal at best.
 
@@ -125,11 +125,12 @@ The prediction rests on a model score alone. There are no trials or publications
 
 ## Review Log
 
-Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Removed: "Almotriptan is currently marketed, with at least one valid single-ingredient licence and no cancelled licences in the local records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-20 | "Detailed mechanism of action data are not otherwise available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645) |
 
 <!-- review:end log -->
 
