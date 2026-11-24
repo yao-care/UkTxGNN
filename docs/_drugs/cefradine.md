@@ -75,7 +75,7 @@ The dosage form, manufacturer and approved indication text are not available.
 
 <!-- review:begin uk-lic-20261106-cefradine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number. The dosage form, manufacturer and approved indication text are not available." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 12 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number. The dosage form, manufacturer and approved indication text are not available." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-cefradine-1 -->
 
@@ -105,7 +105,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "The record carries a BNF-style code (section 5.1.2, cephalosporins) rather than a standard PL number" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

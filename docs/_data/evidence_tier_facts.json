@@ -63,7 +63,7 @@
     "lt": 27,
     "lv": 27,
     "r": 4,
-    "rs": "Removed: \"UK licence record\"",
+    "rs": "Removed: \"with one oral solution authorisation recorded on the UK market\"",
     "x": 0
    },
    {
@@ -316,7 +316,7 @@
     "lt": 13,
     "lv": 13,
     "r": 3,
-    "rs": "Removed: \"and the UK licence record is incomplete\"",
+    "rs": "Removed: \"This is the only authorisation in the data compiled for this report (single-ingredient, valid)\"",
     "x": 0
    },
    {
@@ -976,7 +976,7 @@
   "with_current": 453,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 430,
+  "with_reviews": 433,
   "rows": [
    {
     "t": "Ibuprofen",
@@ -1140,7 +1140,7 @@
     "lt": 78,
     "lv": 78,
     "r": 5,
-    "rs": "Removed: \"A re-query against the MHRA Product Licence database is strongly recommended before proceeding\"",
+    "rs": "Removed: \"No marketing authorisation records were returned for Aspirin in this Evidence Pack. This is…",
     "x": 0
    },
    {
@@ -1536,7 +1536,7 @@
     "lt": 44,
     "lv": 44,
     "r": 3,
-    "rs": "Removed: \"The UK licensing data compiled for this report are incomplete\"",
+    "rs": "Removed: \"Only one authorisation record is available, and it is a tablet product. The record does not state a…",
     "x": 0
    },
    {
@@ -2976,8 +2976,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Removed: \"This is a single-ingredient product record.\"",
     "x": 0
    },
    {
@@ -3537,8 +3537,8 @@
     "i": "multiple system atrophy",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
     "x": 0
    },
    {
@@ -4164,8 +4164,8 @@
     "i": "vitamin deficiency disorder",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
     "x": 1
    },
    {
@@ -4395,8 +4395,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
     "x": 0
    },
    {
@@ -4516,8 +4516,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Removed: \"This record lists one single-ingredient product.\"",
     "x": 0
    },
    {
@@ -4835,8 +4835,8 @@
     "i": "open-angle glaucoma",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Removed: \"Only one entry is available.\"",
     "x": 0
    },
    {
@@ -5132,8 +5132,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
     "x": 1
    },
    {

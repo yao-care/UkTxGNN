@@ -551,3 +551,16 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 例：aceclofenac「Approved use: Not recorded in the local data」→「In the UK: 2 NHSBSA BNF presentation codes」；2026-11-19 改了 297 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site UkTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 正文 BNF 代碼筆數由程式改寫（2026-11-24）
+
+用戶 2026-11-24 決定（各站同日，「許可證張數與狀態不再每週過期」）：本站市場段落的 BNF 代碼表 2026-11-06 起已由 `scripts/sync_license_tables.py` 產生（A 不重做），這次只做 B——正文寫死的筆數改由程式依快照事實層改寫。
+- `scripts/rewrite_license_counts.py`＋`src/uktxgnn/regulatory/count_prose.py`（照 PhTxGNN 同名檔移植，Kr／My 的規則；名詞加 BNF presentation code／presentation／preparation，本地資料字樣 UK／NHS／BNF／NHSBSA）：只改句型明確的「N BNF presentation codes／N UK products」；
+  有保留、講證據包或查詢、相對數、劑型或廠商子集、顯示筆數、partial 頁不動，說「N MHRA licences」的句子不改（BNF 代碼不是 MHRA 許可）；0／1 張與 both（單複數要跟著改）、單方張數（本站事實層 single_total 依 BNF chemical substance 欄，複方常掛在單一成分下，數字只驗不改）列待查。不寫查核框；查核紀錄 replacement／anchor 所在的句子不改。
+- 接上：`apply_drug_reviews.py`（非 --check）結尾；`build_license_snapshot.py` 寫完快照先跑 sync_license_tables.py 重排程式表、再跑改寫（不給 --ws 時只跑這兩支；`--no-rewrite` 都不跑，license_rebuild_run.py 轉紀錄前那次用）；
+  `scripts/license_adapter.py` 加 `sync_tables`（每週排程依證據包重排程式表）與 `PAGE_NOTE`（3b 放行程式區塊標記、來源句、Showing 句、沒有代碼的說明句）；gate 第 22 項擋「再跑一次會變」。
+- `site.py` 的 `_fig`（reviews_from_edits.py 寫紀錄說明用）改成不寫筆數；既有 435 筆說明裡的「This drug has N BNF presentation codes in that list」同 id 重發成「The Quick Overview and the BNF code table … show the current number of BNF presentation codes.」（前版存 history）。
+  更正文字講舊表筆數的 3 筆同 id 重發：esomeprazole「The list is limited to the single record」、naratriptan「Only the following product entry is available:」刪掉（框改錨在市場段落標題），minoxidil「This is the only record found (a single-ingredient product)」改成「The listed identifiers are BNF-style codes rather than PL numbers.」。
+- 2026-11-24 第一次套用（資料 data-20261116-160902）：句型明確、要改的正文筆數句 0 句（10-31～11-06 的刪句已清掉大部分）。另寫的寬偵測（獨立於改寫規則，含待辦、含 noindex）掃到 41 句，標註後要改 25 句：
+  市場段落說明句把程式表講成只有一筆或單方的 8 句以 `uk-lic-20261124-*` 更正（didanosine、levamisole、inositol_nicotinate、nisoldipine、terlipressin、menotropins 刪句；felypressin 單方→prilocaine/felypressin 複方；fenoterol「Both products … 3.1.4」→3.1）、上面 3 筆紀錄重發；
+  待辦 10 句、結論決策理由 2 句、摘要劑型 2 句列進待查清單（open）。另有 44 頁摘要寫「marketed in the UK as a <劑型>」（依舊證據包的一筆寫的，現在多數有多種劑型），屬劑型子集、超過 30 頁，未處理、待用戶決定。checker 前後都是 0/633；gate exit 0。正文有變的 11 頁 last_modified_at 改 2026-11-24，只改查核框說明的頁不動。

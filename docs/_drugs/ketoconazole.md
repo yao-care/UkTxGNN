@@ -129,7 +129,7 @@ No NICE appraisal or BNF classification data were available.
 
 <!-- review:begin uk-lic-20261106-ketoconazole-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not in the usual PL format, and no dosage form, manufacturer or indication text is provided. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not in the usual PL format, and no dosage form, manufacturer or indication text is provided. It should be verified against the MHRA register. No NICE appraisal or BNF classification data were available." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-ketoconazole-1 -->
 
@@ -165,7 +165,7 @@ Support for acne rests on a high model score, laboratory data and one small, unr
 
 <!-- review:begin uk-lic-20261106-ketoconazole-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Systemic exposure carries serious safety concerns, and the available UK authorisation record is incomplete." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 19 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Systemic exposure carries serious safety concerns, and the available UK authorisation record is incomplete." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-ketoconazole-2 -->
 
@@ -183,8 +183,8 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not i" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "and the available UK authorisation record is incomplete" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "Only one valid single-ingredient authorisation is listed in the data compiled for this report. The record is incomplete: the number is not i" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "and the available UK authorisation record is incomplete" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

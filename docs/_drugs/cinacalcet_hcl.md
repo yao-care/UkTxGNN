@@ -94,7 +94,7 @@ No TxGNN-predicted indications have been generated for cinacalcet, and critical 
 
 <!-- review:begin uk-lic-20261106-cinacalcet_hcl-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Confirm UK marketing authorisation status (note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 6 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Confirm UK marketing authorisation status (note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-cinacalcet_hcl-1 -->
 
@@ -106,7 +106,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "(note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "(note: cinacalcet is marketed in the UK under the brand name Mimpara — the evidence pack may contain a data-source discrepancy)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

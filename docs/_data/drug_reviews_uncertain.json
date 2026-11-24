@@ -988,6 +988,146 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'yohimbine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'yohimbine'"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "benzocaine",
+   "file": "benzocaine.md",
+   "status": "open",
+   "claim": "- Confirmation of an ophthalmic-suitable formulation and route (current records show only a gel product)",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 41 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "budesonide",
+   "file": "budesonide.md",
+   "status": "open",
+   "claim": "- Confirmation of an available topical formulation, as the only UK product identified is an oral enteric-coated capsule",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1,1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 79 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "cysteine",
+   "file": "cysteine.md",
+   "status": "open",
+   "claim": "Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product.",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 0 個 BNF presentation code；摘要句的劑型／唯一產品說法（劑型子集，程式不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "dienogest",
+   "file": "dienogest.md",
+   "status": "open",
+   "claim": "- Licence indication and dosage form details for both authorisations",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 2 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 6 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "doxycycline",
+   "file": "doxycycline.md",
+   "status": "open",
+   "claim": "- Label warnings and contraindications, and ocular-route feasibility, since only an oral modified-release formulation is recorded locally",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 21 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "estriol",
+   "file": "estriol.md",
+   "status": "open",
+   "claim": "- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1,1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 19 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "status": "open",
+   "claim": "- Confirmation of licensed indications and formulations in the UK (the single listed product is a cream, which is not suited to a systemic tumour)",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 28 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "levocarnitine",
+   "file": "levocarnitine.md",
+   "status": "open",
+   "claim": "Levocarnitine is a form of carnitine that carries long-chain fatty acids into mitochondria for energy production, and it is marketed in the UK as a single-ingredient capsule.",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 17 個 BNF presentation code；摘要句的劑型／唯一產品說法（劑型子集，程式不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "lopinavir",
+   "file": "lopinavir.md",
+   "status": "open",
+   "claim": "- Approved indication text, dosage forms and verified MHRA authorisation numbers for the two listed products",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 2 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 8 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "peppermint_oil",
+   "file": "peppermint_oil.md",
+   "status": "open",
+   "claim": "- Approved indication text, dosage forms and verified authorisation numbers for the two UK products",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 2 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 15 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "status": "open",
+   "claim": "The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing.",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1,1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 21 個 BNF presentation code；結論段的決策理由句（不改寫決策理由）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "polyethylene_glycol",
+   "file": "polyethylene_glycol.md",
+   "status": "open",
+   "claim": "The proposed mechanism is speculative, and the one UK product identified is an oral laxative with no apparent link to the proposed skin indication.",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1,1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 39 個 BNF presentation code；結論段的決策理由句（不改寫決策理由）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "sulthiame",
+   "file": "sulthiame.md",
+   "status": "open",
+   "claim": "- Authorised indications, dosage forms and SmPC safety information (warnings, contraindications) for both UK products",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 2 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 7 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
+  },
+  {
+   "source": "市場資料改由程式維護後，正文寫死 BNF 代碼筆數／唯一產品的句子（2026-11-24 寬偵測；scripts/rewrite_license_counts.py 規則不改）",
+   "drug": "trimethoprim",
+   "file": "trimethoprim.md",
+   "status": "open",
+   "claim": "- An assessment of route compatibility, since the only recorded UK product is an oral tablet",
+   "reason": "grammar/premise",
+   "added": "2026-11-24",
+   "note": "句子把本藥寫成只有 1,1 個產品／代碼（或特定劑型），快照事實層（NHSBSA BNF 代碼清單）是 31 個 BNF presentation code；「Conclusion／Next Steps」待辦條目（依規則不改）；要改請寫查核紀錄"
   }
  ]
 }

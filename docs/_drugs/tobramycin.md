@@ -141,7 +141,7 @@ The prediction score is high, but there are no registered trials and no publishe
 
 <!-- review:begin uk-lic-20261106-tobramycin-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications), because the current licence record is incomplete / Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 24 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data and the full UK product information (dosage form, approved indications, contraindications), because the current licence record is incomplete / Confirmation of which ophthalmic tobramycin formulations are available in the UK, since the one authorisation on record is a nebuliser solution and not an eye preparation" Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-tobramycin-1 -->
 
@@ -163,7 +163,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "because the current licence record is incomplete since the one authorisation on record is a nebuliser solution and not an eye preparation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "because the current licence record is incomplete since the one authorisation on record is a nebuliser solution and not an eye preparation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->

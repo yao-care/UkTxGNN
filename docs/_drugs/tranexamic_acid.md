@@ -119,7 +119,7 @@ Please check the MHRA register, the BNF and the current SmPC for licensed indica
 
 <!-- review:begin uk-lic-20261106-tranexamic_acid-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the data compiled for this report. Please check the MHRA register, the BNF and the current SmPC for licensed indications. The record does not follow the usual UK "PL" numbering format, so the identifier should be verified." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 26 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the data compiled for this report. Please check the MHRA register, the BNF and the current SmPC for licensed indications. The record does not follow the usual UK "PL" numbering format, so the identifier should be verified." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-tranexamic_acid-1 -->
 
@@ -164,7 +164,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the dat" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved indication text are not available in the dat" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this drug in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->

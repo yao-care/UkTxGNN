@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Felypressin: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not stated in the data compiled for this report (marketed as a priloc…"
 monitor_inn: "felypressin"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "esotropia", "diabetic retinopathy", "bronchial adenomas/carcinoids childhood", "ductal or ductular proliferation", "chondroid hamartoma", "non-seminomatous lesion", "tumor of testis and paratestis", "pre-malignant neoplasm"]
@@ -91,7 +91,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The product is a single-ingredient-type listing for the prilocaine/felypressin combination, classified under the BNF local anaesthetics section (15.2).
+The listed products are prilocaine/felypressin combination products, classified under the BNF local anaesthetics section (15.2).
+
+<!-- review:begin uk-lic-20261124-felypressin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The product is a single-ingredient-type listing for the prilocaine/felypressin combination, classified under the BNF local anaesthetics section (15.2)." Corrected: the BNF presentation codes listed for this drug are prilocaine/felypressin combination products (dental local anaesthetic injections), not single-ingredient listings, according to the BNF presentation names in the NHSBSA BNF prescribing code list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-felypressin-1 -->
 
 ## Safety Considerations
 
@@ -112,6 +118,19 @@ All ten predicted indications rest on model scores alone (L5), with no clinical 
 - SmPC warnings, contraindications and interaction data for the UK product
 - Confirmation of the approved indication text and licence details (PL number, dosage form, manufacturer)
 - Assessment of route compatibility, as the current product is a local anaesthetic injection
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "The product is a single-ingredient-type listing for the prilocaine/felypressin combination" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

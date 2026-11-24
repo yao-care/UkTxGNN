@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenoterol: predicted new indication Multiple system atrophy (evidence level L5). Approved use: Not stated in the licence data compiled for this report (fenoterol is…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -103,7 +103,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix. The identifiers above are BNF codes rather than MHRA PL numbers, and approved indication text was not available.
+The listed products are classed under BNF section 3.1 (bronchodilators) based on the code prefix. The identifiers above are BNF codes rather than MHRA PL numbers, and approved indication text was not available.
+
+<!-- review:begin uk-lic-20261124-fenoterol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix." Corrected: the BNF presentation codes for this drug fall in BNF section 3.1.1 (fenoterol inhalers) and 3.1.4 (fenoterol with ipratropium), both within section 3.1 (bronchodilators), according to the code prefixes in the NHSBSA BNF prescribing code list; "both" did not match the number of codes. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-fenoterol-1 -->
 
 ## Safety Considerations
 
@@ -131,11 +137,12 @@ All eight predictions are supported only by a computational score, with no trial
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+| 2026-11-24 | Corrected: "Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

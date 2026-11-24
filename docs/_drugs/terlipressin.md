@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 608
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
 description: "Terlipressin: predicted new indication Open-angle glaucoma (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes"
@@ -110,7 +110,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Only one entry is available. It carries a BNF classification code rather than a standard PL number, and the indication text is blank.
+Each entry carries a BNF classification code rather than a standard PL number, and the indication text is blank.
+
+<!-- review:begin uk-lic-20261124-terlipressin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Only one entry is available. It carries a BNF classification code rather than a standard PL number, and the indication text is blank." Removed: it described the table above as a single record or a single product, but the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more than one BNF presentation code for this drug, and the table above is generated from that list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-terlipressin-1 -->
 
 ---
 
@@ -144,11 +150,12 @@ The pulmonary hypertension signal is biologically plausible, but it rests on sma
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
+| 2026-11-24 | Removed: "Only one entry is available." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

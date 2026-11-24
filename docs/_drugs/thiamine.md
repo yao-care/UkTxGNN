@@ -42,7 +42,7 @@ The TxGNN model predicts it may be effective for **resistance to thyroid hormone
 
 <!-- review:begin uk-lic-20261106-thiamine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not state its approved indication. / The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no clinical trials and no publications** supporting this prediction." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 44 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not state its approved indication. / The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, but there are **no clinical trials and no publications** supporting this prediction." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-thiamine-1 -->
 
@@ -82,7 +82,7 @@ Currently no related literature available for this predicted indication.
 
 <!-- review:begin uk-lic-20261106-thiamine-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufacturer, so the approved use cannot be described from the data compiled here." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 44 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufacturer, so the approved use cannot be described from the data compiled here." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-thiamine-2 -->
 
@@ -152,8 +152,8 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not s" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufa" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "Thiamine (vitamin B1) is marketed in the UK as a single-ingredient 100 mg tablet, but the licence record compiled for this report does not s" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "This is the only licence record, and it covers a single-ingredient product. The record does not include approved indication text or a manufa" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

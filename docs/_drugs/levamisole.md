@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Levamisole"
 predicted_indications: ["drug-induced osteoporosis", "benign neoplasm of tongue", "cervical neuroblastoma", "epiglottis neoplasm", "benign neoplasm of buccal mucosa", "cystic neoplasm", "benign neoplasm of floor of mouth", "schwannoma of jugular foramen", "benign neoplasm of hypopharynx", "abducens nerve neoplasm"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Levamisole: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Ascaridiasis and ancylostomiasis"
 ---
 
@@ -92,7 +92,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-This is a single-ingredient product record. The list is complete (1 of 1). The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register.
+The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register.
+
+<!-- review:begin uk-lic-20261124-levamisole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "This is a single-ingredient product record. The list is complete (1 of 1). The authorisation number is shown as it appears in the data and is not in standard MHRA "PL" format, so the authorisation details should be verified against the MHRA register." Removed: it described the table above as a single record or a single product, but the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more than one BNF presentation code for this drug, and the table above is generated from that list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-levamisole-1 -->
 
 ---
 
@@ -121,6 +127,19 @@ The prediction rests on the model score alone. No trials or publications address
 - Warnings and contraindications from the SmPC and BNF, with particular attention to haematological safety
 - Confirmation of the MHRA authorisation details, dosage form and approved indications
 - Among the other ranked predictions, head and neck tumours (for example benign neoplasm of hypopharynx) have the most indirect supporting literature and could be a more productive research question
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "This is a single-ingredient product record. The list is complete (1 of 1)." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

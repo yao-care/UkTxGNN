@@ -43,7 +43,7 @@ Immediate remediation of **two critical data gaps** is required before this cand
 
 <!-- review:begin uk-lic-20261106-dosulepin_hcl-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a formal repurposing assessment impossible at this stage. / Immediate remediation of **two critical data gaps** is required before this candidate can enter the evaluation pipeline." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a formal repurposing assessment impossible at this stage. / Immediate remediation of **two critical data gaps** is required before this candidate can enter the evaluation pipeline." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-dosulepin_hcl-1 -->
 
@@ -124,7 +124,7 @@ Showing 20 of 23 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- review:begin uk-lic-20261106-dosulepin_hcl-2 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "No UK marketing authorisations are recorded in the current Evidence Pack." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 23 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "No UK marketing authorisations are recorded in the current Evidence Pack." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-dosulepin_hcl-2 -->
 
@@ -179,8 +179,8 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
-| 2026-11-06 | Removed: "No UK marketing authorisations are recorded in the current Evidence Pack" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "The current Evidence Pack contains **no TxGNN repurposing predictions**, no UK marketing authorisation records, and no safety data, making a" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "No UK marketing authorisations are recorded in the current Evidence Pack" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "The absence of marketing authorisation records in this Evidence Pack likely reflects a data retrieval issue rather than confirmed non-author" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->

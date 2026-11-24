@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Inositol nicotinate"
 predicted_indications: ["vitamin deficiency disorder", "biotin metabolic disease", "non-syndromic esophageal malformation", "iron deficiency anemia", "acute urate nephropathy", "esophageal disease", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Inositol Nicotinate: predicted new indication Vitamin deficiency disorder (evidence level L5). Approved use: Pellagra and beriberi"
 ---
 
@@ -94,7 +94,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-This is the only record, and it is a single-ingredient product. The data do not include approved indication text, so no licensed use can be confirmed here.
+The data do not include approved indication text, so no licensed use can be confirmed here.
+
+<!-- review:begin uk-lic-20261124-inositol_nicotinate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "This is the only record, and it is a single-ingredient product. The data do not include approved indication text, so no licensed use can be confirmed here." Removed: it described the table above as a single record or a single product, but the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more than one BNF presentation code for this drug, and the table above is generated from that list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-inositol_nicotinate-1 -->
 
 ---
 
@@ -131,6 +137,19 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 - Mechanism of action data (for example from DrugBank)
 - A literature search for inositol nicotinate or niacin in nutritional deficiency states
 - Clarification of whether a vitamin-deficiency use adds anything beyond existing niacin or multivitamin supplementation
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Removed: "This is the only record, and it is a single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

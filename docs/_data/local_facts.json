@@ -21,11 +21,11 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 923,
-  "pages": 541,
-  "public_pages_with_records": 509,
+  "records": 931,
+  "pages": 544,
+  "public_pages_with_records": 512,
   "by_action": {
-   "correct": 465,
+   "correct": 473,
    "mechanism": 458
   }
  },
@@ -176,198 +176,198 @@
  },
  "recent_reviews": [
   {
+   "t": "Terlipressin",
+   "u": "/drugs/terlipressin/",
+   "s": "Removed: \"Only one entry is available.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nisoldipine",
+   "u": "/drugs/nisoldipine/",
+   "s": "Removed: \"This record lists one single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Levamisole",
+   "u": "/drugs/levamisole/",
+   "s": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Inositol Nicotinate",
+   "u": "/drugs/inositol-nicotinate/",
+   "s": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fenoterol",
+   "u": "/drugs/fenoterol/",
+   "s": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Felypressin",
+   "u": "/drugs/felypressin/",
+   "s": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Didanosine",
+   "u": "/drugs/didanosine/",
+   "s": "Removed: \"This is a single-ingredient product record.\"",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Zolmitriptan",
    "u": "/drugs/zolmitriptan/",
    "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Zafirlukast",
    "u": "/drugs/zafirlukast/",
    "s": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Yohimbine",
    "u": "/drugs/yohimbine/",
    "s": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Xylitol",
    "u": "/drugs/xylitol/",
    "s": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Vildagliptin",
    "u": "/drugs/vildagliptin/",
    "s": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Verapamil",
    "u": "/drugs/verapamil/",
    "s": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Valsartan",
    "u": "/drugs/valsartan/",
    "s": "Removed: \"This is a single-ingredient product and its status is valid\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Valproic Acid",
    "u": "/drugs/valproic-acid/",
    "s": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Ursodeoxycholic Acid",
    "u": "/drugs/ursodeoxycholic-acid/",
    "s": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Tyrosine",
    "u": "/drugs/tyrosine/",
    "s": "Removed: \"This record is a single valid single-ingredient authorisation. Its number does not follow the…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Trimethoprim",
    "u": "/drugs/trimethoprim/",
    "s": "Removed: \"Only one single-ingredient authorisation is recorded, and it is valid\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Trifluoperazine",
    "u": "/drugs/trifluoperazine/",
    "s": "Removed: \"The licence record gives no dosage form or approved indication text\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Tretinoin",
    "u": "/drugs/tretinoin/",
    "s": "Removed: \"This is a single-ingredient product with valid status. The record carries no PL-format number…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Trazodone",
    "u": "/drugs/trazodone/",
    "s": "Removed: \"plus verification of the authorisation record\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Travoprost",
    "u": "/drugs/travoprost/",
    "s": "Removed: \"One valid single-ingredient authorisation is recorded\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Trastuzumab",
    "u": "/drugs/trastuzumab/",
    "s": "Removed: \"One authorisation is recorded, and it is a valid single-ingredient product\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   },
   {
    "t": "Tranexamic Acid",
    "u": "/drugs/tranexamic-acid/",
    "s": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Trandolapril",
-   "u": "/drugs/trandolapril/",
-   "s": "Removed: \"One single-ingredient authorisation is currently valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Topotecan",
-   "u": "/drugs/topotecan/",
-   "s": "Removed: \"This is a single valid single-ingredient product record, and the licence record provides no dosage…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Topiramate",
-   "u": "/drugs/topiramate/",
-   "s": "Removed: \"The compiled record holds one valid single-ingredient authorisation\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tolcapone",
-   "u": "/drugs/tolcapone/",
-   "s": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tobramycin",
-   "u": "/drugs/tobramycin/",
-   "s": "Removed: \"because the current licence record is incomplete since the one authorisation on record is a…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tiopronin",
-   "u": "/drugs/tiopronin/",
-   "s": "Removed: \"Only one valid single-ingredient authorisation was identified in the data compiled for this report\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Tioconazole",
-   "u": "/drugs/tioconazole/",
-   "s": "Removed: \"licensed\"",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
+   "t": "Terlipressin",
+   "u": "/drugs/terlipressin/",
+   "s": "Removed: \"Only one entry is available.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nisoldipine",
+   "u": "/drugs/nisoldipine/",
+   "s": "Removed: \"This record lists one single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Levamisole",
+   "u": "/drugs/levamisole/",
+   "s": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Inositol Nicotinate",
+   "u": "/drugs/inositol-nicotinate/",
+   "s": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fenoterol",
+   "u": "/drugs/fenoterol/",
+   "s": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Felypressin",
+   "u": "/drugs/felypressin/",
+   "s": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Didanosine",
+   "u": "/drugs/didanosine/",
+   "s": "Removed: \"This is a single-ingredient product record.\"",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Zolmitriptan",
    "u": "/drugs/zolmitriptan/",
    "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Zafirlukast",
-   "u": "/drugs/zafirlukast/",
-   "s": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Yohimbine",
-   "u": "/drugs/yohimbine/",
-   "s": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Xylitol",
-   "u": "/drugs/xylitol/",
-   "s": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "s": "Removed: \"This is a single-ingredient product and its status is valid\"",
-   "d": "2026-11-06"
-  },
-  {
-   "t": "Valproic Acid",
-   "u": "/drugs/valproic-acid/",
-   "s": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
-   "d": "2026-11-06"
+   "d": "2026-11-24"
   }
  ],
  "files": {

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Nisoldipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nisoldipine: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -110,7 +110,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-This record lists one single-ingredient product. The BNF classification code embedded in the identifier suggests the cardiovascular calcium channel blocker section, but no approved indication text is available here.
+The BNF classification code embedded in the identifier suggests the cardiovascular calcium channel blocker section, but no approved indication text is available here.
+
+<!-- review:begin uk-lic-20261124-nisoldipine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "This record lists one single-ingredient product. The BNF classification code embedded in the identifier suggests the cardiovascular calcium channel blocker section, but no approved indication text is available here." Removed: it described the table above as a single record or a single product, but the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more than one BNF presentation code for this drug, and the table above is generated from that list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-nisoldipine-1 -->
 
 ---
 
@@ -145,11 +151,12 @@ The prediction rests on a computational score alone. No clinical trial or public
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sular (nisoldipine) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=589157fa-d129-4de3-be3d-e0e1c22c5873) |
+| 2026-11-24 | Removed: "This record lists one single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

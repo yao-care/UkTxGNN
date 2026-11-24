@@ -68,7 +68,7 @@ Clinicians should note that Azelastine has been in clinical use internationally 
 
 <!-- review:begin uk-lic-20261106-azelastine-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded. Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. This drug has 13 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded. Clinicians should note that Azelastine has been in clinical use internationally (as a nasal spray and eye drops for allergic conditions), and the MHRA Product Licence register should be consulted directly to verify current UK authorisation status before drawing conclusions from this figure." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-azelastine-1 -->
 
@@ -108,7 +108,7 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "The UK marketing authorisation data also appears incomplete: zero MHRA licences are recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "**Verify UK market status:** Cross-check against the MHRA Product Licence register to confirm whether existing authorisations were missed in" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->

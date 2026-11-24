@@ -5,7 +5,7 @@ layout: default
 title: Menotropins
 parent: Known Uses Only (No New Predictions)
 nav_order: 392
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Menotropins: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Menotropins"
 predicted_indications: []
@@ -75,13 +75,19 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The single listed entry is a single-ingredient product classed as valid. BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification.
+BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification.
 
 <!-- review:begin uk-lic-20261106-menotropins-1 -->
 
-> **Review correction (2026-11-06)**: Originally stated: "BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification. The record gives a BNF-style product code rather than a PL number." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. This drug has 16 BNF presentation codes in that list; the Quick Overview and the table under UK Market Information show the current figures. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+> **Review correction (2026-11-24)**: Originally stated: "BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification. The record gives a BNF-style product code rather than a PL number." Removed: it conflicted with the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-menotropins-1 -->
+
+<!-- review:begin uk-lic-20261124-menotropins-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The single listed entry is a single-ingredient product classed as valid. BNF chapter 6.5.1 (hypothalamic and anterior pituitary hormones) is the relevant classification." Removed: it described the table above as a single record or a single product, but the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more than one BNF presentation code for this drug, and the table above is generated from that list. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124-menotropins-1 -->
 
 ---
 
@@ -102,7 +108,8 @@ Below is the review log for this page: statements checked against the official d
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Removed: "The record gives a BNF-style product code rather than a PL number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "The record gives a BNF-style product code rather than a PL number" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "The single listed entry is a single-ingredient product classed as valid." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 
