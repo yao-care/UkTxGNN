@@ -568,8 +568,8 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 ## 劑型說法與待查句的逐句更正（2026-11-24 第二輪）
 
 用戶 2026-11-24 第二輪決定：第一輪列進待查的 14 句與「marketed in the UK as a <劑型>」這類劑型說法（依舊證據包單一筆寫的），逐句對照證據包（Release data-20261116-160902）全部 BNF presentation 的劑型與規格。
-- 不成立的寫 correct 紀錄 `uk-lic-20261124b-<藥>-N`（58 筆、56 頁）：摘要句 39 句改成成立的寫法「listed in the UK BNF prescribing codes in several forms, including <原劑型>」（不寫張數；例 methadone「marketed in the UK as a 5 mg tablet」→「in many forms, including 5 mg tablets」，ivabradine 的「UK marketing authorisation」一併改成 BNF 代碼口徑）；
-  BNF 清單沒有本藥的 cysteine、xylitol 刪掉「在英國有產品」子句；etanercept 刪「listed as a 50 mg/mL pre-filled syringe」；待辦與結論 17 句只拿掉「only one UK product／only a gel／two／both」這類錯的前提，建議內容不動（doxycycline 證據包另有漱口液，前提整段拿掉）。
+- 不成立的寫 correct 紀錄 `uk-lic-20261124b-<藥>-N`（58 筆、56 頁）：摘要句 35 句（含 ivabradine）與 desogestrel 推理段 1 句改成成立的寫法「listed in the UK BNF prescribing codes in several forms, including <原劑型>」（不寫張數；例 methadone「marketed in the UK as a 5 mg tablet」→「in many forms, including 5 mg tablets」，ivabradine 的「UK marketing authorisation」一併改成 BNF 代碼口徑）；
+  BNF 清單沒有本藥的 cysteine、xylitol 刪掉「在英國有產品」子句；etanercept 刪「listed as a 50 mg/mL pre-filled syringe」；待辦與結論 19 句只拿掉「only one UK product／only a gel／two／both」這類錯的前提，建議內容不動（doxycycline 證據包另有漱口液，前提整段拿掉）。
 - 查證後成立、不改的 18 頁：dexketoprofen（4 個代碼都是含 25 mg 的錠劑）、dorzolamide、flumethasone、methyl_aminolevulinate、parathyroid_hormone、penciclovir、piperacillin、ropivacaine、stannous_fluoride、terlipressin、tocofersolan、yohimbine、rimexolone、tioconazole、travoprost、fulvestrant、flunisolide、aspirin（判定理由在本機產生器 decisions.py 的 HOLD，未進 repo）。
 - 待查清單 2026-11-24 的 14 項全部標 resolved（附 record_ids）；mechanism of action 76 項維持 open。
 - 正文有變的 56 頁 last_modified_at 改 2026-11-24。checker 前後 0；gate exit 0；寬偵測（同句有劑型字、only／single／both／as a、UK／listed 等字樣）改前 72 句、改後 25 句，剩下都是成立句或這次改寫後的句子。
