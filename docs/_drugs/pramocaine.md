@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "pramocaine"
 predicted_indications: ["papillary conjunctivitis"]
 description: "Pramocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
@@ -98,15 +98,48 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (Evidence Level L5), with no trials or publications. The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern.
+The prediction is supported only by a model score (Evidence Level L5), with no trials or publications. The available UK products are rectal combinations with a corticosteroid, and ocular use raises a real corneal safety concern.
+
+<!-- review:begin uk-lic-20261124c-pramocaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pramocaine-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data for pramocaine
 - Published or registered evidence for ocular use, or a rationale for an ophthalmic formulation
-- Route and formulation feasibility assessment, as the current UK product is not ophthalmic
+- Route and formulation feasibility assessment, as the current UK products are not ophthalmic
 - Ocular safety (corneal toxicity) assessment
-- Approved indication and SmPC safety information for the UK product
+- Approved indication and SmPC safety information for the UK products
 - Comparison against established treatments for papillary conjunctivitis (for example, antihistamine or mast cell stabiliser eye drops)
+
+<!-- review:begin uk-lic-20261124c-pramocaine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Route and formulation feasibility assessment, as the current UK product is not ophthalmic" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pramocaine-2 -->
+
+<!-- review:begin uk-lic-20261124c-pramocaine-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication and SmPC safety information for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pramocaine-3 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "The available UK product is a rectal combination with a corticosteroid, and ocular use raises a real corneal safety concern." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Route and formulation feasibility assessment, as the current UK product is not ophthalmic" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication and SmPC safety information for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

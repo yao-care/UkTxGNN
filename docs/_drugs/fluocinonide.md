@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluocinonide: predicted new indication Alopecia mucinosa (evidence level L5). Approved use: Inflammatory skin conditions, including atopic eczema…"
 monitor_inn: "Fluocinonide"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"]
@@ -48,13 +48,19 @@ Direct evidence for fluocinonide in the predicted indication is very limited.
 
 | Item | Content |
 |------|------|
-| Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK authorisation record contains no indication text) |
+| Original Indication | Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Alopecia mucinosa (top-ranked); alopecia areata (top-ranked prediction with any supporting evidence) |
 | TxGNN Prediction Score | 0.9961 (alopecia mucinosa); 0.9959 (alopecia areata) |
 | Evidence Level | L5 for alopecia mucinosa (model prediction only); L4 for alopecia areata (indirect evidence only) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold (alopecia mucinosa); Hold, framed as a research question (alopecia areata) |
+
+<!-- review:begin uk-lic-20261124c-fluocinonide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK authorisation record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-fluocinonide-1 -->
 
 ---
 
@@ -144,10 +150,16 @@ The predictions rest almost entirely on the TxGNN score. The only retrieved tria
 **To proceed, the following is needed:**
 - Mechanism of action data for fluocinonide
 - Label warnings and contraindications from the SmPC and BNF (not available in the data compiled for this report)
-- Approved indication text and dosage form for the UK authorisation
+- Approved indication text and dosage form for the UK products
 - Direct comparative or controlled studies of topical fluocinonide in alopecia areata or alopecia mucinosa
 - Confirmation of whether fluocinonide was a studied treatment in NCT04207931
 - Assessment of scalp application, including route suitability and the risk of systemic absorption
+
+<!-- review:begin uk-lic-20261124c-fluocinonide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-fluocinonide-2 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +171,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded; there are no combination products and none have been cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fluocinol Pak (fluocinonide) prescribing information, PureTek Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9c88a41-3ff8-78f7-e053-2995a90adb8f) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Inflammatory skin conditions, including atopic eczema, contact dermatitis, seborrheic dermatitis, neurodermatitis, discoid lupus erythematosus (the UK authorisation record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

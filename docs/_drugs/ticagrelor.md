@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "fibrocartilaginous embolism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ticagrelor: predicted new indication Intracranial arteriosclerosis (evidence level L5). Approved use: Acute coronary syndrome"
 ---
 
@@ -48,13 +48,19 @@ None of these studies has yet reported results showing that ticagrelor works in 
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute coronary syndrome (relation recorded in the knowledge graph; no approved indication text is available in the UK licence data compiled for this report) |
+| Original Indication | Acute coronary syndrome (relation recorded in the knowledge graph; no approved indication text is available in the UK BNF prescribing code data compiled for this report) |
 | Predicted New Indication | Intracranial arteriosclerosis |
 | TxGNN Prediction Score | 0.9997 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-ticagrelor-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Acute coronary syndrome (relation recorded in the knowledge graph; no approved indication text is available in the UK licence data compiled for this report)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ticagrelor-1 -->
 
 **Note on the evidence level.** The data compiled for this report scored this prediction as L1. That score does not hold up. The only Phase 3 trial directly studying intracranial atherosclerosis (CAPTIVA) is still ongoing and has no results. The other directly relevant trial is a small, non-phased pilot study. The directly relevant literature consists of a single-centre cohort study and a trial design paper. No completed Phase 3 RCT in this disease has been cited. A strict reading of the evidence rules therefore places this at **L5**, with the strongest signal being an ongoing Phase 3 trial. The larger body of RCT evidence for ticagrelor relates to coronary and other ischaemic disease, not to this prediction. I have also moved the recommendation from "Proceed with Guardrails" to "Hold" until results are available.
 
@@ -140,7 +146,13 @@ The mechanism is plausible and a large Phase 3 trial (CAPTIVA) is under way. How
 - CAPTIVA results, particularly the ticagrelor arm's rates of ischaemic stroke and intracerebral haemorrhage compared with clopidogrel
 - Results from the genotype-guided pilot trial and larger cohort data in intracranial stenting
 - Mechanism of action data and label-based warnings and contraindications to complete safety screening
-- Confirmation of the licensed indications on the UK authorisation
+- Confirmation of the licensed indications of the UK products
+
+<!-- review:begin uk-lic-20261124c-ticagrelor-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indications on the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ticagrelor-2 -->
 
 <!-- review:begin log -->
 
@@ -152,6 +164,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is listed in the compiled data, and it carries no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Acute coronary syndrome (relation recorded in the knowledge graph; no approved indication text is available in the UK licence data compiled for this report) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indications on the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

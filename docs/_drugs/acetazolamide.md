@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamide: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Relations recorded in the knowledge graph: absence epilepsy…"
 ---
 
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 | Item | Content |
 |------|------|
-| Original Indication | Relations recorded in the knowledge graph: absence epilepsy, congestive heart failure, open-angle glaucoma, angle-closure glaucoma, altitude sickness (the UK licence record contains no indication text) |
+| Original Indication | Relations recorded in the knowledge graph: absence epilepsy, congestive heart failure, open-angle glaucoma, angle-closure glaucoma, altitude sickness (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (35 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 35 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-acetazolamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Relations recorded in the knowledge graph: absence epilepsy, congestive heart failure, open-angle glaucoma, angle-closure glaucoma, altitude sickness (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acetazolamide-1 -->
 
 ---
 
@@ -143,8 +149,14 @@ The prediction rests on the TxGNN score alone. No clinical trials or publication
 **To proceed, the following is needed:**
 - Mechanism of action data, and a plausible pharmacological link to malignant hyperthermia
 - Preclinical or clinical studies that directly address the predicted disease
-- Licence indication text and dosage form for the UK authorisation, plus SmPC warnings and contraindications
+- Licence indication text and dosage form for the UK products, plus SmPC warnings and contraindications
 - A safety assessment against the recorded contraindications and interactions
+
+<!-- review:begin uk-lic-20261124c-acetazolamide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and dosage form for the UK authorisation, plus SmPC warnings and contraindications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acetazolamide-2 -->
 
 <!-- review:begin log -->
 
@@ -156,6 +168,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The compiled data list one single-ingredient authorisation, which is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Relations recorded in the knowledge graph: absence epilepsy, congestive heart failure, open-angle glaucoma, angle-closure glaucoma, altitude sickness (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licence indication text and dosage form for the UK authorisation, plus SmPC warnings and contraindications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

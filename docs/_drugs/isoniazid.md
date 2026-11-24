@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoniazid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Pulmonary tuberculosis"
 monitor_inn: "Isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -158,9 +158,15 @@ The prediction is supported only by a model score and by old, low-level reports 
 **To proceed, the following is needed:**
 - Clarify whether any intended use is limited to tuberculous ocular disease (phlyctenular keratoconjunctivitis or conjunctival tuberculosis), which is already covered by standard antituberculous treatment
 - Mechanism of action data
-- SmPC and BNF warnings and contraindications, and confirmation of the approved indication and dosage form for the UK authorisation
+- SmPC and BNF warnings and contraindications, and confirmation of the approved indication and dosage form for the UK products
 - Full-text review of the older ocular tuberculosis papers, including the 1971 topical isoniazid report, and any recent clinical data
 - Hepatic risk assessment (including acetylator status) and a review of interactions before any new use is considered
+
+<!-- review:begin uk-lic-20261124c-isoniazid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SmPC and BNF warnings and contraindications, and confirmation of the approved indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-isoniazid-1 -->
 
 <!-- review:begin log -->
 
@@ -172,6 +178,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
+| 2026-11-24 | Corrected: "SmPC and BNF warnings and contraindications, and confirmation of the approved indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 description: "Fusidic Acid: predicted new indication Exposure keratitis (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes"
@@ -62,7 +62,13 @@ but there are currently **no registered clinical trials** and only **1 indirect 
 
 Fusidic acid blocks bacterial protein synthesis by inhibiting elongation factor G (EF-G). It is particularly active against Gram-positive bacteria such as *Staphylococcus aureus*. This description draws on the rationale recorded for the prediction. ChEMBL (EMBL-EBI) records the mechanism of action of fusidic acid as: Elongation factor G inhibitor ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; accessed 2026-11-19.)
 
-Exposure keratitis is a disorder of the corneal surface, usually caused by incomplete eyelid closure and drying, and the damaged cornea can become secondarily infected. Any benefit from fusidic acid would be limited to treating or preventing bacterial superinfection. It would not address the underlying disease. The UK product recorded is an ocular formulation (fusidic acid viscous eye drops 1%), which fits the ocular route, although route compatibility has not yet been assessed.
+Exposure keratitis is a disorder of the corneal surface, usually caused by incomplete eyelid closure and drying, and the damaged cornea can become secondarily infected. Any benefit from fusidic acid would be limited to treating or preventing bacterial superinfection. It would not address the underlying disease. The UK BNF prescribing codes include an ocular formulation (fusidic acid viscous eye drops 1%), which fits the ocular route, although route compatibility has not yet been assessed.
+
+<!-- review:begin uk-lic-20261124c-fusidic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The UK product recorded is an ocular formulation (fusidic acid viscous eye drops 1%), which fits the ocular route, although route compatibility has not yet been assessed." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-fusidic_acid-1 -->
 
 The only linked publication is a case series of ocular *Tsukamurella* infections. It is indirect and does not evaluate fusidic acid for this condition. The high model score therefore comes from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.
 
@@ -147,11 +153,12 @@ The prediction is supported only by model score and mechanistic plausibility. Th
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the rationale recorded for the prediction" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
+| 2026-11-24 | Corrected: "The UK product recorded is an ocular formulation (fusidic acid viscous eye drops 1%), which fits the ocular route, although route compatibility has not yet been assessed." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

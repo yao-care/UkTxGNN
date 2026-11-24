@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes"
@@ -116,21 +116,28 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 The predictions rest solely on TxGNN scores (Evidence Level L5), with no trials or publications. Topical ophthalmic tropicamide has negligible systemic exposure, and existing antimuscarinics already address the plausible bladder and bowel targets.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK products (a blocking gap for safety screening)
 - Confirmation of the licence record, including dosage form and approved indication text
 - Mapping of the obsolete neurogenic bladder term to current terminology
 - Evidence of a feasible systemic or alternative route of administration
 - A literature and trial search targeted at antimuscarinics in neurogenic bladder, IBS and cauda equina syndrome, to establish whether tropicamide adds anything over existing agents
 
+<!-- review:begin uk-lic-20261124c-tropicamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tropicamide-1 -->
+
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+| 2026-11-24 | Corrected: "Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK product (a blocking gap for safety screening)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

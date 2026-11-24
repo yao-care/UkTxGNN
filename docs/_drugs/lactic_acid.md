@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -159,11 +159,17 @@ For warnings and contraindications, please refer to the SmPC and BNF. Report sus
 All ten predicted indications are supported only by the TxGNN TxGNN model (deep learning) score (evidence level L5), with no clinical trials. For the top predictions, the available literature either has no connection to lactic acid therapy or points to potential harm (oncology and ocular neovascularisation). Lactic acid has no plausible therapeutic role in structural malformations.
 
 **To proceed, the following is needed:**
-- Approved indication, dosage form and route details for the UK authorisation, verified with the MHRA
+- Approved indication, dosage form and route details for the UK products, verified with the MHRA
 - Mechanism of action data
 - Warnings and contraindications from the SmPC and BNF (a blocking gap for safety screening)
 - A credible mechanistic hypothesis and preclinical evidence for any chosen indication before further investment
 - Consideration of whether lower-ranked predictions with more biologically plausible links merit review instead
+
+<!-- review:begin uk-lic-20261124c-lactic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication, dosage form and route details for the UK authorisation, verified with the MHRA" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-lactic_acid-1 -->
 
 <!-- review:begin log -->
 
@@ -175,6 +181,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form and approved indication were not available " | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
+| 2026-11-24 | Corrected: "Approved indication, dosage form and route details for the UK authorisation, verified with the MHRA" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

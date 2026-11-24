@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline: predicted new indication Chronic rhinosinusitis (evidence level L5). In the UK: 13 NHSBSA BNF presentation codes"
@@ -143,9 +143,15 @@ The prediction is supported only by the TxGNN model score (0.9961), with no tria
 **To proceed, the following is needed:**
 - A systematic literature search for tetracyclines (including doxycycline) in chronic rhinosinusitis, to establish whether any clinical signal exists
 - Detailed mechanism of action data
-- Label-based warnings and contraindications from the SmPC, and the licensed indications for the UK product
+- Label-based warnings and contraindications from the SmPC, and the licensed indications for the UK products
 - Assessment against existing UK guidance for chronic rhinosinusitis, including whether long-term antibiotic use is appropriate in the context of antimicrobial stewardship
 - Route and formulation compatibility, which is currently undetermined
+
+<!-- review:begin uk-lic-20261124c-oxytetracycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Label-based warnings and contraindications from the SmPC, and the licensed indications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-oxytetracycline-1 -->
 
 **Other candidate in the data:** Otitis externa (TxGNN score 0.9927) has 17 publication records, including small randomised comparisons of topical oxytetracycline combinations (with polymyxin B and hydrocortisone). Evidence there is provisionally L3, graded on titles only. Steroid-only preparations appeared comparably effective in some studies, so the contribution of oxytetracycline is uncertain. It may be a more tractable research question than chronic rhinosinusitis.
 
@@ -159,6 +165,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record gives a BNF-style product code rather than a standard PL number" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
+| 2026-11-24 | Corrected: "Label-based warnings and contraindications from the SmPC, and the licensed indications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

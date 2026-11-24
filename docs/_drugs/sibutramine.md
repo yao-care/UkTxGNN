@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Sibutramine"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny"]
 description: "Sibutramine: predicted new indication Hypervitaminosis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
@@ -123,9 +123,15 @@ The prediction is supported only by a model score, with no trials, no publicatio
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible pharmacological rationale linking sibutramine to hypervitaminosis
 - A systematic literature search for any supporting evidence
-- Label warnings and contraindications (SmPC/BNF), and verification of the UK authorisation and its current regulatory status
+- Label warnings and contraindications (SmPC/BNF), and verification of the UK products and their current regulatory status
 - A cardiovascular and interaction risk assessment before any further consideration
 - If an obesity-related syndrome such as 16p11.2 microdeletion is of interest, a separate review focused on its obesity component rather than the hypervitaminosis prediction
+
+<!-- review:begin uk-lic-20261124c-sibutramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Label warnings and contraindications (SmPC/BNF), and verification of the UK authorisation and its current regulatory status" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-sibutramine-1 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The marketed status and the single authorisation should be checked against the MHRA register before any decision relies on them" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Label warnings and contraindications (SmPC/BNF), and verification of the UK authorisation and its current regulatory status" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

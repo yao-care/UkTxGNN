@@ -132,10 +132,22 @@ There are no clinical trials, and no cited study directly shows efficacy against
 
 **To proceed, the following is needed:**
 - Mechanism of action data
-- Efficacy studies of didanosine in FIV-infected cats (veterinary context, outside the human UK licence)
-- Licence indication text and SmPC safety data for the UK product
+- Efficacy studies of didanosine in FIV-infected cats (veterinary context, outside the UK human-medicine products)
+- Licence indication text and SmPC safety data for the UK products
 - Consideration of the existing neuropathy and mitochondrial toxicity signals before any new use
 - Note: the SIV prediction has macaque data (PMID 9282812, didanosine rescued animals from a lethal SIV challenge), but it is a preclinical model and not a new human indication
+
+<!-- review:begin uk-lic-20261124c-didanosine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Efficacy studies of didanosine in FIV-infected cats (veterinary context, outside the human UK licence)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-didanosine-1 -->
+
+<!-- review:begin uk-lic-20261124c-didanosine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and SmPC safety data for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-didanosine-2 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +159,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1460 (didanosine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1460) |
 | 2026-11-24 | Removed: "This is a single-ingredient product record." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Efficacy studies of didanosine in FIV-infected cats (veterinary context, outside the human UK licence)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licence indication text and SmPC safety data for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

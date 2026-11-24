@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone: predicted new indication Manic bipolar affective disorder (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
@@ -167,10 +167,16 @@ Preclinical studies show that propafenone suppresses RyR2-mediated calcium waves
 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data for propafenone
-- Verification of the UK licence indication text and MHRA authorisation details
+- Verification of the indication text and MHRA authorisation details of the UK products
 - Systematic review of propafenone versus flecainide and beta-blockers in CPVT
 - A structured safety assessment of proarrhythmia risk, including patient selection (exclusion of structural heart disease), ECG monitoring and interaction screening
 - Expert cardiology (inherited arrhythmia) input before any prospective study design
+
+<!-- review:begin uk-lic-20261124c-propafenone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK licence indication text and MHRA authorisation details" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-propafenone-1 -->
 
 <!-- review:begin log -->
 
@@ -182,6 +188,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
+| 2026-11-24 | Corrected: "Verification of the UK licence indication text and MHRA authorisation details" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

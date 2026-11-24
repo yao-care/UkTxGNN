@@ -5,8 +5,8 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 443
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-12
-description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the UK licence data compiled for this report (the pha…"
+last_modified_at: 2026-11-24
+description: "Nicorandil: predicted new indication Benign prostatic hyperplasia (evidence level L4). Approved use: Not recorded in the UK BNF prescribing code data compiled for this report (the pha…"
 monitor_inn: "Nicorandil"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
 ---
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **benign prostatic hyperplasia 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data compiled for this report (the pharmacology source describes chronic stable angina pectoris) |
+| Original Indication | Not recorded in the UK BNF prescribing code data compiled for this report (the pharmacology source describes chronic stable angina pectoris) |
 | Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-nicorandil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not recorded in the UK licence data compiled for this report (the pharmacology source describes chronic stable angina pectoris)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nicorandil-2 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -106,11 +112,32 @@ The BPH prediction has a high model score and a plausible vascular mechanism, bu
 **To proceed, the following is needed:**
 - Complete UK safety information (warnings, contraindications, interactions) from the SmPC and BNF
 - Detailed mechanism of action data
-- Confirmed approved indication and dosage form for the UK authorisation
+- Confirmed approved indication and dosage form for the UK products
 - Human pilot or observational data on nicorandil in BPH or LUTS, including prostatic blood flow and symptom outcomes
 - Assessment of safety in older men with BPH, who are often on alpha-blockers or antihypertensives that may add to blood pressure lowering
 
+<!-- review:begin uk-lic-20261124c-nicorandil-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmed approved indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nicorandil-3 -->
+
 **Other predicted indications (all Hold, L5, prediction only, no trials or literature):** alopecia, hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata, osteoarthritis susceptibility, osteoarthritis, acromesomelic dysplasia (Hunter-Thompson type), brachyolmia, and brachyolmia-amelogenesis imperfecta syndrome.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Approved use: Not recorded in the UK licence data compiled for this report (the pha" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not recorded in the UK licence data compiled for this report (the pharmacology source describes chronic stable angina pectoris) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmed approved indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

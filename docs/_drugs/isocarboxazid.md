@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Isocarboxazid"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "neurotic disorder", "phobic disorder", "post-traumatic stress disorder", "schizotypal personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isocarboxazid: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -148,9 +148,15 @@ The top-ranked prediction, benign paroxysmal torticollis of infancy, has only a 
 **To proceed, the following is needed:**
 - Mechanism of action data for isocarboxazid, as the data compiled for this report contain none
 - Label-based warnings and contraindications from the SmPC and BNF, as the safety data are incomplete
-- Confirmation of the UK licence details (authorisation number, dosage form and approved indication)
+- Confirmation of the UK product details (authorisation number, dosage form and approved indication)
 - For any future work, prioritise agoraphobia, phobic disorder or OCD, where class-level plausibility exists, and start with a systematic literature search and controlled studies specific to isocarboxazid
 - A clear safety plan covering dietary tyramine restrictions and drug interactions before considering any new use
+
+<!-- review:begin uk-lic-20261124c-isocarboxazid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK licence details (authorisation number, dosage form and approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-isocarboxazid-1 -->
 
 <!-- review:begin log -->
 
@@ -162,6 +168,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient record with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Marplan (isocarboxazid) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fde749-44ad-4668-86c4-0ff17bca0074) |
+| 2026-11-24 | Corrected: "Confirmation of the UK licence details (authorisation number, dosage form and approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

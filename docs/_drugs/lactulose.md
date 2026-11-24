@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactulose: predicted new indication Obstructive jaundice (evidence level L5). Approved use: Hepatic encephalopathy, hepatic coma, constipation"
 monitor_inn: "Lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be useful for **obstructive jaundice** (mainly t
 
 | Item | Content |
 |------|------|
-| Original Indication | Hepatic encephalopathy, hepatic coma, constipation (the UK licence record carries no indication text) |
+| Original Indication | Hepatic encephalopathy, hepatic coma, constipation (the UK BNF presentation code records carry no indication text) |
 | Predicted New Indication | Obstructive jaundice (top-ranked prediction, acute urate nephropathy, has no supporting evidence; see note below) |
 | TxGNN Prediction Score | 0.9953 (obstructive jaundice); 0.9989 for the top-ranked acute urate nephropathy |
 | Evidence Level | L5 (obstructive jaundice) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold (research question; no registered trials, evidence limited to small, older or preclinical studies) |
+
+<!-- review:begin uk-lic-20261124c-lactulose-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hepatic encephalopathy, hepatic coma, constipation (the UK licence record carries no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-lactulose-1 -->
 
 **Note on selection:** The highest-scoring prediction, acute urate nephropathy (0.9989), has no trials or literature and no plausible mechanism (L5). This report therefore focuses on obstructive jaundice, the highest-ranked prediction with meaningful literature (L3). Other predictions are summarised at the end.
 
@@ -180,6 +186,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one authorisation record is available" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "and the UK licence record carries no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hepatic encephalopathy, hepatic coma, constipation (the UK licence record carries no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

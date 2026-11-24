@@ -148,11 +148,17 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 Seborrheic keratosis is the only prediction with direct supporting literature, but this is limited to small series and case reports, with no registered trials. The compiled data also lack the licensed indication and label safety information. The other nine predictions (including vulvar conditions, Paget disease of bone and fibrocystic breast disease) have no supporting evidence or only indirect evidence, and remain on Hold.
 
 **To proceed, the following is needed:**
-- The licensed indication, dosage form and SmPC warnings and contraindications for the UK product
+- The licensed indication, dosage form and SmPC warnings and contraindications for the UK products
 - Mechanism of action data confirmed from DrugBank
 - Verification of the study designs and outcomes of the published reports
 - A controlled study (ideally randomised) of topical calcipotriol versus standard treatments such as cryotherapy for seborrheic keratosis
 - A review of local tolerability, and of systemic calcium effects where large areas are treated
+
+<!-- review:begin uk-lic-20261124c-calcipotriol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licensed indication, dosage form and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-calcipotriol-1 -->
 
 <!-- review:begin log -->
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "Calcipotriol is a topical vitamin D3 analogue marketed in the UK as a 50 microgram/g ointment." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The licensed indication, dosage form and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

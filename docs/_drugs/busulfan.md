@@ -6,7 +6,7 @@ nav_order: 120
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the UK licence data compiled for this report"
+description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the UK BNF prescribing code data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
 ---
@@ -52,13 +52,19 @@ Busulfan is an alkylating (DNA cross-linking) chemotherapy agent, listed in the 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK licence data compiled for this report |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report |
 | Predicted New Indication | Myelodysplastic syndrome |
 | TxGNN Prediction Score | 0.9962 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124c-busulfan-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the UK licence data compiled for this report" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-busulfan-2 -->
 
 ---
 
@@ -196,6 +202,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 | 2026-11-24 | Corrected: "Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved use: Not stated in the UK licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the UK licence data compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

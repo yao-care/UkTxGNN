@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Ascaridiasis and ancylostomiasis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record) |
+| Original Indication | Ascaridiasis and ancylostomiasis (relations recorded in the knowledge graph; no approved indication text is available in the UK BNF presentation code records) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-levamisole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Ascaridiasis and ancylostomiasis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-levamisole-1 -->
 
 ---
 
@@ -137,6 +143,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product record. The list is complete (1 of 1)." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Ascaridiasis and ancylostomiasis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -115,9 +115,15 @@ All ten predicted indications rest on model scores alone (L5), with no clinical 
 **To proceed, the following is needed:**
 - Mechanism of action data (e.g. from DrugBank) and a plausible biological link to bone metabolism
 - Preclinical or observational evidence for drug-induced osteoporosis
-- SmPC warnings, contraindications and interaction data for the UK product
+- SmPC warnings, contraindications and interaction data for the UK products
 - Confirmation of the approved indication text and licence details (PL number, dosage form, manufacturer)
 - Assessment of route compatibility, as the current product is a local anaesthetic injection
+
+<!-- review:begin uk-lic-20261124c-felypressin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SmPC warnings, contraindications and interaction data for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-felypressin-1 -->
 
 <!-- review:begin log -->
 
@@ -128,6 +134,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "The product is a single-ingredient-type listing for the prilocaine/felypressin combination" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "SmPC warnings, contraindications and interaction data for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

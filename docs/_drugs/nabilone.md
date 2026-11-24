@@ -6,7 +6,7 @@ nav_order: 429
 evidence_level: L4
 indication_count: 9
 last_modified_at: 2026-11-24
-description: "Nabilone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the UK authorisation data compiled for this report (nab…"
+description: "Nabilone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (nab…"
 monitor_inn: "Nabilone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
 ---
@@ -53,13 +53,19 @@ The TxGNN model predicts it may be useful for **migraine disorder**, with **no r
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data compiled for this report (nabilone is generally used for chemotherapy-induced nausea and vomiting refractory to conventional antiemetics) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (nabilone is generally used for chemotherapy-induced nausea and vomiting refractory to conventional antiemetics) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 0.9989 |
 | Evidence Level | L4 (migraine); L3 for the related headache disorder prediction |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-nabilone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the UK authorisation data compiled for this report (nabilone is generally used for chemotherapy-induced nausea and vomiting refractory to conventional antiemetics)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nabilone-2 -->
 
 ---
 
@@ -158,6 +164,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2218896 (nabilone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2218896) |
 | 2026-11-24 | Corrected: "marketed in the UK as a 1 mg capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved use: Not stated in the UK authorisation data compiled for this report (nab" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the UK authorisation data compiled for this report (nabilone is generally used for chemotherapy-induced nausea and vomiting refractory to conventional antiemetics) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

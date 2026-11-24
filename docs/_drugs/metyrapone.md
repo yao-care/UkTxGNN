@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
-description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (pharmac…"
+last_modified_at: 2026-11-24
+description: "Metyrapone: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not recorded in the UK BNF prescribing code data compiled for this report (pharmac…"
 monitor_inn: "Metyrapone"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
 ---
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data compiled for this report (pharmacology sources describe use in diagnostic testing of hypothalamic-pituitary function and in Cushing's syndrome) |
+| Original Indication | Not recorded in the UK BNF prescribing code data compiled for this report (pharmacology sources describe use in diagnostic testing of hypothalamic-pituitary function and in Cushing's syndrome) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-metyrapone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not recorded in the UK licence data compiled for this report (pharmacology sources describe use in diagnostic testing of hypothalamic-pituitary function and in Cushing's syndrome)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-metyrapone-2 -->
 
 ---
 
@@ -144,6 +150,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
+| 2026-11-24 | Corrected: "Approved use: Not recorded in the UK licence data compiled for this report (pharmac" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not recorded in the UK licence data compiled for this report (pharmacology sources describe use in diagnostic testing of hypothalamic-pituitary function and in Cushing's syndrome) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

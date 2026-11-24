@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pregabalin: predicted new indication Tendinitis (evidence level L5). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **tendinitis**, but there are *
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph, as no indication text is recorded in the UK licence data) |
+| Original Indication | Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph, as no indication text is recorded in the UK BNF prescribing code data) |
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 0.9971 |
 | Evidence Level | L5 (mechanistic plausibility only; no tendinitis-specific studies) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (72 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 72 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-pregabalin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph, as no indication text is recorded in the UK licence data)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pregabalin-1 -->
 
 ---
 
@@ -151,11 +157,12 @@ The very high model score is a computational signal only. No trials or tendiniti
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism-of-action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic neuralgia (from the TxGNN knowledge graph, as no indication text is recorded in the UK licence data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

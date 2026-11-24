@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency…"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be relevant to **biotin metabolic disease**, but
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias (the UK authorisation record contains no indication text) |
+| Original Indication | Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-cyanocobalamin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias (the UK authorisation record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-cyanocobalamin-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias (the UK authorisation record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

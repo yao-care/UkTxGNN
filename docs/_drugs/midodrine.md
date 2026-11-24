@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
 description: "Midodrine: predicted new indication Variably protease-sensitive prionopathy (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
@@ -143,11 +143,17 @@ Please refer to the SmPC and BNF for complete safety information. Report suspect
 The mechanism is direct and biologically coherent, and a completed Phase 2 trial plus multiple guidelines and reviews support pressor-based management of hypotension. However, this overlaps with midodrine's existing use, and the supporting trial is small (n=21), so evidence is limited to L2.
 
 **To proceed, the following is needed:**
-- Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation (MHRA / SmPC)
+- Confirmation of the approved indication, dosage form and manufacturer for the UK products (MHRA / SmPC)
 - Label-based warnings and contraindications from the SmPC and BNF
 - Mechanism of action data (DrugBank)
 - Phase 3 RCT evidence, or a clear definition of which hypotensive population would be targeted beyond the current indication
 - A monitoring plan for supine hypertension, heart rate and urinary retention, and a review of interacting medicines
+
+<!-- review:begin uk-lic-20261124c-midodrine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation (MHRA / SmPC)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-midodrine-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: midodrine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6705af-bb72-4edb-863a-93a351bd6dba) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation (MHRA / SmPC)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Perphenazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Schizophrenia"
 monitor_inn: "Perphenazine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "atypical glycine encephalopathy"]
@@ -47,13 +47,19 @@ The TxGNN model's top-ranked prediction is **retinal dystrophy with or without e
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia; mixed anxiety and depressive disorder (the UK authorisation record has no indication text) |
+| Original Indication | Schizophrenia; mixed anxiety and depressive disorder (the UK BNF presentation code records have no indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 0.9996 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-perphenazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Schizophrenia; mixed anxiety and depressive disorder (the UK authorisation record has no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-perphenazine-1 -->
 
 ---
 
@@ -162,9 +168,15 @@ Report suspected adverse reactions via the Yellow Card Scheme.
 
 **To proceed, the following is needed:**
 - Mechanism of action data, to assess biological plausibility.
-- Full SmPC warnings and contraindications from the MHRA/BNF record, plus the approved indication text for the UK authorisation.
+- Full SmPC warnings and contraindications from the MHRA/BNF record, plus the approved indication text for the UK products.
 - For anxiety disorder: modern randomised trials of perphenazine alone, with a clear benefit-risk assessment in view of the QT, sedation, extrapyramidal and interaction burden.
 - For retinal dystrophy: preclinical or mechanistic evidence before any further consideration, with an explicit review of phenothiazine retinal toxicity.
+
+<!-- review:begin uk-lic-20261124c-perphenazine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Full SmPC warnings and contraindications from the MHRA/BNF record, plus the approved indication text for the UK authorisation." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-perphenazine-2 -->
 
 <!-- review:begin log -->
 
@@ -176,6 +188,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: perphenazine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e87e78e-d39c-44fc-95a0-70cdb2a91941) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Schizophrenia; mixed anxiety and depressive disorder (the UK authorisation record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Full SmPC warnings and contraindications from the MHRA/BNF record, plus the approved indication text for the UK authorisation." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

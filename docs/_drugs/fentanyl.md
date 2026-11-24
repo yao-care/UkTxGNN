@@ -139,11 +139,17 @@ Label-based warnings and contraindications were not available in the data compil
 The prediction is supported only by the TxGNN model score (L5), with no clinical trials or publications. The proposed mechanism is not plausible for a receptor-level defect, and fentanyl's safety profile (including possible worsening of hyponatraemia) argues against pursuing this indication.
 
 **To proceed, the following is needed:**
-- Original approved indication and SmPC-based warnings and contraindications for the UK product
+- Original approved indication and SmPC-based warnings and contraindications for the UK products
 - Mechanism of action data
 - Evidence of a plausible mechanistic link to AVPR2-mediated water retention (preclinical or mechanistic studies)
 - Safety assessment of effects on sodium and water balance
 - Review of the Tourette syndrome prediction only if supporting clinical evidence emerges
+
+<!-- review:begin uk-lic-20261124c-fentanyl-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original approved indication and SmPC-based warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-fentanyl-1 -->
 
 <!-- review:begin log -->
 
@@ -156,6 +162,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one authorisation (single-ingredient, valid) is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 | 2026-11-24 | Corrected: "Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Original approved indication and SmPC-based warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

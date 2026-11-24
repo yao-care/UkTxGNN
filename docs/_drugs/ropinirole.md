@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 552
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome"
 monitor_inn: "Ropinirole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
@@ -145,9 +145,15 @@ The mechanistic link is plausible and there is one possible randomised add-on tr
 **To proceed, the following is needed:**
 - Full-text review of PMID 42640474 to confirm design, outcomes and safety. If it is a positive RCT, re-grade to L2 and reconsider the decision.
 - Confirmation of ropinirole's mechanism of action, which is missing from the compiled data.
-- The SmPC details of the UK authorisation (dosage form, indication, warnings, contraindications), which are missing from the compiled data.
+- The SmPC details of the UK products (dosage form, indication, warnings, contraindications), which are missing from the compiled data.
 - Replication in an independent, registered, adequately powered paediatric trial.
 - A paediatric safety and monitoring plan covering psychiatric effects, impulse-control behaviours, sleep, blood pressure and drug interactions.
+
+<!-- review:begin uk-lic-20261124c-ropinirole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The SmPC details of the UK authorisation (dosage form, indication, warnings, contraindications), which are missing from the compiled data." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ropinirole-1 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +165,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
+| 2026-11-24 | Corrected: "The SmPC details of the UK authorisation (dosage form, indication, warnings, contraindications), which are missing from the compiled data." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

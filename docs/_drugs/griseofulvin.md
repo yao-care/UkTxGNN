@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea unguium, tinea barbae…"
 monitor_inn: "Griseofulvin"
 predicted_indications: ["myiasis", "wound myiasis", "creeping myiasis", "furuncular myiasis", "echinococcus granulosus infectious disease"]
@@ -48,13 +48,19 @@ The prediction rests on model output alone and has no clear mechanistic rational
 
 | Item | Content |
 |------|------|
-| Original Indication | Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK licence is not available) |
+| Original Indication | Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK products is not available) |
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 0.9941 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (72 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 72 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-griseofulvin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK licence is not available)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-griseofulvin-1 -->
 
 ---
 
@@ -154,8 +160,14 @@ The prediction is supported by model score only (Evidence Level L5), with no cli
 **To proceed, the following is needed:**
 - Mechanism of action data for griseofulvin
 - In vitro or preclinical evidence of larvicidal activity (and, for the echinococcosis prediction, protoscolex viability assays)
-- Confirmation of the UK licence details (MHRA licence number, dosage form, approved indication) and the full SmPC warnings and contraindications
+- Confirmation of the UK product details (MHRA licence number, dosage form, approved indication) and the full SmPC warnings and contraindications
 - A comparison against standard myiasis management (larval removal, ivermectin) to establish any unmet need
+
+<!-- review:begin uk-lic-20261124c-griseofulvin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK licence details (MHRA licence number, dosage form, approved indication) and the full SmPC warnings and contraindications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-griseofulvin-2 -->
 
 <!-- review:begin log -->
 
@@ -167,6 +179,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only authorisation identified (single-ingredient product, valid)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: griseofulvin prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98829d90-b289-4bec-a625-7af412a5cb2d) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Tinea pedis, tinea corporis, tinea unguium, tinea barbae, dermatophytosis of the scalp/beard and of the groin/perianal area (the approved indication text for the UK licence is not available) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK licence details (MHRA licence number, dosage form, approved indication) and the full SmPC warnings and contraindications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

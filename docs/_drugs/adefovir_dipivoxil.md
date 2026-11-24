@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Adefovir dipivoxil"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adefovir Dipivoxil: predicted new indication chronic hepatitis C virus infection (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -118,8 +118,14 @@ The prediction rests on a model score alone. There are no trials or publications
 **To proceed, the following is needed:**
 - Laboratory evidence of anti-HCV activity (for example replicon assays)
 - A defensible mechanistic rationale for activity against NS5B or other HCV targets
-- Mechanism of action data and label safety information (warnings, contraindications) for the UK product
+- Mechanism of action data and label safety information (warnings, contraindications) for the UK products
 - A benefit-risk assessment that addresses nephrotoxicity against current HCV standard of care
+
+<!-- review:begin uk-lic-20261124c-adefovir_dipivoxil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data and label safety information (warnings, contraindications) for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-adefovir_dipivoxil-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f) |
+| 2026-11-24 | Corrected: "Mechanism of action data and label safety information (warnings, contraindications) for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

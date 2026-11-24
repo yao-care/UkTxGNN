@@ -5,7 +5,7 @@ layout: default
 title: Capsaicin
 parent: Known Uses Only (No New Predictions)
 nav_order: 129
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Capsaicin: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Capsaicin"
 predicted_indications: []
@@ -64,7 +64,13 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF.
+The authorisation number is in a format that does not look like a standard MHRA "PL" number, and the dosage form and indication are not recorded. The status and indications of the UK products should be verified against the MHRA register, the SmPC and the BNF.
+
+<!-- review:begin uk-lic-20261124c-capsaicin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-capsaicin-1 -->
 
 ## Safety Considerations
 
@@ -73,6 +79,18 @@ The authorisation number is in a format that does not look like a standard MHRA 
 - **Site-specific concerns:** capsaicin is a potent irritant. Application to the ear canal, broken or inflamed skin, or the eyes is a particular concern for the predicted indication.
 
 Please refer to the SmPC and BNF for full safety information. Report suspected adverse reactions via the Yellow Card Scheme.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "The UK authorisation status and indication should be verified against the MHRA register, the SmPC and the BNF." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

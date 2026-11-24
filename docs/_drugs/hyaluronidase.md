@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
-description: "Hyaluronidase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not available in the UK licence data"
+last_modified_at: 2026-11-24
+description: "Hyaluronidase: predicted new indication Diabetic retinopathy (evidence level L5). Approved use: Not available in the UK BNF prescribing code data"
 monitor_inn: "Hyaluronidase"
 predicted_indications: ["esotropia", "amenorrhea (disease)", "severe nonproliferative diabetic retinopathy", "renal tubular acidosis", "dermatitis", "diabetic retinopathy", "acrodermatitis chronica atrophicans", "diabetic cataract", "neonatal dermatomyositis", "non-syndromic esophageal malformation"]
 ---
@@ -56,13 +56,19 @@ The first-ranked TxGNN prediction (esotropia) has no clinical support. This repo
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the UK licence data |
+| Original Indication | Not available in the UK BNF prescribing code data |
 | Predicted New Indication | Diabetic retinopathy (top-ranked prediction by TxGNN score: esotropia, which is unsupported) |
 | TxGNN Prediction Score | 0.9971 (diabetic retinopathy); 0.9989 (esotropia) |
 | Evidence Level | L5 (two completed Phase 3 trials; results not available) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold (research question only; verify published Phase 3 results first) |
+
+<!-- review:begin uk-lic-20261124c-hyaluronidase-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not available in the UK licence data" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-hyaluronidase-2 -->
 
 ---
 
@@ -152,10 +158,16 @@ Diabetic retinopathy is the only prediction with substantial evidence: two compl
 
 **To proceed, the following is needed:**
 - Published results and regulatory outcome of NCT00198497 and NCT00198510
-- Approved indication text and SmPC safety information (warnings, contraindications) for the UK product
+- Approved indication text and SmPC safety information (warnings, contraindications) for the UK products
 - Mechanism of action data
 - Assessment of route compatibility, since intravitreal use differs from the existing injection licence
 - Clarification of whether the evidence applies to diabetic retinopathy itself or only to vitreous haemorrhage
+
+<!-- review:begin uk-lic-20261124c-hyaluronidase-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and SmPC safety information (warnings, contraindications) for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-hyaluronidase-3 -->
 
 <!-- review:begin log -->
 
@@ -168,6 +180,9 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "and it has one UK marketing authorisation (a 1,500 unit injection ampoule)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "The marketing authorisation is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hylenex Recombinant (hyaluronidase) prescribing information, Antares Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658) |
+| 2026-11-24 | Corrected: "Approved use: Not available in the UK licence data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available in the UK licence data &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and SmPC safety information (warnings, contraindications) for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

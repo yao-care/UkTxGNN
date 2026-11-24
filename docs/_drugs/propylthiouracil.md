@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 527
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (evidence level L4). In the UK: 10 NHSBSA BNF presentation codes"
@@ -156,9 +156,15 @@ The top prediction has no clinical trials, and the supporting literature consist
 
 **To proceed, the following is needed:**
 - Mechanism of action data and SmPC warnings and contraindications (the label safety review is a blocking gap)
-- Confirmation of the authorised indication wording, dosage form and PL number for the UK product
+- Confirmation of the authorised indication wording, dosage form and PL number for the UK products
 - For neonatal thyrotoxicosis: comparative evidence against methimazole, with a hepatotoxicity risk assessment
 - For hyperthyroxinemia: stratification by cause, as only true hormone overproduction is plausibly suitable
+
+<!-- review:begin uk-lic-20261124c-propylthiouracil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the authorised indication wording, dosage form and PL number for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-propylthiouracil-1 -->
 
 <!-- review:begin log -->
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
+| 2026-11-24 | Corrected: "Confirmation of the authorised indication wording, dosage form and PL number for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

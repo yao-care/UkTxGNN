@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 334
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imipramine: predicted new indication Attention deficit hyperactivity disorder (evidence level L3). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -136,10 +136,16 @@ The mechanistic link is plausible and there is a small body of literature, inclu
 
 **To proceed, the following is needed:**
 - Review of the full text of the key ADHD studies to confirm design and outcomes
-- Formal mechanism of action data and SmPC warnings and contraindications for the UK product
+- Formal mechanism of action data and SmPC warnings and contraindications for the UK products
 - Registered, controlled trials in ADHD, ideally against current non-stimulant options
 - An ECG and cardiovascular monitoring plan, and a drug-interaction management plan
 - Confirmation of the UK approved indication text and dosage form
+
+<!-- review:begin uk-lic-20261124c-imipramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Formal mechanism of action data and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-imipramine-1 -->
 
 ---
 
@@ -151,11 +157,12 @@ The mechanistic link is plausible and there is a small body of literature, inclu
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+| 2026-11-24 | Corrected: "Formal mechanism of action data and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

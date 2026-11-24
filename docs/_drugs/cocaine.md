@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
-description: "Cocaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the UK authorisation data"
+last_modified_at: 2026-11-24
+description: "Cocaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the UK BNF prescribing code data"
 monitor_inn: "Cocaine"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "rhinitis", "irritable bowel syndrome", "anaphylaxis", "neurocirculatory asthenia", "atopic conjunctivitis", "food-dependent exercise-induced anaphylaxis", "pharyngitis"]
 ---
@@ -46,13 +46,19 @@ This prediction rests on model output alone and is not supported by direct evide
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data; the drug is described as a local anaesthetic for nasal, oral and laryngeal surgery |
+| Original Indication | Not stated in the UK BNF prescribing code data; the drug is described as a local anaesthetic for nasal, oral and laryngeal surgery |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-cocaine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the UK authorisation data; the drug is described as a local anaesthetic for nasal, oral and laryngeal surgery" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-cocaine-2 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -123,11 +129,13 @@ The prediction for cauda equina syndrome has no clinical trials, no supporting l
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Goprelto (cocaine hydrochloride) prescribing information, LXO US Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f897764-fe30-090a-e063-6294a90af106) |
+| 2026-11-24 | Corrected: "Approved use: Not stated in the UK authorisation data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the UK authorisation data; the drug is described as a local anaesthetic for nasal, oral and laryngeal surgery &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

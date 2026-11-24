@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aztreonam: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection, Pseudomonas aeruginosa infection…"
 ---
 
@@ -46,13 +46,19 @@ The better-supported (though still limited) candidate in this list is **gonococc
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection, Pseudomonas aeruginosa infection, peritonitis, rhinoscleroma, Escherichia coli infection, endometritis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record) |
+| Original Indication | Urinary tract infection, Pseudomonas aeruginosa infection, peritonitis, rhinoscleroma, Escherichia coli infection, endometritis (relations recorded in the knowledge graph; no approved indication text is available in the UK BNF presentation code records) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-aztreonam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Urinary tract infection, Pseudomonas aeruginosa infection, peritonitis, rhinoscleroma, Escherichia coli infection, endometritis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-aztreonam-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is listed. The record does not include approved indication text, so no approved indications can be " | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Urinary tract infection, Pseudomonas aeruginosa infection, peritonitis, rhinoscleroma, Escherichia coli infection, endometritis (relations recorded in the knowledge graph; no approved indication text is available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

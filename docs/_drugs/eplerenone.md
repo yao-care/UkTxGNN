@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Eplerenone"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eplerenone: predicted new indication Pulmonary hypertension with unclear multifactorial mechanism (evidence level L5). Approved use: Hypertension"
 ---
 
@@ -126,8 +126,14 @@ The prediction has a high model score but no trials or publications on this dise
 - A focused literature review for pulmonary hypertension and MR antagonists. A separately listed prediction, pulmonary hypertension owing to lung disease and/or hypoxia, has mainly preclinical papers. These do not directly support this prediction and would need individual appraisal.
 - Clarification of which pulmonary hypertension subtype is meant, given the broad "unclear multifactorial mechanism" label.
 - Detailed mechanism-of-action data and label-based warnings and contraindications.
-- Licensed indication and dosage form details for the UK authorisation.
+- Licensed indication and dosage form details for the UK products.
 - A safety plan covering potassium and renal function monitoring and the major interactions above.
+
+<!-- review:begin uk-lic-20261124c-eplerenone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licensed indication and dosage form details for the UK authorisation." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-eplerenone-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available for this report, so t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+| 2026-11-24 | Corrected: "Licensed indication and dosage form details for the UK authorisation." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

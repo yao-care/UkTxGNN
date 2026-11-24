@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone: predicted new indication Renal tubular acidosis (evidence level L5). In the UK: 10 NHSBSA BNF presentation codes"
@@ -132,10 +132,22 @@ The prediction has no clinical trials or publications behind it (evidence level 
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) to allow a proper mechanistic analysis
-- SmPC warnings and contraindications for the UK product, to complete safety screening
-- Confirmation of the UK authorisation details (MHRA licence number, dosage form, approved indication)
+- SmPC warnings and contraindications for the UK products, to complete safety screening
+- Confirmation of the UK product details (MHRA licence number, dosage form, approved indication)
 - Evidence that nitisinone affects primary renal tubular acidosis, such as preclinical or mechanistic studies, or case series
 - Review of renal and haematological safety signals (kidney disease, thrombocytopenia, leukopenia, hypophosphataemia) in the target population
+
+<!-- review:begin uk-lic-20261124c-nitisinone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SmPC warnings and contraindications for the UK product, to complete safety screening" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nitisinone-1 -->
+
+<!-- review:begin uk-lic-20261124c-nitisinone-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (MHRA licence number, dosage form, approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nitisinone-2 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +159,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
+| 2026-11-24 | Corrected: "SmPC warnings and contraindications for the UK product, to complete safety screening" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (MHRA licence number, dosage form, approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

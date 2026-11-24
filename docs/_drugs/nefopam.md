@@ -131,9 +131,15 @@ The prediction rests only on a model score. There are no trials or publications 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example from DrugBank) and a credible biological rationale linking nefopam to lens opacification
 - Preclinical evidence (for example lens models) or any clinical study directly addressing cataract
-- The SmPC warnings and contraindications, and the licensed indication text, for the UK product
+- The SmPC warnings and contraindications, and the licensed indication text, for the UK products
 - A route and formulation assessment. Cataract would probably need ocular delivery, while the marketed product is an oral tablet.
 - Given the seizure risk, a safety review before any consideration in an older population, in which cataract is most common
+
+<!-- review:begin uk-lic-20261124c-nefopam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The SmPC warnings and contraindications, and the licensed indication text, for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nefopam-1 -->
 
 <!-- review:begin log -->
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product with a valid status. The licence record contains no indication text, so the original approved indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The SmPC warnings and contraindications, and the licensed indication text, for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

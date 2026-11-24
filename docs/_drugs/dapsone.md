@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 206
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dapsone: predicted new indication Pneumocystosis (evidence level L1). Approved use: Dermatitis herpetiformis, acne, leprosy"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **pneumocystosis** (*Pneumocyst
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no indication text) |
+| Original Indication | Dermatitis herpetiformis, acne, leprosy (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9973 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (9 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 9 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124c-dapsone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-dapsone-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -166,6 +172,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "This is a single-ingredient product with a valid status. The record carries a product code rather than a standard PL number, so check the MH" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "The record has no indication text, so it is unclear whether PCP is within the licence" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

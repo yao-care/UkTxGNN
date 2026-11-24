@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 96
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzbromarone: predicted new indication hypouricemia, renal (evidence level L5). Approved use: Gout"
 monitor_inn: "Benzbromarone"
 predicted_indications: ["hypouricemia, renal"]
@@ -140,17 +140,24 @@ The prediction rests on a model score alone (evidence level L5), with no clinica
 - Safety label data (SmPC warnings and contraindications), which is currently a blocking gap.
 - Confirmation of the mechanism of action from DrugBank.
 - Expert review to determine whether renal hypouricaemia should be recorded as a contraindication, rather than as a repurposing candidate.
-- Verification of the UK marketing authorisation details and approved indication.
+- Verification of the UK product details and approved indication.
+
+<!-- review:begin uk-lic-20261124c-benzbromarone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK marketing authorisation details and approved indication." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-benzbromarone-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL388590 (benzbromarone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL388590) |
+| 2026-11-24 | Corrected: "Verification of the UK marketing authorisation details and approved indication." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

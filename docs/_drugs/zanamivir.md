@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanamivir: predicted new indication Pyelonephritis (evidence level L5). Approved use: Influenza"
 monitor_inn: "Zanamivir"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **pyelonephritis**, but this is
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (approved indication text is not available in the UK licence record) |
+| Original Indication | Influenza (approved indication text is not available in the UK BNF presentation code records) |
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 0.9984 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-zanamivir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Influenza (approved indication text is not available in the UK licence record)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-zanamivir-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -103,19 +109,27 @@ The prediction rests on model output alone (L5), with no registered trials or re
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible mechanistic rationale for the new indication
 - Preclinical or clinical evidence for activity in the predicted condition
-- Approved indication text and dosage form details from the UK licence record
+- Approved indication text and dosage form details from the UK BNF presentation code records
 - SmPC warnings and contraindications for a formal safety review
 - Assessment of route compatibility (inhaled powder versus the route likely needed for a kidney infection)
+
+<!-- review:begin uk-lic-20261124c-zanamivir-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form details from the UK licence record" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-zanamivir-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Influenza (approved indication text is not available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form details from the UK licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

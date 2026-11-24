@@ -6,7 +6,7 @@ nav_order: 258
 evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-11-24
-description: "Estriol: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (Dru…"
+description: "Estriol: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the UK BNF prescribing code data compiled for this report (Dru…"
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
 ---
@@ -48,13 +48,19 @@ Support is limited: **no registered clinical trials** and **6 publications**, of
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the UK authorisation data compiled for this report (DrugBank notes use for post-menopausal hot flushes) |
+| Original Indication | Not stated in the UK BNF prescribing code data compiled for this report (DrugBank notes use for post-menopausal hot flushes) |
 | Predicted New Indication | Amenorrhoea |
 | TxGNN Prediction Score | 0.9918 |
 | Evidence Level | L3 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (19 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 19 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-estriol-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not stated in the UK authorisation data compiled for this report (DrugBank notes use for post-menopausal hot flushes)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-estriol-2 -->
 
 ---
 
@@ -157,6 +163,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
 | 2026-11-24 | Corrected: "- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved use: Not stated in the UK authorisation data compiled for this report (Dru" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not stated in the UK authorisation data compiled for this report (DrugBank notes use for post-menopausal hot flushes) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

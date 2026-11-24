@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost: predicted new indication Malformation syndrome with odontal and/or periodontal component (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Bimatoprost"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
@@ -137,8 +137,14 @@ The prediction rests solely on a score from the TxGNN model (deep learning), whi
 **To proceed, the following is needed:**
 - Any biological rationale or preclinical data linking prostamide/FP-receptor signalling to this condition
 - Detailed mechanism of action data
-- Confirmation of the approved indication and dosage form for the UK authorisation
+- Confirmation of the approved indication and dosage form for the UK products
 - A review of other predicted indications for bimatoprost that have actual evidence. In particular, **alopecia** has several completed Phase 2 trials in androgenetic alopecia and female pattern hair loss, and a Phase 4 paediatric eyelash hypotrichosis trial. It warrants a separate evaluation, as it is a far more credible repurposing direction than this top-ranked prediction.
+
+<!-- review:begin uk-lic-20261124c-bimatoprost-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-bimatoprost-1 -->
 
 <!-- review:begin log -->
 
@@ -150,6 +156,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

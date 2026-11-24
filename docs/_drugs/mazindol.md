@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mazindol: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity disorder"
 monitor_inn: "Mazindol"
 predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "pentosuria", "lethal polymalformative syndrome, Boissel type"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **hypervitaminosis**, but there
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity disorder; monogenic obesity (the UK licence record contains no approved indication text) |
+| Original Indication | Obesity disorder; monogenic obesity (the UK BNF presentation code records contain no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-mazindol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Obesity disorder; monogenic obesity (the UK licence record contains no approved indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mazindol-1 -->
 
 ---
 
@@ -122,19 +128,27 @@ The prediction for hypervitaminosis is supported only by a model score, with no 
 **To proceed, the following is needed:**
 - Mechanism of action data to allow a proper mechanistic-link analysis
 - Label warnings and contraindications (SmPC/BNF) to complete safety screening
-- Confirmation of the UK authorisation details (PL number, dosage form, approved indication)
+- Confirmation of the UK product details (PL number, dosage form, approved indication)
 - Any preclinical or clinical evidence linking mazindol to vitamin excess or clearance
 - If a repurposing direction is wanted, consider re-prioritising candidates with a more plausible rationale (for example, the obesity-related 16p11.2 microdeletion syndrome or postural orthostatic tachycardia syndrome), each requiring its own evidence review and cardiovascular safety assessment
+
+<!-- review:begin uk-lic-20261124c-mazindol-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (PL number, dosage form, approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mazindol-2 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled record" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL781 (mazindol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL781) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Obesity disorder; monogenic obesity (the UK licence record contains no approved indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (PL number, dosage form, approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

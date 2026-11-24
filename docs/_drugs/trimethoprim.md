@@ -48,13 +48,19 @@ but there are currently **no clinical trials** and **no publications** supportin
 
 | Item | Content |
 |------|------|
-| Original Indication | Urinary tract infection (the UK licence record has no indication text, so this comes from the drug's recorded indications, which also include infectious otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis/blepharoconjunctivitis) |
+| Original Indication | Urinary tract infection (the UK BNF presentation code records have no indication text, so this comes from the drug's recorded indications, which also include infectious otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis/blepharoconjunctivitis) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 0.9957 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (31 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 31 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-trimethoprim-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Urinary tract infection (the UK licence record has no indication text, so this comes from the drug's recorded indications, which also include infectious otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis/blepharoconjunctivitis)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-trimethoprim-1 -->
 
 ---
 
@@ -165,6 +171,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is recorded, and it is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 | 2026-11-24 | Corrected: "- An assessment of route compatibility, since the only recorded UK product is an oral tablet" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Urinary tract infection (the UK licence record has no indication text, so this comes from the drug's recorded indications, which also include infectious otitis media, pneumocystosis, shigellosis and bacterial conjunctivitis/blepharoconjunctivitis) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

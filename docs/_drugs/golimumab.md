@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Golimumab"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
 description: "Golimumab: predicted new indication Hypermobility of coccyx (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
@@ -149,7 +149,13 @@ The mechanistic link to RA is plausible, but no study has tested golimumab in rh
 - Systematic review of anti-TNF use and vasculitis outcomes in RA (benefit and induced-vasculitis signals).
 - Case series or registry data on golimumab in rheumatoid vasculitis.
 - Detailed mechanism of action data and full safety information (warnings and contraindications) from the SmPC.
-- Confirmation of the licensed indications, dosage forms and authorisation details for the UK product.
+- Confirmation of the licensed indications, dosage forms and authorisation details for the UK products.
+
+<!-- review:begin uk-lic-20261124c-golimumab-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indications, dosage forms and authorisation details for the UK product." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-golimumab-1 -->
 
 They largely overlap with existing uses, so the licence status should be checked before treating them as new indications.
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only authorisation in the data compiled for this report. The record gives no formal dosage form or indication text, so the licen" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indications, dosage forms and authorisation details for the UK product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

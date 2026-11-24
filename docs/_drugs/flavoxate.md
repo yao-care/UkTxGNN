@@ -109,10 +109,16 @@ The prediction rests on a model score alone, with no registered trials or public
 
 **To proceed, the following is needed:**
 - Mechanism of action data for flavoxate, to allow proper mechanistic analysis
-- SmPC-based indication, warning and contraindication data for the UK authorisation
+- SmPC-based indication, warning and contraindication data for the UK products
 - A literature and trial search specific to flavoxate in the predicted conditions
 - If any indication is pursued, irritable bowel syndrome is the more biologically plausible candidate. Neurogenic bladder should first be mapped to current terminology (e.g. neurogenic detrusor overactivity) and treated as an extension of existing use
 - A review of anticholinergic burden and the contraindications listed above before any new population is considered
+
+<!-- review:begin uk-lic-20261124c-flavoxate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "SmPC-based indication, warning and contraindication data for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-flavoxate-1 -->
 
 <!-- review:begin log -->
 
@@ -124,6 +130,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
 | 2026-11-24 | Corrected: "marketed in the UK as a 200 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "SmPC-based indication, warning and contraindication data for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Infectious otitis media, bacterial pneumonia…"
 ---
 
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but there 
 
 | Item | Content |
 |------|------|
-| Original Indication | Infectious otitis media, bacterial pneumonia, streptococcal and staphylococcal infections, maxillary sinusitis (relations recorded in the knowledge graph; the UK licence record contains no indication text) |
+| Original Indication | Infectious otitis media, bacterial pneumonia, streptococcal and staphylococcal infections, maxillary sinusitis (relations recorded in the knowledge graph; the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9935 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (26 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 26 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-clarithromycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Infectious otitis media, bacterial pneumonia, streptococcal and staphylococcal infections, maxillary sinusitis (relations recorded in the knowledge graph; the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-clarithromycin-1 -->
 
 ---
 
@@ -154,7 +160,13 @@ The prediction rests on a single case report in which hyperamylasemia was a coex
 - Mechanism of action data for clarithromycin and a testable hypothesis linking it to hyperamylasemia
 - Clinical or observational studies that directly examine hyperamylasemia as a treatment target
 - Label-based warnings and contraindications from the SmPC, to replace the graph-derived safety relations
-- Full licence details (dosage form and approved indications) for the UK authorisation
+- Full licence details (dosage form and approved indications) for the UK products
+
+<!-- review:begin uk-lic-20261124c-clarithromycin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Full licence details (dosage form and approved indications) for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-clarithromycin-2 -->
 
 <!-- review:begin log -->
 
@@ -166,6 +178,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report list one single-ingredient authorisation, with a status of valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Infectious otitis media, bacterial pneumonia, streptococcal and staphylococcal infections, maxillary sinusitis (relations recorded in the knowledge graph; the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Full licence details (dosage form and approved indications) for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

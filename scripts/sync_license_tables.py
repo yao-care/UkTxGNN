@@ -10,6 +10,7 @@ UK 站的本地資料是 NHS 處方用的 BNF presentation code，不是 MHRA �
   在狀態列下面補一列，值＝清單筆數（與 check_drug_page.count_text 相同）。
 - 段落裡沒有表的頁（舊頁只有文字、或矛盾句刪完只剩標題）：在標題下補程式產生的表與來源句（沒有紀錄時補「Not listed …」句，已有就不重複；2026-11-06 第三輪）；
   表以外的文字不動（跟新事實矛盾的句子由 tools/txgnn/.claude/delete_license_sentences.py 處理）。
+- 整頁沒有市場段落、證據包有紀錄的公開頁：在 Safety Considerations／Conclusion and Next Steps／Disclaimer 之前補段落與程式表（add_section，2026-11-24 第三輪）。
 程式區塊標記（2026-11-12 起）：程式產生的表連同來源句（或 NONE_LINE）前後各有「<!-- licenses:begin -->」「<!-- licenses:end -->」；
 --mark-existing 只替現有程式區塊補標記、不改內容；carry_block 給 sync_notes_to_docs.py 重寫頁面時移植程式區塊。
 用法（repo 根目錄）：python3 scripts/sync_license_tables.py [--dry-run] [--mark-existing] [頁 ...]
@@ -32,8 +33,9 @@ MAX_ROWS = 20
 # 讓查核紀錄、刪句工具與 gate 分得出哪些字是程式寫的；gate 依 snapshots/uk_licenses.json.gz 檢查程式區塊＝快照重算的結果。
 BEGIN = "<!-- licenses:begin -->"
 END = "<!-- licenses:end -->"
-# 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份；2026-11-24）
-PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE, PART_NOTE)) +
+# 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份；2026-11-24；
+# 第三輪起含 add_section 補的市場段落標題）
+PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in (SEC, BEGIN, END, SOURCE, NONE_LINE, PART_NOTE)) +
              r"|Showing \d+ of \d+ BNF presentation codes\. " + re.escape(SOURCE) + r")$")
 
 
@@ -90,7 +92,8 @@ def strip_marks(lines):
 def process(text, recs, partial=False):
     lines = ensure_count_row(strip_marks(text.split("\n")), recs, partial)
     if SEC not in lines:
-        return None
+        t2 = add_section("\n".join(lines), recs)
+        return t2 if t2 and t2 != text else None
     a = lines.index(SEC) + 1
     b = next((k for k in range(a, len(lines)) if lines[k].startswith("## ")), len(lines))
     tb = [k for k in range(a, b) if lines[k].startswith("|")]
@@ -113,6 +116,26 @@ def process(text, recs, partial=False):
         out.insert(x, "")
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(out))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## UK Market Information」段落、但證據包有 BNF 代碼紀錄的，
+# 補一個段落放程式表。位置：「## Safety Considerations」之前（預測頁的固定順序）；沒有就「## Conclusion and Next Steps」之前；
+# 再沒有（已知用途頁）就「## Disclaimer」之前。noindex 頁與證據包沒有紀錄的頁不補。
+ADD_BEFORE = ("Safety Considerations", "Conclusion and Next Steps", "Disclaimer")
+
+
+def add_section(text, recs):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    rows = table_rows(recs)
+    if re.search(r"^noindex:\s*true", fm, re.M) or not rows:
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [SEC, ""] + wrap(program_block(rows)) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def _section(lines):

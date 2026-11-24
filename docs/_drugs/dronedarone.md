@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 242
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dronedarone: predicted new indication Stroke disorder (evidence level L4). Approved use: Atrial fibrillation"
 monitor_inn: "Dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
@@ -134,18 +134,25 @@ The prediction rests on an indirect link through AF management. No stroke-specif
 **To proceed, the following is needed:**
 - A prospective, stroke-focused study or a pre-specified analysis in a well-defined AF population excluding heart failure and permanent AF
 - Mechanism of action data to assess any direct neuroprotective or antithrombotic effect
-- UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK authorisation
+- UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK products
 - A review of interaction risk with anticoagulants used for stroke prevention
+
+<!-- review:begin uk-lic-20261124c-dronedarone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-dronedarone-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
+| 2026-11-24 | Corrected: "UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Eltrombopag"
 predicted_indications: ["HIV infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). In the UK: 6 NHSBSA BNF presentation codes"
 ---
 
@@ -79,6 +79,23 @@ The high score of 0.9926 is a computational output. It probably reflects the kno
 | [32977702](https://pubmed.ncbi.nlm.nih.gov/32977702/) | 2020 | In vitro drug screen | Viruses | Screen of FDA-approved drugs for modulators of HIV-1 proviral transcription |
 | [28043314](https://pubmed.ncbi.nlm.nih.gov/28043314/) | 2016 | Case report | J Coll Physicians Surg Pak | Hepatitis B leading to megaloblastic anaemia and severe thrombocytopenia (indirect) |
 | [24128106](https://pubmed.ncbi.nlm.nih.gov/24128106/) | 2013 | Case report | Farm Hosp | Eltrombopag for thrombocytopenia in chronic hepatitis C, two cases (indirect) |
+
+## UK Market Information
+
+<!-- licenses:begin -->
+
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0901040C0AAAAAA | Eltrombopag 25mg tablets | Eltrombopag |
+| 0901040C0AAABAB | Eltrombopag 50mg tablets | Eltrombopag |
+| 0901040C0AAACAC | Eltrombopag 75mg tablets | Eltrombopag |
+| 0901040C0BBAAAA | Revolade 25mg tablets | Eltrombopag |
+| 0901040C0BBABAB | Revolade 50mg tablets | Eltrombopag |
+| 0901040C0BBACAC | Revolade 75mg tablets | Eltrombopag |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

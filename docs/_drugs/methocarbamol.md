@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methocarbamol: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not recorded in the data compiled for this report (general class use:…"
 monitor_inn: "Methocarbamol"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -128,10 +128,16 @@ The prediction rests on a model score alone, with no clinical trials or supporti
 
 **To proceed, the following is needed:**
 - Mechanism of action data for methocarbamol
-- The licensed indication and product information (SmPC) for the UK authorisation
+- The licensed indication and product information (SmPC) for the UK products
 - Any clinical or observational evidence in cauda equina syndrome, or a clearly defined symptomatic role (such as adjunctive spasm or pain relief)
 - A review of safety data, including the CNS depressant interactions and the knowledge-graph contraindications
 - Consideration of other predicted indications, none of which currently has supporting evidence either
+
+<!-- review:begin uk-lic-20261124c-methocarbamol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licensed indication and product information (SmPC) for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-methocarbamol-1 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +149,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The registry lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522) |
+| 2026-11-24 | Corrected: "The licensed indication and product information (SmPC) for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

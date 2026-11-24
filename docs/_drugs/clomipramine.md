@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 182
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clomipramine: predicted new indication Anxiety disorder (evidence level L1). Approved use: Obsessive-compulsive disorder"
 monitor_inn: "Clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -139,9 +139,15 @@ Clomipramine has a clear serotonergic rationale and a long record of controlled 
 
 **To proceed, the following is needed:**
 - Mechanism of action data to confirm the mechanistic link
-- Licence details (PL number and approved indication text) and SmPC warnings and contraindications for the UK product
+- Licence details (PL number and approved indication text) and SmPC warnings and contraindications for the UK products
 - Modern, adequately powered randomised trials of clomipramine in a defined anxiety disorder (such as panic disorder), compared with first-line SSRIs
 - A safety monitoring plan covering ECG and cardiac risk, seizure risk, interaction screening and suicidality, especially in younger and older patients
+
+<!-- review:begin uk-lic-20261124c-clomipramine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence details (PL number and approved indication text) and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-clomipramine-1 -->
 
 Other predicted indications for this drug were not pursued here. Major depressive disorder and endogenous depression have strong class-level evidence, but anxiety disorder was the top-ranked prediction. The remaining predictions (benign paroxysmal torticollis of infancy and several personality disorders) rest on model prediction alone, and agoraphobia and ADHD are at research-question stage.
 
@@ -149,11 +155,12 @@ Other predicted indications for this drug were not pursued here. Major depressiv
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+| 2026-11-24 | Corrected: "Licence details (PL number and approved indication text) and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

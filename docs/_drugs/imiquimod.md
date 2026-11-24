@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imiquimod: predicted new indication Pre-malignant neoplasm (evidence level L5). Approved use: Common wart, anogenital human papillomavirus infection…"
 monitor_inn: "Imiquimod"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **pre-malignant neoplasm**, wit
 
 | Item | Content |
 |------|------|
-| Original Indication | Common wart, anogenital human papillomavirus infection, superficial multifocal basal cell carcinoma, actinic keratosis (approved indication text is not available in the UK licence record) |
+| Original Indication | Common wart, anogenital human papillomavirus infection, superficial multifocal basal cell carcinoma, actinic keratosis (approved indication text is not available in the UK BNF presentation code records) |
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 (see note below) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124c-imiquimod-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Common wart, anogenital human papillomavirus infection, superficial multifocal basal cell carcinoma, actinic keratosis (approved indication text is not available in the UK licence record)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-imiquimod-1 -->
 
 *Note on evidence level:* The compiled data assigns L1, but by the stated criteria this is not supported. The only completed Phase 3 trial is a 20-patient single-arm study, and the second Phase 3 trial was terminated after 9 participants. Neither meets the bar of two completed Phase 3 RCTs. The supporting evidence is a Cochrane systematic review and other reviews, so L3 is the more defensible grade.
 
@@ -142,6 +148,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only authorisation in the data compiled for this report" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Common wart, anogenital human papillomavirus infection, superficial multifocal basal cell carcinoma, actinic keratosis (approved indication text is not available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

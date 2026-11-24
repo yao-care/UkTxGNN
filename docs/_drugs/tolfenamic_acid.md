@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tolfenamic Acid: predicted new indication Headache disorder (evidence level L5). Approved use: Acute migraine"
 monitor_inn: "Tolfenamic acid"
 predicted_indications: ["headache disorder", "tendinitis", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "fibromyalgia", "exostosis", "inclusion body myositis"]
@@ -123,9 +123,15 @@ Several randomised, double-blind studies support tolfenamic acid for acute and p
 
 **To proceed, the following is needed:**
 - Full-text review of the key randomised studies to confirm the findings
-- The licensed indication wording and the SmPC warnings and contraindications for the UK product
+- The licensed indication wording and the SmPC warnings and contraindications for the UK products
 - Mechanism of action data
 - Clarification of which non-migraine headache types (if any) are of interest, since no direct evidence exists for trigeminal autonomic cephalalgias
+
+<!-- review:begin uk-lic-20261124c-tolfenamic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licensed indication wording and the SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tolfenamic_acid-1 -->
 
 ---
 
@@ -133,6 +139,19 @@ Several randomised, double-blind studies support tolfenamic acid for acute and p
 
 - **Rheumatoid arthritis** (score 0.9970): The literature includes randomised double-blind comparisons against phenylbutazone, aspirin and ibuprofen, showing symptomatic benefit rather than disease modification. This is an established NSAID-type use rather than a novel finding (Proceed with Guardrails).
 - **Tendinitis, trigeminal autonomic cephalalgia, myositis fibrosa, idiopathic granulomatous myositis, fibromyalgia, exostosis, inclusion body myositis and osteoarthritis susceptibility**: Model prediction only, with no trials or literature in the data compiled (Hold).
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "The licensed indication wording and the SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

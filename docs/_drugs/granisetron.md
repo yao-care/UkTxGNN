@@ -140,9 +140,15 @@ The prediction rests on a model score alone (L5), with no registered trials or p
 **To proceed, the following is needed:**
 - A systematic literature and trial-registry search for granisetron or other 5-HT3 antagonists in bipolar mania
 - Mechanism of action data and a clearer mechanistic link to mood regulation
-- The approved indication text and SmPC safety information for the UK authorisation
+- The approved indication text and SmPC safety information for the UK products
 - A cardiac safety assessment, including QT risk and interactions with common psychiatric medicines
 - Preclinical or early-phase clinical data before any further evaluation
+
+<!-- review:begin uk-lic-20261124c-granisetron-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The approved indication text and SmPC safety information for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-granisetron-1 -->
 
 <!-- review:begin log -->
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "The compiled data lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sustol (granisetron) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7c7ffdd-8270-4030-bc1e-a1cb28a6de56) |
 | 2026-11-24 | Corrected: "Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The approved indication text and SmPC safety information for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

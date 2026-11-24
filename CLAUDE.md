@@ -574,3 +574,18 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 待查清單 2026-11-24 的 14 項全部標 resolved（附 record_ids）；mechanism of action 76 項維持 open。
 - 正文有變的 56 頁 last_modified_at 改 2026-11-24。checker 前後 0；gate exit 0；寬偵測（同句有劑型字、only／single／both／as a、UK／listed 等字樣）改前 72 句、改後 25 句，剩下都是成立句或這次改寫後的句子。
 - 沒處理：約 300 處單數泛稱（「for the UK product」「the UK licence record has no indication text」，含原適應症格與 description），不是張數或劑型全稱、句數多，待用戶決定；acenocoumarol、eltrombopag、fenbufen 3 個公開頁沒有市場段落（有 BNF 代碼），照程式表規則不新增段落。
+
+## 補市場段落、單數泛稱改寫（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定：
+- B. 整頁沒有「## UK Market Information」、證據包有 BNF 代碼紀錄的公開頁補段落（比照 JpTxGNN 第二輪）：`scripts/sync_license_tables.py` 的 `add_section`（process 找不到段落時呼叫），
+  在「## Safety Considerations」之前（沒有就 Conclusion and Next Steps、再沒有就 Disclaimer 之前）補標題與程式表；noindex 頁與沒有紀錄的頁不補。
+  gate（`src/uktxgnn/regulatory/licenses.py` 第 5 項，check_seo_docs 許可證那一項）擋「公開頁快照有程式表列卻沒有市場段落」；PAGE_NOTE 放行補的標題行（license_adapter 讀同一份）。
+  2026-11-24 補了 acenocoumarol（2 個代碼）、eltrombopag（6）、fenbufen（6，已知用途頁，放在 Disclaimer 前）3 頁；量測時沒有市場段落、有紀錄的另 25 頁都是 noindex，不補。
+- C. 單數泛稱「the UK product／UK licence／UK authorisation（record／data）」（原適應症格、待辦條目、正文、description）：本藥 BNF 代碼不只 1 個、而且是 NHS 處方代碼不是 MHRA 許可，
+  改成複數或 BNF 代碼寫法（「for the UK products」「the UK BNF presentation code records contain」「the UK BNF prescribing code data」「the UK product details／records」），句子其他文字不動，不寫成 licence。
+  只有 1 個代碼的 ganirelix、inositol、sorbitol 維持單數不改。316 筆 `uk-lic-20261124c-<藥>-N`（245 頁：原適應症格 82、待辦條目 207、正文 13、description 14）＋3 筆同 id 重發（amifampridine、everolimus-2、tioconazole：原句在既有紀錄的更正文字裡，前版存 history）。
+  句子是劑型說法而跟證據包不符的照實改：ketamine 待辦拿掉「the UK product is an oral solution」前提（另有注射劑、膠囊）、fusidic_acid「The UK product recorded is an ocular formulation」→「The UK BNF prescribing codes include an ocular formulation」；pramocaine（2 個代碼都是直腸用複方）、tioconazole（2 個都是指甲用）改複數。
+  description 用 correct＋`field: "description"`（`scripts/apply_drug_reviews.py` 新增：只改 description 那一行、不插框、只列在查核紀錄表）；另修 apply：replacement 含原句（product→products）且已套上時不再替換（不然重複執行會疊字）。
+  改寫規則與逐句覆寫在本機產生器（scratchpad UkTxGNN-r3/gen.py、rules.py，未進 repo）。正文有變的 222 頁 last_modified_at 改 2026-11-24（另 29 頁本來就是當天）。
+- 驗證：改後同一支字樣偵測（the/its/this＋UK product／licence／authorisation 單數）只剩中性寫法（product details／records／information／data）與單一代碼 3 頁；另寫的寬偵測（a／one／single／only 等＋單數，排除查核框）另有約 10 句「with a UK marketing authorisation」「a marketed UK product」「A UK licence record with…」（olmesartan、oxitriptan、degarelix、ziprasidone、dabigatran_etexilate、chlorpropamide、pimozide、minoxidil、alprostadil、prednisone），屬許可存在說法、不在這次範圍，待用戶決定。checker 前後 0；gate exit 0。

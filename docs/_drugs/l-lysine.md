@@ -114,11 +114,17 @@ No drug interaction data were found. Please refer to the SmPC and BNF for author
 The prediction is supported only by the model score. There are no clinical trials, and the sole publication is unrelated to L-Lysine as a treatment. No mechanistic link could be identified, and the original indication and mechanism are both missing.
 
 **To proceed, the following is needed:**
-- Original indication and approved indication text for the UK authorisation (including dosage form), verified against MHRA records
+- Original indication and approved indication text for the UK products (including dosage form), verified against MHRA records
 - Mechanism of action data for L-Lysine
 - SmPC warnings and contraindications to complete the safety review
 - Any primary evidence (preclinical or clinical) linking L-Lysine to gastric motility or gastroparesis
 - A review of the kidney, calcium and cardiovascular contraindication signals before any further consideration
+
+<!-- review:begin uk-lic-20261124c-l-lysine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original indication and approved indication text for the UK authorisation (including dosage form), verified against MHRA records" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-l-lysine-1 -->
 
 <!-- review:begin log -->
 
@@ -129,6 +135,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Original indication and approved indication text for the UK authorisation (including dosage form), verified against MHRA records" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

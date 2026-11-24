@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 600
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Telmisartan"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan: predicted new indication Prinzmetal angina (evidence level L5). In the UK: 22 NHSBSA BNF presentation codes"
@@ -141,9 +141,15 @@ The prediction score from the TxGNN model (deep learning) is very high, but it m
 
 **To proceed, the following is needed:**
 - A systematic literature search for ARBs (including telmisartan) in vasospastic or coronary spasm disorders, together with preclinical or mechanistic work on coronary vasospasm.
-- Detailed mechanism of action data and SmPC warnings and contraindications for the UK product.
+- Detailed mechanism of action data and SmPC warnings and contraindications for the UK products.
 - Confirmation of the licence details (PL number, formulation and indication text) from the MHRA record.
 - A safety assessment for hypotension and for patients with coronary disease.
+
+<!-- review:begin uk-lic-20261124c-telmisartan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Detailed mechanism of action data and SmPC warnings and contraindications for the UK product." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-telmisartan-1 -->
 
 **Note on other predictions:** Other predictions for telmisartan in the same data are better supported. The most advanced is **intracerebral hemorrhage** (L1, with the Phase 3 TRIDENT trial of a telmisartan-containing triple low-dose pill). It is confounded by the combination design and is a close extension of the existing hypertension and stroke indications. **Cerebral artery occlusion** (L3) has mainly animal data and overlaps with the stroke indications already approved. If a more evidence-based direction is wanted, a separate evaluation of these indications is recommended.
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only valid single-ingredient authorisation recorded. The record does not give the manufacturer, a PL number or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
+| 2026-11-24 | Corrected: "Detailed mechanism of action data and SmPC warnings and contraindications for the UK product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

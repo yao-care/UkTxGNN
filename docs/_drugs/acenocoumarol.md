@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acenocoumarol: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -65,6 +65,19 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 Currently no related literature available.
+
+## UK Market Information
+
+<!-- licenses:begin -->
+
+| BNF presentation code | BNF presentation | BNF chemical substance |
+|------|------|------|
+| 0208020H0AAAAAA | Acenocoumarol 1mg tablets | Acenocoumarol |
+| 0208020H0BBAAAA | Sinthrome 1mg tablets | Acenocoumarol |
+
+Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA licences, and MHRA licence status is not included in this data.
+
+<!-- licenses:end -->
 
 ## Safety Considerations
 

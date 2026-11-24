@@ -22,6 +22,7 @@
   header_level  頁首等級重算的留存紀錄（original_level／new_level／original_parent／new_parent）：只列在查核紀錄表。
             頁首規則見 src/uktxgnn/regulatory/page_format.py 與 site.py 的 HEADER_RULE。
   description_level  front matter description 的等級跟著頁首：只列在查核紀錄表（page_format.sync_description_level）。
+  correct＋field: "description"（2026-11-24 第三輪）：只在 front matter description 那一行把 claim 換成 replacement，不插查核框、只列在查核紀錄表。
 status：superseded（錨點落在程式產生的區塊上）、resolved_by_regeneration（報告重生後已無此錯誤）、resolved_by_program
 （程式改版後已無此錯誤）、withdrawn（查核本身有誤或重複）：紀錄保留、頁面不顯示框，查核紀錄表註明。
 同 id 重發時前版存進 history（retired、reason），不覆蓋丟棄。
@@ -186,10 +187,29 @@ def apply_record(text, rec, problems):
         elif find_outside(text, rec["replacement"]) < 0:
             problems.append(f"{rid}：頁面上找不到「作用機轉資料不可得」原句或附出處的作用機轉（頁面可能被改寫，需人工重查）")
         return text
+    if act == "correct" and rec.get("field") == "description":
+        # 2026-11-24 第三輪：front matter description 的字樣更正（同 description_level：只改 description 那一行、不插查核框，只列在查核紀錄表）
+        m = re.match(r"---\n.*?\n---\n", text, re.S)
+        fm = m.group(0) if m else ""
+        dm = re.search(r"^description:.*$", fm, re.M)
+        if not dm:
+            problems.append(f"{rid}：front matter 沒有 description")
+            return text
+        line = dm.group(0)
+        if rec["claim"] in line:
+            line = line.replace(rec["claim"], rec["replacement"], 1)
+        elif rec["replacement"] not in line:
+            problems.append(f"{rid}：description 裡找不到「{rec['claim'][:50]}…」（頁面可能被改寫，需人工重查）")
+            return text
+        fm2 = fm[:dm.start()] + line + fm[dm.end():]
+        return fm2 + text[len(fm):]
     if act == "correct":
         olds = [rec["claim"]] + [h["replacement"] for h in rec.get("history") or []
                                  if h.get("replacement") and h["replacement"] != rec["replacement"]
                                  and not h.get("reanchored") and h["replacement"] not in rec["replacement"]]
+        # replacement 本身含有原句（例「for the UK product」→「for the UK products」）且已套上：不再替換，免得重複執行一直疊字（2026-11-24 第三輪）
+        if rec["claim"] in rec["replacement"] and find_outside(text, rec["replacement"]) >= 0:
+            olds = []
         for old in olds:
             j = find_outside(text, old)
             if j >= 0:

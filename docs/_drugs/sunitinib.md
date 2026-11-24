@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 589
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sunitinib: predicted new indication Liposarcoma (evidence level L2). Approved use: Nonpapillary renal cell carcinoma, renal cell adenocarcinoma…"
 monitor_inn: "Sunitinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
@@ -48,13 +48,19 @@ The evidence is modest: no Phase 3 data exist, and activity in liposarcoma appea
 
 | Item | Content |
 |------|------|
-| Original Indication | Nonpapillary renal cell carcinoma, renal cell adenocarcinoma, clear cell renal carcinoma, gastrointestinal stromal tumour (the UK authorisation record lists no indication text) |
+| Original Indication | Nonpapillary renal cell carcinoma, renal cell adenocarcinoma, clear cell renal carcinoma, gastrointestinal stromal tumour (the UK BNF presentation code records lists no indication text) |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 0.9987 |
 | Evidence Level | L2 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold (research question; see Conclusion) |
+
+<!-- review:begin uk-lic-20261124c-sunitinib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Nonpapillary renal cell carcinoma, renal cell adenocarcinoma, clear cell renal carcinoma, gastrointestinal stromal tumour (the UK authorisation record lists no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-sunitinib-1 -->
 
 ---
 
@@ -155,7 +161,13 @@ Two completed Phase 2 studies and one published Phase 2 report give some clinica
 - Comparison against established liposarcoma options such as trabectedin and doxorubicin-based regimens
 - Mechanism of action data and UK SmPC safety information (the data compiled for this report are incomplete)
 - Review of cardiac, hepatic and QT-related risks against the contraindications listed above
-- Confirmation of the UK authorisation details, including formulation and approved indications
+- Confirmation of the UK product details, including formulation and approved indications
+
+<!-- review:begin uk-lic-20261124c-sunitinib-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details, including formulation and approved indications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-sunitinib-2 -->
 
 <!-- review:begin log -->
 
@@ -167,6 +179,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation is recorded, and the number shown is in a format different from a standard MHRA PL number" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Nonpapillary renal cell carcinoma, renal cell adenocarcinoma, clear cell renal carcinoma, gastrointestinal stromal tumour (the UK authorisation record lists no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details, including formulation and approved indications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

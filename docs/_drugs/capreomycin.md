@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Capreomycin"
 predicted_indications: ["gout", "rheumatoid arthritis", "osteoarthritis", "sclerosing cholangitis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "meningococcal infection", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Capreomycin: predicted new indication Gout (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -120,7 +120,13 @@ The prediction is supported only by a model score, with no clinical trials or pu
 - Mechanistic or preclinical evidence linking capreomycin to urate-driven inflammation
 - Complete mechanism of action data
 - Full safety information from the SmPC and BNF, including renal and ototoxicity risk in a gout population
-- Confirmation of the UK authorisation details, dosage form and route
+- Confirmation of the UK product details, dosage form and route
+
+<!-- review:begin uk-lic-20261124c-capreomycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details, dosage form and route" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-capreomycin-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report records one valid single-ingredient licence for an injectable capreomycin product (1 g vial). The licence " | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details, dosage form and route" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

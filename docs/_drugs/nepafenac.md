@@ -6,7 +6,7 @@ nav_order: 439
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-11-24
-description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the UK licence data compiled for this report"
+description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the UK BNF prescribing code data compiled for this report"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
 ---
@@ -54,13 +54,19 @@ Note that this is largely confirmation of an existing ocular use (post-cataract-
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the UK licence data compiled for this report |
+| Original Indication | Not available in the UK BNF prescribing code data compiled for this report |
 | Predicted New Indication | Eye disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L1 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Proceed with Guardrails |
+
+<!-- review:begin uk-lic-20261124c-nepafenac-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not available in the UK licence data compiled for this report" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nepafenac-2 -->
 
 ---
 
@@ -170,6 +176,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the source database, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
 | 2026-11-24 | Corrected: "marketed in the UK as a 1 mg/ml eye drop." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved use: Not available in the UK licence data compiled for this report" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not available in the UK licence data compiled for this report &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

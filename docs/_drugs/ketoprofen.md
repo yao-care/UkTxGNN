@@ -147,7 +147,7 @@ The prediction is supported only by a model score, with no trials, no publicatio
 - Ketoprofen-specific clinical or literature evidence for any chosen indication, with priority on spondyloarthropathy and juvenile arthritis
 - Mechanism of action data
 - Label warnings and contraindications from the SmPC and BNF
-- Confirmation of the UK authorisation details (number, dosage form, approved indication)
+- Confirmation of the UK product details (number, dosage form, approved indication)
 - Assessment of route compatibility
 
 <!-- review:begin uk-lic-20261124b-ketoprofen-1 -->
@@ -155,6 +155,12 @@ The prediction is supported only by a model score, with no trials, no publicatio
 > **Review correction (2026-11-24)**: Originally stated: "Assessment of route compatibility, as only a topical gel is recorded in the UK data" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124b-ketoprofen-1 -->
+
+<!-- review:begin uk-lic-20261124c-ketoprofen-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (number, dosage form, approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ketoprofen-1 -->
 
 <!-- review:begin log -->
 
@@ -167,6 +173,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "Only one authorisation is recorded, for a topical gel" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 | 2026-11-24 | Corrected: "- Assessment of route compatibility, as only a topical gel is recorded in the UK data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (number, dosage form, approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

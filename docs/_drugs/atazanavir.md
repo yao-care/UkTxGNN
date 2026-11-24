@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 76
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atazanavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection / AIDS"
 monitor_inn: "Atazanavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **simian immunodeficiency virus
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infection / AIDS (the UK authorisation record holds no indication text) |
+| Original Indication | HIV infection / AIDS (the UK BNF presentation code records hold no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (10 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 10 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-atazanavir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / HIV infection / AIDS (the UK authorisation record holds no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-atazanavir-1 -->
 
 ---
 
@@ -137,7 +143,13 @@ SIV infection is an animal-model disease with no human treatment need, and the o
 - Confirmation of the actual research question (for example, use of SIV models for preclinical work rather than clinical repurposing)
 - Detailed mechanism of action data
 - Label warnings and contraindications from the SmPC and BNF
-- Verification of the UK authorisation record, including dosage form and approved indication
+- Verification of the UK product records, including dosage form and approved indication
+
+<!-- review:begin uk-lic-20261124c-atazanavir-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation record, including dosage form and approved indication" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-atazanavir-2 -->
 
 ---
 
@@ -153,6 +165,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one valid single-ingredient authorisation record is held" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; HIV infection / AIDS (the UK authorisation record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the UK authorisation record, including dosage form and approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

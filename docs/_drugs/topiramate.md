@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topiramate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy with generalised tonic-clonic seizures, partial epilepsy…"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -48,13 +48,19 @@ The data compiled for this report suggest the prediction is likely a TxGNN model
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record holds no indication text) |
+| Original Indication | Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (the UK BNF presentation code records hold no indication text) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 0.9970 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (40 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 40 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-topiramate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record holds no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-topiramate-1 -->
 
 ---
 
@@ -141,9 +147,15 @@ The prediction for trigeminal nerve neoplasm rests on a model score alone (L5), 
 **To proceed, the following is needed:**
 - A mechanistic rationale linking topiramate to the predicted tumour indication, or a shift of focus to the reflex epilepsy predictions, where plausibility is higher
 - Targeted literature review and, if warranted, preclinical or early clinical studies for the chosen indication
-- Mechanism of action data and SmPC warnings and contraindications for the UK product
+- Mechanism of action data and SmPC warnings and contraindications for the UK products
 - Verified MHRA authorisation details (PL number, dosage form, approved indications)
 - A safety plan covering renal, hepatic, acid-base and cognitive risks, and the interactions listed above
+
+<!-- review:begin uk-lic-20261124c-topiramate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-topiramate-2 -->
 
 <!-- review:begin log -->
 
@@ -155,6 +167,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The compiled record holds one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Epilepsy with generalised tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Mechanism of action data and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

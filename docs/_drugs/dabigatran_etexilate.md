@@ -5,8 +5,8 @@ parent: Model Prediction Only (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
-description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the UK licence data compiled for this report (the pro…"
+last_modified_at: 2026-11-24
+description: "Dabigatran Etexilate: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not recorded in the UK BNF prescribing code data compiled for this report (the pro…"
 monitor_inn: "Dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
 ---
@@ -48,13 +48,19 @@ but the data compiled for this report contain **no relevant clinical trials** an
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the UK licence data compiled for this report (the product is a direct thrombin inhibitor anticoagulant) |
+| Original Indication | Not recorded in the UK BNF prescribing code data compiled for this report (the product is a direct thrombin inhibitor anticoagulant) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 0.9982 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (18 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 18 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-dabigatran_etexilate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Not recorded in the UK licence data compiled for this report (the product is a direct thrombin inhibitor anticoagulant)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-dabigatran_etexilate-2 -->
 
 ---
 
@@ -140,9 +146,15 @@ The prediction rests on a model score alone (evidence level L5). There are no re
 **To proceed, the following is needed:**
 - Preclinical evidence (for example, thrombin/PAR-1 inhibition in cholestatic liver fibrosis models)
 - Retrieval of the SmPC and BNF safety information, including contraindications and interactions
-- Confirmation of the licensed indications and dosage form for the UK product
+- Confirmation of the licensed indications and dosage form for the UK products
 - A review of safety in hepatobiliary disease, given bleeding risk and the knowledge-graph contraindication signals
 - A detailed mechanism of action summary to support the mechanistic-link analysis
+
+<!-- review:begin uk-lic-20261124c-dabigatran_etexilate-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indications and dosage form for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-dabigatran_etexilate-3 -->
 
 <!-- review:begin log -->
 
@@ -154,6 +166,9 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence record is a single, valid, single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+| 2026-11-24 | Corrected: "Approved use: Not recorded in the UK licence data compiled for this report (the pro" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Not recorded in the UK licence data compiled for this report (the product is a direct thrombin inhibitor anticoagulant) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indications and dosage form for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

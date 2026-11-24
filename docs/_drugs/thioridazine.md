@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Thioridazine"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "major affective disorder", "bipolar disorder", "obsessive-compulsive disorder", "attention deficit-hyperactivity disorder", "schizoid personality disorder", "paranoid personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Thioridazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not available"
 ---
 
@@ -177,10 +177,16 @@ The prediction score is high and D2 blockade gives a plausible class-level ratio
 
 **To proceed, the following is needed:**
 - Mechanism of action data for thioridazine
-- Licence and SmPC text (indications, warnings, contraindications) for the UK product
+- Licence and SmPC text (indications, warnings, contraindications) for the UK products
 - Controlled clinical evidence in mania, compared against established treatments
 - A cardiac safety and ECG monitoring plan, and a review of co-prescribing with lithium
 - Confirmation of whether better-supported alternatives already cover this use
+
+<!-- review:begin uk-lic-20261124c-thioridazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence and SmPC text (indications, warnings, contraindications) for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-thioridazine-1 -->
 
 <!-- review:begin log -->
 
@@ -193,6 +199,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "This is the only licence record (a single-ingredient product with valid status)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "and the licence record carries no indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: thioridazine hydrochloride prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56b3f4c2-52af-4947-b225-6808ae9f26f5) |
+| 2026-11-24 | Corrected: "Licence and SmPC text (indications, warnings, contraindications) for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

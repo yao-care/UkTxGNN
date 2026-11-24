@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Mianserin: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 monitor_inn: "Mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
@@ -48,13 +48,19 @@ Among the other predictions, **dysthymic disorder, melancholia, neurotic depress
 
 | Item | Content |
 |------|------|
-| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK licence record holds no indication text) |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK BNF presentation code records hold no indication text) |
 | Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 0.9949 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-mianserin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK licence record holds no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mianserin-1 -->
 
 ---
 
@@ -139,10 +145,30 @@ The top-ranked prediction, benign paroxysmal torticollis of infancy, is supporte
 
 **To proceed, the following is needed:**
 - Mechanism of action data for mianserin
-- Current UK warnings and contraindications from the SmPC and BNF, plus approved indication text for the UK authorisation
+- Current UK warnings and contraindications from the SmPC and BNF, plus approved indication text for the UK products
 - For dysthymic disorder, any mianserin-specific trial or analysis (current evidence is class-level only)
 - For benign paroxysmal torticollis of infancy, preclinical or mechanistic justification before any clinical consideration, including paediatric safety evaluation
 - Review of the remaining predictions (agoraphobia, Ohdo syndrome) only if new supporting evidence emerges
+
+<!-- review:begin uk-lic-20261124c-mianserin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Current UK warnings and contraindications from the SmPC and BNF, plus approved indication text for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mianserin-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (the UK licence record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Current UK warnings and contraindications from the SmPC and BNF, plus approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

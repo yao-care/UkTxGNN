@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 618
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tinidazole: predicted new indication Postmenopausal atrophic vaginitis (evidence level L5). Approved use: Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis…"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "blunt duct adenosis of breast", "apocrine adenosis of breast", "congenital human immunodeficiency virus", "AIDS related complex", "benign mammary dysplasia"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **postmenopausal atrophic vagin
 
 | Item | Content |
 |------|------|
-| Original Indication | Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK licence record contains no indication text) |
+| Original Indication | Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Postmenopausal atrophic vaginitis |
 | TxGNN Prediction Score | 0.9993 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-tinidazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tinidazole-1 -->
 
 ---
 
@@ -123,9 +129,15 @@ The prediction rests on model output alone (L5). There are no trials or publicat
 **To proceed, the following is needed:**
 - A plausible mechanistic hypothesis, for example whether a secondary infection or dysbiosis is involved in atrophic vaginitis
 - Clinical or preclinical evidence in postmenopausal atrophic vaginitis, with comparison against established treatments such as vaginal oestrogen
-- Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK authorisation
+- Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK products
 - A review of the neuropathy, neutropenia and epilepsy signals and of the alcohol interaction
 - Route compatibility assessment (currently pending)
+
+<!-- review:begin uk-lic-20261124c-tinidazole-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tinidazole-2 -->
 
 <!-- review:begin log -->
 
@@ -137,6 +149,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record lists one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Giardiasis, bacterial vaginosis, vaginitis, vulvitis, vulvovaginitis, amoebiasis (Entamoeba histolytica) and trichomoniasis (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Mechanism of action data and full SmPC and BNF safety information, including the missing indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

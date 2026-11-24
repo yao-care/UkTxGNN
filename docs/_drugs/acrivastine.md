@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Acrivastine"
 predicted_indications: ["recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acrivastine: predicted new indication Recalcitrant atopic dermatitis (evidence level L5). Approved use: Allergic rhinitis"
 ---
 
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be useful for **recalcitrant atopic dermatitis**
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (relation recorded in the knowledge graph; the UK licence record contains no indication text) |
+| Original Indication | Allergic rhinitis (relation recorded in the knowledge graph; the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Recalcitrant atopic dermatitis |
 | TxGNN Prediction Score | 0.9966 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-acrivastine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Allergic rhinitis (relation recorded in the knowledge graph; the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acrivastine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -112,8 +118,14 @@ The prediction score is high, but there are no trials or publications studying a
 - Clinical or observational evidence of acrivastine in atopic dermatitis, for example a pilot trial of itch outcomes
 - Mechanism of action data to support the mechanistic link
 - SmPC-based warnings and contraindications, to verify the knowledge-graph contraindications
-- Confirmation of the licensed indication and dosage form for the UK authorisation
+- Confirmation of the licensed indication and dosage form for the UK products
 - Assessment of how acrivastine would add to current standard atopic dermatitis treatment (emollients, topical corticosteroids, and systemic or biological options)
+
+<!-- review:begin uk-lic-20261124c-acrivastine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acrivastine-2 -->
 
 <!-- review:begin log -->
 
@@ -125,6 +137,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded and it is currently valid. The record gives no manufacturer, dosage-form field or indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1224 (acrivastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1224) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Allergic rhinitis (relation recorded in the knowledge graph; the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

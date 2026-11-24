@@ -133,10 +133,16 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 - The other nine predictions (for example biotin metabolic disease, iron deficiency anaemia, acute urate nephropathy and several hepatic or portal conditions) have no plausible supporting mechanism. Some conflict with niacin pharmacology, since niacin can raise uric acid and carries hepatotoxicity concerns. These are likely TxGNN model (deep learning) artefacts and are not recommended for further work.
 
 **To proceed, the following is needed:**
-- The SmPC and BNF warnings and contraindications for the UK product, confirming its licensed indication
+- The SmPC and BNF warnings and contraindications for the UK products, confirming its licensed indication
 - Mechanism of action data (for example from DrugBank)
 - A literature search for inositol nicotinate or niacin in nutritional deficiency states
 - Clarification of whether a vitamin-deficiency use adds anything beyond existing niacin or multivitamin supplementation
+
+<!-- review:begin uk-lic-20261124c-inositol_nicotinate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The SmPC and BNF warnings and contraindications for the UK product, confirming its licensed indication" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-inositol_nicotinate-1 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only record, and it is a single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The SmPC and BNF warnings and contraindications for the UK product, confirming its licensed indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

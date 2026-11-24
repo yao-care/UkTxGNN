@@ -141,12 +141,18 @@ Please refer to the SmPC and BNF for safety information. Report suspected advers
 Every prediction is at L4 or L5. For the top-ranked prediction (disease of retroperitoneum) there is no mechanistic or clinical support. The urethral disease signal is plausible but rests on historical, indirect or case-level data on an antibacterial use that is already known. It is a research question rather than a repurposing opportunity.
 
 **To proceed, the following is needed:**
-- The original approved indications and the SmPC text for the UK authorisation, including the PL number, dosage form and manufacturer
+- The original approved indications and the SmPC text for the UK products, including the PL number, dosage form and manufacturer
 - Mechanism of action data, for example from DrugBank
 - Safety data (warnings, contraindications and interactions), which are currently missing and block safety screening
 - For urethral disease, a review of current UK and European guidance on *M. genitalium* and other urethritis. This should establish where pristinamycin sits against existing options, and consider the reported resistance and treatment failures
 - Registered, prospective clinical data (ideally comparative) if a formal repurposing case is to be made
 - Consideration of whether the remaining predictions merit any further work, given that they currently have no supporting evidence
+
+<!-- review:begin uk-lic-20261124c-pristinamycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The original approved indications and the SmPC text for the UK authorisation, including the PL number, dosage form and manufacturer" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pristinamycin-1 -->
 
 <!-- review:begin log -->
 
@@ -158,6 +164,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded, with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The original approved indications and the SmPC text for the UK authorisation, including the PL number, dosage form and manufacturer" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

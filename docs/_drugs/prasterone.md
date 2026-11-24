@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
 description: "Prasterone: predicted new indication Heparin cofactor 2 deficiency (evidence level L5). In the UK: 12 NHSBSA BNF presentation codes"
@@ -116,10 +116,16 @@ The predictions rest solely on model scores, with no trials or publications and 
 
 **To proceed, the following is needed:**
 - Mechanism of action data for prasterone
-- Product label information (warnings, contraindications, approved indication, dosage form) for the UK authorisation
+- Product label information (warnings, contraindications, approved indication, dosage form) for the UK products
 - A dedicated literature and trial search, with scleroderma prioritised as the most coherent candidate
 - A safety review of haemostatic effects before any thrombophilia-related indication is considered
 - Assessment of route and formulation compatibility with the predicted indications
+
+<!-- review:begin uk-lic-20261124c-prasterone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Product label information (warnings, contraindications, approved indication, dosage form) for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-prasterone-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The compiled data show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
+| 2026-11-24 | Corrected: "Product label information (warnings, contraindications, approved indication, dosage form) for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

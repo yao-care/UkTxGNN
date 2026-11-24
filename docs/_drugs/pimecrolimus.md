@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 497
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Pimecrolimus"
 predicted_indications: ["seborrheic dermatitis", "exanthem (disease)", "acrodermatitis chronica atrophicans"]
 description: "Pimecrolimus: predicted new indication Seborrheic dermatitis (evidence level L2). In the UK: 2 NHSBSA BNF presentation codes"
@@ -122,13 +122,32 @@ One completed Phase 2 randomised, double-blind trial and two systematic reviews 
 - Review of the current UK SmPC (warnings, contraindications, and approved indication text), which is missing from the data compiled for this report
 - Formal mechanism of action data and graded interaction data
 - A plan to address long-term safety (malignancy surveillance, infant use) and to exclude fungal and viral skin infections before treatment
-- Verification of the UK authorisation record and NICE/BNF positioning
+- Verification of the UK product records and NICE/BNF positioning
+
+<!-- review:begin uk-lic-20261124c-pimecrolimus-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation record and NICE/BNF positioning" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pimecrolimus-1 -->
 
 ## Other Predicted Indications (Brief Note)
 
 - Evidence is strong (multiple Phase 3/4 trials, a 5-year randomised safety trial, network meta-analyses and guidelines), but varies by subtype (e.g. perioral dermatitis).
 - **Exanthem (score 0.9932, L2, Research Question):** A non-specific label. The trials cover oral and genital lichen planus or lichen sclerosus, and EGFR-inhibitor rash, all small pilots. No single conclusion can be drawn.
 - **Acrodermatitis chronica atrophicans (score 0.9901, L5, Hold):** Prediction score only, with no trials or literature. This is a late manifestation of Lyme disease, treated with antibiotics, and an immunosuppressant has no clear rationale and could be counterproductive.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Verification of the UK authorisation record and NICE/BNF positioning" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

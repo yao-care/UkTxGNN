@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 349
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine: predicted new indication Headache disorder (evidence level L1). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Ketamine"
 predicted_indications: ["headache disorder"]
@@ -156,11 +156,23 @@ Several randomised and comparator trials in acute and chronic headache, a plausi
 
 **To proceed, the following is needed:**
 - Published results of THINK (NCT03081416) and KetHead (NCT05306899), including effect sizes and adverse events
-- The authorised indication, dosage form and a verified MHRA licence record for the UK product
+- The authorised indication, dosage form and a verified MHRA licence record for the UK products
 - Official warnings and contraindications from the SmPC and BNF, and a review of the knowledge-graph contraindications (especially cardiovascular, raised intracranial pressure and substance dependence) when screening patients
 - Confirmed mechanism of action data from DrugBank
-- Assessment of route compatibility: the UK product is an oral solution, whereas the trials mainly used intranasal and intravenous routes
+- Assessment of route compatibility: the trials mainly used intranasal and intravenous routes
 - A safety monitoring and controlled-substance governance plan for any off-label use in headache
+
+<!-- review:begin uk-lic-20261124c-ketamine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The authorised indication, dosage form and a verified MHRA licence record for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ketamine-1 -->
+
+<!-- review:begin uk-lic-20261124c-ketamine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Assessment of route compatibility: the UK product is an oral solution, whereas the trials mainly used intranasal and intravenous routes" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ketamine-2 -->
 
 <!-- review:begin log -->
 
@@ -174,6 +186,8 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "with one oral solution authorisation recorded on the UK market" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-06 | Removed: "UK licence record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data for ketamine were not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
+| 2026-11-24 | Corrected: "The authorised indication, dosage form and a verified MHRA licence record for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Assessment of route compatibility: the UK product is an oral solution, whereas the trials mainly used intranasal and intravenous routes" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

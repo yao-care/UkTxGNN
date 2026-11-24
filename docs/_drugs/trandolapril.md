@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Trandolapril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: predicted new indication Malignant hypertensive renal disease (evidence level L5). In the UK: 14 NHSBSA BNF presentation codes"
@@ -164,7 +164,13 @@ There is also a recognised renal safety concern in this setting.
 - Label-based warnings and contraindications from the SmPC and BNF, as the available safety data is knowledge-graph derived only
 - Clinical or observational data on trandolapril in renovascular or malignant hypertension
 - A renal safety and monitoring plan covering renal function and potassium, especially for renal artery stenosis
-- Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)
+- Confirmation of the UK product details (PL number, dosage form, licensed indications)
+
+<!-- review:begin uk-lic-20261124c-trandolapril-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-trandolapril-1 -->
 
 <!-- review:begin log -->
 
@@ -176,6 +182,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trandolapril prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8143a6cf-dadc-4ef7-a8db-d16d7150ad34) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

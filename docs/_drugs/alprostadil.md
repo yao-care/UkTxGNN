@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprostadil: predicted new indication Aortic malformation (evidence level L5). Approved use: Erectile dysfunction"
 monitor_inn: "Alprostadil"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **aortic malformation**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK authorisation record has no indication text) |
+| Original Indication | Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK BNF presentation code records have no indication text) |
 | Predicted New Indication | Aortic malformation |
 | TxGNN Prediction Score | 0.9998 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (37 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 37 |
 | Recommended Decision | Hold (treat as a research question) |
+
+<!-- review:begin uk-lic-20261124c-alprostadil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK authorisation record has no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-alprostadil-1 -->
 
 ---
 
@@ -170,6 +176,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation record was found. It is a BNF classification code rather than a standard MHRA PL number, and the manufacturer and ind" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Erectile dysfunction; congenital heart defects such as tricuspid atresia, aortic coarctation and tetralogy of Fallot (the UK authorisation record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

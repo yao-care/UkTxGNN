@@ -5,7 +5,7 @@ layout: default
 title: Acetarsol
 parent: Known Uses Only (No New Predictions)
 nav_order: 16
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Acetarsol: known uses and market status in the United Kingdom; currently no new candidate indication"
 monitor_inn: "Acetarsol"
 predicted_indications: []
@@ -46,7 +46,13 @@ Evidence Level: **N/A** | Predicted Indications: **0**
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 
-*Note: the approved indication text for the UK product was not available in the data compiled for this report.
+*Note: the approved indication text for the UK products was not available in the data compiled for this report.
+
+<!-- review:begin uk-lic-20261124c-acetarsol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "*Note: the approved indication text for the UK product was not available in the data compiled for this report." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acetarsol-1 -->
 
 ## UK Market Information
 
@@ -74,6 +80,18 @@ Acetarsol is not classed as an antineoplastic drug, so this section does not app
 Please refer to the SmPC and BNF for safety information. Report suspected adverse reactions via the Yellow Card Scheme.
 
 The data compiled for this report did not include label warnings, contraindications or interaction records. As a pentavalent arsenical, acetarsol carries general arsenic-related concerns (neuropathy, hepatotoxicity, renal injury). Chronic arsenic exposure is also associated with diabetes, kidney injury and lung carcinogenicity. These concerns must be addressed before any new use is considered.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "*Note: the approved indication text for the UK product was not available in the data compiled for this report." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
 
 ## Disclaimer
 

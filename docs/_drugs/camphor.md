@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Camphor: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -122,10 +122,16 @@ The TxGNN score is high (0.9985), but the evidence is limited to a single animal
 
 **To proceed, the following is needed:**
 - Mechanism of action data (for example, from DrugBank) to support the TRP-channel hypothesis
-- Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications for the UK product, as these are currently missing
+- Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications for the UK products, as these are currently missing
 - Further preclinical replication of the migraine findings, including a dose-safety assessment
 - A clear route and formulation rationale before any early-phase human study is considered
 - A formal safety review covering seizure risk and potential headache provocation
+
+<!-- review:begin uk-lic-20261124c-camphor-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications for the UK product, as these are currently missing" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-camphor-1 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The single authorisation is recorded as a valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications for the UK product, as these are currently missing" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

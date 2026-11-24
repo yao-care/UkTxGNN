@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 112
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromfenac: predicted new indication Eye disease (broad category) (evidence level L1). Approved use: Not stated in the licence data compiled for this report"
 monitor_inn: "Bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -144,11 +144,17 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 Multiple completed Phase 3 trials support bromfenac in ocular inflammation and pain after cataract surgery, with some support for dry eye and macular oedema. "Eye disease" is too broad to treat as a single indication, so conclusions should be made per sub-indication.
 
 **To proceed, the following is needed:**
-- Approved indication text, dosage form and manufacturer for the UK licence
+- Approved indication text, dosage form and manufacturer for the UK products
 - Detailed mechanism of action data
 - Label warnings and contraindications from the SmPC
 - A defined target sub-indication (for example dry eye or macular oedema) with dedicated efficacy evidence
 - Monitoring for corneal adverse events, especially in patients with ocular surface disease
+
+<!-- review:begin uk-lic-20261124c-bromfenac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text, dosage form and manufacturer for the UK licence" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-bromfenac-1 -->
 
 **Other predictions in the data (not recommended for progression):**
 Optic papillitis has only indirect evidence, and the remaining predictions (including von Hippel anomaly, seborrheic keratosis and lagophthalmos) have no supporting evidence. All are rated Hold.
@@ -157,11 +163,12 @@ Optic papillitis has only indirect evidence, and the remaining predictions (incl
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-20 | "Detailed mechanism of action data were not available in the compiled data, so this description reflects the established pharmacology of the drug class" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
+| 2026-11-24 | Corrected: "Approved indication text, dosage form and manufacturer for the UK licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

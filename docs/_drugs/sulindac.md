@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sulindac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "pseudoachondroplasia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "WHIM syndrome", "hypermobility of coccyx"]
 description: "Sulindac: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
@@ -111,19 +111,26 @@ The prediction rests on a computational score alone. There are no registered tri
 - Mechanism of action data and a documented mechanistic link between sulindac and the GDF5/BMP pathway
 - Preclinical evidence (for example cell or animal models of GDF5-related dysplasia)
 - A literature and trial registry search, including ISRCTN and EU CTR, to confirm that no relevant studies exist
-- Verified SmPC warnings and contraindications and approved indication text for the UK authorisation
+- Verified SmPC warnings and contraindications and approved indication text for the UK products
 - A risk-benefit assessment for the target population, including paediatric use
 - Consideration of other top-ranked predictions, where a clearer clinical rationale exists
+
+<!-- review:begin uk-lic-20261124c-sulindac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verified SmPC warnings and contraindications and approved indication text for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-sulindac-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL15770 (sulindac): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15770) |
+| 2026-11-24 | Corrected: "Verified SmPC warnings and contraindications and approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

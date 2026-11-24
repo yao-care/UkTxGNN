@@ -167,7 +167,7 @@ Heart failure has a plausible metabolic rationale, one completed Phase 2/3 rando
 **To proceed, the following is needed:**
 - Published results of NCT01580553 and the outcome of NCT07201714
 - A confirmatory Phase 3 RCT in a UK-relevant heart failure population, ideally including cardiorenal or haemodialysis patients with carnitine deficiency
-- The licensed indication, dosage form and SmPC safety information (warnings and contraindications) for the UK product, which are not available in the data compiled
+- The licensed indication, dosage form and SmPC safety information (warnings and contraindications) for the UK products, which are not available in the data compiled
 - Mechanism of action data
 - Review of the knowledge-graph contraindication signals (renal and hepatic disease, hypotension, coagulation disorders), and of the warfarin and heart-failure drug interactions
 - Evaluation of a possible oral versus injectable route, since the completed trial used an injection
@@ -177,6 +177,12 @@ Heart failure has a plausible metabolic rationale, one completed Phase 2/3 rando
 > **Review correction (2026-11-24)**: Originally stated: "since the completed trial used an injection and the UK product is an oral capsule" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124b-levocarnitine-2 -->
+
+<!-- review:begin uk-lic-20261124c-levocarnitine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licensed indication, dosage form and SmPC safety information (warnings and contraindications) for the UK product, which are not available in the data compiled" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-levocarnitine-1 -->
 
 <!-- review:begin log -->
 
@@ -189,6 +195,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "and it is marketed in the UK as a single-ingredient capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "since the completed trial used an injection and the UK product is an oral capsule" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The licensed indication, dosage form and SmPC safety information (warnings and contraindications) for the UK product, which are not available in the data compiled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

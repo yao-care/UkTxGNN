@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
 description: "Metformin: predicted new indication Classic stiff person syndrome (evidence level L5). In the UK: 101 NHSBSA BNF presentation codes"
@@ -149,8 +149,14 @@ The prediction comes from the TxGNN model (deep learning) and may reflect simila
 - Label-based warnings and contraindications from the SmPC and BNF, as the safety screen cannot proceed without them
 - A systematic literature and trial search for metformin in stiff person syndrome and related stiff-limb disorders
 - Preclinical or mechanistic evidence for an effect on anti-GAD-mediated autoimmunity
-- Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA licence number
+- Approved indication text and dosage form for the UK products, plus confirmation of the MHRA licence number
 - Route-of-administration compatibility and similarity-to-original-indication assessments, which are still pending
+
+<!-- review:begin uk-lic-20261124c-metformin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA licence number" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-metformin-1 -->
 
 <!-- review:begin log -->
 
@@ -162,6 +168,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record is a single valid, single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA licence number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

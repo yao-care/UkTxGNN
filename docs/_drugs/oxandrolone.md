@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxandrolone: predicted new indication Breast fibrocystic disease (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "Oxandrolone"
 predicted_indications: ["breast fibrocystic disease", "pituitary hormone defiency from vascular origin", "hypogonadotropic hypogonadism-frontoparietal alopecia syndrome", "non-acquired combined pituitary hormone deficiencies without extra-pituitary malformations"]
@@ -127,11 +127,17 @@ The prediction is supported only by a high model score and class-level reasoning
 
 **To proceed, the following is needed:**
 - Label-based warnings and contraindications from the SmPC and BNF, which is a blocking gap for safety screening
-- The approved indication text and PL number for the UK product
+- The approved indication text and PL number for the UK products
 - Mechanism of action data from DrugBank
 - A systematic literature and trial search for oxandrolone in fibrocystic breast disease
 - A benefit-risk assessment against established options for benign breast conditions
 - Route and formulation compatibility assessment for the predicted indication
+
+<!-- review:begin uk-lic-20261124c-oxandrolone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The approved indication text and PL number for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-oxandrolone-1 -->
 
 <!-- review:begin log -->
 
@@ -143,6 +149,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient product is listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1200436 (oxandrolone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200436) |
+| 2026-11-24 | Corrected: "The approved indication text and PL number for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

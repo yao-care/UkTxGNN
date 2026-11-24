@@ -136,11 +136,17 @@ Please also refer to the SmPC and BNF for full safety information, including war
 The TxGNN score is high, but there are no clinical trials in migraine, and the literature is limited to one narrative review, two case reports and a historical review. The evidence is mechanistic and indirect (L4).
 
 **To proceed, the following is needed:**
-- Mechanism of action data and the original approved indication text for the UK licence
+- Mechanism of action data and the original approved indication text for the UK products
 - Structured review of the 2023 observational case series and its methodology
 - A well-designed pilot or randomised study in migraine, or in post-dural puncture headache as a related pain model
 - Review of the full SmPC and BNF safety information, including interactions and the narrow therapeutic index of theophylline-type drugs
 - Consideration of whether a modified-release oral formulation suits acute migraine treatment
+
+<!-- review:begin uk-lic-20261124c-aminophylline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data and the original approved indication text for the UK licence" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-aminophylline-1 -->
 
 <!-- review:begin log -->
 
@@ -152,6 +158,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
 | 2026-11-24 | Corrected: "Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Mechanism of action data and the original approved indication text for the UK licence" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

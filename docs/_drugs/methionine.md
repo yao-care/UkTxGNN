@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Methionine"
 predicted_indications: ["acne (disease)", "severe nonproliferative diabetic retinopathy", "nuclear senile cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "tetanic cataract", "diabetic cataract"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methionine: predicted new indication Acne (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 ---
 
@@ -128,9 +128,15 @@ The prediction rests on the model score alone. No trial or publication tests met
 
 **To proceed, the following is needed:**
 - Mechanism of action data and a plausible biological rationale linking methionine to acne
-- Approved indication and label text from the UK licence record, plus SmPC warnings and contraindications
+- Approved indication and label text from the UK BNF presentation code records, plus SmPC warnings and contraindications
 - Any controlled clinical data on methionine in acne
 - A safety assessment covering the cardiovascular, renal and metabolic conditions listed above
+
+<!-- review:begin uk-lic-20261124c-methionine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication and label text from the UK licence record, plus SmPC warnings and contraindications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-methionine-1 -->
 
 ---
 
@@ -161,6 +167,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence record lists no dosage form or approved indication text, so no approved use can be described from it" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication and label text from the UK licence record, plus SmPC warnings and contraindications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

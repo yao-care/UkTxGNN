@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not recorded in the data compiled for this report"
 monitor_inn: "Daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Daptomycin is an intravenous cyclic lipopeptide antibiotic. The data compiled for this report do not record an approved indication text for the UK authorisation.
+Daptomycin is an intravenous cyclic lipopeptide antibiotic. The data compiled for this report do not record an approved indication text for the UK products.
 The TxGNN model predicts it may be effective for **osteoarthritis** (score 0.9986), but there are **no registered clinical trials**, and the **10 publications** retrieved mostly concern bone and joint *infections* rather than osteoarthritis itself. This is a model prediction with weak supporting evidence.
+
+<!-- review:begin uk-lic-20261124c-daptomycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The data compiled for this report do not record an approved indication text for the UK authorisation." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-daptomycin-1 -->
 
 ---
 
@@ -138,9 +144,15 @@ The osteoarthritis prediction rests on model output alone, with no trials and no
 
 **To proceed, the following is needed:**
 - Mechanistic and preclinical evidence of benefit in osteoarthritis specifically (none currently exists)
-- Confirmation of the approved indication, dosage form and SmPC safety data for the UK product
+- Confirmation of the approved indication, dosage form and SmPC safety data for the UK products
 - Mechanism of action data
 - If pursuing a research question, rheumatoid arthritis is the more plausible direction: first replicate the 2025 collagen-induced arthritis findings and assess whether intravenous antibiotic dosing and muscle toxicity are acceptable for a chronic inflammatory condition
+
+<!-- review:begin uk-lic-20261124c-daptomycin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the approved indication, dosage form and SmPC safety data for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-daptomycin-2 -->
 
 <!-- review:begin log -->
 
@@ -152,6 +164,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded as valid; none are cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
+| 2026-11-24 | Corrected: "The data compiled for this report do not record an approved indication text for the UK authorisation." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the approved indication, dosage form and SmPC safety data for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

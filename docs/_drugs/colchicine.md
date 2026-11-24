@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Colchicine: predicted new indication Plasmodium falciparum malaria (evidence level L5). Approved use: Gout"
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria
 
 | Item | Content |
 |------|------|
-| Original Indication | Gout; familial Mediterranean fever (the UK authorisation data compiled for this report contain no indication text) |
+| Original Indication | Gout; familial Mediterranean fever (the UK BNF prescribing code data compiled for this report contain no indication text) |
 | Predicted New Indication | Plasmodium falciparum malaria |
 | TxGNN Prediction Score | 0.9960 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (4 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 4 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-colchicine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Gout; familial Mediterranean fever (the UK authorisation data compiled for this report contain no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-colchicine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -134,8 +140,14 @@ The malaria prediction rests on a model score and two indirect laboratory papers
 - In vitro testing of colchicine against *P. falciparum* (including chloroquine-resistant strains), with selectivity versus human cell toxicity
 - Detailed mechanism of action data and a comparison of parasite and human tubulin binding
 - Label-derived warnings and contraindications from the SmPC and BNF
-- Confirmation of the licensed indications for the UK authorisation record
+- Confirmation of the licensed indications for the UK BNF presentation code records
 - A review of the chloroquine and other antimalarial interactions if the work progresses
+
+<!-- review:begin uk-lic-20261124c-colchicine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indications for the UK authorisation record" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-colchicine-2 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +159,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation record is available, and it carries no indication text or manufacturer" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Gout; familial Mediterranean fever (the UK authorisation data compiled for this report contain no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indications for the UK authorisation record" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

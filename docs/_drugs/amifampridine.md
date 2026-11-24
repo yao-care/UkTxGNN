@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amifampridine: predicted new indication Glaucoma (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"
 ---
 
@@ -89,7 +89,7 @@ Source: NHSBSA BNF code information (NHS prescribing codes). These are not MHRA 
 
 <!-- licenses:end -->
 
-Confirm the current UK authorisation details against the MHRA register and the BNF.
+Confirm the current UK product details against the MHRA register and the BNF.
 
 <!-- review:begin uk-lic-20261106-amifampridine-1 -->
 

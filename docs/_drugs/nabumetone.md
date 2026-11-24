@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nabumetone"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis"]
 description: "Nabumetone: predicted new indication Acromesomelic dysplasia, Hunter-Thompson type (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes"
@@ -109,9 +109,15 @@ The top-ranked prediction is supported only by a model score, with no clinical t
 
 **To proceed, the following is needed:**
 - Mechanism of action data for nabumetone
-- Label warnings and contraindications from the SmPC and BNF, and the approved indication text and dosage form for the UK authorisation
+- Label warnings and contraindications from the SmPC and BNF, and the approved indication text and dosage form for the UK products
 - For the two L4 candidates (spondyloarthropathy, rheumatoid nodulosis), a search for nabumetone-specific trials and literature, which may justify treating them as research questions
 - For pseudoachondroplasia, consideration of a research question on symptomatic NSAID use for secondary arthropathy pain
+
+<!-- review:begin uk-lic-20261124c-nabumetone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Label warnings and contraindications from the SmPC and BNF, and the approved indication text and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nabumetone-1 -->
 
 <!-- review:begin log -->
 
@@ -123,6 +129,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070) |
+| 2026-11-24 | Corrected: "Label warnings and contraindications from the SmPC and BNF, and the approved indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

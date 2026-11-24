@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 153
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Chenodeoxycholic Acid: predicted new indication homozygous familial hypercholesterolemia (evidence level L5). Approved use: Cholelithiasis, cholecystolithiasis, choledocholithiasis (gallstones)"
 monitor_inn: "Chenodeoxycholic acid"
 predicted_indications: ["homozygous familial hypercholesterolemia", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "obsolete familial combined hyperlipidemia", "obsolete hyperuricemia (disease)"]
@@ -113,9 +113,28 @@ The prediction is supported only by an indirect review of a different disease (C
 **To proceed, the following is needed:**
 - Mechanism of action data for CDCA, and a clear mechanistic rationale for lowering LDL-C in HoFH
 - Preclinical or clinical data on CDCA's effects on LDL-C in HoFH, including the risk of LDL-C elevation
-- Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above, as well as the approved indication text and dosage form for the UK authorisation
+- Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above, as well as the approved indication text and dosage form for the UK products
 - Verification of the MHRA authorisation number
 - A review of the safety implications of the contraindicated liver and biliary conditions and the interaction profile before any new-use study
+
+<!-- review:begin uk-lic-20261124c-chenodeoxycholic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above, as well as the approved indication text and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-chenodeoxycholic_acid-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above, as well as the approved indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

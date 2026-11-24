@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Sertraline"
 predicted_indications: ["histrionic personality disorder (disease)", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sertraline: predicted new indication Histrionic personality disorder (disease) (evidence level L5). In the UK: 24 NHSBSA BNF presentation codes"
 ---
 
@@ -138,8 +138,14 @@ The high TxGNN score is a computational prediction only. There are no trials or 
 - Clinical or observational data directly studying sertraline in histrionic personality disorder
 - Mechanism of action data to support a mechanistic link
 - Label-based warnings and contraindications from the SmPC and BNF
-- Licensed indication and dosage form details for the UK authorisation
+- Licensed indication and dosage form details for the UK products
 - Review of the interaction burden and of the knowledge-graph contraindication signals (for example bipolar disorder and serotonin syndrome) before any use outside current indications
+
+<!-- review:begin uk-lic-20261124c-sertraline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licensed indication and dosage form details for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-sertraline-1 -->
 
 It would be a more evidence-supported candidate to evaluate separately.
 
@@ -153,6 +159,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
+| 2026-11-24 | Corrected: "Licensed indication and dosage form details for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 317
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
 description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). In the UK: 7 NHSBSA BNF presentation codes"
@@ -122,10 +122,16 @@ The prediction rests only on the score from the TxGNN model (deep learning), whi
 
 **To proceed, the following is needed:**
 - Mechanism of action data for glycine in nasal and upper-airway tissue
-- Product label warnings and contraindications for the UK authorisation, including approved indication text and dosage form
+- Product label warnings and contraindications for the UK products, including approved indication text and dosage form
 - Clinical studies (preferably randomised controlled trials) of glycine in nasal cavity disease or acute laryngopharyngitis
 - Clarification of the specific disease scope behind "nasal cavity disease", given how broad the term is
 - A review of the knowledge-graph contraindication signals, particularly renal and cardiovascular conditions, against the SmPC
+
+<!-- review:begin uk-lic-20261124c-glycine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Product label warnings and contraindications for the UK authorisation, including approved indication text and dosage form" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-glycine-1 -->
 
 <!-- review:begin log -->
 
@@ -136,6 +142,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only authorisation identified, and it is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Product label warnings and contraindications for the UK authorisation, including approved indication text and dosage form" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 365
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 description: "Lenalidomide: predicted new indication Myeloid leukemia (evidence level L2). In the UK: 14 NHSBSA BNF presentation codes"
@@ -173,10 +173,16 @@ Multiple completed Phase 2 trials, mostly combination or maintenance studies in 
 
 **To proceed, the following is needed:**
 - Randomised, adequately powered trials in myeloid leukaemia, ideally in combination with azacitidine or as post-remission maintenance
-- Confirmation of MHRA authorisation details and approved indications for the UK product
+- Confirmation of MHRA authorisation details and approved indications for the UK products
 - Label-based warnings and contraindications from the SmPC, and a review of the statin interactions
 - A haematological monitoring plan (myelosuppression) and adherence to pregnancy prevention requirements
 - Detailed mechanism of action data
+
+<!-- review:begin uk-lic-20261124c-lenalidomide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of MHRA authorisation details and approved indications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-lenalidomide-1 -->
 
 ---
 
@@ -196,6 +202,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code rather than a standard MHRA PL number, and no " | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism of action data were not available in the data compiled for this report, so this description is based on the mechanistic rationale assessed for the prediction" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+| 2026-11-24 | Corrected: "Confirmation of MHRA authorisation details and approved indications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

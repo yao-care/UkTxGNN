@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 509
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pramipexole"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
 description: "Pramipexole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L4). In the UK: 44 NHSBSA BNF presentation codes"
@@ -151,7 +151,13 @@ The high model score is not backed by any ADHD-specific trial or publication. Th
 - Controlled clinical data of pramipexole in ADHD, or at least a well-designed pilot study
 - Detailed mechanism of action data to strengthen the mechanistic link
 - A review of label-based warnings and contraindications from the SmPC, plus a safety plan for neuropsychiatric risks
-- Verification of the UK marketing authorisation details, including the licensed indication and dosage form
+- Verification of the UK product details, including the licensed indication and dosage form
+
+<!-- review:begin uk-lic-20261124c-pramipexole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK marketing authorisation details, including the licensed indication and dosage form" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-pramipexole-1 -->
 
 **Note on other predictions:** Among the other predicted indications, **schizophrenia** (rank 9) has markedly stronger support. It has a Phase 3 add-on trial (NCT01320982, status unknown, no results supplied) and a published randomised placebo-controlled add-on trial (PMID 35921506, 200 patients). This is worth assessing separately.
 
@@ -159,11 +165,12 @@ The high model score is not backed by any ADHD-specific trial or publication. Th
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+| 2026-11-24 | Corrected: "Verification of the UK marketing authorisation details, including the licensed indication and dosage form" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

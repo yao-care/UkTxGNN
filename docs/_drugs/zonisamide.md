@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zonisamide: predicted new indication Tourette syndrome (evidence level L5). Approved use: Epilepsy"
 monitor_inn: "Zonisamide"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -143,8 +143,14 @@ The prediction rests on a model score alone (L5), with no registered trials or s
 - Mechanism of action data and a clearer mechanistic rationale for tic suppression
 - A systematic literature search specific to zonisamide in Tourette syndrome and tic disorders, including any case series
 - Review of the SmPC warnings and contraindications, which were not available in the data compiled
-- Confirmation of the UK licence number, dosage form, and approved indication
+- Confirmation of the UK licence numbers, dosage forms, and approved indications
 - Preclinical or small exploratory clinical data before any formal trial is considered
+
+<!-- review:begin uk-lic-20261124c-zonisamide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK licence number, dosage form, and approved indication" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-zonisamide-1 -->
 
 **Other predictions to consider.** Several other predicted indications in the dataset have more supporting evidence, though none has registered trials supporting efficacy.
 - **Absence epilepsy** (L3) has the strongest evidence. It has a clear T-type calcium channel rationale and zonisamide-specific reports (PMIDs 15847848 and 24907183), and these are likely small or retrospective studies.
@@ -155,11 +161,12 @@ The prediction rests on a model score alone (L5), with no registered trials or s
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
+| 2026-11-24 | Corrected: "Confirmation of the UK licence number, dosage form, and approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

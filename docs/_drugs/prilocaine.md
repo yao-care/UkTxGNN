@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
 description: "Prilocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes"
@@ -162,11 +162,23 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 Neuralgia is the best-supported prediction (evidence level L3), but the evidence is small, mostly from 1989 to 1996, often uncontrolled, and confounded because it concerns the lidocaine/prilocaine combination. The only registered trial (NCT00916942) tested procedural pre-treatment, not neuralgia efficacy. The other nine top predictions have no direct supporting evidence or show safety concerns. The marketing authorisation on record is an injection and does not match the topical cream used in the neuralgia literature.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, and the SmPC warnings and contraindications for the UK product (the safety data gap is currently blocking)
-- Verification of the UK authorisation record, including the approved indication, dosage form and route
+- Mechanism of action data, and the SmPC warnings and contraindications for the UK products (the safety data gap is currently blocking)
+- Verification of the UK product records, including the approved indication, dosage form and route
 - Route compatibility assessment: the evidence concerns topical EMLA cream, whereas the listed product is an injection
 - A controlled trial or systematic review of topical lidocaine/prilocaine in postherpetic or other neuralgia, ideally separating the contribution of prilocaine
 - A safety plan covering methaemoglobinaemia risk, use in children, and barrier-compromised skin
+
+<!-- review:begin uk-lic-20261124c-prilocaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Mechanism of action data, and the SmPC warnings and contraindications for the UK product (the safety data gap is currently blocking)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-prilocaine-1 -->
+
+<!-- review:begin uk-lic-20261124c-prilocaine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation record, including the approved indication, dosage form and route" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-prilocaine-2 -->
 
 <!-- review:begin log -->
 
@@ -178,6 +190,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+| 2026-11-24 | Corrected: "Mechanism of action data, and the SmPC warnings and contraindications for the UK product (the safety data gap is currently blocking)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the UK authorisation record, including the approved indication, dosage form and route" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

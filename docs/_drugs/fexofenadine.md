@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
 description: "Fexofenadine: predicted new indication Rosacea conjunctivitis (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes"
@@ -132,9 +132,15 @@ The only support for this indication is a high model score. There are no clinica
 - Curated mechanism of action and target data to test the histamine-pathway hypothesis
 - A literature and trial search specifically on antihistamines in ocular rosacea
 - Label warnings and contraindications from the current SmPC and BNF, which are missing from the data compiled for this report
-- The approved indication text and PL number for the UK authorisation
+- The approved indication text and PL number for the UK products
 - Evaluation of route and formulation (oral versus topical ocular) and of similarity to the original allergic indications
 - Early-phase or pilot data in ocular rosacea patients, ideally comparing against standard care (lid hygiene, topical or oral antibiotics)
+
+<!-- review:begin uk-lic-20261124c-fexofenadine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The approved indication text and PL number for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-fexofenadine-1 -->
 
 <!-- review:begin log -->
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record shows one valid single-ingredient product and no cancelled products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The approved indication text and PL number for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

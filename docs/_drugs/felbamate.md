@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Felbamate: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, partial epilepsy, Lennox-Gastaut syndrome"
 monitor_inn: "Felbamate"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -48,13 +48,19 @@ The second-ranked prediction, **trigeminal neuralgia**, has **4 publications** (
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record contains no indication text) |
+| Original Indication | Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Trigeminal nerve neoplasm (rank 1); trigeminal neuralgia (rank 2) |
 | TxGNN Prediction Score | 0.9962 (trigeminal nerve neoplasm); 0.9918 (trigeminal neuralgia) |
 | Evidence Level | L5 (trigeminal nerve neoplasm); L4 (trigeminal neuralgia) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (7 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 7 |
 | Recommended Decision | Hold (trigeminal nerve neoplasm); trigeminal neuralgia remains a research question |
+
+<!-- review:begin uk-lic-20261124c-felbamate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-felbamate-1 -->
 
 ---
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "It has 1 valid single-ingredient authorisation record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Felbatol (felbamate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f522701-397a-11de-8a39-0800200c9a66) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

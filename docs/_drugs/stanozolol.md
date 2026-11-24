@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Stanozolol"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "fetal erythroblastosis", "Peyronie disease", "renal tubular acidosis", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "complement component C1s deficiency", "focal myositis", "idiopathic eosinophilic myositis"]
 description: "Stanozolol: predicted new indication Serpinopathy with toxic serpin polymerization (evidence level L5). In the UK: 3 NHSBSA BNF presentation codes"
@@ -127,8 +127,14 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **To proceed, the following is needed:**
 - Preclinical or mechanistic data showing that stanozolol does not increase toxic serpin polymer formation, and ideally that it reduces it.
 - Detailed mechanism of action data for stanozolol.
-- A review of the approved indication and the SmPC safety information for the UK product.
+- A review of the approved indication and the SmPC safety information for the UK products.
 - Any clinical or observational evidence in the predicted disease, before reconsidering the decision.
+
+<!-- review:begin uk-lic-20261124c-stanozolol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "A review of the approved indication and the SmPC safety information for the UK product." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-stanozolol-1 -->
 
 <!-- review:begin log -->
 
@@ -140,6 +146,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The local data lists one valid single-ingredient authorisation, and no cancelled authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for stanozolol" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2079587 (stanozolol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2079587) |
+| 2026-11-24 | Corrected: "A review of the approved indication and the SmPC safety information for the UK product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

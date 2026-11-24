@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 456
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Nortriptyline"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type"]
 description: "Nortriptyline: predicted new indication Attention deficit-hyperactivity disorder (evidence level L2). In the UK: 18 NHSBSA BNF presentation codes"
@@ -140,22 +140,29 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 The evidence is graded L2 on the strength of a controlled study of nortriptyline in paediatric ADHD (a small RCT from 2000) and a Cochrane review of tricyclics, backed by a plausible noradrenergic mechanism. However, there are no registered trials. The cardiovascular safety concerns are significant, and the safety data from product labelling are incomplete. The ADHD inattentive-type prediction (L5) should be held pending direct evidence.
 
 **To proceed, the following is needed:**
-- Confirmation of the UK marketing authorisation (PL number, dosage form and approved indications) from the MHRA register
+- Confirmation of the UK product details (PL number, dosage form and approved indications) from the MHRA register
 - SmPC warnings and contraindications, since the product labelling safety data are missing
 - Detailed mechanism of action data
 - Appraisal of the RCT and Cochrane review for sample size, outcomes and risk of bias, and comparison with licensed ADHD treatments (e.g. atomoxetine, guanfacine)
 - A cardiac monitoring plan (ECG, and serum levels where appropriate) and a review of the major interactions before any use in ADHD
 - Confirmation of the target population (children, adolescents or adults), and recognition that use in ADHD would be off-label
 
+<!-- review:begin uk-lic-20261124c-nortriptyline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK marketing authorisation (PL number, dosage form and approved indications) from the MHRA register" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nortriptyline-1 -->
+
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Pamelor (nortriptyline hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e17dc299-f52d-414d-ab6e-e809bd6f8acb) |
+| 2026-11-24 | Corrected: "Confirmation of the UK marketing authorisation (PL number, dosage form and approved indications) from the MHRA register" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

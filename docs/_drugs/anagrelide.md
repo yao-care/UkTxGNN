@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 63
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anagrelide: predicted new indication Reactive thrombocytosis (evidence level L4). Approved use: Thrombocythaemia"
 monitor_inn: "Anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **reactive thrombocytosis**, bu
 
 | Item | Content |
 |------|------|
-| Original Indication | Thrombocythaemia; familial thrombocytosis (the UK authorisation record holds no indication text) |
+| Original Indication | Thrombocythaemia; familial thrombocytosis (the UK BNF presentation code records hold no indication text) |
 | Predicted New Indication | Reactive thrombocytosis |
 | TxGNN Prediction Score | 0.9983 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (2 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 2 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-anagrelide-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Thrombocythaemia; familial thrombocytosis (the UK authorisation record holds no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-anagrelide-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -120,7 +126,13 @@ No clinical trials exist for anagrelide in reactive thrombocytosis, and the lite
 - SmPC and BNF warnings and contraindications, to complete the safety screening
 - Clinical evidence in reactive thrombocytosis, or a defined high-risk subgroup (for example, post-splenectomy with thrombotic risk), showing a benefit over treating the underlying cause
 - A cardiovascular risk assessment given the interaction and contraindication signals
-- Verification of the UK authorisation record, including the licence number, dosage form and approved indication
+- Verification of the UK product records, including the licence number, dosage form and approved indication
+
+<!-- review:begin uk-lic-20261124c-anagrelide-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation record, including the licence number, dosage form and approved indication" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-anagrelide-2 -->
 
 *Note: The second predicted indication, inverse Klippel-Trenaunay syndrome (TxGNN score 0.9959), has no supporting trials or literature and no plausible mechanistic link (evidence level L5, Hold). It is not evaluated further.*
 
@@ -128,11 +140,13 @@ No clinical trials exist for anagrelide in reactive thrombocytosis, and the lite
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Thrombocythaemia; familial thrombocytosis (the UK authorisation record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the UK authorisation record, including the licence number, dosage form and approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

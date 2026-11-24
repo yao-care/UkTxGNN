@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: predicted new indication Hepatic porphyria (evidence level L5). Approved use: Gout"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "early-onset familial noncirrhotic portal hypertension", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
@@ -136,7 +136,13 @@ The high TxGNN score is a model prediction only. There are no clinical trials, a
 - Preclinical studies testing allopurinol directly in acute and non-acute hepatic porphyria models
 - A porphyrinogenicity assessment, using established drug safety databases for porphyria
 - Full SmPC warnings and contraindications, which are currently missing from the data and would be needed before any safety screening
-- Confirmation of the UK authorisation details (licence number format, dosage form and approved indication)
+- Confirmation of the UK product details (licence number format, dosage form and approved indication)
+
+<!-- review:begin uk-lic-20261124c-allopurinol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (licence number format, dosage form and approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-allopurinol-1 -->
 
 <!-- review:begin log -->
 
@@ -148,6 +154,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (licence number format, dosage form and approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

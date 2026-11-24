@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 395
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Serious bacterial infections…"
 monitor_inn: "Meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **bacterial arthritis**, but th
 
 | Item | Content |
 |------|------|
-| Original Indication | Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded on the UK authorisation) |
+| Original Indication | Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded in the UK BNF presentation code records) |
 | Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L4 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (5 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 5 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-meropenem-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded on the UK authorisation)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-meropenem-1 -->
 
 ---
 
@@ -138,9 +144,15 @@ The prediction score is very high and the antibacterial rationale is plausible. 
 
 **To proceed, the following is needed:**
 - Comparative clinical data (prospective studies or trials) of meropenem in culture-confirmed bacterial arthritis, ideally in resistant Gram-negative or melioidosis infection
-- Confirmation of the UK authorisation details (identifier, dosage form and approved indications) from the SmPC and MHRA register
+- Confirmation of the UK product details (identifier, dosage form and approved indications) from the SmPC and MHRA register
 - Label-based warnings and contraindications from the SmPC and BNF, including seizure risk and renal dosing
 - A stewardship plan defining when meropenem is appropriate for joint infection, for example after microbiological confirmation of a resistant organism
+
+<!-- review:begin uk-lic-20261124c-meropenem-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK authorisation details (identifier, dosage form and approved indications) from the SmPC and MHRA register" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-meropenem-2 -->
 
 <!-- review:begin log -->
 
@@ -152,6 +164,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is the only authorisation listed" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism of action data are not otherwise available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Serious bacterial infections, including *Pseudomonas aeruginosa* infection, meningococcal infection, peritonitis and bacterial meningitis (from the knowledge graph; no indication text is recorded on the UK authorisation) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK authorisation details (identifier, dosage form and approved indications) from the SmPC and MHRA register" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

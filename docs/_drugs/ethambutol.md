@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 description: "Ethambutol: predicted new indication Epiglottitis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes"
@@ -135,8 +135,14 @@ The only supporting evidence is a single case series on laryngeal tuberculosis, 
 **To proceed, the following is needed:**
 - Detailed mechanism of action data
 - Warnings and contraindications from the current SmPC and BNF (the safety review cannot proceed without these)
-- Approved indication and dosage form for the UK authorisation
+- Approved indication and dosage form for the UK products
 - Clinical evidence that ethambutol adds value in epiglottitis beyond its existing anti-tuberculosis use, which is unlikely given the biology
+
+<!-- review:begin uk-lic-20261124c-ethambutol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ethambutol-1 -->
 
 **Other predictions reviewed (all Hold):**
 - **Laryngitis** (score 0.9971, L4): the evidence is limited to case reports of laryngeal TB and non-tuberculous mycobacterial infection, with several off-topic papers. This is the existing anti-TB indication at another site.
@@ -153,6 +159,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is recorded, and its status is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

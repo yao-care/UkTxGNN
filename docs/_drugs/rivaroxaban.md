@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (the product…"
 monitor_inn: "Rivaroxaban"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -129,10 +129,16 @@ The prediction rests on the model score alone. No trials exist, and the availabl
 <!-- review:end uk-lic-20261106-rivaroxaban-1 -->
 
 **To proceed, the following is needed:**
-- Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications
+- Licence details for the UK products (PL number, dosage form, approved indications) and the SmPC warnings and contraindications
 - Mechanism of action data
 - Preclinical or clinical evidence that Factor Xa inhibition affects RA disease activity, or a clearly defined thromboprophylaxis question in RA
 - A bleeding and drug-interaction risk assessment for RA patients taking NSAIDs, aspirin or corticosteroids
+
+<!-- review:begin uk-lic-20261124c-rivaroxaban-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-rivaroxaban-1 -->
 
 <!-- review:begin log -->
 
@@ -144,6 +150,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-06 | Removed: "The licence data are also incomplete, and" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
+| 2026-11-24 | Corrected: "Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC warnings and contraindications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

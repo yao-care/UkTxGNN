@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Zolmitriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan: predicted new indication Atrophoderma vermiculata (evidence level L5). In the UK: 9 NHSBSA BNF presentation codes"
@@ -152,9 +152,15 @@ The prediction is mechanistically plausible but is driven mainly by similarity t
 **To proceed, the following is needed:**
 - Subtype-specific efficacy and safety evidence for triptans in migraine with brainstem aura (or a well-designed study)
 - Review of the current SmPC and BNF warnings and contraindications for zolmitriptan, which were not available in the data compiled for this report
-- Verification of the UK marketing authorisation record (number format, dosage form and approved indication)
+- Verification of the UK product records (number format, dosage form and approved indication)
 - A cardiovascular and cerebrovascular risk assessment for the target population
 - Detailed mechanism-of-action data from DrugBank to support the mechanistic-link analysis
+
+<!-- review:begin uk-lic-20261124c-zolmitriptan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK marketing authorisation record (number format, dosage form and approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-zolmitriptan-1 -->
 
 <!-- review:begin log -->
 
@@ -166,6 +172,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The compiled data show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism-of-action data were not available in the data compiled for this report, so this description draws on the published pharmacology literature" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
+| 2026-11-24 | Corrected: "Verification of the UK marketing authorisation record (number format, dosage form and approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

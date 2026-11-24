@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Nitrazepam"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam: predicted new indication Wernicke-Korsakoff syndrome (evidence level L5). In the UK: 11 NHSBSA BNF presentation codes"
@@ -123,9 +123,28 @@ The top prediction duplicates nitrazepam's existing insomnia use, so it is not a
 
 **To proceed, the following is needed:**
 - Mechanism of action data to support mechanistic analysis
-- Full SmPC warnings and contraindications for the UK product, and confirmation of the licensed indication and authorisation number
+- Full SmPC warnings and contraindications for the UK products, and confirmation of the licensed indication and authorisation number
 - Clarification of whether any genuinely new indication is of interest, since the highest-scoring prediction is already an established use
 - Preclinical or clinical evidence for the lower-ranked predictions before any further consideration
+
+<!-- review:begin uk-lic-20261124c-nitrazepam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Full SmPC warnings and contraindications for the UK product, and confirmation of the licensed indication and authorisation number" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nitrazepam-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Full SmPC warnings and contraindications for the UK product, and confirmation of the licensed indication and authorisation number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

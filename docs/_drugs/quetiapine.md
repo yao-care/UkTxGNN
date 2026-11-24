@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Quetiapine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L5). Approved use: Bipolar disorder, major affective disorder…"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -149,10 +149,16 @@ The top-ranked predictions, including retinal dystrophy, rest on model scores al
 
 **To proceed, the following is needed:**
 - Mechanism of action data for quetiapine
-- Full MHRA SmPC warnings and contraindications, and approved indication text for the UK authorisation
+- Full MHRA SmPC warnings and contraindications, and approved indication text for the UK products
 - For trichotillomania: a systematic review of antipsychotic use, then a controlled trial against established options (e.g. habit reversal therapy, N-acetylcysteine)
 - A risk-benefit assessment covering metabolic monitoring, QT risk and the interaction burden
 - No further work on the other top-ranked candidates unless supporting biological or clinical evidence emerges
+
+<!-- review:begin uk-lic-20261124c-quetiapine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Full MHRA SmPC warnings and contraindications, and approved indication text for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-quetiapine-1 -->
 
 <!-- review:begin log -->
 
@@ -164,6 +170,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
+| 2026-11-24 | Corrected: "Full MHRA SmPC warnings and contraindications, and approved indication text for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

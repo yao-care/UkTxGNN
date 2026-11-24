@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Biotin: predicted new indication Dyspepsia (evidence level L5). Approved use: Nutritional biotin deficiency"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be useful for **dyspepsia**, but there are curre
 
 | Item | Content |
 |------|------|
-| Original Indication | Nutritional biotin deficiency (the UK authorisation record contains no indication text) |
+| Original Indication | Nutritional biotin deficiency (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 0.9943 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-biotin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Nutritional biotin deficiency (the UK authorisation record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-biotin-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -134,9 +140,21 @@ The prediction rests only on a high model score. There are no clinical trials, a
 **To proceed, the following is needed:**
 - Mechanism of action data for biotin, and a plausible rationale for benefit in dyspepsia in people without deficiency
 - Preclinical or early clinical studies of biotin in dyspepsia
-- The SmPC warnings and contraindications for the UK product (currently missing)
-- Verification of the UK authorisation details, including approved indication and dosage form
+- The SmPC warnings and contraindications for the UK products (currently missing)
+- Verification of the UK product details, including approved indication and dosage form
 - Confirmation of the knowledge-graph contraindication signals against product labelling
+
+<!-- review:begin uk-lic-20261124c-biotin-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The SmPC warnings and contraindications for the UK product (currently missing)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-biotin-2 -->
+
+<!-- review:begin uk-lic-20261124c-biotin-3 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation details, including approved indication and dosage form" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-biotin-3 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +165,9 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report list one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Nutritional biotin deficiency (the UK authorisation record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The SmPC warnings and contraindications for the UK product (currently missing)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the UK authorisation details, including approved indication and dosage form" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

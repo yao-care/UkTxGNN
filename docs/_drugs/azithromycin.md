@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Streptococcal infection, bacterial pneumonia…"
 monitor_inn: "Azithromycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no c
 
 | Item | Content |
 |------|------|
-| Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and others (the UK licence record contains no indication text) |
+| Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and others (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 0.9981 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (11 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 11 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-azithromycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Streptococcal infection, bacterial pneumonia, staphylococcal infection and others (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-azithromycin-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -131,11 +137,12 @@ The top prediction, hyperamylasemia, has no supporting trials or literature and 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Streptococcal infection, bacterial pneumonia, staphylococcal infection and others (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

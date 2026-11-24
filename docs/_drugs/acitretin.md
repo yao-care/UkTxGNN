@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 21
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -135,9 +135,15 @@ The only trial retrieved addresses hidradenitis suppurativa, not acne vulgaris, 
 **To proceed, the following is needed:**
 - A decision on whether the target is acne vulgaris or hidradenitis suppurativa, since the TxGNN term appears conflated
 - Results from NCT07708480 and controlled studies in the chosen condition
-- The original licensed indication, mechanism of action data, and SmPC warnings and contraindications for the UK product
+- The original licensed indication, mechanism of action data, and SmPC warnings and contraindications for the UK products
 - A pregnancy prevention plan and monitoring for liver function, lipids and bone effects
 - A comparison with established options such as isotretinoin for acne, or adalimumab and antibiotic regimens for hidradenitis suppurativa
+
+<!-- review:begin uk-lic-20261124c-acitretin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The original licensed indication, mechanism of action data, and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-acitretin-1 -->
 
 <!-- review:begin log -->
 
@@ -149,6 +155,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
+| 2026-11-24 | Corrected: "The original licensed indication, mechanism of action data, and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

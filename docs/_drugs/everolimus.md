@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "Everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Everolimus: predicted new indication liposarcoma (evidence level L2). In the UK: 23 NHSBSA BNF presentation codes"
 ---
 
@@ -157,7 +157,7 @@ The only clinical evidence directly in liposarcoma is a single-arm Phase 2 combi
 - Full results of the ribociclib plus everolimus Phase 2 study, with analysis of everolimus's contribution
 - Everolimus-specific efficacy data in liposarcoma
 - Mechanism of action data
-- SmPC warnings and contraindications for the UK product, plus indication and dosage form details
+- SmPC warnings and contraindications for the UK products, plus indication and dosage form details
 - A safety and interaction management plan, particularly for CYP3A4-related and antidiabetic interactions
 
 <!-- review:begin uk-lic-20261106-everolimus-2 -->

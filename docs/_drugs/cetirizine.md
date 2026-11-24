@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetirizine: predicted new indication nasal cavity disease (evidence level L5). In the UK: 34 NHSBSA BNF presentation codes"
 ---
 
@@ -145,7 +145,13 @@ No clinical trial or publication directly studies cetirizine in nasal cavity dis
 - Clinical studies of cetirizine in that specific condition
 - Mechanism of action data for cetirizine
 - Label warnings and contraindications from the SmPC and BNF
-- Licence indication text and dosage form details for the UK product
+- Licence indication text and dosage form details for the UK products
+
+<!-- review:begin uk-lic-20261124c-cetirizine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and dosage form details for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-cetirizine-1 -->
 
 <!-- review:begin log -->
 
@@ -157,6 +163,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Cetirizine is currently marketed in the data compiled for this report, with one valid single-ingredient licence record (Cetirizine HCl table" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+| 2026-11-24 | Corrected: "Licence indication text and dosage form details for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

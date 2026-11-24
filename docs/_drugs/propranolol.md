@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
 description: "Propranolol: predicted new indication Distal myopathy, Tateyama type (evidence level L5). In the UK: 67 NHSBSA BNF presentation codes"
@@ -143,8 +143,14 @@ The prediction has no supporting trials or publications and no identifiable mech
 - Evidence of a biological mechanism connecting beta-adrenergic signalling to the pathology of distal myopathy, Tateyama type.
 - Systematic literature and registry searches (including ISRCTN and the EU Clinical Trials Register) for any relevant preclinical or clinical data.
 - Clarification of the knowledge-graph myopathy contraindication against SmPC and BNF content.
-- Verification of the UK licence record, including the product's authorisation number and approved indication.
+- Verification of the UK product records, including the product's authorisation number and approved indication.
 - Complete mechanism of action and label safety data.
+
+<!-- review:begin uk-lic-20261124c-propranolol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK licence record, including the product's authorisation number and approved indication." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-propranolol-1 -->
 
 **Other predicted indications:** Cirrhotic cardiomyopathy and the broader category of cardiomyopathy have some supporting literature (Evidence Levels L4 and L3). For cardiomyopathy, much of the evidence overlaps with the existing hypertrophic cardiomyopathy use. For cirrhotic cardiomyopathy, some publications raise safety concerns about beta-blockers in advanced cirrhosis. If the programme is to continue, these are more evidence-supported candidates for further review than the one assessed here.
 
@@ -158,6 +164,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence record does not state a manufacturer or approved indication" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+| 2026-11-24 | Corrected: "Verification of the UK licence record, including the product's authorisation number and approved indication." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

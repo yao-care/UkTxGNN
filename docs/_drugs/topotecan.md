@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 630
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topotecan: predicted new indication Female breast carcinoma (evidence level L5). Approved use: Ovarian cancer"
 monitor_inn: "Topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
@@ -46,13 +46,19 @@ with **3 clinical trials** (none breast-specific and with interpretable results)
 
 | Item | Content |
 |------|------|
-| Original Indication | Ovarian cancer (the UK licence record contains no indication text) |
+| Original Indication | Ovarian cancer (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 0.9992 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-topotecan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Ovarian cancer (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-topotecan-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -147,8 +153,14 @@ The TxGNN score is very high (0.9992), but the supporting evidence for breast ca
 **To proceed, the following is needed:**
 - A systematic review of the phase 2 topotecan data in breast cancer, including comparison with current standard options
 - Mechanism of action data, and exploration of BCRP-related resistance and biomarker selection (for example MYC-driven or triple-negative subtypes)
-- The full SmPC warnings and contraindications and the licence indication text for the UK product, which are missing from the compiled data
+- The full SmPC warnings and contraindications and the licence indication text for the UK products, which are missing from the compiled data
 - A population-specific safety and haematological monitoring plan
+
+<!-- review:begin uk-lic-20261124c-topotecan-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The full SmPC warnings and contraindications and the licence indication text for the UK product, which are missing from the compiled data" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-topotecan-2 -->
 
 <!-- review:begin log -->
 
@@ -160,6 +172,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single valid single-ingredient product record, and the licence record provides no dosage form or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Ovarian cancer (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The full SmPC warnings and contraindications and the licence indication text for the UK product, which are missing from the compiled data" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

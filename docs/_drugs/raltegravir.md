@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "Raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 ---
 
@@ -146,10 +146,16 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 SIV infection is an animal model of HIV, not a human indication, so the prediction adds little new for UK patients. Under the evidence rules, L4 requires a study directly addressing the predicted disease. The macaque studies (e.g. PMID 20233398) do address SIV infection, but the evidence is entirely preclinical, there are no clinical trials, and several of the cited papers do not directly test raltegravir against SIV.
 
 **To proceed, the following is needed:**
-- Confirmation of the UK licence indication text, dosage form and authorisation number
+- Confirmation of the indication text, dosage forms and authorisation numbers of the UK products
 - Mechanism of action data to be recorded formally
 - Safety information from the SmPC, including a review of the muscle-related contraindication relations
 - A clear human or clinical rationale; otherwise this prediction is best treated as a research-model finding only
+
+<!-- review:begin uk-lic-20261124c-raltegravir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK licence indication text, dosage form and authorisation number" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-raltegravir-1 -->
 
 <!-- review:begin log -->
 
@@ -161,6 +167,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Raltegravir is recorded as marketed in the UK, with one single-ingredient record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+| 2026-11-24 | Corrected: "Confirmation of the UK licence indication text, dosage form and authorisation number" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abacavir: predicted new indication Simian immunodeficiency virus infection (evidence level L5). Approved use: HIV infectious disease and AIDS"
 ---
 
@@ -46,13 +46,19 @@ Support is weak: **0 clinical trials** and **1 publication** (an in vitro suscep
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV infectious disease and AIDS (relations recorded in the knowledge graph; the UK licence record has no indication text) |
+| Original Indication | HIV infectious disease and AIDS (relations recorded in the knowledge graph; the UK BNF presentation code records have no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9979 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-abacavir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / HIV infectious disease and AIDS (relations recorded in the knowledge graph; the UK licence record has no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-abacavir-1 -->
 
 The evidence level is L5. The only publication is an in vitro study of HIV-2, SIV and SHIV susceptibility to anti-HIV-1 compounds. It does not directly study SIV infection as a treatment indication for abacavir in a way that supports a higher level.
 
@@ -130,9 +136,15 @@ The predicted indications are animal lentivirus infections, supported only by in
 
 **To proceed, the following is needed:**
 - Mechanism of action data confirmed from DrugBank
-- Licence indication text and dosage form for the UK product
+- Licence indication text and dosage form for the UK products
 - Label warnings and contraindications from the SmPC
 - A clear human-relevant rationale before any further evaluation, as the current predictions concern non-human species or lack any supporting evidence
+
+<!-- review:begin uk-lic-20261124c-abacavir-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and dosage form for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-abacavir-2 -->
 
 <!-- review:begin log -->
 
@@ -144,6 +156,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; HIV infectious disease and AIDS (relations recorded in the knowledge graph; the UK licence record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licence indication text and dosage form for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

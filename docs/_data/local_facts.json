@@ -21,11 +21,11 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 989,
-  "pages": 553,
-  "public_pages_with_records": 521,
+  "records": 1305,
+  "pages": 567,
+  "public_pages_with_records": 533,
   "by_action": {
-   "correct": 531,
+   "correct": 847,
    "mechanism": 458
   }
  },
@@ -58,7 +58,7 @@
    "l": "L5",
    "lt": 168,
    "lv": 168,
-   "r": 3,
+   "r": 4,
    "i": "nephrogenic syndrome of inappropriate antidiuresis"
   },
   {
@@ -67,7 +67,7 @@
    "l": "L5",
    "lt": 152,
    "lv": 152,
-   "r": 2,
+   "r": 3,
    "i": "pulmonary blastoma"
   },
   {
@@ -94,7 +94,7 @@
    "l": "L5",
    "lt": 115,
    "lv": 115,
-   "r": 2,
+   "r": 4,
    "i": "faciodigitogenital syndrome"
   },
   {
@@ -103,13 +103,31 @@
    "l": "L5",
    "lt": 115,
    "lv": 115,
-   "r": 1,
+   "r": 2,
    "i": "acromesomelic dysplasia, Hunter-Thompson type"
   }
  ],
  "no_current": [],
  "no_current_more": 0,
  "most_reviewed": [
+  {
+   "t": "Hyaluronidase",
+   "u": "/drugs/hyaluronidase/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 6,
+   "i": "esotropia"
+  },
+  {
+   "t": "Ketamine",
+   "u": "/drugs/ketamine/",
+   "l": "L1",
+   "lt": 27,
+   "lv": 27,
+   "r": 6,
+   "i": "headache disorder"
+  },
   {
    "t": "Aspirin",
    "u": "/drugs/aspirin/",
@@ -120,49 +138,31 @@
    "i": "atrophoderma vermiculata"
   },
   {
-   "t": "Ketamine",
-   "u": "/drugs/ketamine/",
+   "t": "Busulfan",
+   "u": "/drugs/busulfan/",
    "l": "L1",
-   "lt": 27,
-   "lv": 27,
-   "r": 4,
-   "i": "headache disorder"
-  },
-  {
-   "t": "Nalidixic Acid",
-   "u": "/drugs/nalidixic-acid/",
-   "l": "L5",
-   "lt": 8,
-   "lv": 8,
-   "r": 4,
-   "i": "conjunctivitis"
-  },
-  {
-   "t": "Sulthiame",
-   "u": "/drugs/sulthiame/",
-   "l": "L5",
    "lt": 7,
    "lv": 7,
-   "r": 4,
-   "i": "cauda equina syndrome"
+   "r": 5,
+   "i": "myelodysplastic syndrome"
   },
   {
-   "t": "Arginine",
-   "u": "/drugs/arginine/",
+   "t": "Dabigatran Etexilate",
+   "u": "/drugs/dabigatran-etexilate/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
+   "r": 5,
+   "i": "sclerosing cholangitis"
+  },
+  {
+   "t": "Fulvestrant",
+   "u": "/drugs/fulvestrant/",
    "l": "L4",
-   "lt": 22,
-   "lv": 22,
-   "r": 3,
-   "i": "gastroparesis (disease)"
-  },
-  {
-   "t": "Bupropion",
-   "u": "/drugs/bupropion/",
-   "l": "L2",
-   "lt": 4,
-   "lv": 4,
-   "r": 3,
-   "i": "attention deficit-hyperactivity disorder"
+   "lt": 2,
+   "lv": 2,
+   "r": 5,
+   "i": "HIV infectious disease"
   }
  ],
  "example": {
@@ -171,202 +171,202 @@
   "l": "L1",
   "lt": 64,
   "lv": 64,
-  "r": 2,
+  "r": 3,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [
   {
-   "t": "Xylitol",
-   "u": "/drugs/xylitol/",
-   "s": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no…",
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tryptophan",
-   "u": "/drugs/tryptophan/",
-   "s": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Corrected: \"Verification of the UK marketing authorisation record (number format, dosage form and approved…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Zanamivir",
+   "u": "/drugs/zanamivir/",
+   "s": "Corrected: \"Approved indication text and dosage form details from the UK licence record\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Corrected: \"Confirmation of the UK marketing authorisation number, dosage form and licensed indications\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Corrected: \"Note: the data compiled for this report contain no approved indication text for the UK product.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Urofollitropin",
+   "u": "/drugs/urofollitropin/",
+   "s": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (generally…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tropicamide",
+   "u": "/drugs/tropicamide/",
+   "s": "Corrected: \"Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK…",
    "d": "2026-11-24"
   },
   {
    "t": "Trimethoprim",
    "u": "/drugs/trimethoprim/",
-   "s": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
+   "s": "Corrected: \" Original Indication  Urinary tract infection (the UK licence record has no indication text, so…",
    "d": "2026-11-24"
   },
   {
-   "t": "Sulthiame",
-   "u": "/drugs/sulthiame/",
-   "s": "Corrected: \"for both UK products\"",
+   "t": "Trihexyphenidyl",
+   "u": "/drugs/trihexyphenidyl/",
+   "s": "Corrected: \"Verification of the UK marketing authorisation details (number, dosage form, licensed indication)\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Selenium",
-   "u": "/drugs/selenium/",
-   "s": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
+   "t": "Trifluoperazine",
+   "u": "/drugs/trifluoperazine/",
+   "s": "Corrected: \"SmPC warnings and contraindications (currently missing), as well as the authorised indications…",
    "d": "2026-11-24"
   },
   {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
+   "t": "Trandolapril",
+   "u": "/drugs/trandolapril/",
+   "s": "Corrected: \"Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Pristinamycin",
-   "u": "/drugs/pristinamycin/",
-   "s": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
+   "t": "Tramadol",
+   "u": "/drugs/tramadol/",
+   "s": "Corrected: \"The SmPC warnings and contraindications for the UK product, plus verified MHRA authorisation…",
    "d": "2026-11-24"
   },
   {
-   "t": "Polyethylene Glycol",
-   "u": "/drugs/polyethylene-glycol/",
-   "s": "Corrected: \"and the one UK product identified is an oral laxative with\"",
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Corrected: \"The full SmPC warnings and contraindications and the licence indication text for the UK product…",
    "d": "2026-11-24"
   },
   {
-   "t": "Piroxicam",
-   "u": "/drugs/piroxicam/",
-   "s": "Corrected: \"The only recorded product is a topical gel, so route compatibility with any systemic indication…",
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Corrected: \"Mechanism of action data and SmPC warnings and contraindications for the UK product\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Periciazine",
-   "u": "/drugs/periciazine/",
-   "s": "Corrected: \"and only oral tablets are recorded\"",
+   "t": "Tolvaptan",
+   "u": "/drugs/tolvaptan/",
+   "s": "Corrected: \"Confirmation of the approved indication text, dosage form and PL number for the UK authorisation\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Perampanel",
-   "u": "/drugs/perampanel/",
-   "s": "Removed: \"(the data lists tablets only; oral suspension is described in the literature)\"",
+   "t": "Tolfenamic Acid",
+   "u": "/drugs/tolfenamic-acid/",
+   "s": "Corrected: \"The licensed indication wording and the SmPC warnings and contraindications for the UK product\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Peppermint Oil",
-   "u": "/drugs/peppermint-oil/",
-   "s": "Corrected: \"for the two UK products\"",
+   "t": "Tocofersolan",
+   "u": "/drugs/tocofersolan/",
+   "s": "Corrected: \"The approved indication and SmPC safety information (warnings, contraindications, interactions)…",
    "d": "2026-11-24"
   },
   {
-   "t": "Nystatin",
-   "u": "/drugs/nystatin/",
-   "s": "Corrected: \"Nystatin is a polyene antifungal medicine that is marketed in the UK as an oral suspension.\"",
+   "t": "Tinidazole",
+   "u": "/drugs/tinidazole/",
+   "s": "Corrected: \"Mechanism of action data and full SmPC and BNF safety information, including the missing…",
    "d": "2026-11-24"
   },
   {
-   "t": "Nepafenac",
-   "u": "/drugs/nepafenac/",
-   "s": "Corrected: \"marketed in the UK as a 1 mg/ml eye drop.\"",
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "Corrected: \"Confirmation of the licensed indications on the UK authorisation\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Nefopam",
-   "u": "/drugs/nefopam/",
-   "s": "Corrected: \"Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30…",
+   "t": "Tiaprofenic Acid",
+   "u": "/drugs/tiaprofenic-acid/",
+   "s": "Corrected: \"Confirmation of the approved indication and dosage form for the UK authorisation\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Nalidixic Acid",
-   "u": "/drugs/nalidixic-acid/",
-   "s": "Corrected: \"It is marketed in the UK as an oral suspension,\"",
+   "t": "Thioridazine",
+   "u": "/drugs/thioridazine/",
+   "s": "Corrected: \"Licence and SmPC text (indications, warnings, contraindications) for the UK product\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Nabilone",
-   "u": "/drugs/nabilone/",
-   "s": "Corrected: \"marketed in the UK as a 1 mg capsule.\"",
+   "t": "Theophylline",
+   "u": "/drugs/theophylline/",
+   "s": "Corrected: \" Original Indication  Asthma, bronchitis, pulmonary emphysema and related airway diseases…",
    "d": "2026-11-24"
   },
   {
-   "t": "Misoprostol",
-   "u": "/drugs/misoprostol/",
-   "s": "Corrected: \"Misoprostol is a prostaglandin E1 analogue marketed in the UK as a 200 microgram tablet,\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Minocycline",
-   "u": "/drugs/minocycline/",
-   "s": "Corrected: \"as only an oral tablet is listed and an ocular indication\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Methadone",
-   "u": "/drugs/methadone/",
-   "s": "Corrected: \"Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Meptazinol",
-   "u": "/drugs/meptazinol/",
-   "s": "Corrected: \"marketed in the UK as a tablet;\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Maraviroc",
-   "u": "/drugs/maraviroc/",
-   "s": "Corrected: \"Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lormetazepam",
-   "u": "/drugs/lormetazepam/",
-   "s": "Corrected: \"Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lopinavir",
-   "u": "/drugs/lopinavir/",
-   "s": "Corrected: \"for the two listed products\"",
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "s": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Xylitol",
-   "u": "/drugs/xylitol/",
-   "s": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no…",
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tryptophan",
-   "u": "/drugs/tryptophan/",
-   "s": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "s": "Corrected: \"Verification of the UK marketing authorisation record (number format, dosage form and approved…",
    "d": "2026-11-24"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
+   "t": "Zanamivir",
+   "u": "/drugs/zanamivir/",
+   "s": "Corrected: \"Approved indication text and dosage form details from the UK licence record\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Sulthiame",
-   "u": "/drugs/sulthiame/",
-   "s": "Corrected: \"for both UK products\"",
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Corrected: \"Confirmation of the UK marketing authorisation number, dosage form and licensed indications\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Selenium",
-   "u": "/drugs/selenium/",
-   "s": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
+   "t": "Vancomycin",
+   "u": "/drugs/vancomycin/",
+   "s": "Corrected: \"Note: the data compiled for this report contain no approved indication text for the UK product.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
+   "t": "Valproic Acid",
+   "u": "/drugs/valproic-acid/",
+   "s": "Corrected: \"Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA…",
    "d": "2026-11-24"
   },
   {
-   "t": "Pristinamycin",
-   "u": "/drugs/pristinamycin/",
-   "s": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
+   "t": "Urofollitropin",
+   "u": "/drugs/urofollitropin/",
+   "s": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (generally…",
    "d": "2026-11-24"
   },
   {
-   "t": "Polyethylene Glycol",
-   "u": "/drugs/polyethylene-glycol/",
-   "s": "Corrected: \"and the one UK product identified is an oral laxative with\"",
+   "t": "Tropicamide",
+   "u": "/drugs/tropicamide/",
+   "s": "Corrected: \"Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK…",
    "d": "2026-11-24"
   }
  ],

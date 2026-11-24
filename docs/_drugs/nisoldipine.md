@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (relation recorded in the knowledge graph; no licence indication text is available for the UK product) |
+| Original Indication | Hypertension (relation recorded in the knowledge graph; no licence indication text is available for the UK products) |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (6 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 6 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-nisoldipine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hypertension (relation recorded in the knowledge graph; no licence indication text is available for the UK product)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nisoldipine-1 -->
 
 ---
 
@@ -142,10 +148,16 @@ The prediction rests on a computational score alone. No clinical trial or public
 
 **To proceed, the following is needed:**
 - Mechanism of action data for nisoldipine
-- Licence indication text and SmPC warnings and contraindications for the UK product
+- Licence indication text and SmPC warnings and contraindications for the UK products
 - Human clinical studies in the predicted pulmonary hypertension indication
 - Clinical review of the benefit-risk balance, including gas exchange effects and the existing contraindications
 - Review of the predictions with weak rationale (Braddock syndrome) and of malignant hypertensive renal disease, which is largely an extension of the current hypertension use
+
+<!-- review:begin uk-lic-20261124c-nisoldipine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-nisoldipine-2 -->
 
 <!-- review:begin log -->
 
@@ -157,6 +169,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Sular (nisoldipine) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=589157fa-d129-4de3-be3d-e0e1c22c5873) |
 | 2026-11-24 | Removed: "This record lists one single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hypertension (relation recorded in the knowledge graph; no licence indication text is available for the UK product) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licence indication text and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

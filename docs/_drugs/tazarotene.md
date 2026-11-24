@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
 description: "Tazarotene: predicted new indication Seborrheic dermatitis (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
@@ -127,8 +127,14 @@ The prediction for seborrhoeic dermatitis is supported only by a model score, wi
 - Mechanism of action data and a fuller review of retinoid effects in seborrhoeic dermatitis
 - A systematic literature search for tazarotene in seborrhoeic dermatitis, and any registered trials
 - Review of the full texts of PMID 36215682 and PMID 15090020 to see whether seborrhoeic keratosis is a stronger candidate
-- The current SmPC for the UK product (indications, contraindications, warnings), as this information was not available
+- The current SmPC for the UK products (indications, contraindications, warnings), as this information was not available
 - A tolerability and safety plan for sensitive facial skin, and for women of childbearing potential
+
+<!-- review:begin uk-lic-20261124c-tazarotene-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The current SmPC for the UK product (indications, contraindications, warnings), as this information was not available" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tazarotene-1 -->
 
 <!-- review:begin log -->
 
@@ -140,6 +146,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The authorisation is recorded as a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tazorac (tazarotene) prescribing information, Almirall, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e4e4b81-420e-4492-8a74-80b692a80057) |
+| 2026-11-24 | Corrected: "The current SmPC for the UK product (indications, contraindications, warnings), as this information was not available" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

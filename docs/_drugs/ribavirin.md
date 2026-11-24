@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 9
 monitor_inn: "Ribavirin"
 predicted_indications: ["chronic hepatitis B virus infection", "primitive portal vein thrombosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "hepatic porphyria", "IgG4-related pachymeningitis", "eosinophilic angiocentric fibrosis", "IgG4-related mesenteritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribavirin: predicted new indication Chronic hepatitis B virus infection (evidence level L1). Approved use: Chronic hepatitis C virus infection"
 ---
 
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **chronic hepatitis B virus inf
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis C virus infection (relation recorded in the knowledge graph; the UK licence record contains no indication text) |
+| Original Indication | Chronic hepatitis C virus infection (relation recorded in the knowledge graph; the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Chronic hepatitis B virus infection |
 | TxGNN Prediction Score | 0.9986 |
 | Evidence Level | L1 (see note below) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (12 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-ribavirin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Chronic hepatitis C virus infection (relation recorded in the knowledge graph; the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-ribavirin-1 -->
 
 *Note on evidence level:* NCT00114361 is a completed Phase 3 trial directly in HBeAg-negative chronic hepatitis B, and NCT03759782 is a Phase 3 trial of ribavirin in HBV, but its status is unknown. Only one directly relevant Phase 3 trial has a completed status, which on a strict reading falls short of the L1 criterion (two or more completed Phase 3 RCTs). That trial tests peginterferon plus ribavirin, so ribavirin's separate effect is not isolated. The level is therefore best treated as provisional and weaker than "L1" suggests.
 
@@ -185,6 +191,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is one valid single-ingredient record" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Chronic hepatitis C virus infection (relation recorded in the knowledge graph; the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

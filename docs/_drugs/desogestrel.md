@@ -157,9 +157,15 @@ The only registered trial does not identify desogestrel as the intervention, and
 **To proceed, the following is needed:**
 - Confirmation of the intervention arms in NCT00946192
 - Direct comparative studies of desogestrel (alone or combined) for amenorrhoea, with bone and endometrial outcomes
-- The approved indication text and SmPC safety information for the UK product
+- The approved indication text and SmPC safety information for the UK products
 - Mechanism of action data
 - Clarification of whether the intended use is a progestogen-only or combined formulation, with a thromboembolism risk assessment
+
+<!-- review:begin uk-lic-20261124c-desogestrel-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The approved indication text and SmPC safety information for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-desogestrel-1 -->
 
 <!-- review:begin log -->
 
@@ -172,6 +178,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 | 2026-11-24 | Corrected: "Desogestrel is a progestogen, marketed in the UK as a 75 microgram progestogen-only tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Corrected: "This matters because the UK product is a progestogen-only pill, which commonly causes amenorrhoea" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The approved indication text and SmPC safety information for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

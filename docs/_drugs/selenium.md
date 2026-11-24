@@ -129,11 +129,17 @@ Please refer to the SmPC and BNF for warnings and contraindications. Report susp
 The prediction score is high, but it rests on a computational model alone. The available literature is observational, descriptive or preclinical, and there are no clinical trials testing selenium in sclerosing cholangitis. The original indication, mechanism of action and label safety information are also missing.
 
 **To proceed, the following is needed:**
-- Approved indication, dosage form and label warnings and contraindications for the UK product (from the SmPC and BNF)
+- Approved indication, dosage form and label warnings and contraindications for the UK products (from the SmPC and BNF)
 - Detailed mechanism of action data
 - Preclinical or clinical evidence that selenium supplementation affects PSC disease activity or outcomes
 - Assessment of selenium status in PSC patients, and of safe dosing in cholestatic liver disease
 - A safety review of the major interaction with dimercaprol and the moderate interactions listed above
+
+<!-- review:begin uk-lic-20261124c-selenium-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication, dosage form and label warnings and contraindications for the UK product (from the SmPC and BNF)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-selenium-1 -->
 
 <!-- review:begin log -->
 
@@ -144,6 +150,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "Selenium is an essential trace element, marketed in the UK as an injectable product," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication, dosage form and label warnings and contraindications for the UK product (from the SmPC and BNF)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

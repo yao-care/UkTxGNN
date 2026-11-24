@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 604
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tenofovir Disoproxil: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis B virus infection"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -48,13 +48,19 @@ There are **no registered clinical trials** and **18 publications** (almost all 
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the UK authorisation record holds no indication text) |
+| Original Indication | Chronic hepatitis B virus infection; HIV infection; AIDS (the UK BNF presentation code records hold no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 0.9995 |
 | Evidence Level | L4 (preclinical only) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (25 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 25 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-tenofovir_disoproxil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Chronic hepatitis B virus infection; HIV infection; AIDS (the UK authorisation record holds no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tenofovir_disoproxil-1 -->
 
 ---
 
@@ -165,7 +171,13 @@ The only supported prediction (SIV infection) rests entirely on preclinical maca
 - Reframing the SIV result as supporting evidence for the existing HIV indication rather than a new indication
 - Remapping the obsolete hyperlipidaemia term and reviewing the other low-evidence predictions
 - Mechanism of action data and label-based safety data (warnings, contraindications, interactions) from the SmPC and BNF
-- Verification of the UK authorisation record (MHRA PL number, dosage form, approved indication)
+- Verification of the UK product records (MHRA PL number, dosage form, approved indication)
+
+<!-- review:begin uk-lic-20261124c-tenofovir_disoproxil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Verification of the UK authorisation record (MHRA PL number, dosage form, approved indication)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tenofovir_disoproxil-2 -->
 
 <!-- review:begin log -->
 
@@ -177,6 +189,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Chronic hepatitis B virus infection; HIV infection; AIDS (the UK authorisation record holds no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Verification of the UK authorisation record (MHRA PL number, dosage form, approved indication)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

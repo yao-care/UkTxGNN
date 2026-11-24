@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 590
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus: predicted new indication Seborrheic dermatitis (evidence level L1). In the UK: 64 NHSBSA BNF presentation codes"
@@ -143,10 +143,16 @@ A completed Phase 3 trial and a completed Phase 4 trial directly address tacroli
 
 **To proceed, the following is needed:**
 - Review of the actual results and endpoints of NCT02004860 and NCT01591070
-- Confirmation of the UK licence details (indication, dosage form, authorisation number format) against the MHRA register
+- Confirmation of the UK product details (indication, dosage form, authorisation number format) against the MHRA register
 - Mechanism of action data from DrugBank
 - Review of the SmPC warnings and contraindications, since label-based safety data were not available
 - A guardrail plan covering facial use only, exclusion of fungal infection, and long-term cancer and infection monitoring
+
+<!-- review:begin uk-lic-20261124c-tacrolimus-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK licence details (indication, dosage form, authorisation number format) against the MHRA register" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-tacrolimus-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation record is present in the data compiled for this report, and its indication text, dosage form and manufacturer are bla" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+| 2026-11-24 | Corrected: "Confirmation of the UK licence details (indication, dosage form, authorisation number format) against the MHRA register" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

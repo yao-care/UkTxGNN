@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Tioconazole"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole: predicted new indication Vulvitis (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
@@ -117,7 +117,7 @@ Please refer to the SmPC and BNF for further safety information. Report suspecte
 
 **Rationale:**
 - No cited study directly addresses vulvitis, and there are no registered trials, so the prediction rests on model output and indirect candidal data only.
-- The plausible mechanism applies only to a fungal cause, and the UK product recorded in the data is a nail lacquer, not a vulvar or vaginal formulation.
+- The plausible mechanism applies only to a fungal cause, and the UK products recorded in the data are nail preparations (lacquer or solution), not vulvar or vaginal formulations.
 
 <!-- review:begin uk-lic-20261106-tioconazole-1 -->
 

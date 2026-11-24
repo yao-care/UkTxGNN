@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Stannous Fluoride: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Stannous fluoride"
 predicted_indications: ["meningococcal infection"]
@@ -106,8 +106,14 @@ The prediction is supported only by a model score, with no trials or publication
 **To proceed, the following is needed:**
 - Mechanism of action data to test whether any plausible link exists
 - Laboratory evidence of activity against *Neisseria meningitidis*, including an assessment of whether any effect is achievable at the site of action
-- The licensed indication and labelled warnings and contraindications for the UK product
+- The licensed indication and labelled warnings and contraindications for the UK products
 - A clear rationale for any route of administration beyond topical oral use, since topical exposure is unlikely to be relevant to systemic disease
+
+<!-- review:begin uk-lic-20261124c-stannous_fluoride-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The licensed indication and labelled warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-stannous_fluoride-1 -->
 
 <!-- review:begin log -->
 
@@ -118,6 +124,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The authorisation is recorded as valid and as a single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The licensed indication and labelled warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

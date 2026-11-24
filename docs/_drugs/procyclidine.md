@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Procyclidine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson's disease and related parkinsonian and dystonic disorders"
 monitor_inn: "Procyclidine"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "transaldolase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "fructose-1,6-bisphosphatase deficiency"]
@@ -45,13 +45,19 @@ The TxGNN model predicts it may be effective for **Rasmussen subacute encephalit
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease and related parkinsonian and dystonic disorders (from the knowledge graph; no indication text is recorded on the UK authorisation data) |
+| Original Indication | Parkinson's disease and related parkinsonian and dystonic disorders (from the knowledge graph; no indication text is recorded on the UK BNF prescribing code data) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 0.9974 |
 | Evidence Level | L5 (model prediction only) |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (13 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 13 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-procyclidine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Parkinson's disease and related parkinsonian and dystonic disorders (from the knowledge graph; no indication text is recorded on the UK authorisation data)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-procyclidine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -139,8 +145,28 @@ The top prediction, Rasmussen encephalitis, has no trial or literature support (
 - Mechanism of action data to allow a proper mechanistic analysis
 - Any preclinical or clinical evidence linking muscarinic antagonism to Rasmussen encephalitis
 - Label-based warnings and contraindications from the current SmPC and BNF
-- Confirmation of the licensed indication and product details for the UK authorisation
+- Confirmation of the licensed indication and product details for the UK products
 - If the project is redirected, consider the symptomatic movement-disorder predictions (e.g. PLA2G6-associated neurodegeneration, atypical parkinsonism) for focused literature review, bearing in mind their limited disease-modifying potential
+
+<!-- review:begin uk-lic-20261124c-procyclidine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indication and product details for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-procyclidine-2 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Parkinson's disease and related parkinsonian and dystonic disorders (from the knowledge graph; no indication text is recorded on the UK authorisation data) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indication and product details for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

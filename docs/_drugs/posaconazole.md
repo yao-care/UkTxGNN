@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis…"
 monitor_inn: "Posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -48,13 +48,19 @@ The mechanistic reasoning argues against the prediction, so it should be treated
 
 | Item | Content |
 |------|------|
-| Original Indication | Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK authorisation record compiled for this report has no indication text. |
+| Original Indication | Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK BNF presentation code records compiled for this report have no indication text. |
 | Predicted New Indication | Pneumocystosis |
 | TxGNN Prediction Score | 0.9977 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-posaconazole-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK authorisation record compiled for this report has no indication text." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-posaconazole-1 -->
 
 ---
 
@@ -151,11 +157,12 @@ The pneumocystosis prediction is not supported by trial or literature evidence f
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis, histoplasmosis, fusariosis, mycetoma). The UK authorisation record compiled for this report has no indication text. &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

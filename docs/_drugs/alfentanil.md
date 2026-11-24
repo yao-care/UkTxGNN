@@ -110,7 +110,7 @@ The prediction rests only on a high model score (L5). There are no trials or pub
 - Mechanism of action data and a clear mechanistic rationale linking mu-opioid agonism to V2 receptor-mediated antidiuresis
 - Preclinical evidence (for example, AVPR2 gain-of-function models) showing any benefit
 - Label-based warnings and contraindications from the SmPC and BNF, including renal safety review
-- Licensed indication text and dosage form for the UK authorisation
+- Licensed indication text and dosage form for the UK products
 - Assessment of route compatibility
 
 <!-- review:begin uk-lic-20261124b-alfentanil-1 -->
@@ -118,6 +118,12 @@ The prediction rests only on a high model score (L5). There are no trials or pub
 > **Review correction (2026-11-24)**: Originally stated: "Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261124b-alfentanil-1 -->
+
+<!-- review:begin uk-lic-20261124c-alfentanil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licensed indication text and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-alfentanil-1 -->
 
 <!-- review:begin log -->
 
@@ -128,6 +134,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Corrected: "- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licensed indication text and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

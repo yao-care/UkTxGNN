@@ -9,7 +9,7 @@
   "with_current": 31,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 30,
+  "with_reviews": 31,
   "rows": [
    {
     "t": "Bromfenac",
@@ -18,8 +18,8 @@
     "i": "eye disease",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data were not available in the compiled data, so this description reflects the…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text, dosage form and manufacturer for the UK licence\"",
     "x": 0
    },
    {
@@ -29,8 +29,8 @@
     "i": "myelodysplastic syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 3,
-    "rs": "Corrected: \"Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2…",
+    "r": 5,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK licence data compiled for this report \"",
     "x": 0
    },
    {
@@ -40,8 +40,8 @@
     "i": "anxiety disorder",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Licence details (PL number and approved indication text) and SmPC warnings and contraindications…",
     "x": 0
    },
    {
@@ -51,8 +51,8 @@
     "i": "pneumocystosis",
     "lt": 9,
     "lv": 9,
-    "r": 3,
-    "rs": "Removed: \"The record has no indication text, so it is unclear whether PCP is within the licence\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Dermatitis herpetiformis, acne, leprosy (the UK licence record contains no…",
     "x": 0
    },
    {
@@ -62,8 +62,8 @@
     "i": "headache disorder",
     "lt": 27,
     "lv": 27,
-    "r": 4,
-    "rs": "Removed: \"with one oral solution authorisation recorded on the UK market\"",
+    "r": 6,
+    "rs": "Corrected: \"Assessment of route compatibility: the UK product is an oral solution, whereas the trials mainly…",
     "x": 0
    },
    {
@@ -84,8 +84,8 @@
     "i": "eye disease",
     "lt": 4,
     "lv": 4,
-    "r": 3,
-    "rs": "Corrected: \"marketed in the UK as a 1 mg/ml eye drop.\"",
+    "r": 5,
+    "rs": "Corrected: \" Original Indication  Not available in the UK licence data compiled for this report \"",
     "x": 0
    },
    {
@@ -95,8 +95,8 @@
     "i": "chronic hepatitis B virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"This is one valid single-ingredient record\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Chronic hepatitis C virus infection (relation recorded in the knowledge…",
     "x": 0
    },
    {
@@ -106,8 +106,8 @@
     "i": "seborrheic dermatitis",
     "lt": 64,
     "lv": 64,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation record is present in the data compiled for this report, and its indication…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK licence details (indication, dosage form, authorisation number format)…",
     "x": 0
    },
    {
@@ -205,8 +205,8 @@
     "i": "myeloid leukemia",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded as valid. The record carries a BNF-style code…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of MHRA authorisation details and approved indications for the UK product\"",
     "x": 0
    },
    {
@@ -227,8 +227,8 @@
     "i": "agoraphobia",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -249,8 +249,8 @@
     "i": "HIV infectious disease",
     "lt": 17,
     "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation is recorded, and its indication text and dosage form are not available in…",
+    "r": 4,
+    "rs": "Corrected: \"The original licensed indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -260,8 +260,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK marketing authorisation (PL number, dosage form and approved indications)…",
     "x": 0
    },
    {
@@ -282,8 +282,8 @@
     "i": "seborrheic dermatitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Verification of the UK authorisation record and NICE/BNF positioning\"",
     "x": 0
    },
    {
@@ -293,8 +293,8 @@
     "i": "alopecia areata",
     "lt": 87,
     "lv": 87,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Autoimmune disease (the UK licence record contains no indication text) \"",
     "x": 0
    },
    {
@@ -326,8 +326,8 @@
     "i": "liposarcoma",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation is recorded, and the number shown is in a format different from a standard…",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details, including formulation and approved indications\"",
     "x": 0
    },
    {
@@ -372,7 +372,7 @@
   "with_current": 53,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 51,
+  "with_reviews": 52,
   "rows": [
    {
     "t": "Acitretin",
@@ -381,8 +381,8 @@
     "i": "acne (disease)",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"The original licensed indication, mechanism of action data, and SmPC warnings and…",
     "x": 0
    },
    {
@@ -403,8 +403,8 @@
     "i": "seborrheic keratosis",
     "lt": 19,
     "lv": 19,
-    "r": 1,
-    "rs": "Corrected: \"Calcipotriol is a topical vitamin D3 analogue marketed in the UK as a 50 microgram/g ointment.\"",
+    "r": 2,
+    "rs": "Corrected: \"The licensed indication, dosage form and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -425,8 +425,8 @@
     "i": "restless legs syndrome",
     "lt": 58,
     "lv": 58,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation is recorded (single-ingredient, valid)\"",
+    "r": 4,
+    "rs": "Corrected: \"SmPC warnings and contraindications from the MHRA/BNF record, together with the licensed…",
     "x": 0
    },
    {
@@ -436,8 +436,8 @@
     "i": "amenorrhea (disease)",
     "lt": 19,
     "lv": 19,
-    "r": 2,
-    "rs": "Corrected: \"- Assessment of route and formulation suitability, since the only UK product identified is a…",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (DrugBank…",
     "x": 0
    },
    {
@@ -447,8 +447,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 12,
     "lv": 12,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Formal mechanism of action data and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -491,8 +491,8 @@
     "i": "insomnia (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Alcohol withdrawal delirium; anxiety (the UK licence record contains no…",
     "x": 0
    },
    {
@@ -513,8 +513,8 @@
     "i": "gastroduodenitis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Formal mechanism-of-action data were not available in the data compiled for this report; the description…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the approved indication wording and dosage form for the UK authorisation\"",
     "x": 2
    },
    {
@@ -524,8 +524,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 54,
     "lv": 54,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"The SmPC details of the UK authorisation (dosage form, indication, warnings, contraindications)…",
     "x": 0
    },
    {
@@ -535,8 +535,8 @@
     "i": "migraine disorder",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the licensed indications and dosage forms for the UK authorisation\"",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "migraine disorder",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Corrected: \"Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a…",
+    "r": 3,
+    "rs": "Corrected: \"Mechanism of action data and the original approved indication text for the UK licence\"",
     "x": 0
    },
    {
@@ -568,8 +568,8 @@
     "i": "reactive thrombocytosis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK authorisation record, including the licence number, dosage form and…",
     "x": 0
    },
    {
@@ -590,8 +590,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation record is held\"",
+    "r": 4,
+    "rs": "Corrected: \"Verification of the UK authorisation record, including dosage form and approved indication\"",
     "x": 0
    },
    {
@@ -623,8 +623,8 @@
     "i": "hepatic porphyria",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (indication, dosage form, manufacturer)\"",
     "x": 0
    },
    {
@@ -634,8 +634,8 @@
     "i": "amenorrhea (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text, dosage form and manufacturer details for the UK licence\"",
     "x": 3
    },
    {
@@ -645,8 +645,8 @@
     "i": "stroke disorder",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"UK SmPC and BNF warnings and contraindications, and the approved indication text for the UK…",
     "x": 0
    },
    {
@@ -656,8 +656,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 32,
     "lv": 32,
-    "r": 2,
-    "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  HIV infectious disease; AIDS (the UK authorisation record has no indication…",
     "x": 0
    },
    {
@@ -678,8 +678,8 @@
     "i": "HIV infectious disease",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Removed: \"licence\"",
+    "r": 5,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK licence data compiled for this report \"",
     "x": 0
    },
    {
@@ -689,8 +689,8 @@
     "i": "rheumatoid arthritis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Verified UK SmPC warnings and contraindications, as well as the approved indication text for the…",
     "x": 0
    },
    {
@@ -722,8 +722,8 @@
     "i": "bacterial arthritis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"This is the only authorisation listed\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (identifier, dosage form and approved indications)…",
     "x": 0
    },
    {
@@ -733,8 +733,8 @@
     "i": "Tourette syndrome",
     "lt": 71,
     "lv": 71,
-    "r": 3,
-    "rs": "Corrected: \"Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.\"",
+    "r": 4,
+    "rs": "Corrected: \"The original indication is not recorded in the UK licence data, so the link between the original…",
     "x": 0
    },
    {
@@ -755,8 +755,8 @@
     "i": "migraine disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Corrected: \"marketed in the UK as a 1 mg capsule.\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (nabilone…",
     "x": 0
    },
    {
@@ -766,8 +766,8 @@
     "i": "migraine disorder",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Full SmPC warnings and contraindications for the UK product, and its approved indication and…",
     "x": 0
    },
    {
@@ -788,8 +788,8 @@
     "i": "benign prostatic hyperplasia (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 3,
+    "rs": "Corrected: \"Confirmed approved indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -832,8 +832,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 44,
     "lv": 44,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details, including the licensed indication and…",
     "x": 0
    },
    {
@@ -865,8 +865,8 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"The record lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the authorised indication wording, dosage form and PL number for the UK product\"",
     "x": 0
    },
    {
@@ -876,8 +876,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"Raltegravir is recorded as marketed in the UK, with one single-ingredient record\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK licence indication text, dosage form and authorisation number\"",
     "x": 0
    },
    {
@@ -909,8 +909,8 @@
     "i": "sclerosing cholangitis",
     "lt": 26,
     "lv": 26,
-    "r": 1,
-    "rs": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication, dosage form and label warnings and contraindications for the UK product…",
     "x": 0
    },
    {
@@ -920,8 +920,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 25,
     "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Verification of the UK authorisation record (MHRA PL number, dosage form, approved indication)\"",
     "x": 0
    },
    {
@@ -976,7 +976,7 @@
   "with_current": 453,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 439,
+  "with_reviews": 449,
   "rows": [
    {
     "t": "Ibuprofen",
@@ -996,8 +996,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 168,
     "lv": 168,
-    "r": 3,
-    "rs": "Corrected: \"Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch.\"",
+    "r": 4,
+    "rs": "Corrected: \"Original approved indication and SmPC-based warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -1007,8 +1007,8 @@
     "i": "pulmonary blastoma",
     "lt": 152,
     "lv": 152,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"SmPC and BNF warnings, contraindications and approved indication text for the UK authorisation…",
     "x": 0
    },
    {
@@ -1029,8 +1029,8 @@
     "i": "faciodigitogenital syndrome",
     "lt": 115,
     "lv": 115,
-    "r": 2,
-    "rs": "Removed: \"The record is a single-ingredient, valid authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the licensed indications and dosage forms for the UK authorisation\"",
     "x": 0
    },
    {
@@ -1040,8 +1040,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 115,
     "lv": 115,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available from the data compiled for this report\"…",
+    "r": 2,
+    "rs": "Corrected: \"The SmPC warnings and contraindications for the UK product, plus verified MHRA authorisation…",
     "x": 0
    },
    {
@@ -1062,8 +1062,8 @@
     "i": "classic stiff person syndrome",
     "lt": 101,
     "lv": 101,
-    "r": 2,
-    "rs": "Removed: \"The record is a single valid, single-ingredient product\"",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK licence, plus confirmation of the MHRA…",
     "x": 0
    },
    {
@@ -1095,8 +1095,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 89,
     "lv": 89,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Full MHRA SmPC warnings and contraindications, and approved indication text for the UK…",
     "x": 0
    },
    {
@@ -1106,8 +1106,8 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 85,
     "lv": 85,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation is recorded (single-ingredient, valid)\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation record, including approved indication and dosage…",
     "x": 0
    },
    {
@@ -1150,8 +1150,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 78,
     "lv": 78,
-    "r": 2,
-    "rs": "Removed: \"One marketing authorisation record is held, but it carries no dosage form, manufacturer or approved…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Hypertension, hypertensive disorder and diabetic nephropathy (the UK…",
     "x": 0
    },
    {
@@ -1161,8 +1161,8 @@
     "i": "myiasis",
     "lt": 72,
     "lv": 72,
-    "r": 2,
-    "rs": "Removed: \"This is the only authorisation identified (single-ingredient product, valid)\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK licence details (MHRA licence number, dosage form, approved indication)…",
     "x": 0
    },
    {
@@ -1172,8 +1172,8 @@
     "i": "tendinitis",
     "lt": 72,
     "lv": 72,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Anxiety disorder, fibromyalgia, myofascial pain syndrome, postherpetic…",
     "x": 0
    },
    {
@@ -1183,8 +1183,8 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 67,
     "lv": 67,
-    "r": 2,
-    "rs": "Removed: \"The licence record does not state a manufacturer or approved indication\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK licence record, including the product's authorisation number and approved…",
     "x": 0
    },
    {
@@ -1205,8 +1205,8 @@
     "i": "duodenal obstruction",
     "lt": 66,
     "lv": 66,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation record is available in the data compiled for this report\"",
+    "r": 3,
+    "rs": "Corrected: \"SmPC warnings, contraindications and indication text for the UK authorisation, as these are not…",
     "x": 0
    },
    {
@@ -1227,8 +1227,8 @@
     "i": "biotin metabolic disease",
     "lt": 64,
     "lv": 64,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Vitamin deficiency disorder; folic acid deficiency anaemia (approved…",
     "x": 0
    },
    {
@@ -1238,8 +1238,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 62,
     "lv": 62,
-    "r": 2,
-    "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
+    "r": 4,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation, verified against the MHRA…",
     "x": 0
    },
    {
@@ -1260,8 +1260,8 @@
     "i": "nasal cavity disease",
     "lt": 59,
     "lv": 59,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and dosage form details for the UK licence\"",
     "x": 0
    },
    {
@@ -1337,8 +1337,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 53,
     "lv": 53,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (indication text, dosage form, manufacturer) and the…",
     "x": 0
    },
    {
@@ -1458,8 +1458,8 @@
     "i": "conjunctivitis",
     "lt": 47,
     "lv": 47,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"SmPC and BNF warnings and contraindications, and confirmation of the approved indication and…",
     "x": 0
    },
    {
@@ -1480,8 +1480,8 @@
     "i": "obsolete bundle branch block",
     "lt": 47,
     "lv": 47,
-    "r": 2,
-    "rs": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK marketing authorisation number, dosage form and licensed indications\"",
     "x": 0
    },
    {
@@ -1601,8 +1601,8 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 41,
     "lv": 41,
-    "r": 2,
-    "rs": "Removed: \"The data show one valid single-ingredient record\"",
+    "r": 3,
+    "rs": "Corrected: \"SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -1612,8 +1612,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 41,
     "lv": 41,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (MHRA PL number, dosage forms, approved indications)…",
     "x": 0
    },
    {
@@ -1623,8 +1623,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 40,
     "lv": 40,
-    "r": 2,
-    "rs": "Removed: \"The compiled record holds one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Mechanism of action data and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -1678,8 +1678,8 @@
     "i": "catecholaminergic polymorphic ventricular tachycardia",
     "lt": 38,
     "lv": 38,
-    "r": 2,
-    "rs": "Removed: \"The local data lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -1689,8 +1689,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 38,
     "lv": 38,
-    "r": 2,
-    "rs": "Removed: \"This is one single-ingredient product record, listed as valid\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and SmPC safety information for the UK product\"",
     "x": 0
    },
    {
@@ -1722,8 +1722,8 @@
     "i": "aortic malformation",
     "lt": 37,
     "lv": 37,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation record was found. It is a BNF classification code rather than a standard…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Erectile dysfunction; congenital heart defects such as tricuspid atresia…",
     "x": 0
    },
    {
@@ -1755,8 +1755,8 @@
     "i": "biotin metabolic disease",
     "lt": 37,
     "lv": 37,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient product is recorded, and it is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Vitamin B12 deficiency, pernicious anaemia and other deficiency anaemias…",
     "x": 0
    },
    {
@@ -1766,8 +1766,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 37,
     "lv": 37,
-    "r": 3,
-    "rs": "Corrected: \"- Assessment of route compatibility, as only a topical gel is recorded in the UK data\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (number, dosage form, approved indication)\"",
     "x": 0
    },
    {
@@ -1810,8 +1810,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 36,
     "lv": 36,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and dosage form details for the UK marketing authorisation\"",
     "x": 0
    },
    {
@@ -1821,8 +1821,8 @@
     "i": "thrombotic disease",
     "lt": 36,
     "lv": 36,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Asthma, bronchitis, pulmonary emphysema and related airway diseases…",
     "x": 0
    },
    {
@@ -1843,8 +1843,8 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 35,
     "lv": 35,
-    "r": 2,
-    "rs": "Removed: \"The compiled data list one single-ingredient authorisation, which is currently valid\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and dosage form for the UK authorisation, plus SmPC warnings and…",
     "x": 0
    },
    {
@@ -1865,8 +1865,8 @@
     "i": "infectious otitis media",
     "lt": 35,
     "lv": 35,
-    "r": 2,
-    "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
+    "r": 4,
+    "rs": "Corrected: \"Mechanism of action data and licensed indication text for the UK product\"",
     "x": 0
    },
    {
@@ -1876,8 +1876,8 @@
     "i": "nasal cavity disease",
     "lt": 34,
     "lv": 34,
-    "r": 2,
-    "rs": "Removed: \"Cetirizine is currently marketed in the data compiled for this report, with one valid…",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and dosage form details for the UK product\"",
     "x": 0
    },
    {
@@ -1942,8 +1942,8 @@
     "i": "duodenal obstruction",
     "lt": 31,
     "lv": 31,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"The licensed indication, dosage form and SmPC safety details for the UK product\"",
     "x": 0
    },
    {
@@ -1953,8 +1953,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 31,
     "lv": 31,
-    "r": 3,
-    "rs": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Urinary tract infection (the UK licence record has no indication text, so…",
     "x": 0
    },
    {
@@ -1997,8 +1997,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 29,
     "lv": 29,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -2052,8 +2052,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 28,
     "lv": 28,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"The approved indication text and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -2063,8 +2063,8 @@
     "i": "craniofacial conodysplasia",
     "lt": 27,
     "lv": 27,
-    "r": 2,
-    "rs": "Removed: \"The listing is a single-ingredient product and is currently marketed\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and SmPC safety data (warnings, contraindications, interactions) for the…",
     "x": 0
    },
    {
@@ -2096,8 +2096,8 @@
     "i": "atypical coarctation of aorta",
     "lt": 27,
     "lv": 27,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is currently valid. Its dosage form…",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication, dosage form and route details for the UK authorisation, verified with the…",
     "x": 0
    },
    {
@@ -2107,8 +2107,8 @@
     "i": "hyperamylasemia",
     "lt": 26,
     "lv": 26,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one single-ingredient authorisation, with a status of valid\"",
+    "r": 4,
+    "rs": "Corrected: \"Full licence details (dosage form and approved indications) for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2140,8 +2140,8 @@
     "i": "hepatic porphyria",
     "lt": 25,
     "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (licence number format, dosage form and approved…",
     "x": 0
    },
    {
@@ -2173,8 +2173,8 @@
     "i": "amenorrhea (disease)",
     "lt": 25,
     "lv": 25,
-    "r": 3,
-    "rs": "Corrected: \"This matters because the UK product is a progestogen-only pill, which commonly causes amenorrhoea\"",
+    "r": 4,
+    "rs": "Corrected: \"The approved indication text and SmPC safety information for the UK product\"",
     "x": 0
    },
    {
@@ -2206,8 +2206,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 25,
     "lv": 25,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and licence details for the UK product, plus SmPC warnings and…",
     "x": 0
    },
    {
@@ -2228,8 +2228,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 25,
     "lv": 25,
-    "r": 2,
-    "rs": "Removed: \"It is a single-ingredient product with a valid status\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK marketing authorisation details (PL number, dosage form, approved…",
     "x": 0
    },
    {
@@ -2239,8 +2239,8 @@
     "i": "renal tubular acidosis",
     "lt": 25,
     "lv": 25,
-    "r": 1,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
+    "r": 2,
+    "rs": "Corrected: \"SmPC warnings, contraindications and approved indication text for the UK product\"",
     "x": 0
    },
    {
@@ -2250,8 +2250,8 @@
     "i": "gastroduodenitis",
     "lt": 24,
     "lv": 24,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Full SmPC warnings and contraindications, and the approved indication text for the UK product\"",
     "x": 0
    },
    {
@@ -2261,8 +2261,8 @@
     "i": "histrionic personality disorder (disease)",
     "lt": 24,
     "lv": 24,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Licensed indication and dosage form details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2305,8 +2305,8 @@
     "i": "pharyngitis",
     "lt": 23,
     "lv": 23,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient marketing authorisation is recorded for hydromorphone\"",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text, dosage form and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -2371,8 +2371,8 @@
     "i": "Prinzmetal angina",
     "lt": 22,
     "lv": 22,
-    "r": 2,
-    "rs": "Removed: \"This is the only valid single-ingredient authorisation recorded. The record does not give the…",
+    "r": 3,
+    "rs": "Corrected: \"Detailed mechanism of action data and SmPC warnings and contraindications for the UK product.\"",
     "x": 0
    },
    {
@@ -2393,8 +2393,8 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the approved indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2437,8 +2437,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 21,
     "lv": 21,
-    "r": 3,
-    "rs": "Corrected: \"The only recorded product is a topical gel, so route compatibility with any systemic indication…",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Rheumatoid arthritis, osteoarthritis (from the knowledge graph, as no…",
     "x": 0
    },
    {
@@ -2448,8 +2448,8 @@
     "i": "papillary conjunctivitis",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product with valid status\"",
+    "r": 4,
+    "rs": "Corrected: \"Verification of the UK authorisation record, including the approved indication, dosage form and…",
     "x": 0
    },
    {
@@ -2503,8 +2503,8 @@
     "i": "bronchitis",
     "lt": 20,
     "lv": 20,
-    "r": 1,
-    "rs": "Removed: \"This is a single-ingredient product with a valid status. The record contains no indication text, so…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Dry eye syndrome and xerophthalmia (relations recorded in the knowledge…",
     "x": 0
    },
    {
@@ -2525,8 +2525,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 20,
     "lv": 20,
-    "r": 1,
-    "rs": "Removed: \"The licence record gives no dosage form or approved indication text\"",
+    "r": 2,
+    "rs": "Corrected: \"SmPC warnings and contraindications (currently missing), as well as the authorised indications…",
     "x": 0
    },
    {
@@ -2558,8 +2558,8 @@
     "i": "Tourette syndrome",
     "lt": 19,
     "lv": 19,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available from the compiled sources\" replaced with a…",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK authorisation data (the drug is a Class Ia…",
     "x": 0
    },
    {
@@ -2569,8 +2569,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 19,
     "lv": 19,
-    "r": 2,
-    "rs": "Removed: \"The record shows one valid single-ingredient product\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK licence data compiled for this report (pharmacology…",
     "x": 0
    },
    {
@@ -2580,8 +2580,8 @@
     "i": "epiglottitis",
     "lt": 19,
     "lv": 19,
-    "r": 1,
-    "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and its status is valid\"",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2591,8 +2591,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 19,
     "lv": 19,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded, with no cancelled authorisations\"",
+    "r": 3,
+    "rs": "Corrected: \"The licensed indication text and dosage form for the UK authorisation, verified against MHRA…",
     "x": 0
    },
    {
@@ -2635,8 +2635,8 @@
     "i": "Ohdo syndrome and variants",
     "lt": 19,
     "lv": 19,
-    "r": 2,
-    "rs": "Removed: \"This is the only authorisation record in the compiled data\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Unipolar depression, endogenous depression, major depressive disorder…",
     "x": 0
    },
    {
@@ -2657,8 +2657,8 @@
     "i": "sclerosing cholangitis",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"The licence record is a single, valid, single-ingredient product\"",
+    "r": 5,
+    "rs": "Corrected: \"Confirmation of the licensed indications and dosage form for the UK product\"",
     "x": 0
    },
    {
@@ -2668,8 +2668,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action statement",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and PL number for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2690,8 +2690,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "Removed: \"The record shows one valid single-ingredient product and no cancelled products\"",
+    "r": 2,
+    "rs": "Corrected: \"The approved indication text and PL number for the UK authorisation\"",
     "x": 0
    },
    {
@@ -2723,8 +2723,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Clarification of the UK authorisation details (PL number, dosage form, approved indication)\"",
     "x": 0
    },
    {
@@ -2756,8 +2756,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient product. This identifier appears…",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK licence details (licence number, dosage form and approved indication)\"",
     "x": 0
    },
    {
@@ -2767,8 +2767,8 @@
     "i": "cauda equina neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"The list contains one single-ingredient authorisation record, and it is complete\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -2778,8 +2778,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 18,
     "lv": 18,
-    "r": 3,
-    "rs": "Removed: \"and the licence record carries no indication text\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence and SmPC text (indications, warnings, contraindications) for the UK product\"",
     "x": 0
    },
    {
@@ -2789,8 +2789,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and dosage forms for the UK authorisation, confirmed against the MHRA…",
     "x": 0
    },
    {
@@ -2800,8 +2800,8 @@
     "i": "dyspepsia",
     "lt": 17,
     "lv": 17,
-    "r": 1,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Verification of the UK authorisation details, including approved indication and dosage form\"",
     "x": 0
    },
    {
@@ -2855,8 +2855,8 @@
     "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
     "lt": 17,
     "lv": 17,
-    "r": 3,
-    "rs": "Corrected: \"since the completed trial used an injection and the UK product is an oral capsule\"",
+    "r": 4,
+    "rs": "Corrected: \"The licensed indication, dosage form and SmPC safety information (warnings and contraindications)…",
     "x": 0
    },
    {
@@ -2866,8 +2866,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 17,
     "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"The record carries no approved indication text, so no UK licensed indication can be stated from…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Hypertension and alopecia (relations recorded in the knowledge graph; the…",
     "x": 0
    },
    {
@@ -2877,8 +2877,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 17,
     "lv": 17,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK marketing authorisation details (PL number, formulations and approved…",
     "x": 0
    },
    {
@@ -2910,8 +2910,8 @@
     "i": "rheumatoid arthritis",
     "lt": 16,
     "lv": 16,
-    "r": 2,
-    "rs": "Removed: \"The licence data are also incomplete, and\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence details for the UK product (PL number, dosage form, approved indications) and the SmPC…",
     "x": 0
    },
    {
@@ -2976,8 +2976,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product record.\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and SmPC safety data for the UK product\"",
     "x": 0
    },
    {
@@ -2998,8 +2998,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report contain one single-ingredient authorisation, currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Licensed indication, dosage form and SmPC safety information for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3009,8 +3009,8 @@
     "i": "exposure keratitis",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data were not available in the data compiled for this report, so this…",
+    "r": 2,
+    "rs": "Corrected: \"The UK product recorded is an ocular formulation (fusidic acid viscous eye drops 1%), which fits…",
     "x": 0
    },
    {
@@ -3020,8 +3020,8 @@
     "i": "classic stiff person syndrome",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one single-ingredient authorisation (valid)\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and dosage form details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3031,8 +3031,8 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Verification of the UK authorisation details\"",
     "x": 0
    },
    {
@@ -3042,8 +3042,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Verification of the UK licence details (MHRA PL number, dosage form, approved indication)\"",
     "x": 0
    },
    {
@@ -3053,8 +3053,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 14,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Corrected: \"The MHRA approved indication text and a standard PL number for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3064,8 +3064,8 @@
     "i": "renal-hepatic-pancreatic dysplasia",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the approved indication text, dosage form and PL number for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3075,8 +3075,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 14,
     "lv": 14,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (PL number, dosage form, licensed indications)\"",
     "x": 0
    },
    {
@@ -3086,8 +3086,8 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details (number, dosage form, licensed indication)\"",
     "x": 0
    },
    {
@@ -3097,8 +3097,8 @@
     "i": "diffuse scleroderma",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Note: the data compiled for this report contain no approved indication text for the UK product.\"",
     "x": 0
    },
    {
@@ -3119,8 +3119,8 @@
     "i": "cauda equina syndrome",
     "lt": 13,
     "lv": 13,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK authorisation data; the drug is described as a local…",
     "x": 0
    },
    {
@@ -3141,8 +3141,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 13,
     "lv": 13,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"SmPC-based warnings and contraindications, and the approved indication text for the UK…",
     "x": 0
    },
    {
@@ -3163,8 +3163,8 @@
     "i": "chronic rhinosinusitis",
     "lt": 13,
     "lv": 13,
-    "r": 2,
-    "rs": "Removed: \"The record gives a BNF-style product code rather than a standard PL number\"",
+    "r": 3,
+    "rs": "Corrected: \"Label-based warnings and contraindications from the SmPC, and the licensed indications for the UK…",
     "x": 0
    },
    {
@@ -3174,8 +3174,8 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the licensed indication and product details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3196,8 +3196,8 @@
     "i": "Tourette syndrome",
     "lt": 13,
     "lv": 13,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK licence number, dosage form, and approved indication\"",
     "x": 0
    },
    {
@@ -3207,8 +3207,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product with valid status\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and dosage form for the UK product\"",
     "x": 0
    },
    {
@@ -3240,8 +3240,8 @@
     "i": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"Both entries are single-ingredient authorisations with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Note: the original indications are taken from the TxGNN model (deep learning), as no approved…",
     "x": 0
    },
    {
@@ -3273,8 +3273,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
+    "r": 4,
+    "rs": "Corrected: \"Authorised indication text and the MHRA marketing authorisation number for the UK product\"",
     "x": 0
    },
    {
@@ -3284,8 +3284,8 @@
     "i": "well-differentiated fetal adenocarcinoma of the lung",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"At least one valid single-ingredient licence is recorded for the UK market\"",
+    "r": 3,
+    "rs": "Corrected: \"Complete SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -3295,8 +3295,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 12,
     "lv": 12,
-    "r": 3,
-    "rs": "Corrected: \"Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet.\"",
+    "r": 4,
+    "rs": "Corrected: \"The approved indication text and SmPC safety information for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3339,8 +3339,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Product label information (warnings, contraindications, approved indication, dosage form) for the…",
     "x": 0
    },
    {
@@ -3361,8 +3361,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3383,8 +3383,8 @@
     "i": "female breast carcinoma",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"This is a single valid single-ingredient product record, and the licence record provides no dosage…",
+    "r": 4,
+    "rs": "Corrected: \"The full SmPC warnings and contraindications and the licence indication text for the UK product…",
     "x": 0
    },
    {
@@ -3405,8 +3405,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"The data compiled for this report do not list an approved indication for the UK licence, so the…",
     "x": 0
    },
    {
@@ -3416,8 +3416,8 @@
     "i": "hyperamylasemia",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Streptococcal infection, bacterial pneumonia, staphylococcal infection and…",
     "x": 0
    },
    {
@@ -3427,8 +3427,8 @@
     "i": "acute pulmonary heart disease",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Dosage form and manufacturer details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3460,8 +3460,8 @@
     "i": "esophageal varices with bleeding",
     "lt": 11,
     "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"The record is a BNF-style product code rather than a PL number, and it is a single-ingredient…",
+    "r": 3,
+    "rs": "Corrected: \"Label warnings and contraindications for the UK product, with a haemodynamic safety assessment\"",
     "x": 0
    },
    {
@@ -3471,8 +3471,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 11,
     "lv": 11,
-    "r": 2,
-    "rs": "Removed: \"Note: the licence data compiled for this report contain one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text, dosage form and manufacturer details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3482,8 +3482,8 @@
     "i": "Wernicke-Korsakoff syndrome",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Full SmPC warnings and contraindications for the UK product, and confirmation of the licensed…",
     "x": 0
    },
    {
@@ -3515,8 +3515,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one single-ingredient alteplase licence (injection, 20 mg…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the authorised indications and dosage form for the UK licence\"",
     "x": 0
    },
    {
@@ -3526,8 +3526,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and PL number for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3548,8 +3548,8 @@
     "i": "alopecia mucinosa",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded; there are no combination products and none…",
+    "r": 4,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3559,8 +3559,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 10,
     "lv": 10,
-    "r": 3,
-    "rs": "Corrected: \"Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;\"",
+    "r": 4,
+    "rs": "Corrected: \"The approved indication text, full SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -3570,8 +3570,8 @@
     "i": "renal tubular acidosis",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (MHRA licence number, dosage form, approved…",
     "x": 0
    },
    {
@@ -3581,8 +3581,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 4,
+    "rs": "Corrected: \"Full SmPC warnings and contraindications from the MHRA/BNF record, plus the approved indication…",
     "x": 0
    },
    {
@@ -3614,8 +3614,8 @@
     "i": "cauda equina syndrome",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Mechanism of action data from DrugBank, and SmPC warnings and contraindications for the UK…",
     "x": 0
    },
    {
@@ -3625,8 +3625,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "Corrected: \"- Assessment of route compatibility, since alfentanil is available only as an injection in the…",
+    "r": 2,
+    "rs": "Corrected: \"Licensed indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3658,8 +3658,8 @@
     "i": "hypermobility of coccyx",
     "lt": 9,
     "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"This is the only authorisation in the data compiled for this report. The record gives no formal…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the licensed indications, dosage forms and authorisation details for the UK…",
     "x": 0
    },
    {
@@ -3669,8 +3669,8 @@
     "i": "gastroparesis (disease)",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "Corrected: \"L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet,\"",
+    "r": 2,
+    "rs": "Corrected: \"Original indication and approved indication text for the UK authorisation (including dosage…",
     "x": 0
    },
    {
@@ -3680,8 +3680,8 @@
     "i": "variably protease-sensitive prionopathy",
     "lt": 9,
     "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the approved indication, dosage form and manufacturer for the UK authorisation…",
     "x": 0
    },
    {
@@ -3691,8 +3691,8 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 9,
     "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"The list contains one single-ingredient authorisation, which is valid. The licence record gives no…",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -3713,8 +3713,8 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Detailed mechanism-of-action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK licence details (dosage form, approved indication, authorisation number)\"",
     "x": 0
    },
    {
@@ -3746,8 +3746,8 @@
     "i": "migraine disorder",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK authorisation data compiled for this report (generally…",
     "x": 0
    },
    {
@@ -3757,8 +3757,8 @@
     "i": "atrophoderma vermiculata",
     "lt": 9,
     "lv": 9,
-    "r": 2,
-    "rs": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation record (number format, dosage form and approved…",
     "x": 0
    },
    {
@@ -3790,8 +3790,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \" Original Indication  Onychomycosis (fungal nail infection); the UK authorisation record compiled…",
     "x": 0
    },
    {
@@ -3801,8 +3801,8 @@
     "i": "hyperamylasemia",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient authorisation is listed. The record does not include approved indication…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Urinary tract infection, Pseudomonas aeruginosa infection, peritonitis…",
     "x": 0
    },
    {
@@ -3856,8 +3856,8 @@
     "i": "chronic ethmoidal sinusitis",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient record is listed, and it is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the approved indication text and dosage form for the UK product\"",
     "x": 0
    },
    {
@@ -3911,8 +3911,8 @@
     "i": "pneumocystosis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Mechanism of action data and SmPC-based warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -3955,8 +3955,8 @@
     "i": "hypervitaminosis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not included in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Obesity disorder; monogenic obesity (the UK authorisation record holds no…",
     "x": 0
    },
    {
@@ -3966,8 +3966,8 @@
     "i": "benign neoplasm of tongue",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Respiratory syncytial virus infection (the approved indication text for the…",
     "x": 0
    },
    {
@@ -3988,8 +3988,8 @@
     "i": "pneumocystosis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Fungal infections (e.g. aspergillosis, candidiasis, oral candidiasis…",
     "x": 0
    },
    {
@@ -4076,8 +4076,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Warnings and contraindications from the SmPC/BNF, together with the approved indication text for…",
     "x": 0
    },
    {
@@ -4120,8 +4120,8 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"It has 1 valid single-ingredient authorisation record\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Epilepsy, partial epilepsy, Lennox-Gastaut syndrome (the UK authorisation…",
     "x": 0
    },
    {
@@ -4142,8 +4142,8 @@
     "i": "irritable bowel syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Corrected: \"Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus…",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not stated in the UK licence data compiled for this report \"",
     "x": 0
    },
    {
@@ -4153,8 +4153,8 @@
     "i": "nasal cavity disease",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Removed: \"This is the only authorisation identified, and it is a single-ingredient product with valid status\"",
+    "r": 2,
+    "rs": "Corrected: \"Product label warnings and contraindications for the UK authorisation, including approved…",
     "x": 0
    },
    {
@@ -4164,8 +4164,8 @@
     "i": "vitamin deficiency disorder",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
+    "r": 2,
+    "rs": "Corrected: \"The SmPC and BNF warnings and contraindications for the UK product, confirming its licensed…",
     "x": 1
    },
    {
@@ -4175,8 +4175,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded. The record does not give a dosage form…",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details (number, dosage form, approved indication)…",
     "x": 0
    },
    {
@@ -4208,8 +4208,8 @@
     "i": "immature cataract",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Corrected: \"Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30…",
+    "r": 3,
+    "rs": "Corrected: \"The SmPC warnings and contraindications, and the licensed indication text, for the UK product\"",
     "x": 0
    },
    {
@@ -4274,8 +4274,8 @@
     "i": "recalcitrant atopic dermatitis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded and it is currently valid. The record gives no…",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the licensed indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4285,8 +4285,8 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Clarification of the approved indication text for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4307,8 +4307,8 @@
     "i": "migraine disorder",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Removed: \"The single authorisation is recorded as a valid single-ingredient product\"",
+    "r": 2,
+    "rs": "Corrected: \"Authorisation details (dosage form, approved indication) and SmPC warnings and contraindications…",
     "x": 0
    },
    {
@@ -4384,8 +4384,8 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"The record is a single-ingredient product and is listed as valid\"",
+    "r": 4,
+    "rs": "Corrected: \"Mechanism of action data and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -4395,8 +4395,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
+    "r": 2,
+    "rs": "Corrected: \"SmPC warnings, contraindications and interaction data for the UK product\"",
     "x": 0
    },
    {
@@ -4417,8 +4417,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details (dosage form, approved indication, MHRA…",
     "x": 0
    },
    {
@@ -4439,8 +4439,8 @@
     "i": "acute urate nephropathy",
     "lt": 6,
     "lv": 6,
-    "r": 3,
-    "rs": "Removed: \"and the UK licence record carries no indication text\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Hepatic encephalopathy, hepatic coma, constipation (the UK licence record…",
     "x": 0
    },
    {
@@ -4450,8 +4450,8 @@
     "i": "alcohol withdrawal delirium",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Corrected: \"Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the approved indication text for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4461,8 +4461,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 2,
+    "rs": "Corrected: \"Current UK warnings and contraindications from the SmPC and BNF, plus approved indication text…",
     "x": 0
    },
    {
@@ -4516,8 +4516,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"This record lists one single-ingredient product.\"",
+    "r": 4,
+    "rs": "Corrected: \"Licence indication text and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -4549,8 +4549,8 @@
     "i": "vulvovaginal candidiasis",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Full licence details (dosage form, approved indication) for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4571,8 +4571,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"This is a single valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK licence indication text and MHRA authorisation details\"",
     "x": 0
    },
    {
@@ -4593,8 +4593,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation was identified\"",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the approved indication and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4604,8 +4604,8 @@
     "i": "intracranial arteriosclerosis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient authorisation is listed in the compiled data, and it carries no…",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the licensed indications on the UK authorisation\"",
     "x": 0
    },
    {
@@ -4648,8 +4648,8 @@
     "i": "gastric adenocarcinoma and proximal polyposis of the stomach",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The data list one single-ingredient authorisation with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Label-based warnings, contraindications and the approved indication text for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4659,8 +4659,8 @@
     "i": "homozygous familial hypercholesterolemia",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Label-based warnings and contraindications (SmPC/BNF) to replace the associations listed above…",
     "x": 0
    },
    {
@@ -4670,8 +4670,8 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. Its dosage form…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis…",
     "x": 0
    },
    {
@@ -4692,8 +4692,8 @@
     "i": "migraine disorder",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Removed: \"with one UK marketing authorisation on record\"",
+    "r": 2,
+    "rs": "Corrected: \"Clarification of the approved indication(s) and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4714,8 +4714,8 @@
     "i": "attention deficit hyperactivity disorder, inattentive type",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Corrected: \"marketed in the UK as a 200 mg tablet.\"",
+    "r": 3,
+    "rs": "Corrected: \"SmPC-based indication, warning and contraindication data for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4725,8 +4725,8 @@
     "i": "pre-malignant neoplasm",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"This is the only authorisation in the data compiled for this report\"",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Common wart, anogenital human papillomavirus infection, superficial…",
     "x": 0
    },
    {
@@ -4747,8 +4747,8 @@
     "i": "rheumatoid arthritis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the approved indication, dosage form and authorisation details for the UK product…",
     "x": 0
    },
    {
@@ -4758,8 +4758,8 @@
     "i": "acne (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Removed: \"The licence record lists no dosage form or approved indication text, so no approved use can be…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication and label text from the UK licence record, plus SmPC warnings and…",
     "x": 0
    },
    {
@@ -4769,8 +4769,8 @@
     "i": "cauda equina syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"The registry lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"The licensed indication and product information (SmPC) for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4780,8 +4780,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Label warnings and contraindications from the SmPC and BNF, and the approved indication text and…",
     "x": 0
    },
    {
@@ -4802,8 +4802,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation number and dosage form\"",
     "x": 0
    },
    {
@@ -4868,8 +4868,8 @@
     "i": "classic stiff person syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The record lists one single-ingredient authorisation, currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication and dosage form details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -4901,8 +4901,8 @@
     "i": "paratyphoid fever",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report records one valid single-ingredient authorisation and no…",
+    "r": 3,
+    "rs": "Corrected: \" Original Indication  Bacterial pneumonia, Pseudomonas aeruginosa infection, bacterial meningitis…",
     "x": 0
    },
    {
@@ -4945,8 +4945,8 @@
     "i": "osteoarthritis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The record is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and the SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -4956,8 +4956,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The record has no dosage form or indication text, so the licensed indication should be confirmed…",
+    "r": 4,
+    "rs": "Corrected: \"The full UK licence details (PL number, dosage form, indication text)\"",
     "x": 0
    },
    {
@@ -5000,8 +5000,8 @@
     "i": "Plasmodium falciparum malaria",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation record is available, and it carries no indication text or manufacturer\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the licensed indications for the UK authorisation record\"",
     "x": 0
    },
    {
@@ -5022,8 +5022,8 @@
     "i": "osteoarthritis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded as valid; none are cancelled\"",
+    "r": 4,
+    "rs": "Corrected: \"Confirmation of the approved indication, dosage form and SmPC safety data for the UK product\"",
     "x": 0
    },
    {
@@ -5077,8 +5077,8 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Licensed indication and dosage form details for the UK authorisation.\"",
     "x": 0
    },
    {
@@ -5099,8 +5099,8 @@
     "i": "staphylococcal scalded skin syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and product details for the UK authorisation\"",
     "x": 0
    },
    {
@@ -5110,8 +5110,8 @@
     "i": "hepatic porphyria",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The data lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details, including the licensed indication, dosage…",
     "x": 0
    },
    {
@@ -5132,8 +5132,8 @@
     "i": "drug-induced osteoporosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Ascaridiasis and ancylostomiasis (relations recorded in the knowledge…",
     "x": 1
    },
    {
@@ -5143,8 +5143,8 @@
     "i": "hypervitaminosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the compiled record\" replaced with a…",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details (PL number, dosage form, approved indication)\"",
     "x": 0
    },
    {
@@ -5176,8 +5176,8 @@
     "i": "zinc, elevated plasma",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The product is a single-ingredient-listed authorisation record that is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -5187,8 +5187,8 @@
     "i": "disease of retroperitoneum",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
+    "r": 3,
+    "rs": "Corrected: \"The original approved indications and the SmPC text for the UK authorisation, including the PL…",
     "x": 0
    },
    {
@@ -5198,8 +5198,8 @@
     "i": "hypoalphalipoproteinemia",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient product is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Authorisation details (PL number, dosage form, approved indication) for the UK product\"",
     "x": 0
    },
    {
@@ -5209,8 +5209,8 @@
     "i": "hypervitaminosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Removed: \"The marketed status and the single authorisation should be checked against the MHRA register before…",
+    "r": 2,
+    "rs": "Corrected: \"Label warnings and contraindications (SmPC/BNF), and verification of the UK authorisation and its…",
     "x": 0
    },
    {
@@ -5220,8 +5220,8 @@
     "i": "pneumocystosis",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Full SmPC and BNF safety information (warnings and contraindications), and the approved…",
     "x": 0
    },
    {
@@ -5231,8 +5231,8 @@
     "i": "hypouricemia, renal",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded as valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK licence details (authorisation number, dosage form and approved…",
     "x": 10
    },
    {
@@ -5242,8 +5242,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"Verified SmPC warnings and contraindications and approved indication text for the UK…",
     "x": 0
    },
    {
@@ -5253,8 +5253,8 @@
     "i": "seborrheic dermatitis",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"The authorisation is recorded as a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"The current SmPC for the UK product (indications, contraindications, warnings), as this…",
     "x": 0
    },
    {
@@ -5297,8 +5297,8 @@
     "i": "hypouricemia, renal",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the compiled data\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Verification of the UK marketing authorisation details and approved indication.\"",
     "x": 0
    },
    {
@@ -5330,8 +5330,8 @@
     "i": "interventricular septum aneurysm",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"The approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -5352,8 +5352,8 @@
     "i": "acute intermittent porphyria",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available for this report\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Approved indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -5396,8 +5396,8 @@
     "i": "serpinopathy with toxic serpin polymerization",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Removed: \"The local data lists one valid single-ingredient authorisation, and no cancelled authorisations\"",
+    "r": 3,
+    "rs": "Corrected: \"A review of the approved indication and the SmPC safety information for the UK product.\"",
     "x": 0
    },
    {
@@ -5429,8 +5429,8 @@
     "i": "chronic hepatitis C virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The local data show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Mechanism of action data and label safety information (warnings, contraindications) for the UK…",
     "x": 0
    },
    {
@@ -5484,8 +5484,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The single authorisation is a valid single-ingredient product\"",
+    "r": 3,
+    "rs": "Corrected: \"Verification of the UK authorisation record, including licence number, dosage form and approved…",
     "x": 0
    },
    {
@@ -5495,8 +5495,8 @@
     "i": "gout",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"The data compiled for this report records one valid single-ingredient licence for an injectable…",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK authorisation details, dosage form and route\"",
     "x": 0
    },
    {
@@ -5506,8 +5506,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report show one valid single-ingredient authorisation. The licence…",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and dosage form for the UK authorisation\"",
     "x": 0
    },
    {
@@ -5528,8 +5528,8 @@
     "i": "Glanzmann thrombasthenia",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"with one marketing authorisation record in the data compiled for this report\"",
+    "r": 2,
+    "rs": "Corrected: \"Confirmation of the UK licence record, including product, dosage form and approved indication\"",
     "x": 0
    },
    {
@@ -5550,8 +5550,8 @@
     "i": "rosacea conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \" Original Indication  Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis (no…",
     "x": 0
    },
    {
@@ -5583,8 +5583,8 @@
     "i": "atopic eczema",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \"Licence details (dosage form, indication text) and SmPC safety information for the UK product\"",
     "x": 0
    },
    {
@@ -5594,8 +5594,8 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 2,
+    "rs": "Corrected: \"Licence-level warnings and contraindications from the SmPC, with the approved indication text and…",
     "x": 0
    },
    {
@@ -5605,8 +5605,8 @@
     "i": "esotropia",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Removed: \"The marketing authorisation is a single-ingredient product with valid status\"",
+    "r": 6,
+    "rs": "Corrected: \"Approved indication text and SmPC safety information (warnings, contraindications) for the UK…",
     "x": 0
    },
    {
@@ -5616,8 +5616,8 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"This is a single-ingredient record with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Confirmation of the UK licence details (authorisation number, dosage form and approved…",
     "x": 1
    },
    {
@@ -5638,8 +5638,8 @@
     "i": "serous conjunctivitis except viral",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The licence list is complete (1 single-ingredient product, valid)\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication text and SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -5649,8 +5649,8 @@
     "i": "monosomy X",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"The approved indication text and a verified MHRA authorisation record for the UK product\"",
     "x": 0
    },
    {
@@ -5682,8 +5682,8 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 4,
+    "rs": "Corrected: \" Original Indication  Not recorded in the UK licence data compiled for this report (pharmacology…",
     "x": 0
    },
    {
@@ -5704,8 +5704,8 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The single record is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Licence indication and dosage form details for the UK product\"",
     "x": 0
    },
    {
@@ -5715,8 +5715,8 @@
     "i": "breast fibrocystic disease",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient product is listed\"",
+    "r": 3,
+    "rs": "Corrected: \"The approved indication text and PL number for the UK product\"",
     "x": 4
    },
    {
@@ -5737,8 +5737,8 @@
     "i": "papillary conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication and SmPC safety information for the UK product\"",
     "x": 0
    },
    {
@@ -5781,8 +5781,8 @@
     "i": "meningococcal infection",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Removed: \"The authorisation is recorded as valid and as a single-ingredient product\"",
+    "r": 2,
+    "rs": "Corrected: \"The licensed indication and labelled warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -5792,8 +5792,8 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Full SmPC warnings and contraindications for the UK product, including approved indication text…",
     "x": 0
    },
    {
@@ -5803,8 +5803,8 @@
     "i": "heparin-induced thrombocytopenia (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report list one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Verification of the UK authorisation record\"",
     "x": 10
    },
    {
@@ -5836,8 +5836,8 @@
     "i": "postmenopausal atrophic vaginitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Removed: \"The record lists one valid single-ingredient authorisation\"",
+    "r": 4,
+    "rs": "Corrected: \"Mechanism of action data and full SmPC and BNF safety information, including the missing…",
     "x": 0
    },
    {
@@ -5858,8 +5858,8 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"The approved indication and SmPC safety information (warnings, contraindications, interactions)…",
     "x": 0
    },
    {
@@ -5880,8 +5880,8 @@
     "i": "headache disorder",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"The licensed indication wording and the SmPC warnings and contraindications for the UK product\"",
     "x": 0
    },
    {
@@ -5902,8 +5902,8 @@
     "i": "pyelonephritis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available in the data compiled for this report\" replaced…",
+    "r": 3,
+    "rs": "Corrected: \"Approved indication text and dosage form details from the UK licence record\"",
     "x": 0
    },
    {

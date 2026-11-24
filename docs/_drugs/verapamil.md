@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Verapamil: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Hypertension, atrial fibrillation, acute coronary syndrome…"
 monitor_inn: "Verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -49,7 +49,7 @@ This report covers the top-ranked prediction and the best-supported alternative,
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the UK licence record has no indication text) |
+| Original Indication | Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the UK BNF presentation code records have no indication text) |
 | Predicted New Indication (rank 1) | Obsolete bundle branch block |
 | Best-supported alternative | Pulmonary hypertension owing to lung disease and/or hypoxia (rank 5) |
 | TxGNN Prediction Score | 0.9962 (rank 1); 0.9926 (rank 5 alternative) |
@@ -57,6 +57,12 @@ This report covers the top-ranked prediction and the best-supported alternative,
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (47 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 47 |
 | Recommended Decision | Hold (rank 1); Research question only (rank 5 alternative) |
+
+<!-- review:begin uk-lic-20261124c-verapamil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the UK licence record has no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-verapamil-1 -->
 
 ---
 
@@ -172,9 +178,15 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 
 **To proceed, the following is needed:**
 - Mechanism of action data and the current UK SmPC warnings and contraindications (the safety screen cannot be completed without these)
-- Confirmation of the UK marketing authorisation number, dosage form and licensed indications
+- Confirmation of the UK marketing authorisation numbers, dosage forms and licensed indications
 - For pulmonary hypertension: direct preclinical or early clinical data on verapamil in hypoxia-related pulmonary hypertension, including gas exchange and right ventricular safety
 - Review of the 30 knowledge-graph contraindication signals against label text
+
+<!-- review:begin uk-lic-20261124c-verapamil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the UK marketing authorisation number, dosage form and licensed indications" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-verapamil-2 -->
 
 <!-- review:begin log -->
 
@@ -186,6 +198,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "No licence number in PL format, dosage form or indication text was available, so the UK licensed indications should be confirmed against the" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hypertension, atrial fibrillation, acute coronary syndrome, Prinzmetal angina, ventricular tachycardia (the UK licence record has no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the UK marketing authorisation number, dosage form and licensed indications" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

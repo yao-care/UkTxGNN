@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension and myocardial infarction"
 ---
 
@@ -46,13 +46,19 @@ but the data compiled for this report contain **no clinical trials and no public
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and myocardial infarction (relations recorded in the knowledge graph; no licence indication text is available for the UK product) |
+| Original Indication | Hypertension and myocardial infarction (relations recorded in the knowledge graph; no licence indication text is available for the UK products) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 0.9985 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (38 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 38 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-atenolol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hypertension and myocardial infarction (relations recorded in the knowledge graph; no licence indication text is available for the UK product)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-atenolol-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -127,8 +133,14 @@ The prediction score is high, but no trial or publication studies atenolol in ma
 **To proceed, the following is needed:**
 - Clinical or observational studies of atenolol in hypertensive renal disease
 - Mechanism of action data to support the link
-- Licence indication text and SmPC safety information for the UK product
+- Licence indication text and SmPC safety information for the UK products
 - A review of dosing and safety in renal impairment
+
+<!-- review:begin uk-lic-20261124c-atenolol-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and SmPC safety information for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-atenolol-2 -->
 
 <!-- review:begin log -->
 
@@ -140,6 +152,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is one single-ingredient product record, listed as valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hypertension and myocardial infarction (relations recorded in the knowledge graph; no licence indication text is available for the UK product) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Licence indication text and SmPC safety information for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

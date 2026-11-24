@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 428
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mycophenolate Mofetil: predicted new indication HIV infectious disease (evidence level L2). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
@@ -138,14 +138,26 @@ Please refer to the SmPC and BNF for full safety information. Report suspected a
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and early studies explored MMF alongside antiretrovirals. However, the only directly relevant interventional trial was withdrawn, the one randomised publication dates from 2004, and no study has established clinical antiviral benefit. Immunosuppression in HIV adds safety concerns, and warnings and contraindications for the UK product are not available.
+The mechanism is plausible and early studies explored MMF alongside antiretrovirals. However, the only directly relevant interventional trial was withdrawn, the one randomised publication dates from 2004, and no study has established clinical antiviral benefit. Immunosuppression in HIV adds safety concerns, and warnings and contraindications for the UK products are not available.
+
+<!-- review:begin uk-lic-20261124c-mycophenolate_mofetil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Immunosuppression in HIV adds safety concerns, and warnings and contraindications for the UK product are not available." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mycophenolate_mofetil-1 -->
 
 **To proceed, the following is needed:**
 - Retrieval of the SmPC and BNF safety information (a blocking gap for safety screening)
-- The original licensed indication and dosage form for the UK authorisation
+- The original licensed indication and dosage form for the UK products
 - Detailed mechanism-of-action data
 - A review of whether modern, well-powered controlled data exist for MMF in HIV
 - A specific interaction and safety plan for use with current antiretroviral regimens
+
+<!-- review:begin uk-lic-20261124c-mycophenolate_mofetil-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The original licensed indication and dosage form for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-mycophenolate_mofetil-2 -->
 
 <!-- review:begin log -->
 
@@ -157,6 +169,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one authorisation is recorded, and its indication text and dosage form are not available in the compiled data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
+| 2026-11-24 | Corrected: "Immunosuppression in HIV adds safety concerns, and warnings and contraindications for the UK product are not available." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "The original licensed indication and dosage form for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olanzapine: predicted new indication benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Bipolar disorder, schizophrenia, depressive disorders"
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **Agoraphobia** (the highest-ra
 
 | Item | Content |
 |------|------|
-| Original Indication | Bipolar disorder, schizophrenia, depressive disorders (the UK licence record contains no indication text) |
+| Original Indication | Bipolar disorder, schizophrenia, depressive disorders (the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Agoraphobia (the model's top-ranked prediction is benign paroxysmal torticollis of infancy; see note below) |
 | TxGNN Prediction Score | 0.9947 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (62 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 62 |
 | Recommended Decision | Hold (treat as a research question) |
+
+<!-- review:begin uk-lic-20261124c-olanzapine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Bipolar disorder, schizophrenia, depressive disorders (the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-olanzapine-1 -->
 
 **Note on prediction choice:** The top-ranked prediction, benign paroxysmal torticollis of infancy (score 0.9954), has no trials or literature (L5) and raises safety concerns for antipsychotic use in infants, so it is not evaluated further here. Agoraphobia is the highest-ranked prediction with a body of supporting literature.
 
@@ -158,9 +164,15 @@ The model score is high, but the supporting evidence for agoraphobia is limited 
 **To proceed, the following is needed:**
 - Randomised controlled trials of olanzapine in agoraphobia or panic disorder with agoraphobia
 - Detailed mechanism of action data
-- Approved indication text and dosage form for the UK authorisation, verified against the MHRA record and the SmPC
+- Approved indication text and dosage form for the UK products, verified against the MHRA record and the SmPC
 - Complete warnings and contraindications from the SmPC and BNF
 - A metabolic and cardiovascular monitoring plan for any anxiety-disorder use
+
+<!-- review:begin uk-lic-20261124c-olanzapine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Approved indication text and dosage form for the UK authorisation, verified against the MHRA record and the SmPC" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-olanzapine-2 -->
 
 <!-- review:begin log -->
 
@@ -172,6 +184,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The single authorisation is a valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for this drug" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Bipolar disorder, schizophrenia, depressive disorders (the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Approved indication text and dosage form for the UK authorisation, verified against the MHRA record and the SmPC" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

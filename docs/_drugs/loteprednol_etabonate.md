@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["serous conjunctivitis except viral", "chronic follicular conjunctivitis", "parasitic conjunctivitis", "conjunctival folliculosis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Loteprednol Etabonate: predicted new indication Serous conjunctivitis except viral (evidence level L5). In the UK: 2 NHSBSA BNF presentation codes"
 ---
 
@@ -127,9 +127,15 @@ All nine predictions are supported by model scores only, apart from one indirect
 - Direct clinical studies in the predicted condition (for pseudomembranous conjunctivitis, ideally randomised and including safety outcomes on viral shedding)
 - Full text of PMID 40638366 to confirm the design, the role of loteprednol and the results
 - Mechanism of action data
-- Licence indication text and SmPC warnings and contraindications for the UK product
+- Licence indication text and SmPC warnings and contraindications for the UK products
 - A clear approach to excluding infectious causes before any steroid use
 - For otitis externa, an assessment of formulation, route and tympanic membrane integrity, since this product is an eye drop
+
+<!-- review:begin uk-lic-20261124c-loteprednol_etabonate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-loteprednol_etabonate-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence list is complete (1 single-ingredient product, valid)" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Lotemax Sm (loteprednol etabonate) prescribing information, Bausch & Lomb Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f9477b5-699f-4d3b-b9a6-0cc238266237) |
+| 2026-11-24 | Corrected: "Licence indication text and SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefpodoxime: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the licence record compiled for this report"
 ---
 
@@ -126,8 +126,14 @@ The prediction rests solely on a TxGNN model (deep learning) score. There are no
 **To proceed, the following is needed:**
 - Mechanism of action data and a credible biological rationale linking cefpodoxime to joint disease
 - Preclinical studies (in vitro or animal models) testing any anti-inflammatory or chondroprotective effect
-- Licence indication text and the SmPC warnings and contraindications for the UK product
+- Licence indication text and the SmPC warnings and contraindications for the UK products
 - A review of whether the model score reflects only similarities the TxGNN model (deep learning) learned between related diseases, rather than biological evidence, before any clinical investment
+
+<!-- review:begin uk-lic-20261124c-cefpodoxime-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication text and the SmPC warnings and contraindications for the UK product" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-cefpodoxime-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record is a single-ingredient product with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
+| 2026-11-24 | Corrected: "Licence indication text and the SmPC warnings and contraindications for the UK product" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

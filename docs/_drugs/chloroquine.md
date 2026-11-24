@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloroquine: predicted new indication Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (evidence level L5). Approved use: Rheumatoid arthritis, systemic and discoid lupus erythe…"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -52,7 +52,13 @@ Chloroquine is an antimalarial that is also used in rheumatoid arthritis and lup
 | Number of BNF Presentation Codes | 12 |
 | Recommended Decision | Hold |
 
-*Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
+*Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK BNF prescribing code data. The scores come from the TxGNN model (deep learning) and may reflect similarities the model learned between related diseases, not biological evidence.*
+
+<!-- review:begin uk-lic-20261124c-chloroquine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "*Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data." Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-chloroquine-1 -->
 
 ## Why is This Prediction Reasonable?
 
@@ -152,6 +158,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both entries are single-ingredient authorisations with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
+| 2026-11-24 | Corrected: "*Note: the original indications are taken from the TxGNN model (deep learning), as no approved indication text was available in the UK licence data." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylphenidate: predicted new indication Faciodigitogenital syndrome (evidence level L5). Approved use: Attention deficit hyperactivity disorder (ADHD)"
 monitor_inn: "Methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **faciodigitogenital syndrome**
 
 | Item | Content |
 |------|------|
-| Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK licence record) |
+| Original Indication | Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK BNF presentation code records) |
 | Predicted New Indication | Faciodigitogenital syndrome |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (115 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 115 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-methylphenidate-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK licence record)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-methylphenidate-1 -->
 
 ---
 
@@ -165,8 +171,14 @@ The prediction for faciodigitogenital syndrome rests on a very high TxGNN score 
 - Mechanism of action data for methylphenidate, to support any mechanistic-link analysis
 - Published or registered evidence (case series, trials) of methylphenidate for behavioural symptoms in faciodigitogenital syndrome
 - Verified label-based warnings and contraindications from the SmPC and BNF, as these are currently missing
-- Confirmation of the licensed indications and dosage forms for the UK authorisation
+- Confirmation of the licensed indications and dosage forms for the UK products
 - Independent validation of the TxGNN signal, ideally by clinical review of whether the proposal is a genuine repurposing opportunity or simply symptomatic ADHD treatment within an existing licensed use
+
+<!-- review:begin uk-lic-20261124c-methylphenidate-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Confirmation of the licensed indications and dosage forms for the UK authorisation" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-methylphenidate-2 -->
 
 <!-- review:begin log -->
 
@@ -178,6 +190,8 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record is a single-ingredient, valid authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Attention deficit hyperactivity disorder (ADHD); narcolepsy (no approved indication text is available in the UK licence record) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Confirmation of the licensed indications and dosage forms for the UK authorisation" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

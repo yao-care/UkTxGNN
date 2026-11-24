@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amorolfine: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Onychomycosis (fungal nail infection)"
 monitor_inn: "Amorolfine"
 predicted_indications: ["drug-induced osteoporosis", "disease of retroperitoneum", "disease of uterine broad ligament", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease"]
@@ -47,13 +47,19 @@ The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Onychomycosis (fungal nail infection); the UK authorisation record compiled for this report contains no indication text |
+| Original Indication | Onychomycosis (fungal nail infection); the UK BNF presentation code records compiled for this report contain no indication text |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (8 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 8 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-amorolfine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Onychomycosis (fungal nail infection); the UK authorisation record compiled for this report contains no indication text" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-amorolfine-1 -->
 
 ---
 
@@ -124,6 +130,19 @@ The prediction rests on model output alone (Evidence Level L5). There are no tri
 - Warnings and contraindications from the SmPC and BNF
 - Evidence that a systemically active formulation would be feasible and safe, as the current topical product is unsuitable for this indication
 - Reprioritisation of the candidate list, since none of the ten predictions has supporting evidence
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Onychomycosis (fungal nail infection); the UK authorisation record compiled for this report contains no indication text &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

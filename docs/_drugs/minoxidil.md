@@ -48,13 +48,19 @@ Evidence is limited to **3 small case-level reports** and **no registered clinic
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension and alopecia (relations recorded in the knowledge graph; the UK licence record contains no indication text) |
+| Original Indication | Hypertension and alopecia (relations recorded in the knowledge graph; the UK BNF presentation code records contain no indication text) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 1.0000 |
 | Evidence Level | L5 |
 | UK Market Status | Listed in the NHSBSA BNF prescribing code list (17 presentation codes) – MHRA licence status is not included in this data |
 | Number of BNF Presentation Codes | 17 |
 | Recommended Decision | Hold |
+
+<!-- review:begin uk-lic-20261124c-minoxidil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Original Indication / Hypertension and alopecia (relations recorded in the knowledge graph; the UK licence record contains no indication text)" Corrected wording only: the text referred to a single UK product, licence or authorisation record, or called the UK market data licence or authorisation data. This site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which lists more than one BNF presentation code for this drug; these are NHS prescribing codes, not MHRA licences, and they carry no indication text. The phrase was changed to the plural or to BNF prescribing codes; the rest of the sentence is unchanged. See the Quick Overview and the BNF code table under UK Market Information. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124c-minoxidil-1 -->
 
 The three reports on hypotrichosis simplex are case reports or case-level combination-therapy studies. They would otherwise suggest L3, but the rules do not allow L1 to L4 here: the data compiled for this report contains no clinical trial and no controlled or observational study directly assessing minoxidil alone for this disease. I have therefore assigned L5 and treated the case reports as supportive anecdotes.
 
@@ -165,6 +171,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record carries no approved indication text, so no UK licensed indication can be stated from these data" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
+| 2026-11-24 | Corrected: "&#124; Original Indication &#124; Hypertension and alopecia (relations recorded in the knowledge graph; the UK licence record contains no indication text) &#124;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 
