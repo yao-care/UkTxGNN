@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 523
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: predicted new indication Breast fibrocystic disease (evidence level L4). In the UK: 40 NHSBSA BNF presentation codes"
@@ -38,9 +38,15 @@ Evidence Level: **L4** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.
+Progesterone is a natural progestogen hormone, listed in the UK BNF prescribing codes in several forms, including capsules.
 The TxGNN model predicts it may be useful for **breast fibrocystic disease**, with a score of 0.9998.
 There are **no registered clinical trials** and **19 publications**, all endocrinological, pathological or mechanistic, so the evidence level is **L4**.
+
+<!-- review:begin uk-lic-20261124b-progesterone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-progesterone-1 -->
 
 ## Quick Overview
 
@@ -136,11 +142,12 @@ The hormonal imbalance hypothesis gives a plausible rationale, but no clinical t
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not currently available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+| 2026-11-24 | Corrected: "Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

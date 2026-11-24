@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 70
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -38,9 +38,15 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Arginine is an amino acid that is marketed in the UK in single-ingredient liquid and powder products, although no approved indication text is available in the data compiled for this report.
+Arginine is an amino acid that is listed in the UK BNF prescribing codes in several single-ingredient forms, including oral solutions and powders, although no approved indication text is available in the data compiled for this report.
 The TxGNN model predicts it may be useful for **gastroparesis**, but there are **no registered clinical trials** and the **9 publications** identified are mostly preclinical or unrelated to arginine itself.
 Evidence is therefore limited to a model prediction plus a plausible mechanistic rationale.
+
+<!-- review:begin uk-lic-20261124b-arginine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in the UK in single-ingredient liquid and powder products," Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-arginine-1 -->
 
 ## Quick Overview
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both products are listed as valid, single-ingredient authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "for the two UK authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "marketed in the UK in single-ingredient liquid and powder products," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

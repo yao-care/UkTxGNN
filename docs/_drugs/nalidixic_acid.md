@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nalidixic Acid: predicted new indication Conjunctivitis (evidence level L5). Approved use: Not recorded in the compiled data (the authorisation entry has no ind…"
 monitor_inn: "Nalidixic acid"
 predicted_indications: ["conjunctivitis", "sclerosing cholangitis", "rheumatoid arthritis", "infectious otitis media"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **4**
 
 ## One-Sentence Summary
 
-Nalidixic acid is a first-generation quinolone antibacterial. It is marketed in the UK as an oral suspension, but the data compiled for this report do not record its approved indication.
+Nalidixic acid is a first-generation quinolone antibacterial. It is listed in the UK BNF prescribing codes in several oral forms, including an oral suspension, but the data compiled for this report do not record its approved indication.
 The TxGNN model predicts it may be effective for **conjunctivitis**, but there are **no registered clinical trials** and only **5 publications**, none of which studies nalidixic acid in eye infection.
+
+<!-- review:begin uk-lic-20261124b-nalidixic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "It is marketed in the UK as an oral suspension," Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-nalidixic_acid-1 -->
 
 ---
 
@@ -168,6 +174,7 @@ Below is the review log for this page: statements checked against the official d
 | 2026-11-24 | Removed: "as only an oral suspension is currently authorised" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-24 | Removed: "The compiled data show one valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data are not available in the compiled data" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL5 (nalidixic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5) |
+| 2026-11-24 | Corrected: "It is marketed in the UK as an oral suspension," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

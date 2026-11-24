@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: predicted new indication hypermobility of coccyx (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes"
 ---
 
@@ -107,13 +107,19 @@ Showing 20 of 21 BNF presentation codes. Source: NHSBSA BNF code information (NH
 
 <!-- licenses:end -->
 
-The approved indication text is not recorded in the local data, and the dosage form is not recorded either. The product is listed as a 50 mg/mL pre-filled syringe injection.
+The approved indication text is not recorded in the local data, and the dosage form is not recorded either.
 
 <!-- review:begin uk-lic-20261106-etanercept-1 -->
 
 > **Review correction (2026-11-24)**: Originally stated: "Etanercept is marketed in the UK, with one valid single-ingredient licence recorded in the local data and none cancelled. The approved indication text is not recorded in the local data, and the dosage form is not recorded either." Removed: it treated BNF prescribing codes as MHRA licences or stated a licence status or count; this site's market data is the NHSBSA BNF prescribing code list, rebuilt by ingredient on 2026-11-06, which lists NHS prescribing codes and does not include MHRA licence status. The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
 
 <!-- review:end uk-lic-20261106-etanercept-1 -->
+
+<!-- review:begin uk-lic-20261124b-etanercept-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The product is listed as a 50 mg/mL pre-filled syringe injection." Removed: the sentence described a single 50 mg/mL pre-filled syringe; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists etanercept as vials, pre-filled syringes and pre-filled pens in more than one strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-etanercept-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Etanercept is marketed in the UK, with one valid single-ingredient licence recorded in the local data and none cancelled" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+| 2026-11-24 | Removed: "The product is listed as a 50 mg/mL pre-filled syringe injection." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

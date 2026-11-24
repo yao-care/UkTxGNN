@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 429
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nabilone: predicted new indication Migraine disorder (evidence level L4). Approved use: Not stated in the UK authorisation data compiled for this report (nab…"
 monitor_inn: "Nabilone"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "ulerythema ophryogenesis", "manic bipolar affective disorder", "Tourette syndrome"]
@@ -38,8 +38,14 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Nabilone is a synthetic cannabinoid (CB1/CB2 receptor agonist), marketed in the UK as a 1 mg capsule.
+Nabilone is a synthetic cannabinoid (CB1/CB2 receptor agonist), listed in the UK BNF prescribing codes as capsules in several strengths, including 1 mg.
 The TxGNN model predicts it may be useful for **migraine disorder**, with **no registered clinical trials** and only **one directly relevant systematic review** currently supporting this direction. The strongest signal in the data compiled for this report is a small preliminary randomised trial of nabilone in the closely related condition of **medication overuse headache**.
+
+<!-- review:begin uk-lic-20261124b-nabilone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in the UK as a 1 mg capsule." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-nabilone-1 -->
 
 ---
 
@@ -146,11 +152,12 @@ The prediction score is high, but there are no registered trials for migraine an
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL2218896 (nabilone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2218896) |
+| 2026-11-24 | Corrected: "marketed in the UK as a 1 mg capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

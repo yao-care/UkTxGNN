@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 120
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: predicted new indication Myelodysplastic syndrome (evidence level L1). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Busulfan"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -38,7 +38,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet. The TxGNN model predicts it may be useful for **myelodysplastic syndrome (MDS)**, as the backbone of conditioning before allogeneic stem cell transplantation. This direction is supported by **39 clinical trials** and **20 publications** in the data compiled for this report, including randomised comparative studies.
+Busulfan is an alkylating (DNA cross-linking) chemotherapy agent, listed in the UK BNF prescribing codes in oral and intravenous forms, including 2 mg tablets. The TxGNN model predicts it may be useful for **myelodysplastic syndrome (MDS)**, as the backbone of conditioning before allogeneic stem cell transplantation. This direction is supported by **39 clinical trials** and **20 publications** in the data compiled for this report, including randomised comparative studies.
+
+<!-- review:begin uk-lic-20261124b-busulfan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-busulfan-1 -->
 
 ---
 
@@ -189,6 +195,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient product is recorded, and it is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+| 2026-11-24 | Corrected: "Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

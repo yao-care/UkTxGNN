@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Formaldehyde"
 predicted_indications: ["leishmaniasis, diffuse cutaneous", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "mucocutaneous leishmaniasis", "pyelonephritis", "streptococcal pneumonia", "X-linked lymphoproliferative syndrome", "trigonitis", "hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "Plasmodium falciparum malaria"]
 description: "Formaldehyde: predicted new indication Leishmaniasis, diffuse cutaneous (evidence level L5). In the UK: 8 NHSBSA BNF presentation codes"
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Formaldehyde is recorded in the TxGNN knowledge graph as linked to influenza (for example through its use in inactivating vaccine antigens), and is marketed in the UK as a topical gel.
+Formaldehyde is recorded in the TxGNN knowledge graph as linked to influenza (for example through its use in inactivating vaccine antigens), and is listed in the UK BNF prescribing codes as topical solutions and gels.
 The TxGNN model predicts it may be effective for **diffuse cutaneous leishmaniasis**, but there are **no clinical trials** and **no related publications** supporting this prediction.
 The score is a computational output only, and the available data point to safety concerns rather than benefit.
+
+<!-- review:begin uk-lic-20261124b-formaldehyde-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and is marketed in the UK as a topical gel." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-formaldehyde-1 -->
 
 ---
 
@@ -124,6 +130,19 @@ The prediction rests on a model score alone (evidence level L5), with no trials 
 - Mechanism of action data and a clear rationale for the route of administration (topical use would need separate justification)
 - Complete safety information from the SmPC and BNF for the marketed gel, including contraindications and warnings
 - A review of whether less toxic, established anti-leishmanial options already address the clinical need
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "and is marketed in the UK as a topical gel." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

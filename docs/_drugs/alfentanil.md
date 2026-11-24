@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the licence data compiled for this report (general use:…"
 monitor_inn: "Alfentanil"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -111,7 +111,26 @@ The prediction rests only on a high model score (L5). There are no trials or pub
 - Preclinical evidence (for example, AVPR2 gain-of-function models) showing any benefit
 - Label-based warnings and contraindications from the SmPC and BNF, including renal safety review
 - Licensed indication text and dosage form for the UK authorisation
-- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled
+- Assessment of route compatibility
+
+<!-- review:begin uk-lic-20261124b-alfentanil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-alfentanil-1 -->
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

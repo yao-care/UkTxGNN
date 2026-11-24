@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etonogestrel: predicted new indication amenorrhea (disease) (evidence level L5). Approved use: Not stated in the data compiled for this report (implant product…"
 monitor_inn: "Etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 ## One-Sentence Summary
 
-Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant. The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **no registered clinical trials** and **no relevant publications** supporting this prediction. The only linked paper concerns a different drug in COVID-19, so this is a model prediction only.
+Etonogestrel is a progestin, listed in the UK BNF prescribing codes as a 68 mg subdermal implant and, with ethinylestradiol, as a vaginal delivery system. The TxGNN model predicts it may be effective for **amenorrhoea**, but there are **no registered clinical trials** and **no relevant publications** supporting this prediction. The only linked paper concerns a different drug in COVID-19, so this is a model prediction only.
+
+<!-- review:begin uk-lic-20261124b-etonogestrel-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-etonogestrel-1 -->
 
 ---
 
@@ -130,11 +136,12 @@ The prediction rests on model output alone (L5). Amenorrhoea is an expected effe
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
+| 2026-11-24 | Corrected: "Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

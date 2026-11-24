@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glucagon: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the UK licence data compiled for this report"
 monitor_inn: "Glucagon"
 predicted_indications: ["irritable bowel syndrome"]
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus diluent). The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**. However, the supporting evidence is indirect: **2 clinical trials** and **20 publications** were identified, but the trials tested GLP-1 analogues rather than glucagon.
+Glucagon is a pancreatic peptide hormone, listed in the UK BNF prescribing codes as injections (powder-plus-diluent kits, vials and pre-filled devices). The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**. However, the supporting evidence is indirect: **2 clinical trials** and **20 publications** were identified, but the trials tested GLP-1 analogues rather than glucagon.
+
+<!-- review:begin uk-lic-20261124b-glucagon-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus diluent)." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-glucagon-1 -->
 
 ---
 
@@ -142,11 +148,12 @@ The TxGNN score is very high, but the evidence is indirect. The trials and most 
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data for glucagon is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+| 2026-11-24 | Corrected: "Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus diluent)." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

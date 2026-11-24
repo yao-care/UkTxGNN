@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 134
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Not stated in the available authorisation data (the product is classe…"
 monitor_inn: "Carbocisteine"
 predicted_indications: ["gout"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule. The data compiled for this report do not state its approved indication.
+Carbocisteine is a mucolytic agent listed in the UK BNF prescribing codes in several oral forms, including 375 mg capsules. The data compiled for this report do not state its approved indication.
 The TxGNN model predicts it may be effective for **gout**, but there are currently **no clinical trials** and **no publications** supporting this direction. The prediction rests on the model score alone.
+
+<!-- review:begin uk-lic-20261124b-carbocisteine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-carbocisteine-1 -->
 
 ## Quick Overview
 
@@ -114,6 +120,19 @@ The only support for this prediction is a model score. There are no clinical tri
 - Mechanism of action data to test whether antioxidant or anti-inflammatory effects are relevant to gout
 - A systematic search for preclinical or clinical studies of carbocisteine in gout or crystal-induced inflammation
 - A comparison with established gout treatments (urate-lowering therapy, anti-inflammatory therapy) to define any plausible role
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

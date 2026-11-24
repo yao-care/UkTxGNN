@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 258
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estriol: predicted new indication Amenorrhoea (evidence level L3). Approved use: Not stated in the UK authorisation data compiled for this report (Dru…"
 monitor_inn: "Estriol"
 predicted_indications: ["amenorrhea (disease)"]
@@ -138,18 +138,25 @@ The evidence consists of one small physiological study and one review in FHA, wi
 - UK SmPC and BNF warnings and contraindications for the authorised product, and its approved indication and dosage form
 - Mechanism of action data confirmed from DrugBank or the SmPC
 - Clinical efficacy data (menstrual recovery, ovulation) from controlled studies in FHA
-- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream
+- Assessment of route and formulation suitability
 - A comparison with established FHA management (lifestyle and nutritional correction, and standard hormone therapy)
+
+<!-- review:begin uk-lic-20261124b-estriol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-estriol-1 -->
 
 <!-- review:begin log -->
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-24 | Corrected: "- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

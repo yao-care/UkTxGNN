@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest: predicted new indication Amenorrhoea (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -141,9 +141,15 @@ The prediction rests on model score alone. Amenorrhoea is an expected pharmacolo
 **To proceed, the following is needed:**
 - Label warnings and contraindications from the SmPC and BNF, which are currently missing and block safety screening
 - Mechanism of action data (for example from DrugBank)
-- Licence indication and dosage form details for both authorisations
+- Licence indication and dosage form details for the UK products
 - A clear clinical question defining which type of amenorrhoea (if any) would be treated, and why a progestin that suppresses oestradiol would be appropriate
 - Clinical or observational studies in the proposed population before any further development
+
+<!-- review:begin uk-lic-20261124b-dienogest-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Licence indication and dosage form details for both authorisations" Removed the product count ("two" or "both"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-dienogest-1 -->
 
 <!-- review:begin log -->
 
@@ -155,6 +161,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-24 | Corrected: "- Licence indication and dosage form details for both authorisations" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

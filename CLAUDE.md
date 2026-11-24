@@ -564,3 +564,13 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 - 2026-11-24 第一次套用（資料 data-20261116-160902）：句型明確、要改的正文筆數句 0 句（10-31～11-06 的刪句已清掉大部分）。另寫的寬偵測（獨立於改寫規則，含待辦、含 noindex）掃到 41 句，標註後要改 25 句：
   市場段落說明句把程式表講成只有一筆或單方的 8 句以 `uk-lic-20261124-*` 更正（didanosine、levamisole、inositol_nicotinate、nisoldipine、terlipressin、menotropins 刪句；felypressin 單方→prilocaine/felypressin 複方；fenoterol「Both products … 3.1.4」→3.1）、上面 3 筆紀錄重發；
   待辦 10 句、結論決策理由 2 句、摘要劑型 2 句列進待查清單（open）。另有 44 頁摘要寫「marketed in the UK as a <劑型>」（依舊證據包的一筆寫的，現在多數有多種劑型），屬劑型子集、超過 30 頁，未處理、待用戶決定。checker 前後都是 0/633；gate exit 0。正文有變的 11 頁 last_modified_at 改 2026-11-24，只改查核框說明的頁不動。
+
+## 劑型說法與待查句的逐句更正（2026-11-24 第二輪）
+
+用戶 2026-11-24 第二輪決定：第一輪列進待查的 14 句與「marketed in the UK as a <劑型>」這類劑型說法（依舊證據包單一筆寫的），逐句對照證據包（Release data-20261116-160902）全部 BNF presentation 的劑型與規格。
+- 不成立的寫 correct 紀錄 `uk-lic-20261124b-<藥>-N`（58 筆、56 頁）：摘要句 39 句改成成立的寫法「listed in the UK BNF prescribing codes in several forms, including <原劑型>」（不寫張數；例 methadone「marketed in the UK as a 5 mg tablet」→「in many forms, including 5 mg tablets」，ivabradine 的「UK marketing authorisation」一併改成 BNF 代碼口徑）；
+  BNF 清單沒有本藥的 cysteine、xylitol 刪掉「在英國有產品」子句；etanercept 刪「listed as a 50 mg/mL pre-filled syringe」；待辦與結論 17 句只拿掉「only one UK product／only a gel／two／both」這類錯的前提，建議內容不動（doxycycline 證據包另有漱口液，前提整段拿掉）。
+- 查證後成立、不改的 18 頁：dexketoprofen（4 個代碼都是含 25 mg 的錠劑）、dorzolamide、flumethasone、methyl_aminolevulinate、parathyroid_hormone、penciclovir、piperacillin、ropivacaine、stannous_fluoride、terlipressin、tocofersolan、yohimbine、rimexolone、tioconazole、travoprost、fulvestrant、flunisolide、aspirin（判定理由在本機產生器 decisions.py 的 HOLD，未進 repo）。
+- 待查清單 2026-11-24 的 14 項全部標 resolved（附 record_ids）；mechanism of action 76 項維持 open。
+- 正文有變的 56 頁 last_modified_at 改 2026-11-24。checker 前後 0；gate exit 0；寬偵測（同句有劑型字、only／single／both／as a、UK／listed 等字樣）改前 72 句、改後 25 句，剩下都是成立句或這次改寫後的句子。
+- 沒處理：約 300 處單數泛稱（「for the UK product」「the UK licence record has no indication text」，含原適應症格與 description），不是張數或劑型全稱、句數多，待用戶決定；acenocoumarol、eltrombopag、fenbufen 3 個公開頁沒有市場段落（有 BNF 代碼），照程式表規則不新增段落。

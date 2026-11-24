@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Meptazinol"
 predicted_indications: ["insomnia (disease)"]
 description: "Meptazinol: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 4 NHSBSA BNF presentation codes"
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Meptazinol is a partial mu-opioid agonist with cholinergic activity, marketed in the UK as a tablet; the data compiled for this report do not record a specific approved indication.
+Meptazinol is a partial mu-opioid agonist with cholinergic activity, listed in the UK BNF prescribing codes as tablets and an injection; the data compiled for this report do not record a specific approved indication.
 The TxGNN model predicts it may be effective for **insomnia**, but there are **no clinical trials** and **no publications** supporting this direction.
 The evidence rests on the model prediction alone.
+
+<!-- review:begin uk-lic-20261124b-meptazinol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in the UK as a tablet;" Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-meptazinol-1 -->
 
 ---
 
@@ -148,6 +154,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded. The record does not include manufacturer, dosage form detail or indication text" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available from the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL314437 (meptazinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL314437) |
+| 2026-11-24 | Corrected: "marketed in the UK as a tablet;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

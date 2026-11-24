@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Felbinac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "combined immunodeficiency due to moesin deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Felbinac: predicted new indication brachyolmia-amelogenesis imperfecta syndrome (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes"
 ---
 
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3% gel.
+Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) listed in the UK BNF prescribing codes in topical forms, including a 3% gel.
 The TxGNN model predicts it may be relevant to **brachyolmia-amelogenesis imperfecta syndrome**, with a score of 0.9999.
 There are **no clinical trials** and **no publications** supporting this prediction, so it rests on the model output alone.
+
+<!-- review:begin uk-lic-20261124b-felbinac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3% gel." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-felbinac-1 -->
 
 ---
 
@@ -132,6 +138,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The single record is a single-ingredient licence and is currently valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3% gel." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

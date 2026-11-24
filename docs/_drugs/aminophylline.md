@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 51
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aminophylline: predicted new indication Migraine disorder (evidence level L4). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -38,8 +38,14 @@ Evidence Level: **L4** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet.
+Aminophylline is a methylxanthine (a theophylline salt) listed in the UK BNF prescribing codes in several dosage forms, including 225 mg modified-release tablets.
 The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **no registered clinical trials** and only **4 publications** (one 2023 review, two case reports, and one 1964 review), so the prediction rests mainly on mechanistic plausibility.
+
+<!-- review:begin uk-lic-20261124b-aminophylline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-aminophylline-1 -->
 
 ---
 
@@ -140,11 +146,12 @@ The TxGNN score is high, but there are no clinical trials in migraine, and the l
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+| 2026-11-24 | Corrected: "Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

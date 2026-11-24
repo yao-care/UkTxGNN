@@ -31363,6 +31363,1171 @@
    "checked": "2026-11-24",
    "summary": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
    "method": "2026-11-24 人工逐句對照快照（snapshots/uk_licenses.json.gz rows／facts）"
+  },
+  {
+   "id": "uk-lic-20261124b-aminophylline-1",
+   "drug": "aminophylline",
+   "file": "aminophylline.md",
+   "action": "correct",
+   "claim": "Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet.",
+   "replacement": "Aminophylline is a methylxanthine (a theophylline salt) listed in the UK BNF prescribing codes in several dosage forms, including 225 mg modified-release tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a modified-release 225 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-benzydamine-1",
+   "drug": "benzydamine",
+   "file": "benzydamine.md",
+   "action": "correct",
+   "claim": "Benzydamine is a locally acting anti-inflammatory agent, marketed in the UK as a 0.15% sugar-free mouthwash.",
+   "replacement": "Benzydamine is a locally acting anti-inflammatory agent, listed in the UK BNF prescribing codes in several forms, including a 0.15% sugar-free mouthwash.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Benzydamine is a locally acting anti-inflammatory agent, marketed in the UK as a 0.15% sugar-free mouthwash.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-busulfan-1",
+   "drug": "busulfan",
+   "file": "busulfan.md",
+   "action": "correct",
+   "claim": "Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet.",
+   "replacement": "Busulfan is an alkylating (DNA cross-linking) chemotherapy agent, listed in the UK BNF prescribing codes in oral and intravenous forms, including 2 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-calcipotriol-1",
+   "drug": "calcipotriol",
+   "file": "calcipotriol.md",
+   "action": "correct",
+   "claim": "Calcipotriol is a topical vitamin D3 analogue marketed in the UK as a 50 microgram/g ointment.",
+   "replacement": "Calcipotriol is a topical vitamin D3 analogue listed in the UK BNF prescribing codes in several topical forms, including a 50 microgram/g ointment.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Calcipotriol is a topical vitamin D3 analogue marketed in the UK as a 50 microgram/g ointment.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-carbocisteine-1",
+   "drug": "carbocisteine",
+   "file": "carbocisteine.md",
+   "action": "correct",
+   "claim": "Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule.",
+   "replacement": "Carbocisteine is a mucolytic agent listed in the UK BNF prescribing codes in several oral forms, including 375 mg capsules.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-codeine-1",
+   "drug": "codeine",
+   "file": "codeine.md",
+   "action": "correct",
+   "claim": "Codeine is an opioid analgesic and antitussive that is currently marketed in the UK as a combination tablet with ibuprofen.",
+   "replacement": "Codeine is an opioid analgesic and antitussive listed in the UK BNF prescribing codes in many single-ingredient and combination products, including combination tablets with ibuprofen.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Codeine is an opioid analgesic and antitussive that is currently marketed in the UK as a combination tablet with ibuprofen.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-cysteine-1",
+   "drug": "cysteine",
+   "file": "cysteine.md",
+   "action": "correct",
+   "claim": "Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product.",
+   "replacement": "Cysteine is a sulphur-containing amino acid and a precursor of glutathione.",
+   "note": "Removed: the UK product description came from the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) does not list this drug. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "正文說本藥在英國有產品，現行 BNF 代碼清單（證據包）沒有本藥（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-desogestrel-1",
+   "drug": "desogestrel",
+   "file": "desogestrel.md",
+   "action": "correct",
+   "claim": "Desogestrel is a progestogen, marketed in the UK as a 75 microgram progestogen-only tablet.",
+   "replacement": "Desogestrel is a progestogen, listed in the UK BNF prescribing codes as 75 microgram progestogen-only tablets and, with ethinylestradiol, as combined tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Desogestrel is a progestogen, marketed in the UK as a 75 microgram progestogen-only tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-desogestrel-2",
+   "drug": "desogestrel",
+   "file": "desogestrel.md",
+   "action": "correct",
+   "claim": "This matters because the UK product is a progestogen-only pill, which commonly causes amenorrhoea",
+   "replacement": "This matters because the UK desogestrel-only products are progestogen-only pills, which commonly cause amenorrhoea",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"This matters because the UK product is a progestogen-only pill, which commonly causes amenorrhoea\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-etonogestrel-1",
+   "drug": "etonogestrel",
+   "file": "etonogestrel.md",
+   "action": "correct",
+   "claim": "Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant.",
+   "replacement": "Etonogestrel is a progestin, listed in the UK BNF prescribing codes as a 68 mg subdermal implant and, with ethinylestradiol, as a vaginal delivery system.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-etoricoxib-1",
+   "drug": "etoricoxib",
+   "file": "etoricoxib.md",
+   "action": "correct",
+   "claim": "Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet,",
+   "replacement": "Etoricoxib is a selective COX-2 inhibitor listed in the UK BNF prescribing codes as tablets in several strengths, including 60 mg,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-felbinac-1",
+   "drug": "felbinac",
+   "file": "felbinac.md",
+   "action": "correct",
+   "claim": "Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3% gel.",
+   "replacement": "Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) listed in the UK BNF prescribing codes in topical forms, including a 3% gel.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3% gel.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch.",
+   "replacement": "Fentanyl is a potent mu-opioid receptor agonist, listed in the UK BNF prescribing codes in several forms, including transdermal patches.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-flavoxate-1",
+   "drug": "flavoxate",
+   "file": "flavoxate.md",
+   "action": "correct",
+   "claim": "marketed in the UK as a 200 mg tablet.",
+   "replacement": "listed in the UK BNF prescribing codes in several oral forms, including 200 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in the UK as a 200 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-formaldehyde-1",
+   "drug": "formaldehyde",
+   "file": "formaldehyde.md",
+   "action": "correct",
+   "claim": "and is marketed in the UK as a topical gel.",
+   "replacement": "and is listed in the UK BNF prescribing codes as topical solutions and gels.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and is marketed in the UK as a topical gel.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-gamolenic_acid-1",
+   "drug": "gamolenic_acid",
+   "file": "gamolenic_acid.md",
+   "action": "correct",
+   "claim": "Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule.",
+   "replacement": "Gamolenic acid (GLA) is an omega-6 fatty acid listed in the UK BNF prescribing codes mainly as capsules, including 80 mg capsules.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-glucagon-1",
+   "drug": "glucagon",
+   "file": "glucagon.md",
+   "action": "correct",
+   "claim": "Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus diluent).",
+   "replacement": "Glucagon is a pancreatic peptide hormone, listed in the UK BNF prescribing codes as injections (powder-plus-diluent kits, vials and pre-filled devices).",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus diluent).\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-granisetron-1",
+   "drug": "granisetron",
+   "file": "granisetron.md",
+   "action": "correct",
+   "claim": "Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet.",
+   "replacement": "Granisetron is a selective 5-HT3 receptor antagonist, listed in the UK BNF prescribing codes in several forms, including 1 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-levocarnitine-1",
+   "drug": "levocarnitine",
+   "file": "levocarnitine.md",
+   "action": "correct",
+   "claim": "and it is marketed in the UK as a single-ingredient capsule.",
+   "replacement": "and it is listed in the UK BNF prescribing codes as single-ingredient products in several forms, including capsules.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and it is marketed in the UK as a single-ingredient capsule.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-levocarnitine-2",
+   "drug": "levocarnitine",
+   "file": "levocarnitine.md",
+   "action": "correct",
+   "claim": "since the completed trial used an injection and the UK product is an oral capsule",
+   "replacement": "since the completed trial used an injection",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"since the completed trial used an injection and the UK product is an oral capsule\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-lormetazepam-1",
+   "drug": "lormetazepam",
+   "file": "lormetazepam.md",
+   "action": "correct",
+   "claim": "Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.",
+   "replacement": "Lormetazepam is a benzodiazepine listed in the UK BNF prescribing codes as tablets and oral suspensions, including 500 microgram tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-maraviroc-1",
+   "drug": "maraviroc",
+   "file": "maraviroc.md",
+   "action": "correct",
+   "claim": "Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;",
+   "replacement": "Maraviroc is a CCR5 antagonist listed in the UK BNF prescribing codes as tablets and an oral solution, including 150 mg tablets;",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-meptazinol-1",
+   "drug": "meptazinol",
+   "file": "meptazinol.md",
+   "action": "correct",
+   "claim": "marketed in the UK as a tablet;",
+   "replacement": "listed in the UK BNF prescribing codes as tablets and an injection;",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in the UK as a tablet;\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-methadone-1",
+   "drug": "methadone",
+   "file": "methadone.md",
+   "action": "correct",
+   "claim": "Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.",
+   "replacement": "Methadone is a long-acting opioid agonist, listed in the UK BNF prescribing codes in many forms, including 5 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-misoprostol-1",
+   "drug": "misoprostol",
+   "file": "misoprostol.md",
+   "action": "correct",
+   "claim": "Misoprostol is a prostaglandin E1 analogue marketed in the UK as a 200 microgram tablet,",
+   "replacement": "Misoprostol is a prostaglandin E1 analogue listed in the UK BNF prescribing codes in several forms, including 200 microgram tablets,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Misoprostol is a prostaglandin E1 analogue marketed in the UK as a 200 microgram tablet,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-nabilone-1",
+   "drug": "nabilone",
+   "file": "nabilone.md",
+   "action": "correct",
+   "claim": "marketed in the UK as a 1 mg capsule.",
+   "replacement": "listed in the UK BNF prescribing codes as capsules in several strengths, including 1 mg.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in the UK as a 1 mg capsule.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-nalidixic_acid-1",
+   "drug": "nalidixic_acid",
+   "file": "nalidixic_acid.md",
+   "action": "correct",
+   "claim": "It is marketed in the UK as an oral suspension,",
+   "replacement": "It is listed in the UK BNF prescribing codes in several oral forms, including an oral suspension,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"It is marketed in the UK as an oral suspension,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-nefopam-1",
+   "drug": "nefopam",
+   "file": "nefopam.md",
+   "action": "correct",
+   "claim": "Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30 mg tablet.",
+   "replacement": "Nefopam is a centrally acting non-opioid analgesic listed in the UK BNF prescribing codes in several forms, including 30 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-nepafenac-1",
+   "drug": "nepafenac",
+   "file": "nepafenac.md",
+   "action": "correct",
+   "claim": "marketed in the UK as a 1 mg/ml eye drop.",
+   "replacement": "listed in the UK BNF prescribing codes as eye drops in more than one strength, including 1 mg/ml.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in the UK as a 1 mg/ml eye drop.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-nystatin-1",
+   "drug": "nystatin",
+   "file": "nystatin.md",
+   "action": "correct",
+   "claim": "Nystatin is a polyene antifungal medicine that is marketed in the UK as an oral suspension.",
+   "replacement": "Nystatin is a polyene antifungal medicine listed in the UK BNF prescribing codes in several forms, including an oral suspension.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Nystatin is a polyene antifungal medicine that is marketed in the UK as an oral suspension.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-pristinamycin-1",
+   "drug": "pristinamycin",
+   "file": "pristinamycin.md",
+   "action": "correct",
+   "claim": "Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.",
+   "replacement": "Pristinamycin is a streptogramin antibiotic listed in the UK BNF prescribing codes as tablets, including 500 mg tablets.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-progesterone-1",
+   "drug": "progesterone",
+   "file": "progesterone.md",
+   "action": "correct",
+   "claim": "Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.",
+   "replacement": "Progesterone is a natural progestogen hormone, listed in the UK BNF prescribing codes in several forms, including capsules.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-selenium-1",
+   "drug": "selenium",
+   "file": "selenium.md",
+   "action": "correct",
+   "claim": "Selenium is an essential trace element, marketed in the UK as an injectable product,",
+   "replacement": "Selenium is an essential trace element, listed in the UK BNF prescribing codes in several forms, including injectable products,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-tryptophan-1",
+   "drug": "tryptophan",
+   "file": "tryptophan.md",
+   "action": "correct",
+   "claim": "It is marketed in the UK as a 500 mg tablet,",
+   "replacement": "It is listed in the UK BNF prescribing codes as tablets and capsules, including 500 mg tablets,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-xylitol-1",
+   "drug": "xylitol",
+   "file": "xylitol.md",
+   "action": "correct",
+   "claim": "Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no approved indication",
+   "replacement": "Xylitol is a sugar alcohol; no approved indication",
+   "note": "Removed: the UK product description came from the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) does not list this drug. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "正文說本藥在英國有產品，現行 BNF 代碼清單（證據包）沒有本藥（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no approved indication\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-ivabradine-1",
+   "drug": "ivabradine",
+   "file": "ivabradine.md",
+   "action": "correct",
+   "claim": "Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg tablet.",
+   "replacement": "Ivabradine is a heart-rate-lowering medicine listed in the UK BNF prescribing codes as tablets in several strengths, including 5 mg.",
+   "note": "Corrected: this site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which does not include MHRA marketing authorisations, and it lists this drug as tablets in more than one strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "把 BNF 代碼當成 MHRA 許可，且規格不只 5 mg（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg tablet.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-l-lysine-1",
+   "drug": "l-lysine",
+   "file": "l-lysine.md",
+   "action": "correct",
+   "claim": "L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet,",
+   "replacement": "L-Lysine is an essential amino acid listed in the UK BNF prescribing codes as tablets and powders, including 1 g tablets,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-etanercept-1",
+   "drug": "etanercept",
+   "file": "etanercept.md",
+   "action": "correct",
+   "claim": " The product is listed as a 50 mg/mL pre-filled syringe injection.",
+   "replacement": "",
+   "note": "Removed: the sentence described a single 50 mg/mL pre-filled syringe; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists etanercept as vials, pre-filled syringes and pre-filled pens in more than one strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "說只有 50 mg/mL 預充填注射器，證據包有多種劑型與規格（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"The product is listed as a 50 mg/mL pre-filled syringe injection.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格",
+   "anchor": "The approved indication text is not recorded in the local data, and the dosage form is not recorded either."
+  },
+  {
+   "id": "uk-lic-20261124b-arginine-1",
+   "drug": "arginine",
+   "file": "arginine.md",
+   "action": "correct",
+   "claim": "marketed in the UK in single-ingredient liquid and powder products,",
+   "replacement": "listed in the UK BNF prescribing codes in several single-ingredient forms, including oral solutions and powders,",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"marketed in the UK in single-ingredient liquid and powder products,\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-ciprofloxacin-1",
+   "drug": "ciprofloxacin",
+   "file": "ciprofloxacin.md",
+   "action": "correct",
+   "claim": "Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral tablet and as eye drops.",
+   "replacement": "Ciprofloxacin is a fluoroquinolone antibiotic listed in the UK BNF prescribing codes in several forms, including oral tablets and eye drops.",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral tablet and as eye drops.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-alfentanil-1",
+   "drug": "alfentanil",
+   "file": "alfentanil.md",
+   "action": "correct",
+   "claim": "- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled",
+   "replacement": "- Assessment of route compatibility",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Assessment of route compatibility, since alfentanil is available only as an injection in the data compiled\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-perampanel-1",
+   "drug": "perampanel",
+   "file": "perampanel.md",
+   "action": "correct",
+   "claim": " (the data lists tablets only; oral suspension is described in the literature)",
+   "replacement": "",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"(the data lists tablets only; oral suspension is described in the literature)\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格",
+   "anchor": "- Confirmation of the approved indication text and available formulations"
+  },
+  {
+   "id": "uk-lic-20261124b-periciazine-1",
+   "drug": "periciazine",
+   "file": "periciazine.md",
+   "action": "correct",
+   "claim": "and only oral tablets are recorded",
+   "replacement": "and only oral preparations are recorded",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and only oral tablets are recorded\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-benzocaine-1",
+   "drug": "benzocaine",
+   "file": "benzocaine.md",
+   "action": "correct",
+   "claim": " (current records show only a gel product)",
+   "replacement": "",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"(current records show only a gel product)\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格",
+   "anchor": "- Confirmation of an ophthalmic-suitable formulation and route"
+  },
+  {
+   "id": "uk-lic-20261124b-budesonide-1",
+   "drug": "budesonide",
+   "file": "budesonide.md",
+   "action": "correct",
+   "claim": "- Confirmation of an available topical formulation, as the only UK product identified is an oral enteric-coated capsule",
+   "replacement": "- Confirmation of an available topical formulation",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Confirmation of an available topical formulation, as the only UK product identified is an oral enteric-coated capsule\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-dienogest-1",
+   "drug": "dienogest",
+   "file": "dienogest.md",
+   "action": "correct",
+   "claim": "- Licence indication and dosage form details for both authorisations",
+   "replacement": "- Licence indication and dosage form details for the UK products",
+   "note": "Removed the product count (\"two\" or \"both\"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目寫「兩個／兩張」，證據包 BNF presentation 不只兩個；只拿掉張數（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Licence indication and dosage form details for both authorisations\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-doxycycline-1",
+   "drug": "doxycycline",
+   "file": "doxycycline.md",
+   "action": "correct",
+   "claim": ", since only an oral modified-release formulation is recorded locally",
+   "replacement": "",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）；證據包另有 betamethasone/doxycycline/nystatin 漱口液與多種口服劑型，前提整段拿掉",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"since only an oral modified-release formulation is recorded locally\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格",
+   "anchor": "- Label warnings and contraindications, and ocular-route feasibility"
+  },
+  {
+   "id": "uk-lic-20261124b-estriol-1",
+   "drug": "estriol",
+   "file": "estriol.md",
+   "action": "correct",
+   "claim": "- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream",
+   "replacement": "- Assessment of route and formulation suitability",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Assessment of route and formulation suitability, since the only UK product identified is a vaginal cream\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-fluorouracil-1",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "action": "correct",
+   "claim": " (the single listed product is a cream, which is not suited to a systemic tumour)",
+   "replacement": "",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Removed: \"(the single listed product is a cream, which is not suited to a systemic tumour)\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格",
+   "anchor": "- Confirmation of licensed indications and formulations in the UK"
+  },
+  {
+   "id": "uk-lic-20261124b-lopinavir-1",
+   "drug": "lopinavir",
+   "file": "lopinavir.md",
+   "action": "correct",
+   "claim": "for the two listed products",
+   "replacement": "for the listed products",
+   "note": "Removed the product count (\"two\" or \"both\"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目寫「兩個／兩張」，證據包 BNF presentation 不只兩個；只拿掉張數（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"for the two listed products\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-peppermint_oil-1",
+   "drug": "peppermint_oil",
+   "file": "peppermint_oil.md",
+   "action": "correct",
+   "claim": "for the two UK products",
+   "replacement": "for the UK products",
+   "note": "Removed the product count (\"two\" or \"both\"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目寫「兩個／兩張」，證據包 BNF presentation 不只兩個；只拿掉張數（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"for the two UK products\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-piroxicam-1",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "action": "correct",
+   "claim": "The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing.",
+   "replacement": "Route compatibility with any systemic indication needs assessing.",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing.\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-polyethylene_glycol-1",
+   "drug": "polyethylene_glycol",
+   "file": "polyethylene_glycol.md",
+   "action": "correct",
+   "claim": "and the one UK product identified is an oral laxative with",
+   "replacement": "and the UK products identified are oral laxatives with",
+   "note": "Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "劑型說法依舊證據包少數品項寫的，跟證據包全部 BNF presentation 的劑型／規格不符（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"and the one UK product identified is an oral laxative with\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-sulthiame-1",
+   "drug": "sulthiame",
+   "file": "sulthiame.md",
+   "action": "correct",
+   "claim": "for both UK products",
+   "replacement": "for the UK products",
+   "note": "Removed the product count (\"two\" or \"both\"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目寫「兩個／兩張」，證據包 BNF presentation 不只兩個；只拿掉張數（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"for both UK products\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-trimethoprim-1",
+   "drug": "trimethoprim",
+   "file": "trimethoprim.md",
+   "action": "correct",
+   "claim": "- An assessment of route compatibility, since the only recorded UK product is an oral tablet",
+   "replacement": "- An assessment of route compatibility",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-clindamycin-1",
+   "drug": "clindamycin",
+   "file": "clindamycin.md",
+   "action": "correct",
+   "claim": "- Assessment of whether an ocular (topical) route is feasible, since only an oral capsule is listed",
+   "replacement": "- Assessment of whether an ocular (topical) route is feasible",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Assessment of whether an ocular (topical) route is feasible, since only an oral capsule is listed\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-ketoprofen-1",
+   "drug": "ketoprofen",
+   "file": "ketoprofen.md",
+   "action": "correct",
+   "claim": "- Assessment of route compatibility, as only a topical gel is recorded in the UK data",
+   "replacement": "- Assessment of route compatibility",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"- Assessment of route compatibility, as only a topical gel is recorded in the UK data\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
+  },
+  {
+   "id": "uk-lic-20261124b-minocycline-1",
+   "drug": "minocycline",
+   "file": "minocycline.md",
+   "action": "correct",
+   "claim": "as only an oral tablet is listed and an ocular indication",
+   "replacement": "as an ocular indication",
+   "note": "Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences.",
+   "finding": "待辦條目以「英國資料只有一種產品／劑型」為前提，跟證據包全部 BNF presentation 不符；只拿掉錯的前提（2026-11-24 第二輪，逐句對照證據包全部 BNF presentation）",
+   "sources": [
+    {
+     "title": "NHSBSA BNF code information",
+     "url": "https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "summary": "Corrected: \"as only an oral tablet is listed and an ocular indication\"",
+   "method": "2026-11-24 人工逐句對照證據包（data/bundles，Release data-20261116-160902）全部 BNF presentation 的劑型與規格"
   }
  ]
 }

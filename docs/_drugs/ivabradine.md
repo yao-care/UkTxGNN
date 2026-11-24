@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 347
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Ivabradine: predicted new indication Hypertrichosis (disease) (evidence level L5). In the UK: 5 NHSBSA BNF presentation codes"
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **6**
 
 ## One-Sentence Summary
 
-Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg tablet.
+Ivabradine is a heart-rate-lowering medicine listed in the UK BNF prescribing codes as tablets in several strengths, including 5 mg.
 The TxGNN model predicts it may be effective for **hypertrichosis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on computational prediction alone.
+
+<!-- review:begin uk-lic-20261124b-ivabradine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg tablet." Corrected: this site's UK market data is the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902), which does not include MHRA marketing authorisations, and it lists this drug as tablets in more than one strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-ivabradine-1 -->
 
 ## Quick Overview
 
@@ -147,6 +153,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-06 | Removed: "(the regulatory entry is incomplete)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report, and t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+| 2026-11-24 | Corrected: "Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

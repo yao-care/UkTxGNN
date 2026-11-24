@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pristinamycin: predicted new indication Disease of retroperitoneum . Urethral disease is the only prediction… (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Pristinamycin"
 predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet. The data compiled for this report do not record a specific original indication.
+Pristinamycin is a streptogramin antibiotic listed in the UK BNF prescribing codes as tablets, including 500 mg tablets. The data compiled for this report do not record a specific original indication.
 The TxGNN model predicts it may be effective for **urethral disease**, a prediction that has **no registered clinical trials** but **12 publications**, mostly indirect or historical. These are largely about urogenital infections caused by Mycoplasma and Ureaplasma.
+
+<!-- review:begin uk-lic-20261124b-pristinamycin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-pristinamycin-1 -->
 
 ---
 
@@ -151,6 +157,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "One single-ingredient authorisation is recorded, with valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

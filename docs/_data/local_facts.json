@@ -21,11 +21,11 @@
   "items_current": 11014
  },
  "reviews": {
-  "records": 931,
-  "pages": 544,
-  "public_pages_with_records": 512,
+  "records": 989,
+  "pages": 553,
+  "public_pages_with_records": 521,
   "by_action": {
-   "correct": 473,
+   "correct": 531,
    "mechanism": 458
   }
  },
@@ -58,7 +58,7 @@
    "l": "L5",
    "lt": 168,
    "lv": 168,
-   "r": 2,
+   "r": 3,
    "i": "nephrogenic syndrome of inappropriate antidiuresis"
   },
   {
@@ -129,6 +129,33 @@
    "i": "headache disorder"
   },
   {
+   "t": "Nalidixic Acid",
+   "u": "/drugs/nalidixic-acid/",
+   "l": "L5",
+   "lt": 8,
+   "lv": 8,
+   "r": 4,
+   "i": "conjunctivitis"
+  },
+  {
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "l": "L5",
+   "lt": 7,
+   "lv": 7,
+   "r": 4,
+   "i": "cauda equina syndrome"
+  },
+  {
+   "t": "Arginine",
+   "u": "/drugs/arginine/",
+   "l": "L4",
+   "lt": 22,
+   "lv": 22,
+   "r": 3,
+   "i": "gastroparesis (disease)"
+  },
+  {
    "t": "Bupropion",
    "u": "/drugs/bupropion/",
    "l": "L2",
@@ -136,33 +163,6 @@
    "lv": 4,
    "r": 3,
    "i": "attention deficit-hyperactivity disorder"
-  },
-  {
-   "t": "Dapsone",
-   "u": "/drugs/dapsone/",
-   "l": "L1",
-   "lt": 9,
-   "lv": 9,
-   "r": 3,
-   "i": "pneumocystosis"
-  },
-  {
-   "t": "Ergocalciferol",
-   "u": "/drugs/ergocalciferol/",
-   "l": "L5",
-   "lt": 83,
-   "lv": 83,
-   "r": 3,
-   "i": "acromesomelic dysplasia, Campailla Martinelli type"
-  },
-  {
-   "t": "Everolimus",
-   "u": "/drugs/everolimus/",
-   "l": "L2",
-   "lt": 23,
-   "lv": 23,
-   "r": 3,
-   "i": "liposarcoma"
   }
  ],
  "example": {
@@ -176,197 +176,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Terlipressin",
-   "u": "/drugs/terlipressin/",
-   "s": "Removed: \"Only one entry is available.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Nisoldipine",
-   "u": "/drugs/nisoldipine/",
-   "s": "Removed: \"This record lists one single-ingredient product.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Levamisole",
-   "u": "/drugs/levamisole/",
-   "s": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Inositol Nicotinate",
-   "u": "/drugs/inositol-nicotinate/",
-   "s": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fenoterol",
-   "u": "/drugs/fenoterol/",
-   "s": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Felypressin",
-   "u": "/drugs/felypressin/",
-   "s": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Didanosine",
-   "u": "/drugs/didanosine/",
-   "s": "Removed: \"This is a single-ingredient product record.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
-   "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Zafirlukast",
-   "u": "/drugs/zafirlukast/",
-   "s": "Removed: \"The licence record carries a BNF-style code (chapter 3, respiratory system) rather than a PL…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Yohimbine",
-   "u": "/drugs/yohimbine/",
-   "s": "Removed: \"Only one single-ingredient product is listed, and it is recorded as valid\"",
-   "d": "2026-11-24"
-  },
-  {
    "t": "Xylitol",
    "u": "/drugs/xylitol/",
-   "s": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
+   "s": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no…",
    "d": "2026-11-24"
   },
   {
-   "t": "Vildagliptin",
-   "u": "/drugs/vildagliptin/",
-   "s": "Removed: \"This is the only authorisation recorded. It is a single-ingredient product with valid status\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Removed: \"No licence number in PL format, dosage form or indication text was available, so the UK licensed…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "s": "Removed: \"This is a single-ingredient product and its status is valid\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Valproic Acid",
-   "u": "/drugs/valproic-acid/",
-   "s": "Removed: \"The data compiled for this report lists one valid single-ingredient authorisation (a…",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ursodeoxycholic Acid",
-   "u": "/drugs/ursodeoxycholic-acid/",
-   "s": "Removed: \"Only one valid single-ingredient authorisation is recorded\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tyrosine",
-   "u": "/drugs/tyrosine/",
-   "s": "Removed: \"This record is a single valid single-ingredient authorisation. Its number does not follow the…",
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
    "d": "2026-11-24"
   },
   {
    "t": "Trimethoprim",
    "u": "/drugs/trimethoprim/",
-   "s": "Removed: \"Only one single-ingredient authorisation is recorded, and it is valid\"",
+   "s": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Trifluoperazine",
-   "u": "/drugs/trifluoperazine/",
-   "s": "Removed: \"The licence record gives no dosage form or approved indication text\"",
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "s": "Corrected: \"for both UK products\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tretinoin",
-   "u": "/drugs/tretinoin/",
-   "s": "Removed: \"This is a single-ingredient product with valid status. The record carries no PL-format number…",
+   "t": "Selenium",
+   "u": "/drugs/selenium/",
+   "s": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Trazodone",
-   "u": "/drugs/trazodone/",
-   "s": "Removed: \"plus verification of the authorisation record\"",
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+   "t": "Pristinamycin",
+   "u": "/drugs/pristinamycin/",
+   "s": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Trastuzumab",
-   "u": "/drugs/trastuzumab/",
-   "s": "Removed: \"One authorisation is recorded, and it is a valid single-ingredient product\"",
+   "t": "Polyethylene Glycol",
+   "u": "/drugs/polyethylene-glycol/",
+   "s": "Corrected: \"and the one UK product identified is an oral laxative with\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tranexamic Acid",
-   "u": "/drugs/tranexamic-acid/",
-   "s": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded, and its dosage form and approved…",
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "s": "Corrected: \"The only recorded product is a topical gel, so route compatibility with any systemic indication…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Periciazine",
+   "u": "/drugs/periciazine/",
+   "s": "Corrected: \"and only oral tablets are recorded\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Perampanel",
+   "u": "/drugs/perampanel/",
+   "s": "Removed: \"(the data lists tablets only; oral suspension is described in the literature)\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Peppermint Oil",
+   "u": "/drugs/peppermint-oil/",
+   "s": "Corrected: \"for the two UK products\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nystatin",
+   "u": "/drugs/nystatin/",
+   "s": "Corrected: \"Nystatin is a polyene antifungal medicine that is marketed in the UK as an oral suspension.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nepafenac",
+   "u": "/drugs/nepafenac/",
+   "s": "Corrected: \"marketed in the UK as a 1 mg/ml eye drop.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nefopam",
+   "u": "/drugs/nefopam/",
+   "s": "Corrected: \"Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30…",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nalidixic Acid",
+   "u": "/drugs/nalidixic-acid/",
+   "s": "Corrected: \"It is marketed in the UK as an oral suspension,\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Nabilone",
+   "u": "/drugs/nabilone/",
+   "s": "Corrected: \"marketed in the UK as a 1 mg capsule.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Misoprostol",
+   "u": "/drugs/misoprostol/",
+   "s": "Corrected: \"Misoprostol is a prostaglandin E1 analogue marketed in the UK as a 200 microgram tablet,\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Minocycline",
+   "u": "/drugs/minocycline/",
+   "s": "Corrected: \"as only an oral tablet is listed and an ocular indication\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Methadone",
+   "u": "/drugs/methadone/",
+   "s": "Corrected: \"Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Meptazinol",
+   "u": "/drugs/meptazinol/",
+   "s": "Corrected: \"marketed in the UK as a tablet;\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Maraviroc",
+   "u": "/drugs/maraviroc/",
+   "s": "Corrected: \"Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Lormetazepam",
+   "u": "/drugs/lormetazepam/",
+   "s": "Corrected: \"Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.\"",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Lopinavir",
+   "u": "/drugs/lopinavir/",
+   "s": "Corrected: \"for the two listed products\"",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Terlipressin",
-   "u": "/drugs/terlipressin/",
-   "s": "Removed: \"Only one entry is available.\"",
+   "t": "Xylitol",
+   "u": "/drugs/xylitol/",
+   "s": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no…",
    "d": "2026-11-24"
   },
   {
-   "t": "Nisoldipine",
-   "u": "/drugs/nisoldipine/",
-   "s": "Removed: \"This record lists one single-ingredient product.\"",
+   "t": "Tryptophan",
+   "u": "/drugs/tryptophan/",
+   "s": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Levamisole",
-   "u": "/drugs/levamisole/",
-   "s": "Removed: \"This is a single-ingredient product record. The list is complete (1 of 1).\"",
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Inositol Nicotinate",
-   "u": "/drugs/inositol-nicotinate/",
-   "s": "Removed: \"This is the only record, and it is a single-ingredient product.\"",
+   "t": "Sulthiame",
+   "u": "/drugs/sulthiame/",
+   "s": "Corrected: \"for both UK products\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Fenoterol",
-   "u": "/drugs/fenoterol/",
-   "s": "Corrected: \"Both products are classed under BNF section 3.1.4 (bronchodilators) based on the code prefix.\"",
+   "t": "Selenium",
+   "u": "/drugs/selenium/",
+   "s": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Felypressin",
-   "u": "/drugs/felypressin/",
-   "s": "Corrected: \"The product is a single-ingredient-type listing for the prilocaine/felypressin combination\"",
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Didanosine",
-   "u": "/drugs/didanosine/",
-   "s": "Removed: \"This is a single-ingredient product record.\"",
+   "t": "Pristinamycin",
+   "u": "/drugs/pristinamycin/",
+   "s": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
-   "s": "Removed: \"The compiled data show one valid single-ingredient authorisation\"",
+   "t": "Polyethylene Glycol",
+   "u": "/drugs/polyethylene-glycol/",
+   "s": "Corrected: \"and the one UK product identified is an oral laxative with\"",
    "d": "2026-11-24"
   }
  ],

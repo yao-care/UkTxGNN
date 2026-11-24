@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Benzocaine: predicted new indication Papillary conjunctivitis (evidence level L5). In the UK: 41 NHSBSA BNF presentation codes"
 ---
 
@@ -123,8 +123,14 @@ The prediction rests only on a high model score (0.9938). No trials or publicati
 - Mechanism of action data and a clear rationale for benefit in allergic or mechanical conjunctival inflammation
 - Preclinical or early clinical evidence in papillary conjunctivitis
 - Ocular safety assessment, including corneal toxicity with repeated use
-- Confirmation of an ophthalmic-suitable formulation and route (current records show only a gel product)
+- Confirmation of an ophthalmic-suitable formulation and route
 - Complete SmPC warnings, contraindications and interaction data from UK sources
+
+<!-- review:begin uk-lic-20261124b-benzocaine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(current records show only a gel product)" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-benzocaine-1 -->
 
 <!-- review:begin log -->
 
@@ -135,6 +141,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence is a single-ingredient product and is currently valid. The authorisation record carries no dosage form or indication text, so th" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Removed: "(current records show only a gel product)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

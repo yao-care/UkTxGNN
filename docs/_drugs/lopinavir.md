@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 379
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lopinavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "lopinavir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -142,9 +142,15 @@ The only supporting evidence is three preclinical non-human primate studies, the
 **To proceed, the following is needed:**
 - Detailed mechanism of action data (for example from DrugBank)
 - Full SmPC warnings and contraindications from the BNF or MHRA, as the data compiled for this report contains none
-- Approved indication text, dosage forms and verified MHRA authorisation numbers for the two listed products
+- Approved indication text, dosage forms and verified MHRA authorisation numbers for the listed products
 - A clear rationale for any use beyond preclinical research, such as a defined research role as a protease inhibitor model in SIV/SHIV systems
 - A cardiac (QT), hepatic and metabolic safety review, given the contraindication and interaction signals above
+
+<!-- review:begin uk-lic-20261124b-lopinavir-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "for the two listed products" Removed the product count ("two" or "both"): the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists more presentations of this drug than that, and these are BNF codes rather than authorisations. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-lopinavir-1 -->
 
 <!-- review:begin log -->
 
@@ -156,6 +162,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid single-ingredient records" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-24 | Corrected: "for the two listed products" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

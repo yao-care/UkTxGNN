@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "L-Lysine: predicted new indication gastroparesis (disease) (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "L-Lysine"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **3**
 
 ## One-Sentence Summary
 
-L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet, but no approved indication text is available in the data compiled for this report.
+L-Lysine is an essential amino acid listed in the UK BNF prescribing codes as tablets and powders, including 1 g tablets, but no approved indication text is available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **gastroparesis**, but there are **no related clinical trials** and the only retrieved publication does not study L-Lysine as a treatment.
 This prediction rests on model output alone and is not supported by actual studies.
+
+<!-- review:begin uk-lic-20261124b-l-lysine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet," Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-l-lysine-1 -->
 
 ## Quick Overview
 
@@ -113,6 +119,19 @@ The prediction is supported only by the model score. There are no clinical trial
 - SmPC warnings and contraindications to complete the safety review
 - Any primary evidence (preclinical or clinical) linking L-Lysine to gastric motility or gastroparesis
 - A review of the kidney, calcium and cardiovascular contraindication signals before any further consideration
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

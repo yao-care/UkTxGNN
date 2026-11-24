@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofloxacin: predicted new indication diffuse scleroderma (evidence level L5). In the UK: 50 NHSBSA BNF presentation codes"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral tablet and as eye drops.
+Ciprofloxacin is a fluoroquinolone antibiotic listed in the UK BNF prescribing codes in several forms, including oral tablets and eye drops.
 The TxGNN model predicts it may be effective for **diffuse scleroderma**, but there are **no registered clinical trials** and only **2 publications** that touch on this direction, so the evidence is very limited.
+
+<!-- review:begin uk-lic-20261124b-ciprofloxacin-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral tablet and as eye drops." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-ciprofloxacin-1 -->
 
 ## Quick Overview
 
@@ -145,6 +151,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both authorisations are valid and are single-ingredient products" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+| 2026-11-24 | Corrected: "Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral tablet and as eye drops." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

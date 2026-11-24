@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 19 NHSBSA BNF presentation codes"
@@ -127,8 +127,14 @@ The prediction has a high model score (0.9963) but is Level L5: there are no tri
 - Literature review of tetracycline use (including minocycline) in punctate epithelial keratoconjunctivitis and related ocular surface disease
 - Mechanism of action data for minocycline
 - Approved indication text, dosage form and PL number from the MHRA record
-- Assessment of route and formulation suitability, as only an oral tablet is listed and an ocular indication may need topical or other delivery
+- Assessment of route and formulation suitability, as an ocular indication may need topical or other delivery
 - Review of safety against the full SmPC, including intracranial hypertension and retinoid interactions
+
+<!-- review:begin uk-lic-20261124b-minocycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "as only an oral tablet is listed and an ocular indication" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-minocycline-1 -->
 
 <!-- review:begin log -->
 
@@ -140,6 +146,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data show one valid single-ingredient authorisation" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+| 2026-11-24 | Corrected: "as only an oral tablet is listed and an ocular indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

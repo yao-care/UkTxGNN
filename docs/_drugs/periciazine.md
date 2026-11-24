@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Periciazine: predicted new indication Migraine disorder (evidence level L5). Approved use: Schizophrenia and other psychoses"
 monitor_inn: "periciazine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "dysthymic disorder", "ulerythema ophryogenesis"]
@@ -115,8 +115,14 @@ The prediction is supported only by a model score and a class-level argument fro
 - Complete safety data (warnings and contraindications) from the SmPC and BNF, which currently blocks safety screening
 - Confirmed mechanism of action and receptor binding data
 - A literature review for periciazine or close phenothiazine analogues in migraine, compared with established agents such as prochlorperazine and chlorpromazine
-- Assessment of route compatibility, since migraine treatment often needs non-oral or rapid-onset routes and only oral tablets are recorded
+- Assessment of route compatibility, since migraine treatment often needs non-oral or rapid-onset routes and only oral preparations are recorded
 - Review of the sedation and extrapyramidal burden relative to existing migraine options
+
+<!-- review:begin uk-lic-20261124b-periciazine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and only oral tablets are recorded" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-periciazine-1 -->
 
 <!-- review:begin log -->
 
@@ -127,6 +133,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "Both products are valid single-ingredient authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "and only oral tablets are recorded" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

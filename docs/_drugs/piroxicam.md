@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Piroxicam: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis, osteoarthritis"
 monitor_inn: "Piroxicam"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
@@ -161,8 +161,14 @@ The paediatric studies are older and small, and the meta-analyses do not show pi
 **To proceed, the following is needed:**
 - Mechanism of action data from DrugBank, to allow mechanistic-link analysis.
 - The current SmPC and BNF warnings and contraindications, to complete the safety screen.
-- Confirmation of the authorisation details (number, formulation, approved indication) on the MHRA register. The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing.
+- Confirmation of the authorisation details (number, formulation, approved indication) on the MHRA register. Route compatibility with any systemic indication needs assessing.
 - For JIA, a piroxicam-specific review of the paediatric data and the NICE and BNF position before any further work.
+
+<!-- review:begin uk-lic-20261124b-piroxicam-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing." Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-piroxicam-1 -->
 
 <!-- review:begin log -->
 
@@ -174,6 +180,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The record shows one valid single-ingredient authorisation and no cancelled authorisations" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Currently, detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
+| 2026-11-24 | Corrected: "The only recorded product is a topical gel, so route compatibility with any systemic indication needs assessing." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: High Evidence (L1-L2)
 nav_order: 439
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nepafenac: predicted new indication Eye disease (evidence level L1). Approved use: Not available in the UK licence data compiled for this report"
 monitor_inn: "Nepafenac"
 predicted_indications: ["eye disease", "optic papillitis", "hypotrichosis simplex of the scalp", "seborrheic keratosis", "von Hippel anomaly", "congenital hypotrichosis milia", "mcpherson robertson cammarano syndrome", "lagophthalmos", "vulvar inverted follicular keratosis", "vitreous detachment"]
@@ -38,9 +38,15 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nepafenac is a topical non-steroidal anti-inflammatory drug (NSAID) eye drop, marketed in the UK as a 1 mg/ml eye drop.
+Nepafenac is a topical non-steroidal anti-inflammatory drug (NSAID) eye drop, listed in the UK BNF prescribing codes as eye drops in more than one strength, including 1 mg/ml.
 The TxGNN model predicts it may be effective for **eye disease** (a broad category), with **40 clinical trials** and **19 publications** compiled for this direction.
 Note that this is largely confirmation of an existing ocular use (post-cataract-surgery inflammation, pain and macular oedema) rather than true repurposing.
+
+<!-- review:begin uk-lic-20261124b-nepafenac-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "marketed in the UK as a 1 mg/ml eye drop." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-nepafenac-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the source database, but t" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Ilevro (nepafenac) prescribing information, Harrow Eye, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10f411d3-a81e-074a-e063-6294a90ab547) |
+| 2026-11-24 | Corrected: "marketed in the UK as a 1 mg/ml eye drop." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

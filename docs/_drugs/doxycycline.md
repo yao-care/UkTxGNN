@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Doxycycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxycycline: predicted new indication punctate epithelial keratoconjunctivitis (evidence level L5). In the UK: 21 NHSBSA BNF presentation codes"
 ---
 
@@ -128,8 +128,14 @@ The prediction score is very high (0.9994), but no clinical trial or published s
 **To proceed, the following is needed:**
 - Controlled or at least observational studies of doxycycline, topical or systemic, in punctate epithelial keratoconjunctivitis, including non-chlamydial cases
 - Mechanism of action data for doxycycline
-- Label warnings and contraindications, and ocular-route feasibility, since only an oral modified-release formulation is recorded locally
+- Label warnings and contraindications, and ocular-route feasibility
 - Review of how well the disease term fits an infection-triggered presentation
+
+<!-- review:begin uk-lic-20261124b-doxycycline-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: ", since only an oral modified-release formulation is recorded locally" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-doxycycline-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The data compiled for this report contain one valid single-ingredient record, a modified-release 40 mg capsule (BNF section 5.1.3, tetracycl" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data for doxycycline are not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+| 2026-11-24 | Removed: "since only an oral modified-release formulation is recorded locally" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

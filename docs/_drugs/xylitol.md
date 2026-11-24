@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Xylitol: predicted new indication Meningococcal infection (evidence level L5). Approved use: Not available in the compiled data"
 monitor_inn: "xylitol"
 predicted_indications: ["meningococcal infection"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no approved indication is recorded in the data compiled for this report.
+Xylitol is a sugar alcohol; no approved indication is recorded in the data compiled for this report.
 The TxGNN model predicts it may be effective for **meningococcal infection**,
 but there are currently **no clinical trials** and **no publications** supporting this direction.
+
+<!-- review:begin uk-lic-20261124b-xylitol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no approved indication" Removed: the UK product description came from the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) does not list this drug. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-xylitol-1 -->
 
 ## Quick Overview
 
@@ -108,6 +114,7 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is a single-ingredient authorisation record that is currently valid. The identifier shown is as supplied in the compiled data and is no" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no approved indication" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

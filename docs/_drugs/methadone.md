@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 398
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone: predicted new indication Tourette syndrome (evidence level L4). Approved use: Not stated in the data compiled for this report"
 monitor_inn: "Methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -38,7 +38,13 @@ Evidence Level: **L4** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet. The TxGNN model predicts it may be effective for **Tourette syndrome**, but no clinical trials are registered. Only **4 publications** were retrieved, and just one (a 1992 report) addresses methadone in Tourette's disorder directly.
+Methadone is a long-acting opioid agonist, listed in the UK BNF prescribing codes in many forms, including 5 mg tablets. The TxGNN model predicts it may be effective for **Tourette syndrome**, but no clinical trials are registered. Only **4 publications** were retrieved, and just one (a 1992 report) addresses methadone in Tourette's disorder directly.
+
+<!-- review:begin uk-lic-20261124b-methadone-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-methadone-1 -->
 
 ---
 
@@ -196,6 +202,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Methadone is listed in the data as a single-ingredient product with a valid status" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+| 2026-11-24 | Corrected: "Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

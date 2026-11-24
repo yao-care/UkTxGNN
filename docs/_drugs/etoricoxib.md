@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 268
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoricoxib: predicted new indication Migraine disorder (evidence level L5). Approved use: Not available in the compiled data (the product's clinical use is gen…"
 monitor_inn: "Etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -38,7 +38,13 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 ## One-Sentence Summary
 
-Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet, and its original indication text is not available in the data compiled for this report. The TxGNN model predicts it may be useful for **migraine disorder**, with a very high score. However, **no clinical trials** and only **1 supporting publication** (a scoping review that is not specific to etoricoxib) back this prediction, so it rests on model prediction alone.
+Etoricoxib is a selective COX-2 inhibitor listed in the UK BNF prescribing codes as tablets in several strengths, including 60 mg, and its original indication text is not available in the data compiled for this report. The TxGNN model predicts it may be useful for **migraine disorder**, with a very high score. However, **no clinical trials** and only **1 supporting publication** (a scoping review that is not specific to etoricoxib) back this prediction, so it rests on model prediction alone.
+
+<!-- review:begin uk-lic-20261124b-etoricoxib-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet," Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-etoricoxib-1 -->
 
 ---
 
@@ -154,6 +160,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism-of-action data were not available in the compiled data beyond COX-2 (PTGS2) as the target" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+| 2026-11-24 | Corrected: "Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

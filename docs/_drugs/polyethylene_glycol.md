@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Polyethylene glycol"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polyethylene Glycol: predicted new indication Congenital ichthyosiform erythroderma (evidence level L5). In the UK: 39 NHSBSA BNF presentation codes"
@@ -121,7 +121,13 @@ No drug interaction data were found. Please refer to the SmPC and BNF for author
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials or publications (evidence level L5). The proposed mechanism is speculative, and the one UK product identified is an oral laxative with no apparent link to the proposed skin indication.
+The prediction is supported only by a model score, with no clinical trials or publications (evidence level L5). The proposed mechanism is speculative, and the UK products identified are oral laxatives with no apparent link to the proposed skin indication.
+
+<!-- review:begin uk-lic-20261124b-polyethylene_glycol-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and the one UK product identified is an oral laxative with" Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-polyethylene_glycol-1 -->
 
 **To proceed, the following is needed:**
 - Mechanism of action data for polyethylene glycol
@@ -129,6 +135,19 @@ The prediction is supported only by a model score, with no clinical trials or pu
 - Clarification of the intended route and formulation (topical versus oral), and confirmation of any relevant UK topical products
 - Full UK licence details (PL numbers, dosage forms, approved indications) and SmPC warnings and contraindications
 - A safety review, as the data compiled for this report contain no label-based warnings
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "and the one UK product identified is an oral laxative with" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

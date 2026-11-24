@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Levocarnitine"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine: predicted new indication Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (evidence level L5). In the UK: 17 NHSBSA BNF presentation codes"
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Levocarnitine is a form of carnitine that carries long-chain fatty acids into mitochondria for energy production, and it is marketed in the UK as a single-ingredient capsule.
+Levocarnitine is a form of carnitine that carries long-chain fatty acids into mitochondria for energy production, and it is listed in the UK BNF prescribing codes as single-ingredient products in several forms, including capsules.
 The TxGNN model's ranked predictions include **Congestive Heart Failure**, which has the strongest supporting evidence of the ten candidates reviewed, with **2 clinical trials** and **10 publications** currently supporting this direction.
 This report focuses on that top-evidence candidate. Other predictions are summarised briefly at the end of the "Why is This Prediction Reasonable?" section.
+
+<!-- review:begin uk-lic-20261124b-levocarnitine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "and it is marketed in the UK as a single-ingredient capsule." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-levocarnitine-1 -->
 
 ---
 
@@ -164,7 +170,13 @@ Heart failure has a plausible metabolic rationale, one completed Phase 2/3 rando
 - The licensed indication, dosage form and SmPC safety information (warnings and contraindications) for the UK product, which are not available in the data compiled
 - Mechanism of action data
 - Review of the knowledge-graph contraindication signals (renal and hepatic disease, hypotension, coagulation disorders), and of the warfarin and heart-failure drug interactions
-- Evaluation of a possible oral versus injectable route, since the completed trial used an injection and the UK product is an oral capsule
+- Evaluation of a possible oral versus injectable route, since the completed trial used an injection
+
+<!-- review:begin uk-lic-20261124b-levocarnitine-2 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "since the completed trial used an injection and the UK product is an oral capsule" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-levocarnitine-2 -->
 
 <!-- review:begin log -->
 
@@ -175,6 +187,8 @@ Below is the review log for this page: statements checked against the official d
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "and it is marketed in the UK as a single-ingredient capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+| 2026-11-24 | Corrected: "since the completed trial used an injection and the UK product is an oral capsule" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

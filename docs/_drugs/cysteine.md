@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cysteine: predicted new indication Dry eye syndrome (evidence level L5). In the UK: no NHSBSA BNF presentation code in this data"
 ---
 
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **7**
 
 ## One-Sentence Summary
 
-Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product.
+Cysteine is a sulphur-containing amino acid and a precursor of glutathione.
 The TxGNN model predicts it may be relevant to **dry eye syndrome**, but **no clinical trials** are registered and the 20 publications retrieved are mostly preclinical formulation or mechanism studies, none of which test cysteine itself as a treatment.
+
+<!-- review:begin uk-lic-20261124b-cysteine-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product." Removed: the UK product description came from the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) does not list this drug. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-cysteine-1 -->
 
 ---
 
@@ -124,11 +130,12 @@ The prediction score is very high, but no clinical trials exist and no retrieved
 
 ## Review Log
 
-Below is the review log for this page. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database; model predictions, evidence levels, and conclusions were not rewritten.
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten. A statement that mechanism-of-action data were not available was replaced with an excerpt from the cited official prescribing information or database.
 
 | Review date | Item | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | "Detailed mechanism of action data is not currently available for cysteine" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
+| 2026-11-24 | Corrected: "Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK as a single-ingredient product." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

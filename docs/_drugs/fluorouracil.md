@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorouracil: predicted new indication Botryoid-type embryonal rhabdomyosarcoma of the vagina (evidence level L5). In the UK: 28 NHSBSA BNF presentation codes"
 ---
 
@@ -155,7 +155,13 @@ The prediction rests only on a model score. No trials or publications address th
 - Mechanism of action data and a clearer mechanistic link to rhabdomyosarcoma
 - Preclinical or retrospective case-series data on fluorouracil in rhabdomyosarcoma
 - Label-based safety data (SmPC warnings and contraindications), including DPD deficiency testing considerations
-- Confirmation of licensed indications and formulations in the UK (the single listed product is a cream, which is not suited to a systemic tumour)
+- Confirmation of licensed indications and formulations in the UK
+
+<!-- review:begin uk-lic-20261124b-fluorouracil-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the single listed product is a cream, which is not suited to a systemic tumour)" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-fluorouracil-1 -->
 
 <!-- review:begin log -->
 
@@ -167,6 +173,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "The licence list contains one single-ingredient authorisation and may not reflect the full UK product range" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism of action data was not available in the data compiled for this report, so this description reflects general pharmacological knowledge" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+| 2026-11-24 | Removed: "(the single listed product is a cream, which is not suited to a systemic tumour)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

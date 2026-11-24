@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -145,8 +145,14 @@ The TxGNN score is very high, but there are no trials or publications for this i
 **To proceed, the following is needed:**
 - Mechanism of action data and a clear rationale for a role in non-bacterial or immune-mediated keratoconjunctivitis
 - A literature search specific to punctate epithelial keratoconjunctivitis and trimethoprim, including any bacterial-aetiology subgroups
-- An assessment of route compatibility, since the only recorded UK product is an oral tablet
+- An assessment of route compatibility
 - Label-based warnings and contraindications from the SmPC and BNF
+
+<!-- review:begin uk-lic-20261124b-trimethoprim-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "An assessment of route compatibility, since the only recorded UK product is an oral tablet" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-trimethoprim-1 -->
 
 <!-- review:begin log -->
 
@@ -158,6 +164,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "Only one single-ingredient authorisation is recorded, and it is valid" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
+| 2026-11-24 | Corrected: "- An assessment of route compatibility, since the only recorded UK product is an oral tablet" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

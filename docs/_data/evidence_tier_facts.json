@@ -29,8 +29,8 @@
     "i": "myelodysplastic syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient product is recorded, and it is currently valid\"",
+    "r": 3,
+    "rs": "Corrected: \"Busulfan is an oral alkylating (DNA cross-linking) chemotherapy agent, marketed in the UK as a 2…",
     "x": 0
    },
    {
@@ -84,8 +84,8 @@
     "i": "eye disease",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"marketed in the UK as a 1 mg/ml eye drop.\"",
     "x": 0
    },
    {
@@ -372,7 +372,7 @@
   "with_current": 53,
   "none_current": 0,
   "without_data": 0,
-  "with_reviews": 48,
+  "with_reviews": 51,
   "rows": [
    {
     "t": "Acitretin",
@@ -403,8 +403,8 @@
     "i": "seborrheic keratosis",
     "lt": 19,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Calcipotriol is a topical vitamin D3 analogue marketed in the UK as a 50 microgram/g ointment.\"",
     "x": 0
    },
    {
@@ -436,8 +436,8 @@
     "i": "amenorrhea (disease)",
     "lt": 19,
     "lv": 19,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"- Assessment of route and formulation suitability, since the only UK product identified is a…",
     "x": 0
    },
    {
@@ -546,8 +546,8 @@
     "i": "restless legs syndrome",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"It is marketed in the UK as a 500 mg tablet,\"",
     "x": 0
    },
    {
@@ -557,8 +557,8 @@
     "i": "migraine disorder",
     "lt": 14,
     "lv": 14,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Aminophylline is a methylxanthine (a theophylline salt) that is marketed in the UK as a…",
     "x": 0
    },
    {
@@ -579,8 +579,8 @@
     "i": "gastroparesis (disease)",
     "lt": 22,
     "lv": 22,
-    "r": 2,
-    "rs": "Removed: \"for the two UK authorisations\"",
+    "r": 3,
+    "rs": "Corrected: \"marketed in the UK in single-ingredient liquid and powder products,\"",
     "x": 0
    },
    {
@@ -711,8 +711,8 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"Both authorisations are valid single-ingredient records\"",
+    "r": 3,
+    "rs": "Corrected: \"for the two listed products\"",
     "x": 0
    },
    {
@@ -733,8 +733,8 @@
     "i": "Tourette syndrome",
     "lt": 71,
     "lv": 71,
-    "r": 2,
-    "rs": "Removed: \"Methadone is listed in the data as a single-ingredient product with a valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Methadone is a long-acting opioid agonist, marketed in the UK as a 5 mg tablet.\"",
     "x": 0
    },
    {
@@ -755,8 +755,8 @@
     "i": "migraine disorder",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"marketed in the UK as a 1 mg capsule.\"",
     "x": 0
    },
    {
@@ -854,8 +854,8 @@
     "i": "breast fibrocystic disease",
     "lt": 40,
     "lv": 40,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data are not currently available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"Progesterone is a natural progestogen hormone, available in the UK as a micronised capsule.\"",
     "x": 0
    },
    {
@@ -909,8 +909,8 @@
     "i": "sclerosing cholangitis",
     "lt": 26,
     "lv": 26,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Selenium is an essential trace element, marketed in the UK as an injectable product,\"",
     "x": 0
    },
    {
@@ -976,7 +976,7 @@
   "with_current": 453,
   "none_current": 0,
   "without_data": 2,
-  "with_reviews": 433,
+  "with_reviews": 439,
   "rows": [
    {
     "t": "Ibuprofen",
@@ -996,8 +996,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 168,
     "lv": 168,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation (single-ingredient, valid) is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Fentanyl is a potent mu-opioid receptor agonist, available in the UK as a transdermal patch.\"",
     "x": 0
    },
    {
@@ -1084,8 +1084,8 @@
     "i": "nasal cavity disease",
     "lt": 91,
     "lv": 91,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available for this drug\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Codeine is an opioid analgesic and antitussive that is currently marketed in the UK as a…",
     "x": 0
    },
    {
@@ -1128,8 +1128,8 @@
     "i": "atopic eczema",
     "lt": 79,
     "lv": 79,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available for this drug\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"- Confirmation of an available topical formulation, as the only UK product identified is an oral…",
     "x": 0
    },
    {
@@ -1359,8 +1359,8 @@
     "i": "diffuse scleroderma",
     "lt": 50,
     "lv": 50,
-    "r": 2,
-    "rs": "Removed: \"Both authorisations are valid and are single-ingredient products\"",
+    "r": 3,
+    "rs": "Corrected: \"Ciprofloxacin is a fluoroquinolone antibiotic that is marketed in the United Kingdom as an oral…",
     "x": 0
    },
    {
@@ -1590,8 +1590,8 @@
     "i": "papillary conjunctivitis",
     "lt": 41,
     "lv": 41,
-    "r": 1,
-    "rs": "Removed: \"The licence is a single-ingredient product and is currently valid. The authorisation record carries…",
+    "r": 2,
+    "rs": "Removed: \"(current records show only a gel product)\"",
     "x": 0
    },
    {
@@ -1667,8 +1667,8 @@
     "i": "congenital ichthyosiform erythroderma",
     "lt": 39,
     "lv": 39,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"and the one UK product identified is an oral laxative with\"",
     "x": 0
    },
    {
@@ -1733,8 +1733,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 37,
     "lv": 37,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"- Assessment of whether an ocular (topical) route is feasible, since only an oral capsule is…",
     "x": 0
    },
    {
@@ -1766,8 +1766,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 37,
     "lv": 37,
-    "r": 2,
-    "rs": "Removed: \"Only one authorisation is recorded, for a topical gel\"",
+    "r": 3,
+    "rs": "Corrected: \"- Assessment of route compatibility, as only a topical gel is recorded in the UK data\"",
     "x": 0
    },
    {
@@ -1777,8 +1777,8 @@
     "i": "disease of orbital region",
     "lt": 37,
     "lv": 37,
-    "r": 2,
-    "rs": "Removed: \"The main authorisation record is a single-ingredient product with valid status\"",
+    "r": 3,
+    "rs": "Corrected: \"Nystatin is a polyene antifungal medicine that is marketed in the UK as an oral suspension.\"",
     "x": 0
    },
    {
@@ -1953,8 +1953,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 31,
     "lv": 31,
-    "r": 2,
-    "rs": "Removed: \"Only one single-ingredient authorisation is recorded, and it is valid\"",
+    "r": 3,
+    "rs": "Corrected: \"- An assessment of route compatibility, since the only recorded UK product is an oral tablet\"",
     "x": 0
    },
    {
@@ -2030,8 +2030,8 @@
     "i": "botryoid-type embryonal rhabdomyosarcoma of the vagina",
     "lt": 28,
     "lv": 28,
-    "r": 2,
-    "rs": "Removed: \"The licence list contains one single-ingredient authorisation and may not reflect the full UK…",
+    "r": 3,
+    "rs": "Removed: \"(the single listed product is a cream, which is not suited to a systemic tumour)\"",
     "x": 0
    },
    {
@@ -2173,8 +2173,8 @@
     "i": "amenorrhea (disease)",
     "lt": 25,
     "lv": 25,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 3,
+    "rs": "Corrected: \"This matters because the UK product is a progestogen-only pill, which commonly causes amenorrhoea\"",
     "x": 0
    },
    {
@@ -2294,8 +2294,8 @@
     "i": "insomnia (disease)",
     "lt": 23,
     "lv": 23,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule.\"",
     "x": 1
    },
    {
@@ -2415,8 +2415,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"The data compiled for this report contain one valid single-ingredient record, a modified-release 40…",
+    "r": 3,
+    "rs": "Removed: \"since only an oral modified-release formulation is recorded locally\"",
     "x": 0
    },
    {
@@ -2426,8 +2426,8 @@
     "i": "hypermobility of coccyx",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"Etanercept is marketed in the UK, with one valid single-ingredient licence recorded in the local…",
+    "r": 3,
+    "rs": "Removed: \"The product is listed as a 50 mg/mL pre-filled syringe injection.\"",
     "x": 0
    },
    {
@@ -2437,8 +2437,8 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 21,
     "lv": 21,
-    "r": 2,
-    "rs": "Removed: \"The record shows one valid single-ingredient authorisation and no cancelled authorisations\"",
+    "r": 3,
+    "rs": "Corrected: \"The only recorded product is a topical gel, so route compatibility with any systemic indication…",
     "x": 0
    },
    {
@@ -2624,8 +2624,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 19,
     "lv": 19,
-    "r": 2,
-    "rs": "Removed: \"The data show one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"as only an oral tablet is listed and an ocular indication\"",
     "x": 0
    },
    {
@@ -2712,8 +2712,8 @@
     "i": "amenorrhea (disease)",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "\"Currently, detailed mechanism of action data is not available\" replaced with a sourced mechanism-of-action…",
+    "r": 2,
+    "rs": "Corrected: \"Misoprostol is a prostaglandin E1 analogue marketed in the UK as a 200 microgram tablet,\"",
     "x": 0
    },
    {
@@ -2734,8 +2734,8 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Removed: \"(the data lists tablets only; oral suspension is described in the literature)\"",
     "x": 0
    },
    {
@@ -2855,8 +2855,8 @@
     "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
     "lt": 17,
     "lv": 17,
-    "r": 1,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"since the completed trial used an injection and the UK product is an oral capsule\"",
     "x": 0
    },
    {
@@ -2943,8 +2943,8 @@
     "i": "benign prostatic hyperplasia (disease)",
     "lt": 15,
     "lv": 15,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available for this drug\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Benzydamine is a locally acting anti-inflammatory agent, marketed in the UK as a 0.15% sugar-free…",
     "x": 0
    },
    {
@@ -2965,8 +2965,8 @@
     "i": "leprosy",
     "lt": 15,
     "lv": 15,
-    "r": 1,
-    "rs": "Removed: \"Both entries are valid single-ingredient products\"",
+    "r": 2,
+    "rs": "Corrected: \"for the two UK products\"",
     "x": 0
    },
    {
@@ -3295,8 +3295,8 @@
     "i": "manic bipolar affective disorder",
     "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Removed: \"The compiled data lists one valid single-ingredient authorisation\"",
+    "r": 3,
+    "rs": "Corrected: \"Granisetron is a selective 5-HT3 receptor antagonist, marketed in the UK as a 1 mg tablet.\"",
     "x": 0
    },
    {
@@ -3438,8 +3438,8 @@
     "i": "gout",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"Carbocisteine is a mucolytic agent marketed in the UK as a 375 mg capsule.\"",
     "x": 0
    },
    {
@@ -3559,8 +3559,8 @@
     "i": "multiple endocrine neoplasia",
     "lt": 10,
     "lv": 10,
-    "r": 2,
-    "rs": "Removed: \"This is one valid single-ingredient product\"",
+    "r": 3,
+    "rs": "Corrected: \"Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;\"",
     "x": 0
    },
    {
@@ -3625,8 +3625,8 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"- Assessment of route compatibility, since alfentanil is available only as an injection in the…",
     "x": 0
    },
    {
@@ -3669,8 +3669,8 @@
     "i": "gastroparesis (disease)",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"L-Lysine is an essential amino acid marketed in a single-ingredient 1 g tablet,\"",
     "x": 0
    },
    {
@@ -3878,8 +3878,8 @@
     "i": "migraine disorder",
     "lt": 8,
     "lv": 8,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded\"",
+    "r": 3,
+    "rs": "Corrected: \"Etoricoxib is a selective COX-2 inhibitor marketed in the UK as a 60 mg tablet,\"",
     "x": 0
    },
    {
@@ -3900,8 +3900,8 @@
     "i": "leishmaniasis, diffuse cutaneous",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Corrected: \"and is marketed in the UK as a topical gel.\"",
     "x": 0
    },
    {
@@ -3944,8 +3944,8 @@
     "i": "conjunctivitis",
     "lt": 8,
     "lv": 8,
-    "r": 3,
-    "rs": "Removed: \"The compiled data show one valid single-ingredient product\"",
+    "r": 4,
+    "rs": "Corrected: \"It is marketed in the UK as an oral suspension,\"",
     "x": 0
    },
    {
@@ -4142,8 +4142,8 @@
     "i": "irritable bowel syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data for glucagon is not available in the data compiled for this report\"…",
+    "r": 2,
+    "rs": "Corrected: \"Glucagon is a pancreatic peptide hormone, supplied in the UK as an injection (powder plus…",
     "x": 0
    },
    {
@@ -4208,8 +4208,8 @@
     "i": "immature cataract",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Removed: \"This is a single-ingredient product with a valid status. The licence record contains no indication…",
+    "r": 2,
+    "rs": "Corrected: \"Nefopam is a centrally acting non-opioid analgesic that is currently marketed in the UK as a 30…",
     "x": 0
    },
    {
@@ -4230,8 +4230,8 @@
     "i": "migraine disorder",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Removed: \"Both products are valid single-ingredient authorisations\"",
+    "r": 2,
+    "rs": "Corrected: \"and only oral tablets are recorded\"",
     "x": 0
    },
    {
@@ -4241,8 +4241,8 @@
     "i": "cauda equina syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 3,
-    "rs": "Removed: \"Both records are listed as valid single-ingredient products\"",
+    "r": 4,
+    "rs": "Corrected: \"for both UK products\"",
     "x": 0
    },
    {
@@ -4340,8 +4340,8 @@
     "i": "amenorrhea (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 2,
-    "rs": "Removed: \"Both authorisations are valid\"",
+    "r": 3,
+    "rs": "Corrected: \"- Licence indication and dosage form details for both authorisations\"",
     "x": 0
    },
    {
@@ -4373,8 +4373,8 @@
     "i": "amenorrhea (disease)",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not available in the data compiled for this report\" replaced with a…",
+    "r": 2,
+    "rs": "Corrected: \"Etonogestrel is a progestin, marketed in the UK as a 68 mg subdermal implant.\"",
     "x": 0
    },
    {
@@ -4450,8 +4450,8 @@
     "i": "alcohol withdrawal delirium",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Removed: \"At least one single-ingredient authorisation is currently valid, and none are cancelled\"",
+    "r": 2,
+    "rs": "Corrected: \"Lormetazepam is a benzodiazepine marketed in the UK as a 500 microgram tablet.\"",
     "x": 0
    },
    {
@@ -4703,8 +4703,8 @@
     "i": "brachyolmia-amelogenesis imperfecta syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Removed: \"The single record is a single-ingredient licence and is currently valid\"",
+    "r": 2,
+    "rs": "Corrected: \"Felbinac is a topical non-steroidal anti-inflammatory drug (NSAID) marketed in the UK as a 3%…",
     "x": 0
    },
    {
@@ -4714,8 +4714,8 @@
     "i": "attention deficit hyperactivity disorder, inattentive type",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available for this drug\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"marketed in the UK as a 200 mg tablet.\"",
     "x": 0
    },
    {
@@ -4736,8 +4736,8 @@
     "i": "hypertrichosis (disease)",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Removed: \"(the regulatory entry is incomplete)\"",
+    "r": 3,
+    "rs": "Corrected: \"Ivabradine is a heart-rate-lowering medicine that has a UK marketing authorisation as a 5 mg…",
     "x": 0
    },
    {
@@ -5165,8 +5165,8 @@
     "i": "insomnia (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Removed: \"One valid single-ingredient authorisation is recorded. The record does not include manufacturer…",
+    "r": 3,
+    "rs": "Corrected: \"marketed in the UK as a tablet;\"",
     "x": 1
    },
    {
@@ -5187,8 +5187,8 @@
     "i": "disease of retroperitoneum",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Removed: \"One single-ingredient authorisation is recorded, with valid status\"",
+    "r": 2,
+    "rs": "Corrected: \"Pristinamycin is a streptogramin antibiotic marketed in the UK as a 500 mg tablet.\"",
     "x": 0
    },
    {
@@ -5968,8 +5968,8 @@
     "i": "dry eye syndrome",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "\"Detailed mechanism of action data is not currently available for cysteine\" replaced with a sourced…",
+    "r": 2,
+    "rs": "Corrected: \"Cysteine is a sulphur-containing amino acid and a precursor of glutathione, available in the UK…",
     "x": 0
    },
    {
@@ -5979,8 +5979,8 @@
     "i": "meningococcal infection",
     "lt": 0,
     "lv": 0,
-    "r": 1,
-    "rs": "Removed: \"This is a single-ingredient authorisation record that is currently valid. The identifier shown is…",
+    "r": 2,
+    "rs": "Corrected: \"Xylitol is a sugar alcohol sold in the UK as part of a mucin/xylitol/sorbitol lozenge, but no…",
     "x": 0
    }
   ],

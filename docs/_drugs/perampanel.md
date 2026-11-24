@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel: predicted new indication Beta-ketothiolase deficiency (evidence level L5). In the UK: 18 NHSBSA BNF presentation codes"
@@ -172,8 +172,14 @@ Status epilepticus has a plausible mechanism and two systematic reviews plus sev
 - Results from adequately powered randomised controlled trials in refractory status epilepticus (NCT06401707 is a first step, but addresses prophylaxis)
 - Full warnings, contraindications and mechanism-of-action data from the SmPC and BNF
 - Safety review for acute or critical-care use, including interactions with sedatives and opioids and psychiatric adverse effects
-- Confirmation of the approved indication text and available formulations (the data lists tablets only; oral suspension is described in the literature)
+- Confirmation of the approved indication text and available formulations
 - For reflex-seizure predictions (visual, audiogenic and others), preclinical-to-clinical studies before any clinical consideration
+
+<!-- review:begin uk-lic-20261124b-perampanel-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "(the data lists tablets only; oral suspension is described in the literature)" Removed or corrected only the premise that the UK data list a single product or dosage form; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in other dosage forms. The suggested next step itself is unchanged. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-perampanel-1 -->
 
 <!-- review:begin log -->
 
@@ -185,6 +191,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "One valid single-ingredient authorisation is recorded" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-19 | "Detailed mechanism of action data is not available in the data compiled for this report" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
+| 2026-11-24 | Removed: "(the data lists tablets only; oral suspension is described in the literature)" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

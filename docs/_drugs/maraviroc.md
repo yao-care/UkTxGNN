@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Maraviroc: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the data compiled for this report"
 monitor_inn: "Maraviroc"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -38,9 +38,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet; the data compiled for this report do not include its approved indication text.
+Maraviroc is a CCR5 antagonist listed in the UK BNF prescribing codes as tablets and an oral solution, including 150 mg tablets; the data compiled for this report do not include its approved indication text.
 The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are **no clinical trials** and **no publications** supporting this prediction.
 This is a model-only prediction and should be treated as hypothesis-generating.
+
+<!-- review:begin uk-lic-20261124b-maraviroc-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;" Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-maraviroc-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ Below is the review log for this page: statements checked against the official d
 |------|------|------|------|
 | 2026-11-24 | Removed: "This is one valid single-ingredient product" | Corrected (revised 2026-11-24; earlier version kept in the record) | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 | 2026-11-20 | "Detailed mechanism of action data are not available in the data compiled for this report, so this description reflects general knowledge of the drug class rather than a supplied source" replaced with a sourced mechanism-of-action statement | Statement that mechanism-of-action data were not available replaced with a sourced excerpt (revised 2026-11-20; earlier version kept in the record) | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
+| 2026-11-24 | Corrected: "Maraviroc is a CCR5 antagonist that is marketed in the UK as a 150 mg tablet;" | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
 
 <!-- review:end log -->
 

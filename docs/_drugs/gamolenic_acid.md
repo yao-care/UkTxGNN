@@ -5,7 +5,7 @@ parent: Model Prediction Only (L5)
 nav_order: 311
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Gamolenic acid"
 predicted_indications: ["insomnia (disease)"]
 description: "Gamolenic Acid: predicted new indication Insomnia (disease) (evidence level L5). In the UK: 23 NHSBSA BNF presentation codes"
@@ -38,8 +38,14 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 ## One-Sentence Summary
 
-Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule. The data compiled for this report do not state its original approved indication.
+Gamolenic acid (GLA) is an omega-6 fatty acid listed in the UK BNF prescribing codes mainly as capsules, including 80 mg capsules. The data compiled for this report do not state its original approved indication.
 The TxGNN model predicts it may be effective for **insomnia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
+
+<!-- review:begin uk-lic-20261124b-gamolenic_acid-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule." Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-gamolenic_acid-1 -->
 
 ## Quick Overview
 
@@ -119,6 +125,19 @@ The insomnia prediction has a high model score but no supporting trials, no lite
 - Obtain mechanism of action data (for example from DrugBank).
 - Run a targeted literature and trial registry search (PubMed, ClinicalTrials.gov, ISRCTN, EU CTR) for GLA in insomnia and sleep disorders.
 - Such evidence may exist outside the compiled data and could raise the evidence level.
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "Gamolenic acid (GLA) is an omega-6 fatty acid marketed in the UK as an 80 mg capsule." | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

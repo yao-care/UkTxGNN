@@ -5,7 +5,7 @@ parent: Moderate Evidence (L3-L4)
 nav_order: 646
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tryptophan: predicted new indication Restless legs syndrome (evidence level L3). Approved use: Not available"
 monitor_inn: "Tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
@@ -38,8 +38,14 @@ Evidence Level: **L3** | Predicted Indications: **8**
 
 ## One-Sentence Summary
 
-Tryptophan is an essential amino acid and the precursor of serotonin and melatonin. It is marketed in the UK as a 500 mg tablet, but no approved indication text is available in the data compiled for this report.
+Tryptophan is an essential amino acid and the precursor of serotonin and melatonin. It is listed in the UK BNF prescribing codes as tablets and capsules, including 500 mg tablets, but no approved indication text is available in the data compiled for this report.
 The TxGNN model predicts it may be effective for **restless legs syndrome**, but there are **no registered clinical trials** and only **6 publications**, mostly small, old or indirect.
+
+<!-- review:begin uk-lic-20261124b-tryptophan-1 -->
+
+> **Review correction (2026-11-24)**: Originally stated: "It is marketed in the UK as a 500 mg tablet," Corrected: the sentence described the drug as having a single UK form, strength or product, based on the older evidence pack; the NHSBSA BNF prescribing code list (snapshot of the Release data-20261116-160902) lists presentations of this drug in more than one dosage form or strength. See the Quick Overview and the BNF code table under UK Market Information. These are NHS prescribing codes, not MHRA licences. Source: [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification).
+
+<!-- review:end uk-lic-20261124b-tryptophan-1 -->
 
 ---
 
@@ -132,6 +138,19 @@ The RLS prediction is biologically plausible, but the direct evidence is limited
 - A modern, adequately powered, placebo-controlled trial of tryptophan in RLS, with iron status and serotonergic co-medication recorded
 - A review of the knowledge-graph contraindications and serotonergic interaction risks for the RLS population
 - Confirmation of product quality and source standards for any supply used in research
+
+<!-- review:begin log -->
+
+## Review Log
+
+Below is the review log for this page: statements checked against the official data this site uses (the NHSBSA BNF prescribing code list; MHRA licence status is not included in it). Corrections are limited to basic factual statements; model predictions, evidence levels, and conclusions were not rewritten.
+
+| Review date | Item | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Corrected: "It is marketed in the UK as a 500 mg tablet," | Corrected | [NHSBSA BNF code information](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-classification) |
+
+<!-- review:end log -->
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
