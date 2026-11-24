@@ -60,3 +60,42 @@ def record_id(rec):
 
 def update(rec, new):
     return False  # 在列不改紀錄；只用來確認仍在列，查不到的列在 summary
+
+
+# 2026-11-24（用戶決定「許可證張數與狀態不再每週過期」）：每週排程（license_refresh_20261029.py 的 sync_tables 掛鉤）在概覽表同步之後，
+# 依證據包把市場段落的程式 BNF 代碼表重排（scripts/sync_license_tables.py 的 run；所有有證據包的頁都比對、只寫有變的）。
+# PAGE_NOTE：排程 3b 自我檢查允許的非表格列（程式區塊標記、來源句、Showing 句、沒有代碼的說明句）。
+def _slt(site_dir):
+    import importlib.util
+    from pathlib import Path
+    s = importlib.util.spec_from_file_location("uk_sync_license_tables", Path(site_dir) / "scripts" / "sync_license_tables.py")
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return m
+
+
+def sync_tables(site_dir, bundles):
+    """回傳 [(頁, 欄位, 前值, 後值)]"""
+    import difflib
+    from pathlib import Path
+    m = _slt(site_dir)
+    drugs = Path(site_dir) / "docs" / "_drugs"
+    before = {p.name: p.read_text(encoding="utf-8") for p in drugs.glob("*.md")}
+    out = []
+    for name in m.run():
+        new = (drugs / name).read_text(encoding="utf-8")
+        for l in difflib.unified_diff(before[name].split("\n"), new.split("\n"), lineterm="", n=0):
+            if l[:1] in "+-" and not l.startswith(("+++", "---")) and l[1:].startswith("|"):
+                out.append((name[:-3], "BNF code table (programmatic)", l[1:] if l[0] == "-" else "", l[1:] if l[0] == "+" else ""))
+    return out
+
+
+try:
+    import importlib.util as _ilu
+    from pathlib import Path as _P
+    _s = _ilu.spec_from_file_location("_uk_slt_note", _P(__file__).resolve().parent / "sync_license_tables.py")
+    _m = _ilu.module_from_spec(_s)
+    _s.loader.exec_module(_m)
+    PAGE_NOTE = _m.PAGE_NOTE
+except Exception:  # 站上的 license_adapter 被母目錄當模組載入時，路徑一定在 scripts/ 下；這裡只防萬一
+    PAGE_NOTE = r"^<!-- licenses:(begin|end) -->$"

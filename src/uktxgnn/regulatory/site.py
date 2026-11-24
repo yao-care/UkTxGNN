@@ -146,9 +146,8 @@ REGEN_NOTE = "the report was regenerated in 2026-11 and no longer contains this 
 def _fig(fc):
     if not fc or fc.get("total") is None:
         return ""
-    n = fc["total"]
-    return (f" This drug has {n} BNF presentation code{'s' if n != 1 else ''} in that list; the Quick Overview and the table under "
-            "UK Market Information show the current figures.")
+    # 2026-11-24（用戶決定）：說明不寫死筆數（筆數由程式維護在概覽表與市場段落的程式表，寫在紀錄裡會過期）
+    return " The Quick Overview and the BNF code table under UK Market Information show the current number of BNF presentation codes."
 
 
 def note_for(kind, date, fc):

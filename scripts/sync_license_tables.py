@@ -32,6 +32,9 @@ MAX_ROWS = 20
 # 讓查核紀錄、刪句工具與 gate 分得出哪些字是程式寫的；gate 依 snapshots/uk_licenses.json.gz 檢查程式區塊＝快照重算的結果。
 BEGIN = "<!-- licenses:begin -->"
 END = "<!-- licenses:end -->"
+# 每週排程 3b 的自我檢查（license_refresh）：改到的行除了表格列只能是這些（license_adapter.PAGE_NOTE 用同一份；2026-11-24）
+PAGE_NOTE = (r"^(" + "|".join(re.escape(x) for x in (BEGIN, END, SOURCE, NONE_LINE, PART_NOTE)) +
+             r"|Showing \d+ of \d+ BNF presentation codes\. " + re.escape(SOURCE) + r")$")
 
 
 def cell(x, n=80):
@@ -199,7 +202,12 @@ def main(argv):
         return
     dry = "--dry-run" in argv
     only = {a for a in argv if not a.startswith("--")}
-    n = 0
+    print(f"許可證表改 {len(run(only, dry))} 頁")
+
+
+def run(only=None, dry=False):
+    """依證據包重排所有有證據包的頁（只寫內容有變的）；回傳改到的檔名。每週排程經 license_adapter.sync_tables 呼叫（2026-11-24）"""
+    out = []
     for page in sorted((ROOT / "docs/_drugs").glob("*.md")):
         if only and page.stem not in only:
             continue
@@ -217,10 +225,10 @@ def main(argv):
         new = process(raw.replace("\r\n", "\n"), recs, int(reg.get("total_matches") or 0) > len(recs))
         if new is None:
             continue
-        n += 1
+        out.append(page.name)
         if not dry:
             page.write_bytes((new.replace("\n", "\r\n") if crlf else new).encode("utf-8"))
-    print(f"許可證表改 {n} 頁")
+    return out
 
 
 if __name__ == "__main__":
